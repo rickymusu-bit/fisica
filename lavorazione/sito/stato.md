@@ -1,5 +1,9 @@
 # Stato — Pagina di benvenuto e GitHub Pages
 
+## Tema comune approvato — 17 ottobre 2026, ore 00:22 (Europe/Rome)
+
+L’utente ha scelto https://mac-template.webflow.io/ come riferimento per la home e tutti i capitoli, esistenti e futuri. Scelta registrata nel master v53, A6, e in [TEMA_GRAFICO.md](../../riferimenti/TEMA_GRAFICO.md); non chiedere nuovamente quale template usare. La home esistente non è stata ancora adeguata al tema. Questa operazione aggiorna le istruzioni e gli stati, senza modificare HTML o pubblicazione. La realizzazione del tema segue le fasi pertinenti di B1.1–B2, preservando indice, letture, download e collegamenti.
+
 Master iniziale consultato: v45; versione corrente v49 dopo la rimozione dei reindirizzamenti richiesta dall’utente. Ambito: indice dei materiali italiani e pubblicazione GitHub Pages del repository pubblico `rickymusu-bit/fisica`.
 
 Autorizzazione: l’utente ha richiesto esplicitamente una pagina di benvenuto con indice solo dei materiali italiani e l’attivazione di GitHub Pages se il repository è pubblico. La visibilità pubblica è stata verificata. Questa richiesta è successiva alla migrazione e autorizza la pubblicazione ora.
