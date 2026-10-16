@@ -1,6 +1,6 @@
 # PROMPT MASTER — DISPENSE VISUALI DI FISICA PER IL BIENNIO DEGLI ISTITUTI TECNICI
 
-VERSIONE DEL PROMPT: v54 — 17 ottobre 2026, ore 00:48 (Europe/Rome)
+VERSIONE DEL PROMPT: v55 — 17 ottobre 2026, ore 00:58 (Europe/Rome)
 
 Questo master raccoglie le regole della dispensa e la procedura per realizzarla con il minor lavoro ripetuto possibile. Le istruzioni relative a immagini, video, traduzioni e simulazioni si applicano quando quei materiali fanno parte della richiesta. Non aggiungere contenuti o lavorazioni solo perché il master ne descrive la gestione.
 
@@ -91,7 +91,7 @@ Tutti i capitoli e la home del sito condividono il riferimento grafico approvato
 
 Per la tipografia comune a home e capitoli, l’utente richiede attenzione alla leggibilità per persone con dislessia: privilegia un carattere con lettere ben distinguibili, testo allineato a sinistra senza giustificazione, interlinea comoda e spaziature regolari. Adatta la tipografia del tema Mac a questo requisito e registra il carattere scelto in `riferimenti/TEMA_GRAFICO.md`, senza presentare un singolo font come soluzione universale.
 
-Usa HTML semantico, figure con didascalia, gerarchia corretta dei titoli, descrizioni accessibili pertinenti, contrasto sufficiente, navigazione da tastiera e focus visibile. Non affidare un’informazione al solo colore. L’alt descrive ciò che è utile capire, senza limitarsi al nome del file. L’indice è semplice, cliccabile e posto all’inizio del contenuto; ogni capitolo o sottoparte ha un id. Puoi inserire collegamenti discreti per tornare all’indice interno.
+Usa HTML semantico, figure con didascalia, gerarchia corretta dei titoli, descrizioni accessibili pertinenti, contrasto sufficiente, navigazione da tastiera e focus visibile. Non affidare un’informazione al solo colore. L’alt descrive ciò che è utile capire, senza limitarsi al nome del file. L’indice interno dei capitoli è una barra laterale a scomparsa, come in un lettore PDF, al posto dell’indice iniziale nel corpo della pagina. Un pulsante «Indice» nell’intestazione, accessibile anche durante lo scorrimento, apre il pannello inizialmente chiuso; ogni capitolo o sottoparte ha un id e una voce cliccabile. Evidenzia la sezione corrente senza affidarti al solo colore. Su smartphone il pannello si sovrappone alla pagina per preservare lo spazio di lettura. Consenti chiusura esplicita, con Esc e selezionando una voce; gestisci correttamente focus e navigazione da tastiera. Puoi inserire altri richiami discreti all’indice laterale.
 
 Ogni nuovo capitolo deve includere due tasti «← Indice dei materiali»: uno all’inizio del documento e uno alla fine del contenuto, prima del piè di pagina. Realizzali come collegamenti HTML all’indice generale `https://rickymusu-bit.github.io/fisica/#indice`, così sono utilizzabili anche dalle copie HTML scaricate quando è disponibile Internet. Mantieni lo stile approvato, un’area cliccabile alta almeno 44 px, il focus visibile e l’uso da tastiera.
 

@@ -15,3 +15,13 @@ Stato: prova pronta da mostrare; giudizio dell’utente sull’adattamento grafi
 ## Revisione tipografica — v2
 
 17 ottobre 2026, ore 00:48 (Europe/Rome). L’utente ha apprezzato il tema e richiesto un font che vada bene per le persone con dislessia. Proposto Lexend e applicato all’anteprima v2 al posto di Baloo Thambi 2, con testo a sinistra, interlinea 1,65, corpo 21 px (19 px su smartphone) e titoli senza spaziatura compressa. Font variabile e licenza SIL OFL 1.1 incorporati. Testo, formule, segnaposto e struttura grafica preservati. Formule a 20 px su smartphone, con scorrimento interno quando necessario; sostituiti i simboli di freccia non disponibili nel font con indicatori CSS. Master v54 registra il requisito comune; la scelta specifica di Lexend resta da valutare dall’utente. Verifiche rinnovate a 1440 e 390 px: font caricato, indice da tastiera funzionante, nessun errore JavaScript o scorrimento orizzontale della pagina; anteprime aggiornate.
+
+## Indice laterale — v3
+
+17 ottobre 2026, ore 00:58 (Europe/Rome). Risposta dell’utente alla v2: «Ok», seguita dalla richiesta di sostituire l’indice iniziale con una barra laterale a scomparsa come in un lettore PDF. Lexend accettato come base della revisione.
+
+Anteprima v3: rimosso l’indice orizzontale iniziale; aggiunto pannello laterale con dialog nativo, aperto dal pulsante «Indice» nell’intestazione persistente. Sezioni cliccabili, indicatore della sezione corrente, chiusura con pulsante, Esc, clic esterno e selezione di una voce. Focus contenuto nel pannello durante l’apertura; dopo la navigazione passa al titolo della sezione. JavaScript e CSS incorporati, nessuna libreria esterna. Testo, formule, visuali e tipografia conservati.
+
+Verificati in Chromium a 1440 e 390 px: chiuso all’avvio, apertura da tastiera, focus nel pannello, Esc e ritorno al pulsante, navigazione alle sezioni con chiusura e focus sul titolo, pulsante accessibile durante lo scorrimento, voce corrente corretta, chiusura dal fondo esterno, nessun errore JavaScript o scorrimento laterale della pagina. Esiti aggiornati in `verifiche.json`; nuove anteprime a pannello aperto in `indice-desktop.png` e `indice-smartphone.png`.
+
+Master v55 e riferimento grafico allineati alla richiesta. Nessun aggiornamento degli HTML ufficiali o del sito pubblicato. Salvataggio nel ramo dedicato; prossimo passaggio mostrare la nuova anteprima all’utente.
