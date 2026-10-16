@@ -1,7 +1,7 @@
 # PROMPT MASTER — DISPENSE VISUALI DI FISICA PER IL BIENNIO DEGLI ISTITUTI TECNICI
 
 
-VERSIONE DEL PROMPT: v46 — 16 ottobre 2026, ore 16:52 (Europe/Rome)
+VERSIONE DEL PROMPT: v47 — 16 ottobre 2026, ore 19:40 (Europe/Rome)
 
 
 Questo master raccoglie le regole della dispensa e la procedura per realizzarla con il minor lavoro ripetuto possibile. Le istruzioni relative a immagini, video, traduzioni e simulazioni si applicano quando quei materiali fanno parte della richiesta. Non aggiungere contenuti o lavorazioni solo perché il master ne descrive la gestione.
@@ -119,7 +119,10 @@ Tabelle, formule e grafici devono adattarsi o avere scorrimento orizzontale. Per
 Tutti i capitoli condividono un tema da blog di scienza, coerente per palette, tipografia, larghezza di lettura, titoli, formule, immagini, didascalie, tabelle e comandi. Prima di iniziare la progettazione di un nuovo capitolo chiedi esplicitamente all’utente quale template usare: un file HTML, un collegamento o un riferimento grafico da concordare. Se esiste già un template comune approvato, chiedi se usare quello senza richiederne un nuovo caricamento. Non inventare un tema né iniziare il capitolo finché il riferimento non è identificato. Riusa le regole grafiche del template approvato e adatta solo ciò che serve al contenuto e ai dispositivi; nelle revisioni preserva lo stile concordato.
 
 
-Usa HTML semantico, figure con didascalia, gerarchia corretta dei titoli, descrizioni accessibili pertinenti, contrasto sufficiente, navigazione da tastiera e focus visibile. Non affidare un’informazione al solo colore. L’alt descrive ciò che è utile capire, senza limitarsi al nome del file. L’indice è semplice, cliccabile e posto all’inizio del contenuto; ogni capitolo o sottoparte ha un id. Puoi inserire collegamenti discreti per tornare all’indice.
+Usa HTML semantico, figure con didascalia, gerarchia corretta dei titoli, descrizioni accessibili pertinenti, contrasto sufficiente, navigazione da tastiera e focus visibile. Non affidare un’informazione al solo colore. L’alt descrive ciò che è utile capire, senza limitarsi al nome del file. L’indice è semplice, cliccabile e posto all’inizio del contenuto; ogni capitolo o sottoparte ha un id. Puoi inserire collegamenti discreti per tornare all’indice interno.
+
+
+Ogni nuovo capitolo deve includere due tasti «← Indice dei materiali»: uno all’inizio del documento e uno alla fine del contenuto, prima del piè di pagina. Realizzali come collegamenti HTML all’indice generale `https://rickymusu-bit.github.io/fisica/#indice`, così sono utilizzabili anche dalle copie HTML scaricate quando è disponibile Internet. Mantieni lo stile approvato, un’area cliccabile alta almeno 44 px, il focus visibile e l’uso da tastiera.
 
 
 Se compare il nome dell’autore, scrivi «Riccardo Musumarra» con maiuscole normali, salvo diversa richiesta o prescrizione del documento da compilare.
@@ -360,7 +363,7 @@ Immagini e altri materiali:
 
 
 Funzionamento e lettura:
-- collegamenti interni ed esterni, indice, proporzioni, leggibilità e accessibilità;
+- collegamenti interni ed esterni, indice, tasti di ritorno all’indice generale secondo A6, proporzioni, leggibilità e accessibilità;
 - tabelle, formule, grafici ed elementi ricostruiti leggibili anche su smartphone;
 - stile uniforme, equilibrio tra testo e immagini e assenza di riquadri inutili;
 - video con miniatura e play, link funzionante e nessun lettore incorporato;

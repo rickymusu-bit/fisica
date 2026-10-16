@@ -1,6 +1,6 @@
 # Stato — Pagina di benvenuto e GitHub Pages
 
-Master iniziale consultato: v45; versione corrente v46 dopo la separazione del quiz. Ambito: indice dei materiali italiani e pubblicazione GitHub Pages del repository pubblico `rickymusu-bit/fisica`.
+Master iniziale consultato: v45; versione corrente v47 dopo l’aggiunta della regola sui tasti nei nuovi capitoli. Ambito: indice dei materiali italiani e pubblicazione GitHub Pages del repository pubblico `rickymusu-bit/fisica`.
 
 Autorizzazione: l’utente ha richiesto esplicitamente una pagina di benvenuto con indice solo dei materiali italiani e l’attivazione di GitHub Pages se il repository è pubblico. La visibilità pubblica è stata verificata. Questa richiesta è successiva alla migrazione e autorizza la pubblicazione ora.
 
@@ -37,3 +37,8 @@ Conclusione della revisione: 2026-10-16 19:00 (Europe/Rome). Per il prossimo lav
 ## Tasto per tornare all’indice
 
 Aggiornamento: 2026-10-16 19:30 (Europe/Rome). Richiesta esplicita dell’utente. Inseriti due collegamenti all’indice generale in ogni dispensa italiana, all’inizio e alla fine. Destinazione `https://rickymusu-bit.github.io/fisica/#indice`, valida anche dalle copie scaricate. Versioni, letture e download aggiornati secondo D2; sedici URL precedenti reindirizzati direttamente alle versioni attuali, senza catene. Master v46 invariato. Modifica completata e verificata: [esiti](ritorno-indice.json). Test a 1440 e 390 px senza overflow, tasti di almeno 44 px, focus visibile e ritorno tramite Invio e clic. La homepage pubblica è stata sostituita con una copia locale soltanto nel test di navigazione; la destinazione HTTPS reale viene controllata alla pubblicazione. File sotto 20 MB; nessuna immagine aggiunta o compressa. Pubblicazione automatica tramite il workflow Pages da `main`, come richiesto dall’utente.
+
+
+## Regola per i capitoli futuri
+
+Aggiornamento: 2026-10-16 19:40 (Europe/Rome). L’utente richiede che i tasti appena introdotti siano presenti in tutti i capitoli futuri. Regola consolidata nel [master](../../MASTER_PROMPT.md) **v47**, sezione A6: ritorno all’indice generale all’inizio e prima del piè di pagina, collegamento HTTPS utilizzabile anche dai file scaricati con Internet, stile approvato, area di almeno 44 px e focus da tastiera visibile. D1 richiama il controllo dei tasti. Tutte le altre regole e intestazioni del master sono preservate e il confronto inverso delle tre modifiche è identico alla v46. Intervento concluso; nessun HTML o file di pubblicazione modificato. Per i nuovi capitoli applicare A6 durante la realizzazione e D1 prima della consegna.
