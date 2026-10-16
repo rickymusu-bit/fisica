@@ -1,0 +1,22 @@
+[
+  {
+    "width": 1440,
+    "overflow": false,
+    "errors": [],
+    "keyboard_anchor": true,
+    "formulas": 4,
+    "external_dependencies": 0,
+    "font_loaded": true,
+    "unconverted_latex": false
+  },
+  {
+    "width": 390,
+    "overflow": false,
+    "errors": [],
+    "keyboard_anchor": true,
+    "formulas": 4,
+    "external_dependencies": 0,
+    "font_loaded": true,
+    "unconverted_latex": false
+  }
+]

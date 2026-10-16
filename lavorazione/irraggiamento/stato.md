@@ -24,3 +24,7 @@ Non sono ancora concordati visuali, applicazioni opzionali, esercizi svolti, num
 A1–A5: percorso narrativo, formule motivate e interpretate, capitolo monografico e domande finali. A6: tema comune Mac e HTML autonomo accessibile. B1.1–B2: visuali concordate prima della bozza; bozza approvata prima di stima e via alla realizzazione. B6: aggiornare questo stato ai passaggi decisivi. C2: suggerire soggetti e funzione delle immagini, lasciando all’utente scelta e fornitura. D2.1: ramo dedicato, verifica dei salvataggi e distinzione da main e sito pubblicato.
 
 Prossima operazione: proporre un piccolo insieme di visuali con funzione e collocazione, definire i confini del contenuto e raccogliere eventuali idee dell’utente per animazioni o simulazioni, senza avviare la realizzazione.
+
+## Prova grafica richiesta
+
+17 ottobre 2026, ore 00:46 (Europe/Rome). L’utente chiede un esempio di pagina con il tema scelto e il testo del riferimento di stile. Preparata una [anteprima separata](../tema_grafico/anteprima.html), v1, con testo del campione, formule e segnaposto, verificata su desktop e smartphone. La richiesta autorizza la prova; non viene registrata come approvazione delle visuali o del capitolo completo. Prossimo passaggio: mostrare la pagina e raccogliere il riscontro sul tema, poi riprendere la progettazione delle visuali.

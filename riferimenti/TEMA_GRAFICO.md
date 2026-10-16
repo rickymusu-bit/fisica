@@ -11,7 +11,7 @@ L’utente ha indicato https://mac-template.webflow.io/ come template per tutti 
 
 Pagina e foglio di stile consultati il 17 ottobre 2026 (Europe/Rome). Il CSS del riferimento usa la famiglia Baloo Thambi 2 con alternativa sans-serif, titoli grandi e marcati, superfici prevalentemente bianche e grigie (#c4c4c4), testo e bordi neri, contorni spesso di 4 px e ombre nette sfalsate di 8 px. Le finestre con barra superiore e i pulsanti rettangolari richiamano un’interfaccia desktop classica. Il riferimento contiene anche impaginazioni a due colonne che diventano verticali sugli schermi più piccoli.
 
-Queste osservazioni derivano dall’HTML e dal CSS, non da una verifica visiva nel browser: il browser dell’ambiente non è installato al momento della registrazione. Prima della realizzazione verificare anche la resa visiva del riferimento.
+La registrazione iniziale derivava dall’HTML e dal CSS. Durante la successiva prova richiesta dall’utente è stata verificata anche la resa statica nel browser Chromium, caricando pagina e risorse tramite HTTPS con verifica TLS. La prova locale usa il font incorporato Baloo Thambi 2 e riprende finestre, grigi, contorni e ombre del riferimento.
 
 ## Adattamento alle dispense e alla home
 
@@ -24,4 +24,4 @@ Queste osservazioni derivano dall’HTML e dal CSS, non da una verifica visiva n
 
 ## Stato
 
-Approvato il riferimento grafico per home e capitoli; HTML esistenti ancora da adeguare. Questa registrazione non è una verifica di conformità degli HTML né un’approvazione della bozza o un via alla realizzazione del capitolo sull’irraggiamento. Applicare le fasi pertinenti del master senza chiedere nuovamente la scelta del tema.
+Approvato il riferimento grafico per home e capitoli; HTML esistenti ancora da adeguare. Su richiesta esplicita dell’utente è stata realizzata una [pagina dimostrativa](../lavorazione/tema_grafico/anteprima.html) con il testo del campione sull’irraggiamento e segnaposto per le visuali. La richiesta autorizza questa prova grafica; non costituisce approvazione del capitolo completo. Applicare le fasi pertinenti del master senza chiedere nuovamente la scelta del tema.
