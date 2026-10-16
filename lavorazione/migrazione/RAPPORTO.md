@@ -1,10 +1,10 @@
 # Migrazione di Materiale Didattico
 
-Aggiornamento: 2026-10-16 14:18 (Europe/Rome). Repository: `rickymusu-bit/fisica`. Ramo locale: `migrazione/materiale-didattico-drive`, derivato da `codex` (`7d60be70c0d2c5af95b31a804973299c7c98650f`).
+Aggiornamento: 2026-10-16 16:40 (Europe/Rome). Repository: `rickymusu-bit/fisica`. Ramo: `migrazione/materiale-didattico-drive`, derivato da `codex` (`7d60be70c0d2c5af95b31a804973299c7c98650f`).
 
-Migrazione completata e verificata **localmente**. Caricamento remoto bloccato da HTTP 403: il push Git è rifiutato e il connettore risponde «Resource not accessible by integration» alla creazione del ramo. Nessun ramo remoto creato e nessuna PR aperta. Il metadato aggregato del repository riporta `push: true`, ma le operazioni effettive di scrittura falliscono.
+Migrazione completata, verificata e caricata nel [ramo dedicato](https://github.com/rickymusu-bit/fisica/tree/migrazione/materiale-didattico-drive). Aperta la [pull request #1 in bozza verso codex](https://github.com/rickymusu-bit/fisica/pull/1), senza merge automatico. Il blocco iniziale HTTP 403 è stato risolto aggiornando l’accesso; il push è riuscito e il riferimento remoto è stato verificato. `codex` è rimasto al commit di partenza.
 
-Per completare il caricamento occorre autorizzare la connessione/integrazione GitHub attiva su `rickymusu-bit/fisica` con **Contents: Read and write**, quindi riconnetterla se i permessi sono cambiati. Per aprire una PR serve anche **Pull requests: Read and write**. Non fornire token in chat. In alternativa, chi dispone già di accesso Git in scrittura può importare il bundle consegnato e caricare il ramo. Nessuna modifica amministrativa, unione di rami o pubblicazione è stata eseguita.
+Nessuna modifica amministrativa, unione di rami o pubblicazione è stata eseguita.
 
 ## Fonti e confronto
 
@@ -49,7 +49,7 @@ Il [manifest](inventario.json) registra ID e URL della fonte, data, dimensione, 
 - `MASTER_PROMPT.md` v44 deriva dal testo v43 effettivamente recuperato. Il commit `e67f267599826221c963f4730e5e4d80069541bd` conserva la v43 integrale, inclusi BOM e terminatori originali.
 - Tutte le 29 intestazioni/sezioni sono presenti. Dieci sostituzioni circoscritte, registrate in [modifiche-master.json](modifiche-master.json), interessano intestazione, B6, D2, D2.1 e il riferimento alla cronologia in D3.1. Il testo al di fuori di tali sostituzioni è identico, normalizzati BOM e terminatori di riga.
 - Parti didattiche A e C, workflow B1–B5, controlli D1 e prevalenza D3 invariati; approvazione della bozza e via alla realizzazione restano obbligatori secondo il master. Versione interna progressiva, data e ora Europe/Rome preservate.
-- GitHub diventa la fonte ufficiale secondo le nuove regole; la sua copia remota sarà disponibile soltanto dopo la risoluzione del blocco di scrittura. Git conserva la cronologia; gli stati usano nomi Markdown stabili.
+- GitHub diventa la fonte ufficiale secondo le nuove regole; i file sono disponibili nel ramo dedicato e nella PR in bozza. Git conserva la cronologia; gli stati usano nomi Markdown stabili.
 - Creati `AGENTS.md` e nove stati di importazione: otto argomenti e quiz. Nessuna approvazione pregressa è stata dedotta, nessuna nuova bozza generata. `lavorazione/README.md` descrive dove conservare `bozza.md`, `bozza.html` e `risorse/` quando esistono contenuti effettivi.
 
 ## Verifiche e problemi rimasti
@@ -92,7 +92,7 @@ Non sono state eseguite prove visuali su browser/dispositivi né verifiche scien
 
 ## Ripresa e consegna
 
-Il ramo locale contiene prima la v43 originale, poi la migrazione e la v44. Il bundle include la cronologia Git; lo ZIP include i file correnti. Per riprendere da un altro ambiente con accesso in scrittura:
+Il ramo locale e quello remoto contengono prima la v43 originale, poi la migrazione e la v44 e l’aggiornamento di questo rapporto. Il bundle include la cronologia Git; lo ZIP include i file correnti. Per riprendere da un altro ambiente con accesso in scrittura:
 
 ```sh
 git clone fisica-migrazione-drive.bundle fisica-migrata
