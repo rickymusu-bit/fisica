@@ -1,6 +1,6 @@
 # PROMPT MASTER — DISPENSE VISUALI DI FISICA PER IL BIENNIO DEGLI ISTITUTI TECNICI
 
-VERSIONE DEL PROMPT: v53 — 17 ottobre 2026, ore 00:22 (Europe/Rome)
+VERSIONE DEL PROMPT: v54 — 17 ottobre 2026, ore 00:48 (Europe/Rome)
 
 Questo master raccoglie le regole della dispensa e la procedura per realizzarla con il minor lavoro ripetuto possibile. Le istruzioni relative a immagini, video, traduzioni e simulazioni si applicano quando quei materiali fanno parte della richiesta. Non aggiungere contenuti o lavorazioni solo perché il master ne descrive la gestione.
 
@@ -88,6 +88,8 @@ Progetta fin dall’inizio per smartphone, tablet, notebook e desktop. Mantieni 
 Tabelle, formule e grafici devono adattarsi o avere scorrimento orizzontale. Per gli elementi ricostruiti, preferisci prima una riorganizzazione leggibile: disposizione verticale, elementi impilati, legenda spostata, etichette abbreviate senza cambiare significato o maggiore altezza. Non limitarti a rimpicciolire una composizione desktop. Usa lo scorrimento quando non esiste una soluzione migliore; la leggibilità prevale sulla disposizione originale.
 
 Tutti i capitoli e la home del sito condividono il riferimento grafico approvato dall’utente: **Mac Template**, https://mac-template.webflow.io/. Questa scelta vale per tutti i capitoli esistenti e futuri e per la home; non chiedere nuovamente quale template usare, salvo richiesta di cambiarlo o un problema concreto di accesso al riferimento. Le indicazioni operative sono in `riferimenti/TEMA_GRAFICO.md`. Riprendi palette, tipografia, bordi, ombre nette e richiami alle finestre del sito di riferimento, mantenendo coerenza per larghezza di lettura, titoli, formule, immagini, didascalie, tabelle e comandi. Adatta il tema alla lettura didattica e ai dispositivi secondo A3–A6: evita di trasformare ogni paragrafo in un riquadro e conserva i colori scientificamente significativi di immagini e grafici. La scelta del tema non attesta che gli HTML esistenti siano già adeguati; la loro realizzazione o revisione segue B1.1–B2.
+
+Per la tipografia comune a home e capitoli, l’utente richiede attenzione alla leggibilità per persone con dislessia: privilegia un carattere con lettere ben distinguibili, testo allineato a sinistra senza giustificazione, interlinea comoda e spaziature regolari. Adatta la tipografia del tema Mac a questo requisito e registra il carattere scelto in `riferimenti/TEMA_GRAFICO.md`, senza presentare un singolo font come soluzione universale.
 
 Usa HTML semantico, figure con didascalia, gerarchia corretta dei titoli, descrizioni accessibili pertinenti, contrasto sufficiente, navigazione da tastiera e focus visibile. Non affidare un’informazione al solo colore. L’alt descrive ciò che è utile capire, senza limitarsi al nome del file. L’indice è semplice, cliccabile e posto all’inizio del contenuto; ogni capitolo o sottoparte ha un id. Puoi inserire collegamenti discreti per tornare all’indice interno.
 

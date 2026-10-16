@@ -28,3 +28,5 @@ Prossima operazione: proporre un piccolo insieme di visuali con funzione e collo
 ## Prova grafica richiesta
 
 17 ottobre 2026, ore 00:46 (Europe/Rome). L’utente chiede un esempio di pagina con il tema scelto e il testo del riferimento di stile. Preparata una [anteprima separata](../tema_grafico/anteprima.html), v1, con testo del campione, formule e segnaposto, verificata su desktop e smartphone. La richiesta autorizza la prova; non viene registrata come approvazione delle visuali o del capitolo completo. Prossimo passaggio: mostrare la pagina e raccogliere il riscontro sul tema, poi riprendere la progettazione delle visuali.
+
+17 ottobre 2026, ore 00:48 (Europe/Rome). Tema apprezzato dall’utente; aggiunta la richiesta di un font adatto alle persone con dislessia. Anteprima aggiornata a v2 con Lexend proposto dall’assistente, interlinea 1,65 e testo a sinistra. Il requisito è registrato nel master v54 e nel riferimento grafico; la scelta specifica del carattere resta da valutare sull’anteprima.

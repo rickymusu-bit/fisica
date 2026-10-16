@@ -5,9 +5,10 @@
     "errors": [],
     "keyboard_anchor": true,
     "formulas": 4,
-    "external_dependencies": 0,
     "font_loaded": true,
-    "unconverted_latex": false
+    "font": "Lexend, Arial, sans-serif",
+    "formula_size": "25px",
+    "external_dependencies": 0
   },
   {
     "width": 390,
@@ -15,8 +16,9 @@
     "errors": [],
     "keyboard_anchor": true,
     "formulas": 4,
-    "external_dependencies": 0,
     "font_loaded": true,
-    "unconverted_latex": false
+    "font": "Lexend, Arial, sans-serif",
+    "formula_size": "20px",
+    "external_dependencies": 0
   }
 ]
