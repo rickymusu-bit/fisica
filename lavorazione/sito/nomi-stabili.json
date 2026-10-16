@@ -1,0 +1,322 @@
+{
+  "base_git": "28bf652dde9d1969db4c91023d2f73ecf3f6f2ca",
+  "master": "v48; restanti istruzioni identiche alla v47 dopo inversione delle tre modifiche previste",
+  "file": [
+    {
+      "precedente": "bilancio_conservazione_rendimento_it_v11_20261016.html",
+      "file": "bilancio_conservazione_rendimento_it.html",
+      "lingua": "it",
+      "versioni_interne": [
+        {
+          "name": "version",
+          "content": "v11"
+        }
+      ],
+      "footer": "Versione v11 · 16 ottobre 2026",
+      "byte": 1010561,
+      "sha256": "44a71dfd9f07bb9ff5c0a86006b85a654ad2732b34beda142d9d7b4c0e408c69",
+      "pubblicato": true
+    },
+    {
+      "precedente": "grafici_piano_cartesiano_fr_v5_20261013.html",
+      "file": "grafici_piano_cartesiano_fr.html",
+      "lingua": "fr",
+      "versioni_interne": [
+        {
+          "name": "dispensa-versione",
+          "content": "v5"
+        }
+      ],
+      "footer": "Version v5 · 13 octobre 2026",
+      "byte": 804878,
+      "sha256": "00b2aecd606466bf43dd7314f8eb51e4387107f11795fee835006ee4378e3421",
+      "pubblicato": false
+    },
+    {
+      "precedente": "grafici_piano_cartesiano_it_v7_20261016.html",
+      "file": "grafici_piano_cartesiano_it.html",
+      "lingua": "it",
+      "versioni_interne": [
+        {
+          "name": "dispensa-versione",
+          "content": "v7 — 2026-10-16"
+        },
+        {
+          "name": "version",
+          "content": "v7"
+        }
+      ],
+      "footer": "Versione v7 · 16 ottobre 2026",
+      "byte": 807505,
+      "sha256": "256cad18e3b23b8eadb24eb5dfe426f357fa66b062e36b4fccfb72aa40e47aea",
+      "pubblicato": true
+    },
+    {
+      "precedente": "grafici_piano_cartesiano_sq_v5_20261013.html",
+      "file": "grafici_piano_cartesiano_sq.html",
+      "lingua": "sq",
+      "versioni_interne": [
+        {
+          "name": "dispensa-versione",
+          "content": "v5"
+        }
+      ],
+      "footer": "Versioni v5 · 13 tetor 2026",
+      "byte": 804572,
+      "sha256": "249386ceb1f18c32ee6a25435464282a306ffc88fef7a1432e9b5095f80218d8",
+      "pubblicato": false
+    },
+    {
+      "precedente": "lavoro_energie_potenza_it_v10_20261016.html",
+      "file": "lavoro_energie_potenza_it.html",
+      "lingua": "it",
+      "versioni_interne": [
+        {
+          "name": "version",
+          "content": "v10"
+        }
+      ],
+      "footer": "Versione v10 · 16 ottobre 2026",
+      "byte": 12106835,
+      "sha256": "3c5b92b6a95068dcf8c674dd3cbaac73f2923e8810ae147b880f31d99ce0d572",
+      "pubblicato": true
+    },
+    {
+      "precedente": "metodo_scientifico_fr_v5_20261013.html",
+      "file": "metodo_scientifico_fr.html",
+      "lingua": "fr",
+      "versioni_interne": [
+        {
+          "name": "document-version",
+          "content": "v5"
+        }
+      ],
+      "footer": "Version v5 · 13 octobre 2026",
+      "byte": 1468039,
+      "sha256": "eea7a54872a114cab4fc0ecded4887599aba24b7d2654c6649378b6017f82beb",
+      "pubblicato": false
+    },
+    {
+      "precedente": "metodo_scientifico_it_v7_20261016.html",
+      "file": "metodo_scientifico_it.html",
+      "lingua": "it",
+      "versioni_interne": [
+        {
+          "name": "document-version",
+          "content": "v7 — 2026-10-16"
+        },
+        {
+          "name": "version",
+          "content": "v7"
+        }
+      ],
+      "footer": "Versione v7 · 16 ottobre 2026",
+      "byte": 1469669,
+      "sha256": "9da4bdf7f2c70a6db51ce53a7ce7a2b8566a07e1592e509ea9014be4b7114719",
+      "pubblicato": true
+    },
+    {
+      "precedente": "metodo_scientifico_sq_v5_20261013.html",
+      "file": "metodo_scientifico_sq.html",
+      "lingua": "sq",
+      "versioni_interne": [
+        {
+          "name": "document-version",
+          "content": "v5"
+        }
+      ],
+      "footer": "Versioni v5 · 13 tetor 2026",
+      "byte": 1467912,
+      "sha256": "07746b4a3ec91514cbbf884106e39106b535ebbf58d6f2118766638019221593",
+      "pubblicato": false
+    },
+    {
+      "precedente": "potenza_termica_conduzione_convezione_it_v6_20261016.html",
+      "file": "potenza_termica_conduzione_convezione_it.html",
+      "lingua": "it",
+      "versioni_interne": [
+        {
+          "name": "version",
+          "content": "v6"
+        }
+      ],
+      "footer": "Versione v6 · 16 ottobre 2026",
+      "byte": 15380213,
+      "sha256": "beeca71c8152ce89c5751c3aa74f52ebc4a4958f112ebfc4865dc3603b2ca156",
+      "pubblicato": true
+    },
+    {
+      "precedente": "sistema_internazionale_notazione_fr_v8_20261013.html",
+      "file": "sistema_internazionale_notazione_fr.html",
+      "lingua": "fr",
+      "versioni_interne": [
+        {
+          "name": "document-version",
+          "content": "v8"
+        }
+      ],
+      "footer": "Version v8 · 13 octobre 2026",
+      "byte": 827784,
+      "sha256": "ab82d075979643273654b5df764c08b55345b734902855592266a7c66a13a060",
+      "pubblicato": false
+    },
+    {
+      "precedente": "sistema_internazionale_notazione_it_v10_20261016.html",
+      "file": "sistema_internazionale_notazione_it.html",
+      "lingua": "it",
+      "versioni_interne": [
+        {
+          "name": "document-version",
+          "content": "v10 — 2026-10-16"
+        },
+        {
+          "name": "version",
+          "content": "v10"
+        }
+      ],
+      "footer": "Versione v10 · 16 ottobre 2026",
+      "byte": 830046,
+      "sha256": "fcf517359d9088d4298eb9906279bdc0ecf1b22683b7f3bfefd8b293cd0c1cfc",
+      "pubblicato": true
+    },
+    {
+      "precedente": "sistema_internazionale_notazione_sq_v8_20261013.html",
+      "file": "sistema_internazionale_notazione_sq.html",
+      "lingua": "sq",
+      "versioni_interne": [
+        {
+          "name": "document-version",
+          "content": "v8"
+        }
+      ],
+      "footer": "Versioni v8 · 13 tetor 2026",
+      "byte": 826975,
+      "sha256": "3a2caf833482e2e64d68e230cd34c03f55ec413d6dd1c415c4f9069abf373912",
+      "pubblicato": false
+    },
+    {
+      "precedente": "stati_della_materia_e_passaggi_di_stato_v8_20261016.html",
+      "file": "stati_della_materia_e_passaggi_di_stato.html",
+      "lingua": "it",
+      "versioni_interne": [
+        {
+          "name": "version",
+          "content": "v8"
+        }
+      ],
+      "footer": "Versione v8 · 16 ottobre 2026",
+      "byte": 19864994,
+      "sha256": "c5ff994c4141b6766a78e9ae175706ce85f1a5476ca79f739763670b1af8b657",
+      "pubblicato": true
+    },
+    {
+      "precedente": "strumenti_errori_incertezza_fr_v4_20261013.html",
+      "file": "strumenti_errori_incertezza_fr.html",
+      "lingua": "fr",
+      "versioni_interne": [
+        {
+          "name": "document-version",
+          "content": "v4"
+        }
+      ],
+      "footer": "Version v4 · 13 octobre 2026",
+      "byte": 1278289,
+      "sha256": "1fdd2ee56362c9b4a237d10adbaf41ab84d160017ccf419aab4d2bf148973cae",
+      "pubblicato": false
+    },
+    {
+      "precedente": "strumenti_errori_incertezza_it_v6_20261016.html",
+      "file": "strumenti_errori_incertezza_it.html",
+      "lingua": "it",
+      "versioni_interne": [
+        {
+          "name": "document-version",
+          "content": "v6 — 2026-10-16"
+        },
+        {
+          "name": "version",
+          "content": "v6"
+        }
+      ],
+      "footer": "Versione v6 · 16 ottobre 2026",
+      "byte": 1280957,
+      "sha256": "d9a4c9b2fed3c29f0393547ac875e8ab603abb289a9a5af07baa7873a7024106",
+      "pubblicato": true
+    },
+    {
+      "precedente": "strumenti_errori_incertezza_sq_v4_20261013.html",
+      "file": "strumenti_errori_incertezza_sq.html",
+      "lingua": "sq",
+      "versioni_interne": [
+        {
+          "name": "document-version",
+          "content": "v4"
+        }
+      ],
+      "footer": "Versioni v4 · 13 tetor 2026",
+      "byte": 1277865,
+      "sha256": "3816db89e8af471de9629f070c3bbc3f1f281249e1bed56c856c4b1eab04d2b1",
+      "pubblicato": false
+    }
+  ],
+  "numero_file": 16,
+  "reindirizzamenti_pubblici": 24,
+  "contenuti": "SHA-256 e byte identici; metadati e footer invariati",
+  "fase": "verifiche locali concluse; integrazione e pubblicazione tramite il workflow Pages",
+  "verifiche": {
+    "integrita": "16 file SHA-256 e byte identici alla fonte Git, incluse versioni interne",
+    "collegamenti_markdown": "tutti i riferimenti locali presenti",
+    "build": "9 HTML italiani correnti e 24 reindirizzamenti diretti; traduzioni escluse",
+    "browser": [
+      {
+        "file": "bilancio_conservazione_rendimento_it.html",
+        "lettura": "collegamento indice seguito",
+        "vecchio_url": "query e frammento conservati",
+        "download": "nome stabile e byte identici"
+      },
+      {
+        "file": "grafici_piano_cartesiano_it.html",
+        "lettura": "collegamento indice seguito",
+        "vecchio_url": "query e frammento conservati",
+        "download": "nome stabile e byte identici"
+      },
+      {
+        "file": "lavoro_energie_potenza_it.html",
+        "lettura": "collegamento indice seguito",
+        "vecchio_url": "query e frammento conservati",
+        "download": "nome stabile e byte identici"
+      },
+      {
+        "file": "metodo_scientifico_it.html",
+        "lettura": "collegamento indice seguito",
+        "vecchio_url": "query e frammento conservati",
+        "download": "nome stabile e byte identici"
+      },
+      {
+        "file": "potenza_termica_conduzione_convezione_it.html",
+        "lettura": "collegamento indice seguito",
+        "vecchio_url": "query e frammento conservati",
+        "download": "nome stabile e byte identici"
+      },
+      {
+        "file": "sistema_internazionale_notazione_it.html",
+        "lettura": "collegamento indice seguito",
+        "vecchio_url": "query e frammento conservati",
+        "download": "nome stabile e byte identici"
+      },
+      {
+        "file": "stati_della_materia_e_passaggi_di_stato.html",
+        "lettura": "collegamento indice seguito",
+        "vecchio_url": "query e frammento conservati",
+        "download": "nome stabile e byte identici"
+      },
+      {
+        "file": "strumenti_errori_incertezza_it.html",
+        "lettura": "collegamento indice seguito",
+        "vecchio_url": "query e frammento conservati",
+        "download": "nome stabile e byte identici"
+      }
+    ],
+    "indice_desktop_mobile": "1440 e 390 px senza overflow"
+  }
+}
