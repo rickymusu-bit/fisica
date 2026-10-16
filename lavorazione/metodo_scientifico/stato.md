@@ -13,3 +13,9 @@ Domanda iniziale, template approvato, checklist didattica, visuali e simulazioni
 Bozza corrente: nessuna fornita separatamente. Alla ripresa usa `bozza.md`, `bozza.html` e `risorse/` soltanto se necessari, con nomi stabili; non duplicare gli HTML ufficiali senza una lavorazione effettiva.
 
 Completato: importazione integrale; verifiche tecniche nel [rapporto](../migrazione/RAPPORTO.md). Punti aperti: eventuali anomalie elencate nel rapporto e informazioni progettuali non documentate. Prossima operazione: identificare la revisione richiesta e la sua versione di partenza, leggere master e file pertinenti, quindi seguire B1–B6 conservando le parti già approvate.
+
+## Revisione editoriale in preparazione
+
+Aggiornamento: 2026-10-16 17:16 (Europe/Rome). Master letto: v46. L’utente richiede una presentazione da blog, rimozione degli apparati da manuale e mantenimento dell’indice. Gli HTML ufficiali sono invariati. Fase corrente: analisi e proposta concreta, in attesa della conferma a partire prevista da B2 per la ristrutturazione complessiva. Non dedurre l’approvazione della bozza né il via alla realizzazione.
+
+Vedi [piano della revisione](../revisione-blog.md). Prossima operazione: raccogliere conferma sul piano e sulla stima; poi lavorare su questo capitolo e verificare indice, contenuti conservati, immagini e simulazioni.
