@@ -42,19 +42,23 @@
     .section-label h2{font-family:Georgia,"Times New Roman",serif;font-size:1.65rem;font-weight:400;letter-spacing:-.025em;margin-bottom:.5rem}
     .section-label span{color:var(--muted);font-size:.75rem;white-space:nowrap}
     .materials{padding:0;margin:0;list-style:none}
-    .material{border-top:1px solid var(--line)}
+    .material{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;column-gap:1rem;border-top:1px solid var(--line)}
     .material:last-child{border-bottom:1px solid var(--line)}
-    .material a{display:grid;grid-template-columns:2rem minmax(0,1fr) 1.5rem;gap:.8rem;padding:1.25rem .2rem;text-decoration:none;transition:background-color .15s}
-    .material a:hover{background:var(--soft)}
+    .material .read{display:grid;grid-template-columns:2rem minmax(0,1fr) 1.5rem;gap:.8rem;padding:1.25rem .2rem;text-decoration:none;transition:background-color .15s}
+    .material .read:hover{background:var(--soft)}
     .number{padding-top:.2rem;color:var(--accent);font-size:.75rem;font-variant-numeric:tabular-nums}
     .material h3{font-size:1.05rem;font-weight:650;line-height:1.4;margin:0 0 .3rem}
-    .material a:hover h3{text-decoration:underline;text-underline-offset:.2em}
+    .material .read:hover h3{text-decoration:underline;text-underline-offset:.2em}
     .material p{margin:0;color:var(--muted);font-size:.88rem}
+    .material .download{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:.55rem .75rem;border:1px solid var(--line);font-size:.78rem;text-decoration:none;white-space:nowrap}
+    .material .download:hover{background:var(--soft);border-color:var(--ink)}
+    .download-note{max-width:680px;color:var(--muted);font-size:.88rem}
     .arrow{align-self:center;color:var(--accent);font-size:1.3rem}
     footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:.5rem;padding-block:1.5rem;border-top:1px solid var(--line);color:var(--muted);font-size:.78rem}
     footer p{margin:0}
-    @media(max-width:700px){.catalogue{grid-template-columns:1fr;gap:2rem;padding-top:1.5rem}.contents{position:static}.contents ul{display:flex;flex-wrap:wrap;gap:.6rem 1.1rem}.contents li+li{margin:0}.contents a{font-size:.82rem}.intro{padding-bottom:2rem}.material a{grid-template-columns:1.5rem minmax(0,1fr) 1rem;gap:.5rem}.section-label h2{font-size:1.45rem}.section-label span{font-size:.7rem}}
-    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.material a{transition:none}}
+    @media(max-width:900px){.material{grid-template-columns:minmax(0,1fr)}.material .read{padding-bottom:.7rem}.material .download{justify-self:start;margin:0 0 1rem 3rem}}
+    @media(max-width:700px){.catalogue{grid-template-columns:1fr;gap:2rem;padding-top:1.5rem}.contents{position:static}.contents ul{display:flex;flex-wrap:wrap;gap:.6rem 1.1rem}.contents li+li{margin:0}.contents a{font-size:.82rem}.intro{padding-bottom:2rem}.material .read{grid-template-columns:1.5rem minmax(0,1fr) 1rem;gap:.5rem}.material .download{margin-left:2rem}.section-label h2{font-size:1.45rem}.section-label span{font-size:.7rem}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.material .read{transition:none}}
   </style>
 </head>
 <body>
@@ -69,6 +73,7 @@
         <p class="eyebrow">Osservare · Capire · Ragionare</p>
         <h1 id="benvenuto">La fisica,<br><em>un fenomeno alla volta.</em></h1>
         <p class="welcome">Benvenuto nella raccolta di materiali di fisica di Riccardo Musumarra. Esplora le dispense visuali e segui gli esempi. Scegli un argomento per cominciare.</p>
+        <p class="download-note">Apri una dispensa per leggerla online oppure scegli «Scarica HTML» per salvarla sul tuo dispositivo.</p>
         <div class="intro-foot">
           <a class="jump" href="#indice">Esplora i materiali <span aria-hidden="true">↓</span></a>
           <span class="count">8 dispense · In italiano</span>
@@ -87,24 +92,24 @@
           <section class="group" id="misure" aria-labelledby="titolo-misure">
             <div class="section-label"><h2 id="titolo-misure">Misure e metodo</h2><span>4 dispense</span></div>
             <ol class="materials">
-              <li class="material"><a href="metodo_scientifico_it_v5_20261013.html"><span class="number" aria-hidden="true">01</span><div><h3>Il metodo scientifico</h3><p>Osservazioni, ipotesi e confronto con gli esperimenti.</p></div><span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 19 19 5M5 5h14v14"/></svg></span></a></li>
-              <li class="material"><a href="sistema_internazionale_notazione_it_v8_20261013.html"><span class="number" aria-hidden="true">02</span><div><h3>Sistema Internazionale e notazione scientifica</h3><p>Grandezze, unità di misura e potenze di dieci.</p></div><span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 19 19 5M5 5h14v14"/></svg></span></a></li>
-              <li class="material"><a href="strumenti_errori_incertezza_it_v4_20261013.html"><span class="number" aria-hidden="true">03</span><div><h3>Strumenti di misura, errori e incertezza</h3><p>Come leggere una misura e interpretarne l’affidabilità.</p></div><span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 19 19 5M5 5h14v14"/></svg></span></a></li>
-              <li class="material"><a href="grafici_piano_cartesiano_it_v5_20261013.html"><span class="number" aria-hidden="true">04</span><div><h3>Grafici e relazioni tra grandezze</h3><p>Il piano cartesiano e la lettura delle relazioni fisiche.</p></div><span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 19 19 5M5 5h14v14"/></svg></span></a></li>
+              <li class="material"><a class="read" href="metodo_scientifico_it_v5_20261013.html"><span class="number" aria-hidden="true">01</span><div><h3>Il metodo scientifico</h3><p>Osservazioni, ipotesi e confronto con gli esperimenti.</p></div><span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 19 19 5M5 5h14v14"/></svg></span></a><a class="download" href="metodo_scientifico_it_v5_20261013.html" download="metodo_scientifico_it_v5_20261013.html" aria-label="Scarica la dispensa: Il metodo scientifico (HTML)">Scarica HTML</a></li>
+              <li class="material"><a class="read" href="sistema_internazionale_notazione_it_v8_20261013.html"><span class="number" aria-hidden="true">02</span><div><h3>Sistema Internazionale e notazione scientifica</h3><p>Grandezze, unità di misura e potenze di dieci.</p></div><span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 19 19 5M5 5h14v14"/></svg></span></a><a class="download" href="sistema_internazionale_notazione_it_v8_20261013.html" download="sistema_internazionale_notazione_it_v8_20261013.html" aria-label="Scarica la dispensa: Sistema Internazionale e notazione scientifica (HTML)">Scarica HTML</a></li>
+              <li class="material"><a class="read" href="strumenti_errori_incertezza_it_v4_20261013.html"><span class="number" aria-hidden="true">03</span><div><h3>Strumenti di misura, errori e incertezza</h3><p>Come leggere una misura e interpretarne l’affidabilità.</p></div><span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 19 19 5M5 5h14v14"/></svg></span></a><a class="download" href="strumenti_errori_incertezza_it_v4_20261013.html" download="strumenti_errori_incertezza_it_v4_20261013.html" aria-label="Scarica la dispensa: Strumenti di misura, errori e incertezza (HTML)">Scarica HTML</a></li>
+              <li class="material"><a class="read" href="grafici_piano_cartesiano_it_v5_20261013.html"><span class="number" aria-hidden="true">04</span><div><h3>Grafici e relazioni tra grandezze</h3><p>Il piano cartesiano e la lettura delle relazioni fisiche.</p></div><span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 19 19 5M5 5h14v14"/></svg></span></a><a class="download" href="grafici_piano_cartesiano_it_v5_20261013.html" download="grafici_piano_cartesiano_it_v5_20261013.html" aria-label="Scarica la dispensa: Grafici e relazioni tra grandezze (HTML)">Scarica HTML</a></li>
             </ol>
           </section>
           <section class="group" id="energia" aria-labelledby="titolo-energia">
             <div class="section-label"><h2 id="titolo-energia">Lavoro ed energia</h2><span>2 dispense</span></div>
             <ol class="materials" start="5">
-              <li class="material"><a href="lavoro_energie_potenza_it_v8_20261013.html"><span class="number" aria-hidden="true">05</span><div><h3>Lavoro, energie e potenza</h3><p>I trasferimenti di energia e la rapidità con cui avvengono.</p></div><span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 19 19 5M5 5h14v14"/></svg></span></a></li>
-              <li class="material"><a href="bilancio_conservazione_rendimento_it_v9_20261013.html"><span class="number" aria-hidden="true">06</span><div><h3>Bilancio energetico, conservazione e rendimento</h3><p>Seguire l’energia nelle trasformazioni e valutarne l’utilizzo.</p></div><span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 19 19 5M5 5h14v14"/></svg></span></a></li>
+              <li class="material"><a class="read" href="lavoro_energie_potenza_it_v8_20261013.html"><span class="number" aria-hidden="true">05</span><div><h3>Lavoro, energie e potenza</h3><p>I trasferimenti di energia e la rapidità con cui avvengono.</p></div><span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 19 19 5M5 5h14v14"/></svg></span></a><a class="download" href="lavoro_energie_potenza_it_v8_20261013.html" download="lavoro_energie_potenza_it_v8_20261013.html" aria-label="Scarica la dispensa: Lavoro, energie e potenza (HTML)">Scarica HTML</a></li>
+              <li class="material"><a class="read" href="bilancio_conservazione_rendimento_it_v9_20261013.html"><span class="number" aria-hidden="true">06</span><div><h3>Bilancio energetico, conservazione e rendimento</h3><p>Seguire l’energia nelle trasformazioni e valutarne l’utilizzo.</p></div><span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 19 19 5M5 5h14v14"/></svg></span></a><a class="download" href="bilancio_conservazione_rendimento_it_v9_20261013.html" download="bilancio_conservazione_rendimento_it_v9_20261013.html" aria-label="Scarica la dispensa: Bilancio energetico, conservazione e rendimento (HTML)">Scarica HTML</a></li>
             </ol>
           </section>
           <section class="group" id="materia" aria-labelledby="titolo-materia">
             <div class="section-label"><h2 id="titolo-materia">Materia e calore</h2><span>2 dispense</span></div>
             <ol class="materials" start="7">
-              <li class="material"><a href="stati_della_materia_e_passaggi_di_stato_v6_20261016.html"><span class="number" aria-hidden="true">07</span><div><h3>Stati della materia e passaggi di stato</h3><p>Solidi, liquidi, gas e trasformazioni della materia.</p></div><span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 19 19 5M5 5h14v14"/></svg></span></a></li>
-              <li class="material"><a href="potenza_termica_conduzione_convezione_it_v4_20261016.html"><span class="number" aria-hidden="true">08</span><div><h3>Potenza termica e trasmissione del calore</h3><p>Conduzione, convezione e trasferimenti di energia termica.</p></div><span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 19 19 5M5 5h14v14"/></svg></span></a></li>
+              <li class="material"><a class="read" href="stati_della_materia_e_passaggi_di_stato_v6_20261016.html"><span class="number" aria-hidden="true">07</span><div><h3>Stati della materia e passaggi di stato</h3><p>Solidi, liquidi, gas e trasformazioni della materia.</p></div><span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 19 19 5M5 5h14v14"/></svg></span></a><a class="download" href="stati_della_materia_e_passaggi_di_stato_v6_20261016.html" download="stati_della_materia_e_passaggi_di_stato_v6_20261016.html" aria-label="Scarica la dispensa: Stati della materia e passaggi di stato (HTML)">Scarica HTML</a></li>
+              <li class="material"><a class="read" href="potenza_termica_conduzione_convezione_it_v4_20261016.html"><span class="number" aria-hidden="true">08</span><div><h3>Potenza termica e trasmissione del calore</h3><p>Conduzione, convezione e trasferimenti di energia termica.</p></div><span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 19 19 5M5 5h14v14"/></svg></span></a><a class="download" href="potenza_termica_conduzione_convezione_it_v4_20261016.html" download="potenza_termica_conduzione_convezione_it_v4_20261016.html" aria-label="Scarica la dispensa: Potenza termica e trasmissione del calore (HTML)">Scarica HTML</a></li>
             </ol>
           </section>
         </div>
