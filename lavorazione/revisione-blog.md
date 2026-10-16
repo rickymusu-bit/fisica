@@ -1,6 +1,6 @@
 # Revisione delle dispense come articoli di un blog
 
-Stato: revisione autorizzata dall’utente con «Vai», realizzata e verificata localmente; integrazione e pubblicazione in corso. Master letto integralmente: v46. La richiesta comprende soltanto le otto dispense italiane pubblicate sul sito; traduzioni e repository del quiz non sono coinvolti.
+Stato: revisione autorizzata dall’utente con «Vai», completata, verificata, integrata in `main` e pubblicata. Master letto integralmente: v46. La richiesta comprende soltanto le otto dispense italiane pubblicate sul sito; traduzioni e repository del quiz non sono coinvolti.
 
 ## Risultato proposto
 
@@ -92,4 +92,4 @@ Controlli strutturali superati: [esiti e hash](revisione-blog-verifiche.json). B
 
 Verifica browser completata: 2026-10-16 18:50 (Europe/Rome), dopo il permesso tecnico del sandbox concesso dall’utente. [Risultati](revisione-blog-browser.json): otto dispense a 1440 e 390 px, nessun errore JavaScript o overflow orizzontale; indice, sezione finale, reindirizzamenti con frammento e otto download reali verificati. Tutte le immagini HTML decodificate; provati punto da tastiera, tre curve selezionabili, pulsanti delle tre simulazioni del bilancio e relativi cursori visibili, cinque fasi del riscaldamento e tre canvas presenti. Anteprime mobile ispezionate e grafico del muro controllato dopo il caricamento completo. L’indice del bilancio è integro a layout stabile. Rimossa anche l’ultima frase autoreferenziale nel metodo scientifico.
 
-Punti aperti: verificare il salvataggio remoto e la pubblicazione prima della consegna. Le licenze non documentate delle immagini storiche/fornite restano un limite già presente, non una nuova attribuzione verificata; nessun credito noto è rimosso. Nessun materiale Drive modificato.
+Salvataggio remoto verificato e [PR #6](https://github.com/rickymusu-bit/fisica/pull/6) integrata. Il [workflow Pages](https://github.com/rickymusu-bit/fisica/actions/runs/38935850257) è riuscito per il commit `6cac15c15571f6ed7e21f41d91bf659fb99475d2`. [Controlli online](sito/revisione-blog-online.json): nove HTML correnti e otto reindirizzamenti HTTP 200, tutti identici byte per byte ai file verificati; quattro esclusioni HTTP 404. Le prove browser complete sono locali; il tentativo Chromium online si è fermato per `ERR_CERT_AUTHORITY_INVALID`, senza disabilitare TLS. Questo non ha impedito i confronti HTTPS con verifica del certificato, eseguiti dal client Python. Nessun intervento pendente nella revisione. Le licenze non documentate delle immagini storiche/fornite restano un limite già presente, non una nuova attribuzione verificata; nessun credito noto è rimosso. Nessun materiale Drive modificato.
