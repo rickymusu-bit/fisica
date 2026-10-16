@@ -140,7 +140,7 @@ Quando alcune zone di un fluido vengono riscaldate più di altre, spesso si form
 
 Il termosifone riscalda l’aria che si trova nelle sue vicinanze: l’aria tende a espandersi, diventa meno densa e sale. L’aria relativamente più fredda presente dall’altra parte della stanza può scendere e tornare vicino al radiatore, alimentando un moto di circolazione. La presenza di finestre, arredi e pareti modifica il percorso reale, che non è un circuito perfettamente regolare. Inoltre il termosifone cede energia alla stanza anche per irraggiamento.
 
-[IMMAGINE 14 — In una stanza, l’aria calda sale vicino al termosifone, mentre altra aria relativamente fredda torna verso il basso.]
+[IMMAGINE 14 — In una stanza, l’aria calda sale vicino al termosifone, mentre altra aria relativamente fredda torna verso il basso. Originale ricevuto: `risorse/stanza-originale-14877.jpg`; tradurre le scritte direttamente sull’originale senza caselle.]
 
 Didascalia: In una stanza, l’aria calda sale vicino al termosifone, mentre altra aria relativamente fredda torna verso il basso.
 
@@ -148,7 +148,7 @@ Didascalia: In una stanza, l’aria calda sale vicino al termosifone, mentre alt
 
 L’Equatore riceve mediamente più energia solare delle regioni polari. Il riscaldamento disuguale, insieme alla gravità, contribuisce a mettere in moto enormi masse d’aria: l’aria può salire nelle fasce più calde, muoversi in quota e ridiscendere altrove. La rotazione terrestre devia i venti e, con altri fattori, organizza la circolazione in grandi celle, come quelle di Hadley, Ferrel e polari. Quindi i venti planetari non derivano soltanto dalla semplice regola «l’aria calda sale».
 
-[IMMAGINE 15 — Modello semplificato della circolazione atmosferica: il riscaldamento non uniforme e la rotazione terrestre contribuiscono a determinare le grandi fasce dei venti.]
+[IMMAGINE 15 — Modello semplificato della circolazione atmosferica: il riscaldamento non uniforme e la rotazione terrestre contribuiscono a determinare le grandi fasce dei venti. Originale ricevuto: `risorse/atmosfera-originale-14874.jpg`; riutilizzare direttamente: italiano già presente e leggibile.]
 
 Didascalia: Modello semplificato della circolazione atmosferica: il riscaldamento non uniforme e la rotazione terrestre contribuiscono a determinare le grandi fasce dei venti.
 
@@ -156,7 +156,7 @@ Didascalia: Modello semplificato della circolazione atmosferica: il riscaldament
 
 Il mantello della Terra è costituito soprattutto da rocce solide, non da un oceano di magma liquido. Su tempi lunghissimi, però, il materiale può deformarsi e scorrere lentissimamente. Le differenze di temperatura e densità, insieme alla gravità, favoriscono i moti convettivi; le forze legate alle placche, come la discesa delle placche fredde in subduzione, sono importanti. Lo schema mostra un modello semplificato: questi movimenti sono molto più lenti delle correnti d’aria e non hanno necessariamente celle regolari.
 
-[IMMAGINE 16 — Modello dei movimenti lenti nel mantello: le rocce solide possono scorrere nel corso di milioni di anni.]
+[IMMAGINE 16 — Modello dei movimenti lenti nel mantello: le rocce solide possono scorrere nel corso di milioni di anni. Originale ricevuto: `risorse/mantello-originale-14875.jpg`; tradurre etichette e testo inferiore senza modificare sezione o frecce.]
 
 Didascalia: Modello dei movimenti lenti nel mantello: le rocce solide possono scorrere nel corso di milioni di anni.
 
@@ -176,7 +176,7 @@ Didascalia: La ventola spinge aria tra le numerose alette; il metallo trasferisc
 
 Nel motore a combustione si produce energia termica che non deve accumularsi eccessivamente. Una pompa fa circolare il liquido refrigerante nel motore e nel radiatore: il liquido caldo entra nel radiatore, scorre dentro tubi metallici e cede energia alle pareti e alle fitte alette. L’aria che attraversa il radiatore asporta energia; la ventola mantiene o aumenta il flusso anche quando l’auto è ferma o procede lentamente. Le alette aumentano enormemente la superficie di scambio. Il termostato regola il passaggio del liquido in funzione della temperatura. Il circuito del riscaldamento dell’abitacolo, visibile nello schema, è un ramo distinto del circuito di raffreddamento.
 
-[IMMAGINE 18 — Il liquido refrigerante trasporta energia dal motore al radiatore. La ventola favorisce il passaggio dell’aria attraverso le alette, che aumentano la superficie di scambio.]
+[IMMAGINE 18 — Il liquido refrigerante trasporta energia dal motore al radiatore. La ventola favorisce il passaggio dell’aria attraverso le alette, che aumentano la superficie di scambio. Originale ricevuto: `risorse/radiatore-originale-14872.jpg`; tradurre le etichette mantenendo intatti circuito e componenti.]
 
 Didascalia: Il liquido refrigerante trasporta energia dal motore al radiatore. La ventola favorisce il passaggio dell’aria attraverso le alette, che aumentano la superficie di scambio.
 

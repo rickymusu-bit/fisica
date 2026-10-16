@@ -30,18 +30,20 @@ Il riferimento grafico è quello delle dispense esistenti, già identificato: ne
 3. **Barra nella forgia.** Eliminare l’intero esempio e la figura, senza lasciare rinvii o crediti riferiti soltanto a quel materiale.
 4. **Etichette.** Tradurre nell’immagine di partenza conservando struttura, frecce, sfondi e informazioni scientifiche; nessuna casella che ricopra le vecchie scritte. Mostrare il risultato rispetto all’originale e verificare che non siano alterati i contenuti. Nessuna immagine sostitutiva scelta autonomamente.
 
-## Originali: recuperati e mancanti
+## Originali disponibili
 
-È stato recuperato dall’HTML l’[originale inglese della vetrocamera](potenza_termica_conduzione_convezione/risorse/vetrocamera-originale-inglese.jpg), che era stato inserito per errore nel paragrafo delle pareti. È disponibile anche il [muro incorporato](potenza_termica_conduzione_convezione/risorse/muro-versione-incorporata.jpg), da correggere.
+L’utente ha ora fornito i quattro originali dalla Libreria; sono stati ispezionati e conservati integralmente, senza elaborazioni. L’originale inglese della vetrocamera era già stato recuperato dall’HTML. Non mancano più immagini per gli interventi previsti.
 
-Per quattro schemi sono disponibili soltanto le versioni con le coperture già appiattite nel JPEG:
+| Materiale | Originale disponibile | Intervento previsto |
+| --- | --- | --- |
+| Vetrocamera | [Originale inglese recuperato](potenza_termica_conduzione_convezione/risorse/vetrocamera-originale-inglese.jpg) | Tradurre le etichette eliminando le scritte inglesi e ripristinando la continuità dello sfondo, senza caselle sovrapposte. |
+| Stanza | [14877.jpg](potenza_termica_conduzione_convezione/risorse/stanza-originale-14877.jpg) | Tradurre le sei scritte, mantenendo stanza, finestra, termosifone, frecce e sfumature. |
+| Atmosfera | [14874.jpg](potenza_termica_conduzione_convezione/risorse/atmosfera-originale-14874.jpg) | Riutilizzare direttamente: le etichette sono già in italiano, senza coperture. Nessuna rigenerazione necessaria. |
+| Mantello | [14875.jpg](potenza_termica_conduzione_convezione/risorse/mantello-originale-14875.jpg) | Tradurre scritte e testo inferiore conservando sezione, frecce, proporzioni e texture. Distinguere il modello illustrato dalla spiegazione sul mantello solido e sulle forze legate alle placche, già presente nel testo. |
+| Radiatore | [14872.jpg](potenza_termica_conduzione_convezione/risorse/radiatore-originale-14872.jpg) | Tradurre titolo ed etichette conservando la posizione dei componenti e il percorso del circuito, senza coperture sulle immagini. |
+| Muro | [Versione incorporata da correggere](potenza_termica_conduzione_convezione/risorse/muro-versione-incorporata.jpg) | Correggere il profilo di temperatura e verificare il modello descritto sopra. |
 
-- [Convezione nella stanza](potenza_termica_conduzione_convezione/risorse/stanza-con-coperture-da-sostituire.jpg).
-- [Circolazione atmosferica](potenza_termica_conduzione_convezione/risorse/atmosfera-con-coperture-da-sostituire.jpg).
-- [Sezione del mantello](potenza_termica_conduzione_convezione/risorse/mantello-con-coperture-da-sostituire.jpg).
-- [Circuito di raffreddamento dell’automobile](potenza_termica_conduzione_convezione/risorse/radiatore-con-coperture-da-sostituire.jpg).
-
-Nel materiale accessibile di questa conversazione non ci sono gli allegati originali di questi quattro schemi. Tre ricerche mirate di immagini su Drive, con i termini «convezione», «mantello» e «radiatore», non hanno restituito risultati. Non è disponibile uno strumento per cercare gli allegati di altre conversazioni. L’utente ha precisato che gli originali si trovano nella **Libreria di ChatGPT**. Le funzionalità attualmente disponibili non permettono di elencare o aprire quella Libreria e la cartella di Libreria esposta all’ambiente è vuota. Questo non significa che i file manchino dalla Libreria dell’utente: occorre aggiungerli a questa conversazione dalla Libreria, oppure fornire un collegamento accessibile ai file esatti; non dichiarare di averli recuperati, né ricostruire arbitrariamente informazioni coperte.
+Nomi, dimensioni e SHA-256 dei quattro nuovi originali sono in [originali-ricevuti.json](potenza_termica_conduzione_convezione/risorse/originali-ricevuti.json). La [mappa delle traduzioni](potenza_termica_conduzione_convezione/risorse/traduzioni-previste.md) rende verificabili le modifiche testuali previste. Le versioni con coperture restano conservate soltanto come riferimento della situazione da correggere.
 
 ## Versioni, collegamenti e verifiche
 
@@ -51,8 +53,8 @@ Verificare: rimozione completa degli apparati concordati; conservazione integral
 
 ## Stima e approvazione
 
-Stima orientativa della revisione completa: **45–90 minuti di lavoro**, esclusa l’attesa degli originali o delle risposte. Ripartizione: 15–25 minuti per l’editing e i raccordi delle otto dispense; 15–40 per il grafico e le immagini, con impegno di calcolo medio; 15–25 per verifiche, versionamento, collegamenti e pubblicazione. La principale incertezza riguarda disponibilità e qualità degli originali e l’esito delle traduzioni delle etichette. Le stime non sono garanzie. La successiva richiesta di conservare e spostare domande ed esercizi è recepita e non cambia l’intervallo orientativo.
+Stima orientativa della revisione completa: **45–90 minuti di lavoro**, esclusa l’attesa degli originali o delle risposte. Ripartizione: 15–25 minuti per l’editing e i raccordi delle otto dispense; 15–40 per il grafico e le immagini, con impegno di calcolo medio; 15–25 per verifiche, versionamento, collegamenti e pubblicazione. Gli originali sono ora disponibili. Le principali incertezze riguardano la resa delle etichette, soprattutto le scritte piccole del circuito di raffreddamento, e gli eventuali ritocchi necessari dopo il controllo delle immagini. Le stime non sono garanzie. La successiva richiesta di conservare e spostare domande ed esercizi è recepita e non cambia l’intervallo orientativo.
 
-Alternativa per fasi: prima la ripulitura degli apparati e le correzioni testuali, circa 20–35 minuti, poi immagini e controlli rimanenti quando sono disponibili gli originali. Questa alternativa non completa da sola il risultato richiesto; non avviarla automaticamente al posto della revisione completa.
+Alternativa per fasi: prima la ripulitura degli apparati e le correzioni testuali, circa 20–35 minuti, poi immagini e controlli rimanenti con gli originali ora disponibili. Questa alternativa non completa da sola il risultato richiesto; non avviarla automaticamente al posto della revisione completa.
 
-Il master, **B2**, richiede: «Per altri lavori complessi presenta la stima e attendi conferma prima dell’esecuzione; sono ammessi i controlli preliminari rapidi necessari alla stima». **B1.1** richiede l’approvazione del testo prima della realizzazione nelle ristrutturazioni che passano dalla bozza; la bozza termica è preparata per questa verifica. L’utente ha richiesto espressamente di seguire sempre il master. La fase attuale termina con proposta e bozza concrete: attendere la conferma a partire e le immagini mancanti prima della parte dipendente da tali originali.
+Il master, **B2**, richiede: «Per altri lavori complessi presenta la stima e attendi conferma prima dell’esecuzione; sono ammessi i controlli preliminari rapidi necessari alla stima». **B1.1** richiede l’approvazione del testo prima della realizzazione nelle ristrutturazioni che passano dalla bozza; la bozza termica è preparata per questa verifica. L’utente ha richiesto espressamente di seguire sempre il master. La fase attuale termina con proposta e bozza concrete: attendere la conferma esplicita a partire sulla proposta aggiornata; gli originali sono ora disponibili e non costituiscono più un blocco.

@@ -1,0 +1,50 @@
+[
+  {
+    "file": "radiatore-originale-14872.jpg",
+    "file_utente": "14872.jpg",
+    "soggetto": "circuito di raffreddamento automobile",
+    "lingua": "en",
+    "azione_prevista": "Tradurre etichette preservando circuito, frecce e componenti.",
+    "provenienza": "allegato originale fornito dall’utente in questa conversazione",
+    "approvazione_scelta": "materiale fornito dall’utente; traduzione espressamente richiesta",
+    "byte": 75803,
+    "sha256": "ddad42b1f5105da8966a5f42caecd6d67fcdfe4d2302ad3308563ed4905cda21",
+    "data": "2026-10-16 17:34 (Europe/Rome)"
+  },
+  {
+    "file": "atmosfera-originale-14874.jpg",
+    "file_utente": "14874.jpg",
+    "soggetto": "circolazione atmosferica",
+    "lingua": "it",
+    "azione_prevista": "Riutilizzare integralmente: la traduzione è già leggibile e priva di caselle.",
+    "provenienza": "allegato originale fornito dall’utente in questa conversazione",
+    "approvazione_scelta": "materiale fornito dall’utente; traduzione espressamente richiesta",
+    "byte": 135575,
+    "sha256": "8c6c5886c4b8b295061b3450decc57b76ce14a877190f31f55239e6674432b32",
+    "data": "2026-10-16 17:34 (Europe/Rome)"
+  },
+  {
+    "file": "mantello-originale-14875.jpg",
+    "file_utente": "14875.jpg",
+    "soggetto": "sezione del mantello",
+    "lingua": "en",
+    "azione_prevista": "Tradurre etichette e testo inferiore preservando frecce, texture e sezione.",
+    "provenienza": "allegato originale fornito dall’utente in questa conversazione",
+    "approvazione_scelta": "materiale fornito dall’utente; traduzione espressamente richiesta",
+    "byte": 114627,
+    "sha256": "60ed9be268c826c970042485a07304a9b22538fedb8e627c0402dad3449a555f",
+    "data": "2026-10-16 17:34 (Europe/Rome)"
+  },
+  {
+    "file": "stanza-originale-14877.jpg",
+    "file_utente": "14877.jpg",
+    "soggetto": "convezione nella stanza",
+    "lingua": "en",
+    "azione_prevista": "Tradurre direttamente le scritte sullo sfondo preservando stanza e frecce.",
+    "provenienza": "allegato originale fornito dall’utente in questa conversazione",
+    "approvazione_scelta": "materiale fornito dall’utente; traduzione espressamente richiesta",
+    "byte": 47654,
+    "sha256": "287098d629d17bdbcb10be1cc70d8281cf4a3199a6aad47702a98a9eeb0b354d",
+    "data": "2026-10-16 17:34 (Europe/Rome)"
+  }
+]
