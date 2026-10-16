@@ -1,7 +1,7 @@
 # PROMPT MASTER — DISPENSE VISUALI DI FISICA PER IL BIENNIO DEGLI ISTITUTI TECNICI
 
 
-VERSIONE DEL PROMPT: v44 — 16 ottobre 2026, ore 14:15 (Europe/Rome)
+VERSIONE DEL PROMPT: v45 — 16 ottobre 2026, ore 16:42 (Europe/Rome)
 
 
 Questo master raccoglie le regole della dispensa e la procedura per realizzarla con il minor lavoro ripetuto possibile. Le istruzioni relative a immagini, video, traduzioni e simulazioni si applicano quando quei materiali fanno parte della richiesta. Non aggiungere contenuti o lavorazioni solo perché il master ne descrive la gestione.
@@ -400,7 +400,7 @@ Alla consegna mostra soltanto i collegamenti alle versioni più recenti prodotte
 ### D2.1. Repository ufficiale e organizzazione dei materiali
 
 
-GitHub è la fonte ufficiale del progetto «Materiale Didattico»: repository https://github.com/rickymusu-bit/fisica, ramo di riferimento `codex`. Lavora in un ramo dedicato derivato da `codex`; verifica lo stato corrente del repository prima di modificare i file. Il master è `MASTER_PROMPT.md`; `AGENTS.md` impone la lettura del master e dello stato del capitolo prima di lavorare. La migrazione e il salvataggio nel ramo dedicato non equivalgono all’approvazione dei contenuti, all’unione nel ramo di riferimento o alla pubblicazione del sito.
+GitHub è la fonte ufficiale del progetto «Materiale Didattico»: repository https://github.com/rickymusu-bit/fisica, ramo di riferimento `main`. Lavora in un ramo dedicato derivato da `main`; verifica lo stato corrente del repository prima di modificare i file. Il master è `MASTER_PROMPT.md`; `AGENTS.md` impone la lettura del master e dello stato del capitolo prima di lavorare. La migrazione e il salvataggio nel ramo dedicato non equivalgono all’approvazione dei contenuti, all’unione nel ramo di riferimento o alla pubblicazione del sito.
 
 
 Mantieni inizialmente nomi e percorsi degli HTML esistenti per preservare i collegamenti. Le dispense restano HTML autonomi; le traduzioni richieste restano distinte per lingua. Conserva nella destinazione ufficiale soltanto i risultati pertinenti al compito; non trasferire automaticamente nei lavori futuri dispense storiche o materiali estranei. Il materiale `quiz/` importato conserva la propria organizzazione. Non convertire automaticamente le dispense in altri formati.

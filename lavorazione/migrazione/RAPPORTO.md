@@ -1,10 +1,12 @@
 # Migrazione di Materiale Didattico
 
-Aggiornamento: 2026-10-16 16:40 (Europe/Rome). Repository: `rickymusu-bit/fisica`. Ramo: `migrazione/materiale-didattico-drive`, derivato da `codex` (`7d60be70c0d2c5af95b31a804973299c7c98650f`).
+Aggiornamento: 2026-10-16 16:42 (Europe/Rome). Repository: `rickymusu-bit/fisica`. Ramo ufficiale: [main](https://github.com/rickymusu-bit/fisica/tree/main).
 
-Migrazione completata, verificata e caricata nel [ramo dedicato](https://github.com/rickymusu-bit/fisica/tree/migrazione/materiale-didattico-drive). Aperta la [pull request #1 in bozza verso codex](https://github.com/rickymusu-bit/fisica/pull/1), senza merge automatico. Il blocco iniziale HTTP 403 è stato risolto aggiornando l’accesso; il push è riuscito e il riferimento remoto è stato verificato. `codex` è rimasto al commit di partenza.
+La [pull request #1 verso main](https://github.com/rickymusu-bit/fisica/pull/1) raccoglie la migrazione e la successiva semplificazione dei rami, autorizzata dall’utente. `main` e `codex` erano identici al commit `7d60be70c0d2c5af95b31a804973299c7c98650f`; non c’erano modifiche da riconciliare. I materiali ufficiali sono reperibili in `main`; il master v45 indica `main` come riferimento per i futuri rami temporanei.
 
-Nessuna modifica amministrativa, unione di rami o pubblicazione è stata eseguita.
+La migrazione è stata sviluppata originariamente in `migrazione/materiale-didattico-drive`, derivato da `codex`. I riferimenti a `codex`, v43 e v44 nelle sezioni e nei manifest sottostanti descrivono le verifiche storiche della migrazione e non la configurazione corrente. La cronologia conserva tutte le versioni; la v45 modifica soltanto numero, data, ora e i due riferimenti al ramo in D2.1. I nove stati dei materiali registrano correttamente la v44 consultata durante l’importazione.
+
+Prima dell’integrazione sono stati verificati GitHub Pages disattivato, nessun workflow Actions, nessun deployment e nessun ambiente configurato. Le impostazioni di pubblicazione restano invariate. Il precedente blocco HTTP 403 è risolto.
 
 ## Fonti e confronto
 
@@ -44,12 +46,12 @@ L’inventario include tutte le sottocartelle scoperte. Le tre liste sono state 
 
 Il [manifest](inventario.json) registra ID e URL della fonte, data, dimensione, SHA-256 locale, esito del confronto e destinazione di ogni materiale. [fonti-drive.json](fonti-drive.json) conserva l’inventario delle cartelle.
 
-## Master e organizzazione
+## Master e organizzazione nella migrazione v44
 
 - `MASTER_PROMPT.md` v44 deriva dal testo v43 effettivamente recuperato. Il commit `e67f267599826221c963f4730e5e4d80069541bd` conserva la v43 integrale, inclusi BOM e terminatori originali.
 - Tutte le 29 intestazioni/sezioni sono presenti. Dieci sostituzioni circoscritte, registrate in [modifiche-master.json](modifiche-master.json), interessano intestazione, B6, D2, D2.1 e il riferimento alla cronologia in D3.1. Il testo al di fuori di tali sostituzioni è identico, normalizzati BOM e terminatori di riga.
 - Parti didattiche A e C, workflow B1–B5, controlli D1 e prevalenza D3 invariati; approvazione della bozza e via alla realizzazione restano obbligatori secondo il master. Versione interna progressiva, data e ora Europe/Rome preservate.
-- GitHub diventa la fonte ufficiale secondo le nuove regole; i file sono disponibili nel ramo dedicato e nella PR in bozza. Git conserva la cronologia; gli stati usano nomi Markdown stabili.
+- GitHub è la fonte ufficiale secondo le nuove regole; la destinazione definitiva dei file è `main`, tramite la PR #1. Git conserva la cronologia; gli stati usano nomi Markdown stabili.
 - Creati `AGENTS.md` e nove stati di importazione: otto argomenti e quiz. Nessuna approvazione pregressa è stata dedotta, nessuna nuova bozza generata. `lavorazione/README.md` descrive dove conservare `bozza.md`, `bozza.html` e `risorse/` quando esistono contenuti effettivi.
 
 ## Verifiche e problemi rimasti
@@ -92,15 +94,16 @@ Non sono state eseguite prove visuali su browser/dispositivi né verifiche scien
 
 ## Ripresa e consegna
 
-Il ramo locale e quello remoto contengono prima la v43 originale, poi la migrazione e la v44 e l’aggiornamento di questo rapporto. Il bundle include la cronologia Git; lo ZIP include i file correnti. Per riprendere da un altro ambiente con accesso in scrittura:
+Per riprendere il lavoro usa `main` e crea un ramo temporaneo per il compito:
 
 ```sh
-git clone fisica-migrazione-drive.bundle fisica-migrata
-cd fisica-migrata
-git remote set-url origin https://github.com/rickymusu-bit/fisica.git
-git push origin migrazione/materiale-didattico-drive
+git clone https://github.com/rickymusu-bit/fisica.git
+cd fisica
+git switch main
+git pull --ff-only
+git switch -c lavoro/nome-compito
 ```
 
-Prima del push ricontrollare che `codex` non sia cambiato; in caso contrario confrontare le nuove modifiche prima di integrare il lavoro. Il bundle è autosufficiente ed è stato verificato anche clonandolo in una directory temporanea.
+Leggi `MASTER_PROMPT.md` e lo stato del capitolo pertinente prima di lavorare. `AGENTS.md` prescrive ora rami temporanei derivati da `main`. L’unione nel ramo ufficiale segue le approvazioni richieste dal master e dall’utente. I rami `codex` e `migrazione/materiale-didattico-drive` sono superflui dopo l’integrazione, purché tutti i loro commit siano raggiungibili da `main`.
 
-Nessun materiale è stato eliminato o modificato su Drive. Nessuna impostazione o file di pubblicazione del sito è stato attivato o modificato. Il lavoro non è stato unito a `codex` o `main`.
+Nessun materiale è stato eliminato o modificato su Drive. Nessuna impostazione o file di pubblicazione del sito è stato attivato o modificato.
