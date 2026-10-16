@@ -2,6 +2,8 @@
 
 Leggere prima [MASTER_PROMPT.md](../MASTER_PROMPT.md), poi lo stato pertinente. Ogni capitolo usa `<capitolo>/stato.md`, con percorso stabile; durante il lavoro salva anche `<capitolo>/bozza.md`, `<capitolo>/bozza.html` e `<capitolo>/risorse/` quando esistono contenuti effettivi. Aggiorna gli stessi file e affida la cronologia a Git. La bozza non sostituisce l’HTML ufficiale.
 
+Lo standard comune per i capitoli esistenti e futuri è definito in [A3 del master](../MASTER_PROMPT.md#a3-ambito-struttura-e-continuità-visiva). Durante l'adeguamento registra nello stato confini monografici, file di origine e destinazione, copertina distinta dalle immagini interne, parti opzionali concordate, domande finali e verifiche dei collegamenti. Gli stati storici non attestano la conformità al nuovo standard.
+
 Gli stati iniziali registrano soltanto i fatti della migrazione: non attestano approvazioni didattiche pregresse. La cartella Drive di lavorazione era vuota. Il materiale quiz ha uno stato distinto.
 
 - [bilancio_conservazione_rendimento](bilancio_conservazione_rendimento/stato.md)
