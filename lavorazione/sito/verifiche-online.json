@@ -1,0 +1,79 @@
+{
+  "url": "https://rickymusu-bit.github.io/fisica/",
+  "verifiche": [
+    {
+      "percorso": "index.html",
+      "http": 200,
+      "sha256": "88be20a8fe11965bb8a4081b9655648b921fc2a8491b49d17f5cb92c347dd945",
+      "identico_al_repository": true
+    },
+    {
+      "percorso": "metodo_scientifico_it_v5_20261013.html",
+      "http": 200,
+      "sha256": "956b0946f27e24c84f45b7098188cea85348837d84837b995e2a9a58ae5e78d4",
+      "identico_al_repository": true
+    },
+    {
+      "percorso": "sistema_internazionale_notazione_it_v8_20261013.html",
+      "http": 200,
+      "sha256": "3df463e5643364c4e64dc8f871c81cc62ddbeb12be13ea019bbe35c3e513fb55",
+      "identico_al_repository": true
+    },
+    {
+      "percorso": "strumenti_errori_incertezza_it_v4_20261013.html",
+      "http": 200,
+      "sha256": "bcdf5ea5b2eb68428af8380eea98b2f4e07c391453b93aa7b944e9579efeb03e",
+      "identico_al_repository": true
+    },
+    {
+      "percorso": "grafici_piano_cartesiano_it_v5_20261013.html",
+      "http": 200,
+      "sha256": "1922afc64143793c9868c24c710a6dff240761a70793d70c12bb96d15cd73c9c",
+      "identico_al_repository": true
+    },
+    {
+      "percorso": "lavoro_energie_potenza_it_v8_20261013.html",
+      "http": 200,
+      "sha256": "a5b87cf037fc1d04a3e740d4d77b404b77cbf157445a28f85f95d02929829128",
+      "identico_al_repository": true
+    },
+    {
+      "percorso": "bilancio_conservazione_rendimento_it_v9_20261013.html",
+      "http": 200,
+      "sha256": "3403d2fc9fab0326dcb2cb69a8ac0f9bae81ce28e057d532964ee1ff0a1c859a",
+      "identico_al_repository": true
+    },
+    {
+      "percorso": "stati_della_materia_e_passaggi_di_stato_v6_20261016.html",
+      "http": 200,
+      "sha256": "ca83bbcb7547c1c72ca7eabde87b20246c4afad39a4d3f449d36d9028a93d4b4",
+      "identico_al_repository": true
+    },
+    {
+      "percorso": "potenza_termica_conduzione_convezione_it_v4_20261016.html",
+      "http": 200,
+      "sha256": "962cd249593ba41136a5c5657194917a4661fa0aca9531ce6e5a3c52e854aeb2",
+      "identico_al_repository": true
+    },
+    {
+      "percorso": "quiz/Chi_vuol_essere_rimandato_quiz_v3_20261008.html",
+      "http": 404,
+      "escluso": true
+    },
+    {
+      "percorso": "metodo_scientifico_fr_v5_20261013.html",
+      "http": 404,
+      "escluso": true
+    },
+    {
+      "percorso": "MASTER_PROMPT.md",
+      "http": 404,
+      "escluso": true
+    },
+    {
+      "percorso": "lavorazione/sito/stato.md",
+      "http": 404,
+      "escluso": true
+    }
+  ]
+}
