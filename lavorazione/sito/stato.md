@@ -12,4 +12,6 @@ La realizzazione dei contenuti didattici esistenti resta invariata; nessun mater
 
 Quiz: escluso dall’indice e dall’artefatto del sito. I quattro file sono preparati nel repository locale `/workspace/quiz`, con hash e provenienza, ma la creazione di `rickymusu-bit/quiz` è stata rifiutata da GitHub con «Resource not accessible by integration (createRepository)». In attesa di una destinazione remota accessibile, gli originali in `fisica/quiz/` non vengono rimossi.
 
-Fase: pagina e workflow preparati; verifiche locali, attivazione del servizio e controllo online da completare. Non dichiarare il sito pubblicato prima della conferma del deployment.
+Verifiche locali: preparazione di nove HTML (indice più otto dispense), riferimenti esistenti, lingua italiana verificata e materiali originali identici tramite SHA-256. Nel browser Chromium sono stati verificati indice, assenza del quiz, navigazione da tastiera e ancore; nessun errore JavaScript e nessuno scorrimento laterale alle larghezze 1440 e 390 px. Anteprime desktop e smartphone ispezionate.
+
+Attivazione GitHub Pages bloccata: la chiamata `POST /repos/rickymusu-bit/fisica/pages` con `build_type=workflow` è rifiutata con HTTP 403, «Resource not accessible by integration». Occorre impostare manualmente Settings → Pages → Source → GitHub Actions, oppure autorizzare la connessione alla gestione di Pages. Il codice è pronto per l’integrazione in `main`; verificare il deployment e i link online appena il servizio è abilitato. Non dichiarare il sito pubblicato prima della conferma del deployment.

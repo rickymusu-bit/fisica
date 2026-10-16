@@ -9,3 +9,5 @@ GitHub Pages pubblica da `main` attraverso `.github/workflows/pages.yml`. La pre
 Per aggiungere o aggiornare un materiale sul sito, modifica il collegamento in `index.html` e verifica la preparazione prima di integrare il lavoro in `main`.
 
 Prima di lavorare leggi `MASTER_PROMPT.md`, `AGENTS.md` e lo stato pertinente in `lavorazione/`.
+
+La prima attivazione richiede **Settings → Pages → Source → GitHub Actions**. Se non parte una pubblicazione automatica, esegui **Actions → Pubblica i materiali italiani → Run workflow** sul ramo `main`.
