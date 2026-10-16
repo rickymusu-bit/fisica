@@ -37,3 +37,7 @@ Verifiche in `verifiche.json`: desktop 1440 px, mobile touch 390 px con e senza 
 ## Nome del collegamento alla home — v5
 
 17 ottobre 2026, ore 01:05 (Europe/Rome). L’utente chiede di sostituire «Materiali» con un nome meno generico. Applicata «← Biblioteca di fisica» a entrambi i collegamenti della prova; URL invariati. Master v56 e riferimento grafico allineati. Adeguata la disposizione dell’intestazione per il testo più lungo sugli schermi stretti. Nessun HTML ufficiale o pubblicazione modificato.
+
+## Etichetta in una parola — v6
+
+17 ottobre 2026, ore 01:06 (Europe/Rome). L’utente precisa che l’etichetta deve essere una sola parola. Applicata «← Biblioteca» in alto e in fondo alla pagina; URL invariati. Master v57 e riferimento grafico allineati.

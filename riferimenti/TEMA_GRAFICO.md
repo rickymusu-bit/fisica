@@ -1,7 +1,7 @@
 # Tema grafico comune
 
 Aggiornamento: 17 ottobre 2026, ore 00:58 (Europe/Rome).
-Master: v56, A6.
+Master: v57, A6.
 
 ## Scelta approvata
 
@@ -38,4 +38,4 @@ Compatibilità delle anteprime: apertura e chiusura esplicita devono funzionare 
 
 Approvato il riferimento grafico per home e capitoli; HTML esistenti ancora da adeguare. Su richiesta esplicita dell’utente è stata realizzata una [pagina dimostrativa](../lavorazione/tema_grafico/anteprima.html) con il testo del campione sull’irraggiamento e segnaposto per le visuali. La richiesta autorizza questa prova grafica; non costituisce approvazione del capitolo completo. Applicare le fasi pertinenti del master senza chiedere nuovamente la scelta del tema.
 
-Il collegamento alla home ha etichetta **«← Biblioteca di fisica»**, in alto e in fondo al capitolo, al posto di «Materiali» o «Indice dei materiali». Destinazione invariata: `https://rickymusu-bit.github.io/fisica/#indice`. Nome scelto dall’assistente in risposta alla richiesta dell’utente di usare una dicitura meno generica.
+Il collegamento alla home ha etichetta **«← Biblioteca»**, in alto e in fondo al capitolo, al posto di «Materiali» o «Indice dei materiali». Destinazione invariata: `https://rickymusu-bit.github.io/fisica/#indice`. Nome scelto dall’assistente in risposta alla richiesta dell’utente di usare una dicitura meno generica, successivamente precisata in una sola parola.
