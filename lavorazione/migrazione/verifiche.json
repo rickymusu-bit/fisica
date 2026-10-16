@@ -1,0 +1,435 @@
+{
+  "integrita": {
+    "file_verificati": 20,
+    "byte_totali": 60424211,
+    "confronto": "dimensione Drive e uguaglianza byte per byte con i download; SHA-256 locali registrati; checksum del provider non esposti dal connettore"
+  },
+  "master": {
+    "sorgente_byte": 53679,
+    "sorgente_sha256": "fb5580bc5128c3601a53f01639e87abdcfd1ae5385c3cc110b70b7439e41e7e2",
+    "versione_origine": "v43",
+    "versione_migrata": "v44",
+    "sezioni_origine": 29,
+    "sezioni_destinazione": 29,
+    "sostituzioni_circoscritte": 10,
+    "testo_fuori_sostituzioni": "identico (normalizzati BOM e terminatori di riga)",
+    "A_C_B1_B2_B3_B4_B5_D1_D3": "invariati"
+  },
+  "duplicati_identici": [],
+  "data_uri_base64_verificate": 168,
+  "html": [
+    {
+      "file": "potenza_termica_conduzione_convezione_it_v4_20261016.html",
+      "byte": 5627829,
+      "titoli": 1,
+      "id": 7,
+      "riferimenti_html": 21,
+      "iframe_locali_srcdoc": 0,
+      "meta_versione": {
+        "version": "v4"
+      }
+    },
+    {
+      "file": "stati_della_materia_e_passaggi_di_stato_v6_20261016.html",
+      "byte": 19863151,
+      "titoli": 1,
+      "id": 23,
+      "riferimenti_html": 24,
+      "iframe_locali_srcdoc": 0,
+      "meta_versione": {
+        "version": "v6"
+      }
+    },
+    {
+      "file": "bilancio_conservazione_rendimento_it_v9_20261013.html",
+      "byte": 1009728,
+      "titoli": 1,
+      "id": 9,
+      "riferimenti_html": 16,
+      "iframe_locali_srcdoc": 3,
+      "meta_versione": {
+        "version": "v9"
+      }
+    },
+    {
+      "file": "metodo_scientifico_fr_v5_20261013.html",
+      "byte": 1468039,
+      "titoli": 1,
+      "id": 9,
+      "riferimenti_html": 7,
+      "iframe_locali_srcdoc": 0,
+      "meta_versione": {
+        "document-version": "v5"
+      }
+    },
+    {
+      "file": "strumenti_errori_incertezza_fr_v4_20261013.html",
+      "byte": 1278289,
+      "titoli": 1,
+      "id": 6,
+      "riferimenti_html": 15,
+      "iframe_locali_srcdoc": 0,
+      "meta_versione": {
+        "document-version": "v4"
+      }
+    },
+    {
+      "file": "grafici_piano_cartesiano_sq_v5_20261013.html",
+      "byte": 804572,
+      "titoli": 17,
+      "id": 22,
+      "riferimenti_html": 8,
+      "iframe_locali_srcdoc": 0,
+      "meta_versione": {
+        "dispensa-versione": "v5"
+      }
+    },
+    {
+      "file": "sistema_internazionale_notazione_sq_v8_20261013.html",
+      "byte": 826975,
+      "titoli": 1,
+      "id": 7,
+      "riferimenti_html": 17,
+      "iframe_locali_srcdoc": 0,
+      "meta_versione": {
+        "document-version": "v8"
+      }
+    },
+    {
+      "file": "strumenti_errori_incertezza_sq_v4_20261013.html",
+      "byte": 1277865,
+      "titoli": 1,
+      "id": 6,
+      "riferimenti_html": 15,
+      "iframe_locali_srcdoc": 0,
+      "meta_versione": {
+        "document-version": "v4"
+      }
+    },
+    {
+      "file": "grafici_piano_cartesiano_fr_v5_20261013.html",
+      "byte": 804878,
+      "titoli": 17,
+      "id": 22,
+      "riferimenti_html": 8,
+      "iframe_locali_srcdoc": 0,
+      "meta_versione": {
+        "dispensa-versione": "v5"
+      }
+    },
+    {
+      "file": "metodo_scientifico_sq_v5_20261013.html",
+      "byte": 1467912,
+      "titoli": 1,
+      "id": 9,
+      "riferimenti_html": 7,
+      "iframe_locali_srcdoc": 0,
+      "meta_versione": {
+        "document-version": "v5"
+      }
+    },
+    {
+      "file": "sistema_internazionale_notazione_it_v8_20261013.html",
+      "byte": 828177,
+      "titoli": 1,
+      "id": 7,
+      "riferimenti_html": 17,
+      "iframe_locali_srcdoc": 0,
+      "meta_versione": {
+        "document-version": "v8 — 2026-10-13",
+        "version": "v8"
+      }
+    },
+    {
+      "file": "sistema_internazionale_notazione_fr_v8_20261013.html",
+      "byte": 827784,
+      "titoli": 1,
+      "id": 7,
+      "riferimenti_html": 17,
+      "iframe_locali_srcdoc": 0,
+      "meta_versione": {
+        "document-version": "v8"
+      }
+    },
+    {
+      "file": "metodo_scientifico_it_v5_20261013.html",
+      "byte": 1467999,
+      "titoli": 1,
+      "id": 9,
+      "riferimenti_html": 7,
+      "iframe_locali_srcdoc": 0,
+      "meta_versione": {
+        "document-version": "v5 — 2026-10-13",
+        "version": "v5"
+      }
+    },
+    {
+      "file": "strumenti_errori_incertezza_it_v4_20261013.html",
+      "byte": 1279166,
+      "titoli": 1,
+      "id": 6,
+      "riferimenti_html": 15,
+      "iframe_locali_srcdoc": 0,
+      "meta_versione": {
+        "document-version": "v4 — 2026-10-13",
+        "version": "v4"
+      }
+    },
+    {
+      "file": "grafici_piano_cartesiano_it_v5_20261013.html",
+      "byte": 804753,
+      "titoli": 17,
+      "id": 22,
+      "riferimenti_html": 8,
+      "iframe_locali_srcdoc": 0,
+      "meta_versione": {
+        "dispensa-versione": "v5 — 2026-10-13",
+        "version": "v5"
+      }
+    },
+    {
+      "file": "lavoro_energie_potenza_it_v8_20261013.html",
+      "byte": 12105085,
+      "titoli": 1,
+      "id": 85,
+      "riferimenti_html": 45,
+      "iframe_locali_srcdoc": 0,
+      "meta_versione": {
+        "version": "v8"
+      }
+    },
+    {
+      "file": "quiz/Chi_vuol_essere_rimandato_regole_v9_20261008.html",
+      "byte": 2305334,
+      "titoli": 1,
+      "id": 4,
+      "riferimenti_html": 0,
+      "iframe_locali_srcdoc": 0,
+      "meta_versione": {}
+    },
+    {
+      "file": "quiz/Chi_vuol_essere_rimandato_quiz_v3_20261008.html",
+      "byte": 6360835,
+      "titoli": 1,
+      "id": 58,
+      "riferimenti_html": 0,
+      "iframe_locali_srcdoc": 0,
+      "meta_versione": {}
+    }
+  ],
+  "problemi": [
+    {
+      "file": "stati_della_materia_e_passaggi_di_stato_v6_20261016.html",
+      "tipo": "ancora mancante",
+      "valore": "#arrowHead"
+    }
+  ],
+  "collegamenti_esterni": [
+    {
+      "url": "https://afdc.energy.gov/fuels/properties?properties=chemical_structure",
+      "file": [
+        "lavoro_energie_potenza_it_v8_20261013.html"
+      ],
+      "stato": 200,
+      "destinazione": "https://afdc.energy.gov/fuels/properties?properties=chemical_structure",
+      "verifica": "GET; lettura limitata a 1024 byte"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Electric-wire-rope-hoist.jpg",
+      "file": [
+        "bilancio_conservazione_rendimento_it_v9_20261013.html"
+      ],
+      "stato": 200,
+      "destinazione": "https://commons.wikimedia.org/wiki/File:Electric-wire-rope-hoist.jpg",
+      "verifica": "GET; lettura limitata a 1024 byte"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Pumped_Storage_Hydroelectric_Power_Plant_01-ja.svg",
+      "file": [
+        "bilancio_conservazione_rendimento_it_v9_20261013.html"
+      ],
+      "stato": 200,
+      "destinazione": "https://commons.wikimedia.org/wiki/File:Pumped_Storage_Hydroelectric_Power_Plant_01-ja.svg",
+      "verifica": "GET; lettura limitata a 1024 byte"
+    },
+    {
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "file": [
+        "bilancio_conservazione_rendimento_it_v9_20261013.html"
+      ],
+      "stato": 200,
+      "destinazione": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "verifica": "GET; lettura limitata a 1024 byte"
+    },
+    {
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "file": [
+        "bilancio_conservazione_rendimento_it_v9_20261013.html"
+      ],
+      "stato": 200,
+      "destinazione": "https://creativecommons.org/licenses/by/4.0/",
+      "verifica": "GET; lettura limitata a 1024 byte"
+    },
+    {
+      "url": "https://fsr.eui.eu/wp-content/uploads/160502Fornelli.pdf",
+      "file": [
+        "lavoro_energie_potenza_it_v8_20261013.html"
+      ],
+      "stato": 200,
+      "destinazione": "https://fsr.eui.eu/wp-content/uploads/160502Fornelli.pdf",
+      "verifica": "GET; lettura limitata a 1024 byte"
+    },
+    {
+      "url": "https://openclipart.org/detail/62857/perspective-wooden-crate",
+      "file": [
+        "bilancio_conservazione_rendimento_it_v9_20261013.html"
+      ],
+      "stato": null,
+      "esito": "The read operation timed out"
+    },
+    {
+      "url": "https://pacompendium.com/running/",
+      "file": [
+        "lavoro_energie_potenza_it_v8_20261013.html"
+      ],
+      "stato": 200,
+      "destinazione": "https://pacompendium.com/running/",
+      "verifica": "GET; lettura limitata a 1024 byte"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10818145/",
+      "file": [
+        "lavoro_energie_potenza_it_v8_20261013.html"
+      ],
+      "stato": 200,
+      "destinazione": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10818145/",
+      "verifica": "GET; lettura limitata a 1024 byte"
+    },
+    {
+      "url": "https://science.gsfc.nasa.gov/attic/cosmicopia.gsfc.nasa.gov/qa_sun.html",
+      "file": [
+        "lavoro_energie_potenza_it_v8_20261013.html"
+      ],
+      "stato": 200,
+      "destinazione": "https://science.gsfc.nasa.gov/attic/cosmicopia.gsfc.nasa.gov/qa_sun.html",
+      "verifica": "GET; lettura limitata a 1024 byte"
+    },
+    {
+      "url": "https://www.fia.com/news/new-era-competition-fia-showcases-future-focused-formula-1-regulations-2026-and-beyond",
+      "file": [
+        "lavoro_energie_potenza_it_v8_20261013.html"
+      ],
+      "stato": 200,
+      "destinazione": "https://www.fia.com/news/new-era-competition-fia-showcases-future-focused-formula-1-regulations-2026-and-beyond",
+      "verifica": "GET; lettura limitata a 1024 byte"
+    },
+    {
+      "url": "https://www.iea.org/reports/electricity-mid-year-update-2026/executive-summary",
+      "file": [
+        "lavoro_energie_potenza_it_v8_20261013.html"
+      ],
+      "stato": 200,
+      "destinazione": "https://www.iea.org/reports/electricity-mid-year-update-2026/executive-summary",
+      "verifica": "GET; lettura limitata a 1024 byte"
+    },
+    {
+      "url": "https://www.openpowerlifting.org/u/nathanbaptist",
+      "file": [
+        "lavoro_energie_potenza_it_v8_20261013.html"
+      ],
+      "stato": 200,
+      "destinazione": "https://www.openpowerlifting.org/u/nathanbaptist",
+      "verifica": "GET; lettura limitata a 1024 byte"
+    },
+    {
+      "url": "https://www.terna.it/it/sistema-elettrico/statistiche/pubblicazioni-statistiche",
+      "file": [
+        "lavoro_energie_potenza_it_v8_20261013.html"
+      ],
+      "stato": 200,
+      "destinazione": "https://www.terna.it/it/sistema-elettrico/statistiche/pubblicazioni-statistiche",
+      "verifica": "GET; lettura limitata a 1024 byte"
+    },
+    {
+      "url": "https://www.terna.it/it/sistema-elettrico/statistiche/pubblicazioni-statistiche/r/nguarda",
+      "file": [
+        "lavoro_energie_potenza_it_v8_20261013.html"
+      ],
+      "stato": 200,
+      "destinazione": "https://www.terna.it/it/sistema-elettrico/statistiche/pubblicazioni-statistiche/r/nguarda",
+      "verifica": "GET; lettura limitata a 1024 byte"
+    },
+    {
+      "url": "https://www.un.org/en/observances/end-nuclear-tests-day/history",
+      "file": [
+        "lavoro_energie_potenza_it_v8_20261013.html"
+      ],
+      "stato": 403,
+      "esito": "errore HTTP; non prova da solo che il contenuto non esista"
+    },
+    {
+      "url": "https://www.vestas.com/en/energy-solutions/offshore-wind-turbines/V236-15MW",
+      "file": [
+        "lavoro_energie_potenza_it_v8_20261013.html"
+      ],
+      "stato": 200,
+      "destinazione": "https://www.vestas.com/en/energy-solutions/offshore-wind-turbines/V236-15MW",
+      "verifica": "GET; lettura limitata a 1024 byte"
+    },
+    {
+      "url": "https://www.vestas.com/en/media/company-news/2022/vestas--v236-15-0-mw-prototype-wind-turbine-produces-fi-c3691167",
+      "file": [
+        "lavoro_energie_potenza_it_v8_20261013.html"
+      ],
+      "stato": 200,
+      "destinazione": "https://www.vestas.com/en/media/company-news/2022/vestas--v236-15-0-mw-prototype-wind-turbine-produces-fi-c3691167",
+      "verifica": "GET; lettura limitata a 1024 byte"
+    },
+    {
+      "url": "https://www.wartsila.com/media/news/12-09-2006-the-world%27s-most-powerful-engine-enters-service",
+      "file": [
+        "lavoro_energie_potenza_it_v8_20261013.html"
+      ],
+      "stato": 200,
+      "destinazione": "https://www.wartsila.com/media/news/12-09-2006-the-world%27s-most-powerful-engine-enters-service",
+      "verifica": "GET; lettura limitata a 1024 byte"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=0fKBhvDjuy0",
+      "file": [
+        "sistema_internazionale_notazione_fr_v8_20261013.html",
+        "sistema_internazionale_notazione_it_v8_20261013.html",
+        "sistema_internazionale_notazione_sq_v8_20261013.html"
+      ],
+      "stato": null,
+      "esito": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=oSCX78-8-q0",
+      "file": [
+        "sistema_internazionale_notazione_fr_v8_20261013.html",
+        "sistema_internazionale_notazione_it_v8_20261013.html",
+        "sistema_internazionale_notazione_sq_v8_20261013.html"
+      ],
+      "stato": null,
+      "esito": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    },
+    {
+      "url": "https://x.com/elonmusk/status/2012500968571637891",
+      "file": [
+        "lavoro_energie_potenza_it_v8_20261013.html"
+      ],
+      "stato": 200,
+      "destinazione": "https://x.com/elonmusk/status/2012500968571637891",
+      "verifica": "GET; lettura limitata a 1024 byte"
+    },
+    {
+      "url": "https://youtu.be/Sdpcjm2vmLY?is=jQY0_qg6RCA-Pd_9",
+      "file": [
+        "potenza_termica_conduzione_convezione_it_v4_20261016.html"
+      ],
+      "stato": null,
+      "esito": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+    }
+  ]
+}

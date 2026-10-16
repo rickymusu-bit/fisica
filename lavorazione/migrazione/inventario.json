@@ -1,0 +1,228 @@
+{
+  "repository": "rickymusu-bit/fisica",
+  "base": "codex",
+  "base_commit": "7d60be70c0d2c5af95b31a804973299c7c98650f",
+  "data": "2026-10-16T14:15:36.234783+02:00",
+  "file": [
+    {
+      "percorso": "potenza_termica_conduzione_convezione_it_v4_20261016.html",
+      "drive_id": "12QcWhoQC4TMW0U95n-hcZeL4B6Fw_rX4",
+      "fonte": "https://drive.google.com/file/d/12QcWhoQC4TMW0U95n-hcZeL4B6Fw_rX4/view?usp=drivesdk",
+      "mime_type": "text/html",
+      "modificato_drive": "2026-10-16T07:32:29.119Z",
+      "byte": 5627829,
+      "sha256": "962cd249593ba41136a5c5657194917a4661fa0aca9531ce6e5a3c52e854aeb2",
+      "esito": "importato: assente nel ramo codex",
+      "precedente_repository": null
+    },
+    {
+      "percorso": "stati_della_materia_e_passaggi_di_stato_v6_20261016.html",
+      "drive_id": "1g5Xacx7-lo-0QXZuE4cDKFnhC9QSpR4M",
+      "fonte": "https://drive.google.com/file/d/1g5Xacx7-lo-0QXZuE4cDKFnhC9QSpR4M/view?usp=drivesdk",
+      "mime_type": "text/html",
+      "modificato_drive": "2026-10-16T06:25:40.172Z",
+      "byte": 19863151,
+      "sha256": "ca83bbcb7547c1c72ca7eabde87b20246c4afad39a4d3f449d36d9028a93d4b4",
+      "esito": "importato: assente nel ramo codex",
+      "precedente_repository": null
+    },
+    {
+      "percorso": "bilancio_conservazione_rendimento_it_v9_20261013.html",
+      "drive_id": "1cT9MO3HbGyQEFftwU1ORe250J20OSQU1",
+      "fonte": "https://drive.google.com/file/d/1cT9MO3HbGyQEFftwU1ORe250J20OSQU1/view?usp=drivesdk",
+      "mime_type": "text/html",
+      "modificato_drive": "2026-10-13T18:18:10.125Z",
+      "byte": 1009728,
+      "sha256": "3403d2fc9fab0326dcb2cb69a8ac0f9bae81ce28e057d532964ee1ff0a1c859a",
+      "esito": "importato: assente nel ramo codex",
+      "precedente_repository": null
+    },
+    {
+      "percorso": "metodo_scientifico_fr_v5_20261013.html",
+      "drive_id": "1JfLLieX25cDhaGt734UpQb98fMj_6teV",
+      "fonte": "https://drive.google.com/file/d/1JfLLieX25cDhaGt734UpQb98fMj_6teV/view?usp=drivesdk",
+      "mime_type": "text/html",
+      "modificato_drive": "2026-10-13T18:18:01.056Z",
+      "byte": 1468039,
+      "sha256": "eea7a54872a114cab4fc0ecded4887599aba24b7d2654c6649378b6017f82beb",
+      "esito": "importato: assente nel ramo codex",
+      "precedente_repository": null
+    },
+    {
+      "percorso": "strumenti_errori_incertezza_fr_v4_20261013.html",
+      "drive_id": "1_WusYEy-2acNrTjxxSsZYGKgqnxaufmZ",
+      "fonte": "https://drive.google.com/file/d/1_WusYEy-2acNrTjxxSsZYGKgqnxaufmZ/view?usp=drivesdk",
+      "mime_type": "text/html",
+      "modificato_drive": "2026-10-13T18:17:56.660Z",
+      "byte": 1278289,
+      "sha256": "1fdd2ee56362c9b4a237d10adbaf41ab84d160017ccf419aab4d2bf148973cae",
+      "esito": "importato: assente nel ramo codex",
+      "precedente_repository": null
+    },
+    {
+      "percorso": "grafici_piano_cartesiano_sq_v5_20261013.html",
+      "drive_id": "14z4qR0IJ60aic7lpyzMzPpR6W1mJhCBP",
+      "fonte": "https://drive.google.com/file/d/14z4qR0IJ60aic7lpyzMzPpR6W1mJhCBP/view?usp=drivesdk",
+      "mime_type": "text/html",
+      "modificato_drive": "2026-10-13T18:17:52.329Z",
+      "byte": 804572,
+      "sha256": "249386ceb1f18c32ee6a25435464282a306ffc88fef7a1432e9b5095f80218d8",
+      "esito": "importato: assente nel ramo codex",
+      "precedente_repository": null
+    },
+    {
+      "percorso": "sistema_internazionale_notazione_sq_v8_20261013.html",
+      "drive_id": "1R-zQBNoAZ9YtrXgvGmo11VSC1feY8zRZ",
+      "fonte": "https://drive.google.com/file/d/1R-zQBNoAZ9YtrXgvGmo11VSC1feY8zRZ/view?usp=drivesdk",
+      "mime_type": "text/html",
+      "modificato_drive": "2026-10-13T18:17:47.995Z",
+      "byte": 826975,
+      "sha256": "3a2caf833482e2e64d68e230cd34c03f55ec413d6dd1c415c4f9069abf373912",
+      "esito": "importato: assente nel ramo codex",
+      "precedente_repository": null
+    },
+    {
+      "percorso": "strumenti_errori_incertezza_sq_v4_20261013.html",
+      "drive_id": "1oTK-6Lo7EXZMfWl2qDOTtMRN3F-ift8s",
+      "fonte": "https://drive.google.com/file/d/1oTK-6Lo7EXZMfWl2qDOTtMRN3F-ift8s/view?usp=drivesdk",
+      "mime_type": "text/html",
+      "modificato_drive": "2026-10-13T18:17:44.085Z",
+      "byte": 1277865,
+      "sha256": "3816db89e8af471de9629f070c3bbc3f1f281249e1bed56c856c4b1eab04d2b1",
+      "esito": "importato: assente nel ramo codex",
+      "precedente_repository": null
+    },
+    {
+      "percorso": "grafici_piano_cartesiano_fr_v5_20261013.html",
+      "drive_id": "17zZpxWgVINciVUn9Z8Q5YH5ZahnRxO7Z",
+      "fonte": "https://drive.google.com/file/d/17zZpxWgVINciVUn9Z8Q5YH5ZahnRxO7Z/view?usp=drivesdk",
+      "mime_type": "text/html",
+      "modificato_drive": "2026-10-13T18:17:12.164Z",
+      "byte": 804878,
+      "sha256": "00b2aecd606466bf43dd7314f8eb51e4387107f11795fee835006ee4378e3421",
+      "esito": "importato: assente nel ramo codex",
+      "precedente_repository": null
+    },
+    {
+      "percorso": "metodo_scientifico_sq_v5_20261013.html",
+      "drive_id": "16Gak8IIFnJvan-Jd_BJ1Ez5CvCpWyktD",
+      "fonte": "https://drive.google.com/file/d/16Gak8IIFnJvan-Jd_BJ1Ez5CvCpWyktD/view?usp=drivesdk",
+      "mime_type": "text/html",
+      "modificato_drive": "2026-10-13T18:17:08.230Z",
+      "byte": 1467912,
+      "sha256": "07746b4a3ec91514cbbf884106e39106b535ebbf58d6f2118766638019221593",
+      "esito": "importato: assente nel ramo codex",
+      "precedente_repository": null
+    },
+    {
+      "percorso": "sistema_internazionale_notazione_it_v8_20261013.html",
+      "drive_id": "1EVa2s1SAjKJjbojI_EB8XagnjXafrU-8",
+      "fonte": "https://drive.google.com/file/d/1EVa2s1SAjKJjbojI_EB8XagnjXafrU-8/view?usp=drivesdk",
+      "mime_type": "text/html",
+      "modificato_drive": "2026-10-13T18:17:03.729Z",
+      "byte": 828177,
+      "sha256": "3df463e5643364c4e64dc8f871c81cc62ddbeb12be13ea019bbe35c3e513fb55",
+      "esito": "importato: assente nel ramo codex",
+      "precedente_repository": null
+    },
+    {
+      "percorso": "sistema_internazionale_notazione_fr_v8_20261013.html",
+      "drive_id": "1DihpC8ACI_Tb1KTFVW_fNmEnKiuR0s2p",
+      "fonte": "https://drive.google.com/file/d/1DihpC8ACI_Tb1KTFVW_fNmEnKiuR0s2p/view?usp=drivesdk",
+      "mime_type": "text/html",
+      "modificato_drive": "2026-10-13T18:16:59.957Z",
+      "byte": 827784,
+      "sha256": "ab82d075979643273654b5df764c08b55345b734902855592266a7c66a13a060",
+      "esito": "importato: assente nel ramo codex",
+      "precedente_repository": null
+    },
+    {
+      "percorso": "metodo_scientifico_it_v5_20261013.html",
+      "drive_id": "178w0ec12Ac5bkjpDOoL02u9q--gd7Sen",
+      "fonte": "https://drive.google.com/file/d/178w0ec12Ac5bkjpDOoL02u9q--gd7Sen/view?usp=drivesdk",
+      "mime_type": "text/html",
+      "modificato_drive": "2026-10-13T18:16:55.557Z",
+      "byte": 1467999,
+      "sha256": "956b0946f27e24c84f45b7098188cea85348837d84837b995e2a9a58ae5e78d4",
+      "esito": "importato: assente nel ramo codex",
+      "precedente_repository": null
+    },
+    {
+      "percorso": "strumenti_errori_incertezza_it_v4_20261013.html",
+      "drive_id": "1-Uh1x9MMXTnlNoXwIWdfSDoYyAwiM6Wg",
+      "fonte": "https://drive.google.com/file/d/1-Uh1x9MMXTnlNoXwIWdfSDoYyAwiM6Wg/view?usp=drivesdk",
+      "mime_type": "text/html",
+      "modificato_drive": "2026-10-13T18:16:50.883Z",
+      "byte": 1279166,
+      "sha256": "bcdf5ea5b2eb68428af8380eea98b2f4e07c391453b93aa7b944e9579efeb03e",
+      "esito": "importato: assente nel ramo codex",
+      "precedente_repository": null
+    },
+    {
+      "percorso": "grafici_piano_cartesiano_it_v5_20261013.html",
+      "drive_id": "1rOADKqz8-WqXfDj3rxjibXC0Sfxm-q9X",
+      "fonte": "https://drive.google.com/file/d/1rOADKqz8-WqXfDj3rxjibXC0Sfxm-q9X/view?usp=drivesdk",
+      "mime_type": "text/html",
+      "modificato_drive": "2026-10-13T18:16:45.993Z",
+      "byte": 804753,
+      "sha256": "1922afc64143793c9868c24c710a6dff240761a70793d70c12bb96d15cd73c9c",
+      "esito": "importato: assente nel ramo codex",
+      "precedente_repository": null
+    },
+    {
+      "percorso": "lavoro_energie_potenza_it_v8_20261013.html",
+      "drive_id": "1KKtbsObYtkm7MBK0C8kdCDqbIyxXNnNl",
+      "fonte": "https://drive.google.com/file/d/1KKtbsObYtkm7MBK0C8kdCDqbIyxXNnNl/view?usp=drivesdk",
+      "mime_type": "text/html",
+      "modificato_drive": "2026-10-13T18:16:42.093Z",
+      "byte": 12105085,
+      "sha256": "a5b87cf037fc1d04a3e740d4d77b404b77cbf157445a28f85f95d02929829128",
+      "esito": "importato: assente nel ramo codex",
+      "precedente_repository": null
+    },
+    {
+      "percorso": "quiz/Template_dataset_quiz_argomenti_v1_20261008.json",
+      "drive_id": "1UnYFbsZnxH3-NuOGBnvJ8rsXTwi8DBLl",
+      "fonte": "https://drive.google.com/file/d/1UnYFbsZnxH3-NuOGBnvJ8rsXTwi8DBLl/view?usp=drivesdk",
+      "mime_type": "application/json",
+      "modificato_drive": "2026-10-14T07:02:51.146Z",
+      "byte": 6126,
+      "sha256": "22e2d83ca33b1d586500337478dee9a3cff044bd520e7b39e3b9b56427cc1eba",
+      "esito": "importato: assente nel ramo codex",
+      "precedente_repository": null
+    },
+    {
+      "percorso": "quiz/Prompt_generazione_dataset_quiz_v1_20261008.txt",
+      "drive_id": "1GduPQWzUPUk9v42tAfw0e9oNfsAcX2SO",
+      "fonte": "https://drive.google.com/file/d/1GduPQWzUPUk9v42tAfw0e9oNfsAcX2SO/view?usp=drivesdk",
+      "mime_type": "text/plain",
+      "modificato_drive": "2026-10-14T07:02:47.260Z",
+      "byte": 9714,
+      "sha256": "e4e28eaa900bcad4dcadd630131bacddb9eb1d38ea6f6707d2eaf378602481ce",
+      "esito": "importato: assente nel ramo codex",
+      "precedente_repository": null
+    },
+    {
+      "percorso": "quiz/Chi_vuol_essere_rimandato_regole_v9_20261008.html",
+      "drive_id": "1SqEpLEw6ZaV7cMJZsPZEjjRnJ0LTxEYU",
+      "fonte": "https://drive.google.com/file/d/1SqEpLEw6ZaV7cMJZsPZEjjRnJ0LTxEYU/view?usp=drivesdk",
+      "mime_type": "text/html",
+      "modificato_drive": "2026-10-14T07:02:44.399Z",
+      "byte": 2305334,
+      "sha256": "a16479dd9b1d910e86ef00b7734632fd5532dbd24c8035216b0ed9b8089c3fea",
+      "esito": "importato: assente nel ramo codex",
+      "precedente_repository": null
+    },
+    {
+      "percorso": "quiz/Chi_vuol_essere_rimandato_quiz_v3_20261008.html",
+      "drive_id": "1WNXKjfJEokn-duvAlGuKgWrkSMHyia6y",
+      "fonte": "https://drive.google.com/file/d/1WNXKjfJEokn-duvAlGuKgWrkSMHyia6y/view?usp=drivesdk",
+      "mime_type": "text/html",
+      "modificato_drive": "2026-10-14T07:02:40.085Z",
+      "byte": 6360835,
+      "sha256": "8bc73bcbdcf3941a618bb95154fc564123d3f6a32a0fba9b68a23e4b01c10ed9",
+      "esito": "importato: assente nel ramo codex",
+      "precedente_repository": null
+    }
+  ]
+}
