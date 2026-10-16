@@ -68,14 +68,14 @@ Aggiornamento: 2026-10-16 18:33 (Europe/Rome). Realizzati tutti gli otto HTML co
 
 | Dispensa corrente | Quesiti conservati |
 | --- | ---: |
-| [metodo_scientifico_it_v6_20261016.html](../metodo_scientifico_it_v6_20261016.html) | 6 |
-| [sistema_internazionale_notazione_it_v9_20261016.html](../sistema_internazionale_notazione_it_v9_20261016.html) | 13 |
-| [strumenti_errori_incertezza_it_v5_20261016.html](../strumenti_errori_incertezza_it_v5_20261016.html) | 7 |
-| [grafici_piano_cartesiano_it_v6_20261016.html](../grafici_piano_cartesiano_it_v6_20261016.html) | 7 |
-| [lavoro_energie_potenza_it_v9_20261016.html](../lavoro_energie_potenza_it_v9_20261016.html) | 31 |
-| [bilancio_conservazione_rendimento_it_v10_20261016.html](../bilancio_conservazione_rendimento_it_v10_20261016.html) | 20 |
-| [stati_della_materia_e_passaggi_di_stato_v7_20261016.html](../stati_della_materia_e_passaggi_di_stato_v7_20261016.html) | 14 |
-| [potenza_termica_conduzione_convezione_it_v5_20261016.html](../potenza_termica_conduzione_convezione_it_v5_20261016.html) | 20 |
+| [metodo_scientifico_it_v6_20261016.html](https://github.com/rickymusu-bit/fisica/blob/c6d5c4d3405c13e9c873be3d95f8d24e6857690f/metodo_scientifico_it_v6_20261016.html) | 6 |
+| [sistema_internazionale_notazione_it_v9_20261016.html](https://github.com/rickymusu-bit/fisica/blob/c6d5c4d3405c13e9c873be3d95f8d24e6857690f/sistema_internazionale_notazione_it_v9_20261016.html) | 13 |
+| [strumenti_errori_incertezza_it_v5_20261016.html](https://github.com/rickymusu-bit/fisica/blob/c6d5c4d3405c13e9c873be3d95f8d24e6857690f/strumenti_errori_incertezza_it_v5_20261016.html) | 7 |
+| [grafici_piano_cartesiano_it_v6_20261016.html](https://github.com/rickymusu-bit/fisica/blob/c6d5c4d3405c13e9c873be3d95f8d24e6857690f/grafici_piano_cartesiano_it_v6_20261016.html) | 7 |
+| [lavoro_energie_potenza_it_v9_20261016.html](https://github.com/rickymusu-bit/fisica/blob/c6d5c4d3405c13e9c873be3d95f8d24e6857690f/lavoro_energie_potenza_it_v9_20261016.html) | 31 |
+| [bilancio_conservazione_rendimento_it_v10_20261016.html](https://github.com/rickymusu-bit/fisica/blob/c6d5c4d3405c13e9c873be3d95f8d24e6857690f/bilancio_conservazione_rendimento_it_v10_20261016.html) | 20 |
+| [stati_della_materia_e_passaggi_di_stato_v7_20261016.html](https://github.com/rickymusu-bit/fisica/blob/c6d5c4d3405c13e9c873be3d95f8d24e6857690f/stati_della_materia_e_passaggi_di_stato_v7_20261016.html) | 14 |
+| [potenza_termica_conduzione_convezione_it_v5_20261016.html](https://github.com/rickymusu-bit/fisica/blob/c6d5c4d3405c13e9c873be3d95f8d24e6857690f/potenza_termica_conduzione_convezione_it_v5_20261016.html) | 20 |
 
 Le immagini tradotte sono state confrontate con gli originali. Il grafico del muro è un SVG con estremi sulle due facce e andamento lineare corretto, distinto dalla scena illustrativa. Nessuna casella viene usata per coprire le etichette; l’atmosfera già italiana è riutilizzata identica.
 
