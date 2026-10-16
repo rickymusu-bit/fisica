@@ -9,7 +9,7 @@ Gli stati iniziali registrano soltanto i fatti della migrazione: non attestano a
 - [lavoro_energie_potenza](lavoro_energie_potenza/stato.md)
 - [metodo_scientifico](metodo_scientifico/stato.md)
 - [potenza_termica_conduzione_convezione](potenza_termica_conduzione_convezione/stato.md)
-- [quiz](quiz/stato.md)
+- [quiz — trasferito nel repository dedicato](quiz/stato.md)
 - [sistema_internazionale_notazione](sistema_internazionale_notazione/stato.md)
 - [stati_della_materia_e_passaggi_di_stato](stati_della_materia_e_passaggi_di_stato/stato.md)
 - [strumenti_errori_incertezza](strumenti_errori_incertezza/stato.md)

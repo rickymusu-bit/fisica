@@ -1,7 +1,7 @@
 # PROMPT MASTER — DISPENSE VISUALI DI FISICA PER IL BIENNIO DEGLI ISTITUTI TECNICI
 
 
-VERSIONE DEL PROMPT: v45 — 16 ottobre 2026, ore 16:42 (Europe/Rome)
+VERSIONE DEL PROMPT: v46 — 16 ottobre 2026, ore 16:52 (Europe/Rome)
 
 
 Questo master raccoglie le regole della dispensa e la procedura per realizzarla con il minor lavoro ripetuto possibile. Le istruzioni relative a immagini, video, traduzioni e simulazioni si applicano quando quei materiali fanno parte della richiesta. Non aggiungere contenuti o lavorazioni solo perché il master ne descrive la gestione.
@@ -403,7 +403,7 @@ Alla consegna mostra soltanto i collegamenti alle versioni più recenti prodotte
 GitHub è la fonte ufficiale del progetto «Materiale Didattico»: repository https://github.com/rickymusu-bit/fisica, ramo di riferimento `main`. Lavora in un ramo dedicato derivato da `main`; verifica lo stato corrente del repository prima di modificare i file. Il master è `MASTER_PROMPT.md`; `AGENTS.md` impone la lettura del master e dello stato del capitolo prima di lavorare. La migrazione e il salvataggio nel ramo dedicato non equivalgono all’approvazione dei contenuti, all’unione nel ramo di riferimento o alla pubblicazione del sito.
 
 
-Mantieni inizialmente nomi e percorsi degli HTML esistenti per preservare i collegamenti. Le dispense restano HTML autonomi; le traduzioni richieste restano distinte per lingua. Conserva nella destinazione ufficiale soltanto i risultati pertinenti al compito; non trasferire automaticamente nei lavori futuri dispense storiche o materiali estranei. Il materiale `quiz/` importato conserva la propria organizzazione. Non convertire automaticamente le dispense in altri formati.
+Mantieni inizialmente nomi e percorsi degli HTML esistenti per preservare i collegamenti. Le dispense restano HTML autonomi; le traduzioni richieste restano distinte per lingua. Conserva nella destinazione ufficiale soltanto i risultati pertinenti al compito; non trasferire automaticamente nei lavori futuri dispense storiche o materiali estranei. Il quiz e i relativi materiali sono conservati separatamente nel repository https://github.com/rickymusu-bit/quiz; non fanno parte del sito delle dispense di fisica. Non convertire automaticamente le dispense in altri formati.
 
 
 In `lavorazione/<capitolo>/stato.md` conserva un solo stato Markdown per capitolo, secondo B6. Usa nomi stabili anche per `bozza.md`, `bozza.html` e `risorse/`; gli originali e i materiali di riferimento necessari alla ripresa appartengono alla lavorazione e non vanno aggiunti automaticamente alla destinazione degli HTML ufficiali. Aggiorna gli stessi file senza proliferare copie; Git conserva la cronologia. Non eliminare materiali unici o originali dell’utente e non inventare approvazioni mancanti.

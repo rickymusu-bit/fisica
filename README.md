@@ -11,3 +11,5 @@ Per aggiungere o aggiornare un materiale sul sito, modifica il collegamento in `
 Prima di lavorare leggi `MASTER_PROMPT.md`, `AGENTS.md` e lo stato pertinente in `lavorazione/`.
 
 La prima attivazione richiede **Settings → Pages → Source → GitHub Actions**. Se non parte una pubblicazione automatica, esegui **Actions → Pubblica i materiali italiani → Run workflow** sul ramo `main`.
+
+Il quiz è conservato separatamente in [rickymusu-bit/quiz](https://github.com/rickymusu-bit/quiz) e non viene pubblicato sul sito delle dispense.
