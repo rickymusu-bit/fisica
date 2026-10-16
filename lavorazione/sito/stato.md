@@ -1,6 +1,6 @@
 # Stato — Pagina di benvenuto e GitHub Pages
 
-Master iniziale consultato: v45; versione corrente v47 dopo l’aggiunta della regola sui tasti nei nuovi capitoli. Ambito: indice dei materiali italiani e pubblicazione GitHub Pages del repository pubblico `rickymusu-bit/fisica`.
+Master iniziale consultato: v45; versione corrente v48 dopo il passaggio ai nomi stabili. Ambito: indice dei materiali italiani e pubblicazione GitHub Pages del repository pubblico `rickymusu-bit/fisica`.
 
 Autorizzazione: l’utente ha richiesto esplicitamente una pagina di benvenuto con indice solo dei materiali italiani e l’attivazione di GitHub Pages se il repository è pubblico. La visibilità pubblica è stata verificata. Questa richiesta è successiva alla migrazione e autorizza la pubblicazione ora.
 
@@ -42,3 +42,8 @@ Aggiornamento: 2026-10-16 19:30 (Europe/Rome). Richiesta esplicita dell’utente
 ## Regola per i capitoli futuri
 
 Aggiornamento: 2026-10-16 19:40 (Europe/Rome). L’utente richiede che i tasti appena introdotti siano presenti in tutti i capitoli futuri. Regola consolidata nel [master](../../MASTER_PROMPT.md) **v47**, sezione A6: ritorno all’indice generale all’inizio e prima del piè di pagina, collegamento HTTPS utilizzabile anche dai file scaricati con Internet, stile approvato, area di almeno 44 px e focus da tastiera visibile. D1 richiama il controllo dei tasti. Tutte le altre regole e intestazioni del master sono preservate e il confronto inverso delle tre modifiche è identico alla v46. Intervento concluso; nessun HTML o file di pubblicazione modificato. Per i nuovi capitoli applicare A6 durante la realizzazione e D1 prima della consegna.
+
+
+## Nomi stabili e versioni interne
+
+Aggiornamento: 2026-10-16 21:16 (Europe/Rome). L’utente autorizza i nomi stabili per tutti i file del repository: rinominate 16 dispense (8 italiane e 8 traduzioni), con contenuto e versione interna identici. Master aggiornato a v48; AGENTS allineato. Indice e download puntano ai nomi stabili; 24 indirizzi italiani precedenti reindirizzati direttamente, mantenendo query e frammento. Le traduzioni restano nel repository e non vengono pubblicate. Master, stati e risorse avevano già nomi senza versioni o date e mantengono i percorsi. Gli inventari e gli esiti storici conservano i nomi effettivamente verificati allora; i collegamenti Markdown correnti sono aggiornati. [Mappa e integrità](nomi-stabili.json). Rinomina completata e verificata: identità SHA-256 dei 16 file, collegamenti locali, build selettiva in italiano, otto letture dall’indice, otto download reali con nomi stabili e otto reindirizzamenti con query e frammenti conservati. La build controlla tutte le 24 destinazioni, senza catene. Indice verificato a 1440 e 390 px. Pubblicazione tramite il workflow Pages dopo l’integrazione in `main`.

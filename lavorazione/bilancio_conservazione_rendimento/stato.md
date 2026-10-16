@@ -1,10 +1,10 @@
 # Stato — Bilancio energetico, conservazione e rendimento
 
-Ultimo aggiornamento: 2026-10-16 19:33 (Europe/Rome). Master letto integralmente: **v46**, invariato. Riferimento ufficiale: `main`.
+Ultimo aggiornamento: 2026-10-16 21:16 (Europe/Rome). Master applicato: **v48**; fonte letta integralmente v47, con aggiornamento verificato delle sole regole di denominazione. Riferimento ufficiale: `main`.
 
 Fase: revisione completata, integrata in `main` con la [PR #6](https://github.com/rickymusu-bit/fisica/pull/6) e pubblicata. [Workflow riuscito](https://github.com/rickymusu-bit/fisica/actions/runs/38935850257).
 
-File corrente verificato: [bilancio_conservazione_rendimento_it_v11_20261016.html](../../bilancio_conservazione_rendimento_it_v11_20261016.html), **v11**. Fonte certa: [bilancio_conservazione_rendimento_it_v9_20261013.html](https://github.com/rickymusu-bit/fisica/blob/a8e171c7c3dcc220521666a8b5330beb4422999e/bilancio_conservazione_rendimento_it_v9_20261013.html), già importata da Drive. La cronologia conserva l’originale; il vecchio URL pubblico verrà reindirizzato mantenendo query e frammento.
+File corrente verificato: [bilancio_conservazione_rendimento_it.html](../../bilancio_conservazione_rendimento_it.html), **v11**. Fonte certa: [bilancio_conservazione_rendimento_it_v9_20261013.html](https://github.com/rickymusu-bit/fisica/blob/a8e171c7c3dcc220521666a8b5330beb4422999e/bilancio_conservazione_rendimento_it_v9_20261013.html), già importata da Drive. La cronologia conserva l’originale; il vecchio URL pubblico verrà reindirizzato mantenendo query e frammento.
 
 Ambito: solo revisione editoriale italiana concordata nel [piano](../revisione-blog.md), preservando contenuti scientifici, tema delle dispense esistenti, figure, video e interazioni non coinvolti. Domanda/apertura corrente: «Dove va l’energia del movimento di una bici quando smetti di pedalare? Per rispondere, scegliamo un sistema e seguiamo tutti i trasferimenti e le trasformazioni.».
 
@@ -23,3 +23,7 @@ Prossima operazione: nessun intervento pendente per questa revisione. Prima di u
 ## Ritorno all’indice generale
 
 Aggiornamento: 2026-10-16 19:30 (Europe/Rome). Richiesta diretta dell’utente: «metti un tasto in ogni capitolo per tornare all’indice». Modifica circoscritta eseguita secondo B2/B5, master v46. Aggiunti due collegamenti «← Indice dei materiali», all’inizio e prima del piè di pagina, con bersaglio HTTPS al sito e `#indice`, utilizzabili anche dalle copie scaricate. Focus visibile e area cliccabile di almeno 44 px. Versione corrente v11; contenuti didattici, immagini, esercizi e script preservati. Collegamenti del sito, download e vecchi URL aggiornati. Stato: completata e verificata. Prove a 1440 e 390 px, clic e Invio, focus visibile e ritorno all’indice riusciti; contenuti scientifici, script e immagini invariati. [Esiti](../sito/ritorno-indice.json). Distribuzione tramite il [workflow Pages](https://github.com/rickymusu-bit/fisica/actions/workflows/pages.yml) dopo l’integrazione in `main`.
+
+## Nomi stabili
+
+Richiesta esplicita dell’utente: rimuovere versione e data dai nomi, conservandole nei documenti. File rinominati, inclusi gli eventuali materiali francesi e albanesi, con identità verificata e contenuti identici byte per byte; versioni interne invariate. Collegamenti correnti aggiornati; per le dispense italiane i vecchi indirizzi pubblici reindirizzano direttamente ai nomi stabili. [Mappa e hash](../sito/nomi-stabili.json). Nessuna revisione scientifica, immagine o simulazione nuova.
