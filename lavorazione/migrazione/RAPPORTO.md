@@ -17,6 +17,10 @@ Prima dell’integrazione sono stati verificati GitHub Pages disattivato, nessun
 
 L’inventario include tutte le sottocartelle scoperte. Le tre liste sono state rilette a fine importazione e risultano identiche. Il ramo `codex` conteneva soltanto `README.md`, mantenuto invariato: nessun HTML da sostituire e nessun conflitto di identità. Tutti i 20 materiali risultavano mancanti; nessun materiale più vecchio ha sostituito file del repository. Nomi originali e struttura `quiz/` sono conservati.
 
+## Trasferimento successivo del quiz
+
+Su richiesta dell’utente, i quattro materiali originariamente in `quiz/` sono stati trasferiti nel repository [rickymusu-bit/quiz](https://github.com/rickymusu-bit/quiz), verificati byte per byte nel commit `f102b5583ff96c6574a32e32f20129535f6b9341` e rimossi dall’albero corrente di fisica. La cronologia di fisica conserva gli originali; l’inventario della migrazione sottostante descrive la copia iniziale, prima di questa separazione. Le otto dispense italiane costituiscono il sito di fisica; il quiz non è pubblicato da questo repository.
+
 ## File importati
 
 18 HTML, 1 JSON e 1 TXT: **60.424.211 byte** complessivi. Ogni file è copiato integralmente, senza conversioni o modifiche didattiche.
@@ -39,10 +43,10 @@ L’inventario include tutte le sottocartelle scoperte. Le tre liste sono state 
 | [strumenti_errori_incertezza_it_v4_20261013.html](../../strumenti_errori_incertezza_it_v4_20261013.html) | 1279166 | 2026-10-13T18:16:50.883Z |
 | [grafici_piano_cartesiano_it_v5_20261013.html](../../grafici_piano_cartesiano_it_v5_20261013.html) | 804753 | 2026-10-13T18:16:45.993Z |
 | [lavoro_energie_potenza_it_v8_20261013.html](../../lavoro_energie_potenza_it_v8_20261013.html) | 12105085 | 2026-10-13T18:16:42.093Z |
-| [quiz/Template_dataset_quiz_argomenti_v1_20261008.json](../../quiz/Template_dataset_quiz_argomenti_v1_20261008.json) | 6126 | 2026-10-14T07:02:51.146Z |
-| [quiz/Prompt_generazione_dataset_quiz_v1_20261008.txt](../../quiz/Prompt_generazione_dataset_quiz_v1_20261008.txt) | 9714 | 2026-10-14T07:02:47.260Z |
-| [quiz/Chi_vuol_essere_rimandato_regole_v9_20261008.html](../../quiz/Chi_vuol_essere_rimandato_regole_v9_20261008.html) | 2305334 | 2026-10-14T07:02:44.399Z |
-| [quiz/Chi_vuol_essere_rimandato_quiz_v3_20261008.html](../../quiz/Chi_vuol_essere_rimandato_quiz_v3_20261008.html) | 6360835 | 2026-10-14T07:02:40.085Z |
+| [quiz/Template_dataset_quiz_argomenti_v1_20261008.json](https://github.com/rickymusu-bit/quiz/blob/f102b5583ff96c6574a32e32f20129535f6b9341/Template_dataset_quiz_argomenti_v1_20261008.json) | 6126 | 2026-10-14T07:02:51.146Z |
+| [quiz/Prompt_generazione_dataset_quiz_v1_20261008.txt](https://github.com/rickymusu-bit/quiz/blob/f102b5583ff96c6574a32e32f20129535f6b9341/Prompt_generazione_dataset_quiz_v1_20261008.txt) | 9714 | 2026-10-14T07:02:47.260Z |
+| [quiz/Chi_vuol_essere_rimandato_regole_v9_20261008.html](https://github.com/rickymusu-bit/quiz/blob/f102b5583ff96c6574a32e32f20129535f6b9341/Chi_vuol_essere_rimandato_regole_v9_20261008.html) | 2305334 | 2026-10-14T07:02:44.399Z |
+| [quiz/Chi_vuol_essere_rimandato_quiz_v3_20261008.html](https://github.com/rickymusu-bit/quiz/blob/f102b5583ff96c6574a32e32f20129535f6b9341/Chi_vuol_essere_rimandato_quiz_v3_20261008.html) | 6360835 | 2026-10-14T07:02:40.085Z |
 
 Il [manifest](inventario.json) registra ID e URL della fonte, data, dimensione, SHA-256 locale, esito del confronto e destinazione di ogni materiale. [fonti-drive.json](fonti-drive.json) conserva l’inventario delle cartelle.
 
