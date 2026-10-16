@@ -2,6 +2,13 @@
 
 Perché due stufette che trasferiscono la stessa energia possono scaldare in tempi diversi? Come passa il calore attraverso i materiali e perché l’aria in movimento può accelerarne il trasferimento?
 
+## Indice
+
+- [Potenza termica](#potenza-termica)
+- [Conduzione termica](#conduzione-termica)
+- [Convezione termica](#convezione-termica)
+- [Domande ed esercizi](#domande-ed-esercizi)
+
 ## Potenza termica
 
 Immagina due stufette che forniscono entrambe 120 kJ di energia a una stanza. La prima impiega 60 secondi, la seconda 120 secondi. La quantità di energia trasferita è identica, ma la rapidità del trasferimento cambia: la prima è più potente.
@@ -176,6 +183,54 @@ Didascalia: Il liquido refrigerante trasporta energia dal motore al radiatore. L
 ### Conduzione e convezione lavorano insieme
 
 Nel radiatore dell’automobile e nel dissipatore del computer, l’energia attraversa prima parti metalliche per conduzione e passa poi all’aria in movimento con la convezione. Le alette sono utili proprio perché consentono al metallo di essere a contatto con una superficie d’aria molto più estesa. Nei sistemi reali anche l’irraggiamento può contribuire agli scambi termici.
+
+## Domande ed esercizi
+
+### Potenza termica
+
+1. **Due stufette.** Due stufette trasferiscono la stessa energia. La seconda impiega il doppio del tempo della prima. Quale ha potenza maggiore? Perché?
+
+2. **Il significato di 1 500 W.** Che cosa significa dire che un dispositivo trasferisce energia termica con potenza di 1 500 W?
+
+3. **Un riscaldatore.** Un riscaldatore trasferisce 180 kJ in 90 s. Calcola la potenza in W e in kW.
+
+4. **Dalla potenza all'energia.** Un apparecchio trasferisce energia con potenza costante di 800 W per 5 minuti. Quanti J e kJ trasferisce?
+
+5. **Energia dispersa.** Un locale perde verso l’esterno energia termica con potenza costante di 1 500 W. Quanta energia perde in 10 minuti? In quale direzione si trasferisce il calore se l’esterno è più freddo?
+
+6. **Stessa energia?.** Una stufetta da 1 000 W funziona per 2 h, un'altra da 2 000 W per 1 h. Supponendo potenze costanti, confronta le energie trasferite.
+
+### Conduzione
+
+1. **Il cucchiaino caldo.** Come raggiunge il manico l'energia della bevanda calda? Descrivi il fenomeno dal punto di vista macroscopico e microscopico.
+
+2. **Rame e legno.** Perché il rame è adatto al trasferimento rapido di calore mentre il legno è utile per limitare tale trasferimento?
+
+3. **Quale sembra più freddo?.** Un cucchiaio metallico e uno di legno sono stati a lungo nella stessa stanza. Perché il metallo sembra più freddo, pur essendo alla stessa temperatura?
+
+4. **Potenza dispersa.** Una parete piana ha λ = 0,20 W/(m·K), A = 10 m², s = 0,20 m, temperatura interna 20 °C ed esterna 0 °C. Calcola la potenza termica dispersa.
+
+5. **Parete più spessa.** Raddoppia lo spessore della parete dell'esercizio precedente mantenendo invariati gli altri dati. Calcola la nuova potenza dispersa e spiega la variazione.
+
+6. **Il dissipatore.** Perché il dissipatore usa metalli conduttori? A che cosa servono le alette? Il passaggio di energia dal dissipatore all'aria avviene esclusivamente per conduzione?
+
+7. **La neve dell'igloo.** Perché la neve può ridurre la dispersione termica anche se è molto fredda? Perché pareti più spesse isolano generalmente meglio?
+
+### Convezione
+
+1. **Il termosifone.** Perché l’aria sopra un termosifone tende a salire? In quali punti della stanza l’aria più fredda può scendere? Spiega il ruolo delle differenze di densità.
+
+2. **I venti della Terra.** Perché il riscaldamento solare non uniforme può produrre grandi movimenti dell’aria? Perché non basta considerare solo il riscaldamento per spiegare la direzione dei venti?
+
+3. **Il mantello terrestre.** Il mantello è prevalentemente solido: come può muoversi formando moti convettivi? Confronta le scale temporali del mantello con quelle dell’aria nella stanza.
+
+4. **Naturale o forzata?.** Distingui la convezione naturale della stanza e dell’atmosfera dalla convezione forzata nei sistemi con ventola. Che cosa mette principalmente in movimento il fluido nei due casi?
+
+5. **Radiatore dell’auto e processore.** Spiega perché il radiatore e il dissipatore CPU hanno numerose alette. Quali parti svolgono il trasferimento per conduzione e quali permettono la convezione forzata?
+
+6. **Il ventilatore e la temperatura del corpo.** Durante una giornata molto calda, una persona utilizza un ventilatore, che muove l’aria ma non ne abbassa direttamente la temperatura. Perché può favorire il raffreddamento quando l’aria è più fresca della pelle? Che cosa cambia nel trasferimento per convezione se l’aria diventa più calda della pelle? Perché il ventilatore può ancora aiutare se il sudore evapora efficacemente? In quali condizioni di temperatura e umidità può invece diventare insufficiente o contribuire al surriscaldamento? Motiva le risposte.
+
+7. **Assenza di gravità.** In condizioni di assenza di gravità, si formerebbero le stesse correnti naturali osservate in una stanza sulla Terra? Una ventola potrebbe invece continuare a muovere l’aria? Spiega.
 
 [Crediti delle immagini da conservare in un elemento collassabile prima del piè di pagina, senza introdurli nelle didascalie.]
 
