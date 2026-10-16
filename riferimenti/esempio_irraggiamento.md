@@ -1,6 +1,6 @@
 # Campione approvato: irraggiamento
 
-Versione v1 · 17 ottobre 2026, ore 00:04 (Europe/Rome).
+Versione v2 · 17 ottobre 2026, ore 00:09 (Europe/Rome).
 
 Estratti della prova approvata in chat, conservati come riferimento linguistico e per la spiegazione delle formule. Non costituiscono un capitolo HTML completo: copertina, immagini definitive, domande e impaginazione seguono il workflow del master. Gli estratti conservano la voce della prova e non impongono una scaletta identica per ogni argomento.
 
@@ -66,6 +66,3 @@ Se il corpo è più caldo dell’ambiente, il risultato è positivo: cede più e
 
 Questo spiega perché una parete fredda possa farci sentire più freddo anche senza toccarla. Il nostro corpo emette radiazione verso la parete, ma ne riceve meno rispetto a quella proveniente da una parete più calda. La sensazione dipende quindi anche dalle superfici che ci circondano, oltre che dalla temperatura dell’aria.
 
-## Ritorno alla situazione iniziale
-
-Torniamo allora al viso illuminato dal Sole in una giornata fredda. Passando all’ombra, smettiamo di ricevere la radiazione solare diretta, mentre continuiamo a cedere energia all’ambiente. La sensazione cambia rapidamente perché è cambiato lo scambio di energia. Non occorre che l’aria si raffreddi: è sufficiente che qualcosa si metta tra noi e il Sole.

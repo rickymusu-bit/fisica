@@ -1,6 +1,6 @@
 # Stile delle dispense di fisica
 
-Versione v1 · 17 ottobre 2026, ore 00:04 (Europe/Rome).
+Versione v2 · 17 ottobre 2026, ore 00:09 (Europe/Rome).
 
 Riferimento approvato dall'utente per tutte le dispense esistenti e future. Deriva dalle caratteristiche generali del testo giornalistico fornito sui telefoni e dalla prova sull'irraggiamento con l'integrazione delle formule, approvata in chat. Il testo sui telefoni è un riferimento esclusivamente linguistico: non ne trasferire fatti, giudizi o conclusioni nelle dispense. Il campione operativo è [esempio_irraggiamento.md](esempio_irraggiamento.md). Il master resta la fonte delle regole di progetto.
 
@@ -14,7 +14,7 @@ Riferimento approvato dall'utente per tutte le dispense esistenti e future. Deri
 - Integrare nella teoria esempi brevi che rendono concreto un passaggio. Le eventuali applicazioni sviluppate ed esercizi svolti occupano le parti opzionali previste in A3 del master.
 - Usare pochi titoli interni significativi; lasciare che siano i collegamenti tra i paragrafi a guidare la lettura.
 - Affrontare intuizioni sbagliate e obiezioni nel punto in cui possono sorgere. Una precisazione serve se evita un fraintendimento rilevante; non anticipare ogni eccezione.
-- Concludere la spiegazione tornando al fenomeno iniziale e rendendo visibile che cosa ora sappiamo spiegare. Non aggiungere automaticamente un riepilogo separato.
+- Non aggiungere automaticamente un riepilogo separato.
 - Descrivere nelle didascalie ciò che si vede e il collegamento con il ragionamento, senza ripetere il testo.
 
 Riprendere queste caratteristiche generali con formulazioni originali. Non trasferire automaticamente dal campione giornalistico espressioni sprezzanti, ironia, citazioni, riferimenti ad autorità o cautele storiche. La leggibilità sul telefono e la correttezza scientifica restano prioritarie.
@@ -30,7 +30,7 @@ Il riferimento comprende esplicitamente la spiegazione delle formule: lo stile d
 5. Leggere la relazione: che cosa cambia aumentando una grandezza, mantenendo fisse le altre? Spiegare proporzioni, potenze, differenze e segni attraverso previsioni e confronti.
 6. Inserire un confronto semplice quando chiarisce il meccanismo: per esempio una superficie doppia oppure una temperatura assoluta doppia. Non confondere una previsione proporzionale con un esercizio svolto completo.
 7. Distinguere grandezze che possono essere confuse, come potenza emessa e potenza netta, motivando la seconda formula prima di mostrarla.
-8. Tornare al fenomeno: usare il risultato per spiegare ciò che si osserva.
+8. Usare il risultato per spiegare ciò che si osserva.
 
 Non applicare la sequenza come una batteria di sottotitoli identici né imporre lo stesso numero di formule a tutti i capitoli. Se non esiste una formula centrale pertinente, non inventarla. Per notazione, schemi degli esempi, livello matematico e verifica scientifica valgono A4–A5 e D1 del master.
 

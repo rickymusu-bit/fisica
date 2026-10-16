@@ -1,6 +1,6 @@
 # PROMPT MASTER — DISPENSE VISUALI DI FISICA PER IL BIENNIO DEGLI ISTITUTI TECNICI
 
-VERSIONE DEL PROMPT: v51 — 17 ottobre 2026, ore 00:04 (Europe/Rome)
+VERSIONE DEL PROMPT: v52 — 17 ottobre 2026, ore 00:09 (Europe/Rome)
 
 Questo master raccoglie le regole della dispensa e la procedura per realizzarla con il minor lavoro ripetuto possibile. Le istruzioni relative a immagini, video, traduzioni e simulazioni si applicano quando quei materiali fanno parte della richiesta. Non aggiungere contenuti o lavorazioni solo perché il master ne descrive la gestione.
 
@@ -53,7 +53,7 @@ Distribuisci i materiali dove contribuiscono alla comprensione, richiamandoli ne
 
 Mantieni il livello del biennio: equivalenze, proporzioni, percentuali, potenze di dieci, notazione scientifica, semplici equazioni di primo grado, tabelle, grafici cartesiani e proporzionalità diretta e inversa. Salvo richiesta esplicita, evita calcolo differenziale o integrale, formalismi universitari, dimostrazioni lunghe e algebra complessa. Una derivazione è ammessa solo se breve, accessibile e utile a capire il significato fisico; preferisci ragionamenti qualitativi, confronti, osservazioni ed esperimenti mentali.
 
-Integra le formule fondamentali pertinenti nel racconto dopo aver presentato il fenomeno e la domanda quantitativa a cui rispondono: lo stile discorsivo non autorizza a ometterle. Presenta il nome della legge, chiarisci risultato, grandezze, simboli, unità e costanti con frasi collegate, ed esprimi la relazione in parole. Spiega il significato fisico di coefficienti, potenze, differenze e segni; indica nel punto utile condizioni e scale indispensabili. Interpreta come cambia il risultato variando una grandezza alla volta, usando confronti come «a parità di», «raddoppiando» e «dimezzando» ed eventuali esempi semplici. Distingui grandezze facilmente confondibili, motiva ogni nuova relazione e torna al fenomeno per mostrare che cosa permette di spiegare. Segui il campione indicato in A2 senza trasformare questi passaggi in sottotitoli ripetitivi né imporre formule estranee all'argomento.
+Integra le formule fondamentali pertinenti nel racconto dopo aver presentato il fenomeno e la domanda quantitativa a cui rispondono: lo stile discorsivo non autorizza a ometterle. Presenta il nome della legge, chiarisci risultato, grandezze, simboli, unità e costanti con frasi collegate, ed esprimi la relazione in parole. Spiega il significato fisico di coefficienti, potenze, differenze e segni; indica nel punto utile condizioni e scale indispensabili. Interpreta come cambia il risultato variando una grandezza alla volta, usando confronti come «a parità di», «raddoppiando» e «dimezzando» ed eventuali esempi semplici. Distingui grandezze facilmente confondibili, motiva ogni nuova relazione e mostra che cosa permette di spiegare. Segui il campione indicato in A2 senza trasformare questi passaggi in sottotitoli ripetitivi né imporre formule estranee all'argomento.
 
 Notazione obbligatoria, uniforme in testo, formule, esempi, tabelle, grafici e didascalie:
 
