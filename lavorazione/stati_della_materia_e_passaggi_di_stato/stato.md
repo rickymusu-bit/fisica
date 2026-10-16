@@ -1,23 +1,19 @@
-# Stato — stati_della_materia_e_passaggi_di_stato
+# Stato — Stati della materia e passaggi di stato
 
-Ultimo aggiornamento: 2026-10-16 14:15 (Europe/Rome). Master consultato: v44.
+Ultimo aggiornamento: 2026-10-16 18:33 (Europe/Rome). Master letto integralmente: **v46**, invariato. Ramo di lavoro: `preparazione/revisione-blog`.
 
-Fase: materiali esistenti importati senza modifiche; nessuna nuova progettazione o revisione didattica avviata. Ambito: i file elencati sotto. Nessun documento di lavorazione era presente nella cartella Drive dedicata.
+Fase: revisione HTML realizzata; controlli strutturali superati; verifica nel browser e pubblicazione ancora da completare. Il sito online contiene ancora le versioni precedenti.
 
-- [stati_della_materia_e_passaggi_di_stato_v6_20261016.html](../../stati_della_materia_e_passaggi_di_stato_v6_20261016.html) — 19,863,151 byte; provenienza nell’inventario di migrazione.
+File corrente da verificare prima della pubblicazione: [stati_della_materia_e_passaggi_di_stato_v7_20261016.html](../../stati_della_materia_e_passaggi_di_stato_v7_20261016.html), **v7**. Fonte certa: [stati_della_materia_e_passaggi_di_stato_v6_20261016.html](https://github.com/rickymusu-bit/fisica/blob/a8e171c7c3dcc220521666a8b5330beb4422999e/stati_della_materia_e_passaggi_di_stato_v6_20261016.html), già importata da Drive. La cronologia conserva l’originale; il vecchio URL pubblico verrà reindirizzato mantenendo query e frammento.
 
-Domanda iniziale, template approvato, checklist didattica, visuali e simulazioni: da ricavare dai file soltanto alla prossima lavorazione pertinente. Originali separati e registri di approvazione non presenti nella fonte di lavorazione. Approvazioni di visuali, bozza e via alla realizzazione: non documentate dalle fonti disponibili; la migrazione non le attribuisce all’utente.
+Ambito: solo revisione editoriale italiana concordata nel [piano](../revisione-blog.md), preservando contenuti scientifici, tema delle dispense esistenti, figure, video e interazioni non coinvolti. Domanda/apertura corrente: «Perché il ghiaccio mantiene la propria forma, mentre l’acqua prende quella del recipiente? Per capirlo seguiamo il movimento delle particelle, dalle proprietà dei solidi e dei fluidi fino ai passaggi di stato.».
 
-Bozza corrente: nessuna fornita separatamente. Alla ripresa usa `bozza.md`, `bozza.html` e `risorse/` soltanto se necessari, con nomi stabili; non duplicare gli HTML ufficiali senza una lavorazione effettiva.
+Approvazioni effettive: richiesta di stile da blog e correzioni sul calore; successiva indicazione di conservare domande ed esercizi in fondo; quattro originali forniti dall’utente; **«Vai» ricevuto il 16 ottobre 2026 alle 17:39 (Europe/Rome)** sulla proposta e sulla stima aggiornate. Le approvazioni storiche non documentate dalla migrazione non sono ricostruite.
 
-Completato: importazione integrale; verifiche tecniche nel [rapporto](../migrazione/RAPPORTO.md). Punti aperti: eventuali anomalie elencate nel rapporto e informazioni progettuali non documentate. Prossima operazione: identificare la revisione richiesta e la sua versione di partenza, leggere master e file pertinenti, quindi seguire B1–B6 conservando le parti già approvate.
+Completato: indice aggiornato, apparati concordati rimossi e **14 quesiti originali integralmente conservati**, in un’unica sezione finale «Domande ed esercizi». Meta, nome e data aggiornati. 1 script conservati con hash identici; nessuna nuova simulazione o modifica del modello. Immagini e risorse incorporate verificate. Template e comandi esistenti preservati.
 
-## Revisione editoriale in preparazione
+Peso: 19864035 byte, sopra 18 MB e sotto il limite di 20 MB. Nessuna immagine aggiunta o compressa. Parser con `huge_tree=True` per non troncare le sezioni finali.
 
-Aggiornamento: 2026-10-16 17:16 (Europe/Rome). Master letto: v46. L’utente richiede una presentazione da blog, rimozione degli apparati da manuale e mantenimento dell’indice. Gli HTML ufficiali sono invariati. Fase corrente: analisi e proposta concreta, in attesa della conferma a partire prevista da B2 per la ristrutturazione complessiva. Non dedurre l’approvazione della bozza né il via alla realizzazione.
+Checklist pertinente: A1–A3 (racconto e attività concordate), A4 (formule preservate), A6 (HTML autonomo e accessibile), B4–B6 (riuso, approvazioni, stato), C1–C5 per i materiali presenti, D1–D2.1 (verifiche, versioni, dimensioni, vecchi collegamenti e salvataggio remoto).
 
-Vedi [piano della revisione](../revisione-blog.md). Prossima operazione: raccogliere conferma sul piano e sulla stima; poi lavorare su questo capitolo e verificare indice, contenuti conservati, immagini e simulazioni.
-
-Precisazione dell’utente (2026-10-16 17:23 (Europe/Rome)): domande ed esercizi vanno **conservati e spostati alla fine di ciascuna dispensa** in una sezione apposita, con rinvio nell’indice. Anche i quesiti delle verifiche finali restano, raccolti in quella sezione. Questa indicazione sostituisce la precedente proposta di eliminarli. Gli originali delle immagini sono nella Libreria dell’utente; la Libreria non è consultabile tramite le funzionalità attualmente disponibili e la cartella esposta all’ambiente è vuota. Attendere che le immagini siano aggiunte dalla Libreria alla conversazione per la parte dipendente dagli originali. La bozza termica aggiornata conserva tutti i 20 quesiti.
-
-Aggiornamento (2026-10-16 17:34 (Europe/Rome)): ricevuti e ispezionati i quattro originali della Libreria. Non mancano più le immagini. L’atmosfera è già tradotta correttamente e sarà riutilizzata senza rigenerazione; stanza, mantello e radiatore richiedono la traduzione. Gli originali sono conservati nel capitolo sul calore, con hash e mappa delle traduzioni. La bozza mantiene domande ed esercizi alla fine. Rimane da ricevere il via esplicito alla revisione complessiva secondo B2; sito e HTML ufficiali invariati.
+Verifiche riproducibili e hash: [rapporto strutturale](../revisione-blog-verifiche.json). I test sul browser non sono ancora dichiarati eseguiti: il sandbox locale impedisce la creazione dei socket necessari. Prossima operazione: completare le prove desktop/mobile, indice e download; correggere gli eventuali difetti; salvare e verificare il ramo remoto prima di integrare e pubblicare. Non richiedere nuovamente le approvazioni già ricevute.

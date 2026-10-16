@@ -1,6 +1,6 @@
 # Revisione delle dispense come articoli di un blog
 
-Stato: proposta preparata; HTML ufficiali e sito invariati. Master letto integralmente: v46. La richiesta comprende soltanto le otto dispense italiane pubblicate sul sito; traduzioni e repository del quiz non sono coinvolti.
+Stato: revisione autorizzata dall’utente con «Vai»; realizzazione in corso. Master letto integralmente: v46. La richiesta comprende soltanto le otto dispense italiane pubblicate sul sito; traduzioni e repository del quiz non sono coinvolti.
 
 ## Risultato proposto
 
@@ -16,7 +16,7 @@ Il riferimento grafico è quello delle dispense esistenti, già identificato: ne
 | --- | --- |
 | Metodo scientifico v5 | Conservare la sezione `domande` come «Domande ed esercizi» in fondo alla dispensa, con rinvio nell’indice; togliere la presentazione «In questa sezione vedrai…». Conservare osservazione, misure e ipotesi falsificabili. |
 | Sistema Internazionale e notazione v8 | Conservare `domande` nella sezione finale «Domande ed esercizi» e mantenere il rinvio nell’indice; togliere «Vedremo come…»; sostituire l’intestazione da ripasso con una transizione discorsiva. Conservare unità, prefissi, notazioni, cifre significative e l’esempio svolto utile alla spiegazione. |
-| Strumenti, errori e incertezza v4 | Rimuovere `domande` e il rinvio; snellire la presentazione del percorso. Conservare la distinzione fra errore e incertezza: il titolo «due domande diverse» non è un questionario e non va eliminato per una coincidenza di parole. |
+| Strumenti, errori e incertezza v4 | Conservare `domande` nella sezione finale «Domande ed esercizi», con rinvio nell’indice; snellire la presentazione del percorso. Conservare la distinzione fra errore e incertezza: il titolo «due domande diverse» non è un questionario e non va eliminato per una coincidenza di parole. |
 | Grafici e piano cartesiano v5 | Conservare `domande` nella sezione finale «Domande ed esercizi», con rinvio nell’indice. Conservare il punto trascinabile, i grafici e le spiegazioni delle relazioni fra grandezze. |
 | Lavoro, energie e potenza v8 | Spostare i quattro blocchi di domande e tutti i quesiti di `verifica-it` nella sezione finale «Domande ed esercizi», suddivisa per argomento. Rimuovere `sintesi-it`, il titolo «Verifica finale» e «Imparerai…»; aggiornare l’indice; togliere la numerazione dai titoli. Conservare esempi, formule, immagini e sviluppi narrativi. |
 | Bilancio, conservazione e rendimento v9 | Spostare i due blocchi di domande e tutti i quesiti di `verifica-it` nella sezione finale «Domande ed esercizi», suddivisa per argomento. Rimuovere `sintesi-it`, il titolo «Verifica finale» e «Imparerai…»; aggiornare l’indice; togliere la numerazione dai titoli. Conservare la pista parabolica, i bilanci e i ragionamenti sul rendimento. |
@@ -57,4 +57,37 @@ Stima orientativa della revisione completa: **45–90 minuti di lavoro**, esclus
 
 Alternativa per fasi: prima la ripulitura degli apparati e le correzioni testuali, circa 20–35 minuti, poi immagini e controlli rimanenti con gli originali ora disponibili. Questa alternativa non completa da sola il risultato richiesto; non avviarla automaticamente al posto della revisione completa.
 
-Il master, **B2**, richiede: «Per altri lavori complessi presenta la stima e attendi conferma prima dell’esecuzione; sono ammessi i controlli preliminari rapidi necessari alla stima». **B1.1** richiede l’approvazione del testo prima della realizzazione nelle ristrutturazioni che passano dalla bozza; la bozza termica è preparata per questa verifica. L’utente ha richiesto espressamente di seguire sempre il master. La fase attuale termina con proposta e bozza concrete: attendere la conferma esplicita a partire sulla proposta aggiornata; gli originali sono ora disponibili e non costituiscono più un blocco.
+Il master, **B2**, richiede: «Per altri lavori complessi presenta la stima e attendi conferma prima dell’esecuzione; sono ammessi i controlli preliminari rapidi necessari alla stima». **B1.1** richiede l’approvazione del testo prima della realizzazione nelle ristrutturazioni che passano dalla bozza; la bozza termica è preparata per questa verifica. L’utente ha richiesto espressamente di seguire sempre il master. Questi passaggi sono stati completati con la proposta, la bozza, la stima e il successivo via esplicito riportato sotto; non rimane un’approvazione da dedurre o richiedere di nuovo.
+
+Via esplicito ricevuto: 2026-10-16 17:39 (Europe/Rome). La revisione approvata conserva domande ed esercizi alla fine, corregge il capitolo sul calore e usa gli originali ricevuti.
+
+
+## Realizzazione e verifiche correnti
+
+Aggiornamento: 2026-10-16 18:33 (Europe/Rome). Realizzati tutti gli otto HTML con nuove versioni e collegamenti nell’indice del sito; tutti i **118 quesiti** sono conservati, in sezioni finali raggiungibili dall’indice. Testi degli esercizi e hash degli script corrispondono agli originali. Rimosse le sezioni di sintesi, gli obiettivi e la numerazione degli argomenti; mantenuti esempi, dati e interazioni pertinenti. Le versioni sostituite restano nella cronologia; otto reindirizzamenti conservano l’accesso dai vecchi URL.
+
+| Dispensa corrente | Quesiti conservati |
+| --- | ---: |
+| [metodo_scientifico_it_v6_20261016.html](../metodo_scientifico_it_v6_20261016.html) | 6 |
+| [sistema_internazionale_notazione_it_v9_20261016.html](../sistema_internazionale_notazione_it_v9_20261016.html) | 13 |
+| [strumenti_errori_incertezza_it_v5_20261016.html](../strumenti_errori_incertezza_it_v5_20261016.html) | 7 |
+| [grafici_piano_cartesiano_it_v6_20261016.html](../grafici_piano_cartesiano_it_v6_20261016.html) | 7 |
+| [lavoro_energie_potenza_it_v9_20261016.html](../lavoro_energie_potenza_it_v9_20261016.html) | 31 |
+| [bilancio_conservazione_rendimento_it_v10_20261016.html](../bilancio_conservazione_rendimento_it_v10_20261016.html) | 20 |
+| [stati_della_materia_e_passaggi_di_stato_v7_20261016.html](../stati_della_materia_e_passaggi_di_stato_v7_20261016.html) | 14 |
+| [potenza_termica_conduzione_convezione_it_v5_20261016.html](../potenza_termica_conduzione_convezione_it_v5_20261016.html) | 20 |
+
+Le immagini tradotte sono state confrontate con gli originali. Il grafico del muro è un SVG con estremi sulle due facce e andamento lineare corretto, distinto dalla scena illustrativa. Nessuna casella viene usata per coprire le etichette; l’atmosfera già italiana è riutilizzata identica.
+
+| Immagine | Originale conservato | Risultato ispezionato |
+| --- | --- | --- |
+| Muro | [Originale](potenza_termica_conduzione_convezione/risorse/muro-versione-incorporata.jpg) | [Scena ripulita](potenza_termica_conduzione_convezione/risorse/muro-italiano.png), con grafico SVG nell’HTML |
+| Vetrocamera | [Originale](potenza_termica_conduzione_convezione/risorse/vetrocamera-originale-inglese.jpg) | [Italiano](potenza_termica_conduzione_convezione/risorse/vetro-italiano.png) |
+| Stanza | [Originale](potenza_termica_conduzione_convezione/risorse/stanza-originale-14877.jpg) | [Italiano](potenza_termica_conduzione_convezione/risorse/stanza-italiano.png) |
+| Atmosfera | [Originale italiano](potenza_termica_conduzione_convezione/risorse/atmosfera-originale-14874.jpg) | Identico all’originale |
+| Mantello | [Originale](potenza_termica_conduzione_convezione/risorse/mantello-originale-14875.jpg) | [Italiano](potenza_termica_conduzione_convezione/risorse/mantello-italiano.png) |
+| Radiatore | [Originale](potenza_termica_conduzione_convezione/risorse/radiatore-originale-14872.jpg) | [Italiano](potenza_termica_conduzione_convezione/risorse/radiatore-italiano.png), verificati «Dal motore» e «Verso il motore» |
+
+Controlli strutturali superati: [esiti e hash](revisione-blog-verifiche.json). Build italiana riuscita: nove HTML correnti e otto reindirizzamenti, senza quiz, traduzioni o lavorazione. Il master v46 è invariato. Stati della materia: circa 19,86 MB, già sopra la soglia di attenzione; nessuna immagine aggiunta né compressa. Calore: circa 15,38 MB dopo le correzioni, sotto 18 MB. Tutti i file sono sotto il limite di 20 MB.
+
+Punti aperti: eseguire il controllo browser desktop/mobile, navigazione, interazioni e download; il sandbox impedisce l’avvio del browser e del server locale. Il tentativo con permesso aggiuntivo è stato interrotto dall’utente e non costituisce un’approvazione. Non dichiarare riuscite queste prove finché non sono concluse. Verificare il salvataggio remoto e la pubblicazione prima della consegna. Le licenze non documentate delle immagini storiche/fornite restano un limite già presente, non una nuova attribuzione verificata; nessun credito noto è rimosso. Nessun materiale Drive modificato.

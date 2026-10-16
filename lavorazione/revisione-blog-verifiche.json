@@ -1,0 +1,113 @@
+{
+  "file": [
+    {
+      "originale": "metodo_scientifico_it_v5_20261013.html",
+      "file": "metodo_scientifico_it_v6_20261016.html",
+      "versione": 6,
+      "byte": 1468856,
+      "quesiti_conservati": 6,
+      "sha256_testi_quesiti": "eb2c6b8c96fd5f0a96eda6764d4225f632138482406da9246b7f9c4d94c14817",
+      "script_identici": 0,
+      "immagini_base64_valide": 3,
+      "ancore_interne": "tutte presenti",
+      "attivita": "sezione unica finale",
+      "sha256_html": "983293a1ad075a94d91e42c5e329eaf2cba2bb3db3e414b032dc37c2fde6d151"
+    },
+    {
+      "originale": "sistema_internazionale_notazione_it_v8_20261013.html",
+      "file": "sistema_internazionale_notazione_it_v9_20261016.html",
+      "versione": 9,
+      "byte": 829084,
+      "quesiti_conservati": 13,
+      "sha256_testi_quesiti": "2a7ea0d11065735c09087013519640e5f0910b18883f88f56ddf2d100d0f6ed6",
+      "script_identici": 0,
+      "immagini_base64_valide": 7,
+      "ancore_interne": "tutte presenti",
+      "attivita": "sezione unica finale",
+      "sha256_html": "0ba4cec911d8c21b689d9dcc9c54dd1cb81832af55811f64d66c97670d75e8df"
+    },
+    {
+      "originale": "strumenti_errori_incertezza_it_v4_20261013.html",
+      "file": "strumenti_errori_incertezza_it_v5_20261016.html",
+      "versione": 5,
+      "byte": 1279998,
+      "quesiti_conservati": 7,
+      "sha256_testi_quesiti": "07d08898524c30fd84777c866aad3bce201e9880267aaaa3246d15884e931510",
+      "script_identici": 0,
+      "immagini_base64_valide": 9,
+      "ancore_interne": "tutte presenti",
+      "attivita": "sezione unica finale",
+      "sha256_html": "0adb1fa2e69c139ea7a3f4efc54399e07cbba8a1457aec1b726bd955e05ca938"
+    },
+    {
+      "originale": "grafici_piano_cartesiano_it_v5_20261013.html",
+      "file": "grafici_piano_cartesiano_it_v6_20261016.html",
+      "versione": 6,
+      "byte": 806546,
+      "quesiti_conservati": 7,
+      "sha256_testi_quesiti": "d0f53bf23c9a2142dbbe520d26a90ca0b1c39b7ce62a5048c4f84ce4d46fc7e1",
+      "script_identici": 1,
+      "immagini_base64_valide": 1,
+      "ancore_interne": "tutte presenti",
+      "attivita": "sezione unica finale",
+      "sha256_html": "9459545e2ea78cdfc61e5cb70d45af567ea5272da388f205c5268aae61d28cb6"
+    },
+    {
+      "originale": "lavoro_energie_potenza_it_v8_20261013.html",
+      "file": "lavoro_energie_potenza_it_v9_20261016.html",
+      "versione": 9,
+      "byte": 12105874,
+      "quesiti_conservati": 31,
+      "sha256_testi_quesiti": "27e95644e26976337f9b0e88f700ef51df70b4bfb408bbe739f23d1eed817766",
+      "script_identici": 1,
+      "immagini_base64_valide": 0,
+      "ancore_interne": "tutte presenti",
+      "attivita": "sezione unica finale",
+      "sha256_html": "1e940e9a89b556702da7862927c7aa716887fb7fb41b869c70f143ede575dfdf"
+    },
+    {
+      "originale": "bilancio_conservazione_rendimento_it_v9_20261013.html",
+      "file": "bilancio_conservazione_rendimento_it_v10_20261016.html",
+      "versione": 10,
+      "byte": 1009602,
+      "quesiti_conservati": 20,
+      "sha256_testi_quesiti": "0160edc22f3a082e2bb11ab2dfcc52cc295ec981c514d9ba3811fc90f8748184",
+      "script_identici": 2,
+      "immagini_base64_valide": 0,
+      "ancore_interne": "tutte presenti",
+      "attivita": "sezione unica finale",
+      "sha256_html": "26a2ba19850126847ff9ed556bcb09c94b95fc5ddd8476c2db83f87037dba249"
+    },
+    {
+      "originale": "stati_della_materia_e_passaggi_di_stato_v6_20261016.html",
+      "file": "stati_della_materia_e_passaggi_di_stato_v7_20261016.html",
+      "versione": 7,
+      "byte": 19864035,
+      "quesiti_conservati": 14,
+      "sha256_testi_quesiti": "01437b67741bcb5cf31048ae6cf5b2bb3424e2ffab54a1e631dcfa96e2a8c7e2",
+      "script_identici": 1,
+      "immagini_base64_valide": 13,
+      "ancore_interne": "tutte presenti",
+      "attivita": "sezione unica finale",
+      "sha256_html": "354b6effd523e0cc70cd83b36a4f0c006505f5d179c7dcafc4f0a4e4c2145f2b"
+    },
+    {
+      "originale": "potenza_termica_conduzione_convezione_it_v4_20261016.html",
+      "file": "potenza_termica_conduzione_convezione_it_v5_20261016.html",
+      "versione": 5,
+      "byte": 15379254,
+      "quesiti_conservati": 20,
+      "sha256_testi_quesiti": "fa776e3fca68b7faf221ed754ec2ed013781e69de46704660e0b2bc0abd1f638",
+      "script_identici": 1,
+      "immagini_base64_valide": 15,
+      "ancore_interne": "tutte presenti",
+      "attivita": "sezione unica finale",
+      "sha256_html": "352d3288bcc5bd46ffd2dd30e95c8302f9807c76ce10467bfd1a032367f90aa3"
+    }
+  ],
+  "quesiti_totali": 118,
+  "master": "v46 invariato",
+  "grafico_muro": "20 °C a x=0, −10 °C a x=s; profilo lineare limitato alla parete; ΔT=30 K",
+  "atmosfera": "originale italiano riutilizzato senza modifiche",
+  "reindirizzamenti": 8
+}
