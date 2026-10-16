@@ -1,0 +1,147 @@
+{
+  "commit_pubblicato": "6cac15c15571f6ed7e21f41d91bf659fb99475d2",
+  "workflow": "https://github.com/rickymusu-bit/fisica/actions/runs/38935850257",
+  "base": "https://rickymusu-bit.github.io/fisica/",
+  "file_verificati": [
+    {
+      "file": "index.html",
+      "http": 200,
+      "byte": 13545,
+      "sha256": "bd6bd15a0adffa325c2a23b050c8b811dba145aaf1aa701ac15987e2020e2aa0",
+      "identico_al_verificato": true
+    },
+    {
+      "file": "metodo_scientifico_it_v6_20261016.html",
+      "http": 200,
+      "byte": 1468710,
+      "sha256": "d6457a4603326dc5779c6229d389d7d0f5abce5215f0df34198c138e5dd663c5",
+      "identico_al_verificato": true
+    },
+    {
+      "file": "sistema_internazionale_notazione_it_v9_20261016.html",
+      "http": 200,
+      "byte": 829084,
+      "sha256": "0ba4cec911d8c21b689d9dcc9c54dd1cb81832af55811f64d66c97670d75e8df",
+      "identico_al_verificato": true
+    },
+    {
+      "file": "strumenti_errori_incertezza_it_v5_20261016.html",
+      "http": 200,
+      "byte": 1279998,
+      "sha256": "0adb1fa2e69c139ea7a3f4efc54399e07cbba8a1457aec1b726bd955e05ca938",
+      "identico_al_verificato": true
+    },
+    {
+      "file": "grafici_piano_cartesiano_it_v6_20261016.html",
+      "http": 200,
+      "byte": 806546,
+      "sha256": "9459545e2ea78cdfc61e5cb70d45af567ea5272da388f205c5268aae61d28cb6",
+      "identico_al_verificato": true
+    },
+    {
+      "file": "lavoro_energie_potenza_it_v9_20261016.html",
+      "http": 200,
+      "byte": 12105874,
+      "sha256": "1e940e9a89b556702da7862927c7aa716887fb7fb41b869c70f143ede575dfdf",
+      "identico_al_verificato": true
+    },
+    {
+      "file": "bilancio_conservazione_rendimento_it_v10_20261016.html",
+      "http": 200,
+      "byte": 1009602,
+      "sha256": "26a2ba19850126847ff9ed556bcb09c94b95fc5ddd8476c2db83f87037dba249",
+      "identico_al_verificato": true
+    },
+    {
+      "file": "stati_della_materia_e_passaggi_di_stato_v7_20261016.html",
+      "http": 200,
+      "byte": 19864035,
+      "sha256": "354b6effd523e0cc70cd83b36a4f0c006505f5d179c7dcafc4f0a4e4c2145f2b",
+      "identico_al_verificato": true
+    },
+    {
+      "file": "potenza_termica_conduzione_convezione_it_v5_20261016.html",
+      "http": 200,
+      "byte": 15379254,
+      "sha256": "352d3288bcc5bd46ffd2dd30e95c8302f9807c76ce10467bfd1a032367f90aa3",
+      "identico_al_verificato": true
+    },
+    {
+      "file": "metodo_scientifico_it_v5_20261013.html",
+      "http": 200,
+      "byte": 523,
+      "sha256": "e9dc411126d3b404b5366e7cd8bc2513faf3a4825c55617225b0c61c58f0b51b",
+      "identico_al_verificato": true
+    },
+    {
+      "file": "sistema_internazionale_notazione_it_v8_20261013.html",
+      "http": 200,
+      "byte": 565,
+      "sha256": "66bc7205e56a2b2763961fc4f8dabeebbbe3eed778df0088e110b09a12a36e4e",
+      "identico_al_verificato": true
+    },
+    {
+      "file": "strumenti_errori_incertezza_it_v4_20261013.html",
+      "http": 200,
+      "byte": 550,
+      "sha256": "981f7e76c0717a7bfdbf5199e79f305b277ac7905830230e4d9fe2b902d95d74",
+      "identico_al_verificato": true
+    },
+    {
+      "file": "grafici_piano_cartesiano_it_v5_20261013.html",
+      "http": 200,
+      "byte": 541,
+      "sha256": "946208543721d05ac4f270243f387f55b60a9d515e52539c2e203ec8b1e3c5ea",
+      "identico_al_verificato": true
+    },
+    {
+      "file": "lavoro_energie_potenza_it_v8_20261013.html",
+      "http": 200,
+      "byte": 535,
+      "sha256": "508bff70fc95aa74669e56257477bc4e4c3de9140a838b08ea92de1b8f105498",
+      "identico_al_verificato": true
+    },
+    {
+      "file": "bilancio_conservazione_rendimento_it_v9_20261013.html",
+      "http": 200,
+      "byte": 571,
+      "sha256": "fc60ed7532759f7295ff521539c8000cfdf244e412fa65f95515c2bfbbe6ade4",
+      "identico_al_verificato": true
+    },
+    {
+      "file": "stati_della_materia_e_passaggi_di_stato_v6_20261016.html",
+      "http": 200,
+      "byte": 577,
+      "sha256": "1f0bdbf9da2de605c0872eb3436ebb4974c0ccf49828404afe8e9cdd14581258",
+      "identico_al_verificato": true
+    },
+    {
+      "file": "potenza_termica_conduzione_convezione_it_v4_20261016.html",
+      "http": 200,
+      "byte": 580,
+      "sha256": "e6f07f680166e28fb9fec1213996acb237cb99eac09b5abd2a6e742f3d2b1083",
+      "identico_al_verificato": true
+    }
+  ],
+  "file_esclusi": [
+    {
+      "file": "MASTER_PROMPT.md",
+      "http": 404
+    },
+    {
+      "file": "lavorazione/revisione-blog.md",
+      "http": 404
+    },
+    {
+      "file": "metodo_scientifico_fr_v5_20261013.html",
+      "http": 404
+    },
+    {
+      "file": "quiz/Chi_vuol_essere_rimandato_quiz_v3_20261008.html",
+      "http": 404
+    }
+  ],
+  "browser_online": "tentativo interrotto sulla homepage: ERR_CERT_AUTHORITY_INVALID nel Chromium dell’ambiente; non disabilitata la verifica TLS",
+  "browser_locale": "prove complete superate sugli stessi file, verificati identici online; vedere ../revisione-blog-browser.json",
+  "provenienza_esiti": "fase HTTP completata di /workspace/scratch/revisione-blog/verifica-online.py; risposte HTTPS verificate e contenuto confrontato byte per byte; sessione di esecuzione 90945"
+}
