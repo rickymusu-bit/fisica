@@ -1,6 +1,6 @@
 # Standard dei capitoli
 
-Aggiornamento: 16 ottobre 2026, ore 23:44 (Europe/Rome).
+Aggiornamento: 16 ottobre 2026, ore 23:48 (Europe/Rome).
 
 ## Decisioni approvate
 
@@ -8,9 +8,9 @@ L'utente ha approvato: capitoli monografici; ordine titolo, copertina, teoria, a
 
 ## Lavoro svolto
 
-Preparata proposta v50 del master, con regole integrate nelle sezioni pertinenti e rinvii allineati. Aggiornati AGENTS.md e il README di lavorazione. Gli HTML e il sito non sono stati modificati in questo intervento sulle istruzioni.
+Consolidata v50 del master, con regole integrate nelle sezioni pertinenti e rinvii allineati. Aggiornati AGENTS.md e il README di lavorazione. Gli HTML e il sito non sono stati modificati in questo intervento sulle istruzioni.
 
-## Riordino periodico proposto (D3.1)
+## Riordino periodico approvato (D3.1)
 
 - A3 diventa il punto unico per monograficità, ordine delle parti e suddivisione dei materiali esistenti.
 - A1 e A2 distinguono l'apertura della teoria dall'apertura del documento con titolo e copertina.
@@ -22,4 +22,6 @@ Preparata proposta v50 del master, con regole integrate nelle sezioni pertinenti
 
 ## Approvazioni e prossima operazione
 
-La struttura è approvata; il riordino periodico non è ancora approvato. Il master resta etichettato come proposta v50, senza consolidamento. Dopo approvazione del riordino: consolidare v50 con data e ora correnti, aggiornare questo stato e integrare secondo le istruzioni dell'utente. Successivamente pianificare l'adeguamento dei materiali esistenti leggendo ciascun HTML e relativo stato, senza dedurre conformità o approvazioni pregresse.
+La struttura e il riordino periodico sono stati approvati esplicitamente dall'utente, che ha risposto «Approvo» il 16 ottobre 2026 alle 23:48 (Europe/Rome), alla richiesta di consolidare v50 e integrare la proposta. Master v50 consolidato. Integrazione richiesta nel ramo main tramite PR #12; verificare il risultato remoto.
+
+Prossima attività didattica: pianificare l'adeguamento dei materiali esistenti leggendo ciascun HTML e relativo stato, senza dedurre conformità o approvazioni pregresse. In questo intervento sono state aggiornate soltanto le istruzioni e il relativo stato, non gli HTML.
