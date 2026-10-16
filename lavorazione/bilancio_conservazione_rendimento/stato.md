@@ -1,10 +1,10 @@
 # Stato — Bilancio energetico, conservazione e rendimento
 
-Ultimo aggiornamento: 2026-10-16 18:33 (Europe/Rome). Master letto integralmente: **v46**, invariato. Ramo di lavoro: `preparazione/revisione-blog`.
+Ultimo aggiornamento: 2026-10-16 18:50 (Europe/Rome). Master letto integralmente: **v46**, invariato. Ramo di lavoro: `preparazione/revisione-blog`.
 
-Fase: revisione HTML realizzata; controlli strutturali superati; verifica nel browser e pubblicazione ancora da completare. Il sito online contiene ancora le versioni precedenti.
+Fase: revisione HTML completata e verificata localmente. Integrazione in `main` e verifica della pubblicazione come prossimo passaggio.
 
-File corrente da verificare prima della pubblicazione: [bilancio_conservazione_rendimento_it_v10_20261016.html](../../bilancio_conservazione_rendimento_it_v10_20261016.html), **v10**. Fonte certa: [bilancio_conservazione_rendimento_it_v9_20261013.html](https://github.com/rickymusu-bit/fisica/blob/a8e171c7c3dcc220521666a8b5330beb4422999e/bilancio_conservazione_rendimento_it_v9_20261013.html), già importata da Drive. La cronologia conserva l’originale; il vecchio URL pubblico verrà reindirizzato mantenendo query e frammento.
+File corrente verificato: [bilancio_conservazione_rendimento_it_v10_20261016.html](../../bilancio_conservazione_rendimento_it_v10_20261016.html), **v10**. Fonte certa: [bilancio_conservazione_rendimento_it_v9_20261013.html](https://github.com/rickymusu-bit/fisica/blob/a8e171c7c3dcc220521666a8b5330beb4422999e/bilancio_conservazione_rendimento_it_v9_20261013.html), già importata da Drive. La cronologia conserva l’originale; il vecchio URL pubblico verrà reindirizzato mantenendo query e frammento.
 
 Ambito: solo revisione editoriale italiana concordata nel [piano](../revisione-blog.md), preservando contenuti scientifici, tema delle dispense esistenti, figure, video e interazioni non coinvolti. Domanda/apertura corrente: «Dove va l’energia del movimento di una bici quando smetti di pedalare? Per rispondere, scegliamo un sistema e seguiamo tutti i trasferimenti e le trasformazioni.».
 
@@ -14,4 +14,6 @@ Completato: indice aggiornato, apparati concordati rimossi e **20 quesiti origin
 
 Checklist pertinente: A1–A3 (racconto e attività concordate), A4 (formule preservate), A6 (HTML autonomo e accessibile), B4–B6 (riuso, approvazioni, stato), C1–C5 per i materiali presenti, D1–D2.1 (verifiche, versioni, dimensioni, vecchi collegamenti e salvataggio remoto).
 
-Verifiche riproducibili e hash: [rapporto strutturale](../revisione-blog-verifiche.json). I test sul browser non sono ancora dichiarati eseguiti: il sandbox locale impedisce la creazione dei socket necessari. Prossima operazione: completare le prove desktop/mobile, indice e download; correggere gli eventuali difetti; salvare e verificare il ramo remoto prima di integrare e pubblicare. Non richiedere nuovamente le approvazioni già ricevute.
+Verifiche e hash: [rapporto strutturale](../revisione-blog-verifiche.json) e [prove nel browser](../revisione-blog-browser.json). Superati i controlli a 1440 e 390 px, senza overflow orizzontale né errori JavaScript; sezione finale e indice funzionanti, vecchi URL reindirizzati mantenendo il frammento; otto download effettivi con nomi e contenuti identici. Tutte le immagini HTML sono decodificate; controlli dei grafici e delle simulazioni provati dove presenti. Il permesso tecnico del sandbox è stato concesso dopo la richiesta dell’utente di mostrarlo. Anteprime mobile delle otto dispense e dettaglio del muro ispezionati; indice del bilancio controllato a layout stabile.
+
+Prossima operazione: salvare e verificare il ramo remoto; integrare la revisione autorizzata e controllare il deployment automatico. Non richiedere nuovamente le approvazioni già ricevute.

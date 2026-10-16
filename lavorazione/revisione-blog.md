@@ -1,6 +1,6 @@
 # Revisione delle dispense come articoli di un blog
 
-Stato: revisione autorizzata dall’utente con «Vai»; realizzazione in corso. Master letto integralmente: v46. La richiesta comprende soltanto le otto dispense italiane pubblicate sul sito; traduzioni e repository del quiz non sono coinvolti.
+Stato: revisione autorizzata dall’utente con «Vai», realizzata e verificata localmente; integrazione e pubblicazione in corso. Master letto integralmente: v46. La richiesta comprende soltanto le otto dispense italiane pubblicate sul sito; traduzioni e repository del quiz non sono coinvolti.
 
 ## Risultato proposto
 
@@ -90,4 +90,6 @@ Le immagini tradotte sono state confrontate con gli originali. Il grafico del mu
 
 Controlli strutturali superati: [esiti e hash](revisione-blog-verifiche.json). Build italiana riuscita: nove HTML correnti e otto reindirizzamenti, senza quiz, traduzioni o lavorazione. Il master v46 è invariato. Stati della materia: circa 19,86 MB, già sopra la soglia di attenzione; nessuna immagine aggiunta né compressa. Calore: circa 15,38 MB dopo le correzioni, sotto 18 MB. Tutti i file sono sotto il limite di 20 MB.
 
-Punti aperti: eseguire il controllo browser desktop/mobile, navigazione, interazioni e download; il sandbox impedisce l’avvio del browser e del server locale. Il tentativo con permesso aggiuntivo è stato interrotto dall’utente e non costituisce un’approvazione. Non dichiarare riuscite queste prove finché non sono concluse. Verificare il salvataggio remoto e la pubblicazione prima della consegna. Le licenze non documentate delle immagini storiche/fornite restano un limite già presente, non una nuova attribuzione verificata; nessun credito noto è rimosso. Nessun materiale Drive modificato.
+Verifica browser completata: 2026-10-16 18:50 (Europe/Rome), dopo il permesso tecnico del sandbox concesso dall’utente. [Risultati](revisione-blog-browser.json): otto dispense a 1440 e 390 px, nessun errore JavaScript o overflow orizzontale; indice, sezione finale, reindirizzamenti con frammento e otto download reali verificati. Tutte le immagini HTML decodificate; provati punto da tastiera, tre curve selezionabili, pulsanti delle tre simulazioni del bilancio e relativi cursori visibili, cinque fasi del riscaldamento e tre canvas presenti. Anteprime mobile ispezionate e grafico del muro controllato dopo il caricamento completo. L’indice del bilancio è integro a layout stabile. Rimossa anche l’ultima frase autoreferenziale nel metodo scientifico.
+
+Punti aperti: verificare il salvataggio remoto e la pubblicazione prima della consegna. Le licenze non documentate delle immagini storiche/fornite restano un limite già presente, non una nuova attribuzione verificata; nessun credito noto è rimosso. Nessun materiale Drive modificato.

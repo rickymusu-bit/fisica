@@ -1,0 +1,151 @@
+{
+  "dispense": [
+    {
+      "file": "metodo_scientifico_it_v6_20261016.html",
+      "desktop_mobile": "1440 e 390 px senza overflow",
+      "quesiti_dom": 6,
+      "errori_js": [],
+      "reindirizzamento": "riuscito, frammento conservato",
+      "input": [],
+      "pulsanti": [],
+      "canvas": 0
+    },
+    {
+      "file": "sistema_internazionale_notazione_it_v9_20261016.html",
+      "desktop_mobile": "1440 e 390 px senza overflow",
+      "quesiti_dom": 13,
+      "errori_js": [],
+      "reindirizzamento": "riuscito, frammento conservato",
+      "input": [],
+      "pulsanti": [],
+      "canvas": 0
+    },
+    {
+      "file": "strumenti_errori_incertezza_it_v5_20261016.html",
+      "desktop_mobile": "1440 e 390 px senza overflow",
+      "quesiti_dom": 7,
+      "errori_js": [],
+      "reindirizzamento": "riuscito, frammento conservato",
+      "input": [],
+      "pulsanti": [],
+      "canvas": 0
+    },
+    {
+      "file": "grafici_piano_cartesiano_it_v6_20261016.html",
+      "desktop_mobile": "1440 e 390 px senza overflow",
+      "quesiti_dom": 7,
+      "errori_js": [],
+      "reindirizzamento": "riuscito, frammento conservato",
+      "input": [],
+      "pulsanti": [
+        "Mostra la retta",
+        "Mostra la curva",
+        "Mostra la curva"
+      ],
+      "canvas": 0
+    },
+    {
+      "file": "lavoro_energie_potenza_it_v9_20261016.html",
+      "desktop_mobile": "1440 e 390 px senza overflow",
+      "quesiti_dom": 31,
+      "errori_js": [],
+      "reindirizzamento": "riuscito, frammento conservato",
+      "input": [],
+      "pulsanti": [],
+      "canvas": 0
+    },
+    {
+      "file": "bilancio_conservazione_rendimento_it_v10_20261016.html",
+      "desktop_mobile": "1440 e 390 px senza overflow",
+      "quesiti_dom": 20,
+      "errori_js": [],
+      "reindirizzamento": "riuscito, frammento conservato",
+      "input": [],
+      "pulsanti": [],
+      "canvas": 0
+    },
+    {
+      "file": "stati_della_materia_e_passaggi_di_stato_v7_20261016.html",
+      "desktop_mobile": "1440 e 390 px senza overflow",
+      "quesiti_dom": 14,
+      "errori_js": [],
+      "reindirizzamento": "riuscito, frammento conservato",
+      "input": [],
+      "pulsanti": [
+        "Ghiaccio si riscalda",
+        "Fusione",
+        "Acqua si riscalda",
+        "Ebollizione",
+        "Vapore si riscalda"
+      ],
+      "canvas": 3
+    },
+    {
+      "file": "potenza_termica_conduzione_convezione_it_v5_20261016.html",
+      "desktop_mobile": "1440 e 390 px senza overflow",
+      "quesiti_dom": 20,
+      "errori_js": [],
+      "reindirizzamento": "riuscito, frammento conservato",
+      "input": [],
+      "pulsanti": [],
+      "canvas": 0
+    }
+  ],
+  "download": "otto download reali con nome e contenuto identici",
+  "immagini_interazioni": [
+    {
+      "file": "metodo_scientifico_it_v6_20261016.html",
+      "immagini_decodificate": 3,
+      "controlli": [],
+      "anteprime": "1440 e 390 px"
+    },
+    {
+      "file": "sistema_internazionale_notazione_it_v9_20261016.html",
+      "immagini_decodificate": 7,
+      "controlli": [],
+      "anteprime": "1440 e 390 px"
+    },
+    {
+      "file": "strumenti_errori_incertezza_it_v5_20261016.html",
+      "immagini_decodificate": 9,
+      "controlli": [],
+      "anteprime": "1440 e 390 px"
+    },
+    {
+      "file": "grafici_piano_cartesiano_it_v6_20261016.html",
+      "immagini_decodificate": 1,
+      "controlli": [
+        "punto da tastiera e tre curve mostrate/nascoste"
+      ],
+      "anteprime": "1440 e 390 px"
+    },
+    {
+      "file": "lavoro_energie_potenza_it_v9_20261016.html",
+      "immagini_decodificate": 9,
+      "controlli": [],
+      "anteprime": "1440 e 390 px"
+    },
+    {
+      "file": "bilancio_conservazione_rendimento_it_v10_20261016.html",
+      "immagini_decodificate": 0,
+      "controlli": [
+        "tre simulazioni: avvia/pausa, passo, fondo e reset; cursori visibili dell’esplorazione"
+      ],
+      "anteprime": "1440 e 390 px"
+    },
+    {
+      "file": "stati_della_materia_e_passaggi_di_stato_v7_20261016.html",
+      "immagini_decodificate": 13,
+      "controlli": [
+        "cinque fasi selezionabili e tre canvas presenti"
+      ],
+      "anteprime": "1440 e 390 px"
+    },
+    {
+      "file": "potenza_termica_conduzione_convezione_it_v5_20261016.html",
+      "immagini_decodificate": 15,
+      "controlli": [],
+      "anteprime": "1440 e 390 px"
+    }
+  ]
+}
