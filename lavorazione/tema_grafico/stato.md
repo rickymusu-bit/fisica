@@ -33,3 +33,7 @@ Master v55 e riferimento grafico allineati alla richiesta. Nessun aggiornamento 
 Sostituiti dialog e apertura esclusivamente JavaScript con `details`/`summary` nativi: apertura e chiusura al tocco funzionano anche senza script. Aspetto e contenuti conservati. Con JavaScript restano focus gestito, Esc, clic esterno, chiusura selezionando una sezione e voce corrente. Senza script, dopo aver scelto una sezione si chiude il pannello con lo stesso comando nativo «Chiudi».
 
 Verifiche in `verifiche.json`: desktop 1440 px, mobile touch 390 px con e senza JavaScript, mobile touch 320 px senza JavaScript. Superate apertura, chiusura, navigazione e assenza di scorrimento laterale; verificati inoltre focus, Esc e clic esterno con script attivi. Nessun errore JavaScript. Le verifiche non sono eseguite nell’anteprima interna di ChatGPT. Anteprime aggiornate. Nessun HTML ufficiale o pubblicazione modificato.
+
+## Nome del collegamento alla home — v5
+
+17 ottobre 2026, ore 01:05 (Europe/Rome). L’utente chiede di sostituire «Materiali» con un nome meno generico. Applicata «← Biblioteca di fisica» a entrambi i collegamenti della prova; URL invariati. Master v56 e riferimento grafico allineati. Adeguata la disposizione dell’intestazione per il testo più lungo sugli schermi stretti. Nessun HTML ufficiale o pubblicazione modificato.
