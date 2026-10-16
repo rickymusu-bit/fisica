@@ -1,8 +1,6 @@
 # PROMPT MASTER — DISPENSE VISUALI DI FISICA PER IL BIENNIO DEGLI ISTITUTI TECNICI
 
-VERSIONE DEL PROMPT: proposta v50 — 16 ottobre 2026, ore 23:44 (Europe/Rome)
-
-Stato: struttura dei capitoli approvata; proposta di riordino periodico in attesa di approvazione secondo D3.1. La v49 resta l'ultima versione consolidata fino all'approvazione del riordino.
+VERSIONE DEL PROMPT: v50 — 16 ottobre 2026, ore 23:48 (Europe/Rome)
 
 Questo master raccoglie le regole della dispensa e la procedura per realizzarla con il minor lavoro ripetuto possibile. Le istruzioni relative a immagini, video, traduzioni e simulazioni si applicano quando quei materiali fanno parte della richiesta. Non aggiungere contenuti o lavorazioni solo perché il master ne descrive la gestione.
 
