@@ -1,6 +1,6 @@
 # Stato — Pagina di benvenuto e GitHub Pages
 
-Master iniziale consultato: v45; versione corrente v48 dopo il passaggio ai nomi stabili. Ambito: indice dei materiali italiani e pubblicazione GitHub Pages del repository pubblico `rickymusu-bit/fisica`.
+Master iniziale consultato: v45; versione corrente v49 dopo la rimozione dei reindirizzamenti richiesta dall’utente. Ambito: indice dei materiali italiani e pubblicazione GitHub Pages del repository pubblico `rickymusu-bit/fisica`.
 
 Autorizzazione: l’utente ha richiesto esplicitamente una pagina di benvenuto con indice solo dei materiali italiani e l’attivazione di GitHub Pages se il repository è pubblico. La visibilità pubblica è stata verificata. Questa richiesta è successiva alla migrazione e autorizza la pubblicazione ora.
 
@@ -47,3 +47,8 @@ Aggiornamento: 2026-10-16 19:40 (Europe/Rome). L’utente richiede che i tasti a
 ## Nomi stabili e versioni interne
 
 Aggiornamento: 2026-10-16 21:16 (Europe/Rome). L’utente autorizza i nomi stabili per tutti i file del repository: rinominate 16 dispense (8 italiane e 8 traduzioni), con contenuto e versione interna identici. Master aggiornato a v48; AGENTS allineato. Indice e download puntano ai nomi stabili; 24 indirizzi italiani precedenti reindirizzati direttamente, mantenendo query e frammento. Le traduzioni restano nel repository e non vengono pubblicate. Master, stati e risorse avevano già nomi senza versioni o date e mantengono i percorsi. Gli inventari e gli esiti storici conservano i nomi effettivamente verificati allora; i collegamenti Markdown correnti sono aggiornati. [Mappa e integrità](nomi-stabili.json). Rinomina completata e verificata: identità SHA-256 dei 16 file, collegamenti locali, build selettiva in italiano, otto letture dall’indice, otto download reali con nomi stabili e otto reindirizzamenti con query e frammenti conservati. La build controlla tutte le 24 destinazioni, senza catene. Indice verificato a 1440 e 390 px. Pubblicazione tramite il workflow Pages dopo l’integrazione in `main`.
+
+
+## Rimozione dei reindirizzamenti
+
+Aggiornamento: 2026-10-16 21:24 (Europe/Rome). L’utente richiede esplicitamente di cancellare i reindirizzamenti perché i vecchi link non sono stati condivisi. Rimossi i 24 alias, la mappa `site-redirects.json` e la relativa generazione dalla build. Master v49 e AGENTS allineati all’eccezione esplicita. La build pubblica soltanto `index.html` e le otto dispense italiane con nomi stabili; HTML, versioni e download non modificati. I riferimenti ai reindirizzamenti negli inventari precedenti descrivono le verifiche storiche e non la configurazione corrente. Verifica locale: artefatto composto da nove HTML correnti e `.nojekyll`, senza vecchi nomi. Pubblicazione tramite il workflow Pages da `main`; verificare HTTP 404 sui 24 vecchi percorsi e HTTP 200 sui nove attuali.
