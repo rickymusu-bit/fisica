@@ -25,3 +25,11 @@ Anteprima v3: rimosso l’indice orizzontale iniziale; aggiunto pannello lateral
 Verificati in Chromium a 1440 e 390 px: chiuso all’avvio, apertura da tastiera, focus nel pannello, Esc e ritorno al pulsante, navigazione alle sezioni con chiusura e focus sul titolo, pulsante accessibile durante lo scorrimento, voce corrente corretta, chiusura dal fondo esterno, nessun errore JavaScript o scorrimento laterale della pagina. Esiti aggiornati in `verifiche.json`; nuove anteprime a pannello aperto in `indice-desktop.png` e `indice-smartphone.png`.
 
 Master v55 e riferimento grafico allineati alla richiesta. Nessun aggiornamento degli HTML ufficiali o del sito pubblicato. Salvataggio nel ramo dedicato; prossimo passaggio mostrare la nuova anteprima all’utente.
+
+## Correzione dell’apertura su mobile — v4
+
+17 ottobre 2026, ore 01:02 (Europe/Rome). L’utente segnala che il pannello non si apre al tocco e precisa di usare l’anteprima del file dentro ChatGPT. La v3 si apre nell’emulazione touch Chromium con JavaScript, ma non con gli script disabilitati. Questo riproduce il sintomo, senza attestare le impostazioni interne dell’anteprima ChatGPT.
+
+Sostituiti dialog e apertura esclusivamente JavaScript con `details`/`summary` nativi: apertura e chiusura al tocco funzionano anche senza script. Aspetto e contenuti conservati. Con JavaScript restano focus gestito, Esc, clic esterno, chiusura selezionando una sezione e voce corrente. Senza script, dopo aver scelto una sezione si chiude il pannello con lo stesso comando nativo «Chiudi».
+
+Verifiche in `verifiche.json`: desktop 1440 px, mobile touch 390 px con e senza JavaScript, mobile touch 320 px senza JavaScript. Superate apertura, chiusura, navigazione e assenza di scorrimento laterale; verificati inoltre focus, Esc e clic esterno con script attivi. Nessun errore JavaScript. Le verifiche non sono eseguite nell’anteprima interna di ChatGPT. Anteprime aggiornate. Nessun HTML ufficiale o pubblicazione modificato.

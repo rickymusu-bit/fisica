@@ -25,6 +25,8 @@ Testo a sinistra senza giustificazione, corpo di 21 px su desktop e 19 px su sma
 
 Per i capitoli, indice interno in un pannello laterale a scomparsa come nei lettori PDF, richiesto esplicitamente dall’utente al posto dell’indice all’inizio della pagina. Pulsante «Indice» nell’intestazione sempre raggiungibile durante la lettura, pannello inizialmente chiuso, sezione corrente evidenziata, chiusura esplicita o con Esc, selezione di una voce e clic esterno. Pannello sovrapposto alla pagina su smartphone. Usare comandi semantici e gestione del focus, preservando il tema Mac e Lexend. Il catalogo dei materiali nella home e i collegamenti al sito restano distinti dall’indice interno del capitolo.
 
+Compatibilità delle anteprime: apertura e chiusura esplicita devono funzionare anche senza JavaScript. La prova v4 usa `details` e `summary` nativi, senza dipendere da `dialog.showModal()`. Gli script migliorano focus, sezione corrente, chiusura automatica dopo la scelta, Esc e clic esterno; quando non sono eseguiti si naviga con i collegamenti e si chiude con «Chiudi». Verificare anche il tocco reale emulato con script disabilitati, oltre alla sola larghezza dello schermo.
+
 - Riprendere il linguaggio grafico comune per navigazione, copertina, titoli e comandi; mantenere un corpo del testo discorsivo, con larghezza e interlinea adatte alla lettura.
 - Usare le cornici in modo selettivo, senza una finestra per ogni paragrafo. Conservare l’ordine del capitolo e la distribuzione delle visuali previsti in A3.
 - Conservare colori e dettagli utili di fotografie, grafici e schemi: i filtri in scala di grigi presenti nel template non si trasferiscono automaticamente ai materiali didattici.
