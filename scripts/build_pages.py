@@ -1,6 +1,8 @@
 """Prepara GitHub Pages copiando solo gli HTML italiani collegati dall'indice."""
 from html.parser import HTMLParser
 from pathlib import Path
+from html import escape
+import json
 import shutil
 from urllib.parse import unquote, urlsplit
 
@@ -58,8 +60,26 @@ def main():
         target = OUTPUT / source.relative_to(ROOT)
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(source, target)
+    redirects_path = ROOT / "site-redirects.json"
+    redirects = json.loads(redirects_path.read_text()) if redirects_path.exists() else {}
+    for previous, current in redirects.items():
+        previous_path = Path(previous)
+        current_path = (ROOT / current).resolve()
+        if previous_path.name != previous or previous_path.suffix != ".html":
+            raise ValueError(f"Percorso di reindirizzamento non valido: {previous}")
+        if current_path not in sources or previous == current or (OUTPUT / previous).exists():
+            raise ValueError(f"Destinazione di reindirizzamento non valida: {current}")
+        destination = json.dumps(current, ensure_ascii=False)
+        page = f'''<!DOCTYPE html>
+<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dispensa aggiornata · Materiale Didattico</title>
+<script>location.replace({destination}+location.search+location.hash);</script>
+<meta http-equiv="refresh" content="0;url={escape(current, quote=True)}"></head>
+<body><p>La dispensa è stata aggiornata. <a href="{escape(current, quote=True)}">Apri la versione corrente</a>.</p></body></html>
+'''
+        (OUTPUT / previous).write_text(page, encoding="utf-8")
     (OUTPUT / ".nojekyll").touch()
-    print(f"Preparati {len(sources)} HTML in italiano, preservando nomi e percorsi.")
+    print(f"Preparati {len(sources)} HTML in italiano e {len(redirects)} reindirizzamenti dai collegamenti precedenti.")
 
 
 if __name__ == "__main__":

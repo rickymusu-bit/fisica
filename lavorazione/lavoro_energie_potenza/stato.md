@@ -1,13 +1,19 @@
-# Stato — lavoro_energie_potenza
+# Stato — Lavoro, energie e potenza
 
-Ultimo aggiornamento: 2026-10-16 14:15 (Europe/Rome). Master consultato: v44.
+Ultimo aggiornamento: 2026-10-16 18:50 (Europe/Rome). Master letto integralmente: **v46**, invariato. Ramo di lavoro: `preparazione/revisione-blog`.
 
-Fase: materiali esistenti importati senza modifiche; nessuna nuova progettazione o revisione didattica avviata. Ambito: i file elencati sotto. Nessun documento di lavorazione era presente nella cartella Drive dedicata.
+Fase: revisione HTML completata e verificata localmente. Integrazione in `main` e verifica della pubblicazione come prossimo passaggio.
 
-- [lavoro_energie_potenza_it_v8_20261013.html](../../lavoro_energie_potenza_it_v8_20261013.html) — 12,105,085 byte; provenienza nell’inventario di migrazione.
+File corrente verificato: [lavoro_energie_potenza_it_v9_20261016.html](../../lavoro_energie_potenza_it_v9_20261016.html), **v9**. Fonte certa: [lavoro_energie_potenza_it_v8_20261013.html](https://github.com/rickymusu-bit/fisica/blob/a8e171c7c3dcc220521666a8b5330beb4422999e/lavoro_energie_potenza_it_v8_20261013.html), già importata da Drive. La cronologia conserva l’originale; il vecchio URL pubblico verrà reindirizzato mantenendo query e frammento.
 
-Domanda iniziale, template approvato, checklist didattica, visuali e simulazioni: da ricavare dai file soltanto alla prossima lavorazione pertinente. Originali separati e registri di approvazione non presenti nella fonte di lavorazione. Approvazioni di visuali, bozza e via alla realizzazione: non documentate dalle fonti disponibili; la migrazione non le attribuisce all’utente.
+Ambito: solo revisione editoriale italiana concordata nel [piano](../revisione-blog.md), preservando contenuti scientifici, tema delle dispense esistenti, figure, video e interazioni non coinvolti. Domanda/apertura corrente: «Quanto lavoro compie una forza? Quanta energia ha un corpo? Quanto rapidamente viene trasferita?».
 
-Bozza corrente: nessuna fornita separatamente. Alla ripresa usa `bozza.md`, `bozza.html` e `risorse/` soltanto se necessari, con nomi stabili; non duplicare gli HTML ufficiali senza una lavorazione effettiva.
+Approvazioni effettive: richiesta di stile da blog e correzioni sul calore; successiva indicazione di conservare domande ed esercizi in fondo; quattro originali forniti dall’utente; **«Vai» ricevuto il 16 ottobre 2026 alle 17:39 (Europe/Rome)** sulla proposta e sulla stima aggiornate. Le approvazioni storiche non documentate dalla migrazione non sono ricostruite.
 
-Completato: importazione integrale; verifiche tecniche nel [rapporto](../migrazione/RAPPORTO.md). Punti aperti: eventuali anomalie elencate nel rapporto e informazioni progettuali non documentate. Prossima operazione: identificare la revisione richiesta e la sua versione di partenza, leggere master e file pertinenti, quindi seguire B1–B6 conservando le parti già approvate.
+Completato: indice aggiornato, apparati concordati rimossi e **31 quesiti originali integralmente conservati**, in un’unica sezione finale «Domande ed esercizi». Meta, nome e data aggiornati. 1 script conservati con hash identici; nessuna nuova simulazione o modifica del modello. Immagini e risorse incorporate verificate. Template e comandi esistenti preservati.
+
+Checklist pertinente: A1–A3 (racconto e attività concordate), A4 (formule preservate), A6 (HTML autonomo e accessibile), B4–B6 (riuso, approvazioni, stato), C1–C5 per i materiali presenti, D1–D2.1 (verifiche, versioni, dimensioni, vecchi collegamenti e salvataggio remoto).
+
+Verifiche e hash: [rapporto strutturale](../revisione-blog-verifiche.json) e [prove nel browser](../revisione-blog-browser.json). Superati i controlli a 1440 e 390 px, senza overflow orizzontale né errori JavaScript; sezione finale e indice funzionanti, vecchi URL reindirizzati mantenendo il frammento; otto download effettivi con nomi e contenuti identici. Tutte le immagini HTML sono decodificate; controlli dei grafici e delle simulazioni provati dove presenti. Il permesso tecnico del sandbox è stato concesso dopo la richiesta dell’utente di mostrarlo. Anteprime mobile delle otto dispense e dettaglio del muro ispezionati; indice del bilancio controllato a layout stabile.
+
+Prossima operazione: salvare e verificare il ramo remoto; integrare la revisione autorizzata e controllare il deployment automatico. Non richiedere nuovamente le approvazioni già ricevute.

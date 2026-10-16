@@ -27,9 +27,9 @@ Su richiesta dell’utente, i quattro materiali originariamente in `quiz/` sono 
 
 | Percorso | Byte | Modifica Drive (UTC) |
 | --- | ---: | --- |
-| [potenza_termica_conduzione_convezione_it_v4_20261016.html](../../potenza_termica_conduzione_convezione_it_v4_20261016.html) | 5627829 | 2026-10-16T07:32:29.119Z |
-| [stati_della_materia_e_passaggi_di_stato_v6_20261016.html](../../stati_della_materia_e_passaggi_di_stato_v6_20261016.html) | 19863151 | 2026-10-16T06:25:40.172Z |
-| [bilancio_conservazione_rendimento_it_v9_20261013.html](../../bilancio_conservazione_rendimento_it_v9_20261013.html) | 1009728 | 2026-10-13T18:18:10.125Z |
+| [potenza_termica_conduzione_convezione_it_v4_20261016.html](https://github.com/rickymusu-bit/fisica/blob/a8e171c7c3dcc220521666a8b5330beb4422999e/potenza_termica_conduzione_convezione_it_v4_20261016.html) | 5627829 | 2026-10-16T07:32:29.119Z |
+| [stati_della_materia_e_passaggi_di_stato_v6_20261016.html](https://github.com/rickymusu-bit/fisica/blob/a8e171c7c3dcc220521666a8b5330beb4422999e/stati_della_materia_e_passaggi_di_stato_v6_20261016.html) | 19863151 | 2026-10-16T06:25:40.172Z |
+| [bilancio_conservazione_rendimento_it_v9_20261013.html](https://github.com/rickymusu-bit/fisica/blob/a8e171c7c3dcc220521666a8b5330beb4422999e/bilancio_conservazione_rendimento_it_v9_20261013.html) | 1009728 | 2026-10-13T18:18:10.125Z |
 | [metodo_scientifico_fr_v5_20261013.html](../../metodo_scientifico_fr_v5_20261013.html) | 1468039 | 2026-10-13T18:18:01.056Z |
 | [strumenti_errori_incertezza_fr_v4_20261013.html](../../strumenti_errori_incertezza_fr_v4_20261013.html) | 1278289 | 2026-10-13T18:17:56.660Z |
 | [grafici_piano_cartesiano_sq_v5_20261013.html](../../grafici_piano_cartesiano_sq_v5_20261013.html) | 804572 | 2026-10-13T18:17:52.329Z |
@@ -37,12 +37,12 @@ Su richiesta dell’utente, i quattro materiali originariamente in `quiz/` sono 
 | [strumenti_errori_incertezza_sq_v4_20261013.html](../../strumenti_errori_incertezza_sq_v4_20261013.html) | 1277865 | 2026-10-13T18:17:44.085Z |
 | [grafici_piano_cartesiano_fr_v5_20261013.html](../../grafici_piano_cartesiano_fr_v5_20261013.html) | 804878 | 2026-10-13T18:17:12.164Z |
 | [metodo_scientifico_sq_v5_20261013.html](../../metodo_scientifico_sq_v5_20261013.html) | 1467912 | 2026-10-13T18:17:08.230Z |
-| [sistema_internazionale_notazione_it_v8_20261013.html](../../sistema_internazionale_notazione_it_v8_20261013.html) | 828177 | 2026-10-13T18:17:03.729Z |
+| [sistema_internazionale_notazione_it_v8_20261013.html](https://github.com/rickymusu-bit/fisica/blob/a8e171c7c3dcc220521666a8b5330beb4422999e/sistema_internazionale_notazione_it_v8_20261013.html) | 828177 | 2026-10-13T18:17:03.729Z |
 | [sistema_internazionale_notazione_fr_v8_20261013.html](../../sistema_internazionale_notazione_fr_v8_20261013.html) | 827784 | 2026-10-13T18:16:59.957Z |
-| [metodo_scientifico_it_v5_20261013.html](../../metodo_scientifico_it_v5_20261013.html) | 1467999 | 2026-10-13T18:16:55.557Z |
-| [strumenti_errori_incertezza_it_v4_20261013.html](../../strumenti_errori_incertezza_it_v4_20261013.html) | 1279166 | 2026-10-13T18:16:50.883Z |
-| [grafici_piano_cartesiano_it_v5_20261013.html](../../grafici_piano_cartesiano_it_v5_20261013.html) | 804753 | 2026-10-13T18:16:45.993Z |
-| [lavoro_energie_potenza_it_v8_20261013.html](../../lavoro_energie_potenza_it_v8_20261013.html) | 12105085 | 2026-10-13T18:16:42.093Z |
+| [metodo_scientifico_it_v5_20261013.html](https://github.com/rickymusu-bit/fisica/blob/a8e171c7c3dcc220521666a8b5330beb4422999e/metodo_scientifico_it_v5_20261013.html) | 1467999 | 2026-10-13T18:16:55.557Z |
+| [strumenti_errori_incertezza_it_v4_20261013.html](https://github.com/rickymusu-bit/fisica/blob/a8e171c7c3dcc220521666a8b5330beb4422999e/strumenti_errori_incertezza_it_v4_20261013.html) | 1279166 | 2026-10-13T18:16:50.883Z |
+| [grafici_piano_cartesiano_it_v5_20261013.html](https://github.com/rickymusu-bit/fisica/blob/a8e171c7c3dcc220521666a8b5330beb4422999e/grafici_piano_cartesiano_it_v5_20261013.html) | 804753 | 2026-10-13T18:16:45.993Z |
+| [lavoro_energie_potenza_it_v8_20261013.html](https://github.com/rickymusu-bit/fisica/blob/a8e171c7c3dcc220521666a8b5330beb4422999e/lavoro_energie_potenza_it_v8_20261013.html) | 12105085 | 2026-10-13T18:16:42.093Z |
 | [quiz/Template_dataset_quiz_argomenti_v1_20261008.json](https://github.com/rickymusu-bit/quiz/blob/f102b5583ff96c6574a32e32f20129535f6b9341/Template_dataset_quiz_argomenti_v1_20261008.json) | 6126 | 2026-10-14T07:02:51.146Z |
 | [quiz/Prompt_generazione_dataset_quiz_v1_20261008.txt](https://github.com/rickymusu-bit/quiz/blob/f102b5583ff96c6574a32e32f20129535f6b9341/Prompt_generazione_dataset_quiz_v1_20261008.txt) | 9714 | 2026-10-14T07:02:47.260Z |
 | [quiz/Chi_vuol_essere_rimandato_regole_v9_20261008.html](https://github.com/rickymusu-bit/quiz/blob/f102b5583ff96c6574a32e32f20129535f6b9341/Chi_vuol_essere_rimandato_regole_v9_20261008.html) | 2305334 | 2026-10-14T07:02:44.399Z |

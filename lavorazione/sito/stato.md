@@ -23,3 +23,10 @@ Fase: completata. Ultimo aggiornamento: 2026-10-16 16:54 (Europe/Rome). Prossima
 ## Download delle dispense
 
 Richiesta dell’utente: consentire ai visitatori di scaricare le dispense. Aggiunti otto collegamenti «Scarica HTML» con nomi di file originali, accanto ai collegamenti di lettura. Non vengono duplicate o modificate le dispense. L’attributo HTML `download` usa URL dello stesso sito, senza JavaScript o servizi esterni. Verificati otto download reali nel browser, con nomi corretti e contenuti identici byte per byte agli originali; verificati inoltre attivazione da tastiera e layout senza scorrimento laterale a 390, 768, 1024 e 1440 px. Gli originali e i percorsi restano invariati. La pubblicazione aggiornata segue il workflow automatico dopo l’integrazione in `main`. Aggiornamento: 2026-10-16 17:03 (Europe/Rome).
+
+
+## Revisione editoriale delle dispense
+
+Aggiornamento: 2026-10-16 18:50 (Europe/Rome). Master v46. Revisione richiesta dall’utente e autorizzata con «Vai»: otto nuove versioni italiane, 118 quesiti conservati nelle sezioni finali, correzioni delle immagini e del grafico sul calore. `index.html` aggiorna lettura e download. `site-redirects.json` e `scripts/build_pages.py` generano otto pagine di reindirizzamento dai precedenti URL, conservando query e frammenti; le vecchie versioni integrali restano nella cronologia Git.
+
+Build verificata con nove HTML correnti e otto reindirizzamenti. Le prove browser e gli otto download effettivi sono in [revisione-blog-browser.json](../revisione-blog-browser.json); i file sono identici alle nuove versioni controllate. Nessun quiz o traduzione aggiunto. Prossimo passaggio: integrazione in `main`, esecuzione del workflow Pages e verifica dei contenuti pubblicati; non richiedere nuovamente l’autorizzazione alla pubblicazione già data.
