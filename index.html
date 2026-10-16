@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dispense visuali di fisica per esplorare misure, energia, materia e calore. Tutti i materiali raccolti sono in italiano.">
+  <meta name="author" content="Riccardo Musumarra">
+  <meta name="color-scheme" content="light">
+  <title>Materiale Didattico · Fisica</title>
+  <style>
+    :root{--paper:#f8f7f2;--ink:#172f3a;--muted:#52636a;--line:#d5dcd8;--accent:#a34124;--soft:#eaf0eb;--white:#fffefa}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:1.5rem}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}
+    a{color:inherit;text-underline-offset:.22em}
+    a:focus-visible{outline:3px solid var(--accent);outline-offset:5px;border-radius:2px}
+    .skip{position:absolute;top:1rem;left:1rem;z-index:2;transform:translateY(-180%);padding:.6rem 1rem;background:var(--ink);color:white}
+    .skip:focus{transform:none}
+    .wrap{max-width:1120px;margin:auto;padding-inline:clamp(1.25rem,5vw,4rem)}
+    .top{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding-block:1.5rem;border-bottom:1px solid var(--line)}
+    .brand{font-size:.82rem;font-weight:750;letter-spacing:.12em;text-transform:uppercase;text-decoration:none}
+    .subject{font-family:Georgia,"Times New Roman",serif;font-size:1.15rem;font-style:italic}
+    .intro{padding-block:clamp(3rem,7vw,6.2rem) 3.5rem}
+    .eyebrow{margin:0 0 1.2rem;color:var(--accent);font-size:.76rem;font-weight:750;letter-spacing:.14em;text-transform:uppercase}
+    h1,h2,h3,p{margin-top:0}
+    h1{max-width:850px;margin-bottom:1.5rem;font-family:Georgia,"Times New Roman",serif;font-size:clamp(2.7rem,6.7vw,5rem);font-weight:400;line-height:1.07;letter-spacing:-.045em}
+    h1 em{color:var(--accent);font-weight:400}
+    .welcome{max-width:680px;color:var(--muted);font-size:clamp(1rem,2vw,1.15rem)}
+    .intro-foot{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;margin-top:2.2rem}
+    .count{font-size:.8rem;color:var(--muted)}
+    .jump{display:inline-flex;gap:.85rem;align-items:center;padding:.65rem 1rem;background:var(--ink);color:var(--white);font-size:.9rem;text-decoration:none}
+    .jump:hover{background:#294856}
+    .catalogue{display:grid;grid-template-columns:190px minmax(0,1fr);gap:3rem;padding-block:2.5rem 4rem;border-top:1px solid var(--line)}
+    .contents{align-self:start;position:sticky;top:1.5rem}
+    .contents h2{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:1rem}
+    .contents ul{padding:0;margin:0;list-style:none}
+    .contents li+li{margin-top:.65rem}
+    .contents a{font-size:.88rem;text-decoration:none}
+    .contents a:hover{text-decoration:underline}
+    .group+.group{margin-top:3rem}
+    .section-label{display:flex;align-items:baseline;justify-content:space-between;gap:1rem;margin-bottom:.5rem}
+    .section-label h2{font-family:Georgia,"Times New Roman",serif;font-size:1.65rem;font-weight:400;letter-spacing:-.025em;margin-bottom:.5rem}
+    .section-label span{color:var(--muted);font-size:.75rem;white-space:nowrap}
+    .materials{padding:0;margin:0;list-style:none}
+    .material{border-top:1px solid var(--line)}
+    .material:last-child{border-bottom:1px solid var(--line)}
+    .material a{display:grid;grid-template-columns:2rem minmax(0,1fr) 1.5rem;gap:.8rem;padding:1.25rem .2rem;text-decoration:none;transition:background-color .15s}
+    .material a:hover{background:var(--soft)}
+    .number{padding-top:.2rem;color:var(--accent);font-size:.75rem;font-variant-numeric:tabular-nums}
+    .material h3{font-size:1.05rem;font-weight:650;line-height:1.4;margin:0 0 .3rem}
+    .material a:hover h3{text-decoration:underline;text-underline-offset:.2em}
+    .material p{margin:0;color:var(--muted);font-size:.88rem}
+    .arrow{align-self:center;color:var(--accent);font-size:1.3rem}
+    footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:.5rem;padding-block:1.5rem;border-top:1px solid var(--line);color:var(--muted);font-size:.78rem}
+    footer p{margin:0}
+    @media(max-width:700px){.catalogue{grid-template-columns:1fr;gap:2rem;padding-top:1.5rem}.contents{position:static}.contents ul{display:flex;flex-wrap:wrap;gap:.6rem 1.1rem}.contents li+li{margin:0}.contents a{font-size:.82rem}.intro{padding-bottom:2rem}.material a{grid-template-columns:1.5rem minmax(0,1fr) 1rem;gap:.5rem}.section-label h2{font-size:1.45rem}.section-label span{font-size:.7rem}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.material a{transition:none}}
+  </style>
+</head>
+<body>
+  <a class="skip" href="#indice">Vai all’indice dei materiali</a>
+  <div class="wrap">
+    <header class="top">
+      <a class="brand" href="./" aria-label="Materiale Didattico, pagina iniziale">Materiale Didattico</a>
+      <span class="subject">Fisica</span>
+    </header>
+    <main>
+      <section class="intro" aria-labelledby="benvenuto">
+        <p class="eyebrow">Osservare · Capire · Ragionare</p>
+        <h1 id="benvenuto">La fisica,<br><em>un fenomeno alla volta.</em></h1>
+        <p class="welcome">Benvenuto nella raccolta di materiali di fisica di Riccardo Musumarra. Esplora le dispense visuali e segui gli esempi. Scegli un argomento per cominciare.</p>
+        <div class="intro-foot">
+          <a class="jump" href="#indice">Esplora i materiali <span aria-hidden="true">↓</span></a>
+          <span class="count">8 dispense · In italiano</span>
+        </div>
+      </section>
+      <div class="catalogue" id="indice">
+        <nav class="contents" aria-labelledby="titolo-indice">
+          <h2 id="titolo-indice">Indice dei materiali</h2>
+          <ul>
+            <li><a href="#misure">Misure e metodo</a></li>
+            <li><a href="#energia">Lavoro ed energia</a></li>
+            <li><a href="#materia">Materia e calore</a></li>
+          </ul>
+        </nav>
+        <div>
+          <section class="group" id="misure" aria-labelledby="titolo-misure">
+            <div class="section-label"><h2 id="titolo-misure">Misure e metodo</h2><span>4 dispense</span></div>
+            <ol class="materials">
+              <li class="material"><a href="metodo_scientifico_it_v5_20261013.html"><span class="number" aria-hidden="true">01</span><div><h3>Il metodo scientifico</h3><p>Osservazioni, ipotesi e confronto con gli esperimenti.</p></div><span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 19 19 5M5 5h14v14"/></svg></span></a></li>
+              <li class="material"><a href="sistema_internazionale_notazione_it_v8_20261013.html"><span class="number" aria-hidden="true">02</span><div><h3>Sistema Internazionale e notazione scientifica</h3><p>Grandezze, unità di misura e potenze di dieci.</p></div><span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 19 19 5M5 5h14v14"/></svg></span></a></li>
+              <li class="material"><a href="strumenti_errori_incertezza_it_v4_20261013.html"><span class="number" aria-hidden="true">03</span><div><h3>Strumenti di misura, errori e incertezza</h3><p>Come leggere una misura e interpretarne l’affidabilità.</p></div><span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 19 19 5M5 5h14v14"/></svg></span></a></li>
+              <li class="material"><a href="grafici_piano_cartesiano_it_v5_20261013.html"><span class="number" aria-hidden="true">04</span><div><h3>Grafici e relazioni tra grandezze</h3><p>Il piano cartesiano e la lettura delle relazioni fisiche.</p></div><span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 19 19 5M5 5h14v14"/></svg></span></a></li>
+            </ol>
+          </section>
+          <section class="group" id="energia" aria-labelledby="titolo-energia">
+            <div class="section-label"><h2 id="titolo-energia">Lavoro ed energia</h2><span>2 dispense</span></div>
+            <ol class="materials" start="5">
+              <li class="material"><a href="lavoro_energie_potenza_it_v8_20261013.html"><span class="number" aria-hidden="true">05</span><div><h3>Lavoro, energie e potenza</h3><p>I trasferimenti di energia e la rapidità con cui avvengono.</p></div><span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 19 19 5M5 5h14v14"/></svg></span></a></li>
+              <li class="material"><a href="bilancio_conservazione_rendimento_it_v9_20261013.html"><span class="number" aria-hidden="true">06</span><div><h3>Bilancio energetico, conservazione e rendimento</h3><p>Seguire l’energia nelle trasformazioni e valutarne l’utilizzo.</p></div><span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 19 19 5M5 5h14v14"/></svg></span></a></li>
+            </ol>
+          </section>
+          <section class="group" id="materia" aria-labelledby="titolo-materia">
+            <div class="section-label"><h2 id="titolo-materia">Materia e calore</h2><span>2 dispense</span></div>
+            <ol class="materials" start="7">
+              <li class="material"><a href="stati_della_materia_e_passaggi_di_stato_v6_20261016.html"><span class="number" aria-hidden="true">07</span><div><h3>Stati della materia e passaggi di stato</h3><p>Solidi, liquidi, gas e trasformazioni della materia.</p></div><span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 19 19 5M5 5h14v14"/></svg></span></a></li>
+              <li class="material"><a href="potenza_termica_conduzione_convezione_it_v4_20261016.html"><span class="number" aria-hidden="true">08</span><div><h3>Potenza termica e trasmissione del calore</h3><p>Conduzione, convezione e trasferimenti di energia termica.</p></div><span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 19 19 5M5 5h14v14"/></svg></span></a></li>
+            </ol>
+          </section>
+        </div>
+      </div>
+    </main>
+    <footer><p>Riccardo Musumarra · Materiale Didattico</p><p>Fisica, in italiano.</p></footer>
+  </div>
+</body>
+</html>
