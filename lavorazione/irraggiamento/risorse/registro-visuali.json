@@ -1,5 +1,5 @@
 {
-  "aggiornamento": "17 ottobre 2026, ore 12:30 (Europe/Rome)",
+  "aggiornamento": "17 ottobre 2026, ore 12:32 (Europe/Rome)",
   "materiali": [
     {
       "id": "C1",
@@ -166,13 +166,20 @@
       "soggetto": "Tostapane vintage",
       "url_originale_fornito": "https://thumbs.worthpoint.com/zoom/images2/1/1017/03/general-electric-1909-electric_1_d58f4762f025c38915707ca049028d2b.jpg",
       "scelta": "Fornita e scelta dall’utente",
-      "intervento_richiesto": "Usare per l’applicazione sulla cottura per irraggiamento; verificare cosa mostra la foto prima della didascalia e del collegamento alla resistenza incandescente",
-      "file_locale": null,
-      "stato_lavorazione": "Recupero bloccato: il collegamento WorthPoint restituisce HTTP 403. Richiedere il file all’utente; nessuna sostituzione autonoma.",
+      "intervento_richiesto": "Applicazione sulla cottura per irraggiamento: resistenze incandescenti fra le fette di pane. Spiegare il trasferimento senza contatto diretto con la resistenza, riconoscendo anche il contributo dell’aria calda.",
+      "file_locale": "tostapane-vintage.jpg",
+      "stato_lavorazione": "Allegato ricevuto, originale conservato con integrità verificata; foto visibile in chat: resistenze incandescenti e pane separati. Nessuna modifica.",
       "autore": null,
       "licenza": null,
-      "stato_diritti": "Da verificare sulla fonte originale",
-      "versione_modificata": null
+      "stato_diritti": "Provenienza WorthPoint già indicata dall’utente; autore e licenza ancora da verificare.",
+      "versione_modificata": null,
+      "file_originale_ricevuto": "14914.jpg",
+      "dimensioni_px": [
+        960,
+        1280
+      ],
+      "byte": 85399,
+      "sha256": "f0557ef2d83d5a0d1da8caca738685a7c09b5813a2eb15418fd13e16aa1f4cb7"
     }
   ]
 }
