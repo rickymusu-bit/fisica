@@ -8,7 +8,8 @@
   "calcoli": "167 MJ + 209 MJ + 1128,5 MJ = 1504,5 MJ",
   "peso_byte": {
     "stati_della_materia.html": 6270253,
-    "passaggi_di_stato.html": 20808480
+    "passaggi_di_stato.html": 14252684
   },
-  "stato": "Anteprima verificata; limite di peso non ancora superato positivamente per Passaggi di stato. Ottimizzazione richiesta, in attesa di risposta."
+  "stato": "Passaggi di stato v10: ottimizzazione autorizzata e applicata; limite di 20 MB rispettato. Verifiche specifiche GIF nel registro del capitolo.",
+  "ottimizzazione_gif": "../passaggi_di_stato/risorse/ottimizzazione-gif.json"
 }

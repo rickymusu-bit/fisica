@@ -41,6 +41,14 @@ I due schemi precedenti, `schema-fusione.svg` e `schema-vaporizzazione.svg`, son
 
 Tutti i visuali sono disponibili. Lo schema unico è stato ispezionato in anteprima nel browser a 600 px; non equivale alla verifica del futuro HTML definitivo. L’esempio spiega Qr = m · c · ΔT con grandezze, unità e significato prima dei calcoli e somma i tre contributi nella stessa unità. Domande finali 5 e 6 adeguate al percorso completo e all’errore di omettere il riscaldamento.
 
-## Prossimo passaggio
+## GIF ridotte su richiesta esplicita
 
-Presentare le bozze aggiornate e gli schemi. Stima indicativa per i due HTML autonomi, con materiali disponibili: **25–40 minuti**, impegno di calcolo basso; 15–25 minuti per integrazione e impaginazione, 5–10 per verifiche, circa 5 per versioni e salvataggio. Attesa di correzioni o approvazioni esclusa. Dopo conferma dei testi e via esplicito secondo B1.1–B2, realizzare e verificare gli HTML e l’anteprima. Nessuna pubblicazione del sito autorizzata da questa consegna di materiali.
+L’utente ha autorizzato entrambi i metodi su tutte e tre le GIF di questo capitolo. Copie in `risorse/ottimizzate/`, originali `v8-p2.gif`, `v8-p3.gif`, `v8-p4.gif` conservati e verificabili per SHA-256. Larghezza e altezza all’80% con arrotondamento al pixel; circa due terzi dei fotogrammi, ricampionati sull’intera durata. Primo e ultimo stato mantenuti; durata totale e ripetizione invariate. Palette adattiva a 256 colori dopo il ridimensionamento; non è una trasformazione senza perdita.
+
+| GIF | Dimensioni nuove | Fotogrammi | Byte prima → dopo |
+|---|---|---|---|
+| Fusione dei cubetti | 224 × 360 | 49 → 33 | 3,389,354 → 2,022,673 |
+| Evaporazione della goccia | 368 × 221 | 147 → 98 | 4,780,844 → 3,721,751 |
+| Acqua in ebollizione | 320 × 240 | 77 → 52 | 5,659,517 → 3,168,285 |
+
+Parametri, indici selezionati, durate, hash e controlli in [ottimizzazione-gif.json](risorse/ottimizzazione-gif.json). Le copie ridotte sono incorporate nell’HTML v10; nessun cambiamento alla GIF di viscosità o ai modelli particellari dell’altro capitolo.

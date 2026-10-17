@@ -93,3 +93,7 @@ Ultima richiesta: un solo esempio svolto che calcoli l’energia per vaporizzare
 ## Realizzazione autorizzata e anteprime integrate
 
 Via esplicito «Ok procedi» ricevuto. Due capitoli v9 realizzati e verificati nel browser, offline e a 390/1280 px; navigazione e build aggiornate, vecchi URL conservati mediante `suddivisione.json`. Anteprime e risultati delle verifiche salvati in questa cartella e nelle cartelle dei capitoli. Nessuna pubblicazione. Stato: pronto per revisione, con ottimizzazione del peso di Passaggi di stato in attesa di approvazione puntuale (20,81 MB contro limite 20 MB del master); nessuna ottimizzazione eseguita.
+
+## Aggiornamento peso di Passaggi di stato — 2026-10-17 23:29
+
+L’utente ha richiesto espressamente entrambi i metodi di downsampling su tutte le GIF di Passaggi di stato. Copie ridotte integrate nella v10: 14252684 byte, limite rispettato. Originali conservati. Il precedente punto aperto sull’autorizzazione è risolto. Stati della materia resta v9 e non è modificato; nessuna pubblicazione.

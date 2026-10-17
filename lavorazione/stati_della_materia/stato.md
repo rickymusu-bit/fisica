@@ -43,3 +43,7 @@ HTML v9 in `bozza.html`, copia con nome stabile alla radice del ramo di lavorazi
 ## Prossima operazione
 
 Ricevuta l’autorizzazione, ottimizzare copie delle GIF con confronto integrale dei fotogrammi decodificati e tempi, aggiornare incorporamento e misura del peso. Verificare le sole parti interessate e consegnare v9 conforme. Non pubblicare senza la successiva approvazione dell’anteprima.
+
+## Aggiornamento peso di Passaggi di stato — 2026-10-17 23:29
+
+L’utente ha richiesto espressamente entrambi i metodi di downsampling su tutte le GIF di Passaggi di stato. Copie ridotte integrate nella v10: 14252684 byte, limite rispettato. Originali conservati. Il precedente punto aperto sull’autorizzazione è risolto. Stati della materia resta v9 e non è modificato; nessuna pubblicazione.

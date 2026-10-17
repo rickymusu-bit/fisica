@@ -1,6 +1,6 @@
 # Stato — Passaggi di stato
 
-Ultimo aggiornamento: 2026-10-17 23:06 (Europe/Rome). Master v53, letto con i riferimenti di stile. Ramo `revisione/materia-passaggi-capitoli`. Fonte v8 di `stati_della_materia_e_passaggi_di_stato.html`, blob `8ef5566c73f670dbf23b550e4e36a52cdb7ddfc2`. [Mappa iniziale della suddivisione](../stati_della_materia_e_passaggi_di_stato/proposta-editoriale.md).
+Ultimo aggiornamento: 2026-10-17 23:29 (Europe/Rome). Master v53, letto con i riferimenti di stile. Ramo `revisione/materia-passaggi-capitoli`. Fonte v8 di `stati_della_materia_e_passaggi_di_stato.html`, blob `8ef5566c73f670dbf23b550e4e36a52cdb7ddfc2`. [Mappa iniziale della suddivisione](../stati_della_materia_e_passaggi_di_stato/proposta-editoriale.md).
 
 ## Ambito e approvazioni effettive
 
@@ -20,7 +20,7 @@ Calcoli verificati: Qf = 500 · 334.000 = 167.000.000 J = 167 MJ; Qr = 500 · 41
 
 E1: [schema completo unico](risorse/schema-esempio.svg), foto della scultura con sfondo conservato e quattro stati collegati da tre frecce energetiche. La richiesta esplicita sullo sfondo prevale sulla regola generale degli esercizi; nessuna rimozione eseguita. I byte della foto incorporata corrispondono alla foto scelta. Anteprima nel browser a 600 px ispezionata. Schemi precedenti separati sostituiti e recuperabili in Git. Foto della pentola esclusa dall’integrazione e dai crediti finali, conservata solo come riferimento. Nessun file ulteriore necessario.
 
-Nessuna nuova simulazione: quelle microscopiche restano nel capitolo Stati della materia. Nessun HTML definitivo realizzato o pubblicato, nessuna prova del futuro HTML dichiarata. Prove precedenti riguardano i singoli schemi.
+Nessuna nuova simulazione: quelle microscopiche restano nel capitolo Stati della materia. Le verifiche iniziali dei singoli schemi sono state seguite dalle verifiche HTML registrate sotto. Nessuna pubblicazione.
 
 
 ## Via alla realizzazione
@@ -31,8 +31,14 @@ L’utente ha confermato «Ok procedi»: realizzazione dei due HTML autorizzata.
 
 HTML v9 in `bozza.html`, copia con nome stabile alla radice del ramo di lavorazione; anteprime desktop/mobile salvate. Immagini incorporate, simulazioni particellari originali conservate e dotate di pausa, preferenza di movimento ridotto rispettata; curva selezionabile e PWR ingrandibile. Verifiche Chromium 390/1280 px e offline superate: immagini integre, nessun errore JavaScript, nessuna eccedenza orizzontale della pagina, 6/8 domande finali. Calcoli dell’esempio verificati: totale 1.504.500.000 J. Build locale superata, indice a 10 articoli e 12 casi di vecchi URL con query/frammenti verificati. Nessuna pubblicazione o modifica del workflow.
 
-**Punto aperto:** Stati della materia pesa 6.270.253 byte; Passaggi di stato pesa 20808480 byte, oltre il limite di 20.000.000 byte. Richiesta in chat approvazione per ottimizzare senza perdita copie delle tre GIF, conservando fotogrammi, colori e tempi; risposta non ancora ricevuta. File di Passaggi di stato consegnato come anteprima, non dichiarato definitivo conforme al peso. Le attribuzioni dei visuali ereditati incompleti sono dichiarate nei crediti; recuperata e verificata per hash la GIF di fusione (Moussa, pubblico dominio).
+**Problema rilevato nella v9 (risolto dalla v10):** Stati della materia pesa 6.270.253 byte; Passaggi di stato pesa 20808480 byte, oltre il limite di 20.000.000 byte. Richiesta in chat approvazione per ottimizzare senza perdita copie delle tre GIF, conservando fotogrammi, colori e tempi; risposta non ancora ricevuta. File di Passaggi di stato consegnato come anteprima, non dichiarato definitivo conforme al peso. Le attribuzioni dei visuali ereditati incompleti sono dichiarate nei crediti; recuperata e verificata per hash la GIF di fusione (Moussa, pubblico dominio).
+
+## Ottimizzazione autorizzata e applicata — 2026-10-17 23:29
+
+Richiesta esplicita: «Fai entrambi i metodi su tutte le gif del capitolo passaggi di stato». Autorizzata riduzione sia della risoluzione sia dei fotogrammi delle tre GIF; non serve una nuova conferma della stessa modifica. Eseguita su copie, originali immutati. Dimensioni all’80%, circa due terzi dei fotogrammi; durata totale e loop preservati. Registro in `risorse/ottimizzazione-gif.json`; tabella in `visuali.md`. Tutti i fotogrammi decodificati corrispondono ai fotogrammi ricampionati e quantizzati attesi: nessuna scia dovuta alla codifica GIF. Confronti a metà animazione ispezionati.
+
+HTML aggiornato a **v10**, sincronizzato con `bozza.html`, peso **14252684 byte**, sotto il limite di 20 MB e la soglia di avviso di 18 MB. Testo didattico confrontato automaticamente con v9: invariato. Crediti aggiornati con le elaborazioni. Build locale superata; dimensioni dei download ricalcolate. Prove Chromium offline a 390 e 1280 px: tre GIF caricate e animate (cambiamento dei fotogrammi verificato), nessuno scorrimento orizzontale della pagina o errore JavaScript; otto domande finali conservate. Anteprime desktop/mobile e indice aggiornati; home mostra 14,25 MB. Risultati in `risorse/verifica-gif-browser.json`. Restano dichiarati i crediti incompleti dei materiali ereditati dalla v8.
 
 ## Prossima operazione
 
-Ricevuta l’autorizzazione, ottimizzare copie delle GIF con confronto integrale dei fotogrammi decodificati e tempi, aggiornare incorporamento e misura del peso. Verificare le sole parti interessate e consegnare v9 conforme. Non pubblicare senza la successiva approvazione dell’anteprima.
+Consegnare anteprima aggiornata e pesi. La revisione del peso è completata; pubblicazione non autorizzata e non eseguita.
