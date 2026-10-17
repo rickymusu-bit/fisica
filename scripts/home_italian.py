@@ -10,13 +10,17 @@ def render_italian(document, root):
         '', document, count=1)
     if count != 1:
         raise ValueError("Menu indice italiano assente o duplicato")
-    document = document.replace('name="version" content="v4"', 'name="version" content="v6"')
+    document = document.replace('name="version" content="v4"', 'name="version" content="v7"')
     document = document.replace(
         'scegli «Scarica HTML»', 'usa l’icona di download')
-    document = document.replace('<a class="jump" href="#indice">',
-        '<a class="jump" href="#indice" aria-controls="indice" aria-expanded="false">')
+    document = re.sub(r'        <div class="intro-foot">[\s\S]*?</div>\n', '', document, count=1)
+    document = document.replace('<header class="top">', '''<header class="top">
+      <button class="articles-trigger" type="button" aria-haspopup="dialog" aria-controls="articles-panel" aria-expanded="false"><span aria-hidden="true">☰</span> Articoli</button>''')
     document = document.replace('<div class="catalogue" id="indice">',
-        '<div class="catalogue" id="indice" hidden tabindex="-1">')
+        '''<dialog id="articles-panel" aria-labelledby="articles-title">
+        <div class="panel-heading"><h2 id="articles-title">Articoli <span>9 articoli</span></h2><button class="panel-close" type="button" aria-label="Chiudi gli articoli" autofocus>×</button></div>
+        <div class="catalogue" id="indice" tabindex="-1">''')
+    document = document.replace('      </div>\n    </main>', '      </div>\n      </dialog>\n    </main>', 1)
     # La scelta della lingua resta una normale visita alla relativa home.
     document = document.replace('href="./#indice"', 'href="./"')
 
@@ -43,35 +47,60 @@ def render_italian(document, root):
         raise ValueError("Nessun download nella home italiana")
     document = document.replace('</style>', '''
 /* Comandi della sola home italiana. */
-.top{justify-content:flex-end}
-.catalogue[hidden]{display:none}
+.top{justify-content:space-between}
+button{font:inherit;color:inherit}
+button:focus-visible{outline:3px solid var(--ink);outline-offset:5px}
+.articles-trigger,.panel-close{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:46px;border:2px solid var(--line);background:white;font-size:17px;font-weight:600;cursor:pointer;padding:8px 14px;line-height:1.4}
+.articles-trigger:hover,.panel-close:hover{background:var(--ink);color:white}
+#articles-panel{position:fixed;inset:0 auto 0 0;margin:0;width:min(680px,100%);max-width:100%;height:100dvh;max-height:100dvh;padding:0;border:0;border-right:3px solid var(--line);background:white;color:var(--ink);overflow:auto;overscroll-behavior:contain}
+#articles-panel::backdrop{background:rgb(0 0 0 / .5)}
+html:has(#articles-panel[open]){overflow:hidden}
+.panel-heading{display:flex;align-items:center;justify-content:space-between;gap:16px;position:sticky;top:0;z-index:2;padding:14px 24px;background:var(--paper);border-bottom:3px solid var(--line)}
+.panel-heading h2{margin:0;font-size:24px;line-height:1.4}
+.panel-heading h2 span{display:block;font-size:14px;font-weight:400}
+.panel-close{flex-shrink:0;width:46px;font-size:28px;padding:0}
+#articles-panel .catalogue{border-top:0;padding:24px 24px 36px}
+#articles-panel .group{scroll-margin-top:110px}
+#articles-panel .material{grid-template-columns:minmax(0,1fr)}
+#articles-panel .material .read{padding:20px 0 12px}
+#articles-panel .material .download{justify-self:start;margin:0 0 20px 41px}
 .material .download{gap:10px;font-variant-numeric:tabular-nums}
 .download svg{flex-shrink:0}
+@media(max-width:600px){#articles-panel{width:calc(100% - 16px)}.panel-heading{padding:12px 16px}#articles-panel .catalogue{padding:20px 14px 32px}#articles-panel .material .download{margin-left:32px}.articles-trigger{font-size:16px;padding:9px 12px}}
 </style>''', 1)
     document = document.replace('</head>',
-        '<noscript><style>.catalogue[hidden]{display:block}</style></noscript>\n</head>')
+        '<noscript><style>#articles-panel{display:block;position:static;width:100%;height:auto;max-height:none;border:0}.panel-heading{position:static}.articles-trigger,.panel-close{display:none}</style></noscript>\n</head>')
     script = '''
 <script>
 (() => {
   const catalogue = document.getElementById('indice');
-  const explore = document.querySelector('.jump');
-  function reveal(target, focus) {
-    catalogue.hidden = false;
-    explore.setAttribute('aria-expanded', 'true');
-    if (focus) {
-      target.tabIndex = -1;
-      target.focus({preventScroll:true});
-    }
-    target.scrollIntoView({block:'start'});
+  const panel = document.getElementById('articles-panel');
+  const trigger = document.querySelector('.articles-trigger');
+  const close = panel.querySelector('.panel-close');
+  function show(target) {
+    if (!panel.open) panel.showModal();
+    trigger.setAttribute('aria-expanded', 'true');
+    if (target && target !== catalogue) target.scrollIntoView({block:'start'});
+    else panel.scrollTop = 0;
   }
+  trigger.addEventListener('click', () => show());
+  close.addEventListener('click', () => panel.close());
+  panel.addEventListener('close', () => {
+    trigger.setAttribute('aria-expanded', 'false');
+    trigger.focus({preventScroll:true});
+  });
+  panel.addEventListener('click', event => {
+    const box = panel.getBoundingClientRect();
+    if (event.target === panel && (event.clientX < box.left || event.clientX >= box.right || event.clientY < box.top || event.clientY >= box.bottom)) panel.close();
+  });
   function fromHash() {
     let id;
     try { id = decodeURIComponent(location.hash.slice(1)); } catch { return; }
     const target = document.getElementById(id);
-    if (target && catalogue.contains(target)) reveal(target, false);
+    if (target && catalogue.contains(target)) show(target);
   }
   document.querySelectorAll('a[href="#indice"]').forEach(link => {
-    link.addEventListener('click', () => reveal(catalogue, true));
+    link.addEventListener('click', event => { event.preventDefault(); show(catalogue); });
   });
   window.addEventListener('hashchange', fromHash);
   fromHash();

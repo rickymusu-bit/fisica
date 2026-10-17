@@ -1,8 +1,20 @@
 # Stato — Home e GitHub Pages
 
-Aggiornamento: 17/10/2026 19:41 (Europe/Rome).
+Aggiornamento: 17/10/2026 19:53 (Europe/Rome).
 
-## Revisione corrente — home italiana v6
+## Preferenza permanente — anteprima del sito
+
+Richiesta esplicita dell’utente: fornire sempre l’anteprima dopo ogni modifica al sito. Regola registrata nel master v53, sezione B5: anteprima HTML interattiva e immagini delle parti modificate, con vista mobile quando pertinente, prima della pubblicazione e senza una richiesta separata. Per la home v7 l’anteprima è stata preparata e consegnata; l’utente ha autorizzato esplicitamente la pubblicazione della PR #19 con «Ok pubblica».
+
+## Revisione corrente — home italiana v7
+
+Correzione richiesta: Marco Polo è una piattaforma petrolifera offshore, non una nave. Aggiornati didascalia, testo alternativo e titolo interno nel manifest e nei dati della home. Fotografia, crediti e licenza conservati. Versione dell’output aggiornata a v7. L’utente ha scelto esplicitamente «Pannello laterale apribile da Articoli». Realizzato un dialog nativo laterale: comando Articoli in alto a sinistra, Italiano in alto a destra, rimosso Esplora e il suo blocco inferiore. Elenco raggruppato con download e dimensioni reali; chiusura con ×, Esc o clic sullo sfondo. Focus confinato nel dialog e restituito al comando alla chiusura, scorrimento della pagina bloccato durante l’apertura, supporto alle ancore già pubblicate. Senza JavaScript il catalogo è visibile in pagina.
+
+Verifiche completate: build con dieci HTML italiani e venti copertine; Chromium a 320, 390, 768, 1024 e 1440 px; apertura da tastiera, focus, chiusura con tutti e tre i metodi, ritorno al comando, ancore dirette, download confrontato byte per byte e dimensioni dei nove file; nessun overflow o errore JavaScript; fallback senza JavaScript. Controllati visivamente pannello mobile e desktop. Manifest e dati della home coerenti per Marco Polo; immagine, crediti e licenza conservati. README aggiornato.
+
+Fase: modifiche completate e verificate nel ramo `home/copertina-marco-polo`; anteprima consegnata e pubblicazione autorizzata dall’utente con «Ok pubblica». Integrare la PR #19 e verificare il workflow Pages e la home online. La pubblicazione precedente della v6 è conclusa con successo (PR #18, workflow 39055028249).
+
+## Revisione precedente — home italiana v6
 
 Richiesta aggiornata: «Togli proprio le altre lingue, lascia solo il selettore della lingua in alto a destra con solo l’italiano». Rimossi dal template i collegamenti francese e albanese. La build pubblica esclusivamente la home e i nove articoli italiani, con venti copertine: non genera le home tradotte né copia gli articoli tradotti. I sorgenti delle traduzioni restano conservati nel repository e non vengono pubblicati. Il selettore nativo in alto a destra mantiene la sola voce Italiano. Conservate tutte le modifiche già richieste: rimozione Indice, catalogo al clic, icona e peso effettivo dei download. Master consultato: v52; modifica locale autorizzata secondo B2.
 
