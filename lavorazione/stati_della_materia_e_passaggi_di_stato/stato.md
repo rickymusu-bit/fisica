@@ -59,3 +59,7 @@ Otto materiali scelti tramite collegamenti Wikimedia acquisiti e conservati insi
 ## Decisione corrente sulle simulazioni microscopiche
 
 Ultima istruzione dell’utente: **«Mantieni le simulazioni degli stati microscopici»**. Bozza e registro di Stati della materia aggiornati per conservare i tre modelli originali (solido, liquido, gas). La GIF della viscosità resta distinta. La richiesta delle tre GIF sostitutive è superata: per Stati della materia tutti i visuali necessari sono disponibili. Stato corrente nel [file del capitolo](../stati_della_materia/stato.md); nessuna modifica al codice delle simulazioni o all’HTML ufficiale.
+
+## Foto del vetro sostituita
+
+M2 ora è la tartaruga di vetro di Murano scelta dall’utente, originale 2121 × 1414 px: acquisita e verificata con fonte, autore e licenza, registro e didascalia aggiornati. Risolta la limitazione di risoluzione della foto precedente. Tutti i visuali di Stati della materia restano disponibili; le simulazioni microscopiche sono conservate.

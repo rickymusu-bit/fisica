@@ -16,11 +16,11 @@ Didascalia: Le particelle oscillano attorno a posizioni di equilibrio senza spos
 
 La disposizione delle particelle, però, non è uguale in tutti i solidi. Nel cristallo di bismuto della fotografia si ripete con regolarità nello spazio: il bismuto è un esempio di **solido cristallino**, come il sale da cucina. Nel vetro manca invece una disposizione periodica che si estenda a grandi distanze. Il vetro è un **solido amorfo**, ma conserva comunque una forma propria: per essere solido un materiale non deve necessariamente essere cristallino.
 
-[IMMAGINI M1–M2 — Foto scelte: `risorse/cristallo-bismuto.jpg` e `risorse/originali/m2.jpg`. Vetro all’effettiva risoluzione di 172 × 339 px, senza ingrandimento; foto non ritagliate.]
+[IMMAGINI M1–M2 — Foto scelte: `risorse/cristallo-bismuto.jpg` e `risorse/tartaruga-vetro.jpg`. Tartaruga di vetro di Murano; originale 2121 × 1414 px conservato in `risorse/originali/tartaruga-vetro.jpg`. Foto non ritagliate.]
 
 Didascalia M1: Le forme a gradini del cristallo di bismuto si accompagnano a un'organizzazione periodica delle particelle al suo interno.
 
-Didascalia M2: L’oggetto di vetro mantiene la forma anche se, al suo interno, manca l'ordine periodico a grande distanza tipico di un cristallo.
+Didascalia M2: La tartaruga di vetro di Murano conserva una forma definita. Nel vetro manca però l'ordine periodico a grande distanza tipico di un cristallo.
 
 Nello schema, a sinistra la disposizione ordinata mantiene lo stesso orientamento in tutto il cristallo. Al centro compaiono più regioni cristalline, chiamate **grani**, con orientamenti diversi: il materiale è **policristallino**. A destra manca invece un ordine che si ripeta a grande distanza: è il caso amorfo. La differenza riguarda l'organizzazione delle particelle, non il fatto che il materiale sia solido.
 

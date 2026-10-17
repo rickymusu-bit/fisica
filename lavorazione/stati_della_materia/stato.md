@@ -1,6 +1,6 @@
 # Stato — Stati della materia
 
-Ultimo aggiornamento: 2026-10-17 22:08 (Europe/Rome). Master v53, letto integralmente con i riferimenti di stile; intestazione e hash ricontrollati, invariati. Ramo `revisione/materia-passaggi-capitoli`, derivato da `main` al commit `d72296ad77a2ae92342386c7dfeb73cc1b44e736`.
+Ultimo aggiornamento: 2026-10-17 22:14 (Europe/Rome). Master v53, letto integralmente con i riferimenti di stile; intestazione e hash ricontrollati, invariati. Ramo `revisione/materia-passaggi-capitoli`, derivato da `main` al commit `d72296ad77a2ae92342386c7dfeb73cc1b44e736`.
 
 ## Ambito e fonte
 
@@ -16,7 +16,7 @@ Fase: [bozza completa aggiornata](bozza.md), da confermare dopo l’adattamento 
 
 ## Materiali correnti
 
-C1 copertina ghiaccio in mare; M1 bismuto; M2 vetro; M3 olio sulla pizza; M4 dirigibile; M5 scarica nell’argon; M6–M8 simulazioni originali; M9 tabella semantica; M10 schema scelto cristallino/policristallino/amorfo; M11 GIF viscosità, 63 fotogrammi. Lo schema provvisorio precedentemente creato resta un riferimento di lavorazione, senza doppio inserimento. Vetro: usare originale 172 × 339 px senza ingrandimento. Nessuna compressione o modifica delle immagini effettuata.
+C1 copertina ghiaccio in mare; M1 bismuto; M2 tartaruga di vetro di Murano; M3 olio sulla pizza; M4 dirigibile; M5 scarica nell’argon; M6–M8 simulazioni originali; M9 tabella semantica; M10 schema scelto cristallino/policristallino/amorfo; M11 GIF viscosità, 63 fotogrammi. Lo schema provvisorio precedentemente creato resta un riferimento di lavorazione, senza doppio inserimento. Vetro: nuova foto della tartaruga di Murano, originale 2121 × 1414 px; superata la limitazione della foto precedente. Nessuna compressione o modifica delle immagini effettuata.
 
 Per questo capitolo **tutti i materiali visuali necessari sono disponibili**. Le vecchie candidate GIF non sono state scelte e non vanno integrate. La cronologia Git conserva le decisioni precedenti.
 
@@ -25,3 +25,7 @@ Per questo capitolo **tutti i materiali visuali necessari sono disponibili**. Le
 Controllati in questo aggiornamento: tre canvas e script presenti nella fonte, riferimenti M6–M8 ripristinati nella bozza, domanda 5 riferita alle simulazioni, M11 distinta, richiesta delle GIF rimossa dai punti aperti correnti. Nessun codice della simulazione modificato; nessuna prova browser nuova dichiarata. Sei domande finali conservate. Gli otto file scelti e i relativi originali erano già stati verificati: non ripetuta l’acquisizione.
 
 Prossima operazione: confermare il testo adattato ai materiali scelti, aggiornare la stima e raccogliere il via all’HTML secondo B1.1–B2. Poi trasferire i tre modelli vicino alle spiegazioni preservando identificativi e script, verificare funzionamento offline, lettura e navigazione, integrare crediti e salvare `stati_della_materia.html`. La bozza di Passaggi di stato resta approvata; i suoi materiali ancora mancanti sono nel relativo stato. Nessuna modifica alla pubblicazione del sito.
+
+## Sostituzione della foto del vetro
+
+L’utente ha fornito la tartaruga di vetro come nuova scelta per M2. Anteprima 960 × 640 px e originale 2121 × 1414 px acquisiti, decodificati e conservati senza modifiche; foto ispezionata. Fonte Commons e attribuzione Murray Foubister / CC BY-SA 2.0 verificate. Registro aggiornato con la vecchia foto marcata come sostituita e conservata come riferimento. Bozza e didascalia aggiornate; nessuna nuova approvazione richiesta per la scelta esplicita. Nessuna modifica alle simulazioni, alla GIF della viscosità o al sito.
