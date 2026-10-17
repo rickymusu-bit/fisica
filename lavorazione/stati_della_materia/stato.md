@@ -29,3 +29,17 @@ Prossima operazione: confermare il testo adattato ai materiali scelti, aggiornar
 ## Sostituzione della foto del vetro
 
 L’utente ha fornito la tartaruga di vetro come nuova scelta per M2. Anteprima 960 × 640 px e originale 2121 × 1414 px acquisiti, decodificati e conservati senza modifiche; foto ispezionata. Fonte Commons e attribuzione Murray Foubister / CC BY-SA 2.0 verificate. Registro aggiornato con la vecchia foto marcata come sostituita e conservata come riferimento. Bozza e didascalia aggiornate; nessuna nuova approvazione richiesta per la scelta esplicita. Nessuna modifica alle simulazioni, alla GIF della viscosità o al sito.
+
+## Via alla realizzazione
+
+L’utente ha confermato «Ok procedi»: realizzazione dei due HTML autorizzata. HTML v9 integrati, verifiche in corso; nessuna pubblicazione. Peso iniziale: stati 6.270.253 byte, passaggi 20.808.247 byte. Richiesta autorizzazione puntuale per ottimizzare senza perdita le GIF del secondo capitolo, secondo il limite di 20 MB del master.
+
+## Anteprima HTML realizzata — 2026-10-17 23:18 (Europe/Rome)
+
+HTML v9 in `bozza.html`, copia con nome stabile alla radice del ramo di lavorazione; anteprime desktop/mobile salvate. Immagini incorporate, simulazioni particellari originali conservate e dotate di pausa, preferenza di movimento ridotto rispettata; curva selezionabile e PWR ingrandibile. Verifiche Chromium 390/1280 px e offline superate: immagini integre, nessun errore JavaScript, nessuna eccedenza orizzontale della pagina, 6/8 domande finali. Calcoli dell’esempio verificati: totale 1.504.500.000 J. Build locale superata, indice a 10 articoli e 12 casi di vecchi URL con query/frammenti verificati. Nessuna pubblicazione o modifica del workflow.
+
+**Punto aperto:** Stati della materia pesa 6.270.253 byte; Passaggi di stato pesa 20808480 byte, oltre il limite di 20.000.000 byte. Richiesta in chat approvazione per ottimizzare senza perdita copie delle tre GIF, conservando fotogrammi, colori e tempi; risposta non ancora ricevuta. File di Passaggi di stato consegnato come anteprima, non dichiarato definitivo conforme al peso. Le attribuzioni dei visuali ereditati incompleti sono dichiarate nei crediti; recuperata e verificata per hash la GIF di fusione (Moussa, pubblico dominio).
+
+## Prossima operazione
+
+Ricevuta l’autorizzazione, ottimizzare copie delle GIF con confronto integrale dei fotogrammi decodificati e tempi, aggiornare incorporamento e misura del peso. Verificare le sole parti interessate e consegnare v9 conforme. Non pubblicare senza la successiva approvazione dell’anteprima.

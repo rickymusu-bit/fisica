@@ -10,7 +10,7 @@ def render_italian(document, root):
         '', document, count=1)
     if count != 1:
         raise ValueError("Menu indice italiano assente o duplicato")
-    document = document.replace('name="version" content="v4"', 'name="version" content="v7"')
+    document = document.replace('name="version" content="v5"', 'name="version" content="v8"')
     document = document.replace(
         'scegli «Scarica HTML»', 'usa l’icona di download')
     document = re.sub(r'        <div class="intro-foot">[\s\S]*?</div>\n', '', document, count=1)
@@ -18,7 +18,7 @@ def render_italian(document, root):
       <button class="articles-trigger" type="button" aria-haspopup="dialog" aria-controls="articles-panel" aria-expanded="false"><span aria-hidden="true">☰</span> Articoli</button>''')
     document = document.replace('<div class="catalogue" id="indice">',
         '''<dialog id="articles-panel" aria-labelledby="articles-title">
-        <div class="panel-heading"><h2 id="articles-title">Articoli <span>9 articoli</span></h2><button class="panel-close" type="button" aria-label="Chiudi gli articoli" autofocus>×</button></div>
+        <div class="panel-heading"><h2 id="articles-title">Articoli <span>10 articoli</span></h2><button class="panel-close" type="button" aria-label="Chiudi gli articoli" autofocus>×</button></div>
         <div class="catalogue" id="indice" tabindex="-1">''')
     document = document.replace('      </div>\n    </main>', '      </div>\n      </dialog>\n    </main>', 1)
     # La scelta della lingua resta una normale visita alla relativa home.

@@ -89,3 +89,7 @@ Ultima richiesta: «Togli proprio la foto». Rimossa la foto della pentola dal s
 ## Esempio unico: energia totale dal ghiaccio al vapore
 
 Ultima richiesta: un solo esempio svolto che calcoli l’energia per vaporizzare completamente la scultura partendo da ghiaccio a 0 °C. Bozza ristrutturata in un unico problema con tre fasi: fusione 167 MJ, riscaldamento dell’acqua 209 MJ, vaporizzazione 1128,5 MJ. Massa ipotizzata 500 kg, c acqua ≈ 4180 J/(kg · K), pressione atmosferica ordinaria. Totale **1504,5 MJ = 1.504.500.000 J**, dispersioni e attrezzature trascurate. Foto scultura con sfondo e schema unico `schema-esempio.svg`; vecchi schemi separati sostituiti e conservati in Git. Foto pentola sempre esclusa. Domande finali 5 e 6 aggiornate. Nessuna realizzazione HTML generale o pubblicazione avviata.
+
+## Realizzazione autorizzata e anteprime integrate
+
+Via esplicito «Ok procedi» ricevuto. Due capitoli v9 realizzati e verificati nel browser, offline e a 390/1280 px; navigazione e build aggiornate, vecchi URL conservati mediante `suddivisione.json`. Anteprime e risultati delle verifiche salvati in questa cartella e nelle cartelle dei capitoli. Nessuna pubblicazione. Stato: pronto per revisione, con ottimizzazione del peso di Passaggi di stato in attesa di approvazione puntuale (20,81 MB contro limite 20 MB del master); nessuna ottimizzazione eseguita.
