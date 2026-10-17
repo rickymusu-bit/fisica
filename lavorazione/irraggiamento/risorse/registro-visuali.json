@@ -150,7 +150,9 @@
       "licenza": null,
       "stato_diritti": "Fonte e licenza non indicate nell’allegato; da verificare prima della consegna finale",
       "versione_modificata": null,
-      "intervento_richiesto": "Usare l’animazione e spiegare che una parte della radiazione solare viene riflessa verso lo spazio; distinguere questo fenomeno dall’assorbimento e riemissione dell’infrarosso da parte dell’atmosfera, anche verso la superficie terrestre."
+      "intervento_richiesto": "Usare l’animazione e spiegare che una parte della radiazione solare viene riflessa verso lo spazio; distinguere questo fenomeno dall’assorbimento e riemissione dell’infrarosso da parte dell’atmosfera, anche verso la superficie terrestre.",
+      "didascalia_approvata": "Una parte della radiazione solare viene riflessa verso lo spazio; quella assorbita riscalda la superficie terrestre, che emette radiazione infrarossa. L’atmosfera assorbe e riemette parte dell’infrarosso anche verso la superficie, mentre altra energia raggiunge lo spazio.",
+      "approvazione_didascalia": "17 ottobre 2026, ore 12:25 (Europe/Rome), risposta «Ok» dell’utente"
     }
   ]
 }
