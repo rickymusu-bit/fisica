@@ -1,7 +1,7 @@
 # Stato — Irraggiamento
 
-Ultimo aggiornamento: 17 ottobre 2026, ore 13:40 (Europe/Rome).
-Master corrente: v60. Le note seguenti conservano la cronologia; lo stato attuale è riportato nell’ultima sezione.
+Ultimo aggiornamento: 17 ottobre 2026, ore 13:43 (Europe/Rome).
+Master corrente: v61. Le note seguenti conservano la cronologia; lo stato attuale è riportato nell’ultima sezione.
 
 ## Argomento e fase
 
@@ -222,3 +222,8 @@ Master v60 e capitolo pronti per salvataggio sul ramo `istruzioni/tema-mac`; nes
 Su richiesta dell’utente, tutti gli otto comandi delle immagini con scritte mostrano «Ingrandisci l’immagine» quando chiusi e «Rimpicciolisci l’immagine» quando aperti. Comportamento basato sullo stato nativo di details e CSS, funzionante anche senza JavaScript; il nome accessibile corrisponde al testo visibile. Aggiornati generatore, HTML ufficiale e copia di lavorazione a v2, 5.982.091 byte.
 
 Verificati tutti gli otto comandi a 1440 e 390 px con script e a 320 px senza script, inclusi apertura, ritorno al testo iniziale, nomi accessibili e tastiera nei casi con script. Report in `verifiche/zoom.json`; impronta e versione correnti in `verifiche/integrita.json`. Modifica locale: restano validi i controlli precedenti sulle parti non coinvolte.
+
+
+## Regola di ingrandimento nel master — v61
+
+Su richiesta esplicita, integrata in A6 la regola per i visuali con scritte o dettagli: comando reversibile con testo «Ingrandisci l’immagine» / «Rimpicciolisci l’immagine», oppure icone corrispondenti che cambiano con lo stato e nome accessibile coerente. Previsto funzionamento mobile, da tastiera e senza JavaScript. Regola già applicata al capitolo v2 e verificata nella fase precedente; nessuna modifica o nuova versione dell’HTML necessaria.

@@ -1,6 +1,6 @@
 # PROMPT MASTER — DISPENSE VISUALI DI FISICA PER IL BIENNIO DEGLI ISTITUTI TECNICI
 
-VERSIONE DEL PROMPT: v60 — 17 ottobre 2026, ore 13:26 (Europe/Rome)
+VERSIONE DEL PROMPT: v61 — 17 ottobre 2026, ore 13:43 (Europe/Rome)
 
 Questo master raccoglie le regole della dispensa e la procedura per realizzarla con il minor lavoro ripetuto possibile. Le istruzioni relative a immagini, video, traduzioni e simulazioni si applicano quando quei materiali fanno parte della richiesta. Non aggiungere contenuti o lavorazioni solo perché il master ne descrive la gestione.
 
@@ -84,6 +84,8 @@ Il risultato finale resta un HTML autonomo e completo, salvo diversa richiesta e
 Usa HTML5 con `<!DOCTYPE html>`, `<html lang="it">`, codifica UTF-8, meta viewport, titolo, CSS incorporato e meta versione. Incorpora le immagini e il codice necessari per il funzionamento offline quando possibile. Preferisci HTML, CSS e JavaScript standard, evitando framework e dipendenze esterne non indispensabili.
 
 Progetta fin dall’inizio per smartphone, tablet, notebook e desktop. Mantieni una larghezza di lettura confortevole su desktop e font sufficientemente grandi. Le immagini rispettano almeno max-width:100% e height:auto, senza deformazioni. Su smartphone generalmente usa una sola immagine per riga con didascalia vicina; su schermi grandi puoi affiancare immagini o confronti quando è utile.
+
+Per le immagini con scritte o dettagli che richiedono una vista più grande, prevedi un comando di ingrandimento reversibile. Il testo deve indicare l’azione disponibile: «Ingrandisci l’immagine» nella vista normale e «Rimpicciolisci l’immagine» nella vista ingrandita, tornando al testo iniziale dopo la chiusura. In alternativa usa un’icona di ingrandimento che cambi in quella di rimpicciolimento, con nome accessibile aggiornato alla stessa azione. Il comando deve funzionare su smartphone, da tastiera e anche senza JavaScript, mantenendo leggibilità e proporzioni dell’immagine.
 
 Tabelle, formule e grafici devono adattarsi o avere scorrimento orizzontale. Per gli elementi ricostruiti, preferisci prima una riorganizzazione leggibile: disposizione verticale, elementi impilati, legenda spostata, etichette abbreviate senza cambiare significato o maggiore altezza. Non limitarti a rimpicciolire una composizione desktop. Usa lo scorrimento quando non esiste una soluzione migliore; la leggibilità prevale sulla disposizione originale.
 
