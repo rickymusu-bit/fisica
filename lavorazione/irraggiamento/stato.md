@@ -76,3 +76,11 @@ Applicazione A4, effetto serra terrestre: radiazione solare in ingresso, assorbi
 Visuale A4: schema dell’effetto serra con superficie, atmosfera e spazio, radiazione solare entrante e infrarosso terrestre in uscita, assorbimento/riemissione in più direzioni e una quota di energia che raggiunge lo spazio. Preferire etichette in italiano, frecce distinguibili anche senza il solo colore e leggibilità su smartphone. L’utente cerca e fornisce entrambe le nuove immagini secondo C2; nessuna ricerca o generazione avviata.
 
 Prossimo passaggio: concordare e ricevere le visuali della teoria e delle quattro applicazioni, poi preparare la bozza con segnaposto e domande finali. Nessun nuovo HTML o simulazione realizzato.
+
+## Materiali scelti e regola di ottimizzazione
+
+17 ottobre 2026, ore 11:29 (Europe/Rome). L’utente ha fornito e scelto la copertina e l’immagine introduttiva e ha richiesto di attendere le altre immagini. Copertina: https://upload.wikimedia.org/wikipedia/commons/d/d1/Sun_Over_Earth%27s_Horizon.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original . Introduzione: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Basking_Chuckwalla.jpg/1920px-Basking_Chuckwalla.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail . La teoria partirà dai rettili che prendono il sole, in sostituzione dell’apertura proposta sulla persona nell’aria fredda. Immagini selezionate ma non ancora scaricate o verificate quanto a licenze; rispettare l’attesa richiesta.
+
+Su richiesta dell’utente, consolidate nel master v58, D2, le impostazioni approvate: foto e copertina massimo 1.600 px sul lato lungo, immagini piccole 800–1.000 px, visuali con scritte fino a 2.000 px quando necessario; pesi indicativi distinti per categoria, WebP per le foto con qualità iniziale 80–85, preferenza vettoriale per grafici e formule realizzati nella pagina. Obiettivo 5–8 MB per capitolo, mantenendo avviso a 18 MB e limite finale di 20 MB. Originali conservati; applicazione alle copie nelle sole fasi autorizzate, con priorità alla leggibilità. Nessuna immagine elaborata in questo intervento.
+
+Prossimo passaggio: attendere le altre immagini, poi verificarle e riprendere la progettazione prima della bozza.
