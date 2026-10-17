@@ -126,55 +126,81 @@ Nel disegno, il **reattore** è indicato con “Reactor”, la **pompa** con “
 
 Un terzo circuito porta via energia dal condensatore usando acqua di raffreddamento, collegata al bacino indicato come “Reservoir”. I tre circuiti svolgono quindi compiti distinti: trasportare energia dal reattore, far lavorare la turbina e cedere all'ambiente l'energia che non diventa lavoro elettrico. Le temperature e le pressioni operative non sono quelle della curva dell'acqua a pressione atmosferica vista prima. Il principio dei passaggi di stato rimane lo stesso: l'acqua riceve energia quando vaporizza e la cede quando condensa.
 
-## Esercizi svolti
+## Esempio svolto: dal ghiaccio al vapore
 
-### Fondere il ghiaccio
+Consideriamo una scultura di ghiaccio come quella della fotografia e **assumiamo una massa di 500 kg**, inizialmente a **0 °C**. Quanta energia deve assorbire per trasformarsi completamente in vapore a **100 °C**, alla pressione atmosferica ordinaria? La massa è un dato ipotizzato per il problema, non una misura della scultura fotografata. Trascuriamo le dispersioni e l'energia assorbita dalle attrezzature, così tutta l'energia calcolata va al materiale che si trasforma.
 
-Consideriamo una scultura di ghiaccio come quella della fotografia e **assumiamo che abbia una massa di 500 kg** e sia già a **0 °C**, alla pressione atmosferica ordinaria. Quanta energia deve ricevere per fondere completamente? La massa è un dato ipotizzato per l'esercizio, non una misura della scultura fotografata. Consideriamo solo la fusione e trascuriamo gli altri scambi di energia.
+Il processo comprende tre fasi: prima il ghiaccio fonde a 0 °C, poi l'acqua liquida si riscalda fino a 100 °C, infine l'acqua vaporizza a 100 °C. Calcolare soltanto i due passaggi di stato lascerebbe fuori l'energia necessaria a riscaldare l'acqua. Per ottenere il totale dobbiamo quindi calcolare e sommare tutti e tre i contributi.
 
-[SCHEMA E1 — `risorse/schema-fusione.svg`, con la foto scelta `risorse/scultura-ghiaccio.jpg` integrale e sfondo conservato. Dati dell'esercizio: scultura intera, m = 500 kg, temperatura iniziale 0 °C; Q entrante; stato finale acqua liquida a 0 °C. Dati e frecce fuori dalla foto.]
+[SCHEMA E1 — `risorse/schema-esempio.svg`, con la scultura scelta `risorse/scultura-ghiaccio.jpg` integrale e sfondo conservato. Modello: massa ipotizzata 500 kg, pressione atmosferica ordinaria; ghiaccio a 0 °C → acqua a 0 °C → acqua a 100 °C → vapore a 100 °C. Per le tre fasi indicare Qf, Qr e Qv, energia assorbita dal materiale. Nessuna foto della pentola.]
 
-Didascalia E1: La scultura illustra la situazione fisica. Nel problema assumiamo 500 kg di ghiaccio già a 0 °C: l'energia ricevuta serve a trasformarlo in acqua liquida alla stessa temperatura.
+Didascalia E1: La scultura illustra il materiale di partenza. Nel modello i 500 kg passano attraverso due cambiamenti di stato e un riscaldamento: l'energia totale comprende tutte e tre le fasi.
 
-Per fondere ogni kilogrammo servono circa 334.000 J. Per 500 kg occorre quindi una quantità di energia 500 volte maggiore. Usiamo la relazione con il calore latente di fusione Lf:
+**Per fondere il ghiaccio**, usiamo il calore latente specifico di fusione dell'acqua, Lf = 334.000 J/kg. Il ghiaccio è già a 0 °C, quindi non serve riscaldarlo prima della fusione. L'energia di questa fase è:
 
 \[
-Q=m\cdot L_f
+Q_f=m\cdot L_f
 \]
 
 \[
-Q=500\,\mathrm{kg}\cdot334\,000\,\mathrm{J/kg}
+Q_f=500\,\mathrm{kg}\cdot334\,000\,\mathrm{J/kg}
 \]
 
 \[
-Q=167\,000\,000\,\mathrm{J}=167\,\mathrm{MJ}
+Q_f=167\,000\,000\,\mathrm{J}=167\,\mathrm{MJ}
 \]
 
-La sigla **MJ** indica i megajoule: un megajoule corrisponde a un milione di joule. Per la scultura ipotizzata servono quindi **167 milioni di joule**, senza che la temperatura aumenti durante la fusione. Una massa molto grande richiede molta energia per cambiare stato, anche se la temperatura resta la stessa. Per riscaldare l'acqua dopo la fusione servirebbe un ulteriore apporto di energia.
+La sigla **MJ** indica i megajoule: un megajoule corrisponde a un milione di joule. Al termine di questa prima fase abbiamo 500 kg d'acqua liquida ancora a 0 °C. L'energia ricevuta ha cambiato lo stato, senza aumentare la temperatura.
 
-### Vaporizzare l'acqua
-
-Consideriamo ora **gli stessi 500 kg d'acqua ottenuti dalla fusione della scultura**, già portati alla temperatura di ebollizione: circa **100 °C** alla pressione atmosferica ordinaria. Quanta energia serve per trasformare tutta quest'acqua in vapore? Calcoliamo soltanto l'energia della vaporizzazione, senza includere quella usata per riscaldare l'acqua da 0 °C a 100 °C e trascurando le dispersioni.
-
-[SCHEMA E2 — `risorse/schema-vaporizzazione.svg`, senza fotografia. Dati dell’esercizio: m = 500 kg, temperatura iniziale circa 100 °C, pressione atmosferica ordinaria; Q entrante; stato finale vapore alla stessa temperatura. Nessun recipiente disegnato o altra immagine sostitutiva.]
-
-Didascalia E2: I 500 kg d’acqua sono già all’ebollizione. L’energia ricevuta serve soltanto a trasformarli in vapore alla stessa temperatura.
-
-Per vaporizzare ogni kilogrammo, alle condizioni indicate, servono circa 2.257.000 J. Moltiplichiamo questo valore del calore latente di vaporizzazione Lv per la massa totale:
+**Per riscaldare l'acqua da 0 °C a 100 °C**, serve un contributo diverso. Finché l'acqua rimane liquida, calcoliamo l'energia assorbita con la relazione:
 
 \[
-Q=m\cdot L_v
+Q_r=m\cdot c\cdot\Delta T
+\]
+
+Il simbolo **c** indica il **calore specifico**: per l'acqua liquida usiamo il valore approssimato **4180 J/(kg · K)**. Significa che per aumentare di un kelvin la temperatura di un kilogrammo d'acqua occorrono circa 4180 J. La differenza di temperatura ΔT è 100 °C − 0 °C, cioè un aumento di **100 K**: un intervallo di un grado Celsius ha la stessa ampiezza di un kelvin. Questa formula descrive il riscaldamento del liquido; Lf e Lv descrivono invece i cambiamenti di stato.
+
+\[
+Q_r=500\,\mathrm{kg}\cdot4180\,\mathrm{\frac{J}{kg\cdot K}}\cdot100\,\mathrm{K}
 \]
 
 \[
-Q=500\,\mathrm{kg}\cdot2\,257\,000\,\mathrm{J/kg}
+Q_r=209\,000\,000\,\mathrm{J}=209\,\mathrm{MJ}
+\]
+
+Ora l'acqua ha raggiunto circa 100 °C, ma non è ancora stata tutta trasformata in vapore. L'energia Qr è servita ad aumentare la temperatura del liquido. Dobbiamo ancora completare il passaggio allo stato gassoso.
+
+**Per vaporizzare tutta l'acqua**, usiamo Lv = 2.257.000 J/kg, riferito all'ebollizione alla pressione atmosferica ordinaria. La massa è sempre 500 kg. L'energia di questa terza fase è:
+
+\[
+Q_v=m\cdot L_v
 \]
 
 \[
-Q=1\,128\,500\,000\,\mathrm{J}=1128{,}5\,\mathrm{MJ}
+Q_v=500\,\mathrm{kg}\cdot2\,257\,000\,\mathrm{J/kg}
 \]
 
-Per vaporizzare completamente l'acqua servono quindi **1128,5 MJ**. Durante la trasformazione la temperatura resta circa 100 °C, mentre diminuisce la quantità di acqua liquida e aumenta quella di vapore. Il risultato riguarda soltanto il passaggio di stato: il riscaldamento preliminare è già avvenuto.
+\[
+Q_v=1\,128\,500\,000\,\mathrm{J}=1128{,}5\,\mathrm{MJ}
+\]
+
+Durante questa fase diminuisce l'acqua liquida e aumenta il vapore, mentre la temperatura resta circa 100 °C. Quando tutta la massa è diventata vapore alla stessa temperatura, il processo richiesto è terminato. Non aggiungiamo energia per riscaldare ulteriormente il vapore.
+
+L'**energia totale** è la somma dei tre contributi. Usiamo per tutti la stessa unità, i megajoule:
+
+\[
+Q_{\mathrm{tot}}=Q_f+Q_r+Q_v
+\]
+
+\[
+Q_{\mathrm{tot}}=167\,\mathrm{MJ}+209\,\mathrm{MJ}+1128{,}5\,\mathrm{MJ}
+\]
+
+\[
+Q_{\mathrm{tot}}=1504{,}5\,\mathrm{MJ}=1\,504\,500\,000\,\mathrm{J}
+\]
+
+Servono quindi circa **1,50 miliardi di joule** per trasformare interamente la scultura ipotizzata in vapore, partendo da ghiaccio a 0 °C. Il totale comprende sia i due passaggi di stato sia l'aumento di temperatura dell'acqua liquida. È l'energia assorbita dal materiale nel modello: un sistema reale deve fornire anche l'energia che si disperde nell'ambiente o riscalda le attrezzature.
 
 ## Domande di verifica
 
@@ -182,7 +208,7 @@ Per vaporizzare completamente l'acqua servono quindi **1128,5 MJ**. Durante la t
 2. Segui nella mappa il percorso da solido a liquido e poi da liquido a gas. Dai il nome ai due passaggi e indica se la sostanza assorbe o cede energia. Ripeti il ragionamento seguendo le frecce inverse e quelle tra solido e gas.
 3. Una goccia si riduce senza formare bolle; in un altro recipiente compaiono bolle di vapore in tutto il liquido. Quale fenomeno riconosci in ciascun caso? Confronta dove avvengono e il ruolo della temperatura e della pressione.
 4. Una nuvola visibile è formata **A)** soltanto da vapore acqueo; **B)** da goccioline e, secondo le condizioni, cristalli di ghiaccio. Scegli e spiega perché il vapore non coincide con la parte bianca visibile. Quale passaggio forma direttamente ghiaccio dal vapore?
-5. Nell'esercizio sulla fusione, la scultura ipotizzata di 500 kg a 0 °C richiede 167 MJ. Se la massa raddoppia e le condizioni restano uguali, quale energia prevedi? Verifica usando Lf = 334.000 J/kg e spiega perché non devi raddoppiare la temperatura.
-6. Quanta energia serve per vaporizzare gli stessi 500 kg d'acqua ottenuti dalla fusione della scultura, se sono già alla temperatura di ebollizione alla pressione atmosferica ordinaria? Usa Lv = 2.257.000 J/kg e indica quale parte del processo stai considerando.
+5. Nell'esempio completo, che cosa accadrebbe all'energia totale se la massa della scultura raddoppiasse, mantenendo gli stessi stati iniziale e finale? Motiva usando le relazioni delle tre fasi.
+6. Uno studente calcola l'energia totale dalla scultura a 0 °C al vapore a 100 °C sommando soltanto m · Lf e m · Lv. Quale fase ha dimenticato? Spiega che cosa cambia fisicamente durante quella fase e quale relazione serve per calcolarne l'energia.
 7. Il sudore rimane sulla pelle ma evapora con difficoltà in aria molto umida. Prevedi se il raffreddamento dovuto all'evaporazione sarà maggiore o minore rispetto a condizioni che favoriscono l'evaporazione, e spiega il trasferimento di energia coinvolto.
 8. Una pompa di calore riscalda la casa mentre fuori l'aria è fredda. Dove il refrigerante evapora e dove condensa? Spiega perché può assorbire energia dall'aria esterna e quale ruolo ha il lavoro del compressore.

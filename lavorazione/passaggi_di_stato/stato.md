@@ -1,45 +1,27 @@
 # Stato — Passaggi di stato
 
-Ultimo aggiornamento: 2026-10-17 23:00 (Europe/Rome). Master v53, letto con i riferimenti di stile. Ramo `revisione/materia-passaggi-capitoli`, fonte ufficiale v8 di `stati_della_materia_e_passaggi_di_stato.html`, blob `8ef5566c73f670dbf23b550e4e36a52cdb7ddfc2`. [Mappa iniziale](../stati_della_materia_e_passaggi_di_stato/proposta-editoriale.md).
+Ultimo aggiornamento: 2026-10-17 23:06 (Europe/Rome). Master v53, letto con i riferimenti di stile. Ramo `revisione/materia-passaggi-capitoli`. Fonte v8 di `stati_della_materia_e_passaggi_di_stato.html`, blob `8ef5566c73f670dbf23b550e4e36a52cdb7ddfc2`. [Mappa iniziale della suddivisione](../stati_della_materia_e_passaggi_di_stato/proposta-editoriale.md).
 
-## Ambito, approvazioni e fase
+## Ambito e approvazioni effettive
 
-Capitolo monografico sui sei passaggi di stato, energia scambiata, calore latente e curva dell’acqua. Tre applicazioni (sudore, pompa di calore, centrale PWR), due svolgimenti e otto domande finali. Tema della v8 confermato insieme alla divisione in due capitoli. Domanda iniziale: «Che cosa cambia durante questa trasformazione, e che cosa fa l’energia ricevuta dall’ambiente?».
+Capitolo sui sei passaggi di stato, scambi energetici, calore latente e curva dell’acqua. Tre applicazioni: sudore, pompa di calore e centrale PWR. **Un solo esempio svolto**, seguito da otto domande finali. Tema della v8 e separazione in due capitoli approvati. Apertura concreta sui cubetti che fondono, domanda su che cosa cambia e come viene usata l’energia ricevuta.
 
-L’utente ha approvato il testo («Per i passaggi di stato va tutto bene») e chiesto di creare P1 simile alla mappa con frecce. Successivamente ha scelto le fotografie, eliminato caso e schema frigorifero a favore della sola pompa di calore, scelto lo schema nucleare e fornito le due foto degli esercizi. Tutte queste modifiche puntuali sono autorizzate; non richiedono una nuova approvazione dei medesimi file.
+Testo approvato dall’utente prima degli adattamenti puntuali («Per i passaggi di stato va tutto bene»); P1 creato su sua richiesta. Materiali scelti acquisiti con fonti/licenze. Richieste successive applicate: eliminare frigorifero a favore della sola pompa di calore; usare il PWR; conservare lo sfondo della scultura; eliminare la foto della pentola; usare una massa da scultura intera, ipotizzata di 500 kg; infine **unificare i due svolgimenti nel calcolo completo dal ghiaccio a 0 °C al vapore a 100 °C**. Le scelte e queste revisioni sono autorizzate, senza nuova conferma dei medesimi file.
 
-Ultime istruzioni: **mantenere lo sfondo di entrambe le foto degli esercizi** e **cambiare i numeri per adattare il primo esercizio all’intera statua**. Richieste applicate. La massa di 500 kg è un’ipotesi esplicita del problema, non un dato misurato sulla fotografia; eliminata l’idea della porzione di 0,50 kg.
+## Bozza e modello correnti
 
-Fase: [bozza completa aggiornata](bozza.md) e visuali pronti, da presentare con la stima per la realizzazione. Nessun nuovo HTML finale creato, integrato o pubblicato. Prossima operazione: conferma dei testi aggiornati e via esplicito B1.1–B2, poi realizzazione e verifiche degli HTML autonomi. Non dedurre il via generale all’HTML dalla sola scelta dei materiali.
+[Bozza completa](bozza.md). L’esempio unico comprende fusione a 0 °C, riscaldamento dell’acqua da 0 a 100 °C e vaporizzazione a 100 °C alla pressione atmosferica ordinaria. Massa 500 kg esplicitamente ipotizzata, non ricavata dalla fotografia. Trascurate dispersioni ed energia assorbita dalle attrezzature. Il calore specifico dell’acqua liquida è approssimato con 4180 J/(kg · K), spiegato insieme a Qr = m · c · ΔT e alla differenza di temperatura di 100 K.
 
-## Visuali disponibili
+Calcoli verificati: Qf = 500 · 334.000 = 167.000.000 J = 167 MJ; Qr = 500 · 4180 · 100 = 209.000.000 J = 209 MJ; Qv = 500 · 2.257.000 = 1.128.500.000 J = 1128,5 MJ. **Qtot = 1.504.500.000 J = 1504,5 MJ**, circa 1,50 miliardi di joule. Nessun riscaldamento iniziale del ghiaccio o surriscaldamento del vapore incluso. Domande 5 e 6 aggiornate su proporzionalità del totale e fase di riscaldamento omessa; nessuna soluzione nelle domande finali.
 
-[Registro visuali](visuali.md), [dati, fonti, licenze e hash](risorse/materiali-scelti.json).
+## Visuali disponibili e verifiche
 
-- C2: metallo fuso, Rajesh_India, CC BY-NC-ND 2.0; foto integrale per l’uso non commerciale, senza ritaglio o modifiche.
-- P1: schema creato con sei frecce, versione a triangolo e variante verticale; [registro](risorse/schema-passaggi.md).
-- P2–P8: immagini e GIF pertinenti della v8, da riutilizzare.
-- P9: curva qualitativa dell’acqua, da adattare al telefono senza inventare dati.
-- A1: Jordan/sudore, Steve Lipofsky, CC BY-SA 3.0; credito richiesto «Lipofsky Basketballphoto.com».
-- A2: unità esterna della pompa di calore, Wikideas1, CC0. Evaporazione all’esterno e condensazione verso la casa nella modalità riscaldamento, con apporto del compressore.
-- A3: centrale PWR, Tennessee Valley Authority, pubblico dominio. Primario pressurizzato liquido; secondario con vaporizzazione e condensazione; raffreddamento separato. Etichette inglesi spiegate, distinguendo generatore elettrico e di vapore; immagine da rendere ingrandibile.
-- E1: scultura di ghiaccio, Frankie Fouganthin, CC BY-SA 4.0. Foto e originale acquisiti, sfondo conservato; [schema pronto](risorse/schema-fusione.svg), massa ipotizzata 500 kg e 0 °C.
-- E2: [schema senza foto](risorse/schema-vaporizzazione.svg), stessa massa della scultura: 500 kg d’acqua già a circa 100 °C. Fotografia della pentola esclusa per ultima richiesta; file e originale conservati solo come riferimento.
+[Registro visuali](visuali.md), [fonti/licenze/hash](risorse/materiali-scelti.json). C2 metallo fuso (Rajesh_India, CC BY-NC-ND 2.0; foto intera per uso non commerciale); P1 schema con frecce e variante mobile; P2–P8 immagini/GIF della v8; P9 curva qualitativa da adattare al telefono; A1 Jordan/sudore (credito «Lipofsky Basketballphoto.com», CC BY-SA 3.0); A2 pompa di calore (Wikideas1, CC0); A3 PWR (TVA, pubblico dominio), etichette inglesi spiegate e generatore elettrico distinto dal generatore di vapore.
 
-La richiesta dell’utente sullo sfondo prevale sulla regola generale per gli schemi: nessuna rimozione eseguita o richiesta. Tutti i materiali necessari sono disponibili. Simulazioni microscopiche conservate soltanto nel capitolo Stati della materia; nessuna nuova simulazione qui.
+E1: [schema completo unico](risorse/schema-esempio.svg), foto della scultura con sfondo conservato e quattro stati collegati da tre frecce energetiche. La richiesta esplicita sullo sfondo prevale sulla regola generale degli esercizi; nessuna rimozione eseguita. I byte della foto incorporata corrispondono alla foto scelta. Anteprima nel browser a 600 px ispezionata. Schemi precedenti separati sostituiti e recuperabili in Git. Foto della pentola esclusa dall’integrazione e dai crediti finali, conservata solo come riferimento. Nessun file ulteriore necessario.
 
-## Verifiche e stima
+Nessuna nuova simulazione: quelle microscopiche restano nel capitolo Stati della materia. Nessun HTML definitivo realizzato o pubblicato, nessuna prova del futuro HTML dichiarata. Prove precedenti riguardano i singoli schemi.
 
-Foto scaricate integre, autori e licenze verificati, immagini ispezionate; i due schemi incorporano le foto senza alterazione dei byte e aggiungono fuori dalla fotografia dati, stati e frecce. Anteprime dei due schemi ispezionate nel browser a 600 px, senza sovrapposizioni. Questa prova riguarda gli schemi, non gli HTML futuri.
+## Prossima operazione
 
-Ricalcolati: 500 · 334.000 = 167.000.000 J = 167 MJ; 500 · 2.257.000 = 1.128.500.000 J = 1128,5 MJ. Per ultima istruzione eliminato il confronto tra i risultati; secondo svolgimento, schema E2 e domanda 6 usano gli stessi 500 kg d’acqua, già a circa 100 °C. Il calcolo riguarda solo la vaporizzazione, non il riscaldamento preliminare. Domanda 5 ancora riferita alla scultura da 500 kg. Otto quesiti conservati, nessuna soluzione aggiunta alle domande finali.
-
-Stima indicativa residua per i due HTML: 25–40 minuti, calcolo basso; integrazione e impaginazione 15–25, verifiche 5–10, versioni e salvataggio circa 5, attese escluse. Dopo il via: file italiani autonomi, collegamenti e compatibilità URL storici, risorse offline, pesi effettivi, prove desktop/mobile e anteprima. Non attivare né modificare la pubblicazione.
-
-## Ultima correzione: stessa massa, senza confronto
-
-L’utente richiede di lasciare il confronto e chiedere l’energia per vaporizzare la stessa quantità d’acqua. Applicato: E2 riferito ai 500 kg ottenuti dalla fusione, già portati all’ebollizione. Ricalcolati formula e risultato (1128,5 MJ); aggiornati schema, interpretazione e quesito 6; eliminato il confronto numerico con l’energia di fusione. Nessun cambiamento alle foto e agli sfondi. La fotografia della pentola illustra il fenomeno; il modello assume un recipiente di capacità adeguata. Non attribuire 500 kg alla pentola fotografata.
-
-## Ultima correzione: foto E2 rimossa
-
-«Togli proprio la foto» si riferisce alla pentola mostrata nel secondo esercizio. Rimossa la foto dallo schema E2 e tutti i riferimenti alla fotografia nel secondo svolgimento. Conservati dati, frecce, stati e calcolo dei 500 kg d’acqua già a circa 100 °C. Nessuna immagine sostitutiva e nessun oggetto disegnato. La scultura E1 conserva lo sfondo come richiesto; la foto E2 rimane tra i riferimenti ma non va inserita nell’HTML né nei crediti delle immagini effettivamente usate.
+Presentare la correzione, confermare i testi aggiornati e raccogliere il via alla realizzazione secondo B1.1–B2. Stima residua già comunicata: 25–40 minuti per i due HTML, impegno basso; integrazione/impaginazione 15–25, verifiche 5–10, salvataggio circa 5, attese escluse. Poi realizzare file italiani autonomi con immagini, simulazioni riusate, crediti, navigazione e compatibilità dei vecchi collegamenti; verificare pesi, offline e lettura mobile/desktop, consegnare anteprima. Non modificare la pubblicazione.

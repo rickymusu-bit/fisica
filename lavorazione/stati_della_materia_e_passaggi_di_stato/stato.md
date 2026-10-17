@@ -14,7 +14,7 @@ Punti aperti: file per le copertine e le immagini delle applicazioni, originali 
 
 Aggiornamento successivo: per **Stati della materia** l'utente ha richiesto tutte foto nuove, schema cristallino/amorfo e ricerca di GIF al posto delle simulazioni. [Registro visuali corrente](../stati_della_materia/visuali.md). Schema realizzato; candidate GIF individuate ma originali non scaricabili nell'ambiente (HTTP 403). Nessuna GIF specifica approvata o inserita. Il riuso di M1–M8 nella proposta iniziale è superato. Passaggi di stato resta invariato.
 
-Bozze correnti: [Stati della materia](../stati_della_materia/bozza.md), con sei domande finali, e [Passaggi di stato](../passaggi_di_stato/bozza.md), con tre applicazioni, due esercizi svolti e otto domande finali. La scrittura completa comprende tutti i nuclei della v8, le formule interpretate, la correzione sulle nuvole e i segnaposto delle immagini. Stati specifici nei rispettivi percorsi di lavorazione.
+Bozze correnti: [Stati della materia](../stati_della_materia/bozza.md), con sei domande finali, e [Passaggi di stato](../passaggi_di_stato/bozza.md), con tre applicazioni, un unico esempio svolto completo e otto domande finali. La scrittura completa comprende tutti i nuclei della v8, le formule interpretate, la correzione sulle nuvole e i segnaposto delle immagini. Stati specifici nei rispettivi percorsi di lavorazione.
 
 Prossima operazione: presentare le bozze complete; dopo la loro approvazione aggiornare la stima e raccogliere il via all’HTML. Non modificare la pubblicazione del sito.
 
@@ -85,3 +85,7 @@ Ultima richiesta: togliere il confronto e chiedere quanta energia serve per vapo
 ## Foto della pentola esclusa
 
 Ultima richiesta: «Togli proprio la foto». Rimossa la foto della pentola dal secondo esercizio e dallo schema E2; conservati soltanto il modello con dati, stati e frecce e il calcolo per 500 kg d’acqua. Foto originale conservata come riferimento, non da integrare. Scultura di ghiaccio invariata con sfondo.
+
+## Esempio unico: energia totale dal ghiaccio al vapore
+
+Ultima richiesta: un solo esempio svolto che calcoli l’energia per vaporizzare completamente la scultura partendo da ghiaccio a 0 °C. Bozza ristrutturata in un unico problema con tre fasi: fusione 167 MJ, riscaldamento dell’acqua 209 MJ, vaporizzazione 1128,5 MJ. Massa ipotizzata 500 kg, c acqua ≈ 4180 J/(kg · K), pressione atmosferica ordinaria. Totale **1504,5 MJ = 1.504.500.000 J**, dispersioni e attrezzature trascurate. Foto scultura con sfondo e schema unico `schema-esempio.svg`; vecchi schemi separati sostituiti e conservati in Git. Foto pentola sempre esclusa. Domande finali 5 e 6 aggiornate. Nessuna realizzazione HTML generale o pubblicazione avviata.

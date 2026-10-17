@@ -29,16 +29,17 @@ A2 e A3 acquisiti nelle versioni scelte e originali, decodificati/parsing SVG ve
 
 P1: [schema dei passaggi](risorse/schema-passaggi.md), triangolo e variante verticale, creato su richiesta. P2–P8: immagini e GIF pertinenti nella v8 da riutilizzare. P9: curva qualitativa dell’acqua da adattare alla lettura mobile, senza inventare dati sperimentali. Tabelle semantiche come nella bozza. Non riutilizzare la copertina nel testo.
 
-## Schemi dei due esercizi completati
+## Unico esempio svolto: dal ghiaccio al vapore
 
-L’utente fornisce le foto E1 ed E2 e richiede **«Tieni il background per entrambe»**. Questa istruzione esplicita prevale sulla regola generale del fondo trasparente per gli esercizi: nessuna rimozione dello sfondo o nuovo consenso da chiedere. La foto E1 resta integrale, con dati e frecce in uno spazio separato. La richiesta successiva «Togli proprio la foto» rimuove la fotografia E2 dall’integrazione: resta soltanto lo schema con dati, stati e frecce.
+Ultima richiesta dell’utente: un solo esempio che calcoli l’energia totale per vaporizzare completamente la statua partendo da ghiaccio a 0 °C. Il precedente esercizio separato sulla sola vaporizzazione è sostituito da questo percorso completo.
 
-- [Schema E1: fusione](risorse/schema-fusione.svg). Dopo la correzione «cambia i numeri per adattarli alla statua», l’esercizio considera una **scultura intera ipotizzata di 500 kg**, già a 0 °C. Non una porzione da 0,50 kg e non una massa dichiarata come misurata sulla scultura fotografata. Risultato 167.000.000 J = 167 MJ; temperatura finale dell’acqua 0 °C. Conservare il credito della foto di Frankie Fouganthin, CC BY-SA 4.0, anche nella composizione.
-- [Schema E2: vaporizzazione](risorse/schema-vaporizzazione.svg). Stessa massa della scultura: 500 kg di acqua già a circa 100 °C, pressione atmosferica ordinaria; Q entrante e vapore finale alla stessa temperatura. Nessuna fotografia: soltanto stati, dati e frecce degli scambi di energia. La precedente foto di Tomwsulcer, CC0, resta conservata come riferimento e non va incorporata nella dispensa.
+[Schema corrente E1](risorse/schema-esempio.svg): foto della scultura integrale con **sfondo conservato**, massa ipotizzata 500 kg, ghiaccio a 0 °C → acqua a 0 °C → acqua a 100 °C → vapore a 100 °C. Le tre frecce sono associate a Qf, Qr e Qv. Foto incorporata senza alterarne i byte, dati del modello distinti da misure della foto; attribuzione della foto Frankie Fouganthin / CC BY-SA 4.0.
 
-E1 incorpora esattamente i byte della foto selezionata, con proporzioni originali. E2 non contiene immagini incorporate. Entrambi hanno descrizione accessibile, dati e frecce prima dei calcoli. Anteprime ispezionate nel browser a 600 px; non è una verifica dell’HTML finale, non ancora realizzato. Le fotografie e gli originali sono conservati separatamente.
+Dati e risultati: Lf = 334.000 J/kg, c dell’acqua liquida ≈ 4180 J/(kg · K), Lv = 2.257.000 J/kg; pressione atmosferica ordinaria. Fusione 167 MJ, riscaldamento con ΔT = 100 K pari a 209 MJ, vaporizzazione 1128,5 MJ. **Totale 1504,5 MJ = 1.504.500.000 J**, senza dispersioni né energia assorbita dalle attrezzature. Non occorre riscaldare il ghiaccio inizialmente, perché è già a 0 °C; non si surriscalda il vapore finale.
 
-Tutti i visuali di Passaggi di stato sono ora disponibili. Nessun file ulteriore richiesto. Per ultima richiesta dell’utente eliminato il confronto tra i due risultati. Il secondo svolgimento e la domanda 6 chiedono l’energia per vaporizzare gli stessi 500 kg d’acqua, già a circa 100 °C: risultato dello svolgimento 1.128.500.000 J = 1128,5 MJ, senza includere il riscaldamento da 0 °C. Schema E2 allineato.
+I due schemi precedenti, `schema-fusione.svg` e `schema-vaporizzazione.svg`, sono sostituiti da quello unico; la cronologia Git li conserva. La foto della pentola resta esclusa, senza ricerche o immagini sostitutive. Non inserirla nei crediti degli elementi effettivamente utilizzati.
+
+Tutti i visuali sono disponibili. Lo schema unico è stato ispezionato in anteprima nel browser a 600 px; non equivale alla verifica del futuro HTML definitivo. L’esempio spiega Qr = m · c · ΔT con grandezze, unità e significato prima dei calcoli e somma i tre contributi nella stessa unità. Domande finali 5 e 6 adeguate al percorso completo e all’errore di omettere il riscaldamento.
 
 ## Prossimo passaggio
 

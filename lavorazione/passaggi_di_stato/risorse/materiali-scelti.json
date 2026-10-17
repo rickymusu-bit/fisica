@@ -119,9 +119,9 @@
     "original_bytes": 1740625,
     "original_sha256": "b070d214514fecb28432136d008bededd539a6b600c2d1edaea569be9ef1d8b4",
     "visual_review": "foto integra e ispezionata; background conservato su istruzione esplicita dell’utente",
-    "composition": "schema-fusione.svg",
+    "composition": "schema-esempio.svg",
     "photo_modifications": "nessuna; dati e frecce aggiunti fuori dalla fotografia nella composizione SVG",
-    "exercise_data": "massa ipotizzata della scultura intera 500 kg; inizialmente 0 °C; pressione atmosferica; Q = 167 MJ",
+    "exercise_data": "unico esempio: 500 kg di ghiaccio a 0 °C fino a vapore a 100 °C; Qf=167 MJ, Qr=209 MJ con c=4180 J/(kg·K), Qv=1128,5 MJ, totale=1504,5 MJ; pressione atmosferica, dispersioni e attrezzature trascurate",
     "measurements": "dati dell’esercizio, non misure ricavate dalla fotografia"
   },
   {
@@ -149,10 +149,10 @@
     "original_bytes": 226647,
     "original_sha256": "dcaef9789d07dd40a80829794cb686ab776bf4e3cbd2657c00f72eb8576dc377",
     "visual_review": "foto integra e ispezionata; background conservato su istruzione esplicita dell’utente",
-    "composition": "schema-vaporizzazione.svg, ora senza foto",
+    "composition": null,
     "photo_modifications": "nessuna; dati e frecce aggiunti fuori dalla fotografia nella composizione SVG",
-    "exercise_data": "500 kg d’acqua già a circa 100 °C, pressione atmosferica; Q di sola vaporizzazione = 1128,5 MJ",
+    "exercise_data": "non più usato come esercizio distinto",
     "measurements": "dati dell’esercizio, non misure ricavate dalla fotografia",
-    "integration_status": "fotografia esclusa dalla dispensa per ultima richiesta dell’utente; file e originale conservati solo come riferimento"
+    "integration_status": "fotografia esclusa e precedente esercizio separato sostituito dall’unico esempio E1; conservare la foto come riferimento"
   }
 ]
