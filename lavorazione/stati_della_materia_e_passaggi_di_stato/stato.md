@@ -1,8 +1,22 @@
 # Stato — Stati della materia e passaggi di stato
 
-Ultimo aggiornamento: 2026-10-16 21:16 (Europe/Rome). Master applicato: **v48**; fonte letta integralmente v47, con aggiornamento verificato delle sole regole di denominazione. Riferimento ufficiale: `main`.
+Ultimo aggiornamento: 2026-10-17 20:29 (Europe/Rome). Master applicato: **v53**, letto integralmente insieme ai due riferimenti di stile.
 
-Fase: revisione completata, integrata in `main` con la [PR #6](https://github.com/rickymusu-bit/fisica/pull/6) e pubblicata. [Workflow riuscito](https://github.com/rickymusu-bit/fisica/actions/runs/38935850257).
+Fase corrente: progettazione della suddivisione e delle visuali per la revisione richiesta il 17 ottobre 2026. Ramo dedicato `revisione/materia-passaggi-capitoli`, derivato da `main` al commit `d72296ad77a2ae92342386c7dfeb73cc1b44e736`. HTML ufficiale ancora v8: nessuna nuova versione realizzata, integrata o pubblicata.
+
+[Proposta editoriale corrente](proposta-editoriale.md): mappa completa dei contenuti verso due capitoli monografici (`stati_della_materia.html` e `passaggi_di_stato.html`), percorso della riscrittura, riuso di tutte le 13 immagini e delle tre animazioni, materiali mancanti, controlli e stima. La corrispondenza è registrata prima dell'esecuzione, come richiesto da A3.
+
+Approvazione effettiva nuova: richiesta di applicare le regole editoriali, spezzare, riformattare, riordinare e rifare il testo; segnalare nuovi visuali. Non risultano ancora approvati confini proposti, nuovi materiali, bozza o via alla realizzazione previsti da B1.1–B2. Riutilizzare il tema della v8 come revisione dello stile già concordato. Nessuna ricerca o generazione di immagini effettuata.
+
+Verifiche preliminari completate: identità della fonte v8 e blob `8ef5566c73f670dbf23b550e4e36a52cdb7ddfc2`; lettura integrale del documento con parser `huge_tree=True`; 13 immagini, tre animazioni, due tabelle, curva qualitativa e 14 quesiti individuati; due calcoli verificati (167.000 J e 451.400 J). Da correggere il passaggio sulle nuvole, la spiegazione del calore latente e le didascalie; da completare gli schemi degli esercizi e le immagini delle applicazioni. Crediti della fonte incompleti: non attestare licenze verificate.
+
+Punti aperti: scelta delle copertine e delle immagini per le applicazioni, originali adatti agli schemi, riferimenti di licenza mancanti; accordo sulla proposta. Nessuna prova dei futuri HTML è stata eseguita, perché non sono ancora stati realizzati. Checklist pertinente: A1–A6, B1.1–B6, C1–C5, D1–D2.1.
+
+Prossima operazione: ottenere le scelte sui confini e visuali, scrivere e sottoporre la bozza completa con segnaposto; dopo l'approvazione della bozza aggiornare la stima e raccogliere il via all'HTML. Non modificare la pubblicazione del sito.
+
+## Revisione precedente consolidata
+
+La revisione precedente è stata integrata in `main` con la [PR #6](https://github.com/rickymusu-bit/fisica/pull/6) e pubblicata. [Workflow riuscito](https://github.com/rickymusu-bit/fisica/actions/runs/38935850257). Le approvazioni e verifiche sotto si riferiscono a quel lavoro, non alla nuova suddivisione.
 
 File corrente verificato: [stati_della_materia_e_passaggi_di_stato.html](../../stati_della_materia_e_passaggi_di_stato.html), **v8**. Fonte certa: [stati_della_materia_e_passaggi_di_stato_v6_20261016.html](https://github.com/rickymusu-bit/fisica/blob/a8e171c7c3dcc220521666a8b5330beb4422999e/stati_della_materia_e_passaggi_di_stato_v6_20261016.html), già importata da Drive. La cronologia conserva l’originale; il vecchio URL pubblico verrà reindirizzato mantenendo query e frammento.
 
@@ -20,7 +34,7 @@ Verifiche e hash: [rapporto strutturale](../revisione-blog-verifiche.json) e [pr
 
 Pubblicazione verificata: [esiti HTTPS e confronto dei file](../sito/revisione-blog-online.json). Homepage, otto dispense e otto reindirizzamenti rispondono HTTP 200 con contenuti identici ai file verificati; esclusioni controllate con HTTP 404. Il browser online dell’ambiente ha incontrato un problema di fiducia del certificato e non viene dichiarato verificato; le prove complete nel browser sono quelle locali sugli stessi file. Verifica TLS mantenuta attiva.
 
-Prossima operazione: nessun intervento pendente per questa revisione. Prima di un nuovo lavoro controllare `main`, master e stato; conservare i risultati approvati e i limiti già segnalati.
+Prossima operazione alla chiusura della revisione precedente: nessun intervento allora pendente per quella revisione. Prima di un nuovo lavoro controllare `main`, master e stato; conservare i risultati approvati e i limiti già segnalati.
 
 ## Ritorno all’indice generale
 
