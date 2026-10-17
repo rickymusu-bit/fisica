@@ -2,7 +2,11 @@
 
 Aggiornamento: 17/10/2026 19:41 (Europe/Rome).
 
-## Revisione corrente — home italiana v6
+## Revisione corrente — home italiana v7
+
+Correzione richiesta: Marco Polo è una piattaforma petrolifera offshore, non una nave. Aggiornati didascalia, testo alternativo e titolo interno nel manifest e nei dati della home. Fotografia, crediti e licenza conservati. Versione dell’output aggiornata a v7. Proposta di navigazione presentata: pannello laterale apribile da “Articoli”, con varianti barra fissa su desktop o elenco a scomparsa; scelta dell’utente ancora in attesa, nessuna modifica alla navigazione eseguita.
+
+## Revisione precedente — home italiana v6
 
 Richiesta aggiornata: «Togli proprio le altre lingue, lascia solo il selettore della lingua in alto a destra con solo l’italiano». Rimossi dal template i collegamenti francese e albanese. La build pubblica esclusivamente la home e i nove articoli italiani, con venti copertine: non genera le home tradotte né copia gli articoli tradotti. I sorgenti delle traduzioni restano conservati nel repository e non vengono pubblicati. Il selettore nativo in alto a destra mantiene la sola voce Italiano. Conservate tutte le modifiche già richieste: rimozione Indice, catalogo al clic, icona e peso effettivo dei download. Master consultato: v52; modifica locale autorizzata secondo B2.
 
