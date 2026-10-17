@@ -67,3 +67,7 @@ M2 ora è la tartaruga di vetro di Murano scelta dall’utente, originale 2121 �
 ## Nuove immagini di Passaggi di stato
 
 C2 (metallo fuso) e A1 (sudore/Michael Jordan) fornite dall’utente, acquisite, ispezionate e registrate con fonte e licenza. Bozza e didascalie aggiornate. [Registro corrente](../passaggi_di_stato/visuali.md). Copertina con CC BY-NC-ND 2.0 da mantenere integra per l’uso non commerciale; credito specifico Jordan registrato. Restano A2–A3 ed E1–E2, con priorità al riuso dei materiali già disponibili. Nessuna modifica al sito.
+
+## Applicazioni aggiornate: pompa di calore e centrale PWR
+
+L’utente elimina il caso e lo schema frigorifero, richiede la sola spiegazione della pompa di calore e fornisce foto A2 e schema nucleare A3. File e originali salvati, fonti/licenze verificate, bozza e domanda 8 aggiornate. A3 trattato come PWR con tre circuiti, non con ebollizione nel reattore. Restano E1–E2; nessun altro visuale applicativo da richiedere. Dettagli nello [stato di Passaggi di stato](../passaggi_di_stato/stato.md).

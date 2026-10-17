@@ -108,17 +108,23 @@ Quando il sudore **evapora dalla pelle**, l'acqua riceve energia dalla pelle e d
 
 Didascalia: Il sudore è visibile sulla pelle di Michael Jordan. Quando evapora, assorbe energia e contribuisce al raffreddamento del corpo.
 
-In un **frigorifero**, il fluido refrigerante evapora nell'evaporatore, a bassa temperatura, assorbendo energia dall'interno. Nel condensatore, posto verso l'ambiente esterno, condensa e cede energia alla stanza. Un compressore, alimentato elettricamente, mantiene le condizioni necessarie al ciclo: il calore non viene trasferito dal freddo al caldo senza un apporto di lavoro. La pompa di calore usa lo stesso principio; nel riscaldamento dell'abitazione interessa soprattutto l'energia ceduta dal refrigerante quando condensa all'interno.
+Una **pompa di calore**, quando riscalda l'abitazione, trasferisce energia dall'ambiente esterno agli ambienti interni. Può farlo anche quando l'aria fuori è fredda: nel suo scambiatore esterno il fluido refrigerante si trova a una temperatura ancora più bassa e può assorbire energia dall'aria. Ricevendo energia, il refrigerante evapora. Il compressore, alimentato elettricamente, ne aumenta poi la pressione e la temperatura, preparando il trasferimento di energia verso l'abitazione.
 
-[IMMAGINE A2 — Schema illustrato del circuito frigorifero, da fornire, con evaporatore, compressore, condensatore e dispositivo di espansione. Evidenziare energia assorbita all'interno, energia ceduta all'esterno e lavoro ricevuto dal compressore. Per la pompa di calore esplicitare nel testo quale ambiente viene riscaldato.]
+Nello scambiatore che cede calore alla casa, il refrigerante condensa e trasferisce energia all'aria interna o all'acqua dell'impianto di riscaldamento. Un dispositivo di espansione ne riduce poi la pressione, permettendogli di tornare ad assorbire energia all'esterno e ripetere il ciclo. I passaggi di stato aiutano così a trasferire energia tra due ambienti. Il processo richiede lavoro: l'energia ceduta alla casa comprende sia quella prelevata all'esterno sia l'apporto elettrico alla macchina.
 
-Didascalia: Il refrigerante assorbe energia evaporando e la cede condensando. Il compressore riceve lavoro elettrico per mantenere il ciclo.
+[IMMAGINE A2 — Foto scelta dell’unità esterna di una pompa di calore: `risorse/pompa-di-calore.webp`; originale conservato in `risorse/originali/pompa-di-calore.webp`. Nessuno schema del frigorifero. Foto integrale, senza modifiche.]
 
-In una **centrale con ciclo acqua-vapore**, l'acqua riceve energia nel generatore di vapore e si trasforma in vapore. Il vapore attraversa una turbina, trasferendole parte della propria energia; successivamente viene raffreddato nel condensatore e torna liquido, cedendo calore. Una pompa rimette in circolo l'acqua. I passaggi di stato consentono di assorbire e cedere molta energia, ma la produzione di lavoro nella turbina richiede l'intero ciclo, non la sola ebollizione.
+Didascalia A2: L'unità esterna scambia energia con l'aria. Durante il riscaldamento della casa, il refrigerante assorbe energia all'esterno evaporando; il ciclo la trasferisce all'abitazione grazie al lavoro del compressore.
 
-[IMMAGINE A3 — Schema illustrato del ciclo acqua-vapore, da fornire, con generatore, turbina, condensatore e pompa.]
+Anche una **centrale nucleare ad acqua pressurizzata**, indicata dalla sigla PWR, utilizza cambiamenti di stato dell'acqua per produrre energia elettrica. Il reattore riscalda l'acqua del **circuito primario**, mantenuta a pressione elevata perché resti liquida. Questa acqua trasferisce energia, attraverso uno scambiatore, all'acqua di un secondo circuito, senza mescolarsi con essa. È nel **circuito secondario** che l'acqua vaporizza: la formazione del vapore non avviene nel reattore di questo tipo di centrale.
 
-Didascalia: Nel generatore l'acqua riceve energia e vaporizza; nel condensatore il vapore cede energia e torna liquido, pronto a essere rimesso in circolo.
+[IMMAGINE A3 — Schema scelto della centrale nucleare PWR: `risorse/centrale-nucleare.png`; originale conservato in `risorse/originali/centrale-nucleare.svg`. Inserimento diretto senza ricostruzione o ritagli. Etichette originali inglesi, interpretate nel testo. Consentire apertura dell'immagine a dimensione maggiore quando sarà integrata nell’HTML.]
+
+Didascalia A3: Il circuito primario trasferisce energia al secondario senza mescolare le due acque. Il secondario produce il vapore diretto alla turbina; nel condensatore il vapore torna liquido cedendo energia al circuito di raffreddamento.
+
+Nel disegno, il **reattore** è indicato con “Reactor”, la **pompa** con “Pump” e lo scambiatore che produce vapore si trova tra il reattore e la turbina. Il vapore raggiunge la **turbina**, “Turbine”, e le trasferisce parte della propria energia. La turbina aziona il **generatore elettrico**, “Generator”: questa etichetta non indica il generatore di vapore. Dopo la turbina, il vapore passa nel **condensatore**, “Condensor”, dove cede energia e torna liquido; una pompa lo rimette in circolo.
+
+Un terzo circuito porta via energia dal condensatore usando acqua di raffreddamento, collegata al bacino indicato come “Reservoir”. I tre circuiti svolgono quindi compiti distinti: trasportare energia dal reattore, far lavorare la turbina e cedere all'ambiente l'energia che non diventa lavoro elettrico. Le temperature e le pressioni operative non sono quelle della curva dell'acqua a pressione atmosferica vista prima. Il principio dei passaggi di stato rimane lo stesso: l'acqua riceve energia quando vaporizza e la cede quando condensa.
 
 ## Esercizi svolti
 
@@ -179,4 +185,4 @@ Per vaporizzare questa quantità d'acqua occorre più energia che per fondere il
 5. Nell'esercizio sulla fusione, 0,50 kg di ghiaccio a 0 °C richiedono 167.000 J. Se la massa raddoppia e le condizioni restano uguali, quale energia prevedi? Verifica usando Lf = 334.000 J/kg e spiega perché non devi raddoppiare la temperatura.
 6. Per vaporizzare 0,20 kg d'acqua già all'ebollizione sono necessari 451.400 J. Se hai a disposizione metà di questa energia, quale massa puoi vaporizzare nelle stesse condizioni? Usa Lv = 2.257.000 J/kg e chiarisci perché la risposta cambierebbe se l'acqua fosse inizialmente fredda.
 7. Il sudore rimane sulla pelle ma evapora con difficoltà in aria molto umida. Prevedi se il raffreddamento dovuto all'evaporazione sarà maggiore o minore rispetto a condizioni che favoriscono l'evaporazione, e spiega il trasferimento di energia coinvolto.
-8. In quale parte del circuito frigorifero il refrigerante assorbe energia dall'interno e in quale la cede all'esterno? Associa i due scambi ai passaggi di stato e indica perché è necessario alimentare il compressore.
+8. Una pompa di calore riscalda la casa mentre fuori l'aria è fredda. Dove il refrigerante evapora e dove condensa? Spiega perché può assorbire energia dall'aria esterna e quale ruolo ha il lavoro del compressore.
