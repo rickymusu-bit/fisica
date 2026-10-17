@@ -29,3 +29,7 @@ Controllati sul testo: confini monografici, ordine delle parti, spiegazioni e co
 Nessun HTML nuovo realizzato e nessuna prova browser dichiarata. La v8 ufficiale, i file di pubblicazione e il sito non sono stati modificati. Materiali originali da conservare; crediti storici da completare con i riferimenti mancanti, senza inventare autori o licenze.
 
 Prossima operazione: presentare schema e candidate GIF, raccogliere scelta e nuovi file fotografici, acquisire e controllare le GIF selezionate, concordare l’eventuale ottimizzazione e confermare il testo adattato ai materiali scelti. Dopo l'approvazione della bozza, presentare la stima aggiornata ripartita e chiedere il via alla realizzazione secondo B1.1–B2; poi impaginare, verificare e salvare l'HTML autonomo `stati_della_materia.html`, con navigazione e compatibilità dei vecchi collegamenti.
+
+## Ricerca affidata all’utente
+
+Ultima indicazione: **«Cerco io»**. La ricerca e la scelta dei materiali visuali sono curate dall’utente; non proseguire autonomamente ricerche di foto o GIF. Attendere i file o i collegamenti scelti, poi controllarne contenuto, licenza e dimensioni prima dell’integrazione. Nessuna candidata GIF già considerata scelta.

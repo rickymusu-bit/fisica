@@ -47,3 +47,7 @@ Aggiornamento: 2026-10-16 19:30 (Europe/Rome). Richiesta diretta dell’utente: 
 ## Nomi stabili
 
 Richiesta esplicita dell’utente: rimuovere versione e data dai nomi, conservandole nei documenti. File rinominati, inclusi gli eventuali materiali francesi e albanesi, con identità verificata e contenuti identici byte per byte; versioni interne invariate. Collegamenti correnti aggiornati; per le dispense italiane i vecchi indirizzi pubblici reindirizzano direttamente ai nomi stabili. [Mappa e hash](../sito/nomi-stabili.json). Nessuna revisione scientifica, immagine o simulazione nuova.
+
+## Approvazione del testo sui passaggi e nuovo schema
+
+L’utente affida a sé la ricerca dei materiali («Cerco io») e approva il testo di Passaggi di stato («va tutto bene»), chiedendo di creare uno schema simile alla mappa con le frecce. Schema P1 realizzato in SVG, con disposizione a triangolo e variante verticale per smartphone, controllato nelle due anteprime. [Registro dello schema](../passaggi_di_stato/risorse/schema-passaggi.md). Bozza aggiornata al nuovo schema; HTML ufficiale e pubblicazione invariati. Prossima operazione: consegnare lo schema e attendere i materiali ancora mancanti prima della realizzazione completa.
