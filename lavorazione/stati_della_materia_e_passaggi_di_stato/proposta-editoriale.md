@@ -1,6 +1,6 @@
 # Revisione editoriale — materia e passaggi di stato
 
-Proposta del 17 ottobre 2026. Master v53. Fase: confini e visuali da concordare; nessuna approvazione nuova attribuita all'utente.
+Proposta del 17 ottobre 2026. Master v53. Aggiornamento: l'utente ha risposto «Approvo» alla proposta di suddivisione e al tema attuale. I file delle nuove visuali restano da fornire; bozze complete scritte e da approvare.
 
 ## Fonte e risultato previsto
 
@@ -96,4 +96,4 @@ Per ridurre la preparazione di nuovi materiali, l'alternativa da concordare è l
 
 Intero lavoro rimanente stimato: 40–70 minuti di lavoro, esclusa l'attesa di immagini, fonti e approvazioni. Impegno di calcolo basso: nessuna nuova simulazione, nessuna generazione di immagini. Ripartizione orientativa: 5–10 minuti per verifica e preparazione dei materiali disponibili; 15–25 per riscrittura e correzioni della bozza; 10–20 per integrazione e impaginazione dei due HTML; 10–15 per controlli e salvataggio. L'alternativa ridotta sopra descritta può risparmiare circa 10–15 minuti e riduce le dipendenze dai nuovi materiali.
 
-Prossimo passaggio: concordare confini e visuali, poi produrre il testo completo con segnaposto da approvare secondo B1.1. Dopo l'approvazione della bozza, aggiornare la stima in base ai materiali effettivi e chiedere il via alla realizzazione HTML secondo B2. Questa proposta non è una dispensa completa e non sostituisce la v8.
+Testi completi ora disponibili: [Stati della materia](../stati_della_materia/bozza.md) e [Passaggi di stato](../passaggi_di_stato/bozza.md). Prossimo passaggio: sottoporre queste bozze con segnaposto all’approvazione secondo B1.1 e raccogliere i nuovi file visuali. Dopo l'approvazione della bozza, aggiornare la stima in base ai materiali effettivi e chiedere il via alla realizzazione HTML secondo B2. Questa proposta non è una dispensa completa e non sostituisce la v8.

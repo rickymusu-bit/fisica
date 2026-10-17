@@ -1,18 +1,20 @@
 # Stato — Stati della materia e passaggi di stato
 
-Ultimo aggiornamento: 2026-10-17 20:29 (Europe/Rome). Master applicato: **v53**, letto integralmente insieme ai due riferimenti di stile.
+Ultimo aggiornamento: 2026-10-17 20:55 (Europe/Rome). Master applicato: **v53**, letto integralmente insieme ai due riferimenti di stile.
 
-Fase corrente: progettazione della suddivisione e delle visuali per la revisione richiesta il 17 ottobre 2026. Ramo dedicato `revisione/materia-passaggi-capitoli`, derivato da `main` al commit `d72296ad77a2ae92342386c7dfeb73cc1b44e736`. HTML ufficiale ancora v8: nessuna nuova versione realizzata, integrata o pubblicata.
+Fase corrente: suddivisione e tema approvati; bozze complete scritte e controllate, da sottoporre all’approvazione per la revisione richiesta il 17 ottobre 2026. Ramo dedicato `revisione/materia-passaggi-capitoli`, derivato da `main` al commit `d72296ad77a2ae92342386c7dfeb73cc1b44e736`. HTML ufficiale ancora v8: nessuna nuova versione realizzata, integrata o pubblicata.
 
 [Proposta editoriale corrente](proposta-editoriale.md): mappa completa dei contenuti verso due capitoli monografici (`stati_della_materia.html` e `passaggi_di_stato.html`), percorso della riscrittura, riuso di tutte le 13 immagini e delle tre animazioni, materiali mancanti, controlli e stima. La corrispondenza è registrata prima dell'esecuzione, come richiesto da A3.
 
-Approvazione effettiva nuova: richiesta di applicare le regole editoriali, spezzare, riformattare, riordinare e rifare il testo; segnalare nuovi visuali. Non risultano ancora approvati confini proposti, nuovi materiali, bozza o via alla realizzazione previsti da B1.1–B2. Riutilizzare il tema della v8 come revisione dello stile già concordato. Nessuna ricerca o generazione di immagini effettuata.
+Approvazione effettiva nuova: richiesta di applicare le regole editoriali, spezzare, riformattare, riordinare e rifare il testo; segnalare nuovi visuali. L’utente ha successivamente risposto **«Approvo»** alla proposta: confermati i due capitoli e il tema della v8. Le nuove immagini non sono ancora state consegnate; le bozze complete non sono ancora state approvate e non è stato dato il via all’HTML previsto da B1.1–B2. Riutilizzare il tema della v8 come revisione dello stile già concordato. Nessuna ricerca o generazione di immagini effettuata.
 
 Verifiche preliminari completate: identità della fonte v8 e blob `8ef5566c73f670dbf23b550e4e36a52cdb7ddfc2`; lettura integrale del documento con parser `huge_tree=True`; 13 immagini, tre animazioni, due tabelle, curva qualitativa e 14 quesiti individuati; due calcoli verificati (167.000 J e 451.400 J). Da correggere il passaggio sulle nuvole, la spiegazione del calore latente e le didascalie; da completare gli schemi degli esercizi e le immagini delle applicazioni. Crediti della fonte incompleti: non attestare licenze verificate.
 
-Punti aperti: scelta delle copertine e delle immagini per le applicazioni, originali adatti agli schemi, riferimenti di licenza mancanti; accordo sulla proposta. Nessuna prova dei futuri HTML è stata eseguita, perché non sono ancora stati realizzati. Checklist pertinente: A1–A6, B1.1–B6, C1–C5, D1–D2.1.
+Punti aperti: file per le copertine e le immagini delle applicazioni, originali adatti agli schemi, riferimenti di licenza mancanti; approvazione delle bozze complete. Nessuna prova dei futuri HTML è stata eseguita, perché non sono ancora stati realizzati. Checklist pertinente: A1–A6, B1.1–B6, C1–C5, D1–D2.1.
 
-Prossima operazione: ottenere le scelte sui confini e visuali, scrivere e sottoporre la bozza completa con segnaposto; dopo l'approvazione della bozza aggiornare la stima e raccogliere il via all'HTML. Non modificare la pubblicazione del sito.
+Bozze correnti: [Stati della materia](../stati_della_materia/bozza.md), con sei domande finali, e [Passaggi di stato](../passaggi_di_stato/bozza.md), con tre applicazioni, due esercizi svolti e otto domande finali. La scrittura completa comprende tutti i nuclei della v8, le formule interpretate, la correzione sulle nuvole e i segnaposto delle immagini. Stati specifici nei rispettivi percorsi di lavorazione.
+
+Prossima operazione: presentare le bozze complete; dopo la loro approvazione aggiornare la stima e raccogliere il via all’HTML. Non modificare la pubblicazione del sito.
 
 ## Revisione precedente consolidata
 

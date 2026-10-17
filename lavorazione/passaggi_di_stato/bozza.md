@@ -1,0 +1,180 @@
+# Passaggi di stato
+
+[COPERTINA C2 — Condensa su una bottiglia fredda, o altra trasformazione riconoscibile concordata. Nuova fotografia da fornire; non riutilizzare la figura interna P5.]
+
+I cubetti lasciati in un bicchiere diventano più piccoli e, al loro posto, compare acqua liquida. Non è comparsa una sostanza nuova: il ghiaccio e il liquido sono entrambi acqua. Eppure il materiale ha perso la capacità di mantenere la forma. Che cosa cambia durante questa trasformazione, e che cosa fa l'energia ricevuta dall'ambiente?
+
+[IMMAGINE P2 — GIF esistente dei cubetti che si sciolgono nel bicchiere.]
+
+Didascalia: I cubetti diminuiscono mentre aumenta l'acqua liquida: la sostanza cambia stato senza cambiare identità chimica.
+
+## Cambiare stato, restare la stessa sostanza
+
+Quando una sostanza passa da solido a liquido, da liquido a gas o compie uno dei passaggi inversi, avviene un **passaggio di stato**. È una trasformazione fisica: cambia l'organizzazione delle particelle, non l'identità chimica della sostanza. Nell'acqua, per esempio, le molecole restano molecole d'acqua sia nel ghiaccio sia nel liquido e nel vapore. A cambiare sono le distanze, i movimenti e le interazioni tra le molecole.
+
+Il passaggio da solido a liquido si chiama **fusione** e richiede energia. Nel ghiaccio che fonde, le molecole abbandonano l'organizzazione rigida del cristallo e possono scorrere le une rispetto alle altre. Nel passaggio inverso, la **solidificazione**, il liquido cede energia e si forma il solido. Non tutti i solidi hanno una struttura cristallina: il vetro, per esempio, si ammorbidisce gradualmente e non presenta la stessa fusione netta di un cristallo puro.
+
+[IMMAGINE P1 — Mappa dei sei passaggi di stato già scelta, conservata come immagine; non ricostruirla autonomamente.]
+
+Didascalia: Ogni coppia di frecce collega due stati attraverso trasformazioni inverse. Fusione, vaporizzazione e sublimazione richiedono energia; nei passaggi inversi la sostanza la cede.
+
+Nella mappa possiamo seguire anche il verso degli scambi energetici. Per passare a uno stato in cui le particelle hanno maggiore libertà di movimento o sono molto più distanti, la sostanza deve ricevere energia. I passaggi inversi liberano energia verso l'ambiente. Dire che una sostanza assorbe calore, però, non significa sempre che la sua temperatura aumenti: durante una trasformazione l'energia può servire proprio al cambiamento di stato.
+
+## Un liquido può diventare gas in due modi
+
+La goccia sulla foglia può ridursi senza che al suo interno compaiano bolle. Dalla superficie alcune molecole riescono a separarsi dal liquido e a passare nell'aria: è l'**evaporazione**. Può avvenire anche a temperature molto inferiori a quella di ebollizione. Le molecole non hanno tutte la stessa energia e alcune riescono a lasciare la superficie mentre le altre restano nel liquido.
+
+[IMMAGINE P3 — GIF esistente della goccia sulla foglia.]
+
+Didascalia: La goccia si riduce senza bollire: l'acqua passa nell'aria attraverso la superficie del liquido.
+
+Se il liquido non riceve abbastanza energia dall'ambiente per compensare quella persa, l'evaporazione tende a raffreddarlo. Le molecole che sfuggono portano via energia e l'energia media di quelle rimaste diminuisce. L'evaporazione non richiede quindi un liquido già caldo, ma uno scambio energetico che permetta alle molecole di separarsi. La rapidità con cui procede dipende anche dalle condizioni dell'aria sopra la superficie.
+
+Nel recipiente con acqua in **ebollizione**, invece, si formano bolle di vapore anche all'interno del liquido. Le bolle possono crescere e risalire quando la pressione del vapore al loro interno riesce a bilanciare quella che le circonda. Per questo la temperatura di ebollizione dipende dalla pressione esterna: per l'acqua è circa 100 °C alla pressione atmosferica ordinaria, ma diminuisce se la pressione si riduce. Le bolle dell'ebollizione sono principalmente vapore d'acqua, non molecole d'acqua scomposte in idrogeno e ossigeno.
+
+[IMMAGINE P4 — GIF esistente dell'acqua in ebollizione.]
+
+Didascalia: Le bolle di vapore si formano nel liquido e risalgono. L'ebollizione coinvolge anche l'interno del liquido, mentre l'evaporazione avviene alla superficie.
+
+| Caratteristica | Evaporazione | Ebollizione |
+| --- | --- | --- |
+| Dove avviene | Alla superficie | Anche all'interno del liquido |
+| Temperatura | Può avvenire anche sotto la temperatura di ebollizione | Alla temperatura di ebollizione corrispondente alla pressione considerata |
+| Bolle di vapore nel liquido | Non sono necessarie | Si formano e crescono |
+| Scambio energetico | Assorbe energia; può raffreddare il liquido rimasto | Richiede energia per trasformare il liquido in vapore |
+
+## Dal gas alle gocce o al ghiaccio
+
+Sul vetro freddo si possono formare gocce anche se nessuno lo ha bagnato. Nell'aria è presente vapore acqueo, che non vediamo; vicino alla superficie fredda può raffreddarsi abbastanza da passare allo stato liquido. Questo processo si chiama **condensazione** e comporta una cessione di energia all'ambiente. Le gocce visibili sono acqua liquida: non sono vapore diventato visibile.
+
+[IMMAGINE P5 — Fotografia esistente della condensa sul vetro.]
+
+Didascalia: Sul vetro si raccolgono goccioline liquide formate dal vapore acqueo presente nell'aria.
+
+Anche nelle nuvole la parte visibile non è il vapore acqueo. Una nuvola contiene minuscole gocce d'acqua e, secondo le condizioni, cristalli di ghiaccio sospesi nell'aria. Le goccioline si formano per condensazione; i cristalli possono formarsi congelando goccioline oppure direttamente dal vapore. Quest'ultimo processo non è condensazione in liquido: è un passaggio diretto allo stato solido.
+
+[IMMAGINE P6 — Fotografia esistente delle nuvole.]
+
+Didascalia: Le goccioline e gli eventuali cristalli diffondono la luce e rendono visibile la nuvola. Il vapore acqueo presente nell'aria resta invisibile.
+
+Non tutti i passaggi coinvolgono lo stato liquido. L'anidride carbonica solida, chiamata **ghiaccio secco**, alla pressione atmosferica passa direttamente da solido a gas: è la **sublimazione**, che richiede energia. Nella fotografia, però, la nube bianca non è anidride carbonica gassosa resa visibile. Il forte raffreddamento favorisce la formazione di minuscole goccioline d'acqua nell'aria, che rendono visibile la nube.
+
+[IMMAGINE P7 — Fotografia esistente del ghiaccio secco in acqua.]
+
+Didascalia: Il ghiaccio secco sublima; la nube bianca è costituita soprattutto da minuscole goccioline d'acqua formate nell'aria raffreddata.
+
+Il passaggio diretto inverso, da gas a solido, si chiama **brinamento**. Sulle foglie sufficientemente fredde il vapore acqueo può depositarsi come ghiaccio senza diventare prima acqua liquida. La sostanza cede energia mentre si formano i cristalli. È diverso dal congelamento di gocce già presenti sulla superficie, che sarebbe una solidificazione.
+
+[IMMAGINE P8 — Fotografia esistente delle foglie ricoperte di brina.]
+
+Didascalia: I cristalli di brina si formano quando il vapore acqueo si deposita direttamente come ghiaccio sulla superficie fredda.
+
+## Energia senza aumento di temperatura
+
+Se continuiamo a fornire energia a del ghiaccio puro che sta fondendo, la temperatura della miscela di acqua e ghiaccio può restare a circa 0 °C finché la fusione non è terminata. In questo caso la pressione resta quella atmosferica ordinaria e trascuriamo le dispersioni. L'energia ricevuta serve alla trasformazione: non produce l'aumento di temperatura che osserveremmo riscaldando soltanto acqua liquida. La temperatura costante, quindi, non indica che lo scambio di energia si sia fermato.
+
+[GRAFICO P9 — Adattare la curva qualitativa dell'acqua esistente. Asse orizzontale: energia fornita, in J; asse verticale: temperatura, in °C. Indicare pressione atmosferica ordinaria; cinque tratti: riscaldamento del ghiaccio, fusione a 0 °C, riscaldamento dell'acqua, ebollizione a 100 °C, riscaldamento del vapore. Non attribuire valori numerici ai tratti orizzontali dell'asse dell'energia né presentare il disegno come una misura sperimentale.]
+
+Didascalia: Nei tratti inclinati l'energia fornita aumenta la temperatura; nei tratti orizzontali sostiene il cambiamento di stato. Il grafico mostra l'andamento qualitativo, non è in scala e non rappresenta dati sperimentali.
+
+La curva mette in fila questi comportamenti. Prima il ghiaccio si riscalda; durante la fusione compare una sosta termica, cioè un tratto a temperatura costante. Finita la fusione, la temperatura dell'acqua liquida riprende a salire. All'ebollizione compare una seconda sosta; una volta trasformata tutta l'acqua in vapore, un ulteriore apporto di energia può riscaldare il vapore. Queste soste descrivono il passaggio di una sostanza pura nelle condizioni di pressione indicate, non l'evaporazione da una superficie a qualunque temperatura.
+
+Quanta energia serve per trasformare una certa massa di sostanza? La **relazione del calore latente** permette di calcolarla:
+
+\[
+Q=m\cdot L
+\]
+
+Qui **Q** è la quantità di energia assorbita durante la trasformazione e si misura in joule, **J**. La massa **m** si esprime in kilogrammi, **kg**. Il **calore latente specifico L**, misurato in **J/kg**, indica quanta energia occorre per trasformare un kilogrammo di sostanza, alle condizioni considerate. Il termine «latente» richiama proprio il fatto che quell'energia viene scambiata senza manifestarsi come un aumento di temperatura durante la trasformazione descritta.
+
+La formula esprime una proporzionalità diretta: a parità di sostanza e di trasformazione, una massa doppia richiede energia doppia. Non è necessario raggiungere una temperatura più alta per fondere più ghiaccio; serve trasferire più energia alla stessa temperatura di fusione. Anche L conta: se il suo valore è maggiore, occorre più energia per trasformare la stessa massa. Nei passaggi inversi, come solidificazione e condensazione, la sostanza cede la corrispondente quantità di energia; qui Q indica la quantità scambiata, mentre il testo ne specifica il verso.
+
+[TABELLA P12 — Valori per l'acqua, associati alle condizioni del grafico.]
+
+| Trasformazione dell'acqua | Calore latente specifico approssimato | Condizioni |
+| --- | --- | --- |
+| Fusione | Lf = 334.000 J/kg, cioè 334 kJ/kg | Circa 0 °C, pressione atmosferica ordinaria |
+| Vaporizzazione | Lv = 2.257.000 J/kg, cioè 2.257 kJ/kg | Circa 100 °C, pressione atmosferica ordinaria |
+
+Il valore per la vaporizzazione è molto maggiore di quello per la fusione: separare le molecole fino allo stato gassoso richiede più energia che renderle libere di scorrere nel liquido. I valori dipendono dalla sostanza e dalle condizioni. In particolare, il valore della tabella vicino a 100 °C non va applicato automaticamente all'evaporazione dell'acqua dalla pelle, che avviene a una temperatura diversa.
+
+## Applicazioni
+
+Quando il sudore **evapora dalla pelle**, l'acqua riceve energia dalla pelle e dall'ambiente circostante per passare allo stato gassoso. L'energia sottratta alla pelle contribuisce al raffreddamento del corpo. Non basta dunque che il sudore sia presente: conta che evapori. Se l'aria è molto umida, l'evaporazione è ostacolata e questo meccanismo diventa meno efficace.
+
+[IMMAGINE A1 — Pelle con gocce di sudore, da fornire. Accanto al paragrafo, senza aggiungere valori numerici non concordati.]
+
+Didascalia: Evaporando, l'acqua sulla pelle assorbe energia e contribuisce al raffreddamento del corpo.
+
+In un **frigorifero**, il fluido refrigerante evapora nell'evaporatore, a bassa temperatura, assorbendo energia dall'interno. Nel condensatore, posto verso l'ambiente esterno, condensa e cede energia alla stanza. Un compressore, alimentato elettricamente, mantiene le condizioni necessarie al ciclo: il calore non viene trasferito dal freddo al caldo senza un apporto di lavoro. La pompa di calore usa lo stesso principio; nel riscaldamento dell'abitazione interessa soprattutto l'energia ceduta dal refrigerante quando condensa all'interno.
+
+[IMMAGINE A2 — Schema illustrato del circuito frigorifero, da fornire, con evaporatore, compressore, condensatore e dispositivo di espansione. Evidenziare energia assorbita all'interno, energia ceduta all'esterno e lavoro ricevuto dal compressore. Per la pompa di calore esplicitare nel testo quale ambiente viene riscaldato.]
+
+Didascalia: Il refrigerante assorbe energia evaporando e la cede condensando. Il compressore riceve lavoro elettrico per mantenere il ciclo.
+
+In una **centrale con ciclo acqua-vapore**, l'acqua riceve energia nel generatore di vapore e si trasforma in vapore. Il vapore attraversa una turbina, trasferendole parte della propria energia; successivamente viene raffreddato nel condensatore e torna liquido, cedendo calore. Una pompa rimette in circolo l'acqua. I passaggi di stato consentono di assorbire e cedere molta energia, ma la produzione di lavoro nella turbina richiede l'intero ciclo, non la sola ebollizione.
+
+[IMMAGINE A3 — Schema illustrato del ciclo acqua-vapore, da fornire, con generatore, turbina, condensatore e pompa.]
+
+Didascalia: Nel generatore l'acqua riceve energia e vaporizza; nel condensatore il vapore cede energia e torna liquido, pronto a essere rimesso in circolo.
+
+## Esercizi svolti
+
+### Fondere il ghiaccio
+
+Vogliamo fondere completamente **0,50 kg di ghiaccio già a 0 °C**, alla pressione atmosferica ordinaria. Quanta energia deve ricevere? Consideriamo solo la fusione: il ghiaccio non deve essere prima riscaldato e trascuriamo l'energia assorbita dal recipiente e le dispersioni verso l'ambiente.
+
+[SCHEMA E1 — Ghiaccio in un recipiente con fondo trasparente, da fornire oppure ricavabile da una risorsa esistente solo se idonea. Prima del calcolo: m = 0,50 kg; temperatura iniziale 0 °C; freccia di energia entrante Q; stato finale acqua liquida a 0 °C. Nessuna sorgente di calore specifica inventata.]
+
+Didascalia: L'energia ricevuta trasforma il ghiaccio a 0 °C in acqua alla stessa temperatura, senza un riscaldamento preliminare.
+
+Per ogni kilogrammo servono circa 334.000 J. La massa considerata è mezzo kilogrammo, quindi ci aspettiamo metà di quell'energia. Usiamo la relazione con il calore latente di fusione Lf:
+
+\[
+Q=m\cdot L_f
+\]
+
+\[
+Q=0{,}50\,\mathrm{kg}\cdot334\,000\,\mathrm{J/kg}
+\]
+
+\[
+Q=167\,000\,\mathrm{J}=167\,\mathrm{kJ}
+\]
+
+Il risultato è coerente con la previsione: metà massa richiede metà energia. Questa energia serve alla trasformazione completa in acqua liquida a 0 °C. Per aumentare poi la temperatura dell'acqua occorrerebbe un ulteriore apporto di energia.
+
+### Vaporizzare l'acqua
+
+Ora vogliamo trasformare completamente in vapore **0,20 kg di acqua già alla temperatura di ebollizione**, circa 100 °C alla pressione atmosferica ordinaria. Anche qui consideriamo soltanto il cambiamento di stato, senza dispersioni né energia destinata al recipiente. Non dobbiamo includere il riscaldamento da una temperatura iniziale più bassa.
+
+[SCHEMA E2 — Acqua in un recipiente con fondo trasparente, da fornire oppure ricavabile da una risorsa esistente solo se idonea. Prima del calcolo: m = 0,20 kg; temperatura iniziale circa 100 °C; pressione atmosferica ordinaria; freccia di energia entrante Q; uscita di vapore alla stessa temperatura.]
+
+Didascalia: L'acqua è già all'ebollizione: l'energia considerata serve a trasformarla in vapore, non a portarla a 100 °C.
+
+La massa è un quinto di kilogrammo, ma il calore latente di vaporizzazione Lv è molto maggiore di quello di fusione. Una massa minore può quindi richiedere più energia se cambia il tipo di trasformazione. Il calcolo è:
+
+\[
+Q=m\cdot L_v
+\]
+
+\[
+Q=0{,}20\,\mathrm{kg}\cdot2\,257\,000\,\mathrm{J/kg}
+\]
+
+\[
+Q=451\,400\,\mathrm{J}=451{,}4\,\mathrm{kJ}
+\]
+
+Per vaporizzare questa quantità d'acqua occorre più energia che per fondere il mezzo kilogrammo di ghiaccio dell'esercizio precedente. Il confronto mostra perché la massa, da sola, non basta a stabilire l'energia necessaria: bisogna considerare anche il calore latente specifico e le condizioni della trasformazione.
+
+## Domande di verifica
+
+1. Il ghiaccio fonde e diventa acqua liquida. **Vero o falso?** «Si è formata una sostanza chimica diversa». Motiva indicando che cosa cambia e che cosa resta uguale.
+2. Segui nella mappa il percorso da solido a liquido e poi da liquido a gas. Dai il nome ai due passaggi e indica se la sostanza assorbe o cede energia. Ripeti il ragionamento seguendo le frecce inverse e quelle tra solido e gas.
+3. Una goccia si riduce senza formare bolle; in un altro recipiente compaiono bolle di vapore in tutto il liquido. Quale fenomeno riconosci in ciascun caso? Confronta dove avvengono e il ruolo della temperatura e della pressione.
+4. Una nuvola visibile è formata **A)** soltanto da vapore acqueo; **B)** da goccioline e, secondo le condizioni, cristalli di ghiaccio. Scegli e spiega perché il vapore non coincide con la parte bianca visibile. Quale passaggio forma direttamente ghiaccio dal vapore?
+5. Nell'esercizio sulla fusione, 0,50 kg di ghiaccio a 0 °C richiedono 167.000 J. Se la massa raddoppia e le condizioni restano uguali, quale energia prevedi? Verifica usando Lf = 334.000 J/kg e spiega perché non devi raddoppiare la temperatura.
+6. Per vaporizzare 0,20 kg d'acqua già all'ebollizione sono necessari 451.400 J. Se hai a disposizione metà di questa energia, quale massa puoi vaporizzare nelle stesse condizioni? Usa Lv = 2.257.000 J/kg e chiarisci perché la risposta cambierebbe se l'acqua fosse inizialmente fredda.
+7. Il sudore rimane sulla pelle ma evapora con difficoltà in aria molto umida. Prevedi se il raffreddamento dovuto all'evaporazione sarà maggiore o minore rispetto a condizioni che favoriscono l'evaporazione, e spiega il trasferimento di energia coinvolto.
+8. In quale parte del circuito frigorifero il refrigerante assorbe energia dall'interno e in quale la cede all'esterno? Associa i due scambi ai passaggi di stato e indica perché è necessario alimentare il compressore.
