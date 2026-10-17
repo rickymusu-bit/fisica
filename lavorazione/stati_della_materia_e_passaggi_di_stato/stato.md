@@ -55,3 +55,7 @@ L’utente affida a sé la ricerca dei materiali («Cerco io») e approva il tes
 ## Materiali di Stati della materia ricevuti
 
 Otto materiali scelti tramite collegamenti Wikimedia acquisiti e conservati insieme agli originali. [Registro visuali aggiornato](../stati_della_materia/visuali.md). Bozza adattata a ghiaccio in mare, bismuto, vetro, struttura policristallina, viscosità, olio, dirigibile e scarica nell’argon. Il limite di download precedente è risolto per questi file. Il vetro ha originale di 172 × 339 px; restano da fornire le tre GIF del moto particellare. Nessuna modifica all’HTML ufficiale o alla pubblicazione.
+
+## Decisione corrente sulle simulazioni microscopiche
+
+Ultima istruzione dell’utente: **«Mantieni le simulazioni degli stati microscopici»**. Bozza e registro di Stati della materia aggiornati per conservare i tre modelli originali (solido, liquido, gas). La GIF della viscosità resta distinta. La richiesta delle tre GIF sostitutive è superata: per Stati della materia tutti i visuali necessari sono disponibili. Stato corrente nel [file del capitolo](../stati_della_materia/stato.md); nessuna modifica al codice delle simulazioni o all’HTML ufficiale.

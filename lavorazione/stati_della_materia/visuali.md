@@ -15,7 +15,7 @@ L’utente ha fornito otto collegamenti Wikimedia come scelta esplicita dei mate
 | M4 | [Dirigibile MZ-3A](https://commons.wikimedia.org/wiki/File:MZ-3A_blimp_at_NAS_Patuxent_River_in_May_2014.JPG) | [dirigibile.jpg](risorse/dirigibile.jpg) | U.S. Navy photo by John F. Williams; Public domain |
 | M5 | [Scarica nell’argon](https://commons.wikimedia.org/wiki/File:Argon-glow.jpg) | [plasma-argon.jpg](risorse/plasma-argon.jpg) | Jurii; CC BY 3.0 |
 
-Gli otto file scelti sono stati acquisiti e ispezionati. Gli originali sorgente sono conservati separatamente in `risorse/originali/`; le anteprime a 960 px sono quelle indicate dall’utente e non sono state ricomprese. Per la viscosità è stato acquisito l’originale GIF per conservare il movimento. Peso totale dei file scelti: **4,601,347 byte**; incorporati in base64 circa **6,135,140 byte**, prima del testo e delle tre GIF del moto delle particelle. Gli originali ad alta risoluzione non vanno incorporati automaticamente nell’HTML.
+Gli otto file scelti sono stati acquisiti e ispezionati. Gli originali sorgente sono conservati separatamente in `risorse/originali/`; le anteprime a 960 px sono quelle indicate dall’utente e non sono state ricomprese. Per la viscosità è stato acquisito l’originale GIF per conservare il movimento. Peso totale dei file scelti: **4,601,347 byte**; incorporati in base64 circa **6,135,140 byte**, prima del testo e del codice delle tre simulazioni microscopiche riutilizzate. Gli originali ad alta risoluzione non vanno incorporati automaticamente nell’HTML.
 
 ## Controlli e integrazione testuale
 
@@ -30,12 +30,20 @@ Gli otto file scelti sono stati acquisiti e ispezionati. Gli originali sorgente 
 
 Le fonti/licenze sono state controllate sulle schede Commons e nei relativi metadati, non sulla sola licenza generale del sito. In fase HTML, collocare le attribuzioni richieste nei crediti collassabili e non nelle didascalie. Nessun credito incompleto va inventato.
 
-## Materiali ancora mancanti per questo capitolo
+## Simulazioni microscopiche conservate
 
-Restano da scegliere e fornire le **tre GIF del moto delle particelle** (M6 solido, M7 liquido, M8 gas). La GIF della viscosità M11 svolge una funzione diversa e non le sostituisce. L’utente ha detto «Cerco io»: non proseguire autonomamente ricerche o scegliere le candidate storiche come se fossero approvate.
+Ultima richiesta esplicita: **«Mantieni le simulazioni degli stati microscopici»**. Conservare le tre animazioni locali della v8, con modello e comportamento esistenti:
 
-Il precedente errore HTTP 403 è superato per gli otto materiali qui acquisiti. Non dedurre da questo che le candidate GIF del moto siano state scaricate o scelte. Valutare il peso complessivo soltanto quando si conoscono i tre file effettivi; nessuna ottimizzazione è autorizzata implicitamente.
+| ID | Stato | Canvas della fonte |
+| --- | --- | --- |
+| M6 | Solido | `solidMotion`, 280 × 240 |
+| M7 | Liquido | `liquidMotion`, 280 × 240 |
+| M8 | Gas | `gasMotion`, 280 × 240 |
+
+I tre canvas condividono lo script esistente, SHA-256 `8d2718622f3eb953ed226eb9ae63e079d5567a6f1a1c90d1fef67c2463e34a6c`. Mantenere gli identificativi e le dipendenze quando saranno collocati vicino ai rispettivi paragrafi. Nessuna nuova simulazione richiesta o programmata. La GIF M11 della viscosità resta distinta e si conserva.
+
+La richiesta supera la precedente ricerca di GIF sostitutive: **non servono più le tre GIF del moto delle particelle**. Non ricercarle e non trattare le vecchie candidate come materiali da integrare. Per questo capitolo non restano nuovi file visuali da richiedere; permane il limite di risoluzione già segnalato per il vetro.
 
 ## Prossimo passaggio
 
-Presentare il testo adattato ai materiali scelti e segnalare la risoluzione del vetro; attendere le tre GIF del modello particellare. La bozza resta distinta dall’HTML definitivo. Non modificare il sito o la pubblicazione.
+La bozza ora riflette foto e schema scelti, GIF della viscosità e simulazioni microscopiche originali. Dopo la conferma del testo adattato, aggiornare la stima e raccogliere il via alla realizzazione HTML secondo B1.1–B2. Provare le animazioni nel nuovo impaginato quando sarà realizzato; nessuna prova browser nuova dichiarata in questo aggiornamento di lavorazione. Non modificare sito o pubblicazione.

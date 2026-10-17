@@ -48,7 +48,7 @@ Apertura: i cubetti si sciolgono nel bicchiere, pur restando acqua. Domanda cent
 
 ## Visuali: aggiornamento per Stati della materia
 
-La richiesta successiva supera il riuso di M1–M8: tutte foto nuove, GIF da scegliere e schema M10 aggiunto. Riferimento corrente: [registro visuali](../stati_della_materia/visuali.md). La tabella seguente conserva la mappa delle risorse iniziali; per Passaggi di stato il piano resta valido.
+La richiesta successiva supera il riuso di M1–M8: tutte foto nuove e schema M10 scelto dall’utente; le tre simulazioni microscopiche M6–M8 vengono conservate per sua ultima istruzione. Riferimento corrente: [registro visuali](../stati_della_materia/visuali.md). La tabella seguente conserva la mappa delle risorse iniziali; per Passaggi di stato il piano resta valido.
 
 ### Risorse della proposta iniziale
 

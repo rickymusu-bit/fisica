@@ -10,7 +10,7 @@ La differenza si comprende guardando oltre ciò che vediamo a occhio nudo. La ma
 
 Un solido conserva generalmente una forma e un volume propri. Le sue particelle sono vicine e le interazioni tra loro ne limitano gli spostamenti: ciascuna oscilla attorno a una posizione di equilibrio. Il materiale può quindi restare fermo sul tavolo mentre, al suo interno, le particelle continuano a muoversi. **Solido non significa particelle immobili.**
 
-[GIF M6 — Sostituire la simulazione del solido con una GIF originale da scegliere: candidata S1 nel registro visuali.]
+[SIMULAZIONE M6 — Conservare l’animazione microscopica del solido della v8: canvas `solidMotion`, 280 × 240. Riutilizzare il modello e il codice esistenti, vicino alla spiegazione.]
 
 Didascalia: Le particelle oscillano attorno a posizioni di equilibrio senza spostarsi liberamente attraverso il solido. Il modello è qualitativo e non è in scala.
 
@@ -32,7 +32,7 @@ Didascalia M10: Da sinistra: cristallino con un unico orientamento, policristall
 
 In un liquido le particelle restano vicine, ma possono cambiare posizione e scorrere le une rispetto alle altre. Il liquido si deforma e prende la forma della parte di recipiente che occupa, senza per questo distribuirsi in tutto lo spazio disponibile. Una stessa quantità d'acqua, a temperatura invariata, mantiene pressoché lo stesso volume passando da un recipiente a un altro. Cambia la forma, non la quantità di spazio occupata dal liquido.
 
-[GIF M7 — Sostituire la simulazione del liquido con una GIF originale da scegliere: candidata L1 nel registro visuali.]
+[SIMULAZIONE M7 — Conservare l’animazione microscopica del liquido della v8: canvas `liquidMotion`, 280 × 240. Riutilizzare il modello e il codice esistenti.]
 
 Didascalia: Le particelle rimangono vicine mentre cambiano posizione: il liquido può scorrere e adattarsi al recipiente.
 
@@ -44,7 +44,7 @@ Didascalia: L'olio scorre formando un getto. La viscosità descrive la resistenz
 
 Nell'animazione, due liquidi simulati mostrano una diversa resistenza alla deformazione e allo scorrimento. Quello a sinistra si distribuisce rapidamente e produce spruzzi; quello a destra scorre più lentamente e mantiene più a lungo una forma compatta. Il confronto illustra qualitativamente che cosa significa avere una viscosità maggiore. Non occorre che un liquido sia fermo per essere viscoso: anche il liquido a destra continua a scorrere.
 
-[GIF M11 — Animazione scelta sulla viscosità: `risorse/viscosita.gif`, originale animato con 63 fotogrammi; non sostituisce le GIF M6–M8 del modello particellare.]
+[GIF M11 — Animazione scelta sulla viscosità: `risorse/viscosita.gif`, originale animato con 63 fotogrammi; affianca le simulazioni M6–M8 del modello particellare.]
 
 Didascalia M11: Nell'animazione illustrativa, il liquido a sinistra ha viscosità minore e quello a destra maggiore. Osserva la diversa rapidità con cui si deformano e si distribuiscono.
 
@@ -60,7 +60,7 @@ Didascalia: L'involucro del dirigibile delimita i volumi occupati dal gas. Le pa
 
 La distanza tra le particelle aiuta anche a capire perché un gas si comprime molto più di un liquido. Riducendo il volume, possiamo avvicinare particelle che inizialmente erano lontane tra loro. Nei liquidi e nei solidi le particelle sono già molto vicine: comprimerli richiede pressioni molto maggiori per ottenere una variazione di volume confrontabile. Nel modello, quindi, comprimere il gas significa soprattutto ridurre le distanze tra le particelle, non rimpicciolire le particelle stesse.
 
-[GIF M8 — Sostituire la simulazione del gas con una GIF originale da scegliere tra G1 e G2. Adattare la didascalia al modello scelto.]
+[SIMULAZIONE M8 — Conservare l’animazione microscopica del gas della v8: canvas `gasMotion`, 280 × 240. Riutilizzare il modello e il codice esistenti.]
 
 Didascalia: Le particelle del gas percorrono lo spazio disponibile muovendosi in modo disordinato. Distanze, dimensioni e velocità del modello non sono in scala.
 
@@ -85,5 +85,5 @@ Didascalia: Una scarica elettrica rende luminoso l'argon nel tubo. Il plasma con
 2. **Vero o falso?** «Tutti i solidi hanno particelle disposte in un ordine che si ripete regolarmente nello spazio». Motiva confrontando il bismuto con il vetro e indica un altro solido cristallino.
 3. Acqua e un olio comune sono alla stessa temperatura. L'olio scorre più lentamente, ma ha meno massa dell'acqua a parità di volume. Quale proprietà spiega ciascuna osservazione? Questi dati permettono di concludere che un liquido più denso sia sempre più viscoso?
 4. Una siringa chiusa contiene aria. Spingendo lo stantuffo il volume diminuisce: **A)** si rimpiccioliscono soprattutto le particelle; **B)** diminuiscono soprattutto le distanze tra le particelle. Scegli e motiva. Che cosa cambierebbe se la siringa fosse piena d'acqua?
-5. Confronta le tre GIF. In quale le particelle restano attorno alle stesse posizioni? In quale cambiano posizione pur rimanendo vicine? Collega le osservazioni alla forma e al volume dei materiali.
+5. Confronta le tre simulazioni microscopiche. In quale le particelle restano attorno alle stesse posizioni? In quale cambiano posizione pur rimanendo vicine? Collega le osservazioni alla forma e al volume dei materiali.
 6. Perché il plasma non si descrive come un gas formato soltanto da particelle neutre? Collega la risposta alla scarica nell’argon e indica un'applicazione tecnologica citata nel testo.
