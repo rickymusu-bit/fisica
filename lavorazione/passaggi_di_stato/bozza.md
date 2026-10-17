@@ -154,27 +154,27 @@ La sigla **MJ** indica i megajoule: un megajoule corrisponde a un milione di jou
 
 ### Vaporizzare l'acqua
 
-Ora vogliamo trasformare completamente in vapore **0,20 kg di acqua già alla temperatura di ebollizione**, circa 100 °C alla pressione atmosferica ordinaria. Anche qui consideriamo soltanto il cambiamento di stato, senza dispersioni né energia destinata al recipiente. Non dobbiamo includere il riscaldamento da una temperatura iniziale più bassa. Massa e temperatura sono dati del problema, non misure ricavate dalla fotografia.
+Consideriamo ora **gli stessi 500 kg d'acqua ottenuti dalla fusione della scultura**, già portati alla temperatura di ebollizione: circa **100 °C** alla pressione atmosferica ordinaria. Quanta energia serve per trasformare tutta quest'acqua in vapore? Calcoliamo soltanto l'energia della vaporizzazione, senza includere quella usata per riscaldare l'acqua da 0 °C a 100 °C e trascurando le dispersioni. Nel modello immaginiamo un recipiente di capacità adeguata; la fotografia illustra il fenomeno dell'ebollizione.
 
-[SCHEMA E2 — `risorse/schema-vaporizzazione.svg`, con la foto scelta `risorse/acqua-ebollizione.jpg` integrale e sfondo conservato. Dati dell’esercizio: m = 0,20 kg, temperatura iniziale circa 100 °C, pressione atmosferica ordinaria; Q entrante; stato finale vapore alla stessa temperatura. Dati e frecce fuori dalla foto.]
+[SCHEMA E2 — `risorse/schema-vaporizzazione.svg`, con la foto scelta `risorse/acqua-ebollizione.jpg` integrale e sfondo conservato. Dati dell’esercizio: stessa massa della scultura, m = 500 kg, temperatura iniziale circa 100 °C, pressione atmosferica ordinaria; Q entrante; stato finale vapore alla stessa temperatura. La foto illustra il fenomeno; dati e frecce fuori dalla foto.]
 
-Didascalia: L'acqua è già all'ebollizione: l'energia considerata serve a trasformarla in vapore, non a portarla a 100 °C.
+Didascalia E2: Consideriamo i 500 kg d'acqua già a circa 100 °C. L'energia calcolata serve soltanto a vaporizzarli; la fotografia illustra l'ebollizione.
 
-La massa è un quinto di kilogrammo e per ogni kilogrammo occorrono circa 2.257.000 J. Il calore latente di vaporizzazione Lv è maggiore di quello di fusione, ma qui la massa è molto più piccola di quella della scultura. Calcoliamo il prodotto delle due grandezze:
+Per vaporizzare ogni kilogrammo, alle condizioni indicate, servono circa 2.257.000 J. Moltiplichiamo questo valore del calore latente di vaporizzazione Lv per la massa totale:
 
 \[
 Q=m\cdot L_v
 \]
 
 \[
-Q=0{,}20\,\mathrm{kg}\cdot2\,257\,000\,\mathrm{J/kg}
+Q=500\,\mathrm{kg}\cdot2\,257\,000\,\mathrm{J/kg}
 \]
 
 \[
-Q=451\,400\,\mathrm{J}=451{,}4\,\mathrm{kJ}
+Q=1\,128\,500\,000\,\mathrm{J}=1128{,}5\,\mathrm{MJ}
 \]
 
-I 451,4 kJ necessari sono molto meno dei 167 MJ richiesti dalla scultura: in questo caso la massa d'acqua considerata è molto più piccola. Il confronto mostra che l'energia dipende dal prodotto tra massa e calore latente specifico. Per confrontare l'energia richiesta per due trasformazioni bisogna tenere conto di entrambe le grandezze e delle condizioni del processo.
+Per vaporizzare completamente l'acqua servono quindi **1128,5 MJ**. Durante la trasformazione la temperatura resta circa 100 °C, mentre diminuisce la quantità di acqua liquida e aumenta quella di vapore. Il risultato riguarda soltanto il passaggio di stato: il riscaldamento preliminare è già avvenuto.
 
 ## Domande di verifica
 
@@ -183,6 +183,6 @@ I 451,4 kJ necessari sono molto meno dei 167 MJ richiesti dalla scultura: in que
 3. Una goccia si riduce senza formare bolle; in un altro recipiente compaiono bolle di vapore in tutto il liquido. Quale fenomeno riconosci in ciascun caso? Confronta dove avvengono e il ruolo della temperatura e della pressione.
 4. Una nuvola visibile è formata **A)** soltanto da vapore acqueo; **B)** da goccioline e, secondo le condizioni, cristalli di ghiaccio. Scegli e spiega perché il vapore non coincide con la parte bianca visibile. Quale passaggio forma direttamente ghiaccio dal vapore?
 5. Nell'esercizio sulla fusione, la scultura ipotizzata di 500 kg a 0 °C richiede 167 MJ. Se la massa raddoppia e le condizioni restano uguali, quale energia prevedi? Verifica usando Lf = 334.000 J/kg e spiega perché non devi raddoppiare la temperatura.
-6. Per vaporizzare 0,20 kg d'acqua già all'ebollizione sono necessari 451.400 J. Se hai a disposizione metà di questa energia, quale massa puoi vaporizzare nelle stesse condizioni? Usa Lv = 2.257.000 J/kg e chiarisci perché la risposta cambierebbe se l'acqua fosse inizialmente fredda.
+6. Quanta energia serve per vaporizzare gli stessi 500 kg d'acqua ottenuti dalla fusione della scultura, se sono già alla temperatura di ebollizione alla pressione atmosferica ordinaria? Usa Lv = 2.257.000 J/kg e indica quale parte del processo stai considerando.
 7. Il sudore rimane sulla pelle ma evapora con difficoltà in aria molto umida. Prevedi se il raffreddamento dovuto all'evaporazione sarà maggiore o minore rispetto a condizioni che favoriscono l'evaporazione, e spiega il trasferimento di energia coinvolto.
 8. Una pompa di calore riscalda la casa mentre fuori l'aria è fredda. Dove il refrigerante evapora e dove condensa? Spiega perché può assorbire energia dall'aria esterna e quale ruolo ha il lavoro del compressore.

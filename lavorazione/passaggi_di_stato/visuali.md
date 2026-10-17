@@ -34,11 +34,11 @@ P1: [schema dei passaggi](risorse/schema-passaggi.md), triangolo e variante vert
 L’utente fornisce le foto E1 ed E2 e richiede **«Tieni il background per entrambe»**. Questa istruzione esplicita prevale sulla regola generale del fondo trasparente per gli esercizi: nessuna rimozione dello sfondo o nuovo consenso da chiedere. Le foto restano integrali, con dati e frecce in uno spazio separato, senza alterare la scena.
 
 - [Schema E1: fusione](risorse/schema-fusione.svg). Dopo la correzione «cambia i numeri per adattarli alla statua», l’esercizio considera una **scultura intera ipotizzata di 500 kg**, già a 0 °C. Non una porzione da 0,50 kg e non una massa dichiarata come misurata sulla scultura fotografata. Risultato 167.000.000 J = 167 MJ; temperatura finale dell’acqua 0 °C. Conservare il credito della foto di Frankie Fouganthin, CC BY-SA 4.0, anche nella composizione.
-- [Schema E2: vaporizzazione](risorse/schema-vaporizzazione.svg). Massa del problema 0,20 kg di acqua già a circa 100 °C, pressione atmosferica ordinaria; Q entrante e vapore finale alla stessa temperatura. Foto di Tomwsulcer, CC0. I dati del problema non sono misure sulla pentola fotografata.
+- [Schema E2: vaporizzazione](risorse/schema-vaporizzazione.svg). Stessa massa della scultura: 500 kg di acqua già a circa 100 °C, pressione atmosferica ordinaria; Q entrante e vapore finale alla stessa temperatura. Foto di Tomwsulcer, CC0. La foto illustra l’ebollizione; il modello considera un recipiente di capacità adeguata alla massa totale.
 
 Entrambi gli SVG incorporano esattamente i byte delle foto selezionate, con proporzioni originali; descrizione accessibile, dati e frecce prima dei calcoli. Anteprime ispezionate nel browser a 600 px; non è una verifica dell’HTML finale, non ancora realizzato. Le fotografie e gli originali sono conservati separatamente.
 
-Tutti i visuali di Passaggi di stato sono ora disponibili. Nessun file ulteriore richiesto. Il confronto tra gli esercizi e la domanda finale 5 sono stati ricalcolati dopo il cambio della massa a 500 kg; il risultato della vaporizzazione resta 451.400 J, inferiore a quello della fusione della grande scultura.
+Tutti i visuali di Passaggi di stato sono ora disponibili. Nessun file ulteriore richiesto. Per ultima richiesta dell’utente eliminato il confronto tra i due risultati. Il secondo svolgimento e la domanda 6 chiedono l’energia per vaporizzare gli stessi 500 kg d’acqua, già a circa 100 °C: risultato dello svolgimento 1.128.500.000 J = 1128,5 MJ, senza includere il riscaldamento da 0 °C. Schema E2 allineato.
 
 ## Prossimo passaggio
 

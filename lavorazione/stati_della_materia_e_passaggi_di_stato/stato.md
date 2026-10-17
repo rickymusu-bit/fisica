@@ -77,3 +77,7 @@ L’utente elimina il caso e lo schema frigorifero, richiede la sola spiegazione
 L’utente fornisce scultura di ghiaccio e acqua in ebollizione e richiede gli sfondi originali. Foto e originali acquisiti, fonti/licenze registrate; schemi SVG completi preparati e ispezionati. Correzione successiva: «cambia i numeri per adattarli alla statua». Primo problema aggiornato alla scultura intera con massa ipotizzata di **500 kg**, inizialmente a 0 °C: **167 MJ**. Eliminata la porzione da 0,50 kg; nessuna massa reale dedotta dalla foto. Aggiornati il confronto col secondo esercizio e il quesito 5. Secondo problema invariato: 0,20 kg, 451,4 kJ.
 
 Tutti i visuali di entrambi i capitoli sono disponibili. [Bozza Passaggi di stato](../passaggi_di_stato/bozza.md) aggiornata e schemi nel relativo registro. Prossimo passaggio: presentare testi e stima residua 25–40 minuti, raccogliere conferma e via agli HTML secondo B1.1–B2. Nessuna pubblicazione o HTML finale modificati in questa fase.
+
+## Stessa quantità d’acqua per la vaporizzazione
+
+Ultima richiesta: togliere il confronto e chiedere quanta energia serve per vaporizzare la stessa quantità d’acqua. Secondo svolgimento, schema e quesito 6 aggiornati a 500 kg, già a circa 100 °C alla pressione atmosferica ordinaria: 1.128.500.000 J = 1128,5 MJ, soltanto vaporizzazione. Eliminato il precedente confronto con la fusione. Il valore di 0,20 kg e il risultato 451,4 kJ sono superati nella bozza corrente; restano in cronologia. Foto e sfondi conservati.
