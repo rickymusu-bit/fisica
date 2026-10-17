@@ -1,5 +1,9 @@
 # Stato — Stati della materia e passaggi di stato
 
+## Precisazione sul tema comune — 2026-10-18 01:37 (Europe/Rome)
+
+Master **v57**: su indicazione esplicita dell’utente, il nome «Biblioteca» e le note collassabili sono definiti come parti integranti del tema, da ereditare automaticamente. AGENTS allineato. Verificata la loro presenza nel modello autonomo v3; nessuna modifica necessaria al tema HTML o ai tre capitoli già conformi. Nessuna pubblicazione.
+
 ## Revisione corrente — 2026-10-18 01:30 (Europe/Rome)
 
 Richiesta diretta: note collassabili, pulsanti «Biblioteca», riparazione dei modelli particellari e del grafico del calore latente, note anche per Irraggiamento. L’utente ha precisato che il problema si presenta nell’**anteprima dentro ChatGPT**. Master **v56** consultato integralmente; modello autonomo **v3**. Regole persistenti aggiornate in A6, AGENTS e STILE_DISPENSE. Note native `details`/`summary`, chiuse all’apertura, con richiami che aprono la sezione e ritorni. Etichetta «← Biblioteca» nei due collegamenti di ciascun capitolo e nel modello. Tema comune riusato integralmente, senza altre varianti grafiche.

@@ -14,4 +14,4 @@ Per impaginare o rivedere gli HTML applica automaticamente l’esatto tema grafi
 
 Colloca le precisazioni nelle note a piè di pagina collassabili, inizialmente chiuse, con richiami e ritorni cliccabili, secondo A1 e A6 del master, mantenendo versione e data separate nel piè di pagina.
 
-I collegamenti alla home si chiamano «Biblioteca», secondo A6; usa il componente di note aggiornato nel modello autonomo.
+Il nome «Biblioteca» dei collegamenti alla home e il componente delle note collassabili sono parti integranti del tema comune secondo A6: applicali automaticamente insieme al modello autonomo in ogni capitolo futuro e nelle revisioni che lo adottano.
