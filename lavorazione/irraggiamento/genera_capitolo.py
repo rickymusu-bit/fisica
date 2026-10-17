@@ -7,9 +7,12 @@ import html
 import json
 import re
 import unicodedata
+import sys
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
+sys.path.insert(0, str(ROOT / 'scripts'))
+from chapter_navigation import insert_navigation
 RES = HERE / "risorse"
 ASSETS = json.loads((RES / "asset-finali.json").read_text())
 REGISTRY = json.loads((RES / "registro-visuali.json").read_text())
@@ -211,7 +214,7 @@ JS = r'''
 '''
 
 document = (f'<!DOCTYPE html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">'
-            f'<meta name="version" content="v2"><meta name="date" content="{TODAY}"><meta name="author" content="Riccardo Musumarra">'
+            f'<meta name="version" content="v3"><meta name="date" content="{TODAY}"><meta name="author" content="Riccardo Musumarra">'
             '<meta name="description" content="Irraggiamento termico: radiazione elettromagnetica, emissività, legge di Stefan–Boltzmann, bilancio radiativo e applicazioni.">'
             '<title>Irraggiamento</title><style>'
             f'@font-face{{font-family:Lexend;src:url({font_uri}) format("truetype");font-weight:100 900;font-display:swap}}'
@@ -219,11 +222,12 @@ document = (f'<!DOCTYPE html><html lang="it"><head><meta charset="utf-8"><meta n
             f'<header class="topbar"><a class="brand" href="#inizio"><span class="app-icon" aria-hidden="true">φ</span>Fisica</a><nav class="top-links" aria-label="Navigazione principale"><a href="{HOME}">← Biblioteca</a>{sidebar}</nav></header>'
             '<main><div class="hero"><p class="kicker">Fisica</p><div class="hero-grid"><h1>Irraggiamento</h1>' + cover_html + '</div></div>'
             '<div class="article-wrap"><article class="article">' + ''.join(body) + '</article>' + credits_html + '</div></main>'
-            f'<footer class="footer">Versione v2 · {TODAY}</footer></div><script>' + JS + '</script></body></html>')
+            f'<footer class="footer">Versione v3 · {TODAY}</footer></div><script>' + JS + '</script></body></html>')
 assert "\\[" not in document and "\\(" not in document
 assert len(re.findall(r'data-visual="', document)) == len(ASSETS)
 assert len(questions) == 15
 target = ROOT / "irraggiamento_it.html"
+document = insert_navigation(document, target.name)
 target.write_text(document)
 (HERE / "bozza.html").write_text(document)
 print({"file": str(target), "byte": target.stat().st_size, "immagini": len(ASSETS), "domande": len(questions), "formule": equation_i})

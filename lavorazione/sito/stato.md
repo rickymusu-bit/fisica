@@ -56,3 +56,12 @@ Aggiornamento: 2026-10-16 21:16 (Europe/Rome). L’utente autorizza i nomi stabi
 ## Rimozione dei reindirizzamenti
 
 Aggiornamento: 2026-10-16 21:24 (Europe/Rome). L’utente richiede esplicitamente di cancellare i reindirizzamenti perché i vecchi link non sono stati condivisi. Rimossi i 24 alias, la mappa `site-redirects.json` e la relativa generazione dalla build. Master v49 e AGENTS allineati all’eccezione esplicita. La build pubblica soltanto `index.html` e le otto dispense italiane con nomi stabili; HTML, versioni e download non modificati. I riferimenti ai reindirizzamenti negli inventari precedenti descrivono le verifiche storiche e non la configurazione corrente. Verifica locale: artefatto composto da nove HTML correnti e `.nojekyll`, senza vecchi nomi. Pubblicazione tramite il workflow Pages da `main`; verificare HTTP 404 sui 24 vecchi percorsi e HTTP 200 sui nove attuali.
+
+
+## Navigazione sequenziale dei capitoli
+
+17 ottobre 2026. Su richiesta dell’utente, aggiunti in fondo ai nove capitoli italiani collegamenti nativi «Capitolo precedente» e «Capitolo successivo», con titolo della destinazione. L’ordine è ricavato dai collegamenti di lettura di `index.html`, unica fonte dell’ordine. Primo senza precedente, ultimo senza successivo; nessun ritorno ciclico. Irraggiamento aggiunto come nono capitolo nella sezione Materia e calore e relativo conteggio aggiornato. Versioni interne dei nove capitoli incrementate, testi e immagini conservati. Regola integrata nel master v62, A6.
+
+Componente riutilizzabile e aggiornamento in `scripts/chapter_navigation.py`; il generatore di Irraggiamento lo integra automaticamente. Dopo l’aggiunta o il riordino dei capitoli aggiornare la navigazione con lo script. Collegamenti relativi per il sito e per i file scaricati nella stessa cartella; i tasti Biblioteca restano invariati.
+
+Controlli: build selettiva con 10 HTML (indice e nove capitoli); tutte le destinazioni presenti, coppie precedente/successivo coerenti e componente senza duplicazioni. Verificate nel browser le nove pagine a 390 e 1440 px senza JavaScript, tutti i link attivati da tastiera, aree almeno 44 px e nessun overflow del componente. Report in `navigazione-capitoli.json`. Immagini dei capitoli identiche alle versioni precedenti. Salvato sul ramo di lavoro, senza unione in main o pubblicazione.

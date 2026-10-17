@@ -1,6 +1,6 @@
 # PROMPT MASTER — DISPENSE VISUALI DI FISICA PER IL BIENNIO DEGLI ISTITUTI TECNICI
 
-VERSIONE DEL PROMPT: v61 — 17 ottobre 2026, ore 13:43 (Europe/Rome)
+VERSIONE DEL PROMPT: v62 — 17 ottobre 2026, ore 13:51 (Europe/Rome)
 
 Questo master raccoglie le regole della dispensa e la procedura per realizzarla con il minor lavoro ripetuto possibile. Le istruzioni relative a immagini, video, traduzioni e simulazioni si applicano quando quei materiali fanno parte della richiesta. Non aggiungere contenuti o lavorazioni solo perché il master ne descrive la gestione.
 
@@ -96,6 +96,8 @@ Per la tipografia comune a home e capitoli, l’utente richiede attenzione alla 
 Usa HTML semantico, figure con didascalia, gerarchia corretta dei titoli, descrizioni accessibili pertinenti, contrasto sufficiente, navigazione da tastiera e focus visibile. Non affidare un’informazione al solo colore. L’alt descrive ciò che è utile capire, senza limitarsi al nome del file. L’indice interno dei capitoli è una barra laterale a scomparsa, come in un lettore PDF, al posto dell’indice iniziale nel corpo della pagina. Un pulsante «Indice» nell’intestazione, accessibile anche durante lo scorrimento, apre il pannello inizialmente chiuso; ogni capitolo o sottoparte ha un id e una voce cliccabile. Evidenzia la sezione corrente senza affidarti al solo colore. Su smartphone il pannello si sovrappone alla pagina per preservare lo spazio di lettura. Consenti chiusura esplicita, con Esc e selezionando una voce; gestisci correttamente focus e navigazione da tastiera. Puoi inserire altri richiami discreti all’indice laterale.
 
 Ogni nuovo capitolo deve includere due tasti «← Biblioteca»: uno all’inizio del documento e uno alla fine del contenuto, prima del piè di pagina. Realizzali come collegamenti HTML all’indice generale `https://rickymusu-bit.github.io/fisica/#indice`, così sono utilizzabili anche dalle copie HTML scaricate quando è disponibile Internet. Mantieni lo stile approvato, un’area cliccabile alta almeno 44 px, il focus visibile e l’uso da tastiera.
+
+Alla fine di ogni capitolo inserisci i collegamenti «Capitolo precedente» e «Capitolo successivo», con il titolo della destinazione, seguendo l’ordine della Biblioteca in `index.html`. Nel primo capitolo ometti il precedente; nell’ultimo ometti il successivo, senza pulsanti disabilitati né ritorni ciclici. Mantieni collegamenti HTML nativi, percorsi stabili, area cliccabile di almeno 44 px, focus visibile e disposizione leggibile su smartphone. Quando aggiungi o riordini capitoli, aggiorna anche i collegamenti dei capitoli vicini; conserva i due tasti «← Biblioteca».
 
 Se compare il nome dell’autore, scrivi «Riccardo Musumarra» con maiuscole normali, salvo diversa richiesta o prescrizione del documento da compilare.
 

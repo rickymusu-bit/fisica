@@ -1,7 +1,7 @@
 # Stato — Irraggiamento
 
 Ultimo aggiornamento: 17 ottobre 2026, ore 13:43 (Europe/Rome).
-Master corrente: v61. Le note seguenti conservano la cronologia; lo stato attuale è riportato nell’ultima sezione.
+Master corrente: v62. Le note seguenti conservano la cronologia; lo stato attuale è riportato nell’ultima sezione.
 
 ## Argomento e fase
 
@@ -227,3 +227,10 @@ Verificati tutti gli otto comandi a 1440 e 390 px con script e a 320 px senza sc
 ## Regola di ingrandimento nel master — v61
 
 Su richiesta esplicita, integrata in A6 la regola per i visuali con scritte o dettagli: comando reversibile con testo «Ingrandisci l’immagine» / «Rimpicciolisci l’immagine», oppure icone corrispondenti che cambiano con lo stato e nome accessibile coerente. Previsto funzionamento mobile, da tastiera e senza JavaScript. Regola già applicata al capitolo v2 e verificata nella fase precedente; nessuna modifica o nuova versione dell’HTML necessaria.
+
+
+## Navigazione tra capitoli — 17 ottobre 2026
+
+Su richiesta dell’utente, aggiunti collegamenti al capitolo precedente e successivo secondo l’ordine di `index.html`, con titolo della destinazione. Primo capitolo senza precedente, ultimo senza successivo; nessun collegamento disabilitato o ciclico. Versione HTML aggiornata a v3; testo e visuali conservati. Componente condiviso in `scripts/chapter_navigation.py`.
+
+Navigazione del capitolo v3 verificata con la catena completa dei nove capitoli, su mobile e desktop senza script; esiti in `../sito/navigazione-capitoli.json`. Immagini invariate e copia `bozza.html` identica; integrità aggiornata. Master v62 registra la regola per tutti i capitoli.

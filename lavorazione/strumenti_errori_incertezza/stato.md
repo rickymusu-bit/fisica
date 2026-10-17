@@ -29,3 +29,8 @@ Aggiornamento: 2026-10-16 19:30 (Europe/Rome). Richiesta diretta dell’utente: 
 ## Nomi stabili
 
 Richiesta esplicita dell’utente: rimuovere versione e data dai nomi, conservandole nei documenti. File rinominati, inclusi gli eventuali materiali francesi e albanesi, con identità verificata e contenuti identici byte per byte; versioni interne invariate. Collegamenti correnti aggiornati; per le dispense italiane i vecchi indirizzi pubblici reindirizzano direttamente ai nomi stabili. [Mappa e hash](../sito/nomi-stabili.json). Nessuna revisione scientifica, immagine o simulazione nuova.
+
+
+## Navigazione tra capitoli — 17 ottobre 2026
+
+Su richiesta dell’utente, aggiunti collegamenti al capitolo precedente e successivo secondo l’ordine di `index.html`, con titolo della destinazione. Primo capitolo senza precedente, ultimo senza successivo; nessun collegamento disabilitato o ciclico. Versione HTML aggiornata a v7; testo e visuali conservati. Componente condiviso in `scripts/chapter_navigation.py`.
