@@ -97,3 +97,7 @@ Via esplicito «Ok procedi» ricevuto. Due capitoli v9 realizzati e verificati n
 ## Aggiornamento peso di Passaggi di stato — 2026-10-17 23:29
 
 L’utente ha richiesto espressamente entrambi i metodi di downsampling su tutte le GIF di Passaggi di stato. Copie ridotte integrate nella v10: 14252684 byte, limite rispettato. Originali conservati. Il precedente punto aperto sull’autorizzazione è risolto. Stati della materia resta v9 e non è modificato; nessuna pubblicazione.
+
+## Tema comune applicato ai capitoli
+
+Su richiesta esplicita dell’utente, adottato il riferimento corrente `irraggiamento_it.html` v4: Lexend, grigio/nero, bordi netti e indice laterale. Stati della materia v10, Passaggi di stato v11; font offline e licenza incorporati, immagini/GIF e testo invariati. Verifiche desktop/mobile e offline superate, anteprime aggiornate e build locale superata. Dettagli in `verifica-tema.json`. Il precedente tema viola della v8 è superato. Nessuna pubblicazione.

@@ -7,9 +7,10 @@
   "sha256_modello_particellare": "17ec9241746af388ecab5e53643d23ddfdd6a1c26879359606d83db284cdf270",
   "calcoli": "167 MJ + 209 MJ + 1128,5 MJ = 1504,5 MJ",
   "peso_byte": {
-    "stati_della_materia.html": 6270253,
-    "passaggi_di_stato.html": 14252684
+    "stati_della_materia.html": 6517363,
+    "passaggi_di_stato.html": 14500324
   },
-  "stato": "Passaggi di stato v10: ottimizzazione autorizzata e applicata; limite di 20 MB rispettato. Verifiche specifiche GIF nel registro del capitolo.",
-  "ottimizzazione_gif": "../passaggi_di_stato/risorse/ottimizzazione-gif.json"
+  "stato": "Tema comune applicato: Stati della materia v10, Passaggi di stato v11. Verifiche desktop/mobile/offline e build superate, entrambi sotto 20 MB; nessuna pubblicazione.",
+  "ottimizzazione_gif": "../passaggi_di_stato/risorse/ottimizzazione-gif.json",
+  "tema": "verifica-tema.json"
 }

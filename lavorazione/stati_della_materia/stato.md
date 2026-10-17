@@ -47,3 +47,9 @@ Ricevuta l’autorizzazione, ottimizzare copie delle GIF con confronto integrale
 ## Aggiornamento peso di Passaggi di stato — 2026-10-17 23:29
 
 L’utente ha richiesto espressamente entrambi i metodi di downsampling su tutte le GIF di Passaggi di stato. Copie ridotte integrate nella v10: 14252684 byte, limite rispettato. Originali conservati. Il precedente punto aperto sull’autorizzazione è risolto. Stati della materia resta v9 e non è modificato; nessuna pubblicazione.
+
+## Tema comune applicato — 2026-10-17 23:35 (Europe/Rome)
+
+Richiesta esplicita dell’utente: «Ricordati di applicare il tema». Allineato al tema comune già presente in `irraggiamento_it.html` v4 e nella home: Lexend incorporato con licenza, grigio/nero, bordi netti, copertina e indice laterale accessibile. Il precedente riferimento al tema v8 è superato da questa richiesta. **Versione corrente v10**, peso 6517363 byte. Testo didattico di ogni sezione confrontato con il precedente e invariato; tutte le immagini e GIF hanno gli stessi byte incorporati. Modello particellare originale conservato. Tema applicato anche ai comandi, alle tabelle e alle formule; solo evidenziazione della curva adattata al tema, senza modifiche ai dati.
+
+Verifiche Chromium offline a 390/1280 px superate: Lexend caricato, indice apribile e chiudibile con Escape e con i collegamenti, focus/inert ripristinati, immagini integre, comandi delle simulazioni/curva e ingrandimento PWR funzionanti; nessuna eccedenza orizzontale o errore JavaScript. HTML di lavoro sincronizzato e anteprime desktop/mobile aggiornate. Build locale superata. Registro comune `../stati_della_materia_e_passaggi_di_stato/verifica-tema.json`. Nessuna pubblicazione.
