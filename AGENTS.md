@@ -1,11 +1,15 @@
-# Istruzioni per il progetto
+# Da leggere prima di lavorare
 
-Prima di lavorare leggi integralmente `MASTER_PROMPT.md` e lo stato del capitolo in `lavorazione/<capitolo>/stato.md`. Se lo stato manca, crealo quando il capitolo è identificato, secondo B6; non dedurre approvazioni.
+Leggi sempre il [master corrente](MASTER_PROMPT.md) e lo stato pertinente in `lavorazione/<capitolo>/stato.md`. Se manca uno stato per un lavoro identificato, crealo secondo [P7](MASTER_PROMPT.md#p7).
 
-Lavora in un ramo dedicato derivato da `main`. Aggiorna lo stato ai passaggi decisivi e prima di interrompere. GitHub è la fonte ufficiale e Git conserva la cronologia.
+Poi leggi le fonti necessarie al compito:
 
-Usa nomi stabili senza versione né data e applica le regole del master per i collegamenti già pubblicati. Confronta identità e versione prima di importare o sostituire; segnala i conflitti incerti senza sovrascrivere. Rispetta il workflow di approvazione del master. Durante la migrazione non eliminare materiali su Drive e non attivare o modificare la pubblicazione del sito.
+| Attività | Fonti da leggere |
+| --- | --- |
+| Progettare, scrivere o rivedere contenuti | [Contenuti e stile](riferimenti/CONTENUTI_E_STILE.md) e [campione](riferimenti/esempio_irraggiamento.md) |
+| Cambiare aspetto, impaginazione o comandi | [Tema grafico](riferimenti/TEMA_GRAFICO.md) e sezioni pertinenti dei [requisiti tecnici](riferimenti/REQUISITI_TECNICI.md) |
+| Preparare immagini, grafici, video o simulazioni | [Requisiti tecnici](riferimenti/REQUISITI_TECNICI.md), [tema](riferimenti/TEMA_GRAFICO.md) per la presentazione e [contenuti](riferimenti/CONTENUTI_E_STILE.md) per dati, formule e didascalie |
+| Realizzare o ristrutturare un capitolo completo | Tutti e quattro i documenti, più il campione per il testo |
+| Aggiornare le regole | Documento competente e rimandi che ne dipendono; per un riordino complessivo leggi tutti e quattro |
 
-Per struttura e monograficità di tutti i capitoli applica A3 del master; per domande finali, didascalie e precisione proporzionata applica A5, C3 e A1. La revisione degli HTML esistenti deve registrare la suddivisione e verificarne i collegamenti, senza considerare automaticamente completato l'adeguamento.
-
-Prima di scrivere o rivedere il testo delle dispense leggi anche `riferimenti/STILE_DISPENSE.md` e `riferimenti/esempio_irraggiamento.md`, richiamati in A2. Il riferimento comprende la spiegazione discorsiva e l'interpretazione delle formule secondo A4.
+Le fonti ufficiali per ambito sono elencate nel master. Esempi, stati e codice non introducono regole concorrenti. Conserva le approvazioni effettive e applica la procedura di verifica e salvataggio del master.

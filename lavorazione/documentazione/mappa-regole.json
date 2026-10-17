@@ -1,0 +1,718 @@
+{
+  "base_commit": "3d8449b1ed1e038d02ba9ca8779577ec68cab279",
+  "master_origine": "v62",
+  "master_destinazione": "v63",
+  "blocchi_master": 113,
+  "mappa": [
+    {
+      "origine": "A1:0",
+      "sha256_origine": "a838b4991966143fdbdbf2f2b7abf682144b267e56d9f7f1ae0b1bd431fddece",
+      "destinazione": "riferimenti/CONTENUTI_E_STILE.md#s1",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "A1:1",
+      "sha256_origine": "348df1191d4c79a4caeb0d909a884a8b40b0e020dc1a35a9f5bd38b9fa171791",
+      "destinazione": "riferimenti/CONTENUTI_E_STILE.md#s1",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "A1:2",
+      "sha256_origine": "4b8ea36b2c87bab2d992226490815c28fefb48fef13b1261a9d74e08a2eab317",
+      "destinazione": "riferimenti/CONTENUTI_E_STILE.md#s1",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "A1:3",
+      "sha256_origine": "721fd5321c5dcbda14847bb793a61690f150ee8cf7f77fa6c91c7453afab6199",
+      "destinazione": "riferimenti/CONTENUTI_E_STILE.md#s1",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "A2:0",
+      "sha256_origine": "1950ab00e977df81bac86df3ea08e6d87dd0f978cc8635dbe22bb6e9c51e7218",
+      "destinazione": "riferimenti/CONTENUTI_E_STILE.md#s2",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "A2:1",
+      "sha256_origine": "0c03a30fd77400c0fbd8bc0907c3aaa21e8d48c48051067ab2d1ff727c4adf5b",
+      "destinazione": "riferimenti/CONTENUTI_E_STILE.md#s2",
+      "esito": "consolidata",
+      "motivo": "Eliminato il rimando circolare alla vecchia guida; lettura del campione regolata da AGENTS e S8."
+    },
+    {
+      "origine": "A2:2",
+      "sha256_origine": "df31b4d07ab546ad4be1a8d21c1675f1bb0d6f3cb8c2735d4d565b1df3f142e5",
+      "destinazione": "riferimenti/CONTENUTI_E_STILE.md#s2",
+      "esito": "consolidata",
+      "motivo": "Consolidata con lo stile v2 l’alternanza di frasi brevi e medie, mantenendo paragrafi da 3–6 frasi."
+    },
+    {
+      "origine": "A2:3",
+      "sha256_origine": "6751a00591dda485b4a7e3bf3c6599abe5e2249c4c4d70a4668250ebc2da1eb5",
+      "destinazione": "riferimenti/CONTENUTI_E_STILE.md#s2",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "A2:4",
+      "sha256_origine": "8ae7a40ce26bc8b1244d1555609d2ad094dcb3891a59bd314292b375d9725a52",
+      "destinazione": "riferimenti/CONTENUTI_E_STILE.md#s2",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "A3:0",
+      "sha256_origine": "65c703dedbaee9f72da95964c117ca18afd97d3391bd2a1abb9a26926bb4f460",
+      "destinazione": "riferimenti/CONTENUTI_E_STILE.md#s3",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "A3:1",
+      "sha256_origine": "d0cb64fa991a214aa9f142d32f7688cdabf1db2beba85d819d1712ea6a81dd3d",
+      "destinazione": "riferimenti/CONTENUTI_E_STILE.md#s3",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "A3:2",
+      "sha256_origine": "9032e708646e7e4f330379adf8e78e83f5873fe3e9b70bb045024bb69f9aaed2",
+      "destinazione": "riferimenti/CONTENUTI_E_STILE.md#s3",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "A3:3",
+      "sha256_origine": "f267956983e5f09ba3c22a3857cbeae32f1983afcdccda45aafd0fed26d1bf48",
+      "destinazione": "riferimenti/CONTENUTI_E_STILE.md#s3",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "A3:4",
+      "sha256_origine": "5f9c12fcd16ecfecbec12806e128238a3864cc00d6d5f2990c56b13b56a0d658",
+      "destinazione": "riferimenti/CONTENUTI_E_STILE.md#s3",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "A3:5",
+      "sha256_origine": "dbb07eed7256249653ba705de49da305e6330f9e4888169932109f827421ccfe",
+      "destinazione": "riferimenti/CONTENUTI_E_STILE.md#s3",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "A3:6",
+      "sha256_origine": "aa1628370da69d24842ae6e384608a7da206e02993d2008900c039305c1f2918",
+      "destinazione": "riferimenti/CONTENUTI_E_STILE.md#s3",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "A4:0",
+      "sha256_origine": "af5e489fee7586358d0f8f694f7c0eee21c62acef91f39257e9a0b282c307875",
+      "destinazione": "riferimenti/CONTENUTI_E_STILE.md#s4",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "A4:1",
+      "sha256_origine": "b56bd1ee1fd2f8c53d8c394f3901f9920a50eeffe5587825692652161259b389",
+      "destinazione": "riferimenti/CONTENUTI_E_STILE.md#s4",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "A4:2",
+      "sha256_origine": "ac60f4c14b64c3197b86b6132a1f8dd45f7d8f6a423cc4ba1d135fd07f3cc5fb",
+      "destinazione": "riferimenti/CONTENUTI_E_STILE.md#s4",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "A4:3",
+      "sha256_origine": "de859bd7b676fac5d7d0086f62c5eef204b8d268988ee9f9dcc2caa9ad936d7b",
+      "destinazione": "riferimenti/CONTENUTI_E_STILE.md#s4",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "A4:4",
+      "sha256_origine": "81b57323b12e4ac3f01180e5fd15c040609cbeb4e9e6f4f1ba524a4d70478320",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t2",
+      "esito": "consolidata",
+      "motivo": "Leggibilità e dipendenze matematiche trasferite in T2."
+    },
+    {
+      "origine": "A5:0",
+      "sha256_origine": "2d1b47fc0bdff0fb55538e3feb6cd73be93f224d50fdebc2683e79f234618685",
+      "destinazione": "riferimenti/CONTENUTI_E_STILE.md#s5",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "A5:1",
+      "sha256_origine": "ad6517e65505b17b97d37eafeb103e1df19e20bb111eeae8cc4f7b0b111a8339",
+      "destinazione": "riferimenti/CONTENUTI_E_STILE.md#s5",
+      "esito": "consolidata",
+      "motivo": "Rimandi di immagini e didascalie esplicitati verso T3, P8 e S6."
+    },
+    {
+      "origine": "A5:2",
+      "sha256_origine": "92854cf2ba92bdc3a5f08462efa2f2255a92431481d292e79c724d45d9ee23cc",
+      "destinazione": "riferimenti/CONTENUTI_E_STILE.md#s5",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "A5:3",
+      "sha256_origine": "b9d946606c2ad8f68ade19103d38b583aba25efd1702909482e352b52ba7569b",
+      "destinazione": "riferimenti/CONTENUTI_E_STILE.md#s5",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "A5:4",
+      "sha256_origine": "a1077ba95d8ca081dfcea3d19218191a294b89d9346ddf54d1a511c9785e2b71",
+      "destinazione": "riferimenti/CONTENUTI_E_STILE.md#s5",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "C3:0",
+      "sha256_origine": "3abdf6b6c6488779e4df04bf7dd56c6d634ddc3197ac78cb3d521ce56f76d468",
+      "destinazione": "riferimenti/CONTENUTI_E_STILE.md#s6",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "C3:1",
+      "sha256_origine": "ba563d9e294df1f3468d6be4bfa0de542964c01d59ff754dd37b534be8f55558",
+      "destinazione": "riferimenti/CONTENUTI_E_STILE.md#s6",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "A6:10",
+      "sha256_origine": "f776811906e5b138828ccd23fbeb463ca1149e4bb60be361fa2ef134871169d8",
+      "destinazione": "riferimenti/CONTENUTI_E_STILE.md#s6",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "C6:0",
+      "sha256_origine": "b7bc0c2d1d319bed1c06ac12038dee1e9e89117de38bc7f7e5efc618c99efb13",
+      "destinazione": "riferimenti/CONTENUTI_E_STILE.md#s7",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "C6:1",
+      "sha256_origine": "aa770d95ae1e5596dfd487d80f4a30d223fd0e153c9a096469c930ea7b2fe230",
+      "destinazione": "riferimenti/CONTENUTI_E_STILE.md#s7",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "A6:5",
+      "sha256_origine": "7f6ccd85639cf344fdf329c1198d7d05d3d7a899620b72c0d93e6724db0ae03d",
+      "destinazione": "riferimenti/TEMA_GRAFICO.md#g1",
+      "esito": "consolidata",
+      "motivo": "Rimando al precedente documento grafico eliminato; scelta e vincoli preservati."
+    },
+    {
+      "origine": "A6:6",
+      "sha256_origine": "9fed088ee818af0ce9aabc48122165d4ae3bee9afbc3cf4bbfdccb78c0c8c1ab",
+      "destinazione": "riferimenti/TEMA_GRAFICO.md#g3",
+      "esito": "consolidata",
+      "motivo": "Rimando al vecchio percorso grafico sostituito con la registrazione nella stessa sezione G3."
+    },
+    {
+      "origine": "A6:7",
+      "sha256_origine": "d4f2c04e2d489f1d0c8a46d79d621404ed5eaec3191cfc3714aee496e8636ac0",
+      "destinazione": "riferimenti/TEMA_GRAFICO.md#g4",
+      "esito": "consolidata",
+      "motivo": "Paragrafo diviso: semantica e descrizioni accessibili in T2, indice in G4.",
+      "ulteriori_destinazioni": [
+        "riferimenti/REQUISITI_TECNICI.md#t2"
+      ]
+    },
+    {
+      "origine": "A6:8",
+      "sha256_origine": "084e962096abb75edb0f8778505cf0a4a6b51024a28ddaf6ab17fb9ab35a7d5f",
+      "destinazione": "riferimenti/TEMA_GRAFICO.md#g5",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "A6:9",
+      "sha256_origine": "b5fc68ef8d6cdba352fd028eafc76988d554008a9be82ea52004a982f468d954",
+      "destinazione": "riferimenti/TEMA_GRAFICO.md#g5",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "A6:2",
+      "sha256_origine": "16ac8afd6dbffa1b7fd73a6435e643e3b0d6e2465e060bc3c777513f9d510c95",
+      "destinazione": "riferimenti/TEMA_GRAFICO.md#g6",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "A6:3",
+      "sha256_origine": "37c4d0036a4288bda01882c1e2c1564a05c57328cb0c133be034295d6e929c42",
+      "destinazione": "riferimenti/TEMA_GRAFICO.md#g6",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "A6:4",
+      "sha256_origine": "4fb77d013283134c1eb3fcb0d0ff6fd7e670d65e1c8300a3c9c9977696eb452a",
+      "destinazione": "riferimenti/TEMA_GRAFICO.md#g6",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "C5:3",
+      "sha256_origine": "847cc2d42ad0355beefcbc3398352bade236adaae76af67758f8c676f328b0d7",
+      "destinazione": "riferimenti/TEMA_GRAFICO.md#g7",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "A6:0",
+      "sha256_origine": "d22004e720480c92016b7832f888572544ad89b6515b025c89be2224da604169",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t1",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "A6:1",
+      "sha256_origine": "d766b42e73a9d07d38720dbd28c7dd96ded69cb55b2c970ec06ffb303c29eab6",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t1",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "C6:2",
+      "sha256_origine": "2df9bc7a289ec4b872df5b9c8e488da76ae70d5efa3083e7465a4d99ccf0940a",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t1",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "C1:0",
+      "sha256_origine": "b8c69520be68067c10906d1d35acf263f4a05162ced2f305bdbf86169e3a3fab",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t3",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "C1:1",
+      "sha256_origine": "b7803628557e7d23d9bde349359f8c1e703b407b50f36d6c07bfa877c795dad3",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t3",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "C1:2",
+      "sha256_origine": "60ba193ee01a1d423eff46a7dca797aebb374970953d80c6f3c2990f3ea8d5e2",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t3",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "C1:3",
+      "sha256_origine": "815685062334221a84c7d71f7f593ce788e7167b1e8ea219aabf0f96431824ad",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t3",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "C1:4",
+      "sha256_origine": "b93031f612935cd8d00563aaaf967439c810273949971b529bcbdd3f87c6edd8",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t3",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "C1:5",
+      "sha256_origine": "e0d2d16466c87005323bb9f291edf43e41a9aab50744ed4bed0174d56aabd413",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t3",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "C3:2",
+      "sha256_origine": "ba5a53e127b0fbee58679e2b40cdaff9b2fa7d0bcb1d7bafbce34ea6e87667b2",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t4",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "C3:3",
+      "sha256_origine": "f56fab6ee61a7419b95c81a83a5968ef2ec4997806dd140ec4c777a5c97d37e2",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t4",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "C4:0",
+      "sha256_origine": "3c27348cd9e5fb57697d13d7891075c4b220fe690529f2cf3ef60d82bb8dd783",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t5",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "C4:1",
+      "sha256_origine": "7727c2443844cb69c93e28933ab6af8be06ec23b2ddda509977e1f557e4706f2",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t5",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "C4:2",
+      "sha256_origine": "7ab29de2668683e8b031aa189b824d73b04ba18db7cfee0e02c8107bbe9ac6b1",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t5",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "C4:3",
+      "sha256_origine": "b1702786ba426142c2e95afd791485cc272f0379a869954dd5e28cdc31c31b14",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t5",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "C4:4",
+      "sha256_origine": "427aad1e1d736455fc0d3dac2b8145a38bd4d6ea5de9b13a94a9c243b999738b",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t5",
+      "esito": "consolidata",
+      "motivo": "Rimando alla leggibilità puntato alla sede specifica G6."
+    },
+    {
+      "origine": "C5:0",
+      "sha256_origine": "0e9a4cf14386287bd285c229a9128f0d532051fff0f5136742820eb625737e5d",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t6",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "C5:1",
+      "sha256_origine": "79540b5ca7d0cb0796bcec4ef309c3c10affa5357c3549fd85d23980e98d2c07",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t6",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "C5:2",
+      "sha256_origine": "ac206ed14ff9a6379d7e1aa2de64e15fed214101b2169804b97d7e96b37d5ee7",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t6",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "C5:4",
+      "sha256_origine": "0be2cff775300ebf1bf7a74d37df410c7d0dae16447a628a0802b998daa385de",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t6",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "C5:5",
+      "sha256_origine": "75e1831af59f5699d17860ac75a2d5e74c1fc8ea4aed90cac33d961c24e03828",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t6",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "D2:0",
+      "sha256_origine": "3d8339defd05e71bcc2d684ec5b0638c079f7b3fa90518a9eb659a625d6123b7",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t7",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "D2:1",
+      "sha256_origine": "68a7431f8dc5380c0efc2b3b0d0149713c0ef8646a5efbc2f02dbe95bcfec3ec",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t7",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "D2:2",
+      "sha256_origine": "b419681a89ebb8a4f31044c104198c5b07f0ea75f0b9c91ebbaeb42c318af77d",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t7",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "D2:3",
+      "sha256_origine": "075a73d524999e82ae411457d0ece7104b107fead1afe0225f4904952f3f0c12",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t7",
+      "esito": "consolidata",
+      "motivo": "Tabella invariata nei valori; rimandi al trattamento tecnico corretti verso T4/T5."
+    },
+    {
+      "origine": "D2:5",
+      "sha256_origine": "81e1969368aba0dd87eb08b8b3be6716a7c13466b5b89c44fd275603c4021a31",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t7",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "D2:6",
+      "sha256_origine": "3b2d427d3891555ec22016e47c0a1b4146d928694e26b0e10cf284d835ce21c1",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t7",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "D2:4",
+      "sha256_origine": "602e805a3ed116078abbe11b3be95928392d42b63b7f9dd2cdbde9bf09e1ea50",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t7",
+      "esito": "consolidata",
+      "motivo": "Paragrafo diviso: ottimizzazione in T7; versionamento della documentazione nel master P10.",
+      "ulteriori_destinazioni": [
+        "MASTER_PROMPT.md#p10"
+      ]
+    },
+    {
+      "origine": "D1:0",
+      "sha256_origine": "76b21521cfb98d41afdb3f50075e0edfdd01289446bc9e160cf838dc9991414e",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t8",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "D1:5",
+      "sha256_origine": "b33264d95efd164f2fb805f62a081bb89e72f098f894d3ebccdb499d57ef59fb",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t8",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "D1:1",
+      "sha256_origine": "cca18704b1e8ad3467f63b51415f2ec8e7bffa508b6a7c3948891ffd5fefb4fe",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t8",
+      "esito": "consolidata",
+      "motivo": "Checklist riscritta come controlli con rimandi alle regole uniche; mantenuti tutti gli ambiti di verifica."
+    },
+    {
+      "origine": "D1:2",
+      "sha256_origine": "c98a341476715eda74f394fbdba1b4e85452ebbe485c7b461536daea32819a32",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t8",
+      "esito": "consolidata",
+      "motivo": "Checklist riscritta come controlli con rimandi alle regole uniche; mantenuti tutti gli ambiti di verifica."
+    },
+    {
+      "origine": "D1:3",
+      "sha256_origine": "f39dea1dd556f4a36eb905846f194748317db7c769b7860714264a144bf210db",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t8",
+      "esito": "consolidata",
+      "motivo": "Checklist riscritta come controlli con rimandi alle regole uniche; mantenuti tutti gli ambiti di verifica."
+    },
+    {
+      "origine": "D1:4",
+      "sha256_origine": "da67c91ffa328387f199fd9401fd3151736d706df98c0349e6f9699a49d641a7",
+      "destinazione": "riferimenti/REQUISITI_TECNICI.md#t8",
+      "esito": "consolidata",
+      "motivo": "Checklist riscritta come controlli con rimandi alle regole uniche; mantenuti tutti gli ambiti di verifica."
+    },
+    {
+      "origine": "B1:0",
+      "sha256_origine": "7b67e323a7195f1c19619c585698ce9c8d2fccb715b0b182d41d13e1f6301bf4",
+      "destinazione": "MASTER_PROMPT.md#p1",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "B1:1",
+      "sha256_origine": "710319e03f5a07e279cda461cf139ae16dbf421e90d5743bfee41ed06e424e06",
+      "destinazione": "MASTER_PROMPT.md#p1",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "B1:2",
+      "sha256_origine": "25c200834be4e08ce7ad65739256d1384c562eb1eefbe4349926585feb4d52da",
+      "destinazione": "MASTER_PROMPT.md#p1",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "B1.1:0",
+      "sha256_origine": "ead1792aa8562c506f60d942e905155fd0f2e20756444edfed6911610f0f9349",
+      "destinazione": "MASTER_PROMPT.md#p2",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "B1.1:1",
+      "sha256_origine": "faefc1947d0be62f43e1b2cf3ba77dc79fcbbc2d9e35daa88d19865a0b4d438e",
+      "destinazione": "MASTER_PROMPT.md#p2",
+      "esito": "consolidata",
+      "motivo": "Aggiunta separazione tipografica fra i passi 2 e 3; sequenza e vincoli invariati."
+    },
+    {
+      "origine": "B1.1:2",
+      "sha256_origine": "a420f92f6ec765f24a8d2045067f4fbd5259cac4d6411bb20dee7955033e2de0",
+      "destinazione": "MASTER_PROMPT.md#p2",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "B1.1:3",
+      "sha256_origine": "a7836545ba31452d6267f9ff9c9b2c2d5ed523311e878e38b668a009ff47c2d2",
+      "destinazione": "MASTER_PROMPT.md#p2",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "B1.1:4",
+      "sha256_origine": "b3cebf2f6ac90b78976217c63a6b5874a88284ffb6e13aa40fe601ba4e0c7542",
+      "destinazione": "MASTER_PROMPT.md#p2",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "B2:0",
+      "sha256_origine": "f1512ab863a501d9f6f436c80d0810451e8d2925edf3e0bc9b910ec424961481",
+      "destinazione": "MASTER_PROMPT.md#p3",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "B2:1",
+      "sha256_origine": "ea98cf78ace1ab80f77b66a11b75465ee5d4f306cd64a75d5d45c4bc1a28c4b7",
+      "destinazione": "MASTER_PROMPT.md#p3",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "B2:2",
+      "sha256_origine": "ced424d1e9d00e2882e81dea7f8c72ac8cedfc0f63ca510eadac30014957fcba",
+      "destinazione": "MASTER_PROMPT.md#p3",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "B2:3",
+      "sha256_origine": "f1af4c646a7e2acb579ce8ca11ba6a32dd18a6b07a6a0f49d538aa5b6115f6dc",
+      "destinazione": "MASTER_PROMPT.md#p3",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "B3:0",
+      "sha256_origine": "a9866ea5b475cc9d1537c20952bd1a798025095397a0b26e7d33a329e18e9f96",
+      "destinazione": "MASTER_PROMPT.md#p4",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "B3:1",
+      "sha256_origine": "61657cba37f9aa15b7dfa054a2df3e65691ed664aaaa32a6da1907dcc86bc2d9",
+      "destinazione": "MASTER_PROMPT.md#p4",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "B4:0",
+      "sha256_origine": "b3c7a569373589f385b25dc6adc539c48485e8daa65155862c7a8fc4f3e92bf6",
+      "destinazione": "MASTER_PROMPT.md#p5",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "B4:1",
+      "sha256_origine": "bfdd9adb91a97f5e316537589372cd03ea86e7faa96ed2db6e964803e4020423",
+      "destinazione": "MASTER_PROMPT.md#p5",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "B4:2",
+      "sha256_origine": "ce23c0754d6838cd8006b083fd5e3dd8d22f27bdd016c02ed610459aec941451",
+      "destinazione": "MASTER_PROMPT.md#p5",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "B4:3",
+      "sha256_origine": "c73b8f710072c36d4021edc3e67db4749c66837ce4962f0b5eed848c56a19e8a",
+      "destinazione": "MASTER_PROMPT.md#p5",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "B5:0",
+      "sha256_origine": "570340d7fd95af571e7baf28a00f39ccd151cee1bc1dd059f634697f68e4c583",
+      "destinazione": "MASTER_PROMPT.md#p6",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "B5:1",
+      "sha256_origine": "4fdd58e4c20a2b5dffdf749c54f3b5b0e1db11c707ff723a17afa2487abea278",
+      "destinazione": "MASTER_PROMPT.md#p6",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "B5:2",
+      "sha256_origine": "4867de0905cc7e2d9a2dad88d199a31f4594591e79f57d94ddc90fc0daadb8a1",
+      "destinazione": "MASTER_PROMPT.md#p6",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "B6:0",
+      "sha256_origine": "b5532cee4081716bd0441f331960bad4091c2aa0bed7648011afa4e4665b3552",
+      "destinazione": "MASTER_PROMPT.md#p7",
+      "esito": "consolidata",
+      "motivo": "Lettura guidata dal router AGENTS, approvata con la divisione dei documenti."
+    },
+    {
+      "origine": "B6:1",
+      "sha256_origine": "b9a4ab8c7cdfdb6f80a7f2333d67546166efa5788ea482dd39f61d61b90f473f",
+      "destinazione": "MASTER_PROMPT.md#p7",
+      "esito": "consolidata",
+      "motivo": "Stesso contenuto richiesto nello stato, organizzato come situazione corrente; cronologia affidata a Git."
+    },
+    {
+      "origine": "B6:2",
+      "sha256_origine": "24a0b3a537fd90ad7eda2b0e0754a31453f5939972ff34288b2cd7eb3690b524",
+      "destinazione": "MASTER_PROMPT.md#p7",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "B6:3",
+      "sha256_origine": "44e339a84cd1384cd155dbdc42acb0b0c4da3f9faf212ffa33618d6cb0ee32c7",
+      "destinazione": "MASTER_PROMPT.md#p7",
+      "esito": "consolidata",
+      "motivo": "Controllo degli aggiornamenti esteso a tutte le fonti pertinenti, oltre al master."
+    },
+    {
+      "origine": "C2:0",
+      "sha256_origine": "7664418466899e7ea023b8f76100bb53be9e0d77771b2188b5f073d13dc794ed",
+      "destinazione": "MASTER_PROMPT.md#p8",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "C2:1",
+      "sha256_origine": "0b14f9783fd48852f0f69eb8267800f1c63b550cc249a07f0229e666f86c5b53",
+      "destinazione": "MASTER_PROMPT.md#p8",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "C2:2",
+      "sha256_origine": "4c127cbf30638bc43c4b1f7acf4f1f590e87b7b64a7ae21075ce74151a8d0e07",
+      "destinazione": "MASTER_PROMPT.md#p8",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "C2:3",
+      "sha256_origine": "9412474e98e3732ae241f948f15f18aa557e72d9e65c58296d6c5e80a0dbf7b3",
+      "destinazione": "MASTER_PROMPT.md#p8",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "D2.1:0",
+      "sha256_origine": "01a07528a9afc12295697a899826b9885afd6d7860310bfbf17c951b4421d927",
+      "destinazione": "MASTER_PROMPT.md#p9",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "D2.1:1",
+      "sha256_origine": "757715775c7a53770432184d13668d4e5fc05c2a441948e1913b3156121cd129",
+      "destinazione": "MASTER_PROMPT.md#p9",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "D2.1:2",
+      "sha256_origine": "e100f534fed753d0deceb99a847f8e9b39996bf6fda373de4b5ac59bff36319f",
+      "destinazione": "MASTER_PROMPT.md#p9",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "D2.1:3",
+      "sha256_origine": "443073889d50f1c1ec4d0fafe5e4fa48e8f9ade362697305b297e4deab2d6048",
+      "destinazione": "MASTER_PROMPT.md#p9",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "D2.1:4",
+      "sha256_origine": "6a1dd301ecea69c56ad031b99e1153c46e3b620f5b10733167c0db13e19a8014",
+      "destinazione": "MASTER_PROMPT.md#p9",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "D3:0",
+      "sha256_origine": "0e9a1322b0cbd2d4768317e2daf15c2f524b41be265142e8710cf3420c1f888d",
+      "destinazione": "MASTER_PROMPT.md#p10",
+      "esito": "consolidata",
+      "motivo": "Prevalenza circoscritta al documento competente e manutenzione di una sola fonte, secondo la divisione approvata."
+    },
+    {
+      "origine": "D3:1",
+      "sha256_origine": "60371111f50e94a515885cf1ab4c98cc55442b8d06a59ac15e347e4ac27d80a2",
+      "destinazione": "MASTER_PROMPT.md#p10",
+      "esito": "consolidata",
+      "motivo": "Prevalenza circoscritta al documento competente e manutenzione di una sola fonte, secondo la divisione approvata."
+    },
+    {
+      "origine": "D3.1:0",
+      "sha256_origine": "5776110bc462721b29f1fe9dbe468c16a4263a5510fb5ee68fd3623345d37d5b",
+      "destinazione": "MASTER_PROMPT.md#p11",
+      "esito": "consolidata",
+      "motivo": "Periodicità e approvazioni invariate; controllo esteso ai quattro documenti complementari."
+    },
+    {
+      "origine": "D2:7",
+      "sha256_origine": "71e9506be7c50af2a0e51d1c4164f53b2e1b01f2ea415cdbebcd48dc70988a28",
+      "destinazione": "MASTER_PROMPT.md#p12",
+      "esito": "trasferita"
+    },
+    {
+      "origine": "D3.1:1",
+      "sha256_origine": "531688d410708283c6545e9a8fcc1fca85cb8c776c30cf1da245f75699c221a1",
+      "destinazione": "MASTER_PROMPT.md#p12",
+      "esito": "trasferita"
+    }
+  ],
+  "riferimenti_precedenti": {
+    "riferimenti/STILE_DISPENSE.md": "Regole confluite in S1–S8; percorso conservato come rimando; specificità editoriali integrate in S2/S4/S8.",
+    "riferimenti/TEMA_GRAFICO.md": "Scelta, palette, tipografia, pannello nativo e link Biblioteca in G1–G6. Cronaca delle prove già conservata nello stato del tema e in Git."
+  },
+  "revisione_semantica": "Completata: trasferimenti e consolidamenti riletti; conservati vincoli di procedura, didattica, tema e tecnica. Corrette le destinazioni dei rimandi; nessun cambiamento degli HTML."
+}
