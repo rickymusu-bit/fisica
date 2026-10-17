@@ -81,3 +81,7 @@ Tutti i visuali di entrambi i capitoli sono disponibili. [Bozza Passaggi di stat
 ## Stessa quantità d’acqua per la vaporizzazione
 
 Ultima richiesta: togliere il confronto e chiedere quanta energia serve per vaporizzare la stessa quantità d’acqua. Secondo svolgimento, schema e quesito 6 aggiornati a 500 kg, già a circa 100 °C alla pressione atmosferica ordinaria: 1.128.500.000 J = 1128,5 MJ, soltanto vaporizzazione. Eliminato il precedente confronto con la fusione. Il valore di 0,20 kg e il risultato 451,4 kJ sono superati nella bozza corrente; restano in cronologia. Foto e sfondi conservati.
+
+## Foto della pentola esclusa
+
+Ultima richiesta: «Togli proprio la foto». Rimossa la foto della pentola dal secondo esercizio e dallo schema E2; conservati soltanto il modello con dati, stati e frecce e il calcolo per 500 kg d’acqua. Foto originale conservata come riferimento, non da integrare. Scultura di ghiaccio invariata con sfondo.

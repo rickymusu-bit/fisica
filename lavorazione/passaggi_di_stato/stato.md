@@ -1,6 +1,6 @@
 # Stato — Passaggi di stato
 
-Ultimo aggiornamento: 2026-10-17 22:59 (Europe/Rome). Master v53, letto con i riferimenti di stile. Ramo `revisione/materia-passaggi-capitoli`, fonte ufficiale v8 di `stati_della_materia_e_passaggi_di_stato.html`, blob `8ef5566c73f670dbf23b550e4e36a52cdb7ddfc2`. [Mappa iniziale](../stati_della_materia_e_passaggi_di_stato/proposta-editoriale.md).
+Ultimo aggiornamento: 2026-10-17 23:00 (Europe/Rome). Master v53, letto con i riferimenti di stile. Ramo `revisione/materia-passaggi-capitoli`, fonte ufficiale v8 di `stati_della_materia_e_passaggi_di_stato.html`, blob `8ef5566c73f670dbf23b550e4e36a52cdb7ddfc2`. [Mappa iniziale](../stati_della_materia_e_passaggi_di_stato/proposta-editoriale.md).
 
 ## Ambito, approvazioni e fase
 
@@ -24,7 +24,7 @@ Fase: [bozza completa aggiornata](bozza.md) e visuali pronti, da presentare con 
 - A2: unità esterna della pompa di calore, Wikideas1, CC0. Evaporazione all’esterno e condensazione verso la casa nella modalità riscaldamento, con apporto del compressore.
 - A3: centrale PWR, Tennessee Valley Authority, pubblico dominio. Primario pressurizzato liquido; secondario con vaporizzazione e condensazione; raffreddamento separato. Etichette inglesi spiegate, distinguendo generatore elettrico e di vapore; immagine da rendere ingrandibile.
 - E1: scultura di ghiaccio, Frankie Fouganthin, CC BY-SA 4.0. Foto e originale acquisiti, sfondo conservato; [schema pronto](risorse/schema-fusione.svg), massa ipotizzata 500 kg e 0 °C.
-- E2: pentola con acqua che bolle, Tomwsulcer, CC0. Foto e originale acquisiti, sfondo conservato; [schema pronto](risorse/schema-vaporizzazione.svg), stessa massa della scultura: 500 kg d’acqua già a circa 100 °C.
+- E2: [schema senza foto](risorse/schema-vaporizzazione.svg), stessa massa della scultura: 500 kg d’acqua già a circa 100 °C. Fotografia della pentola esclusa per ultima richiesta; file e originale conservati solo come riferimento.
 
 La richiesta dell’utente sullo sfondo prevale sulla regola generale per gli schemi: nessuna rimozione eseguita o richiesta. Tutti i materiali necessari sono disponibili. Simulazioni microscopiche conservate soltanto nel capitolo Stati della materia; nessuna nuova simulazione qui.
 
@@ -39,3 +39,7 @@ Stima indicativa residua per i due HTML: 25–40 minuti, calcolo basso; integraz
 ## Ultima correzione: stessa massa, senza confronto
 
 L’utente richiede di lasciare il confronto e chiedere l’energia per vaporizzare la stessa quantità d’acqua. Applicato: E2 riferito ai 500 kg ottenuti dalla fusione, già portati all’ebollizione. Ricalcolati formula e risultato (1128,5 MJ); aggiornati schema, interpretazione e quesito 6; eliminato il confronto numerico con l’energia di fusione. Nessun cambiamento alle foto e agli sfondi. La fotografia della pentola illustra il fenomeno; il modello assume un recipiente di capacità adeguata. Non attribuire 500 kg alla pentola fotografata.
+
+## Ultima correzione: foto E2 rimossa
+
+«Togli proprio la foto» si riferisce alla pentola mostrata nel secondo esercizio. Rimossa la foto dallo schema E2 e tutti i riferimenti alla fotografia nel secondo svolgimento. Conservati dati, frecce, stati e calcolo dei 500 kg d’acqua già a circa 100 °C. Nessuna immagine sostitutiva e nessun oggetto disegnato. La scultura E1 conserva lo sfondo come richiesto; la foto E2 rimane tra i riferimenti ma non va inserita nell’HTML né nei crediti delle immagini effettivamente usate.

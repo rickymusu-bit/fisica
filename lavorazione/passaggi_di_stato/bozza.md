@@ -154,11 +154,11 @@ La sigla **MJ** indica i megajoule: un megajoule corrisponde a un milione di jou
 
 ### Vaporizzare l'acqua
 
-Consideriamo ora **gli stessi 500 kg d'acqua ottenuti dalla fusione della scultura**, già portati alla temperatura di ebollizione: circa **100 °C** alla pressione atmosferica ordinaria. Quanta energia serve per trasformare tutta quest'acqua in vapore? Calcoliamo soltanto l'energia della vaporizzazione, senza includere quella usata per riscaldare l'acqua da 0 °C a 100 °C e trascurando le dispersioni. Nel modello immaginiamo un recipiente di capacità adeguata; la fotografia illustra il fenomeno dell'ebollizione.
+Consideriamo ora **gli stessi 500 kg d'acqua ottenuti dalla fusione della scultura**, già portati alla temperatura di ebollizione: circa **100 °C** alla pressione atmosferica ordinaria. Quanta energia serve per trasformare tutta quest'acqua in vapore? Calcoliamo soltanto l'energia della vaporizzazione, senza includere quella usata per riscaldare l'acqua da 0 °C a 100 °C e trascurando le dispersioni.
 
-[SCHEMA E2 — `risorse/schema-vaporizzazione.svg`, con la foto scelta `risorse/acqua-ebollizione.jpg` integrale e sfondo conservato. Dati dell’esercizio: stessa massa della scultura, m = 500 kg, temperatura iniziale circa 100 °C, pressione atmosferica ordinaria; Q entrante; stato finale vapore alla stessa temperatura. La foto illustra il fenomeno; dati e frecce fuori dalla foto.]
+[SCHEMA E2 — `risorse/schema-vaporizzazione.svg`, senza fotografia. Dati dell’esercizio: m = 500 kg, temperatura iniziale circa 100 °C, pressione atmosferica ordinaria; Q entrante; stato finale vapore alla stessa temperatura. Nessun recipiente disegnato o altra immagine sostitutiva.]
 
-Didascalia E2: Consideriamo i 500 kg d'acqua già a circa 100 °C. L'energia calcolata serve soltanto a vaporizzarli; la fotografia illustra l'ebollizione.
+Didascalia E2: I 500 kg d’acqua sono già all’ebollizione. L’energia ricevuta serve soltanto a trasformarli in vapore alla stessa temperatura.
 
 Per vaporizzare ogni kilogrammo, alle condizioni indicate, servono circa 2.257.000 J. Moltiplichiamo questo valore del calore latente di vaporizzazione Lv per la massa totale:
 

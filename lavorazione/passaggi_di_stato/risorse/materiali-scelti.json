@@ -130,7 +130,7 @@
     "supplied_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/Water_boiling_in_a_pot_on_a_stove.jpg/960px-Water_boiling_in_a_pot_on_a_stove.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "source": "https://commons.wikimedia.org/wiki/File:Water_boiling_in_a_pot_on_a_stove.jpg",
     "approval": "scelta esplicita dell’utente",
-    "background": "conservato, senza rimozioni né ritagli",
+    "background": "precedente richiesta superata dalla rimozione della fotografia",
     "modifications": "nessuna",
     "author": "Tomwsulcer",
     "license": "CC0",
@@ -149,9 +149,10 @@
     "original_bytes": 226647,
     "original_sha256": "dcaef9789d07dd40a80829794cb686ab776bf4e3cbd2657c00f72eb8576dc377",
     "visual_review": "foto integra e ispezionata; background conservato su istruzione esplicita dell’utente",
-    "composition": "schema-vaporizzazione.svg",
+    "composition": "schema-vaporizzazione.svg, ora senza foto",
     "photo_modifications": "nessuna; dati e frecce aggiunti fuori dalla fotografia nella composizione SVG",
-    "exercise_data": "stessa massa della scultura: 500 kg di acqua già a circa 100 °C, pressione atmosferica; Q di sola vaporizzazione = 1.128.500.000 J = 1128,5 MJ; foto illustrativa del fenomeno",
-    "measurements": "dati dell’esercizio, non misure ricavate dalla fotografia"
+    "exercise_data": "500 kg d’acqua già a circa 100 °C, pressione atmosferica; Q di sola vaporizzazione = 1128,5 MJ",
+    "measurements": "dati dell’esercizio, non misure ricavate dalla fotografia",
+    "integration_status": "fotografia esclusa dalla dispensa per ultima richiesta dell’utente; file e originale conservati solo come riferimento"
   }
 ]

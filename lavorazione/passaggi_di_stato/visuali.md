@@ -9,7 +9,7 @@
 | A2 | [Unità pompa di calore](https://commons.wikimedia.org/wiki/File:Heat_pump_unit.webp) | [pompa-di-calore.webp](risorse/pompa-di-calore.webp), 960 × 1280 px, 311.006 byte; originale conservato | Wikideas1; CC0 |
 | A3 | [Centrale nucleare PWR](https://commons.wikimedia.org/wiki/File:PWR_nuclear_power_plant_diagram.svg) | [centrale-nucleare.png](risorse/centrale-nucleare.png), 960 × 499 px, 122.978 byte; originale SVG conservato | Tennessee Valley Authority; pubblico dominio (PD-USGov-TVA) |
 | E1 | [Scultura di ghiaccio](https://commons.wikimedia.org/wiki/File:Ai_Weiweis_Ice_Sculptures_in_Stockholm_2014.jpg) | [scultura-ghiaccio.jpg](risorse/scultura-ghiaccio.jpg), anteprima 960 × 1232 px; originale conservato | Frankie Fouganthin; CC BY-SA 4.0 |
-| E2 | [Acqua che bolle](https://commons.wikimedia.org/wiki/File:Water_boiling_in_a_pot_on_a_stove.jpg) | [acqua-ebollizione.jpg](risorse/acqua-ebollizione.jpg), anteprima 960 × 966 px; originale 918 × 924 px conservato | Tomwsulcer; CC0 |
+| E2, foto esclusa | [Riferimento conservato: acqua che bolle](https://commons.wikimedia.org/wiki/File:Water_boiling_in_a_pot_on_a_stove.jpg) | [acqua-ebollizione.jpg](risorse/acqua-ebollizione.jpg), anteprima 960 × 966 px; originale 918 × 924 px conservato | Tomwsulcer; CC0 |
 
 Tutte e sei scelte esplicitamente dall’utente, scaricate e ispezionate senza modifiche. [Registro con URL ricevute, fonti, condizioni e hash](risorse/materiali-scelti.json). Non richiedere una nuova approvazione delle stesse scelte.
 
@@ -31,12 +31,12 @@ P1: [schema dei passaggi](risorse/schema-passaggi.md), triangolo e variante vert
 
 ## Schemi dei due esercizi completati
 
-L’utente fornisce le foto E1 ed E2 e richiede **«Tieni il background per entrambe»**. Questa istruzione esplicita prevale sulla regola generale del fondo trasparente per gli esercizi: nessuna rimozione dello sfondo o nuovo consenso da chiedere. Le foto restano integrali, con dati e frecce in uno spazio separato, senza alterare la scena.
+L’utente fornisce le foto E1 ed E2 e richiede **«Tieni il background per entrambe»**. Questa istruzione esplicita prevale sulla regola generale del fondo trasparente per gli esercizi: nessuna rimozione dello sfondo o nuovo consenso da chiedere. La foto E1 resta integrale, con dati e frecce in uno spazio separato. La richiesta successiva «Togli proprio la foto» rimuove la fotografia E2 dall’integrazione: resta soltanto lo schema con dati, stati e frecce.
 
 - [Schema E1: fusione](risorse/schema-fusione.svg). Dopo la correzione «cambia i numeri per adattarli alla statua», l’esercizio considera una **scultura intera ipotizzata di 500 kg**, già a 0 °C. Non una porzione da 0,50 kg e non una massa dichiarata come misurata sulla scultura fotografata. Risultato 167.000.000 J = 167 MJ; temperatura finale dell’acqua 0 °C. Conservare il credito della foto di Frankie Fouganthin, CC BY-SA 4.0, anche nella composizione.
-- [Schema E2: vaporizzazione](risorse/schema-vaporizzazione.svg). Stessa massa della scultura: 500 kg di acqua già a circa 100 °C, pressione atmosferica ordinaria; Q entrante e vapore finale alla stessa temperatura. Foto di Tomwsulcer, CC0. La foto illustra l’ebollizione; il modello considera un recipiente di capacità adeguata alla massa totale.
+- [Schema E2: vaporizzazione](risorse/schema-vaporizzazione.svg). Stessa massa della scultura: 500 kg di acqua già a circa 100 °C, pressione atmosferica ordinaria; Q entrante e vapore finale alla stessa temperatura. Nessuna fotografia: soltanto stati, dati e frecce degli scambi di energia. La precedente foto di Tomwsulcer, CC0, resta conservata come riferimento e non va incorporata nella dispensa.
 
-Entrambi gli SVG incorporano esattamente i byte delle foto selezionate, con proporzioni originali; descrizione accessibile, dati e frecce prima dei calcoli. Anteprime ispezionate nel browser a 600 px; non è una verifica dell’HTML finale, non ancora realizzato. Le fotografie e gli originali sono conservati separatamente.
+E1 incorpora esattamente i byte della foto selezionata, con proporzioni originali. E2 non contiene immagini incorporate. Entrambi hanno descrizione accessibile, dati e frecce prima dei calcoli. Anteprime ispezionate nel browser a 600 px; non è una verifica dell’HTML finale, non ancora realizzato. Le fotografie e gli originali sono conservati separatamente.
 
 Tutti i visuali di Passaggi di stato sono ora disponibili. Nessun file ulteriore richiesto. Per ultima richiesta dell’utente eliminato il confronto tra i due risultati. Il secondo svolgimento e la domanda 6 chiedono l’energia per vaporizzare gli stessi 500 kg d’acqua, già a circa 100 °C: risultato dello svolgimento 1.128.500.000 J = 1128,5 MJ, senza includere il riscaldamento da 0 °C. Schema E2 allineato.
 
