@@ -1,6 +1,6 @@
 # Stato — Stati della materia
 
-Ultimo aggiornamento: 2026-10-17 21:39 (Europe/Rome). Master v53; letti integralmente master, stato della fonte e riferimenti `STILE_DISPENSE.md` ed `esempio_irraggiamento.md`.
+Ultimo aggiornamento: 2026-10-17 22:06 (Europe/Rome). Master v53; letti integralmente master, stato della fonte e riferimenti `STILE_DISPENSE.md` ed `esempio_irraggiamento.md`.
 
 ## Ambito e origine
 
@@ -33,3 +33,11 @@ Prossima operazione: presentare schema e candidate GIF, raccogliere scelta e nuo
 ## Ricerca affidata all’utente
 
 Ultima indicazione: **«Cerco io»**. La ricerca e la scelta dei materiali visuali sono curate dall’utente; non proseguire autonomamente ricerche di foto o GIF. Attendere i file o i collegamenti scelti, poi controllarne contenuto, licenza e dimensioni prima dell’integrazione. Nessuna candidata GIF già considerata scelta.
+
+## Materiali selezionati dall’utente e salvati
+
+Ricevuti otto collegamenti espliciti: copertina ghiaccio in mare; bismuto; vetro; schema cristallino/policristallino/amorfo; GIF viscosità; olio sulla pizza; dirigibile; scarica nell’argon. Tutti acquisiti e ispezionati, con originali conservati, metadati, licenze e hash nel [registro](risorse/materiali-scelti.json). Gli otto file sono scelti dall’utente: nessuna conferma ulteriore della stessa scelta è necessaria. Nessuna modifica grafica o compressione effettuata.
+
+Bozza aggiornata in funzione dei soggetti effettivi, compresi apertura e domande; lo schema scelto sostituisce il provvisorio M10 e il testo spiega brevemente il pannello policristallino. Vetro: originale solo 172 × 339 px; non ingrandire. GIF viscosità conservata animata, 63 fotogrammi; verificati quattro fotogrammi distribuiti. Nessun esperimento o dato fisico inventato.
+
+Questo aggiornamento supera le precedenti indicazioni «C1 da fornire», «foto da cercare», «schema M10 provvisorio» e il blocco HTTP 403 per questi otto file. Restano **M6–M8, le tre GIF del moto particellare**: non confonderle con quella della viscosità. Nessuna ricerca autonoma ulteriore. Punti aperti correnti: tre GIF, conferma del testo adattato, poi stima aggiornata e via alla realizzazione HTML. La bozza di Passaggi di stato rimane approvata; nessun HTML ufficiale o sito modificato.

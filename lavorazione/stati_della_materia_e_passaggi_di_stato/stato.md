@@ -51,3 +51,7 @@ Richiesta esplicita dell’utente: rimuovere versione e data dai nomi, conservan
 ## Approvazione del testo sui passaggi e nuovo schema
 
 L’utente affida a sé la ricerca dei materiali («Cerco io») e approva il testo di Passaggi di stato («va tutto bene»), chiedendo di creare uno schema simile alla mappa con le frecce. Schema P1 realizzato in SVG, con disposizione a triangolo e variante verticale per smartphone, controllato nelle due anteprime. [Registro dello schema](../passaggi_di_stato/risorse/schema-passaggi.md). Bozza aggiornata al nuovo schema; HTML ufficiale e pubblicazione invariati. Prossima operazione: consegnare lo schema e attendere i materiali ancora mancanti prima della realizzazione completa.
+
+## Materiali di Stati della materia ricevuti
+
+Otto materiali scelti tramite collegamenti Wikimedia acquisiti e conservati insieme agli originali. [Registro visuali aggiornato](../stati_della_materia/visuali.md). Bozza adattata a ghiaccio in mare, bismuto, vetro, struttura policristallina, viscosità, olio, dirigibile e scarica nell’argon. Il limite di download precedente è risolto per questi file. Il vetro ha originale di 172 × 339 px; restano da fornire le tre GIF del moto particellare. Nessuna modifica all’HTML ufficiale o alla pubblicazione.
