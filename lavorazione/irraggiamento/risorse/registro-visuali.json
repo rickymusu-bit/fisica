@@ -1,5 +1,5 @@
 {
-  "aggiornamento": "17 ottobre 2026, ore 12:18 (Europe/Rome)",
+  "aggiornamento": "17 ottobre 2026, ore 12:24 (Europe/Rome)",
   "materiali": [
     {
       "id": "C1",
@@ -130,6 +130,27 @@
       "licenza": null,
       "stato_diritti": "Da verificare sulla fonte originale",
       "versione_modificata": null
+    },
+    {
+      "id": "A4-animazione",
+      "soggetto": "Animazione degli scambi radiativi Sole–Terra–atmosfera",
+      "url_originale_fornito": null,
+      "file_originale_ricevuto": "14912.gif",
+      "scelta": "Fornita e scelta dall’utente con richiesta di specificare la parte riflessa indietro",
+      "file_locale": "effetto-serra.gif",
+      "stato_lavorazione": "Originale conservato e ispezionato in tre fotogrammi; nessuna modifica",
+      "dimensioni_px": [
+        600,
+        400
+      ],
+      "fotogrammi": 88,
+      "byte": 1609009,
+      "sha256": "cc641538a374ded9cc2df4406f99e834c8c6fdfe62caea5c7d5d927323c8597b",
+      "autore": null,
+      "licenza": null,
+      "stato_diritti": "Fonte e licenza non indicate nell’allegato; da verificare prima della consegna finale",
+      "versione_modificata": null,
+      "intervento_richiesto": "Usare l’animazione e spiegare che una parte della radiazione solare viene riflessa verso lo spazio; distinguere questo fenomeno dall’assorbimento e riemissione dell’infrarosso da parte dell’atmosfera, anche verso la superficie terrestre."
     }
   ]
 }
