@@ -1,6 +1,6 @@
 # PROMPT MASTER — DISPENSE VISUALI DI FISICA PER IL BIENNIO DEGLI ISTITUTI TECNICI
 
-VERSIONE DEL PROMPT: v52 — 17 ottobre 2026, ore 00:09 (Europe/Rome)
+VERSIONE DEL PROMPT: v53 — 17 ottobre 2026, ore 20:18 (Europe/Rome)
 
 Questo master raccoglie le regole della dispensa e la procedura per realizzarla con il minor lavoro ripetuto possibile. Le istruzioni relative a immagini, video, traduzioni e simulazioni si applicano quando quei materiali fanno parte della richiesta. Non aggiungere contenuti o lavorazioni solo perché il master ne descrive la gestione.
 
@@ -158,6 +158,8 @@ Conserva testo, formule, dati, immagini, attività e stile che non sono coinvolt
 Evita operazioni ripetute senza motivo: recuperi dello stesso file ancora corrente, ricerche già concluse, copie intermedie non utili, render e verifiche identici dopo controlli già superati. Conserva risultati e materiali intermedi riutilizzabili durante il lavoro. Il risparmio non deve eliminare controlli necessari né ridurre la qualità scientifica o la leggibilità.
 
 Durante il lavoro comunica avvio, fasi principali concluse e verifiche in corso con aggiornamenti brevi e concreti. Non lasciare passare più di circa 60 secondi senza un aggiornamento per lavori lunghi. Per un lavoro breve bastano avvio e consegna. Al termine indica file e versione, spiegando in una frase il cambiamento principale. Se rilevi che il contesto diventa problematico per conservare istruzioni, decisioni o dettagli del lavoro, avvisa esplicitamente l’utente: «Il contesto sta diventando problematico: salvo lo stato del lavoro per poter proseguire senza perdere le decisioni approvate». Non dichiarare percentuali o token residui non misurabili e non garantire di anticipare ogni compattazione automatica. Salva lo stato secondo B6 prima di proseguire con lavorazioni estese; se necessario proponi una nuova chat dello stesso progetto. Non attendere questo avviso per effettuare i salvataggi ai passaggi principali.
+
+Per ogni modifica al sito, prepara e consegna automaticamente un’anteprima aggiornata prima della pubblicazione, senza aspettare una richiesta separata. Fornisci un’anteprima HTML interattiva e immagini delle parti modificate, includendo la vista mobile quando pertinente; l’anteprima deve permettere di verificare il risultato effettivo e i comandi coinvolti. La consegna dell’anteprima non equivale alla pubblicazione.
 
 ### B6. Continuità e ripresa del singolo capitolo
 
