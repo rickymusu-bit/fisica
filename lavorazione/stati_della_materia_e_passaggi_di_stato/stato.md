@@ -1,5 +1,11 @@
 # Stato — Stati della materia e passaggi di stato
 
+## Revisione corrente — 2026-10-18 01:30 (Europe/Rome)
+
+Richiesta diretta: note collassabili, pulsanti «Biblioteca», riparazione dei modelli particellari e del grafico del calore latente, note anche per Irraggiamento. L’utente ha precisato che il problema si presenta nell’**anteprima dentro ChatGPT**. Master **v56** consultato integralmente; modello autonomo **v3**. Regole persistenti aggiornate in A6, AGENTS e STILE_DISPENSE. Note native `details`/`summary`, chiuse all’apertura, con richiami che aprono la sezione e ritorni. Etichetta «← Biblioteca» nei due collegamenti di ciascun capitolo e nel modello. Tema comune riusato integralmente, senza altre varianti grafiche.
+
+Stati della materia v13; Passaggi di stato v14; Irraggiamento v5. Anteprime e verifiche della revisione corrente in `verifica-interazioni.json`. Nessuna pubblicazione.
+
 Ultimo aggiornamento: 2026-10-17 20:55 (Europe/Rome). Master applicato: **v53**, letto integralmente insieme ai due riferimenti di stile.
 
 Fase corrente: suddivisione e tema approvati; bozze complete scritte e controllate, da sottoporre all’approvazione per la revisione richiesta il 17 ottobre 2026. Ramo dedicato `revisione/materia-passaggi-capitoli`, derivato da `main` al commit `d72296ad77a2ae92342386c7dfeb73cc1b44e736`. HTML ufficiale ancora v8: nessuna nuova versione realizzata, integrata o pubblicata.

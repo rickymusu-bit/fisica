@@ -1,0 +1,44 @@
+[
+  {
+    "canvas": "solidMotion",
+    "gif": "anteprima-solido.gif",
+    "poster": "anteprima-solido.png",
+    "dimensioni": [
+      280,
+      240
+    ],
+    "fotogrammi": 60,
+    "durata_ms": 6000,
+    "byte": 431754,
+    "derivazione": "Fotogrammi acquisiti dalle simulazioni originali nel browser, stessa dimensione; anteprima animata quando gli script non vengono eseguiti. Il modello JavaScript interattivo resta incluso.",
+    "sha256_gif": "dbab3fdd6a6d32444655f49a679328d0da14e9bd4b8e15416ac909aa6f808019"
+  },
+  {
+    "canvas": "liquidMotion",
+    "gif": "anteprima-liquido.gif",
+    "poster": "anteprima-liquido.png",
+    "dimensioni": [
+      280,
+      240
+    ],
+    "fotogrammi": 60,
+    "durata_ms": 6000,
+    "byte": 368084,
+    "derivazione": "Fotogrammi acquisiti dalle simulazioni originali nel browser, stessa dimensione; anteprima animata quando gli script non vengono eseguiti. Il modello JavaScript interattivo resta incluso.",
+    "sha256_gif": "7dc380575133d4b815c0c465241462af8aa4eb76c3d84fdbc6890710afd7c48c"
+  },
+  {
+    "canvas": "gasMotion",
+    "gif": "anteprima-gas.gif",
+    "poster": "anteprima-gas.png",
+    "dimensioni": [
+      280,
+      240
+    ],
+    "fotogrammi": 60,
+    "durata_ms": 6000,
+    "byte": 210789,
+    "derivazione": "Fotogrammi acquisiti dalle simulazioni originali nel browser, stessa dimensione; anteprima animata quando gli script non vengono eseguiti. Il modello JavaScript interattivo resta incluso.",
+    "sha256_gif": "5847230af0dcb9a3b582f3024a79ae78dbd95c0b70c65e8f61d0dc448e574e0d"
+  }
+]

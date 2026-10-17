@@ -1,6 +1,6 @@
 # Stile delle dispense di fisica
 
-Versione v4 · 18 ottobre 2026, ore 00:44 (Europe/Rome).
+Versione v5 · 18 ottobre 2026, ore 01:26 (Europe/Rome).
 
 Riferimento approvato dall'utente per tutte le dispense esistenti e future. Deriva dalle caratteristiche generali del testo giornalistico fornito sui telefoni e dalla prova sull'irraggiamento con l'integrazione delle formule, approvata in chat. Il testo sui telefoni è un riferimento esclusivamente linguistico: non ne trasferire fatti, giudizi o conclusioni nelle dispense. Il campione operativo è [esempio_irraggiamento.md](esempio_irraggiamento.md). Il master resta la fonte delle regole di progetto. Il tema grafico comune è salvato separatamente nel modello autonomo [TEMA_DISPENSE.html](TEMA_DISPENSE.html), da applicare ai capitoli futuri secondo A6 del master.
 
@@ -13,7 +13,7 @@ Riferimento approvato dall'utente per tutte le dispense esistenti e future. Deri
 - Partire dal fenomeno, introdurre il nome del concetto quando serve e spiegarlo nel punto in cui compare. Il lessico tecnico è uno strumento per comprendere.
 - Integrare nella teoria esempi brevi che rendono concreto un passaggio. Le eventuali applicazioni sviluppate ed esercizi svolti occupano le parti opzionali previste in A3 del master.
 - Usare pochi titoli interni significativi; lasciare che siano i collegamenti tra i paragrafi a guidare la lettura.
-- Affrontare intuizioni sbagliate e obiezioni nel punto in cui possono sorgere. Conservare le precisazioni scientifiche nelle note a piè di pagina, con richiami nel testo, secondo A1 e A6 del master; evitare che cautele ed eccezioni interrompano la spiegazione.
+- Affrontare intuizioni sbagliate e obiezioni nel punto in cui possono sorgere. Conservare le precisazioni scientifiche nelle note a piè di pagina collassabili e inizialmente chiuse, con richiami nel testo, secondo A1 e A6 del master; evitare che cautele ed eccezioni interrompano la spiegazione.
 - Non aggiungere automaticamente un riepilogo separato.
 - Descrivere nelle didascalie ciò che si vede e il collegamento con il ragionamento, senza ripetere il testo.
 

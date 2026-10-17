@@ -1,6 +1,6 @@
 # PROMPT MASTER — DISPENSE VISUALI DI FISICA PER IL BIENNIO DEGLI ISTITUTI TECNICI
 
-VERSIONE DEL PROMPT: v55 — 18 ottobre 2026, ore 00:49 (Europe/Rome)
+VERSIONE DEL PROMPT: v56 — 18 ottobre 2026, ore 01:26 (Europe/Rome)
 
 Questo master raccoglie le regole della dispensa e la procedura per realizzarla con il minor lavoro ripetuto possibile. Le istruzioni relative a immagini, video, traduzioni e simulazioni si applicano quando quei materiali fanno parte della richiesta. Non aggiungere contenuti o lavorazioni solo perché il master ne descrive la gestione.
 
@@ -95,9 +95,9 @@ Ogni capitolo futuro, e ogni revisione per cui è richiesto il tema comune, usa 
 
 Usa HTML semantico, figure con didascalia, gerarchia corretta dei titoli, descrizioni accessibili pertinenti, contrasto sufficiente, navigazione da tastiera e focus visibile. Non affidare un’informazione al solo colore. L’alt descrive ciò che è utile capire, senza limitarsi al nome del file. L’indice è semplice, cliccabile e posto all’inizio del contenuto; ogni capitolo o sottoparte ha un id. Puoi inserire collegamenti discreti per tornare all’indice interno.
 
-Ogni nuovo capitolo deve includere due tasti «← Indice dei materiali»: uno all’inizio del documento e uno alla fine del contenuto, prima del piè di pagina. Realizzali come collegamenti HTML all’indice generale `https://rickymusu-bit.github.io/fisica/#indice`, così sono utilizzabili anche dalle copie HTML scaricate quando è disponibile Internet. Mantieni lo stile approvato, un’area cliccabile alta almeno 44 px, il focus visibile e l’uso da tastiera.
+Ogni nuovo capitolo deve includere due tasti «← Biblioteca»: uno all’inizio del documento e uno alla fine del contenuto, prima del piè di pagina. Realizzali come collegamenti HTML all’indice generale `https://rickymusu-bit.github.io/fisica/#indice`, così sono utilizzabili anche dalle copie HTML scaricate quando è disponibile Internet. Mantieni lo stile approvato, un’area cliccabile alta almeno 44 px, il focus visibile e l’uso da tastiera.
 
-Realizza le note a piè di pagina con richiami numerati e cliccabili nel testo e una sezione «Note» al termine del contenuto, prima dei crediti e del piè di pagina. Usa ancore stabili, collegamenti di ritorno e descrizioni accessibili; devono funzionare anche offline e su smartphone. Il piè di pagina resta limitato a versione e data: le note sono un elemento distinto.
+Realizza le note a piè di pagina con richiami numerati e cliccabili nel testo e una sezione «Note» collassabile, inizialmente chiusa, al termine del contenuto prima dei crediti e del piè di pagina. Usa gli elementi nativi <details> e <summary>, ancore stabili, collegamenti di ritorno e descrizioni accessibili; il clic su un richiamo deve rendere visibile la nota corrispondente. Note, apertura e ritorni devono funzionare anche offline e su smartphone. Il piè di pagina resta limitato a versione e data: le note sono un elemento distinto. I collegamenti alla home/biblioteca si chiamano «Biblioteca», mantenendo il percorso dell’indice generale già stabilito.
 
 Se compare il nome dell’autore, scrivi «Riccardo Musumarra» con maiuscole normali, salvo diversa richiesta o prescrizione del documento da compilare.
 

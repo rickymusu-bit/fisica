@@ -1,62 +1,47 @@
 {
-  "stati_della_materia": {
-    "versione": "v12",
-    "peso_byte": 6520699,
-    "css_modello_identico": true,
-    "js_tema_identico": true,
-    "foto_e_gif_conservate": true,
-    "modello_sha256": "632ffc0a9bcf34ecdead6639ceb9186ee021ab70039b77fba3bc2d2d8e766083",
-    "modello_versione": "v2"
-  },
-  "passaggi_di_stato": {
-    "versione": "v13",
-    "peso_byte": 14553082,
-    "css_modello_identico": true,
-    "js_tema_identico": true,
-    "foto_e_gif_conservate": true,
-    "modello_sha256": "632ffc0a9bcf34ecdead6639ceb9186ee021ab70039b77fba3bc2d2d8e766083",
-    "modello_versione": "v2"
-  },
-  "browser": [
-    {
-      "capitolo": "stati_della_materia",
-      "versione": "v12",
-      "larghezza": 390,
-      "offline": true,
-      "overflow": false,
-      "errori_js": [],
-      "domande": 6,
-      "richiami_e_ritorni_verificati": 9
-    },
-    {
-      "capitolo": "stati_della_materia",
-      "versione": "v12",
-      "larghezza": 1280,
-      "offline": true,
-      "overflow": false,
-      "errori_js": [],
-      "domande": 6,
-      "richiami_e_ritorni_verificati": 9
-    },
-    {
-      "capitolo": "passaggi_di_stato",
+  "revisione_corrente": {
+    "stati_della_materia": {
       "versione": "v13",
-      "larghezza": 390,
-      "offline": true,
-      "overflow": false,
-      "errori_js": [],
-      "domande": 8,
-      "richiami_e_ritorni_verificati": 23
+      "peso_byte": 7892485,
+      "note": 6,
+      "richiami": 9,
+      "css_modello_identico": true,
+      "js_tema_identico": true,
+      "foto_e_gif_conservate": true,
+      "formule_e_domande_conservate": true,
+      "bozza_html_sincronizzata": true,
+      "ancore_e_ritorni_coerenti": true,
+      "modello_sha256": "b6916049c07467b8d9ff186b6a149805068ae2c1a31674b02dcc661545c764a6",
+      "modello_versione": "v3"
     },
-    {
-      "capitolo": "passaggi_di_stato",
-      "versione": "v13",
-      "larghezza": 1280,
-      "offline": true,
-      "overflow": false,
-      "errori_js": [],
-      "domande": 8,
-      "richiami_e_ritorni_verificati": 23
+    "passaggi_di_stato": {
+      "versione": "v14",
+      "peso_byte": 14558814,
+      "note": 22,
+      "richiami": 23,
+      "css_modello_identico": true,
+      "js_tema_identico": true,
+      "foto_e_gif_conservate": true,
+      "formule_e_domande_conservate": true,
+      "bozza_html_sincronizzata": true,
+      "ancore_e_ritorni_coerenti": true,
+      "modello_sha256": "b6916049c07467b8d9ff186b6a149805068ae2c1a31674b02dcc661545c764a6",
+      "modello_versione": "v3"
+    },
+    "irraggiamento_it": {
+      "versione": "v5",
+      "peso_byte": 5989222,
+      "note": 15,
+      "richiami": 15,
+      "css_modello_identico": true,
+      "js_tema_identico": true,
+      "foto_e_gif_conservate": true,
+      "formule_e_domande_conservate": true,
+      "bozza_html_sincronizzata": true,
+      "ancore_e_ritorni_coerenti": true,
+      "modello_sha256": "b6916049c07467b8d9ff186b6a149805068ae2c1a31674b02dcc661545c764a6",
+      "modello_versione": "v3"
     }
-  ]
+  },
+  "browser": "verifica-interazioni.json"
 }

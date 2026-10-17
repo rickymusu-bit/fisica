@@ -12,4 +12,6 @@ Prima di scrivere o rivedere il testo delle dispense leggi anche `riferimenti/ST
 
 Per impaginare o rivedere gli HTML applica automaticamente l’esatto tema grafico comune salvato nel modello autonomo `riferimenti/TEMA_DISPENSE.html`, già approvato, secondo A6 del master; non chiedere di scegliere nuovamente il template. Nei calcoli applica notazione esponenziale e prefissi SI secondo A4; interpreta i risultati degli esercizi con i confronti concreti previsti da A5.
 
-Colloca le precisazioni nelle note a piè di pagina con richiami e ritorni cliccabili, secondo A1 e A6 del master, mantenendo versione e data separate nel piè di pagina.
+Colloca le precisazioni nelle note a piè di pagina collassabili, inizialmente chiuse, con richiami e ritorni cliccabili, secondo A1 e A6 del master, mantenendo versione e data separate nel piè di pagina.
+
+I collegamenti alla home si chiamano «Biblioteca», secondo A6; usa il componente di note aggiornato nel modello autonomo.

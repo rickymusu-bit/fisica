@@ -1,5 +1,13 @@
 # Stato — Stati della materia
 
+## Revisione corrente — 2026-10-18 01:30 (Europe/Rome)
+
+Richiesta diretta: note collassabili, pulsanti «Biblioteca», riparazione dei modelli particellari e del grafico del calore latente, note anche per Irraggiamento. L’utente ha precisato che il problema si presenta nell’**anteprima dentro ChatGPT**. Master **v56** consultato integralmente; modello autonomo **v3**. Regole persistenti aggiornate in A6, AGENTS e STILE_DISPENSE. Note native `details`/`summary`, chiuse all’apertura, con richiami che aprono la sezione e ritorni. Etichetta «← Biblioteca» nei due collegamenti di ciascun capitolo e nel modello. Tema comune riusato integralmente, senza altre varianti grafiche.
+
+**Versione corrente v13**, HTML e bozza sincronizzati. Dimensioni intrinseche dichiarate per le immagini, per riservare lo spazio ed evitare spostamenti durante i salti alle note. Le tre simulazioni JavaScript sono conservate; la funzione del modello originale è incorporata senza cambiamenti. I tre controlli di pausa/avvio sono indipendenti e rispettano la preferenza di movimento ridotto. Se gli script non sono eseguiti, vengono mostrate tre GIF di 6 s ricavate dai canvas originali a 280 × 240 px, con poster statici per movimento ridotto. Non sono simulazioni sostitutive né nuovi modelli fisici. Risorse e derivazione in `risorse/anteprime-modelli.json`. Foto scelte e GIF della viscosità conservate; 6 note, 9 richiami, 6 domande.
+
+Peso corrente 7892485 byte, sotto 18 MB. Verifiche della revisione corrente: `../stati_della_materia_e_passaggi_di_stato/verifica-interazioni.json`; anteprime desktop/mobile aggiornate nella cartella del capitolo. Consegna per lettura; **nessuna pubblicazione né unione in main**. I paragrafi sottostanti conservano la cronologia; il presente blocco identifica lo stato corrente.
+
 Ultimo aggiornamento: 2026-10-17 22:14 (Europe/Rome). Master v53, letto integralmente con i riferimenti di stile; intestazione e hash ricontrollati, invariati. Ramo `revisione/materia-passaggi-capitoli`, derivato da `main` al commit `d72296ad77a2ae92342386c7dfeb73cc1b44e736`.
 
 ## Ambito e fonte

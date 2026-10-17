@@ -110,5 +110,19 @@
       "peso_byte": 14553082,
       "tema_immagini_script_calcoli_invariati": true
     }
+  },
+  "ambito_rapporto": "Verifiche delle revisioni precedenti v12/v13; verifica-interazioni.json contiene la revisione corrente v13/v14/v5.",
+  "revisione_corrente": {
+    "rapporto": "verifica-interazioni.json",
+    "versioni": {
+      "stati_della_materia": "v13",
+      "passaggi_di_stato": "v14",
+      "irraggiamento_it": "v5"
+    },
+    "peso_byte": {
+      "stati_della_materia": 7892485,
+      "passaggi_di_stato": 14558814,
+      "irraggiamento_it": 5989222
+    }
   }
 }

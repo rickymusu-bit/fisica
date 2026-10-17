@@ -1,5 +1,13 @@
 # Stato — Irraggiamento
 
+## Revisione corrente — 2026-10-18 01:30 (Europe/Rome)
+
+Richiesta diretta: note collassabili, pulsanti «Biblioteca», riparazione dei modelli particellari e del grafico del calore latente, note anche per Irraggiamento. L’utente ha precisato che il problema si presenta nell’**anteprima dentro ChatGPT**. Master **v56** consultato integralmente; modello autonomo **v3**. Regole persistenti aggiornate in A6, AGENTS e STILE_DISPENSE. Note native `details`/`summary`, chiuse all’apertura, con richiami che aprono la sezione e ritorni. Etichetta «← Biblioteca» nei due collegamenti di ciascun capitolo e nel modello. Tema comune riusato integralmente, senza altre varianti grafiche.
+
+**Versione corrente v5**, revisione locale richiesta sul capitolo v4 già pubblicato. Create 15 note per definizioni accessorie, ipotesi delle formule, limiti della termocamera e dei rivestimenti, interpretazione del bilancio terrestre. Precisazioni conservate nelle note e richiamate nel punto pertinente. Nel corpo restano fenomeni, grandezze e relazioni necessarie; formule e immagini/GIF confrontate con v4 e identiche. HTML e bozza testuale in questa cartella; versione autonoma alla radice. L’autorizzazione storica alla pubblicazione della v4 non è estesa a questa revisione.
+
+Peso corrente 5989222 byte, sotto 18 MB. Verifiche della revisione corrente: `../stati_della_materia_e_passaggi_di_stato/verifica-interazioni.json`; anteprime desktop/mobile aggiornate nella cartella del capitolo. Consegna per lettura; **nessuna pubblicazione né unione in main**. I paragrafi sottostanti conservano la cronologia; il presente blocco identifica lo stato corrente.
+
 Aggiornamento: 17/10/2026 19:16 (Europe/Rome).
 
 L’utente ha chiesto esplicitamente «pubblica l’irraggiamento». Il capitolo pronto v3 proviene dal ramo `istruzioni/tema-mac`, commit `cc7ab4aad36c88e4fda6ee1ad59208cfd88bca36`. Testo, formule, immagini, GIF, ingrandimenti e navigazione dell’articolo sono conservati identici alla versione approvata. Per rispettare la preferenza di non mostrare nome e cognome, rimosso soltanto il meta autore e aggiornata la versione interna e il piè di pagina a v4.

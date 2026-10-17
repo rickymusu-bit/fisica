@@ -47,3 +47,7 @@ La richiesta supera la precedente ricerca di GIF sostitutive: **non servono più
 ## Prossimo passaggio
 
 La bozza ora riflette foto e schema scelti, GIF della viscosità e simulazioni microscopiche originali. Dopo la conferma del testo adattato, aggiornare la stima e raccogliere il via alla realizzazione HTML secondo B1.1–B2. Provare le animazioni nel nuovo impaginato quando sarà realizzato; nessuna prova browser nuova dichiarata in questo aggiornamento di lavorazione. Non modificare sito o pubblicazione.
+
+## Compatibilità dell’anteprima ChatGPT — revisione corrente
+
+I modelli M6–M8 restano interattivi nell’HTML completo. Per la riparazione richiesta sono aggiunte tre GIF di anteprima ricavate dai modelli esistenti, visualizzate quando gli script sono bloccati. Nessuna ricerca di immagini né modifica alla fisica. Originali JavaScript conservati; [registro e pesi delle anteprime](risorse/anteprime-modelli.json), 280 × 240 px, 60 fotogrammi, 6 s, poster statici per movimento ridotto. Le foto e la GIF M11 restano immutate.

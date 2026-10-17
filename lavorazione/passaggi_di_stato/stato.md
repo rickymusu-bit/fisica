@@ -1,5 +1,13 @@
 # Stato — Passaggi di stato
 
+## Revisione corrente — 2026-10-18 01:30 (Europe/Rome)
+
+Richiesta diretta: note collassabili, pulsanti «Biblioteca», riparazione dei modelli particellari e del grafico del calore latente, note anche per Irraggiamento. L’utente ha precisato che il problema si presenta nell’**anteprima dentro ChatGPT**. Master **v56** consultato integralmente; modello autonomo **v3**. Regole persistenti aggiornate in A6, AGENTS e STILE_DISPENSE. Note native `details`/`summary`, chiuse all’apertura, con richiami che aprono la sezione e ritorni. Etichetta «← Biblioteca» nei due collegamenti di ciascun capitolo e nel modello. Tema comune riusato integralmente, senza altre varianti grafiche.
+
+**Versione corrente v14**, HTML e bozza sincronizzati. Dimensioni intrinseche dichiarate per le immagini, per riservare lo spazio ed evitare spostamenti durante i salti alle note. Curva di riscaldamento con cinque controlli radio nativi e CSS: selezione, descrizione ed evidenziazione funzionano anche con JavaScript disabilitato. Conservati andamento, etichette, testo dei cinque tratti e dati. Variante mobile del medesimo SVG con asse orizzontale più compatto e caratteri leggibili: tutti i tratti visibili senza scorrimento laterale. Nessuna modifica ai calcoli, al confronto con il consumo domestico, alle immagini/GIF già ottimizzate o alle applicazioni. 22 note, 23 richiami, 8 domande.
+
+Peso corrente 14558814 byte, sotto 18 MB. Verifiche della revisione corrente: `../stati_della_materia_e_passaggi_di_stato/verifica-interazioni.json`; anteprime desktop/mobile aggiornate nella cartella del capitolo. Consegna per lettura; **nessuna pubblicazione né unione in main**. I paragrafi sottostanti conservano la cronologia; il presente blocco identifica lo stato corrente.
+
 Ultimo aggiornamento: 2026-10-17 23:29 (Europe/Rome). Master v53, letto con i riferimenti di stile. Ramo `revisione/materia-passaggi-capitoli`. Fonte v8 di `stati_della_materia_e_passaggi_di_stato.html`, blob `8ef5566c73f670dbf23b550e4e36a52cdb7ddfc2`. [Mappa iniziale della suddivisione](../stati_della_materia_e_passaggi_di_stato/proposta-editoriale.md).
 
 ## Ambito e approvazioni effettive
