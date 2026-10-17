@@ -5,6 +5,7 @@ import shutil
 from urllib.parse import unquote, urlsplit
 from home_covers import load_covers
 from home_languages import HOME_FILES, load_languages, localized_home
+from home_italian import render_italian
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "_site"
@@ -75,7 +76,8 @@ def main():
         target = OUTPUT / source.relative_to(ROOT)
         target.parent.mkdir(parents=True, exist_ok=True)
         if source == index:
-            target.write_text(localized_home(source.read_text(encoding="utf-8"), covers), encoding="utf-8")
+            target.write_text(render_italian(
+                localized_home(source.read_text(encoding="utf-8"), covers), ROOT), encoding="utf-8")
         else:
             shutil.copyfile(source, target)
     for language, ui in languages.items():

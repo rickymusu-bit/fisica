@@ -9,6 +9,7 @@ on:
       - 'scripts/build_pages.py'
       - 'scripts/home_covers.py'
       - 'scripts/home_languages.py'
+      - 'scripts/home_italian.py'
       - 'lingue/**'
       - 'copertine/**'
       - '.github/workflows/pages.yml'
