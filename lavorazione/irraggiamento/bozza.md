@@ -96,13 +96,13 @@ P_{\mathrm{netta}}=P_{\mathrm{emessa}}-P_{\mathrm{assorbita}}
 
 Il risultato è positivo quando il corpo cede più energia di quanta ne assorba per irraggiamento, negativo quando ne assorbe di più. Non basta quindi guardare quanto emette: un corpo può emettere continuamente radiazione e, nello stesso tempo, acquistare energia. La parte di radiazione incidente che viene riflessa o trasmessa non entra nella potenza assorbita.
 
-Torniamo al rettile esposto al Sole. Il suo corpo assorbe parte della radiazione solare e della radiazione proveniente dall’ambiente; nello stesso tempo emette radiazione infrarossa. La freccia entrante rappresenta l’energia assorbita, mentre quella uscente rappresenta l’energia emessa. Anche mentre si riscalda, il rettile continua quindi a cedere energia per irraggiamento.
+Torniamo al rettile esposto al Sole. Il suo corpo assorbe parte della radiazione solare e della radiazione proveniente dall’ambiente; nello stesso tempo emette radiazione infrarossa. Questi scambi avvengono sulla superficie esposta del corpo, non in due soli punti: testa, dorso, fianchi e coda partecipano al bilancio. Le frecce entranti rappresentano l’energia assorbita, mentre quelle uscenti rappresentano l’energia emessa. Anche mentre si riscalda, il rettile continua quindi a cedere energia per irraggiamento.
 
-[IMMAGINE T1-bilancio — Seconda copia della foto del rettile, con frecce «Calore assorbito» e «Calore ceduto»; originale introduttivo conservato senza frecce.]
+[IMMAGINE T1-bilancio — Seconda copia della foto del rettile, con più frecce ondulate sottili entranti e uscenti, distribuite attorno alla superficie esposta di testa, dorso, fianchi e coda; legenda «Calore assorbito» e «Calore ceduto», nello stile della figura di assorbimento/riflessione/trasmissione. Originale introduttivo conservato senza frecce.]
 
-![Rettile al Sole con una freccia diretta verso il corpo per il calore assorbito e una diretta all’esterno per il calore ceduto.](risorse/rettile-bilancio.png)
+![Rettile al Sole circondato da più frecce ondulate: quelle entranti rappresentano il calore assorbito, quelle uscenti il calore ceduto dalla superficie esposta.](risorse/rettile-bilancio.png)
 
-*Le frecce rappresentano gli scambi per irraggiamento: energia assorbita dal Sole e dall’ambiente, energia emessa soprattutto nell’infrarosso. Le loro dimensioni sono illustrative e non indicano quantità misurate. La differenza tra i due contributi determina il bilancio radiativo.*
+*Le frecce distribuite attorno al rettile rappresentano gli scambi radiativi sulla superficie esposta: energia assorbita dal Sole e dall’ambiente, energia emessa soprattutto nell’infrarosso. Le loro dimensioni sono illustrative e non indicano quantità misurate. La differenza tra i due contributi complessivi determina il bilancio radiativo.*
 
 Se assorbe più energia di quanta ne emetta, il contributo radiativo tende a riscaldarlo; se ne emette di più, tende a raffreddarlo. Quando le due potenze sono uguali, il bilancio radiativo è nullo. La temperatura del rettile dipende però anche dagli scambi con aria e roccia: un bilancio radiativo nullo non basta, da solo, a garantire un bilancio termico complessivo nullo.
 

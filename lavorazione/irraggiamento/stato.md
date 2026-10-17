@@ -152,3 +152,11 @@ Il bilancio radiativo del rettile è distinto dal bilancio termico complessivo c
 Grafico G1 realizzato con Matplotlib: SVG vettoriale e anteprima PNG, sorgente Python conservato, font Lexend e relativa licenza OFL nella cartella risorse. Modello A=1 m², emissività 1, sigma=5,67·10⁻⁸, T da 0 a 600 K. P(300 K)=459,27 W e P(600 K)=7348,32 W, rapporto 16 verificato. Assi e unità espliciti, confronto evidenziato; controllata visivamente la leggibilità e corretta la spaziatura fra formula e parametri. Il grafico resta teorico e non rappresenta misure sperimentali.
 
 Bozza aggiornata con le due visuali realizzate, collegamenti alle risorse e testi raccordati. Nessun HTML completo del capitolo o nuova simulazione realizzato. Prossimo passaggio: mostrare il risultato e raccogliere la revisione della bozza; resta da compiere la realizzazione finale con le traduzioni già richieste e le verifiche pertinenti.
+
+## Revisione delle frecce sulla superficie del rettile
+
+17 ottobre 2026, ore 13:02 (Europe/Rome). L’utente rifiuta le frecce piene della prima versione e richiede frecce a onda come nella figura di assorbimento/riflessione/trasmissione; precisa poi di volerne più di due, distribuite intorno alla lucertola per mostrare lo scambio su tutta la superficie. La versione intermedia a due frecce ondulate non viene inserita nella bozza.
+
+Sostituito `risorse/rettile-bilancio.png` con la nuova versione: più onde arancioni entranti e rosse uscenti lungo il contorno esposto di testa, dorso, fianchi e coda; legenda nel cielo con «Calore assorbito» e «Calore ceduto», senza grandi riquadri. Realizzata tramite strumento di modifica immagini a partire dall’originale, con lo schema T7 come riferimento per lo stile delle frecce. Immagine ispezionata per direzioni, distribuzione e leggibilità delle due voci; originale T1 verificato invariato tramite hash. Foto annotata: 1448 × 1086 px, 2361037 byte.
+
+Bozza e descrizione accessibile aggiornate: scambio sulla superficie esposta, non in soli due punti; frecce qualitative, bilancio basato sui contributi complessivi. Nessun nuovo numero di flusso o confronto quantitativo attribuito alla fotografia. GIF resta nella sezione effetto serra senza comandi, grafico G1 conservato. Prossimo passaggio: mostrare la revisione; la bozza completa non è ancora approvata.
