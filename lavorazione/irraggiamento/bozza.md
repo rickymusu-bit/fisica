@@ -98,7 +98,7 @@ Il risultato è positivo quando il corpo cede più energia di quanta ne assorba 
 
 Torniamo al rettile esposto al Sole. Il suo corpo assorbe parte della radiazione solare e della radiazione proveniente dall’ambiente; nello stesso tempo emette radiazione infrarossa. Questi scambi avvengono sulla superficie esposta del corpo, non in due soli punti: testa, dorso, fianchi e coda partecipano al bilancio. Le frecce entranti rappresentano l’energia assorbita, mentre quelle uscenti rappresentano l’energia emessa. Anche mentre si riscalda, il rettile continua quindi a cedere energia per irraggiamento.
 
-[IMMAGINE T1-bilancio — Seconda copia della foto del rettile, con più frecce ondulate sottili entranti e uscenti, distribuite attorno alla superficie esposta di testa, dorso, fianchi e coda; legenda «Calore assorbito» e «Calore ceduto», nello stile della figura di assorbimento/riflessione/trasmissione. Originale introduttivo conservato senza frecce.]
+[IMMAGINE T1-bilancio — Seconda copia della foto del rettile, con più frecce ondulate sottili entranti e uscenti, distribuite attorno alla superficie esposta di testa, dorso, fianchi e coda. Nessuna etichetta accanto alle singole frecce: significato spiegato in una legenda separata. Indicare sull’immagine la temperatura del rettile e quella dell’ambiente; valori da concordare, non ricavabili dalla fotografia. Originale introduttivo conservato senza frecce.]
 
 ![Rettile al Sole circondato da più frecce ondulate: quelle entranti rappresentano il calore assorbito, quelle uscenti il calore ceduto dalla superficie esposta.](risorse/rettile-bilancio.png)
 
