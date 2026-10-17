@@ -63,3 +63,16 @@ Realizzato `index.html` v1 nel ramo dedicato `tema/home-mac`, derivato da `main`
 Controlli Chromium superati a 320, 390, 768, 1024 e 1440 px: font incorporato caricato, nessuno scorrimento orizzontale, ancore native, salto al catalogo tramite tastiera, otto coppie lettura/download e pulsanti di almeno 44 px. Provato con JavaScript disabilitato; nessuna dipendenza esterna. Tutte le destinazioni risultano presenti nell’albero main; attributi dei link e testo originale confrontati e identici. Ispezionate le anteprime a 390 e 1440 px. Esiti in `verifiche-home.json`. Non ripetuti download delle dispense, i cui file e collegamenti sono invariati.
 
 Fase: modifica verificata e pronta per revisione tramite pull request. La pubblicazione segue il workflow esistente dopo l’integrazione in main.
+
+
+## Copertina e identità della home — v2
+
+17 ottobre 2026. L’utente ha scelto espressamente la fotografia `180906-SDIM0222-ID-mid.jpg` di Super-Kamiokande e richiesto titolo «Praticamente la Fisica», sottotitolo «Guida essenziale a tutto ciò che ci circonda» e rimozione del proprio nome e cognome.
+
+Aggiornati titolo HTML, descrizione, intestazione, titolo principale, sottotitolo e piè di pagina; eliminato il meta autore e ogni occorrenza del nome e cognome dalla home. Fotografia originale (800 × 533) incorporata nell’HTML senza ritagli, ricompressione o filtri, con testo alternativo e crediti separati collassabili. Catalogo, letture e download conservati. Sorgente: https://www-sk.icrr.u-tokyo.ac.jp/sk/_images/photo/tankopen2018/selected/180906-SDIM0222-ID-mid.jpg .
+
+Diritti: © Kamioka Observatory, ICRR, The University of Tokyo. Le condizioni della galleria https://www-sk.icrr.u-tokyo.ac.jp/en/sk/experience/gallery/ richiedono una richiesta di autorizzazione per l’uso educativo e una copia della pagina via email; vietano modifiche senza permesso. L’approvazione dell’utente riguarda la scelta della foto e non attesta un permesso dell’Osservatorio. Non è stata inviata alcuna email e la home resta nel ramo della PR: prima della pubblicazione occorre verificare l’autorizzazione. Gli aderenti alle collaborazioni Super-Kamiokande/Hyper-Kamiokande sono esentati dalla richiesta nei casi descritti dalla fonte.
+
+Verifica: titolo e sottotitolo esatti, assenza del nome e cognome anche nel sorgente HTML, immagine incorporata identica all’originale; controlli browser in `verifiche-home.json`. Prossimo passaggio: revisione della PR e autorizzazione all’uso della fotografia prima del merge e della pubblicazione.
+
+Terminologia richiesta dall’utente: «articoli» e «argomenti» al posto dei riferimenti scolastici, in tutti i testi della home, nei metadati, nei contatori e nelle etichette accessibili.

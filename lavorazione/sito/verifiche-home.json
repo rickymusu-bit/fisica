@@ -4,6 +4,15 @@
       "width": 320,
       "overflow": false,
       "font": true,
+      "cover": [
+        {
+          "loaded": true,
+          "ratio": true
+        }
+      ],
+      "anonymous": true,
+      "title": "Praticamente la Fisica",
+      "subtitle": "Guida essenziale a tutto ciò che ci circonda",
       "read": [
         "metodo_scientifico_it.html",
         "sistema_internazionale_notazione_it.html",
@@ -62,6 +71,15 @@
       "width": 390,
       "overflow": false,
       "font": true,
+      "cover": [
+        {
+          "loaded": true,
+          "ratio": true
+        }
+      ],
+      "anonymous": true,
+      "title": "Praticamente la Fisica",
+      "subtitle": "Guida essenziale a tutto ciò che ci circonda",
       "read": [
         "metodo_scientifico_it.html",
         "sistema_internazionale_notazione_it.html",
@@ -120,6 +138,15 @@
       "width": 768,
       "overflow": false,
       "font": true,
+      "cover": [
+        {
+          "loaded": true,
+          "ratio": true
+        }
+      ],
+      "anonymous": true,
+      "title": "Praticamente la Fisica",
+      "subtitle": "Guida essenziale a tutto ciò che ci circonda",
       "read": [
         "metodo_scientifico_it.html",
         "sistema_internazionale_notazione_it.html",
@@ -178,6 +205,15 @@
       "width": 1024,
       "overflow": false,
       "font": true,
+      "cover": [
+        {
+          "loaded": true,
+          "ratio": true
+        }
+      ],
+      "anonymous": true,
+      "title": "Praticamente la Fisica",
+      "subtitle": "Guida essenziale a tutto ciò che ci circonda",
       "read": [
         "metodo_scientifico_it.html",
         "sistema_internazionale_notazione_it.html",
@@ -236,6 +272,15 @@
       "width": 1440,
       "overflow": false,
       "font": true,
+      "cover": [
+        {
+          "loaded": true,
+          "ratio": true
+        }
+      ],
+      "anonymous": true,
+      "title": "Praticamente la Fisica",
+      "subtitle": "Guida essenziale a tutto ciò che ci circonda",
       "read": [
         "metodo_scientifico_it.html",
         "sistema_internazionale_notazione_it.html",
