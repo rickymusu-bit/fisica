@@ -1,6 +1,6 @@
 # PROMPT MASTER — DISPENSE VISUALI DI FISICA PER IL BIENNIO DEGLI ISTITUTI TECNICI
 
-VERSIONE DEL PROMPT: v53 — 17 ottobre 2026, ore 20:18 (Europe/Rome)
+VERSIONE DEL PROMPT: v54 — 18 ottobre 2026, ore 00:33 (Europe/Rome)
 
 Questo master raccoglie le regole della dispensa e la procedura per realizzarla con il minor lavoro ripetuto possibile. Le istruzioni relative a immagini, video, traduzioni e simulazioni si applicano quando quei materiali fanno parte della richiesta. Non aggiungere contenuti o lavorazioni solo perché il master ne descrive la gestione.
 
@@ -57,6 +57,8 @@ Integra le formule fondamentali pertinenti nel racconto dopo aver presentato il 
 
 Notazione obbligatoria, uniforme in testo, formule, esempi, tabelle, grafici e didascalie:
 
+- Nei calcoli numerici usa la notazione esponenziale scientifica, nella forma a · 10ⁿ con 1 ≤ |a| < 10 per i valori non nulli, e i prefissi del Sistema internazionale appropriati alla grandezza. Applica la convenzione ai dati usati nelle sostituzioni, ai passaggi e ai risultati; esplicita le conversioni necessarie e mantieni coerenti unità e potenze di dieci. Esprimi il risultato anche con un prefisso SI leggibile, per esempio 1,50 · 10⁹ J = 1,50 GJ, evitando lunghe sequenze di cifre. Mantieni una precisione coerente con i dati e le approssimazioni.
+
 - Moltiplicazione esplicita: usa il punto centrato ·. Non usare la lettera x né × per la normale moltiplicazione scalare. x resta una variabile; × è ammesso per un diverso significato matematico specifico. Puoi omettere il segno nelle forme convenzionali non ambigue, come mv o ½at²; nei calcoli numerici rendi visibile la moltiplicazione con ·.
 - Divisione nelle formule, nelle derivazioni e nei calcoli espliciti: usa una frazione con numeratore e denominatore e linea orizzontale, anche quando il calcolo compare in una tabella o in una didascalia. Preferisci HTML/CSS per formule semplici; usa altre soluzioni solo se necessarie.
 - Simboli delle unità composte scritti in linea: la barra obliqua è corretta e ammessa, per esempio m/s, m/s², kg/m³ e J/s. Sono ammesse frazioni nelle formule isolate o esponenti negativi quando migliorano la chiarezza. Evita barre multiple senza parentesi che eliminino l’ambiguità.
@@ -68,6 +70,8 @@ Le formule devono restare leggibili su smartphone e accompagnare la spiegazione.
 ### A5. Esempi, ragionamento e domande
 
 Gli esempi numerici sono semplici e servono a interpretare grandezze, formule, variabili, unità e plausibilità del risultato. Segui preferibilmente: situazione → dati → domanda → ragionamento → formula → calcolo → risultato → interpretazione. Evita calcoli inutilmente lunghi.
+
+Per ogni risultato significativo di un esercizio o esempio svolto, aggiungi un confronto quantitativo con un riferimento familiare o una situazione concreta, così il lettore può farsi un’idea della sua grandezza. Indica quanto è maggiore o minore del riferimento, oppure quale effetto equivalente rappresenta; non limitarti a definirlo «grande» o «piccolo». Usa grandezze confrontabili, rendi espliciti valore di riferimento, conversioni e ipotesi necessarie e non inventare misure o equivalenze. Inserisci il confronto nel ragionamento conclusivo, con un breve sviluppo proporzionato all’esempio.
 
 Ogni esempio o esercizio svolto, numerico o qualitativo, anche breve, deve avere uno schema della situazione fisica. Collocalo accanto alla presentazione della situazione o subito dopo, prima dei passaggi di calcolo. Mostra corpi e dispositivi, dati effettivamente usati, ipotesi e, quando pertinenti, forze, direzioni, moto, spostamenti, quote, collegamenti e trasferimenti di energia. Non inventare dati mancanti. Una figura decorativa o un grafico dei risultati non sostituisce lo schema. La scelta degli oggetti e delle immagini segue C1–C3.
 
@@ -87,7 +91,7 @@ Progetta fin dall’inizio per smartphone, tablet, notebook e desktop. Mantieni 
 
 Tabelle, formule e grafici devono adattarsi o avere scorrimento orizzontale. Per gli elementi ricostruiti, preferisci prima una riorganizzazione leggibile: disposizione verticale, elementi impilati, legenda spostata, etichette abbreviate senza cambiare significato o maggiore altezza. Non limitarti a rimpicciolire una composizione desktop. Usa lo scorrimento quando non esiste una soluzione migliore; la leggibilità prevale sulla disposizione originale.
 
-Tutti i capitoli condividono un tema da blog di scienza, coerente per palette, tipografia, larghezza di lettura, titoli, formule, immagini, didascalie, tabelle e comandi. Prima di iniziare la progettazione di un nuovo capitolo chiedi esplicitamente all’utente quale template usare: un file HTML, un collegamento o un riferimento grafico da concordare. Se esiste già un template comune approvato, chiedi se usare quello senza richiederne un nuovo caricamento. Non inventare un tema né iniziare il capitolo finché il riferimento non è identificato. Riusa le regole grafiche del template approvato e adatta solo ciò che serve al contenuto e ai dispositivi; nelle revisioni preserva lo stile concordato.
+Ogni capitolo futuro, e ogni revisione per cui è richiesto il tema comune, usa esattamente il tema grafico salvato nel modello autonomo `riferimenti/TEMA_DISPENSE.html`. Questo file conserva il tema già adottato e approvato, con CSS, font incorporato, struttura HTML, componenti e codice dei comandi: è il riferimento operativo stabile, indipendente dal capitolo da cui è stato estratto. Leggilo e riusalo prima di impaginare; non ricreare il tema per somiglianza e non introdurre varianti o sovrascritture arbitrarie. Mantieni tipografia e relativi pesi, dimensioni, spaziature, larghezze di lettura, bordi, ombre, copertina, titoli e numerazione, formule, figure, didascalie, comandi, indice laterale, navigazione, crediti e piè di pagina, compresi i comportamenti responsive e accessibili. Sostituisci soltanto i contenuti e integra gli eventuali componenti specifici, come tabelle o simulazioni, negli stili del modello. Verifica il risultato su desktop e smartphone rispetto al modello salvato. Il tema è già scelto e approvato: applicalo automaticamente senza chiedere nuovamente quale tema usare. Modifiche al tema comune richiedono una richiesta esplicita dell’utente e aggiornano questo stesso modello con una nuova versione; non derivarle automaticamente da modifiche a un singolo capitolo.
 
 Usa HTML semantico, figure con didascalia, gerarchia corretta dei titoli, descrizioni accessibili pertinenti, contrasto sufficiente, navigazione da tastiera e focus visibile. Non affidare un’informazione al solo colore. L’alt descrive ciò che è utile capire, senza limitarsi al nome del file. L’indice è semplice, cliccabile e posto all’inizio del contenuto; ogni capitolo o sottoparte ha un id. Puoi inserire collegamenti discreti per tornare all’indice interno.
 
@@ -99,7 +103,7 @@ Se compare il nome dell’autore, scrivi «Riccardo Musumarra» con maiuscole no
 
 ### B1. Richiesta e versione di partenza
 
-Identifica argomento del singolo capitolo, risultato richiesto, file e versione da aggiornare. Usa i dati già disponibili; se manca l’argomento chiedilo prima di generare. Per un nuovo capitolo applica la richiesta esplicita del template prevista in A6. Non chiedere la lingua iniziale, già stabilita in A2.
+Identifica argomento del singolo capitolo, risultato richiesto, file e versione da aggiornare. Usa i dati già disponibili; se manca l’argomento chiedilo prima di generare. Per un nuovo capitolo applica automaticamente il tema salvato in `riferimenti/TEMA_DISPENSE.html`, secondo A6. Non chiedere la lingua iniziale, già stabilita in A2.
 
 Per una revisione parti dalla versione più recente disponibile e conserva le parti approvate. Se il file corrente non è accessibile o la sua identità è ambigua, chiarisci la situazione prima di modificarlo. Non ricostruire un’intera dispensa per una modifica locale.
 
@@ -109,7 +113,7 @@ Per una revisione: FILE E VERSIONE / MODIFICA RICHIESTA / EVENTUALI VINCOLI.
 Per una traduzione: FILE E VERSIONE / LINGUE / FILE SEPARATI O UNICO FILE.
 
 ### B1.1. Workflow del singolo capitolo
-1. Argomento e template. Definisci con l’utente il singolo argomento e i suoi confini; chiedi esplicitamente il template secondo A6 prima di iniziare. Non richiedere un piano generale dell’intera dispensa. Individua la domanda iniziale e il fenomeno centrale come base per progettare le visuali.
+1. Argomento e template. Definisci con l’utente il singolo argomento e i suoi confini; usa il tema comune già approvato e salvato in `riferimenti/TEMA_DISPENSE.html`, secondo A6, senza ripetere la richiesta del template. Non richiedere un piano generale dell’intera dispensa. Individua la domanda iniziale e il fenomeno centrale come base per progettare le visuali.
 
 2. Progettazione delle parti visuali. Dopo aver definito l’argomento, proponi suggerimenti testuali su che cosa mostrare, a quale domanda risponde ciascun elemento e dove sarà utile. L’utente cerca, sceglie e fornisce i file; non cercarli né generarli autonomamente, secondo C2. Raccogli anche le sue idee per animazioni e simulazioni. Per ogni simulazione valuta prima correttezza del modello, fattibilità tecnica, limiti, potenza di calcolo richiesta durante lo sviluppo e sul dispositivo di lettura, e tempo stimato di realizzazione; proponi alternative più leggere quando utili. Non inventare misure o garanzie di prestazione. Concorda visuali e comportamento delle simulazioni prima di progettare il testo; non programmare ancora. Valuta criticamente comprensibilità per il biennio, prerequisiti, progressione logica, carico cognitivo e ridondanze, motivando eventuali correzioni scientifiche.
 3. Progettazione del testo. Sulla base dell’argomento e delle visuali concordate, prepara una bozza completa del capitolo in chat o in un file separato. Segui A1 e lo stile da blog. Nel punto previsto per ciascun elemento visuale inserisci un segnaposto identificabile, per esempio [IMMAGINE 1 — soggetto e funzione], [GRAFICO 1 — grandezze e relazione] o [SIMULAZIONE 1 — comportamento e comandi]. Non realizzare ancora l’HTML o le simulazioni. Fai vedere il testo e raccogli l’approvazione; applica le correzioni prima di passare alla realizzazione.
@@ -248,8 +252,8 @@ Prima di consegnare controlla la correttezza scientifica, la chiarezza e l’ade
 
 Contenuto e calcoli:
 - argomenti richiesti, livello del biennio, spiegazioni e ipotesi corrette;
-- dati, formule, risultati, unità e notazione di A4;
-- schema fisico per ogni esempio svolto, dati coerenti e interpretazione del risultato;
+- dati, formule, risultati, unità, notazione esponenziale e prefissi SI secondo A4;
+- schema fisico per ogni esempio svolto, dati coerenti e interpretazione del risultato con il confronto quantitativo concreto previsto in A5;
 - capitolo monografico e ordine delle parti secondo A3, con domande finali sempre presenti; applicazioni ed esercizi svolti soltanto se richiesti o concordati;
 - percorso narrativo da blog e metodo scientifico; precisazioni necessarie alla comprensione, senza cautele pervasive né riepiloghi automatici;
 - nessuna digressione o capitolo successivo non richiesto.
@@ -267,7 +271,7 @@ Immagini e altri materiali:
 Funzionamento e lettura:
 - collegamenti interni ed esterni, indice, tasti di ritorno all’indice generale secondo A6, proporzioni, leggibilità e accessibilità;
 - tabelle, formule, grafici ed elementi ricostruiti leggibili anche su smartphone;
-- stile uniforme, equilibrio tra testo e immagini e assenza di riquadri inutili;
+- tema grafico esatto del modello autonomo secondo A6, verificato per confronto diretto su desktop e smartphone; equilibrio tra testo e immagini e assenza di riquadri inutili;
 - video con miniatura e play, link funzionante e nessun lettore incorporato;
 - simulazioni: comandi, comportamento, valori e bilanci coinvolti nella modifica;
 - autonomia del documento e funzionamento offline quando previsto.

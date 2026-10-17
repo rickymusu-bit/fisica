@@ -1,8 +1,8 @@
 # Stile delle dispense di fisica
 
-Versione v2 · 17 ottobre 2026, ore 00:09 (Europe/Rome).
+Versione v3 · 18 ottobre 2026, ore 00:33 (Europe/Rome).
 
-Riferimento approvato dall'utente per tutte le dispense esistenti e future. Deriva dalle caratteristiche generali del testo giornalistico fornito sui telefoni e dalla prova sull'irraggiamento con l'integrazione delle formule, approvata in chat. Il testo sui telefoni è un riferimento esclusivamente linguistico: non ne trasferire fatti, giudizi o conclusioni nelle dispense. Il campione operativo è [esempio_irraggiamento.md](esempio_irraggiamento.md). Il master resta la fonte delle regole di progetto.
+Riferimento approvato dall'utente per tutte le dispense esistenti e future. Deriva dalle caratteristiche generali del testo giornalistico fornito sui telefoni e dalla prova sull'irraggiamento con l'integrazione delle formule, approvata in chat. Il testo sui telefoni è un riferimento esclusivamente linguistico: non ne trasferire fatti, giudizi o conclusioni nelle dispense. Il campione operativo è [esempio_irraggiamento.md](esempio_irraggiamento.md). Il master resta la fonte delle regole di progetto. Il tema grafico comune è salvato separatamente nel modello autonomo [TEMA_DISPENSE.html](TEMA_DISPENSE.html), da applicare ai capitoli futuri secondo A6 del master.
 
 ## Voce e sviluppo
 
@@ -30,9 +30,9 @@ Il riferimento comprende esplicitamente la spiegazione delle formule: lo stile d
 5. Leggere la relazione: che cosa cambia aumentando una grandezza, mantenendo fisse le altre? Spiegare proporzioni, potenze, differenze e segni attraverso previsioni e confronti.
 6. Inserire un confronto semplice quando chiarisce il meccanismo: per esempio una superficie doppia oppure una temperatura assoluta doppia. Non confondere una previsione proporzionale con un esercizio svolto completo.
 7. Distinguere grandezze che possono essere confuse, come potenza emessa e potenza netta, motivando la seconda formula prima di mostrarla.
-8. Usare il risultato per spiegare ciò che si osserva.
+8. Usare il risultato per spiegare ciò che si osserva. Per ogni risultato significativo di un esempio o esercizio svolto, aggiungere il confronto quantitativo concreto previsto da A5 del master, con riferimento, unità e ipotesi espliciti, per dare un’idea della grandezza.
 
-Non applicare la sequenza come una batteria di sottotitoli identici né imporre lo stesso numero di formule a tutti i capitoli. Se non esiste una formula centrale pertinente, non inventarla. Per notazione, schemi degli esempi, livello matematico e verifica scientifica valgono A4–A5 e D1 del master.
+Non applicare la sequenza come una batteria di sottotitoli identici né imporre lo stesso numero di formule a tutti i capitoli. Se non esiste una formula centrale pertinente, non inventarla. Nei calcoli usare notazione esponenziale e prefissi SI secondo A4 del master. Per schemi degli esempi, livello matematico e verifica scientifica valgono A4–A5 e D1 del master.
 
 ## Controllo prima della consegna
 

@@ -101,3 +101,11 @@ L’utente ha richiesto espressamente entrambi i metodi di downsampling su tutte
 ## Tema comune applicato ai capitoli
 
 Su richiesta esplicita dell’utente, adottato il riferimento corrente `irraggiamento_it.html` v4: Lexend, grigio/nero, bordi netti e indice laterale. Stati della materia v10, Passaggi di stato v11; font offline e licenza incorporati, immagini/GIF e testo invariati. Verifiche desktop/mobile e offline superate, anteprime aggiornate e build locale superata. Dettagli in `verifica-tema.json`. Il precedente tema viola della v8 è superato. Nessuna pubblicazione.
+
+## Regole editoriali aggiornate — 18 ottobre 2026, ore 00:31 (Europe/Rome)
+
+Master v54: l’utente segnala errori nel tema e richiede di salvare l’esatto tema grafico adottato come modello autonomo per i capitoli futuri: `riferimenti/TEMA_DISPENSE.html`. Il riferimento operativo è questo modello, non il file del capitolo sull’irraggiamento. A6 ora stabilisce il modello autonomo già scelto, il riuso di struttura/stili e il confronto desktop/mobile; rimossa la richiesta ripetuta del template. A4 impone notazione esponenziale e prefissi SI nei calcoli; A5 richiede un confronto quantitativo concreto per interpretare ogni risultato significativo degli esercizi. Aggiornati anche AGENTS.md e il riferimento linguistico pertinente.
+
+Questa operazione salva le regole: non modifica gli HTML né attesta che le versioni correnti siano già conformi alla richiesta più rigorosa. Alla revisione dei capitoli applicare il modello grafico autonomo esatto, adeguare la scrittura dei calcoli e integrare il confronto finale, conservando visuali e risultati fisici approvati. Nessuna pubblicazione.
+
+Modello autonomo verificato: CSS/font e JavaScript confrontati integralmente con l’origine e identici; prova Chromium offline a 390/1280 px superata per Lexend, layout, indice ed Escape. Non sono stati modificati gli HTML dei capitoli in questa operazione.
