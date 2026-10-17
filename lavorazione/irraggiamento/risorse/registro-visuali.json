@@ -1,5 +1,5 @@
 {
-  "aggiornamento": "17 ottobre 2026, ore 12:24 (Europe/Rome)",
+  "aggiornamento": "17 ottobre 2026, ore 12:30 (Europe/Rome)",
   "materiali": [
     {
       "id": "C1",
@@ -68,16 +68,23 @@
     },
     {
       "id": "T5",
-      "soggetto": "Fabbro: radiazione termica visibile",
-      "url_originale_fornito": "https://en.wikipedia.org/wiki/File:Blacksmith_at_work02.jpg",
-      "scelta": "Fornita e scelta dall’utente",
-      "intervento_richiesto": "Spiegare che la radiazione termica non è limitata all’infrarosso; leggere la fotografia prima di descrivere l’incandescenza",
-      "file_locale": null,
-      "stato_lavorazione": "Da recuperare e ispezionare nelle fasi autorizzate",
+      "soggetto": "Lava incandescente: radiazione termica visibile",
+      "url_originale_fornito": "https://upload.wikimedia.org/wikipedia/commons/8/82/Pahoehoe_toe.jpg?utm_source=it.wikiversity.org&utm_campaign=index&utm_content=original",
+      "scelta": "Fornita e scelta dall’utente al posto della sbarra di ferro incandescente/foto del fabbro",
+      "intervento_richiesto": "Spiegare che la radiazione termica non è limitata all’infrarosso: la lava sufficientemente calda emette anche luce visibile. Non attribuire temperature numeriche alla fotografia senza una fonte.",
+      "file_locale": "lava.jpg",
+      "stato_lavorazione": "Originale recuperato e ispezionato, nessuna modifica o ingrandimento",
       "autore": null,
       "licenza": null,
       "stato_diritti": "Da verificare sulla fonte originale",
-      "versione_modificata": null
+      "versione_modificata": null,
+      "fonte_precedente_sostituita": "https://en.wikipedia.org/wiki/File:Blacksmith_at_work02.jpg",
+      "dimensioni_px": [
+        800,
+        500
+      ],
+      "byte": 101374,
+      "sha256": "c157da6b9c7110be3e589a0033ad3bcce34373111cfa1b981c4831a56d2fc8da"
     },
     {
       "id": "A2",
@@ -153,6 +160,19 @@
       "intervento_richiesto": "Usare l’animazione e spiegare che una parte della radiazione solare viene riflessa verso lo spazio; distinguere questo fenomeno dall’assorbimento e riemissione dell’infrarosso da parte dell’atmosfera, anche verso la superficie terrestre.",
       "didascalia_approvata": "Una parte della radiazione solare viene riflessa verso lo spazio; quella assorbita riscalda la superficie terrestre, che emette radiazione infrarossa. L’atmosfera assorbe e riemette parte dell’infrarosso anche verso la superficie, mentre altra energia raggiunge lo spazio.",
       "approvazione_didascalia": "17 ottobre 2026, ore 12:25 (Europe/Rome), risposta «Ok» dell’utente"
+    },
+    {
+      "id": "A1",
+      "soggetto": "Tostapane vintage",
+      "url_originale_fornito": "https://thumbs.worthpoint.com/zoom/images2/1/1017/03/general-electric-1909-electric_1_d58f4762f025c38915707ca049028d2b.jpg",
+      "scelta": "Fornita e scelta dall’utente",
+      "intervento_richiesto": "Usare per l’applicazione sulla cottura per irraggiamento; verificare cosa mostra la foto prima della didascalia e del collegamento alla resistenza incandescente",
+      "file_locale": null,
+      "stato_lavorazione": "Recupero bloccato: il collegamento WorthPoint restituisce HTTP 403. Richiedere il file all’utente; nessuna sostituzione autonoma.",
+      "autore": null,
+      "licenza": null,
+      "stato_diritti": "Da verificare sulla fonte originale",
+      "versione_modificata": null
     }
   ]
 }
