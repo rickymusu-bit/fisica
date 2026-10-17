@@ -52,3 +52,14 @@ Aggiornamento: 2026-10-16 21:16 (Europe/Rome). L’utente autorizza i nomi stabi
 ## Rimozione dei reindirizzamenti
 
 Aggiornamento: 2026-10-16 21:24 (Europe/Rome). L’utente richiede esplicitamente di cancellare i reindirizzamenti perché i vecchi link non sono stati condivisi. Rimossi i 24 alias, la mappa `site-redirects.json` e la relativa generazione dalla build. Master v49 e AGENTS allineati all’eccezione esplicita. La build pubblica soltanto `index.html` e le otto dispense italiane con nomi stabili; HTML, versioni e download non modificati. I riferimenti ai reindirizzamenti negli inventari precedenti descrivono le verifiche storiche e non la configurazione corrente. Verifica locale: artefatto composto da nove HTML correnti e `.nojekyll`, senza vecchi nomi. Pubblicazione tramite il workflow Pages da `main`; verificare HTTP 404 sui 24 vecchi percorsi e HTTP 200 sui nove attuali.
+
+
+## Tema Mac applicato alla home
+
+Aggiornamento: 17 ottobre 2026. Richiesta esplicita: «Applica il nuovo tema alla home».
+
+Realizzato `index.html` v1 nel ramo dedicato `tema/home-mac`, derivato da `main` (`55f9360fe17a5d058b60650c7a41606686c17543`). Riferimento: tema e anteprima v6 approvati in `istruzioni/tema-mac` (`cc7ab4aad36c88e4fda6ee1ad59208cfd88bca36`). Applicati palette bianca/grigia, bordi neri, ombre nette, intestazioni delle finestre e Lexend incorporato con licenza SIL OFL 1.1. Conservati integralmente i testi, le ancore, gli otto collegamenti di lettura e gli otto download di main. Le altre lavorazioni presenti in istruzioni/tema-mac restano nel loro ramo.
+
+Controlli Chromium superati a 320, 390, 768, 1024 e 1440 px: font incorporato caricato, nessuno scorrimento orizzontale, ancore native, salto al catalogo tramite tastiera, otto coppie lettura/download e pulsanti di almeno 44 px. Provato con JavaScript disabilitato; nessuna dipendenza esterna. Tutte le destinazioni risultano presenti nell’albero main; attributi dei link e testo originale confrontati e identici. Ispezionate le anteprime a 390 e 1440 px. Esiti in `verifiche-home.json`. Non ripetuti download delle dispense, i cui file e collegamenti sono invariati.
+
+Fase: modifica verificata e pronta per revisione tramite pull request. La pubblicazione segue il workflow esistente dopo l’integrazione in main.
