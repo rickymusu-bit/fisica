@@ -3,43 +3,43 @@
   "viste": [
     {
       "capitolo": "stati_della_materia",
-      "versione": "v11",
+      "versione": "v12",
       "larghezza": 390,
       "offline": true,
-      "stili_componenti_identici_al_modello": true,
       "overflow": false,
+      "errori_js": [],
       "domande": 6,
-      "errori_js": []
+      "richiami_e_ritorni_verificati": 9
     },
     {
       "capitolo": "stati_della_materia",
-      "versione": "v11",
+      "versione": "v12",
       "larghezza": 1280,
       "offline": true,
-      "stili_componenti_identici_al_modello": true,
       "overflow": false,
+      "errori_js": [],
       "domande": 6,
-      "errori_js": []
+      "richiami_e_ritorni_verificati": 9
     },
     {
       "capitolo": "passaggi_di_stato",
-      "versione": "v12",
+      "versione": "v13",
       "larghezza": 390,
       "offline": true,
-      "stili_componenti_identici_al_modello": true,
       "overflow": false,
+      "errori_js": [],
       "domande": 8,
-      "errori_js": []
+      "richiami_e_ritorni_verificati": 23
     },
     {
       "capitolo": "passaggi_di_stato",
-      "versione": "v12",
+      "versione": "v13",
       "larghezza": 1280,
       "offline": true,
-      "stili_componenti_identici_al_modello": true,
       "overflow": false,
+      "errori_js": [],
       "domande": 8,
-      "errori_js": []
+      "richiami_e_ritorni_verificati": 23
     }
   ],
   "calcoli": {
@@ -55,23 +55,60 @@
     "confronto_vaporizzazione_su_riscaldamento": 5.399521531100478
   },
   "peso_byte": {
-    "stati_della_materia": 6519356,
-    "passaggi_di_stato": 14548360
+    "stati_della_materia": 6520699,
+    "passaggi_di_stato": 14553082
   },
   "frammenti_verificati": 24,
   "note_pie_pagina": [
     {
       "capitolo": "stati_della_materia",
-      "richiami_verificati": 5,
-      "ritorni_verificati": 5
+      "richiami_verificati": 9,
+      "ritorni_verificati": 9
     },
     {
       "capitolo": "passaggi_di_stato",
-      "richiami_verificati": 10,
-      "ritorni_verificati": 10
+      "richiami_verificati": 23,
+      "ritorni_verificati": 23
     }
   ],
   "modello_versione": "v2",
   "modello_sha256": "632ffc0a9bcf34ecdead6639ceb9186ee021ab70039b77fba3bc2d2d8e766083",
-  "estensione_note": "Componente note centralizzato nel modello; CSS esatti e stessi stili/markup già verificati nel browser."
+  "estensione_note": "Componente note centralizzato nel modello; CSS esatti e stessi stili/markup già verificati nel browser.",
+  "revisione_precisazioni_tecniche": {
+    "stati_della_materia": {
+      "versione": "v12",
+      "precisazioni_spostate": [
+        "grani-cristallini",
+        "origine-viscosita",
+        "plasma-cariche-luce"
+      ],
+      "note_totali": 6,
+      "richiami_totali": 9,
+      "peso_byte": 6520699,
+      "tema_immagini_script_calcoli_invariati": true
+    },
+    "passaggi_di_stato": {
+      "versione": "v13",
+      "precisazioni_spostate": [
+        "evaporazione-energia-molecole",
+        "pressione-ebollizione",
+        "cristalli-nuvole",
+        "ghiaccio-secco-nube",
+        "brinamento-solidificazione",
+        "significato-latente",
+        "convenzione-energia",
+        "ciclo-refrigerante",
+        "circuiti-pwr",
+        "etichette-pwr",
+        "intervalli-temperatura",
+        "confronti-intermedi",
+        "rapporto-riscaldamento-fusione",
+        "rapporto-vaporizzazione-riscaldamento"
+      ],
+      "note_totali": 22,
+      "richiami_totali": 23,
+      "peso_byte": 14553082,
+      "tema_immagini_script_calcoli_invariati": true
+    }
+  }
 }

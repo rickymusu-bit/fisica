@@ -70,3 +70,13 @@ Verifiche: confronto automatico degli stili effettivi con il modello a 390/1280 
 Consegnare le anteprime revisionate per la lettura dell’utente. Nessuna pubblicazione o unione in main autorizzata.
 
 Il componente Note con richiamo e ritorno è ora salvato nel modello autonomo **v2** per il riuso futuro. Nessuna modifica ai CSS o ai comandi dei componenti preesistenti; gli stili delle note, già verificati nel browser, sono centralizzati nel modello e incorporati identici nei due capitoli. La sola ricollocazione del CSS non cambia la resa. Pesi correnti: Stati della materia 6519356 byte; Passaggi di stato 14548360 byte.
+
+## Rilettura completa delle precisazioni tecniche — 2026-10-18 00:56 (Europe/Rome)
+
+Richiesta dell’utente: cercare ovunque nel testo le precisazioni troppo tecniche e spostarle nelle note. **Versione corrente v13**, 14553082 byte. Riletti teoria, applicazioni, didascalie ed esempio. Approfondimenti trasferiti, senza eliminare le informazioni: evaporazione-energia-molecole, pressione-ebollizione, cristalli-nuvole, ghiaccio-secco-nube, brinamento-solidificazione, significato-latente, convenzione-energia, ciclo-refrigerante, circuiti-pwr, etichette-pwr, intervalli-temperatura, confronti-intermedi, rapporto-riscaldamento-fusione, rapporto-vaporizzazione-riscaldamento. Nel corpo restano concetti fondamentali, significato delle formule, dati/calcoli e confronto finale con il consumo domestico. Le note ora sono 22, con 23 richiami; numerazione riordinata secondo la lettura, ritorni multipli per le note condivise.
+
+Tema/CSS, JavaScript, immagini/GIF e tutte le formule confrontati con la versione precedente e identici. Nessuna modifica dei risultati numerici, del modello particellare, dei confini dei capitoli o delle domande finali. Bozza testuale e HTML sincronizzati. Verifica Chromium offline a 390/1280 px: immagini caricate, nessuna eccedenza orizzontale né errore JS, formule senza tagli; tutti i richiami e ritorni verificati su telefono. Sei/otto domande conservate; anteprime aggiornate. Build locale superata. Nessuna pubblicazione.
+
+## Prossima operazione corrente
+
+Consegna delle anteprime alleggerite, in attesa della lettura dell’utente. Nessuna pubblicazione autorizzata.

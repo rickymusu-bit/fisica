@@ -22,7 +22,7 @@ Didascalia M1: Le forme a gradini del cristallo di bismuto si accompagnano a un'
 
 Didascalia M2: La tartaruga di vetro di Murano conserva una forma definita. Nel vetro manca però l'ordine periodico a grande distanza tipico di un cristallo.
 
-Nello schema, a sinistra la disposizione ordinata mantiene lo stesso orientamento in tutto il cristallo. Al centro compaiono più regioni cristalline, chiamate **grani**, con orientamenti diversi: il materiale è **policristallino**. A destra manca invece un ordine che si ripeta a grande distanza: è il caso amorfo. La differenza riguarda l'organizzazione delle particelle, non il fatto che il materiale sia solido.
+Lo schema confronta tre disposizioni: un unico cristallo ordinato, più cristalli uniti tra loro e un solido amorfo. Il materiale formato da più cristalli si chiama **policristallino**.[^nota-grani-cristallini]
 
 [SCHEMA M10 — Schema scelto dall’utente: `risorse/strutture-cristalline.png`, originale vettoriale conservato in `risorse/originali/m10.svg`. Inserire direttamente senza ricostruzioni o ritagli. Sostituisce lo schema provvisorio precedente.]
 
@@ -36,7 +36,7 @@ In un liquido le particelle restano vicine, ma possono cambiare posizione e scor
 
 Didascalia: Le particelle rimangono vicine mentre cambiano posizione: il liquido può scorrere e adattarsi al recipiente.[^nota-particelle-solidMotion]
 
-Scorrere non significa però scorrere tutti allo stesso modo. L'olio della fotografia forma un getto continuo e oppone una resistenza al movimento diversa da quella dell'acqua. Questa resistenza allo scorrimento si chiama **viscosità** ed è legata alle interazioni tra le particelle e al movimento relativo degli strati di liquido. Alla stessa temperatura, molti oli comuni sono più viscosi dell'acqua e scorrono più lentamente in condizioni confrontabili.
+Scorrere non significa però scorrere tutti allo stesso modo. L'olio della fotografia forma un getto continuo e oppone una resistenza al movimento diversa da quella dell'acqua. Questa resistenza allo scorrimento si chiama **viscosità**. Alla stessa temperatura, molti oli comuni sono più viscosi dell'acqua e scorrono più lentamente in condizioni confrontabili.[^nota-origine-viscosita]
 
 [IMMAGINE M3 — Foto scelta dell’olio versato sulla pizza: `risorse/olio-versato.jpg`, senza ritagli o modifiche.]
 
@@ -64,11 +64,11 @@ La distanza tra le particelle aiuta anche a capire perché un gas si comprime mo
 
 Didascalia: Le particelle del gas percorrono lo spazio disponibile muovendosi in modo disordinato.[^nota-particelle-solidMotion]
 
-Esiste anche uno stato in cui una parte degli elettroni non è più legata agli atomi: il **plasma**. Contiene elettroni liberi e ioni, cioè particelle dotate di carica elettrica. Nella fotografia, una scarica elettrica attraversa l’argon contenuto in un tubo e ne ionizza una parte. Il gas diventa un plasma; gli atomi eccitati dalla scarica emettono la luce che vediamo. La presenza di cariche libere permette al plasma di condurre corrente e di rispondere ai campi elettrici e magnetici in modo diverso da un gas formato prevalentemente da particelle neutre; plasmi si trovano anche nelle stelle e in alcune lampade a scarica.
+Esiste anche uno stato in cui una parte degli elettroni non è più legata agli atomi: il **plasma**. Contiene elettroni liberi e **ioni**, particelle dotate di carica elettrica. Nella fotografia, una scarica elettrica attraversa l’argon e lo trasforma in un plasma luminoso. Plasmi si trovano anche nelle stelle e in alcune lampade a scarica.[^nota-plasma-cariche-luce]
 
 [IMMAGINE M5 — Foto scelta della scarica nell’argon: `risorse/plasma-argon.jpg`, senza modifiche.]
 
-Didascalia: Una scarica elettrica rende luminoso l'argon nel tubo. Il plasma contiene elettroni liberi e ioni; la luce è emessa dagli atomi eccitati.
+Didascalia: Una scarica elettrica rende luminoso l’argon nel tubo. Il plasma contiene elettroni liberi e ioni.[^nota-plasma-cariche-luce]
 
 [TABELLA M9 — Ricostruire la tabella esistente in HTML semantico; su telefono rendere le intestazioni sempre riconoscibili.]
 
@@ -92,6 +92,12 @@ Didascalia: Una scarica elettrica rende luminoso l'argon nel tubo. Il plasma con
 
 [^nota-particelle-solidMotion]: I tre modelli microscopici sono qualitativi: dimensioni delle particelle, distanze e velocità non sono in scala e non rappresentano misure sperimentali.
 
+[^nota-grani-cristallini]: Nello schema, a sinistra la disposizione ordinata mantiene lo stesso orientamento in tutto il cristallo. Al centro compaiono più regioni cristalline, chiamate grani, con orientamenti diversi: il materiale è policristallino. A destra manca invece un ordine che si ripeta a grande distanza: è il caso amorfo. La differenza riguarda l'organizzazione delle particelle, non il fatto che il materiale sia solido.
+
 [^nota-4]: Il confronto tra i volumi di una stessa quantità di liquido in recipienti diversi assume che la temperatura rimanga invariata.
 
+[^nota-origine-viscosita]: La viscosità è legata alle interazioni tra le particelle e al movimento relativo degli strati di liquido.
+
 [^nota-5]: L’animazione della viscosità è un’illustrazione realizzata mediante una simulazione: mostra un confronto qualitativo e non misure ottenute da un esperimento.
+
+[^nota-plasma-cariche-luce]: La scarica ionizza una parte dell’argon, liberando elettroni dagli atomi. La presenza di cariche libere permette al plasma di condurre corrente e di rispondere ai campi elettrici e magnetici in modo diverso da un gas formato prevalentemente da particelle neutre. La luce osservata è emessa dagli atomi eccitati dalla scarica.

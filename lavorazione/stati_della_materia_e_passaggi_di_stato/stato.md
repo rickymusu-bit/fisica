@@ -115,3 +115,7 @@ Modello autonomo verificato: CSS/font e JavaScript confrontati integralmente con
 Stati della materia v11; Passaggi di stato v12. Modello autonomo applicato senza sovrascriverne gli stili; note a piè di pagina secondo master v55; formule scientifiche e SI; confronto finale con consumo elettrico domestico medio ARERA (2024, 1.930 kWh/anno): energia della scultura circa 418 kWh, pari a 2,6 mesi. Fonte e precisazioni in nota. Verifiche offline e desktop/mobile, confronto degli stili effettivi e build superati. Foto/GIF e modello particellare conservati. Dettagli nei due stati e in `verifiche-finali.json`. Nessuna pubblicazione.
 
 Il componente Note con richiamo e ritorno è ora salvato nel modello autonomo **v2** per il riuso futuro. Nessuna modifica ai CSS o ai comandi dei componenti preesistenti; gli stili delle note, già verificati nel browser, sono centralizzati nel modello e incorporati identici nei due capitoli. La sola ricollocazione del CSS non cambia la resa. Pesi correnti: Stati della materia 6519356 byte; Passaggi di stato 14548360 byte.
+
+## Rilettura delle precisazioni tecniche — 2026-10-18 00:56 (Europe/Rome)
+
+Stati della materia v12; Passaggi di stato v13. Ulteriori approfondimenti tecnici spostati nelle note dopo rilettura integrale dei due testi; 6 e 22 note, con 9 e 23 richiami. CSS, script, immagini, formule, risultati e domande invariati. Verifiche offline desktop/mobile, richiami/ritorni e build superati. Registri e anteprime aggiornati. Nessuna pubblicazione.

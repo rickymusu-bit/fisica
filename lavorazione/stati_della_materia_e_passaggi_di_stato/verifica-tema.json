@@ -1,7 +1,7 @@
 {
   "stati_della_materia": {
-    "versione": "v11",
-    "peso_byte": 6519356,
+    "versione": "v12",
+    "peso_byte": 6520699,
     "css_modello_identico": true,
     "js_tema_identico": true,
     "foto_e_gif_conservate": true,
@@ -9,8 +9,8 @@
     "modello_versione": "v2"
   },
   "passaggi_di_stato": {
-    "versione": "v12",
-    "peso_byte": 14548360,
+    "versione": "v13",
+    "peso_byte": 14553082,
     "css_modello_identico": true,
     "js_tema_identico": true,
     "foto_e_gif_conservate": true,
@@ -20,43 +20,43 @@
   "browser": [
     {
       "capitolo": "stati_della_materia",
-      "versione": "v11",
+      "versione": "v12",
       "larghezza": 390,
       "offline": true,
-      "stili_componenti_identici_al_modello": true,
       "overflow": false,
+      "errori_js": [],
       "domande": 6,
-      "errori_js": []
+      "richiami_e_ritorni_verificati": 9
     },
     {
       "capitolo": "stati_della_materia",
-      "versione": "v11",
+      "versione": "v12",
       "larghezza": 1280,
       "offline": true,
-      "stili_componenti_identici_al_modello": true,
       "overflow": false,
+      "errori_js": [],
       "domande": 6,
-      "errori_js": []
+      "richiami_e_ritorni_verificati": 9
     },
     {
       "capitolo": "passaggi_di_stato",
-      "versione": "v12",
+      "versione": "v13",
       "larghezza": 390,
       "offline": true,
-      "stili_componenti_identici_al_modello": true,
       "overflow": false,
+      "errori_js": [],
       "domande": 8,
-      "errori_js": []
+      "richiami_e_ritorni_verificati": 23
     },
     {
       "capitolo": "passaggi_di_stato",
-      "versione": "v12",
+      "versione": "v13",
       "larghezza": 1280,
       "offline": true,
-      "stili_componenti_identici_al_modello": true,
       "overflow": false,
+      "errori_js": [],
       "domande": 8,
-      "errori_js": []
+      "richiami_e_ritorni_verificati": 23
     }
   ]
 }
