@@ -1,27 +1,31 @@
 # Stato — Home e GitHub Pages
 
-Aggiornamento: 17/10/2026 18:46 (Europe/Rome).
+Aggiornamento: 17/10/2026 19:18 (Europe/Rome).
 
-## Risultato corrente
+## Risultato corrente e autorizzazioni
 
-Home `index.html` v3: «Praticamente la Fisica», sottotitolo «Guida essenziale a tutto ciò che ci circonda». Tema Mac approvato, Lexend incorporato, terminologia «articoli» e «argomenti». Nessuna occorrenza del nome o cognome dell’utente nei testi o nei metadati della home. Catalogo, ancore e otto coppie lettura/download conservati.
+Home `index.html` v4: «Praticamente la Fisica», sottotitolo «Guida essenziale a tutto ciò che ci circonda», tema Mac approvato e Lexend incorporato. Nessun nome o cognome dell’utente nei testi o nei metadati della home; terminologia «articoli» e «argomenti».
 
-L’utente ha fornito e scelto venti immagini per sostituire la singola copertina. Ultima istruzione: «va bene. basta cosi aggiorna la home». Questa richiesta segue le anteprime e la discussione sui crediti e autorizza l’aggiornamento della home sul sito Pages esistente. Nessuna nuova immagine cercata o generata autonomamente; il vecchio file Super-Kamiokande non fa parte della nuova rotazione.
+Ultima richiesta esplicita: «pubblica l’irraggiamento. poi togli i titoli alle immagini della copertina della home:bastano le didascalie. sempre nella home: la barra superiore usala per l’indice e la selezione della lingua, togli le scritte ripetitive e inutili che ci sono adesso».
 
-A ogni caricamento la home sceglie una delle venti copertine con uguale probabilità; sono possibili ripetizioni tra visite. Carica solo la foto scelta e aggiorna insieme titolo, testo alternativo, didascalia e riferimento ai crediti. Nessuno slideshow o tracciamento. Senza JavaScript viene mostrata la prima immagine; se un file non si carica viene provata la voce successiva.
+Irraggiamento aggiunto come nono articolo italiano, con lettura e download. Si parte dal file approvato del ramo `istruzioni/tema-mac`: contenuto conservato, meta autore rimosso e versione v4. Il precedente articolo Potenza termica usa la v7 pronta nello stesso ramo, con navigazione precedente/successivo; rispetto alla v6 di main cambiano soltanto versione, data e navigazione. [Stato dell’irraggiamento](../irraggiamento/stato.md).
 
-## Sorgenti e diritti
+## Home e lingue
 
-Cartella `copertine/`: venti WebP ottimizzate, senza ritagli, e `manifest.json` come fonte per file, titoli, dimensioni, descrizioni, autore, licenza, fonte e modifiche. Collegamenti agli originali e hash dei file recuperati conservati nel manifest; fonti originali non alterate. Licenze rilevate dalle schede Wikimedia Commons, compresa la copia verificata della foto Flickr dell’Advanced Test Reactor. Per il cambio Porsche, autore e successiva modifica della luminosità sono ricavati dalla cronologia del file, dato il metadato automatico mancante. Attribuzione NOIRLab aggiunta alla foto del fondo cosmico. Licenza di ogni immagine collegata nei crediti e conservata sulla copia WebP. La vecchia necessità di autorizzazione per Super-Kamiokande non riguarda questa selezione sostitutiva.
+Barra superiore persistente con due menu HTML nativi: Indice e lingua. Eliminati il nome del sito e l’etichetta Fisica ripetuti nella barra, l’indice separato nel catalogo e il piè di pagina ripetitivo. Con JavaScript i menu si chiudono con Esc, clic esterno o scelta della sezione; senza script restano utilizzabili tramite summary e collegamenti nativi.
 
-I crediti di tutte le venti immagini sono disponibili in una sezione HTML nativa apribile e la foto corrente viene indicata anche nel testo e nella lista. Non si contattano servizi esterni per mostrare foto, font o crediti. Le versioni WebP pesano complessivamente circa 4,12 MB; la home è circa 284 KB.
+Italiano, francese e albanese sono le lingue già presenti nel repository. La home italiana mostra nove articoli; `index_fr.html` e `index_sq.html`, generati durante la build, mostrano ciascuno i quattro articoli esistenti nella rispettiva lingua. `lingue/home.json` contiene interfaccia, titoli e descrizioni del catalogo e didascalie tradotte. Gli articoli tradotti non sono modificati né generati automaticamente. Il nome del sito resta Praticamente la Fisica.
 
-## Build e verifiche
+## Copertine e attribuzioni
 
-`scripts/home_covers.py` valida il manifest e genera copertina iniziale, dati e crediti. `scripts/build_pages.py` conserva la pubblicazione selettiva degli otto articoli italiani e prepara nove HTML, venti copertine, manifest e `.nojekyll`; le fonti e le licenze esterne sono ammesse, mentre i collegamenti di lettura/download devono restare locali. Nessuna modifica agli articoli, alle traduzioni, al quiz o alle impostazioni di hosting.
+Venti copertine fornite e scelte dall’utente, conservate in `copertine/` con manifest, fonti, autori, licenze e hash dei file recuperati. Foto intere, ridimensionate e convertite in WebP senza ritagli. La copertina cambia casualmente a ogni caricamento, con uguale probabilità e possibili ripetizioni. È caricata soltanto la foto scelta; senza JavaScript compare la prima; in caso di errore viene provata la successiva.
 
-Verifiche in `verifiche-home.json`: tutte e venti le immagini provate in Chromium con scelta controllata, caricamento riuscito, corrispondenza di alt/titolo/didascalia/crediti e una sola richiesta immagine per visita. Controllati 320, 390, 768, 1024 e 1440 px: nessuno scorrimento laterale, salto da tastiera, crediti apribili, foto mostrate intere con proporzioni conservate. Prova touch a 390 px senza JavaScript e recupero dopo errore della prima immagine superati. Corretto il comportamento di `noscript` durante l’ispezione visiva e ripetuti i controlli di layout. Build completa superata; artefatto privo di file estranei. Nessuna dipendenza esterna durante il caricamento della home.
+Rimossa la barra con il titolo della foto: restano immagine, didascalia e testo alternativo. Crediti di tutte le immagini in una sezione apribile, con indicazione della foto corrente. La raccolta non contiene la precedente foto Super-Kamiokande; i relativi vincoli di autorizzazione riguardano la precedente selezione, conservata nella cronologia Git. Nessuna richiesta esterna per foto o font durante la visita.
 
-## Salvataggio e pubblicazione
+## Build, verifiche e pubblicazione
 
-Ramo `tema/home-mac`, PR #15, derivato da main. Fase: realizzazione conclusa e verificata. Pubblicazione affidata al workflow Pages esistente dopo l’integrazione in main; il relativo esito è consultabile nelle Actions del repository. La cronologia dettagliata delle precedenti home e degli stati resta in Git.
+Build verificata: venti HTML (tre home e diciassette articoli: nove italiani, quattro francesi, quattro albanesi), venti copertine, manifest e `.nojekyll`. Il quiz e i documenti di lavorazione restano esclusi. `scripts/home_covers.py` genera la copertina e i crediti; `scripts/home_languages.py` genera le home tradotte; `scripts/build_pages.py` verifica percorsi e lingua prima della copia. Cartelle `copertine/` e `lingue/` e relativi renderer attivano il workflow Pages.
+
+Controlli in [verifiche-home.json](verifiche-home.json): home a 320, 390, 768, 1024 e 1440 px senza overflow, menu persistenti, focus e tastiera; tutte e venti le scelte della copertina con didascalia e crediti coerenti; navigazione delle tre lingue con e senza JavaScript, collegamenti reali agli articoli nella lingua corretta. Irraggiamento verificato a 390 e 1440 px: immagini caricate, indice nativo, assenza di richieste esterne e di errori JavaScript, navigazione dal precedente. Contenuto confrontato integralmente con il sorgente approvato, salvo meta autore e versione. Build e controllo delle differenze superati.
+
+Fase: realizzazione conclusa e verificata, pubblicazione richiesta tramite il workflow Pages esistente dopo l’integrazione in main. Stato del deployment consultabile nelle Actions. Git conserva la cronologia delle versioni precedenti.

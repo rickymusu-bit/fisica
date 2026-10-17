@@ -1,0 +1,136 @@
+{
+  "fr": {
+    "languageName": "Français",
+    "index": "Sommaire",
+    "skip": "Aller aux articles",
+    "subtitle": "Le guide essentiel de tout ce qui nous entoure",
+    "downloadNote": "Ouvrez un article pour le lire en ligne ou choisissez « Télécharger HTML » pour l’enregistrer sur votre appareil.",
+    "explore": "Explorer les articles",
+    "count": "4 articles",
+    "group": "Mesures et méthode",
+    "groupCount": "4 articles",
+    "download": "Télécharger HTML",
+    "downloadAria": "Télécharger l’article :",
+    "indexAria": "Sommaire des sujets",
+    "languageAria": "Langue",
+    "chooseLanguage": "Choisir la langue",
+    "fontCredits": "Police de caractères et licence",
+    "credits": "Crédits des images",
+    "prefix": "En couverture :",
+    "unavailable": "L’image de couverture n’est pas disponible.",
+    "fallback": "Les photographies et leurs crédits figurent ci-dessous.",
+    "changes": "Redimensionnement et conversion en WebP, sans recadrage.",
+    "description": "Praticamente la Fisica. Le guide essentiel de tout ce qui nous entoure. Articles de physique en français.",
+    "articles": {
+      "metodo_scientifico_it.html": [
+        "metodo_scientifico_fr.html",
+        "La méthode scientifique",
+        "Observations, hypothèses et comparaison avec les expériences."
+      ],
+      "sistema_internazionale_notazione_it.html": [
+        "sistema_internazionale_notazione_fr.html",
+        "Système international et notation scientifique",
+        "Grandeurs, unités de mesure et puissances de dix."
+      ],
+      "strumenti_errori_incertezza_it.html": [
+        "strumenti_errori_incertezza_fr.html",
+        "Instruments de mesure, erreurs et incertitude",
+        "Lire une mesure et en comprendre la fiabilité."
+      ],
+      "grafici_piano_cartesiano_it.html": [
+        "grafici_piano_cartesiano_fr.html",
+        "Graphiques et relations entre grandeurs",
+        "Le plan cartésien et les relations entre grandeurs physiques."
+      ]
+    },
+    "captions": [
+      "Un ordinateur quantique IQM à Espoo, en Finlande.",
+      "Le détecteur CMS du Grand collisionneur de hadrons, au CERN.",
+      "Un réacteur d’avion Pratt & Whitney F100.",
+      "L’ouragan Florence photographié depuis la Station spatiale internationale.",
+      "La Station spatiale internationale vue depuis la navette spatiale.",
+      "Une bobine Tesla en fonctionnement.",
+      "Une boîte de vitesses Porsche en coupe, au musée de Stuttgart.",
+      "Le navire Marco Polo au crépuscule.",
+      "La surface d’une tranche de silicium et ses circuits aux reflets multicolores.",
+      "Une carte du fond diffus cosmologique observé par la mission Planck.",
+      "L’amortisseur à masse accordée du gratte-ciel Taipei 101.",
+      "Un tunnelier pendant la construction du tunnel sous la Manche.",
+      "L’intérieur d’un détecteur d’antineutrinos de l’expérience Daya Bay.",
+      "Les tuyaux de l’orgue de l’église Herz-Jesu à Augsbourg.",
+      "Le haut-fourneau numéro 2 de Dąbrowa Górnicza, en Pologne.",
+      "Une libellule empereur photographiée en Irlande.",
+      "Une crevette-mante paon, Odontodactylus scyllarus, à La Réunion.",
+      "Des bouquetins sur la paroi du barrage de Cingino, en Italie.",
+      "Le paysage martien photographié par le rover Zhurong.",
+      "L’Advanced Test Reactor, au laboratoire national de l’Idaho."
+    ]
+  },
+  "sq": {
+    "languageName": "Shqip",
+    "index": "Përmbajtja",
+    "skip": "Shko tek artikujt",
+    "subtitle": "Udhëzuesi thelbësor për gjithçka që na rrethon",
+    "downloadNote": "Hap një artikull për ta lexuar në internet ose zgjidh « Shkarko HTML » për ta ruajtur në pajisjen tënde.",
+    "explore": "Eksploro artikujt",
+    "count": "4 artikuj",
+    "group": "Matjet dhe metoda",
+    "groupCount": "4 artikuj",
+    "download": "Shkarko HTML",
+    "downloadAria": "Shkarko artikullin:",
+    "indexAria": "Përmbajtja sipas temave",
+    "languageAria": "Gjuha",
+    "chooseLanguage": "Zgjidh gjuhën",
+    "fontCredits": "Shkronjat dhe licenca",
+    "credits": "Autorët dhe licencat e imazheve",
+    "prefix": "Në kopertinë:",
+    "unavailable": "Imazhi i kopertinës nuk është i disponueshëm.",
+    "fallback": "Fotografitë dhe të dhënat e autorëve renditen më poshtë.",
+    "changes": "Ndryshim madhësie dhe konvertim në WebP, pa prerje.",
+    "description": "Praticamente la Fisica. Udhëzuesi thelbësor për gjithçka që na rrethon. Artikuj fizike në shqip.",
+    "articles": {
+      "metodo_scientifico_it.html": [
+        "metodo_scientifico_sq.html",
+        "Metoda shkencore",
+        "Vëzhgime, hipoteza dhe krahasim me eksperimentet."
+      ],
+      "sistema_internazionale_notazione_it.html": [
+        "sistema_internazionale_notazione_sq.html",
+        "Sistemi Ndërkombëtar dhe shënimi shkencor",
+        "Madhësitë, njësitë e matjes dhe fuqitë e dhjetës."
+      ],
+      "strumenti_errori_incertezza_it.html": [
+        "strumenti_errori_incertezza_sq.html",
+        "Instrumentet matëse, gabimet dhe pasiguria",
+        "Si të lexosh një matje dhe të kuptosh besueshmërinë e saj."
+      ],
+      "grafici_piano_cartesiano_it.html": [
+        "grafici_piano_cartesiano_sq.html",
+        "Grafikët dhe marrëdhëniet mes madhësive",
+        "Plani kartezian dhe marrëdhëniet mes madhësive fizike."
+      ]
+    },
+    "captions": [
+      "Një kompjuter kuantik IQM në Espoo të Finlandës.",
+      "Detektori CMS i Përplasësit të Madh të Hadroneve, në CERN.",
+      "Një motor avioni Pratt & Whitney F100.",
+      "Uragani Florence i fotografuar nga Stacioni Hapësinor Ndërkombëtar.",
+      "Stacioni Hapësinor Ndërkombëtar i parë nga anija hapësinore.",
+      "Një bobinë Tesla gjatë punës.",
+      "Një kuti shpejtësish Porsche e prerë për të treguar brendësinë, në muzeun e Shtutgartit.",
+      "Anija Marco Polo në muzg.",
+      "Sipërfaqja e një pllake silici me qarqe dhe pasqyrime shumëngjyrëshe.",
+      "Një hartë e rrezatimit kozmik të sfondit, e vëzhguar nga misioni Planck.",
+      "Amortizuesi me masë të akorduar i rrokaqiellit Taipei 101.",
+      "Një makinë shpimi gjatë ndërtimit të tunelit nën Kanalin e La Manshit.",
+      "Brendësia e një detektori antineutrinosh të eksperimentit Daya Bay.",
+      "Tubat e organos së kishës Herz-Jesu në Augsburg.",
+      "Furra e lartë numër 2 në Dąbrowa Górnicza të Polonisë.",
+      "Një pilivesë perandor e fotografuar në Irlandë.",
+      "Një karkalec mantis pallua, Odontodactylus scyllarus, në Réunion.",
+      "Dhi të egra alpine në faqen e digës Cingino, në Itali.",
+      "Peizazhi i Marsit i fotografuar nga roveri Zhurong.",
+      "Reaktori Advanced Test Reactor, në Laboratorin Kombëtar të Idahos."
+    ]
+  }
+}

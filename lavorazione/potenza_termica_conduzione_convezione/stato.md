@@ -31,3 +31,8 @@ Aggiornamento: 2026-10-16 19:30 (Europe/Rome). Richiesta diretta dell’utente: 
 ## Nomi stabili
 
 Richiesta esplicita dell’utente: rimuovere versione e data dai nomi, conservandole nei documenti. File rinominati, inclusi gli eventuali materiali francesi e albanesi, con identità verificata e contenuti identici byte per byte; versioni interne invariate. Collegamenti correnti aggiornati; per le dispense italiane i vecchi indirizzi pubblici reindirizzano direttamente ai nomi stabili. [Mappa e hash](../sito/nomi-stabili.json). Nessuna revisione scientifica, immagine o simulazione nuova.
+
+
+## Pubblicazione dell’irraggiamento e navigazione
+
+17/10/2026 19:18 (Europe/Rome). Per la richiesta esplicita di pubblicare l’articolo successivo, riutilizzata la versione v7 pronta nel ramo `istruzioni/tema-mac`, blob `14e072ca077fc7887c86749df9c3ec1213735aa7`. Rispetto alla v6 di main, confronto integrale superato dopo la sola normalizzazione di data, versione e componente di navigazione: testo e immagini identici. Aggiunti precedente verso Stati della materia e successivo verso Irraggiamento. Navigazione verificata nel browser.

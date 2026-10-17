@@ -1,169 +1,191 @@
 {
-  "covers": [
-    {
-      "id": "computer-quantistico",
-      "loaded": true,
-      "credit": true,
-      "oneImageRequest": true
-    },
-    {
-      "id": "cms-cern",
-      "loaded": true,
-      "credit": true,
-      "oneImageRequest": true
-    },
-    {
-      "id": "motore-f100",
-      "loaded": true,
-      "credit": true,
-      "oneImageRequest": true
-    },
-    {
-      "id": "uragano-florence",
-      "loaded": true,
-      "credit": true,
-      "oneImageRequest": true
-    },
-    {
-      "id": "stazione-spaziale",
-      "loaded": true,
-      "credit": true,
-      "oneImageRequest": true
-    },
-    {
-      "id": "bobina-tesla",
-      "loaded": true,
-      "credit": true,
-      "oneImageRequest": true
-    },
-    {
-      "id": "cambio-porsche",
-      "loaded": true,
-      "credit": true,
-      "oneImageRequest": true
-    },
-    {
-      "id": "marco-polo-crepuscolo",
-      "loaded": true,
-      "credit": true,
-      "oneImageRequest": true
-    },
-    {
-      "id": "wafer-silicio",
-      "loaded": true,
-      "credit": true,
-      "oneImageRequest": true
-    },
-    {
-      "id": "fondo-cosmico",
-      "loaded": true,
-      "credit": true,
-      "oneImageRequest": true
-    },
-    {
-      "id": "smorzatore-taipei",
-      "loaded": true,
-      "credit": true,
-      "oneImageRequest": true
-    },
-    {
-      "id": "scudo-camera",
-      "loaded": true,
-      "credit": true,
-      "oneImageRequest": true
-    },
-    {
-      "id": "daya-bay",
-      "loaded": true,
-      "credit": true,
-      "oneImageRequest": true
-    },
-    {
-      "id": "organo-augsburg",
-      "loaded": true,
-      "credit": true,
-      "oneImageRequest": true
-    },
-    {
-      "id": "altoforno",
-      "loaded": true,
-      "credit": true,
-      "oneImageRequest": true
-    },
-    {
-      "id": "libellula-imperatore",
-      "loaded": true,
-      "credit": true,
-      "oneImageRequest": true
-    },
-    {
-      "id": "canocchia-pavone",
-      "loaded": true,
-      "credit": true,
-      "oneImageRequest": true
-    },
-    {
-      "id": "stambecchi-cingino",
-      "loaded": true,
-      "credit": true,
-      "oneImageRequest": true
-    },
-    {
-      "id": "marte-zhurong",
-      "loaded": true,
-      "credit": true,
-      "oneImageRequest": true
-    },
-    {
-      "id": "reattore-atr",
-      "loaded": true,
-      "credit": true,
-      "oneImageRequest": true
-    }
-  ],
-  "viewports": [
+  "home": [
     {
       "width": 320,
       "overflow": false,
-      "keyboard": true,
-      "credits": 20
+      "menus": true,
+      "sticky": true,
+      "articleCount": 9,
+      "coverTitles": false
     },
     {
       "width": 390,
       "overflow": false,
-      "keyboard": true,
-      "credits": 20
+      "menus": true,
+      "sticky": true,
+      "articleCount": 9,
+      "coverTitles": false
     },
     {
       "width": 768,
       "overflow": false,
-      "keyboard": true,
-      "credits": 20
+      "menus": true,
+      "sticky": true,
+      "articleCount": 9,
+      "coverTitles": false
     },
     {
       "width": 1024,
       "overflow": false,
-      "keyboard": true,
-      "credits": 20
+      "menus": true,
+      "sticky": true,
+      "articleCount": 9,
+      "coverTitles": false
     },
     {
       "width": 1440,
       "overflow": false,
-      "keyboard": true,
-      "credits": 20
+      "menus": true,
+      "sticky": true,
+      "articleCount": 9,
+      "coverTitles": false
     }
   ],
-  "fallbacks": [
+  "languages": [
     {
-      "noJavaScript": true,
-      "cover": true,
-      "credits": true
+      "language": "it",
+      "articles": 9,
+      "links": true,
+      "captions": true,
+      "nativeNavigation": true,
+      "withoutJavaScript": true
     },
     {
-      "failedFirstImage": true,
-      "nextImage": true
+      "language": "fr",
+      "articles": 4,
+      "links": true,
+      "captions": true,
+      "nativeNavigation": true,
+      "withoutJavaScript": true
+    },
+    {
+      "language": "sq",
+      "articles": 4,
+      "links": true,
+      "captions": true,
+      "nativeNavigation": true,
+      "withoutJavaScript": true
     }
   ],
-  "anonymous": true,
-  "terminology": true
+  "article": [
+    {
+      "width": 390,
+      "images": true,
+      "overflow": false,
+      "index": true,
+      "previous": true,
+      "externalRequests": []
+    },
+    {
+      "width": 1440,
+      "images": true,
+      "overflow": false,
+      "index": true,
+      "previous": true,
+      "externalRequests": []
+    }
+  ],
+  "covers": [
+    {
+      "id": "computer-quantistico",
+      "caption": true,
+      "credit": true
+    },
+    {
+      "id": "cms-cern",
+      "caption": true,
+      "credit": true
+    },
+    {
+      "id": "motore-f100",
+      "caption": true,
+      "credit": true
+    },
+    {
+      "id": "uragano-florence",
+      "caption": true,
+      "credit": true
+    },
+    {
+      "id": "stazione-spaziale",
+      "caption": true,
+      "credit": true
+    },
+    {
+      "id": "bobina-tesla",
+      "caption": true,
+      "credit": true
+    },
+    {
+      "id": "cambio-porsche",
+      "caption": true,
+      "credit": true
+    },
+    {
+      "id": "marco-polo-crepuscolo",
+      "caption": true,
+      "credit": true
+    },
+    {
+      "id": "wafer-silicio",
+      "caption": true,
+      "credit": true
+    },
+    {
+      "id": "fondo-cosmico",
+      "caption": true,
+      "credit": true
+    },
+    {
+      "id": "smorzatore-taipei",
+      "caption": true,
+      "credit": true
+    },
+    {
+      "id": "scudo-camera",
+      "caption": true,
+      "credit": true
+    },
+    {
+      "id": "daya-bay",
+      "caption": true,
+      "credit": true
+    },
+    {
+      "id": "organo-augsburg",
+      "caption": true,
+      "credit": true
+    },
+    {
+      "id": "altoforno",
+      "caption": true,
+      "credit": true
+    },
+    {
+      "id": "libellula-imperatore",
+      "caption": true,
+      "credit": true
+    },
+    {
+      "id": "canocchia-pavone",
+      "caption": true,
+      "credit": true
+    },
+    {
+      "id": "stambecchi-cingino",
+      "caption": true,
+      "credit": true
+    },
+    {
+      "id": "marte-zhurong",
+      "caption": true,
+      "credit": true
+    },
+    {
+      "id": "reattore-atr",
+      "caption": true,
+      "credit": true
+    }
+  ],
+  "previousNext": true
 }

@@ -1,4 +1,4 @@
-name: Pubblica i materiali italiani
+name: Pubblica Praticamente la Fisica
 
 on:
   push:
@@ -8,6 +8,8 @@ on:
       - '*.html'
       - 'scripts/build_pages.py'
       - 'scripts/home_covers.py'
+      - 'scripts/home_languages.py'
+      - 'lingue/**'
       - 'copertine/**'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
@@ -24,7 +26,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Prepara solo i materiali italiani dell'indice
+      - name: Prepara gli articoli, le lingue e le copertine
         run: python3 scripts/build_pages.py
       - uses: actions/upload-pages-artifact@v3
         with:
