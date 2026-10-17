@@ -1,5 +1,5 @@
 {
-  "aggiornamento": "17 ottobre 2026, ore 12:32 (Europe/Rome)",
+  "aggiornamento": "17 ottobre 2026, ore 12:37 (Europe/Rome)",
   "materiali": [
     {
       "id": "C1",
@@ -7,12 +7,21 @@
       "url_originale_fornito": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Sun_Over_Earth%27s_Horizon.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
       "scelta": "Fornita e scelta dall’utente",
       "intervento_richiesto": "Nessuna modifica testuale richiesta",
-      "file_locale": null,
-      "stato_lavorazione": "Da recuperare e ispezionare nelle fasi autorizzate",
-      "autore": null,
-      "licenza": null,
-      "stato_diritti": "Da verificare sulla fonte originale",
-      "versione_modificata": null
+      "file_locale": "copertina-originale.jpg",
+      "stato_lavorazione": "Originale recuperato e ispezionato; nessuna modifica, traduzione o compressione applicata",
+      "autore": "NASA",
+      "licenza": "Public domain",
+      "stato_diritti": "Metadati Commons verificati; rispettare le condizioni e le attribuzioni alla realizzazione",
+      "versione_modificata": null,
+      "dimensioni_px": [
+        4288,
+        2848
+      ],
+      "byte": 3655781,
+      "sha256": "4984a3f14107806dd6d33452f40554a5e86d2e76cd0c7412f3c006551a3ad386",
+      "url_licenza": "",
+      "pagina_fonte": "https://commons.wikimedia.org/wiki/File:Sun_Over_Earth%27s_Horizon.jpg",
+      "metadati_fonte": "copertina-originale.jpg.metadata.json"
     },
     {
       "id": "T1",
@@ -20,12 +29,21 @@
       "url_originale_fornito": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Basking_Chuckwalla.jpg/1920px-Basking_Chuckwalla.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "scelta": "Fornita e scelta dall’utente",
       "intervento_richiesto": "Aprire la teoria con i rettili che prendono il sole",
-      "file_locale": null,
-      "stato_lavorazione": "Da recuperare e ispezionare nelle fasi autorizzate",
-      "autore": null,
-      "licenza": null,
-      "stato_diritti": "Da verificare sulla fonte originale",
-      "versione_modificata": null
+      "file_locale": "rettile-originale.jpg",
+      "stato_lavorazione": "Originale recuperato e ispezionato; nessuna modifica, traduzione o compressione applicata",
+      "autore": "Nicholas Stadie",
+      "licenza": "CC BY-SA 3.0",
+      "stato_diritti": "Metadati Commons verificati; rispettare le condizioni e le attribuzioni alla realizzazione",
+      "versione_modificata": null,
+      "dimensioni_px": [
+        4320,
+        3240
+      ],
+      "byte": 4918311,
+      "sha256": "fe646985cfc3fd2f3eaab00efd4bc3e49c5f97528a2884ee57f91779117d16da",
+      "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
+      "pagina_fonte": "https://commons.wikimedia.org/wiki/File:Basking_Chuckwalla.jpg",
+      "metadati_fonte": "rettile-originale.jpg.metadata.json"
     },
     {
       "id": "T2",
@@ -33,12 +51,21 @@
       "url_originale_fornito": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Earth_to_Sun.png/1280px-Earth_to_Sun.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail",
       "scelta": "Fornita e scelta dall’utente",
       "intervento_richiesto": "Tradurre le etichette in italiano",
-      "file_locale": null,
-      "stato_lavorazione": "Da recuperare e ispezionare nelle fasi autorizzate",
-      "autore": null,
-      "licenza": null,
-      "stato_diritti": "Da verificare sulla fonte originale",
-      "versione_modificata": null
+      "file_locale": "terra-sole-originale.png",
+      "stato_lavorazione": "Originale recuperato e ispezionato; nessuna modifica, traduzione o compressione applicata",
+      "autore": "Lucas Vieira",
+      "licenza": "Public domain",
+      "stato_diritti": "Metadati Commons verificati; rispettare le condizioni e le attribuzioni alla realizzazione",
+      "versione_modificata": null,
+      "dimensioni_px": [
+        841,
+        476
+      ],
+      "byte": 51492,
+      "sha256": "60766006a0b492ecece9f47277bebea8618e418ff389cb86eb871ff6d74cdea0",
+      "url_licenza": "",
+      "pagina_fonte": "https://commons.wikimedia.org/wiki/File:Earth_to_Sun.png",
+      "metadati_fonte": "terra-sole-originale.png.metadata.json"
     },
     {
       "id": "T3",
@@ -46,12 +73,21 @@
       "url_originale_fornito": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/EM_Spectrum_Properties_it.svg/1280px-EM_Spectrum_Properties_it.svg.png?utm_source=commons.wikimedia.org&utm_campaign=parser&utm_content=thumbnail",
       "scelta": "Fornita e scelta dall’utente",
       "intervento_richiesto": "Immagine già in italiano; preservare la trasparenza segnalata dall’utente e verificare il contrasto sullo sfondo della pagina",
-      "file_locale": null,
-      "stato_lavorazione": "Da recuperare e ispezionare nelle fasi autorizzate",
-      "autore": null,
-      "licenza": null,
-      "stato_diritti": "Da verificare sulla fonte originale",
-      "versione_modificata": null
+      "file_locale": "spettro-originale.svg",
+      "stato_lavorazione": "Originale recuperato e ispezionato; nessuna modifica, traduzione o compressione applicata",
+      "autore": "Annuale . Original version in English by  Inductiveload",
+      "licenza": "Public domain",
+      "stato_diritti": "Metadati Commons verificati; rispettare le condizioni e le attribuzioni alla realizzazione",
+      "versione_modificata": null,
+      "dimensioni_px": [
+        680,
+        400
+      ],
+      "byte": 182819,
+      "sha256": "99a5fc328dee11b165199cb50da531f3939f8842ae8ab242625d104e8d8b68b7",
+      "url_licenza": "",
+      "pagina_fonte": "https://commons.wikimedia.org/wiki/File:EM_Spectrum_Properties_it.svg",
+      "metadati_fonte": "spettro-originale.svg.metadata.json"
     },
     {
       "id": "T4",
@@ -59,12 +95,22 @@
       "url_originale_fornito": "https://en.wikipedia.org/wiki/File:LesliesCube.png",
       "scelta": "Fornita e scelta dall’utente",
       "intervento_richiesto": "Didascalia che spieghi l’esperimento mostrato; verificare descrizione e condizioni nella fonte prima di scriverla",
-      "file_locale": null,
-      "stato_lavorazione": "Da recuperare e ispezionare nelle fasi autorizzate",
-      "autore": null,
-      "licenza": null,
-      "stato_diritti": "Da verificare sulla fonte originale",
-      "versione_modificata": null
+      "file_locale": "cubo-leslie-originale.png",
+      "stato_lavorazione": "Originale recuperato e ispezionato; nessuna modifica, traduzione o compressione applicata",
+      "autore": "Pieter Kuiper",
+      "licenza": "Public domain",
+      "stato_diritti": "Metadati Commons verificati; rispettare le condizioni e le attribuzioni alla realizzazione",
+      "versione_modificata": null,
+      "dimensioni_px": [
+        650,
+        505
+      ],
+      "byte": 226240,
+      "sha256": "a9a8da1ced13c78bdf1b0eebc23ac9df57b7c973c7422c22ab6b1300ea27be8d",
+      "url_licenza": "",
+      "pagina_fonte": "https://commons.wikimedia.org/wiki/File:LesliesCube.png",
+      "metadati_fonte": "cubo-leslie-originale.png.metadata.json",
+      "nota_ispezione": "Le facce sono alla stessa temperatura; la termografia comprende il riflesso della mano sulla faccia lucida. Non leggere i colori apparenti come misura diretta della temperatura delle diverse facce."
     },
     {
       "id": "T5",
@@ -73,10 +119,10 @@
       "scelta": "Fornita e scelta dall’utente al posto della sbarra di ferro incandescente/foto del fabbro",
       "intervento_richiesto": "Spiegare che la radiazione termica non è limitata all’infrarosso: la lava sufficientemente calda emette anche luce visibile. Non attribuire temperature numeriche alla fotografia senza una fonte.",
       "file_locale": "lava.jpg",
-      "stato_lavorazione": "Originale recuperato e ispezionato, nessuna modifica o ingrandimento",
-      "autore": null,
-      "licenza": null,
-      "stato_diritti": "Da verificare sulla fonte originale",
+      "stato_lavorazione": "Originale recuperato e ispezionato; nessuna modifica, traduzione o compressione applicata",
+      "autore": "Hawaii Volcano Observatory (DAS)",
+      "licenza": "Public domain",
+      "stato_diritti": "Metadati Commons verificati; rispettare le condizioni e le attribuzioni alla realizzazione",
       "versione_modificata": null,
       "fonte_precedente_sostituita": "https://en.wikipedia.org/wiki/File:Blacksmith_at_work02.jpg",
       "dimensioni_px": [
@@ -84,7 +130,10 @@
         500
       ],
       "byte": 101374,
-      "sha256": "c157da6b9c7110be3e589a0033ad3bcce34373111cfa1b981c4831a56d2fc8da"
+      "sha256": "c157da6b9c7110be3e589a0033ad3bcce34373111cfa1b981c4831a56d2fc8da",
+      "url_licenza": "",
+      "pagina_fonte": "https://commons.wikimedia.org/wiki/File:Pahoehoe_toe.jpg",
+      "metadati_fonte": "lava.jpg.metadata.json"
     },
     {
       "id": "A2",
@@ -92,12 +141,22 @@
       "url_originale_fornito": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Thermal_image_of_four_ducks_swimming.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
       "scelta": "Fornita e scelta dall’utente",
       "intervento_richiesto": "Rilevazione infrarossa e lettura della rappresentazione termica; verificare presenza e significato della scala",
-      "file_locale": null,
-      "stato_lavorazione": "Da recuperare e ispezionare nelle fasi autorizzate",
-      "autore": null,
-      "licenza": null,
-      "stato_diritti": "Da verificare sulla fonte originale",
-      "versione_modificata": null
+      "file_locale": "termografia-anatre-originale.jpg",
+      "stato_lavorazione": "Originale recuperato e ispezionato; nessuna modifica, traduzione o compressione applicata",
+      "autore": "Zaereth",
+      "licenza": "CC0",
+      "stato_diritti": "Metadati Commons verificati; rispettare le condizioni e le attribuzioni alla realizzazione",
+      "versione_modificata": null,
+      "dimensioni_px": [
+        240,
+        205
+      ],
+      "byte": 12307,
+      "sha256": "86a77b0c237b5972bb47dc26b8cd265d088250f798a232938580f2bdc708dde6",
+      "url_licenza": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "pagina_fonte": "https://commons.wikimedia.org/wiki/File:Thermal_image_of_four_ducks_swimming.jpg",
+      "metadati_fonte": "termografia-anatre-originale.jpg.metadata.json",
+      "nota_ispezione": "Originale piccolo: 240 × 205 px. Scala 45–64 °F, circa 7–18 °C; presenza di riflessi infrarossi sull’acqua. Non ingrandire artificialmente né omettere la riflessione nella spiegazione."
     },
     {
       "id": "A3",
@@ -105,12 +164,21 @@
       "url_originale_fornito": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Deep_Space_1_98pc1176.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
       "scelta": "Fornita e scelta dall’utente",
       "intervento_richiesto": "Collegare il rivestimento riflettente al controllo termico; verificare il soggetto nella fonte e descrivere il sistema illustrato senza assimilarlo automaticamente a una coperta di emergenza",
-      "file_locale": null,
-      "stato_lavorazione": "Da recuperare e ispezionare nelle fasi autorizzate",
-      "autore": null,
-      "licenza": null,
-      "stato_diritti": "Da verificare sulla fonte originale",
-      "versione_modificata": null
+      "file_locale": "sonda-originale.jpg",
+      "stato_lavorazione": "Originale recuperato e ispezionato; nessuna modifica, traduzione o compressione applicata",
+      "autore": "NASA/JPL",
+      "licenza": "Public domain",
+      "stato_diritti": "Metadati Commons verificati; rispettare le condizioni e le attribuzioni alla realizzazione",
+      "versione_modificata": null,
+      "dimensioni_px": [
+        1816,
+        2617
+      ],
+      "byte": 1720032,
+      "sha256": "e13d69f48ce43a59abfea8e02ca42600c36c9a669bf3652e32ad6ee02fcc6c2d",
+      "url_licenza": "",
+      "pagina_fonte": "https://commons.wikimedia.org/wiki/File:Deep_Space_1_98pc1176.jpg",
+      "metadati_fonte": "sonda-originale.jpg.metadata.json"
     },
     {
       "id": "T6",
@@ -118,12 +186,21 @@
       "url_originale_fornito": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Electromagnetic_wave_EN.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
       "scelta": "Fornita e scelta dall’utente",
       "intervento_richiesto": "Tradurre le etichette in italiano; conservare relazioni e direzioni fisiche e la natura vettoriale quando possibile",
-      "file_locale": null,
-      "stato_lavorazione": "Da recuperare e ispezionare nelle fasi autorizzate",
-      "autore": null,
-      "licenza": null,
-      "stato_diritti": "Da verificare sulla fonte originale",
-      "versione_modificata": null
+      "file_locale": "onda-originale.svg",
+      "stato_lavorazione": "Originale recuperato e ispezionato; nessuna modifica, traduzione o compressione applicata",
+      "autore": "Piotr Fita",
+      "licenza": "CC0",
+      "stato_diritti": "Metadati Commons verificati; rispettare le condizioni e le attribuzioni alla realizzazione",
+      "versione_modificata": null,
+      "dimensioni_px": [
+        599,
+        317
+      ],
+      "byte": 79827,
+      "sha256": "9b9a7988081e69eaec73d86a2507f24463476ea1acb5312b1e125e5c5c67c0c4",
+      "url_licenza": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "pagina_fonte": "https://commons.wikimedia.org/wiki/File:Electromagnetic_wave_EN.svg",
+      "metadati_fonte": "onda-originale.svg.metadata.json"
     },
     {
       "id": "A4",
@@ -131,12 +208,22 @@
       "url_originale_fornito": "https://upload.wikimedia.org/wikipedia/commons/b/bb/The-NASA-Earth%27s-Energy-Budget-Poster-Radiant-Energy-System-satellite-infrared-radiation-fluxes.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
       "scelta": "Fornita e scelta dall’utente",
       "intervento_richiesto": "Tradurre le etichette in italiano; preservare valori, unità, frecce e significato del diagramma; verificare leggibilità su smartphone",
-      "file_locale": null,
-      "stato_lavorazione": "Da recuperare e ispezionare nelle fasi autorizzate",
-      "autore": null,
-      "licenza": null,
-      "stato_diritti": "Da verificare sulla fonte originale",
-      "versione_modificata": null
+      "file_locale": "bilancio-terra-originale.jpg",
+      "stato_lavorazione": "Originale recuperato e ispezionato; nessuna modifica, traduzione o compressione applicata",
+      "autore": "NASA",
+      "licenza": "Public domain",
+      "stato_diritti": "Metadati Commons verificati; rispettare le condizioni e le attribuzioni alla realizzazione",
+      "versione_modificata": null,
+      "dimensioni_px": [
+        1980,
+        1530
+      ],
+      "byte": 1765202,
+      "sha256": "1bb729ec94c4a629d75daf2601038fc3f0e9cb915c005e04535ada0aca043c86",
+      "url_licenza": "",
+      "pagina_fonte": "https://commons.wikimedia.org/wiki/File:The-NASA-Earth%27s-Energy-Budget-Poster-Radiant-Energy-System-satellite-infrared-radiation-fluxes.jpg",
+      "metadati_fonte": "bilancio-terra-originale.jpg.metadata.json",
+      "nota_ispezione": "Valori storici riferiti a lavori del 2009: non presentare 0,6 W/m² come squilibrio attuale. Infografica densa: mantenere struttura e dati nella traduzione e consentire ingrandimento/lettura dedicata su smartphone."
     },
     {
       "id": "A4-animazione",
