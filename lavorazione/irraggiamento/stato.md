@@ -1,6 +1,6 @@
 # Stato — Irraggiamento
 
-Ultimo aggiornamento: 17 ottobre 2026, ore 13:26 (Europe/Rome).
+Ultimo aggiornamento: 17 ottobre 2026, ore 13:40 (Europe/Rome).
 Master corrente: v60. Le note seguenti conservano la cronologia; lo stato attuale è riportato nell’ultima sezione.
 
 ## Argomento e fase
@@ -215,3 +215,10 @@ Verifiche concluse e registrate in `verifiche/browser.json` e `verifiche/integri
 Controllo scientifico: modello di Stefan–Boltzmann, rapporto 16 in kelvin, condizioni della potenza netta, carattere ipotetico delle temperature del rettile, riflessi del cubo e delle anatre e medie storiche del poster mantenuti. Attribuzioni Commons conservate; autore/licenza restano non identificati per GIF, tostapane e figura Concepts of Physics e sono indicati come tali nei crediti. Nessuna simulazione aggiunta.
 
 Master v60 e capitolo pronti per salvataggio sul ramo `istruzioni/tema-mac`; nessuna unione in main o pubblicazione, nessuna modifica alla home. Prossima operazione dopo consegna: raccogliere eventuali correzioni dell’utente sulla pagina completa.
+
+
+## Comando di ingrandimento aggiornato — v2
+
+Su richiesta dell’utente, tutti gli otto comandi delle immagini con scritte mostrano «Ingrandisci l’immagine» quando chiusi e «Rimpicciolisci l’immagine» quando aperti. Comportamento basato sullo stato nativo di details e CSS, funzionante anche senza JavaScript; il nome accessibile corrisponde al testo visibile. Aggiornati generatore, HTML ufficiale e copia di lavorazione a v2, 5.982.091 byte.
+
+Verificati tutti gli otto comandi a 1440 e 390 px con script e a 320 px senza script, inclusi apertura, ritorno al testo iniziale, nomi accessibili e tastiera nei casi con script. Report in `verifiche/zoom.json`; impronta e versione correnti in `verifiche/integrita.json`. Modifica locale: restano validi i controlli precedenti sulle parti non coinvolte.

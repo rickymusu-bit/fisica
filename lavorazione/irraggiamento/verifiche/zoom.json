@@ -1,0 +1,23 @@
+[
+  {
+    "width": 1440,
+    "javascript": true,
+    "controls_verified": 8,
+    "labels_and_accessible_names": true,
+    "keyboard": true
+  },
+  {
+    "width": 390,
+    "javascript": true,
+    "controls_verified": 8,
+    "labels_and_accessible_names": true,
+    "keyboard": true
+  },
+  {
+    "width": 320,
+    "javascript": false,
+    "controls_verified": 8,
+    "labels_and_accessible_names": true,
+    "keyboard": "native click verified"
+  }
+]

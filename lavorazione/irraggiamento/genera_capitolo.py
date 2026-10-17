@@ -61,7 +61,7 @@ def figure(ident, caption="", cover=False):
     zoom = ""
     if asset.get("zoom"):
         minimum = asset.get("min_width", 800)
-        zoom = (f'<details class="image-zoom"><summary>Ingrandisci l’immagine</summary>'
+        zoom = (f'<details class="image-zoom"><summary><span class="zoom-expand">Ingrandisci l’immagine</span><span class="zoom-collapse">Rimpicciolisci l’immagine</span></summary>'
                 f'<div class="zoom-scroll" tabindex="0" role="region" aria-label="Immagine ingrandita scorrevole: {alt}">'
                 f'<img src="{full_uri}" alt="{alt}" width="{width}" height="{height}" loading="lazy" decoding="async" style="min-width:{minimum}px">'
                 '</div></details>')
@@ -185,6 +185,8 @@ CSS = r'''
 @media print{body{padding:0;background:white}.page{border:0}.topbar,.reader-index,.bottom-links,.image-zoom{display:none!important}.article-wrap{padding:0;background:white}.article{border:0;padding:20px}.hero{padding:20px}.hero-grid{display:block}.hero .cover{max-width:500px;margin-top:25px}.cover .image-frame{transform:none;box-shadow:none}.visual,.equation{break-inside:avoid}.credits{max-width:none}body.index-open{overflow:visible}}
 '''.replace("\n+", "\n")
 
+CSS += '\n.image-zoom .zoom-collapse{display:none}.image-zoom[open] .zoom-expand{display:none}.image-zoom[open] .zoom-collapse{display:inline}\n'
+
 sidebar_items = ''.join(f'<li class="level-{level}"><a href="#{ident}"><span class="item-number" aria-hidden="true">{number}</span><span>{html.escape(title)}</span></a></li>'
                         for level, ident, title, number in toc)
 sidebar = ('<details class="reader-index" id="indice"><summary class="index-toggle"><span class="list-icon" aria-hidden="true"></span><span class="summary-open">Indice</span><span class="summary-close">Chiudi ×</span></summary>'
@@ -209,7 +211,7 @@ JS = r'''
 '''
 
 document = (f'<!DOCTYPE html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">'
-            f'<meta name="version" content="v1"><meta name="date" content="{TODAY}"><meta name="author" content="Riccardo Musumarra">'
+            f'<meta name="version" content="v2"><meta name="date" content="{TODAY}"><meta name="author" content="Riccardo Musumarra">'
             '<meta name="description" content="Irraggiamento termico: radiazione elettromagnetica, emissività, legge di Stefan–Boltzmann, bilancio radiativo e applicazioni.">'
             '<title>Irraggiamento</title><style>'
             f'@font-face{{font-family:Lexend;src:url({font_uri}) format("truetype");font-weight:100 900;font-display:swap}}'
@@ -217,7 +219,7 @@ document = (f'<!DOCTYPE html><html lang="it"><head><meta charset="utf-8"><meta n
             f'<header class="topbar"><a class="brand" href="#inizio"><span class="app-icon" aria-hidden="true">φ</span>Fisica</a><nav class="top-links" aria-label="Navigazione principale"><a href="{HOME}">← Biblioteca</a>{sidebar}</nav></header>'
             '<main><div class="hero"><p class="kicker">Fisica</p><div class="hero-grid"><h1>Irraggiamento</h1>' + cover_html + '</div></div>'
             '<div class="article-wrap"><article class="article">' + ''.join(body) + '</article>' + credits_html + '</div></main>'
-            f'<footer class="footer">Versione v1 · {TODAY}</footer></div><script>' + JS + '</script></body></html>')
+            f'<footer class="footer">Versione v2 · {TODAY}</footer></div><script>' + JS + '</script></body></html>')
 assert "\\[" not in document and "\\(" not in document
 assert len(re.findall(r'data-visual="', document)) == len(ASSETS)
 assert len(questions) == 15
