@@ -1,5 +1,5 @@
 {
-  "aggiornamento": "17 ottobre 2026, ore 12:49 (Europe/Rome)",
+  "aggiornamento": "17 ottobre 2026, ore 12:59 (Europe/Rome)",
   "materiali": [
     {
       "id": "C1",
@@ -247,8 +247,8 @@
       "intervento_richiesto": "Usare l’animazione e spiegare che una parte della radiazione solare viene riflessa verso lo spazio; distinguere questo fenomeno dall’assorbimento e riemissione dell’infrarosso da parte dell’atmosfera, anche verso la superficie terrestre.",
       "didascalia_approvata": "Una parte della radiazione solare viene riflessa verso lo spazio; quella assorbita riscalda la superficie terrestre, che emette radiazione infrarossa. L’atmosfera assorbe e riemette parte dell’infrarosso anche verso la superficie, mentre altra energia raggiunge lo spazio.",
       "approvazione_didascalia": "17 ottobre 2026, ore 12:25 (Europe/Rome), risposta «Ok» dell’utente",
-      "collocazione_concordata": "Teoria: Emettere energia non significa soltanto perderla, per spiegare la potenza netta per irraggiamento. Richiesta esplicita dell’utente.",
-      "sostituisce_visuale_proposta": "S1, schema del cubo con scambi nei due versi, non ancora realizzato. La GIF non viene duplicata nell’applicazione sull’effetto serra."
+      "collocazione_concordata": "Applicazioni: L’effetto serra e il bilancio della Terra. Ripristino richiesto esplicitamente dall’utente.",
+      "comandi": "Nessun pulsante per fermare, mettere in pausa o riavviare la GIF, per richiesta esplicita dell’utente, registrata nel master v59."
     },
     {
       "id": "A1",
@@ -289,6 +289,49 @@
       "licenza": null,
       "stato_diritti": "Fonte recuperata; autore/licenza di riuso dell’immagine da verificare prima della consegna finale",
       "versione_modificata": null
+    },
+    {
+      "id": "T1-bilancio",
+      "soggetto": "Seconda foto del rettile con frecce degli scambi radiativi",
+      "file_locale": "rettile-bilancio.png",
+      "originale_di_riferimento": "rettile-originale.jpg",
+      "pagina_fonte": "https://commons.wikimedia.org/wiki/File:Basking_Chuckwalla.jpg",
+      "autore_originale": "Nicholas Stadie",
+      "licenza": "CC BY-SA 3.0",
+      "scelta": "Seconda copia con frecce richiesta esplicitamente dall’utente",
+      "modifica": "Versione annotata generata tramite strumento di modifica immagini: freccia arancione entrante «Calore assorbito», freccia rossa uscente «Calore ceduto». Originale non modificato.",
+      "dimensioni_px": [
+        1448,
+        1086
+      ],
+      "byte": 2283213,
+      "sha256": "a5ad1d2777bffab4d0de0cf37fce15578efbcbd60f530a73d4607149ee0f9254",
+      "stato_lavorazione": "Realizzata e ispezionata; frecce qualitative senza dati numerici o proporzioni di flusso",
+      "collocazione": "Teoria: Emettere energia non significa soltanto perderla. La prima foto resta nell’introduzione."
+    },
+    {
+      "id": "G1",
+      "soggetto": "Curva teorica della potenza termica emessa in funzione della temperatura",
+      "file_locale": "potenza-temperatura.svg",
+      "anteprima": "potenza-temperatura.png",
+      "sorgente": "grafico-potenza-temperatura.py",
+      "scelta": "Realizzazione esplicitamente richiesta dall’utente",
+      "autore": "Realizzato per il progetto, grafico matematico originale",
+      "modello": {
+        "legge": "P = emissività · sigma · area · T^4",
+        "sigma_W_m2_K4": 5.67e-08,
+        "area_m2": 1,
+        "emissivita": 1,
+        "intervallo_T_K": [
+          0,
+          600
+        ],
+        "potenza_a_300_K_W": 459.27,
+        "potenza_a_600_K_W": 7348.32,
+        "rapporto": 16
+      },
+      "byte": 60154,
+      "stato_lavorazione": "Realizzato con Matplotlib in SVG e PNG, font Lexend con licenza OFL conservata. Assi, unità e punti di confronto ispezionati; nessun dato sperimentale inventato."
     }
   ]
 }

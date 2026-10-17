@@ -78,7 +78,9 @@ Se la temperatura assoluta raddoppia, la potenza emessa viene moltiplicata per:
 
 Passare da 300 K a 600 K rende quindi la potenza emessa sedici volte maggiore, mantenendo uguali area ed emissività. Non basta raddoppiare una temperatura espressa in gradi Celsius per ottenere lo stesso effetto: nella legge entrano i kelvin. È questa forte dipendenza dalla temperatura a far crescere rapidamente l’emissione dei corpi molto caldi.
 
-[GRAFICO G1 — Potenza emessa in funzione di T; modello: A = 1 m², ε = 1, T da 0 a 600 K. Assi con unità K e W; evidenziare i punti a 300 K e 600 K. Nessuna misura sperimentale simulata.]
+[GRAFICO G1 — Realizzato in SVG: potenza emessa in funzione di T; modello A = 1 m², ε = 1, T da 0 a 600 K. Curva teorica, non dati sperimentali.]
+
+![Potenza emessa in funzione della temperatura assoluta, con punti evidenziati a 300 K e 600 K.](risorse/potenza-temperatura.svg)
 
 *A parità di area ed emissività, la potenza emessa cresce sempre più rapidamente con la temperatura. Raddoppiare la temperatura in kelvin moltiplica per sedici la potenza emessa.*
 
@@ -94,13 +96,17 @@ P_{\mathrm{netta}}=P_{\mathrm{emessa}}-P_{\mathrm{assorbita}}
 
 Il risultato è positivo quando il corpo cede più energia di quanta ne assorba per irraggiamento, negativo quando ne assorbe di più. Non basta quindi guardare quanto emette: un corpo può emettere continuamente radiazione e, nello stesso tempo, acquistare energia. La parte di radiazione incidente che viene riflessa o trasmessa non entra nella potenza assorbita.
 
-[ANIMAZIONE A4-animazione — GIF della Terra, scelta per spiegare la potenza netta per irraggiamento; comandi per fermare e riavviare il movimento nella versione finale. Sostituisce lo schema S1 precedentemente proposto.]
+Torniamo al rettile esposto al Sole. Il suo corpo assorbe parte della radiazione solare e della radiazione proveniente dall’ambiente; nello stesso tempo emette radiazione infrarossa. La freccia entrante rappresenta l’energia assorbita, mentre quella uscente rappresenta l’energia emessa. Anche mentre si riscalda, il rettile continua quindi a cedere energia per irraggiamento.
 
-*Una parte della radiazione solare viene riflessa verso lo spazio; quella assorbita riscalda la superficie terrestre, che emette radiazione infrarossa. L’atmosfera assorbe e riemette parte dell’infrarosso anche verso la superficie, mentre altra energia raggiunge lo spazio.*
+[IMMAGINE T1-bilancio — Seconda copia della foto del rettile, con frecce «Calore assorbito» e «Calore ceduto»; originale introduttivo conservato senza frecce.]
 
-Nell’animazione la Terra riceve energia dal Sole e perde energia attraverso l’infrarosso che raggiunge lo spazio. Per il sistema terrestre nel suo insieme, il confronto va fatto tra radiazione solare assorbita e radiazione termica emessa verso lo spazio. Gli scambi fra superficie e atmosfera ridistribuiscono energia all’interno del sistema e non vanno contati come nuove entrate dall’esterno. Se le due potenze esterne si compensano, il bilancio radiativo complessivo è nullo; se la potenza assorbita supera quella emessa, il sistema accumula energia.
+![Rettile al Sole con una freccia diretta verso il corpo per il calore assorbito e una diretta all’esterno per il calore ceduto.](risorse/rettile-bilancio.png)
 
-La Terra mostra perché il bilancio è necessario, ma per ricavare una formula di calcolo semplice consideriamo ora un corpo circondato da un ambiente ampio a temperatura uniforme. Usiamo un modello in cui la stessa emissività efficace descrive emissione e assorbimento. La potenza netta ceduta diventa:
+*Le frecce rappresentano gli scambi per irraggiamento: energia assorbita dal Sole e dall’ambiente, energia emessa soprattutto nell’infrarosso. Le loro dimensioni sono illustrative e non indicano quantità misurate. La differenza tra i due contributi determina il bilancio radiativo.*
+
+Se assorbe più energia di quanta ne emetta, il contributo radiativo tende a riscaldarlo; se ne emette di più, tende a raffreddarlo. Quando le due potenze sono uguali, il bilancio radiativo è nullo. La temperatura del rettile dipende però anche dagli scambi con aria e roccia: un bilancio radiativo nullo non basta, da solo, a garantire un bilancio termico complessivo nullo.
+
+Per ricavare una formula di calcolo semplice consideriamo ora un corpo che scambia radiazione soltanto con un ambiente ampio a temperatura uniforme, senza un ulteriore contributo solare diretto. Usiamo un modello in cui la stessa emissività efficace descrive emissione e assorbimento. La potenza netta ceduta diventa:
 
 \[
 P_{\mathrm{netta}}=\varepsilon\cdot\sigma\cdot A\cdot\left(T^4-T_{\mathrm{amb}}^4\right)
@@ -143,6 +149,10 @@ Il punto non è semplicemente aggiungere uno strato di metallo: conta come sono 
 ### L’effetto serra e il bilancio della Terra
 
 Nel bilancio terrestre conta anche quali radiazioni vengono assorbite dall’atmosfera. Alcuni gas, tra cui vapore acqueo e anidride carbonica, assorbono parte dell’infrarosso emesso dalla superficie e ne emettono a loro volta in diverse direzioni. La radiazione solare e quella emessa dalla Terra hanno distribuzioni di lunghezze d’onda diverse, quindi non interagiscono allo stesso modo con l’atmosfera. Questa differenza è essenziale per capire l’effetto serra.
+
+[ANIMAZIONE A4-animazione — GIF della Terra, riportata nella sezione sull’effetto serra. Nessun pulsante per fermare o riavviare la GIF.]
+
+*Una parte della radiazione solare viene riflessa verso lo spazio; quella assorbita riscalda la superficie terrestre, che emette radiazione infrarossa. L’atmosfera assorbe e riemette parte dell’infrarosso anche verso la superficie, mentre altra energia raggiunge lo spazio.*
 
 La radiazione emessa dall’atmosfera verso il basso contribuisce agli scambi energetici della superficie. Questo meccanismo è alla base dell’**effetto serra naturale**, che rende la superficie terrestre più calda rispetto a una Terra senza atmosfera capace di assorbire infrarossi, a parità di altre condizioni. Il ritorno dell’infrarosso non è una semplice riflessione su uno specchio: la radiazione viene assorbita e riemessa. Inoltre, una parte dell’energia continua a uscire verso lo spazio.
 

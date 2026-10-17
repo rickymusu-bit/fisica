@@ -1,6 +1,6 @@
 # PROMPT MASTER — DISPENSE VISUALI DI FISICA PER IL BIENNIO DEGLI ISTITUTI TECNICI
 
-VERSIONE DEL PROMPT: v58 — 17 ottobre 2026, ore 11:29 (Europe/Rome)
+VERSIONE DEL PROMPT: v59 — 17 ottobre 2026, ore 12:59 (Europe/Rome)
 
 Questo master raccoglie le regole della dispensa e la procedura per realizzarla con il minor lavoro ripetuto possibile. Le istruzioni relative a immagini, video, traduzioni e simulazioni si applicano quando quei materiali fanno parte della richiesta. Non aggiungere contenuti o lavorazioni solo perché il master ne descrive la gestione.
 
@@ -220,13 +220,15 @@ Flowchart e diagrammi di processo: conserva passaggi, ordine, condizioni, ramifi
 
 Gli elementi ricostruiti devono condividere lo stile della dispensa e seguire le regole di leggibilità di A6. La composizione degli schemi fisici può usare SVG o HTML/CSS e incorporare immagini scaricate ed elementi esplicativi, mantenendo uso offline, descrizione accessibile e didascalia. Traduci le etichette quando la traduzione è richiesta.
 
-### C5. Video e simulazioni: regole distinte
+### C5. Video, GIF e simulazioni: regole distinte
 
 VIDEO. Usa soltanto video e link forniti, salvo richiesta esplicita di cercarne altri. Mantieni il link esatto e gli eventuali timestamp; non sostituirlo autonomamente. Presenta ogni video nel punto didatticamente utile attraverso una miniatura cliccabile, pulsante play sovrapposto e breve titolo o introduzione con ciò che osservare. L’esperienza è: miniatura → clic → apertura nella piattaforma originale.
 
 Non incorporare lettori video, iframe di piattaforme video, autoplay o player YouTube. Il link deve comprendere tutta la miniatura, aprirsi preferibilmente in nuova scheda e usare target="_blank" e rel="noopener". La miniatura condivide larghezza e stile delle immagini, mantiene preferibilmente proporzioni 16:9, ha bordi coerenti e un play con contrasto sufficiente. Realizza il pulsante con CSS, SVG o HTML, senza un’immagine separata quando non serve. Garantisci navigazione da tastiera, focus visibile, aria-label significativo e alt riferito al contenuto o titolo, non soltanto «immagine YouTube».
 
 Per YouTube ricava il VIDEO_ID dal link e usa, quando disponibile, https://img.youtube.com/vi/VIDEO_ID/hqdefault.jpg oppure un’altra miniatura ufficiale fornita. Non inventare URL. Se non puoi ottenere una miniatura valida e utilizzabile, fermati per quella parte e chiedi esplicitamente all’utente di fornirla; non usare immagini generiche casuali.
+
+GIF. Non aggiungere mai pulsanti o altri comandi per fermare, mettere in pausa o riavviare le GIF. La regola vale per tutte le GIF nelle dispense e nelle anteprime; i comandi delle simulazioni interattive restano distinti.
 
 SIMULAZIONI. Puoi creare animazioni e simulazioni JavaScript quando richieste o approvate e utili al fenomeno. Il precedente divieto di animazioni JavaScript non si applica. Preferisci codice standard incorporato, funzionamento offline quando possibile, comandi per pausa e riavvio, uso su smartphone e rispetto della preferenza di riduzione del movimento. Verifica prima il modello e le grandezze fisiche, poi la presentazione.
 
@@ -268,7 +270,7 @@ Funzionamento e lettura:
 - collegamenti interni ed esterni, indice, tasti di ritorno all’indice generale secondo A6, proporzioni, leggibilità e accessibilità;
 - tabelle, formule, grafici ed elementi ricostruiti leggibili anche su smartphone;
 - stile uniforme, equilibrio tra testo e immagini e assenza di riquadri inutili;
-- video con miniatura e play, link funzionante e nessun lettore incorporato;
+- video con miniatura e play, link funzionante e nessun lettore incorporato; GIF senza pulsanti per fermare o riavviare l’animazione;
 - simulazioni: comandi, comportamento, valori e bilanci coinvolti nella modifica;
 - autonomia del documento e funzionamento offline quando previsto.
 
