@@ -130,37 +130,37 @@ Un terzo circuito porta via energia dal condensatore usando acqua di raffreddame
 
 ### Fondere il ghiaccio
 
-Vogliamo fondere completamente **0,50 kg di ghiaccio già a 0 °C**, alla pressione atmosferica ordinaria. Quanta energia deve ricevere? Consideriamo solo la fusione: il ghiaccio non deve essere prima riscaldato e trascuriamo l'energia assorbita dal recipiente e le dispersioni verso l'ambiente.
+Consideriamo una scultura di ghiaccio come quella della fotografia e **assumiamo che abbia una massa di 500 kg** e sia già a **0 °C**, alla pressione atmosferica ordinaria. Quanta energia deve ricevere per fondere completamente? La massa è un dato ipotizzato per l'esercizio, non una misura della scultura fotografata. Consideriamo solo la fusione e trascuriamo gli altri scambi di energia.
 
-[SCHEMA E1 — Ghiaccio in un recipiente con fondo trasparente, da fornire oppure ricavabile da una risorsa esistente solo se idonea. Prima del calcolo: m = 0,50 kg; temperatura iniziale 0 °C; freccia di energia entrante Q; stato finale acqua liquida a 0 °C. Nessuna sorgente di calore specifica inventata.]
+[SCHEMA E1 — `risorse/schema-fusione.svg`, con la foto scelta `risorse/scultura-ghiaccio.jpg` integrale e sfondo conservato. Dati dell'esercizio: scultura intera, m = 500 kg, temperatura iniziale 0 °C; Q entrante; stato finale acqua liquida a 0 °C. Dati e frecce fuori dalla foto.]
 
-Didascalia: L'energia ricevuta trasforma il ghiaccio a 0 °C in acqua alla stessa temperatura, senza un riscaldamento preliminare.
+Didascalia E1: La scultura illustra la situazione fisica. Nel problema assumiamo 500 kg di ghiaccio già a 0 °C: l'energia ricevuta serve a trasformarlo in acqua liquida alla stessa temperatura.
 
-Per ogni kilogrammo servono circa 334.000 J. La massa considerata è mezzo kilogrammo, quindi ci aspettiamo metà di quell'energia. Usiamo la relazione con il calore latente di fusione Lf:
+Per fondere ogni kilogrammo servono circa 334.000 J. Per 500 kg occorre quindi una quantità di energia 500 volte maggiore. Usiamo la relazione con il calore latente di fusione Lf:
 
 \[
 Q=m\cdot L_f
 \]
 
 \[
-Q=0{,}50\,\mathrm{kg}\cdot334\,000\,\mathrm{J/kg}
+Q=500\,\mathrm{kg}\cdot334\,000\,\mathrm{J/kg}
 \]
 
 \[
-Q=167\,000\,\mathrm{J}=167\,\mathrm{kJ}
+Q=167\,000\,000\,\mathrm{J}=167\,\mathrm{MJ}
 \]
 
-Il risultato è coerente con la previsione: metà massa richiede metà energia. Questa energia serve alla trasformazione completa in acqua liquida a 0 °C. Per aumentare poi la temperatura dell'acqua occorrerebbe un ulteriore apporto di energia.
+La sigla **MJ** indica i megajoule: un megajoule corrisponde a un milione di joule. Per la scultura ipotizzata servono quindi **167 milioni di joule**, senza che la temperatura aumenti durante la fusione. Una massa molto grande richiede molta energia per cambiare stato, anche se la temperatura resta la stessa. Per riscaldare l'acqua dopo la fusione servirebbe un ulteriore apporto di energia.
 
 ### Vaporizzare l'acqua
 
-Ora vogliamo trasformare completamente in vapore **0,20 kg di acqua già alla temperatura di ebollizione**, circa 100 °C alla pressione atmosferica ordinaria. Anche qui consideriamo soltanto il cambiamento di stato, senza dispersioni né energia destinata al recipiente. Non dobbiamo includere il riscaldamento da una temperatura iniziale più bassa.
+Ora vogliamo trasformare completamente in vapore **0,20 kg di acqua già alla temperatura di ebollizione**, circa 100 °C alla pressione atmosferica ordinaria. Anche qui consideriamo soltanto il cambiamento di stato, senza dispersioni né energia destinata al recipiente. Non dobbiamo includere il riscaldamento da una temperatura iniziale più bassa. Massa e temperatura sono dati del problema, non misure ricavate dalla fotografia.
 
-[SCHEMA E2 — Acqua in un recipiente con fondo trasparente, da fornire oppure ricavabile da una risorsa esistente solo se idonea. Prima del calcolo: m = 0,20 kg; temperatura iniziale circa 100 °C; pressione atmosferica ordinaria; freccia di energia entrante Q; uscita di vapore alla stessa temperatura.]
+[SCHEMA E2 — `risorse/schema-vaporizzazione.svg`, con la foto scelta `risorse/acqua-ebollizione.jpg` integrale e sfondo conservato. Dati dell’esercizio: m = 0,20 kg, temperatura iniziale circa 100 °C, pressione atmosferica ordinaria; Q entrante; stato finale vapore alla stessa temperatura. Dati e frecce fuori dalla foto.]
 
 Didascalia: L'acqua è già all'ebollizione: l'energia considerata serve a trasformarla in vapore, non a portarla a 100 °C.
 
-La massa è un quinto di kilogrammo, ma il calore latente di vaporizzazione Lv è molto maggiore di quello di fusione. Una massa minore può quindi richiedere più energia se cambia il tipo di trasformazione. Il calcolo è:
+La massa è un quinto di kilogrammo e per ogni kilogrammo occorrono circa 2.257.000 J. Il calore latente di vaporizzazione Lv è maggiore di quello di fusione, ma qui la massa è molto più piccola di quella della scultura. Calcoliamo il prodotto delle due grandezze:
 
 \[
 Q=m\cdot L_v
@@ -174,7 +174,7 @@ Q=0{,}20\,\mathrm{kg}\cdot2\,257\,000\,\mathrm{J/kg}
 Q=451\,400\,\mathrm{J}=451{,}4\,\mathrm{kJ}
 \]
 
-Per vaporizzare questa quantità d'acqua occorre più energia che per fondere il mezzo kilogrammo di ghiaccio dell'esercizio precedente. Il confronto mostra perché la massa, da sola, non basta a stabilire l'energia necessaria: bisogna considerare anche il calore latente specifico e le condizioni della trasformazione.
+I 451,4 kJ necessari sono molto meno dei 167 MJ richiesti dalla scultura: in questo caso la massa d'acqua considerata è molto più piccola. Il confronto mostra che l'energia dipende dal prodotto tra massa e calore latente specifico. Per confrontare l'energia richiesta per due trasformazioni bisogna tenere conto di entrambe le grandezze e delle condizioni del processo.
 
 ## Domande di verifica
 
@@ -182,7 +182,7 @@ Per vaporizzare questa quantità d'acqua occorre più energia che per fondere il
 2. Segui nella mappa il percorso da solido a liquido e poi da liquido a gas. Dai il nome ai due passaggi e indica se la sostanza assorbe o cede energia. Ripeti il ragionamento seguendo le frecce inverse e quelle tra solido e gas.
 3. Una goccia si riduce senza formare bolle; in un altro recipiente compaiono bolle di vapore in tutto il liquido. Quale fenomeno riconosci in ciascun caso? Confronta dove avvengono e il ruolo della temperatura e della pressione.
 4. Una nuvola visibile è formata **A)** soltanto da vapore acqueo; **B)** da goccioline e, secondo le condizioni, cristalli di ghiaccio. Scegli e spiega perché il vapore non coincide con la parte bianca visibile. Quale passaggio forma direttamente ghiaccio dal vapore?
-5. Nell'esercizio sulla fusione, 0,50 kg di ghiaccio a 0 °C richiedono 167.000 J. Se la massa raddoppia e le condizioni restano uguali, quale energia prevedi? Verifica usando Lf = 334.000 J/kg e spiega perché non devi raddoppiare la temperatura.
+5. Nell'esercizio sulla fusione, la scultura ipotizzata di 500 kg a 0 °C richiede 167 MJ. Se la massa raddoppia e le condizioni restano uguali, quale energia prevedi? Verifica usando Lf = 334.000 J/kg e spiega perché non devi raddoppiare la temperatura.
 6. Per vaporizzare 0,20 kg d'acqua già all'ebollizione sono necessari 451.400 J. Se hai a disposizione metà di questa energia, quale massa puoi vaporizzare nelle stesse condizioni? Usa Lv = 2.257.000 J/kg e chiarisci perché la risposta cambierebbe se l'acqua fosse inizialmente fredda.
 7. Il sudore rimane sulla pelle ma evapora con difficoltà in aria molto umida. Prevedi se il raffreddamento dovuto all'evaporazione sarà maggiore o minore rispetto a condizioni che favoriscono l'evaporazione, e spiega il trasferimento di energia coinvolto.
 8. Una pompa di calore riscalda la casa mentre fuori l'aria è fredda. Dove il refrigerante evapora e dove condensa? Spiega perché può assorbire energia dall'aria esterna e quale ruolo ha il lavoro del compressore.

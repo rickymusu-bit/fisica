@@ -71,3 +71,9 @@ C2 (metallo fuso) e A1 (sudore/Michael Jordan) fornite dall’utente, acquisite,
 ## Applicazioni aggiornate: pompa di calore e centrale PWR
 
 L’utente elimina il caso e lo schema frigorifero, richiede la sola spiegazione della pompa di calore e fornisce foto A2 e schema nucleare A3. File e originali salvati, fonti/licenze verificate, bozza e domanda 8 aggiornate. A3 trattato come PWR con tre circuiti, non con ebollizione nel reattore. Restano E1–E2; nessun altro visuale applicativo da richiedere. Dettagli nello [stato di Passaggi di stato](../passaggi_di_stato/stato.md).
+
+## Esercizi illustrati e cambio della massa della scultura
+
+L’utente fornisce scultura di ghiaccio e acqua in ebollizione e richiede gli sfondi originali. Foto e originali acquisiti, fonti/licenze registrate; schemi SVG completi preparati e ispezionati. Correzione successiva: «cambia i numeri per adattarli alla statua». Primo problema aggiornato alla scultura intera con massa ipotizzata di **500 kg**, inizialmente a 0 °C: **167 MJ**. Eliminata la porzione da 0,50 kg; nessuna massa reale dedotta dalla foto. Aggiornati il confronto col secondo esercizio e il quesito 5. Secondo problema invariato: 0,20 kg, 451,4 kJ.
+
+Tutti i visuali di entrambi i capitoli sono disponibili. [Bozza Passaggi di stato](../passaggi_di_stato/bozza.md) aggiornata e schemi nel relativo registro. Prossimo passaggio: presentare testi e stima residua 25–40 minuti, raccogliere conferma e via agli HTML secondo B1.1–B2. Nessuna pubblicazione o HTML finale modificati in questa fase.

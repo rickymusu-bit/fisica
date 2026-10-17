@@ -8,8 +8,10 @@
 | A1 | [Michael Jordan, 1997](https://commons.wikimedia.org/wiki/File:Steve_Lipfosky_--_Michael_Jordan_(1997).jpg) | [sudore.jpg](risorse/sudore.jpg), 960 × 1410 px, 245.180 byte; originale 1200 × 1762 px conservato | Steve Lipofsky; [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Credito richiesto: **Lipofsky Basketballphoto.com** |
 | A2 | [Unità pompa di calore](https://commons.wikimedia.org/wiki/File:Heat_pump_unit.webp) | [pompa-di-calore.webp](risorse/pompa-di-calore.webp), 960 × 1280 px, 311.006 byte; originale conservato | Wikideas1; CC0 |
 | A3 | [Centrale nucleare PWR](https://commons.wikimedia.org/wiki/File:PWR_nuclear_power_plant_diagram.svg) | [centrale-nucleare.png](risorse/centrale-nucleare.png), 960 × 499 px, 122.978 byte; originale SVG conservato | Tennessee Valley Authority; pubblico dominio (PD-USGov-TVA) |
+| E1 | [Scultura di ghiaccio](https://commons.wikimedia.org/wiki/File:Ai_Weiweis_Ice_Sculptures_in_Stockholm_2014.jpg) | [scultura-ghiaccio.jpg](risorse/scultura-ghiaccio.jpg), anteprima 960 × 1232 px; originale conservato | Frankie Fouganthin; CC BY-SA 4.0 |
+| E2 | [Acqua che bolle](https://commons.wikimedia.org/wiki/File:Water_boiling_in_a_pot_on_a_stove.jpg) | [acqua-ebollizione.jpg](risorse/acqua-ebollizione.jpg), anteprima 960 × 966 px; originale 918 × 924 px conservato | Tomwsulcer; CC0 |
 
-Tutte e quattro scelte esplicitamente dall’utente, scaricate e ispezionate senza modifiche. [Registro con URL ricevute, fonti, condizioni e hash](risorse/materiali-scelti.json). Non richiedere una nuova approvazione delle stesse scelte.
+Tutte e sei scelte esplicitamente dall’utente, scaricate e ispezionate senza modifiche. [Registro con URL ricevute, fonti, condizioni e hash](risorse/materiali-scelti.json). Non richiedere una nuova approvazione delle stesse scelte.
 
 La copertina mostra una colata di metallo fuso; non attribuire una composizione non documentata e non presentarla come fotografia di ghiaccio o condensa. La licenza è stata verificata sulla pagina Flickr risolta dal photo-ID: titolo, autore e link di licenza nel JSON-LD e nel collegamento rel=license. Il servizio di ricerca non legge la pagina, ma il recupero HTTP dall’ambiente è riuscito. Per la dispensa didattica a uso non commerciale conservare la foto intera, senza ritaglio, modifiche o testo sovrapposto; rispettare attribuzione e link alla licenza. Non attestare il diritto a un uso commerciale o a modifiche.
 
@@ -27,8 +29,17 @@ A2 e A3 acquisiti nelle versioni scelte e originali, decodificati/parsing SVG ve
 
 P1: [schema dei passaggi](risorse/schema-passaggi.md), triangolo e variante verticale, creato su richiesta. P2–P8: immagini e GIF pertinenti nella v8 da riutilizzare. P9: curva qualitativa dell’acqua da adattare alla lettura mobile, senza inventare dati sperimentali. Tabelle semantiche come nella bozza. Non riutilizzare la copertina nel testo.
 
-## Ancora necessari
+## Schemi dei due esercizi completati
 
-- E1–E2: schemi fisici dei due esercizi svolti, con corpi, dati e trasferimento di energia; verificare prima il riuso delle risorse esistenti e richiedere file adatti soltanto se necessario.
+L’utente fornisce le foto E1 ed E2 e richiede **«Tieni il background per entrambe»**. Questa istruzione esplicita prevale sulla regola generale del fondo trasparente per gli esercizi: nessuna rimozione dello sfondo o nuovo consenso da chiedere. Le foto restano integrali, con dati e frecce in uno spazio separato, senza alterare la scena.
 
-La bozza testuale era già approvata. Questo aggiornamento aggiunge i file e adatta i riferimenti e le didascalie, senza impaginare l’HTML o modificare il sito. La verifica nel browser e il peso finale incorporato si eseguiranno sull’HTML quando realizzato.
+- [Schema E1: fusione](risorse/schema-fusione.svg). Dopo la correzione «cambia i numeri per adattarli alla statua», l’esercizio considera una **scultura intera ipotizzata di 500 kg**, già a 0 °C. Non una porzione da 0,50 kg e non una massa dichiarata come misurata sulla scultura fotografata. Risultato 167.000.000 J = 167 MJ; temperatura finale dell’acqua 0 °C. Conservare il credito della foto di Frankie Fouganthin, CC BY-SA 4.0, anche nella composizione.
+- [Schema E2: vaporizzazione](risorse/schema-vaporizzazione.svg). Massa del problema 0,20 kg di acqua già a circa 100 °C, pressione atmosferica ordinaria; Q entrante e vapore finale alla stessa temperatura. Foto di Tomwsulcer, CC0. I dati del problema non sono misure sulla pentola fotografata.
+
+Entrambi gli SVG incorporano esattamente i byte delle foto selezionate, con proporzioni originali; descrizione accessibile, dati e frecce prima dei calcoli. Anteprime ispezionate nel browser a 600 px; non è una verifica dell’HTML finale, non ancora realizzato. Le fotografie e gli originali sono conservati separatamente.
+
+Tutti i visuali di Passaggi di stato sono ora disponibili. Nessun file ulteriore richiesto. Il confronto tra gli esercizi e la domanda finale 5 sono stati ricalcolati dopo il cambio della massa a 500 kg; il risultato della vaporizzazione resta 451.400 J, inferiore a quello della fusione della grande scultura.
+
+## Prossimo passaggio
+
+Presentare le bozze aggiornate e gli schemi. Stima indicativa per i due HTML autonomi, con materiali disponibili: **25–40 minuti**, impegno di calcolo basso; 15–25 minuti per integrazione e impaginazione, 5–10 per verifiche, circa 5 per versioni e salvataggio. Attesa di correzioni o approvazioni esclusa. Dopo conferma dei testi e via esplicito secondo B1.1–B2, realizzare e verificare gli HTML e l’anteprima. Nessuna pubblicazione del sito autorizzata da questa consegna di materiali.
