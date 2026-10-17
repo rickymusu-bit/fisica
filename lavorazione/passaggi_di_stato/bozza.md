@@ -14,7 +14,7 @@ Didascalia: I cubetti diminuiscono mentre aumenta l'acqua liquida: la sostanza c
 
 Quando una sostanza passa da solido a liquido, da liquido a gas o compie uno dei passaggi inversi, avviene un **passaggio di stato**. È una trasformazione fisica: cambia l'organizzazione delle particelle, non l'identità chimica della sostanza. Nell'acqua, per esempio, le molecole restano molecole d'acqua sia nel ghiaccio sia nel liquido e nel vapore. A cambiare sono le distanze, i movimenti e le interazioni tra le molecole.
 
-Il passaggio da solido a liquido si chiama **fusione** e richiede energia. Nel ghiaccio che fonde, le molecole abbandonano l'organizzazione rigida del cristallo e possono scorrere le une rispetto alle altre. Nel passaggio inverso, la **solidificazione**, il liquido cede energia e si forma il solido. Non tutti i solidi hanno una struttura cristallina: il vetro, per esempio, si ammorbidisce gradualmente e non presenta la stessa fusione netta di un cristallo puro.
+Il passaggio da solido a liquido si chiama **fusione** e richiede energia. Nel ghiaccio che fonde, le molecole abbandonano l'organizzazione rigida del cristallo e possono scorrere le une rispetto alle altre. Nel passaggio inverso, la **solidificazione**, il liquido cede energia e si forma il solido.[^nota-1]
 
 [SCHEMA P1 — Nuova mappa dei sei passaggi richiesta dall’utente: `risorse/passaggi-di-stato.svg`; variante verticale per smartphone `risorse/passaggi-di-stato-mobile.svg`. Tre stati, sei frecce e nomi delle trasformazioni; linea continua per energia assorbita, tratteggiata per energia ceduta.]
 
@@ -32,7 +32,7 @@ Didascalia: La goccia si riduce senza bollire: l'acqua passa nell'aria attravers
 
 Se il liquido non riceve abbastanza energia dall'ambiente per compensare quella persa, l'evaporazione tende a raffreddarlo. Le molecole che sfuggono portano via energia e l'energia media di quelle rimaste diminuisce. L'evaporazione non richiede quindi un liquido già caldo, ma uno scambio energetico che permetta alle molecole di separarsi. La rapidità con cui procede dipende anche dalle condizioni dell'aria sopra la superficie.
 
-Nel recipiente con acqua in **ebollizione**, invece, si formano bolle di vapore anche all'interno del liquido. Le bolle possono crescere e risalire quando la pressione del vapore al loro interno riesce a bilanciare quella che le circonda. Per questo la temperatura di ebollizione dipende dalla pressione esterna: per l'acqua è circa 100 °C alla pressione atmosferica ordinaria, ma diminuisce se la pressione si riduce. Le bolle dell'ebollizione sono principalmente vapore d'acqua, non molecole d'acqua scomposte in idrogeno e ossigeno.
+Nel recipiente con acqua in **ebollizione**, invece, si formano bolle di vapore anche all'interno del liquido. Le bolle possono crescere e risalire quando la pressione del vapore al loro interno riesce a bilanciare quella che le circonda. Per questo la temperatura di ebollizione dipende dalla pressione esterna: per l'acqua è circa 100 °C alla pressione atmosferica ordinaria, ma diminuisce se la pressione si riduce.[^nota-2]
 
 [IMMAGINE P4 — GIF esistente dell'acqua in ebollizione.]
 
@@ -73,18 +73,18 @@ Didascalia: I cristalli di brina si formano quando il vapore acqueo si deposita 
 
 ## Energia senza aumento di temperatura
 
-Se continuiamo a fornire energia a del ghiaccio puro che sta fondendo, la temperatura della miscela di acqua e ghiaccio può restare a circa 0 °C finché la fusione non è terminata. In questo caso la pressione resta quella atmosferica ordinaria e trascuriamo le dispersioni. L'energia ricevuta serve alla trasformazione: non produce l'aumento di temperatura che osserveremmo riscaldando soltanto acqua liquida. La temperatura costante, quindi, non indica che lo scambio di energia si sia fermato.
+Se continuiamo a fornire energia a del ghiaccio puro che sta fondendo, la temperatura della miscela di acqua e ghiaccio può restare a circa 0 °C finché la fusione non è terminata. L'energia ricevuta serve alla trasformazione: non produce l'aumento di temperatura che osserveremmo riscaldando soltanto acqua liquida. La temperatura costante, quindi, non indica che lo scambio di energia si sia fermato.[^nota-3]
 
 [GRAFICO P9 — Adattare la curva qualitativa dell'acqua esistente. Asse orizzontale: energia fornita, in J; asse verticale: temperatura, in °C. Indicare pressione atmosferica ordinaria; cinque tratti: riscaldamento del ghiaccio, fusione a 0 °C, riscaldamento dell'acqua, ebollizione a 100 °C, riscaldamento del vapore. Non attribuire valori numerici ai tratti orizzontali dell'asse dell'energia né presentare il disegno come una misura sperimentale.]
 
-Didascalia: Nei tratti inclinati l'energia fornita aumenta la temperatura; nei tratti orizzontali sostiene il cambiamento di stato. Il grafico mostra l'andamento qualitativo, non è in scala e non rappresenta dati sperimentali.
+Didascalia: Nei tratti inclinati l'energia fornita aumenta la temperatura; nei tratti orizzontali sostiene il cambiamento di stato.[^nota-curva]
 
-La curva mette in fila questi comportamenti. Prima il ghiaccio si riscalda; durante la fusione compare una sosta termica, cioè un tratto a temperatura costante. Finita la fusione, la temperatura dell'acqua liquida riprende a salire. All'ebollizione compare una seconda sosta; una volta trasformata tutta l'acqua in vapore, un ulteriore apporto di energia può riscaldare il vapore. Queste soste descrivono il passaggio di una sostanza pura nelle condizioni di pressione indicate, non l'evaporazione da una superficie a qualunque temperatura.
+La curva mette in fila questi comportamenti. Prima il ghiaccio si riscalda; durante la fusione compare una sosta termica, cioè un tratto a temperatura costante. Finita la fusione, la temperatura dell'acqua liquida riprende a salire. All'ebollizione compare una seconda sosta; una volta trasformata tutta l'acqua in vapore, un ulteriore apporto di energia può riscaldare il vapore.[^nota-4]
 
 Quanta energia serve per trasformare una certa massa di sostanza? La **relazione del calore latente** permette di calcolarla:
 
 \[
-Q=m\cdot L
+Q = m\cdot L
 \]
 
 Qui **Q** è la quantità di energia assorbita durante la trasformazione e si misura in joule, **J**. La massa **m** si esprime in kilogrammi, **kg**. Il **calore latente specifico L**, misurato in **J/kg**, indica quanta energia occorre per trasformare un kilogrammo di sostanza, alle condizioni considerate. Il termine «latente» richiama proprio il fatto che quell'energia viene scambiata senza manifestarsi come un aumento di temperatura durante la trasformazione descritta.
@@ -95,10 +95,10 @@ La formula esprime una proporzionalità diretta: a parità di sostanza e di tras
 
 | Trasformazione dell'acqua | Calore latente specifico approssimato | Condizioni |
 | --- | --- | --- |
-| Fusione | Lf = 334.000 J/kg, cioè 334 kJ/kg | Circa 0 °C, pressione atmosferica ordinaria |
-| Vaporizzazione | Lv = 2.257.000 J/kg, cioè 2.257 kJ/kg | Circa 100 °C, pressione atmosferica ordinaria |
+| Fusione | Lf = 3,34 · 10⁵ J/kg = 334 kJ/kg | Circa 0 °C, pressione atmosferica ordinaria |
+| Vaporizzazione | Lv = 2,257 · 10⁶ J/kg = 2,257 MJ/kg | Circa 100 °C, pressione atmosferica ordinaria |
 
-Il valore per la vaporizzazione è molto maggiore di quello per la fusione: separare le molecole fino allo stato gassoso richiede più energia che renderle libere di scorrere nel liquido. I valori dipendono dalla sostanza e dalle condizioni. In particolare, il valore della tabella vicino a 100 °C non va applicato automaticamente all'evaporazione dell'acqua dalla pelle, che avviene a una temperatura diversa.
+Il valore per la vaporizzazione è molto maggiore di quello per la fusione: separare le molecole fino allo stato gassoso richiede più energia che renderle libere di scorrere nel liquido.[^nota-5]
 
 ## Applicazioni
 
@@ -124,83 +124,85 @@ Didascalia A3: Il circuito primario trasferisce energia al secondario senza mesc
 
 Nel disegno, il **reattore** è indicato con “Reactor”, la **pompa** con “Pump” e lo scambiatore che produce vapore si trova tra il reattore e la turbina. Il vapore raggiunge la **turbina**, “Turbine”, e le trasferisce parte della propria energia. La turbina aziona il **generatore elettrico**, “Generator”: questa etichetta non indica il generatore di vapore. Dopo la turbina, il vapore passa nel **condensatore**, “Condensor”, dove cede energia e torna liquido; una pompa lo rimette in circolo.
 
-Un terzo circuito porta via energia dal condensatore usando acqua di raffreddamento, collegata al bacino indicato come “Reservoir”. I tre circuiti svolgono quindi compiti distinti: trasportare energia dal reattore, far lavorare la turbina e cedere all'ambiente l'energia che non diventa lavoro elettrico. Le temperature e le pressioni operative non sono quelle della curva dell'acqua a pressione atmosferica vista prima. Il principio dei passaggi di stato rimane lo stesso: l'acqua riceve energia quando vaporizza e la cede quando condensa.
+Un terzo circuito porta via energia dal condensatore usando acqua di raffreddamento, collegata al bacino indicato come “Reservoir”. I tre circuiti svolgono quindi compiti distinti: trasportare energia dal reattore, far lavorare la turbina e cedere all'ambiente l'energia che non diventa lavoro elettrico. Il principio dei passaggi di stato rimane lo stesso: l'acqua riceve energia quando vaporizza e la cede quando condensa.[^nota-6]
 
 ## Esempio svolto: dal ghiaccio al vapore
 
-Consideriamo una scultura di ghiaccio come quella della fotografia e **assumiamo una massa di 500 kg**, inizialmente a **0 °C**. Quanta energia deve assorbire per trasformarsi completamente in vapore a **100 °C**, alla pressione atmosferica ordinaria? La massa è un dato ipotizzato per il problema, non una misura della scultura fotografata. Trascuriamo le dispersioni e l'energia assorbita dalle attrezzature, così tutta l'energia calcolata va al materiale che si trasforma.
+Consideriamo una scultura di ghiaccio come quella della fotografia e **assumiamo una massa di 5,00 · 10² kg (0,500 t)**, inizialmente a **0 °C**. Quanta energia deve assorbire per trasformarsi completamente in vapore a **100 °C**, alla pressione atmosferica ordinaria?[^nota-esempio]
 
 Il processo comprende tre fasi: prima il ghiaccio fonde a 0 °C, poi l'acqua liquida si riscalda fino a 100 °C, infine l'acqua vaporizza a 100 °C. Calcolare soltanto i due passaggi di stato lascerebbe fuori l'energia necessaria a riscaldare l'acqua. Per ottenere il totale dobbiamo quindi calcolare e sommare tutti e tre i contributi.
 
-[SCHEMA E1 — `risorse/schema-esempio.svg`, con la scultura scelta `risorse/scultura-ghiaccio.jpg` integrale e sfondo conservato. Modello: massa ipotizzata 500 kg, pressione atmosferica ordinaria; ghiaccio a 0 °C → acqua a 0 °C → acqua a 100 °C → vapore a 100 °C. Per le tre fasi indicare Qf, Qr e Qv, energia assorbita dal materiale. Nessuna foto della pentola.]
+[SCHEMA E1 — Modello fisico integrato in HTML, con foto della scultura integrale e sfondo conservato; quattro stati e tre trasferimenti di energia. Massa ipotizzata 5,00 · 10² kg. Ipotesi e precisazioni nella nota dell’esempio. Il precedente schema SVG è conservato come risorsa di riferimento.]
 
 Didascalia E1: La scultura illustra il materiale di partenza. Nel modello i 500 kg passano attraverso due cambiamenti di stato e un riscaldamento: l'energia totale comprende tutte e tre le fasi.
 
-**Per fondere il ghiaccio**, usiamo il calore latente specifico di fusione dell'acqua, Lf = 334.000 J/kg. Il ghiaccio è già a 0 °C, quindi non serve riscaldarlo prima della fusione. L'energia di questa fase è:
+**Per fondere il ghiaccio**, usiamo il calore latente specifico di fusione dell’acqua, Lf = 3,34 · 10⁵ J/kg = 334 kJ/kg. Il ghiaccio è già a 0 °C, quindi non serve riscaldarlo prima della fusione. L’energia di questa fase è:
 
 \[
-Q_f=m\cdot L_f
+Q_{f} = m\cdot L_{f}
 \]
 
 \[
-Q_f=500\,\mathrm{kg}\cdot334\,000\,\mathrm{J/kg}
+Q_{f} = 5,00\cdot 10^{2} kg\cdot 3,34\cdot 10^{5} J/kg
 \]
 
 \[
-Q_f=167\,000\,000\,\mathrm{J}=167\,\mathrm{MJ}
+Q_{f} = 1,67\cdot 10^{8} J = 167 MJ
 \]
 
-La sigla **MJ** indica i megajoule: un megajoule corrisponde a un milione di joule. Al termine di questa prima fase abbiamo 500 kg d'acqua liquida ancora a 0 °C. L'energia ricevuta ha cambiato lo stato, senza aumentare la temperatura.
+La sigla **MJ** indica i megajoule: 1 MJ = 1 · 10⁶ J. Al termine della fusione abbiamo ancora la stessa massa d’acqua, ora liquida a 0 °C. Per dare una misura di questo contributo, 167 MJ basterebbero a riscaldare gli stessi 500 kg d’acqua liquida di circa 80 K, nel modello senza dispersioni.
 
 **Per riscaldare l'acqua da 0 °C a 100 °C**, serve un contributo diverso. Finché l'acqua rimane liquida, calcoliamo l'energia assorbita con la relazione:
 
 \[
-Q_r=m\cdot c\cdot\Delta T
+Q_{r} = m\cdot c\cdot ΔT
 \]
 
-Il simbolo **c** indica il **calore specifico**: per l'acqua liquida usiamo il valore approssimato **4180 J/(kg · K)**. Significa che per aumentare di un kelvin la temperatura di un kilogrammo d'acqua occorrono circa 4180 J. La differenza di temperatura ΔT è 100 °C − 0 °C, cioè un aumento di **100 K**: un intervallo di un grado Celsius ha la stessa ampiezza di un kelvin. Questa formula descrive il riscaldamento del liquido; Lf e Lv descrivono invece i cambiamenti di stato.
+Il simbolo **c** indica il **calore specifico**: per l’acqua liquida usiamo il valore approssimato **4,18 · 10³ J/(kg · K) = 4,18 kJ/(kg · K)**. Significa che per aumentare di un kelvin la temperatura di un kilogrammo d’acqua occorrono circa 4,18 kJ. La differenza di temperatura ΔT è 100 °C − 0 °C, cioè **1,00 · 10² K**: un intervallo di un grado Celsius ha la stessa ampiezza di un kelvin. Questa formula descrive il riscaldamento del liquido; Lf e Lv descrivono invece i cambiamenti di stato.
 
 \[
-Q_r=500\,\mathrm{kg}\cdot4180\,\mathrm{\frac{J}{kg\cdot K}}\cdot100\,\mathrm{K}
-\]
-
-\[
-Q_r=209\,000\,000\,\mathrm{J}=209\,\mathrm{MJ}
-\]
-
-Ora l'acqua ha raggiunto circa 100 °C, ma non è ancora stata tutta trasformata in vapore. L'energia Qr è servita ad aumentare la temperatura del liquido. Dobbiamo ancora completare il passaggio allo stato gassoso.
-
-**Per vaporizzare tutta l'acqua**, usiamo Lv = 2.257.000 J/kg, riferito all'ebollizione alla pressione atmosferica ordinaria. La massa è sempre 500 kg. L'energia di questa terza fase è:
-
-\[
-Q_v=m\cdot L_v
+Q_{r} = 5,00\cdot 10^{2} kg\cdot 4,18\cdot 10^{3} \frac{J}{kg\cdot K}\cdot 1,00\cdot 10^{2} K
 \]
 
 \[
-Q_v=500\,\mathrm{kg}\cdot2\,257\,000\,\mathrm{J/kg}
+Q_{r} = 2,09\cdot 10^{8} J = 209 MJ
+\]
+
+Ora l’acqua ha raggiunto circa 100 °C, ma deve ancora trasformarsi completamente in vapore. Per riscaldarla sono serviti 209 MJ, circa 1,25 volte l’energia necessaria a fondere il ghiaccio della stessa scultura. Abbiamo aumentato la temperatura del liquido; resta da completare il passaggio allo stato gassoso.
+
+**Per vaporizzare tutta l’acqua**, usiamo Lv = 2,257 · 10⁶ J/kg = 2,257 MJ/kg, riferito all’ebollizione alla pressione atmosferica ordinaria. La massa è sempre 5,00 · 10² kg. L’energia di questa terza fase è:
+
+\[
+Q_{v} = m\cdot L_{v}
 \]
 
 \[
-Q_v=1\,128\,500\,000\,\mathrm{J}=1128{,}5\,\mathrm{MJ}
-\]
-
-Durante questa fase diminuisce l'acqua liquida e aumenta il vapore, mentre la temperatura resta circa 100 °C. Quando tutta la massa è diventata vapore alla stessa temperatura, il processo richiesto è terminato. Non aggiungiamo energia per riscaldare ulteriormente il vapore.
-
-L'**energia totale** è la somma dei tre contributi. Usiamo per tutti la stessa unità, i megajoule:
-
-\[
-Q_{\mathrm{tot}}=Q_f+Q_r+Q_v
+Q_{v} = 5,00\cdot 10^{2} kg\cdot 2,257\cdot 10^{6} J/kg
 \]
 
 \[
-Q_{\mathrm{tot}}=167\,\mathrm{MJ}+209\,\mathrm{MJ}+1128{,}5\,\mathrm{MJ}
+Q_{v} = 1,1285\cdot 10^{9} J = 1,1285 GJ
+\]
+
+Durante questa fase diminuisce l’acqua liquida e aumenta il vapore, mentre la temperatura resta circa 100 °C. La sigla **GJ** indica i gigajoule: 1 GJ = 1 · 10⁹ J = 1 · 10³ MJ. La vaporizzazione richiede circa 5,40 volte l’energia usata per riscaldare la stessa acqua da 0 a 100 °C. Quando tutta la massa è diventata vapore a 100 °C, il processo richiesto è terminato.
+
+L’**energia totale** è la somma dei tre contributi. Esprimiamo tutte le energie in joule, usando le potenze di dieci; poi riscriviamo il risultato in gigajoule:
+
+\[
+Q_{tot} = Q_{f} + Q_{r} + Q_{v}
 \]
 
 \[
-Q_{\mathrm{tot}}=1504{,}5\,\mathrm{MJ}=1\,504\,500\,000\,\mathrm{J}
+Q_{tot} = 1,67\cdot 10^{8} J + 2,09\cdot 10^{8} J + 1,1285\cdot 10^{9} J
 \]
 
-Servono quindi circa **1,50 miliardi di joule** per trasformare interamente la scultura ipotizzata in vapore, partendo da ghiaccio a 0 °C. Il totale comprende sia i due passaggi di stato sia l'aumento di temperatura dell'acqua liquida. È l'energia assorbita dal materiale nel modello: un sistema reale deve fornire anche l'energia che si disperde nell'ambiente o riscalda le attrezzature.
+\[
+Q_{tot} = 1,5045\cdot 10^{9} J = 1,5045 GJ \approx  1,50 GJ
+\]
+
+Servono quindi circa **1,50 · 10⁹ J = 1,50 GJ** per trasformare interamente la scultura ipotizzata in vapore, partendo da ghiaccio a 0 °C. Il totale comprende i due passaggi di stato e il riscaldamento dell’acqua liquida.
+
+Per confrontare questa energia con un consumo familiare, 1,50 GJ corrispondono a circa **4,18 · 10² kWh**. Un’utenza domestica italiana consuma in media **1,93 MWh di elettricità all’anno**. L’energia necessaria a trasformare la scultura in vapore equivale quindi a circa **2,6 mesi di consumo elettrico domestico medio**.[^nota-consumo-casa]
 
 ## Domande di verifica
 
@@ -212,3 +214,23 @@ Servono quindi circa **1,50 miliardi di joule** per trasformare interamente la s
 6. Uno studente calcola l'energia totale dalla scultura a 0 °C al vapore a 100 °C sommando soltanto m · Lf e m · Lv. Quale fase ha dimenticato? Spiega che cosa cambia fisicamente durante quella fase e quale relazione serve per calcolarne l'energia.
 7. Il sudore rimane sulla pelle ma evapora con difficoltà in aria molto umida. Prevedi se il raffreddamento dovuto all'evaporazione sarà maggiore o minore rispetto a condizioni che favoriscono l'evaporazione, e spiega il trasferimento di energia coinvolto.
 8. Una pompa di calore riscalda la casa mentre fuori l'aria è fredda. Dove il refrigerante evapora e dove condensa? Spiega perché può assorbire energia dall'aria esterna e quale ruolo ha il lavoro del compressore.
+
+## Note
+
+[^nota-1]: Non tutti i solidi hanno una struttura cristallina: il vetro si ammorbidisce gradualmente e non presenta la stessa fusione netta di un cristallo puro.
+
+[^nota-2]: Le bolle dell’ebollizione sono principalmente vapore d’acqua: l’acqua non si scompone in idrogeno e ossigeno durante il passaggio di stato.
+
+[^nota-3]: La sosta di fusione qui descritta riguarda acqua pura alla pressione atmosferica ordinaria, con scambi energetici attribuiti al materiale e dispersioni trascurate.
+
+[^nota-curva]: La curva è qualitativa e non è in scala; non rappresenta dati sperimentali. Si riferisce ad acqua pura a pressione atmosferica ordinaria, con le soste di fusione a circa 0 °C e di ebollizione a circa 100 °C.
+
+[^nota-4]: Le soste termiche della curva riguardano i passaggi di stato di una sostanza pura a pressione costante. Non descrivono l’evaporazione da una superficie a una temperatura qualunque.
+
+[^nota-5]: I calori latenti dipendono dalla sostanza e dalle condizioni. Il valore di vaporizzazione della tabella, riferito a circa 100 °C, non si applica automaticamente all’evaporazione dalla pelle a una temperatura diversa.
+
+[^nota-6]: Nella centrale PWR le temperature e le pressioni operative sono diverse da quelle della curva dell’acqua a pressione atmosferica usata nella teoria.
+
+[^nota-esempio]: La massa di 500 kg è ipotizzata per il problema, non misurata dalla fotografia. Il modello considera acqua pura a pressione atmosferica ordinaria; trascura dispersioni ed energia assorbita dalle attrezzature, così tutta l’energia calcolata va al materiale.
+
+[^nota-consumo-casa]: Fonte: [ARERA, Sintesi della Relazione annuale 2025, p. 36 (pagina 38 del PDF), dati 2024](https://www.arera.it/fileadmin/allegati/relaz_ann/25/Sintesi_Relazione_Annuale_2025_10settembre.pdf#page=38): consumo medio unitario delle famiglie pari a 1.930 kWh/anno, considerando l’insieme dei mercati di fornitura. Il dato è riferito alle utenze elettriche domestiche e include abitazioni principali e altre utenze domestiche: non rappresenta il consumo energetico totale dell’abitazione comprensivo di gas o altri combustibili. Per il confronto: 1 kWh = 3,60 MJ; 1,5045 GJ corrispondono a circa 418 kWh e, rispetto a 1,93 MWh/anno, a circa 2,6 mesi. La ripartizione del consumo annuo in mesi è una media, non una previsione della singola casa.

@@ -11,3 +11,5 @@ Per struttura e monograficità di tutti i capitoli applica A3 del master; per do
 Prima di scrivere o rivedere il testo delle dispense leggi anche `riferimenti/STILE_DISPENSE.md` e `riferimenti/esempio_irraggiamento.md`, richiamati in A2. Il riferimento comprende la spiegazione discorsiva e l'interpretazione delle formule secondo A4.
 
 Per impaginare o rivedere gli HTML applica automaticamente l’esatto tema grafico comune salvato nel modello autonomo `riferimenti/TEMA_DISPENSE.html`, già approvato, secondo A6 del master; non chiedere di scegliere nuovamente il template. Nei calcoli applica notazione esponenziale e prefissi SI secondo A4; interpreta i risultati degli esercizi con i confronti concreti previsti da A5.
+
+Colloca le precisazioni nelle note a piè di pagina con richiami e ritorni cliccabili, secondo A1 e A6 del master, mantenendo versione e data separate nel piè di pagina.

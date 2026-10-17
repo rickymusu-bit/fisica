@@ -1,53 +1,61 @@
 {
   "stati_della_materia": {
-    "versione": "v10",
-    "peso_byte": 6517363,
-    "immagini_invariate": true,
-    "tema": "irraggiamento_it.html v4: Lexend incorporato, grigio/nero, cornici, indice laterale",
-    "riferimento_sha256": "010bfad2d53ec3055f6ee84604fc1670823701d5f427c0e7d19712af22947a47"
+    "versione": "v11",
+    "peso_byte": 6519356,
+    "css_modello_identico": true,
+    "js_tema_identico": true,
+    "foto_e_gif_conservate": true,
+    "modello_sha256": "632ffc0a9bcf34ecdead6639ceb9186ee021ab70039b77fba3bc2d2d8e766083",
+    "modello_versione": "v2"
   },
   "passaggi_di_stato": {
-    "versione": "v11",
-    "peso_byte": 14500324,
-    "immagini_invariate": true,
-    "tema": "irraggiamento_it.html v4: Lexend incorporato, grigio/nero, cornici, indice laterale",
-    "riferimento_sha256": "010bfad2d53ec3055f6ee84604fc1670823701d5f427c0e7d19712af22947a47"
+    "versione": "v12",
+    "peso_byte": 14548360,
+    "css_modello_identico": true,
+    "js_tema_identico": true,
+    "foto_e_gif_conservate": true,
+    "modello_sha256": "632ffc0a9bcf34ecdead6639ceb9186ee021ab70039b77fba3bc2d2d8e766083",
+    "modello_versione": "v2"
   },
   "browser": [
     {
       "capitolo": "stati_della_materia",
+      "versione": "v11",
       "larghezza": 390,
       "offline": true,
-      "font_Lexend": true,
-      "indice_tastiera_e_link": true,
+      "stili_componenti_identici_al_modello": true,
       "overflow": false,
+      "domande": 6,
       "errori_js": []
     },
     {
       "capitolo": "stati_della_materia",
+      "versione": "v11",
       "larghezza": 1280,
       "offline": true,
-      "font_Lexend": true,
-      "indice_tastiera_e_link": true,
+      "stili_componenti_identici_al_modello": true,
       "overflow": false,
+      "domande": 6,
       "errori_js": []
     },
     {
       "capitolo": "passaggi_di_stato",
+      "versione": "v12",
       "larghezza": 390,
       "offline": true,
-      "font_Lexend": true,
-      "indice_tastiera_e_link": true,
+      "stili_componenti_identici_al_modello": true,
       "overflow": false,
+      "domande": 8,
       "errori_js": []
     },
     {
       "capitolo": "passaggi_di_stato",
+      "versione": "v12",
       "larghezza": 1280,
       "offline": true,
-      "font_Lexend": true,
-      "indice_tastiera_e_link": true,
+      "stili_componenti_identici_al_modello": true,
       "overflow": false,
+      "domande": 8,
       "errori_js": []
     }
   ]

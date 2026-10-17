@@ -109,3 +109,9 @@ Master v54: l’utente segnala errori nel tema e richiede di salvare l’esatto 
 Questa operazione salva le regole: non modifica gli HTML né attesta che le versioni correnti siano già conformi alla richiesta più rigorosa. Alla revisione dei capitoli applicare il modello grafico autonomo esatto, adeguare la scrittura dei calcoli e integrare il confronto finale, conservando visuali e risultati fisici approvati. Nessuna pubblicazione.
 
 Modello autonomo verificato: CSS/font e JavaScript confrontati integralmente con l’origine e identici; prova Chromium offline a 390/1280 px superata per Lexend, layout, indice ed Escape. Non sono stati modificati gli HTML dei capitoli in questa operazione.
+
+## Correzioni integrate — 2026-10-18 00:49 (Europe/Rome)
+
+Stati della materia v11; Passaggi di stato v12. Modello autonomo applicato senza sovrascriverne gli stili; note a piè di pagina secondo master v55; formule scientifiche e SI; confronto finale con consumo elettrico domestico medio ARERA (2024, 1.930 kWh/anno): energia della scultura circa 418 kWh, pari a 2,6 mesi. Fonte e precisazioni in nota. Verifiche offline e desktop/mobile, confronto degli stili effettivi e build superati. Foto/GIF e modello particellare conservati. Dettagli nei due stati e in `verifiche-finali.json`. Nessuna pubblicazione.
+
+Il componente Note con richiamo e ritorno è ora salvato nel modello autonomo **v2** per il riuso futuro. Nessuna modifica ai CSS o ai comandi dei componenti preesistenti; gli stili delle note, già verificati nel browser, sono centralizzati nel modello e incorporati identici nei due capitoli. La sola ricollocazione del CSS non cambia la resa. Pesi correnti: Stati della materia 6519356 byte; Passaggi di stato 14548360 byte.

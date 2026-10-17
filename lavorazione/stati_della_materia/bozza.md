@@ -12,7 +12,7 @@ Un solido conserva generalmente una forma e un volume propri. Le sue particelle 
 
 [SIMULAZIONE M6 — Conservare l’animazione microscopica del solido della v8: canvas `solidMotion`, 280 × 240. Riutilizzare il modello e il codice esistenti, vicino alla spiegazione.]
 
-Didascalia: Le particelle oscillano attorno a posizioni di equilibrio senza spostarsi liberamente attraverso il solido. Il modello è qualitativo e non è in scala.
+Didascalia: Le particelle oscillano attorno a posizioni di equilibrio senza spostarsi liberamente attraverso il solido.[^nota-particelle-solidMotion]
 
 La disposizione delle particelle, però, non è uguale in tutti i solidi. Nel cristallo di bismuto della fotografia si ripete con regolarità nello spazio: il bismuto è un esempio di **solido cristallino**, come il sale da cucina. Nel vetro manca invece una disposizione periodica che si estenda a grandi distanze. Il vetro è un **solido amorfo**, ma conserva comunque una forma propria: per essere solido un materiale non deve necessariamente essere cristallino.
 
@@ -30,11 +30,11 @@ Didascalia M10: Da sinistra: cristallino con un unico orientamento, policristall
 
 ## Scorrere senza disperdersi
 
-In un liquido le particelle restano vicine, ma possono cambiare posizione e scorrere le une rispetto alle altre. Il liquido si deforma e prende la forma della parte di recipiente che occupa, senza per questo distribuirsi in tutto lo spazio disponibile. Una stessa quantità d'acqua, a temperatura invariata, mantiene pressoché lo stesso volume passando da un recipiente a un altro. Cambia la forma, non la quantità di spazio occupata dal liquido.
+In un liquido le particelle restano vicine, ma possono cambiare posizione e scorrere le une rispetto alle altre. Il liquido si deforma e prende la forma della parte di recipiente che occupa, senza per questo distribuirsi in tutto lo spazio disponibile. Una stessa quantità d'acqua mantiene pressoché lo stesso volume passando da un recipiente a un altro. Cambia la forma, non la quantità di spazio occupata dal liquido.[^nota-4]
 
 [SIMULAZIONE M7 — Conservare l’animazione microscopica del liquido della v8: canvas `liquidMotion`, 280 × 240. Riutilizzare il modello e il codice esistenti.]
 
-Didascalia: Le particelle rimangono vicine mentre cambiano posizione: il liquido può scorrere e adattarsi al recipiente.
+Didascalia: Le particelle rimangono vicine mentre cambiano posizione: il liquido può scorrere e adattarsi al recipiente.[^nota-particelle-solidMotion]
 
 Scorrere non significa però scorrere tutti allo stesso modo. L'olio della fotografia forma un getto continuo e oppone una resistenza al movimento diversa da quella dell'acqua. Questa resistenza allo scorrimento si chiama **viscosità** ed è legata alle interazioni tra le particelle e al movimento relativo degli strati di liquido. Alla stessa temperatura, molti oli comuni sono più viscosi dell'acqua e scorrono più lentamente in condizioni confrontabili.
 
@@ -42,7 +42,7 @@ Scorrere non significa però scorrere tutti allo stesso modo. L'olio della fotog
 
 Didascalia: L'olio scorre formando un getto. La viscosità descrive la resistenza allo scorrimento, non quanto pesa un dato volume di liquido.
 
-Nell'animazione, due liquidi simulati mostrano una diversa resistenza alla deformazione e allo scorrimento. Quello a sinistra si distribuisce rapidamente e produce spruzzi; quello a destra scorre più lentamente e mantiene più a lungo una forma compatta. Il confronto illustra qualitativamente che cosa significa avere una viscosità maggiore. Non occorre che un liquido sia fermo per essere viscoso: anche il liquido a destra continua a scorrere.
+Nell'animazione, due liquidi simulati mostrano una diversa resistenza alla deformazione e allo scorrimento. Quello a sinistra si distribuisce rapidamente e produce spruzzi; quello a destra scorre più lentamente e mantiene più a lungo una forma compatta.  Non occorre che un liquido sia fermo per essere viscoso: anche il liquido a destra continua a scorrere.[^nota-5]
 
 [GIF M11 — Animazione scelta sulla viscosità: `risorse/viscosita.gif`, originale animato con 63 fotogrammi; affianca le simulazioni M6–M8 del modello particellare.]
 
@@ -62,7 +62,7 @@ La distanza tra le particelle aiuta anche a capire perché un gas si comprime mo
 
 [SIMULAZIONE M8 — Conservare l’animazione microscopica del gas della v8: canvas `gasMotion`, 280 × 240. Riutilizzare il modello e il codice esistenti.]
 
-Didascalia: Le particelle del gas percorrono lo spazio disponibile muovendosi in modo disordinato. Distanze, dimensioni e velocità del modello non sono in scala.
+Didascalia: Le particelle del gas percorrono lo spazio disponibile muovendosi in modo disordinato.[^nota-particelle-solidMotion]
 
 Esiste anche uno stato in cui una parte degli elettroni non è più legata agli atomi: il **plasma**. Contiene elettroni liberi e ioni, cioè particelle dotate di carica elettrica. Nella fotografia, una scarica elettrica attraversa l’argon contenuto in un tubo e ne ionizza una parte. Il gas diventa un plasma; gli atomi eccitati dalla scarica emettono la luce che vediamo. La presenza di cariche libere permette al plasma di condurre corrente e di rispondere ai campi elettrici e magnetici in modo diverso da un gas formato prevalentemente da particelle neutre; plasmi si trovano anche nelle stelle e in alcune lampade a scarica.
 
@@ -87,3 +87,11 @@ Didascalia: Una scarica elettrica rende luminoso l'argon nel tubo. Il plasma con
 4. Una siringa chiusa contiene aria. Spingendo lo stantuffo il volume diminuisce: **A)** si rimpiccioliscono soprattutto le particelle; **B)** diminuiscono soprattutto le distanze tra le particelle. Scegli e motiva. Che cosa cambierebbe se la siringa fosse piena d'acqua?
 5. Confronta le tre simulazioni microscopiche. In quale le particelle restano attorno alle stesse posizioni? In quale cambiano posizione pur rimanendo vicine? Collega le osservazioni alla forma e al volume dei materiali.
 6. Perché il plasma non si descrive come un gas formato soltanto da particelle neutre? Collega la risposta alla scarica nell’argon e indica un'applicazione tecnologica citata nel testo.
+
+## Note
+
+[^nota-particelle-solidMotion]: I tre modelli microscopici sono qualitativi: dimensioni delle particelle, distanze e velocità non sono in scala e non rappresentano misure sperimentali.
+
+[^nota-4]: Il confronto tra i volumi di una stessa quantità di liquido in recipienti diversi assume che la temperatura rimanga invariata.
+
+[^nota-5]: L’animazione della viscosità è un’illustrazione realizzata mediante una simulazione: mostra un confronto qualitativo e non misure ottenute da un esperimento.

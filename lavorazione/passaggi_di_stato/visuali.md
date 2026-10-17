@@ -52,3 +52,7 @@ L’utente ha autorizzato entrambi i metodi su tutte e tre le GIF di questo capi
 | Acqua in ebollizione | 320 × 240 | 77 → 52 | 5,659,517 → 3,168,285 |
 
 Parametri, indici selezionati, durate, hash e controlli in [ottimizzazione-gif.json](risorse/ottimizzazione-gif.json). Le copie ridotte sono incorporate nell’HTML v10; nessun cambiamento alla GIF di viscosità o ai modelli particellari dell’altro capitolo.
+
+## Integrazione nel tema autonomo — 2026-10-18 00:49 (Europe/Rome)
+
+E1 è ora il modello HTML nativo nell’HTML v12: stessa foto della scultura, sfondo conservato, massa ipotizzata 5,00 · 10² kg = 0,500 t, quattro stati e tre frecce. Etichette leggibili sul telefono; ipotesi nella nota dell’esempio. `schema-esempio.svg` è conservato come risorsa di riferimento, non incorporato nell’ultima versione. PWR integrato nel componente di ingrandimento nativo del tema. GIF ridotte e foto scelte invariate; nessuna ricerca di nuovi visuali o modifica ai loro originali.
