@@ -10,7 +10,7 @@ def render_italian(document, root):
         '', document, count=1)
     if count != 1:
         raise ValueError("Menu indice italiano assente o duplicato")
-    document = document.replace('name="version" content="v4"', 'name="version" content="v5"')
+    document = document.replace('name="version" content="v4"', 'name="version" content="v6"')
     document = document.replace(
         'scegli «Scarica HTML»', 'usa l’icona di download')
     document = document.replace('<a class="jump" href="#indice">',
@@ -19,8 +19,6 @@ def render_italian(document, root):
         '<div class="catalogue" id="indice" hidden tabindex="-1">')
     # La scelta della lingua resta una normale visita alla relativa home.
     document = document.replace('href="./#indice"', 'href="./"')
-    document = document.replace('href="index_fr.html#indice"', 'href="index_fr.html"')
-    document = document.replace('href="index_sq.html#indice"', 'href="index_sq.html"')
 
     def download(match):
         attrs = match[1]

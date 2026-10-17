@@ -1,16 +1,12 @@
 # Stato — Home e GitHub Pages
 
-Aggiornamento: 17/10/2026 19:39 (Europe/Rome).
+Aggiornamento: 17/10/2026 19:41 (Europe/Rome).
 
-## Revisione corrente — home italiana v5
+## Revisione corrente — home italiana v6
 
-Richiesta esplicita: rimuovere Indice in alto a sinistra, mostrare il catalogo soltanto dopo «Esplora gli articoli», sostituire «Scarica HTML» con un’icona e dichiarare il peso effettivo. L’utente ha precisato di lavorare soltanto sull’italiano. Master consultato: v52; modifica locale eseguita direttamente secondo B2, preservando template, copertine e articoli.
+Richiesta aggiornata: «Togli proprio le altre lingue, lascia solo il selettore della lingua in alto a destra con solo l’italiano». Rimossi dal template i collegamenti francese e albanese. La build pubblica esclusivamente la home e i nove articoli italiani, con venti copertine: non genera le home tradotte né copia gli articoli tradotti. I sorgenti delle traduzioni restano conservati nel repository e non vengono pubblicati. Il selettore nativo in alto a destra mantiene la sola voce Italiano. Conservate tutte le modifiche già richieste: rimozione Indice, catalogo al clic, icona e peso effettivo dei download. Master consultato: v52; modifica locale autorizzata secondo B2.
 
-Implementazione in `scripts/home_italian.py`, applicata soltanto all’output italiano da `scripts/build_pages.py`. `index.html` resta il template condiviso: questo evita modifiche alle altre home generate. La home italiana pubblicabile dichiara v5. Menu lingua a destra; catalogo nascosto all’arrivo senza ancora, apertura al clic con focus e aria-expanded; supporto alle ancore `#indice` e degli argomenti dai collegamenti già pubblicati. Senza JavaScript il catalogo resta accessibile. Dimensioni da stat dei file reali durante ogni build: kB/MB decimali visibili, byte esatti in tooltip ed etichetta accessibile. Nessuna nuova richiesta di rete dal browser.
-
-Verifiche completate: build sui file reali (20 HTML e 20 copertine); Chromium a 320, 390, 768, 1024 e 1440 px senza overflow; catalogo inizialmente nascosto, clic ripetuto, focus, tastiera, quattro ancore dirette, fallback senza JavaScript, dimensioni di tutti e nove i download e download di un articolo confrontato byte per byte. Output francese e albanese confrontati con il generatore precedente: identici. Aggiornati README e percorso del renderer nel trigger del workflow Pages.
-
-Fase: modifiche verificate, pronte nel ramo dedicato `home/esplora-download` per revisione e integrazione. Questa richiesta non comprende una nuova pubblicazione esplicita; main e deployment restano da aggiornare dopo revisione.
+Verifiche: build completa con dieci HTML tutti lang=it, assenza di home e articoli fr/sq nell’output; selettore con una sola voce Italiano; Chromium desktop e smartphone, catalogo inizialmente nascosto, apertura e focus da tastiera, ancore e download. Aggiornato README. Ramo dedicato `home/esplora-download`, PR #18; pubblicazione ancora da integrare in main.
 
 ---
 
