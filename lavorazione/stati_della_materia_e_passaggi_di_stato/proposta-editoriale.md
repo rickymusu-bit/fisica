@@ -46,7 +46,11 @@ Apertura: i cubetti si sciolgono nel bicchiere, pur restando acqua. Domanda cent
 6. **Esercizi svolti.** Conservare 0,50 kg di ghiaccio a 0 °C e 0,20 kg di acqua all'ebollizione. Schema prima dei dati e del calcolo. Valori verificati: 167.000 J e 451.400 J. Escludere dal bilancio riscaldamento iniziale e dispersioni in modo esplicito e breve.
 7. **Domande di verifica.** Otto quesiti sui nuclei originali: trasformazione fisica; lettura della mappa; evaporazione/ebollizione; nuvole; due calcoli; sudorazione; frigorifero. I due quesiti numerici coincidono oggi con gli svolgimenti: proporre una previsione o un confronto sui medesimi dati per richiedere ragionamento, anziché ripetere una soluzione appena letta.
 
-## Visuali esistenti da riutilizzare
+## Visuali: aggiornamento per Stati della materia
+
+La richiesta successiva supera il riuso di M1–M8: tutte foto nuove, GIF da scegliere e schema M10 aggiunto. Riferimento corrente: [registro visuali](../stati_della_materia/visuali.md). La tabella seguente conserva la mappa delle risorse iniziali; per Passaggi di stato il piano resta valido.
+
+### Risorse della proposta iniziale
 
 Gli indici seguenti sono quelli delle 13 immagini HTML nella fonte v8, a partire da zero. Non sono nomi di nuovi file.
 

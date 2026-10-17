@@ -12,6 +12,8 @@ Verifiche preliminari completate: identità della fonte v8 e blob `8ef5566c73f67
 
 Punti aperti: file per le copertine e le immagini delle applicazioni, originali adatti agli schemi, riferimenti di licenza mancanti; approvazione delle bozze complete. Nessuna prova dei futuri HTML è stata eseguita, perché non sono ancora stati realizzati. Checklist pertinente: A1–A6, B1.1–B6, C1–C5, D1–D2.1.
 
+Aggiornamento successivo: per **Stati della materia** l'utente ha richiesto tutte foto nuove, schema cristallino/amorfo e ricerca di GIF al posto delle simulazioni. [Registro visuali corrente](../stati_della_materia/visuali.md). Schema realizzato; candidate GIF individuate ma originali non scaricabili nell'ambiente (HTTP 403). Nessuna GIF specifica approvata o inserita. Il riuso di M1–M8 nella proposta iniziale è superato. Passaggi di stato resta invariato.
+
 Bozze correnti: [Stati della materia](../stati_della_materia/bozza.md), con sei domande finali, e [Passaggi di stato](../passaggi_di_stato/bozza.md), con tre applicazioni, due esercizi svolti e otto domande finali. La scrittura completa comprende tutti i nuclei della v8, le formule interpretate, la correzione sulle nuvole e i segnaposto delle immagini. Stati specifici nei rispettivi percorsi di lavorazione.
 
 Prossima operazione: presentare le bozze complete; dopo la loro approvazione aggiornare la stima e raccogliere il via all’HTML. Non modificare la pubblicazione del sito.
