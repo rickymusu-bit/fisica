@@ -7,6 +7,8 @@ on:
       - 'index.html'
       - '*.html'
       - 'scripts/build_pages.py'
+      - 'scripts/home_covers.py'
+      - 'copertine/**'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
 
