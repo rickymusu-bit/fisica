@@ -1,7 +1,7 @@
 # Stato — Irraggiamento
 
-Ultimo aggiornamento: 17 ottobre 2026, ore 00:22 (Europe/Rome).
-Master consultato integralmente: v52; aggiornamento delle regole grafiche: v53.
+Ultimo aggiornamento: 17 ottobre 2026, ore 13:26 (Europe/Rome).
+Master corrente: v60. Le note seguenti conservano la cronologia; lo stato attuale è riportato nell’ultima sezione.
 
 ## Argomento e fase
 
@@ -172,3 +172,46 @@ Bozza e descrizione accessibile aggiornate: scambio sulla superficie esposta, no
 Versione di `rettile-bilancio.png` aggiornata con lo strumento di modifica immagini. Legenda separata nella fascia bianca sotto la foto, con voci «Calore assorbito» e «Calore ceduto»; nessuna etichetta di flusso accanto alle onde. Sulla foto compaiono «Lucertola: 30 °C» e «Ambiente: 20 °C»; la legenda specifica «esempio ipotetico». Ispezionata la correttezza delle scritte, il giallo delle tre onde entranti, le distanze delle punte e la presenza delle onde rosse distribuite. File 1448 × 1086 px, 2148796 byte. Originale introduttivo conservato separatamente.
 
 Bozza aggiornata con valori ipotetici, nuova descrizione accessibile e legenda. Il testo chiarisce che le sole temperature non determinano il bilancio radiativo sotto il Sole: occorre anche la potenza solare assorbita. Le dimensioni delle frecce non rappresentano misure. Nessun dato termometrico reale attribuito alla foto, nessuna potenza numerica inventata. Grafico G1 e GIF nella sezione effetto serra conservati.
+
+## Via alla realizzazione del capitolo
+
+17 ottobre 2026, ore 13:12 (Europe/Rome). L’utente risponde «Vai pure» dopo la revisione della bozza e delle visuali. Procedo con la realizzazione completa nel tema approvato, riutilizzando questo via esplicito senza chiederne un secondo. Comunicato intervallo indicativo 20–35 minuti, ripartito in 8–15 per materiali/traduzioni, 7–12 per HTML e 5–8 per verifiche e salvataggio.
+
+Le traduzioni locali previste sono quattro: Terra–Sole (etichette), onda elettromagnetica, assorbimento/riflessione/trasmissione, poster NASA. I file originali restano conservati; le copie per l’HTML vengono ottimizzate secondo D2. Indice laterale nativo funzionante anche senza script e GIF senza comandi. Per le visuali dense si prepara una vista ingrandibile e scorrevole sullo smartphone.
+
+Alla domanda sui crediti di GIF e tostapane l’utente risponde «no»: autore e licenza restano non identificati. Non inventare attribuzioni né dichiarare verificati i diritti di questi due materiali. Registrare questa limitazione nei crediti e nella consegna, separata dalle immagini Commons verificate. Nessuna ulteriore richiesta delle stesse informazioni.
+
+## Pausa richiesta sul poster NASA
+
+17 ottobre 2026, ore 13:19 (Europe/Rome). L’utente chiede «Fermati sul poster della nasa». Interrotta la verifica in corso; nessuna ulteriore realizzazione o modifica del capitolo fino alle indicazioni sul poster. Mostrata la traduzione corrente in `risorse/bilancio-terra-it.png`, originale mantenuto in `risorse/bilancio-terra-originale.jpg`.
+
+Stato prima della pausa: traduzioni di Terra–Sole, onda, assorbimento/riflessione/trasmissione e poster NASA preparate come copie, immagini ottimizzate e font incorporati. Prima generazione completa in `bozza.html` e `../../irraggiamento_it.html`, 6.161.713 byte, 15 visuali, 15 domande e 5 formule. Questo HTML è in lavorazione, non ancora consegnato come finale o pubblicato. Generatore in `genera_capitolo.py`; mappa copie in `risorse/asset-finali.json`.
+
+Verifiche parziali in Chromium: 1440, 1024, 768, 390 e 320 px con JavaScript: immagini decodificate, nessun overflow della pagina o delle formule, indice e focus funzionanti, immagini ingrandibili, nessuna richiesta esterna o errore JavaScript. Prova mobile senza script e verifica riduzione movimento non concluse; il controllo è stato interrotto durante la prova senza script. Il report finale non è stato prodotto. Alcune schermate di apertura sono in realtà a metà pagina per un errore dello script di verifica nel ritorno all’inizio: vanno rigenerate, non dichiararle anteprime iniziali corrette. Nessun catalogo o sito pubblicato aggiornato.
+
+Alla ripresa: discutere prima il poster con l’utente; applicare le eventuali correzioni e solo dopo completare l’HTML e le verifiche rimaste.
+
+
+## Revisione mirata del poster NASA
+
+Rimosso il riquadro esplicativo in alto a destra e ripristinato il nome ufficiale inglese «National Aeronautics and Space Administration», su richiesta dell’utente. Copia aggiornata in `risorse/bilancio-terra-it.png`; precedente traduzione conservata in `risorse/bilancio-terra-it-prima-revisione.png`. Controllo visivo: valori e altre etichette conservati. Il resto del capitolo resta in pausa; copie ottimizzate e HTML non ancora rigenerati con questa revisione.
+
+
+## Ripresa autorizzata e workflow v60
+
+L’utente richiede una fase esplicita di discussione delle modifiche dopo la scelta dei visuali e l’accettazione dei risultati modificati prima dell’HTML; dopo il poster corretto dichiara «Dopodiché puoi procedere». Ripresa quindi autorizzata con i visuali mostrati e il poster corretto. Accettazione del riordino periodico v60 ricevuta esplicitamente: «Sì, approvo il riordino».
+
+Master aggiornato in B1.1, con rinvii semplificati in B2/B3/C2 e distinzione coerente in B4 fra autorizzazione a modificare e accettazione del risultato. Audit delle sezioni A–D: conservati vincoli su contenuti, stime, scelta delle fonti, accessibilità, versioni e salvataggi; nessuna contraddizione residua individuata rispetto alla nuova sequenza.
+
+Poster aggiornato nelle copie ottimizzate e rigenerato HTML v1: 5.981.197 byte. Originale NASA e traduzione precedente conservati. In corso conclusione delle verifiche desktop/mobile, senza pubblicazione o modifica della home.
+
+
+## Capitolo HTML completato e verificato
+
+HTML italiano v1 in `../../irraggiamento_it.html`, copia identica in `bozza.html`: 5.981.197 byte, 15 visuali, 5 formule e 15 domande. Tema Mac, font Lexend incorporato, indice laterale nativo, due link «← Biblioteca», immagini dense ingrandibili e scorrevoli. GIF senza pulsanti; immagine statica automatica soltanto per la preferenza di riduzione del movimento. Poster NASA corretto incorporato.
+
+Verifiche concluse e registrate in `verifiche/browser.json` e `verifiche/integrita.json`: Chromium a 1440/1024/768/390/320 px, immagini caricate, nessun overflow di pagina o formule, indice/tastiera/focus/Esc e ingrandimento funzionanti, zero richieste esterne per le risorse e zero errori JavaScript. A 390 px con script disabilitati: apertura/chiusura nativa al tocco, navigazione e ingrandimento funzionanti; dopo la navigazione si chiude manualmente con «Chiudi». Preferenza movimento ridotto verificata. Schermate iniziali corrette e controllate, insieme a grafico, lucertola e poster. Il blocco nella prima prova senza script dipendeva dall’inserimento asincrono del CSS nello strumento di test; risolto nella verifica, senza modifiche al capitolo.
+
+Controllo scientifico: modello di Stefan–Boltzmann, rapporto 16 in kelvin, condizioni della potenza netta, carattere ipotetico delle temperature del rettile, riflessi del cubo e delle anatre e medie storiche del poster mantenuti. Attribuzioni Commons conservate; autore/licenza restano non identificati per GIF, tostapane e figura Concepts of Physics e sono indicati come tali nei crediti. Nessuna simulazione aggiunta.
+
+Master v60 e capitolo pronti per salvataggio sul ramo `istruzioni/tema-mac`; nessuna unione in main o pubblicazione, nessuna modifica alla home. Prossima operazione dopo consegna: raccogliere eventuali correzioni dell’utente sulla pagina completa.

@@ -1,0 +1,165 @@
+{
+  "C1": {
+    "file": "ottimizzate/c1.webp",
+    "alt": "Il Sole sull’orizzonte terrestre, visto da una struttura orbitale.",
+    "kind": "photo",
+    "zoom": false,
+    "size": [
+      1600,
+      1063
+    ]
+  },
+  "T1": {
+    "file": "ottimizzate/t1.webp",
+    "alt": "Un rettile si espone al Sole su una roccia.",
+    "kind": "photo",
+    "zoom": false,
+    "size": [
+      1600,
+      1200
+    ]
+  },
+  "T2": {
+    "file": "ottimizzate/t2.webp",
+    "alt": "Terra e Sole separati da circa 150 milioni di chilometri, con etichette italiane.",
+    "kind": "diagram",
+    "zoom": true,
+    "size": [
+      1666,
+      944
+    ],
+    "min_width": 900,
+    "preview": "ottimizzate/t2-anteprima.webp"
+  },
+  "T6": {
+    "file": "ottimizzate/t6.webp",
+    "alt": "Onda elettromagnetica: campo elettrico e magnetico perpendicolari e lunghezza d’onda, con etichette italiane.",
+    "kind": "diagram",
+    "zoom": true,
+    "size": [
+      1725,
+      912
+    ],
+    "min_width": 1000,
+    "preview": "ottimizzate/t6-anteprima.webp"
+  },
+  "T7": {
+    "file": "ottimizzate/t7.webp",
+    "alt": "Radiazione incidente su un corpo: quote assorbita, trasmessa e riflessa, con frecce ed etichette italiane.",
+    "kind": "diagram",
+    "zoom": true,
+    "size": [
+      2000,
+      683
+    ],
+    "min_width": 900,
+    "preview": "ottimizzate/t7-anteprima.webp"
+  },
+  "T3": {
+    "file": "spettro-originale.svg",
+    "alt": "Spettro elettromagnetico in italiano, dal radio ai raggi gamma, con il visibile accanto all’infrarosso.",
+    "kind": "diagram",
+    "zoom": true,
+    "size": [
+      680,
+      400
+    ],
+    "min_width": 1000
+  },
+  "T5": {
+    "file": "lava.jpg",
+    "alt": "Lava incandescente con parti luminose rosso-arancio e crosta scura.",
+    "kind": "photo",
+    "zoom": false,
+    "size": [
+      800,
+      500
+    ]
+  },
+  "T4": {
+    "file": "ottimizzate/t4.webp",
+    "alt": "Fotografie e termografie del cubo di Leslie: facce con finiture diverse e riflesso della mano sulla faccia lucida.",
+    "kind": "diagram",
+    "zoom": true,
+    "size": [
+      650,
+      505
+    ],
+    "min_width": 650
+  },
+  "G1": {
+    "file": "potenza-temperatura.svg",
+    "alt": "Curva teorica della potenza emessa: circa 459 W a 300 K e 7348 W a 600 K, per area di un metro quadrato ed emissività uno.",
+    "kind": "diagram",
+    "zoom": true,
+    "size": [
+      1770,
+      1215
+    ],
+    "min_width": 800
+  },
+  "T1-bilancio": {
+    "file": "ottimizzate/t1-bilancio.webp",
+    "alt": "Esempio ipotetico: lucertola a 30 °C e ambiente a 20 °C; tre onde gialle entranti staccate dal corpo, onde rosse uscenti e legenda separata.",
+    "kind": "diagram",
+    "zoom": true,
+    "size": [
+      1448,
+      1086
+    ],
+    "min_width": 1100,
+    "preview": "ottimizzate/t1-bilancio-anteprima.webp"
+  },
+  "A1": {
+    "file": "ottimizzate/a1.webp",
+    "alt": "Tostapane vintage con fette di pane separate dalle resistenze incandescenti.",
+    "kind": "photo portrait",
+    "zoom": false,
+    "size": [
+      960,
+      1280
+    ]
+  },
+  "A2": {
+    "file": "ottimizzate/a2.webp",
+    "alt": "Termografia di quattro anatre sull’acqua, con riflessi infrarossi e scala da 45 a 64 gradi Fahrenheit.",
+    "kind": "small",
+    "zoom": false,
+    "size": [
+      240,
+      205
+    ]
+  },
+  "A3": {
+    "file": "ottimizzate/a3.webp",
+    "alt": "Tecnici installano il rivestimento isolante lucido sulla sonda Deep Space 1.",
+    "kind": "photo portrait",
+    "zoom": false,
+    "size": [
+      1110,
+      1600
+    ]
+  },
+  "A4-animazione": {
+    "file": "effetto-serra.gif",
+    "alt": "Animazione: radiazione solare entrante e radiazione infrarossa fra Terra, atmosfera e spazio.",
+    "kind": "gif",
+    "zoom": false,
+    "size": [
+      600,
+      400
+    ]
+  },
+  "A4": {
+    "file": "ottimizzate/a4.webp",
+    "alt": "Bilancio energetico terrestre NASA tradotto in italiano, con flussi medi storici in watt per metro quadrato.",
+    "kind": "diagram",
+    "zoom": true,
+    "size": [
+      1426,
+      1103
+    ],
+    "min_width": 1426,
+    "preview": "ottimizzate/a4-anteprima.webp"
+  }
+}

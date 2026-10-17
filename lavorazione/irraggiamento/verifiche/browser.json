@@ -1,0 +1,134 @@
+[
+  {
+    "viewport": 1440,
+    "javascript": true,
+    "status": 200,
+    "images_decoded": true,
+    "document_overflow": false,
+    "formula_overflow_count": 0,
+    "native_initial_closed": true,
+    "native_opens": true,
+    "native_closes": true,
+    "toc_navigation": true,
+    "focus_trap": true,
+    "escape": true,
+    "zoom_opens": true,
+    "zoom_scroll": {
+      "scroll": 1100,
+      "width": 784
+    },
+    "visuals": 15,
+    "questions": 15,
+    "formula_count": 5,
+    "external_requests": [],
+    "errors": []
+  },
+  {
+    "viewport": 1024,
+    "javascript": true,
+    "status": 200,
+    "images_decoded": true,
+    "document_overflow": false,
+    "formula_overflow_count": 0,
+    "native_initial_closed": true,
+    "native_opens": true,
+    "native_closes": true,
+    "toc_navigation": true,
+    "focus_trap": true,
+    "escape": true,
+    "zoom_opens": true,
+    "zoom_scroll": {
+      "scroll": 1100,
+      "width": 754
+    },
+    "visuals": 15,
+    "questions": 15,
+    "formula_count": 5,
+    "external_requests": [],
+    "errors": []
+  },
+  {
+    "viewport": 768,
+    "javascript": true,
+    "status": 200,
+    "images_decoded": true,
+    "document_overflow": false,
+    "formula_overflow_count": 0,
+    "native_initial_closed": true,
+    "native_opens": true,
+    "native_closes": true,
+    "toc_navigation": true,
+    "focus_trap": true,
+    "escape": true,
+    "zoom_opens": true,
+    "zoom_scroll": {
+      "scroll": 1100,
+      "width": 566
+    },
+    "visuals": 15,
+    "questions": 15,
+    "formula_count": 5,
+    "external_requests": [],
+    "errors": []
+  },
+  {
+    "viewport": 390,
+    "javascript": true,
+    "status": 200,
+    "images_decoded": true,
+    "document_overflow": false,
+    "formula_overflow_count": 0,
+    "native_initial_closed": true,
+    "native_opens": true,
+    "native_closes": true,
+    "toc_navigation": true,
+    "focus_trap": true,
+    "escape": true,
+    "zoom_opens": true,
+    "zoom_scroll": {
+      "scroll": 1100,
+      "width": 296
+    },
+    "visuals": 15,
+    "questions": 15,
+    "formula_count": 5,
+    "external_requests": [],
+    "errors": []
+  },
+  {
+    "viewport": 320,
+    "javascript": true,
+    "status": 200,
+    "images_decoded": true,
+    "document_overflow": false,
+    "formula_overflow_count": 0,
+    "native_initial_closed": true,
+    "native_opens": true,
+    "native_closes": true,
+    "toc_navigation": true,
+    "focus_trap": true,
+    "escape": true,
+    "zoom_opens": true,
+    "zoom_scroll": {
+      "scroll": 1100,
+      "width": 236
+    },
+    "visuals": 15,
+    "questions": 15,
+    "formula_count": 5,
+    "external_requests": [],
+    "errors": []
+  },
+  {
+    "viewport": 390,
+    "javascript": false,
+    "native_initial_closed": true,
+    "native_opens": true,
+    "native_closes": true,
+    "toc_navigation": true,
+    "zoom_opens": true
+  },
+  {
+    "reduced_motion_static": true
+  }
+]

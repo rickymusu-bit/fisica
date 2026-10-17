@@ -1,5 +1,5 @@
 {
-  "aggiornamento": "17 ottobre 2026, ore 13:07 (Europe/Rome)",
+  "aggiornamento": "17 ottobre 2026; ripresa autorizzata dopo revisione poster NASA",
   "materiali": [
     {
       "id": "C1",
@@ -21,7 +21,8 @@
       "sha256": "4984a3f14107806dd6d33452f40554a5e86d2e76cd0c7412f3c006551a3ad386",
       "url_licenza": "",
       "pagina_fonte": "https://commons.wikimedia.org/wiki/File:Sun_Over_Earth%27s_Horizon.jpg",
-      "metadati_fonte": "copertina-originale.jpg.metadata.json"
+      "metadati_fonte": "copertina-originale.jpg.metadata.json",
+      "copia_html": "ottimizzate/c1.webp"
     },
     {
       "id": "T1",
@@ -43,7 +44,8 @@
       "sha256": "fe646985cfc3fd2f3eaab00efd4bc3e49c5f97528a2884ee57f91779117d16da",
       "url_licenza": "https://creativecommons.org/licenses/by-sa/3.0",
       "pagina_fonte": "https://commons.wikimedia.org/wiki/File:Basking_Chuckwalla.jpg",
-      "metadati_fonte": "rettile-originale.jpg.metadata.json"
+      "metadati_fonte": "rettile-originale.jpg.metadata.json",
+      "copia_html": "ottimizzate/t1.webp"
     },
     {
       "id": "T2",
@@ -52,11 +54,11 @@
       "scelta": "Fornita e scelta dall’utente",
       "intervento_richiesto": "Tradurre le etichette in italiano",
       "file_locale": "terra-sole-originale.png",
-      "stato_lavorazione": "Originale recuperato e ispezionato; nessuna modifica, traduzione o compressione applicata",
+      "stato_lavorazione": "Etichette tradotte e risultato mostrato; via alla creazione HTML ricevuto dopo le revisioni.",
       "autore": "Lucas Vieira",
       "licenza": "Public domain",
       "stato_diritti": "Metadati Commons verificati; rispettare le condizioni e le attribuzioni alla realizzazione",
-      "versione_modificata": null,
+      "versione_modificata": "terra-sole-it.png",
       "dimensioni_px": [
         841,
         476
@@ -65,7 +67,8 @@
       "sha256": "60766006a0b492ecece9f47277bebea8618e418ff389cb86eb871ff6d74cdea0",
       "url_licenza": "",
       "pagina_fonte": "https://commons.wikimedia.org/wiki/File:Earth_to_Sun.png",
-      "metadati_fonte": "terra-sole-originale.png.metadata.json"
+      "metadati_fonte": "terra-sole-originale.png.metadata.json",
+      "copia_html": "ottimizzate/t2.webp"
     },
     {
       "id": "T3",
@@ -87,7 +90,8 @@
       "sha256": "99a5fc328dee11b165199cb50da531f3939f8842ae8ab242625d104e8d8b68b7",
       "url_licenza": "",
       "pagina_fonte": "https://commons.wikimedia.org/wiki/File:EM_Spectrum_Properties_it.svg",
-      "metadati_fonte": "spettro-originale.svg.metadata.json"
+      "metadati_fonte": "spettro-originale.svg.metadata.json",
+      "copia_html": "spettro-originale.svg"
     },
     {
       "id": "T4",
@@ -110,7 +114,8 @@
       "url_licenza": "",
       "pagina_fonte": "https://commons.wikimedia.org/wiki/File:LesliesCube.png",
       "metadati_fonte": "cubo-leslie-originale.png.metadata.json",
-      "nota_ispezione": "Le facce sono alla stessa temperatura; la termografia comprende il riflesso della mano sulla faccia lucida. Non leggere i colori apparenti come misura diretta della temperatura delle diverse facce."
+      "nota_ispezione": "Le facce sono alla stessa temperatura; la termografia comprende il riflesso della mano sulla faccia lucida. Non leggere i colori apparenti come misura diretta della temperatura delle diverse facce.",
+      "copia_html": "ottimizzate/t4.webp"
     },
     {
       "id": "T5",
@@ -133,7 +138,8 @@
       "sha256": "c157da6b9c7110be3e589a0033ad3bcce34373111cfa1b981c4831a56d2fc8da",
       "url_licenza": "",
       "pagina_fonte": "https://commons.wikimedia.org/wiki/File:Pahoehoe_toe.jpg",
-      "metadati_fonte": "lava.jpg.metadata.json"
+      "metadati_fonte": "lava.jpg.metadata.json",
+      "copia_html": "lava.jpg"
     },
     {
       "id": "A2",
@@ -156,7 +162,8 @@
       "url_licenza": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "pagina_fonte": "https://commons.wikimedia.org/wiki/File:Thermal_image_of_four_ducks_swimming.jpg",
       "metadati_fonte": "termografia-anatre-originale.jpg.metadata.json",
-      "nota_ispezione": "Originale piccolo: 240 × 205 px. Scala 45–64 °F, circa 7–18 °C; presenza di riflessi infrarossi sull’acqua. Non ingrandire artificialmente né omettere la riflessione nella spiegazione."
+      "nota_ispezione": "Originale piccolo: 240 × 205 px. Scala 45–64 °F, circa 7–18 °C; presenza di riflessi infrarossi sull’acqua. Non ingrandire artificialmente né omettere la riflessione nella spiegazione.",
+      "copia_html": "ottimizzate/a2.webp"
     },
     {
       "id": "A3",
@@ -178,7 +185,8 @@
       "sha256": "e13d69f48ce43a59abfea8e02ca42600c36c9a669bf3652e32ad6ee02fcc6c2d",
       "url_licenza": "",
       "pagina_fonte": "https://commons.wikimedia.org/wiki/File:Deep_Space_1_98pc1176.jpg",
-      "metadati_fonte": "sonda-originale.jpg.metadata.json"
+      "metadati_fonte": "sonda-originale.jpg.metadata.json",
+      "copia_html": "ottimizzate/a3.webp"
     },
     {
       "id": "T6",
@@ -187,11 +195,11 @@
       "scelta": "Fornita e scelta dall’utente",
       "intervento_richiesto": "Tradurre le etichette in italiano; conservare relazioni e direzioni fisiche e la natura vettoriale quando possibile",
       "file_locale": "onda-originale.svg",
-      "stato_lavorazione": "Originale recuperato e ispezionato; nessuna modifica, traduzione o compressione applicata",
+      "stato_lavorazione": "Etichette tradotte e risultato mostrato; via alla creazione HTML ricevuto dopo le revisioni.",
       "autore": "Piotr Fita",
       "licenza": "CC0",
       "stato_diritti": "Metadati Commons verificati; rispettare le condizioni e le attribuzioni alla realizzazione",
-      "versione_modificata": null,
+      "versione_modificata": "onda-it.png",
       "dimensioni_px": [
         599,
         317
@@ -200,7 +208,8 @@
       "sha256": "9b9a7988081e69eaec73d86a2507f24463476ea1acb5312b1e125e5c5c67c0c4",
       "url_licenza": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
       "pagina_fonte": "https://commons.wikimedia.org/wiki/File:Electromagnetic_wave_EN.svg",
-      "metadati_fonte": "onda-originale.svg.metadata.json"
+      "metadati_fonte": "onda-originale.svg.metadata.json",
+      "copia_html": "ottimizzate/t6.webp"
     },
     {
       "id": "A4",
@@ -209,11 +218,11 @@
       "scelta": "Fornita e scelta dall’utente",
       "intervento_richiesto": "Tradurre le etichette in italiano; preservare valori, unità, frecce e significato del diagramma; verificare leggibilità su smartphone",
       "file_locale": "bilancio-terra-originale.jpg",
-      "stato_lavorazione": "Originale recuperato e ispezionato; nessuna modifica, traduzione o compressione applicata",
+      "stato_lavorazione": "Etichette tradotte e risultato mostrato; via alla creazione HTML ricevuto dopo le revisioni.",
       "autore": "NASA",
       "licenza": "Public domain",
       "stato_diritti": "Metadati Commons verificati; rispettare le condizioni e le attribuzioni alla realizzazione",
-      "versione_modificata": null,
+      "versione_modificata": "bilancio-terra-it.png",
       "dimensioni_px": [
         1980,
         1530
@@ -223,7 +232,9 @@
       "url_licenza": "",
       "pagina_fonte": "https://commons.wikimedia.org/wiki/File:The-NASA-Earth%27s-Energy-Budget-Poster-Radiant-Energy-System-satellite-infrared-radiation-fluxes.jpg",
       "metadati_fonte": "bilancio-terra-originale.jpg.metadata.json",
-      "nota_ispezione": "Valori storici riferiti a lavori del 2009: non presentare 0,6 W/m² come squilibrio attuale. Infografica densa: mantenere struttura e dati nella traduzione e consentire ingrandimento/lettura dedicata su smartphone."
+      "nota_ispezione": "Valori storici riferiti a lavori del 2009: non presentare 0,6 W/m² come squilibrio attuale. Infografica densa: mantenere struttura e dati nella traduzione e consentire ingrandimento/lettura dedicata su smartphone.",
+      "modifica_eseguita": "Etichette in italiano; riquadro esplicativo in alto a destra rimosso; nome ufficiale NASA conservato in inglese.",
+      "copia_html": "ottimizzate/a4.webp"
     },
     {
       "id": "A4-animazione",
@@ -248,7 +259,8 @@
       "didascalia_approvata": "Una parte della radiazione solare viene riflessa verso lo spazio; quella assorbita riscalda la superficie terrestre, che emette radiazione infrarossa. L’atmosfera assorbe e riemette parte dell’infrarosso anche verso la superficie, mentre altra energia raggiunge lo spazio.",
       "approvazione_didascalia": "17 ottobre 2026, ore 12:25 (Europe/Rome), risposta «Ok» dell’utente",
       "collocazione_concordata": "Applicazioni: L’effetto serra e il bilancio della Terra. Ripristino richiesto esplicitamente dall’utente.",
-      "comandi": "Nessun pulsante per fermare, mettere in pausa o riavviare la GIF, per richiesta esplicita dell’utente, registrata nel master v59."
+      "comandi": "Nessun pulsante per fermare, mettere in pausa o riavviare la GIF, per richiesta esplicita dell’utente, registrata nel master v59.",
+      "copia_html": "effetto-serra.gif"
     },
     {
       "id": "A1",
@@ -268,7 +280,8 @@
         1280
       ],
       "byte": 85399,
-      "sha256": "f0557ef2d83d5a0d1da8caca738685a7c09b5813a2eb15418fd13e16aa1f4cb7"
+      "sha256": "f0557ef2d83d5a0d1da8caca738685a7c09b5813a2eb15418fd13e16aa1f4cb7",
+      "copia_html": "ottimizzate/a1.webp"
     },
     {
       "id": "T7",
@@ -284,11 +297,12 @@
       ],
       "byte": 85715,
       "sha256": "272304b2c87e868e485cd177a4202d9f5df27e12879964db3a85b22fe05961bf",
-      "stato_lavorazione": "Originale recuperato e ispezionato; traduzioni da eseguire nella realizzazione",
+      "stato_lavorazione": "Etichette tradotte e risultato mostrato; via alla creazione HTML ricevuto dopo le revisioni.",
       "autore": null,
       "licenza": null,
       "stato_diritti": "Fonte recuperata; autore/licenza di riuso dell’immagine da verificare prima della consegna finale",
-      "versione_modificata": null
+      "versione_modificata": "assorbimento-it.png",
+      "copia_html": "ottimizzate/t7.webp"
     },
     {
       "id": "T1-bilancio",
@@ -312,7 +326,8 @@
         "lucertola_C": 30,
         "ambiente_C": 20,
         "natura": "Esempio ipotetico scelto esplicitamente dall’utente; non misure della fotografia"
-      }
+      },
+      "copia_html": "ottimizzate/t1-bilancio.webp"
     },
     {
       "id": "G1",
@@ -336,7 +351,8 @@
         "rapporto": 16
       },
       "byte": 60154,
-      "stato_lavorazione": "Realizzato con Matplotlib in SVG e PNG, font Lexend con licenza OFL conservata. Assi, unità e punti di confronto ispezionati; nessun dato sperimentale inventato."
+      "stato_lavorazione": "Realizzato con Matplotlib in SVG e PNG, font Lexend con licenza OFL conservata. Assi, unità e punti di confronto ispezionati; nessun dato sperimentale inventato.",
+      "copia_html": "potenza-temperatura.svg"
     }
   ]
 }
