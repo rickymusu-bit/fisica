@@ -4,7 +4,7 @@ Aggiornamento: 17/10/2026 19:53 (Europe/Rome).
 
 ## Preferenza permanente — anteprima del sito
 
-Richiesta esplicita dell’utente: fornire sempre l’anteprima dopo ogni modifica al sito. Regola registrata nel master v53, sezione B5: anteprima HTML interattiva e immagini delle parti modificate, con vista mobile quando pertinente, prima della pubblicazione e senza una richiesta separata. Per la home v7 l’anteprima è stata preparata e consegnata; la PR #19 è ancora da integrare e pubblicare.
+Richiesta esplicita dell’utente: fornire sempre l’anteprima dopo ogni modifica al sito. Regola registrata nel master v53, sezione B5: anteprima HTML interattiva e immagini delle parti modificate, con vista mobile quando pertinente, prima della pubblicazione e senza una richiesta separata. Per la home v7 l’anteprima è stata preparata e consegnata; l’utente ha autorizzato esplicitamente la pubblicazione della PR #19 con «Ok pubblica».
 
 ## Revisione corrente — home italiana v7
 
@@ -12,7 +12,7 @@ Correzione richiesta: Marco Polo è una piattaforma petrolifera offshore, non un
 
 Verifiche completate: build con dieci HTML italiani e venti copertine; Chromium a 320, 390, 768, 1024 e 1440 px; apertura da tastiera, focus, chiusura con tutti e tre i metodi, ritorno al comando, ancore dirette, download confrontato byte per byte e dimensioni dei nove file; nessun overflow o errore JavaScript; fallback senza JavaScript. Controllati visivamente pannello mobile e desktop. Manifest e dati della home coerenti per Marco Polo; immagine, crediti e licenza conservati. README aggiornato.
 
-Fase: modifiche completate e verificate nel ramo `home/copertina-marco-polo`, da integrare e pubblicare. La pubblicazione precedente della v6 è conclusa con successo (PR #18, workflow 39055028249).
+Fase: modifiche completate e verificate nel ramo `home/copertina-marco-polo`; anteprima consegnata e pubblicazione autorizzata dall’utente con «Ok pubblica». Integrare la PR #19 e verificare il workflow Pages e la home online. La pubblicazione precedente della v6 è conclusa con successo (PR #18, workflow 39055028249).
 
 ## Revisione precedente — home italiana v6
 
