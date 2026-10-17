@@ -1,6 +1,8 @@
 # Passaggi di stato
 
-[COPERTINA C2 — Condensa su una bottiglia fredda, o altra trasformazione riconoscibile concordata. Nuova fotografia da fornire; non riutilizzare la figura interna P5.]
+[COPERTINA C2 — Foto scelta “Molten Metal”: `risorse/copertina.jpg`, uso esclusivo in copertina. Mantenere l’intera fotografia e le proporzioni, senza ritaglio, alterazioni o testo sovrapposto; licenza CC BY-NC-ND 2.0. Attribuzione separata nei crediti.]
+
+Didascalia copertina: Metallo fuso durante una colata: allo stato liquido il materiale può scorrere ed essere versato.
 
 I cubetti lasciati in un bicchiere diventano più piccoli e, al loro posto, compare acqua liquida. Non è comparsa una sostanza nuova: il ghiaccio e il liquido sono entrambi acqua. Eppure il materiale ha perso la capacità di mantenere la forma. Che cosa cambia durante questa trasformazione, e che cosa fa l'energia ricevuta dall'ambiente?
 
@@ -102,9 +104,9 @@ Il valore per la vaporizzazione è molto maggiore di quello per la fusione: sepa
 
 Quando il sudore **evapora dalla pelle**, l'acqua riceve energia dalla pelle e dall'ambiente circostante per passare allo stato gassoso. L'energia sottratta alla pelle contribuisce al raffreddamento del corpo. Non basta dunque che il sudore sia presente: conta che evapori. Se l'aria è molto umida, l'evaporazione è ostacolata e questo meccanismo diventa meno efficace.
 
-[IMMAGINE A1 — Pelle con gocce di sudore, da fornire. Accanto al paragrafo, senza aggiungere valori numerici non concordati.]
+[IMMAGINE A1 — Foto scelta di Michael Jordan con sudore visibile: `risorse/sudore.jpg`; originale conservato in `risorse/originali/sudore.jpg`. Usare integralmente senza modifiche; credito richiesto «Lipofsky Basketballphoto.com» nei crediti, non nella didascalia.]
 
-Didascalia: Evaporando, l'acqua sulla pelle assorbe energia e contribuisce al raffreddamento del corpo.
+Didascalia: Il sudore è visibile sulla pelle di Michael Jordan. Quando evapora, assorbe energia e contribuisce al raffreddamento del corpo.
 
 In un **frigorifero**, il fluido refrigerante evapora nell'evaporatore, a bassa temperatura, assorbendo energia dall'interno. Nel condensatore, posto verso l'ambiente esterno, condensa e cede energia alla stanza. Un compressore, alimentato elettricamente, mantiene le condizioni necessarie al ciclo: il calore non viene trasferito dal freddo al caldo senza un apporto di lavoro. La pompa di calore usa lo stesso principio; nel riscaldamento dell'abitazione interessa soprattutto l'energia ceduta dal refrigerante quando condensa all'interno.
 

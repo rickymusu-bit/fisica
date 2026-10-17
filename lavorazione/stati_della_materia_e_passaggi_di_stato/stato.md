@@ -63,3 +63,7 @@ Ultima istruzione dell’utente: **«Mantieni le simulazioni degli stati microsc
 ## Foto del vetro sostituita
 
 M2 ora è la tartaruga di vetro di Murano scelta dall’utente, originale 2121 × 1414 px: acquisita e verificata con fonte, autore e licenza, registro e didascalia aggiornati. Risolta la limitazione di risoluzione della foto precedente. Tutti i visuali di Stati della materia restano disponibili; le simulazioni microscopiche sono conservate.
+
+## Nuove immagini di Passaggi di stato
+
+C2 (metallo fuso) e A1 (sudore/Michael Jordan) fornite dall’utente, acquisite, ispezionate e registrate con fonte e licenza. Bozza e didascalie aggiornate. [Registro corrente](../passaggi_di_stato/visuali.md). Copertina con CC BY-NC-ND 2.0 da mantenere integra per l’uso non commerciale; credito specifico Jordan registrato. Restano A2–A3 ed E1–E2, con priorità al riuso dei materiali già disponibili. Nessuna modifica al sito.

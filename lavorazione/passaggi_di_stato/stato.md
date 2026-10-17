@@ -1,6 +1,6 @@
 # Stato — Passaggi di stato
 
-Ultimo aggiornamento: 2026-10-17 21:42 (Europe/Rome). Master v53; letti integralmente master, stato della fonte e riferimenti `STILE_DISPENSE.md` ed `esempio_irraggiamento.md`.
+Ultimo aggiornamento: 2026-10-17 22:39 (Europe/Rome). Master v53; letti integralmente master, stato della fonte e riferimenti `STILE_DISPENSE.md` ed `esempio_irraggiamento.md`.
 
 ## Ambito e origine
 
@@ -14,9 +14,9 @@ L'utente ha risposto **«Approvo»** alla proposta di due capitoli e al mantenim
 
 Fase: **bozza approvata dall’utente («Per i passaggi di stato va tutto bene»); nuovo schema P1 richiesto, realizzato e controllato**. [Testo corrente](bozza.md), italiano, con segnaposto e didascalie. Domanda centrale: «Che cosa cambia durante questa trasformazione, e che cosa fa l'energia ricevuta dall'ambiente?».
 
-Visuali: C2 da fornire; P1 sostituito su richiesta da nuovo schema SVG a triangolo e variante mobile ([registro](risorse/schema-passaggi.md)); P2–P8: immagini originali 6–12; P9: curva qualitativa esistente adattata; confronto evaporazione/ebollizione in tabella; P12: tabella dei calori latenti; A1–A3 ed E1–E2 da fornire o verificare come indicato nella proposta.
+Visuali: C2 acquisita (metallo fuso), A1 acquisita (sudore/Jordan); P1 sostituito su richiesta da nuovo schema SVG a triangolo e variante mobile ([registro](risorse/schema-passaggi.md)); P2–P8: immagini originali 6–12; P9: curva qualitativa esistente adattata; confronto evaporazione/ebollizione in tabella; P12: tabella dei calori latenti; A2–A3 ed E1–E2 da fornire o verificare come indicato nella proposta.
 
-Simulazioni: nessuna nuova simulazione prevista per questo capitolo. Per Stati della materia la ricerca e scelta delle GIF sono ora curate dall’utente («Cerco io»), secondo il relativo stato.
+Simulazioni: nessuna nuova simulazione prevista per questo capitolo. Per Stati della materia si conservano le tre simulazioni microscopiche originali per ultima istruzione dell’utente, secondo il relativo stato.
 
 Approvazione successiva: «Per i passaggi di stato va tutto bene, ma crea tu uno schema simile a quello con le frecce». Registrata approvazione del testo e richiesta esplicita di ricostruire P1. La restrizione precedente a non ricostruire la mappa è superata da questa richiesta. Non sono attestati come ricevuti i file ancora mancanti né dedotto il via alla realizzazione completa degli HTML.
 
@@ -28,4 +28,10 @@ Nessun HTML nuovo realizzato e nessuna prova browser dichiarata. La v8 ufficiale
 
 Schema P1: sei trasformazioni e frecce verificate, versioni ampia e verticale ispezionate in anteprima. Entrambi gli SVG hanno titolo e descrizione accessibili. Nessuna verifica browser dell’HTML definitivo dichiarata.
 
-Prossima operazione: mostrare lo schema creato; acquisire i file visuali mancanti (C2, A1–A3, E1–E2 se non riutilizzabili), aggiornare la stima e raccogliere il via alla realizzazione completa secondo B1.1–B2; poi impaginare, verificare e salvare l'HTML autonomo `passaggi_di_stato.html`, con navigazione e compatibilità dei vecchi collegamenti.
+Prossima operazione: mostrare lo schema creato; acquisire i file visuali mancanti (A2–A3, E1–E2 se non riutilizzabili), aggiornare la stima e raccogliere il via alla realizzazione completa secondo B1.1–B2; poi impaginare, verificare e salvare l'HTML autonomo `passaggi_di_stato.html`, con navigazione e compatibilità dei vecchi collegamenti.
+
+## Copertina e sudore scelti dall’utente
+
+Acquisite e ispezionate C2 e A1; [registro visuali corrente](visuali.md), fonti e hash in `risorse/materiali-scelti.json`. Copertina Flickr “Molten Metal”, Rajesh_India, CC BY-NC-ND 2.0: copertura non commerciale, immagine intera e non modificata, attribuzione e link da mantenere. Foto Jordan: Steve Lipofsky, CC BY-SA 3.0, credito obbligatorio «Lipofsky Basketballphoto.com». Originale Commons conservato. File decodificati e verificati, senza ritagli o compressione.
+
+Bozza aggiornata con file scelti e didascalie pertinenti. Le precedenti richieste di C2 e A1 sono soddisfatte; restano A2, A3 e schemi E1–E2 da realizzare con immagini idonee. Nessun nuovo esperimento o dato numerico introdotto. Nessuna pubblicazione o nuovo HTML realizzato.
