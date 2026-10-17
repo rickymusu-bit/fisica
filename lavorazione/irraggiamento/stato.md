@@ -50,3 +50,17 @@ Proposta da discutere, non ancora approvata:
 Visuali proposte per funzione, da concordare prima della bozza: copertina solare distinta dalle immagini interne; immagine Sole–Terra per il vuoto; termografia per emissione invisibile; grafico della potenza in funzione della temperatura a parità di area ed emissività; schema degli scambi tra corpo e ambiente. L’utente sceglie e fornisce le immagini secondo C2; nessuna ricerca o generazione avviata. Eventuali grafici o schemi saranno realizzati soltanto nelle fasi autorizzate e secondo le regole sugli oggetti negli schemi.
 
 Prossimo passaggio: discutere perimetro e visuali, raccogliere immagini ed eventuali idee dell’utente per animazioni o simulazioni, poi preparare la bozza completa con segnaposto e domande finali. Nessun nuovo HTML didattico realizzato.
+
+## Applicazioni richieste
+
+17 ottobre 2026, ore 05:31 (Europe/Rome). L’utente sceglie tre applicazioni: forno grill o tostapane con resistenza elettrica incandescente e cottura senza contatto; termocamere; isolamento con superfici riflettenti. Le applicazioni sono ora esplicitamente richieste e vanno sviluppate dopo la teoria e prima delle domande finali. Nessun esercizio svolto o simulazione richiesto.
+
+Per la prima applicazione l’assistente propone di usare il tostapane come esempio rappresentativo dell’alternativa indicata dall’utente, senza richiedere una seconda approvazione dello stesso ambito. Ragionamento: conversione dell’energia elettrica in energia interna della resistenza, emissione e assorbimento della radiazione da parte del pane; spiegare che l’irraggiamento agisce senza contatto, riconoscendo una volta il contributo dell’aria calda, senza attribuire tutta la cottura al solo irraggiamento.
+
+Termocamera: rilevazione dell’infrarosso proveniente dalle superfici e rappresentazione in falsi colori; lettura della scala e ruolo dell’emissività nella stima della temperatura. Evitare di presentarla come una misura diretta della temperatura interna o dell’aria.
+
+Isolamento riflettente: bassa emissività e alta riflettività nell’infrarosso di una superficie metallica lucida, riduzione dello scambio radiativo attraverso un’intercapedine; distinguere questo effetto dall’isolamento per conduzione.
+
+Visuali per le applicazioni, proposte ma non ancora fornite o scelte: A1, foto del tostapane con pane e resistenze visibili, per mostrare la separazione fra sorgente e alimento; A2, termografia con scala delle temperature e possibilmente foto visibile della stessa scena, per leggere la rappresentazione; A3, foto o sezione di isolamento riflettente che mostri superficie lucida e intercapedine, per collegare il materiale al meccanismo. A2 può essere condivisa con i paragrafi teorici pertinenti se collocazione e comprensione restano efficaci. L’utente cerca e fornisce i file secondo C2. Nessuna ricerca o generazione avviata; grafici e visuali definitive ancora da concordare prima della bozza.
+
+Prossima operazione: presentare la funzione delle tre applicazioni e chiedere i materiali visuali specifici; poi completare la progettazione delle visuali e preparare la bozza con segnaposto.
