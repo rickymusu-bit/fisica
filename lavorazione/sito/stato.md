@@ -1,10 +1,14 @@
 # Stato — Home e GitHub Pages
 
-Aggiornamento: 17/10/2026 19:41 (Europe/Rome).
+Aggiornamento: 17/10/2026 19:53 (Europe/Rome).
 
 ## Revisione corrente — home italiana v7
 
-Correzione richiesta: Marco Polo è una piattaforma petrolifera offshore, non una nave. Aggiornati didascalia, testo alternativo e titolo interno nel manifest e nei dati della home. Fotografia, crediti e licenza conservati. Versione dell’output aggiornata a v7. Proposta di navigazione presentata: pannello laterale apribile da “Articoli”, con varianti barra fissa su desktop o elenco a scomparsa; scelta dell’utente ancora in attesa, nessuna modifica alla navigazione eseguita.
+Correzione richiesta: Marco Polo è una piattaforma petrolifera offshore, non una nave. Aggiornati didascalia, testo alternativo e titolo interno nel manifest e nei dati della home. Fotografia, crediti e licenza conservati. Versione dell’output aggiornata a v7. L’utente ha scelto esplicitamente «Pannello laterale apribile da Articoli». Realizzato un dialog nativo laterale: comando Articoli in alto a sinistra, Italiano in alto a destra, rimosso Esplora e il suo blocco inferiore. Elenco raggruppato con download e dimensioni reali; chiusura con ×, Esc o clic sullo sfondo. Focus confinato nel dialog e restituito al comando alla chiusura, scorrimento della pagina bloccato durante l’apertura, supporto alle ancore già pubblicate. Senza JavaScript il catalogo è visibile in pagina.
+
+Verifiche completate: build con dieci HTML italiani e venti copertine; Chromium a 320, 390, 768, 1024 e 1440 px; apertura da tastiera, focus, chiusura con tutti e tre i metodi, ritorno al comando, ancore dirette, download confrontato byte per byte e dimensioni dei nove file; nessun overflow o errore JavaScript; fallback senza JavaScript. Controllati visivamente pannello mobile e desktop. Manifest e dati della home coerenti per Marco Polo; immagine, crediti e licenza conservati. README aggiornato.
+
+Fase: modifiche completate e verificate nel ramo `home/copertina-marco-polo`, da integrare e pubblicare. La pubblicazione precedente della v6 è conclusa con successo (PR #18, workflow 39055028249).
 
 ## Revisione precedente — home italiana v6
 
