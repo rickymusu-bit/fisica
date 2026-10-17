@@ -1,5 +1,5 @@
 {
-  "aggiornamento": "17 ottobre 2026, ore 12:37 (Europe/Rome)",
+  "aggiornamento": "17 ottobre 2026, ore 12:49 (Europe/Rome)",
   "materiali": [
     {
       "id": "C1",
@@ -246,7 +246,9 @@
       "versione_modificata": null,
       "intervento_richiesto": "Usare l’animazione e spiegare che una parte della radiazione solare viene riflessa verso lo spazio; distinguere questo fenomeno dall’assorbimento e riemissione dell’infrarosso da parte dell’atmosfera, anche verso la superficie terrestre.",
       "didascalia_approvata": "Una parte della radiazione solare viene riflessa verso lo spazio; quella assorbita riscalda la superficie terrestre, che emette radiazione infrarossa. L’atmosfera assorbe e riemette parte dell’infrarosso anche verso la superficie, mentre altra energia raggiunge lo spazio.",
-      "approvazione_didascalia": "17 ottobre 2026, ore 12:25 (Europe/Rome), risposta «Ok» dell’utente"
+      "approvazione_didascalia": "17 ottobre 2026, ore 12:25 (Europe/Rome), risposta «Ok» dell’utente",
+      "collocazione_concordata": "Teoria: Emettere energia non significa soltanto perderla, per spiegare la potenza netta per irraggiamento. Richiesta esplicita dell’utente.",
+      "sostituisce_visuale_proposta": "S1, schema del cubo con scambi nei due versi, non ancora realizzato. La GIF non viene duplicata nell’applicazione sull’effetto serra."
     },
     {
       "id": "A1",
@@ -267,6 +269,26 @@
       ],
       "byte": 85399,
       "sha256": "f0557ef2d83d5a0d1da8caca738685a7c09b5813a2eb15418fd13e16aa1f4cb7"
+    },
+    {
+      "id": "T7",
+      "soggetto": "Assorbimento, riflessione e trasmissione della radiazione",
+      "url_originale_fornito": "https://www.concepts-of-physics.com/thermodynamics/media/kirchhoffs-law.png",
+      "pagina_fonte": "https://www.concepts-of-physics.com/thermodynamics/kirchhoffs-law.php",
+      "scelta": "Fornita e scelta dall’utente per spiegare la radiazione trasmessa o riflessa",
+      "intervento_richiesto": "Inserire nella teoria vicino alla spiegazione di assorbimento, riflessione e trasmissione. Previste etichette italiane nella realizzazione della versione italiana, mantenendo lettere a, r, t, struttura e frecce.",
+      "file_locale": "assorbimento-riflessione-trasmissione-originale.png",
+      "dimensioni_px": [
+        960,
+        328
+      ],
+      "byte": 85715,
+      "sha256": "272304b2c87e868e485cd177a4202d9f5df27e12879964db3a85b22fe05961bf",
+      "stato_lavorazione": "Originale recuperato e ispezionato; traduzioni da eseguire nella realizzazione",
+      "autore": null,
+      "licenza": null,
+      "stato_diritti": "Fonte recuperata; autore/licenza di riuso dell’immagine da verificare prima della consegna finale",
+      "versione_modificata": null
     }
   ]
 }

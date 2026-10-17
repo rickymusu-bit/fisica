@@ -24,6 +24,10 @@ Il trasporto avviene attraverso la **radiazione elettromagnetica**, di cui fa pa
 
 La radiazione che colpisce un corpo non viene necessariamente assorbita tutta. Una parte può essere riflessa e, se il materiale lo permette, una parte può attraversarlo. È la frazione assorbita a fornire energia al corpo. Per capire come si riscalda, quindi, non basta sapere quanta radiazione arriva: conta anche come la superficie interagisce con essa.
 
+[IMMAGINE T7 — Assorbimento, riflessione e trasmissione; figura scelta da Concepts of Physics. Etichette italiane «Radiazione incidente», «Radiazione assorbita (a)», «Radiazione trasmessa (t)», «Radiazione riflessa (r)», «Corpo». Conservare struttura e direzioni delle frecce.]
+
+*La radiazione incidente si divide in una parte assorbita dal corpo, una riflessa e una trasmessa attraverso il materiale. Le lettere a, r e t indicano le rispettive frazioni: insieme rappresentano tutta la radiazione incidente. La ripartizione dipende dal materiale e dalla lunghezza d’onda.*
+
 ## La radiazione che non vediamo
 
 La luce visibile occupa soltanto una piccola parte dello **spettro elettromagnetico**, l’insieme delle radiazioni elettromagnetiche. Le diverse regioni si distinguono per la lunghezza d’onda e la frequenza: onde più lunghe corrispondono a frequenze più basse. Subito oltre il rosso del visibile si trova l’**infrarosso**, che ha lunghezze d’onda maggiori e non è percepito dai nostri occhi. Anche questa radiazione trasporta energia e può riscaldare ciò che la assorbe.
@@ -82,11 +86,21 @@ Passare da 300 K a 600 K rende quindi la potenza emessa sedici volte maggiore, m
 
 Un corpo che emette radiazione può anche riceverne dall’ambiente. Per capire se perde o acquista energia per irraggiamento bisogna confrontare ciò che emette con ciò che assorbe. Due corpi alla stessa temperatura continuano a scambiarsi radiazione: nell’equilibrio radiativo gli scambi si compensano. Il bilancio nullo non significa che lo scambio si sia fermato.
 
-[SCHEMA S1 — Il cubo di Leslie, ricavato dalla fotografia già scelta, e le superfici circostanti; frecce nei due versi per energia emessa e assorbita. Etichette T e T_amb in kelvin; nessun dato numerico inventato.]
+La potenza netta ceduta per irraggiamento è la differenza fra la potenza emessa dal corpo e quella che il corpo assorbe:
 
-*Il corpo emette e assorbe radiazione contemporaneamente. Lo scambio netto dipende dalla differenza tra i due contributi.*
+\[
+P_{\mathrm{netta}}=P_{\mathrm{emessa}}-P_{\mathrm{assorbita}}
+\]
 
-Per un corpo circondato da un ambiente ampio a temperatura uniforme, possiamo descrivere lo scambio con un modello semplificato che usa la stessa emissività efficace per emissione e assorbimento. La **potenza netta ceduta per irraggiamento** è:
+Il risultato è positivo quando il corpo cede più energia di quanta ne assorba per irraggiamento, negativo quando ne assorbe di più. Non basta quindi guardare quanto emette: un corpo può emettere continuamente radiazione e, nello stesso tempo, acquistare energia. La parte di radiazione incidente che viene riflessa o trasmessa non entra nella potenza assorbita.
+
+[ANIMAZIONE A4-animazione — GIF della Terra, scelta per spiegare la potenza netta per irraggiamento; comandi per fermare e riavviare il movimento nella versione finale. Sostituisce lo schema S1 precedentemente proposto.]
+
+*Una parte della radiazione solare viene riflessa verso lo spazio; quella assorbita riscalda la superficie terrestre, che emette radiazione infrarossa. L’atmosfera assorbe e riemette parte dell’infrarosso anche verso la superficie, mentre altra energia raggiunge lo spazio.*
+
+Nell’animazione la Terra riceve energia dal Sole e perde energia attraverso l’infrarosso che raggiunge lo spazio. Per il sistema terrestre nel suo insieme, il confronto va fatto tra radiazione solare assorbita e radiazione termica emessa verso lo spazio. Gli scambi fra superficie e atmosfera ridistribuiscono energia all’interno del sistema e non vanno contati come nuove entrate dall’esterno. Se le due potenze esterne si compensano, il bilancio radiativo complessivo è nullo; se la potenza assorbita supera quella emessa, il sistema accumula energia.
+
+La Terra mostra perché il bilancio è necessario, ma per ricavare una formula di calcolo semplice consideriamo ora un corpo circondato da un ambiente ampio a temperatura uniforme. Usiamo un modello in cui la stessa emissività efficace descrive emissione e assorbimento. La potenza netta ceduta diventa:
 
 \[
 P_{\mathrm{netta}}=\varepsilon\cdot\sigma\cdot A\cdot\left(T^4-T_{\mathrm{amb}}^4\right)
@@ -128,11 +142,7 @@ Il punto non è semplicemente aggiungere uno strato di metallo: conta come sono 
 
 ### L’effetto serra e il bilancio della Terra
 
-La Terra riceve energia dal Sole ed emette radiazione verso lo spazio. Una parte della radiazione solare è riflessa da nubi, atmosfera e superficie; la parte assorbita fornisce energia al sistema terrestre. La superficie riscaldata emette soprattutto nell’infrarosso. Alcuni gas dell’atmosfera, tra cui vapore acqueo e anidride carbonica, assorbono parte di questa radiazione e ne emettono a loro volta in diverse direzioni.
-
-[ANIMAZIONE A4-animazione — GIF fornita; comandi per fermare e riavviare il movimento nella versione finale.]
-
-*Una parte della radiazione solare viene riflessa verso lo spazio; quella assorbita riscalda la superficie terrestre, che emette radiazione infrarossa. L’atmosfera assorbe e riemette parte dell’infrarosso anche verso la superficie, mentre altra energia raggiunge lo spazio.*
+Nel bilancio terrestre conta anche quali radiazioni vengono assorbite dall’atmosfera. Alcuni gas, tra cui vapore acqueo e anidride carbonica, assorbono parte dell’infrarosso emesso dalla superficie e ne emettono a loro volta in diverse direzioni. La radiazione solare e quella emessa dalla Terra hanno distribuzioni di lunghezze d’onda diverse, quindi non interagiscono allo stesso modo con l’atmosfera. Questa differenza è essenziale per capire l’effetto serra.
 
 La radiazione emessa dall’atmosfera verso il basso contribuisce agli scambi energetici della superficie. Questo meccanismo è alla base dell’**effetto serra naturale**, che rende la superficie terrestre più calda rispetto a una Terra senza atmosfera capace di assorbire infrarossi, a parità di altre condizioni. Il ritorno dell’infrarosso non è una semplice riflessione su uno specchio: la radiazione viene assorbita e riemessa. Inoltre, una parte dell’energia continua a uscire verso lo spazio.
 
@@ -151,7 +161,7 @@ L’effetto serra naturale va distinto dal suo **rafforzamento**. Aumentare la c
 ## Domande di verifica
 
 1. Un rettile esposto al Sole riceve energia anche senza essere a contatto con una sorgente calda. Quale meccanismo lo permette? Perché la sola convezione non spiega l’arrivo dell’energia dal Sole?
-2. Vero o falso? «L’irraggiamento può avvenire soltanto se è presente aria». Motiva la risposta.
+2. Osserva lo schema di assorbimento, riflessione e trasmissione. Vero o falso? «Tutta la radiazione che raggiunge un corpo viene assorbita e contribuisce a riscaldarlo». Motiva la risposta distinguendo i tre percorsi.
 3. Nello spettro elettromagnetico, l’infrarosso ha lunghezze d’onda maggiori o minori rispetto al visibile? È percepito direttamente dai nostri occhi?
 4. Una parte della lava appare luminosa e una parte è scura. La parte scura ha necessariamente smesso di emettere radiazione termica? Spiega.
 5. Due superfici hanno la stessa area e la stessa temperatura, ma emissività differenti. Quale emette più potenza? Quali altre condizioni hai mantenuto fisse nel confronto?

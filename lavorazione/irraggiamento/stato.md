@@ -130,3 +130,13 @@ Le visuali ancora da realizzare sono descritte nella bozza come proposte concret
 Controlli della bozza: struttura monografica, contenuti richiesti, tutte le 12 visuali scelte con segnaposto più G1/S1, 15 domande sui soli contenuti trattati, formule e conversione della scala Fahrenheit verificate. Il fattore 16 discende dal raddoppio della temperatura assoluta, non Celsius; scambio netto con ambiente ampio a temperatura uniforme e assunzione sull’emissività spiegata.
 
 Fase corrente: bozza pronta da mostrare all’utente, non ancora approvata. Nessun nuovo HTML didattico, simulazione o traduzione definitiva realizzato. Prossimo passaggio: ricevere osservazioni e approvazione di testo, domande e proposte G1/S1, poi comunicare la stima ripartita e raccogliere il via alla realizzazione secondo B1.1–B2.
+
+## Revisione della bozza: interazione con i materiali e potenza netta
+
+17 ottobre 2026, ore 12:49 (Europe/Rome). L’utente fornisce `kirchhoffs-law.png` di Concepts of Physics per la spiegazione di radiazione trasmessa/riflessa e chiede di usare la GIF della Terra per spiegare la potenza netta. Originale T7 scaricato e ispezionato: 960 × 328 px, 85715 byte, conservato senza modifiche; pagina fonte recuperata, licenza da verificare. Etichette italiane previste nella realizzazione: radiazione incidente, assorbita (a), trasmessa (t), riflessa (r), corpo.
+
+Bozza aggiornata nei soli punti coinvolti: figura T7 e didascalia inserite dopo il paragrafo su assorbimento/riflessione/trasmissione; domanda 2 riferita alla nuova figura. GIF spostata nella teoria sulla potenza netta al posto dello schema proposto S1, che non serve più e non è stato realizzato. Didascalia approvata conservata identica; animazione presente una sola volta.
+
+Aggiunta la relazione generale P_netta = P_emessa − P_assorbita prima del modello con la differenza fra quarte potenze. La GIF introduce il confronto tra radiazione solare assorbita e infrarosso emesso verso lo spazio, distinguendo gli scambi interni superficie–atmosfera. Il passaggio al corpo in ambiente uniforme è dichiarato come un caso più semplice, evitando di applicare automaticamente quel modello al sistema Terra–atmosfera. Nell’applicazione sull’effetto serra mantenuti poster e ragionamento, rimossa la duplicazione della GIF e raccordato il testo.
+
+Controlli: 13 visuali scelte tutte richiamate nella bozza, più G1 da realizzare; 15 domande finali; GIF e didascalia presenti una sola volta; nessun riferimento residuo a S1 come visuale da realizzare. Bozza ancora in revisione, nessuna approvazione complessiva o via alla realizzazione dedotti dalla richiesta locale.
