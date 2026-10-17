@@ -41,3 +41,7 @@ Verifiche in `verifiche.json`: desktop 1440 px, mobile touch 390 px con e senza 
 ## Etichetta in una parola — v6
 
 17 ottobre 2026, ore 01:06 (Europe/Rome). L’utente precisa che l’etichetta deve essere una sola parola. Applicata «← Biblioteca» in alto e in fondo alla pagina; URL invariati. Master v57 e riferimento grafico allineati.
+
+## Approvazione del tema completo
+
+17 ottobre 2026, ore 05:26 (Europe/Rome). L’utente conferma: «Va bene. Questo è il tema grafico per tutti i capitoli. Ora torniamo a pianificare il contenuto». L’anteprima v6 diventa il riferimento grafico approvato per tutti i capitoli; comprende Lexend, indice laterale nativo e link «← Biblioteca». La scelta Mac per la home rimane valida. Approvazione grafica distinta da quella del contenuto del capitolo. Prossima attività nella lavorazione irraggiamento: progettazione dei contenuti e delle visuali.

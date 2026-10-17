@@ -5,7 +5,7 @@ Master: v57, A6.
 
 ## Scelta approvata
 
-L’utente ha indicato https://mac-template.webflow.io/ come template per tutti i capitoli e per la home del sito: «Questo tema è il riferimento». La scelta è permanente fino a una diversa indicazione esplicita. Non richiedere una nuova scelta per ogni capitolo.
+L’utente ha indicato https://mac-template.webflow.io/ come template per tutti i capitoli e per la home del sito: «Questo tema è il riferimento». La scelta è permanente fino a una diversa indicazione esplicita. Non richiedere una nuova scelta per ogni capitolo. L’utente ha poi approvato esplicitamente l’adattamento completo dell’anteprima v6 come tema per tutti i capitoli: Mac, Lexend, indice laterale nativo a scomparsa e collegamenti «← Biblioteca».
 
 ## Caratteristiche del riferimento
 
