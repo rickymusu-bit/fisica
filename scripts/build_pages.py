@@ -3,6 +3,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 import shutil
 from urllib.parse import unquote, urlsplit
+from home_covers import load_covers, render_covers
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "_site"
@@ -13,6 +14,7 @@ class Document(HTMLParser):
         super().__init__()
         self.language = None
         self.links = []
+        self.catalogue_links = set()
         self.ids = set()
 
     def handle_starttag(self, tag, attrs):
@@ -21,6 +23,8 @@ class Document(HTMLParser):
             self.language = attrs.get("lang")
         if tag == "a" and "href" in attrs:
             self.links.append(attrs["href"])
+            if {"read", "download"} & set(attrs.get("class", "").split()):
+                self.catalogue_links.add(attrs["href"])
         if "id" in attrs:
             self.ids.add(attrs["id"])
 
@@ -35,12 +39,16 @@ def read_document(path):
 
 def main():
     index = ROOT / "index.html"
+    covers = load_covers(ROOT)
     document = read_document(index)
     sources = {index}
     for link in document.links:
         url = urlsplit(link)
         if url.scheme or url.netloc:
-            raise ValueError(f"Il catalogo deve collegare materiali locali: {link}")
+            if link in document.catalogue_links:
+                raise ValueError(f"Il catalogo deve collegare materiali locali: {link}")
+            # Le fonti e le licenze delle fotografie sono collegamenti esterni.
+            continue
         if url.path in ("", "./"):
             if url.fragment and unquote(url.fragment) not in document.ids:
                 raise ValueError(f"Ancora assente dall'indice: {link}")
@@ -57,9 +65,18 @@ def main():
     for source in sorted(sources):
         target = OUTPUT / source.relative_to(ROOT)
         target.parent.mkdir(parents=True, exist_ok=True)
+        if source == index:
+            target.write_text(render_covers(source.read_text(encoding="utf-8"), covers), encoding="utf-8")
+        else:
+            shutil.copyfile(source, target)
+    for cover in covers:
+        source = ROOT / cover["src"]
+        target = OUTPUT / cover["src"]
+        target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(source, target)
+    shutil.copyfile(ROOT / "copertine" / "manifest.json", OUTPUT / "copertine" / "manifest.json")
     (OUTPUT / ".nojekyll").touch()
-    print(f"Preparati {len(sources)} HTML in italiano.")
+    print(f"Preparati {len(sources)} HTML in italiano e {len(covers)} copertine.")
 
 
 if __name__ == "__main__":
