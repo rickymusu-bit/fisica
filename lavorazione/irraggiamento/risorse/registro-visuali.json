@@ -1,5 +1,5 @@
 {
-  "aggiornamento": "17 ottobre 2026, ore 13:02 (Europe/Rome)",
+  "aggiornamento": "17 ottobre 2026, ore 13:07 (Europe/Rome)",
   "materiali": [
     {
       "id": "C1",
@@ -299,15 +299,20 @@
       "autore_originale": "Nicholas Stadie",
       "licenza": "CC BY-SA 3.0",
       "scelta": "Seconda copia con frecce richiesta esplicitamente dall’utente",
-      "modifica": "Revisionata secondo le indicazioni dell’utente: più frecce sinusoidali sottili, arancioni entranti e rosse uscenti, distribuite attorno a testa, dorso, fianchi e coda. Legenda compatta «Calore assorbito» / «Calore ceduto», senza grandi riquadri. Versione annotata ottenuta dalla fotografia mediante strumento di modifica immagini; originale conservato separatamente.",
+      "modifica": "Ultima revisione richiesta dall’utente: tre onde gialle entranti, più lunghe e spesse, con le punte staccate dal rettile; più onde rosse uscenti lungo la superficie esposta. Nessuna etichetta di flusso sulla foto: legenda nella fascia bianca sottostante. Sull’immagine le temperature «Lucertola: 30 °C» e «Ambiente: 20 °C»; legenda con indicazione «esempio ipotetico».",
       "dimensioni_px": [
         1448,
         1086
       ],
-      "byte": 2361037,
-      "sha256": "69569db1aaba837c5bfbba206082d029138c79d5400ccb51a637a92b02f0e34b",
-      "stato_lavorazione": "Revisionata e ispezionata: più frecce ondulate nei due versi lungo la superficie esposta; lunghezze qualitative, nessun dato inventato. Non attribuita una nuova approvazione dell’utente.",
-      "collocazione": "Teoria: Emettere energia non significa soltanto perderla. La prima foto resta nell’introduzione."
+      "byte": 2148796,
+      "sha256": "9d9543856b18e2659d596c2e8a026a10e7d8b104fe95c0b6205a12872d2b7604",
+      "stato_lavorazione": "Realizzata e ispezionata: tre frecce gialle staccate, onde rosse uscenti, legenda e temperature corrette. Nessun valore di potenza attribuito alla fotografia. Nuova approvazione dell’immagine non ancora ricevuta.",
+      "collocazione": "Teoria: Emettere energia non significa soltanto perderla. La prima foto resta nell’introduzione.",
+      "temperature": {
+        "lucertola_C": 30,
+        "ambiente_C": 20,
+        "natura": "Esempio ipotetico scelto esplicitamente dall’utente; non misure della fotografia"
+      }
     },
     {
       "id": "G1",

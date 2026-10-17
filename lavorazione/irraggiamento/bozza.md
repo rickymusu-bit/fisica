@@ -98,13 +98,15 @@ Il risultato è positivo quando il corpo cede più energia di quanta ne assorba 
 
 Torniamo al rettile esposto al Sole. Il suo corpo assorbe parte della radiazione solare e della radiazione proveniente dall’ambiente; nello stesso tempo emette radiazione infrarossa. Questi scambi avvengono sulla superficie esposta del corpo, non in due soli punti: testa, dorso, fianchi e coda partecipano al bilancio. Le frecce entranti rappresentano l’energia assorbita, mentre quelle uscenti rappresentano l’energia emessa. Anche mentre si riscalda, il rettile continua quindi a cedere energia per irraggiamento.
 
-[IMMAGINE T1-bilancio — Seconda copia della foto del rettile, con più frecce ondulate sottili entranti e uscenti, distribuite attorno alla superficie esposta di testa, dorso, fianchi e coda. Nessuna etichetta accanto alle singole frecce: significato spiegato in una legenda separata. Indicare sull’immagine la temperatura del rettile e quella dell’ambiente; valori da concordare, non ricavabili dalla fotografia. Originale introduttivo conservato senza frecce.]
+[IMMAGINE T1-bilancio — Seconda copia della foto del rettile: tre frecce ondulate gialle entranti, più lunghe e spesse e con le punte staccate dal corpo; più frecce ondulate rosse uscenti distribuite attorno alla superficie esposta di testa, dorso, fianchi e coda. Nessuna etichetta di flusso accanto alle singole frecce: significato spiegato nella legenda sotto la foto. Temperature dell’esempio ipotetico scelto dall’utente: lucertola 30 °C, ambiente 20 °C. Originale introduttivo conservato senza frecce.]
 
-![Rettile al Sole circondato da più frecce ondulate: quelle entranti rappresentano il calore assorbito, quelle uscenti il calore ceduto dalla superficie esposta.](risorse/rettile-bilancio.png)
+![Esempio ipotetico: lucertola a 30 °C e ambiente a 20 °C. Tre onde gialle staccate dal corpo rappresentano il calore assorbito; onde rosse uscenti rappresentano il calore ceduto. Legenda separata sotto la foto.](risorse/rettile-bilancio.png)
 
-*Le frecce distribuite attorno al rettile rappresentano gli scambi radiativi sulla superficie esposta: energia assorbita dal Sole e dall’ambiente, energia emessa soprattutto nell’infrarosso. Le loro dimensioni sono illustrative e non indicano quantità misurate. La differenza tra i due contributi complessivi determina il bilancio radiativo.*
+*Nell’esempio ipotetico assegniamo 30 °C alla lucertola e 20 °C all’ambiente: non sono temperature misurate nella fotografia. La legenda distingue le frecce entranti, per l’energia assorbita dal Sole e dall’ambiente, da quelle uscenti, per l’energia emessa soprattutto nell’infrarosso. Le frecce sono distribuite sulla superficie esposta e le loro dimensioni non indicano potenze misurate.*
 
 Se assorbe più energia di quanta ne emetta, il contributo radiativo tende a riscaldarlo; se ne emette di più, tende a raffreddarlo. Quando le due potenze sono uguali, il bilancio radiativo è nullo. La temperatura del rettile dipende però anche dagli scambi con aria e roccia: un bilancio radiativo nullo non basta, da solo, a garantire un bilancio termico complessivo nullo.
+
+Nell’esempio la lucertola è più calda dell’ambiente circostante e tende a cedergli energia attraverso lo scambio infrarosso. Può però continuare a ricevere energia dal Sole: le sole due temperature non bastano a stabilire il bilancio radiativo complessivo senza conoscere anche la radiazione solare assorbita.
 
 Per ricavare una formula di calcolo semplice consideriamo ora un corpo che scambia radiazione soltanto con un ambiente ampio a temperatura uniforme, senza un ulteriore contributo solare diretto. Usiamo un modello in cui la stessa emissività efficace descrive emissione e assorbimento. La potenza netta ceduta diventa:
 

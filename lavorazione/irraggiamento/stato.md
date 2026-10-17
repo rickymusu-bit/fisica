@@ -164,3 +164,11 @@ Bozza e descrizione accessibile aggiornate: scambio sulla superficie esposta, no
 ## Legenda e temperature: revisione in attesa dei valori
 
 17 ottobre 2026, ore 13:03 (Europe/Rome). L’utente chiede di non mettere etichette accanto alle frecce, usare una legenda e indicare sull’immagine la temperatura del rettile e dell’ambiente. Prevista legenda separata dal corpo annotato, mantenendo le frecce ondulate distribuite. Temperature non fornite né misurate nella foto: chiesti i valori, con opzioni esempio ipotetico 30 °C / 20 °C oppure soli simboli. Risposta ancora da ricevere; non attribuire alla fotografia temperature inventate e non aggiornare l’immagine con numeri prima della scelta. Segnaposto nella bozza aggiornato, file grafico non ancora sostituito.
+
+## Legenda, temperature e tre frecce gialle
+
+17 ottobre 2026, ore 13:07 (Europe/Rome). L’utente sceglie esplicitamente l’esempio ipotetico: lucertola 30 °C e ambiente 20 °C. L’attesa dei valori registrata sopra è risolta. Chiede poi di staccare le frecce arancioni dal corpo, colorarle di giallo e farne meno, più spesse e più lunghe. Interpretazione applicata alle frecce entranti: tre onde gialle, teste distanziate dalla pelle; mantenute più onde rosse uscenti.
+
+Versione di `rettile-bilancio.png` aggiornata con lo strumento di modifica immagini. Legenda separata nella fascia bianca sotto la foto, con voci «Calore assorbito» e «Calore ceduto»; nessuna etichetta di flusso accanto alle onde. Sulla foto compaiono «Lucertola: 30 °C» e «Ambiente: 20 °C»; la legenda specifica «esempio ipotetico». Ispezionata la correttezza delle scritte, il giallo delle tre onde entranti, le distanze delle punte e la presenza delle onde rosse distribuite. File 1448 × 1086 px, 2148796 byte. Originale introduttivo conservato separatamente.
+
+Bozza aggiornata con valori ipotetici, nuova descrizione accessibile e legenda. Il testo chiarisce che le sole temperature non determinano il bilancio radiativo sotto il Sole: occorre anche la potenza solare assorbita. Le dimensioni delle frecce non rappresentano misure. Nessun dato termometrico reale attribuito alla foto, nessuna potenza numerica inventata. Grafico G1 e GIF nella sezione effetto serra conservati.
