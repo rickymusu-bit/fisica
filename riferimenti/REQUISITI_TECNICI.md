@@ -1,8 +1,8 @@
 # Requisiti tecnici delle dispense
 
-Versione v1 — 17 ottobre 2026, ore 14:04 (Europe/Rome).
+Aggiornamento: 17 ottobre 2026, ore 14:07 (Europe/Rome).
 
-Fonte ufficiale per HTML autonomo, accessibilità tecnica, materiali, diritti, ottimizzazione, versioni e verifiche. Consolidata dal master v62. Contenuti: [contenuti e stile](CONTENUTI_E_STILE.md). Aspetto e interazione: [tema grafico](TEMA_GRAFICO.md). Procedura: [master](../MASTER_PROMPT.md).
+Fonte ufficiale per HTML autonomo, accessibilità tecnica, materiali, diritti, ottimizzazione, versioni e verifiche. Conserva i requisiti tecnici approvati. Contenuti: [contenuti e stile](CONTENUTI_E_STILE.md). Aspetto e interazione: [tema grafico](TEMA_GRAFICO.md). Procedura: [master](../MASTER_PROMPT.md).
 
 <a id="t1"></a>
 ## T1. Formato HTML, autonomia e lingue

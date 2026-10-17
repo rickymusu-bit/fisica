@@ -1,8 +1,8 @@
 # Tema grafico e interfaccia
 
-Versione v1 — 17 ottobre 2026, ore 14:04 (Europe/Rome).
+Aggiornamento: 17 ottobre 2026, ore 14:07 (Europe/Rome).
 
-Fonte ufficiale per aspetto e comportamento della pagina, comune alla home e ai capitoli. Consolidata dal riferimento grafico approvato e dalle regole del master v62. Contenuti: [contenuti e stile](CONTENUTI_E_STILE.md). Realizzazione tecnica: [requisiti tecnici](REQUISITI_TECNICI.md). Procedura e approvazioni: [master](../MASTER_PROMPT.md).
+Fonte ufficiale per aspetto e comportamento della pagina, comune alla home e ai capitoli. Conserva il riferimento grafico e le scelte di interfaccia approvati. Contenuti: [contenuti e stile](CONTENUTI_E_STILE.md). Realizzazione tecnica: [requisiti tecnici](REQUISITI_TECNICI.md). Procedura e approvazioni: [master](../MASTER_PROMPT.md).
 
 <a id="g1"></a>
 ## G1. Tema comune approvato

@@ -1,8 +1,8 @@
 # Contenuti e stile delle dispense
 
-Versione v1 — 17 ottobre 2026, ore 14:04 (Europe/Rome).
+Aggiornamento: 17 ottobre 2026, ore 14:07 (Europe/Rome).
 
-Fonte ufficiale per contenuti didattici e stile linguistico. Consolidata dalle regole del master v62 e dal riferimento linguistico v2, senza modificare le scelte approvate. Procedura e approvazioni: [master](../MASTER_PROMPT.md). Aspetto: [tema](TEMA_GRAFICO.md). Realizzazione e verifiche: [requisiti tecnici](REQUISITI_TECNICI.md).
+Fonte ufficiale per contenuti didattici e stile linguistico. Conserva le scelte didattiche e linguistiche approvate. Procedura e approvazioni: [master](../MASTER_PROMPT.md). Aspetto: [tema](TEMA_GRAFICO.md). Realizzazione e verifiche: [requisiti tecnici](REQUISITI_TECNICI.md).
 
 <a id="s1"></a>
 ## S1. Destinatari, obiettivo e priorità

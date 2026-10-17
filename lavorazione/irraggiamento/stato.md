@@ -1,12 +1,12 @@
 # Stato corrente — Irraggiamento
 
-Ultimo aggiornamento: 17 ottobre 2026, ore 14:02 (Europe/Rome).
+Ultimo aggiornamento: 17 ottobre 2026, ore 14:07 (Europe/Rome).
 
 ## Risultato e fase
 
 Capitolo italiano completato: [irraggiamento_it.html](../../irraggiamento_it.html), versione v3. Copia identica in [bozza.html](bozza.html); testo approvato in [bozza.md](bozza.md). Non è stata autorizzata l’unione in `main` o la pubblicazione del lavoro corrente. Le decisioni e le prove storiche sono recuperabili nella cronologia Git di questo stesso file.
 
-Documenti correnti: [master v63](../../MASTER_PROMPT.md), [contenuti e stile v1](../../riferimenti/CONTENUTI_E_STILE.md), [tema grafico v1](../../riferimenti/TEMA_GRAFICO.md), [requisiti tecnici v1](../../riferimenti/REQUISITI_TECNICI.md). Il riordino delle istruzioni non modifica la versione del capitolo.
+Documenti correnti: [master](../../MASTER_PROMPT.md), [contenuti e stile](../../riferimenti/CONTENUTI_E_STILE.md), [tema grafico](../../riferimenti/TEMA_GRAFICO.md), [requisiti tecnici](../../riferimenti/REQUISITI_TECNICI.md). Il riordino delle istruzioni non modifica la versione del capitolo.
 
 ## Argomento e confini approvati
 
