@@ -17,7 +17,7 @@
 @media(max-width:460px){.language-switch-label{width:100%;margin-bottom:.1rem}.language-switch button{flex:1 1 auto}}
 @media print{.language-switch{display:none}}
 </style>
-<meta name="date" content="2026-10-13"></head>
+<meta name="date" content="2026-10-18"></head>
 <body><main><header><div class="eyebrow">Physique · mesures expérimentales</div><h1>Peut-on se fier à une mesure ?</h1><p class="lead">Un chronomètre affiche 2,40 s. Si tu répètes l'essai, tu pourrais lire 2,37 s ou 2,43 s. L'instrument, son utilisation et les variations de l'essai influent sur le résultat : pour l'interpréter, il faut aussi connaître son incertitude.</p><p>Commençons par les instruments, distinguons les différents types d'erreurs, puis examinons cinq mesures simulées pour cette explication.</p></header>
 <nav aria-label="Index de la section"><ol><li><a href="#strumenti">Instruments et lecture</a></li><li><a href="#caratteristiche">Caractéristiques</a></li><li><a href="#errori">Types d'erreurs</a></li><li><a href="#incertezza">Mesures répétées et incertitude</a></li><li><a href="#confronto">Erreur et incertitude</a></li><li><a href="#domande">Questions</a></li></ol></nav>
 
@@ -48,6 +48,36 @@
 <p>La valeur absolue de l'erreur a la même unité que la mesure ; les erreurs relative et en pourcentage comparent l'écart à la valeur de référence. Ici, 0,10 s d'erreur absolue est légèrement supérieur à l'incertitude scolaire ±0,09 s : la dispersion n'a pas révélé tout le décalage. Il faut donc rechercher d'éventuels effets systématiques sans confondre erreur et incertitude.</p></section>
 
 <section id="domande"><h2>Questions de compréhension</h2><ol class="questions"><li>Quel avantage l'aiguille offre-t-elle lorsque la grandeur change ? Et l'affichage numérique ? Donne une limite de chacun.</li><li>Observe le dessin de parallaxe : où placer l'œil et pourquoi une lecture toujours oblique peut-elle produire un décalage systématique ?</li><li>Le voltmètre de la photo a une échelle de 0 à 15 V. Pourquoi ne pas l'utiliser pour une tension attendue de 40 V ?</li><li>Un thermomètre affiche des dixièmes de degré mais se stabilise lentement. Quelle caractéristique concerne les dixièmes et laquelle concerne le délai ?</li><li>Dans l'infographie des cibles, quel groupe est précis mais peu exact ? Explique avec « dispersion » et « référence ».</li><li>Calcule la moyenne et la demi-étendue du tableau ; explique ensuite pourquoi un affichage à 0,01 s ne suffit pas pour annoncer une incertitude de 0,01 s.</li><li>Sans valeur de référence, peux-tu calculer l'erreur réelle en pourcentage ? Peux-tu quand même estimer l'incertitude ? Explique.</li></ol></section>
-<footer>Version v4 · 13 octobre 2026</footer>
+<!-- resource-credits:start -->
+<style data-resource-credits>
+.credits-navigation{display:flex;flex-wrap:wrap;gap:12px 24px;max-width:940px;margin:20px auto;padding:0 20px;background:white;color:#080808;font:14px/1.6 Lexend,Arial,sans-serif}
+.credits-navigation a{display:inline-flex;align-items:center;min-height:44px}
+.resource-credits-dialog{color:#080808;background:#fff;border:3px solid #080808;padding:24px;width:min(900px,calc(100% - 24px));max-width:calc(100% - 24px);max-height:85vh;overflow:auto;font:16px/1.6 Lexend,Arial,sans-serif;overflow-wrap:anywhere}
+.resource-credits-dialog::backdrop{background:rgb(0 0 0 / .5)}
+.resource-credits-dialog:target:not([open]){display:block;position:relative;margin:24px auto}
+.resource-credits-dialog h2{font-size:26px;margin:24px 0 16px}.resource-credits-dialog li{margin-bottom:16px}.resource-credits-dialog pre{white-space:pre-wrap;overflow-wrap:anywhere;font:12px/1.5 monospace}.resource-credits-dialog .credits-close{display:inline-block;min-height:44px}
+</style>
+<nav class="credits-navigation" aria-label="Crediti e licenze"><a href="crediti.html#strumenti-errori-incertezza-fr" data-public-credits="https://rickymusu-bit.github.io/fisica/crediti.html#strumenti-errori-incertezza-fr">Crediti e licenze</a><a href="#crediti-autonomi" data-offline-credits>Crediti della copia autonoma</a></nav><dialog class="resource-credits-dialog" id="crediti-autonomi" aria-labelledby="crediti-autonomi-title"><a class="credits-close" href="#" data-close-credits>Chiudi</a><h2 id="crediti-autonomi-title">Crediti e licenze</h2><p>Instruments et erreurs de mesure</p><ul><li>Non sono presenti crediti grafici nel sorgente originale. La licenza delle risorse prive di documentazione resta da verificare.</li><li>Risorse senza attribuzione individuale associata: <ul><li>Pied à coulisse avec échelle principale et vernier</li><li>Schéma de trois points de vue de la même aiguille montrant l’erreur de parallaxe</li><li>Cadran d’un voltmètre analogique gradué de 0 à 15 volts</li><li>Balance de cuisine analogique avec plateau et aiguille sur cadran gradué</li><li>Stylet de sismographe au-dessus d’une trace ondulée sur papier gradué</li><li>Chronomètre numérique tenu en main affichant des centièmes de seconde</li><li>Quatre cibles A, B, C, D montrant différents degrés de dispersion et de décalage</li><li>Thermomètre numérique avec écran et capteur à la pointe</li><li>Balance de cuisine numérique affichant une masse en grammes</li></ul>Provenienza e diritti da verificare; nessuna licenza è dedotta.</li></ul></dialog>
+<script data-resource-credits>
+(() => {
+ const dialog=document.getElementById('crediti-autonomi');
+ const links=document.querySelectorAll('[data-offline-credits]');
+ let opener;
+ if(location.protocol==='file:')document.querySelectorAll('[data-public-credits]').forEach(link=>{
+  link.href=link.dataset.publicCredits;
+ });
+ links.forEach(link=>link.addEventListener('click',event=>{
+  if(typeof dialog.showModal!=='function')return;
+  event.preventDefault();opener=link;dialog.showModal();
+ }));
+ dialog.querySelector('[data-close-credits]').addEventListener('click',event=>{
+  if(!dialog.open)return;event.preventDefault();dialog.close();
+ });
+ dialog.addEventListener('close',()=>{if(opener)opener.focus();});
+})();
+</script>
+<!-- resource-credits:end -->
+<footer>Version v5 · 2026-10-18</footer>
 </main>
+
 </body></html>

@@ -71,7 +71,7 @@
 @media(max-width:460px){.language-switch-label{width:100%;margin-bottom:.1rem}.language-switch button{flex:1 1 auto}}
 @media print{.language-switch{display:none}}
 </style>
-<meta name="version" content="v7"><meta name="date" content="2026-10-13"><style>
+<meta name="version" content="v8"><meta name="date" content="2026-10-18"><style>
 /* Revisione editoriale: racconto continuo e attività separate in fondo. */
 .application{background:transparent!important;border:0!important;border-radius:0!important;padding:0!important;margin-block:2rem!important;box-shadow:none!important}
 .note,.callout{background:transparent!important;box-shadow:none!important;border-radius:0!important}
@@ -165,7 +165,37 @@ nav ol{padding-left:1.3rem} nav li{margin:.3rem 0}
     </ol>
   </section>
   <div class="site-return site-return-bottom"><a class="site-return-link" href="https://rickymusu-bit.github.io/fisica/#indice">← Indice dei materiali</a></div>
-<footer>Versione v7 · 16 ottobre 2026</footer></main>
+<!-- resource-credits:start -->
+<style data-resource-credits>
+.credits-navigation{display:flex;flex-wrap:wrap;gap:12px 24px;max-width:940px;margin:20px auto;padding:0 20px;background:white;color:#080808;font:14px/1.6 Lexend,Arial,sans-serif}
+.credits-navigation a{display:inline-flex;align-items:center;min-height:44px}
+.resource-credits-dialog{color:#080808;background:#fff;border:3px solid #080808;padding:24px;width:min(900px,calc(100% - 24px));max-width:calc(100% - 24px);max-height:85vh;overflow:auto;font:16px/1.6 Lexend,Arial,sans-serif;overflow-wrap:anywhere}
+.resource-credits-dialog::backdrop{background:rgb(0 0 0 / .5)}
+.resource-credits-dialog:target:not([open]){display:block;position:relative;margin:24px auto}
+.resource-credits-dialog h2{font-size:26px;margin:24px 0 16px}.resource-credits-dialog li{margin-bottom:16px}.resource-credits-dialog pre{white-space:pre-wrap;overflow-wrap:anywhere;font:12px/1.5 monospace}.resource-credits-dialog .credits-close{display:inline-block;min-height:44px}
+</style>
+<nav class="credits-navigation" aria-label="Crediti e licenze"><a href="crediti.html#metodo-scientifico-it" data-public-credits="https://rickymusu-bit.github.io/fisica/crediti.html#metodo-scientifico-it">Crediti e licenze</a><a href="#crediti-autonomi" data-offline-credits>Crediti della copia autonoma</a></nav><dialog class="resource-credits-dialog" id="crediti-autonomi" aria-labelledby="crediti-autonomi-title"><a class="credits-close" href="#" data-close-credits>Chiudi</a><h2 id="crediti-autonomi-title">Crediti e licenze</h2><p>Il metodo scientifico: misurare e mettere alla prova le ipotesi</p><ul><li>Non sono presenti crediti grafici nel sorgente originale. La licenza delle risorse prive di documentazione resta da verificare.</li><li>Risorse senza attribuzione individuale associata: <ul><li>Schema del metodo scientifico: osservazione, problema, ipotesi, previsione, esperimenti, risultati e conclusioni; dall’ipotesi non confermata si torna al problema, mentre quella confermata porta a ulteriori esperimenti, teoria e principio</li><li>Fotografia in bianco e nero di Karl Popper seduto e assorto nella lettura</li><li>Ritratto di Galileo Galilei con un piccolo cannocchiale in mano</li></ul>Provenienza e diritti da verificare; nessuna licenza è dedotta.</li></ul></dialog>
+<script data-resource-credits>
+(() => {
+ const dialog=document.getElementById('crediti-autonomi');
+ const links=document.querySelectorAll('[data-offline-credits]');
+ let opener;
+ if(location.protocol==='file:')document.querySelectorAll('[data-public-credits]').forEach(link=>{
+  link.href=link.dataset.publicCredits;
+ });
+ links.forEach(link=>link.addEventListener('click',event=>{
+  if(typeof dialog.showModal!=='function')return;
+  event.preventDefault();opener=link;dialog.showModal();
+ }));
+ dialog.querySelector('[data-close-credits]').addEventListener('click',event=>{
+  if(!dialog.open)return;event.preventDefault();dialog.close();
+ });
+ dialog.addEventListener('close',()=>{if(opener)opener.focus();});
+})();
+</script>
+<!-- resource-credits:end -->
+<footer>Versione v8 · 2026-10-18</footer></main>
+
 
 </body>
 </html>

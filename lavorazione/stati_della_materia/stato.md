@@ -1,5 +1,9 @@
 # Stato — Stati della materia
 
+## Centralizzazione dei crediti — 18 ottobre 2026
+
+Revisione circoscritta autorizzata dalla richiesta di migrare tutti gli articoli: `stati_della_materia.html` usa il registro unico `risorse/crediti.json`, la pagina «Crediti e licenze» e lo snapshot autonomo offline. Sezioni finali dei crediti rimosse dopo il controllo degli avvisi; contenuto scientifico, formule, immagini e script originali preservati. Master v60, tema v8. La stessa revisione dei crediti comprende le traduzioni esistenti del capitolo, senza tradurre i contenuti. Ramo `crediti/centralizzazione`; nessuna riammissione né pubblicazione. Le licenze non documentate restano da verificare nel rapporto `../sito/crediti-verifiche.json`.
+
 ## Navigazione breve e area tematica — 18 ottobre 2026
 
 **Pubblicato e verificato:** PR #28, merge `2983c6f653c7c6052ab2db126ab7c1c079487c9d`, workflow Pages `39114531184` riuscito; home e tre articoli HTTP 200 e identici byte per byte alla build verificata. Nessuna pubblicazione pendente.

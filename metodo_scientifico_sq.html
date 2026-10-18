@@ -71,7 +71,7 @@
 @media(max-width:460px){.language-switch-label{width:100%;margin-bottom:.1rem}.language-switch button{flex:1 1 auto}}
 @media print{.language-switch{display:none}}
 </style>
-<meta name="date" content="2026-10-13"></head>
+<meta name="date" content="2026-10-18"></head>
 <body>
 <main><header>
     <div class="eyebrow">Fizikë · metoda dhe matjet</div>
@@ -149,8 +149,38 @@
       <li>E vërtetë apo e gabuar? «Nëse dhjetë eksperimente përputhen me një hipotezë, ajo nuk mund të hidhet më poshtë.» Arsyeto përgjigjen.</li>
     </ol>
   </section>
-  <footer>Versioni v5 · 13 tetor 2026</footer>
+  <!-- resource-credits:start -->
+<style data-resource-credits>
+.credits-navigation{display:flex;flex-wrap:wrap;gap:12px 24px;max-width:940px;margin:20px auto;padding:0 20px;background:white;color:#080808;font:14px/1.6 Lexend,Arial,sans-serif}
+.credits-navigation a{display:inline-flex;align-items:center;min-height:44px}
+.resource-credits-dialog{color:#080808;background:#fff;border:3px solid #080808;padding:24px;width:min(900px,calc(100% - 24px));max-width:calc(100% - 24px);max-height:85vh;overflow:auto;font:16px/1.6 Lexend,Arial,sans-serif;overflow-wrap:anywhere}
+.resource-credits-dialog::backdrop{background:rgb(0 0 0 / .5)}
+.resource-credits-dialog:target:not([open]){display:block;position:relative;margin:24px auto}
+.resource-credits-dialog h2{font-size:26px;margin:24px 0 16px}.resource-credits-dialog li{margin-bottom:16px}.resource-credits-dialog pre{white-space:pre-wrap;overflow-wrap:anywhere;font:12px/1.5 monospace}.resource-credits-dialog .credits-close{display:inline-block;min-height:44px}
+</style>
+<nav class="credits-navigation" aria-label="Crediti e licenze"><a href="crediti.html#metodo-scientifico-sq" data-public-credits="https://rickymusu-bit.github.io/fisica/crediti.html#metodo-scientifico-sq">Crediti e licenze</a><a href="#crediti-autonomi" data-offline-credits>Crediti della copia autonoma</a></nav><dialog class="resource-credits-dialog" id="crediti-autonomi" aria-labelledby="crediti-autonomi-title"><a class="credits-close" href="#" data-close-credits>Chiudi</a><h2 id="crediti-autonomi-title">Crediti e licenze</h2><p>Metoda shkencore</p><ul><li>Non sono presenti crediti grafici nel sorgente originale. La licenza delle risorse prive di documentazione resta da verificare.</li><li>Risorse senza attribuzione individuale associata: <ul><li>Skemë e metodës shkencore: vëzhgim, problem, hipotezë, parashikim, eksperimente, rezultate dhe përfundime, me dy rrugë të mundshme</li><li>Foto bardh e zi e Karl Popper-it ulur duke lexuar</li><li>Portret i Galileo Galileit me një teleskop të vogël në dorë</li></ul>Provenienza e diritti da verificare; nessuna licenza è dedotta.</li></ul></dialog>
+<script data-resource-credits>
+(() => {
+ const dialog=document.getElementById('crediti-autonomi');
+ const links=document.querySelectorAll('[data-offline-credits]');
+ let opener;
+ if(location.protocol==='file:')document.querySelectorAll('[data-public-credits]').forEach(link=>{
+  link.href=link.dataset.publicCredits;
+ });
+ links.forEach(link=>link.addEventListener('click',event=>{
+  if(typeof dialog.showModal!=='function')return;
+  event.preventDefault();opener=link;dialog.showModal();
+ }));
+ dialog.querySelector('[data-close-credits]').addEventListener('click',event=>{
+  if(!dialog.open)return;event.preventDefault();dialog.close();
+ });
+ dialog.addEventListener('close',()=>{if(opener)opener.focus();});
+})();
+</script>
+<!-- resource-credits:end -->
+<footer>Versioni v6 · 2026-10-18</footer>
 </main>
+
 
 </body>
 </html>

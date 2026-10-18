@@ -3,6 +3,7 @@ from html import escape
 import json
 from pathlib import Path
 import re
+from credits import load_registry
 
 
 def load_covers(root):
@@ -12,7 +13,13 @@ def load_covers(root):
         raise ValueError("La raccolta delle copertine è vuota")
     ids = set()
     paths = set()
+    resources = {r['id']: r for r in load_registry()['resources']}
     for cover in covers:
+        resource = resources[cover['credit_id']]
+        # Compatibilità dei renderer: dati derivati, mai copiati nel manifest.
+        cover.update(credit=resource['author'], license=resource['license'],
+                     licenseUrl=resource['license_url'], source=resource['source'],
+                     originalTitle=resource['original_title'], changes=resource['changes'])
         for key in ("id", "src", "title", "caption", "alt", "credit", "license", "licenseUrl", "source", "originalTitle", "changes"):
             if not isinstance(cover.get(key), str) or not cover[key].strip():
                 raise ValueError(f"Dato della copertina assente: {key}")
@@ -45,15 +52,8 @@ def cover_figure(covers):
 
 
 def cover_credits(covers, ui):
-    lines = ['<details class="credits" id="crediti-copertine"><summary>' + escape(ui["credits"]) + '</summary>',
-             '<p id="cover-credit-current">' + escape(ui["prefix"] + ' ' + covers[0]["credit"] + '. ' + covers[0]["license"] + '.') + '</p>', '<ol class="cover-credits-list">']
-    for cover in covers:
-        e = lambda key: escape(cover[key], quote=True)
-        lines.append(f'<li id="credito-{e("id")}">'
-                     f'<a href="{e("source")}">{e("originalTitle")}</a> — {e("credit")}. '
-                     f'<a href="{e("licenseUrl")}">{e("license")}</a>. {e("changes")}</li>')
-    lines.extend(['</ol>', '</details>'])
-    return '\n'.join(lines)
+    # Le attribuzioni provengono dal registro unico e dal componente autonomo.
+    return ''
 
 
 def render_covers(html, covers, ui=None):
