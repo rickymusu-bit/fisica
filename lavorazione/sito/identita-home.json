@@ -1,0 +1,27 @@
+{
+  "versione_home": "v11",
+  "titolo": "Materia Oscura",
+  "sottotitolo": "Guida pratica per fare luce sulla Fisica",
+  "etichetta_area_tematica_visibile": false,
+  "viste": [
+    {
+      "larghezza": 320,
+      "titolo_sottotitolo_metadati_corretti": true,
+      "catalogo_funzionante": true,
+      "overflow": false
+    },
+    {
+      "larghezza": 390,
+      "titolo_sottotitolo_metadati_corretti": true,
+      "catalogo_funzionante": true,
+      "overflow": false
+    },
+    {
+      "larghezza": 1280,
+      "titolo_sottotitolo_metadati_corretti": true,
+      "catalogo_funzionante": true,
+      "overflow": false
+    }
+  ],
+  "tutti_gli_articoli_invariati": true
+}

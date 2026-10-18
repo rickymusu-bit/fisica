@@ -1,5 +1,13 @@
 # Stato — Home e GitHub Pages
 
+## Identità della home — 18 ottobre 2026
+
+Richiesta esplicita: titolo «Materia Oscura», sottotitolo «Guida pratica per fare luce sulla Fisica», nessuna etichetta visibile «Area tematica» nella home; salvare le scelte come regole. **Home corrente v11** (template v8). Aggiornati h1, titolo della pagina e metadati descrittivi; catalogo con il solo nome «Materia e calore». Rimossi markup e CSS dell’etichetta. Regole correnti in `riferimenti/TERMINOLOGIA_SITO.md` **v2**, richiamate in AGENTS; identità riportata anche nel README. Il nuovo nome è un’eccezione esplicita dell’utente rispetto al vecchio nome in A6 del master v59; nessun refactoring generale del master incluso in questa modifica circoscritta.
+
+Master v59 e stato letti integralmente. Ramo di lavorazione corrente `correzione/visuali-centrale`, derivato da main; nessuna modifica ai dieci sorgenti degli articoli rispetto all’inizio di questa richiesta. Centrale italiana e altre correzioni precedenti conservate. Build con home e tre articoli, nessun indirizzo dismesso ripristinato. Verifiche Chromium a 320/390/1280 px: titolo, sottotitolo, metadati, apertura/chiusura del catalogo e assenza di overflow; esiti in `identita-home.json`. Anteprima HTML `_site/index.html`; immagini aggiornate `anteprima-visuali/home-desktop.png`, `home-mobile.png`, `catalogo-desktop.png`, `catalogo-mobile.png`.
+
+**Stato:** modifiche completate e anteprima pronta. Nessuna nuova pubblicazione né unione in main. Le versioni pubblicate restano invariate. Prossimo passaggio: consegnare l’anteprima e il salvataggio GitHub.
+
 ## Area tematica e recupero dell’editing visuale — 18 ottobre 2026
 
 Gerarchia approvata con «Va bene»: **Area tematica → Articolo → Sezione**, salvata in `riferimenti/TERMINOLOGIA_SITO.md` e richiamata da AGENTS. Home generata **v10** (template v7): il gruppo «Materia e calore» ora esplicita «Area tematica»; comando «Articoli», tre contenuti e tema conservati. Dimensioni dei download ricalcolate dalla build. PWR tradotto nell’articolo Passaggi di stato **v16**, dopo proposta e approvazione dell’editing; confronto originale/derivato incluso. Inventario di revisione dei tre articoli in `revisione-visuali.md`. Successiva indicazione dell’utente: nessuna modifica alla termografia delle anatre; tradurre soltanto infografiche e schemi, senza estendere la regola alle scritte fotografiche. Regola salvata in AGENTS.
