@@ -2,6 +2,8 @@
 
 ## Navigazione breve e area tematica — 18 ottobre 2026
 
+**Pubblicato e verificato:** PR #28, merge `2983c6f653c7c6052ab2db126ab7c1c079487c9d`, workflow Pages `39114531184` riuscito; home e tre articoli HTTP 200 e identici byte per byte alla build verificata. Nessuna pubblicazione pendente.
+
 Controlli completati: 12 viste a 320/390/768/1280 px, ritorni al catalogo funzionanti, nessun overflow; anteprime HTML e immagini mobile/desktop consegnate prima della pubblicazione.
 
 Richiesta esplicita eseguita: due collegamenti «← Articoli» in ogni articolo e nome esatto dell’area tematica della home sopra il titolo («Materia e calore» per i tre attuali). Tema autonomo **v6** con segnaposto «Nome dell’area tematica»; regole operative in AGENTS e `riferimenti/TERMINOLOGIA_SITO.md` **v4**, che sostituiscono il precedente ritorno di A6 del master v59. Master conservato senza refactoring estraneo alla richiesta. Home generata **v14**, Stati della materia **v16**, Passaggi di stato **v18**, Irraggiamento **v9**. Sette articoli esclusi invariati. Report verifiche e pubblicazione: `navigazione-categorie.json`.
