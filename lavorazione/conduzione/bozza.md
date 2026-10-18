@@ -111,15 +111,6 @@ Se un oggetto metallico e uno di legno rimangono a lungo nella stessa stanza, po
 
 Didascalia: Il contatto con metallo molto freddo può sottrarre rapidamente energia alla pelle: non va imitato.
 
-### Dissipatore di un processore
-
-Un processore funzionante libera energia termica in una zona piccola. La base del dissipatore metallico riceve questa energia e la conduce verso molte alette sottili. Le alette aumentano la superficie a contatto con l’aria e favoriscono la dispersione; la ventola, quando presente, aumenta il ricambio d’aria. Il percorso completo combina dunque conduzione nel metallo e convezione verso l’aria.
-
-[IMMAGINE 13 — Il calore passa dal processore alla base e alle alette metalliche prima di essere ceduto all’aria.]
-
-Didascalia: Il calore passa dal processore alla base e alle alette metalliche prima di essere ceduto all’aria.
-
-
 ## Domande di verifica
 
 1. **Due stufette.** Due stufette trasferiscono la stessa energia. La seconda impiega il doppio del tempo della prima. Quale ha potenza maggiore? Perché?
@@ -144,9 +135,7 @@ Didascalia: Il calore passa dal processore alla base e alle alette metalliche pr
 
 11. **Parete più spessa.** Raddoppia lo spessore della parete dell'esercizio precedente mantenendo invariati gli altri dati. Calcola la nuova potenza dispersa e spiega la variazione.
 
-12. **Il dissipatore.** Perché il dissipatore usa metalli conduttori? A che cosa servono le alette? Il passaggio di energia dal dissipatore all'aria avviene esclusivamente per conduzione?
-
-13. **La neve dell'igloo.** Perché la neve può ridurre la dispersione termica anche se è molto fredda? Perché pareti più spesse isolano generalmente meglio?
+12. **La neve dell'igloo.** Perché la neve può ridurre la dispersione termica anche se è molto fredda? Perché pareti più spesse isolano generalmente meglio?
 
 ## Note
 

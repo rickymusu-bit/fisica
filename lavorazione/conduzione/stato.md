@@ -23,3 +23,9 @@ Questa indicazione approva la scelta strutturale specifica, non il testo rivisto
 ## Rimozione richiesta — 18 ottobre 2026, ore 13:17 (Europe/Rome)
 
 Rimosso dalla bozza di Conduzione l’intero esempio svolto sulle due stufette, compreso il successivo confronto delle energie in 1/2 h, i segnaposto degli schemi P-4/P-5 e il richiamo visuale P-1/P-2. Le due fotografie non sono più previste nella bozza; gli originali restano conservati nell’HTML sorgente e nella cronologia Git. Aggiornati proposta e inventario delle destinazioni. La breve sezione sulla potenza termica e tutti i 13 quesiti finali sono invariati. Nessun nuovo esercizio sostitutivo, HTML o pubblicazione. Modifica circoscritta autorizzata direttamente dall’utente; approvazione complessiva della bozza ancora da ricevere.
+
+## Rimozione del dissipatore — 18 ottobre 2026, ore 13:18 (Europe/Rome)
+
+Su richiesta esplicita rimosso il dissipatore dalla bozza di Conduzione: applicazione, figura IMMAGINE 13 (img-10 nell’inventario) e quesito dedicato. Il quesito successivo è rinumerato; restano 12 domande di Conduzione e 7 di Convezione. Il dissipatore resta spiegato e illustrato in Convezione. Nessun originale eliminato e nessun HTML modificato.
+
+Conteggio verificato: cinque casi applicativi in Conduzione (caffettiera, pareti, vetrocamera, igloo, metallo freddo), quattro con titolo e uno nel paragrafo sulle pareti; escluso il cucchiaio iniziale della teoria. In Convezione quattro applicazioni nella sezione dedicata, più il termosifone nella teoria. Proposta e mappa risorse aggiornate sul ramo; testo complessivo ancora da approvare, main e pubblicazione invariati.

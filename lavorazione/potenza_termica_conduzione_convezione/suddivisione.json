@@ -68,7 +68,9 @@
       "id": "img-10",
       "alt": "Dissipatore metallico alettato su scheda madre, sormontato da una ventola nera AMD",
       "sha256_src": "bfbad168d14cd95ddf9ae2770efc78f59c8b185416bff30bf79157dbb49c9a8c",
-      "destinazione": "conduzione"
+      "destinazione": null,
+      "stato": "esclusa dalla bozza di Conduzione; originale conservato",
+      "motivazione": "rimozione dissipatore richiesta 18 ottobre 2026 ore 13:18 Europe/Rome"
     },
     {
       "id": "img-11",
@@ -110,5 +112,9 @@
     "convezione_it.html"
   ],
   "decisione": "Potenza termica come breve sezione di Conduzione, richiesta 18 ottobre 2026 ore 13:12 Europe/Rome",
-  "esempio_stufette": "rimosso su richiesta; domande finali invariate"
+  "esempio_stufette": "rimosso su richiesta; domande finali invariate",
+  "quesiti_previsti": {
+    "conduzione": 12,
+    "convezione": 7
+  }
 }

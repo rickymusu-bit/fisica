@@ -4,19 +4,19 @@
 
 | Capitolo e futuro percorso | Provenienza | Contenuti e risorse conservati | Domande |
 | --- | --- | --- | --- |
-| Conduzione · `conduzione_it.html` | `#potenza` + `#conduzione`, primi due gruppi di domande | Breve sezione sulla potenza termica; zuppa e cucchiaio; reticolo animato; tabella λ con tutti gli otto materiali; video con miniatura e URL esatti; Fourier; muro e grafico corretto; caffettiera, vetrocamera, igloo, metallo freddo, dissipatore. | 13 |
+| Conduzione · `conduzione_it.html` | `#potenza` + `#conduzione`, primi due gruppi di domande | Breve sezione sulla potenza termica; zuppa e cucchiaio; reticolo animato; tabella λ con tutti gli otto materiali; video con miniatura e URL esatti; Fourier; muro e grafico corretto; caffettiera, vetrocamera, igloo, metallo freddo. | 12 |
 | Convezione · `convezione_it.html` | `#convezione`, terzo gruppo di domande | Stanza, densità e gravità; meccanismo naturale e forzato; atmosfera e rotazione; mantello prevalentemente solido; ventola del processore; radiatore, pompa, termostato, alette e ramo dell’abitacolo. | 7 |
 
 ## Scelta strutturale ricevuta
 
-Il 18 ottobre 2026 alle 13:12 l’utente ha indicato di integrare la potenza termica come piccola sezione di Conduzione. La richiesta sostituisce la precedente pianificazione in tre capitoli, senza modificare il master e senza estendere questa scelta ad altri argomenti. La sezione introduce il significato di potenza e le due relazioni equivalenti prima di Fourier. Su successiva richiesta del 18 ottobre alle 13:17, l’esempio svolto delle due stufette è rimosso insieme ai suoi schemi e richiami visuali. I sei quesiti sulla potenza restano nei 13 finali di Conduzione. Non è previsto `potenza_termica_it.html` né una sua copertina. La scelta strutturale non approva automaticamente il nuovo testo o la realizzazione HTML.
+Il 18 ottobre 2026 alle 13:12 l’utente ha indicato di integrare la potenza termica come piccola sezione di Conduzione. La richiesta sostituisce la precedente pianificazione in tre capitoli, senza modificare il master e senza estendere questa scelta ad altri argomenti. La sezione introduce il significato di potenza e le due relazioni equivalenti prima di Fourier. Su successiva richiesta del 18 ottobre alle 13:17, l’esempio svolto delle due stufette è rimosso insieme ai suoi schemi e richiami visuali. I sei quesiti sulla potenza restano nei 12 finali di Conduzione. Non è previsto `potenza_termica_it.html` né una sua copertina. La scelta strutturale non approva automaticamente il nuovo testo o la realizzazione HTML.
 
 ## Bozze complete da esaminare
 
-- [Conduzione](../conduzione/bozza.md): apertura sul manico che si scalda; meccanismo microscopico; breve sezione su energia, potenza e durata prima di Fourier; applicazioni; 13 domande finali, senza esempio svolto sulle stufette.
+- [Conduzione](../conduzione/bozza.md): apertura sul manico che si scalda; meccanismo microscopico; breve sezione su energia, potenza e durata prima di Fourier; applicazioni; 12 domande finali, senza esempio svolto sulle stufette.
 - [Convezione](../convezione/bozza.md): apertura sull’aria sopra il termosifone; teoria naturale e forzata; applicazioni atmosferiche, geologiche e tecniche; domande finali. Nessuna legge di Newton aggiunta automaticamente, perché assente dalla fonte approvata.
 
-Le due fotografie distinte del dissipatore restano nei capitoli pertinenti: una illustra il percorso nel metallo, l’altra il passaggio all’aria mossa dalla ventola. Le applicazioni opzionali sono proposte per conservare quanto già presente. Nessun nuovo capitolo di meteorologia o geologia, nessun riepilogo automatico, nessuna soluzione alle domande.
+Su richiesta del 18 ottobre alle 13:18, il dissipatore è rimosso da Conduzione, insieme alla sua figura e al quesito dedicato. Resta trattato in Convezione, dove è già presente anche il quesito sul radiatore e sul processore. Le applicazioni opzionali sono proposte per conservare quanto già presente. Nessun nuovo capitolo di meteorologia o geologia, nessun riepilogo automatico, nessuna soluzione alle domande.
 
 ## Correzioni e adeguamenti proposti
 
@@ -24,7 +24,13 @@ Le due fotografie distinte del dissipatore restano nei capitoli pertinenti: una 
 - Specificare che P = Q/Δt indica la potenza media sull’intervallo. Distinguere potenza termica e potenza elettrica nominale con una nota breve.
 - Interpretare discorsivamente λ, area, spessore e differenza di temperatura; conservare il profilo lineare soltanto nello spessore e il ΔT = 30 K del grafico approvato.
 - Dare una base alla domanda esistente sul ventilatore: convezione ed evaporazione sono meccanismi diversi; l’aria mossa non è automaticamente più fredda. Nessun nuovo esercizio sul corpo umano.
-- Conservare le 20 richieste originali; eventuali riformulazioni in vero/falso motivati o scelta multipla richiedono approvazione della formulazione. Le bozze attuali mantengono il set storico, prevalentemente aperto.
+- Conservare le 19 richieste rimaste dopo la rimozione del quesito sul dissipatore da Conduzione; eventuali riformulazioni in vero/falso motivati o scelta multipla richiedono approvazione della formulazione. Le bozze attuali mantengono il set storico, prevalentemente aperto.
+
+## Applicazioni presenti dopo la rimozione del dissipatore
+
+In Conduzione restano cinque casi applicativi: caffettiera, isolamento delle pareti (paragrafo che richiama lo schema del muro), vetrocamera, igloo, metallo che sembra più freddo del legno. Quattro hanno un titolo dedicato; il caso delle pareti è sviluppato nel paragrafo seguente la caffettiera. Il cucchiaio nella zuppa resta la situazione iniziale della teoria, non un’ulteriore applicazione in questa sezione.
+
+In Convezione restano quattro applicazioni nella sezione dedicata: atmosfera, mantello, raffreddamento del processore, radiatore dell’automobile. Il termosifone è il caso iniziale della teoria; contando anche quello, i casi concreti sono cinque. «Conduzione e convezione lavorano insieme» collega processore e radiatore, senza introdurre una sesta applicazione.
 
 ## Visuali, interazioni e copertine
 
