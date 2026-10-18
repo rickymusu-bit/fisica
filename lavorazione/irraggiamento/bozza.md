@@ -1,6 +1,6 @@
 # Irraggiamento
 
-Bozza testuale corrente della v5; tema comune v3.
+Bozza testuale corrente della v6; tema comune v3.
 
 ## Perché i rettili prendono il sole?
 
@@ -16,7 +16,7 @@ Tra il Sole e la Terra ci sono in media circa 150 milioni di chilometri, quasi i
 
 Didascalia: La distanza media tra Terra e Sole è circa 150 milioni di chilometri. L’energia solare attraversa lo spazio sotto forma di radiazione elettromagnetica.
 
-Il trasporto avviene attraverso la **radiazione elettromagnetica**, di cui fa parte anche la luce visibile. La radiazione elettromagnetica può propagarsi anche nel vuoto: non ha bisogno dell’aria o di un altro materiale che la trasporti. Quando un corpo assorbe la radiazione che lo raggiunge, acquista energia e può riscaldarsi: questo trasferimento viene chiamato **irraggiamento**.[^nota-campi-elettromagnetici]
+Il trasporto avviene attraverso la **radiazione elettromagnetica**, di cui fa parte anche la luce visibile. La radiazione elettromagnetica può propagarsi anche nel vuoto: non ha bisogno dell’aria o di un altro materiale che la trasporti. Quando un corpo assorbe la radiazione che lo raggiunge, acquista energia e può riscaldarsi: questo trasferimento viene chiamato **irraggiamento**.
 
 [VISUALE visual-T6 — Onda elettromagnetica: campo elettrico e magnetico perpendicolari e lunghezza d’onda, con etichette italiane.]
 
@@ -30,7 +30,7 @@ Didascalia: La radiazione incidente si divide in una parte assorbita dal corpo, 
 
 ## La radiazione che non vediamo
 
-La luce visibile occupa soltanto una piccola parte dello **spettro elettromagnetico**, l’insieme delle radiazioni elettromagnetiche. Subito oltre il rosso del visibile si trova l’**infrarosso**, che ha lunghezze d’onda maggiori e non è percepito dai nostri occhi. Anche questa radiazione trasporta energia e può riscaldare ciò che la assorbe.[^nota-lunghezza-frequenza]
+La luce visibile occupa soltanto una piccola parte dello **spettro elettromagnetico**, l’insieme delle radiazioni elettromagnetiche. Subito oltre il rosso del visibile si trova l’**infrarosso**, che ha lunghezze d’onda maggiori e non è percepito dai nostri occhi. Anche questa radiazione trasporta energia e può riscaldare ciò che la assorbe.
 
 [VISUALE visual-T3 — Spettro elettromagnetico in italiano, dal radio ai raggi gamma, con il visibile accanto all’infrarosso.]
 
@@ -48,7 +48,7 @@ Didascalia: Le parti incandescenti della lava emettono anche luce visibile. La c
 
 La temperatura ha un ruolo decisivo nell’emissione, ma non è l’unico fattore. Contano anche l’estensione e le caratteristiche della superficie. Per confrontare emissioni diverse usiamo la **potenza emessa**, cioè l’energia irradiata ogni secondo, misurata in watt. Una potenza maggiore significa che la superficie emette più energia nello stesso intervallo di tempo.
 
-Per descrivere quanto efficacemente una superficie emette radiazione introduciamo l’**emissività**, indicata con la lettera greca ε, “epsilon”. È un numero compreso tra 0 e 1: quanto più è vicino a 1, tanto più la superficie emette a parità di temperatura. Una superficie metallica lucida ha generalmente un’emissività infrarossa bassa; la stessa superficie verniciata o ossidata può comportarsi in modo molto diverso.[^nota-corpo-nero]
+Per descrivere quanto efficacemente una superficie emette radiazione introduciamo l’**emissività**, indicata con la lettera greca ε, “epsilon”. È un numero compreso tra 0 e 1: quanto più è vicino a 1, tanto più la superficie emette a parità di temperatura. Una superficie metallica lucida ha generalmente un’emissività infrarossa bassa; la stessa superficie verniciata o ossidata può comportarsi in modo molto diverso.
 
 [VISUALE visual-T4 — Fotografie e termografie del cubo di Leslie: facce con finiture diverse e riflesso della mano sulla faccia lucida.]
 
@@ -100,7 +100,7 @@ Torniamo al rettile esposto al Sole. Il suo corpo assorbe parte della radiazione
 
 Didascalia: Nell’esempio ipotetico assegniamo 30 °C alla lucertola e 20 °C all’ambiente: non sono temperature misurate nella fotografia. La legenda distingue le frecce entranti, per l’energia assorbita dal Sole e dall’ambiente, da quelle uscenti, per l’energia emessa soprattutto nell’infrarosso. Le frecce sono distribuite sulla superficie esposta e le loro dimensioni non indicano potenze misurate.
 
-Se assorbe più energia di quanta ne emetta, il contributo radiativo tende a riscaldarlo; se ne emette di più, tende a raffreddarlo. Quando le due potenze sono uguali, il bilancio radiativo è nullo.[^nota-bilancio-termico][^nota-lucertola-sole]
+Se assorbe più energia di quanta ne emetta, il contributo radiativo tende a riscaldarlo; se ne emette di più, tende a raffreddarlo. Quando le due potenze sono uguali, il bilancio radiativo è nullo.
 
 Consideriamo ora un corpo che scambia radiazione con le superfici che lo circondano. La potenza netta ceduta può essere calcolata con questa relazione:[^nota-ipotesi-bilancio]
 
@@ -108,7 +108,7 @@ Consideriamo ora un corpo che scambia radiazione con le superfici che lo circond
 P_{netta} = ε\cdot σ\cdot A\cdot (T^{4} − T_{amb}^{4})
 \]
 
-Tamb è la temperatura delle superfici circostanti, anch’essa in kelvin. La differenza fra le quarte potenze rappresenta il bilancio tra emissione e assorbimento. Se il corpo è più caldo dell’ambiente, la potenza netta è positiva e il corpo cede energia. Se le temperature sono uguali, il risultato è zero; se l’ambiente è più caldo, il risultato è negativo e il corpo riceve più energia di quanta ne emetta per irraggiamento.[^nota-temperatura-ambiente]
+Tamb è la temperatura delle superfici circostanti, anch’essa in kelvin. La differenza fra le quarte potenze rappresenta il bilancio tra emissione e assorbimento. Se il corpo è più caldo dell’ambiente, la potenza netta è positiva e il corpo cede energia. Se le temperature sono uguali, il risultato è zero; se l’ambiente è più caldo, il risultato è negativo e il corpo riceve più energia di quanta ne emetta per irraggiamento.
 
 ## Applicazioni
 
@@ -120,7 +120,7 @@ Nel tostapane della fotografia le fette sono disposte accanto alle resistenze el
 
 Didascalia: Le resistenze incandescenti si trovano tra le fette. Il pane assorbe parte della radiazione emessa e si riscalda anche senza toccare le resistenze.
 
-Il riscaldamento favorisce la perdita di acqua e le trasformazioni che fanno dorare il pane. La fotografia permette però di riconoscere il trasferimento radiativo tra corpi separati. Lo stesso principio interviene nella cottura con il grill di un forno.[^nota-tostapane-aria]
+Il riscaldamento favorisce la perdita di acqua e le trasformazioni che fanno dorare il pane. La fotografia permette però di riconoscere il trasferimento radiativo tra corpi separati. Lo stesso principio interviene nella cottura con il grill di un forno.
 
 ### Le termocamere: vedere attraverso l’infrarosso
 
@@ -129,8 +129,6 @@ Una termocamera rileva radiazione infrarossa e la trasforma in un’immagine vis
 [VISUALE visual-A2 — Termografia di quattro anatre sull’acqua, con riflessi infrarossi e scala da 45 a 64 gradi Fahrenheit.]
 
 Didascalia: Le anatre si distinguono dall’acqua nella rappresentazione infrarossa; sotto di esse compaiono anche riflessi termici. La scala originale va da 45 °F a 64 °F, circa da 7 °C a 18 °C, e associa colori ai valori indicati dallo strumento.
-
-[^nota-lettura-termocamera]
 
 ### Rivestimenti riflettenti per controllare la temperatura
 
@@ -150,7 +148,7 @@ Nel bilancio terrestre conta anche quali radiazioni vengono assorbite dall’atm
 
 Didascalia: Una parte della radiazione solare viene riflessa verso lo spazio; quella assorbita riscalda la superficie terrestre, che emette radiazione infrarossa. L’atmosfera assorbe e riemette parte dell’infrarosso anche verso la superficie, mentre altra energia raggiunge lo spazio.
 
-La radiazione emessa dall’atmosfera verso il basso contribuisce agli scambi energetici della superficie. Questo meccanismo è alla base dell’**effetto serra naturale**, che rende la superficie terrestre più calda rispetto a una Terra senza atmosfera capace di assorbire infrarossi, a parità di altre condizioni. Inoltre, una parte dell’energia continua a uscire verso lo spazio.[^nota-assorbimento-riemissione]
+La radiazione emessa dall’atmosfera verso il basso contribuisce agli scambi energetici della superficie. Questo meccanismo è alla base dell’**effetto serra naturale**, che rende la superficie terrestre più calda rispetto a una Terra senza atmosfera capace di assorbire infrarossi, a parità di altre condizioni. Inoltre, una parte dell’energia continua a uscire verso lo spazio.
 
 Perché la temperatura media non cambi nel tempo, l’energia solare assorbita deve compensare l’energia emessa verso lo spazio. Se il sistema assorbe più energia di quanta ne perda, accumula energia e tende a riscaldarsi. Se ne perde di più, tende a raffreddarsi. L’aumento della temperatura fa crescere l’emissione termica, collegando il bilancio della Terra alla legge di Stefan–Boltzmann.
 
@@ -184,32 +182,14 @@ L’effetto serra naturale va distinto dal suo **rafforzamento**. Aumentare la c
 
 ## Note
 
-[^nota-campi-elettromagnetici]: Un’onda elettromagnetica è una variazione del campo elettrico e del campo magnetico che si propaga trasportando energia.
+[^nota-ipotesi-emissione]: Per il calcolo supponiamo che tutta la superficie sia alla stessa temperatura.
 
-[^nota-lunghezza-frequenza]: Le diverse regioni si distinguono per la lunghezza d’onda e la frequenza: onde più lunghe corrispondono a frequenze più basse.
+[^nota-raddoppio-temperatura]: Raddoppiare una temperatura in gradi Celsius non dà lo stesso risultato: nella legge bisogna usare i kelvin.
 
-[^nota-corpo-nero]: Il comportamento di riferimento è quello del corpo nero, un corpo ideale che assorbe tutta la radiazione incidente e che, a una data temperatura, emette la massima potenza termica per unità di superficie. Per descrivere una superficie reale introduciamo l’emissività, indicata con la lettera greca ε, “epsilon”. È un numero compreso tra 0 e 1: quanto più è vicino a 1, tanto più efficacemente la superficie emette rispetto al corpo nero alla stessa temperatura. Una superficie metallica lucida ha generalmente un’emissività infrarossa bassa; la stessa superficie verniciata o ossidata può comportarsi in modo molto diverso.
+[^nota-ipotesi-bilancio]: Questa formula considera lo scambio con un ambiente a temperatura uniforme. Un eventuale contributo diretto del Sole va considerato a parte.
 
-[^nota-ipotesi-emissione]: Per applicare la formula consideriamo una superficie a temperatura uniforme e un’emissività rappresentativa della sua emissione complessiva.
+[^nota-isolamento-riflettente]: Una superficie lucida può ridurre lo scambio per irraggiamento, ma trasferire comunque calore per conduzione se tocca un altro corpo.
 
-[^nota-raddoppio-temperatura]: Non basta raddoppiare una temperatura espressa in gradi Celsius per ottenere lo stesso effetto: nella legge entrano i kelvin.
+[^nota-dati-poster]: I valori del diagramma si basano su studi del 2009: descrivono il bilancio rappresentato, non una misura attuale.
 
-[^nota-bilancio-termico]: La temperatura del rettile dipende però anche dagli scambi con aria e roccia: un bilancio radiativo nullo non basta, da solo, a garantire un bilancio termico complessivo nullo.
-
-[^nota-lucertola-sole]: Nell’esempio la lucertola è più calda dell’ambiente circostante e tende a cedergli energia attraverso lo scambio infrarosso. Può però continuare a ricevere energia dal Sole: le sole due temperature non bastano a stabilire il bilancio radiativo complessivo senza conoscere anche la radiazione solare assorbita.
-
-[^nota-ipotesi-bilancio]: Per ricavare una formula di calcolo semplice consideriamo ora un corpo che scambia radiazione soltanto con un ambiente ampio a temperatura uniforme, senza un ulteriore contributo solare diretto. Usiamo un modello in cui la stessa emissività efficace descrive emissione e assorbimento. La potenza netta ceduta diventa:
-
-[^nota-temperatura-ambiente]: La temperatura delle superfici circostanti usata nel bilancio radiativo non coincide necessariamente con la temperatura dell’aria.
-
-[^nota-tostapane-aria]: Nel dispositivo agisce anche l’aria calda, quindi la cottura non dipende esclusivamente dall’irraggiamento.
-
-[^nota-lettura-termocamera]: Per ricavare una temperatura dalla radiazione rilevata bisogna tenere conto dell’emissività della superficie e della radiazione riflessa. Il cubo di Leslie mostra proprio perché questo passaggio è necessario: una superficie lucida può rimandare verso la termocamera l’immagine infrarossa di un altro corpo. La temperatura indicata non va quindi letta come una misura automatica e infallibile della temperatura reale. La termocamera osserva le superfici raggiunte dalla radiazione rilevata, non la temperatura interna dei corpi.
-
-[^nota-isolamento-riflettente]: Il punto non è semplicemente aggiungere uno strato di metallo: conta come sono fatte e disposte le superfici. Per ridurre lo scambio radiativo, le superfici a bassa emissività devono affacciarsi su uno spazio che le separa, come un’intercapedine o il vuoto tra strati. Gli eventuali contatti possono invece trasferire energia per conduzione. Un isolamento riflettente agisce quindi su un meccanismo diverso da quello di un materiale che ostacola soprattutto la conduzione.
-
-[^nota-assorbimento-riemissione]: Il ritorno dell’infrarosso non è una semplice riflessione su uno specchio: la radiazione viene assorbita e riemessa.
-
-[^nota-dati-poster]: I valori del poster del bilancio energetico terrestre sono medie storiche, basate sui lavori del 2009 citati nel diagramma. Servono a leggere il bilancio rappresentato: il residuo indicato non è una misura dello squilibrio energetico attuale.
-
-[^nota-flussi-interni]: I flussi fra superficie e atmosfera possono essere maggiori del flusso solare in ingresso, perché rappresentano scambi interni ripetuti. Non sono energia creata dal nulla: il bilancio complessivo si valuta confrontando ciò che entra dall’esterno con ciò che esce verso lo spazio. Il diagramma comprende anche evaporazione, conduzione e convezione, che trasferiscono energia all’interno del sistema terrestre.
+[^nota-flussi-interni]: L’energia può passare più volte tra superficie e atmosfera. Questi scambi interni non sono nuova energia in ingresso: per il bilancio dell’intera Terra conta ciò che entra dal Sole e ciò che esce verso lo spazio.

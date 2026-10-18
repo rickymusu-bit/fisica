@@ -1,5 +1,9 @@
 # Stato — Irraggiamento
 
+## Selezione didattica delle note — 18 ottobre 2026, ore 02:11 (Europe/Rome)
+
+**Versione corrente v6**, master **v58** letto integralmente con i riferimenti di stile. Su richiesta dell’utente, note ridotte da 15 a 6 e riscritte in forma breve. Eliminate ripetizioni di didascalie/testo e digressioni su campi, frequenza, corpo nero e termocamere; conservate condizioni semplici delle formule, avvertenza sui kelvin, distinzione irraggiamento/conduzione e lettura del diagramma terrestre. Testo e didascalie, formule, immagini/GIF e tema confrontati con v5 e invariati, esclusi i richiami eliminati/rinumerati. HTML e bozza testuale sincronizzati. Criterio di utilità delle note integrato in A1 del master, STILE_DISPENSE e AGENTS; il tema autonomo v3 resta identico. Verifiche e conteggi in `verifica-note.json`. Anteprima per lettura, nessuna pubblicazione né unione in main. La cronologia precedente segue.
+
 ## Revisione corrente — 2026-10-18 01:30 (Europe/Rome)
 
 Richiesta diretta: note collassabili, pulsanti «Biblioteca», riparazione dei modelli particellari e del grafico del calore latente, note anche per Irraggiamento. L’utente ha precisato che il problema si presenta nell’**anteprima dentro ChatGPT**. Master **v56** consultato integralmente; modello autonomo **v3**. Regole persistenti aggiornate in A6, AGENTS e STILE_DISPENSE. Note native `details`/`summary`, chiuse all’apertura, con richiami che aprono la sezione e ritorni. Etichetta «← Biblioteca» nei due collegamenti di ciascun capitolo e nel modello. Tema comune riusato integralmente, senza altre varianti grafiche.

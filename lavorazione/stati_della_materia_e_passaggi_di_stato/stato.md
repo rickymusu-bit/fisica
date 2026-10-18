@@ -1,5 +1,9 @@
 # Stato — Stati della materia e passaggi di stato
 
+## Ultima revisione dell’irraggiamento — 2026-10-18 02:11 (Europe/Rome)
+
+Irraggiamento v6: note selezionate per utilità didattica, ridotte da 15 a 6 e da 584 a 130 parole. Criterio salvato nel master v58 e nei riferimenti. Tema v3 e altri due capitoli invariati. Verifiche correnti: `../irraggiamento/verifica-note.json`; anteprime aggiornate nella cartella del capitolo. Nessuna pubblicazione.
+
 ## Precisazione sul tema comune — 2026-10-18 01:37 (Europe/Rome)
 
 Master **v57**: su indicazione esplicita dell’utente, il nome «Biblioteca» e le note collassabili sono definiti come parti integranti del tema, da ereditare automaticamente. AGENTS allineato. Verificata la loro presenza nel modello autonomo v3; nessuna modifica necessaria al tema HTML o ai tre capitoli già conformi. Nessuna pubblicazione.

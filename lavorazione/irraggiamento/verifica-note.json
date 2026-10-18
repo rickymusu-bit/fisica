@@ -1,0 +1,55 @@
+{
+  "versione": "v6",
+  "master": "v58",
+  "note_prima": 15,
+  "note_dopo": 6,
+  "note_eliminate": [
+    "campi-elettromagnetici",
+    "lunghezza-frequenza",
+    "corpo-nero",
+    "bilancio-termico",
+    "lucertola-sole",
+    "temperatura-ambiente",
+    "tostapane-aria",
+    "lettura-termocamera",
+    "assorbimento-riemissione"
+  ],
+  "note_riscritte": {
+    "ipotesi-emissione": "Per il calcolo supponiamo che tutta la superficie sia alla stessa temperatura.",
+    "raddoppio-temperatura": "Raddoppiare una temperatura in gradi Celsius non dà lo stesso risultato: nella legge bisogna usare i kelvin.",
+    "ipotesi-bilancio": "Questa formula considera lo scambio con un ambiente a temperatura uniforme. Un eventuale contributo diretto del Sole va considerato a parte.",
+    "isolamento-riflettente": "Una superficie lucida può ridurre lo scambio per irraggiamento, ma trasferire comunque calore per conduzione se tocca un altro corpo.",
+    "dati-poster": "I valori del diagramma si basano su studi del 2009: descrivono il bilancio rappresentato, non una misura attuale.",
+    "flussi-interni": "L’energia può passare più volte tra superficie e atmosfera. Questi scambi interni non sono nuova energia in ingresso: per il bilancio dell’intera Terra conta ciò che entra dal Sole e ciò che esce verso lo spazio."
+  },
+  "parole_note_prima": 584,
+  "parole_note_dopo": 130,
+  "testo_didascalie_formule_immagini_css_js_conservati": true,
+  "peso_byte": 5983390,
+  "browser": [
+    {
+      "script_documento": true,
+      "larghezze": [
+        390,
+        1280
+      ],
+      "note_chiuse_e_apribili": true,
+      "richiami_e_ritorni_verificati": 6,
+      "overflow": false,
+      "errori_js": []
+    },
+    {
+      "script_documento": false,
+      "larghezze": [
+        390,
+        1280
+      ],
+      "note_chiuse_e_apribili": true,
+      "richiami_e_ritorni_verificati": 6,
+      "overflow": false,
+      "errori_js": []
+    }
+  ],
+  "ancore_coerenti": true,
+  "bozza_sincronizzata": true
+}
