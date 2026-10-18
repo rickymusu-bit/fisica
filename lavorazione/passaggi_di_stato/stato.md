@@ -1,5 +1,11 @@
 # Stato — Passaggi di stato
 
+## Logo definitivo e tema v5 — 18 ottobre 2026
+
+Richiesta esplicita approvata: pubblicare il logo definitivo anche al posto dell’icona nella barra in alto a sinistra degli articoli e salvarlo come regola grafica. **Versione corrente v17**, master v59, modello autonomo **v5**. Sostituito il simbolo φ con lo SVG dell’onda stazionaria a quattro creste, ampiezza 20; controlli condivisi di pausa/ripresa e movimento ridotto. Testo «Fisica» e ritorno all’inizio conservati. CSS comuni riusati identici dal modello, nessun altro contenuto o visuale modificato in questa richiesta; bozza HTML sincronizzata.
+
+Verifiche e anteprime in `../sito/logo-definitivo.json` e `../sito/anteprima-visuali/`. Nodi, tratto, periodo e geometria del logo approvato conservati; testi/immagini del corpo confrontati con il precedente e invariati. Sette articoli esclusi non modificati. Pubblicazione esplicitamente autorizzata e in preparazione nel ramo `correzione/visuali-centrale`; registrare conferma finale dopo la verifica HTTPS.
+
 ## Traduzione del PWR e revisione visuale — 18 ottobre 2026
 
 Versione corrente **v16**, master consultato integralmente **v59**, tema comune **v4**. L’utente ha approvato con «Va bene» la conversione all’originale SVG con etichette italiane, il confronto originale/derivato, il controllo mobile e la revisione degli altri visuali. File corrente `risorse/centrale-nucleare-it.svg`; originale TVA e precedente PNG conservati. Tradotte tutte le etichette, comprese generatore di vapore, generatore elettrico, tubazioni, torri di raffreddamento e sottostazione elettrica. Confronto automatico: **423 nodi geometrici identici**; circuiti, colori, proporzioni e frecce invariati.

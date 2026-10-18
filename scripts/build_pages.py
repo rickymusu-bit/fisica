@@ -98,6 +98,12 @@ def main():
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(source, target)
     shutil.copyfile(ROOT / "copertine" / "manifest.json", OUTPUT / "copertine" / "manifest.json")
+    # Solo i due formati del logo definitivo, con URL pubblici stabili.
+    for filename in ("logo-materia-oscura.svg", "logo-materia-oscura.gif"):
+        source = ROOT / "identita" / filename
+        target = OUTPUT / "identita" / filename
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(source, target)
     (OUTPUT / ".nojekyll").touch()
     print(f"Preparati {len(sources)} HTML in italiano e {len(covers)} copertine.")
 

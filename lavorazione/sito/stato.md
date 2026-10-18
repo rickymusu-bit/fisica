@@ -1,5 +1,19 @@
 # Stato — Home e GitHub Pages
 
+## Logo definitivo, tema comune e pubblicazione autorizzata — 18 ottobre 2026
+
+L’utente ha approvato l’onda stazionaria con ampiezza 20 e richiesto esplicitamente: eliminare gli altri tentativi, pubblicarla nella home e al posto dell’icona nella barra in alto a sinistra degli articoli, salvare la scelta come regola grafica. **Pubblicazione autorizzata**, compresi il logo definitivo e le correzioni già pronte e approvate nel ramo corrente.
+
+Unici file grafici correnti `identita/logo-materia-oscura.svg` e `.gif`, identici byte per byte alla versione stazionaria approvata. Rimossi 25 file dei tentativi precedenti, i generatori superati e l’archivio locale a otto lobi; riferimento originale dell’utente preservato. Generatore unico autonomo `scripts/logo_materia_oscura.py`; controlli comuni `identita/controlli-logo.js` incorporati identici nei documenti. In Git resta recuperabile la storia, senza alternative attive nell’albero corrente.
+
+**Tema autonomo v5**: componente del logo nella barra degli articoli, SVG a 44 px, pulsante di pausa/ripresa da clic o tastiera, rispetto del movimento ridotto. Il collegamento «Fisica» continua a riportare all’inizio. Regola salvata nel modello `riferimenti/TEMA_DISPENSE.html`, in AGENTS, `identita/README.md` v5 e `riferimenti/TERMINOLOGIA_SITO.md` v3; A6 del master v59 rende già vincolante l’uso del modello autonomo aggiornato. Nessun refactoring del master incluso.
+
+Home generata **v13** (template v10), Stati della materia **v15**, Passaggi di stato **v17**, Irraggiamento **v8**. HTML di lavorazione sincronizzati. Solo i tre articoli conformati sono aggiornati; sette sorgenti sospesi verificati identici a main. Corpo didattico e altre immagini confrontati con l’inizio di questa richiesta e invariati. La traduzione SVG della centrale PWR già approvata è conservata in Passaggi di stato. Build: soltanto home e tre articoli, venti copertine e i due file pubblici del logo sotto `identita/`; nessun indirizzo dismesso ripristinato.
+
+Verifiche browser: 28 viste a 320/390/768/1280 px, script attivi/bloccati, movimento normale/ridotto, pausa/ripresa da tastiera, indice, controlli e assenza di overflow/errori JavaScript. CSS e controlli condivisi identici al modello v5, documenti autonomi, altri visuali preservati. Report `logo-definitivo.json`; verifica del modello e hash `verifica-logo.json`. Anteprime home/articoli in `anteprima-visuali/`, anteprima autonoma unica `anteprima-logo.html`.
+
+**Fase:** risultati locali verificati, anteprime da consegnare prima del merge; pubblicazione autorizzata, da eseguire e verificare via HTTPS. Ramo `correzione/visuali-centrale` derivato da main. Prossimo passaggio: salvare, integrare la PR e controllare Pages e output online, poi registrare gli esiti.
+
 ## Ampiezza di oscillazione raddoppiata — 18 ottobre 2026
 
 Richiesta esplicita: «Ok raddoppia l’ampiezza di oscillazione». La versione corrente della GIF/SVG stazionaria usa **A = 20**, prima A = 10; raggio di riferimento 104, quattro creste, nodi angolari fissi, periodo 4 s e tratto di 7 unità conservati. Il fattore temporale del generatore è moltiplicato per due senza alterare la geometria di riferimento o le proposte precedenti. Modello corrente: `r(θ,t)=104+20 cos(4θ) sin(2πt/T)`.

@@ -10,7 +10,7 @@ def render_italian(document, root):
         '', document, count=1)
     if count != 1:
         raise ValueError("Menu indice italiano assente o duplicato")
-    document = document.replace('name="version" content="v9"', 'name="version" content="v12"')
+    document = document.replace('name="version" content="v10"', 'name="version" content="v13"')
     document = document.replace(
         'scegli «Scarica HTML»', 'usa l’icona di download')
     document = re.sub(r'        <div class="intro-foot">[\s\S]*?</div>\n', '', document, count=1)
@@ -86,32 +86,6 @@ html:has(#articles-panel[open]){overflow:hidden}
     script = '''
 <script>
 (() => {
-  const logoButton = document.querySelector('.logo-toggle');
-  const logo = document.getElementById('site-logo');
-  if (logoButton && logo && typeof logo.pauseAnimations === 'function') {
-    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
-    let playing = !reduced.matches;
-    function syncLogo() {
-      if (playing) logo.unpauseAnimations();
-      else logo.pauseAnimations();
-      const label = playing ? 'Metti in pausa l’animazione del logo' : 'Riprendi l’animazione del logo';
-      logoButton.setAttribute('aria-label', label);
-      logoButton.setAttribute('title', label);
-      logoButton.setAttribute('aria-pressed', String(!playing));
-    }
-    logoButton.disabled = false;
-    logoButton.addEventListener('click', () => {
-      logo.setAttribute('data-motion', 'manual');
-      playing = !playing;
-      syncLogo();
-    });
-    reduced.addEventListener('change', () => {
-      logo.removeAttribute('data-motion');
-      playing = !reduced.matches;
-      syncLogo();
-    });
-    syncLogo();
-  }
   const catalogue = document.getElementById('indice');
   const panel = document.getElementById('articles-panel');
   const trigger = document.querySelector('.articles-trigger');
@@ -146,4 +120,5 @@ html:has(#articles-panel[open]){overflow:hidden}
 })();
 </script>
 '''
-    return document.replace('</body>', script + '</body>')
+    logo_controls = (root / 'identita' / 'controlli-logo.js').read_text(encoding='utf-8')
+    return document.replace('</body>', '<script>\n' + logo_controls + '</script>\n' + script + '</body>')

@@ -24,4 +24,6 @@ I vecchi indirizzi della dispensa unificata sono dismessi e non vengono più pub
 
 Identità e terminologia approvate della home in `riferimenti/TERMINOLOGIA_SITO.md`: titolo «Materia Oscura», sottotitolo «Guida pratica per fare luce sulla Fisica»; i gruppi mostrano soltanto il proprio nome, senza l’etichetta «Area tematica».
 
-Il logo animato accanto al titolo è una stringa chiusa nera su fondo trasparente, con pausa/ripresa e rispetto del movimento ridotto. SVG animato, SVG statico e GIF riutilizzabili sono salvati in [`identita/`](identita/README.md); la home incorpora lo stesso originale vettoriale durante la build.
+Il logo animato accanto al titolo è una stringa chiusa nera su fondo trasparente, con pausa/ripresa e rispetto del movimento ridotto. SVG animato e GIF definitivi riutilizzabili sono salvati in [`identita/`](identita/README.md); la home incorpora lo stesso originale vettoriale durante la build.
+
+Il logo definitivo è un’onda sinusoidale stazionaria a quattro creste, con ampiezza 20, nero su trasparente. È applicato nella home e nella barra degli articoli; fa parte del modello grafico autonomo v5. Le alternative precedenti sono rimosse e restano soltanto nella cronologia Git. I file SVG/GIF sono pubblicati in `identita/`; il componente mantiene pausa/ripresa e movimento ridotto.

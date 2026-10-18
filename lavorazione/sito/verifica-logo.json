@@ -1,160 +1,250 @@
 {
-  "fasi": [
+  "creste": 4,
+  "modello": "r(theta,t)=104+20*cos(4*theta)*sin(2*pi*t/4)",
+  "nodi_angolari_gradi": [
+    22.5,
+    67.5,
+    112.5,
+    157.5,
+    202.5,
+    247.5,
+    292.5,
+    337.5
+  ],
+  "campioni": [
     {
-      "secondi": 0,
-      "fase": "cerchio",
-      "x": 72,
-      "y": 72,
-      "width": 176,
-      "height": 176,
-      "length": 552.9194946289062
+      "tempo_s": 0,
+      "r_min": 103.99933205493548,
+      "r_max": 104.00028864752638,
+      "r_ventre_zero": 104,
+      "errore_nodi": [
+        0.00046616062357443836,
+        0.00044418943727437827,
+        0.00046073076772573445,
+        0.0004680198331356608,
+        0.00046431811284127487,
+        0.0004645273341029429,
+        0.00047027025875622766,
+        0.0004508530419009791
+      ],
+      "creste": 1556
     },
     {
-      "secondi": 2,
-      "fase": "lobi-cardinali",
-      "x": 24.479999542236328,
-      "y": 24.479999542236328,
-      "width": 271.03997802734375,
-      "height": 271.03997802734375,
-      "length": 984.7620239257812
+      "tempo_s": 0.5,
+      "r_min": 89.85771221643343,
+      "r_max": 118.14199829101956,
+      "r_ventre_zero": 118.14199829101562,
+      "errore_nodi": [
+        0.03591938418537217,
+        0.03595279618542125,
+        0.03591466028110443,
+        0.035931366691253956,
+        0.035928053899667245,
+        0.0359036283313608,
+        0.0359313666912252,
+        0.0359622446846329
+      ],
+      "creste": 4
     },
     {
-      "secondi": 4,
-      "fase": "cerchio-ritorno",
-      "x": 72,
-      "y": 72,
-      "width": 176,
-      "height": 176,
-      "length": 552.9194946289062
+      "tempo_s": 1,
+      "r_min": 84.00004745274828,
+      "r_max": 124.000000000015,
+      "r_ventre_zero": 124,
+      "errore_nodi": [
+        0.019131941357486536,
+        0.019173396999983394,
+        0.01908957591794114,
+        0.019198165124661815,
+        0.01908588030122493,
+        0.01920555183446381,
+        0.019089218005795956,
+        0.019161451717965242
+      ],
+      "creste": 4
     },
     {
-      "secondi": 6,
-      "fase": "lobi-diagonali",
-      "x": 57.529136657714844,
-      "y": 57.529136657714844,
-      "width": 204.94171142578125,
-      "height": 204.94171142578125,
-      "length": 984.760498046875
+      "tempo_s": 1.5,
+      "r_min": 89.85771221643343,
+      "r_max": 118.14199829101956,
+      "r_ventre_zero": 118.14199829101562,
+      "errore_nodi": [
+        0.03591938418537217,
+        0.03595279618542125,
+        0.03591466028110443,
+        0.035931366691253956,
+        0.035928053899667245,
+        0.0359036283313608,
+        0.0359313666912252,
+        0.0359622446846329
+      ],
+      "creste": 4
     },
     {
-      "secondi": 8,
-      "fase": "cerchio-fine",
-      "x": 72,
-      "y": 72,
-      "width": 176,
-      "height": 176,
-      "length": 552.9194946289062
+      "tempo_s": 2,
+      "r_min": 103.99933205493548,
+      "r_max": 104.00028864752638,
+      "r_ventre_zero": 104,
+      "errore_nodi": [
+        0.00046616062357443836,
+        0.00044418943727437827,
+        0.00046073076772573445,
+        0.0004680198331356608,
+        0.00046431811284127487,
+        0.0004645273341029429,
+        0.00047027025875622766,
+        0.0004508530419009791
+      ],
+      "creste": 1556
+    },
+    {
+      "tempo_s": 2.5,
+      "r_min": 89.85800170898438,
+      "r_max": 118.14198885878446,
+      "r_ventre_zero": 89.85800170898438,
+      "errore_nodi": [
+        0.03590868040833105,
+        0.035848086993825086,
+        0.03596927531656791,
+        0.035771429178134334,
+        0.03604229217531778,
+        0.03575080354441277,
+        0.03607851907160684,
+        0.035893531914343565
+      ],
+      "creste": 4
+    },
+    {
+      "tempo_s": 3,
+      "r_min": 84,
+      "r_max": 123.99965901717259,
+      "r_ventre_zero": 84,
+      "errore_nodi": [
+        0.01912010919722055,
+        0.019134738336163984,
+        0.019134738336163984,
+        0.0190643083915561,
+        0.01918378701859797,
+        0.019081102880946513,
+        0.019128246291914276,
+        0.01913473833613673
+      ],
+      "creste": 4
+    },
+    {
+      "tempo_s": 3.5,
+      "r_min": 89.85800170898438,
+      "r_max": 118.14198885878446,
+      "r_ventre_zero": 89.85800170898438,
+      "errore_nodi": [
+        0.03590868040833105,
+        0.035848086993825086,
+        0.03596927531656791,
+        0.035771429178134334,
+        0.03604229217531778,
+        0.03575080354441277,
+        0.03607851907160684,
+        0.035893531914343565
+      ],
+      "creste": 4
+    },
+    {
+      "tempo_s": 4,
+      "r_min": 103.99933205493548,
+      "r_max": 104.00028864752638,
+      "r_ventre_zero": 104,
+      "errore_nodi": [
+        0.00046616062357443836,
+        0.00044418943727437827,
+        0.00046073076772573445,
+        0.0004680198331356608,
+        0.00046431811284127487,
+        0.0004645273341029429,
+        0.00047027025875622766,
+        0.0004508530419009791
+      ],
+      "creste": 1556
     }
   ],
-  "dieci_articoli_invariati": true,
+  "anteprima": [
+    {
+      "movimento_ridotto": false,
+      "script_bloccati": false,
+      "una_curva_visibile": true,
+      "overflow": false
+    },
+    {
+      "movimento_ridotto": true,
+      "script_bloccati": false,
+      "una_curva_visibile": true,
+      "overflow": false
+    },
+    {
+      "movimento_ridotto": false,
+      "script_bloccati": true,
+      "una_curva_visibile": true,
+      "overflow": false
+    },
+    {
+      "movimento_ridotto": true,
+      "script_bloccati": true,
+      "una_curva_visibile": true,
+      "overflow": false
+    }
+  ],
+  "ritorni_al_cerchio_identici": true,
+  "nodi_fermi_e_inversione_ventri_verificati": true,
   "gif": {
-    "fotogrammi": 160,
-    "durata_ms": 8000,
-    "trasparenza_verificata": true,
+    "fotogrammi": 80,
+    "durata_ms": 4000,
+    "trasparente": true,
     "solo_nero_opaco": true,
-    "byte": 158933
+    "loop_continuo": true
   },
-  "browser": [
-    {
-      "larghezza": 320,
-      "script_bloccati": false,
-      "movimento_ridotto": false,
-      "una_curva_visibile": true,
-      "overflow": false
-    },
-    {
-      "larghezza": 390,
-      "script_bloccati": false,
-      "movimento_ridotto": false,
-      "una_curva_visibile": true,
-      "overflow": false
-    },
-    {
-      "larghezza": 1280,
-      "script_bloccati": false,
-      "movimento_ridotto": false,
-      "una_curva_visibile": true,
-      "overflow": false
-    },
-    {
-      "larghezza": 320,
-      "script_bloccati": false,
-      "movimento_ridotto": true,
-      "una_curva_visibile": true,
-      "overflow": false
-    },
-    {
-      "larghezza": 390,
-      "script_bloccati": false,
-      "movimento_ridotto": true,
-      "una_curva_visibile": true,
-      "overflow": false
-    },
-    {
-      "larghezza": 1280,
-      "script_bloccati": false,
-      "movimento_ridotto": true,
-      "una_curva_visibile": true,
-      "overflow": false
-    },
-    {
-      "larghezza": 320,
-      "script_bloccati": true,
-      "movimento_ridotto": false,
-      "una_curva_visibile": true,
-      "overflow": false
-    },
-    {
-      "larghezza": 390,
-      "script_bloccati": true,
-      "movimento_ridotto": false,
-      "una_curva_visibile": true,
-      "overflow": false
-    },
-    {
-      "larghezza": 1280,
-      "script_bloccati": true,
-      "movimento_ridotto": false,
-      "una_curva_visibile": true,
-      "overflow": false
-    },
-    {
-      "larghezza": 320,
-      "script_bloccati": true,
-      "movimento_ridotto": true,
-      "una_curva_visibile": true,
-      "overflow": false
-    },
-    {
-      "larghezza": 390,
-      "script_bloccati": true,
-      "movimento_ridotto": true,
-      "una_curva_visibile": true,
-      "overflow": false
-    },
-    {
-      "larghezza": 1280,
-      "script_bloccati": true,
-      "movimento_ridotto": true,
-      "una_curva_visibile": true,
-      "overflow": false
-    }
-  ],
-  "svg_autonomo_come_immagine_animato": true,
-  "trasparenza_svg_png": true,
   "file": {
-    "logo-materia-oscura-statico.svg": {
-      "byte": 2715,
-      "sha256": "b360f6b6b65777b3bc40a2fcc660ce5cbf8843bb9818ffa7c5f9af3c54619ead"
-    },
     "logo-materia-oscura.svg": {
-      "byte": 16793,
-      "sha256": "bca7a5e91e5e712e64c4e5cf05d5e08e27f9e875069fc5d8d0d88732583d79d6"
+      "byte": 156932,
+      "sha256": "95d57127abed2c87237c6f35dd9b60d9c40bf3e8dafdceed9b455da245707065"
     },
     "logo-materia-oscura.gif": {
-      "byte": 158933,
-      "sha256": "1a7fbf5f680e9cac76ceb95ab04fd9389a048e685ce185ea3306d48cda03b8f6"
+      "byte": 78504,
+      "sha256": "079e49c0278013cfed9ad17b5eb120978bd244fb8c94ff3c0e8639396b760860"
     }
   },
-  "tre_cerchi_identici_pixel": true
+  "ampiezza_precedente": 10,
+  "ampiezza_corrente": 20,
+  "rapporto_ampiezze_verificato": 2.0,
+  "logo_definitivo": {
+    "svg_sha256": "95d57127abed2c87237c6f35dd9b60d9c40bf3e8dafdceed9b455da245707065",
+    "gif_sha256": "079e49c0278013cfed9ad17b5eb120978bd244fb8c94ff3c0e8639396b760860",
+    "identico_alla_scelta_approvata": true,
+    "tentativi_rimossi": [
+      "lavorazione/sito/anteprima-visuali/logo-onda-progressiva-anteprima-mobile.png",
+      "lavorazione/sito/anteprima-visuali/logo-cerchio-fine.png",
+      "lavorazione/sito/anteprima-visuali/logo-onda-stazionaria-fase-0.png",
+      "lavorazione/sito/anteprima-visuali/logo-onda-progressiva-fase-1.png",
+      "lavorazione/sito/anteprima-visuali/logo-onda-progressiva-anteprima.png",
+      "lavorazione/sito/anteprima-visuali/logo-lobi-cardinali.png",
+      "lavorazione/sito/anteprima-visuali/logo-lobi-diagonali.png",
+      "lavorazione/sito/anteprima-visuali/logo-cerchio-ritorno.png",
+      "lavorazione/sito/anteprima-visuali/logo-onda-stazionaria-anteprima.png",
+      "lavorazione/sito/anteprima-visuali/logo-onda-stazionaria-fase-1.png",
+      "lavorazione/sito/anteprima-visuali/logo-onda-stazionaria-anteprima-mobile.png",
+      "lavorazione/sito/anteprima-visuali/logo-cerchio.png",
+      "lavorazione/sito/anteprima-visuali/logo-onda-progressiva-fase-0.png",
+      "lavorazione/sito/anteprima-visuali/logo-onda-stazionaria-fase-3.png",
+      "identita/logo-materia-oscura-onda-stazionaria.svg",
+      "identita/logo-materia-oscura-statico.svg",
+      "identita/logo-materia-oscura-onda-progressiva.svg",
+      "identita/logo-materia-oscura-onda-stazionaria.gif",
+      "identita/logo-materia-oscura-onda-progressiva.gif",
+      "lavorazione/sito/anteprima-logo-onda-stazionaria.html",
+      "lavorazione/sito/anteprima-logo-onda-progressiva.html",
+      "lavorazione/sito/verifica-logo-onda-progressiva.json",
+      "lavorazione/sito/verifica-logo-onda-stazionaria.json",
+      "scripts/logo_onda_progressiva.py",
+      "scripts/logo_onda_stazionaria.py"
+    ]
+  },
+  "geometria_approvata_conservata": true
 }

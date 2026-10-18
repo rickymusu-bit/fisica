@@ -1,5 +1,11 @@
 # Stato — Irraggiamento
 
+## Logo definitivo e tema v5 — 18 ottobre 2026
+
+Richiesta esplicita approvata: pubblicare il logo definitivo anche al posto dell’icona nella barra in alto a sinistra degli articoli e salvarlo come regola grafica. **Versione corrente v8**, master v59, modello autonomo **v5**. Sostituito il simbolo φ con lo SVG dell’onda stazionaria a quattro creste, ampiezza 20; controlli condivisi di pausa/ripresa e movimento ridotto. Testo «Fisica» e ritorno all’inizio conservati. CSS comuni riusati identici dal modello, nessun altro contenuto o visuale modificato in questa richiesta; bozza HTML sincronizzata.
+
+Verifiche e anteprime in `../sito/logo-definitivo.json` e `../sito/anteprima-visuali/`. Nodi, tratto, periodo e geometria del logo approvato conservati; testi/immagini del corpo confrontati con il precedente e invariati. Sette articoli esclusi non modificati. Pubblicazione esplicitamente autorizzata e in preparazione nel ramo `correzione/visuali-centrale`; registrare conferma finale dopo la verifica HTTPS.
+
 ## Terminologia e perimetro del sito — 2026-10-18 09:16 (Europe/Rome)
 
 Versione corrente **v7**, master **v59**, tema comune **v4**. Richiesta approvata: terminologia unica Articoli / Tutti gli articoli / Indice dell’articolo / Articolo precedente e successivo / Crediti delle immagini. Aggiornati soltanto i tre articoli conformati: Stati della materia, Passaggi di stato e Irraggiamento. Navigazione in sequenza tra questi tre, senza collegamenti ai sette articoli sospesi. Testo didattico, note, immagini, formule, CSS e simulazioni invariati; modificati etichette, navigazione e metadati di versione. HTML di lavorazione sincronizzato. Configurazione operativa in `pubblicazione.json`; verifiche e anteprime in `lavorazione/sito/terminologia.json` e `lavorazione/sito/anteprima-*.png`. Pubblicato con la PR #22 e workflow Pages 39107141160 concluso con successo. Verificati HTTPS: home e tre articoli conformati HTTP 200, identici all’output approvato; sette articoli sospesi HTTP 404; due reindirizzamenti storici disponibili. Sorgenti esclusi ancora identici. Rapporto finale in `lavorazione/sito/terminologia.json`.
