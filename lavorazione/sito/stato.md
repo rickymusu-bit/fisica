@@ -1,5 +1,9 @@
 # Stato — Home e GitHub Pages
 
+## Pubblicazione autorizzata — centralizzazione dei crediti
+
+L’utente ha richiesto esplicitamente «Pubblica le modifiche». Autorizzate integrazione della PR #35 in main e pubblicazione tramite il workflow Pages esistente. Questa richiesta supera lo stato precedente di sola bozza; il manifest resta invariato. Si pubblicano le modifiche già verificate al commit `dce6358370806d393292aced65870f2294b357ef`, conservando pubblicamente la lista delle verifiche di licenza aperte. La pubblicazione non certifica i diritti mancanti. Prossimo passo: merge e controllo del workflow e degli URL online.
+
 ## Centralizzazione dei crediti — 18 ottobre 2026
 
 Richiesta esplicita eseguita sul ramo `crediti/centralizzazione`, base `ae721d0b10e4ab648da56f8ec9ae6926c91b3e72`: 20 articoli HTML analizzati e modificati, comprese traduzioni e sorgenti sospesi limitatamente ai crediti; manifest di pubblicazione invariato. Nessuna riammissione, merge o pubblicazione autorizzati da questa lavorazione. Tema v8 e master v60; modifica del master circoscritta alle regole dei crediti, senza refactoring generale estraneo alla richiesta.
