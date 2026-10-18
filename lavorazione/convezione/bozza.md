@@ -24,9 +24,13 @@ Nella stanza il movimento nasce dalle differenze di densità e dall’azione del
 
 Il fluido può però essere messo in movimento anche da un dispositivo. Una ventola spinge l’aria, una pompa fa circolare un liquido: in questi casi si parla di **convezione forzata**. Il movimento rinnova il fluido vicino alle superfici e può rendere più rapido lo scambio di energia. La differenza tra i due casi riguarda dunque soprattutto ciò che produce il movimento.
 
-Il ricambio del fluido non determina da solo il verso del trasferimento. Se una superficie è più calda dell’aria che la raggiunge, cede energia all’aria; se l’aria è più calda, può invece riscaldarla. Muovere l’aria non significa abbassarne automaticamente la temperatura: è un punto essenziale per capire che cosa fanno le ventole nei sistemi di raffreddamento.[2]
+[IMMAGINE V-F — Ventilatore da tavolo fornito dall’utente; Berthold Werner, CC BY-SA 4.0. File: risorse/ventilatore-forzata.jpg, versione 1920 px invariata. Foto riservata all’introduzione della convezione forzata; la ventola del processore compare soltanto nella relativa applicazione.]
 
-[VISUALE V-F — La fotografia annotata della ventola del processore, collocata una sola volta nell’applicazione corrispondente, illustra anche questi paragrafi.]
+![Ventilatore da tavolo con tre pale e base rossa.](risorse/ventilatore-forzata.jpg)
+
+Didascalia: Quando ruotano, le pale del ventilatore mettono in movimento l’aria: il moto è prodotto da un dispositivo, come avviene nella convezione forzata.
+
+Il ricambio del fluido non determina da solo il verso del trasferimento. Se una superficie è più calda dell’aria che la raggiunge, cede energia all’aria; se l’aria è più calda, può invece riscaldarla. Muovere l’aria non significa abbassarne automaticamente la temperatura: è un punto essenziale per capire che cosa fanno le ventole nei sistemi di raffreddamento.[2]
 
 ## Applicazioni
 

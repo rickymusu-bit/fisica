@@ -7,7 +7,7 @@ Aggiornamento: 18 ottobre 2026, ore 16:47 (Europe/Rome). Fase: progettazione e s
 | Identificativo | Soggetto | Funzione e collocazione |
 | --- | --- | --- |
 | IMMAGINE 14 / img-11 | Stanza e termosifone in italiano | Apertura e convezione naturale: salita dell’aria riscaldata e ricircolo. |
-| IMMAGINE 17 / img-14 | Dissipatore con ventola annotato | Convezione forzata, alette e passaggio di energia dal metallo all’aria. Una sola figura, condivisa dai paragrafi strettamente collegati. |
+| IMMAGINE 17 / img-14 | Dissipatore con ventola annotato | Solo nell’applicazione «La ventola del processore»: alette e passaggio di energia dal metallo all’aria. Non richiamarla nell’introduzione della convezione forzata. |
 | IMMAGINE 18 / img-15 | Circuito del radiatore in italiano | Pompa, refrigerante e ventilazione forzata; conservare circuito e componenti. |
 
 Fonti: HTML unificato v7 e risorse condivise in ../potenza_termica_conduzione_convezione/risorse/. Hash e destinazioni in ../potenza_termica_conduzione_convezione/suddivisione.json.
@@ -86,3 +86,7 @@ L’utente fornisce e sceglie [Thermal column.svg](https://commons.wikimedia.org
 Numeri e lettera controllati sul visuale: (1) terreno riscaldato e trasferimento all’aria, (2) risalita nella termica, (3) moti discendenti attorno alla regione ascendente, (A) eventuale nube per condensazione del vapore acqueo. Didascalia di quattro frasi nella bozza. La descrizione della pagina Commons contiene una formulazione imprecisa che associa condensazione e discesa dell’aria: non riprodotta. La condensazione riguarda il vapore acqueo e la nube non è necessaria perché esista una termica.
 
 Le due proposte FAA precedenti sono superate da questa scelta esplicita e restano conservate come riferimenti, senza inserirle nel capitolo. Nessun ritocco, ricostruzione o rimozione del fondo. Il fondo trasparente e le frecce vanno mostrati su bianco nell’HTML futuro, con ingrandimento v7 e composizione invariata su mobile. Questa scelta non costituisce il via alla programmazione della simulazione degli elettroni.
+
+## Ventilatore nell’introduzione — 18 ottobre 2026
+
+Su indicazione dell’utente, V-F è la [fotografia del ventilatore da tavolo](risorse/ventilatore-forzata.jpg) fornita: [fonte Commons](https://commons.wikimedia.org/wiki/File:Ventilator_BW_2026-06-19_16-42-30_standing.jpg), Berthold Werner, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Versione a 1920 × 2764 px, 560.934 byte, conservata senza modifiche e ispezionata. Inserita subito dopo la definizione di convezione forzata, con didascalia che spiega il movimento dell’aria prodotto dalle pale quando ruotano. La fotografia mostra il dispositivo fermo, non rende visibile un flusso d’aria. IMMAGINE 17 / img-14 rimane esclusivamente nell’applicazione sul processore; rimosso il precedente richiamo V-F alla stessa figura. Fonte, licenza e hash registrati in suddivisione.json. Nessuna realizzazione HTML o pubblicazione.

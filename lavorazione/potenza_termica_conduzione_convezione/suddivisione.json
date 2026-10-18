@@ -99,7 +99,8 @@
       "id": "img-14",
       "alt": "Fotografia annotata di dissipatore CPU con ventola, alette di raffreddamento, posizione del processore e scheda madre",
       "sha256_src": "eeb3b97a824fa396b09d9ac7f4ab786dc128e3d6b162881f3962e700c001524e",
-      "destinazione": "convezione"
+      "destinazione": "convezione",
+      "uso_previsto": "Soltanto applicazione «La ventola del processore»; esclusa dall’introduzione della convezione forzata su richiesta utente."
     },
     {
       "id": "img-15",
@@ -399,5 +400,25 @@
         "A": "eventuale nube, condensazione del vapore acqueo"
       }
     }
+  },
+  "ventilatore_convezione_forzata": {
+    "id": "V-F",
+    "file": "lavorazione/convezione/risorse/ventilatore-forzata.jpg",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Ventilator_BW_2026-06-19_16-42-30_standing.jpg",
+    "versione_fornita": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ventilator_BW_2026-06-19_16-42-30_standing.jpg/1920px-Ventilator_BW_2026-06-19_16-42-30_standing.jpg",
+    "autore": "Berthold Werner",
+    "licenza": "CC BY-SA 4.0",
+    "licenza_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "dimensioni": [
+      1920,
+      2764
+    ],
+    "byte": 560934,
+    "sha256": "8c6d2f84e97e400b7b53ec214b97260bd82ab496ab803640bba1698917a73086",
+    "blob_sha": "11f788b829e014812715d0bba9856a0283038ca6",
+    "modifiche": "nessuna",
+    "collocazione": "introduzione della convezione forzata, dopo la definizione",
+    "file_binario_salvato_nel_repo": true,
+    "approvazione": "immagine fornita e inserimento richiesto esplicitamente dall’utente il 18 ottobre 2026"
   }
 }
