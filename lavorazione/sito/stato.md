@@ -1,5 +1,25 @@
 # Stato — Home e GitHub Pages
 
+## Correzione: sinusoide progressiva con quattro creste — 18 ottobre 2026
+
+Richiesta esplicita successiva all’interruzione: «Non ci devono essere lobi ma una sinusoide che viaggia in un cerchio chiuso. Rifai la gif con 4 creste (n=2 closed loop)». La proposta a otto lobi è superata. Realizzati `identita/logo-materia-oscura-onda-progressiva.svg` e `.gif`: una sola linea nera e trasparente, quattro creste che avanzano in senso orario, ampiezza costante e deformazione contenuta. Non si passa globalmente dal cerchio a una figura lobata. Profilo circolare `r(θ,t)=104+10 cos(4θ−2πt/T)`, periodo `T=4 s`; l’indice n della richiesta non viene presentato come convenzione universale.
+
+GIF autonoma 256 × 256 px, 80 fotogrammi a 20 fps, ciclo continuo. SVG senza script, con alternativa ferma per la preferenza di movimento ridotto. Generatore dedicato `scripts/logo_onda_progressiva.py`; il generatore del logo precedente è ripristinato identico a HEAD, così non si conserva come scelta corrente la variante interrotta. Indicazioni del nuovo modello salvate in AGENTS e in `identita/README.md` v2.
+
+Verificati quattro massimi radiali a sette istanti, raggi minimo/massimo invariati (94/114), avanzamento angolare di 22,5° al secondo, trasparenza, soli pixel opachi neri, durata e raccordo del loop GIF senza salto. Anteprima a script attivi e bloccati, movimento normale/ridotto, comandi da tastiera e nessuna eccedenza orizzontale; rapporto `verifica-logo-onda-progressiva.json`. Anteprima autonoma `anteprima-logo-onda-progressiva.html`, immagini `anteprima-visuali/logo-onda-progressiva-*`.
+
+Home v12, logo già integrato e dieci sorgenti degli articoli invariati byte per byte: questa richiesta riguarda la nuova GIF, non dispone una sostituzione nella home. La variante a otto lobi generata prima dello stop, non salvata su GitHub, è conservata come lavoro locale superato in `/workspace/varianti-logo-superate/otto-lobi/`; nessun originale dell’utente eliminato. Le indicazioni storiche sottostanti sulla variante a otto lobi sono superate.
+
+Ramo corrente derivato da main `correzione/visuali-centrale`, master v59 invariato e già letto integralmente. **Correzione realizzata e verificata, pronta per la consegna; nessuna unione in main né pubblicazione.**
+
+## Variante autonoma a otto lobi — 18 ottobre 2026
+
+Richiesta esplicita: «Bellissimo. Riesci a farne un altro con 8 lobi?». Creato un secondo logo con lo stesso tratto nero, sfondo trasparente e ciclo di 8 secondi: cerchio → otto lobi → cerchio → otto lobi sfalsati di 22,5° → cerchio. Una sola curva chiusa visibile, nessuna sovrapposizione. File autonomi `identita/logo-materia-oscura-otto-lobi.svg`, `.gif` e `-statico.svg`; specifiche aggiunte a `identita/README.md` v2. Home v12 e logo originale a quattro lobi conservati byte per byte; nessuna sostituzione richiesta o effettuata.
+
+Riutilizzato il generatore esistente aggiungendo `--lobes 8`, con maggiore risoluzione geometrica per gli otto lobi. Il valore predefinito rimane quattro: entrambe le uscite SVG precedenti sono identiche byte per byte. GIF trasparente 256 × 256 px, 160 fotogrammi a 20 fps, ciclo di 8 s. Verificati otto massimi radiali in entrambe le configurazioni, tre ritorni al cerchio identici pixel per pixel, trasparenza, soli pixel opachi neri e durata della GIF; anteprima con script attivi/bloccati, movimento normale/ridotto, comandi da tastiera e nessun overflow su smartphone. Esiti, pesi e hash in `verifica-logo-otto-lobi.json`; anteprima autonoma `anteprima-logo-otto-lobi.html`, immagini in `anteprima-visuali/logo-otto-lobi-*`.
+
+Master v59 letto integralmente. Nessuna modifica agli articoli, alla home o ai file del logo originale; sorgenti verificati contro HEAD. Ramo corrente `correzione/visuali-centrale`, derivato da main, senza unione in main né nuova pubblicazione. **Variante completata e pronta per la consegna come SVG/GIF autonomi.**
+
 ## Logo animato di Materia Oscura — 18 ottobre 2026
 
 Richiesta esplicita: usare come riferimento la stringa chiusa della figura centrale in basso dell’immagine `14936.jpg`; nero su trasparente, senza sovrapporre le configurazioni. Ciclo autorizzato **cerchio → quattro lobi orizzontali/verticali → cerchio → quattro lobi diagonali → cerchio**. Alla domanda sul posizionamento l’utente ha scelto **accanto al titolo**, chiedendo anche il salvataggio autonomo per usi futuri.
