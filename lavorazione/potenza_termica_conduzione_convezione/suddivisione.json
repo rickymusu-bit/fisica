@@ -1,0 +1,104 @@
+{
+  "stato": "proposta non approvata",
+  "fonte": "potenza_termica_conduzione_convezione_it.html",
+  "versione_fonte": "v7",
+  "sha256_fonte": "b346fd60bcce9ca7d74628434d8c854332ff55ddd9dd80db3253cc2f04bc5251",
+  "master": "v59",
+  "tema": "v7",
+  "immagini": [
+    {
+      "id": "img-01",
+      "alt": "Stufetta elettrica radiante nera",
+      "sha256_src": "f48f7746b089cb2c5a49005f2e300923c7f527f909b6b5b4363c1a6103bd2354",
+      "destinazione": "potenza_termica"
+    },
+    {
+      "id": "img-02",
+      "alt": "Termoventilatore elettrico bianco",
+      "sha256_src": "42cb17c14ecb1efaae5a3b9d8d8a24a25a5da539dab2c1a5709f6466ce1cac37",
+      "destinazione": "potenza_termica"
+    },
+    {
+      "id": "img-03",
+      "alt": "Ciotola di zuppa calda con un cucchiaio metallico che attraversa il liquido",
+      "sha256_src": "9d18529dea384e8543725ea50b7f1c7f2547b640ca237027c624d9560506f9d7",
+      "destinazione": "conduzione"
+    },
+    {
+      "id": "img-04",
+      "alt": "Sei barrette etichettate brass, Al, Cu, Ni, Fe e stainless steel, usate in un esperimento di conduzione",
+      "sha256_src": "dfdc037e3807ae503a420783ac9ab1b35d989064d0a0d8f801975fa806f0b983",
+      "destinazione": "conduzione"
+    },
+    {
+      "id": "img-05",
+      "alt": "Sezione di una parete attraversata da un flusso di calore dall’interno caldo verso l’esterno freddo; indicati spessore s e superficie A.",
+      "sha256_src": "9af3a9de654b4c1149b966deeb3a37d999832102769bd34efef2a7f8879d9987",
+      "destinazione": "conduzione"
+    },
+    {
+      "id": "img-06",
+      "alt": "Caffettiera moka metallica con manico nero su un fornello a gas acceso",
+      "sha256_src": "f1a1a5599b8acbcc57751f0e7858da284687aa4b1fca1953a8eccc9db03c27ef",
+      "destinazione": "conduzione"
+    },
+    {
+      "id": "img-07",
+      "alt": "Sezione di una vetrocamera con etichette italiane: vetro, intercapedine di gas, distanziatore, essiccante e telaio.",
+      "sha256_src": "0559d79865fb901c2cd47e8455180513ddf856800b2b30b7b20504d2b3976e65",
+      "destinazione": "conduzione"
+    },
+    {
+      "id": "img-08",
+      "alt": "Igloo di neve illuminato di notte, in un ambiente innevato",
+      "sha256_src": "383f9269846c26fa1673d98769c5b6ac96f82f15179c828c9b015b300a5d9f73",
+      "destinazione": "conduzione"
+    },
+    {
+      "id": "img-09",
+      "alt": "Animazione di una persona che avvicina la lingua a un palo metallico in ambiente freddo",
+      "sha256_src": "e08143db75f528ef12a42307da2be11cd18ecd973951120a8d559ae5d3566a24",
+      "destinazione": "conduzione"
+    },
+    {
+      "id": "img-10",
+      "alt": "Dissipatore metallico alettato su scheda madre, sormontato da una ventola nera AMD",
+      "sha256_src": "bfbad168d14cd95ddf9ae2770efc78f59c8b185416bff30bf79157dbb49c9a8c",
+      "destinazione": "conduzione"
+    },
+    {
+      "id": "img-11",
+      "alt": "Circolazione naturale dell’aria nella stanza: sale sopra il termosifone, si raffredda e scende vicino alla finestra; etichette italiane sullo sfondo originale.",
+      "sha256_src": "ae934a6f391a1d6366c3fd2c5e1fdf022dacf47c970b7557eb03f07a11048987",
+      "destinazione": "convezione"
+    },
+    {
+      "id": "img-12",
+      "alt": "Circolazione atmosferica con celle di Hadley, Ferrel e polari, alisei, venti occidentali e orientali polari, con etichette italiane.",
+      "sha256_src": "aaccb0997a4a6244af06f70af7b506d483672ed760ffddf0a87de905a4581b54",
+      "destinazione": "convezione"
+    },
+    {
+      "id": "img-13",
+      "alt": "Sezione della crosta e del mantello: dorsale medio-oceanica, oceano, fossa oceanica e moti convettivi con etichette italiane.",
+      "sha256_src": "f5db08cde26eb44a1a5f8e8f485a380bbe11c5f13e042fd5613eddcb9635a93a",
+      "destinazione": "convezione"
+    },
+    {
+      "id": "img-14",
+      "alt": "Fotografia annotata di dissipatore CPU con ventola, alette di raffreddamento, posizione del processore e scheda madre",
+      "sha256_src": "eeb3b97a824fa396b09d9ac7f4ab786dc128e3d6b162881f3962e700c001524e",
+      "destinazione": "convezione"
+    },
+    {
+      "id": "img-15",
+      "alt": "Circuito di raffreddamento dell’automobile: pompa, termostato, radiatori, ventole, vaso di espansione e collegamenti del liquido refrigerante, con etichette italiane.",
+      "sha256_src": "342560487ed61c3cf34eaeaf83c7584e3ccb6264a298f518129311f7f1071a44",
+      "destinazione": "convezione"
+    }
+  ],
+  "script_fisico_sha256": [
+    "c493109309eeeb6f9017a19b4dbfd7874c26abbf5cbdcf52a95121c4e7a5aabc"
+  ],
+  "html_generati": false
+}

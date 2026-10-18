@@ -36,3 +36,15 @@ Richiesta esplicita dell’utente: rimuovere versione e data dai nomi, conservan
 ## Pubblicazione dell’irraggiamento e navigazione
 
 17/10/2026 19:18 (Europe/Rome). Per la richiesta esplicita di pubblicare l’articolo successivo, riutilizzata la versione v7 pronta nel ramo `istruzioni/tema-mac`, blob `14e072ca077fc7887c86749df9c3ec1213735aa7`. Rispetto alla v6 di main, confronto integrale superato dopo la sola normalizzazione di data, versione e componente di navigazione: testo e immagini identici. Aggiunti precedente verso Stati della materia e successivo verso Irraggiamento. Navigazione verificata nel browser.
+
+## Ripresa e proposta monografica — 18 ottobre 2026
+
+**Stato corrente prevalente:** la pubblicazione storica descritta sopra è superata da `pubblicazione.json`: la dispensa unificata è esclusa. La fonte corrente è **v7**, blob `14e072ca077fc7887c86749df9c3ec1213735aa7`, non v6. Non ripristinare gli indirizzi storici o i reindirizzamenti.
+
+Letti master v59, AGENTS.md, riferimenti stilistici e campione, modello comune v7, terminologia v4, stato/bozza e registri pertinenti; controllato l’HTML corrente e lo script. Ramo `revisione/potenza-conduzione-convezione` derivato da main `8c071729b2bf577886e0227c383a0318c0eb5905`.
+
+Registrati [proposta e corrispondenza completa](proposta-suddivisione.md), [inventario di provenienza](suddivisione.json) e tre bozze complete nei percorsi `lavorazione/potenza_termica/`, `lavorazione/conduzione/`, `lavorazione/convezione/`, ciascuno con stato proprio. La vecchia bozza in questa cartella è una fonte storica, non la nuova proposta.
+
+Conservati nella pianificazione 20 quesiti (6/7/7), 15 immagini HTML (compresa miniatura video), video e reticolo animato. Suddivisione e nuove bozze **non approvate**. Nessun HTML realizzato o media elaborato; nessuna modifica di main, home, manifest, tema o pubblicazione. Tre copertine da fornire/scegliere, non cercate né generate. Correzione proposta sulle temperature delle facce della parete e ulteriori precisazioni nella proposta.
+
+Prossimo passo: approvazione/correzione delle bozze e copertine; poi stima totale ripartita e via esplicito prima degli HTML, secondo B1.1–B2 e richiesta corrente dell’utente. Le approvazioni storiche non autorizzano la nuova suddivisione o la pubblicazione. Verifiche browser e verifiche finali degli HTML ancora da eseguire dopo la realizzazione.
