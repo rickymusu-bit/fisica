@@ -13,10 +13,10 @@ Il 18 ottobre 2026 alle 13:12 l’utente ha indicato di integrare la potenza ter
 
 ## Bozze complete da esaminare
 
-- [Conduzione](../conduzione/bozza.md): apertura sul manico che si scalda; meccanismo microscopico; breve sezione su energia, potenza e durata prima di Fourier; applicazioni; 12 domande finali, senza esempio svolto sulle stufette.
+- [Conduzione](../conduzione/bozza.md): apertura sul manico che si scalda e meccanismo microscopico; conducibilità; sezioni «Conduttori termici» e «Isolanti termici» con applicazioni integrate; breve potenza termica e legge di Fourier; 12 domande finali, senza esempio svolto sulle stufette.
 - [Convezione](../convezione/bozza.md): apertura sull’aria sopra il termosifone; teoria naturale e forzata; applicazioni atmosferiche, geologiche e tecniche; domande finali. Nessuna legge di Newton aggiunta automaticamente, perché assente dalla fonte approvata.
 
-Su richiesta del 18 ottobre alle 13:18, il dissipatore è rimosso da Conduzione, insieme alla sua figura e al quesito dedicato. Resta trattato in Convezione, dove è già presente anche il quesito sul radiatore e sul processore. Le applicazioni opzionali sono proposte per conservare quanto già presente. Nessun nuovo capitolo di meteorologia o geologia, nessun riepilogo automatico, nessuna soluzione alle domande.
+Su richiesta del 18 ottobre alle 13:18, il dissipatore è rimosso da Conduzione, insieme alla sua figura e al quesito dedicato. Resta trattato in Convezione, dove è già presente anche il quesito sul radiatore e sul processore. Le applicazioni sono integrate nelle sezioni su conduttori e isolanti per richiesta esplicita dell’utente del 18 ottobre alle 13:25; questa scelta specifica sostituisce la precedente sezione separata «Applicazioni» in Conduzione, senza modificare il master o altri capitoli. Nessun nuovo capitolo di meteorologia o geologia, nessun riepilogo automatico, nessuna soluzione alle domande.
 
 ## Correzioni e adeguamenti proposti
 
@@ -28,7 +28,12 @@ Su richiesta del 18 ottobre alle 13:18, il dissipatore è rimosso da Conduzione,
 
 ## Applicazioni presenti dopo la rimozione del dissipatore
 
-In Conduzione restano cinque casi applicativi: caffettiera, isolamento delle pareti (paragrafo che richiama lo schema del muro), vetrocamera, igloo, lingua sul palo gelato e ruolo degli elettroni mobili nella conduzione dei metalli. Quattro hanno un titolo dedicato; il caso delle pareti è sviluppato nel paragrafo seguente la caffettiera. Il cucchiaio nella zuppa resta la situazione iniziale della teoria, non un’ulteriore applicazione in questa sezione.
+In Conduzione restano cinque casi applicativi, organizzati per funzione dei materiali:
+
+- **Conduttori termici:** elettroni mobili e confronto sperimentale dei metalli; lingua sul palo gelato; corpo metallico della caffettiera. La caffettiera collega anche la funzione isolante del manico, con una sola figura.
+- **Isolanti termici:** definizione come materiali a bassa conducibilità, che rallentano il trasferimento senza annullarlo; ruolo dell’aria intrappolata; isolamento delle pareti, vetrocamera e igloo.
+
+La distinzione usa la conducibilità, senza fissare una soglia universale né presentare l’isolante come una sorgente di calore. La tabella dei materiali resta il confronto quantitativo comune. La breve sezione sulla potenza termica e la legge di Fourier seguono le due sezioni, per quantificare ciò che è stato osservato. Il cucchiaio resta la situazione iniziale della teoria. Il contributo degli elettroni mobili è spiegato nella sezione sui conduttori e non ripetuto nell’applicazione del palo.
 
 In Convezione restano quattro applicazioni nella sezione dedicata: atmosfera, mantello, raffreddamento del processore, radiatore dell’automobile. Il termosifone è il caso iniziale della teoria; contando anche quello, i casi concreti sono cinque. «Conduzione e convezione lavorano insieme» collega processore e radiatore, senza introdurre una sesta applicazione.
 

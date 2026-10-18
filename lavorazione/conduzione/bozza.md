@@ -38,11 +38,64 @@ La conducibilità termica λ descrive l'attitudine di un materiale a condurre il
 
 Questi valori permettono di confrontare i materiali: il rame conduce molto più facilmente del legno o dell’aria ferma.[1]
 
+## Conduttori termici
+
+I materiali che, a parità di condizioni, lasciano passare facilmente energia per conduzione sono chiamati **conduttori termici**. Hanno una conducibilità elevata: nella tabella il rame e l’alluminio sono esempi di buoni conduttori. Questa proprietà è utile quando vogliamo trasferire rapidamente energia attraverso un oggetto.
+
+Nei metalli alcuni elettroni possono muoversi attraverso il materiale, senza restare legati a un singolo atomo. Questi **elettroni mobili** trasportano energia dalle regioni più calde a quelle più fredde e la scambiano con le altre parti del metallo. Alla conduzione contribuiscono anche le vibrazioni degli atomi, ma gli elettroni mobili spiegano perché molti metalli siano conduttori termici particolarmente efficaci.
+
 Sei barrette metalliche vengono riscaldate nella stessa zona centrale. Osserva nel video i diversi tempi con cui cambia stato la cera alle estremità: il confronto rende visibile il diverso comportamento dei metalli.[1]
 
 [VIDEO 05 — Conservare miniatura e URL esatti dell’HTML v7; apertura sulla piattaforma originale, senza lettore incorporato.]
 
 Didascalia: Video dell’esperimento: scegli la miniatura per aprirlo sulla piattaforma originale.
+
+### La lingua sul palo gelato
+
+Quando la lingua tocca un palo metallico gelato, l’energia si trasferisce dalla lingua, più calda, al metallo, più freddo. Il palo conduce rapidamente questa energia lontano dalla zona di contatto, verso le parti circostanti. Se il metallo è abbastanza freddo, la saliva può perdere energia fino a congelare: il sottile strato di ghiaccio che si forma fa aderire la lingua alla superficie.
+
+[IMMAGINE 12 — Riutilizzare l’animazione già approvata del contatto con il palo gelato, senza alterazioni.]
+
+Didascalia: Il metallo conduce energia lontano dal punto di contatto; se la saliva congela, il ghiaccio fa aderire la lingua al palo. È pericoloso: non va provato.
+
+### La caffettiera: condurre e isolare dove serve
+
+
+La fiamma riscalda la base metallica della caffettiera. Il calore si propaga attraverso il corpo di alluminio, che è un buon conduttore; per questo la parte metallica diventa molto calda. Il manico è invece realizzato in un materiale che conduce molto meno: a parità di condizioni può restare relativamente più tiepido, permettendo di afferrarlo con maggiore sicurezza. Anche il manico può però scottare dopo un riscaldamento prolungato.
+
+[IMMAGINE 07 — Il corpo metallico trasferisce rapidamente energia, mentre il manico poco conduttore ostacola il passaggio del calore fino alla mano.]
+
+Didascalia: Il corpo metallico trasferisce rapidamente energia, mentre il manico poco conduttore ostacola il passaggio del calore fino alla mano.
+
+Nella stessa caffettiera i materiali svolgono quindi due compiti diversi: il metallo favorisce il passaggio di energia, mentre il materiale del manico lo ostacola. È la distinzione tra conduttori e isolanti termici.
+
+## Isolanti termici
+
+I materiali che ostacolano il trasferimento di energia per conduzione sono chiamati **isolanti termici**. Hanno una conducibilità bassa: il legno e l’aria ferma, presenti nella tabella, conducono molto meno dei metalli. Un isolante rallenta il trasferimento di energia, senza impedirlo completamente: non produce calore e non garantisce che un oggetto rimanga caldo o freddo per sempre.
+
+L’aria intrappolata in piccole cavità è utile perché conduce poco e non può circolare liberamente. Questo aiuta a capire perché materiali contenenti aria possano limitare gli scambi termici. Nelle applicazioni seguenti, oltre alla scelta del materiale, conta come viene disposto.
+
+### Limitare le dispersioni attraverso le pareti
+
+Nelle pareti di una casa, uno strato poco conduttore ostacola il passaggio del calore. Il modello della parete omogenea aiuta a capire perché il materiale e lo spessore influenzano le dispersioni; una parete reale con più strati richiede di considerare insieme l’effetto di tutti gli strati. Lo schema del muro nella sezione sulla legge di Fourier permette di collegare questa scelta del materiale alla potenza dispersa.
+
+### Finestre con vetrocamera
+
+Nel doppio vetro, due lastre sono separate da uno spazio sigillato che contiene aria o un gas poco conduttore. Quando l’intercapedine e le condizioni sono progettate correttamente, si riduce il trasferimento di calore rispetto a un vetro singolo. L’effetto non dipende dalla sola conduzione: possono contribuire anche irraggiamento e piccoli moti del gas; perciò non applichiamo direttamente la formula di Fourier della parete omogenea all’intera finestra.
+
+[IMMAGINE 09 — Riutilizzare vetro-italiano.png già approvato e incorporato nella v7, senza ulteriori traduzioni.]
+
+Didascalia: Le due lastre di vetro sono separate da un’intercapedine sigillata che limita gli scambi termici. Il distanziatore mantiene la distanza tra le lastre; il materiale essiccante assorbe l’umidità residua.
+
+### Un igloo isolato dalla neve
+
+Le pareti di neve non sono una sorgente di calore. La neve contiene numerose piccole cavità d’aria: l’aria intrappolata e quasi immobile conduce poco, contribuendo all’isolamento. Uno spessore sufficiente riduce la velocità con cui l’energia termica abbandona l’interno, che può quindi restare meno freddo dell’esterno quando sono presenti sorgenti di calore. Non basta dire che la neve è fredda: conta soprattutto come ostacola il trasferimento.
+
+[IMMAGINE 10 — Le pareti di neve contengono aria intrappolata e limitano le perdite di calore verso l’esterno.]
+
+Didascalia: Le pareti di neve contengono aria intrappolata e limitano le perdite di calore verso l’esterno.
+
+## Quanto calore attraversa un materiale?
 
 ### La rapidità del trasferimento: la potenza termica
 
@@ -74,44 +127,6 @@ A parità delle altre condizioni, raddoppiare λ, A oppure ΔT raddoppia la pote
 [IMMAGINE 06 — Riutilizzare muro-italiano.png e grafico SVG corretto dell’HTML v7: facce a 20 °C e −10 °C, differenza 30 K; composizione invariata su mobile.]
 
 Didascalia: In una parete omogenea, a regime stazionario e con conducibilità costante, la temperatura varia linearmente da una faccia all’altra. Nell’esempio le facce sono mantenute a 20 °C e −10 °C: la differenza di temperatura è 30 K. La superficie A è perpendicolare al flusso di calore.
-
-## Applicazioni
-
-### La caffettiera sul fornello
-
-La fiamma riscalda la base metallica della caffettiera. Il calore si propaga attraverso il corpo di alluminio, che è un buon conduttore; per questo la parte metallica diventa molto calda. Il manico è invece realizzato in un materiale che conduce molto meno: a parità di condizioni può restare relativamente più tiepido, permettendo di afferrarlo con maggiore sicurezza. Anche il manico può però scottare dopo un riscaldamento prolungato.
-
-[IMMAGINE 07 — Il corpo metallico trasferisce rapidamente energia, mentre il manico poco conduttore ostacola il passaggio del calore fino alla mano.]
-
-Didascalia: Il corpo metallico trasferisce rapidamente energia, mentre il manico poco conduttore ostacola il passaggio del calore fino alla mano.
-
-Nelle pareti di una casa, uno strato poco conduttore ostacola il passaggio del calore. Il modello della parete omogenea aiuta a capire perché il materiale e lo spessore influenzano le dispersioni; una parete reale con più strati richiede di considerare insieme l’effetto di tutti gli strati. La sezione del muro già discussa è il riferimento per questo modello.
-
-### Finestre con vetrocamera
-
-Nel doppio vetro, due lastre sono separate da uno spazio sigillato che contiene aria o un gas poco conduttore. Quando l’intercapedine e le condizioni sono progettate correttamente, si riduce il trasferimento di calore rispetto a un vetro singolo. L’effetto non dipende dalla sola conduzione: possono contribuire anche irraggiamento e piccoli moti del gas; perciò non applichiamo direttamente la formula di Fourier della parete omogenea all’intera finestra.
-
-[IMMAGINE 09 — Riutilizzare vetro-italiano.png già approvato e incorporato nella v7, senza ulteriori traduzioni.]
-
-Didascalia: Le due lastre di vetro sono separate da un’intercapedine sigillata che limita gli scambi termici. Il distanziatore mantiene la distanza tra le lastre; il materiale essiccante assorbe l’umidità residua.
-
-### Un igloo isolato dalla neve
-
-Le pareti di neve non sono una sorgente di calore. La neve contiene numerose piccole cavità d’aria: l’aria intrappolata e quasi immobile conduce poco, contribuendo all’isolamento. Uno spessore sufficiente riduce la velocità con cui l’energia termica abbandona l’interno, che può quindi restare meno freddo dell’esterno quando sono presenti sorgenti di calore. Non basta dire che la neve è fredda: conta soprattutto come ostacola il trasferimento.
-
-[IMMAGINE 10 — Le pareti di neve contengono aria intrappolata e limitano le perdite di calore verso l’esterno.]
-
-Didascalia: Le pareti di neve contengono aria intrappolata e limitano le perdite di calore verso l’esterno.
-
-### La lingua sul palo gelato
-
-Quando la lingua tocca un palo metallico gelato, l’energia si trasferisce dalla lingua, più calda, al metallo, più freddo. Il palo conduce rapidamente questa energia lontano dalla zona di contatto, verso le parti circostanti. Se il metallo è abbastanza freddo, la saliva può perdere energia fino a congelare: il sottile strato di ghiaccio che si forma fa aderire la lingua alla superficie.
-
-Nei metalli alcuni elettroni possono muoversi attraverso il materiale, senza restare legati a un singolo atomo. Questi **elettroni mobili** trasportano energia dalle regioni più calde a quelle più fredde e la scambiano con le altre parti del metallo. Alla conduzione contribuiscono anche le vibrazioni degli atomi, ma gli elettroni mobili spiegano perché molti metalli siano conduttori termici particolarmente efficaci.
-
-[IMMAGINE 12 — Riutilizzare l’animazione già approvata del contatto con il palo gelato, senza alterazioni.]
-
-Didascalia: Il metallo conduce energia lontano dal punto di contatto; se la saliva congela, il ghiaccio fa aderire la lingua al palo. È pericoloso: non va provato.
 
 ## Domande di verifica
 

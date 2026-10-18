@@ -44,7 +44,8 @@
       "id": "img-06",
       "alt": "Caffettiera moka metallica con manico nero su un fornello a gas acceso",
       "sha256_src": "f1a1a5599b8acbcc57751f0e7858da284687aa4b1fca1953a8eccc9db03c27ef",
-      "destinazione": "conduzione"
+      "destinazione": "conduzione",
+      "uso_previsto": "Caffettiera: corpo conduttore e manico isolante, applicazione di collegamento tra le due sezioni; una sola figura."
     },
     {
       "id": "img-07",
@@ -63,7 +64,7 @@
       "alt": "Animazione di una persona che avvicina la lingua a un palo metallico in ambiente freddo",
       "sha256_src": "e08143db75f528ef12a42307da2be11cd18ecd973951120a8d559ae5d3566a24",
       "destinazione": "conduzione",
-      "uso_previsto": "Applicazione: lingua sul palo gelato; trasferimento di energia, congelamento della saliva e conduzione nei metalli. Animazione invariata."
+      "uso_previsto": "Palo gelato nella sezione Conduttori termici; animazione invariata."
     },
     {
       "id": "img-10",
@@ -117,5 +118,14 @@
   "quesiti_previsti": {
     "conduzione": 12,
     "convezione": 7
-  }
+  },
+  "struttura_conduzione": [
+    "Il manico che si scalda e meccanismo microscopico",
+    "Conducibilità termica e tabella",
+    "Conduttori termici: elettroni, video, palo gelato, caffettiera",
+    "Isolanti termici: definizione, aria intrappolata, pareti, vetrocamera, igloo",
+    "Potenza termica e legge di Fourier",
+    "Domande di verifica"
+  ],
+  "decisione_applicazioni": "Integrate nelle sezioni su conduttori e isolanti, su richiesta esplicita del 18 ottobre 2026 ore 13:25 Europe/Rome"
 }
