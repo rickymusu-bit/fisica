@@ -1,5 +1,11 @@
 # Stato — Home e GitHub Pages
 
+## Navigazione breve e area tematica — 18 ottobre 2026
+
+Controlli completati: 12 viste a 320/390/768/1280 px, ritorni al catalogo funzionanti, nessun overflow; anteprime HTML e immagini mobile/desktop consegnate prima della pubblicazione.
+
+Richiesta esplicita eseguita: due collegamenti «← Articoli» in ogni articolo e nome esatto dell’area tematica della home sopra il titolo («Materia e calore» per i tre attuali). Tema autonomo **v6** con segnaposto «Nome dell’area tematica»; regole operative in AGENTS e `riferimenti/TERMINOLOGIA_SITO.md` **v4**, che sostituiscono il precedente ritorno di A6 del master v59. Master conservato senza refactoring estraneo alla richiesta. Home generata **v14**, Stati della materia **v16**, Passaggi di stato **v18**, Irraggiamento **v9**. Sette articoli esclusi invariati. Report verifiche e pubblicazione: `navigazione-categorie.json`.
+
 ## Logo definitivo, tema comune e pubblicazione autorizzata — 18 ottobre 2026
 
 L’utente ha approvato l’onda stazionaria con ampiezza 20 e richiesto esplicitamente: eliminare gli altri tentativi, pubblicarla nella home e al posto dell’icona nella barra in alto a sinistra degli articoli, salvare la scelta come regola grafica. **Pubblicazione autorizzata**, compresi il logo definitivo e le correzioni già pronte e approvate nel ramo corrente.

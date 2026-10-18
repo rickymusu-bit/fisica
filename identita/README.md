@@ -1,6 +1,6 @@
 # Logo definitivo di Materia Oscura
 
-Versione v5 · 18 ottobre 2026. Scelta approvata dall’utente, che ha richiesto di eliminare gli altri tentativi, pubblicarla nella home e sostituire l’icona in alto a sinistra negli articoli. È una regola del tema comune **v5**, salvato in `riferimenti/TEMA_DISPENSE.html`.
+Versione v5 · 18 ottobre 2026. Scelta approvata dall’utente, che ha richiesto di eliminare gli altri tentativi, pubblicarla nella home e sostituire l’icona in alto a sinistra negli articoli. È una regola del tema comune **v6**, salvato in `riferimenti/TEMA_DISPENSE.html`.
 
 I soli file grafici correnti sono:
 
