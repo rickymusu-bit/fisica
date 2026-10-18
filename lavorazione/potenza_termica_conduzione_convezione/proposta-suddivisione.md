@@ -5,7 +5,7 @@
 | Capitolo e futuro percorso | Provenienza | Contenuti e risorse conservati | Domande |
 | --- | --- | --- | --- |
 | Conduzione · `conduzione_it.html` | `#potenza` + `#conduzione`, primi due gruppi di domande | Breve sezione sulla potenza termica; zuppa e cucchiaio; schema statico degli elettroni mobili da scegliere; tabella λ con tutti gli otto materiali; video con miniatura e URL esatti; Fourier; muro e grafico corretto; caffettiera, vetrocamera, igloo, lingua sul palo gelato ed elettroni mobili. | 12 |
-| Convezione · `convezione_it.html` | `#convezione`, terzo gruppo di domande | Stanza, densità e gravità; meccanismo naturale e forzato; atmosfera e rotazione; correnti marine, temperatura, salinità e sprofondamento; ventola del processore; radiatore, pompa, termostato, alette e ramo dell’abitacolo. | 7 |
+| Convezione · `convezione_it.html` | `#convezione`, terzo gruppo di domande | Stanza, densità e gravità; meccanismo naturale e forzato; aquila nelle termiche; ventola del processore; radiatore, pompa, termostato, alette e ramo dell’abitacolo. | 6 |
 
 ## Scelta strutturale ricevuta
 
@@ -14,7 +14,7 @@ Il 18 ottobre 2026 alle 13:12 l’utente ha indicato di integrare la potenza ter
 ## Bozze complete da esaminare
 
 - [Conduzione](../conduzione/bozza.md): apertura sul manico che si scalda e meccanismo microscopico; conducibilità; sezioni «Conduttori termici» e «Isolanti termici» con applicazioni integrate; breve potenza termica e legge di Fourier; 12 domande finali, senza esempio svolto sulle stufette.
-- [Convezione](../convezione/bozza.md): apertura sull’aria sopra il termosifone; teoria naturale e forzata; applicazioni atmosferiche, oceaniche e tecniche; domande finali. Nessuna legge di Newton aggiunta automaticamente, perché assente dalla fonte approvata.
+- [Convezione](../convezione/bozza.md): apertura sull’aria sopra il termosifone; teoria naturale e forzata; aquila nelle termiche e applicazioni tecniche; domande finali. Nessuna legge di Newton aggiunta automaticamente, perché assente dalla fonte approvata.
 
 Su richiesta del 18 ottobre alle 13:18, il dissipatore è rimosso da Conduzione, insieme alla sua figura e al quesito dedicato. Resta trattato in Convezione, dove è già presente anche il quesito sul radiatore e sul processore. Le applicazioni sono integrate nelle sezioni su conduttori e isolanti per richiesta esplicita dell’utente del 18 ottobre alle 13:25; questa scelta specifica sostituisce la precedente sezione separata «Applicazioni» in Conduzione, senza modificare il master o altri capitoli. Nessun nuovo capitolo di meteorologia o geologia, nessun riepilogo automatico, nessuna soluzione alle domande.
 
@@ -24,7 +24,7 @@ Su richiesta del 18 ottobre alle 13:18, il dissipatore è rimosso da Conduzione,
 - Specificare che P = Q/Δt indica la potenza media sull’intervallo. Distinguere potenza termica e potenza elettrica nominale con una nota breve.
 - Interpretare discorsivamente λ, area, spessore e differenza di temperatura; conservare il profilo lineare soltanto nello spessore e il ΔT = 30 K del grafico approvato.
 - Dare una base alla domanda esistente sul ventilatore: convezione ed evaporazione sono meccanismi diversi; l’aria mossa non è automaticamente più fredda. Nessun nuovo esercizio sul corpo umano.
-- Conservare le 19 richieste rimaste dopo la rimozione del quesito sul dissipatore da Conduzione; eventuali riformulazioni in vero/falso motivati o scelta multipla richiedono approvazione della formulazione. Le bozze attuali mantengono il set storico, prevalentemente aperto.
+- Conservare le 18 richieste attuali, dopo la rimozione del quesito sul dissipatore da Conduzione e la sostituzione dei due quesiti atmosferico/oceanico con quello sull’aquila; eventuali riformulazioni in vero/falso motivati o scelta multipla richiedono approvazione della formulazione. Le bozze attuali mantengono il set storico, prevalentemente aperto.
 
 ## Applicazioni presenti dopo la rimozione del dissipatore
 
@@ -35,7 +35,7 @@ In Conduzione restano cinque casi applicativi, organizzati per funzione dei mate
 
 La distinzione usa la conducibilità, senza fissare una soglia universale né presentare l’isolante come una sorgente di calore. La tabella dei materiali resta il confronto quantitativo comune. La breve sezione sulla potenza termica e la legge di Fourier seguono le due sezioni, per quantificare ciò che è stato osservato. Il cucchiaio resta la situazione iniziale della teoria. Il contributo degli elettroni mobili è spiegato nella sezione sui conduttori e non ripetuto nell’applicazione del palo.
 
-In Convezione restano quattro applicazioni nella sezione dedicata: atmosfera, correnti marine, raffreddamento del processore, radiatore dell’automobile. Il termosifone è il caso iniziale della teoria; contando anche quello, i casi concreti sono cinque. «Conduzione e convezione lavorano insieme» collega processore e radiatore, senza introdurre una sesta applicazione.
+In Convezione restano tre applicazioni nella sezione dedicata: aquila nelle termiche, raffreddamento del processore e radiatore dell’automobile. Il termosifone resta il caso iniziale della teoria. Gli esempi di convezione naturale sono dunque termosifone e aquila; circolazione atmosferica globale e correnti marine sono ritirate dalla bozza su scelta esplicita del 18 ottobre alle 16:42.
 
 ## Visuali, interazioni e copertine
 
@@ -69,3 +69,7 @@ Video: miniatura e URL esatti della fonte, nessun player incorporato. Grafico de
 ## Sostituzione concordata — 18 ottobre 2026, ore 15:38
 
 Le correnti marine sostituiscono integralmente il mantello nella bozza di Convezione, nel quesito 3 e nella nota 3. Distinti temperatura/salinità/densità e ruolo dei venti, con fonti NOAA in nota. Serve la nuova immagine M-1 della circolazione oceanica, da scegliere/fornire; lo schema storico del mantello resta conservato ma escluso dalla nuova bozza. Nessuna sostituzione delle altre applicazioni.
+
+## Scelta corrente degli esempi naturali — 18 ottobre 2026, ore 16:42
+
+L’utente sceglie termosifone e aquila. Il termosifone rimane apertura della teoria; l’aquila nelle termiche sostituisce le due applicazioni sulla circolazione atmosferica globale e sulle correnti marine. Anche i due quesiti relativi sono sostituiti da un solo quesito sull’aquila: 6 domande in Convezione, 12 in Conduzione. La domanda naturale/forzata richiama ora termosifone e aquila. Nuova immagine richiesta N-1: aquila con ali distese in una termica, terreno visibile e spazio per frecce esplicative. Il precedente segnaposto M-1 è ritirato; immagini atmosferiche e del mantello conservate tra le risorse storiche, escluse dal nuovo capitolo. Gli aggiornamenti storici precedenti non descrivono più la selezione corrente.

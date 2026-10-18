@@ -26,27 +26,17 @@ Il ricambio del fluido non determina da solo il verso del trasferimento. Se una 
 
 ## Applicazioni
 
-### L’atmosfera mette in movimento l’aria
+### L’aquila sale senza battere le ali
 
-La circolazione osservata in una stanza ha un parente su scala molto più grande. Le regioni equatoriali ricevono mediamente più energia solare di quelle polari: l’atmosfera viene riscaldata in modo disuguale e si formano differenze che contribuiscono a mettere in movimento grandi masse d’aria. In alcune regioni l’aria sale, si sposta in quota e ridiscende altrove, trasportando energia tra zone diverse.
+Un’aquila può descrivere ampi cerchi nel cielo e guadagnare quota tenendo le ali distese. Non sta ricevendo una spinta da un motore e non batte le ali: come riesce a salire? In queste situazioni può sfruttare una corrente d’aria ascendente chiamata **termica**.
 
-[IMMAGINE 15 — Atmosfera-originale-14874.jpg già approvata.]
+Il Sole riscalda il terreno, che a sua volta trasferisce energia all’aria vicina alla superficie. Dove il riscaldamento è maggiore, l’aria può diventare meno densa di quella circostante e salire per effetto della spinta di Archimede. Si forma così una regione di aria ascendente: è un esempio di convezione naturale, perché il movimento nasce dalle differenze di densità e dall’azione della gravità.
 
-Didascalia: Lo schema mostra le grandi fasce della circolazione atmosferica e i venti associati alle celle di Hadley, Ferrel e polari.
+[IMMAGINE N-1 — Da scegliere/fornire: aquila in volo con ali distese dentro una termica, con terreno sottostante e spazio per indicare risalita dell’aria e percorso circolare. Usare un’immagine riconoscibile dell’animale; eventuali frecce esplicative non ne sostituiscono la figura. Nessuna ricerca o generazione avviata.]
 
-La Terra, però, ruota. La rotazione devia i movimenti dell’aria e contribuisce a organizzare la circolazione nelle grandi fasce rappresentate nello schema. I venti planetari non si spiegano quindi con il solo riscaldamento: contano anche la rotazione e l’interazione tra le diverse regioni dell’atmosfera. Le celle di Hadley, Ferrel e polari riassumono questa organizzazione in un modello semplificato.
+Didascalia: L’aquila gira nella regione di aria ascendente e può guadagnare quota senza battere le ali.
 
-### Le correnti marine trasportano energia
-
-Negli oceani l’acqua si sposta tra regioni che ricevono quantità diverse di energia solare. Le correnti possono trasportare acqua relativamente calda verso zone più fredde e acqua fredda verso altre regioni, contribuendo a redistribuire energia sul pianeta. Ma che cosa mette in movimento queste enormi masse d’acqua?
-
-Una parte della risposta riguarda la **densità**, che nell’acqua di mare dipende sia dalla temperatura sia dalla quantità di sali disciolti, cioè dalla **salinità**. A parità di salinità, l’acqua marina diventa generalmente più densa raffreddandosi; a parità di temperatura, una maggiore salinità la rende più densa. In alcune regioni delle alte latitudini, l’acqua superficiale si raffredda e, se diventa più densa di quella sottostante, può sprofondare. La discesa porta acqua dalla superficie verso gli strati profondi ed è un esempio di convezione naturale.
-
-[IMMAGINE M-1 — Da scegliere/fornire: schema della circolazione oceanica con correnti superficiali e profonde, trasporto di acqua relativamente calda e fredda e zone di sprofondamento. Distinguere temperatura e salinità; non rappresentare tutte le correnti come prodotte dalla sola convezione. Sostituisce lo schema del mantello, che resta conservato tra le risorse storiche.]
-
-Didascalia: Le correnti collegano regioni e profondità diverse dell’oceano. Dove l’acqua superficiale diventa sufficientemente densa, può scendere verso gli strati profondi.
-
-Questo processo contribuisce alla **circolazione termoalina**: il nome richiama proprio temperatura e salinità. Il sistema delle correnti marine comprende però anche movimenti prodotti dai venti, particolarmente importanti vicino alla superficie. Il trasporto di energia negli oceani nasce quindi dall’azione combinata di più meccanismi: lo sprofondamento per differenze di densità è la parte che ci permette di riconoscere la convezione naturale.[3]
+Volando in cerchio, l’aquila può rimanere all’interno della termica. Durante il volo planato tende a scendere rispetto all’aria che la sostiene, ma se quell’aria sale abbastanza rapidamente, l’animale guadagna quota rispetto al terreno. Il moto convettivo dell’aria rende quindi possibile una risalita che, osservando soltanto le ali ferme, potrebbe sembrare difficile da spiegare.[3]
 
 ### La ventola del processore
 
@@ -74,17 +64,15 @@ In entrambi i dispositivi conduzione e convezione svolgono compiti collegati. Il
 
 1. **Il termosifone.** Perché l’aria sopra un termosifone tende a salire? In quali punti della stanza l’aria più fredda può scendere? Spiega il ruolo delle differenze di densità.
 
-2. **I venti della Terra.** Perché il riscaldamento solare non uniforme può produrre grandi movimenti dell’aria? Perché non basta considerare solo il riscaldamento per spiegare la direzione dei venti?
+2. **L’aquila nella termica.** Come si forma una termica sopra un terreno riscaldato dal Sole? Perché un’aquila può guadagnare quota senza battere le ali? Spiega quale ruolo hanno densità dell’aria, gravità e movimento dell’aria.
 
-3. **Le correnti marine.** Come influiscono temperatura e salinità sulla densità dell’acqua di mare? In quali condizioni l’acqua superficiale può sprofondare? Perché sarebbe incompleto attribuire tutte le correnti marine alla sola convezione naturale?
+3. **Naturale o forzata?** Distingui la convezione naturale vicino al termosifone e nella termica sfruttata dall’aquila dalla convezione forzata nei sistemi con ventola. Che cosa mette principalmente in movimento il fluido nei due casi?
 
-4. **Naturale o forzata?** Distingui la convezione naturale della stanza e dell’atmosfera dalla convezione forzata nei sistemi con ventola. Che cosa mette principalmente in movimento il fluido nei due casi?
+4. **Radiatore dell’auto e processore.** Spiega perché il radiatore e il dissipatore CPU hanno numerose alette. Quali parti svolgono il trasferimento per conduzione e quali permettono la convezione forzata?
 
-5. **Radiatore dell’auto e processore.** Spiega perché il radiatore e il dissipatore CPU hanno numerose alette. Quali parti svolgono il trasferimento per conduzione e quali permettono la convezione forzata?
+5. **Il ventilatore e la temperatura del corpo.** Durante una giornata molto calda, una persona utilizza un ventilatore, che muove l’aria ma non ne abbassa direttamente la temperatura. Perché può favorire il raffreddamento quando l’aria è più fresca della pelle? Che cosa cambia nel trasferimento per convezione se l’aria diventa più calda della pelle? Perché il ventilatore può ancora aiutare se il sudore evapora efficacemente? In quali condizioni di temperatura e umidità può invece diventare insufficiente o contribuire al surriscaldamento? Motiva le risposte.
 
-6. **Il ventilatore e la temperatura del corpo.** Durante una giornata molto calda, una persona utilizza un ventilatore, che muove l’aria ma non ne abbassa direttamente la temperatura. Perché può favorire il raffreddamento quando l’aria è più fresca della pelle? Che cosa cambia nel trasferimento per convezione se l’aria diventa più calda della pelle? Perché il ventilatore può ancora aiutare se il sudore evapora efficacemente? In quali condizioni di temperatura e umidità può invece diventare insufficiente o contribuire al surriscaldamento? Motiva le risposte.
-
-7. **Assenza di gravità.** In condizioni di assenza di gravità, si formerebbero le stesse correnti naturali osservate in una stanza sulla Terra? Una ventola potrebbe invece continuare a muovere l’aria? Spiega.
+6. **Assenza di gravità.** In condizioni di assenza di gravità, si formerebbero le stesse correnti naturali osservate in una stanza sulla Terra? Una ventola potrebbe invece continuare a muovere l’aria? Spiega.
 
 ## Note
 
@@ -92,6 +80,6 @@ In entrambi i dispositivi conduzione e convezione svolgono compiti collegati. Il
 
 [2] Sulla pelle sudata interviene anche l’evaporazione: il passaggio del sudore allo stato di vapore sottrae energia alla pelle. L’aria in movimento può favorirlo, ma un’umidità elevata lo ostacola; in condizioni molto calde e umide questo effetto può risultare insufficiente a compensare il calore ricevuto.
 
-[3] Lo schema oceanico rappresenta un modello semplificato: i percorsi reali non formano un unico circuito regolare. Fonti scientifiche: NOAA, [What causes ocean currents?](https://oceanexplorer.noaa.gov/ocean-fact/currents/) e [Thermohaline Circulation](https://oceanservice.noaa.gov/education/tutorial_currents/05conveyor1.html).
+[3] Le termiche sono uno dei meccanismi che permettono il volo veleggiato: esistono anche correnti ascendenti prodotte dal vento che incontra un rilievo. Qui consideriamo soltanto la risalita dovuta al riscaldamento del terreno. Fonti: [Cornell Lab, Golden Eagle Soaring on a Thermal](https://academy.allaboutbirds.org/golden-eagle-soaring-on-a-thermal/) e [NASA, Forces on a Glider](https://www.grc.nasa.gov/www/k-12/VirtualAero/BottleRocket/airplane/glider.html).
 
 [4] Negli scambi dei dispositivi reali può contribuire anche l’irraggiamento.

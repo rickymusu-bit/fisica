@@ -84,7 +84,8 @@
       "id": "img-12",
       "alt": "Circolazione atmosferica con celle di Hadley, Ferrel e polari, alisei, venti occidentali e orientali polari, con etichette italiane.",
       "sha256_src": "aaccb0997a4a6244af06f70af7b506d483672ed760ffddf0a87de905a4581b54",
-      "destinazione": "convezione"
+      "destinazione": null,
+      "stato": "circolazione atmosferica globale esclusa dalla bozza su scelta del 18 ottobre 2026 ore 16:42; originale conservato"
     },
     {
       "id": "img-13",
@@ -119,7 +120,7 @@
   "esempio_stufette": "rimosso su richiesta; domande finali invariate",
   "quesiti_previsti": {
     "conduzione": 12,
-    "convezione": 7
+    "convezione": 6
   },
   "struttura_conduzione": [
     "Il manico che si scalda e breve spiegazione microscopica senza simulazione",
@@ -146,8 +147,17 @@
   "revisione_stilistica": "prosa didattica di entrambi i capitoli integralmente riscritta il 18 ottobre 2026 ore 13:36 secondo STILE_DISPENSE.md v6 ed esempio_irraggiamento.md v2; presentata per approvazione",
   "nuova_immagine_correnti_marine": {
     "id": "M-1",
-    "stato": "da scegliere/fornire; non cercata o generata",
+    "stato": "richiesta ritirata: applicazione sostituita dall’aquila il 18 ottobre 2026 ore 16:42",
     "soggetto": "circolazione oceanica superficiale/profonda; temperatura, salinità e zone di sprofondamento",
     "sostituisce": "img-13, schema del mantello"
-  }
+  },
+  "nuova_immagine_aquila": {
+    "id": "N-1",
+    "stato": "da scegliere/fornire; non cercata o generata",
+    "soggetto": "aquila con ali distese nella termica, terreno e frecce esplicative del moto dell’aria e del volo"
+  },
+  "esempi_convezione_naturale": [
+    "termosifone",
+    "aquila nelle termiche"
+  ]
 }
