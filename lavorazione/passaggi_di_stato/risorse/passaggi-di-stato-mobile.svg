@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns2="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="374.4pt" height="734.4pt" viewBox="0 0 374.4 734.4" version="1.1" role="img" aria-labelledby="titolo descrizione">
+ <title id="titolo">Passaggi di stato</title><desc id="descrizione">Solido a liquido: fusione; liquido a solido: solidificazione. Liquido a gas: vaporizzazione; gas a liquido: condensazione. Solido a gas: sublimazione; gas a solido: brinamento. Fusione, vaporizzazione e sublimazione assorbono energia; i passaggi inversi cedono energia.</desc><metadata>
+  <rdf:RDF>
+   <ns2:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:date>2026-10-17T19:41:55.275910</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <ns2:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </ns2:Agent>
+    </dc:creator>
+   </ns2:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 734.4  L 374.4 734.4  L 374.4 0  L 0 0  z " style="fill: #faf9f5" />
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 102.34054 157.284  Q 187.201047 157.284 269.378273 157.284  " clip-path="url(#pac7cb9f366)" style="fill: none; stroke: #ac431d; stroke-width: 2.4; stroke-linecap: round" />
+    <path d="M 260.178273 152.684  L 269.378273 157.284  L 260.178273 161.884  z " clip-path="url(#pac7cb9f366)" style="fill: #ac431d; stroke: #ac431d; stroke-width: 2.4; stroke-linecap: round" />
+   </g>
+   <g id="patch_3">
+    <path d="M 272.05946 205.2648  Q 187.198953 205.2648 105.021727 205.2648  " clip-path="url(#pac7cb9f366)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #146a86; stroke-width: 2.4; stroke-linecap: round" />
+    <path d="M 114.221727 209.8648  L 105.021727 205.2648  L 114.221727 200.6648  z " clip-path="url(#pac7cb9f366)" style="fill: #146a86; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #146a86; stroke-width: 2.4; stroke-linecap: round" />
+   </g>
+   <g id="patch_4">
+    <path d="M 102.34054 349.2072  Q 187.201047 349.2072 269.378273 349.2072  " clip-path="url(#pac7cb9f366)" style="fill: none; stroke: #ac431d; stroke-width: 2.4; stroke-linecap: round" />
+    <path d="M 260.178273 344.6072  L 269.378273 349.2072  L 260.178273 353.8072  z " clip-path="url(#pac7cb9f366)" style="fill: #ac431d; stroke: #ac431d; stroke-width: 2.4; stroke-linecap: round" />
+   </g>
+   <g id="patch_5">
+    <path d="M 272.05946 397.188  Q 187.198953 397.188 105.021727 397.188  " clip-path="url(#pac7cb9f366)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #146a86; stroke-width: 2.4; stroke-linecap: round" />
+    <path d="M 114.221727 401.788  L 105.021727 397.188  L 114.221727 392.588  z " clip-path="url(#pac7cb9f366)" style="fill: #146a86; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #146a86; stroke-width: 2.4; stroke-linecap: round" />
+   </g>
+   <g id="patch_6">
+    <path d="M 102.34054 541.1304  Q 187.201047 541.1304 269.378273 541.1304  " clip-path="url(#pac7cb9f366)" style="fill: none; stroke: #ac431d; stroke-width: 2.4; stroke-linecap: round" />
+    <path d="M 260.178273 536.5304  L 269.378273 541.1304  L 260.178273 545.7304  z " clip-path="url(#pac7cb9f366)" style="fill: #ac431d; stroke: #ac431d; stroke-width: 2.4; stroke-linecap: round" />
+   </g>
+   <g id="patch_7">
+    <path d="M 272.05946 589.1112  Q 187.198953 589.1112 105.021727 589.1112  " clip-path="url(#pac7cb9f366)" style="fill: none; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #146a86; stroke-width: 2.4; stroke-linecap: round" />
+    <path d="M 114.221727 593.7112  L 105.021727 589.1112  L 114.221727 584.5112  z " clip-path="url(#pac7cb9f366)" style="fill: #146a86; stroke-dasharray: 8.88,3.84; stroke-dashoffset: 0; stroke: #146a86; stroke-width: 2.4; stroke-linecap: round" />
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 23px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #163c49" x="187.2" y="40.3308" transform="rotate(-0 187.2 40.3308)">Passaggi di stato</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #163c49" x="46.4256" y="185.413463" transform="rotate(-0 46.4256 185.413463)">Solido</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #163c49" x="327.9744" y="185.413463" transform="rotate(-0 327.9744 185.413463)">Liquido</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 17px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #ac431d" x="187.2" y="128.49552" transform="rotate(-0 187.2 128.49552)">Fusione</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 17px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #146a86" x="187.2" y="244.2492" transform="rotate(-0 187.2 244.2492)">Solidificazione</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #163c49" x="46.4256" y="377.336663" transform="rotate(-0 46.4256 377.336663)">Liquido</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #163c49" x="327.9744" y="377.336663" transform="rotate(-0 327.9744 377.336663)">Gas</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 17px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #ac431d" x="187.2" y="320.41872" transform="rotate(-0 187.2 320.41872)">Vaporizzazione</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 17px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #146a86" x="187.2" y="436.1724" transform="rotate(-0 187.2 436.1724)">Condensazione</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #163c49" x="46.4256" y="569.259863" transform="rotate(-0 46.4256 569.259863)">Solido</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #163c49" x="327.9744" y="569.259863" transform="rotate(-0 327.9744 569.259863)">Gas</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 17px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #ac431d" x="187.2" y="512.34192" transform="rotate(-0 187.2 512.34192)">Sublimazione</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 17px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #146a86" x="187.2" y="628.0956" transform="rotate(-0 187.2 628.0956)">Brinamento</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #163c49" transform="translate(90.935625 679.385831)">Linea continua: assorbe energia</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #163c49" transform="translate(90.201563 697.382269)">Linea tratteggiata: cede energia</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pac7cb9f366">
+   <rect x="7.488" y="7.344" width="359.424" height="719.712" />
+  </clipPath>
+ </defs>
+</svg>

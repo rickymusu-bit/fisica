@@ -2,6 +2,7 @@
 from html.parser import HTMLParser
 from pathlib import Path
 import shutil
+import json
 from urllib.parse import unquote, urlsplit
 from home_covers import load_covers, render_covers
 from home_italian import render_italian
@@ -73,6 +74,10 @@ def main():
                 render_covers(source.read_text(encoding="utf-8"), covers), ROOT), encoding="utf-8")
         else:
             shutil.copyfile(source, target)
+    split = json.loads((ROOT / "lavorazione/stati_della_materia_e_passaggi_di_stato/suddivisione.json").read_text())
+    gateway = ROOT / split["origine"]
+    for name in (split["origine"], split["alias"]):
+        shutil.copyfile(gateway, OUTPUT / name)
     for cover in covers:
         source = ROOT / cover["src"]
         target = OUTPUT / cover["src"]

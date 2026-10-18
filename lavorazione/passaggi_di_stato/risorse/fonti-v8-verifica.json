@@ -1,0 +1,145 @@
+[
+  {
+    "file": "v8-p2.gif",
+    "matches": {
+      "batchcomplete": "",
+      "query": {
+        "allimages": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Melting_icecubes.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Melting_icecubes.gif",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=2524477",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2010-07-16 21:31:57",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Melting icecubes",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Ice cubes|Animated GIF files|Self-published work|PD-self|Media of the day|Transparent objects|Melting ice|Time-lapse animations of ice|Glasses of water|Animations of water",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "A time-lapse animation of icecubes melting in a glass (50 minutes).",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2007-08-06",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"https://en.wikipedia.org/wiki/User:Moussa\" class=\"extiw\" title=\"w:User:Moussa\">Moussa</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            },
+            "name": "Melting_icecubes.gif",
+            "ns": 6,
+            "title": "File:Melting icecubes.gif"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "file": "v8-p3.gif",
+    "matches": {
+      "batchcomplete": "",
+      "query": {
+        "allimages": []
+      }
+    }
+  },
+  {
+    "file": "v8-p4.gif",
+    "matches": {
+      "batchcomplete": "",
+      "query": {
+        "allimages": []
+      }
+    }
+  },
+  {
+    "file": "v8-p5.jpg",
+    "matches": {
+      "batchcomplete": "",
+      "query": {
+        "allimages": []
+      }
+    }
+  },
+  {
+    "file": "v8-p6.jpg",
+    "matches": {
+      "batchcomplete": "",
+      "query": {
+        "allimages": []
+      }
+    }
+  },
+  {
+    "file": "v8-p7.jpg",
+    "matches": {
+      "batchcomplete": "",
+      "query": {
+        "allimages": []
+      }
+    }
+  },
+  {
+    "file": "v8-p8.jpg",
+    "matches": {
+      "batchcomplete": "",
+      "query": {
+        "allimages": []
+      }
+    }
+  }
+]

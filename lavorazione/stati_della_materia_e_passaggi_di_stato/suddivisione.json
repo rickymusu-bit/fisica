@@ -1,0 +1,34 @@
+{
+  "origine": "stati_della_materia_e_passaggi_di_stato.html",
+  "alias": "stati_della_materia_e_passaggi_di_stato_v8_20261016.html",
+  "destinazioni": [
+    "stati_della_materia.html",
+    "passaggi_di_stato.html"
+  ],
+  "frammenti": {
+    "top": "stati_della_materia.html#top",
+    "stati": "stati_della_materia.html#stati",
+    "sim-particelle": "stati_della_materia.html#sim-particelle",
+    "solidMotion": "stati_della_materia.html#solidMotion",
+    "liquidMotion": "stati_della_materia.html#liquidMotion",
+    "gasMotion": "stati_della_materia.html#gasMotion",
+    "domande-esercizi": "stati_della_materia.html#domande-esercizi",
+    "site-return-style": "stati_della_materia.html#top",
+    "passaggi": "passaggi_di_stato.html#passaggi",
+    "diagramma": "passaggi_di_stato.html#diagramma",
+    "fusione-solidificazione": "passaggi_di_stato.html#fusione-solidificazione",
+    "vaporizzazione": "passaggi_di_stato.html#vaporizzazione",
+    "condensazione-sublimazione": "passaggi_di_stato.html#condensazione-sublimazione",
+    "latente": "passaggi_di_stato.html#latente",
+    "curveSvg": "passaggi_di_stato.html#curveSvg",
+    "seg-1": "passaggi_di_stato.html#seg-1",
+    "seg-2": "passaggi_di_stato.html#seg-2",
+    "seg-3": "passaggi_di_stato.html#seg-3",
+    "seg-4": "passaggi_di_stato.html#seg-4",
+    "seg-5": "passaggi_di_stato.html#seg-5",
+    "curveButtons": "passaggi_di_stato.html#curveButtons",
+    "curveInfo": "passaggi_di_stato.html#curveInfo",
+    "esercizi-stati": "stati_della_materia.html#domande-esercizi",
+    "esercizi-passaggi": "passaggi_di_stato.html#domande-esercizi"
+  }
+}

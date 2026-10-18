@@ -1,8 +1,44 @@
 # Stato — Stati della materia e passaggi di stato
 
-Ultimo aggiornamento: 2026-10-16 21:16 (Europe/Rome). Master applicato: **v48**; fonte letta integralmente v47, con aggiornamento verificato delle sole regole di denominazione. Riferimento ufficiale: `main`.
+## Pubblicazione autorizzata — 2026-10-18 09:00 (Europe/Rome)
 
-Fase: revisione completata, integrata in `main` con la [PR #6](https://github.com/rickymusu-bit/fisica/pull/6) e pubblicata. [Workflow riuscito](https://github.com/rickymusu-bit/fisica/actions/runs/38935850257).
+L’utente ha approvato le anteprime e richiesto esplicitamente «Ok ok pubblica». Autorizzata l’integrazione del ramo `revisione/materia-passaggi-capitoli` in main e la pubblicazione tramite il workflow Pages esistente: Stati della materia **v13**, Passaggi di stato **v14**, Irraggiamento **v6**. Contenuti approvati al commit `fc325c9ff17e7339a15b403a26b6a98a161e8332`; nessun cambiamento ai tre HTML durante la preparazione della pubblicazione. Master v58 consultato; build locale e copie esatte nell’output verificate. Home con i due capitoli separati e vecchi indirizzi conservati tramite reindirizzamento. Fase: integrazione e deployment in corso, verifica online successiva. Le indicazioni di mancata autorizzazione nei blocchi storici sottostanti sono superate da questa richiesta.
+
+## Ultima revisione dell’irraggiamento — 2026-10-18 02:11 (Europe/Rome)
+
+Irraggiamento v6: note selezionate per utilità didattica, ridotte da 15 a 6 e da 584 a 130 parole. Criterio salvato nel master v58 e nei riferimenti. Tema v3 e altri due capitoli invariati. Verifiche correnti: `../irraggiamento/verifica-note.json`; anteprime aggiornate nella cartella del capitolo. Nessuna pubblicazione.
+
+## Precisazione sul tema comune — 2026-10-18 01:37 (Europe/Rome)
+
+Master **v57**: su indicazione esplicita dell’utente, il nome «Biblioteca» e le note collassabili sono definiti come parti integranti del tema, da ereditare automaticamente. AGENTS allineato. Verificata la loro presenza nel modello autonomo v3; nessuna modifica necessaria al tema HTML o ai tre capitoli già conformi. Nessuna pubblicazione.
+
+## Revisione corrente — 2026-10-18 01:30 (Europe/Rome)
+
+Richiesta diretta: note collassabili, pulsanti «Biblioteca», riparazione dei modelli particellari e del grafico del calore latente, note anche per Irraggiamento. L’utente ha precisato che il problema si presenta nell’**anteprima dentro ChatGPT**. Master **v56** consultato integralmente; modello autonomo **v3**. Regole persistenti aggiornate in A6, AGENTS e STILE_DISPENSE. Note native `details`/`summary`, chiuse all’apertura, con richiami che aprono la sezione e ritorni. Etichetta «← Biblioteca» nei due collegamenti di ciascun capitolo e nel modello. Tema comune riusato integralmente, senza altre varianti grafiche.
+
+Stati della materia v13; Passaggi di stato v14; Irraggiamento v5. Anteprime e verifiche della revisione corrente in `verifica-interazioni.json`. Nessuna pubblicazione.
+
+Ultimo aggiornamento: 2026-10-17 20:55 (Europe/Rome). Master applicato: **v53**, letto integralmente insieme ai due riferimenti di stile.
+
+Fase corrente: suddivisione e tema approvati; bozze complete scritte e controllate, da sottoporre all’approvazione per la revisione richiesta il 17 ottobre 2026. Ramo dedicato `revisione/materia-passaggi-capitoli`, derivato da `main` al commit `d72296ad77a2ae92342386c7dfeb73cc1b44e736`. HTML ufficiale ancora v8: nessuna nuova versione realizzata, integrata o pubblicata.
+
+[Proposta editoriale corrente](proposta-editoriale.md): mappa completa dei contenuti verso due capitoli monografici (`stati_della_materia.html` e `passaggi_di_stato.html`), percorso della riscrittura, riuso di tutte le 13 immagini e delle tre animazioni, materiali mancanti, controlli e stima. La corrispondenza è registrata prima dell'esecuzione, come richiesto da A3.
+
+Approvazione effettiva nuova: richiesta di applicare le regole editoriali, spezzare, riformattare, riordinare e rifare il testo; segnalare nuovi visuali. L’utente ha successivamente risposto **«Approvo»** alla proposta: confermati i due capitoli e il tema della v8. Le nuove immagini non sono ancora state consegnate; le bozze complete non sono ancora state approvate e non è stato dato il via all’HTML previsto da B1.1–B2. Riutilizzare il tema della v8 come revisione dello stile già concordato. Nessuna ricerca o generazione di immagini effettuata.
+
+Verifiche preliminari completate: identità della fonte v8 e blob `8ef5566c73f670dbf23b550e4e36a52cdb7ddfc2`; lettura integrale del documento con parser `huge_tree=True`; 13 immagini, tre animazioni, due tabelle, curva qualitativa e 14 quesiti individuati; due calcoli verificati (167.000 J e 451.400 J). Da correggere il passaggio sulle nuvole, la spiegazione del calore latente e le didascalie; da completare gli schemi degli esercizi e le immagini delle applicazioni. Crediti della fonte incompleti: non attestare licenze verificate.
+
+Punti aperti: file per le copertine e le immagini delle applicazioni, originali adatti agli schemi, riferimenti di licenza mancanti; approvazione delle bozze complete. Nessuna prova dei futuri HTML è stata eseguita, perché non sono ancora stati realizzati. Checklist pertinente: A1–A6, B1.1–B6, C1–C5, D1–D2.1.
+
+Aggiornamento successivo: per **Stati della materia** l'utente ha richiesto tutte foto nuove, schema cristallino/amorfo e ricerca di GIF al posto delle simulazioni. [Registro visuali corrente](../stati_della_materia/visuali.md). Schema realizzato; candidate GIF individuate ma originali non scaricabili nell'ambiente (HTTP 403). Nessuna GIF specifica approvata o inserita. Il riuso di M1–M8 nella proposta iniziale è superato. Passaggi di stato resta invariato.
+
+Bozze correnti: [Stati della materia](../stati_della_materia/bozza.md), con sei domande finali, e [Passaggi di stato](../passaggi_di_stato/bozza.md), con tre applicazioni, un unico esempio svolto completo e otto domande finali. La scrittura completa comprende tutti i nuclei della v8, le formule interpretate, la correzione sulle nuvole e i segnaposto delle immagini. Stati specifici nei rispettivi percorsi di lavorazione.
+
+Prossima operazione: presentare le bozze complete; dopo la loro approvazione aggiornare la stima e raccogliere il via all’HTML. Non modificare la pubblicazione del sito.
+
+## Revisione precedente consolidata
+
+La revisione precedente è stata integrata in `main` con la [PR #6](https://github.com/rickymusu-bit/fisica/pull/6) e pubblicata. [Workflow riuscito](https://github.com/rickymusu-bit/fisica/actions/runs/38935850257). Le approvazioni e verifiche sotto si riferiscono a quel lavoro, non alla nuova suddivisione.
 
 File corrente verificato: [stati_della_materia_e_passaggi_di_stato.html](../../stati_della_materia_e_passaggi_di_stato.html), **v8**. Fonte certa: [stati_della_materia_e_passaggi_di_stato_v6_20261016.html](https://github.com/rickymusu-bit/fisica/blob/a8e171c7c3dcc220521666a8b5330beb4422999e/stati_della_materia_e_passaggi_di_stato_v6_20261016.html), già importata da Drive. La cronologia conserva l’originale; il vecchio URL pubblico verrà reindirizzato mantenendo query e frammento.
 
@@ -20,7 +56,7 @@ Verifiche e hash: [rapporto strutturale](../revisione-blog-verifiche.json) e [pr
 
 Pubblicazione verificata: [esiti HTTPS e confronto dei file](../sito/revisione-blog-online.json). Homepage, otto dispense e otto reindirizzamenti rispondono HTTP 200 con contenuti identici ai file verificati; esclusioni controllate con HTTP 404. Il browser online dell’ambiente ha incontrato un problema di fiducia del certificato e non viene dichiarato verificato; le prove complete nel browser sono quelle locali sugli stessi file. Verifica TLS mantenuta attiva.
 
-Prossima operazione: nessun intervento pendente per questa revisione. Prima di un nuovo lavoro controllare `main`, master e stato; conservare i risultati approvati e i limiti già segnalati.
+Prossima operazione alla chiusura della revisione precedente: nessun intervento allora pendente per quella revisione. Prima di un nuovo lavoro controllare `main`, master e stato; conservare i risultati approvati e i limiti già segnalati.
 
 ## Ritorno all’indice generale
 
@@ -29,3 +65,75 @@ Aggiornamento: 2026-10-16 19:30 (Europe/Rome). Richiesta diretta dell’utente: 
 ## Nomi stabili
 
 Richiesta esplicita dell’utente: rimuovere versione e data dai nomi, conservandole nei documenti. File rinominati, inclusi gli eventuali materiali francesi e albanesi, con identità verificata e contenuti identici byte per byte; versioni interne invariate. Collegamenti correnti aggiornati; per le dispense italiane i vecchi indirizzi pubblici reindirizzano direttamente ai nomi stabili. [Mappa e hash](../sito/nomi-stabili.json). Nessuna revisione scientifica, immagine o simulazione nuova.
+
+## Approvazione del testo sui passaggi e nuovo schema
+
+L’utente affida a sé la ricerca dei materiali («Cerco io») e approva il testo di Passaggi di stato («va tutto bene»), chiedendo di creare uno schema simile alla mappa con le frecce. Schema P1 realizzato in SVG, con disposizione a triangolo e variante verticale per smartphone, controllato nelle due anteprime. [Registro dello schema](../passaggi_di_stato/risorse/schema-passaggi.md). Bozza aggiornata al nuovo schema; HTML ufficiale e pubblicazione invariati. Prossima operazione: consegnare lo schema e attendere i materiali ancora mancanti prima della realizzazione completa.
+
+## Materiali di Stati della materia ricevuti
+
+Otto materiali scelti tramite collegamenti Wikimedia acquisiti e conservati insieme agli originali. [Registro visuali aggiornato](../stati_della_materia/visuali.md). Bozza adattata a ghiaccio in mare, bismuto, vetro, struttura policristallina, viscosità, olio, dirigibile e scarica nell’argon. Il limite di download precedente è risolto per questi file. Il vetro ha originale di 172 × 339 px; restano da fornire le tre GIF del moto particellare. Nessuna modifica all’HTML ufficiale o alla pubblicazione.
+
+## Decisione corrente sulle simulazioni microscopiche
+
+Ultima istruzione dell’utente: **«Mantieni le simulazioni degli stati microscopici»**. Bozza e registro di Stati della materia aggiornati per conservare i tre modelli originali (solido, liquido, gas). La GIF della viscosità resta distinta. La richiesta delle tre GIF sostitutive è superata: per Stati della materia tutti i visuali necessari sono disponibili. Stato corrente nel [file del capitolo](../stati_della_materia/stato.md); nessuna modifica al codice delle simulazioni o all’HTML ufficiale.
+
+## Foto del vetro sostituita
+
+M2 ora è la tartaruga di vetro di Murano scelta dall’utente, originale 2121 × 1414 px: acquisita e verificata con fonte, autore e licenza, registro e didascalia aggiornati. Risolta la limitazione di risoluzione della foto precedente. Tutti i visuali di Stati della materia restano disponibili; le simulazioni microscopiche sono conservate.
+
+## Nuove immagini di Passaggi di stato
+
+C2 (metallo fuso) e A1 (sudore/Michael Jordan) fornite dall’utente, acquisite, ispezionate e registrate con fonte e licenza. Bozza e didascalie aggiornate. [Registro corrente](../passaggi_di_stato/visuali.md). Copertina con CC BY-NC-ND 2.0 da mantenere integra per l’uso non commerciale; credito specifico Jordan registrato. Restano A2–A3 ed E1–E2, con priorità al riuso dei materiali già disponibili. Nessuna modifica al sito.
+
+## Applicazioni aggiornate: pompa di calore e centrale PWR
+
+L’utente elimina il caso e lo schema frigorifero, richiede la sola spiegazione della pompa di calore e fornisce foto A2 e schema nucleare A3. File e originali salvati, fonti/licenze verificate, bozza e domanda 8 aggiornate. A3 trattato come PWR con tre circuiti, non con ebollizione nel reattore. Restano E1–E2; nessun altro visuale applicativo da richiedere. Dettagli nello [stato di Passaggi di stato](../passaggi_di_stato/stato.md).
+
+## Esercizi illustrati e cambio della massa della scultura
+
+L’utente fornisce scultura di ghiaccio e acqua in ebollizione e richiede gli sfondi originali. Foto e originali acquisiti, fonti/licenze registrate; schemi SVG completi preparati e ispezionati. Correzione successiva: «cambia i numeri per adattarli alla statua». Primo problema aggiornato alla scultura intera con massa ipotizzata di **500 kg**, inizialmente a 0 °C: **167 MJ**. Eliminata la porzione da 0,50 kg; nessuna massa reale dedotta dalla foto. Aggiornati il confronto col secondo esercizio e il quesito 5. Secondo problema invariato: 0,20 kg, 451,4 kJ.
+
+Tutti i visuali di entrambi i capitoli sono disponibili. [Bozza Passaggi di stato](../passaggi_di_stato/bozza.md) aggiornata e schemi nel relativo registro. Prossimo passaggio: presentare testi e stima residua 25–40 minuti, raccogliere conferma e via agli HTML secondo B1.1–B2. Nessuna pubblicazione o HTML finale modificati in questa fase.
+
+## Stessa quantità d’acqua per la vaporizzazione
+
+Ultima richiesta: togliere il confronto e chiedere quanta energia serve per vaporizzare la stessa quantità d’acqua. Secondo svolgimento, schema e quesito 6 aggiornati a 500 kg, già a circa 100 °C alla pressione atmosferica ordinaria: 1.128.500.000 J = 1128,5 MJ, soltanto vaporizzazione. Eliminato il precedente confronto con la fusione. Il valore di 0,20 kg e il risultato 451,4 kJ sono superati nella bozza corrente; restano in cronologia. Foto e sfondi conservati.
+
+## Foto della pentola esclusa
+
+Ultima richiesta: «Togli proprio la foto». Rimossa la foto della pentola dal secondo esercizio e dallo schema E2; conservati soltanto il modello con dati, stati e frecce e il calcolo per 500 kg d’acqua. Foto originale conservata come riferimento, non da integrare. Scultura di ghiaccio invariata con sfondo.
+
+## Esempio unico: energia totale dal ghiaccio al vapore
+
+Ultima richiesta: un solo esempio svolto che calcoli l’energia per vaporizzare completamente la scultura partendo da ghiaccio a 0 °C. Bozza ristrutturata in un unico problema con tre fasi: fusione 167 MJ, riscaldamento dell’acqua 209 MJ, vaporizzazione 1128,5 MJ. Massa ipotizzata 500 kg, c acqua ≈ 4180 J/(kg · K), pressione atmosferica ordinaria. Totale **1504,5 MJ = 1.504.500.000 J**, dispersioni e attrezzature trascurate. Foto scultura con sfondo e schema unico `schema-esempio.svg`; vecchi schemi separati sostituiti e conservati in Git. Foto pentola sempre esclusa. Domande finali 5 e 6 aggiornate. Nessuna realizzazione HTML generale o pubblicazione avviata.
+
+## Realizzazione autorizzata e anteprime integrate
+
+Via esplicito «Ok procedi» ricevuto. Due capitoli v9 realizzati e verificati nel browser, offline e a 390/1280 px; navigazione e build aggiornate, vecchi URL conservati mediante `suddivisione.json`. Anteprime e risultati delle verifiche salvati in questa cartella e nelle cartelle dei capitoli. Nessuna pubblicazione. Stato: pronto per revisione, con ottimizzazione del peso di Passaggi di stato in attesa di approvazione puntuale (20,81 MB contro limite 20 MB del master); nessuna ottimizzazione eseguita.
+
+## Aggiornamento peso di Passaggi di stato — 2026-10-17 23:29
+
+L’utente ha richiesto espressamente entrambi i metodi di downsampling su tutte le GIF di Passaggi di stato. Copie ridotte integrate nella v10: 14252684 byte, limite rispettato. Originali conservati. Il precedente punto aperto sull’autorizzazione è risolto. Stati della materia resta v9 e non è modificato; nessuna pubblicazione.
+
+## Tema comune applicato ai capitoli
+
+Su richiesta esplicita dell’utente, adottato il riferimento corrente `irraggiamento_it.html` v4: Lexend, grigio/nero, bordi netti e indice laterale. Stati della materia v10, Passaggi di stato v11; font offline e licenza incorporati, immagini/GIF e testo invariati. Verifiche desktop/mobile e offline superate, anteprime aggiornate e build locale superata. Dettagli in `verifica-tema.json`. Il precedente tema viola della v8 è superato. Nessuna pubblicazione.
+
+## Regole editoriali aggiornate — 18 ottobre 2026, ore 00:31 (Europe/Rome)
+
+Master v54: l’utente segnala errori nel tema e richiede di salvare l’esatto tema grafico adottato come modello autonomo per i capitoli futuri: `riferimenti/TEMA_DISPENSE.html`. Il riferimento operativo è questo modello, non il file del capitolo sull’irraggiamento. A6 ora stabilisce il modello autonomo già scelto, il riuso di struttura/stili e il confronto desktop/mobile; rimossa la richiesta ripetuta del template. A4 impone notazione esponenziale e prefissi SI nei calcoli; A5 richiede un confronto quantitativo concreto per interpretare ogni risultato significativo degli esercizi. Aggiornati anche AGENTS.md e il riferimento linguistico pertinente.
+
+Questa operazione salva le regole: non modifica gli HTML né attesta che le versioni correnti siano già conformi alla richiesta più rigorosa. Alla revisione dei capitoli applicare il modello grafico autonomo esatto, adeguare la scrittura dei calcoli e integrare il confronto finale, conservando visuali e risultati fisici approvati. Nessuna pubblicazione.
+
+Modello autonomo verificato: CSS/font e JavaScript confrontati integralmente con l’origine e identici; prova Chromium offline a 390/1280 px superata per Lexend, layout, indice ed Escape. Non sono stati modificati gli HTML dei capitoli in questa operazione.
+
+## Correzioni integrate — 2026-10-18 00:49 (Europe/Rome)
+
+Stati della materia v11; Passaggi di stato v12. Modello autonomo applicato senza sovrascriverne gli stili; note a piè di pagina secondo master v55; formule scientifiche e SI; confronto finale con consumo elettrico domestico medio ARERA (2024, 1.930 kWh/anno): energia della scultura circa 418 kWh, pari a 2,6 mesi. Fonte e precisazioni in nota. Verifiche offline e desktop/mobile, confronto degli stili effettivi e build superati. Foto/GIF e modello particellare conservati. Dettagli nei due stati e in `verifiche-finali.json`. Nessuna pubblicazione.
+
+Il componente Note con richiamo e ritorno è ora salvato nel modello autonomo **v2** per il riuso futuro. Nessuna modifica ai CSS o ai comandi dei componenti preesistenti; gli stili delle note, già verificati nel browser, sono centralizzati nel modello e incorporati identici nei due capitoli. La sola ricollocazione del CSS non cambia la resa. Pesi correnti: Stati della materia 6519356 byte; Passaggi di stato 14548360 byte.
+
+## Rilettura delle precisazioni tecniche — 2026-10-18 00:56 (Europe/Rome)
+
+Stati della materia v12; Passaggi di stato v13. Ulteriori approfondimenti tecnici spostati nelle note dopo rilettura integrale dei due testi; 6 e 22 note, con 9 e 23 richiami. CSS, script, immagini, formule, risultati e domande invariati. Verifiche offline desktop/mobile, richiami/ritorni e build superati. Registri e anteprime aggiornati. Nessuna pubblicazione.

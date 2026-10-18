@@ -1,0 +1,164 @@
+{
+  "stati_della_materia": {
+    "versione": "v13",
+    "peso_byte": 7892485,
+    "note_collassabili": 1,
+    "biblioteca": 2
+  },
+  "passaggi_di_stato": {
+    "versione": "v14",
+    "peso_byte": 14558814,
+    "note_collassabili": 1,
+    "biblioteca": 2
+  },
+  "note_irraggiamento": [
+    "campi-elettromagnetici",
+    "lunghezza-frequenza",
+    "corpo-nero",
+    "ipotesi-emissione",
+    "raddoppio-temperatura",
+    "bilancio-termico",
+    "lucertola-sole",
+    "ipotesi-bilancio",
+    "temperatura-ambiente",
+    "tostapane-aria",
+    "lettura-termocamera",
+    "isolamento-riflettente",
+    "assorbimento-riemissione",
+    "dati-poster",
+    "flussi-interni"
+  ],
+  "irraggiamento_it": {
+    "versione": "v5",
+    "peso_byte": 5989222,
+    "note_collassabili": 1,
+    "biblioteca": 2
+  },
+  "integrita": {
+    "stati_della_materia": {
+      "versione": "v13",
+      "peso_byte": 7892485,
+      "note": 6,
+      "richiami": 9,
+      "css_modello_identico": true,
+      "js_tema_identico": true,
+      "foto_e_gif_conservate": true,
+      "formule_e_domande_conservate": true,
+      "bozza_html_sincronizzata": true,
+      "ancore_e_ritorni_coerenti": true,
+      "modello_sha256": "b6916049c07467b8d9ff186b6a149805068ae2c1a31674b02dcc661545c764a6",
+      "modello_versione": "v3"
+    },
+    "passaggi_di_stato": {
+      "versione": "v14",
+      "peso_byte": 14558814,
+      "note": 22,
+      "richiami": 23,
+      "css_modello_identico": true,
+      "js_tema_identico": true,
+      "foto_e_gif_conservate": true,
+      "formule_e_domande_conservate": true,
+      "bozza_html_sincronizzata": true,
+      "ancore_e_ritorni_coerenti": true,
+      "modello_sha256": "b6916049c07467b8d9ff186b6a149805068ae2c1a31674b02dcc661545c764a6",
+      "modello_versione": "v3"
+    },
+    "irraggiamento_it": {
+      "versione": "v5",
+      "peso_byte": 5989222,
+      "note": 15,
+      "richiami": 15,
+      "css_modello_identico": true,
+      "js_tema_identico": true,
+      "foto_e_gif_conservate": true,
+      "formule_e_domande_conservate": true,
+      "bozza_html_sincronizzata": true,
+      "ancore_e_ritorni_coerenti": true,
+      "modello_sha256": "b6916049c07467b8d9ff186b6a149805068ae2c1a31674b02dcc661545c764a6",
+      "modello_versione": "v3"
+    }
+  },
+  "modello_particellare_originale_preservato": true,
+  "browser": [
+    {
+      "capitolo": "stati_della_materia",
+      "javascript_documento": true,
+      "blocco_script": null,
+      "caricamento": "HTML completo tramite navigazione HTTP locale",
+      "note_apertura_richiamo_e_ritorno": true,
+      "modelli": "Tutti e tre animati, pausa e avvio indipendenti verificati",
+      "larghezze": [
+        390,
+        1280
+      ],
+      "errori_js": []
+    },
+    {
+      "capitolo": "passaggi_di_stato",
+      "javascript_documento": true,
+      "blocco_script": null,
+      "caricamento": "HTML completo tramite navigazione HTTP locale",
+      "note_apertura_richiamo_e_ritorno": true,
+      "curva": "Cinque tratti selezionabili, descrizione ed evidenziazione corrette",
+      "larghezze": [
+        390,
+        1280
+      ],
+      "errori_js": []
+    },
+    {
+      "capitolo": "irraggiamento_it",
+      "javascript_documento": true,
+      "blocco_script": null,
+      "caricamento": "HTML completo tramite navigazione HTTP locale",
+      "note_apertura_richiamo_e_ritorno": true,
+      "larghezze": [
+        390,
+        1280
+      ],
+      "errori_js": []
+    },
+    {
+      "capitolo": "stati_della_materia",
+      "javascript_documento": false,
+      "blocco_script": "CSP script-src none",
+      "caricamento": "HTML completo tramite navigazione HTTP locale",
+      "note_apertura_richiamo_e_ritorno": true,
+      "modelli": "Tre anteprime GIF animate visibili quando gli script sono bloccati",
+      "larghezze": [
+        390,
+        1280
+      ],
+      "errori_js": []
+    },
+    {
+      "capitolo": "passaggi_di_stato",
+      "javascript_documento": false,
+      "blocco_script": "CSP script-src none",
+      "caricamento": "HTML completo tramite navigazione HTTP locale",
+      "note_apertura_richiamo_e_ritorno": true,
+      "curva": "Cinque tratti selezionabili, descrizione ed evidenziazione corrette",
+      "larghezze": [
+        390,
+        1280
+      ],
+      "errori_js": []
+    },
+    {
+      "capitolo": "irraggiamento_it",
+      "javascript_documento": false,
+      "blocco_script": "CSP script-src none",
+      "caricamento": "HTML completo tramite navigazione HTTP locale",
+      "note_apertura_richiamo_e_ritorno": true,
+      "larghezze": [
+        390,
+        1280
+      ],
+      "errori_js": []
+    }
+  ],
+  "riduzione_movimento": "Tre modelli inizialmente fermi e avviabili con pulsanti indipendenti",
+  "curva_mobile": "Cinque selezioni e tratti evidenziati verificati a 390/1280 px con script attivi e bloccati; grafico completo senza scorrimento orizzontale.",
+  "limite_verifica": "Prove Chromium locali con script incorporati consentiti oppure bloccati tramite CSP; non controllo diretto dell’interfaccia di anteprima di ChatGPT.",
+  "banco_prova": "Scorrimento animato disattivato soltanto nel banco di prova per misurare clic a pagina ferma; il tema distribuito conserva il comportamento approvato."
+}

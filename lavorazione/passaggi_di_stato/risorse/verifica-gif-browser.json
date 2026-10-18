@@ -1,0 +1,85 @@
+{
+  "versione": "v10",
+  "offline": true,
+  "viste": [
+    {
+      "larghezza": 390,
+      "gif": [
+        {
+          "native": [
+            224,
+            360
+          ],
+          "visualizzate": [
+            224,
+            360
+          ],
+          "caricata": true
+        },
+        {
+          "native": [
+            368,
+            221
+          ],
+          "visualizzate": [
+            354,
+            213
+          ],
+          "caricata": true
+        },
+        {
+          "native": [
+            320,
+            240
+          ],
+          "visualizzate": [
+            320,
+            240
+          ],
+          "caricata": true
+        }
+      ]
+    },
+    {
+      "larghezza": 1280,
+      "gif": [
+        {
+          "native": [
+            224,
+            360
+          ],
+          "visualizzate": [
+            224,
+            360
+          ],
+          "caricata": true
+        },
+        {
+          "native": [
+            368,
+            221
+          ],
+          "visualizzate": [
+            368,
+            221
+          ],
+          "caricata": true
+        },
+        {
+          "native": [
+            320,
+            240
+          ],
+          "visualizzate": [
+            320,
+            240
+          ],
+          "caricata": true
+        }
+      ]
+    }
+  ],
+  "errori_js": [],
+  "dimensione_download_home": "14,25 MB",
+  "peso_html_byte": 14252684
+}
