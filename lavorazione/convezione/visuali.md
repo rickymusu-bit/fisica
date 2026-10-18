@@ -90,3 +90,14 @@ Le due proposte FAA precedenti sono superate da questa scelta esplicita e restan
 ## Ventilatore nell’introduzione — 18 ottobre 2026
 
 Su indicazione dell’utente, V-F è la [fotografia del ventilatore da tavolo](risorse/ventilatore-forzata.jpg) fornita: [fonte Commons](https://commons.wikimedia.org/wiki/File:Ventilator_BW_2026-06-19_16-42-30_standing.jpg), Berthold Werner, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Versione a 1920 × 2764 px, 560.934 byte, conservata senza modifiche e ispezionata. Inserita subito dopo la definizione di convezione forzata, con didascalia che spiega il movimento dell’aria prodotto dalle pale quando ruotano. La fotografia mostra il dispositivo fermo, non rende visibile un flusso d’aria. IMMAGINE 17 / img-14 rimane esclusivamente nell’applicazione sul processore; rimosso il precedente richiamo V-F alla stessa figura. Fonte, licenza e hash registrati in suddivisione.json. Nessuna realizzazione HTML o pubblicazione.
+
+
+## Sostituzioni correnti — 18 ottobre 2026
+
+Richieste esplicite dell’utente, realizzate in v3 senza elaborare i file. Le voci storiche sopra sono superate per queste risorse:
+
+- [termosifone-convezione.svg](risorse/termosifone-convezione.svg): SVGguru; CC BY-SA 4.0.
+- [processore-ventola.jpg](risorse/processore-ventola.jpg): © Raimond Spekking; CC BY-SA 4.0.
+- [radiatore-ventole.jpg](risorse/radiatore-ventole.jpg): simonov (Mitch Barrie); CC BY-SA 2.0.
+
+Le immagini sostituite non sono più incorporate nell’articolo corrente. Dati e provenienze nel registro delle sostituzioni.

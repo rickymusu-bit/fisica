@@ -1,0 +1,68 @@
+[
+  {
+    "file": "lavorazione/conduzione/risorse/wok.jpg",
+    "url_ricevuto": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Wok_cooking_and_fire_by_romainguy.jpg/960px-Wok_cooking_and_fire_by_romainguy.jpg",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Wok_cooking_and_fire_by_romainguy.jpg",
+    "autore": "Romain Guy (romainguy)",
+    "licenza": "CC BY-SA 2.0",
+    "licenza_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "modifiche": "nessuna; JPEG nella versione 960 px scelta dall’utente, SVG originale",
+    "byte": 120266,
+    "sha256": "c0cd2b55fe255dcedac27c6c9838dbf22c529d551ffe5d536b8ee82009b73f98",
+    "mime": "image/jpeg",
+    "scelta": "sostituzione richiesta esplicitamente dall’utente il 18 ottobre 2026"
+  },
+  {
+    "file": "lavorazione/convezione/risorse/termosifone-convezione.svg",
+    "url_ricevuto": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Radiator-convection.svg",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Radiator-convection.svg",
+    "autore": "SVGguru",
+    "licenza": "CC BY-SA 4.0",
+    "licenza_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "modifiche": "nessuna; SVG originale",
+    "byte": 768268,
+    "sha256": "8f200074e3a1c171b003b5d49241eb4e00d64ef02be293f0afcd5738ff467eb0",
+    "mime": "image/svg+xml",
+    "scelta": "sostituzione richiesta esplicitamente dall’utente il 18 ottobre 2026"
+  },
+  {
+    "file": "lavorazione/convezione/risorse/processore-ventola.jpg",
+    "url_ricevuto": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Asus_P5PL2_-_CPU_heatsink_with_cooling_fan-5293.jpg/960px-Asus_P5PL2_-_CPU_heatsink_with_cooling_fan-5293.jpg",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Asus_P5PL2_-_CPU_heatsink_with_cooling_fan-5293.jpg",
+    "autore": "© Raimond Spekking",
+    "licenza": "CC BY-SA 4.0",
+    "licenza_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "modifiche": "nessuna; JPEG nella versione 960 px scelta dall’utente, SVG originale",
+    "byte": 195515,
+    "sha256": "53e12c77c3df39f759e8916322b4ad3a6b798d519e40321882b4a8fbd511635d",
+    "mime": "image/jpeg",
+    "scelta": "sostituzione richiesta esplicitamente dall’utente il 18 ottobre 2026"
+  },
+  {
+    "file": "lavorazione/convezione/risorse/radiatore-ventole.jpg",
+    "url_ricevuto": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Radiator_fans_installed.jpg/960px-Radiator_fans_installed.jpg",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Radiator_fans_installed.jpg",
+    "autore": "simonov (Mitch Barrie)",
+    "licenza": "CC BY-SA 2.0",
+    "licenza_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "modifiche": "nessuna; JPEG nella versione 960 px scelta dall’utente, SVG originale",
+    "byte": 226186,
+    "sha256": "3557155878051ae87547e92f9d92f0759d003f137c46eedd245fc0a8cc6aadb4",
+    "mime": "image/jpeg",
+    "scelta": "sostituzione richiesta esplicitamente dall’utente il 18 ottobre 2026"
+  },
+  {
+    "file": "lavorazione/conduzione/risorse/parete-temperatura.png",
+    "fonte": "allegato diretto /tmp/codex-clipboard-889e581e-833d-4666-8731-118b763926ab.png",
+    "provenienza": "immagine generata, indicazione esplicita dell’utente",
+    "scelta": "sostituisce vecchia parete e grafico separato; temperatura sempre T maiuscola",
+    "byte": 1878749,
+    "sha256": "0540e48134ae540bb5189a8c394f2ddad03222a2214b298f68fff9f80a6d3671",
+    "modifiche": "nessuna",
+    "dati": {
+      "T_in_C": 50,
+      "T_out_C": 20,
+      "delta_T_K": 30
+    }
+  }
+]

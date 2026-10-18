@@ -12,6 +12,8 @@ Prima di scrivere o rivedere il testo delle dispense leggi anche `riferimenti/ST
 
 Per impaginare o rivedere gli HTML applica automaticamente l’esatto tema grafico comune salvato nel modello autonomo `riferimenti/TEMA_DISPENSE.html`, già approvato, secondo A6 del master; non chiedere di scegliere nuovamente il template. Nei calcoli applica notazione esponenziale e prefissi SI secondo A4; interpreta i risultati degli esercizi con i confronti concreti previsti da A5.
 
+Per la temperatura usa sempre il simbolo **T maiuscolo**, anche con pedici (per esempio T_in e T_out), in formule, testo, grafici, schemi ed etichette; usa ΔT per la differenza di temperatura. La t minuscola e Δt restano per il tempo. Richiesta esplicita dell’utente del 18 ottobre 2026.
+
 Usa le note a piè di pagina soprattutto per alleggerire il testo: seleziona precisazioni brevi e utili, elimina ripetizioni di testo/didascalie, puntualizzazioni superflue e approfondimenti troppo tecnici, secondo A1. Mantieni le note collassabili, inizialmente chiuse, con richiami e ritorni cliccabili e versione/data separate nel piè di pagina, secondo A6.
 
 La scritta sopra il titolo dell’articolo deve essere il nome esatto dell’area tematica presente nel catalogo della home (per gli attuali tre articoli: «Materia e calore»), senza il prefisso «Area tematica» e senza la dicitura generica «Fisica». È parte del tema comune v7.

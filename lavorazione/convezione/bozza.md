@@ -10,9 +10,9 @@ Didascalia di copertina: Le strutture poligonali di Sputnik Planitia, su Plutone
 
 Un termosifone occupa una piccola parte della parete, eppure contribuisce a riscaldare l’aria di tutta la stanza. Quella che lo tocca si scalda per prima, ma non rimane ferma accanto alla sua superficie. Si sposta e viene sostituita da altra aria. Che cosa mette in moto questa circolazione?
 
-[IMMAGINE 14 — Stanza-italiano.png già approvata.]
+[IMMAGINE 14 — Radiator-convection.svg, schema originale scelto; risorse/termosifone-convezione.svg.]
 
-Didascalia: L’aria sale vicino al termosifone e altra aria torna verso il basso, alimentando la circolazione nella stanza.
+Didascalia: L’aria riscaldata dal termosifone sale e si sposta nella stanza; raffreddandosi, ridiscende lontano dalla sorgente e torna verso il termosifone.
 
 Riscaldandosi, l’aria vicina al termosifone tende a espandersi: la stessa massa occupa un volume maggiore e la sua **densità diminuisce**. Rispetto all’aria circostante più densa, riceve una spinta verso l’alto che può farla salire. Altrove, l’aria relativamente più fredda e densa può scendere e prendere il suo posto. Si forma così un movimento che trasporta energia da una zona all’altra.[1]
 
@@ -80,9 +80,9 @@ Anche in questo ambiente molto diverso da una stanza, il movimento della materia
 
 Un processore in funzione trasforma parte dell’energia elettrica in energia interna e si riscalda. Il dissipatore riceve energia dal processore e la conduce attraverso il metallo fino alle alette. Queste offrono un’ampia superficie a contatto con l’aria: molte lamine sottili permettono di aumentarla senza usare un blocco metallico massiccio.
 
-[IMMAGINE 17 — Fotografia annotata del dissipatore e della ventola già approvata.]
+[IMMAGINE 17 — Fotografia del dissipatore con ventola, scelta dall’utente; risorse/processore-ventola.jpg.]
 
-Didascalia: Il metallo conduce energia verso le alette; la ventola rinnova l’aria che le attraversa.
+Didascalia: Sotto la ventola si distinguono le alette metalliche del dissipatore. La ventola rinnova l’aria a contatto con queste superfici.
 
 La ventola spinge tra le alette aria relativamente più fresca, sostituendo quella già riscaldata. L’aria riceve energia dalle superfici e la porta lontano: è la parte del percorso in cui interviene la convezione forzata. Il funzionamento richiede quindi sia un buon contatto termico tra processore e dissipatore, sia una circolazione d’aria sufficiente. Aumentare soltanto la ventilazione non risolve un cattivo contatto con il processore.
 
@@ -90,11 +90,11 @@ La ventola spinge tra le alette aria relativamente più fresca, sostituendo quel
 
 Anche un motore a combustione deve cedere energia per evitare un riscaldamento eccessivo. Una pompa fa circolare il liquido refrigerante nel motore, dove riceve energia, e poi nel radiatore. Qui il liquido attraversa tubi metallici collegati a numerose alette: l’energia passa alle pareti e viene ceduta all’aria che attraversa il radiatore.
 
-[IMMAGINE 18 — Radiatore-italiano.png già approvato.]
+[IMMAGINE 18 — Fotografia delle due ventole dietro il radiatore, scelta dall’utente; risorse/radiatore-ventole.jpg.]
 
-Didascalia: La pompa fa circolare il refrigerante; il radiatore trasferisce energia all’aria. La ventola favorisce il passaggio dell’aria tra le alette.
+Didascalia: Le due ventole installate dietro il radiatore favoriscono il passaggio dell’aria e lo scambio di energia con l’ambiente.
 
-Il movimento dell’automobile favorisce il passaggio dell’aria, mentre la ventola può mantenerlo o aumentarlo quando l’auto è ferma o procede lentamente. Le alette estendono la superficie di scambio, come nel dissipatore del processore. Il termostato regola il passaggio del refrigerante in funzione della temperatura; il circuito del riscaldamento dell’abitacolo, visibile nello schema, costituisce invece un ramo distinto.
+Il movimento dell’automobile favorisce il passaggio dell’aria, mentre la ventola può mantenerlo o aumentarlo quando l’auto è ferma o procede lentamente. Le alette estendono la superficie di scambio, come nel dissipatore del processore. Il termostato regola il passaggio del refrigerante in funzione della temperatura; il circuito del riscaldamento dell’abitacolo costituisce invece un ramo distinto.
 
 In entrambi i dispositivi conduzione e convezione svolgono compiti collegati. Il metallo trasferisce energia attraverso le parti solide; il fluido in movimento la porta verso altre regioni. È questo percorso a rendere utili insieme materiali conduttori, superfici alettate, pompe e ventole.[4]
 
