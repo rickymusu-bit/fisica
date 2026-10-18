@@ -90,7 +90,9 @@
       "id": "img-13",
       "alt": "Sezione della crosta e del mantello: dorsale medio-oceanica, oceano, fossa oceanica e moti convettivi con etichette italiane.",
       "sha256_src": "f5db08cde26eb44a1a5f8e8f485a380bbe11c5f13e042fd5613eddcb9635a93a",
-      "destinazione": "convezione"
+      "destinazione": null,
+      "stato": "esclusa dalla bozza; mantello sostituito dalle correnti marine su richiesta del 18 ottobre 2026 ore 15:38",
+      "originale_conservato": true
     },
     {
       "id": "img-14",
@@ -141,5 +143,11 @@
     "posizione": "Conduttori termici, dopo la spiegazione degli elettroni mobili",
     "contenuto": "reticolo, elettroni mobili, lato caldo/freddo, freccia del trasferimento netto di energia"
   },
-  "revisione_stilistica": "prosa didattica di entrambi i capitoli integralmente riscritta il 18 ottobre 2026 ore 13:36 secondo STILE_DISPENSE.md v6 ed esempio_irraggiamento.md v2; presentata per approvazione"
+  "revisione_stilistica": "prosa didattica di entrambi i capitoli integralmente riscritta il 18 ottobre 2026 ore 13:36 secondo STILE_DISPENSE.md v6 ed esempio_irraggiamento.md v2; presentata per approvazione",
+  "nuova_immagine_correnti_marine": {
+    "id": "M-1",
+    "stato": "da scegliere/fornire; non cercata o generata",
+    "soggetto": "circolazione oceanica superficiale/profonda; temperatura, salinità e zone di sprofondamento",
+    "sostituisce": "img-13, schema del mantello"
+  }
 }

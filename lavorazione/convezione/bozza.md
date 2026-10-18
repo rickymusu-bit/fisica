@@ -36,15 +36,17 @@ Didascalia: Lo schema mostra le grandi fasce della circolazione atmosferica e i 
 
 La Terra, però, ruota. La rotazione devia i movimenti dell’aria e contribuisce a organizzare la circolazione nelle grandi fasce rappresentate nello schema. I venti planetari non si spiegano quindi con il solo riscaldamento: contano anche la rotazione e l’interazione tra le diverse regioni dell’atmosfera. Le celle di Hadley, Ferrel e polari riassumono questa organizzazione in un modello semplificato.
 
-### Il mantello si muove, anche se è solido
+### Le correnti marine trasportano energia
 
-L’aria attraversa una stanza in tempi che possiamo osservare direttamente. Nel mantello terrestre il movimento si sviluppa invece su tempi di milioni di anni. La differenza più sorprendente è un’altra: il mantello è costituito soprattutto da rocce solide. Come possono formare movimenti convettivi?
+Negli oceani l’acqua si sposta tra regioni che ricevono quantità diverse di energia solare. Le correnti possono trasportare acqua relativamente calda verso zone più fredde e acqua fredda verso altre regioni, contribuendo a redistribuire energia sul pianeta. Ma che cosa mette in movimento queste enormi masse d’acqua?
 
-Un materiale solido può deformarsi e scorrere molto lentamente quando viene sollecitato per tempi lunghissimi. Nel mantello, le differenze di temperatura e densità, insieme alla gravità, contribuiscono a questi movimenti. Intervengono anche le forze legate alle placche, tra cui la discesa delle placche fredde nelle zone di subduzione. Il materiale può quindi trasportare energia pur restando prevalentemente solido.[3]
+Una parte della risposta riguarda la **densità**, che nell’acqua di mare dipende sia dalla temperatura sia dalla quantità di sali disciolti, cioè dalla **salinità**. A parità di salinità, l’acqua marina diventa generalmente più densa raffreddandosi; a parità di temperatura, una maggiore salinità la rende più densa. In alcune regioni delle alte latitudini, l’acqua superficiale si raffredda e, se diventa più densa di quella sottostante, può sprofondare. La discesa porta acqua dalla superficie verso gli strati profondi ed è un esempio di convezione naturale.
 
-[IMMAGINE 16 — Mantello-italiano.png già approvato.]
+[IMMAGINE M-1 — Da scegliere/fornire: schema della circolazione oceanica con correnti superficiali e profonde, trasporto di acqua relativamente calda e fredda e zone di sprofondamento. Distinguere temperatura e salinità; non rappresentare tutte le correnti come prodotte dalla sola convezione. Sostituisce lo schema del mantello, che resta conservato tra le risorse storiche.]
 
-Didascalia: Lo schema rappresenta movimenti molto lenti nel mantello e la loro relazione con le placche. Il mantello non è un oceano di magma.
+Didascalia: Le correnti collegano regioni e profondità diverse dell’oceano. Dove l’acqua superficiale diventa sufficientemente densa, può scendere verso gli strati profondi.
+
+Questo processo contribuisce alla **circolazione termoalina**: il nome richiama proprio temperatura e salinità. Il sistema delle correnti marine comprende però anche movimenti prodotti dai venti, particolarmente importanti vicino alla superficie. Il trasporto di energia negli oceani nasce quindi dall’azione combinata di più meccanismi: lo sprofondamento per differenze di densità è la parte che ci permette di riconoscere la convezione naturale.[3]
 
 ### La ventola del processore
 
@@ -74,7 +76,7 @@ In entrambi i dispositivi conduzione e convezione svolgono compiti collegati. Il
 
 2. **I venti della Terra.** Perché il riscaldamento solare non uniforme può produrre grandi movimenti dell’aria? Perché non basta considerare solo il riscaldamento per spiegare la direzione dei venti?
 
-3. **Il mantello terrestre.** Il mantello è prevalentemente solido: come può muoversi formando moti convettivi? Confronta le scale temporali del mantello con quelle dell’aria nella stanza.
+3. **Le correnti marine.** Come influiscono temperatura e salinità sulla densità dell’acqua di mare? In quali condizioni l’acqua superficiale può sprofondare? Perché sarebbe incompleto attribuire tutte le correnti marine alla sola convezione naturale?
 
 4. **Naturale o forzata?** Distingui la convezione naturale della stanza e dell’atmosfera dalla convezione forzata nei sistemi con ventola. Che cosa mette principalmente in movimento il fluido nei due casi?
 
@@ -90,6 +92,6 @@ In entrambi i dispositivi conduzione e convezione svolgono compiti collegati. Il
 
 [2] Sulla pelle sudata interviene anche l’evaporazione: il passaggio del sudore allo stato di vapore sottrae energia alla pelle. L’aria in movimento può favorirlo, ma un’umidità elevata lo ostacola; in condizioni molto calde e umide questo effetto può risultare insufficiente a compensare il calore ricevuto.
 
-[3] Le frecce del mantello illustrano un modello semplificato: non indicano necessariamente celle regolari o un mantello liquido.
+[3] Lo schema oceanico rappresenta un modello semplificato: i percorsi reali non formano un unico circuito regolare. Fonti scientifiche: NOAA, [What causes ocean currents?](https://oceanexplorer.noaa.gov/ocean-fact/currents/) e [Thermohaline Circulation](https://oceanservice.noaa.gov/education/tutorial_currents/05conveyor1.html).
 
 [4] Negli scambi dei dispositivi reali può contribuire anche l’irraggiamento.
