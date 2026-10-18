@@ -1,6 +1,10 @@
 # Convezione
 
-[COPERTINA V-C — Scelta dall’utente: Convection-cells.jpg, https://upload.wikimedia.org/wikipedia/commons/f/f3/Convection-cells.jpg . La fonte la descrive come celle convettive, senza identificarla come foto del Sole. Usarla soltanto in copertina, con attribuzione Georg Fuchs e Michael A. Rundel (MikeRun), CC BY-SA 4.0.]
+[COPERTINA V-C — Nuova scelta esplicita dell’utente: Sputnik Planitia su Plutone, New Horizons. File: risorse/copertina-plutone.jpg, versione 1920 px fornita, senza modifiche. Fonte e credito NASA/JHUAPL/SwRI nel registro. Sostituisce Convection-cells.jpg; non ripetere nel corpo.]
+
+![Celle poligonali nel ghiaccio di azoto di Sputnik Planitia, su Plutone.](risorse/copertina-plutone.jpg)
+
+Didascalia di copertina: Le strutture poligonali di Sputnik Planitia, su Plutone, sono associate a lenti moti convettivi nel ghiaccio di azoto.[6]
 
 ## L’aria sopra il termosifone
 
@@ -42,15 +46,25 @@ Volando in cerchio, l’uccello può rimanere all’interno della termica. Duran
 
 ### Le celle convettive del Sole
 
-Osservata ad alta risoluzione, la superficie visibile del Sole appare come un mosaico di zone luminose separate da bordi più scuri. Queste strutture si chiamano **granuli**: che cosa rivelano del movimento della materia solare?
+Osservata ad alta risoluzione, la superficie visibile del Sole, chiamata **fotosfera**, appare come un mosaico di zone luminose separate da bordi più scuri. Queste strutture si chiamano **granuli**: che cosa rivelano del movimento della materia solare?
 
 Negli strati esterni dell’interno solare, l’energia viene trasportata anche dalla convezione. Il materiale è **plasma**, un gas almeno in parte ionizzato, che contiene particelle cariche. Le porzioni più calde e meno dense rispetto a ciò che le circonda possono risalire verso la superficie, trasportando energia. Qui il plasma cede energia, si raffredda e ridiscende, contribuendo a formare le **celle convettive**.[5]
 
-[IMMAGINE S-1 — Da scegliere/fornire: fotografia ad alta risoluzione della granulazione solare, con centri luminosi e bordi scuri riconoscibili. Deve essere un’immagine del Sole con provenienza documentata, distinta dalla copertina Convection-cells.jpg. Nessuna nuova immagine cercata o generata.]
+[SCHEMA S-1A — Illustrazione NASA/CXC/M.Weiss di una stella simile al Sole, scelta dall’utente. Etichette tradotte in italiano su richiesta: Fotosfera, Zona convettiva, Zona radiativa, Nucleo, Macchie solari. Versione italiana: risorse/sole-schema-it.png. Conservare risorse/sole-schema-originale.jpg e provenienza TIFF nel registro.]
 
-Didascalia: I granuli luminosi corrispondono alle zone in cui il plasma più caldo risale; lungo i bordi scuri il materiale più freddo ridiscende.
+![Sezione illustrata di una stella simile al Sole: fotosfera, zona convettiva, zona radiativa, nucleo e macchie solari.](risorse/sole-schema-it.png)
 
-La granulazione rende quindi osservabile il risultato di un movimento convettivo. Il Sole non ha una superficie solida come quella terrestre e queste strutture non sono bolle di ebollizione: sono regioni attraversate da plasma che sale e scende. Anche in questo ambiente molto diverso da una stanza, il movimento della materia contribuisce al trasporto di energia.
+Didascalia: Nella zona convettiva il plasma trasporta energia attraverso moti di risalita e discesa. Lo schema distingue questa regione dagli strati più interni e dalla fotosfera.
+
+Lo schema permette di collocare il movimento all’interno della stella; la fotografia seguente ne mostra una traccia osservabile sulla fotosfera. I granuli luminosi corrispondono alle regioni dove risale materiale più caldo, mentre lungo i bordi scuri il plasma raffreddato ridiscende. Il Sole non ha una superficie solida come quella terrestre e queste strutture non sono bolle di ebollizione.
+
+[IMMAGINE S-1B — Fotografia della granulazione solare ottenuta con il Daniel K. Inouye Solar Telescope, NSO/AURA/NSF, CC BY 4.0. Versione a 1920 px scelta dall’utente, senza modifiche: risorse/sole-granulazione.jpg. Crediti nella sezione finale, non nella didascalia.]
+
+![Granulazione della fotosfera solare: regioni luminose separate da bordi scuri.](risorse/sole-granulazione.jpg)
+
+Didascalia: La fotosfera presenta un mosaico di granuli luminosi e bordi più scuri, legato ai moti convettivi del plasma.
+
+Anche in questo ambiente molto diverso da una stanza, il movimento della materia contribuisce al trasporto di energia. L’illustrazione e la fotografia raccontano due aspetti dello stesso fenomeno: dove avviene e quali strutture produce nella regione osservabile.
 
 ### La ventola del processore
 
@@ -100,4 +114,6 @@ In entrambi i dispositivi conduzione e convezione svolgono compiti collegati. Il
 
 [4] Negli scambi dei dispositivi reali può contribuire anche l’irraggiamento.
 
-[5] La convezione descritta riguarda la zona convettiva sotto la superficie visibile, non tutti gli strati solari. Fonti scientifiche: [NASA, Photospheric Features](https://solarscience.msfc.nasa.gov/feature1.shtml) e [NASA, Heliophysics Big Idea 3.2](https://science.nasa.gov/learn/heat/big-ideas/big-idea-3-2/).
+[5] La convezione descritta riguarda la zona convettiva sotto la superficie visibile, non tutti gli strati solari. Fonti scientifiche: [NASA, Photospheric Features](https://solarscience.msfc.nasa.gov/feature1.shtml) e [NASA, Heliophysics Big Idea 3.2](https://science.nasa.gov/learn/heat/big-ideas/big-idea-3-2/). La fotografia della granulazione è acquisita nel vicino infrarosso e presentata in colori rappresentativi: non mostra l’aspetto del Sole a occhio nudo.
+
+[6] In questo caso il ghiaccio di azoto rimane solido, ma può deformarsi e scorrere molto lentamente su tempi geologici. L’immagine non mostra lava o acqua liquida. Fonte: [NASA, Pluto’s Heart: Like a Cosmic ‘Lava Lamp’](https://www.nasa.gov/solar-system/plutos-heart-like-a-cosmic-lava-lamp/). Questo caso estende la descrizione introduttiva dei liquidi e gas a un materiale che scorre su tempi molto lunghi.

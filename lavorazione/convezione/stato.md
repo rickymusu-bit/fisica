@@ -51,3 +51,15 @@ L’utente sceglie le copertine: takoyaki sulla piastra per Conduzione e Convect
 Richiesta anche l’applicazione sulle celle convettive del Sole: inserita nella bozza con granuli, plasma caldo ascendente e materiale raffreddato discendente; quesito dedicato aggiunto, totale Convezione 7, Conduzione 12. Fonti NASA in nota 5. La copertina Convection-cells.jpg non è identificata dalla fonte come foto solare: non usarla per attestare la granulazione del Sole. Serve S-1, immagine solare distinta da fornire; E-1 ancora mancante.
 
 Aggiornati visuali.md, bozze e registro di provenienza. Nel repository salvati riferimenti, licenze e hash dei materiali; download originali solo per ispezione locale, file binari non dichiarati caricati. Niente ricerche di immagini aggiuntive, modifiche o frecce programmate; nessun HTML realizzato. Testo solare proposto da approvare, nessun via alla pubblicazione o modifica di main.
+
+## Schema solare tradotto e fotografia — 18 ottobre 2026, ore 17:31 (Europe/Rome)
+
+L’utente sceglie entrambe le immagini solari fornite e richiede la traduzione della prima. Scaricate le versioni a 1920 px indicate, ispezionate e verificate le attribuzioni: NASA/CXC/M.Weiss (illustrazione, pubblico dominio secondo Commons e politica Chandra) e NSO/AURA/NSF (foto DKIST, CC BY 4.0). Conservati i file originali di queste versioni; fonte TIFF del diagramma e JPEG ad alta risoluzione della fotografia registrate senza incorporarle nell’HTML.
+
+Tradotte con imagegen le cinque etichette del diagramma: Fotosfera, Zona convettiva, Zona radiativa, Nucleo, Macchie solari. Versione italiana separata, confronto visivo dei testi e dei collegamenti scientifici eseguito; non dichiarata identità pixel per pixel. La fotografia resta invariata. Salvati tre file binari nella cartella risorse; bozza aggiornata con entrambe le immagini, didascalie e spiegazione della fotosfera. Dettagli e prompt di localizzazione in risorse/traduzione-schema-solare.md; crediti e hash nel registro.
+
+Richiesta già autorizza traduzione e inserimento di questi due materiali; non richiede una nuova scelta delle stesse immagini. Rimangono E-1 (schema elettroni) e scelta della foto dei volatili N-1A/N-1B. I due file solari non risolvono la scelta del volatile. Nessun HTML finale, main o pubblicazione modificati.
+
+## Copertina Plutone — 18 ottobre 2026, ore 17:35 (Europe/Rome)
+
+Nuova indicazione dell’utente ricevuta durante il salvataggio dei due visuali solari: usare Pluto’s Heart – Like a Cosmic Lava Lamp come copertina di Convezione. Integrata nello stesso aggiornamento; file 1920 px scaricato, ispezionato e salvato nel ramo. Crediti NASA/JHUAPL/SwRI, pubblico dominio in Commons, fonte NASA verificata. Convection-cells.jpg ritirata come copertina. La bozza identifica il ghiaccio di azoto solido e la lenta deformazione su tempi geologici, con breve didascalia e nota 6; nessuna estensione automatica delle applicazioni. I due visuali solari restano entrambi collocati nella sezione sul Sole. Main e pubblicazione invariati.

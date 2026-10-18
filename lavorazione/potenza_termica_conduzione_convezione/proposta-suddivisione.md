@@ -77,3 +77,11 @@ L’utente sceglie termosifone e aquila. Il termosifone rimane apertura della te
 ## Aggiornamento corrente — 18 ottobre 2026, ore 17:24
 
 Copertine scelte dall’utente: takoyaki per Conduzione, Convection-cells.jpg per Convezione. Per gli uccelli fornite due fotografie alternative, da scegliere; testo esteso a molte specie veleggiatrici. Aggiunta su richiesta l’applicazione sulle celle convettive del Sole, con fonti NASA, nuovo quesito e immagine S-1 da fornire distinta dalla copertina: 7 quesiti di Convezione, 12 di Conduzione. Gli esempi naturali correnti sono termosifone, uccelli nelle termiche e Sole. Le precedenti descrizioni a due soli esempi sono superate da questa richiesta. Materiali e licenze nei piani visuali e in suddivisione.json; binari originali ispezionati localmente, non dichiarati caricati nel repository. Rimangono E-1, S-1 e scelta N-1 A/B. Nessun HTML, main o pubblicazione modificati.
+
+## Visuali solari definiti — 18 ottobre 2026, ore 17:31
+
+Entrambe le immagini solari scelte: S-1A (schema NASA/CXC/M.Weiss, tradotto in italiano su richiesta) e S-1B (fotografia della granulazione, NSO/AURA/NSF). Bozza aggiornata con entrambe e risorse salvate nel ramo, senza duplicare la copertina. Fonti, attribuzioni e modifiche nel registro e in visuali.md. Rimangono schema E-1 e scelta N-1A/N-1B; S-1 non è più mancante. Nessun HTML finale o pubblicazione autorizzata.
+
+## Copertina corrente — 18 ottobre 2026, ore 17:35
+
+V-C è sostituita su richiesta da Plutone/Sputnik Planitia, NASA/JHUAPL/SwRI. Ritirata Convection-cells.jpg; schema solare tradotto e fotografia solare restano nell’applicazione. La copertina è spiegata brevemente come convezione del ghiaccio di azoto solido su tempi geologici, senza aggiungere un’applicazione autonoma. Risorse e bozza aggiornate sul ramo dedicato.
