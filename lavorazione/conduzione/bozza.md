@@ -53,15 +53,15 @@ Didascalia: Se la saliva congela sul metallo, il ghiaccio fa aderire la lingua a
 
 La stessa capacità di trasferire rapidamente energia spiega una sensazione più comune. Un oggetto di metallo e uno di legno o di plastica, lasciati a lungo nella stessa stanza, possono avere la stessa temperatura eppure sembrare diversi al tatto. Se sono più freddi della pelle, il metallo le sottrae energia più rapidamente, anche grazie alla sua elevata conducibilità termica, e per questo sembra più freddo. La sensazione non indica quindi che il metallo abbia necessariamente una temperatura più bassa.[5]
 
-### La caffettiera: materiali con compiti diversi
+### Il wok: metallo e legno con compiti diversi
 
-In una caffettiera moka la fiamma riscalda la base e l’energia si propaga attraverso il corpo metallico. L’alluminio conduce bene il calore, perciò anche parti che non sono direttamente sopra la fiamma possono diventare molto calde. Per il manico, invece, si sceglie un materiale che conduce molto meno, così il trasferimento verso la mano viene rallentato. Dopo un riscaldamento prolungato anche il manico può comunque scottare.
+La fiamma riscalda il recipiente metallico del wok. Il metallo conduce energia attraverso il fondo e le pareti, trasferendola al cibo a contatto. Il manico di legno conduce invece molto meno: rallenta il passaggio di energia dal recipiente alla mano e permette di maneggiare il wok più facilmente. Un riscaldamento prolungato o il contatto con la fiamma possono comunque rendere caldo anche il manico.
 
-[IMMAGINE 07 — Caffettiera già approvata.]
+[IMMAGINE 07 — Wok con recipiente metallico e manico di legno; fotografia Wikimedia scelta dall’utente, risorse/wok.jpg.]
 
-Didascalia: Il corpo metallico favorisce la conduzione; il materiale del manico limita il trasferimento verso la mano.
+Didascalia: Nel wok in primo piano, il recipiente metallico conduce il calore verso il cibo; il manico di legno limita il trasferimento verso la mano.
 
-La stessa caffettiera riunisce quindi due esigenze: distribuire energia nel corpo metallico e ostacolarne il passaggio lungo il manico. Il secondo compito è quello degli isolanti termici.
+Nel wok convivono quindi due esigenze: trasferire energia attraverso il recipiente metallico e ostacolarne il passaggio lungo il manico. Il secondo compito è quello degli isolanti termici.
 
 ## Isolanti termici
 
@@ -115,11 +115,11 @@ La potenza P, in watt, dipende dalla conducibilità λ e dall’area A attravers
 
 La posizione delle grandezze nella formula permette di fare previsioni. Raddoppiare la conducibilità, l’area oppure la differenza di temperatura raddoppia la potenza, mantenendo uguali le altre grandezze. Raddoppiare lo spessore, che compare al denominatore, la dimezza. Una parete più estesa offre più superficie attraverso cui trasferire energia; una parete più spessa oppone un percorso maggiore al trasferimento.
 
-[IMMAGINE 06 E GRAFICO G-1 — Muro-italiano.png e grafico SVG corretto della fonte: facce a 20 °C e −10 °C, variazione lineare solo nello spessore.]
+[IMMAGINE 06 E GRAFICO G-1 — Un’unica illustrazione generata scelta dall’utente: risorse/parete-temperatura.png, temperature delle facce T_in = 50 °C e T_out = 20 °C; A area e s spessore. Sostituisce la vecchia immagine e il grafico SVG separato.]
 
-Didascalia: Tra le due facce della parete la temperatura passa da 20 °C a −10 °C. Il grafico rappresenta soltanto lo spessore del materiale.
+Didascalia: Le facce della parete sono a T_in = 50 °C e T_out = 20 °C. A indica l’area attraversata dal calore e s lo spessore; il tratto inclinato mostra come la temperatura diminuisce nello spessore.
 
-Nel grafico le due facce differiscono di 30 gradi: ΔT vale quindi 30 K. Una differenza di temperatura ha lo stesso valore numerico in kelvin e in gradi Celsius, perché le due scale hanno intervalli della stessa ampiezza. Il profilo scende dalla faccia più calda a quella più fredda: è in questa direzione che avviene il trasferimento netto di energia.
+Nell’illustrazione le due facce sono a T_in = 50 °C e T_out = 20 °C: differiscono di 30 gradi, quindi ΔT vale 30 K. Una differenza di temperatura ha lo stesso valore numerico in kelvin e in gradi Celsius, perché le due scale hanno intervalli della stessa ampiezza. La temperatura diminuisce dalla faccia più calda a quella più fredda: è in questa direzione che avviene il trasferimento netto di energia.
 
 ## Domande di verifica
 
@@ -151,7 +151,7 @@ Nel grafico le due facce differiscono di 30 gradi: ΔT vale quindi 30 K. Una dif
 
 [1] I valori della tabella sono orientativi e dipendono da composizione, temperatura e condizioni del materiale. Nel video contano anche geometria e condizioni di riscaldamento: il tempo di fusione della cera non misura direttamente la sola conducibilità.
 
-[2] Il modello assume parete omogenea, conducibilità costante, regime stazionario e assenza di sorgenti interne; in queste condizioni il profilo di temperatura è lineare. Le temperature delle facce possono differire da quelle dell’aria. Per pareti con più strati occorre considerare insieme il loro effetto.
+[2] Il modello assume parete omogenea, conducibilità costante, regime stazionario e assenza di sorgenti interne; in queste condizioni il profilo di temperatura è lineare. Nell’illustrazione i valori indicati si riferiscono alle due facce della parete, non alla temperatura della fiamma. Le temperature delle facce possono differire da quelle dell’aria. Per pareti con più strati occorre considerare insieme il loro effetto.
 
 [3] Nella vetrocamera contribuiscono agli scambi anche irraggiamento ed eventuali moti del gas. La formula della parete omogenea non descrive da sola l’intera finestra.
 

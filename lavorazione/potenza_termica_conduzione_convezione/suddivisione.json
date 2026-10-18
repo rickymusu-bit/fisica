@@ -1,5 +1,5 @@
 {
-  "stato": "Conduzione e Convezione v2 pubblicati; desktop/mobile e URL pubblici verificati",
+  "stato": "versioni v3 verificate con le cinque sostituzioni visuali richieste; aggiornamento della pubblicazione in preparazione",
   "fonte": "potenza_termica_conduzione_convezione_it.html",
   "versione_fonte": "v7",
   "sha256_fonte": "b346fd60bcce9ca7d74628434d8c854332ff55ddd9dd80db3253cc2f04bc5251",
@@ -38,14 +38,18 @@
       "id": "img-05",
       "alt": "Sezione di una parete attraversata da un flusso di calore dall’interno caldo verso l’esterno freddo; indicati spessore s e superficie A.",
       "sha256_src": "9af3a9de654b4c1149b966deeb3a37d999832102769bd34efef2a7f8879d9987",
-      "destinazione": "conduzione"
+      "destinazione": null,
+      "destinazione_storica": "conduzione",
+      "stato": "sostituita nella v3; originale conservato nella fonte storica e in Git"
     },
     {
       "id": "img-06",
       "alt": "Caffettiera moka metallica con manico nero su un fornello a gas acceso",
       "sha256_src": "f1a1a5599b8acbcc57751f0e7858da284687aa4b1fca1953a8eccc9db03c27ef",
-      "destinazione": "conduzione",
-      "uso_previsto": "Caffettiera: corpo conduttore e manico isolante, applicazione di collegamento tra le due sezioni; una sola figura."
+      "destinazione": null,
+      "uso_previsto": "Caffettiera: corpo conduttore e manico isolante, applicazione di collegamento tra le due sezioni; una sola figura.",
+      "destinazione_storica": "conduzione",
+      "stato": "sostituita nella v3; originale conservato nella fonte storica e in Git"
     },
     {
       "id": "img-07",
@@ -78,7 +82,9 @@
       "id": "img-11",
       "alt": "Circolazione naturale dell’aria nella stanza: sale sopra il termosifone, si raffredda e scende vicino alla finestra; etichette italiane sullo sfondo originale.",
       "sha256_src": "ae934a6f391a1d6366c3fd2c5e1fdf022dacf47c970b7557eb03f07a11048987",
-      "destinazione": "convezione"
+      "destinazione": null,
+      "destinazione_storica": "convezione",
+      "stato": "sostituita nella v3; originale conservato nella fonte storica e in Git"
     },
     {
       "id": "img-12",
@@ -99,14 +105,18 @@
       "id": "img-14",
       "alt": "Fotografia annotata di dissipatore CPU con ventola, alette di raffreddamento, posizione del processore e scheda madre",
       "sha256_src": "eeb3b97a824fa396b09d9ac7f4ab786dc128e3d6b162881f3962e700c001524e",
-      "destinazione": "convezione",
-      "uso_previsto": "Soltanto applicazione «La ventola del processore»; esclusa dall’introduzione della convezione forzata su richiesta utente."
+      "destinazione": null,
+      "uso_previsto": "Soltanto applicazione «La ventola del processore»; esclusa dall’introduzione della convezione forzata su richiesta utente.",
+      "destinazione_storica": "convezione",
+      "stato": "sostituita nella v3; originale conservato nella fonte storica e in Git"
     },
     {
       "id": "img-15",
       "alt": "Circuito di raffreddamento dell’automobile: pompa, termostato, radiatori, ventole, vaso di espansione e collegamenti del liquido refrigerante, con etichette italiane.",
       "sha256_src": "342560487ed61c3cf34eaeaf83c7584e3ccb6264a298f518129311f7f1071a44",
-      "destinazione": "convezione"
+      "destinazione": null,
+      "destinazione_storica": "convezione",
+      "stato": "sostituita nella v3; originale conservato nella fonte storica e in Git"
     }
   ],
   "script_fisico_sha256": [
@@ -450,5 +460,13 @@
       "https://rickymusu-bit.github.io/fisica/convezione_it.html"
     ],
     "file_pubblici_identici_a_verificati": true
-  }
+  },
+  "visuali_correnti_v3": "risorse/sostituzioni-visuali.json",
+  "temperature_parete": {
+    "T_in_C": 50,
+    "T_out_C": 20,
+    "delta_T_K": 30,
+    "grafico_separato": false
+  },
+  "verifica_v3": "verifica-visuali.json"
 }

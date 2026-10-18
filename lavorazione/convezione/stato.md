@@ -1,20 +1,22 @@
 # Stato — Convezione
 
-Aggiornamento: 18 ottobre 2026 (Europe/Rome). Master letto integralmente: v59; AGENTS.md, tema comune v7 e manifest di pubblicazione applicati.
+Aggiornamento: 18 ottobre 2026, ore 21:56 (Europe/Rome). Master v59 già letto integralmente e invariato; AGENTS.md, stile v6 e tema comune v7 applicati. Base ufficiale: main `c9f6938b51196ee50c07a20323b722d019491609`; ramo `revisione/visuali-wok-convezione`.
 
-Fase corrente: articolo autonomo **v2**, verificato, integrato in main e pubblicato su GitHub Pages. Pubblicazione richiesta esplicitamente dall’utente: «finisci la pubblicazione degli articoli su conduzione e convezione nel mio repo di fisica su github».
+Fase corrente: **v3 verificata**, anteprima pronta; aggiornamento della pubblicazione autorizzata nella conversazione in corso. Richieste: quattro sostituzioni Wikimedia, nuovo testo del wok/manico di legno, nuova immagine generata al posto di parete e grafico separato, simbolo della temperatura sempre T maiuscola.
 
-File ufficiale predisposto: [convezione_it.html](../../convezione_it.html). Anteprima di lavoro aggiornata: [bozza.html](bozza.html). Conservati testo, immagini e scelte concordate; nessuna simulazione nuova. I soli cambiamenti rispetto a v1 riguardano versione e collegamenti tra articoli.
+Sostituiti lo schema della stanza, la fotografia del dissipatore CPU e lo schema del radiatore con i tre originali Wikimedia scelti. Didascalie, descrizioni accessibili e crediti aggiornati; rimosso il richiamo a un circuito visibile nello schema che non compare più. Tutte le immagini correnti hanno crediti documentati; rimosso dai crediti il vecchio elenco dei tre materiali senza fonte.
 
-Verifiche concluse: build di 6 HTML (home e cinque articoli); confronto esatto di CSS e script comuni con il modello v7; identificativi e ancore; immagini incorporate; controlli Chromium a 1440 e 390 px di indice, note e ritorni, ingrandimenti, pausa/ripresa, movimento ridotto, download dalla home, assenza di overflow ed errori JavaScript. Ispezionate le schermate desktop/mobile. Rapporti: [verifica-html.json](../potenza_termica_conduzione_convezione/verifica-html.json) e [verifica-browser.json](../potenza_termica_conduzione_convezione/verifica-browser.json).
+File corrente: [convezione_it.html](../../convezione_it.html); [bozza HTML](bozza.html) e [bozza testuale](bozza.md) allineate. Copertine, formule, quesiti (12 Conduzione e 7 Convezione), script e CSS del tema sono invariati. T e ΔT distinguono temperatura e differenza di temperatura; Δt resta intervallo di tempo. Regola permanente registrata in AGENTS.md, senza aggiornare i sette HTML sospesi.
 
-Anteprime HTML autonome e schermate consegnate prima della pubblicazione. Manifest aggiornato per ammettere soltanto i due nuovi articoli; catalogo passato da tre a cinque voci; conteggio e dimensioni download coerenti; navigazione Irraggiamento → Conduzione → Convezione. I sette sorgenti esclusi e gli indirizzi dismessi restano invariati e fuori dalla build.
+Originali e crediti: [registro delle sostituzioni](../potenza_termica_conduzione_convezione/risorse/sostituzioni-visuali.json). JPEG a 960 px scelti, SVG originale e PNG allegato incorporati senza elaborazioni. Verificati hash e presenza singola dei media; tutti i nuovi crediti riportano fonte, autore e licenza documentata, dove applicabile. In Conduzione restano dichiarate le provenienze non documentate dei materiali storici conservati.
 
-Limite conservato: le licenze di alcuni materiali storici già forniti/approvati non sono documentate nella fonte; i crediti dichiarano espressamente questo limite senza inventare attribuzioni. La richiesta attuale autorizza la pubblicazione dei due articoli con i materiali conservati. Non si dichiara verificata una licenza mancante.
+Verifiche: build riuscita (home e cinque articoli), CSS e script identici alla versione pubblicata, quesiti invariati, immagini e ingrandimenti funzionanti, indice e ancore validi, nessun overflow o errore JavaScript rilevato a 1440 e 390 px, download e nuovi pesi corretti. [Rapporto delle verifiche](../potenza_termica_conduzione_convezione/verifica-visuali.json). Schermate delle parti modificate prodotte e ispezionate prima della pubblicazione.
 
-Pubblicazione completata con la [PR #32](https://github.com/rickymusu-bit/fisica/pull/32), merge `edb339c72bc4ebf68257129fe0acd37254727054`. [Workflow Pages riuscito](https://github.com/rickymusu-bit/fisica/actions/runs/39155922270). [Articolo pubblico](https://rickymusu-bit.github.io/fisica/convezione_it.html). Verificati HTTP 200 e corrispondenza SHA-256 tra gli HTML pubblici e i file controllati; verificati anche home e navigazione aggiornata di Irraggiamento. Rapporto: [verifica-online.json](../potenza_termica_conduzione_convezione/verifica-online.json).
+Prossimo passaggio: salvataggio GitHub, integrazione in main, workflow Pages e verifica dei file pubblici.
 
-Nessun passaggio di pubblicazione ancora aperto; il limite documentale delle immagini storiche resta esplicitato sopra e nei crediti.
+## Pubblicazione precedente — 18 ottobre 2026
+
+Versione v2 pubblicata con la [PR #32](https://github.com/rickymusu-bit/fisica/pull/32) e [workflow riuscito](https://github.com/rickymusu-bit/fisica/actions/runs/39155922270).
 
 ## Aggiornamento — 18 ottobre 2026, ore 13:12 (Europe/Rome)
 

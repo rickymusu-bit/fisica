@@ -1,0 +1,82 @@
+{
+  "data": "18 ottobre 2026",
+  "ambito": "cinque sostituzioni visuali, testo wok, didascalie, T maiuscola; versione v3",
+  "browser": "Chromium 151",
+  "viste": [
+    {
+      "articolo": "conduzione",
+      "larghezza": 1440,
+      "figure_aggiornate": [
+        "wok",
+        "parete"
+      ],
+      "immagini_e_ingrandimenti_validi": true,
+      "indice_e_ancore_validi": true,
+      "nessun_overflow": true,
+      "nessun_errore_javascript": true,
+      "quesiti": 12
+    },
+    {
+      "articolo": "convezione",
+      "larghezza": 1440,
+      "figure_aggiornate": [
+        "termosifone",
+        "processore",
+        "radiatore"
+      ],
+      "immagini_e_ingrandimenti_validi": true,
+      "indice_e_ancore_validi": true,
+      "nessun_overflow": true,
+      "nessun_errore_javascript": true,
+      "quesiti": 7
+    },
+    {
+      "articolo": "conduzione",
+      "larghezza": 390,
+      "figure_aggiornate": [
+        "wok",
+        "parete"
+      ],
+      "immagini_e_ingrandimenti_validi": true,
+      "indice_e_ancore_validi": true,
+      "nessun_overflow": true,
+      "nessun_errore_javascript": true,
+      "quesiti": 12
+    },
+    {
+      "articolo": "convezione",
+      "larghezza": 390,
+      "figure_aggiornate": [
+        "termosifone",
+        "processore",
+        "radiatore"
+      ],
+      "immagini_e_ingrandimenti_validi": true,
+      "indice_e_ancore_validi": true,
+      "nessun_overflow": true,
+      "nessun_errore_javascript": true,
+      "quesiti": 7
+    }
+  ],
+  "download_e_peso_aggiornati": true,
+  "controlli_statici": {
+    "conduzione": {
+      "versione": "v3",
+      "byte": 7426812,
+      "sha256": "7856e040ae53a7a946fb7be03672b37170fc17c206ee987fad5539b5ffbcedce",
+      "css_e_script_invariati": true,
+      "quesiti_invariati": true,
+      "numero_quesiti": 12
+    },
+    "convezione": {
+      "versione": "v3",
+      "byte": 8879041,
+      "sha256": "812cce3f9c829a876c360b093a945f15557b60a3bde866dbc4e1f06b962b6cd2",
+      "css_e_script_invariati": true,
+      "quesiti_invariati": true,
+      "numero_quesiti": 7
+    }
+  },
+  "temperatura": "T maiuscola per la temperatura e ΔT per differenze; audit dei cinque articoli ammessi; t residue per tempo, tonnellate o trasmissione",
+  "media_scelti_integrali": true
+}

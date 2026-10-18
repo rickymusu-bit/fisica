@@ -50,3 +50,13 @@ L’utente ritira la proposta di simulazione e richiede soltanto un’immagine s
 ## Scelta definitiva E-1 e realizzazione — 18/10/2026 20:18 (Europe/Rome)
 
 Usata la GIF Enlace_metalico.gif fornita dall’utente, conservata in risorse/elettroni-metallo.gif e incorporata nell’HTML v1. Rappresenta il reticolo metallico e gli elettroni di conduzione; nessuna nuova simulazione del trasferimento termico. Controlli pausa/ripresa e fermo immagine per movimento ridotto presenti. Copertina takoyaki scelta e salvata in risorse/copertina-takoyaki.jpg, distinta dalle immagini nel testo. Metadati nel registro suddivisione.json; crediti nell’HTML.
+
+
+## Sostituzioni correnti — 18 ottobre 2026
+
+Richieste esplicite dell’utente, realizzate in v3 senza elaborare i file. Le voci storiche sopra sono superate per queste risorse:
+
+- [wok.jpg](risorse/wok.jpg): Romain Guy (romainguy); CC BY-SA 2.0.
+- [parete-temperatura.png](risorse/parete-temperatura.png): immagine generata, indicazione esplicita dell’utente; allegato generato scelto dall’utente.
+
+Le immagini sostituite non sono più incorporate nell’articolo corrente. Dati e provenienze nel registro delle sostituzioni.
