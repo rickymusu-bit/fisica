@@ -1,0 +1,75 @@
+{
+  "originale_sha256": "5f59edf75156174538c8adaf9f2615b14e53a78f7c90a843f3136c15d504f25c",
+  "derivato_sha256": "0addc013ab06e968dce1a3c7e762c42792e5b58176ac5512fbfa7e8605a741ec",
+  "nodi_geometrici_identici": 423,
+  "etichette_tradotte": 15,
+  "testi_italiani": [
+    "Reattore",
+    "Generatore",
+    "di vapore",
+    "Edificio di",
+    "contenimento",
+    "Generatore",
+    "elettrico",
+    "Torri di",
+    "raffreddamento",
+    "Sottostazione elettrica",
+    "Turbina",
+    "Condensatore",
+    "Barre di controllo",
+    "Linea del vapore",
+    "Acqua di raffreddamento",
+    "Acqua",
+    "Pompa",
+    "Pompa",
+    "Bacino"
+  ],
+  "byte_svg": 306347,
+  "tema_css_js_invariato": true,
+  "altre_immagini_invariate": true,
+  "sorgenti_esclusi_sha256": {
+    "metodo_scientifico_it.html": "9da4bdf7f2c70a6db51ce53a7ce7a2b8566a07e1592e509ea9014be4b7114719",
+    "sistema_internazionale_notazione_it.html": "fcf517359d9088d4298eb9906279bdc0ecf1b22683b7f3bfefd8b293cd0c1cfc",
+    "strumenti_errori_incertezza_it.html": "d9a4c9b2fed3c29f0393547ac875e8ab603abb289a9a5af07baa7873a7024106",
+    "grafici_piano_cartesiano_it.html": "256cad18e3b23b8eadb24eb5dfe426f357fa66b062e36b4fccfb72aa40e47aea",
+    "lavoro_energie_potenza_it.html": "3c5b92b6a95068dcf8c674dd3cbaac73f2923e8810ae147b880f31d99ce0d572",
+    "bilancio_conservazione_rendimento_it.html": "44a71dfd9f07bb9ff5c0a86006b85a654ad2732b34beda142d9d7b4c0e408c69",
+    "potenza_termica_conduzione_convezione_it.html": "b346fd60bcce9ca7d74628434d8c854332ff55ddd9dd80db3253cc2f04bc5251"
+  },
+  "note": 21,
+  "byte_html": 15047175,
+  "browser": [
+    {
+      "larghezza": 390,
+      "script_bloccati": false,
+      "immagini_caricate": true,
+      "zoom_nativo": true,
+      "home_area_tematica": true,
+      "overflow": false
+    },
+    {
+      "larghezza": 1280,
+      "script_bloccati": false,
+      "immagini_caricate": true,
+      "zoom_nativo": true,
+      "home_area_tematica": true,
+      "overflow": false
+    },
+    {
+      "larghezza": 390,
+      "script_bloccati": true,
+      "immagini_caricate": true,
+      "zoom_nativo": true,
+      "home_area_tematica": true,
+      "overflow": false
+    },
+    {
+      "larghezza": 1280,
+      "script_bloccati": true,
+      "immagini_caricate": true,
+      "zoom_nativo": true,
+      "home_area_tematica": true,
+      "overflow": false
+    }
+  ]
+}

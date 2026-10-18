@@ -19,3 +19,7 @@ Il nome «← Tutti gli articoli» dei collegamenti alla home e il componente de
 Per le etichette usa il vocabolario unico di A6. Prima di aggiornare o pubblicare leggi `pubblicazione.json`: modifica soltanto gli articoli conformati ammessi; conserva invariati ed escludi da ogni aggiornamento gli articoli sospesi, salvo richiesta esplicita dell’utente, secondo D2.1.
 
 Non pubblicare né ripristinare vecchi indirizzi o reindirizzamenti degli articoli esclusi e della precedente dispensa unificata: l’utente ne ha richiesto esplicitamente la rimozione. Il manifest di pubblicazione conserva l’elenco degli indirizzi dismessi.
+
+La gerarchia approvata è **Area tematica → Articolo → Sezione**; applica il vocabolario operativo salvato in `riferimenti/TERMINOLOGIA_SITO.md` insieme ad A6, senza aggiornare i sorgenti esclusi.
+
+Traduci le etichette delle infografiche e degli schemi quando richiesto; questa regola non si estende alle scritte presenti nelle fotografie, comprese le termografie. La foto delle anatre mantiene la scala originale: l’utente ha escluso la conversione.

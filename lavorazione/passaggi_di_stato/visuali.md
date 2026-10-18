@@ -7,7 +7,7 @@
 | C2 | [Molten Metal](https://www.flickr.com/photos/pamnani/36024324286/) | [copertina.jpg](risorse/copertina.jpg), 1024 × 768 px, 109.079 byte | Rajesh_India; [CC BY-NC-ND 2.0](https://creativecommons.org/licenses/by-nc-nd/2.0/) |
 | A1 | [Michael Jordan, 1997](https://commons.wikimedia.org/wiki/File:Steve_Lipfosky_--_Michael_Jordan_(1997).jpg) | [sudore.jpg](risorse/sudore.jpg), 960 × 1410 px, 245.180 byte; originale 1200 × 1762 px conservato | Steve Lipofsky; [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Credito richiesto: **Lipofsky Basketballphoto.com** |
 | A2 | [Unità pompa di calore](https://commons.wikimedia.org/wiki/File:Heat_pump_unit.webp) | [pompa-di-calore.webp](risorse/pompa-di-calore.webp), 960 × 1280 px, 311.006 byte; originale conservato | Wikideas1; CC0 |
-| A3 | [Centrale nucleare PWR](https://commons.wikimedia.org/wiki/File:PWR_nuclear_power_plant_diagram.svg) | [centrale-nucleare.png](risorse/centrale-nucleare.png), 960 × 499 px, 122.978 byte; originale SVG conservato | Tennessee Valley Authority; pubblico dominio (PD-USGov-TVA) |
+| A3 | [Centrale nucleare PWR](https://commons.wikimedia.org/wiki/File:PWR_nuclear_power_plant_diagram.svg) | [centrale-nucleare-it.svg](risorse/centrale-nucleare-it.svg), viewBox 686 × 356, 306.347 byte; originale SVG e precedente PNG conservati | Tennessee Valley Authority; pubblico dominio (PD-USGov-TVA) |
 | E1 | [Scultura di ghiaccio](https://commons.wikimedia.org/wiki/File:Ai_Weiweis_Ice_Sculptures_in_Stockholm_2014.jpg) | [scultura-ghiaccio.jpg](risorse/scultura-ghiaccio.jpg), anteprima 960 × 1232 px; originale conservato | Frankie Fouganthin; CC BY-SA 4.0 |
 | E2, foto esclusa | [Riferimento conservato: acqua che bolle](https://commons.wikimedia.org/wiki/File:Water_boiling_in_a_pot_on_a_stove.jpg) | [acqua-ebollizione.jpg](risorse/acqua-ebollizione.jpg), anteprima 960 × 966 px; originale 918 × 924 px conservato | Tomwsulcer; CC0 |
 
@@ -21,7 +21,7 @@ A1 mostra sudore visibile sulla pelle e sostiene l’applicazione sull’evapora
 
 L’utente richiede «Niente schema frigorifero, spiega solo la pompa di calore» e fornisce A2 e A3. Rimossi dalla bozza il caso frigorifero e la relativa richiesta di schema. Testo e domanda finale 8 ora riguardano soltanto la pompa di calore in modalità riscaldamento. Spiegati refrigerante più freddo dell’aria esterna, evaporazione all’esterno, compressione, condensazione verso la casa ed espansione, senza aggiungere un nuovo schema o formule di rendimento.
 
-A3 è lo schema illustrato di una centrale nucleare **PWR**, non un generico ciclo con ebollizione nel reattore. Il testo distingue acqua primaria pressurizzata che resta liquida, acqua secondaria che vaporizza e condensa, circuito di raffreddamento. “Generator” è il generatore elettrico, non il generatore di vapore; corrispondenze delle altre etichette inglesi nel testo. Si conserva la figura direttamente, senza traduzioni grafiche, ridisegni o ritagli non richiesti. Densa sul telefono: prevedere apertura ingrandita nell’HTML; non dichiarare già svolta una prova responsive sull’HTML futuro.
+A3 è lo schema illustrato di una centrale nucleare **PWR**, non un generico ciclo con ebollizione nel reattore. Il testo distingue acqua primaria pressurizzata che resta liquida, acqua secondaria che vaporizza e condensa, circuito di raffreddamento. Le etichette ora distinguono «Generatore elettrico» e «Generatore di vapore». La traduzione vettoriale, approvata il 18 ottobre 2026, conserva circuiti, geometria, colori e frecce. Il precedente inserimento senza traduzione è superato da questa richiesta. Densa sul telefono: mantenere l’ingrandimento nativo del tema.
 
 A2 e A3 acquisiti nelle versioni scelte e originali, decodificati/parsing SVG verificato, ispezionati. Fonti/licenze lette nelle schede Commons. Nessuna elaborazione dell’immagine effettuata. Questa richiesta supera la necessità precedente di uno schema del circuito frigorifero.
 
@@ -56,3 +56,7 @@ Parametri, indici selezionati, durate, hash e controlli in [ottimizzazione-gif.j
 ## Integrazione nel tema autonomo — 2026-10-18 00:49 (Europe/Rome)
 
 E1 è ora il modello HTML nativo nell’HTML v12: stessa foto della scultura, sfondo conservato, massa ipotizzata 5,00 · 10² kg = 0,500 t, quattro stati e tre frecce. Etichette leggibili sul telefono; ipotesi nella nota dell’esempio. `schema-esempio.svg` è conservato come risorsa di riferimento, non incorporato nell’ultima versione. PWR integrato nel componente di ingrandimento nativo del tema. GIF ridotte e foto scelte invariate; nessuna ricerca di nuovi visuali o modifica ai loro originali.
+
+## Editing recuperato — 18 ottobre 2026
+
+Utente informato prima dell’intervento e approvazione «Va bene»: traduzione di tutte le etichette sull’originale SVG TVA, senza ridisegno. Confronto con originale e controllo mobile in `../sito/anteprima-visuali/`; verifica di identità dei 423 nodi di disegno in `risorse/verifica-centrale.json`. Nessun originale sovrascritto. La nota di traduzione inglese è rimossa dall’articolo v16 perché ormai inutile. Revisione degli altri visuali in `../sito/revisione-visuali.md`.

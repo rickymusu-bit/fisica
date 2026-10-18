@@ -10,7 +10,7 @@ def render_italian(document, root):
         '', document, count=1)
     if count != 1:
         raise ValueError("Menu indice italiano assente o duplicato")
-    document = document.replace('name="version" content="v6"', 'name="version" content="v9"')
+    document = document.replace('name="version" content="v7"', 'name="version" content="v10"')
     document = document.replace(
         'scegli «Scarica HTML»', 'usa l’icona di download')
     document = re.sub(r'        <div class="intro-foot">[\s\S]*?</div>\n', '', document, count=1)
@@ -48,6 +48,7 @@ def render_italian(document, root):
     document = document.replace('</style>', '''
 /* Comandi della sola home italiana. */
 .top{justify-content:space-between}
+.area-heading .area-label{display:block;font-size:12px;line-height:1.5;letter-spacing:.08em;text-transform:uppercase;margin-bottom:6px}
 button{font:inherit;color:inherit}
 button:focus-visible{outline:3px solid var(--ink);outline-offset:5px}
 .articles-trigger,.panel-close{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:46px;border:2px solid var(--line);background:white;font-size:17px;font-weight:600;cursor:pointer;padding:8px 14px;line-height:1.4}
