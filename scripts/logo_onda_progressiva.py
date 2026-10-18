@@ -10,10 +10,10 @@ PERIOD = 4
 SEGMENTS = 96
 
 
-def path_data():
+def path_data(temporal_factor=1):
     def point(theta):
-        r = RADIUS + AMPLITUDE * cos(CRESTS * theta)
-        dr = -CRESTS * AMPLITUDE * sin(CRESTS * theta)
+        r = RADIUS + AMPLITUDE * temporal_factor * cos(CRESTS * theta)
+        dr = -CRESTS * AMPLITUDE * temporal_factor * sin(CRESTS * theta)
         return (160 + r * cos(theta), 160 + r * sin(theta),
                 dr * cos(theta) - r * sin(theta),
                 dr * sin(theta) + r * cos(theta))

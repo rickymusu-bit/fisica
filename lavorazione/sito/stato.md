@@ -1,5 +1,15 @@
 # Stato — Home e GitHub Pages
 
+## Correzione finale: onda sinusoidale stazionaria — 18 ottobre 2026
+
+L’utente corregge il modello: «L’onda sì è sinusoidale ma è un’onda stazionaria, non progressiva». Restano quattro creste dalla richiesta precedente. Realizzati i file autonomi `identita/logo-materia-oscura-onda-stazionaria.svg` e `.gif`, nero su trasparente, singolo contorno visibile, nodi angolari fermi e ventri oscillanti; nessuna rotazione. La specifica progressiva e quella a otto lobi sono superate per la nuova consegna.
+
+Modello `r(θ,t)=104+10 cos(4θ) sin(2πt/T)`, con `T=4 s`. Otto nodi fissi a 22,5° + k · 45°; quattro creste nei massimi di deformazione. La curva passa per il cerchio due volte per periodo e inverte il segno dello spostamento nei ventri. Fattore sinusoidale campionato in 32 intervalli nello SVG, errore sullo spostamento inferiore a 0,05 unità. Generatore `scripts/logo_onda_stazionaria.py`; funzione geometrica precedente condivisa tramite un parametro temporale opzionale, senza cambiare l’uscita predefinita della proposta progressiva.
+
+GIF 256 × 256 px, 80 fotogrammi a 20 fps, ciclo di 4 s. Verificati nove istanti: nodi entro 0,08 unità dalle coordinate fisse, spostamento dei ventri e sua inversione, quattro creste alle deformazioni massime, ritorni al cerchio identici pixel per pixel. Verificati trasparenza, soli pixel opachi neri, durata e raccordo continuo della GIF; anteprima a script attivi/bloccati con movimento normale/ridotto, pausa/ripresa da tastiera e assenza di overflow. Esiti, pesi e hash in `verifica-logo-onda-stazionaria.json`.
+
+Indicazioni aggiornate in AGENTS e in `identita/README.md` v3, conservando la provenienza delle proposte superate. Anteprima autonoma `anteprima-logo-onda-stazionaria.html`; immagini in `anteprima-visuali/logo-onda-stazionaria-*`. Home v12, logo attualmente integrato e dieci sorgenti degli articoli verificati invariati. Master v59 invariato, già letto integralmente. Ramo corrente derivato da main `correzione/visuali-centrale`. **GIF stazionaria completata e verificata; nessuna sostituzione nella home, unione in main o pubblicazione.**
+
 ## Correzione: sinusoide progressiva con quattro creste — 18 ottobre 2026
 
 Richiesta esplicita successiva all’interruzione: «Non ci devono essere lobi ma una sinusoide che viaggia in un cerchio chiuso. Rifai la gif con 4 creste (n=2 closed loop)». La proposta a otto lobi è superata. Realizzati `identita/logo-materia-oscura-onda-progressiva.svg` e `.gif`: una sola linea nera e trasparente, quattro creste che avanzano in senso orario, ampiezza costante e deformazione contenuta. Non si passa globalmente dal cerchio a una figura lobata. Profilo circolare `r(θ,t)=104+10 cos(4θ−2πt/T)`, periodo `T=4 s`; l’indice n della richiesta non viene presentato come convenzione universale.
