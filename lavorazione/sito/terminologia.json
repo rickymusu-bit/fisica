@@ -109,5 +109,80 @@
   "esclusi_assenti_output": true,
   "sorgenti_esclusi_invariati": true,
   "errori_js": [],
-  "build_rifiuta_catalogo_con_articoli_esclusi": true
+  "build_rifiuta_catalogo_con_articoli_esclusi": true,
+  "home_senza_javascript": "Tre articoli e tre download visibili senza script",
+  "pubblicazione": {
+    "pr": "https://github.com/rickymusu-bit/fisica/pull/22",
+    "merge": "cda1941a3bc9c1ca9395c8c2158c1a6afdae6c5f",
+    "verificata_utc": "2026-10-18T07:19:06.292264+00:00",
+    "https_verificato": true,
+    "risultati": [
+      {
+        "file": "index.html",
+        "status": 200,
+        "copia_esatta_verificata": true,
+        "sha256": "5524e0879e3c2127ab99e5c3a96bd711ce62e84d4b8f0472fa7ce039b20bf9e5"
+      },
+      {
+        "file": "stati_della_materia.html",
+        "status": 200,
+        "copia_esatta_verificata": true,
+        "sha256": "22f30640d7f5b54753a06dfa374566e7f60ebab6ebe08b53a743c40c51e962f7"
+      },
+      {
+        "file": "passaggi_di_stato.html",
+        "status": 200,
+        "copia_esatta_verificata": true,
+        "sha256": "f6f6f78fab213431198be04cd74b8c15314fb5f4ef32e307065d9e41703eb08a"
+      },
+      {
+        "file": "irraggiamento_it.html",
+        "status": 200,
+        "copia_esatta_verificata": true,
+        "sha256": "e1d88d3fa590bc1394c4603e79c1c1b76bf257ea0642272f753d3a33c8d9b3ba"
+      },
+      {
+        "file": "stati_della_materia_e_passaggi_di_stato.html",
+        "status": 200,
+        "copia_esatta_verificata": true,
+        "sha256": "dcd051a8608d2c3e37b988ce43eb189eaf1e1b208c27eb800477aba17a6f8ec2"
+      },
+      {
+        "file": "stati_della_materia_e_passaggi_di_stato_v8_20261016.html",
+        "status": 200,
+        "copia_esatta_verificata": true,
+        "sha256": "dcd051a8608d2c3e37b988ce43eb189eaf1e1b208c27eb800477aba17a6f8ec2"
+      },
+      {
+        "file": "metodo_scientifico_it.html",
+        "status": 404
+      },
+      {
+        "file": "sistema_internazionale_notazione_it.html",
+        "status": 404
+      },
+      {
+        "file": "strumenti_errori_incertezza_it.html",
+        "status": 404
+      },
+      {
+        "file": "grafici_piano_cartesiano_it.html",
+        "status": 404
+      },
+      {
+        "file": "lavoro_energie_potenza_it.html",
+        "status": 404
+      },
+      {
+        "file": "bilancio_conservazione_rendimento_it.html",
+        "status": 404
+      },
+      {
+        "file": "potenza_termica_conduzione_convezione_it.html",
+        "status": 404
+      }
+    ],
+    "workflow": "https://github.com/rickymusu-bit/fisica/actions/runs/39107141160",
+    "workflow_conclusione": "success"
+  }
 }
