@@ -4,7 +4,7 @@
 
 Catalogo e navigazione aggiornati alla sequenza Stati della materia → Passaggi di stato → Conduzione → Convezione → Irraggiamento. Manifest v4, home generata v17; Conduzione e Convezione v4, Passaggi di stato v20 e Irraggiamento v11. Richiesta diretta dell’utente; sette HTML esclusi invariati. Build locale riuscita, anteprime e verifica browser prima del deploy. [Rapporto](verifica-ordine-crediti.json). Tre nuove fotografie Commons con licenze documentate; la GIF Tenor scelta non documenta una licenza libera specifica e conserva l’avvertenza nei crediti.
 
-Stato: pronto per integrazione, deploy da verificare.
+Pubblicato e verificato: [PR #34](https://github.com/rickymusu-bit/fisica/pull/34), merge `bc642106b06eb050a8f32c4197b5098f586556d2`; [workflow Pages riuscito](https://github.com/rickymusu-bit/fisica/actions/runs/39164627993). Catalogo e quattro articoli aggiornati rispondono HTTP 200 e coincidono byte per byte con i file controllati. [Verifica online](verifica-ordine-crediti-online.json). Nessun passaggio di pubblicazione aperto.
 
 ## Schema triangolare invariato su mobile — 18 ottobre 2026
 

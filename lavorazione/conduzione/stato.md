@@ -10,7 +10,7 @@ Sostituite zuppa/cucchiaio, vetrocamera, igloo e GIF del palo con i quattro file
 
 [Registro dei media](../conduzione/risorse/sostituzioni-crediti.json); [verifiche ordine e browser](../sito/verifica-ordine-crediti.json). CSS e script invariati. HTML ufficiali e bozze di lavoro aggiornati; i sette sorgenti esclusi restano invariati. La build prepara solo home e cinque articoli ammessi.
 
-Fase: verifiche statiche e browser superate, anteprime consegnate; pronta l’integrazione e il deploy.
+Pubblicato e verificato: [PR #34](https://github.com/rickymusu-bit/fisica/pull/34), merge `bc642106b06eb050a8f32c4197b5098f586556d2`; [workflow Pages riuscito](https://github.com/rickymusu-bit/fisica/actions/runs/39164627993). Catalogo e quattro articoli aggiornati rispondono HTTP 200 e coincidono byte per byte con i file controllati. [Verifica online](../sito/verifica-ordine-crediti-online.json). Nessun passaggio di pubblicazione aperto.
 
 ## Stato precedente — v3
 

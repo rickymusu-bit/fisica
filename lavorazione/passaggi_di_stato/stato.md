@@ -2,7 +2,7 @@
 
 ## Nuovo ordine degli articoli — 18 ottobre 2026
 
-Versione v20: aggiornata esclusivamente la navigazione al nuovo ordine Stati della materia → Passaggi di stato → Conduzione → Convezione → Irraggiamento. Testi, media, formule e script invariati. Modifica richiesta nella conversazione; verifiche condivise in [verifica-ordine-crediti.json](../sito/verifica-ordine-crediti.json). Pubblicazione in preparazione.
+Versione v20: aggiornata esclusivamente la navigazione al nuovo ordine Stati della materia → Passaggi di stato → Conduzione → Convezione → Irraggiamento. Testi, media, formule e script invariati. Modifica richiesta nella conversazione; verifiche condivise in [verifica-ordine-crediti.json](../sito/verifica-ordine-crediti.json). Pubblicato e verificato: [PR #34](https://github.com/rickymusu-bit/fisica/pull/34), merge `bc642106b06eb050a8f32c4197b5098f586556d2`; [workflow Pages riuscito](https://github.com/rickymusu-bit/fisica/actions/runs/39164627993). Catalogo e quattro articoli aggiornati rispondono HTTP 200 e coincidono byte per byte con i file controllati. [Verifica online](../sito/verifica-ordine-crediti-online.json). Nessun passaggio di pubblicazione aperto.
 
 ## Schema triangolare invariato su mobile — 18 ottobre 2026
 
