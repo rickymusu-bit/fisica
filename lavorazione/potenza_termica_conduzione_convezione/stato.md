@@ -64,3 +64,9 @@ Rimosso dalla bozza di Conduzione l’intero esempio svolto sulle due stufette, 
 Su richiesta esplicita rimosso il dissipatore dalla bozza di Conduzione: applicazione, figura IMMAGINE 13 (img-10 nell’inventario) e quesito dedicato. Il quesito successivo è rinumerato; restano 12 domande di Conduzione e 7 di Convezione. Il dissipatore resta spiegato e illustrato in Convezione. Nessun originale eliminato e nessun HTML modificato.
 
 Conteggio verificato: cinque casi applicativi in Conduzione (caffettiera, pareti, vetrocamera, igloo, metallo freddo), quattro con titolo e uno nel paragrafo sulle pareti; escluso il cucchiaio iniziale della teoria. In Convezione quattro applicazioni nella sezione dedicata, più il termosifone nella teoria. Proposta e mappa risorse aggiornate sul ramo; testo complessivo ancora da approvare, main e pubblicazione invariati.
+
+## Revisione della quinta applicazione — 18 ottobre 2026, ore 13:23 (Europe/Rome)
+
+Richiesta esplicita: eliminare il collegamento con il legno e spiegare il fenomeno della lingua sul palo gelato e perché i metalli conducono bene il calore. Riscritta l’applicazione con direzione del trasferimento, conduzione lontano dalla zona di contatto, congelamento della saliva e adesione tramite ghiaccio; spiegato il contributo degli elettroni mobili e delle vibrazioni atomiche. Conservata l’animazione già approvata, aggiornata la didascalia e mantenuta l’indicazione di non provare il contatto.
+
+Quesito 9 allineato al nuovo testo (direzione del trasferimento, congelamento, elettroni mobili); altri quesiti invariati. Totali invariati: cinque casi applicativi e 12 quesiti in Conduzione, 7 in Convezione. Proposta e registro aggiornati. Modifica testuale richiesta e realizzata sul ramo dedicato; bozza complessiva ancora da approvare, nessun HTML, main o pubblicazione modificati.

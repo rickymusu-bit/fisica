@@ -4,7 +4,7 @@
 
 | Capitolo e futuro percorso | Provenienza | Contenuti e risorse conservati | Domande |
 | --- | --- | --- | --- |
-| Conduzione · `conduzione_it.html` | `#potenza` + `#conduzione`, primi due gruppi di domande | Breve sezione sulla potenza termica; zuppa e cucchiaio; reticolo animato; tabella λ con tutti gli otto materiali; video con miniatura e URL esatti; Fourier; muro e grafico corretto; caffettiera, vetrocamera, igloo, metallo freddo. | 12 |
+| Conduzione · `conduzione_it.html` | `#potenza` + `#conduzione`, primi due gruppi di domande | Breve sezione sulla potenza termica; zuppa e cucchiaio; reticolo animato; tabella λ con tutti gli otto materiali; video con miniatura e URL esatti; Fourier; muro e grafico corretto; caffettiera, vetrocamera, igloo, lingua sul palo gelato ed elettroni mobili. | 12 |
 | Convezione · `convezione_it.html` | `#convezione`, terzo gruppo di domande | Stanza, densità e gravità; meccanismo naturale e forzato; atmosfera e rotazione; mantello prevalentemente solido; ventola del processore; radiatore, pompa, termostato, alette e ramo dell’abitacolo. | 7 |
 
 ## Scelta strutturale ricevuta
@@ -28,7 +28,7 @@ Su richiesta del 18 ottobre alle 13:18, il dissipatore è rimosso da Conduzione,
 
 ## Applicazioni presenti dopo la rimozione del dissipatore
 
-In Conduzione restano cinque casi applicativi: caffettiera, isolamento delle pareti (paragrafo che richiama lo schema del muro), vetrocamera, igloo, metallo che sembra più freddo del legno. Quattro hanno un titolo dedicato; il caso delle pareti è sviluppato nel paragrafo seguente la caffettiera. Il cucchiaio nella zuppa resta la situazione iniziale della teoria, non un’ulteriore applicazione in questa sezione.
+In Conduzione restano cinque casi applicativi: caffettiera, isolamento delle pareti (paragrafo che richiama lo schema del muro), vetrocamera, igloo, lingua sul palo gelato e ruolo degli elettroni mobili nella conduzione dei metalli. Quattro hanno un titolo dedicato; il caso delle pareti è sviluppato nel paragrafo seguente la caffettiera. Il cucchiaio nella zuppa resta la situazione iniziale della teoria, non un’ulteriore applicazione in questa sezione.
 
 In Convezione restano quattro applicazioni nella sezione dedicata: atmosfera, mantello, raffreddamento del processore, radiatore dell’automobile. Il termosifone è il caso iniziale della teoria; contando anche quello, i casi concreti sono cinque. «Conduzione e convezione lavorano insieme» collega processore e radiatore, senza introdurre una sesta applicazione.
 

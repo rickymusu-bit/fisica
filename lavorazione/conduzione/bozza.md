@@ -103,13 +103,15 @@ Le pareti di neve non sono una sorgente di calore. La neve contiene numerose pic
 
 Didascalia: Le pareti di neve contengono aria intrappolata e limitano le perdite di calore verso l’esterno.
 
-### Il metallo sembra più freddo del legno
+### La lingua sul palo gelato
 
-Se un oggetto metallico e uno di legno rimangono a lungo nella stessa stanza, possono trovarsi alla medesima temperatura. Il metallo sembra spesso più freddo perché sottrae energia alla pelle più rapidamente. All’aperto, quando un metallo è sotto zero, l’umidità della pelle o della lingua può congelare a contatto con esso: ecco perché aderire a una superficie gelata è pericoloso e non va provato.
+Quando la lingua tocca un palo metallico gelato, l’energia si trasferisce dalla lingua, più calda, al metallo, più freddo. Il palo conduce rapidamente questa energia lontano dalla zona di contatto, verso le parti circostanti. Se il metallo è abbastanza freddo, la saliva può perdere energia fino a congelare: il sottile strato di ghiaccio che si forma fa aderire la lingua alla superficie.
 
-[IMMAGINE 12 — Il contatto con metallo molto freddo può sottrarre rapidamente energia alla pelle: non va imitato.]
+Nei metalli alcuni elettroni possono muoversi attraverso il materiale, senza restare legati a un singolo atomo. Questi **elettroni mobili** trasportano energia dalle regioni più calde a quelle più fredde e la scambiano con le altre parti del metallo. Alla conduzione contribuiscono anche le vibrazioni degli atomi, ma gli elettroni mobili spiegano perché molti metalli siano conduttori termici particolarmente efficaci.
 
-Didascalia: Il contatto con metallo molto freddo può sottrarre rapidamente energia alla pelle: non va imitato.
+[IMMAGINE 12 — Riutilizzare l’animazione già approvata del contatto con il palo gelato, senza alterazioni.]
+
+Didascalia: Il metallo conduce energia lontano dal punto di contatto; se la saliva congela, il ghiaccio fa aderire la lingua al palo. È pericoloso: non va provato.
 
 ## Domande di verifica
 
@@ -129,7 +131,7 @@ Didascalia: Il contatto con metallo molto freddo può sottrarre rapidamente ener
 
 8. **Rame e legno.** Perché il rame è adatto al trasferimento rapido di calore mentre il legno è utile per limitare tale trasferimento?
 
-9. **Quale sembra più freddo?.** Un cucchiaio metallico e uno di legno sono stati a lungo nella stessa stanza. Perché il metallo sembra più freddo, pur essendo alla stessa temperatura?
+9. **La lingua sul palo gelato.** In quale direzione si trasferisce energia quando la lingua tocca un palo metallico gelato? Perché la saliva può congelare e quale ruolo hanno gli elettroni mobili del metallo?
 
 10. **Potenza dispersa.** Una parete piana ha λ = 0,20 W/(m·K), A = 10 m², s = 0,20 m, temperatura della faccia interna 20 °C e della faccia esterna 0 °C. Calcola la potenza termica dispersa.
 
