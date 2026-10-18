@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'index.html'
+      - 'pubblicazione.json'
       - '*.html'
       - 'scripts/build_pages.py'
       - 'scripts/home_covers.py'
