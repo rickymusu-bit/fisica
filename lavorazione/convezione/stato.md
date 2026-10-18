@@ -1,5 +1,9 @@
 # Stato — Convezione
 
+## Centralizzazione dei crediti — 18 ottobre 2026
+
+Revisione circoscritta autorizzata dalla richiesta di migrare tutti gli articoli: `convezione_it.html` usa il registro unico `risorse/crediti.json`, la pagina «Crediti e licenze» e lo snapshot autonomo offline. Sezioni finali dei crediti rimosse dopo il controllo degli avvisi; contenuto scientifico, formule, immagini e script originali preservati. Master v60, tema v8. La stessa revisione dei crediti comprende le traduzioni esistenti del capitolo, senza tradurre i contenuti. Ramo `crediti/centralizzazione`; nessuna riammissione né pubblicazione. Le licenze non documentate restano da verificare nel rapporto `../sito/crediti-verifiche.json`.
+
 ## Ordine e crediti — 18 ottobre 2026
 
 Versione corrente predisposta: **v4**, sul ramo `revisione/ordine-crediti-conduzione`, base main `b2eecfbdac3231d1cf7cce49c36d97201a5b2f42`. Master v59, tema comune v7 e regola T maiuscola conservati.

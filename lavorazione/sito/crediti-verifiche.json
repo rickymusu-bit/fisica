@@ -1,0 +1,443 @@
+{
+  "base_commit": "ae721d0b10e4ab648da56f8ec9ae6926c91b3e72",
+  "articles_analyzed": 20,
+  "articles_modified": 20,
+  "results": [
+    {
+      "article": "bilancio_conservazione_rendimento_it.html",
+      "scientific_source_unchanged": true,
+      "media_unchanged": true,
+      "original_scripts_unchanged": true,
+      "original_notices_preserved": 0,
+      "bytes": 1015791
+    },
+    {
+      "article": "conduzione_it.html",
+      "scientific_source_unchanged": true,
+      "media_unchanged": true,
+      "original_scripts_unchanged": true,
+      "original_notices_preserved": 9,
+      "bytes": 6636149
+    },
+    {
+      "article": "convezione_it.html",
+      "scientific_source_unchanged": true,
+      "media_unchanged": true,
+      "original_scripts_unchanged": true,
+      "original_notices_preserved": 9,
+      "bytes": 8881826
+    },
+    {
+      "article": "grafici_piano_cartesiano_fr.html",
+      "scientific_source_unchanged": true,
+      "media_unchanged": true,
+      "original_scripts_unchanged": true,
+      "original_notices_preserved": 0,
+      "bytes": 807683
+    },
+    {
+      "article": "grafici_piano_cartesiano_it.html",
+      "scientific_source_unchanged": true,
+      "media_unchanged": true,
+      "original_scripts_unchanged": true,
+      "original_notices_preserved": 0,
+      "bytes": 810342
+    },
+    {
+      "article": "grafici_piano_cartesiano_sq.html",
+      "scientific_source_unchanged": true,
+      "media_unchanged": true,
+      "original_scripts_unchanged": true,
+      "original_notices_preserved": 0,
+      "bytes": 807379
+    },
+    {
+      "article": "irraggiamento_it.html",
+      "scientific_source_unchanged": true,
+      "media_unchanged": true,
+      "original_scripts_unchanged": true,
+      "original_notices_preserved": 15,
+      "bytes": 6144441
+    },
+    {
+      "article": "lavoro_energie_potenza_it.html",
+      "scientific_source_unchanged": true,
+      "media_unchanged": true,
+      "original_scripts_unchanged": true,
+      "original_notices_preserved": 0,
+      "bytes": 12111536
+    },
+    {
+      "article": "metodo_scientifico_fr.html",
+      "scientific_source_unchanged": true,
+      "media_unchanged": true,
+      "original_scripts_unchanged": true,
+      "original_notices_preserved": 0,
+      "bytes": 1470960
+    },
+    {
+      "article": "metodo_scientifico_it.html",
+      "scientific_source_unchanged": true,
+      "media_unchanged": true,
+      "original_scripts_unchanged": true,
+      "original_notices_preserved": 0,
+      "bytes": 1472732
+    },
+    {
+      "article": "metodo_scientifico_sq.html",
+      "scientific_source_unchanged": true,
+      "media_unchanged": true,
+      "original_scripts_unchanged": true,
+      "original_notices_preserved": 0,
+      "bytes": 1470804
+    },
+    {
+      "article": "passaggi_di_stato.html",
+      "scientific_source_unchanged": true,
+      "media_unchanged": true,
+      "original_scripts_unchanged": true,
+      "original_notices_preserved": 9,
+      "bytes": 15212785
+    },
+    {
+      "article": "potenza_termica_conduzione_convezione_it.html",
+      "scientific_source_unchanged": true,
+      "media_unchanged": true,
+      "original_scripts_unchanged": true,
+      "original_notices_preserved": 0,
+      "bytes": 15385680
+    },
+    {
+      "article": "sistema_internazionale_notazione_fr.html",
+      "scientific_source_unchanged": true,
+      "media_unchanged": true,
+      "original_scripts_unchanged": true,
+      "original_notices_preserved": 0,
+      "bytes": 831098
+    },
+    {
+      "article": "sistema_internazionale_notazione_it.html",
+      "scientific_source_unchanged": true,
+      "media_unchanged": true,
+      "original_scripts_unchanged": true,
+      "original_notices_preserved": 0,
+      "bytes": 833480
+    },
+    {
+      "article": "sistema_internazionale_notazione_sq.html",
+      "scientific_source_unchanged": true,
+      "media_unchanged": true,
+      "original_scripts_unchanged": true,
+      "original_notices_preserved": 0,
+      "bytes": 830262
+    },
+    {
+      "article": "stati_della_materia.html",
+      "scientific_source_unchanged": true,
+      "media_unchanged": true,
+      "original_scripts_unchanged": true,
+      "original_notices_preserved": 8,
+      "bytes": 8053881
+    },
+    {
+      "article": "strumenti_errori_incertezza_fr.html",
+      "scientific_source_unchanged": true,
+      "media_unchanged": true,
+      "original_scripts_unchanged": true,
+      "original_notices_preserved": 0,
+      "bytes": 1281633
+    },
+    {
+      "article": "strumenti_errori_incertezza_it.html",
+      "scientific_source_unchanged": true,
+      "media_unchanged": true,
+      "original_scripts_unchanged": true,
+      "original_notices_preserved": 0,
+      "bytes": 1284479
+    },
+    {
+      "article": "strumenti_errori_incertezza_sq.html",
+      "scientific_source_unchanged": true,
+      "media_unchanged": true,
+      "original_scripts_unchanged": true,
+      "original_notices_preserved": 0,
+      "bytes": 1281152
+    }
+  ],
+  "resources": 87,
+  "inventoried_assets": 178,
+  "review_resources": [
+    {
+      "id": "credit-88d0bcbc88ae84e1",
+      "description": "suitcase"
+    },
+    {
+      "id": "credit-927164c5c116b1e6",
+      "description": "bulb"
+    },
+    {
+      "id": "credit-c191bf81242481c4",
+      "description": "Miniatura video"
+    },
+    {
+      "id": "credit-07b5b0917b36b148",
+      "description": "Lingua sul palo"
+    },
+    {
+      "id": "credit-b7d5fe724eb33df1",
+      "description": "Parete e andamento della temperatura"
+    },
+    {
+      "id": "credit-8ff4ddc51a2b9611",
+      "description": "Animazione degli scambi radiativi Sole–Terra–atmosfera"
+    },
+    {
+      "id": "credit-6bad3b6c5fe3de56",
+      "description": "Tostapane vintage"
+    },
+    {
+      "id": "credit-48220f391bae6883",
+      "description": "Assorbimento, riflessione e trasmissione della radiazione"
+    },
+    {
+      "id": "credit-481ed5817c7815fb",
+      "description": "Curva teorica della potenza termica emessa in funzione della temperatura"
+    },
+    {
+      "id": "credit-c96b8082e19f2e13",
+      "description": "Le animazioni di evaporazione ed ebollizione e le fotografie di condensa, nuvole, ghiaccio secco e brina sono riprese dalla dispensa v8. La fonte v8 non documenta attribuzioni individuali complete; la provenienza resta da integrare."
+    },
+    {
+      "id": "credit-72db4d1d2afe4276",
+      "description": "Mappe dei passaggi e schema dell’esempio"
+    },
+    {
+      "id": "credit-d309ee2371db3d9d",
+      "description": "Le tre GIF di fusione, evaporazione ed ebollizione sono state ridotte all’80% delle dimensioni e a circa due terzi dei fotogrammi, conservando la durata complessiva e la ripetizione."
+    },
+    {
+      "id": "credit-4b34a69e441b8816",
+      "description": "Fotografie e schemi di stufette, zuppa, caffettiera, parete, vetrocamera, igloo, circolazione atmosferica, stanza, mantello, radiatore e dissipatore"
+    },
+    {
+      "id": "credit-01e3d044372be718",
+      "description": "Le altre immagini di origine Wikimedia Commons già citate nelle versioni precedenti non sono più utilizzate in questa versione. Per gli schemi forniti senza riferimenti bibliografici, verificare eventuali obblighi di attribuzione prima di redistribuire pubblicamente la dispensa."
+    }
+  ],
+  "license_verification_complete": false,
+  "publication_manifest_unchanged": true,
+  "browser": [
+    {
+      "page": "crediti.html",
+      "width": 320,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "page": "crediti.html",
+      "width": 390,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "page": "crediti.html",
+      "width": 768,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "page": "crediti.html",
+      "width": 1280,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "page": "index.html",
+      "width": 390,
+      "media_ok": true,
+      "dialog_keyboard_ok": true,
+      "errors": []
+    },
+    {
+      "page": "index.html",
+      "width": 1280,
+      "media_ok": true,
+      "dialog_keyboard_ok": true,
+      "errors": []
+    },
+    {
+      "page": "stati_della_materia.html",
+      "width": 390,
+      "media_ok": true,
+      "dialog_keyboard_ok": true,
+      "errors": []
+    },
+    {
+      "page": "stati_della_materia.html",
+      "width": 1280,
+      "media_ok": true,
+      "dialog_keyboard_ok": true,
+      "errors": []
+    },
+    {
+      "page": "passaggi_di_stato.html",
+      "width": 390,
+      "media_ok": true,
+      "dialog_keyboard_ok": true,
+      "errors": []
+    },
+    {
+      "page": "passaggi_di_stato.html",
+      "width": 1280,
+      "media_ok": true,
+      "dialog_keyboard_ok": true,
+      "errors": []
+    },
+    {
+      "page": "conduzione_it.html",
+      "width": 390,
+      "media_ok": true,
+      "dialog_keyboard_ok": true,
+      "errors": []
+    },
+    {
+      "page": "conduzione_it.html",
+      "width": 1280,
+      "media_ok": true,
+      "dialog_keyboard_ok": true,
+      "errors": []
+    },
+    {
+      "page": "convezione_it.html",
+      "width": 390,
+      "media_ok": true,
+      "dialog_keyboard_ok": true,
+      "errors": []
+    },
+    {
+      "page": "convezione_it.html",
+      "width": 1280,
+      "media_ok": true,
+      "dialog_keyboard_ok": true,
+      "errors": []
+    },
+    {
+      "page": "irraggiamento_it.html",
+      "width": 390,
+      "media_ok": true,
+      "dialog_keyboard_ok": true,
+      "errors": []
+    },
+    {
+      "page": "irraggiamento_it.html",
+      "width": 1280,
+      "media_ok": true,
+      "dialog_keyboard_ok": true,
+      "errors": []
+    },
+    {
+      "page": "conduzione_it.html caricato in memoria (file:// vietato dal browser gestito)",
+      "javascript": true,
+      "offline": true,
+      "credits_accessible": true
+    },
+    {
+      "page": "conduzione_it.html caricato in memoria (file:// vietato dal browser gestito)",
+      "javascript": false,
+      "offline": true,
+      "credits_accessible": true
+    }
+  ],
+  "source_checks": {
+    "Raimond Spekking": {
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=extmetadata&titles=File%3AAsus+P5PL2+-+CPU+heatsink+with+cooling+fan-5293.jpg",
+      "status": 200,
+      "downloaded": true
+    },
+    "Chandra": {
+      "url": "https://chandra.harvard.edu/photo/image_use.html",
+      "status": 200,
+      "downloaded": true
+    },
+    "Flickr": {
+      "url": "https://www.flickr.com/photos/pamnani/36024324286/",
+      "status": 200,
+      "downloaded": true
+    }
+  },
+  "checks": {
+    "unit_tests": 4,
+    "local_links_and_anchors": 263,
+    "pages_html": 7,
+    "published_articles": 5,
+    "covers": 20,
+    "font_license_preserved": true,
+    "duplicate_ids_on_credits_page": false,
+    "unassociated_image_assets": 56,
+    "all_external_licenses_reverified": false,
+    "git_diff_check": "passed"
+  },
+  "created_or_updated_files": [
+    ".github/workflows/pages.yml",
+    "AGENTS.md",
+    "MASTER_PROMPT.md",
+    "README.md",
+    "bilancio_conservazione_rendimento_it.html",
+    "conduzione_it.html",
+    "convezione_it.html",
+    "copertine/manifest.json",
+    "crediti.html",
+    "grafici_piano_cartesiano_fr.html",
+    "grafici_piano_cartesiano_it.html",
+    "grafici_piano_cartesiano_sq.html",
+    "index.html",
+    "irraggiamento_it.html",
+    "lavorazione/bilancio_conservazione_rendimento/stato.md",
+    "lavorazione/conduzione/bozza.html",
+    "lavorazione/conduzione/stato.md",
+    "lavorazione/convezione/bozza.html",
+    "lavorazione/convezione/stato.md",
+    "lavorazione/grafici_piano_cartesiano/stato.md",
+    "lavorazione/irraggiamento/bozza.html",
+    "lavorazione/irraggiamento/stato.md",
+    "lavorazione/lavoro_energie_potenza/stato.md",
+    "lavorazione/metodo_scientifico/stato.md",
+    "lavorazione/passaggi_di_stato/bozza.html",
+    "lavorazione/passaggi_di_stato/stato.md",
+    "lavorazione/potenza_termica_conduzione_convezione/realizza-capitoli.py",
+    "lavorazione/potenza_termica_conduzione_convezione/stato.md",
+    "lavorazione/sistema_internazionale_notazione/stato.md",
+    "lavorazione/sito/anteprima-visuali/crediti-1280.png",
+    "lavorazione/sito/anteprima-visuali/crediti-390.png",
+    "lavorazione/sito/anteprima-visuali/crediti-autonomi-390.png",
+    "lavorazione/sito/crediti-resoconto.md",
+    "lavorazione/sito/crediti-verifiche.json",
+    "lavorazione/sito/stato.md",
+    "lavorazione/stati_della_materia/bozza.html",
+    "lavorazione/stati_della_materia/stato.md",
+    "lavorazione/strumenti_errori_incertezza/stato.md",
+    "lavoro_energie_potenza_it.html",
+    "licenze/Lexend-OFL.txt",
+    "metodo_scientifico_fr.html",
+    "metodo_scientifico_it.html",
+    "metodo_scientifico_sq.html",
+    "passaggi_di_stato.html",
+    "potenza_termica_conduzione_convezione_it.html",
+    "riferimenti/TEMA_DISPENSE.html",
+    "riferimenti/TERMINOLOGIA_SITO.md",
+    "risorse/README.md",
+    "risorse/crediti.json",
+    "scripts/build_pages.py",
+    "scripts/credits.py",
+    "scripts/home_covers.py",
+    "scripts/home_italian.py",
+    "scripts/test_credits.py",
+    "sistema_internazionale_notazione_fr.html",
+    "sistema_internazionale_notazione_it.html",
+    "sistema_internazionale_notazione_sq.html",
+    "stati_della_materia.html",
+    "strumenti_errori_incertezza_fr.html",
+    "strumenti_errori_incertezza_it.html",
+    "strumenti_errori_incertezza_sq.html"
+  ]
+}

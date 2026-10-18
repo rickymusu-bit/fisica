@@ -17,7 +17,7 @@
 @media(max-width:460px){.language-switch-label{width:100%;margin-bottom:.1rem}.language-switch button{flex:1 1 auto}}
 @media print{.language-switch{display:none}}
 </style>
-<meta name="date" content="2026-10-13"></head>
+<meta name="date" content="2026-10-18"></head>
 <body><main><header><div class="eyebrow">Fizikë · matje eksperimentale</div><h1>Sa mund t'i besojmë një matjeje?</h1><p class="lead">Një kronometër tregon 2,40 s. Po ta përsërisësh provën, mund të lexosh 2,37 s ose 2,43 s. Pajisja, mënyra e përdorimit dhe ndryshimet e provës ndikojnë në rezultat: për ta kuptuar duhet të njohim edhe pasigurinë e tij.</p><p>Fillojmë nga pajisjet, dallojmë llojet e gabimeve dhe më pas shqyrtojmë pesë lexime të simuluara për këtë shpjegim.</p></header>
 <nav aria-label="Përmbajtja e pjesës"><ol><li><a href="#strumenti">Pajisjet dhe leximi</a></li><li><a href="#caratteristiche">Karakteristikat</a></li><li><a href="#errori">Llojet e gabimeve</a></li><li><a href="#incertezza">Matje të përsëritura dhe pasiguri</a></li><li><a href="#confronto">Gabimi dhe pasiguria</a></li><li><a href="#domande">Pyetje</a></li></ol></nav>
 
@@ -48,6 +48,36 @@
 <p>Vlera absolute e gabimit ka të njëjtën njësi si matja; gabimi relativ dhe ai në përqindje e krahasojnë shmangien me vlerën e referencës. Këtu gabimi absolut 0,10 s është pak më i madh se pasiguria mësimore ±0,09 s: shpërndarja nuk zbuloi të gjithë zhvendosjen. Kjo është arsye për të kontrolluar edhe efektet sistematike, pa ngatërruar gabimin me pasigurinë.</p></section>
 
 <section id="domande"><h2>Pyetje për të kuptuarit</h2><ol class="questions"><li>Çfarë përparësie ka treguesi kur një madhësi ndryshon? Çfarë përparësie ka leximi digjital? Jep një kufizim për secilin.</li><li>Shiko vizatimin e paralaksit: ku duhet vendosur syri dhe pse leximi gjithmonë nga anash mund të shkaktojë zhvendosje sistematike?</li><li>Voltmetri në foto ka shkallë nga 0 deri në 15 V. Pse nuk do ta zgjidhje për një tension të pritur 40 V?</li><li>Një termometër tregon të dhjetat e gradës, por stabilizohet ngadalë. Cila karakteristikë lidhet me të dhjetat dhe cila me vonesën?</li><li>Në infografikën e shënjestrave, cili grup është preciz, por jo shumë i saktë? Shpjego me fjalët “shpërndarje” dhe “referencë”.</li><li>Llogarit mesataren dhe gjysmështrirjen nga tabela; pastaj shpjego pse një ekran me 0,01 s nuk mjafton për të deklaruar pasiguri 0,01 s.</li><li>Pa vlerën e referencës, a mund ta llogaritësh gabimin real në përqindje? A mund ta vlerësosh megjithatë pasigurinë? Shpjego.</li></ol></section>
-<footer>Versioni v4 · 13 tetor 2026</footer>
+<!-- resource-credits:start -->
+<style data-resource-credits>
+.credits-navigation{display:flex;flex-wrap:wrap;gap:12px 24px;max-width:940px;margin:20px auto;padding:0 20px;background:white;color:#080808;font:14px/1.6 Lexend,Arial,sans-serif}
+.credits-navigation a{display:inline-flex;align-items:center;min-height:44px}
+.resource-credits-dialog{color:#080808;background:#fff;border:3px solid #080808;padding:24px;width:min(900px,calc(100% - 24px));max-width:calc(100% - 24px);max-height:85vh;overflow:auto;font:16px/1.6 Lexend,Arial,sans-serif;overflow-wrap:anywhere}
+.resource-credits-dialog::backdrop{background:rgb(0 0 0 / .5)}
+.resource-credits-dialog:target:not([open]){display:block;position:relative;margin:24px auto}
+.resource-credits-dialog h2{font-size:26px;margin:24px 0 16px}.resource-credits-dialog li{margin-bottom:16px}.resource-credits-dialog pre{white-space:pre-wrap;overflow-wrap:anywhere;font:12px/1.5 monospace}.resource-credits-dialog .credits-close{display:inline-block;min-height:44px}
+</style>
+<nav class="credits-navigation" aria-label="Crediti e licenze"><a href="crediti.html#strumenti-errori-incertezza-sq" data-public-credits="https://rickymusu-bit.github.io/fisica/crediti.html#strumenti-errori-incertezza-sq">Crediti e licenze</a><a href="#crediti-autonomi" data-offline-credits>Crediti della copia autonoma</a></nav><dialog class="resource-credits-dialog" id="crediti-autonomi" aria-labelledby="crediti-autonomi-title"><a class="credits-close" href="#" data-close-credits>Chiudi</a><h2 id="crediti-autonomi-title">Crediti e licenze</h2><p>Pajisjet dhe gabimet e matjes</p><ul><li>Non sono presenti crediti grafici nel sorgente originale. La licenza delle risorse prive di documentazione resta da verificare.</li><li>Risorse senza attribuzione individuale associata: <ul><li>Kalibër me shkallë kryesore dhe nonio</li><li>Skemë me tre kënde shikimi të të njëjtit tregues që tregon gabimin e paralaksit</li><li>Shkallë e voltmetrit analog nga 0 deri në 15 volt</li><li>Peshore analoge kuzhine me pjatë dhe tregues mbi shkallë</li><li>Majë shkrimi e sizmografit mbi gjurmë të valëzuar në letër me ndarje</li><li>Kronometër digjital në dorë që tregon të qindtat e sekondës</li><li>Katër shënjestra A, B, C, D që tregojnë shpërndarje dhe zhvendosje të ndryshme</li><li>Termometër digjital me ekran dhe sensor në majë</li><li>Peshore digjitale kuzhine që tregon masën në gramë</li></ul>Provenienza e diritti da verificare; nessuna licenza è dedotta.</li></ul></dialog>
+<script data-resource-credits>
+(() => {
+ const dialog=document.getElementById('crediti-autonomi');
+ const links=document.querySelectorAll('[data-offline-credits]');
+ let opener;
+ if(location.protocol==='file:')document.querySelectorAll('[data-public-credits]').forEach(link=>{
+  link.href=link.dataset.publicCredits;
+ });
+ links.forEach(link=>link.addEventListener('click',event=>{
+  if(typeof dialog.showModal!=='function')return;
+  event.preventDefault();opener=link;dialog.showModal();
+ }));
+ dialog.querySelector('[data-close-credits]').addEventListener('click',event=>{
+  if(!dialog.open)return;event.preventDefault();dialog.close();
+ });
+ dialog.addEventListener('close',()=>{if(opener)opener.focus();});
+})();
+</script>
+<!-- resource-credits:end -->
+<footer>Versioni v5 · 2026-10-18</footer>
 </main>
+
 </body></html>

@@ -1,5 +1,21 @@
 # Stato — Home e GitHub Pages
 
+## Pubblicazione autorizzata — centralizzazione dei crediti
+
+L’utente ha richiesto esplicitamente «Pubblica le modifiche». Autorizzate integrazione della PR #35 in main e pubblicazione tramite il workflow Pages esistente. Questa richiesta supera lo stato precedente di sola bozza; il manifest resta invariato. Si pubblicano le modifiche già verificate al commit `dce6358370806d393292aced65870f2294b357ef`, conservando pubblicamente la lista delle verifiche di licenza aperte. La pubblicazione non certifica i diritti mancanti. Prossimo passo: merge e controllo del workflow e degli URL online.
+
+## Centralizzazione dei crediti — 18 ottobre 2026
+
+Richiesta esplicita eseguita sul ramo `crediti/centralizzazione`, base `ae721d0b10e4ab648da56f8ec9ae6926c91b3e72`: 20 articoli HTML analizzati e modificati, comprese traduzioni e sorgenti sospesi limitatamente ai crediti; manifest di pubblicazione invariato. Nessuna riammissione, merge o pubblicazione autorizzati da questa lavorazione. Tema v8 e master v60; modifica del master circoscritta alle regole dei crediti, senza refactoring generale estraneo alla richiesta.
+
+Registro unico `risorse/crediti.json`, pagina statica `crediti.html`, snapshot autonomi offline e file OFL. 87 schede di provenienza e 178 risorse uniche inventariate. Le 20 copertine rinviano al registro centrale; rimosso il renderer delle sezioni finali e aggiornato il generatore storico. Cinque bozze HTML esistenti sincronizzate conservando i rispettivi collegamenti originali.
+
+Confronto dei 20 sorgenti scientifici, dei media e degli script originali: invariati; 50 voci originali degli elenchi preservate integralmente, oltre ai due paragrafi di provenienza di Potenza termica, ai crediti delle 20 copertine, alle provenienze nel codice e al copyright/OFL. Build Pages: sette HTML (home, cinque articoli e crediti), 20 copertine, registro e licenza. Quattro regressioni e 18 prove browser; 263 link/ancore locali validi. Offline provato con HTML autonomo caricato in memoria e rete bloccata, con e senza JavaScript: l’apertura file:// è vietata dal browser gestito e non viene dichiarata verificata.
+
+La verifica dei diritti NON è conclusa: 14 schede richiedono verifica, oltre a 56 risorse immagine senza associazione individuale certa. Nessun avviso noto è stato eliminato. Verificati nuovamente il testo personalizzato di © Raimond Spekking, la politica Chandra e la licenza Flickr CC BY-NC-ND 2.0. Dati mancanti non inventati, risorse non sostituite. [Rapporto](crediti-verifiche.json), [resoconto ed elenco file](crediti-resoconto.md), [anteprima desktop](anteprima-visuali/crediti-1280.png), [mobile](anteprima-visuali/crediti-390.png).
+
+Prossimo passo: esaminare la proposta e risolvere le verifiche dei diritti riportate; il ramo è predisposto per revisione, senza modificare main o il sito pubblico.
+
 ## Ordine degli articoli e nuovi crediti — 18 ottobre 2026
 
 Catalogo e navigazione aggiornati alla sequenza Stati della materia → Passaggi di stato → Conduzione → Convezione → Irraggiamento. Manifest v4, home generata v17; Conduzione e Convezione v4, Passaggi di stato v20 e Irraggiamento v11. Richiesta diretta dell’utente; sette HTML esclusi invariati. Build locale riuscita, anteprime e verifica browser prima del deploy. [Rapporto](verifica-ordine-crediti.json). Tre nuove fotografie Commons con licenze documentate; la GIF Tenor scelta non documenta una licenza libera specifica e conserva l’avvertenza nei crediti.

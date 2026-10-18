@@ -6,6 +6,7 @@ import json
 from urllib.parse import unquote, urlsplit
 from home_covers import load_covers, render_covers
 from home_italian import render_italian
+from credits import load_registry, validate
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "_site"
@@ -40,6 +41,7 @@ def read_document(path, language="it"):
 
 
 def main():
+    validate(load_registry())
     index = ROOT / "index.html"
     publication = json.loads((ROOT / "pubblicazione.json").read_text())
     if publication.get("reindirizzamenti"):
@@ -52,7 +54,8 @@ def main():
     document = read_document(index)
     if document.catalogue_links != allowed_articles:
         raise ValueError("Il catalogo non corrisponde agli articoli conformati ammessi")
-    sources = {index}
+    service_pages = {"crediti.html"}
+    sources = {index, ROOT / "crediti.html"}
     for link in document.links:
         url = urlsplit(link)
         if url.scheme or url.netloc:
@@ -69,16 +72,16 @@ def main():
         path = (ROOT / unquote(url.path)).resolve()
         if not path.is_relative_to(ROOT) or path.suffix != ".html" or not path.is_file():
             raise ValueError(f"Collegamento HTML non valido: {link}")
-        if str(path.relative_to(ROOT)) not in allowed_articles:
+        if str(path.relative_to(ROOT)) not in allowed_articles | service_pages:
             raise ValueError(f"Articolo non ammesso alla pubblicazione: {link}")
         read_document(path)
         sources.add(path)
-    for source in sources - {index}:
+    for source in sources - {index, ROOT / "crediti.html"}:
         article = read_document(source)
         for link in article.links:
             url = urlsplit(link)
             if not url.scheme and not url.netloc and url.path.endswith(".html"):
-                if unquote(url.path) not in allowed_articles | {"index.html"}:
+                if unquote(url.path) not in allowed_articles | service_pages | {"index.html"}:
                     raise ValueError(f"Link a un articolo escluso: {source.name}: {link}")
     if len(sources) <= 1:
         raise ValueError("L'indice non contiene materiali")
@@ -104,6 +107,11 @@ def main():
         target = OUTPUT / "identita" / filename
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(source, target)
+    # Archivio e licenze accompagnano anche le copie scaricate.
+    for name in ("risorse/crediti.json", "licenze/Lexend-OFL.txt"):
+        target = OUTPUT / name
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(ROOT / name, target)
     (OUTPUT / ".nojekyll").touch()
     print(f"Preparati {len(sources)} HTML in italiano e {len(covers)} copertine.")
 

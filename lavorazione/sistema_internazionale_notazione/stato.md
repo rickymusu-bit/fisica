@@ -1,5 +1,9 @@
 # Stato — Misurare il mondo
 
+## Centralizzazione dei crediti — 18 ottobre 2026
+
+Revisione circoscritta autorizzata dalla richiesta di migrare tutti gli articoli: `sistema_internazionale_notazione_it.html` usa il registro unico `risorse/crediti.json`, la pagina «Crediti e licenze» e lo snapshot autonomo offline. Sezioni finali dei crediti rimosse dopo il controllo degli avvisi; contenuto scientifico, formule, immagini e script originali preservati. Master v60, tema v8. La stessa revisione dei crediti comprende le traduzioni esistenti del capitolo, senza tradurre i contenuti. Ramo `crediti/centralizzazione`; nessuna riammissione né pubblicazione. Le licenze non documentate restano da verificare nel rapporto `../sito/crediti-verifiche.json`.
+
 Ultimo aggiornamento: 2026-10-16 21:16 (Europe/Rome). Master applicato: **v48**; fonte letta integralmente v47, con aggiornamento verificato delle sole regole di denominazione. Riferimento ufficiale: `main`.
 
 Fase: revisione completata, integrata in `main` con la [PR #6](https://github.com/rickymusu-bit/fisica/pull/6) e pubblicata. [Workflow riuscito](https://github.com/rickymusu-bit/fisica/actions/runs/38935850257).
