@@ -13,13 +13,7 @@ Didascalia: Il cucchiaio metallico riceve energia dalla zuppa calda e la conduce
 
 Come raggiunge il manico l’energia della zuppa? Il trasferimento avviene attraverso il materiale. La conduzione è il trasferimento di energia termica attraverso un materiale dovuto alle interazioni microscopiche tra le sue parti, senza trasporto macroscopico complessivo della materia. Nei metalli contribuiscono in modo rilevante anche gli elettroni liberi.
 
-### Dal metallo alle particelle
-
-Nella rappresentazione qui sotto le particelle del solido oscillano intorno a posizioni pressoché fisse. Nella zona calda l'agitazione è mediamente maggiore; attraverso le interazioni l'energia si trasferisce verso la zona fredda. Le particelle non viaggiano tutte da un'estremità all'altra.
-
-[SIMULAZIONE 04 — Modello semplificato: oscillazioni più ampie dove il materiale è più caldo; energia trasferita mediamente verso la zona più fredda.]
-
-Didascalia: Modello semplificato: oscillazioni più ampie dove il materiale è più caldo; energia trasferita mediamente verso la zona più fredda.
+Nel solido gli atomi vibrano intorno alle loro posizioni e, interagendo con quelli vicini, possono trasferire energia. Questo meccanismo agisce anche nei materiali che conducono poco. Nei metalli si aggiunge un contributo importante: quello degli elettroni mobili, che vedremo nella sezione sui conduttori.
 
 ### Conducibilità termica
 
@@ -43,6 +37,10 @@ Questi valori permettono di confrontare i materiali: il rame conduce molto più 
 I materiali che, a parità di condizioni, lasciano passare facilmente energia per conduzione sono chiamati **conduttori termici**. Hanno una conducibilità elevata: nella tabella il rame e l’alluminio sono esempi di buoni conduttori. Questa proprietà è utile quando vogliamo trasferire rapidamente energia attraverso un oggetto.
 
 Nei metalli alcuni elettroni possono muoversi attraverso il materiale, senza restare legati a un singolo atomo. Questi **elettroni mobili** trasportano energia dalle regioni più calde a quelle più fredde e la scambiano con le altre parti del metallo. Alla conduzione contribuiscono anche le vibrazioni degli atomi, ma gli elettroni mobili spiegano perché molti metalli siano conduttori termici particolarmente efficaci.
+
+[SCHEMA E-1 — Schema statico della conduzione in un metallo: reticolo di atomi/ioni, elettroni mobili distinti dal reticolo, lato caldo e lato freddo; una freccia indica il trasferimento netto di energia. Non rappresentare un flusso ordinato di tutti gli elettroni verso il lato freddo né un trasferimento macroscopico del metallo. Immagine da scegliere/fornire secondo C2; nessuno schema ancora realizzato.]
+
+Didascalia: Gli elettroni mobili scambiano energia con il reticolo del metallo e contribuiscono a trasferirla dalla regione più calda a quella più fredda.
 
 Sei barrette metalliche vengono riscaldate nella stessa zona centrale. Osserva nel video i diversi tempi con cui cambia stato la cera alle estremità: il confronto rende visibile il diverso comportamento dei metalli.[1]
 

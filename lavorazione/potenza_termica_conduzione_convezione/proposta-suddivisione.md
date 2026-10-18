@@ -4,7 +4,7 @@
 
 | Capitolo e futuro percorso | Provenienza | Contenuti e risorse conservati | Domande |
 | --- | --- | --- | --- |
-| Conduzione · `conduzione_it.html` | `#potenza` + `#conduzione`, primi due gruppi di domande | Breve sezione sulla potenza termica; zuppa e cucchiaio; reticolo animato; tabella λ con tutti gli otto materiali; video con miniatura e URL esatti; Fourier; muro e grafico corretto; caffettiera, vetrocamera, igloo, lingua sul palo gelato ed elettroni mobili. | 12 |
+| Conduzione · `conduzione_it.html` | `#potenza` + `#conduzione`, primi due gruppi di domande | Breve sezione sulla potenza termica; zuppa e cucchiaio; schema statico degli elettroni mobili da scegliere; tabella λ con tutti gli otto materiali; video con miniatura e URL esatti; Fourier; muro e grafico corretto; caffettiera, vetrocamera, igloo, lingua sul palo gelato ed elettroni mobili. | 12 |
 | Convezione · `convezione_it.html` | `#convezione`, terzo gruppo di domande | Stanza, densità e gravità; meccanismo naturale e forzato; atmosfera e rotazione; mantello prevalentemente solido; ventola del processore; radiatore, pompa, termostato, alette e ramo dell’abitacolo. | 7 |
 
 ## Scelta strutturale ricevuta
@@ -48,7 +48,13 @@ Servono due copertine distinte dalle figure interne. Nessuna ricerca o generazio
 
 L’utente può fornire immagini equivalenti pertinenti; un ritaglio di una figura interna non vale come copertina distinta.
 
-La sola simulazione resta in Conduzione: 14 colonne e 5 righe di particelle oscillanti intorno a posizioni fisse, con ampiezza maggiore verso il lato caldo. È un modello qualitativo, non una soluzione numerica della diffusione termica. Conservare modello e script fisico; integrare pausa/ripresa e movimento ridotto senza cambiare il modello. Fattibilità alta; carico previsto basso, da verificare nel browser. Stima preliminare per estrazione, integrazione e verifica di questa sola interazione: 10–20 minuti, inclusi nella futura stima totale. Nessuna simulazione programmata in questa fase.
+**Nessuna simulazione dell’agitazione termica è più prevista**, su richiesta del 18 ottobre alle 13:31. Il modello e lo script originali restano conservati nella fonte e in Git; l’hash nell’inventario identifica la provenienza, non un’interazione da integrare. Le vibrazioni atomiche restano spiegate brevemente: la distinzione fra conduttori e isolanti non elimina questo contributo fisico.
+
+È previsto lo **schema statico E-1** nella sezione sui conduttori: reticolo atomico, elettroni mobili, lato caldo/freddo e freccia del trasferimento netto di energia. Non suggerire che tutti gli elettroni scorrano ordinatamente verso il freddo. La struttura rimane uguale su ogni dispositivo. Schema da scegliere/fornire secondo C2 prima della realizzazione; nessuna ricerca, generazione o ricostruzione autonoma avviata. Non vale la precedente stima di integrazione della simulazione: la stima totale verrà presentata dopo l’approvazione della bozza e la scelta dello schema.
+
+## Stato della revisione stilistica
+
+La bozza è stata costruita riutilizzando ampie parti della versione precedente, con riscritture locali (potenza, Fourier, conduttori/isolanti, palo) e riorganizzazione delle applicazioni. I riferimenti STILE_DISPENSE.md ed esempio_irraggiamento.md sono stati consultati, ma non è ancora stata completata una revisione stilistica integrale di tutto il testo. Non presentare la bozza come già pienamente conforme allo stile. Prima dell’HTML rivedere il filo narrativo, i collegamenti, le ripetizioni, le note e le didascalie secondo i riferimenti, preservando contenuti e scelte effettivamente approvati; presentare la bozza rivista all’utente.
 
 Video: miniatura e URL esatti della fonte, nessun player incorporato. Grafico del muro: stessi dati, assi e relazioni. Tutti i visuali conservano la composizione su mobile; usare l’ingrandimento con scorrimento del tema v7.
 
