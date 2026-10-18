@@ -1,5 +1,17 @@
 # Stato — Home e GitHub Pages
 
+## Logo animato di Materia Oscura — 18 ottobre 2026
+
+Richiesta esplicita: usare come riferimento la stringa chiusa della figura centrale in basso dell’immagine `14936.jpg`; nero su trasparente, senza sovrapporre le configurazioni. Ciclo autorizzato **cerchio → quattro lobi orizzontali/verticali → cerchio → quattro lobi diagonali → cerchio**. Alla domanda sul posizionamento l’utente ha scelto **accanto al titolo**, chiedendo anche il salvataggio autonomo per usi futuri.
+
+Realizzati `identita/logo-materia-oscura.svg` (SVG dichiarativo autonomo, 16.793 byte), `logo-materia-oscura.gif` (256 × 256 px, 160 fotogrammi, 20 fps, 8 s, 158.933 byte) e una variante SVG statica. Specifiche e modalità di riuso in `identita/README.md`; generatore geometrico `scripts/logo_materia_oscura.py`. Riferimento JPEG conservato byte per byte in `risorse-originali/riferimento-stringhe.jpg`, escluso dalla build. Nessuna ricerca di immagini, sovrapposizione di curve, scia o colore aggiunto.
+
+**Home corrente v12** (template v9): logo accanto al titolo, SVG originale incorporato durante la build. Premere il logo mette in pausa/riprende; tasto accessibile da tastiera, descrizione aggiornata e preferenza di movimento ridotto rispettata. Senza script il logo resta animato tramite SVG nativo; con movimento ridotto viene mostrato un solo cerchio fermo. Una sola curva visibile in ogni modalità. Titolo, sottotitolo, catalogo, copertine e articoli conservati. Workflow esteso a `identita/**` per gli aggiornamenti futuri, senza pubblicazione ora.
+
+Verifiche in `verifica-logo.json`: quattro fasi a 0/2/4/6/8 s; tre cerchi identici pixel per pixel; trasparenza e soli pixel neri opachi della GIF; SVG animato caricato come normale immagine; 12 viste della home a 320/390/1280 px con script attivi/bloccati e movimento normale/ridotto, pausa/ripresa da tastiera e catalogo, senza overflow o errori JavaScript. Tutti e dieci i sorgenti degli articoli identici all’inizio della richiesta; output sempre home e tre articoli, senza reindirizzamenti.
+
+Anteprima interattiva autonoma `anteprima-logo.html`, home `_site/index.html`; immagini in `anteprima-visuali/home-logo-mobile.png`, `home-logo-desktop.png` e `logo-anteprima.png`. Il motivo a quadretti dell’anteprima non è incorporato nei file del logo. Master v59 letto integralmente; ramo corrente derivato da main `correzione/visuali-centrale`. **Realizzazione completata, anteprime pronte; nessuna unione in main o nuova pubblicazione.** Prossimo passaggio: consegnare anteprime e file riutilizzabili.
+
 ## Identità della home — 18 ottobre 2026
 
 Richiesta esplicita: titolo «Materia Oscura», sottotitolo «Guida pratica per fare luce sulla Fisica», nessuna etichetta visibile «Area tematica» nella home; salvare le scelte come regole. **Home corrente v11** (template v8). Aggiornati h1, titolo della pagina e metadati descrittivi; catalogo con il solo nome «Materia e calore». Rimossi markup e CSS dell’etichetta. Regole correnti in `riferimenti/TERMINOLOGIA_SITO.md` **v2**, richiamate in AGENTS; identità riportata anche nel README. Il nuovo nome è un’eccezione esplicita dell’utente rispetto al vecchio nome in A6 del master v59; nessun refactoring generale del master incluso in questa modifica circoscritta.
