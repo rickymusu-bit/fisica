@@ -108,5 +108,25 @@
       },
       "nessun_overflow_pagina": true
     }
-  ]
+  ],
+  "pubblicazione": {
+    "pr": 30,
+    "commit": "30e83a396a2a0accec04c03890d9dfec3cdfc252",
+    "workflow": 39115320280,
+    "esito": "success",
+    "verifiche_https": [
+      {
+        "file": "index.html",
+        "http": 200,
+        "identico_alla_build": true,
+        "sha256": "19375661caa7092b8480fea29c286aa0731fd7d5314065c0b058303d0d954580"
+      },
+      {
+        "file": "passaggi_di_stato.html",
+        "http": 200,
+        "identico_alla_build": true,
+        "sha256": "ebd497bc96ab68a0347849e265277bff1b2dedb91180cf2f280d6e3d26dcb15e"
+      }
+    ]
+  }
 }
