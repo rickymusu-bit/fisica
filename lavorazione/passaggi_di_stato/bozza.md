@@ -16,7 +16,7 @@ Quando una sostanza passa da solido a liquido, da liquido a gas o compie uno dei
 
 Il passaggio da solido a liquido si chiama **fusione** e richiede energia. Nel ghiaccio che fonde, le molecole abbandonano l'organizzazione rigida del cristallo e possono scorrere le une rispetto alle altre. Nel passaggio inverso, la **solidificazione**, il liquido cede energia e si forma il solido.[^nota-1]
 
-[SCHEMA P1 — Nuova mappa dei sei passaggi richiesta dall’utente: `risorse/passaggi-di-stato.svg`; variante verticale per smartphone `risorse/passaggi-di-stato-mobile.svg`. Tre stati, sei frecce e nomi delle trasformazioni; linea continua per energia assorbita, tratteggiata per energia ceduta.]
+[SCHEMA P1 — Nuova mappa dei sei passaggi richiesta dall’utente: `risorse/passaggi-di-stato.svg`; stessa struttura triangolare su ogni dispositivo, con comando «Ingrandisci l’immagine». Tre stati, sei frecce e nomi delle trasformazioni; linea continua per energia assorbita, tratteggiata per energia ceduta.]
 
 Didascalia: Ogni coppia di frecce collega due stati attraverso trasformazioni inverse. Fusione, vaporizzazione e sublimazione richiedono energia; nei passaggi inversi la sostanza la cede.
 

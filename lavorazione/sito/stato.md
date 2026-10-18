@@ -1,5 +1,11 @@
 # Stato — Home e GitHub Pages
 
+## Schema triangolare invariato su mobile — 18 ottobre 2026
+
+Anteprima HTML interattiva e vista mobile consegnate prima della pubblicazione. Verifica del triangolo identico all’originale e del comando nativo di ingrandimento, con scorrimento interno e senza overflow della pagina.
+
+Richiesta esplicita: conservare il triangolo su mobile, prevedere l’ingrandimento per le etichette e salvare la regola generale di struttura invariata dei visuali tra dispositivi. **Passaggi di stato v19**, home generata **v15**, tema autonomo **v7**, master consultato **v59**. Rimossa la sorgente verticale dal solo schema P1; anteprima e vista ingrandita incorporano lo stesso SVG triangolare approvato. Componente nativo del tema «Ingrandisci l’immagine», con regione scorrevole da tastiera e almeno 960 px. Nessun ridisegno, cambio di frecce, nomi o relazioni scientifiche. Regola salvata in AGENTS e nel modello autonomo; sostituisce le precedenti possibilità di riorganizzare i visuali di A6/C4 senza refactoring estraneo del master. Bozza HTML, bozza testuale e scheda dello schema sincronizzate. Verifiche e pubblicazione in `triangolo-mobile.json`.
+
 ## Navigazione breve e area tematica — 18 ottobre 2026
 
 **Pubblicato e verificato:** PR #28, merge `2983c6f653c7c6052ab2db126ab7c1c079487c9d`, workflow Pages `39114531184` riuscito; home e tre articoli HTTP 200 e identici byte per byte alla build verificata. Nessuna pubblicazione pendente.

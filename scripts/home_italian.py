@@ -10,7 +10,7 @@ def render_italian(document, root):
         '', document, count=1)
     if count != 1:
         raise ValueError("Menu indice italiano assente o duplicato")
-    document = document.replace('name="version" content="v10"', 'name="version" content="v14"')
+    document = document.replace('name="version" content="v10"', 'name="version" content="v15"')
     document = document.replace(
         'scegli «Scarica HTML»', 'usa l’icona di download')
     document = re.sub(r'        <div class="intro-foot">[\s\S]*?</div>\n', '', document, count=1)
