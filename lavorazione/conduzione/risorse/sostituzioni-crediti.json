@@ -1,0 +1,69 @@
+[
+  {
+    "file": "lavorazione/conduzione/risorse/igloo-pala-santa.jpg",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Un_igloo_ma_non_siamo_in_alaska_ma_nei_pressi_della_Pala_di_Santa_-_panoramio.jpg",
+    "url_usato": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Un_igloo_ma_non_siamo_in_alaska_ma_nei_pressi_della_Pala_di_Santa_-_panoramio.jpg/960px-Un_igloo_ma_non_siamo_in_alaska_ma_nei_pressi_della_Pala_di_Santa_-_panoramio.jpg",
+    "url_originale": "https://upload.wikimedia.org/wikipedia/commons/6/64/Un_igloo_ma_non_siamo_in_alaska_ma_nei_pressi_della_Pala_di_Santa_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "autore": "Maurizio Ceol",
+    "licenza": "CC BY 3.0",
+    "licenza_url": "https://creativecommons.org/licenses/by/3.0",
+    "byte": 145013,
+    "dimensioni": [
+      960,
+      720
+    ],
+    "sha256": "36af25ffc377303cedff08cab2db39a569caec20871b20c6ebb3ff9564d85dd6",
+    "modifiche": "nessuna; versione Wikimedia disponibile, non ingrandita oltre l’originale",
+    "scelta": "richiesta esplicita dell’utente"
+  },
+  {
+    "file": "lavorazione/conduzione/risorse/vetrocamera-anmitsu.jpg",
+    "fonte": "https://commons.wikimedia.org/wiki/File:AnmitsuglassDX.jpg",
+    "url_usato": "https://upload.wikimedia.org/wikipedia/commons/4/40/AnmitsuglassDX.jpg",
+    "url_originale": "https://upload.wikimedia.org/wikipedia/commons/4/40/AnmitsuglassDX.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "autore": "S.J.Takemoto",
+    "licenza": "CC BY-SA 3.0",
+    "licenza_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "byte": 111175,
+    "dimensioni": [
+      457,
+      500
+    ],
+    "sha256": "54a6c51c009337b9f69ad282aec44e22f3efd66be84b18d65b16b088066ec27e",
+    "modifiche": "nessuna; versione Wikimedia disponibile, non ingrandita oltre l’originale",
+    "scelta": "richiesta esplicita dell’utente"
+  },
+  {
+    "file": "lavorazione/conduzione/risorse/zuppa-pollo.jpg",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Chicken_soup_4.jpg",
+    "url_usato": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Chicken_soup_4.jpg/960px-Chicken_soup_4.jpg",
+    "url_originale": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Chicken_soup_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "autore": "Yakshitha",
+    "licenza": "CC BY-SA 4.0",
+    "licenza_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "byte": 100859,
+    "dimensioni": [
+      960,
+      431
+    ],
+    "sha256": "ec3b6e4ba3d0621788a00ab5f8a28c05566498d72e8e0266d38681dc633bdc86",
+    "modifiche": "nessuna; versione Wikimedia disponibile, non ingrandita oltre l’originale",
+    "scelta": "richiesta esplicita dell’utente"
+  },
+  {
+    "file": "lavorazione/conduzione/risorse/lingua-palo-tenor.gif",
+    "fonte": "https://media1.tenor.com/m/o4diRfzKd0gAAAAC/dumb-and.gif",
+    "autore": "titolari dell’opera cinematografica; autore della GIF non documentato dal file diretto",
+    "licenza": "licenza libera non documentata; non attribuita una licenza CC",
+    "termini_servizio": "https://tenor.com/legal-terms",
+    "byte": 1307322,
+    "dimensioni": [
+      498,
+      278
+    ],
+    "fotogrammi": 16,
+    "sha256": "bf0f63926f3568c9004feb7271a83acb634086eb0ce3efc5249631b10eaf9ffb",
+    "scelta": "GIF specifica fornita e richiesta dall’utente",
+    "modifiche": "GIF originale invariata; fermo immagine per pausa e movimento ridotto"
+  }
+]

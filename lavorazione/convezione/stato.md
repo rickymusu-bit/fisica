@@ -1,5 +1,20 @@
 # Stato — Convezione
 
+## Ordine e crediti — 18 ottobre 2026
+
+Versione corrente predisposta: **v4**, sul ramo `revisione/ordine-crediti-conduzione`, base main `b2eecfbdac3231d1cf7cce49c36d97201a5b2f42`. Master v59, tema comune v7 e regola T maiuscola conservati.
+
+Richiesta eseguita: Stati della materia → Passaggi di stato → Conduzione → Convezione → Irraggiamento, coerente nel catalogo, manifest e navigazione tra articoli.
+
+Aggiornata la navigazione: Conduzione è l’articolo precedente, Irraggiamento quello successivo. Testi didattici, immagini e quesiti invariati.
+
+[Registro dei media](../conduzione/risorse/sostituzioni-crediti.json); [verifiche ordine e browser](../sito/verifica-ordine-crediti.json). CSS e script invariati. HTML ufficiali e bozze di lavoro aggiornati; i sette sorgenti esclusi restano invariati. La build prepara solo home e cinque articoli ammessi.
+
+Fase: verifiche statiche e browser superate, anteprime consegnate; pronta l’integrazione e il deploy.
+
+## Stato precedente — v3
+
+
 Aggiornamento: 18 ottobre 2026, ore 21:56 (Europe/Rome). Master v59 già letto integralmente e invariato; AGENTS.md, stile v6 e tema comune v7 applicati. Base ufficiale: main `c9f6938b51196ee50c07a20323b722d019491609`; ramo `revisione/visuali-wok-convezione`.
 
 Fase corrente: **v3 verificata e pubblicata**; aggiornamento completato su main e GitHub Pages nella conversazione in corso. Richieste: quattro sostituzioni Wikimedia, nuovo testo del wok/manico di legno, nuova immagine generata al posto di parete e grafico separato, simbolo della temperatura sempre T maiuscola.

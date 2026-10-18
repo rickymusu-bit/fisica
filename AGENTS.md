@@ -24,6 +24,8 @@ Per le etichette usa il vocabolario unico di A6. Prima di aggiornare o pubblicar
 
 Non pubblicare né ripristinare vecchi indirizzi o reindirizzamenti degli articoli esclusi e della precedente dispensa unificata: l’utente ne ha richiesto esplicitamente la rimozione. Il manifest di pubblicazione conserva l’elenco degli indirizzi dismessi.
 
+L’ordine degli articoli nell’indice e nella navigazione precedente/successivo è: **Stati della materia → Passaggi di stato → Conduzione → Convezione → Irraggiamento**, secondo la richiesta esplicita del 18 ottobre 2026.
+
 Per la home usa il titolo esatto **Materia Oscura** e il sottotitolo **Guida pratica per fare luce sulla Fisica**, anche nei metadati pertinenti: questa nuova richiesta esplicita dell’utente sostituisce il precedente nome del sito riportato in A6. La gerarchia editoriale resta **Area tematica → Articolo → Sezione**, ma nella home mostra soltanto il nome del gruppo (per esempio «Materia e calore»), senza l’etichetta «Area tematica». Applica `riferimenti/TERMINOLOGIA_SITO.md` v4 insieme alle altre etichette di A6, senza aggiornare i sorgenti esclusi.
 
 Traduci le etichette delle infografiche e degli schemi quando richiesto; questa regola non si estende alle scritte presenti nelle fotografie, comprese le termografie. La foto delle anatre mantiene la scala originale: l’utente ha escluso la conversione.

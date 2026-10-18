@@ -4,7 +4,7 @@ Guida pratica per fare luce sulla Fisica.
 
 **Sito:** https://rickymusu-bit.github.io/fisica/
 
-La home italiana `index.html` raccoglie soltanto i cinque articoli conformati: Stati della materia, Passaggi di stato, Irraggiamento, Conduzione e Convezione. La barra superiore contiene il selettore della lingua in alto a destra, con la sola voce «Italiano». Il comando «Articoli» in alto a sinistra apre un pannello laterale con il catalogo, chiudibile con ×, Esc o clic fuori dal pannello; gli indirizzi con `#indice` o l’ancora di un argomento lo aprono direttamente. Senza JavaScript il catalogo resta accessibile. I download mostrano «Scarica», un’icona e la dimensione del file (kB/MB decimali, byte esatti nel tooltip e nell’etichetta accessibile), calcolata durante la build. Il sito pubblica soltanto contenuti in italiano.
+La home italiana `index.html` raccoglie soltanto i cinque articoli conformati: Stati della materia, Passaggi di stato, Conduzione, Convezione e Irraggiamento. La barra superiore contiene il selettore della lingua in alto a destra, con la sola voce «Italiano». Il comando «Articoli» in alto a sinistra apre un pannello laterale con il catalogo, chiudibile con ×, Esc o clic fuori dal pannello; gli indirizzi con `#indice` o l’ancora di un argomento lo aprono direttamente. Senza JavaScript il catalogo resta accessibile. I download mostrano «Scarica», un’icona e la dimensione del file (kB/MB decimali, byte esatti nel tooltip e nell’etichetta accessibile), calcolata durante la build. Il sito pubblica soltanto contenuti in italiano.
 
 La copertina viene scelta a caso tra le venti immagini di `copertine/`; viene mostrata con la sola didascalia, senza un titolo sovrapposto. I crediti sono accessibili nella sezione apribile della home.
 

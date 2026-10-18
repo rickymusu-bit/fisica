@@ -1,5 +1,11 @@
 # Stato — Home e GitHub Pages
 
+## Ordine degli articoli e nuovi crediti — 18 ottobre 2026
+
+Catalogo e navigazione aggiornati alla sequenza Stati della materia → Passaggi di stato → Conduzione → Convezione → Irraggiamento. Manifest v4, home generata v17; Conduzione e Convezione v4, Passaggi di stato v20 e Irraggiamento v11. Richiesta diretta dell’utente; sette HTML esclusi invariati. Build locale riuscita, anteprime e verifica browser prima del deploy. [Rapporto](verifica-ordine-crediti.json). Tre nuove fotografie Commons con licenze documentate; la GIF Tenor scelta non documenta una licenza libera specifica e conserva l’avvertenza nei crediti.
+
+Stato: pronto per integrazione, deploy da verificare.
+
 ## Schema triangolare invariato su mobile — 18 ottobre 2026
 
 **Pubblicato e verificato:** PR #30, merge `30e83a396a2a0accec04c03890d9dfec3cdfc252`, workflow Pages `39115320280` riuscito; home e Passaggi di stato HTTP 200 e identici byte per byte alla build verificata. Nessuna pubblicazione pendente.

@@ -1,5 +1,9 @@
 # Stato — Irraggiamento
 
+## Nuovo ordine degli articoli — 18 ottobre 2026
+
+Versione v11: aggiornata esclusivamente la navigazione al nuovo ordine Stati della materia → Passaggi di stato → Conduzione → Convezione → Irraggiamento. Testi, media, formule e script invariati. Modifica richiesta nella conversazione; verifiche condivise in [verifica-ordine-crediti.json](../sito/verifica-ordine-crediti.json). Pubblicazione in preparazione.
+
 ## Navigazione breve e area tematica — 18 ottobre 2026
 
 **Pubblicato e verificato:** PR #28, merge `2983c6f653c7c6052ab2db126ab7c1c079487c9d`, workflow Pages `39114531184` riuscito; home e tre articoli HTTP 200 e identici byte per byte alla build verificata. Nessuna pubblicazione pendente.
