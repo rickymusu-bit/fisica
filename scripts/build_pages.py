@@ -42,6 +42,8 @@ def read_document(path, language="it"):
 def main():
     index = ROOT / "index.html"
     publication = json.loads((ROOT / "pubblicazione.json").read_text())
+    if publication.get("reindirizzamenti"):
+        raise ValueError("La pubblicazione dei vecchi reindirizzamenti è disattivata")
     allowed_articles = set(publication["articoli"])
     excluded_articles = set(publication["esclusi_da_pubblicazione_e_aggiornamenti"])
     if allowed_articles & excluded_articles:
@@ -90,10 +92,6 @@ def main():
                 render_covers(source.read_text(encoding="utf-8"), covers), ROOT), encoding="utf-8")
         else:
             shutil.copyfile(source, target)
-    split = json.loads((ROOT / "lavorazione/stati_della_materia_e_passaggi_di_stato/suddivisione.json").read_text())
-    gateway = ROOT / split["origine"]
-    for name in (split["origine"], split["alias"]):
-        shutil.copyfile(gateway, OUTPUT / name)
     for cover in covers:
         source = ROOT / cover["src"]
         target = OUTPUT / cover["src"]

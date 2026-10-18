@@ -1,5 +1,5 @@
 {
-  "versione": 1,
+  "versione": 2,
   "articoli": [
     "stati_della_materia.html",
     "passaggi_di_stato.html",
@@ -14,9 +14,10 @@
     "bilancio_conservazione_rendimento_it.html",
     "potenza_termica_conduzione_convezione_it.html"
   ],
-  "reindirizzamenti": [
+  "reindirizzamenti": [],
+  "regola": "Pubblicare e aggiornare soltanto gli articoli conformati elencati in articoli. I sorgenti esclusi restano conservati e invariati fino a una richiesta esplicita di revisione e riammissione. Non pubblicare vecchi indirizzi né reindirizzamenti per gli articoli esclusi o per la precedente dispensa unificata.",
+  "indirizzi_storici_dismessi": [
     "stati_della_materia_e_passaggi_di_stato.html",
     "stati_della_materia_e_passaggi_di_stato_v8_20261016.html"
-  ],
-  "regola": "Pubblicare e aggiornare soltanto gli articoli conformati elencati in articoli. I sorgenti esclusi restano conservati e invariati fino a una richiesta esplicita di revisione e riammissione."
+  ]
 }

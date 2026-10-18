@@ -1,5 +1,9 @@
 # Stato — Home e GitHub Pages
 
+## Rimozione dei vecchi collegamenti — 2026-10-18 09:23 (Europe/Rome)
+
+Richiesta esplicita dell’utente: «Non lo fare. Cancella i vecchi link degli articoli non conformati». Rimossi anche i due reindirizzamenti di compatibilità della precedente dispensa unificata dalla pubblicazione; la build non li copia più e rifiuta un elenco di reindirizzamenti non vuoto. Manifest v2, regola operativa in AGENTS e README aggiornati. Home e tre articoli conformati restano identici; i sette sorgenti sospesi restano conservati e invariati. Il master v59, letto integralmente, prevede già in D2 l’eccezione per la rimozione esplicita dei vecchi indirizzi. Nessuna modifica editoriale o al tema. Output previsto: soltanto home e tre articoli, senza altre pagine HTML. Fase: build e verifica, poi pubblicazione e controlli HTTP 404 dei nove indirizzi dismessi. I blocchi storici che indicano reindirizzamenti mantenuti sono superati da questa richiesta.
+
 ## Terminologia unica e articoli conformati — 2026-10-18 09:16 (Europe/Rome)
 
 L’utente ha approvato il vocabolario proposto e chiesto di salvare la regola e aggiornare il sito. Successivamente ha disposto: «Togli dalla pubblicazione gli articoli che non abbiamo conformato e lasciali fuori da ogni aggiornamento». Sono ammessi soltanto Stati della materia, Passaggi di stato e Irraggiamento; i sette sorgenti esclusi, elencati in `pubblicazione.json`, sono conservati identici e non vengono aggiornati. L’esclusione comprende catalogo, download e output Pages, con verifica successiva HTTP 404 per i vecchi indirizzi. Nessuna modifica agli stati o alle bozze dei sette articoli congelati.
