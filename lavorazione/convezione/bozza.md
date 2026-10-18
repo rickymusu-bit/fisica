@@ -40,7 +40,11 @@ Il Sole riscalda il terreno, che a sua volta trasferisce energia all’aria vici
 
 ![Poiana codarossa in volo ad ali distese nella termica.](risorse/poiana-termica.jpg)
 
-[SCHEMA N-2 — Ricerca autorizzata dall’utente: due originali FAA proposti in visuali.md, colonna/pennacchio oppure bolla/anello vorticoso. Nessuno dei due ancora scelto o inserito nel contenuto didattico.]
+[SCHEMA N-2 — Immagine Thermal column.svg, scelta e fornita dall’utente; Dake, CC BY 2.5. Copia PNG a 1280 px invariata: risorse/termica-numerata.png; originale vettoriale conservato: risorse/termica-numerata-originale.svg. Nessuna traduzione o ricostruzione necessaria.]
+
+![Termica numerata: terreno riscaldato (1), risalita dell’aria (2), ricircolo discendente (3) ed eventuale nube (A).](risorse/termica-numerata.png)
+
+Didascalia: **(1)** Il terreno riscaldato dal Sole cede energia all’aria vicina alla superficie. **(2)** L’aria riscaldata, meno densa di quella circostante, risale nella termica. **(3)** I moti discendenti attorno alla zona ascendente contribuiscono al ricircolo dell’aria. **(A)** In cima può formarsi una nube, se l’aria umida si raffredda abbastanza da far condensare il vapore acqueo.
 
 Didascalia: Una poiana codarossa sfrutta una termica. Molti uccelli veleggiatori usano l’aria ascendente per guadagnare quota.
 
@@ -112,7 +116,7 @@ In entrambi i dispositivi conduzione e convezione svolgono compiti collegati. Il
 
 [2] Sulla pelle sudata interviene anche l’evaporazione: il passaggio del sudore allo stato di vapore sottrae energia alla pelle. L’aria in movimento può favorirlo, ma un’umidità elevata lo ostacola; in condizioni molto calde e umide questo effetto può risultare insufficiente a compensare il calore ricevuto.
 
-[3] Le termiche sono uno dei meccanismi che permettono il volo veleggiato: esistono anche correnti ascendenti prodotte dal vento che incontra un rilievo. Qui consideriamo soltanto la risalita dovuta al riscaldamento del terreno. Fonti: [Cornell Lab, Golden Eagle Soaring on a Thermal](https://academy.allaboutbirds.org/golden-eagle-soaring-on-a-thermal/) e [NASA, Forces on a Glider](https://www.grc.nasa.gov/www/k-12/VirtualAero/BottleRocket/airplane/glider.html).
+[3] Le termiche sono uno dei meccanismi che permettono il volo veleggiato: esistono anche correnti ascendenti prodotte dal vento che incontra un rilievo. Qui consideriamo soltanto la risalita dovuta al riscaldamento del terreno. La nube del diagramma non accompagna tutte le termiche: può formarsi per condensazione del vapore acqueo nell’aria che risale e si raffredda. Fonti: [Cornell Lab, Golden Eagle Soaring on a Thermal](https://academy.allaboutbirds.org/golden-eagle-soaring-on-a-thermal/) e [NASA, Forces on a Glider](https://www.grc.nasa.gov/www/k-12/VirtualAero/BottleRocket/airplane/glider.html).
 
 [4] Negli scambi dei dispositivi reali può contribuire anche l’irraggiamento.
 

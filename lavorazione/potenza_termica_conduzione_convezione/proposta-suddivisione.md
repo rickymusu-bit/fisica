@@ -89,3 +89,7 @@ V-C è sostituita su richiesta da Plutone/Sputnik Planitia, NASA/JHUAPL/SwRI. Ri
 ## Decisioni correnti — 18 ottobre 2026, ore 17:45
 
 Scelta la poiana codarossa, prima fotografia. Schema delle termiche: due originali FAA proposti in visuali.md, scelta ancora aperta. La ricerca statica degli elettroni è sostituita su proposta dell’utente dalla progettazione di una simulazione ricavata dal reticolo precedente; modello qualitativo e stima 30–55 minuti in lavorazione/conduzione/simulazione-elettroni.md. La precedente esclusione della simulazione è superata per questa nuova proposta; nessun codice ancora scritto e nessun via alla realizzazione HTML o pubblicazione.
+
+## Schema delle termiche definito — 18 ottobre 2026, ore 17:56
+
+L’utente sceglie Thermal column.svg di Dake (CC BY 2.5) e richiede la spiegazione dei numeri in didascalia. Inseriti nella bozza di Convezione versione PNG fornita, SVG originale e didascalia per 1, 2, 3 e A. Le alternative FAA sono superate, conservate come riferimenti. Scelta indipendente dal via alla simulazione con elettroni, ancora da ricevere; nessun HTML finale o pubblicazione.

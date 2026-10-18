@@ -347,7 +347,7 @@
   },
   "schema_termiche": {
     "id": "N-2",
-    "stato": "ricerca autorizzata; due originali presentati, scelta aperta",
+    "stato": "schema numerato scelto esplicitamente dall’utente, inserito nella bozza",
     "alternative": [
       {
         "id": "N-2A",
@@ -361,7 +361,8 @@
         ],
         "byte": 43927,
         "sha256": "435a2314f4521e8ae474e8bf72dcbca9aef992fad04b8e64a8e5c75756938110",
-        "modifiche": "nessuna"
+        "modifiche": "nessuna",
+        "stato": "proposta superata dallo schema numerato fornito dall’utente il 18 ottobre 2026 ore 17:56; originale conservato"
       },
       {
         "id": "N-2B",
@@ -375,8 +376,28 @@
         ],
         "byte": 52107,
         "sha256": "dc91e11b18f483f40d11ccf4d973243903554ca8de22fac75ed6fbc35ca6ca32",
-        "modifiche": "nessuna"
+        "modifiche": "nessuna",
+        "stato": "proposta superata dallo schema numerato fornito dall’utente il 18 ottobre 2026 ore 17:56; originale conservato"
       }
-    ]
+    ],
+    "scelto": {
+      "autore": "Dake",
+      "fonte": "https://commons.wikimedia.org/wiki/File:Thermal_column.svg",
+      "licenza": "CC BY 2.5",
+      "licenza_url": "https://creativecommons.org/licenses/by/2.5/",
+      "file": "lavorazione/convezione/risorse/termica-numerata.png",
+      "originale_file": "lavorazione/convezione/risorse/termica-numerata-originale.svg",
+      "url_originale": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Thermal_column.svg",
+      "modifiche": "nessuna",
+      "approvazione": "fornita con richiesta di inserimento e didascalia numerata il 18 ottobre 2026 ore 17:56",
+      "png_sha256": "693613714f401dff948e7162eb256f395d79316d69cdefc9780f2602ed1ef953",
+      "svg_sha256": "597b6c23df1800a8a353e13215d81b5423215d5a174f4827095bec2094087592",
+      "numeri": {
+        "1": "terreno riscaldato e trasferimento di energia all’aria",
+        "2": "aria in risalita nella termica",
+        "3": "moti discendenti di ricircolo",
+        "A": "eventuale nube, condensazione del vapore acqueo"
+      }
+    }
   }
 }

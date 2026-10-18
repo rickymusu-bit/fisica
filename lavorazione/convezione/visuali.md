@@ -78,3 +78,11 @@ Mostra risalita centrale, richiamo d’aria alla base e movimenti laterali. È i
 Mostra una massa ascendente con ricircolo interno: utile per evitare l’idea di un tubo d’aria rigido, ma più complesso per la prima spiegazione. Anche questa è una rappresentazione ideale. Nessuna modifica eseguita.
 
 Fonte primaria comune: FAA, *Glider Flying Handbook*, capitolo Glider Flight & Weather, https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/glider_handbook/gfh_chapter_9.pdf . Gli originali sono salvati come proposte in risorse/, non inseriti nel capitolo finché l’utente non sceglie.
+
+## N-2 scelta dall’utente — 18 ottobre 2026, ore 17:56
+
+L’utente fornisce e sceglie [Thermal column.svg](https://commons.wikimedia.org/wiki/File:Thermal_column.svg), chiedendo di spiegare i numeri nella didascalia. Autore Dake, [CC BY 2.5](https://creativecommons.org/licenses/by/2.5/). Scaricate senza modifiche la [versione PNG a 1280 px indicata](risorse/termica-numerata.png) e l’[originale SVG](risorse/termica-numerata-originale.svg). Lo schema viene inserito nell’applicazione degli uccelli nelle termiche, insieme alla foto della poiana già scelta.
+
+Numeri e lettera controllati sul visuale: (1) terreno riscaldato e trasferimento all’aria, (2) risalita nella termica, (3) moti discendenti attorno alla regione ascendente, (A) eventuale nube per condensazione del vapore acqueo. Didascalia di quattro frasi nella bozza. La descrizione della pagina Commons contiene una formulazione imprecisa che associa condensazione e discesa dell’aria: non riprodotta. La condensazione riguarda il vapore acqueo e la nube non è necessaria perché esista una termica.
+
+Le due proposte FAA precedenti sono superate da questa scelta esplicita e restano conservate come riferimenti, senza inserirle nel capitolo. Nessun ritocco, ricostruzione o rimozione del fondo. Il fondo trasparente e le frecce vanno mostrati su bianco nell’HTML futuro, con ingrandimento v7 e composizione invariata su mobile. Questa scelta non costituisce il via alla programmazione della simulazione degli elettroni.
