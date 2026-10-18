@@ -1,5 +1,9 @@
 # Stato — Irraggiamento
 
+## Pubblicazione autorizzata — 2026-10-18 09:00 (Europe/Rome)
+
+L’utente ha approvato le anteprime e richiesto esplicitamente «Ok ok pubblica». Autorizzata l’integrazione del ramo `revisione/materia-passaggi-capitoli` in main e la pubblicazione tramite il workflow Pages esistente: Stati della materia **v13**, Passaggi di stato **v14**, Irraggiamento **v6**. Contenuti approvati al commit `fc325c9ff17e7339a15b403a26b6a98a161e8332`; nessun cambiamento ai tre HTML durante la preparazione della pubblicazione. Master v58 consultato; build locale e copie esatte nell’output verificate. Home con i due capitoli separati e vecchi indirizzi conservati tramite reindirizzamento. Fase: integrazione e deployment in corso, verifica online successiva. Le indicazioni di mancata autorizzazione nei blocchi storici sottostanti sono superate da questa richiesta.
+
 ## Selezione didattica delle note — 18 ottobre 2026, ore 02:11 (Europe/Rome)
 
 **Versione corrente v6**, master **v58** letto integralmente con i riferimenti di stile. Su richiesta dell’utente, note ridotte da 15 a 6 e riscritte in forma breve. Eliminate ripetizioni di didascalie/testo e digressioni su campi, frequenza, corpo nero e termocamere; conservate condizioni semplici delle formule, avvertenza sui kelvin, distinzione irraggiamento/conduzione e lettura del diagramma terrestre. Testo e didascalie, formule, immagini/GIF e tema confrontati con v5 e invariati, esclusi i richiami eliminati/rinumerati. HTML e bozza testuale sincronizzati. Criterio di utilità delle note integrato in A1 del master, STILE_DISPENSE e AGENTS; il tema autonomo v3 resta identico. Verifiche e conteggi in `verifica-note.json`. Anteprima per lettura, nessuna pubblicazione né unione in main. La cronologia precedente segue.
