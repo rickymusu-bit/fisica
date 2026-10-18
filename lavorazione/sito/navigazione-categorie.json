@@ -175,5 +175,37 @@
     }
   ],
   "sette_articoli_esclusi_invariati": true,
-  "logo_invariato": true
+  "logo_invariato": true,
+  "pubblicazione": {
+    "pr": 28,
+    "commit": "2983c6f653c7c6052ab2db126ab7c1c079487c9d",
+    "workflow": 39114531184,
+    "esito": "success",
+    "verifiche_https": [
+      {
+        "file": "index.html",
+        "http": 200,
+        "identico_alla_build": true,
+        "sha256": "08bbde2a8944f246a054e081b747f698ab7ce383ae5a3b182e2fbe4455338773"
+      },
+      {
+        "file": "stati_della_materia.html",
+        "http": 200,
+        "identico_alla_build": true,
+        "sha256": "f402774dcf185163ea01246ae492262077c57e7db008491e800c436d11c654d7"
+      },
+      {
+        "file": "passaggi_di_stato.html",
+        "http": 200,
+        "identico_alla_build": true,
+        "sha256": "eac5f66f3dccd7fe2c94f6156cadf7e4132c2c4b5af5c4a8b506cb437a0464a4"
+      },
+      {
+        "file": "irraggiamento_it.html",
+        "http": 200,
+        "identico_alla_build": true,
+        "sha256": "28d79dc05afb1b1b461671c44453d9dba6a67cd027daa42fcb2e5ce75cac7044"
+      }
+    ]
+  }
 }

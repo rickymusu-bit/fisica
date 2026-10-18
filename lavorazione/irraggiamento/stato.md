@@ -2,6 +2,8 @@
 
 ## Navigazione breve e area tematica — 18 ottobre 2026
 
+**Pubblicato e verificato:** PR #28, merge `2983c6f653c7c6052ab2db126ab7c1c079487c9d`, workflow Pages `39114531184` riuscito; home e tre articoli HTTP 200 e identici byte per byte alla build verificata. Nessuna pubblicazione pendente.
+
 Controlli completati: 12 viste a 320/390/768/1280 px, ritorni al catalogo funzionanti, nessun overflow; anteprime HTML e immagini mobile/desktop consegnate prima della pubblicazione.
 
 Richiesta esplicita: accorciare «Tutti gli articoli» su mobile, usare sopra il titolo il nome della macro categoria e salvare le regole. **Versione corrente v9**, tema autonomo **v6**, terminologia **v4**, master consultato **v59**. Entrambi i ritorni diventano «← Articoli» su ogni dispositivo, con destinazione invariata; sopra il titolo compare «Materia e calore», come nel catalogo della home. Regole salvate nel modello, in AGENTS e nella terminologia; bozza HTML sincronizzata. Contenuto didattico, logo, CSS, script e altri visuali invariati. Verifiche e pubblicazione registrate in `../sito/navigazione-categorie.json`.
