@@ -1,0 +1,30 @@
+{
+  "index.html": {
+    "url": "https://rickymusu-bit.github.io/fisica/index.html",
+    "status": 200,
+    "bytes": 445883,
+    "sha256": "2d031ef7a90245f1b8d76273d0ce87a89f1748d64680b91fccb2361f5c3ccd67",
+    "identico_a_file_verificato": true
+  },
+  "conduzione_it.html": {
+    "url": "https://rickymusu-bit.github.io/fisica/conduzione_it.html",
+    "status": 200,
+    "bytes": 7431801,
+    "sha256": "05efa165a70a6561639db378a5aef09832f81d84336cafd3e02bcbe0b4293840",
+    "identico_a_file_verificato": true
+  },
+  "convezione_it.html": {
+    "url": "https://rickymusu-bit.github.io/fisica/convezione_it.html",
+    "status": 200,
+    "bytes": 12149543,
+    "sha256": "b047f1bab4b9f2dc908f63a322b7556ef9d7f059dc0763eda1f2b9f8bf5a1b62",
+    "identico_a_file_verificato": true
+  },
+  "irraggiamento_it.html": {
+    "url": "https://rickymusu-bit.github.io/fisica/irraggiamento_it.html",
+    "status": 200,
+    "bytes": 6141759,
+    "sha256": "76dc84eb7d853bf155892d7b2d6129ce8607ea898a60e10ad4631813678ba185",
+    "identico_a_file_verificato": true
+  }
+}

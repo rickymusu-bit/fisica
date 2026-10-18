@@ -2,7 +2,7 @@
 
 Aggiornamento: 18 ottobre 2026 (Europe/Rome). Master letto integralmente: v59; AGENTS.md, tema comune v7 e manifest di pubblicazione applicati.
 
-Fase corrente: articolo autonomo **v2**, verificato e pronto per la pubblicazione richiesta esplicitamente dall’utente: «finisci la pubblicazione degli articoli su conduzione e convezione nel mio repo di fisica su github».
+Fase corrente: articolo autonomo **v2**, verificato, integrato in main e pubblicato su GitHub Pages. Pubblicazione richiesta esplicitamente dall’utente: «finisci la pubblicazione degli articoli su conduzione e convezione nel mio repo di fisica su github».
 
 File ufficiale predisposto: [conduzione_it.html](../../conduzione_it.html). Anteprima di lavoro aggiornata: [bozza.html](bozza.html). Conservati testo, immagini e scelte concordate; nessuna simulazione nuova. I soli cambiamenti rispetto a v1 riguardano versione e collegamenti tra articoli.
 
@@ -12,7 +12,9 @@ Anteprime HTML autonome e schermate consegnate prima della pubblicazione. Manife
 
 Limite conservato: le licenze di alcuni materiali storici già forniti/approvati non sono documentate nella fonte; i crediti dichiarano espressamente questo limite senza inventare attribuzioni. La richiesta attuale autorizza la pubblicazione dei due articoli con i materiali conservati. Non si dichiara verificata una licenza mancante.
 
-Prossimo passaggio: salvataggio sul ramo di revisione, integrazione in main e verifica del workflow GitHub Pages e degli URL pubblici.
+Pubblicazione completata con la [PR #32](https://github.com/rickymusu-bit/fisica/pull/32), merge `edb339c72bc4ebf68257129fe0acd37254727054`. [Workflow Pages riuscito](https://github.com/rickymusu-bit/fisica/actions/runs/39155922270). [Articolo pubblico](https://rickymusu-bit.github.io/fisica/conduzione_it.html). Verificati HTTP 200 e corrispondenza SHA-256 tra gli HTML pubblici e i file controllati; verificati anche home e navigazione aggiornata di Irraggiamento. Rapporto: [verifica-online.json](../potenza_termica_conduzione_convezione/verifica-online.json).
+
+Nessun passaggio di pubblicazione ancora aperto; il limite documentale delle immagini storiche resta esplicitato sopra e nei crediti.
 
 ## Aggiornamento — 18 ottobre 2026, ore 13:12 (Europe/Rome)
 

@@ -1,5 +1,5 @@
 {
-  "stato": "due articoli HTML v2 verificati desktop/mobile; pubblicazione richiesta esplicitamente il 18 ottobre 2026, integrazione e deploy da confermare",
+  "stato": "Conduzione e Convezione v2 pubblicati; desktop/mobile e URL pubblici verificati",
   "fonte": "potenza_termica_conduzione_convezione_it.html",
   "versione_fonte": "v7",
   "sha256_fonte": "b346fd60bcce9ca7d74628434d8c854332ff55ddd9dd80db3253cc2f04bc5251",
@@ -439,5 +439,16 @@
   "html_correnti": {
     "conduzione": "lavorazione/conduzione/bozza.html",
     "convezione": "lavorazione/convezione/bozza.html"
+  },
+  "pubblicazione": {
+    "pr": "https://github.com/rickymusu-bit/fisica/pull/32",
+    "merge": "edb339c72bc4ebf68257129fe0acd37254727054",
+    "workflow": "https://github.com/rickymusu-bit/fisica/actions/runs/39155922270",
+    "esito": "success",
+    "url": [
+      "https://rickymusu-bit.github.io/fisica/conduzione_it.html",
+      "https://rickymusu-bit.github.io/fisica/convezione_it.html"
+    ],
+    "file_pubblici_identici_a_verificati": true
   }
 }
