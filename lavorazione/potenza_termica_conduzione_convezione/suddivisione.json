@@ -132,17 +132,21 @@
   ],
   "decisione_applicazioni": "Integrate nelle sezioni su conduttori e isolanti, su richiesta esplicita del 18 ottobre 2026 ore 13:25 Europe/Rome",
   "simulazione_agitazione_termica": {
-    "stato": "rimossa dalla pianificazione su richiesta del 18 ottobre 2026 ore 13:31",
+    "stato": "riaperta come base visiva per la proposta con elettroni il 18 ottobre 2026 ore 17:45; nessuna programmazione autorizzata",
     "originale": "conservato nell’HTML sorgente e nella cronologia Git",
     "hash_script": "i valori script_fisico_sha256 identificano esclusivamente la fonte storica",
-    "conferma": "scelta di ometterla confermata dall’utente con Ok il 18 ottobre 2026 ore 13:36"
+    "conferma": "scelta di ometterla confermata dall’utente con Ok il 18 ottobre 2026 ore 13:36",
+    "nuova_richiesta": "modello con elettroni in moto caotico e scambi energetici; correggere idea di atomi freddi inizialmente fermi"
   },
   "schema_elettroni": {
     "id": "E-1",
-    "tipo": "schema statico",
-    "stato": "previsto; materiale da scegliere/fornire, non realizzato",
-    "posizione": "Conduttori termici, dopo la spiegazione degli elettroni mobili",
-    "contenuto": "reticolo, elettroni mobili, lato caldo/freddo, freccia del trasferimento netto di energia"
+    "tipo": "simulazione qualitativa proposta al posto dello schema statico",
+    "stato": "modello e stima preparati; programmazione non avviata",
+    "piano": "lavorazione/conduzione/simulazione-elettroni.md",
+    "stima_minuti": [
+      30,
+      55
+    ]
   },
   "revisione_stilistica": "prosa didattica di entrambi i capitoli integralmente riscritta il 18 ottobre 2026 ore 13:36 secondo STILE_DISPENSE.md v6 ed esempio_irraggiamento.md v2; presentata per approvazione",
   "nuova_immagine_correnti_marine": {
@@ -153,11 +157,17 @@
   },
   "nuova_immagine_aquila": {
     "id": "N-1",
-    "stato": "due alternative fornite, scelta A/B aperta; testo esteso agli uccelli veleggiatori",
-    "alternative": [
-      "N-1A",
-      "N-1B"
-    ]
+    "stato": "prima fotografia scelta esplicitamente il 18 ottobre 2026 ore 17:45",
+    "file": "lavorazione/convezione/risorse/poiana-termica.jpg",
+    "soggetto": "poiana codarossa",
+    "autore": "NPS/Jacob W. Frank, YellowstoneNPS",
+    "licenza": "pubblico dominio",
+    "dimensioni": [
+      1920,
+      1280
+    ],
+    "byte": 215541,
+    "sha256": "6b522d11bf6bfa8039abb6780688cbfde4286003bec87aab177f626b5d25a912"
   },
   "esempi_convezione_naturale": [
     "termosifone",
@@ -203,7 +213,7 @@
     },
     {
       "id": "N-1A",
-      "stato": "alternativa fornita, scelta aperta; consigliata per leggibilità",
+      "stato": "scelto esplicitamente il 18 ottobre 2026 ore 17:45",
       "soggetto": "poiana codarossa",
       "fonte": "https://commons.wikimedia.org/w/index.php?curid=189439471",
       "originale_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Red-tailed_hawk_soaring_on_a_thermal_over_Yellowstone_RIver_%2855211414631%29.jpg",
@@ -220,7 +230,7 @@
     },
     {
       "id": "N-1B",
-      "stato": "alternativa fornita, scelta aperta",
+      "stato": "alternativa non scelta, non destinata alla bozza",
       "soggetto": "avvoltoi e altri rapaci in una termica",
       "fonte": "https://commons.wikimedia.org/wiki/File:Vultures_and_other_raptors_soaring_in_thermal_lift_JEG4956.jpg",
       "originale_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Vultures_and_other_raptors_soaring_in_thermal_lift_JEG4956.jpg",
@@ -334,5 +344,39 @@
     "sha256": "aef94d382869e7958b1e4fc0b8838256b61838174e451a3581d152b889e17e9b",
     "modifiche": "nessuna; versione fornita dall’utente",
     "significato": "strutture poligonali associate a convezione nel ghiaccio di azoto solido, non lava o acqua liquida"
+  },
+  "schema_termiche": {
+    "id": "N-2",
+    "stato": "ricerca autorizzata; due originali presentati, scelta aperta",
+    "alternative": [
+      {
+        "id": "N-2A",
+        "file": "lavorazione/convezione/risorse/termica-colonna-originale.jpg",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Column_or_plume_thermal_model.jpg",
+        "autore": "FAA — U.S. Department of Transportation",
+        "licenza": "public domain",
+        "dimensioni": [
+          549,
+          768
+        ],
+        "byte": 43927,
+        "sha256": "435a2314f4521e8ae474e8bf72dcbca9aef992fad04b8e64a8e5c75756938110",
+        "modifiche": "nessuna"
+      },
+      {
+        "id": "N-2B",
+        "file": "lavorazione/convezione/risorse/termica-bolla-originale.jpg",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Bubble_or_vortex_ring_thermal_model.jpg",
+        "autore": "FAA — U.S. Department of Transportation",
+        "licenza": "public domain",
+        "dimensioni": [
+          782,
+          640
+        ],
+        "byte": 52107,
+        "sha256": "dc91e11b18f483f40d11ccf4d973243903554ca8de22fac75ed6fbc35ca6ca32",
+        "modifiche": "nessuna"
+      }
+    ]
   }
 }

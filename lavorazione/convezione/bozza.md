@@ -36,11 +36,13 @@ Un rapace può descrivere ampi cerchi nel cielo e guadagnare quota tenendo le al
 
 Il Sole riscalda il terreno, che a sua volta trasferisce energia all’aria vicina alla superficie. Dove il riscaldamento è maggiore, l’aria può diventare meno densa di quella circostante e salire per effetto della spinta di Archimede. Si forma così una regione di aria ascendente: è un esempio di convezione naturale, perché il movimento nasce dalle differenze di densità e dall’azione della gravità.
 
-[IMMAGINE N-1 — Due alternative fornite dall’utente, scelta ancora aperta: (A) poiana codarossa in una termica, https://upload.wikimedia.org/wikipedia/commons/a/a7/Red-tailed_hawk_soaring_on_a_thermal_over_Yellowstone_RIver_%2855211414631%29.jpg ; (B) avvoltoi e altri rapaci in una termica, https://upload.wikimedia.org/wikipedia/commons/2/27/Vultures_and_other_raptors_soaring_in_thermal_lift_JEG4956.jpg . La prima è più leggibile per il dettaglio dell’animale, la seconda mostra il comportamento di gruppo. Conservare gli originali senza ritagli o frecce aggiunte non concordate. Non chiamare aquila la poiana codarossa.]
+[IMMAGINE N-1 — Scelta esplicita dell’utente: poiana codarossa in una termica, NPS/Jacob W. Frank, pubblico dominio. File a 1920 px fornito: risorse/poiana-termica.jpg. Nessun ritaglio o elaborazione.]
 
-Didascalia proposta A: Una poiana codarossa sfrutta una termica. Molti uccelli veleggiatori usano l’aria ascendente per guadagnare quota.
+![Poiana codarossa in volo ad ali distese nella termica.](risorse/poiana-termica.jpg)
 
-Didascalia proposta B: Avvoltoi e altri rapaci sfruttano l’aria ascendente di una termica; il volo veleggiato è comune a molte specie.
+[SCHEMA N-2 — Ricerca autorizzata dall’utente: due originali FAA proposti in visuali.md, colonna/pennacchio oppure bolla/anello vorticoso. Nessuno dei due ancora scelto o inserito nel contenuto didattico.]
+
+Didascalia: Una poiana codarossa sfrutta una termica. Molti uccelli veleggiatori usano l’aria ascendente per guadagnare quota.
 
 Volando in cerchio, l’uccello può rimanere all’interno della termica. Durante il volo planato tende a scendere rispetto all’aria che lo sostiene, ma se quell’aria sale abbastanza rapidamente, l’animale guadagna quota rispetto al terreno. Il moto convettivo dell’aria rende quindi possibile una risalita che, osservando soltanto le ali ferme, potrebbe sembrare difficile da spiegare.[3]
 

@@ -38,3 +38,7 @@ Le bozze restano in bozza.md. L’autorizzazione a passare ai visuali non è il 
 ## Scelta ricevuta — 18 ottobre 2026, ore 17:24
 
 **C-C scelta:** [Takoyaki sulla piastra](https://commons.wikimedia.org/wiki/File:Honkeohtako%27s_takoyaki,_Osaka;_December_2013_(03).jpg), City Foodsters, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/). Collegamento al capitolo: trasferimento di energia per contatto dalla piastra calda al cibo. Originale scaricato e ispezionato senza elaborazioni; file 4104 × 2736, 6.278.973 byte. Non è una fotografia di un oggetto riscaldato a un’estremità, ma la nuova scelta esplicita dell’utente sostituisce quel soggetto indicativo. Le scritte e i marchi presenti nella scena sono parte della fotografia, non watermark aggiunti; non tradurli. La risorsa va utilizzata soltanto in copertina. Rimane da fornire E-1. Fonti, URL, hash e attribuzioni registrati in suddivisione.json.
+
+## Elettroni: nuova proposta dell’utente — 18 ottobre 2026, ore 17:45
+
+L’utente comunica di non aver trovato uno schema adeguato e propone la simulazione con piccoli elettroni caotici. La ricerca di E-1 statico è quindi sospesa in favore della proposta dinamica, non ancora programmata. Modello, limiti, condizioni, comandi e stima in [simulazione-elettroni.md](simulazione-elettroni.md). La vecchia animazione usa ampiezze prefissate: richiede un effettivo aggiornamento energetico, non pallini soltanto decorativi. Via alla programmazione ancora da ricevere dopo il modello e la stima, secondo B2. Nessuna simulazione realizzata o HTML finale avviato.

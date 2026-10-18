@@ -85,3 +85,7 @@ Entrambe le immagini solari scelte: S-1A (schema NASA/CXC/M.Weiss, tradotto in i
 ## Copertina corrente — 18 ottobre 2026, ore 17:35
 
 V-C è sostituita su richiesta da Plutone/Sputnik Planitia, NASA/JHUAPL/SwRI. Ritirata Convection-cells.jpg; schema solare tradotto e fotografia solare restano nell’applicazione. La copertina è spiegata brevemente come convezione del ghiaccio di azoto solido su tempi geologici, senza aggiungere un’applicazione autonoma. Risorse e bozza aggiornate sul ramo dedicato.
+
+## Decisioni correnti — 18 ottobre 2026, ore 17:45
+
+Scelta la poiana codarossa, prima fotografia. Schema delle termiche: due originali FAA proposti in visuali.md, scelta ancora aperta. La ricerca statica degli elettroni è sostituita su proposta dell’utente dalla progettazione di una simulazione ricavata dal reticolo precedente; modello qualitativo e stima 30–55 minuti in lavorazione/conduzione/simulazione-elettroni.md. La precedente esclusione della simulazione è superata per questa nuova proposta; nessun codice ancora scritto e nessun via alla realizzazione HTML o pubblicazione.

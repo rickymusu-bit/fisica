@@ -54,3 +54,27 @@ Entrambe collocate nella stessa applicazione: schema dopo il meccanismo del plas
 ## Sostituzione della copertina — 18 ottobre 2026, ore 17:35
 
 L’utente sostituisce V-C con [Pluto’s Heart – Like a Cosmic Lava Lamp](https://commons.wikimedia.org/wiki/File:Pluto%E2%80%99s_Heart_-_Like_a_Cosmic_Lava_Lamp.jpg), NASA/JHUAPL/SwRI, pubblico dominio secondo Commons. Fonte primaria: https://science.nasa.gov/photojournal/plutos-heart-like-a-cosmic-lava-lamp/ . Versione 1920 × 2066 px indicata dall’utente conservata senza modifiche in [copertina-plutone.jpg](risorse/copertina-plutone.jpg), 1.917.707 byte. Originale remoto 2736 × 2944 px preservato come fonte esterna. Strutture in Sputnik Planitia associate alla lenta convezione del ghiaccio di azoto solido: non descriverle come lava o acqua. Didascalia breve e nota scientifica nella bozza; nessuna nuova applicazione autonoma su Plutone. La precedente Convection-cells.jpg è ritirata come copertina, non cancellata dalla provenienza storica. Le due immagini solari S-1A/S-1B restano nell’applicazione interna.
+
+## Poiana scelta e schemi delle termiche — 18 ottobre 2026, ore 17:45
+
+**N-1 scelta:** l’utente sceglie la prima fotografia, poiana codarossa, nella versione a 1920 px da lui fornita. Salvata invariata in [poiana-termica.jpg](risorse/poiana-termica.jpg), NPS/Jacob W. Frank, pubblico dominio. L’alternativa del gruppo di rapaci resta nella provenienza storica, ma non è destinata alla bozza.
+
+Ricerca di N-2 espressamente autorizzata: limitata a due originali, entrambi dal *Glider Flying Handbook* della Federal Aviation Administration (FAA), pubblico dominio secondo le pagine Commons. Nessun ritocco o ricostruzione e nessuna scelta dedotta.
+
+### N-2A — Colonna o pennacchio (consigliato)
+
+![Originale FAA: modello di termica a colonna o pennacchio.](risorse/termica-colonna-originale.jpg)
+
+[Apri l’originale](risorse/termica-colonna-originale.jpg) · [Fonte e licenza](https://commons.wikimedia.org/wiki/File:Column_or_plume_thermal_model.jpg)
+
+Mostra risalita centrale, richiamo d’aria alla base e movimenti laterali. È il più vicino al testo sulle colonne ascendenti. Il colore verde identifica graficamente la regione, non il colore reale dell’aria. Non implica che ogni termica sia una colonna continua e immutabile. Nessuna scritta inglese da tradurre.
+
+### N-2B — Bolla o anello vorticoso
+
+![Originale FAA: modello di termica a bolla o anello vorticoso.](risorse/termica-bolla-originale.jpg)
+
+[Apri l’originale](risorse/termica-bolla-originale.jpg) · [Fonte e licenza](https://commons.wikimedia.org/wiki/File:Bubble_or_vortex_ring_thermal_model.jpg)
+
+Mostra una massa ascendente con ricircolo interno: utile per evitare l’idea di un tubo d’aria rigido, ma più complesso per la prima spiegazione. Anche questa è una rappresentazione ideale. Nessuna modifica eseguita.
+
+Fonte primaria comune: FAA, *Glider Flying Handbook*, capitolo Glider Flight & Weather, https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/glider_handbook/gfh_chapter_9.pdf . Gli originali sono salvati come proposte in risorse/, non inseriti nel capitolo finché l’utente non sceglie.

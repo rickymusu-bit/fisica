@@ -33,7 +33,7 @@ La tabella mostra una differenza netta: rame e alluminio conducono molto più fa
 
 I materiali con conducibilità elevata sono **buoni conduttori termici**. Molti metalli appartengono a questo gruppo perché alcuni dei loro elettroni possono muoversi attraverso il materiale, senza restare legati a un singolo atomo. Gli **elettroni mobili** scambiano energia con le altre parti del metallo e contribuiscono a trasferirla dalla regione più calda a quella più fredda. Il loro contributo si aggiunge a quello delle vibrazioni atomiche.
 
-[SCHEMA E-1 — Schema statico da scegliere/fornire: reticolo del metallo, elettroni mobili, lato caldo e lato freddo, freccia del trasferimento netto di energia. Non suggerire che tutti gli elettroni scorrano ordinatamente verso il freddo.]
+[SIMULAZIONE E-1 — Proposta da approvare: riusare il reticolo esistente e aggiungere piccoli elettroni mobili in moto irregolare, con scambi energetici che modificano mediamente le vibrazioni del reticolo. Gli atomi più freddi vibrano già; nessun flusso ordinato di elettroni dal caldo al freddo. Modello e stima in simulazione-elettroni.md. Programmazione non avviata; sostituisce la precedente ricerca dello schema statico.]
 
 Didascalia: Nel metallo gli elettroni mobili contribuiscono al trasferimento di energia dalla zona calda a quella fredda.
 
