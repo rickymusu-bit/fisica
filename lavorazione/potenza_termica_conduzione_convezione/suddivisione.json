@@ -131,7 +131,8 @@
   "simulazione_agitazione_termica": {
     "stato": "rimossa dalla pianificazione su richiesta del 18 ottobre 2026 ore 13:31",
     "originale": "conservato nell’HTML sorgente e nella cronologia Git",
-    "hash_script": "i valori script_fisico_sha256 identificano esclusivamente la fonte storica"
+    "hash_script": "i valori script_fisico_sha256 identificano esclusivamente la fonte storica",
+    "conferma": "scelta di ometterla confermata dall’utente con Ok il 18 ottobre 2026 ore 13:36"
   },
   "schema_elettroni": {
     "id": "E-1",
@@ -140,5 +141,5 @@
     "posizione": "Conduttori termici, dopo la spiegazione degli elettroni mobili",
     "contenuto": "reticolo, elettroni mobili, lato caldo/freddo, freccia del trasferimento netto di energia"
   },
-  "revisione_stilistica": "riuso ampio e riscritture locali; revisione integrale secondo i riferimenti ancora da completare"
+  "revisione_stilistica": "prosa didattica di entrambi i capitoli integralmente riscritta il 18 ottobre 2026 ore 13:36 secondo STILE_DISPENSE.md v6 ed esempio_irraggiamento.md v2; presentata per approvazione"
 }

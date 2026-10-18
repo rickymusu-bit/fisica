@@ -1,25 +1,22 @@
 # Conduzione
 
-[COPERTINA C-C — Nuova immagine da fornire: un oggetto metallico riscaldato a un’estremità; distinta da zuppa, caffettiera e altre figure interne.]
+[COPERTINA C-C — Oggetto metallico riscaldato a un’estremità; immagine da scegliere, distinta dalle figure interne.]
 
 ## Il manico che si scalda
 
+Lasciamo un cucchiaio di metallo in una zuppa calda. La parte immersa si riscalda subito; dopo un po’ diventa caldo anche il manico, che si trova fuori dal liquido. Come ha fatto l’energia a raggiungerlo?
 
-Se lasci un cucchiaio di metallo immerso in una zuppa calda, dopo un po’ si riscalda anche la parte del manico fuori dal liquido. L’energia si è propagata lungo il metallo senza che il cucchiaio si sia spostato da un’estremità all’altra.
+[IMMAGINE 03 — Zuppa e cucchiaio già approvati.]
 
-[IMMAGINE 03 — Il cucchiaio metallico riceve energia dalla zuppa calda e la conduce lungo il manico.]
+Didascalia: Il cucchiaio riceve energia dalla zuppa e la trasferisce lungo il manico.
 
-Didascalia: Il cucchiaio metallico riceve energia dalla zuppa calda e la conduce lungo il manico.
+Il metallo è rimasto al suo posto, ma l’energia si è trasferita dalla parte più calda a quella più fredda. Questo modo di trasferire calore si chiama **conduzione**: avviene attraverso le interazioni microscopiche nel materiale, senza che la materia debba spostarsi complessivamente da un’estremità all’altra. Nei solidi gli atomi vibrano intorno alle proprie posizioni e scambiano energia con quelli vicini. Nei metalli intervengono anche gli elettroni mobili, che aiutano a capire perché questi materiali conducano così bene.
 
-Come raggiunge il manico l’energia della zuppa? Il trasferimento avviene attraverso il materiale. La conduzione è il trasferimento di energia termica attraverso un materiale dovuto alle interazioni microscopiche tra le sue parti, senza trasporto macroscopico complessivo della materia. Nei metalli contribuiscono in modo rilevante anche gli elettroni liberi.
+L’efficacia del trasferimento cambia molto da un materiale all’altro. La grandezza che descrive questa proprietà è la **conducibilità termica**, indicata con λ, la lettera greca «lambda». Si misura in W/(m·K): a parità di forma, dimensioni e differenza di temperatura, un valore maggiore corrisponde a un trasferimento più intenso.[1]
 
-Nel solido gli atomi vibrano intorno alle loro posizioni e, interagendo con quelli vicini, possono trasferire energia. Questo meccanismo agisce anche nei materiali che conducono poco. Nei metalli si aggiunge un contributo importante: quello degli elettroni mobili, che vedremo nella sezione sui conduttori.
+[TABELLA T-1 — Ricostruire in HTML mantenendo dati e composizione; scorrimento se necessario.]
 
-### Conducibilità termica
-
-La conducibilità termica λ descrive l'attitudine di un materiale a condurre il calore: a parità delle altre condizioni, maggiore è λ, più facilmente passa l'energia. Si misura in W/(m·K).
-
-| Materiale | λ indicativa [W/(m·K)] |
+| Materiale | Conducibilità termica indicativa λ [W/(m·K)] |
 | --- | --- |
 | Rame | 400 |
 | Alluminio | 205 |
@@ -30,101 +27,97 @@ La conducibilità termica λ descrive l'attitudine di un materiale a condurre il
 | Legno | 0,12 |
 | Aria ferma | 0,026 |
 
-Questi valori permettono di confrontare i materiali: il rame conduce molto più facilmente del legno o dell’aria ferma.[1]
+La tabella mostra una differenza netta: rame e alluminio conducono molto più facilmente del legno e dell’aria ferma. Questa differenza permette di scegliere i materiali in base a ciò che vogliamo ottenere: favorire il trasferimento di energia oppure rallentarlo.
 
 ## Conduttori termici
 
-I materiali che, a parità di condizioni, lasciano passare facilmente energia per conduzione sono chiamati **conduttori termici**. Hanno una conducibilità elevata: nella tabella il rame e l’alluminio sono esempi di buoni conduttori. Questa proprietà è utile quando vogliamo trasferire rapidamente energia attraverso un oggetto.
+I materiali con conducibilità elevata sono **buoni conduttori termici**. Molti metalli appartengono a questo gruppo perché alcuni dei loro elettroni possono muoversi attraverso il materiale, senza restare legati a un singolo atomo. Gli **elettroni mobili** scambiano energia con le altre parti del metallo e contribuiscono a trasferirla dalla regione più calda a quella più fredda. Il loro contributo si aggiunge a quello delle vibrazioni atomiche.
 
-Nei metalli alcuni elettroni possono muoversi attraverso il materiale, senza restare legati a un singolo atomo. Questi **elettroni mobili** trasportano energia dalle regioni più calde a quelle più fredde e la scambiano con le altre parti del metallo. Alla conduzione contribuiscono anche le vibrazioni degli atomi, ma gli elettroni mobili spiegano perché molti metalli siano conduttori termici particolarmente efficaci.
+[SCHEMA E-1 — Schema statico da scegliere/fornire: reticolo del metallo, elettroni mobili, lato caldo e lato freddo, freccia del trasferimento netto di energia. Non suggerire che tutti gli elettroni scorrano ordinatamente verso il freddo.]
 
-[SCHEMA E-1 — Schema statico della conduzione in un metallo: reticolo di atomi/ioni, elettroni mobili distinti dal reticolo, lato caldo e lato freddo; una freccia indica il trasferimento netto di energia. Non rappresentare un flusso ordinato di tutti gli elettroni verso il lato freddo né un trasferimento macroscopico del metallo. Immagine da scegliere/fornire secondo C2; nessuno schema ancora realizzato.]
+Didascalia: Nel metallo gli elettroni mobili contribuiscono al trasferimento di energia dalla zona calda a quella fredda.
 
-Didascalia: Gli elettroni mobili scambiano energia con il reticolo del metallo e contribuiscono a trasferirla dalla regione più calda a quella più fredda.
+Anche tra i metalli, però, la conducibilità può essere diversa. Nel video sei barrette vengono riscaldate nella stessa zona centrale: la cera posta alle estremità cambia stato in tempi differenti. L’esperimento rende visibile il diverso comportamento dei materiali; per interpretarlo contano anche le condizioni della prova.[1]
 
-Sei barrette metalliche vengono riscaldate nella stessa zona centrale. Osserva nel video i diversi tempi con cui cambia stato la cera alle estremità: il confronto rende visibile il diverso comportamento dei metalli.[1]
+[VIDEO 05 — Miniatura e collegamento esatti già presenti nell’HTML v7; apertura sulla piattaforma originale.]
 
-[VIDEO 05 — Conservare miniatura e URL esatti dell’HTML v7; apertura sulla piattaforma originale, senza lettore incorporato.]
-
-Didascalia: Video dell’esperimento: scegli la miniatura per aprirlo sulla piattaforma originale.
+Didascalia: Il riscaldamento raggiunge le estremità delle barrette in tempi diversi: osserva quando fonde la cera.
 
 ### La lingua sul palo gelato
 
-Quando la lingua tocca un palo metallico gelato, l’energia si trasferisce dalla lingua, più calda, al metallo, più freddo. Il palo conduce rapidamente questa energia lontano dalla zona di contatto, verso le parti circostanti. Se il metallo è abbastanza freddo, la saliva può perdere energia fino a congelare: il sottile strato di ghiaccio che si forma fa aderire la lingua alla superficie.
+La capacità dei metalli di trasferire rapidamente energia può produrre un effetto sorprendente. Quando una lingua tocca un palo metallico gelato, cede energia al metallo, che è più freddo. Il palo conduce quell’energia lontano dalla zona di contatto, verso le parti circostanti. Se il metallo è abbastanza freddo, la saliva può congelare: il sottile strato di ghiaccio che si forma fa aderire la lingua alla superficie.
 
-[IMMAGINE 12 — Riutilizzare l’animazione già approvata del contatto con il palo gelato, senza alterazioni.]
+[IMMAGINE 12 — Animazione del palo gelato già approvata, invariata.]
 
-Didascalia: Il metallo conduce energia lontano dal punto di contatto; se la saliva congela, il ghiaccio fa aderire la lingua al palo. È pericoloso: non va provato.
+Didascalia: Se la saliva congela sul metallo, il ghiaccio fa aderire la lingua al palo. È pericoloso: non va provato.
 
-### La caffettiera: condurre e isolare dove serve
+### La caffettiera: materiali con compiti diversi
 
+In una caffettiera moka la fiamma riscalda la base e l’energia si propaga attraverso il corpo metallico. L’alluminio conduce bene il calore, perciò anche parti che non sono direttamente sopra la fiamma possono diventare molto calde. Per il manico, invece, si sceglie un materiale che conduce molto meno, così il trasferimento verso la mano viene rallentato. Dopo un riscaldamento prolungato anche il manico può comunque scottare.
 
-La fiamma riscalda la base metallica della caffettiera. Il calore si propaga attraverso il corpo di alluminio, che è un buon conduttore; per questo la parte metallica diventa molto calda. Il manico è invece realizzato in un materiale che conduce molto meno: a parità di condizioni può restare relativamente più tiepido, permettendo di afferrarlo con maggiore sicurezza. Anche il manico può però scottare dopo un riscaldamento prolungato.
+[IMMAGINE 07 — Caffettiera già approvata.]
 
-[IMMAGINE 07 — Il corpo metallico trasferisce rapidamente energia, mentre il manico poco conduttore ostacola il passaggio del calore fino alla mano.]
+Didascalia: Il corpo metallico favorisce la conduzione; il materiale del manico limita il trasferimento verso la mano.
 
-Didascalia: Il corpo metallico trasferisce rapidamente energia, mentre il manico poco conduttore ostacola il passaggio del calore fino alla mano.
-
-Nella stessa caffettiera i materiali svolgono quindi due compiti diversi: il metallo favorisce il passaggio di energia, mentre il materiale del manico lo ostacola. È la distinzione tra conduttori e isolanti termici.
+La stessa caffettiera riunisce quindi due esigenze: distribuire energia nel corpo metallico e ostacolarne il passaggio lungo il manico. Il secondo compito è quello degli isolanti termici.
 
 ## Isolanti termici
 
-I materiali che ostacolano il trasferimento di energia per conduzione sono chiamati **isolanti termici**. Hanno una conducibilità bassa: il legno e l’aria ferma, presenti nella tabella, conducono molto meno dei metalli. Un isolante rallenta il trasferimento di energia, senza impedirlo completamente: non produce calore e non garantisce che un oggetto rimanga caldo o freddo per sempre.
+Un **isolante termico** è un materiale che conduce poco il calore. La sua bassa conducibilità permette di rallentare il trasferimento di energia tra regioni a temperatura diversa. Il trasferimento continua, ma è meno intenso rispetto a quello attraverso un buon conduttore nelle stesse condizioni. Un isolante, quindi, non produce calore: aiuta a limitare quanto rapidamente l’energia viene scambiata con l’esterno.
 
-L’aria intrappolata in piccole cavità è utile perché conduce poco e non può circolare liberamente. Questo aiuta a capire perché materiali contenenti aria possano limitare gli scambi termici. Nelle applicazioni seguenti, oltre alla scelta del materiale, conta come viene disposto.
+Nella tabella, l’aria ferma ha una conducibilità particolarmente bassa. Quando rimane intrappolata in piccole cavità, conduce poco e ha scarse possibilità di circolare. Per questo la presenza di aria può contribuire all’isolamento di un materiale: contano sia le sue proprietà sia il modo in cui è organizzato.
 
-### Limitare le dispersioni attraverso le pareti
+### Le pareti di una casa
 
-Nelle pareti di una casa, uno strato poco conduttore ostacola il passaggio del calore. Il modello della parete omogenea aiuta a capire perché il materiale e lo spessore influenzano le dispersioni; una parete reale con più strati richiede di considerare insieme l’effetto di tutti gli strati. Lo schema del muro nella sezione sulla legge di Fourier permette di collegare questa scelta del materiale alla potenza dispersa.
+Se l’interno di una casa è più caldo dell’esterno, l’energia tende a trasferirsi verso l’esterno attraverso le pareti. Uno strato poco conduttore ostacola questo passaggio e riduce la potenza dispersa. Anche lo spessore conta: attraversare uno strato più spesso rende il trasferimento meno intenso. Lo schema del muro, nella sezione sulla legge di Fourier, permette di collegare queste osservazioni a una relazione quantitativa.[2]
 
-### Finestre con vetrocamera
+### Le finestre con vetrocamera
 
-Nel doppio vetro, due lastre sono separate da uno spazio sigillato che contiene aria o un gas poco conduttore. Quando l’intercapedine e le condizioni sono progettate correttamente, si riduce il trasferimento di calore rispetto a un vetro singolo. L’effetto non dipende dalla sola conduzione: possono contribuire anche irraggiamento e piccoli moti del gas; perciò non applichiamo direttamente la formula di Fourier della parete omogenea all’intera finestra.
+In una vetrocamera due lastre di vetro sono separate da un’intercapedine sigillata, contenente aria o un altro gas poco conduttore. Il gas rallenta il trasferimento rispetto a un collegamento attraverso un materiale molto più conduttore. La distanza tra le lastre è progettata anche per limitare i movimenti del gas, che potrebbero trasportare energia. Una finestra ben progettata riduce così gli scambi termici rispetto a un vetro singolo.[3]
 
-[IMMAGINE 09 — Riutilizzare vetro-italiano.png già approvato e incorporato nella v7, senza ulteriori traduzioni.]
+[IMMAGINE 09 — Vetro-italiano.png già approvato.]
 
-Didascalia: Le due lastre di vetro sono separate da un’intercapedine sigillata che limita gli scambi termici. Il distanziatore mantiene la distanza tra le lastre; il materiale essiccante assorbe l’umidità residua.
+Didascalia: L’intercapedine separa le due lastre. Il distanziatore le mantiene in posizione e il materiale essiccante trattiene l’umidità residua.
 
-### Un igloo isolato dalla neve
+### Un igloo fatto di neve
 
-Le pareti di neve non sono una sorgente di calore. La neve contiene numerose piccole cavità d’aria: l’aria intrappolata e quasi immobile conduce poco, contribuendo all’isolamento. Uno spessore sufficiente riduce la velocità con cui l’energia termica abbandona l’interno, che può quindi restare meno freddo dell’esterno quando sono presenti sorgenti di calore. Non basta dire che la neve è fredda: conta soprattutto come ostacola il trasferimento.
+La neve è fredda: come può aiutare a mantenere meno freddo l’interno di un igloo? Le pareti contengono molte piccole cavità d’aria che ostacolano il trasferimento di energia. Il calore prodotto all’interno, per esempio dalle persone, viene quindi disperso più lentamente. La neve non riscalda l’igloo: contribuisce a trattenere più a lungo l’energia fornita dalle sorgenti presenti al suo interno.
 
-[IMMAGINE 10 — Le pareti di neve contengono aria intrappolata e limitano le perdite di calore verso l’esterno.]
+[IMMAGINE 10 — Igloo già approvato.]
 
-Didascalia: Le pareti di neve contengono aria intrappolata e limitano le perdite di calore verso l’esterno.
+Didascalia: Le pareti di neve contengono aria intrappolata e rallentano la dispersione di energia verso l’esterno.
 
 ## Quanto calore attraversa un materiale?
 
-### La rapidità del trasferimento: la potenza termica
-
-Per descrivere il calore che attraversa un materiale non basta conoscere l’energia trasferita: conta anche il tempo impiegato. La **potenza termica media** indica la rapidità del trasferimento. Se Q è l’energia trasferita in un intervallo Δt, scriviamo:
+Per confrontare due trasferimenti non basta sapere quanta energia passa: bisogna conoscere anche il tempo impiegato. La **potenza termica media** esprime proprio la rapidità del trasferimento. Se durante un intervallo Δt viene trasferita un’energia Q, scriviamo:
 
 \[
 P=\frac{Q}{\Delta t}
 \]
 
-Q si misura in joule (J), Δt in secondi (s) e P in watt (W): un watt corrisponde a un joule trasferito ogni secondo. A parità di energia, impiegare metà tempo significa avere potenza doppia. Energia e potenza descrivono quindi due aspetti diversi dello stesso trasferimento.[3]
-
-Se la potenza resta costante, l’energia trasferita si ricava moltiplicandola per la durata:
+Q si misura in joule (J), Δt in secondi (s) e P in watt (W). Un watt corrisponde a un joule trasferito ogni secondo. A parità di energia, dimezzare il tempo significa raddoppiare la potenza; a parità di tempo, una potenza doppia corrisponde a un’energia doppia. Se la potenza resta costante, possiamo quindi ricavare l’energia moltiplicandola per la durata:[4]
 
 \[
 Q=P\cdot\Delta t
 \]
 
+### La legge di Fourier
 
-### La legge di Fourier per una parete piana
+Torniamo alla parete. Quanto incide il materiale? E quanto lo spessore? Nel modello di una parete piana, la **legge di Fourier** permette di calcolare la potenza condotta:[2]
 
-Per capire quanta energia attraversa una parete in un secondo dobbiamo considerare il materiale, la superficie attraversata e lo spessore. Conta anche la differenza di temperatura: quanto più una faccia è calda rispetto all’altra, tanto maggiore è il trasferimento. La **legge di Fourier**, nel modello di una parete piana, lega queste grandezze alla potenza termica:[2]
+\[
+P=\frac{\lambda\cdot A\cdot\Delta T}{s}
+\]
 
-$$P=\frac{\lambda\cdot A\cdot\Delta T}{s}$$
+La potenza P, in watt, dipende dalla conducibilità λ e dall’area A attraversata dal calore, misurata in metri quadrati. Dipende anche dallo spessore s, in metri, e dalla differenza ΔT tra la temperatura della faccia calda e quella della faccia fredda, in kelvin. A è la superficie perpendicolare alla direzione del trasferimento.
 
-La potenza P si misura in watt. Il simbolo λ, che si legge «lambda», è la conducibilità termica del materiale, in W/(m·K); A è l’area perpendicolare al trasferimento, in metri quadrati; s è lo spessore, in metri. ΔT indica quanto la faccia calda supera in temperatura quella fredda, in kelvin. Una differenza di 30 °C ha lo stesso valore numerico di una differenza di 30 K.
+La posizione delle grandezze nella formula permette di fare previsioni. Raddoppiare la conducibilità, l’area oppure la differenza di temperatura raddoppia la potenza, mantenendo uguali le altre grandezze. Raddoppiare lo spessore, che compare al denominatore, la dimezza. Una parete più estesa offre più superficie attraverso cui trasferire energia; una parete più spessa oppone un percorso maggiore al trasferimento.
 
-A parità delle altre condizioni, raddoppiare λ, A oppure ΔT raddoppia la potenza. Raddoppiare lo spessore, invece, la dimezza: l’energia deve attraversare un tratto di materiale più lungo. La formula descrive il trasferimento dalla faccia più calda a quella più fredda, non una produzione di energia nella parete.
+[IMMAGINE 06 E GRAFICO G-1 — Muro-italiano.png e grafico SVG corretto della fonte: facce a 20 °C e −10 °C, variazione lineare solo nello spessore.]
 
-[IMMAGINE 06 — Riutilizzare muro-italiano.png e grafico SVG corretto dell’HTML v7: facce a 20 °C e −10 °C, differenza 30 K; composizione invariata su mobile.]
+Didascalia: Tra le due facce della parete la temperatura passa da 20 °C a −10 °C. Il grafico rappresenta soltanto lo spessore del materiale.
 
-Didascalia: In una parete omogenea, a regime stazionario e con conducibilità costante, la temperatura varia linearmente da una faccia all’altra. Nell’esempio le facce sono mantenute a 20 °C e −10 °C: la differenza di temperatura è 30 K. La superficie A è perpendicolare al flusso di calore.
+Nel grafico le due facce differiscono di 30 gradi: ΔT vale quindi 30 K. Una differenza di temperatura ha lo stesso valore numerico in kelvin e in gradi Celsius, perché le due scale hanno intervalli della stessa ampiezza. Il profilo scende dalla faccia più calda a quella più fredda: è in questa direzione che avviene il trasferimento netto di energia.
 
 ## Domande di verifica
 
@@ -138,7 +131,7 @@ Didascalia: In una parete omogenea, a regime stazionario e con conducibilità co
 
 5. **Energia dispersa.** Un locale perde verso l’esterno energia termica con potenza costante di 1 500 W. Quanta energia perde in 10 minuti? In quale direzione si trasferisce il calore se l’esterno è più freddo?
 
-6. **Stessa energia?.** Una stufetta da 1 000 W funziona per 2 h, un'altra da 2 000 W per 1 h. Supponendo potenze costanti, confronta le energie trasferite.
+6. **Stessa energia?** Una stufetta da 1 000 W funziona per 2 h, un'altra da 2 000 W per 1 h. Supponendo potenze costanti, confronta le energie trasferite.
 
 7. **Il cucchiaino caldo.** Come raggiunge il manico l'energia della bevanda calda? Descrivi il fenomeno dal punto di vista macroscopico e microscopico.
 
@@ -154,8 +147,10 @@ Didascalia: In una parete omogenea, a regime stazionario e con conducibilità co
 
 ## Note
 
-[1] La conducibilità dipende da composizione, temperatura e condizioni del materiale. Nel video incidono anche le condizioni della prova: il tempo di fusione della cera non è una misura diretta della sola conducibilità.
+[1] I valori della tabella sono orientativi e dipendono da composizione, temperatura e condizioni del materiale. Nel video contano anche geometria e condizioni di riscaldamento: il tempo di fusione della cera non misura direttamente la sola conducibilità.
 
-[2] Il modello assume una parete omogenea, conducibilità costante, regime stazionario e nessuna sorgente interna. In queste condizioni il profilo di temperatura è lineare. Le temperature delle facce possono differire da quelle dell’aria: la legge non include da sola tutti gli scambi di una parete reale.
+[2] Il modello assume parete omogenea, conducibilità costante, regime stazionario e assenza di sorgenti interne; in queste condizioni il profilo di temperatura è lineare. Le temperature delle facce possono differire da quelle dell’aria. Per pareti con più strati occorre considerare insieme il loro effetto.
 
-[3] La potenza elettrica assorbita e la potenza termica trasferita nella situazione considerata non coincidono necessariamente. La potenza nominale si riferisce alle condizioni dichiarate; perdite e sistemi di controllo possono modificare il consumo effettivo. Q = P · Δt vale anche usando la potenza media sull’intervallo.
+[3] Nella vetrocamera contribuiscono agli scambi anche irraggiamento ed eventuali moti del gas. La formula della parete omogenea non descrive da sola l’intera finestra.
+
+[4] La potenza elettrica assorbita da un apparecchio e quella termica trasferita nella situazione considerata non coincidono necessariamente. Q = P · Δt vale anche usando la potenza media sull’intervallo.

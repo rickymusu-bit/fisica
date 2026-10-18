@@ -54,7 +54,7 @@ L’utente può fornire immagini equivalenti pertinenti; un ritaglio di una figu
 
 ## Stato della revisione stilistica
 
-La bozza è stata costruita riutilizzando ampie parti della versione precedente, con riscritture locali (potenza, Fourier, conduttori/isolanti, palo) e riorganizzazione delle applicazioni. I riferimenti STILE_DISPENSE.md ed esempio_irraggiamento.md sono stati consultati, ma non è ancora stata completata una revisione stilistica integrale di tutto il testo. Non presentare la bozza come già pienamente conforme allo stile. Prima dell’HTML rivedere il filo narrativo, i collegamenti, le ripetizioni, le note e le didascalie secondo i riferimenti, preservando contenuti e scelte effettivamente approvati; presentare la bozza rivista all’utente.
+Il 18 ottobre 2026 alle 13:36 l’utente ha richiesto i testi completi riscritti secondo i riferimenti stilistici. Riletti STILE_DISPENSE.md v6 ed esempio_irraggiamento.md v2; riscritta integralmente la prosa didattica di entrambi i capitoli. Le domande conservano le richieste già pianificate (12 e 7), con sole correzioni di punteggiatura. Verificati apertura concreta, nessi causali, sviluppo dei termini, interpretazione delle formule, note essenziali, figure e didascalie. I testi sono proposte da esaminare, non bozze già approvate. Nessun HTML realizzato.
 
 Video: miniatura e URL esatti della fonte, nessun player incorporato. Grafico del muro: stessi dati, assi e relazioni. Tutti i visuali conservano la composizione su mobile; usare l’ingrandimento con scorrimento del tema v7.
 
