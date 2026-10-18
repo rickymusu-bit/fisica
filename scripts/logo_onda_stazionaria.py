@@ -1,17 +1,18 @@
 """Logo: onda sinusoidale stazionaria su una curva chiusa, con quattro creste."""
 from math import sin, pi
 from pathlib import Path
-from logo_onda_progressiva import path_data, PERIOD
+from logo_onda_progressiva import path_data, PERIOD, AMPLITUDE as BASE_AMPLITUDE
 
 ROOT = Path(__file__).resolve().parents[1]
 TEMPORAL_STEPS = 32
+AMPLITUDE = 20
 
 
 def svg():
     # r(theta,t) = R + A*cos(4*theta)*sin(2*pi*t/T).
     # Otto nodi angolari fissi; i ventri cambiano segno senza rotazione.
     circle = path_data(0)
-    values = ';'.join(path_data(sin(2 * pi * i / TEMPORAL_STEPS))
+    values = ';'.join(path_data(AMPLITUDE / BASE_AMPLITUDE * sin(2 * pi * i / TEMPORAL_STEPS))
                       for i in range(TEMPORAL_STEPS + 1))
     stroke = 'fill="none" stroke="#000" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"'
     return ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320" '

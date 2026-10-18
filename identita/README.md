@@ -1,6 +1,6 @@
 # Logo di Materia Oscura
 
-Versione v3 · 18 ottobre 2026. Creato su richiesta esplicita dell’utente a partire dalla configurazione della stringa chiusa al centro in basso dell’immagine di riferimento. Posizione nella home scelta dall’utente: **accanto al titolo**. I file restano autonomi e riutilizzabili.
+Versione v4 · 18 ottobre 2026. Creato su richiesta esplicita dell’utente a partire dalla configurazione della stringa chiusa al centro in basso dell’immagine di riferimento. Posizione nella home scelta dall’utente: **accanto al titolo**. I file restano autonomi e riutilizzabili.
 
 - **logo-materia-oscura.svg**: originale vettoriale animato, nero su fondo trasparente; nessun JavaScript o risorsa esterna.
 - **logo-materia-oscura.gif**: esportazione animata trasparente, 256 × 256 px, 20 fotogrammi al secondo, 160 fotogrammi, ciclo di 8 secondi.
@@ -36,8 +36,8 @@ Generatore: `python scripts/logo_onda_progressiva.py`. Anteprima: `lavorazione/s
 
 L’ultima correzione dell’utente richiede un’**onda stazionaria**, mantenendo quattro creste. La configurazione non ruota: i nodi angolari restano fermi e i ventri oscillano radialmente. Il profilo passa per il cerchio e inverte la deformazione.
 
-File autonomi correnti: **logo-materia-oscura-onda-stazionaria.gif** e **logo-materia-oscura-onda-stazionaria.svg**. Restano nero su trasparente, tratto di 7 unità, GIF 256 × 256 px a 20 fps, 80 fotogrammi e periodo di 4 secondi. La nuova variante conserva la deformazione contenuta della proposta precedente.
+File autonomi correnti: **logo-materia-oscura-onda-stazionaria.gif** e **logo-materia-oscura-onda-stazionaria.svg**. Restano nero su trasparente, tratto di 7 unità, GIF 256 × 256 px a 20 fps, 80 fotogrammi e periodo di 4 secondi. L’ampiezza della versione stazionaria è stata raddoppiata da 10 a 20 su richiesta dell’utente; il raggio di riferimento resta 104.
 
-Modello: `r(θ,t) = 104 + 10 cos(4θ) sin(2πt/T)`, con `T = 4 s`. I nodi sono fissi a `θ = 22,5° + k · 45°`; i ventri hanno segno opposto nei due semiperiodi. Il fattore temporale sinusoidale è campionato in 32 intervalli nello SVG, con interpolazione lineare: errore massimo sullo spostamento inferiore a 0,05 unità del viewBox. Non viene applicata alcuna rotazione. Con movimento ridotto si mostra un cerchio fermo.
+Modello: `r(θ,t) = 104 + 20 cos(4θ) sin(2πt/T)`, con `T = 4 s`. I nodi sono fissi a `θ = 22,5° + k · 45°`; i ventri hanno segno opposto nei due semiperiodi. Il fattore temporale sinusoidale è campionato in 32 intervalli nello SVG, con interpolazione lineare: errore massimo sullo spostamento inferiore a 0,10 unità del viewBox. Non viene applicata alcuna rotazione. Con movimento ridotto si mostra un cerchio fermo.
 
 Rigenerare con `python scripts/logo_onda_stazionaria.py`. La geometria di base è condivisa con il generatore precedente, la cui uscita predefinita resta invariata. Anteprima: `lavorazione/sito/anteprima-logo-onda-stazionaria.html`; verifiche: `lavorazione/sito/verifica-logo-onda-stazionaria.json`. Le proposte precedenti rimangono recuperabili; la home non è modificata automaticamente da questa correzione della GIF.

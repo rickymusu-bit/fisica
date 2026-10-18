@@ -1,5 +1,13 @@
 # Stato — Home e GitHub Pages
 
+## Ampiezza di oscillazione raddoppiata — 18 ottobre 2026
+
+Richiesta esplicita: «Ok raddoppia l’ampiezza di oscillazione». La versione corrente della GIF/SVG stazionaria usa **A = 20**, prima A = 10; raggio di riferimento 104, quattro creste, nodi angolari fissi, periodo 4 s e tratto di 7 unità conservati. Il fattore temporale del generatore è moltiplicato per due senza alterare la geometria di riferimento o le proposte precedenti. Modello corrente: `r(θ,t)=104+20 cos(4θ) sin(2πt/T)`.
+
+Rigenerati gli stessi file stabili `identita/logo-materia-oscura-onda-stazionaria.svg` e `.gif`, l’anteprima HTML e le immagini desktop/mobile. Rapporto fra gli spostamenti massimi misurati prima/dopo: **2,0**. Raggi estremi 84 e 124; nodi fermi, nessuna rotazione, ritorni al cerchio identici, GIF trasparente e loop continuo di 80 fotogrammi verificati. Controlli d’accessibilità dell’anteprima nuovamente superati. Registro aggiornato `verifica-logo-onda-stazionaria.json`; specifiche in `identita/README.md` v4 e relativo richiamo in AGENTS. Errore massimo dell’interpolazione temporale ora inferiore a 0,10 unità del viewBox.
+
+Home, logo già integrato e dieci articoli conservati invariati. Master v59 e vincoli già consultati restano invariati. Ramo dedicato corrente `correzione/visuali-centrale`, derivato da main. **Ampiezza raddoppiata, risultati verificati e pronti alla consegna; nessuna unione in main o pubblicazione.**
+
 ## Correzione finale: onda sinusoidale stazionaria — 18 ottobre 2026
 
 L’utente corregge il modello: «L’onda sì è sinusoidale ma è un’onda stazionaria, non progressiva». Restano quattro creste dalla richiesta precedente. Realizzati i file autonomi `identita/logo-materia-oscura-onda-stazionaria.svg` e `.gif`, nero su trasparente, singolo contorno visibile, nodi angolari fermi e ventri oscillanti; nessuna rotazione. La specifica progressiva e quella a otto lobi sono superate per la nuova consegna.
