@@ -120,7 +120,7 @@
   "esempio_stufette": "rimosso su richiesta; domande finali invariate",
   "quesiti_previsti": {
     "conduzione": 12,
-    "convezione": 6
+    "convezione": 7
   },
   "struttura_conduzione": [
     "Il manico che si scalda e breve spiegazione microscopica senza simulazione",
@@ -153,11 +153,93 @@
   },
   "nuova_immagine_aquila": {
     "id": "N-1",
-    "stato": "da scegliere/fornire; non cercata o generata",
-    "soggetto": "aquila con ali distese nella termica, terreno e frecce esplicative del moto dell’aria e del volo"
+    "stato": "due alternative fornite, scelta A/B aperta; testo esteso agli uccelli veleggiatori",
+    "alternative": [
+      "N-1A",
+      "N-1B"
+    ]
   },
   "esempi_convezione_naturale": [
     "termosifone",
-    "aquila nelle termiche"
-  ]
+    "molti uccelli veleggiatori nelle termiche",
+    "celle convettive del Sole"
+  ],
+  "materiali_forniti_20261018": [
+    {
+      "id": "C-C",
+      "stato": "scelta esplicita utente",
+      "soggetto": "takoyaki sulla piastra metallica",
+      "fonte": "https://commons.wikimedia.org/wiki/File:Honkeohtako%27s_takoyaki,_Osaka;_December_2013_(03).jpg",
+      "originale_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Honkeohtako%27s_takoyaki%2C_Osaka%3B_December_2013_%2803%29.jpg",
+      "autore": "City Foodsters",
+      "licenza": "CC BY 2.0",
+      "licenza_url": "https://creativecommons.org/licenses/by/2.0/",
+      "dimensioni": [
+        4104,
+        2736
+      ],
+      "byte": 6278973,
+      "sha256": "734c65007ffeacfaa814c4f060114fbd1b55209f9f76adf0e8d9eb16c1481e04",
+      "controllo": "originale scaricato e ispezionato visivamente; nessuna elaborazione",
+      "file_binario_caricato_nel_repo": false
+    },
+    {
+      "id": "V-C",
+      "stato": "scelta esplicita utente",
+      "soggetto": "celle convettive; fluido non specificato dalla fonte, non identificata come foto solare",
+      "fonte": "https://commons.wikimedia.org/wiki/File:Convection-cells.jpg",
+      "originale_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Convection-cells.jpg",
+      "autore": "Georg Fuchs e Michael A. Rundel (MikeRun)",
+      "licenza": "CC BY-SA 4.0",
+      "licenza_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "dimensioni": [
+        1920,
+        1090
+      ],
+      "byte": 700014,
+      "sha256": "79d3001171244aa8fe4389368fec808a86bdbdc2588f84178541a09ccc92bb21",
+      "controllo": "originale scaricato e ispezionato visivamente; nessuna elaborazione",
+      "file_binario_caricato_nel_repo": false
+    },
+    {
+      "id": "N-1A",
+      "stato": "alternativa fornita, scelta aperta; consigliata per leggibilità",
+      "soggetto": "poiana codarossa",
+      "fonte": "https://commons.wikimedia.org/w/index.php?curid=189439471",
+      "originale_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Red-tailed_hawk_soaring_on_a_thermal_over_Yellowstone_RIver_%2855211414631%29.jpg",
+      "autore": "NPS / Jacob W. Frank; YellowstoneNPS",
+      "licenza": "Public domain — PD US NPS, da metadati Commons",
+      "dimensioni": [
+        6404,
+        4271
+      ],
+      "byte": 14709709,
+      "sha256": "672fee54004f37d70df7b72e84cf8a0ee6fe7689002164b76e2368929c1a3625",
+      "controllo": "originale scaricato e ispezionato visivamente; nessuna elaborazione",
+      "file_binario_caricato_nel_repo": false
+    },
+    {
+      "id": "N-1B",
+      "stato": "alternativa fornita, scelta aperta",
+      "soggetto": "avvoltoi e altri rapaci in una termica",
+      "fonte": "https://commons.wikimedia.org/wiki/File:Vultures_and_other_raptors_soaring_in_thermal_lift_JEG4956.jpg",
+      "originale_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Vultures_and_other_raptors_soaring_in_thermal_lift_JEG4956.jpg",
+      "autore": "PJeganathan",
+      "licenza": "CC BY-SA 4.0",
+      "licenza_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "dimensioni": [
+        3264,
+        4928
+      ],
+      "byte": 5922248,
+      "sha256": "fc79e72f7691912c4458100eda924e7634a97e3370ecedf0dc29f33dfc20f1ae",
+      "controllo": "originale scaricato e ispezionato visivamente; nessuna elaborazione",
+      "file_binario_caricato_nel_repo": false
+    }
+  ],
+  "immagine_solare": {
+    "id": "S-1",
+    "stato": "da fornire; nessuna ricerca o generazione avviata",
+    "soggetto": "granulazione solare documentata, distinta da V-C"
+  }
 }

@@ -1,6 +1,6 @@
 # Convezione
 
-[COPERTINA V-C — Moto di un fluido riscaldato; immagine da scegliere, distinta dalle figure interne.]
+[COPERTINA V-C — Scelta dall’utente: Convection-cells.jpg, https://upload.wikimedia.org/wikipedia/commons/f/f3/Convection-cells.jpg . La fonte la descrive come celle convettive, senza identificarla come foto del Sole. Usarla soltanto in copertina, con attribuzione Georg Fuchs e Michael A. Rundel (MikeRun), CC BY-SA 4.0.]
 
 ## L’aria sopra il termosifone
 
@@ -26,17 +26,31 @@ Il ricambio del fluido non determina da solo il verso del trasferimento. Se una 
 
 ## Applicazioni
 
-### L’aquila sale senza battere le ali
+### Gli uccelli salgono senza battere le ali
 
-Un’aquila può descrivere ampi cerchi nel cielo e guadagnare quota tenendo le ali distese. Non sta ricevendo una spinta da un motore e non batte le ali: come riesce a salire? In queste situazioni può sfruttare una corrente d’aria ascendente chiamata **termica**.
+Un rapace può descrivere ampi cerchi nel cielo e guadagnare quota tenendo le ali distese. Come riesce a salire senza batterle? In queste situazioni può sfruttare una corrente d’aria ascendente chiamata **termica**. È un comportamento comune a molti uccelli veleggiatori, tra cui aquile, poiane, avvoltoi e cicogne.
 
 Il Sole riscalda il terreno, che a sua volta trasferisce energia all’aria vicina alla superficie. Dove il riscaldamento è maggiore, l’aria può diventare meno densa di quella circostante e salire per effetto della spinta di Archimede. Si forma così una regione di aria ascendente: è un esempio di convezione naturale, perché il movimento nasce dalle differenze di densità e dall’azione della gravità.
 
-[IMMAGINE N-1 — Da scegliere/fornire: aquila in volo con ali distese dentro una termica, con terreno sottostante e spazio per indicare risalita dell’aria e percorso circolare. Usare un’immagine riconoscibile dell’animale; eventuali frecce esplicative non ne sostituiscono la figura. Nessuna ricerca o generazione avviata.]
+[IMMAGINE N-1 — Due alternative fornite dall’utente, scelta ancora aperta: (A) poiana codarossa in una termica, https://upload.wikimedia.org/wikipedia/commons/a/a7/Red-tailed_hawk_soaring_on_a_thermal_over_Yellowstone_RIver_%2855211414631%29.jpg ; (B) avvoltoi e altri rapaci in una termica, https://upload.wikimedia.org/wikipedia/commons/2/27/Vultures_and_other_raptors_soaring_in_thermal_lift_JEG4956.jpg . La prima è più leggibile per il dettaglio dell’animale, la seconda mostra il comportamento di gruppo. Conservare gli originali senza ritagli o frecce aggiunte non concordate. Non chiamare aquila la poiana codarossa.]
 
-Didascalia: L’aquila gira nella regione di aria ascendente e può guadagnare quota senza battere le ali.
+Didascalia proposta A: Una poiana codarossa sfrutta una termica. Molti uccelli veleggiatori usano l’aria ascendente per guadagnare quota.
 
-Volando in cerchio, l’aquila può rimanere all’interno della termica. Durante il volo planato tende a scendere rispetto all’aria che la sostiene, ma se quell’aria sale abbastanza rapidamente, l’animale guadagna quota rispetto al terreno. Il moto convettivo dell’aria rende quindi possibile una risalita che, osservando soltanto le ali ferme, potrebbe sembrare difficile da spiegare.[3]
+Didascalia proposta B: Avvoltoi e altri rapaci sfruttano l’aria ascendente di una termica; il volo veleggiato è comune a molte specie.
+
+Volando in cerchio, l’uccello può rimanere all’interno della termica. Durante il volo planato tende a scendere rispetto all’aria che lo sostiene, ma se quell’aria sale abbastanza rapidamente, l’animale guadagna quota rispetto al terreno. Il moto convettivo dell’aria rende quindi possibile una risalita che, osservando soltanto le ali ferme, potrebbe sembrare difficile da spiegare.[3]
+
+### Le celle convettive del Sole
+
+Osservata ad alta risoluzione, la superficie visibile del Sole appare come un mosaico di zone luminose separate da bordi più scuri. Queste strutture si chiamano **granuli**: che cosa rivelano del movimento della materia solare?
+
+Negli strati esterni dell’interno solare, l’energia viene trasportata anche dalla convezione. Il materiale è **plasma**, un gas almeno in parte ionizzato, che contiene particelle cariche. Le porzioni più calde e meno dense rispetto a ciò che le circonda possono risalire verso la superficie, trasportando energia. Qui il plasma cede energia, si raffredda e ridiscende, contribuendo a formare le **celle convettive**.[5]
+
+[IMMAGINE S-1 — Da scegliere/fornire: fotografia ad alta risoluzione della granulazione solare, con centri luminosi e bordi scuri riconoscibili. Deve essere un’immagine del Sole con provenienza documentata, distinta dalla copertina Convection-cells.jpg. Nessuna nuova immagine cercata o generata.]
+
+Didascalia: I granuli luminosi corrispondono alle zone in cui il plasma più caldo risale; lungo i bordi scuri il materiale più freddo ridiscende.
+
+La granulazione rende quindi osservabile il risultato di un movimento convettivo. Il Sole non ha una superficie solida come quella terrestre e queste strutture non sono bolle di ebollizione: sono regioni attraversate da plasma che sale e scende. Anche in questo ambiente molto diverso da una stanza, il movimento della materia contribuisce al trasporto di energia.
 
 ### La ventola del processore
 
@@ -64,15 +78,17 @@ In entrambi i dispositivi conduzione e convezione svolgono compiti collegati. Il
 
 1. **Il termosifone.** Perché l’aria sopra un termosifone tende a salire? In quali punti della stanza l’aria più fredda può scendere? Spiega il ruolo delle differenze di densità.
 
-2. **L’aquila nella termica.** Come si forma una termica sopra un terreno riscaldato dal Sole? Perché un’aquila può guadagnare quota senza battere le ali? Spiega quale ruolo hanno densità dell’aria, gravità e movimento dell’aria.
+2. **Gli uccelli nella termica.** Come si forma una termica sopra un terreno riscaldato dal Sole? Perché molti uccelli veleggiatori possono guadagnare quota senza battere le ali? Spiega quale ruolo hanno densità dell’aria, gravità e movimento dell’aria.
 
-3. **Naturale o forzata?** Distingui la convezione naturale vicino al termosifone e nella termica sfruttata dall’aquila dalla convezione forzata nei sistemi con ventola. Che cosa mette principalmente in movimento il fluido nei due casi?
+3. **I granuli del Sole.** Quali parti della granulazione corrispondono al plasma che risale e quali al materiale che ridiscende? In che modo questo movimento trasporta energia?
 
-4. **Radiatore dell’auto e processore.** Spiega perché il radiatore e il dissipatore CPU hanno numerose alette. Quali parti svolgono il trasferimento per conduzione e quali permettono la convezione forzata?
+4. **Naturale o forzata?** Distingui la convezione naturale vicino al termosifone e nelle termiche sfruttate dagli uccelli dalla convezione forzata nei sistemi con ventola. Che cosa mette principalmente in movimento il fluido nei due casi?
 
-5. **Il ventilatore e la temperatura del corpo.** Durante una giornata molto calda, una persona utilizza un ventilatore, che muove l’aria ma non ne abbassa direttamente la temperatura. Perché può favorire il raffreddamento quando l’aria è più fresca della pelle? Che cosa cambia nel trasferimento per convezione se l’aria diventa più calda della pelle? Perché il ventilatore può ancora aiutare se il sudore evapora efficacemente? In quali condizioni di temperatura e umidità può invece diventare insufficiente o contribuire al surriscaldamento? Motiva le risposte.
+5. **Radiatore dell’auto e processore.** Spiega perché il radiatore e il dissipatore CPU hanno numerose alette. Quali parti svolgono il trasferimento per conduzione e quali permettono la convezione forzata?
 
-6. **Assenza di gravità.** In condizioni di assenza di gravità, si formerebbero le stesse correnti naturali osservate in una stanza sulla Terra? Una ventola potrebbe invece continuare a muovere l’aria? Spiega.
+6. **Il ventilatore e la temperatura del corpo.** Durante una giornata molto calda, una persona utilizza un ventilatore, che muove l’aria ma non ne abbassa direttamente la temperatura. Perché può favorire il raffreddamento quando l’aria è più fresca della pelle? Che cosa cambia nel trasferimento per convezione se l’aria diventa più calda della pelle? Perché il ventilatore può ancora aiutare se il sudore evapora efficacemente? In quali condizioni di temperatura e umidità può invece diventare insufficiente o contribuire al surriscaldamento? Motiva le risposte.
+
+7. **Assenza di gravità.** In condizioni di assenza di gravità, si formerebbero le stesse correnti naturali osservate in una stanza sulla Terra? Una ventola potrebbe invece continuare a muovere l’aria? Spiega.
 
 ## Note
 
@@ -83,3 +99,5 @@ In entrambi i dispositivi conduzione e convezione svolgono compiti collegati. Il
 [3] Le termiche sono uno dei meccanismi che permettono il volo veleggiato: esistono anche correnti ascendenti prodotte dal vento che incontra un rilievo. Qui consideriamo soltanto la risalita dovuta al riscaldamento del terreno. Fonti: [Cornell Lab, Golden Eagle Soaring on a Thermal](https://academy.allaboutbirds.org/golden-eagle-soaring-on-a-thermal/) e [NASA, Forces on a Glider](https://www.grc.nasa.gov/www/k-12/VirtualAero/BottleRocket/airplane/glider.html).
 
 [4] Negli scambi dei dispositivi reali può contribuire anche l’irraggiamento.
+
+[5] La convezione descritta riguarda la zona convettiva sotto la superficie visibile, non tutti gli strati solari. Fonti scientifiche: [NASA, Photospheric Features](https://solarscience.msfc.nasa.gov/feature1.shtml) e [NASA, Heliophysics Big Idea 3.2](https://science.nasa.gov/learn/heat/big-ideas/big-idea-3-2/).

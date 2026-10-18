@@ -5,7 +5,7 @@
 | Capitolo e futuro percorso | Provenienza | Contenuti e risorse conservati | Domande |
 | --- | --- | --- | --- |
 | Conduzione · `conduzione_it.html` | `#potenza` + `#conduzione`, primi due gruppi di domande | Breve sezione sulla potenza termica; zuppa e cucchiaio; schema statico degli elettroni mobili da scegliere; tabella λ con tutti gli otto materiali; video con miniatura e URL esatti; Fourier; muro e grafico corretto; caffettiera, vetrocamera, igloo, lingua sul palo gelato ed elettroni mobili. | 12 |
-| Convezione · `convezione_it.html` | `#convezione`, terzo gruppo di domande | Stanza, densità e gravità; meccanismo naturale e forzato; aquila nelle termiche; ventola del processore; radiatore, pompa, termostato, alette e ramo dell’abitacolo. | 6 |
+| Convezione · `convezione_it.html` | `#convezione`, terzo gruppo di domande | Stanza, densità e gravità; meccanismo naturale e forzato; uccelli veleggiatori nelle termiche e celle convettive solari; ventola del processore; radiatore, pompa, termostato, alette e ramo dell’abitacolo. | 7 |
 
 ## Scelta strutturale ricevuta
 
@@ -73,3 +73,7 @@ Le correnti marine sostituiscono integralmente il mantello nella bozza di Convez
 ## Scelta corrente degli esempi naturali — 18 ottobre 2026, ore 16:42
 
 L’utente sceglie termosifone e aquila. Il termosifone rimane apertura della teoria; l’aquila nelle termiche sostituisce le due applicazioni sulla circolazione atmosferica globale e sulle correnti marine. Anche i due quesiti relativi sono sostituiti da un solo quesito sull’aquila: 6 domande in Convezione, 12 in Conduzione. La domanda naturale/forzata richiama ora termosifone e aquila. Nuova immagine richiesta N-1: aquila con ali distese in una termica, terreno visibile e spazio per frecce esplicative. Il precedente segnaposto M-1 è ritirato; immagini atmosferiche e del mantello conservate tra le risorse storiche, escluse dal nuovo capitolo. Gli aggiornamenti storici precedenti non descrivono più la selezione corrente.
+
+## Aggiornamento corrente — 18 ottobre 2026, ore 17:24
+
+Copertine scelte dall’utente: takoyaki per Conduzione, Convection-cells.jpg per Convezione. Per gli uccelli fornite due fotografie alternative, da scegliere; testo esteso a molte specie veleggiatrici. Aggiunta su richiesta l’applicazione sulle celle convettive del Sole, con fonti NASA, nuovo quesito e immagine S-1 da fornire distinta dalla copertina: 7 quesiti di Convezione, 12 di Conduzione. Gli esempi naturali correnti sono termosifone, uccelli nelle termiche e Sole. Le precedenti descrizioni a due soli esempi sono superate da questa richiesta. Materiali e licenze nei piani visuali e in suddivisione.json; binari originali ispezionati localmente, non dichiarati caricati nel repository. Rimangono E-1, S-1 e scelta N-1 A/B. Nessun HTML, main o pubblicazione modificati.

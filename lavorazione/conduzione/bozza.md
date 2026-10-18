@@ -1,6 +1,6 @@
 # Conduzione
 
-[COPERTINA C-C — Oggetto metallico riscaldato a un’estremità; immagine da scegliere, distinta dalle figure interne.]
+[COPERTINA C-C — Scelta dall’utente: fotografia dei takoyaki sulla piastra metallica. Originale: https://upload.wikimedia.org/wikipedia/commons/9/9c/Honkeohtako%27s_takoyaki%2C_Osaka%3B_December_2013_%2803%29.jpg . Collegamento fisico: trasferimento per contatto dalla piastra calda al cibo. Non riutilizzare nel corpo e non tradurre le scritte naturalmente presenti nella scena.]
 
 ## Il manico che si scalda
 
