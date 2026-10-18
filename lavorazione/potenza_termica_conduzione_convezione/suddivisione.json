@@ -1,0 +1,443 @@
+{
+  "stato": "due articoli HTML v2 verificati desktop/mobile; pubblicazione richiesta esplicitamente il 18 ottobre 2026, integrazione e deploy da confermare",
+  "fonte": "potenza_termica_conduzione_convezione_it.html",
+  "versione_fonte": "v7",
+  "sha256_fonte": "b346fd60bcce9ca7d74628434d8c854332ff55ddd9dd80db3253cc2f04bc5251",
+  "master": "v59",
+  "tema": "v7",
+  "immagini": [
+    {
+      "id": "img-01",
+      "alt": "Stufetta elettrica radiante nera",
+      "sha256_src": "f48f7746b089cb2c5a49005f2e300923c7f527f909b6b5b4363c1a6103bd2354",
+      "destinazione": null,
+      "stato": "esclusa dalla bozza rivista con la rimozione dell’esempio svolto; originale conservato",
+      "motivazione": "richiesta utente 18 ottobre 2026 ore 13:17 Europe/Rome"
+    },
+    {
+      "id": "img-02",
+      "alt": "Termoventilatore elettrico bianco",
+      "sha256_src": "42cb17c14ecb1efaae5a3b9d8d8a24a25a5da539dab2c1a5709f6466ce1cac37",
+      "destinazione": null,
+      "stato": "esclusa dalla bozza rivista con la rimozione dell’esempio svolto; originale conservato",
+      "motivazione": "richiesta utente 18 ottobre 2026 ore 13:17 Europe/Rome"
+    },
+    {
+      "id": "img-03",
+      "alt": "Ciotola di zuppa calda con un cucchiaio metallico che attraversa il liquido",
+      "sha256_src": "9d18529dea384e8543725ea50b7f1c7f2547b640ca237027c624d9560506f9d7",
+      "destinazione": "conduzione"
+    },
+    {
+      "id": "img-04",
+      "alt": "Sei barrette etichettate brass, Al, Cu, Ni, Fe e stainless steel, usate in un esperimento di conduzione",
+      "sha256_src": "dfdc037e3807ae503a420783ac9ab1b35d989064d0a0d8f801975fa806f0b983",
+      "destinazione": "conduzione"
+    },
+    {
+      "id": "img-05",
+      "alt": "Sezione di una parete attraversata da un flusso di calore dall’interno caldo verso l’esterno freddo; indicati spessore s e superficie A.",
+      "sha256_src": "9af3a9de654b4c1149b966deeb3a37d999832102769bd34efef2a7f8879d9987",
+      "destinazione": "conduzione"
+    },
+    {
+      "id": "img-06",
+      "alt": "Caffettiera moka metallica con manico nero su un fornello a gas acceso",
+      "sha256_src": "f1a1a5599b8acbcc57751f0e7858da284687aa4b1fca1953a8eccc9db03c27ef",
+      "destinazione": "conduzione",
+      "uso_previsto": "Caffettiera: corpo conduttore e manico isolante, applicazione di collegamento tra le due sezioni; una sola figura."
+    },
+    {
+      "id": "img-07",
+      "alt": "Sezione di una vetrocamera con etichette italiane: vetro, intercapedine di gas, distanziatore, essiccante e telaio.",
+      "sha256_src": "0559d79865fb901c2cd47e8455180513ddf856800b2b30b7b20504d2b3976e65",
+      "destinazione": "conduzione"
+    },
+    {
+      "id": "img-08",
+      "alt": "Igloo di neve illuminato di notte, in un ambiente innevato",
+      "sha256_src": "383f9269846c26fa1673d98769c5b6ac96f82f15179c828c9b015b300a5d9f73",
+      "destinazione": "conduzione"
+    },
+    {
+      "id": "img-09",
+      "alt": "Animazione di una persona che avvicina la lingua a un palo metallico in ambiente freddo",
+      "sha256_src": "e08143db75f528ef12a42307da2be11cd18ecd973951120a8d559ae5d3566a24",
+      "destinazione": "conduzione",
+      "uso_previsto": "Palo gelato nella sezione Conduttori termici; animazione invariata."
+    },
+    {
+      "id": "img-10",
+      "alt": "Dissipatore metallico alettato su scheda madre, sormontato da una ventola nera AMD",
+      "sha256_src": "bfbad168d14cd95ddf9ae2770efc78f59c8b185416bff30bf79157dbb49c9a8c",
+      "destinazione": null,
+      "stato": "esclusa dalla bozza di Conduzione; originale conservato",
+      "motivazione": "rimozione dissipatore richiesta 18 ottobre 2026 ore 13:18 Europe/Rome"
+    },
+    {
+      "id": "img-11",
+      "alt": "Circolazione naturale dell’aria nella stanza: sale sopra il termosifone, si raffredda e scende vicino alla finestra; etichette italiane sullo sfondo originale.",
+      "sha256_src": "ae934a6f391a1d6366c3fd2c5e1fdf022dacf47c970b7557eb03f07a11048987",
+      "destinazione": "convezione"
+    },
+    {
+      "id": "img-12",
+      "alt": "Circolazione atmosferica con celle di Hadley, Ferrel e polari, alisei, venti occidentali e orientali polari, con etichette italiane.",
+      "sha256_src": "aaccb0997a4a6244af06f70af7b506d483672ed760ffddf0a87de905a4581b54",
+      "destinazione": null,
+      "stato": "circolazione atmosferica globale esclusa dalla bozza su scelta del 18 ottobre 2026 ore 16:42; originale conservato"
+    },
+    {
+      "id": "img-13",
+      "alt": "Sezione della crosta e del mantello: dorsale medio-oceanica, oceano, fossa oceanica e moti convettivi con etichette italiane.",
+      "sha256_src": "f5db08cde26eb44a1a5f8e8f485a380bbe11c5f13e042fd5613eddcb9635a93a",
+      "destinazione": null,
+      "stato": "esclusa dalla bozza; mantello sostituito dalle correnti marine su richiesta del 18 ottobre 2026 ore 15:38",
+      "originale_conservato": true
+    },
+    {
+      "id": "img-14",
+      "alt": "Fotografia annotata di dissipatore CPU con ventola, alette di raffreddamento, posizione del processore e scheda madre",
+      "sha256_src": "eeb3b97a824fa396b09d9ac7f4ab786dc128e3d6b162881f3962e700c001524e",
+      "destinazione": "convezione",
+      "uso_previsto": "Soltanto applicazione «La ventola del processore»; esclusa dall’introduzione della convezione forzata su richiesta utente."
+    },
+    {
+      "id": "img-15",
+      "alt": "Circuito di raffreddamento dell’automobile: pompa, termostato, radiatori, ventole, vaso di espansione e collegamenti del liquido refrigerante, con etichette italiane.",
+      "sha256_src": "342560487ed61c3cf34eaeaf83c7584e3ccb6264a298f518129311f7f1071a44",
+      "destinazione": "convezione"
+    }
+  ],
+  "script_fisico_sha256": [
+    "c493109309eeeb6f9017a19b4dbfd7874c26abbf5cbdcf52a95121c4e7a5aabc"
+  ],
+  "html_generati": true,
+  "capitoli_previsti": [
+    "conduzione_it.html",
+    "convezione_it.html"
+  ],
+  "decisione": "Potenza termica come breve sezione di Conduzione, richiesta 18 ottobre 2026 ore 13:12 Europe/Rome",
+  "esempio_stufette": "rimosso su richiesta; domande finali invariate",
+  "quesiti_previsti": {
+    "conduzione": 12,
+    "convezione": 7
+  },
+  "struttura_conduzione": [
+    "Il manico che si scalda e breve spiegazione microscopica senza simulazione",
+    "Conducibilità termica e tabella",
+    "Conduttori termici: elettroni, video, palo gelato, caffettiera",
+    "Isolanti termici: definizione, aria intrappolata, pareti, vetrocamera, igloo",
+    "Potenza termica e legge di Fourier",
+    "Domande di verifica"
+  ],
+  "decisione_applicazioni": "Integrate nelle sezioni su conduttori e isolanti, su richiesta esplicita del 18 ottobre 2026 ore 13:25 Europe/Rome",
+  "simulazione_agitazione_termica": {
+    "stato": "esclusa su richiesta esplicita del 18 ottobre 2026 ore 18:28; nessuna programmazione prevista",
+    "originale": "conservato nell’HTML sorgente e nella cronologia Git",
+    "hash_script": "i valori script_fisico_sha256 identificano esclusivamente la fonte storica",
+    "conferma": "sostituzione con sola immagine statica del metallo e degli elettroni di conduzione",
+    "nuova_richiesta": "immagine statica E-1; precedente proposta dinamica ritirata"
+  },
+  "schema_elettroni": {
+    "id": "E-1",
+    "tipo": "immagine statica del metallo con elettroni di conduzione",
+    "stato": "Enlace_metalico.gif scelto e incorporato, con pausa e movimento ridotto",
+    "collocazione": "sezione Conduttori termici",
+    "specifiche": "ioni del reticolo ed elettroni delocalizzati distinguibili; nessuna corrente elettrica ordinata implicita",
+    "piano_storico_ritirato": "lavorazione/conduzione/simulazione-elettroni.md"
+  },
+  "revisione_stilistica": "prosa didattica di entrambi i capitoli integralmente riscritta il 18 ottobre 2026 ore 13:36 secondo STILE_DISPENSE.md v6 ed esempio_irraggiamento.md v2; presentata per approvazione",
+  "nuova_immagine_correnti_marine": {
+    "id": "M-1",
+    "stato": "richiesta ritirata: applicazione sostituita dall’aquila il 18 ottobre 2026 ore 16:42",
+    "soggetto": "circolazione oceanica superficiale/profonda; temperatura, salinità e zone di sprofondamento",
+    "sostituisce": "img-13, schema del mantello"
+  },
+  "nuova_immagine_aquila": {
+    "id": "N-1",
+    "stato": "prima fotografia scelta esplicitamente il 18 ottobre 2026 ore 17:45",
+    "file": "lavorazione/convezione/risorse/poiana-termica.jpg",
+    "soggetto": "poiana codarossa",
+    "autore": "NPS/Jacob W. Frank, YellowstoneNPS",
+    "licenza": "pubblico dominio",
+    "dimensioni": [
+      1920,
+      1280
+    ],
+    "byte": 215541,
+    "sha256": "6b522d11bf6bfa8039abb6780688cbfde4286003bec87aab177f626b5d25a912"
+  },
+  "esempi_convezione_naturale": [
+    "termosifone",
+    "molti uccelli veleggiatori nelle termiche",
+    "celle convettive del Sole"
+  ],
+  "materiali_forniti_20261018": [
+    {
+      "id": "C-C",
+      "stato": "scelta esplicita utente",
+      "soggetto": "takoyaki sulla piastra metallica",
+      "fonte": "https://commons.wikimedia.org/wiki/File:Honkeohtako%27s_takoyaki,_Osaka;_December_2013_(03).jpg",
+      "originale_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Honkeohtako%27s_takoyaki%2C_Osaka%3B_December_2013_%2803%29.jpg",
+      "autore": "City Foodsters",
+      "licenza": "CC BY 2.0",
+      "licenza_url": "https://creativecommons.org/licenses/by/2.0/",
+      "dimensioni": [
+        4104,
+        2736
+      ],
+      "byte": 6278973,
+      "sha256": "734c65007ffeacfaa814c4f060114fbd1b55209f9f76adf0e8d9eb16c1481e04",
+      "controllo": "originale scaricato e ispezionato visivamente; nessuna elaborazione",
+      "file_binario_caricato_nel_repo": false
+    },
+    {
+      "id": "V-C-storica",
+      "stato": "copertina superata dalla scelta di Plutone del 18 ottobre 2026 ore 17:35",
+      "soggetto": "celle convettive; fluido non specificato dalla fonte, non identificata come foto solare",
+      "fonte": "https://commons.wikimedia.org/wiki/File:Convection-cells.jpg",
+      "originale_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Convection-cells.jpg",
+      "autore": "Georg Fuchs e Michael A. Rundel (MikeRun)",
+      "licenza": "CC BY-SA 4.0",
+      "licenza_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "dimensioni": [
+        1920,
+        1090
+      ],
+      "byte": 700014,
+      "sha256": "79d3001171244aa8fe4389368fec808a86bdbdc2588f84178541a09ccc92bb21",
+      "controllo": "originale scaricato e ispezionato visivamente; nessuna elaborazione",
+      "file_binario_caricato_nel_repo": false
+    },
+    {
+      "id": "N-1A",
+      "stato": "scelto esplicitamente il 18 ottobre 2026 ore 17:45",
+      "soggetto": "poiana codarossa",
+      "fonte": "https://commons.wikimedia.org/w/index.php?curid=189439471",
+      "originale_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Red-tailed_hawk_soaring_on_a_thermal_over_Yellowstone_RIver_%2855211414631%29.jpg",
+      "autore": "NPS / Jacob W. Frank; YellowstoneNPS",
+      "licenza": "Public domain — PD US NPS, da metadati Commons",
+      "dimensioni": [
+        6404,
+        4271
+      ],
+      "byte": 14709709,
+      "sha256": "672fee54004f37d70df7b72e84cf8a0ee6fe7689002164b76e2368929c1a3625",
+      "controllo": "originale scaricato e ispezionato visivamente; nessuna elaborazione",
+      "file_binario_caricato_nel_repo": false
+    },
+    {
+      "id": "N-1B",
+      "stato": "alternativa non scelta, non destinata alla bozza",
+      "soggetto": "avvoltoi e altri rapaci in una termica",
+      "fonte": "https://commons.wikimedia.org/wiki/File:Vultures_and_other_raptors_soaring_in_thermal_lift_JEG4956.jpg",
+      "originale_url": "https://upload.wikimedia.org/wikipedia/commons/2/27/Vultures_and_other_raptors_soaring_in_thermal_lift_JEG4956.jpg",
+      "autore": "PJeganathan",
+      "licenza": "CC BY-SA 4.0",
+      "licenza_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "dimensioni": [
+        3264,
+        4928
+      ],
+      "byte": 5922248,
+      "sha256": "fc79e72f7691912c4458100eda924e7634a97e3370ecedf0dc29f33dfc20f1ae",
+      "controllo": "originale scaricato e ispezionato visivamente; nessuna elaborazione",
+      "file_binario_caricato_nel_repo": false
+    }
+  ],
+  "immagine_solare": {
+    "stato": "entrambi i visuali forniti e scelti, traduzione del primo richiesta ed eseguita",
+    "materiali": [
+      {
+        "id": "S-1A",
+        "fonte": "https://commons.wikimedia.org/w/index.php?curid=162715638",
+        "fonte_primaria": "https://chandra.harvard.edu/photo/2005/neon/more.html",
+        "originale_tiff": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Illustration_of_Convection_in_Sun-like_Star_%282005-neon-more-2_-_neon_ill_label%29.tiff",
+        "versione_fornita": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Illustration_of_Convection_in_Sun-like_Star_%282005-neon-more-2_-_neon_ill_label%29.tiff/lossy-page1-1920px-Illustration_of_Convection_in_Sun-like_Star_%282005-neon-more-2_-_neon_ill_label%29.tiff.jpg",
+        "autore": "NASA/CXC/M.Weiss",
+        "licenza": "Public domain secondo metadati Commons; politica Chandra verificata",
+        "uso": "illustrazione interna, etichette italiane",
+        "originale_file": "lavorazione/convezione/risorse/sole-schema-originale.jpg",
+        "tradotto_file": "lavorazione/convezione/risorse/sole-schema-it.png",
+        "modifica": "localizzazione raster con imagegen",
+        "etichette": [
+          "Fotosfera",
+          "Zona convettiva",
+          "Zona radiativa",
+          "Nucleo",
+          "Macchie solari"
+        ],
+        "approvazione": "immagine e traduzione richieste esplicitamente il 18 ottobre 2026 ore 17:31"
+      },
+      {
+        "id": "S-1B",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Highest_resolution_photo_of_Sun_(NSF)_as_of_January_20,_2020.jpg",
+        "versione_fornita": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Highest_resolution_photo_of_Sun_%28NSF%29_as_of_January_20%2C_2020.jpg/1920px-Highest_resolution_photo_of_Sun_%28NSF%29_as_of_January_20%2C_2020.jpg",
+        "autore": "NSO/AURA/NSF — Daniel K. Inouye Solar Telescope",
+        "licenza": "CC BY 4.0",
+        "licenza_url": "https://creativecommons.org/licenses/by/4.0/",
+        "file": "lavorazione/convezione/risorse/sole-granulazione.jpg",
+        "modifica": "nessuna; versione 1920 px indicata dall’utente",
+        "approvazione": "richiesta esplicita di usare entrambe le immagini il 18 ottobre 2026 ore 17:31"
+      }
+    ],
+    "file_binari_salvati_nel_repo": true,
+    "file_blob": [
+      {
+        "path": "lavorazione/convezione/risorse/sole-schema-originale.jpg",
+        "sha": "a21a0c5ab6076fc89ca3c1f533d5b1a6b150dfbd",
+        "byte": 357193
+      },
+      {
+        "path": "lavorazione/convezione/risorse/sole-granulazione.jpg",
+        "sha": "064b2bb13fc0293b5874dec3027d772045e0d09f",
+        "byte": 869235
+      },
+      {
+        "path": "lavorazione/convezione/risorse/sole-schema-it.png",
+        "sha": "bbd13f2edec96be532ce779e211866337148efbd",
+        "byte": 1435491
+      }
+    ],
+    "verifica_file": [
+      {
+        "file": "sole-schema-originale.jpg",
+        "dimensioni": [
+          1920,
+          1920
+        ],
+        "sha256": "47cf561f7994d66ebc1a31a5417f852e124eb67654c5639aff8b5b9c15901e9a"
+      },
+      {
+        "file": "sole-schema-it.png",
+        "dimensioni": [
+          1254,
+          1254
+        ],
+        "sha256": "8346a84599172b8f453d566f64a42e5908670134e2b83d6a8d765a20d9644d5b"
+      },
+      {
+        "file": "sole-granulazione.jpg",
+        "dimensioni": [
+          1920,
+          1920
+        ],
+        "sha256": "b582a9d43c7fef1a70c61a0c232768300e43883c3773c05950722ba9be2447cd"
+      }
+    ]
+  },
+  "copertina_convezione": {
+    "id": "V-C",
+    "file": "lavorazione/convezione/risorse/copertina-plutone.jpg",
+    "stato": "scelta esplicita dell’utente 18 ottobre 2026 ore 17:35; salvata nel ramo",
+    "autore": "NASA/JHUAPL/SwRI",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Pluto%E2%80%99s_Heart_-_Like_a_Cosmic_Lava_Lamp.jpg",
+    "fonte_primaria": "https://science.nasa.gov/photojournal/plutos-heart-like-a-cosmic-lava-lamp/",
+    "licenza": "Public domain — NASA, secondo Commons",
+    "dimensioni": [
+      1920,
+      2066
+    ],
+    "byte": 1917707,
+    "sha256": "aef94d382869e7958b1e4fc0b8838256b61838174e451a3581d152b889e17e9b",
+    "modifiche": "nessuna; versione fornita dall’utente",
+    "significato": "strutture poligonali associate a convezione nel ghiaccio di azoto solido, non lava o acqua liquida"
+  },
+  "schema_termiche": {
+    "id": "N-2",
+    "stato": "schema numerato scelto esplicitamente dall’utente, inserito nella bozza",
+    "alternative": [
+      {
+        "id": "N-2A",
+        "file": "lavorazione/convezione/risorse/termica-colonna-originale.jpg",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Column_or_plume_thermal_model.jpg",
+        "autore": "FAA — U.S. Department of Transportation",
+        "licenza": "public domain",
+        "dimensioni": [
+          549,
+          768
+        ],
+        "byte": 43927,
+        "sha256": "435a2314f4521e8ae474e8bf72dcbca9aef992fad04b8e64a8e5c75756938110",
+        "modifiche": "nessuna",
+        "stato": "proposta superata dallo schema numerato fornito dall’utente il 18 ottobre 2026 ore 17:56; originale conservato"
+      },
+      {
+        "id": "N-2B",
+        "file": "lavorazione/convezione/risorse/termica-bolla-originale.jpg",
+        "fonte": "https://commons.wikimedia.org/wiki/File:Bubble_or_vortex_ring_thermal_model.jpg",
+        "autore": "FAA — U.S. Department of Transportation",
+        "licenza": "public domain",
+        "dimensioni": [
+          782,
+          640
+        ],
+        "byte": 52107,
+        "sha256": "dc91e11b18f483f40d11ccf4d973243903554ca8de22fac75ed6fbc35ca6ca32",
+        "modifiche": "nessuna",
+        "stato": "proposta superata dallo schema numerato fornito dall’utente il 18 ottobre 2026 ore 17:56; originale conservato"
+      }
+    ],
+    "scelto": {
+      "autore": "Dake",
+      "fonte": "https://commons.wikimedia.org/wiki/File:Thermal_column.svg",
+      "licenza": "CC BY 2.5",
+      "licenza_url": "https://creativecommons.org/licenses/by/2.5/",
+      "file": "lavorazione/convezione/risorse/termica-numerata.png",
+      "originale_file": "lavorazione/convezione/risorse/termica-numerata-originale.svg",
+      "url_originale": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Thermal_column.svg",
+      "modifiche": "nessuna",
+      "approvazione": "fornita con richiesta di inserimento e didascalia numerata il 18 ottobre 2026 ore 17:56",
+      "png_sha256": "693613714f401dff948e7162eb256f395d79316d69cdefc9780f2602ed1ef953",
+      "svg_sha256": "597b6c23df1800a8a353e13215d81b5423215d5a174f4827095bec2094087592",
+      "numeri": {
+        "1": "terreno riscaldato e trasferimento di energia all’aria",
+        "2": "aria in risalita nella termica",
+        "3": "moti discendenti di ricircolo",
+        "A": "eventuale nube, condensazione del vapore acqueo"
+      }
+    }
+  },
+  "ventilatore_convezione_forzata": {
+    "id": "V-F",
+    "file": "lavorazione/convezione/risorse/ventilatore-forzata.jpg",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Ventilator_BW_2026-06-19_16-42-30_standing.jpg",
+    "versione_fornita": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ventilator_BW_2026-06-19_16-42-30_standing.jpg/1920px-Ventilator_BW_2026-06-19_16-42-30_standing.jpg",
+    "autore": "Berthold Werner",
+    "licenza": "CC BY-SA 4.0",
+    "licenza_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "dimensioni": [
+      1920,
+      2764
+    ],
+    "byte": 560934,
+    "sha256": "8c6d2f84e97e400b7b53ec214b97260bd82ab496ab803640bba1698917a73086",
+    "blob_sha": "11f788b829e014812715d0bba9856a0283038ca6",
+    "modifiche": "nessuna",
+    "collocazione": "introduzione della convezione forzata, dopo la definizione",
+    "file_binario_salvato_nel_repo": true,
+    "approvazione": "immagine fornita e inserimento richiesto esplicitamente dall’utente il 18 ottobre 2026"
+  },
+  "sensazione_termica_tatto": {
+    "collocazione": "fine applicazione lingua sul palo gelato",
+    "stato": "testo aggiunto su richiesta 18 ottobre 2026 ore 18:28",
+    "condizioni": "oggetti alla stessa temperatura, più freddi della pelle; metallo sottrae energia più rapidamente",
+    "correzione": "non sempre più freddo; con oggetti più caldi della pelle la sensazione può invertirsi"
+  },
+  "elettroni_metallo": {
+    "id": "E-1",
+    "file": "lavorazione/conduzione/risorse/elettroni-metallo.gif",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Enlace_metalico.gif",
+    "autore": "Jerónimo Cueto",
+    "licenza": "CC0 1.0",
+    "licenza_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modifiche": "GIF invariata; fermo immagine derivato per pausa e movimento ridotto",
+    "sha256": "d663267085b72621d4f6bc9cf96b674ea8df57664f55c31cee78392acd6fe566",
+    "approvazione": "URL fornito dall’utente, con via alla realizzazione; nessuna simulazione programmata"
+  },
+  "html_correnti": {
+    "conduzione": "lavorazione/conduzione/bozza.html",
+    "convezione": "lavorazione/convezione/bozza.html"
+  }
+}
