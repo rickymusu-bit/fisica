@@ -33,7 +33,7 @@ La tabella mostra una differenza netta: rame e alluminio conducono molto più fa
 
 I materiali con conducibilità elevata sono **buoni conduttori termici**. Molti metalli appartengono a questo gruppo perché alcuni dei loro elettroni possono muoversi attraverso il materiale, senza restare legati a un singolo atomo. Gli **elettroni mobili** scambiano energia con le altre parti del metallo e contribuiscono a trasferirla dalla regione più calda a quella più fredda. Il loro contributo si aggiunge a quello delle vibrazioni atomiche.
 
-[SIMULAZIONE E-1 — Proposta da approvare: riusare il reticolo esistente e aggiungere piccoli elettroni mobili in moto irregolare, con scambi energetici che modificano mediamente le vibrazioni del reticolo. Gli atomi più freddi vibrano già; nessun flusso ordinato di elettroni dal caldo al freddo. Modello e stima in simulazione-elettroni.md. Programmazione non avviata; sostituisce la precedente ricerca dello schema statico.]
+[IMMAGINE E-1 — Schema statico del metallo con ioni del reticolo ed elettroni di conduzione distinguibili, da scegliere/fornire. Nessuna simulazione. Rappresentare gli elettroni distribuiti nel metallo, non legati a singoli ioni; nessuna corrente elettrica ordinata implicita. Se sono indicate una zona calda e una fredda, distinguere il trasferimento netto di energia dal moto dei singoli elettroni.]
 
 Didascalia: Nel metallo gli elettroni mobili contribuiscono al trasferimento di energia dalla zona calda a quella fredda.
 
@@ -50,6 +50,8 @@ La capacità dei metalli di trasferire rapidamente energia può produrre un effe
 [IMMAGINE 12 — Animazione del palo gelato già approvata, invariata.]
 
 Didascalia: Se la saliva congela sul metallo, il ghiaccio fa aderire la lingua al palo. È pericoloso: non va provato.
+
+La stessa capacità di trasferire rapidamente energia spiega una sensazione più comune. Un oggetto di metallo e uno di legno o di plastica, lasciati a lungo nella stessa stanza, possono avere la stessa temperatura eppure sembrare diversi al tatto. Se sono più freddi della pelle, il metallo le sottrae energia più rapidamente, anche grazie alla sua elevata conducibilità termica, e per questo sembra più freddo. La sensazione non indica quindi che il metallo abbia necessariamente una temperatura più bassa.[5]
 
 ### La caffettiera: materiali con compiti diversi
 
@@ -154,3 +156,5 @@ Nel grafico le due facce differiscono di 30 gradi: ΔT vale quindi 30 K. Una dif
 [3] Nella vetrocamera contribuiscono agli scambi anche irraggiamento ed eventuali moti del gas. La formula della parete omogenea non descrive da sola l’intera finestra.
 
 [4] La potenza elettrica assorbita da un apparecchio e quella termica trasferita nella situazione considerata non coincidono necessariamente. Q = P · Δt vale anche usando la potenza media sull’intervallo.
+
+[5] Il metallo non sembra sempre più freddo: se gli oggetti sono più caldi della pelle, può cederle energia più rapidamente e sembrare più caldo. La rapidità dello scambio dipende anche dal contatto, dalla densità e dal calore specifico dei materiali.

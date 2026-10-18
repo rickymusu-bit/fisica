@@ -133,21 +133,19 @@
   ],
   "decisione_applicazioni": "Integrate nelle sezioni su conduttori e isolanti, su richiesta esplicita del 18 ottobre 2026 ore 13:25 Europe/Rome",
   "simulazione_agitazione_termica": {
-    "stato": "riaperta come base visiva per la proposta con elettroni il 18 ottobre 2026 ore 17:45; nessuna programmazione autorizzata",
+    "stato": "esclusa su richiesta esplicita del 18 ottobre 2026 ore 18:28; nessuna programmazione prevista",
     "originale": "conservato nell’HTML sorgente e nella cronologia Git",
     "hash_script": "i valori script_fisico_sha256 identificano esclusivamente la fonte storica",
-    "conferma": "scelta di ometterla confermata dall’utente con Ok il 18 ottobre 2026 ore 13:36",
-    "nuova_richiesta": "modello con elettroni in moto caotico e scambi energetici; correggere idea di atomi freddi inizialmente fermi"
+    "conferma": "sostituzione con sola immagine statica del metallo e degli elettroni di conduzione",
+    "nuova_richiesta": "immagine statica E-1; precedente proposta dinamica ritirata"
   },
   "schema_elettroni": {
     "id": "E-1",
-    "tipo": "simulazione qualitativa proposta al posto dello schema statico",
-    "stato": "modello e stima preparati; programmazione non avviata",
-    "piano": "lavorazione/conduzione/simulazione-elettroni.md",
-    "stima_minuti": [
-      30,
-      55
-    ]
+    "tipo": "immagine statica del metallo con elettroni di conduzione",
+    "stato": "richiesta esplicita; originale da scegliere/fornire secondo C2",
+    "collocazione": "sezione Conduttori termici",
+    "specifiche": "ioni del reticolo ed elettroni delocalizzati distinguibili; nessuna corrente elettrica ordinata implicita",
+    "piano_storico_ritirato": "lavorazione/conduzione/simulazione-elettroni.md"
   },
   "revisione_stilistica": "prosa didattica di entrambi i capitoli integralmente riscritta il 18 ottobre 2026 ore 13:36 secondo STILE_DISPENSE.md v6 ed esempio_irraggiamento.md v2; presentata per approvazione",
   "nuova_immagine_correnti_marine": {
@@ -420,5 +418,11 @@
     "collocazione": "introduzione della convezione forzata, dopo la definizione",
     "file_binario_salvato_nel_repo": true,
     "approvazione": "immagine fornita e inserimento richiesto esplicitamente dall’utente il 18 ottobre 2026"
+  },
+  "sensazione_termica_tatto": {
+    "collocazione": "fine applicazione lingua sul palo gelato",
+    "stato": "testo aggiunto su richiesta 18 ottobre 2026 ore 18:28",
+    "condizioni": "oggetti alla stessa temperatura, più freddi della pelle; metallo sottrae energia più rapidamente",
+    "correzione": "non sempre più freddo; con oggetti più caldi della pelle la sensazione può invertirsi"
   }
 }

@@ -1,4 +1,6 @@
-# Proposta — Conduzione nel metallo con elettroni mobili
+# Proposta ritirata — Conduzione nel metallo con elettroni mobili
+
+**Stato corrente: ritirata su richiesta dell’utente del 18 ottobre 2026, ore 18:28 (Europe/Rome).** È previsto soltanto uno schema statico del metallo con gli elettroni di conduzione, ancora da scegliere/fornire. Nessuna simulazione da programmare; la stima seguente è storica e non si applica al lavoro corrente. Il resto del documento conserva la precedente proposta.
 
 18 ottobre 2026, ore 17:45 (Europe/Rome). **Proposta di modello e stima, non ancora programmata.**
 
