@@ -12,7 +12,7 @@ Home generata **v13** (template v10), Stati della materia **v15**, Passaggi di s
 
 Verifiche browser: 28 viste a 320/390/768/1280 px, script attivi/bloccati, movimento normale/ridotto, pausa/ripresa da tastiera, indice, controlli e assenza di overflow/errori JavaScript. CSS e controlli condivisi identici al modello v5, documenti autonomi, altri visuali preservati. Report `logo-definitivo.json`; verifica del modello e hash `verifica-logo.json`. Anteprime home/articoli in `anteprima-visuali/`, anteprima autonoma unica `anteprima-logo.html`.
 
-**Fase:** risultati locali verificati, anteprime da consegnare prima del merge; pubblicazione autorizzata, da eseguire e verificare via HTTPS. Ramo `correzione/visuali-centrale` derivato da main. Prossimo passaggio: salvare, integrare la PR e controllare Pages e output online, poi registrare gli esiti.
+**Pubblicazione completata e verificata:** anteprime consegnate prima del merge, PR #26 integrata nel commit `4e6ba399b0798d16db55b443dd7740dd58154dfe`; workflow Pages `39113796714` riuscito. Home (anche URL radice), tre articoli e due file autonomi del logo HTTP 200, identici byte per byte all’output approvato; nove indirizzi dismessi e sette percorsi dei tentativi HTTP 404. Esiti HTTPS e hash in `logo-definitivo.json`. Regola grafica e rimozione dei tentativi completate; nessuna operazione di pubblicazione pendente.
 
 ## Ampiezza di oscillazione raddoppiata — 18 ottobre 2026
 
