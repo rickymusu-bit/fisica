@@ -5,20 +5,21 @@ from urllib.parse import unquote
 
 
 def render_italian(document, root):
+    article_count = len(re.findall(r'<a class="read"', document))
     document, count = re.subn(
         r'      <details class="header-menu" id="home-index">[\s\S]*?</details>\n',
         '', document, count=1)
     if count != 1:
         raise ValueError("Menu indice italiano assente o duplicato")
-    document = document.replace('name="version" content="v10"', 'name="version" content="v15"')
+    document = document.replace('name="version" content="v10"', 'name="version" content="v16"')
     document = document.replace(
         'scegli «Scarica HTML»', 'usa l’icona di download')
     document = re.sub(r'        <div class="intro-foot">[\s\S]*?</div>\n', '', document, count=1)
     document = document.replace('<header class="top">', '''<header class="top">
       <button class="articles-trigger" type="button" aria-haspopup="dialog" aria-controls="articles-panel" aria-expanded="false"><span aria-hidden="true">☰</span> Articoli</button>''')
     document = document.replace('<div class="catalogue" id="indice">',
-        '''<dialog id="articles-panel" aria-labelledby="articles-title">
-        <div class="panel-heading"><h2 id="articles-title">Articoli <span>3 articoli</span></h2><button class="panel-close" type="button" aria-label="Chiudi gli articoli" autofocus>×</button></div>
+        f'''<dialog id="articles-panel" aria-labelledby="articles-title">
+        <div class="panel-heading"><h2 id="articles-title">Articoli <span>{article_count} articoli</span></h2><button class="panel-close" type="button" aria-label="Chiudi gli articoli" autofocus>×</button></div>
         <div class="catalogue" id="indice" tabindex="-1">''')
     document = document.replace('      </div>\n    </main>', '      </div>\n      </dialog>\n    </main>', 1)
     # Un unico originale SVG per il file riutilizzabile e la home autonoma.

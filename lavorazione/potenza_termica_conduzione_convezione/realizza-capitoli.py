@@ -72,12 +72,12 @@ def build(chapter):
     notesmap={int(n):t.strip() for n,t in re.findall(r'^\[(\d+)\] (.*?)(?=\n\n\[\d+\]|\Z)',notes,flags=re.M|re.S)}
     soup=BeautifulSoup(THEME,'html.parser')
     soup.title.string=title+' — Materia Oscura'
-    soup.select_one('meta[name="version"]')['content']='v1'
+    soup.select_one('meta[name="version"]')['content']='v2'
     soup.select_one('meta[name="description"]')['content']=('Conduzione del calore, conduttori e isolanti, potenza termica e legge di Fourier.' if chapter=='conduzione' else 'Convezione naturale e forzata: termosifone, termiche, Sole e sistemi di raffreddamento.')
     author=soup.new_tag('meta',attrs={'name':'author','content':'Riccardo Musumarra'});soup.head.append(author)
     soup.select_one('h1').string=title;soup.select_one('.kicker').string='Materia e calore'
     soup.select_one('.sidebar-book p').string=title;soup.select_one('.sidebar-label').string='Materia e calore'
-    soup.select_one('.footer').string='Versione v1 · 18 ottobre 2026'
+    soup.select_one('.footer').string='Versione v2 · 18 ottobre 2026'
     cover=soup.select_one('.cover')
     cv=figure(data(folder/'risorse'/('copertina-takoyaki.jpg' if chapter=='conduzione' else 'copertina-plutone.jpg')),
                'Takoyaki in cottura sulla piastra metallica.' if chapter=='conduzione' else 'Celle poligonali nel ghiaccio di azoto di Sputnik Planitia, su Plutone.', 'copertina', classes='cover')

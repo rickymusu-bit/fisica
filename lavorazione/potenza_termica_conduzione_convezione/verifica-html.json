@@ -1,42 +1,42 @@
 {
   "conduzione": {
-    "versione": "v1",
+    "versione": "v2",
     "tema": "v7",
-    "byte": 7431696,
-    "sha256": "68cb0ad1421aedfd80039b007339e1a8233c03551a0f3f33aa6286173f0c167c",
-    "quesiti": 12,
-    "figure": 10,
+    "byte": 7431801,
+    "sha256": "05efa165a70a6561639db378a5aef09832f81d84336cafd3e02bcbe0b4293840",
     "id_univoci": true,
     "ancore_interne_valide": true,
-    "media_incorporati_validi": true,
+    "link_articoli_validi": true,
     "css_comune_identico": true,
     "script_comuni_identici": true,
-    "note_inizialmente_chiuse": true,
-    "crediti_inizialmente_chiusi": true,
-    "risorse_esterne_necessarie": false,
-    "copertina_non_ripetuta": true,
-    "browser": "Tentativo fallito: browser chiuso all’avvio per socket non consentiti",
-    "resa_desktop_mobile": "non verificata",
-    "comandi_interattivi": "codice comune preservato; verifica funzionale browser non completata"
+    "media_esterni_necessari": false,
+    "quesiti": 12,
+    "desktop_mobile": [
+      1440,
+      390
+    ],
+    "browser": "Chromium 151",
+    "controlli_browser": "superati; dettagli in verifica-browser.json",
+    "licenze_storiche": "fonti/licenze non documentate preservate come limite nei crediti; nessuna licenza attribuita per deduzione"
   },
   "convezione": {
-    "versione": "v1",
+    "versione": "v2",
     "tema": "v7",
-    "byte": 12149549,
-    "sha256": "dee35296bc1e50b9bad615b7673482e183c6af3e6bc09ccc222dfd2ce6d56c22",
-    "quesiti": 7,
-    "figure": 9,
+    "byte": 12149543,
+    "sha256": "b047f1bab4b9f2dc908f63a322b7556ef9d7f059dc0763eda1f2b9f8bf5a1b62",
     "id_univoci": true,
     "ancore_interne_valide": true,
-    "media_incorporati_validi": true,
+    "link_articoli_validi": true,
     "css_comune_identico": true,
     "script_comuni_identici": true,
-    "note_inizialmente_chiuse": true,
-    "crediti_inizialmente_chiusi": true,
-    "risorse_esterne_necessarie": false,
-    "copertina_non_ripetuta": true,
-    "browser": "Tentativo fallito: browser chiuso all’avvio per socket non consentiti",
-    "resa_desktop_mobile": "non verificata",
-    "comandi_interattivi": "codice comune preservato; verifica funzionale browser non completata"
+    "media_esterni_necessari": false,
+    "quesiti": 7,
+    "desktop_mobile": [
+      1440,
+      390
+    ],
+    "browser": "Chromium 151",
+    "controlli_browser": "superati; dettagli in verifica-browser.json",
+    "licenze_storiche": "fonti/licenze non documentate preservate come limite nei crediti; nessuna licenza attribuita per deduzione"
   }
 }

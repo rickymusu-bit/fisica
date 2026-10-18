@@ -1,5 +1,5 @@
 {
-  "stato": "due articoli HTML v1 realizzati sul ramo; controlli statici superati, browser da verificare; non pubblicati",
+  "stato": "due articoli HTML v2 verificati desktop/mobile; pubblicazione richiesta esplicitamente il 18 ottobre 2026, integrazione e deploy da confermare",
   "fonte": "potenza_termica_conduzione_convezione_it.html",
   "versione_fonte": "v7",
   "sha256_fonte": "b346fd60bcce9ca7d74628434d8c854332ff55ddd9dd80db3253cc2f04bc5251",
@@ -112,7 +112,7 @@
   "script_fisico_sha256": [
     "c493109309eeeb6f9017a19b4dbfd7874c26abbf5cbdcf52a95121c4e7a5aabc"
   ],
-  "html_generati": false,
+  "html_generati": true,
   "capitoli_previsti": [
     "conduzione_it.html",
     "convezione_it.html"
@@ -142,7 +142,7 @@
   "schema_elettroni": {
     "id": "E-1",
     "tipo": "immagine statica del metallo con elettroni di conduzione",
-    "stato": "richiesta esplicita; originale da scegliere/fornire secondo C2",
+    "stato": "Enlace_metalico.gif scelto e incorporato, con pausa e movimento ridotto",
     "collocazione": "sezione Conduttori termici",
     "specifiche": "ioni del reticolo ed elettroni delocalizzati distinguibili; nessuna corrente elettrica ordinata implicita",
     "piano_storico_ritirato": "lavorazione/conduzione/simulazione-elettroni.md"

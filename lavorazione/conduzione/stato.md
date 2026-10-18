@@ -1,18 +1,18 @@
 # Stato — Conduzione
 
-Aggiornamento: 18/10/2026 12:26 (Europe/Rome). Master letto: v59. Tema: modello comune v7, con prevalenze esplicite di AGENTS.md e TERMINOLOGIA_SITO.md v4.
+Aggiornamento: 18 ottobre 2026 (Europe/Rome). Master letto integralmente: v59; AGENTS.md, tema comune v7 e manifest di pubblicazione applicati.
 
-Fase corrente: HTML v1 realizzato sul ramo di revisione; controlli statici superati, verifica visiva e funzionale browser ancora aperta. Le fasi precedenti sono documentate sotto. Ramo `revisione/potenza-conduzione-convezione`, derivato da main `8c071729b2bf577886e0227c383a0318c0eb5905`.
+Fase corrente: articolo autonomo **v2**, verificato e pronto per la pubblicazione richiesta esplicitamente dall’utente: «finisci la pubblicazione degli articoli su conduzione e convezione nel mio repo di fisica su github».
 
-Argomento, confini, provenienze, visuali e interazioni: [proposta di suddivisione](../potenza_termica_conduzione_convezione/proposta-suddivisione.md). Fonte scientifica e visuale: HTML unificato v7, blob `14e072ca077fc7887c86749df9c3ec1213735aa7`. La vecchia bozza non sostituisce le correzioni presenti nell’HTML.
+File ufficiale predisposto: [conduzione_it.html](../../conduzione_it.html). Anteprima di lavoro aggiornata: [bozza.html](bozza.html). Conservati testo, immagini e scelte concordate; nessuna simulazione nuova. I soli cambiamenti rispetto a v1 riguardano versione e collegamenti tra articoli.
 
-Bozza corrente: [bozza.md](bozza.md), con copertina e visuali identificate. Le approvazioni storiche documentate nello [stato della fonte](../potenza_termica_conduzione_convezione/stato.md) valgono per i materiali conservati; non approvano suddivisione o testo nuovi. La richiesta del 18 ottobre autorizza pianificazione, bozze e registrazione degli avanzamenti sul ramo.
+Verifiche concluse: build di 6 HTML (home e cinque articoli); confronto esatto di CSS e script comuni con il modello v7; identificativi e ancore; immagini incorporate; controlli Chromium a 1440 e 390 px di indice, note e ritorni, ingrandimenti, pausa/ripresa, movimento ridotto, download dalla home, assenza di overflow ed errori JavaScript. Ispezionate le schermate desktop/mobile. Rapporti: [verifica-html.json](../potenza_termica_conduzione_convezione/verifica-html.json) e [verifica-browser.json](../potenza_termica_conduzione_convezione/verifica-browser.json).
 
-Checklist: monograficità; teoria → applicazioni/esempio concordati → domande finali; formule discorsive; notazione scientifica nei calcoli; schemi con oggetti approvati; copertina distinta; note brevi e collassabili; tema esatto v7 con «← Articoli», logo e area «Materia e calore»; visuali con composizione invariata su mobile; HTML autonomo; niente traduzioni o nuovi media autonomi; nessuna modifica di main, manifest o pubblicazione.
+Anteprime HTML autonome e schermate consegnate prima della pubblicazione. Manifest aggiornato per ammettere soltanto i due nuovi articoli; catalogo passato da tre a cinque voci; conteggio e dimensioni download coerenti; navigazione Irraggiamento → Conduzione → Convezione. I sette sorgenti esclusi e gli indirizzi dismessi restano invariati e fuori dalla build.
 
-Punti aperti attuali: verifica desktop/mobile e interazioni nel browser; attribuzioni non documentate delle immagini storiche prima della diffusione pubblica. I materiali nuovi scelti sono incorporati; nessuna simulazione da sviluppare.
+Limite conservato: le licenze di alcuni materiali storici già forniti/approvati non sono documentate nella fonte; i crediti dichiarano espressamente questo limite senza inventare attribuzioni. La richiesta attuale autorizza la pubblicazione dei due articoli con i materiali conservati. Non si dichiara verificata una licenza mancante.
 
-Prossimo passo: controllo browser delle anteprime; eventuali correzioni e successiva approvazione prima di main e pubblicazione.
+Prossimo passaggio: salvataggio sul ramo di revisione, integrazione in main e verifica del workflow GitHub Pages e degli URL pubblici.
 
 ## Aggiornamento — 18 ottobre 2026, ore 13:12 (Europe/Rome)
 

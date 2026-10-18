@@ -1,0 +1,88 @@
+{
+  "articles": [
+    {
+      "chapter": "conduzione",
+      "width": 1440,
+      "images": 13,
+      "questions": 12,
+      "checks": [
+        "immagini",
+        "assenza overflow",
+        "logo pausa/ripresa",
+        "indice e ancore",
+        "note e ritorni",
+        "ingrandimenti",
+        "animazioni",
+        "movimento ridotto",
+        "assenza errori JS"
+      ]
+    },
+    {
+      "chapter": "convezione",
+      "width": 1440,
+      "images": 15,
+      "questions": 7,
+      "checks": [
+        "immagini",
+        "assenza overflow",
+        "logo pausa/ripresa",
+        "indice e ancore",
+        "note e ritorni",
+        "ingrandimenti",
+        "animazioni",
+        "movimento ridotto",
+        "assenza errori JS"
+      ]
+    },
+    {
+      "chapter": "conduzione",
+      "width": 390,
+      "images": 13,
+      "questions": 12,
+      "checks": [
+        "immagini",
+        "assenza overflow",
+        "logo pausa/ripresa",
+        "indice e ancore",
+        "note e ritorni",
+        "ingrandimenti",
+        "animazioni",
+        "movimento ridotto",
+        "assenza errori JS"
+      ]
+    },
+    {
+      "chapter": "convezione",
+      "width": 390,
+      "images": 15,
+      "questions": 7,
+      "checks": [
+        "immagini",
+        "assenza overflow",
+        "logo pausa/ripresa",
+        "indice e ancore",
+        "note e ritorni",
+        "ingrandimenti",
+        "animazioni",
+        "movimento ridotto",
+        "assenza errori JS"
+      ]
+    }
+  ],
+  "home": [
+    {
+      "width": 1440,
+      "articles": 5,
+      "download": true,
+      "escape": true,
+      "hash": true
+    },
+    {
+      "width": 390,
+      "articles": 5,
+      "download": true,
+      "escape": true,
+      "hash": true
+    }
+  ]
+}
