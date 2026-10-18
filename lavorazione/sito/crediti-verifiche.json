@@ -439,5 +439,166 @@
     "strumenti_errori_incertezza_fr.html",
     "strumenti_errori_incertezza_it.html",
     "strumenti_errori_incertezza_sq.html"
-  ]
+  ],
+  "publication": {
+    "merge_commit": "bfe24eb80403dc6ca6cc9a1300163409d0892b8c",
+    "workflow_url": "https://github.com/rickymusu-bit/fisica/actions/runs/39167838089",
+    "checks": [
+      {
+        "path": "index.html",
+        "url": "https://rickymusu-bit.github.io/fisica/index.html",
+        "status": 200,
+        "expected_status": 200,
+        "identical": true,
+        "sha256": "5842a70382def2c081cb7fe57f55fc6a1b21ecd0e329e268b7e49f47f9f49453",
+        "expected_sha256": "5842a70382def2c081cb7fe57f55fc6a1b21ecd0e329e268b7e49f47f9f49453",
+        "passed": true
+      },
+      {
+        "path": "crediti.html",
+        "url": "https://rickymusu-bit.github.io/fisica/crediti.html",
+        "status": 200,
+        "expected_status": 200,
+        "identical": true,
+        "sha256": "4b628b99587ea7f7591665dd261f8bca84bcba10f54aac5027b7dd87ee2c9c40",
+        "expected_sha256": "4b628b99587ea7f7591665dd261f8bca84bcba10f54aac5027b7dd87ee2c9c40",
+        "passed": true
+      },
+      {
+        "path": "stati_della_materia.html",
+        "url": "https://rickymusu-bit.github.io/fisica/stati_della_materia.html",
+        "status": 200,
+        "expected_status": 200,
+        "identical": true,
+        "sha256": "7ddb2312693a1b565df1e3d041ac43466541c52c7c4cb53be2d0c401151a0b15",
+        "expected_sha256": "7ddb2312693a1b565df1e3d041ac43466541c52c7c4cb53be2d0c401151a0b15",
+        "passed": true
+      },
+      {
+        "path": "passaggi_di_stato.html",
+        "url": "https://rickymusu-bit.github.io/fisica/passaggi_di_stato.html",
+        "status": 200,
+        "expected_status": 200,
+        "identical": true,
+        "sha256": "df62bc71141990335f5d049f72d71ac6e987d19cb388644b66360c5ef71c1830",
+        "expected_sha256": "df62bc71141990335f5d049f72d71ac6e987d19cb388644b66360c5ef71c1830",
+        "passed": true
+      },
+      {
+        "path": "conduzione_it.html",
+        "url": "https://rickymusu-bit.github.io/fisica/conduzione_it.html",
+        "status": 200,
+        "expected_status": 200,
+        "identical": true,
+        "sha256": "9025acdb632a7e0ffd202c0258ee9eb6e5ff7e0be848e233cd7562c8b278ba51",
+        "expected_sha256": "9025acdb632a7e0ffd202c0258ee9eb6e5ff7e0be848e233cd7562c8b278ba51",
+        "passed": true
+      },
+      {
+        "path": "convezione_it.html",
+        "url": "https://rickymusu-bit.github.io/fisica/convezione_it.html",
+        "status": 200,
+        "expected_status": 200,
+        "identical": true,
+        "sha256": "6b229b61cf346045279e171982f671ee342827878f62b37e2e5a52fe25ef639b",
+        "expected_sha256": "6b229b61cf346045279e171982f671ee342827878f62b37e2e5a52fe25ef639b",
+        "passed": true
+      },
+      {
+        "path": "irraggiamento_it.html",
+        "url": "https://rickymusu-bit.github.io/fisica/irraggiamento_it.html",
+        "status": 200,
+        "expected_status": 200,
+        "identical": true,
+        "sha256": "657a6200d8d2d1f41d322244c8aea9213c1e1e0c4ceb9bb9ef535b9c3f39c84b",
+        "expected_sha256": "657a6200d8d2d1f41d322244c8aea9213c1e1e0c4ceb9bb9ef535b9c3f39c84b",
+        "passed": true
+      },
+      {
+        "path": "risorse/crediti.json",
+        "url": "https://rickymusu-bit.github.io/fisica/risorse/crediti.json",
+        "status": 200,
+        "expected_status": 200,
+        "identical": true,
+        "sha256": "48e04bde6acf31e515cdbf1dd968175233f7d06f60744351148c3cd25536fae5",
+        "expected_sha256": "48e04bde6acf31e515cdbf1dd968175233f7d06f60744351148c3cd25536fae5",
+        "passed": true
+      },
+      {
+        "path": "licenze/Lexend-OFL.txt",
+        "url": "https://rickymusu-bit.github.io/fisica/licenze/Lexend-OFL.txt",
+        "status": 200,
+        "expected_status": 200,
+        "identical": true,
+        "sha256": "da67588af7e0987521d7dffc60ca92e8abee37f30535d94b503ec7bc52d73023",
+        "expected_sha256": "da67588af7e0987521d7dffc60ca92e8abee37f30535d94b503ec7bc52d73023",
+        "passed": true
+      },
+      {
+        "path": "metodo_scientifico_it.html",
+        "url": "https://rickymusu-bit.github.io/fisica/metodo_scientifico_it.html",
+        "status": 404,
+        "expected_status": 404,
+        "passed": true
+      },
+      {
+        "path": "sistema_internazionale_notazione_it.html",
+        "url": "https://rickymusu-bit.github.io/fisica/sistema_internazionale_notazione_it.html",
+        "status": 404,
+        "expected_status": 404,
+        "passed": true
+      },
+      {
+        "path": "strumenti_errori_incertezza_it.html",
+        "url": "https://rickymusu-bit.github.io/fisica/strumenti_errori_incertezza_it.html",
+        "status": 404,
+        "expected_status": 404,
+        "passed": true
+      },
+      {
+        "path": "grafici_piano_cartesiano_it.html",
+        "url": "https://rickymusu-bit.github.io/fisica/grafici_piano_cartesiano_it.html",
+        "status": 404,
+        "expected_status": 404,
+        "passed": true
+      },
+      {
+        "path": "lavoro_energie_potenza_it.html",
+        "url": "https://rickymusu-bit.github.io/fisica/lavoro_energie_potenza_it.html",
+        "status": 404,
+        "expected_status": 404,
+        "passed": true
+      },
+      {
+        "path": "bilancio_conservazione_rendimento_it.html",
+        "url": "https://rickymusu-bit.github.io/fisica/bilancio_conservazione_rendimento_it.html",
+        "status": 404,
+        "expected_status": 404,
+        "passed": true
+      },
+      {
+        "path": "potenza_termica_conduzione_convezione_it.html",
+        "url": "https://rickymusu-bit.github.io/fisica/potenza_termica_conduzione_convezione_it.html",
+        "status": 404,
+        "expected_status": 404,
+        "passed": true
+      },
+      {
+        "path": "stati_della_materia_e_passaggi_di_stato.html",
+        "url": "https://rickymusu-bit.github.io/fisica/stati_della_materia_e_passaggi_di_stato.html",
+        "status": 404,
+        "expected_status": 404,
+        "passed": true
+      },
+      {
+        "path": "stati_della_materia_e_passaggi_di_stato_v8_20261016.html",
+        "url": "https://rickymusu-bit.github.io/fisica/stati_della_materia_e_passaggi_di_stato_v8_20261016.html",
+        "status": 404,
+        "expected_status": 404,
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "workflow_conclusion": "success"
+  }
 }

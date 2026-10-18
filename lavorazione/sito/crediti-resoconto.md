@@ -1,5 +1,7 @@
 # Centralizzazione dei crediti — resoconto
 
+**Pubblicato e verificato**, su richiesta esplicita dell’utente «Pubblica le modifiche»: [PR #35](https://github.com/rickymusu-bit/fisica/pull/35), [workflow Pages riuscito](https://github.com/rickymusu-bit/fisica/actions/runs/39167838089). [Pagina online](https://rickymusu-bit.github.io/fisica/crediti.html). Nove risorse pubbliche confrontate byte per byte con la build e nove indirizzi esclusi/dismessi confermati HTTP 404. Le verifiche delle licenze aperte restano tali.
+
 20 articoli HTML analizzati e modificati: cinque pubblicati, sette italiani sospesi e otto traduzioni conservate. Esaminato anche l’indirizzo storico dismesso, che non contiene un articolo né risorse e resta invariato. Aggiornate la home, il modello del tema v8, cinque bozze HTML esistenti e le istruzioni del progetto (master v60).
 
 Il registro contiene **87 schede di provenienza** e **178 risorse uniche inventariate**, comprese risorse riutilizzate, font, SVG/canvas e anteprime statiche. I due conteggi hanno significati distinti: le schede comprendono anche avvisi generali preesistenti, mentre l’inventario identifica i contenuti effettivamente rilevati.

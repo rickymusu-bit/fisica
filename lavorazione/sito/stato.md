@@ -2,7 +2,7 @@
 
 ## Pubblicazione autorizzata — centralizzazione dei crediti
 
-L’utente ha richiesto esplicitamente «Pubblica le modifiche». Autorizzate integrazione della PR #35 in main e pubblicazione tramite il workflow Pages esistente. Questa richiesta supera lo stato precedente di sola bozza; il manifest resta invariato. Si pubblicano le modifiche già verificate al commit `dce6358370806d393292aced65870f2294b357ef`, conservando pubblicamente la lista delle verifiche di licenza aperte. La pubblicazione non certifica i diritti mancanti. Prossimo passo: merge e controllo del workflow e degli URL online.
+L’utente ha richiesto esplicitamente «Pubblica le modifiche». Autorizzate integrazione della PR #35 in main e pubblicazione tramite il workflow Pages esistente. Questa richiesta supera lo stato precedente di sola bozza; il manifest resta invariato. Si pubblicano le modifiche già verificate al commit `dce6358370806d393292aced65870f2294b357ef`, conservando pubblicamente la lista delle verifiche di licenza aperte. La pubblicazione non certifica i diritti mancanti. Pubblicazione completata e verificata: PR #35 integrata nel commit `bfe24eb80403dc6ca6cc9a1300163409d0892b8c`; [workflow Pages 39167838089](https://github.com/rickymusu-bit/fisica/actions/runs/39167838089) concluso con successo. Home, cinque articoli, pagina crediti, archivio JSON e OFL: HTTP 200 e contenuti identici byte per byte alla build verificata. Sette articoli esclusi e due indirizzi dismessi: HTTP 404. Esiti e hash nella proprietà `publication` di `crediti-verifiche.json`. Nessuna operazione di pubblicazione pendente; restano le verifiche dei diritti già segnalate.
 
 ## Centralizzazione dei crediti — 18 ottobre 2026
 
