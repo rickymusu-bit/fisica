@@ -1,6 +1,6 @@
-# Praticamente la Fisica
+# Materia Oscura
 
-Guida essenziale a tutto ciò che ci circonda.
+Guida pratica per fare luce sulla Fisica.
 
 **Sito:** https://rickymusu-bit.github.io/fisica/
 
@@ -21,3 +21,9 @@ Il quiz resta separato nel repository [rickymusu-bit/quiz](https://github.com/ri
 La terminologia della navigazione è definita nel master e nel modello autonomo: «Articoli» per la raccolta, «← Tutti gli articoli» per tornarvi, «Indice» e «Indice dell’articolo» per il contenuto aperto, «Articolo precedente/successivo», «Note», «Crediti delle immagini» e «Licenza del carattere».
 
 I vecchi indirizzi della dispensa unificata sono dismessi e non vengono più pubblicati o reindirizzati. Sono registrati nel manifest soltanto per verificarne l’assenza dal sito.
+
+Identità e terminologia approvate della home in `riferimenti/TERMINOLOGIA_SITO.md`: titolo «Materia Oscura», sottotitolo «Guida pratica per fare luce sulla Fisica»; i gruppi mostrano soltanto il proprio nome, senza l’etichetta «Area tematica».
+
+Il logo animato accanto al titolo è una stringa chiusa nera su fondo trasparente, con pausa/ripresa e rispetto del movimento ridotto. SVG animato e GIF definitivi riutilizzabili sono salvati in [`identita/`](identita/README.md); la home incorpora lo stesso originale vettoriale durante la build.
+
+Il logo definitivo è un’onda sinusoidale stazionaria a quattro creste, con ampiezza 20, nero su trasparente. È applicato nella home e nella barra degli articoli; fa parte del modello grafico autonomo v5. Le alternative precedenti sono rimosse e restano soltanto nella cronologia Git. I file SVG/GIF sono pubblicati in `identita/`; il componente mantiene pausa/ripresa e movimento ridotto.

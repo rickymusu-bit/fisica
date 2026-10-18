@@ -10,7 +10,7 @@ def render_italian(document, root):
         '', document, count=1)
     if count != 1:
         raise ValueError("Menu indice italiano assente o duplicato")
-    document = document.replace('name="version" content="v6"', 'name="version" content="v9"')
+    document = document.replace('name="version" content="v10"', 'name="version" content="v13"')
     document = document.replace(
         'scegli «Scarica HTML»', 'usa l’icona di download')
     document = re.sub(r'        <div class="intro-foot">[\s\S]*?</div>\n', '', document, count=1)
@@ -21,6 +21,13 @@ def render_italian(document, root):
         <div class="panel-heading"><h2 id="articles-title">Articoli <span>3 articoli</span></h2><button class="panel-close" type="button" aria-label="Chiudi gli articoli" autofocus>×</button></div>
         <div class="catalogue" id="indice" tabindex="-1">''')
     document = document.replace('      </div>\n    </main>', '      </div>\n      </dialog>\n    </main>', 1)
+    # Un unico originale SVG per il file riutilizzabile e la home autonoma.
+    logo = (root / 'identita' / 'logo-materia-oscura.svg').read_text(encoding='utf-8')
+    logo = logo.replace('<svg ', '<svg id="site-logo" class="site-logo" aria-hidden="true" focusable="false" ', 1)
+    document, logo_count = re.subn(r'<img id="site-logo"[^>]+>', lambda _: logo, document)
+    if logo_count != 1:
+        raise ValueError("Segnaposto del logo assente o duplicato")
+
     # La scelta della lingua resta una normale visita alla relativa home.
     document = document.replace('href="./#indice"', 'href="./"')
 
@@ -48,6 +55,12 @@ def render_italian(document, root):
     document = document.replace('</style>', '''
 /* Comandi della sola home italiana. */
 .top{justify-content:space-between}
+.site-heading{display:flex;align-items:center;gap:18px;margin-bottom:30px}
+.site-heading h1{margin:0;min-width:0}
+.logo-toggle{display:block;flex:0 0 clamp(68px,7.5vw,104px);width:clamp(68px,7.5vw,104px);padding:0;border:0;background:transparent;line-height:0;cursor:pointer}
+.logo-toggle:disabled{cursor:default}
+.site-heading .site-logo{display:block;width:100%;height:auto;overflow:visible}
+@media(max-width:600px){.site-heading{gap:12px;margin-bottom:20px}.logo-toggle{flex-basis:58px;width:58px}.site-heading h1{margin:0}}
 button{font:inherit;color:inherit}
 button:focus-visible{outline:3px solid var(--ink);outline-offset:5px}
 .articles-trigger,.panel-close{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:46px;border:2px solid var(--line);background:white;font-size:17px;font-weight:600;cursor:pointer;padding:8px 14px;line-height:1.4}
@@ -107,4 +120,5 @@ html:has(#articles-panel[open]){overflow:hidden}
 })();
 </script>
 '''
-    return document.replace('</body>', script + '</body>')
+    logo_controls = (root / 'identita' / 'controlli-logo.js').read_text(encoding='utf-8')
+    return document.replace('</body>', '<script>\n' + logo_controls + '</script>\n' + script + '</body>')

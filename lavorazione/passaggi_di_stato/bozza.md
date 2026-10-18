@@ -118,11 +118,11 @@ Didascalia A2: L'unità esterna scambia energia con l'aria. Durante il riscaldam
 
 Anche una **centrale nucleare** utilizza cambiamenti di stato dell’acqua per produrre energia elettrica. Il reattore riscalda l’acqua di un primo circuito, che trasferisce energia all’acqua di un secondo circuito senza mescolarsi con essa. È nel secondo circuito che l’acqua vaporizza e produce il vapore da inviare alla turbina.[^nota-circuiti-pwr]
 
-[IMMAGINE A3 — Schema scelto della centrale nucleare PWR: `risorse/centrale-nucleare.png`; originale conservato in `risorse/originali/centrale-nucleare.svg`. Inserimento diretto senza ricostruzione o ritagli. Etichette originali inglesi, interpretate nel testo. Consentire apertura dell'immagine a dimensione maggiore quando sarà integrata nell’HTML.]
+[IMMAGINE A3 — Schema originale TVA in SVG con tutte le etichette tradotte in italiano: `risorse/centrale-nucleare-it.svg`. Originale conservato in `risorse/originali/centrale-nucleare.svg`; circuiti, colori, frecce e proporzioni invariati. Apertura ingrandita disponibile.]
 
 Didascalia A3: Il circuito primario trasferisce energia al secondario senza mescolare le due acque. Il secondario produce il vapore diretto alla turbina; nel condensatore il vapore torna liquido cedendo energia al circuito di raffreddamento.
 
-Il vapore raggiunge la **turbina** e la fa ruotare. La turbina aziona il **generatore elettrico**. Dopo la turbina, il vapore passa nel **condensatore**, dove cede energia e torna liquido; una pompa rimette l’acqua in circolo.[^nota-etichette-pwr]
+Il vapore raggiunge la **turbina** e la fa ruotare. La turbina aziona il **generatore elettrico**. Dopo la turbina, il vapore passa nel **condensatore**, dove cede energia e torna liquido; una pompa rimette l’acqua in circolo.
 
 Un terzo circuito porta via energia dal condensatore usando acqua di raffreddamento. I tre circuiti svolgono quindi compiti distinti: trasportare energia dal reattore, far lavorare la turbina e cedere all'ambiente l'energia che non diventa lavoro elettrico. Il principio dei passaggi di stato rimane lo stesso: l'acqua riceve energia quando vaporizza e la cede quando condensa.[^nota-6]
 
@@ -245,7 +245,6 @@ Per confrontare questa energia con un consumo familiare, 1,50 GJ corrispondono a
 
 [^nota-circuiti-pwr]: Lo schema mostra una centrale ad acqua pressurizzata, PWR. L’acqua del circuito primario è mantenuta a pressione elevata per restare liquida; il vapore si forma nel circuito secondario, non nel reattore. Il passaggio di energia fra i circuiti avviene attraverso uno scambiatore.
 
-[^nota-etichette-pwr]: Il bacino dell’acqua di raffreddamento è indicato nello schema con “Reservoir”. Nel disegno, il reattore è indicato con “Reactor”, la pompa con “Pump” e lo scambiatore che produce vapore si trova tra il reattore e la turbina. Il vapore raggiunge la turbina, “Turbine”, e le trasferisce parte della propria energia. La turbina aziona il generatore elettrico, “Generator”: questa etichetta non indica il generatore di vapore. Dopo la turbina, il vapore passa nel condensatore, “Condensor”, dove cede energia e torna liquido; una pompa lo rimette in circolo.
 
 [^nota-6]: Nella centrale PWR le temperature e le pressioni operative sono diverse da quelle della curva dell’acqua a pressione atmosferica usata nella teoria.
 
