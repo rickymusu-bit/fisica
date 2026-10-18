@@ -1,0 +1,112 @@
+{
+  "svg_triangolare_originale_identico": true,
+  "sha256_svg": "d3bf9a2cd29a985aeb7236a80388783da064c305c532907ca4f56389b608f43f",
+  "sole_modifiche_schema_e_versione": true,
+  "altri_articoli_e_logo_invariati": true,
+  "viste": [
+    {
+      "larghezza": 320,
+      "script_pagina_abilitati": true,
+      "rapporto_immagine": 1.25,
+      "apertura_chiusura_tastiera": true,
+      "scorrimento_interno": {
+        "width": 236,
+        "scrollWidth": 960,
+        "height": 720,
+        "scrollHeight": 768
+      },
+      "nessun_overflow_pagina": true
+    },
+    {
+      "larghezza": 390,
+      "script_pagina_abilitati": true,
+      "rapporto_immagine": 1.25,
+      "apertura_chiusura_tastiera": true,
+      "scorrimento_interno": {
+        "width": 296,
+        "scrollWidth": 960,
+        "height": 720,
+        "scrollHeight": 768
+      },
+      "nessun_overflow_pagina": true
+    },
+    {
+      "larghezza": 768,
+      "script_pagina_abilitati": true,
+      "rapporto_immagine": 1.25,
+      "apertura_chiusura_tastiera": true,
+      "scorrimento_interno": {
+        "width": 566,
+        "scrollWidth": 960,
+        "height": 720,
+        "scrollHeight": 768
+      },
+      "nessun_overflow_pagina": true
+    },
+    {
+      "larghezza": 1280,
+      "script_pagina_abilitati": true,
+      "rapporto_immagine": 1.25,
+      "apertura_chiusura_tastiera": true,
+      "scorrimento_interno": {
+        "width": 784,
+        "scrollWidth": 960,
+        "height": 720,
+        "scrollHeight": 768
+      },
+      "nessun_overflow_pagina": true
+    },
+    {
+      "larghezza": 320,
+      "script_pagina_abilitati": false,
+      "rapporto_immagine": 1.25,
+      "apertura_chiusura_tastiera": true,
+      "scorrimento_interno": {
+        "width": 236,
+        "scrollWidth": 960,
+        "height": 720,
+        "scrollHeight": 768
+      },
+      "nessun_overflow_pagina": true
+    },
+    {
+      "larghezza": 390,
+      "script_pagina_abilitati": false,
+      "rapporto_immagine": 1.25,
+      "apertura_chiusura_tastiera": true,
+      "scorrimento_interno": {
+        "width": 296,
+        "scrollWidth": 960,
+        "height": 720,
+        "scrollHeight": 768
+      },
+      "nessun_overflow_pagina": true
+    },
+    {
+      "larghezza": 768,
+      "script_pagina_abilitati": false,
+      "rapporto_immagine": 1.25,
+      "apertura_chiusura_tastiera": true,
+      "scorrimento_interno": {
+        "width": 566,
+        "scrollWidth": 960,
+        "height": 720,
+        "scrollHeight": 768
+      },
+      "nessun_overflow_pagina": true
+    },
+    {
+      "larghezza": 1280,
+      "script_pagina_abilitati": false,
+      "rapporto_immagine": 1.25,
+      "apertura_chiusura_tastiera": true,
+      "scorrimento_interno": {
+        "width": 784,
+        "scrollWidth": 960,
+        "height": 720,
+        "scrollHeight": 768
+      },
+      "nessun_overflow_pagina": true
+    }
+  ]
+}
