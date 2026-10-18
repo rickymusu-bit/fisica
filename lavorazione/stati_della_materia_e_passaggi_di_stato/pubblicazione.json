@@ -1,0 +1,72 @@
+{
+  "verificato_utc": "2026-10-18T07:02:19.950519+00:00",
+  "pr": "https://github.com/rickymusu-bit/fisica/pull/20",
+  "commit_pubblicato": "fb44117ae488c2cded4eb2a0abdeca0002839083",
+  "workflow": "https://github.com/rickymusu-bit/fisica/actions/runs/39106119681",
+  "https_verificato": true,
+  "pagine": [
+    {
+      "file": "index.html",
+      "url": "https://rickymusu-bit.github.io/fisica/index.html",
+      "status": 200,
+      "byte": 292506,
+      "sha256": "0fbb8e5405daed871c74c9a63687fe2d0aae2fdd8c06aed44c233a94a283c2b3",
+      "copia_esatta_output_verificato": true,
+      "versione": [
+        "v8"
+      ]
+    },
+    {
+      "file": "stati_della_materia.html",
+      "url": "https://rickymusu-bit.github.io/fisica/stati_della_materia.html",
+      "status": 200,
+      "byte": 7892485,
+      "sha256": "13f455851c0121e838762dc68f4b969c686db04f14ae18fc6aa8122aa13fa3f6",
+      "copia_esatta_output_verificato": true,
+      "versione": [
+        "v13"
+      ]
+    },
+    {
+      "file": "passaggi_di_stato.html",
+      "url": "https://rickymusu-bit.github.io/fisica/passaggi_di_stato.html",
+      "status": 200,
+      "byte": 14558814,
+      "sha256": "c2ec37ed90756f638d57a2f606c65b7718d0710cc40d043057952e1a8b3c32b9",
+      "copia_esatta_output_verificato": true,
+      "versione": [
+        "v14"
+      ]
+    },
+    {
+      "file": "irraggiamento_it.html",
+      "url": "https://rickymusu-bit.github.io/fisica/irraggiamento_it.html",
+      "status": 200,
+      "byte": 5983390,
+      "sha256": "58f350e3e18ccf842e94cbab2aa7fd4deb73ae0b5fc523e6b1a2041f556b4179",
+      "copia_esatta_output_verificato": true,
+      "versione": [
+        "v6"
+      ]
+    },
+    {
+      "file": "stati_della_materia_e_passaggi_di_stato.html",
+      "url": "https://rickymusu-bit.github.io/fisica/stati_della_materia_e_passaggi_di_stato.html",
+      "status": 200,
+      "byte": 1883,
+      "sha256": "dcd051a8608d2c3e37b988ce43eb189eaf1e1b208c27eb800477aba17a6f8ec2",
+      "copia_esatta_output_verificato": true,
+      "versione": []
+    },
+    {
+      "file": "stati_della_materia_e_passaggi_di_stato_v8_20261016.html",
+      "url": "https://rickymusu-bit.github.io/fisica/stati_della_materia_e_passaggi_di_stato_v8_20261016.html",
+      "status": 200,
+      "byte": 1883,
+      "sha256": "dcd051a8608d2c3e37b988ce43eb189eaf1e1b208c27eb800477aba17a6f8ec2",
+      "copia_esatta_output_verificato": true,
+      "versione": []
+    }
+  ],
+  "workflow_conclusione": "success"
+}
