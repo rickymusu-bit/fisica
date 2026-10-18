@@ -4,16 +4,16 @@
 
 | Capitolo e futuro percorso | Provenienza | Contenuti e risorse conservati | Domande |
 | --- | --- | --- | --- |
-| Conduzione · `conduzione_it.html` | `#potenza` + `#conduzione`, primi due gruppi di domande | Breve sezione sulla potenza termica; due stufette e confronto numerico; zuppa e cucchiaio; reticolo animato; tabella λ con tutti gli otto materiali; video con miniatura e URL esatti; Fourier; muro e grafico corretto; caffettiera, vetrocamera, igloo, metallo freddo, dissipatore. | 13 |
+| Conduzione · `conduzione_it.html` | `#potenza` + `#conduzione`, primi due gruppi di domande | Breve sezione sulla potenza termica; zuppa e cucchiaio; reticolo animato; tabella λ con tutti gli otto materiali; video con miniatura e URL esatti; Fourier; muro e grafico corretto; caffettiera, vetrocamera, igloo, metallo freddo, dissipatore. | 13 |
 | Convezione · `convezione_it.html` | `#convezione`, terzo gruppo di domande | Stanza, densità e gravità; meccanismo naturale e forzato; atmosfera e rotazione; mantello prevalentemente solido; ventola del processore; radiatore, pompa, termostato, alette e ramo dell’abitacolo. | 7 |
 
 ## Scelta strutturale ricevuta
 
-Il 18 ottobre 2026 alle 13:12 l’utente ha indicato di integrare la potenza termica come piccola sezione di Conduzione. La richiesta sostituisce la precedente pianificazione in tre capitoli, senza modificare il master e senza estendere questa scelta ad altri argomenti. La sezione introduce il significato di potenza e le due relazioni equivalenti prima di Fourier. I confronti numerici sono conservati nell’esempio svolto, separati dalla breve teoria; i sei quesiti confluiscono nei 13 finali di Conduzione. Non è previsto `potenza_termica_it.html` né una sua copertina. La scelta strutturale non approva automaticamente il nuovo testo o la realizzazione HTML.
+Il 18 ottobre 2026 alle 13:12 l’utente ha indicato di integrare la potenza termica come piccola sezione di Conduzione. La richiesta sostituisce la precedente pianificazione in tre capitoli, senza modificare il master e senza estendere questa scelta ad altri argomenti. La sezione introduce il significato di potenza e le due relazioni equivalenti prima di Fourier. Su successiva richiesta del 18 ottobre alle 13:17, l’esempio svolto delle due stufette è rimosso insieme ai suoi schemi e richiami visuali. I sei quesiti sulla potenza restano nei 13 finali di Conduzione. Non è previsto `potenza_termica_it.html` né una sua copertina. La scelta strutturale non approva automaticamente il nuovo testo o la realizzazione HTML.
 
 ## Bozze complete da esaminare
 
-- [Conduzione](../conduzione/bozza.md): apertura sul manico che si scalda; meccanismo microscopico; breve sezione su energia, potenza e durata prima di Fourier; applicazioni; esempio svolto delle stufette; 13 domande finali.
+- [Conduzione](../conduzione/bozza.md): apertura sul manico che si scalda; meccanismo microscopico; breve sezione su energia, potenza e durata prima di Fourier; applicazioni; 13 domande finali, senza esempio svolto sulle stufette.
 - [Convezione](../convezione/bozza.md): apertura sull’aria sopra il termosifone; teoria naturale e forzata; applicazioni atmosferiche, geologiche e tecniche; domande finali. Nessuna legge di Newton aggiunta automaticamente, perché assente dalla fonte approvata.
 
 Le due fotografie distinte del dissipatore restano nei capitoli pertinenti: una illustra il percorso nel metallo, l’altra il passaggio all’aria mossa dalla ventola. Le applicazioni opzionali sono proposte per conservare quanto già presente. Nessun nuovo capitolo di meteorologia o geologia, nessun riepilogo automatico, nessuna soluzione alle domande.
@@ -28,7 +28,7 @@ Le due fotografie distinte del dissipatore restano nei capitoli pertinenti: una 
 
 ## Visuali, interazioni e copertine
 
-[suddivisione.json](suddivisione.json) identifica le **15 immagini HTML**, compresa la miniatura video, con hash dei riferimenti incorporati, destinazione e hash dello script fisico. Originali e traduzioni restano in `risorse/` della fonte. Non si ripetono traduzioni o elaborazioni già approvate. Le licenze storiche non pienamente documentate restano da chiarire prima di una futura pubblicazione: non sono dichiarate verificate.
+[suddivisione.json](suddivisione.json) identifica le **15 immagini HTML**, compresa la miniatura video, con hash dei riferimenti incorporati, destinazione e hash dello script fisico. Le prime due immagini, relative alle stufette, sono conservate nella fonte ma escluse dal capitolo rivisto su richiesta del 18 ottobre alle 13:17. Originali e traduzioni restano in `risorse/` della fonte. Non si ripetono traduzioni o elaborazioni già approvate. Le licenze storiche non pienamente documentate restano da chiarire prima di una futura pubblicazione: non sono dichiarate verificate.
 
 Servono due copertine distinte dalle figure interne. Nessuna ricerca o generazione è stata avviata. Proposte di soggetto da fornire/scegliere secondo C2:
 

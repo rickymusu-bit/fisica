@@ -10,13 +10,17 @@
       "id": "img-01",
       "alt": "Stufetta elettrica radiante nera",
       "sha256_src": "f48f7746b089cb2c5a49005f2e300923c7f527f909b6b5b4363c1a6103bd2354",
-      "destinazione": "conduzione"
+      "destinazione": null,
+      "stato": "esclusa dalla bozza rivista con la rimozione dell’esempio svolto; originale conservato",
+      "motivazione": "richiesta utente 18 ottobre 2026 ore 13:17 Europe/Rome"
     },
     {
       "id": "img-02",
       "alt": "Termoventilatore elettrico bianco",
       "sha256_src": "42cb17c14ecb1efaae5a3b9d8d8a24a25a5da539dab2c1a5709f6466ce1cac37",
-      "destinazione": "conduzione"
+      "destinazione": null,
+      "stato": "esclusa dalla bozza rivista con la rimozione dell’esempio svolto; originale conservato",
+      "motivazione": "richiesta utente 18 ottobre 2026 ore 13:17 Europe/Rome"
     },
     {
       "id": "img-03",
@@ -105,5 +109,6 @@
     "conduzione_it.html",
     "convezione_it.html"
   ],
-  "decisione": "Potenza termica come breve sezione di Conduzione, richiesta 18 ottobre 2026 ore 13:12 Europe/Rome"
+  "decisione": "Potenza termica come breve sezione di Conduzione, richiesta 18 ottobre 2026 ore 13:12 Europe/Rome",
+  "esempio_stufette": "rimosso su richiesta; domande finali invariate"
 }

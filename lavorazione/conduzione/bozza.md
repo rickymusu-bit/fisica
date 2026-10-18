@@ -60,7 +60,6 @@ Se la potenza resta costante, l’energia trasferita si ricava moltiplicandola p
 Q=P\cdot\Delta t
 \]
 
-[VISUALE P-1/P-2 — Le due stufette già approvate sono conservate nello schema dell’esempio svolto, dopo le applicazioni.]
 
 ### La legge di Fourier per una parete piana
 
@@ -120,41 +119,6 @@ Un processore funzionante libera energia termica in una zona piccola. La base de
 
 Didascalia: Il calore passa dal processore alla base e alle alette metalliche prima di essere ceduto all’aria.
 
-
-## Esempio svolto
-
-### Due stufette a confronto
-
-
-Immaginiamo che le due stufette trasferiscano ciascuna 1,20 · 10⁵ J = 120 kJ. La prima impiega 6,0 · 10¹ s = 60 s; la seconda 1,20 · 10² s = 120 s. Sono dati ipotetici del confronto, non misure ricavate dalle fotografie.
-
-[SCHEMA P-4 — Riutilizzare le fotografie P-1/P-2 e associare a ciascuna energia e durata appena indicate, con una freccia di trasferimento verso l’ambiente. Un solo schema fisico del confronto, prima dei calcoli; non sostituire i dispositivi con sagome geometriche.]
-
-Dividiamo la stessa energia per i due intervalli:
-
-\[
-P_A=\frac{1,20\cdot10^5\ \mathrm{J}}{6,0\cdot10^1\ \mathrm{s}}=2,0\cdot10^3\ \mathrm{W}=2,0\ \mathrm{kW}
-\]
-
-\[
-P_B=\frac{1,20\cdot10^5\ \mathrm{J}}{1,20\cdot10^2\ \mathrm{s}}=1,0\cdot10^3\ \mathrm{W}=1,0\ \mathrm{kW}
-\]
-
-La prima trasferisce ogni secondo il doppio dell’energia della seconda: 2,0 kJ invece di 1,0 kJ. Per questo completa lo stesso trasferimento in metà tempo. Il confronto mostra che una potenza maggiore non implica, da sola, una maggiore energia totale.
-
-Usiamo ancora le due stufette, supponendo che mantengano queste potenze. Se A funziona per 1 h = 3,6 · 10³ s e B per 2 h = 7,2 · 10³ s, otteniamo:
-
-\[
-Q_A=2,0\cdot10^3\ \mathrm{W}\cdot3,6\cdot10^3\ \mathrm{s}=7,2\cdot10^6\ \mathrm{J}=7,2\ \mathrm{MJ}
-\]
-
-\[
-Q_B=1,0\cdot10^3\ \mathrm{W}\cdot7,2\cdot10^3\ \mathrm{s}=7,2\cdot10^6\ \mathrm{J}=7,2\ \mathrm{MJ}
-\]
-
-[SCHEMA P-5 — Stesse fotografie approvate, con i nuovi intervalli e le potenze: nessun nuovo oggetto; collocare prima di questi due calcoli.]
-
-Ciascun trasferimento equivale a sessanta trasferimenti da 120 kJ del confronto iniziale. La stufetta meno potente raggiunge la stessa energia restando accesa per un tempo doppio.
 
 ## Domande di verifica
 
