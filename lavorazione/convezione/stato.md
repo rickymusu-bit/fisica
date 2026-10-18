@@ -2,7 +2,7 @@
 
 Aggiornamento: 18 ottobre 2026, ore 21:56 (Europe/Rome). Master v59 già letto integralmente e invariato; AGENTS.md, stile v6 e tema comune v7 applicati. Base ufficiale: main `c9f6938b51196ee50c07a20323b722d019491609`; ramo `revisione/visuali-wok-convezione`.
 
-Fase corrente: **v3 verificata**, anteprima pronta; aggiornamento della pubblicazione autorizzata nella conversazione in corso. Richieste: quattro sostituzioni Wikimedia, nuovo testo del wok/manico di legno, nuova immagine generata al posto di parete e grafico separato, simbolo della temperatura sempre T maiuscola.
+Fase corrente: **v3 verificata e pubblicata**; aggiornamento completato su main e GitHub Pages nella conversazione in corso. Richieste: quattro sostituzioni Wikimedia, nuovo testo del wok/manico di legno, nuova immagine generata al posto di parete e grafico separato, simbolo della temperatura sempre T maiuscola.
 
 Sostituiti lo schema della stanza, la fotografia del dissipatore CPU e lo schema del radiatore con i tre originali Wikimedia scelti. Didascalie, descrizioni accessibili e crediti aggiornati; rimosso il richiamo a un circuito visibile nello schema che non compare più. Tutte le immagini correnti hanno crediti documentati; rimosso dai crediti il vecchio elenco dei tre materiali senza fonte.
 
@@ -12,7 +12,7 @@ Originali e crediti: [registro delle sostituzioni](../potenza_termica_conduzione
 
 Verifiche: build riuscita (home e cinque articoli), CSS e script identici alla versione pubblicata, quesiti invariati, immagini e ingrandimenti funzionanti, indice e ancore validi, nessun overflow o errore JavaScript rilevato a 1440 e 390 px, download e nuovi pesi corretti. [Rapporto delle verifiche](../potenza_termica_conduzione_convezione/verifica-visuali.json). Schermate delle parti modificate prodotte e ispezionate prima della pubblicazione.
 
-Prossimo passaggio: salvataggio GitHub, integrazione in main, workflow Pages e verifica dei file pubblici.
+Pubblicazione completata con la [PR #33](https://github.com/rickymusu-bit/fisica/pull/33), merge `6081e98c79ac27837fd10e07f71bc2cddfe27127`. [Workflow Pages riuscito](https://github.com/rickymusu-bit/fisica/actions/runs/39161186642). Verificati HTTP 200 e SHA-256 identico ai file locali per la home e i due articoli. [Rapporto online](../potenza_termica_conduzione_convezione/verifica-online.json). Nessun passaggio di aggiornamento ancora aperto.
 
 ## Pubblicazione precedente — 18 ottobre 2026
 

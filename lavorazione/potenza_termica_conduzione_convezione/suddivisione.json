@@ -1,5 +1,5 @@
 {
-  "stato": "versioni v3 verificate con le cinque sostituzioni visuali richieste; aggiornamento della pubblicazione in preparazione",
+  "stato": "Conduzione e Convezione v3 pubblicati con cinque sostituzioni visuali e temperatura T; resa desktop/mobile e file pubblici verificati",
   "fonte": "potenza_termica_conduzione_convezione_it.html",
   "versione_fonte": "v7",
   "sha256_fonte": "b346fd60bcce9ca7d74628434d8c854332ff55ddd9dd80db3253cc2f04bc5251",
@@ -451,14 +451,14 @@
     "convezione": "lavorazione/convezione/bozza.html"
   },
   "pubblicazione": {
-    "pr": "https://github.com/rickymusu-bit/fisica/pull/32",
-    "merge": "edb339c72bc4ebf68257129fe0acd37254727054",
-    "workflow": "https://github.com/rickymusu-bit/fisica/actions/runs/39155922270",
+    "pr": "https://github.com/rickymusu-bit/fisica/pull/33",
+    "merge": "6081e98c79ac27837fd10e07f71bc2cddfe27127",
+    "workflow": "https://github.com/rickymusu-bit/fisica/actions/runs/39161186642",
     "esito": "success",
-    "url": [
-      "https://rickymusu-bit.github.io/fisica/conduzione_it.html",
-      "https://rickymusu-bit.github.io/fisica/convezione_it.html"
-    ],
+    "versioni": {
+      "conduzione": "v3",
+      "convezione": "v3"
+    },
     "file_pubblici_identici_a_verificati": true
   },
   "visuali_correnti_v3": "risorse/sostituzioni-visuali.json",
