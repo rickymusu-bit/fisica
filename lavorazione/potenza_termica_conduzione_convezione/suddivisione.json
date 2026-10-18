@@ -1,5 +1,5 @@
 {
-  "stato": "due capitoli su indicazione utente; bozze riviste non approvate",
+  "stato": "due articoli HTML v1 realizzati sul ramo; controlli statici superati, browser da verificare; non pubblicati",
   "fonte": "potenza_termica_conduzione_convezione_it.html",
   "versione_fonte": "v7",
   "sha256_fonte": "b346fd60bcce9ca7d74628434d8c854332ff55ddd9dd80db3253cc2f04bc5251",
@@ -424,5 +424,20 @@
     "stato": "testo aggiunto su richiesta 18 ottobre 2026 ore 18:28",
     "condizioni": "oggetti alla stessa temperatura, più freddi della pelle; metallo sottrae energia più rapidamente",
     "correzione": "non sempre più freddo; con oggetti più caldi della pelle la sensazione può invertirsi"
+  },
+  "elettroni_metallo": {
+    "id": "E-1",
+    "file": "lavorazione/conduzione/risorse/elettroni-metallo.gif",
+    "fonte": "https://commons.wikimedia.org/wiki/File:Enlace_metalico.gif",
+    "autore": "Jerónimo Cueto",
+    "licenza": "CC0 1.0",
+    "licenza_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "modifiche": "GIF invariata; fermo immagine derivato per pausa e movimento ridotto",
+    "sha256": "d663267085b72621d4f6bc9cf96b674ea8df57664f55c31cee78392acd6fe566",
+    "approvazione": "URL fornito dall’utente, con via alla realizzazione; nessuna simulazione programmata"
+  },
+  "html_correnti": {
+    "conduzione": "lavorazione/conduzione/bozza.html",
+    "convezione": "lavorazione/convezione/bozza.html"
   }
 }

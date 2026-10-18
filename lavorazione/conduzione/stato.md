@@ -2,7 +2,7 @@
 
 Aggiornamento: 18/10/2026 12:26 (Europe/Rome). Master letto: v59. Tema: modello comune v7, con prevalenze esplicite di AGENTS.md e TERMINOLOGIA_SITO.md v4.
 
-Fase: bozza testuale proposta, **non approvata**. HTML non iniziato. Ramo `revisione/potenza-conduzione-convezione`, derivato da main `8c071729b2bf577886e0227c383a0318c0eb5905`.
+Fase corrente: HTML v1 realizzato sul ramo di revisione; controlli statici superati, verifica visiva e funzionale browser ancora aperta. Le fasi precedenti sono documentate sotto. Ramo `revisione/potenza-conduzione-convezione`, derivato da main `8c071729b2bf577886e0227c383a0318c0eb5905`.
 
 Argomento, confini, provenienze, visuali e interazioni: [proposta di suddivisione](../potenza_termica_conduzione_convezione/proposta-suddivisione.md). Fonte scientifica e visuale: HTML unificato v7, blob `14e072ca077fc7887c86749df9c3ec1213735aa7`. La vecchia bozza non sostituisce le correzioni presenti nell’HTML.
 
@@ -10,9 +10,9 @@ Bozza corrente: [bozza.md](bozza.md), con copertina e visuali identificate. Le a
 
 Checklist: monograficità; teoria → applicazioni/esempio concordati → domande finali; formule discorsive; notazione scientifica nei calcoli; schemi con oggetti approvati; copertina distinta; note brevi e collassabili; tema esatto v7 con «← Articoli», logo e area «Materia e calore»; visuali con composizione invariata su mobile; HTML autonomo; niente traduzioni o nuovi media autonomi; nessuna modifica di main, manifest o pubblicazione.
 
-Punti aperti: approvazione della suddivisione e della bozza; copertina da fornire/scelta esplicita; limiti di attribuzione storici da chiarire prima di una futura diffusione pubblica. Simulazione: solo in Conduzione, riuso del modello esistente, nessuna programmazione avviata; stima nella proposta.
+Punti aperti attuali: verifica desktop/mobile e interazioni nel browser; attribuzioni non documentate delle immagini storiche prima della diffusione pubblica. I materiali nuovi scelti sono incorporati; nessuna simulazione da sviluppare.
 
-Prossimo passo: raccogliere correzioni e copertina; dopo approvazione della bozza, presentare stima totale ripartita e ottenere il via esplicito prima dell’HTML. Questa pausa applica la richiesta dell’utente e B1.1 punti 3–5 del master.
+Prossimo passo: controllo browser delle anteprime; eventuali correzioni e successiva approvazione prima di main e pubblicazione.
 
 ## Aggiornamento — 18 ottobre 2026, ore 13:12 (Europe/Rome)
 
@@ -81,3 +81,11 @@ Per Conduzione l’utente comunica l’insuccesso della ricerca dello schema e p
 Richiesta eseguita nella bozza: alla fine dell’applicazione sul palo gelato aggiunta la spiegazione del metallo che sembra più freddo di legno o plastica alla stessa temperatura, quando gli oggetti sono più freddi della pelle. Esplicitato il maggiore trasferimento di energia dalla pelle e il ruolo della conducibilità; corretto «sempre»: con oggetti più caldi della pelle la sensazione può invertirsi. Nota breve sulle altre proprietà che influenzano lo scambio, senza introdurre effusività o formule aggiuntive.
 
 L’utente sostituisce la simulazione con la sola immagine del metallo e degli elettroni di conduzione. Segnaposto E-1 statico ripristinato, piano simulazione contrassegnato come ritirato e stima non più corrente; nessun codice da sviluppare. Resta da fornire/scegliere l’originale E-1 secondo C2: reticolo ed elettroni delocalizzati distinguibili, senza corrente ordinata implicita. Nessuna ricerca o generazione autonoma avviata. Verificati testo modificato, richiamo/nota 5, ritiro del segnaposto dinamico e conservazione di formule e 12 quesiti. Nessun HTML finale, modifica di main o pubblicazione. Prossimo passo: ricevere l’immagine E-1 e completare l’esame della bozza.
+
+## Realizzazione HTML e salvataggio — 18/10/2026 20:18 (Europe/Rome)
+
+L’utente ha fornito Enlace_metalico.gif e autorizzato «Puoi andare avanti con gli articoli», poi richiesto «Riprendi e finisci il lavoro». Ripresi gli HTML già realizzati; mantenute scelte, correzioni e tema v7. Questa autorizzazione permette di completare gli articoli nel ramo di revisione, senza dedurre un via alla pubblicazione.
+
+Anteprima autonoma: [bozza.html](bozza.html), versione interna v1, 12 quesiti. Immagini incorporate, copertina distinta, note e crediti inizialmente chiusi; CSS e script comuni identici al modello. Controllati identificativi, ancore, integrità dei media, dimensione e sintassi JavaScript. Rapporto in [verifica-html.json](../potenza_termica_conduzione_convezione/verifica-html.json).
+
+Il browser locale si chiude all’avvio perché i socket richiesti non sono consentiti: nessuna verifica desktop/mobile o prova funzionale dichiarata completata. Un’immagine desktop parziale di Conduzione proviene dal tentativo precedente e non prova l’intero articolo. Nessuna modifica a main, manifest, home, tema o HTML ufficiali. Restano da chiarire i diritti dei materiali storici già ereditati, come registrato nei crediti; la revisione non autorizza la diffusione pubblica.

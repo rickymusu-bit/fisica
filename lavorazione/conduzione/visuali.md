@@ -46,3 +46,7 @@ L’utente comunica di non aver trovato uno schema adeguato e propone la simulaz
 ## Scelta corrente E-1 — 18 ottobre 2026, ore 18:28 (Europe/Rome)
 
 L’utente ritira la proposta di simulazione e richiede soltanto un’immagine statica del metallo con gli elettroni di conduzione. Questa decisione supera la proposta dinamica delle ore 17:45. E-1 torna a essere uno schema da scegliere/fornire: ioni del reticolo distinguibili dagli elettroni delocalizzati distribuiti nel metallo; poche etichette leggibili. Un’eventuale freccia caldo → freddo deve indicare il trasferimento netto di energia, non una corrente ordinata di elettroni. Collocazione invariata nella sezione sui conduttori. Nessun file nuovo disponibile o immagine inventata; scelta e originale restano aperti secondo C2. Piano simulazione ritirato e conservato soltanto come storia del lavoro. L’aggiunta sul tatto resta nella sezione del palo gelato, accanto alla visuale già approvata, senza una nuova applicazione autonoma.
+
+## Scelta definitiva E-1 e realizzazione — 18/10/2026 20:18 (Europe/Rome)
+
+Usata la GIF Enlace_metalico.gif fornita dall’utente, conservata in risorse/elettroni-metallo.gif e incorporata nell’HTML v1. Rappresenta il reticolo metallico e gli elettroni di conduzione; nessuna nuova simulazione del trasferimento termico. Controlli pausa/ripresa e fermo immagine per movimento ridotto presenti. Copertina takoyaki scelta e salvata in risorse/copertina-takoyaki.jpg, distinta dalle immagini nel testo. Metadati nel registro suddivisione.json; crediti nell’HTML.

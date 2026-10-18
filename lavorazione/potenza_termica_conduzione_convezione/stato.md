@@ -94,3 +94,7 @@ Verificati formule e simboli, ipotesi della parete e temperature delle facce, di
 ## Consegna delle bozze — 18 ottobre 2026, ore 13:42 (Europe/Rome)
 
 L’utente ha disposto di non riportare mai testi integrali dei capitoli in chat: tutte le bozze vanno scritte nei file della cartella di lavorazione sul repository. Regola registrata in AGENTS.md sul ramo dedicato, con prevalenza sull’opzione chat di A6/B1.1. In chat solo riepiloghi, punti da approvare e link ai file. I due testi già salvati restano le bozze correnti; questa richiesta non costituisce approvazione dei contenuti o via agli HTML. Main e pubblicazione invariati.
+
+## Ripresa e HTML v1 — 18/10/2026 20:18 (Europe/Rome)
+
+Completati nel ramo gli HTML autonomi [Conduzione](../conduzione/bozza.html) e [Convezione](../convezione/bozza.html), con 12 e 7 quesiti. Autorizzazione esplicita dell’utente a procedere e a finire il lavoro; nessuna pubblicazione autorizzata. Potenza termica integrata in Conduzione. Conservate le ultime richieste su elettroni, metallo al tatto e fotografie di ventilatore/processore. Controlli statici superati: dettagli in verifica-html.json. Tentativo browser fallito per socket non consentiti; resa e comandi ancora da verificare. HTML storici, main, home e manifest invariati. Restano aperte le attribuzioni dei media storici prima della diffusione pubblica.

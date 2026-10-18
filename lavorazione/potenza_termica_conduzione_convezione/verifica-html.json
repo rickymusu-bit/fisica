@@ -1,0 +1,42 @@
+{
+  "conduzione": {
+    "versione": "v1",
+    "tema": "v7",
+    "byte": 7431696,
+    "sha256": "68cb0ad1421aedfd80039b007339e1a8233c03551a0f3f33aa6286173f0c167c",
+    "quesiti": 12,
+    "figure": 10,
+    "id_univoci": true,
+    "ancore_interne_valide": true,
+    "media_incorporati_validi": true,
+    "css_comune_identico": true,
+    "script_comuni_identici": true,
+    "note_inizialmente_chiuse": true,
+    "crediti_inizialmente_chiusi": true,
+    "risorse_esterne_necessarie": false,
+    "copertina_non_ripetuta": true,
+    "browser": "Tentativo fallito: browser chiuso all’avvio per socket non consentiti",
+    "resa_desktop_mobile": "non verificata",
+    "comandi_interattivi": "codice comune preservato; verifica funzionale browser non completata"
+  },
+  "convezione": {
+    "versione": "v1",
+    "tema": "v7",
+    "byte": 12149549,
+    "sha256": "dee35296bc1e50b9bad615b7673482e183c6af3e6bc09ccc222dfd2ce6d56c22",
+    "quesiti": 7,
+    "figure": 9,
+    "id_univoci": true,
+    "ancore_interne_valide": true,
+    "media_incorporati_validi": true,
+    "css_comune_identico": true,
+    "script_comuni_identici": true,
+    "note_inizialmente_chiuse": true,
+    "crediti_inizialmente_chiusi": true,
+    "risorse_esterne_necessarie": false,
+    "copertina_non_ripetuta": true,
+    "browser": "Tentativo fallito: browser chiuso all’avvio per socket non consentiti",
+    "resa_desktop_mobile": "non verificata",
+    "comandi_interattivi": "codice comune preservato; verifica funzionale browser non completata"
+  }
+}
