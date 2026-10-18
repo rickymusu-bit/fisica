@@ -1,6 +1,6 @@
 # Irraggiamento
 
-Bozza testuale corrente della v6; tema comune v3.
+Bozza testuale corrente della v7; tema comune v4.
 
 ## Perché i rettili prendono il sole?
 

@@ -41,8 +41,15 @@ def read_document(path, language="it"):
 
 def main():
     index = ROOT / "index.html"
+    publication = json.loads((ROOT / "pubblicazione.json").read_text())
+    allowed_articles = set(publication["articoli"])
+    excluded_articles = set(publication["esclusi_da_pubblicazione_e_aggiornamenti"])
+    if allowed_articles & excluded_articles:
+        raise ValueError("Un articolo risulta sia ammesso sia escluso")
     covers = load_covers(ROOT)
     document = read_document(index)
+    if document.catalogue_links != allowed_articles:
+        raise ValueError("Il catalogo non corrisponde agli articoli conformati ammessi")
     sources = {index}
     for link in document.links:
         url = urlsplit(link)
@@ -60,8 +67,17 @@ def main():
         path = (ROOT / unquote(url.path)).resolve()
         if not path.is_relative_to(ROOT) or path.suffix != ".html" or not path.is_file():
             raise ValueError(f"Collegamento HTML non valido: {link}")
+        if str(path.relative_to(ROOT)) not in allowed_articles:
+            raise ValueError(f"Articolo non ammesso alla pubblicazione: {link}")
         read_document(path)
         sources.add(path)
+    for source in sources - {index}:
+        article = read_document(source)
+        for link in article.links:
+            url = urlsplit(link)
+            if not url.scheme and not url.netloc and url.path.endswith(".html"):
+                if unquote(url.path) not in allowed_articles | {"index.html"}:
+                    raise ValueError(f"Link a un articolo escluso: {source.name}: {link}")
     if len(sources) <= 1:
         raise ValueError("L'indice non contiene materiali")
     if OUTPUT.exists():

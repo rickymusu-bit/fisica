@@ -1,0 +1,113 @@
+{
+  "articoli_esclusi_sha256": {
+    "metodo_scientifico_it.html": "9da4bdf7f2c70a6db51ce53a7ce7a2b8566a07e1592e509ea9014be4b7114719",
+    "sistema_internazionale_notazione_it.html": "fcf517359d9088d4298eb9906279bdc0ecf1b22683b7f3bfefd8b293cd0c1cfc",
+    "strumenti_errori_incertezza_it.html": "d9a4c9b2fed3c29f0393547ac875e8ab603abb289a9a5af07baa7873a7024106",
+    "grafici_piano_cartesiano_it.html": "256cad18e3b23b8eadb24eb5dfe426f357fa66b062e36b4fccfb72aa40e47aea",
+    "lavoro_energie_potenza_it.html": "3c5b92b6a95068dcf8c674dd3cbaac73f2923e8810ae147b880f31d99ce0d572",
+    "bilancio_conservazione_rendimento_it.html": "44a71dfd9f07bb9ff5c0a86006b85a654ad2732b34beda142d9d7b4c0e408c69",
+    "potenza_termica_conduzione_convezione_it.html": "b346fd60bcce9ca7d74628434d8c854332ff55ddd9dd80db3253cc2f04bc5251"
+  },
+  "articoli_aggiornati": {
+    "stati_della_materia.html": {
+      "versione": "v14",
+      "peso_byte": 7892542,
+      "testo_immagini_script_stili_conservati": true
+    },
+    "passaggi_di_stato.html": {
+      "versione": "v15",
+      "peso_byte": 14558982,
+      "testo_immagini_script_stili_conservati": true
+    },
+    "irraggiamento_it.html": {
+      "versione": "v7",
+      "peso_byte": 5983349,
+      "testo_immagini_script_stili_conservati": true
+    }
+  },
+  "modello": "v4",
+  "master": "v59",
+  "browser": [
+    {
+      "file": "stati_della_materia.html",
+      "larghezza": 320,
+      "ritorno_articoli_e_indice": true,
+      "overflow": false
+    },
+    {
+      "file": "passaggi_di_stato.html",
+      "larghezza": 320,
+      "ritorno_articoli_e_indice": true,
+      "overflow": false
+    },
+    {
+      "file": "irraggiamento_it.html",
+      "larghezza": 320,
+      "ritorno_articoli_e_indice": true,
+      "overflow": false
+    },
+    {
+      "file": "stati_della_materia.html",
+      "larghezza": 390,
+      "ritorno_articoli_e_indice": true,
+      "overflow": false
+    },
+    {
+      "file": "passaggi_di_stato.html",
+      "larghezza": 390,
+      "ritorno_articoli_e_indice": true,
+      "overflow": false
+    },
+    {
+      "file": "irraggiamento_it.html",
+      "larghezza": 390,
+      "ritorno_articoli_e_indice": true,
+      "overflow": false
+    },
+    {
+      "file": "stati_della_materia.html",
+      "larghezza": 768,
+      "ritorno_articoli_e_indice": true,
+      "overflow": false
+    },
+    {
+      "file": "passaggi_di_stato.html",
+      "larghezza": 768,
+      "ritorno_articoli_e_indice": true,
+      "overflow": false
+    },
+    {
+      "file": "irraggiamento_it.html",
+      "larghezza": 768,
+      "ritorno_articoli_e_indice": true,
+      "overflow": false
+    },
+    {
+      "file": "stati_della_materia.html",
+      "larghezza": 1280,
+      "ritorno_articoli_e_indice": true,
+      "overflow": false
+    },
+    {
+      "file": "passaggi_di_stato.html",
+      "larghezza": 1280,
+      "ritorno_articoli_e_indice": true,
+      "overflow": false
+    },
+    {
+      "file": "irraggiamento_it.html",
+      "larghezza": 1280,
+      "ritorno_articoli_e_indice": true,
+      "overflow": false
+    }
+  ],
+  "download_identici": [
+    "stati_della_materia.html",
+    "passaggi_di_stato.html",
+    "irraggiamento_it.html"
+  ],
+  "esclusi_assenti_output": true,
+  "sorgenti_esclusi_invariati": true,
+  "errori_js": [],
+  "build_rifiuta_catalogo_con_articoli_esclusi": true
+}
