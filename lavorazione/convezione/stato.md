@@ -13,3 +13,9 @@ Checklist: monograficità; teoria → applicazioni/esempio concordati → domand
 Punti aperti: approvazione della suddivisione e della bozza; copertina da fornire/scelta esplicita; limiti di attribuzione storici da chiarire prima di una futura diffusione pubblica. Simulazione: solo in Conduzione, riuso del modello esistente, nessuna programmazione avviata; stima nella proposta.
 
 Prossimo passo: raccogliere correzioni e copertina; dopo approvazione della bozza, presentare stima totale ripartita e ottenere il via esplicito prima dell’HTML. Questa pausa applica la richiesta dell’utente e B1.1 punti 3–5 del master.
+
+## Aggiornamento — 18 ottobre 2026, ore 13:12 (Europe/Rome)
+
+Ricevuta indicazione esplicita: integrare la potenza termica come piccola sezione di **Conduzione**. La proposta corrente prevede **due capitoli, Conduzione e Convezione**, con 13 e 7 quesiti. Convezione mantiene il testo già proposto. In Conduzione inserita una breve sezione sul significato di P = Q/Δt e Q = P · Δt prima di Fourier; confronto delle stufette conservato fra gli esempi svolti, immagini e richieste originali preservate. Copertine necessarie ridotte a due. La bozza autonoma di potenza termica è ritirata e resta recuperabile in Git.
+
+Questa indicazione approva la scelta strutturale specifica, non il testo rivisto né il via agli HTML. Proposta, mappa risorse e bozze aggiornate sul ramo dedicato; master, tema, HTML sorgente, main e pubblicazione invariati. Prossimo passo: esaminare il testo rivisto e scegliere le due copertine; dopo l’approvazione della bozza presentare la stima prima del via agli HTML.

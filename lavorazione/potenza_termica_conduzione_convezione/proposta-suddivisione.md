@@ -1,17 +1,19 @@
 # Proposta di suddivisione
 
-18 ottobre 2026. **Proposta e bozze non approvate.** Master v59, tema v7. Fonte: HTML unificato v7, blob `14e072ca077fc7887c86749df9c3ec1213735aa7`, main `8c071729b2bf577886e0227c383a0318c0eb5905`. Nessun HTML nuovo prodotto.
+18 ottobre 2026. **Impostazione aggiornata su richiesta dell’utente: due capitoli. Testi rivisti ancora da approvare.** Master v59, tema v7. Fonte: HTML unificato v7, blob `14e072ca077fc7887c86749df9c3ec1213735aa7`, main `8c071729b2bf577886e0227c383a0318c0eb5905`. Nessun HTML nuovo prodotto.
 
 | Capitolo e futuro percorso | Provenienza | Contenuti e risorse conservati | Domande |
 | --- | --- | --- | --- |
-| Potenza termica · `potenza_termica_it.html` | `#potenza`, primo gruppo di `#domande-esercizi` | Energia, tempo, potenza media; P = Q/Δt (frazione orizzontale nell’HTML), Q = P · Δt; due fotografie delle stufette; confronto 120 kJ in 60/120 s e funzionamento 1/2 h. | 6 |
-| Conduzione · `conduzione_it.html` | `#conduzione`, secondo gruppo di domande | Zuppa e cucchiaio; reticolo animato; tabella λ con tutti gli otto materiali; video con miniatura e URL esatti; Fourier; muro e grafico corretto; caffettiera, vetrocamera, igloo, metallo freddo, dissipatore. | 7 |
+| Conduzione · `conduzione_it.html` | `#potenza` + `#conduzione`, primi due gruppi di domande | Breve sezione sulla potenza termica; due stufette e confronto numerico; zuppa e cucchiaio; reticolo animato; tabella λ con tutti gli otto materiali; video con miniatura e URL esatti; Fourier; muro e grafico corretto; caffettiera, vetrocamera, igloo, metallo freddo, dissipatore. | 13 |
 | Convezione · `convezione_it.html` | `#convezione`, terzo gruppo di domande | Stanza, densità e gravità; meccanismo naturale e forzato; atmosfera e rotazione; mantello prevalentemente solido; ventola del processore; radiatore, pompa, termostato, alette e ramo dell’abitacolo. | 7 |
+
+## Scelta strutturale ricevuta
+
+Il 18 ottobre 2026 alle 13:12 l’utente ha indicato di integrare la potenza termica come piccola sezione di Conduzione. La richiesta sostituisce la precedente pianificazione in tre capitoli, senza modificare il master e senza estendere questa scelta ad altri argomenti. La sezione introduce il significato di potenza e le due relazioni equivalenti prima di Fourier. I confronti numerici sono conservati nell’esempio svolto, separati dalla breve teoria; i sei quesiti confluiscono nei 13 finali di Conduzione. Non è previsto `potenza_termica_it.html` né una sua copertina. La scelta strutturale non approva automaticamente il nuovo testo o la realizzazione HTML.
 
 ## Bozze complete da esaminare
 
-- [Potenza termica](../potenza_termica/bozza.md): apertura sulla stessa energia trasferita in tempi diversi; formule motivate; confronto numerico raccolto in «Esempio svolto», con schema, notazione scientifica e interpretazione quantitativa; domande finali.
-- [Conduzione](../conduzione/bozza.md): apertura sul manico che si scalda; meccanismo microscopico e Fourier; applicazioni separate dalla teoria; domande finali.
+- [Conduzione](../conduzione/bozza.md): apertura sul manico che si scalda; meccanismo microscopico; breve sezione su energia, potenza e durata prima di Fourier; applicazioni; esempio svolto delle stufette; 13 domande finali.
 - [Convezione](../convezione/bozza.md): apertura sull’aria sopra il termosifone; teoria naturale e forzata; applicazioni atmosferiche, geologiche e tecniche; domande finali. Nessuna legge di Newton aggiunta automaticamente, perché assente dalla fonte approvata.
 
 Le due fotografie distinte del dissipatore restano nei capitoli pertinenti: una illustra il percorso nel metallo, l’altra il passaggio all’aria mossa dalla ventola. Le applicazioni opzionali sono proposte per conservare quanto già presente. Nessun nuovo capitolo di meteorologia o geologia, nessun riepilogo automatico, nessuna soluzione alle domande.
@@ -28,9 +30,8 @@ Le due fotografie distinte del dissipatore restano nei capitoli pertinenti: una 
 
 [suddivisione.json](suddivisione.json) identifica le **15 immagini HTML**, compresa la miniatura video, con hash dei riferimenti incorporati, destinazione e hash dello script fisico. Originali e traduzioni restano in `risorse/` della fonte. Non si ripetono traduzioni o elaborazioni già approvate. Le licenze storiche non pienamente documentate restano da chiarire prima di una futura pubblicazione: non sono dichiarate verificate.
 
-Servono tre copertine distinte dalle figure interne. Nessuna ricerca o generazione è stata avviata. Proposte di soggetto da fornire/scegliere secondo C2:
+Servono due copertine distinte dalle figure interne. Nessuna ricerca o generazione è stata avviata. Proposte di soggetto da fornire/scegliere secondo C2:
 
-- **P-C:** apparecchio di riscaldamento in funzione, diverso dalle due stufette del confronto.
 - **C-C:** oggetto metallico riscaldato a un’estremità, diverso dal cucchiaio e dalle altre figure interne.
 - **V-C:** moto di un fluido riscaldato, diverso dagli schemi e dalle fotografie interne.
 
@@ -42,7 +43,7 @@ Video: miniatura e URL esatti della fonte, nessun player incorporato. Grafico de
 
 ## Workflow successivo
 
-1. Esaminare suddivisione e tre bozze, raccogliere correzioni e copertine.
+1. Esaminare suddivisione e due bozze, raccogliere correzioni e copertine.
 2. Dopo l’approvazione della bozza, presentare stima totale ripartita fra materiali, interazioni, impaginazione, verifiche e salvataggio; ottenere il via esplicito prima degli HTML, secondo B1.1–B2.
 3. Realizzare un capitolo alla volta sul ramo dedicato con l’esatto tema autonomo v7: «Materia e calore», «← Articoli», logo definitivo con pausa, indice laterale, note collassabili e ritorni. Assegnare versioni e date interne al consolidamento.
 4. Verificare correttezza, peso, autonomia, risorse, link e comandi, con confronto diretto al tema su desktop e smartphone. Registrare gli esiti nei file di stato.

@@ -48,3 +48,9 @@ Registrati [proposta e corrispondenza completa](proposta-suddivisione.md), [inve
 Conservati nella pianificazione 20 quesiti (6/7/7), 15 immagini HTML (compresa miniatura video), video e reticolo animato. Suddivisione e nuove bozze **non approvate**. Nessun HTML realizzato o media elaborato; nessuna modifica di main, home, manifest, tema o pubblicazione. Tre copertine da fornire/scegliere, non cercate né generate. Correzione proposta sulle temperature delle facce della parete e ulteriori precisazioni nella proposta.
 
 Prossimo passo: approvazione/correzione delle bozze e copertine; poi stima totale ripartita e via esplicito prima degli HTML, secondo B1.1–B2 e richiesta corrente dell’utente. Le approvazioni storiche non autorizzano la nuova suddivisione o la pubblicazione. Verifiche browser e verifiche finali degli HTML ancora da eseguire dopo la realizzazione.
+
+## Aggiornamento — 18 ottobre 2026, ore 13:12 (Europe/Rome)
+
+Ricevuta indicazione esplicita: integrare la potenza termica come piccola sezione di **Conduzione**. La proposta corrente prevede **due capitoli, Conduzione e Convezione**, con 13 e 7 quesiti. Convezione mantiene il testo già proposto. In Conduzione inserita una breve sezione sul significato di P = Q/Δt e Q = P · Δt prima di Fourier; confronto delle stufette conservato fra gli esempi svolti, immagini e richieste originali preservate. Copertine necessarie ridotte a due. La bozza autonoma di potenza termica è ritirata e resta recuperabile in Git.
+
+Questa indicazione approva la scelta strutturale specifica, non il testo rivisto né il via agli HTML. Proposta, mappa risorse e bozze aggiornate sul ramo dedicato; master, tema, HTML sorgente, main e pubblicazione invariati. Prossimo passo: esaminare il testo rivisto e scegliere le due copertine; dopo l’approvazione della bozza presentare la stima prima del via agli HTML.

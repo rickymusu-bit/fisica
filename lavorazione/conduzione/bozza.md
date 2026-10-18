@@ -44,6 +44,24 @@ Sei barrette metalliche vengono riscaldate nella stessa zona centrale. Osserva n
 
 Didascalia: Video dell’esperimento: scegli la miniatura per aprirlo sulla piattaforma originale.
 
+### La rapidità del trasferimento: la potenza termica
+
+Per descrivere il calore che attraversa un materiale non basta conoscere l’energia trasferita: conta anche il tempo impiegato. La **potenza termica media** indica la rapidità del trasferimento. Se Q è l’energia trasferita in un intervallo Δt, scriviamo:
+
+\[
+P=\frac{Q}{\Delta t}
+\]
+
+Q si misura in joule (J), Δt in secondi (s) e P in watt (W): un watt corrisponde a un joule trasferito ogni secondo. A parità di energia, impiegare metà tempo significa avere potenza doppia. Energia e potenza descrivono quindi due aspetti diversi dello stesso trasferimento.[3]
+
+Se la potenza resta costante, l’energia trasferita si ricava moltiplicandola per la durata:
+
+\[
+Q=P\cdot\Delta t
+\]
+
+[VISUALE P-1/P-2 — Le due stufette già approvate sono conservate nello schema dell’esempio svolto, dopo le applicazioni.]
+
 ### La legge di Fourier per una parete piana
 
 Per capire quanta energia attraversa una parete in un secondo dobbiamo considerare il materiale, la superficie attraversata e lo spessore. Conta anche la differenza di temperatura: quanto più una faccia è calda rispetto all’altra, tanto maggiore è il trasferimento. La **legge di Fourier**, nel modello di una parete piana, lega queste grandezze alla potenza termica:[2]
@@ -103,24 +121,73 @@ Un processore funzionante libera energia termica in una zona piccola. La base de
 Didascalia: Il calore passa dal processore alla base e alle alette metalliche prima di essere ceduto all’aria.
 
 
+## Esempio svolto
+
+### Due stufette a confronto
+
+
+Immaginiamo che le due stufette trasferiscano ciascuna 1,20 · 10⁵ J = 120 kJ. La prima impiega 6,0 · 10¹ s = 60 s; la seconda 1,20 · 10² s = 120 s. Sono dati ipotetici del confronto, non misure ricavate dalle fotografie.
+
+[SCHEMA P-4 — Riutilizzare le fotografie P-1/P-2 e associare a ciascuna energia e durata appena indicate, con una freccia di trasferimento verso l’ambiente. Un solo schema fisico del confronto, prima dei calcoli; non sostituire i dispositivi con sagome geometriche.]
+
+Dividiamo la stessa energia per i due intervalli:
+
+\[
+P_A=\frac{1,20\cdot10^5\ \mathrm{J}}{6,0\cdot10^1\ \mathrm{s}}=2,0\cdot10^3\ \mathrm{W}=2,0\ \mathrm{kW}
+\]
+
+\[
+P_B=\frac{1,20\cdot10^5\ \mathrm{J}}{1,20\cdot10^2\ \mathrm{s}}=1,0\cdot10^3\ \mathrm{W}=1,0\ \mathrm{kW}
+\]
+
+La prima trasferisce ogni secondo il doppio dell’energia della seconda: 2,0 kJ invece di 1,0 kJ. Per questo completa lo stesso trasferimento in metà tempo. Il confronto mostra che una potenza maggiore non implica, da sola, una maggiore energia totale.
+
+Usiamo ancora le due stufette, supponendo che mantengano queste potenze. Se A funziona per 1 h = 3,6 · 10³ s e B per 2 h = 7,2 · 10³ s, otteniamo:
+
+\[
+Q_A=2,0\cdot10^3\ \mathrm{W}\cdot3,6\cdot10^3\ \mathrm{s}=7,2\cdot10^6\ \mathrm{J}=7,2\ \mathrm{MJ}
+\]
+
+\[
+Q_B=1,0\cdot10^3\ \mathrm{W}\cdot7,2\cdot10^3\ \mathrm{s}=7,2\cdot10^6\ \mathrm{J}=7,2\ \mathrm{MJ}
+\]
+
+[SCHEMA P-5 — Stesse fotografie approvate, con i nuovi intervalli e le potenze: nessun nuovo oggetto; collocare prima di questi due calcoli.]
+
+Ciascun trasferimento equivale a sessanta trasferimenti da 120 kJ del confronto iniziale. La stufetta meno potente raggiunge la stessa energia restando accesa per un tempo doppio.
+
 ## Domande di verifica
 
-1. **Il cucchiaino caldo.** Come raggiunge il manico l'energia della bevanda calda? Descrivi il fenomeno dal punto di vista macroscopico e microscopico.
+1. **Due stufette.** Due stufette trasferiscono la stessa energia. La seconda impiega il doppio del tempo della prima. Quale ha potenza maggiore? Perché?
 
-2. **Rame e legno.** Perché il rame è adatto al trasferimento rapido di calore mentre il legno è utile per limitare tale trasferimento?
+2. **Il significato di 1 500 W.** Che cosa significa dire che un dispositivo trasferisce energia termica con potenza di 1 500 W?
 
-3. **Quale sembra più freddo?.** Un cucchiaio metallico e uno di legno sono stati a lungo nella stessa stanza. Perché il metallo sembra più freddo, pur essendo alla stessa temperatura?
+3. **Un riscaldatore.** Un riscaldatore trasferisce 180 kJ in 90 s. Calcola la potenza in W e in kW.
 
-4. **Potenza dispersa.** Una parete piana ha λ = 0,20 W/(m·K), A = 10 m², s = 0,20 m, temperatura della faccia interna 20 °C e della faccia esterna 0 °C. Calcola la potenza termica dispersa.
+4. **Dalla potenza all'energia.** Un apparecchio trasferisce energia con potenza costante di 800 W per 5 minuti. Quanti J e kJ trasferisce?
 
-5. **Parete più spessa.** Raddoppia lo spessore della parete dell'esercizio precedente mantenendo invariati gli altri dati. Calcola la nuova potenza dispersa e spiega la variazione.
+5. **Energia dispersa.** Un locale perde verso l’esterno energia termica con potenza costante di 1 500 W. Quanta energia perde in 10 minuti? In quale direzione si trasferisce il calore se l’esterno è più freddo?
 
-6. **Il dissipatore.** Perché il dissipatore usa metalli conduttori? A che cosa servono le alette? Il passaggio di energia dal dissipatore all'aria avviene esclusivamente per conduzione?
+6. **Stessa energia?.** Una stufetta da 1 000 W funziona per 2 h, un'altra da 2 000 W per 1 h. Supponendo potenze costanti, confronta le energie trasferite.
 
-7. **La neve dell'igloo.** Perché la neve può ridurre la dispersione termica anche se è molto fredda? Perché pareti più spesse isolano generalmente meglio?
+7. **Il cucchiaino caldo.** Come raggiunge il manico l'energia della bevanda calda? Descrivi il fenomeno dal punto di vista macroscopico e microscopico.
+
+8. **Rame e legno.** Perché il rame è adatto al trasferimento rapido di calore mentre il legno è utile per limitare tale trasferimento?
+
+9. **Quale sembra più freddo?.** Un cucchiaio metallico e uno di legno sono stati a lungo nella stessa stanza. Perché il metallo sembra più freddo, pur essendo alla stessa temperatura?
+
+10. **Potenza dispersa.** Una parete piana ha λ = 0,20 W/(m·K), A = 10 m², s = 0,20 m, temperatura della faccia interna 20 °C e della faccia esterna 0 °C. Calcola la potenza termica dispersa.
+
+11. **Parete più spessa.** Raddoppia lo spessore della parete dell'esercizio precedente mantenendo invariati gli altri dati. Calcola la nuova potenza dispersa e spiega la variazione.
+
+12. **Il dissipatore.** Perché il dissipatore usa metalli conduttori? A che cosa servono le alette? Il passaggio di energia dal dissipatore all'aria avviene esclusivamente per conduzione?
+
+13. **La neve dell'igloo.** Perché la neve può ridurre la dispersione termica anche se è molto fredda? Perché pareti più spesse isolano generalmente meglio?
 
 ## Note
 
 [1] La conducibilità dipende da composizione, temperatura e condizioni del materiale. Nel video incidono anche le condizioni della prova: il tempo di fusione della cera non è una misura diretta della sola conducibilità.
 
 [2] Il modello assume una parete omogenea, conducibilità costante, regime stazionario e nessuna sorgente interna. In queste condizioni il profilo di temperatura è lineare. Le temperature delle facce possono differire da quelle dell’aria: la legge non include da sola tutti gli scambi di una parete reale.
+
+[3] La potenza elettrica assorbita e la potenza termica trasferita nella situazione considerata non coincidono necessariamente. La potenza nominale si riferisce alle condizioni dichiarate; perdite e sistemi di controllo possono modificare il consumo effettivo. Q = P · Δt vale anche usando la potenza media sull’intervallo.
