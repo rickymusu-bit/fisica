@@ -4,7 +4,7 @@
 
 Richiesta esplicita approvata: pubblicare il logo definitivo anche al posto dell’icona nella barra in alto a sinistra degli articoli e salvarlo come regola grafica. **Versione corrente v17**, master v59, modello autonomo **v5**. Sostituito il simbolo φ con lo SVG dell’onda stazionaria a quattro creste, ampiezza 20; controlli condivisi di pausa/ripresa e movimento ridotto. Testo «Fisica» e ritorno all’inizio conservati. CSS comuni riusati identici dal modello, nessun altro contenuto o visuale modificato in questa richiesta; bozza HTML sincronizzata.
 
-Verifiche e anteprime in `../sito/logo-definitivo.json` e `../sito/anteprima-visuali/`. Nodi, tratto, periodo e geometria del logo approvato conservati; testi/immagini del corpo confrontati con il precedente e invariati. Sette articoli esclusi non modificati. Pubblicazione esplicitamente autorizzata e in preparazione nel ramo `correzione/visuali-centrale`; registrare conferma finale dopo la verifica HTTPS.
+Verifiche e anteprime in `../sito/logo-definitivo.json` e `../sito/anteprima-visuali/`. Nodi, tratto, periodo e geometria del logo approvato conservati; testi/immagini del corpo confrontati con il precedente e invariati. Sette articoli esclusi non modificati. Pubblicazione completata con PR #26, merge `4e6ba399b0798d16db55b443dd7740dd58154dfe` e workflow Pages `39113796714` riuscito. Verificato HTTP 200 e HTML online identico all’output approvato; logo definitivo presente. Report HTTPS in `../sito/logo-definitivo.json`.
 
 ## Traduzione del PWR e revisione visuale — 18 ottobre 2026
 

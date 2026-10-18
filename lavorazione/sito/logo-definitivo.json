@@ -256,5 +256,130 @@
       "overflow": false
     }
   ],
-  "logo_pubblico_identico": true
+  "logo_pubblico_identico": true,
+  "pubblicazione": {
+    "pr": "https://github.com/rickymusu-bit/fisica/pull/26",
+    "commit": "4e6ba399b0798d16db55b443dd7740dd58154dfe",
+    "workflow": "https://github.com/rickymusu-bit/fisica/actions/runs/39113796714",
+    "workflow_riuscito": true,
+    "verifica_utc": "2026-10-18T09:04:12.652869+00:00",
+    "https": [
+      {
+        "file": "index.html",
+        "status": 200,
+        "byte": 444082,
+        "sha256": "670fc324c52da0cd01d62e9185ddb3099afcccf475dec295cb1b87898a8950ab",
+        "identico_output": true,
+        "versione": "v13"
+      },
+      {
+        "file": "stati_della_materia.html",
+        "status": 200,
+        "byte": 8050850,
+        "sha256": "9856558f9ab5fd6abc2b1af94e8a59a3d8fc725e685bffcc3e81bb591f549579",
+        "identico_output": true,
+        "versione": "v15"
+      },
+      {
+        "file": "passaggi_di_stato.html",
+        "status": 200,
+        "byte": 15205483,
+        "sha256": "e4d7743dddf8a3bb6645b4ec8434423e703011f4a256886afd2828fd5cc873be",
+        "identico_output": true,
+        "versione": "v17"
+      },
+      {
+        "file": "irraggiamento_it.html",
+        "status": 200,
+        "byte": 6141657,
+        "sha256": "6283e444c01ee63caf1be945fae95a06266125273a4a6654f342e342acfc192e",
+        "identico_output": true,
+        "versione": "v8"
+      },
+      {
+        "file": "identita/logo-materia-oscura.svg",
+        "status": 200,
+        "byte": 156932,
+        "sha256": "95d57127abed2c87237c6f35dd9b60d9c40bf3e8dafdceed9b455da245707065",
+        "identico_output": true
+      },
+      {
+        "file": "identita/logo-materia-oscura.gif",
+        "status": 200,
+        "byte": 78504,
+        "sha256": "079e49c0278013cfed9ad17b5eb120978bd244fb8c94ff3c0e8639396b760860",
+        "identico_output": true
+      },
+      {
+        "file": "metodo_scientifico_it.html",
+        "status": 404
+      },
+      {
+        "file": "sistema_internazionale_notazione_it.html",
+        "status": 404
+      },
+      {
+        "file": "strumenti_errori_incertezza_it.html",
+        "status": 404
+      },
+      {
+        "file": "grafici_piano_cartesiano_it.html",
+        "status": 404
+      },
+      {
+        "file": "lavoro_energie_potenza_it.html",
+        "status": 404
+      },
+      {
+        "file": "bilancio_conservazione_rendimento_it.html",
+        "status": 404
+      },
+      {
+        "file": "potenza_termica_conduzione_convezione_it.html",
+        "status": 404
+      },
+      {
+        "file": "stati_della_materia_e_passaggi_di_stato.html",
+        "status": 404
+      },
+      {
+        "file": "stati_della_materia_e_passaggi_di_stato_v8_20261016.html",
+        "status": 404
+      },
+      {
+        "file": "identita/logo-materia-oscura-statico.svg",
+        "status": 404
+      },
+      {
+        "file": "identita/logo-materia-oscura-onda-progressiva.svg",
+        "status": 404
+      },
+      {
+        "file": "identita/logo-materia-oscura-onda-progressiva.gif",
+        "status": 404
+      },
+      {
+        "file": "identita/logo-materia-oscura-onda-stazionaria.svg",
+        "status": 404
+      },
+      {
+        "file": "identita/logo-materia-oscura-onda-stazionaria.gif",
+        "status": 404
+      },
+      {
+        "file": "identita/logo-materia-oscura-otto-lobi.svg",
+        "status": 404
+      },
+      {
+        "file": "identita/logo-materia-oscura-otto-lobi.gif",
+        "status": 404
+      }
+    ],
+    "home_radice": {
+      "url": "https://rickymusu-bit.github.io/fisica/",
+      "status": 200,
+      "identica_output": true,
+      "sha256": "670fc324c52da0cd01d62e9185ddb3099afcccf475dec295cb1b87898a8950ab"
+    }
+  }
 }
