@@ -101,3 +101,8 @@ Richieste esplicite dell’utente, realizzate in v3 senza elaborare i file. Le v
 - [radiatore-ventole.jpg](risorse/radiatore-ventole.jpg): simonov (Mitch Barrie); CC BY-SA 2.0.
 
 Le immagini sostituite non sono più incorporate nell’articolo corrente. Dati e provenienze nel registro delle sostituzioni.
+
+
+## Ordine e crediti — 18 ottobre 2026
+
+Sequenza di navigazione aggiornata: Conduzione → Convezione → Irraggiamento; nessun visuale modificato.

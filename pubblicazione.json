@@ -1,11 +1,11 @@
 {
-  "versione": 3,
+  "versione": 4,
   "articoli": [
     "stati_della_materia.html",
     "passaggi_di_stato.html",
-    "irraggiamento_it.html",
     "conduzione_it.html",
-    "convezione_it.html"
+    "convezione_it.html",
+    "irraggiamento_it.html"
   ],
   "esclusi_da_pubblicazione_e_aggiornamenti": [
     "metodo_scientifico_it.html",

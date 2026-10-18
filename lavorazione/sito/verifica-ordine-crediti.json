@@ -1,0 +1,64 @@
+{
+  "data": "18 ottobre 2026",
+  "browser": "Chromium 151",
+  "verifiche": [
+    {
+      "width": 1440,
+      "ordine_catalogo": [
+        "stati_della_materia.html",
+        "passaggi_di_stato.html",
+        "conduzione_it.html",
+        "convezione_it.html",
+        "irraggiamento_it.html"
+      ],
+      "navigazione_sequenziale_corretta": true,
+      "quattro_media_caricati": true,
+      "ingrandimento": true,
+      "pausa_ripresa_e_movimento_ridotto": true,
+      "nessun_overflow_o_errore_JS": true
+    },
+    {
+      "width": 390,
+      "ordine_catalogo": [
+        "stati_della_materia.html",
+        "passaggi_di_stato.html",
+        "conduzione_it.html",
+        "convezione_it.html",
+        "irraggiamento_it.html"
+      ],
+      "navigazione_sequenziale_corretta": true,
+      "quattro_media_caricati": true,
+      "ingrandimento": true,
+      "pausa_ripresa_e_movimento_ridotto": true,
+      "nessun_overflow_o_errore_JS": true
+    }
+  ],
+  "limite_gif": "Tenor non documenta una licenza libera specifica per il file richiesto; limite dichiarato nei crediti",
+  "statici": {
+    "stati_della_materia.html": {
+      "byte": 8050840,
+      "sha256": "f402774dcf185163ea01246ae492262077c57e7db008491e800c436d11c654d7",
+      "css_e_script_invariati": true
+    },
+    "passaggi_di_stato.html": {
+      "byte": 15208934,
+      "sha256": "ba7bb6505d3257c53b1f5a05692fe3b359c857316bbfa64ab88b63ee661e1583",
+      "css_e_script_invariati": true
+    },
+    "conduzione_it.html": {
+      "byte": 6633475,
+      "sha256": "1cc633dd7cd559751534aa2a5a45aef6b3618d9c34ff4495cff0bff5ff265d0d",
+      "css_e_script_invariati": true
+    },
+    "convezione_it.html": {
+      "byte": 8879152,
+      "sha256": "2e615ca4083b7325da403fc434a02e7af514c7d173a0ca9c72e1b7646dc6626e",
+      "css_e_script_invariati": true
+    },
+    "irraggiamento_it.html": {
+      "byte": 6141643,
+      "sha256": "f7ec03b236c87f461d01b97b4fc57281c0faaa322d177af8205cbba5334b1da4",
+      "css_e_script_invariati": true
+    }
+  }
+}

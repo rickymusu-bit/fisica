@@ -6,9 +6,9 @@
 
 Lasciamo un cucchiaio di metallo in una zuppa calda. La parte immersa si riscalda subito; dopo un po’ diventa caldo anche il manico, che si trova fuori dal liquido. Come ha fatto l’energia a raggiungerlo?
 
-[IMMAGINE 03 — Zuppa e cucchiaio già approvati.]
+[IMMAGINE 03 — Originale scelto dall’utente: risorse/zuppa-pollo.jpg.]
 
-Didascalia: Il cucchiaio riceve energia dalla zuppa e la trasferisce lungo il manico.
+Didascalia: Il cucchiaio metallico è a contatto con la zuppa: l’energia ricevuta dalla parte immersa può propagarsi lungo il manico.
 
 Il metallo è rimasto al suo posto, ma l’energia si è trasferita dalla parte più calda a quella più fredda. Questo modo di trasferire calore si chiama **conduzione**: avviene attraverso le interazioni microscopiche nel materiale, senza che la materia debba spostarsi complessivamente da un’estremità all’altra. Nei solidi gli atomi vibrano intorno alle proprie posizioni e scambiano energia con quelli vicini. Nei metalli intervengono anche gli elettroni mobili, che aiutano a capire perché questi materiali conducano così bene.
 
@@ -47,9 +47,9 @@ Didascalia: Il riscaldamento raggiunge le estremità delle barrette in tempi div
 
 La capacità dei metalli di trasferire rapidamente energia può produrre un effetto sorprendente. Quando una lingua tocca un palo metallico gelato, cede energia al metallo, che è più freddo. Il palo conduce quell’energia lontano dalla zona di contatto, verso le parti circostanti. Se il metallo è abbastanza freddo, la saliva può congelare: il sottile strato di ghiaccio che si forma fa aderire la lingua alla superficie.
 
-[IMMAGINE 12 — Animazione del palo gelato già approvata, invariata.]
+[IMMAGINE 12 — Originale scelto dall’utente: risorse/lingua-palo-tenor.gif.]
 
-Didascalia: Se la saliva congela sul metallo, il ghiaccio fa aderire la lingua al palo. È pericoloso: non va provato.
+Didascalia: La scena cinematografica richiama il fenomeno della lingua che aderisce al metallo gelato. È pericoloso: non va provato.
 
 La stessa capacità di trasferire rapidamente energia spiega una sensazione più comune. Un oggetto di metallo e uno di legno o di plastica, lasciati a lungo nella stessa stanza, possono avere la stessa temperatura eppure sembrare diversi al tatto. Se sono più freddi della pelle, il metallo le sottrae energia più rapidamente, anche grazie alla sua elevata conducibilità termica, e per questo sembra più freddo. La sensazione non indica quindi che il metallo abbia necessariamente una temperatura più bassa.[5]
 
@@ -77,17 +77,17 @@ Se l’interno di una casa è più caldo dell’esterno, l’energia tende a tra
 
 In una vetrocamera due lastre di vetro sono separate da un’intercapedine sigillata, contenente aria o un altro gas poco conduttore. Il gas rallenta il trasferimento rispetto a un collegamento attraverso un materiale molto più conduttore. La distanza tra le lastre è progettata anche per limitare i movimenti del gas, che potrebbero trasportare energia. Una finestra ben progettata riduce così gli scambi termici rispetto a un vetro singolo.[3]
 
-[IMMAGINE 09 — Vetro-italiano.png già approvato.]
+[IMMAGINE 09 — Originale scelto dall’utente: risorse/vetrocamera-anmitsu.jpg.]
 
-Didascalia: L’intercapedine separa le due lastre. Il distanziatore le mantiene in posizione e il materiale essiccante trattiene l’umidità residua.
+Didascalia: La sezione mostra le due lastre di vetro, l’intercapedine che le separa e il telaio. Il gas nell’intercapedine contribuisce all’isolamento termico.
 
 ### Un igloo fatto di neve
 
 La neve è fredda: come può aiutare a mantenere meno freddo l’interno di un igloo? Le pareti contengono molte piccole cavità d’aria che ostacolano il trasferimento di energia. Il calore prodotto all’interno, per esempio dalle persone, viene quindi disperso più lentamente. La neve non riscalda l’igloo: contribuisce a trattenere più a lungo l’energia fornita dalle sorgenti presenti al suo interno.
 
-[IMMAGINE 10 — Igloo già approvato.]
+[IMMAGINE 10 — Originale scelto dall’utente: risorse/igloo-pala-santa.jpg.]
 
-Didascalia: Le pareti di neve contengono aria intrappolata e rallentano la dispersione di energia verso l’esterno.
+Didascalia: Le pareti dell’igloo contengono aria intrappolata nella neve e rallentano la dispersione di energia verso l’esterno.
 
 ## Quanto calore attraversa un materiale?
 

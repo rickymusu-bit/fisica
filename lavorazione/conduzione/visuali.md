@@ -60,3 +60,8 @@ Richieste esplicite dell’utente, realizzate in v3 senza elaborare i file. Le v
 - [parete-temperatura.png](risorse/parete-temperatura.png): immagine generata, indicazione esplicita dell’utente; allegato generato scelto dall’utente.
 
 Le immagini sostituite non sono più incorporate nell’articolo corrente. Dati e provenienze nel registro delle sostituzioni.
+
+
+## Ordine e crediti — 18 ottobre 2026
+
+Zuppa, vetrocamera, igloo e palo sono ora i file indicati in [sostituzioni-crediti.json](risorse/sostituzioni-crediti.json). Le relative voci storiche sono superate per l’incorporazione corrente. Le tre fotografie Commons hanno licenza documentata; la GIF Tenor richiesta conserva il limite di licenza dichiarato nei crediti.

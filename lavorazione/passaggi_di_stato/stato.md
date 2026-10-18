@@ -1,5 +1,9 @@
 # Stato — Passaggi di stato
 
+## Nuovo ordine degli articoli — 18 ottobre 2026
+
+Versione v20: aggiornata esclusivamente la navigazione al nuovo ordine Stati della materia → Passaggi di stato → Conduzione → Convezione → Irraggiamento. Testi, media, formule e script invariati. Modifica richiesta nella conversazione; verifiche condivise in [verifica-ordine-crediti.json](../sito/verifica-ordine-crediti.json). Pubblicazione in preparazione.
+
 ## Schema triangolare invariato su mobile — 18 ottobre 2026
 
 **Pubblicato e verificato:** PR #30, merge `30e83a396a2a0accec04c03890d9dfec3cdfc252`, workflow Pages `39115320280` riuscito; home e Passaggi di stato HTTP 200 e identici byte per byte alla build verificata. Nessuna pubblicazione pendente.
