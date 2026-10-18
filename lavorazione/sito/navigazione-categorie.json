@@ -1,0 +1,179 @@
+{
+  "articoli": {
+    "stati_della_materia.html": {
+      "versione": 16,
+      "sole_modifiche_richieste": true,
+      "bozza_sincronizzata": true
+    },
+    "passaggi_di_stato.html": {
+      "versione": 18,
+      "sole_modifiche_richieste": true,
+      "bozza_sincronizzata": true
+    },
+    "irraggiamento_it.html": {
+      "versione": 9,
+      "sole_modifiche_richieste": true,
+      "bozza_sincronizzata": true
+    }
+  },
+  "viste": [
+    {
+      "articolo": "stati_della_materia.html",
+      "larghezza": 320,
+      "ritorno_apre_catalogo": true,
+      "nessun_overflow": true,
+      "collegamento": {
+        "width": 52.09375,
+        "height": 44,
+        "left": 145.71875,
+        "right": 197.8125,
+        "lineHeight": 16.8
+      }
+    },
+    {
+      "articolo": "passaggi_di_stato.html",
+      "larghezza": 320,
+      "ritorno_apre_catalogo": true,
+      "nessun_overflow": true,
+      "collegamento": {
+        "width": 52.09375,
+        "height": 44,
+        "left": 145.71875,
+        "right": 197.8125,
+        "lineHeight": 16.8
+      }
+    },
+    {
+      "articolo": "irraggiamento_it.html",
+      "larghezza": 320,
+      "ritorno_apre_catalogo": true,
+      "nessun_overflow": true,
+      "collegamento": {
+        "width": 52.09375,
+        "height": 44,
+        "left": 145.71875,
+        "right": 197.8125,
+        "lineHeight": 16.8
+      }
+    },
+    {
+      "articolo": "stati_della_materia.html",
+      "larghezza": 390,
+      "ritorno_apre_catalogo": true,
+      "nessun_overflow": true,
+      "collegamento": {
+        "width": 61.0625,
+        "height": 44,
+        "left": 206.75,
+        "right": 267.8125,
+        "lineHeight": 16.8
+      }
+    },
+    {
+      "articolo": "passaggi_di_stato.html",
+      "larghezza": 390,
+      "ritorno_apre_catalogo": true,
+      "nessun_overflow": true,
+      "collegamento": {
+        "width": 61.0625,
+        "height": 44,
+        "left": 206.75,
+        "right": 267.8125,
+        "lineHeight": 16.8
+      }
+    },
+    {
+      "articolo": "irraggiamento_it.html",
+      "larghezza": 390,
+      "ritorno_apre_catalogo": true,
+      "nessun_overflow": true,
+      "collegamento": {
+        "width": 61.0625,
+        "height": 44,
+        "left": 206.75,
+        "right": 267.8125,
+        "lineHeight": 16.8
+      }
+    },
+    {
+      "articolo": "stati_della_materia.html",
+      "larghezza": 768,
+      "ritorno_apre_catalogo": true,
+      "nessun_overflow": true,
+      "collegamento": {
+        "width": 85.90625,
+        "height": 44,
+        "left": 513.078125,
+        "right": 598.984375,
+        "lineHeight": 23.8
+      }
+    },
+    {
+      "articolo": "passaggi_di_stato.html",
+      "larghezza": 768,
+      "ritorno_apre_catalogo": true,
+      "nessun_overflow": true,
+      "collegamento": {
+        "width": 85.90625,
+        "height": 44,
+        "left": 513.078125,
+        "right": 598.984375,
+        "lineHeight": 23.8
+      }
+    },
+    {
+      "articolo": "irraggiamento_it.html",
+      "larghezza": 768,
+      "ritorno_apre_catalogo": true,
+      "nessun_overflow": true,
+      "collegamento": {
+        "width": 85.90625,
+        "height": 44,
+        "left": 513.078125,
+        "right": 598.984375,
+        "lineHeight": 23.8
+      }
+    },
+    {
+      "articolo": "stati_della_materia.html",
+      "larghezza": 1280,
+      "ritorno_apre_catalogo": true,
+      "nessun_overflow": true,
+      "collegamento": {
+        "width": 85.90625,
+        "height": 44,
+        "left": 1009.078125,
+        "right": 1094.984375,
+        "lineHeight": 23.8
+      }
+    },
+    {
+      "articolo": "passaggi_di_stato.html",
+      "larghezza": 1280,
+      "ritorno_apre_catalogo": true,
+      "nessun_overflow": true,
+      "collegamento": {
+        "width": 85.90625,
+        "height": 44,
+        "left": 1009.078125,
+        "right": 1094.984375,
+        "lineHeight": 23.8
+      }
+    },
+    {
+      "articolo": "irraggiamento_it.html",
+      "larghezza": 1280,
+      "ritorno_apre_catalogo": true,
+      "nessun_overflow": true,
+      "collegamento": {
+        "width": 85.90625,
+        "height": 44,
+        "left": 1009.078125,
+        "right": 1094.984375,
+        "lineHeight": 23.8
+      }
+    }
+  ],
+  "sette_articoli_esclusi_invariati": true,
+  "logo_invariato": true
+}

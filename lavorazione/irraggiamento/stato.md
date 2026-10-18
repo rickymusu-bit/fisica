@@ -1,5 +1,11 @@
 # Stato — Irraggiamento
 
+## Navigazione breve e area tematica — 18 ottobre 2026
+
+Controlli completati: 12 viste a 320/390/768/1280 px, ritorni al catalogo funzionanti, nessun overflow; anteprime HTML e immagini mobile/desktop consegnate prima della pubblicazione.
+
+Richiesta esplicita: accorciare «Tutti gli articoli» su mobile, usare sopra il titolo il nome della macro categoria e salvare le regole. **Versione corrente v9**, tema autonomo **v6**, terminologia **v4**, master consultato **v59**. Entrambi i ritorni diventano «← Articoli» su ogni dispositivo, con destinazione invariata; sopra il titolo compare «Materia e calore», come nel catalogo della home. Regole salvate nel modello, in AGENTS e nella terminologia; bozza HTML sincronizzata. Contenuto didattico, logo, CSS, script e altri visuali invariati. Verifiche e pubblicazione registrate in `../sito/navigazione-categorie.json`.
+
 ## Logo definitivo e tema v5 — 18 ottobre 2026
 
 Richiesta esplicita approvata: pubblicare il logo definitivo anche al posto dell’icona nella barra in alto a sinistra degli articoli e salvarlo come regola grafica. **Versione corrente v8**, master v59, modello autonomo **v5**. Sostituito il simbolo φ con lo SVG dell’onda stazionaria a quattro creste, ampiezza 20; controlli condivisi di pausa/ripresa e movimento ridotto. Testo «Fisica» e ritorno all’inizio conservati. CSS comuni riusati identici dal modello, nessun altro contenuto o visuale modificato in questa richiesta; bozza HTML sincronizzata.
