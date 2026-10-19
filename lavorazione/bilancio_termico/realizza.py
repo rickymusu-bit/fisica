@@ -68,6 +68,7 @@ class Renderer:
     def __init__(self):
         self.notes = {}
         self.figures = {}
+        self.artwork_note = re.search(r'^Sul quadro: (.+)$', (WORK / 'bozza.md').read_text(), re.M)[1]
 
     def inline(self, source):
         chunks = re.split(r'(\\\(.*?\\\))', source)
@@ -92,11 +93,14 @@ class Renderer:
                 'license-url': license_url, 'changes': 'Nessuna modifica; versione scelta incorporata integralmente.'}
         attrs = ' '.join('data-credit-' + k + '="' + escape(v, quote=True) + '"' for k, v in meta.items())
         classes = 'visual cover photo' if key == 'COP-01' else 'visual photo'
+        caption_html = self.inline(caption)
+        if key == 'COP-01':
+            caption_html = '<p>' + caption_html + '</p><p>' + self.inline(self.artwork_note) + '</p>'
         return (f'<figure class="{classes}" id="{key.lower()}{suffix}" {attrs}>'
                 '<div class="image-frame"><div class="overview">'
                 f'<img src="{uri(path)}" width="{width}" height="{height}" '
                 f'alt="{escape(alt, quote=True)}" decoding="async"></div></div>'
-                '<figcaption>' + self.inline(caption) + '</figcaption></figure>')
+                '<figcaption>' + caption_html + '</figcaption></figure>')
 
     def graph(self, caption):
         path = WORK / 'risorse/temperatura-tempo.svg'
@@ -196,6 +200,14 @@ def register_notices():
         extra = supplements.get(resource.get('source'))
         if extra and escape(extra) not in resource['notices'][0]:
             resource['notices'][0] += '<br>' + escape(extra)
+    museum = 'https://collections.louvre.fr/ark:/53355/cl010059924'
+    for resource in registry['resources']:
+        if resource.get('source') == META['COP-01'][1]:
+            link = {'url': museum, 'label': 'Scheda dell’opera al Louvre'}
+            if link not in resource.setdefault('links', []):
+                resource['links'].append(link)
+            if museum not in resource['notices'][0]:
+                resource['notices'][0] += '<br>Presentazione del quadro: <a href="' + museum + '">Musée du Louvre, Le déjeuner, RF 926</a>. Autore, titolo, data 1739 e collocazione; descrizione della scena da osservazione dell’opera.'
     key = 'credit-bilancio-temperatura-tempo'
     if not any(r['id'] == key for r in registry['resources']):
         registry['resources'].append({'id': key, 'description': 'Temperature del caffè e del latte nel tempo — grafico di modello',
@@ -216,7 +228,7 @@ def main():
     current = cover = None
     count = 0
     for block in blocks:
-        if block.startswith(('# ', '<!--')):
+        if block.startswith(('# ', '<!--', 'Sul quadro:')):
             continue
         if block.startswith(('[IMMAGINE ', '[GRAFICO ')):
             current = re.search(r'(COP|FIG|GRA)-\d+', block)[0]
@@ -256,7 +268,7 @@ def main():
     template = (ROOT / 'riferimenti/TEMA_DISPENSE.html').read_text()
     template = re.sub(r'<!-- MODELLO CANONICO.*?-->', '<!-- Articolo autonomo dal tema canonico v9; testo approvato e grafico richiesto. -->', template, count=1, flags=re.S)
     template = template.replace('<title>Tema grafico delle dispense — modello riutilizzabile</title>', '<title>' + TITLE + ' — Materia Oscura</title>')
-    template = template.replace('name="version" content="v9"', 'name="version" content="v2"', 1)
+    template = template.replace('name="version" content="v9"', 'name="version" content="v3"', 1)
     template = template.replace('Modello autonomo del tema grafico comune a tutti i capitoli futuri.', 'Il bilancio termico: caffè e latte, calori scambiati, temperatura di equilibrio e contributo della tazza.')
     template = template.replace('Nome dell’area tematica', 'Materia e calore').replace('Titolo dell’articolo', TITLE)
     template = template.replace('<span class="sidebar-label">Fisica</span>', '<span class="sidebar-label">Materia e calore</span>')
@@ -265,7 +277,7 @@ def main():
     template = re.sub(r'<figure class="visual cover">.*?</figure>', lambda _: cover, template, count=1, flags=re.S)
     template = re.sub(r'(<article class="article">).*?(<nav class="bottom-links")', lambda m: m[1] + '\n'.join(body) + m[2], template, count=1, flags=re.S)
     template = re.sub(r'(<details class="chapter-notes".*?<ol>).*?(</ol>)', lambda m: m[1] + ''.join(notes) + m[2], template, count=1, flags=re.S)
-    template = template.replace('Versione v9 · 19 ottobre 2026', 'Versione v2 · 19 ottobre 2026')
+    template = template.replace('Versione v9 · 19 ottobre 2026', 'Versione v3 · 19 ottobre 2026')
     # Il successivo articolo (dilatazione) non esiste ancora. Nessun link vuoto.
     navigation = ('<nav class="chapter-navigation" aria-label="Navigazione tra articoli"><a rel="prev" href="https://rickymusu-bit.github.io/fisica/energia_interna_calore_specifico_it.html"><span>← Articolo precedente</span><small>Energia interna, calore e calore specifico</small></a></nav>')
     template = template.replace('<!-- chapter-navigation:end -->', navigation + '<!-- chapter-navigation:end -->')

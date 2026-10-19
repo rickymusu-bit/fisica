@@ -1,10 +1,10 @@
 # Stato — Il bilancio termico
 
-Versione v10 · 19 ottobre 2026, ore 22:16 (Europe/Rome).
+Versione v11 · 19 ottobre 2026, ore 22:23 (Europe/Rome).
 
 ## Risultato corrente
 
-**HTML autonomo v2 completato e verificato**, dopo il via «Ok vai». File ufficiale proposto: `bilancio_termico_it.html`; copia identica in [bozza.html](bozza.html). Tema canonico v9, master v63. Ramo `termodinamica/bilancio-termico`, allineato a main per riutilizzare il tema corrente; main non modificato e pubblicazione non autorizzata.
+**HTML autonomo v3 completato e verificato**, dopo il via «Ok vai». File ufficiale proposto: `bilancio_termico_it.html`; copia identica in [bozza.html](bozza.html). Tema canonico v9, master v63. Ramo `termodinamica/bilancio-termico`, allineato a main per riutilizzare il tema corrente; main non modificato e pubblicazione non autorizzata.
 
 Articolo 4 del [percorso introduttivo](../percorso_termodinamica.md): energia ceduta e assorbita, convenzione dei segni, temperatura finale ed eventuale contributo della tazza. Esclusi cambiamenti di stato, calore latente, dilatazione e nuovi meccanismi di trasmissione. Caffè e latte con calori specifici approssimati a quello dell’acqua, come richiesto dall’utente.
 
@@ -71,3 +71,9 @@ Realizzazione salvata nel commit ad1029b7da18c44b7a1ddf61bb9b74452746e564 e cari
 Richiesta esplicita: «Metti questa quando parli del calore assorbito dalla tazza», con il collegamento alla foto Hostess Tableware Black Velvet di Andy Mabbett. Sostituita esclusivamente l’immagine nella sezione Anche la tazza partecipa, assegnando FIG-04; la foto del caffè all’apertura resta FIG-01. Copertina, testo didattico, formule, domande e grafico invariati, verificati con confronto del testo dell’articolo e SHA-256 del grafico. Bozza di testo v6 aggiornata soltanto nel segnaposto e nei crediti di servizio; HTML v2 e copia di lavorazione identici.
 
 Originale scelto scaricato, osservato e incorporato integralmente senza ritagli, conversione o ricampionamento. Fonte e CC BY-SA 4.0 verificate su Commons; documentata la revisione Commons già ritagliata dall’autore. Nuova risorsa nel registro unico e crediti offline. HTML corrente: 2612961 byte (2,61 MB). Anteprime della tazza a 1280/390 px in anteprima-tazza-1280.png e anteprima-tazza-390.png. Verifiche statiche, immagini, browser offline desktop/mobile e senza JavaScript superate; check crediti e build Pages superati. Nessun aggiornamento al catalogo o alla pubblicazione. Salvataggio nella stessa PR #42.
+
+## Revisione HTML v3 — presentazione del quadro
+
+Richiesta esplicita: «Sotto la didascalia del quadro, parla del quadro». Aggiunto un paragrafo distinto sotto la didascalia della copertina, nello stesso figcaption con due paragrafi e gli stili canonici, senza nuovi riquadri o CSS. Presenta Le Déjeuner (La colazione), François Boucher, 1739, la scena domestica con adulti e bambini, luce, arredi e collocazione al Louvre. Autore, titolo, data e museo verificati sulla scheda ufficiale https://collections.louvre.fr/ark:/53355/cl010059924 ; descrizione visiva dall’opera già osservata. Fonte collegata dalla scheda del quadro nel registro unico e nei crediti offline. Nessuna attribuzione di identità alle persone o composizione delle bevande.
+
+Testo corrente bozza.md v7; HTML e copia di lavorazione v3. Confronto del testo dell’article e SHA-256 del grafico conferma che la spiegazione di fisica, domande, formule e curve non sono cambiate. Tema CSS e script invariati. Controllo statico e prove browser offline a 1280/390 px: paragrafo sotto la didascalia, nessun overflow o errore JavaScript. Report verifiche-quadro.json; anteprima-quadro-1280.png e anteprima-quadro-390.png. Check crediti, build Pages e diff superati. Salvataggio nella stessa PR #42, senza pubblicazione.

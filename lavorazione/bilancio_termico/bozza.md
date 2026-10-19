@@ -1,10 +1,12 @@
 # Il bilancio termico
 
-<!-- Bozza v6 · 19 ottobre 2026, ore 22:15 (Europe/Rome). Testo v4 approvato con «Ok vai»; aggiunta del grafico temperatura–tempo richiesta successivamente. -->
+<!-- Bozza v7 · 19 ottobre 2026, ore 22:21 (Europe/Rome). Testo v4 approvato con «Ok vai»; aggiunta del grafico temperatura–tempo richiesta successivamente. -->
 
 [IMMAGINE COP-01 — Scena della colazione nel dipinto Le Déjeuner di François Boucher; risorse/copertina-boucher.jpg. Solo copertina, non ripetuta nel corpo.]
 
 Didascalia: Una scena di colazione, con tazze e recipienti sulla tavola. Quando hanno temperature diverse, bevande e recipienti possono scambiare energia.
+
+Sul quadro: Nel dipinto **Le Déjeuner (La colazione)**, realizzato nel **1739**, **François Boucher** raffigura un momento di vita domestica. Adulti e bambini sono raccolti attorno a un piccolo tavolo, fra tazze, recipienti e oggetti quotidiani. La luce proveniente dalla finestra mette in risalto i volti e gli abiti, mentre gli arredi e lo specchio descrivono l’ambiente della casa. L’opera è oggi conservata al **Museo del Louvre**, a Parigi.
 
 ## Quanto si raffredda il caffè?
 
@@ -153,3 +155,5 @@ Questa sezione conserva la provenienza per la futura integrazione nel registro u
 - **GRA-02**: grafico originale per Materia Oscura, su richiesta dell’utente. Curve di un modello di scambio fra due corpi con flusso proporzionale alla differenza di temperatura e capacità termiche costanti; masse e temperature iniziali scelte per illustrare il modello, non misure. Formule di calcolo e controlli di bilancio nel generatore; nessuna fonte sperimentale attribuita.
 
 - **FIG-04**: *Hostess Tableware Black Velvet coffee cup* (30 agosto 2022), Andy Mabbett (Pigsonthewing); [scheda Commons](https://commons.wikimedia.org/wiki/File:Hostess_Tableware_%27Black_Velvet%27_coffee_cup_-_2022-08-30_-_Andy_Mabbett_-_03.jpg). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Copia a 1920 px scelta dall’utente, incorporata integralmente senza modifiche. La revisione Commons di origine era già ritagliata; nessun nuovo ritaglio eseguito.
+
+- Presentazione del quadro: [Musée du Louvre, scheda Le déjeuner, RF 926](https://collections.louvre.fr/ark:/53355/cl010059924), consultata il 19 ottobre 2026: autore, titolo, data 1739 e collocazione. La descrizione della scena deriva dall’osservazione del dipinto.

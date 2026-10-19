@@ -2807,9 +2807,14 @@
       "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
       "changes": "Nessuna modifica; versione scelta incorporata integralmente.",
       "status": "documented",
-      "links": [],
+      "links": [
+        {
+          "url": "https://collections.louvre.fr/ark:/53355/cl010059924",
+          "label": "Scheda dell’opera al Louvre"
+        }
+      ],
       "notices": [
-        "Le Déjeuner (1739): adulti e bambini attorno a una tavola con tazze e recipienti — François Boucher; Musée du Louvre, RF 926; The Yorck Project (2002), DIRECTMEDIA. <a href=\"https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Boucher_002.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\">Pubblico dominio — PD-Art, Public Domain Mark 1.0</a>. Modifiche: Nessuna modifica; versione scelta incorporata integralmente.<br>Le Déjeuner (1739), François Boucher, Musée du Louvre, RF 926. The Yorck Project (2002), 10.000 Meisterwerke der Malerei, DIRECTMEDIA Publishing GmbH. La fonte dichiara opera e riproduzione in pubblico dominio; il copyright della compilazione, distinta dalla singola immagine, è detenuto da Zenodot Verlagsgesellschaft mbH e la compilazione è distribuita sotto GNU Free Documentation License."
+        "Le Déjeuner (1739): adulti e bambini attorno a una tavola con tazze e recipienti — François Boucher; Musée du Louvre, RF 926; The Yorck Project (2002), DIRECTMEDIA. <a href=\"https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Boucher_002.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\">Pubblico dominio — PD-Art, Public Domain Mark 1.0</a>. Modifiche: Nessuna modifica; versione scelta incorporata integralmente.<br>Le Déjeuner (1739), François Boucher, Musée du Louvre, RF 926. The Yorck Project (2002), 10.000 Meisterwerke der Malerei, DIRECTMEDIA Publishing GmbH. La fonte dichiara opera e riproduzione in pubblico dominio; il copyright della compilazione, distinta dalla singola immagine, è detenuto da Zenodot Verlagsgesellschaft mbH e la compilazione è distribuita sotto GNU Free Documentation License.<br>Presentazione del quadro: <a href=\"https://collections.louvre.fr/ark:/53355/cl010059924\">Musée du Louvre, Le déjeuner, RF 926</a>. Autore, titolo, data 1739 e collocazione; descrizione della scena da osservazione dell’opera."
       ],
       "metadata_sources": [
         "bilancio_termico_it.html"
