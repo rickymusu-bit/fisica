@@ -1,60 +1,52 @@
 # Stato — Temperatura ed equilibrio termico
 
-Versione v3 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
+Versione v4 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
 
-## Ambito e origine
+## Ambito e riferimenti
 
-Articolo 2 del [percorso approvato](../percorso_termodinamica.md): temperatura, equilibrio termico, principio zero, termometro e scale Celsius, Kelvin e Fahrenheit. Precede Energia interna, calore e calore specifico. Esclusi calorimetria, bilancio termico e sviluppo della dilatazione.
+Articolo 2 del [percorso approvato](../percorso_termodinamica.md): temperatura, equilibrio termico, principio zero, termometro e scale Celsius, Kelvin e Fahrenheit. Esclusi calorimetria, bilancio termico e sviluppo della dilatazione.
 
-Richiesta corrente dell'utente: «Sul repo https://github.com/rickymusu-bit/fisica crea l'articolo 2 del piano». Autorizzato l'avvio del lavoro sul secondo articolo. Alla proposta delle visuali l’utente ha risposto «Ok»: concordati i soggetti, il riuso del caffè e la tabella. Alla consegna della bozza completa l’utente ha risposto nuovamente «Ok»: bozza v1 approvata. Nessun originale nuovo ricevuto; nessun via successivo alla stima per l’HTML o autorizzazione alla pubblicazione.
+Ramo: `termodinamica/temperatura-equilibrio-termico`, derivato da main al commit `d6002b19007967e7ac4c0726b5c14e1a025494ef`. Nessuna modifica a main, manifest, home o articoli pubblicati/sospesi.
 
-Ramo dedicato: `termodinamica/temperatura-equilibrio-termico`, derivato da main al commit `d6002b19007967e7ac4c0726b5c14e1a025494ef`. Verificata assenza di lavorazione preesistente per questo articolo nel main consultato.
+Letti integralmente MASTER_PROMPT.md v60 in blocchi senza troncamenti, AGENTS.md, STILE_DISPENSE.md v6, esempio_irraggiamento.md v2, piano e stato dell’articolo 1. Tema comune v8 già approvato; leggere integralmente `riferimenti/TEMA_DISPENSE.html` prima di impaginare.
 
-## Fase corrente
+## Approvazioni effettive
 
-Bozza completa v1 salvata in [bozza.md](bozza.md), dopo l’assenso alle visuali proposte. Comprende teoria, conversioni, tabella delle tre scale, nove domande finali senza soluzioni e due note. Segnaposto per COP-01, FIG-01 e FIG-02; nessun HTML realizzato. Testo approvato dall’utente con il secondo «Ok».
+1. Richiesta iniziale: «Sul repo https://github.com/rickymusu-bit/fisica crea l’articolo 2 del piano».
+2. Primo «Ok»: accettata la proposta delle visuali e del percorso iniziale.
+3. Secondo «Ok»: approvata la bozza completa v1 in `bozza.md`.
+4. Dopo la stima, l’utente ha fornito tre immagini precise e chiesto di adattare l’esempio della foto 1. Copertina storica scelta al posto del termometro meteorologico; medico che misura la temperatura al posto della sonda immersa; bevanda fredda con ghiaccio al posto del caffè. Autorizzati scelta di queste immagini e relativi adattamenti circoscritti, senza richiedere una nuova conferma.
+5. Nessun «via» esplicito alla realizzazione HTML successivo alla stima e nessuna autorizzazione a main/pubblicazione ricevuti. Non registrare la sola fornitura dei file come una conferma testuale mai espressa.
 
-Domanda iniziale proposta: «Quando possiamo fidarci della temperatura indicata da un termometro?».
+## Fase corrente e risultato
 
-Tema comune già approvato: `riferimenti/TEMA_DISPENSE.html`, versione corrente v8 secondo AGENTS e stato dell'articolo 1. Da leggere e riutilizzare integralmente prima dell'impaginazione; non è stato necessario leggerne il codice per questa fase testuale.
+Bozza v2 corrente: [bozza.md](bozza.md). Mantiene il testo approvato non coinvolto; adatta apertura, misura per contatto sulla paziente, didascalie, equilibrio con la bevanda fredda e domande 1 e 4. Nove domande finali senza soluzioni, tabella delle scale e due note.
 
-## Riferimenti letti e checklist
+Domanda guida conservata: «Quando possiamo fidarci della temperatura indicata da un termometro?». Nessun HTML o codice di simulazione realizzato. Le modifiche testuali e la scelta delle immagini sono espressamente richieste, non una nuova stesura da far approvare da capo.
 
-Letti integralmente MASTER_PROMPT.md v60 in tre blocchi senza troncamenti, AGENTS.md, STILE_DISPENSE.md v6, esempio_irraggiamento.md v2; consultati il piano e lo stato v13 dell'articolo 1 per continuità.
+Tre file scaricati, ispezionati e salvati in `risorse/`; soggetti, URL ricevuti, fonti, autori, stato dei diritti, dimensioni e hash in [visuali.md](visuali.md) v3. Nessuna modifica delle immagini. Nessun materiale mancante.
 
-- Italiano, tono discorsivo e domanda concreta; niente obiettivi o riepiloghi automatici.
-- Concordare le visuali prima della bozza; niente ricerca o generazione autonoma di immagini.
-- Testo completo soltanto in `bozza.md` sul ramo, non in chat.
-- Temperatura T maiuscola; simboli e conversioni corretti, note brevi e utili.
-- Formula delle conversioni spiegata nel racconto; nessuna anticipazione di Q = mcΔT.
-- Domande di verifica finali miste, senza soluzioni; formulazioni da fissare nella bozza.
-- HTML solo dopo approvazione della bozza, stima ripartita e via esplicito.
-- Tema esatto, stessa composizione delle visuali su mobile; crediti centralizzati e snapshot offline al momento della realizzazione.
-- Nessuna modifica a main, catalogo, manifest, articoli pubblicati o sospesi in questa fase.
+- COP-01: incisione di Jan Wandelaar; originale Commons 289 × 288 px, 34 051 byte. Non disponibile una risoluzione superiore; mantenere dimensioni native e non attribuire una scala storica incerta. Pubblico dominio dichiarato da Commons.
+- FIG-01: misura orale della temperatura, Roy Perry / National Library of Medicine; versione scelta 960 × 714 px, 138 572 byte. «No known copyright restrictions», distinto da CC0.
+- FIG-02: bevanda con ghiaccio, Henryemix; versione scelta 1920 × 1280 px, 407 515 byte; CC0 1.0.
+- TAB-01: confronto delle scale, già presente nella bozza approvata. Nessuna nuova simulazione o video.
 
-## Visuali e materiali
+La conservazione degli originali nella lavorazione non aggiorna il registro pubblico dei crediti. In fase HTML: `data-credit-*`, registro unico, sincronizzazione e check, snapshot e licenza Lexend incorporata. Non introdurre inventari concorrenti.
 
-COP-01: termometro meteorologico, nuova copertina da fornire.
-FIG-01: termometro o sonda immerso in acqua, nuovo originale da fornire.
-FIG-02: riuso concordato della foto del caffè già scelta per sistemi termodinamici.
-TAB-01: tabella delle tre scale concordata come visuale; valori e testo inclusi nella bozza v1 approvata.
+## Controlli della revisione
 
-Soggetti, funzione, collocazione, collegamenti e cautele scientifiche in visuali.md. Nessuna nuova foto selezionata, scaricata o elaborata. Il riuso della foto del caffè per questo articolo è compreso nella proposta accettata con «Ok». Restano da ricevere COP-01 e FIG-01; nessuna scelta di un originale specifico è stata dedotta dall’assenso ai soggetti.
+- Foto controllate visivamente, soggetti coerenti; nessuna temperatura, diagnosi, misura o cronologia dedotta dalle fotografie.
+- Per il termometro: equilibrio della parte sensibile con la zona del corpo misurata, senza presupporre temperatura uniforme in tutto il corpo.
+- Per la bevanda: esplicitati ghiaccio visibile, fase successiva alla fusione, ambiente più caldo e a temperatura costante, al riparo dal Sole; nessuna anticipazione quantitativa del calore latente.
+- Copertina descritta come particolare storico dell’Hortus Cliffortianus (1738); non come fotografia meteorologica né prova di una precisa scala.
+- Foto complete, proporzioni e byte conservati; hash blob confrontati con quelli calcolati localmente prima del salvataggio.
+- Testo approvato fuori dall’intervento conservato; formule e tabella non modificate. Segnaposto collegati a file reali.
+- Build Pages e prove browser non pertinenti: nessun HTML o sito modificato.
 
-Nessuna simulazione o video proposta; nessun codice interattivo programmato.
+## Stima e prossimo passo
 
-## Stima e via alla realizzazione
+Stima già comunicata: 30–50 minuti di lavoro complessivo per la realizzazione, esclusa l’attesa di file/risposte; materiali e crediti 5–10 minuti, impaginazione nel tema 15–25 minuti, controlli/anteprime/salvataggio 10–15 minuti. Calcolo basso, nessuna simulazione. Le immagini sono ora disponibili e la verifica preliminare è compiuta. Stima indicativa subordinata all’accesso operativo e all’esito delle verifiche.
 
-Stima comunicata dopo l’approvazione della bozza: 30–50 minuti di lavoro, esclusa l’attesa dei materiali e delle risposte. Preparazione e verifica dei materiali e dei crediti: 5–10 minuti; integrazione nel tema comune e impaginazione HTML: 15–25 minuti; controlli, anteprime desktop/mobile e salvataggio: 10–15 minuti. Impegno di calcolo basso, nessuna simulazione. Ipotesi: due foto disponibili con fonti e licenze verificabili, nessuna elaborazione sostanziale richiesta e ambiente operativo per verifiche e salvataggio. Tempi indicativi, non garantiti; eventuali problemi di accesso o licenza possono modificarli. Alternativa leggera già adottata: foto e tabella statica, senza simulazione.
+Prossimo passo: ottenere soltanto il via all’HTML previsto da B1.1 punto 4 e B2 dopo la stima; non chiedere di approvare di nuovo bozza o immagini. Quindi applicare il tema esatto, integrare materiali e crediti, verificare desktop/mobile e offline e salvare un’anteprima. Pubblicazione distinta e non autorizzata.
 
-In attesa del via esplicito alla realizzazione richiesto da B1.1 punto 4 e B2; il secondo «Ok» approva la bozza prima della presentazione della stima, non è registrato come via successivo alla stima.
-
-## Verifiche e ripresa
-
-Verificati identificazione dell'articolo 2 e confini rispetto al piano, assenza di file omonimi nel main consultato, esistenza del percorso della foto riutilizzabile e coerenza della proposta con il workflow. Modifiche limitate a due documenti Markdown nuovi: build Pages e prove browser non pertinenti in questa fase.
-
-Accesso Git dalla shell non riuscito perché il proxy dell'ambiente non era raggiungibile; lettura e salvataggio effettuati attraverso il connettore GitHub sulla stessa destinazione ufficiale.
-
-Controllo della bozza: principio zero e misura per contatto coerenti; distinte letture e differenze di temperatura; conversioni e quattro righe della tabella verificate aritmeticamente; nessuna simulazione, anticipazione di calorimetria o soluzione alle domande. Nessuna prova browser pertinente alla bozza Markdown.
-
-Prossimo passo: ricevere i due originali nuovi con fonti/licenze e il via alla realizzazione dopo la stima. Bozza già approvata: non richiederne una nuova conferma. Prima di impaginare leggere integralmente il modello HTML corrente. Salvataggio nel ramo dedicato; nessun aggiornamento a main o pubblicazione.
+L’accesso di rete dalla shell funziona usando i permessi di rete aggiuntivi dell’esecutore; con la sola sandbox predefinita il proxy non risulta raggiungibile. Non disattivare proxy o verifica TLS. Salvataggio ufficiale tramite connettore GitHub.

@@ -1,44 +1,58 @@
-# Visuali proposte — Temperatura ed equilibrio termico
+# Visuali — Temperatura ed equilibrio termico
 
-Versione v2 · 19 ottobre 2026 (Europe/Rome).
-Stato: proposta accettata dall’utente con «Ok»; riuso del caffè e tabella concordati. I due nuovi originali restano da ricevere; nessuna ricerca eseguita. La bozza completa è ora in [bozza.md](bozza.md), da approvare.
+Versione v3 · 19 ottobre 2026 (Europe/Rome).
 
-## Domanda e percorso proposti
+## Scelte effettive
 
-«Quando possiamo fidarci della temperatura indicata da un termometro?»
+L’utente ha accettato la proposta iniziale con «Ok» e poi ha fornito tre collegamenti precisi, richiedendo «Foto 1, adatta l’esempio» e indicando «Foto 2, equilibrio termico». Queste scelte sostituiscono copertina meteorologica, termometro immerso e riuso del caffè. Non chiedere una nuova approvazione delle medesime immagini. Le modifiche testuali circoscritte sono richieste esplicitamente; il resto della bozza v1 già approvata è conservato.
 
-Partire dalla lettura di un termometro immerso in una bevanda: il valore può cambiare nei primi istanti e occorre attendere che lo strumento raggiunga l'equilibrio termico con ciò che si misura. Il percorso conduce alla temperatura come grandezza che permette di confrontare gli stati termici, all'equilibrio, al principio zero e alla misura; conclude con le scale Celsius, Kelvin e Fahrenheit. La domanda e questo percorso sono proposte editoriali, non ancora approvate.
+## COP-01 — Termometro storico
 
-## Materiali da scegliere
+- File: [risorse/copertina-termometro-storico.jpg](risorse/copertina-termometro-storico.jpg).
+- Scelta ricevuta: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Wandelaar_Linnaeus_Hortus_thermometer.jpg/960px-Wandelaar_Linnaeus_Hortus_thermometer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- Fonte originale e diritti: https://commons.wikimedia.org/wiki/File:Wandelaar_Linnaeus_Hortus_thermometer.jpg
+- File effettivamente disponibile: https://upload.wikimedia.org/wikipedia/commons/d/d6/Wandelaar_Linnaeus_Hortus_thermometer.jpg
+- Autore dell’incisione: Jan Wandelaar (1690–1759); particolare del frontespizio dell’Hortus Cliffortianus, 1738. Il ritaglio già presente su Commons risulta caricato da Pieter Kuiper nel 2010.
+- Stato dichiarato da Commons: pubblico dominio, PD-old; Public Domain Mark 1.0, https://creativecommons.org/publicdomain/mark/1.0/ . Conservare la provenienza; non descrivere PDM come una nuova licenza concessa dall’autore.
+- 289 × 288 px, 34 051 byte. Commons dichiara che non è disponibile una risoluzione superiore: il collegamento richiesto a 960 px non corrisponde a un originale più grande. Nessun ricampionamento eseguito.
+- SHA-256: `7e6bdc27238efd217413d3c0beb40cf3dfe12bb3db48be523ac7940c15e74626`.
+- Funzione: copertina storica, da non ripetere nel corpo. Mantenere proporzioni e dimensioni native senza ingrandimenti artificiali. Non identificare la scala come Celsius moderna o attribuirle una specifica scala inversa: la stessa scheda discute l’incertezza storica.
+- Nessuna modifica all’immagine scaricata. Didascalia adattata nella bozza v2.
 
-| ID | Soggetto preciso | Funzione e posizione | Stato |
-| --- | --- | --- | --- |
-| COP-01 | Foto di un termometro meteorologico in un contesto reale, con scala leggibile e senza scritte aggiunte dal sito di provenienza. | Copertina: introdurre la misura della temperatura. Non riutilizzare questa foto nel corpo. | File o collegamento originale da fornire e scegliere. |
-| FIG-01 | Foto di una sonda o di un termometro a liquido immerso in acqua, con parte sensibile visibile e senza contatto con il fondo o le pareti. Preferibile un recipiente trasparente e uno sfondo semplice. | Apertura e spiegazione della misura per contatto: distinguere la lettura iniziale da quella all'equilibrio. La foto mostra l'apparato; non attribuirle misure o una sequenza temporale che non documenta. | File o collegamento originale da fornire e scegliere. |
-| FIG-02 | Foto del caffè già conservata in [termodinamica_sistemi/risorse/caffe.jpg](../termodinamica_sistemi/risorse/caffe.jpg). | Vicino alla spiegazione dell'equilibrio con l'ambiente: la bevanda lasciata nella stanza tende alla temperatura circostante. Una sola figura può accompagnare più paragrafi collegati. Non ricavare una temperatura dalla foto. | Materiale esistente già scelto per l'articolo 1; riuso proposto per l'articolo 2. Nessuna sostituzione o nuova ricerca necessaria. |
-| TAB-01 | Tabella HTML di corrispondenza fra Celsius, kelvin e Fahrenheit. Righe proposte: zero assoluto; fusione del ghiaccio; temperatura di 20 °C; ebollizione dell'acqua. | Confrontare valori dello stesso stato termico e leggere gli scarti e la diversa ampiezza dei gradi. Integrare le conversioni spiegate nel testo. | Proposta da concordare; realizzazione solo dopo bozza approvata e via. Non occorre una foto. |
+## FIG-01 — Misura della temperatura corporea
 
-Per FIG-01 va bene una sonda digitale: il principio zero non dipende dal tipo di sensore. Se si sceglie invece un termometro a liquido, spiegare il cambiamento del livello soltanto come proprietà termometrica osservabile; lo sviluppo della dilatazione appartiene all'articolo 5.
+- File: [risorse/misura-temperatura-paziente.jpg](risorse/misura-temperatura-paziente.jpg).
+- Scelta ricevuta: https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Physician_taking_temperature_of_young_patient_%284644489973%29.jpg/960px-Physician_taking_temperature_of_young_patient_%284644489973%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- Fonte e verifica dei diritti: https://commons.wikimedia.org/wiki/File:Physician_taking_temperature_of_young_patient_(4644489973).jpg
+- Fonte istituzionale: National Library of Medicine — History of Medicine, https://www.flickr.com/photos/nlmhmd/4644489973/ .
+- Fotografo indicato nella descrizione: Roy Perry. Distinguere il creatore dalla National Library of Medicine, istituzione che pubblica la foto.
+- Stato documentato: «No known copyright restrictions», Flickr Commons; verifica FlickreviewR del 13 luglio 2015. Informazioni sullo stato: https://www.flickr.com/commons/usage/ . Non trasformare questa dichiarazione in una licenza CC0 o in una certezza di pubblico dominio.
+- Versione scelta scaricata integralmente: 960 × 714 px, 138 572 byte.
+- SHA-256: `72a531572f6ec0a535fe0f92b0392dbe14ef9fc07f4617e4e215cc3a2d2f2845`.
+- Osservazione diretta: medico e giovane paziente, termometro in bocca. Nessuna misura numerica leggibile usata come dato.
+- Funzione: apertura e spiegazione dell’equilibrio tra la parte sensibile dello strumento e la zona del corpo misurata. Non affermare che l’intero corpo abbia temperatura uniforme, né dedurre dalla foto il tipo di sostanza contenuta nel termometro o una diagnosi.
+- Nessun ritaglio, rimozione dello sfondo, modifica o testo sovrapposto. Foto in contesto scelta esplicitamente dall’utente.
 
-## Principio zero senza una figura ridondante
+## FIG-02 — Bevanda fredda ed equilibrio termico
 
-Riutilizzare FIG-01 nel punto del racconto in cui viene introdotta, senza duplicarla: se un corpo A e un corpo B sono ciascuno in equilibrio termico con lo stesso termometro C, sono in equilibrio termico tra loro. Si confrontano letture ottenute all'equilibrio, non si mettono prima in contatto i due corpi. La formulazione e l'eventuale necessità di una figura aggiuntiva verranno controllate durante la bozza.
+- File: [risorse/bevanda-fredda.jpg](risorse/bevanda-fredda.jpg).
+- Scelta ricevuta: https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Cold_Drink_on_a_patio_table.jpg/1920px-Cold_Drink_on_a_patio_table.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- Fonte e diritti: https://commons.wikimedia.org/wiki/File:Cold_Drink_on_a_patio_table.jpg
+- Autore: Henryemix; opera propria. Data dichiarata: 1 gennaio 2025.
+- Licenza/dedica: CC0 1.0 Universal, https://creativecommons.org/publicdomain/zero/1.0/ .
+- Versione scelta scaricata integralmente: 1920 × 1280 px, 407 515 byte.
+- SHA-256: `b88fed40fdd553ff8e9e968fcc0b6cc60669e6b4fe44f0e64067c1966b9e36e5`.
+- Osservazione diretta: bevanda in un bicchiere con ghiaccio su un tavolo. Non ricavare temperatura o condizioni dell’ambiente dalla fotografia.
+- Funzione: spiegare il trasferimento dall’ambiente più caldo alla bevanda più fredda. Il testo distingue la fase con ghiaccio e il successivo avvicinamento alla temperatura circostante dopo che il ghiaccio si è sciolto. Sole assente e temperatura ambiente costante sono ipotesi esplicite dell’esempio, non dati osservati nella foto.
+- Nessun sviluppo del calore latente o della calorimetria; nessun calcolo numerico aggiunto.
+- Nessun ritaglio, conversione o sovrapposizione. Il caffè dell’articolo 1 resta invariato e non viene copiato qui.
 
-Non proporre una nuova simulazione: una foto dell'apparato, il ragionamento sul confronto e la tabella delle scale sono sufficienti al percorso. Nessun video previsto.
+## TAB-01 — Confronto delle scale
 
-## Vincoli scientifici per il testo successivo
+Tabella HTML semantica prevista, già concordata: zero assoluto; fusione del ghiaccio; 20 °C; ebollizione dell’acqua. Dati e didascalia in [bozza.md](bozza.md). Struttura identica su desktop e mobile; formule con frazioni orizzontali. Nessuna simulazione o video.
 
-- L'equilibrio termico implica uguale temperatura e assenza di trasferimento netto di energia dovuto alla differenza di temperatura; non implica assenza di energia o immobilità microscopica.
-- Il termometro per contatto misura attraverso l'equilibrio con il corpo. Non estendere questa descrizione ai termometri a infrarossi, non previsti qui.
-- Non spiegare la temperatura come quantità di calore, né affermare che il termometro contiene la temperatura del corpo. Energia interna, calore specifico e Q = mcΔT appartengono all'articolo 3.
-- T sempre maiuscola. Scrivere kelvin, simbolo K, senza il simbolo di grado; Celsius °C e Fahrenheit °F.
-- Conversioni da spiegare nella bozza: T in kelvin = valore in °C + 273,15; valore in °F = (9/5) · valore in °C + 32, con frazioni orizzontali nella realizzazione. Non confondere letture di temperatura e intervalli: un intervallo di 1 K ha la stessa ampiezza di 1 °C.
-- Per fusione ed ebollizione dell'acqua indicare la pressione atmosferica standard nella nota pertinente; i riferimenti sono approssimati, non la definizione moderna del kelvin.
-- Zero assoluto: limite inferiore della temperatura nella trattazione introduttiva; evitare l'affermazione che tutte le particelle siano ferme.
-- Domande finali miste e senza soluzioni; numero e formulazioni da fissare nella bozza dopo aver concordato le visuali.
+## Verifica e crediti
 
-## Materiali ancora da ricevere
+Fonti Commons consultate e immagini scaricate e ispezionate il 19 ottobre 2026. Le immagini sono conservate in questa lavorazione senza modifiche. Questi appunti documentano scelta e provenienza; non costituiscono un nuovo registro dei crediti del sito. In fase HTML riusare le eventuali schede pertinenti in `risorse/crediti.json`, oppure registrare i metadati mediante `data-credit-*` e `scripts/credits.py --sync`, con snapshot autonomo. Nessuna attribuzione dentro le didascalie.
 
-Proposta concordata. Ricevere i due originali nuovi COP-01 e FIG-01, preferibilmente con fonte e licenza. Per FIG-02 è disponibile il materiale già approvato; indicare soltanto eventuali preferenze diverse.
-
-Come previsto dal master B1.1 e C2, non sono state avviate ricerche o generazioni di immagini. Bozza completa salvata in `bozza.md` con segnaposto identificabili e domande finali; restano approvazione della bozza, stima e richiesta di via all'HTML nell'ordine previsto.
+La bozza v2 conserva il testo approvato non interessato e adatta apertura, didascalie, spiegazione dell’equilibrio e domande 1 e 4 alle nuove foto. Nessuna nuova approvazione delle immagini o del resto del testo richiesta. Resta distinto il via esplicito all’HTML dopo la stima, non presente nel messaggio di fornitura delle immagini.
