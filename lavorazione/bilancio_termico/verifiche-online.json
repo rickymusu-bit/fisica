@@ -1,0 +1,55 @@
+{
+  "merge_commit": "b33c37b64cfd8157403204990691799114080180",
+  "workflow": "https://github.com/rickymusu-bit/fisica/actions/runs/39321182318",
+  "workflow_conclusion": "success",
+  "urls": [
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/",
+      "status": 200,
+      "version": [
+        "v24"
+      ],
+      "bytes": 447352,
+      "sha256": "d74f313221cdf5a0212adf32a93fa7d7d00d666ad851a02edfff25410ec40ddd"
+    },
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/bilancio_termico_it.html",
+      "status": 200,
+      "version": [
+        "v6"
+      ],
+      "bytes": 2613416,
+      "sha256": "bba4ecfa8c8d9b81df772c56273fafd2e46cbe7895a8a962ce38987e55da8288"
+    },
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/energia_interna_calore_specifico_it.html",
+      "status": 200,
+      "version": [
+        "v7"
+      ],
+      "bytes": 9429421,
+      "sha256": "5f092a52855d740c8ce934cfff734fe5b10b82eff1aeba7d222fc083800dc981"
+    },
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/stati_della_materia.html",
+      "status": 200,
+      "version": [
+        "v22"
+      ],
+      "bytes": 8054053,
+      "sha256": "b60d4028a8b856ecd5fb69bab5f24929080705820da7b86479b706e6a2062aee"
+    },
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/crediti.html",
+      "status": 200,
+      "version": [
+        "v2"
+      ],
+      "bytes": 334364,
+      "sha256": "c6aa72045a7ad633ebf85e61a5a684e544608ff95ed78af5f517234b17a76d36"
+    }
+  ],
+  "catalogo_nove_articoli_ordine_corretto": true,
+  "navigazione_reciproca": true,
+  "html_pubblicati_identici_alle_versioni_verificate": true
+}

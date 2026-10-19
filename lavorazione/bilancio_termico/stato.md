@@ -1,10 +1,10 @@
 # Stato — Il bilancio termico
 
-Versione v14 — 19 ottobre 2026, ore 22:38 (Europe/Rome).
+Versione v15 — 19 ottobre 2026, ore 22:42 (Europe/Rome).
 
 ## Risultato corrente
 
-**HTML autonomo v6 completato e verificato**, dopo il via «Ok vai». File ufficiale proposto: `bilancio_termico_it.html`; copia identica in [bozza.html](bozza.html). Tema canonico v10, master v64. Ramo `termodinamica/bilancio-termico`, allineato a main per riutilizzare il tema corrente; main non modificato e pubblicazione non autorizzata.
+**Articolo pubblicato e verificato online**, su autorizzazione esplicita «Ok, puoi pubblicare». HTML autonomo v6: [Il bilancio termico](https://rickymusu-bit.github.io/fisica/bilancio_termico_it.html), con copia identica in [bozza.html](bozza.html). Tema canonico v10 e master v64 integrati in main attraverso la PR #42. Le indicazioni precedenti di pubblicazione in attesa sono storiche e superate.
 
 Articolo 4 del [percorso introduttivo](../percorso_termodinamica.md): energia ceduta e assorbita, convenzione dei segni, temperatura finale ed eventuale contributo della tazza. Esclusi cambiamenti di stato, calore latente, dilatazione e nuovi meccanismi di trasmissione. Caffè e latte con calori specifici approssimati a quello dell’acqua, come richiesto dall’utente.
 
@@ -101,3 +101,9 @@ Richiesta esplicita «Ok, puoi pubblicare»: autorizzati integrazione in main, c
 Catalogo home v24 e manifest v8: nove articoli, bilancio termico al quarto posto dopo Energia interna e prima di Stati della materia. Collegamenti reciproci aggiornati: energia interna v7 → bilancio v6 → stati v22. Copie di lavorazione e generatore dell’articolo precedente allineati. Testi didattici degli articoli coinvolti confrontati e invariati. Sorgenti esclusi e indirizzi storici invariati. Crediti e snapshot sincronizzati; build Pages con 11 HTML italiani, inclusi home e crediti, e 20 copertine. Controlli offline desktop/mobile del nuovo articolo completati. Anteprima della sequenza di pubblicazione e verifica online da completare prima della consegna finale.
 
 Anteprima della pubblicazione completata: verifiche-pubblicazione.json conferma ordine dei nove articoli, download e percorso catalogo → bilancio → precedente/successivo a 1280/390 px. Nessun errore JavaScript o richiesta esterna nelle prove con output Pages locale. Anteprime catalogo e navigazione consegnate prima dell’integrazione. Pubblicazione tramite la PR #42 e controllo del workflow Pages e dell’URL online dopo il merge.
+
+## Rilascio concluso e verifica online
+
+PR #42 integrata nel commit b33c37b64cfd8157403204990691799114080180. Workflow GitHub Pages [39321182318](https://github.com/rickymusu-bit/fisica/actions/runs/39321182318) completato con successo, build e deploy entrambi riusciti.
+
+Controllati gli URL pubblici senza parametri: home v24, bilancio v6, energia interna v7, stati v22 e crediti, tutti HTTP 200. I tre HTML degli articoli coinvolti sono identici byte per byte alle versioni locali verificate. Catalogo pubblico con nove articoli nell’ordine corretto; navigazione reciproca verificata. Report completo in [verifiche-online.json](verifiche-online.json). Nessuna pubblicazione pendente o materiale mancante; capitolo concluso.
