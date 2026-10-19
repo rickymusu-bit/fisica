@@ -1,12 +1,12 @@
 # Stato — La dilatazione termica
 
-Versione v9 — 19 ottobre 2026 (Europe/Rome).
+Versione v10 — 19 ottobre 2026 (Europe/Rome).
 
 ## Identità e fase
 
 - Quinto articolo del percorso introduttivo di termodinamica, area «Materia e calore».
 - Ramo dedicato: `termodinamica/dilatazione-termica`, derivato da main al commit `1a9b1b3d6abdf87656f19b22ec001db312808cec`.
-- Fase corrente: bozza testuale v7 salvata e da approvare; materiali visuali da ricevere.
+- Fase corrente: bozza testuale v7 approvata; materiali visuali e via esplicito all'HTML da ricevere.
 - Richiesta ricevuta: «Nel mio repo GitHub di fisica Procedi a creare il quinto argomento del piano».
 - Il piano v6 identifica il quinto argomento come La dilatazione termica e ne lascia espressamente sviluppo e visuali da concordare.
 
@@ -32,7 +32,7 @@ Applicazioni correnti: binari ferroviari, termometro a liquido, termostato bimet
 
 ## Bozza e approvazioni effettive
 
-L'utente ha risposto «Approvo» alla proposta v2: orientamento, sei casi e funzioni delle visuali concordati. Nessun file originale delle immagini ancora scelto o ricevuto; nessun permesso di ricerca o generazione dedotto. Preparata [bozza.md](bozza.md) v7 con segnaposto per le visuali concordate, didascalie proposte, formule interpretate, 12 domande finali senza soluzioni e crediti di servizio. La bozza è da approvare; nessun via all'HTML o alla pubblicazione ricevuto.
+L'utente ha risposto «Approvo» alla proposta v2: orientamento, sei casi e funzioni delle visuali concordati. Nessun file originale delle immagini ancora scelto o ricevuto; nessun permesso di ricerca o generazione dedotto. Preparata [bozza.md](bozza.md) v7 con segnaposto per le visuali concordate, didascalie proposte, formule interpretate, 12 domande finali senza soluzioni e crediti di servizio. L'utente ha approvato il testo v7 con «Ok la bozza va bene». Nessun via esplicito alla realizzazione HTML o alla pubblicazione ancora ricevuto.
 
 ## Lavoro completato e verifiche
 
@@ -42,7 +42,7 @@ Aggiornata la proposta sulla base della nuova richiesta. Controllate la distinzi
 
 ## Punti aperti e prossima operazione
 
-Consegna della bozza per correzioni o approvazione; ricezione dei file o collegamenti per COP-01, FIG-01–FIG-07 e il materiale di partenza di GRA-01. Le funzioni e i casi sono approvati: non chiedere nuovamente l'approvazione dello stesso piano. Verificare gli originali e i diritti, adattare didascalie e spiegazioni soltanto se i materiali lo richiedono. Dopo l'approvazione della bozza presentare stima ripartita e raccogliere il via esplicito all'HTML. Main e pubblicazione invariati.
+Bozza v7 approvata; ricezione dei file o collegamenti per COP-01, FIG-01–FIG-07 e il materiale di partenza di GRA-01. Le funzioni e i casi sono approvati: non chiedere nuovamente l'approvazione dello stesso piano. Verificare gli originali e i diritti, adattare didascalie e spiegazioni soltanto se i materiali lo richiedono. Dopo l'approvazione della bozza presentare stima ripartita e raccogliere il via esplicito all'HTML. Main e pubblicazione invariati.
 
 ## Correzione richiesta e applicata
 
@@ -63,3 +63,11 @@ TAB-02 conserva alcol etilico, glicerina, acqua e mercurio, con coefficienti vol
 ## Rimozione della relazione fra α e β
 
 Dopo il chiarimento in chat, l'utente richiede «Ok allora non metterla». Rimossa dalla bozza v7 l'intera sezione sulla relazione fra α e β, insieme alla nota 5, al riferimento nei crediti di servizio e alla domanda dedicata. La domanda sulla tabella dei liquidi è mantenuta e rinumerata 12: totale 12 domande senza soluzioni. Visuali aggiornate alla v9; nessuna modifica alle altre parti o alle due tabelle. Richiesta circoscritta eseguita direttamente; nessun HTML o pubblicazione. Controllare assenza di formula, sezione e richiami residui, poi verificare integrità remota dei tre file prima della consegna. Restano da ricevere le immagini e l'approvazione del testo complessivo.
+
+## Approvazione della bozza e stima per l'HTML
+
+L'utente approva la bozza v7 con «Ok la bozza va bene». Conservare il testo approvato e le due tabelle, senza la relazione α–β. L'approvazione riguarda il testo, non immagini ancora assenti né pubblicazione.
+
+Stima da presentare prima del via, secondo B1.1 punto 4 e B2: 40–70 minuti di lavoro, impegno di calcolo basso, dopo la disponibilità di tutti i materiali scelti. Ripartizione: 10–20 minuti per verifica e preparazione dei materiali e crediti; 20–30 minuti per grafico statico, integrazione e impaginazione nel tema comune; 10–20 minuti per verifiche desktop/mobile/offline, anteprime e salvataggio. Nessuna simulazione prevista. Ipotesi: originali adeguati e utilizzabili, grafico o dati dell'acqua disponibili, nessuna elaborazione sostanziale delle immagini o modifica al tema. Attesa dei file esclusa; eventuali problemi degli originali o dell'ambiente possono cambiare la stima. Riutilizzare il tema approvato e visuali statiche mantiene contenuto e riduce il lavoro.
+
+Prossimo passo: ricevere immagini e materiale del grafico secondo visuali.md e il via esplicito alla realizzazione dopo la stima. Non ricercare o generare immagini autonomamente. Nessun HTML avviato; main e pubblicazione invariati.
