@@ -1,12 +1,12 @@
 # Stato — La dilatazione termica
 
-Versione v5 — 19 ottobre 2026 (Europe/Rome).
+Versione v6 — 19 ottobre 2026 (Europe/Rome).
 
 ## Identità e fase
 
 - Quinto articolo del percorso introduttivo di termodinamica, area «Materia e calore».
 - Ramo dedicato: `termodinamica/dilatazione-termica`, derivato da main al commit `1a9b1b3d6abdf87656f19b22ec001db312808cec`.
-- Fase corrente: bozza testuale v3 salvata e da approvare; materiali visuali da ricevere.
+- Fase corrente: bozza testuale v4 salvata e da approvare; materiali visuali da ricevere.
 - Richiesta ricevuta: «Nel mio repo GitHub di fisica Procedi a creare il quinto argomento del piano».
 - Il piano v6 identifica il quinto argomento come La dilatazione termica e ne lascia espressamente sviluppo e visuali da concordare.
 
@@ -32,7 +32,7 @@ Applicazioni correnti: binari ferroviari, termometro a liquido, termostato bimet
 
 ## Bozza e approvazioni effettive
 
-L'utente ha risposto «Approvo» alla proposta v2: orientamento, sei casi e funzioni delle visuali concordati. Nessun file originale delle immagini ancora scelto o ricevuto; nessun permesso di ricerca o generazione dedotto. Preparata [bozza.md](bozza.md) v3 con segnaposto per le visuali concordate, didascalie proposte, formule interpretate, 11 domande finali senza soluzioni e crediti di servizio. La bozza è da approvare; nessun via all'HTML o alla pubblicazione ricevuto.
+L'utente ha risposto «Approvo» alla proposta v2: orientamento, sei casi e funzioni delle visuali concordati. Nessun file originale delle immagini ancora scelto o ricevuto; nessun permesso di ricerca o generazione dedotto. Preparata [bozza.md](bozza.md) v4 con segnaposto per le visuali concordate, didascalie proposte, formule interpretate, 11 domande finali senza soluzioni e crediti di servizio. La bozza è da approvare; nessun via all'HTML o alla pubblicazione ricevuto.
 
 ## Lavoro completato e verifiche
 
@@ -48,6 +48,6 @@ Consegna della bozza per correzioni o approvazione; ricezione dei file o collega
 
 L'utente chiede di sostituire il ponte nelle applicazioni con i binari ferroviari. Bozza v2: nuova prima applicazione su binari con giunti e rotaie saldate continue, relativi vincoli e rischio di deformazione laterale; aggiornata domanda 3. Ponte conservato soltanto nella copertina e nell'introduzione teorica, con FIG-01 non più richiamata nelle applicazioni. Nuovo segnaposto FIG-07 per il binario con giunto; file da ricevere. Consultata la fonte tecnica primaria Network Rail, Buckled rail, aggiunta ai crediti di servizio. Nessuna ricerca di immagini effettuata. Correzione circoscritta già autorizzata dalla richiesta; approvazione della bozza complessiva e via all'HTML restano da ricevere.
 
-## Tabella quantitativa richiesta
+## Tabella dei coefficienti richiesta
 
-L'utente richiede una tabella per far percepire quanto sia piccola la dilatazione. Aggiunta TAB-01 alla bozza v3 dopo la legge lineare: L_0 = 1 m, da 20 °C a 40 °C, campioni liberi; acciaio 0,24 mm, rame 0,34 mm, alluminio 0,50 mm, vetro comune 0,18 mm. Verificati coefficienti contro OpenStax tabella 13.2 e tutti e quattro i prodotti α · L_0 · ΔT con conversione in millimetri; controllato 0,50 mm su 1000 mm = 0,05%. Interpretazione con scala di 1 mm di un righello e nota sui coefficienti rappresentativi. Fonte nei crediti di servizio; nessuna misura sperimentale inventata. Visuali aggiornate alla v5. Nessuna nuova richiesta di approvazione per questa modifica circoscritta; restano da ricevere immagini e approvazione del testo complessivo prima del via all'HTML. Verificare integrità remota dei file aggiornati prima della consegna.
+L'utente precisa: «No intendo dei coefficienti di dilatazione». La precisazione sostituisce l'interpretazione precedente: rimossa dalla bozza la tabella degli allungamenti e il caso numerico di 1 m da 20 °C a 40 °C. Bozza v4: TAB-01 con sole colonne Materiale e coefficiente lineare α (K⁻¹), sei materiali e valori decimali rappresentativi a 20 °C, verificati contro OpenStax tabella 13.2. Spiegazione di α dell'acciaio come dodici milionesimi della lunghezza per kelvin e confronto alluminio/acciaio, circa doppio. Nessuna colonna di allungamenti calcolati. Visuali v6 aggiornate. La richiesta è una correzione circoscritta già autorizzata; nessun HTML o pubblicazione. Verificare i tre file remoti prima della consegna. Restano da ricevere le immagini e l'approvazione del testo complessivo.
