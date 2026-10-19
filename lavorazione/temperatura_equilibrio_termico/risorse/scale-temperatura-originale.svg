@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="188.21484mm"
+   height="95.31955mm"
+   viewBox="0 0 188.21484 95.31955"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="temperature-scales-comparison.svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4699">
+      <stop
+         style="stop-color:#fffc20;stop-opacity:1"
+         offset="0"
+         id="stop4695" />
+      <stop
+         style="stop-color:#fe0606;stop-opacity:1"
+         offset="1"
+         id="stop4697" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4699"
+       id="linearGradient873"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.3254488,0,0,1.3260881,110.82206,-153.30786)"
+       x1="-37.581322"
+       y1="296.60175"
+       x2="-37.634766"
+       y2="32.716797" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.3799837"
+     inkscape:cx="-113.06108"
+     inkscape:cy="152.69618"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-right="20"
+     fit-margin-bottom="5"
+     inkscape:window-width="1858"
+     inkscape:window-height="1057"
+     inkscape:window-x="54"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>temperature scales comparison</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+        <dc:date>2019-09-24</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Michael A. Rundel</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>CC BY-SA 4.0</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>temperature scales kelvin fahrenheit celsius</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:description>Relations among temperature scales in common use.</dc:description>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     style="font-style:normal;font-weight:normal;font-size:4.23333311px;line-height:1.25;font-family:'Open Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(23.973538,-157.57163)">
+    <use
+       x="0"
+       y="0"
+       xlink:href="#g871"
+       id="use887"
+       transform="translate(119.92113)"
+       width="100%"
+       height="100%" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#g871"
+       id="use885"
+       transform="translate(83.773069)"
+       width="100%"
+       height="100%" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#g871"
+       id="use875"
+       transform="translate(47.625003)"
+       width="100%"
+       height="100%" />
+    <path
+       style="fill:none;stroke:#999999;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path120"
+       d="m -10.122651,196.28412 h 26.98364 m 9.184482,0 h 27.393016 m 8.649774,0 h 21.780742 m -93.991654,7.99726 h 29.133758 m 7.034364,0 h 29.509683 m 6.533107,0 h 21.780742 m -93.991654,2.9589 h 31.779592 m 4.38853,0 h 29.509683 m 6.533107,0 h 21.780742 m -93.991654,21.47645 h 22.945697 m 13.222425,0 h 23.159683 m 12.883107,0 h 21.780742 m -93.991654,8.43827 h 22.945697 m 13.222425,0 h 23.159683 m 12.883107,0 h 21.780742 m -93.991654,-69.03205 h 26.98364 m 9.184482,0 H 52.90932 m 9.178941,0 h 21.780742"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccc" />
+    <g
+       style="font-size:5px;font-family:sans-serif;"       
+       id="g884">
+      <switch>
+         <text x="84.829948" y="169.30554" systemLanguage="de">Siedepunkt von Quecksilber</text>
+         <text x="84.829948" y="169.30554" systemLanguage="en">Mercury boils</text>
+         <text x="84.829948" y="169.30554">Mercury boils</text>
+       </switch>       
+    </g>
+    <g
+       style="font-size:5px;font-family:sans-serif;"
+       id="g888">
+      <switch>
+         <text x="84.829948" y="197.45972" systemLanguage="de">Siedepunkt von Wasser</text>
+         <text x="84.829948" y="197.45972" systemLanguage="en">Steam point</text>
+         <text x="84.829948" y="197.45972">Steam point</text>
+       </switch>
+    </g>
+    <g
+       style="font-size:5px;font-family:sans-serif;"
+       id="g892">
+       <switch>
+         <text x="84.875427" y="204.35799" systemLanguage="de">ca. Raumtemperatur</text>
+         <text x="84.875427" y="204.35799" systemLanguage="en">Approx. room temperature</text>
+         <text x="84.875427" y="204.35799">Approx. room temperature</text>
+       </switch>
+    </g>
+    <g
+       style="font-size:5px;font-family:sans-serif;"
+       id="g896">
+       <switch>
+         <text x="84.8713" y="209.68919" systemLanguage="de">Gefrierpunkt von Wasser</text>
+         <text x="84.8713" y="209.68919" systemLanguage="en">Ice point</text>
+         <text x="84.8713" y="209.68919">Ice point</text>
+       </switch>
+    </g>
+    <g
+       style="font-size:5px;font-family:sans-serif;"
+       id="g900">
+       <switch>
+         <text x="84.829948" y="229.9314" systemLanguage="de">Siedepunkt von Stickstoff</text>
+         <text x="84.829948" y="229.9314" systemLanguage="en">Nitrogen boils</text>
+         <text x="84.829948" y="229.9314">Nitrogen boils</text>
+       </switch>
+    </g>
+    <g
+       style="font-size:5px;font-family:sans-serif;"
+       id="g904">
+       <switch>
+         <text x="85.075928" y="238.28329" systemLanguage="de">Absoluter Nullpunkt</text>
+         <text x="85.075928" y="238.28329" systemLanguage="en">Absolute zero</text>
+         <text x="85.075928" y="238.28329">Absolute zero</text>
+       </switch>
+    </g>
+    <text
+       id="text5106"
+       y="169.45856"
+       x="53.501575"
+       style="font-size:5px;font-family:sans-serif;"
+       xml:space="preserve">674</text>
+    <text
+       xml:space="preserve"
+       style="font-size:5px;font-family:sans-serif;"
+       x="53.687611"
+       y="197.61273"
+       id="text5110">212</text>
+    <text
+       id="text5114"
+       y="204.82378"
+       x="56.240429"
+       style="font-size:5px;font-family:sans-serif;"
+       xml:space="preserve">80</text>
+    <text
+       xml:space="preserve"
+       style="font-size:5px;font-family:sans-serif;"
+       x="56.383053"
+       y="209.31303"
+       id="text5118">32</text>
+    <text
+       id="text5122"
+       y="230.08441"
+       x="50.107471"
+       style="font-size:5px;font-family:sans-serif;"
+       xml:space="preserve">−321</text>
+    <text
+       xml:space="preserve"
+       style="font-size:5px;font-family:sans-serif;"
+       x="49.997913"
+       y="238.43631"
+       id="text5126">−460</text>
+    <text
+       xml:space="preserve"
+       style="font-size:5px;font-family:sans-serif;"
+       x="17.208233"
+       y="169.50029"
+       id="text5150">357</text>
+    <text
+       id="text5154"
+       y="197.65446"
+       x="17.127617"
+       style="font-size:5px;font-family:sans-serif;"
+       xml:space="preserve">100</text>
+    <text
+       xml:space="preserve"
+       style="font-size:5px;font-family:sans-serif;"
+       x="19.903675"
+       y="204.86552"
+       id="text5158">27</text>
+    <text
+       id="text5162"
+       y="209.35478"
+       x="22.518505"
+       style="font-size:5px;font-family:sans-serif;"
+       xml:space="preserve">0</text>
+    <text
+       xml:space="preserve"
+       style="font-size:5px;font-family:sans-serif;"
+       x="13.566082"
+       y="230.0396"
+       id="text5166">−196</text>
+    <text
+       id="text5170"
+       y="238.47806"
+       x="13.638424"
+       style="font-size:5px;font-family:sans-serif;"
+       xml:space="preserve">−273</text>
+    <text
+       id="text5174"
+       y="169.65176"
+       x="-19.269127"
+       style="font-size:5px;font-family:sans-serif;"
+       xml:space="preserve">630</text>
+    <text
+       xml:space="preserve"
+       style="font-size:5px;font-family:sans-serif;"
+       x="-19.211248"
+       y="197.80594"
+       id="text5178">373</text>
+    <text
+       id="text5182"
+       y="205.01698"
+       x="-19.269127"
+       style="font-size:5px;font-family:sans-serif;"
+       xml:space="preserve">300</text>
+    <text
+       xml:space="preserve"
+       style="font-size:5px;font-family:sans-serif;"
+       x="-19.211248"
+       y="209.50624"
+       id="text5186">273</text>
+    <text
+       id="text5190"
+       y="230.27763"
+       x="-16.493069"
+       style="font-size:5px;font-family:sans-serif;"
+       xml:space="preserve">77</text>
+    <text
+       xml:space="preserve"
+       style="font-size:5px;font-family:sans-serif;"
+       x="-13.878241"
+       y="238.62953"
+       id="text5194">0</text>
+    <text
+       xml:space="preserve"
+       style="font-size:5px;font-family:sans-serif;"
+       x="-5.0591283"
+       y="247.83124"
+       id="text120">K</text>
+    <text
+       id="text128"
+       y="247.83124"
+       x="29.047714"
+       style="font-size:5px;font-family:sans-serif;"
+       xml:space="preserve">°C</text>
+    <text
+       xml:space="preserve"
+       style="font-size:5px;font-family:sans-serif;"
+       x="65.4645"
+       y="247.83124"
+       id="text132">°F</text>
+    <g
+       transform="matrix(0.34090398,0,0,0.34105461,-71.817867,159.48937)"
+       id="g871"
+       style="stroke-width:0.77595133">
+      <path
+         style="fill:url(#linearGradient873);fill-opacity:1;stroke:#000000;stroke-width:0.77595133"
+         d="m 60.939124,9.425424 c -2.87358,0 -5.20342,2.331737 -5.20342,5.260322 V 217.62644 c -4.01271,1.98039 -6.55447,6.06743 -6.55736,10.54396 -5.1e-4,6.49864 5.26527,11.76695 11.76078,11.76643 6.49448,-9.1e-4 11.75869,-5.26881 11.75817,-11.76643 -0.005,-4.47372 -2.54714,-8.55705 -6.55734,-10.53619 V 14.685746 c 0,-2.928585 -2.32727,-5.260322 -5.20083,-5.260322 z"
+         id="path867"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="sscccccss" />
+      <path
+         id="path869"
+         d="m 60.937825,218.22579 a 9.951544,9.951544 0 0 0 -9.951619,9.95153 9.951544,9.951544 0 0 0 0.13116,1.57864 13.384025,13.384025 0 0 1 11.887268,-11.30886 9.951544,9.951544 0 0 0 -2.066809,-0.22131 z"
+         style="fill:#ffffff;fill-opacity:0.94117647;fill-rule:evenodd;stroke:none;stroke-width:0.91828442px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

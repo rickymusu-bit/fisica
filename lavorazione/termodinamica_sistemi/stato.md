@@ -103,3 +103,8 @@ Articolo inserito al primo posto di “Materia e calore”, prima di Stati della
 Build Pages superata (8 HTML: home, sei articoli e crediti). Anteprime del catalogo e della pagina pronta a pubblicare salvate a 1280/390 px; prove browser del percorso catalogo → nuovo articolo → Stati della materia e del collegamento precedente superate. Verificata identità del contenuto del main didattico della v7. Registro, snapshot dei crediti e OFL sincronizzati.
 
 Pubblicazione tramite la PR #36 (https://github.com/rickymusu-bit/fisica/pull/36), con controllo dell’esito GitHub Pages e verifica online successivi all’integrazione. L’esito finale del rilascio è registrato nella descrizione della PR. URL di destinazione: https://rickymusu-bit.github.io/fisica/termodinamica_sistemi_it.html .
+
+
+## Collegamento dell’articolo Temperatura ed equilibrio termico
+
+Pubblicazione autorizzata dall’utente con «Ok pubblica». Aggiornata esclusivamente la navigazione verso il nuovo articolo; testo didattico e immagini invariati. Versione corrente: v9 · 19 ottobre 2026. Aggiornamento incluso nella PR #37.

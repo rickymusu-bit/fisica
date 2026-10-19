@@ -1,0 +1,39 @@
+{
+  "versione": "v2",
+  "etichette": [
+    "Ebollizione del mercurio",
+    "Ebollizione dell’acqua",
+    "Temperatura ambiente (circa)",
+    "Congelamento dell’acqua",
+    "Ebollizione dell’azoto",
+    "Zero assoluto"
+  ],
+  "geometriaInvariata": true,
+  "numeriECoordinateInvariati": true,
+  "viste": [
+    {
+      "nome": "desktop",
+      "larghezza": 1280,
+      "overflowPagina": false,
+      "immagineCaricata": true,
+      "ingrandimento": {
+        "contenuto": 900,
+        "contenitore": 784
+      },
+      "notaECrediti": true,
+      "errori": []
+    },
+    {
+      "nome": "mobile",
+      "larghezza": 390,
+      "overflowPagina": false,
+      "immagineCaricata": true,
+      "ingrandimento": {
+        "contenuto": 900,
+        "contenitore": 296
+      },
+      "notaECrediti": true,
+      "errori": []
+    }
+  ]
+}

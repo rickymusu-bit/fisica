@@ -117,3 +117,8 @@ Tema/CSS, JavaScript, immagini/GIF e tutte le formule confrontati con la version
 ## Prossima operazione corrente
 
 Consegna delle anteprime alleggerite, in attesa della lettura dell’utente. Nessuna pubblicazione autorizzata.
+
+
+## Collegamento dell’articolo Temperatura ed equilibrio termico
+
+Pubblicazione autorizzata dall’utente con «Ok pubblica». Aggiornata esclusivamente la navigazione verso il nuovo articolo; testo didattico e immagini invariati. Versione corrente: v19 · 19 ottobre 2026. Aggiornamento incluso nella PR #37.

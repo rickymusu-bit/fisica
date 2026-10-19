@@ -2537,6 +2537,86 @@
         "asset-4ddaaf64895d0572456dcff6139b13c189582564144da8221934c0ec16a51c24",
         "asset-17805696381bd76e69bb171f0a901b8935409246484400d173c0204d05bc447e"
       ]
+    },
+    {
+      "id": "credit-d55ba5f7cec2dfd8",
+      "description": "Termometro galileiano con ampolle colorate e contrassegni numerici nel liquido",
+      "source": "https://commons.wikimedia.org/wiki/File:Galileo_Thermometer_in_Tokyo.jpg",
+      "author": "Syced",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Nessuna modifica alla versione scelta; visualizzazione proporzionale senza ritaglio.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Termometro galileiano con ampolle colorate e contrassegni numerici nel liquido — Syced. <a href=\"https://commons.wikimedia.org/wiki/File:Galileo_Thermometer_in_Tokyo.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CC0 1.0</a>. Modifiche: Nessuna modifica alla versione scelta; visualizzazione proporzionale senza ritaglio."
+      ],
+      "metadata_sources": [
+        "temperatura_equilibrio_termico_it.html"
+      ],
+      "fingerprints": [
+        "asset-a7c9848301eba550f66e5070341f3e0401e504e4c48aa93c50f78abdd39d5a83"
+      ]
+    },
+    {
+      "id": "credit-625a3e2f0732ebf2",
+      "description": "Un medico misura la temperatura di una giovane paziente con un termometro in bocca",
+      "source": "https://commons.wikimedia.org/wiki/File:Physician_taking_temperature_of_young_patient_(4644489973).jpg",
+      "author": "Roy Perry; National Library of Medicine — History of Medicine",
+      "license": "No known copyright restrictions — Flickr Commons",
+      "license_url": "https://www.flickr.com/commons/usage/",
+      "changes": "Nessuna modifica alla versione scelta; visualizzazione proporzionale senza ritaglio.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Un medico misura la temperatura di una giovane paziente con un termometro in bocca — Roy Perry; National Library of Medicine — History of Medicine. <a href=\"https://commons.wikimedia.org/wiki/File:Physician_taking_temperature_of_young_patient_(4644489973).jpg\">Fonte originale</a>. <a href=\"https://www.flickr.com/commons/usage/\">No known copyright restrictions — Flickr Commons</a>. Modifiche: Nessuna modifica alla versione scelta; visualizzazione proporzionale senza ritaglio."
+      ],
+      "metadata_sources": [
+        "temperatura_equilibrio_termico_it.html"
+      ],
+      "fingerprints": [
+        "asset-72a531572f6ec0a535fe0f92b0392dbe14ef9fc07f4617e4e215cc3a2d2f2845"
+      ]
+    },
+    {
+      "id": "credit-e6fc7a4073a95f9e",
+      "description": "Bicchiere di bevanda fredda con cubetti di ghiaccio su un tavolo",
+      "source": "https://commons.wikimedia.org/wiki/File:Cold_Drink_on_a_patio_table.jpg",
+      "author": "Henryemix",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Nessuna modifica alla versione scelta; visualizzazione proporzionale senza ritaglio.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Bicchiere di bevanda fredda con cubetti di ghiaccio su un tavolo — Henryemix. <a href=\"https://commons.wikimedia.org/wiki/File:Cold_Drink_on_a_patio_table.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CC0 1.0</a>. Modifiche: Nessuna modifica alla versione scelta; visualizzazione proporzionale senza ritaglio."
+      ],
+      "metadata_sources": [
+        "temperatura_equilibrio_termico_it.html"
+      ],
+      "fingerprints": [
+        "asset-b88fed40fdd553ff8e9e968fcc0b6cc60669e6b4fe44f0e64067c1966b9e36e5"
+      ]
+    },
+    {
+      "id": "credit-f2033b07ba7d6e9e",
+      "description": "Confronto fra kelvin, gradi Celsius e Fahrenheit: valori arrotondati per ebollizione del mercurio e dell’acqua, temperatura ambiente, congelamento dell’acqua, ebollizione dell’azoto e zero assoluto",
+      "source": "https://commons.wikimedia.org/wiki/File:Temperature-scales-comparison.svg",
+      "author": "MikeRun (Michael A. Rundel)",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Traduzione italiana delle sei etichette; numeri, coordinate e geometria originali conservati. Traduzione distribuita con la stessa licenza CC BY-SA 4.0.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Confronto fra kelvin, gradi Celsius e Fahrenheit: valori arrotondati per ebollizione del mercurio e dell’acqua, temperatura ambiente, congelamento dell’acqua, ebollizione dell’azoto e zero assoluto — MikeRun (Michael A. Rundel). <a href=\"https://commons.wikimedia.org/wiki/File:Temperature-scales-comparison.svg\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>. Modifiche: Traduzione italiana delle sei etichette; numeri, coordinate e geometria originali conservati. Traduzione distribuita con la stessa licenza CC BY-SA 4.0."
+      ],
+      "metadata_sources": [
+        "temperatura_equilibrio_termico_it.html"
+      ],
+      "fingerprints": [
+        "asset-25c87701147e6271292b3bc2a7e67c220c58d8b50a5f43e29ff6bd2b14ad3ba5"
+      ]
     }
   ],
   "documents": {
@@ -3136,6 +3216,30 @@
       "review": "Nuovo documento da verificare",
       "anchor": "termodinamica-sistemi-it",
       "lexend": true
+    },
+    "temperatura_equilibrio_termico_it.html": {
+      "title": "Temperatura ed equilibrio termico — Materia Oscura",
+      "credits": [
+        {
+          "resource": "credit-d55ba5f7cec2dfd8",
+          "notice": 0
+        },
+        {
+          "resource": "credit-625a3e2f0732ebf2",
+          "notice": 0
+        },
+        {
+          "resource": "credit-e6fc7a4073a95f9e",
+          "notice": 0
+        },
+        {
+          "resource": "credit-f2033b07ba7d6e9e",
+          "notice": 0
+        }
+      ],
+      "review": "Tre immagini scelte dall’utente e fonti verificate; per la foto clinica conservata la dichiarazione Flickr Commons No known copyright restrictions, senza attribuirle una licenza CC0.",
+      "anchor": "temperatura-equilibrio-termico-it",
+      "lexend": true
     }
   },
   "assets": [
@@ -3489,6 +3593,15 @@
           "credit_id": null
         },
         {
+          "document": "temperatura_equilibrio_termico_it.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "brand-logo",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        },
+        {
           "document": "termodinamica_sistemi_it.html",
           "kind": "svg",
           "description": "svg",
@@ -3643,6 +3756,30 @@
           "attribute": "inline",
           "location": null,
           "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-25c87701147e6271292b3bc2a7e67c220c58d8b50a5f43e29ff6bd2b14ad3ba5",
+      "kind": "image/svg+xml",
+      "uses": [
+        {
+          "document": "temperatura_equilibrio_termico_it.html",
+          "kind": "image/svg+xml",
+          "description": "Confronto fra kelvin, gradi Celsius e Fahrenheit: valori arrotondati per ebollizione del mercurio e dell’acqua, temperatura ambiente, congelamento dell’acqua, ebollizione dell’azoto e zero assoluto",
+          "locator": "fig-03",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-f2033b07ba7d6e9e"
+        },
+        {
+          "document": "temperatura_equilibrio_termico_it.html",
+          "kind": "image/svg+xml",
+          "description": "Confronto fra kelvin, gradi Celsius e Fahrenheit: valori arrotondati per ebollizione del mercurio e dell’acqua, temperatura ambiente, congelamento dell’acqua, ebollizione dell’azoto e zero assoluto",
+          "locator": "fig-03",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-f2033b07ba7d6e9e"
         }
       ]
     },
@@ -3853,6 +3990,15 @@
         },
         {
           "document": "stati_della_materia.html",
+          "kind": "font/ttf",
+          "description": "Font incorporato",
+          "locator": null,
+          "attribute": "font-face",
+          "location": null,
+          "credit_id": "font-lexend"
+        },
+        {
+          "document": "temperatura_equilibrio_termico_it.html",
           "kind": "font/ttf",
           "description": "Font incorporato",
           "locator": null,
@@ -4486,6 +4632,21 @@
           "attribute": "inline",
           "location": null,
           "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-72a531572f6ec0a535fe0f92b0392dbe14ef9fc07f4617e4e215cc3a2d2f2845",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "temperatura_equilibrio_termico_it.html",
+          "kind": "image/jpeg",
+          "description": "Un medico misura la temperatura di una giovane paziente con un termometro in bocca",
+          "locator": "fig-01",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-625a3e2f0732ebf2"
         }
       ]
     },
@@ -5237,6 +5398,21 @@
       ]
     },
     {
+      "id": "asset-a7c9848301eba550f66e5070341f3e0401e504e4c48aa93c50f78abdd39d5a83",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "temperatura_equilibrio_termico_it.html",
+          "kind": "image/jpeg",
+          "description": "Termometro galileiano con ampolle colorate e contrassegni numerici nel liquido",
+          "locator": "cop-01",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-d55ba5f7cec2dfd8"
+        }
+      ]
+    },
+    {
       "id": "asset-a8b83bc969d813e9ee873fe75d58798e05423a4ecc30876a3eec6cfd3bfaff60",
       "kind": "svg",
       "uses": [
@@ -5270,6 +5446,15 @@
       "id": "asset-aa5e120d96e7db43b65ab35b00c11e5cbb76a78cac79f42892dd88a36f6ff18b",
       "kind": "svg",
       "uses": [
+        {
+          "document": "index.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "materia",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        },
         {
           "document": "index.html",
           "kind": "svg",
@@ -5518,6 +5703,21 @@
           "attribute": "src",
           "location": null,
           "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-b88fed40fdd553ff8e9e968fcc0b6cc60669e6b4fe44f0e64067c1966b9e36e5",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "temperatura_equilibrio_termico_it.html",
+          "kind": "image/jpeg",
+          "description": "Bicchiere di bevanda fredda con cubetti di ghiaccio su un tavolo",
+          "locator": "fig-02",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-e6fc7a4073a95f9e"
         }
       ]
     },

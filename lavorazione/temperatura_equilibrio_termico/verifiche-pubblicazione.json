@@ -1,0 +1,19 @@
+{
+  "catalogo": [
+    "termodinamica_sistemi_it.html",
+    "temperatura_equilibrio_termico_it.html",
+    "stati_della_materia.html",
+    "passaggi_di_stato.html",
+    "conduzione_it.html",
+    "convezione_it.html",
+    "irraggiamento_it.html"
+  ],
+  "numeroArticoli": 7,
+  "download": "1,91 MB",
+  "viste": [
+    1280,
+    390
+  ],
+  "navigazioneReciproca": true,
+  "erroriJavaScript": []
+}

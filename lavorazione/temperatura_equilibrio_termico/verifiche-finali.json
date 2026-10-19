@@ -1,0 +1,22 @@
+{
+  "html": "temperatura_equilibrio_termico_it.html",
+  "versione": "v2",
+  "bytes": 1912047,
+  "sha256": "c19617541e3b8af5df2b12cc7fbf2110d837f02cf8d7039341c2040ce3553c0e",
+  "copiaBozzaIdentica": true,
+  "cssComuniIdenticiAlModello": true,
+  "scriptComuniPreservati": true,
+  "fotoIdenticheAgliOriginali": 3,
+  "formule": 3,
+  "domande": 9,
+  "note": 2,
+  "segnapostoResidui": false,
+  "risorseNonAssociate": [],
+  "creditsCheck": "superato",
+  "buildPages": "superata, nuovo articolo non ammesso al rilascio",
+  "mainModificato": false,
+  "pubblicazioneModificata": false,
+  "figureTradotte": 1,
+  "etichetteTradotte": 6,
+  "verificaAggiunta": "verifiche-scale.json"
+}

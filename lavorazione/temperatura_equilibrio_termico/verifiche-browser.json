@@ -1,0 +1,58 @@
+{
+  "documento": "temperatura_equilibrio_termico_it.html",
+  "offline": true,
+  "caricamento": "HTML completo in memoria, rete disabilitata",
+  "viste": [
+    {
+      "larghezza": 1280,
+      "larghezzaPagina": 1280,
+      "idDuplicati": [],
+      "ancoreMancanti": [],
+      "fontCaricato": true,
+      "immaginiCaricate": true,
+      "tabella": {
+        "larghezza": 784,
+        "contenuto": 784,
+        "colonne": 4
+      },
+      "ritorniArticoli": [
+        "https://rickymusu-bit.github.io/fisica/#indice",
+        "https://rickymusu-bit.github.io/fisica/#indice"
+      ],
+      "erroriJavaScript": [],
+      "richiesteDiRete": [],
+      "indice": true,
+      "noteERitorni": true,
+      "creditiOffline": true,
+      "pausaLogo": true
+    },
+    {
+      "larghezza": 390,
+      "larghezzaPagina": 390,
+      "idDuplicati": [],
+      "ancoreMancanti": [],
+      "fontCaricato": true,
+      "immaginiCaricate": true,
+      "tabella": {
+        "larghezza": 296,
+        "contenuto": 650,
+        "colonne": 4
+      },
+      "ritorniArticoli": [
+        "https://rickymusu-bit.github.io/fisica/#indice",
+        "https://rickymusu-bit.github.io/fisica/#indice"
+      ],
+      "erroriJavaScript": [],
+      "richiesteDiRete": [],
+      "indice": true,
+      "noteERitorni": true,
+      "creditiOffline": true,
+      "pausaLogo": true
+    }
+  ],
+  "senzaJavaScript": {
+    "indice": true,
+    "creditiOffline": true,
+    "fontOFL": true
+  }
+}
