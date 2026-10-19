@@ -1,0 +1,48 @@
+{
+  "caricamento": "HTML completo in memoria, rete disabilitata",
+  "viste": [
+    {
+      "larghezza": 1280,
+      "pagina": 1280,
+      "viewport": 1280,
+      "tabella": 784,
+      "contenutoTabella": 784,
+      "colonne": 3,
+      "grafico": 900,
+      "font": true,
+      "indice": true,
+      "note_e_ritorni": true,
+      "crediti_offline": true,
+      "controlli_animazione": true,
+      "movimento_ridotto": true,
+      "grafico_ingrandibile": true,
+      "formule_senza_overflow": true,
+      "errori_js": [],
+      "richieste_rete": []
+    },
+    {
+      "larghezza": 390,
+      "pagina": 390,
+      "viewport": 390,
+      "tabella": 296,
+      "contenutoTabella": 600,
+      "colonne": 3,
+      "grafico": 900,
+      "font": true,
+      "indice": true,
+      "note_e_ritorni": true,
+      "crediti_offline": true,
+      "controlli_animazione": true,
+      "movimento_ridotto": true,
+      "grafico_ingrandibile": true,
+      "formule_senza_overflow": true,
+      "errori_js": [],
+      "richieste_rete": []
+    }
+  ],
+  "senza_javascript": {
+    "indice": true,
+    "crediti_offline": true,
+    "gif_statica_con_movimento_ridotto": true
+  }
+}

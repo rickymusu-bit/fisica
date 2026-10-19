@@ -1,0 +1,19 @@
+{
+  "versione": "v3",
+  "linee": "sabbia gialla e acqua blu, entrambe continue",
+  "dati_e_geometria_invariati": true,
+  "viste": [
+    {
+      "larghezza": 1280,
+      "nessun_overflow": true,
+      "ingrandimento": true,
+      "errori_js": []
+    },
+    {
+      "larghezza": 390,
+      "nessun_overflow": true,
+      "ingrandimento": true,
+      "errori_js": []
+    }
+  ]
+}

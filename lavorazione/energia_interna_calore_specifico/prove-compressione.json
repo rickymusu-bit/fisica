@@ -1,0 +1,58 @@
+{
+  "html_corrente_byte": 19394650,
+  "foto_provate": [
+    {
+      "nome": "Copertina",
+      "originale_byte": 185032,
+      "webp_byte": 101328,
+      "dimensioni": [
+        1920,
+        1555
+      ],
+      "qualita_encoder": 90
+    },
+    {
+      "nome": "Spiaggia",
+      "originale_byte": 7665607,
+      "webp_byte": 191742,
+      "dimensioni": [
+        1920,
+        1280
+      ],
+      "qualita_encoder": 85
+    }
+  ],
+  "animazione": {
+    "originale_gif_byte": 6159492,
+    "webp_lossless_byte": 8869172,
+    "lossless_pixel_identici": true,
+    "mp4_crf18_byte": 2965911,
+    "mp4_crf23_byte": 1772954,
+    "fotogrammi": 300,
+    "dimensioni": [
+      480,
+      270
+    ],
+    "durata_secondi": 12
+  },
+  "scenari": [
+    {
+      "nome": "Solo fotografie WebP; GIF intatta",
+      "byte_html_stimati": 9317886,
+      "riduzione_percentuale": 52.0
+    },
+    {
+      "nome": "Foto WebP e animazione MP4, compressione moderata",
+      "byte_html_stimati": 5059778,
+      "riduzione_percentuale": 73.9
+    },
+    {
+      "nome": "Foto WebP e animazione MP4, compressione maggiore",
+      "byte_html_stimati": 3469170,
+      "riduzione_percentuale": 82.1
+    }
+  ],
+  "limiti": "Stime HTML dalla dimensione reale delle copie codificate, includendo base64 e mantenendo il resto del documento. La conversione in MP4 richiederebbe adattamento dei comandi. WebP delle foto e MP4 sono compressioni con perdita; fotografie ridimensionate proporzionalmente senza ritagli. Originali conservati. Nessuna sostituzione compressa applicata.",
+  "stato_applicazione": "Applicata soltanto la spiaggia WebP da 191742 byte su richiesta successiva. Copertina e animazione nei formati originali; prove MP4 non applicate.",
+  "html_corrente_dopo_scelta_byte": 9429717
+}

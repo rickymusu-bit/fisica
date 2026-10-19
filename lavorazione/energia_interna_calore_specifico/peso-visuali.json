@@ -1,0 +1,46 @@
+{
+  "unita": "byte; kB e MB decimali",
+  "visuali": [
+    {
+      "visuale": "Copertina Ivy Mike",
+      "file": "copertina-ivy-mike.jpg",
+      "byte_file": 185032,
+      "occorrenze_html": 1,
+      "byte_incorporati": 246735
+    },
+    {
+      "visuale": "Spiaggia notturna",
+      "file": "spiaggia-notturna.webp",
+      "byte_file": 191742,
+      "occorrenze_html": 1,
+      "byte_incorporati": 255679,
+      "originale_conservato_byte": 7665607
+    },
+    {
+      "visuale": "GIF molecole acqua",
+      "file": "acqua-movimento-molecolare.gif",
+      "byte_file": 6159492,
+      "occorrenze_html": 1,
+      "byte_incorporati": 8212678
+    },
+    {
+      "visuale": "Grafico",
+      "file": "calore-temperatura.svg",
+      "byte_file": 3200,
+      "occorrenze_html": 2,
+      "byte_incorporati": 8588
+    },
+    {
+      "visuale": "Fotogramma statico GIF",
+      "file": "acqua-fotogramma-statico.png",
+      "byte_file": 98303,
+      "occorrenze_html": 2,
+      "byte_incorporati": 262188
+    },
+    {
+      "visuale": "Tabella",
+      "byte_html": 1879
+    }
+  ],
+  "byte_html_finale": 9429717
+}

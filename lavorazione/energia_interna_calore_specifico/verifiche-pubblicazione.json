@@ -1,0 +1,32 @@
+{
+  "articoli_pubblicabili": [
+    "termodinamica_sistemi_it.html",
+    "temperatura_equilibrio_termico_it.html",
+    "energia_interna_calore_specifico_it.html",
+    "stati_della_materia.html",
+    "passaggi_di_stato.html",
+    "conduzione_it.html",
+    "convezione_it.html",
+    "irraggiamento_it.html"
+  ],
+  "viste": [
+    {
+      "larghezza": 1280,
+      "catalogo_8_articoli": true,
+      "nuovo_articolo_al_terzo_posto": true,
+      "download_con_peso": true,
+      "lettura_da_catalogo": true,
+      "navigazione_reciproca": true,
+      "errori_js": []
+    },
+    {
+      "larghezza": 390,
+      "catalogo_8_articoli": true,
+      "nuovo_articolo_al_terzo_posto": true,
+      "download_con_peso": true,
+      "lettura_da_catalogo": true,
+      "navigazione_reciproca": true,
+      "errori_js": []
+    }
+  ]
+}

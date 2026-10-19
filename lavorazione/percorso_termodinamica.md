@@ -1,6 +1,6 @@
 # Percorso introduttivo di termodinamica
 
-Versione v4 · 19 ottobre 2026 (Europe/Rome).
+Versione v5 · 19 ottobre 2026 (Europe/Rome).
 
 ## Sequenza approvata
 
@@ -23,6 +23,6 @@ La suddivisione approvata specifica l’ambito di questi articoli rispetto alla 
 
 ## Avanzamento
 
-Completato nel ramo dedicato il primo articolo HTML: `termodinamica_sistemi_it.html` v8, con [stato e verifiche](termodinamica_sistemi/stato.md). Pubblicazione autorizzata esplicitamente dall’utente e predisposta nella PR #36, al primo posto del catalogo. Il secondo articolo, **Temperatura ed equilibrio termico**, è stato realizzato in HTML autonomo v2 nel ramo `termodinamica/temperatura-equilibrio-termico`, con [stato, anteprime e verifiche](temperatura_equilibrio_termico/stato.md). Testo e visuali concordati, via alla realizzazione ricevuto; risultato approvato e pubblicazione autorizzata con «Ok pubblica». Catalogo e navigazione predisposti al secondo posto nella PR #37, con sette articoli ammessi complessivamente. Gli altri tre articoli introduttivi sono pianificati, non redatti. L’approvazione dell’elenco non equivale all’approvazione dei testi o alla pubblicazione.
+Completato nel ramo dedicato il primo articolo HTML: `termodinamica_sistemi_it.html` v8, con [stato e verifiche](termodinamica_sistemi/stato.md). Pubblicazione autorizzata esplicitamente dall’utente e predisposta nella PR #36, al primo posto del catalogo. Il secondo articolo, **Temperatura ed equilibrio termico**, è stato realizzato in HTML autonomo v2 nel ramo `termodinamica/temperatura-equilibrio-termico`, con [stato, anteprime e verifiche](temperatura_equilibrio_termico/stato.md). Testo e visuali concordati, via alla realizzazione ricevuto; risultato approvato e pubblicazione autorizzata con «Ok pubblica». Catalogo e navigazione predisposti al secondo posto nella PR #37, con sette articoli ammessi complessivamente. Il terzo articolo, **Energia interna, calore e calore specifico**, è completato in HTML autonomo v4 nel ramo `termodinamica/energia-interna-calore-specifico`, con [stato, anteprime e verifiche](energia_interna_calore_specifico/stato.md). Testo, visuali e risultato approvati; pubblicazione autorizzata con «Ok pubblica» nella PR #38. Catalogo e navigazione predisposti al terzo posto, con otto articoli ammessi. Il bilancio termico e la dilatazione termica restano pianificati, non redatti. L’approvazione dell’elenco non equivale all’approvazione dei testi o alla pubblicazione.
 
-Al momento della pubblicazione dei nuovi articoli, aggiornare coerentemente catalogo e navigazione precedente/successivo secondo questa sequenza, mantenendo l’ordine relativo dei cinque articoli esistenti. Questo salvataggio non modifica home, manifest, HTML pubblicati o main.
+Al momento della pubblicazione dei nuovi articoli, aggiornare coerentemente catalogo e navigazione precedente/successivo secondo questa sequenza, mantenendo l’ordine relativo dei cinque articoli esistenti. Per l’articolo 3 sono autorizzati gli aggiornamenti di catalogo, manifest, navigazione e integrazione in main necessari alla pubblicazione.
