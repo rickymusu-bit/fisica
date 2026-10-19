@@ -1,69 +1,61 @@
 # Stato — Il bilancio termico
 
-Versione v6 · 19 ottobre 2026, ore 21:48 (Europe/Rome).
+Versione v8 · 19 ottobre 2026, ore 22:08 (Europe/Rome).
 
-## Identità e ambito
+## Risultato corrente
 
-Articolo 4 del [percorso introduttivo di termodinamica](../percorso_termodinamica.md) v5: energia ceduta e assorbita, convenzione dei segni, temperatura finale di equilibrio ed eventuale contributo del recipiente. Senza cambiamenti di stato, calore latente, dilatazione o sviluppo dei meccanismi di trasmissione.
+**HTML autonomo v1 completato e verificato**, dopo il via «Ok vai». File ufficiale proposto: `bilancio_termico_it.html`; copia identica in [bozza.html](bozza.html). Tema canonico v9, master v63. Ramo `termodinamica/bilancio-termico`, allineato a main per riutilizzare il tema corrente; main non modificato e pubblicazione non autorizzata.
 
-Ramo: `termodinamica/bilancio-termico`, derivato da main. La lavorazione era assente all’avvio; nessun sorgente esistente sostituito. Destinazione HTML futura: `bilancio_termico_it.html`.
-
-## Fase corrente
-
-**Bozza completa v4 da approvare**, salvata in [bozza.md](bozza.md). Immagini scelte, scaricate e osservate; nessun HTML o simulazione realizzati. Nove domande finali miste senza soluzioni, due note brevi, nessuna applicazione separata o esercizio svolto.
+Articolo 4 del [percorso introduttivo](../percorso_termodinamica.md): energia ceduta e assorbita, convenzione dei segni, temperatura finale ed eventuale contributo della tazza. Esclusi cambiamenti di stato, calore latente, dilatazione e nuovi meccanismi di trasmissione. Caffè e latte con calori specifici approssimati a quello dell’acqua, come richiesto dall’utente.
 
 ## Approvazioni effettive
 
-- Richiesta di avvio: «Sul mio GitHub repo di fisica, facciamo l'articolo pianificato numero 4».
-- Fenomeno scelto: caffè mescolato al latte, con calori specifici approssimati a quello dell’acqua. Conservare la scelta senza richiedere conferma.
-- Tre URL iniziali specifici forniti dall’utente per latte versato nel caffè, bicchiere di latte e tazza di caffè. Sono scelte effettive delle fotografie, non autorizzazione a sostituirle o elaborarle.
-- Scelta successiva esplicita «Usa questa come copertina», con Latte - Garden Café Brighton 2023-12-30.jpg di Andy Li: nuova COP-01; la foto del versamento passa all’apertura come FIG-03, senza essere ripetuta come copertina.
-- Non ricevute approvazione del testo completo, via all’HTML o autorizzazione a pubblicare.
+- Avvio: «Sul mio GitHub repo di fisica, facciamo l'articolo pianificato numero 4».
+- Fenomeno caffè–latte e approssimazione del calore specifico scelti dall’utente.
+- Foto correnti scelte tramite collegamenti specifici; copertina finale **Le Déjeuner di François Boucher** (richiesta «Scusa cambia con questo»). La foto del versamento è quella Rawpixel/NegativeSpace.
+- «Ok vai» ricevuto dopo la bozza v4: approvazione del testo e via alla realizzazione. Non richiedere una seconda approvazione o un nuovo via per le stesse parti.
+- Durante la realizzazione richiesto esplicitamente il grafico temperatura–tempo con le curve del latte e del caffè. La bozza v5 aggiunge soltanto spiegazione del grafico, segnaposto, didascalia e nota 3.
+- Colori richiesti: caffè marrone scuro, latte beige marrone chiaro. Ultima richiesta: «Entrambe le curve con linea continua». Applicata anche alla legenda; questa indicazione sostituisce il precedente tratteggio.
+- Nessuna autorizzazione a integrare in main, aggiornare catalogo/manifest o pubblicare.
 
-Apertura adattata nella bozza: «Quanto si raffredda il caffè quando aggiungiamo il latte?». La sezione breve sulla tazza e la formulazione delle domande fanno parte del testo da approvare.
+Stima iniziale comunicata: 25–45 minuti, carico basso; materiali già disponibili, impaginazione nel tema comune, verifiche e salvataggio. Nessuna simulazione o esercizio svolto aggiunti.
 
-## Riferimenti e checklist corrente
+## Contenuto e regole applicate
 
-Letti integralmente AGENTS.md corrente e MASTER_PROMPT.md v63 da main, STILE_DISPENSE.md v6 ed esempio_irraggiamento.md v2. Piano v5 e manifest v7 già identificati. La v63 sostituisce la v61 consultata all’avvio: numeri moderati in forma decimale leggibile e prefissi SI secondo A4; notazione scientifica solo quando utile. Tema v9 con un solo comando per i crediti incorporati; nessuna incompatibilità con fenomeno e fotografie scelti. Non aggiornare ora gli altri file del ramo o il master: applicare il modello corrente da main nella futura impaginazione, verificandone nuovamente la versione.
+Letti AGENTS.md, MASTER_PROMPT.md v63, STILE_DISPENSE.md v6 ed esempio_irraggiamento.md v2; letto il tema v9 prima dell’impaginazione. Bozza v4 approvata conservata salvo aggiunta circoscritta GRA-02 richiesta; testo corrente in [bozza.md](bozza.md), v5. Nove domande finali senza soluzioni, sette formule, tre note collassabili inizialmente chiuse.
 
-- Italiano, stile discorsivo, singolo fenomeno guida, formule motivate e interpretate, T e ΔT per temperatura.
-- Bilancio calorimetrico: Q positivo se assorbito e negativo se ceduto; somma nulla nel sistema considerato, con condizioni utili nelle note.
-- Calore specifico comune: semplificazione di c, media pesata dalle masse. Media aritmetica soltanto per masse uguali; per sostanze diverse contano le capacità termiche.
-- Massa e volume distinti; nessuna misura attribuita alle fotografie.
-- Copertina non ripetuta nel testo; le foto interne possono essere richiamate nello stesso fenomeno. Nessuna modifica alle immagini; proporzioni conservate.
-- Bozza soltanto nel repository, non riprodotta integralmente in chat. Approvazione del testo, stima ripartita e via esplicito prima dell’HTML.
-- Crediti nella sezione di servizio della bozza, da integrare nel registro unico durante la realizzazione; nessuna fonte nel testo didattico o nelle didascalie.
-- Tema corrente da leggere prima dell’HTML, composizione dei visuali identica sui dispositivi, note collassabili, logo canonico.
-- Nessuna modifica a main, home, manifest, capitoli precedenti o sorgenti esclusi. Il vecchio bilancio_conservazione_rendimento_it.html non viene riattivato.
+Convenzione Q positivo se assorbito e negativo se ceduto. Media pesata dalle masse quando il calore specifico è comune; media aritmetica soltanto per masse uguali. Per sostanze diverse conta la capacità termica. Nessuna misura dedotta dalle immagini e nessuna conversione implicita da volumi a masse. Condizioni del modello nelle note. Nessuna applicazione separata o nuovo esercizio svolto.
 
-## Visuali e risorse
+Tema riutilizzato senza modificare CSS, font, logo o script comuni. Formule autonome HTML con frazioni orizzontali e termini che vanno a capo su smartphone. Fotografie senza ingrandimento; grafico con ingrandimento canonico e scorrimento interno. Stessa composizione del grafico a tutte le larghezze. Il solo collegamento precedente punta all’articolo 3; nessun collegamento al futuro articolo di dilatazione ancora inesistente.
 
-[visuali.md](visuali.md) v6 registra soggetti, uso, URL esatti, autori, licenze e avvisi. COP-01 corrente: François Boucher, Le Déjeuner (1739), Musée du Louvre / The Yorck Project, pubblico dominio PD-Art e Public Domain Mark 1.0; FIG-03 versamento corrente: Burst secondo NegativeSpace, distribuzione Rawpixel, CC0 1.0; FIG-01 caffè: Julius Schorzman, CC BY-SA 2.0; FIG-02 latte: NIAID, CC BY 2.0. Licenze verificate sulle quattro schede Commons il 19 ottobre 2026. Conservato l’avviso originale dell’autore del caffè e la provenienza della revisione già ritagliata del latte.
+## Visuali, crediti e integrità
 
-Scaricate le versioni a 960 px fornite: 198695 byte per la nuova copertina; 173724, 109150 e 137980 byte per le tre foto interne. Tutte decodificate e osservate direttamente, senza trasformazioni. File e impronte in risorse/. Nessun valore di massa o temperatura ricavato dalle fotografie. Non chiedere una seconda scelta delle stesse immagini.
+[visuali.md](visuali.md) registra le scelte. Quattro originali correnti incorporati senza trasformazioni:
 
-GRA-01 rimane una proposta opzionale non approvata: non incluso nella bozza v1 e non realizzato. Nessuna rinuncia attribuita all’utente. Nessun video o simulazione, né carico di programmazione da stimare.
+- COP-01: Boucher, Le Déjeuner, 1739, Louvre RF 926; `copertina-boucher.jpg`, 1576 × 1942 px, 282712 byte. Fonte Commons, pubblico dominio PD-Art / Public Domain Mark 1.0. Conservato avviso sul distinto copyright GNU FDL della compilazione The Yorck Project.
+- FIG-03: versamento, Burst secondo NegativeSpace, versione Rawpixel; `versamento-rawpixel.jpg`, 1024 × 683 px, 177074 byte, CC0. XMP originale conservato.
+- FIG-01: caffè, Julius Schorzman; `caffe.jpg`, 960 × 720 px, 109150 byte, CC BY-SA 2.0. Avviso originale dell’autore conservato. Riuso interno per spiegare la tazza.
+- FIG-02: latte, NIAID; `latte.jpg`, 960 × 962 px, 137980 byte, CC BY 2.0. Documentata revisione Commons già ritagliata; nessun nuovo ritaglio.
 
-## Controlli svolti e limiti
+Le copertine e il versamento precedenti restano come originali storici in risorse/, esclusi dagli utilizzi correnti. Font Lexend e OFL incorporati. Registro unico `risorse/crediti.json`, snapshot offline e pagina generale sincronizzati; nessun credito nel testo o nelle didascalie. Schede riusate per fonte; avvisi particolari conservati. Nessuna risorsa del nuovo articolo senza associazione.
 
-Controllate convenzione dei segni, semplificazione del calore specifico, media pesata, uso coerente delle scale e contributo del recipiente. Formule e domande restano nell’ambito del capitolo. Due note raccolgono approssimazione e condizioni del bilancio; nessun dato sperimentale inventato.
+## Grafico GRA-02
 
-Le quattro immagini sono state ispezionate tramite il visualizzatore locale; il download tramite proxy ha funzionato con l’accesso di rete supportato dell’esecutore. Risolto quindi il limite di download incontrato all’avvio. Salvataggio remoto tramite il connettore GitHub, sullo stesso ramo.
+SVG originale in `risorse/temperatura-tempo.svg`, con Lexend incorporato. Caffè #4b2e1e e latte #af8961, entrambi continui. Nomi accanto alle curve e legenda; equilibrio puntinato a 60 °C. Asse t in secondi (0–300) e T in °C (10–90), stessa struttura desktop/mobile.
 
-Non eseguiti build Pages, check dei crediti HTML o prove browser: in questa fase non esiste un nuovo HTML. Verificare i file salvati e l’integrità dei blob prima della consegna della bozza.
+Dati dichiarati di modello: caffè 100 g a 80 °C e latte 50 g a 20 °C, calori specifici uguali. Il bilancio determina 60 °C; il tempo caratteristico di 60 s è un’ipotesi aggiuntiva e non una misura. Curve T_c = 60 + 20 exp(−t/60), T_l = 60 − 40 exp(−t/60), t in secondi; tazza e ambiente trascurati. Modello di scambio con flusso proporzionale alla differenza di temperatura; nessun formalismo di calcolo differenziale nel testo. Avvicinamento asintotico senza incrocio finito. Il precedente grafico calore–temperatura GRA-01 non era stato approvato e non è stato realizzato.
+
+## Verifiche completate
+
+- Generatore riproducibile [realizza.py](realizza.py); poi `scripts/credits.py --sync` e `--check`.
+- [verifica.py](verifica.py): correttezza del modello su 301 campioni, energia costante entro 7,3 · 10⁻¹² J, curve monotone e senza incroci. Valori iniziali coerenti e capacità termiche rispettate.
+- Confronto byte per byte di CSS e script canonici e SHA-256 delle quattro immagini incorporate; ID univoci, ancore risolte, nessun segnaposto o dipendenza esterna.
+- Chromium offline a 1280 e 390 px: font, immagini, indice, Esc e focus, note con ritorni, crediti incorporati, pausa/ripresa del logo, movimento ridotto e ingrandimento/scorrimento del grafico. Nessun errore JavaScript, richiesta di rete o overflow della pagina e delle formule.
+- Controllati indice, crediti e ingrandimento anche senza JavaScript. Ispezionate visivamente copertina, grafico finale e formula della temperatura di equilibrio su desktop/mobile.
+- Build Pages e `git diff --check` superati. Manifest e catalogo invariati: il nuovo articolo non entra in `_site/`. Sorgenti esclusi invariati.
+
+Report: [verifiche-finali.json](verifiche-finali.json) e [verifiche-browser.json](verifiche-browser.json). Anteprime desktop/mobile nella stessa cartella, incluse copertina, grafico, formula e versamento. HTML autonomo circa 2,19 MB, sotto il limite di 20 MB.
 
 ## Prossimo passo
 
-Revisione e approvazione della bozza v4. Successivamente comunicare la stima totale ripartita fra materiali, impaginazione, verifiche e salvataggio e attendere il via esplicito previsto dal master. HTML con anteprima desktop/mobile prima dell’eventuale pubblicazione; main e pubblicazione richiedono autorizzazione distinta.
-
-## Sostituzione FIG-03 — scelta Rawpixel
-
-Richiesta esplicita «Usa questa per il latte che si versa» con il file Rawpixel registrato in visuali.md v4. Sostituito soltanto il segnaposto e il credito di FIG-03 nella bozza v2: teoria, formule, domande e copertina Garden Café Brighton invariati. Il nuovo file, 1024 × 683 px e 177074 byte, è stato scaricato integralmente, decodificato e osservato, senza modifiche. I metadati XMP rimandano a Rawpixel 5915327 e alla fonte NegativeSpace, che conferma CC0 e attribuzione “By Burst”. Originale precedente conservato, non più attivo. Registro delle impronte aggiornato; verificare salvataggio remoto e identità SHA-256 del nuovo file. Nessuna nuova approvazione delle foto necessaria; testo completo ancora da approvare, nessun via all’HTML o alla pubblicazione.
-
-## Copertina Tuxen — scelta corrente
-
-Successiva richiesta esplicita «Usa questa come copertina», con il dipinto Pouring the morning coffee di Laurits Tuxen. Sostituita COP-01 nella bozza v3, aggiornandone esclusivamente segnaposto, didascalia e credito. Testo teorico, formule, domande e tre immagini interne invariati. Fonte Commons consultata: opera del 1906 dello Skagens Museum, riproduzione Google Art Project dichiarata di pubblico dominio (PD-Art, Public Domain Mark 1.0), non CC0. Scaricata e osservata la versione indicata: 960 × 1187 px, 523456 byte, senza modifiche. Vecchia copertina Garden Café Brighton conservata come originale storico e non più usata. Aggiornati visuali.md e impronte; verificare identità remota del nuovo file prima della consegna. La scelta esplicita non richiede riconferma; bozza completa ancora da approvare, nessun HTML o pubblicazione autorizzati.
-
-## Copertina Boucher — ultima scelta corrente
-
-Richiesta esplicita «Scusa cambia con questo» con François_Boucher_002.jpg. La bozza v4 sostituisce esclusivamente COP-01, didascalia e relativo credito con Le Déjeuner (1739), François Boucher, Louvre RF 926. Immagine originale ricevuta: 1576 × 1942 px, 282712 byte, osservata e conservata integralmente senza modifiche. Fonte Commons verificata: singola opera e riproduzione in pubblico dominio, Public Domain Mark 1.0; registrata provenienza The Yorck Project e distinto avviso sul copyright GNU FDL della compilazione. Copertine precedenti conservate come originali storici. Testo teorico, formule, domande e figure interne invariati. Nuova scelta già autorizzata, nessuna riconferma necessaria. Bozza completa ancora da approvare; nessun HTML o pubblicazione autorizzati. Verificare i file salvati e SHA-256 remoto prima della consegna.
+Consegnare HTML interattivo e anteprime per la revisione del risultato. Salvare e verificare il caricamento nel ramo dedicato; eventuale integrazione in main e pubblicazione richiedono autorizzazione distinta. Non ripetere le scelte di foto, colori o tipo di linea già autorizzate.

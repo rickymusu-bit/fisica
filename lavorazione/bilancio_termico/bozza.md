@@ -1,6 +1,6 @@
 # Il bilancio termico
 
-<!-- Bozza v4 · 19 ottobre 2026, ore 21:48 (Europe/Rome). Testo da approvare; non è l’HTML finale. -->
+<!-- Bozza v5 · 19 ottobre 2026, ore 22:04 (Europe/Rome). Testo v4 approvato con «Ok vai»; aggiunta del grafico temperatura–tempo richiesta successivamente. -->
 
 [IMMAGINE COP-01 — Scena della colazione nel dipinto Le Déjeuner di François Boucher; risorse/copertina-boucher.jpg. Solo copertina, non ripetuta nel corpo.]
 
@@ -83,6 +83,12 @@ A parità di temperature iniziali e di massa del caffè, aggiungere più latte f
 
 Il bilancio chiarisce anche un’altra differenza: scambiare la stessa quantità di energia non significa cambiare temperatura dello stesso numero di gradi. Con il calore specifico comune, una massa maggiore cambia temperatura di meno. Più in generale, quando i calori specifici sono diversi, a pesare nella media sono le **capacità termiche** \(m\cdot c\) delle due parti.
 
+Il grafico mostra come cambiano le temperature durante lo scambio: quella del caffè scende, quella del latte sale e le due curve si avvicinano alla stessa temperatura di equilibrio. In questo modello il latte ha massa minore e cambia temperatura più rapidamente. Il valore finale dipende dal bilancio; il tempo necessario per avvicinarsi a quel valore dipende anche dalla rapidità dello scambio.[^3]
+
+[GRAFICO GRA-02 — Temperatura in funzione del tempo per caffè e latte; curve del modello illustrativo, non misure. Caffè: 100 g a 80 °C; latte: 50 g a 20 °C; calori specifici uguali; tazza e ambiente trascurati. Equilibrio 60 °C. Specifiche in visuali.md.]
+
+Didascalia: Nel modello il caffè si raffredda e il latte si riscalda verso 60 °C. La curva del latte cambia più rapidamente perché la sua massa è minore. I tempi illustrano un’ipotesi di scambio, non una misura sperimentale.
+
 ## Anche la tazza partecipa
 
 Finora abbiamo seguito soltanto le due bevande. La tazza, però, può assorbire o cedere energia a sua volta. Se inizialmente è più fredda della temperatura finale prevista dal primo modello, assorbe una parte dell’energia e abbassa la temperatura di equilibrio. Se è più calda, può invece contribuire a riscaldare la miscela.
@@ -130,6 +136,8 @@ La regola resta la stessa: sommare i calori scambiati, ciascuno con il proprio s
 
 [^2]: Consideriamo trascurabili gli scambi con l’ambiente, l’evaporazione e il lavoro meccanico. Nel primo modello trascuriamo anche lo scambio con la tazza; nell’ultimo lo includiamo. La temperatura calcolata descrive l’equilibrio fra le parti considerate, prima che il raffreddamento verso l’ambiente diventi rilevante.
 
+[^3]: Le curve sono previsioni illustrative per 100 g di caffè inizialmente a 80 °C e 50 g di latte a 20 °C, con calori specifici uguali. La differenza fra le temperature si riduce di un fattore di circa 2,7 ogni 60 s: questa rapidità è un’ipotesi del modello, non un tempo misurato. Si trascurano gli scambi con tazza e ambiente.
+
 ---
 
 ## Crediti — sezione di servizio della bozza
@@ -141,3 +149,5 @@ Questa sezione conserva la provenienza per la futura integrazione nel registro u
 - **FIG-01**: *A small cup of coffee.JPG*, Julius Schorzman; [scheda Commons](https://commons.wikimedia.org/wiki/File:A_small_cup_of_coffee.JPG). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/). Versione a 960 px scelta dall’utente; nessuna modifica ulteriore. La fonte reca anche l’avviso originale «NOTE: I only require attribution if you publish this photo in print or if it is used in a for-profit project.»: conservarlo nei metadati, mantenendo comunque l’attribuzione completa.
 - **FIG-02**: *Glass of Milk (33657535532).jpg*, NIAID; [scheda Commons](https://commons.wikimedia.org/wiki/File:Glass_of_Milk_(33657535532).jpg), provenienza [Flickr](https://www.flickr.com/photos/54591706@N02/33657535532/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/). Versione a 960 px scelta dall’utente, derivata dalla revisione Commons già ritagliata; nessun nuovo ritaglio o modifica.
 - L’uguaglianza approssimata dei calori specifici è l’ipotesi didattica esplicitamente richiesta dall’utente. Non vengono assegnate temperature, masse o valori sperimentali alle fotografie.
+
+- **GRA-02**: grafico originale per Materia Oscura, su richiesta dell’utente. Curve di un modello di scambio fra due corpi con flusso proporzionale alla differenza di temperatura e capacità termiche costanti; masse e temperature iniziali scelte per illustrare il modello, non misure. Formule di calcolo e controlli di bilancio nel generatore; nessuna fonte sperimentale attribuita.

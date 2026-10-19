@@ -1,6 +1,6 @@
 # Visuali — Il bilancio termico
 
-Versione v6 · 19 ottobre 2026, ore 21:48 (Europe/Rome).
+Versione v7 · 19 ottobre 2026, ore 22:08 (Europe/Rome).
 
 ## Scelte effettive
 
@@ -62,6 +62,14 @@ La breve sezione sulla tazza fa parte della bozza da approvare, con la foto pert
 
 Impronte SHA-256, dimensioni, URL di download e byte in [risorse/originali.json](risorse/originali.json). Sono gli originali delle versioni indicate dall’utente, non le versioni a risoluzione massima di Commons.
 
-Bozza completa v4 in [bozza.md](bozza.md), con segnaposto, didascalie, nove domande finali senza soluzioni e crediti di servizio. In fase HTML trasferire i metadati al registro unico, senza creare un secondo registro pubblico; applicare il tema corrente v9 da main, da leggere prima dell’impaginazione.
+Bozza corrente v5 in [bozza.md](bozza.md), con segnaposto, didascalie, nove domande finali senza soluzioni e crediti di servizio. In fase HTML trasferire i metadati al registro unico, senza creare un secondo registro pubblico; applicare il tema corrente v9 da main, da leggere prima dell’impaginazione.
 
-Prossimo passo: revisione e approvazione del testo. Poi stima totale ripartita e via esplicito secondo B1.1–B2. Nessuna modifica a main, catalogo o pubblicazione.
+Il testo v4 e la realizzazione sono stati approvati con «Ok vai»; il grafico GRA-02 è stato richiesto successivamente. HTML v1 completato e verificato con le ultime scelte di colori e linee. Prossimo passo: revisione dell’anteprima. Nessuna pubblicazione autorizzata.
+
+## GRA-02 — Temperatura–tempo, richiesta esplicita
+
+L’utente richiede le curve di latte e caffè. Grafico statico SVG con identica struttura desktop/mobile, ingrandimento canonico e font Lexend incorporato. Asse orizzontale tempo t (s), 0–300; asse verticale temperatura T (°C), 10–90. Caffè marrone scuro (#4b2e1e) continuo, latte beige marrone chiaro (#af8961) continuo; nomi delle bevande vicini alle curve oltre alla legenda. Retta orizzontale dell’equilibrio a 60 °C. Condizioni del modello visibili nella figura e nella nota 3: caffè 100 g a 80 °C, latte 50 g a 20 °C; stesso calore specifico, scambi solo fra le due bevande. Tempi ipotizzati, non misure.
+
+Modello: T_c = 60 + 20 exp(−t/60), T_l = 60 − 40 exp(−t/60), t in secondi. La differenza tende a zero senza incrocio finito; 0,100 · c · T_c + 0,050 · c · T_l costante. Il tempo caratteristico di 60 s è un parametro illustrativo, non una proprietà dedotta dalle immagini o dal solo bilancio termico. Il modello corrisponde a uno scambio con conduttanza costante; non estenderlo al raffreddamento della bevanda verso l’ambiente. Nessuna curva sperimentale inventata; nessuna simulazione da programmare.
+
+Colori aggiornati su richiesta esplicita dell’utente durante la realizzazione. Dati, modello, assi, scala e composizione invariati. Descrizione accessibile e legenda aggiornate agli stessi colori. Successiva richiesta esplicita: entrambe le curve continue; eliminato il tratteggio del latte, conservati i nomi vicino alle curve e in legenda.

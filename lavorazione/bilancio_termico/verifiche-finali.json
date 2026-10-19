@@ -1,0 +1,48 @@
+{
+  "bytes": 2188177,
+  "sha256": "4450ff4fcafd62ab9dcba09bfb73d4999ed084e586533dd43e52ad99373f04bd",
+  "tema_css_script_identici": true,
+  "immagini_originali": [
+    {
+      "file": "copertina-boucher.jpg",
+      "bytes": 282712,
+      "sha256": "86750339ad05595da5b0dd3dc2f403c80685ec9159a7332d6df50c2456adce26"
+    },
+    {
+      "file": "caffe.jpg",
+      "bytes": 109150,
+      "sha256": "f639ce191da7ece0d4eb44eeafb60ab417d025f27a073965d5e1ee0c7ad384c0"
+    },
+    {
+      "file": "latte.jpg",
+      "bytes": 137980,
+      "sha256": "23898fd4bd889da3745ca6cbf18b2e54065362c09ed81cd85be2e079d348df95"
+    },
+    {
+      "file": "versamento-rawpixel.jpg",
+      "bytes": 177074,
+      "sha256": "32cfc7be47336739b7df3242ada8ac9db0514cf8b93cee331bba0885e377efaa"
+    }
+  ],
+  "domande": 9,
+  "formule": 7,
+  "note": 3,
+  "id_univoci_ancore_risolte": true,
+  "grafico": {
+    "temperature_iniziali": [
+      80,
+      20
+    ],
+    "masse_kg": [
+      0.1,
+      0.05
+    ],
+    "equilibrio_C": 60,
+    "tempo_caratteristico_s_ipotizzato": 60,
+    "campioni_verificati": 301,
+    "errore_massimo_bilancio_J": 7.275957614183426e-12,
+    "monotonia_e_assenza_incroci": true,
+    "dati_sperimentali": false
+  },
+  "pubblicato": false
+}
