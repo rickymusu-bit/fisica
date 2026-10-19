@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="900" height="600" role="img" aria-labelledby="titolo descrizione">
+<title id="titolo">Stessa energia, temperature diverse</title>
+<desc id="descrizione">Previsioni di T = T iniziale + Q diviso massa per calore specifico, non misure. Acqua: c = 4180; sabbia quarzosa: c = 830 joule per chilogrammo e kelvin. Masse uguali di 1 kg, temperatura iniziale 20 gradi Celsius.</desc>
+<rect width="900" height="600" fill="white"/>
+<g font-family="Lexend,Arial,sans-serif" fill="#080808">
+<text x="450" y="45" text-anchor="middle" font-size="26" font-weight="600">Stessa energia, temperature diverse</text>
+<text x="450" y="83" text-anchor="middle" font-size="20">Masse uguali: 1 kg · Temperatura iniziale: 20 °C</text>
+<line x1="115.0" y1="155" x2="115.0" y2="425" stroke="#ddd"/>
+<text x="115.0" y="456" text-anchor="middle" font-size="20">0,0</text>
+<line x1="243.0" y1="155" x2="243.0" y2="425" stroke="#ddd"/>
+<text x="243.0" y="456" text-anchor="middle" font-size="20">0,2</text>
+<line x1="371.0" y1="155" x2="371.0" y2="425" stroke="#ddd"/>
+<text x="371.0" y="456" text-anchor="middle" font-size="20">0,4</text>
+<line x1="499.0" y1="155" x2="499.0" y2="425" stroke="#ddd"/>
+<text x="499.0" y="456" text-anchor="middle" font-size="20">0,6</text>
+<line x1="627.0" y1="155" x2="627.0" y2="425" stroke="#ddd"/>
+<text x="627.0" y="456" text-anchor="middle" font-size="20">0,8</text>
+<line x1="755.0" y1="155" x2="755.0" y2="425" stroke="#ddd"/>
+<text x="755.0" y="456" text-anchor="middle" font-size="20">1,0</text>
+<line x1="115" y1="425.00" x2="755" y2="425.00" stroke="#ddd"/>
+<text x="96" y="432.00" text-anchor="end" font-size="20">20,0</text>
+<line x1="115" y1="371.00" x2="755" y2="371.00" stroke="#ddd"/>
+<text x="96" y="378.00" text-anchor="end" font-size="20">20,3</text>
+<line x1="115" y1="317.00" x2="755" y2="317.00" stroke="#ddd"/>
+<text x="96" y="324.00" text-anchor="end" font-size="20">20,6</text>
+<line x1="115" y1="263.00" x2="755" y2="263.00" stroke="#ddd"/>
+<text x="96" y="270.00" text-anchor="end" font-size="20">20,9</text>
+<line x1="115" y1="209.00" x2="755" y2="209.00" stroke="#ddd"/>
+<text x="96" y="216.00" text-anchor="end" font-size="20">21,2</text>
+<line x1="115" y1="155.00" x2="755" y2="155.00" stroke="#ddd"/>
+<text x="96" y="162.00" text-anchor="end" font-size="20">21,5</text>
+<path d="M115 145V425H770" fill="none" stroke="#080808" stroke-width="3"/>
+<text x="435" y="499" text-anchor="middle" font-size="22">Calore assorbito Q (kJ)</text>
+<text transform="translate(38 290) rotate(-90)" text-anchor="middle" font-size="22">Temperatura T (°C)</text>
+<path d="M115 425L755 208.133" fill="none" stroke="#080808" stroke-width="4" />
+<path d="M115 425L755 381.938" fill="none" stroke="#555" stroke-width="4" stroke-dasharray="13 8"/>
+<line x1="165" y1="548" x2="225" y2="548" stroke="#080808" stroke-width="4"/>
+<text x="240" y="555" font-size="20">Sabbia quarzosa</text>
+<line x1="505" y1="548" x2="565" y2="548" stroke="#555" stroke-width="4" stroke-dasharray="13 8"/>
+<text x="580" y="555" font-size="20">Acqua</text>
+<text x="450" y="588" text-anchor="middle" font-size="16">Previsioni del modello, non misure sperimentali</text>
+</g></svg>

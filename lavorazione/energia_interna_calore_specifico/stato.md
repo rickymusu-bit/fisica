@@ -1,6 +1,6 @@
 # Stato — Energia interna, calore e calore specifico
 
-Versione v10 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
+Versione v11 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
 
 ## Ambito e punto di partenza
 
@@ -23,7 +23,7 @@ Letti integralmente MASTER_PROMPT.md v60 in blocchi, AGENTS.md, STILE_DISPENSE.m
 
 ## Fase corrente
 
-Progettazione delle visuali: proposta concreta v5 salvata in [visuali.md](visuali.md), comprendente domanda iniziale, percorso, confini, tre immagini da scegliere, grafico e tabella proposti e otto nuclei per le domande finali.
+Realizzazione HTML v1 completata dopo il via «Procedi». Testo e materiali approvati; risultato e controlli nella sezione conclusiva. La cronologia delle fasi precedenti è conservata sotto.
 
 Domanda guida scelta dall’utente: «Perché d’estate il mare resta tiepido di notte, anche quando la sabbia è fredda?». Richiesta effettiva: «Allora chiedi perché d'estate il mare resta tiepido di notte anche se la sabbia è fredda». Sostituisce l’apertura sul deserto; autorizzato l’adattamento del percorso e delle proposte visuali, senza attribuire approvazioni a immagini specifiche.
 
@@ -112,3 +112,34 @@ Richiesta dell’utente: «Usa questa come copertina», con collegamento a Ivy_M
 Bozza v6: aggiornati il solo segnaposto COP-01, la didascalia e il relativo credito. Rimossa l’attribuzione in prossimità della foto che era prescritta soltanto per la precedente copertina; tutti i riferimenti alla nuova fonte restano nei crediti. Didascalia descrittiva con collegamento a energia e temperatura, senza dati numerici sulla detonazione o digressioni. Testo approvato, apertura sul mare, tabella, formule, GIF dell’acqua e domande conservati.
 
 Lo sputafuoco resta conservato come originale già scelto, segnato non corrente. Copertina corrente solo in risorse/copertina-ivy-mike.jpg. File delle tre immagini attive: 14010131 byte complessivi; il peso definitivo dell’HTML autonomo resta da misurare. Nessun HTML o pubblicazione avviati; via alla realizzazione resta distinto e non ancora ricevuto.
+
+## Via alla realizzazione HTML
+
+Ricevuto «Procedi» dopo la stima di 35–60 minuti, approvazione del testo e selezione finale di copertina Ivy Mike, spiaggia notturna e GIF MD water. Realizzazione HTML autorizzata; non chiedere nuovamente conferma. Pubblicazione e integrazione in main restano distinte e non richieste. Avviata lettura del modello comune e preparazione del generatore, conservando i byte delle immagini scelte e il testo approvato.
+
+## Realizzazione conclusa — HTML autonomo v1
+
+File corrente: `energia_interna_calore_specifico_it.html`, v1 · 19 ottobre 2026, **19394762 byte** (19,39 MB decimali). Copia byte per byte in `bozza.html`. Generatore riproducibile `realizza.py`; verificatore `verifica.py`. Eseguire generatore, `python3 scripts/credits.py --sync`, poi verificatore per rigenerare la copia e le anteprime.
+
+Il «Procedi» successivo alla scelta finale di Ivy Mike autorizza la realizzazione dopo la stima. Lavoro completato; non chiedere di nuovo il via all’HTML. Nessuna integrazione in main o pubblicazione autorizzata o eseguita.
+
+Riutilizzato il modello autonomo v8 esatto: tutti gli stili e script comuni confrontati byte per byte e conservati. Componenti specifici aggiunti per tabella e controllo GIF. Copertina Ivy Mike, foto della spiaggia e GIF MD water incorporate senza alterarne i byte; originale della GIF a 480 × 270 px come già documentato. Primo fotogramma PNG estratto soltanto per pausa e movimento ridotto, accreditato alla stessa risorsa. Nessuna compressione o riduzione delle immagini scelte.
+
+Testo della bozza v6 conservato: sette sezioni, cinque formule, tabella dei dieci materiali, otto domande finali e quattro note. Le frazioni usano una linea orizzontale. Tabella a tre colonne e composizione del grafico identiche sui dispositivi; su mobile tabella scorrevole (contenuto 600 px in 296 px), grafico con ingrandimento a 900 px e scorrimento interno. Rette calcolate con m = 1 kg, T_i = 20 °C, Q da 0 a 1 kJ, c dell’acqua 4180 e c della sabbia quarzosa 830 J/(kg · K), coerenti con i valori arrotondati della tabella. Tratto continuo e tratteggiato distinguono i materiali anche senza colore.
+
+Crediti e fonti scientifiche registrati nella fonte unica `risorse/crediti.json`, associati al nuovo articolo e generati in `crediti.html` e nello snapshot offline. Dati e informazioni specifiche citati soltanto nei crediti, non nel corpo o nelle didascalie. Provenienza e stato di pubblico dominio della copertina, licenze CC BY-SA 4.0 di spiaggia e GIF, grafico originale e avvisi OFL Lexend conservati. Nessuna risorsa del nuovo articolo priva di associazione ai crediti. I documenti precedenti restano invariati; la sincronizzazione ha cambiato solo pagina dei crediti e registro, oltre al nuovo HTML.
+
+Peso superiore alla soglia di attenzione di 18 MB comunicato in chat. Peso finale sotto 20 MB; immagini intatte. Non sono necessarie ulteriori ottimizzazioni per rispettare il limite, ma aggiunte future richiederanno una nuova misura.
+
+Verifiche superate:
+- `python3 scripts/credits.py --check`, build Pages e `git diff --check`.
+- Chromium a 1280 e 390 px, HTML completo caricato in memoria con rete disabilitata: font e immagini carichi, zero richieste esterne, zero errori JavaScript, nessun overflow della pagina o delle formule.
+- Indice con Esc e selezione, note con apertura automatica e ritorni, crediti offline con font OFL, pausa/ripresa della GIF e del logo, variazione della preferenza di movimento ridotto, ingrandimento del grafico e scorrimento della tabella.
+- Senza JavaScript: indice e crediti consultabili, GIF sostituita dal fotogramma statico con movimento ridotto.
+- Confronto dei byte delle tre immagini incorporate, ID univoci e ancore risolte. Formule, righe della tabella, domande e note controllate.
+
+Report: `verifiche-browser.json` e `verifiche-finali.json`. Anteprime desktop/mobile salvate e ispezionate: prima schermata, animazione, tabella, grafico e frazione. La prova offline usa il documento completo in memoria; non viene dichiarata una prova di apertura tramite protocollo file: in questo ambiente.
+
+Navigazione del solo nuovo articolo verso Temperatura ed equilibrio termico e verso il successivo attualmente disponibile, Stati della materia. Nessun link al bilancio termico non ancora realizzato. Manifest, home, articoli precedenti e sospesi invariati. La build continua a pubblicare i sette articoli già ammessi; il nuovo articolo resta escluso finché non sarà autorizzata la pubblicazione.
+
+Prossimo passo: revisione del risultato HTML e delle anteprime, poi eventuale autorizzazione distinta a integrare e pubblicare. Salvataggio remoto e PR da verificare prima della consegna.

@@ -1,6 +1,6 @@
 # Visuali — Energia interna, calore e calore specifico
 
-Versione v9 · 19 ottobre 2026 (Europe/Rome).
+Versione v10 · 19 ottobre 2026 (Europe/Rome).
 
 La bozza v3 è approvata. Dopo la stima l’utente ha fornito tre collegamenti specifici: le immagini seguenti sono scelte e non richiedono una seconda approvazione. La bozza v6 adatta soltanto segnaposto, didascalie e crediti ai materiali scelti; testo, formule, tabella e domande approvati conservati. Le proposte sostituite restano nella cronologia Git.
 
@@ -42,4 +42,8 @@ Tabella dei dieci materiali solidi, liquidi e gassosi e grafico delle rette T(Q)
 
 Tutti i file scelti scaricati e osservati, senza modifiche. Dimensioni e impronte in [risorse/verifica-originali.json](risorse/verifica-originali.json). Questo documento conserva le scelte effettive; in fase HTML trasferire i crediti nel registro unico e generare gli accessi comuni, senza creare inventari concorrenti. Le immagini sono riprese nella sezione di servizio dei crediti della bozza.
 
-Testo v3 già approvato; adattamento circoscritto v6 autorizzato dai collegamenti ricevuti. Materiali disponibili, stima già comunicata 35–60 minuti. Resta il via esplicito all’HTML secondo B1.1–B2, senza richiedere nuovamente scelta delle immagini, approvazione del testo o del tema. Nessuna modifica a main o pubblicazione.
+Testo v3 già approvato; adattamento circoscritto v6 autorizzato dai collegamenti ricevuti. Materiali disponibili, stima già comunicata 35–60 minuti. Via esplicito all’HTML ricevuto con «Procedi» e realizzazione v1 completata: non richiedere nuovamente il via, la scelta delle immagini, l’approvazione del testo o del tema. Nessuna modifica a main o pubblicazione.
+
+## HTML v1 completato
+
+Le tre immagini correnti sono incorporate integralmente nell’HTML, con crediti e fonti nel registro unico e nello snapshot autonomo. Il PNG `risorse/acqua-fotogramma-statico.png` è il primo fotogramma della stessa GIF, usato per pausa e movimento ridotto; l’animazione originale è intatta. Il grafico è salvato in `risorse/calore-temperatura.svg` e incorporato nel componente canonico di ingrandimento. Tabella e grafico preservano struttura e relazioni fra desktop e smartphone. Controlli e anteprime in stato.md e nei report della realizzazione. Pubblicazione distinta e non eseguita.

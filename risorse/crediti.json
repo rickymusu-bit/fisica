@@ -2617,6 +2617,159 @@
       "fingerprints": [
         "asset-25c87701147e6271292b3bc2a7e67c220c58d8b50a5f43e29ff6bd2b14ad3ba5"
       ]
+    },
+    {
+      "id": "credit-5737176d29a7ac61",
+      "description": "Dati della tabella TAB-01 e del grafico GRA-01",
+      "source": "https://www.engineeringtoolbox.com/specific-heat-capacity-d_391.html",
+      "author": "Engineering ToolBox",
+      "license": null,
+      "license_url": null,
+      "changes": null,
+      "type": "scientific-source",
+      "status": "documented",
+      "links": [
+        {
+          "url": "https://www.engineeringtoolbox.com/specific-heat-capacity-d_391.html",
+          "label": "Fonte scientifica"
+        }
+      ],
+      "notices": [
+        "Dati della tabella TAB-01 e del grafico GRA-01 — Engineering ToolBox. <a href=\"https://www.engineeringtoolbox.com/specific-heat-capacity-d_391.html\">Fonte scientifica</a>. Calori specifici a pressione costante; valori arrotondati. Acqua pura a 20 °C: 4182 J/(kg · K), arrotondata a 4180 nel grafico. Sabbia quarzosa: 830 J/(kg · K), temperatura e umidità non precisate. Consultazione dei dati, senza riproduzione di immagini o testo."
+      ],
+      "metadata_sources": [
+        "energia_interna_calore_specifico_it.html"
+      ],
+      "fingerprints": []
+    },
+    {
+      "id": "credit-348b3625561b95cc",
+      "description": "Calore specifico dell’acqua e legami a idrogeno",
+      "source": "https://openstax.org/books/biology-2e/pages/2-2-water",
+      "author": "OpenStax",
+      "license": null,
+      "license_url": null,
+      "changes": null,
+      "type": "scientific-source",
+      "status": "documented",
+      "links": [
+        {
+          "url": "https://openstax.org/books/biology-2e/pages/2-2-water",
+          "label": "Fonte scientifica"
+        }
+      ],
+      "notices": [
+        "Calore specifico dell’acqua e legami a idrogeno — OpenStax. <a href=\"https://openstax.org/books/biology-2e/pages/2-2-water\">Fonte scientifica</a>. Biology 2e, §2.2 — Water. Informazioni rielaborate con formulazioni originali."
+      ],
+      "metadata_sources": [
+        "energia_interna_calore_specifico_it.html"
+      ],
+      "fingerprints": []
+    },
+    {
+      "id": "credit-2a694b508c025566",
+      "description": "Verifica di formule e unità della calorimetria",
+      "source": "https://openstax.org/books/college-physics/pages/14-2-temperature-change-and-heat-capacity",
+      "author": "OpenStax",
+      "license": null,
+      "license_url": null,
+      "changes": null,
+      "type": "scientific-source",
+      "status": "documented",
+      "links": [
+        {
+          "url": "https://openstax.org/books/college-physics/pages/14-2-temperature-change-and-heat-capacity",
+          "label": "Fonte scientifica"
+        }
+      ],
+      "notices": [
+        "Verifica di formule e unità della calorimetria — OpenStax. <a href=\"https://openstax.org/books/college-physics/pages/14-2-temperature-change-and-heat-capacity\">Fonte scientifica</a>. College Physics, §14.2 — Temperature Change and Heat Capacity. Consultato per il controllo scientifico; nessun testo o immagine riprodotti."
+      ],
+      "metadata_sources": [
+        "energia_interna_calore_specifico_it.html"
+      ],
+      "fingerprints": []
+    },
+    {
+      "id": "credit-grafico-calore-temperatura",
+      "description": "Grafico originale T(Q) di acqua e sabbia quarzosa",
+      "source": null,
+      "author": "Materia Oscura",
+      "license": null,
+      "license_url": null,
+      "changes": null,
+      "status": "documented",
+      "links": [],
+      "metadata_sources": [
+        "energia_interna_calore_specifico_it.html"
+      ],
+      "fingerprints": [
+        "asset-a2351806a5085bb09f6c5b41673da70703155db3822a3d7cee19f80d5e5182a3"
+      ],
+      "notices": [
+        "Grafico GRA-01 — realizzazione originale per Materia Oscura. Previsioni da T = T iniziale + Q/(m · c), con m = 1 kg, T iniziale = 20 °C e i calori specifici della tabella. Dati sperimentali non inventati; la fonte dei valori è accreditata separatamente."
+      ]
+    },
+    {
+      "id": "credit-57af5945ae456e8f",
+      "description": "Sfera incandescente del test Ivy Mike in una fotografia in bianco e nero",
+      "source": "https://commons.wikimedia.org/wiki/File:Ivy_Mike_-_fireball.jpg",
+      "author": "Charles Wyckoff; NNSA Nevada Site Office Photo Library, IVY-52-07",
+      "license": "Pubblico dominio — PD-USGov-DOE",
+      "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov-DOE",
+      "changes": "Nessuna modifica ai pixel; visualizzazione proporzionale senza ritaglio.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Sfera incandescente del test Ivy Mike in una fotografia in bianco e nero — Charles Wyckoff; NNSA Nevada Site Office Photo Library, IVY-52-07. <a href=\"https://commons.wikimedia.org/wiki/File:Ivy_Mike_-_fireball.jpg\">Fonte originale</a>. <a href=\"https://commons.wikimedia.org/wiki/Template:PD-USGov-DOE\">Pubblico dominio — PD-USGov-DOE</a>. Modifiche: Nessuna modifica ai pixel; visualizzazione proporzionale senza ritaglio."
+      ],
+      "metadata_sources": [
+        "energia_interna_calore_specifico_it.html"
+      ],
+      "fingerprints": [
+        "asset-86d9aee90f0b782303e361f38f041308bb6f6577947a6d1587ff2ba317018a75"
+      ]
+    },
+    {
+      "id": "credit-46059ba4845c6470",
+      "description": "Spiaggia sabbiosa con rocce e mare sotto la Luna e le stelle a Ko Li Pe",
+      "source": "https://commons.wikimedia.org/wiki/File:1008_Beach_at_Night_with_Moon_and_Stars_in_Ko_Li_Pe_-_Tarutao_National_Park,_Satun,_Thailand.jpg",
+      "author": "Piith.hant (Piith Hant)",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Nessuna modifica ai pixel; visualizzazione proporzionale senza ritaglio.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Spiaggia sabbiosa con rocce e mare sotto la Luna e le stelle a Ko Li Pe — Piith.hant (Piith Hant). <a href=\"https://commons.wikimedia.org/wiki/File:1008_Beach_at_Night_with_Moon_and_Stars_in_Ko_Li_Pe_-_Tarutao_National_Park,_Satun,_Thailand.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>. Modifiche: Nessuna modifica ai pixel; visualizzazione proporzionale senza ritaglio."
+      ],
+      "metadata_sources": [
+        "energia_interna_calore_specifico_it.html"
+      ],
+      "fingerprints": [
+        "asset-680e6ae316f9cd2783cc2456d28d94f8234d525f1171e518c6d1d6a0a3dacc20"
+      ]
+    },
+    {
+      "id": "credit-5d1d35c0d78f5ed9",
+      "description": "source",
+      "source": "https://commons.wikimedia.org/wiki/File:MD_water.gif",
+      "author": "Kmckiern",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Nessuna modifica ai pixel; visualizzazione proporzionale senza ritaglio.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "source — Kmckiern. <a href=\"https://commons.wikimedia.org/wiki/File:MD_water.gif\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>. Modifiche: Nessuna modifica ai pixel; visualizzazione proporzionale senza ritaglio."
+      ],
+      "metadata_sources": [
+        "energia_interna_calore_specifico_it.html"
+      ],
+      "fingerprints": [
+        "asset-9a7d515a9fe4a079fc77b781fa2e23104014e7565091c13c9e7ad5e8610f3cd4",
+        "asset-dd0b429948be84c814e74737a829e3b5ee9de7c687e466739d30b5814d003acf"
+      ]
     }
   ],
   "documents": {
@@ -3240,6 +3393,42 @@
       "review": "Tre immagini scelte dall’utente e fonti verificate; per la foto clinica conservata la dichiarazione Flickr Commons No known copyright restrictions, senza attribuirle una licenza CC0.",
       "anchor": "temperatura-equilibrio-termico-it",
       "lexend": true
+    },
+    "energia_interna_calore_specifico_it.html": {
+      "title": "Energia interna, calore e calore specifico — Materia Oscura",
+      "anchor": "energia-interna-calore-specifico-it",
+      "credits": [
+        {
+          "resource": "credit-5737176d29a7ac61",
+          "notice": 0
+        },
+        {
+          "resource": "credit-348b3625561b95cc",
+          "notice": 0
+        },
+        {
+          "resource": "credit-2a694b508c025566",
+          "notice": 0
+        },
+        {
+          "resource": "credit-grafico-calore-temperatura",
+          "notice": 0
+        },
+        {
+          "resource": "credit-57af5945ae456e8f",
+          "notice": 0
+        },
+        {
+          "resource": "credit-46059ba4845c6470",
+          "notice": 0
+        },
+        {
+          "resource": "credit-5d1d35c0d78f5ed9",
+          "notice": 0
+        }
+      ],
+      "lexend": true,
+      "review": ""
     }
   },
   "assets": [
@@ -3565,6 +3754,15 @@
       "id": "asset-1ea920e6d05bfc93a7aa13c794b49724d49240353bce69ea35e47878a5ba0f51",
       "kind": "svg",
       "uses": [
+        {
+          "document": "energia_interna_calore_specifico_it.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "brand-logo",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        },
         {
           "document": "irraggiamento_it.html",
           "kind": "svg",
@@ -3963,6 +4161,15 @@
         },
         {
           "document": "convezione_it.html",
+          "kind": "font/ttf",
+          "description": "Font incorporato",
+          "locator": null,
+          "attribute": "font-face",
+          "location": null,
+          "credit_id": "font-lexend"
+        },
+        {
+          "document": "energia_interna_calore_specifico_it.html",
           "kind": "font/ttf",
           "description": "Font incorporato",
           "locator": null,
@@ -4501,6 +4708,21 @@
       ]
     },
     {
+      "id": "asset-680e6ae316f9cd2783cc2456d28d94f8234d525f1171e518c6d1d6a0a3dacc20",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "energia_interna_calore_specifico_it.html",
+          "kind": "image/jpeg",
+          "description": "Spiaggia sabbiosa con rocce e mare sotto la Luna e le stelle a Ko Li Pe",
+          "locator": "fig-01",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-46059ba4845c6470"
+        }
+      ]
+    },
+    {
       "id": "asset-693613714f401dff948e7162eb256f395d79316d69cdefc9780f2602ed1ef953",
       "kind": "image/png",
       "uses": [
@@ -4906,6 +5128,21 @@
       ]
     },
     {
+      "id": "asset-86d9aee90f0b782303e361f38f041308bb6f6577947a6d1587ff2ba317018a75",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "energia_interna_calore_specifico_it.html",
+          "kind": "image/jpeg",
+          "description": "Sfera incandescente del test Ivy Mike in una fotografia in bianco e nero",
+          "locator": "cop-01",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-57af5945ae456e8f"
+        }
+      ]
+    },
+    {
       "id": "asset-8a35c398618642a6d65e29eb6f82ee854b61a36e84ad42faca0bcbce9507a538",
       "kind": "image/webp",
       "uses": [
@@ -5236,6 +5473,30 @@
       ]
     },
     {
+      "id": "asset-9a7d515a9fe4a079fc77b781fa2e23104014e7565091c13c9e7ad5e8610f3cd4",
+      "kind": "image/png",
+      "uses": [
+        {
+          "document": "energia_interna_calore_specifico_it.html",
+          "kind": "image/png",
+          "description": "source",
+          "locator": "fig-02",
+          "attribute": "srcset",
+          "location": null,
+          "credit_id": "credit-5d1d35c0d78f5ed9"
+        },
+        {
+          "document": "energia_interna_calore_specifico_it.html",
+          "kind": "image/png",
+          "description": "Modello animato di molecole d’acqua in movimento: ossigeno rosso e idrogeni bianchi",
+          "locator": "fig-02",
+          "attribute": "data-still",
+          "location": null,
+          "credit_id": "credit-5d1d35c0d78f5ed9"
+        }
+      ]
+    },
+    {
       "id": "asset-9baf9b5b115e468c0991980aa0f31876670f1d5a3910b8e1cf194f95635c6a13",
       "kind": "svg",
       "uses": [
@@ -5262,6 +5523,30 @@
           "attribute": "src",
           "location": null,
           "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-a2351806a5085bb09f6c5b41673da70703155db3822a3d7cee19f80d5e5182a3",
+      "kind": "image/svg+xml",
+      "uses": [
+        {
+          "document": "energia_interna_calore_specifico_it.html",
+          "kind": "image/svg+xml",
+          "description": "Grafico della temperatura in funzione del calore assorbito: masse di 1 kg di acqua e sabbia quarzosa partono da 20 gradi Celsius. La retta della sabbia cresce più rapidamente di quella dell’acqua.",
+          "locator": "gra-01",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-grafico-calore-temperatura"
+        },
+        {
+          "document": "energia_interna_calore_specifico_it.html",
+          "kind": "image/svg+xml",
+          "description": "Grafico della temperatura in funzione del calore assorbito: masse di 1 kg di acqua e sabbia quarzosa partono da 20 gradi Celsius. La retta della sabbia cresce più rapidamente di quella dell’acqua.",
+          "locator": "gra-01",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-grafico-calore-temperatura"
         }
       ]
     },
@@ -6435,6 +6720,21 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-5a931f7538e8b566"
+        }
+      ]
+    },
+    {
+      "id": "asset-dd0b429948be84c814e74737a829e3b5ee9de7c687e466739d30b5814d003acf",
+      "kind": "image/gif",
+      "uses": [
+        {
+          "document": "energia_interna_calore_specifico_it.html",
+          "kind": "image/gif",
+          "description": "Modello animato di molecole d’acqua in movimento: ossigeno rosso e idrogeni bianchi",
+          "locator": "fig-02",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-5d1d35c0d78f5ed9"
         }
       ]
     },
