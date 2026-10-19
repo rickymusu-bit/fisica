@@ -1,6 +1,6 @@
 # Proposta — Energia interna, calore e calore specifico
 
-Versione v5 · 19 ottobre 2026 (Europe/Rome).
+Versione v6 · 19 ottobre 2026 (Europe/Rome).
 
 Articolo 3 del [percorso approvato](../percorso_termodinamica.md). Con «Vai», dopo la scelta dell’apertura sulla spiaggia, l’utente ha autorizzato la stesura secondo l’impostazione corrente. Bozza completa v2 in [bozza.md](bozza.md); immagini specifiche ancora da fornire/scegliere. Nessun via all’HTML dedotto.
 
@@ -61,3 +61,7 @@ Prossimo passo corrente: revisione della bozza v2 e ricezione delle tre immagini
 ## Revisione richiesta — tabella e particolarità dell’acqua
 
 Richiesta: includere valori di sostanze comuni solide, liquide e gassose per confrontarle e spiegare la particolarità dell’acqua. Eseguita nella bozza v2: dieci righe, acqua evidenziata, confronto a parità di massa e spiegazione breve della rete di legami a idrogeno tra molecole, distinta dai legami interni alla molecola. Fonte concettuale consultata: https://openstax.org/books/biology-2e/pages/2-2-water . Nessuna immagine nuova cercata o generata; la tabella accompagna la spiegazione. Conservato il grafico a due materiali, con valori di acqua e sabbia invariati. Per i gas indicata la pressione costante, distinta dal riscaldamento a volume fisso in nota.
+
+## Bozza v3 approvata
+
+L’utente ha risposto «Approvata» alla bozza v3 con fonti nei crediti. Approvazione del testo registrata; non richiederla nuovamente. Le funzioni di copertina, foto della battigia, figura microscopica, tabella e grafico sono previste nel testo approvato; i tre file d’immagine specifici restano da scegliere e fornire. Stima HTML 35–60 minuti, calcolo basso, esclusa l’attesa dei materiali; ripartizione nello stato. Via HTML da raccogliere dopo la stima secondo il master.

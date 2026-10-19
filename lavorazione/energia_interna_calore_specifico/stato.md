@@ -1,6 +1,6 @@
 # Stato — Energia interna, calore e calore specifico
 
-Versione v6 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
+Versione v7 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
 
 ## Ambito e punto di partenza
 
@@ -41,7 +41,7 @@ Bozza completa v1 creata in bozza.md dopo il «Vai» dell’utente, ricevuto dop
 
 ## Prossima operazione
 
-Presentare bozza.md v3 per revisione; stesura già autorizzata e completata, non richiederne nuovamente il via. Ricevere i tre file/collegamenti di spiaggia estiva, battigia serale/notturna e modello microscopico. Dopo il testo approvato, fornire stima totale ripartita e raccogliere via esplicito all’HTML secondo B1.1–B2. Nessuna approvazione dedotta dall’elenco già approvato.
+Bozza.md v3 approvata dall’utente con «Approvata», dopo la revisione che sposta le fonti nei crediti. Non richiedere nuovamente l’approvazione del testo. Ricevere i tre file/collegamenti di spiaggia estiva, battigia serale/notturna e modello microscopico. Dopo il testo approvato, fornire stima totale ripartita e raccogliere via esplicito all’HTML secondo B1.1–B2. Nessuna approvazione dedotta dall’elenco già approvato.
 
 ## Bozza v1 completata
 
@@ -70,3 +70,13 @@ Richiesta esplicita dell’utente: «Le fonti dei dati numerici e delle informaz
 Regola consolidata nel master v61, C1/C3/D2, sostituendo le precedenti istruzioni che collocavano le fonti nel corpo; allineato risorse/README.md. Le attribuzioni non sono eliminate né le condizioni fisiche spostate fuori dalla spiegazione. Nella fase testuale la sezione collassabile della bozza conserva i riferimenti; in fase HTML confluiranno nel registro unico e nello snapshot comune mediante gli strumenti di sincronizzazione. Nessun inventario parallelo creato, nessun credito.html o HTML pubblicato aggiornato.
 
 Controllati: tre fonti nei soli crediti della bozza, assenza di URL nel contenuto didattico e nelle note, dettagli inizialmente chiusi, valori e formule conservati, otto domande e quattro note con richiami coerenti. Caricamento sul ramo dedicato da verificare prima della consegna. Resta la revisione della bozza e la scelta delle tre immagini prima dell’HTML; non dedurre una nuova approvazione finale.
+
+## Approvazione effettiva della bozza v3
+
+Ricevuto «Approvata» dopo la consegna della bozza v3. Testo completo, tabella ampliata, spiegazione dell’acqua, otto domande e fonti nei crediti sono approvati. Questa approvazione non sceglie file d’immagine non ancora forniti e precede la stima e il via alla realizzazione secondo B1.1–B2. Conservare il testo approvato; eventuali adattamenti alle fotografie devono essere circoscritti.
+
+Materiali ancora necessari: COP-01 spiaggia estiva con mare e sabbia; FIG-01 battigia di sera/notte, immagine diversa dalla copertina; FIG-02 illustrazione microscopica di moto e interazioni delle particelle, preferibilmente utile anche al collegamento con l’acqua. Nessun file specifico scelto, nessuna ricerca autonoma autorizzata. La futura realizzazione comprende grafico GRA-01 e tabella TAB-01 già previsti, senza simulazioni.
+
+Stima da comunicare prima del via HTML: 35–60 minuti di lavoro, esclusa l’attesa dei file e delle risposte. Materiali e crediti 5–10 minuti; tabella, grafico e impaginazione nel tema comune 20–35 minuti; verifiche desktop/mobile, autonomia, anteprime e salvataggio 10–15 minuti. Impegno di calcolo basso, nessuna simulazione. Stima indicativa assumendo immagini disponibili, utilizzabili e senza elaborazioni complesse; accesso operativo e risultati dei controlli possono incidere.
+
+Prossimo passo: ricevere immagini o collegamenti scelti e il via esplicito all’HTML dopo la stima. Nessun via già ricevuto dopo questa stima, nessuna pubblicazione autorizzata. Non chiedere di nuovo l’approvazione della bozza.
