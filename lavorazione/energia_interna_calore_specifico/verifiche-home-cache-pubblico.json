@@ -1,0 +1,29 @@
+{
+  "verificato_utc": "2026-10-19T19:07:28.417151+00:00",
+  "workflow_id": 39308141252,
+  "workflow_conclusione": "success",
+  "risposte": [
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/",
+      "status": 200,
+      "versione": "v22",
+      "identico_ai_byte_verificati": true,
+      "sha256": "0dffb7cb67965b3aed6ff71abe343b05edc6eb24a1273d1b40b59d769e37c1bd"
+    },
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/?v=22",
+      "status": 200,
+      "versione": "v22",
+      "identico_ai_byte_verificati": true,
+      "sha256": "0dffb7cb67965b3aed6ff71abe343b05edc6eb24a1273d1b40b59d769e37c1bd"
+    },
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/energia_interna_calore_specifico_it.html?v=5",
+      "status": 200,
+      "versione": "v5",
+      "identico_ai_byte_verificati": true,
+      "sha256": "d04afd7d0886fc1f6ef178867fc0276bd29ddf43af328581f9f08e316345d47d"
+    }
+  ],
+  "verifica_interazioni": "Browser locale 1280/390 sullo stesso HTML pubblico: ingresso con hash, ritorno Indietro e pannello manuale; report verifiche-home-cache.json. Accesso browser diretto al dominio pubblico non eseguito per errore di fiducia CA del browser; download HTTPS verificato tramite trust di sistema."
+}
