@@ -1,6 +1,6 @@
 # Stato — Energia interna, calore e calore specifico
 
-Versione v16 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
+Versione v17 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
 
 ## Ambito e punto di partenza
 
@@ -195,3 +195,9 @@ PR #38 integrata in main al commit 85fbb652b5c839c437c34f583c1a40b8885ede46, dop
 Al controllo del 19 ottobre 2026, ore 16:07 UTC (18:07 Europe/Rome), build e deploy ancora in coda senza runner assegnato, nessuna conclusione o errore applicativo. Pagina del nuovo articolo ancora HTTP 404; non dichiarata pubblicazione riuscita. GitHub Status conferma un incidente aperto, «Degraded availability for GitHub Actions, GitHub Pages and Webhooks», con Actions e Pages in degraded_performance e ritardi di workflow/site builds: https://www.githubstatus.com/ . Nessuna duplicazione o annullamento del rilascio pendente.
 
 URL previsto dopo il rilascio: https://rickymusu-bit.github.io/fisica/energia_interna_calore_specifico_it.html . Da verificare dopo la ripresa del servizio: esito workflow e risposta pubblica, identità dei byte con HTML v4 approvato, terza posizione nel catalogo, download, navigazione reciproca e crediti. L’autorizzazione «Ok pubblica» resta valida per completare questi controlli e correggere eventuali problemi del rilascio.
+
+## Nuovo tentativo richiesto dall’utente
+
+Ricevuto «Riprova». Il 19 ottobre 2026, ore 16:12 UTC, ricontrollati workflow precedente e pagina pubblica: esecuzione ancora in coda e articolo HTTP 404. Richiesta di annullamento della vecchia esecuzione accettata da GitHub; avviato un nuovo workflow_dispatch sul main corrente 47510371271c2d740736d723a8135dc548b9e9fd, senza modifiche all’HTML approvato. Nuova esecuzione: https://github.com/rickymusu-bit/fisica/actions/runs/39283633815 .
+
+Al controllo delle 16:13 UTC anche il nuovo tentativo è ancora in coda, senza esito. GitHub Status continua a segnalare degraded_performance per Actions e Pages e lo stesso incidente aperto. Pubblicazione non dichiarata completata; verifica pubblica ancora da svolgere dopo il rilascio.
