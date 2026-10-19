@@ -1,10 +1,10 @@
 # Stato — La termodinamica e i sistemi termodinamici
 
-Aggiornamento: 19 ottobre 2026 (Europe/Rome). Versione v8.
+Aggiornamento: 19 ottobre 2026 (Europe/Rome). Versione v9.
 
 ## Fase corrente
 
-**HTML v3 completato e verificato, pronto per la revisione.** Ripresa richiesta dall’utente: «Finisci il lavoro sulla dispensa dei sistemi termodinamici», con precisazione «Su GitHub». La richiesta corrente autorizza il completamento nel ramo dedicato; non viene registrata come un’approvazione separata del testo né come autorizzazione a pubblicare. Ramo: `termodinamica/percorso-introduttivo`. Nessuna modifica a main, home o manifest.
+**HTML v4 completato e verificato, pronto per la revisione.** Ripresa richiesta dall’utente: «Finisci il lavoro sulla dispensa dei sistemi termodinamici», con precisazione «Su GitHub». La richiesta corrente autorizza il completamento nel ramo dedicato; non viene registrata come un’approvazione separata del testo né come autorizzazione a pubblicare. Ramo: `termodinamica/percorso-introduttivo`. Nessuna modifica a main, home o manifest.
 
 File finale: `termodinamica_sistemi_it.html`; tema autonomo v8 riutilizzato senza modifiche al CSS o ai comandi comuni. Bozza testuale v2: sola correzione dell’esempio della molla da compressione ad allungamento, coerente con le molle da trazione fotografate.
 
@@ -48,7 +48,7 @@ Controllo scientifico: classificazioni, confini e flussi coerenti; molla da traz
 
 Verifica Chromium offline completata a 1280 e 390 px: nessun errore JavaScript, nessun overflow della pagina, indice con apertura/chiusura, richiamo/ritorno delle note, ingrandimento e scorrimento dei visuali, dialogo dei crediti, font OFL e pausa/ripresa logo funzionanti. Verificati ingrandimento e crediti anche senza JavaScript. Report: `verifiche-browser.json`; anteprime desktop/mobile nella stessa cartella. Ispezionati visivamente tutti e sei gli schemi. CSS del tema confrontato byte per byte; tutte le foto incorporate confrontate per SHA-256 con gli originali.
 
-File finale autonomo: `termodinamica_sistemi_it.html`, v3 · 19 ottobre 2026, 13,39 MB circa; copia corrente identica in `bozza.html`. Salvataggio sul ramo dedicato, senza unione né pubblicazione. Prossimo passaggio: revisione del risultato; per l’eventuale pubblicazione aggiornare catalogo, sequenza degli articoli e manifest solo dopo autorizzazione. Nessun via a main o alla pubblicazione ricevuto.
+File finale autonomo: `termodinamica_sistemi_it.html`, v4 · 19 ottobre 2026, 13,39 MB circa; copia corrente identica in `bozza.html`. Salvataggio sul ramo dedicato, senza unione né pubblicazione. Prossimo passaggio: revisione del risultato; per l’eventuale pubblicazione aggiornare catalogo, sequenza degli articoli e manifest solo dopo autorizzazione. Nessun via a main o alla pubblicazione ricevuto.
 
 ## Revisione v2 — immagini e frecce
 
@@ -59,3 +59,11 @@ Il generatore aggiunge l’ingrandimento soltanto quando lo schema contiene etic
 ## Revisione v3 — spessore e lunghezza delle frecce
 
 Richiesta esplicita: frecce un po’ più spesse; possono uscire dai bordi delle fotografie per chiarezza. Questa indicazione sostituisce il vincolo dei bordi della revisione v2. Aste blu portate da 3 a 5 unità SVG, punte da 24 a 28; ripristinata maggiore estensione delle frecce del caffè e della molla. Restano all’interno del riquadro complessivo dello schema e non coprono le etichette. Originali, testi e regola di ingrandimento invariati. Anteprime e verifiche offline desktop/mobile aggiornate.
+
+## Revisione v4 — calore, evaporazione e forze
+
+Richiesta esplicita: nel caffè frecce corte rosse e spesse attorno al tratteggio senza sovrapposizioni, per il trasferimento di energia termica; freccia blu per l’evaporazione; tutte le frecce dentro il bordo della figura; legenda o didascalia esplicativa. Nella molla frecce spesse verdi.
+
+Realizzate 11 frecce rosse (#c62828, asta 6 e punta 18 unità SVG), orientate verso l’esterno e distanti dal contorno; eliminata la precedente freccia blu dell’energia. Conservata una sola freccia blu per l’acqua in uscita per evaporazione. Le due frecce della molla sono verdi (#16803c), con asta 6 e punta 28, e rappresentano le forze di allungamento. Didascalie aggiornate con i significati fisici; scritta sul confine abbassata per separarla dalle frecce inferiori.
+
+Verifiche offline a 1280 e 390 px: conteggi e colori corretti, minima distanza delle frecce rosse dal tracciato tratteggiato circa 16,77 unità SVG, tutte le frecce dentro il riquadro complessivo. Nessun obbligo di restare dentro il rettangolo fotografico: il bordo richiesto è quello della figura. Report `verifiche-frecce.json`, anteprime aggiornate di caffè e molla. Testi teorici, originali e regola di ingrandimento invariati.

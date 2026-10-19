@@ -1,0 +1,18 @@
+[
+  {
+    "viewport": 1280,
+    "red": 11,
+    "blue": 1,
+    "minimumGap": 16.767636885453953,
+    "green": 2,
+    "allArrowsInside": true
+  },
+  {
+    "viewport": 390,
+    "red": 11,
+    "blue": 1,
+    "minimumGap": 16.767636885453953,
+    "green": 2,
+    "allArrowsInside": true
+  }
+]

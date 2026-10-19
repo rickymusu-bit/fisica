@@ -1,6 +1,6 @@
 # La termodinamica e i sistemi termodinamici
 
-<!-- Bozza v2 · 19 ottobre 2026 (Europe/Rome). Testo di riferimento per l’HTML v1; completamento richiesto il 19 ottobre 2026. Visuali scelte e fonti in visuali.md. -->
+<!-- Bozza v3 · 19 ottobre 2026 (Europe/Rome). Testo di riferimento per l’HTML v4; completamento richiesto il 19 ottobre 2026. Visuali scelte e fonti in visuali.md. -->
 
 [IMMAGINE TS-0 — Copertina: Hubble ultra deep field.jpg, proposta 1A approvata. Non riutilizzare nel testo.]
 
@@ -18,7 +18,7 @@ Il suo campo d’azione va oltre il riscaldamento e il raffreddamento. Riguarda 
 
 [IMMAGINE E SCHEMA TS-1 — Coffee steaming in a mug.jpg, scelta dell’utente. Conservare la foto nel contesto reale; nello schema affiancato o sovrapposto individuare tazza e contenuto, ambiente, confine lungo il recipiente e superficie ideale sopra l’apertura. Frecce distinte per materia in uscita ed energia ceduta, senza dati numerici inventati.]
 
-Didascalia: La bevanda e la tazza possono essere studiate insieme. Attraverso il confine scelto possono passare materia ed energia.
+Didascalia: La bevanda e la tazza costituiscono il sistema. Le frecce rosse indicano l’energia ceduta all’ambiente come calore; la freccia blu indica l’acqua che esce per evaporazione. Il tratteggio rappresenta il confine scelto.
 
 Possiamo concentrarci sulla tazza e sul caffè che contiene, lasciando fuori il tavolo, l’aria e il resto della stanza. La parte che scegliamo di studiare è il **sistema termodinamico**; tutto ciò che si trova all’esterno costituisce l’**ambiente**. La superficie che li separa prende il nome di **confine**.
 
@@ -66,7 +66,7 @@ Una **pila integra** può essere descritta come un sistema chiuso. Quando alimen
 
 [IMMAGINE E SCHEMA TS-7 — Springs 009.jpg, scelta dell’utente. Individuare una delle molle come sistema e descrivere un allungamento e un rilascio ipotetici con frecce di forza/spostamento e lavoro in ingresso/uscita. Non rappresentare molle diverse come stati successivi della stessa; nessuna legge di Hooke o dato numerico.]
 
-Didascalia: Una molla può ricevere e restituire energia quando viene deformata. Il suo confine si sposta insieme alla superficie del metallo.
+Didascalia: Le frecce verdi rappresentano le forze che allungano la molla. Il lavoro di queste forze trasferisce energia alla molla; il confine tratteggiato si sposta insieme alla superficie del metallo.
 
 Anche una **molla** può essere un sistema chiuso, pur non essendo un contenitore. Quando la allunghiamo compiamo lavoro su di essa, trasferendole energia; quando la lasciamo tornare alla forma iniziale, può restituire energia compiendo lavoro su ciò che la trattiene. Durante la deformazione il confine cambia forma, ma la materia della molla rimane la stessa. Perché un sistema sia chiuso, quindi, non serve che abbia pareti rigide o una forma immutabile.
 

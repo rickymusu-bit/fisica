@@ -2380,7 +2380,10 @@
         "asset-82ece271eebbe486005837931f190b255f3bef3f60a4f7be65a50dc3e166e765",
         "asset-ff897f1ccb41f3f0dbc576e18b191fcb364720e58c5b455e047036d20cb31372",
         "asset-f924d13834372dbac87326b7d14d4fe358f013c2ce2a91adacc5b9b9ea0d4fe8",
-        "asset-e3d0ef35a4366a96b2a5302b392b6b59bc10b7c49d5acfa5fded59dbdfb334e6"
+        "asset-e3d0ef35a4366a96b2a5302b392b6b59bc10b7c49d5acfa5fded59dbdfb334e6",
+        "asset-06ff11c6cd694cb3af7c7299da0d444170d9f5cb6a5b66935c4f21419080f4e0",
+        "asset-7cb392160290aa388d15e94e5f5749c8d65e899d6eaa7c8ee0c091eae42d5b5a",
+        "asset-08cfd0462ede1a465c2e9c824c3ec33ba1c6f3ba235729f2452817354a4347a9"
       ]
     },
     {
@@ -2494,7 +2497,9 @@
         "asset-d614de23b81eababace60c2fef71def4052eb278dafe9ea6a2765203dde6de9e",
         "asset-2a5e736bd6e2e3abf3ee16a35abde380010eafd8babb93aa92312ffef6341aac",
         "asset-b74439244cebd100fc1372e57a73d4f2ebf9504aabd6c42145ada257f5e67bc6",
-        "asset-0624ea9cb55c654525b21ddcb47623039b59382e1020c9e87ee64a307caf1bd0"
+        "asset-0624ea9cb55c654525b21ddcb47623039b59382e1020c9e87ee64a307caf1bd0",
+        "asset-833032668d2c26e34bdcd68015fdfecc35c55b866fed12f7ea50a9b26b3466b2",
+        "asset-c51de180d61f4b00b33cfe27f953598a478cc6026c8db1131fce642b547ebdee"
       ]
     }
   ],
@@ -3131,21 +3136,6 @@
       ]
     },
     {
-      "id": "asset-0624ea9cb55c654525b21ddcb47623039b59382e1020c9e87ee64a307caf1bd0",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "termodinamica_sistemi_it.html",
-          "kind": "svg",
-          "description": "svg",
-          "locator": "ts-7",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": "credit-6ec3dfbf05b57cd3"
-        }
-      ]
-    },
-    {
       "id": "asset-07570df75907679b1290d16c7efb5ce2353299dad772841c24d36ec4d5c0a2a4",
       "kind": "image/jpeg",
       "uses": [
@@ -3176,17 +3166,17 @@
       ]
     },
     {
-      "id": "asset-08fcc6a2ab5fabf501c09e8857c8104d1aef6553833e83baf7f41ef0128cea9f",
+      "id": "asset-08cfd0462ede1a465c2e9c824c3ec33ba1c6f3ba235729f2452817354a4347a9",
       "kind": "svg",
       "uses": [
         {
           "document": "termodinamica_sistemi_it.html",
           "kind": "svg",
           "description": "svg",
-          "locator": "inizio",
+          "locator": "ts-1",
           "attribute": "inline",
           "location": null,
-          "credit_id": null
+          "credit_id": "credit-2745b5c3fc7949d9"
         }
       ]
     },
@@ -3679,21 +3669,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-48220f391bae6883"
-        }
-      ]
-    },
-    {
-      "id": "asset-2a5e736bd6e2e3abf3ee16a35abde380010eafd8babb93aa92312ffef6341aac",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "termodinamica_sistemi_it.html",
-          "kind": "svg",
-          "description": "Una molla può ricevere e restituire energia quando viene deformata. Il suo confine si sposta insieme alla superficie del metallo.",
-          "locator": "ts-7",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": "credit-6ec3dfbf05b57cd3"
         }
       ]
     },
@@ -4589,6 +4564,21 @@
       ]
     },
     {
+      "id": "asset-7cb392160290aa388d15e94e5f5749c8d65e899d6eaa7c8ee0c091eae42d5b5a",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "termodinamica_sistemi_it.html",
+          "kind": "svg",
+          "description": "La bevanda e la tazza costituiscono il sistema. Le frecce rosse indicano l’energia ceduta all’ambiente come calore; la freccia blu indica l’acqua che esce per evaporazione. Il tratteggio rappresenta il confine scelto.",
+          "locator": "ts-1",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "credit-2745b5c3fc7949d9"
+        }
+      ]
+    },
+    {
       "id": "asset-7d60a41aece2ff4df2942ce20676349afe406f7dcb7f3aa722ca4e69ee3bd76c",
       "kind": "svg",
       "uses": [
@@ -4747,6 +4737,21 @@
           "attribute": "href",
           "location": null,
           "credit_id": "credit-2745b5c3fc7949d9"
+        }
+      ]
+    },
+    {
+      "id": "asset-833032668d2c26e34bdcd68015fdfecc35c55b866fed12f7ea50a9b26b3466b2",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "termodinamica_sistemi_it.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "ts-7",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "credit-6ec3dfbf05b57cd3"
         }
       ]
     },
@@ -5074,6 +5079,21 @@
           "kind": "svg",
           "description": "Cinque punti: zero, uno, due, tre e quattro quaderni costano rispettivamente zero, due, quattro, sei e otto euro. La retta del modello y uguale due x passa per l’origine.",
           "locator": "chart-direct",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-9a27a219e492cb2fa7218a2298a1518648e08a2349282e7aa880b1534e212c7d",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "termodinamica_sistemi_it.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "inizio",
           "attribute": "inline",
           "location": null,
           "credit_id": null
@@ -5759,6 +5779,21 @@
       ]
     },
     {
+      "id": "asset-c51de180d61f4b00b33cfe27f953598a478cc6026c8db1131fce642b547ebdee",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "termodinamica_sistemi_it.html",
+          "kind": "svg",
+          "description": "Le frecce verdi rappresentano le forze che allungano la molla. Il lavoro di queste forze trasferisce energia alla molla; il confine tratteggiato si sposta insieme alla superficie del metallo.",
+          "locator": "ts-7",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "credit-6ec3dfbf05b57cd3"
+        }
+      ]
+    },
+    {
       "id": "asset-c5286ec70549f125af562b88cccf353445bfa02f4512f7ab26a2db066e36ec14",
       "kind": "image/png",
       "uses": [
@@ -6350,21 +6385,6 @@
       ]
     },
     {
-      "id": "asset-e3d0ef35a4366a96b2a5302b392b6b59bc10b7c49d5acfa5fded59dbdfb334e6",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "termodinamica_sistemi_it.html",
-          "kind": "svg",
-          "description": "svg",
-          "locator": "ts-1",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": "credit-2745b5c3fc7949d9"
-        }
-      ]
-    },
-    {
       "id": "asset-e5325bd0c48e90d7b718be1f57f2300660d79e586cb71902424a67ab8f830c5c",
       "kind": "image/webp",
       "uses": [
@@ -6628,21 +6648,6 @@
           "attribute": "cover-data",
           "location": "copertine/motore-f100.webp",
           "credit_id": "credit-bfbb32de2ea446ec"
-        }
-      ]
-    },
-    {
-      "id": "asset-ff897f1ccb41f3f0dbc576e18b191fcb364720e58c5b455e047036d20cb31372",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "termodinamica_sistemi_it.html",
-          "kind": "svg",
-          "description": "La bevanda e la tazza possono essere studiate insieme. Attraverso il confine scelto possono passare materia ed energia.",
-          "locator": "ts-1",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": "credit-2745b5c3fc7949d9"
         }
       ]
     },
