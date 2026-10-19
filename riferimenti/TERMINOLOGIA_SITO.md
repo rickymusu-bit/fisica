@@ -1,6 +1,6 @@
 # Terminologia del sito
 
-Versione v6 · 19 ottobre 2026. Scelte approvate dall’utente: gerarchia e identità della home. Le richieste esplicite dell’utente sostituiscono il nome «Praticamente la Fisica» e il ritorno «← Tutti gli articoli» riportati in A6 del master v59; le altre etichette di A6 restano valide.
+Versione v7 — 19 ottobre 2026. Scelte approvate dall’utente: gerarchia e identità della home. Le richieste esplicite dell’utente sostituiscono il nome «Praticamente la Fisica» e il ritorno «← Tutti gli articoli» riportati in A6 del master v59; le altre etichette di A6 restano valide.
 
 | Elemento | Nome da usare | Esempio |
 | --- | --- | --- |
@@ -24,4 +24,6 @@ Titolo della pagina, titolo visibile e metadati descrittivi della home devono us
 
 Il **logo del sito** è esclusivamente l’onda stazionaria approvata, nera su trasparente, a quattro creste e ampiezza 20: `identita/logo-materia-oscura.svg` e `.gif`. Compare accanto al titolo nella home e nella barra in alto a sinistra degli articoli, secondo il componente del tema autonomo v7. Il simbolo φ e i precedenti tentativi non sono alternative del tema. I controlli di pausa/ripresa e movimento ridotto fanno parte della regola grafica.
 
-Le attribuzioni sono centralizzate in `crediti.html` e nel registro unico secondo C1 del master v63. Il tema v9 prevede il solo comando «Crediti e licenze», che apre i crediti incorporati; al loro interno «Crediti di tutti gli articoli» apre la pagina generale, senza sezione finale visibile. Le licenze che richiedono un avviso vicino alla risorsa prevalgono sulla regola grafica.
+Le attribuzioni sono centralizzate in `crediti.html` e nel registro unico secondo C1 del master v64. Il tema v10 prevede il solo comando «Crediti e licenze», che apre i crediti incorporati; al loro interno «Crediti di tutti gli articoli» apre la pagina generale, senza sezione finale visibile. Le licenze che richiedono un avviso vicino alla risorsa prevalgono sulla regola grafica.
+
+Il punto centrato è riservato alla moltiplicazione matematica: mai usarlo come separatore, nemmeno tra versione e data. Il tema v10 usa il trattino lungo nel piè di pagina e i due punti nel titolo accessibile del logo.

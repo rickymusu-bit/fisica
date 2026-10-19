@@ -2775,6 +2775,134 @@
         "asset-9a7d515a9fe4a079fc77b781fa2e23104014e7565091c13c9e7ad5e8610f3cd4",
         "asset-dd0b429948be84c814e74737a829e3b5ee9de7c687e466739d30b5814d003acf"
       ]
+    },
+    {
+      "id": "credit-bilancio-temperatura-tempo",
+      "description": "Temperature del caffè e del latte nel tempo — grafico di modello",
+      "source": null,
+      "author": "Materia Oscura",
+      "license": null,
+      "license_url": null,
+      "changes": null,
+      "status": "documented",
+      "links": [],
+      "fingerprints": [
+        "asset-3140d51c4a285244f5a4c48d97148975ae16056f497ff5c295f905113c261cf7",
+        "asset-4ec807247960df9a3226c8527d20425ee26323bb70ee8abf28f2bea02e521f80",
+        "asset-7e7ae41b033ae26a35e960223a3b6ea71a0b6a3d03c1473f076dce7f0320e5a2",
+        "asset-25919979e95066be00b737558c8baa300d7d3676f1b1869c0bea3274a6a1bba8"
+      ],
+      "metadata_sources": [
+        "bilancio_termico_it.html"
+      ],
+      "notices": [
+        "Grafico originale per Materia Oscura, richiesto dall’utente. Modello illustrativo: caffè 100 g a 80 °C, latte 50 g a 20 °C, calori specifici uguali, temperatura di equilibrio 60 °C. T_c = 60 + 20 exp(−t/60); T_l = 60 − 40 exp(−t/60), t in secondi. Tempo caratteristico ipotizzato di 60 s, non misurato; tazza e ambiente trascurati. Le curve conservano il bilancio energetico e rappresentano un flusso proporzionale alla differenza di temperatura, non dati sperimentali."
+      ]
+    },
+    {
+      "id": "credit-bb83593b4b1174cb",
+      "description": "Le Déjeuner (1739): adulti e bambini attorno a una tavola con tazze e recipienti",
+      "source": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Boucher_002.jpg",
+      "author": "François Boucher; Musée du Louvre, RF 926; The Yorck Project (2002), DIRECTMEDIA",
+      "license": "Pubblico dominio — PD-Art, Public Domain Mark 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "changes": "Nessuna modifica; versione scelta incorporata integralmente.",
+      "status": "documented",
+      "links": [
+        {
+          "url": "https://collections.louvre.fr/ark:/53355/cl010059924",
+          "label": "Scheda dell’opera al Louvre"
+        }
+      ],
+      "notices": [
+        "Le Déjeuner (1739): adulti e bambini attorno a una tavola con tazze e recipienti — François Boucher; Musée du Louvre, RF 926; The Yorck Project (2002), DIRECTMEDIA. <a href=\"https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Boucher_002.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\">Pubblico dominio — PD-Art, Public Domain Mark 1.0</a>. Modifiche: Nessuna modifica; versione scelta incorporata integralmente.<br>Le Déjeuner (1739), François Boucher, Musée du Louvre, RF 926. The Yorck Project (2002), 10.000 Meisterwerke der Malerei, DIRECTMEDIA Publishing GmbH. La fonte dichiara opera e riproduzione in pubblico dominio; il copyright della compilazione, distinta dalla singola immagine, è detenuto da Zenodot Verlagsgesellschaft mbH e la compilazione è distribuita sotto GNU Free Documentation License.<br>Presentazione del quadro: <a href=\"https://collections.louvre.fr/ark:/53355/cl010059924\">Musée du Louvre, Le déjeuner, RF 926</a>. Autore, titolo, data 1739 e collocazione; descrizione della scena da osservazione dell’opera."
+      ],
+      "metadata_sources": [
+        "bilancio_termico_it.html"
+      ],
+      "fingerprints": [
+        "asset-86750339ad05595da5b0dd3dc2f403c80685ec9159a7332d6df50c2456adce26"
+      ]
+    },
+    {
+      "id": "credit-46d6f730aca173c4",
+      "description": "Una mano versa latte da una lattiera nera nel caffè, su un piano di legno",
+      "source": "https://negativespace.co/pouring-milk-coffee/",
+      "author": "Burst (attribuzione sulla fonte NegativeSpace); versione distribuita da Rawpixel",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Nessuna modifica; versione scelta incorporata integralmente.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Una mano versa latte da una lattiera nera nel caffè, su un piano di legno — Burst (attribuzione sulla fonte NegativeSpace); versione distribuita da Rawpixel. <a href=\"https://negativespace.co/pouring-milk-coffee/\">Fonte originale</a>. <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CC0 1.0</a>. Modifiche: Nessuna modifica; versione scelta incorporata integralmente.<br>Attribuzione sulla fonte: By Burst. Versione distribuita da Rawpixel, https://www.rawpixel.com/image/5915327 . Il file originale conserva i metadati XMP con i rimandi a NegativeSpace e CC0."
+      ],
+      "metadata_sources": [
+        "bilancio_termico_it.html"
+      ],
+      "fingerprints": [
+        "asset-32cfc7be47336739b7df3242ada8ac9db0514cf8b93cee331bba0885e377efaa"
+      ]
+    },
+    {
+      "id": "credit-1552a88b686ede5c",
+      "description": "Tazza bianca con caffè nero, piattino e cucchiaino",
+      "source": "https://commons.wikimedia.org/wiki/File:A_small_cup_of_coffee.JPG",
+      "author": "Julius Schorzman",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "changes": "Nessuna modifica; versione scelta incorporata integralmente.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Tazza bianca con caffè nero, piattino e cucchiaino — Julius Schorzman. <a href=\"https://commons.wikimedia.org/wiki/File:A_small_cup_of_coffee.JPG\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC BY-SA 2.0</a>. Modifiche: Nessuna modifica; versione scelta incorporata integralmente.<br>Avviso originale di Julius Schorzman: “NOTE: I only require attribution if you publish this photo in print or if it is used in a for-profit project.” Attribuzione completa comunque conservata."
+      ],
+      "metadata_sources": [
+        "bilancio_termico_it.html"
+      ],
+      "fingerprints": [
+        "asset-f639ce191da7ece0d4eb44eeafb60ab417d025f27a073965d5e1ee0c7ad384c0"
+      ]
+    },
+    {
+      "id": "credit-75e6724f0241b67b",
+      "description": "Bicchiere trasparente parzialmente pieno di latte su fondo blu",
+      "source": "https://commons.wikimedia.org/wiki/File:Glass_of_Milk_(33657535532).jpg",
+      "author": "NIAID",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "changes": "Nessuna modifica; versione scelta incorporata integralmente.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Bicchiere trasparente parzialmente pieno di latte su fondo blu — NIAID. <a href=\"https://commons.wikimedia.org/wiki/File:Glass_of_Milk_(33657535532).jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by/2.0/\">CC BY 2.0</a>. Modifiche: Nessuna modifica; versione scelta incorporata integralmente.<br>Fonte originaria NIAID: https://www.flickr.com/photos/54591706@N02/33657535532/ . La revisione Commons scelta è già ritagliata; nessun nuovo ritaglio eseguito."
+      ],
+      "metadata_sources": [
+        "bilancio_termico_it.html"
+      ],
+      "fingerprints": [
+        "asset-23898fd4bd889da3745ca6cbf18b2e54065362c09ed81cd85be2e079d348df95"
+      ]
+    },
+    {
+      "id": "credit-33bd094388b36762",
+      "description": "Tazza vuota e piattino bianchi con decorazioni nere e marroni, modello Hostess Tableware Black Velvet",
+      "source": "https://commons.wikimedia.org/wiki/File:Hostess_Tableware_%27Black_Velvet%27_coffee_cup_-_2022-08-30_-_Andy_Mabbett_-_03.jpg",
+      "author": "Andy Mabbett (Pigsonthewing)",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Nessuna modifica; versione scelta incorporata integralmente.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Tazza vuota e piattino bianchi con decorazioni nere e marroni, modello Hostess Tableware Black Velvet — Andy Mabbett (Pigsonthewing). <a href=\"https://commons.wikimedia.org/wiki/File:Hostess_Tableware_%27Black_Velvet%27_coffee_cup_-_2022-08-30_-_Andy_Mabbett_-_03.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>. Modifiche: Nessuna modifica; versione scelta incorporata integralmente."
+      ],
+      "metadata_sources": [
+        "bilancio_termico_it.html"
+      ],
+      "fingerprints": [
+        "asset-2a81d3567ef595118a11dbdcee28f06a926baa3d6853f440b8f3a53d13f09cc7"
+      ]
     }
   ],
   "documents": {
@@ -3434,6 +3562,38 @@
       ],
       "lexend": true,
       "review": ""
+    },
+    "bilancio_termico_it.html": {
+      "title": "Il bilancio termico — Materia Oscura",
+      "credits": [
+        {
+          "resource": "credit-bb83593b4b1174cb",
+          "notice": 0
+        },
+        {
+          "resource": "credit-46d6f730aca173c4",
+          "notice": 0
+        },
+        {
+          "resource": "credit-1552a88b686ede5c",
+          "notice": 0
+        },
+        {
+          "resource": "credit-75e6724f0241b67b",
+          "notice": 0
+        },
+        {
+          "resource": "credit-bilancio-temperatura-tempo",
+          "notice": 0
+        },
+        {
+          "resource": "credit-33bd094388b36762",
+          "notice": 0
+        }
+      ],
+      "review": "",
+      "anchor": "bilancio-termico-it",
+      "lexend": true
     }
   },
   "assets": [
@@ -3812,15 +3972,6 @@
           "attribute": "inline",
           "location": null,
           "credit_id": null
-        },
-        {
-          "document": "riferimenti/TEMA_DISPENSE.html",
-          "kind": "svg",
-          "description": "svg",
-          "locator": "brand-logo",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
         }
       ]
     },
@@ -3915,6 +4066,21 @@
       ]
     },
     {
+      "id": "asset-23898fd4bd889da3745ca6cbf18b2e54065362c09ed81cd85be2e079d348df95",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "bilancio_termico_it.html",
+          "kind": "image/jpeg",
+          "description": "Bicchiere trasparente parzialmente pieno di latte su fondo blu",
+          "locator": "fig-02",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-75e6724f0241b67b"
+        }
+      ]
+    },
+    {
       "id": "asset-23fcb7ff72829352a84e4b1cc0566e1d53de7104188479508500be69b296b129",
       "kind": "image/webp",
       "uses": [
@@ -3974,6 +4140,30 @@
           "attribute": "inline",
           "location": null,
           "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-25919979e95066be00b737558c8baa300d7d3676f1b1869c0bea3274a6a1bba8",
+      "kind": "image/svg+xml",
+      "uses": [
+        {
+          "document": "bilancio_termico_it.html",
+          "kind": "image/svg+xml",
+          "description": "Temperature previste per 100 g di caffè inizialmente a 80 °C e 50 g di latte a 20 °C. La curva marrone scuro continua scende da 80 verso 60 °C; la curva beige marrone chiaro continua sale da 20 verso 60 °C. Tempo da 0 a 300 secondi, ipotizzato e non misurato.",
+          "locator": "gra-02",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-bilancio-temperatura-tempo"
+        },
+        {
+          "document": "bilancio_termico_it.html",
+          "kind": "image/svg+xml",
+          "description": "Temperature previste per 100 g di caffè inizialmente a 80 °C e 50 g di latte a 20 °C. La curva marrone scuro continua scende da 80 verso 60 °C; la curva beige marrone chiaro continua sale da 20 verso 60 °C. Tempo da 0 a 300 secondi, ipotizzato e non misurato.",
+          "locator": "gra-02",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-bilancio-temperatura-tempo"
         }
       ]
     },
@@ -4047,6 +4237,21 @@
       ]
     },
     {
+      "id": "asset-2a81d3567ef595118a11dbdcee28f06a926baa3d6853f440b8f3a53d13f09cc7",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "bilancio_termico_it.html",
+          "kind": "image/jpeg",
+          "description": "Tazza vuota e piattino bianchi con decorazioni nere e marroni, modello Hostess Tableware Black Velvet",
+          "locator": "fig-04",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-33bd094388b36762"
+        }
+      ]
+    },
+    {
       "id": "asset-2b4aef061453c1cc16d3aeac586e8800cadd45484c5b91c57f885c25d0b23a03",
       "kind": "image/jpeg",
       "uses": [
@@ -4073,6 +4278,21 @@
           "attribute": "data-still",
           "location": null,
           "credit_id": "credit-07b5b0917b36b148"
+        }
+      ]
+    },
+    {
+      "id": "asset-32cfc7be47336739b7df3242ada8ac9db0514cf8b93cee331bba0885e377efaa",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "bilancio_termico_it.html",
+          "kind": "image/jpeg",
+          "description": "Una mano versa latte da una lattiera nera nel caffè, su un piano di legno",
+          "locator": "fig-03",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-46d6f730aca173c4"
         }
       ]
     },
@@ -4170,6 +4390,15 @@
       "id": "asset-3add53e641fbc81da64da4bb254285e2831b52b029527bc0714e2b9610832ee6",
       "kind": "font/ttf",
       "uses": [
+        {
+          "document": "bilancio_termico_it.html",
+          "kind": "font/ttf",
+          "description": "Font incorporato",
+          "locator": null,
+          "attribute": "font-face",
+          "location": null,
+          "credit_id": "font-lexend"
+        },
         {
           "document": "conduzione_it.html",
           "kind": "font/ttf",
@@ -5157,6 +5386,45 @@
       ]
     },
     {
+      "id": "asset-86428fa3183e529c696a7206aab5596253e70d371256ebc806965309c6900a25",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "bilancio_termico_it.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "brand-logo",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        },
+        {
+          "document": "riferimenti/TEMA_DISPENSE.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "brand-logo",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-86750339ad05595da5b0dd3dc2f403c80685ec9159a7332d6df50c2456adce26",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "bilancio_termico_it.html",
+          "kind": "image/jpeg",
+          "description": "Le Déjeuner (1739): adulti e bambini attorno a una tavola con tazze e recipienti",
+          "locator": "cop-01",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-bb83593b4b1174cb"
+        }
+      ]
+    },
+    {
       "id": "asset-86d9aee90f0b782303e361f38f041308bb6f6577947a6d1587ff2ba317018a75",
       "kind": "image/jpeg",
       "uses": [
@@ -5736,6 +6004,15 @@
       "id": "asset-aa5e120d96e7db43b65ab35b00c11e5cbb76a78cac79f42892dd88a36f6ff18b",
       "kind": "svg",
       "uses": [
+        {
+          "document": "index.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "materia",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        },
         {
           "document": "index.html",
           "kind": "svg",
@@ -7100,6 +7377,21 @@
           "attribute": "src",
           "location": null,
           "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-f639ce191da7ece0d4eb44eeafb60ab417d025f27a073965d5e1ee0c7ad384c0",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "bilancio_termico_it.html",
+          "kind": "image/jpeg",
+          "description": "Tazza bianca con caffè nero, piattino e cucchiaino",
+          "locator": "fig-01",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-1552a88b686ede5c"
         }
       ]
     },

@@ -314,7 +314,7 @@ def main():
     template = (ROOT / 'riferimenti/TEMA_DISPENSE.html').read_text()
     template = re.sub(r'<!-- MODELLO CANONICO.*?-->', '<!-- Articolo autonomo dal tema canonico v9; testo approvato. -->',template,count=1,flags=re.S)
     template = template.replace('<title>Tema grafico delle dispense — modello riutilizzabile</title>', '<title>' + TITLE + ' — Materia Oscura</title>')
-    template = template.replace('name="version" content="v9"', 'name="version" content="v6"',1)
+    template = template.replace('name="version" content="v10"', 'name="version" content="v7"',1)
     template = template.replace('name="date" content="2026-10-18"', 'name="date" content="2026-10-19"',1)
     template = template.replace('Modello autonomo del tema grafico comune a tutti i capitoli futuri.', 'Energia interna, calore, capacità termica e calore specifico: perché il mare resta tiepido di notte.')
     template = template.replace('Nome dell’area tematica','Materia e calore').replace('Titolo dell’articolo',TITLE)
@@ -329,10 +329,10 @@ def main():
     navigation = ('<nav class="chapter-navigation" aria-label="Navigazione tra articoli">'
                   '<a rel="prev" href="https://rickymusu-bit.github.io/fisica/temperatura_equilibrio_termico_it.html">'
                   '<span>← Articolo precedente</span><small>Temperatura ed equilibrio termico</small></a>'
-                  '<a rel="next" href="https://rickymusu-bit.github.io/fisica/stati_della_materia.html">'
-                  '<span>Articolo successivo →</span><small>Stati della materia</small></a></nav>')
+                  '<a rel="next" href="https://rickymusu-bit.github.io/fisica/bilancio_termico_it.html">'
+                  '<span>Articolo successivo →</span><small>Il bilancio termico</small></a></nav>')
     template = template.replace('<!-- chapter-navigation:end -->',navigation+'<!-- chapter-navigation:end -->')
-    template = template.replace('Versione v9 · 19 ottobre 2026','Versione v6 · 19 ottobre 2026')
+    template = template.replace('Versione v10 — 19 ottobre 2026','Versione v7 — 19 ottobre 2026')
     template = template.replace('</body>',MOTION+'</body>')
     TARGET.write_text(template)
     register_sources()

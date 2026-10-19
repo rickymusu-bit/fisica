@@ -12,6 +12,8 @@ Prima di scrivere o rivedere il testo delle dispense leggi anche `riferimenti/ST
 
 Per impaginare o rivedere gli HTML applica automaticamente l’esatto tema grafico comune salvato nel modello autonomo `riferimenti/TEMA_DISPENSE.html`, già approvato, secondo A6 del master; non chiedere di scegliere nuovamente il template. Nei calcoli usa forma decimale leggibile e prefissi SI, riservando la notazione scientifica ai casi utili secondo A4; interpreta i risultati degli esercizi con i confronti concreti previsti da A5.
 
+Il punto centrato e le sue varianti sono riservati alla moltiplicazione matematica, compresi i prodotti di unità. Non usarli mai come separatori, nemmeno in grafici, legende, testi accessibili o fra versione e data. Applicare A4 del master e il tema v10.
+
 Per la temperatura usa sempre il simbolo **T maiuscolo**, anche con pedici (per esempio T_in e T_out), in formule, testo, grafici, schemi ed etichette; usa ΔT per la differenza di temperatura. La t minuscola e Δt restano per il tempo. Richiesta esplicita dell’utente del 18 ottobre 2026.
 
 Usa le note a piè di pagina soprattutto per alleggerire il testo: seleziona precisazioni brevi e utili, elimina ripetizioni di testo/didascalie, puntualizzazioni superflue e approfondimenti troppo tecnici, secondo A1. Mantieni le note collassabili, inizialmente chiuse, con richiami e ritorni cliccabili e versione/data separate nel piè di pagina, secondo A6.
@@ -38,10 +40,10 @@ I visuali devono conservare la stessa struttura su ogni dispositivo: non cambiar
 
 Per richiesta esplicita dell’utente del 18 ottobre 2026, ore 13:42 (Europe/Rome), non riportare mai in chat i testi integrali dei capitoli. Scrivi e aggiorna sempre le bozze nei file `lavorazione/<capitolo>/bozza.md` del repository, sul ramo dedicato. In chat presenta soltanto una sintesi delle modifiche, i punti da approvare e i collegamenti ai file effettivamente salvati. Questa richiesta prevale sull’alternativa di presentazione integrale in chat prevista da A6 e B1.1 del master; restano necessari approvazione delle bozze e via esplicito prima della realizzazione HTML. Non modificare main o pubblicazione senza approvazione.
 
-## Gestione dei crediti e delle licenze — tema v9
+## Gestione dei crediti e delle licenze — tema v10
 
 Per la richiesta esplicita corrente, migrare i crediti di tutti gli articoli HTML, compresi i sorgenti storici e tradotti: questa revisione circoscritta non li riammette alla pubblicazione. Il manifest di pubblicazione resta invariato.
 
-Applicare C1 del master: nessuna sezione finale visibile automatica per immagini o font. Fonte unica `risorse/crediti.json`; pagina generata `crediti.html`; accesso comune e snapshot incorporato offline del tema v9. Registrare metadati disponibili tramite gli attributi `data-credit-*` e `python3 scripts/credits.py --sync`, quindi eseguire `--check` e la build Pages. Riutilizzare le schede esistenti, conservare gli avvisi OFL di Lexend e rispettare le eccezioni delle singole licenze, anche accanto alla figura quando prescritto. Non eliminare riferimenti scientifici né inventare autorizzazioni. Le istruzioni operative e lo schema sono in `risorse/README.md`.
+Applicare C1 del master: nessuna sezione finale visibile automatica per immagini o font. Fonte unica `risorse/crediti.json`; pagina generata `crediti.html`; accesso comune e snapshot incorporato offline del tema v10. Registrare metadati disponibili tramite gli attributi `data-credit-*` e `python3 scripts/credits.py --sync`, quindi eseguire `--check` e la build Pages. Riutilizzare le schede esistenti, conservare gli avvisi OFL di Lexend e rispettare le eccezioni delle singole licenze, anche accanto alla figura quando prescritto. Non eliminare riferimenti scientifici né inventare autorizzazioni. Le istruzioni operative e lo schema sono in `risorse/README.md`.
 
-Il tema v9 usa un solo comando «Crediti e licenze», che apre i crediti incorporati del documento anche offline. Al suo interno «Crediti di tutti gli articoli» apre la pagina generale online. Questa revisione riguarda home, articoli ammessi e modello; i documenti esclusi conservano il componente storico.
+Il tema v10 usa un solo comando «Crediti e licenze», che apre i crediti incorporati del documento anche offline. Al suo interno «Crediti di tutti gli articoli» apre la pagina generale online. Questa revisione riguarda home, articoli ammessi e modello; i documenti esclusi conservano il componente storico.

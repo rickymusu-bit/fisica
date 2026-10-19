@@ -6,7 +6,7 @@ Il registro autorevole è `crediti.json`. `crediti.html`, i riquadri incorporati
 
 `documents` associa ciascun articolo alle schede e alla variante dell’avviso, con titolo e ancora stabili. `assets` deduplica le risorse effettivamente rilevate per SHA-256 dei byte incorporati, del codice SVG/canvas o dell’URL quando il file non è incorporato. Le occorrenze conservano articolo, descrizione, posizione e associazione alla scheda, se verificabile. L’inventario non implica una licenza. Comprende le anteprime di pausa/movimento ridotto e le immagini annidate nei documenti iframe. I file originali inutilizzati della lavorazione non diventano automaticamente risorse pubblicate.
 
-Per un nuovo articolo utilizzare il tema v9 e specificare i metadati disponibili sulla figura o sull’immagine:
+Per un nuovo articolo utilizzare il tema v10 e specificare i metadati disponibili sulla figura o sull’immagine:
 
 ```html
 <figure id="figura-1"
