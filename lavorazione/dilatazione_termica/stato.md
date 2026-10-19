@@ -1,12 +1,12 @@
 # Stato — La dilatazione termica
 
-Versione v3 — 19 ottobre 2026 (Europe/Rome).
+Versione v4 — 19 ottobre 2026 (Europe/Rome).
 
 ## Identità e fase
 
 - Quinto articolo del percorso introduttivo di termodinamica, area «Materia e calore».
 - Ramo dedicato: `termodinamica/dilatazione-termica`, derivato da main al commit `1a9b1b3d6abdf87656f19b22ec001db312808cec`.
-- Fase corrente: bozza testuale v1 salvata e da approvare; materiali visuali da ricevere.
+- Fase corrente: bozza testuale v2 salvata e da approvare; materiali visuali da ricevere.
 - Richiesta ricevuta: «Nel mio repo GitHub di fisica Procedi a creare il quinto argomento del piano».
 - Il piano v6 identifica il quinto argomento come La dilatazione termica e ne lascia espressamente sviluppo e visuali da concordare.
 
@@ -24,15 +24,15 @@ Richiesta successiva dell'utente: «Vorrei più che altro parlare delle varie ap
 
 Direzione esplicitamente richiesta: dare prevalenza alle applicazioni e conseguenze; includere l'anomalia dell'acqua. Breve teoria su dilatazione lineare e volumica; acqua liquida con densità massima intorno a 4 °C, distinta dall'espansione al congelamento. Nessuna trattazione delle leggi dei gas, del calore latente o degli sforzi quantitativi.
 
-Proposta applicativa v2: giunti dei ponti, termometro a liquido, termostato bimetallico, coperchio metallico, lago in inverno e danni da congelamento. Questi sei casi e l'impostazione della proposta v2 sono ora approvati con «Approvo».
+Applicazioni correnti: binari ferroviari, termometro a liquido, termostato bimetallico, coperchio metallico, lago in inverno e danni da congelamento. Questi sei casi e l'impostazione della proposta v2 sono ora approvati con «Approvo».
 
 ## Visuali e simulazioni
 
-[Proposta v2](visuali.md): copertina esclusiva e sei immagini pertinenti ai casi proposti; grafico del volume dell'acqua con minimo vicino a 4 °C con funzione concordata, dati o originale da ricevere e documentare. Ritirata la richiesta iniziale degli apparati di laboratorio. Nessun file ricevuto o scelto; nessuna immagine cercata, generata o elaborata. Nessuna simulazione richiesta o programmata.
+[Visuali correnti](visuali.md): copertina esclusiva e sei immagini pertinenti ai casi proposti; grafico del volume dell'acqua con minimo vicino a 4 °C con funzione concordata, dati o originale da ricevere e documentare. Ritirata la richiesta iniziale degli apparati di laboratorio. Nessun file ricevuto o scelto; nessuna immagine cercata, generata o elaborata. Nessuna simulazione richiesta o programmata.
 
 ## Bozza e approvazioni effettive
 
-L'utente ha risposto «Approvo» alla proposta v2: orientamento, sei casi e funzioni delle visuali concordati. Nessun file originale delle immagini ancora scelto o ricevuto; nessun permesso di ricerca o generazione dedotto. Preparata [bozza.md](bozza.md) v1 con segnaposto per le visuali concordate, didascalie proposte, formule interpretate, 11 domande finali senza soluzioni e crediti di servizio. La bozza è da approvare; nessun via all'HTML o alla pubblicazione ricevuto.
+L'utente ha risposto «Approvo» alla proposta v2: orientamento, sei casi e funzioni delle visuali concordati. Nessun file originale delle immagini ancora scelto o ricevuto; nessun permesso di ricerca o generazione dedotto. Preparata [bozza.md](bozza.md) v2 con segnaposto per le visuali concordate, didascalie proposte, formule interpretate, 11 domande finali senza soluzioni e crediti di servizio. La bozza è da approvare; nessun via all'HTML o alla pubblicazione ricevuto.
 
 ## Lavoro completato e verifiche
 
@@ -42,4 +42,8 @@ Aggiornata la proposta sulla base della nuova richiesta. Controllate la distinzi
 
 ## Punti aperti e prossima operazione
 
-Consegna della bozza per correzioni o approvazione; ricezione dei file o collegamenti per COP-01, FIG-01–FIG-06 e il materiale di partenza di GRA-01. Le funzioni e i casi sono approvati: non chiedere nuovamente l'approvazione dello stesso piano. Verificare gli originali e i diritti, adattare didascalie e spiegazioni soltanto se i materiali lo richiedono. Dopo l'approvazione della bozza presentare stima ripartita e raccogliere il via esplicito all'HTML. Main e pubblicazione invariati.
+Consegna della bozza per correzioni o approvazione; ricezione dei file o collegamenti per COP-01, FIG-01–FIG-07 e il materiale di partenza di GRA-01. Le funzioni e i casi sono approvati: non chiedere nuovamente l'approvazione dello stesso piano. Verificare gli originali e i diritti, adattare didascalie e spiegazioni soltanto se i materiali lo richiedono. Dopo l'approvazione della bozza presentare stima ripartita e raccogliere il via esplicito all'HTML. Main e pubblicazione invariati.
+
+## Correzione richiesta e applicata
+
+L'utente chiede di sostituire il ponte nelle applicazioni con i binari ferroviari. Bozza v2: nuova prima applicazione su binari con giunti e rotaie saldate continue, relativi vincoli e rischio di deformazione laterale; aggiornata domanda 3. Ponte conservato soltanto nella copertina e nell'introduzione teorica, con FIG-01 non più richiamata nelle applicazioni. Nuovo segnaposto FIG-07 per il binario con giunto; file da ricevere. Consultata la fonte tecnica primaria Network Rail, Buckled rail, aggiunta ai crediti di servizio. Nessuna ricerca di immagini effettuata. Correzione circoscritta già autorizzata dalla richiesta; approvazione della bozza complessiva e via all'HTML restano da ricevere.
