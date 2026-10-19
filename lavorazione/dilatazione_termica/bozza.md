@@ -1,6 +1,6 @@
 # La dilatazione termica
 
-Bozza v1 — 19 ottobre 2026 (Europe/Rome).
+Bozza v2 — 19 ottobre 2026 (Europe/Rome).
 Testo da approvare. Le immagini sono segnaposto delle funzioni concordate, non materiali già selezionati. Le didascalie saranno controllate sui file effettivamente ricevuti.
 
 [IMMAGINE COP-01 — Ponte; immagine esclusiva di copertina.]
@@ -12,7 +12,7 @@ Un ponte resta nello stesso posto per anni, ma le sue dimensioni non rimangono e
 
 Il fenomeno si chiama **dilatazione termica**. Nei materiali che si comportano nel modo più comune, il riscaldamento aumenta la distanza media fra le particelle: non sono le particelle a diventare più grandi. Nel solido continuano a oscillare attorno alle loro posizioni, ma la loro distanza media può cambiare. Su un corpo esteso, tanti piccoli cambiamenti si sommano e diventano un allungamento o un aumento di volume.
 
-[IMMAGINE FIG-01 — Dettaglio del giunto di un ponte, da richiamare anche nella prima applicazione; una sola figura, senza duplicarla.]
+[IMMAGINE FIG-01 — Dettaglio del giunto di un ponte, soltanto per l'introduzione teorica.]
 Didascalia proposta: Il giunto permette alle parti della struttura di muoversi entro lo spazio previsto dal progetto.
 
 Per prevedere un allungamento servono tre informazioni: quanto è lungo inizialmente il corpo, di quanto cambia la sua temperatura e di quale materiale è fatto. La **legge della dilatazione lineare** le mette in relazione:[1]
@@ -40,11 +40,14 @@ Il comportamento dipende dai legami fra le molecole, che favoriscono organizzazi
 
 ## Applicazioni
 
-### Un ponte deve potersi muovere
+### Quando si scaldano i binari
 
-Torniamo al giunto della figura. Se le parti del ponte fossero obbligate a mantenere sempre la stessa distanza, l'allungamento dovuto al riscaldamento sarebbe ostacolato. Nel materiale nascerebbero sollecitazioni che, se eccessive, potrebbero produrre deformazioni o danni.
+[IMMAGINE FIG-07 — Binario ferroviario con giunto e spazio fra le estremità delle rotaie ben visibile; immagine distinta dal ponte.]
+Didascalia proposta: Nei binari con giunti, lo spazio fra le estremità delle rotaie permette di accompagnarne le variazioni di lunghezza.
 
-Giunti e appoggi sono progettati per consentire i movimenti previsti e sostenere la struttura. Lo spazio non è quindi un difetto da eliminare: ha una funzione. Per dimensionarlo conta anche la lunghezza coinvolta, perché a parità di materiale e ΔT una parte più lunga tende ad allungarsi di più.
+Le rotaie d'acciaio si riscaldano al Sole e tendono ad allungarsi. Nei binari formati da tratti collegati con giunti, gli spazi fra le estremità consentono una parte di questo movimento: quando le rotaie si allungano, gli spazi si riducono. La variazione dipende dalla lunghezza iniziale, dal materiale e dalla variazione di temperatura.
+
+Molte linee usano invece rotaie saldate continue. Qui la dilatazione è in gran parte ostacolata dai fissaggi alle traverse e dalla resistenza della massicciata, lo strato di pietre che sostiene il binario. Il riscaldamento può quindi far aumentare le forze di compressione nelle rotaie. Posa e manutenzione devono tenerne conto: se la compressione supera la capacità del binario di restare stabile, questo può deformarsi lateralmente.
 
 ### Trasformare un volume in una temperatura
 
@@ -95,7 +98,7 @@ La rottura non va attribuita alla sola discesa di temperatura. Conta l'aumento d
 
 1. Due parti dello stesso materiale subiscono la stessa variazione di temperatura. Una è lunga il doppio dell'altra. Quale variazione di lunghezza prevede il modello per ciascuna?
 2. Vero o falso? «Quando un solido si dilata, le sue particelle diventano più grandi». Motiva.
-3. Perché impedire completamente i movimenti termici di una struttura può creare problemi?
+3. Nei binari con giunti, che cosa accade agli spazi fra le rotaie quando queste si riscaldano? Perché anche le rotaie saldate continue richiedono di considerare la temperatura?
 4. Nel termometro a liquido, quale cambiamento rende visibile il capillare? Perché bisogna considerare anche il vetro?
 5. Una lamina è formata da due metalli con uguale dilatazione nelle condizioni considerate. Ti aspetti lo stesso incurvamento termico di una lamina con materiali diversi? Spiega.
 6. Perché riscaldare un coperchio può facilitarne l'apertura, ma non garantisce sempre il risultato?
@@ -119,4 +122,6 @@ Testo originale. Fonti consultate per controllo dei principi; trasferire i rifer
 - OpenStax, College Physics 2e, §13.2, Thermal Expansion of Solids and Liquids: https://openstax.org/books/college-physics-2e/pages/13-2-thermal-expansion-of-solids-and-liquids . Riferimento per leggi e principi di dilatazione; nessuna immagine ripresa.
 - U.S. Geological Survey, Water Science School, Water Density: https://www.usgs.gov/water-science-school/science/water-density . Controllo di densità massima intorno a 4 °C, minore densità del ghiaccio e conseguenze nei laghi. Nessuna tabella numerica o immagine ripresa.
 
-Nessuna licenza di immagine ancora verificata: COP-01, FIG-01–FIG-06 e il materiale di partenza per GRA-01 sono da ricevere. Le didascalie e le descrizioni saranno allineate agli originali. Il grafico non è stato realizzato e non contiene dati inventati.
+- Network Rail, Buckled rail: https://www.networkrail.co.uk/rail-travel/delays-explained/buckled-rail-and-summer-heat/ . Controllo delle conseguenze del riscaldamento e della gestione delle rotaie saldate continue; nessuna immagine ripresa.
+
+Nessuna licenza di immagine ancora verificata: COP-01, FIG-01–FIG-07 e il materiale di partenza per GRA-01 sono da ricevere. Le didascalie e le descrizioni saranno allineate agli originali. Il grafico non è stato realizzato e non contiene dati inventati.
