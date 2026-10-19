@@ -1,6 +1,6 @@
 # Stato — Temperatura ed equilibrio termico
 
-Versione v8 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
+Versione v9 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
 
 ## Ambito e riferimenti
 
@@ -79,3 +79,10 @@ Attribuzione MikeRun (Michael A. Rundel), CC BY-SA 4.0; traduzione soggetta alla
 Confronto XML superato per geometria e numeri; anteprime dell’originale e della traduzione ispezionate, tutte le etichette entro i bordi. Prove mirate a 1280/390 px: caricamento SVG offline, ingrandimento canonico, scorrimento a 900 px, note e crediti, ancore univoche e nessun overflow/errore JavaScript. CSS e script comuni ancora identici al modello. Nuove anteprime complete e della figura, report verifiche-scale.json. Check crediti, build e diff superati. Nessuna modifica al manifest, al catalogo o agli altri articoli.
 
 Dimensione corrente HTML v2: 1912047 byte. Salvataggio e aggiornamento nella stessa PR #37; nessuna integrazione in main o pubblicazione autorizzata.
+
+
+## Pubblicazione autorizzata
+
+L’utente ha approvato il risultato con «Ok pubblica»: autorizzati integrazione della PR #37 in main, aggiornamento del catalogo e pubblicazione GitHub Pages. Articolo HTML v2 invariato nel contenuto; inserito al secondo posto di Materia e calore. Catalogo e manifest passano a sette articoli. Navigazione reciproca: sistemi termodinamici → temperatura ed equilibrio termico → Stati della materia. Sistemi termodinamici v9 e Stati della materia v19 per il solo collegamento; home v20. Articoli sospesi conservati invariati.
+
+Build, anteprime del catalogo e controllo della navigazione precedono l’integrazione. Esito finale della pubblicazione e verifica dell’URL pubblico registrati nella PR dopo il rilascio.
