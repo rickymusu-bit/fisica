@@ -72,5 +72,25 @@
     "rights": "Public domain; PD-Art; Public Domain Mark 1.0",
     "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
     "changes": "Nessuna; versione a 960 px scelta dall’utente."
+  },
+  {
+    "file": "copertina-boucher.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Fran%C3%A7ois_Boucher_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    "bytes": 282712,
+    "dimensions": [
+      1576,
+      1942
+    ],
+    "sha256": "86750339ad05595da5b0dd3dc2f403c80685ec9159a7332d6df50c2456adce26",
+    "author": "François Boucher",
+    "title": "Le Déjeuner (La colazione / Morning Coffee)",
+    "year": 1739,
+    "collection": "Musée du Louvre, RF 926",
+    "source": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Boucher_002.jpg",
+    "provenance": "The Yorck Project (2002), 10.000 Meisterwerke der Malerei, DIRECTMEDIA Publishing GmbH",
+    "rights": "Public domain; PD-Art (Yorck Project); Public Domain Mark 1.0",
+    "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "source_notice": "La fonte distingue opera e riproduzione in pubblico dominio dal copyright della compilazione Yorck Project, Zenodot Verlagsgesellschaft mbH, distribuita sotto GNU FDL.",
+    "changes": "Nessuna; file originale indicato dall’utente conservato integralmente."
   }
 ]
