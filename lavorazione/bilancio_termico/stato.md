@@ -1,10 +1,10 @@
 # Stato — Il bilancio termico
 
-Versione v11 · 19 ottobre 2026, ore 22:23 (Europe/Rome).
+Versione v12 · 19 ottobre 2026, ore 22:26 (Europe/Rome).
 
 ## Risultato corrente
 
-**HTML autonomo v3 completato e verificato**, dopo il via «Ok vai». File ufficiale proposto: `bilancio_termico_it.html`; copia identica in [bozza.html](bozza.html). Tema canonico v9, master v63. Ramo `termodinamica/bilancio-termico`, allineato a main per riutilizzare il tema corrente; main non modificato e pubblicazione non autorizzata.
+**HTML autonomo v4 completato e verificato**, dopo il via «Ok vai». File ufficiale proposto: `bilancio_termico_it.html`; copia identica in [bozza.html](bozza.html). Tema canonico v9, master v63. Ramo `termodinamica/bilancio-termico`, allineato a main per riutilizzare il tema corrente; main non modificato e pubblicazione non autorizzata.
 
 Articolo 4 del [percorso introduttivo](../percorso_termodinamica.md): energia ceduta e assorbita, convenzione dei segni, temperatura finale ed eventuale contributo della tazza. Esclusi cambiamenti di stato, calore latente, dilatazione e nuovi meccanismi di trasmissione. Caffè e latte con calori specifici approssimati a quello dell’acqua, come richiesto dall’utente.
 
@@ -77,3 +77,9 @@ Originale scelto scaricato, osservato e incorporato integralmente senza ritagli,
 Richiesta esplicita: «Sotto la didascalia del quadro, parla del quadro». Aggiunto un paragrafo distinto sotto la didascalia della copertina, nello stesso figcaption con due paragrafi e gli stili canonici, senza nuovi riquadri o CSS. Presenta Le Déjeuner (La colazione), François Boucher, 1739, la scena domestica con adulti e bambini, luce, arredi e collocazione al Louvre. Autore, titolo, data e museo verificati sulla scheda ufficiale https://collections.louvre.fr/ark:/53355/cl010059924 ; descrizione visiva dall’opera già osservata. Fonte collegata dalla scheda del quadro nel registro unico e nei crediti offline. Nessuna attribuzione di identità alle persone o composizione delle bevande.
 
 Testo corrente bozza.md v7; HTML e copia di lavorazione v3. Confronto del testo dell’article e SHA-256 del grafico conferma che la spiegazione di fisica, domande, formule e curve non sono cambiate. Tema CSS e script invariati. Controllo statico e prove browser offline a 1280/390 px: paragrafo sotto la didascalia, nessun overflow o errore JavaScript. Report verifiche-quadro.json; anteprima-quadro-1280.png e anteprima-quadro-390.png. Check crediti, build Pages e diff superati. Salvataggio nella stessa PR #42, senza pubblicazione.
+
+## Revisione HTML v4 — didascalia breve del quadro
+
+L’utente chiarisce che la descrizione del quadro doveva sostituire la didascalia originale, non seguirla, ed essere più breve. Eliminati sia il riferimento ridondante agli scambi di calore nella didascalia sia il lungo paragrafo aggiunto. La copertina ha ora una sola didascalia di due frasi: Le Déjeuner (La colazione), Boucher, 1739, adulti e bambini attorno alla tavola e collocazione al Louvre. Nessun testo aggiuntivo sotto la didascalia. Didascalia centrata sulla figura, secondo la correzione dell’utente e C3.
+
+Bozza testuale v8, HTML e copia autonoma v4. Semplificato il generatore rimuovendo la gestione del paragrafo separato. Fonte museale conservata nei crediti. Testo didattico e grafico confrontati e invariati; modello, formule, domande e fotografie invariati. Anteprime e report del quadro aggiornati a 1280/390 px, nessun overflow o errore. Stessa PR #42, nessuna pubblicazione.

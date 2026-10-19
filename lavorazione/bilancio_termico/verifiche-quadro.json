@@ -1,17 +1,16 @@
 {
   "testo_didattico_e_grafico_invariati": true,
-  "presentazione_sotto_didascalia": true,
+  "didascalia_unica_breve": true,
+  "parole_didascalia": 26,
   "fonte": "https://collections.louvre.fr/ark:/53355/cl010059924",
   "viste": [
     {
       "larghezza": 1280,
-      "paragrafo_sotto_didascalia": true,
       "overflow": false,
       "errori_js": []
     },
     {
       "larghezza": 390,
-      "paragrafo_sotto_didascalia": true,
       "overflow": false,
       "errori_js": []
     }

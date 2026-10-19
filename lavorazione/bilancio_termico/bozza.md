@@ -1,12 +1,10 @@
 # Il bilancio termico
 
-<!-- Bozza v7 · 19 ottobre 2026, ore 22:21 (Europe/Rome). Testo v4 approvato con «Ok vai»; aggiunta del grafico temperatura–tempo richiesta successivamente. -->
+<!-- Bozza v8 · 19 ottobre 2026, ore 22:25 (Europe/Rome). Testo v4 approvato con «Ok vai»; aggiunta del grafico temperatura–tempo richiesta successivamente. -->
 
 [IMMAGINE COP-01 — Scena della colazione nel dipinto Le Déjeuner di François Boucher; risorse/copertina-boucher.jpg. Solo copertina, non ripetuta nel corpo.]
 
-Didascalia: Una scena di colazione, con tazze e recipienti sulla tavola. Quando hanno temperature diverse, bevande e recipienti possono scambiare energia.
-
-Sul quadro: Nel dipinto **Le Déjeuner (La colazione)**, realizzato nel **1739**, **François Boucher** raffigura un momento di vita domestica. Adulti e bambini sono raccolti attorno a un piccolo tavolo, fra tazze, recipienti e oggetti quotidiani. La luce proveniente dalla finestra mette in risalto i volti e gli abiti, mentre gli arredi e lo specchio descrivono l’ambiente della casa. L’opera è oggi conservata al **Museo del Louvre**, a Parigi.
+Didascalia: In **Le Déjeuner (La colazione)**, dipinto da **François Boucher** nel **1739**, adulti e bambini si raccolgono attorno al tavolo della colazione. L’opera è conservata al Louvre.
 
 ## Quanto si raffredda il caffè?
 
