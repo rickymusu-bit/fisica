@@ -1,8 +1,8 @@
 # Proposta — Energia interna, calore e calore specifico
 
-Versione v4 · 19 ottobre 2026 (Europe/Rome).
+Versione v5 · 19 ottobre 2026 (Europe/Rome).
 
-Articolo 3 del [percorso approvato](../percorso_termodinamica.md). Con «Vai», dopo la scelta dell’apertura sulla spiaggia, l’utente ha autorizzato la stesura secondo l’impostazione corrente. Bozza completa v1 in [bozza.md](bozza.md); immagini specifiche ancora da fornire/scegliere. Nessun via all’HTML dedotto.
+Articolo 3 del [percorso approvato](../percorso_termodinamica.md). Con «Vai», dopo la scelta dell’apertura sulla spiaggia, l’utente ha autorizzato la stesura secondo l’impostazione corrente. Bozza completa v2 in [bozza.md](bozza.md); immagini specifiche ancora da fornire/scegliere. Nessun via all’HTML dedotto.
 
 ## Domanda e percorso proposti
 
@@ -30,7 +30,7 @@ Non anticipare la temperatura finale di una miscela, il contributo del recipient
 | FIG-01 | Una fotografia della battigia di sera o di notte, con mare e sabbia riconoscibili, distinta dalla copertina. | Apertura: rendere riconoscibile la situazione del mare ancora tiepido e della sabbia raffreddata. La foto illustra il contesto, non misura le temperature; non presentare luoghi diversi come la stessa spiaggia. | Nuova immagine da fornire/scegliere, distinta dalla copertina. |
 | FIG-02 | Un’illustrazione microscopica già esistente che renda riconoscibili moto e interazioni delle particelle, preferibilmente con confronto fra due temperature dello stesso materiale. | Dopo l’apertura: collegare osservazione e modello; chiarire che il modello non è una fotografia delle particelle. Non rappresentare calore come sostanza contenuta nel corpo. | Immagine da fornire/scegliere. Non ricostruirla o animarla automaticamente. |
 | GRA-01 | Grafico di T in funzione del calore assorbito Q per masse uguali di acqua e sabbia quarzosa del riferimento, con stessa T iniziale. Valori di c e condizioni in bozza.md; il grafico mostra previsioni del modello, non misure della spiaggia. | Accanto alla lettura di Q = m · c · ΔT. Dati dichiarati come previsioni del modello, non misure sperimentali. | Previsto nella bozza; dati e specifiche in bozza.md, non ancora realizzato. |
-| TAB-01 | Tabella di calore specifico di acqua pura liquida a 20 °C e sabbia quarzosa indicativa. Due righe, valori e fonte in bozza.md; non estendere il valore a qualsiasi sabbia. | Chiarire che masse uguali di materiali diversi richiedono energie diverse per lo stesso ΔT. | Tabella presente in bozza.md: acqua pura a 20 °C, 4,18 · 10³ J/(kg · K); sabbia quarzosa indicativa, 8,3 · 10² J/(kg · K). Fonte Engineering ToolBox consultata; limiti espliciti in nota. |
+| TAB-01 | Tabella di dieci sostanze/materiali comuni, raggruppati in solidi, liquidi e gas: rame, ferro, sabbia quarzosa, alluminio; olio d’oliva, etanolo, acqua; ossigeno, aria secca, azoto. Colonne stato/materiale/calore specifico, riga acqua evidenziata anche tipograficamente. Valori a pressione costante e limiti in bozza.md. | Chiarire che masse uguali di materiali diversi richiedono energie diverse per lo stesso ΔT. | Tabella ampliata su richiesta esplicita dell’utente; fonte Engineering ToolBox verificata. Note su sabbia e condizioni dei gas. Collegata alla spiegazione dei legami a idrogeno; domanda 7 aggiornata. |
 
 Se l’immagine microscopica scelta contiene solo moto e non interazioni, la didascalia ne espliciterà la portata e il testo introdurrà separatamente l’energia delle interazioni. Non usare una figura limitata al gas come descrizione indistinta dei solidi e dei liquidi.
 
@@ -44,16 +44,20 @@ La bevanda con ghiaccio dell’articolo 2 introdurrebbe un cambiamento di stato,
 
 ## Domande finali previste
 
-Otto domande formulate integralmente nella bozza v1; argomenti: distinguere calore ed energia interna; spiegare perché il mare può restare tiepido mentre la sabbia si raffredda, distinguendo il ruolo del calore specifico da quello della massa d’acqua coinvolta; motivare un vero/falso sul calore “contenuto”; prevedere l’effetto del raddoppio della massa; distinguere C da c; leggere le due curve del grafico; confrontare materiali della tabella; interpretare il segno di ΔT e di Q per un corpo che si raffredda. Nessuna soluzione o prova con punteggi.
+Otto domande formulate integralmente nella bozza v2; argomenti: distinguere calore ed energia interna; spiegare perché il mare può restare tiepido mentre la sabbia si raffredda, distinguendo il ruolo del calore specifico da quello della massa d’acqua coinvolta; motivare un vero/falso sul calore “contenuto”; prevedere l’effetto del raddoppio della massa; distinguere C da c; leggere le due curve del grafico; confrontare materiali della tabella; interpretare il segno di ΔT e di Q per un corpo che si raffredda. Nessuna soluzione o prova con punteggi.
 
 ## Scelta ricevuta e seguito
 
 L’utente ha scelto esplicitamente la domanda «perché d’estate il mare resta tiepido di notte anche se la sabbia è fredda», sostituendo la precedente apertura sul deserto. Il collegamento al calore specifico resta centrale. Le immagini specifiche restano da scegliere. Le cinque funzioni visuali sono state portate nella bozza dopo «Vai»; l’utente fornisce i tre file o collegamenti delle immagini COP-01, FIG-01 e FIG-02. Eventuali idee diverse possono sostituire queste proposte prima della stesura. Se non trova un’immagine, concordare una ricerca specifica secondo C2 del master; non avviarla autonomamente.
 
-Bozza completa v1 scritta in `bozza.md`, con segnaposto, formule spiegate e otto domande formulate; da presentare per approvazione. Dopo l’approvazione del testo: comunicare la stima totale ripartita e raccogliere il via esplicito all’HTML. Tema comune v8 già approvato, da leggere e riusare esattamente prima dell’impaginazione. Nessuna scelta del tema da riaprire.
+Bozza completa v2 scritta in `bozza.md`, con segnaposto, formule spiegate e otto domande formulate; da presentare per approvazione. Dopo l’approvazione del testo: comunicare la stima totale ripartita e raccogliere il via esplicito all’HTML. Tema comune v8 già approvato, da leggere e riusare esattamente prima dell’impaginazione. Nessuna scelta del tema da riaprire.
 
 ## Stesura autorizzata e verificata
 
 «Vai» ricevuto dopo la scelta della domanda sul mare: avviata e completata la bozza testuale con segnaposto, non l’HTML. I passaggi precedenti sul concordare l’impostazione sono superati da questa autorizzazione; la scelta dei file resta aperta. Fonte dei valori consultata: https://www.engineeringtoolbox.com/specific-heat-capacity-d_391.html ; acqua pura a 20 °C, 4182 J/(kg · K), arrotondata a 4,18 · 10³; “Sand, quartz”, 830 J/(kg · K), mantenuta come valore indicativo con condizioni non precisate dalla fonte. Non dichiarata come dato esatto per sabbia asciutta di una spiaggia. Grafico previsto con sabbia quarzosa del riferimento; non misura ambientale.
 
-Prossimo passo corrente: revisione della bozza v1 e ricezione delle tre immagini. Non chiedere di nuovo il via alla stesura. Prima dell’HTML occorrono testo approvato, materiali scelti e via dopo stima ripartita secondo il master.
+Prossimo passo corrente: revisione della bozza v2 e ricezione delle tre immagini. Non chiedere di nuovo il via alla stesura. Prima dell’HTML occorrono testo approvato, materiali scelti e via dopo stima ripartita secondo il master.
+
+## Revisione richiesta — tabella e particolarità dell’acqua
+
+Richiesta: includere valori di sostanze comuni solide, liquide e gassose per confrontarle e spiegare la particolarità dell’acqua. Eseguita nella bozza v2: dieci righe, acqua evidenziata, confronto a parità di massa e spiegazione breve della rete di legami a idrogeno tra molecole, distinta dai legami interni alla molecola. Fonte concettuale consultata: https://openstax.org/books/biology-2e/pages/2-2-water . Nessuna immagine nuova cercata o generata; la tabella accompagna la spiegazione. Conservato il grafico a due materiali, con valori di acqua e sabbia invariati. Per i gas indicata la pressione costante, distinta dal riscaldamento a volume fisso in nota.

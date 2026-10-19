@@ -1,6 +1,6 @@
 # Energia interna, calore e calore specifico
 
-Versione v1 · 19 ottobre 2026 (Europe/Rome).
+Versione v2 · 19 ottobre 2026 (Europe/Rome).
 Bozza testuale per revisione; i segnaposto indicano le visuali da inserire nell’HTML dopo la scelta dei file.
 
 [COP-01 — Fotografia di una spiaggia estiva con mare e sabbia visibili, distinta dalla fotografia interna.]
@@ -57,16 +57,28 @@ Se il corpo ha capacità termica doppia, richiede il doppio del calore per lo st
 
 La capacità termica riguarda il corpo intero. Per confrontare i materiali dobbiamo invece riferirci alla stessa massa. Il **calore specifico**, indicato con \(c\) minuscola, è il calore necessario per aumentare di un kelvin la temperatura di un chilogrammo di materiale. Si misura in J/(kg · K).
 
-[TAB-01 — Tabella HTML dei calori specifici; stessa struttura su tutti i dispositivi.]
+[TAB-01 — Tabella HTML dei calori specifici di solidi, liquidi e gas, raggruppati per stato. Evidenziare la riga dell’acqua senza affidarsi soltanto al colore; stessa struttura su tutti i dispositivi.]
 
-| Materiale | Calore specifico \(c\), in J/(kg · K) |
-| --- | ---: |
-| Acqua pura liquida, a 20 °C | \(4{,}18 \cdot 10^3\) |
-| Sabbia quarzosa, valore indicativo[^3] | \(8{,}3 \cdot 10^2\) |
+| Stato | Sostanza o materiale | Calore specifico \(c\), in J/(kg · K)[^4] |
+| --- | --- | ---: |
+| Solido | Rame | \(3{,}85 \cdot 10^2\) |
+| Solido | Ferro | \(4{,}49 \cdot 10^2\) |
+| Solido | Sabbia quarzosa[^3] | \(8{,}3 \cdot 10^2\) |
+| Solido | Alluminio | \(8{,}97 \cdot 10^2\) |
+| Liquido | Olio d’oliva | \(1{,}79 \cdot 10^3\) |
+| Liquido | Alcol etilico (etanolo) | \(2{,}44 \cdot 10^3\) |
+| **Liquido** | **Acqua pura, a 20 °C** | **\(4{,}18 \cdot 10^3\)** |
+| Gas | Ossigeno | \(9{,}18 \cdot 10^2\) |
+| Gas | Aria secca | \(1{,}01 \cdot 10^3\) |
+| Gas | Azoto | \(1{,}04 \cdot 10^3\) |
 
-Didascalia: A parità di massa, l’acqua richiede più energia della sabbia quarzosa per ottenere lo stesso aumento di temperatura.
+Didascalia: Il confronto riguarda masse uguali. Tra i materiali riportati, l’acqua liquida richiede più energia per aumentare la temperatura dello stesso numero di gradi.
 
-I valori della tabella sono arrotondati dai dati di [Engineering ToolBox, Specific Heat of Common Materials](https://www.engineeringtoolbox.com/specific-heat-capacity-d_391.html). Il valore dell’acqua si riferisce ad acqua pura: serve come riferimento per il confronto, senza attribuire lo stesso valore esatto a ogni acqua marina.
+I valori sono arrotondati dai dati di [Engineering ToolBox, Specific Heat of Common Materials](https://www.engineeringtoolbox.com/specific-heat-capacity-d_391.html). La tabella mette a confronto materiali comuni: l’acqua risalta non soltanto rispetto ai metalli e alla sabbia, ma anche rispetto agli altri liquidi e ai gas elencati. Il valore dell’acqua si riferisce ad acqua pura a 20 °C, usata come riferimento senza attribuire lo stesso valore esatto a ogni acqua marina.
+
+Da dove viene questa particolarità? Le molecole d’acqua si attraggono attraverso interazioni chiamate **legami a idrogeno**. Sono legami tra molecole vicine, diversi da quelli che tengono uniti idrogeno e ossigeno dentro ciascuna molecola. Nell’acqua liquida formano una rete in continuo riassetto.
+
+Quando l’acqua si scalda, l’energia assorbita non aumenta soltanto il moto delle molecole: una parte modifica la rete delle loro interazioni. Per ottenere lo stesso aumento di temperatura occorre quindi trasferire molta energia. Questo contributo dei legami a idrogeno al calore specifico elevato è descritto anche in [OpenStax, Biology 2e, «Water»](https://openstax.org/books/biology-2e/pages/2-2-water). È il collegamento tra l’energia interna microscopica e la capacità del mare di attenuare i cambiamenti di temperatura.
 
 La distinzione tra le due grandezze si esprime così:
 
@@ -118,13 +130,16 @@ Ecco perché, dopo il tramonto, possiamo trovare ancora tiepido il mare mentre l
 4. Raddoppiamo la massa di uno stesso materiale e vogliamo ottenere lo stesso aumento di temperatura. Il calore necessario si dimezza, resta uguale o raddoppia? Spiega usando la formula.
 5. Dividendo una quantità d’acqua in due parti uguali, che cosa accade alla capacità termica di ciascuna parte rispetto a quella iniziale? E al calore specifico?
 6. Nel grafico, quale materiale presenta la retta più inclinata? Che cosa significa questa inclinazione quando confrontiamo la stessa energia assorbita?
-7. Osserva la tabella. Per masse uguali e per lo stesso aumento di temperatura, quale dei due materiali richiede più calore? Che cosa cambierebbe se confrontassimo masse diverse?
+7. Osserva la tabella: per masse uguali e lo stesso aumento di temperatura, quale materiale richiede più calore? Confronta l’acqua con un solido, un altro liquido e un gas della tabella. Quale caratteristica delle interazioni tra le molecole d’acqua contribuisce a spiegare il suo valore elevato?
 8. Un corpo cede calore e si raffredda. Quali sono i segni di \(Q\) e di \(\Delta T\)? Perché un valore negativo di \(Q\) non significa che il corpo possieda un’energia interna “sotto zero”?
 
 ## Note
 
 [^1]: Nel confronto consideriamo acqua nello stesso stato e nelle stesse condizioni, con lo stesso riferimento per l’energia interna. Non si può ordinare l’energia interna di materiali diversi guardando soltanto la temperatura.
 
-[^2]: Usiamo queste relazioni per riscaldamento o raffreddamento senza cambiamento di stato, con capacità termica e calore specifico approssimativamente costanti nell’intervallo considerato e senza un contributo rilevante del lavoro.
+[^2]: Usiamo queste relazioni per riscaldamento o raffreddamento senza cambiamento di stato, con capacità termica e calore specifico approssimativamente costanti nell’intervallo considerato e nelle condizioni per cui è definito il calore specifico usato. Nel confronto tra acqua e sabbia trascuriamo il contributo del lavoro.
 
 [^3]: La tabella della fonte riporta “Sand, quartz” senza precisare temperatura di riferimento o contenuto d’acqua. Il valore è indicativo per quel materiale, non una misura della spiaggia fotografata né una costante di ogni sabbia. Composizione e umidità ne modificano il comportamento.
+
+
+[^4]: I valori della tabella sono a pressione costante. Per i gas questa condizione è essenziale: scaldare un gas mantenendone fisso il volume richiede un diverso calore specifico. Le temperature di riferimento non sono precisate dalla fonte per tutte le voci; i valori servono a un confronto indicativo.
