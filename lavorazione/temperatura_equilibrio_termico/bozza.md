@@ -1,6 +1,6 @@
 # Temperatura ed equilibrio termico
 
-Bozza v3 · 19 ottobre 2026. Bozza v1 approvata; esempi adattati alle immagini scelte e copertina sostituita su richiesta dell’utente. Segnaposto collegati ai file salvati; HTML non ancora realizzato.
+Bozza v4 · 19 ottobre 2026. Bozza v1 approvata; esempi adattati alle immagini scelte e copertina sostituita su richiesta dell’utente. Segnaposto collegati ai file salvati; HTML non ancora realizzato.
 
 [IMMAGINE COP-01 — Fotografia di un termometro galileiano con ampolle colorate nel liquido. File scelto: risorse/copertina-termometro-galileiano.jpg. Conservare l’immagine completa e le proporzioni verticali; non ripeterla nel corpo.]
 
@@ -68,6 +68,10 @@ Qui \(T/\mathrm{K}\) indica il valore numerico della temperatura espresso in kel
 Didascalia proposta: Ogni riga indica la stessa temperatura nelle tre scale. Tra fusione del ghiaccio ed ebollizione dell’acqua, l’intervallo è circa 100 °C, 100 K oppure 180 °F.
 
 La scala **Fahrenheit**, ancora comune negli Stati Uniti, usa i **gradi Fahrenheit**, con simbolo **°F**. Qui cambiano sia l’origine sia l’ampiezza del grado: all’intervallo tra 0 °C e 100 °C corrisponde quello tra 32 °F e 212 °F. Cento gradi Celsius di differenza equivalgono dunque a centottanta gradi Fahrenheit di differenza.
+
+[IMMAGINE FIG-03 — Confronto delle scale Kelvin, Celsius e Fahrenheit. Sorgente scelta dall’utente, con sei etichette tradotte in italiano; numeri e struttura invariati. File: risorse/scale-temperatura-it.svg. Comando di ingrandimento per le scritte.]
+
+Didascalia: Le linee orizzontali collegano la stessa temperatura nelle tre scale. I valori sono arrotondati; i punti di ebollizione e di congelamento sono riferiti alla pressione atmosferica standard.[^1]
 
 Per convertire una lettura Celsius in Fahrenheit bisogna tener conto di entrambi i cambiamenti:
 

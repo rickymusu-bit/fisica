@@ -1,6 +1,6 @@
 # Stato — Temperatura ed equilibrio termico
 
-Versione v7 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
+Versione v8 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
 
 ## Ambito e riferimenti
 
@@ -21,11 +21,11 @@ Letti integralmente MASTER_PROMPT.md v60 in blocchi senza troncamenti, AGENTS.md
 
 ## Fase corrente e risultato
 
-Bozza v3 corrente: [bozza.md](bozza.md). Mantiene il testo approvato non coinvolto; adatta apertura, misura per contatto sulla paziente, didascalie, equilibrio con la bevanda fredda e domande 1 e 4. Nove domande finali senza soluzioni, tabella delle scale e due note.
+Bozza v4 corrente: [bozza.md](bozza.md). Mantiene il testo approvato non coinvolto; adatta apertura, misura per contatto sulla paziente, didascalie, equilibrio con la bevanda fredda e domande 1 e 4. Nove domande finali senza soluzioni, tabella delle scale e due note.
 
-Domanda guida conservata: «Quando possiamo fidarci della temperatura indicata da un termometro?». HTML autonomo v1 completato dopo il via esplicito; nessuna simulazione aggiunta. Le modifiche testuali e la scelta delle immagini sono espressamente richieste, non una nuova stesura da far approvare da capo.
+Domanda guida conservata: «Quando possiamo fidarci della temperatura indicata da un termometro?». HTML autonomo v2 corrente, completato dopo il via esplicito; nessuna simulazione aggiunta. Le modifiche testuali e la scelta delle immagini sono espressamente richieste, non una nuova stesura da far approvare da capo.
 
-Tre immagini correnti scaricate, ispezionate e salvate in `risorse/`; soggetti, URL ricevuti, fonti, autori, stato dei diritti, dimensioni e hash in [visuali.md](visuali.md) v4. Nessuna modifica delle immagini. Nessun materiale mancante.
+Tre immagini correnti scaricate, ispezionate e salvate in `risorse/`; soggetti, URL ricevuti, fonti, autori, stato dei diritti, dimensioni e hash in [visuali.md](visuali.md) v5. Nessuna modifica delle immagini. Nessun materiale mancante.
 
 - COP-01 corrente: termometro galileiano, Syced, CC0 1.0; 1920 × 2550 px, 536 878 byte. File completo scelto dall’utente, senza ritaglio o alterazione. Precedente incisione conservata come originale di lavorazione, non più usata.
 - FIG-01: misura orale della temperatura, Roy Perry / National Library of Medicine; versione scelta 960 × 714 px, 138 572 byte. «No known copyright restrictions», distinto da CC0.
@@ -68,3 +68,14 @@ Verifiche Chromium a 1280 e 390 px: nessun errore JavaScript o richiesta di rete
 L’ambiente Chromium blocca l’apertura diretta di URL file: tramite policy; per le prove il medesimo HTML completo è stato caricato in memoria con rete disabilitata. Il ramo specifico dello script che riscrive il collegamento pubblico dei crediti con protocollo file: è quello canonico, preservato senza modifiche; non viene dichiarato verificato in questo ambiente. Report in `verifiche-browser.json`, controlli statici in `verifiche-finali.json`; anteprime desktop/mobile salvate nella lavorazione e ispezionate, incluse copertina, foto clinica, tabella e formule.
 
 Il salvataggio nel ramo dedicato non equivale alla pubblicazione. Caricamento remoto verificato: commit di realizzazione `b526643501fa67724fe60c32f6831cfe8573caf4`, identico al riferimento del ramo su GitHub. PR in bozza aperta: https://github.com/rickymusu-bit/fisica/pull/37 . Nessuna integrazione o pubblicazione eseguita; prossimo passaggio: revisione dell’HTML e delle anteprime da parte dell’utente.
+
+
+## Revisione HTML v2 — confronto delle scale tradotto
+
+L’utente ha fornito Temperature-scales-comparison.svg chiedendo «Traduci», dopo aver richiesto un’immagine per le tre scale. Aggiunta la figura nel punto pertinente; tradotte le sei etichette, senza cambiare numeri, simboli, posizioni o struttura. Conservato l’originale SVG e salvata la versione italiana. Figura e didascalia nella bozza v4, HTML autonomo v2 e bozza.html identici. Tabella e resto del contenuto approvato conservati; unico nuovo richiamo alla nota sulla pressione.
+
+Attribuzione MikeRun (Michael A. Rundel), CC BY-SA 4.0; traduzione soggetta alla stessa licenza e modifiche dichiarate nel registro e nello snapshot. Non viene generata una nuova illustrazione o ricostruita la geometria: è tradotto il testo incorporato nell’SVG originale.
+
+Confronto XML superato per geometria e numeri; anteprime dell’originale e della traduzione ispezionate, tutte le etichette entro i bordi. Prove mirate a 1280/390 px: caricamento SVG offline, ingrandimento canonico, scorrimento a 900 px, note e crediti, ancore univoche e nessun overflow/errore JavaScript. CSS e script comuni ancora identici al modello. Nuove anteprime complete e della figura, report verifiche-scale.json. Check crediti, build e diff superati. Nessuna modifica al manifest, al catalogo o agli altri articoli.
+
+Dimensione corrente HTML v2: 1912047 byte. Salvataggio e aggiornamento nella stessa PR #37; nessuna integrazione in main o pubblicazione autorizzata.

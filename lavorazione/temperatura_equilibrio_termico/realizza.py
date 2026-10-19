@@ -35,6 +35,12 @@ META = {
         'https://creativecommons.org/publicdomain/zero/1.0/',
         'Bicchiere di bevanda fredda con cubetti di ghiaccio su un tavolo',
     ),
+    'FIG-03': (
+        'scale-temperatura-it.svg', 'Temperature-scales-comparison.svg',
+        'MikeRun (Michael A. Rundel)', 'CC BY-SA 4.0',
+        'https://creativecommons.org/licenses/by-sa/4.0/',
+        'Confronto fra kelvin, gradi Celsius e Fahrenheit: valori arrotondati per ebollizione del mercurio e dell’acqua, temperatura ambiente, congelamento dell’acqua, ebollizione dell’azoto e zero assoluto',
+    ),
 }
 SECTIONS = [
     'quando-fidarsi-del-termometro', 'equilibrio-termico',
@@ -94,21 +100,34 @@ class Renderer:
     def figure(self, key, caption):
         filename, source, author, license_name, license_url, alt = META[key]
         path = WORK / 'risorse' / filename
-        with Image.open(path) as im:
-            width, height = im.size
-        uri = 'data:image/jpeg;base64,' + base64.b64encode(path.read_bytes()).decode()
+        is_diagram = path.suffix == '.svg'
+        if is_diagram:
+            width, height = 667, 338
+        else:
+            with Image.open(path) as im:
+                width, height = im.size
+        media_type = 'image/svg+xml' if is_diagram else 'image/jpeg'
+        uri = 'data:' + media_type + ';base64,' + base64.b64encode(path.read_bytes()).decode()
         attrs = {
             'source': 'https://commons.wikimedia.org/wiki/File:' + source,
             'author': author, 'license': license_name, 'license-url': license_url,
-            'changes': 'Nessuna modifica alla versione scelta; visualizzazione proporzionale senza ritaglio.',
+            'changes': ('Traduzione italiana delle sei etichette; numeri, coordinate e geometria originali conservati. Traduzione distribuita con la stessa licenza CC BY-SA 4.0.'
+                        if is_diagram else 'Nessuna modifica alla versione scelta; visualizzazione proporzionale senza ritaglio.'),
         }
         metadata = ' '.join(f'data-credit-{k}="{escape(v, quote=True)}"' for k, v in attrs.items())
-        classes = 'visual cover photo portrait' if key == 'COP-01' else 'visual photo'
+        classes = 'visual cover photo portrait' if key == 'COP-01' else ('visual diagram' if is_diagram else 'visual photo')
+        zoom = ''
+        if is_diagram:
+            zoom = ('<details class="image-zoom"><summary><span class="zoom-expand">Ingrandisci l’immagine</span>'
+                    '<span class="zoom-collapse">Rimpicciolisci l’immagine</span></summary>'
+                    '<div class="zoom-scroll" tabindex="0" role="region" aria-label="Confronto delle scale ingrandito, scorrevole">'
+                    f'<img src="{uri}" alt="{escape(alt, quote=True)}" style="min-width:900px" decoding="async">'
+                    '</div></details>')
         return (f'<figure class="{classes}" id="{key.lower()}" {metadata}>'
                 '<div class="image-frame"><div class="overview">'
                 f'<img src="{uri}" width="{width}" height="{height}" '
                 f'alt="{escape(alt, quote=True)}" decoding="async">'
-                '</div></div><figcaption>' + self.inline(caption) + '</figcaption></figure>')
+                '</div>' + zoom + '</div><figcaption>' + self.inline(caption) + '</figcaption></figure>')
 
     def table(self, block, caption):
         rows = [[c.strip() for c in line.strip().strip('|').split('|')]
@@ -211,7 +230,7 @@ def main():
                       template, count=1, flags=re.S)
     template = template.replace('<title>Tema grafico delle dispense — modello riutilizzabile</title>',
                                 f'<title>{TITLE} — Materia Oscura</title>')
-    template = template.replace('name="version" content="v8"', 'name="version" content="v1"', 1)
+    template = template.replace('name="version" content="v8"', 'name="version" content="v2"', 1)
     template = template.replace('name="date" content="2026-10-18"', 'name="date" content="2026-10-19"', 1)
     template = template.replace('Modello autonomo del tema grafico comune a tutti i capitoli futuri.',
                                 'Temperatura, equilibrio termico, principio zero, termometro e scale Celsius, Kelvin e Fahrenheit.')
@@ -238,7 +257,7 @@ def main():
                   '<a rel="next" href="https://rickymusu-bit.github.io/fisica/stati_della_materia.html">'
                   '<span>Articolo successivo →</span><small>Stati della materia</small></a></nav>')
     template = template.replace('<!-- chapter-navigation:end -->', navigation + '<!-- chapter-navigation:end -->')
-    template = template.replace('Versione v8 · 2026-10-18', 'Versione v1 · 19 ottobre 2026')
+    template = template.replace('Versione v8 · 2026-10-18', 'Versione v2 · 19 ottobre 2026')
     TARGET.write_text(template)
     print(TARGET.name, TARGET.stat().st_size, 'byte')
 

@@ -1,6 +1,6 @@
 # Visuali — Temperatura ed equilibrio termico
 
-Versione v4 · 19 ottobre 2026 (Europe/Rome).
+Versione v5 · 19 ottobre 2026 (Europe/Rome).
 
 ## Scelte effettive
 
@@ -60,3 +60,19 @@ Tabella HTML semantica prevista, già concordata: zero assoluto; fusione del ghi
 Fonti Commons consultate e immagini scaricate e ispezionate il 19 ottobre 2026. Le immagini sono conservate in questa lavorazione senza modifiche. Questi appunti documentano scelta e provenienza; non costituiscono un nuovo registro dei crediti del sito. In fase HTML riusare le eventuali schede pertinenti in `risorse/crediti.json`, oppure registrare i metadati mediante `data-credit-*` e `scripts/credits.py --sync`, con snapshot autonomo. Nessuna attribuzione dentro le didascalie.
 
 La bozza v3 conserva il testo approvato non interessato e adatta apertura, didascalie, spiegazione dell’equilibrio e domande 1 e 4 alle nuove foto. L’ultima revisione sostituisce soltanto copertina e relativa didascalia. Nessuna nuova approvazione delle immagini o del resto del testo richiesta. Via all’HTML ricevuto successivamente con «Procedi». Le tre immagini sono ora incorporate integralmente nell’HTML v1; metadati trasferiti nel registro unico e snapshot generati.
+
+
+## FIG-03 — Confronto delle scale, aggiunta HTML v2
+
+Richiesta esplicita dell’utente: immagine di confronto delle tre scale, seguita dal file originale e dal comando «Traduci». Inserimento e traduzione circoscritta autorizzati; nessuna nuova approvazione necessaria.
+
+- Fonte e licenza verificate: https://commons.wikimedia.org/wiki/File:Temperature-scales-comparison.svg . MikeRun; i metadati SVG riportano Michael A. Rundel. Licenza CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/ . Anche la traduzione è distribuita con questa licenza.
+- URL ricevuto: https://upload.wikimedia.org/wikipedia/commons/d/da/Temperature-scales-comparison.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original .
+- Originale invariato: [risorse/scale-temperatura-originale.svg](risorse/scale-temperatura-originale.svg).
+- Versione italiana: [risorse/scale-temperatura-it.svg](risorse/scale-temperatura-it.svg). Conservate grafica, misure, coordinate, numeri e simboli delle unità; tradotti soltanto i sei gruppi testuali. Anteprime PNG dell’originale e della traduzione nella stessa cartella.
+- Etichette: «Ebollizione del mercurio», «Ebollizione dell’acqua», «Temperatura ambiente (circa)», «Congelamento dell’acqua», «Ebollizione dell’azoto», «Zero assoluto».
+- Inserimento dopo il confronto degli intervalli Celsius/Fahrenheit, prima della formula di conversione. Didascalia sui valori arrotondati e sulla pressione atmosferica, con richiamo alla nota esistente; tabella conservata.
+- Incorporamento SVG autonomo e proporzionale, struttura identica su mobile; componente di ingrandimento canonico con vista di almeno 900 px e scorrimento interno. Nessuna dipendenza di rete.
+- Fonte, attribuzione, licenza e modifica registrate nel registro unico con data-credit-* e sincronizzate nella copia offline. Nessuna attribuzione aggiunta alla didascalia scientifica.
+
+Confronto XML: geometria, coordinate e testi numerici identici. Etichette italiane verificate visivamente e contenute nel riquadro. Controllati caricamento, ingrandimento, scorrimento, note, crediti e assenza di overflow a 1280/390 px; report in verifiche-scale.json.

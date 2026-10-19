@@ -2597,6 +2597,26 @@
       "fingerprints": [
         "asset-b88fed40fdd553ff8e9e968fcc0b6cc60669e6b4fe44f0e64067c1966b9e36e5"
       ]
+    },
+    {
+      "id": "credit-f2033b07ba7d6e9e",
+      "description": "Confronto fra kelvin, gradi Celsius e Fahrenheit: valori arrotondati per ebollizione del mercurio e dell’acqua, temperatura ambiente, congelamento dell’acqua, ebollizione dell’azoto e zero assoluto",
+      "source": "https://commons.wikimedia.org/wiki/File:Temperature-scales-comparison.svg",
+      "author": "MikeRun (Michael A. Rundel)",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Traduzione italiana delle sei etichette; numeri, coordinate e geometria originali conservati. Traduzione distribuita con la stessa licenza CC BY-SA 4.0.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Confronto fra kelvin, gradi Celsius e Fahrenheit: valori arrotondati per ebollizione del mercurio e dell’acqua, temperatura ambiente, congelamento dell’acqua, ebollizione dell’azoto e zero assoluto — MikeRun (Michael A. Rundel). <a href=\"https://commons.wikimedia.org/wiki/File:Temperature-scales-comparison.svg\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>. Modifiche: Traduzione italiana delle sei etichette; numeri, coordinate e geometria originali conservati. Traduzione distribuita con la stessa licenza CC BY-SA 4.0."
+      ],
+      "metadata_sources": [
+        "temperatura_equilibrio_termico_it.html"
+      ],
+      "fingerprints": [
+        "asset-25c87701147e6271292b3bc2a7e67c220c58d8b50a5f43e29ff6bd2b14ad3ba5"
+      ]
     }
   ],
   "documents": {
@@ -3211,6 +3231,10 @@
         {
           "resource": "credit-e6fc7a4073a95f9e",
           "notice": 0
+        },
+        {
+          "resource": "credit-f2033b07ba7d6e9e",
+          "notice": 0
         }
       ],
       "review": "Tre immagini scelte dall’utente e fonti verificate; per la foto clinica conservata la dichiarazione Flickr Commons No known copyright restrictions, senza attribuirle una licenza CC0.",
@@ -3732,6 +3756,30 @@
           "attribute": "inline",
           "location": null,
           "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-25c87701147e6271292b3bc2a7e67c220c58d8b50a5f43e29ff6bd2b14ad3ba5",
+      "kind": "image/svg+xml",
+      "uses": [
+        {
+          "document": "temperatura_equilibrio_termico_it.html",
+          "kind": "image/svg+xml",
+          "description": "Confronto fra kelvin, gradi Celsius e Fahrenheit: valori arrotondati per ebollizione del mercurio e dell’acqua, temperatura ambiente, congelamento dell’acqua, ebollizione dell’azoto e zero assoluto",
+          "locator": "fig-03",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-f2033b07ba7d6e9e"
+        },
+        {
+          "document": "temperatura_equilibrio_termico_it.html",
+          "kind": "image/svg+xml",
+          "description": "Confronto fra kelvin, gradi Celsius e Fahrenheit: valori arrotondati per ebollizione del mercurio e dell’acqua, temperatura ambiente, congelamento dell’acqua, ebollizione dell’azoto e zero assoluto",
+          "locator": "fig-03",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-f2033b07ba7d6e9e"
         }
       ]
     },
