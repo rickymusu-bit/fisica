@@ -1,6 +1,6 @@
 # Stato — Energia interna, calore e calore specifico
 
-Versione v2 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
+Versione v3 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
 
 ## Ambito e punto di partenza
 
@@ -23,17 +23,17 @@ Letti integralmente MASTER_PROMPT.md v60 in blocchi, AGENTS.md, STILE_DISPENSE.m
 
 ## Fase corrente
 
-Progettazione delle visuali: proposta concreta v2 salvata in [visuali.md](visuali.md), comprendente domanda iniziale, percorso, confini, tre immagini da scegliere, grafico e tabella proposti e otto nuclei per le domande finali.
+Progettazione delle visuali: proposta concreta v3 salvata in [visuali.md](visuali.md), comprendente domanda iniziale, percorso, confini, tre immagini da scegliere, grafico e tabella proposti e otto nuclei per le domande finali.
 
-Domanda guida scelta dall’utente: «Perché il deserto è caldo di giorno e freddo di notte?». Richiesta effettiva: «La domanda è astratta. Chiedi perché il deserto è caldo di giorno e freddo di notte. Si collega al calore specifico». Apertura sulle pentole sostituita; l’indicazione autorizza questo adattamento, non sceglie immagini specifiche.
+Domanda guida scelta dall’utente: «Perché d’estate il mare resta tiepido di notte, anche quando la sabbia è fredda?». Richiesta effettiva: «Allora chiedi perché d'estate il mare resta tiepido di notte anche se la sabbia è fredda». Sostituisce l’apertura sul deserto; autorizzato l’adattamento del percorso e delle proposte visuali, senza attribuire approvazioni a immagini specifiche.
 
-COP-01: deserto sabbioso di giorno, copertina distinta. FIG-01: deserto sabbioso di notte. FIG-02: modello microscopico. GRA-01: temperatura in funzione del calore per masse uguali di acqua e sabbia asciutta, con dati documentati. TAB-01: confronto di calori specifici. Identificativi e funzioni in visuali.md; nessuna nuova scelta attribuita all’utente.
+COP-01: spiaggia estiva con mare e sabbia, copertina distinta. FIG-01: battigia di sera o di notte. FIG-02: modello microscopico. GRA-01: temperatura in funzione del calore per masse uguali di acqua e sabbia asciutta, con dati documentati. TAB-01: confronto di calori specifici. Identificativi e funzioni in visuali.md; nessuna nuova scelta attribuita all’utente.
 
 Nessuna simulazione o video proposti: nessuna programmazione, nessun costo di simulazione da stimare. Nessun esercizio svolto o sezione autonoma di applicazioni aggiunti.
 
 ## Verifiche e limiti
 
-Identificati numero e titolo dal piano ufficiale. Controllati confini rispetto agli articoli 2 e 4; distinta energia interna dal moto macroscopico e distinta capacità termica dal calore specifico. Il futuro grafico deve rappresentare previsioni, senza inventare misure. La relazione quantitativa non sarà applicata a cambiamenti di stato. Per il deserto distinguere superficie e aria: c della sabbia inferiore a quello dell’acqua spiega parte della risposta termica; scarsa umidità e cielo spesso sereno contribuiscono all’escursione. Non affermare che tutti i deserti siano caldi o ogni notte fredda. Nessun valore universale di c assegnato a sabbie di composizione diversa.
+Identificati numero e titolo dal piano ufficiale. Controllati confini rispetto agli articoli 2 e 4; distinta energia interna dal moto macroscopico e distinta capacità termica dal calore specifico. Il futuro grafico deve rappresentare previsioni, senza inventare misure. La relazione quantitativa non sarà applicata a cambiamenti di stato. Per la spiaggia: c dell’acqua maggiore di quello della sabbia asciutta; a parità di massa ed energia ceduta, minore diminuzione di T. Distinguere questo confronto dal mare reale, dove contribuiscono massa d’acqua coinvolta e rimescolamento. Non assumere uguali masse o uguali perdite di energia per mare e spiaggia, né temperature ricavabili dalle fotografie. Nessun valore universale di c assegnato a sabbie di composizione diversa.
 
 Esaminati materiali già scelti nei primi due articoli: caffè riutilizzabile per richiamo contestuale, ma non necessario alla nuova apertura; bevanda con ghiaccio non adatta a illustrare qui Q = m · c · ΔT. Non cercate, generate o modificate nuove immagini.
 
@@ -41,4 +41,4 @@ Non ancora creati bozza.md o HTML, perché visuali e testo non sono concordati. 
 
 ## Prossima operazione
 
-Presentare la proposta salvata e raccogliere l’accordo sulle visuali. Ricevere i tre file/collegamenti di deserto diurno, deserto notturno e modello microscopico; concordare il grafico e la tabella. Poi redigere bozza.md completa e sottoporla all’approvazione. Dopo il testo approvato, fornire stima totale ripartita e raccogliere via esplicito all’HTML secondo B1.1–B2. Nessuna approvazione dedotta dall’elenco già approvato.
+Presentare la proposta salvata e raccogliere l’accordo sulle visuali. Ricevere i tre file/collegamenti di spiaggia estiva, battigia serale/notturna e modello microscopico; concordare il grafico e la tabella. Poi redigere bozza.md completa e sottoporla all’approvazione. Dopo il testo approvato, fornire stima totale ripartita e raccogliere via esplicito all’HTML secondo B1.1–B2. Nessuna approvazione dedotta dall’elenco già approvato.
