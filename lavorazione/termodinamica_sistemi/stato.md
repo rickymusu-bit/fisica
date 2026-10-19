@@ -1,12 +1,12 @@
 # Stato — La termodinamica e i sistemi termodinamici
 
-Aggiornamento: 19 ottobre 2026 (Europe/Rome). Versione v2.
+Aggiornamento: 19 ottobre 2026 (Europe/Rome). Versione v3.
 
 ## Ambito e approvazioni effettive
 
 L’utente ha approvato la suddivisione del percorso e chiesto di cominciare dal primo articolo. Ambito: che cosa studia la termodinamica; sistema, ambiente e confine; scambi di materia ed energia; classificazione dei sistemi aperti, chiusi e isolati. Non sviluppare temperatura, principio zero, scale, energia interna microscopica, calorimetria o dilatazione: appartengono agli articoli successivi del [percorso](../percorso_termodinamica.md).
 
-Approvati argomento e posizione nel percorso. L’utente ha proposto la domanda «Che cos’hanno in comune un thermos e l’Universo?», confermato la bevanda come esempio e richiesto altri contesti per mostrare l’universalità della termodinamica: corpo umano e motore termico per sistemi aperti; powerbank e molla per sistemi chiusi. Le condizioni scientifiche sono precisate sotto. Non ancora scelti i file delle immagini né approvato il testo; nessun via alla realizzazione HTML o alla pubblicazione.
+Approvati argomento e posizione nel percorso. L’utente ha proposto la domanda «Che cos’hanno in comune un thermos e l’Universo?», confermato la bevanda come esempio e richiesto altri contesti per mostrare l’universalità della termodinamica: corpo umano e motore termico per sistemi aperti; powerbank e molla per sistemi chiusi. Le condizioni scientifiche sono precisate sotto. Con «ok» l’utente ha approvato la proposta aggiornata: domanda thermos–Universo, bevanda come esempio iniziale, corpo umano e motore a combustione interna come sistemi aperti, powerbank e molla come sistemi chiusi, con le precisazioni scientifiche indicate sotto. Approvata anche l’eliminazione del confronto con la bottiglia, ridondante. Non ancora scelti i file delle immagini né approvato il testo; nessun via alla realizzazione HTML o alla pubblicazione.
 
 ## Riferimenti e checklist
 
@@ -45,13 +45,13 @@ Definire per la bevanda il sistema come contenitore e contenuto, con confine est
 
 Riferimenti scientifici consultati per le condizioni di classificazione (non immagini e non nuove approvazioni): DOE Fundamentals Handbook, https://archives.standards.doxcelerate.com/documents/doe-hdbk-1012-1-92-thermodynamics-heat-transfer-and-fluid-flow-volume-1-of-3 ; NASA Engine Design Summary, https://ntrs.nasa.gov/api/citations/19880002196/downloads/19880002196.pdf ; Ohio University, lavoro elettrico nei sistemi chiusi, https://people.ohio.edu/urieli/thermo/Intro/Chapt.1_6/Chapter3a.html .
 
-## Visuali proposte, file ancora da scegliere
+## Visuali concordate nei soggetti, file ancora da scegliere
 
 | ID | Soggetto | Funzione e collocazione |
 | --- | --- | --- |
 | TS-0 | Fotografia astronomica, proposta al posto della precedente termografia di copertina | Copertina collegata alla domanda iniziale; presentarla come una regione del cosmo, senza confonderla con l’intero Universo. Distinta dalle figure interne. |
 | TS-1 | Tazza aperta con bevanda calda, su fondo semplice | Primo esempio concreto, con confine e frecce esplicative sulla foto. |
-| TS-2 | Bottiglia ermeticamente chiusa con bevanda | Confronto breve facoltativo; valutare ridondanza dopo scelta degli esempi. |
+| TS-2 | Bottiglia ermeticamente chiusa con bevanda | Eliminata dalla proposta con l’approvazione dell’utente; nessuna immagine necessaria. |
 | TS-3 | Thermos chiuso, preferibilmente in sezione | Apertura e modello di sistema isolato; non approfondire i meccanismi di isolamento. |
 | TS-4 | Corpo umano; preferibile illustrazione chiara degli scambi | Sistema aperto biologico: cibo, aria, acqua e prodotti in uscita; trasferimenti di energia distinti. |
 | TS-5 | Motore a combustione interna con aspirazione e scarico riconoscibili | Sistema aperto tecnico; illustrare la classificazione senza spiegare il ciclo del motore. |
@@ -64,4 +64,4 @@ Non cercare né generare autonomamente le immagini. Per gli schemi usare fotogra
 
 Salvata la sequenza completa richiesta e avviata la progettazione del primo articolo nel ramo dedicato termodinamica/percorso-introduttivo, derivato da main. Nessun capitolo omonimo preesistente trovato in lavorazione; nessuna bozza o risorsa dell’utente sostituita.
 
-Prossimo passo: ricevere indicazioni o file per le visuali aggiornate TS-0–TS-7, confermare l’eventuale omissione del confronto ridondante con la bottiglia e concordare le scelte; poi scrivere e salvare la bozza completa nel repository. La redazione della sola bozza, una volta concordate le visuali, richiede indicativamente 10–20 minuti di lavoro attivo e calcolo basso per stesura e revisione concettuale; non comprende attesa dei materiali né realizzazione HTML. La stima dell’HTML sarà presentata soltanto dopo l’approvazione della bozza, secondo B1.1.4.
+Prossimo passo: ricevere i file o collegamenti alle immagini TS-0, TS-1, TS-3, TS-4, TS-5, TS-6 e TS-7 e verificare le risorse scelte; poi scrivere e salvare la bozza completa nel repository. La redazione della sola bozza, una volta concordate le visuali, richiede indicativamente 10–20 minuti di lavoro attivo e calcolo basso per stesura e revisione concettuale; non comprende attesa dei materiali né realizzazione HTML. La stima dell’HTML sarà presentata soltanto dopo l’approvazione della bozza, secondo B1.1.4.
