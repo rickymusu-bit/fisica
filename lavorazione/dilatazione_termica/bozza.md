@@ -1,6 +1,6 @@
 # La dilatazione termica
 
-Bozza v6 — 19 ottobre 2026 (Europe/Rome).
+Bozza v7 — 19 ottobre 2026 (Europe/Rome).
 Testo da approvare. Le immagini sono segnaposto delle funzioni concordate, non materiali già selezionati. Le didascalie saranno controllate sui file effettivamente ricevuti.
 
 [IMMAGINE COP-01 — Ponte; immagine esclusiva di copertina.]
@@ -56,14 +56,6 @@ Per i liquidi si usa il coefficiente volumico, perché un liquido prende la form
 | Mercurio | 1,8 · 10⁻⁴ |
 
 Il coefficiente dell'alcol etilico è circa cinque volte quello dell'acqua: vicino a 20 °C, a parità di volume iniziale e di piccolo aumento della temperatura, la sua variazione di volume è circa cinque volte maggiore. Il valore dell'acqua riportato qui non descrive il suo comportamento vicino a 4 °C, dove la dilatazione cambia carattere.
-
-### Che relazione c'è fra α e β?
-
-In un solido che si dilata nello stesso modo in tutte le direzioni, detto **isotropo**, cambiano insieme lunghezza, larghezza e altezza. Il volume dipende da tutte e tre: ciascuna dimensione contribuisce al suo aumento. Per piccole dilatazioni, i tre contributi portano alla relazione:[5]
-
-β ≈ 3 · α
-
-Il coefficiente volumico è quindi circa tre volte quello lineare **dello stesso solido**. Questo non significa che il volume aumenti di tre volte: è la sua variazione relativa, per ogni grado, a essere circa tripla di quella di una lunghezza. Per i liquidi usiamo direttamente β della tabella: non ricaviamo un coefficiente lineare del liquido dividendolo per tre, perché il liquido non mantiene una propria forma.
 
 ## L'acqua cambia comportamento
 
@@ -144,8 +136,7 @@ La rottura non va attribuita alla sola discesa di temperatura. Conta l'aumento d
 10. Vero o falso? «L'aumento di volume dell'acqua liquida sotto 4 °C e l'aumento di volume durante il congelamento sono lo stesso fenomeno». Spiega.
 11. Perché, per comprendere una rottura da gelo, non basta sapere che l'acqua è congelata, ma occorre considerare anche il recipiente?
 
-12. Perché, in un solido isotropo, il coefficiente volumico è circa triplo di quello lineare? Questo significa che il suo volume triplica quando viene riscaldato?
-13. Confronta alcol etilico e acqua nella tabella TAB-02: vicino a 20 °C, quale presenta la maggiore variazione di volume a parità di volume iniziale e piccolo aumento di temperatura? Perché il valore dell'acqua non si può usare allo stesso modo vicino a 4 °C?
+12. Confronta alcol etilico e acqua nella tabella TAB-02: vicino a 20 °C, quale presenta la maggiore variazione di volume a parità di volume iniziale e piccolo aumento di temperatura? Perché il valore dell'acqua non si può usare allo stesso modo vicino a 4 °C?
 
 ## Note
 
@@ -157,12 +148,10 @@ La rottura non va attribuita alla sola discesa di temperatura. Conta l'aumento d
 
 [4] I coefficienti riportati sono valori rappresentativi a 20 °C; possono variare con la composizione del materiale e con la temperatura. I valori dei liquidi descrivono variazioni a pressione pressoché costante.
 
-[5] La relazione β ≈ 3 · α vale per un solido isotropo libero di dilatarsi e per variazioni relative piccole: nel prodotto delle tre dimensioni si trascurano i termini con potenze superiori di α · ΔT.
-
 ## Crediti di servizio — non sezione didattica
 
 Testo originale. Fonti consultate per controllo dei principi; trasferire i riferimenti al registro unico nella fase HTML:
-- OpenStax, College Physics 2e, §13.2, Thermal Expansion of Solids and Liquids: https://openstax.org/books/college-physics-2e/pages/13-2-thermal-expansion-of-solids-and-liquids . Riferimento per leggi e principi di dilatazione. TAB-01 riporta i coefficienti lineari di alluminio, ottone, rame, acciaio, vetro comune e vetro Pyrex della tabella 13.2, riferiti a 20 °C e espressi in notazione scientifica normalizzata. Nessuna colonna di allungamenti calcolati. TAB-02 riporta dalla stessa tabella i coefficienti volumici a 20 °C di alcol etilico, glicerina, acqua e mercurio, in notazione scientifica normalizzata; la sezione sulla relazione fra α e β usa l'approssimazione per piccole dilatazioni di solidi isotropi. Nessuna immagine ripresa.
+- OpenStax, College Physics 2e, §13.2, Thermal Expansion of Solids and Liquids: https://openstax.org/books/college-physics-2e/pages/13-2-thermal-expansion-of-solids-and-liquids . Riferimento per leggi e principi di dilatazione. TAB-01 riporta i coefficienti lineari di alluminio, ottone, rame, acciaio, vetro comune e vetro Pyrex della tabella 13.2, riferiti a 20 °C e espressi in notazione scientifica normalizzata. Nessuna colonna di allungamenti calcolati. TAB-02 riporta dalla stessa tabella i coefficienti volumici a 20 °C di alcol etilico, glicerina, acqua e mercurio, in notazione scientifica normalizzata. Nessuna immagine ripresa.
 - U.S. Geological Survey, Water Science School, Water Density: https://www.usgs.gov/water-science-school/science/water-density . Controllo di densità massima intorno a 4 °C, minore densità del ghiaccio e conseguenze nei laghi. Nessuna tabella numerica o immagine ripresa.
 
 - Network Rail, Buckled rail: https://www.networkrail.co.uk/rail-travel/delays-explained/buckled-rail-and-summer-heat/ . Controllo delle conseguenze del riscaldamento e della gestione delle rotaie saldate continue; nessuna immagine ripresa.
