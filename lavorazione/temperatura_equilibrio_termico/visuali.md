@@ -1,23 +1,27 @@
 # Visuali — Temperatura ed equilibrio termico
 
-Versione v3 · 19 ottobre 2026 (Europe/Rome).
+Versione v4 · 19 ottobre 2026 (Europe/Rome).
 
 ## Scelte effettive
 
 L’utente ha accettato la proposta iniziale con «Ok» e poi ha fornito tre collegamenti precisi, richiedendo «Foto 1, adatta l’esempio» e indicando «Foto 2, equilibrio termico». Queste scelte sostituiscono copertina meteorologica, termometro immerso e riuso del caffè. Non chiedere una nuova approvazione delle medesime immagini. Le modifiche testuali circoscritte sono richieste esplicitamente; il resto della bozza v1 già approvata è conservato.
 
-## COP-01 — Termometro storico
+## COP-01 — Termometro galileiano
 
-- File: [risorse/copertina-termometro-storico.jpg](risorse/copertina-termometro-storico.jpg).
-- Scelta ricevuta: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Wandelaar_Linnaeus_Hortus_thermometer.jpg/960px-Wandelaar_Linnaeus_Hortus_thermometer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-- Fonte originale e diritti: https://commons.wikimedia.org/wiki/File:Wandelaar_Linnaeus_Hortus_thermometer.jpg
-- File effettivamente disponibile: https://upload.wikimedia.org/wikipedia/commons/d/d6/Wandelaar_Linnaeus_Hortus_thermometer.jpg
-- Autore dell’incisione: Jan Wandelaar (1690–1759); particolare del frontespizio dell’Hortus Cliffortianus, 1738. Il ritaglio già presente su Commons risulta caricato da Pieter Kuiper nel 2010.
-- Stato dichiarato da Commons: pubblico dominio, PD-old; Public Domain Mark 1.0, https://creativecommons.org/publicdomain/mark/1.0/ . Conservare la provenienza; non descrivere PDM come una nuova licenza concessa dall’autore.
-- 289 × 288 px, 34 051 byte. Commons dichiara che non è disponibile una risoluzione superiore: il collegamento richiesto a 960 px non corrisponde a un originale più grande. Nessun ricampionamento eseguito.
-- SHA-256: `7e6bdc27238efd217413d3c0beb40cf3dfe12bb3db48be523ac7940c15e74626`.
-- Funzione: copertina storica, da non ripetere nel corpo. Mantenere proporzioni e dimensioni native senza ingrandimenti artificiali. Non identificare la scala come Celsius moderna o attribuirle una specifica scala inversa: la stessa scheda discute l’incertezza storica.
-- Nessuna modifica all’immagine scaricata. Didascalia adattata nella bozza v2.
+Scelta corrente: l’utente ha richiesto «Usa questo per copertina» e fornito il collegamento seguente. Sostituzione esplicitamente autorizzata, senza ulteriore scelta da chiedere.
+
+- File: [risorse/copertina-termometro-galileiano.jpg](risorse/copertina-termometro-galileiano.jpg).
+- Collegamento ricevuto: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Galileo_Thermometer_in_Tokyo.jpg/1920px-Galileo_Thermometer_in_Tokyo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- Fonte e verifica della licenza: https://commons.wikimedia.org/wiki/File:Galileo_Thermometer_in_Tokyo.jpg
+- Autore: Syced. Opera propria, fotografia datata 25 gennaio 2025.
+- Licenza/dedica: CC0 1.0 Universal, https://creativecommons.org/publicdomain/zero/1.0/ .
+- Versione scelta scaricata integralmente: 1920 × 2550 px, 536 878 byte.
+- SHA-256: `a7c9848301eba550f66e5070341f3e0401e504e4c48aa93c50f78abdd39d5a83`.
+- Osservazione diretta: termometro galileiano con ampolle di liquido colorato e contrassegni numerici; fotografia verticale in un contesto espositivo. Nessun valore numerico assunto come misura dell’ambiente.
+- Funzione: copertina pertinente alla temperatura, non ripetuta nel testo. Conservare intera la composizione e le proporzioni; nessun ritaglio, sovrapposizione, conversione o ricampionamento eseguito.
+- Didascalia aggiornata nella bozza v3. Nessuna digressione su densità, galleggiamento o attribuzioni storiche dell’invenzione introdotta.
+
+La precedente incisione `risorse/copertina-termometro-storico.jpg` resta conservata come originale già fornito, senza essere usata nell’articolo corrente. Fonte storica: https://commons.wikimedia.org/wiki/File:Wandelaar_Linnaeus_Hortus_thermometer.jpg ; Jan Wandelaar, pubblico dominio dichiarato da Commons. Per i dettagli della precedente scelta consultare la cronologia Git.
 
 ## FIG-01 — Misura della temperatura corporea
 
@@ -55,4 +59,4 @@ Tabella HTML semantica prevista, già concordata: zero assoluto; fusione del ghi
 
 Fonti Commons consultate e immagini scaricate e ispezionate il 19 ottobre 2026. Le immagini sono conservate in questa lavorazione senza modifiche. Questi appunti documentano scelta e provenienza; non costituiscono un nuovo registro dei crediti del sito. In fase HTML riusare le eventuali schede pertinenti in `risorse/crediti.json`, oppure registrare i metadati mediante `data-credit-*` e `scripts/credits.py --sync`, con snapshot autonomo. Nessuna attribuzione dentro le didascalie.
 
-La bozza v2 conserva il testo approvato non interessato e adatta apertura, didascalie, spiegazione dell’equilibrio e domande 1 e 4 alle nuove foto. Nessuna nuova approvazione delle immagini o del resto del testo richiesta. Resta distinto il via esplicito all’HTML dopo la stima, non presente nel messaggio di fornitura delle immagini.
+La bozza v3 conserva il testo approvato non interessato e adatta apertura, didascalie, spiegazione dell’equilibrio e domande 1 e 4 alle nuove foto. L’ultima revisione sostituisce soltanto copertina e relativa didascalia. Nessuna nuova approvazione delle immagini o del resto del testo richiesta. Resta distinto il via esplicito all’HTML dopo la stima, non presente nel messaggio di fornitura delle immagini.

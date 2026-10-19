@@ -1,6 +1,6 @@
 # Stato — Temperatura ed equilibrio termico
 
-Versione v4 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
+Versione v5 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
 
 ## Ambito e riferimenti
 
@@ -16,17 +16,18 @@ Letti integralmente MASTER_PROMPT.md v60 in blocchi senza troncamenti, AGENTS.md
 2. Primo «Ok»: accettata la proposta delle visuali e del percorso iniziale.
 3. Secondo «Ok»: approvata la bozza completa v1 in `bozza.md`.
 4. Dopo la stima, l’utente ha fornito tre immagini precise e chiesto di adattare l’esempio della foto 1. Copertina storica scelta al posto del termometro meteorologico; medico che misura la temperatura al posto della sonda immersa; bevanda fredda con ghiaccio al posto del caffè. Autorizzati scelta di queste immagini e relativi adattamenti circoscritti, senza richiedere una nuova conferma.
-5. Nessun «via» esplicito alla realizzazione HTML successivo alla stima e nessuna autorizzazione a main/pubblicazione ricevuti. Non registrare la sola fornitura dei file come una conferma testuale mai espressa.
+5. L’utente ha poi sostituito espressamente la sola copertina con «Galileo Thermometer in Tokyo.jpg». Foto scaricata e ispezionata, nuova didascalia salvata; il resto del testo è invariato rispetto alla v2.
+6. Nessun «via» esplicito alla realizzazione HTML successivo alla stima e nessuna autorizzazione a main/pubblicazione ricevuti. Non registrare la sola fornitura dei file come una conferma testuale mai espressa.
 
 ## Fase corrente e risultato
 
-Bozza v2 corrente: [bozza.md](bozza.md). Mantiene il testo approvato non coinvolto; adatta apertura, misura per contatto sulla paziente, didascalie, equilibrio con la bevanda fredda e domande 1 e 4. Nove domande finali senza soluzioni, tabella delle scale e due note.
+Bozza v3 corrente: [bozza.md](bozza.md). Mantiene il testo approvato non coinvolto; adatta apertura, misura per contatto sulla paziente, didascalie, equilibrio con la bevanda fredda e domande 1 e 4. Nove domande finali senza soluzioni, tabella delle scale e due note.
 
 Domanda guida conservata: «Quando possiamo fidarci della temperatura indicata da un termometro?». Nessun HTML o codice di simulazione realizzato. Le modifiche testuali e la scelta delle immagini sono espressamente richieste, non una nuova stesura da far approvare da capo.
 
-Tre file scaricati, ispezionati e salvati in `risorse/`; soggetti, URL ricevuti, fonti, autori, stato dei diritti, dimensioni e hash in [visuali.md](visuali.md) v3. Nessuna modifica delle immagini. Nessun materiale mancante.
+Tre immagini correnti scaricate, ispezionate e salvate in `risorse/`; soggetti, URL ricevuti, fonti, autori, stato dei diritti, dimensioni e hash in [visuali.md](visuali.md) v4. Nessuna modifica delle immagini. Nessun materiale mancante.
 
-- COP-01: incisione di Jan Wandelaar; originale Commons 289 × 288 px, 34 051 byte. Non disponibile una risoluzione superiore; mantenere dimensioni native e non attribuire una scala storica incerta. Pubblico dominio dichiarato da Commons.
+- COP-01 corrente: termometro galileiano, Syced, CC0 1.0; 1920 × 2550 px, 536 878 byte. File completo scelto dall’utente, senza ritaglio o alterazione. Precedente incisione conservata come originale di lavorazione, non più usata.
 - FIG-01: misura orale della temperatura, Roy Perry / National Library of Medicine; versione scelta 960 × 714 px, 138 572 byte. «No known copyright restrictions», distinto da CC0.
 - FIG-02: bevanda con ghiaccio, Henryemix; versione scelta 1920 × 1280 px, 407 515 byte; CC0 1.0.
 - TAB-01: confronto delle scale, già presente nella bozza approvata. Nessuna nuova simulazione o video.
@@ -38,7 +39,7 @@ La conservazione degli originali nella lavorazione non aggiorna il registro pubb
 - Foto controllate visivamente, soggetti coerenti; nessuna temperatura, diagnosi, misura o cronologia dedotta dalle fotografie.
 - Per il termometro: equilibrio della parte sensibile con la zona del corpo misurata, senza presupporre temperatura uniforme in tutto il corpo.
 - Per la bevanda: esplicitati ghiaccio visibile, fase successiva alla fusione, ambiente più caldo e a temperatura costante, al riparo dal Sole; nessuna anticipazione quantitativa del calore latente.
-- Copertina descritta come particolare storico dell’Hortus Cliffortianus (1738); non come fotografia meteorologica né prova di una precisa scala.
+- Copertina corrente verificata visivamente: termometro galileiano con ampolle colorate. Nessuna misura numerica dedotta dalla foto; didascalia pertinente. Rimossa dalla bozza ogni descrizione della vecchia incisione.
 - Foto complete, proporzioni e byte conservati; hash blob confrontati con quelli calcolati localmente prima del salvataggio.
 - Testo approvato fuori dall’intervento conservato; formule e tabella non modificate. Segnaposto collegati a file reali.
 - Build Pages e prove browser non pertinenti: nessun HTML o sito modificato.

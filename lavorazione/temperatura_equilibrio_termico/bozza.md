@@ -1,10 +1,10 @@
 # Temperatura ed equilibrio termico
 
-Bozza v2 · 19 ottobre 2026. Bozza v1 approvata; esempi e didascalie adattati alle tre immagini scelte dall’utente. Segnaposto collegati ai file salvati; HTML non ancora realizzato.
+Bozza v3 · 19 ottobre 2026. Bozza v1 approvata; esempi adattati alle immagini scelte e copertina sostituita su richiesta dell’utente. Segnaposto collegati ai file salvati; HTML non ancora realizzato.
 
-[IMMAGINE COP-01 — Incisione storica con un putto che mostra un termometro. File scelto: risorse/copertina-termometro-storico.jpg. Conservare l’immagine completa; non ripeterla nel corpo.]
+[IMMAGINE COP-01 — Fotografia di un termometro galileiano con ampolle colorate nel liquido. File scelto: risorse/copertina-termometro-galileiano.jpg. Conservare l’immagine completa e le proporzioni verticali; non ripeterla nel corpo.]
 
-Didascalia: Un putto mostra un termometro in un particolare del frontespizio dell’Hortus Cliffortianus, pubblicato nel 1738.
+Didascalia: Un termometro galileiano: le ampolle colorate immerse nel liquido permettono di leggere la temperatura.
 
 ## Quando possiamo fidarci del termometro?
 
