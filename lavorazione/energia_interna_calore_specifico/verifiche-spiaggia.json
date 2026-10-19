@@ -1,0 +1,29 @@
+{
+  "versione": "v4",
+  "spiaggia": {
+    "larghezza": 1920,
+    "altezza": 1280,
+    "byte": 191742
+  },
+  "copertina_e_gif_inalterate": true,
+  "viste": [
+    {
+      "larghezza": 1280,
+      "immagini_caricate": true,
+      "nessun_overflow": true,
+      "controlli_gif": true,
+      "crediti_aggiornati": true,
+      "errori_js": [],
+      "richieste_rete": []
+    },
+    {
+      "larghezza": 390,
+      "immagini_caricate": true,
+      "nessun_overflow": true,
+      "controlli_gif": true,
+      "crediti_aggiornati": true,
+      "errori_js": [],
+      "richieste_rete": []
+    }
+  ]
+}

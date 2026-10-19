@@ -1,6 +1,6 @@
 # Visuali — Energia interna, calore e calore specifico
 
-Versione v12 · 19 ottobre 2026 (Europe/Rome).
+Versione v13 · 19 ottobre 2026 (Europe/Rome).
 
 La bozza v3 è approvata. Dopo la stima l’utente ha fornito tre collegamenti specifici: le immagini seguenti sono scelte e non richiedono una seconda approvazione. La bozza v6 adatta soltanto segnaposto, didascalie e crediti ai materiali scelti; testo, formule, tabella e domande approvati conservati. Le proposte sostituite restano nella cronologia Git.
 
@@ -17,10 +17,11 @@ La bozza v3 è approvata. Dopo la stima l’utente ha fornito tre collegamenti s
 
 ## FIG-01 — Spiaggia notturna di Ko Li Pe
 
-- File: [risorse/spiaggia-notturna.jpg](risorse/spiaggia-notturna.jpg).
+- File corrente: [risorse/spiaggia-notturna.webp](risorse/spiaggia-notturna.webp).
 - Collegamento ricevuto e fonte: https://commons.wikimedia.org/wiki/File:1008_Beach_at_Night_with_Moon_and_Stars_in_Ko_Li_Pe_-_Tarutao_National_Park,_Satun,_Thailand.jpg
 - Autore: Piith.hant, indicato anche come Piith Hant nei metadati. CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/ .
-- Originale: 5760 × 3840 px, 7665607 byte. Nessuna modifica o ricompressione.
+- Originale conservato: [risorse/spiaggia-notturna.jpg](risorse/spiaggia-notturna.jpg), 5760 × 3840 px, 7665607 byte.
+- Compressione esplicitamente autorizzata dall’utente: versione WebP qualità 85, 1920 × 1280 px, 191742 byte. Riduzione proporzionale senza ritagli; questa è la versione incorporata nell’HTML v4. Crediti aggiornati con la modifica e stessa licenza CC BY-SA 4.0.
 - Osservazione diretta: mare, spiaggia sabbiosa, rocce, cielo notturno con Luna e stelle. Illustra il contesto della domanda iniziale; nessun dato di temperatura ricavato dall’immagine.
 
 ## FIG-02 — Movimento delle molecole d’acqua
@@ -55,3 +56,7 @@ Richiesta esplicita: linea della sabbia gialla e linea dell’acqua blu. Applica
 ## Linea dell’acqua continua — HTML v3
 
 Su richiesta esplicita resa continua la linea blu dell’acqua, anche nella legenda. La sabbia resta gialla e continua. Dati, geometria, assi, scala e tutti gli altri visuali invariati. Confronto del sorgente e prove mirate di ingrandimento a 1280/390 px superati; anteprime del grafico aggiornate. Le prove di compressione su copie sono documentate in prove-compressione.json e non sostituiscono i materiali correnti.
+
+## Spiaggia compressa — HTML v4
+
+L’utente ha scelto di lasciare la copertina originale e comprimere soltanto la spiaggia. Applicata la copia WebP provata, 191742 byte. Copertina Ivy Mike e GIF MD water identiche byte per byte alla versione precedente. La conversione MP4 è stata spiegata come possibilità, non applicata. Peso HTML 9429717 byte (9,43 MB); anteprime della spiaggia e verifiche desktop/mobile aggiornate. Originale fotografico conservato.

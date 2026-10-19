@@ -10,10 +10,11 @@
     },
     {
       "visuale": "Spiaggia notturna",
-      "file": "spiaggia-notturna.jpg",
-      "byte_file": 7665607,
+      "file": "spiaggia-notturna.webp",
+      "byte_file": 191742,
       "occorrenze_html": 1,
-      "byte_incorporati": 10220835
+      "byte_incorporati": 255679,
+      "originale_conservato_byte": 7665607
     },
     {
       "visuale": "GIF molecole acqua",
@@ -41,5 +42,5 @@
       "byte_html": 1879
     }
   ],
-  "byte_html_finale": 19394650
+  "byte_html_finale": 9429717
 }

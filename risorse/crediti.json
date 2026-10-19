@@ -2743,13 +2743,15 @@
       "status": "documented",
       "links": [],
       "notices": [
-        "Spiaggia sabbiosa con rocce e mare sotto la Luna e le stelle a Ko Li Pe — Piith.hant (Piith Hant). <a href=\"https://commons.wikimedia.org/wiki/File:1008_Beach_at_Night_with_Moon_and_Stars_in_Ko_Li_Pe_-_Tarutao_National_Park,_Satun,_Thailand.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>. Modifiche: Nessuna modifica ai pixel; visualizzazione proporzionale senza ritaglio."
+        "Spiaggia sabbiosa con rocce e mare sotto la Luna e le stelle a Ko Li Pe — Piith.hant (Piith Hant). <a href=\"https://commons.wikimedia.org/wiki/File:1008_Beach_at_Night_with_Moon_and_Stars_in_Ko_Li_Pe_-_Tarutao_National_Park,_Satun,_Thailand.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>. Modifiche: Nessuna modifica ai pixel; visualizzazione proporzionale senza ritaglio.",
+        "Spiaggia sabbiosa con rocce e mare sotto la Luna e le stelle a Ko Li Pe — Piith.hant (Piith Hant). <a href=\"https://commons.wikimedia.org/wiki/File:1008_Beach_at_Night_with_Moon_and_Stars_in_Ko_Li_Pe_-_Tarutao_National_Park,_Satun,_Thailand.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>. Modifiche: Nessuna modifica ai pixel; visualizzazione proporzionale senza ritaglio.<br>Modifiche per questo utilizzo: Riduzione proporzionale da 5760 × 3840 a 1920 × 1280 px e compressione WebP, qualità 85; nessun ritaglio. Originale conservato."
       ],
       "metadata_sources": [
         "energia_interna_calore_specifico_it.html"
       ],
       "fingerprints": [
-        "asset-680e6ae316f9cd2783cc2456d28d94f8234d525f1171e518c6d1d6a0a3dacc20"
+        "asset-680e6ae316f9cd2783cc2456d28d94f8234d525f1171e518c6d1d6a0a3dacc20",
+        "asset-23fcb7ff72829352a84e4b1cc0566e1d53de7104188479508500be69b296b129"
       ]
     },
     {
@@ -3421,12 +3423,12 @@
           "notice": 0
         },
         {
-          "resource": "credit-46059ba4845c6470",
+          "resource": "credit-5d1d35c0d78f5ed9",
           "notice": 0
         },
         {
-          "resource": "credit-5d1d35c0d78f5ed9",
-          "notice": 0
+          "resource": "credit-46059ba4845c6470",
+          "notice": 1
         }
       ],
       "lexend": true,
@@ -3908,6 +3910,21 @@
           "attribute": "srcset",
           "location": null,
           "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-23fcb7ff72829352a84e4b1cc0566e1d53de7104188479508500be69b296b129",
+      "kind": "image/webp",
+      "uses": [
+        {
+          "document": "energia_interna_calore_specifico_it.html",
+          "kind": "image/webp",
+          "description": "Spiaggia sabbiosa con rocce e mare sotto la Luna e le stelle a Ko Li Pe",
+          "locator": "fig-01",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-46059ba4845c6470"
         }
       ]
     },
@@ -4730,21 +4747,6 @@
           "attribute": "inline",
           "location": null,
           "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-680e6ae316f9cd2783cc2456d28d94f8234d525f1171e518c6d1d6a0a3dacc20",
-      "kind": "image/jpeg",
-      "uses": [
-        {
-          "document": "energia_interna_calore_specifico_it.html",
-          "kind": "image/jpeg",
-          "description": "Spiaggia sabbiosa con rocce e mare sotto la Luna e le stelle a Ko Li Pe",
-          "locator": "fig-01",
-          "attribute": "src",
-          "location": null,
-          "credit_id": "credit-46059ba4845c6470"
         }
       ]
     },

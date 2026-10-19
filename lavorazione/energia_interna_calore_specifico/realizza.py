@@ -21,7 +21,7 @@ META = {
                'Pubblico dominio — PD-USGov-DOE',
                'https://commons.wikimedia.org/wiki/Template:PD-USGov-DOE',
                'Sfera incandescente del test Ivy Mike in una fotografia in bianco e nero'),
-    'FIG-01': ('spiaggia-notturna.jpg',
+    'FIG-01': ('spiaggia-notturna.webp',
                '1008_Beach_at_Night_with_Moon_and_Stars_in_Ko_Li_Pe_-_Tarutao_National_Park,_Satun,_Thailand.jpg',
                'Piith.hant (Piith Hant)', 'CC BY-SA 4.0',
                'https://creativecommons.org/licenses/by-sa/4.0/',
@@ -74,7 +74,7 @@ MOTION = '''<script data-component="movimento-acqua">
 
 
 def uri(path):
-    mime = {'.jpg':'image/jpeg', '.gif':'image/gif', '.png':'image/png', '.svg':'image/svg+xml'}[path.suffix]
+    mime = {'.jpg':'image/jpeg', '.gif':'image/gif', '.png':'image/png', '.svg':'image/svg+xml', '.webp':'image/webp'}[path.suffix]
     return 'data:' + mime + ';base64,' + base64.b64encode(path.read_bytes()).decode()
 
 
@@ -116,7 +116,7 @@ class Renderer:
         width, height = Image.open(path).size
         meta = attributes({'source':COMMONS + source, 'author':author,
                            'license':license_name, 'license-url':license_url,
-                           'changes':'Nessuna modifica ai pixel; visualizzazione proporzionale senza ritaglio.'})
+                           'changes':('Riduzione proporzionale da 5760 × 3840 a 1920 × 1280 px e compressione WebP, qualità 85; nessun ritaglio. Originale conservato.' if key == 'FIG-01' else 'Nessuna modifica ai pixel; visualizzazione proporzionale senza ritaglio.')})
         classes = 'visual cover photo' if key == 'COP-01' else 'visual photo'
         extra = ''
         if key == 'FIG-02':
@@ -218,6 +218,11 @@ def register_sources():
     registry = json.loads(path.read_text())
     doc = registry['documents'].setdefault(TARGET.name, {'title': TITLE + ' — Materia Oscura',
         'anchor': 'energia-interna-calore-specifico-it', 'credits': [], 'lexend':True, 'review':''})
+    # La nuova variante della spiaggia sostituisce l’associazione al vecchio
+    # avviso del solo articolo corrente; la scheda e l’originale restano conservati.
+    beach_source = COMMONS + META['FIG-01'][1]
+    beach_ids = {r['id'] for r in registry['resources'] if r.get('source') == beach_source}
+    doc['credits'] = [a for a in doc['credits'] if a['resource'] not in beach_ids]
     sources = [
         ('https://www.engineeringtoolbox.com/specific-heat-capacity-d_391.html', 'Engineering ToolBox',
          'Dati della tabella TAB-01 e del grafico GRA-01',
@@ -305,7 +310,7 @@ def main():
     template = (ROOT / 'riferimenti/TEMA_DISPENSE.html').read_text()
     template = re.sub(r'<!-- MODELLO CANONICO.*?-->', '<!-- Articolo autonomo dal tema canonico v8; testo approvato. -->',template,count=1,flags=re.S)
     template = template.replace('<title>Tema grafico delle dispense — modello riutilizzabile</title>', '<title>' + TITLE + ' — Materia Oscura</title>')
-    template = template.replace('name="version" content="v8"', 'name="version" content="v3"',1)
+    template = template.replace('name="version" content="v8"', 'name="version" content="v4"',1)
     template = template.replace('name="date" content="2026-10-18"', 'name="date" content="2026-10-19"',1)
     template = template.replace('Modello autonomo del tema grafico comune a tutti i capitoli futuri.', 'Energia interna, calore, capacità termica e calore specifico: perché il mare resta tiepido di notte.')
     template = template.replace('Nome dell’area tematica','Materia e calore').replace('Titolo dell’articolo',TITLE)
@@ -323,7 +328,7 @@ def main():
                   '<a rel="next" href="https://rickymusu-bit.github.io/fisica/stati_della_materia.html">'
                   '<span>Articolo successivo →</span><small>Stati della materia</small></a></nav>')
     template = template.replace('<!-- chapter-navigation:end -->',navigation+'<!-- chapter-navigation:end -->')
-    template = template.replace('Versione v8 · 2026-10-18','Versione v3 · 19 ottobre 2026')
+    template = template.replace('Versione v8 · 2026-10-18','Versione v4 · 19 ottobre 2026')
     template = template.replace('</body>',MOTION+'</body>')
     TARGET.write_text(template)
     register_sources()

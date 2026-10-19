@@ -16,7 +16,7 @@
       "height": 3840,
       "frames": 1,
       "sha256": "680e6ae316f9cd2783cc2456d28d94f8234d525f1171e518c6d1d6a0a3dacc20",
-      "uso_corrente": true
+      "uso_corrente": false
     },
     {
       "file": "molecola-agitazione-termica.gif",
@@ -46,7 +46,18 @@
       "sha256": "86d9aee90f0b782303e361f38f041308bb6f6577947a6d1587ff2ba317018a75",
       "uso_corrente": true,
       "source": "https://commons.wikimedia.org/wiki/File:Ivy_Mike_-_fireball.jpg"
+    },
+    {
+      "file": "spiaggia-notturna.webp",
+      "bytes": 191742,
+      "width": 1920,
+      "height": 1280,
+      "frames": 1,
+      "sha256": "23fcb7ff72829352a84e4b1cc0566e1d53de7104188479508500be69b296b129",
+      "uso_corrente": true,
+      "source": "https://commons.wikimedia.org/wiki/File:1008_Beach_at_Night_with_Moon_and_Stars_in_Ko_Li_Pe_-_Tarutao_National_Park,_Satun,_Thailand.jpg",
+      "changes": "Ridimensionamento proporzionale e compressione WebP qualità 85 autorizzati; originale conservato."
     }
   ],
-  "modifiche": "Nessuna alterazione dei file. Per MD water.gif recuperato l’originale Commons invece della copia ingrandita a 1920 px."
+  "modifiche": "Compressa soltanto la spiaggia su richiesta. Originali conservati; copertina e GIF correnti inalterate."
 }

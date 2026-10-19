@@ -26,7 +26,7 @@ def static_checks():
     assert len(ids) == len(set(ids)), 'ID duplicati'
     missing = [a for a in document.xpath('//a/@href') if a.startswith('#') and a != '#' and a[1:] not in ids]
     assert not missing, missing
-    for key, filename in [('cop-01','copertina-ivy-mike.jpg'),('fig-01','spiaggia-notturna.jpg'),('fig-02','acqua-movimento-molecolare.gif')]:
+    for key, filename in [('cop-01','copertina-ivy-mike.jpg'),('fig-01','spiaggia-notturna.webp'),('fig-02','acqua-movimento-molecolare.gif')]:
         src = document.get_element_by_id(key).xpath('.//img/@src')[0]
         assert base64.b64decode(src.split(',',1)[1]) == (WORK/'risorse'/filename).read_bytes()
     assert len(document.xpath('//ol[@class="questions"]/li')) == 8
@@ -43,7 +43,7 @@ def static_checks():
     assert not credits.unassociated(registry,TARGET.name)
     results = {'byte':TARGET.stat().st_size, 'limite_byte':20_000_000,
                'sha256':hashlib.sha256(TARGET.read_bytes()).hexdigest(),
-               'stili_e_script_comuni_identici':True, 'immagini_originali_incorporate':True,
+               'stili_e_script_comuni_identici':True, 'immagini_correnti_incorporate':True, 'copertina_e_gif_originali_invariate':True,
                'domande':8,'formule':5,'righe_tabella':10,'note':4,
                'id_univoci_e_ancore_valide':True, 'risorse_senza_crediti':[],
                'catalogo_e_manifest_invariati':True}

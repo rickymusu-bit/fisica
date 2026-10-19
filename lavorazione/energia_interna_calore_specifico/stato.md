@@ -1,6 +1,6 @@
 # Stato — Energia interna, calore e calore specifico
 
-Versione v13 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
+Versione v14 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
 
 ## Ambito e punto di partenza
 
@@ -165,3 +165,15 @@ GIF: WebP senza perdita da 6159492 a 8869172 byte, quindi non conveniente; verif
 Copie delle fotografie e fotogrammi video esaminati visivamente; nessun ritaglio o modifica del modello fisico. Le prove rimangono in /workspace/compressione-visuali; rapporto delle misure in prove-compressione.json sul ramo. Stime calcolate sulle dimensioni reali delle copie, includendo base64 e mantenendo il resto del documento: il peso definitivo si misurerebbe dopo integrazione. Le foto compresse riducono risoluzione o precisione dei pixel; non dichiarare assenza totale di perdita. Originali e risorse correnti dell’articolo intatti.
 
 Scopo corrente completato: grafico corretto e riduzioni misurate. Nessuna compressione sostitutiva, pubblicazione o integrazione in main eseguita.
+
+## Revisione corrente — HTML v4, sola spiaggia compressa
+
+Richiesta: «Lascia la copertina originale, comprimi solo la spiaggia. In che senso mp4 cambia il formato dell’animazione?». Compressione della sola spiaggia autorizzata ed eseguita; copertina e GIF mantenute esattamente nei file e nei byte della versione precedente. Spiegato che MP4 riprodurrebbe la sequenza come video locale incorporato invece che come immagine animata, richiedendo un componente diverso per riproduzione e pausa; nessuna conversione applicata all’articolo.
+
+Spiaggia: originale JPEG 7665607 byte, 5760 × 3840 px, conservato. Versione corrente WebP qualità 85, 191742 byte, 1920 × 1280 px, riduzione proporzionale senza ritagli. Pixel ridotti/compressi come da scelta; licenza CC BY-SA 4.0 e attribuzione conservate, modifiche dichiarate nel registro unico e nello snapshot offline. L’associazione del solo nuovo articolo usa l’avviso della variante compressa; non duplica il credito del vecchio uso integrale.
+
+HTML autonomo v4: 9429717 byte, circa 9,43 MB, riduzione del 51,4% rispetto ai 19394650 byte precedenti. Copia bozza.html identica; bozza testuale v9 aggiorna soltanto segnaposto e credito della spiaggia. Testo didattico, dati, formule, grafico e domande invariati. Fonti scientifiche sempre nei crediti.
+
+Controlli statici superati: CSS/script comuni identici, immagini correnti incorporate correttamente, copertina e GIF confrontate byte per byte con Git, nessun ID duplicato o ancora mancante, nessuna risorsa non accreditata. Chromium offline a 1280 e 390 px: immagine WebP caricata a 1920 × 1280 px, nessun overflow, errore JS o richiesta esterna; controlli pausa/ripresa della GIF e crediti della modifica funzionanti. Anteprime della spiaggia esaminate alle due larghezze; report verifiche-spiaggia.json, verifiche-finali.json e peso-visuali.json aggiornati.
+
+Nessuna ulteriore compressione o conversione dei materiali; originali preservati. Salvataggio nella stessa PR #38; nessuna pubblicazione o integrazione in main.

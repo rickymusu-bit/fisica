@@ -1,6 +1,6 @@
 # Energia interna, calore e calore specifico
 
-Versione v8 · 19 ottobre 2026 (Europe/Rome).
+Versione v9 · 19 ottobre 2026 (Europe/Rome).
 Bozza testuale per revisione; i segnaposto indicano le visuali da inserire nell’HTML dopo la scelta dei file.
 
 [COP-01 — Copertina scelta: sfera incandescente del test Ivy Mike. File: risorse/copertina-ivy-mike.jpg. Conservare integralmente composizione e proporzioni.]
@@ -13,7 +13,7 @@ Didascalia: La sfera incandescente del test nucleare Ivy Mike. L’energia liber
 
 Durante il giorno acqua e sabbia ricevono energia dal Sole. Dopo il tramonto continuano a cedere energia all’ambiente, ma la loro temperatura può diminuire in modo molto diverso. Per capire perché, dobbiamo distinguere tre idee che nel linguaggio comune tendiamo a sovrapporre: temperatura, energia interna e calore.
 
-[FIG-01 — Fotografia scelta: spiaggia notturna di Ko Li Pe, Thailandia. File: risorse/spiaggia-notturna.jpg. Foto integrale, senza valori di temperatura sovrapposti.]
+[FIG-01 — Fotografia scelta: spiaggia notturna di Ko Li Pe, Thailandia. File: risorse/spiaggia-notturna.webp. Foto ridimensionata proporzionalmente e compressa su richiesta; composizione integrale, senza valori di temperatura sovrapposti.]
 
 Didascalia: Sabbia, rocce e mare sotto il cielo notturno di Ko Li Pe. Dopo il tramonto l’acqua può restare tiepida mentre la superficie della sabbia si raffredda.
 
@@ -157,7 +157,7 @@ Ecco perché, dopo il tramonto, possiamo trovare ancora tiepido il mare mentre l
 ### Immagini e animazione
 
 - **COP-01 — Ivy Mike - fireball.jpg:** Charles Wyckoff; provenienza NNSA Nevada Site Office Photo Library, identificativo IVY-52-07. [Fonte originale](https://commons.wikimedia.org/wiki/File:Ivy_Mike_-_fireball.jpg). Pubblico dominio, opera realizzata nell’ambito delle funzioni ufficiali del Dipartimento dell’Energia degli Stati Uniti o di un ente predecessore, secondo la scheda Commons (PD-USGov-DOE). Versione 1920 px scelta dall’utente, senza modifiche.
-- **FIG-01 — Spiaggia notturna di Ko Li Pe:** Piith.hant (Piith Hant), [fonte originale](https://commons.wikimedia.org/wiki/File:1008_Beach_at_Night_with_Moon_and_Stars_in_Ko_Li_Pe_-_Tarutao_National_Park,_Satun,_Thailand.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). File originale integrale, senza modifiche.
+- **FIG-01 — Spiaggia notturna di Ko Li Pe:** Piith.hant (Piith Hant), [fonte originale](https://commons.wikimedia.org/wiki/File:1008_Beach_at_Night_with_Moon_and_Stars_in_Ko_Li_Pe_-_Tarutao_National_Park,_Satun,_Thailand.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Riduzione proporzionale a 1920 × 1280 px e compressione WebP, qualità 85, senza ritaglio. Originale conservato.
 - **FIG-02 — MD water.gif:** Kmckiern, [fonte originale](https://commons.wikimedia.org/wiki/File:MD_water.gif), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Simulazione del movimento delle molecole d’acqua; file originale di Commons, senza modifiche. Animazione rallentata: la durata di riproduzione non coincide con quella del fenomeno microscopico.
 
 </details>
