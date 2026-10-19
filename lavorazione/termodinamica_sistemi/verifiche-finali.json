@@ -1,9 +1,9 @@
 {
   "file": "termodinamica_sistemi_it.html",
-  "version": "v2",
+  "version": "v3",
   "date": "2026-10-19",
-  "bytes": 13388849,
-  "sha256": "47a5a54e30565c25ec424a85645f4923dad41b9129dfc98db39114fe44bc4ad9",
+  "bytes": 13388898,
+  "sha256": "d0367e001cd3bc992b4147e7d1812a449c4b804813d057211f28a92642d25ddd",
   "figure": 7,
   "domande": 8,
   "css_tema_canonico_inalterato": true,
@@ -12,6 +12,8 @@
   "build_pages": "superata; nuovo articolo escluso dalla pubblicazione",
   "main_home_manifest": "invariati",
   "frecce_colore": "#0066b3",
-  "frecce_fotografiche_entro_bordi": true,
-  "ingrandimento_solo_con_testi_didattici": true
+  "ingrandimento_solo_con_testi_didattici": true,
+  "frecce_spessore_svg": 5,
+  "frecce_punta_svg": 28,
+  "frecce_estensione_oltre_foto_autorizzata": true
 }

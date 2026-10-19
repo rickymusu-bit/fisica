@@ -36,7 +36,7 @@ def text(x,y,lines,size=23):
     return '<text x="%s" y="%s" fill="#080808" font-family="Lexend,Arial,sans-serif" font-size="%s">%s</text>'%(x,y,size,''.join('<tspan x="%s" dy="%s">%s</tspan>'%(x,0 if i==0 else 30,escape(s)) for i,s in enumerate(lines)))
 
 def line(x1,y1,x2,y2,arrow=False):
-    return f'<path d="M{x1},{y1} L{x2},{y2}" fill="none" stroke="'+('#0066b3' if arrow else '#080808')+'" stroke-width="3"'+(' marker-end="url(#freccia)"' if arrow else '')+'/>'
+    return f'<path d="M{x1},{y1} L{x2},{y2}" fill="none" stroke="'+('#0066b3' if arrow else '#080808')+'" stroke-width="'+('5' if arrow else '3')+'"'+(' marker-end="url(#freccia)"' if arrow else '')+'/>'
 
 def boundary(d):
     # Doppio tratto per distinguere il confine anche nelle zone scure della foto.
@@ -55,8 +55,8 @@ def scene(key):
         out+=text(28,40,'Sistema: tazza e bevanda',25)+text(28,80,'Ambiente: aria, tavolo e resto della stanza',21)
         out+=boundary('M370,286 Q435,277 528,286 L531,308 Q600,293 597,346 Q592,391 530,407 L527,450 Q470,503 391,468 Q367,448 370,286 Z')
         out+=text(25,550,['Confine: superficie esterna della tazza', 'e superficie ideale sopra l’apertura.'],23)
-        out+=line(430,283,430,165,True)+text(465,100,['Materia in uscita:','acqua per evaporazione'],20)
-        out+=line(526,440,685,470,True)+text(615,530,['Energia ceduta','all’ambiente'],21)
+        out+=line(430,283,430,112,True)+text(465,100,['Materia in uscita:','acqua per evaporazione'],20)
+        out+=line(526,440,775,485,True)+text(615,530,['Energia ceduta','all’ambiente'],21)
         H=650
     elif key=='TS-3':
         out+=text(28,42,'Sistema: thermos chiuso e contenuto',25)
@@ -91,7 +91,7 @@ def scene(key):
         out+=text(28,42,'Sistema: una delle molle',25)
         out+=text(28,82,'Molle da trazione: consideriamo allungamento e rilascio.',20)
         out+=boundary('M355,215 Q383,205 374,227 Q340,251 347,283 Q358,312 395,320 L404,216 Q409,199 435,198 L596,187 Q612,185 618,204 L631,202 L625,192 Q628,178 640,182 Q686,204 675,266 Q665,312 616,324 L429,343 Q401,346 377,334 Q321,324 318,286 Q315,249 355,215 Z')
-        out+=line(348,255,295,255,True)+line(671,245,710,245,True)
+        out+=line(348,255,270,255,True)+line(671,245,742,245,True)
         out+=text(25,550,['Allungamento: le forze tirano i due estremi;', 'la molla riceve energia tramite lavoro.'],24)
         out+=text(25,640,['Rilascio: la molla può compiere lavoro all’esterno.', 'La materia resta la stessa; il confine cambia forma.'],23)
         H=735
@@ -143,7 +143,7 @@ def main():
     template=(ROOT/'riferimenti/TEMA_DISPENSE.html').read_text()
     template=re.sub(r'<!-- MODELLO CANONICO.*?-->','<!-- Articolo autonomo; tema canonico v8. -->',template, count=1,flags=re.S)
     template=template.replace('<title>Tema grafico delle dispense — modello riutilizzabile</title>',f'<title>{TITLE} — Materia Oscura</title>')
-    template=template.replace('name="version" content="v8"','name="version" content="v2"',1).replace('name="date" content="2026-10-18"','name="date" content="2026-10-19"',1)
+    template=template.replace('name="version" content="v8"','name="version" content="v3"',1).replace('name="date" content="2026-10-18"','name="date" content="2026-10-19"',1)
     template=template.replace('Modello autonomo del tema grafico comune a tutti i capitoli futuri.','Sistema, ambiente e confine; scambi di materia ed energia; sistemi aperti, chiusi e isolati.')
     template=template.replace('Nome dell’area tematica','Materia e calore').replace('Titolo dell’articolo',TITLE)
     template=template.replace('<span class="sidebar-label">Fisica</span>','<span class="sidebar-label">Materia e calore</span>')
@@ -151,9 +151,9 @@ def main():
     template=re.sub(r'<figure class="visual cover">.*?</figure>',lambda _:cover,template,count=1,flags=re.S)
     template=re.sub(r'(<article class="article">).*?(<nav class="bottom-links")',lambda m:m[1]+''.join(body)+m[2],template,count=1,flags=re.S)
     template=re.sub(r'(<details class="chapter-notes".*?<ol>).*?(</ol>)',lambda m:m[1]+''.join(notes)+m[2],template,count=1,flags=re.S)
-    template=template.replace('Versione v8 · 2026-10-18','Versione v2 · 19 ottobre 2026')
+    template=template.replace('Versione v8 · 2026-10-18','Versione v3 · 19 ottobre 2026')
     # Marker condiviso da tutti gli schemi; resta definito anche quando una overview è nascosta.
-    defs='<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" aria-hidden="true" style="position:absolute"><defs><marker id="freccia" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#0066b3"/></marker></defs></svg>'
+    defs='<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" aria-hidden="true" style="position:absolute"><defs><marker id="freccia" markerUnits="userSpaceOnUse" markerWidth="28" markerHeight="28" viewBox="0 0 8 8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#0066b3"/></marker></defs></svg>'
     template=template.replace('<main>','<main>'+defs,1)
     TARGET.write_text(template)
     print(TARGET.name,TARGET.stat().st_size,'byte')

@@ -2379,7 +2379,8 @@
         "asset-a9c60c050c325f86e8b619691440b7242b055216d7f7cf0301ad33f08be84f10",
         "asset-82ece271eebbe486005837931f190b255f3bef3f60a4f7be65a50dc3e166e765",
         "asset-ff897f1ccb41f3f0dbc576e18b191fcb364720e58c5b455e047036d20cb31372",
-        "asset-f924d13834372dbac87326b7d14d4fe358f013c2ce2a91adacc5b9b9ea0d4fe8"
+        "asset-f924d13834372dbac87326b7d14d4fe358f013c2ce2a91adacc5b9b9ea0d4fe8",
+        "asset-e3d0ef35a4366a96b2a5302b392b6b59bc10b7c49d5acfa5fded59dbdfb334e6"
       ]
     },
     {
@@ -2446,7 +2447,8 @@
         "asset-99d9cbbbe224b74f0df4234d906e59f715b274048fcf3d550da5eeca0e345508",
         "asset-edfa55ccdcff6b71ccfbeaac38d42156ca954f400ad150a1f08df4613c01f091",
         "asset-237584fd4b95538e4344e210a5283b0f97525de08ce7a04521dbca7278bc3b3d",
-        "asset-34877e67de1db3dc959b7a8bf3410939bff50569bbef38a5e87fec46b16af43c"
+        "asset-34877e67de1db3dc959b7a8bf3410939bff50569bbef38a5e87fec46b16af43c",
+        "asset-5b8f5c37ae82e1f608eb2967d36711291f074d6b4fc89717a2427a61734e4cce"
       ]
     },
     {
@@ -2491,7 +2493,8 @@
         "asset-1cc81d4878099d2b35fd6dcfefbfbdf4c16867602fad5269c5cf1c38dbb6fd01",
         "asset-d614de23b81eababace60c2fef71def4052eb278dafe9ea6a2765203dde6de9e",
         "asset-2a5e736bd6e2e3abf3ee16a35abde380010eafd8babb93aa92312ffef6341aac",
-        "asset-b74439244cebd100fc1372e57a73d4f2ebf9504aabd6c42145ada257f5e67bc6"
+        "asset-b74439244cebd100fc1372e57a73d4f2ebf9504aabd6c42145ada257f5e67bc6",
+        "asset-0624ea9cb55c654525b21ddcb47623039b59382e1020c9e87ee64a307caf1bd0"
       ]
     }
   ],
@@ -3128,6 +3131,21 @@
       ]
     },
     {
+      "id": "asset-0624ea9cb55c654525b21ddcb47623039b59382e1020c9e87ee64a307caf1bd0",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "termodinamica_sistemi_it.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "ts-7",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "credit-6ec3dfbf05b57cd3"
+        }
+      ]
+    },
+    {
       "id": "asset-07570df75907679b1290d16c7efb5ce2353299dad772841c24d36ec4d5c0a2a4",
       "kind": "image/jpeg",
       "uses": [
@@ -3152,6 +3170,21 @@
           "description": "image",
           "locator": "potenza-it",
           "attribute": "href",
+          "location": null,
+          "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-08fcc6a2ab5fabf501c09e8857c8104d1aef6553833e83baf7f41ef0128cea9f",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "termodinamica_sistemi_it.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "inizio",
+          "attribute": "inline",
           "location": null,
           "credit_id": null
         }
@@ -3695,21 +3728,6 @@
       ]
     },
     {
-      "id": "asset-34877e67de1db3dc959b7a8bf3410939bff50569bbef38a5e87fec46b16af43c",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "termodinamica_sistemi_it.html",
-          "kind": "svg",
-          "description": "svg",
-          "locator": "ts-5",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": "credit-fca175ce9a7f4dab"
-        }
-      ]
-    },
-    {
       "id": "asset-3557155878051ae87547e92f9d92f0759d003f137c46eedd245fc0a8cc6aadb4",
       "kind": "image/jpeg",
       "uses": [
@@ -4237,6 +4255,21 @@
           "attribute": "inline",
           "location": null,
           "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-5b8f5c37ae82e1f608eb2967d36711291f074d6b4fc89717a2427a61734e4cce",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "termodinamica_sistemi_it.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "ts-5",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "credit-fca175ce9a7f4dab"
         }
       ]
     },
@@ -5423,21 +5456,6 @@
       ]
     },
     {
-      "id": "asset-b74439244cebd100fc1372e57a73d4f2ebf9504aabd6c42145ada257f5e67bc6",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "termodinamica_sistemi_it.html",
-          "kind": "svg",
-          "description": "svg",
-          "locator": "ts-7",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": "credit-6ec3dfbf05b57cd3"
-        }
-      ]
-    },
-    {
       "id": "asset-b8095eb15ffe7f87eb0f126c390f54402c70875cd5f6ea42df90983bdcde267e",
       "kind": "image/jpeg",
       "uses": [
@@ -6128,21 +6146,6 @@
       ]
     },
     {
-      "id": "asset-d9091e17c96f58c51eb7e34379f5a790283f35d564721845f566850995e7cb4c",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "termodinamica_sistemi_it.html",
-          "kind": "svg",
-          "description": "svg",
-          "locator": "inizio",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-d9366fc6b3e97e96df8ed83f14d2626e0b6712864eac20f17c4faca3d3ac165b",
       "kind": "image/gif",
       "uses": [
@@ -6343,6 +6346,21 @@
           "attribute": "cover-data",
           "location": "copertine/altoforno.webp",
           "credit_id": "credit-7afac354280d2d74"
+        }
+      ]
+    },
+    {
+      "id": "asset-e3d0ef35a4366a96b2a5302b392b6b59bc10b7c49d5acfa5fded59dbdfb334e6",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "termodinamica_sistemi_it.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "ts-1",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "credit-2745b5c3fc7949d9"
         }
       ]
     },
@@ -6580,21 +6598,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-f924d13834372dbac87326b7d14d4fe358f013c2ce2a91adacc5b9b9ea0d4fe8",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "termodinamica_sistemi_it.html",
-          "kind": "svg",
-          "description": "svg",
-          "locator": "ts-1",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": "credit-2745b5c3fc7949d9"
         }
       ]
     },
