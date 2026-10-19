@@ -1,10 +1,10 @@
 # Il bilancio termico
 
-<!-- Bozza v2 · 19 ottobre 2026, ore 21:41 (Europe/Rome). Testo da approvare; non è l’HTML finale. -->
+<!-- Bozza v3 · 19 ottobre 2026, ore 21:45 (Europe/Rome). Testo da approvare; non è l’HTML finale. -->
 
-[IMMAGINE COP-01 — Tazza di caffè con latte al Garden Café di Brighton; risorse/copertina-latte-brighton.jpg. Solo copertina, non ripetuta nel corpo.]
+[IMMAGINE COP-01 — Scena della colazione nel dipinto Pouring the morning coffee di Laurits Tuxen; risorse/copertina-tuxen.jpg. Solo copertina, non ripetuta nel corpo.]
 
-Didascalia: Una tazza di caffè con latte: per prevedere la temperatura della miscela dobbiamo seguire gli scambi di energia.
+Didascalia: Il caffè viene versato nelle tazze durante la colazione. Bevande e recipienti possono scambiare energia quando hanno temperature diverse.
 
 ## Quanto si raffredda il caffè?
 
@@ -136,7 +136,7 @@ La regola resta la stessa: sommare i calori scambiati, ciascuno con il proprio s
 
 Questa sezione conserva la provenienza per la futura integrazione nel registro unico; non è una sezione didattica né una sezione finale visibile dell’HTML.
 
-- **COP-01**: *Latte - Garden Café Brighton 2023-12-30.jpg*, Andy Li; [scheda Commons](https://commons.wikimedia.org/wiki/File:Latte_-_Garden_Caf%C3%A9_Brighton_2023-12-30.jpg). [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Versione a 960 px scelta esplicitamente come copertina; nessuna modifica ulteriore.
+- **COP-01**: *Pouring the morning coffee* (1906), Laurits Tuxen, Skagens Museum, riproduzione Google Art Project; [scheda Commons](https://commons.wikimedia.org/wiki/File:Laurits_Tuxen_-_Pouring_the_morning_coffee_-_Google_Art_Project.jpg). Opera e riproduzione dichiarate di pubblico dominio sulla fonte, PD-Art e [Public Domain Mark 1.0](https://creativecommons.org/publicdomain/mark/1.0/); non attribuire una licenza CC0. Versione a 960 px scelta dall’utente; nessuna modifica ulteriore.
 - **FIG-03**: *Pouring Milk Coffee*, indicata come “By Burst” sulla [fonte originale NegativeSpace](https://negativespace.co/pouring-milk-coffee/); versione scelta tramite [Rawpixel, immagine 5915327](https://www.rawpixel.com/image/5915327). [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). File 1024 × 683 px ricevuto dall’utente, senza modifiche; i metadati XMP conservati nel file collegano la foto alla fonte originale e alla licenza.
 - **FIG-01**: *A small cup of coffee.JPG*, Julius Schorzman; [scheda Commons](https://commons.wikimedia.org/wiki/File:A_small_cup_of_coffee.JPG). [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/). Versione a 960 px scelta dall’utente; nessuna modifica ulteriore. La fonte reca anche l’avviso originale «NOTE: I only require attribution if you publish this photo in print or if it is used in a for-profit project.»: conservarlo nei metadati, mantenendo comunque l’attribuzione completa.
 - **FIG-02**: *Glass of Milk (33657535532).jpg*, NIAID; [scheda Commons](https://commons.wikimedia.org/wiki/File:Glass_of_Milk_(33657535532).jpg), provenienza [Flickr](https://www.flickr.com/photos/54591706@N02/33657535532/). [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/). Versione a 960 px scelta dall’utente, derivata dalla revisione Commons già ritagliata; nessun nuovo ritaglio o modifica.

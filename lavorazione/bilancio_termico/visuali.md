@@ -1,22 +1,23 @@
 # Visuali — Il bilancio termico
 
-Versione v4 · 19 ottobre 2026, ore 21:41 (Europe/Rome).
+Versione v5 · 19 ottobre 2026, ore 21:45 (Europe/Rome).
 
 ## Scelte effettive
 
 Fenomeno scelto dall’utente: mescolare caffè e latte, approssimando per entrambi il calore specifico a quello dell’acqua. Domanda adattata nella bozza: «Quanto si raffredda il caffè quando aggiungiamo il latte?».
 
-L’utente ha fornito cinque collegamenti specifici, di cui l’ultimo sostituisce FIG-03: le fotografie sono scelte, non chiedere una seconda approvazione. File scaricati nelle versioni indicate (960 px Commons e 1024 px Rawpixel), interamente decodificati e osservati direttamente. Nessuna elaborazione, conversione o nuovo ritaglio. La scelta delle fotografie non equivale all’approvazione del testo o al via all’HTML.
+L’utente ha fornito sei collegamenti specifici: FIG-03 è la nuova scelta Rawpixel e l’ultimo collegamento sostituisce COP-01: le fotografie sono scelte, non chiedere una seconda approvazione. File scaricati nelle versioni indicate (960 px Commons e 1024 px Rawpixel), interamente decodificati e osservati direttamente. Nessuna elaborazione, conversione o nuovo ritaglio. La scelta delle fotografie non equivale all’approvazione del testo o al via all’HTML.
 
-## COP-01 — Caffè con latte, Garden Café Brighton
+## COP-01 — Laurits Tuxen, Pouring the morning coffee
 
-- Scelta esplicita successiva: «Usa questa come copertina».
-- File: [risorse/copertina-latte-brighton.jpg](risorse/copertina-latte-brighton.jpg), 960 × 1280 px, 198695 byte.
-- Collegamento ricevuto: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Latte_-_Garden_Caf%C3%A9_Brighton_2023-12-30.jpg/960px-Latte_-_Garden_Caf%C3%A9_Brighton_2023-12-30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-- Fonte: https://commons.wikimedia.org/wiki/File:Latte_-_Garden_Caf%C3%A9_Brighton_2023-12-30.jpg . Autore: Andy Li.
-- Licenza: CC0 1.0, https://creativecommons.org/publicdomain/zero/1.0/ .
-- File scaricato nella versione indicata, decodificato e osservato direttamente: tazza e piattino con caffè e latte, superficie con decorazione di schiuma e cucchiaino. Nessuna misura o temperatura dedotta dalla foto; non trattarla come prova di aggiunta di latte freddo.
-- Uso esclusivo: copertina, non ripetuta nel testo. Proporzioni originali, senza ritaglio, ricampionamento o conversione.
+- Scelta esplicita corrente: «Usa questa come copertina», con https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Laurits_Tuxen_-_Pouring_the_morning_coffee_-_Google_Art_Project.jpg/960px-Laurits_Tuxen_-_Pouring_the_morning_coffee_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail .
+- File corrente: [risorse/copertina-tuxen.jpg](risorse/copertina-tuxen.jpg), 960 × 1187 px, 523456 byte. Versione indicata dall’utente, scaricata, decodificata e osservata direttamente.
+- Fonte: https://commons.wikimedia.org/wiki/File:Laurits_Tuxen_-_Pouring_the_morning_coffee_-_Google_Art_Project.jpg .
+- Opera: Laurits Tuxen, Pouring the morning coffee (Morgenkaffen skænkes), 1906, olio su tela, Skagens Museum, inventario 359. Provenienza della riproduzione: Google Cultural Institute / Google Art Project.
+- Diritti dichiarati sulla fonte: pubblico dominio per l’opera e riproduzione fedele bidimensionale, PD-Art (PD-old-auto-expired), Public Domain Mark 1.0, https://creativecommons.org/publicdomain/mark/1.0/ . Non indicare CC0: è una marcatura di pubblico dominio, non la precedente licenza della fotografia sostituita.
+- Osservazione: scena domestica della colazione, una donna versa il caffè nelle tazze, persone sedute, tavola e recipienti. La didascalia non afferma che il dipinto mostri l’aggiunta di latte freddo e non deduce temperature.
+- Uso esclusivo: copertina. Nessun ritaglio, ricampionamento, conversione o modifica; proporzioni originali. Non riutilizzare nel corpo.
+- Precedente copertina Garden Café Brighton di Andy Li conservata in [risorse/copertina-latte-brighton.jpg](risorse/copertina-latte-brighton.jpg) come originale storico, non più usata né accreditata come copertina corrente. Nessun’altra figura sostituita.
 
 ## FIG-03 — Latte versato nel caffè, nuova scelta Rawpixel
 
@@ -26,7 +27,7 @@ L’utente ha fornito cinque collegamenti specifici, di cui l’ultimo sostituis
 - La fonte NegativeSpace è stata consultata: stessa immagine, titolo “Pouring Milk Coffee”, attribuzione “By Burst” e licenza CC0 dichiarata esplicitamente. Conservare Burst come attribuzione della fonte e Rawpixel come distributore della versione scelta, senza inventare un fotografo diverso.
 - Licenza verificata: CC0 1.0, https://creativecommons.org/publicdomain/zero/1.0/ . Non dedotta dal solo accesso pubblico al file o dalla licenza generale Rawpixel.
 - Nessun ritaglio, ricampionamento, conversione o modifica. Originale con XMP conservato integralmente.
-- Uso: figura interna all’apertura. La copertina COP-01 Garden Café Brighton resta invariata.
+- Uso: figura interna all’apertura. La figura interna resta quella scelta su Rawpixel; la copertina corrente è il dipinto di Tuxen.
 - Il precedente file [risorse/versamento-latte.jpg](risorse/versamento-latte.jpg), shixugang, CC0 1.0, resta conservato come originale storico, non più usato o accreditato come figura corrente. La cronologia conserva la scheda precedente.
 
 ## FIG-01 — Tazza di caffè
@@ -59,6 +60,6 @@ La breve sezione sulla tazza fa parte della bozza da approvare, con la foto pert
 
 Impronte SHA-256, dimensioni, URL di download e byte in [risorse/originali.json](risorse/originali.json). Sono gli originali delle versioni indicate dall’utente, non le versioni a risoluzione massima di Commons.
 
-Bozza completa v2 in [bozza.md](bozza.md), con segnaposto, didascalie, nove domande finali senza soluzioni e crediti di servizio. In fase HTML trasferire i metadati al registro unico, senza creare un secondo registro pubblico; applicare il tema corrente v9 da main, da leggere prima dell’impaginazione.
+Bozza completa v3 in [bozza.md](bozza.md), con segnaposto, didascalie, nove domande finali senza soluzioni e crediti di servizio. In fase HTML trasferire i metadati al registro unico, senza creare un secondo registro pubblico; applicare il tema corrente v9 da main, da leggere prima dell’impaginazione.
 
 Prossimo passo: revisione e approvazione del testo. Poi stima totale ripartita e via esplicito secondo B1.1–B2. Nessuna modifica a main, catalogo o pubblicazione.

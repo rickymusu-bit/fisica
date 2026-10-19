@@ -1,6 +1,6 @@
 # Stato — Il bilancio termico
 
-Versione v4 · 19 ottobre 2026, ore 21:41 (Europe/Rome).
+Versione v5 · 19 ottobre 2026, ore 21:45 (Europe/Rome).
 
 ## Identità e ambito
 
@@ -10,7 +10,7 @@ Ramo: `termodinamica/bilancio-termico`, derivato da main. La lavorazione era ass
 
 ## Fase corrente
 
-**Bozza completa v2 da approvare**, salvata in [bozza.md](bozza.md). Immagini scelte, scaricate e osservate; nessun HTML o simulazione realizzati. Nove domande finali miste senza soluzioni, due note brevi, nessuna applicazione separata o esercizio svolto.
+**Bozza completa v3 da approvare**, salvata in [bozza.md](bozza.md). Immagini scelte, scaricate e osservate; nessun HTML o simulazione realizzati. Nove domande finali miste senza soluzioni, due note brevi, nessuna applicazione separata o esercizio svolto.
 
 ## Approvazioni effettive
 
@@ -38,7 +38,7 @@ Letti integralmente AGENTS.md corrente e MASTER_PROMPT.md v63 da main, STILE_DIS
 
 ## Visuali e risorse
 
-[visuali.md](visuali.md) v4 registra soggetti, uso, URL esatti, autori, licenze e avvisi. COP-01 Garden Café Brighton: Andy Li, CC0 1.0; FIG-03 versamento corrente: Burst secondo NegativeSpace, distribuzione Rawpixel, CC0 1.0; FIG-01 caffè: Julius Schorzman, CC BY-SA 2.0; FIG-02 latte: NIAID, CC BY 2.0. Licenze verificate sulle quattro schede Commons il 19 ottobre 2026. Conservato l’avviso originale dell’autore del caffè e la provenienza della revisione già ritagliata del latte.
+[visuali.md](visuali.md) v5 registra soggetti, uso, URL esatti, autori, licenze e avvisi. COP-01 corrente: Laurits Tuxen, Pouring the morning coffee (1906), Skagens Museum / Google Art Project, pubblico dominio PD-Art e Public Domain Mark 1.0; FIG-03 versamento corrente: Burst secondo NegativeSpace, distribuzione Rawpixel, CC0 1.0; FIG-01 caffè: Julius Schorzman, CC BY-SA 2.0; FIG-02 latte: NIAID, CC BY 2.0. Licenze verificate sulle quattro schede Commons il 19 ottobre 2026. Conservato l’avviso originale dell’autore del caffè e la provenienza della revisione già ritagliata del latte.
 
 Scaricate le versioni a 960 px fornite: 198695 byte per la nuova copertina; 173724, 109150 e 137980 byte per le tre foto interne. Tutte decodificate e osservate direttamente, senza trasformazioni. File e impronte in risorse/. Nessun valore di massa o temperatura ricavato dalle fotografie. Non chiedere una seconda scelta delle stesse immagini.
 
@@ -54,8 +54,12 @@ Non eseguiti build Pages, check dei crediti HTML o prove browser: in questa fase
 
 ## Prossimo passo
 
-Revisione e approvazione della bozza v2. Successivamente comunicare la stima totale ripartita fra materiali, impaginazione, verifiche e salvataggio e attendere il via esplicito previsto dal master. HTML con anteprima desktop/mobile prima dell’eventuale pubblicazione; main e pubblicazione richiedono autorizzazione distinta.
+Revisione e approvazione della bozza v3. Successivamente comunicare la stima totale ripartita fra materiali, impaginazione, verifiche e salvataggio e attendere il via esplicito previsto dal master. HTML con anteprima desktop/mobile prima dell’eventuale pubblicazione; main e pubblicazione richiedono autorizzazione distinta.
 
 ## Sostituzione FIG-03 — scelta Rawpixel
 
 Richiesta esplicita «Usa questa per il latte che si versa» con il file Rawpixel registrato in visuali.md v4. Sostituito soltanto il segnaposto e il credito di FIG-03 nella bozza v2: teoria, formule, domande e copertina Garden Café Brighton invariati. Il nuovo file, 1024 × 683 px e 177074 byte, è stato scaricato integralmente, decodificato e osservato, senza modifiche. I metadati XMP rimandano a Rawpixel 5915327 e alla fonte NegativeSpace, che conferma CC0 e attribuzione “By Burst”. Originale precedente conservato, non più attivo. Registro delle impronte aggiornato; verificare salvataggio remoto e identità SHA-256 del nuovo file. Nessuna nuova approvazione delle foto necessaria; testo completo ancora da approvare, nessun via all’HTML o alla pubblicazione.
+
+## Copertina Tuxen — scelta corrente
+
+Successiva richiesta esplicita «Usa questa come copertina», con il dipinto Pouring the morning coffee di Laurits Tuxen. Sostituita COP-01 nella bozza v3, aggiornandone esclusivamente segnaposto, didascalia e credito. Testo teorico, formule, domande e tre immagini interne invariati. Fonte Commons consultata: opera del 1906 dello Skagens Museum, riproduzione Google Art Project dichiarata di pubblico dominio (PD-Art, Public Domain Mark 1.0), non CC0. Scaricata e osservata la versione indicata: 960 × 1187 px, 523456 byte, senza modifiche. Vecchia copertina Garden Café Brighton conservata come originale storico e non più usata. Aggiornati visuali.md e impronte; verificare identità remota del nuovo file prima della consegna. La scelta esplicita non richiede riconferma; bozza completa ancora da approvare, nessun HTML o pubblicazione autorizzati.

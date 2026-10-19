@@ -54,5 +54,23 @@
     "license": "CC0 1.0",
     "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
     "changes": "Nessuna; copia integrale della versione scelta."
+  },
+  {
+    "file": "copertina-tuxen.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Laurits_Tuxen_-_Pouring_the_morning_coffee_-_Google_Art_Project.jpg/960px-Laurits_Tuxen_-_Pouring_the_morning_coffee_-_Google_Art_Project.jpg",
+    "bytes": 523456,
+    "dimensions": [
+      960,
+      1187
+    ],
+    "sha256": "e414527fde76d8c66669fc80ce914a8d76b50acb697cae0fa0481fa3d7db2bf2",
+    "author": "Laurits Tuxen",
+    "title": "Pouring the morning coffee",
+    "year": 1906,
+    "collection": "Skagens Museum",
+    "source": "https://commons.wikimedia.org/wiki/File:Laurits_Tuxen_-_Pouring_the_morning_coffee_-_Google_Art_Project.jpg",
+    "rights": "Public domain; PD-Art; Public Domain Mark 1.0",
+    "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "changes": "Nessuna; versione a 960 px scelta dall’utente."
   }
 ]
