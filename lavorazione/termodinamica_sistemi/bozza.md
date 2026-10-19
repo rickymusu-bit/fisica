@@ -1,6 +1,6 @@
 # La termodinamica e i sistemi termodinamici
 
-<!-- Bozza v1 · 19 ottobre 2026 (Europe/Rome). Testo da approvare; non è l’HTML finale. Visuali scelte e fonti in visuali.md. -->
+<!-- Bozza v2 · 19 ottobre 2026 (Europe/Rome). Testo di riferimento per l’HTML v1; completamento richiesto il 19 ottobre 2026. Visuali scelte e fonti in visuali.md. -->
 
 [IMMAGINE TS-0 — Copertina: Hubble ultra deep field.jpg, proposta 1A approvata. Non riutilizzare nel testo.]
 
@@ -64,11 +64,11 @@ Didascalia: Pile usate raccolte per il riciclo. Per descrivere un sistema chiuso
 
 Una **pila integra** può essere descritta come un sistema chiuso. Quando alimenta un circuito, trasferisce energia elettrica all’esterno e può anche riscaldarsi e cedere energia all’ambiente. Le sostanze contenute nell’involucro si trasformano attraverso reazioni chimiche, ma non occorre consumarle espellendole nell’ambiente come avviene con il combustibile di un motore.[^pile] La foto mostra pile usate raccolte per il riciclo: lo scambio elettrico descritto riguarda il loro funzionamento in un circuito.
 
-[IMMAGINE E SCHEMA TS-7 — Springs 009.jpg, scelta dell’utente. Individuare una delle molle come sistema e descrivere una compressione e un rilascio ipotetici con frecce di forza/spostamento e lavoro in ingresso/uscita. Non rappresentare molle diverse come stati successivi della stessa; nessuna legge di Hooke o dato numerico.]
+[IMMAGINE E SCHEMA TS-7 — Springs 009.jpg, scelta dell’utente. Individuare una delle molle come sistema e descrivere un allungamento e un rilascio ipotetici con frecce di forza/spostamento e lavoro in ingresso/uscita. Non rappresentare molle diverse come stati successivi della stessa; nessuna legge di Hooke o dato numerico.]
 
 Didascalia: Una molla può ricevere e restituire energia quando viene deformata. Il suo confine si sposta insieme alla superficie del metallo.
 
-Anche una **molla** può essere un sistema chiuso, pur non essendo un contenitore. Quando la comprimiamo compiamo lavoro su di essa, trasferendole energia; quando la lasciamo distendere, può restituire energia compiendo lavoro su ciò che la trattiene. Durante la deformazione il confine cambia forma, ma la materia della molla rimane la stessa. Perché un sistema sia chiuso, quindi, non serve che abbia pareti rigide o una forma immutabile.
+Anche una **molla** può essere un sistema chiuso, pur non essendo un contenitore. Quando la allunghiamo compiamo lavoro su di essa, trasferendole energia; quando la lasciamo tornare alla forma iniziale, può restituire energia compiendo lavoro su ciò che la trattiene. Durante la deformazione il confine cambia forma, ma la materia della molla rimane la stessa. Perché un sistema sia chiuso, quindi, non serve che abbia pareti rigide o una forma immutabile.
 
 ## Domande di verifica
 
@@ -77,7 +77,7 @@ Anche una **molla** può essere un sistema chiuso, pur non essendo un contenitor
 3. Perché il corpo di un corridore è un sistema aperto? Indica due scambi di materia e uno di energia.
 4. Il motore in funzione riceve combustibile ed espelle gas di scarico. Quali di questi passaggi sono scambi di materia? Il movimento dell’albero motore rappresenta lo stesso tipo di scambio?
 5. **Scegli e spiega.** Nel modello di una pila integra che alimenta un circuito, il sistema è: A) aperto, perché trasferisce energia; B) chiuso, perché può trasferire energia senza flussi macroscopici di materia; C) isolato, perché ha un involucro.
-6. **Vero o falso? Motiva.** «Una molla non può essere un sistema chiuso perché il suo confine si sposta quando la comprimiamo».
+6. **Vero o falso? Motiva.** «Una molla non può essere un sistema chiuso perché il suo confine si sposta quando la allunghiamo».
 7. Un thermos chiuso, lasciato per molte ore, contiene una bevanda che si è raffreddata. Quale scambio è avvenuto? Perché questo non rende automaticamente il sistema aperto?
 8. Per classificare un sistema è sufficiente sapere che possiede un tappo? Spiega quali informazioni sugli scambi servono.
 

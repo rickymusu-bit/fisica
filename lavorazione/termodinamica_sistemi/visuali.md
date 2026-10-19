@@ -1,6 +1,6 @@
 # Visuali scelte — La termodinamica e i sistemi termodinamici
 
-Versione v2 · 19 ottobre 2026 (Europe/Rome).
+Versione v3 · 19 ottobre 2026 (Europe/Rome).
 
 Selezione esplicita dell’utente: 1A e sei collegamenti propri. Queste scelte sostituiscono le alternative precedenti, recuperabili nella cronologia Git. Non richiedere una seconda approvazione delle stesse immagini; l’approvazione delle immagini non è approvazione della bozza o via all’HTML. Conservare il contesto fotografico, senza rimozione automatica dello sfondo.
 
@@ -56,14 +56,13 @@ Sostituisce il powerbank. Foto di pile usate nella raccolta: descrivere singola 
 
 [Pagina Commons](https://commons.wikimedia.org/wiki/File:Springs_009.jpg) · [Immagine scelta](https://upload.wikimedia.org/wikipedia/commons/d/d5/Springs_009.jpg)
 
-Autore/provenienza: Autore non indicato nella scheda consultata; uploader Commons Qz10, da non confondere automaticamente con l’autore. Licenza: CC BY-SA 3.0, offerta tramite migrazione GFDL.
+Provenienza ricostruita: Renard~enwiki (caricamento originale su en.wikipedia, 18 giugno 2005); Zeimusu (ritaglio della data, stessa data); Qz10 (trasferimento su Commons). La scheda non esplicita un autore; non viene attribuita a Qz10 la paternità della fotografia. Licenza: CC BY-SA 3.0, offerta tramite migrazione GFDL.
 
-Ricostruire attribuzione dell’originale su en.wikipedia prima della consegna HTML. La scelta esplicita dell’utente prevale sul precedente suggerimento di molle montate.
+Cronologia pubblica conservata in `risorse/springs-log.json`. Nell’HTML sono accreditati i contributori documentati. Le molle sono da trazione: esempio corretto in allungamento e rilascio. La scelta esplicita dell’utente prevale sul precedente suggerimento di molle montate.
 
-## Realizzazione da svolgere dopo l’approvazione della bozza
+## Realizzazione completata su richiesta del 19 ottobre 2026
 
-- I tre URL thumb forniti dall’utente sono conservati qui senza parametri di tracciamento; nel messaggio originale restano gli URL integrali. Verificare l’accesso e conservare gli originali delle stesse identiche foto, senza scegliere altre risorse.
-- Le schede Commons delle sei nuove immagini sono state lette per contenuto e licenze. Nessun hash locale o download completato dichiarato: l’accesso diretto via shell a Wikimedia ha restituito 403 nella ricerca precedente.
-- Prima dell’HTML completare il recupero dei file, l’ispezione visiva locale e l’attribuzione di Springs 009.jpg; non dichiarare completata una verifica dei diritti che dipende dall’identità dell’autore ancora mancante.
-- Inserire le risorse effettivamente integrate nel registro unico risorse/crediti.json tramite la procedura del progetto; mantenere qui soltanto decisioni editoriali e provenienza delle scelte.
-- Nella bozza ogni foto ha segnaposto identificabile, schema fisico previsto e didascalia. I flussi schematizzati rappresentano il modello esplicitato, senza attribuire alla foto processi non visibili.
+- Recuperate le stesse sette foto complete da Wikimedia; conservati gli originali in `risorse/`, senza sostituzioni o riduzioni. Dimensioni originali rispettate, immagini incorporate nell’HTML.
+- Schede Commons delle sette immagini e cronologia dell’originale delle molle conservate nella cartella delle risorse.
+- Foto e modelli degli scambi integrati in sei schemi con ingrandimento; copertina separata, non ripetuta nel testo.
+- Dati e avvisi registrati in `risorse/crediti.json` della radice tramite lo strumento comune; questo file resta il registro delle scelte, non un archivio parallelo dei crediti.

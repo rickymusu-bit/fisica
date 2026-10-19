@@ -23,6 +23,6 @@ La suddivisione approvata specifica l’ambito di questi articoli rispetto alla 
 
 ## Avanzamento
 
-Avviata soltanto la progettazione del primo articolo: [stato e proposta delle visuali](termodinamica_sistemi/stato.md). Gli altri quattro articoli sono pianificati, non redatti. L’approvazione dell’elenco non equivale all’approvazione dei testi o alla pubblicazione.
+Completato nel ramo dedicato il primo articolo HTML: `termodinamica_sistemi_it.html` v1, con [stato e verifiche](termodinamica_sistemi/stato.md). Non ancora pubblicato. Gli altri quattro articoli sono pianificati, non redatti. L’approvazione dell’elenco non equivale all’approvazione dei testi o alla pubblicazione.
 
 Al momento della pubblicazione dei nuovi articoli, aggiornare coerentemente catalogo e navigazione precedente/successivo secondo questa sequenza, mantenendo l’ordine relativo dei cinque articoli esistenti. Questo salvataggio non modifica home, manifest, HTML pubblicati o main.
