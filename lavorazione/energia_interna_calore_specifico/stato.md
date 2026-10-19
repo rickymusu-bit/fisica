@@ -1,6 +1,6 @@
 # Stato — Energia interna, calore e calore specifico
 
-Versione v15 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
+Versione v16 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
 
 ## Ambito e punto di partenza
 
@@ -187,3 +187,11 @@ Controllato il riferimento corrente main: a5a54f527db7b8052f09b49773dbcc7740a6d0
 Build, controlli del catalogo e anteprime desktop/mobile precedono l’integrazione. Esito del rilascio e verifica pubblica da registrare dopo il deploy.
 
 Controlli prima del rilascio superati: credits.py --sync/--check, build di 10 pagine HTML (home, crediti e otto articoli), catalogo nell’ordine approvato e download con 9,43 MB / 9429717 byte. Chromium a 1280/390 px: nuovo articolo al terzo posto, apertura dal catalogo e navigazione reciproca verificati; zero errori JS. Anteprime del catalogo e dei link adiacenti salvate, esaminate e consegnate in chat prima dell’integrazione. Report verifiche-pubblicazione.json. Articolo 3 identico ai byte approvati; nei due articoli adiacenti cambiano soltanto navigazione e metadati/footer di versione. Sette sorgenti esclusi confrontati byte per byte e assenti dall’output Pages. Allineato il generatore dell’articolo 2 alla navigazione corrente.
+
+## Integrazione completata; rilascio in attesa del servizio GitHub
+
+PR #38 integrata in main al commit 85fbb652b5c839c437c34f583c1a40b8885ede46, dopo i controlli e le anteprime già documentati. Workflow Pages avviato automaticamente: https://github.com/rickymusu-bit/fisica/actions/runs/39282063076 .
+
+Al controllo del 19 ottobre 2026, ore 16:07 UTC (18:07 Europe/Rome), build e deploy ancora in coda senza runner assegnato, nessuna conclusione o errore applicativo. Pagina del nuovo articolo ancora HTTP 404; non dichiarata pubblicazione riuscita. GitHub Status conferma un incidente aperto, «Degraded availability for GitHub Actions, GitHub Pages and Webhooks», con Actions e Pages in degraded_performance e ritardi di workflow/site builds: https://www.githubstatus.com/ . Nessuna duplicazione o annullamento del rilascio pendente.
+
+URL previsto dopo il rilascio: https://rickymusu-bit.github.io/fisica/energia_interna_calore_specifico_it.html . Da verificare dopo la ripresa del servizio: esito workflow e risposta pubblica, identità dei byte con HTML v4 approvato, terza posizione nel catalogo, download, navigazione reciproca e crediti. L’autorizzazione «Ok pubblica» resta valida per completare questi controlli e correggere eventuali problemi del rilascio.
