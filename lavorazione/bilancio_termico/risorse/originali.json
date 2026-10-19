@@ -1,0 +1,42 @@
+[
+  {
+    "file": "versamento-latte.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Coffee_with_milk_%28563800%29.jpg/960px-Coffee_with_milk_%28563800%29.jpg",
+    "bytes": 173724,
+    "dimensions": [
+      960,
+      1440
+    ],
+    "sha256": "953eb5854ad0ea089abc8b1f168398c19ade6563b5447920de5ac47483026109"
+  },
+  {
+    "file": "latte.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Glass_of_Milk_%2833657535532%29.jpg/960px-Glass_of_Milk_%2833657535532%29.jpg",
+    "bytes": 137980,
+    "dimensions": [
+      960,
+      962
+    ],
+    "sha256": "23898fd4bd889da3745ca6cbf18b2e54065362c09ed81cd85be2e079d348df95"
+  },
+  {
+    "file": "caffe.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/960px-A_small_cup_of_coffee.JPG",
+    "bytes": 109150,
+    "dimensions": [
+      960,
+      720
+    ],
+    "sha256": "f639ce191da7ece0d4eb44eeafb60ab417d025f27a073965d5e1ee0c7ad384c0"
+  },
+  {
+    "file": "copertina-latte-brighton.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Latte_-_Garden_Caf%C3%A9_Brighton_2023-12-30.jpg/960px-Latte_-_Garden_Caf%C3%A9_Brighton_2023-12-30.jpg",
+    "bytes": 198695,
+    "dimensions": [
+      960,
+      1280
+    ],
+    "sha256": "4675e70e4c04275d1e41e93604980d94dc74a989154eadf18f58133d40df0f8e"
+  }
+]

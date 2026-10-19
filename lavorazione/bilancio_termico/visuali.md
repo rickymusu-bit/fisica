@@ -1,41 +1,62 @@
-# Proposta delle visuali — Il bilancio termico
+# Visuali — Il bilancio termico
 
-Versione v2 · 19 ottobre 2026, ore 21:27 (Europe/Rome).
+Versione v3 · 19 ottobre 2026, ore 21:36 (Europe/Rome).
 
-## Fenomeno scelto e apertura proposta
+## Scelte effettive
 
-«Quanto si raffredda il caffè quando aggiungiamo il latte?»
+Fenomeno scelto dall’utente: mescolare caffè e latte, approssimando per entrambi il calore specifico a quello dell’acqua. Domanda adattata nella bozza: «Quanto si raffredda il caffè quando aggiungiamo il latte?».
 
-L’utente ha scelto di mescolare caffè e latte, approssimando il calore specifico di entrambi a quello dell’acqua. Il fenomeno e questa approssimazione sono concordati; la formulazione della domanda è una proposta adattata alla scelta. Caffè inizialmente più caldo del latte: l’energia ceduta dal caffè viene assorbita dal latte. Prima si prevede che la temperatura finale sia compresa fra quelle iniziali; poi si spiega perché non sia sempre la media aritmetica. Non presentare una fotografia come misura di temperature o prova quantitativa.
+L’utente ha fornito quattro collegamenti specifici: le fotografie sono scelte, non chiedere una seconda approvazione. File scaricati nelle versioni a 960 px indicate, interamente decodificati e osservati direttamente. Nessuna elaborazione, conversione o nuovo ritaglio. La scelta delle fotografie non equivale all’approvazione del testo o al via all’HTML.
 
-## Proposte da concordare prima della bozza
+## COP-01 — Caffè con latte, Garden Café Brighton
 
-| ID | Che cosa mostrare | Domanda e collocazione |
-| --- | --- | --- |
-| COP-01 | Fotografia di latte versato nel caffè, con soggetti riconoscibili e composizione semplice. | Introduce il mescolamento; copertina distinta dalle immagini interne. Nessun valore dedotto dalla foto. |
-| FIG-01 | Fotografia distinta dalla copertina con caffè, latte e tazza riconoscibili; possibile sequenza prima/dopo il mescolamento. | Accanto all'apertura e al bilancio: identificare le due masse e il sistema. Non occorre vapore visibile né una temperatura leggibile. Eventuali dati ed etichette saranno quelli del modello concordato, esplicitamente distinti da misure reali. |
-| GRA-01 | Grafico dei calori scambiati in funzione della temperatura finale ipotizzata: energia ceduta dal caffè m_caffè · c_acqua · (T_caffè − T) ed energia assorbita dal latte m_latte · c_acqua · (T − T_latte); l'intersezione individua l'equilibrio. | Dopo l'introduzione del bilancio, permette di leggere energia ceduta e assorbita e comprendere l'unicità della temperatura finale. Assi T (°C) ed energia (J o kJ); dati scelti e dichiarati come modello, non misure. Nessun grafico temporale: il bilancio da solo non determina i tempi. |
+- Scelta esplicita successiva: «Usa questa come copertina».
+- File: [risorse/copertina-latte-brighton.jpg](risorse/copertina-latte-brighton.jpg), 960 × 1280 px, 198695 byte.
+- Collegamento ricevuto: https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Latte_-_Garden_Caf%C3%A9_Brighton_2023-12-30.jpg/960px-Latte_-_Garden_Caf%C3%A9_Brighton_2023-12-30.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- Fonte: https://commons.wikimedia.org/wiki/File:Latte_-_Garden_Caf%C3%A9_Brighton_2023-12-30.jpg . Autore: Andy Li.
+- Licenza: CC0 1.0, https://creativecommons.org/publicdomain/zero/1.0/ .
+- File scaricato nella versione indicata, decodificato e osservato direttamente: tazza e piattino con caffè e latte, superficie con decorazione di schiuma e cucchiaino. Nessuna misura o temperatura dedotta dalla foto; non trattarla come prova di aggiunta di latte freddo.
+- Uso esclusivo: copertina, non ripetuta nel testo. Proporzioni originali, senza ritaglio, ricampionamento o conversione.
 
-La coppia minima di fotografie è COP-01 + FIG-01. L'utente cerca, sceglie e fornisce i file o i collegamenti; nessuna ricerca o generazione avviata. I materiali dell'articolo 3 già esaminati (test Ivy Mike, spiaggia notturna e moto molecolare dell'acqua) non mostrano il mescolamento e non vengono usati come sostituti. Grafico da confermare; può essere omesso per un percorso più leggero, mantenendo foto, formule e ragionamento.
+## FIG-03 — Latte versato nel caffè
 
-## Percorso scientifico previsto
+- File: [risorse/versamento-latte.jpg](risorse/versamento-latte.jpg), 960 × 1440 px, 173724 byte.
+- Collegamento ricevuto: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Coffee_with_milk_%28563800%29.jpg/960px-Coffee_with_milk_%28563800%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- Fonte: https://commons.wikimedia.org/wiki/File:Coffee_with_milk_(563800).jpg . Autore: shixugang, provenienza Pixabay (file 563800).
+- Licenza: CC0 1.0, https://creativecommons.org/publicdomain/zero/1.0/ . La scheda documenta la precedente pubblicazione con CC0 e la revisione della licenza su Commons; non dedotta dalla licenza odierna generale di Pixabay.
+- Osservazione: latte versato da una lattiera bianca in una tazza di caffè, chicchi di caffè sul piano. Nessun valore fisico ricavato dalla fotografia.
+- Uso: figura interna accanto alla domanda iniziale. La successiva scelta esplicita della nuova copertina sostituisce l’assegnazione iniziale; la foto non è usata come copertina corrente.
 
-- Dal mescolamento alla scelta del sistema: caffè e latte, inizialmente trascurando gli scambi con ambiente e tazza. Indicare nella nota del modello che si assumono entrambi i calori specifici costanti e uguali a quello dell’acqua; è l’approssimazione esplicitamente richiesta, non un’uguaglianza esatta fra le proprietà delle due bevande. Si trascura il contributo energetico del mescolamento.
-- Convenzione Q > 0 per il corpo che assorbe energia e Q < 0 per quello che la cede; Q = m · c · (T_eq − T_in).
-- Bilancio Q_caffè + Q_latte = 0: i calori con segno si sommano a zero, i loro valori assoluti coincidono. Non affermare che le variazioni di temperatura siano uguali.
-- Con l’approssimazione concordata, il calore specifico comune si semplifica nel bilancio e la temperatura finale è pesata dalle masse:
+## FIG-01 — Tazza di caffè
 
-  \\[T_{\\mathrm{eq}}=\\frac{m_{\\mathrm{caffè}}\\cdot T_{\\mathrm{caffè}}+m_{\\mathrm{latte}}\\cdot T_{\\mathrm{latte}}}{m_{\\mathrm{caffè}}+m_{\\mathrm{latte}}}\\]
+- File: [risorse/caffe.jpg](risorse/caffe.jpg), 960 × 720 px, 109150 byte.
+- Collegamento ricevuto: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/960px-A_small_cup_of_coffee.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- Fonte: https://commons.wikimedia.org/wiki/File:A_small_cup_of_coffee.JPG . Autore: Julius Schorzman.
+- Licenza: CC BY-SA 2.0, https://creativecommons.org/licenses/by-sa/2.0/ .
+- Avviso originale da conservare: “NOTE: I only require attribution if you publish this photo in print or if it is used in a for-profit project.” Mantenere comunque attribuzione completa, fonte, licenza e indicazione delle modifiche.
+- Osservazione: tazza bianca con caffè nero, piattino e cucchiaino su piano scuro.
+- Uso: apertura e breve contributo della tazza, con riuso interno dello stesso file. La foto mostra il contesto del modello, non temperature o masse misurate. Non aggiungere ingrandimento per una fotografia priva di scritte didattiche.
 
-  La media aritmetica vale per masse uguali nel modello adottato. Usare le masse, senza sostituire automaticamente i volumi in millilitri: l’approssimazione sul calore specifico non stabilisce l’uguaglianza delle densità. Richiamare il peso delle capacità termiche quando si interpreta il caso generale, senza appesantire la derivazione.
-- Contributo del recipiente, breve e integrato nello stesso fenomeno: Q_rec = C_rec · (T_eq − T_rec,in) e Q_caffè + Q_latte + Q_rec = 0. Se il recipiente parte più freddo della miscela prevista, ne abbassa la temperatura finale. Non introdurre un calorimetro particolare o un'altra applicazione senza concordarne l'immagine.
-- Nessun cambiamento di stato, calore latente, dilatazione, velocità dello scambio o nuovo meccanismo di trasmissione. Condizioni brevi e utili nelle note; nessuna ripetizione della teoria dell'articolo 3.
-- Domande finali miste, con numero e formulazione da definire nella bozza; nessuna soluzione automatica.
+## FIG-02 — Bicchiere di latte
 
-Non proposti video, simulazioni, applicazioni separate o esercizi svolti. Un eventuale esercizio numerico va concordato e richiede schema fisico e interpretazione quantitativa secondo A5.
+- File: [risorse/latte.jpg](risorse/latte.jpg), 960 × 962 px, 137980 byte.
+- Collegamento ricevuto: https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Glass_of_Milk_%2833657535532%29.jpg/960px-Glass_of_Milk_%2833657535532%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
+- Fonte: https://commons.wikimedia.org/wiki/File:Glass_of_Milk_(33657535532).jpg . Autore: NIAID; provenienza https://www.flickr.com/photos/54591706@N02/33657535532/ .
+- Licenza: CC BY 2.0, https://creativecommons.org/licenses/by/2.0/ .
+- La revisione Commons corrente è già ritagliata rispetto alla prima immagine trasferita da Flickr. Conservare questa provenienza; nessun nuovo ritaglio eseguito. Non presentare la miniatura scelta come il file fotografico alla massima risoluzione.
+- Osservazione: bicchiere trasparente parzialmente pieno di latte su fondo blu.
+- Uso: accanto al trasferimento di energia al latte, senza attribuire alla foto temperature o masse.
 
-## Decisioni aperte
+## Grafico e altre parti
 
-Caffè e latte e approssimazione dei calori specifici scelti dall’utente. Ricevere le due fotografie o i collegamenti scelti e concordare le visuali rimanenti. Il contributo del recipiente è proposto come breve parte del capitolo, già compatibile con il piano ma non ancora approvato nel dettaglio.
+GRA-01 era soltanto una proposta opzionale, mai approvata: non incluso nella bozza v1 e non realizzato. Nessuna rinuncia al grafico attribuita all’utente. Il ragionamento usa le quattro fotografie scelte e le formule integrate; non serve una simulazione.
 
-Dopo queste scelte: bozza completa in `bozza.md` sullo stesso ramo, approvazione del testo, stima totale ripartita e via esplicito prima della realizzazione HTML. Nessun intervento a main o alla pubblicazione.
+La breve sezione sulla tazza fa parte della bozza da approvare, con la foto pertinente FIG-01, già scelta. Nessuna applicazione separata, esercizio svolto, video o simulazione aggiunti.
+
+## Salvataggio e prossima fase
+
+Impronte SHA-256, dimensioni, URL di download e byte in [risorse/originali.json](risorse/originali.json). Sono gli originali delle versioni indicate dall’utente, non le versioni a risoluzione massima di Commons.
+
+Bozza completa in [bozza.md](bozza.md), con segnaposto, didascalie, nove domande finali senza soluzioni e crediti di servizio. In fase HTML trasferire i metadati al registro unico, senza creare un secondo registro pubblico; applicare il tema corrente v9 da main, da leggere prima dell’impaginazione.
+
+Prossimo passo: revisione e approvazione del testo. Poi stima totale ripartita e via esplicito secondo B1.1–B2. Nessuna modifica a main, catalogo o pubblicazione.

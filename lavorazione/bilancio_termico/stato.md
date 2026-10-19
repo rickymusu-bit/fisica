@@ -1,41 +1,57 @@
 # Stato — Il bilancio termico
 
-Versione v2 · 19 ottobre 2026, ore 21:27 (Europe/Rome).
+Versione v3 · 19 ottobre 2026, ore 21:36 (Europe/Rome).
 
-## Identità, ambito e fase
+## Identità e ambito
 
-Articolo 4 del [percorso introduttivo di termodinamica](../percorso_termodinamica.md) v5: energia ceduta e assorbita, convenzione dei segni, temperatura finale di equilibrio ed eventuale contributo del recipiente, inizialmente senza cambiamenti di stato. Esclusi calore latente, dilatazione e sviluppo dei meccanismi di trasmissione.
+Articolo 4 del [percorso introduttivo di termodinamica](../percorso_termodinamica.md) v5: energia ceduta e assorbita, convenzione dei segni, temperatura finale di equilibrio ed eventuale contributo del recipiente. Senza cambiamenti di stato, calore latente, dilatazione o sviluppo dei meccanismi di trasmissione.
 
-Richiesta effettiva: «Sul mio GitHub repo di fisica, facciamo l'articolo pianificato numero 4». Autorizza l'avvio del capitolo; non documenta approvazione di un testo, immagini, HTML o pubblicazione.
+Ramo: `termodinamica/bilancio-termico`, derivato da main. La lavorazione era assente all’avvio; nessun sorgente esistente sostituito. Destinazione HTML futura: `bilancio_termico_it.html`.
 
-Ramo dedicato `termodinamica/bilancio-termico`, derivato da main. Alla verifica iniziale mancava `lavorazione/bilancio_termico/stato.md` e non risultavano rami con “bilancio”. Piano corrente: capitolo ancora non redatto. Nessun sorgente esistente sostituito.
+## Fase corrente
 
-Fase corrente: proposta di domanda iniziale e visuali salvata in [visuali.md](visuali.md), da concordare prima della bozza.
+**Bozza completa v1 da approvare**, salvata in [bozza.md](bozza.md). Immagini scelte, scaricate e osservate; nessun HTML o simulazione realizzati. Nove domande finali miste senza soluzioni, due note brevi, nessuna applicazione separata o esercizio svolto.
 
-## Riferimenti e checklist
+## Approvazioni effettive
 
-Letti integralmente MASTER_PROMPT.md v61 in blocchi, AGENTS.md, STILE_DISPENSE.md v6, esempio_irraggiamento.md v2, piano v5 e pubblicazione.json v7. Consultati stato dell'articolo 3 e sue visuali v13 per confini e possibile riuso.
+- Richiesta di avvio: «Sul mio GitHub repo di fisica, facciamo l'articolo pianificato numero 4».
+- Fenomeno scelto: caffè mescolato al latte, con calori specifici approssimati a quello dell’acqua. Conservare la scelta senza richiedere conferma.
+- Tre URL iniziali specifici forniti dall’utente per latte versato nel caffè, bicchiere di latte e tazza di caffè. Sono scelte effettive delle fotografie, non autorizzazione a sostituirle o elaborarle.
+- Scelta successiva esplicita «Usa questa come copertina», con Latte - Garden Café Brighton 2023-12-30.jpg di Andy Li: nuova COP-01; la foto del versamento passa all’apertura come FIG-03, senza essere ripetuta come copertina.
+- Non ricevute approvazione del testo completo, via all’HTML o autorizzazione a pubblicare.
 
-- Italiano, stile discorsivo; unico fenomeno guida, formule spiegate e interpretate, T e ΔT per temperatura.
-- Bilancio per un sistema isolato nel modello calorimetrico senza lavoro rilevante: somma dei calori con segno nulla; equivalenza dei moduli ceduto/assorbito.
-- Temperatura finale pesata dalle capacità termiche; media aritmetica soltanto per capacità uguali. Nessuna deduzione dei tempi di equilibrio dal solo bilancio.
-- A1–A5: notazione scientifica nei calcoli, frazioni orizzontali, condizioni utili nelle note, domande finali senza soluzioni.
-- B1.1/C2: concordare visuali prima della bozza, senza cercare o generare immagini autonomamente. Nessuna nuova immagine cercata, scelta o elaborata.
-- Bozza completa soltanto nel file `bozza.md` del ramo, dopo le scelte preliminari. Approvazione del testo, stima ripartita e via esplicito prima dell'HTML.
-- Tema autonomo v8 già approvato: leggerlo prima dell'impaginazione; nessuna variante, visuali con stessa composizione sui dispositivi, note collassabili e logo canonico.
-- Crediti nel registro unico e snapshot offline nella futura fase HTML; nessun credito o fonte nel testo didattico.
-- Nessuna modifica a main, home, manifest, pubblicazione, capitoli precedenti o sorgenti esclusi. Il vecchio `bilancio_conservazione_rendimento_it.html` riguarda un'altra lavorazione sospesa e non viene riattivato.
+Apertura adattata nella bozza: «Quanto si raffredda il caffè quando aggiungiamo il latte?». La sezione breve sulla tazza e la formulazione delle domande fanno parte del testo da approvare.
 
-## Proposta e scelte ancora aperte
+## Riferimenti e checklist corrente
 
-Scelta esplicita dell’utente: «preferirei parlare di mischiare il caffè con il latte» approssimando i calori specifici a quello dell’acqua. Fenomeno e approssimazione approvati; nessuna approvazione attribuita a specifiche immagini, testo completo o HTML. Apertura adattata proposta: «Quanto si raffredda il caffè quando aggiungiamo il latte?». Il calore specifico comune si semplifica e T_eq è la media delle temperature iniziali pesata dalle masse. La media aritmetica vale per masse uguali; non sostituire automaticamente le masse con i volumi. Precisazione sull’approssimazione in nota, senza sviluppi sulla composizione delle bevande.
+Letti integralmente AGENTS.md corrente e MASTER_PROMPT.md v63 da main, STILE_DISPENSE.md v6 ed esempio_irraggiamento.md v2. Piano v5 e manifest v7 già identificati. La v63 sostituisce la v61 consultata all’avvio: numeri moderati in forma decimale leggibile e prefissi SI secondo A4; notazione scientifica solo quando utile. Tema v9 con un solo comando per i crediti incorporati; nessuna incompatibilità con fenomeno e fotografie scelti. Non aggiornare ora gli altri file del ramo o il master: applicare il modello corrente da main nella futura impaginazione, verificandone nuovamente la versione.
 
-Due fotografie distinte: COP-01 latte versato nel caffè e FIG-01 caffè, latte e tazza, distinta dalla copertina. Grafico GRA-01 dei calori in funzione della temperatura finale ipotizzata, opzionale, con dati di modello dichiarati e senza falsa cronologia sperimentale. Breve contributo del recipiente proposto nel medesimo fenomeno.
+- Italiano, stile discorsivo, singolo fenomeno guida, formule motivate e interpretate, T e ΔT per temperatura.
+- Bilancio calorimetrico: Q positivo se assorbito e negativo se ceduto; somma nulla nel sistema considerato, con condizioni utili nelle note.
+- Calore specifico comune: semplificazione di c, media pesata dalle masse. Media aritmetica soltanto per masse uguali; per sostanze diverse contano le capacità termiche.
+- Massa e volume distinti; nessuna misura attribuita alle fotografie.
+- Copertina non ripetuta nel testo; le foto interne possono essere richiamate nello stesso fenomeno. Nessuna modifica alle immagini; proporzioni conservate.
+- Bozza soltanto nel repository, non riprodotta integralmente in chat. Approvazione del testo, stima ripartita e via esplicito prima dell’HTML.
+- Crediti nella sezione di servizio della bozza, da integrare nel registro unico durante la realizzazione; nessuna fonte nel testo didattico o nelle didascalie.
+- Tema corrente da leggere prima dell’HTML, composizione dei visuali identica sui dispositivi, note collassabili, logo canonico.
+- Nessuna modifica a main, home, manifest, capitoli precedenti o sorgenti esclusi. Il vecchio bilancio_conservazione_rendimento_it.html non viene riattivato.
 
-Le risorse dell'articolo 3 non rappresentano il mescolamento; non riusate come sostituti. Nessun video o simulazione proposti, nessun esercizio svolto o applicazione autonoma aggiunti. Nessuna programmazione o stima di simulazione necessaria.
+## Visuali e risorse
 
-## Completato e prossimo passo
+[visuali.md](visuali.md) v3 registra soggetti, uso, URL esatti, autori, licenze e avvisi. COP-01 Garden Café Brighton: Andy Li, CC0 1.0; FIG-03 versamento: shixugang, CC0 1.0; FIG-01 caffè: Julius Schorzman, CC BY-SA 2.0; FIG-02 latte: NIAID, CC BY 2.0. Licenze verificate sulle quattro schede Commons il 19 ottobre 2026. Conservato l’avviso originale dell’autore del caffè e la provenienza della revisione già ritagliata del latte.
 
-Identificati numero, titolo, confini e stato del piano. Salvate proposta e lavorazione sul ramo dedicato tramite il connettore GitHub: il clone locale non è riuscito per indisponibilità del proxy, senza modificare la destinazione ufficiale. Non dichiarare eseguita una build o una verifica browser: non esiste ancora un nuovo HTML.
+Scaricate le versioni a 960 px fornite: 198695 byte per la nuova copertina; 173724, 109150 e 137980 byte per le tre foto interne. Tutte decodificate e osservate direttamente, senza trasformazioni. File e impronte in risorse/. Nessun valore di massa o temperatura ricavato dalle fotografie. Non chiedere una seconda scelta delle stesse immagini.
 
-Prossimo passo: ricevere le fotografie o i collegamenti per caffè e latte; concordare grafico e breve contributo della tazza. Conservare il fenomeno e l’approssimazione già scelti senza richiederne nuovamente conferma. Poi preparare la bozza completa nel repository con segnaposto e formulazione delle domande finali. HTML finale previsto, dopo il workflow di approvazione: `bilancio_termico_it.html`.
+GRA-01 rimane una proposta opzionale non approvata: non incluso nella bozza v1 e non realizzato. Nessuna rinuncia attribuita all’utente. Nessun video o simulazione, né carico di programmazione da stimare.
+
+## Controlli svolti e limiti
+
+Controllate convenzione dei segni, semplificazione del calore specifico, media pesata, uso coerente delle scale e contributo del recipiente. Formule e domande restano nell’ambito del capitolo. Due note raccolgono approssimazione e condizioni del bilancio; nessun dato sperimentale inventato.
+
+Le quattro immagini sono state ispezionate tramite il visualizzatore locale; il download tramite proxy ha funzionato con l’accesso di rete supportato dell’esecutore. Risolto quindi il limite di download incontrato all’avvio. Salvataggio remoto tramite il connettore GitHub, sullo stesso ramo.
+
+Non eseguiti build Pages, check dei crediti HTML o prove browser: in questa fase non esiste un nuovo HTML. Verificare i file salvati e l’integrità dei blob prima della consegna della bozza.
+
+## Prossimo passo
+
+Revisione e approvazione della bozza v1. Successivamente comunicare la stima totale ripartita fra materiali, impaginazione, verifiche e salvataggio e attendere il via esplicito previsto dal master. HTML con anteprima desktop/mobile prima dell’eventuale pubblicazione; main e pubblicazione richiedono autorizzazione distinta.
