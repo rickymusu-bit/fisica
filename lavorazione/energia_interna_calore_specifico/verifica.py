@@ -36,7 +36,8 @@ def static_checks():
     assert not document.xpath('//article//a[starts-with(@href,"http")]')[2:], 'Collegamenti esterni nel testo'
     assert not re.search(r'\\[\[\](]|\[COP-|\[FIG-|\[TAB-|\[GRA-',document.text_content())
     assert TARGET.stat().st_size < 20_000_000
-    assert 'energia_interna_calore_specifico_it.html' not in json.loads((ROOT/'pubblicazione.json').read_text())['articoli']
+    manifest = json.loads((ROOT/'pubblicazione.json').read_text())
+    assert TARGET.name not in manifest['esclusi_da_pubblicazione_e_aggiornamenti']
     registry = json.loads((ROOT/'risorse/crediti.json').read_text())
     sys.path.insert(0,str(ROOT/'scripts'))
     import credits
@@ -46,7 +47,7 @@ def static_checks():
                'stili_e_script_comuni_identici':True, 'immagini_correnti_incorporate':True, 'copertina_e_gif_originali_invariate':True,
                'domande':8,'formule':5,'righe_tabella':10,'note':4,
                'id_univoci_e_ancore_valide':True, 'risorse_senza_crediti':[],
-               'catalogo_e_manifest_invariati':True}
+               'ammesso_alla_pubblicazione':TARGET.name in manifest['articoli']}
     (WORK/'verifiche-finali.json').write_text(json.dumps(results,ensure_ascii=False,indent=2)+'\n')
 
 

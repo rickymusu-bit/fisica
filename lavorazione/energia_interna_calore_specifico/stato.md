@@ -1,6 +1,6 @@
 # Stato — Energia interna, calore e calore specifico
 
-Versione v14 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
+Versione v15 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
 
 ## Ambito e punto di partenza
 
@@ -177,3 +177,13 @@ HTML autonomo v4: 9429717 byte, circa 9,43 MB, riduzione del 51,4% rispetto ai 1
 Controlli statici superati: CSS/script comuni identici, immagini correnti incorporate correttamente, copertina e GIF confrontate byte per byte con Git, nessun ID duplicato o ancora mancante, nessuna risorsa non accreditata. Chromium offline a 1280 e 390 px: immagine WebP caricata a 1920 × 1280 px, nessun overflow, errore JS o richiesta esterna; controlli pausa/ripresa della GIF e crediti della modifica funzionanti. Anteprime della spiaggia esaminate alle due larghezze; report verifiche-spiaggia.json, verifiche-finali.json e peso-visuali.json aggiornati.
 
 Nessuna ulteriore compressione o conversione dei materiali; originali preservati. Salvataggio nella stessa PR #38; nessuna pubblicazione o integrazione in main.
+
+## Pubblicazione autorizzata
+
+Ricevuto «Ok pubblica» dopo l’HTML v4 con sola spiaggia compressa e copertina/GIF inalterate. Autorizzati aggiornamento di catalogo, manifest, navigazione reciproca, integrazione PR #38 in main e rilascio GitHub Pages. Nessuna ulteriore approvazione necessaria per queste operazioni.
+
+Controllato il riferimento corrente main: a5a54f527db7b8052f09b49773dbcc7740a6d061, invariato rispetto alla base del ramo. Manifest v7 con otto articoli ammessi, nuovo articolo al terzo posto. Home v21; Temperatura ed equilibrio termico v3 e Stati della materia v20 per i soli collegamenti di navigazione e metadati di versione. Articolo 3 v4 invariato nel contenuto e nei byte. Articoli sospesi e indirizzi dismessi conservati invariati/esclusi. Piano e README aggiornati.
+
+Build, controlli del catalogo e anteprime desktop/mobile precedono l’integrazione. Esito del rilascio e verifica pubblica da registrare dopo il deploy.
+
+Controlli prima del rilascio superati: credits.py --sync/--check, build di 10 pagine HTML (home, crediti e otto articoli), catalogo nell’ordine approvato e download con 9,43 MB / 9429717 byte. Chromium a 1280/390 px: nuovo articolo al terzo posto, apertura dal catalogo e navigazione reciproca verificati; zero errori JS. Anteprime del catalogo e dei link adiacenti salvate, esaminate e consegnate in chat prima dell’integrazione. Report verifiche-pubblicazione.json. Articolo 3 identico ai byte approvati; nei due articoli adiacenti cambiano soltanto navigazione e metadati/footer di versione. Sette sorgenti esclusi confrontati byte per byte e assenti dall’output Pages. Allineato il generatore dell’articolo 2 alla navigazione corrente.

@@ -1,8 +1,9 @@
 {
-  "versione": 6,
+  "versione": 7,
   "articoli": [
     "termodinamica_sistemi_it.html",
     "temperatura_equilibrio_termico_it.html",
+    "energia_interna_calore_specifico_it.html",
     "stati_della_materia.html",
     "passaggi_di_stato.html",
     "conduzione_it.html",

@@ -230,7 +230,7 @@ def main():
                       template, count=1, flags=re.S)
     template = template.replace('<title>Tema grafico delle dispense — modello riutilizzabile</title>',
                                 f'<title>{TITLE} — Materia Oscura</title>')
-    template = template.replace('name="version" content="v8"', 'name="version" content="v2"', 1)
+    template = template.replace('name="version" content="v8"', 'name="version" content="v3"', 1)
     template = template.replace('name="date" content="2026-10-18"', 'name="date" content="2026-10-19"', 1)
     template = template.replace('Modello autonomo del tema grafico comune a tutti i capitoli futuri.',
                                 'Temperatura, equilibrio termico, principio zero, termometro e scale Celsius, Kelvin e Fahrenheit.')
@@ -254,10 +254,10 @@ def main():
     navigation = ('<nav class="chapter-navigation" aria-label="Navigazione tra articoli">'
                   '<a rel="prev" href="https://rickymusu-bit.github.io/fisica/termodinamica_sistemi_it.html">'
                   '<span>← Articolo precedente</span><small>La termodinamica e i sistemi termodinamici</small></a>'
-                  '<a rel="next" href="https://rickymusu-bit.github.io/fisica/stati_della_materia.html">'
-                  '<span>Articolo successivo →</span><small>Stati della materia</small></a></nav>')
+                  '<a rel="next" href="https://rickymusu-bit.github.io/fisica/energia_interna_calore_specifico_it.html">'
+                  '<span>Articolo successivo →</span><small>Energia interna, calore e calore specifico</small></a></nav>')
     template = template.replace('<!-- chapter-navigation:end -->', navigation + '<!-- chapter-navigation:end -->')
-    template = template.replace('Versione v8 · 2026-10-18', 'Versione v2 · 19 ottobre 2026')
+    template = template.replace('Versione v8 · 2026-10-18', 'Versione v3 · 19 ottobre 2026')
     TARGET.write_text(template)
     print(TARGET.name, TARGET.stat().st_size, 'byte')
 
