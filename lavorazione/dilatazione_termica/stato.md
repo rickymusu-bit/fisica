@@ -1,12 +1,12 @@
 # Stato — La dilatazione termica
 
-Versione v7 — 19 ottobre 2026 (Europe/Rome).
+Versione v8 — 19 ottobre 2026 (Europe/Rome).
 
 ## Identità e fase
 
 - Quinto articolo del percorso introduttivo di termodinamica, area «Materia e calore».
 - Ramo dedicato: `termodinamica/dilatazione-termica`, derivato da main al commit `1a9b1b3d6abdf87656f19b22ec001db312808cec`.
-- Fase corrente: bozza testuale v5 salvata e da approvare; materiali visuali da ricevere.
+- Fase corrente: bozza testuale v6 salvata e da approvare; materiali visuali da ricevere.
 - Richiesta ricevuta: «Nel mio repo GitHub di fisica Procedi a creare il quinto argomento del piano».
 - Il piano v6 identifica il quinto argomento come La dilatazione termica e ne lascia espressamente sviluppo e visuali da concordare.
 
@@ -32,7 +32,7 @@ Applicazioni correnti: binari ferroviari, termometro a liquido, termostato bimet
 
 ## Bozza e approvazioni effettive
 
-L'utente ha risposto «Approvo» alla proposta v2: orientamento, sei casi e funzioni delle visuali concordati. Nessun file originale delle immagini ancora scelto o ricevuto; nessun permesso di ricerca o generazione dedotto. Preparata [bozza.md](bozza.md) v5 con segnaposto per le visuali concordate, didascalie proposte, formule interpretate, 11 domande finali senza soluzioni e crediti di servizio. La bozza è da approvare; nessun via all'HTML o alla pubblicazione ricevuto.
+L'utente ha risposto «Approvo» alla proposta v2: orientamento, sei casi e funzioni delle visuali concordati. Nessun file originale delle immagini ancora scelto o ricevuto; nessun permesso di ricerca o generazione dedotto. Preparata [bozza.md](bozza.md) v6 con segnaposto per le visuali concordate, didascalie proposte, formule interpretate, 13 domande finali senza soluzioni e crediti di servizio. La bozza è da approvare; nessun via all'HTML o alla pubblicazione ricevuto.
 
 ## Lavoro completato e verifiche
 
@@ -55,3 +55,7 @@ L'utente precisa: «No intendo dei coefficienti di dilatazione». La precisazion
 ## Notazione scientifica dei coefficienti
 
 Su richiamo esplicito dell'utente alla regola A4 del master, corretti tutti i sei coefficienti di TAB-01 in notazione scientifica normalizzata a · 10ⁿ, con 1 ≤ a < 10. Bozza v5 e visuali v7; valori fisici, unità e spiegazione invariati. Controllate equivalenza numerica delle conversioni e integrità dei file salvati via rilettura remota. Nessuna modifica al master necessaria: la regola era già presente.
+
+## Coefficienti volumici dei liquidi e relazione α–β
+
+Richiesta esplicita: aggiungere tabella dei coefficienti volumici di liquidi e spiegare la relazione fra α e β. Bozza v6 e visuali v8: TAB-02 con alcol etilico, glicerina, acqua e mercurio, valori a 20 °C verificati contro OpenStax tabella 13.2, tutti in notazione scientifica normalizzata. Spiegata β ≈ 3 · α per piccole dilatazioni di uno stesso solido isotropo libero di espandersi, senza applicarla ai liquidi. Esplicitata la distinzione fra coefficiente e triplicazione del volume; il β dell'acqua a 20 °C non viene esteso alla regione intorno a 4 °C. Aggiunte domande 12 e 13, senza soluzioni. Aggiornati fonte e note; nessuna modifica alle altre applicazioni. Verificati conversioni dei quattro coefficienti, unità e rapporto alcol/acqua 5,24, descritto come circa cinque. Nessun HTML realizzato o pubblicazione autorizzata. Verificare il salvataggio via rilettura remota prima della consegna.
