@@ -53,6 +53,17 @@ def render_italian(document, root):
     document, count = re.subn(r'<a( class="download"[^>]+)>Scarica(?: HTML)?</a>', download, document)
     if count == 0:
         raise ValueError("Nessun download nella home italiana")
+    # La revisione nel collegamento evita il riuso di una copia precedente in cache.
+    def current_article(match):
+        attrs = match[0]
+        filename = unquote(unescape(re.search(r'href="([^"?]+)"', attrs)[1]))
+        source = (root / filename).read_text(encoding='utf-8')
+        version = re.search(r'<meta\b(?=[^>]*\bname="version")[^>]*\bcontent="v([0-9]+)"', source)
+        if not version:
+            raise ValueError(f"Versione articolo assente: {filename}")
+        return attrs.replace(f'href="{escape(filename)}"', f'href="{escape(filename)}?v={version[1]}"', 1)
+
+    document = re.sub(r'<a class="(?:read|download)"[^>]*>', current_article, document)
     document = document.replace('</style>', '''
 /* Comandi della sola home italiana. */
 .top{justify-content:space-between}
@@ -107,17 +118,14 @@ html:has(#articles-panel[open]){overflow:hidden}
     const box = panel.getBoundingClientRect();
     if (event.target === panel && (event.clientX < box.left || event.clientX >= box.right || event.clientY < box.top || event.clientY >= box.bottom)) panel.close();
   });
-  function fromHash() {
-    let id;
-    try { id = decodeURIComponent(location.hash.slice(1)); } catch { return; }
-    const target = document.getElementById(id);
-    if (target && catalogue.contains(target)) show(target);
-  }
   document.querySelectorAll('a[href="#indice"]').forEach(link => {
     link.addEventListener('click', event => { event.preventDefault(); show(catalogue); });
   });
-  window.addEventListener('hashchange', fromHash);
-  fromHash();
+  // Arrivo dagli articoli e ripristino della pagina: il catalogo resta chiuso.
+  window.addEventListener('pageshow', () => {
+    if (panel.open) panel.close();
+    trigger.setAttribute('aria-expanded', 'false');
+  });
 })();
 </script>
 '''

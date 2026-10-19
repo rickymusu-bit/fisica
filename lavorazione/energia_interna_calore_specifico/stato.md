@@ -1,6 +1,6 @@
 # Stato — Energia interna, calore e calore specifico
 
-Versione v20 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
+Versione v21 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
 
 ## Ambito e punto di partenza
 
@@ -215,3 +215,9 @@ Richiesta esplicita: aggiungere il vapore acqueo ai gas della tabella e usare va
 MASTER_PROMPT v62, A4 e rinvio AGENTS aggiornati alla preferenza generale senza imporre la notazione scientifica a tutti i calcoli. Nessuna revisione generale degli altri capitoli. Tema e risorse visuali invariati byte per byte. Verifiche statiche, crediti e build superati; Chromium offline 1280/390 px: undici righe, dati corretti, nessun overflow della pagina né errore JS, scorrimento interno della tabella su smartphone. Anteprime della tabella salvate e ispezionate. Report verifiche-tabella.json e verifiche-finali.json aggiornati. Richiesta circoscritta eseguita direttamente; aggiornamento della pagina pubblicata in corso.
 
 Revisione pubblicata: PR #39 integrata al commit 667e1239debe230a1796331d7378af56c1dceed1. Workflow 39307005829 concluso con successo; verifica pubblica del 19 ottobre 2026 alle 18:59 UTC superata. Articolo v5 pubblico identico ai byte verificati, 9429445 byte, SHA-256 d04afd7d0886fc1f6ef178867fc0276bd29ddf43af328581f9f08e316345d47d. Undici valori decimali e riga del vapore inclusi; catalogo, download, navigazione e crediti pubblici verificati. Report verifiche-sito-pubblico.json aggiornato. Revisione completata.
+
+## Segnalazione: tabella precedente e home con lista aperta
+
+L’utente vede ancora la notazione scientifica e la lista degli articoli aperta all’arrivo nella home. Verifica HTTP pubblica: articolo corrente v5 già in decimale, undici righe incluso vapore; risposte con Cache-Control max-age=600. Non attribuita con certezza la copia vista dall’utente a una specifica cache. Per evitare il riuso di vecchie revisioni, la build della home aggiunge ai link lettura/download la versione effettiva del rispettivo articolo (?v=N), lasciando disponibili i percorsi canonici e il nome del file scaricato.
+
+Individuata apertura automatica da hash #indice/#materia nello script della home: rimossa. Pannello chiuso all’ingresso e su pageshow, anche con ritorno dalla cronologia; apertura soltanto dai comandi espliciti. Home v22; articolo v5 invariato. Build e crediti superati. Chromium a 1280/390 px: ingresso normale/con hash e ritorno Indietro chiusi, apertura manuale, chiusura X/Esc, collegamento v5 e undici valori decimali verificati, nessun errore JS o overflow. Report verifiche-home-cache.json e anteprime home chiusa. Aggiornamento pubblico in corso.
