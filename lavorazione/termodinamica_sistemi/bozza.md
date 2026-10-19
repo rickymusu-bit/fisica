@@ -1,6 +1,6 @@
 # La termodinamica e i sistemi termodinamici
 
-<!-- Bozza v4 · 19 ottobre 2026 (Europe/Rome). Testo di riferimento per l’HTML v5; completamento richiesto il 19 ottobre 2026. Visuali scelte e fonti in visuali.md. -->
+<!-- Bozza v5 · 19 ottobre 2026 (Europe/Rome). Testo di riferimento per l’HTML v6; completamento richiesto il 19 ottobre 2026. Visuali scelte e fonti in visuali.md. -->
 
 [IMMAGINE TS-0 — Copertina: Hubble ultra deep field.jpg, proposta 1A approvata. Non riutilizzare nel testo.]
 
@@ -64,11 +64,11 @@ Didascalia: Il tratteggio individua una singola pila nella raccolta per il ricic
 
 Una **pila integra** può essere descritta come un sistema chiuso. Quando alimenta un circuito, trasferisce energia elettrica all’esterno e può anche riscaldarsi e cedere energia all’ambiente. Le sostanze contenute nell’involucro si trasformano attraverso reazioni chimiche, ma non occorre consumarle espellendole nell’ambiente come avviene con il combustibile di un motore.[^pile] La foto mostra pile usate raccolte per il riciclo: lo scambio elettrico descritto riguarda il loro funzionamento in un circuito.
 
-[IMMAGINE TS-7 — Springs 009.jpg, immagine precedente conservata provvisoriamente in attesa della nuova scelta dell’utente. Nessuna freccia, scritta o contorno sovrapposto; spiegazione nella didascalia.]
+[IMMAGINE TS-7 — Mountain bike suspension rear ohlins shock.jpg, Alextredz, CC BY-SA 4.0. Ultima scelta esplicita dell’utente, sostituisce i due link Flickr. Foto completa con tratteggio attorno alla sola molla gialla; senza frecce, scritte o ingrandimento. Spiegazione nella didascalia.]
 
-Didascalia: Consideriamo come sistema una sola molla. Allungandola le trasferiamo energia tramite lavoro; quando torna alla forma iniziale può restituirla. La molla cambia forma, ma la materia che la costituisce resta la stessa.
+Didascalia: Il tratteggio individua la molla gialla della sospensione posteriore di una mountain bike. Consideriamo come sistema soltanto la molla, senza l’ammortizzatore: comprimendola le trasferiamo energia tramite lavoro e, quando si distende, può restituirla. La sua forma cambia, ma la materia che la costituisce resta la stessa.
 
-Anche una **molla** può essere un sistema chiuso, pur non essendo un contenitore. Quando la allunghiamo compiamo lavoro su di essa, trasferendole energia; quando la lasciamo tornare alla forma iniziale, può restituire energia compiendo lavoro su ciò che la trattiene. Durante la deformazione il confine cambia forma, ma la materia della molla rimane la stessa. Perché un sistema sia chiuso, quindi, non serve che abbia pareti rigide o una forma immutabile.
+Anche una **molla** può essere un sistema chiuso, pur non essendo un contenitore. Quando la comprimiamo compiamo lavoro su di essa, trasferendole energia; quando la lasciamo tornare alla forma iniziale, può restituire energia compiendo lavoro su ciò che la trattiene. Durante la deformazione il confine cambia forma, ma la materia della molla rimane la stessa. Perché un sistema sia chiuso, quindi, non serve che abbia pareti rigide o una forma immutabile.
 
 ## Domande di verifica
 
@@ -77,7 +77,7 @@ Anche una **molla** può essere un sistema chiuso, pur non essendo un contenitor
 3. Perché il corpo di un corridore è un sistema aperto? Indica due scambi di materia e uno di energia.
 4. Il motore in funzione riceve combustibile ed espelle gas di scarico. Quali di questi passaggi sono scambi di materia? Il movimento dell’albero motore rappresenta lo stesso tipo di scambio?
 5. **Scegli e spiega.** Nel modello di una pila integra che alimenta un circuito, il sistema è: A) aperto, perché trasferisce energia; B) chiuso, perché può trasferire energia senza flussi macroscopici di materia; C) isolato, perché ha un involucro.
-6. **Vero o falso? Motiva.** «Una molla non può essere un sistema chiuso perché il suo confine si sposta quando la allunghiamo».
+6. **Vero o falso? Motiva.** «Una molla non può essere un sistema chiuso perché il suo confine si sposta quando la comprimiamo».
 7. Un thermos chiuso, lasciato per molte ore, contiene una bevanda che si è raffreddata. Quale scambio è avvenuto? Perché questo non rende automaticamente il sistema aperto?
 8. Per classificare un sistema è sufficiente sapere che possiede un tappo? Spiega quali informazioni sugli scambi servono.
 

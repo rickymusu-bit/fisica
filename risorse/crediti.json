@@ -2385,7 +2385,8 @@
         "asset-06ff11c6cd694cb3af7c7299da0d444170d9f5cb6a5b66935c4f21419080f4e0",
         "asset-7cb392160290aa388d15e94e5f5749c8d65e899d6eaa7c8ee0c091eae42d5b5a",
         "asset-08cfd0462ede1a465c2e9c824c3ec33ba1c6f3ba235729f2452817354a4347a9",
-        "asset-7332bcb59622f5f6b59f4267cac9f548db19d4a6cf8f5dc0da9fec6d551d9808"
+        "asset-7332bcb59622f5f6b59f4267cac9f548db19d4a6cf8f5dc0da9fec6d551d9808",
+        "asset-133a48a8703a266baadc930239c1d33cfcdd3610a25bcb56723f9536e1d459b7"
       ]
     },
     {
@@ -2511,6 +2512,28 @@
         "asset-0624ea9cb55c654525b21ddcb47623039b59382e1020c9e87ee64a307caf1bd0",
         "asset-833032668d2c26e34bdcd68015fdfecc35c55b866fed12f7ea50a9b26b3466b2",
         "asset-c51de180d61f4b00b33cfe27f953598a478cc6026c8db1131fce642b547ebdee"
+      ]
+    },
+    {
+      "id": "credit-75bc560c9b8d9052",
+      "description": "Molla gialla montata attorno all’ammortizzatore della sospensione posteriore di una mountain bike",
+      "source": "https://commons.wikimedia.org/wiki/File:Mountain_bike_suspension_rear_ohlins_shock.jpg",
+      "author": "Alextredz",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Nessuna modifica; visualizzazione proporzionale.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Molla gialla montata attorno all’ammortizzatore della sospensione posteriore di una mountain bike — Alextredz. <a href=\"https://commons.wikimedia.org/wiki/File:Mountain_bike_suspension_rear_ohlins_shock.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>. Modifiche: Nessuna modifica; visualizzazione proporzionale.",
+        "Molla gialla montata attorno all’ammortizzatore della sospensione posteriore di una mountain bike — Alextredz. <a href=\"https://commons.wikimedia.org/wiki/File:Mountain_bike_suspension_rear_ohlins_shock.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>. Modifiche: Nessuna modifica; visualizzazione proporzionale.<br>Modifiche per questo utilizzo: Foto completa, senza ritaglio; contorno del sistema."
+      ],
+      "metadata_sources": [
+        "termodinamica_sistemi_it.html"
+      ],
+      "fingerprints": [
+        "asset-4ddaaf64895d0572456dcff6139b13c189582564144da8221934c0ec16a51c24",
+        "asset-17805696381bd76e69bb171f0a901b8935409246484400d173c0204d05bc447e"
       ]
     }
   ],
@@ -3076,10 +3099,6 @@
           "notice": 0
         },
         {
-          "resource": "credit-6ec3dfbf05b57cd3",
-          "notice": 0
-        },
-        {
           "resource": "credit-2745b5c3fc7949d9",
           "notice": 1
         },
@@ -3100,7 +3119,11 @@
           "notice": 1
         },
         {
-          "resource": "credit-6ec3dfbf05b57cd3",
+          "resource": "credit-75bc560c9b8d9052",
+          "notice": 0
+        },
+        {
+          "resource": "credit-75bc560c9b8d9052",
           "notice": 1
         }
       ],
@@ -3273,6 +3296,21 @@
       ]
     },
     {
+      "id": "asset-133a48a8703a266baadc930239c1d33cfcdd3610a25bcb56723f9536e1d459b7",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "termodinamica_sistemi_it.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "ts-1",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "credit-2745b5c3fc7949d9"
+        }
+      ]
+    },
+    {
       "id": "asset-13c5f125efae233fc4716f5e0a4e98f8d7f3e79a6958de4b9eb1a5ee88442303",
       "kind": "image/png",
       "uses": [
@@ -3299,6 +3337,21 @@
           "attribute": "href",
           "location": null,
           "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-17805696381bd76e69bb171f0a901b8935409246484400d173c0204d05bc447e",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "termodinamica_sistemi_it.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "ts-7",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "credit-75bc560c9b8d9052"
         }
       ]
     },
@@ -4044,6 +4097,21 @@
       ]
     },
     {
+      "id": "asset-4ddaaf64895d0572456dcff6139b13c189582564144da8221934c0ec16a51c24",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "termodinamica_sistemi_it.html",
+          "kind": "image/jpeg",
+          "description": "image",
+          "locator": "ts-7",
+          "attribute": "href",
+          "location": null,
+          "credit_id": "credit-75bc560c9b8d9052"
+        }
+      ]
+    },
+    {
       "id": "asset-517339d272efab6e594f8140397f2e0204c43794102c2f7462f0531c73a926e6",
       "kind": "image/webp",
       "uses": [
@@ -4412,21 +4480,6 @@
           "attribute": "inline",
           "location": null,
           "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-7332bcb59622f5f6b59f4267cac9f548db19d4a6cf8f5dc0da9fec6d551d9808",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "termodinamica_sistemi_it.html",
-          "kind": "svg",
-          "description": "svg",
-          "locator": "ts-1",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": "credit-2745b5c3fc7949d9"
         }
       ]
     },
@@ -6017,21 +6070,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-d614de23b81eababace60c2fef71def4052eb278dafe9ea6a2765203dde6de9e",
-      "kind": "image/jpeg",
-      "uses": [
-        {
-          "document": "termodinamica_sistemi_it.html",
-          "kind": "image/jpeg",
-          "description": "Due molle elicoidali da trazione",
-          "locator": "ts-7",
-          "attribute": "src",
-          "location": null,
-          "credit_id": "credit-6ec3dfbf05b57cd3"
         }
       ]
     },

@@ -52,13 +52,13 @@ Autore/provenienza: Waldyrious. Licenza: CC BY-SA 4.0.
 
 Sostituisce il powerbank. Foto di pile usate nella raccolta: descrivere singola pila integra come sistema, non contenitore né presunto circuito visibile.
 
-## TS-7 — Springs 009.jpg
+## TS-7 — Mountain bike suspension rear ohlins shock.jpg
 
-[Pagina Commons](https://commons.wikimedia.org/wiki/File:Springs_009.jpg) · [Immagine scelta](https://upload.wikimedia.org/wikipedia/commons/d/d5/Springs_009.jpg)
+[Pagina Commons](https://commons.wikimedia.org/wiki/File:Mountain_bike_suspension_rear_ohlins_shock.jpg).
 
-Provenienza ricostruita: Renard~enwiki (caricamento originale su en.wikipedia, 18 giugno 2005); Zeimusu (ritaglio della data, stessa data); Qz10 (trasferimento su Commons). La scheda non esplicita un autore; non viene attribuita a Qz10 la paternità della fotografia. Licenza: CC BY-SA 3.0, offerta tramite migrazione GFDL.
+Ultima scelta esplicita dell’utente: sospensione posteriore di mountain bike, Alextredz, CC BY-SA 4.0. File 960×640 fornito tramite collegamento Commons, incorporato senza modifiche ai pixel. Tratteggio intorno alla sola molla gialla richiesto dall’utente; nessuna freccia, scritta o ingrandimento. Spiegazione nelle didascalie; esempio adattato alla compressione. Gli attributi di credito rimandano alla fonte originale e indicano la sovrapposizione del contorno.
 
-Cronologia pubblica conservata in `risorse/springs-log.json`. Nell’HTML sono accreditati i contributori documentati. Le molle sono da trazione: esempio corretto in allungamento e rilascio. La scelta esplicita dell’utente prevale sul precedente suggerimento di molle montate.
+Questa scelta sostituisce definitivamente le proposte Flickr e la foto precedente Springs 009.jpg. Metadati della fonte in `risorse/molla-sospensione-mtb-fonte.json`.
 
 ## Realizzazione completata su richiesta del 19 ottobre 2026
 
@@ -72,3 +72,7 @@ Cronologia pubblica conservata in `risorse/springs-log.json`. Nell’HTML sono a
 L’utente ha proposto https://www.flickr.com/photos/morrfin/30257377/ (Suspension spring, Ian). Fonte con tutti i diritti riservati; l’utente ha confermato di non avere il permesso e ha risposto “No, userò un’altra foto”. Foto Flickr esclusa dal repository e dalla dispensa. Resta temporaneamente la fotografia precedente TS-7, pulita da frecce, contorno ed etichette. Attendere la nuova scelta senza sostituirla autonomamente.
 
 Per tutti i visuali, spiegazioni nelle didascalie anziché scritte sospese; niente ingrandimento in assenza di testi pertinenti nelle immagini.
+
+## Aggiornamento v6 — sostituzione conclusa
+
+La nota v5 di attesa è superata dalla nuova scelta Commons TS-7 e dalla successiva richiesta di tratteggio. Il file Flickr di Huw Pritchard è stato scartato dall’utente prima della consegna; non è incluso. Frecce del caffè contenute nella fotografia completa, incluse le punte; didascalie senza scritte volanti.

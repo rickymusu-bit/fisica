@@ -28,7 +28,7 @@ META={
  'TS-4':('corridori.jpg','Runners_during_marathon_Rotterdam.JPG','Peter van der Sluijs','CC BY-SA 3.0','https://creativecommons.org/licenses/by-sa/3.0/'),
  'TS-5':('motore.jpg','Ferrari_500_(Motor,_2480_cm³),_Bj._1954.jpg','Lothar Spurzem','CC BY-SA 2.0 DE','https://creativecommons.org/licenses/by-sa/2.0/de/'),
  'TS-6':('pile.jpg','Used_batteries_inside_recycling_container.jpg','Waldyrious','CC BY-SA 4.0','https://creativecommons.org/licenses/by-sa/4.0/'),
- 'TS-7':('molle.jpg','Springs_009.jpg','Renard~enwiki (caricamento originale); Zeimusu (ritaglio della data); Qz10 (trasferimento su Commons)','CC BY-SA 3.0','https://creativecommons.org/licenses/by-sa/3.0/'),
+ 'TS-7':('molla-sospensione-mtb.jpg','https://commons.wikimedia.org/wiki/File:Mountain_bike_suspension_rear_ohlins_shock.jpg','Alextredz','CC BY-SA 4.0','https://creativecommons.org/licenses/by-sa/4.0/'),
 }
 
 def line(x1,y1,x2,y2,arrow=False,color='#0066b3',width=5):
@@ -55,24 +55,25 @@ def scene(key):
     }
     out+=boundary(contours[key])
     if key=='TS-1':
-        out+=line(430,283,430,112,True)
+        out+=line(430,283,430,160,True)
         for coords in [(352,310,318,300),(352,365,316,365),(352,425,320,439),
-                       (390,491,373,520),(450,505,450,532),(520,483,544,507),
+                       (386,483,357,495),(520,483,551,495),
                        (552,420,585,437),(612,365,646,373),(612,325,644,312),
                        (380,265,365,239),(510,263,530,240)]:
             out+=line(*coords,True,color='#c62828',width=6)
-    left,top,W,H=(160,90,580,460) if key=='TS-1' else (x-10,y-10,w+20,h+20)
+    left,top,W,H=(x,y,w,h) if key=='TS-1' else (x-10,y-10,w+20,h+20)
     return W,H,f'<g transform="translate({-left},{-top})">{out}</g>'
 
 def figure(key,caption):
     name,source,author,lic,url=META[key]
     meta=attributes(source if source.startswith('https://') else 'https://commons.wikimedia.org/wiki/File:'+source,author,lic,url,
-        'Foto completa, senza ritaglio; contorno del sistema'+(' e frecce didattiche.' if key=='TS-1' else '.') if key not in ('TS-0','TS-7') else 'Nessuna modifica; visualizzazione proporzionale.')
+        'Foto completa, senza ritaglio; contorno del sistema'+(' e frecce didattiche.' if key=='TS-1' else '.') if key!='TS-0' else 'Nessuna modifica; visualizzazione proporzionale.')
     if key=='TS-0':
         return f'<figure class="visual cover" id="ts-0" {meta}><div class="image-frame"><div class="overview"><img src="{data(name)}" width="3100" height="3100" alt="Galassie del campo ultra profondo di Hubble" decoding="async"></div></div><figcaption>{escape(caption)}</figcaption></figure>'
     if key=='TS-7':
         im=Image.open(ASSETS/name)
-        return f'<figure class="visual photo" id="ts-7" {meta}><div class="image-frame"><div class="overview"><img src="{data(name)}" width="{im.width}" height="{im.height}" alt="Due molle elicoidali da trazione" loading="lazy" decoding="async"></div></div><figcaption>{escape(caption)}</figcaption></figure>'
+        contour=boundary('M568,96 Q599,82 624,94 Q649,104 652,126 Q657,144 642,164 Q638,195 619,214 Q608,243 588,262 Q573,292 549,307 Q528,333 499,343 Q471,351 445,334 Q412,333 399,311 Q390,291 405,266 Q414,241 434,222 Q445,197 467,178 Q478,151 504,134 Q529,108 568,96 Z')
+        return f'<figure class="visual photo" id="ts-7" {meta}><div class="image-frame"><div class="overview"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {im.width} {im.height}" width="{im.width}" height="{im.height}" style="display:block;width:100%;height:auto" role="img" aria-labelledby="titolo-ts-7 descrizione-ts-7"><title id="titolo-ts-7">La molla della sospensione posteriore</title><desc id="descrizione-ts-7">Il contorno tratteggiato individua la molla gialla; nessuna freccia o scritta sovrapposta.</desc><image href="{data(name)}" width="{im.width}" height="{im.height}"/>{contour}</svg></div></div><figcaption>{escape(caption)}</figcaption></figure>'
     W,H,content=scene(key);sid=key.lower()
     svg=f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" style="display:block;width:100%;height:auto" role="img" aria-labelledby="titolo-{sid} descrizione-{sid}"><title id="titolo-{sid}">{escape(caption)}</title><desc id="descrizione-{sid}">Fotografia completa e schema degli scambi, con il sistema indicato; spiegazioni nella didascalia.</desc><g id="scena-{sid}"><rect width="{W}" height="{H}" fill="white"/>{content}</g></svg>'
     zoom=f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" style="display:block;min-width:900px;width:100%;height:auto" role="img" aria-label="{escape(caption,quote=True)}"><use href="#scena-{sid}"/></svg>'
@@ -113,7 +114,7 @@ def main():
     template=(ROOT/'riferimenti/TEMA_DISPENSE.html').read_text()
     template=re.sub(r'<!-- MODELLO CANONICO.*?-->','<!-- Articolo autonomo; tema canonico v8. -->',template, count=1,flags=re.S)
     template=template.replace('<title>Tema grafico delle dispense — modello riutilizzabile</title>',f'<title>{TITLE} — Materia Oscura</title>')
-    template=template.replace('name="version" content="v8"','name="version" content="v5"',1).replace('name="date" content="2026-10-18"','name="date" content="2026-10-19"',1)
+    template=template.replace('name="version" content="v8"','name="version" content="v6"',1).replace('name="date" content="2026-10-18"','name="date" content="2026-10-19"',1)
     template=template.replace('Modello autonomo del tema grafico comune a tutti i capitoli futuri.','Sistema, ambiente e confine; scambi di materia ed energia; sistemi aperti, chiusi e isolati.')
     template=template.replace('Nome dell’area tematica','Materia e calore').replace('Titolo dell’articolo',TITLE)
     template=template.replace('<span class="sidebar-label">Fisica</span>','<span class="sidebar-label">Materia e calore</span>')
@@ -121,7 +122,7 @@ def main():
     template=re.sub(r'<figure class="visual cover">.*?</figure>',lambda _:cover,template,count=1,flags=re.S)
     template=re.sub(r'(<article class="article">).*?(<nav class="bottom-links")',lambda m:m[1]+''.join(body)+m[2],template,count=1,flags=re.S)
     template=re.sub(r'(<details class="chapter-notes".*?<ol>).*?(</ol>)',lambda m:m[1]+''.join(notes)+m[2],template,count=1,flags=re.S)
-    template=template.replace('Versione v8 · 2026-10-18','Versione v5 · 19 ottobre 2026')
+    template=template.replace('Versione v8 · 2026-10-18','Versione v6 · 19 ottobre 2026')
     # Marker condiviso da tutti gli schemi; resta definito anche quando una overview è nascosta.
     defs='<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" aria-hidden="true" style="position:absolute"><defs>'+''.join(
         f'<marker id="{name}" markerUnits="userSpaceOnUse" markerWidth="{size}" markerHeight="{size}" viewBox="0 0 8 8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="{color}"/></marker>'
