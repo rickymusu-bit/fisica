@@ -1,129 +1,69 @@
-# Proposte fotografiche — sistemi termodinamici
+# Visuali scelte — La termodinamica e i sistemi termodinamici
 
-Versione v1 · 19 ottobre 2026 (Europe/Rome).
+Versione v2 · 19 ottobre 2026 (Europe/Rome).
 
-Ricerca Wikimedia Commons autorizzata esplicitamente dall’utente. Preferenza corrente: oggetti fotografati in contesti reali, senza sfondo rimosso; sostituisce per questo compito il precedente suggerimento di fondo neutro e le indicazioni generali sulla trasparenza degli schemi. Nessuna proposta è ancora scelta né inserita nella dispensa. Fotografie presentate come disponibili alla fonte, senza nostre modifiche.
+Selezione esplicita dell’utente: 1A e sei collegamenti propri. Queste scelte sostituiscono le alternative precedenti, recuperabili nella cronologia Git. Non richiedere una seconda approvazione delle stesse immagini; l’approvazione delle immagini non è approvazione della bozza o via all’HTML. Conservare il contesto fotografico, senza rimozione automatica dello sfondo.
 
-## 1A — Copertina
+## TS-0 — Hubble ultra deep field.jpg
 
-![1A — Copertina](https://upload.wikimedia.org/wikipedia/commons/2/2f/Hubble_ultra_deep_field.jpg)
+[Pagina Commons](https://commons.wikimedia.org/wiki/File:Hubble_ultra_deep_field.jpg) · [Immagine scelta](https://upload.wikimedia.org/wikipedia/commons/2/2f/Hubble_ultra_deep_field.jpg)
 
-[Originale](https://upload.wikimedia.org/wikipedia/commons/2/2f/Hubble_ultra_deep_field.jpg) · [Scheda Commons](https://commons.wikimedia.org/wiki/File:Hubble_ultra_deep_field.jpg)
+Autore/provenienza: NASA/ESA. Licenza: Pubblico dominio, con credito NASA/ESA da conservare.
 
-Autore: NASA/ESA. Licenza/autorizzazione dichiarata sulla scheda: Pubblico dominio; conservare credito NASA/ESA.
+Scelta 1A.
 
-## 1B — Copertina
+## TS-1 — Coffee steaming in a mug.jpg
 
-![1B — Copertina](https://upload.wikimedia.org/wikipedia/commons/6/60/ESO_-_Milky_Way.jpg)
+[Pagina Commons](https://commons.wikimedia.org/wiki/File:Coffee_steaming_in_a_mug.jpg) · [Immagine scelta](https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Coffee_steaming_in_a_mug.jpg/960px-Coffee_steaming_in_a_mug.jpg)
 
-[Originale](https://upload.wikimedia.org/wikipedia/commons/6/60/ESO_-_Milky_Way.jpg) · [Scheda Commons](https://commons.wikimedia.org/wiki/File:ESO_-_Milky_Way.jpg)
+Autore/provenienza: PedanticNarrativeController. Licenza: CC0 1.0.
 
-Autore: ESO/S. Brunier. Licenza/autorizzazione dichiarata sulla scheda: CC BY 4.0; credito visibile e associato richiesto da ESO.
+Collegamento fornito dall’utente; nessuna sostituzione.
 
-## 2A — Bevanda
+## TS-3 — Термос (4).jpg
 
-![2A — Bevanda](https://upload.wikimedia.org/wikipedia/commons/2/28/A_cup_of_warm_tea.jpg)
+[Pagina Commons](https://commons.wikimedia.org/wiki/File:%D0%A2%D0%B5%D1%80%D0%BC%D0%BE%D1%81_(4).jpg) · [Immagine scelta](https://upload.wikimedia.org/wikipedia/commons/2/26/%D0%A2%D0%B5%D1%80%D0%BC%D0%BE%D1%81_%284%29.jpg)
 
-[Originale](https://upload.wikimedia.org/wikipedia/commons/2/28/A_cup_of_warm_tea.jpg) · [Scheda Commons](https://commons.wikimedia.org/wiki/File:A_cup_of_warm_tea.jpg)
+Autore/provenienza: Schekinov Alexey Victorovich. Licenza: CC BY-SA 4.0.
 
-Autore: Fitrah 9131. Licenza/autorizzazione dichiarata sulla scheda: CC0 1.0.
+Thermos selezionato dall’utente; considerarlo chiuso nell’esempio.
 
-## 2B — Bevanda
+## TS-4 — Runners during marathon Rotterdam.JPG
 
-![2B — Bevanda](https://upload.wikimedia.org/wikipedia/commons/3/3b/Cup_of_hot_coffee.jpg)
+[Pagina Commons](https://commons.wikimedia.org/wiki/File:Runners_during_marathon_Rotterdam.JPG) · [Immagine scelta](https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Runners_during_marathon_Rotterdam.JPG/960px-Runners_during_marathon_Rotterdam.JPG)
 
-[Originale](https://upload.wikimedia.org/wikipedia/commons/3/3b/Cup_of_hot_coffee.jpg) · [Scheda Commons](https://commons.wikimedia.org/wiki/File:Cup_of_hot_coffee.jpg)
+Autore/provenienza: Peter van der Sluijs. Licenza: CC BY-SA 3.0, tra le licenze offerte.
 
-Autore: Gabriel Fredrick Sindahnai. Licenza/autorizzazione dichiarata sulla scheda: CC BY-SA 4.0.
+Collegamento fornito dall’utente.
 
-## 3A — Thermos
+## TS-5 — Ferrari 500 (Motor, 2480 cm³), Bj. 1954.jpg
 
-![3A — Thermos](https://upload.wikimedia.org/wikipedia/commons/6/68/Bouteille_thermos.jpg)
+[Pagina Commons](https://commons.wikimedia.org/wiki/File:Ferrari_500_(Motor%2C_2480_cm%C2%B3)%2C_Bj._1954.jpg) · [Immagine scelta](https://upload.wikimedia.org/wikipedia/commons/d/d4/Ferrari_500_%28Motor%2C_2480_cm%C2%B3%29%2C_Bj._1954.jpg)
 
-[Originale](https://upload.wikimedia.org/wikipedia/commons/6/68/Bouteille_thermos.jpg) · [Scheda Commons](https://commons.wikimedia.org/wiki/File:Bouteille_thermos.jpg)
+Autore/provenienza: Lothar Spurzem. Licenza: CC BY-SA 2.0 DE.
 
-Autore: Ibu. Licenza/autorizzazione dichiarata sulla scheda: CC BY-SA 4.0.
+Considerare motore in funzionamento senza affermare che lo fosse al momento della fotografia.
 
-## 3B — Thermos
+## TS-6 — Used batteries inside recycling container.jpg
 
-![3B — Thermos](https://upload.wikimedia.org/wikipedia/commons/7/76/Arabic_thermos%2C_dalle.jpg)
+[Pagina Commons](https://commons.wikimedia.org/wiki/File:Used_batteries_inside_recycling_container.jpg) · [Immagine scelta](https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Used_batteries_inside_recycling_container.jpg/960px-Used_batteries_inside_recycling_container.jpg)
 
-[Originale](https://upload.wikimedia.org/wikipedia/commons/7/76/Arabic_thermos%2C_dalle.jpg) · [Scheda Commons](https://commons.wikimedia.org/wiki/File:Arabic_thermos%2C_dalle.jpg)
+Autore/provenienza: Waldyrious. Licenza: CC BY-SA 4.0.
 
-Autore: Slywire. Licenza/autorizzazione dichiarata sulla scheda: CC BY-SA 4.0.
+Sostituisce il powerbank. Foto di pile usate nella raccolta: descrivere singola pila integra come sistema, non contenitore né presunto circuito visibile.
 
-## 4A — Corpo umano
+## TS-7 — Springs 009.jpg
 
-![4A — Corpo umano](https://upload.wikimedia.org/wikipedia/commons/7/72/Drinking_running_female_marathon.JPG)
+[Pagina Commons](https://commons.wikimedia.org/wiki/File:Springs_009.jpg) · [Immagine scelta](https://upload.wikimedia.org/wikipedia/commons/d/d5/Springs_009.jpg)
 
-[Originale](https://upload.wikimedia.org/wikipedia/commons/7/72/Drinking_running_female_marathon.JPG) · [Scheda Commons](https://commons.wikimedia.org/wiki/File:Drinking_running_female_marathon.JPG)
+Autore/provenienza: Autore non indicato nella scheda consultata; uploader Commons Qz10, da non confondere automaticamente con l’autore. Licenza: CC BY-SA 3.0, offerta tramite migrazione GFDL.
 
-Autore: Peter van der Sluijs. Licenza/autorizzazione dichiarata sulla scheda: CC BY-SA 3.0.
+Ricostruire attribuzione dell’originale su en.wikipedia prima della consegna HTML. La scelta esplicita dell’utente prevale sul precedente suggerimento di molle montate.
 
-## 4B — Corpo umano
+## Realizzazione da svolgere dopo l’approvazione della bozza
 
-![4B — Corpo umano](https://upload.wikimedia.org/wikipedia/commons/c/ce/A_Man_Drinking_Water.jpg)
-
-[Originale](https://upload.wikimedia.org/wikipedia/commons/c/ce/A_Man_Drinking_Water.jpg) · [Scheda Commons](https://commons.wikimedia.org/wiki/File:A_Man_Drinking_Water.jpg)
-
-Autore: Johnnybam. Licenza/autorizzazione dichiarata sulla scheda: CC BY-SA 4.0.
-
-## 5A — Motore
-
-![5A — Motore](https://upload.wikimedia.org/wikipedia/commons/6/6f/Chrysler_engine_bay.JPG)
-
-[Originale](https://upload.wikimedia.org/wikipedia/commons/6/6f/Chrysler_engine_bay.JPG) · [Scheda Commons](https://commons.wikimedia.org/wiki/File:Chrysler_engine_bay.JPG)
-
-Autore: Trekphiler. Licenza/autorizzazione dichiarata sulla scheda: CC BY 3.0.
-
-## 5B — Motore
-
-![5B — Motore](https://upload.wikimedia.org/wikipedia/commons/3/34/ZAZ-965_engine_bay.jpg)
-
-[Originale](https://upload.wikimedia.org/wikipedia/commons/3/34/ZAZ-965_engine_bay.jpg) · [Scheda Commons](https://commons.wikimedia.org/wiki/File:ZAZ-965_engine_bay.jpg)
-
-Autore: DL24. Licenza/autorizzazione dichiarata sulla scheda: CC0 1.0.
-
-## 6A — Powerbank
-
-![6A — Powerbank](https://upload.wikimedia.org/wikipedia/commons/e/e4/Powerbank_Xiaomi%2C_3.jpg)
-
-[Originale](https://upload.wikimedia.org/wikipedia/commons/e/e4/Powerbank_Xiaomi%2C_3.jpg) · [Scheda Commons](https://commons.wikimedia.org/wiki/File:Powerbank_Xiaomi%2C_3.jpg)
-
-Autore: Cybularny. Licenza/autorizzazione dichiarata sulla scheda: CC0 1.0.
-
-## 6B — Powerbank
-
-![6B — Powerbank](https://upload.wikimedia.org/wikipedia/commons/5/53/Charging_a_smartphone_with_a_USB_power_bank.jpg)
-
-[Originale](https://upload.wikimedia.org/wikipedia/commons/5/53/Charging_a_smartphone_with_a_USB_power_bank.jpg) · [Scheda Commons](https://commons.wikimedia.org/wiki/File:Charging_a_smartphone_with_a_USB_power_bank.jpg)
-
-Autore: Mk2010. Licenza/autorizzazione dichiarata sulla scheda: CC BY-SA 4.0.
-
-## 7A — Molla
-
-![7A — Molla](https://upload.wikimedia.org/wikipedia/commons/c/c1/Deuce_front_suspension_detail.jpg)
-
-[Originale](https://upload.wikimedia.org/wikipedia/commons/c/c1/Deuce_front_suspension_detail.jpg) · [Scheda Commons](https://commons.wikimedia.org/wiki/File:Deuce_front_suspension_detail.jpg)
-
-Autore: Trekphiler. Licenza/autorizzazione dichiarata sulla scheda: CC BY 3.0.
-
-## 7B — Molla
-
-![7B — Molla](https://upload.wikimedia.org/wikipedia/commons/1/10/R75-rear-shock.jpg)
-
-[Originale](https://upload.wikimedia.org/wikipedia/commons/1/10/R75-rear-shock.jpg) · [Scheda Commons](https://commons.wikimedia.org/wiki/File:R75-rear-shock.jpg)
-
-Autore: Jeff Dean. Licenza/autorizzazione dichiarata sulla scheda: Autorizzazione per qualsiasi uso con attribuzione; non Creative Commons.
-
-## Note per la scelta e la realizzazione
-
-- 1A e 1B mostrano regioni del cosmo, non l’intero Universo. Per ESO rispettare il credito visibile associato, anche come eccezione alla centralizzazione grafica.
-- 2B: la nube visibile è composta da goccioline condensate, non da vapore acqueo visibile.
-- 3A è un thermos a pompa: va descritto chiuso e senza erogazione nel modello isolato. Verificare che il tipo di contenitore scelto sia sufficientemente riconoscibile per gli studenti.
-- 4A: l’accesso all’originale tramite il servizio web ha restituito un timeout; la scheda e il collegamento all’originale sono disponibili. Non dichiarare il file scaricato.
-- 5A e 5B: foto di motori montati; la descrizione degli scambi riguarda il funzionamento, non prova che il motore fotografato fosse acceso. Le frecce future devono rispettare i componenti effettivamente riconoscibili, senza inventare percorsi nascosti.
-- 6A e 6B: lasciare il contesto, cavo e telefono; eventuali marchi reali sugli oggetti non sono watermark da eliminare.
-- 7A e 7B: molle montate nelle sospensioni; il sistema studiato è la molla, non l’intero ammortizzatore. 7B ha risoluzione limitata (377 × 600 px); 7A ha 3.072 × 1.728 px. Non presentarle come due stati della stessa molla.
-- Nessun download locale completato: l’accesso diretto HTTP da shell a Wikimedia ha restituito 403. Conservati i collegamenti alle immagini originali recuperati dal servizio web e i metadati dalle schede. Non inventare hash o dichiarare risorse incorporate/offline.
-- Trasferire al registro unico risorse/crediti.json soltanto le risorse effettivamente scelte e integrate, secondo la procedura del progetto; questo elenco documenta le alternative editoriali e non sostituisce il registro.
+- I tre URL thumb forniti dall’utente sono conservati qui senza parametri di tracciamento; nel messaggio originale restano gli URL integrali. Verificare l’accesso e conservare gli originali delle stesse identiche foto, senza scegliere altre risorse.
+- Le schede Commons delle sei nuove immagini sono state lette per contenuto e licenze. Nessun hash locale o download completato dichiarato: l’accesso diretto via shell a Wikimedia ha restituito 403 nella ricerca precedente.
+- Prima dell’HTML completare il recupero dei file, l’ispezione visiva locale e l’attribuzione di Springs 009.jpg; non dichiarare completata una verifica dei diritti che dipende dall’identità dell’autore ancora mancante.
+- Inserire le risorse effettivamente integrate nel registro unico risorse/crediti.json tramite la procedura del progetto; mantenere qui soltanto decisioni editoriali e provenienza delle scelte.
+- Nella bozza ogni foto ha segnaposto identificabile, schema fisico previsto e didascalia. I flussi schematizzati rappresentano il modello esplicitato, senza attribuire alla foto processi non visibili.
