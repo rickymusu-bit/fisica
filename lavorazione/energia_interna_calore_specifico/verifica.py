@@ -31,7 +31,7 @@ def static_checks():
         assert base64.b64decode(src.split(',',1)[1]) == (WORK/'risorse'/filename).read_bytes()
     assert len(document.xpath('//ol[@class="questions"]/li')) == 8
     assert len(document.xpath('//div[@class="equation"]')) == 5
-    assert len(document.xpath('//table/tbody/tr')) == 10
+    assert len(document.xpath('//table/tbody/tr')) == 11
     assert len(document.xpath('//details[@class="chapter-notes"]//li')) == 4
     assert not document.xpath('//article//a[starts-with(@href,"http")]')[2:], 'Collegamenti esterni nel testo'
     assert not re.search(r'\\[\[\](]|\[COP-|\[FIG-|\[TAB-|\[GRA-',document.text_content())
@@ -45,7 +45,7 @@ def static_checks():
     results = {'byte':TARGET.stat().st_size, 'limite_byte':20_000_000,
                'sha256':hashlib.sha256(TARGET.read_bytes()).hexdigest(),
                'stili_e_script_comuni_identici':True, 'immagini_correnti_incorporate':True, 'copertina_e_gif_originali_invariate':True,
-               'domande':8,'formule':5,'righe_tabella':10,'note':4,
+               'domande':8,'formule':5,'righe_tabella':11,'note':4,
                'id_univoci_e_ancore_valide':True, 'risorse_senza_crediti':[],
                'ammesso_alla_pubblicazione':TARGET.name in manifest['articoli']}
     (WORK/'verifiche-finali.json').write_text(json.dumps(results,ensure_ascii=False,indent=2)+'\n')

@@ -1,6 +1,6 @@
 # Stato — Energia interna, calore e calore specifico
 
-Versione v18 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
+Versione v19 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
 
 ## Ambito e punto di partenza
 
@@ -207,3 +207,9 @@ Al controllo delle 16:13 UTC anche il nuovo tentativo è ancora in coda, senza e
 Ricevuto «Prova ora». Workflow 39283633815 completato con successo il 19 ottobre 2026 alle 16:40:25 UTC. Verifica del sito pubblico eseguita alle 18:51 UTC: HTTP 200 per articolo, catalogo, due articoli adiacenti e crediti. URL: https://rickymusu-bit.github.io/fisica/energia_interna_calore_specifico_it.html .
 
 HTML pubblico identico byte per byte alla versione v4 approvata: 9429717 byte, SHA-256 cccb2c88fc9d4c96fae8240ae81cbbf8e327fdedd5a8a6531cf7815504f4baf0. Otto articoli nel catalogo nell’ordine del manifest, nuovo articolo terzo, download da 9,43 MB, navigazione reciproca e fonti nei crediti verificati. Report verifiche-sito-pubblico.json. Nessuna nuova esecuzione necessaria; pubblicazione autorizzata completata.
+
+## Revisione richiesta: vapore acqueo e forma decimale
+
+Richiesta esplicita: aggiungere il vapore acqueo ai gas della tabella e usare valori decimali anziché notazione scientifica; regola generale: numeri moderati leggibili in decimale e prefissi SI. Articolo v5, bozza v10. Tabella con undici righe, vapore acqueo a 100 °C: 2020 J/(kg · K), a pressione costante di 1 atm secondo OpenStax, College Physics §14.2, tabella 14.1. Dato e condizioni registrati nei crediti; fonte già presente riutilizzata con nuovo avviso per questo articolo. Gli altri dieci valori sono numericamente invariati, ora scritti senza potenze di dieci.
+
+MASTER_PROMPT v62, A4 e rinvio AGENTS aggiornati alla preferenza generale senza imporre la notazione scientifica a tutti i calcoli. Nessuna revisione generale degli altri capitoli. Tema e risorse visuali invariati byte per byte. Verifiche statiche, crediti e build superati; Chromium offline 1280/390 px: undici righe, dati corretti, nessun overflow della pagina né errore JS, scorrimento interno della tabella su smartphone. Anteprime della tabella salvate e ispezionate. Report verifiche-tabella.json e verifiche-finali.json aggiornati. Richiesta circoscritta eseguita direttamente; aggiornamento della pagina pubblicata in corso.
