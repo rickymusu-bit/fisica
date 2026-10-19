@@ -1,0 +1,31 @@
+{
+  "file": "termodinamica_sistemi_it.html",
+  "version": "v8",
+  "date": "2026-10-19",
+  "bytes": 12676063,
+  "sha256": "aabd7b24d30df18a9eb83b693430fc31bde96b96a9a26c465b58160e17294e15",
+  "figure": 7,
+  "domande": 8,
+  "css_tema_canonico_inalterato": true,
+  "foto_originali_incorporate": 7,
+  "crediti_check": "superato",
+  "build_pages": "superata: 8 HTML",
+  "main_home_manifest": "aggiornamenti alla pubblicazione autorizzati nella PR #36",
+  "ingrandimento_solo_con_testi_didattici": true,
+  "frecce": {
+    "numero_totale": 0,
+    "tazza": {
+      "tratteggio": true
+    },
+    "molla": {
+      "tratteggio": true
+    }
+  },
+  "testi_svg_visuali": 0,
+  "ingrandimenti": 0,
+  "sostituzione_molla": "completata: Mountain bike suspension rear ohlins shock.jpg, Alextredz, CC BY-SA 4.0",
+  "foto_flickr_esclusa": true,
+  "pubblicazione_autorizzata": true,
+  "catalogo_articoli": 6,
+  "contenuto_didattico_v7_invariato": true
+}

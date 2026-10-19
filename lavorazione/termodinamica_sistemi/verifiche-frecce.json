@@ -1,0 +1,12 @@
+{
+  "version": "v7",
+  "frecce_visuali": 0,
+  "contorno_tazza": 1,
+  "contorno_molla": 1,
+  "scritte_svg": 0,
+  "ingrandimenti": 0,
+  "testato_a_px": [
+    1280,
+    390
+  ]
+}

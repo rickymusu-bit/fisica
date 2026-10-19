@@ -1,6 +1,7 @@
 {
-  "versione": 4,
+  "versione": 5,
   "articoli": [
+    "termodinamica_sistemi_it.html",
     "stati_della_materia.html",
     "passaggi_di_stato.html",
     "conduzione_it.html",
