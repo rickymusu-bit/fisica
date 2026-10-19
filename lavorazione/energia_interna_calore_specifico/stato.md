@@ -1,6 +1,6 @@
 # Stato — Energia interna, calore e calore specifico
 
-Versione v11 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
+Versione v12 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
 
 ## Ambito e punto di partenza
 
@@ -143,3 +143,13 @@ Report: `verifiche-browser.json` e `verifiche-finali.json`. Anteprime desktop/mo
 Navigazione del solo nuovo articolo verso Temperatura ed equilibrio termico e verso il successivo attualmente disponibile, Stati della materia. Nessun link al bilancio termico non ancora realizzato. Manifest, home, articoli precedenti e sospesi invariati. La build continua a pubblicare i sette articoli già ammessi; il nuovo articolo resta escluso finché non sarà autorizzata la pubblicazione.
 
 Prossimo passo: revisione del risultato HTML e delle anteprime, poi eventuale autorizzazione distinta a integrare e pubblicare. Salvataggio remoto verificato al commit di realizzazione `91635c72a7964a65b49be888a672efccaa7b90e6`; PR in bozza aperta e verificata: https://github.com/rickymusu-bit/fisica/pull/38 . Nessuna integrazione o pubblicazione eseguita.
+
+## Revisione corrente — HTML v2 e peso dei visuali
+
+Richiesta: «Nel grafico fai la linea della sabbia gialla e quella dell’acqua blu. Dimmi il peso dei visuali». Eseguita direttamente come modifica circoscritta. Sabbia #b58a00 continua, acqua #0066cc tratteggiata; stessi colori nella legenda. Confronto del sorgente SVG prima/dopo: cambiano soltanto i quattro colori delle rette e dei campioni di legenda, senza variazioni di dati, coordinate, testi o assi. Bozza testuale v7 aggiorna soltanto questa indicazione nel segnaposto.
+
+HTML autonomo v2: 19394778 byte, copia bozza.html identica. Rigenerati gli snapshot e il registro mediante credits.py --sync. Peso dei visuali misurato sui file e sulle occorrenze esatte delle risorse incorporate, in unità decimali, con dettaglio in peso-visuali.json: copertina 185032 byte (246735 nell’HTML); spiaggia 7665607 (10220835); GIF 6159492 (8212678); SVG grafico 3247 (8716, due occorrenze per vista e ingrandimento); fotogramma statico GIF 98303 (262188, due occorrenze per pausa/movimento ridotto); tabella HTML 1879 byte. La codifica base64 aumenta l’ingombro delle immagini. Le misure non comprendono font, logo comune e resto del documento.
+
+Controlli mirati superati: immagini originali incorporate inalterate, CSS/script comuni identici, ID e ancore validi, nessuna risorsa non accreditata, dimensione sotto 20 MB. Chromium offline a 1280 e 390 px per il grafico: nessun overflow o errore JS, ingrandimento e scorrimento funzionanti. Anteprime del grafico aggiornate e verificate; report in verifiche-grafico.json. Report finale aggiornato per peso e SHA-256. I precedenti controlli di indice/note/GIF/crediti restano validi poiché componenti e contenuto corrispondenti sono invariati.
+
+Salvataggio nella stessa PR #38; nessuna pubblicazione o integrazione in main.

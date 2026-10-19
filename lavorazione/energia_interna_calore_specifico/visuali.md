@@ -1,6 +1,6 @@
 # Visuali — Energia interna, calore e calore specifico
 
-Versione v10 · 19 ottobre 2026 (Europe/Rome).
+Versione v11 · 19 ottobre 2026 (Europe/Rome).
 
 La bozza v3 è approvata. Dopo la stima l’utente ha fornito tre collegamenti specifici: le immagini seguenti sono scelte e non richiedono una seconda approvazione. La bozza v6 adatta soltanto segnaposto, didascalie e crediti ai materiali scelti; testo, formule, tabella e domande approvati conservati. Le proposte sostituite restano nella cronologia Git.
 
@@ -47,3 +47,7 @@ Testo v3 già approvato; adattamento circoscritto v6 autorizzato dai collegament
 ## HTML v1 completato
 
 Le tre immagini correnti sono incorporate integralmente nell’HTML, con crediti e fonti nel registro unico e nello snapshot autonomo. Il PNG `risorse/acqua-fotogramma-statico.png` è il primo fotogramma della stessa GIF, usato per pausa e movimento ridotto; l’animazione originale è intatta. Il grafico è salvato in `risorse/calore-temperatura.svg` e incorporato nel componente canonico di ingrandimento. Tabella e grafico preservano struttura e relazioni fra desktop e smartphone. Controlli e anteprime in stato.md e nei report della realizzazione. Pubblicazione distinta e non eseguita.
+
+## Colori del grafico — HTML v2
+
+Richiesta esplicita: linea della sabbia gialla e linea dell’acqua blu. Applicati giallo #b58a00 e blu #0066cc alle due rette e ai campioni della legenda; mantenuti tratto continuo per sabbia e tratteggiato per acqua, dati, assi, scala, geometria e ingrandimento. Colore giallo scelto abbastanza scuro per restare leggibile sul fondo bianco. Aggiornati generatore, SVG, HTML e anteprime del grafico a 1280/390 px. Misure dettagliate in peso-visuali.json.

@@ -2704,7 +2704,8 @@
         "energia_interna_calore_specifico_it.html"
       ],
       "fingerprints": [
-        "asset-a2351806a5085bb09f6c5b41673da70703155db3822a3d7cee19f80d5e5182a3"
+        "asset-a2351806a5085bb09f6c5b41673da70703155db3822a3d7cee19f80d5e5182a3",
+        "asset-b6f73b042f2f60041002e09525f13fd54264c26e49037da4f32e5d8a2d9701c1"
       ],
       "notices": [
         "Grafico GRA-01 — realizzazione originale per Materia Oscura. Previsioni da T = T iniziale + Q/(m · c), con m = 1 kg, T iniziale = 20 °C e i calori specifici della tabella. Dati sperimentali non inventati; la fonte dei valori è accreditata separatamente."
@@ -5527,30 +5528,6 @@
       ]
     },
     {
-      "id": "asset-a2351806a5085bb09f6c5b41673da70703155db3822a3d7cee19f80d5e5182a3",
-      "kind": "image/svg+xml",
-      "uses": [
-        {
-          "document": "energia_interna_calore_specifico_it.html",
-          "kind": "image/svg+xml",
-          "description": "Grafico della temperatura in funzione del calore assorbito: masse di 1 kg di acqua e sabbia quarzosa partono da 20 gradi Celsius. La retta della sabbia cresce più rapidamente di quella dell’acqua.",
-          "locator": "gra-01",
-          "attribute": "src",
-          "location": null,
-          "credit_id": "credit-grafico-calore-temperatura"
-        },
-        {
-          "document": "energia_interna_calore_specifico_it.html",
-          "kind": "image/svg+xml",
-          "description": "Grafico della temperatura in funzione del calore assorbito: masse di 1 kg di acqua e sabbia quarzosa partono da 20 gradi Celsius. La retta della sabbia cresce più rapidamente di quella dell’acqua.",
-          "locator": "gra-01",
-          "attribute": "src",
-          "location": null,
-          "credit_id": "credit-grafico-calore-temperatura"
-        }
-      ]
-    },
-    {
       "id": "asset-a2f5fede4148ec580b73b457a203438926110a6d4e9f780c1801ff06cae88606",
       "kind": "image/jpeg",
       "uses": [
@@ -5925,6 +5902,30 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-72c72f3bc59bd8fd"
+        }
+      ]
+    },
+    {
+      "id": "asset-b6f73b042f2f60041002e09525f13fd54264c26e49037da4f32e5d8a2d9701c1",
+      "kind": "image/svg+xml",
+      "uses": [
+        {
+          "document": "energia_interna_calore_specifico_it.html",
+          "kind": "image/svg+xml",
+          "description": "Grafico della temperatura in funzione del calore assorbito: masse di 1 kg di acqua e sabbia quarzosa partono da 20 gradi Celsius. La retta della sabbia cresce più rapidamente di quella dell’acqua.",
+          "locator": "gra-01",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-grafico-calore-temperatura"
+        },
+        {
+          "document": "energia_interna_calore_specifico_it.html",
+          "kind": "image/svg+xml",
+          "description": "Grafico della temperatura in funzione del calore assorbito: masse di 1 kg di acqua e sabbia quarzosa partono da 20 gradi Celsius. La retta della sabbia cresce più rapidamente di quella dell’acqua.",
+          "locator": "gra-01",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-grafico-calore-temperatura"
         }
       ]
     },

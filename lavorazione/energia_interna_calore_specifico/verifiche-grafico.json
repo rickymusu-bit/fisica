@@ -1,0 +1,22 @@
+{
+  "versione": "v2",
+  "colori": {
+    "sabbia": "#b58a00",
+    "acqua": "#0066cc"
+  },
+  "dati_e_geometria_invariati": true,
+  "viste": [
+    {
+      "larghezza": 1280,
+      "nessun_overflow": true,
+      "ingrandimento": true,
+      "errori_js": []
+    },
+    {
+      "larghezza": 390,
+      "nessun_overflow": true,
+      "ingrandimento": true,
+      "errori_js": []
+    }
+  ]
+}
