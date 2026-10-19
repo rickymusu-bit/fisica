@@ -1,6 +1,6 @@
 # La dilatazione termica
 
-Bozza v2 — 19 ottobre 2026 (Europe/Rome).
+Bozza v3 — 19 ottobre 2026 (Europe/Rome).
 Testo da approvare. Le immagini sono segnaposto delle funzioni concordate, non materiali già selezionati. Le didascalie saranno controllate sui file effettivamente ricevuti.
 
 [IMMAGINE COP-01 — Ponte; immagine esclusiva di copertina.]
@@ -22,6 +22,19 @@ Per prevedere un allungamento servono tre informazioni: quanto è lungo inizialm
 Qui L_0 è la lunghezza iniziale e ΔL la sua variazione, entrambe espresse in metri. La differenza ΔT si ottiene sottraendo la temperatura iniziale a quella finale. Il coefficiente α, che si legge «alfa», descrive quanto quel materiale cambia lunghezza per ogni grado di variazione della temperatura; si misura in K⁻¹.
 
 Una struttura inizialmente più lunga presenta un allungamento maggiore, a parità di materiale e variazione di temperatura. Se raddoppia ΔT, raddoppia anche ΔL nel modello. Con α positivo, il raffreddamento dà ΔT negativa e quindi ΔL negativa: il corpo si accorcia. La lunghezza finale si trova aggiungendo ΔL a quella iniziale.
+
+Quanto sono piccoli questi cambiamenti? La tabella confronta campioni lunghi inizialmente **1 m**, riscaldati da **20 °C a 40 °C**, quindi con ΔT = 20 K. I valori sono previsioni della legge della dilatazione lineare per campioni liberi di allungarsi, non misure di un esperimento.[4]
+
+**Tabella TAB-01 — Allungamento di 1 m di materiale per un aumento di temperatura di 20 °C.**
+
+| Materiale | Coefficiente α (K⁻¹) | Allungamento ΔL (mm) |
+| --- | ---: | ---: |
+| Acciaio | 0,000012 | 0,24 |
+| Rame | 0,000017 | 0,34 |
+| Alluminio | 0,000025 | 0,50 |
+| Vetro comune | 0,000009 | 0,18 |
+
+Un metro corrisponde a 1000 mm: l'allungamento resta inferiore a un solo millimetro in tutti e quattro i casi. Nell'acciaio è poco meno di un quarto della distanza fra due tacche consecutive di un righello millimetrato; nell'alluminio è metà di quella distanza. Anche il valore maggiore della tabella, 0,50 mm, rappresenta appena lo 0,05% della lunghezza iniziale. Ecco perché spesso non ce ne accorgiamo a occhio, pur dovendone tenere conto quando le lunghezze sono grandi o i movimenti sono ostacolati.
 
 La variazione può riguardare anche il volume, come accade al liquido di un termometro. La **legge della dilatazione volumica** ha una forma simile:
 
@@ -116,10 +129,12 @@ La rottura non va attribuita alla sola discesa di temperatura. Conta l'aumento d
 
 [3] La situazione dipende anche dalla profondità, dal clima e dal rimescolamento: non tutti i laghi mantengono sempre acqua a 4 °C sul fondo e quelli poco profondi possono gelare completamente.
 
+[4] I coefficienti sono valori rappresentativi prossimi alla temperatura ambiente; possono variare con composizione e temperatura. Qui sono assunti costanti fra 20 °C e 40 °C per confrontare gli ordini di grandezza.
+
 ## Crediti di servizio — non sezione didattica
 
 Testo originale. Fonti consultate per controllo dei principi; trasferire i riferimenti al registro unico nella fase HTML:
-- OpenStax, College Physics 2e, §13.2, Thermal Expansion of Solids and Liquids: https://openstax.org/books/college-physics-2e/pages/13-2-thermal-expansion-of-solids-and-liquids . Riferimento per leggi e principi di dilatazione; nessuna immagine ripresa.
+- OpenStax, College Physics 2e, §13.2, Thermal Expansion of Solids and Liquids: https://openstax.org/books/college-physics-2e/pages/13-2-thermal-expansion-of-solids-and-liquids . Riferimento per leggi e principi di dilatazione. TAB-01 usa i coefficienti lineari di acciaio, rame, alluminio e vetro comune della tabella 13.2, riferiti a 20 °C; gli allungamenti per L_0 = 1 m e ΔT = 20 K sono calcolati per questa bozza, non misure riprese dalla fonte. Nessuna immagine ripresa.
 - U.S. Geological Survey, Water Science School, Water Density: https://www.usgs.gov/water-science-school/science/water-density . Controllo di densità massima intorno a 4 °C, minore densità del ghiaccio e conseguenze nei laghi. Nessuna tabella numerica o immagine ripresa.
 
 - Network Rail, Buckled rail: https://www.networkrail.co.uk/rail-travel/delays-explained/buckled-rail-and-summer-heat/ . Controllo delle conseguenze del riscaldamento e della gestione delle rotaie saldate continue; nessuna immagine ripresa.
