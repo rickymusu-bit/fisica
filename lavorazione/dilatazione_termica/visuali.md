@@ -1,6 +1,6 @@
 # Visuali — La dilatazione termica
 
-Versione v3 — 19 ottobre 2026 (Europe/Rome).
+Versione v4 — 19 ottobre 2026 (Europe/Rome).
 
 ## Direzione concordata e proposta aggiornata
 
@@ -18,7 +18,7 @@ Nella teoria introdurre poi l'anomalia dell'acqua: a pressione atmosferica, raff
 
 La parte prevalente del capitolo sarà dedicata alle applicazioni, dopo la teoria secondo A3:
 
-1. **Lasciare spazio al movimento: ponti e giunti.** L'impalcato cambia lunghezza; giunti e appoggi progettati consentono movimenti e limitano sollecitazioni. Quando la dilatazione è impedita possono nascere sforzi e deformazioni. Nessuna formula degli sforzi o affermazione che tutte le strutture debbano avere identici giunti.
+1. **Binari ferroviari e temperatura.** Su richiesta esplicita dell'utente, l'applicazione sul ponte è sostituita dai binari: spazi nei tratti con giunti, vincoli e compressione nelle rotaie saldate continue, possibile instabilità laterale. Il ponte resta solo nell'introduzione e nella copertina. Non affermare che tutte le rotaie abbiano spazi di dilatazione.
 2. **Misurare la temperatura: termometro a liquido.** La variazione di volume rispetto al vetro produce uno spostamento nel capillare, reso leggibile dalla taratura. Usare un termometro ad alcool o altro liquido identificato, senza attribuire questo funzionamento a termometri digitali o galileiani.
 3. **Controllare il riscaldamento: termostato bimetallico.** Due metalli uniti si dilatano diversamente e la lamina si incurva; il movimento può aprire o chiudere un contatto. Mostrare un dispositivo effettivamente bimetallico, non dedurre il meccanismo dalla sola foto di una manopola.
 4. **Allentare un coperchio metallico.** Il riscaldamento del coperchio può aumentarne il diametro e facilitarne l'apertura. Considerare anche il recipiente: l'effetto dipende da materiali e riscaldamento relativo e non è garantito per ogni barattolo. Non proporre prove con acqua bollente o recipienti chiusi da scaldare.
@@ -34,11 +34,12 @@ L'utente cerca e fornisce file o collegamenti secondo C2. Nessuna ricerca o gene
 | ID | Materiale richiesto | Funzione e collocazione |
 | --- | --- | --- |
 | COP-01 | Fotografia di un ponte, distinta dalle immagini interne. | Copertina; non ripetuta né ritagliata per il testo. |
-| FIG-01 | Dettaglio riconoscibile di un giunto di dilatazione di un ponte. | Applicazione strutturale: mostrare lo spazio disponibile per il movimento. |
+| FIG-01 | Dettaglio riconoscibile di un giunto di dilatazione di un ponte. | Solo introduzione teorica: mostrare lo spazio disponibile per il movimento del ponte. |
 | FIG-02 | Termometro a liquido con bulbo, capillare e colonna visibili, preferibilmente ad alcool identificato dalla fonte. | Collegare aumento di volume e lettura della temperatura. |
 | FIG-03 | Schema illustrato già esistente di una lamina bimetallica o di un termostato bimetallico, con strati e contatto riconoscibili. | Spiegare la diversa dilatazione e il comando del circuito. |
 | FIG-04 | Barattolo di vetro con coperchio metallico, riconoscibile e senza una procedura pericolosa raffigurata. | Mostrare le due parti il cui riscaldamento relativo conta per l'apertura. |
 | FIG-05 | Sezione illustrata di un lago d'acqua dolce in inverno, con ghiaccio superficiale e temperature corrette negli strati liquidi. | Collegare densità, raffreddamento e formazione del ghiaccio in superficie. |
+| FIG-07 | Dettaglio di un binario ferroviario con giunto e spazio fra le estremità ben visibile. | Prima applicazione: collegare la variazione di lunghezza agli spazi del binario con giunti; distinguere nel testo le rotaie saldate continue. |
 | FIG-06 | Fotografia di un tubo o recipiente danneggiato dal gelo, con causa documentata dalla fonte. | Mostrare una conseguenza del congelamento in condizioni di vincolo, senza dedurre la causa dalla sola rottura. |
 
 La proposta precedente di dilatometro e recipiente con tubicino non è più richiesta. Gli ID FIG-02 e FIG-03 sono stati riassegnati in questa v2; nessun materiale era stato ricevuto con gli ID precedenti.
@@ -51,6 +52,10 @@ Una fotografia di lago ghiacciato non sostituisce una sezione utile a vedere le 
 
 Nessun materiale scelto o ricevuto, nessuna nuova licenza verificata, nessuna nuova voce inserita nel registro unico. Le fotografie storiche di termometri già presenti nel repository non sono automaticamente idonee al termometro a liquido proposto.
 
-Bozza v1 ora salvata in [bozza.md](bozza.md), con i casi concordati, didascalie proposte, segnaposto e 11 domande finali. Prossimo passo: ricevere i materiali scelti e raccogliere eventuali correzioni o l'approvazione della bozza. Le fonti scientifiche per curva dell'acqua, densità e dati quantitativi andranno verificate e conservate nei crediti di servizio della bozza, poi nel registro unico. Nessun dato numerico specifico oltre alle temperature caratteristiche è stato introdotto in questa proposta.
+Bozza v2 ora salvata in [bozza.md](bozza.md), con i casi concordati, didascalie proposte, segnaposto e 11 domande finali. Prossimo passo: ricevere i materiali scelti e raccogliere eventuali correzioni o l'approvazione della bozza. Le fonti scientifiche per curva dell'acqua, densità e dati quantitativi andranno verificate e conservate nei crediti di servizio della bozza, poi nel registro unico. Nessun dato numerico specifico oltre alle temperature caratteristiche è stato introdotto in questa proposta.
 
 L'HTML richiede successivamente approvazione della bozza, stima ripartita e via esplicito secondo B1.1. Main e pubblicazione restano fuori da questa revisione editoriale.
+
+## Correzione esplicita successiva
+
+L'utente richiede: «Nelle applicazioni non parlare di nuovo del ponte, parla semmai dei binari della ferrovia». Sostituzione autorizzata e applicata alla bozza v2, alla domanda 3 e alla richiesta dell'immagine FIG-07. FIG-01 resta esclusivamente nella teoria; nessuna foto ferroviaria cercata o selezionata. Gli altri casi restano approvati.
