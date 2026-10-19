@@ -1,7 +1,7 @@
 # Visuali proposte — Temperatura ed equilibrio termico
 
-Versione v1 · 19 ottobre 2026 (Europe/Rome).
-Stato: proposta da concordare, nessuna nuova immagine scelta o cercata.
+Versione v2 · 19 ottobre 2026 (Europe/Rome).
+Stato: proposta accettata dall’utente con «Ok»; riuso del caffè e tabella concordati. I due nuovi originali restano da ricevere; nessuna ricerca eseguita. La bozza completa è ora in [bozza.md](bozza.md), da approvare.
 
 ## Domanda e percorso proposti
 
@@ -37,8 +37,8 @@ Non proporre una nuova simulazione: una foto dell'apparato, il ragionamento sul 
 - Zero assoluto: limite inferiore della temperatura nella trattazione introduttiva; evitare l'affermazione che tutte le particelle siano ferme.
 - Domande finali miste e senza soluzioni; numero e formulazioni da fissare nella bozza dopo aver concordato le visuali.
 
-## Scelta richiesta
+## Materiali ancora da ricevere
 
-Concordare questa proposta e fornire i due originali nuovi COP-01 e FIG-01, preferibilmente con fonte e licenza. Per FIG-02 è disponibile il materiale già approvato; indicare soltanto eventuali preferenze diverse.
+Proposta concordata. Ricevere i due originali nuovi COP-01 e FIG-01, preferibilmente con fonte e licenza. Per FIG-02 è disponibile il materiale già approvato; indicare soltanto eventuali preferenze diverse.
 
-Come previsto dal master B1.1 e C2, non sono state avviate ricerche o generazioni di immagini. Dopo le scelte, scrivere la bozza completa in `bozza.md` con segnaposto identificabili e domande finali; presentare poi approvazione della bozza, stima e richiesta di via all'HTML nell'ordine previsto.
+Come previsto dal master B1.1 e C2, non sono state avviate ricerche o generazioni di immagini. Bozza completa salvata in `bozza.md` con segnaposto identificabili e domande finali; restano approvazione della bozza, stima e richiesta di via all'HTML nell'ordine previsto.
