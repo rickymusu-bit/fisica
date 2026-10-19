@@ -1,10 +1,10 @@
 # Stato — La termodinamica e i sistemi termodinamici
 
-Aggiornamento: 19 ottobre 2026 (Europe/Rome). Versione v6.
+Aggiornamento: 19 ottobre 2026 (Europe/Rome). Versione v7.
 
 ## Fase corrente
 
-**HTML v1 completato e verificato, pronto per la revisione.** Ripresa richiesta dall’utente: «Finisci il lavoro sulla dispensa dei sistemi termodinamici», con precisazione «Su GitHub». La richiesta corrente autorizza il completamento nel ramo dedicato; non viene registrata come un’approvazione separata del testo né come autorizzazione a pubblicare. Ramo: `termodinamica/percorso-introduttivo`. Nessuna modifica a main, home o manifest.
+**HTML v2 completato e verificato, pronto per la revisione.** Ripresa richiesta dall’utente: «Finisci il lavoro sulla dispensa dei sistemi termodinamici», con precisazione «Su GitHub». La richiesta corrente autorizza il completamento nel ramo dedicato; non viene registrata come un’approvazione separata del testo né come autorizzazione a pubblicare. Ramo: `termodinamica/percorso-introduttivo`. Nessuna modifica a main, home o manifest.
 
 File finale: `termodinamica_sistemi_it.html`; tema autonomo v8 riutilizzato senza modifiche al CSS o ai comandi comuni. Bozza testuale v2: sola correzione dell’esempio della molla da compressione ad allungamento, coerente con le molle da trazione fotografate.
 
@@ -48,4 +48,10 @@ Controllo scientifico: classificazioni, confini e flussi coerenti; molla da traz
 
 Verifica Chromium offline completata a 1280 e 390 px: nessun errore JavaScript, nessun overflow della pagina, indice con apertura/chiusura, richiamo/ritorno delle note, ingrandimento e scorrimento dei visuali, dialogo dei crediti, font OFL e pausa/ripresa logo funzionanti. Verificati ingrandimento e crediti anche senza JavaScript. Report: `verifiche-browser.json`; anteprime desktop/mobile nella stessa cartella. Ispezionati visivamente tutti e sei gli schemi. CSS del tema confrontato byte per byte; tutte le foto incorporate confrontate per SHA-256 con gli originali.
 
-File finale autonomo: `termodinamica_sistemi_it.html`, v1 · 19 ottobre 2026, 13,39 MB circa; copia corrente identica in `bozza.html`. Salvataggio sul ramo dedicato, senza unione né pubblicazione. Prossimo passaggio: revisione del risultato; per l’eventuale pubblicazione aggiornare catalogo, sequenza degli articoli e manifest solo dopo autorizzazione. Nessun via a main o alla pubblicazione ricevuto.
+File finale autonomo: `termodinamica_sistemi_it.html`, v2 · 19 ottobre 2026, 13,39 MB circa; copia corrente identica in `bozza.html`. Salvataggio sul ramo dedicato, senza unione né pubblicazione. Prossimo passaggio: revisione del risultato; per l’eventuale pubblicazione aggiornare catalogo, sequenza degli articoli e manifest solo dopo autorizzazione. Nessun via a main o alla pubblicazione ricevuto.
+
+## Revisione v2 — immagini e frecce
+
+Richiesta esplicita dell’utente del 19 ottobre 2026: nessun ingrandimento per immagini senza scritte rilevanti; frecce diverse dal nero, più corte e dentro i bordi. Scelto blu #0066b3 per aste e punte, lasciando neri i confini dei sistemi. Accorciate tutte e sei le frecce; quelle del caffè e della molla sono contenute nella rispettiva foto, comprese le punte.
+
+Il generatore aggiunge l’ingrandimento soltanto quando lo schema contiene etichette didattiche. Le sei composizioni attuali le contengono e mantengono il comando; la foto di copertina ne è priva. Nessun ingrandimento aggiunto per le scritte commerciali presenti nelle foto. Tema comune e originali invariati. Aggiornati HTML corrente, copia di lavorazione e anteprime; verificati colore, coordinate rispetto ai bordi e uso offline a 1280/390 px. Salvataggio nella stessa PR #36, senza pubblicazione.
