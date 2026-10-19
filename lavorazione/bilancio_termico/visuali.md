@@ -1,12 +1,12 @@
 # Visuali — Il bilancio termico
 
-Versione v3 · 19 ottobre 2026, ore 21:36 (Europe/Rome).
+Versione v4 · 19 ottobre 2026, ore 21:41 (Europe/Rome).
 
 ## Scelte effettive
 
 Fenomeno scelto dall’utente: mescolare caffè e latte, approssimando per entrambi il calore specifico a quello dell’acqua. Domanda adattata nella bozza: «Quanto si raffredda il caffè quando aggiungiamo il latte?».
 
-L’utente ha fornito quattro collegamenti specifici: le fotografie sono scelte, non chiedere una seconda approvazione. File scaricati nelle versioni a 960 px indicate, interamente decodificati e osservati direttamente. Nessuna elaborazione, conversione o nuovo ritaglio. La scelta delle fotografie non equivale all’approvazione del testo o al via all’HTML.
+L’utente ha fornito cinque collegamenti specifici, di cui l’ultimo sostituisce FIG-03: le fotografie sono scelte, non chiedere una seconda approvazione. File scaricati nelle versioni indicate (960 px Commons e 1024 px Rawpixel), interamente decodificati e osservati direttamente. Nessuna elaborazione, conversione o nuovo ritaglio. La scelta delle fotografie non equivale all’approvazione del testo o al via all’HTML.
 
 ## COP-01 — Caffè con latte, Garden Café Brighton
 
@@ -18,14 +18,16 @@ L’utente ha fornito quattro collegamenti specifici: le fotografie sono scelte,
 - File scaricato nella versione indicata, decodificato e osservato direttamente: tazza e piattino con caffè e latte, superficie con decorazione di schiuma e cucchiaino. Nessuna misura o temperatura dedotta dalla foto; non trattarla come prova di aggiunta di latte freddo.
 - Uso esclusivo: copertina, non ripetuta nel testo. Proporzioni originali, senza ritaglio, ricampionamento o conversione.
 
-## FIG-03 — Latte versato nel caffè
+## FIG-03 — Latte versato nel caffè, nuova scelta Rawpixel
 
-- File: [risorse/versamento-latte.jpg](risorse/versamento-latte.jpg), 960 × 1440 px, 173724 byte.
-- Collegamento ricevuto: https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Coffee_with_milk_%28563800%29.jpg/960px-Coffee_with_milk_%28563800%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-- Fonte: https://commons.wikimedia.org/wiki/File:Coffee_with_milk_(563800).jpg . Autore: shixugang, provenienza Pixabay (file 563800).
-- Licenza: CC0 1.0, https://creativecommons.org/publicdomain/zero/1.0/ . La scheda documenta la precedente pubblicazione con CC0 e la revisione della licenza su Commons; non dedotta dalla licenza odierna generale di Pixabay.
-- Osservazione: latte versato da una lattiera bianca in una tazza di caffè, chicchi di caffè sul piano. Nessun valore fisico ricavato dalla fotografia.
-- Uso: figura interna accanto alla domanda iniziale. La successiva scelta esplicita della nuova copertina sostituisce l’assegnazione iniziale; la foto non è usata come copertina corrente.
+- Sostituzione esplicita: «Usa questa per il latte che si versa», con https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvbnM5NzgxLWltYWdlLWt3dndqYzF3LmpwZw.jpg .
+- File corrente: [risorse/versamento-rawpixel.jpg](risorse/versamento-rawpixel.jpg), 1024 × 683 px, 177074 byte. Scaricato, decodificato e osservato direttamente: mano che versa latte da una lattiera nera nel caffè, ripresa dall’alto su un piano di legno. Nessun dato di temperatura dedotto.
+- Metadati XMP originali: titolo “Free pouring milk onto coffee cup photo, public domain beverage CC0 image”; autore indicato come rawpixel.com; LicensorURL https://www.rawpixel.com/image/5915327 ; WebStatement https://creativecommons.org/publicdomain/zero/1.0/ ; descrizione con rimando alla fonte https://negativespace.co/pouring-milk-coffee/ .
+- La fonte NegativeSpace è stata consultata: stessa immagine, titolo “Pouring Milk Coffee”, attribuzione “By Burst” e licenza CC0 dichiarata esplicitamente. Conservare Burst come attribuzione della fonte e Rawpixel come distributore della versione scelta, senza inventare un fotografo diverso.
+- Licenza verificata: CC0 1.0, https://creativecommons.org/publicdomain/zero/1.0/ . Non dedotta dal solo accesso pubblico al file o dalla licenza generale Rawpixel.
+- Nessun ritaglio, ricampionamento, conversione o modifica. Originale con XMP conservato integralmente.
+- Uso: figura interna all’apertura. La copertina COP-01 Garden Café Brighton resta invariata.
+- Il precedente file [risorse/versamento-latte.jpg](risorse/versamento-latte.jpg), shixugang, CC0 1.0, resta conservato come originale storico, non più usato o accreditato come figura corrente. La cronologia conserva la scheda precedente.
 
 ## FIG-01 — Tazza di caffè
 
@@ -57,6 +59,6 @@ La breve sezione sulla tazza fa parte della bozza da approvare, con la foto pert
 
 Impronte SHA-256, dimensioni, URL di download e byte in [risorse/originali.json](risorse/originali.json). Sono gli originali delle versioni indicate dall’utente, non le versioni a risoluzione massima di Commons.
 
-Bozza completa in [bozza.md](bozza.md), con segnaposto, didascalie, nove domande finali senza soluzioni e crediti di servizio. In fase HTML trasferire i metadati al registro unico, senza creare un secondo registro pubblico; applicare il tema corrente v9 da main, da leggere prima dell’impaginazione.
+Bozza completa v2 in [bozza.md](bozza.md), con segnaposto, didascalie, nove domande finali senza soluzioni e crediti di servizio. In fase HTML trasferire i metadati al registro unico, senza creare un secondo registro pubblico; applicare il tema corrente v9 da main, da leggere prima dell’impaginazione.
 
 Prossimo passo: revisione e approvazione del testo. Poi stima totale ripartita e via esplicito secondo B1.1–B2. Nessuna modifica a main, catalogo o pubblicazione.

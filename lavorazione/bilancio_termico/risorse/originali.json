@@ -38,5 +38,21 @@
       1280
     ],
     "sha256": "4675e70e4c04275d1e41e93604980d94dc74a989154eadf18f58133d40df0f8e"
+  },
+  {
+    "file": "versamento-rawpixel.jpg",
+    "url": "https://images.rawpixel.com/editor_1024/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvbnM5NzgxLWltYWdlLWt3dndqYzF3LmpwZw.jpg",
+    "bytes": 177074,
+    "dimensions": [
+      1024,
+      683
+    ],
+    "sha256": "32cfc7be47336739b7df3242ada8ac9db0514cf8b93cee331bba0885e377efaa",
+    "source": "https://negativespace.co/pouring-milk-coffee/",
+    "rawpixel_page": "https://www.rawpixel.com/image/5915327",
+    "author_as_listed_at_source": "Burst",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "changes": "Nessuna; copia integrale della versione scelta."
   }
 ]
