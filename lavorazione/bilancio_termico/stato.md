@@ -1,6 +1,6 @@
 # Stato — Il bilancio termico
 
-Versione v8 · 19 ottobre 2026, ore 22:08 (Europe/Rome).
+Versione v9 · 19 ottobre 2026, ore 22:10 (Europe/Rome).
 
 ## Risultato corrente
 
@@ -59,3 +59,7 @@ Report: [verifiche-finali.json](verifiche-finali.json) e [verifiche-browser.json
 ## Prossimo passo
 
 Consegnare HTML interattivo e anteprime per la revisione del risultato. Salvare e verificare il caricamento nel ramo dedicato; eventuale integrazione in main e pubblicazione richiedono autorizzazione distinta. Non ripetere le scelte di foto, colori o tipo di linea già autorizzate.
+
+## Salvataggio e consegna verificati
+
+Realizzazione salvata nel commit ad1029b7da18c44b7a1ddf61bb9b74452746e564 e caricata sul ramo ufficiale dedicato. Verificati via download remoto SHA-256 dell’HTML, anteprima del grafico desktop e report finale: identici alle copie locali. PR in bozza [#42](https://github.com/rickymusu-bit/fisica/pull/42), senza integrazione in main né pubblicazione. HTML v1: 2188177 byte; copia bozza.html identica. Consegna: HTML autonomo interattivo, anteprime desktop/mobile e PR per revisione. Prossimo passo effettivo: eventuali correzioni al risultato o autorizzazione esplicita a pubblicare.
