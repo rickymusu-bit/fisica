@@ -226,11 +226,11 @@ def main():
     assert cover and equation_count == 3 and len(headings) == 5 and len(notes) == 2
     template = (ROOT / 'riferimenti/TEMA_DISPENSE.html').read_text()
     template = re.sub(r'<!-- MODELLO CANONICO.*?-->',
-                      '<!-- Articolo autonomo; tema canonico v8, contenuto approvato. -->',
+                      '<!-- Articolo autonomo; tema canonico v9, contenuto approvato. -->',
                       template, count=1, flags=re.S)
     template = template.replace('<title>Tema grafico delle dispense — modello riutilizzabile</title>',
                                 f'<title>{TITLE} — Materia Oscura</title>')
-    template = template.replace('name="version" content="v8"', 'name="version" content="v3"', 1)
+    template = template.replace('name="version" content="v9"', 'name="version" content="v4"', 1)
     template = template.replace('name="date" content="2026-10-18"', 'name="date" content="2026-10-19"', 1)
     template = template.replace('Modello autonomo del tema grafico comune a tutti i capitoli futuri.',
                                 'Temperatura, equilibrio termico, principio zero, termometro e scale Celsius, Kelvin e Fahrenheit.')
@@ -257,7 +257,7 @@ def main():
                   '<a rel="next" href="https://rickymusu-bit.github.io/fisica/energia_interna_calore_specifico_it.html">'
                   '<span>Articolo successivo →</span><small>Energia interna, calore e calore specifico</small></a></nav>')
     template = template.replace('<!-- chapter-navigation:end -->', navigation + '<!-- chapter-navigation:end -->')
-    template = template.replace('Versione v8 · 2026-10-18', 'Versione v3 · 19 ottobre 2026')
+    template = template.replace('Versione v9 · 19 ottobre 2026', 'Versione v4 · 19 ottobre 2026')
     TARGET.write_text(template)
     print(TARGET.name, TARGET.stat().st_size, 'byte')
 

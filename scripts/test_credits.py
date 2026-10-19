@@ -16,6 +16,7 @@ class RegistryTests(unittest.TestCase):
         (self.root / 'riferimenti').mkdir()
         (self.root / 'copertine').mkdir()
         (self.root / 'copertine/manifest.json').write_text('[]')
+        (self.root / 'pubblicazione.json').write_text(json.dumps({'articoli':['one.html']}))
         for name in ['index.html', 'riferimenti/TEMA_DISPENSE.html']:
             (self.root / name).write_text('<html><title>Modello</title></html>')
         self.registry = {'resources': [], 'documents': {}, 'assets': [], 'font_license': 'OFL notice'}
@@ -67,6 +68,26 @@ class RegistryTests(unittest.TestCase):
         self.assertIn('https://example.org/image', result)
         self.assertIn(':target', result)
         self.assertEqual(result, credits.update_component(result, self.registry, 'one.html'))
+
+    def test_single_command_keeps_document_notices_and_links_to_all_credits(self):
+        original = self.article('one.html')
+        credits.sync_inventory(self.registry)
+        result = credits.component(self.registry, 'one.html')
+        navigation = result.split('<nav class="credits-navigation"', 1)[1].split('</nav>', 1)[0]
+        self.assertEqual(navigation.count('<a '), 1)
+        self.assertIn('href="#crediti-autonomi"', navigation)
+        self.assertNotIn('Crediti della copia autonoma', result)
+        self.assertIn('Crediti di tutti gli articoli', result)
+        self.assertIn('href="' + credits.PUBLIC_URL + '"', result)
+        self.assertIn(credits.notice_html(self.registry, 'one.html'), result)
+        self.assertIn(':target:not([open])', result)
+
+    def test_existing_unpublished_document_keeps_historical_component(self):
+        original = self.article('two.html')
+        credits.sync_inventory(self.registry)
+        legacy = credits.legacy_component(self.registry, 'two.html')
+        (self.root / 'two.html').write_text(original.replace('</body>', legacy + '</body>'))
+        self.assertEqual(credits.component(self.registry, 'two.html'), legacy)
 
     def test_resource_without_license_is_flagged_without_invented_rights(self):
         html = self.article('one.html')

@@ -1,0 +1,48 @@
+{
+  "viste": [
+    {
+      "larghezza": 1280,
+      "ingresso_chiuso": true,
+      "ingresso_con_hash_chiuso": true,
+      "ritorno_chiuso": true,
+      "apertura_e_chiusura": true,
+      "articolo_versione": 5,
+      "valori": [
+        "385",
+        "449",
+        "830",
+        "897",
+        "1790",
+        "2440",
+        "4180",
+        "918",
+        "1010",
+        "1040",
+        "2020"
+      ],
+      "errori_js": []
+    },
+    {
+      "larghezza": 390,
+      "ingresso_chiuso": true,
+      "ingresso_con_hash_chiuso": true,
+      "ritorno_chiuso": true,
+      "apertura_e_chiusura": true,
+      "articolo_versione": 5,
+      "valori": [
+        "385",
+        "449",
+        "830",
+        "897",
+        "1790",
+        "2440",
+        "4180",
+        "918",
+        "1010",
+        "1040",
+        "2020"
+      ],
+      "errori_js": []
+    }
+  ]
+}

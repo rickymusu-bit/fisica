@@ -1,6 +1,6 @@
 # Stato — Energia interna, calore e calore specifico
 
-Versione v17 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
+Versione v23 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
 
 ## Ambito e punto di partenza
 
@@ -201,3 +201,29 @@ URL previsto dopo il rilascio: https://rickymusu-bit.github.io/fisica/energia_in
 Ricevuto «Riprova». Il 19 ottobre 2026, ore 16:12 UTC, ricontrollati workflow precedente e pagina pubblica: esecuzione ancora in coda e articolo HTTP 404. Richiesta di annullamento della vecchia esecuzione accettata da GitHub; avviato un nuovo workflow_dispatch sul main corrente 47510371271c2d740736d723a8135dc548b9e9fd, senza modifiche all’HTML approvato. Nuova esecuzione: https://github.com/rickymusu-bit/fisica/actions/runs/39283633815 .
 
 Al controllo delle 16:13 UTC anche il nuovo tentativo è ancora in coda, senza esito. GitHub Status continua a segnalare degraded_performance per Actions e Pages e lo stesso incidente aperto. Pubblicazione non dichiarata completata; verifica pubblica ancora da svolgere dopo il rilascio.
+
+## Pubblicazione completata e verificata
+
+Ricevuto «Prova ora». Workflow 39283633815 completato con successo il 19 ottobre 2026 alle 16:40:25 UTC. Verifica del sito pubblico eseguita alle 18:51 UTC: HTTP 200 per articolo, catalogo, due articoli adiacenti e crediti. URL: https://rickymusu-bit.github.io/fisica/energia_interna_calore_specifico_it.html .
+
+HTML pubblico identico byte per byte alla versione v4 approvata: 9429717 byte, SHA-256 cccb2c88fc9d4c96fae8240ae81cbbf8e327fdedd5a8a6531cf7815504f4baf0. Otto articoli nel catalogo nell’ordine del manifest, nuovo articolo terzo, download da 9,43 MB, navigazione reciproca e fonti nei crediti verificati. Report verifiche-sito-pubblico.json. Nessuna nuova esecuzione necessaria; pubblicazione autorizzata completata.
+
+## Revisione richiesta: vapore acqueo e forma decimale
+
+Richiesta esplicita: aggiungere il vapore acqueo ai gas della tabella e usare valori decimali anziché notazione scientifica; regola generale: numeri moderati leggibili in decimale e prefissi SI. Articolo v5, bozza v10. Tabella con undici righe, vapore acqueo a 100 °C: 2020 J/(kg · K), a pressione costante di 1 atm secondo OpenStax, College Physics §14.2, tabella 14.1. Dato e condizioni registrati nei crediti; fonte già presente riutilizzata con nuovo avviso per questo articolo. Gli altri dieci valori sono numericamente invariati, ora scritti senza potenze di dieci.
+
+MASTER_PROMPT v62, A4 e rinvio AGENTS aggiornati alla preferenza generale senza imporre la notazione scientifica a tutti i calcoli. Nessuna revisione generale degli altri capitoli. Tema e risorse visuali invariati byte per byte. Verifiche statiche, crediti e build superati; Chromium offline 1280/390 px: undici righe, dati corretti, nessun overflow della pagina né errore JS, scorrimento interno della tabella su smartphone. Anteprime della tabella salvate e ispezionate. Report verifiche-tabella.json e verifiche-finali.json aggiornati. Richiesta circoscritta eseguita direttamente; aggiornamento della pagina pubblicata in corso.
+
+Revisione pubblicata: PR #39 integrata al commit 667e1239debe230a1796331d7378af56c1dceed1. Workflow 39307005829 concluso con successo; verifica pubblica del 19 ottobre 2026 alle 18:59 UTC superata. Articolo v5 pubblico identico ai byte verificati, 9429445 byte, SHA-256 d04afd7d0886fc1f6ef178867fc0276bd29ddf43af328581f9f08e316345d47d. Undici valori decimali e riga del vapore inclusi; catalogo, download, navigazione e crediti pubblici verificati. Report verifiche-sito-pubblico.json aggiornato. Revisione completata.
+
+## Segnalazione: tabella precedente e home con lista aperta
+
+L’utente vede ancora la notazione scientifica e la lista degli articoli aperta all’arrivo nella home. Verifica HTTP pubblica: articolo corrente v5 già in decimale, undici righe incluso vapore; risposte con Cache-Control max-age=600. Non attribuita con certezza la copia vista dall’utente a una specifica cache. Per evitare il riuso di vecchie revisioni, la build della home aggiunge ai link lettura/download la versione effettiva del rispettivo articolo (?v=N), lasciando disponibili i percorsi canonici e il nome del file scaricato.
+
+Individuata apertura automatica da hash #indice/#materia nello script della home: rimossa. Pannello chiuso all’ingresso e su pageshow, anche con ritorno dalla cronologia; apertura soltanto dai comandi espliciti. Home v22; articolo v5 invariato. Build e crediti superati. Chromium a 1280/390 px: ingresso normale/con hash e ritorno Indietro chiusi, apertura manuale, chiusura X/Esc, collegamento v5 e undici valori decimali verificati, nessun errore JS o overflow. Report verifiche-home-cache.json e anteprime home chiusa. Aggiornamento pubblico in corso.
+
+Correzione pubblicata: PR #40 integrata al commit 354424cf3a4760beea8dc26557cb6f6329fda670, workflow 39308141252 riuscito. Alle 19:07 UTC home canonica e ?v=22 HTTP 200, identiche ai byte della build provata in browser; articolo ?v=5 HTTP 200, identico alla versione decimale verificata. Report verifiche-home-cache-pubblico.json. Browser pubblico diretto limitato dalla fiducia CA del browser; HTTPS verificato con trust di sistema e interazioni provate localmente sull’identico HTML, senza disabilitare la verifica TLS. Consegnare link home ?v=22 e articolo ?v=5 per richiamare subito le revisioni correnti. Segnalazione risolta; nessuna modifica del contenuto dell’articolo o dei sorgenti esclusi.
+
+## Tema v9: comando crediti unificato
+
+Richiesta approvata «Vaai» alla proposta di unificare i comandi dei crediti. Articolo v6 per la sola revisione del componente comune: un comando «Crediti e licenze» apre gli avvisi incorporati, con «Crediti di tutti gli articoli» al suo interno. Contenuto, undici valori decimali e visuali invariati. Bozza HTML allineata e controlli statici superati; browser offline a 390/1280 px e senza JavaScript verificato nel lavoro comune lavorazione/crediti_unificati, che registra anche il rilascio.

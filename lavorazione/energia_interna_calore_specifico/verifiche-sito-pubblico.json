@@ -1,0 +1,33 @@
+{
+  "verificato_utc": "2026-10-19T18:59:38.810892+00:00",
+  "merge_commit": "667e1239debe230a1796331d7378af56c1dceed1",
+  "workflow_id": 39307005829,
+  "url_articolo": "https://rickymusu-bit.github.io/fisica/energia_interna_calore_specifico_it.html",
+  "risposte": {
+    "energia_interna_calore_specifico_it.html": 200,
+    "index.html": 200,
+    "temperatura_equilibrio_termico_it.html": 200,
+    "stati_della_materia.html": 200,
+    "crediti.html": 200
+  },
+  "byte_articolo": 9429445,
+  "sha256_articolo": "d04afd7d0886fc1f6ef178867fc0276bd29ddf43af328581f9f08e316345d47d",
+  "articolo_identico_al_verificato": true,
+  "ordine_catalogo": [
+    "termodinamica_sistemi_it.html",
+    "temperatura_equilibrio_termico_it.html",
+    "energia_interna_calore_specifico_it.html",
+    "stati_della_materia.html",
+    "passaggi_di_stato.html",
+    "conduzione_it.html",
+    "convezione_it.html",
+    "irraggiamento_it.html"
+  ],
+  "download_byte": 9429445,
+  "navigazione_reciproca": true,
+  "crediti_pubblici": true,
+  "workflow_conclusione": "success",
+  "tabella_righe": 11,
+  "valori_decimali": true,
+  "vapore_acqueo_J_kg_K": 2020
+}

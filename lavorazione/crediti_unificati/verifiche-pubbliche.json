@@ -1,0 +1,88 @@
+{
+  "verificato_utc": "2026-10-19T19:18:24.517132+00:00",
+  "merge_commit": "99cf11eaeae430f5d6c2c5280eb54c13b8a94dd2",
+  "workflow_id": 39309524643,
+  "workflow_conclusione": "success",
+  "pagine": [
+    {
+      "documento": "index.html",
+      "url": "https://rickymusu-bit.github.io/fisica/?v=23",
+      "versione": "v23",
+      "status": 200,
+      "identico_ai_byte_verificati": true,
+      "sha256": "7296976e4815859ffcf80d8d776cb4ed6e93049abe4fb934ffee01f202fc27c0"
+    },
+    {
+      "documento": "termodinamica_sistemi_it.html",
+      "url": "https://rickymusu-bit.github.io/fisica/termodinamica_sistemi_it.html?v=10",
+      "versione": "v10",
+      "status": 200,
+      "identico_ai_byte_verificati": true,
+      "sha256": "93eadd342ea859860c257d9a381b13c5b8c8981f6873868fa06019fc088ceaff"
+    },
+    {
+      "documento": "temperatura_equilibrio_termico_it.html",
+      "url": "https://rickymusu-bit.github.io/fisica/temperatura_equilibrio_termico_it.html?v=4",
+      "versione": "v4",
+      "status": 200,
+      "identico_ai_byte_verificati": true,
+      "sha256": "4083d7d616399cb163d8c9d39d0f4da3672948c4e561058aa0e7f7898d5480f6"
+    },
+    {
+      "documento": "energia_interna_calore_specifico_it.html",
+      "url": "https://rickymusu-bit.github.io/fisica/energia_interna_calore_specifico_it.html?v=6",
+      "versione": "v6",
+      "status": 200,
+      "identico_ai_byte_verificati": true,
+      "sha256": "1dd291618da37df2157f91ac274d2b4770730848f22c2ded34abbc4471beafa5"
+    },
+    {
+      "documento": "stati_della_materia.html",
+      "url": "https://rickymusu-bit.github.io/fisica/stati_della_materia.html?v=21",
+      "versione": "v21",
+      "status": 200,
+      "identico_ai_byte_verificati": true,
+      "sha256": "5b1982f72dfce36a05148380a13e8c3e62e90cafa2d55cfd4d558c5fe849438c"
+    },
+    {
+      "documento": "passaggi_di_stato.html",
+      "url": "https://rickymusu-bit.github.io/fisica/passaggi_di_stato.html?v=22",
+      "versione": "v22",
+      "status": 200,
+      "identico_ai_byte_verificati": true,
+      "sha256": "8c0f5118f95268bdb977d29ca560603b44eaaa94706729530805646a2e3731eb"
+    },
+    {
+      "documento": "conduzione_it.html",
+      "url": "https://rickymusu-bit.github.io/fisica/conduzione_it.html?v=6",
+      "versione": "v6",
+      "status": 200,
+      "identico_ai_byte_verificati": true,
+      "sha256": "a88fe8bcd719cd32b49f33d062f9640d8139bdd08bc1c09e36b283734a8810d0"
+    },
+    {
+      "documento": "convezione_it.html",
+      "url": "https://rickymusu-bit.github.io/fisica/convezione_it.html?v=6",
+      "versione": "v6",
+      "status": 200,
+      "identico_ai_byte_verificati": true,
+      "sha256": "14bd66b926dae764e9237d07f746813712e0656487fede65d2e9742c2f700956"
+    },
+    {
+      "documento": "irraggiamento_it.html",
+      "url": "https://rickymusu-bit.github.io/fisica/irraggiamento_it.html?v=13",
+      "versione": "v13",
+      "status": 200,
+      "identico_ai_byte_verificati": true,
+      "sha256": "84c4b2683e3ae319bed887bbc8076aa10f487bacb397abc9c953233136778780"
+    },
+    {
+      "documento": "crediti.html",
+      "url": "https://rickymusu-bit.github.io/fisica/crediti.html?v=2",
+      "versione": "v2",
+      "status": 200,
+      "identico_ai_byte_verificati": true,
+      "sha256": "37cdf0de1b3b9210123be512309d632d6aa8077696c51d1858781501105f26b0"
+    }
+  ]
+}

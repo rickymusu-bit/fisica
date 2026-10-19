@@ -1,6 +1,6 @@
 # Energia interna, calore e calore specifico
 
-Versione v9 · 19 ottobre 2026 (Europe/Rome).
+Versione v10 · 19 ottobre 2026 (Europe/Rome).
 Bozza testuale per revisione; i segnaposto indicano le visuali da inserire nell’HTML dopo la scelta dei file.
 
 [COP-01 — Copertina scelta: sfera incandescente del test Ivy Mike. File: risorse/copertina-ivy-mike.jpg. Conservare integralmente composizione e proporzioni.]
@@ -61,16 +61,17 @@ La capacità termica riguarda il corpo intero. Per confrontare i materiali dobbi
 
 | Stato | Sostanza o materiale | Calore specifico \(c\), in J/(kg · K)[^4] |
 | --- | --- | ---: |
-| Solido | Rame | \(3{,}85 \cdot 10^2\) |
-| Solido | Ferro | \(4{,}49 \cdot 10^2\) |
-| Solido | Sabbia quarzosa[^3] | \(8{,}3 \cdot 10^2\) |
-| Solido | Alluminio | \(8{,}97 \cdot 10^2\) |
-| Liquido | Olio d’oliva | \(1{,}79 \cdot 10^3\) |
-| Liquido | Alcol etilico (etanolo) | \(2{,}44 \cdot 10^3\) |
-| **Liquido** | **Acqua pura, a 20 °C** | **\(4{,}18 \cdot 10^3\)** |
-| Gas | Ossigeno | \(9{,}18 \cdot 10^2\) |
-| Gas | Aria secca | \(1{,}01 \cdot 10^3\) |
-| Gas | Azoto | \(1{,}04 \cdot 10^3\) |
+| Solido | Rame | 385 |
+| Solido | Ferro | 449 |
+| Solido | Sabbia quarzosa[^3] | 830 |
+| Solido | Alluminio | 897 |
+| Liquido | Olio d’oliva | 1790 |
+| Liquido | Alcol etilico (etanolo) | 2440 |
+| **Liquido** | **Acqua pura, a 20 °C** | **4180** |
+| Gas | Ossigeno | 918 |
+| Gas | Aria secca | 1010 |
+| Gas | Azoto | 1040 |
+| Gas | Vapore acqueo, a 100 °C | 2020 |
 
 Didascalia: Il confronto riguarda masse uguali. Tra i materiali riportati, l’acqua liquida richiede più energia per aumentare la temperatura dello stesso numero di gradi.
 
@@ -149,9 +150,9 @@ Ecco perché, dopo il tramonto, possiamo trovare ancora tiepido il mare mentre l
 
 ### Fonti dei dati e delle informazioni scientifiche
 
-- **Tabella TAB-01 e dati del grafico GRA-01:** Engineering ToolBox, [Specific Heat of Common Materials](https://www.engineeringtoolbox.com/specific-heat-capacity-d_391.html). Valori di calore specifico a pressione costante, arrotondati in notazione scientifica. Acqua pura a 20 °C: 4182 J/(kg · K); sabbia quarzosa (“Sand, quartz”): 830 J/(kg · K). La fonte non precisa temperatura e umidità della sabbia né la temperatura di riferimento di tutte le altre voci.
+- **Tabella TAB-01 e dati del grafico GRA-01:** Engineering ToolBox, [Specific Heat of Common Materials](https://www.engineeringtoolbox.com/specific-heat-capacity-d_391.html). Valori di calore specifico a pressione costante, arrotondati ed espressi in forma decimale. Acqua pura a 20 °C: 4182 J/(kg · K); sabbia quarzosa (“Sand, quartz”): 830 J/(kg · K). La fonte non precisa temperatura e umidità della sabbia né la temperatura di riferimento di tutte le altre voci.
 - **Spiegazione del contributo dei legami a idrogeno al calore specifico dell’acqua:** OpenStax, [Biology 2e, §2.2 — Water](https://openstax.org/books/biology-2e/pages/2-2-water). Informazioni rielaborate nel testo con formulazioni originali.
-- **Verifica delle relazioni tra calore, massa, calore specifico e variazione di temperatura:** OpenStax, [College Physics, §14.2 — Temperature Change and Heat Capacity](https://openstax.org/books/college-physics/pages/14-2-temperature-change-and-heat-capacity). Consultato per il controllo scientifico di formule e unità, senza riproduzione di testo o immagini.
+- **Verifica delle relazioni tra calore, massa, calore specifico e variazione di temperatura:** OpenStax, [College Physics, §14.2 — Temperature Change and Heat Capacity](https://openstax.org/books/college-physics/pages/14-2-temperature-change-and-heat-capacity). Tabella 14.1: vapore acqueo a 100 °C, calore specifico a pressione costante di 1 atm pari a 2020 J/(kg · K), valore tra parentesi nella fonte. Consultato anche per il controllo scientifico di formule e unità, senza riproduzione di testo o immagini.
 
 
 ### Immagini e animazione
