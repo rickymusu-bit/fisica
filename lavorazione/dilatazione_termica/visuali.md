@@ -1,12 +1,12 @@
 # Visuali — La dilatazione termica
 
-Versione v2 — 19 ottobre 2026 (Europe/Rome).
+Versione v3 — 19 ottobre 2026 (Europe/Rome).
 
 ## Direzione concordata e proposta aggiornata
 
 Quinto articolo del [percorso approvato](../percorso_termodinamica.md), dopo Il bilancio termico e prima di Stati della materia.
 
-L'utente richiede di privilegiare applicazioni e conseguenze tecnologiche e quotidiane e di trattare il comportamento anomalo dell'acqua. Questa indicazione sostituisce l'impostazione precedente centrata sugli apparati di laboratorio. I casi specifici e le immagini qui sotto sono proposte, non scelte già approvate.
+L'utente richiede di privilegiare applicazioni e conseguenze tecnologiche e quotidiane e di trattare il comportamento anomalo dell'acqua. Questa indicazione sostituisce l'impostazione precedente centrata sugli apparati di laboratorio. L'utente ha approvato la proposta v2 con «Approvo»: impostazione, sei casi e funzioni visuali sono concordati. I file originali delle immagini non sono ancora stati forniti o selezionati; l'approvazione del piano non seleziona materiali inesistenti.
 
 Domanda iniziale proposta: «Perché il caldo può deformare una struttura e, allo stesso tempo, far funzionare un termostato?».
 
@@ -43,7 +43,7 @@ L'utente cerca e fornisce file o collegamenti secondo C2. Nessuna ricerca o gene
 
 La proposta precedente di dilatometro e recipiente con tubicino non è più richiesta. Gli ID FIG-02 e FIG-03 sono stati riassegnati in questa v2; nessun materiale era stato ricevuto con gli ID precedenti.
 
-Per la parte teorica sull'acqua è utile anche un **grafico GRA-01 del volume di una massa fissa d'acqua liquida in funzione di T**, con minimo vicino a 4 °C. Proposta da concordare, non realizzata: scegliere un grafico o dati con fonte verificabile; distinguere l'eventuale curva qualitativa da misure reali. Non disegnare valori numerici arbitrari né una parabola simmetrica presentata come legge dell'acqua. Non includere il ghiaccio come continuazione della stessa curva del liquido.
+Per la parte teorica sull'acqua è utile anche un **grafico GRA-01 del volume di una massa fissa d'acqua liquida in funzione di T**, con minimo vicino a 4 °C. Funzione concordata con l'approvazione della proposta, grafico non realizzato: ricevere un grafico o dati con fonte verificabile; distinguere l'eventuale curva qualitativa da misure reali. Non disegnare valori numerici arbitrari né una parabola simmetrica presentata come legge dell'acqua. Non includere il ghiaccio come continuazione della stessa curva del liquido.
 
 Una fotografia di lago ghiacciato non sostituisce una sezione utile a vedere le temperature; può invece essere scelta come copertina alternativa. Non ricostruire autonomamente schemi illustrati complessi. Se si sceglie una copertina diversa, conservarne l'uso esclusivo.
 
@@ -51,6 +51,6 @@ Una fotografia di lago ghiacciato non sostituisce una sezione utile a vedere le 
 
 Nessun materiale scelto o ricevuto, nessuna nuova licenza verificata, nessuna nuova voce inserita nel registro unico. Le fotografie storiche di termometri già presenti nel repository non sono automaticamente idonee al termometro a liquido proposto.
 
-Prossimo passo: concordare i casi e le visuali e ricevere i materiali scelti; quindi preparare bozza.md con testo completo, didascalie, segnaposto e domande finali. Le fonti scientifiche per curva dell'acqua, densità e dati quantitativi andranno verificate e conservate nei crediti di servizio della bozza, poi nel registro unico. Nessun dato numerico specifico oltre alle temperature caratteristiche è stato introdotto in questa proposta.
+Bozza v1 ora salvata in [bozza.md](bozza.md), con i casi concordati, didascalie proposte, segnaposto e 11 domande finali. Prossimo passo: ricevere i materiali scelti e raccogliere eventuali correzioni o l'approvazione della bozza. Le fonti scientifiche per curva dell'acqua, densità e dati quantitativi andranno verificate e conservate nei crediti di servizio della bozza, poi nel registro unico. Nessun dato numerico specifico oltre alle temperature caratteristiche è stato introdotto in questa proposta.
 
 L'HTML richiede successivamente approvazione della bozza, stima ripartita e via esplicito secondo B1.1. Main e pubblicazione restano fuori da questa revisione editoriale.
