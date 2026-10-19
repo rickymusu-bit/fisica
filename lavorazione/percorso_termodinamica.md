@@ -1,6 +1,6 @@
 # Percorso introduttivo di termodinamica
 
-Versione v1 · 19 ottobre 2026 (Europe/Rome).
+Versione v2 · 19 ottobre 2026 (Europe/Rome).
 
 ## Sequenza approvata
 
@@ -23,6 +23,6 @@ La suddivisione approvata specifica l’ambito di questi articoli rispetto alla 
 
 ## Avanzamento
 
-Completato nel ramo dedicato il primo articolo HTML: `termodinamica_sistemi_it.html` v1, con [stato e verifiche](termodinamica_sistemi/stato.md). Non ancora pubblicato. Gli altri quattro articoli sono pianificati, non redatti. L’approvazione dell’elenco non equivale all’approvazione dei testi o alla pubblicazione.
+Completato nel ramo dedicato il primo articolo HTML: `termodinamica_sistemi_it.html` v8, con [stato e verifiche](termodinamica_sistemi/stato.md). Pubblicazione autorizzata esplicitamente dall’utente e predisposta nella PR #36, al primo posto del catalogo. Gli altri quattro articoli sono pianificati, non redatti. L’approvazione dell’elenco non equivale all’approvazione dei testi o alla pubblicazione.
 
 Al momento della pubblicazione dei nuovi articoli, aggiornare coerentemente catalogo e navigazione precedente/successivo secondo questa sequenza, mantenendo l’ordine relativo dei cinque articoli esistenti. Questo salvataggio non modifica home, manifest, HTML pubblicati o main.

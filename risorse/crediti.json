@@ -5296,6 +5296,15 @@
           "attribute": "inline",
           "location": null,
           "credit_id": null
+        },
+        {
+          "document": "index.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "materia",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
         }
       ]
     },

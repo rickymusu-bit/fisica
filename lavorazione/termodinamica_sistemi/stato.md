@@ -1,10 +1,10 @@
 # Stato — La termodinamica e i sistemi termodinamici
 
-Aggiornamento: 19 ottobre 2026 (Europe/Rome). Versione v12.
+Aggiornamento: 19 ottobre 2026 (Europe/Rome). Versione v13.
 
 ## Fase corrente
 
-**HTML v7 completato: soltanto contorni tratteggiati nelle immagini, nessuna freccia.** Ripresa richiesta dall’utente: «Finisci il lavoro sulla dispensa dei sistemi termodinamici», con precisazione «Su GitHub». La richiesta corrente autorizza il completamento nel ramo dedicato; non viene registrata come un’approvazione separata del testo né come autorizzazione a pubblicare. Ramo: `termodinamica/percorso-introduttivo`. Nessuna modifica a main, home o manifest.
+**Articolo approvato e ammesso alla pubblicazione su richiesta esplicita dell’utente.** Ripresa richiesta dall’utente: «Finisci il lavoro sulla dispensa dei sistemi termodinamici», con precisazione «Su GitHub». La richiesta corrente autorizza il completamento nel ramo dedicato; non viene registrata come un’approvazione separata del testo né come autorizzazione a pubblicare. Ramo: `termodinamica/percorso-introduttivo`. Nessuna modifica a main, home o manifest.
 
 File finale: `termodinamica_sistemi_it.html`; tema autonomo v8 riutilizzato senza modifiche al CSS o ai comandi comuni. Bozza testuale v2: sola correzione dell’esempio della molla da compressione ad allungamento, coerente con le molle da trazione fotografate.
 
@@ -48,7 +48,7 @@ Controllo scientifico: classificazioni, confini e flussi coerenti; molla da traz
 
 Verifica Chromium offline completata a 1280 e 390 px: nessun errore JavaScript, nessun overflow della pagina, indice con apertura/chiusura, richiamo/ritorno delle note, ingrandimento e scorrimento dei visuali, dialogo dei crediti, font OFL e pausa/ripresa logo funzionanti. Verificati ingrandimento e crediti anche senza JavaScript. Report: `verifiche-browser.json`; anteprime desktop/mobile nella stessa cartella. Ispezionati visivamente tutti e sei gli schemi. CSS del tema confrontato byte per byte; tutte le foto incorporate confrontate per SHA-256 con gli originali.
 
-File corrente autonomo: `termodinamica_sistemi_it.html`, v7 · 19 ottobre 2026, 13,39 MB circa; copia corrente identica in `bozza.html`. Salvataggio sul ramo dedicato, senza unione né pubblicazione. Prossimo passaggio: revisione del risultato; per l’eventuale pubblicazione aggiornare catalogo, sequenza degli articoli e manifest solo dopo autorizzazione. Nessun via a main o alla pubblicazione ricevuto.
+File corrente autonomo: `termodinamica_sistemi_it.html`, v8 · 19 ottobre 2026, 13,39 MB circa; copia corrente identica in `bozza.html`. Salvataggio sul ramo dedicato, senza unione né pubblicazione. Prossimo passaggio: revisione del risultato; per l’eventuale pubblicazione aggiornare catalogo, sequenza degli articoli e manifest solo dopo autorizzazione. Nessun via a main o alla pubblicazione ricevuto.
 
 ## Revisione v2 — immagini e frecce
 
@@ -93,3 +93,13 @@ Verifiche: caricamento e ispezione delle anteprime desktop/mobile, zero overflow
 Richiesta esplicita: togliere tutte le frecce dalla tazza e mantenere soltanto il tratteggio. Eliminati tutti i tracciati e i marker delle frecce dal generatore. Didascalia della tazza riscritta senza riferimenti ai colori: il tratteggio identifica tazza e bevanda, mentre gli scambi di materia ed energia sono descritti a parole. Fotografie e altri contorni invariati. Aggiornati HTML, copia di lavorazione, crediti e anteprime del caffè.
 
 Verifiche offline a 1280/390 px: zero frecce nei visuali, un contorno della tazza, zero scritte SVG o ingrandimenti, nessun overflow; didascalia priva di riferimenti alle frecce. Check crediti, build Pages e diff superati. Salvato nella stessa PR #36, senza pubblicazione.
+
+## Pubblicazione autorizzata — HTML v8
+
+L’utente ha approvato il risultato (“Perfetto, pubblica”): autorizzati integrazione in main, catalogo e pubblicazione. La v8 conserva integralmente il contenuto didattico approvato della v7 e aggiunge soltanto il collegamento all’articolo successivo.
+
+Articolo inserito al primo posto di “Materia e calore”, prima di Stati della materia, secondo il percorso concordato. Catalogo e manifest aggiornati a sei articoli; gli altri quattro articoli pianificati non hanno link vuoti. Navigazione reciproca: sistemi termodinamici → Stati della materia. Stati della materia v18 per il nuovo collegamento precedente; home v19. Sorgenti esclusi dalla pubblicazione invariati.
+
+Build Pages superata (8 HTML: home, sei articoli e crediti). Anteprime del catalogo e della pagina pronta a pubblicare salvate a 1280/390 px; prove browser del percorso catalogo → nuovo articolo → Stati della materia e del collegamento precedente superate. Verificata identità del contenuto del main didattico della v7. Registro, snapshot dei crediti e OFL sincronizzati.
+
+Pubblicazione tramite la PR #36 (https://github.com/rickymusu-bit/fisica/pull/36), con controllo dell’esito GitHub Pages e verifica online successivi all’integrazione. L’esito finale del rilascio è registrato nella descrizione della PR. URL di destinazione: https://rickymusu-bit.github.io/fisica/termodinamica_sistemi_it.html .

@@ -1,0 +1,30 @@
+[
+  {
+    "width": 1280,
+    "reads": [
+      "termodinamica_sistemi_it.html",
+      "stati_della_materia.html",
+      "passaggi_di_stato.html",
+      "conduzione_it.html",
+      "convezione_it.html",
+      "irraggiamento_it.html"
+    ],
+    "approved": true,
+    "prev": "termodinamica_sistemi_it.html",
+    "errors": []
+  },
+  {
+    "width": 390,
+    "reads": [
+      "termodinamica_sistemi_it.html",
+      "stati_della_materia.html",
+      "passaggi_di_stato.html",
+      "conduzione_it.html",
+      "convezione_it.html",
+      "irraggiamento_it.html"
+    ],
+    "approved": true,
+    "prev": "termodinamica_sistemi_it.html",
+    "errors": []
+  }
+]

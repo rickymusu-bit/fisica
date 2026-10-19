@@ -1,6 +1,6 @@
 # La termodinamica e i sistemi termodinamici
 
-<!-- Bozza v6 · 19 ottobre 2026 (Europe/Rome). Testo di riferimento per l’HTML v7; completamento richiesto il 19 ottobre 2026. Visuali scelte e fonti in visuali.md. -->
+<!-- Bozza v6 · 19 ottobre 2026 (Europe/Rome). Testo di riferimento per l’HTML v8; completamento richiesto il 19 ottobre 2026. Visuali scelte e fonti in visuali.md. -->
 
 [IMMAGINE TS-0 — Copertina: Hubble ultra deep field.jpg, proposta 1A approvata. Non riutilizzare nel testo.]
 
