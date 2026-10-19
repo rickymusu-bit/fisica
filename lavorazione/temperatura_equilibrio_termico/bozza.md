@@ -1,20 +1,20 @@
 # Temperatura ed equilibrio termico
 
-Bozza v1 · 19 ottobre 2026. Testo da approvare; segnaposto visuali da sostituire prima dell’HTML.
+Bozza v2 · 19 ottobre 2026. Bozza v1 approvata; esempi e didascalie adattati alle tre immagini scelte dall’utente. Segnaposto collegati ai file salvati; HTML non ancora realizzato.
 
-[IMMAGINE COP-01 — Fotografia di un termometro meteorologico in un contesto reale, con scala leggibile. Originale da ricevere. Copertina non ripetuta nel corpo.]
+[IMMAGINE COP-01 — Incisione storica con un putto che mostra un termometro. File scelto: risorse/copertina-termometro-storico.jpg. Conservare l’immagine completa; non ripeterla nel corpo.]
 
-Didascalia proposta: La scala del termometro permette di esprimere con un numero la temperatura dell’ambiente.
+Didascalia: Un putto mostra un termometro in un particolare del frontespizio dell’Hortus Cliffortianus, pubblicato nel 1738.
 
 ## Quando possiamo fidarci del termometro?
 
-Immergiamo un termometro in una bevanda e osserviamo la lettura. Nei primi istanti il valore può cambiare, poi si stabilizza. La bevanda era già lì, ma lo strumento ha avuto bisogno di tempo: quando possiamo fidarci della temperatura indicata?
+Durante una visita, il medico tiene un termometro a contatto con il corpo del paziente e attende prima di leggere il risultato. Nella fotografia lo strumento è collocato in bocca. Perché non basta appoggiarlo per un istante? Quando possiamo fidarci della temperatura indicata?
 
-[IMMAGINE FIG-01 — Termometro o sonda immerso in acqua, con la parte sensibile lontana dal fondo e dalle pareti. Originale da ricevere; nella foto non saranno aggiunti valori o andamenti temporali non documentati.]
+[IMMAGINE FIG-01 — Medico che misura la temperatura di una giovane paziente con un termometro in bocca. File scelto: risorse/misura-temperatura-paziente.jpg. Nessun valore numerico o andamento temporale dedotto dalla fotografia.]
 
-Didascalia proposta: La parte sensibile del termometro è immersa nel liquido. Per misurarne la temperatura bisogna attendere che strumento e liquido raggiungano l’equilibrio termico.
+Didascalia: Il medico misura la temperatura della paziente con un termometro per contatto. La parte sensibile deve avere il tempo di raggiungere la temperatura della zona in cui si effettua la misura.
 
-Prima dell’immersione, il termometro può trovarsi a una temperatura diversa da quella della bevanda. Il contatto permette un trasferimento di energia dal corpo a temperatura maggiore a quello a temperatura minore, e anche la temperatura dello strumento cambia. Se la bevanda è più calda, il termometro si riscalda; se è più fredda, si raffredda. Il cambiamento della lettura accompagna questo avvicinamento.
+Prima della misura, il termometro si trova di solito a una temperatura inferiore a quella del corpo. Il contatto permette un trasferimento di energia dalla zona più calda allo strumento più freddo, che si riscalda. La parte sensibile del termometro si avvicina così alla temperatura della zona misurata. Il tempo di attesa serve a lasciare che questo avvicinamento avvenga.
 
 La **temperatura** è la grandezza fisica che permette di confrontare lo stato termico dei corpi e prevedere il verso di questo trasferimento. La indichiamo con il simbolo **T**. Due corpi possono essere fatti di materiali diversi e avere dimensioni molto diverse, ma trovarsi alla stessa temperatura.
 
@@ -22,13 +22,15 @@ La **temperatura** è la grandezza fisica che permette di confrontare lo stato t
 
 Quando due corpi a temperature diverse vengono messi in contatto termico, tendono a raggiungere una temperatura comune. Se non intervengono altri cambiamenti, la differenza si riduce fino a scomparire. Si parla allora di **equilibrio termico**: i corpi hanno la stessa temperatura e non c’è più un trasferimento netto di energia tra loro dovuto a una differenza di temperatura.
 
-Questo è il motivo per cui occorre attendere prima di leggere un termometro per contatto. All’inizio lo strumento sta ancora cambiando temperatura; all’equilibrio, la sua temperatura coincide con quella del corpo con cui è in contatto. Per ottenere una misura utile, il termometro deve inoltre alterare il meno possibile ciò che misura: uno strumento molto ingombrante rispetto alla quantità di liquido potrebbe modificarne sensibilmente la temperatura.
+Questo è il motivo per cui occorre attendere prima di leggere un termometro per contatto. All’inizio la sua parte sensibile sta ancora cambiando temperatura; all’equilibrio, ha raggiunto quella della zona con cui è in contatto. Nel caso della misura corporea ci interessa proprio quella zona: non stiamo affermando che ogni parte del corpo abbia esattamente la stessa temperatura. Lo strumento deve inoltre alterare il meno possibile ciò che misura.
 
-[IMMAGINE FIG-02 — Riutilizzo concordato della fotografia del caffè conservata in ../termodinamica_sistemi/risorse/caffe.jpg. Nessuna temperatura ricavata dall’immagine.]
+[IMMAGINE FIG-02 — Bicchiere di bevanda fredda con ghiaccio appoggiato su un tavolo. File scelto: risorse/bevanda-fredda.jpg. Nessuna temperatura o condizione ambientale ricavata dalla fotografia.]
 
-Didascalia proposta: Una bevanda calda lasciata in una stanza tende alla temperatura dell’ambiente circostante.
+Didascalia: Il ghiaccio mantiene inizialmente fredda la bevanda. Lasciata in un ambiente più caldo, anche dopo che il ghiaccio si è sciolto, la bevanda tende alla temperatura circostante.
 
-La bevanda non scambia energia soltanto con il termometro. Anche la tazza e l’ambiente circostante partecipano agli scambi: se la stanza rimane alla stessa temperatura, col tempo la bevanda tende a raggiungerla. Per questo una lettura che smette di cambiare non basta, da sola, a garantire l’equilibrio: occorre che la parte sensibile sia collocata correttamente e che lo strumento abbia avuto il tempo di rispondere.
+Il bicchiere della fotografia permette di seguire il ragionamento nel verso opposto. Immaginiamo di lasciare una bevanda fredda in un ambiente più caldo, al riparo dal Sole e con temperatura circostante costante. Finché c’è ghiaccio, la bevanda può restare fredda a lungo; quando anche il ghiaccio si è sciolto, continuando ad attendere tende alla temperatura dell’ambiente. Non è il «freddo» che passa dal bicchiere alla stanza: è energia che viene trasferita dall’ambiente più caldo alla bevanda più fredda.
+
+L’equilibrio non richiede quindi di riscaldare sempre il corpo che osserviamo, né di raffreddarlo sempre. Conta la differenza rispetto a ciò con cui scambia energia. Per la misura accade lo stesso: un termometro più freddo della zona misurata si riscalda; uno più caldo si raffredda. Il punto di arrivo è una temperatura comune, non una lettura stabilita in anticipo.
 
 ## Il principio che rende possibile la misura
 
@@ -90,10 +92,10 @@ La distinzione diventa particolarmente utile quando leggiamo una **differenza di
 
 ## Domande di verifica
 
-1. Un termometro inizialmente alla temperatura della stanza viene immerso in acqua più fredda. Come prevedi che cambi la lettura? Che cosa deve accadere perché lo strumento e l’acqua siano in equilibrio termico?
+1. Un termometro inizialmente alla temperatura della stanza viene messo a contatto con una zona del corpo più calda. Come prevedi che cambi la temperatura della sua parte sensibile? Che cosa deve accadere perché strumento e zona misurata siano in equilibrio termico?
 2. **Vero o falso? Motiva.** Due corpi in equilibrio termico devono avere le stesse dimensioni ed essere fatti dello stesso materiale.
 3. Due corpi A e B, confrontati separatamente con lo stesso termometro, lo portano alla medesima temperatura di equilibrio. Che cosa permette di concludere il principio zero?
-4. Una sonda mostra un valore che non cambia, ma la parte sensibile è appoggiata alla parete del recipiente. Questa sola osservazione garantisce che il valore rappresenti la temperatura del liquido? Spiega.
+4. Una bevanda fredda viene lasciata in un ambiente più caldo, al riparo dal Sole e a temperatura circostante costante. Dopo che tutto il ghiaccio si è sciolto, a quale temperatura tende continuando ad attendere? In quale verso avviene il trasferimento netto di energia prima dell’equilibrio?
 5. **Scegli e motiva.** Una temperatura di 0 °C corrisponde a: A) 0 K; B) 273,15 K; C) −273,15 K. Perché lo zero Celsius non coincide con lo zero assoluto?
 6. Nella tabella, 20 °C e 68 °F rappresentano temperature diverse? Come lo stabilisci?
 7. **Vero o falso? Motiva.** Se la temperatura aumenta di 10 °C, aumenta di 283,15 K.
