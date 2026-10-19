@@ -1,6 +1,6 @@
 # La dilatazione termica
 
-Bozza v4 — 19 ottobre 2026 (Europe/Rome).
+Bozza v5 — 19 ottobre 2026 (Europe/Rome).
 Testo da approvare. Le immagini sono segnaposto delle funzioni concordate, non materiali già selezionati. Le didascalie saranno controllate sui file effettivamente ricevuti.
 
 [IMMAGINE COP-01 — Ponte; immagine esclusiva di copertina.]
@@ -29,12 +29,12 @@ Quanto sono piccoli i coefficienti? La tabella riporta alcuni valori rappresenta
 
 | Materiale | Coefficiente α (K⁻¹) |
 | --- | ---: |
-| Alluminio | 0,000025 |
-| Ottone | 0,000019 |
-| Rame | 0,000017 |
-| Acciaio | 0,000012 |
-| Vetro comune | 0,000009 |
-| Vetro Pyrex | 0,000003 |
+| Alluminio | 2,5 · 10⁻⁵ |
+| Ottone | 1,9 · 10⁻⁵ |
+| Rame | 1,7 · 10⁻⁵ |
+| Acciaio | 1,2 · 10⁻⁵ |
+| Vetro comune | 9 · 10⁻⁶ |
+| Vetro Pyrex | 3 · 10⁻⁶ |
 
 Questi numeri sono molto piccoli rispetto a 1. Il valore dell'acciaio, per esempio, indica una variazione di appena **dodici milionesimi della lunghezza iniziale per ogni kelvin** di aumento della temperatura. Il coefficiente dell'alluminio è circa doppio di quello dell'acciaio: nelle stesse condizioni, anche l'allungamento è circa doppio. L'effetto resta spesso difficile da vedere su piccoli oggetti, ma può diventare rilevante su grandi lunghezze o quando il movimento è ostacolato.
 
@@ -136,7 +136,7 @@ La rottura non va attribuita alla sola discesa di temperatura. Conta l'aumento d
 ## Crediti di servizio — non sezione didattica
 
 Testo originale. Fonti consultate per controllo dei principi; trasferire i riferimenti al registro unico nella fase HTML:
-- OpenStax, College Physics 2e, §13.2, Thermal Expansion of Solids and Liquids: https://openstax.org/books/college-physics-2e/pages/13-2-thermal-expansion-of-solids-and-liquids . Riferimento per leggi e principi di dilatazione. TAB-01 riporta i coefficienti lineari di alluminio, ottone, rame, acciaio, vetro comune e vetro Pyrex della tabella 13.2, riferiti a 20 °C e convertiti in forma decimale. Nessuna colonna di allungamenti calcolati. Nessuna immagine ripresa.
+- OpenStax, College Physics 2e, §13.2, Thermal Expansion of Solids and Liquids: https://openstax.org/books/college-physics-2e/pages/13-2-thermal-expansion-of-solids-and-liquids . Riferimento per leggi e principi di dilatazione. TAB-01 riporta i coefficienti lineari di alluminio, ottone, rame, acciaio, vetro comune e vetro Pyrex della tabella 13.2, riferiti a 20 °C e espressi in notazione scientifica normalizzata. Nessuna colonna di allungamenti calcolati. Nessuna immagine ripresa.
 - U.S. Geological Survey, Water Science School, Water Density: https://www.usgs.gov/water-science-school/science/water-density . Controllo di densità massima intorno a 4 °C, minore densità del ghiaccio e conseguenze nei laghi. Nessuna tabella numerica o immagine ripresa.
 
 - Network Rail, Buckled rail: https://www.networkrail.co.uk/rail-travel/delays-explained/buckled-rail-and-summer-heat/ . Controllo delle conseguenze del riscaldamento e della gestione delle rotaie saldate continue; nessuna immagine ripresa.
