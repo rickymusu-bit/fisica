@@ -1,7 +1,7 @@
 {
-  "verificato_utc": "2026-10-19T18:51:34.949126+00:00",
-  "merge_commit": "85fbb652b5c839c437c34f583c1a40b8885ede46",
-  "workflow_id": 39283633815,
+  "verificato_utc": "2026-10-19T18:59:38.810892+00:00",
+  "merge_commit": "667e1239debe230a1796331d7378af56c1dceed1",
+  "workflow_id": 39307005829,
   "url_articolo": "https://rickymusu-bit.github.io/fisica/energia_interna_calore_specifico_it.html",
   "risposte": {
     "energia_interna_calore_specifico_it.html": 200,
@@ -10,8 +10,8 @@
     "stati_della_materia.html": 200,
     "crediti.html": 200
   },
-  "byte_articolo": 9429717,
-  "sha256_articolo": "cccb2c88fc9d4c96fae8240ae81cbbf8e327fdedd5a8a6531cf7815504f4baf0",
+  "byte_articolo": 9429445,
+  "sha256_articolo": "d04afd7d0886fc1f6ef178867fc0276bd29ddf43af328581f9f08e316345d47d",
   "articolo_identico_al_verificato": true,
   "ordine_catalogo": [
     "termodinamica_sistemi_it.html",
@@ -23,9 +23,11 @@
     "convezione_it.html",
     "irraggiamento_it.html"
   ],
-  "download_byte": 9429717,
+  "download_byte": 9429445,
   "navigazione_reciproca": true,
   "crediti_pubblici": true,
   "workflow_conclusione": "success",
-  "workflow_completato_utc": "2026-10-19T16:40:25Z"
+  "tabella_righe": 11,
+  "valori_decimali": true,
+  "vapore_acqueo_J_kg_K": 2020
 }

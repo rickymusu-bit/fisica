@@ -1,6 +1,6 @@
 # Stato — Energia interna, calore e calore specifico
 
-Versione v19 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
+Versione v20 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
 
 ## Ambito e punto di partenza
 
@@ -213,3 +213,5 @@ HTML pubblico identico byte per byte alla versione v4 approvata: 9429717 byte, S
 Richiesta esplicita: aggiungere il vapore acqueo ai gas della tabella e usare valori decimali anziché notazione scientifica; regola generale: numeri moderati leggibili in decimale e prefissi SI. Articolo v5, bozza v10. Tabella con undici righe, vapore acqueo a 100 °C: 2020 J/(kg · K), a pressione costante di 1 atm secondo OpenStax, College Physics §14.2, tabella 14.1. Dato e condizioni registrati nei crediti; fonte già presente riutilizzata con nuovo avviso per questo articolo. Gli altri dieci valori sono numericamente invariati, ora scritti senza potenze di dieci.
 
 MASTER_PROMPT v62, A4 e rinvio AGENTS aggiornati alla preferenza generale senza imporre la notazione scientifica a tutti i calcoli. Nessuna revisione generale degli altri capitoli. Tema e risorse visuali invariati byte per byte. Verifiche statiche, crediti e build superati; Chromium offline 1280/390 px: undici righe, dati corretti, nessun overflow della pagina né errore JS, scorrimento interno della tabella su smartphone. Anteprime della tabella salvate e ispezionate. Report verifiche-tabella.json e verifiche-finali.json aggiornati. Richiesta circoscritta eseguita direttamente; aggiornamento della pagina pubblicata in corso.
+
+Revisione pubblicata: PR #39 integrata al commit 667e1239debe230a1796331d7378af56c1dceed1. Workflow 39307005829 concluso con successo; verifica pubblica del 19 ottobre 2026 alle 18:59 UTC superata. Articolo v5 pubblico identico ai byte verificati, 9429445 byte, SHA-256 d04afd7d0886fc1f6ef178867fc0276bd29ddf43af328581f9f08e316345d47d. Undici valori decimali e riga del vapore inclusi; catalogo, download, navigazione e crediti pubblici verificati. Report verifiche-sito-pubblico.json aggiornato. Revisione completata.
