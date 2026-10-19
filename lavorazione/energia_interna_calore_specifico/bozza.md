@@ -1,6 +1,6 @@
 # Energia interna, calore e calore specifico
 
-Versione v7 · 19 ottobre 2026 (Europe/Rome).
+Versione v8 · 19 ottobre 2026 (Europe/Rome).
 Bozza testuale per revisione; i segnaposto indicano le visuali da inserire nell’HTML dopo la scelta dei file.
 
 [COP-01 — Copertina scelta: sfera incandescente del test Ivy Mike. File: risorse/copertina-ivy-mike.jpg. Conservare integralmente composizione e proporzioni.]
@@ -108,7 +108,7 @@ Possiamo leggere la relazione anche al contrario:
 
 A parità di calore assorbito, una massa maggiore oppure un calore specifico maggiore producono un aumento di temperatura minore. Il grafico rende visibile questa differenza.
 
-[GRA-01 — T in funzione di Q assorbito per masse uguali di acqua e sabbia quarzosa, con uguale temperatura iniziale. Due rette calcolate dal modello \(T = T_{\mathrm{i}} + \frac{Q}{m \cdot c}\), con i valori di c della tabella, non dati sperimentali. Specifiche proposte per l’HTML: m = 1 kg per ciascun materiale, T_i = 20 °C, Q da 0 a 1 kJ; asse orizzontale Q (kJ), asse verticale T (°C). Linea continua gialla per la sabbia quarzosa e linea tratteggiata blu per l’acqua, con legenda corrispondente. Composizione identica su mobile.]
+[GRA-01 — T in funzione di Q assorbito per masse uguali di acqua e sabbia quarzosa, con uguale temperatura iniziale. Due rette calcolate dal modello \(T = T_{\mathrm{i}} + \frac{Q}{m \cdot c}\), con i valori di c della tabella, non dati sperimentali. Specifiche proposte per l’HTML: m = 1 kg per ciascun materiale, T_i = 20 °C, Q da 0 a 1 kJ; asse orizzontale Q (kJ), asse verticale T (°C). Linea continua gialla per la sabbia quarzosa e linea continua blu per l’acqua, con legenda corrispondente. Composizione identica su mobile.]
 
 Didascalia: Le due rette partono dalla stessa temperatura. A parità di calore assorbito, la sabbia quarzosa raggiunge una temperatura maggiore perché ha un calore specifico minore.
 

@@ -189,11 +189,11 @@ def make_graph(path):
     svg += ['<path d="M115 145V425H770" fill="none" stroke="#080808" stroke-width="3"/>',
             '<text x="435" y="499" text-anchor="middle" font-size="22">Calore assorbito Q (kJ)</text>',
             '<text transform="translate(38 290) rotate(-90)" text-anchor="middle" font-size="22">Temperatura T (°C)</text>']
-    for c, color, dash in [(830, '#b58a00', ''), (4180, '#0066cc', 'stroke-dasharray="13 8"')]:
+    for c, color, dash in [(830, '#b58a00', ''), (4180, '#0066cc', '')]:
         svg += [f'<path d="M115 425L755 {y(20+1000/c):.3f}" fill="none" stroke="{color}" stroke-width="4" {dash}/>']
     svg += ['<line x1="165" y1="548" x2="225" y2="548" stroke="#b58a00" stroke-width="4"/>',
             '<text x="240" y="555" font-size="20">Sabbia quarzosa</text>',
-            '<line x1="505" y1="548" x2="565" y2="548" stroke="#0066cc" stroke-width="4" stroke-dasharray="13 8"/>',
+            '<line x1="505" y1="548" x2="565" y2="548" stroke="#0066cc" stroke-width="4"/>',
             '<text x="580" y="555" font-size="20">Acqua</text>',
             '<text x="450" y="588" text-anchor="middle" font-size="16">Previsioni del modello, non misure sperimentali</text>', '</g></svg>']
     path.write_text('\n'.join(svg))
@@ -305,7 +305,7 @@ def main():
     template = (ROOT / 'riferimenti/TEMA_DISPENSE.html').read_text()
     template = re.sub(r'<!-- MODELLO CANONICO.*?-->', '<!-- Articolo autonomo dal tema canonico v8; testo approvato. -->',template,count=1,flags=re.S)
     template = template.replace('<title>Tema grafico delle dispense — modello riutilizzabile</title>', '<title>' + TITLE + ' — Materia Oscura</title>')
-    template = template.replace('name="version" content="v8"', 'name="version" content="v2"',1)
+    template = template.replace('name="version" content="v8"', 'name="version" content="v3"',1)
     template = template.replace('name="date" content="2026-10-18"', 'name="date" content="2026-10-19"',1)
     template = template.replace('Modello autonomo del tema grafico comune a tutti i capitoli futuri.', 'Energia interna, calore, capacità termica e calore specifico: perché il mare resta tiepido di notte.')
     template = template.replace('Nome dell’area tematica','Materia e calore').replace('Titolo dell’articolo',TITLE)
@@ -323,7 +323,7 @@ def main():
                   '<a rel="next" href="https://rickymusu-bit.github.io/fisica/stati_della_materia.html">'
                   '<span>Articolo successivo →</span><small>Stati della materia</small></a></nav>')
     template = template.replace('<!-- chapter-navigation:end -->',navigation+'<!-- chapter-navigation:end -->')
-    template = template.replace('Versione v8 · 2026-10-18','Versione v2 · 19 ottobre 2026')
+    template = template.replace('Versione v8 · 2026-10-18','Versione v3 · 19 ottobre 2026')
     template = template.replace('</body>',MOTION+'</body>')
     TARGET.write_text(template)
     register_sources()

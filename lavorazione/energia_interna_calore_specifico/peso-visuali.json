@@ -25,9 +25,9 @@
     {
       "visuale": "Grafico",
       "file": "calore-temperatura.svg",
-      "byte_file": 3247,
+      "byte_file": 3200,
       "occorrenze_html": 2,
-      "byte_incorporati": 8716
+      "byte_incorporati": 8588
     },
     {
       "visuale": "Fotogramma statico GIF",
@@ -41,5 +41,5 @@
       "byte_html": 1879
     }
   ],
-  "byte_html_finale": 19394778
+  "byte_html_finale": 19394650
 }

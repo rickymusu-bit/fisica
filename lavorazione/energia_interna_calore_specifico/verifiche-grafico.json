@@ -1,9 +1,6 @@
 {
-  "versione": "v2",
-  "colori": {
-    "sabbia": "#b58a00",
-    "acqua": "#0066cc"
-  },
+  "versione": "v3",
+  "linee": "sabbia gialla e acqua blu, entrambe continue",
   "dati_e_geometria_invariati": true,
   "viste": [
     {

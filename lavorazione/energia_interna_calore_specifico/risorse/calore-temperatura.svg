@@ -33,10 +33,10 @@
 <text x="435" y="499" text-anchor="middle" font-size="22">Calore assorbito Q (kJ)</text>
 <text transform="translate(38 290) rotate(-90)" text-anchor="middle" font-size="22">Temperatura T (°C)</text>
 <path d="M115 425L755 208.133" fill="none" stroke="#b58a00" stroke-width="4" />
-<path d="M115 425L755 381.938" fill="none" stroke="#0066cc" stroke-width="4" stroke-dasharray="13 8"/>
+<path d="M115 425L755 381.938" fill="none" stroke="#0066cc" stroke-width="4" />
 <line x1="165" y1="548" x2="225" y2="548" stroke="#b58a00" stroke-width="4"/>
 <text x="240" y="555" font-size="20">Sabbia quarzosa</text>
-<line x1="505" y1="548" x2="565" y2="548" stroke="#0066cc" stroke-width="4" stroke-dasharray="13 8"/>
+<line x1="505" y1="548" x2="565" y2="548" stroke="#0066cc" stroke-width="4"/>
 <text x="580" y="555" font-size="20">Acqua</text>
 <text x="450" y="588" text-anchor="middle" font-size="16">Previsioni del modello, non misure sperimentali</text>
 </g></svg>

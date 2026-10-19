@@ -1,6 +1,6 @@
 # Stato — Energia interna, calore e calore specifico
 
-Versione v12 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
+Versione v13 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
 
 ## Ambito e punto di partenza
 
@@ -153,3 +153,15 @@ HTML autonomo v2: 19394778 byte, copia bozza.html identica. Rigenerati gli snaps
 Controlli mirati superati: immagini originali incorporate inalterate, CSS/script comuni identici, ID e ancore validi, nessuna risorsa non accreditata, dimensione sotto 20 MB. Chromium offline a 1280 e 390 px per il grafico: nessun overflow o errore JS, ingrandimento e scorrimento funzionanti. Anteprime del grafico aggiornate e verificate; report in verifiche-grafico.json. Report finale aggiornato per peso e SHA-256. I precedenti controlli di indice/note/GIF/crediti restano validi poiché componenti e contenuto corrispondenti sono invariati.
 
 Salvataggio nella stessa PR #38; nessuna pubblicazione o integrazione in main.
+
+## Revisione corrente — HTML v3 e prove di compressione
+
+Richiesta: «Rendi continua la linea dell’acqua. Quanto puoi ridurre la dimensione dei visuali?». Resa continua la linea blu dell’acqua, incluso il campione della legenda, mantenendo gialla e continua quella della sabbia. Dati, geometria, testo e altri visuali invariati. HTML v3: 19394650 byte; copia bozza.html identica. Aggiornati i report di peso e hash, verifiche statiche e prove mirate del grafico a 1280 e 390 px; nessun overflow o errore JS, ingrandimento funzionante.
+
+Eseguite prove reversibili su copie fuori dai materiali correnti, per rispondere quantitativamente alla domanda. Foto: copertina WebP 1920 × 1555 qualità 90 da 185032 a 101328 byte; spiaggia ridimensionata proporzionalmente a 1920 × 1280, WebP qualità 85 da 7665607 a 191742 byte. Stima HTML con sole foto: 9317886 byte, −52,0%, GIF intatta.
+
+GIF: WebP senza perdita da 6159492 a 8869172 byte, quindi non conveniente; verificati tutti i pixel RGBA dei 300 fotogrammi. MP4 H.264 CRF18: 2965911 byte; CRF23: 1772954 byte, mantenendo 480 × 270 px, 300 fotogrammi e 12 secondi. Codifiche con perdita e cambio di formato, da non presentare come equivalenti bit per bit. Con foto ottimizzate e MP4: stima HTML 5059778 byte (−73,9%) oppure 3469170 (−82,1%) con compressione maggiore. L’integrazione MP4 richiederebbe adattamento dei controlli e scelta esplicita; non è stata applicata.
+
+Copie delle fotografie e fotogrammi video esaminati visivamente; nessun ritaglio o modifica del modello fisico. Le prove rimangono in /workspace/compressione-visuali; rapporto delle misure in prove-compressione.json sul ramo. Stime calcolate sulle dimensioni reali delle copie, includendo base64 e mantenendo il resto del documento: il peso definitivo si misurerebbe dopo integrazione. Le foto compresse riducono risoluzione o precisione dei pixel; non dichiarare assenza totale di perdita. Originali e risorse correnti dell’articolo intatti.
+
+Scopo corrente completato: grafico corretto e riduzioni misurate. Nessuna compressione sostitutiva, pubblicazione o integrazione in main eseguita.
