@@ -1,6 +1,6 @@
 # Stato — La termodinamica e i sistemi termodinamici
 
-Aggiornamento: 19 ottobre 2026 (Europe/Rome). Versione v3.
+Aggiornamento: 19 ottobre 2026 (Europe/Rome). Versione v4.
 
 ## Ambito e approvazioni effettive
 
@@ -65,3 +65,7 @@ Non cercare né generare autonomamente le immagini. Per gli schemi usare fotogra
 Salvata la sequenza completa richiesta e avviata la progettazione del primo articolo nel ramo dedicato termodinamica/percorso-introduttivo, derivato da main. Nessun capitolo omonimo preesistente trovato in lavorazione; nessuna bozza o risorsa dell’utente sostituita.
 
 Prossimo passo: ricevere i file o collegamenti alle immagini TS-0, TS-1, TS-3, TS-4, TS-5, TS-6 e TS-7 e verificare le risorse scelte; poi scrivere e salvare la bozza completa nel repository. La redazione della sola bozza, una volta concordate le visuali, richiede indicativamente 10–20 minuti di lavoro attivo e calcolo basso per stesura e revisione concettuale; non comprende attesa dei materiali né realizzazione HTML. La stima dell’HTML sarà presentata soltanto dopo l’approvazione della bozza, secondo B1.1.4.
+
+## Ricerca immagini autorizzata — 19 ottobre 2026
+
+L’utente ha richiesto esplicitamente «Cerca tu su Wikimedia commons», con oggetti fotografati nel contesto reale, per esempio una molla montata anziché su fondo bianco. Ricerca eseguita; due alternative per ciascuno dei sette soggetti in [visuali.md](visuali.md), con originali, autori e licenze delle schede. Questa preferenza specifica sostituisce i precedenti suggerimenti di sfondo neutro/trasparente per questi soggetti. Nessuna foto ancora scelta: prossimo passo ricevere la selezione per ID 1A–7B e poi redigere la bozza. Nessuna ricerca o generazione ulteriore automaticamente autorizzata oltre lo scopo corrente. Nessuna modifica al sito o pubblicazione. L’accesso diretto da shell ai file Wikimedia ha restituito 403: nessun download locale dichiarato; disponibili anteprime remote e collegamenti agli originali.
