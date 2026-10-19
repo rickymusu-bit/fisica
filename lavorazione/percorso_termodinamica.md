@@ -1,6 +1,6 @@
 # Percorso introduttivo di termodinamica
 
-Versione v2 · 19 ottobre 2026 (Europe/Rome).
+Versione v3 · 19 ottobre 2026 (Europe/Rome).
 
 ## Sequenza approvata
 
@@ -23,6 +23,6 @@ La suddivisione approvata specifica l’ambito di questi articoli rispetto alla 
 
 ## Avanzamento
 
-Completato nel ramo dedicato il primo articolo HTML: `termodinamica_sistemi_it.html` v8, con [stato e verifiche](termodinamica_sistemi/stato.md). Pubblicazione autorizzata esplicitamente dall’utente e predisposta nella PR #36, al primo posto del catalogo. Gli altri quattro articoli sono pianificati, non redatti. L’approvazione dell’elenco non equivale all’approvazione dei testi o alla pubblicazione.
+Completato nel ramo dedicato il primo articolo HTML: `termodinamica_sistemi_it.html` v8, con [stato e verifiche](termodinamica_sistemi/stato.md). Pubblicazione autorizzata esplicitamente dall’utente e predisposta nella PR #36, al primo posto del catalogo. Il secondo articolo, **Temperatura ed equilibrio termico**, è stato realizzato in HTML autonomo v1 nel ramo `termodinamica/temperatura-equilibrio-termico`, con [stato, anteprime e verifiche](temperatura_equilibrio_termico/stato.md). Testo e visuali concordati, via alla realizzazione ricevuto; risultato da esaminare, senza autorizzazione alla pubblicazione. Gli altri tre articoli introduttivi sono pianificati, non redatti. L’approvazione dell’elenco non equivale all’approvazione dei testi o alla pubblicazione.
 
 Al momento della pubblicazione dei nuovi articoli, aggiornare coerentemente catalogo e navigazione precedente/successivo secondo questa sequenza, mantenendo l’ordine relativo dei cinque articoli esistenti. Questo salvataggio non modifica home, manifest, HTML pubblicati o main.

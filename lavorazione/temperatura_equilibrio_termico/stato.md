@@ -1,6 +1,6 @@
 # Stato — Temperatura ed equilibrio termico
 
-Versione v5 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
+Versione v7 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
 
 ## Ambito e riferimenti
 
@@ -17,13 +17,13 @@ Letti integralmente MASTER_PROMPT.md v60 in blocchi senza troncamenti, AGENTS.md
 3. Secondo «Ok»: approvata la bozza completa v1 in `bozza.md`.
 4. Dopo la stima, l’utente ha fornito tre immagini precise e chiesto di adattare l’esempio della foto 1. Copertina storica scelta al posto del termometro meteorologico; medico che misura la temperatura al posto della sonda immersa; bevanda fredda con ghiaccio al posto del caffè. Autorizzati scelta di queste immagini e relativi adattamenti circoscritti, senza richiedere una nuova conferma.
 5. L’utente ha poi sostituito espressamente la sola copertina con «Galileo Thermometer in Tokyo.jpg». Foto scaricata e ispezionata, nuova didascalia salvata; il resto del testo è invariato rispetto alla v2.
-6. Nessun «via» esplicito alla realizzazione HTML successivo alla stima e nessuna autorizzazione a main/pubblicazione ricevuti. Non registrare la sola fornitura dei file come una conferma testuale mai espressa.
+6. Ricevuto il via esplicito alla realizzazione HTML: «Procedi», dopo la stima e la scelta definitiva della copertina. Avviata la realizzazione autorizzata; main e pubblicazione restano distinti e non autorizzati.
 
 ## Fase corrente e risultato
 
 Bozza v3 corrente: [bozza.md](bozza.md). Mantiene il testo approvato non coinvolto; adatta apertura, misura per contatto sulla paziente, didascalie, equilibrio con la bevanda fredda e domande 1 e 4. Nove domande finali senza soluzioni, tabella delle scale e due note.
 
-Domanda guida conservata: «Quando possiamo fidarci della temperatura indicata da un termometro?». Nessun HTML o codice di simulazione realizzato. Le modifiche testuali e la scelta delle immagini sono espressamente richieste, non una nuova stesura da far approvare da capo.
+Domanda guida conservata: «Quando possiamo fidarci della temperatura indicata da un termometro?». HTML autonomo v1 completato dopo il via esplicito; nessuna simulazione aggiunta. Le modifiche testuali e la scelta delle immagini sono espressamente richieste, non una nuova stesura da far approvare da capo.
 
 Tre immagini correnti scaricate, ispezionate e salvate in `risorse/`; soggetti, URL ricevuti, fonti, autori, stato dei diritti, dimensioni e hash in [visuali.md](visuali.md) v4. Nessuna modifica delle immagini. Nessun materiale mancante.
 
@@ -32,7 +32,7 @@ Tre immagini correnti scaricate, ispezionate e salvate in `risorse/`; soggetti, 
 - FIG-02: bevanda con ghiaccio, Henryemix; versione scelta 1920 × 1280 px, 407 515 byte; CC0 1.0.
 - TAB-01: confronto delle scale, già presente nella bozza approvata. Nessuna nuova simulazione o video.
 
-La conservazione degli originali nella lavorazione non aggiorna il registro pubblico dei crediti. In fase HTML: `data-credit-*`, registro unico, sincronizzazione e check, snapshot e licenza Lexend incorporata. Non introdurre inventari concorrenti.
+Registro unico aggiornato mediante `data-credit-*` e `scripts/credits.py --sync`; tre schede associate senza risorse non documentate per questo articolo. Conservata l’esatta dichiarazione Flickr Commons per la foto clinica. Crediti e licenza OFL Lexend incorporati; nessun inventario concorrente.
 
 ## Controlli della revisione
 
@@ -42,12 +42,29 @@ La conservazione degli originali nella lavorazione non aggiorna il registro pubb
 - Copertina corrente verificata visivamente: termometro galileiano con ampolle colorate. Nessuna misura numerica dedotta dalla foto; didascalia pertinente. Rimossa dalla bozza ogni descrizione della vecchia incisione.
 - Foto complete, proporzioni e byte conservati; hash blob confrontati con quelli calcolati localmente prima del salvataggio.
 - Testo approvato fuori dall’intervento conservato; formule e tabella non modificate. Segnaposto collegati a file reali.
-- Build Pages e prove browser non pertinenti: nessun HTML o sito modificato.
+- Le verifiche precedenti riguardavano la bozza; per la realizzazione HTML valgono i controlli documentati sotto.
 
 ## Stima e prossimo passo
 
 Stima già comunicata: 30–50 minuti di lavoro complessivo per la realizzazione, esclusa l’attesa di file/risposte; materiali e crediti 5–10 minuti, impaginazione nel tema 15–25 minuti, controlli/anteprime/salvataggio 10–15 minuti. Calcolo basso, nessuna simulazione. Le immagini sono ora disponibili e la verifica preliminare è compiuta. Stima indicativa subordinata all’accesso operativo e all’esito delle verifiche.
 
-Prossimo passo: ottenere soltanto il via all’HTML previsto da B1.1 punto 4 e B2 dopo la stima; non chiedere di approvare di nuovo bozza o immagini. Quindi applicare il tema esatto, integrare materiali e crediti, verificare desktop/mobile e offline e salvare un’anteprima. Pubblicazione distinta e non autorizzata.
+Prossimo passo: presentare HTML e anteprime per la revisione del risultato. Via all’HTML già ricevuto e lavoro completato: non richiederlo nuovamente. Integrazione in main e pubblicazione restano distinte e non autorizzate.
 
 L’accesso di rete dalla shell funziona usando i permessi di rete aggiuntivi dell’esecutore; con la sola sandbox predefinita il proxy non risulta raggiungibile. Non disattivare proxy o verifica TLS. Salvataggio ufficiale tramite connettore GitHub.
+
+
+## Realizzazione completata — HTML v1
+
+File finale: `temperatura_equilibrio_termico_it.html`, v1 · 19 ottobre 2026, 1 880 322 byte (1,88 MB decimali). Copia identica in `bozza.html`. Generatore riproducibile: `realizza.py`; dopo la generazione eseguire credits.py --sync e aggiornare la copia di lavorazione.
+
+Tema autonomo v8 letto e riutilizzato. CSS comuni confrontati byte per byte con il modello, script comuni preservati integralmente; sole aggiunte specifiche per tabella scorrevole e frazioni inline. Tre fotografie incorporate confrontate byte per byte con i file scelti. Composizione completa conservata, copertina verticale senza ritaglio, nessun ingrandimento superfluo per le foto. Tre conversioni con frazioni orizzontali, tabella a quattro colonne invariata fra dispositivi, nove domande e due note collassabili con richiami univoci e ritorni.
+
+Navigazione dalla nuova pagina verso il precedente già pubblicato (sistemi termodinamici) e il successivo attualmente disponibile (Stati della materia), con URL pubblici assoluti utilizzabili dalle copie scaricate. Nessun collegamento a un articolo ancora inesistente. Navigazione inversa, catalogo e manifest non aggiornati: spettano alla futura pubblicazione autorizzata.
+
+Controlli superati: credits.py --check, build Pages (otto HTML già ammessi, nuovo articolo non pubblicato), git diff --check. Nessun sorgente sospeso, articolo esistente, tema o home modificato. La sola pagina dei crediti e il registro centrale cambiano per includere il nuovo articolo.
+
+Verifiche Chromium a 1280 e 390 px: nessun errore JavaScript o richiesta di rete, nessun overflow della pagina, immagini/font caricati, indice con apertura/chiusura/Esc e selezione, note e ritorni, crediti offline con OFL, pausa/ripresa e movimento ridotto del logo. Indice e crediti verificati anche senza JavaScript. Tabella mobile larga 650 px dentro un contenitore di 296 px, scorrimento interno verificato; tre formule controllate senza overflow e ispezionate visivamente. IDs univoci e ancore risolte.
+
+L’ambiente Chromium blocca l’apertura diretta di URL file: tramite policy; per le prove il medesimo HTML completo è stato caricato in memoria con rete disabilitata. Il ramo specifico dello script che riscrive il collegamento pubblico dei crediti con protocollo file: è quello canonico, preservato senza modifiche; non viene dichiarato verificato in questo ambiente. Report in `verifiche-browser.json`, controlli statici in `verifiche-finali.json`; anteprime desktop/mobile salvate nella lavorazione e ispezionate, incluse copertina, foto clinica, tabella e formule.
+
+Il salvataggio nel ramo dedicato non equivale alla pubblicazione. Stato del caricamento remoto e collegamento alla PR saranno indicati alla consegna dopo la verifica del salvataggio.
