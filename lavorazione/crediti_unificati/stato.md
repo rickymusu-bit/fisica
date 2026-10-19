@@ -1,6 +1,6 @@
 # Stato — Crediti unificati
 
-Versione v1 · 19 ottobre 2026 (Europe/Rome).
+Versione v2 · 19 ottobre 2026 (Europe/Rome).
 
 Approvazione esplicita «Vaai» alla proposta di un solo comando «Crediti e licenze» che apre sempre lo snapshot incorporato del documento, anche offline, con «Crediti di tutti gli articoli» verso la pagina generale. Include applicazione e aggiornamento pubblico della home e degli otto articoli ammessi, tema canonico v9 e istruzioni future. Master v63, terminologia v6.
 
@@ -13,3 +13,9 @@ Controlli completati: dieci documenti con comando unico (home, otto articoli e m
 Undici prove Chromium (tutti i documenti pubblici a 390 px, home/articolo 3 anche a 1280): HTML completo in memoria e rete disabilitata, apertura/chiusura X ed Esc, ritorno focus, link generale assoluto, zero richieste esterne e zero errori JS. Fallback senza JavaScript provato per home/articolo. Apertura diretta file: bloccata dalla policy del browser dell’ambiente; non dichiarata eseguita. Report verifiche.json. Anteprime dei crediti desktop/mobile ispezionate. Bozza HTML articolo 3 allineata alla v6 e verifiche statiche superate.
 
 Prossimo passo: integrare il ramo e verificare il rilascio pubblico già autorizzato.
+
+## Pubblicazione completata
+
+PR #41 integrata al commit 99cf11eaeae430f5d6c2c5280eb54c13b8a94dd2; workflow Pages 39309524643 concluso con successo. Verifica HTTPS del 19 ottobre 2026, 19:18 UTC: home v23, otto articoli e pagina crediti v2, dieci risposte HTTP 200 identiche byte per byte ai documenti provati. Accesso unico e collegamento generale presenti su tutte le pagine interessate; report verifiche-pubbliche.json con versioni e SHA-256.
+
+Link di consegna https://rickymusu-bit.github.io/fisica/?v=23 per richiamare la home aggiornata. Richiesta completata: stesso accesso online/offline, attribuzioni e OFL conservate integralmente, sorgenti esclusi invariati.
