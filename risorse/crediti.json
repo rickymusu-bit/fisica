@@ -2789,7 +2789,8 @@
       "fingerprints": [
         "asset-3140d51c4a285244f5a4c48d97148975ae16056f497ff5c295f905113c261cf7",
         "asset-4ec807247960df9a3226c8527d20425ee26323bb70ee8abf28f2bea02e521f80",
-        "asset-7e7ae41b033ae26a35e960223a3b6ea71a0b6a3d03c1473f076dce7f0320e5a2"
+        "asset-7e7ae41b033ae26a35e960223a3b6ea71a0b6a3d03c1473f076dce7f0320e5a2",
+        "asset-25919979e95066be00b737558c8baa300d7d3676f1b1869c0bea3274a6a1bba8"
       ],
       "metadata_sources": [
         "bilancio_termico_it.html"
@@ -3919,15 +3920,6 @@
       "kind": "svg",
       "uses": [
         {
-          "document": "bilancio_termico_it.html",
-          "kind": "svg",
-          "description": "svg",
-          "locator": "brand-logo",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        },
-        {
           "document": "energia_interna_calore_specifico_it.html",
           "kind": "svg",
           "description": "svg",
@@ -3974,15 +3966,6 @@
         },
         {
           "document": "termodinamica_sistemi_it.html",
-          "kind": "svg",
-          "description": "svg",
-          "locator": "brand-logo",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "riferimenti/TEMA_DISPENSE.html",
           "kind": "svg",
           "description": "svg",
           "locator": "brand-logo",
@@ -4157,6 +4140,30 @@
           "attribute": "inline",
           "location": null,
           "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-25919979e95066be00b737558c8baa300d7d3676f1b1869c0bea3274a6a1bba8",
+      "kind": "image/svg+xml",
+      "uses": [
+        {
+          "document": "bilancio_termico_it.html",
+          "kind": "image/svg+xml",
+          "description": "Temperature previste per 100 g di caffè inizialmente a 80 °C e 50 g di latte a 20 °C. La curva marrone scuro continua scende da 80 verso 60 °C; la curva beige marrone chiaro continua sale da 20 verso 60 °C. Tempo da 0 a 300 secondi, ipotizzato e non misurato.",
+          "locator": "gra-02",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-bilancio-temperatura-tempo"
+        },
+        {
+          "document": "bilancio_termico_it.html",
+          "kind": "image/svg+xml",
+          "description": "Temperature previste per 100 g di caffè inizialmente a 80 °C e 50 g di latte a 20 °C. La curva marrone scuro continua scende da 80 verso 60 °C; la curva beige marrone chiaro continua sale da 20 verso 60 °C. Tempo da 0 a 300 secondi, ipotizzato e non misurato.",
+          "locator": "gra-02",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-bilancio-temperatura-tempo"
         }
       ]
     },
@@ -5232,30 +5239,6 @@
       ]
     },
     {
-      "id": "asset-7e7ae41b033ae26a35e960223a3b6ea71a0b6a3d03c1473f076dce7f0320e5a2",
-      "kind": "image/svg+xml",
-      "uses": [
-        {
-          "document": "bilancio_termico_it.html",
-          "kind": "image/svg+xml",
-          "description": "Temperature previste per 100 g di caffè inizialmente a 80 °C e 50 g di latte a 20 °C. La curva marrone scuro continua scende da 80 verso 60 °C; la curva beige marrone chiaro continua sale da 20 verso 60 °C. Tempo da 0 a 300 secondi, ipotizzato e non misurato.",
-          "locator": "gra-02",
-          "attribute": "src",
-          "location": null,
-          "credit_id": "credit-bilancio-temperatura-tempo"
-        },
-        {
-          "document": "bilancio_termico_it.html",
-          "kind": "image/svg+xml",
-          "description": "Temperature previste per 100 g di caffè inizialmente a 80 °C e 50 g di latte a 20 °C. La curva marrone scuro continua scende da 80 verso 60 °C; la curva beige marrone chiaro continua sale da 20 verso 60 °C. Tempo da 0 a 300 secondi, ipotizzato e non misurato.",
-          "locator": "gra-02",
-          "attribute": "src",
-          "location": null,
-          "credit_id": "credit-bilancio-temperatura-tempo"
-        }
-      ]
-    },
-    {
       "id": "asset-7f9ee09ecba62e0e2edb950691bc5251b8807971033e2bd74c8b3d11d5cb3616",
       "kind": "image/jpeg",
       "uses": [
@@ -5399,6 +5382,30 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-5f2991f71738df05"
+        }
+      ]
+    },
+    {
+      "id": "asset-86428fa3183e529c696a7206aab5596253e70d371256ebc806965309c6900a25",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "bilancio_termico_it.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "brand-logo",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        },
+        {
+          "document": "riferimenti/TEMA_DISPENSE.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "brand-logo",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
         }
       ]
     },

@@ -1,10 +1,10 @@
 # Stato — Il bilancio termico
 
-Versione v12 · 19 ottobre 2026, ore 22:26 (Europe/Rome).
+Versione v13 — 19 ottobre 2026, ore 22:33 (Europe/Rome).
 
 ## Risultato corrente
 
-**HTML autonomo v4 completato e verificato**, dopo il via «Ok vai». File ufficiale proposto: `bilancio_termico_it.html`; copia identica in [bozza.html](bozza.html). Tema canonico v9, master v63. Ramo `termodinamica/bilancio-termico`, allineato a main per riutilizzare il tema corrente; main non modificato e pubblicazione non autorizzata.
+**HTML autonomo v5 completato e verificato**, dopo il via «Ok vai». File ufficiale proposto: `bilancio_termico_it.html`; copia identica in [bozza.html](bozza.html). Tema canonico v10, master v64. Ramo `termodinamica/bilancio-termico`, allineato a main per riutilizzare il tema corrente; main non modificato e pubblicazione non autorizzata.
 
 Articolo 4 del [percorso introduttivo](../percorso_termodinamica.md): energia ceduta e assorbita, convenzione dei segni, temperatura finale ed eventuale contributo della tazza. Esclusi cambiamenti di stato, calore latente, dilatazione e nuovi meccanismi di trasmissione. Caffè e latte con calori specifici approssimati a quello dell’acqua, come richiesto dall’utente.
 
@@ -83,3 +83,13 @@ Testo corrente bozza.md v7; HTML e copia di lavorazione v3. Confronto del testo 
 L’utente chiarisce che la descrizione del quadro doveva sostituire la didascalia originale, non seguirla, ed essere più breve. Eliminati sia il riferimento ridondante agli scambi di calore nella didascalia sia il lungo paragrafo aggiunto. La copertina ha ora una sola didascalia di due frasi: Le Déjeuner (La colazione), Boucher, 1739, adulti e bambini attorno alla tavola e collocazione al Louvre. Nessun testo aggiuntivo sotto la didascalia. Didascalia centrata sulla figura, secondo la correzione dell’utente e C3.
 
 Bozza testuale v8, HTML e copia autonoma v4. Semplificato il generatore rimuovendo la gestione del paragrafo separato. Fonte museale conservata nei crediti. Testo didattico e grafico confrontati e invariati; modello, formule, domande e fotografie invariati. Anteprime e report del quadro aggiornati a 1280/390 px, nessun overflow o errore. Stessa PR #42, nessuna pubblicazione.
+
+## Revisione HTML v5 — punto centrato riservato alla moltiplicazione
+
+Richiesta esplicita dell’utente: mai usare il punto centrato come separatore, perché può confondersi con il segno di moltiplicazione. Regola integrata in A4 del master v64 e AGENTS.md: vale anche per titoli, didascalie, grafici, legende, testi accessibili, metadati descrittivi e piè di pagina. Esempio del footer aggiornato nel master.
+
+Articolo v5: nei tre testi del grafico i separatori sono sostituiti da punti e punti e virgola. Piè di pagina con trattino lungo fra versione e data; titolo accessibile del logo con due punti. Formule e prodotti di unità conservano la moltiplicazione con punto centrato; testo didattico e formule confrontati e invariati. Curve, colori, dati e modello fisico invariati. Bozza testuale v9.
+
+Modello canonico aggiornato a v10 negli stessi testi del footer e del titolo accessibile del logo, senza modificare CSS, font, disegno o comandi. Terminologia, istruzioni dei crediti, sorgente SVG del logo e suo generatore allineati per evitare ricomparse del separatore. Registro e snapshot aggiornati per le nuove impronte dei soli asset interessati. Nessuna modifica ai sorgenti HTML precedenti o sospesi, al catalogo o al manifest; pubblicazione ancora non autorizzata.
+
+Verifiche pertinenti: assenza di simboli puntiformi nei testi del grafico e nel footer, moltiplicazioni inalterate, confronto del tema, anteprime desktop/mobile e browser offline. Salvataggio nella stessa PR #42.

@@ -5,8 +5,8 @@
 <rect width="960" height="690" fill="white"/>
 <g font-family="Lexend,Arial,sans-serif" fill="#080808">
 <text x="480" y="42" text-anchor="middle" font-size="27" font-weight="600">Caffè e latte verso l’equilibrio</text>
-<text x="480" y="79" text-anchor="middle" font-size="20">Caffè: 100 g a 80 °C · Latte: 50 g a 20 °C</text>
-<text x="480" y="112" text-anchor="middle" font-size="18">Stesso calore specifico · Tazza e ambiente trascurati</text>
+<text x="480" y="79" text-anchor="middle" font-size="20">Caffè: 100 g a 80 °C; Latte: 50 g a 20 °C</text>
+<text x="480" y="112" text-anchor="middle" font-size="18">Stesso calore specifico; tazza e ambiente trascurati</text>
 <line x1="110" y1="495.00" x2="840" y2="495.00" stroke="#ddd"/>
 <text x="92" y="502.00" text-anchor="end" font-size="20">10</text>
 <line x1="110" y1="452.50" x2="840" y2="452.50" stroke="#ddd"/>
@@ -53,5 +53,5 @@
 <text x="262" y="615" font-size="21">Caffè</text>
 <path d="M535 608H600" stroke="#af8961" stroke-width="4"/>
 <text x="617" y="615" font-size="21">Latte</text>
-<text x="480" y="658" text-anchor="middle" font-size="17">Curve di modello · Tempi ipotizzati, non misurati</text>
+<text x="480" y="658" text-anchor="middle" font-size="17">Curve di modello. Tempi ipotizzati, non misurati</text>
 </g></svg>

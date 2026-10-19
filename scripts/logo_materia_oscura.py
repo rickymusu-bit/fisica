@@ -39,7 +39,7 @@ def svg():
     stroke = 'fill="none" stroke="#000" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"'
     return ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320" '
             'role="img" aria-labelledby="logo-title logo-desc">\n'
-            '<title id="logo-title">Materia Oscura · Onda stazionaria</title>\n'
+            '<title id="logo-title">Materia Oscura: Onda stazionaria</title>\n'
             '<desc id="logo-desc">Onda sinusoidale stazionaria su una curva chiusa: nodi fermi '
             'e ventri oscillanti, con quattro creste. Nessuna rotazione. Tratto nero su fondo trasparente.</desc>\n'
             '<style>.logo-still{display:none}'

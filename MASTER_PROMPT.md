@@ -1,6 +1,6 @@
 # PROMPT MASTER — DISPENSE VISUALI DI FISICA PER IL BIENNIO DEGLI ISTITUTI TECNICI
 
-VERSIONE DEL PROMPT: v63 — 19/10/2026, ore 21:10 (Europe/Rome)
+VERSIONE DEL PROMPT: v64 — 19/10/2026, ore 22:31 (Europe/Rome)
 
 Questo master raccoglie le regole della dispensa e la procedura per realizzarla con il minor lavoro ripetuto possibile. Le istruzioni relative a immagini, video, traduzioni e simulazioni si applicano quando quei materiali fanno parte della richiesta. Non aggiungere contenuti o lavorazioni solo perché il master ne descrive la gestione.
 
@@ -59,6 +59,7 @@ Notazione obbligatoria, uniforme in testo, formule, esempi, tabelle, grafici e d
 
 - Scrivi in forma decimale i numeri di grandezza moderata quando risultano leggibili, anche in tabelle, dati, sostituzioni, passaggi e risultati. Usa i prefissi del Sistema internazionale appropriati per mantenere numeri semplici e unità coerenti, per esempio 1500 J = 1,50 kJ. Riserva la notazione scientifica, nella forma a · 10ⁿ con 1 ≤ |a| < 10 per i valori non nulli, ai numeri molto grandi o molto piccoli o ai casi in cui chiarisce il calcolo; non imporla a ogni valore. Esplicita le conversioni necessarie ed evita lunghe sequenze di cifre. Mantieni una precisione coerente con i dati e le approssimazioni.
 
+- Il punto centrato (· e le varianti • e ⋅) è riservato alla moltiplicazione matematica, anche nei prodotti di unità. Non usarlo mai come separatore in testi, titoli, sottotitoli, didascalie, legende, grafici, elenchi, comandi, metadati descrittivi, testi accessibili o piè di pagina, neppure fra versione e data. Per separare informazioni usa frasi, virgole, punti e virgola o trattini lunghi, secondo il contesto.
 - Moltiplicazione esplicita: usa il punto centrato ·. Non usare la lettera x né × per la normale moltiplicazione scalare. x resta una variabile; × è ammesso per un diverso significato matematico specifico. Puoi omettere il segno nelle forme convenzionali non ambigue, come mv o ½at²; nei calcoli numerici rendi visibile la moltiplicazione con ·.
 - Divisione nelle formule, nelle derivazioni e nei calcoli espliciti: usa una frazione con numeratore e denominatore e linea orizzontale, anche quando il calcolo compare in una tabella o in una didascalia. Preferisci HTML/CSS per formule semplici; usa altre soluzioni solo se necessarie.
 - Simboli delle unità composte scritti in linea: la barra obliqua è corretta e ammessa, per esempio m/s, m/s², kg/m³ e J/s. Sono ammesse frazioni nelle formule isolate o esponenti negativi quando migliorano la chiarezza. Evita barre multiple senza parentesi che eliminino l’ambiguità.
@@ -305,7 +306,7 @@ Il master ufficiale è `MASTER_PROMPT.md` nel repository GitHub `rickymusu-bit/f
 
 Git conserva la cronologia di master, dispense e file di lavorazione; non occorrono copie storiche numerate dello stato o del master nell’albero corrente né una pulizia della Libreria ChatGPT per completare un salvataggio. Distingui lingue, formati e varianti che costituiscono risultati diversi. Dopo aver salvato e verificato una nuova versione, rimuovi dall’albero corrente soltanto duplicati o versioni sostituite della stessa serie identificati con certezza, senza perdere la cronologia Git e senza rompere collegamenti. Chiedi chiarimenti se l’identità non è certa. Conserva immagini originali, materiali di riferimento e documenti unici: non sono versioni obsolete. Non cancellare un originale necessario per comprendere o riutilizzare un materiale approvato. Durante questa migrazione non eliminare alcun materiale su Drive.
 
-Il piè di pagina della dispensa contiene esclusivamente versione e data, per esempio «Versione v2 · 29 settembre 2026», localizzate nelle traduzioni. Escludi commenti editoriali, note sui materiali, descrizioni delle modifiche e bibliografie. Le fonti dei dati numerici e delle informazioni scientifiche specifiche, come le attribuzioni delle immagini, seguono C1 e stanno nei crediti, non nel testo didattico.
+Il piè di pagina della dispensa contiene esclusivamente versione e data, per esempio «Versione v2 — 29 settembre 2026», localizzate nelle traduzioni. Escludi commenti editoriali, note sui materiali, descrizioni delle modifiche e bibliografie. Le fonti dei dati numerici e delle informazioni scientifiche specifiche, come le attribuzioni delle immagini, seguono C1 e stanno nei crediti, non nel testo didattico.
 
 Alla consegna mostra soltanto i collegamenti alle versioni più recenti prodotte per il compito e riporta in una frase il cambiamento principale. Consegna solo i formati richiesti; i file di lavoro ausiliari non sono nuovi risultati da inviare automaticamente.
 

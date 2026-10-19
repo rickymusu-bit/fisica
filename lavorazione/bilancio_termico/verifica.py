@@ -35,6 +35,10 @@ def static_checks():
     assert len(doc.xpath('//article//figure')) == 5
     assert len(doc.xpath('//nav[@class="credits-navigation"]/a')) == 1
     assert not re.search(r'\\[\[\](]|\[IMMAGINE|\[GRAFICO|\[Didascalia', doc.text_content())
+    assert not any(mark in doc.xpath('//footer')[0].text_content() for mark in '·•⋅')
+    graph = html.fromstring((WORK / 'risorse/temperatura-tempo.svg').read_text())
+    assert not any(mark in ''.join(graph.xpath('//text/text()')) for mark in '·•⋅')
+    assert 'Materia Oscura ·' not in source
     assert TARGET.stat().st_size < 20_000_000
     sys.path.insert(0, str(ROOT / 'scripts'))
     import credits

@@ -133,8 +133,8 @@ def make_graph(path):
         '<style>' + font + '</style>', '<rect width="960" height="690" fill="white"/>',
         '<g font-family="Lexend,Arial,sans-serif" fill="#080808">',
         '<text x="480" y="42" text-anchor="middle" font-size="27" font-weight="600">Caffè e latte verso l’equilibrio</text>',
-        '<text x="480" y="79" text-anchor="middle" font-size="20">Caffè: 100 g a 80 °C · Latte: 50 g a 20 °C</text>',
-        '<text x="480" y="112" text-anchor="middle" font-size="18">Stesso calore specifico · Tazza e ambiente trascurati</text>']
+        '<text x="480" y="79" text-anchor="middle" font-size="20">Caffè: 100 g a 80 °C; Latte: 50 g a 20 °C</text>',
+        '<text x="480" y="112" text-anchor="middle" font-size="18">Stesso calore specifico; tazza e ambiente trascurati</text>']
     for temp in range(10, 91, 10):
         parts += [f'<line x1="110" y1="{y(temp):.2f}" x2="840" y2="{y(temp):.2f}" stroke="#ddd"/>',
                   f'<text x="92" y="{y(temp)+7:.2f}" text-anchor="end" font-size="20">{temp}</text>']
@@ -157,7 +157,7 @@ def make_graph(path):
               '<text x="262" y="615" font-size="21">Caffè</text>',
               '<path d="M535 608H600" stroke="#af8961" stroke-width="4"/>',
               '<text x="617" y="615" font-size="21">Latte</text>',
-              '<text x="480" y="658" text-anchor="middle" font-size="17">Curve di modello · Tempi ipotizzati, non misurati</text>',
+              '<text x="480" y="658" text-anchor="middle" font-size="17">Curve di modello. Tempi ipotizzati, non misurati</text>',
               '</g></svg>']
     path.write_text('\n'.join(parts))
 
@@ -263,9 +263,9 @@ def main():
         notes.append(f'<li id="nota-{key}">{renderer.inline(text.strip())} {returns}</li>')
     assert cover and count == 7 and len(headings) == 5 and len(notes) == 3 and len(items) == 9
     template = (ROOT / 'riferimenti/TEMA_DISPENSE.html').read_text()
-    template = re.sub(r'<!-- MODELLO CANONICO.*?-->', '<!-- Articolo autonomo dal tema canonico v9; testo approvato e grafico richiesto. -->', template, count=1, flags=re.S)
+    template = re.sub(r'<!-- MODELLO CANONICO.*?-->', '<!-- Articolo autonomo dal tema canonico v10; testo approvato e grafico richiesto. -->', template, count=1, flags=re.S)
     template = template.replace('<title>Tema grafico delle dispense — modello riutilizzabile</title>', '<title>' + TITLE + ' — Materia Oscura</title>')
-    template = template.replace('name="version" content="v9"', 'name="version" content="v4"', 1)
+    template = template.replace('name="version" content="v10"', 'name="version" content="v5"', 1)
     template = template.replace('Modello autonomo del tema grafico comune a tutti i capitoli futuri.', 'Il bilancio termico: caffè e latte, calori scambiati, temperatura di equilibrio e contributo della tazza.')
     template = template.replace('Nome dell’area tematica', 'Materia e calore').replace('Titolo dell’articolo', TITLE)
     template = template.replace('<span class="sidebar-label">Fisica</span>', '<span class="sidebar-label">Materia e calore</span>')
@@ -274,7 +274,7 @@ def main():
     template = re.sub(r'<figure class="visual cover">.*?</figure>', lambda _: cover, template, count=1, flags=re.S)
     template = re.sub(r'(<article class="article">).*?(<nav class="bottom-links")', lambda m: m[1] + '\n'.join(body) + m[2], template, count=1, flags=re.S)
     template = re.sub(r'(<details class="chapter-notes".*?<ol>).*?(</ol>)', lambda m: m[1] + ''.join(notes) + m[2], template, count=1, flags=re.S)
-    template = template.replace('Versione v9 · 19 ottobre 2026', 'Versione v4 · 19 ottobre 2026')
+    template = template.replace('Versione v10 — 19 ottobre 2026', 'Versione v5 — 19 ottobre 2026')
     # Il successivo articolo (dilatazione) non esiste ancora. Nessun link vuoto.
     navigation = ('<nav class="chapter-navigation" aria-label="Navigazione tra articoli"><a rel="prev" href="https://rickymusu-bit.github.io/fisica/energia_interna_calore_specifico_it.html"><span>← Articolo precedente</span><small>Energia interna, calore e calore specifico</small></a></nav>')
     template = template.replace('<!-- chapter-navigation:end -->', navigation + '<!-- chapter-navigation:end -->')

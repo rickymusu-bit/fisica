@@ -83,3 +83,5 @@ Fonte: https://commons.wikimedia.org/wiki/File:Hostess_Tableware_%27Black_Velvet
 Presentazione del quadro aggiunta sotto la didascalia, su richiesta esplicita. Paragrafo separato nel figcaption, senza cambiamenti al tema. Dati storico-artistici da https://collections.louvre.fr/ark:/53355/cl010059924 ; fonte integrata nella stessa scheda di COP-01. Descrizione della scena da osservazione del dipinto, senza identificare persone o bevande. HTML v3, bozza testuale v7.
 
 Correzione successiva dell’utente: la presentazione del quadro sostituisce la didascalia precedente e deve essere breve. In HTML v4 resta una sola didascalia di due frasi sull’opera (titolo, autore, data, scena e museo). Rimosso il paragrafo separato e il richiamo agli scambi termici; nessuna modifica all’immagine o ai crediti. Questa scelta supera la presentazione lunga della v3.
+
+Regola permanente sui separatori: nei testi di GRA-02 sono usati punti e punti e virgola; nessun punto centrato come separatore. Curve, valori, assi e colori invariati. Il punto centrato resta esclusivamente per moltiplicazioni e prodotti di unità. Modello v10, HTML v5.

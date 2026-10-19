@@ -1,6 +1,6 @@
 # Il bilancio termico
 
-<!-- Bozza v8 · 19 ottobre 2026, ore 22:25 (Europe/Rome). Testo v4 approvato con «Ok vai»; aggiunta del grafico temperatura–tempo richiesta successivamente. -->
+<!-- Bozza v9 — 19 ottobre 2026, ore 22:31 (Europe/Rome). Testo v4 approvato con «Ok vai»; aggiunta del grafico temperatura–tempo richiesta successivamente. -->
 
 [IMMAGINE COP-01 — Scena della colazione nel dipinto Le Déjeuner di François Boucher; risorse/copertina-boucher.jpg. Solo copertina, non ripetuta nel corpo.]
 
