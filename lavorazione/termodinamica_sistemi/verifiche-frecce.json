@@ -1,18 +1,19 @@
-[
-  {
-    "viewport": 1280,
-    "red": 11,
-    "blue": 1,
-    "minimumGap": 16.767636885453953,
-    "green": 2,
-    "allArrowsInside": true
+{
+  "version": "v5",
+  "caffe": {
+    "rosse": 11,
+    "blu": 1,
+    "distanza_minima_dal_tratteggio_svg": 16.7676,
+    "entro_figura": true
   },
-  {
-    "viewport": 390,
-    "red": 11,
-    "blue": 1,
-    "minimumGap": 16.767636885453953,
-    "green": 2,
-    "allArrowsInside": true
-  }
-]
+  "molla": {
+    "frecce": 0,
+    "contorni": 0,
+    "scritte": 0
+  },
+  "testi_svg_visuali": 0,
+  "testato_a_px": [
+    1280,
+    390
+  ]
+}

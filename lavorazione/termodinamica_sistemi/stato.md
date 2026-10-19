@@ -1,10 +1,10 @@
 # Stato — La termodinamica e i sistemi termodinamici
 
-Aggiornamento: 19 ottobre 2026 (Europe/Rome). Versione v9.
+Aggiornamento: 19 ottobre 2026 (Europe/Rome). Versione v10.
 
 ## Fase corrente
 
-**HTML v4 completato e verificato, pronto per la revisione.** Ripresa richiesta dall’utente: «Finisci il lavoro sulla dispensa dei sistemi termodinamici», con precisazione «Su GitHub». La richiesta corrente autorizza il completamento nel ramo dedicato; non viene registrata come un’approvazione separata del testo né come autorizzazione a pubblicare. Ramo: `termodinamica/percorso-introduttivo`. Nessuna modifica a main, home o manifest.
+**Revisione v5 salvata; sostituzione della foto della molla in attesa di un nuovo file.** Ripresa richiesta dall’utente: «Finisci il lavoro sulla dispensa dei sistemi termodinamici», con precisazione «Su GitHub». La richiesta corrente autorizza il completamento nel ramo dedicato; non viene registrata come un’approvazione separata del testo né come autorizzazione a pubblicare. Ramo: `termodinamica/percorso-introduttivo`. Nessuna modifica a main, home o manifest.
 
 File finale: `termodinamica_sistemi_it.html`; tema autonomo v8 riutilizzato senza modifiche al CSS o ai comandi comuni. Bozza testuale v2: sola correzione dell’esempio della molla da compressione ad allungamento, coerente con le molle da trazione fotografate.
 
@@ -48,7 +48,7 @@ Controllo scientifico: classificazioni, confini e flussi coerenti; molla da traz
 
 Verifica Chromium offline completata a 1280 e 390 px: nessun errore JavaScript, nessun overflow della pagina, indice con apertura/chiusura, richiamo/ritorno delle note, ingrandimento e scorrimento dei visuali, dialogo dei crediti, font OFL e pausa/ripresa logo funzionanti. Verificati ingrandimento e crediti anche senza JavaScript. Report: `verifiche-browser.json`; anteprime desktop/mobile nella stessa cartella. Ispezionati visivamente tutti e sei gli schemi. CSS del tema confrontato byte per byte; tutte le foto incorporate confrontate per SHA-256 con gli originali.
 
-File finale autonomo: `termodinamica_sistemi_it.html`, v4 · 19 ottobre 2026, 13,39 MB circa; copia corrente identica in `bozza.html`. Salvataggio sul ramo dedicato, senza unione né pubblicazione. Prossimo passaggio: revisione del risultato; per l’eventuale pubblicazione aggiornare catalogo, sequenza degli articoli e manifest solo dopo autorizzazione. Nessun via a main o alla pubblicazione ricevuto.
+File corrente autonomo: `termodinamica_sistemi_it.html`, v5 · 19 ottobre 2026, 13,39 MB circa; copia corrente identica in `bozza.html`. Salvataggio sul ramo dedicato, senza unione né pubblicazione. Prossimo passaggio: revisione del risultato; per l’eventuale pubblicazione aggiornare catalogo, sequenza degli articoli e manifest solo dopo autorizzazione. Nessun via a main o alla pubblicazione ricevuto.
 
 ## Revisione v2 — immagini e frecce
 
@@ -67,3 +67,13 @@ Richiesta esplicita: nel caffè frecce corte rosse e spesse attorno al tratteggi
 Realizzate 11 frecce rosse (#c62828, asta 6 e punta 18 unità SVG), orientate verso l’esterno e distanti dal contorno; eliminata la precedente freccia blu dell’energia. Conservata una sola freccia blu per l’acqua in uscita per evaporazione. Le due frecce della molla sono verdi (#16803c), con asta 6 e punta 28, e rappresentano le forze di allungamento. Didascalie aggiornate con i significati fisici; scritta sul confine abbassata per separarla dalle frecce inferiori.
 
 Verifiche offline a 1280 e 390 px: conteggi e colori corretti, minima distanza delle frecce rosse dal tracciato tratteggiato circa 16,77 unità SVG, tutte le frecce dentro il riquadro complessivo. Nessun obbligo di restare dentro il rettangolo fotografico: il bordo richiesto è quello della figura. Report `verifiche-frecce.json`, anteprime aggiornate di caffè e molla. Testi teorici, originali e regola di ingrandimento invariati.
+
+## Revisione v5 — didascalie e nuova foto della molla in attesa
+
+L’utente ha richiesto di eliminare le scritte volanti dalle immagini, usare legenda/didascalia e sostituire la molla con Flickr 30257377 (Ian/morrfin), senza frecce. La pagina Flickr risulta license=0, “Tutti i diritti riservati”. Alla domanda sul permesso l’utente ha risposto esplicitamente: “No, userò un’altra foto”. Non inserire né caricare nel repository il file Flickr; nessuna autorizzazione ricevuta. Il download locale è rimasto fuori dal repository.
+
+Completata la parte indipendente: eliminate tutte le scritte SVG e i relativi spazi vuoti; spiegazioni trasferite nelle didascalie. Eliminati gli ingrandimenti, non essendoci più testi da leggere nelle immagini. Nel caffè conservati contorno, frecce rosse del calore e freccia blu dell’evaporazione, con significato in didascalia. Rimosse dal motore le frecce prive di etichette; scambi spiegati in didascalia.
+
+Per la molla, mantenuta temporaneamente la foto precedentemente scelta Springs 009.jpg, senza frecce, contorno o scritte; spiegazione nelle didascalie e nel testo esistente di allungamento/rilascio. NON considerare conclusa la sostituzione: attendere la nuova immagine dell’utente, verificarne il soggetto e adattare eventualmente l’esempio alla compressione.
+
+Verificato offline a 1280/390 px: nessun testo SVG nei visuali, nessun tasto ingrandimento, molla senza frecce, immagini caricate, note/crediti funzionanti e assenza di overflow/errori. Foto Flickr assente da HTML, registro e file da caricare. Anteprime aggiornate, check crediti/build/diff superati. Prossimo passo: ricevere la nuova foto della molla; nessuna pubblicazione autorizzata.

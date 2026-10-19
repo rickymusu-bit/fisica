@@ -66,3 +66,9 @@ Cronologia pubblica conservata in `risorse/springs-log.json`. Nell’HTML sono a
 - Schede Commons delle sette immagini e cronologia dell’originale delle molle conservate nella cartella delle risorse.
 - Foto e modelli degli scambi integrati in sei schemi con ingrandimento; copertina separata, non ripetuta nel testo.
 - Dati e avvisi registrati in `risorse/crediti.json` della radice tramite lo strumento comune; questo file resta il registro delle scelte, non un archivio parallelo dei crediti.
+
+## Aggiornamento v5 — sostituzione TS-7 in attesa
+
+L’utente ha proposto https://www.flickr.com/photos/morrfin/30257377/ (Suspension spring, Ian). Fonte con tutti i diritti riservati; l’utente ha confermato di non avere il permesso e ha risposto “No, userò un’altra foto”. Foto Flickr esclusa dal repository e dalla dispensa. Resta temporaneamente la fotografia precedente TS-7, pulita da frecce, contorno ed etichette. Attendere la nuova scelta senza sostituirla autonomamente.
+
+Per tutti i visuali, spiegazioni nelle didascalie anziché scritte sospese; niente ingrandimento in assenza di testi pertinenti nelle immagini.

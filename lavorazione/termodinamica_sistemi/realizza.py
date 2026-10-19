@@ -31,10 +31,6 @@ META={
  'TS-7':('molle.jpg','Springs_009.jpg','Renard~enwiki (caricamento originale); Zeimusu (ritaglio della data); Qz10 (trasferimento su Commons)','CC BY-SA 3.0','https://creativecommons.org/licenses/by-sa/3.0/'),
 }
 
-def text(x,y,lines,size=23):
-    if isinstance(lines,str):lines=[lines]
-    return '<text x="%s" y="%s" fill="#080808" font-family="Lexend,Arial,sans-serif" font-size="%s">%s</text>'%(x,y,size,''.join('<tspan x="%s" dy="%s">%s</tspan>'%(x,0 if i==0 else 30,escape(s)) for i,s in enumerate(lines)))
-
 def line(x1,y1,x2,y2,arrow=False,color='#0066b3',width=5):
     marker={'#0066b3':'freccia','#c62828':'freccia-calore','#16803c':'freccia-molla'}[color]
     return f'<path d="M{x1},{y1} L{x2},{y2}" fill="none" stroke="'+(color if arrow else '#080808')+'" stroke-width="'+(str(width) if arrow else '3')+'"'+(f' marker-end="url(#{marker})"' if arrow else '')+'/>'
@@ -45,73 +41,41 @@ def boundary(d):
 
 def scene(key):
     name=META[key][0]
-    # Foto complete: nessun ritaglio o ricostruzione del soggetto.
     im=Image.open(ASSETS/name);w=540;h=w*im.height/im.width
     if key=='TS-3':w=310;h=w*im.height/im.width
     if key=='TS-6':w=390;h=390
     x=(900-w)/2;y=135
     out=f'<image href="{data(name)}" x="{x}" y="{y}" width="{w}" height="{h}" preserveAspectRatio="xMidYMid meet"/>'
-    # Le coordinate dei contorni seguono i soggetti nella foto scelta.
+    contours={
+        'TS-1':'M370,286 Q435,277 528,286 L531,308 Q600,293 597,346 Q592,391 530,407 L527,450 Q470,503 391,468 Q367,448 370,286 Z',
+        'TS-3':'M348,238 Q337,200 381,177 Q455,140 526,181 Q570,209 555,292 L532,434 Q522,498 451,520 Q386,517 357,472 L329,333 Q316,281 331,257 Z',
+        'TS-4':'M250,176 Q268,155 284,174 L286,200 Q307,204 320,226 L332,268 L309,287 L299,326 L319,382 L326,420 L312,446 L280,444 L269,430 L277,411 L261,379 L241,342 L227,305 L216,284 L205,276 L207,250 L231,234 L244,211 Z',
+        'TS-5':'M307,230 L340,184 L418,171 L647,227 L689,256 L716,310 L716,406 L666,458 L627,485 L493,490 L362,452 L256,394 L248,354 L294,297 Z',
+        'TS-6':'M481,198 Q507,188 532,199 L547,294 Q546,312 520,315 Q497,315 488,302 Z',
+    }
+    out+=boundary(contours[key])
     if key=='TS-1':
-        out+=text(28,40,'Sistema: tazza e bevanda',25)+text(28,80,'Ambiente: aria, tavolo e resto della stanza',21)
-        out+=boundary('M370,286 Q435,277 528,286 L531,308 Q600,293 597,346 Q592,391 530,407 L527,450 Q470,503 391,468 Q367,448 370,286 Z')
-        out+=text(25,585,['Confine: superficie esterna della tazza', 'e superficie ideale sopra l’apertura.'],23)
-        out+=line(430,283,430,112,True)+text(465,100,['Materia in uscita:','acqua per evaporazione'],20)
-        # Frecce del calore all'esterno del contorno, con uno spazio dal tratteggio.
+        out+=line(430,283,430,112,True)
         for coords in [(352,310,318,300),(352,365,316,365),(352,425,320,439),
                        (390,491,373,520),(450,505,450,532),(520,483,544,507),
                        (552,420,585,437),(612,365,646,373),(612,325,644,312),
                        (380,265,365,239),(510,263,530,240)]:
             out+=line(*coords,True,color='#c62828',width=6)
-        H=650
-    elif key=='TS-3':
-        out+=text(28,42,'Sistema: thermos chiuso e contenuto',25)
-        out+=boundary('M348,238 Q337,200 381,177 Q455,140 526,181 Q570,209 555,292 L532,434 Q522,498 451,520 Q386,517 357,472 L329,333 Q316,281 331,257 Z')
-        out+=text(24,600,['Materia: scambi impediti.', 'Energia: scambi molto ridotti.'],24)
-        out+=text(24,690,['Modello ideale isolato:', 'nessuno scambio di materia o di energia.'],24)
-        H=770
-    elif key=='TS-4':
-        out+=text(28,42,'Sistema: il corpo di un corridore',25)
-        out+=text(28,82,'Il contorno segue il corridore in primo piano a sinistra.',20)
-        out+=boundary('M250,176 Q268,155 284,174 L286,200 Q307,204 320,226 L332,268 L309,287 L299,326 L319,382 L326,420 L312,446 L280,444 L269,430 L277,411 L261,379 L241,342 L227,305 L216,284 L205,276 L207,250 L231,234 L244,211 Z')
-        out+=text(25,560,['Entrano: aria, acqua e alimenti.', 'Escono: aria espirata, sudore e altre sostanze.'],24)
-        out+=text(25,645,['Energia: trasferita attraverso calore e lavoro.', 'Gli scambi descrivono il corpo durante l’attività;','non devono essere tutti visibili o simultanei nella foto.'],21)
-        H=760
-    elif key=='TS-5':
-        out+=text(28,42,'Sistema: il motore nel suo insieme',25)
-        out+=text(28,82,'Scambi durante il funzionamento',21)
-        out+=boundary('M307,230 L340,184 L418,171 L647,227 L689,256 L716,310 L716,406 L666,458 L627,485 L493,490 L362,452 L256,394 L248,354 L294,297 Z')
-        out+=text(25,560,['Aria e','combustibile'],22)+text(395,575,'Motore',24)+text(695,560,['Gas di','scarico'],22)
-        out+=line(250,575,350,575,True)+line(550,575,645,575,True)
-        out+=text(25,640,['Energia in uscita: lavoro attraverso l’albero motore', 'e trasferimento all’ambiente.'],23)
-        out+=text(25,720,'Il confine comprende il motore, non l’intera automobile.',21)
-        H=770
-    elif key=='TS-6':
-        out+=text(28,42,'Sistema: una singola pila integra',25)
-        out+=text(28,82,'La foto mostra pile usate nella raccolta per il riciclo.',20)
-        out+=boundary('M481,198 Q507,188 532,199 L547,294 Q546,312 520,315 Q497,315 488,302 Z')
-        out+=text(25,575,['Nel modello di una pila che alimenta un circuito:', 'energia elettrica trasferita all’esterno;', 'possibile energia ceduta come calore.'],24)
-        out+=text(25,700,'Nessun flusso macroscopico di materia attraverso l’involucro.',22)
-        H=755
-    else:
-        out+=text(28,42,'Sistema: una delle molle',25)
-        out+=text(28,82,'Molle da trazione: consideriamo allungamento e rilascio.',20)
-        out+=boundary('M355,215 Q383,205 374,227 Q340,251 347,283 Q358,312 395,320 L404,216 Q409,199 435,198 L596,187 Q612,185 618,204 L631,202 L625,192 Q628,178 640,182 Q686,204 675,266 Q665,312 616,324 L429,343 Q401,346 377,334 Q321,324 318,286 Q315,249 355,215 Z')
-        out+=line(348,255,270,255,True,color='#16803c',width=6)+line(671,245,742,245,True,color='#16803c',width=6)
-        out+=text(25,550,['Allungamento: le forze tirano i due estremi;', 'la molla riceve energia tramite lavoro.'],24)
-        out+=text(25,640,['Rilascio: la molla può compiere lavoro all’esterno.', 'La materia resta la stessa; il confine cambia forma.'],23)
-        H=735
-    return H,out
+    left,top,W,H=(160,90,580,460) if key=='TS-1' else (x-10,y-10,w+20,h+20)
+    return W,H,f'<g transform="translate({-left},{-top})">{out}</g>'
 
 def figure(key,caption):
     name,source,author,lic,url=META[key]
-    meta=attributes('https://commons.wikimedia.org/wiki/File:'+source,author,lic,url,
-        'Foto completa, senza ritaglio; sovrapposizione di contorni, frecce ed etichette didattiche. Schema sotto la stessa licenza della foto.' if key!='TS-0' else 'Nessuna modifica; visualizzazione proporzionale.')
+    meta=attributes(source if source.startswith('https://') else 'https://commons.wikimedia.org/wiki/File:'+source,author,lic,url,
+        'Foto completa, senza ritaglio; contorno del sistema'+(' e frecce didattiche.' if key=='TS-1' else '.') if key not in ('TS-0','TS-7') else 'Nessuna modifica; visualizzazione proporzionale.')
     if key=='TS-0':
         return f'<figure class="visual cover" id="ts-0" {meta}><div class="image-frame"><div class="overview"><img src="{data(name)}" width="3100" height="3100" alt="Galassie del campo ultra profondo di Hubble" decoding="async"></div></div><figcaption>{escape(caption)}</figcaption></figure>'
-    H,content=scene(key);sid=key.lower()
-    svg=f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 {H}" width="900" height="{H}" style="display:block;width:100%;height:auto" role="img" aria-labelledby="titolo-{sid} descrizione-{sid}"><title id="titolo-{sid}">{escape(caption)}</title><desc id="descrizione-{sid}">Fotografia completa e schema degli scambi, con il sistema indicato e le spiegazioni sotto l’immagine.</desc><g id="scena-{sid}"><rect width="900" height="{H}" fill="white"/>{content}</g></svg>'
-    zoom=f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 {H}" width="900" height="{H}" style="display:block;min-width:900px;width:100%;height:auto" role="img" aria-label="{escape(caption,quote=True)}"><use href="#scena-{sid}"/></svg>'
+    if key=='TS-7':
+        im=Image.open(ASSETS/name)
+        return f'<figure class="visual photo" id="ts-7" {meta}><div class="image-frame"><div class="overview"><img src="{data(name)}" width="{im.width}" height="{im.height}" alt="Due molle elicoidali da trazione" loading="lazy" decoding="async"></div></div><figcaption>{escape(caption)}</figcaption></figure>'
+    W,H,content=scene(key);sid=key.lower()
+    svg=f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" style="display:block;width:100%;height:auto" role="img" aria-labelledby="titolo-{sid} descrizione-{sid}"><title id="titolo-{sid}">{escape(caption)}</title><desc id="descrizione-{sid}">Fotografia completa e schema degli scambi, con il sistema indicato; spiegazioni nella didascalia.</desc><g id="scena-{sid}"><rect width="{W}" height="{H}" fill="white"/>{content}</g></svg>'
+    zoom=f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" style="display:block;min-width:900px;width:100%;height:auto" role="img" aria-label="{escape(caption,quote=True)}"><use href="#scena-{sid}"/></svg>'
     # Il comando serve alle etichette didattiche, non alle fotografie prive di scritte rilevanti.
     zoom_control=''
     if '<text ' in content:
@@ -149,7 +113,7 @@ def main():
     template=(ROOT/'riferimenti/TEMA_DISPENSE.html').read_text()
     template=re.sub(r'<!-- MODELLO CANONICO.*?-->','<!-- Articolo autonomo; tema canonico v8. -->',template, count=1,flags=re.S)
     template=template.replace('<title>Tema grafico delle dispense — modello riutilizzabile</title>',f'<title>{TITLE} — Materia Oscura</title>')
-    template=template.replace('name="version" content="v8"','name="version" content="v4"',1).replace('name="date" content="2026-10-18"','name="date" content="2026-10-19"',1)
+    template=template.replace('name="version" content="v8"','name="version" content="v5"',1).replace('name="date" content="2026-10-18"','name="date" content="2026-10-19"',1)
     template=template.replace('Modello autonomo del tema grafico comune a tutti i capitoli futuri.','Sistema, ambiente e confine; scambi di materia ed energia; sistemi aperti, chiusi e isolati.')
     template=template.replace('Nome dell’area tematica','Materia e calore').replace('Titolo dell’articolo',TITLE)
     template=template.replace('<span class="sidebar-label">Fisica</span>','<span class="sidebar-label">Materia e calore</span>')
@@ -157,7 +121,7 @@ def main():
     template=re.sub(r'<figure class="visual cover">.*?</figure>',lambda _:cover,template,count=1,flags=re.S)
     template=re.sub(r'(<article class="article">).*?(<nav class="bottom-links")',lambda m:m[1]+''.join(body)+m[2],template,count=1,flags=re.S)
     template=re.sub(r'(<details class="chapter-notes".*?<ol>).*?(</ol>)',lambda m:m[1]+''.join(notes)+m[2],template,count=1,flags=re.S)
-    template=template.replace('Versione v8 · 2026-10-18','Versione v4 · 19 ottobre 2026')
+    template=template.replace('Versione v8 · 2026-10-18','Versione v5 · 19 ottobre 2026')
     # Marker condiviso da tutti gli schemi; resta definito anche quando una overview è nascosta.
     defs='<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" aria-hidden="true" style="position:absolute"><defs>'+''.join(
         f'<marker id="{name}" markerUnits="userSpaceOnUse" markerWidth="{size}" markerHeight="{size}" viewBox="0 0 8 8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="{color}"/></marker>'

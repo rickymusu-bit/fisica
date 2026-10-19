@@ -1,68 +1,32 @@
-{
-  "results": [
-    {
-      "width": 1280,
-      "layout": {
-        "width": 1280,
-        "scrollWidth": 1280,
-        "imgs": [
-          {
-            "ok": true,
-            "alt": "Galassie del campo ultra profondo di Hubble"
-          }
-        ],
-        "sections": 6,
-        "questions": 8,
-        "externalResources": []
-      },
-      "zoom": {
-        "visible": true,
-        "scrollable": true,
-        "scene": true
-      },
-      "note": true,
-      "index": true,
-      "indexClosed": true,
-      "credits": {
-        "open": true,
-        "text": true,
-        "font": true
-      },
-      "logoToggle": "false",
-      "errors": []
-    },
-    {
-      "width": 390,
-      "layout": {
-        "width": 390,
-        "scrollWidth": 390,
-        "imgs": [
-          {
-            "ok": true,
-            "alt": "Galassie del campo ultra profondo di Hubble"
-          }
-        ],
-        "sections": 6,
-        "questions": 8,
-        "externalResources": []
-      },
-      "zoom": {
-        "visible": true,
-        "scrollable": true,
-        "scene": true
-      },
-      "note": true,
-      "index": true,
-      "indexClosed": true,
-      "credits": {
-        "open": true,
-        "text": true,
-        "font": true
-      },
-      "logoToggle": "false",
-      "errors": []
-    }
-  ],
-  "nojsZoom": true,
-  "nojsCredits": true
-}
+[
+  {
+    "viewport": 1280,
+    "scrollWidth": 1280,
+    "zoomControls": 0,
+    "floatingTexts": 0,
+    "springArrows": 0,
+    "springPhoto": true,
+    "red": 11,
+    "blue": 1,
+    "caption": "La bevanda e la tazza costituiscono il sistema. Le frecce rosse indicano l’energia ceduta all’ambiente come calore; la freccia blu indica l’acqua che esce per evaporazione. Il tratteggio rappresenta il confine scelto.",
+    "images": true,
+    "notes": true,
+    "credits": true,
+    "errors": []
+  },
+  {
+    "viewport": 390,
+    "scrollWidth": 390,
+    "zoomControls": 0,
+    "floatingTexts": 0,
+    "springArrows": 0,
+    "springPhoto": true,
+    "red": 11,
+    "blue": 1,
+    "caption": "La bevanda e la tazza costituiscono il sistema. Le frecce rosse indicano l’energia ceduta all’ambiente come calore; la freccia blu indica l’acqua che esce per evaporazione. Il tratteggio rappresenta il confine scelto.",
+    "images": true,
+    "notes": true,
+    "credits": true,
+    "errors": []
+  }
+]
