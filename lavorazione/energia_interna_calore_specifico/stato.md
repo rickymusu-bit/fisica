@@ -142,4 +142,4 @@ Report: `verifiche-browser.json` e `verifiche-finali.json`. Anteprime desktop/mo
 
 Navigazione del solo nuovo articolo verso Temperatura ed equilibrio termico e verso il successivo attualmente disponibile, Stati della materia. Nessun link al bilancio termico non ancora realizzato. Manifest, home, articoli precedenti e sospesi invariati. La build continua a pubblicare i sette articoli già ammessi; il nuovo articolo resta escluso finché non sarà autorizzata la pubblicazione.
 
-Prossimo passo: revisione del risultato HTML e delle anteprime, poi eventuale autorizzazione distinta a integrare e pubblicare. Salvataggio remoto e PR da verificare prima della consegna.
+Prossimo passo: revisione del risultato HTML e delle anteprime, poi eventuale autorizzazione distinta a integrare e pubblicare. Salvataggio remoto verificato al commit di realizzazione `91635c72a7964a65b49be888a672efccaa7b90e6`; PR in bozza aperta e verificata: https://github.com/rickymusu-bit/fisica/pull/38 . Nessuna integrazione o pubblicazione eseguita.
