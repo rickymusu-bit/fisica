@@ -1,47 +1,56 @@
 # Visuali — La dilatazione termica
 
-Versione v1 — 19 ottobre 2026 (Europe/Rome).
+Versione v2 — 19 ottobre 2026 (Europe/Rome).
 
-## Proposta da concordare
+## Direzione concordata e proposta aggiornata
 
-Quinto articolo del [percorso approvato](../percorso_termodinamica.md), dopo Il bilancio termico e prima di Stati della materia. La richiesta corrente autorizza l'avvio del capitolo; sviluppo e visuali non risultano ancora concordati.
+Quinto articolo del [percorso approvato](../percorso_termodinamica.md), dopo Il bilancio termico e prima di Stati della materia.
 
-Domanda proposta: «Perché nei ponti si lasciano spazi tra alcune parti?». La fotografia introduce una domanda, non una misura della dilatazione.
+L'utente richiede di privilegiare applicazioni e conseguenze tecnologiche e quotidiane e di trattare il comportamento anomalo dell'acqua. Questa indicazione sostituisce l'impostazione precedente centrata sugli apparati di laboratorio. I casi specifici e le immagini qui sotto sono proposte, non scelte già approvate.
 
-Sviluppo proposto: osservazione dei giunti; aumento delle dimensioni e contrazione; spiegazione microscopica qualitativa (cambia la distanza media tra particelle, non la loro dimensione); dilatazione lineare; estensione alla dilatazione volumica di solidi e liquidi. Nessuna trattazione delle leggi dei gas, degli sforzi nei vincoli o dei passaggi di stato. Nessuna sezione separata di applicazioni o esercizi svolti proposta in questa fase.
+Domanda iniziale proposta: «Perché il caldo può deformare una struttura e, allo stesso tempo, far funzionare un termostato?».
 
-Relazioni previste nella futura bozza, dopo la spiegazione dei fenomeni:
-- ΔT = T_f − T_0.
-- ΔL = α · L_0 · ΔT e L_f = L_0 + ΔL.
-- ΔV = β · V_0 · ΔT e V_f = V_0 + ΔV.
+## Sviluppo proposto
 
-Interpretare α e β come coefficienti del materiale, con unità K⁻¹; una differenza di temperatura ha lo stesso valore numerico in kelvin e in gradi Celsius. Non confondere β con α. Le leggi sono approssimazioni con coefficiente circa costante nell'intervallo considerato. La spiegazione microscopica non deve far credere che la sola maggiore velocità implichi necessariamente dilatazione; collegare qualitativamente l'effetto alla variazione della distanza media. Eventuali precisazioni brevi nelle note.
+Una breve teoria introduce dilatazione e contrazione, distanza media tra particelle e distinzione fra variazione di lunghezza e di volume. Integrare le relazioni ΔL = α · L_0 · ΔT e ΔV = β · V_0 · ΔT, con ΔT = T_f − T_0, spiegando coefficienti, unità K⁻¹, segno e proporzionalità senza una lunga trattazione matematica. Le variazioni in kelvin e gradi Celsius hanno lo stesso valore numerico. Le condizioni dei modelli lineari, con coefficienti circa costanti, vanno in note brevi. Non applicare un unico coefficiente positivo all'acqua attraverso l'intervallo anomalo.
 
-## Immagini richieste
+Nella teoria introdurre poi l'anomalia dell'acqua: a pressione atmosferica, raffreddando acqua liquida fino a circa 4 °C il volume diminuisce; da circa 4 °C a 0 °C aumenta. Per una stessa massa, il volume minimo corrisponde alla densità massima, intorno a 4 °C. Scaldando da 0 °C a 4 °C l'acqua si contrae. Distinguere questo comportamento del liquido dall'ulteriore aumento di volume al congelamento. Spiegazione molecolare qualitativa: l'organizzazione dei legami fra molecole favorisce strutture più aperte; non si ingrandiscono le molecole.
 
-Le seguenti sono descrizioni testuali, non immagini selezionate. L'utente cerca, sceglie e fornisce file o collegamenti secondo C2. Nessuna ricerca o generazione autonoma.
+La parte prevalente del capitolo sarà dedicata alle applicazioni, dopo la teoria secondo A3:
 
-| ID | Che cosa mostrare | Domanda e funzione | Collocazione |
-| --- | --- | --- | --- |
-| COP-01 | Fotografia di un ponte in cui siano riconoscibili struttura e impalcato. | Presentare un oggetto esteso esposto alle variazioni di temperatura. | Copertina, senza riuso interno. |
-| FIG-01 | Dettaglio nitido di un giunto di dilatazione di un ponte, con lo spazio tra le parti ben visibile. | Perché serve uno spazio? Collegare variazione di lunghezza e possibilità di movimento. | Apertura della teoria, distinta dalla copertina e non ricavata da un suo ritaglio. |
-| FIG-02 | Immagine di un dilatometro didattico per una barra metallica, con barra e indicatore di allungamento riconoscibili; preferibilmente un confronto dello stesso apparato a due temperature. | Come si può osservare un piccolo allungamento? Introdurre L_0, ΔL e ΔT senza attribuire misure alla fotografia. | Prima della legge della dilatazione lineare. |
-| FIG-03 | Immagine di un apparato con recipiente pieno di liquido e tubicino sottile, che mostri il livello a due temperature. | Come rendere visibile una variazione di volume? Distinguere dilatazione del liquido e del recipiente. | Passaggio dalla lunghezza al volume. |
+1. **Lasciare spazio al movimento: ponti e giunti.** L'impalcato cambia lunghezza; giunti e appoggi progettati consentono movimenti e limitano sollecitazioni. Quando la dilatazione è impedita possono nascere sforzi e deformazioni. Nessuna formula degli sforzi o affermazione che tutte le strutture debbano avere identici giunti.
+2. **Misurare la temperatura: termometro a liquido.** La variazione di volume rispetto al vetro produce uno spostamento nel capillare, reso leggibile dalla taratura. Usare un termometro ad alcool o altro liquido identificato, senza attribuire questo funzionamento a termometri digitali o galileiani.
+3. **Controllare il riscaldamento: termostato bimetallico.** Due metalli uniti si dilatano diversamente e la lamina si incurva; il movimento può aprire o chiudere un contatto. Mostrare un dispositivo effettivamente bimetallico, non dedurre il meccanismo dalla sola foto di una manopola.
+4. **Allentare un coperchio metallico.** Il riscaldamento del coperchio può aumentarne il diametro e facilitarne l'apertura. Considerare anche il recipiente: l'effetto dipende da materiali e riscaldamento relativo e non è garantito per ogni barattolo. Non proporre prove con acqua bollente o recipienti chiusi da scaldare.
+5. **Acqua e ghiaccio: perché un lago gela in superficie.** L'acqua che si raffredda verso 4 °C diventa più densa e tende a scendere; sotto questa temperatura quella più fredda è meno densa e può restare in alto. Il ghiaccio, meno denso dell'acqua liquida, galleggia e lo strato superficiale rallenta gli scambi termici. Presentare il caso di un lago d'acqua dolce sufficientemente profondo in condizioni invernali, senza affermare che ogni lago abbia sempre il fondo a 4 °C o non possa gelare completamente.
+6. **Il congelamento può rompere tubi e recipienti.** L'aumento di volume al congelamento può generare pressioni elevate quando l'acqua è confinata. Collegare il danno al vincolo e distinguere il passaggio di stato dalla dilatazione del liquido tra 4 °C e 0 °C, senza sviluppare il calore latente.
 
-Per FIG-03 la bozza dovrà chiarire che il livello rivela la dilatazione del liquido rispetto al recipiente; non dedurre direttamente il coefficiente del liquido dal solo spostamento del livello. Usare un caso di dilatazione ordinaria; non generalizzare il comportamento a ogni sostanza e ogni intervallo di temperatura.
+Le domande finali riprenderanno i soli casi effettivamente sviluppati, con previsioni, confronti e vero/falso motivati, senza soluzioni. Nessuna sezione di esercizi svolti, video o simulazioni aggiunta.
 
-Un'illustrazione già completa e corretta dei fenomeni può essere proposta dall'utente al posto della fotografia dell'apparato. Non ricostruire infografiche o immagini di oggetti senza richiesta esplicita. Se i materiali ricevuti cambiano il fenomeno osservabile, adattare la progettazione prima di scrivere la bozza.
+## Immagini da scegliere e fornire
 
-## Riuso e materiali mancanti
+L'utente cerca e fornisce file o collegamenti secondo C2. Nessuna ricerca o generazione autonoma. Ogni applicazione richiede un'immagine pertinente accanto alla spiegazione.
 
-Controllati i percorsi dell'albero di main: nessuna risorsa esplicitamente dedicata a dilatazione, ponti o giunti identificata dai nomi. Sono presenti fotografie storiche di termometri nel capitolo della temperatura, ma non è stata verificata la loro idoneità a mostrare la dilatazione richiesta: nessun riuso assunto come approvato.
+| ID | Materiale richiesto | Funzione e collocazione |
+| --- | --- | --- |
+| COP-01 | Fotografia di un ponte, distinta dalle immagini interne. | Copertina; non ripetuta né ritagliata per il testo. |
+| FIG-01 | Dettaglio riconoscibile di un giunto di dilatazione di un ponte. | Applicazione strutturale: mostrare lo spazio disponibile per il movimento. |
+| FIG-02 | Termometro a liquido con bulbo, capillare e colonna visibili, preferibilmente ad alcool identificato dalla fonte. | Collegare aumento di volume e lettura della temperatura. |
+| FIG-03 | Schema illustrato già esistente di una lamina bimetallica o di un termostato bimetallico, con strati e contatto riconoscibili. | Spiegare la diversa dilatazione e il comando del circuito. |
+| FIG-04 | Barattolo di vetro con coperchio metallico, riconoscibile e senza una procedura pericolosa raffigurata. | Mostrare le due parti il cui riscaldamento relativo conta per l'apertura. |
+| FIG-05 | Sezione illustrata di un lago d'acqua dolce in inverno, con ghiaccio superficiale e temperature corrette negli strati liquidi. | Collegare densità, raffreddamento e formazione del ghiaccio in superficie. |
+| FIG-06 | Fotografia di un tubo o recipiente danneggiato dal gelo, con causa documentata dalla fonte. | Mostrare una conseguenza del congelamento in condizioni di vincolo, senza dedurre la causa dalla sola rottura. |
 
-Nessun nuovo file ricevuto, selezionato o elaborato; nessuna nuova scheda da aggiungere al registro unico risorse/crediti.json in questa fase.
+La proposta precedente di dilatometro e recipiente con tubicino non è più richiesta. Gli ID FIG-02 e FIG-03 sono stati riassegnati in questa v2; nessun materiale era stato ricevuto con gli ID precedenti.
 
-## Grafici, animazioni e simulazioni
+Per la parte teorica sull'acqua è utile anche un **grafico GRA-01 del volume di una massa fissa d'acqua liquida in funzione di T**, con minimo vicino a 4 °C. Proposta da concordare, non realizzata: scegliere un grafico o dati con fonte verificabile; distinguere l'eventuale curva qualitativa da misure reali. Non disegnare valori numerici arbitrari né una parabola simmetrica presentata come legge dell'acqua. Non includere il ghiaccio come continuazione della stessa curva del liquido.
 
-Nessuna simulazione necessaria o proposta per la prima versione. Un grafico statico dell'allungamento in funzione di ΔT può essere valutato solo se desiderato: sarebbe una previsione del modello, non un esperimento. Non è stato approvato né realizzato. La proposta iniziale usa le immagini e le formule discorsive per contenere complessità e tempi.
+Una fotografia di lago ghiacciato non sostituisce una sezione utile a vedere le temperature; può invece essere scelta come copertina alternativa. Non ricostruire autonomamente schemi illustrati complessi. Se si sceglie una copertina diversa, conservarne l'uso esclusivo.
 
-## Prossimo passaggio
+## Stato delle risorse e prossima fase
 
-Concordare sviluppo e visuali e ricevere i materiali scelti; poi scrivere bozza.md con testo completo, segnaposto identificabili, didascalie e domande finali variate, senza soluzioni. L'HTML segue soltanto l'approvazione della bozza, la stima ripartita e il via esplicito previsti da B1.1.
+Nessun materiale scelto o ricevuto, nessuna nuova licenza verificata, nessuna nuova voce inserita nel registro unico. Le fotografie storiche di termometri già presenti nel repository non sono automaticamente idonee al termometro a liquido proposto.
+
+Prossimo passo: concordare i casi e le visuali e ricevere i materiali scelti; quindi preparare bozza.md con testo completo, didascalie, segnaposto e domande finali. Le fonti scientifiche per curva dell'acqua, densità e dati quantitativi andranno verificate e conservate nei crediti di servizio della bozza, poi nel registro unico. Nessun dato numerico specifico oltre alle temperature caratteristiche è stato introdotto in questa proposta.
+
+L'HTML richiede successivamente approvazione della bozza, stima ripartita e via esplicito secondo B1.1. Main e pubblicazione restano fuori da questa revisione editoriale.
