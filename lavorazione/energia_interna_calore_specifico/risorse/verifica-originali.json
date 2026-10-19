@@ -7,7 +7,7 @@
       "height": 1411,
       "frames": 1,
       "sha256": "a260fe4463286247ca7136f0db848b40aecba82e6fd8fb5ffa4a1a6f75a38960",
-      "uso_corrente": true
+      "uso_corrente": false
     },
     {
       "file": "spiaggia-notturna.jpg",
@@ -36,6 +36,16 @@
       "sha256": "dd0b429948be84c814e74737a829e3b5ee9de7c687e466739d30b5814d003acf",
       "uso_corrente": true,
       "source": "https://commons.wikimedia.org/wiki/File:MD_water.gif"
+    },
+    {
+      "file": "copertina-ivy-mike.jpg",
+      "bytes": 185032,
+      "width": 1920,
+      "height": 1555,
+      "frames": 1,
+      "sha256": "86d9aee90f0b782303e361f38f041308bb6f6577947a6d1587ff2ba317018a75",
+      "uso_corrente": true,
+      "source": "https://commons.wikimedia.org/wiki/File:Ivy_Mike_-_fireball.jpg"
     }
   ],
   "modifiche": "Nessuna alterazione dei file. Per MD water.gif recuperato l’originale Commons invece della copia ingrandita a 1920 px."

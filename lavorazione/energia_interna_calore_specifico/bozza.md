@@ -1,13 +1,11 @@
 # Energia interna, calore e calore specifico
 
-Versione v5 · 19 ottobre 2026 (Europe/Rome).
+Versione v6 · 19 ottobre 2026 (Europe/Rome).
 Bozza testuale per revisione; i segnaposto indicano le visuali da inserire nell’HTML dopo la scelta dei file.
 
-[COP-01 — Copertina scelta: sputafuoco. File: risorse/copertina-sputafuoco.jpg. Conservare integralmente composizione e proporzioni.]
+[COP-01 — Copertina scelta: sfera incandescente del test Ivy Mike. File: risorse/copertina-ivy-mike.jpg. Conservare integralmente composizione e proporzioni.]
 
-Didascalia: Uno sputafuoco durante un’esibizione. I gas della fiamma sono ad alta temperatura e trasferiscono energia all’ambiente.
-
-[Credito obbligatorio vicino alla copertina, distinto dalla didascalia: Luc Viatour / https://Lucnix.be · CC BY-SA 3.0. Riferimenti completi nei crediti.]
+Didascalia: La sfera incandescente del test nucleare Ivy Mike. L’energia liberata porta la materia a temperature molto elevate.
 
 ## Il mare dopo il tramonto
 
@@ -158,7 +156,7 @@ Ecco perché, dopo il tramonto, possiamo trovare ancora tiepido il mare mentre l
 
 ### Immagini e animazione
 
-- **COP-01 — Fire breathing 2 Luc Viatour.jpg:** Luc Viatour / [Lucnix.be](https://Lucnix.be), [fonte originale](https://commons.wikimedia.org/wiki/File:Fire_breathing_2_Luc_Viatour.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Versione 1920 px scelta dall’utente, senza ulteriori modifiche. La fonte richiede il credito vicino alla fotografia, conservato separatamente dalla didascalia.
+- **COP-01 — Ivy Mike - fireball.jpg:** Charles Wyckoff; provenienza NNSA Nevada Site Office Photo Library, identificativo IVY-52-07. [Fonte originale](https://commons.wikimedia.org/wiki/File:Ivy_Mike_-_fireball.jpg). Pubblico dominio, opera realizzata nell’ambito delle funzioni ufficiali del Dipartimento dell’Energia degli Stati Uniti o di un ente predecessore, secondo la scheda Commons (PD-USGov-DOE). Versione 1920 px scelta dall’utente, senza modifiche.
 - **FIG-01 — Spiaggia notturna di Ko Li Pe:** Piith.hant (Piith Hant), [fonte originale](https://commons.wikimedia.org/wiki/File:1008_Beach_at_Night_with_Moon_and_Stars_in_Ko_Li_Pe_-_Tarutao_National_Park,_Satun,_Thailand.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). File originale integrale, senza modifiche.
 - **FIG-02 — MD water.gif:** Kmckiern, [fonte originale](https://commons.wikimedia.org/wiki/File:MD_water.gif), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Simulazione del movimento delle molecole d’acqua; file originale di Commons, senza modifiche. Animazione rallentata: la durata di riproduzione non coincide con quella del fenomeno microscopico.
 

@@ -1,6 +1,6 @@
 # Stato — Energia interna, calore e calore specifico
 
-Versione v9 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
+Versione v10 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
 
 ## Ambito e punto di partenza
 
@@ -104,3 +104,11 @@ Il collegamento a 1920 px restituisce una copia ingrandita da 69298768 byte, sup
 La copia ingrandita resta temporaneamente nell’ambiente; non caricata nel repository. Il precedente originale della proteina è conservato, esplicitamente segnato non più usato. I file attivi delle tre immagini pesano complessivamente 14436688 byte: la futura incorporazione base64 e il tema richiedono misura del peso finale, senza presumere conclusa la verifica del limite. Non ottimizzati altri materiali senza autorizzazione.
 
 Nessun HTML realizzato o pubblicazione avviata: resta il via esplicito all’HTML dopo la stima già comunicata. La richiesta corrente autorizza questa sostituzione circoscritta.
+
+## Sostituzione esplicita della copertina — bozza v6
+
+Richiesta dell’utente: «Usa questa come copertina», con collegamento a Ivy_Mike_-_fireball.jpg. Sostituita la copertina dello sputafuoco con l’immagine Ivy Mike, senza ripetere l’approvazione della scelta. Versione 1920 × 1555 px, 185032 byte, scaricata integralmente e osservata direttamente; nessuna modifica. Hash in risorse/verifica-originali.json. Fonte Commons verificata: Charles Wyckoff, provenienza NNSA/NSO Photo Library IVY-52-07, pubblico dominio PD-USGov-DOE.
+
+Bozza v6: aggiornati il solo segnaposto COP-01, la didascalia e il relativo credito. Rimossa l’attribuzione in prossimità della foto che era prescritta soltanto per la precedente copertina; tutti i riferimenti alla nuova fonte restano nei crediti. Didascalia descrittiva con collegamento a energia e temperatura, senza dati numerici sulla detonazione o digressioni. Testo approvato, apertura sul mare, tabella, formule, GIF dell’acqua e domande conservati.
+
+Lo sputafuoco resta conservato come originale già scelto, segnato non corrente. Copertina corrente solo in risorse/copertina-ivy-mike.jpg. File delle tre immagini attive: 14010131 byte complessivi; il peso definitivo dell’HTML autonomo resta da misurare. Nessun HTML o pubblicazione avviati; via alla realizzazione resta distinto e non ancora ricevuto.

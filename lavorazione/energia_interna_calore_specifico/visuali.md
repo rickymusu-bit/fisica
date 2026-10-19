@@ -1,18 +1,19 @@
 # Visuali — Energia interna, calore e calore specifico
 
-Versione v8 · 19 ottobre 2026 (Europe/Rome).
+Versione v9 · 19 ottobre 2026 (Europe/Rome).
 
-La bozza v3 è approvata. Dopo la stima l’utente ha fornito tre collegamenti specifici: le immagini seguenti sono scelte e non richiedono una seconda approvazione. La bozza v5 adatta soltanto segnaposto, didascalie e crediti ai materiali scelti; testo, formule, tabella e domande approvati conservati. Le proposte sostituite restano nella cronologia Git.
+La bozza v3 è approvata. Dopo la stima l’utente ha fornito tre collegamenti specifici: le immagini seguenti sono scelte e non richiedono una seconda approvazione. La bozza v6 adatta soltanto segnaposto, didascalie e crediti ai materiali scelti; testo, formule, tabella e domande approvati conservati. Le proposte sostituite restano nella cronologia Git.
 
-## COP-01 — Sputafuoco
+## COP-01 — Ivy Mike, sfera incandescente
 
-- File: [risorse/copertina-sputafuoco.jpg](risorse/copertina-sputafuoco.jpg).
-- Collegamento ricevuto: https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Fire_breathing_2_Luc_Viatour.jpg/1920px-Fire_breathing_2_Luc_Viatour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail
-- Fonte: https://commons.wikimedia.org/wiki/File:Fire_breathing_2_Luc_Viatour.jpg
-- Autore: Luc Viatour. Licenza scelta tra quelle offerte: CC BY-SA 3.0, https://creativecommons.org/licenses/by-sa/3.0/ .
-- La fonte richiede «Luc Viatour / https://Lucnix.be» nelle immediate vicinanze della foto. Conservare questa attribuzione separatamente dalla didascalia, oltre ai crediti comuni, secondo l’eccezione C1.
-- Versione scelta: 1920 × 1411 px, 611589 byte. Nessun ritaglio o modifica. Sostituisce la precedente copertina proposta della spiaggia; non ripeterla nel testo.
-- Osservazione diretta: artista che emette una grande fiamma durante un’esibizione. Non ricavare temperature o combustibili dalla fotografia. Didascalia in bozza.md.
+- File corrente: [risorse/copertina-ivy-mike.jpg](risorse/copertina-ivy-mike.jpg).
+- Scelta esplicita: «Usa questa come copertina», con https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Ivy_Mike_-_fireball.jpg/1920px-Ivy_Mike_-_fireball.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail . Sostituzione autorizzata senza nuova scelta da chiedere.
+- Fonte: https://commons.wikimedia.org/wiki/File:Ivy_Mike_-_fireball.jpg . Autore indicato: Charles Wyckoff. Provenienza: NNSA Nevada Site Office Photo Library, IVY-52-07.
+- Stato dei diritti dichiarato: pubblico dominio, PD-USGov-DOE, opera di un dipendente del Dipartimento dell’Energia USA o di un ente predecessore nell’ambito delle sue funzioni ufficiali. Provenienza conservata nei crediti.
+- Versione ricevuta: 1920 × 1555 px, 185032 byte. Nessun ritaglio, ricampionamento o altra modifica. Immagine osservata direttamente: sfera luminosa del test Ivy Mike ripresa con fotocamera ad alta velocità; non ricavare temperature, dimensioni o tempi dalla fotografia.
+- Didascalia adattata al nuovo soggetto e al collegamento con energia e temperatura, senza sviluppare la fisica delle armi nucleari o introdurre dati numerici ulteriori.
+- La precedente copertina dello sputafuoco resta conservata come originale in risorse/copertina-sputafuoco.jpg, ma non è più usata né accreditata come materiale corrente. Eliminata dalla bozza la relativa attribuzione obbligatoria vicino alla foto, poiché non appartiene alla nuova immagine.
+- Non ripetere la copertina all’interno del testo. Apertura approvata sul mare e sabbia conservata.
 
 ## FIG-01 — Spiaggia notturna di Ko Li Pe
 
@@ -41,4 +42,4 @@ Tabella dei dieci materiali solidi, liquidi e gassosi e grafico delle rette T(Q)
 
 Tutti i file scelti scaricati e osservati, senza modifiche. Dimensioni e impronte in [risorse/verifica-originali.json](risorse/verifica-originali.json). Questo documento conserva le scelte effettive; in fase HTML trasferire i crediti nel registro unico e generare gli accessi comuni, senza creare inventari concorrenti. Le immagini sono riprese nella sezione di servizio dei crediti della bozza.
 
-Testo v3 già approvato; adattamento circoscritto v5 autorizzato dai collegamenti ricevuti. Materiali disponibili, stima già comunicata 35–60 minuti. Resta il via esplicito all’HTML secondo B1.1–B2, senza richiedere nuovamente scelta delle immagini, approvazione del testo o del tema. Nessuna modifica a main o pubblicazione.
+Testo v3 già approvato; adattamento circoscritto v6 autorizzato dai collegamenti ricevuti. Materiali disponibili, stima già comunicata 35–60 minuti. Resta il via esplicito all’HTML secondo B1.1–B2, senza richiedere nuovamente scelta delle immagini, approvazione del testo o del tema. Nessuna modifica a main o pubblicazione.
