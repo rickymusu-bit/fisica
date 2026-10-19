@@ -2,25 +2,19 @@
   {
     "viewport": 1280,
     "scrollWidth": 1280,
+    "imageArrows": 0,
+    "cupContour": 1,
+    "floatTexts": 0,
     "zoomControls": 0,
-    "floatingTexts": 0,
-    "springArrows": 0,
-    "springContour": 1,
-    "red": 10,
-    "blue": 1,
-    "arrowsAndHeadsInsidePhoto": true,
-    "errors": []
+    "caption": "Il tratteggio individua il sistema formato dalla tazza e dalla bevanda. Attraverso questo confine esce acqua per evaporazione e viene ceduta energia all’ambiente."
   },
   {
     "viewport": 390,
     "scrollWidth": 390,
+    "imageArrows": 0,
+    "cupContour": 1,
+    "floatTexts": 0,
     "zoomControls": 0,
-    "floatingTexts": 0,
-    "springArrows": 0,
-    "springContour": 1,
-    "red": 10,
-    "blue": 1,
-    "arrowsAndHeadsInsidePhoto": true,
-    "errors": []
+    "caption": "Il tratteggio individua il sistema formato dalla tazza e dalla bevanda. Attraverso questo confine esce acqua per evaporazione e viene ceduta energia all’ambiente."
   }
 ]

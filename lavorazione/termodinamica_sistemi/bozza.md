@@ -1,6 +1,6 @@
 # La termodinamica e i sistemi termodinamici
 
-<!-- Bozza v5 · 19 ottobre 2026 (Europe/Rome). Testo di riferimento per l’HTML v6; completamento richiesto il 19 ottobre 2026. Visuali scelte e fonti in visuali.md. -->
+<!-- Bozza v6 · 19 ottobre 2026 (Europe/Rome). Testo di riferimento per l’HTML v7; completamento richiesto il 19 ottobre 2026. Visuali scelte e fonti in visuali.md. -->
 
 [IMMAGINE TS-0 — Copertina: Hubble ultra deep field.jpg, proposta 1A approvata. Non riutilizzare nel testo.]
 
@@ -16,9 +16,9 @@ Il suo campo d’azione va oltre il riscaldamento e il raffreddamento. Riguarda 
 
 ## Dove finisce il sistema?
 
-[IMMAGINE E SCHEMA TS-1 — Coffee steaming in a mug.jpg, scelta dell’utente. Conservare la foto nel contesto reale; nello schema affiancato o sovrapposto individuare tazza e contenuto, ambiente, confine lungo il recipiente e superficie ideale sopra l’apertura. Frecce distinte per materia in uscita ed energia ceduta, senza dati numerici inventati.]
+[IMMAGINE E SCHEMA TS-1 — Coffee steaming in a mug.jpg, scelta dell’utente. Conservare la foto nel contesto reale; nello schema affiancato o sovrapposto individuare tazza e contenuto, ambiente, confine lungo il recipiente e superficie ideale sopra l’apertura. Solo contorno tratteggiato, senza frecce o scritte; scambi di materia ed energia spiegati nella didascalia.]
 
-Didascalia: La bevanda e la tazza costituiscono il sistema. Le frecce rosse indicano l’energia ceduta all’ambiente come calore; la freccia blu indica l’acqua che esce per evaporazione. Il tratteggio rappresenta il confine scelto.
+Didascalia: Il tratteggio individua il sistema formato dalla tazza e dalla bevanda. Attraverso questo confine esce acqua per evaporazione e viene ceduta energia all’ambiente.
 
 Possiamo concentrarci sulla tazza e sul caffè che contiene, lasciando fuori il tavolo, l’aria e il resto della stanza. La parte che scegliamo di studiare è il **sistema termodinamico**; tutto ciò che si trova all’esterno costituisce l’**ambiente**. La superficie che li separa prende il nome di **confine**.
 

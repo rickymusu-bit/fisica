@@ -2371,7 +2371,8 @@
       "links": [],
       "notices": [
         "svg — PedanticNarrativeController. <a href=\"https://commons.wikimedia.org/wiki/File:Coffee_steaming_in_a_mug.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CC0 1.0</a>. Modifiche: Foto completa, senza ritaglio; sovrapposizione di contorni, frecce ed etichette didattiche. Schema sotto la stessa licenza della foto.",
-        "svg — PedanticNarrativeController. <a href=\"https://commons.wikimedia.org/wiki/File:Coffee_steaming_in_a_mug.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CC0 1.0</a>. Modifiche: Foto completa, senza ritaglio; sovrapposizione di contorni, frecce ed etichette didattiche. Schema sotto la stessa licenza della foto.<br>Modifiche per questo utilizzo: Foto completa, senza ritaglio; contorno del sistema e frecce didattiche."
+        "svg — PedanticNarrativeController. <a href=\"https://commons.wikimedia.org/wiki/File:Coffee_steaming_in_a_mug.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CC0 1.0</a>. Modifiche: Foto completa, senza ritaglio; sovrapposizione di contorni, frecce ed etichette didattiche. Schema sotto la stessa licenza della foto.<br>Modifiche per questo utilizzo: Foto completa, senza ritaglio; contorno del sistema e frecce didattiche.",
+        "svg — PedanticNarrativeController. <a href=\"https://commons.wikimedia.org/wiki/File:Coffee_steaming_in_a_mug.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CC0 1.0</a>. Modifiche: Foto completa, senza ritaglio; sovrapposizione di contorni, frecce ed etichette didattiche. Schema sotto la stessa licenza della foto.<br>Modifiche per questo utilizzo: Foto completa, senza ritaglio; contorno del sistema."
       ],
       "metadata_sources": [
         "termodinamica_sistemi_it.html"
@@ -2386,7 +2387,8 @@
         "asset-7cb392160290aa388d15e94e5f5749c8d65e899d6eaa7c8ee0c091eae42d5b5a",
         "asset-08cfd0462ede1a465c2e9c824c3ec33ba1c6f3ba235729f2452817354a4347a9",
         "asset-7332bcb59622f5f6b59f4267cac9f548db19d4a6cf8f5dc0da9fec6d551d9808",
-        "asset-133a48a8703a266baadc930239c1d33cfcdd3610a25bcb56723f9536e1d459b7"
+        "asset-133a48a8703a266baadc930239c1d33cfcdd3610a25bcb56723f9536e1d459b7",
+        "asset-46585c12bf9ce2ba31aabfa0b223807cccb08b25cb419f6102cce1f11f7ddab9"
       ]
     },
     {
@@ -3125,6 +3127,10 @@
         {
           "resource": "credit-75bc560c9b8d9052",
           "notice": 1
+        },
+        {
+          "resource": "credit-2745b5c3fc7949d9",
+          "notice": 2
         }
       ],
       "review": "Nuovo documento da verificare",
@@ -3292,21 +3298,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-133a48a8703a266baadc930239c1d33cfcdd3610a25bcb56723f9536e1d459b7",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "termodinamica_sistemi_it.html",
-          "kind": "svg",
-          "description": "svg",
-          "locator": "ts-1",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": "credit-2745b5c3fc7949d9"
         }
       ]
     },
@@ -4078,6 +4069,21 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-cad80140d23b91f1"
+        }
+      ]
+    },
+    {
+      "id": "asset-46585c12bf9ce2ba31aabfa0b223807cccb08b25cb419f6102cce1f11f7ddab9",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "termodinamica_sistemi_it.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "ts-1",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "credit-2745b5c3fc7949d9"
         }
       ]
     },
@@ -5062,21 +5068,6 @@
           "kind": "svg",
           "description": "Cinque punti: zero, uno, due, tre e quattro quaderni costano rispettivamente zero, due, quattro, sei e otto euro. La retta del modello y uguale due x passa per l’origine.",
           "locator": "chart-direct",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-9a27a219e492cb2fa7218a2298a1518648e08a2349282e7aa880b1534e212c7d",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "termodinamica_sistemi_it.html",
-          "kind": "svg",
-          "description": "svg",
-          "locator": "inizio",
           "attribute": "inline",
           "location": null,
           "credit_id": null

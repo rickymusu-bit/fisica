@@ -31,10 +31,6 @@ META={
  'TS-7':('molla-sospensione-mtb.jpg','https://commons.wikimedia.org/wiki/File:Mountain_bike_suspension_rear_ohlins_shock.jpg','Alextredz','CC BY-SA 4.0','https://creativecommons.org/licenses/by-sa/4.0/'),
 }
 
-def line(x1,y1,x2,y2,arrow=False,color='#0066b3',width=5):
-    marker={'#0066b3':'freccia','#c62828':'freccia-calore','#16803c':'freccia-molla'}[color]
-    return f'<path d="M{x1},{y1} L{x2},{y2}" fill="none" stroke="'+(color if arrow else '#080808')+'" stroke-width="'+(str(width) if arrow else '3')+'"'+(f' marker-end="url(#{marker})"' if arrow else '')+'/>'
-
 def boundary(d):
     # Doppio tratto per distinguere il confine anche nelle zone scure della foto.
     return f'<path d="{d}" fill="none" stroke="white" stroke-width="8"/><path d="{d}" fill="none" stroke="#080808" stroke-width="3" stroke-dasharray="10 7"/>'
@@ -54,20 +50,13 @@ def scene(key):
         'TS-6':'M481,198 Q507,188 532,199 L547,294 Q546,312 520,315 Q497,315 488,302 Z',
     }
     out+=boundary(contours[key])
-    if key=='TS-1':
-        out+=line(430,283,430,160,True)
-        for coords in [(352,310,318,300),(352,365,316,365),(352,425,320,439),
-                       (386,483,357,495),(520,483,551,495),
-                       (552,420,585,437),(612,365,646,373),(612,325,644,312),
-                       (380,265,365,239),(510,263,530,240)]:
-            out+=line(*coords,True,color='#c62828',width=6)
     left,top,W,H=(x,y,w,h) if key=='TS-1' else (x-10,y-10,w+20,h+20)
     return W,H,f'<g transform="translate({-left},{-top})">{out}</g>'
 
 def figure(key,caption):
     name,source,author,lic,url=META[key]
     meta=attributes(source if source.startswith('https://') else 'https://commons.wikimedia.org/wiki/File:'+source,author,lic,url,
-        'Foto completa, senza ritaglio; contorno del sistema'+(' e frecce didattiche.' if key=='TS-1' else '.') if key!='TS-0' else 'Nessuna modifica; visualizzazione proporzionale.')
+        'Foto completa, senza ritaglio; contorno del sistema.' if key!='TS-0' else 'Nessuna modifica; visualizzazione proporzionale.')
     if key=='TS-0':
         return f'<figure class="visual cover" id="ts-0" {meta}><div class="image-frame"><div class="overview"><img src="{data(name)}" width="3100" height="3100" alt="Galassie del campo ultra profondo di Hubble" decoding="async"></div></div><figcaption>{escape(caption)}</figcaption></figure>'
     if key=='TS-7':
@@ -114,7 +103,7 @@ def main():
     template=(ROOT/'riferimenti/TEMA_DISPENSE.html').read_text()
     template=re.sub(r'<!-- MODELLO CANONICO.*?-->','<!-- Articolo autonomo; tema canonico v8. -->',template, count=1,flags=re.S)
     template=template.replace('<title>Tema grafico delle dispense — modello riutilizzabile</title>',f'<title>{TITLE} — Materia Oscura</title>')
-    template=template.replace('name="version" content="v8"','name="version" content="v6"',1).replace('name="date" content="2026-10-18"','name="date" content="2026-10-19"',1)
+    template=template.replace('name="version" content="v8"','name="version" content="v7"',1).replace('name="date" content="2026-10-18"','name="date" content="2026-10-19"',1)
     template=template.replace('Modello autonomo del tema grafico comune a tutti i capitoli futuri.','Sistema, ambiente e confine; scambi di materia ed energia; sistemi aperti, chiusi e isolati.')
     template=template.replace('Nome dell’area tematica','Materia e calore').replace('Titolo dell’articolo',TITLE)
     template=template.replace('<span class="sidebar-label">Fisica</span>','<span class="sidebar-label">Materia e calore</span>')
@@ -122,13 +111,7 @@ def main():
     template=re.sub(r'<figure class="visual cover">.*?</figure>',lambda _:cover,template,count=1,flags=re.S)
     template=re.sub(r'(<article class="article">).*?(<nav class="bottom-links")',lambda m:m[1]+''.join(body)+m[2],template,count=1,flags=re.S)
     template=re.sub(r'(<details class="chapter-notes".*?<ol>).*?(</ol>)',lambda m:m[1]+''.join(notes)+m[2],template,count=1,flags=re.S)
-    template=template.replace('Versione v8 · 2026-10-18','Versione v6 · 19 ottobre 2026')
-    # Marker condiviso da tutti gli schemi; resta definito anche quando una overview è nascosta.
-    defs='<svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" aria-hidden="true" style="position:absolute"><defs>'+''.join(
-        f'<marker id="{name}" markerUnits="userSpaceOnUse" markerWidth="{size}" markerHeight="{size}" viewBox="0 0 8 8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="{color}"/></marker>'
-        for name,color,size in [('freccia','#0066b3',28),('freccia-calore','#c62828',18),('freccia-molla','#16803c',28)]
-    )+'</defs></svg>'
-    template=template.replace('<main>','<main>'+defs,1)
+    template=template.replace('Versione v8 · 2026-10-18','Versione v7 · 19 ottobre 2026')
     TARGET.write_text(template)
     print(TARGET.name,TARGET.stat().st_size,'byte')
 

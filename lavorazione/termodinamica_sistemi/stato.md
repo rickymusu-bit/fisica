@@ -1,10 +1,10 @@
 # Stato — La termodinamica e i sistemi termodinamici
 
-Aggiornamento: 19 ottobre 2026 (Europe/Rome). Versione v11.
+Aggiornamento: 19 ottobre 2026 (Europe/Rome). Versione v12.
 
 ## Fase corrente
 
-**HTML v6 completato: nuova foto della molla e frecce del caffè dentro la fotografia.** Ripresa richiesta dall’utente: «Finisci il lavoro sulla dispensa dei sistemi termodinamici», con precisazione «Su GitHub». La richiesta corrente autorizza il completamento nel ramo dedicato; non viene registrata come un’approvazione separata del testo né come autorizzazione a pubblicare. Ramo: `termodinamica/percorso-introduttivo`. Nessuna modifica a main, home o manifest.
+**HTML v7 completato: soltanto contorni tratteggiati nelle immagini, nessuna freccia.** Ripresa richiesta dall’utente: «Finisci il lavoro sulla dispensa dei sistemi termodinamici», con precisazione «Su GitHub». La richiesta corrente autorizza il completamento nel ramo dedicato; non viene registrata come un’approvazione separata del testo né come autorizzazione a pubblicare. Ramo: `termodinamica/percorso-introduttivo`. Nessuna modifica a main, home o manifest.
 
 File finale: `termodinamica_sistemi_it.html`; tema autonomo v8 riutilizzato senza modifiche al CSS o ai comandi comuni. Bozza testuale v2: sola correzione dell’esempio della molla da compressione ad allungamento, coerente con le molle da trazione fotografate.
 
@@ -48,7 +48,7 @@ Controllo scientifico: classificazioni, confini e flussi coerenti; molla da traz
 
 Verifica Chromium offline completata a 1280 e 390 px: nessun errore JavaScript, nessun overflow della pagina, indice con apertura/chiusura, richiamo/ritorno delle note, ingrandimento e scorrimento dei visuali, dialogo dei crediti, font OFL e pausa/ripresa logo funzionanti. Verificati ingrandimento e crediti anche senza JavaScript. Report: `verifiche-browser.json`; anteprime desktop/mobile nella stessa cartella. Ispezionati visivamente tutti e sei gli schemi. CSS del tema confrontato byte per byte; tutte le foto incorporate confrontate per SHA-256 con gli originali.
 
-File corrente autonomo: `termodinamica_sistemi_it.html`, v6 · 19 ottobre 2026, 13,39 MB circa; copia corrente identica in `bozza.html`. Salvataggio sul ramo dedicato, senza unione né pubblicazione. Prossimo passaggio: revisione del risultato; per l’eventuale pubblicazione aggiornare catalogo, sequenza degli articoli e manifest solo dopo autorizzazione. Nessun via a main o alla pubblicazione ricevuto.
+File corrente autonomo: `termodinamica_sistemi_it.html`, v7 · 19 ottobre 2026, 13,39 MB circa; copia corrente identica in `bozza.html`. Salvataggio sul ramo dedicato, senza unione né pubblicazione. Prossimo passaggio: revisione del risultato; per l’eventuale pubblicazione aggiornare catalogo, sequenza degli articoli e manifest solo dopo autorizzazione. Nessun via a main o alla pubblicazione ricevuto.
 
 ## Revisione v2 — immagini e frecce
 
@@ -87,3 +87,9 @@ Per la molla l’utente ha dapprima proposto Flickr 45609802 (Boing!, Huw Pritch
 Successiva richiesta esplicita “Fai il tratteggio intorno alla molla”: aggiunto contorno tratteggiato alla sola molla gialla, senza includere il corpo dell’ammortizzatore e senza frecce o testi SVG. Didascalia e testo adattati alla compressione e al rilascio; la foto non viene descritta come prova di una deformazione in corso. Sostituzione conclusa, nessun file in attesa.
 
 Verifiche: caricamento e ispezione delle anteprime desktop/mobile, zero overflow/errori, zero scritte SVG e tasti di ingrandimento, nessuna freccia sulla molla e un solo contorno. Check crediti, build Pages e diff superati. Prossimo passo: revisione del risultato; main e pubblicazione restano invariati.
+
+## Revisione v7 — tazza uniforme alle altre immagini
+
+Richiesta esplicita: togliere tutte le frecce dalla tazza e mantenere soltanto il tratteggio. Eliminati tutti i tracciati e i marker delle frecce dal generatore. Didascalia della tazza riscritta senza riferimenti ai colori: il tratteggio identifica tazza e bevanda, mentre gli scambi di materia ed energia sono descritti a parole. Fotografie e altri contorni invariati. Aggiornati HTML, copia di lavorazione, crediti e anteprime del caffè.
+
+Verifiche offline a 1280/390 px: zero frecce nei visuali, un contorno della tazza, zero scritte SVG o ingrandimenti, nessun overflow; didascalia priva di riferimenti alle frecce. Check crediti, build Pages e diff superati. Salvato nella stessa PR #36, senza pubblicazione.

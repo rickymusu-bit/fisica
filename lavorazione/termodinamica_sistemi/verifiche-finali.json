@@ -1,9 +1,9 @@
 {
   "file": "termodinamica_sistemi_it.html",
-  "version": "v6",
+  "version": "v7",
   "date": "2026-10-19",
-  "bytes": 12677403,
-  "sha256": "199fddb8a512a532fb7cd023aadf419edfb56d44b816d759e7a8c6fac82e42ec",
+  "bytes": 12675867,
+  "sha256": "6b6f9fbddceb54d797575abb2ae5fb1ccdb99119d069b38184eda5b9edd9b884",
   "figure": 7,
   "domande": 8,
   "css_tema_canonico_inalterato": true,
@@ -13,25 +13,13 @@
   "main_home_manifest": "invariati",
   "ingrandimento_solo_con_testi_didattici": true,
   "frecce": {
-    "caffe": {
-      "calore": {
-        "numero": 10,
-        "colore": "#c62828",
-        "spessore": 6
-      },
-      "evaporazione": {
-        "numero": 1,
-        "colore": "#0066b3",
-        "spessore": 5
-      }
-    },
-    "molla": {
-      "numero": 0,
+    "numero_totale": 0,
+    "tazza": {
       "tratteggio": true
     },
-    "tutte_entro_figura": true,
-    "didascalie_esplicative": true,
-    "tutte_entro_fotografia_incluse_punte": true
+    "molla": {
+      "tratteggio": true
+    }
   },
   "testi_svg_visuali": 0,
   "ingrandimenti": 0,

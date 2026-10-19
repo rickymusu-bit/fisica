@@ -76,3 +76,7 @@ Per tutti i visuali, spiegazioni nelle didascalie anziché scritte sospese; nien
 ## Aggiornamento v6 — sostituzione conclusa
 
 La nota v5 di attesa è superata dalla nuova scelta Commons TS-7 e dalla successiva richiesta di tratteggio. Il file Flickr di Huw Pritchard è stato scartato dall’utente prima della consegna; non è incluso. Frecce del caffè contenute nella fotografia completa, incluse le punte; didascalie senza scritte volanti.
+
+## Aggiornamento v7 — solo tratteggi
+
+Per richiesta esplicita dell’utente eliminate tutte le frecce dalla tazza. Come per gli altri soggetti, resta soltanto il tratteggio; scambi spiegati nella didascalia. Le precedenti indicazioni sui colori e le lunghezze delle frecce sono superate.

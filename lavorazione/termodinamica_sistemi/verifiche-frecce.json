@@ -1,22 +1,10 @@
 {
-  "version": "v6",
-  "caffe": {
-    "rosse": 10,
-    "blu": 1,
-    "aste_e_vertici_punte_dentro_fotografia": true,
-    "fotografia_svg": {
-      "x": 180,
-      "y": 135,
-      "width": 540,
-      "height": 368.1319796954315
-    }
-  },
-  "molla": {
-    "frecce": 0,
-    "contorni": 1,
-    "scritte": 0
-  },
-  "testi_svg_visuali": 0,
+  "version": "v7",
+  "frecce_visuali": 0,
+  "contorno_tazza": 1,
+  "contorno_molla": 1,
+  "scritte_svg": 0,
+  "ingrandimenti": 0,
   "testato_a_px": [
     1280,
     390
