@@ -1,11 +1,13 @@
 # Energia interna, calore e calore specifico
 
-Versione v3 · 19 ottobre 2026 (Europe/Rome).
+Versione v4 · 19 ottobre 2026 (Europe/Rome).
 Bozza testuale per revisione; i segnaposto indicano le visuali da inserire nell’HTML dopo la scelta dei file.
 
-[COP-01 — Fotografia di una spiaggia estiva con mare e sabbia visibili, distinta dalla fotografia interna.]
+[COP-01 — Copertina scelta: sputafuoco. File: risorse/copertina-sputafuoco.jpg. Conservare integralmente composizione e proporzioni.]
 
-Didascalia: Il mare e la spiaggia ricevono energia dal Sole durante il giorno, ma la loro temperatura non cambia nello stesso modo.
+Didascalia: Uno sputafuoco durante un’esibizione. I gas della fiamma sono ad alta temperatura e trasferiscono energia all’ambiente.
+
+[Credito obbligatorio vicino alla copertina, distinto dalla didascalia: Luc Viatour / https://Lucnix.be · CC BY-SA 3.0. Riferimenti completi nei crediti.]
 
 ## Il mare dopo il tramonto
 
@@ -13,9 +15,9 @@ Didascalia: Il mare e la spiaggia ricevono energia dal Sole durante il giorno, m
 
 Durante il giorno acqua e sabbia ricevono energia dal Sole. Dopo il tramonto continuano a cedere energia all’ambiente, ma la loro temperatura può diminuire in modo molto diverso. Per capire perché, dobbiamo distinguere tre idee che nel linguaggio comune tendiamo a sovrapporre: temperatura, energia interna e calore.
 
-[FIG-01 — Fotografia della battigia di sera o di notte, con acqua e sabbia riconoscibili. Non ricavare temperature dalla fotografia; adattare la didascalia al soggetto scelto.]
+[FIG-01 — Fotografia scelta: spiaggia notturna di Ko Li Pe, Thailandia. File: risorse/spiaggia-notturna.jpg. Foto integrale, senza valori di temperatura sovrapposti.]
 
-Didascalia: La battigia dopo il tramonto. L’acqua può restare tiepida mentre lo strato superficiale della sabbia si è già raffreddato.
+Didascalia: Sabbia, rocce e mare sotto il cielo notturno di Ko Li Pe. Dopo il tramonto l’acqua può restare tiepida mentre la superficie della sabbia si raffredda.
 
 ## L’energia che non vediamo
 
@@ -23,9 +25,9 @@ Anche quando l’acqua sembra ferma, le sue molecole sono in continuo movimento.
 
 L’insieme di queste energie microscopiche costituisce l’**energia interna**, indicata con \(U\) e misurata in joule, simbolo J. La parola “interna” ci aiuta a distinguerla dall’energia associata al movimento del corpo nel suo insieme o alla sua altezza rispetto al terreno. L’acqua ha energia interna anche quando il recipiente che la contiene è fermo.
 
-[FIG-02 — Illustrazione microscopica scelta: moto delle particelle e loro interazioni, con eventuale confronto fra due temperature. La figura deve distinguere il modello di un solido da quello di un liquido, se li mostra entrambi.]
+[FIG-02 — GIF scelta: vibrazioni di una porzione di proteina. File: risorse/molecola-agitazione-termica.gif. Mantenere la GIF completa; usare il controllo di pausa/ripresa e il rispetto del movimento ridotto nella realizzazione.]
 
-Didascalia: Nel modello microscopico le particelle si muovono e interagiscono. L’energia interna comprende i contributi di questi movimenti e delle interazioni.
+Didascalia: Il modello animato mostra le vibrazioni degli atomi in una porzione di proteina. Anche questi movimenti interni alle molecole contribuiscono all’energia interna di un materiale.
 
 La **temperatura** descrive lo stato termico del corpo ed è collegata al moto microscopico delle particelle. Non indica però quanta energia interna possiede complessivamente il corpo: conta anche quanta materia contiene. Due quantità diverse d’acqua alla stessa temperatura hanno la stessa indicazione sul termometro, ma quella maggiore contiene più particelle e ha un’energia interna maggiore.[^1]
 
@@ -152,5 +154,12 @@ Ecco perché, dopo il tramonto, possiamo trovare ancora tiepido il mare mentre l
 - **Tabella TAB-01 e dati del grafico GRA-01:** Engineering ToolBox, [Specific Heat of Common Materials](https://www.engineeringtoolbox.com/specific-heat-capacity-d_391.html). Valori di calore specifico a pressione costante, arrotondati in notazione scientifica. Acqua pura a 20 °C: 4182 J/(kg · K); sabbia quarzosa (“Sand, quartz”): 830 J/(kg · K). La fonte non precisa temperatura e umidità della sabbia né la temperatura di riferimento di tutte le altre voci.
 - **Spiegazione del contributo dei legami a idrogeno al calore specifico dell’acqua:** OpenStax, [Biology 2e, §2.2 — Water](https://openstax.org/books/biology-2e/pages/2-2-water). Informazioni rielaborate nel testo con formulazioni originali.
 - **Verifica delle relazioni tra calore, massa, calore specifico e variazione di temperatura:** OpenStax, [College Physics, §14.2 — Temperature Change and Heat Capacity](https://openstax.org/books/college-physics/pages/14-2-temperature-change-and-heat-capacity). Consultato per il controllo scientifico di formule e unità, senza riproduzione di testo o immagini.
+
+
+### Immagini e animazione
+
+- **COP-01 — Fire breathing 2 Luc Viatour.jpg:** Luc Viatour / [Lucnix.be](https://Lucnix.be), [fonte originale](https://commons.wikimedia.org/wiki/File:Fire_breathing_2_Luc_Viatour.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Versione 1920 px scelta dall’utente, senza ulteriori modifiche. La fonte richiede il credito vicino alla fotografia, conservato separatamente dalla didascalia.
+- **FIG-01 — Spiaggia notturna di Ko Li Pe:** Piith.hant (Piith Hant), [fonte originale](https://commons.wikimedia.org/wiki/File:1008_Beach_at_Night_with_Moon_and_Stars_in_Ko_Li_Pe_-_Tarutao_National_Park,_Satun,_Thailand.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). File originale integrale, senza modifiche.
+- **FIG-02 — Thermally Agitated Molecule.gif:** Greg L, come indicato nella scheda Commons; caricamento su Commons di Frokor, provenienza dichiarata physics.unlv.edu. [Fonte originale](https://commons.wikimedia.org/wiki/File:Thermally_Agitated_Molecule.gif), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Versione animata 1920 px scelta dall’utente, senza ulteriori modifiche.
 
 </details>

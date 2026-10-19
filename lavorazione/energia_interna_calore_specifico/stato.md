@@ -1,6 +1,6 @@
 # Stato — Energia interna, calore e calore specifico
 
-Versione v7 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
+Versione v8 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
 
 ## Ambito e punto di partenza
 
@@ -80,3 +80,17 @@ Materiali ancora necessari: COP-01 spiaggia estiva con mare e sabbia; FIG-01 bat
 Stima da comunicare prima del via HTML: 35–60 minuti di lavoro, esclusa l’attesa dei file e delle risposte. Materiali e crediti 5–10 minuti; tabella, grafico e impaginazione nel tema comune 20–35 minuti; verifiche desktop/mobile, autonomia, anteprime e salvataggio 10–15 minuti. Impegno di calcolo basso, nessuna simulazione. Stima indicativa assumendo immagini disponibili, utilizzabili e senza elaborazioni complesse; accesso operativo e risultati dei controlli possono incidere.
 
 Prossimo passo: ricevere immagini o collegamenti scelti e il via esplicito all’HTML dopo la stima. Nessun via già ricevuto dopo questa stima, nessuna pubblicazione autorizzata. Non chiedere di nuovo l’approvazione della bozza.
+
+## Materiali scelti dall’utente — bozza v4
+
+Ricevuti tre collegamenti precisi dopo approvazione della bozza e stima: sputafuoco indicato esplicitamente come copertina, spiaggia notturna di Ko Li Pe per FIG-01, Thermally Agitated Molecule.gif per FIG-02. Scelta autorizzata, senza chiedere una nuova approvazione degli stessi file. Non è stato espresso un via ulteriore alla realizzazione HTML.
+
+Scaricate e ispezionate le tre immagini: copertina 1920 × 1411 px, 611589 byte; spiaggia originale 5760 × 3840 px, 7665607 byte; GIF 1920 × 1920 px, 2738267 byte, 28 fotogrammi e ciclo di 1120 ms. Nessuna modifica ai file scelti, nessun ritaglio o ricampionamento. Dimensioni e SHA-256 in risorse/verifica-originali.json; copie di anteprima usate soltanto per l’ispezione, fuori dai file ufficiali.
+
+Fonti Commons consultate e licenze verificate: copertina Luc Viatour, CC BY-SA 3.0 tra le licenze offerte, con richiesta di attribuzione nelle immediate vicinanze dell’immagine; spiaggia Piith.hant / Piith Hant, CC BY-SA 4.0; GIF Greg L secondo Commons, caricatore Frokor, fonte dichiarata physics.unlv.edu, CC BY-SA 3.0 tra le licenze offerte. Conservare il credito vicino alla copertina come eccezione prevista da C1, separato dalla didascalia; crediti completi nel componente comune. Non contattato alcun autore.
+
+La GIF mostra una porzione di proteina, non molecole d’acqua né la rete dei loro legami a idrogeno. Didascalia adattata alle vibrazioni degli atomi all’interno della proteina; nessun confronto fra temperature dedotto dall’animazione. Controllati tutti i 28 fotogrammi: 27 diversi dal primo; preservata animazione completa. Per il futuro HTML prevedere pausa/ripresa e movimento ridotto, senza alterare l’originale.
+
+Bozza v4: aggiornati soltanto i tre segnaposto, le relative didascalie, il credito obbligatorio vicino alla copertina e i crediti dei materiali. Apertura sul mare, teoria, dati, formule e domande approvati conservati. Tutte le fonti scientifiche restano nei crediti. Non dedotte temperature della spiaggia dalla foto.
+
+Stima già comunicata 35–60 minuti per la realizzazione, calcolo basso, senza simulazioni: nessuna nuova richiesta della stessa stima o dell’approvazione del testo. Tutti i materiali specifici sono disponibili. Prossimo passo corrente: via esplicito all’HTML dopo la stima, previsto da B1.1–B2; poi lettura del modello comune e realizzazione con grafico, tabella, crediti dal registro unico, anteprime e verifiche. Nessuna pubblicazione autorizzata.

@@ -1,0 +1,29 @@
+{
+  "files": [
+    {
+      "file": "copertina-sputafuoco.jpg",
+      "bytes": 611589,
+      "width": 1920,
+      "height": 1411,
+      "frames": 1,
+      "sha256": "a260fe4463286247ca7136f0db848b40aecba82e6fd8fb5ffa4a1a6f75a38960"
+    },
+    {
+      "file": "spiaggia-notturna.jpg",
+      "bytes": 7665607,
+      "width": 5760,
+      "height": 3840,
+      "frames": 1,
+      "sha256": "680e6ae316f9cd2783cc2456d28d94f8234d525f1171e518c6d1d6a0a3dacc20"
+    },
+    {
+      "file": "molecola-agitazione-termica.gif",
+      "bytes": 2738267,
+      "width": 1920,
+      "height": 1920,
+      "frames": 28,
+      "sha256": "7106a659c9d03e60cce4ec0709c20cc73ceb1bb9ddb89e264ab567b3856af2f2"
+    }
+  ],
+  "modifiche": "Nessuna; conservate le versioni scelte e l’originale della spiaggia."
+}
