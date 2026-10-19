@@ -10,7 +10,7 @@ Per struttura e monograficità di tutti i capitoli applica A3 del master; per do
 
 Prima di scrivere o rivedere il testo delle dispense leggi anche `riferimenti/STILE_DISPENSE.md` e `riferimenti/esempio_irraggiamento.md`, richiamati in A2. Il riferimento comprende la spiegazione discorsiva e l'interpretazione delle formule secondo A4.
 
-Per impaginare o rivedere gli HTML applica automaticamente l’esatto tema grafico comune salvato nel modello autonomo `riferimenti/TEMA_DISPENSE.html`, già approvato, secondo A6 del master; non chiedere di scegliere nuovamente il template. Nei calcoli applica notazione esponenziale e prefissi SI secondo A4; interpreta i risultati degli esercizi con i confronti concreti previsti da A5.
+Per impaginare o rivedere gli HTML applica automaticamente l’esatto tema grafico comune salvato nel modello autonomo `riferimenti/TEMA_DISPENSE.html`, già approvato, secondo A6 del master; non chiedere di scegliere nuovamente il template. Nei calcoli usa forma decimale leggibile e prefissi SI, riservando la notazione scientifica ai casi utili secondo A4; interpreta i risultati degli esercizi con i confronti concreti previsti da A5.
 
 Per la temperatura usa sempre il simbolo **T maiuscolo**, anche con pedici (per esempio T_in e T_out), in formule, testo, grafici, schemi ed etichette; usa ΔT per la differenza di temperatura. La t minuscola e Δt restano per il tempo. Richiesta esplicita dell’utente del 18 ottobre 2026.
 

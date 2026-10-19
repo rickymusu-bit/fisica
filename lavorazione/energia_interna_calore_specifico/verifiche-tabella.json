@@ -1,0 +1,37 @@
+{
+  "valori_J_kg_K": [
+    "385",
+    "449",
+    "830",
+    "897",
+    "1790",
+    "2440",
+    "4180",
+    "918",
+    "1010",
+    "1040",
+    "2020"
+  ],
+  "vapore_acqueo": {
+    "temperatura_C": 100,
+    "pressione_atm": 1,
+    "cp_J_kg_K": 2020
+  },
+  "visuali_invariati": true,
+  "viste": [
+    {
+      "larghezza": 1280,
+      "righe": 11,
+      "overflow_pagina": false,
+      "errori_js": [],
+      "scorrimento_tabella": false
+    },
+    {
+      "larghezza": 390,
+      "righe": 11,
+      "overflow_pagina": false,
+      "errori_js": [],
+      "scorrimento_tabella": true
+    }
+  ]
+}

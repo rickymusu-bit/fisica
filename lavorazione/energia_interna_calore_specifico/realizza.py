@@ -230,15 +230,19 @@ def register_sources():
         ('https://openstax.org/books/biology-2e/pages/2-2-water', 'OpenStax',
          'Calore specifico dell’acqua e legami a idrogeno', 'Biology 2e, §2.2 — Water. Informazioni rielaborate con formulazioni originali.'),
         ('https://openstax.org/books/college-physics/pages/14-2-temperature-change-and-heat-capacity', 'OpenStax',
-         'Verifica di formule e unità della calorimetria', 'College Physics, §14.2 — Temperature Change and Heat Capacity. Consultato per il controllo scientifico; nessun testo o immagine riprodotti.'),
+         'Verifica di formule e unità della calorimetria', 'College Physics, §14.2 — Temperature Change and Heat Capacity, tabella 14.1. Vapore acqueo a 100 °C: 2020 J/(kg · K), calore specifico a pressione costante di 1 atm (valore tra parentesi nella fonte). Consultato anche per il controllo di formule e unità; nessun testo o immagine riprodotti.'),
     ]
     def add(resource):
         existing = next((r for r in registry['resources'] if r.get('id') == resource['id']), None)
         if not existing:
             registry['resources'].append(resource)
-        association = {'resource': resource['id'], 'notice':0}
-        if association not in doc['credits']:
-            doc['credits'].append(association)
+        current = existing if existing else resource
+        notice = resource['notices'][0]
+        if notice not in current['notices']:
+            current['notices'].append(notice)
+        association = {'resource': resource['id'], 'notice':current['notices'].index(notice)}
+        doc['credits'] = [a for a in doc['credits'] if a['resource'] != resource['id']]
+        doc['credits'].append(association)
     for url, author, description, detail in sources:
         add({'id':'credit-' + hashlib.sha256(url.encode()).hexdigest()[:16],
              'description':description, 'source':url, 'author':author, 'license':None,
@@ -310,7 +314,7 @@ def main():
     template = (ROOT / 'riferimenti/TEMA_DISPENSE.html').read_text()
     template = re.sub(r'<!-- MODELLO CANONICO.*?-->', '<!-- Articolo autonomo dal tema canonico v8; testo approvato. -->',template,count=1,flags=re.S)
     template = template.replace('<title>Tema grafico delle dispense — modello riutilizzabile</title>', '<title>' + TITLE + ' — Materia Oscura</title>')
-    template = template.replace('name="version" content="v8"', 'name="version" content="v4"',1)
+    template = template.replace('name="version" content="v8"', 'name="version" content="v5"',1)
     template = template.replace('name="date" content="2026-10-18"', 'name="date" content="2026-10-19"',1)
     template = template.replace('Modello autonomo del tema grafico comune a tutti i capitoli futuri.', 'Energia interna, calore, capacità termica e calore specifico: perché il mare resta tiepido di notte.')
     template = template.replace('Nome dell’area tematica','Materia e calore').replace('Titolo dell’articolo',TITLE)
@@ -328,7 +332,7 @@ def main():
                   '<a rel="next" href="https://rickymusu-bit.github.io/fisica/stati_della_materia.html">'
                   '<span>Articolo successivo →</span><small>Stati della materia</small></a></nav>')
     template = template.replace('<!-- chapter-navigation:end -->',navigation+'<!-- chapter-navigation:end -->')
-    template = template.replace('Versione v8 · 2026-10-18','Versione v4 · 19 ottobre 2026')
+    template = template.replace('Versione v8 · 2026-10-18','Versione v5 · 19 ottobre 2026')
     template = template.replace('</body>',MOTION+'</body>')
     TARGET.write_text(template)
     register_sources()

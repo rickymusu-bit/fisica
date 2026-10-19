@@ -2683,7 +2683,8 @@
         }
       ],
       "notices": [
-        "Verifica di formule e unità della calorimetria — OpenStax. <a href=\"https://openstax.org/books/college-physics/pages/14-2-temperature-change-and-heat-capacity\">Fonte scientifica</a>. College Physics, §14.2 — Temperature Change and Heat Capacity. Consultato per il controllo scientifico; nessun testo o immagine riprodotti."
+        "Verifica di formule e unità della calorimetria — OpenStax. <a href=\"https://openstax.org/books/college-physics/pages/14-2-temperature-change-and-heat-capacity\">Fonte scientifica</a>. College Physics, §14.2 — Temperature Change and Heat Capacity. Consultato per il controllo scientifico; nessun testo o immagine riprodotti.",
+        "Verifica di formule e unità della calorimetria — OpenStax. <a href=\"https://openstax.org/books/college-physics/pages/14-2-temperature-change-and-heat-capacity\">Fonte scientifica</a>. College Physics, §14.2 — Temperature Change and Heat Capacity, tabella 14.1. Vapore acqueo a 100 °C: 2020 J/(kg · K), calore specifico a pressione costante di 1 atm (valore tra parentesi nella fonte). Consultato anche per il controllo di formule e unità; nessun testo o immagine riprodotti."
       ],
       "metadata_sources": [
         "energia_interna_calore_specifico_it.html"
@@ -3403,6 +3404,14 @@
       "anchor": "energia-interna-calore-specifico-it",
       "credits": [
         {
+          "resource": "credit-57af5945ae456e8f",
+          "notice": 0
+        },
+        {
+          "resource": "credit-5d1d35c0d78f5ed9",
+          "notice": 0
+        },
+        {
           "resource": "credit-5737176d29a7ac61",
           "notice": 0
         },
@@ -3412,18 +3421,10 @@
         },
         {
           "resource": "credit-2a694b508c025566",
-          "notice": 0
+          "notice": 1
         },
         {
           "resource": "credit-grafico-calore-temperatura",
-          "notice": 0
-        },
-        {
-          "resource": "credit-57af5945ae456e8f",
-          "notice": 0
-        },
-        {
-          "resource": "credit-5d1d35c0d78f5ed9",
           "notice": 0
         },
         {
