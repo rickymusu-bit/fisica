@@ -1,6 +1,6 @@
 # Stato — La dilatazione termica
 
-Versione v1 — 19 ottobre 2026 (Europe/Rome).
+Versione v2 — 19 ottobre 2026 (Europe/Rome).
 
 ## Identità e fase
 
@@ -18,26 +18,28 @@ Applicare: capitolo monografico e italiano; apertura concreta; formule motivate 
 
 Tema comune già approvato: riferimenti/TEMA_DISPENSE.html, corrente v10 secondo AGENTS.md. Da leggere integralmente e riusare nella fase di impaginazione; nessuna nuova scelta del tema da chiedere.
 
-## Argomento e confini proposti
+## Argomento e confini
 
-Dilatazione e contrazione, interpretazione microscopica qualitativa, legge lineare e legge volumica di solidi e liquidi. Dettagli in [visuali.md](visuali.md). Nessuna estensione ad altri capitoli; nessun esercizio svolto, applicazione separata, video o simulazione avviati.
+Richiesta successiva dell'utente: «Vorrei più che altro parlare delle varie applicazioni e conseguenze della dilatazione termica a livello tecnologico e quotidiano. E poi parlare della comportamento anomalo dell'acqua».
 
-Domanda iniziale proposta: «Perché nei ponti si lasciano spazi tra alcune parti?».
+Direzione esplicitamente richiesta: dare prevalenza alle applicazioni e conseguenze; includere l'anomalia dell'acqua. Breve teoria su dilatazione lineare e volumica; acqua liquida con densità massima intorno a 4 °C, distinta dall'espansione al congelamento. Nessuna trattazione delle leggi dei gas, del calore latente o degli sforzi quantitativi.
+
+Proposta applicativa v2: giunti dei ponti, termometro a liquido, termostato bimetallico, coperchio metallico, lago in inverno e danni da congelamento. Questi casi specifici sono da concordare, non vengono attribuiti come scelte già approvate.
 
 ## Visuali e simulazioni
 
-[Proposta v1](visuali.md): COP-01 ponte; FIG-01 giunto distinto dalla copertina; FIG-02 apparato per la dilatazione lineare; FIG-03 recipiente con tubicino per osservare il volume. Tutte da concordare; nessun file ricevuto o scelta approvata. Nessun materiale generato o cercato sul web. Nessuna simulazione richiesta, programmata o approvata; nessuna stima di simulazione necessaria nella proposta attuale.
+[Proposta v2](visuali.md): copertina esclusiva e sei immagini pertinenti ai casi proposti; grafico del volume dell'acqua con minimo vicino a 4 °C da concordare e documentare. Ritirata la richiesta iniziale degli apparati di laboratorio. Nessun file ricevuto o scelto; nessuna immagine cercata, generata o elaborata. Nessuna simulazione richiesta o programmata.
 
 ## Bozza e approvazioni effettive
 
-Bozza testuale non ancora redatta: B1.1 richiede prima l'accordo sulle visuali. Nessun file vuoto creato. Approvati l'argomento e la sua posizione nel percorso; sviluppo, visuali, testo, realizzazione HTML e pubblicazione non risultano approvati. La richiesta corrente avvia il lavoro e non viene registrata come approvazione di proposte non ancora presentate.
+L'utente ha definito l'orientamento applicativo e richiesto l'acqua anomala. Non ha ancora scelto i casi specifici o le immagini. Bozza testuale non ancora redatta in attesa dell'accordo sulle visuali secondo B1.1; nessun file vuoto creato. Nessuna approvazione del testo, via all'HTML o autorizzazione alla pubblicazione dedotti.
 
 ## Lavoro completato e verifiche
 
 Identificato il piano pertinente e verificata l'assenza di una lavorazione preesistente della dilatazione nell'albero di main. Letti master e riferimenti pertinenti; preparata la proposta testuale delle visuali e dei confini scientifici. Controllati simboli, relazioni, distinzione fra dilatazione reale e apparente del liquido e coerenza dei collegamenti relativi. Nessuna build necessaria per questi soli documenti editoriali; nessuna verifica HTML dichiarata.
 
-Il clone HTTPS locale è fallito per indisponibilità del proxy; letture e salvataggi proseguono con il connettore GitHub ufficiale, nella medesima destinazione. Verificare il salvataggio remoto dei due file prima di consegnare i collegamenti.
+Aggiornata la proposta sulla base della nuova richiesta. Controllate la distinzione fra acqua liquida 0–4 °C e congelamento, l'interpretazione della densità e le condizioni del caso del lago; mantenute formule e notazione pertinenti. Verificare il salvataggio remoto dei due documenti aggiornati prima della consegna.
 
 ## Punti aperti e prossima operazione
 
-Presentare la proposta, chiedere se l'impostazione va bene e richiedere i file o i collegamenti delle quattro immagini. Dopo l'accordo, preparare la bozza completa nel file stabile bozza.md. Raccogliere l'approvazione del testo, poi presentare la stima totale ripartita (materiali, impaginazione, controlli e salvataggio) e attendere il via esplicito all'HTML. Nessuna attesa di materiali va inclusa come tempo di lavoro.
+Concordare i casi specifici della proposta v2 e ricevere i file o collegamenti delle immagini, compresa una copertina distinta. Per il grafico dell'acqua concordare il materiale o i dati di partenza. Preparare quindi bozza.md, raccogliere approvazione del testo e presentare stima ripartita e richiesta di via all'HTML. Nessuna attesa di materiali va inclusa come tempo di lavoro.
