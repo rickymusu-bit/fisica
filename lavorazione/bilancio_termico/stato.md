@@ -1,10 +1,10 @@
 # Stato — Il bilancio termico
 
-Versione v9 · 19 ottobre 2026, ore 22:10 (Europe/Rome).
+Versione v10 · 19 ottobre 2026, ore 22:16 (Europe/Rome).
 
 ## Risultato corrente
 
-**HTML autonomo v1 completato e verificato**, dopo il via «Ok vai». File ufficiale proposto: `bilancio_termico_it.html`; copia identica in [bozza.html](bozza.html). Tema canonico v9, master v63. Ramo `termodinamica/bilancio-termico`, allineato a main per riutilizzare il tema corrente; main non modificato e pubblicazione non autorizzata.
+**HTML autonomo v2 completato e verificato**, dopo il via «Ok vai». File ufficiale proposto: `bilancio_termico_it.html`; copia identica in [bozza.html](bozza.html). Tema canonico v9, master v63. Ramo `termodinamica/bilancio-termico`, allineato a main per riutilizzare il tema corrente; main non modificato e pubblicazione non autorizzata.
 
 Articolo 4 del [percorso introduttivo](../percorso_termodinamica.md): energia ceduta e assorbita, convenzione dei segni, temperatura finale ed eventuale contributo della tazza. Esclusi cambiamenti di stato, calore latente, dilatazione e nuovi meccanismi di trasmissione. Caffè e latte con calori specifici approssimati a quello dell’acqua, come richiesto dall’utente.
 
@@ -30,12 +30,14 @@ Tema riutilizzato senza modificare CSS, font, logo o script comuni. Formule auto
 
 ## Visuali, crediti e integrità
 
-[visuali.md](visuali.md) registra le scelte. Quattro originali correnti incorporati senza trasformazioni:
+[visuali.md](visuali.md) registra le scelte. Cinque originali correnti incorporati senza trasformazioni:
 
 - COP-01: Boucher, Le Déjeuner, 1739, Louvre RF 926; `copertina-boucher.jpg`, 1576 × 1942 px, 282712 byte. Fonte Commons, pubblico dominio PD-Art / Public Domain Mark 1.0. Conservato avviso sul distinto copyright GNU FDL della compilazione The Yorck Project.
 - FIG-03: versamento, Burst secondo NegativeSpace, versione Rawpixel; `versamento-rawpixel.jpg`, 1024 × 683 px, 177074 byte, CC0. XMP originale conservato.
-- FIG-01: caffè, Julius Schorzman; `caffe.jpg`, 960 × 720 px, 109150 byte, CC BY-SA 2.0. Avviso originale dell’autore conservato. Riuso interno per spiegare la tazza.
+- FIG-01: caffè, Julius Schorzman; `caffe.jpg`, 960 × 720 px, 109150 byte, CC BY-SA 2.0. Avviso originale dell’autore conservato. La successiva figura FIG-04 illustra la tazza nella sezione sul recipiente.
 - FIG-02: latte, NIAID; `latte.jpg`, 960 × 962 px, 137980 byte, CC BY 2.0. Documentata revisione Commons già ritagliata; nessun nuovo ritaglio.
+
+- FIG-04: tazza vuota Black Velvet con piattino, Andy Mabbett (Pigsonthewing); `tazza-black-velvet.jpg`, 1920 × 1920 px, 427290 byte, CC BY-SA 4.0. Sostituisce il riuso di FIG-01 nella sezione sul calore scambiato dal recipiente.
 
 Le copertine e il versamento precedenti restano come originali storici in risorse/, esclusi dagli utilizzi correnti. Font Lexend e OFL incorporati. Registro unico `risorse/crediti.json`, snapshot offline e pagina generale sincronizzati; nessun credito nel testo o nelle didascalie. Schede riusate per fonte; avvisi particolari conservati. Nessuna risorsa del nuovo articolo senza associazione.
 
@@ -49,12 +51,12 @@ Dati dichiarati di modello: caffè 100 g a 80 °C e latte 50 g a 20 °C, calori 
 
 - Generatore riproducibile [realizza.py](realizza.py); poi `scripts/credits.py --sync` e `--check`.
 - [verifica.py](verifica.py): correttezza del modello su 301 campioni, energia costante entro 7,3 · 10⁻¹² J, curve monotone e senza incroci. Valori iniziali coerenti e capacità termiche rispettate.
-- Confronto byte per byte di CSS e script canonici e SHA-256 delle quattro immagini incorporate; ID univoci, ancore risolte, nessun segnaposto o dipendenza esterna.
+- Confronto byte per byte di CSS e script canonici e SHA-256 delle cinque immagini incorporate; ID univoci, ancore risolte, nessun segnaposto o dipendenza esterna.
 - Chromium offline a 1280 e 390 px: font, immagini, indice, Esc e focus, note con ritorni, crediti incorporati, pausa/ripresa del logo, movimento ridotto e ingrandimento/scorrimento del grafico. Nessun errore JavaScript, richiesta di rete o overflow della pagina e delle formule.
 - Controllati indice, crediti e ingrandimento anche senza JavaScript. Ispezionate visivamente copertina, grafico finale e formula della temperatura di equilibrio su desktop/mobile.
 - Build Pages e `git diff --check` superati. Manifest e catalogo invariati: il nuovo articolo non entra in `_site/`. Sorgenti esclusi invariati.
 
-Report: [verifiche-finali.json](verifiche-finali.json) e [verifiche-browser.json](verifiche-browser.json). Anteprime desktop/mobile nella stessa cartella, incluse copertina, grafico, formula e versamento. HTML autonomo circa 2,19 MB, sotto il limite di 20 MB.
+Report: [verifiche-finali.json](verifiche-finali.json) e [verifiche-browser.json](verifiche-browser.json). Anteprime desktop/mobile nella stessa cartella, incluse copertina, grafico, formula e versamento. HTML autonomo circa 2,61 MB, sotto il limite di 20 MB.
 
 ## Prossimo passo
 
@@ -63,3 +65,9 @@ Consegnare HTML interattivo e anteprime per la revisione del risultato. Salvare 
 ## Salvataggio e consegna verificati
 
 Realizzazione salvata nel commit ad1029b7da18c44b7a1ddf61bb9b74452746e564 e caricata sul ramo ufficiale dedicato. Verificati via download remoto SHA-256 dell’HTML, anteprima del grafico desktop e report finale: identici alle copie locali. PR in bozza [#42](https://github.com/rickymusu-bit/fisica/pull/42), senza integrazione in main né pubblicazione. HTML v1: 2188177 byte; copia bozza.html identica. Consegna: HTML autonomo interattivo, anteprime desktop/mobile e PR per revisione. Prossimo passo effettivo: eventuali correzioni al risultato o autorizzazione esplicita a pubblicare.
+
+## Revisione HTML v2 — foto della tazza
+
+Richiesta esplicita: «Metti questa quando parli del calore assorbito dalla tazza», con il collegamento alla foto Hostess Tableware Black Velvet di Andy Mabbett. Sostituita esclusivamente l’immagine nella sezione Anche la tazza partecipa, assegnando FIG-04; la foto del caffè all’apertura resta FIG-01. Copertina, testo didattico, formule, domande e grafico invariati, verificati con confronto del testo dell’articolo e SHA-256 del grafico. Bozza di testo v6 aggiornata soltanto nel segnaposto e nei crediti di servizio; HTML v2 e copia di lavorazione identici.
+
+Originale scelto scaricato, osservato e incorporato integralmente senza ritagli, conversione o ricampionamento. Fonte e CC BY-SA 4.0 verificate su Commons; documentata la revisione Commons già ritagliata dall’autore. Nuova risorsa nel registro unico e crediti offline. HTML corrente: 2612961 byte (2,61 MB). Anteprime della tazza a 1280/390 px in anteprima-tazza-1280.png e anteprima-tazza-390.png. Verifiche statiche, immagini, browser offline desktop/mobile e senza JavaScript superate; check crediti e build Pages superati. Nessun aggiornamento al catalogo o alla pubblicazione. Salvataggio nella stessa PR #42.

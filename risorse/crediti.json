@@ -2877,6 +2877,26 @@
       "fingerprints": [
         "asset-23898fd4bd889da3745ca6cbf18b2e54065362c09ed81cd85be2e079d348df95"
       ]
+    },
+    {
+      "id": "credit-33bd094388b36762",
+      "description": "Tazza vuota e piattino bianchi con decorazioni nere e marroni, modello Hostess Tableware Black Velvet",
+      "source": "https://commons.wikimedia.org/wiki/File:Hostess_Tableware_%27Black_Velvet%27_coffee_cup_-_2022-08-30_-_Andy_Mabbett_-_03.jpg",
+      "author": "Andy Mabbett (Pigsonthewing)",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Nessuna modifica; versione scelta incorporata integralmente.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Tazza vuota e piattino bianchi con decorazioni nere e marroni, modello Hostess Tableware Black Velvet — Andy Mabbett (Pigsonthewing). <a href=\"https://commons.wikimedia.org/wiki/File:Hostess_Tableware_%27Black_Velvet%27_coffee_cup_-_2022-08-30_-_Andy_Mabbett_-_03.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>. Modifiche: Nessuna modifica; versione scelta incorporata integralmente."
+      ],
+      "metadata_sources": [
+        "bilancio_termico_it.html"
+      ],
+      "fingerprints": [
+        "asset-2a81d3567ef595118a11dbdcee28f06a926baa3d6853f440b8f3a53d13f09cc7"
+      ]
     }
   ],
   "documents": {
@@ -3559,6 +3579,10 @@
         {
           "resource": "credit-bilancio-temperatura-tempo",
           "notice": 0
+        },
+        {
+          "resource": "credit-33bd094388b36762",
+          "notice": 0
         }
       ],
       "review": "",
@@ -4197,6 +4221,21 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-48220f391bae6883"
+        }
+      ]
+    },
+    {
+      "id": "asset-2a81d3567ef595118a11dbdcee28f06a926baa3d6853f440b8f3a53d13f09cc7",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "bilancio_termico_it.html",
+          "kind": "image/jpeg",
+          "description": "Tazza vuota e piattino bianchi con decorazioni nere e marroni, modello Hostess Tableware Black Velvet",
+          "locator": "fig-04",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-33bd094388b36762"
         }
       ]
     },
@@ -7329,15 +7368,6 @@
           "kind": "image/jpeg",
           "description": "Tazza bianca con caffè nero, piattino e cucchiaino",
           "locator": "fig-01",
-          "attribute": "src",
-          "location": null,
-          "credit_id": "credit-1552a88b686ede5c"
-        },
-        {
-          "document": "bilancio_termico_it.html",
-          "kind": "image/jpeg",
-          "description": "Tazza bianca con caffè nero, piattino e cucchiaino",
-          "locator": "fig-01-tazza",
           "attribute": "src",
           "location": null,
           "credit_id": "credit-1552a88b686ede5c"

@@ -1,6 +1,6 @@
 # Visuali — Il bilancio termico
 
-Versione v7 · 19 ottobre 2026, ore 22:08 (Europe/Rome).
+Versione v8 · 19 ottobre 2026, ore 22:15 (Europe/Rome).
 
 ## Scelte effettive
 
@@ -40,7 +40,7 @@ L’utente ha fornito sette collegamenti specifici: FIG-03 è la nuova scelta Ra
 - Licenza: CC BY-SA 2.0, https://creativecommons.org/licenses/by-sa/2.0/ .
 - Avviso originale da conservare: “NOTE: I only require attribution if you publish this photo in print or if it is used in a for-profit project.” Mantenere comunque attribuzione completa, fonte, licenza e indicazione delle modifiche.
 - Osservazione: tazza bianca con caffè nero, piattino e cucchiaino su piano scuro.
-- Uso: apertura e breve contributo della tazza, con riuso interno dello stesso file. La foto mostra il contesto del modello, non temperature o masse misurate. Non aggiungere ingrandimento per una fotografia priva di scritte didattiche.
+- Uso corrente: apertura. Nella sezione sul contributo della tazza, la successiva scelta FIG-04 sostituisce il riuso di questa foto. La foto mostra il contesto del modello, non temperature o masse misurate. Non aggiungere ingrandimento per una fotografia priva di scritte didattiche.
 
 ## FIG-02 — Bicchiere di latte
 
@@ -73,3 +73,9 @@ L’utente richiede le curve di latte e caffè. Grafico statico SVG con identica
 Modello: T_c = 60 + 20 exp(−t/60), T_l = 60 − 40 exp(−t/60), t in secondi. La differenza tende a zero senza incrocio finito; 0,100 · c · T_c + 0,050 · c · T_l costante. Il tempo caratteristico di 60 s è un parametro illustrativo, non una proprietà dedotta dalle immagini o dal solo bilancio termico. Il modello corrisponde a uno scambio con conduttanza costante; non estenderlo al raffreddamento della bevanda verso l’ambiente. Nessuna curva sperimentale inventata; nessuna simulazione da programmare.
 
 Colori aggiornati su richiesta esplicita dell’utente durante la realizzazione. Dati, modello, assi, scala e composizione invariati. Descrizione accessibile e legenda aggiornate agli stessi colori. Successiva richiesta esplicita: entrambe le curve continue; eliminato il tratteggio del latte, conservati i nomi vicino alle curve e in legenda.
+
+## FIG-04 — Tazza vuota Black Velvet
+
+Richiesta esplicita: «Metti questa quando parli del calore assorbito dalla tazza». Sostituisce esclusivamente il riuso di FIG-01 nella sezione Anche la tazza partecipa. File [risorse/tazza-black-velvet.jpg](risorse/tazza-black-velvet.jpg), 1920 × 1920 px, 427290 byte, scaricato e osservato direttamente. Tazza vuota con piattino e decorazioni nere e marroni. Nessuna temperatura o capacità termica ricavata dalla foto. Nessun ritaglio, ricampionamento o conversione.
+
+Fonte: https://commons.wikimedia.org/wiki/File:Hostess_Tableware_%27Black_Velvet%27_coffee_cup_-_2022-08-30_-_Andy_Mabbett_-_03.jpg . Autore Andy Mabbett (Pigsonthewing), data 30 agosto 2022; licenza CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/ . Versione ricevuta a 1920 px della revisione Commons già ritagliata dall’autore. Crediti nel registro unico e snapshot autonomo; nessuna fonte nella didascalia. Fotografia senza testi, nessun ingrandimento aggiunto.

@@ -42,7 +42,7 @@ def static_checks():
     assert not credits.unassociated(registry, TARGET.name)
     credits_text = doc.get_element_by_id('crediti-autonomi').text_content()
     for text in ['François Boucher', 'The Yorck Project', 'Zenodot', 'Julius Schorzman',
-                 'NOTE: I only require attribution', 'NIAID', 'Burst', 'SIL OPEN FONT LICENSE']:
+                 'NOTE: I only require attribution', 'NIAID', 'Burst', 'Andy Mabbett', 'SIL OPEN FONT LICENSE']:
         assert text in credits_text, text
     assert temperatures(0) == (80, 20)
     maximum_balance_error = 0
@@ -124,7 +124,7 @@ def browser_checks():
             page.wait_for_function('document.querySelector("[data-logo-toggle]").getAttribute("aria-pressed")==="true"')
             page.evaluate('scrollTo(0,0)')
             page.screenshot(path=str(WORK / f'anteprima-{width}.png'))
-            for selector, name in [('#gra-02', 'grafico'), ('#formula-5', 'formula'), ('#fig-03', 'versamento')]:
+            for selector, name in [('#gra-02', 'grafico'), ('#formula-5', 'formula'), ('#fig-03', 'versamento'), ('#fig-04', 'tazza')]:
                 page.locator(selector).scroll_into_view_if_needed()
                 page.locator(selector).screenshot(path=str(WORK / f'anteprima-{name}-{width}.png'))
             assert not errors and not requests, (errors, requests)

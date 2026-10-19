@@ -33,6 +33,9 @@ META = {
         'Burst (attribuzione sulla fonte NegativeSpace); versione distribuita da Rawpixel',
         'CC0 1.0', 'https://creativecommons.org/publicdomain/zero/1.0/',
         'Una mano versa latte da una lattiera nera nel caffè, su un piano di legno'),
+    'FIG-04': ('tazza-black-velvet.jpg', COMMONS + "Hostess_Tableware_%27Black_Velvet%27_coffee_cup_-_2022-08-30_-_Andy_Mabbett_-_03.jpg",
+        'Andy Mabbett (Pigsonthewing)', 'CC BY-SA 4.0', 'https://creativecommons.org/licenses/by-sa/4.0/',
+        'Tazza vuota e piattino bianchi con decorazioni nere e marroni, modello Hostess Tableware Black Velvet'),
 }
 SECTIONS = ['quanto-si-raffredda-il-caffe', 'energia-che-esce-e-che-entra',
             'temperatura-e-masse', 'anche-la-tazza-partecipa', 'domande-di-verifica']
@@ -253,7 +256,7 @@ def main():
     template = (ROOT / 'riferimenti/TEMA_DISPENSE.html').read_text()
     template = re.sub(r'<!-- MODELLO CANONICO.*?-->', '<!-- Articolo autonomo dal tema canonico v9; testo approvato e grafico richiesto. -->', template, count=1, flags=re.S)
     template = template.replace('<title>Tema grafico delle dispense — modello riutilizzabile</title>', '<title>' + TITLE + ' — Materia Oscura</title>')
-    template = template.replace('name="version" content="v9"', 'name="version" content="v1"', 1)
+    template = template.replace('name="version" content="v9"', 'name="version" content="v2"', 1)
     template = template.replace('Modello autonomo del tema grafico comune a tutti i capitoli futuri.', 'Il bilancio termico: caffè e latte, calori scambiati, temperatura di equilibrio e contributo della tazza.')
     template = template.replace('Nome dell’area tematica', 'Materia e calore').replace('Titolo dell’articolo', TITLE)
     template = template.replace('<span class="sidebar-label">Fisica</span>', '<span class="sidebar-label">Materia e calore</span>')
@@ -262,7 +265,7 @@ def main():
     template = re.sub(r'<figure class="visual cover">.*?</figure>', lambda _: cover, template, count=1, flags=re.S)
     template = re.sub(r'(<article class="article">).*?(<nav class="bottom-links")', lambda m: m[1] + '\n'.join(body) + m[2], template, count=1, flags=re.S)
     template = re.sub(r'(<details class="chapter-notes".*?<ol>).*?(</ol>)', lambda m: m[1] + ''.join(notes) + m[2], template, count=1, flags=re.S)
-    template = template.replace('Versione v9 · 19 ottobre 2026', 'Versione v1 · 19 ottobre 2026')
+    template = template.replace('Versione v9 · 19 ottobre 2026', 'Versione v2 · 19 ottobre 2026')
     # Il successivo articolo (dilatazione) non esiste ancora. Nessun link vuoto.
     navigation = ('<nav class="chapter-navigation" aria-label="Navigazione tra articoli"><a rel="prev" href="https://rickymusu-bit.github.io/fisica/energia_interna_calore_specifico_it.html"><span>← Articolo precedente</span><small>Energia interna, calore e calore specifico</small></a></nav>')
     template = template.replace('<!-- chapter-navigation:end -->', navigation + '<!-- chapter-navigation:end -->')

@@ -1,6 +1,6 @@
 {
-  "bytes": 2188177,
-  "sha256": "4450ff4fcafd62ab9dcba09bfb73d4999ed084e586533dd43e52ad99373f04bd",
+  "bytes": 2612961,
+  "sha256": "25fe9f57786c62fa4255ac4398c361e92b61bfdca3eea75ca8675e7866aae5be",
   "tema_css_script_identici": true,
   "immagini_originali": [
     {
@@ -22,6 +22,11 @@
       "file": "versamento-rawpixel.jpg",
       "bytes": 177074,
       "sha256": "32cfc7be47336739b7df3242ada8ac9db0514cf8b93cee331bba0885e377efaa"
+    },
+    {
+      "file": "tazza-black-velvet.jpg",
+      "bytes": 427290,
+      "sha256": "2a81d3567ef595118a11dbdcee28f06a926baa3d6853f440b8f3a53d13f09cc7"
     }
   ],
   "domande": 9,

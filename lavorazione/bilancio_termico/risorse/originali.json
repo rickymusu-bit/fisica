@@ -92,5 +92,19 @@
     "rights_url": "https://creativecommons.org/publicdomain/mark/1.0/",
     "source_notice": "La fonte distingue opera e riproduzione in pubblico dominio dal copyright della compilazione Yorck Project, Zenodot Verlagsgesellschaft mbH, distribuita sotto GNU FDL.",
     "changes": "Nessuna; file originale indicato dall’utente conservato integralmente."
+  },
+  {
+    "file": "tazza-black-velvet.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Hostess_Tableware_%27Black_Velvet%27_coffee_cup_-_2022-08-30_-_Andy_Mabbett_-_03.jpg/1920px-Hostess_Tableware_%27Black_Velvet%27_coffee_cup_-_2022-08-30_-_Andy_Mabbett_-_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "bytes": 427290,
+    "dimensions": [
+      1920,
+      1920
+    ],
+    "sha256": "2a81d3567ef595118a11dbdcee28f06a926baa3d6853f440b8f3a53d13f09cc7",
+    "author": "Andy Mabbett (Pigsonthewing)",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "changes": "Nessuna; versione scelta incorporata integralmente. Revisione Commons già ritagliata."
   }
 ]

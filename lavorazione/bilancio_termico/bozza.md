@@ -1,6 +1,6 @@
 # Il bilancio termico
 
-<!-- Bozza v5 · 19 ottobre 2026, ore 22:04 (Europe/Rome). Testo v4 approvato con «Ok vai»; aggiunta del grafico temperatura–tempo richiesta successivamente. -->
+<!-- Bozza v6 · 19 ottobre 2026, ore 22:15 (Europe/Rome). Testo v4 approvato con «Ok vai»; aggiunta del grafico temperatura–tempo richiesta successivamente. -->
 
 [IMMAGINE COP-01 — Scena della colazione nel dipinto Le Déjeuner di François Boucher; risorse/copertina-boucher.jpg. Solo copertina, non ripetuta nel corpo.]
 
@@ -93,7 +93,7 @@ Didascalia: Nel modello il caffè si raffredda e il latte si riscalda verso 60 �
 
 Finora abbiamo seguito soltanto le due bevande. La tazza, però, può assorbire o cedere energia a sua volta. Se inizialmente è più fredda della temperatura finale prevista dal primo modello, assorbe una parte dell’energia e abbassa la temperatura di equilibrio. Se è più calda, può invece contribuire a riscaldare la miscela.
 
-[IMMAGINE FIG-01, RIUSO INTERNO — Richiamo alla stessa fotografia della tazza di caffè, accanto alla spiegazione del recipiente. Non riutilizzare COP-01.]
+[IMMAGINE FIG-04 — Tazza vuota Hostess Tableware Black Velvet con piattino; risorse/tazza-black-velvet.jpg. Accanto alla spiegazione del calore scambiato dalla tazza.]
 
 Didascalia: Anche la tazza può scambiare energia con la bevanda; il suo contributo dipende dalla capacità termica e dalla temperatura iniziale.
 
@@ -151,3 +151,5 @@ Questa sezione conserva la provenienza per la futura integrazione nel registro u
 - L’uguaglianza approssimata dei calori specifici è l’ipotesi didattica esplicitamente richiesta dall’utente. Non vengono assegnate temperature, masse o valori sperimentali alle fotografie.
 
 - **GRA-02**: grafico originale per Materia Oscura, su richiesta dell’utente. Curve di un modello di scambio fra due corpi con flusso proporzionale alla differenza di temperatura e capacità termiche costanti; masse e temperature iniziali scelte per illustrare il modello, non misure. Formule di calcolo e controlli di bilancio nel generatore; nessuna fonte sperimentale attribuita.
+
+- **FIG-04**: *Hostess Tableware Black Velvet coffee cup* (30 agosto 2022), Andy Mabbett (Pigsonthewing); [scheda Commons](https://commons.wikimedia.org/wiki/File:Hostess_Tableware_%27Black_Velvet%27_coffee_cup_-_2022-08-30_-_Andy_Mabbett_-_03.jpg). [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Copia a 1920 px scelta dall’utente, incorporata integralmente senza modifiche. La revisione Commons di origine era già ritagliata; nessun nuovo ritaglio eseguito.
