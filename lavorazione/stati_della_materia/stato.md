@@ -122,3 +122,7 @@ Consegna delle anteprime alleggerite, in attesa della lettura dell’utente. Nes
 ## Collegamento dell’articolo Temperatura ed equilibrio termico
 
 Pubblicazione autorizzata dall’utente con «Ok pubblica». Aggiornata esclusivamente la navigazione verso il nuovo articolo; testo didattico e immagini invariati. Versione corrente: v19 · 19 ottobre 2026. Aggiornamento incluso nella PR #37.
+
+## Pubblicazione del bilancio termico
+
+L’utente autorizza «Ok, puoi pubblicare» per l’articolo 4. Aggiornata soltanto la navigazione: collegamento precedente a Il bilancio termico. Versione HTML v22; testo didattico, formule, immagini e attività invariati. Footer con trattino lungo secondo la regola del punto centrato riservato alla moltiplicazione. Aggiornamento nella PR #42.

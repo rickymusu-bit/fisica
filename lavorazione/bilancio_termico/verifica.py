@@ -61,8 +61,8 @@ def static_checks():
         previous = coffee, milk
     assert maximum_balance_error < 1e-9
     publication = json.loads((ROOT / 'pubblicazione.json').read_text())
-    assert TARGET.name not in publication['articoli']
-    assert not (ROOT / '_site' / TARGET.name).exists()
+    assert TARGET.name in publication['articoli']
+    assert (ROOT / '_site' / TARGET.name).exists()
     report = {'bytes': TARGET.stat().st_size, 'sha256': hashlib.sha256(TARGET.read_bytes()).hexdigest(),
               'tema_css_script_identici': True, 'immagini_originali': checks, 'domande': 9,
               'formule': 7, 'note': 3, 'id_univoci_ancore_risolte': True,
@@ -70,7 +70,7 @@ def static_checks():
                          'equilibrio_C': 60, 'tempo_caratteristico_s_ipotizzato': 60,
                          'campioni_verificati': 301, 'errore_massimo_bilancio_J': maximum_balance_error,
                          'monotonia_e_assenza_incroci': True, 'dati_sperimentali': False},
-              'pubblicato': False}
+              'ammesso_a_pages': True}
     (WORK / 'verifiche-finali.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
 
 

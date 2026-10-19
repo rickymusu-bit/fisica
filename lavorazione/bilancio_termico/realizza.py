@@ -265,7 +265,7 @@ def main():
     template = (ROOT / 'riferimenti/TEMA_DISPENSE.html').read_text()
     template = re.sub(r'<!-- MODELLO CANONICO.*?-->', '<!-- Articolo autonomo dal tema canonico v10; testo approvato e grafico richiesto. -->', template, count=1, flags=re.S)
     template = template.replace('<title>Tema grafico delle dispense — modello riutilizzabile</title>', '<title>' + TITLE + ' — Materia Oscura</title>')
-    template = template.replace('name="version" content="v10"', 'name="version" content="v5"', 1)
+    template = template.replace('name="version" content="v10"', 'name="version" content="v6"', 1)
     template = template.replace('Modello autonomo del tema grafico comune a tutti i capitoli futuri.', 'Il bilancio termico: caffè e latte, calori scambiati, temperatura di equilibrio e contributo della tazza.')
     template = template.replace('Nome dell’area tematica', 'Materia e calore').replace('Titolo dell’articolo', TITLE)
     template = template.replace('<span class="sidebar-label">Fisica</span>', '<span class="sidebar-label">Materia e calore</span>')
@@ -274,9 +274,9 @@ def main():
     template = re.sub(r'<figure class="visual cover">.*?</figure>', lambda _: cover, template, count=1, flags=re.S)
     template = re.sub(r'(<article class="article">).*?(<nav class="bottom-links")', lambda m: m[1] + '\n'.join(body) + m[2], template, count=1, flags=re.S)
     template = re.sub(r'(<details class="chapter-notes".*?<ol>).*?(</ol>)', lambda m: m[1] + ''.join(notes) + m[2], template, count=1, flags=re.S)
-    template = template.replace('Versione v10 — 19 ottobre 2026', 'Versione v5 — 19 ottobre 2026')
-    # Il successivo articolo (dilatazione) non esiste ancora. Nessun link vuoto.
-    navigation = ('<nav class="chapter-navigation" aria-label="Navigazione tra articoli"><a rel="prev" href="https://rickymusu-bit.github.io/fisica/energia_interna_calore_specifico_it.html"><span>← Articolo precedente</span><small>Energia interna, calore e calore specifico</small></a></nav>')
+    template = template.replace('Versione v10 — 19 ottobre 2026', 'Versione v6 — 19 ottobre 2026')
+    # Dilatazione è ancora pianificata: nella sequenza pubblicata segue Stati della materia.
+    navigation = ('<nav class="chapter-navigation" aria-label="Navigazione tra articoli"><a rel="prev" href="https://rickymusu-bit.github.io/fisica/energia_interna_calore_specifico_it.html"><span>← Articolo precedente</span><small>Energia interna, calore e calore specifico</small></a><a rel="next" href="https://rickymusu-bit.github.io/fisica/stati_della_materia.html"><span>Articolo successivo →</span><small>Stati della materia</small></a></nav>')
     template = template.replace('<!-- chapter-navigation:end -->', navigation + '<!-- chapter-navigation:end -->')
     TARGET.write_text(template)
     register_notices()

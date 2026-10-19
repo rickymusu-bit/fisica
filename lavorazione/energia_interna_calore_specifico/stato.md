@@ -227,3 +227,7 @@ Correzione pubblicata: PR #40 integrata al commit 354424cf3a4760beea8dc26557cb6f
 ## Tema v9: comando crediti unificato
 
 Richiesta approvata «Vaai» alla proposta di unificare i comandi dei crediti. Articolo v6 per la sola revisione del componente comune: un comando «Crediti e licenze» apre gli avvisi incorporati, con «Crediti di tutti gli articoli» al suo interno. Contenuto, undici valori decimali e visuali invariati. Bozza HTML allineata e controlli statici superati; browser offline a 390/1280 px e senza JavaScript verificato nel lavoro comune lavorazione/crediti_unificati, che registra anche il rilascio.
+
+## Pubblicazione del bilancio termico
+
+L’utente autorizza «Ok, puoi pubblicare» per l’articolo 4. Aggiornata soltanto la navigazione: collegamento successivo a Il bilancio termico. Versione HTML v7; testo didattico, formule, immagini e attività invariati. Footer con trattino lungo secondo la regola del punto centrato riservato alla moltiplicazione. Aggiornamento nella PR #42.

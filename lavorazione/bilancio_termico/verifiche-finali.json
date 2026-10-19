@@ -1,6 +1,6 @@
 {
-  "bytes": 2613257,
-  "sha256": "8a98b44222d46750516979e023f9b6d155003f9e947b202b09675fb1735768e0",
+  "bytes": 2613416,
+  "sha256": "bba4ecfa8c8d9b81df772c56273fafd2e46cbe7895a8a962ce38987e55da8288",
   "tema_css_script_identici": true,
   "immagini_originali": [
     {
@@ -49,5 +49,5 @@
     "monotonia_e_assenza_incroci": true,
     "dati_sperimentali": false
   },
-  "pubblicato": false
+  "ammesso_a_pages": true
 }

@@ -1,10 +1,10 @@
 # Stato — Il bilancio termico
 
-Versione v13 — 19 ottobre 2026, ore 22:33 (Europe/Rome).
+Versione v14 — 19 ottobre 2026, ore 22:38 (Europe/Rome).
 
 ## Risultato corrente
 
-**HTML autonomo v5 completato e verificato**, dopo il via «Ok vai». File ufficiale proposto: `bilancio_termico_it.html`; copia identica in [bozza.html](bozza.html). Tema canonico v10, master v64. Ramo `termodinamica/bilancio-termico`, allineato a main per riutilizzare il tema corrente; main non modificato e pubblicazione non autorizzata.
+**HTML autonomo v6 completato e verificato**, dopo il via «Ok vai». File ufficiale proposto: `bilancio_termico_it.html`; copia identica in [bozza.html](bozza.html). Tema canonico v10, master v64. Ramo `termodinamica/bilancio-termico`, allineato a main per riutilizzare il tema corrente; main non modificato e pubblicazione non autorizzata.
 
 Articolo 4 del [percorso introduttivo](../percorso_termodinamica.md): energia ceduta e assorbita, convenzione dei segni, temperatura finale ed eventuale contributo della tazza. Esclusi cambiamenti di stato, calore latente, dilatazione e nuovi meccanismi di trasmissione. Caffè e latte con calori specifici approssimati a quello dell’acqua, come richiesto dall’utente.
 
@@ -93,3 +93,11 @@ Articolo v5: nei tre testi del grafico i separatori sono sostituiti da punti e p
 Modello canonico aggiornato a v10 negli stessi testi del footer e del titolo accessibile del logo, senza modificare CSS, font, disegno o comandi. Terminologia, istruzioni dei crediti, sorgente SVG del logo e suo generatore allineati per evitare ricomparse del separatore. Registro e snapshot aggiornati per le nuove impronte dei soli asset interessati. Nessuna modifica ai sorgenti HTML precedenti o sospesi, al catalogo o al manifest; pubblicazione ancora non autorizzata.
 
 Verifiche pertinenti: assenza di simboli puntiformi nei testi del grafico e nel footer, moltiplicazioni inalterate, confronto del tema, anteprime desktop/mobile e browser offline. Salvataggio nella stessa PR #42.
+
+## Pubblicazione autorizzata
+
+Richiesta esplicita «Ok, puoi pubblicare»: autorizzati integrazione in main, catalogo, manifest, navigazione e rilascio Pages. L’autorizzazione supera i precedenti punti che indicavano la pubblicazione in attesa. HTML v6: contenuto didattico e grafico della v5 invariati; aggiunto soltanto il collegamento successivo a Stati della materia, in attesa del futuro capitolo sulla dilatazione.
+
+Catalogo home v24 e manifest v8: nove articoli, bilancio termico al quarto posto dopo Energia interna e prima di Stati della materia. Collegamenti reciproci aggiornati: energia interna v7 → bilancio v6 → stati v22. Copie di lavorazione e generatore dell’articolo precedente allineati. Testi didattici degli articoli coinvolti confrontati e invariati. Sorgenti esclusi e indirizzi storici invariati. Crediti e snapshot sincronizzati; build Pages con 11 HTML italiani, inclusi home e crediti, e 20 copertine. Controlli offline desktop/mobile del nuovo articolo completati. Anteprima della sequenza di pubblicazione e verifica online da completare prima della consegna finale.
+
+Anteprima della pubblicazione completata: verifiche-pubblicazione.json conferma ordine dei nove articoli, download e percorso catalogo → bilancio → precedente/successivo a 1280/390 px. Nessun errore JavaScript o richiesta esterna nelle prove con output Pages locale. Anteprime catalogo e navigazione consegnate prima dell’integrazione. Pubblicazione tramite la PR #42 e controllo del workflow Pages e dell’URL online dopo il merge.
