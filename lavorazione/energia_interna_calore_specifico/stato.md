@@ -1,6 +1,6 @@
 # Stato — Energia interna, calore e calore specifico
 
-Versione v22 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
+Versione v23 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
 
 ## Ambito e punto di partenza
 
@@ -223,3 +223,7 @@ L’utente vede ancora la notazione scientifica e la lista degli articoli aperta
 Individuata apertura automatica da hash #indice/#materia nello script della home: rimossa. Pannello chiuso all’ingresso e su pageshow, anche con ritorno dalla cronologia; apertura soltanto dai comandi espliciti. Home v22; articolo v5 invariato. Build e crediti superati. Chromium a 1280/390 px: ingresso normale/con hash e ritorno Indietro chiusi, apertura manuale, chiusura X/Esc, collegamento v5 e undici valori decimali verificati, nessun errore JS o overflow. Report verifiche-home-cache.json e anteprime home chiusa. Aggiornamento pubblico in corso.
 
 Correzione pubblicata: PR #40 integrata al commit 354424cf3a4760beea8dc26557cb6f6329fda670, workflow 39308141252 riuscito. Alle 19:07 UTC home canonica e ?v=22 HTTP 200, identiche ai byte della build provata in browser; articolo ?v=5 HTTP 200, identico alla versione decimale verificata. Report verifiche-home-cache-pubblico.json. Browser pubblico diretto limitato dalla fiducia CA del browser; HTTPS verificato con trust di sistema e interazioni provate localmente sull’identico HTML, senza disabilitare la verifica TLS. Consegnare link home ?v=22 e articolo ?v=5 per richiamare subito le revisioni correnti. Segnalazione risolta; nessuna modifica del contenuto dell’articolo o dei sorgenti esclusi.
+
+## Tema v9: comando crediti unificato
+
+Richiesta approvata «Vaai» alla proposta di unificare i comandi dei crediti. Articolo v6 per la sola revisione del componente comune: un comando «Crediti e licenze» apre gli avvisi incorporati, con «Crediti di tutti gli articoli» al suo interno. Contenuto, undici valori decimali e visuali invariati. Bozza HTML allineata e controlli statici superati; browser offline a 390/1280 px e senza JavaScript verificato nel lavoro comune lavorazione/crediti_unificati, che registra anche il rilascio.

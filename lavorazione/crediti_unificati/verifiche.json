@@ -1,0 +1,186 @@
+{
+  "documenti": [
+    {
+      "nome": "index.html",
+      "comando_unico": true,
+      "avvisi_e_font_integrali": true,
+      "contenuto_e_immagini_invariati": true
+    },
+    {
+      "nome": "termodinamica_sistemi_it.html",
+      "comando_unico": true,
+      "avvisi_e_font_integrali": true,
+      "contenuto_e_immagini_invariati": true
+    },
+    {
+      "nome": "temperatura_equilibrio_termico_it.html",
+      "comando_unico": true,
+      "avvisi_e_font_integrali": true,
+      "contenuto_e_immagini_invariati": true
+    },
+    {
+      "nome": "energia_interna_calore_specifico_it.html",
+      "comando_unico": true,
+      "avvisi_e_font_integrali": true,
+      "contenuto_e_immagini_invariati": true
+    },
+    {
+      "nome": "stati_della_materia.html",
+      "comando_unico": true,
+      "avvisi_e_font_integrali": true,
+      "contenuto_e_immagini_invariati": true
+    },
+    {
+      "nome": "passaggi_di_stato.html",
+      "comando_unico": true,
+      "avvisi_e_font_integrali": true,
+      "contenuto_e_immagini_invariati": true
+    },
+    {
+      "nome": "conduzione_it.html",
+      "comando_unico": true,
+      "avvisi_e_font_integrali": true,
+      "contenuto_e_immagini_invariati": true
+    },
+    {
+      "nome": "convezione_it.html",
+      "comando_unico": true,
+      "avvisi_e_font_integrali": true,
+      "contenuto_e_immagini_invariati": true
+    },
+    {
+      "nome": "irraggiamento_it.html",
+      "comando_unico": true,
+      "avvisi_e_font_integrali": true,
+      "contenuto_e_immagini_invariati": true
+    },
+    {
+      "nome": "riferimenti/TEMA_DISPENSE.html",
+      "comando_unico": true,
+      "avvisi_e_font_integrali": true,
+      "contenuto_e_immagini_invariati": true
+    }
+  ],
+  "browser": [
+    {
+      "documento": "index.html",
+      "larghezza": 390,
+      "html_in_memoria_offline": true,
+      "comando_unico": true,
+      "apertura_chiusura_focus": true,
+      "errori_js": [],
+      "richieste_esterne": []
+    },
+    {
+      "documento": "termodinamica_sistemi_it.html",
+      "larghezza": 390,
+      "html_in_memoria_offline": true,
+      "comando_unico": true,
+      "apertura_chiusura_focus": true,
+      "errori_js": [],
+      "richieste_esterne": []
+    },
+    {
+      "documento": "temperatura_equilibrio_termico_it.html",
+      "larghezza": 390,
+      "html_in_memoria_offline": true,
+      "comando_unico": true,
+      "apertura_chiusura_focus": true,
+      "errori_js": [],
+      "richieste_esterne": []
+    },
+    {
+      "documento": "energia_interna_calore_specifico_it.html",
+      "larghezza": 390,
+      "html_in_memoria_offline": true,
+      "comando_unico": true,
+      "apertura_chiusura_focus": true,
+      "errori_js": [],
+      "richieste_esterne": []
+    },
+    {
+      "documento": "stati_della_materia.html",
+      "larghezza": 390,
+      "html_in_memoria_offline": true,
+      "comando_unico": true,
+      "apertura_chiusura_focus": true,
+      "errori_js": [],
+      "richieste_esterne": []
+    },
+    {
+      "documento": "passaggi_di_stato.html",
+      "larghezza": 390,
+      "html_in_memoria_offline": true,
+      "comando_unico": true,
+      "apertura_chiusura_focus": true,
+      "errori_js": [],
+      "richieste_esterne": []
+    },
+    {
+      "documento": "conduzione_it.html",
+      "larghezza": 390,
+      "html_in_memoria_offline": true,
+      "comando_unico": true,
+      "apertura_chiusura_focus": true,
+      "errori_js": [],
+      "richieste_esterne": []
+    },
+    {
+      "documento": "convezione_it.html",
+      "larghezza": 390,
+      "html_in_memoria_offline": true,
+      "comando_unico": true,
+      "apertura_chiusura_focus": true,
+      "errori_js": [],
+      "richieste_esterne": []
+    },
+    {
+      "documento": "irraggiamento_it.html",
+      "larghezza": 390,
+      "html_in_memoria_offline": true,
+      "comando_unico": true,
+      "apertura_chiusura_focus": true,
+      "errori_js": [],
+      "richieste_esterne": []
+    },
+    {
+      "documento": "index.html",
+      "larghezza": 1280,
+      "html_in_memoria_offline": true,
+      "comando_unico": true,
+      "apertura_chiusura_focus": true,
+      "errori_js": [],
+      "richieste_esterne": []
+    },
+    {
+      "documento": "energia_interna_calore_specifico_it.html",
+      "larghezza": 1280,
+      "html_in_memoria_offline": true,
+      "comando_unico": true,
+      "apertura_chiusura_focus": true,
+      "errori_js": [],
+      "richieste_esterne": []
+    }
+  ],
+  "non_pubblicati_invariati": [
+    "bilancio_conservazione_rendimento_it.html",
+    "grafici_piano_cartesiano_fr.html",
+    "grafici_piano_cartesiano_it.html",
+    "grafici_piano_cartesiano_sq.html",
+    "lavoro_energie_potenza_it.html",
+    "metodo_scientifico_fr.html",
+    "metodo_scientifico_it.html",
+    "metodo_scientifico_sq.html",
+    "potenza_termica_conduzione_convezione_it.html",
+    "sistema_internazionale_notazione_fr.html",
+    "sistema_internazionale_notazione_it.html",
+    "sistema_internazionale_notazione_sq.html",
+    "strumenti_errori_incertezza_fr.html",
+    "strumenti_errori_incertezza_it.html",
+    "strumenti_errori_incertezza_sq.html"
+  ],
+  "senza_javascript_offline": [
+    "index.html",
+    "energia_interna_calore_specifico_it.html"
+  ]
+}
