@@ -1,6 +1,6 @@
 # Visuali — La dilatazione termica
 
-Versione v7 — 19 ottobre 2026 (Europe/Rome).
+Versione v8 — 19 ottobre 2026 (Europe/Rome).
 
 ## Direzione concordata e proposta aggiornata
 
@@ -52,7 +52,7 @@ Una fotografia di lago ghiacciato non sostituisce una sezione utile a vedere le 
 
 Nessun materiale scelto o ricevuto, nessuna nuova licenza verificata, nessuna nuova voce inserita nel registro unico. Le fotografie storiche di termometri già presenti nel repository non sono automaticamente idonee al termometro a liquido proposto.
 
-Bozza v5 ora salvata in [bozza.md](bozza.md), con i casi concordati, didascalie proposte, segnaposto e 11 domande finali. Prossimo passo: ricevere i materiali scelti e raccogliere eventuali correzioni o l'approvazione della bozza. Le fonti scientifiche per curva dell'acqua, densità e dati quantitativi andranno verificate e conservate nei crediti di servizio della bozza, poi nel registro unico. Nessun dato numerico specifico oltre alle temperature caratteristiche è stato introdotto in questa proposta.
+Bozza v6 ora salvata in [bozza.md](bozza.md), con i casi concordati, didascalie proposte, segnaposto e 13 domande finali. Prossimo passo: ricevere i materiali scelti e raccogliere eventuali correzioni o l'approvazione della bozza. Le fonti scientifiche per curva dell'acqua, densità e dati quantitativi andranno verificate e conservate nei crediti di servizio della bozza, poi nel registro unico. Nessun dato numerico specifico oltre alle temperature caratteristiche è stato introdotto in questa proposta.
 
 L'HTML richiede successivamente approvazione della bozza, stima ripartita e via esplicito secondo B1.1. Main e pubblicazione restano fuori da questa revisione editoriale.
 
@@ -63,3 +63,9 @@ L'utente richiede: «Nelle applicazioni non parlare di nuovo del ponte, parla se
 ## TAB-01 — Coefficienti di dilatazione lineare
 
 Precisazione dell'utente: «No intendo dei coefficienti di dilatazione». Questa indicazione sostituisce la tabella degli allungamenti. Bozza v5: tabella con sole colonne Materiale e α (K⁻¹), per alluminio 2,5 · 10⁻⁵; ottone 1,9 · 10⁻⁵; rame 1,7 · 10⁻⁵; acciaio 1,2 · 10⁻⁵; vetro comune 9 · 10⁻⁶; vetro Pyrex 3 · 10⁻⁶. Valori rappresentativi a 20 °C verificati sulla tabella 13.2 di OpenStax e riportati in notazione scientifica normalizzata. Spiegare l'ordine di grandezza (nell'acciaio dodici milionesimi di variazione relativa per kelvin) e il confronto alluminio/acciaio, senza nuovi esercizi o una colonna di allungamenti. Rimossi il caso 1 m, 20–40 °C e il confronto con le tacche del righello della versione precedente. Nessuna immagine richiesta per la tabella; in HTML usare una tabella semantica con composizione invariata su mobile. Fonte nei crediti di servizio.
+
+## TAB-02 e relazione fra α e β — richiesta esplicita
+
+Bozza v6: tabella dei coefficienti volumici di quattro liquidi a 20 °C, con colonne Liquido e β (K⁻¹): alcol etilico 1,1 · 10⁻³; glicerina 5 · 10⁻⁴; acqua 2,1 · 10⁻⁴; mercurio 1,8 · 10⁻⁴. Fonte OpenStax tabella 13.2, già nei crediti di servizio. Valori in notazione scientifica normalizzata; confronto alcol/acqua circa cinque a parità di volume iniziale e piccolo ΔT, a pressione pressoché costante. Il coefficiente dell'acqua a 20 °C non si estende alla regione anomala vicino a 4 °C.
+
+Dopo TAB-02, spiegazione discorsiva di β ≈ 3 · α per lo stesso solido isotropo: contributi delle tre dimensioni, piccole dilatazioni e libertà di espansione. Non è una triplicazione del volume e non definisce α per un liquido. Nessuna nuova immagine necessaria per la relazione o la tabella; nessuno schema di oggetti o simulazione realizzato. Aggiunte due domande pertinenti, 13 in totale senza soluzioni. Richiesta circoscritta autorizzata, nessun HTML avviato.
