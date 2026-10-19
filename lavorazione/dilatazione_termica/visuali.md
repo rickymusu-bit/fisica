@@ -1,6 +1,6 @@
 # Visuali — La dilatazione termica
 
-Versione v5 — 19 ottobre 2026 (Europe/Rome).
+Versione v6 — 19 ottobre 2026 (Europe/Rome).
 
 ## Direzione concordata e proposta aggiornata
 
@@ -52,7 +52,7 @@ Una fotografia di lago ghiacciato non sostituisce una sezione utile a vedere le 
 
 Nessun materiale scelto o ricevuto, nessuna nuova licenza verificata, nessuna nuova voce inserita nel registro unico. Le fotografie storiche di termometri già presenti nel repository non sono automaticamente idonee al termometro a liquido proposto.
 
-Bozza v3 ora salvata in [bozza.md](bozza.md), con i casi concordati, didascalie proposte, segnaposto e 11 domande finali. Prossimo passo: ricevere i materiali scelti e raccogliere eventuali correzioni o l'approvazione della bozza. Le fonti scientifiche per curva dell'acqua, densità e dati quantitativi andranno verificate e conservate nei crediti di servizio della bozza, poi nel registro unico. Nessun dato numerico specifico oltre alle temperature caratteristiche è stato introdotto in questa proposta.
+Bozza v4 ora salvata in [bozza.md](bozza.md), con i casi concordati, didascalie proposte, segnaposto e 11 domande finali. Prossimo passo: ricevere i materiali scelti e raccogliere eventuali correzioni o l'approvazione della bozza. Le fonti scientifiche per curva dell'acqua, densità e dati quantitativi andranno verificate e conservate nei crediti di servizio della bozza, poi nel registro unico. Nessun dato numerico specifico oltre alle temperature caratteristiche è stato introdotto in questa proposta.
 
 L'HTML richiede successivamente approvazione della bozza, stima ripartita e via esplicito secondo B1.1. Main e pubblicazione restano fuori da questa revisione editoriale.
 
@@ -60,6 +60,6 @@ L'HTML richiede successivamente approvazione della bozza, stima ripartita e via 
 
 L'utente richiede: «Nelle applicazioni non parlare di nuovo del ponte, parla semmai dei binari della ferrovia». Sostituzione autorizzata e applicata alla bozza v2, alla domanda 3 e alla richiesta dell'immagine FIG-07. FIG-01 resta esclusivamente nella teoria; nessuna foto ferroviaria cercata o selezionata. Gli altri casi restano approvati.
 
-## TAB-01 — Quanto è piccola la dilatazione
+## TAB-01 — Coefficienti di dilatazione lineare
 
-Aggiunta su richiesta esplicita dell'utente una tabella numerica nella teoria, subito dopo l'interpretazione della legge lineare: quattro materiali (acciaio, rame, alluminio e vetro comune), stessa lunghezza iniziale 1 m, riscaldamento 20–40 °C, ΔT = 20 K, campioni liberi di dilatarsi. Coefficienti rappresentativi dalla tabella 13.2 di OpenStax, fonte già nei crediti di servizio. Allungamenti calcolati: 0,24 mm, 0,34 mm, 0,50 mm e 0,18 mm. Dati di modello, non risultati sperimentali. Confronti con la distanza di 1 mm tra tacche di un righello e con la lunghezza iniziale; alluminio 0,05%. Nessuna nuova immagine necessaria per la tabella di dati. Nella fase HTML usare tabella semantica e preservare la stessa struttura su mobile. Bozza v3; modifica circoscritta autorizzata, nessun HTML realizzato.
+Precisazione dell'utente: «No intendo dei coefficienti di dilatazione». Questa indicazione sostituisce la tabella degli allungamenti. Bozza v4: tabella con sole colonne Materiale e α (K⁻¹), per alluminio 0,000025; ottone 0,000019; rame 0,000017; acciaio 0,000012; vetro comune 0,000009; vetro Pyrex 0,000003. Valori rappresentativi a 20 °C verificati sulla tabella 13.2 di OpenStax e riportati in forma decimale. Spiegare l'ordine di grandezza (nell'acciaio dodici milionesimi di variazione relativa per kelvin) e il confronto alluminio/acciaio, senza nuovi esercizi o una colonna di allungamenti. Rimossi il caso 1 m, 20–40 °C e il confronto con le tacche del righello della versione precedente. Nessuna immagine richiesta per la tabella; in HTML usare una tabella semantica con composizione invariata su mobile. Fonte nei crediti di servizio.
