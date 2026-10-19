@@ -1,6 +1,6 @@
 # Energia interna, calore e calore specifico
 
-Versione v4 · 19 ottobre 2026 (Europe/Rome).
+Versione v5 · 19 ottobre 2026 (Europe/Rome).
 Bozza testuale per revisione; i segnaposto indicano le visuali da inserire nell’HTML dopo la scelta dei file.
 
 [COP-01 — Copertina scelta: sputafuoco. File: risorse/copertina-sputafuoco.jpg. Conservare integralmente composizione e proporzioni.]
@@ -25,9 +25,9 @@ Anche quando l’acqua sembra ferma, le sue molecole sono in continuo movimento.
 
 L’insieme di queste energie microscopiche costituisce l’**energia interna**, indicata con \(U\) e misurata in joule, simbolo J. La parola “interna” ci aiuta a distinguerla dall’energia associata al movimento del corpo nel suo insieme o alla sua altezza rispetto al terreno. L’acqua ha energia interna anche quando il recipiente che la contiene è fermo.
 
-[FIG-02 — GIF scelta: vibrazioni di una porzione di proteina. File: risorse/molecola-agitazione-termica.gif. Mantenere la GIF completa; usare il controllo di pausa/ripresa e il rispetto del movimento ridotto nella realizzazione.]
+[FIG-02 — GIF scelta: simulazione del movimento delle molecole d’acqua. File: risorse/acqua-movimento-molecolare.gif. Usare il file originale di Commons, 480 × 270 px, senza alterazioni; conservare tutti i 300 fotogrammi. Nella realizzazione prevedere pausa/ripresa e rispetto del movimento ridotto.]
 
-Didascalia: Il modello animato mostra le vibrazioni degli atomi in una porzione di proteina. Anche questi movimenti interni alle molecole contribuiscono all’energia interna di un materiale.
+Didascalia: Nel modello animato le molecole d’acqua si muovono e cambiano orientamento. Ogni molecola è rappresentata da un atomo di ossigeno rosso e due atomi di idrogeno bianchi.
 
 La **temperatura** descrive lo stato termico del corpo ed è collegata al moto microscopico delle particelle. Non indica però quanta energia interna possiede complessivamente il corpo: conta anche quanta materia contiene. Due quantità diverse d’acqua alla stessa temperatura hanno la stessa indicazione sul termometro, ma quella maggiore contiene più particelle e ha un’energia interna maggiore.[^1]
 
@@ -160,6 +160,6 @@ Ecco perché, dopo il tramonto, possiamo trovare ancora tiepido il mare mentre l
 
 - **COP-01 — Fire breathing 2 Luc Viatour.jpg:** Luc Viatour / [Lucnix.be](https://Lucnix.be), [fonte originale](https://commons.wikimedia.org/wiki/File:Fire_breathing_2_Luc_Viatour.jpg), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Versione 1920 px scelta dall’utente, senza ulteriori modifiche. La fonte richiede il credito vicino alla fotografia, conservato separatamente dalla didascalia.
 - **FIG-01 — Spiaggia notturna di Ko Li Pe:** Piith.hant (Piith Hant), [fonte originale](https://commons.wikimedia.org/wiki/File:1008_Beach_at_Night_with_Moon_and_Stars_in_Ko_Li_Pe_-_Tarutao_National_Park,_Satun,_Thailand.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). File originale integrale, senza modifiche.
-- **FIG-02 — Thermally Agitated Molecule.gif:** Greg L, come indicato nella scheda Commons; caricamento su Commons di Frokor, provenienza dichiarata physics.unlv.edu. [Fonte originale](https://commons.wikimedia.org/wiki/File:Thermally_Agitated_Molecule.gif), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). Versione animata 1920 px scelta dall’utente, senza ulteriori modifiche.
+- **FIG-02 — MD water.gif:** Kmckiern, [fonte originale](https://commons.wikimedia.org/wiki/File:MD_water.gif), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Simulazione del movimento delle molecole d’acqua; file originale di Commons, senza modifiche. Animazione rallentata: la durata di riproduzione non coincide con quella del fenomeno microscopico.
 
 </details>

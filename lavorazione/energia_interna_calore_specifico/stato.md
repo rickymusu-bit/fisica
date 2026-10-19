@@ -1,6 +1,6 @@
 # Stato — Energia interna, calore e calore specifico
 
-Versione v8 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
+Versione v9 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
 
 ## Ambito e punto di partenza
 
@@ -94,3 +94,13 @@ La GIF mostra una porzione di proteina, non molecole d’acqua né la rete dei l
 Bozza v4: aggiornati soltanto i tre segnaposto, le relative didascalie, il credito obbligatorio vicino alla copertina e i crediti dei materiali. Apertura sul mare, teoria, dati, formule e domande approvati conservati. Tutte le fonti scientifiche restano nei crediti. Non dedotte temperature della spiaggia dalla foto.
 
 Stima già comunicata 35–60 minuti per la realizzazione, calcolo basso, senza simulazioni: nessuna nuova richiesta della stessa stima o dell’approvazione del testo. Tutti i materiali specifici sono disponibili. Prossimo passo corrente: via esplicito all’HTML dopo la stima, previsto da B1.1–B2; poi lettura del modello comune e realizzazione con grafico, tabella, crediti dal registro unico, anteprime e verifiche. Nessuna pubblicazione autorizzata.
+
+## Sostituzione esplicita FIG-02 — bozza v5
+
+Richiesta dell’utente: «Metti questa gif al posto dell’altra», con collegamento a MD_water.gif. Sostituita nell’articolo l’animazione della proteina con quella dell’acqua, autore Kmckiern, CC BY-SA 4.0, fonte Commons verificata. Aggiornati segnaposto, didascalia e crediti in bozza v5; apertura, teoria, tabella, formule e otto domande approvati invariati. Nessuna nuova approvazione della scelta richiesta.
+
+Il collegamento a 1920 px restituisce una copia ingrandita da 69298768 byte, superiore da sola al limite HTML di 20 MB. Recuperato il file originale della stessa animazione da Commons: 480 × 270 px, 6159492 byte, 300 fotogrammi, ciclo 12000 ms. Nessuna elaborazione/ricompressione del file. La fonte descrive 100 ps simulati: non confondere tempo fisico e durata di riproduzione. Vista la stessa animazione nei fotogrammi 0/100/200; controllata decodifica completa di tutti i fotogrammi. Dettagli e hash in risorse/verifica-originali.json.
+
+La copia ingrandita resta temporaneamente nell’ambiente; non caricata nel repository. Il precedente originale della proteina è conservato, esplicitamente segnato non più usato. I file attivi delle tre immagini pesano complessivamente 14436688 byte: la futura incorporazione base64 e il tema richiedono misura del peso finale, senza presumere conclusa la verifica del limite. Non ottimizzati altri materiali senza autorizzazione.
+
+Nessun HTML realizzato o pubblicazione avviata: resta il via esplicito all’HTML dopo la stima già comunicata. La richiesta corrente autorizza questa sostituzione circoscritta.
