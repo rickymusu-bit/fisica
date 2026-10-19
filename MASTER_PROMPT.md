@@ -1,6 +1,6 @@
 # PROMPT MASTER — DISPENSE VISUALI DI FISICA PER IL BIENNIO DEGLI ISTITUTI TECNICI
 
-VERSIONE DEL PROMPT: v60 — 18/10/2026, ore 23:02 (Europe/Rome)
+VERSIONE DEL PROMPT: v61 — 19/10/2026, ore 14:08 (Europe/Rome)
 
 Questo master raccoglie le regole della dispensa e la procedura per realizzarla con il minor lavoro ripetuto possibile. Le istruzioni relative a immagini, video, traduzioni e simulazioni si applicano quando quei materiali fanno parte della richiesta. Non aggiungere contenuti o lavorazioni solo perché il master ne descrive la gestione.
 
@@ -195,7 +195,7 @@ Verifica la licenza sulla fonte originale, preferendo pubblico dominio o CC0 qua
 
 Ogni nuovo articolo registra automaticamente le risorse mediante `python3 scripts/credits.py --sync`. I metadati disponibili si specificano con `data-credit-source`, `data-credit-author`, `data-credit-license`, `data-credit-license-url` e `data-credit-changes` sulla risorsa o sulla figura; `data-credit-id` riusa una scheda esistente. Lo strumento inventaria anche i materiali privi di metadati, senza dedurne i diritti, e li segnala per verifica. Eseguire `--check` prima della consegna; la build Pages rifiuta registri, pagina o snapshot non aggiornati. Non compilare ripetutamente gli stessi dati nel codice e nella pagina generata.
 
-I crediti obbligatori devono restare accessibili e associati alle risorse. Mantieni il rimando discreto comune «Crediti e licenze» e il componente incorporato del tema «Crediti della copia autonoma», consultabile anche offline e senza JavaScript. Questo snapshot è generato dallo stesso registro e non è una sezione finale automaticamente visibile. Le eccezioni delle singole licenze prevalgono sulla regola grafica: conserva vicino all’immagine qualsiasi avviso o forma di credito prescritti. Non eliminare bibliografie, riferimenti scientifici o fonti necessarie alla comprensione.
+I crediti obbligatori devono restare accessibili e associati alle risorse. Mantieni il rimando discreto comune «Crediti e licenze» e il componente incorporato del tema «Crediti della copia autonoma», consultabile anche offline e senza JavaScript. Questo snapshot è generato dallo stesso registro e non è una sezione finale automaticamente visibile. Le eccezioni delle singole licenze prevalgono sulla regola grafica: conserva vicino all’immagine qualsiasi avviso o forma di credito prescritti. Conserva le fonti dei dati numerici e delle informazioni scientifiche specifiche nei crediti, associate alla tabella, al grafico o al contenuto pertinente, con titolo, autore o ente e collegamento quando disponibili. Non inserire citazioni bibliografiche, nomi dei siti o rimandi alle fonti nel testo didattico, nelle didascalie o nelle note: usa «Crediti e licenze» e il componente incorporato «Crediti della copia autonoma». Mantieni nel testo o nelle note le condizioni fisiche necessarie alla comprensione. Per gli HTML registra anche queste fonti nel registro unico, senza eliminarne la provenienza; nella bozza raccoglile nella sezione di servizio dei crediti, da trasferire allo stesso registro nella realizzazione.
 
 Conserva gli avvisi di copyright e il testo integrale della licenza dei font distribuiti o incorporati, anche nelle copie autonome; per Lexend il documento associato è `licenze/Lexend-OFL.txt`. Il solo collegamento online non sostituisce questi avvisi. Un trasferimento completo delle informazioni non prova la legittimità degli usi privi di documentazione; non dichiarare conclusa la verifica delle licenze finché restano obblighi non gestiti.
 
@@ -216,7 +216,7 @@ Se prepari un ritaglio o la rimozione dello sfondo da proporre, mostra la versio
 
 Le didascalie sono brevi, generalmente una–quattro frasi: descrivono ciò che si vede e chiariscono il collegamento con il testo e il concetto fisico trattato. Indicano gli elementi da osservare senza ripetere interi passaggi della teoria né accumulare puntualizzazioni superflue, secondo A1. Non trasformarle in paragrafi paralleli troppo lunghi. Non scrivere la fonte, il sito, i crediti o collegamenti di attribuzione nelle didascalie di immagini, fotografie, GIF, miniature e altri contenuti multimediali. Non reintrodurli con una riga sotto la figura. Non usare «immagine fornita», «foto fornita», «immagine allegata dall’utente» o equivalenti, in nessuna lingua.
 
-Una fonte necessaria a sostenere un dato o un’affermazione scientifica va nel corpo della spiegazione vicino al contenuto pertinente. L’autore o il canale di un video può essere indicato nel breve testo introduttivo se utile, senza trasformare la didascalia in un elenco di crediti.
+Le fonti dei dati numerici e delle informazioni scientifiche specifiche vanno nei crediti secondo C1, non nel corpo della spiegazione, nelle didascalie o nelle note. L’autore o il canale di un video può essere indicato nel breve testo introduttivo se utile, senza trasformare la didascalia in un elenco di crediti.
 
 Classifica il materiale prima di intervenire:
 
@@ -305,7 +305,7 @@ Il master ufficiale è `MASTER_PROMPT.md` nel repository GitHub `rickymusu-bit/f
 
 Git conserva la cronologia di master, dispense e file di lavorazione; non occorrono copie storiche numerate dello stato o del master nell’albero corrente né una pulizia della Libreria ChatGPT per completare un salvataggio. Distingui lingue, formati e varianti che costituiscono risultati diversi. Dopo aver salvato e verificato una nuova versione, rimuovi dall’albero corrente soltanto duplicati o versioni sostituite della stessa serie identificati con certezza, senza perdere la cronologia Git e senza rompere collegamenti. Chiedi chiarimenti se l’identità non è certa. Conserva immagini originali, materiali di riferimento e documenti unici: non sono versioni obsolete. Non cancellare un originale necessario per comprendere o riutilizzare un materiale approvato. Durante questa migrazione non eliminare alcun materiale su Drive.
 
-Il piè di pagina della dispensa contiene esclusivamente versione e data, per esempio «Versione v2 · 29 settembre 2026», localizzate nelle traduzioni. Escludi commenti editoriali, note sui materiali, descrizioni delle modifiche e bibliografie. Le fonti scientifiche indispensabili stanno nel corpo del testo vicino al contenuto; le attribuzioni delle immagini seguono C1.
+Il piè di pagina della dispensa contiene esclusivamente versione e data, per esempio «Versione v2 · 29 settembre 2026», localizzate nelle traduzioni. Escludi commenti editoriali, note sui materiali, descrizioni delle modifiche e bibliografie. Le fonti dei dati numerici e delle informazioni scientifiche specifiche, come le attribuzioni delle immagini, seguono C1 e stanno nei crediti, non nel testo didattico.
 
 Alla consegna mostra soltanto i collegamenti alle versioni più recenti prodotte per il compito e riporta in una frase il cambiamento principale. Consegna solo i formati richiesti; i file di lavoro ausiliari non sono nuovi risultati da inviare automaticamente.
 

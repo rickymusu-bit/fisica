@@ -1,6 +1,6 @@
 # Stato — Energia interna, calore e calore specifico
 
-Versione v5 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
+Versione v6 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
 
 ## Ambito e punto di partenza
 
@@ -41,7 +41,7 @@ Bozza completa v1 creata in bozza.md dopo il «Vai» dell’utente, ricevuto dop
 
 ## Prossima operazione
 
-Presentare bozza.md v2 per revisione; stesura già autorizzata e completata, non richiederne nuovamente il via. Ricevere i tre file/collegamenti di spiaggia estiva, battigia serale/notturna e modello microscopico. Dopo il testo approvato, fornire stima totale ripartita e raccogliere via esplicito all’HTML secondo B1.1–B2. Nessuna approvazione dedotta dall’elenco già approvato.
+Presentare bozza.md v3 per revisione; stesura già autorizzata e completata, non richiederne nuovamente il via. Ricevere i tre file/collegamenti di spiaggia estiva, battigia serale/notturna e modello microscopico. Dopo il testo approvato, fornire stima totale ripartita e raccogliere via esplicito all’HTML secondo B1.1–B2. Nessuna approvazione dedotta dall’elenco già approvato.
 
 ## Bozza v1 completata
 
@@ -62,3 +62,11 @@ Inserita spiegazione dei legami a idrogeno intermolecolari e del contributo del 
 Domanda 7 adattata al confronto tra i tre stati e alla spiegazione dell’acqua. Aggiunta nota 4 sui valori a pressione costante, essenziale per i gas; nota 2 resa coerente senza estendere l’ipotesi di lavoro trascurabile ai gas che si espandono. Restano otto domande e ora quattro note con richiami. Grafico acqua/sabbia, apertura e resto del testo conservati. Nessuna nuova ricerca di immagini o realizzazione HTML. File specifici delle tre immagini ancora da scegliere.
 
 Controlli della revisione: valori e unità confrontati con la tabella della fonte, raggruppamento degli stati coerente, notazione scientifica e arrotondamenti controllati; condizioni dei gas esplicitate e riferimenti delle note verificati. Salvataggio di bozza, visuali e stato sullo stesso ramo dedicato; nessuna modifica a main o pubblicazione.
+
+## Revisione corrente — bozza v3, fonti nei crediti
+
+Richiesta esplicita dell’utente: «Le fonti dei dati numerici e delle informazioni specifiche vanno nei crediti, non nel testo». Applicata alla bozza: rimossi i riferimenti a Engineering ToolBox e OpenStax dal testo didattico; trasferiti con associazione al contenuto nel componente collassabile «Crediti della copia autonoma», aggiungendo anche la fonte già consultata per la verifica di formule e unità. Note 3 e 4 conservano soltanto condizioni fisiche e limiti utili, senza attribuzioni. Dati della tabella, spiegazione dell’acqua, formule e otto domande invariati.
+
+Regola consolidata nel master v61, C1/C3/D2, sostituendo le precedenti istruzioni che collocavano le fonti nel corpo; allineato risorse/README.md. Le attribuzioni non sono eliminate né le condizioni fisiche spostate fuori dalla spiegazione. Nella fase testuale la sezione collassabile della bozza conserva i riferimenti; in fase HTML confluiranno nel registro unico e nello snapshot comune mediante gli strumenti di sincronizzazione. Nessun inventario parallelo creato, nessun credito.html o HTML pubblicato aggiornato.
+
+Controllati: tre fonti nei soli crediti della bozza, assenza di URL nel contenuto didattico e nelle note, dettagli inizialmente chiusi, valori e formule conservati, otto domande e quattro note con richiami coerenti. Caricamento sul ramo dedicato da verificare prima della consegna. Resta la revisione della bozza e la scelta delle tre immagini prima dell’HTML; non dedurre una nuova approvazione finale.

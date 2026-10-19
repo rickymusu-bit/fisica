@@ -1,6 +1,6 @@
 # Energia interna, calore e calore specifico
 
-Versione v2 · 19 ottobre 2026 (Europe/Rome).
+Versione v3 · 19 ottobre 2026 (Europe/Rome).
 Bozza testuale per revisione; i segnaposto indicano le visuali da inserire nell’HTML dopo la scelta dei file.
 
 [COP-01 — Fotografia di una spiaggia estiva con mare e sabbia visibili, distinta dalla fotografia interna.]
@@ -74,11 +74,11 @@ La capacità termica riguarda il corpo intero. Per confrontare i materiali dobbi
 
 Didascalia: Il confronto riguarda masse uguali. Tra i materiali riportati, l’acqua liquida richiede più energia per aumentare la temperatura dello stesso numero di gradi.
 
-I valori sono arrotondati dai dati di [Engineering ToolBox, Specific Heat of Common Materials](https://www.engineeringtoolbox.com/specific-heat-capacity-d_391.html). La tabella mette a confronto materiali comuni: l’acqua risalta non soltanto rispetto ai metalli e alla sabbia, ma anche rispetto agli altri liquidi e ai gas elencati. Il valore dell’acqua si riferisce ad acqua pura a 20 °C, usata come riferimento senza attribuire lo stesso valore esatto a ogni acqua marina.
+La tabella mette a confronto materiali comuni: l’acqua risalta non soltanto rispetto ai metalli e alla sabbia, ma anche rispetto agli altri liquidi e ai gas elencati. Il valore dell’acqua si riferisce ad acqua pura a 20 °C, usata come riferimento senza attribuire lo stesso valore esatto a ogni acqua marina.
 
 Da dove viene questa particolarità? Le molecole d’acqua si attraggono attraverso interazioni chiamate **legami a idrogeno**. Sono legami tra molecole vicine, diversi da quelli che tengono uniti idrogeno e ossigeno dentro ciascuna molecola. Nell’acqua liquida formano una rete in continuo riassetto.
 
-Quando l’acqua si scalda, l’energia assorbita non aumenta soltanto il moto delle molecole: una parte modifica la rete delle loro interazioni. Per ottenere lo stesso aumento di temperatura occorre quindi trasferire molta energia. Questo contributo dei legami a idrogeno al calore specifico elevato è descritto anche in [OpenStax, Biology 2e, «Water»](https://openstax.org/books/biology-2e/pages/2-2-water). È il collegamento tra l’energia interna microscopica e la capacità del mare di attenuare i cambiamenti di temperatura.
+Quando l’acqua si scalda, l’energia assorbita non aumenta soltanto il moto delle molecole: una parte modifica la rete delle loro interazioni. Per ottenere lo stesso aumento di temperatura occorre quindi trasferire molta energia. È il collegamento tra l’energia interna microscopica e la capacità del mare di attenuare i cambiamenti di temperatura.
 
 La distinzione tra le due grandezze si esprime così:
 
@@ -139,7 +139,18 @@ Ecco perché, dopo il tramonto, possiamo trovare ancora tiepido il mare mentre l
 
 [^2]: Usiamo queste relazioni per riscaldamento o raffreddamento senza cambiamento di stato, con capacità termica e calore specifico approssimativamente costanti nell’intervallo considerato e nelle condizioni per cui è definito il calore specifico usato. Nel confronto tra acqua e sabbia trascuriamo il contributo del lavoro.
 
-[^3]: La tabella della fonte riporta “Sand, quartz” senza precisare temperatura di riferimento o contenuto d’acqua. Il valore è indicativo per quel materiale, non una misura della spiaggia fotografata né una costante di ogni sabbia. Composizione e umidità ne modificano il comportamento.
+[^3]: Il valore della sabbia quarzosa è indicativo: non si riferisce a temperatura e contenuto d’acqua specificati, non è una misura della spiaggia fotografata né una costante di ogni sabbia. Composizione e umidità ne modificano il comportamento.
 
 
-[^4]: I valori della tabella sono a pressione costante. Per i gas questa condizione è essenziale: scaldare un gas mantenendone fisso il volume richiede un diverso calore specifico. Le temperature di riferimento non sono precisate dalla fonte per tutte le voci; i valori servono a un confronto indicativo.
+[^4]: I valori della tabella sono a pressione costante. Per i gas questa condizione è essenziale: scaldare un gas mantenendone fisso il volume richiede un diverso calore specifico. Non tutte le voci si riferiscono a una temperatura specificata; i valori servono a un confronto indicativo.
+
+<details>
+<summary>Crediti della copia autonoma</summary>
+
+### Fonti dei dati e delle informazioni scientifiche
+
+- **Tabella TAB-01 e dati del grafico GRA-01:** Engineering ToolBox, [Specific Heat of Common Materials](https://www.engineeringtoolbox.com/specific-heat-capacity-d_391.html). Valori di calore specifico a pressione costante, arrotondati in notazione scientifica. Acqua pura a 20 °C: 4182 J/(kg · K); sabbia quarzosa (“Sand, quartz”): 830 J/(kg · K). La fonte non precisa temperatura e umidità della sabbia né la temperatura di riferimento di tutte le altre voci.
+- **Spiegazione del contributo dei legami a idrogeno al calore specifico dell’acqua:** OpenStax, [Biology 2e, §2.2 — Water](https://openstax.org/books/biology-2e/pages/2-2-water). Informazioni rielaborate nel testo con formulazioni originali.
+- **Verifica delle relazioni tra calore, massa, calore specifico e variazione di temperatura:** OpenStax, [College Physics, §14.2 — Temperature Change and Heat Capacity](https://openstax.org/books/college-physics/pages/14-2-temperature-change-and-heat-capacity). Consultato per il controllo scientifico di formule e unità, senza riproduzione di testo o immagini.
+
+</details>
