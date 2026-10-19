@@ -1,0 +1,31 @@
+{
+  "verificato_utc": "2026-10-19T18:51:34.949126+00:00",
+  "merge_commit": "85fbb652b5c839c437c34f583c1a40b8885ede46",
+  "workflow_id": 39283633815,
+  "url_articolo": "https://rickymusu-bit.github.io/fisica/energia_interna_calore_specifico_it.html",
+  "risposte": {
+    "energia_interna_calore_specifico_it.html": 200,
+    "index.html": 200,
+    "temperatura_equilibrio_termico_it.html": 200,
+    "stati_della_materia.html": 200,
+    "crediti.html": 200
+  },
+  "byte_articolo": 9429717,
+  "sha256_articolo": "cccb2c88fc9d4c96fae8240ae81cbbf8e327fdedd5a8a6531cf7815504f4baf0",
+  "articolo_identico_al_verificato": true,
+  "ordine_catalogo": [
+    "termodinamica_sistemi_it.html",
+    "temperatura_equilibrio_termico_it.html",
+    "energia_interna_calore_specifico_it.html",
+    "stati_della_materia.html",
+    "passaggi_di_stato.html",
+    "conduzione_it.html",
+    "convezione_it.html",
+    "irraggiamento_it.html"
+  ],
+  "download_byte": 9429717,
+  "navigazione_reciproca": true,
+  "crediti_pubblici": true,
+  "workflow_conclusione": "success",
+  "workflow_completato_utc": "2026-10-19T16:40:25Z"
+}

@@ -1,6 +1,6 @@
 # Stato — Energia interna, calore e calore specifico
 
-Versione v17 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
+Versione v18 · Aggiornamento: 19 ottobre 2026 (Europe/Rome).
 
 ## Ambito e punto di partenza
 
@@ -201,3 +201,9 @@ URL previsto dopo il rilascio: https://rickymusu-bit.github.io/fisica/energia_in
 Ricevuto «Riprova». Il 19 ottobre 2026, ore 16:12 UTC, ricontrollati workflow precedente e pagina pubblica: esecuzione ancora in coda e articolo HTTP 404. Richiesta di annullamento della vecchia esecuzione accettata da GitHub; avviato un nuovo workflow_dispatch sul main corrente 47510371271c2d740736d723a8135dc548b9e9fd, senza modifiche all’HTML approvato. Nuova esecuzione: https://github.com/rickymusu-bit/fisica/actions/runs/39283633815 .
 
 Al controllo delle 16:13 UTC anche il nuovo tentativo è ancora in coda, senza esito. GitHub Status continua a segnalare degraded_performance per Actions e Pages e lo stesso incidente aperto. Pubblicazione non dichiarata completata; verifica pubblica ancora da svolgere dopo il rilascio.
+
+## Pubblicazione completata e verificata
+
+Ricevuto «Prova ora». Workflow 39283633815 completato con successo il 19 ottobre 2026 alle 16:40:25 UTC. Verifica del sito pubblico eseguita alle 18:51 UTC: HTTP 200 per articolo, catalogo, due articoli adiacenti e crediti. URL: https://rickymusu-bit.github.io/fisica/energia_interna_calore_specifico_it.html .
+
+HTML pubblico identico byte per byte alla versione v4 approvata: 9429717 byte, SHA-256 cccb2c88fc9d4c96fae8240ae81cbbf8e327fdedd5a8a6531cf7815504f4baf0. Otto articoli nel catalogo nell’ordine del manifest, nuovo articolo terzo, download da 9,43 MB, navigazione reciproca e fonti nei crediti verificati. Report verifiche-sito-pubblico.json. Nessuna nuova esecuzione necessaria; pubblicazione autorizzata completata.
