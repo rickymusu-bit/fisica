@@ -1,10 +1,10 @@
 # La dilatazione termica
 
-Bozza v7 — 19 ottobre 2026 (Europe/Rome).
-Testo da approvare. Le immagini sono segnaposto delle funzioni concordate, non materiali già selezionati. Le didascalie saranno controllate sui file effettivamente ricevuti.
+Bozza v8 — 20 ottobre 2026 (Europe/Rome).
+Testo scientifico v7 approvato. Questa v8 aggiorna soltanto i segnaposto e le didascalie delle immagini indicate dall'utente, con provenienza in visuali.md. File binari e ulteriori materiali ancora da ricevere o recuperare.
 
-[IMMAGINE COP-01 — Ponte; immagine esclusiva di copertina.]
-Didascalia proposta: Una struttura esposta all'aperto deve poter accompagnare le variazioni di temperatura.
+[IMMAGINE COP-01 — SHB-Red-Dust.jpg, copertina scelta; originale binario da recuperare.]
+Didascalia: Il Sydney Harbour Bridge durante una tempesta di polvere rossa.
 
 ## Quando cambiano le dimensioni
 
@@ -12,7 +12,7 @@ Un ponte resta nello stesso posto per anni, ma le sue dimensioni non rimangono e
 
 Il fenomeno si chiama **dilatazione termica**. Nei materiali che si comportano nel modo più comune, il riscaldamento aumenta la distanza media fra le particelle: non sono le particelle a diventare più grandi. Nel solido continuano a oscillare attorno alle loro posizioni, ma la loro distanza media può cambiare. Su un corpo esteso, tanti piccoli cambiamenti si sommano e diventano un allungamento o un aumento di volume.
 
-[IMMAGINE FIG-01 — Dettaglio del giunto di un ponte, soltanto per l'introduzione teorica.]
+[IMMAGINE FIG-01 — Giunto del ponte Nishi-ōhashi, fotografia scelta; collegamento e crediti in visuali.md, file da recuperare.]
 Didascalia proposta: Il giunto permette alle parti della struttura di muoversi entro lo spazio previsto dal progetto.
 
 Per prevedere un allungamento servono tre informazioni: quanto è lungo inizialmente il corpo, di quanto cambia la sua temperatura e di quale materiale è fatto. La **legge della dilatazione lineare** le mette in relazione:[1]
@@ -70,8 +70,8 @@ Il comportamento dipende dai legami fra le molecole, che favoriscono organizzazi
 
 ### Quando si scaldano i binari
 
-[IMMAGINE FIG-07 — Binario ferroviario con giunto e spazio fra le estremità delle rotaie ben visibile; immagine distinta dal ponte.]
-Didascalia proposta: Nei binari con giunti, lo spazio fra le estremità delle rotaie permette di accompagnarne le variazioni di lunghezza.
+[IMMAGINE FIG-07 — Giunto ferroviario isolante, foto scelta di Thomas Nugent; file da recuperare. Per mostrare direttamente uno spazio di dilatazione occorre un'immagine documentata diversa, ancora da fornire.]
+Didascalia: Questo giunto separa elettricamente due sezioni di binario per il segnalamento.
 
 Le rotaie d'acciaio si riscaldano al Sole e tendono ad allungarsi. Nei binari formati da tratti collegati con giunti, gli spazi fra le estremità consentono una parte di questo movimento: quando le rotaie si allungano, gli spazi si riducono. La variazione dipende dalla lunghezza iniziale, dal materiale e dalla variazione di temperatura.
 
@@ -79,7 +79,7 @@ Molte linee usano invece rotaie saldate continue. Qui la dilatazione è in gran 
 
 ### Trasformare un volume in una temperatura
 
-[IMMAGINE FIG-02 — Termometro a liquido con bulbo e capillare riconoscibili.]
+[IMMAGINE FIG-02 — Mercury Thermometer.jpg, termometro a mercurio scelto; file da recuperare.]
 Didascalia proposta: Il tubicino stretto rende visibile la variazione di volume del liquido.
 
 Nel termometro a liquido il bulbo contiene un liquido che si dilata più del recipiente di vetro. Quando la temperatura aumenta, il volume in eccesso occupa un tratto maggiore del capillare e il livello sale. Il tubicino sottile rende leggibile anche una piccola variazione di volume.
@@ -88,7 +88,7 @@ La scala associa le posizioni del livello alle temperature attraverso la taratur
 
 ### Due metalli possono comandare un interruttore
 
-[IMMAGINE FIG-03 — Schema illustrato di lamina bimetallica con contatto, nelle condizioni pertinenti.]
+[IMMAGINI FIG-03a e FIG-03b — Dalla pagina Bimetallic strip indicata dall'utente: proposti lo schema Bimetallic strip.svg e la foto WPThermostat new.jpg; scelta puntuale e originali da completare, nessun file ancora inserito.]
 Didascalia proposta: La diversa dilatazione dei due metalli incurva la lamina e può azionare un contatto.
 
 Una lamina bimetallica è formata da due strati metallici uniti. Quando la temperatura cambia, i due materiali tendono a cambiare lunghezza in misura diversa. Essendo vincolati l'uno all'altro, si incurvano: durante il riscaldamento, lo strato che tende ad allungarsi di più si dispone sul lato esterno della curva.
@@ -97,7 +97,7 @@ In un termostato bimetallico questo movimento può separare i contatti e interro
 
 ### Un coperchio che si allenta
 
-[IMMAGINE FIG-04 — Barattolo di vetro con coperchio metallico.]
+[IMMAGINE FIG-04 — PreservedFood1.jpg, barattoli di conserve scelti; file da recuperare e verificare direttamente.]
 Didascalia proposta: Coperchio e recipiente possono cambiare dimensioni in misura diversa.
 
 Il riscaldamento di un coperchio metallico può aumentarne il diametro e facilitarne l'apertura. Non basta però dire che «il metallo si dilata»: anche il collo del recipiente può riscaldarsi e cambiare dimensioni. L'effetto utile nasce dalla differenza fra i cambiamenti delle due parti.
@@ -106,8 +106,8 @@ Contano i materiali e quanto si riscalda ciascuna parte. Il fenomeno spiega perc
 
 ### Perché il lago gela dall'alto
 
-[IMMAGINE FIG-05 — Sezione illustrata di un lago d'acqua dolce in inverno, con ghiaccio superficiale e temperature.]
-Didascalia proposta: Sotto il ghiaccio può restare acqua liquida, con gli strati più profondi prossimi a 4 °C.
+[IMMAGINE FIG-05 — A frozen Lake Louise - Banff - panoramio.jpg, fotografia scelta; file da recuperare.]
+Didascalia: Il lago Louise, in Canada, con la superficie ghiacciata.
 
 Quando l'acqua superficiale di un lago si raffredda verso 4 °C diventa più densa e tende a scendere, rimescolando l'acqua. Sotto questa temperatura, però, l'ulteriore raffreddamento la rende meno densa: l'acqua più fredda può restare in superficie, dove si forma il ghiaccio.
 
@@ -156,4 +156,4 @@ Testo originale. Fonti consultate per controllo dei principi; trasferire i rifer
 
 - Network Rail, Buckled rail: https://www.networkrail.co.uk/rail-travel/delays-explained/buckled-rail-and-summer-heat/ . Controllo delle conseguenze del riscaldamento e della gestione delle rotaie saldate continue; nessuna immagine ripresa.
 
-Nessuna licenza di immagine ancora verificata: COP-01, FIG-01–FIG-07 e il materiale di partenza per GRA-01 sono da ricevere. Le didascalie e le descrizioni saranno allineate agli originali. Il grafico non è stato realizzato e non contiene dati inventati.
+Le scelte e le licenze documentate di COP-01, FIG-01, FIG-02, FIG-04, FIG-05 e FIG-07 e le proposte per FIG-03 sono conservate in [visuali.md](visuali.md), da trasferire al registro unico nell'HTML. Nessun file binario ancora scaricato o ispezionato. FIG-06 e il materiale di partenza per GRA-01 restano da ricevere. Le didascalie e le descrizioni saranno allineate agli originali. Il grafico non è stato realizzato e non contiene dati inventati.
