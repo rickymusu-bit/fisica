@@ -18,12 +18,7 @@ body{background-color:var(--paper)!important;color:var(--ink);background-image:l
 a{color:inherit}button,input,select{font:inherit}button,select{color:var(--ink)}
 :where(a,button,summary,input,select,[tabindex]):focus-visible{outline:3px solid var(--accent)!important;outline-offset:4px}
 .theme-control{display:inline-flex;align-items:center;gap:6px;font:500 13px/1.4 Lexend,system-ui,sans-serif;white-space:nowrap;color:var(--ink)}
-.theme-switch{border:0;background:transparent;padding:6px;min-height:44px;cursor:pointer;border-radius:10px}
-.theme-track{position:relative;display:block;width:44px;height:26px;flex:none;border:1px solid var(--line);border-radius:20px;background:var(--surface-soft)}
-.theme-thumb{position:absolute;top:3px;left:3px;width:18px;height:18px;border-radius:50%;background:var(--accent);transition:transform .16s ease}
-.theme-switch[aria-checked=true] .theme-thumb{transform:translateX(18px)}
-.theme-switch [data-theme-label]{min-width:46px;text-align:left}
-.theme-switch:disabled{cursor:default}
+.theme-menu{border:0;background:transparent;padding:6px;min-height:44px;cursor:pointer;border-radius:10px}
 .site-header,.topbar{background:var(--surface)!important;color:var(--ink);border-bottom:1px solid var(--line)!important;box-shadow:0 3px 15px rgb(0 0 0 / .07);backdrop-filter:none}
 .site-header:after,.topbar:after{content:'';position:absolute;bottom:0;left:0;right:0;height:2px;background:var(--gradient);pointer-events:none}
 .topbar{flex-wrap:wrap!important;min-height:60px!important;gap:12px;padding:12px 24px!important}
@@ -141,15 +136,11 @@ a{color:inherit}button,input,select{font:inherit}button,select{color:var(--ink)}
 
 /* Barra dei capitoli: sei comandi riconoscibili, su una sola riga. */
 .ui-icon{display:block;width:24px;height:24px;flex:none}
-.theme-thumb{display:grid;place-items:center}
-.theme-thumb .ui-icon{width:12px;height:12px;stroke:var(--surface);stroke-width:2}
-.theme-sun,.theme-switch[aria-checked=false] .theme-moon{display:none}
-.theme-switch[aria-checked=false] .theme-sun{display:block}
 .topbar .top-links{flex-wrap:nowrap!important;gap:4px!important;justify-content:space-between;flex:0 0 auto}
-.topbar .top-links>.string-nav,.topbar .top-links>.string-lang,.topbar .top-links>.theme-switch,.topbar .top-links>.reader-index{flex:0 0 44px;width:44px;min-width:44px;max-width:44px}
+.topbar .top-links>.string-nav,.topbar .top-links>.string-lang,.topbar .top-links>.theme-menu,.topbar .top-links>.reader-index{flex:0 0 44px;width:44px;min-width:44px;max-width:44px}
 .topbar .top-links>.string-nav,.topbar .top-links>.string-lang>summary,.topbar .index-toggle{display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;width:44px;height:44px;min-height:44px;padding:0!important;margin:0;gap:0}
 .topbar .nav-label,.topbar [data-theme-label]{display:none}
-.topbar .theme-switch{justify-content:center;padding:0}
+.topbar .theme-menu{justify-content:center;padding:0}
 .index-close{display:none}
 .reader-index[open]>.index-toggle>.ui-icon{display:none}
 .reader-index[open]>.index-toggle>.index-close{display:block}
@@ -166,20 +157,41 @@ a{color:inherit}button,input,select{font:inherit}button,select{color:var(--ink)}
 #curve-choice-4:focus-visible ~ .curve-controls label[for="curve-choice-4"]{outline-color:var(--accent)}
 #curve-choice-5:focus-visible ~ .curve-controls label[for="curve-choice-5"]{outline-color:var(--accent)}
 
-/* Lingua e tema nell’angolo superiore destro, distinti dai comandi di lettura. */
-.topbar .top-links>.string-lang,.topbar .top-links>.theme-switch{position:absolute;top:14px}
-.topbar .top-links>.string-lang{right:76px}
-.topbar .top-links>.theme-switch{right:24px}
-.topbar .top-links{margin-right:108px}
+/* Il tema usa lo stesso tipo di menu della lingua. */
+.theme-menu{position:relative;display:block;min-width:44px;width:44px;padding:0;border:0;background:transparent}
+.theme-menu>summary{display:flex;align-items:center;justify-content:center;gap:1px;width:44px;height:44px;min-height:44px;box-sizing:border-box;padding:0;border:1px solid var(--line);border-radius:10px;background:var(--surface-soft);color:var(--ink);list-style:none;cursor:pointer}
+.theme-menu>summary::-webkit-details-marker{display:none}
+.theme-menu>summary::marker{content:''}
+.theme-menu>summary .ui-icon{width:22px;height:22px}
+.menu-chevron{font-size:11px;line-height:1}
+.theme-current-light{display:none}
+:root[data-theme=light] .theme-current-dark{display:none}
+:root[data-theme=light] .theme-current-light{display:block}
+.theme-options{position:absolute;right:0;top:calc(100% + 8px);min-width:160px;display:grid;gap:4px;padding:8px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--ink);box-shadow:var(--shadow);z-index:90}
+.theme-options button{display:flex;align-items:center;gap:10px;min-height:44px;padding:8px 12px;border:0;border-radius:8px;background:var(--surface);color:var(--ink);font:inherit;text-align:left;cursor:pointer}
+.theme-options button[aria-pressed=true]{background:var(--surface-soft);color:var(--accent)}
+.theme-options button[aria-pressed=true]:after{content:'✓';margin-left:auto}
+.theme-options button:disabled{cursor:default}
+.topbar .top-links{margin-right:0;flex-wrap:nowrap!important}
+.topbar .top-links>.reader-index{order:4}
+.topbar .top-links>.string-lang{order:5;position:relative}
+.topbar .top-links>.theme-menu{order:6;position:relative}
 .language-code{font-size:13px;font-weight:600;white-space:nowrap}
-.site-header .top-inner{position:relative}
-.site-header .brand{min-height:44px}
-.site-header .site-nav{padding-right:108px}
-.site-header .lang,.site-header .theme-switch{position:absolute;top:12px;width:44px;min-width:44px}
-.site-header .lang{right:76px}
-.site-header .theme-switch{right:24px;padding:0;justify-content:center}
-.site-header .theme-switch [data-theme-label]{display:none}
-.site-header .lang>summary{display:flex;justify-content:center;align-items:center;box-sizing:border-box;width:44px;height:44px;padding:0!important;font-size:13px}
-@media(max-width:760px){.topbar>.brand{margin-right:108px}.topbar .top-links{margin-right:0}.topbar .top-links>.string-lang{right:64px;top:10px}.topbar .top-links>.theme-switch{right:12px;top:10px}}
-@media(max-width:560px){.site-header .brand{margin-right:108px}.site-header .site-nav{padding-right:0;justify-content:flex-start;gap:14px}.site-header .lang{right:66px;top:10px}.site-header .theme-switch{right:14px;top:10px}}
-.credits-page>.theme-switch{float:right}
+/* Copertina e testo condividono una sola superficie e le stesse fasce laterali. */
+:root[data-edge=sides] main:has(>.article-wrap){position:relative;max-width:940px;margin:0 auto;padding:0;background:var(--surface);border:0;border-radius:0}
+:root[data-edge=sides] main:has(>.article-wrap)>.hero,
+:root[data-edge=sides] main:has(>.article-wrap)>.article-wrap>.article{max-width:none;margin:0;border:0;border-radius:0;background:transparent;box-shadow:none;padding-left:clamp(32px,5vw,72px);padding-right:clamp(32px,5vw,72px)}
+:root[data-edge=sides] main:has(>.article-wrap)>.article-wrap{margin:0;padding:0 0 48px;border:0;background:transparent;background-image:none}
+:root[data-edge=sides] main:has(>.article-wrap)> .hero:before,
+:root[data-edge=sides] main:has(>.article-wrap)> .hero:after,
+:root[data-edge=sides] main:has(>.article-wrap) .article:before,
+:root[data-edge=sides] main:has(>.article-wrap) .article:after{content:none;display:none}
+:root[data-edge=sides] main:has(>.article-wrap):before,
+:root[data-edge=sides] main:has(>.article-wrap):after{content:'';position:absolute;pointer-events:none;top:14px;bottom:14px;left:0;width:24px;opacity:.5;background-image:var(--waves-vertical);background-repeat:repeat-y;background-size:24px 160px;mask-image:linear-gradient(180deg,transparent,#000 14px,#000 calc(100% - 14px),transparent)}
+:root[data-edge=sides] main:has(>.article-wrap):after{left:auto;right:0}
+
+.site-header .lang>summary{display:flex;align-items:center;justify-content:center;width:44px;height:44px;box-sizing:border-box;padding:0!important;font-size:13px}
+:root[data-edge=sides] main:has(>.article-wrap)>.hero{padding-bottom:28px}
+:root[data-edge=sides] main:has(>.article-wrap)>.article-wrap>.article{padding-top:28px}
+
+.theme-options{font-size:14px}

@@ -29,7 +29,8 @@ class PublicationTests(unittest.TestCase):
                     return re.sub(r'<svg\b[^>]*data-ui-icon[^>]*>[\s\S]*?</svg>', '', text)
                 self.assertEqual(re.findall(r'<path\b[^>]*>', without_logo(source)), re.findall(r'<path\b[^>]*>', without_logo(published)))
                 self.assertEqual(published.count('data-stringhe-theme'), 1)
-                self.assertEqual(published.count('data-theme-toggle'), 3)  # markup e due script comuni
+                self.assertEqual(len(re.findall(r'<details\b[^>]*data-theme-menu', published)), 1)
+                self.assertNotIn('data-theme-toggle', published)
                 self.assertIn('data-logo-toggle', published)
                 self.assertIn('data-edge="sides"', published)
                 self.assertNotIn('href="https://rickymusu-bit.github.io/fisica/#indice"', published)

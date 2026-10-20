@@ -4308,6 +4308,15 @@
           "attribute": "inline",
           "location": null,
           "credit_id": null
+        },
+        {
+          "document": "riferimenti/TEMA_DISPENSE.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
         }
       ]
     },
@@ -7099,6 +7108,15 @@
       "id": "asset-df0f84a101d74c469333152fdd83d6e22ecab1599bed46fda38c479bbf4841c3",
       "kind": "svg",
       "uses": [
+        {
+          "document": "riferimenti/TEMA_DISPENSE.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        },
         {
           "document": "riferimenti/TEMA_DISPENSE.html",
           "kind": "svg",

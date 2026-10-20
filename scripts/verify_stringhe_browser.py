@@ -23,11 +23,12 @@ class QuietHandler(http.server.SimpleHTTPRequestHandler):
 
 
 def set_theme(page, theme):
-    switch = page.get_by_role('switch', name='Tema scuro')
-    if switch.get_attribute('aria-checked') != str(theme == 'dark').lower():
-        switch.click()
+    menu = page.locator('[data-theme-menu]')
+    if page.evaluate('document.documentElement.dataset.theme') != theme:
+        menu.locator('summary').click()
+        menu.locator(f'[data-theme-option="{theme}"]').click()
     assert page.evaluate('document.documentElement.dataset.theme') == theme
-    assert switch.get_attribute('aria-checked') == str(theme == 'dark').lower()
+    assert menu.locator(f'[data-theme-option="{theme}"]').get_attribute('aria-pressed') == 'true'
 
 
 def main():
@@ -53,7 +54,7 @@ def main():
             page.emulate_media(color_scheme='light')
             page.goto(base+'index.html')
             assert page.evaluate('document.documentElement.dataset.theme') == 'dark'
-            assert page.get_by_role('switch', name='Tema scuro').get_attribute('aria-checked') == 'true'
+            assert page.locator('[data-theme-option=dark]').get_attribute('aria-pressed') == 'true'
             # Tutte le pagine, tutti i viewport e i due temi, con immagini caricate.
             for name in pages:
                 page.goto(base + name)
@@ -63,9 +64,9 @@ def main():
                     assert page.locator('[data-logo-toggle] svg path.logo-moving').count() == 2
                 if name in publication['articoli'] or name == 'modello-dispense.html':
                     assert page.locator('.article').count() == 1
-                    assert page.locator('.article').evaluate("e=>!['none','normal'].includes(getComputedStyle(e,':before').content) && getComputedStyle(e,':before').pointerEvents==='none'")
-                    assert page.locator('.article').evaluate("e=>getComputedStyle(e,':before').width") == '24px'
-                    assert page.locator('.article').evaluate("e=>getComputedStyle(e,':after').right") == '0px'
+                    assert page.locator('main:has(>.article-wrap)').evaluate("e=>!['none','normal'].includes(getComputedStyle(e,':before').content) && getComputedStyle(e,':before').pointerEvents==='none'")
+                    assert page.locator('main:has(>.article-wrap)').evaluate("e=>getComputedStyle(e,':before').width") == '24px'
+                    assert page.locator('main:has(>.article-wrap)').evaluate("e=>getComputedStyle(e,':after').right") == '0px'
                 for width in [320, 390, 768, 1024, 1440]:
                     page.set_viewport_size({'width': width, 'height': 900})
                     for theme in ['light', 'dark']:
@@ -84,21 +85,20 @@ def main():
                             if width in [390, 1440]:
                                 model.locator('.model-path').screenshot(path=str(SHOTS/f'schema-{Path(name).stem}-{width}-{theme}.png'))
                         if page.locator('.topbar .top-links').count():
-                            controls = page.locator('.topbar .top-links').evaluate('(nav)=>[...nav.querySelectorAll(":scope > .string-nav, :scope > .reader-index")].map(e=>e.getBoundingClientRect().toJSON())')
-                            assert len(controls) == 4, name
-                            assert max(r['top'] for r in controls) - min(r['top'] for r in controls) < 1, (name, width, controls)
-                            assert all(r['width'] >= 44 and r['height'] >= 44 for r in controls), (name, width, controls)
-                            tools=page.locator('.topbar').evaluate('bar=>{const b=bar.getBoundingClientRect(),lang=bar.querySelector(".string-lang").getBoundingClientRect(),theme=bar.querySelector(".theme-switch").getBoundingClientRect();return {bar:b.toJSON(),lang:lang.toJSON(),theme:theme.toJSON()}}')
-                            assert abs(tools['lang']['top']-tools['theme']['top'])<1
-                            assert tools['theme']['right']<=tools['bar']['right'] and tools['theme']['right']>tools['bar']['right']-30
-                            assert tools['lang']['right']<tools['theme']['left']
-                            if width<=760: assert tools['lang']['bottom']<controls[0]['top']
+                            controls = page.locator('.topbar .top-links').evaluate('(nav)=>[...nav.children].map(e=>e.getBoundingClientRect().toJSON())')
+                            assert len(controls) == 6, name
+                            assert max(r['top'] for r in controls)-min(r['top'] for r in controls)<1, (name,width,controls)
+                            assert all(r['width']>=44 and r['height']>=44 for r in controls), (name,width,controls)
                             assert page.locator('.string-lang summary').inner_text()=='IT ▾'
+                            geometry=page.locator('main:has(>.article-wrap)').evaluate('main=>{const hero=main.querySelector(":scope > .hero"),wrap=main.querySelector(":scope > .article-wrap"),article=wrap.querySelector(".article");return {hero:hero.getBoundingClientRect().toJSON(),wrap:wrap.getBoundingClientRect().toJSON(),article:article.getBoundingClientRect().toJSON(),border:getComputedStyle(wrap).borderTopWidth,heroWave:getComputedStyle(hero,":before").display,bodyWave:getComputedStyle(article,":before").display,gutterHero:getComputedStyle(hero).paddingLeft,gutterBody:getComputedStyle(article).paddingLeft}}')
+                            assert geometry['border']=='0px' and geometry['heroWave']=='none' and geometry['bodyWave']=='none'
+                            assert abs(geometry['hero']['left']-geometry['article']['left'])<1
+                            assert abs(geometry['hero']['right']-geometry['article']['right'])<1
+                            assert abs(geometry['hero']['bottom']-geometry['wrap']['top'])<1
+                            assert geometry['gutterHero']==geometry['gutterBody']
                         elif page.locator('.site-header').count():
-                            tools=page.locator('.top-inner').evaluate('bar=>{const b=bar.getBoundingClientRect(),lang=bar.querySelector(".lang").getBoundingClientRect(),theme=bar.querySelector(".theme-switch").getBoundingClientRect();return {bar:b.toJSON(),lang:lang.toJSON(),theme:theme.toJSON()}}')
-                            assert abs(tools['lang']['top']-tools['theme']['top'])<1
-                            assert tools['theme']['right']<=tools['bar']['right'] and tools['theme']['right']>tools['bar']['right']-30
-                            assert tools['lang']['right']<tools['theme']['left']
+                            tools=page.locator('.site-nav').evaluate('nav=>[nav.querySelector(".lang"),nav.querySelector(".theme-menu")].map(e=>e.getBoundingClientRect().toJSON())')
+                            assert abs(tools[0]['top']-tools[1]['top'])<1
                             assert page.locator('.site-header .lang>summary').inner_text()=='IT ▾'
                         checks.append([name, width, theme])
             # Selezionare i tratti non deve cambiare la posizione della pagina.
@@ -178,7 +178,7 @@ def main():
                 page.wait_for_url(base + name)
             set_theme(page, 'dark')
             page.goto(base + 'articoli.html')
-            assert page.get_by_role('switch', name='Tema scuro').get_attribute('aria-checked') == 'true'
+            assert page.locator('[data-theme-option=dark]').get_attribute('aria-pressed') == 'true'
             page.reload()
             assert page.evaluate('document.documentElement.dataset.theme') == 'dark'
             page.locator('#article-search').fill('conduzione')
@@ -228,11 +228,17 @@ def main():
             set_theme(page, 'light')
             page.goto(base+'index.html'); page.reload()
             assert page.evaluate('document.documentElement.dataset.theme') == 'light'
-            switch = page.get_by_role('switch', name='Tema scuro')
-            switch.focus(); page.keyboard.press('Space')
-            assert switch.get_attribute('aria-checked') == 'true'
-            page.keyboard.press('Enter')
-            assert switch.get_attribute('aria-checked') == 'false'
+            menu = page.locator('[data-theme-menu]')
+            summary = menu.locator('summary')
+            summary.focus();page.keyboard.press('Space')
+            assert menu.get_attribute('open') is not None
+            menu.locator('[data-theme-option=dark]').focus();page.keyboard.press('Enter')
+            assert page.evaluate('document.documentElement.dataset.theme') == 'dark'
+            assert menu.get_attribute('open') is None
+            assert summary.evaluate('(e)=>e===document.activeElement')
+            set_theme(page,'light')
+            summary.click();page.keyboard.press('Escape')
+            assert menu.get_attribute('open') is None
             page.emulate_media(color_scheme='dark')
             assert page.evaluate('document.documentElement.dataset.theme') == 'light'
             page.emulate_media(color_scheme='light')
@@ -323,14 +329,26 @@ def main():
                         page.evaluate('document.activeElement.blur(); window.scrollTo(0,0)')
                         page.wait_for_function('window.scrollY === 0')
                         page.screenshot(path=str(SHOTS/f'laterali-{width}-{theme}.png'), full_page=True, animations='disabled')
+            # Anteprime della giunzione copertina/testo e del menu aperto.
+            for width in [390,1440]:
+                page.set_viewport_size({'width':width,'height':1100})
+                for theme in ['light','dark']:
+                    page.goto(base+'passaggi_di_stato.html');set_theme(page,theme)
+                    page.wait_for_function('document.fonts.status === "loaded"')
+                    page.locator('[data-logo-toggle] svg').evaluate('(svg)=>{svg.pauseAnimations();svg.setCurrentTime(1)}')
+                    page.evaluate('scrollTo({top:0,behavior:"instant"})')
+                    page.screenshot(path=str(SHOTS/f'lettura-continua-passaggi-{width}-{theme}.png'),animations='disabled')
+                    page.locator('[data-theme-menu]>summary').click()
+                    assert page.locator('.theme-options').is_visible()
+                    page.screenshot(path=str(SHOTS/f'menu-tema-{width}-{theme}.png'),animations='disabled')
             browser.close()
     finally:
         server.shutdown()
         (SITE / 'modello-dispense.html').unlink(missing_ok=True)
     assert not errors, errors
-    report = {'barra_capitoli':{'comandi_lettura':4,'righe_comandi':1,'lingua_tema':'angolo superiore destro; IT e switch','bersaglio_minimo_px':44},'curva_riscaldamento':{'selezioni_touch':50,'prove_tastiera':10,'fallback_senza_javascript':2,'salti_di_scorrimento':False},'viewport_tema_pagina':checks,'errori_javascript':errors,'copertine_verificate':len(covers),'home':{'card':'unica per titolo, logo e copertina; senza onde laterali','mobile':'foto sotto al titolo','desktop':'foto affiancata','layout_copertine_verificati':100,'didascalia':'bordo sinistro e larghezza coincidenti con la foto; proporzioni conservate'},'logo':{'curve':2,'fase':'opposizione','periodo_secondi':4,'animazione_nera':'impronta originale conservata','pausa':'entrambe le curve sincronizzate'},'laterali':{'viewport':[320,390,768,1024,1440],'temi':['light','dark'],'curve':'stessa ampiezza; periodo invariato; 24 px per fascia; nessun overflow'},
+    report = {'barra_capitoli':{'comandi':6,'righe':1,'tema':'menu Chiaro/Scuro con luna o sole','lingua':'IT','bersaglio_minimo_px':44},'curva_riscaldamento':{'selezioni_touch':50,'prove_tastiera':10,'fallback_senza_javascript':2,'salti_di_scorrimento':False},'viewport_tema_pagina':checks,'errori_javascript':errors,'copertine_verificate':len(covers),'home':{'card':'unica per titolo, logo e copertina; senza onde laterali','mobile':'foto sotto al titolo','desktop':'foto affiancata','layout_copertine_verificati':100,'didascalia':'bordo sinistro e larghezza coincidenti con la foto; proporzioni conservate'},'logo':{'curve':2,'fase':'opposizione','periodo_secondi':4,'animazione_nera':'impronta originale conservata','pausa':'entrambe le curve sincronizzate'},'laterali':{'viewport':[320,390,768,1024,1440],'temi':['light','dark'],'curve':'stessa ampiezza; periodo invariato; 24 px per fascia; nessun overflow'},
               'offline':offline_status,'browser':'Chromium; mobile e touch emulati, nessun dispositivo Android fisico',
-              'controlli':['persistenza','default scuro indipendente dal sistema e switch tastiera','storage bloccato','senza JavaScript','logo e movimento ridotto','ricerca e filtro','indice tastiera','note','zoom','crediti','download identico']}
+              'controlli':['persistenza','menu tema: tastiera, Escape, default scuro e persistenza','storage bloccato','senza JavaScript','logo e movimento ridotto','ricerca e filtro','indice tastiera','note','zoom','crediti','download identico']}
     (ROOT/'lavorazione/sito/verifica-stringhe.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     print(f'Verificate {len(checks)} combinazioni pagina/viewport/tema e {len(covers)} copertine; nessun errore JavaScript')
 

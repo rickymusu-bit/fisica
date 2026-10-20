@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - design/stringhe-portale
+      - design/menu-tema-lettura-continua
       - design/novita-tema-switch
       - fix/contrasto-schemi-dark
       - fix/barra-mobile-curva
