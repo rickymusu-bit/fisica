@@ -139,3 +139,7 @@ Crediti aggiunti al registro e alla pagina generata, senza aggiornare gli HTML e
 Verifiche: `credits.py --check`, build locale Pages e 12 test esistenti superati. Chromium 1440 e 390 px: nessun errore JavaScript, immagine mancante, ancora interna mancante o overflow della pagina. Controllati ingrandimento, indice, richiami delle note, dialogo dei crediti e persistenza Chiaro/Scuro. Tutti i controlli interattivi provati a rete disattivata dopo il caricamento locale; l’ambiente impedisce l’apertura diretta file:// nel browser gestito, quindi l’anteprima è stata caricata da server locale. Tutte le risorse necessarie sono incorporate. Screenshot chiari e scuri e rapporto effettivo in `anteprime/`. Peso finale inferiore a 15 MB.
 
 Preparare PR in bozza sul ramo dedicato con anteprima corrente. Per la regola vincolante iniziale di AGENTS.md non integrare main e non avviare GitHub Pages prima dell’approvazione di questa specifica anteprima.
+
+## Consegna salvata su GitHub
+
+PR in bozza: https://github.com/rickymusu-bit/fisica/pull/52 . Commit del capitolo e delle schermate: `307d1474fbafc95582c873d531bf3b1da47cef3a`. Aggiornato il ramo al main corrente e letto anche il nuovo standard `docs/visual-guidelines.md`; non sono emerse modifiche necessarie ai contenuti autorizzati e verificati. Anteprima reviewabile nelle schermate `anteprime/`; HTML autonomo scaricabile dal repository. Il servizio esterno raw.githack restituisce HTTP 403 dall’ambiente: non presentarlo come anteprima verificata. Main e sito ufficiale non modificati.
