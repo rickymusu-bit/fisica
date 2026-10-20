@@ -315,3 +315,9 @@ Verifiche completate: sincronizzazione del tema, registro dei crediti, build e t
 Ulteriore richiesta: apertura reciprocamente esclusiva dei menu Lingua e Chiaro/Scuro. Aggiunto raggruppamento nativo dei details, valido anche senza JavaScript nei browser moderni, e fallback nel tema comune. Revisione nella stessa PR #55 e nel modello v22 ancora in bozza; nessuna pubblicazione avviata.
 
 Verificata la chiusura reciproca in entrambe le direzioni su home e Irraggiamento, a 390 e 1440 px, con e senza JavaScript (8 combinazioni). Build, registro crediti e controllo differenze superati. Anteprima autonoma e schermata touch aggiornate; rapporto `verifica-menu-esclusivi.json`.
+
+## Revisione delle barre di Catalogo e Quiz — 21 ottobre 2026
+
+Richiesta: le pagine «Tutti i capitoli» e «Quiz» devono avere soltanto Home con icona, Lingua e Chiaro/Scuro, con dimensioni e stile dei comandi dei capitoli. La home mantiene Lingua e Chiaro/Scuro. I suggerimenti testuali dei controlli condivisi devono apparire solo con hover mouse/penna; il tocco e il semplice focus da tastiera non li mostrano. Restano gli attributi accessibili per gli screen reader e il focus visibile per tastiera. Regole allineate ad AGENTS e master v69.5.
+
+Ramo isolato: `feat/service-nav-hover-tooltips`. Aggiornati il renderer delle pagine di servizio, i componenti JS/CSS canonici e le verifiche di navigazione e di tooltip. Le copie incorporate nel modello, nella pagina confronto e nei crediti devono restare sincronizzate. Contenuto dei capitoli, manifest e materiali esclusi non modificati. Stato: implementazione e verifica automatiche in corso; presentare PR e anteprima prima dell'approvazione. Nessun merge né pubblicazione autorizzati per questa revisione.
