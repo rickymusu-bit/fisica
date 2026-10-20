@@ -46,6 +46,8 @@ Per richiesta esplicita dell’utente del 18 ottobre 2026, ore 13:42 (Europe/Rom
 
 ## Gestione dei crediti e delle licenze — tema v10
 
+I crediti correnti devono riferirsi soltanto alle immagini e agli altri materiali ancora presenti nel documento. A ogni sostituzione o rimozione, aggiornare le associazioni del registro, la pagina generale e i crediti incorporati; eliminare dagli avvisi correnti i riferimenti a media non più usati. La pagina pubblica comprende soltanto i capitoli ammessi e la home. Conservare originali, schede e provenienze storiche nel registro, nei materiali di lavorazione e in Git, senza mostrarli come crediti dei capitoli attuali. Preservare le fonti dei dati e delle spiegazioni ancora utilizzati anche quando non sono associate a un’immagine. Eseguire il controllo delle associazioni con `scripts/credits.py --check` prima della consegna.
+
 Per la richiesta esplicita corrente, migrare i crediti di tutti gli articoli HTML, compresi i sorgenti storici e tradotti: questa revisione circoscritta non li riammette alla pubblicazione. Il manifest di pubblicazione resta invariato.
 
 Applicare C1 del master: nessuna sezione finale visibile automatica per immagini o font. Fonte unica `risorse/crediti.json`; pagina generata `crediti.html`; accesso comune e snapshot incorporato offline del tema v10. Registrare metadati disponibili tramite gli attributi `data-credit-*` e `python3 scripts/credits.py --sync`, quindi eseguire `--check` e la build Pages. Riutilizzare le schede esistenti, conservare gli avvisi OFL di Lexend e rispettare le eccezioni delle singole licenze, anche accanto alla figura quando prescritto. Non eliminare riferimenti scientifici né inventare autorizzazioni. Le istruzioni operative e lo schema sono in `risorse/README.md`.

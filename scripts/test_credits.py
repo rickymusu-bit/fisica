@@ -67,6 +67,24 @@ class RegistryTests(unittest.TestCase):
         self.assertEqual(len(self.registry['assets']), 1)
         self.assertEqual(self.registry['assets'][0]['kind'], 'image/png')
 
+    def test_removed_media_credit_is_pruned_but_source_and_history_survive(self):
+        self.article('one.html')
+        self.article('two.html')
+        credits.sync_inventory(self.registry)
+        removed = self.registry['documents']['one.html']['credits'][0]
+        self.registry['resources'].append({'id': 'physics-source', 'fingerprints': [],
+                                          'notices': ['Fonte dei dati della tabella']})
+        reference = {'resource': 'physics-source', 'notice': 0}
+        self.registry['documents']['one.html']['credits'].append(reference)
+        (self.root / 'one.html').write_text('<html><title>Test</title><p>Tabella ancora presente</p></html>')
+        # Anche il documento escluso perde l’immagine, ma il suo archivio è immutato.
+        (self.root / 'two.html').write_text('<html><title>Storico</title></html>')
+        credits.sync_inventory(self.registry)
+        self.assertEqual(self.registry['documents']['one.html']['credits'], [reference])
+        self.assertIn(removed, self.registry['documents']['two.html']['credits'])
+        self.assertTrue(any(r['id'] == removed['resource'] for r in self.registry['resources']))
+        self.assertEqual(credits.active_associations(self.registry, 'one.html'), [reference])
+
     def test_sync_preserves_media_and_adds_embedded_font_license(self):
         original = self.article('one.html').replace('</head>', '<style>@font-face{font-family:Lexend}</style></head>')
         (self.root / 'one.html').write_text(original)

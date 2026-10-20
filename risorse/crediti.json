@@ -1397,7 +1397,8 @@
       "links": [],
       "status": "review",
       "notices": [
-        "Mappe dei passaggi e schema dell’esempio: elaborazione per questa dispensa. Nello schema dell’esempio, fotografia di Frankie Fouganthin, CC BY-SA 4.0."
+        "Mappe dei passaggi e schema dell’esempio: elaborazione per questa dispensa. Nello schema dell’esempio, fotografia di Frankie Fouganthin, CC BY-SA 4.0.",
+        "Schema triangolare dei passaggi di stato e schema dell’esempio: elaborazione per questa dispensa. Nello schema dell’esempio, fotografia di Frankie Fouganthin, CC BY-SA 4.0."
       ],
       "metadata_sources": [],
       "fingerprints": []
@@ -3011,10 +3012,6 @@
           "notice": 0
         },
         {
-          "resource": "credit-07b5b0917b36b148",
-          "notice": 0
-        },
-        {
           "resource": "credit-eea60e8dec027db2",
           "notice": 0
         },
@@ -3262,7 +3259,7 @@
         },
         {
           "resource": "credit-72db4d1d2afe4276",
-          "notice": 0
+          "notice": 1
         },
         {
           "resource": "credit-d309ee2371db3d9d",

@@ -1,5 +1,11 @@
 # Stato — Home e GitHub Pages
 
+## Revisione corrente — crediti dei soli materiali presenti
+
+Controllo richiesto il 20 ottobre 2026 e nuova regola salvata in AGENTS, master v69.3 (integrazione puntuale) e istruzioni del registro. Rimosso dai crediti correnti di Conduzione il riferimento alla GIF Tenor sostituita dal fotogramma; in Passaggi di stato precisato l’avviso dello schema triangolare al posto della vecchia dicitura «mappe». Schede e avvisi storici conservati nel registro, sorgenti esclusi invariati. La pagina pubblica dei crediti comprende soltanto home e nove capitoli attuali.
+
+Sincronizzazione con rimozione automatica delle associazioni dei media non più presenti e controllo vincolante in --check; conservate le fonti testuali e degli schemi ancora utilizzati. Regressione su rimozione di un’immagine, conservazione della fonte dei dati e dei documenti storici. PR #49 ancora in bozza; nessun merge né Pages. Tema e crediti allineati, build e quattordici test superati. Controllati i crediti correnti di tutti i nove capitoli, assenza di Tenor dalla pagina pubblica e da Conduzione, conservazione della scheda storica e delle fonti testuali. Contenuto scientifico, immagini e didascalie identici; esclusi invariati. Browser su 390 e 1440 px: dieci sezioni pubbliche (home e nove capitoli), fotogramma correttamente accreditato, avvisi incorporati aggiornati, nessun overflow o errore JavaScript. Schermate `crediti-conduzione-*`. Preparazione dell’anteprima corrente della PR #49; pubblicazione ancora in attesa di approvazione.
+
 ## Revisione corrente — fotogramma e comandi media a icona
 
 Richiesta del 20 ottobre 2026: sostituire la GIF del palo gelato di Conduzione con il fotogramma fornito da A Christmas Story (1983); play/pausa e ingrandisci/rimpicciolisci a icona in basso a sinistra delle immagini, come regole comuni a tutti i capitoli. L’utente ha ritirato subito la nuova regola di allineamento delle didascalie: didascalie e relativo allineamento restano invariati. Ambito corrente: nove capitoli ammessi al sito e relative bozze, modello comune v21; nessuna riammissione né modifica degli HTML sospesi o tradotti. Master v69.2, integrazione puntuale dei nuovi comandi; nessun refactoring del master né nuova versione consolidata v70.
