@@ -1,6 +1,6 @@
 # Stato — La dilatazione termica
 
-Versione v16 — 20 ottobre 2026 (Europe/Rome).
+Versione v17 — 20 ottobre 2026 (Europe/Rome).
 
 ## Identità e fase
 
@@ -115,3 +115,9 @@ Bozza v10: inseriti FIG-05b, alt e didascalia, lasciando la foto del lago distin
 L'utente invia in chat la foto di FIG-06: osservata direttamente cucina con ghiaccio pendente dal controsoffitto e accumuli sul pavimento. L'immagine non mostra chiaramente la tubazione o la sequenza causale: evitare didascalie che la presentino come prova di una tubazione rotta dal congelamento. Bozza v11: aggiornati solo segnaposto e didascalia descrittiva, testo scientifico conservato. Visuali v15: registrate osservazione in chat, associazione al collegamento già scelto e verifiche aperte.
 
 Post originale, autore e possibilità di riutilizzo non documentati. Il file non compare tra gli allegati locali disponibili nell'ambiente; non dichiarare un salvataggio binario o un hash. Resta necessario recuperare il file effettivo e la provenienza prima dell'integrazione pubblicabile. Nessuna richiesta di nuova approvazione della scelta già fornita. Schema italiano del lago FIG-05b già generato, verificato e salvato nel commit f8860f3c544a47682d06503555ceeb2c7950894c; richiesta precedente completata. Nessun via generale all'HTML o alla pubblicazione ricevuto.
+
+## Titolo e fonte del post FIG-06 rintracciati
+
+Titolo fornito dall'utente: «This is what happens in my hometown when you don't leave the faucet trickling in the winter. Pipes bursting in Watertown, NY.». Ricerca limitata al titolo e all'identificativo dell'immagine; trovato e consultato il post Reddit https://www.reddit.com/r/WTF/comments/7p2hss/this_is_what_happens_in_my_hometown_when_you_dont/, account u/mynameisadrean, r/WTF. Il nome identifica il poster, non necessariamente il fotografo. Fonte locale contemporanea Big Frog 104 (12 gennaio 2018) documenta scena a Watertown e perdita da tubazioni e accredita Bennett Realty; attribuzione registrata come riportata, non accertamento del titolare. Visuali v16 con URL e fonti, bozza v12 con sola didascalia e crediti di servizio aggiornati.
+
+Non è più necessario chiedere il link del post originale. Restano da documentare i diritti di riutilizzo e recuperare il file binario. Nessun messaggio inviato a terzi. Non riprendere il consiglio sui rubinetti del titolo come indicazione tecnica autonoma. Testo scientifico, due tabelle, grafico e schema del lago conservati; nessun HTML o pubblicazione avviati. Verificare salvataggi remoti prima della consegna.
