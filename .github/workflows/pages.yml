@@ -1,4 +1,4 @@
-name: Pubblica Praticamente la Fisica
+name: Pubblica Stringhe
 
 on:
   push:
@@ -8,6 +8,7 @@ on:
       - 'pubblicazione.json'
       - '*.html'
       - 'scripts/build_pages.py'
+      - 'scripts/strings_site.py'
       - 'scripts/credits.py'
       - 'risorse/**'
       - 'licenze/**'
