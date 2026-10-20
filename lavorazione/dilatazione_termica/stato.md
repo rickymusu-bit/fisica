@@ -171,3 +171,9 @@ Recepita la richiesta generale dell’utente: etichetta dell’area «Termologia
 L’utente approva esplicitamente l’anteprima corrente con «Okay, publica». Autorizzata l’integrazione della PR #52 e la pubblicazione del capitolo con macro categoria Termologia e credito generale a Codex e ChatGPT. Nuovo capitolo ammesso al manifest e al catalogo al quinto posto, tra Il bilancio termico e Stati della materia; aggiornati i rimandi di navigazione dei capitoli vicini. Il contenuto approvato rimane invariato. Pagina dei crediti rigenerata includendo il nuovo capitolo. Eseguire verifiche finali, merge e controllo del deployment.
 
 Build di pubblicazione con 10 capitoli e controllo dei rimandi precedente/successivo superati. Crediti pubblici includono il nuovo capitolo e il riconoscimento «Il sito è stato realizzato con l’aiuto di Codex e ChatGPT.». Superati 14 test e controlli dei componenti; catalogo a 320, 390 e 1440 px verificato con tutti i dieci capitoli nel filtro Termologia. Workflow di verifica del codice finale: https://github.com/rickymusu-bit/fisica/actions/runs/39480618196 .
+
+## Pubblicazione completata — 20 ottobre 2026
+
+PR #52 integrata in main, commit `04b539e12f78c3d4e2a50e36f21025d6449898ad`. Verifica automatica finale superata: https://github.com/rickymusu-bit/fisica/actions/runs/39480820352 . Deployment GitHub Pages riuscito: https://github.com/rickymusu-bit/fisica/actions/runs/39481434258 .
+
+Controllate le pagine pubbliche del capitolo, del catalogo e dei crediti: tutte HTTP 200. Il capitolo online coincide byte per byte con la build verificata, comprende 11 didascalie e il chiarimento 1000,025 mL. Catalogo con nuovo capitolo nella macro categoria Termologia e crediti generali con Codex e ChatGPT effettivamente online. Rapporto con dimensioni e SHA-256 in `verifica-pubblicazione.json`. Indirizzo: https://rickymusu-bit.github.io/fisica/dilatazione_termica_it.html .

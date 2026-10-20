@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://rickymusu-bit.github.io/fisica/dilatazione_termica_it.html",
+    "status": 200,
+    "bytes": 16078962,
+    "sha256": "84bf320d5a6053d06d258fc600134fb60fe67fded2a3fe57dfb05152e509d55b"
+  },
+  {
+    "url": "https://rickymusu-bit.github.io/fisica/articoli.html",
+    "status": 200,
+    "bytes": 341305,
+    "sha256": "3093b79a3f428f6c270ff6cbca662931afff91a05e506b266640d1046836a7e2"
+  },
+  {
+    "url": "https://rickymusu-bit.github.io/fisica/crediti.html",
+    "status": 200,
+    "bytes": 383907,
+    "sha256": "087ef456a3bf25d8058ea26b2c27f7754ca9575a1617e6eba3a6333813c748a3"
+  }
+]
