@@ -1,20 +1,28 @@
-# Logo definitivo di Materia Oscura
+# Logo di Stringhe
 
-Versione v5 · 18 ottobre 2026. Scelta approvata dall’utente, che ha richiesto di eliminare gli altri tentativi, pubblicarla nella home e sostituire l’icona in alto a sinistra negli articoli. È una regola del tema comune **v7**, salvato in `riferimenti/TEMA_DISPENSE.html`.
+Versione v8 — 20 ottobre 2026. La richiesta corrente aggiunge alla curva nera originale una curva con gradiente blu in opposizione di fase. Questa scelta aggiorna la precedente regola del logo monocromatico; Git conserva le versioni anteriori.
 
-I soli file grafici correnti sono:
+Percorsi stabili:
 
-- **logo-materia-oscura.svg**: originale vettoriale animato, autonomo e senza script esterni.
-- **logo-materia-oscura.gif**: copia animata trasparente, 256 × 256 px, 80 fotogrammi a 20 fps, periodo di 4 secondi.
+- `logo-materia-oscura.svg`: vettoriale animato autonomo, con due curve separate.
+- `logo-materia-oscura.gif`: esportazione trasparente dello stesso disegno, 256 × 256 px, 80 fotogrammi a 20 fps, periodo 4 secondi.
 
-Una sola curva nera su sfondo trasparente, senza riempimenti, scie o configurazioni sovrapposte. Onda sinusoidale **stazionaria**, quattro creste, nodi angolari fissi e ventri oscillanti, nessuna rotazione. Ampiezza definitiva **20**, raggio di riferimento 104 e tratto di 7 unità nel viewBox 320 × 320. Non ridurre l’ampiezza né riprendere le proposte progressive o a otto lobi. Il motivo a quadretti dell’anteprima serve soltanto a mostrare la trasparenza.
+## Geometria e movimento
 
-Il logo compare accanto al titolo nella home e al posto del simbolo φ nella barra in alto a sinistra di ogni articolo conformato. Il modello autonomo conserva l’esatto componente da riusare nei capitoli futuri: SVG incorporato, pulsante per pausa/ripresa e movimento ridotto, dimensioni responsive. Il collegamento «Fisica» accanto al logo continua a riportare all’inizio dell’articolo.
+Curva nera invariata: `r₁(θ,t)=104+20 cos(4θ) sin(2πt/4)`. Curva blu: `r₂(θ,t)=104−20 cos(4θ) sin(2πt/4)`. Stessa ampiezza e opposizione di fase; nessuna somma delle due curve, nessuna rotazione. Nodi fissi a 22,5° + k · 45°. Il tratto nero resta di 7 unità nel viewBox 320 × 320. La blu usa lo stesso spessore e gradiente `#83D4FA` → `#337CD8` → `#4140A3`. Nei punti e negli istanti in cui le curve coincidono, il tratto nero è sopra quello blu.
 
-I controlli comuni sono in `controlli-logo.js`, incorporati identici nella home e nel tema. Si può fermare/riprendere il logo con clic, Invio o Spazio. Con movimento ridotto parte fermo; senza script lo SVG mantiene l’animazione nativa e l’alternativa ferma prevista dalla preferenza di movimento. Gli articoli restano autonomi e offline. I sette sorgenti esclusi da `pubblicazione.json` non ricevono aggiornamenti.
+Il test conserva l’impronta SHA-256 della sequenza nera già approvata e verifica che la blu corrisponda a uno sfasamento di 16 campioni su 32. I controlli comuni `controlli-logo.js` fermano/riprendono entrambe le curve nello stesso SVG, con clic, Invio o Spazio. Con movimento ridotto la coppia è statica, mostrata nella configurazione di massima deformazione per mantenere entrambe le curve distinguibili. La superficie chiara dedicata al logo garantisce il contrasto anche nel tema scuro.
 
-Modello geometrico: `r(θ,t)=104+20 cos(4θ) sin(2πt/T)`, `T=4 s`. Nodi a 22,5° + k · 45°. Il fattore temporale è campionato in 32 intervalli, con errore sullo spostamento inferiore a 0,10 unità. Generatore unico `scripts/logo_materia_oscura.py`: eseguire `python scripts/logo_materia_oscura.py` per rigenerare lo SVG, poi riesportare la GIF dallo stesso originale se si modifica il disegno.
+## Rigenerazione e incorporamento
 
-La build pubblica soltanto questa coppia di file sotto `identita/`. I tentativi precedenti e i loro generatori/anteprime sono rimossi dall’albero corrente; quelli già salvati restano recuperabili in Git, senza ripristinarli come alternative attive. Il riferimento originale dell’utente resta conservato in `lavorazione/sito/risorse-originali/riferimento-stringhe.jpg`, non pubblicato.
+`python3 scripts/logo_materia_oscura.py` rigenera lo SVG. `python3 scripts/logo_materia_oscura.py --gif` rigenera anche la GIF; l’esportazione usa Chromium/Playwright e Pillow, senza dipendenze aggiuntive per il sito.
 
-Anteprima unica: `lavorazione/sito/anteprima-logo.html`. Verifica del modello e hash dei file: `lavorazione/sito/verifica-logo.json`; controlli di integrazione e pubblicazione: `lavorazione/sito/logo-definitivo.json`.
+`scripts/stringhe_theme.py` incorpora lo stesso SVG nella home, nel modello v19 e nelle sole nove copie pubblicabili. `scripts/sync_stringhe_theme.py` allinea modello, confronto e pagina crediti; il registro aggiorna l’inventario del nuovo SVG del modello. Non riscrivere i sorgenti degli articoli, sospesi compresi. Il logo precedente e il riferimento originale dell’utente restano recuperabili in Git e in `lavorazione/sito/risorse-originali/`.
+
+Nella home il logo accompagna il titolo in un’unica card condivisa con la copertina fotografica, senza onde laterali. Su mobile la foto è sotto al titolo; su desktop è affiancata. Il contenitore della didascalia ha la stessa larghezza dell’immagine, così il suo bordo sinistro coincide sempre con quello della fotografia, senza ritagli né bande interne. Restano le altre scelte approvate: reticolo regolare e sinusoidi verticali di uguale ampiezza.
+
+Il tema comune usa l’menu accessibile Chiaro/Scuro con luna o sole: Scuro predefinito, scelta persistente. Il default non segue il sistema. Novità ordina i soli capitoli ammessi tramite la data editoriale HTML, senza dipendere dalle date dei file o dalla cronologia Git. Le revisioni dei contenuti aggiornano tale data; il restyling comune la conserva.
+
+La barra dei capitoli mostra quattro comandi di lettura su un’unica riga: casa, libri, download e indice, con icone SVG incorporate, nomi accessibili, suggerimenti e aree di tocco da 44 px. Lingua e menu del tema restano allineati agli altri comandi; la lingua mostra IT al posto del globo, anche nella home. Nel grafico di riscaldamento i radio invisibili restano ancorati al viewport, evitando il salto causato dal focus nativo; tastiera e fallback senza JavaScript restano disponibili.
+
+Titolo, copertina e testo condividono la stessa superficie e le stesse onde laterali continue. La regola corrente richiede sempre l’approvazione esplicita dell’anteprima prima di ogni merge in main o deployment Pages.

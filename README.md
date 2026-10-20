@@ -34,3 +34,7 @@ La scritta sopra il titolo degli articoli mostra il nome dell’area tematica pr
 La gestione corrente delle attribuzioni è descritta in [risorse/README.md](risorse/README.md). Il registro JSON deduplica le risorse, conserva integralmente gli avvisi originali e inventaria automaticamente immagini, animazioni e font. Eseguire `python3 scripts/credits.py --sync`, poi `python3 scripts/credits.py --check` e `python3 scripts/build_pages.py`. La pagina statica e gli snapshot autonomi sono generati senza richieste di rete. Il copyright e la licenza OFL sono anche in `licenze/Lexend-OFL.txt`.
 
 La revisione dei crediti richiesta il 18 ottobre 2026 comprende tutti i 20 articoli HTML, anche sospesi e tradotti, senza riattivarne la pubblicazione. Sono ora nove gli articoli ammessi a Pages. Le licenze non documentate sono elencate separatamente nella pagina dei crediti: la centralizzazione non attesta un’autorizzazione mancante.
+
+## Nuovo portale Stringhe (ramo di progettazione)
+
+Titolo: **Stringhe** — **L’essenziale della Fisica**. Durante la build sono generate `index.html`, `articoli.html`, `quiz.html` e la navigazione comune per i soli articoli ammessi in `pubblicazione.json`. Il generatore è `scripts/strings_site.py`; il catalogo contiene ricerca e filtri; il comando «Mi sento fortunato» seleziona soltanto articoli pubblicati. Le pagine non vengono pubblicate da questo ramo fino alla revisione e integrazione.
