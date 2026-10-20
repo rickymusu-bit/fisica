@@ -45,7 +45,8 @@
   if (index) index.addEventListener('toggle', () => {
     const label = index.open ? 'Chiudi indice' : 'Indice del capitolo';
     index.querySelector('summary').setAttribute('aria-label', label);
-    index.querySelector('summary').title = label;
+    index.querySelector('summary').dataset.functionName = label;
+    index.querySelector('summary').removeAttribute('title');
     document.querySelectorAll('.top-links > :not(.reader-index)').forEach(item => { item.inert = index.open; });
   });
   const bar = document.querySelector('.topbar');
