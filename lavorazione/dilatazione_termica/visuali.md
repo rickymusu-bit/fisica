@@ -1,6 +1,6 @@
 # Visuali — La dilatazione termica
 
-Versione v13 — 20 ottobre 2026 (Europe/Rome).
+Versione v14 — 20 ottobre 2026 (Europe/Rome).
 
 ## Direzione concordata e proposta aggiornata
 
@@ -155,3 +155,14 @@ L'utente richiede: «Per il grafico costruiscilo tu a partire dai dati i dati su
 ## Stato corrente e prossima fase
 
 Giunto ferroviario Hayle scelto e provenienza verificata; collegamento Reddit registrato con ispezione e diritti pendenti. Nessun file fotografico esterno scaricato per il problema del proxy. Grafico statico realizzato e salvato su richiesta, con dati e generatore. Bozza v9 aggiorna i rimandi e le didascalie; la sola precisazione aggiunta ai binari collega la foto al giunto specifico nelle rotaie continue. Testo scientifico v7 approvato conservato nel resto; due tabelle e 12 domande invariate. Resta da completare la scelta puntuale FIG-03 dalla pagina indicata. Nessun via generale all'HTML o alla pubblicazione ricevuto.
+
+## FIG-05b — Schema originale del lago ghiacciato, generazione richiesta
+
+Richiesta esplicita: «Per il lago ghiacciato puoi creare uno schema simile a questo?», con allegato 15003.jpg. La richiesta autorizza questa illustrazione statica, non l'HTML complessivo. Il riferimento è stato osservato prima della generazione; creata una composizione nuova in italiano con OpenAI imagegen, poi corretto il solo richiamo bianco che inizialmente terminava sul sedimento. Risultato finale ispezionato: etichette nell'acqua, circa 0 °C immediatamente sotto il ghiaccio, 1–3 °C intermedi, circa 4 °C nella zona profonda, ghiaccio superficiale distinto, aria sotto 0 °C. Temperature indicative e profondità non in scala dichiarate nell'immagine. Nessuna specie marina decorativa introdotta. La figura illustra il caso generale di lago d'acqua dolce sufficientemente profondo; non misura la foto di Lake Louise.
+
+- File corrente: [schema-lago-ghiacciato.png](risorse/schema-lago-ghiacciato.png), PNG 1448 × 1086 px, 1605879 byte. SHA-256 be976ba1f694280ac6bcc9ec6028e41e2ec14857edcfb876fcafd3c308e4ff04. Generazione originale e correzione tramite imagegen; nessuna compressione, conversione o ritaglio successivi.
+- Riferimento dell'utente conservato integralmente: [riferimento-lago.jpg](risorse/riferimento-lago.jpg), 1239 × 1280 px, 95887 byte; SHA-256 a8386f3e18fd94ef6ad64c943875c7425672535d6aad892ebc1c350ccd922bc6. L'allegato contiene un marchio stock: conservato come fonte di lavorazione, non incorporarlo o pubblicarlo. Nessuna licenza del riferimento dedotta dal caricamento e nessuna licenza CC assegnata per deduzione al nuovo schema.
+- Provenienza del nuovo schema: OpenAI imagegen, richiesta dell'utente, 20 ottobre 2026. Registrare questa provenienza nel registro unico alla realizzazione HTML, senza confonderla con la licenza CC BY-SA della foto del lago.
+- Collocazione: dopo la spiegazione del raffreddamento della superficie e prima del paragrafo sull'isolamento del ghiaccio. La fotografia FIG-05 resta scelta e distinta; nessuna sostituzione della foto dedotta dalla richiesta di creare uno schema.
+- Bozza v10: aggiunta la figura con alt e didascalia; resto del testo, tabelle, grafico e 12 domande conservati. Nessuna animazione o simulazione.
+- La figura generata è proposta all'utente per revisione; nessuna approvazione del risultato finale dedotta. La generazione esplicitamente richiesta non autorizza pubblicazione o via generale all'HTML. Salvataggio nel ramo dedicato da verificare.

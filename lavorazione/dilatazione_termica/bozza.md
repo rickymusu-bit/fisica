@@ -1,7 +1,7 @@
 # La dilatazione termica
 
-Bozza v9 — 20 ottobre 2026 (Europe/Rome).
-Testo scientifico v7 approvato. Questa v9 aggiorna i materiali scelti e aggiunge il grafico statico richiesto, con provenienza in visuali.md. File binari e ulteriori materiali ancora da ricevere o recuperare.
+Bozza v10 — 20 ottobre 2026 (Europe/Rome).
+Testo scientifico v7 approvato. Questa v10 aggiorna i materiali scelti e aggiunge il grafico statico richiesto, con provenienza in visuali.md. File binari e ulteriori materiali ancora da ricevere o recuperare.
 
 [IMMAGINE COP-01 — SHB-Red-Dust.jpg, copertina scelta; originale binario da recuperare.]
 Didascalia: Il Sydney Harbour Bridge durante una tempesta di polvere rossa.
@@ -114,6 +114,10 @@ Didascalia: Il lago Louise, in Canada, con la superficie ghiacciata.
 
 Quando l'acqua superficiale di un lago si raffredda verso 4 °C diventa più densa e tende a scendere, rimescolando l'acqua. Sotto questa temperatura, però, l'ulteriore raffreddamento la rende meno densa: l'acqua più fredda può restare in superficie, dove si forma il ghiaccio.
 
+![Sezione di un lago d'acqua dolce in inverno: ghiaccio in superficie, acqua liquida da circa 0 °C subito sotto il ghiaccio a circa 4 °C nella zona profonda. Temperature indicative e profondità non in scala.](risorse/schema-lago-ghiacciato.png)
+
+Didascalia: Sotto il ghiaccio può restare acqua liquida. In questa situazione invernale tipica, la temperatura aumenta verso la zona profonda, dove l'acqua è più densa.
+
 Il ghiaccio galleggia e lo strato superficiale rallenta la perdita di calore dell'acqua sottostante. In un lago d'acqua dolce sufficientemente profondo può quindi rimanere acqua liquida sotto la superficie gelata.[3] L'anomalia dell'acqua e la minore densità del ghiaccio contribuiscono entrambe a questa situazione.
 
 ### Quando il congelamento provoca danni
@@ -162,3 +166,5 @@ Testo originale. Fonti consultate per controllo dei principi; trasferire i rifer
 Le scelte e le licenze documentate di COP-01, FIG-01, FIG-02, FIG-04, FIG-05 e FIG-07 e le proposte per FIG-03 sono conservate in [visuali.md](visuali.md), da trasferire al registro unico nell'HTML. Nessun file binario ancora scaricato o ispezionato. FIG-06 è indicata tramite URL ma non ancora accessibile o verificata. GRA-01 è ora realizzato con dati di riferimento e script salvati. Le didascalie e le descrizioni saranno allineate agli originali. GRA-01 è una curva calcolata, non una nuova misura sperimentale, dalla relazione di densità raccomandata dal NIST.
 
 Fonte di servizio per GRA-01: NIST, Selected Procedures for Volumetric Calibrations (2019), GLP 10 §6.1, https://doi.org/10.6028/NIST.IR.7383-2019 . Relazione di Tanaka et al. (2001) per acqua pura priva di aria disciolta alla pressione di riferimento 101325 Pa. Conversione V=m/ρ con massa fissa 1 kg; dati CSV e generatore in risorse/. Fonte fotografica per FIG-07: Rwendland, Expansion joint, Hayle, https://commons.wikimedia.org/wiki/File:Expansion_joint,_Hayle.jpg , CC BY-SA 3.0. Per FIG-06 mancano post originale, autore e autorizzazione documentata.
+
+FIG-05b, schema del lago: illustrazione generata con OpenAI imagegen su richiesta esplicita dell'utente il 20 ottobre 2026, usando l'allegato 15003.jpg come riferimento concettuale per una nuova figura italiana. Non attribuire allo schema generato la licenza della fotografia di Lake Louise o del riferimento. Riferimento allegato conservato separatamente per la sola lavorazione, non destinato alla pubblicazione. Temperature illustrative, non misure di Lake Louise; scientificamente riferite al caso descritto nel testo e alla fonte USGS già citata nei crediti di servizio.

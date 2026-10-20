@@ -1,12 +1,12 @@
 # Stato — La dilatazione termica
 
-Versione v14 — 20 ottobre 2026 (Europe/Rome).
+Versione v15 — 20 ottobre 2026 (Europe/Rome).
 
 ## Identità e fase
 
 - Quinto articolo del percorso introduttivo di termodinamica, area «Materia e calore».
 - Ramo dedicato: `termodinamica/dilatazione-termica`, derivato da main al commit `1a9b1b3d6abdf87656f19b22ec001db312808cec`.
-- Fase corrente: testo scientifico v7 approvato; bozza v8 con soli segnaposto aggiornati; materiali visuali e via esplicito all'HTML da ricevere.
+- Fase corrente: testo scientifico v7 approvato; bozza v10 con materiali aggiornati e schema del lago generato su richiesta; materiali visuali e via esplicito all'HTML da ricevere.
 - Richiesta ricevuta: «Nel mio repo GitHub di fisica Procedi a creare il quinto argomento del piano».
 - Il piano v6 identifica il quinto argomento come La dilatazione termica e ne lascia espressamente sviluppo e visuali da concordare.
 
@@ -101,3 +101,11 @@ FIG-06: scelto URL i.redd.it/2jq40fxtax801.jpg. Apertura web e download curl non
 Richiesta esplicita di costruire il grafico dalla densità: autorizzazione diretta per GRA-01, non per l'HTML completo. Creati SVG, CSV e script Python in risorse/, con relazione NIST GLP 10 §6.1 (2019)/Tanaka per acqua pura air-free a 101325 Pa. Grafico del volume di 1 kg da 0 a 10 °C, minimo 3,983035 °C, scala verticale ingrandita dichiarata. Confronto numerico con il dato NIST a 10 °C, conversione V=m/rho, monotonia e punto minimo verificati. Anteprima PNG osservata; nessun testo tagliato o sovrapposto. Dati di riferimento calcolati, non nuove misure. Nessuna simulazione aggiunta. Font dell'anteprima DejaVu Sans, da integrare col font canonico nella fase HTML.
 
 Bozza v9 e visuali v13 aggiornate. Preservati testo approvato nel resto, tabelle scientifiche, 12 domande e assenza della relazione alfa-beta. Resta la scelta puntuale FIG-03 e il recupero dei file esterni. Nessun via generale all'HTML o pubblicazione. Verificare il commit remoto e i sei file prima della consegna.
+
+## Schema del lago richiesto — 20 ottobre 2026
+
+L'utente allega 15003.jpg e chiede di creare uno schema simile per il lago ghiacciato. Autorizzazione diretta alla sola figura statica. Riferimento osservato; generata composizione originale italiana tramite imagegen e corretta una linea di richiamo al fondo. Figura finale osservata: ghiaccio superficiale, acqua liquida circa 0 °C sotto il ghiaccio e circa 4 °C in profondità, temperature indicative e profondità non in scala. Nessuna temperatura assegnata a tutto il ghiaccio; nessun elemento marino improprio. Non è una misura della fotografia del lago Louise.
+
+Salvati schema-lago-ghiacciato.png (1448 × 1086, 1605879 byte, SHA-256 be976ba1f694280ac6bcc9ec6028e41e2ec14857edcfb876fcafd3c308e4ff04) e riferimento-lago.jpg (1239 × 1280, 95887 byte, SHA-256 a8386f3e18fd94ef6ad64c943875c7425672535d6aad892ebc1c350ccd922bc6) in risorse/. Riferimento stock conservato per lavorazione, non destinato alla pubblicazione; nuovo schema con provenienza imagegen, nessuna licenza del riferimento o della foto trasferita per deduzione. Metadati in visuali.md v14 e crediti di servizio, da trasferire al registro unico nella realizzazione.
+
+Bozza v10: inseriti FIG-05b, alt e didascalia, lasciando la foto del lago distinta. Testo approvato, due tabelle, grafico e 12 domande conservati. Risultato visuale consegnato per revisione, nessuna approvazione del risultato dedotta. Nessun via generale all'HTML o alla pubblicazione. Verificare commit remoto e impronta dei file binari; le fotografie esterne e FIG-06 mantengono i limiti già registrati.
