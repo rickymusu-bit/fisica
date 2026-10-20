@@ -2699,7 +2699,7 @@
       "id": "credit-grafico-calore-temperatura",
       "description": "Grafico originale T(Q) di acqua e sabbia quarzosa",
       "source": null,
-      "author": "Materia Oscura",
+      "author": "Stringhe",
       "license": null,
       "license_url": null,
       "changes": null,
@@ -2714,7 +2714,8 @@
         "asset-50f780b80d4b27a9ecfa6cddfc97f7cac4f6115bca35f045f874b25074bd3745"
       ],
       "notices": [
-        "Grafico GRA-01 — realizzazione originale per Materia Oscura. Previsioni da T = T iniziale + Q/(m · c), con m = 1 kg, T iniziale = 20 °C e i calori specifici della tabella. Dati sperimentali non inventati; la fonte dei valori è accreditata separatamente."
+        "Grafico GRA-01 — realizzazione originale per Materia Oscura. Previsioni da T = T iniziale + Q/(m · c), con m = 1 kg, T iniziale = 20 °C e i calori specifici della tabella. Dati sperimentali non inventati; la fonte dei valori è accreditata separatamente.",
+        "Grafico GRA-01 — realizzazione originale per Stringhe. Previsioni da T = T iniziale + Q/(m · c), con m = 1 kg, T iniziale = 20 °C e i calori specifici della tabella. Dati sperimentali non inventati; la fonte dei valori è accreditata separatamente."
       ]
     },
     {
@@ -2784,7 +2785,7 @@
       "id": "credit-bilancio-temperatura-tempo",
       "description": "Temperature del caffè e del latte nel tempo — grafico di modello",
       "source": null,
-      "author": "Materia Oscura",
+      "author": "Stringhe",
       "license": null,
       "license_url": null,
       "changes": null,
@@ -2800,7 +2801,8 @@
         "bilancio_termico_it.html"
       ],
       "notices": [
-        "Grafico originale per Materia Oscura, richiesto dall’utente. Modello illustrativo: caffè 100 g a 80 °C, latte 50 g a 20 °C, calori specifici uguali, temperatura di equilibrio 60 °C. T_c = 60 + 20 exp(−t/60); T_l = 60 − 40 exp(−t/60), t in secondi. Tempo caratteristico ipotizzato di 60 s, non misurato; tazza e ambiente trascurati. Le curve conservano il bilancio energetico e rappresentano un flusso proporzionale alla differenza di temperatura, non dati sperimentali."
+        "Grafico originale per Materia Oscura, richiesto dall’utente. Modello illustrativo: caffè 100 g a 80 °C, latte 50 g a 20 °C, calori specifici uguali, temperatura di equilibrio 60 °C. T_c = 60 + 20 exp(−t/60); T_l = 60 − 40 exp(−t/60), t in secondi. Tempo caratteristico ipotizzato di 60 s, non misurato; tazza e ambiente trascurati. Le curve conservano il bilancio energetico e rappresentano un flusso proporzionale alla differenza di temperatura, non dati sperimentali.",
+        "Grafico originale per Stringhe, richiesto dall’utente. Modello illustrativo: caffè 100 g a 80 °C, latte 50 g a 20 °C, calori specifici uguali, temperatura di equilibrio 60 °C. T_c = 60 + 20 exp(−t/60); T_l = 60 − 40 exp(−t/60), t in secondi. Tempo caratteristico ipotizzato di 60 s, non misurato; tazza e ambiente trascurati. Le curve conservano il bilancio energetico e rappresentano un flusso proporzionale alla differenza di temperatura, non dati sperimentali."
       ]
     },
     {
@@ -3315,7 +3317,7 @@
       "lexend": false
     },
     "conduzione_it.html": {
-      "title": "Conduzione — Materia Oscura",
+      "title": "Conduzione — Stringhe",
       "anchor": "conduzione-it",
       "credits": [
         {
@@ -3358,7 +3360,7 @@
       "lexend": true
     },
     "convezione_it.html": {
-      "title": "Convezione — Materia Oscura",
+      "title": "Convezione — Stringhe",
       "anchor": "convezione-it",
       "credits": [
         {
@@ -3700,7 +3702,7 @@
       "review": "Il sorgente non documenta crediti individuali delle immagini. Verificare le risorse inventariate prima della redistribuzione."
     },
     "index.html": {
-      "title": "Materia Oscura",
+      "title": "Stringhe",
       "anchor": "index",
       "credits": [
         {
@@ -3793,7 +3795,7 @@
       "lexend": true
     },
     "termodinamica_sistemi_it.html": {
-      "title": "La termodinamica e i sistemi termodinamici — Materia Oscura",
+      "title": "La termodinamica e i sistemi termodinamici — Stringhe",
       "credits": [
         {
           "resource": "credit-ea7f1599a7b1ead9",
@@ -3857,7 +3859,7 @@
       "lexend": true
     },
     "temperatura_equilibrio_termico_it.html": {
-      "title": "Temperatura ed equilibrio termico — Materia Oscura",
+      "title": "Temperatura ed equilibrio termico — Stringhe",
       "credits": [
         {
           "resource": "credit-d55ba5f7cec2dfd8",
@@ -3881,7 +3883,7 @@
       "lexend": true
     },
     "energia_interna_calore_specifico_it.html": {
-      "title": "Energia interna, calore e calore specifico — Materia Oscura",
+      "title": "Energia interna, calore e calore specifico — Stringhe",
       "anchor": "energia-interna-calore-specifico-it",
       "credits": [
         {
@@ -3906,7 +3908,7 @@
         },
         {
           "resource": "credit-grafico-calore-temperatura",
-          "notice": 0
+          "notice": 1
         },
         {
           "resource": "credit-46059ba4845c6470",
@@ -3917,7 +3919,7 @@
       "review": ""
     },
     "bilancio_termico_it.html": {
-      "title": "Il bilancio termico — Materia Oscura",
+      "title": "Il bilancio termico — Stringhe",
       "credits": [
         {
           "resource": "credit-bb83593b4b1174cb",
@@ -3937,7 +3939,7 @@
         },
         {
           "resource": "credit-bilancio-temperatura-tempo",
-          "notice": 0
+          "notice": 1
         },
         {
           "resource": "credit-33bd094388b36762",
@@ -3949,7 +3951,7 @@
       "lexend": true
     },
     "dilatazione_termica_it.html": {
-      "title": "La dilatazione termica",
+      "title": "La dilatazione termica — Stringhe",
       "anchor": "dilatazione-termica",
       "lexend": true,
       "credits": [
@@ -4322,66 +4324,6 @@
           "attribute": "cover-data",
           "location": "copertine/computer-quantistico.webp",
           "credit_id": "credit-c563b110d74cf49f"
-        }
-      ]
-    },
-    {
-      "id": "asset-1ea920e6d05bfc93a7aa13c794b49724d49240353bce69ea35e47878a5ba0f51",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "energia_interna_calore_specifico_it.html",
-          "kind": "svg",
-          "description": "svg",
-          "locator": "brand-logo",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "irraggiamento_it.html",
-          "kind": "svg",
-          "description": "svg",
-          "locator": "brand-logo",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "passaggi_di_stato.html",
-          "kind": "svg",
-          "description": "svg",
-          "locator": "brand-logo",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "stati_della_materia.html",
-          "kind": "svg",
-          "description": "svg",
-          "locator": "brand-logo",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "temperatura_equilibrio_termico_it.html",
-          "kind": "svg",
-          "description": "svg",
-          "locator": "brand-logo",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "termodinamica_sistemi_it.html",
-          "kind": "svg",
-          "description": "svg",
-          "locator": "brand-logo",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
         }
       ]
     },
@@ -5928,21 +5870,6 @@
       ]
     },
     {
-      "id": "asset-86428fa3183e529c696a7206aab5596253e70d371256ebc806965309c6900a25",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "bilancio_termico_it.html",
-          "kind": "svg",
-          "description": "svg",
-          "locator": "brand-logo",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-86750339ad05595da5b0dd3dc2f403c80685ec9159a7332d6df50c2456adce26",
       "kind": "image/jpeg",
       "uses": [
@@ -6801,21 +6728,6 @@
       ]
     },
     {
-      "id": "asset-b48c75000800867feafb285e39462614b1188e9b938d2a24ec638448274883c7",
-      "kind": "img",
-      "uses": [
-        {
-          "document": "index.html",
-          "kind": "img",
-          "description": "img",
-          "locator": "site-logo",
-          "attribute": "src",
-          "location": "identita/logo-materia-oscura.svg",
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-b582a9d43c7fef1a70c61a0c232768300e43883c3773c05950722ba9be2447cd",
       "kind": "image/jpeg",
       "uses": [
@@ -7099,7 +7011,97 @@
       "kind": "svg",
       "uses": [
         {
+          "document": "bilancio_termico_it.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "brand-logo",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        },
+        {
+          "document": "conduzione_it.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "brand-logo",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        },
+        {
+          "document": "convezione_it.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "brand-logo",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        },
+        {
           "document": "dilatazione_termica_it.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "brand-logo",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        },
+        {
+          "document": "energia_interna_calore_specifico_it.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "brand-logo",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        },
+        {
+          "document": "irraggiamento_it.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "brand-logo",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        },
+        {
+          "document": "passaggi_di_stato.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "brand-logo",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        },
+        {
+          "document": "stati_della_materia.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "brand-logo",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        },
+        {
+          "document": "temperatura_equilibrio_termico_it.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "brand-logo",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        },
+        {
+          "document": "termodinamica_sistemi_it.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "brand-logo",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        },
+        {
+          "document": "index.html",
           "kind": "svg",
           "description": "svg",
           "locator": "brand-logo",
@@ -7449,30 +7451,6 @@
           "description": "Portret i Galileo Galileit me një teleskop të vogël në dorë",
           "locator": "osservare",
           "attribute": "src",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-d2205227c851c14952c38576fcc735cb260e8ee72fc64dc37e2a8e866308611d",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "conduzione_it.html",
-          "kind": "svg",
-          "description": "svg",
-          "locator": "brand-logo",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "convezione_it.html",
-          "kind": "svg",
-          "description": "svg",
-          "locator": "brand-logo",
-          "attribute": "inline",
           "location": null,
           "credit_id": null
         }

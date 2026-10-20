@@ -8,7 +8,7 @@ Il registro autorevole è `crediti.json`. `crediti.html`, i riquadri incorporati
 
 `documents` associa ciascun articolo alle schede e alla variante dell’avviso, con titolo e ancora stabili. `assets` deduplica le risorse effettivamente rilevate per SHA-256 dei byte incorporati, del codice SVG/canvas o dell’URL quando il file non è incorporato. Le occorrenze conservano articolo, descrizione, posizione e associazione alla scheda, se verificabile. L’inventario non implica una licenza. Comprende le anteprime di pausa/movimento ridotto e le immagini annidate nei documenti iframe. I file originali inutilizzati della lavorazione non diventano automaticamente risorse pubblicate.
 
-Per un nuovo articolo utilizzare il tema v10 e specificare i metadati disponibili sulla figura o sull’immagine:
+Per un nuovo capitolo utilizzare il modello canonico corrente `riferimenti/TEMA_DISPENSE.html` e specificare i metadati disponibili sulla figura o sull’immagine:
 
 ```html
 <figure id="figura-1"
@@ -25,14 +25,18 @@ Per riutilizzare una scheda è sufficiente `data-credit-id="credit-identificativ
 
 Le venti copertine condividono questo registro: `copertine/manifest.json` contiene i soli dati visivi e il rinvio `credit_id`. Il renderer ricava autore, fonte, licenza e modifiche dalla scheda centrale. I vecchi registri di lavorazione sono conservati come documentazione storica; non sono archivi da compilare nuovamente.
 
-Gli articoli ammessi e la home mostrano un solo comando «Crediti e licenze», che apre la copia incorporata degli avvisi necessari. Il collegamento interno «Crediti di tutti gli articoli» apre la pagina generale online, anche da un file locale. Il dialogo funziona offline; senza JavaScript il collegamento rende il contenuto visibile mediante `:target`. Il copyright e la OFL di Lexend sono incorporati negli HTML che usano il font e distribuiti anche come file di testo. Gli HTML che non usano Lexend non ricevono una falsa attribuzione del font.
+I capitoli ammessi e la home mostrano un solo comando «Crediti e licenze», che apre la copia incorporata degli avvisi necessari. Il collegamento interno «Crediti di tutti i capitoli» apre la pagina generale online, anche da un file locale. Il dialogo funziona offline; senza JavaScript il collegamento rende il contenuto visibile mediante `:target`. Il copyright e la OFL di Lexend sono incorporati negli HTML che usano il font e distribuiti anche come file di testo. Gli HTML che non usano Lexend non ricevono una falsa attribuzione del font.
 
 Una licenza con modalità particolari prevale sul tema: mantenere l’avviso richiesto vicino alla risorsa e registrare l’eccezione. La migrazione conserva tutte le formulazioni originali, incluse quelle personalizzate di Lipofsky Basketballphoto.com e © Raimond Spekking. Le fonti dei dati numerici e delle informazioni scientifiche specifiche appartengono ai crediti: conservarle con un riferimento al contenuto sostenuto, senza citazioni bibliografiche nel testo, nelle didascalie o nelle note. Per gli HTML confluiscono nel registro unico e negli accessi comuni; nelle bozze si raccolgono nel componente di servizio dei crediti in attesa della realizzazione. Spiegazioni e condizioni fisiche restano nel testo o nelle note. Non eliminare dati, immagini, formule o simulazioni.
 
-La revisione del comando unico comprende home, otto articoli ammessi e modello canonico; non cambia `pubblicazione.json`. I documenti esclusi conservano invariati i loro componenti storici. La lista pubblica «Licenze e attribuzioni da verificare» distingue le provenienze mancanti dagli avvisi trasferiti; la migrazione tecnica non certifica i diritti di questi materiali.
+Il comando unico è condiviso da home, capitoli ammessi in `pubblicazione.json` e modello canonico. I documenti esclusi conservano invariati i loro componenti storici. La lista pubblica «Licenze e attribuzioni da verificare» distingue le provenienze mancanti dagli avvisi trasferiti; la migrazione tecnica non certifica i diritti di questi materiali.
 
 ## Crediti correnti e immagini rimosse
 
 I crediti correnti devono riferirsi soltanto alle immagini e agli altri materiali ancora presenti nel documento. A ogni sostituzione o rimozione, aggiornare le associazioni del registro, la pagina generale e i crediti incorporati; eliminare dagli avvisi correnti i riferimenti a media non più usati. La pagina pubblica comprende soltanto i capitoli ammessi e la home. Conservare originali, schede e provenienze storiche nel registro, nei materiali di lavorazione e in Git, senza mostrarli come crediti dei capitoli attuali. Preservare le fonti dei dati e delle spiegazioni ancora utilizzati anche quando non sono associate a un’immagine. Eseguire il controllo delle associazioni con `scripts/credits.py --check` prima della consegna.
 
 `sync_inventory` elimina automaticamente le associazioni dei media con impronte note che non hanno più occorrenze nei documenti correnti; `--check` rifiuta un registro che conserva tali associazioni. Le schede storiche non vengono cancellate. Le fonti testuali e gli avvisi generali privi di impronte richiedono un controllo di pertinenza e restano distinti dai media: la loro assenza dall’inventario delle immagini non ne autorizza la rimozione. I documenti esclusi mantengono invariati i crediti storici nei propri sorgenti e non compaiono nella pagina pubblica.
+
+## Identità corrente e provenienza storica
+
+Il sito si chiama **Stringhe**, con sottotitolo **L’essenziale della Fisica**. I titoli dei documenti correnti e i riconoscimenti del progetto usano questo nome. Gli avvisi originali restano conservati come varianti storiche del registro; le associazioni correnti selezionano la variante aggiornata. La revisione dell’identità non modifica autori esterni, licenze, fonti scientifiche o documenti esclusi.

@@ -254,6 +254,7 @@ def enhance_article(document, filename):
     # Ripetibile anche sul modello già aggiornato: un solo gruppo di controlli.
     document = re.sub(r'<!-- stringhe-navigation:start -->[\s\S]*?<!-- stringhe-navigation:end -->', '', document)
     # Barra integrata nel tema esistente: l'indice interno rimane operativo.
+    # Compatibilità degli import storici: i nomi precedenti non sono l’identità corrente.
     document = document.replace("Materia Oscura", "Stringhe")
     document = document.replace("Guida pratica per fare luce sulla Fisica", "L’essenziale della Fisica")
     document = document.replace("https://rickymusu-bit.github.io/fisica/#indice", "articoli.html")

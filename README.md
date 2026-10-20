@@ -1,40 +1,36 @@
-# Materia Oscura
+# Stringhe
 
-Guida pratica per fare luce sulla Fisica.
+**L’essenziale della Fisica**
 
-**Sito:** https://rickymusu-bit.github.io/fisica/
+[Sito](https://rickymusu-bit.github.io/fisica/) — [Catalogo dei capitoli](https://rickymusu-bit.github.io/fisica/articoli.html) — [Crediti e licenze](https://rickymusu-bit.github.io/fisica/crediti.html)
 
-La home italiana `index.html` raccoglie soltanto i nove articoli conformati: La termodinamica e i sistemi termodinamici, Temperatura ed equilibrio termico, Energia interna, calore e calore specifico, Il bilancio termico, Stati della materia, Passaggi di stato, Conduzione, Convezione e Irraggiamento. La barra superiore contiene il selettore della lingua in alto a destra, con la sola voce «Italiano». Il comando «Articoli» in alto a sinistra apre un pannello laterale con il catalogo, chiudibile con ×, Esc o clic fuori dal pannello; gli indirizzi con `#indice` o l’ancora di un argomento lo aprono direttamente. Senza JavaScript il catalogo resta accessibile. I download mostrano «Scarica», un’icona e la dimensione del file (kB/MB decimali, byte esatti nel tooltip e nell’etichetta accessibile), calcolata durante la build. Il sito pubblica soltanto contenuti in italiano.
+Stringhe raccoglie capitoli visuali di fisica in italiano. I capitoli attuali appartengono alla macro categoria **Termologia**; elenco e ordine sono definiti in [`pubblicazione.json`](pubblicazione.json) e nel catalogo sorgente di [`index.html`](index.html).
 
-La copertina viene scelta a caso tra le venti immagini di `copertine/`; viene mostrata con la sola didascalia, senza un titolo sovrapposto. I crediti sono accessibili dalla pagina «Crediti e licenze» e dalla copia incorporata offline.
+La home offre **Tutti i capitoli**, **Mi sento fortunato** e **Quiz**. Il catalogo ha ricerca e filtro per area tematica; la scelta casuale comprende soltanto i capitoli pubblicati. Quiz presenta il futuro generatore di verifiche per argomento, distinto dal progetto nel repository [rickymusu-bit/quiz](https://github.com/rickymusu-bit/quiz).
 
-GitHub Pages pubblica da `main` attraverso `.github/workflows/pages.yml`. Eseguire `python3 scripts/build_pages.py` per verificare i collegamenti e preparare `_site/`: la home italiana, i nove articoli conformati e le copertine selezionate. I documenti di lavorazione non vengono pubblicati.
+## Capitoli e tema comune
 
-Per aggiornare l’elenco italiano, rispettare `pubblicazione.json` e modificare `index.html` in modo coerente. I sette articoli sospesi restano conservati nel repository, esclusi dalla pubblicazione e da ogni aggiornamento fino a richiesta esplicita dell’utente. La build rifiuta cataloghi o collegamenti verso articoli non ammessi. `scripts/home_italian.py` genera il pannello laterale e i comandi durante la build; la raccolta delle copertine è gestita da `scripts/home_covers.py` e dal relativo manifest. I materiali delle altre lingue restano conservati nel repository, esclusi dalla pubblicazione.
+I capitoli sono HTML autonomi, con immagini, font e crediti incorporati. La barra comprende Home, Capitoli, Scarica, Indice, Lingua e il menu Chiaro/Scuro. Il tema predefinito è Scuro e la scelta dell’utente viene conservata quando lo storage è disponibile. Le figure ingrandibili usano un comando a icona in basso a sinistra, utilizzabile anche da tastiera e senza JavaScript.
 
-Prima di lavorare leggere `MASTER_PROMPT.md`, `AGENTS.md` e lo stato pertinente in `lavorazione/`. Verificare la build prima di integrare le modifiche in `main`.
+Il riferimento grafico è [`riferimenti/TEMA_DISPENSE.html`](riferimenti/TEMA_DISPENSE.html); la terminologia corrente è in [`riferimenti/TERMINOLOGIA_SITO.md`](riferimenti/TERMINOLOGIA_SITO.md). Il logo circolare ha due curve in opposizione di fase, nera e blu, con pausa/ripresa e rispetto del movimento ridotto. I percorsi storici dei file del logo rimangono stabili; i dettagli sono in [`identita/README.md`](identita/README.md).
 
-La pubblicazione è attiva con **Settings → Pages → Source → GitHub Actions**. Per avviarla manualmente usare **Actions → Pubblica Praticamente la Fisica → Run workflow** sul ramo `main`.
+La copertina della home cambia casualmente tra le venti immagini scelte, con foto intera, testo alternativo e didascalia. Il registro unico delle attribuzioni è [`risorse/crediti.json`](risorse/crediti.json), descritto in [`risorse/README.md`](risorse/README.md). Gli avvisi e la licenza OFL di Lexend sono disponibili anche nelle copie scaricate. I crediti generali riconoscono l’aiuto di Codex e ChatGPT.
 
-Il quiz resta separato nel repository [rickymusu-bit/quiz](https://github.com/rickymusu-bit/quiz).
+## Sviluppo e verifiche
 
-La terminologia della navigazione è definita nel master e nel modello autonomo: «Articoli» per la raccolta, «← Articoli» per tornarvi, «Indice» e «Indice dell’articolo» per il contenuto aperto, «Articolo precedente/successivo», «Note», «Crediti e licenze» e «Crediti della copia autonoma».
+Prima di lavorare leggere [`AGENTS.md`](AGENTS.md), [`MASTER_PROMPT.md`](MASTER_PROMPT.md) e lo stato pertinente in `lavorazione/`. Lavorare su un ramo dedicato e presentare l’anteprima corrente prima dell’integrazione e della pubblicazione.
 
-I vecchi indirizzi della dispensa unificata sono dismessi e non vengono più pubblicati o reindirizzati. Sono registrati nel manifest soltanto per verificarne l’assenza dal sito.
+```sh
+python3 scripts/sync_stringhe_theme.py --check
+python3 scripts/credits.py --check
+python3 scripts/build_pages.py
+python3 -m unittest discover -s scripts -p 'test_*.py'
+```
 
-Identità e terminologia approvate della home in `riferimenti/TERMINOLOGIA_SITO.md`: titolo «Materia Oscura», sottotitolo «Guida pratica per fare luce sulla Fisica»; i gruppi mostrano soltanto il proprio nome, senza l’etichetta «Area tematica».
+`scripts/strings_site.py` genera portale, catalogo, pagina Quiz e navigazione comune. `scripts/build_pages.py` prepara `_site/` e verifica che catalogo e collegamenti rispettino il manifest. Per aggiungere o rimuovere un capitolo aggiornare insieme `pubblicazione.json`, il catalogo e i rimandi precedente/successivo. Le fonti scientifiche e gli originali restano nei materiali di lavorazione; documenti storici, traduzioni e capitoli esclusi conservano il proprio stato nel manifest.
 
-Il logo animato accanto al titolo è una stringa chiusa nera su fondo trasparente, con pausa/ripresa e rispetto del movimento ridotto. SVG animato e GIF definitivi riutilizzabili sono salvati in [`identita/`](identita/README.md); la home incorpora lo stesso originale vettoriale durante la build.
+Le componenti condivise sono in `identita/`; `scripts/sync_stringhe_theme.py` sincronizza modello, confronto e pagina dei crediti. Aggiornare le attribuzioni tramite il registro unico e il renderer, senza riscrivere manualmente gli avvisi generati o migrare in blocco i sorgenti esclusi.
 
-Il logo definitivo è un’onda sinusoidale stazionaria a quattro creste, con ampiezza 20, nero su trasparente. È applicato nella home e nella barra degli articoli; fa parte del modello grafico autonomo v7. Le alternative precedenti sono rimosse e restano soltanto nella cronologia Git. I file SVG/GIF sono pubblicati in `identita/`; il componente mantiene pausa/ripresa e movimento ridotto.
+## Pubblicazione
 
-La scritta sopra il titolo degli articoli mostra il nome dell’area tematica presente nella home: «Materia e calore» per i nove articoli attuali. Il ritorno breve «← Articoli» e questa classificazione sono regole del tema v7, definite in `riferimenti/TERMINOLOGIA_SITO.md` v4.
-
-
-La gestione corrente delle attribuzioni è descritta in [risorse/README.md](risorse/README.md). Il registro JSON deduplica le risorse, conserva integralmente gli avvisi originali e inventaria automaticamente immagini, animazioni e font. Eseguire `python3 scripts/credits.py --sync`, poi `python3 scripts/credits.py --check` e `python3 scripts/build_pages.py`. La pagina statica e gli snapshot autonomi sono generati senza richieste di rete. Il copyright e la licenza OFL sono anche in `licenze/Lexend-OFL.txt`.
-
-La revisione dei crediti richiesta il 18 ottobre 2026 comprende tutti i 20 articoli HTML, anche sospesi e tradotti, senza riattivarne la pubblicazione. Sono ora nove gli articoli ammessi a Pages. Le licenze non documentate sono elencate separatamente nella pagina dei crediti: la centralizzazione non attesta un’autorizzazione mancante.
-
-## Nuovo portale Stringhe (ramo di progettazione)
-
-Titolo: **Stringhe** — **L’essenziale della Fisica**. Durante la build sono generate `index.html`, `articoli.html`, `quiz.html` e la navigazione comune per i soli articoli ammessi in `pubblicazione.json`. Il generatore è `scripts/strings_site.py`; il catalogo contiene ricerca e filtri; il comando «Mi sento fortunato» seleziona soltanto articoli pubblicati. Le pagine non vengono pubblicate da questo ramo fino alla revisione e integrazione.
+GitHub Pages pubblica da `main` attraverso [`.github/workflows/pages.yml`](.github/workflows/pages.yml), dopo l’approvazione esplicita dell’anteprima. L’integrazione delle modifiche pertinenti avvia il workflow **Pubblica Stringhe**; è disponibile anche da **Actions → Pubblica Stringhe → Run workflow**. Il sito pubblica soltanto i capitoli ammessi e i servizi previsti dalla build; le bozze di lavorazione restano nel repository.

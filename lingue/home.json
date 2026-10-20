@@ -20,7 +20,7 @@
     "unavailable": "L’image de couverture n’est pas disponible.",
     "fallback": "Les photographies et leurs crédits figurent ci-dessous.",
     "changes": "Redimensionnement et conversion en WebP, sans recadrage.",
-    "description": "Praticamente la Fisica. Le guide essentiel de tout ce qui nous entoure. Articles de physique en français.",
+    "description": "Stringhe. Le guide essentiel de tout ce qui nous entoure. Articles de physique en français.",
     "articles": {
       "metodo_scientifico_it.html": [
         "metodo_scientifico_fr.html",
@@ -87,7 +87,7 @@
     "unavailable": "Imazhi i kopertinës nuk është i disponueshëm.",
     "fallback": "Fotografitë dhe të dhënat e autorëve renditen më poshtë.",
     "changes": "Ndryshim madhësie dhe konvertim në WebP, pa prerje.",
-    "description": "Praticamente la Fisica. Udhëzuesi thelbësor për gjithçka që na rrethon. Artikuj fizike në shqip.",
+    "description": "Stringhe. Udhëzuesi thelbësor për gjithçka që na rrethon. Artikuj fizike në shqip.",
     "articles": {
       "metodo_scientifico_it.html": [
         "metodo_scientifico_sq.html",
