@@ -3,6 +3,7 @@
 from pathlib import Path
 import base64
 import sys
+import re
 from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -14,8 +15,11 @@ def main():
     if not HTML.exists() or not SVG.exists():
         raise SystemExit("Mancano HTML o SVG: nessuna modifica.")
     original = HTML.read_text(encoding="utf-8")
-    soup = BeautifulSoup(original, "html.parser")
-    figure = soup.find("figure", id=FIGURE)
+    pattern = r'<figure\\b[^>]*id="' + re.escape(FIGURE) + r'"[^>]*>.*?</figure>'
+    match = re.search(pattern, original, re.S)
+    if match is None:
+        raise SystemExit("Figura assente dal documento originale: nessuna modifica.")
+    figure = BeautifulSoup(match.group(0), "html.parser").find("figure")
     if figure is None:
         raise SystemExit(f"Figura {FIGURE!r} assente: nessuna modifica.")
     im = figure.select_one(".overview img")
@@ -41,7 +45,7 @@ def main():
         "non coincidono necessariamente con quelle dell'aria."
     )
     # Conserva gli altri elementi e aggiorna solo l'HTML di questa figura.
-    output = str(soup)
+    output = original[:match.start()] + str(figure) + original[match.end():]
     test = BeautifulSoup(output, "html.parser").find("figure", id=FIGURE)
     if test is None or "image/svg+xml" not in test.select_one(".overview img").get("src", ""):
         raise SystemExit("Validazione fallita: nessuna modifica.")
