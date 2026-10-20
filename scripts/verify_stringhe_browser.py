@@ -254,7 +254,11 @@ def main():
             assert page.locator('#news-title').inner_text() == 'Novità'
             assert page.locator('.featured time').count() == 3
             assert page.locator('main h2').all_text_contents() == ['Novità']
-            assert page.locator('.site-nav a[href="articoli.html"]').inner_text() == 'Capitoli'
+            # La home ha soltanto i menu Lingua e Chiaro/Scuro; i collegamenti sono nelle card.
+            assert page.locator('.home-header .site-nav > a').count() == 0
+            assert page.locator('.home-header .site-nav > details').count() == 2
+            assert page.locator('.home-header .site-nav > details.lang').count() == 1
+            assert page.locator('.home-header .site-nav > details[data-theme-menu]').count() == 1
             for width in [320,390,768,1024,1440]:
                 page.set_viewport_size({'width':width,'height':900})
                 for theme in ['light','dark']:
