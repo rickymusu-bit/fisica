@@ -1,0 +1,52 @@
+{
+  "verified_at": "2026-10-20T19:45:29.847572+00:00",
+  "merge_commit": "7a9bc51decddf379785ce298d06cc5d09317da58",
+  "pull_request": 53,
+  "deployment_run": 39486015591,
+  "checks": [
+    {
+      "file": "index.html",
+      "status": 200,
+      "sha256": "1eeeab50fb4b670989d9e1d057d173ad32e5ffd6b18f30fd75f145196108e19b",
+      "matches_local_build": true,
+      "old_brand_absent": true
+    },
+    {
+      "file": "articoli.html",
+      "status": 200,
+      "sha256": "e0ed2bb21ff27e3a899d2dceb80b2a493c53af7564a3d5c3f183f5fa1d692a00",
+      "matches_local_build": true,
+      "old_brand_absent": true,
+      "termologia_present": true
+    },
+    {
+      "file": "crediti.html",
+      "status": 200,
+      "sha256": "e26ebfd0aec1b8e837393c279419f9192df352c297e775a6ef559906283d466d",
+      "matches_local_build": true,
+      "old_brand_absent": true,
+      "codex_chatgpt_present": true
+    },
+    {
+      "file": "conduzione_it.html",
+      "status": 200,
+      "sha256": "738fc00b8262d69d5edb3195746a046ce25c3b6e3d41546ca9bc781742451431",
+      "matches_local_build": true,
+      "old_brand_absent": true,
+      "title_correct": true
+    },
+    {
+      "file": "dilatazione_termica_it.html",
+      "status": 200,
+      "sha256": "a86227e3e47a853ca49a04f4a4f990000b5a45d0e883f9d09505680616b689b2",
+      "matches_local_build": true,
+      "old_brand_absent": true,
+      "termologia_present": true
+    },
+    {
+      "file": "README.md",
+      "matches_local": true,
+      "name_correct": true
+    }
+  ]
+}

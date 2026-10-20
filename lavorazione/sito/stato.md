@@ -305,3 +305,9 @@ Documentazione di identità, copertine e crediti allineata ai componenti corrent
 Controlli superati: crediti, build, 14 test e verifica specifica del capitolo. Nei dieci capitoli pubblicabili testo scientifico e immagini incorporate coincidono con il main precedente; sorgenti esclusi byte per byte invariati. Nessun vecchio nome nei sorgenti attivi, nella pagina generale dei crediti o negli avvisi correnti selezionati dal registro. Browser: titoli e crediti online/offline verificati a 390 e 1440 px, senza overflow o errori JavaScript. Anteprime `schermate/identita-crediti-*.png`, rapporto `verifica-identita.json`.
 
 Revisione salvata su GitHub nella PR #53 in bozza: https://github.com/rickymusu-bit/fisica/pull/53 . README e anteprime dei crediti disponibili nella descrizione. Nessun merge o deployment di questa revisione.
+
+## Identità corrente pubblicata — 20 ottobre 2026
+
+Dopo la presentazione della PR #53 e delle anteprime, l’utente autorizza esplicitamente con «Ok procedi». PR resa pronta e integrata in main nel commit `7a9bc51decddf379785ce298d06cc5d09317da58`; controlli della PR superati. Workflow Pubblica Stringhe completato con successo: https://github.com/rickymusu-bit/fisica/actions/runs/39486015591 .
+
+Verifica pubblica conclusa: home, catalogo, crediti, Conduzione e Dilatazione termica rispondono correttamente e coincidono byte per byte con la build verificata. Assenti le vecchie denominazioni nei file pubblicati controllati; presenti Termologia e il riconoscimento a Codex e ChatGPT. README su main identico alla revisione approvata, con titolo Stringhe. Rapporto in `verifica-identita-pubblicata.json`. Questo consuntivo è conservato sul ramo di lavorazione e non modifica il sito pubblicato.
