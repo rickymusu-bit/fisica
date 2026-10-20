@@ -61,3 +61,7 @@ Verifiche completate: registro crediti e build superati; corpo scientifico e tut
 Su richiesta «Un po’ più precisa», rivista la didascalia dell’anteprima: Sole sopra l’orizzonte terrestre fotografato dall’orbita, propagazione della radiazione elettromagnetica nel vuoto e trasferimento di energia per assorbimento alla superficie e all’atmosfera. Rimane v14 in lavorazione nella PR #54, non pubblicata.
 
 L’utente preferisce e approva la prima didascalia con «Va bene quella prima». Ripristinato esattamente il testo e le schermate della prima anteprima già verificata, conservando la v14. Approvazione riferita alla didascalia; nessuna pubblicazione avviata.
+
+## Copertina pubblicata — 20 ottobre 2026
+
+L’utente autorizza esplicitamente con «Okay pubblica». PR #54 integrata nel commit `4ca7cc45f9e1ada5e7a1ac84270173ee22ab254d`, controlli superati. Pubblicazione tramite workflow Pages 39490037108. Verifica HTTPS: risposta 200, prima didascalia scelta presente sotto la figura C1 e pagina identica byte per byte alla build verificata. Rapporto `verifica-copertina-pubblicata.json`. Consuntivo conservato sul ramo di lavorazione, senza ulteriori modifiche al sito.
