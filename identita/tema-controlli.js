@@ -74,7 +74,7 @@
   function hideTip() {
     clearTimeout(leaveTimer);
     if (current) {
-      const ids = (current.getAttribute('aria-describedby') || '').split(/\\s+/).filter(id => id && id !== tooltip.id);
+      const ids = (current.getAttribute('aria-describedby') || '').split(/\s+/).filter(id => id && id !== tooltip.id);
       if (ids.length) current.setAttribute('aria-describedby', ids.join(' '));
       else current.removeAttribute('aria-describedby');
     }
@@ -88,7 +88,7 @@
       control.querySelector('strong')?.textContent || control.textContent;
     if (!name?.trim()) return;
     current = control;
-    tooltip.textContent = name.trim().replace(/\\s+/g, ' ');
+    tooltip.textContent = name.trim().replace(/\s+/g, ' ');
     control.setAttribute('aria-describedby', [control.getAttribute('aria-describedby'), tooltip.id].filter(Boolean).join(' '));
     tooltip.hidden = false;
     positionTip();
