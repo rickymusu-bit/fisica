@@ -1,6 +1,6 @@
 # Stato — La dilatazione termica
 
-Versione v11 — 20 ottobre 2026 (Europe/Rome).
+Versione v12 — 20 ottobre 2026 (Europe/Rome).
 
 ## Identità e fase
 
@@ -72,12 +72,12 @@ Stima da presentare prima del via, secondo B1.1 punto 4 e B2: 40–70 minuti di 
 
 Prossimo passo: ricevere immagini e materiale del grafico secondo visuali.md e il via esplicito alla realizzazione dopo la stima. Non ricercare o generare immagini autonomamente. Nessun HTML avviato; main e pubblicazione invariati.
 
-## Copertina scelta — 20 ottobre 2026
+## Copertina corrente — sostituzione del 20 ottobre 2026
 
-COP-01: fotografia del Pont de Bir-Hakeim a Parigi, versione JPEG a 960 px indicata dall'utente. Scelta effettiva registrata in [visuali.md](visuali.md) v10 con URL esatto, fonte, autore Daniel Vorndran / DXR e licenza CC BY-SA 3.0 Unported. Licenza e attribuzione verificate sulla scheda Commons. Ritocchi preesistenti documentati dalla fonte; nessuna modifica del progetto.
+L'utente richiede «Anzi metti questa» e fornisce SHB-Red-Dust.jpg a 960 px. La nuova scelta COP-01 sostituisce il Pont de Bir-Hakeim, la cui registrazione resta nella cronologia Git. Fotografia del Sydney Harbour Bridge durante la tempesta di polvere del 23 settembre 2009; autore John Byrne, licenza CC BY-SA 4.0 International verificata sulla scheda Commons. Versione scelta 960 × 643 px secondo la scheda; nessun file binario scaricato, ispezionato o salvato. Preservare l'annotazione della cronologia Commons sulla modifica preesistente di Thennicke («post cloned»); nessun intervento del progetto. Non interpretare la polvere rossa come evidenza della temperatura del ponte.
 
-Il proxy HTTP configurato non è raggiungibile: il download dell'URL esatto è fallito; il lettore web non apre il JPEG. Nessun file binario scaricato o salvato su GitHub, nessuna ispezione diretta, peso o hash. Non presentare l'immagine come già incorporata. Richiedere il JPG allegato oppure recuperare lo stesso URL al ripristino dell'accesso; nessuna sostituzione autonoma. La registrazione della scelta e dei metadati può essere salvata via connettore GitHub.
+Dettagli e URL esatto in [visuali.md](visuali.md) v11, con elenco delle sette figure interne e del materiale per GRA-01 da riportare in chat come richiesto. Le tabelle TAB-01 e TAB-02 sono già testuali: nessuna immagine di tabella richiesta.
 
-Master corrente su main v69, letto integralmente in blocchi, AGENTS.md aggiornato; rete dell'ambiente dichiarata enforced, ma l'errore concreto resta l'indisponibilità del proxy. Nessuna modifica alle politiche o tentativo di aggiramento. Ramo dedicato ancora basato sul main precedente: prima della futura impaginazione riallineare i riferimenti al modello v15 e alla terminologia Stringhe senza cambiare il testo scientifico approvato. Nessuna incompatibilità con questa scelta di copertina; non modificare master o pubblicazione per questo incarico.
+Permane il limite osservato al download dal proxy dell'ambiente. Il percorso previsto per la copertina è risorse/copertina-sydney.jpg, da creare solo quando il file sarà effettivamente recuperato o allegato. Nessun peso/hash né ispezione inventati; scelta e licenza registrate via GitHub.
 
-Bozza v7 resta approvata. Restano da ricevere sette immagini interne FIG-01–FIG-07, il materiale del grafico GRA-01 e il via esplicito all'HTML dopo la stima già presentata. Salvataggio remoto dei due documenti da verificare prima della consegna.
+Master corrente su main v69, modello comune v15 Stringhe e terminologia Capitolo/Capitoli già consultati. Prima dell'HTML riallineare i riferimenti e il tema del ramo dedicato al main corrente, conservando testo v7 approvato e scelte effettive. La nuova copertina non autorizza HTML o pubblicazione. Restano i materiali FIG-01–FIG-07 e GRA-01 e il via esplicito dopo la stima già presentata. Verificare il salvataggio dei due file aggiornati prima della consegna.
