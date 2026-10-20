@@ -1,6 +1,6 @@
 # Visuali — La dilatazione termica
 
-Versione v17 — 20 ottobre 2026 (Europe/Rome).
+Versione v18 — 20 ottobre 2026 (Europe/Rome).
 
 ## Direzione concordata e proposta aggiornata
 
@@ -190,3 +190,7 @@ FIG-05b corrente: rimossi titolo, sottotitolo e frase inferiore; aggiunti quattr
 FIG-06: autorizzazione all’uso dichiarata dall’utente («Autorizzato»); non è una licenza libera e non attesta autonomamente la titolarità. Identificato e incorporato il file effettivo dal collegamento già scelto.
 
 GRA-01: dati invariati, font canonico Lexend convertito in tracciati per l’autonomia dello SVG; avviso OFL nel documento. HTML autonomo corrente: `../../dilatazione_termica_it.html`. Crediti trasferiti nel registro unico `../../risorse/crediti.json`, con snapshot offline nel comando comune.
+
+## Revisione della presentazione — tema v21
+
+Ripristinate nell’HTML v2 le otto didascalie della bozza precedentemente omesse dalla conversione. Ora tutte le 11 figure hanno la didascalia approvata. Immagini e grafico invariati, confronto byte per byte con i file conservati in risorse/. Comandi ingrandisci/rimpicciolisci aggiornati al componente canonico a icona in basso a sinistra; ingrandimento nativo anche senza JavaScript. Nuove schermate di ciascuna figura su desktop e mobile nella cartella anteprime/.

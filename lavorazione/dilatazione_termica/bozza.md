@@ -1,7 +1,7 @@
 # La dilatazione termica
 
-Bozza v13 — 20 ottobre 2026 (Europe/Rome).
-Testo scientifico v7 approvato. Questa v13 integra i file recuperati e lo schema del lago corretto su richiesta: senza titolo, sottotitolo o testo inferiore, con pesci d’acqua dolce. HTML completo e verificato sul ramo dedicato.
+Bozza v14 — 20 ottobre 2026 (Europe/Rome).
+Testo scientifico v7 approvato. Questa v14 conserva il testo approvato e tutte le didascalie. HTML v2 aggiornato al tema comune v21: ripristinate le otto didascalie perse nella conversione precedente e applicati i comandi a icona correnti. Schema del lago con pesci, senza titolo, sottotitolo o testo inferiore.
 
 ![Il Sydney Harbour Bridge durante una tempesta di polvere rossa.](risorse/copertina-sydney.jpg)
 Didascalia: Il Sydney Harbour Bridge durante una tempesta di polvere rossa.
