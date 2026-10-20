@@ -1,5 +1,12 @@
 # Stato — Home e GitHub Pages
 
+## Prova corrente — sinusoidi verticali ai lati delle card
+
+L’utente ha scelto esplicitamente reticolo regolare (A) e sinusoidi di uguale ampiezza (A), chiedendo di provare la disposizione verticale ai lati. La pagina di confronto parte ora da queste scelte e dai lati verticali, con possibilità di tornare a sopra/sotto o solo sopra. Stessa geometria, periodo e palette: SVG trasposto, senza deformazioni. Fasce laterali di 24 px, spazio riservato al testo e sfumatura alle estremità; su smartphone i pulsanti della dimostrazione sono in colonna per conservare lo spazio di lettura.
+
+La prova resta circoscritta al confronto; il sito e il modello conservano la disposizione orizzontale fino alla valutazione dell’utente. I componenti condivisi includono anche la variante laterale. Nessun sorgente scientifico, articolo sospeso, manifest o originale del logo modificato. PR #43 ancora in bozza, nessuna pubblicazione in main autorizzata.
+
+
 ## Lavorazione corrente — Stringhe globale, 20 ottobre 2026
 
 Richiesta esplicita: applicare `PIANO_IMPLEMENTAZIONE_STRINGHE.md` nel ramo design, identificato dal piano come `design/stringhe-portale` (PR #43, bozza). Master consultato v64; aggiornamento circoscritto a v65 per identità, tema e navigazione, senza revisione dei contenuti didattici. Questa lavorazione non eredita le autorizzazioni di pubblicazione dei blocchi storici sottostanti.

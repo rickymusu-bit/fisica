@@ -1,6 +1,15 @@
 # Revisione del tema Stringhe
 
-Implementazione del piano del 20 ottobre 2026 sul ramo `design/stringhe-portale`, PR #43 in bozza. Il tema è una proposta completa da confrontare: il campione A iniziale non è una scelta definitiva. Nessun merge in main né deployment Pages.
+Implementazione del piano del 20 ottobre 2026 sul ramo `design/stringhe-portale`, PR #43 in bozza. Il tema è una proposta completa da confrontare: la scelta A/A è stata approvata; la posizione dei bordi è ancora in prova. Nessun merge in main né deployment Pages.
+
+## Scelta ricevuta e nuova prova
+
+L’utente ha approvato **reticolo regolare** e **sinusoidi di uguale ampiezza**. La nuova anteprima parte da queste impostazioni, con curve ai lati in verticale; il controllo Posizione permette di tornare al confronto orizzontale. Le altre varianti rimangono disponibili come riferimenti storici.
+
+La disposizione laterale libera i bordi superiore e inferiore e accompagna bene le card alte. Richiede però spazio ai lati: riservati 36 px per lato, con fasce decorative di 24 px. Sui telefoni i pulsanti della dimostrazione sono in colonna per non comprimere le etichette. La posizione verticale resta una proposta da valutare.
+
+Schermate: [mobile chiaro](schermate/laterali-390-light.png), [mobile scuro](schermate/laterali-390-dark.png), [desktop chiaro](schermate/laterali-1440-light.png), [desktop scuro](schermate/laterali-1440-dark.png).
+
 
 ## Scelte da valutare
 

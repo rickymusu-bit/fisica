@@ -6,6 +6,11 @@
 **Ramo di lavoro attuale:** `design/stringhe-portale` (PR #43, bozza).
 **Scopo di questo documento:** consegnare a Codex un elenco eseguibile di interventi sul portale, non richiedere la pubblicazione in `main`.
 
+## Decisione successiva dell’utente — prova dei lati verticali
+
+Approvati **reticolo regolare** e **sinusoidi con la stessa ampiezza** (A/A). Richiesta una prova delle curve ai lati delle card, in verticale. La pagina di confronto mostra inizialmente questa disposizione e permette di confrontarla con sopra/sotto e solo sopra. La posizione verticale non è ancora approvata per tutto il sito; restano esclusi merge e pubblicazione ufficiale.
+
+
 ## Stato della realizzazione — 20 ottobre 2026
 
 Implementazione nel ramo design con modello v11 e tema comune. Esiti e limiti in `confronto-stringhe.md`, `verifica-stringhe.json` e nello stato. Actions e anteprima riuscite; anche file:// verificato in CI. Le caselle di verifica e di approvazione restano distinte: non sono attestati Android fisico, scelta definitiva di bordi/reticolo o autorizzazione alla pubblicazione.

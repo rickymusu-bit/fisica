@@ -148,6 +148,7 @@ def main():
                     for variant in ['A','B']:
                         page.goto(base+'anteprima-bordi-stringhe.html');page.locator('[data-theme-select]').select_option(theme)
                         page.locator('#border-variant').select_option(variant)
+                        page.locator('#edge-variant').select_option('both')
                         for grid in ['A', 'B']:
                             page.locator('#grid-variant').select_option(grid)
                             page.screenshot(path=str(SHOTS/f'confronto-{width}-{theme}-{variant}-reticolo-{grid}.png'), full_page=True, animations='disabled')
@@ -155,12 +156,29 @@ def main():
                         page.locator('[data-demo-dialog]').first.click()
                         assert page.locator('#demo-dialog').is_visible()
                         page.keyboard.press('Escape')
+            for width in [320, 390, 768, 1024, 1440]:
+                page.set_viewport_size({'width':width,'height':900})
+                for theme in ['light','dark']:
+                    page.goto(base+'anteprima-bordi-stringhe.html')
+                    page.locator('[data-theme-select]').select_option(theme)
+                    assert page.locator('#edge-variant').input_value() == 'sides'
+                    assert page.evaluate('document.documentElement.scrollWidth <= innerWidth')
+                    for card in page.locator('.comparison-card, .action').all():
+                        geometry = card.evaluate('''e=>{const c=getComputedStyle(e,':before');const a=getComputedStyle(e,':after');return {w:c.width,h:c.height,p:c.pointerEvents,r:a.right}}''')
+                        assert geometry['w'] == '24px' and geometry['p'] == 'none' and geometry['r'] == '0px', geometry
+                    page.locator('[data-demo-dialog]').first.click()
+                    assert page.locator('#demo-dialog').is_visible()
+                    page.keyboard.press('Escape')
+                    if width in [390,1440]:
+                        page.evaluate('document.activeElement.blur(); window.scrollTo(0,0)')
+                        page.wait_for_function('window.scrollY === 0')
+                        page.screenshot(path=str(SHOTS/f'laterali-{width}-{theme}.png'), full_page=True, animations='disabled')
             browser.close()
     finally:
         server.shutdown()
         (SITE / 'modello-dispense.html').unlink(missing_ok=True)
     assert not errors, errors
-    report = {'viewport_tema_pagina':checks,'errori_javascript':errors,'copertine_verificate':len(covers),
+    report = {'viewport_tema_pagina':checks,'errori_javascript':errors,'copertine_verificate':len(covers),'laterali':{'viewport':[320,390,768,1024,1440],'temi':['light','dark'],'curve':'stessa ampiezza; periodo invariato; 24 px per fascia; nessun overflow'},
               'offline':offline_status,'browser':'Chromium; mobile e touch emulati, nessun dispositivo Android fisico',
               'controlli':['persistenza','automatico e cambio sistema','storage bloccato','senza JavaScript','logo e movimento ridotto','ricerca e filtro','indice tastiera','note','zoom','crediti','download identico']}
     (ROOT/'lavorazione/sito/verifica-stringhe.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
