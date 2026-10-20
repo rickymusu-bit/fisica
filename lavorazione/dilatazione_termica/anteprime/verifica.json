@@ -19,7 +19,7 @@
       },
       {
         "id": "gra-01",
-        "text": "Intorno a 4 °C, 1 kg d'acqua liquida occupa il volume minore. La scala verticale ingrandita rende visibile la piccola variazione.",
+        "text": "Intorno a 4 °C, 1 kg d'acqua liquida occupa circa 1000,025 mL. L'equivalenza fra 1 kg d'acqua e 1 L è un'approssimazione. La scala verticale ingrandita rende visibile la piccola variazione.",
         "visible": true
       },
       {
@@ -39,7 +39,7 @@
       },
       {
         "id": "fig-03b",
-        "text": "La diversa dilatazione dei due metalli incurva la lamina e può azionare un contatto.",
+        "text": "La lamina a spirale sposta il contatto mobile al variare della temperatura. La leva regola la temperatura di intervento e il magnete aiuta a mantenere chiusi i contatti.",
         "visible": true
       },
       {
@@ -79,6 +79,14 @@
       },
       {
         "figure": "fig-03a",
+        "width": 44,
+        "height": 44,
+        "bottomLeft": true,
+        "keyboard": true,
+        "labels": true
+      },
+      {
+        "figure": "fig-03b",
         "width": 44,
         "height": 44,
         "bottomLeft": true,
@@ -117,7 +125,7 @@
       },
       {
         "id": "gra-01",
-        "text": "Intorno a 4 °C, 1 kg d'acqua liquida occupa il volume minore. La scala verticale ingrandita rende visibile la piccola variazione.",
+        "text": "Intorno a 4 °C, 1 kg d'acqua liquida occupa circa 1000,025 mL. L'equivalenza fra 1 kg d'acqua e 1 L è un'approssimazione. La scala verticale ingrandita rende visibile la piccola variazione.",
         "visible": true
       },
       {
@@ -137,7 +145,7 @@
       },
       {
         "id": "fig-03b",
-        "text": "La diversa dilatazione dei due metalli incurva la lamina e può azionare un contatto.",
+        "text": "La lamina a spirale sposta il contatto mobile al variare della temperatura. La leva regola la temperatura di intervento e il magnete aiuta a mantenere chiusi i contatti.",
         "visible": true
       },
       {
@@ -177,6 +185,14 @@
       },
       {
         "figure": "fig-03a",
+        "width": 44,
+        "height": 44,
+        "bottomLeft": true,
+        "keyboard": true,
+        "labels": true
+      },
+      {
+        "figure": "fig-03b",
         "width": 44,
         "height": 44,
         "bottomLeft": true,
@@ -215,7 +231,7 @@
       },
       {
         "id": "gra-01",
-        "text": "Intorno a 4 °C, 1 kg d'acqua liquida occupa il volume minore. La scala verticale ingrandita rende visibile la piccola variazione.",
+        "text": "Intorno a 4 °C, 1 kg d'acqua liquida occupa circa 1000,025 mL. L'equivalenza fra 1 kg d'acqua e 1 L è un'approssimazione. La scala verticale ingrandita rende visibile la piccola variazione.",
         "visible": true
       },
       {
@@ -235,7 +251,7 @@
       },
       {
         "id": "fig-03b",
-        "text": "La diversa dilatazione dei due metalli incurva la lamina e può azionare un contatto.",
+        "text": "La lamina a spirale sposta il contatto mobile al variare della temperatura. La leva regola la temperatura di intervento e il magnete aiuta a mantenere chiusi i contatti.",
         "visible": true
       },
       {
@@ -275,6 +291,14 @@
       },
       {
         "figure": "fig-03a",
+        "width": 44,
+        "height": 44,
+        "bottomLeft": true,
+        "keyboard": true,
+        "labels": true
+      },
+      {
+        "figure": "fig-03b",
         "width": 44,
         "height": 44,
         "bottomLeft": true,
@@ -313,7 +337,7 @@
       },
       {
         "id": "gra-01",
-        "text": "Intorno a 4 °C, 1 kg d'acqua liquida occupa il volume minore. La scala verticale ingrandita rende visibile la piccola variazione.",
+        "text": "Intorno a 4 °C, 1 kg d'acqua liquida occupa circa 1000,025 mL. L'equivalenza fra 1 kg d'acqua e 1 L è un'approssimazione. La scala verticale ingrandita rende visibile la piccola variazione.",
         "visible": true
       },
       {
@@ -333,7 +357,7 @@
       },
       {
         "id": "fig-03b",
-        "text": "La diversa dilatazione dei due metalli incurva la lamina e può azionare un contatto.",
+        "text": "La lamina a spirale sposta il contatto mobile al variare della temperatura. La leva regola la temperatura di intervento e il magnete aiuta a mantenere chiusi i contatti.",
         "visible": true
       },
       {
@@ -373,6 +397,14 @@
       },
       {
         "figure": "fig-03a",
+        "width": 44,
+        "height": 44,
+        "bottomLeft": true,
+        "keyboard": true,
+        "labels": true
+      },
+      {
+        "figure": "fig-03b",
         "width": 44,
         "height": 44,
         "bottomLeft": true,
@@ -411,7 +443,7 @@
       },
       {
         "id": "gra-01",
-        "text": "Intorno a 4 °C, 1 kg d'acqua liquida occupa il volume minore. La scala verticale ingrandita rende visibile la piccola variazione.",
+        "text": "Intorno a 4 °C, 1 kg d'acqua liquida occupa circa 1000,025 mL. L'equivalenza fra 1 kg d'acqua e 1 L è un'approssimazione. La scala verticale ingrandita rende visibile la piccola variazione.",
         "visible": true
       },
       {
@@ -431,7 +463,7 @@
       },
       {
         "id": "fig-03b",
-        "text": "La diversa dilatazione dei due metalli incurva la lamina e può azionare un contatto.",
+        "text": "La lamina a spirale sposta il contatto mobile al variare della temperatura. La leva regola la temperatura di intervento e il magnete aiuta a mantenere chiusi i contatti.",
         "visible": true
       },
       {
@@ -471,6 +503,14 @@
       },
       {
         "figure": "fig-03a",
+        "width": 44,
+        "height": 44,
+        "bottomLeft": true,
+        "keyboard": true,
+        "labels": true
+      },
+      {
+        "figure": "fig-03b",
         "width": 44,
         "height": 44,
         "bottomLeft": true,

@@ -31,7 +31,7 @@ with sync_playwright() as p:
    page.screenshot(path=str(A/(name+'.png')))
    for ident,slug in figures.items():page.locator('#'+ident).screenshot(path=str(A/(slug+'-'+name+'.png')))
   zooms=[]
-  for ident in ('gra-01','fig-03a','fig-05b'):
+  for ident in ('gra-01','fig-03a','fig-03b','fig-05b'):
    button=page.locator('#'+ident+' .image-zoom summary');button.scroll_into_view_if_needed();button.focus()
    rect=button.bounding_box();frame=page.locator('#'+ident+' .image-frame').bounding_box()
    assert rect['width']>=44 and rect['height']>=44,(ident,rect)
@@ -56,7 +56,7 @@ with sync_playwright() as p:
  # Native zoom and readable captions without JavaScript.
  context=browser.new_context(viewport={'width':390,'height':1000},java_script_enabled=False,reduced_motion='reduce');page=context.new_page();page.goto(url);page.evaluate('document.fonts.ready');page.evaluate('Promise.all([...document.images].map(i=>{i.loading=\"eager\";return i.decode().catch(()=>{})}))')
  assert page.locator('html').get_attribute('data-theme')=='dark'
- for ident in ('gra-01','fig-03a','fig-05b'):
+ for ident in ('gra-01','fig-03a','fig-03b','fig-05b'):
   button=page.locator('#'+ident+' .image-zoom summary');button.focus();button.press('Enter');assert page.locator('#'+ident+' .image-zoom').get_attribute('open') is not None;button.press('Space')
  page.locator('#fig-05b').screenshot(path=str(A/'lago-mobile-no-js.png'));context.close()
  reports.append({'javascript':False,'nativeZoom':True,'captions':11,'defaultTheme':'dark'})

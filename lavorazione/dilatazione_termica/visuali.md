@@ -1,6 +1,6 @@
 # Visuali — La dilatazione termica
 
-Versione v18 — 20 ottobre 2026 (Europe/Rome).
+Versione v19 — 20 ottobre 2026 (Europe/Rome).
 
 ## Direzione concordata e proposta aggiornata
 
@@ -194,3 +194,11 @@ GRA-01: dati invariati, font canonico Lexend convertito in tracciati per l’aut
 ## Revisione della presentazione — tema v21
 
 Ripristinate nell’HTML v2 le otto didascalie della bozza precedentemente omesse dalla conversione. Ora tutte le 11 figure hanno la didascalia approvata. Immagini e grafico invariati, confronto byte per byte con i file conservati in risorse/. Comandi ingrandisci/rimpicciolisci aggiornati al componente canonico a icona in basso a sinistra; ingrandimento nativo anche senza JavaScript. Nuove schermate di ciascuna figura su desktop e mobile nella cartella anteprime/.
+
+## Chiarimento del grafico e termostato annotato
+
+Su richiesta dell’utente verificati i dati NIST GLP 10 §6.1, Eqn. 1. A 4 °C la relazione restituisce 999,974947704 kg/m³ e il volume di 1 kg è 1000,025052924 mL; l’equivalenza 1 kg d’acqua = 1 L è approssimata. Dati CSV invariati, didascalia chiarita. Margini del grafico adattati per lasciare liberi assi e testi dal comando di ingrandimento anche sul telefono; nessun cambiamento ad assi numerici, intervallo o curva fisica. Verifica numerica in risorse/verifica-dati-acqua.json.
+
+FIG-03b: originale termostato.jpg conservato. I sei numeri sono stati rimossi tramite OpenAI imagegen su richiesta dell’utente, conservando il risultato termostato-senza-numeri.png. Copia fotografica JPEG della stessa dimensione per l’incorporamento; sei frecce e etichette costruite in SVG con Lexend tramite annota_termostato.py. Sorgente finale termostato-annotato.svg; coordinate e corrispondenze con i numeri originali in termostato-annotazioni.json. Identificazione verificata nella legenda della stessa fotografia in Wikipedia, Thermostat, Simple two wire thermostats. Leva di regolazione, lamina bimetallica a spirale, filo flessibile, contatto mobile, contatto fisso e magnete. Nessuna parte non numerata identificata per deduzione.
+
+Figura derivata sotto CC BY-SA 3.0, attribuzioni originali e modifiche documentate nel registro unico; l’avviso corrente descrive la versione annotata, mentre avviso e impronta della precedente fotografia restano storici. Ingrandimento canonico anche per FIG-03b; disposizione identica su tutti i dispositivi e spazio libero dal comando in basso a sinistra.

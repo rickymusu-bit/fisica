@@ -1,7 +1,7 @@
 # La dilatazione termica
 
-Bozza v14 — 20 ottobre 2026 (Europe/Rome).
-Testo scientifico v7 approvato. Questa v14 conserva il testo approvato e tutte le didascalie. HTML v2 aggiornato al tema comune v21: ripristinate le otto didascalie perse nella conversione precedente e applicati i comandi a icona correnti. Schema del lago con pesci, senza titolo, sottotitolo o testo inferiore.
+Bozza v15 — 20 ottobre 2026 (Europe/Rome).
+Testo scientifico v7 approvato. Questa v15 chiarisce il volume di 1 kg d’acqua intorno a 4 °C e sostituisce i numeri nella foto del termostato con frecce ed etichette italiane. HTML v3 nel tema comune v21.
 
 ![Il Sydney Harbour Bridge durante una tempesta di polvere rossa.](risorse/copertina-sydney.jpg)
 Didascalia: Il Sydney Harbour Bridge durante una tempesta di polvere rossa.
@@ -63,7 +63,7 @@ L'acqua mette in difficoltà l'idea che raffreddare significhi sempre contrarre.
 
 ![Volume di 1 kg d'acqua liquida fra 0 e 10 °C: la curva diminuisce fino a circa 4 °C, poi cresce. Scala verticale ingrandita, da 1000,00 a 1000,32 mL.](risorse/volume-acqua.svg)
 
-Didascalia: Intorno a 4 °C, 1 kg d'acqua liquida occupa il volume minore. La scala verticale ingrandita rende visibile la piccola variazione.
+Didascalia: Intorno a 4 °C, 1 kg d'acqua liquida occupa circa 1000,025 mL. L'equivalenza fra 1 kg d'acqua e 1 L è un'approssimazione. La scala verticale ingrandita rende visibile la piccola variazione.
 
 Il comportamento dipende dai legami fra le molecole, che favoriscono organizzazioni più aperte alle basse temperature. A parità di massa, occupare meno volume significa avere una **densità maggiore**: per questo intorno a 4 °C l'acqua liquida raggiunge la densità massima. Al congelamento avviene un ulteriore aumento di volume, distinto dall'anomalia del liquido. Nel ghiaccio le molecole formano una struttura più aperta e il ghiaccio risulta meno denso dell'acqua liquida.
 
@@ -95,8 +95,8 @@ La scala associa le posizioni del livello alle temperature attraverso la taratur
 
 Didascalia: La diversa dilatazione dei due metalli incurva la lamina.
 
-![Termostato bimetallico aperto: la lamina avvolta a spirale e i contatti.](risorse/termostato.jpg)
-Didascalia: La diversa dilatazione dei due metalli incurva la lamina e può azionare un contatto.
+![Termostato bimetallico annotato con sei frecce: leva di regolazione della temperatura, lamina a spirale, filo flessibile, contatto mobile, contatto fisso e magnete.](risorse/termostato-annotato.svg)
+Didascalia: La lamina a spirale sposta il contatto mobile al variare della temperatura. La leva regola la temperatura di intervento e il magnete aiuta a mantenere chiusi i contatti.
 
 Una lamina bimetallica è formata da due strati metallici uniti. Quando la temperatura cambia, i due materiali tendono a cambiare lunghezza in misura diversa. Essendo vincolati l'uno all'altro, si incurvano: durante il riscaldamento, lo strato che tende ad allungarsi di più si dispone sul lato esterno della curva.
 

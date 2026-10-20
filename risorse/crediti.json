@@ -3089,22 +3089,25 @@
     },
     {
       "id": "credit-dilatazione-fig-03b",
-      "description": "WPThermostat new.jpg",
+      "description": "Termostato bimetallico con frecce ed etichette italiane",
       "author": "Leonard G. (originale), Raeky (derivata), Splette (modifica dei colori dei numeri)",
       "source": "https://commons.wikimedia.org/wiki/File:WPThermostat_new.jpg",
       "license": "CC BY-SA 3.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-      "changes": "Nessuna modifica del progetto; file o miniatura scelta incorporati integralmente.",
+      "changes": "Rimozione dei sei numeri tramite ritocco generativo OpenAI imagegen; esportazione JPEG della copia ritoccata; aggiunta di sei frecce e delle etichette italiane in SVG. Fotografia originale e PNG del ritocco conservati.",
       "status": "documented",
       "links": [],
       "notices": [
-        "WPThermostat new.jpg — Leonard G. (originale), Raeky (derivata), Splette (modifica dei colori dei numeri). <a href=\"https://commons.wikimedia.org/wiki/File:WPThermostat_new.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">CC BY-SA 3.0</a>. Nessuna modifica del progetto; file o miniatura scelta incorporati integralmente.<br><ul><li><a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/File:WPThermostat.jpg\" title=\"File:WPThermostat.jpg\">WPThermostat.jpg</a></li></ul><br>Creative Commons Attribution-Share Alike 3.0"
+        "WPThermostat new.jpg — Leonard G. (originale), Raeky (derivata), Splette (modifica dei colori dei numeri). <a href=\"https://commons.wikimedia.org/wiki/File:WPThermostat_new.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">CC BY-SA 3.0</a>. Nessuna modifica del progetto; file o miniatura scelta incorporati integralmente.<br><ul><li><a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/File:WPThermostat.jpg\" title=\"File:WPThermostat.jpg\">WPThermostat.jpg</a></li></ul><br>Creative Commons Attribution-Share Alike 3.0",
+        "Termostato bimetallico, figura annotata derivata da <a href=\"https://commons.wikimedia.org/wiki/File:WPThermostat_new.jpg\">WPThermostat new.jpg</a> e <a href=\"https://commons.wikimedia.org/wiki/File:WPThermostat.jpg\">WPThermostat.jpg</a>. Immagine di partenza: Leonard G. (originale), Raeky (derivata), Splette (colori dei numeri). <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">CC BY-SA 3.0</a>, conservata per la figura derivata. Modifiche del progetto: Rimozione dei sei numeri tramite ritocco generativo OpenAI imagegen; esportazione JPEG della copia ritoccata; aggiunta di sei frecce e delle etichette italiane in SVG. Fotografia originale e PNG del ritocco conservati. Identificazione dei componenti verificata nella <a href=\"https://en.wikipedia.org/wiki/Thermostat#Simple_two_wire_thermostats\">legenda della fotografia in Thermostat, Wikipedia</a>. Carattere Lexend con licenza OFL, riportata separatamente nei crediti del documento."
       ],
       "metadata_sources": [
         "dilatazione_termica_it.html"
       ],
       "fingerprints": [
-        "asset-0058ca40791b864e869ce5f7af5f9b28e2eb831b6501786ec0ae7d1b15981687"
+        "asset-0058ca40791b864e869ce5f7af5f9b28e2eb831b6501786ec0ae7d1b15981687",
+        "asset-7509b43f9cdba47312f46d6513ac1158d0b19c0538882f6421e59d380ee4566a",
+        "asset-ddc7753abe48153b5fcf56b72c95def9987b659a39e3eea62f2b26ab6cd02532"
       ]
     },
     {
@@ -3166,7 +3169,8 @@
       ],
       "fingerprints": [
         "asset-a26670b095fb0f7d3c44eda2e6cc9ca645a4a0af6994b3b9649774ef3472d8dc",
-        "asset-cc2f6a26fdbf24803584ce0a24b12ce7e2833c2bd77794d212183f799eea6363"
+        "asset-cc2f6a26fdbf24803584ce0a24b12ce7e2833c2bd77794d212183f799eea6363",
+        "asset-7498b51c166461e6ab85a19349df6f2cb9b09c80848fa3edccb868df4eb8da1a"
       ]
     },
     {
@@ -3231,6 +3235,24 @@
         "asset-a26670b095fb0f7d3c44eda2e6cc9ca645a4a0af6994b3b9649774ef3472d8dc",
         "asset-cc2f6a26fdbf24803584ce0a24b12ce7e2833c2bd77794d212183f799eea6363"
       ]
+    },
+    {
+      "id": "source-dilatazione-termostato",
+      "description": "Legenda dei componenti del termostato a due fili",
+      "author": "Wikipedia contributors",
+      "source": "https://en.wikipedia.org/wiki/Thermostat#Simple_two_wire_thermostats",
+      "license": "Riferimento scientifico",
+      "license_url": null,
+      "changes": "Identificazione delle parti della fotografia; nessun testo esteso riprodotto.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "<a href=\"https://en.wikipedia.org/wiki/Thermostat#Simple_two_wire_thermostats\">Wikipedia, Thermostat, Simple two wire thermostats</a>. Legenda della fotografia per leva di regolazione, lamina bimetallica a spirale, filo flessibile, contatto mobile, contatto fisso e magnete."
+      ],
+      "metadata_sources": [
+        "dilatazione_termica_it.html"
+      ],
+      "fingerprints": []
     }
   ],
   "documents": {
@@ -3957,10 +3979,6 @@
           "notice": 0
         },
         {
-          "resource": "credit-dilatazione-fig-03b",
-          "notice": 0
-        },
-        {
           "resource": "credit-dilatazione-fig-06",
           "notice": 0
         },
@@ -3983,6 +4001,14 @@
         {
           "resource": "source-dilatazione-network-rail",
           "notice": 0
+        },
+        {
+          "resource": "source-dilatazione-termostato",
+          "notice": 0
+        },
+        {
+          "resource": "credit-dilatazione-fig-03b",
+          "notice": 1
         }
       ],
       "review": null,
@@ -4002,21 +4028,6 @@
           "attribute": "cover-data",
           "location": "copertine/canocchia-pavone.webp",
           "credit_id": "credit-d44568883380600b"
-        }
-      ]
-    },
-    {
-      "id": "asset-0058ca40791b864e869ce5f7af5f9b28e2eb831b6501786ec0ae7d1b15981687",
-      "kind": "image/jpeg",
-      "uses": [
-        {
-          "document": "dilatazione_termica_it.html",
-          "kind": "image/jpeg",
-          "description": "Termostato bimetallico aperto: la lamina avvolta a spirale e i contatti.",
-          "locator": "fig-03b",
-          "attribute": "src",
-          "location": null,
-          "credit_id": "credit-dilatazione-fig-03b"
         }
       ]
     },
@@ -5662,6 +5673,30 @@
       ]
     },
     {
+      "id": "asset-7498b51c166461e6ab85a19349df6f2cb9b09c80848fa3edccb868df4eb8da1a",
+      "kind": "image/svg+xml",
+      "uses": [
+        {
+          "document": "dilatazione_termica_it.html",
+          "kind": "image/svg+xml",
+          "description": "Volume di 1 kg d'acqua liquida fra 0 e 10 °C: la curva diminuisce fino a circa 4 °C, poi cresce. Scala verticale ingrandita, da 1000,00 a 1000,32 mL.",
+          "locator": "gra-01",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-dilatazione-gra-01"
+        },
+        {
+          "document": "dilatazione_termica_it.html",
+          "kind": "image/svg+xml",
+          "description": "Volume di 1 kg d'acqua liquida fra 0 e 10 °C: la curva diminuisce fino a circa 4 °C, poi cresce. Scala verticale ingrandita, da 1000,00 a 1000,32 mL.",
+          "locator": "gra-01",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-dilatazione-gra-01"
+        }
+      ]
+    },
+    {
       "id": "asset-7515fe55792c7096caf2457f3b045ca9edad591ff8f6ddf75362bd814c0f394e",
       "kind": "svg",
       "uses": [
@@ -6366,30 +6401,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-a26670b095fb0f7d3c44eda2e6cc9ca645a4a0af6994b3b9649774ef3472d8dc",
-      "kind": "image/svg+xml",
-      "uses": [
-        {
-          "document": "dilatazione_termica_it.html",
-          "kind": "image/svg+xml",
-          "description": "Volume di 1 kg d'acqua liquida fra 0 e 10 °C: la curva diminuisce fino a circa 4 °C, poi cresce. Scala verticale ingrandita, da 1000,00 a 1000,32 mL.",
-          "locator": "gra-01",
-          "attribute": "src",
-          "location": null,
-          "credit_id": "credit-dilatazione-gra-01"
-        },
-        {
-          "document": "dilatazione_termica_it.html",
-          "kind": "image/svg+xml",
-          "description": "Volume di 1 kg d'acqua liquida fra 0 e 10 °C: la curva diminuisce fino a circa 4 °C, poi cresce. Scala verticale ingrandita, da 1000,00 a 1000,32 mL.",
-          "locator": "gra-01",
-          "attribute": "src",
-          "location": null,
-          "credit_id": "credit-dilatazione-gra-01"
         }
       ]
     },
@@ -7692,6 +7703,30 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-5d1d35c0d78f5ed9"
+        }
+      ]
+    },
+    {
+      "id": "asset-ddc7753abe48153b5fcf56b72c95def9987b659a39e3eea62f2b26ab6cd02532",
+      "kind": "image/svg+xml",
+      "uses": [
+        {
+          "document": "dilatazione_termica_it.html",
+          "kind": "image/svg+xml",
+          "description": "Termostato bimetallico annotato con sei frecce: leva di regolazione della temperatura, lamina a spirale, filo flessibile, contatto mobile, contatto fisso e magnete.",
+          "locator": "fig-03b",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-dilatazione-fig-03b"
+        },
+        {
+          "document": "dilatazione_termica_it.html",
+          "kind": "image/svg+xml",
+          "description": "Termostato bimetallico annotato con sei frecce: leva di regolazione della temperatura, lamina a spirale, filo flessibile, contatto mobile, contatto fisso e magnete.",
+          "locator": "fig-03b",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-dilatazione-fig-03b"
         }
       ]
     },

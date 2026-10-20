@@ -27,7 +27,7 @@ for figure, (filename, caption) in zip(figures, expected):
     original = (Path(__file__).parent / 'risorse' / filename).read_bytes()
     for image in figure.descendants('img'):
         embedded = base64.b64decode(image.attrs['src'].split(',', 1)[1])
-        assert embedded == original, f'Immagine diversa dall’originale scelto: {identifier}'
+        assert embedded == original, f'Immagine diversa dal file sorgente conservato: {identifier}'
     for zoom in (n for n in figure.descendants('details') if n.has_class('image-zoom')):
         controls = list(zoom.descendants('summary'))
         assert len(controls) == 1 and controls[0].has_class('media-icon-button'), identifier
@@ -47,7 +47,7 @@ base_styles = lambda html: [style for style in re.findall(r'<style>([\s\S]*?)</s
 assert base_styles(source) == base_styles(model), 'Stile base diverso dal modello corrente'
 notes_style = lambda html: re.search(r'<style data-component="note-pie-pagina">[\s\S]*?</style>', html)[0]
 assert notes_style(source) == notes_style(model), 'Note diverse dal modello corrente'
-print('Verificate 11 didascalie, originali incorporati, comandi a icona e componenti canoniche del tema.')
+print('Verificate 11 didascalie, sorgenti incorporati, comandi a icona e componenti canoniche del tema.')
 
 nav = lambda html: re.search(r"<!-- stringhe-navigation:start -->[\s\S]*?<!-- stringhe-navigation:end -->", html)[0]
 expected_nav = nav(model).replace('href="" download=""', 'href="dilatazione_termica_it.html" download="dilatazione_termica_it.html"')

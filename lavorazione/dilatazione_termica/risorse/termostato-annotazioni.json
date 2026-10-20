@@ -1,0 +1,94 @@
+{
+  "source": "https://en.wikipedia.org/wiki/Thermostat#Simple_two_wire_thermostats",
+  "photo": "WPThermostat new.jpg",
+  "photo_origin": [
+    304,
+    74
+  ],
+  "photo_display_size": [
+    512,
+    512
+  ],
+  "labels": [
+    {
+      "original_number": 1,
+      "lines": [
+        "Leva di regolazione",
+        "della temperatura"
+      ],
+      "x": 28,
+      "y": 104,
+      "target": [
+        256,
+        83
+      ],
+      "path": "M270 114 H292 470 L560 157"
+    },
+    {
+      "original_number": 2,
+      "lines": [
+        "Lamina bimetallica",
+        "avvolta a spirale"
+      ],
+      "x": 28,
+      "y": 360,
+      "target": [
+        221,
+        392
+      ],
+      "path": "M270 376 H292 425 L525 466"
+    },
+    {
+      "original_number": 3,
+      "lines": [
+        "Filo flessibile"
+      ],
+      "x": 28,
+      "y": 260,
+      "target": [
+        221,
+        282
+      ],
+      "path": "M270 260 H288 400 L525 356"
+    },
+    {
+      "original_number": 4,
+      "lines": [
+        "Contatto mobile"
+      ],
+      "x": 852,
+      "y": 180,
+      "target": [
+        262,
+        191
+      ],
+      "path": "M842 180 H820 L650 220 566 265"
+    },
+    {
+      "original_number": 5,
+      "lines": [
+        "Contatto fisso"
+      ],
+      "x": 852,
+      "y": 320,
+      "target": [
+        288,
+        190
+      ],
+      "path": "M842 320 H820 L730 290 592 264"
+    },
+    {
+      "original_number": 6,
+      "lines": [
+        "Magnete"
+      ],
+      "x": 852,
+      "y": 488,
+      "target": [
+        299,
+        229
+      ],
+      "path": "M842 488 H820 L690 390 603 303"
+    }
+  ]
+}

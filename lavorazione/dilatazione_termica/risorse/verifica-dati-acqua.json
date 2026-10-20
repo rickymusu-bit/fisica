@@ -1,0 +1,12 @@
+{
+  "source": "https://doi.org/10.6028/NIST.IR.7383-2019",
+  "section": "GLP 10, 6.1, Eqn. 1; Tanaka et al. (2001)",
+  "T_C": 4,
+  "mass_kg": 1,
+  "rho_kg_m3": "999.974947703710280183166279433",
+  "volume_mL": "1000.02505292392299285946057178",
+  "mass_of_one_litre_kg": "0.999974947703710280183166279433",
+  "excess_over_one_litre_mL": "0.02505292392299285946057178",
+  "csv_matches_reference_formula": true,
+  "interpretation": "Il volume minimo non è esattamente 1 L per 1 kg; l’equivalenza è approssimata."
+}
