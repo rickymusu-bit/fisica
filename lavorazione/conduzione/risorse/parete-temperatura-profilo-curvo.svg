@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 680" role="img" aria-labelledby="titolo descrizione">
+<title id="titolo">Profilo di temperatura attraverso una parete esterna</title>
+<desc id="descrizione">Aria interna a 25 gradi Celsius, muro omogeneo e aria esterna a meno 5 gradi Celsius. La temperatura varia curvilineamente vicino alle superfici dal lato aria, e linearmente all'interno del muro. Il calore fluisce verso l'esterno.</desc>
+<style>
+text{font-family:Arial,Helvetica,sans-serif;fill:#202b38}
+.main{font-size:23px;font-weight:700}.small{font-size:17px}.val{font-size:19px;font-weight:600}.axis{stroke:#293241;stroke-width:2;fill:none}.guide{stroke:#697484;stroke-width:1.4;stroke-dasharray:6 7}.profile{fill:none;stroke:#c33137;stroke-width:5;stroke-linejoin:round;stroke-linecap:round}
+</style>
+<rect width="1040" height="680" fill="#fff"/>
+<rect x="77" y="63" width="343" height="225" fill="#fff1df"/>
+<rect x="420" y="63" width="200" height="225" fill="#dedbd5"/>
+<rect x="620" y="63" width="343" height="225" fill="#e0f1fc"/>
+<path d="M420 63V288M620 63V288" stroke="#455363" stroke-width="3"/>
+<g stroke="#adb0b2" stroke-width="1.4">
+<path d="M421 87l20-20M421 117l50-50M421 147l80-80M421 177l110-110M421 207l140-140M421 237l170-170M421 267l199-199M451 288l169-169M481 288l139-139M511 288l109-109M541 288l79-79M571 288l49-49M601 288l19-19"/>
+</g>
+<text x="238" y="107" class="main" text-anchor="middle">Aria interna</text>
+<text x="238" y="140" class="val" text-anchor="middle">T aria,in = 25 °C</text>
+<text x="520" y="105" class="main" text-anchor="middle">Muro</text>
+<text x="792" y="107" class="main" text-anchor="middle">Aria esterna</text>
+<text x="792" y="140" class="val" text-anchor="middle">T aria,out = −5 °C</text>
+<path d="M420 43H620" stroke="#202b38" stroke-width="2"/><path d="M420 43l10-6v12zM620 43l-10-6v12z" fill="#202b38"/>
+<text x="520" y="35" class="val" text-anchor="middle">s</text>
+<text x="520" y="177" fill="#a3262c" font-family="Arial" font-size="19" font-weight="700" text-anchor="middle">Flusso di calore</text>
+<path d="M454 200H591" stroke="#c33137" stroke-width="5"/><path d="M591 200l-16-9v18z" fill="#c33137"/>
+<circle cx="420" cy="252" r="4" fill="#202b38"/><circle cx="620" cy="252" r="4" fill="#202b38"/>
+<text x="404" y="243" class="small" text-anchor="end">T sup,in</text>
+<text x="635" y="243" class="small">T sup,out</text>
+<rect x="77" y="325" width="343" height="270" fill="#fff1df"/>
+<rect x="420" y="325" width="200" height="270" fill="#ededeb"/>
+<rect x="620" y="325" width="343" height="270" fill="#e0f1fc"/>
+<path d="M420 54V625M620 54V625" class="guide"/>
+<path d="M98 327V602H980" class="axis"/>
+<path d="M98 327l-7 13h14zM980 602l-13-7v14z" fill="#293241"/>
+<text x="77" y="316" class="small" text-anchor="middle">T (°C)</text>
+<text x="965" y="636" class="small">x</text>
+<g class="small" text-anchor="end"><text x="88" y="356">25</text><text x="88" y="528">0</text><text x="88" y="562">−5</text></g>
+<path d="M98 350H963M98 520H963M98 554H963" stroke="#8d9299" stroke-width="1" stroke-dasharray="4 8" fill="none"/>
+<path d="M98 350H300 C355 350 384 350 420 364 L620 534 C658 552 695 554 755 554H963" class="profile"/>
+<circle cx="420" cy="364" r="5" fill="#202b38"/><circle cx="620" cy="534" r="5" fill="#202b38"/>
+<text x="402" y="388" class="small" text-anchor="end">T sup,in</text>
+<text x="640" y="523" class="small">T sup,out</text>
+<text x="243" y="410" class="small" text-anchor="middle">aria a 25 °C</text>
+<text x="819" y="522" class="small" text-anchor="middle">aria a −5 °C</text>
+<text x="240" y="626" class="main" text-anchor="middle">Aria interna</text>
+<text x="520" y="626" class="main" text-anchor="middle">Muro</text>
+<text x="794" y="626" class="main" text-anchor="middle">Aria esterna</text>
+<text x="520" y="660" class="small" text-anchor="middle">Profilo qualitativo — parete omogenea, regime stazionario</text>
+</svg>
