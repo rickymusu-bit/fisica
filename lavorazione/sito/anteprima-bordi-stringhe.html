@@ -29,6 +29,27 @@ main{max-width:1160px;margin:auto;padding:36px 24px 80px}h1,h2,h3,p{margin-top:0
 [hidden]{display:none!important}
 @media(max-width:800px){.actions{grid-template-columns:repeat(3,minmax(0,1fr))}.covers{grid-template-columns:1fr}.hero-strings{width:70%;right:-28%}}
 @media(max-width:540px){.actions{grid-template-columns:1fr}.top-inner{padding:9px 14px;flex-wrap:wrap}.brand{font-size:19px}.site-nav{width:100%;gap:6px}.site-nav>a,.lang>summary{font-size:12px;padding:6px 9px}.site-nav>a:first-child{margin-left:-9px}main{padding:22px 15px 60px}.hero{padding:30px 23px}.hero-strings{opacity:.17}.action{padding:15px;min-height:112px}.action strong{font-size:14px}.section-heading{align-items:start}.featured{grid-template-columns:1fr}.mini{min-height:90px}.article-card{align-items:start;flex-direction:column}.download{align-self:flex-start}.cover img{height:200px}}
+</style><style data-media-ui>/* Comandi delle immagini: icone in basso a sinistra, didascalie invariate. */
+.gif-stage{display:block;position:relative;width:100%;min-width:0}
+.gif-stage picture{display:block;width:100%}
+.gif-stage img{display:block}
+.gif-stage>.media-icon-button{position:absolute;left:8px;bottom:8px;z-index:2}
+.media-icon-button{box-sizing:border-box;display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;min-width:44px;min-height:44px;padding:9px;border:1px solid #9ca7ba;border-radius:10px;background:#202637;color:#fff;box-shadow:0 1px 5px #0005;cursor:pointer;touch-action:manipulation;line-height:1;list-style:none}
+.media-icon-button:hover{background:#35425a;color:#fff}
+.media-icon-button:focus-visible{outline:3px solid var(--accent,#337cd8);outline-offset:3px}
+.media-icon-button .ui-icon{display:block;width:24px;height:24px}
+.media-icon-button:disabled{display:none}
+.media-play,[data-animation-toggle][aria-pressed=true] .media-pause{display:none}
+[data-animation-toggle][aria-pressed=true] .media-play{display:block}
+.image-frame:has(>.image-zoom){position:relative}
+.image-frame>.image-zoom{position:static;border:0;font-size:inherit}
+.image-frame>.image-zoom>summary.media-icon-button{position:absolute;left:8px;bottom:8px;z-index:2;background:#202637;color:#fff;padding:9px}
+.image-zoom>summary::-webkit-details-marker{display:none}
+.image-zoom>summary::marker{content:''}
+.image-zoom .zoom-expand,.image-zoom[open] .zoom-collapse{display:block}
+.image-zoom .zoom-collapse,.image-zoom[open] .zoom-expand{display:none}
+.particle-model.is-live .gif-stage{display:none}
+@media print{.media-icon-button{display:none!important}}
 </style><script data-stringhe-init>(() => {
   const root = document.documentElement;
   const valid = value => value === 'light' ? 'light' : 'dark';
@@ -255,6 +276,30 @@ a{color:inherit}button,input,select{font:inherit}button,select{color:var(--ink)}
 :root[data-edge=sides] main:has(>.article-wrap)>.article-wrap>.article{padding-top:28px}
 
 .theme-options{font-size:14px}
+
+/* Curva di riscaldamento: cinque colori coerenti con i comandi, dal ghiaccio al vapore. */
+.heating-curve{--phase-1:#2459b8;--phase-2:#5748b4;--phase-3:#873ba7;--phase-4:#b22f77;--phase-5:#cc3030;}
+.heating-curve .curve-scroll :is(#seg-1,#seg-mobile-1){stroke:var(--phase-1);stroke-width:4.5}
+.heating-curve .curve-controls label[for="curve-choice-1"]{background:var(--phase-1);color:#fff;font-weight:600;border:2px solid var(--phase-1)}
+#curve-choice-1:checked ~ .curve-scroll :is(#seg-1,#seg-mobile-1){stroke:var(--phase-1);stroke-width:8}
+#curve-choice-1:checked ~ .curve-controls label[for="curve-choice-1"]{background:var(--phase-1);color:#fff;font-weight:600;box-shadow:0 0 0 2px var(--surface),0 0 0 4px var(--ink)}
+.heating-curve .curve-scroll :is(#seg-2,#seg-mobile-2){stroke:var(--phase-2);stroke-width:4.5}
+.heating-curve .curve-controls label[for="curve-choice-2"]{background:var(--phase-2);color:#fff;font-weight:600;border:2px solid var(--phase-2)}
+#curve-choice-2:checked ~ .curve-scroll :is(#seg-2,#seg-mobile-2){stroke:var(--phase-2);stroke-width:8}
+#curve-choice-2:checked ~ .curve-controls label[for="curve-choice-2"]{background:var(--phase-2);color:#fff;font-weight:600;box-shadow:0 0 0 2px var(--surface),0 0 0 4px var(--ink)}
+.heating-curve .curve-scroll :is(#seg-3,#seg-mobile-3){stroke:var(--phase-3);stroke-width:4.5}
+.heating-curve .curve-controls label[for="curve-choice-3"]{background:var(--phase-3);color:#fff;font-weight:600;border:2px solid var(--phase-3)}
+#curve-choice-3:checked ~ .curve-scroll :is(#seg-3,#seg-mobile-3){stroke:var(--phase-3);stroke-width:8}
+#curve-choice-3:checked ~ .curve-controls label[for="curve-choice-3"]{background:var(--phase-3);color:#fff;font-weight:600;box-shadow:0 0 0 2px var(--surface),0 0 0 4px var(--ink)}
+.heating-curve .curve-scroll :is(#seg-4,#seg-mobile-4){stroke:var(--phase-4);stroke-width:4.5}
+.heating-curve .curve-controls label[for="curve-choice-4"]{background:var(--phase-4);color:#fff;font-weight:600;border:2px solid var(--phase-4)}
+#curve-choice-4:checked ~ .curve-scroll :is(#seg-4,#seg-mobile-4){stroke:var(--phase-4);stroke-width:8}
+#curve-choice-4:checked ~ .curve-controls label[for="curve-choice-4"]{background:var(--phase-4);color:#fff;font-weight:600;box-shadow:0 0 0 2px var(--surface),0 0 0 4px var(--ink)}
+.heating-curve .curve-scroll :is(#seg-5,#seg-mobile-5){stroke:var(--phase-5);stroke-width:4.5}
+.heating-curve .curve-controls label[for="curve-choice-5"]{background:var(--phase-5);color:#fff;font-weight:600;border:2px solid var(--phase-5)}
+#curve-choice-5:checked ~ .curve-scroll :is(#seg-5,#seg-mobile-5){stroke:var(--phase-5);stroke-width:8}
+#curve-choice-5:checked ~ .curve-controls label[for="curve-choice-5"]{background:var(--phase-5);color:#fff;font-weight:600;box-shadow:0 0 0 2px var(--surface),0 0 0 4px var(--ink)}
+.heating-curve .curve-scroll circle{fill:#202637;stroke:#fff;stroke-width:1.5}
 </style></head><body><a class="skip" href="#main">Vai al contenuto</a><header class="site-header"><div class="top-inner"><a class="brand" href="index.html" aria-label="Stringhe, vai alla home"><span>Stringhe</span></a><nav class="site-nav" aria-label="Navigazione principale"><a href="articoli.html">Capitoli</a><a href="quiz.html">Quiz</a><details class="lang" id="lingua"><summary aria-label="Seleziona la lingua">IT ▾</summary><div class="lang-menu"><strong>Lingue disponibili</strong><p lang="it">✓ Italiano</p></div></details><details class="theme-control theme-menu" data-theme-menu><summary aria-label="Tema del sito: Scuro" title="Tema: Scuro"><span class="theme-current-dark"><svg class="ui-icon" data-ui-icon viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 15A9 9 0 0 1 9 4a9 9 0 1 0 11 11Z"/></svg></span><span class="theme-current-light"><svg class="ui-icon" data-ui-icon viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1 1m12 12 1 1M5 19l1-1M18 6l1-1"/></svg></span><span class="menu-chevron" aria-hidden="true">▾</span></summary><div class="theme-options" role="group" aria-label="Scegli il tema"><button type="button" data-theme-option="dark" aria-pressed="true" disabled><svg class="ui-icon" data-ui-icon viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 15A9 9 0 0 1 9 4a9 9 0 1 0 11 11Z"/></svg><span>Scuro</span></button><button type="button" data-theme-option="light" aria-pressed="false" disabled><svg class="ui-icon" data-ui-icon viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1 1m12 12 1 1M5 19l1-1M18 6l1-1"/></svg><span>Chiaro</span></button></div></details></nav></div></header><main id="main"><p class="eyebrow">Confronto del tema</p><h1 class="page-title">Bordi e reticolo</h1>
 <p class="lede">Confronta le stesse superfici con due curve tracciate separatamente. Configurazione scelta: reticolo regolare e sinusoidi verticali di uguale ampiezza. Le alternative restano disponibili per confronto.</p>
 <div class="comparison-toolbar">
@@ -418,6 +463,42 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       playing = !reduced.matches;
       sync();
     });
+    sync();
+  });
+})();
+</script><script data-media-ui>(() => {
+  document.querySelectorAll('[data-zoom-copy]').forEach(image => {
+    image.src = image.closest('figure').querySelector('.overview img').src;
+  });
+  document.querySelectorAll('.image-zoom').forEach(zoom => {
+    const button = zoom.querySelector('summary');
+    const sync = () => {
+      const label = zoom.open ? 'Rimpicciolisci l’immagine' : 'Ingrandisci l’immagine';
+      button.setAttribute('aria-label', label);
+      button.title = label;
+    };
+    zoom.addEventListener('toggle', sync);
+    sync();
+  });
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)');
+  document.querySelectorAll('.gif-stage').forEach(stage => {
+    const image = stage.querySelector('img');
+    const button = stage.querySelector('[data-animation-toggle]');
+    const animation = image.getAttribute('src'), still = image.dataset.still;
+    if (!button || !still) return;
+    // Il picture conserva il fermo per movimento ridotto anche senza JavaScript.
+    stage.querySelectorAll('source').forEach(source => { source.media = 'not all'; });
+    let playing = !reduced.matches;
+    function sync() {
+      image.src = playing ? animation : still;
+      const label = playing ? 'Metti in pausa l’animazione' : 'Riprendi l’animazione';
+      button.setAttribute('aria-label', label);
+      button.title = label;
+      button.setAttribute('aria-pressed', String(!playing));
+    }
+    button.disabled = false;
+    button.addEventListener('click', () => { playing = !playing; sync(); });
+    reduced.addEventListener('change', () => { playing = !reduced.matches; sync(); });
     sync();
   });
 })();

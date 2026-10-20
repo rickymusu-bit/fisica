@@ -13,8 +13,10 @@ Fusione: solido → liquido; solidificazione: liquido → solido. Vaporizzazione
 
 Rispetto al riferimento, il termine generale «vaporizzazione» comprende evaporazione ed ebollizione; «solidificazione» sostituisce «congelamento» come termine generale. Nodi testuali anziché immagini di oggetti reali; nessuna fotografia o illustrazione sostitutiva di oggetti generata. Schema realizzato per questo progetto, senza riuso di elementi grafici scaricati e senza nuove dipendenze esterne.
 
-Verifiche: sei nomi e direzioni controllati, due versi dello scambio energetico distinti da colore e tratto, SVG con titolo e descrizione accessibile. Entrambe le anteprime PNG ispezionate; rimossa una sovrapposizione di testo nella versione a triangolo e resi orizzontali i nomi degli stati nella variante mobile. Il comportamento responsive va ancora provato nell’HTML definitivo, non ancora realizzato.
+Verifiche: sei nomi e direzioni controllati, due versi dello scambio energetico distinti dai colori e dalle etichette della legenda, SVG con titolo e descrizione accessibile. Entrambe le anteprime PNG ispezionate; rimossa una sovrapposizione di testo nella versione a triangolo e resi orizzontali i nomi degli stati nella variante mobile. Il comportamento responsive va ancora provato nell’HTML definitivo, non ancora realizzato.
 
 Didascalia: Ogni coppia di frecce collega due stati attraverso trasformazioni inverse. Fusione, vaporizzazione e sublimazione richiedono energia; nei passaggi inversi la sostanza la cede.
 
 Correzione richiesta il 18 ottobre 2026: nessuna modifica della struttura al cambio di viewport. Eliminata la sorgente alternativa dal componente picture dell’HTML; diagramma triangolare e zoom usano la medesima immagine. Regola generale salvata in AGENTS e nel modello autonomo v7.
+
+Correzione richiesta il 20 ottobre 2026: tutte le frecce dello schema triangolare e della legenda sono continue; rimossi i tratteggi delle frecce blu anche nella vista ingrandita. Conservati geometria, versi, colori e testi. La variante verticale storica resta invariata e inutilizzata.

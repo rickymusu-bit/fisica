@@ -1,5 +1,9 @@
 # Stato — Passaggi di stato
 
+## Revisione corrente — frecce continue nello schema
+
+Richiesta esplicita del 20 ottobre 2026: sostituire le frecce tratteggiate con frecce continue nello schema dei passaggi di stato. Rimosso il tratteggio dagli otto percorsi blu (tre frecce di trasformazione e freccia della legenda, aste e punte), nel sorgente SVG triangolare e nelle due immagini incorporate del capitolo e della bozza HTML. Geometria, direzioni, colori e testi invariati; variante verticale storica non modificata. Capitolo v23; master v69.1 e modello v20 conservati. Revisione sul ramo della PR #49, insieme ai nuovi colori della curva già mostrati e ancora da approvare. Nessun merge o Pages: Allineamento tema e crediti, build e dodici test superati. Verifica mirata del browser su mobile e desktop nei due temi: schema compatto e ingrandito corretti, nessun errore JavaScript o overflow. Confronto automatico: SVG identico all’originale salvo la rimozione dei tratteggi, medesima immagine nelle due viste. Schermate `schema-frecce-continue-*` in `lavorazione/sito/schermate`. Anteprima sul ramo isolato in preparazione; resta richiesta l’approvazione prima di pubblicare.
+
 ## Centralizzazione dei crediti — 18 ottobre 2026
 
 Revisione circoscritta autorizzata dalla richiesta di migrare tutti gli articoli: `passaggi_di_stato.html` usa il registro unico `risorse/crediti.json`, la pagina «Crediti e licenze» e lo snapshot autonomo offline. Sezioni finali dei crediti rimosse dopo il controllo degli avvisi; contenuto scientifico, formule, immagini e script originali preservati. Master v60, tema v8. La stessa revisione dei crediti comprende le traduzioni esistenti del capitolo, senza tradurre i contenuti. Ramo `crediti/centralizzazione`; nessuna riammissione né pubblicazione. Le licenze non documentate restano da verificare nel rapporto `../sito/crediti-verifiche.json`.
