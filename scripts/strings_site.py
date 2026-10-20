@@ -257,7 +257,7 @@ def enhance_article(document, filename):
                 '<div class="string-languages" lang="it">✓ Italiano</div></details>')
     # Gli articoli hanno piccole variazioni negli attributi del nav.
     # Individua l'elemento dalla classe, senza dipendere dall'aria-label esatta.
-    navigation_pattern = r'<nav\\b[^>]*\\bclass\\s*=\\s*["\\\'][^"\\\']*\\btop-links\\b[^"\\\']*["\\\'][^>]*>'
+    navigation_pattern = r'<nav[^>]*class="top-links"[^>]*>'
     document, inserted = re.subn(navigation_pattern,
                                  lambda match: match.group(0) + controls,
                                  document, count=1, flags=re.I)
