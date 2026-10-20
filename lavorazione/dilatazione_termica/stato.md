@@ -1,6 +1,6 @@
 # Stato — La dilatazione termica
 
-Versione v15 — 20 ottobre 2026 (Europe/Rome).
+Versione v16 — 20 ottobre 2026 (Europe/Rome).
 
 ## Identità e fase
 
@@ -109,3 +109,9 @@ L'utente allega 15003.jpg e chiede di creare uno schema simile per il lago ghiac
 Salvati schema-lago-ghiacciato.png (1448 × 1086, 1605879 byte, SHA-256 be976ba1f694280ac6bcc9ec6028e41e2ec14857edcfb876fcafd3c308e4ff04) e riferimento-lago.jpg (1239 × 1280, 95887 byte, SHA-256 a8386f3e18fd94ef6ad64c943875c7425672535d6aad892ebc1c350ccd922bc6) in risorse/. Riferimento stock conservato per lavorazione, non destinato alla pubblicazione; nuovo schema con provenienza imagegen, nessuna licenza del riferimento o della foto trasferita per deduzione. Metadati in visuali.md v14 e crediti di servizio, da trasferire al registro unico nella realizzazione.
 
 Bozza v10: inseriti FIG-05b, alt e didascalia, lasciando la foto del lago distinta. Testo approvato, due tabelle, grafico e 12 domande conservati. Risultato visuale consegnato per revisione, nessuna approvazione del risultato dedotta. Nessun via generale all'HTML o alla pubblicazione. Verificare commit remoto e impronta dei file binari; le fotografie esterne e FIG-06 mantengono i limiti già registrati.
+
+## Foto Reddit mostrata direttamente dall'utente
+
+L'utente invia in chat la foto di FIG-06: osservata direttamente cucina con ghiaccio pendente dal controsoffitto e accumuli sul pavimento. L'immagine non mostra chiaramente la tubazione o la sequenza causale: evitare didascalie che la presentino come prova di una tubazione rotta dal congelamento. Bozza v11: aggiornati solo segnaposto e didascalia descrittiva, testo scientifico conservato. Visuali v15: registrate osservazione in chat, associazione al collegamento già scelto e verifiche aperte.
+
+Post originale, autore e possibilità di riutilizzo non documentati. Il file non compare tra gli allegati locali disponibili nell'ambiente; non dichiarare un salvataggio binario o un hash. Resta necessario recuperare il file effettivo e la provenienza prima dell'integrazione pubblicabile. Nessuna richiesta di nuova approvazione della scelta già fornita. Schema italiano del lago FIG-05b già generato, verificato e salvato nel commit f8860f3c544a47682d06503555ceeb2c7950894c; richiesta precedente completata. Nessun via generale all'HTML o alla pubblicazione ricevuto.
