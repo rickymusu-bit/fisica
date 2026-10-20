@@ -56,7 +56,7 @@ a{color:inherit}button,input{font:inherit}button{cursor:pointer}a:focus-visible,
 .brand svg{width:48px;height:33px;flex-shrink:0}
 .site-nav{display:flex;align-items:center;gap:12px;flex-wrap:wrap}.site-nav>a,.lang>summary{padding:8px 12px;text-decoration:none;border-radius:11px;font-size:14px;font-weight:600;list-style:none;cursor:pointer}.site-nav>a:hover,.lang>summary:hover{background:var(--surface-soft)}.lang{position:relative}.lang>summary{border:1px solid var(--line);background:var(--surface)}.lang>summary::-webkit-details-marker{display:none}.lang-menu{position:absolute;right:0;top:calc(100% + 8px);min-width:170px;background:var(--surface);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);padding:12px;z-index:22;font-size:14px}
 main{max-width:1160px;margin:auto;padding:36px 24px 80px}h1,h2,h3,p{margin-top:0}h1{font-size:clamp(48px,8vw,96px);line-height:1.02;letter-spacing:-.065em;margin-bottom:16px}h2{font-size:clamp(25px,3vw,34px);line-height:1.18;letter-spacing:-.04em}h3{font-size:18px;line-height:1.4}.eyebrow{color:var(--blue);font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.14em}
-.subtitle{font-size:clamp(20px,3vw,29px);color:var(--muted);max-width:660px;line-height:1.45}.hero{position:relative;overflow:hidden;border-radius:26px;border:1px solid var(--line);background:var(--surface);padding:clamp(25px,5vw,60px);box-shadow:var(--shadow)}.hero-copy{position:relative;z-index:2}
+.subtitle{font-size:clamp(20px,3vw,29px);color:var(--accent);max-width:660px;line-height:1.45}.hero{position:relative;overflow:hidden;border-radius:26px;border:1px solid var(--line);background:var(--surface);padding:clamp(25px,5vw,60px);box-shadow:var(--shadow)}.hero-copy{position:relative;z-index:2}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;scroll-behavior:auto!important}}
 .actions{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:24px 0 42px}
 .action{display:flex;flex-direction:column;justify-content:space-between;gap:12px;min-height:128px;padding:22px;border:1px solid var(--line);border-radius:18px;background:var(--white);color:var(--ink);text-align:left;text-decoration:none;box-shadow:0 3px 12px rgba(20,33,61,.035)}
@@ -84,19 +84,35 @@ main{max-width:1160px;margin:auto;padding:36px 24px 80px}h1,h2,h3,p{margin-top:0
 def topbar():
     return (f'<header class="site-header"><div class="top-inner"><a class="brand" href="index.html" aria-label="Stringhe, vai alla home">'
             f'<span>Stringhe</span></a><nav class="site-nav" aria-label="Navigazione principale">'
-            '<a href="articoli.html">Articoli</a><a href="quiz.html">Quiz</a>'
+            '<a href="articoli.html">Capitoli</a><a href="quiz.html">Quiz</a>'
             '<details class="lang" id="lingua"><summary aria-label="Seleziona la lingua">Italiano ▾</summary>'
             '<div class="lang-menu"><strong>Lingue disponibili</strong><p lang="it">✓ Italiano</p></div></details>'
             f'{theme_control()}</nav></div></header>')
 
 
+def chapter_labels(document):
+    """Aggiorna solo diciture di servizio, conservando testo scientifico e URL."""
+    for old, new in {
+        '← Articoli': '← Capitoli',
+        'Indice dell’articolo': 'Indice del capitolo',
+        "Indice dell'articolo": "Indice del capitolo",
+        'Articolo precedente': 'Capitolo precedente',
+        'Articolo successivo': 'Capitolo successivo',
+        'Articolo collegato': 'Capitolo collegato',
+        'Crediti di tutti gli articoli': 'Crediti di tutti i capitoli',
+        'Titolo dell’articolo': 'Titolo del capitolo',
+    }.items():
+        document = document.replace(old, new)
+    return document
+
+
 def shell(title, body, source):
     credits = re.search(r'<!-- resource-credits:start -->[\s\S]*?<!-- resource-credits:end -->', source)
-    credits = credits.group(0) if credits else '<a href="crediti.html">Crediti e licenze</a>'
+    credits = chapter_labels(credits.group(0)) if credits else '<a href="crediti.html">Crediti e licenze</a>'
     return apply_theme(f'<!doctype html><html lang="it"><head><meta charset="utf-8">'
             f'<meta name="viewport" content="width=device-width,initial-scale=1">'
             f'<meta name="theme-color" content="#f6f9fe">'
-            f'<meta name="description" content="Stringhe — L’essenziale della Fisica. Articoli e quiz di Fisica.">'
+            f'<meta name="description" content="Stringhe — L’essenziale della Fisica. Capitoli e quiz di Fisica.">'
             f'<title>{e(title)} — Stringhe</title><style>{font_css(source)}{CSS}</style></head>'
             f'<body><a class="skip" href="#main">Vai al contenuto</a>{topbar()}'
             f'<main id="main">{body}</main>'
@@ -118,21 +134,21 @@ def render_home(source, covers, allowed):
         groups.setdefault(item["area"], []).append(item)
     categories = "".join(
         f'<a class="category" href="articoli.html"><h3>{e(name)} ↗</h3>'
-        f'<p>{len(group)} articoli. Esplora tutti i contenuti.</p></a>'
+        f'<p>{len(group)} capitoli. Esplora tutti i contenuti.</p></a>'
         for name, group in groups.items())
     selection = [items[i] for i in dict.fromkeys([0, len(items)//2, len(items)-1])]
     featured = "".join(
-        f'<a class="mini" href="{e(x["file"])}"><span class="number">ARTICOLO {i+1:02d}</span>'
+        f'<a class="mini" href="{e(x["file"])}"><span class="number">CAPITOLO {i+1:02d}</span>'
         f'<strong>{e(x["title"])}</strong><span>Leggi →</span></a>'
         for i, x in enumerate(selection))
     body = (f'<section class="hero home-title home-intro">'
-            '<div class="hero-copy"><p class="eyebrow">Articoli di fisica</p>'
+            '<div class="hero-copy">'
             f'<div class="hero-title">{logo()}<h1>Stringhe</h1></div><p class="subtitle">L’essenziale della Fisica</p></div>'
             f'<figure class="home-cover" style="--cover-ratio:{first["width"]/first["height"]:.8f}"><img id="random-cover" src="{e(first["src"])}" alt="{e(first["alt"])}" width="{first["width"]}" height="{first["height"]}" loading="eager">'
             f'<figcaption id="cover-caption">{e(first["caption"])}</figcaption></figure></section>'
             '<section class="actions" aria-label="Accessi principali">'
-            '<a class="action" href="articoli.html"><span class="action-symbol">≡</span><strong>Tutti gli articoli</strong><small>Scegli un argomento</small></a>'
-            '<button class="action" id="random-article" type="button"><span class="action-symbol">↝</span><strong>Mi sento fortunato</strong><small>Leggi un articolo casuale</small></button>'
+            '<a class="action" href="articoli.html"><span class="action-symbol">≡</span><strong>Tutti i capitoli</strong><small>Scegli un argomento</small></a>'
+            '<button class="action" id="random-article" type="button"><span class="action-symbol">↝</span><strong>Mi sento fortunato</strong><small>Leggi un capitolo casuale</small></button>'
             '<a class="action" href="quiz.html"><span class="action-symbol">?</span><strong>Quiz</strong><small>Prossimamente</small></a>'
             '<details class="action lang-action"><summary><span class="action-symbol">文</span>'
             '<br><strong>Lingua</strong><br><small>Italiano ▾</small></summary>'
@@ -152,7 +168,7 @@ def render_home(source, covers, allowed):
             'const img=document.getElementById("random-cover");img.width=c.width;img.height=c.height;'
             'img.closest("figure").style.setProperty("--cover-ratio",c.width/c.height);img.src=c.src;img.alt=c.alt;'
             'document.getElementById("cover-caption").textContent=c.caption;}})();</script>'
-            '<noscript><p>Per la scelta casuale serve JavaScript; puoi consultare il catalogo degli articoli.</p></noscript>')
+            '<noscript><p>Per la scelta casuale serve JavaScript; puoi consultare il catalogo dei capitoli.</p></noscript>')
     return shell("Home", body, source)
 
 
@@ -176,15 +192,15 @@ def render_catalogue(source, allowed):
                       f' aria-label="Scarica {e(record["title"])} in HTML">↓ Scarica</a></article>')
         sections += (f'<section class="catalogue-group"><div class="group-heading">'
                      f'<h2>{e(area)}</h2></div>{cards}</section>')
-    body = (f'<p class="eyebrow">Esplora</p><h1 class="page-title">Tutti gli articoli</h1>'
+    body = (f'<p class="eyebrow">Esplora</p><h1 class="page-title">Tutti i capitoli</h1>'
             f'<p class="lede">Cerca un argomento oppure esplora le aree tematiche. '
-            f'Tutti gli articoli sono leggibili online e scaricabili in HTML.</p>'
+            f'Tutti i capitoli sono leggibili online e scaricabili in HTML.</p>'
             '<label for="article-search">Cerca nel catalogo</label>'
             '<input id="article-search" class="search" type="search" placeholder="Titolo o parola chiave" autocomplete="off">'
             f'<div class="chips" role="group" aria-label="Filtra per area tematica">{chips}</div>'
-            f'<p class="count" id="result-count" aria-live="polite">{len(items)} articoli</p>'
+            f'<p class="count" id="result-count" aria-live="polite">{len(items)} capitoli</p>'
             f'<div id="articles-list">{sections}</div>'
-            '<p id="no-results" class="empty" hidden>Nessun articolo trovato. Prova un’altra ricerca.</p>'
+            '<p id="no-results" class="empty" hidden>Nessun capitolo trovato. Prova un’altra ricerca.</p>'
             '<script>(()=>{const input=document.getElementById("article-search");'
             'const cards=[...document.querySelectorAll(".article-card")];'
             'const chips=[...document.querySelectorAll(".chip")];let area="all";'
@@ -194,13 +210,13 @@ def render_catalogue(source, allowed):
             '&&normalize(card.dataset.search).includes(q);card.hidden=!ok;if(ok)n++;}'
             'for(const group of document.querySelectorAll(".catalogue-group")){'
             'group.hidden=![...group.querySelectorAll(".article-card")].some(card=>!card.hidden)}'
-            'document.getElementById("result-count").textContent=n+" "+(n===1?"articolo":"articoli");'
+            'document.getElementById("result-count").textContent=n+" "+(n===1?"capitolo":"capitoli");'
             'document.getElementById("no-results").hidden=n!==0;}'
             'input.addEventListener("input",filter);'
             'for(const chip of chips)chip.addEventListener("click",()=>{area=chip.dataset.area;'
             'for(const b of chips)b.setAttribute("aria-pressed",String(b===chip));filter()});'
             'filter();})();</script>')
-    return shell("Tutti gli articoli", body, source)
+    return shell("Tutti i capitoli", body, source)
 
 
 def render_quiz(source):
@@ -208,8 +224,8 @@ def render_quiz(source):
             '<p class="lede">In futuro potrai generare quiz di verifica scegliendo gli argomenti su cui esercitarti.</p>'
             '<section class="placeholder"><h2>Quiz di verifica</h2>'
             '<p>Il generatore è in preparazione. '
-            'Nel frattempo puoi continuare a consultare gli articoli.</p>'
-            '<a class="download" href="articoli.html">Vai agli articoli →</a></section>')
+            'Nel frattempo puoi continuare a consultare i capitoli.</p>'
+            '<a class="download" href="articoli.html">Vai ai capitoli →</a></section>')
     return shell("Quiz", body, source)
 
 
@@ -222,7 +238,7 @@ def enhance_article(document, filename):
     document = document.replace("Guida pratica per fare luce sulla Fisica", "L’essenziale della Fisica")
     document = document.replace("https://rickymusu-bit.github.io/fisica/#indice", "articoli.html")
     document = document.replace('<a href="#inizio">Fisica</a>', '<a href="#inizio">Stringhe</a>', 1)
-    document = re.sub(r'(<nav[^>]*class="top-links"[^>]*>)<a[^>]*>\s*← Articoli\s*</a>', r'\1', document, count=1)
+    document = re.sub(r'(<nav[^>]*class="top-links"[^>]*>)<a[^>]*>\s*← (?:Articoli|Capitoli)\s*</a>', r'\1', document, count=1)
     controls = ('<!-- stringhe-navigation:start -->'
                 '<a class="string-nav" href="index.html" data-site-path="index.html">⌂ Home</a>'
                 '<a class="string-nav" href="articoli.html" data-site-path="articoli.html">← Articoli</a>'
@@ -240,7 +256,7 @@ def enhance_article(document, filename):
     # I rimandi relativi conservano il ramo di anteprima; offline hanno un fallback pubblico.
     document = document.replace('href="articoli.html">← Articoli', 'href="articoli.html" data-site-path="articoli.html">← Articoli')
     document = document.replace('href="https://rickymusu-bit.github.io/fisica/crediti.html"', 'href="crediti.html" data-site-path="crediti.html"')
-    return apply_theme(document)
+    return apply_theme(chapter_labels(document))
 
 
 def render_comparison(source):
@@ -252,8 +268,8 @@ def render_comparison(source):
 <label>Posizione <select id="edge-variant"><option value="sides">Ai lati, in verticale</option><option value="both">Sopra e sotto</option><option value="top">Solo sopra</option></select></label>
 </div>
 <section class="hero"><div class="hero-copy"><p class="eyebrow">Stringhe</p><h2>L’essenziale della Fisica</h2><p>Un tema leggero intorno ai contenuti.</p></div></section>
-<div class="actions"><a class="action" href="articoli.html"><strong>Tutti gli articoli</strong><small>Scegli un argomento</small></a><button class="action" type="button" data-demo-dialog><strong>Mi sento fortunato</strong><small>Apri la finestra di esempio</small></button><a class="action" href="quiz.html"><strong>Quiz</strong><small>Prossimamente</small></a><details class="action lang-action"><summary>Lingua</summary><p>Italiano</p></details></div>
-<div class="comparison-grid"><article class="comparison-card"><h2>Una card del catalogo</h2><p>Materia e calore</p><p>Una descrizione breve: le curve rimangono sul bordo e non attraversano il testo.</p><a href="articoli.html">Esplora gli articoli →</a></article>
+<div class="actions"><a class="action" href="articoli.html"><strong>Tutti i capitoli</strong><small>Scegli un argomento</small></a><button class="action" type="button" data-demo-dialog><strong>Mi sento fortunato</strong><small>Apri la finestra di esempio</small></button><a class="action" href="quiz.html"><strong>Quiz</strong><small>Prossimamente</small></a><details class="action lang-action"><summary>Lingua</summary><p>Italiano</p></details></div>
+<div class="comparison-grid"><article class="comparison-card"><h2>Una card del catalogo</h2><p>Materia e calore</p><p>Una descrizione breve: le curve rimangono sul bordo e non attraversano il testo.</p><a href="articoli.html">Esplora i capitoli →</a></article>
 <section class="comparison-card"><h2>Una lettura più lunga</h2><p>La superficie di lettura è uniforme e opaca. Il reticolo resta visibile soltanto negli spazi esterni alle card, mentre gli accenti blu accompagnano i comandi.</p><p>Le due curve hanno lo stesso periodo e sono in opposizione di fase: qui sono disegni distinti, non la loro somma. In A hanno la stessa ampiezza; in B la seconda ha un’ampiezza pari al 60% della prima.</p><button class="download" type="button" data-demo-dialog>Apri la finestra</button></section></div>
 <dialog class="comparison-dialog" id="demo-dialog"><h2>Una finestra del sito</h2><p>Stesso contenuto, con le varianti di bordo e di tema selezionate.</p><form method="dialog"><button class="download">Chiudi</button></form></dialog>
 <noscript><p>I controlli di confronto richiedono JavaScript. Il campione statico mostra A e segue il tema di sistema.</p></noscript>

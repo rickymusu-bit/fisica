@@ -1,5 +1,9 @@
 # Stato — Home e GitHub Pages
 
+## Revisione corrente — capitoli e pubblicazione autorizzata
+
+Richiesta esplicita: etichette «capitoli», rimozione della scritta sopra «Stringhe», sottotitolo blu, integrazione PR verso main e pubblicazione Pages. Autorizzazione corrente valida: superati i precedenti vincoli di bozza riportati nello storico. Aggiornati portale, navigazione e servizi delle sole copie pubblicabili, modello v14 e terminologia del master v68. URL e manifest stabili; sorgenti scientifici, esclusi e traduzioni invariati. La pagina di confronto viene rimossa dall’artefatto ufficiale Pages e resta nell’anteprima. Verifiche locali superate: allineamento del modello, registro crediti, build, undici test e 150 combinazioni browser pagina/viewport/tema; venti copertine e 100 impaginazioni con proporzioni e didascalie verificate. Controllati anche assenza della scritta sopra il titolo e sottotitolo blu nei due temi. Schermate aggiornate. Completamento della PR #43 e deployment in corso.
+
 ## Revisione corrente — card unica della home e logo a due curve
 
 Ultima precisazione dell’utente: titolo e copertina devono stare **nella stessa card, senza onde laterali**. Su mobile la copertina scende sotto al titolo; su desktop titolo e foto sono affiancati. Didascalia sempre allineata al bordo sinistro della fotografia effettivamente visibile: il contenitore si dimensiona in base al rapporto della foto scelta, senza letterboxing, ritagli o distorsioni. Questa precisazione sostituisce la proposta intermedia di due card con onde sulla copertina. Restano verticali i bordi delle altre card e del corpo continuo degli articoli.

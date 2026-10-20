@@ -1,31 +1,33 @@
 # Terminologia del sito
 
-Versione v8 — 20 ottobre 2026. La specifica `lavorazione/sito/PIANO_IMPLEMENTAZIONE_STRINGHE.md` e la richiesta corrente sostituiscono le precedenti denominazioni dell’interfaccia. Le approvazioni di contenuto e la cronologia restano conservate in Git e negli stati.
+Versione v9 — 20 ottobre 2026. La specifica `lavorazione/sito/PIANO_IMPLEMENTAZIONE_STRINGHE.md` e la richiesta corrente sostituiscono le precedenti denominazioni dell’interfaccia. Le approvazioni di contenuto e la cronologia restano conservate in Git e negli stati.
 
 | Elemento | Nome corrente |
 | --- | --- |
 | Sito | **Stringhe** |
 | Sottotitolo | **L’essenziale della Fisica** |
 | Raggruppamento | Area tematica |
-| Contenuto autonomo | Articolo |
-| Parte di un articolo | Sezione |
-| Catalogo separato e ricercabile | Tutti gli articoli |
-| Ritorno al catalogo dagli articoli | ← Articoli |
+| Contenuto autonomo | Capitolo |
+| Parte di un capitolo | Sezione |
+| Catalogo separato e ricercabile | Tutti i capitoli |
+| Ritorno al catalogo dai capitoli | ← Capitoli |
 | Comando interno | Indice |
-| Titolo dell’indice aperto | Indice dell’articolo |
-| Navigazione in sequenza | Articolo precedente / Articolo successivo |
+| Titolo dell’indice aperto | Indice del capitolo |
+| Navigazione in sequenza | Capitolo precedente / Capitolo successivo |
 | Attribuzioni | Crediti e licenze |
 
-La home conserva i quattro accessi Tutti gli articoli / Mi sento fortunato / Quiz / Lingua. La scelta casuale e il catalogo comprendono esattamente gli articoli ammessi da `pubblicazione.json`; la sola lingua disponibile è Italiano. Il selettore del tema è un controllo separato: Automatico / Chiaro / Scuro.
+La home conserva i quattro accessi Tutti i capitoli / Mi sento fortunato / Quiz / Lingua. La scelta casuale e il catalogo comprendono esattamente i capitoli ammessi da `pubblicazione.json`; la sola lingua disponibile è Italiano. Il selettore del tema è un controllo separato: Automatico / Chiaro / Scuro.
 
 La pagina Quiz presenta esclusivamente il futuro generatore di quiz di verifica sugli argomenti scelti dall’utente. Non integra né presenta come propria funzione il progetto autonomo «Chi vuol essere rimandato».
 
-La barra degli articoli conserva Home / Articoli / Scarica / Lingua, il tema e l’indice interno. Online usare collegamenti relativi a `index.html`, `articoli.html`, `crediti.html` per mantenere il ramo corrente. Nei documenti scaricati `data-site-path` e il componente comune forniscono il fallback a `https://rickymusu-bit.github.io/fisica/`. Non ripristinare gli indirizzi dismessi.
+La barra dei capitoli conserva Home / Capitoli / Scarica / Lingua, il tema e l’indice interno. Online usare collegamenti relativi a `index.html`, `articoli.html`, `crediti.html` per mantenere il ramo corrente. Nei documenti scaricati `data-site-path` e il componente comune forniscono il fallback a `https://rickymusu-bit.github.io/fisica/`. Non ripristinare gli indirizzi dismessi.
 
-La scritta sopra il titolo dell’articolo è il nome esatto dell’area tematica nel catalogo. Nella home mostrare soltanto il nome del raggruppamento, senza ripetere «Area tematica». Note, Ingrandisci l’immagine, Torna all’inizio e Crediti di tutti gli articoli conservano le etichette approvate.
+La scritta sopra il titolo del capitolo è il nome esatto dell’area tematica nel catalogo. Nella home mostrare soltanto il nome del raggruppamento, senza ripetere «Area tematica». Note, Ingrandisci l’immagine, Torna all’inizio e Crediti di tutti i capitoli conservano le etichette approvate.
 
-Il modello canonico è `riferimenti/TEMA_DISPENSE.html` v13. Riutilizza i componenti incorporati del tema Stringhe, derivati da `identita/tema-stringhe.css`, `tema-init.js`, `tema-controlli.js` tramite `scripts/stringhe_theme.py`. Il generatore e il modello devono restare allineati (`scripts/sync_stringhe_theme.py --check`). Le onde decorative sono due curve distinte in opposizione di fase, non una risultante né un’onda stazionaria scientifica. Scelta dell’utente: reticolo regolare e sinusoidi di uguale ampiezza. Approvata la disposizione verticale ai lati delle card e dell’unico contenitore continuo del corpo degli articoli. Le alternative restano nella pagina di confronto storico.
+Il modello canonico è `riferimenti/TEMA_DISPENSE.html` v14. Riutilizza i componenti incorporati del tema Stringhe, derivati da `identita/tema-stringhe.css`, `tema-init.js`, `tema-controlli.js` tramite `scripts/stringhe_theme.py`. Il generatore e il modello devono restare allineati (`scripts/sync_stringhe_theme.py --check`). Le onde decorative sono due curve distinte in opposizione di fase, non una risultante né un’onda stazionaria scientifica. Scelta dell’utente: reticolo regolare e sinusoidi di uguale ampiezza. Approvata la disposizione verticale ai lati delle card e dell’unico contenitore continuo del corpo dei capitoli. Le alternative restano nella pagina di confronto storico.
 
 Il logo mantiene la curva circolare nera originale a quattro creste, nodi fissi e ampiezza 20, affiancata ora da una seconda curva in gradiente blu, di uguale ampiezza e in opposizione di fase. Stesso periodo di quattro secondi e nessuna rotazione. Percorsi stabili `identita/logo-materia-oscura.svg` e `.gif`; entrambi aggiornati dalla richiesta esplicita dell’utente. Pausa/ripresa e movimento ridotto si applicano alle due curve. Nella home titolo, logo e copertina condividono una sola card, senza onde decorative ai lati. Fotografia sotto al titolo su mobile e affiancata su desktop; didascalia sempre allineata al bordo sinistro dell’immagine visibile. Le venti fotografie restano intere e casuali, con didascalie e alt coerenti.
 
-Crediti centralizzati nel registro unico e snapshot autonomi offline; OFL incorporata. Nessuna sostituzione di avvisi di licenza o fonti scientifiche. Il punto centrato è riservato alla moltiplicazione, mai ai separatori dell’interfaccia. Gli articoli esclusi e i loro sorgenti non ricevono questo aggiornamento.
+Crediti centralizzati nel registro unico e snapshot autonomi offline; OFL incorporata. Nessuna sostituzione di avvisi di licenza o fonti scientifiche. Il punto centrato è riservato alla moltiplicazione, mai ai separatori dell’interfaccia. I capitoli esclusi e i loro sorgenti non ricevono questo aggiornamento.
+
+Richiesta finale: nessuna scritta sopra «Stringhe» nella home; sottotitolo blu nel tema chiaro e scuro. I percorsi storici e la chiave `articoli` del manifest restano invariati. Pubblicazione su main e Pages autorizzata esplicitamente dall’utente.

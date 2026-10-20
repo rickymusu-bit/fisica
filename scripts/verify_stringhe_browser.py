@@ -78,6 +78,8 @@ def main():
                     assert boxes['image']['left'] >= boxes['copy']['right'], boxes
             page.goto(base+'index.html')
             assert page.locator('.home-intro #random-cover').count() == 1
+            assert page.locator('.home-intro .eyebrow').count() == 0
+            assert page.locator('.site-nav a[href="articoli.html"]').inner_text() == 'Capitoli'
             for width in [320,390,768,1024,1440]:
                 page.set_viewport_size({'width':width,'height':900})
                 for theme in ['light','dark']:
@@ -85,6 +87,7 @@ def main():
                     for side in ['before','after']:
                         assert page.locator('.home-title').evaluate('(e,side)=>getComputedStyle(e,":"+side).display', side) == 'none'
                         assert page.locator('.home-cover').evaluate('(e,side)=>getComputedStyle(e,":"+side).content', side) in ['none','normal']
+                    assert page.locator('.home-intro .subtitle').evaluate('(e)=>getComputedStyle(e).color===(()=>{const s=document.createElement("span");s.style.color="var(--accent)";document.body.append(s);const c=getComputedStyle(s).color;s.remove();return c;})()')
                     verify_cover_layout(width)
             # Controllo delle 20 scelte casuali e associazione immagine/alt/didascalia.
             covers = json.loads((ROOT / 'copertine/manifest.json').read_text())

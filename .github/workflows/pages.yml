@@ -34,8 +34,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Prepara gli articoli, le lingue e le copertine
-        run: python3 scripts/build_pages.py
+      - name: Prepara i capitoli e le copertine
+        run: |
+          python3 scripts/build_pages.py
+          # Il confronto grafico resta soltanto nell’anteprima di sviluppo.
+          rm _site/anteprima-bordi-stringhe.html
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
