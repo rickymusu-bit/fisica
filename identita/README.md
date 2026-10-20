@@ -21,6 +21,6 @@ Anteprima unica: `lavorazione/sito/anteprima-logo.html`. Verifica del modello e 
 
 ## Tema condiviso del sito
 
-Il nome storico dei file del logo resta stabile. Palette e componenti Stringhe sono in `tema-stringhe.css`, `tema-init.js`, `tema-controlli.js`; `scripts/stringhe_theme.py` li incorpora nel portale e nel modello v11, senza richieste esterne. Il logo originale e i suoi controlli non sono stati ridisegnati. Sullo scuro una superficie chiara dedicata rende leggibile il tratto nero.
+Il nome storico dei file del logo resta stabile. Palette e componenti Stringhe sono in `tema-stringhe.css`, `tema-init.js`, `tema-controlli.js`; `scripts/stringhe_theme.py` li incorpora nel portale e nel modello v12, senza richieste esterne. Il logo originale e i suoi controlli non sono stati ridisegnati. Sullo scuro una superficie chiara dedicata rende leggibile il tratto nero.
 
-Per aggiornare modello e confronto usare `python3 scripts/sync_stringhe_theme.py`, quindi `--check`. I documenti scientifici sorgenti restano invariati; la build trasforma solo le nove copie ammesse. Le varianti di bordi e reticolo sono confrontabili nell’anteprima di sviluppo e attendono la scelta dell’utente.
+Per aggiornare modello e confronto usare `python3 scripts/sync_stringhe_theme.py`, quindi `--check`. I documenti scientifici sorgenti restano invariati; la build trasforma solo le nove copie ammesse. Scelta approvata: reticolo regolare e sinusoidi verticali di uguale ampiezza, ai lati dei contenitori, compresa la superficie continua degli articoli. Le altre varianti restano confronti storici.

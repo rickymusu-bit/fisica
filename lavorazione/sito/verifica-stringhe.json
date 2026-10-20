@@ -753,6 +753,20 @@
   ],
   "errori_javascript": [],
   "copertine_verificate": 20,
+  "laterali": {
+    "viewport": [
+      320,
+      390,
+      768,
+      1024,
+      1440
+    ],
+    "temi": [
+      "light",
+      "dark"
+    ],
+    "curve": "stessa ampiezza; periodo invariato; 24 px per fascia; nessun overflow"
+  },
   "offline": "file:// bloccato dalla policy del browser; HTML verificato in memoria con rete bloccata",
   "browser": "Chromium; mobile e touch emulati, nessun dispositivo Android fisico",
   "controlli": [
@@ -767,19 +781,5 @@
     "zoom",
     "crediti",
     "download identico"
-  ],
-  "laterali": {
-    "viewport": [
-      320,
-      390,
-      768,
-      1024,
-      1440
-    ],
-    "temi": [
-      "light",
-      "dark"
-    ],
-    "esito": "geometria e interazioni verificate; nessun overflow; prova ancora da approvare"
-  }
+  ]
 }

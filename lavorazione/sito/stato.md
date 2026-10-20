@@ -1,5 +1,12 @@
 # Stato — Home e GitHub Pages
 
+## Scelta corrente approvata — onde verticali
+
+L’utente ha confermato «Ok scelgo le onde verticali», dopo aver chiarito che il corpo dell’articolo è una sola superficie di lettura. Configurazione adottata: reticolo regolare, sinusoidi di uguale ampiezza e disposizione verticale sui lati. Applicata al tema condiviso di home, catalogo, Quiz, crediti, nove copie ammesse e modello v12. Il testo degli articoli rimane in un solo contenitore, con due fasce decorative continue e spazio riservato alla lettura; nessuna divisione in card di sezione.
+
+Verificati allineamento del modello, crediti, build, dieci test e 150 combinazioni pagina/viewport/tema, oltre alla geometria delle fasce laterali. Confermati i nove sorgenti scientifici invariati. Schermate aggiornate anche per il corpo continuo dell’articolo. Master aggiornato limitatamente alla scelta grafica, v66; i sorgenti scientifici, i sospesi, le traduzioni, il manifest e il logo restano invariati. Scelta grafica approvata, pubblicazione ufficiale non richiesta: PR #43 ancora in bozza, main e Pages non modificati.
+
+
 ## Prova corrente — sinusoidi verticali ai lati delle card
 
 L’utente ha scelto esplicitamente reticolo regolare (A) e sinusoidi di uguale ampiezza (A), chiedendo di provare la disposizione verticale ai lati. La pagina di confronto parte ora da queste scelte e dai lati verticali, con possibilità di tornare a sopra/sotto o solo sopra. Stessa geometria, periodo e palette: SVG trasposto, senza deformazioni. Fasce laterali di 24 px, spazio riservato al testo e sfumatura alle estremità; su smartphone i pulsanti della dimostrazione sono in colonna per conservare lo spazio di lettura.

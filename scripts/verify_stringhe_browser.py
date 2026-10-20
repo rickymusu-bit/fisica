@@ -46,6 +46,12 @@ def main():
             for name in pages:
                 page.goto(base + name)
                 page.wait_for_function('document.fonts.status === "loaded"')
+                assert page.evaluate('document.documentElement.dataset.edge') == 'sides', name
+                if name in publication['articoli'] or name == 'modello-dispense.html':
+                    assert page.locator('.article').count() == 1
+                    assert page.locator('.article').evaluate("e=>!['none','normal'].includes(getComputedStyle(e,':before').content) && getComputedStyle(e,':before').pointerEvents==='none'")
+                    assert page.locator('.article').evaluate("e=>getComputedStyle(e,':before').width") == '24px'
+                    assert page.locator('.article').evaluate("e=>getComputedStyle(e,':after').right") == '0px'
                 for width in [320, 390, 768, 1024, 1440]:
                     page.set_viewport_size({'width': width, 'height': 900})
                     for theme in ['light', 'dark']:
@@ -145,6 +151,10 @@ def main():
                     for name, label in [('index.html','home'),('articoli.html','catalogo'), (publication['articoli'][0], 'articolo')]:
                         page.goto(base+name);page.locator('[data-theme-select]').select_option(theme)
                         page.screenshot(path=str(SHOTS/f'{label}-{width}-{theme}.png'), full_page=(label!='articolo'), animations='disabled')
+                        if label == 'articolo':
+                            page.locator('.article > .section-heading').first.evaluate('(e)=>e.scrollIntoView({block:"start",behavior:"instant"})')
+                            page.evaluate("async()=>{await document.fonts.ready;await Promise.all([...document.images].filter(i=>{const r=i.getBoundingClientRect();return r.bottom>0 && r.top<innerHeight}).map(i=>i.decode().catch(()=>{})))}")
+                            page.screenshot(path=str(SHOTS/f'corpo-articolo-{width}-{theme}.png'), animations='disabled')
                     for variant in ['A','B']:
                         page.goto(base+'anteprima-bordi-stringhe.html');page.locator('[data-theme-select]').select_option(theme)
                         page.locator('#border-variant').select_option(variant)

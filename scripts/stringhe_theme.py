@@ -1,7 +1,8 @@
 """Componenti incorporabili del tema Stringhe, condivisi da portale e modello.
 
 Nessuna risorsa di rete: ogni HTML generato conserva CSS e comportamenti.
-Le varianti sono opzioni di confronto, non una decisione grafica definitiva.
+Tema scelto: reticolo regolare e sinusoidi verticali di uguale ampiezza.
+Le alternative rimangono nella pagina di confronto.
 """
 from pathlib import Path
 import re
@@ -47,7 +48,12 @@ def apply_theme(document):
     for marker, tag in [('stringhe-init', 'script'), ('stringhe-theme', 'style'),
                         ('stringhe-controls', 'script')]:
         document = re.sub(rf'<{tag} data-{marker}>[\s\S]*?</{tag}>', '', document)
-    # La preferenza si applica subito dopo charset/viewport, prima degli stili.
+    # Impostazione strutturale anche senza JavaScript e nelle copie autonome.
+    document = re.sub(r'(<html\b)([^>]*)(>)',
+                      lambda match: match[1] + match[2] +
+                      (' data-edge="sides"' if 'data-edge=' not in match[2] else '') + match[3],
+                      document, count=1, flags=re.I)
+    # La preferenza si applica prima del primo rendering.
     document = document.replace('</head>', theme_head() + '</head>', 1)
     document = document.replace('</body>', theme_script() + '</body>', 1)
     return document

@@ -244,7 +244,7 @@ def enhance_article(document, filename):
 
 def render_comparison(source):
     body = '''<p class="eyebrow">Confronto del tema</p><h1 class="page-title">Bordi e reticolo</h1>
-<p class="lede">Confronta le stesse superfici con due curve tracciate separatamente. Reticolo regolare e sinusoidi di uguale ampiezza sono approvati. Confronta ora la posizione delle curve.</p>
+<p class="lede">Confronta le stesse superfici con due curve tracciate separatamente. Configurazione scelta: reticolo regolare e sinusoidi verticali di uguale ampiezza. Le alternative restano disponibili per confronto.</p>
 <div class="comparison-toolbar">
 <label>Bordi <select id="border-variant"><option value="A">A — ampiezze uguali</option><option value="B">B — seconda ampiezza al 60%</option></select></label>
 <label>Reticolo <select id="grid-variant"><option value="A">A — ortogonale</option><option value="B">B — lieve curvatura</option></select></label>
@@ -261,4 +261,4 @@ def render_comparison(source):
  const control=document.getElementById(id);control.addEventListener('change',()=>{document.documentElement.dataset[key]=control.value;});}
  const dialog=document.getElementById('demo-dialog');document.querySelectorAll('[data-demo-dialog]').forEach(button=>button.addEventListener('click',()=>dialog.showModal()));
 })();</script>'''
-    return shell('Confronto bordi e reticolo', body, source).replace('<html lang="it">', '<html lang="it" data-edge="sides">', 1)
+    return shell('Confronto bordi e reticolo', body, source)

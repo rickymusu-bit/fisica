@@ -2,6 +2,13 @@
 
 Implementazione del piano del 20 ottobre 2026 sul ramo `design/stringhe-portale`, PR #43 in bozza. Il tema è una proposta completa da confrontare: la scelta A/A è stata approvata; la posizione dei bordi è ancora in prova. Nessun merge in main né deployment Pages.
 
+## Configurazione ora adottata
+
+L’utente ha scelto **onde verticali**, confermando reticolo regolare e ampiezze uguali. La disposizione è ora attiva nel tema comune e nel modello v12, non soltanto nella dimostrazione. Il corpo dell’articolo conserva un unico contenitore continuo, con curve ai due lati e margini dedicati; formule e figure non ricevono cornici decorative aggiuntive. I confronti e le considerazioni di prova sotto riportati documentano il percorso precedente.
+
+Corpo continuo dell’articolo: [mobile chiaro](schermate/corpo-articolo-390-light.png), [mobile scuro](schermate/corpo-articolo-390-dark.png), [desktop chiaro](schermate/corpo-articolo-1440-light.png), [desktop scuro](schermate/corpo-articolo-1440-dark.png).
+
+
 ## Scelta ricevuta e nuova prova
 
 L’utente ha approvato **reticolo regolare** e **sinusoidi di uguale ampiezza**. La nuova anteprima parte da queste impostazioni, con curve ai lati in verticale; il controllo Posizione permette di tornare al confronto orizzontale. Le altre varianti rimangono disponibili come riferimenti storici.

@@ -1,10 +1,15 @@
 # Stringhe — piano di implementazione per Codex
 
-**Stato:** specifica approvata dall'utente per le funzionalità indicate; varianti grafiche dei bordi ancora da confrontare.
+**Stato:** funzionalità e configurazione grafica approvate: reticolo regolare e sinusoidi verticali di uguale ampiezza; pubblicazione ufficiale non autorizzata.
 **Aggiornamento:** 20 ottobre 2026 — Italia (Europe/Rome).
 **Repository:** `rickymusu-bit/fisica`.
 **Ramo di lavoro attuale:** `design/stringhe-portale` (PR #43, bozza).
 **Scopo di questo documento:** consegnare a Codex un elenco eseguibile di interventi sul portale, non richiedere la pubblicazione in `main`.
+
+## Scelta definitiva dell’utente — disposizione verticale
+
+Confermata la configurazione: **reticolo regolare, sinusoidi di uguale ampiezza, verticali ai lati**. Il corpo dell’articolo resta una sola superficie continua, con due fasce laterali; non creare card separate per ogni sezione. Applicazione autorizzata al tema comune e al modello v12. La scelta non autorizza merge o pubblicazione ufficiale. Le indicazioni di varianti ancora da approvare nei blocchi precedenti sono storiche e superate da questa decisione.
+
 
 ## Decisione successiva dell’utente — prova dei lati verticali
 
@@ -56,7 +61,7 @@ Realizzare una **pagina di confronto** `lavorazione/sito/anteprima-bordi-stringh
 - [x] **P1.4 Testare il posizionamento:** (a) bordo superiore e inferiore della card con fianchi semplici; (b) solo bordo superiore. È possibile mostrare anche un campione con cornice completa molto tenue, ma le varianti A/B sulle due curve restano la priorità. La decorazione deve adattarsi alla larghezza delle card senza tagli bruschi degli estremi, deformazioni della sinusoide o overflow orizzontale. Preferire SVG e CSS condivisi anziché immagini raster. Non cambiare la struttura delle figure scientifiche.
 - [x] **P1.5 Applicazione selettiva.** Provare il motivo sulla hero, sui quattro pulsanti, sulle card del catalogo e sui box in evidenza. Valutare il risultato su schermi piccoli e grandi: non imporre automaticamente onde evidenti a tutte le finestre, ai grafici, ai sistemi di equazioni o alle figure.
 - [x] **P1.6 Accessibilità e prestazioni.** Elementi decorativi con `aria-hidden="true"`, nessun elemento che intercetti clic, focus o selezione del testo; contrasto adatto ai due temi, spessore leggibile su schermi ad alta densità, nessuna animazione continua dei bordi richiesta. Se si anima un dettaglio, prevedere `prefers-reduced-motion`.
-- [ ] **P1.7 Decisione grafica.** Preparare screenshot mobile e desktop di entrambe le varianti nello stesso contesto, sia con tema chiaro sia con tema scuro. Registrare pro e contro e chiedere all'utente quale preferisce prima di fissare la scelta su tutto il sito.
+- [x] **P1.7 Decisione grafica.** Preparare screenshot mobile e desktop di entrambe le varianti nello stesso contesto, sia con tema chiaro sia con tema scuro. Registrare pro e contro e chiedere all'utente quale preferisce prima di fissare la scelta su tutto il sito.
 
 ## P2 — Dark mode opzionale, completa e persistente
 

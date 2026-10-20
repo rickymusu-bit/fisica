@@ -25,6 +25,7 @@ class PublicationTests(unittest.TestCase):
                 self.assertEqual(published.count('data-stringhe-theme'), 1)
                 self.assertEqual(published.count('data-theme-select'), 3)  # markup e due script comuni
                 self.assertIn('data-logo-toggle', published)
+                self.assertIn('data-edge="sides"', published)
                 self.assertNotIn('href="https://rickymusu-bit.github.io/fisica/#indice"', published)
         for name in publication['esclusi_da_pubblicazione_e_aggiornamenti'] + publication['indirizzi_storici_dismessi']:
             self.assertFalse((ROOT / '_site' / name).exists(), name)
