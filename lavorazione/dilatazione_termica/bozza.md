@@ -1,7 +1,7 @@
 # La dilatazione termica
 
-Bozza v10 — 20 ottobre 2026 (Europe/Rome).
-Testo scientifico v7 approvato. Questa v10 aggiorna i materiali scelti e aggiunge il grafico statico richiesto, con provenienza in visuali.md. File binari e ulteriori materiali ancora da ricevere o recuperare.
+Bozza v11 — 20 ottobre 2026 (Europe/Rome).
+Testo scientifico v7 approvato. Questa v11 aggiorna i materiali scelti e aggiunge il grafico statico richiesto, con provenienza in visuali.md. File binari e ulteriori materiali ancora da ricevere o recuperare.
 
 [IMMAGINE COP-01 — SHB-Red-Dust.jpg, copertina scelta; originale binario da recuperare.]
 Didascalia: Il Sydney Harbour Bridge durante una tempesta di polvere rossa.
@@ -122,8 +122,8 @@ Il ghiaccio galleggia e lo strato superficiale rallenta la perdita di calore del
 
 ### Quando il congelamento provoca danni
 
-[IMMAGINE FIG-06 — Collegamento scelto: https://i.redd.it/2jq40fxtax801.jpg . File non accessibile: contenuto, causa del danno e diritti ancora da verificare; non incorporare finché non esaminato.]
-Didascalia da definire dopo la verifica dell'immagine.
+[IMMAGINE FIG-06 — Foto Reddit mostrata direttamente dall'utente: cucina con ghiaccio dal controsoffitto e accumuli sul pavimento. URL di provenienza indicato: https://i.redd.it/2jq40fxtax801.jpg . Post originale, autore e diritti da documentare.]
+Didascalia: Ghiaccio sceso dal controsoffitto e accumulato sul pavimento di una cucina.
 
 Nel lago il ghiaccio può occupare spazio verso la superficie; dentro una tubazione o un recipiente rigido l'acqua può trovarsi invece confinata. Se non può espandersi liberamente, la formazione del ghiaccio può provocare pressioni elevate e danneggiare il contenitore.
 
@@ -163,7 +163,7 @@ Testo originale. Fonti consultate per controllo dei principi; trasferire i rifer
 
 - Network Rail, Buckled rail: https://www.networkrail.co.uk/rail-travel/delays-explained/buckled-rail-and-summer-heat/ . Controllo delle conseguenze del riscaldamento e della gestione delle rotaie saldate continue; nessuna immagine ripresa.
 
-Le scelte e le licenze documentate di COP-01, FIG-01, FIG-02, FIG-04, FIG-05 e FIG-07 e le proposte per FIG-03 sono conservate in [visuali.md](visuali.md), da trasferire al registro unico nell'HTML. Nessun file binario ancora scaricato o ispezionato. FIG-06 è indicata tramite URL ma non ancora accessibile o verificata. GRA-01 è ora realizzato con dati di riferimento e script salvati. Le didascalie e le descrizioni saranno allineate agli originali. GRA-01 è una curva calcolata, non una nuova misura sperimentale, dalla relazione di densità raccomandata dal NIST.
+Le scelte e le licenze documentate di COP-01, FIG-01, FIG-02, FIG-04, FIG-05 e FIG-07 e le proposte per FIG-03 sono conservate in [visuali.md](visuali.md), da trasferire al registro unico nell'HTML. Nessun file binario ancora scaricato o ispezionato. FIG-06 è ora visibile nell'allegato in chat e il suo contenuto è stato osservato. Autore, post originale e diritti di riutilizzo restano da documentare; il danno specifico a una tubazione non è dimostrato dalla sola fotografia. GRA-01 è ora realizzato con dati di riferimento e script salvati. Le didascalie e le descrizioni saranno allineate agli originali. GRA-01 è una curva calcolata, non una nuova misura sperimentale, dalla relazione di densità raccomandata dal NIST.
 
 Fonte di servizio per GRA-01: NIST, Selected Procedures for Volumetric Calibrations (2019), GLP 10 §6.1, https://doi.org/10.6028/NIST.IR.7383-2019 . Relazione di Tanaka et al. (2001) per acqua pura priva di aria disciolta alla pressione di riferimento 101325 Pa. Conversione V=m/ρ con massa fissa 1 kg; dati CSV e generatore in risorse/. Fonte fotografica per FIG-07: Rwendland, Expansion joint, Hayle, https://commons.wikimedia.org/wiki/File:Expansion_joint,_Hayle.jpg , CC BY-SA 3.0. Per FIG-06 mancano post originale, autore e autorizzazione documentata.
 
