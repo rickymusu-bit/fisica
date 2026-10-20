@@ -1,12 +1,12 @@
 # Stato — La dilatazione termica
 
-Versione v12 — 20 ottobre 2026 (Europe/Rome).
+Versione v13 — 20 ottobre 2026 (Europe/Rome).
 
 ## Identità e fase
 
 - Quinto articolo del percorso introduttivo di termodinamica, area «Materia e calore».
 - Ramo dedicato: `termodinamica/dilatazione-termica`, derivato da main al commit `1a9b1b3d6abdf87656f19b22ec001db312808cec`.
-- Fase corrente: bozza testuale v7 approvata; materiali visuali e via esplicito all'HTML da ricevere.
+- Fase corrente: testo scientifico v7 approvato; bozza v8 con soli segnaposto aggiornati; materiali visuali e via esplicito all'HTML da ricevere.
 - Richiesta ricevuta: «Nel mio repo GitHub di fisica Procedi a creare il quinto argomento del piano».
 - Il piano v6 identifica il quinto argomento come La dilatazione termica e ne lascia espressamente sviluppo e visuali da concordare.
 
@@ -81,3 +81,13 @@ Dettagli e URL esatto in [visuali.md](visuali.md) v11, con elenco delle sette fi
 Permane il limite osservato al download dal proxy dell'ambiente. Il percorso previsto per la copertina è risorse/copertina-sydney.jpg, da creare solo quando il file sarà effettivamente recuperato o allegato. Nessun peso/hash né ispezione inventati; scelta e licenza registrate via GitHub.
 
 Master corrente su main v69, modello comune v15 Stringhe e terminologia Capitolo/Capitoli già consultati. Prima dell'HTML riallineare i riferimenti e il tema del ramo dedicato al main corrente, conservando testo v7 approvato e scelte effettive. La nuova copertina non autorizza HTML o pubblicazione. Restano i materiali FIG-01–FIG-07 e GRA-01 e il via esplicito dopo la stima già presentata. Verificare il salvataggio dei due file aggiornati prima della consegna.
+
+## Collegamenti interni ricevuti — 20 ottobre 2026
+
+Ricevuti cinque file specifici (giunto Nishi-ōhashi, giunto ferroviario isolante, termometro a mercurio, barattoli PreservedFood1, foto del lago Louise ghiacciato) e la pagina Bimetallic strip come fonte di alcune immagini. Scelte e crediti verificati nelle schede in visuali.md v12. Identificati nella pagina bimetallica i candidati Bimetallic strip.svg (ToobEZ, CC0) e WPThermostat new.jpg (Leonard G., Raeky, modifica successiva Splette; CC BY-SA 3.0 selezionabile), da scegliere puntualmente.
+
+Verifica scientifica decisiva: la fonte primaria Geograph del giunto ferroviario documenta isolamento elettrico per il segnalamento, non libertà di dilatazione. Non presentare la foto come un giunto di dilatazione: conservarla come foto di contesto e richiedere una foto pertinente per illustrare direttamente lo spazio termico. Il termometro scelto è a mercurio, non ad alcol. La foto del lago è accettata come fenomeno superficiale, non documenta stratificazione o temperature; nessun valore dedotto dalla scena. La foto di barattoli è scelta ma la leggibilità dei coperchi resta da controllare direttamente.
+
+Bozza v8 aggiorna soltanto segnaposto e didascalie alle scelte, più il riferimento di servizio alle provenienze; testo scientifico v7 approvato, formule e 12 domande conservati. Nessuna relazione alfa-beta reintrodotta. Nessuna ricerca di immagini alternative autonoma.
+
+Limite di accesso confermato da curl sulla pagina indicata: il proxy:8080 non è raggiungibile. Nessun file binario recuperato, ispezionato o salvato, nessuna impronta o dimensione effettiva inventata. Metadati consultati via web; non dichiarare conclusa l'integrazione. Materiali mancanti: danni da gelo FIG-06, fonte/dati GRA-01; chiarire FIG-07 e completare la scelta FIG-03. Nessun via esplicito all'HTML o alla pubblicazione. Verificare i tre file salvati da remoto prima della consegna.
