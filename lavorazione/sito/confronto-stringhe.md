@@ -4,6 +4,8 @@ Implementazione del piano del 20 ottobre 2026 sul ramo `design/stringhe-portale`
 
 ## Ultima correzione della home e del logo
 
+[Home attuale](https://raw.githack.com/rickymusu-bit/fisica/34e2c252f6e4cda98366e67d0635b87bb3c9aede/index.html) — [GIF del logo](https://raw.githack.com/rickymusu-bit/fisica/34e2c252f6e4cda98366e67d0635b87bb3c9aede/identita/logo-materia-oscura.gif). Verifiche Actions riuscite sul sorgente `d4e2c81`: [suite](https://github.com/rickymusu-bit/fisica/actions/runs/39400947360), [anteprima](https://github.com/rickymusu-bit/fisica/actions/runs/39400940504).
+
 Titolo, logo e copertina fotografica della home condividono ora una sola card, senza onde laterali. Foto sotto al titolo su mobile e affiancata su desktop; didascalia allineata al bordo sinistro dell’immagine effettivamente visibile, con fotografia intera e proporzioni conservate. Il logo affianca alla curva nera originale una curva con gradiente blu di uguale ampiezza, in opposizione di fase; periodo, nodi e animazione nera sono conservati. SVG e GIF sono aggiornati, con pausa comune e fallback per movimento ridotto. La revisione è incorporata anche nel modello v13 e nei loghi delle nove copie degli articoli; i sorgenti scientifici restano invariati. Verificate tutte le 20 foto a 320, 390, 768, 1024 e 1440 px: bordo e larghezza della didascalia coincidono con quelli dell’immagine; nessuna deformazione.
 
 

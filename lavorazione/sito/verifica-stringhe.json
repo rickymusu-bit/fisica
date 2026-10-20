@@ -800,5 +800,16 @@
       256,
       256
     ]
+  },
+  "github_actions": {
+    "run": "https://github.com/rickymusu-bit/fisica/actions/runs/39400947360",
+    "commit": "d4e2c8140c3f79c794f107e63497822cdd0598d3",
+    "esito": "success"
+  },
+  "anteprima": {
+    "commit": "34e2c252f6e4cda98366e67d0635b87bb3c9aede",
+    "workflow": "https://github.com/rickymusu-bit/fisica/actions/runs/39400940504",
+    "home": "https://raw.githack.com/rickymusu-bit/fisica/34e2c252f6e4cda98366e67d0635b87bb3c9aede/index.html",
+    "html_remoto_identico_alla_build": true
   }
 }
