@@ -27,3 +27,18 @@ Il **logo del sito** è esclusivamente l’onda stazionaria approvata, nera su t
 Le attribuzioni sono centralizzate in `crediti.html` e nel registro unico secondo C1 del master v64. Il tema v10 prevede il solo comando «Crediti e licenze», che apre i crediti incorporati; al loro interno «Crediti di tutti gli articoli» apre la pagina generale, senza sezione finale visibile. Le licenze che richiedono un avviso vicino alla risorsa prevalgono sulla regola grafica.
 
 Il punto centrato è riservato alla moltiplicazione matematica: mai usarlo come separatore, nemmeno tra versione e data. Il tema v10 usa il trattino lungo nel piè di pagina e i due punti nel titolo accessibile del logo.
+
+## Nuova identità e navigazione — 20 ottobre 2026
+
+Nome ufficiale del sito: **Stringhe**. Sottotitolo esatto: **L’essenziale della Fisica**.
+La home è un portale con quattro accessi: Tutti gli articoli, Mi sento fortunato, Quiz e Lingua.
+Il catalogo è una pagina indipendente `articoli.html`, con ricerca e filtro per area tematica;
+la scelta casuale include soltanto gli articoli approvati in `pubblicazione.json`.
+La pagina `quiz.html` è preparatoria finché il gioco non è integrato.
+Ogni articolo pubblicato offre in testa: Home, Articoli, Scarica, Lingua; resta distinto l'indice interno.
+Il tema visivo richiama stringhe vibranti con onde sottili e movimento rispettoso di
+`prefers-reduced-motion`. Evitare che la metafora decorativa interferisca con schemi scientifici.
+La build applica il tema condiviso tramite `scripts/strings_site.py`, senza aggiornare
+i sorgenti degli articoli sospesi. La denominazione precedente e il logo storico
+rimangono nei file già esistenti come materiale transitorio finché non sarà approvata
+una migrazione dei sorgenti; il sito pubblicato e i nuovi materiali usano Stringhe.
