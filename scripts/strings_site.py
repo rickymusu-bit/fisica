@@ -87,7 +87,7 @@ def topbar():
     return (f'<header class="site-header"><div class="top-inner"><a class="brand" href="index.html" aria-label="Stringhe, vai alla home">'
             f'<span>Stringhe</span></a><nav class="site-nav" aria-label="Navigazione principale">'
             '<a href="articoli.html">Capitoli</a><a href="quiz.html">Quiz</a>'
-            '<details class="lang" id="lingua"><summary aria-label="Seleziona la lingua">Italiano ▾</summary>'
+            '<details class="lang" id="lingua"><summary aria-label="Seleziona la lingua">IT ▾</summary>'
             '<div class="lang-menu"><strong>Lingue disponibili</strong><p lang="it">✓ Italiano</p></div></details>'
             f'{theme_control()}</nav></div></header>')
 
@@ -263,7 +263,7 @@ def enhance_article(document, filename):
                 f'<a class="string-nav" href="index.html" data-site-path="index.html" aria-label="Home" title="Home">{icon("home")}<span class="nav-label">Home</span></a>'
                 f'<a class="string-nav" href="articoli.html" data-site-path="articoli.html" aria-label="Tutti i capitoli" title="Tutti i capitoli">{icon("books")}<span class="nav-label">Capitoli</span></a>'
                 f'<a class="string-nav" href="{e(filename)}" download="{e(filename)}" aria-label="Scarica il capitolo" title="Scarica il capitolo">{icon("download")}<span class="nav-label">Scarica</span></a>'
-                f'<details class="string-lang"><summary aria-label="Seleziona lingua" title="Lingua: Italiano">{icon("language")}<span class="nav-label">Lingua</span></summary>'
+                f'<details class="string-lang"><summary aria-label="Seleziona lingua" title="Lingua: Italiano"><span class="language-code">IT ▾</span></summary>'
                 f'<div class="string-languages" lang="it">✓ Italiano</div></details>{theme_control()}<!-- stringhe-navigation:end -->')
     # Gli articoli hanno piccole variazioni negli attributi del nav.
     # Individua l'elemento dalla classe, senza dipendere dall'aria-label esatta.

@@ -1,5 +1,9 @@
 # Stato — Home e GitHub Pages
 
+## Precisazione corrente — lingua e tema in alto a destra
+
+L’utente chiede lingua e toggle nell’angolo superiore destro, con sigla della lingua al posto del globo. Applicato a home, servizi e capitoli: IT e switch allineati in alto a destra; nei capitoli i quattro comandi di lettura restano su una sola riga. Ramo `fix/lingua-toggle-alto-destra`, derivato da main dopo l’integrazione della PR #46 (f90ddd4, Pages 39426641656 riuscito). Conservata la correzione della curva interattiva senza salti, inclusa la selezione nativa senza JavaScript. Modello v18; master v69, nessuna nuova regola editoriale. Verifica browser aggiornata per allineamento dei quattro comandi e posizione della coppia IT/tema, da 320 a 1440 px nei due temi. Sorgenti scientifici, esclusi e manifest invariati. Allineamento, crediti, build, dodici test e 150 combinazioni browser superati; confermati la coppia IT/tema in alto a destra, i quattro comandi su una riga, 50 selezioni touch della curva senza salti, tastiera e fallback senza JavaScript. Schermate aggiornate; preparazione PR e anteprima.
+
 ## Revisione corrente — barra a icone e grafico senza salti
 
 Richiesta: alleggerire la barra sopra il titolo con icone per mantenere i comandi su una riga; correggere la curva dei passaggi di stato o annotarla staticamente, scegliendo la soluzione più semplice. Ramo `fix/barra-mobile-curva`, derivato da main dopo PR #45. Scelta: conservare l’interazione, perché il salto era dovuto al focus dei radio nascosti. Riproduzione mobile: ogni selezione spostava la pagina di 374–482 px; posizione fissa dei soli controlli invisibili elimina lo spostamento (0 px) e conserva il comportamento nativo anche senza JavaScript. Focus da tastiera indicato sulle etichette; con JavaScript viene resa visibile l’etichetta attiva. Tracciati SVG e contenuti scientifici invariati; superficie del grafico bianca anche in tema scuro.
