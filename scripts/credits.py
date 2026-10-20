@@ -108,6 +108,10 @@ def inventory(source):
     doc = Document(source)
     found = []
     for node in doc.root.descendants():
+        # Le icone dei comandi sono codice del tema, non figure del capitolo.
+        # Non devono ereditare autore/licenza della fotografia che controllano.
+        if node.tag == 'svg' and 'data-ui-icon' in node.attrs:
+            continue
         values = [(key, node.attrs[key]) for key in
                   ('src', 'poster', 'data-still', 'srcset', 'href', 'xlink:href')
                   if node.attrs.get(key) and (key not in ('href', 'xlink:href') or node.tag == 'image')]
@@ -224,7 +228,29 @@ def sync_inventory(registry):
         for use in asset['uses']:
             if use.get('credit_id') and use['credit_id'] not in known:
                 raise ValueError(f"data-credit-id sconosciuto: {use['credit_id']}")
+    # Gli originali storici restano nel registro; i documenti correnti citano
+    # soltanto i media ancora utilizzati. Le fonti testuali senza impronte
+    # restano esplicite e non vengono scambiate per immagini eliminate.
+    managed = current_documents()
+    for name in managed:
+        if name not in registry['documents']:
+            continue
+        registry['documents'][name]['credits'] = active_associations(registry, name)
     return registry
+
+
+def current_documents():
+    publication = json.loads((ROOT / 'pubblicazione.json').read_text())
+    return ['index.html'] + publication['articoli'] + ['riferimenti/TEMA_DISPENSE.html']
+
+
+def active_associations(registry, document):
+    resources = {r['id']: r for r in registry['resources']}
+    used = {use.get('credit_id') for asset in registry['assets']
+            for use in asset['uses'] if use['document'] == document}
+    return [association for association in registry['documents'][document]['credits']
+            if not resources[association['resource']].get('fingerprints')
+            or association['resource'] in used]
 
 
 def notice_html(registry, document):
@@ -344,7 +370,7 @@ def render_page(registry):
     public = ['index.html'] + publication['articoli']
     nav, sections, review = [], [], []
     resources = {r['id']: r for r in registry['resources']}
-    ordered = public + [name for name in registry['documents'] if name not in public]
+    ordered = public
     for name in ordered:
         info = registry['documents'][name]
         if name == 'riferimenti/TEMA_DISPENSE.html':
@@ -368,7 +394,7 @@ def render_page(registry):
                           ''.join('<li>' + escape(description) + '</li>' for description in missing) + '</ul></li>')
     return apply_theme('<!DOCTYPE html>\n<html lang="it"><head><meta charset="utf-8">'
             '<meta name="viewport" content="width=device-width,initial-scale=1">'
-            '<meta name="version" content="v3"><meta name="date" content="2026-10-20">'
+            '<meta name="version" content="v4"><meta name="date" content="2026-10-20">'
             '<title>Crediti e licenze — Stringhe</title>' + styles + '''
 <style>.credits-page{max-width:1100px;margin:auto;padding:40px;background:white}.credits-page h1{font-size:clamp(32px,6vw,60px);margin:24px 0}.credits-page h2{font-size:28px;margin:42px 0 22px}.credits-page li{margin:16px 0}.credits-page section{border-top:2px solid;padding-top:8px;margin-top:36px;scroll-margin-top:24px}.credits-page pre{white-space:pre-wrap;overflow-wrap:anywhere;font:13px/1.5 monospace}.credits-page{overflow-wrap:anywhere}.credits-page nav a{display:inline-block;min-height:44px}.credits-page .page-nav{display:flex;gap:24px;flex-wrap:wrap}@media(max-width:560px){.credits-page{padding:20px}.credits-page ul{padding-left:22px}.credits-page h2{font-size:24px}}</style>
 </head><body><main class="credits-page">''' + theme_control() + '''<nav class="page-nav" aria-label="Navigazione"><a href="articoli.html">← Capitoli</a><a href="#da-verificare">Licenze da verificare</a></nav><h1>Crediti e licenze</h1>
@@ -401,6 +427,9 @@ def validate(registry):
     fresh = sync_inventory(json.loads(json.dumps(registry)))
     if fresh['assets'] != registry['assets']:
         raise ValueError('Inventario non aggiornato: eseguire scripts/credits.py --sync')
+    for name in current_documents():
+        if fresh['documents'][name]['credits'] != registry['documents'][name]['credits']:
+            raise ValueError(f'Crediti di immagini non più presenti: {name}; eseguire --sync')
     if (ROOT / 'crediti.html').read_text(encoding='utf-8') != render_page(registry):
         raise ValueError('Pagina crediti non aggiornata: eseguire --sync')
 

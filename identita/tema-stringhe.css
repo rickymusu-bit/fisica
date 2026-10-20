@@ -195,3 +195,27 @@ a{color:inherit}button,input,select{font:inherit}button,select{color:var(--ink)}
 :root[data-edge=sides] main:has(>.article-wrap)>.article-wrap>.article{padding-top:28px}
 
 .theme-options{font-size:14px}
+
+/* Curva di riscaldamento: cinque colori coerenti con i comandi, dal ghiaccio al vapore. */
+.heating-curve{--phase-1:#2459b8;--phase-2:#5748b4;--phase-3:#873ba7;--phase-4:#b22f77;--phase-5:#cc3030;}
+.heating-curve .curve-scroll :is(#seg-1,#seg-mobile-1){stroke:var(--phase-1);stroke-width:4.5}
+.heating-curve .curve-controls label[for="curve-choice-1"]{background:var(--phase-1);color:#fff;font-weight:600;border:2px solid var(--phase-1)}
+#curve-choice-1:checked ~ .curve-scroll :is(#seg-1,#seg-mobile-1){stroke:var(--phase-1);stroke-width:8}
+#curve-choice-1:checked ~ .curve-controls label[for="curve-choice-1"]{background:var(--phase-1);color:#fff;font-weight:600;box-shadow:0 0 0 2px var(--surface),0 0 0 4px var(--ink)}
+.heating-curve .curve-scroll :is(#seg-2,#seg-mobile-2){stroke:var(--phase-2);stroke-width:4.5}
+.heating-curve .curve-controls label[for="curve-choice-2"]{background:var(--phase-2);color:#fff;font-weight:600;border:2px solid var(--phase-2)}
+#curve-choice-2:checked ~ .curve-scroll :is(#seg-2,#seg-mobile-2){stroke:var(--phase-2);stroke-width:8}
+#curve-choice-2:checked ~ .curve-controls label[for="curve-choice-2"]{background:var(--phase-2);color:#fff;font-weight:600;box-shadow:0 0 0 2px var(--surface),0 0 0 4px var(--ink)}
+.heating-curve .curve-scroll :is(#seg-3,#seg-mobile-3){stroke:var(--phase-3);stroke-width:4.5}
+.heating-curve .curve-controls label[for="curve-choice-3"]{background:var(--phase-3);color:#fff;font-weight:600;border:2px solid var(--phase-3)}
+#curve-choice-3:checked ~ .curve-scroll :is(#seg-3,#seg-mobile-3){stroke:var(--phase-3);stroke-width:8}
+#curve-choice-3:checked ~ .curve-controls label[for="curve-choice-3"]{background:var(--phase-3);color:#fff;font-weight:600;box-shadow:0 0 0 2px var(--surface),0 0 0 4px var(--ink)}
+.heating-curve .curve-scroll :is(#seg-4,#seg-mobile-4){stroke:var(--phase-4);stroke-width:4.5}
+.heating-curve .curve-controls label[for="curve-choice-4"]{background:var(--phase-4);color:#fff;font-weight:600;border:2px solid var(--phase-4)}
+#curve-choice-4:checked ~ .curve-scroll :is(#seg-4,#seg-mobile-4){stroke:var(--phase-4);stroke-width:8}
+#curve-choice-4:checked ~ .curve-controls label[for="curve-choice-4"]{background:var(--phase-4);color:#fff;font-weight:600;box-shadow:0 0 0 2px var(--surface),0 0 0 4px var(--ink)}
+.heating-curve .curve-scroll :is(#seg-5,#seg-mobile-5){stroke:var(--phase-5);stroke-width:4.5}
+.heating-curve .curve-controls label[for="curve-choice-5"]{background:var(--phase-5);color:#fff;font-weight:600;border:2px solid var(--phase-5)}
+#curve-choice-5:checked ~ .curve-scroll :is(#seg-5,#seg-mobile-5){stroke:var(--phase-5);stroke-width:8}
+#curve-choice-5:checked ~ .curve-controls label[for="curve-choice-5"]{background:var(--phase-5);color:#fff;font-weight:600;box-shadow:0 0 0 2px var(--surface),0 0 0 4px var(--ink)}
+.heating-curve .curve-scroll circle{fill:#202637;stroke:#fff;stroke-width:1.5}

@@ -47,7 +47,7 @@ Didascalia: Il riscaldamento raggiunge le estremità delle barrette in tempi div
 
 La capacità dei metalli di trasferire rapidamente energia può produrre un effetto sorprendente. Quando una lingua tocca un palo metallico gelato, cede energia al metallo, che è più freddo. Il palo conduce quell’energia lontano dalla zona di contatto, verso le parti circostanti. Se il metallo è abbastanza freddo, la saliva può congelare: il sottile strato di ghiaccio che si forma fa aderire la lingua alla superficie.
 
-[IMMAGINE 12 — Originale scelto dall’utente: risorse/lingua-palo-tenor.gif.]
+[IMMAGINE 12 — Originale scelto dall’utente: risorse/a-christmas-story.jpg — fotogramma da A Christmas Story (1983).]
 
 Didascalia: La scena cinematografica richiama il fenomeno della lingua che aderisce al metallo gelato. È pericoloso: non va provato.
 
@@ -115,11 +115,11 @@ La potenza P, in watt, dipende dalla conducibilità λ e dall’area A attravers
 
 La posizione delle grandezze nella formula permette di fare previsioni. Raddoppiare la conducibilità, l’area oppure la differenza di temperatura raddoppia la potenza, mantenendo uguali le altre grandezze. Raddoppiare lo spessore, che compare al denominatore, la dimezza. Una parete più estesa offre più superficie attraverso cui trasferire energia; una parete più spessa oppone un percorso maggiore al trasferimento.
 
-[IMMAGINE 06 E GRAFICO G-1 — Un’unica illustrazione generata scelta dall’utente: risorse/parete-temperatura.png, temperature delle facce T_in = 50 °C e T_out = 20 °C; A area e s spessore. Sostituisce la vecchia immagine e il grafico SVG separato.]
+[IMMAGINE 06 E GRAFICO G-1 — Nuovo schema vettoriale in `risorse/parete-temperatura-profilo-curvo.svg`: aria interna 25 °C, aria esterna −5 °C, due superfici del muro con temperature non assegnate, andamento curvo qualitativo vicino alle superfici sul lato aria e retta nel muro. SVG incorporato nell’HTML corrente, nella vista normale e nell’ingrandimento; anteprima da approvare prima di pubblicare. Non modificare altre immagini o capitoli.]
 
-Didascalia: Le facce della parete sono a T_in = 50 °C e T_out = 20 °C. A indica l’area attraversata dal calore e s lo spessore; il tratto inclinato mostra come la temperatura diminuisce nello spessore.
+Didascalia: L’aria interna è a 25 °C e quella esterna a −5 °C. Il profilo è qualitativo: la temperatura varia nell’aria vicino alle superfici e diminuisce linearmente nello spessore del muro omogeneo, in condizioni stazionarie.
 
-Nell’illustrazione le due facce sono a T_in = 50 °C e T_out = 20 °C: differiscono di 30 gradi, quindi ΔT vale 30 K. Una differenza di temperatura ha lo stesso valore numerico in kelvin e in gradi Celsius, perché le due scale hanno intervalli della stessa ampiezza. La temperatura diminuisce dalla faccia più calda a quella più fredda: è in questa direzione che avviene il trasferimento netto di energia.
+Tra l'aria interna e quella esterna c'è una differenza di temperatura di 30 K. Questa non è però, in generale, la differenza tra le temperature delle due facce della parete richiesta dalla legge di Fourier: gli scambi tra l'aria e le superfici producono ulteriori variazioni. Per calcolare la conduzione nel solo muro occorre conoscere la differenza di temperatura fra le due facce; la figura ne mostra il significato senza assegnarle valori numerici.
 
 ## Domande di verifica
 
