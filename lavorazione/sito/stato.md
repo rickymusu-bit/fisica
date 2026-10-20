@@ -289,3 +289,9 @@ Specifiche complete salvate in `lavorazione/sito/PIANO_IMPLEMENTAZIONE_STRINGHE.
 ## Credito generale a ChatGPT — 20 ottobre 2026
 
 Su richiesta esplicita dell’utente, poi precisata con «Di codex e chatgpt», aggiunta ai crediti generali la frase «Il sito è stato realizzato con l’aiuto di Codex e ChatGPT.». Testo conservato nel campo `general_credits` del registro unico e inserito nell’introduzione della pagina `crediti.html` dal renderer, senza ripeterlo nelle attribuzioni delle singole risorse. Modifica nel ramo e nella PR #52 in bozza; nessun merge su main o deployment ufficiale.
+
+## Macro categoria rinominata — 20 ottobre 2026
+
+L’utente precisa che la macro categoria deve chiamarsi soltanto «Termologia», correggendo la precedente richiesta «Termologia e termodinamica». Il nome sostituisce «Materia e calore». Aggiornati il nome del gruppo e il rimando nell’indice della home sorgente, le etichette sopra il titolo e negli indici dei nove capitoli ammessi, le loro copie di lavorazione e il nuovo capitolo sulla dilatazione termica. Catalogo e filtri sono generati dallo stesso gruppo rinominato. Aggiornato il campione del tema e la terminologia operativa; il modello canonico mantiene il segnaposto per l’area, senza imporre questa categoria alle dispense di altri argomenti. URL, identificativi, ordine, contenuti, date editoriali e manifest invariati; documenti esclusi non modificati. Modifica nella PR #52 in bozza, nessun merge su main o deployment.
+
+Verificata la rinomina finale «Termologia»: catalogo, filtro con tutti i nove capitoli e intestazioni del capitolo in lavorazione a 320, 390 e 1440 px, senza overflow o errori JavaScript. Screenshot in `schermate/categoria-*.png`, rapporto in `verifica-categoria.json`. Confronto con Git: nei capitoli cambia soltanto il nome dell’area, documenti esclusi invariati. Superati controllo dei crediti, build e 14 test esistenti; date e contenuti scientifici conservati.

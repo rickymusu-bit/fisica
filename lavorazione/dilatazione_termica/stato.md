@@ -161,3 +161,7 @@ L’utente chiede se il volume maggiore di 1000 mL a circa 4 °C sia corretto e 
 Verificata la legenda originale dei sei componenti. Rimozione dei numeri tramite imagegen; originale e PNG ritoccato conservati. Creata copia SVG annotata con sei etichette italiane e frecce deterministicamente posizionate, figura ispezionata. Etichette spostate per evitare sovrapposizioni col comando media a 320 e 390 px. Anche il grafico lascia ora liberi assi e note dal comando. FIG-03b usa il componente canonico con ingrandimento; didascalia e alt aggiornati. Testo scientifico restante invariato, bozza v15 e visuali v19, HTML v3. Registro dei crediti con avviso corrente della derivata CC BY-SA 3.0 e fonte della legenda; avviso e impronta della foto precedente conservati come storia, non come versione corrente.
 
 Verifiche della revisione superate: corrispondenza delle 11 didascalie e dei sorgenti incorporati, tema v21, registro dei crediti, build locale e 14 test. Browser su cinque larghezze con quattro figure ingrandibili, tastiera, zoom senza JavaScript e tema senza storage. Osservate le nuove anteprime su desktop e telefono, etichette e assi liberi dal controllo. HTML di circa 16,1 MB. Main e pubblicazione invariati; revisione nella PR #52 in bozza.
+
+## Nome della macro categoria
+
+Recepita la richiesta generale dell’utente: etichetta dell’area «Termologia» sopra il titolo e nell’indice laterale, coerente con il catalogo corrente. Aggiornate le anteprime del titolo; contenuto scientifico e immagini invariati.

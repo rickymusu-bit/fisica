@@ -1,12 +1,13 @@
 # Terminologia del sito
 
-Versione v10 — 20 ottobre 2026. La specifica `lavorazione/sito/PIANO_IMPLEMENTAZIONE_STRINGHE.md` e la richiesta corrente sostituiscono le precedenti denominazioni dell’interfaccia. Le approvazioni di contenuto e la cronologia restano conservate in Git e negli stati.
+Versione v11 — 20 ottobre 2026. La specifica `lavorazione/sito/PIANO_IMPLEMENTAZIONE_STRINGHE.md` e la richiesta corrente sostituiscono le precedenti denominazioni dell’interfaccia. Le approvazioni di contenuto e la cronologia restano conservate in Git e negli stati.
 
 | Elemento | Nome corrente |
 | --- | --- |
 | Sito | **Stringhe** |
 | Sottotitolo | **L’essenziale della Fisica** |
 | Raggruppamento | Area tematica |
+| Macro categoria dei capitoli su fenomeni termici | **Termologia** |
 | Contenuto autonomo | Capitolo |
 | Parte di un capitolo | Sezione |
 | Catalogo separato e ricercabile | Tutti i capitoli |
