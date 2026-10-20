@@ -182,6 +182,17 @@ def main():
                             assert abs(geometry['hero']['right']-geometry['article']['right'])<1
                             assert abs(geometry['hero']['bottom']-geometry['wrap']['top'])<1
                             assert geometry['gutterHero']==geometry['gutterBody']
+                        elif page.locator('.service-header').count():
+                            nav = page.locator('.service-header .site-nav')
+                            assert nav.locator(':scope > *').count() == 3, name
+                            assert nav.locator(':scope > .service-home[aria-label="Home"]').count() == 1
+                            assert nav.locator(':scope > .service-home .ui-icon').count() == 1
+                            assert nav.locator(':scope > .string-lang').count() == 1
+                            assert nav.locator(':scope > [data-theme-menu]').count() == 1
+                            assert nav.locator('.string-lang>summary').inner_text() == 'IT ▾'
+                            controls = nav.evaluate('n=>[...n.children].map(e=>(e.tagName==="DETAILS"?e.querySelector("summary"):e).getBoundingClientRect().toJSON())')
+                            assert all(x['width'] >= 44 and x['height'] >= 44 for x in controls), (name,width,controls)
+                            assert max(x['top'] for x in controls)-min(x['top'] for x in controls) < 1, (name,width,controls)
                         elif page.locator('.site-header').count():
                             tools=page.locator('.site-nav').evaluate('nav=>[nav.querySelector(".lang"),nav.querySelector(".theme-menu")].map(e=>e.getBoundingClientRect().toJSON())')
                             assert abs(tools[0]['top']-tools[1]['top'])<1
@@ -268,6 +279,36 @@ def main():
                         assert page.locator('.home-cover').evaluate('(e,side)=>getComputedStyle(e,":"+side).content', side) in ['none','normal']
                     assert page.locator('.home-intro .subtitle').evaluate('(e)=>getComputedStyle(e).color===(()=>{const s=document.createElement("span");s.style.color="var(--accent)";document.body.append(s);const c=getComputedStyle(s).color;s.remove();return c;})()')
                     verify_cover_layout(width)
+            # Barra servizi e tooltip: hover sì, attivazione touch e focus no.
+            for service_page in ['articoli.html', 'quiz.html']:
+                page.goto(base + service_page)
+                for width in [390, 1440]:
+                    page.set_viewport_size({'width':width,'height':900})
+                    nav = page.locator('.service-header .site-nav')
+                    assert nav.locator(':scope > *').count() == 3
+                    home_link = nav.locator('.service-home')
+                    assert home_link.get_attribute('href') == 'index.html'
+                    assert home_link.get_attribute('aria-label') == 'Home'
+                    tip = page.locator('#function-tooltip')
+                    home_link.hover()
+                    assert tip.is_visible(), (service_page,width,'hover')
+                    assert tip.inner_text() == 'Home'
+                    language = nav.locator('.string-lang>summary')
+                    language.tap()
+                    assert not tip.is_visible(), (service_page,width,'tap')
+                    assert nav.locator('.string-lang').get_attribute('open') is not None
+                    theme_summary = nav.locator('[data-theme-menu]>summary')
+                    theme_summary.tap()
+                    assert not tip.is_visible(), (service_page,width,'theme tap')
+                    assert nav.locator('.string-lang').get_attribute('open') is None
+                    assert nav.locator('[data-theme-menu]').get_attribute('open') is not None
+                    theme_summary.tap()
+                    theme_summary.focus()
+                    assert not tip.is_visible(), (service_page,width,'focus')
+            # Anche il menu del capitolo non mostra tooltip al tocco.
+            page.goto(base + publication['articoli'][0])
+            page.locator('[data-theme-menu]>summary').tap()
+            assert not page.locator('#function-tooltip').is_visible()
             # Controllo delle 20 scelte casuali e associazione immagine/alt/didascalia.
             covers = json.loads((ROOT / 'copertine/manifest.json').read_text())
             for i, cover in enumerate(covers):
