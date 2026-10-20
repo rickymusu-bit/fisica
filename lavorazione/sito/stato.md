@@ -10,7 +10,7 @@ I nove sorgenti ammessi, i sette sospesi, le traduzioni, il manifest e i due fil
 
 Verificati crediti, sincronizzazione modello, build, dieci test e 150 combinazioni browser pagina/viewport/tema. Venti foto e nove destinazioni casuali provate. Nessun overflow o errore JavaScript. Chromium con mobile/touch emulato; Android fisico non disponibile. File:// bloccato dalla policy locale, documento autonomo verificato in memoria con rete bloccata; Actions esegue anche la prova diretta e ne registra l’esito. Dettagli, pro/contro e schermate in [confronto-stringhe.md](confronto-stringhe.md) e [verifica-stringhe.json](verifica-stringhe.json).
 
-Prossimo passo: consegnare PR in bozza e anteprima Android aggiornata sul ramo isolato `stringhe-preview`, attendere la scelta esplicita su bordi e reticolo. Nessun merge o deployment del sito ufficiale autorizzato da questo incarico.
+Consegna pronta: commit implementativo `3fab7a9`, Actions 39391624609 e anteprima 39391615879 riuscite. Nel rapporto CI anche file:// diretto è verificato, con 150 combinazioni e nessun errore JavaScript. Anteprima immutabile al commit `48494f222e1fef9faf3f25eb7faf7bc3e432e773` di `stringhe-preview`, collegamenti e schermate nel confronto. Provata anche la navigazione remota mobile fino a Conduzione e ritorno alla home; tema persistente. PR #43 in bozza. Prossimo passo: attendere la scelta esplicita su bordi e reticolo. Nessun merge o deployment del sito ufficiale autorizzato da questo incarico.
 
 
 ## Pubblicazione autorizzata — centralizzazione dei crediti

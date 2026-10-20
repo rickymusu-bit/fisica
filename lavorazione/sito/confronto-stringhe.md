@@ -45,4 +45,12 @@ Mobile e touch sono emulati in Chromium: non è dichiarata una prova su Android 
 
 Contrasto misurato sui testi della home: testo sul giallo 10,89:1; testi secondari 6,83:1 in chiaro e 7,54:1 in scuro; accento dei titoli 6,86:1 / 7,42:1. Verificato anche il focus e l’isolamento del selettore tema quando l’indice è aperto.
 
+## Anteprima e verifica remota completate
+
+[Home interattiva](https://raw.githack.com/rickymusu-bit/fisica/48494f222e1fef9faf3f25eb7faf7bc3e432e773/index.html) — [Confronto bordi e reticolo](https://raw.githack.com/rickymusu-bit/fisica/48494f222e1fef9faf3f25eb7faf7bc3e432e773/anteprima-bordi-stringhe.html).
+
+Il servizio di anteprima può mostrare inizialmente «Open the page»: quel pulsante apre la pagina del ramo isolato. Il link usa un commit immutabile per evitare ambiguità di cache. Verificati via browser a 390 px il passaggio home → catalogo → Conduzione → home, la persistenza del tema e i controlli del confronto. L’HTML remoto coincide byte per byte con la build locale.
+
+[Actions 39391624609](https://github.com/rickymusu-bit/fisica/actions/runs/39391624609) superata sul commit `3fab7a9`: componenti, crediti, build, dieci test, 150 combinazioni browser e prova **file:// diretta riuscita** in Chromium standard. Letto anche il rapporto nell’artefatto `confronti-stringhe`; nessun errore JavaScript. Il limite file:// riportato sopra riguarda soltanto il browser locale gestito. [Workflow anteprima 39391615879](https://github.com/rickymusu-bit/fisica/actions/runs/39391615879) riuscito; commit generato `48494f2`. PR #43 conservata in bozza.
+
 Prima di una pubblicazione ufficiale restano la scelta dell’utente per bordi e reticolo, la valutazione da Android dell’anteprima e l’autorizzazione esplicita al merge/deployment.

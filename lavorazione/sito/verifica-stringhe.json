@@ -767,5 +767,20 @@
     "zoom",
     "crediti",
     "download identico"
-  ]
+  ],
+  "github_actions": {
+    "run": "https://github.com/rickymusu-bit/fisica/actions/runs/39391624609",
+    "commit": "3fab7a9fd172c194eb04ed4235c6ba7f0d5e2ad9",
+    "esito": "success",
+    "offline": "file:// verificato",
+    "combinazioni": 150,
+    "errori": []
+  },
+  "anteprima": {
+    "workflow": "https://github.com/rickymusu-bit/fisica/actions/runs/39391615879",
+    "commit": "48494f222e1fef9faf3f25eb7faf7bc3e432e773",
+    "http_identico_alla_build": true,
+    "navigazione_mobile_remota": "home → catalogo → conduzione → home; tema persistente; confronto B/B funzionante",
+    "url": "https://raw.githack.com/rickymusu-bit/fisica/48494f222e1fef9faf3f25eb7faf7bc3e432e773/index.html"
+  }
 }

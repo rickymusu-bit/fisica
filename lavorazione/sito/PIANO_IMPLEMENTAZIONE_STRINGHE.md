@@ -8,7 +8,7 @@
 
 ## Stato della realizzazione — 20 ottobre 2026
 
-Implementazione nel ramo design con modello v11 e tema comune. Esiti e limiti in `confronto-stringhe.md`, `verifica-stringhe.json` e nello stato. Le caselle di verifica e di approvazione restano distinte: non sono attestati Android fisico, scelta definitiva di bordi/reticolo o autorizzazione alla pubblicazione.
+Implementazione nel ramo design con modello v11 e tema comune. Esiti e limiti in `confronto-stringhe.md`, `verifica-stringhe.json` e nello stato. Actions e anteprima riuscite; anche file:// verificato in CI. Le caselle di verifica e di approvazione restano distinte: non sono attestati Android fisico, scelta definitiva di bordi/reticolo o autorizzazione alla pubblicazione.
 
 ## Ambito globale del restyling — precisazione esplicita dell'utente
 
@@ -104,7 +104,7 @@ Realizzare una **pagina di confronto** `lavorazione/sito/anteprima-bordi-stringh
 
 - [x] **P4.1 Conservare la navigazione concordata:** home, catalogo ricercabile e filtrabile, «Mi sento fortunato», quiz futuro, selettore lingua, più barra Home / Articoli / Scarica / Lingua e indice interno in ogni articolo.
 - [x] **P4.2 Correggere i collegamenti dell'anteprima** affinché la navigazione dall'articolo resti nel ramo `stringhe-preview` e non rientri erroneamente nel sito ufficiale. Preferire URL relativi quando appropriato, mantenendo i download HTML offline. Non spezzare gli URL già pubblicati.
-- [ ] **P4.3 Consentire il download del documento HTML effettivamente navigabile**, verificandone autonomia e integrità in `file://`. La selezione tema su pagine scaricate deve degradare correttamente quando lo storage non è disponibile.
+- [x] **P4.3 Consentire il download del documento HTML effettivamente navigabile**, verificandone autonomia e integrità in `file://`. La selezione tema su pagine scaricate deve degradare correttamente quando lo storage non è disponibile.
 - [x] **P4.4 Per la scelta casuale usare esclusivamente i file ammessi in `pubblicazione.json`;** il catalogo deve riflettere lo stesso insieme senza duplicati. Non generare collegamenti a file sospesi, traduzioni non pubblicate o vecchie dispense unificate.
 - [x] **P4.5 Mantenere font, licenze e crediti** secondo le regole già attive; non aggiungere dipendenze CDN per tema, logo, sinusoidi o font. Conservare la performance mobile e il comportamento con JS ridotto/non disponibile.
 - [x] **P4.6 Rendere le componenti condivise** per evitare divergenze tra `index.html`, `scripts/strings_site.py`, `riferimenti/TEMA_DISPENSE.html` e gli HTML futuri. Non applicare migrazioni massive non approvate agli articoli esclusi.
@@ -116,7 +116,7 @@ Realizzare una **pagina di confronto** `lavorazione/sito/anteprima-bordi-stringh
 - [x] **P5.3 Verificare i tre temi** con e senza preferenza salvata, cambio di preferenza del sistema, navigazione tra pagine, aggiornamento della pagina, fallback senza JavaScript, `prefers-reduced-motion`, contrasto e navigazione da tastiera.
 - [x] **P5.4 Verificare la copertina random** su tutte le 20 possibilità, il fallback senza JS, l'accessibilità del logo e il suo toggle di pausa/ripresa.
 - [x] **P5.5 Verificare l'isolamento delle dispense:** nessuna alterazione dei contenuti scientifici, nessun sorgente escluso modificato, nessun nuovo HTML escluso pubblicato. Nella PR descrivere precisamente i file di origine e i file generati.
-- [ ] **P5.6 Preparare un'anteprima visitabile da Android**, aggiornando il ramo `stringhe-preview` tramite il workflow dedicato; mostrare due varianti A/B e modalità chiaro/scuro. Considerare la cache del servizio di anteprima, con link a commit specifico quando necessario.
+- [x] **P5.6 Preparare un'anteprima visitabile da Android**, aggiornando il ramo `stringhe-preview` tramite il workflow dedicato; mostrare due varianti A/B e modalità chiaro/scuro. Considerare la cache del servizio di anteprima, con link a commit specifico quando necessario.
 - [ ] **P5.7 Consegnare a revisione** una PR in bozza, screenshot delle due opzioni, esito dei test e limiti residui; **chiedere approvazione per la variante di bordo e per la pubblicazione**, senza fare merge autonomo.
 
 ## Ordine raccomandato per Codex
@@ -126,7 +126,8 @@ Realizzare una **pagina di confronto** `lavorazione/sito/anteprima-bordi-stringh
 3. P1: prototipi affiancati A/B dei bordi sinusoidali.
 4. P2: tema chiaro/scuro/automatico applicato anche ai prototipi.
 5. P4: uniformazione navigazione e anteprima mobile/offline.
-6. Applicare il tema scelto in `riferimenti/TEMA_DISPENSE.html` e a tutte le pagine e articoli pubblicabili; verificare che i nuovi articoli ereditino il tema.\n7. P5: test, schermate comparative e presentazione all'utente.
+6. Applicare il tema scelto in `riferimenti/TEMA_DISPENSE.html` e a tutte le pagine e articoli pubblicabili; verificare che i nuovi articoli ereditino il tema.
+7. P5: test, schermate comparative e presentazione all'utente.
 8. Solo dopo scelta esplicita dell'utente: adottare la variante definitiva e proporre l'integrazione in `main`.
 
 **Definizione di completato per questa fase:** anteprima funzionante con logo originale, foto casuale e pulsanti conservati; due varianti di bordi effettivamente confrontabili in chiaro/scuro; tema opzionale persistente; Quiz presentato correttamente come futura funzione distinta; test superati. La pubblicazione in `main` non fa parte di questa fase.
