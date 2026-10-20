@@ -1,5 +1,9 @@
 # Stato — Home e GitHub Pages
 
+## Approvazione corrente — pubblicazione della PR #49
+
+L’utente ha approvato esplicitamente l’anteprima `03a186f221813ae3219a36da22f1d72712c97cfb`, generata dal sorgente `d183f073ee873da9dd780c513432da5e5edfec2a`. L’approvazione comprende curva e tasti dal blu al rosso, frecce continue, fotogramma di Conduzione, comandi media a icona e crediti dei soli materiali presenti; la regola generale sulle didascalie resta ritirata. Suite GitHub 39454562627 e anteprima 39454548147 superate. Autorizzate integrazione della PR #49 in main e pubblicazione Pages della stessa versione. Questo salvataggio aggiorna soltanto lo stato, senza modificare il sito generato. Prossimo passaggio: merge e verifica del deployment ufficiale. Il precedente tentativo non era stato eseguito per un limite temporaneo del servizio di revisione; l’utente ha chiesto di riprovare.
+
 ## Revisione corrente — crediti dei soli materiali presenti
 
 Controllo richiesto il 20 ottobre 2026 e nuova regola salvata in AGENTS, master v69.3 (integrazione puntuale) e istruzioni del registro. Rimosso dai crediti correnti di Conduzione il riferimento alla GIF Tenor sostituita dal fotogramma; in Passaggi di stato precisato l’avviso dello schema triangolare al posto della vecchia dicitura «mappe». Schede e avvisi storici conservati nel registro, sorgenti esclusi invariati. La pagina pubblica dei crediti comprende soltanto home e nove capitoli attuali.
