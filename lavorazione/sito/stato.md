@@ -183,3 +183,9 @@ Build verificata: venti HTML (tre home e diciassette articoli: nove italiani, qu
 Controlli in [verifiche-home.json](verifiche-home.json): home a 320, 390, 768, 1024 e 1440 px senza overflow, menu persistenti, focus e tastiera; tutte e venti le scelte della copertina con didascalia e crediti coerenti; navigazione delle tre lingue con e senza JavaScript, collegamenti reali agli articoli nella lingua corretta. Irraggiamento verificato a 390 e 1440 px: immagini caricate, indice nativo, assenza di richieste esterne e di errori JavaScript, navigazione dal precedente. Contenuto confrontato integralmente con il sorgente approvato, salvo meta autore e versione. Build e controllo delle differenze superati.
 
 Fase: realizzazione conclusa e verificata, pubblicazione richiesta tramite il workflow Pages esistente dopo l’integrazione in main. Stato del deployment consultabile nelle Actions. Git conserva la cronologia delle versioni precedenti.
+
+## 20 ottobre 2026 — piano Stringhe per Codex, non ancora realizzato
+
+L'utente ha confermato la navigazione della home con quattro accessi e corretto la proposta grafica: conservare il logo circolare animato approvato vicino al titolo «Stringhe», conservare la foto di copertina casuale, testare due bordi formati da sinusoidi sovrapposte in opposizione di fase (ampiezze uguali/diverse). Richiesta la modalità scura **opzionale**. La sezione «Quiz» del sito è un futuro **generatore di quiz di verifica su argomenti scelti dall'utente**, non il progetto separato «Chi vuol essere rimandato».
+
+Specifiche complete salvate in `lavorazione/sito/PIANO_IMPLEMENTAZIONE_STRINGHE.md` sul ramo `design/stringhe-portale`, collegato alla PR #43. Stato: **pianificato, da implementare e confrontare**. Non risulta approvata nessuna delle due varianti grafiche come definitiva; il sito pubblico rimane fuori da questa fase.
