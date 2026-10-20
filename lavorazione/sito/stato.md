@@ -288,4 +288,4 @@ Specifiche complete salvate in `lavorazione/sito/PIANO_IMPLEMENTAZIONE_STRINGHE.
 
 ## Credito generale a ChatGPT — 20 ottobre 2026
 
-Su richiesta esplicita dell’utente aggiunta ai crediti generali la frase «Il sito è stato realizzato con l’aiuto di ChatGPT.». Testo conservato nel campo `general_credits` del registro unico e inserito nell’introduzione della pagina `crediti.html` dal renderer, senza ripeterlo nelle attribuzioni delle singole risorse. Modifica nel ramo e nella PR #52 in bozza; nessun merge su main o deployment ufficiale.
+Su richiesta esplicita dell’utente, poi precisata con «Di codex e chatgpt», aggiunta ai crediti generali la frase «Il sito è stato realizzato con l’aiuto di Codex e ChatGPT.». Testo conservato nel campo `general_credits` del registro unico e inserito nell’introduzione della pagina `crediti.html` dal renderer, senza ripeterlo nelle attribuzioni delle singole risorse. Modifica nel ramo e nella PR #52 in bozza; nessun merge su main o deployment ufficiale.
