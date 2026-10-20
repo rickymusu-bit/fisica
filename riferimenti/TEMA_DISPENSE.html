@@ -48,7 +48,8 @@
       const label = preference === 'dark' ? 'Scuro' : 'Chiaro';
       const summary = menu.querySelector('summary');
       summary.setAttribute('aria-label', 'Tema del sito: ' + label);
-      summary.title = 'Tema: ' + label;
+      summary.dataset.functionName = 'Tema: ' + label;
+      summary.removeAttribute('title');
       menu.querySelectorAll('[data-theme-option]').forEach(button => {
         button.setAttribute('aria-pressed', String(button.dataset.themeOption === preference));
       });
@@ -289,7 +290,15 @@ a{color:inherit}button,input,select{font:inherit}button,select{color:var(--ink)}
 /* Home: soltanto lingua e tema, allineati a destra su ogni schermo. */
 .home-header .top-inner{justify-content:flex-end}
 .home-header .site-nav{width:auto;justify-content:flex-end;flex-wrap:nowrap;gap:6px}
-/* Nome della funzione condiviso da mouse, tastiera e touch. */
+/* Catalogo e Quiz: navigazione compatta allineata al tema dei capitoli. */
+.service-header .top-inner{justify-content:flex-end}
+.service-header .site-nav{width:auto;justify-content:flex-end;flex-wrap:nowrap;gap:6px}
+.service-header .site-nav>.string-nav,.service-header .site-nav>.string-lang,.service-header .site-nav>.theme-menu{flex:0 0 44px;width:44px;min-width:44px;max-width:44px}
+.service-header .site-nav>.string-nav,.service-header .site-nav>.string-lang>summary{display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;width:44px;height:44px;min-height:44px;padding:0!important;margin:0;gap:0;background:var(--surface-soft);color:var(--ink);border:1px solid var(--line);border-radius:10px}
+.service-header .site-nav>.string-nav:hover,.service-header .site-nav>.string-lang>summary:hover{border-color:var(--accent)}
+.service-header .site-nav>.string-nav>.ui-icon{width:22px;height:22px}
+.service-header .site-nav>.string-nav>.nav-label{display:none}
+/* I suggerimenti compaiono soltanto al passaggio del puntatore, mai al tocco. */
 .function-tooltip{position:fixed;pointer-events:none;width:max-content;z-index:1000;max-width:min(280px,calc(100vw - 16px));margin:0;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--ink);color:var(--paper);box-shadow:var(--shadow);font:500 13px/1.45 Lexend,system-ui,sans-serif;overflow-wrap:anywhere}
 .function-tooltip[hidden]{display:none}
 </style></head><body><div class="page" id="inizio"><header class="topbar"><div class="brand"><button class="brand-logo-toggle" type="button" data-logo-toggle aria-label="Metti in pausa l’animazione del logo" aria-pressed="false" title="Metti in pausa l’animazione del logo" disabled><svg id="brand-logo" class="brand-logo" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320" role="img" aria-labelledby="logo-title logo-desc">
@@ -571,7 +580,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       document.documentElement.style.setProperty('--nav-height', bar.offsetHeight + 'px');
     }).observe(bar);
   }
-  // Suggerimenti comuni: nessun secondo tocco necessario per attivare un comando.
+  // Suggerimenti solo con hover di mouse o penna; nessun popup al tocco o focus.
   const tooltip = document.createElement('div');
   tooltip.id = 'function-tooltip';
   tooltip.className = 'function-tooltip';
@@ -579,36 +588,36 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   tooltip.hidden = true;
   document.body.append(tooltip);
   const controls = 'button,summary,[role="button"],.string-nav,.site-nav>a,.action,.download,.brand';
-  let current = null, timer, leaveTimer;
+  let current = null, leaveTimer;
   const controlAt = target => target instanceof Element ? target.closest(controls) : null;
+  // Evita i tooltip nativi anche sul touch. Il nome accessibile rimane in aria-label.
+  document.querySelectorAll(controls).forEach(control => {
+    if (control.hasAttribute('title')) {
+      control.dataset.functionName ||= control.getAttribute('title');
+      control.removeAttribute('title');
+    }
+  });
   function hideTip() {
-    clearTimeout(timer);
     clearTimeout(leaveTimer);
     if (current) {
-      const ids = (current.getAttribute('aria-describedby') || '').split(/\s+/).filter(id => id && id !== tooltip.id);
+      const ids = (current.getAttribute('aria-describedby') || '').split(/\\s+/).filter(id => id && id !== tooltip.id);
       if (ids.length) current.setAttribute('aria-describedby', ids.join(' '));
       else current.removeAttribute('aria-describedby');
     }
     current = null;
     tooltip.hidden = true;
   }
-  function showTip(control, touch = false) {
+  function showTip(control) {
     if (!control || control.disabled) return;
     hideTip();
-    const name = control.getAttribute('aria-label') || control.getAttribute('title') ||
-      control.dataset.functionName || control.querySelector('strong')?.textContent || control.textContent;
+    const name = control.getAttribute('aria-label') || control.dataset.functionName ||
+      control.querySelector('strong')?.textContent || control.textContent;
     if (!name?.trim()) return;
-    // Il title nativo rimane disponibile senza JavaScript; evitiamo due suggerimenti.
-    if (control.hasAttribute('title')) {
-      control.dataset.functionName = control.title;
-      control.removeAttribute('title');
-    }
     current = control;
-    tooltip.textContent = name.trim().replace(/\s+/g, ' ');
+    tooltip.textContent = name.trim().replace(/\\s+/g, ' ');
     control.setAttribute('aria-describedby', [control.getAttribute('aria-describedby'), tooltip.id].filter(Boolean).join(' '));
     tooltip.hidden = false;
     positionTip();
-    if (touch) timer = setTimeout(hideTip, 1800);
   }
   function positionTip() {
     if (!current || tooltip.hidden) return;
@@ -624,32 +633,18 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     tooltip.style.left = Math.max(8, Math.min(innerWidth - tip.width - 8, rect.left + (rect.width - tip.width) / 2)) + 'px';
     tooltip.style.top = Math.max(8, Math.min(innerHeight - tip.height - 8, top)) + 'px';
   }
-  // Dopo l’apertura nativa dei menu, il suggerimento si dispone sotto le opzioni.
-  document.addEventListener('click', () => { if (current) requestAnimationFrame(positionTip); });
   document.addEventListener('pointerover', event => {
-    if (event.pointerType === 'touch') return;
-    if (tooltip.contains(event.target)) { clearTimeout(leaveTimer); return; }
+    if (event.pointerType !== 'mouse' && event.pointerType !== 'pen') return;
     const control = controlAt(event.target);
     if (control && control !== current) showTip(control);
   });
   document.addEventListener('pointerout', event => {
-    if (!current || event.pointerType === 'touch') return;
-    if (current.contains(event.relatedTarget) || tooltip.contains(event.relatedTarget)) return;
+    if (!current || (event.pointerType !== 'mouse' && event.pointerType !== 'pen')) return;
+    if (current.contains(event.relatedTarget)) return;
     clearTimeout(leaveTimer);
     leaveTimer = setTimeout(hideTip, 120);
   });
-  document.addEventListener('pointerdown', event => {
-    const control = controlAt(event.target);
-    if (control && event.pointerType === 'touch') showTip(control, true);
-    else if (!control && !tooltip.contains(event.target)) hideTip();
-  });
-  document.addEventListener('focusin', event => {
-    const control = controlAt(event.target);
-    if (control?.matches(':focus-visible')) showTip(control);
-  });
-  document.addEventListener('focusout', event => {
-    if (event.target === current) hideTip();
-  });
+  document.addEventListener('pointerdown', hideTip);
   document.addEventListener('keydown', event => { if (event.key === 'Escape') hideTip(); });
   document.addEventListener('scroll', hideTip, {capture:true, passive:true});
   window.addEventListener('resize', hideTip);
