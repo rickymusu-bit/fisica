@@ -1,5 +1,9 @@
 # Stato — Home e GitHub Pages
 
+## Pubblicazione completata — PR #49
+
+Anteprima approvata dall’utente e pubblicazione completata: PR #49 integrata in main al commit `96ec96805e08091ee6c80a0f69b641860834a93e`. Suite GitHub finale `39471393792` superata, deployment Pages `39471917520` riuscito. Verificato il sito ufficiale https://rickymusu-bit.github.io/fisica/ : tutti i 39 file pubblicati coincidono byte per byte con la build approvata e i 12 indirizzi esclusi restituiscono 404. Online curva e tasti dal blu al rosso, frecce continue, fotogramma di Conduzione, comandi media a icona e crediti dei materiali presenti; didascalie e loro allineamento invariati. Nessuna pubblicazione pendente. Questo salvataggio finale documenta l’esito nel ramo di lavorazione e non modifica il sito o avvia un nuovo deployment.
+
 ## Approvazione corrente — pubblicazione della PR #49
 
 L’utente ha approvato esplicitamente l’anteprima `03a186f221813ae3219a36da22f1d72712c97cfb`, generata dal sorgente `d183f073ee873da9dd780c513432da5e5edfec2a`. L’approvazione comprende curva e tasti dal blu al rosso, frecce continue, fotogramma di Conduzione, comandi media a icona e crediti dei soli materiali presenti; la regola generale sulle didascalie resta ritirata. Suite GitHub 39454562627 e anteprima 39454548147 superate. Autorizzate integrazione della PR #49 in main e pubblicazione Pages della stessa versione. Questo salvataggio aggiorna soltanto lo stato, senza modificare il sito generato. Prossimo passaggio: merge e verifica del deployment ufficiale. Il precedente tentativo non era stato eseguito per un limite temporaneo del servizio di revisione; l’utente ha chiesto di riprovare.
