@@ -83,10 +83,13 @@ main{max-width:1160px;margin:auto;padding:36px 24px 80px}h1,h2,h3,p{margin-top:0
 
 
 
-def topbar():
-    return (f'<header class="site-header"><div class="top-inner"><a class="brand" href="index.html" aria-label="Stringhe, vai alla home">'
-            f'<span>Stringhe</span></a><nav class="site-nav" aria-label="Navigazione principale">'
-            '<a href="articoli.html">Capitoli</a><a href="quiz.html">Quiz</a>'
+def topbar(home=False):
+    identity = '' if home else ('<a class="brand" href="index.html" aria-label="Stringhe, vai alla home">'
+                                '<span>Stringhe</span></a>')
+    links = '' if home else '<a href="articoli.html">Capitoli</a><a href="quiz.html">Quiz</a>'
+    home_class = ' home-header' if home else ''
+    return (f'<header class="site-header{home_class}"><div class="top-inner">{identity}'
+            f'<nav class="site-nav" aria-label="Navigazione principale">{links}'
             '<details class="lang" id="lingua"><summary aria-label="Seleziona la lingua">IT ▾</summary>'
             '<div class="lang-menu"><strong>Lingue disponibili</strong><p lang="it">✓ Italiano</p></div></details>'
             f'{theme_control()}</nav></div></header>')
@@ -108,7 +111,7 @@ def chapter_labels(document):
     return document
 
 
-def shell(title, body, source):
+def shell(title, body, source, home=False):
     credits = re.search(r'<!-- resource-credits:start -->[\s\S]*?<!-- resource-credits:end -->', source)
     credits = chapter_labels(credits.group(0)) if credits else '<a href="crediti.html">Crediti e licenze</a>'
     return apply_theme(f'<!doctype html><html lang="it"><head><meta charset="utf-8">'
@@ -116,7 +119,7 @@ def shell(title, body, source):
             f'<meta name="theme-color" content="#f6f9fe">'
             f'<meta name="description" content="Stringhe — L’essenziale della Fisica. Capitoli e quiz di Fisica.">'
             f'<title>{e(title)} — Stringhe</title><style>{font_css(source)}{CSS}</style></head>'
-            f'<body><a class="skip" href="#main">Vai al contenuto</a>{topbar()}'
+            f'<body><a class="skip" href="#main">Vai al contenuto</a>{topbar(home=home)}'
             f'<main id="main">{body}</main>'
             '<footer class="site-footer"><span>Stringhe — L’essenziale della Fisica</span>'
             f'</footer>{credits}{logo_script()}</body></html>')
@@ -189,7 +192,7 @@ def render_home(source, covers, allowed):
             'img.closest("figure").style.setProperty("--cover-ratio",c.width/c.height);img.src=c.src;img.alt=c.alt;'
             'document.getElementById("cover-caption").textContent=c.caption;}})();</script>'
             '<noscript><p>Per la scelta casuale serve JavaScript; puoi consultare il catalogo dei capitoli.</p></noscript>')
-    return shell("Home", body, source)
+    return shell("Home", body, source, home=True)
 
 
 def render_catalogue(source, allowed):

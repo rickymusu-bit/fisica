@@ -294,6 +294,13 @@ a{color:inherit}button,input,select{font:inherit}button,select{color:var(--ink)}
 #curve-choice-5:checked ~ .curve-scroll :is(#seg-5,#seg-mobile-5){stroke:var(--phase-5);stroke-width:8}
 #curve-choice-5:checked ~ .curve-controls label[for="curve-choice-5"]{background:var(--phase-5);color:#fff;font-weight:600;box-shadow:0 0 0 2px var(--surface),0 0 0 4px var(--ink)}
 .heating-curve .curve-scroll circle{fill:#202637;stroke:#fff;stroke-width:1.5}
+
+/* Home: soltanto lingua e tema, allineati a destra su ogni schermo. */
+.home-header .top-inner{justify-content:flex-end}
+.home-header .site-nav{width:auto;justify-content:flex-end;flex-wrap:nowrap;gap:6px}
+/* Nome della funzione condiviso da mouse, tastiera e touch. */
+.function-tooltip{position:fixed;width:max-content;z-index:1000;max-width:min(280px,calc(100vw - 16px));margin:0;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--ink);color:var(--paper);box-shadow:var(--shadow);font:500 13px/1.45 Lexend,system-ui,sans-serif;overflow-wrap:anywhere}
+.function-tooltip[hidden]{display:none}
 </style></head><body><main class="credits-page"><details class="theme-control theme-menu" data-theme-menu><summary aria-label="Tema del sito: Scuro" title="Tema: Scuro"><span class="theme-current-dark"><svg class="ui-icon" data-ui-icon viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 15A9 9 0 0 1 9 4a9 9 0 1 0 11 11Z"/></svg></span><span class="theme-current-light"><svg class="ui-icon" data-ui-icon viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1 1m12 12 1 1M5 19l1-1M18 6l1-1"/></svg></span><span class="menu-chevron" aria-hidden="true">▾</span></summary><div class="theme-options" role="group" aria-label="Scegli il tema"><button type="button" data-theme-option="dark" aria-pressed="true" disabled><svg class="ui-icon" data-ui-icon viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 15A9 9 0 0 1 9 4a9 9 0 1 0 11 11Z"/></svg><span>Scuro</span></button><button type="button" data-theme-option="light" aria-pressed="false" disabled><svg class="ui-icon" data-ui-icon viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1 1m12 12 1 1M5 19l1-1M18 6l1-1"/></svg><span>Chiaro</span></button></div></details><nav class="page-nav" aria-label="Navigazione"><a href="articoli.html">← Capitoli</a><a href="#da-verificare">Licenze da verificare</a></nav><h1>Crediti e licenze</h1>
 <p>Provenienza delle immagini, delle animazioni e dei caratteri usati in Stringhe. Il sito è gratuito, senza pubblicità e dedicato alla divulgazione e alla didattica. Ogni risorsa conserva i propri diritti: la gratuità non sostituisce una licenza.</p>
 <p>Il sito è stato realizzato con l’aiuto di Codex e ChatGPT.</p>
@@ -477,5 +484,87 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       document.documentElement.style.setProperty('--nav-height', bar.offsetHeight + 'px');
     }).observe(bar);
   }
+  // Suggerimenti comuni: nessun secondo tocco necessario per attivare un comando.
+  const tooltip = document.createElement('div');
+  tooltip.id = 'function-tooltip';
+  tooltip.className = 'function-tooltip';
+  tooltip.role = 'tooltip';
+  tooltip.hidden = true;
+  document.body.append(tooltip);
+  const controls = 'button,summary,[role="button"],.string-nav,.site-nav>a,.action,.download,.brand';
+  let current = null, timer, leaveTimer;
+  const controlAt = target => target instanceof Element ? target.closest(controls) : null;
+  function hideTip() {
+    clearTimeout(timer);
+    clearTimeout(leaveTimer);
+    if (current) {
+      const ids = (current.getAttribute('aria-describedby') || '').split(/\s+/).filter(id => id && id !== tooltip.id);
+      if (ids.length) current.setAttribute('aria-describedby', ids.join(' '));
+      else current.removeAttribute('aria-describedby');
+    }
+    current = null;
+    tooltip.hidden = true;
+  }
+  function showTip(control, touch = false) {
+    if (!control || control.disabled) return;
+    hideTip();
+    const name = control.getAttribute('aria-label') || control.getAttribute('title') ||
+      control.dataset.functionName || control.querySelector('strong')?.textContent || control.textContent;
+    if (!name?.trim()) return;
+    // Il title nativo rimane disponibile senza JavaScript; evitiamo due suggerimenti.
+    if (control.hasAttribute('title')) {
+      control.dataset.functionName = control.title;
+      control.removeAttribute('title');
+    }
+    current = control;
+    tooltip.textContent = name.trim().replace(/\s+/g, ' ');
+    control.setAttribute('aria-describedby', [control.getAttribute('aria-describedby'), tooltip.id].filter(Boolean).join(' '));
+    tooltip.hidden = false;
+    positionTip();
+    if (touch) timer = setTimeout(hideTip, 1800);
+  }
+  function positionTip() {
+    if (!current || tooltip.hidden) return;
+    const rect = current.getBoundingClientRect(), tip = tooltip.getBoundingClientRect();
+    let top = rect.top > tip.height + 12 ? rect.top - tip.height - 8 : rect.bottom + 8;
+    const header = current.closest('.site-header,.topbar');
+    if (header) {
+      top = header.getBoundingClientRect().bottom + 8;
+      header.querySelectorAll('details[open]>.lang-menu,details[open]>.theme-options,details[open]>.string-lang-menu').forEach(menu => {
+        top = Math.max(top, menu.getBoundingClientRect().bottom + 8);
+      });
+    }
+    tooltip.style.left = Math.max(8, Math.min(innerWidth - tip.width - 8, rect.left + (rect.width - tip.width) / 2)) + 'px';
+    tooltip.style.top = Math.max(8, Math.min(innerHeight - tip.height - 8, top)) + 'px';
+  }
+  // Dopo l’apertura nativa dei menu, il suggerimento si dispone sotto le opzioni.
+  document.addEventListener('click', () => { if (current) requestAnimationFrame(positionTip); });
+  document.addEventListener('pointerover', event => {
+    if (event.pointerType === 'touch') return;
+    if (tooltip.contains(event.target)) { clearTimeout(leaveTimer); return; }
+    const control = controlAt(event.target);
+    if (control && control !== current) showTip(control);
+  });
+  document.addEventListener('pointerout', event => {
+    if (!current || event.pointerType === 'touch') return;
+    if (current.contains(event.relatedTarget) || tooltip.contains(event.relatedTarget)) return;
+    clearTimeout(leaveTimer);
+    leaveTimer = setTimeout(hideTip, 120);
+  });
+  document.addEventListener('pointerdown', event => {
+    const control = controlAt(event.target);
+    if (control && event.pointerType === 'touch') showTip(control, true);
+    else if (!control && !tooltip.contains(event.target)) hideTip();
+  });
+  document.addEventListener('focusin', event => {
+    const control = controlAt(event.target);
+    if (control?.matches(':focus-visible')) showTip(control);
+  });
+  document.addEventListener('focusout', event => {
+    if (event.target === current) hideTip();
+  });
+  document.addEventListener('keydown', event => { if (event.key === 'Escape') hideTip(); });
+  document.addEventListener('scroll', hideTip, {capture:true, passive:true});
+  window.addEventListener('resize', hideTip);
 })();
 </script></body></html>
