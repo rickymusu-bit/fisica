@@ -5,6 +5,7 @@ on:
     branches:
       - design/stringhe-portale
       - design/novita-tema-switch
+      - fix/contrasto-schemi-dark
     paths:
       - '.github/workflows/preview-stringhe.yml'
       - 'scripts/**'

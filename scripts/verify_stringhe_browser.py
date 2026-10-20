@@ -73,6 +73,16 @@ def main():
                         assert page.evaluate('document.documentElement.dataset.theme') == theme
                         size = page.evaluate('({actual:document.documentElement.scrollWidth, viewport:innerWidth})')
                         assert size['actual'] <= size['viewport'] + 1, (name, width, theme, size)
+                        # Le etichette esterne alla foto restano leggibili nel riquadro bianco.
+                        for model in page.locator('.exercise-model').all():
+                            assert model.locator('xpath=..').evaluate('(e)=>getComputedStyle(e).backgroundColor') == 'rgb(255, 255, 255)'
+                            labels = model.locator('.model-data, .model-state, .model-transfer, .model-assumptions')
+                            for label in labels.all():
+                                assert label.evaluate('(e)=>getComputedStyle(e).color') == 'rgb(32, 38, 55)', (name, width, theme)
+                            for arrow in model.locator('.model-transfer').all():
+                                assert arrow.evaluate('(e)=>getComputedStyle(e,":before").color') == 'rgb(32, 38, 55)'
+                            if width in [390, 1440]:
+                                model.locator('.model-path').screenshot(path=str(SHOTS/f'schema-{Path(name).stem}-{width}-{theme}.png'))
                         checks.append([name, width, theme])
             # Home: una sola card senza onde; foto sotto al titolo su mobile.
             def verify_cover_layout(width):
