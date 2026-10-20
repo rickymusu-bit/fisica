@@ -1,12 +1,12 @@
 # Visuali — La dilatazione termica
 
-Versione v9 — 19 ottobre 2026 (Europe/Rome).
+Versione v10 — 20 ottobre 2026 (Europe/Rome).
 
 ## Direzione concordata e proposta aggiornata
 
 Quinto articolo del [percorso approvato](../percorso_termodinamica.md), dopo Il bilancio termico e prima di Stati della materia.
 
-L'utente richiede di privilegiare applicazioni e conseguenze tecnologiche e quotidiane e di trattare il comportamento anomalo dell'acqua. Questa indicazione sostituisce l'impostazione precedente centrata sugli apparati di laboratorio. L'utente ha approvato la proposta v2 con «Approvo»: impostazione, sei casi e funzioni visuali sono concordati. I file originali delle immagini non sono ancora stati forniti o selezionati; l'approvazione del piano non seleziona materiali inesistenti.
+L'utente richiede di privilegiare applicazioni e conseguenze tecnologiche e quotidiane e di trattare il comportamento anomalo dell'acqua. Questa indicazione sostituisce l'impostazione precedente centrata sugli apparati di laboratorio. L'utente ha approvato la proposta v2 con «Approvo»: impostazione, sei casi e funzioni visuali sono concordati. La copertina COP-01 è ora scelta esplicitamente tramite il collegamento dell'utente; le altre immagini restano da fornire.
 
 Domanda iniziale proposta: «Perché il caldo può deformare una struttura e, allo stesso tempo, far funzionare un termostato?».
 
@@ -33,7 +33,7 @@ L'utente cerca e fornisce file o collegamenti secondo C2. Nessuna ricerca o gene
 
 | ID | Materiale richiesto | Funzione e collocazione |
 | --- | --- | --- |
-| COP-01 | Fotografia di un ponte, distinta dalle immagini interne. | Copertina; non ripetuta né ritagliata per il testo. |
+| COP-01 | Fotografia del Pont de Bir-Hakeim a Parigi, scelta dall'utente il 20 ottobre 2026; dettagli sotto. | Copertina; non ripetuta né ritagliata per il testo. |
 | FIG-01 | Dettaglio riconoscibile di un giunto di dilatazione di un ponte. | Solo introduzione teorica: mostrare lo spazio disponibile per il movimento del ponte. |
 | FIG-02 | Termometro a liquido con bulbo, capillare e colonna visibili, preferibilmente ad alcool identificato dalla fonte. | Collegare aumento di volume e lettura della temperatura. |
 | FIG-03 | Schema illustrato già esistente di una lamina bimetallica o di un termostato bimetallico, con strati e contatto riconoscibili. | Spiegare la diversa dilatazione e il comando del circuito. |
@@ -50,9 +50,9 @@ Una fotografia di lago ghiacciato non sostituisce una sezione utile a vedere le 
 
 ## Stato delle risorse e prossima fase
 
-Nessun materiale scelto o ricevuto, nessuna nuova licenza verificata, nessuna nuova voce inserita nel registro unico. Le fotografie storiche di termometri già presenti nel repository non sono automaticamente idonee al termometro a liquido proposto.
+COP-01 scelta tramite URL e licenza verificata sulla scheda Commons; file binario non ancora scaricato per indisponibilità del proxy. Le altre immagini restano da fornire. Nessuna nuova voce inserita nel registro unico in questa fase di raccolta; trasferire i metadati nella realizzazione secondo C1. Le fotografie storiche di termometri già presenti nel repository non sono automaticamente idonee al termometro a liquido proposto.
 
-Bozza v7 ora salvata in [bozza.md](bozza.md), con i casi concordati, didascalie proposte, segnaposto e 12 domande finali. Prossimo passo: ricevere i materiali scelti e raccogliere eventuali correzioni o l'approvazione della bozza. Le fonti scientifiche per curva dell'acqua, densità e dati quantitativi andranno verificate e conservate nei crediti di servizio della bozza, poi nel registro unico. Nessun dato numerico specifico oltre alle temperature caratteristiche è stato introdotto in questa proposta.
+Bozza v7 ora salvata in [bozza.md](bozza.md), con i casi concordati, didascalie proposte, segnaposto e 12 domande finali. Prossimo passo: ricevere i materiali ancora mancanti; la bozza v7 è già approvata. Le fonti scientifiche per curva dell'acqua, densità e dati quantitativi andranno verificate e conservate nei crediti di servizio della bozza, poi nel registro unico. Nessun dato numerico specifico oltre alle temperature caratteristiche è stato introdotto in questa proposta.
 
 L'HTML richiede successivamente approvazione della bozza, stima ripartita e via esplicito secondo B1.1. Main e pubblicazione restano fuori da questa revisione editoriale.
 
@@ -69,3 +69,17 @@ Precisazione dell'utente: «No intendo dei coefficienti di dilatazione». Questa
 Bozza v7: tabella dei coefficienti volumici di quattro liquidi a 20 °C, con colonne Liquido e β (K⁻¹): alcol etilico 1,1 · 10⁻³; glicerina 5 · 10⁻⁴; acqua 2,1 · 10⁻⁴; mercurio 1,8 · 10⁻⁴. Fonte OpenStax tabella 13.2, già nei crediti di servizio. Valori in notazione scientifica normalizzata; confronto alcol/acqua circa cinque a parità di volume iniziale e piccolo ΔT, a pressione pressoché costante. Il coefficiente dell'acqua a 20 °C non si estende alla regione anomala vicino a 4 °C.
 
 La successiva richiesta «Ok allora non metterla» elimina la relazione fra α e β, la spiegazione e la nota collegate e la domanda che la riguardava. Le due tabelle TAB-01 e TAB-02 restano presenti, con coefficienti in notazione scientifica. Restano 12 domande senza soluzioni, compresa quella sulla tabella dei liquidi, rinumerata. Nessuna nuova immagine necessaria per la tabella; nessun HTML avviato.
+
+## COP-01 — Pont de Bir-Hakeim, scelta esplicita
+
+- Richiesta dell'utente del 20 ottobre 2026: «Copertina», seguita dall'URL. Scelta approvata, nessuna seconda conferma necessaria.
+- Versione indicata dall'utente: [JPEG a 960 px](https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Pont_de_Bir-Hakeim_and_view_on_the_16th_Arrondissement_of_Paris_140124_1.jpg/960px-Pont_de_Bir-Hakeim_and_view_on_the_16th_Arrondissement_of_Paris_140124_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail). La scheda Commons dichiara per questa risoluzione 960 × 688 px. Non è il file a risoluzione massima (6300 × 4515 px).
+- [Fonte originale e licenza](https://commons.wikimedia.org/wiki/File:Pont_de_Bir-Hakeim_and_view_on_the_16th_Arrondissement_of_Paris_140124_1.jpg); fotografo e attribuzione richiesta: **Daniel Vorndran / DXR**. Scatto del 24 gennaio 2014.
+- Licenza specifica verificata sulla scheda del file: **CC BY-SA 3.0 Unported**, https://creativecommons.org/licenses/by-sa/3.0/ . Conservare attribuzione, collegamento alla fonte e alla licenza e indicazione delle eventuali modifiche; ShareAlike per adattamenti.
+- La fonte dichiara ritocchi preesistenti: rimozione con clonazione di parti di una barca sfocata sul lato destro e schiarimento selettivo; la cronologia menziona correzioni di rumore e colore. Non attribuire questi interventi al progetto.
+- Nessun ritaglio, conversione, ricampionamento o modifica eseguito dal progetto. Uso esclusivo come copertina, non ripetuta all'interno.
+- Scheda consultata: parte occidentale del ponte di notte, con edifici del XVI arrondissement sullo sfondo. Questa descrizione proviene dalla fonte, non da un'ispezione diretta del file.
+- **Limite concreto:** il download con curl del collegamento esatto fallisce perché il proxy configurato non è raggiungibile (porta 8080). Anche l'apertura dell'immagine con il lettore web non è riuscita; la pagina descrittiva è invece consultabile. Nessun file binario salvato, decodificato o ispezionato; nessun peso o hash dichiarato. Il percorso previsto resta `risorse/copertina-bir-hakeim.jpg`, da creare solo dopo il recupero effettivo.
+- Prossimo passo per COP-01: ricevere il JPG allegato o recuperare lo stesso URL quando il proxy torna disponibile; poi verificare integrità, dimensioni e immagine. Conservare questi metadati di provenienza e trasferirli nel registro unico durante l'integrazione, senza creare un registro parallelo.
+
+Il master corrente su main è v69 e il modello comune è v15 (Stringhe), da usare nella futura impaginazione. Questa scelta non cambia il testo v7 approvato né autorizza HTML o pubblicazione.
