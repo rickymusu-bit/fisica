@@ -1,6 +1,6 @@
 # Stato — La dilatazione termica
 
-Versione v10 — 19 ottobre 2026 (Europe/Rome).
+Versione v11 — 20 ottobre 2026 (Europe/Rome).
 
 ## Identità e fase
 
@@ -12,11 +12,11 @@ Versione v10 — 19 ottobre 2026 (Europe/Rome).
 
 ## Riferimenti e checklist
 
-Consultati MASTER_PROMPT.md v64, AGENTS.md, percorso_termodinamica.md v6, STILE_DISPENSE.md v6, esempio_irraggiamento.md v2 e pubblicazione.json v8.
+Consultati inizialmente MASTER_PROMPT.md v64, AGENTS.md, percorso_termodinamica.md v6, STILE_DISPENSE.md v6, esempio_irraggiamento.md v2 e pubblicazione.json v8.
 
 Applicare: capitolo monografico e italiano; apertura concreta; formule motivate e interpretate; T maiuscola per la temperatura; punto centrato soltanto per prodotti; visuali concordate prima del testo; bozza nel repository e mai integralmente in chat; domande finali obbligatorie e senza soluzioni; nessun HTML prima della bozza approvata, stima e via esplicito. Registrare provenienza e diritti nel registro unico quando arrivano le risorse. Nessuna modifica a main o alla pubblicazione autorizzata dalla sola richiesta di avvio.
 
-Tema comune già approvato: riferimenti/TEMA_DISPENSE.html, corrente v10 secondo AGENTS.md. Da leggere integralmente e riusare nella fase di impaginazione; nessuna nuova scelta del tema da chiedere.
+Tema comune già approvato: riferimenti/TEMA_DISPENSE.html, ora v15 secondo master v69 e AGENTS.md su main, consultati il 20 ottobre 2026. L'identità corrente è Stringhe, con terminologia Capitolo/Capitoli, tema Chiaro/Scuro e logo comune aggiornato. Leggere il modello corrente prima dell'HTML; non usare il vecchio tema v10 del ramo. Da leggere integralmente e riusare nella fase di impaginazione; nessuna nuova scelta del tema da chiedere.
 
 ## Argomento e confini
 
@@ -28,11 +28,11 @@ Applicazioni correnti: binari ferroviari, termometro a liquido, termostato bimet
 
 ## Visuali e simulazioni
 
-[Visuali correnti](visuali.md): copertina esclusiva e sei immagini pertinenti ai casi proposti; grafico del volume dell'acqua con minimo vicino a 4 °C con funzione concordata, dati o originale da ricevere e documentare. Ritirata la richiesta iniziale degli apparati di laboratorio. Nessun file ricevuto o scelto; nessuna immagine cercata, generata o elaborata. Nessuna simulazione richiesta o programmata.
+[Visuali correnti](visuali.md): copertina esclusiva e sei immagini pertinenti ai casi proposti; grafico del volume dell'acqua con minimo vicino a 4 °C con funzione concordata, dati o originale da ricevere e documentare. Ritirata la richiesta iniziale degli apparati di laboratorio. COP-01 scelta tramite URL il 20 ottobre 2026, fonte e licenza verificate; download binario bloccato dal proxy. Altre immagini da ricevere; nessuna immagine alternativa cercata o generata. Nessuna simulazione richiesta o programmata.
 
 ## Bozza e approvazioni effettive
 
-L'utente ha risposto «Approvo» alla proposta v2: orientamento, sei casi e funzioni delle visuali concordati. Nessun file originale delle immagini ancora scelto o ricevuto; nessun permesso di ricerca o generazione dedotto. Preparata [bozza.md](bozza.md) v7 con segnaposto per le visuali concordate, didascalie proposte, formule interpretate, 12 domande finali senza soluzioni e crediti di servizio. L'utente ha approvato il testo v7 con «Ok la bozza va bene». Nessun via esplicito alla realizzazione HTML o alla pubblicazione ancora ricevuto.
+L'utente ha risposto «Approvo» alla proposta v2: orientamento, sei casi e funzioni delle visuali concordati. Copertina scelta esplicitamente il 20 ottobre 2026; altre immagini da scegliere o fornire. Nessun permesso di ricerca alternativa o generazione dedotto. Preparata [bozza.md](bozza.md) v7 con segnaposto per le visuali concordate, didascalie proposte, formule interpretate, 12 domande finali senza soluzioni e crediti di servizio. L'utente ha approvato il testo v7 con «Ok la bozza va bene». Nessun via esplicito alla realizzazione HTML o alla pubblicazione ancora ricevuto.
 
 ## Lavoro completato e verifiche
 
@@ -71,3 +71,13 @@ L'utente approva la bozza v7 con «Ok la bozza va bene». Conservare il testo ap
 Stima da presentare prima del via, secondo B1.1 punto 4 e B2: 40–70 minuti di lavoro, impegno di calcolo basso, dopo la disponibilità di tutti i materiali scelti. Ripartizione: 10–20 minuti per verifica e preparazione dei materiali e crediti; 20–30 minuti per grafico statico, integrazione e impaginazione nel tema comune; 10–20 minuti per verifiche desktop/mobile/offline, anteprime e salvataggio. Nessuna simulazione prevista. Ipotesi: originali adeguati e utilizzabili, grafico o dati dell'acqua disponibili, nessuna elaborazione sostanziale delle immagini o modifica al tema. Attesa dei file esclusa; eventuali problemi degli originali o dell'ambiente possono cambiare la stima. Riutilizzare il tema approvato e visuali statiche mantiene contenuto e riduce il lavoro.
 
 Prossimo passo: ricevere immagini e materiale del grafico secondo visuali.md e il via esplicito alla realizzazione dopo la stima. Non ricercare o generare immagini autonomamente. Nessun HTML avviato; main e pubblicazione invariati.
+
+## Copertina scelta — 20 ottobre 2026
+
+COP-01: fotografia del Pont de Bir-Hakeim a Parigi, versione JPEG a 960 px indicata dall'utente. Scelta effettiva registrata in [visuali.md](visuali.md) v10 con URL esatto, fonte, autore Daniel Vorndran / DXR e licenza CC BY-SA 3.0 Unported. Licenza e attribuzione verificate sulla scheda Commons. Ritocchi preesistenti documentati dalla fonte; nessuna modifica del progetto.
+
+Il proxy HTTP configurato non è raggiungibile: il download dell'URL esatto è fallito; il lettore web non apre il JPEG. Nessun file binario scaricato o salvato su GitHub, nessuna ispezione diretta, peso o hash. Non presentare l'immagine come già incorporata. Richiedere il JPG allegato oppure recuperare lo stesso URL al ripristino dell'accesso; nessuna sostituzione autonoma. La registrazione della scelta e dei metadati può essere salvata via connettore GitHub.
+
+Master corrente su main v69, letto integralmente in blocchi, AGENTS.md aggiornato; rete dell'ambiente dichiarata enforced, ma l'errore concreto resta l'indisponibilità del proxy. Nessuna modifica alle politiche o tentativo di aggiramento. Ramo dedicato ancora basato sul main precedente: prima della futura impaginazione riallineare i riferimenti al modello v15 e alla terminologia Stringhe senza cambiare il testo scientifico approvato. Nessuna incompatibilità con questa scelta di copertina; non modificare master o pubblicazione per questo incarico.
+
+Bozza v7 resta approvata. Restano da ricevere sette immagini interne FIG-01–FIG-07, il materiale del grafico GRA-01 e il via esplicito all'HTML dopo la stima già presentata. Salvataggio remoto dei due documenti da verificare prima della consegna.
