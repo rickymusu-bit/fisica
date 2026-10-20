@@ -11,7 +11,8 @@
       const label = preference === 'dark' ? 'Scuro' : 'Chiaro';
       const summary = menu.querySelector('summary');
       summary.setAttribute('aria-label', 'Tema del sito: ' + label);
-      summary.title = 'Tema: ' + label;
+      summary.dataset.functionName = 'Tema: ' + label;
+      summary.removeAttribute('title');
       menu.querySelectorAll('[data-theme-option]').forEach(button => {
         button.setAttribute('aria-pressed', String(button.dataset.themeOption === preference));
       });
