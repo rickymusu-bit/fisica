@@ -1,7 +1,7 @@
 # La dilatazione termica
 
-Bozza v11 — 20 ottobre 2026 (Europe/Rome).
-Testo scientifico v7 approvato. Questa v11 aggiorna i materiali scelti e aggiunge il grafico statico richiesto, con provenienza in visuali.md. File binari e ulteriori materiali ancora da ricevere o recuperare.
+Bozza v12 — 20 ottobre 2026 (Europe/Rome).
+Testo scientifico v7 approvato. Questa v12 aggiorna i materiali scelti e aggiunge il grafico statico richiesto, con provenienza in visuali.md. File binari e ulteriori materiali ancora da ricevere o recuperare.
 
 [IMMAGINE COP-01 — SHB-Red-Dust.jpg, copertina scelta; originale binario da recuperare.]
 Didascalia: Il Sydney Harbour Bridge durante una tempesta di polvere rossa.
@@ -122,8 +122,8 @@ Il ghiaccio galleggia e lo strato superficiale rallenta la perdita di calore del
 
 ### Quando il congelamento provoca danni
 
-[IMMAGINE FIG-06 — Foto Reddit mostrata direttamente dall'utente: cucina con ghiaccio dal controsoffitto e accumuli sul pavimento. URL di provenienza indicato: https://i.redd.it/2jq40fxtax801.jpg . Post originale, autore e diritti da documentare.]
-Didascalia: Ghiaccio sceso dal controsoffitto e accumulato sul pavimento di una cucina.
+[IMMAGINE FIG-06 — Foto Reddit mostrata direttamente dall'utente: cucina con ghiaccio dal controsoffitto e accumuli sul pavimento. URL di provenienza indicato: https://i.redd.it/2jq40fxtax801.jpg . Post originale rintracciato, account u/mynameisadrean; fotografo e diritti di riutilizzo ancora da accertare.]
+Didascalia: Ghiaccio accumulato in una cucina di Watertown, nello Stato di New York, dopo una perdita d'acqua durante il gelo del 2018.
 
 Nel lago il ghiaccio può occupare spazio verso la superficie; dentro una tubazione o un recipiente rigido l'acqua può trovarsi invece confinata. Se non può espandersi liberamente, la formazione del ghiaccio può provocare pressioni elevate e danneggiare il contenitore.
 
@@ -168,3 +168,5 @@ Le scelte e le licenze documentate di COP-01, FIG-01, FIG-02, FIG-04, FIG-05 e F
 Fonte di servizio per GRA-01: NIST, Selected Procedures for Volumetric Calibrations (2019), GLP 10 §6.1, https://doi.org/10.6028/NIST.IR.7383-2019 . Relazione di Tanaka et al. (2001) per acqua pura priva di aria disciolta alla pressione di riferimento 101325 Pa. Conversione V=m/ρ con massa fissa 1 kg; dati CSV e generatore in risorse/. Fonte fotografica per FIG-07: Rwendland, Expansion joint, Hayle, https://commons.wikimedia.org/wiki/File:Expansion_joint,_Hayle.jpg , CC BY-SA 3.0. Per FIG-06 mancano post originale, autore e autorizzazione documentata.
 
 FIG-05b, schema del lago: illustrazione generata con OpenAI imagegen su richiesta esplicita dell'utente il 20 ottobre 2026, usando l'allegato 15003.jpg come riferimento concettuale per una nuova figura italiana. Non attribuire allo schema generato la licenza della fotografia di Lake Louise o del riferimento. Riferimento allegato conservato separatamente per la sola lavorazione, non destinato alla pubblicazione. Temperature illustrative, non misure di Lake Louise; scientificamente riferite al caso descritto nel testo e alla fonte USGS già citata nei crediti di servizio.
+
+Provenienza aggiornata FIG-06: post r/WTF di u/mynameisadrean, https://www.reddit.com/r/WTF/comments/7p2hss/this_is_what_happens_in_my_hometown_when_you_dont/ . Contesto dell'episodio di Watertown confermato dall'articolo locale di Dave “Wheels” Wheeler, Big Frog 104, 12 gennaio 2018, https://bigfrog104.com/watertown-frozen-waterfall-inside/ , che accredita l'immagine a Bennett Realty. Distinguere poster, credito riportato e titolare dei diritti: nessuna licenza libera o autorizzazione ancora documentata. Titolo integrale del post e verifiche in visuali.md.
