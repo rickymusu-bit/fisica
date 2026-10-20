@@ -84,10 +84,22 @@ def main():
                             if width in [390, 1440]:
                                 model.locator('.model-path').screenshot(path=str(SHOTS/f'schema-{Path(name).stem}-{width}-{theme}.png'))
                         if page.locator('.topbar .top-links').count():
-                            controls = page.locator('.topbar .top-links').evaluate('(nav)=>[...nav.children].map(e=>e.getBoundingClientRect().toJSON())')
-                            assert len(controls) == 6, name
+                            controls = page.locator('.topbar .top-links').evaluate('(nav)=>[...nav.querySelectorAll(":scope > .string-nav, :scope > .reader-index")].map(e=>e.getBoundingClientRect().toJSON())')
+                            assert len(controls) == 4, name
                             assert max(r['top'] for r in controls) - min(r['top'] for r in controls) < 1, (name, width, controls)
                             assert all(r['width'] >= 44 and r['height'] >= 44 for r in controls), (name, width, controls)
+                            tools=page.locator('.topbar').evaluate('bar=>{const b=bar.getBoundingClientRect(),lang=bar.querySelector(".string-lang").getBoundingClientRect(),theme=bar.querySelector(".theme-switch").getBoundingClientRect();return {bar:b.toJSON(),lang:lang.toJSON(),theme:theme.toJSON()}}')
+                            assert abs(tools['lang']['top']-tools['theme']['top'])<1
+                            assert tools['theme']['right']<=tools['bar']['right'] and tools['theme']['right']>tools['bar']['right']-30
+                            assert tools['lang']['right']<tools['theme']['left']
+                            if width<=760: assert tools['lang']['bottom']<controls[0]['top']
+                            assert page.locator('.string-lang summary').inner_text()=='IT ▾'
+                        elif page.locator('.site-header').count():
+                            tools=page.locator('.top-inner').evaluate('bar=>{const b=bar.getBoundingClientRect(),lang=bar.querySelector(".lang").getBoundingClientRect(),theme=bar.querySelector(".theme-switch").getBoundingClientRect();return {bar:b.toJSON(),lang:lang.toJSON(),theme:theme.toJSON()}}')
+                            assert abs(tools['lang']['top']-tools['theme']['top'])<1
+                            assert tools['theme']['right']<=tools['bar']['right'] and tools['theme']['right']>tools['bar']['right']-30
+                            assert tools['lang']['right']<tools['theme']['left']
+                            assert page.locator('.site-header .lang>summary').inner_text()=='IT ▾'
                         checks.append([name, width, theme])
             # Selezionare i tratti non deve cambiare la posizione della pagina.
             page.goto(base+'passaggi_di_stato.html')
@@ -316,7 +328,7 @@ def main():
         server.shutdown()
         (SITE / 'modello-dispense.html').unlink(missing_ok=True)
     assert not errors, errors
-    report = {'barra_capitoli':{'comandi':6,'righe':1,'bersaglio_minimo_px':44},'curva_riscaldamento':{'selezioni_touch':50,'prove_tastiera':10,'fallback_senza_javascript':2,'salti_di_scorrimento':False},'viewport_tema_pagina':checks,'errori_javascript':errors,'copertine_verificate':len(covers),'home':{'card':'unica per titolo, logo e copertina; senza onde laterali','mobile':'foto sotto al titolo','desktop':'foto affiancata','layout_copertine_verificati':100,'didascalia':'bordo sinistro e larghezza coincidenti con la foto; proporzioni conservate'},'logo':{'curve':2,'fase':'opposizione','periodo_secondi':4,'animazione_nera':'impronta originale conservata','pausa':'entrambe le curve sincronizzate'},'laterali':{'viewport':[320,390,768,1024,1440],'temi':['light','dark'],'curve':'stessa ampiezza; periodo invariato; 24 px per fascia; nessun overflow'},
+    report = {'barra_capitoli':{'comandi_lettura':4,'righe_comandi':1,'lingua_tema':'angolo superiore destro; IT e switch','bersaglio_minimo_px':44},'curva_riscaldamento':{'selezioni_touch':50,'prove_tastiera':10,'fallback_senza_javascript':2,'salti_di_scorrimento':False},'viewport_tema_pagina':checks,'errori_javascript':errors,'copertine_verificate':len(covers),'home':{'card':'unica per titolo, logo e copertina; senza onde laterali','mobile':'foto sotto al titolo','desktop':'foto affiancata','layout_copertine_verificati':100,'didascalia':'bordo sinistro e larghezza coincidenti con la foto; proporzioni conservate'},'logo':{'curve':2,'fase':'opposizione','periodo_secondi':4,'animazione_nera':'impronta originale conservata','pausa':'entrambe le curve sincronizzate'},'laterali':{'viewport':[320,390,768,1024,1440],'temi':['light','dark'],'curve':'stessa ampiezza; periodo invariato; 24 px per fascia; nessun overflow'},
               'offline':offline_status,'browser':'Chromium; mobile e touch emulati, nessun dispositivo Android fisico',
               'controlli':['persistenza','default scuro indipendente dal sistema e switch tastiera','storage bloccato','senza JavaScript','logo e movimento ridotto','ricerca e filtro','indice tastiera','note','zoom','crediti','download identico']}
     (ROOT/'lavorazione/sito/verifica-stringhe.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')

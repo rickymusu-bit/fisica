@@ -5926,21 +5926,6 @@
       ]
     },
     {
-      "id": "asset-a48d029cda3edeccc4260e23b08979564041d392bac2b026e23ce7e1e83c007b",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "riferimenti/TEMA_DISPENSE.html",
-          "kind": "svg",
-          "description": "svg",
-          "locator": "inizio",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-a570f14c243e2493b7fa99e41212fd1be3a2e4a0c60f2c603447d78910dd7721",
       "kind": "image/png",
       "uses": [
