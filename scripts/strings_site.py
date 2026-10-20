@@ -244,8 +244,6 @@ body{background:#edf2fa!important;color:#14213d}
 
 
 def enhance_article(document, filename):
-    if 'class="top-links"' not in document:
-        raise ValueError(f"Barra articoli non trovata: {filename}")
     # Barra integrata nel tema esistente: l'indice interno rimane operativo.
     document = document.replace("Materia Oscura", "Stringhe")
     document = document.replace("Guida pratica per fare luce sulla Fisica", "L’essenziale della Fisica")
@@ -257,9 +255,13 @@ def enhance_article(document, filename):
                 f'<a class="string-nav" href="{e(filename)}" download="{e(filename)}">↓ Scarica</a>'
                 '<details class="string-lang"><summary aria-label="Seleziona lingua">IT ▾</summary>'
                 '<div class="string-languages" lang="it">✓ Italiano</div></details>')
-    document = document.replace('<nav class="top-links" aria-label="Navigazione principale">',
-                                '<nav class="top-links" aria-label="Navigazione principale">' + controls, 1)
-    if controls not in document:
-        raise ValueError(f"Impossibile inserire la navigazione: {filename}")
+    # Gli articoli hanno piccole variazioni negli attributi del nav.
+    # Individua l'elemento dalla classe, senza dipendere dall'aria-label esatta.
+    navigation_pattern = r'<nav\\b[^>]*\\bclass\\s*=\\s*["\\\'][^"\\\']*\\btop-links\\b[^"\\\']*["\\\'][^>]*>'
+    document, inserted = re.subn(navigation_pattern,
+                                 lambda match: match.group(0) + controls,
+                                 document, count=1, flags=re.I)
+    if inserted != 1:
+        raise ValueError(f"Barra di navigazione top-links non trovata: {filename}")
     document = document.replace('</head>', '<style data-theme="stringhe">' + ARTICLE_CSS + '</style></head>', 1)
     return document
