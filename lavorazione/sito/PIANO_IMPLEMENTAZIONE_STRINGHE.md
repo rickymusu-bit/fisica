@@ -47,6 +47,22 @@ Realizzare una **pagina di confronto** `lavorazione/sito/anteprima-bordi-stringh
 - [ ] **P2.7 Uniformità:** verificare home, `articoli.html`, `quiz.html`, tutte le copie di articoli pubblicabili, indice dell'articolo, menu lingua, pulsanti download, note collassabili, finestre di zoom e crediti. Il selettore lingua non deve promettere versioni non pubblicate.
 - [ ] **P2.8 Confronti:** verificare le due varianti di bordo in entrambi i temi; stati hover/focus/active; contrasto indicativamente WCAG AA (testo normale almeno 4,5:1, ove applicabile); apertura da browser Android e desktop.
 
+## Palette approvata e gerarchia dei pulsanti — aggiornamento del 20 ottobre 2026
+
+**Decisione cromatica esplicita dell'utente.** Questa sezione precisa P1 e P2 e prevale sulle precedenti proposte cromatiche provvisorie.
+
+- **Sfondo:** grigio chiaro neutro in modalità chiara (riferimento iniziale `#EDEDED`); grigio antracite in modalità scura, non nero assoluto. Le superfici delle finestre/card devono rimanere distinguibili dallo sfondo generale.
+- **Gradiente blu = accento di tutto il sito:** passaggio azzurro → blu → indaco. Palette di partenza da verificare visivamente: `#83D4FA` → `#337CD8` → `#4140A3`. In dark mode possono essere usate varianti più luminose per il necessario contrasto. Definire token CSS riutilizzabili; evitare sfumature incoerenti tra componenti.
+- **Bordi decorativi sinusoidali:** in entrambe le varianti A/B già previste, tracciare separatamente **una curva col gradiente blu** e **una curva monocromatica**: nera (o quasi nera) in light mode e bianca (o quasi bianca) in dark mode. Conservare opposizione di fase e differenze di ampiezza definite in P1. Non sommarle numericamente.
+- **Pulsante principale «Tutti gli articoli»:** riempimento **giallo luce caldo `#FFD84D`** e testo/icona quasi neri (`#202637`). Il giallo richiama la luce e separa visivamente l'azione primaria dagli accenti blu. **Non usare uno sfondo blu dietro la linea in gradiente blu:** la decorazione perderebbe leggibilità. Non utilizzare testo bianco su fondo giallo né giallo puro `#FFFF00`.
+- **Altri tre pulsanti:** «Mi sento fortunato», «Quiz», «Lingua» con superfici neutre (chiare in light mode, scure in dark mode), testi ad alto contrasto e **un piccolo dettaglio comune in gradiente blu** (per esempio linea/sinusoide inferiore). Non colorare stabilmente tutti e quattro i pulsanti con il gradiente.
+- **Interazioni:** usare accenti blu per hover, focus e stato selezionato, ma garantire che siano comprensibili anche **senza hover su dispositivi touch Android**. Evidenziare sempre chiaramente lo stato di focus da tastiera. Il gradiente non deve essere l'unico mezzo di comunicazione dello stato.
+- **Altri usi del gradiente blu, con moderazione:** sottolineature dei titoli di sezione, barra sottile sotto la navigazione, indicatori di selezione, bordi di card evidenziate e future barre di avanzamento nei quiz. Non applicare gradienti alle intere superfici di lettura, al testo corrente, alle formule o ai grafici scientifici. Conservare **«Stringhe» e il logo circolare** monocromatici, assicurando contrasto nella dark mode.
+- **Dark mode:** mantenere il pulsante principale giallo (eventualmente una tonalità leggermente meno brillante se la verifica visiva lo richiede) con testo scuro; la sinusoide monocromatica diventa chiara, quella blu può schiarirsi. Sfondi scuri grigi e superfici differenziate; mai applicare inversione globale a fotografie, visuali scientifici o elementi grafici.
+- **Criteri di accettazione:** screenshot light/dark della home e di almeno una card articolo, verifica del contrasto del testo sul giallo e delle sinusoidi sui fondi, resa su Android e desktop. Se il gradiente blu risulta poco visibile sul giallo, correggere spessore/valori di blu della sola linea decorativa senza rinunciare al giallo approvato.
+
+**Regola compositiva:** grigio per la struttura, nero/bianco per la leggibilità, gradiente blu per l'identità grafica e giallo luce per l'azione principale. Non sostituire il logo circolare animato originale o la copertina fotografica variabile.
+
 ## P3 — Chiarezza della funzione Quiz
 
 - [ ] **P3.1 Correggere la presentazione di `quiz.html`.** «Quiz» significa **futuro generatore di quiz di verifica** per il singolo utente, con scelta degli argomenti da verificare. Testo provvisorio consigliato: «In futuro potrai generare quiz di verifica scegliendo gli argomenti su cui esercitarti.»
