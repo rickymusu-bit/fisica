@@ -1,6 +1,6 @@
 # Visuali — La dilatazione termica
 
-Versione v10 — 20 ottobre 2026 (Europe/Rome).
+Versione v11 — 20 ottobre 2026 (Europe/Rome).
 
 ## Direzione concordata e proposta aggiornata
 
@@ -33,7 +33,7 @@ L'utente cerca e fornisce file o collegamenti secondo C2. Nessuna ricerca o gene
 
 | ID | Materiale richiesto | Funzione e collocazione |
 | --- | --- | --- |
-| COP-01 | Fotografia del Pont de Bir-Hakeim a Parigi, scelta dall'utente il 20 ottobre 2026; dettagli sotto. | Copertina; non ripetuta né ritagliata per il testo. |
+| COP-01 | Fotografia del Sydney Harbour Bridge durante una tempesta di polvere rossa, scelta sostitutiva del 20 ottobre 2026; dettagli sotto. | Copertina; non ripetuta né ritagliata per il testo. |
 | FIG-01 | Dettaglio riconoscibile di un giunto di dilatazione di un ponte. | Solo introduzione teorica: mostrare lo spazio disponibile per il movimento del ponte. |
 | FIG-02 | Termometro a liquido con bulbo, capillare e colonna visibili, preferibilmente ad alcool identificato dalla fonte. | Collegare aumento di volume e lettura della temperatura. |
 | FIG-03 | Schema illustrato già esistente di una lamina bimetallica o di un termostato bimetallico, con strati e contatto riconoscibili. | Spiegare la diversa dilatazione e il comando del circuito. |
@@ -70,16 +70,26 @@ Bozza v7: tabella dei coefficienti volumici di quattro liquidi a 20 °C, con col
 
 La successiva richiesta «Ok allora non metterla» elimina la relazione fra α e β, la spiegazione e la nota collegate e la domanda che la riguardava. Le due tabelle TAB-01 e TAB-02 restano presenti, con coefficienti in notazione scientifica. Restano 12 domande senza soluzioni, compresa quella sulla tabella dei liquidi, rinumerata. Nessuna nuova immagine necessaria per la tabella; nessun HTML avviato.
 
-## COP-01 — Pont de Bir-Hakeim, scelta esplicita
+## COP-01 — SHB-Red-Dust, scelta corrente
 
-- Richiesta dell'utente del 20 ottobre 2026: «Copertina», seguita dall'URL. Scelta approvata, nessuna seconda conferma necessaria.
-- Versione indicata dall'utente: [JPEG a 960 px](https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Pont_de_Bir-Hakeim_and_view_on_the_16th_Arrondissement_of_Paris_140124_1.jpg/960px-Pont_de_Bir-Hakeim_and_view_on_the_16th_Arrondissement_of_Paris_140124_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail). La scheda Commons dichiara per questa risoluzione 960 × 688 px. Non è il file a risoluzione massima (6300 × 4515 px).
-- [Fonte originale e licenza](https://commons.wikimedia.org/wiki/File:Pont_de_Bir-Hakeim_and_view_on_the_16th_Arrondissement_of_Paris_140124_1.jpg); fotografo e attribuzione richiesta: **Daniel Vorndran / DXR**. Scatto del 24 gennaio 2014.
-- Licenza specifica verificata sulla scheda del file: **CC BY-SA 3.0 Unported**, https://creativecommons.org/licenses/by-sa/3.0/ . Conservare attribuzione, collegamento alla fonte e alla licenza e indicazione delle eventuali modifiche; ShareAlike per adattamenti.
-- La fonte dichiara ritocchi preesistenti: rimozione con clonazione di parti di una barca sfocata sul lato destro e schiarimento selettivo; la cronologia menziona correzioni di rumore e colore. Non attribuire questi interventi al progetto.
-- Nessun ritaglio, conversione, ricampionamento o modifica eseguito dal progetto. Uso esclusivo come copertina, non ripetuta all'interno.
-- Scheda consultata: parte occidentale del ponte di notte, con edifici del XVI arrondissement sullo sfondo. Questa descrizione proviene dalla fonte, non da un'ispezione diretta del file.
-- **Limite concreto:** il download con curl del collegamento esatto fallisce perché il proxy configurato non è raggiungibile (porta 8080). Anche l'apertura dell'immagine con il lettore web non è riuscita; la pagina descrittiva è invece consultabile. Nessun file binario salvato, decodificato o ispezionato; nessun peso o hash dichiarato. Il percorso previsto resta `risorse/copertina-bir-hakeim.jpg`, da creare solo dopo il recupero effettivo.
-- Prossimo passo per COP-01: ricevere il JPG allegato o recuperare lo stesso URL quando il proxy torna disponibile; poi verificare integrità, dimensioni e immagine. Conservare questi metadati di provenienza e trasferirli nel registro unico durante l'integrazione, senza creare un registro parallelo.
+- Sostituzione esplicita dell'utente del 20 ottobre 2026: «Anzi metti questa», con [JPEG a 960 px](https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/SHB-Red-Dust.jpg/960px-SHB-Red-Dust.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail). Questa è la copertina corrente; la precedente scelta del Pont de Bir-Hakeim è superata, conservata nella cronologia Git. Nessuna seconda conferma necessaria.
+- Fonte: https://commons.wikimedia.org/wiki/File:SHB-Red-Dust.jpg . La scheda identifica il Sydney Harbour Bridge durante una tempesta di polvere rossa, il 23 settembre 2009.
+- Autore: **John Byrne**. Licenza verificata sulla scheda: **CC BY-SA 4.0 International**, https://creativecommons.org/licenses/by-sa/4.0/ . Conservare attribuzione, fonte, licenza e indicazione delle modifiche; ShareAlike per adattamenti.
+- Versione indicata: 960 × 643 px secondo la scheda; originale massimo dichiarato 3872 × 2592 px. Non attribuire il peso del file massimo alla miniatura scelta.
+- La cronologia Commons segnala una modifica preesistente di Thennicke il 19 ottobre 2017, «post cloned». Conservare l'informazione senza inventare dettagli o attribuirla al progetto.
+- Nessun ritaglio, ricampionamento o modifica eseguiti dal progetto. Uso esclusivo come copertina, non ripetuta nella teoria o nelle applicazioni. Il colore rosso è associato alla polvere atmosferica: non presentarlo come prova di temperatura elevata o dilatazione.
+- File binario non ancora scaricato o ispezionato: l'ambiente ha già mostrato indisponibilità del proxy HTTP; nessun peso o hash dichiarato. Percorso previsto `risorse/copertina-sydney.jpg`, da creare soltanto dopo il recupero effettivo. La descrizione qui riportata proviene dalla scheda, non da un'ispezione diretta.
+- Prossimo passo: recuperare lo stesso JPG o riceverlo allegato e verificarlo; trasferire i metadati nel registro unico durante l'integrazione. Non sostituire la versione scelta autonomamente.
 
-Il master corrente su main è v69 e il modello comune è v15 (Stringhe), da usare nella futura impaginazione. Questa scelta non cambia il testo v7 approvato né autorizza HTML o pubblicazione.
+## Materiali ancora da fornire — elenco per l'utente
+
+1. FIG-01: dettaglio di un giunto di dilatazione di un ponte, con lo spazio fra le parti ben visibile; solo teoria.
+2. FIG-07: dettaglio di un binario ferroviario con giunto e spazio fra le estremità delle rotaie.
+3. FIG-02: termometro a liquido, preferibilmente ad alcol, con bulbo, capillare e colonna ben visibili.
+4. FIG-03: schema illustrato di lamina o termostato bimetallico, con i due strati e il contatto riconoscibili, possibilmente a due temperature.
+5. FIG-04: barattolo di vetro con coperchio metallico.
+6. FIG-05: sezione illustrata di un lago d'acqua dolce ghiacciato in superficie, con temperature degli strati (circa 0 °C sotto il ghiaccio e circa 4 °C in profondità nel caso rappresentato).
+7. FIG-06: tubo o recipiente rotto dal gelo, con causa documentata dalla fonte.
+8. GRA-01: grafico o dati del volume di una massa fissa d'acqua liquida vicino a 0–10 °C, con minimo intorno a 4 °C e fonte verificabile. Questo è materiale di partenza per la ricostruzione del grafico, non una fotografia aggiuntiva.
+
+Le due tabelle dei coefficienti sono già nella bozza: non servono immagini di tabelle. È possibile inviare i file o i collegamenti uno alla volta. Master corrente v69, modello v15 Stringhe; testo v7 approvato invariato, nessun HTML o pubblicazione avviati.
