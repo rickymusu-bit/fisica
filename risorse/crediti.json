@@ -4222,6 +4222,21 @@
       ]
     },
     {
+      "id": "asset-29438a11c8352e88f1883d5b5c31a29c7e380a48f10e1fbaf53e743a22747653",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "riferimenti/TEMA_DISPENSE.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        }
+      ]
+    },
+    {
       "id": "asset-2a36bbffd2db7c8970cd855ea653221e95ac0a6c743887b3528a7090f8882ca1",
       "kind": "image/webp",
       "uses": [
@@ -4278,6 +4293,21 @@
           "attribute": "data-still",
           "location": null,
           "credit_id": "credit-07b5b0917b36b148"
+        }
+      ]
+    },
+    {
+      "id": "asset-31ad01515c289b4d7e9c3e42afdfb2369dff866dbf1cdbd67a45fe3a57a5de17",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "riferimenti/TEMA_DISPENSE.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
         }
       ]
     },
@@ -4686,6 +4716,21 @@
           "attribute": "inline",
           "location": null,
           "credit_id": "credit-2745b5c3fc7949d9"
+        }
+      ]
+    },
+    {
+      "id": "asset-46d8cee60bbc12c6e178433579d45fbdf8f0451cef8375663dbc3abf87105b28",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "riferimenti/TEMA_DISPENSE.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "indice",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
         }
       ]
     },
@@ -5881,6 +5926,21 @@
       ]
     },
     {
+      "id": "asset-a48d029cda3edeccc4260e23b08979564041d392bac2b026e23ce7e1e83c007b",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "riferimenti/TEMA_DISPENSE.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        }
+      ]
+    },
+    {
       "id": "asset-a570f14c243e2493b7fa99e41212fd1be3a2e4a0c60f2c603447d78910dd7721",
       "kind": "image/png",
       "uses": [
@@ -7036,6 +7096,36 @@
       ]
     },
     {
+      "id": "asset-de2045039c7ac3a9bbf234e9aa7d2a5566334e1ee1a233989306167f7258f4c1",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "riferimenti/TEMA_DISPENSE.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-df0f84a101d74c469333152fdd83d6e22ecab1599bed46fda38c479bbf4841c3",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "riferimenti/TEMA_DISPENSE.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        }
+      ]
+    },
+    {
       "id": "asset-df302171ce66d199bc422a5c7ab6fcfd303892ab5da836378e3ad6d4bbe8b21b",
       "kind": "svg",
       "uses": [
@@ -7279,6 +7369,21 @@
       ]
     },
     {
+      "id": "asset-ee08004ded4db6e679d325cd3750a9b0034e3d9ab456079fab29168aa667d8af",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "riferimenti/TEMA_DISPENSE.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "indice",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        }
+      ]
+    },
+    {
       "id": "asset-f0efceffb9a5bfab312b31746f5ecfa9dfcfc1d960e3a61dcae3a2ab4817bdf2",
       "kind": "svg",
       "uses": [
@@ -7413,6 +7518,21 @@
           "attribute": "href",
           "location": null,
           "credit_id": "credit-91c664d930aa4f65"
+        }
+      ]
+    },
+    {
+      "id": "asset-fc4f19fbb58885ba4e059c86785a59552d91bb4c32f54c433f666b4e23e70d78",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "riferimenti/TEMA_DISPENSE.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
         }
       ]
     },

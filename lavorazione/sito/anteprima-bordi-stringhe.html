@@ -40,6 +40,7 @@ main{max-width:1160px;margin:auto;padding:36px 24px 80px}h1,h2,h3,p{margin-top:0
     root.dataset.theme = preference;
     document.querySelectorAll('[data-theme-toggle]').forEach(button => {
       button.setAttribute('aria-checked', String(preference === 'dark'));
+      button.title = preference === 'dark' ? 'Passa al tema chiaro' : 'Passa al tema scuro';
       button.querySelector('[data-theme-label]').textContent = preference === 'dark' ? 'Scuro' : 'Chiaro';
     });
   }
@@ -192,7 +193,34 @@ a{color:inherit}button,input,select{font:inherit}button,select{color:var(--ink)}
 
 /* Sottotitolo della home nella tinta blu del tema. */
 .home-intro .subtitle{color:var(--accent)}
-</style></head><body><a class="skip" href="#main">Vai al contenuto</a><header class="site-header"><div class="top-inner"><a class="brand" href="index.html" aria-label="Stringhe, vai alla home"><span>Stringhe</span></a><nav class="site-nav" aria-label="Navigazione principale"><a href="articoli.html">Capitoli</a><a href="quiz.html">Quiz</a><details class="lang" id="lingua"><summary aria-label="Seleziona la lingua">Italiano ▾</summary><div class="lang-menu"><strong>Lingue disponibili</strong><p lang="it">✓ Italiano</p></div></details><button class="theme-control theme-switch" type="button" role="switch" aria-label="Tema scuro" aria-checked="true" data-theme-toggle disabled><span class="theme-track" aria-hidden="true"><span class="theme-thumb"></span></span><span data-theme-label>Scuro</span></button></nav></div></header><main id="main"><p class="eyebrow">Confronto del tema</p><h1 class="page-title">Bordi e reticolo</h1>
+
+/* Barra dei capitoli: sei comandi riconoscibili, su una sola riga. */
+.ui-icon{display:block;width:24px;height:24px;flex:none}
+.theme-thumb{display:grid;place-items:center}
+.theme-thumb .ui-icon{width:12px;height:12px;stroke:var(--surface);stroke-width:2}
+.theme-sun,.theme-switch[aria-checked=false] .theme-moon{display:none}
+.theme-switch[aria-checked=false] .theme-sun{display:block}
+.topbar .top-links{flex-wrap:nowrap!important;gap:4px!important;justify-content:space-between;flex:0 0 auto}
+.topbar .top-links>.string-nav,.topbar .top-links>.string-lang,.topbar .top-links>.theme-switch,.topbar .top-links>.reader-index{flex:0 0 44px;width:44px;min-width:44px;max-width:44px}
+.topbar .top-links>.string-nav,.topbar .top-links>.string-lang>summary,.topbar .index-toggle{display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;width:44px;height:44px;min-height:44px;padding:0!important;margin:0;gap:0}
+.topbar .nav-label,.topbar [data-theme-label]{display:none}
+.topbar .theme-switch{justify-content:center;padding:0}
+.index-close{display:none}
+.reader-index[open]>.index-toggle>.ui-icon{display:none}
+.reader-index[open]>.index-toggle>.index-close{display:block}
+@media(min-width:761px){.topbar{flex-wrap:nowrap!important}}
+@media(max-width:760px){.topbar{flex-wrap:wrap!important}.topbar .top-links{flex:1 0 100%;width:100%}}
+/* Il focus dei radio non deve riportare la pagina all’inizio del grafico. */
+.heating-curve .curve-choice{position:fixed;top:50%;left:50%}
+.heating-curve .curve-controls label:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+
+.heating-curve .curve-scroll{background:#fff;color:#202637;border-color:var(--line)}
+#curve-choice-1:focus-visible ~ .curve-controls label[for="curve-choice-1"]{outline-color:var(--accent)}
+#curve-choice-2:focus-visible ~ .curve-controls label[for="curve-choice-2"]{outline-color:var(--accent)}
+#curve-choice-3:focus-visible ~ .curve-controls label[for="curve-choice-3"]{outline-color:var(--accent)}
+#curve-choice-4:focus-visible ~ .curve-controls label[for="curve-choice-4"]{outline-color:var(--accent)}
+#curve-choice-5:focus-visible ~ .curve-controls label[for="curve-choice-5"]{outline-color:var(--accent)}
+</style></head><body><a class="skip" href="#main">Vai al contenuto</a><header class="site-header"><div class="top-inner"><a class="brand" href="index.html" aria-label="Stringhe, vai alla home"><span>Stringhe</span></a><nav class="site-nav" aria-label="Navigazione principale"><a href="articoli.html">Capitoli</a><a href="quiz.html">Quiz</a><details class="lang" id="lingua"><summary aria-label="Seleziona la lingua">Italiano ▾</summary><div class="lang-menu"><strong>Lingue disponibili</strong><p lang="it">✓ Italiano</p></div></details><button class="theme-control theme-switch" type="button" role="switch" aria-label="Tema scuro" title="Passa al tema chiaro" aria-checked="true" data-theme-toggle disabled><span class="theme-track" aria-hidden="true"><span class="theme-thumb"><span class="theme-moon"><svg class="ui-icon" data-ui-icon viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 15A9 9 0 0 1 9 4a9 9 0 1 0 11 11Z"/></svg></span><span class="theme-sun"><svg class="ui-icon" data-ui-icon viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1 1m12 12 1 1M5 19l1-1M18 6l1-1"/></svg></span></span></span><span data-theme-label>Scuro</span></button></nav></div></header><main id="main"><p class="eyebrow">Confronto del tema</p><h1 class="page-title">Bordi e reticolo</h1>
 <p class="lede">Confronta le stesse superfici con due curve tracciate separatamente. Configurazione scelta: reticolo regolare e sinusoidi verticali di uguale ampiezza. Le alternative restano disponibili per confronto.</p>
 <div class="comparison-toolbar">
 <label>Bordi <select id="border-variant"><option value="A">A — ampiezze uguali</option><option value="B">B — seconda ampiezza al 60%</option></select></label>
@@ -363,6 +391,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     const dark = document.documentElement.dataset.theme !== 'light';
     button.setAttribute('aria-checked', String(dark));
     button.querySelector('[data-theme-label]').textContent = dark ? 'Scuro' : 'Chiaro';
+    button.title = dark ? 'Passa al tema chiaro' : 'Passa al tema scuro';
     button.disabled = false;
     button.addEventListener('click', () => {
       window.stringheTheme(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark');
@@ -374,8 +403,17 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       link.href = 'https://rickymusu-bit.github.io/fisica/' + link.dataset.sitePath;
     });
   }
+  // Con la tastiera rendi visibile l’etichetta, senza riportare a vista il radio nascosto.
+  document.addEventListener('focusin', event => {
+    if (event.target.matches('.curve-choice:focus-visible')) {
+      event.target.labels[0]?.scrollIntoView({block:'nearest',inline:'nearest',behavior:'instant'});
+    }
+  });
   const index = document.querySelector('.reader-index');
   if (index) index.addEventListener('toggle', () => {
+    const label = index.open ? 'Chiudi indice' : 'Indice del capitolo';
+    index.querySelector('summary').setAttribute('aria-label', label);
+    index.querySelector('summary').title = label;
     document.querySelectorAll('.top-links > :not(.reader-index)').forEach(item => { item.inert = index.open; });
   });
   const bar = document.querySelector('.topbar');

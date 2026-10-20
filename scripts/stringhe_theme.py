@@ -24,10 +24,26 @@ def theme_script():
     return '<script data-stringhe-controls>' + asset('tema-controlli.js') + '</script>'
 
 
+def icon(name):
+    shapes = {
+        'home': '<path d="m3 10 9-7 9 7v10H6V10M9 20v-7h6v7"/>',
+        'books': '<path d="M3 4h5v16H3zM8 4h5v16H8zM15 5l4-1 4 15-4 1z"/>',
+        'download': '<path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/>',
+        'language': '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c-5 5-5 13 0 18 5-5 5-13 0-18Z"/>',
+        'index': '<path d="M8 5h13M8 12h13M8 19h13M3 5h.01M3 12h.01M3 19h.01"/>',
+        'close': '<path d="m6 6 12 12M6 18 18 6"/>',
+        'moon': '<path d="M20 15A9 9 0 0 1 9 4a9 9 0 1 0 11 11Z"/>',
+        'sun': '<circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1 1m12 12 1 1M5 19l1-1M18 6l1-1"/>',
+    }
+    return ('<svg class="ui-icon" data-ui-icon viewBox="0 0 24 24" fill="none" '
+            'stroke="currentColor" stroke-width="1.8" stroke-linecap="round" '
+            'stroke-linejoin="round" aria-hidden="true" focusable="false">' + shapes[name] + '</svg>')
+
+
 def theme_control():
     return ('<button class="theme-control theme-switch" type="button" role="switch" '
-            'aria-label="Tema scuro" aria-checked="true" data-theme-toggle disabled>'
-            '<span class="theme-track" aria-hidden="true"><span class="theme-thumb"></span></span>'
+            'aria-label="Tema scuro" title="Passa al tema chiaro" aria-checked="true" data-theme-toggle disabled>'
+            f'<span class="theme-track" aria-hidden="true"><span class="theme-thumb"><span class="theme-moon">{icon("moon")}</span><span class="theme-sun">{icon("sun")}</span></span></span>'
             '<span data-theme-label>Scuro</span></button>')
 
 
@@ -61,6 +77,9 @@ def apply_theme(document):
                       lambda _: theme_control(), document)
     document = re.sub(r'<button\b[^>]*data-theme-toggle[^>]*>[\s\S]*?</button>',
                       lambda _: theme_control(), document)
+    document = re.sub(r'<summary\b[^>]*class="index-toggle"[^>]*>[\s\S]*?</summary>',
+                      lambda _: '<summary class="index-toggle" aria-label="Indice del capitolo" title="Indice del capitolo">' +
+                      icon('index') + '<span class="nav-label">Indice</span><span class="index-close">' + icon('close') + '</span></summary>', document)
     document = update_logo_components(document)
     # Impostazione strutturale anche senza JavaScript e nelle copie autonome.
     document = re.sub(r'(<html\b)([^>]*)(>)',

@@ -138,3 +138,30 @@ a{color:inherit}button,input,select{font:inherit}button,select{color:var(--ink)}
 
 /* Sottotitolo della home nella tinta blu del tema. */
 .home-intro .subtitle{color:var(--accent)}
+
+/* Barra dei capitoli: sei comandi riconoscibili, su una sola riga. */
+.ui-icon{display:block;width:24px;height:24px;flex:none}
+.theme-thumb{display:grid;place-items:center}
+.theme-thumb .ui-icon{width:12px;height:12px;stroke:var(--surface);stroke-width:2}
+.theme-sun,.theme-switch[aria-checked=false] .theme-moon{display:none}
+.theme-switch[aria-checked=false] .theme-sun{display:block}
+.topbar .top-links{flex-wrap:nowrap!important;gap:4px!important;justify-content:space-between;flex:0 0 auto}
+.topbar .top-links>.string-nav,.topbar .top-links>.string-lang,.topbar .top-links>.theme-switch,.topbar .top-links>.reader-index{flex:0 0 44px;width:44px;min-width:44px;max-width:44px}
+.topbar .top-links>.string-nav,.topbar .top-links>.string-lang>summary,.topbar .index-toggle{display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;width:44px;height:44px;min-height:44px;padding:0!important;margin:0;gap:0}
+.topbar .nav-label,.topbar [data-theme-label]{display:none}
+.topbar .theme-switch{justify-content:center;padding:0}
+.index-close{display:none}
+.reader-index[open]>.index-toggle>.ui-icon{display:none}
+.reader-index[open]>.index-toggle>.index-close{display:block}
+@media(min-width:761px){.topbar{flex-wrap:nowrap!important}}
+@media(max-width:760px){.topbar{flex-wrap:wrap!important}.topbar .top-links{flex:1 0 100%;width:100%}}
+/* Il focus dei radio non deve riportare la pagina all’inizio del grafico. */
+.heating-curve .curve-choice{position:fixed;top:50%;left:50%}
+.heating-curve .curve-controls label:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+
+.heating-curve .curve-scroll{background:#fff;color:#202637;border-color:var(--line)}
+#curve-choice-1:focus-visible ~ .curve-controls label[for="curve-choice-1"]{outline-color:var(--accent)}
+#curve-choice-2:focus-visible ~ .curve-controls label[for="curve-choice-2"]{outline-color:var(--accent)}
+#curve-choice-3:focus-visible ~ .curve-controls label[for="curve-choice-3"]{outline-color:var(--accent)}
+#curve-choice-4:focus-visible ~ .curve-controls label[for="curve-choice-4"]{outline-color:var(--accent)}
+#curve-choice-5:focus-visible ~ .curve-controls label[for="curve-choice-5"]{outline-color:var(--accent)}
