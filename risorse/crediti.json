@@ -2925,6 +2925,27 @@
       "fingerprints": [
         "asset-931f63f4bf088358aabd7bd079ccf76e01c808682cb5de19946c397bb86cdbae"
       ]
+    },
+    {
+      "id": "parete-temperatura-profilo-curvo",
+      "description": "Profilo qualitativo aria–muro–aria",
+      "source": "https://github.com/rickymusu-bit/fisica/blob/fafb2a719c3512f14a1a39b685de26801b3b3946/lavorazione/conduzione/risorse/parete-temperatura-profilo-curvo.svg",
+      "author": null,
+      "license": null,
+      "license_url": null,
+      "changes": "SVG originale incorporato senza modifiche; sostituisce la precedente illustrazione della parete.",
+      "status": "review",
+      "links": [],
+      "notices": [
+        "Profilo qualitativo aria–muro–aria: schema SVG realizzato per il progetto Stringhe, <a href=\"https://github.com/rickymusu-bit/fisica/blob/fafb2a719c3512f14a1a39b685de26801b3b3946/lavorazione/conduzione/risorse/parete-temperatura-profilo-curvo.svg\">sorgente nel repository</a>. Originale incorporato senza modifiche; licenza non specificata."
+      ],
+      "metadata_sources": [
+        "PR #51",
+        "lavorazione/conduzione/risorse/parete-temperatura-profilo-curvo.svg"
+      ],
+      "fingerprints": [
+        "asset-d68a0505a0a78f50ab6763715592200b165a9b326957d513584cf81ea75361b6"
+      ]
     }
   ],
   "documents": {
@@ -3016,11 +3037,11 @@
           "notice": 0
         },
         {
-          "resource": "credit-b7d5fe724eb33df1",
+          "resource": "a-christmas-story-1983",
           "notice": 0
         },
         {
-          "resource": "a-christmas-story-1983",
+          "resource": "parete-temperatura-profilo-curvo",
           "notice": 0
         }
       ],
@@ -3661,21 +3682,6 @@
           "attribute": "cover-data",
           "location": "copertine/organo-augsburg.webp",
           "credit_id": "credit-11dfaf1d231b0f71"
-        }
-      ]
-    },
-    {
-      "id": "asset-0540e48134ae540bb5189a8c394f2ddad03222a2214b298f68fff9f80a6d3671",
-      "kind": "image/png",
-      "uses": [
-        {
-          "document": "conduzione_it.html",
-          "kind": "image/png",
-          "description": "Illustrazione di una parete tra due ambienti: T in uguale 50 °C sulla faccia calda e T out uguale 20 °C su quella fredda; A indica l’area, s lo spessore. Una freccia mostra il calore da sinistra a destra; la linea della temperatura scende nello spessore.",
-          "locator": "visuale-immagine-06-e-grafico-g-1",
-          "attribute": "src",
-          "location": null,
-          "credit_id": "credit-b7d5fe724eb33df1"
         }
       ]
     },
@@ -7021,6 +7027,30 @@
           "attribute": "src",
           "location": "copertine/computer-quantistico.webp",
           "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-d68a0505a0a78f50ab6763715592200b165a9b326957d513584cf81ea75361b6",
+      "kind": "image/svg+xml",
+      "uses": [
+        {
+          "document": "conduzione_it.html",
+          "kind": "image/svg+xml",
+          "description": "Profilo qualitativo di temperatura attraverso un muro: aria interna a 25 °C e aria esterna a −5 °C; raccordi curvi nell’aria e variazione lineare nello spessore della parete.",
+          "locator": "visuale-immagine-06-e-grafico-g-1",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "parete-temperatura-profilo-curvo"
+        },
+        {
+          "document": "conduzione_it.html",
+          "kind": "image/svg+xml",
+          "description": "Profilo qualitativo di temperatura attraverso un muro: aria interna a 25 °C e aria esterna a −5 °C; raccordi curvi nell’aria e variazione lineare nello spessore della parete.",
+          "locator": "visuale-immagine-06-e-grafico-g-1",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "parete-temperatura-profilo-curvo"
         }
       ]
     },
