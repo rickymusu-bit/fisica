@@ -273,7 +273,11 @@ def enhance_article(document, filename):
     document = document.replace("Materia Oscura", "Stringhe")
     document = document.replace("Guida pratica per fare luce sulla Fisica", "L’essenziale della Fisica")
     document = document.replace("https://rickymusu-bit.github.io/fisica/#indice", "articoli.html")
-    document = document.replace('<a href="#inizio">Fisica</a>', '<a href="#inizio">Stringhe</a>', 1)
+    # Il marchio non fa parte della barra dei capitoli, ma solo della home.
+    document = re.sub(
+        r'(<header\\b[^>]*class="[^"]*\\btopbar\\b[^"]*"[^>]*>)\\s*'
+        r'<div class="brand">[\\s\\S]*?</div>(?=\\s*<nav\\b)',
+        r'\\1', document, count=1)
     document = re.sub(r'(<nav[^>]*class="top-links"[^>]*>)<a[^>]*>\s*← (?:Articoli|Capitoli)\s*</a>', r'\1', document, count=1)
     controls = ('<!-- stringhe-navigation:start -->'
                 f'<a class="string-nav" href="index.html" data-site-path="index.html" aria-label="Home" title="Home">{icon("home")}<span class="nav-label">Home</span></a>'
