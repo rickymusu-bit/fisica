@@ -1,6 +1,6 @@
 # Visuali — La dilatazione termica
 
-Versione v14 — 20 ottobre 2026 (Europe/Rome).
+Versione v15 — 20 ottobre 2026 (Europe/Rome).
 
 ## Direzione concordata e proposta aggiornata
 
@@ -131,11 +131,13 @@ L'utente indica https://en.wikipedia.org/wiki/Bimetallic_strip e chiede alcune i
 - Usare come fotografia del fenomeno superficiale, non come sezione termica. Nessun valore di temperatura o profondità viene dedotto dalla foto. La spiegazione del lago resta un modello generale, non una misura effettuata al lago Louise nello scatto.
 - Una sezione illustrata resta solo un possibile supporto aggiuntivo, non già ricevuto o realizzato e non condizione automatica per accettare la foto scelta.
 
-## FIG-06 — Collegamento Reddit scelto, verifiche pendenti
+## FIG-06 — Foto Reddit ricevuta in chat, provenienza pendente
 
 - L'utente fornisce https://i.redd.it/2jq40fxtax801.jpg nel contesto dell'immagine sui danni da gelo. Scelta del collegamento registrata; non dedurre il contenuto dal contesto.
-- Apertura del JPEG via web non riuscita; download locale con curl fallito per connessione al proxy:8080. Nessun file salvato, decodificato, osservato o incorporato.
-- Autore, post originale, licenza e causa del danno non documentati; non dedurre una licenza libera dall'accessibilità su Reddit né attribuire con certezza la scena al congelamento. Richiedere il collegamento al post originale e l'eventuale autorizzazione dell'autore; allegato utile anche per l'ispezione.
+- Il link esterno non era accessibile; ora l'utente mostra la fotografia direttamente nella conversazione. Osservazione diretta: cucina con controsoffitto danneggiato/aperto, ghiaccio pendente dal soffitto e ghiaccio accumulato sul pavimento. Non si vede una tubazione rotta che ne documenti la causa. Nessuna temperatura dedotta.
+- Didascalia aggiornata: «Ghiaccio sceso dal controsoffitto e accumulato sul pavimento di una cucina». Usare come fotografia delle conseguenze di un episodio di gelo e presenza d'acqua in un edificio; non come prova della precisa sequenza causale spiegata nel modello.
+- L'immagine è stata vista nella chat, ma non è disponibile come file locale fra gli allegati elencati nell'ambiente. Nessun file binario ancora salvato nel repository, nessun hash o dimensione locale dichiarati. Non confondere l'osservazione in chat con il download riuscito.
+- Autore, post originale, licenza e causa specifica del danno non documentati; non dedurre una licenza libera dall'accessibilità su Reddit né attribuire con certezza la scena al congelamento. Richiedere il collegamento al post originale e l'eventuale autorizzazione dell'autore; allegato utile anche per l'ispezione.
 - Conservare l'URL e le verifiche mancanti nei crediti di servizio; non inventare attribuzioni o descrizioni e non sostituire autonomamente.
 
 ## GRA-01 — Grafico ricavato dai dati di densità, realizzato su richiesta esplicita
@@ -166,3 +168,5 @@ Richiesta esplicita: «Per il lago ghiacciato puoi creare uno schema simile a qu
 - Collocazione: dopo la spiegazione del raffreddamento della superficie e prima del paragrafo sull'isolamento del ghiaccio. La fotografia FIG-05 resta scelta e distinta; nessuna sostituzione della foto dedotta dalla richiesta di creare uno schema.
 - Bozza v10: aggiunta la figura con alt e didascalia; resto del testo, tabelle, grafico e 12 domande conservati. Nessuna animazione o simulazione.
 - La figura generata è proposta all'utente per revisione; nessuna approvazione del risultato finale dedotta. La generazione esplicitamente richiesta non autorizza pubblicazione o via generale all'HTML. Salvataggio nel ramo dedicato da verificare.
+
+Aggiornamento della bozza v11: FIG-06 ora descritta sulla base della fotografia visibile in chat. La scelta dell'utente resta valida; l'ispezione del contenuto è completata, mentre recupero del file binario e diritti restano pendenti. Schema FIG-05b già creato e salvato; nessuna alterazione alle altre visuali.
