@@ -83,7 +83,19 @@ main{max-width:1160px;margin:auto;padding:36px 24px 80px}h1,h2,h3,p{margin-top:0
 
 
 
-def topbar(home=False):
+def topbar(home=False, service=False):
+    if service:
+        # Stessa barra a icone dei capitoli, con soli tre comandi.
+        return ('<header class="site-header service-header"><div class="top-inner">'
+                '<nav class="site-nav" aria-label="Navigazione principale">'
+                '<a class="string-nav service-home" href="index.html" data-site-path="index.html" '
+                'aria-label="Home" title="Home">'
+                f'{icon("home")}<span class="nav-label">Home</span></a>'
+                '<details class="string-lang" name="stringhe-header-menu">'
+                '<summary aria-label="Seleziona lingua" title="Lingua: Italiano">'
+                '<span class="language-code">IT ▾</span></summary>'
+                '<div class="string-languages" lang="it">✓ Italiano</div></details>'
+                f'{theme_control()}</nav></div></header>')
     identity = '' if home else ('<a class="brand" href="index.html" aria-label="Stringhe, vai alla home">'
                                 '<span>Stringhe</span></a>')
     links = '' if home else '<a href="articoli.html">Capitoli</a><a href="quiz.html">Quiz</a>'
@@ -111,7 +123,7 @@ def chapter_labels(document):
     return document
 
 
-def shell(title, body, source, home=False):
+def shell(title, body, source, home=False, service=False):
     credits = re.search(r'<!-- resource-credits:start -->[\s\S]*?<!-- resource-credits:end -->', source)
     credits = chapter_labels(credits.group(0)) if credits else '<a href="crediti.html">Crediti e licenze</a>'
     return apply_theme(f'<!doctype html><html lang="it"><head><meta charset="utf-8">'
@@ -119,7 +131,7 @@ def shell(title, body, source, home=False):
             f'<meta name="theme-color" content="#f6f9fe">'
             f'<meta name="description" content="Stringhe — L’essenziale della Fisica. Capitoli e quiz di Fisica.">'
             f'<title>{e(title)} — Stringhe</title><style>{font_css(source)}{CSS}</style></head>'
-            f'<body><a class="skip" href="#main">Vai al contenuto</a>{topbar(home=home)}'
+            f'<body><a class="skip" href="#main">Vai al contenuto</a>{topbar(home=home, service=service)}'
             f'<main id="main">{body}</main>'
             '<footer class="site-footer"><span>Stringhe — L’essenziale della Fisica</span>'
             f'</footer>{credits}{logo_script()}</body></html>')
@@ -239,7 +251,7 @@ def render_catalogue(source, allowed):
             'for(const chip of chips)chip.addEventListener("click",()=>{area=chip.dataset.area;'
             'for(const b of chips)b.setAttribute("aria-pressed",String(b===chip));filter()});'
             'filter();})();</script>')
-    return shell("Tutti i capitoli", body, source)
+    return shell("Tutti i capitoli", body, source, service=True)
 
 
 def render_quiz(source):
@@ -249,7 +261,7 @@ def render_quiz(source):
             '<p>Il generatore è in preparazione. '
             'Nel frattempo puoi continuare a consultare i capitoli.</p>'
             '<a class="download" href="articoli.html">Vai ai capitoli →</a></section>')
-    return shell("Quiz", body, source)
+    return shell("Quiz", body, source, service=True)
 
 
 
