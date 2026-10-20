@@ -2,7 +2,7 @@
 
 [VISUALE visual-C1 — Il Sole e la Terra visti dall’orbita.]
 
-Didascalia: Il Sole e la Terra visti dall’orbita. La radiazione solare attraversa il vuoto dello spazio e trasporta energia fino al nostro pianeta.
+Didascalia: Il Sole sopra l’orizzonte terrestre, fotografato dall’orbita. La radiazione elettromagnetica emessa dal Sole attraversa il vuoto dello spazio e trasferisce energia alla superficie terrestre e all’atmosfera quando viene assorbita: è il riscaldamento per irraggiamento.
 
 Bozza testuale corrente della v7; tema comune v4.
 
