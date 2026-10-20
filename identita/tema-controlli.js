@@ -10,6 +10,13 @@
       });
     });
   });
+  // Fallback per i browser che non raggruppano ancora i details con name.
+  document.querySelectorAll('.site-header,.topbar').forEach(header => {
+    const menus = [...header.querySelectorAll('details.lang,details.string-lang,details[data-theme-menu]')];
+    menus.forEach(menu => menu.addEventListener('toggle', () => {
+      if (menu.open) menus.forEach(other => { if (other !== menu) other.open = false; });
+    }));
+  });
   document.addEventListener('click', event => {
     document.querySelectorAll('[data-theme-menu][open]').forEach(menu => {
       if (!menu.contains(event.target)) menu.open = false;
