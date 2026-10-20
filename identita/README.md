@@ -1,11 +1,13 @@
 # Logo di Stringhe
 
-Versione v8 — 20 ottobre 2026. La richiesta corrente aggiunge alla curva nera originale una curva con gradiente blu in opposizione di fase. Questa scelta aggiorna la precedente regola del logo monocromatico; Git conserva le versioni anteriori.
+Versione v9 — 20 ottobre 2026. La richiesta corrente aggiunge alla curva nera originale una curva con gradiente blu in opposizione di fase. Questa scelta aggiorna la precedente regola del logo monocromatico; Git conserva le versioni anteriori.
 
 Percorsi stabili:
 
 - `logo-materia-oscura.svg`: vettoriale animato autonomo, con due curve separate.
 - `logo-materia-oscura.gif`: esportazione trasparente dello stesso disegno, 256 × 256 px, 80 fotogrammi a 20 fps, periodo 4 secondi.
+
+I nomi dei file del logo sono percorsi storici stabili, conservati per i collegamenti già distribuiti. Il nome corrente del sito è **Stringhe** e il sottotitolo è **L’essenziale della Fisica**.
 
 ## Geometria e movimento
 
@@ -17,11 +19,11 @@ Il test conserva l’impronta SHA-256 della sequenza nera già approvata e verif
 
 `python3 scripts/logo_materia_oscura.py` rigenera lo SVG. `python3 scripts/logo_materia_oscura.py --gif` rigenera anche la GIF; l’esportazione usa Chromium/Playwright e Pillow, senza dipendenze aggiuntive per il sito.
 
-`scripts/stringhe_theme.py` incorpora lo stesso SVG nella home, nel modello v21 e nelle sole nove copie pubblicabili. `scripts/sync_stringhe_theme.py` allinea modello, confronto e pagina crediti; il registro aggiorna l’inventario del nuovo SVG del modello. Non riscrivere i sorgenti degli articoli, sospesi compresi. Il logo precedente e il riferimento originale dell’utente restano recuperabili in Git e in `lavorazione/sito/risorse-originali/`.
+`scripts/stringhe_theme.py` incorpora lo stesso SVG nella home, nel modello v21 e nei capitoli ammessi in `pubblicazione.json`. `scripts/sync_stringhe_theme.py` allinea modello, confronto e pagina crediti; il registro aggiorna l’inventario del nuovo SVG del modello. Non riscrivere i sorgenti degli articoli, sospesi compresi. Il logo precedente e il riferimento originale dell’utente restano recuperabili in Git e in `lavorazione/sito/risorse-originali/`.
 
 Nella home il logo accompagna il titolo in un’unica card condivisa con la copertina fotografica, senza onde laterali. Su mobile la foto è sotto al titolo; su desktop è affiancata. Il contenitore della didascalia ha la stessa larghezza dell’immagine, così il suo bordo sinistro coincide sempre con quello della fotografia, senza ritagli né bande interne. Restano le altre scelte approvate: reticolo regolare e sinusoidi verticali di uguale ampiezza.
 
-Il tema comune usa l’menu accessibile Chiaro/Scuro con luna o sole: Scuro predefinito, scelta persistente. Il default non segue il sistema. Novità ordina i soli capitoli ammessi tramite la data editoriale HTML, senza dipendere dalle date dei file o dalla cronologia Git. Le revisioni dei contenuti aggiornano tale data; il restyling comune la conserva.
+Il tema comune usa il menu accessibile Chiaro/Scuro con luna o sole: Scuro predefinito, scelta persistente. Il default non segue il sistema. Novità ordina i soli capitoli ammessi tramite la data editoriale HTML, senza dipendere dalle date dei file o dalla cronologia Git. Le revisioni dei contenuti aggiornano tale data; il restyling comune la conserva.
 
 La barra dei capitoli mostra quattro comandi di lettura su un’unica riga: casa, libri, download e indice, con icone SVG incorporate, nomi accessibili, suggerimenti e aree di tocco da 44 px. Lingua e menu del tema restano allineati agli altri comandi; la lingua mostra IT al posto del globo, anche nella home. Nel grafico di riscaldamento i radio invisibili restano ancorati al viewport, evitando il salto causato dal focus nativo; tastiera e fallback senza JavaScript restano disponibili.
 
