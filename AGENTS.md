@@ -22,7 +22,7 @@ Per la temperatura usa sempre il simbolo **T maiuscolo**, anche con pedici (per 
 
 Usa le note a piè di pagina soprattutto per alleggerire il testo: seleziona precisazioni brevi e utili, elimina ripetizioni di testo/didascalie, puntualizzazioni superflue e approfondimenti troppo tecnici, secondo A1. Mantieni le note collassabili, inizialmente chiuse, con richiami e ritorni cliccabili e versione/data separate nel piè di pagina, secondo A6.
 
-La scritta sopra il titolo dell’articolo deve essere il nome esatto dell’area tematica presente nel catalogo della home (per gli attuali tre articoli: «Materia e calore»), senza il prefisso «Area tematica» e senza la dicitura generica «Fisica». È parte del tema comune v7.
+La scritta sopra il titolo dell’articolo deve essere il nome esatto dell’area tematica presente nel catalogo della home (per i capitoli attuali: «Termologia»), senza il prefisso «Area tematica» e senza la dicitura generica «Fisica». È parte del tema comune v7.
 
 Il nome «← Articoli» dei collegamenti alla home (che sostituisce «← Tutti gli articoli» di A6 per richiesta esplicita dell’utente) e il componente delle note collassabili sono parti integranti del tema comune secondo A6: applicali automaticamente insieme al modello autonomo in ogni capitolo futuro e nelle revisioni che lo adottano.
 
@@ -32,7 +32,7 @@ Non pubblicare né ripristinare vecchi indirizzi o reindirizzamenti degli artico
 
 L’ordine degli articoli nell’indice e nella navigazione precedente/successivo è: **Stati della materia → Passaggi di stato → Conduzione → Convezione → Irraggiamento**, secondo la richiesta esplicita del 18 ottobre 2026.
 
-Per la home usa il titolo esatto **Stringhe** e il sottotitolo **L’essenziale della Fisica**, anche nei metadati pertinenti: questa nuova richiesta esplicita dell’utente sostituisce il precedente nome del sito riportato in A6. La gerarchia editoriale resta **Area tematica → Articolo → Sezione**, ma nella home mostra soltanto il nome del gruppo (per esempio «Materia e calore»), senza l’etichetta «Area tematica». Applica `riferimenti/TERMINOLOGIA_SITO.md` corrente insieme alle altre etichette di A6, senza aggiornare i sorgenti esclusi.
+Per la home usa il titolo esatto **Stringhe** e il sottotitolo **L’essenziale della Fisica**, anche nei metadati pertinenti: questa nuova richiesta esplicita dell’utente sostituisce il precedente nome del sito riportato in A6. La gerarchia editoriale resta **Area tematica → Articolo → Sezione**, ma nella home mostra soltanto il nome del gruppo (per esempio «Termologia»), senza l’etichetta «Area tematica». Applica `riferimenti/TERMINOLOGIA_SITO.md` corrente insieme alle altre etichette di A6, senza aggiornare i sorgenti esclusi.
 
 Traduci le etichette delle infografiche e degli schemi quando richiesto; questa regola non si estende alle scritte presenti nelle fotografie, comprese le termografie. La foto delle anatre mantiene la scala originale: l’utente ha escluso la conversione.
 
@@ -90,3 +90,7 @@ La richiesta finale dell’utente sostituisce le indicazioni precedenti: usare *
 ## Comandi dei media — regola del 20 ottobre 2026
 
 GIF con unico comando play/pausa a icona in basso a sinistra dell’immagine; immagini ingrandibili con unico comando ingrandisci/rimpicciolisci a icona nella stessa posizione. Nomi accessibili e suggerimenti aggiornati, tastiera, bersagli da almeno 44 px, fermo delle GIF con movimento ridotto e zoom nativo anche senza JavaScript. Componenti canoniche in `identita/media-controls.css`, `media-controls.js` e `scripts/media_controls.py`; applicarle ai capitoli esistenti e futuri e al modello. Per ogni nuova GIF preparare un fermo immagine incorporato (`data-still`) senza alterare l’originale animato. La richiesta generale di allineamento delle didascalie è stata ritirata: non introdurre né applicare quella regola; resta la precedente regola specifica della copertina della home.
+
+## Macro categoria dei fenomeni termici — 20 ottobre 2026
+
+Nome esatto richiesto dall’utente: **Termologia**, in sostituzione di «Materia e calore». Applicarlo al catalogo, ai filtri e alle etichette sopra i titoli e negli indici dei capitoli dell’area, compresi i nuovi capitoli in lavorazione. Conservare indirizzi e identificativi dei collegamenti, ordine, contenuti scientifici, date editoriali e manifest. Il modello comune conserva il segnaposto generico per l’area; i capitoli di questa macro categoria devono compilare quel segnaposto con il nuovo nome.

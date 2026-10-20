@@ -1,0 +1,543 @@
+[
+  {
+    "device": "desktop",
+    "width": 1440,
+    "scroll": 1440,
+    "theme": "dark",
+    "brokenImages": 0,
+    "questions": 12,
+    "captions": [
+      {
+        "id": "cop-01",
+        "text": "Il Sydney Harbour Bridge durante una tempesta di polvere rossa.",
+        "visible": true
+      },
+      {
+        "id": "fig-01",
+        "text": "Il giunto permette alle parti della struttura di muoversi entro lo spazio previsto dal progetto.",
+        "visible": true
+      },
+      {
+        "id": "gra-01",
+        "text": "Intorno a 4 °C, 1 kg d'acqua liquida occupa circa 1000,025 mL. L'equivalenza fra 1 kg d'acqua e 1 L è un'approssimazione. La scala verticale ingrandita rende visibile la piccola variazione.",
+        "visible": true
+      },
+      {
+        "id": "fig-07",
+        "text": "Il giunto di dilatazione di Hayle permette movimenti longitudinali delle rotaie.",
+        "visible": true
+      },
+      {
+        "id": "fig-02",
+        "text": "Il tubicino stretto rende visibile la variazione di volume del liquido.",
+        "visible": true
+      },
+      {
+        "id": "fig-03a",
+        "text": "La diversa dilatazione dei due metalli incurva la lamina.",
+        "visible": true
+      },
+      {
+        "id": "fig-03b",
+        "text": "La lamina a spirale sposta il contatto mobile al variare della temperatura. La leva regola la temperatura di intervento e il magnete aiuta a mantenere chiusi i contatti.",
+        "visible": true
+      },
+      {
+        "id": "fig-04",
+        "text": "Coperchio e recipiente possono cambiare dimensioni in misura diversa.",
+        "visible": true
+      },
+      {
+        "id": "fig-05",
+        "text": "Il lago Louise, in Canada, con la superficie ghiacciata.",
+        "visible": true
+      },
+      {
+        "id": "fig-05b",
+        "text": "Sotto il ghiaccio può restare acqua liquida. In questa situazione invernale tipica, la temperatura aumenta verso la zona profonda, dove l'acqua è più densa. Temperature indicative; profondità non in scala.",
+        "visible": true
+      },
+      {
+        "id": "fig-06",
+        "text": "Ghiaccio accumulato in una cucina di Watertown, nello Stato di New York, dopo una perdita d'acqua durante il gelo del 2018.",
+        "visible": true
+      }
+    ],
+    "missingAnchors": [],
+    "errors": [],
+    "offline": true,
+    "index": true,
+    "notes": true,
+    "zoom": [
+      {
+        "figure": "gra-01",
+        "width": 44,
+        "height": 44,
+        "bottomLeft": true,
+        "keyboard": true,
+        "labels": true
+      },
+      {
+        "figure": "fig-03a",
+        "width": 44,
+        "height": 44,
+        "bottomLeft": true,
+        "keyboard": true,
+        "labels": true
+      },
+      {
+        "figure": "fig-03b",
+        "width": 44,
+        "height": 44,
+        "bottomLeft": true,
+        "keyboard": true,
+        "labels": true
+      },
+      {
+        "figure": "fig-05b",
+        "width": 44,
+        "height": 44,
+        "bottomLeft": true,
+        "keyboard": true,
+        "labels": true
+      }
+    ],
+    "credits": true,
+    "themePersistence": true
+  },
+  {
+    "device": "mobile",
+    "width": 390,
+    "scroll": 390,
+    "theme": "dark",
+    "brokenImages": 0,
+    "questions": 12,
+    "captions": [
+      {
+        "id": "cop-01",
+        "text": "Il Sydney Harbour Bridge durante una tempesta di polvere rossa.",
+        "visible": true
+      },
+      {
+        "id": "fig-01",
+        "text": "Il giunto permette alle parti della struttura di muoversi entro lo spazio previsto dal progetto.",
+        "visible": true
+      },
+      {
+        "id": "gra-01",
+        "text": "Intorno a 4 °C, 1 kg d'acqua liquida occupa circa 1000,025 mL. L'equivalenza fra 1 kg d'acqua e 1 L è un'approssimazione. La scala verticale ingrandita rende visibile la piccola variazione.",
+        "visible": true
+      },
+      {
+        "id": "fig-07",
+        "text": "Il giunto di dilatazione di Hayle permette movimenti longitudinali delle rotaie.",
+        "visible": true
+      },
+      {
+        "id": "fig-02",
+        "text": "Il tubicino stretto rende visibile la variazione di volume del liquido.",
+        "visible": true
+      },
+      {
+        "id": "fig-03a",
+        "text": "La diversa dilatazione dei due metalli incurva la lamina.",
+        "visible": true
+      },
+      {
+        "id": "fig-03b",
+        "text": "La lamina a spirale sposta il contatto mobile al variare della temperatura. La leva regola la temperatura di intervento e il magnete aiuta a mantenere chiusi i contatti.",
+        "visible": true
+      },
+      {
+        "id": "fig-04",
+        "text": "Coperchio e recipiente possono cambiare dimensioni in misura diversa.",
+        "visible": true
+      },
+      {
+        "id": "fig-05",
+        "text": "Il lago Louise, in Canada, con la superficie ghiacciata.",
+        "visible": true
+      },
+      {
+        "id": "fig-05b",
+        "text": "Sotto il ghiaccio può restare acqua liquida. In questa situazione invernale tipica, la temperatura aumenta verso la zona profonda, dove l'acqua è più densa. Temperature indicative; profondità non in scala.",
+        "visible": true
+      },
+      {
+        "id": "fig-06",
+        "text": "Ghiaccio accumulato in una cucina di Watertown, nello Stato di New York, dopo una perdita d'acqua durante il gelo del 2018.",
+        "visible": true
+      }
+    ],
+    "missingAnchors": [],
+    "errors": [],
+    "offline": true,
+    "index": true,
+    "notes": true,
+    "zoom": [
+      {
+        "figure": "gra-01",
+        "width": 44,
+        "height": 44,
+        "bottomLeft": true,
+        "keyboard": true,
+        "labels": true
+      },
+      {
+        "figure": "fig-03a",
+        "width": 44,
+        "height": 44,
+        "bottomLeft": true,
+        "keyboard": true,
+        "labels": true
+      },
+      {
+        "figure": "fig-03b",
+        "width": 44,
+        "height": 44,
+        "bottomLeft": true,
+        "keyboard": true,
+        "labels": true
+      },
+      {
+        "figure": "fig-05b",
+        "width": 44,
+        "height": 44,
+        "bottomLeft": true,
+        "keyboard": true,
+        "labels": true
+      }
+    ],
+    "credits": true,
+    "themePersistence": true
+  },
+  {
+    "device": "320",
+    "width": 320,
+    "scroll": 320,
+    "theme": "dark",
+    "brokenImages": 0,
+    "questions": 12,
+    "captions": [
+      {
+        "id": "cop-01",
+        "text": "Il Sydney Harbour Bridge durante una tempesta di polvere rossa.",
+        "visible": true
+      },
+      {
+        "id": "fig-01",
+        "text": "Il giunto permette alle parti della struttura di muoversi entro lo spazio previsto dal progetto.",
+        "visible": true
+      },
+      {
+        "id": "gra-01",
+        "text": "Intorno a 4 °C, 1 kg d'acqua liquida occupa circa 1000,025 mL. L'equivalenza fra 1 kg d'acqua e 1 L è un'approssimazione. La scala verticale ingrandita rende visibile la piccola variazione.",
+        "visible": true
+      },
+      {
+        "id": "fig-07",
+        "text": "Il giunto di dilatazione di Hayle permette movimenti longitudinali delle rotaie.",
+        "visible": true
+      },
+      {
+        "id": "fig-02",
+        "text": "Il tubicino stretto rende visibile la variazione di volume del liquido.",
+        "visible": true
+      },
+      {
+        "id": "fig-03a",
+        "text": "La diversa dilatazione dei due metalli incurva la lamina.",
+        "visible": true
+      },
+      {
+        "id": "fig-03b",
+        "text": "La lamina a spirale sposta il contatto mobile al variare della temperatura. La leva regola la temperatura di intervento e il magnete aiuta a mantenere chiusi i contatti.",
+        "visible": true
+      },
+      {
+        "id": "fig-04",
+        "text": "Coperchio e recipiente possono cambiare dimensioni in misura diversa.",
+        "visible": true
+      },
+      {
+        "id": "fig-05",
+        "text": "Il lago Louise, in Canada, con la superficie ghiacciata.",
+        "visible": true
+      },
+      {
+        "id": "fig-05b",
+        "text": "Sotto il ghiaccio può restare acqua liquida. In questa situazione invernale tipica, la temperatura aumenta verso la zona profonda, dove l'acqua è più densa. Temperature indicative; profondità non in scala.",
+        "visible": true
+      },
+      {
+        "id": "fig-06",
+        "text": "Ghiaccio accumulato in una cucina di Watertown, nello Stato di New York, dopo una perdita d'acqua durante il gelo del 2018.",
+        "visible": true
+      }
+    ],
+    "missingAnchors": [],
+    "errors": [],
+    "offline": true,
+    "index": true,
+    "notes": true,
+    "zoom": [
+      {
+        "figure": "gra-01",
+        "width": 44,
+        "height": 44,
+        "bottomLeft": true,
+        "keyboard": true,
+        "labels": true
+      },
+      {
+        "figure": "fig-03a",
+        "width": 44,
+        "height": 44,
+        "bottomLeft": true,
+        "keyboard": true,
+        "labels": true
+      },
+      {
+        "figure": "fig-03b",
+        "width": 44,
+        "height": 44,
+        "bottomLeft": true,
+        "keyboard": true,
+        "labels": true
+      },
+      {
+        "figure": "fig-05b",
+        "width": 44,
+        "height": 44,
+        "bottomLeft": true,
+        "keyboard": true,
+        "labels": true
+      }
+    ],
+    "credits": true,
+    "themePersistence": true
+  },
+  {
+    "device": "768",
+    "width": 768,
+    "scroll": 768,
+    "theme": "dark",
+    "brokenImages": 0,
+    "questions": 12,
+    "captions": [
+      {
+        "id": "cop-01",
+        "text": "Il Sydney Harbour Bridge durante una tempesta di polvere rossa.",
+        "visible": true
+      },
+      {
+        "id": "fig-01",
+        "text": "Il giunto permette alle parti della struttura di muoversi entro lo spazio previsto dal progetto.",
+        "visible": true
+      },
+      {
+        "id": "gra-01",
+        "text": "Intorno a 4 °C, 1 kg d'acqua liquida occupa circa 1000,025 mL. L'equivalenza fra 1 kg d'acqua e 1 L è un'approssimazione. La scala verticale ingrandita rende visibile la piccola variazione.",
+        "visible": true
+      },
+      {
+        "id": "fig-07",
+        "text": "Il giunto di dilatazione di Hayle permette movimenti longitudinali delle rotaie.",
+        "visible": true
+      },
+      {
+        "id": "fig-02",
+        "text": "Il tubicino stretto rende visibile la variazione di volume del liquido.",
+        "visible": true
+      },
+      {
+        "id": "fig-03a",
+        "text": "La diversa dilatazione dei due metalli incurva la lamina.",
+        "visible": true
+      },
+      {
+        "id": "fig-03b",
+        "text": "La lamina a spirale sposta il contatto mobile al variare della temperatura. La leva regola la temperatura di intervento e il magnete aiuta a mantenere chiusi i contatti.",
+        "visible": true
+      },
+      {
+        "id": "fig-04",
+        "text": "Coperchio e recipiente possono cambiare dimensioni in misura diversa.",
+        "visible": true
+      },
+      {
+        "id": "fig-05",
+        "text": "Il lago Louise, in Canada, con la superficie ghiacciata.",
+        "visible": true
+      },
+      {
+        "id": "fig-05b",
+        "text": "Sotto il ghiaccio può restare acqua liquida. In questa situazione invernale tipica, la temperatura aumenta verso la zona profonda, dove l'acqua è più densa. Temperature indicative; profondità non in scala.",
+        "visible": true
+      },
+      {
+        "id": "fig-06",
+        "text": "Ghiaccio accumulato in una cucina di Watertown, nello Stato di New York, dopo una perdita d'acqua durante il gelo del 2018.",
+        "visible": true
+      }
+    ],
+    "missingAnchors": [],
+    "errors": [],
+    "offline": true,
+    "index": true,
+    "notes": true,
+    "zoom": [
+      {
+        "figure": "gra-01",
+        "width": 44,
+        "height": 44,
+        "bottomLeft": true,
+        "keyboard": true,
+        "labels": true
+      },
+      {
+        "figure": "fig-03a",
+        "width": 44,
+        "height": 44,
+        "bottomLeft": true,
+        "keyboard": true,
+        "labels": true
+      },
+      {
+        "figure": "fig-03b",
+        "width": 44,
+        "height": 44,
+        "bottomLeft": true,
+        "keyboard": true,
+        "labels": true
+      },
+      {
+        "figure": "fig-05b",
+        "width": 44,
+        "height": 44,
+        "bottomLeft": true,
+        "keyboard": true,
+        "labels": true
+      }
+    ],
+    "credits": true,
+    "themePersistence": true
+  },
+  {
+    "device": "1024",
+    "width": 1024,
+    "scroll": 1024,
+    "theme": "dark",
+    "brokenImages": 0,
+    "questions": 12,
+    "captions": [
+      {
+        "id": "cop-01",
+        "text": "Il Sydney Harbour Bridge durante una tempesta di polvere rossa.",
+        "visible": true
+      },
+      {
+        "id": "fig-01",
+        "text": "Il giunto permette alle parti della struttura di muoversi entro lo spazio previsto dal progetto.",
+        "visible": true
+      },
+      {
+        "id": "gra-01",
+        "text": "Intorno a 4 °C, 1 kg d'acqua liquida occupa circa 1000,025 mL. L'equivalenza fra 1 kg d'acqua e 1 L è un'approssimazione. La scala verticale ingrandita rende visibile la piccola variazione.",
+        "visible": true
+      },
+      {
+        "id": "fig-07",
+        "text": "Il giunto di dilatazione di Hayle permette movimenti longitudinali delle rotaie.",
+        "visible": true
+      },
+      {
+        "id": "fig-02",
+        "text": "Il tubicino stretto rende visibile la variazione di volume del liquido.",
+        "visible": true
+      },
+      {
+        "id": "fig-03a",
+        "text": "La diversa dilatazione dei due metalli incurva la lamina.",
+        "visible": true
+      },
+      {
+        "id": "fig-03b",
+        "text": "La lamina a spirale sposta il contatto mobile al variare della temperatura. La leva regola la temperatura di intervento e il magnete aiuta a mantenere chiusi i contatti.",
+        "visible": true
+      },
+      {
+        "id": "fig-04",
+        "text": "Coperchio e recipiente possono cambiare dimensioni in misura diversa.",
+        "visible": true
+      },
+      {
+        "id": "fig-05",
+        "text": "Il lago Louise, in Canada, con la superficie ghiacciata.",
+        "visible": true
+      },
+      {
+        "id": "fig-05b",
+        "text": "Sotto il ghiaccio può restare acqua liquida. In questa situazione invernale tipica, la temperatura aumenta verso la zona profonda, dove l'acqua è più densa. Temperature indicative; profondità non in scala.",
+        "visible": true
+      },
+      {
+        "id": "fig-06",
+        "text": "Ghiaccio accumulato in una cucina di Watertown, nello Stato di New York, dopo una perdita d'acqua durante il gelo del 2018.",
+        "visible": true
+      }
+    ],
+    "missingAnchors": [],
+    "errors": [],
+    "offline": true,
+    "index": true,
+    "notes": true,
+    "zoom": [
+      {
+        "figure": "gra-01",
+        "width": 44,
+        "height": 44,
+        "bottomLeft": true,
+        "keyboard": true,
+        "labels": true
+      },
+      {
+        "figure": "fig-03a",
+        "width": 44,
+        "height": 44,
+        "bottomLeft": true,
+        "keyboard": true,
+        "labels": true
+      },
+      {
+        "figure": "fig-03b",
+        "width": 44,
+        "height": 44,
+        "bottomLeft": true,
+        "keyboard": true,
+        "labels": true
+      },
+      {
+        "figure": "fig-05b",
+        "width": 44,
+        "height": 44,
+        "bottomLeft": true,
+        "keyboard": true,
+        "labels": true
+      }
+    ],
+    "credits": true,
+    "themePersistence": true
+  },
+  {
+    "javascript": false,
+    "nativeZoom": true,
+    "captions": 11,
+    "defaultTheme": "dark"
+  },
+  {
+    "storage": false,
+    "themeMenu": true,
+    "errors": []
+  }
+]
