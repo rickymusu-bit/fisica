@@ -454,8 +454,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
  window.addEventListener('hashchange',()=>revealNote(location.hash,true));
  revealNote(location.hash,true);
 })();
-</script><script data-common-logo>
-(() => {
+</script><script data-common-logo>(() => {
   document.querySelectorAll('[data-logo-toggle]').forEach(button => {
     const logo = button.querySelector('svg');
     if (!logo || typeof logo.pauseAnimations !== 'function') return;
@@ -466,7 +465,8 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       else logo.pauseAnimations();
       const label = playing ? 'Metti in pausa l’animazione del logo' : 'Riprendi l’animazione del logo';
       button.setAttribute('aria-label', label);
-      button.setAttribute('title', label);
+      button.dataset.functionName = label;
+      button.removeAttribute('title');
       button.setAttribute('aria-pressed', String(!playing));
     }
     button.disabled = false;
@@ -494,7 +494,8 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     const sync = () => {
       const label = zoom.open ? 'Rimpicciolisci l’immagine' : 'Ingrandisci l’immagine';
       button.setAttribute('aria-label', label);
-      button.title = label;
+      button.dataset.functionName = label;
+      button.removeAttribute('title');
     };
     zoom.addEventListener('toggle', sync);
     sync();
@@ -512,7 +513,8 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       image.src = playing ? animation : still;
       const label = playing ? 'Metti in pausa l’animazione' : 'Riprendi l’animazione';
       button.setAttribute('aria-label', label);
-      button.title = label;
+      button.dataset.functionName = label;
+      button.removeAttribute('title');
       button.setAttribute('aria-pressed', String(!playing));
     }
     button.disabled = false;
@@ -568,7 +570,8 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   if (index) index.addEventListener('toggle', () => {
     const label = index.open ? 'Chiudi indice' : 'Indice del capitolo';
     index.querySelector('summary').setAttribute('aria-label', label);
-    index.querySelector('summary').title = label;
+    index.querySelector('summary').dataset.functionName = label;
+    index.querySelector('summary').removeAttribute('title');
     document.querySelectorAll('.top-links > :not(.reader-index)').forEach(item => { item.inert = index.open; });
   });
   const bar = document.querySelector('.topbar');
@@ -597,7 +600,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   function hideTip() {
     clearTimeout(leaveTimer);
     if (current) {
-      const ids = (current.getAttribute('aria-describedby') || '').split(/\\s+/).filter(id => id && id !== tooltip.id);
+      const ids = (current.getAttribute('aria-describedby') || '').split(/\s+/).filter(id => id && id !== tooltip.id);
       if (ids.length) current.setAttribute('aria-describedby', ids.join(' '));
       else current.removeAttribute('aria-describedby');
     }
@@ -611,7 +614,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       control.querySelector('strong')?.textContent || control.textContent;
     if (!name?.trim()) return;
     current = control;
-    tooltip.textContent = name.trim().replace(/\\s+/g, ' ');
+    tooltip.textContent = name.trim().replace(/\s+/g, ' ');
     control.setAttribute('aria-describedby', [control.getAttribute('aria-describedby'), tooltip.id].filter(Boolean).join(' '));
     tooltip.hidden = false;
     positionTip();
