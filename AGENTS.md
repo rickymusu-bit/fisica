@@ -61,7 +61,7 @@ Il tema v10 usa un solo comando «Crediti e licenze», che apre i crediti incorp
 ## Nuova identità e navigazione — 20 ottobre 2026
 
 Nome ufficiale del sito: **Stringhe**. Sottotitolo esatto: **L’essenziale della Fisica**.
-La home è un portale con tre accessi: Tutti i capitoli, Mi sento fortunato e Quiz. La lingua resta soltanto nel menu superiore. Novità sostituisce Esplora e Da leggere, con tre capitoli ordinati per data editoriale decrescente, senza numeri. A parità di data precede il capitolo più avanti nel catalogo. Aggiornare `<meta name="date">` nelle nuove pubblicazioni o revisioni editoriali; le modifiche al tema non aggiornano le date dei capitoli.
+La home è un portale con tre accessi: Tutti i capitoli, Mi sento fortunato e Quiz. Nella barra superiore della home restano soltanto Lingua e Chiaro/Scuro: nessun nome Stringhe o collegamento ripetuto a Capitoli e Quiz. Lingua e Chiaro/Scuro sono menu mutuamente esclusivi: aprendo uno si chiude l’altro. I comandi del tema comune mostrano il nome della funzione al passaggio del puntatore, al focus da tastiera e al tocco, senza richiedere un secondo tocco per attivarli. La lingua resta soltanto nel menu superiore. Novità sostituisce Esplora e Da leggere, con tre capitoli ordinati per data editoriale decrescente, senza numeri. A parità di data precede il capitolo più avanti nel catalogo. Aggiornare `<meta name="date">` nelle nuove pubblicazioni o revisioni editoriali; le modifiche al tema non aggiornano le date dei capitoli.
 Il catalogo è una pagina indipendente `articoli.html`, con ricerca e filtro per area tematica;
 la scelta casuale include soltanto gli articoli approvati in `pubblicazione.json`.
 La pagina `quiz.html` presenta il futuro generatore di quiz di verifica su argomenti scelti dall’utente. Il progetto separato «Chi vuol essere rimandato» non fa parte di questa funzione.
@@ -75,9 +75,9 @@ i sorgenti degli articoli sospesi. Il logo circolare originale resta obbligatori
 
 Per il prossimo sviluppo del portale e del tema leggere **prima** `lavorazione/sito/PIANO_IMPLEMENTAZIONE_STRINGHE.md` insieme al master e allo stato: è la lista operativa di Codex per logo circolare originale, copertina casuale, bordi sinusoidali A/B, dark mode opzionale e quiz di verifica futuro. Essa recepisce le correzioni esplicite più recenti dell'utente rispetto alla precedente proposta di design. Conservare la PR in bozza e non pubblicare senza una nuova approvazione.
 
-## Tema Stringhe comune — modello v21
+## Tema Stringhe comune — modello v22
 
-Il piano Stringhe autorizza il restyling globale: portale, servizi, nove copie pubblicabili e modello ufficiale. Token, palette, reticolo e comportamenti sono definiti una sola volta in `identita/tema-stringhe.css`, `tema-init.js`, `tema-controlli.js`, incorporati da `scripts/stringhe_theme.py`. Il modello autonomo v21 conserva le stesse componenti: dopo una modifica condivisa eseguire `python3 scripts/sync_stringhe_theme.py`, poi `--check`. Non generare il modello da un articolo né modificare i sorgenti sospesi. La sincronizzazione riguarda soltanto modello, confronto e pagina dei crediti; non usare `credits.py --sync` per una migrazione generale non autorizzata.
+Il piano Stringhe autorizza il restyling globale: portale, servizi, nove copie pubblicabili e modello ufficiale. Token, palette, reticolo e comportamenti sono definiti una sola volta in `identita/tema-stringhe.css`, `tema-init.js`, `tema-controlli.js`, incorporati da `scripts/stringhe_theme.py`. Il modello autonomo v22 conserva le stesse componenti: dopo una modifica condivisa eseguire `python3 scripts/sync_stringhe_theme.py`, poi `--check`. Non generare il modello da un articolo né modificare i sorgenti sospesi. La sincronizzazione riguarda soltanto modello, confronto e pagina dei crediti; non usare `credits.py --sync` per una migrazione generale non autorizzata.
 
 Il menu Chiaro / Scuro, con icona luna o sole, vale anche per le nuove dispense: default Scuro indipendente dal sistema, scelta persistente, funzionamento senza storage e fallback scuro senza JavaScript. Logo e risorse scientifiche non si invertono; i visuali restano sulle superfici appropriate. La navigazione online è relativa; i rimandi del documento scaricato hanno il fallback pubblico.
 
@@ -85,7 +85,7 @@ L’utente ha approvato reticolo A regolare e sinusoidi A di uguale ampiezza. Le
 
 ## Terminologia e pubblicazione autorizzate — 20 ottobre 2026
 
-La richiesta finale dell’utente sostituisce le indicazioni precedenti: usare **Capitolo / Capitoli** nelle etichette del portale, navigazione, indice e crediti; gerarchia Area tematica → Capitolo → Sezione. Conservare URL storici (`articoli.html`), chiavi del manifest, sorgenti scientifici e documenti esclusi. Nessuna scritta sopra «Stringhe» nella home; sottotitolo blu in entrambi i temi. Modello corrente v21. L’utente ha autorizzato esplicitamente l’integrazione della PR #43 verso main e la pubblicazione tramite Pages; i precedenti vincoli di bozza sono superati. La pagina di confronto resta esclusa dal deployment ufficiale.
+La richiesta finale dell’utente sostituisce le indicazioni precedenti: usare **Capitolo / Capitoli** nelle etichette del portale, navigazione, indice e crediti; gerarchia Area tematica → Capitolo → Sezione. Conservare URL storici (`articoli.html`), chiavi del manifest, sorgenti scientifici e documenti esclusi. Nessuna scritta sopra «Stringhe» nella home; sottotitolo blu in entrambi i temi. Modello corrente v22. L’utente ha autorizzato esplicitamente l’integrazione della PR #43 verso main e la pubblicazione tramite Pages; i precedenti vincoli di bozza sono superati. La pagina di confronto resta esclusa dal deployment ufficiale.
 
 ## Comandi dei media — regola del 20 ottobre 2026
 

@@ -1,0 +1,61 @@
+[
+  {
+    "page": "home",
+    "width": 320,
+    "headerOnlyLanguageAndTheme": true,
+    "hoverTooltip": true,
+    "touchTooltip": true,
+    "keyboardTooltip": true,
+    "oneTapMenus": true,
+    "themePersists": true,
+    "tooltipFitsViewport": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "page": "home",
+    "width": 390,
+    "headerOnlyLanguageAndTheme": true,
+    "hoverTooltip": true,
+    "touchTooltip": true,
+    "keyboardTooltip": true,
+    "oneTapMenus": true,
+    "themePersists": true,
+    "tooltipFitsViewport": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "page": "home",
+    "width": 768,
+    "headerOnlyLanguageAndTheme": true,
+    "hoverTooltip": true,
+    "touchTooltip": true,
+    "keyboardTooltip": true,
+    "oneTapMenus": true,
+    "themePersists": true,
+    "tooltipFitsViewport": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "page": "home",
+    "width": 1440,
+    "headerOnlyLanguageAndTheme": true,
+    "hoverTooltip": true,
+    "touchTooltip": true,
+    "keyboardTooltip": true,
+    "oneTapMenus": true,
+    "themePersists": true,
+    "tooltipFitsViewport": true,
+    "overflow": false,
+    "errors": []
+  },
+  {
+    "page": "irraggiamento",
+    "width": 390,
+    "indexOneTap": true,
+    "zoomOneTap": true,
+    "touchTooltip": true
+  }
+]

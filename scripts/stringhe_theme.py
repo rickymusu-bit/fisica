@@ -91,6 +91,15 @@ def apply_theme(document):
     document = re.sub(r'<summary\b[^>]*class="index-toggle"[^>]*>[\s\S]*?</summary>',
                       lambda _: '<summary class="index-toggle" aria-label="Indice del capitolo" title="Indice del capitolo">' +
                       icon('index') + '<span class="nav-label">Indice</span><span class="index-close">' + icon('close') + '</span></summary>', document)
+    # Un solo menu Lingua/Tema aperto, anche senza JavaScript nei browser moderni.
+    def group_header_menu(match):
+        tag = match.group(0)
+        classes = re.search(r'class="([^"]*)"', tag)
+        is_language = classes and {'lang', 'string-lang'} & set(classes.group(1).split())
+        if ('data-theme-menu' in tag or is_language) and not re.search(r'\bname=', tag):
+            return tag[:-1] + ' name="stringhe-header-menu">'
+        return tag
+    document = re.sub(r'<details\b[^>]*>', group_header_menu, document)
     document = update_logo_components(document)
     # Impostazione strutturale anche senza JavaScript e nelle copie autonome.
     document = re.sub(r'(<html\b)([^>]*)(>)',

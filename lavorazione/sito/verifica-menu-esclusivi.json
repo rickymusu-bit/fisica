@@ -1,0 +1,50 @@
+[
+  {
+    "file": "index.html",
+    "width": 390,
+    "javaScript": true,
+    "mutuallyExclusiveBothDirections": true
+  },
+  {
+    "file": "irraggiamento_it.html",
+    "width": 390,
+    "javaScript": true,
+    "mutuallyExclusiveBothDirections": true
+  },
+  {
+    "file": "index.html",
+    "width": 1440,
+    "javaScript": true,
+    "mutuallyExclusiveBothDirections": true
+  },
+  {
+    "file": "irraggiamento_it.html",
+    "width": 1440,
+    "javaScript": true,
+    "mutuallyExclusiveBothDirections": true
+  },
+  {
+    "file": "index.html",
+    "width": 390,
+    "javaScript": false,
+    "mutuallyExclusiveBothDirections": true
+  },
+  {
+    "file": "irraggiamento_it.html",
+    "width": 390,
+    "javaScript": false,
+    "mutuallyExclusiveBothDirections": true
+  },
+  {
+    "file": "index.html",
+    "width": 1440,
+    "javaScript": false,
+    "mutuallyExclusiveBothDirections": true
+  },
+  {
+    "file": "irraggiamento_it.html",
+    "width": 1440,
+    "javaScript": false,
+    "mutuallyExclusiveBothDirections": true
+  }
+]
