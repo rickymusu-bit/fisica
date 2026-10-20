@@ -54,7 +54,7 @@
       document.documentElement.style.setProperty('--nav-height', bar.offsetHeight + 'px');
     }).observe(bar);
   }
-  // Suggerimenti comuni: nessun secondo tocco necessario per attivare un comando.
+  // Suggerimenti solo con hover di mouse o penna; nessun popup al tocco o focus.
   const tooltip = document.createElement('div');
   tooltip.id = 'function-tooltip';
   tooltip.className = 'function-tooltip';
@@ -62,36 +62,36 @@
   tooltip.hidden = true;
   document.body.append(tooltip);
   const controls = 'button,summary,[role="button"],.string-nav,.site-nav>a,.action,.download,.brand';
-  let current = null, timer, leaveTimer;
+  let current = null, leaveTimer;
   const controlAt = target => target instanceof Element ? target.closest(controls) : null;
+  // Evita i tooltip nativi anche sul touch. Il nome accessibile rimane in aria-label.
+  document.querySelectorAll(controls).forEach(control => {
+    if (control.hasAttribute('title')) {
+      control.dataset.functionName ||= control.getAttribute('title');
+      control.removeAttribute('title');
+    }
+  });
   function hideTip() {
-    clearTimeout(timer);
     clearTimeout(leaveTimer);
     if (current) {
-      const ids = (current.getAttribute('aria-describedby') || '').split(/\s+/).filter(id => id && id !== tooltip.id);
+      const ids = (current.getAttribute('aria-describedby') || '').split(/\\s+/).filter(id => id && id !== tooltip.id);
       if (ids.length) current.setAttribute('aria-describedby', ids.join(' '));
       else current.removeAttribute('aria-describedby');
     }
     current = null;
     tooltip.hidden = true;
   }
-  function showTip(control, touch = false) {
+  function showTip(control) {
     if (!control || control.disabled) return;
     hideTip();
-    const name = control.getAttribute('aria-label') || control.getAttribute('title') ||
-      control.dataset.functionName || control.querySelector('strong')?.textContent || control.textContent;
+    const name = control.getAttribute('aria-label') || control.dataset.functionName ||
+      control.querySelector('strong')?.textContent || control.textContent;
     if (!name?.trim()) return;
-    // Il title nativo rimane disponibile senza JavaScript; evitiamo due suggerimenti.
-    if (control.hasAttribute('title')) {
-      control.dataset.functionName = control.title;
-      control.removeAttribute('title');
-    }
     current = control;
-    tooltip.textContent = name.trim().replace(/\s+/g, ' ');
+    tooltip.textContent = name.trim().replace(/\\s+/g, ' ');
     control.setAttribute('aria-describedby', [control.getAttribute('aria-describedby'), tooltip.id].filter(Boolean).join(' '));
     tooltip.hidden = false;
     positionTip();
-    if (touch) timer = setTimeout(hideTip, 1800);
   }
   function positionTip() {
     if (!current || tooltip.hidden) return;
@@ -107,32 +107,18 @@
     tooltip.style.left = Math.max(8, Math.min(innerWidth - tip.width - 8, rect.left + (rect.width - tip.width) / 2)) + 'px';
     tooltip.style.top = Math.max(8, Math.min(innerHeight - tip.height - 8, top)) + 'px';
   }
-  // Dopo l’apertura nativa dei menu, il suggerimento si dispone sotto le opzioni.
-  document.addEventListener('click', () => { if (current) requestAnimationFrame(positionTip); });
   document.addEventListener('pointerover', event => {
-    if (event.pointerType === 'touch') return;
-    if (tooltip.contains(event.target)) { clearTimeout(leaveTimer); return; }
+    if (event.pointerType !== 'mouse' && event.pointerType !== 'pen') return;
     const control = controlAt(event.target);
     if (control && control !== current) showTip(control);
   });
   document.addEventListener('pointerout', event => {
-    if (!current || event.pointerType === 'touch') return;
-    if (current.contains(event.relatedTarget) || tooltip.contains(event.relatedTarget)) return;
+    if (!current || (event.pointerType !== 'mouse' && event.pointerType !== 'pen')) return;
+    if (current.contains(event.relatedTarget)) return;
     clearTimeout(leaveTimer);
     leaveTimer = setTimeout(hideTip, 120);
   });
-  document.addEventListener('pointerdown', event => {
-    const control = controlAt(event.target);
-    if (control && event.pointerType === 'touch') showTip(control, true);
-    else if (!control && !tooltip.contains(event.target)) hideTip();
-  });
-  document.addEventListener('focusin', event => {
-    const control = controlAt(event.target);
-    if (control?.matches(':focus-visible')) showTip(control);
-  });
-  document.addEventListener('focusout', event => {
-    if (event.target === current) hideTip();
-  });
+  document.addEventListener('pointerdown', hideTip);
   document.addEventListener('keydown', event => { if (event.key === 'Escape') hideTip(); });
   document.addEventListener('scroll', hideTip, {capture:true, passive:true});
   window.addEventListener('resize', hideTip);
