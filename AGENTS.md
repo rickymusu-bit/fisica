@@ -62,3 +62,7 @@ La build applica il tema condiviso tramite `scripts/strings_site.py`, senza aggi
 i sorgenti degli articoli sospesi. La denominazione precedente e il logo storico
 rimangono nei file già esistenti come materiale transitorio finché non sarà approvata
 una migrazione dei sorgenti; il sito pubblicato e i nuovi materiali usano Stringhe.
+
+## Incarico approvato — specifica Stringhe del 20 ottobre 2026
+
+Per il prossimo sviluppo del portale e del tema leggere **prima** `lavorazione/sito/PIANO_IMPLEMENTAZIONE_STRINGHE.md` insieme al master e allo stato: è la lista operativa di Codex per logo circolare originale, copertina casuale, bordi sinusoidali A/B, dark mode opzionale e quiz di verifica futuro. Essa recepisce le correzioni esplicite più recenti dell'utente rispetto alla precedente proposta di design. Conservare la PR in bozza e non pubblicare senza una nuova approvazione.
