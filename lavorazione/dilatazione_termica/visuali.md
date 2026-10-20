@@ -1,12 +1,12 @@
 # Visuali — La dilatazione termica
 
-Versione v11 — 20 ottobre 2026 (Europe/Rome).
+Versione v12 — 20 ottobre 2026 (Europe/Rome).
 
 ## Direzione concordata e proposta aggiornata
 
 Quinto articolo del [percorso approvato](../percorso_termodinamica.md), dopo Il bilancio termico e prima di Stati della materia.
 
-L'utente richiede di privilegiare applicazioni e conseguenze tecnologiche e quotidiane e di trattare il comportamento anomalo dell'acqua. Questa indicazione sostituisce l'impostazione precedente centrata sugli apparati di laboratorio. L'utente ha approvato la proposta v2 con «Approvo»: impostazione, sei casi e funzioni visuali sono concordati. La copertina COP-01 è ora scelta esplicitamente tramite il collegamento dell'utente; le altre immagini restano da fornire.
+L'utente richiede di privilegiare applicazioni e conseguenze tecnologiche e quotidiane e di trattare il comportamento anomalo dell'acqua. Questa indicazione sostituisce l'impostazione precedente centrata sugli apparati di laboratorio. L'utente ha approvato la proposta v2 con «Approvo»: impostazione, sei casi e funzioni visuali sono concordati. La copertina COP-01 è ora scelta esplicitamente tramite il collegamento dell'utente; ricevuti anche i collegamenti di FIG-01, FIG-02, FIG-04, FIG-05 e FIG-07, più la pagina di riferimento per FIG-03. Il termine ricevuti indica i collegamenti, non file binari scaricati.
 
 Domanda iniziale proposta: «Perché il caldo può deformare una struttura e, allo stesso tempo, far funzionare un termostato?».
 
@@ -35,11 +35,11 @@ L'utente cerca e fornisce file o collegamenti secondo C2. Nessuna ricerca o gene
 | --- | --- | --- |
 | COP-01 | Fotografia del Sydney Harbour Bridge durante una tempesta di polvere rossa, scelta sostitutiva del 20 ottobre 2026; dettagli sotto. | Copertina; non ripetuta né ritagliata per il testo. |
 | FIG-01 | Dettaglio riconoscibile di un giunto di dilatazione di un ponte. | Solo introduzione teorica: mostrare lo spazio disponibile per il movimento del ponte. |
-| FIG-02 | Termometro a liquido con bulbo, capillare e colonna visibili, preferibilmente ad alcool identificato dalla fonte. | Collegare aumento di volume e lettura della temperatura. |
+| FIG-02 | Termometro a mercurio scelto dall'utente: Mercury Thermometer.jpg. | Collegare aumento di volume e lettura della temperatura. |
 | FIG-03 | Schema illustrato già esistente di una lamina bimetallica o di un termostato bimetallico, con strati e contatto riconoscibili. | Spiegare la diversa dilatazione e il comando del circuito. |
 | FIG-04 | Barattolo di vetro con coperchio metallico, riconoscibile e senza una procedura pericolosa raffigurata. | Mostrare le due parti il cui riscaldamento relativo conta per l'apertura. |
-| FIG-05 | Sezione illustrata di un lago d'acqua dolce in inverno, con ghiaccio superficiale e temperature corrette negli strati liquidi. | Collegare densità, raffreddamento e formazione del ghiaccio in superficie. |
-| FIG-07 | Dettaglio di un binario ferroviario con giunto e spazio fra le estremità ben visibile. | Prima applicazione: collegare la variazione di lunghezza agli spazi del binario con giunti; distinguere nel testo le rotaie saldate continue. |
+| FIG-05 | Fotografia del lago Louise ghiacciato, scelta dall'utente; non mostra temperature o stratificazione interna. | Collegare densità, raffreddamento e formazione del ghiaccio in superficie. |
+| FIG-07 | Collegamento a un giunto ferroviario isolante ricevuto: foto di contesto, non prova di un giunto di dilatazione. | Prima applicazione: collegare la variazione di lunghezza agli spazi del binario con giunti; distinguere nel testo le rotaie saldate continue. |
 | FIG-06 | Fotografia di un tubo o recipiente danneggiato dal gelo, con causa documentata dalla fonte. | Mostrare una conseguenza del congelamento in condizioni di vincolo, senza dedurre la causa dalla sola rottura. |
 
 La proposta precedente di dilatometro e recipiente con tubicino non è più richiesta. Gli ID FIG-02 e FIG-03 sono stati riassegnati in questa v2; nessun materiale era stato ricevuto con gli ID precedenti.
@@ -81,15 +81,59 @@ La successiva richiesta «Ok allora non metterla» elimina la relazione fra α e
 - File binario non ancora scaricato o ispezionato: l'ambiente ha già mostrato indisponibilità del proxy HTTP; nessun peso o hash dichiarato. Percorso previsto `risorse/copertina-sydney.jpg`, da creare soltanto dopo il recupero effettivo. La descrizione qui riportata proviene dalla scheda, non da un'ispezione diretta.
 - Prossimo passo: recuperare lo stesso JPG o riceverlo allegato e verificarlo; trasferire i metadati nel registro unico durante l'integrazione. Non sostituire la versione scelta autonomamente.
 
-## Materiali ancora da fornire — elenco per l'utente
+## Materiali ricevuti il 20 ottobre 2026
 
-1. FIG-01: dettaglio di un giunto di dilatazione di un ponte, con lo spazio fra le parti ben visibile; solo teoria.
-2. FIG-07: dettaglio di un binario ferroviario con giunto e spazio fra le estremità delle rotaie.
-3. FIG-02: termometro a liquido, preferibilmente ad alcol, con bulbo, capillare e colonna ben visibili.
-4. FIG-03: schema illustrato di lamina o termostato bimetallico, con i due strati e il contatto riconoscibili, possibilmente a due temperature.
-5. FIG-04: barattolo di vetro con coperchio metallico.
-6. FIG-05: sezione illustrata di un lago d'acqua dolce ghiacciato in superficie, con temperature degli strati (circa 0 °C sotto il ghiaccio e circa 4 °C in profondità nel caso rappresentato).
-7. FIG-06: tubo o recipiente rotto dal gelo, con causa documentata dalla fonte.
-8. GRA-01: grafico o dati del volume di una massa fissa d'acqua liquida vicino a 0–10 °C, con minimo intorno a 4 °C e fonte verificabile. Questo è materiale di partenza per la ricostruzione del grafico, non una fotografia aggiuntiva.
+Tutti i seguenti collegamenti specifici sono scelte effettive dell'utente. Nessun file è stato sostituito autonomamente. Le informazioni descrittive e le licenze sono verificate sulle schede; non equivalgono a un'ispezione diretta delle immagini.
 
-Le due tabelle dei coefficienti sono già nella bozza: non servono immagini di tabelle. È possibile inviare i file o i collegamenti uno alla volta. Master corrente v69, modello v15 Stringhe; testo v7 approvato invariato, nessun HTML o pubblicazione avviati.
+### FIG-01 — Giunto del ponte Nishi-ōhashi
+
+- [Versione indicata dall'utente](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Nishi-%C5%8Dhashi_Bridge_the_expansion_joint_of_the_NE_end_Nakasu_4-ch%C5%8Dme_Hakata-ku_Fukuoka_20231219.jpg/960px-Nishi-%C5%8Dhashi_Bridge_the_expansion_joint_of_the_NE_end_Nakasu_4-ch%C5%8Dme_Hakata-ku_Fukuoka_20231219.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail); [fonte](https://commons.wikimedia.org/wiki/File:Nishi-%C5%8Dhashi_Bridge_the_expansion_joint_of_the_NE_end_Nakasu_4-ch%C5%8Dme_Hakata-ku_Fukuoka_20231219.jpg).
+- Autore Hirho; 19 dicembre 2023; CC BY-SA 4.0 International, https://creativecommons.org/licenses/by-sa/4.0/ .
+- Scheda: giunto di dilatazione all'estremità nord-est del ponte Nishi-ōhashi, Fukuoka. Uso nella teoria; copertina distinta.
+- Miniatura indicata a 960 px di larghezza; la scheda elenca 960 × 1280 px. File non scaricato, misure non verificate sui byte.
+
+### FIG-07 — Giunto ferroviario isolante
+
+- [Versione indicata dall'utente](https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Insulated_railway_track_joint_-_geograph.org.uk_-_6534543.jpg/960px-Insulated_railway_track_joint_-_geograph.org.uk_-_6534543.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail); [scheda Commons](https://commons.wikimedia.org/wiki/File:Insulated_railway_track_joint_-_geograph.org.uk_-_6534543.jpg); fonte fotografica https://www.geograph.org.uk/photo/6534543 .
+- Autore Thomas Nugent; 6 luglio 2020; CC BY-SA 2.0 Generic, https://creativecommons.org/licenses/by-sa/2.0/ . Attribuzione della fonte: “Insulated railway track joint by Thomas Nugent”.
+- Versione indicata 960 × 720 px secondo la scheda; file non scaricato.
+- Verifica decisiva sulla pagina Geograph: il giunto separa elettricamente sezioni di binario per il segnalamento; piastre laterali e inserto nel varco sono isolanti. Non descriverlo come un dispositivo la cui funzione sia consentire la dilatazione né attribuire al varco una libertà di movimento non documentata.
+- Conservare la scelta come fotografia di contesto con didascalia corretta. Per illustrare direttamente lo spazio di dilatazione della spiegazione serve un giunto ferroviario di dilatazione documentato, da fornire o scegliere dall'utente. Nessuna ricerca alternativa eseguita.
+
+### FIG-02 — Termometro a mercurio
+
+- [Versione indicata dall'utente](https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Mercury_Thermometer.jpg/960px-Mercury_Thermometer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail); [fonte](https://commons.wikimedia.org/wiki/File:Mercury_Thermometer.jpg).
+- Autore Anonimski; 19 novembre 2013; CC BY-SA 3.0 Unported, https://creativecommons.org/licenses/by-sa/3.0/ .
+- La scheda identifica un termometro a mercurio per la temperatura ambiente con scala Celsius. Adottare questa scelta, senza chiamarlo termometro ad alcol.
+- Il file originale corrente è 922 × 1990 px secondo la scheda ed è già ritagliato dall'autore (cronologia 20 novembre 2013). Il link ricevuto richiede 960 px, più della larghezza originale: non dichiarare dimensioni effettive finché non viene recuperato. Non sostituire autonomamente l'URL. Nessun nuovo ritaglio eseguito.
+
+### FIG-03 — Immagini dalla pagina Bimetallic strip
+
+L'utente indica https://en.wikipedia.org/wiki/Bimetallic_strip e chiede alcune immagini. Il catalogo immagini della pagina è stato verificato tramite API MediaWiki. Proposte pertinenti all'applicazione già approvata, da selezionare negli originali:
+- **FIG-03a, schema:** https://commons.wikimedia.org/wiki/File:Bimetallic_strip.svg . Autore ToobEZ, 19 giugno 2025, CC0 1.0 Universal, https://creativecommons.org/publicdomain/zero/1.0/ . Mostra l'effetto della temperatura su metalli separati e uniti; fonte descrittiva, file non ispezionato. Non ricostruire lo schema senza richiesta.
+- **FIG-03b, dispositivo reale:** https://commons.wikimedia.org/wiki/File:WPThermostat_new.jpg . Meccanismo di termostato domestico, elemento bimetallico contrassegnato con 2 secondo la scheda. Originale Leonard G.; derivazione Raeky, ulteriore modifica del colore della numerazione Splette (cronologia 2009). Usare l'opzione CC BY-SA 3.0 Unported, https://creativecommons.org/licenses/by-sa/3.0/ ; conservare anche la provenienza e gli avvisi delle licenze alternative documentate. Originale 512 × 512 px dichiarato.
+- I due file sono proposte identificate nella pagina fornita, non scelte puntuali già espresse dall'utente. Nessuna animazione aggiunta automaticamente. La GIF di riscaldamento con accendino presente nella pagina non è necessaria e non viene programmata né modificata.
+
+### FIG-04 — Barattoli di conserve
+
+- [Versione indicata dall'utente](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/PreservedFood1.jpg/960px-PreservedFood1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail); [scheda](https://commons.wikimedia.org/wiki/File:PreservedFood1.jpg); provenienza Library of Congress, identificativo fsac.1a35476, https://hdl.loc.gov/loc.pnp/fsac.1a35476 .
+- Autore individuale non identificato dalla scheda consultata: non attribuire la foto all'utente Commons che l'ha caricata. Fondo FSA/OWI, fra 1941 e 1945.
+- La scheda dichiara pubblico dominio negli Stati Uniti come opera federale FSA/OWI (PD-USGov-FSA); non trasformare la dichiarazione in CC0 o in una licenza CC.
+- Cronologia Commons: versione maggiore da TIFF Library of Congress e modifica dei livelli nel 2023. Nessuna elaborazione del progetto.
+- La scheda elenca miniatura a 960 × 1292 px. File non scaricato; verificare direttamente riconoscibilità di vetro e coperchi prima dell'impaginazione.
+
+### FIG-05 — Lago Louise ghiacciato
+
+- [File scelto](https://commons.wikimedia.org/wiki/File:A_frozen_Lake_Louise_-_Banff_-_panoramio.jpg); autore Jack Borno, 22 gennaio 2010; CC BY-SA 3.0 Unported, https://creativecommons.org/licenses/by-sa/3.0/ .
+- Provenienza Panoramio, foto 42551157, licenza confermata dal bot di trasferimento il 15 novembre 2016; archivio https://web.archive.org/web/20161017124826/http://www.panoramio.com/photo/42551157 .
+- L'utente indica la scheda, senza una risoluzione specifica. Originale massimo dichiarato 4288 × 2848 px, 8,34 MB dalla pagina: non confondere questi dati con un file già scaricato.
+- Usare come fotografia del fenomeno superficiale, non come sezione termica. Nessun valore di temperatura o profondità viene dedotto dalla foto. La spiegazione del lago resta un modello generale, non una misura effettuata al lago Louise nello scatto.
+- Una sezione illustrata resta solo un possibile supporto aggiuntivo, non già ricevuto o realizzato e non condizione automatica per accettare la foto scelta.
+
+## Stato dei file e punti aperti
+
+Download locale tuttora bloccato: tentativo di accesso alla pagina Wikipedia tramite curl fallito per connessione al proxy:8080. Consultate pagine e metadati via lettore web, ma nessun originale binario scaricato, decodificato, ispezionato o caricato nel ramo. Nessuna dimensione effettiva, impronta o anteprima inventata. Nessun ritaglio, ricampionamento, traduzione o elaborazione eseguiti. Conservare queste informazioni di provenienza e trasferirle nel registro unico al momento dell'integrazione secondo C1; nessun registro parallelo creato.
+
+Restano da ricevere: FIG-06 (danni da gelo), fonte o dati per GRA-01 (volume dell'acqua vicino a 4 °C). Per FIG-07 manca una foto che documenti direttamente un giunto di dilatazione; la foto isolante è conservata con funzione corretta. Per FIG-03 sono proposti schema e foto del termostato della pagina indicata, da scegliere prima dell'inserimento.
+
+Bozza v7 scientifica già approvata; aggiornamento v8 limitato ai segnaposto e alle didascalie per le scelte ricevute, senza modificare formule, applicazioni o domande. Le tabelle dei coefficienti restano in notazione scientifica e non richiedono immagini. Nessun via esplicito all'HTML o alla pubblicazione ricevuto.
