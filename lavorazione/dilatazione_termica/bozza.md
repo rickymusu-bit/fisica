@@ -1,7 +1,7 @@
 # La dilatazione termica
 
-Bozza v8 — 20 ottobre 2026 (Europe/Rome).
-Testo scientifico v7 approvato. Questa v8 aggiorna soltanto i segnaposto e le didascalie delle immagini indicate dall'utente, con provenienza in visuali.md. File binari e ulteriori materiali ancora da ricevere o recuperare.
+Bozza v9 — 20 ottobre 2026 (Europe/Rome).
+Testo scientifico v7 approvato. Questa v9 aggiorna i materiali scelti e aggiunge il grafico statico richiesto, con provenienza in visuali.md. File binari e ulteriori materiali ancora da ricevere o recuperare.
 
 [IMMAGINE COP-01 — SHB-Red-Dust.jpg, copertina scelta; originale binario da recuperare.]
 Didascalia: Il Sydney Harbour Bridge durante una tempesta di polvere rossa.
@@ -61,8 +61,9 @@ Il coefficiente dell'alcol etilico è circa cinque volte quello dell'acqua: vici
 
 L'acqua mette in difficoltà l'idea che raffreddare significhi sempre contrarre. A pressione atmosferica, il suo volume è minimo intorno a 4 °C. Raffreddandola da 4 °C verso 0 °C, mentre è ancora liquida, il volume aumenta; scaldandola da 0 °C a 4 °C, diminuisce.
 
-[GRAFICO GRA-01 — Volume di una stessa massa d'acqua liquida in funzione della temperatura T, con minimo intorno a 4 °C; fonte o dati da fornire. Nessuna curva numerica arbitraria.]
-Didascalia proposta: Intorno a 4 °C la stessa massa d'acqua liquida occupa il volume minore.
+![Volume di 1 kg d'acqua liquida fra 0 e 10 °C: la curva diminuisce fino a circa 4 °C, poi cresce. Scala verticale ingrandita, da 1000,00 a 1000,32 mL.](risorse/volume-acqua.svg)
+
+Didascalia: Intorno a 4 °C, 1 kg d'acqua liquida occupa il volume minore. La scala verticale ingrandita rende visibile la piccola variazione.
 
 Il comportamento dipende dai legami fra le molecole, che favoriscono organizzazioni più aperte alle basse temperature. A parità di massa, occupare meno volume significa avere una **densità maggiore**: per questo intorno a 4 °C l'acqua liquida raggiunge la densità massima. Al congelamento avviene un ulteriore aumento di volume, distinto dall'anomalia del liquido. Nel ghiaccio le molecole formano una struttura più aperta e il ghiaccio risulta meno denso dell'acqua liquida.
 
@@ -70,12 +71,14 @@ Il comportamento dipende dai legami fra le molecole, che favoriscono organizzazi
 
 ### Quando si scaldano i binari
 
-[IMMAGINE FIG-07 — Giunto ferroviario isolante, foto scelta di Thomas Nugent; file da recuperare. Per mostrare direttamente uno spazio di dilatazione occorre un'immagine documentata diversa, ancora da fornire.]
-Didascalia: Questo giunto separa elettricamente due sezioni di binario per il segnalamento.
+[IMMAGINE FIG-07 — Expansion joint, Hayle.jpg, giunto di dilatazione ferroviario scelto; originale da recuperare.]
+Didascalia: Il giunto di dilatazione di Hayle permette movimenti longitudinali delle rotaie.
 
 Le rotaie d'acciaio si riscaldano al Sole e tendono ad allungarsi. Nei binari formati da tratti collegati con giunti, gli spazi fra le estremità consentono una parte di questo movimento: quando le rotaie si allungano, gli spazi si riducono. La variazione dipende dalla lunghezza iniziale, dal materiale e dalla variazione di temperatura.
 
 Molte linee usano invece rotaie saldate continue. Qui la dilatazione è in gran parte ostacolata dai fissaggi alle traverse e dalla resistenza della massicciata, lo strato di pietre che sostiene il binario. Il riscaldamento può quindi far aumentare le forze di compressione nelle rotaie. Posa e manutenzione devono tenerne conto: se la compressione supera la capacità del binario di restare stabile, questo può deformarsi lateralmente.
+
+In punti particolari delle linee con rotaie saldate continue si impiegano anche appositi giunti di dilatazione, come quello della fotografia: le parti possono scorrere longitudinalmente per accompagnare i movimenti previsti.
 
 ### Trasformare un volume in una temperatura
 
@@ -115,8 +118,8 @@ Il ghiaccio galleggia e lo strato superficiale rallenta la perdita di calore del
 
 ### Quando il congelamento provoca danni
 
-[IMMAGINE FIG-06 — Tubo o recipiente danneggiato dal gelo; causa documentata dalla fonte.]
-Didascalia proposta: Il congelamento può produrre danni quando l'aumento di volume incontra un vincolo.
+[IMMAGINE FIG-06 — Collegamento scelto: https://i.redd.it/2jq40fxtax801.jpg . File non accessibile: contenuto, causa del danno e diritti ancora da verificare; non incorporare finché non esaminato.]
+Didascalia da definire dopo la verifica dell'immagine.
 
 Nel lago il ghiaccio può occupare spazio verso la superficie; dentro una tubazione o un recipiente rigido l'acqua può trovarsi invece confinata. Se non può espandersi liberamente, la formazione del ghiaccio può provocare pressioni elevate e danneggiare il contenitore.
 
@@ -156,4 +159,6 @@ Testo originale. Fonti consultate per controllo dei principi; trasferire i rifer
 
 - Network Rail, Buckled rail: https://www.networkrail.co.uk/rail-travel/delays-explained/buckled-rail-and-summer-heat/ . Controllo delle conseguenze del riscaldamento e della gestione delle rotaie saldate continue; nessuna immagine ripresa.
 
-Le scelte e le licenze documentate di COP-01, FIG-01, FIG-02, FIG-04, FIG-05 e FIG-07 e le proposte per FIG-03 sono conservate in [visuali.md](visuali.md), da trasferire al registro unico nell'HTML. Nessun file binario ancora scaricato o ispezionato. FIG-06 e il materiale di partenza per GRA-01 restano da ricevere. Le didascalie e le descrizioni saranno allineate agli originali. Il grafico non è stato realizzato e non contiene dati inventati.
+Le scelte e le licenze documentate di COP-01, FIG-01, FIG-02, FIG-04, FIG-05 e FIG-07 e le proposte per FIG-03 sono conservate in [visuali.md](visuali.md), da trasferire al registro unico nell'HTML. Nessun file binario ancora scaricato o ispezionato. FIG-06 è indicata tramite URL ma non ancora accessibile o verificata. GRA-01 è ora realizzato con dati di riferimento e script salvati. Le didascalie e le descrizioni saranno allineate agli originali. GRA-01 è una curva calcolata, non una nuova misura sperimentale, dalla relazione di densità raccomandata dal NIST.
+
+Fonte di servizio per GRA-01: NIST, Selected Procedures for Volumetric Calibrations (2019), GLP 10 §6.1, https://doi.org/10.6028/NIST.IR.7383-2019 . Relazione di Tanaka et al. (2001) per acqua pura priva di aria disciolta alla pressione di riferimento 101325 Pa. Conversione V=m/ρ con massa fissa 1 kg; dati CSV e generatore in risorse/. Fonte fotografica per FIG-07: Rwendland, Expansion joint, Hayle, https://commons.wikimedia.org/wiki/File:Expansion_joint,_Hayle.jpg , CC BY-SA 3.0. Per FIG-06 mancano post originale, autore e autorizzazione documentata.

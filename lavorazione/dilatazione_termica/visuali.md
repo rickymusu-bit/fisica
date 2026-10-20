@@ -1,6 +1,6 @@
 # Visuali — La dilatazione termica
 
-Versione v12 — 20 ottobre 2026 (Europe/Rome).
+Versione v13 — 20 ottobre 2026 (Europe/Rome).
 
 ## Direzione concordata e proposta aggiornata
 
@@ -92,13 +92,14 @@ Tutti i seguenti collegamenti specifici sono scelte effettive dell'utente. Nessu
 - Scheda: giunto di dilatazione all'estremità nord-est del ponte Nishi-ōhashi, Fukuoka. Uso nella teoria; copertina distinta.
 - Miniatura indicata a 960 px di larghezza; la scheda elenca 960 × 1280 px. File non scaricato, misure non verificate sui byte.
 
-### FIG-07 — Giunto ferroviario isolante
+### FIG-07 — Giunto di dilatazione ferroviario a Hayle, scelta corrente
 
-- [Versione indicata dall'utente](https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Insulated_railway_track_joint_-_geograph.org.uk_-_6534543.jpg/960px-Insulated_railway_track_joint_-_geograph.org.uk_-_6534543.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail); [scheda Commons](https://commons.wikimedia.org/wiki/File:Insulated_railway_track_joint_-_geograph.org.uk_-_6534543.jpg); fonte fotografica https://www.geograph.org.uk/photo/6534543 .
-- Autore Thomas Nugent; 6 luglio 2020; CC BY-SA 2.0 Generic, https://creativecommons.org/licenses/by-sa/2.0/ . Attribuzione della fonte: “Insulated railway track joint by Thomas Nugent”.
-- Versione indicata 960 × 720 px secondo la scheda; file non scaricato.
-- Verifica decisiva sulla pagina Geograph: il giunto separa elettricamente sezioni di binario per il segnalamento; piastre laterali e inserto nel varco sono isolanti. Non descriverlo come un dispositivo la cui funzione sia consentire la dilatazione né attribuire al varco una libertà di movimento non documentata.
-- Conservare la scelta come fotografia di contesto con didascalia corretta. Per illustrare direttamente lo spazio di dilatazione della spiegazione serve un giunto ferroviario di dilatazione documentato, da fornire o scegliere dall'utente. Nessuna ricerca alternativa eseguita.
+- Sostituzione esplicita del giunto isolante con [l'originale indicato dall'utente](https://upload.wikimedia.org/wikipedia/commons/a/a6/Expansion_joint%2C_Hayle.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original).
+- Fonte https://commons.wikimedia.org/wiki/File:Expansion_joint,_Hayle.jpg ; autore Rwendland, 11 agosto 2011; CC BY-SA 3.0 Unported, https://creativecommons.org/licenses/by-sa/3.0/ .
+- La scheda documenta un giunto di dilatazione in rotaie saldate continue presso la stazione di Hayle, vicino all'inizio del viadotto, binario verso Penzance. La scelta risolve l'inadeguatezza del giunto isolante precedente.
+- Dimensioni originali dichiarate dalla fonte 3072 × 2304 px; 4823306 byte dichiarati da Commons, non misurati localmente. File binario non ancora recuperato; nessuna ispezione diretta o modifica.
+- La precedente foto isolante è superata e non deve comparire nell'articolo finale; provenienza conservata nella cronologia Git. Non riprendere la didascalia sull'isolamento elettrico.
+- Didascalia aggiornata: «Il giunto di dilatazione di Hayle permette movimenti longitudinali delle rotaie.» La spiegazione distingue i binari con giunti dalle rotaie saldate continue e dai punti dotati di appositi dispositivi di dilatazione.
 
 ### FIG-02 — Termometro a mercurio
 
@@ -130,10 +131,27 @@ L'utente indica https://en.wikipedia.org/wiki/Bimetallic_strip e chiede alcune i
 - Usare come fotografia del fenomeno superficiale, non come sezione termica. Nessun valore di temperatura o profondità viene dedotto dalla foto. La spiegazione del lago resta un modello generale, non una misura effettuata al lago Louise nello scatto.
 - Una sezione illustrata resta solo un possibile supporto aggiuntivo, non già ricevuto o realizzato e non condizione automatica per accettare la foto scelta.
 
-## Stato dei file e punti aperti
+## FIG-06 — Collegamento Reddit scelto, verifiche pendenti
 
-Download locale tuttora bloccato: tentativo di accesso alla pagina Wikipedia tramite curl fallito per connessione al proxy:8080. Consultate pagine e metadati via lettore web, ma nessun originale binario scaricato, decodificato, ispezionato o caricato nel ramo. Nessuna dimensione effettiva, impronta o anteprima inventata. Nessun ritaglio, ricampionamento, traduzione o elaborazione eseguiti. Conservare queste informazioni di provenienza e trasferirle nel registro unico al momento dell'integrazione secondo C1; nessun registro parallelo creato.
+- L'utente fornisce https://i.redd.it/2jq40fxtax801.jpg nel contesto dell'immagine sui danni da gelo. Scelta del collegamento registrata; non dedurre il contenuto dal contesto.
+- Apertura del JPEG via web non riuscita; download locale con curl fallito per connessione al proxy:8080. Nessun file salvato, decodificato, osservato o incorporato.
+- Autore, post originale, licenza e causa del danno non documentati; non dedurre una licenza libera dall'accessibilità su Reddit né attribuire con certezza la scena al congelamento. Richiedere il collegamento al post originale e l'eventuale autorizzazione dell'autore; allegato utile anche per l'ispezione.
+- Conservare l'URL e le verifiche mancanti nei crediti di servizio; non inventare attribuzioni o descrizioni e non sostituire autonomamente.
 
-Restano da ricevere: FIG-06 (danni da gelo), fonte o dati per GRA-01 (volume dell'acqua vicino a 4 °C). Per FIG-07 manca una foto che documenti direttamente un giunto di dilatazione; la foto isolante è conservata con funzione corretta. Per FIG-03 sono proposti schema e foto del termostato della pagina indicata, da scegliere prima dell'inserimento.
+## GRA-01 — Grafico ricavato dai dati di densità, realizzato su richiesta esplicita
 
-Bozza v7 scientifica già approvata; aggiornamento v8 limitato ai segnaposto e alle didascalie per le scelte ricevute, senza modificare formule, applicazioni o domande. Le tabelle dei coefficienti restano in notazione scientifica e non richiedono immagini. Nessun via esplicito all'HTML o alla pubblicazione ricevuto.
+L'utente richiede: «Per il grafico costruiscilo tu a partire dai dati i dati sulla densità dell'acqua in funzione della temperatura». Questo autorizza direttamente il grafico statico, senza estendere il via all'HTML completo.
+
+- File creati e verificati: [volume-acqua.svg](risorse/volume-acqua.svg), [dati CSV](risorse/acqua-densita-volume.csv) e [script riproducibile](risorse/grafico_acqua.py). Anteprima PNG locale per ispezione; nessuna immagine esterna usata per il grafico.
+- Fonte primaria: NISTIR 7383, Selected Procedures for Volumetric Calibrations (2019), GLP 10 §6.1, pagina stampata 4, pagina PDF 13. https://doi.org/10.6028/NIST.IR.7383-2019 ; PDF https://nvlpubs.nist.gov/nistpubs/ir/2019/NIST.IR.7383-2019.pdf . Relazione di Tanaka et al., Metrologia 38 (2001), 301–309.
+- Densità di acqua pura priva di aria disciolta alla pressione di riferimento di 101325 Pa, relazione valida fra 0 e 40 °C. Qui solo 0–10 °C; nessuna correzione per salinità o aria disciolta.
+- Generati dati di riferimento dalla relazione raccomandata, non misure sperimentali nuove: rho(T)=999.974950*(1-((T-3.983035)^2*(T+301.797))/(522528.9*(T+69.34881))), in kg/m³. T in °C.
+- Conversione per massa fissa di 1 kg: V=m/rho, espresso in mL come V=1000000/rho. Asse orizzontale T (°C), 0–10; asse verticale volume (mL), 1000,00–1000,32, con indicazione esplicita della scala ingrandita che non parte da zero.
+- CSV a passo 0,05 °C più il punto del minimo 3,983035 °C; curva non simmetrica calcolata dalla fonte, non parabola inventata. Minimo indicato al lettore come «intorno a 4 °C». Nessun ghiaccio sulla curva.
+- Controlli numerici: a 10 °C rho=999,702701629 kg/m³, coerente con 999,70270 del prospetto NIST. Volume circa 1000,1572 mL a 0 °C, 1000,0251 mL al minimo e 1000,2974 mL a 10 °C. Controllate diminuzione prima del minimo, crescita dopo, unità e conversioni.
+- Anteprima ispezionata direttamente, senza sovrapposizioni o etichette tagliate. Grafico scientifico autonomo; font provvisorio DejaVu Sans nella sorgente Matplotlib, da allineare al font incorporato del modello v15 nell'HTML finale senza cambiare dati o composizione. Stessa struttura su mobile con ingrandimento canonico.
+- Fonti nei metadati e nei crediti di servizio, non nella didascalia rivolta agli studenti. Didascalia aggiornata alla massa di 1 kg e al minimo del volume.
+
+## Stato corrente e prossima fase
+
+Giunto ferroviario Hayle scelto e provenienza verificata; collegamento Reddit registrato con ispezione e diritti pendenti. Nessun file fotografico esterno scaricato per il problema del proxy. Grafico statico realizzato e salvato su richiesta, con dati e generatore. Bozza v9 aggiorna i rimandi e le didascalie; la sola precisazione aggiunta ai binari collega la foto al giunto specifico nelle rotaie continue. Testo scientifico v7 approvato conservato nel resto; due tabelle e 12 domande invariate. Resta da completare la scelta puntuale FIG-03 dalla pagina indicata. Nessun via generale all'HTML o alla pubblicazione ricevuto.

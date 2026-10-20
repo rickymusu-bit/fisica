@@ -1,6 +1,6 @@
 # Stato — La dilatazione termica
 
-Versione v13 — 20 ottobre 2026 (Europe/Rome).
+Versione v14 — 20 ottobre 2026 (Europe/Rome).
 
 ## Identità e fase
 
@@ -91,3 +91,13 @@ Verifica scientifica decisiva: la fonte primaria Geograph del giunto ferroviario
 Bozza v8 aggiorna soltanto segnaposto e didascalie alle scelte, più il riferimento di servizio alle provenienze; testo scientifico v7 approvato, formule e 12 domande conservati. Nessuna relazione alfa-beta reintrodotta. Nessuna ricerca di immagini alternative autonoma.
 
 Limite di accesso confermato da curl sulla pagina indicata: il proxy:8080 non è raggiungibile. Nessun file binario recuperato, ispezionato o salvato, nessuna impronta o dimensione effettiva inventata. Metadati consultati via web; non dichiarare conclusa l'integrazione. Materiali mancanti: danni da gelo FIG-06, fonte/dati GRA-01; chiarire FIG-07 e completare la scelta FIG-03. Nessun via esplicito all'HTML o alla pubblicazione. Verificare i tre file salvati da remoto prima della consegna.
+
+## Giunto Hayle, immagine Reddit e grafico richiesti
+
+L'utente sceglie l'originale Expansion_joint,_Hayle.jpg in sostituzione del giunto isolante: la scheda Commons documenta un giunto di dilatazione in rotaie continue presso la stazione di Hayle; Rwendland, 2011, CC BY-SA 3.0. Foto precedente superata; aggiornata la didascalia e aggiunta una breve frase che collega il dispositivo specifico alla spiegazione delle rotaie continue. Nessuna nuova immagine cercata.
+
+FIG-06: scelto URL i.redd.it/2jq40fxtax801.jpg. Apertura web e download curl non riusciti (proxy non raggiungibile). Non dedurre il contenuto, la causa del danno o diritti dalla sola richiesta: chiedere post originale, eventuale autorizzazione e file per ispezione. Non incorporato.
+
+Richiesta esplicita di costruire il grafico dalla densità: autorizzazione diretta per GRA-01, non per l'HTML completo. Creati SVG, CSV e script Python in risorse/, con relazione NIST GLP 10 §6.1 (2019)/Tanaka per acqua pura air-free a 101325 Pa. Grafico del volume di 1 kg da 0 a 10 °C, minimo 3,983035 °C, scala verticale ingrandita dichiarata. Confronto numerico con il dato NIST a 10 °C, conversione V=m/rho, monotonia e punto minimo verificati. Anteprima PNG osservata; nessun testo tagliato o sovrapposto. Dati di riferimento calcolati, non nuove misure. Nessuna simulazione aggiunta. Font dell'anteprima DejaVu Sans, da integrare col font canonico nella fase HTML.
+
+Bozza v9 e visuali v13 aggiornate. Preservati testo approvato nel resto, tabelle scientifiche, 12 domande e assenza della relazione alfa-beta. Resta la scelta puntuale FIG-03 e il recupero dei file esterni. Nessun via generale all'HTML o pubblicazione. Verificare il commit remoto e i sei file prima della consegna.
