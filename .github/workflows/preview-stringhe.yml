@@ -5,6 +5,7 @@ on:
     branches:
       - design/stringhe-portale
       - design/menu-tema-lettura-continua
+      - design/curva-gradiente-colori
       - design/novita-tema-switch
       - fix/contrasto-schemi-dark
       - fix/barra-mobile-curva

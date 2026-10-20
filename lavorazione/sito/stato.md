@@ -1,5 +1,11 @@
 # Stato — Home e GitHub Pages
 
+## Revisione corrente — curva dal blu al rosso
+
+L’utente ha approvato esplicitamente l’anteprima del menu e della superficie continua (PR #48). L’approvazione riguarda il codice mostrato nell’anteprima d9ac702; il successivo commit b1bf399 aggiorna soltanto lo stato. La nuova richiesta è dare ai cinque tratti della curva e ai rispettivi tasti colori distinti, dal blu del ghiaccio al rosso del vapore. Questa aggiunta richiede una nuova anteprima: non è inclusa nell’approvazione precedente e non viene pubblicata prima della relativa conferma.
+
+Ramo `design/curva-gradiente-colori`: palette blu, indaco, viola, fucsia, rosso; colori sempre visibili sui cinque tratti e sui tasti. Selezione indicata anche dal maggiore spessore del tratto e dal bordo del tasto. Colori definiti una sola volta nel tema; geometria, valori e testi scientifici invariati. Modello v20. Allineamento del tema, crediti, build e dodici test superati. Browser verificato su 150 combinazioni pagina/viewport/tema; confermati cinque colori distinti e identici tra tasti e tratti, testo bianco con contrasto minimo 4,5:1, selezione da tastiera e senza JavaScript, 50 selezioni senza salti. Schermate del grafico in chiaro/scuro su mobile/desktop. Preparazione della nuova PR in bozza e dell’anteprima. La sola versione già approvata della PR #48 è stata integrata in main al commit 273c88a; Pages 39431956518 riuscito; verificati 39 file pubblici identici alla build approvata e 12 indirizzi esclusi con risposta 404.
+
 ## Revisione corrente — menu tema, lettura continua e approvazione obbligatoria
 
 Richiesta esplicita: sostituire il toggle con un menu Chiaro/Scuro con luna o sole; eliminare la separazione tra copertina e corpo; attendere sempre l’approvazione dell’anteprima prima di pubblicare. Precisazione successiva: lingua e tema allineati agli altri comandi. Regola persistente registrata in testa ad AGENTS e in B5 del master v69.1: nessun merge o Pages senza l’approvazione di questa specifica anteprima. Le autorizzazioni storiche non valgono per revisioni successive. PR da mantenere in bozza; soltanto anteprima sul ramo isolato stringhe-preview.

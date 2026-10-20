@@ -117,6 +117,19 @@ def main():
                         assert abs(page.evaluate('scrollY')-before)<2, (width,theme,segment)
                         assert page.locator(f'#curve-description-{segment}').is_visible()
                         assert page.locator('.curve-description:visible').count()==1
+                        palette=page.locator('.heating-curve').evaluate('figure=>[1,2,3,4,5].map(n=>{const button=figure.querySelector(`label[for="curve-choice-${n}"]`);return {button:getComputedStyle(button).backgroundColor,ink:getComputedStyle(button).color,wide:getComputedStyle(figure.querySelector(`#seg-${n}`)).stroke,mobile:getComputedStyle(figure.querySelector(`#seg-mobile-${n}`)).stroke}})')
+                        assert len({c['button'] for c in palette})==5
+                        for colors in palette:
+                            assert colors['button']==colors['wide']==colors['mobile'], (width,theme,colors)
+                            assert colors['ink']=='rgb(255, 255, 255)'
+                            # Il testo bianco deve restare leggibile sui cinque riempimenti.
+                            rgb=[int(v) / 255 for v in colors['button'][4:-1].split(',')]
+                            linear=[v/12.92 if v<=.04045 else ((v+.055)/1.055)**2.4 for v in rgb]
+                            luminance=sum(a*b for a,b in zip(linear,[.2126,.7152,.0722]))
+                            assert 1.05/(luminance+.05)>=4.5, colors
+                        selected=page.locator(f'#seg-{segment}').evaluate('(e)=>getComputedStyle(e).strokeWidth')
+                        assert selected=='8px'
+
                     # Anche la selezione nativa da tastiera mantiene il grafico fermo.
                     page.locator('#curve-choice-1').focus()
                     before=page.evaluate('scrollY')
@@ -126,6 +139,12 @@ def main():
                     if width in [390,1440]:
                         page.locator('.curve-controls').screenshot(path=str(SHOTS/f'curva-comandi-{width}-{theme}.png'))
                         page.locator('.topbar').screenshot(path=str(SHOTS/f'barra-capitolo-{width}-{theme}.png'))
+            # Anteprima del grafico completo, nei due temi e nelle due impaginazioni.
+            for width in [390,1440]:
+                page.set_viewport_size({'width':width,'height':1500})
+                for theme in ['light','dark']:
+                    page.goto(base+'passaggi_di_stato.html');set_theme(page,theme)
+                    page.locator('.heating-curve').screenshot(path=str(SHOTS/f'curva-gradiente-{width}-{theme}.png'))
             # Home: una sola card senza onde; foto sotto al titolo su mobile.
             def verify_cover_layout(width):
                 boxes = page.locator('.home-intro').evaluate("""card=>{

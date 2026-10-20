@@ -17,7 +17,7 @@ Il test conserva l’impronta SHA-256 della sequenza nera già approvata e verif
 
 `python3 scripts/logo_materia_oscura.py` rigenera lo SVG. `python3 scripts/logo_materia_oscura.py --gif` rigenera anche la GIF; l’esportazione usa Chromium/Playwright e Pillow, senza dipendenze aggiuntive per il sito.
 
-`scripts/stringhe_theme.py` incorpora lo stesso SVG nella home, nel modello v19 e nelle sole nove copie pubblicabili. `scripts/sync_stringhe_theme.py` allinea modello, confronto e pagina crediti; il registro aggiorna l’inventario del nuovo SVG del modello. Non riscrivere i sorgenti degli articoli, sospesi compresi. Il logo precedente e il riferimento originale dell’utente restano recuperabili in Git e in `lavorazione/sito/risorse-originali/`.
+`scripts/stringhe_theme.py` incorpora lo stesso SVG nella home, nel modello v20 e nelle sole nove copie pubblicabili. `scripts/sync_stringhe_theme.py` allinea modello, confronto e pagina crediti; il registro aggiorna l’inventario del nuovo SVG del modello. Non riscrivere i sorgenti degli articoli, sospesi compresi. Il logo precedente e il riferimento originale dell’utente restano recuperabili in Git e in `lavorazione/sito/risorse-originali/`.
 
 Nella home il logo accompagna il titolo in un’unica card condivisa con la copertina fotografica, senza onde laterali. Su mobile la foto è sotto al titolo; su desktop è affiancata. Il contenitore della didascalia ha la stessa larghezza dell’immagine, così il suo bordo sinistro coincide sempre con quello della fotografia, senza ritagli né bande interne. Restano le altre scelte approvate: reticolo regolare e sinusoidi verticali di uguale ampiezza.
 
