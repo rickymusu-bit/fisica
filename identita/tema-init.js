@@ -9,6 +9,7 @@
     root.dataset.theme = preference;
     document.querySelectorAll('[data-theme-toggle]').forEach(button => {
       button.setAttribute('aria-checked', String(preference === 'dark'));
+      button.title = preference === 'dark' ? 'Passa al tema chiaro' : 'Passa al tema scuro';
       button.querySelector('[data-theme-label]').textContent = preference === 'dark' ? 'Scuro' : 'Chiaro';
     });
   }

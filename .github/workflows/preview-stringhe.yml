@@ -6,6 +6,7 @@ on:
       - design/stringhe-portale
       - design/novita-tema-switch
       - fix/contrasto-schemi-dark
+      - fix/barra-mobile-curva
     paths:
       - '.github/workflows/preview-stringhe.yml'
       - 'scripts/**'

@@ -24,7 +24,9 @@ class PublicationTests(unittest.TestCase):
                 published_science = re.sub(r'<nav[^>]*class="bottom-links"[^>]*>[\s\S]*?</nav>', '', published_science)
                 self.assertTrue(scientific_content == published_science, f'Contenuto scientifico alterato: {name}')
                 self.assertEqual(re.findall(r'<img\b[^>]*>', source), re.findall(r'<img\b[^>]*>', published))
-                without_logo = lambda text: re.sub(r'<button\b[^>]*data-logo-toggle[^>]*>[\s\S]*?</button>', '', text)
+                def without_logo(text):
+                    text = re.sub(r'<button\b[^>]*data-logo-toggle[^>]*>[\s\S]*?</button>', '', text)
+                    return re.sub(r'<svg\b[^>]*data-ui-icon[^>]*>[\s\S]*?</svg>', '', text)
                 self.assertEqual(re.findall(r'<path\b[^>]*>', without_logo(source)), re.findall(r'<path\b[^>]*>', without_logo(published)))
                 self.assertEqual(published.count('data-stringhe-theme'), 1)
                 self.assertEqual(published.count('data-theme-toggle'), 3)  # markup e due script comuni

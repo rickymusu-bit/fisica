@@ -795,5 +795,16 @@
     "zoom",
     "crediti",
     "download identico"
-  ]
+  ],
+  "barra_capitoli": {
+    "comandi": 6,
+    "righe": 1,
+    "bersaglio_minimo_px": 44
+  },
+  "curva_riscaldamento": {
+    "selezioni_touch": 50,
+    "prove_tastiera": 10,
+    "fallback_senza_javascript": 2,
+    "salti_di_scorrimento": false
+  }
 }

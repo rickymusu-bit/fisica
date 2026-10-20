@@ -4,7 +4,7 @@ from html.parser import HTMLParser
 from datetime import date
 import json
 import re
-from stringhe_theme import apply_theme, theme_control, logo, logo_script, ROOT
+from stringhe_theme import apply_theme, theme_control, logo, logo_script, ROOT, icon
 
 BASE = "./"
 
@@ -260,10 +260,10 @@ def enhance_article(document, filename):
     document = document.replace('<a href="#inizio">Fisica</a>', '<a href="#inizio">Stringhe</a>', 1)
     document = re.sub(r'(<nav[^>]*class="top-links"[^>]*>)<a[^>]*>\s*← (?:Articoli|Capitoli)\s*</a>', r'\1', document, count=1)
     controls = ('<!-- stringhe-navigation:start -->'
-                '<a class="string-nav" href="index.html" data-site-path="index.html">⌂ Home</a>'
-                '<a class="string-nav" href="articoli.html" data-site-path="articoli.html">← Articoli</a>'
-                f'<a class="string-nav" href="{e(filename)}" download="{e(filename)}">↓ Scarica</a>'
-                '<details class="string-lang"><summary aria-label="Seleziona lingua">IT ▾</summary>'
+                f'<a class="string-nav" href="index.html" data-site-path="index.html" aria-label="Home" title="Home">{icon("home")}<span class="nav-label">Home</span></a>'
+                f'<a class="string-nav" href="articoli.html" data-site-path="articoli.html" aria-label="Tutti i capitoli" title="Tutti i capitoli">{icon("books")}<span class="nav-label">Capitoli</span></a>'
+                f'<a class="string-nav" href="{e(filename)}" download="{e(filename)}" aria-label="Scarica il capitolo" title="Scarica il capitolo">{icon("download")}<span class="nav-label">Scarica</span></a>'
+                f'<details class="string-lang"><summary aria-label="Seleziona lingua" title="Lingua: Italiano">{icon("language")}<span class="nav-label">Lingua</span></summary>'
                 f'<div class="string-languages" lang="it">✓ Italiano</div></details>{theme_control()}<!-- stringhe-navigation:end -->')
     # Gli articoli hanno piccole variazioni negli attributi del nav.
     # Individua l'elemento dalla classe, senza dipendere dall'aria-label esatta.

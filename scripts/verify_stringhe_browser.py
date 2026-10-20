@@ -83,7 +83,37 @@ def main():
                                 assert arrow.evaluate('(e)=>getComputedStyle(e,":before").color') == 'rgb(32, 38, 55)'
                             if width in [390, 1440]:
                                 model.locator('.model-path').screenshot(path=str(SHOTS/f'schema-{Path(name).stem}-{width}-{theme}.png'))
+                        if page.locator('.topbar .top-links').count():
+                            controls = page.locator('.topbar .top-links').evaluate('(nav)=>[...nav.children].map(e=>e.getBoundingClientRect().toJSON())')
+                            assert len(controls) == 6, name
+                            assert max(r['top'] for r in controls) - min(r['top'] for r in controls) < 1, (name, width, controls)
+                            assert all(r['width'] >= 44 and r['height'] >= 44 for r in controls), (name, width, controls)
                         checks.append([name, width, theme])
+            # Selezionare i tratti non deve cambiare la posizione della pagina.
+            page.goto(base+'passaggi_di_stato.html')
+            for width in [320,390,768,1024,1440]:
+                page.set_viewport_size({'width':width,'height':900})
+                for theme in ['light','dark']:
+                    set_theme(page,theme)
+                    for segment in [5,1,4,2,3]:
+                        label=page.locator(f'.curve-controls label[for="curve-choice-{segment}"]')
+                        label.evaluate('(e)=>e.scrollIntoView({block:"center",behavior:"instant"})')
+                        before=page.evaluate('scrollY')
+                        label.tap()
+                        page.wait_for_function('(n)=>document.getElementById("curve-choice-"+n).checked',arg=segment)
+                        page.wait_for_timeout(80)
+                        assert abs(page.evaluate('scrollY')-before)<2, (width,theme,segment)
+                        assert page.locator(f'#curve-description-{segment}').is_visible()
+                        assert page.locator('.curve-description:visible').count()==1
+                    # Anche la selezione nativa da tastiera mantiene il grafico fermo.
+                    page.locator('#curve-choice-1').focus()
+                    before=page.evaluate('scrollY')
+                    page.keyboard.press('ArrowRight')
+                    assert page.locator('#curve-choice-2').is_checked()
+                    assert abs(page.evaluate('scrollY')-before)<2
+                    if width in [390,1440]:
+                        page.locator('.curve-controls').screenshot(path=str(SHOTS/f'curva-comandi-{width}-{theme}.png'))
+                        page.locator('.topbar').screenshot(path=str(SHOTS/f'barra-capitolo-{width}-{theme}.png'))
             # Home: una sola card senza onde; foto sotto al titolo su mobile.
             def verify_cover_layout(width):
                 boxes = page.locator('.home-intro').evaluate("""card=>{
@@ -230,6 +260,12 @@ def main():
                 assert plain.locator('#random-cover').get_attribute('src') == covers[0]['src']
                 assert plain.locator('#random-cover').evaluate('(img)=>img.complete && img.naturalWidth>0')
                 assert plain.locator('body').evaluate('(e)=>getComputedStyle(e).color') == 'rgb(240, 242, 248)'
+                plain.goto(base+'passaggi_di_stato.html')
+                choice=plain.locator('.curve-controls label[for="curve-choice-4"]')
+                choice.evaluate('(e)=>e.scrollIntoView({block:"center",behavior:"instant"})')
+                before=plain.evaluate('scrollY');choice.click()
+                assert plain.locator('#curve-choice-4').is_checked()
+                assert abs(plain.evaluate('scrollY')-before)<2
                 plain.goto(base+publication['articoli'][0])
                 plain.locator('[data-offline-credits]').click()
                 assert plain.locator('#crediti-autonomi').is_visible()
@@ -280,7 +316,7 @@ def main():
         server.shutdown()
         (SITE / 'modello-dispense.html').unlink(missing_ok=True)
     assert not errors, errors
-    report = {'viewport_tema_pagina':checks,'errori_javascript':errors,'copertine_verificate':len(covers),'home':{'card':'unica per titolo, logo e copertina; senza onde laterali','mobile':'foto sotto al titolo','desktop':'foto affiancata','layout_copertine_verificati':100,'didascalia':'bordo sinistro e larghezza coincidenti con la foto; proporzioni conservate'},'logo':{'curve':2,'fase':'opposizione','periodo_secondi':4,'animazione_nera':'impronta originale conservata','pausa':'entrambe le curve sincronizzate'},'laterali':{'viewport':[320,390,768,1024,1440],'temi':['light','dark'],'curve':'stessa ampiezza; periodo invariato; 24 px per fascia; nessun overflow'},
+    report = {'barra_capitoli':{'comandi':6,'righe':1,'bersaglio_minimo_px':44},'curva_riscaldamento':{'selezioni_touch':50,'prove_tastiera':10,'fallback_senza_javascript':2,'salti_di_scorrimento':False},'viewport_tema_pagina':checks,'errori_javascript':errors,'copertine_verificate':len(covers),'home':{'card':'unica per titolo, logo e copertina; senza onde laterali','mobile':'foto sotto al titolo','desktop':'foto affiancata','layout_copertine_verificati':100,'didascalia':'bordo sinistro e larghezza coincidenti con la foto; proporzioni conservate'},'logo':{'curve':2,'fase':'opposizione','periodo_secondi':4,'animazione_nera':'impronta originale conservata','pausa':'entrambe le curve sincronizzate'},'laterali':{'viewport':[320,390,768,1024,1440],'temi':['light','dark'],'curve':'stessa ampiezza; periodo invariato; 24 px per fascia; nessun overflow'},
               'offline':offline_status,'browser':'Chromium; mobile e touch emulati, nessun dispositivo Android fisico',
               'controlli':['persistenza','default scuro indipendente dal sistema e switch tastiera','storage bloccato','senza JavaScript','logo e movimento ridotto','ricerca e filtro','indice tastiera','note','zoom','crediti','download identico']}
     (ROOT/'lavorazione/sito/verifica-stringhe.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
