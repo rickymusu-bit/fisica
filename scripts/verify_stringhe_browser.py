@@ -47,6 +47,8 @@ def main():
                 page.goto(base + name)
                 page.wait_for_function('document.fonts.status === "loaded"')
                 assert page.evaluate('document.documentElement.dataset.edge') == 'sides', name
+                if page.locator('[data-logo-toggle]').count():
+                    assert page.locator('[data-logo-toggle] svg path.logo-moving').count() == 2
                 if name in publication['articoli'] or name == 'modello-dispense.html':
                     assert page.locator('.article').count() == 1
                     assert page.locator('.article').evaluate("e=>!['none','normal'].includes(getComputedStyle(e,':before').content) && getComputedStyle(e,':before').pointerEvents==='none'")
@@ -60,6 +62,30 @@ def main():
                         size = page.evaluate('({actual:document.documentElement.scrollWidth, viewport:innerWidth})')
                         assert size['actual'] <= size['viewport'] + 1, (name, width, theme, size)
                         checks.append([name, width, theme])
+            # Home: una sola card senza onde; foto sotto al titolo su mobile.
+            def verify_cover_layout(width):
+                boxes = page.locator('.home-intro').evaluate("""card=>{
+                    const image=card.querySelector('img#random-cover'),caption=card.querySelector('figcaption');
+                    const copy=card.querySelector('.hero-copy');
+                    return {image:image.getBoundingClientRect().toJSON(),caption:caption.getBoundingClientRect().toJSON(),copy:copy.getBoundingClientRect().toJSON(),ratio:image.naturalWidth/image.naturalHeight};
+                }""")
+                assert abs(boxes['image']['left']-boxes['caption']['left']) < 1, boxes
+                assert abs(boxes['image']['width']-boxes['caption']['width']) < 1, boxes
+                assert abs(boxes['image']['width']/boxes['image']['height']-boxes['ratio']) < .01, boxes
+                if width <= 900:
+                    assert boxes['image']['top'] >= boxes['copy']['bottom'], boxes
+                else:
+                    assert boxes['image']['left'] >= boxes['copy']['right'], boxes
+            page.goto(base+'index.html')
+            assert page.locator('.home-intro #random-cover').count() == 1
+            for width in [320,390,768,1024,1440]:
+                page.set_viewport_size({'width':width,'height':900})
+                for theme in ['light','dark']:
+                    page.locator('[data-theme-select]').select_option(theme)
+                    for side in ['before','after']:
+                        assert page.locator('.home-title').evaluate('(e,side)=>getComputedStyle(e,":"+side).display', side) == 'none'
+                        assert page.locator('.home-cover').evaluate('(e,side)=>getComputedStyle(e,":"+side).content', side) in ['none','normal']
+                    verify_cover_layout(width)
             # Controllo delle 20 scelte casuali e associazione immagine/alt/didascalia.
             covers = json.loads((ROOT / 'copertine/manifest.json').read_text())
             for i, cover in enumerate(covers):
@@ -69,6 +95,9 @@ def main():
                 assert page.locator('#random-cover').get_attribute('alt') == cover['alt']
                 assert page.locator('#cover-caption').inner_text() == cover['caption']
                 assert page.locator('#random-cover').evaluate('(img)=>img.complete && img.naturalWidth>0')
+                for width in [320,390,768,1024,1440]:
+                    page.set_viewport_size({'width':width,'height':900})
+                    verify_cover_layout(width)
             paths = page.locator('#catalogue-data').text_content()
             paths = json.loads(paths)
             for i, name in enumerate(paths):
@@ -93,6 +122,18 @@ def main():
             logo = page.locator('[data-logo-toggle]').first
             logo.focus(); old = logo.get_attribute('aria-pressed'); page.keyboard.press('Space')
             assert logo.get_attribute('aria-pressed') != old
+            # Il medesimo SVG congela entrambe le curve e riparte in sincronia.
+            logo.click()
+            if logo.get_attribute('aria-pressed') != 'true':
+                logo.click()
+            def logo_shapes():
+                return page.locator('[data-logo-toggle] .logo-moving').evaluate_all('(paths)=>paths.map(p=>p.getBBox().width)')
+            page.locator('[data-logo-toggle] svg').evaluate('(svg)=>svg.setCurrentTime(1)')
+            shapes = logo_shapes();page.wait_for_timeout(120)
+            assert logo_shapes() == shapes
+            assert logo.evaluate('(button)=>button.querySelector("svg").animationsPaused()')
+            logo.click()
+            assert not logo.evaluate('(button)=>button.querySelector("svg").animationsPaused()')
             page.locator('.index-toggle').click()
             assert page.locator('.reader-index').get_attribute('open') is not None
             page.keyboard.press('Escape')
@@ -150,6 +191,8 @@ def main():
                 for theme in ['light','dark']:
                     for name, label in [('index.html','home'),('articoli.html','catalogo'), (publication['articoli'][0], 'articolo')]:
                         page.goto(base+name);page.locator('[data-theme-select]').select_option(theme)
+                        if page.locator('[data-logo-toggle] svg').count():
+                            page.locator('[data-logo-toggle] svg').evaluate('(svg)=>{svg.pauseAnimations();svg.setCurrentTime(1)}')
                         page.screenshot(path=str(SHOTS/f'{label}-{width}-{theme}.png'), full_page=(label!='articolo'), animations='disabled')
                         if label == 'articolo':
                             page.locator('.article > .section-heading').first.evaluate('(e)=>e.scrollIntoView({block:"start",behavior:"instant"})')
@@ -188,7 +231,7 @@ def main():
         server.shutdown()
         (SITE / 'modello-dispense.html').unlink(missing_ok=True)
     assert not errors, errors
-    report = {'viewport_tema_pagina':checks,'errori_javascript':errors,'copertine_verificate':len(covers),'laterali':{'viewport':[320,390,768,1024,1440],'temi':['light','dark'],'curve':'stessa ampiezza; periodo invariato; 24 px per fascia; nessun overflow'},
+    report = {'viewport_tema_pagina':checks,'errori_javascript':errors,'copertine_verificate':len(covers),'home':{'card':'unica per titolo, logo e copertina; senza onde laterali','mobile':'foto sotto al titolo','desktop':'foto affiancata','layout_copertine_verificati':100,'didascalia':'bordo sinistro e larghezza coincidenti con la foto; proporzioni conservate'},'logo':{'curve':2,'fase':'opposizione','periodo_secondi':4,'animazione_nera':'impronta originale conservata','pausa':'entrambe le curve sincronizzate'},'laterali':{'viewport':[320,390,768,1024,1440],'temi':['light','dark'],'curve':'stessa ampiezza; periodo invariato; 24 px per fascia; nessun overflow'},
               'offline':offline_status,'browser':'Chromium; mobile e touch emulati, nessun dispositivo Android fisico',
               'controlli':['persistenza','automatico e cambio sistema','storage bloccato','senza JavaScript','logo e movimento ridotto','ricerca e filtro','indice tastiera','note','zoom','crediti','download identico']}
     (ROOT/'lavorazione/sito/verifica-stringhe.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')

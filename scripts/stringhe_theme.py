@@ -34,9 +34,17 @@ def theme_control():
 def logo():
     svg = asset('logo-materia-oscura.svg')
     svg = re.sub(r'^<\?xml[^>]*>\s*', '', svg)
+    svg = svg.replace('<svg ', '<svg id="brand-logo" class="brand-logo" aria-hidden="true" focusable="false" ', 1)
     return ('<button class="brand-logo-toggle" type="button" data-logo-toggle '
             'aria-label="Metti in pausa l’animazione del logo" aria-pressed="false" disabled>'
             + svg + '</button>')
+
+
+def update_logo_components(document):
+    """Aggiorna solo il logo dell’interfaccia; nessun SVG scientifico viene riscritto."""
+    replacement = re.search(r'<svg[\s\S]*?</svg>', logo()).group(0)
+    return re.sub(r'(<button\b[^>]*\bdata-logo-toggle\b[^>]*>)[\s\S]*?(</button>)',
+                  lambda match: match[1] + replacement + match[2], document)
 
 
 def logo_script():
@@ -48,6 +56,7 @@ def apply_theme(document):
     for marker, tag in [('stringhe-init', 'script'), ('stringhe-theme', 'style'),
                         ('stringhe-controls', 'script')]:
         document = re.sub(rf'<{tag} data-{marker}>[\s\S]*?</{tag}>', '', document)
+    document = update_logo_components(document)
     # Impostazione strutturale anche senza JavaScript e nelle copie autonome.
     document = re.sub(r'(<html\b)([^>]*)(>)',
                       lambda match: match[1] + match[2] +

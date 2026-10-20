@@ -2,6 +2,11 @@
 
 Implementazione del piano del 20 ottobre 2026 sul ramo `design/stringhe-portale`, PR #43 in bozza. Il tema è una proposta completa da confrontare: la scelta A/A è stata approvata; la posizione dei bordi è ancora in prova. Nessun merge in main né deployment Pages.
 
+## Ultima correzione della home e del logo
+
+Titolo, logo e copertina fotografica della home condividono ora una sola card, senza onde laterali. Foto sotto al titolo su mobile e affiancata su desktop; didascalia allineata al bordo sinistro dell’immagine effettivamente visibile, con fotografia intera e proporzioni conservate. Il logo affianca alla curva nera originale una curva con gradiente blu di uguale ampiezza, in opposizione di fase; periodo, nodi e animazione nera sono conservati. SVG e GIF sono aggiornati, con pausa comune e fallback per movimento ridotto. La revisione è incorporata anche nel modello v13 e nei loghi delle nove copie degli articoli; i sorgenti scientifici restano invariati. Verificate tutte le 20 foto a 320, 390, 768, 1024 e 1440 px: bordo e larghezza della didascalia coincidono con quelli dell’immagine; nessuna deformazione.
+
+
 ## Configurazione ora adottata
 
 L’utente ha scelto **onde verticali**, confermando reticolo regolare e ampiezze uguali. La disposizione è ora attiva nel tema comune e nel modello v12, non soltanto nella dimostrazione. Il corpo dell’articolo conserva un unico contenitore continuo, con curve ai due lati e margini dedicati; formule e figure non ricevono cornici decorative aggiuntive. I confronti e le considerazioni di prova sotto riportati documentano il percorso precedente.

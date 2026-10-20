@@ -105,7 +105,7 @@ def shell(title, body, source):
 
 
 def inline_covers(covers):
-    return json.dumps([{"src": x["src"], "alt": x["alt"], "caption": x["caption"]}
+    return json.dumps([{"src": x["src"], "alt": x["alt"], "caption": x["caption"], "width": x["width"], "height": x["height"]}
                        for x in covers], ensure_ascii=False).replace("<", "\\u003c")
 
 
@@ -125,11 +125,11 @@ def render_home(source, covers, allowed):
         f'<a class="mini" href="{e(x["file"])}"><span class="number">ARTICOLO {i+1:02d}</span>'
         f'<strong>{e(x["title"])}</strong><span>Leggi →</span></a>'
         for i, x in enumerate(selection))
-    body = (f'<section class="hero">'
+    body = (f'<section class="hero home-title home-intro">'
             '<div class="hero-copy"><p class="eyebrow">Articoli di fisica</p>'
-            f'<div class="hero-title">{logo()}<h1>Stringhe</h1></div><p class="subtitle">L’essenziale della Fisica</p></div></section>'
-            f'<figure class="cover home-cover"><img id="random-cover" src="{e(first["src"])}" alt="{e(first["alt"])}" loading="eager">'
-            f'<figcaption id="cover-caption">{e(first["caption"])}</figcaption></figure>'
+            f'<div class="hero-title">{logo()}<h1>Stringhe</h1></div><p class="subtitle">L’essenziale della Fisica</p></div>'
+            f'<figure class="home-cover" style="--cover-ratio:{first["width"]/first["height"]:.8f}"><img id="random-cover" src="{e(first["src"])}" alt="{e(first["alt"])}" width="{first["width"]}" height="{first["height"]}" loading="eager">'
+            f'<figcaption id="cover-caption">{e(first["caption"])}</figcaption></figure></section>'
             '<section class="actions" aria-label="Accessi principali">'
             '<a class="action" href="articoli.html"><span class="action-symbol">≡</span><strong>Tutti gli articoli</strong><small>Scegli un argomento</small></a>'
             '<button class="action" id="random-article" type="button"><span class="action-symbol">↝</span><strong>Mi sento fortunato</strong><small>Leggi un articolo casuale</small></button>'
@@ -149,7 +149,8 @@ def render_home(source, covers, allowed):
             'button.addEventListener("click",()=>{if(articles.length)location.href=articles[Math.floor(Math.random()*articles.length)]});'
             'const covers=JSON.parse(document.getElementById("cover-data").textContent);'
             'if(covers.length){const c=covers[Math.floor(Math.random()*covers.length)];'
-            'const img=document.getElementById("random-cover");img.src=c.src;img.alt=c.alt;'
+            'const img=document.getElementById("random-cover");img.width=c.width;img.height=c.height;'
+            'img.closest("figure").style.setProperty("--cover-ratio",c.width/c.height);img.src=c.src;img.alt=c.alt;'
             'document.getElementById("cover-caption").textContent=c.caption;}})();</script>'
             '<noscript><p>Per la scelta casuale serve JavaScript; puoi consultare il catalogo degli articoli.</p></noscript>')
     return shell("Home", body, source)

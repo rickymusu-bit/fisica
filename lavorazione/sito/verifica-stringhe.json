@@ -781,5 +781,24 @@
     "zoom",
     "crediti",
     "download identico"
-  ]
+  ],
+  "home": {
+    "card": "unica per titolo, logo e copertina; senza onde laterali",
+    "mobile": "foto sotto al titolo",
+    "desktop": "foto affiancata",
+    "layout_copertine_verificati": 100,
+    "didascalia": "bordo sinistro e larghezza coincidenti con la foto; proporzioni conservate"
+  },
+  "logo": {
+    "curve": 2,
+    "fase": "opposizione",
+    "periodo_secondi": 4,
+    "animazione_nera": "impronta originale conservata",
+    "pausa": "entrambe le curve sincronizzate",
+    "gif_fotogrammi": 80,
+    "gif_dimensioni": [
+      256,
+      256
+    ]
+  }
 }

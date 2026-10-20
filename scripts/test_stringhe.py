@@ -1,5 +1,7 @@
 """Controlli della pubblicazione e dell'isolamento dei contenuti scientifici."""
 import json
+import hashlib
+import xml.etree.ElementTree as ET
 from pathlib import Path
 import re
 import unittest
@@ -21,7 +23,8 @@ class PublicationTests(unittest.TestCase):
                 published_science = re.sub(r'<nav[^>]*class="bottom-links"[^>]*>[\s\S]*?</nav>', '', published_science)
                 self.assertTrue(scientific_content == published_science, f'Contenuto scientifico alterato: {name}')
                 self.assertEqual(re.findall(r'<img\b[^>]*>', source), re.findall(r'<img\b[^>]*>', published))
-                self.assertEqual(re.findall(r'<path\b[^>]*>', source), re.findall(r'<path\b[^>]*>', published))
+                without_logo = lambda text: re.sub(r'<button\b[^>]*data-logo-toggle[^>]*>[\s\S]*?</button>', '', text)
+                self.assertEqual(re.findall(r'<path\b[^>]*>', without_logo(source)), re.findall(r'<path\b[^>]*>', without_logo(published)))
                 self.assertEqual(published.count('data-stringhe-theme'), 1)
                 self.assertEqual(published.count('data-theme-select'), 3)  # markup e due script comuni
                 self.assertIn('data-logo-toggle', published)
@@ -48,6 +51,36 @@ class PublicationTests(unittest.TestCase):
         quiz = (ROOT / '_site/quiz.html').read_text()
         self.assertIn('generare quiz di verifica scegliendo gli argomenti', quiz)
         self.assertNotIn('Chi vuol essere rimandato', quiz)
+
+
+class LogoTests(unittest.TestCase):
+    def test_original_black_animation_and_opposite_blue_phase(self):
+        from logo_materia_oscura import svg
+        source = (ROOT / 'identita/logo-materia-oscura.svg').read_text()
+        self.assertEqual(source, svg())
+        root = ET.fromstring(source)
+        ns = {'s': 'http://www.w3.org/2000/svg'}
+        moving = {path.attrib['data-logo-wave']: path for path in root.findall('s:path', ns)
+                  if path.attrib['class'] == 'logo-moving'}
+        self.assertEqual(set(moving), {'black', 'blue'})
+        animations = {name: path.find('s:animate', ns) for name, path in moving.items()}
+        # Impronta della sequenza nera approvata prima dell’aggiunta della curva blu.
+        self.assertEqual(hashlib.sha256(animations['black'].attrib['values'].encode()).hexdigest(),
+                         '8ddfec332b812e2175e12513ffc1f3ae610a5468555051f0c3163daaf69b9f23')
+        black = animations['black'].attrib['values'].split(';')
+        blue = animations['blue'].attrib['values'].split(';')
+        self.assertEqual(len(black), 33)
+        self.assertEqual(black[0], black[-1])
+        for index in range(33):
+            self.assertEqual(blue[index], black[(index + 16) % 32])
+        self.assertEqual({a.attrib['dur'] for a in animations.values()}, {'4s'})
+        self.assertEqual(moving['black'].attrib['stroke'], '#000')
+        self.assertEqual(moving['blue'].attrib['stroke'], 'url(#logo-blue-gradient)')
+        self.assertEqual([s.attrib['stop-color'] for s in root.findall('s:defs/s:linearGradient/s:stop', ns)],
+                         ['#83D4FA', '#337CD8', '#4140A3'])
+        still = [path for path in root.findall('s:path', ns) if path.attrib['class'] == 'logo-still']
+        self.assertEqual(len(still), 2)
+        self.assertNotEqual(still[0].attrib['d'], still[1].attrib['d'])
 
 
 if __name__ == '__main__':

@@ -6,6 +6,11 @@
 **Ramo di lavoro attuale:** `design/stringhe-portale` (PR #43, bozza).
 **Scopo di questo documento:** consegnare a Codex un elenco eseguibile di interventi sul portale, non richiedere la pubblicazione in `main`.
 
+## Correzione successiva — copertina e logo
+
+La precisazione più recente dell’utente richiede titolo, logo e copertina fotografica in una sola card senza onde laterali; la foto scende sotto al titolo su mobile ed è affiancata su desktop. Didascalia sempre allineata al bordo sinistro dell’immagine effettivamente visibile. Questa disposizione sostituisce la proposta intermedia di card separate. Il logo aggiunge una curva con gradiente blu in opposizione di fase alla curva nera originale, senza cambiarne geometria o movimento. Questa richiesta supera il precedente vincolo del logo esclusivamente monocromatico; non estende gli aggiornamenti ai sorgenti sospesi e non autorizza la pubblicazione ufficiale. Modello comune aggiornato a v13.
+
+
 ## Scelta definitiva dell’utente — disposizione verticale
 
 Confermata la configurazione: **reticolo regolare, sinusoidi di uguale ampiezza, verticali ai lati**. Il corpo dell’articolo resta una sola superficie continua, con due fasce laterali; non creare card separate per ogni sezione. Applicazione autorizzata al tema comune e al modello v12. La scelta non autorizza merge o pubblicazione ufficiale. Le indicazioni di varianti ancora da approvare nei blocchi precedenti sono storiche e superate da questa decisione.

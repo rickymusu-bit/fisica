@@ -1,5 +1,14 @@
 # Stato — Home e GitHub Pages
 
+## Revisione corrente — card unica della home e logo a due curve
+
+Ultima precisazione dell’utente: titolo e copertina devono stare **nella stessa card, senza onde laterali**. Su mobile la copertina scende sotto al titolo; su desktop titolo e foto sono affiancati. Didascalia sempre allineata al bordo sinistro della fotografia effettivamente visibile: il contenitore si dimensiona in base al rapporto della foto scelta, senza letterboxing, ritagli o distorsioni. Questa precisazione sostituisce la proposta intermedia di due card con onde sulla copertina. Restano verticali i bordi delle altre card e del corpo continuo degli articoli.
+
+Il nuovo SVG conserva la sequenza nera originale (impronta verificata) e aggiunge una curva blu di uguale ampiezza e periodo, con fattore temporale opposto. GIF trasparente rigenerata dallo stesso SVG: 256 × 256 px, 80 fotogrammi, 4 s. Pausa e movimento ridotto comuni alle due curve; fallback statico con curve distinte. Modello v13 e master v67.
+
+Il logo si aggiorna nelle sole copie pubblicabili e nel modello; sorgenti scientifici, traduzioni, sospesi e manifest restano invariati. Il registro aggiorna soltanto l’inventario del logo del modello. Verifica dei crediti, build e undici test automatici superati. Verifica browser superata: 150 combinazioni pagina/viewport/tema, 100 verifiche di impaginazione delle copertine (20 foto × 5 viewport), con didascalia allineata e proporzioni conservate, due curve presenti nei loghi e pausa/ripresa sincronizzata. In preparazione il nuovo link di anteprima isolata. PR #43 ancora in bozza, nessun merge o deployment Pages autorizzato.
+
+
 ## Scelta corrente approvata — onde verticali
 
 L’utente ha confermato «Ok scelgo le onde verticali», dopo aver chiarito che il corpo dell’articolo è una sola superficie di lettura. Configurazione adottata: reticolo regolare, sinusoidi di uguale ampiezza e disposizione verticale sui lati. Applicata al tema condiviso di home, catalogo, Quiz, crediti, nove copie ammesse e modello v12. Il testo degli articoli rimane in un solo contenitore, con due fasce decorative continue e spazio riservato alla lettura; nessuna divisione in card di sezione.

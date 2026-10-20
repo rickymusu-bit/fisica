@@ -5161,21 +5161,6 @@
       ]
     },
     {
-      "id": "asset-76c53eeedf5132a9137e498ad5d9b7539f90e6520d0a50f89bea41d8405e470b",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "riferimenti/TEMA_DISPENSE.html",
-          "kind": "svg",
-          "description": "svg",
-          "locator": "brand-logo",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-76c6ed6a84bc4a95aebb5dc01c863904be0ed8d0e181d7bfb566921986d28d3a",
       "kind": "image/webp",
       "uses": [
@@ -6477,6 +6462,21 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-36bdd2dca8b9169d"
+        }
+      ]
+    },
+    {
+      "id": "asset-c2af9e20b1f246d3884adaf80eef4e3cac80fde28bb97155a6b6799bfa592191",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "riferimenti/TEMA_DISPENSE.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "brand-logo",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
         }
       ]
     },
