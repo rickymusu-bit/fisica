@@ -40,6 +40,10 @@ Il logo di Stringhe conserva la curva circolare nera originale a quattro creste,
 
 I visuali devono conservare la stessa struttura su ogni dispositivo: non cambiare disposizione, relazioni, assi o organizzazione di schemi, grafici e tabelle nella vista mobile. Ridimensiona proporzionalmente e, se scritte o dettagli risultano troppo piccoli, usa «Ingrandisci l’immagine» del tema con scorrimento interno. Le sorgenti responsive possono cambiare risoluzione, non composizione. Questa richiesta esplicita prevale sulle precedenti indicazioni di A6 e C4 che consentivano di riorganizzare i visuali su smartphone; resta possibile adattare l’impaginazione del testo. Tema autonomo v7. In Passaggi di stato lo schema resta triangolare anche su mobile.
 
+## Standard dei visuali scientifici — 20 ottobre 2026
+
+Per selezionare, generare, costruire e verificare fotografie, schemi, illustrazioni, grafici e altri visuali del sito, leggere e applicare `docs/visual-guidelines.md`. Questo standard integra `MASTER_PROMPT.md` e il workflow di approvazione: non autorizza la creazione o pubblicazione automatica di immagini, né supera il vincolo di approvazione dell’anteprima prima del merge o del deployment. Per vettori, grafici quantitativi e geometrie esatte preferire SVG e grafici costruiti tramite codice.
+
 ## Presentazione delle bozze dei capitoli
 
 Per richiesta esplicita dell’utente del 18 ottobre 2026, ore 13:42 (Europe/Rome), non riportare mai in chat i testi integrali dei capitoli. Scrivi e aggiorna sempre le bozze nei file `lavorazione/<capitolo>/bozza.md` del repository, sul ramo dedicato. In chat presenta soltanto una sintesi delle modifiche, i punti da approvare e i collegamenti ai file effettivamente salvati. Questa richiesta prevale sull’alternativa di presentazione integrale in chat prevista da A6 e B1.1 del master; restano necessari approvazione delle bozze e via esplicito prima della realizzazione HTML. Non modificare main o pubblicazione senza approvazione.
