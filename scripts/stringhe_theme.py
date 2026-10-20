@@ -41,10 +41,15 @@ def icon(name):
 
 
 def theme_control():
-    return ('<button class="theme-control theme-switch" type="button" role="switch" '
-            'aria-label="Tema scuro" title="Passa al tema chiaro" aria-checked="true" data-theme-toggle disabled>'
-            f'<span class="theme-track" aria-hidden="true"><span class="theme-thumb"><span class="theme-moon">{icon("moon")}</span><span class="theme-sun">{icon("sun")}</span></span></span>'
-            '<span data-theme-label>Scuro</span></button>')
+    return ('<details class="theme-control theme-menu" data-theme-menu>'
+            '<summary aria-label="Tema del sito: Scuro" title="Tema: Scuro">'
+            f'<span class="theme-current-dark">{icon("moon")}</span>'
+            f'<span class="theme-current-light">{icon("sun")}</span>'
+            '<span class="menu-chevron" aria-hidden="true">▾</span></summary>'
+            '<div class="theme-options" role="group" aria-label="Scegli il tema">'
+            f'<button type="button" data-theme-option="dark" aria-pressed="true" disabled>{icon("moon")}<span>Scuro</span></button>'
+            f'<button type="button" data-theme-option="light" aria-pressed="false" disabled>{icon("sun")}<span>Chiaro</span></button>'
+            '</div></details>')
 
 
 def logo():
@@ -76,6 +81,8 @@ def apply_theme(document):
     document = re.sub(r'<label class="theme-control">[\s\S]*?</label>',
                       lambda _: theme_control(), document)
     document = re.sub(r'<button\b[^>]*data-theme-toggle[^>]*>[\s\S]*?</button>',
+                      lambda _: theme_control(), document)
+    document = re.sub(r'<details\b[^>]*data-theme-menu[^>]*>[\s\S]*?</details>',
                       lambda _: theme_control(), document)
     document = re.sub(r'<summary\b[^>]*class="index-toggle"[^>]*>[\s\S]*?</summary>',
                       lambda _: '<summary class="index-toggle" aria-label="Indice del capitolo" title="Indice del capitolo">' +

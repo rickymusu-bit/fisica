@@ -1,12 +1,25 @@
 (() => {
-  document.querySelectorAll('[data-theme-toggle]').forEach(button => {
-    const dark = document.documentElement.dataset.theme !== 'light';
-    button.setAttribute('aria-checked', String(dark));
-    button.querySelector('[data-theme-label]').textContent = dark ? 'Scuro' : 'Chiaro';
-    button.title = dark ? 'Passa al tema chiaro' : 'Passa al tema scuro';
-    button.disabled = false;
-    button.addEventListener('click', () => {
-      window.stringheTheme(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark');
+  window.stringheTheme.refresh();
+  document.querySelectorAll('[data-theme-menu]').forEach(menu => {
+    menu.querySelectorAll('[data-theme-option]').forEach(button => {
+      button.disabled = false;
+      button.addEventListener('click', () => {
+        window.stringheTheme(button.dataset.themeOption);
+        menu.open = false;
+        menu.querySelector('summary').focus({preventScroll:true});
+      });
+    });
+  });
+  document.addEventListener('click', event => {
+    document.querySelectorAll('[data-theme-menu][open]').forEach(menu => {
+      if (!menu.contains(event.target)) menu.open = false;
+    });
+  });
+  document.addEventListener('keydown', event => {
+    if (event.key !== 'Escape') return;
+    document.querySelectorAll('[data-theme-menu][open]').forEach(menu => {
+      menu.open = false;
+      menu.querySelector('summary').focus({preventScroll:true});
     });
   });
   // Le copie scaricate mantengono i rimandi al portale; online restano nel ramo corrente.
