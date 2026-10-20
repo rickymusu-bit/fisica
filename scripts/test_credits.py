@@ -58,6 +58,15 @@ class RegistryTests(unittest.TestCase):
         self.assertIn('Etichette tradotte', credits.notice_html(self.registry, 'two.html'))
         self.assertNotIn('Etichette tradotte', credits.notice_html(self.registry, 'one.html'))
 
+    def test_media_control_icons_do_not_inherit_the_photograph_license(self):
+        original = self.article('one.html')
+        control = '<button><svg data-ui-icon viewBox="0 0 24 24"><path d="M0 0h5"/></svg></button>'
+        (self.root / 'one.html').write_text(original.replace('</figure>', control + '</figure>'))
+        credits.sync_inventory(self.registry)
+        self.assertEqual(len(self.registry['resources']), 1)
+        self.assertEqual(len(self.registry['assets']), 1)
+        self.assertEqual(self.registry['assets'][0]['kind'], 'image/png')
+
     def test_sync_preserves_media_and_adds_embedded_font_license(self):
         original = self.article('one.html').replace('</head>', '<style>@font-face{font-family:Lexend}</style></head>')
         (self.root / 'one.html').write_text(original)

@@ -29,6 +29,27 @@ main{max-width:1160px;margin:auto;padding:36px 24px 80px}h1,h2,h3,p{margin-top:0
 [hidden]{display:none!important}
 @media(max-width:800px){.actions{grid-template-columns:repeat(3,minmax(0,1fr))}.covers{grid-template-columns:1fr}.hero-strings{width:70%;right:-28%}}
 @media(max-width:540px){.actions{grid-template-columns:1fr}.top-inner{padding:9px 14px;flex-wrap:wrap}.brand{font-size:19px}.site-nav{width:100%;gap:6px}.site-nav>a,.lang>summary{font-size:12px;padding:6px 9px}.site-nav>a:first-child{margin-left:-9px}main{padding:22px 15px 60px}.hero{padding:30px 23px}.hero-strings{opacity:.17}.action{padding:15px;min-height:112px}.action strong{font-size:14px}.section-heading{align-items:start}.featured{grid-template-columns:1fr}.mini{min-height:90px}.article-card{align-items:start;flex-direction:column}.download{align-self:flex-start}.cover img{height:200px}}
+</style><style data-media-ui>/* Comandi delle immagini: icone in basso a sinistra, didascalie invariate. */
+.gif-stage{display:block;position:relative;width:100%;min-width:0}
+.gif-stage picture{display:block;width:100%}
+.gif-stage img{display:block}
+.gif-stage>.media-icon-button{position:absolute;left:8px;bottom:8px;z-index:2}
+.media-icon-button{box-sizing:border-box;display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;min-width:44px;min-height:44px;padding:9px;border:1px solid #9ca7ba;border-radius:10px;background:#202637;color:#fff;box-shadow:0 1px 5px #0005;cursor:pointer;touch-action:manipulation;line-height:1;list-style:none}
+.media-icon-button:hover{background:#35425a;color:#fff}
+.media-icon-button:focus-visible{outline:3px solid var(--accent,#337cd8);outline-offset:3px}
+.media-icon-button .ui-icon{display:block;width:24px;height:24px}
+.media-icon-button:disabled{display:none}
+.media-play,[data-animation-toggle][aria-pressed=true] .media-pause{display:none}
+[data-animation-toggle][aria-pressed=true] .media-play{display:block}
+.image-frame:has(>.image-zoom){position:relative}
+.image-frame>.image-zoom{position:static;border:0;font-size:inherit}
+.image-frame>.image-zoom>summary.media-icon-button{position:absolute;left:8px;bottom:8px;z-index:2;background:#202637;color:#fff;padding:9px}
+.image-zoom>summary::-webkit-details-marker{display:none}
+.image-zoom>summary::marker{content:''}
+.image-zoom .zoom-expand,.image-zoom[open] .zoom-collapse{display:block}
+.image-zoom .zoom-collapse,.image-zoom[open] .zoom-expand{display:none}
+.particle-model.is-live .gif-stage{display:none}
+@media print{.media-icon-button{display:none!important}}
 </style><script data-stringhe-init>(() => {
   const root = document.documentElement;
   const valid = value => value === 'light' ? 'light' : 'dark';
@@ -442,6 +463,42 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       playing = !reduced.matches;
       sync();
     });
+    sync();
+  });
+})();
+</script><script data-media-ui>(() => {
+  document.querySelectorAll('[data-zoom-copy]').forEach(image => {
+    image.src = image.closest('figure').querySelector('.overview img').src;
+  });
+  document.querySelectorAll('.image-zoom').forEach(zoom => {
+    const button = zoom.querySelector('summary');
+    const sync = () => {
+      const label = zoom.open ? 'Rimpicciolisci l’immagine' : 'Ingrandisci l’immagine';
+      button.setAttribute('aria-label', label);
+      button.title = label;
+    };
+    zoom.addEventListener('toggle', sync);
+    sync();
+  });
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)');
+  document.querySelectorAll('.gif-stage').forEach(stage => {
+    const image = stage.querySelector('img');
+    const button = stage.querySelector('[data-animation-toggle]');
+    const animation = image.getAttribute('src'), still = image.dataset.still;
+    if (!button || !still) return;
+    // Il picture conserva il fermo per movimento ridotto anche senza JavaScript.
+    stage.querySelectorAll('source').forEach(source => { source.media = 'not all'; });
+    let playing = !reduced.matches;
+    function sync() {
+      image.src = playing ? animation : still;
+      const label = playing ? 'Metti in pausa l’animazione' : 'Riprendi l’animazione';
+      button.setAttribute('aria-label', label);
+      button.title = label;
+      button.setAttribute('aria-pressed', String(!playing));
+    }
+    button.disabled = false;
+    button.addEventListener('click', () => { playing = !playing; sync(); });
+    reduced.addEventListener('change', () => { playing = !reduced.matches; sync(); });
     sync();
   });
 })();

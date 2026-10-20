@@ -2903,6 +2903,27 @@
       "fingerprints": [
         "asset-2a81d3567ef595118a11dbdcee28f06a926baa3d6853f440b8f3a53d13f09cc7"
       ]
+    },
+    {
+      "id": "a-christmas-story-1983",
+      "description": "Fotogramma da A Christmas Story (1983): lingua sul palo gelato",
+      "source": null,
+      "author": null,
+      "license": "Copyright; licenza di riutilizzo non documentata",
+      "license_url": null,
+      "changes": "Immagine fornita dall’utente, incorporata senza modifica dei pixel. Sostituisce la precedente GIF del palo gelato.",
+      "status": "review",
+      "links": [],
+      "notices": [
+        "<i>A Christmas Story</i> (1983). Fotogramma fornito dall’utente. Diritti del film riservati; licenza di riutilizzo non documentata."
+      ],
+      "metadata_sources": [
+        "allegato utente 15008.jpg",
+        "lavorazione/conduzione/risorse/a-christmas-story.jpg"
+      ],
+      "fingerprints": [
+        "asset-931f63f4bf088358aabd7bd079ccf76e01c808682cb5de19946c397bb86cdbae"
+      ]
     }
   ],
   "documents": {
@@ -2999,6 +3020,10 @@
         },
         {
           "resource": "credit-b7d5fe724eb33df1",
+          "notice": 0
+        },
+        {
+          "resource": "a-christmas-story-1983",
           "notice": 0
         }
       ],
@@ -4012,6 +4037,15 @@
         {
           "document": "conduzione_it.html",
           "kind": "image/png",
+          "description": "source",
+          "locator": "immagine-e-1",
+          "attribute": "srcset",
+          "location": null,
+          "credit_id": "credit-2be023265bdc8d43"
+        },
+        {
+          "document": "conduzione_it.html",
+          "kind": "image/png",
           "description": "Ioni del reticolo metallico in grigio ed elettroni di conduzione in rosa.",
           "locator": "immagine-e-1",
           "attribute": "data-still",
@@ -4060,6 +4094,15 @@
           "description": "source",
           "locator": "inizio",
           "attribute": "srcset",
+          "location": null,
+          "credit_id": null
+        },
+        {
+          "document": "stati_della_materia.html",
+          "kind": "image/png",
+          "description": "Modello animato delle particelle: liquido.",
+          "locator": "inizio",
+          "attribute": "data-still",
           "location": null,
           "credit_id": null
         }
@@ -4222,21 +4265,6 @@
       ]
     },
     {
-      "id": "asset-29438a11c8352e88f1883d5b5c31a29c7e380a48f10e1fbaf53e743a22747653",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "riferimenti/TEMA_DISPENSE.html",
-          "kind": "svg",
-          "description": "svg",
-          "locator": "inizio",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-2a36bbffd2db7c8970cd855ea653221e95ac0a6c743887b3528a7090f8882ca1",
       "kind": "image/webp",
       "uses": [
@@ -4282,39 +4310,24 @@
       ]
     },
     {
-      "id": "asset-3035d95e38a732094d960225c339fb93d8487a837e5cdafe2d508c95de6caed7",
+      "id": "asset-3151fd5569293758a7774d34c082c272a9cae384ef2dba5cc4558a9ce732d631",
       "kind": "image/png",
       "uses": [
         {
-          "document": "conduzione_it.html",
+          "document": "passaggi_di_stato.html",
           "kind": "image/png",
-          "description": "Sequenza cinematografica di una persona con la lingua bloccata a un palo metallico in un ambiente innevato.",
-          "locator": "visuale-immagine-12",
-          "attribute": "data-still",
-          "location": null,
-          "credit_id": "credit-07b5b0917b36b148"
-        }
-      ]
-    },
-    {
-      "id": "asset-31ad01515c289b4d7e9c3e42afdfb2369dff866dbf1cdbd67a45fe3a57a5de17",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "riferimenti/TEMA_DISPENSE.html",
-          "kind": "svg",
-          "description": "svg",
+          "description": "source",
           "locator": "inizio",
-          "attribute": "inline",
+          "attribute": "srcset",
           "location": null,
           "credit_id": null
         },
         {
-          "document": "riferimenti/TEMA_DISPENSE.html",
-          "kind": "svg",
-          "description": "svg",
+          "document": "passaggi_di_stato.html",
+          "kind": "image/png",
+          "description": "La goccia si riduce senza bollire: l'acqua passa nell'aria attraverso la superficie del liquido.",
           "locator": "inizio",
-          "attribute": "inline",
+          "attribute": "data-still",
           "location": null,
           "credit_id": null
         }
@@ -4729,15 +4742,24 @@
       ]
     },
     {
-      "id": "asset-46d8cee60bbc12c6e178433579d45fbdf8f0451cef8375663dbc3abf87105b28",
-      "kind": "svg",
+      "id": "asset-46b4bc33fb21ba5f4f0fecb1dc25e76c0a33a6cb845d73b634b2cdc8cd0b954f",
+      "kind": "image/png",
       "uses": [
         {
-          "document": "riferimenti/TEMA_DISPENSE.html",
-          "kind": "svg",
-          "description": "svg",
-          "locator": "indice",
-          "attribute": "inline",
+          "document": "passaggi_di_stato.html",
+          "kind": "image/png",
+          "description": "source",
+          "locator": "inizio",
+          "attribute": "srcset",
+          "location": null,
+          "credit_id": null
+        },
+        {
+          "document": "passaggi_di_stato.html",
+          "kind": "image/png",
+          "description": "Le bolle di vapore si formano nel liquido e risalgono. L'ebollizione coinvolge anche l'interno del liquido, mentre l'evaporazione avviene alla superficie.",
+          "locator": "inizio",
+          "attribute": "data-still",
           "location": null,
           "credit_id": null
         }
@@ -5158,6 +5180,15 @@
           "description": "source",
           "locator": "inizio",
           "attribute": "srcset",
+          "location": null,
+          "credit_id": null
+        },
+        {
+          "document": "stati_della_materia.html",
+          "kind": "image/png",
+          "description": "Modello animato delle particelle: gas.",
+          "locator": "inizio",
+          "attribute": "data-still",
           "location": null,
           "credit_id": null
         }
@@ -5722,6 +5753,21 @@
       ]
     },
     {
+      "id": "asset-931f63f4bf088358aabd7bd079ccf76e01c808682cb5de19946c397bb86cdbae",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "conduzione_it.html",
+          "kind": "image/jpeg",
+          "description": "Fotogramma del film A Christmas Story (1983): un ragazzo con la lingua aderente a un palo metallico gelato, accanto a un altro ragazzo.",
+          "locator": "visuale-immagine-12",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "a-christmas-story-1983"
+        }
+      ]
+    },
+    {
       "id": "asset-934ac9de8b5d3d4b4937caddde6366e38b5d7d181bfe7392225da6b3bcc76370",
       "kind": "svg",
       "uses": [
@@ -5761,6 +5807,15 @@
           "description": "source",
           "locator": "inizio",
           "attribute": "srcset",
+          "location": null,
+          "credit_id": null
+        },
+        {
+          "document": "stati_della_materia.html",
+          "kind": "image/png",
+          "description": "Modello animato delle particelle: solido.",
+          "locator": "inizio",
+          "attribute": "data-still",
           "location": null,
           "credit_id": null
         }
@@ -6469,21 +6524,6 @@
       ]
     },
     {
-      "id": "asset-bf0f63926f3568c9004feb7271a83acb634086eb0ce3efc5249631b10eaf9ffb",
-      "kind": "image/gif",
-      "uses": [
-        {
-          "document": "conduzione_it.html",
-          "kind": "image/gif",
-          "description": "Sequenza cinematografica di una persona con la lingua bloccata a un palo metallico in un ambiente innevato.",
-          "locator": "visuale-immagine-12",
-          "attribute": "src",
-          "location": null,
-          "credit_id": "credit-07b5b0917b36b148"
-        }
-      ]
-    },
-    {
       "id": "asset-bfa5bb5a24036e7e8b004a9039aff5bcdaa89417b6e74857adfb632e1fca39e2",
       "kind": "image/webp",
       "uses": [
@@ -6540,6 +6580,30 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-36bdd2dca8b9169d"
+        }
+      ]
+    },
+    {
+      "id": "asset-c29585a53e7b0cb5f2649315c2868c22d25aac3bac94183bcef66f1db47c6dc9",
+      "kind": "image/png",
+      "uses": [
+        {
+          "document": "passaggi_di_stato.html",
+          "kind": "image/png",
+          "description": "source",
+          "locator": "inizio",
+          "attribute": "srcset",
+          "location": null,
+          "credit_id": null
+        },
+        {
+          "document": "passaggi_di_stato.html",
+          "kind": "image/png",
+          "description": "I cubetti diminuiscono mentre aumenta l'acqua liquida: la sostanza cambia stato senza cambiare identità chimica.",
+          "locator": "inizio",
+          "attribute": "data-still",
+          "location": null,
+          "credit_id": null
         }
       ]
     },
@@ -6921,6 +6985,15 @@
           "attribute": "srcset",
           "location": null,
           "credit_id": "credit-8ff4ddc51a2b9611"
+        },
+        {
+          "document": "irraggiamento_it.html",
+          "kind": "image/webp",
+          "description": "Animazione: radiazione solare entrante e radiazione infrarossa fra Terra, atmosfera e spazio.",
+          "locator": "visual-A4-animazione",
+          "attribute": "data-still",
+          "location": null,
+          "credit_id": "credit-8ff4ddc51a2b9611"
         }
       ]
     },
@@ -7086,45 +7159,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-5d1d35c0d78f5ed9"
-        }
-      ]
-    },
-    {
-      "id": "asset-de2045039c7ac3a9bbf234e9aa7d2a5566334e1ee1a233989306167f7258f4c1",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "riferimenti/TEMA_DISPENSE.html",
-          "kind": "svg",
-          "description": "svg",
-          "locator": "inizio",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-df0f84a101d74c469333152fdd83d6e22ecab1599bed46fda38c479bbf4841c3",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "riferimenti/TEMA_DISPENSE.html",
-          "kind": "svg",
-          "description": "svg",
-          "locator": "inizio",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "riferimenti/TEMA_DISPENSE.html",
-          "kind": "svg",
-          "description": "svg",
-          "locator": "inizio",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
         }
       ]
     },
@@ -7372,21 +7406,6 @@
       ]
     },
     {
-      "id": "asset-ee08004ded4db6e679d325cd3750a9b0034e3d9ab456079fab29168aa667d8af",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "riferimenti/TEMA_DISPENSE.html",
-          "kind": "svg",
-          "description": "svg",
-          "locator": "indice",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-f0efceffb9a5bfab312b31746f5ecfa9dfcfc1d960e3a61dcae3a2ab4817bdf2",
       "kind": "svg",
       "uses": [
@@ -7413,6 +7432,30 @@
           "attribute": "cover-data",
           "location": "copertine/cms-cern.webp",
           "credit_id": "credit-3e9f846de0485c3d"
+        }
+      ]
+    },
+    {
+      "id": "asset-f3f7e3caa20937f1961684a3ec5b1f6aa4b32b9e343a06d8c7109748b08fd4f1",
+      "kind": "image/png",
+      "uses": [
+        {
+          "document": "stati_della_materia.html",
+          "kind": "image/png",
+          "description": "source",
+          "locator": "inizio",
+          "attribute": "srcset",
+          "location": null,
+          "credit_id": null
+        },
+        {
+          "document": "stati_della_materia.html",
+          "kind": "image/png",
+          "description": "Nell'animazione illustrativa, il liquido a sinistra ha viscosità minore e quello a destra maggiore. Osserva la diversa rapidità con cui si deformano e si distribuiscono.",
+          "locator": "inizio",
+          "attribute": "data-still",
+          "location": null,
+          "credit_id": null
         }
       ]
     },
@@ -7521,21 +7564,6 @@
           "attribute": "href",
           "location": null,
           "credit_id": "credit-91c664d930aa4f65"
-        }
-      ]
-    },
-    {
-      "id": "asset-fc4f19fbb58885ba4e059c86785a59552d91bb4c32f54c433f666b4e23e70d78",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "riferimenti/TEMA_DISPENSE.html",
-          "kind": "svg",
-          "description": "svg",
-          "locator": "inizio",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
         }
       ]
     },

@@ -108,6 +108,10 @@ def inventory(source):
     doc = Document(source)
     found = []
     for node in doc.root.descendants():
+        # Le icone dei comandi sono codice del tema, non figure del capitolo.
+        # Non devono ereditare autore/licenza della fotografia che controllano.
+        if node.tag == 'svg' and 'data-ui-icon' in node.attrs:
+            continue
         values = [(key, node.attrs[key]) for key in
                   ('src', 'poster', 'data-still', 'srcset', 'href', 'xlink:href')
                   if node.attrs.get(key) and (key not in ('href', 'xlink:href') or node.tag == 'image')]

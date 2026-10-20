@@ -34,6 +34,10 @@ def icon(name):
         'close': '<path d="m6 6 12 12M6 18 18 6"/>',
         'moon': '<path d="M20 15A9 9 0 0 1 9 4a9 9 0 1 0 11 11Z"/>',
         'sun': '<circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1 1m12 12 1 1M5 19l1-1M18 6l1-1"/>',
+        'play': '<path d="m8 4 13 8-13 8Z"/>',
+        'pause': '<path d="M8 4v16M16 4v16"/>',
+        'zoom-in': '<circle cx="10" cy="10" r="7"/><path d="m15 15 6 6M7 10h6M10 7v6"/>',
+        'zoom-out': '<circle cx="10" cy="10" r="7"/><path d="m15 15 6 6M7 10h6"/>',
     }
     return ('<svg class="ui-icon" data-ui-icon viewBox="0 0 24 24" fill="none" '
             'stroke="currentColor" stroke-width="1.8" stroke-linecap="round" '
@@ -94,6 +98,8 @@ def apply_theme(document):
                       (' data-edge="sides"' if 'data-edge=' not in match[2] else '') +
                       (' data-theme="dark"' if 'data-theme=' not in match[2] else '') + match[3],
                       document, count=1, flags=re.I)
+    from media_controls import apply_media_controls
+    document = apply_media_controls(document)
     # La preferenza si applica prima del primo rendering.
     document = document.replace('</head>', theme_head() + '</head>', 1)
     document = document.replace('</body>', theme_script() + '</body>', 1)
