@@ -1,6 +1,6 @@
 # Visuali — La dilatazione termica
 
-Versione v15 — 20 ottobre 2026 (Europe/Rome).
+Versione v16 — 20 ottobre 2026 (Europe/Rome).
 
 ## Direzione concordata e proposta aggiornata
 
@@ -170,3 +170,13 @@ Richiesta esplicita: «Per il lago ghiacciato puoi creare uno schema simile a qu
 - La figura generata è proposta all'utente per revisione; nessuna approvazione del risultato finale dedotta. La generazione esplicitamente richiesta non autorizza pubblicazione o via generale all'HTML. Salvataggio nel ramo dedicato da verificare.
 
 Aggiornamento della bozza v11: FIG-06 ora descritta sulla base della fotografia visibile in chat. La scelta dell'utente resta valida; l'ispezione del contenuto è completata, mentre recupero del file binario e diritti restano pendenti. Schema FIG-05b già creato e salvato; nessuna alterazione alle altre visuali.
+
+## Provenienza FIG-06 completata tramite il titolo del post
+
+L'utente fornisce il titolo: «This is what happens in my hometown when you don't leave the faucet trickling in the winter. Pipes bursting in Watertown, NY.». Trovato e consultato il [post Reddit originale](https://www.reddit.com/r/WTF/comments/7p2hss/this_is_what_happens_in_my_hometown_when_you_dont/), pubblicato dall'account **u/mynameisadrean** in r/WTF. Questo identifica l'autore del post, non dimostra che sia il fotografo o il titolare dei diritti.
+
+Il contesto del titolo è confermato dal servizio locale Big Frog 104, Dave “Wheels” Wheeler, 12 gennaio 2018: https://bigfrog104.com/watertown-frozen-waterfall-inside/ . L'articolo situa la scena a Watertown, NY e riferisce rotture delle tubature in una casa senza riscaldamento; accredita la foto a Bennett Realty. Conservare “Bennett Realty” come credito riportato da questa fonte, non come autore o titolare accertato. La ricostruzione del 2021 https://tfc-taiwan.org.tw/articles/5099 riporta lo stesso post come immagine del 2018, non dell'episodio texano del 2021.
+
+Didascalia aggiornata in bozza v12: «Ghiaccio accumulato in una cucina di Watertown, nello Stato di New York, dopo una perdita d'acqua durante il gelo del 2018». La causa non è più ricavata dalla sola osservazione della foto: è documentata come contesto dalle fonti. Non trasferire automaticamente nella dispensa il consiglio del titolo di lasciare il rubinetto gocciolante, non richiesto per il capitolo.
+
+La provenienza del post è risolta; licenza libera o autorizzazione al riutilizzo restano non documentate. Nessun messaggio inviato al poster o a Bennett Realty. Nessuna licenza CC dedotta dalla pubblicazione su Reddit. Recupero del file binario e integrazione HTML restano pendenti.
