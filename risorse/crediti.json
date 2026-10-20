@@ -1,5 +1,8 @@
 {
   "schema_version": 1,
+  "general_credits": [
+    "Il sito è stato realizzato con l’aiuto di ChatGPT."
+  ],
   "resources": [
     {
       "id": "credit-eb5a0dcae1314354",

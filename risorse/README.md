@@ -2,6 +2,8 @@
 
 Il registro autorevole è `crediti.json`. `crediti.html`, i riquadri incorporati degli HTML e `licenze/Lexend-OFL.txt` sono risultati generati: aggiornarli con `python3 scripts/credits.py --sync`, senza editarli separatamente. La build esegue gli stessi controlli di `--check` e rifiuta risultati non aggiornati. Nessuna richiesta di rete è necessaria su GitHub Pages.
 
+`general_credits` contiene i riconoscimenti generali del sito, mostrati nell’introduzione della pagina dei crediti e distinti dalle attribuzioni delle singole risorse.
+
 `resources` contiene una scheda per fonte originale, con identificativo stabile, descrizione, autore, fonte, licenza e URL, modifiche, avvisi originali integrali (`notices`), provenienze documentali e impronte dei file quando disponibili. I campi null indicano dati non documentati: non completarli per deduzione. Le varianti degli avvisi conservano le modifiche relative ai singoli utilizzi. Le note generali originali restano schede prive di una fonte, senza inventare una corrispondenza individuale.
 
 `documents` associa ciascun articolo alle schede e alla variante dell’avviso, con titolo e ancora stabili. `assets` deduplica le risorse effettivamente rilevate per SHA-256 dei byte incorporati, del codice SVG/canvas o dell’URL quando il file non è incorporato. Le occorrenze conservano articolo, descrizione, posizione e associazione alla scheda, se verificabile. L’inventario non implica una licenza. Comprende le anteprime di pausa/movimento ridotto e le immagini annidate nei documenti iframe. I file originali inutilizzati della lavorazione non diventano automaticamente risorse pubblicate.

@@ -285,3 +285,7 @@ Fase: realizzazione conclusa e verificata, pubblicazione richiesta tramite il wo
 L'utente ha confermato la navigazione della home con quattro accessi e corretto la proposta grafica: conservare il logo circolare animato approvato vicino al titolo «Stringhe», conservare la foto di copertina casuale, testare due bordi formati da sinusoidi sovrapposte in opposizione di fase (ampiezze uguali/diverse). Richiesta la modalità scura **opzionale**. La sezione «Quiz» del sito è un futuro **generatore di quiz di verifica su argomenti scelti dall'utente**, non il progetto separato «Chi vuol essere rimandato».
 
 Specifiche complete salvate in `lavorazione/sito/PIANO_IMPLEMENTAZIONE_STRINGHE.md` sul ramo `design/stringhe-portale`, collegato alla PR #43. Stato: **pianificato, da implementare e confrontare**. Non risulta approvata nessuna delle due varianti grafiche come definitiva; il sito pubblico rimane fuori da questa fase.
+
+## Credito generale a ChatGPT — 20 ottobre 2026
+
+Su richiesta esplicita dell’utente aggiunta ai crediti generali la frase «Il sito è stato realizzato con l’aiuto di ChatGPT.». Testo conservato nel campo `general_credits` del registro unico e inserito nell’introduzione della pagina `crediti.html` dal renderer, senza ripeterlo nelle attribuzioni delle singole risorse. Modifica nel ramo e nella PR #52 in bozza; nessun merge su main o deployment ufficiale.
