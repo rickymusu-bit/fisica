@@ -25,10 +25,10 @@ def theme_script():
 
 
 def theme_control():
-    return ('<label class="theme-control">Tema '
-            '<select data-theme-select aria-label="Tema del sito">'
-            '<option value="auto">Automatico</option><option value="light">Chiaro</option>'
-            '<option value="dark">Scuro</option></select></label>')
+    return ('<button class="theme-control theme-switch" type="button" role="switch" '
+            'aria-label="Tema scuro" aria-checked="true" data-theme-toggle disabled>'
+            '<span class="theme-track" aria-hidden="true"><span class="theme-thumb"></span></span>'
+            '<span data-theme-label>Scuro</span></button>')
 
 
 def logo():
@@ -56,11 +56,17 @@ def apply_theme(document):
     for marker, tag in [('stringhe-init', 'script'), ('stringhe-theme', 'style'),
                         ('stringhe-controls', 'script')]:
         document = re.sub(rf'<{tag} data-{marker}>[\s\S]*?</{tag}>', '', document)
+    # Migra il controllo nel modello esistente e nelle pagine di servizio.
+    document = re.sub(r'<label class="theme-control">[\s\S]*?</label>',
+                      lambda _: theme_control(), document)
+    document = re.sub(r'<button\b[^>]*data-theme-toggle[^>]*>[\s\S]*?</button>',
+                      lambda _: theme_control(), document)
     document = update_logo_components(document)
     # Impostazione strutturale anche senza JavaScript e nelle copie autonome.
     document = re.sub(r'(<html\b)([^>]*)(>)',
                       lambda match: match[1] + match[2] +
-                      (' data-edge="sides"' if 'data-edge=' not in match[2] else '') + match[3],
+                      (' data-edge="sides"' if 'data-edge=' not in match[2] else '') +
+                      (' data-theme="dark"' if 'data-theme=' not in match[2] else '') + match[3],
                       document, count=1, flags=re.I)
     # La preferenza si applica prima del primo rendering.
     document = document.replace('</head>', theme_head() + '</head>', 1)

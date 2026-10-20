@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - design/stringhe-portale
+      - design/novita-tema-switch
     paths:
       - '.github/workflows/preview-stringhe.yml'
       - 'scripts/**'

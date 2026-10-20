@@ -1,7 +1,12 @@
 (() => {
-  document.querySelectorAll('[data-theme-select]').forEach(select => {
-    select.value = document.documentElement.dataset.themePreference || 'auto';
-    select.addEventListener('change', () => window.stringheTheme(select.value));
+  document.querySelectorAll('[data-theme-toggle]').forEach(button => {
+    const dark = document.documentElement.dataset.theme !== 'light';
+    button.setAttribute('aria-checked', String(dark));
+    button.querySelector('[data-theme-label]').textContent = dark ? 'Scuro' : 'Chiaro';
+    button.disabled = false;
+    button.addEventListener('click', () => {
+      window.stringheTheme(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark');
+    });
   });
   // Le copie scaricate mantengono i rimandi al portale; online restano nel ramo corrente.
   if (location.protocol === 'file:') {

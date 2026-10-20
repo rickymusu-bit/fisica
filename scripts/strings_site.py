@@ -1,8 +1,10 @@
 """Tema Stringhe e pagine del portale, generate senza cambiare gli articoli sorgente."""
 from html import escape, unescape
+from html.parser import HTMLParser
+from datetime import date
 import json
 import re
-from stringhe_theme import apply_theme, theme_control, logo, logo_script
+from stringhe_theme import apply_theme, theme_control, logo, logo_script, ROOT
 
 BASE = "./"
 
@@ -58,14 +60,14 @@ a{color:inherit}button,input{font:inherit}button{cursor:pointer}a:focus-visible,
 main{max-width:1160px;margin:auto;padding:36px 24px 80px}h1,h2,h3,p{margin-top:0}h1{font-size:clamp(48px,8vw,96px);line-height:1.02;letter-spacing:-.065em;margin-bottom:16px}h2{font-size:clamp(25px,3vw,34px);line-height:1.18;letter-spacing:-.04em}h3{font-size:18px;line-height:1.4}.eyebrow{color:var(--blue);font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.14em}
 .subtitle{font-size:clamp(20px,3vw,29px);color:var(--accent);max-width:660px;line-height:1.45}.hero{position:relative;overflow:hidden;border-radius:26px;border:1px solid var(--line);background:var(--surface);padding:clamp(25px,5vw,60px);box-shadow:var(--shadow)}.hero-copy{position:relative;z-index:2}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;scroll-behavior:auto!important}}
-.actions{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:24px 0 42px}
+.actions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:24px 0 42px}
 .action{display:flex;flex-direction:column;justify-content:space-between;gap:12px;min-height:128px;padding:22px;border:1px solid var(--line);border-radius:18px;background:var(--white);color:var(--ink);text-align:left;text-decoration:none;box-shadow:0 3px 12px rgba(20,33,61,.035)}
 .action:hover{border-color:var(--accent);transform:translateY(-2px);box-shadow:var(--shadow)}.action-symbol{font-size:24px;color:var(--blue);line-height:1}.action strong{font-size:17px;line-height:1.3}.action small{color:var(--muted);font-size:12px}.action.lang-action{display:block;position:relative}.action.lang-action summary{cursor:pointer;list-style:none}.action.lang-action summary::-webkit-details-marker{display:none}.action.lang-action[open]{z-index:3}.action.lang-action .lang-menu{position:static;box-shadow:none;margin-top:10px}
 .section-heading{display:flex;align-items:end;justify-content:space-between;gap:15px;margin:32px 0 18px}.section-heading p{color:var(--muted);margin:0}.section-heading a{text-decoration:none;color:var(--blue);font-weight:650}
 .covers{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:28px;align-items:stretch;margin-bottom:32px}
 .cover{margin:0;overflow:hidden;background:var(--surface-soft);border:1px solid var(--line);border-radius:20px}.cover img{width:100%;height:260px;display:block;object-fit:contain;background:#fff}.cover figcaption{font-size:13px;color:var(--muted);background:var(--surface);padding:14px}
 .category{display:flex;flex-direction:column;justify-content:center;gap:12px;border-radius:20px;background:var(--surface);border:1px solid var(--line);padding:30px;text-decoration:none}.category:hover{border-color:var(--blue)}.category span{color:var(--blue);font-weight:650;font-size:13px}.category h3{font-size:27px;letter-spacing:-.04em;margin:0}.category p{color:var(--muted);margin:0}
-.featured{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.mini{display:block;border:1px solid var(--line);border-radius:16px;background:var(--surface);padding:23px;text-decoration:none;min-height:160px}.mini:hover{border-color:var(--blue)}.mini .number{color:var(--teal);font-size:12px;font-weight:700}.mini strong{display:block;margin-top:12px;line-height:1.4}.mini span:last-child{font-size:12px;color:var(--muted)}
+.featured{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.mini{display:block;border:1px solid var(--line);border-radius:16px;background:var(--surface);padding:23px;text-decoration:none;min-height:160px}.mini:hover{border-color:var(--blue)}.mini .chapter-update{color:var(--teal);font-size:12px;font-weight:700}.mini strong{display:block;margin-top:12px;line-height:1.4}.mini span:last-child{font-size:12px;color:var(--muted)}
 .page-title{font-size:clamp(42px,6vw,70px);margin-bottom:14px}.lede{max-width:730px;color:var(--muted);font-size:18px;margin-bottom:26px}
 .search{width:100%;padding:17px 20px;border:1px solid var(--line);border-radius:15px;background:var(--surface);margin:16px 0 24px}
 .chips{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:32px}.chip{border:1px solid var(--line);background:var(--surface);padding:10px 15px;border-radius:30px;font-size:13px;font-weight:650}.chip[aria-pressed=true]{background:var(--ink);color:var(--surface)}
@@ -75,8 +77,8 @@ main{max-width:1160px;margin:auto;padding:36px 24px 80px}h1,h2,h3,p{margin-top:0
 .placeholder{padding:36px;border:1px solid var(--line);border-radius:22px;background:var(--surface)}.placeholder h2{margin-bottom:10px}
 .site-footer{padding:22px 24px;border-top:1px solid var(--line);max-width:1160px;margin:auto;color:var(--muted);display:flex;gap:14px;flex-wrap:wrap;justify-content:space-between;font-size:13px}.site-footer a{color:var(--blue)}
 [hidden]{display:none!important}
-@media(max-width:800px){.actions{grid-template-columns:repeat(2,minmax(0,1fr))}.covers{grid-template-columns:1fr}.hero-strings{width:70%;right:-28%}}
-@media(max-width:540px){.top-inner{padding:9px 14px;flex-wrap:wrap}.brand{font-size:19px}.site-nav{width:100%;gap:6px}.site-nav>a,.lang>summary{font-size:12px;padding:6px 9px}.site-nav>a:first-child{margin-left:-9px}main{padding:22px 15px 60px}.hero{padding:30px 23px}.hero-strings{opacity:.17}.action{padding:15px;min-height:112px}.action strong{font-size:14px}.section-heading{align-items:start}.featured{grid-template-columns:1fr}.mini{min-height:90px}.article-card{align-items:start;flex-direction:column}.download{align-self:flex-start}.cover img{height:200px}}
+@media(max-width:800px){.actions{grid-template-columns:repeat(3,minmax(0,1fr))}.covers{grid-template-columns:1fr}.hero-strings{width:70%;right:-28%}}
+@media(max-width:540px){.actions{grid-template-columns:1fr}.top-inner{padding:9px 14px;flex-wrap:wrap}.brand{font-size:19px}.site-nav{width:100%;gap:6px}.site-nav>a,.lang>summary{font-size:12px;padding:6px 9px}.site-nav>a:first-child{margin-left:-9px}main{padding:22px 15px 60px}.hero{padding:30px 23px}.hero-strings{opacity:.17}.action{padding:15px;min-height:112px}.action strong{font-size:14px}.section-heading{align-items:start}.featured{grid-template-columns:1fr}.mini{min-height:90px}.article-card{align-items:start;flex-direction:column}.download{align-self:flex-start}.cover img{height:200px}}
 """
 
 
@@ -125,22 +127,44 @@ def inline_covers(covers):
                        for x in covers], ensure_ascii=False).replace("<", "\\u003c")
 
 
+class ChapterDate(HTMLParser):
+    def __init__(self, source):
+        super().__init__()
+        self.value = None
+        self.feed(source)
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if tag == 'meta' and attrs.get('name') == 'date':
+            self.value = attrs.get('content')
+
+
+def recent_chapters(items, root=ROOT, limit=3):
+    """Date editoriali dei soli capitoli ammessi; nessuna dipendenza da Git/mtime."""
+    months = ('gennaio', 'febbraio', 'marzo', 'aprile', 'maggio', 'giugno',
+              'luglio', 'agosto', 'settembre', 'ottobre', 'novembre', 'dicembre')
+    dated = []
+    for position, item in enumerate(items):
+        value = ChapterDate((root / item['file']).read_text(encoding='utf-8-sig')).value
+        if value is None:
+            raise ValueError(f"Data editoriale mancante: {item['file']}")
+        changed = date.fromisoformat(value)
+        dated.append((changed, position, {**item, 'date': changed.isoformat(),
+                      'date_label': f'{changed.day} {months[changed.month - 1]} {changed.year}'}))
+    # Pari data: prima i capitoli più avanti nell’ordine del catalogo.
+    dated.sort(key=lambda entry: (entry[0], entry[1]), reverse=True)
+    return [entry[2] for entry in dated[:limit]]
+
+
 def render_home(source, covers, allowed):
     items = catalogue(source, allowed)
     paths = json.dumps([x["file"] for x in items], ensure_ascii=False).replace("<", "\\u003c")
     first = covers[0]
-    groups = {}
-    for item in items:
-        groups.setdefault(item["area"], []).append(item)
-    categories = "".join(
-        f'<a class="category" href="articoli.html"><h3>{e(name)} ↗</h3>'
-        f'<p>{len(group)} capitoli. Esplora tutti i contenuti.</p></a>'
-        for name, group in groups.items())
-    selection = [items[i] for i in dict.fromkeys([0, len(items)//2, len(items)-1])]
     featured = "".join(
-        f'<a class="mini" href="{e(x["file"])}"><span class="number">CAPITOLO {i+1:02d}</span>'
+        f'<a class="mini" href="{e(x["file"])}">'
+        f'<span class="chapter-update">Aggiornato il <time datetime="{x["date"]}">{x["date_label"]}</time></span>'
         f'<strong>{e(x["title"])}</strong><span>Leggi →</span></a>'
-        for i, x in enumerate(selection))
+        for x in recent_chapters(items))
     body = (f'<section class="hero home-title home-intro">'
             '<div class="hero-copy">'
             f'<div class="hero-title">{logo()}<h1>Stringhe</h1></div><p class="subtitle">L’essenziale della Fisica</p></div>'
@@ -150,13 +174,9 @@ def render_home(source, covers, allowed):
             '<a class="action" href="articoli.html"><span class="action-symbol">≡</span><strong>Tutti i capitoli</strong><small>Scegli un argomento</small></a>'
             '<button class="action" id="random-article" type="button"><span class="action-symbol">↝</span><strong>Mi sento fortunato</strong><small>Leggi un capitolo casuale</small></button>'
             '<a class="action" href="quiz.html"><span class="action-symbol">?</span><strong>Quiz</strong><small>Prossimamente</small></a>'
-            '<details class="action lang-action"><summary><span class="action-symbol">文</span>'
-            '<br><strong>Lingua</strong><br><small>Italiano ▾</small></summary>'
-            '<div class="lang-menu">Disponibile: <strong>Italiano</strong></div></details></section>'
-            '<section><div class="section-heading"><h2>Esplora gli argomenti</h2>'
-            '<a href="articoli.html">Vedi tutti →</a></div><div class="covers">'
-                        f'<div class="categories">{categories}</div></div></section>'
-            '<section><div class="section-heading"><h2>Da leggere</h2></div>'
+            '</section>'
+            '<section aria-labelledby="news-title"><div class="section-heading"><h2 id="news-title">Novità</h2>'
+            '<a href="articoli.html">Tutti i capitoli →</a></div>'
             f'<div class="featured">{featured}</div></section>'
             f'<script type="application/json" id="catalogue-data">{paths}</script>'
             f'<script type="application/json" id="cover-data">{inline_covers(covers)}</script>'

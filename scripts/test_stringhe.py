@@ -5,7 +5,8 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 import re
 import unittest
-from strings_site import enhance_article, catalogue
+import tempfile
+from strings_site import enhance_article, catalogue, recent_chapters
 from stringhe_theme import ROOT
 
 
@@ -26,7 +27,7 @@ class PublicationTests(unittest.TestCase):
                 without_logo = lambda text: re.sub(r'<button\b[^>]*data-logo-toggle[^>]*>[\s\S]*?</button>', '', text)
                 self.assertEqual(re.findall(r'<path\b[^>]*>', without_logo(source)), re.findall(r'<path\b[^>]*>', without_logo(published)))
                 self.assertEqual(published.count('data-stringhe-theme'), 1)
-                self.assertEqual(published.count('data-theme-select'), 3)  # markup e due script comuni
+                self.assertEqual(published.count('data-theme-toggle'), 3)  # markup e due script comuni
                 self.assertIn('data-logo-toggle', published)
                 self.assertIn('data-edge="sides"', published)
                 self.assertNotIn('href="https://rickymusu-bit.github.io/fisica/#indice"', published)
@@ -51,6 +52,26 @@ class PublicationTests(unittest.TestCase):
         quiz = (ROOT / '_site/quiz.html').read_text()
         self.assertIn('generare quiz di verifica scegliendo gli argomenti', quiz)
         self.assertNotIn('Chi vuol essere rimandato', quiz)
+
+
+class NewsTests(unittest.TestCase):
+    def test_news_uses_editorial_dates_and_updates_reorder_chapters(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            items = [{'file': f'{i}.html'} for i in range(4)]
+            for i, day in enumerate(['2026-10-19', '2026-10-17', '2026-10-19', '2026-10-18']):
+                (root / items[i]['file']).write_text(f'<meta content="{day}" name="date"/>')
+            # Un file escluso, anche se più recente, non deve comparire.
+            (root / 'escluso.html').write_text('<meta name="date" content="2026-10-20">')
+            news = recent_chapters(items, root)
+            self.assertEqual([x['file'] for x in news], ['2.html', '0.html', '3.html'])
+            self.assertEqual(news[0]['date_label'], '19 ottobre 2026')
+            (root / '1.html').write_text('<meta name="date" content="2026-10-20">')
+            self.assertEqual(recent_chapters(items, root)[0]['file'], '1.html')
+            (root / '1.html').write_text('<meta name="date" content="2026-02-30">')
+            with self.assertRaises(ValueError):
+                recent_chapters(items, root)
+
 
 
 class LogoTests(unittest.TestCase):

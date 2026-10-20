@@ -785,7 +785,7 @@
   "browser": "Chromium; mobile e touch emulati, nessun dispositivo Android fisico",
   "controlli": [
     "persistenza",
-    "automatico e cambio sistema",
+    "default scuro indipendente dal sistema e switch tastiera",
     "storage bloccato",
     "senza JavaScript",
     "logo e movimento ridotto",
