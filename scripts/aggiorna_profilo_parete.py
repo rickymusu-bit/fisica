@@ -1,59 +1,66 @@
 #!/usr/bin/env python3
-"""Sostituisce esclusivamente il profilo della parete nell'HTML autonomo Conduzione."""
+"""Integra il nuovo SVG senza riserializzare gli altri contenuti del capitolo."""
 from pathlib import Path
 import base64
-import sys
 import re
-from bs4 import BeautifulSoup
+import sys
+from credits import Document
 
-ROOT = Path(__file__).resolve().parents[2]
-HTML = ROOT / "conduzione_it.html"
-SVG = ROOT / "lavorazione/conduzione/risorse/parete-temperatura-profilo-curvo.svg"
-FIGURE = "visuale-immagine-06-e-grafico-g-1"
+ROOT = Path(__file__).resolve().parents[1]
+HTML = ROOT / 'conduzione_it.html'
+SVG = ROOT / 'lavorazione/conduzione/risorse/parete-temperatura-profilo-curvo.svg'
+FIGURE = 'visuale-immagine-06-e-grafico-g-1'
+CREDIT = 'parete-temperatura-profilo-curvo'
+ALT = ('Profilo qualitativo di temperatura attraverso un muro: aria interna a 25 °C '
+       'e aria esterna a −5 °C; raccordi curvi nell’aria e variazione lineare nello spessore della parete.')
+CAPTION = ('L’aria interna è a 25 °C e quella esterna a −5 °C. Il profilo è qualitativo: '
+           'la temperatura varia nell’aria vicino alle superfici e diminuisce linearmente '
+           'nello spessore del muro omogeneo, in condizioni stazionarie.')
+PARAGRAPH = ('Tra l’aria interna e quella esterna c’è una differenza di temperatura di 30 K. '
+             'Questa non è però, in generale, la differenza tra le temperature delle due facce '
+             'della parete richiesta dalla legge di Fourier: gli scambi tra l’aria e le superfici '
+             'producono ulteriori variazioni. Per calcolare la conduzione nel solo muro occorre '
+             'conoscere la differenza di temperatura fra le due facce; la figura ne mostra il '
+             'significato senza assegnarle valori numerici.')
+
+
+def update(source):
+    document = Document(source)
+    figure = next(n for n in document.root.descendants('figure') if n.attrs.get('id') == FIGURE)
+    uri = 'data:image/svg+xml;base64,' + base64.b64encode(SVG.read_bytes()).decode('ascii')
+    edits = []
+    opening = source[figure.start:source.index('>', figure.start)+1]
+    if 'data-credit-id' not in opening:
+        edits.append((figure.start, figure.start+len(opening), opening[:-1]+' data-credit-id="'+CREDIT+'">'))
+    for image in figure.descendants('img'):
+        tag = document.html(image)
+        for key, value in [('src', uri), ('alt', ALT), ('width', '1040'), ('height', '680')]:
+            if re.search(r'\b'+key+r'="[^"]*"', tag):
+                tag = re.sub(r'\b'+key+r'="[^"]*"', lambda _: key+'="'+value+'"', tag)
+            else:
+                tag = tag.replace('<img ', '<img '+key+'="'+value+'" ', 1)
+        edits.append((image.start, image.end, tag))
+    caption = next(figure.descendants('figcaption'))
+    edits.append((caption.start, caption.end, '<figcaption>'+CAPTION+'</figcaption>'))
+    for paragraph in document.root.descendants('p'):
+        if document.html(paragraph).startswith('<p>Nell’illustrazione le due facce'):
+            edits.append((paragraph.start, paragraph.end, '<p>'+PARAGRAPH+'</p>'))
+    for start, end, replacement in sorted(edits, reverse=True):
+        source = source[:start]+replacement+source[end:]
+    return source
+
 
 def main():
-    if not HTML.exists() or not SVG.exists():
-        raise SystemExit("Mancano HTML o SVG: nessuna modifica.")
-    original = HTML.read_text(encoding="utf-8")
-    pattern = r'<figure\\b[^>]*id="' + re.escape(FIGURE) + r'"[^>]*>.*?</figure>'
-    match = re.search(pattern, original, re.S)
-    if match is None:
-        raise SystemExit("Figura assente dal documento originale: nessuna modifica.")
-    figure = BeautifulSoup(match.group(0), "html.parser").find("figure")
-    if figure is None:
-        raise SystemExit(f"Figura {FIGURE!r} assente: nessuna modifica.")
-    im = figure.select_one(".overview img")
-    if im is None:
-        raise SystemExit("Immagine principale mancante: nessuna modifica.")
-    alt = ("Profilo qualitativo di temperatura attraverso un muro: aria interna a "
-           "25 °C e aria esterna a −5 °C; raccordi curvi nell'aria e variazione "
-           "lineare nello spessore della parete.")
-    src = "data:image/svg+xml;base64," + base64.b64encode(SVG.read_bytes()).decode("ascii")
-    im["src"] = src
-    im["alt"] = alt
-    for zoom in figure.select("[data-zoom-copy]"):
-        zoom["alt"] = alt
-        zoom["src"] = src
-    caption = figure.find("figcaption")
-    if caption is None:
-        raise SystemExit("Didascalia mancante: nessuna modifica.")
-    caption.string = (
-        "L'aria interna è a 25 °C e quella esterna a −5 °C. "
-        "Il profilo è qualitativo: vicino alle superfici varia anche la temperatura "
-        "dell'aria, mentre all'interno del muro omogeneo a regime stazionario "
-        "la temperatura varia linearmente. Le temperature delle due superfici "
-        "non coincidono necessariamente con quelle dell'aria."
-    )
-    # Conserva gli altri elementi e aggiorna solo l'HTML di questa figura.
-    output = original[:match.start()] + str(figure) + original[match.end():]
-    test = BeautifulSoup(output, "html.parser").find("figure", id=FIGURE)
-    if test is None or "image/svg+xml" not in test.select_one(".overview img").get("src", ""):
-        raise SystemExit("Validazione fallita: nessuna modifica.")
-    if "--check" in sys.argv:
-        print("Figura individuata; sostituzione verificabile, nessun file scritto.")
+    source = HTML.read_text()
+    result = update(source)
+    if '--check' in sys.argv:
+        if source != result:
+            raise SystemExit('Profilo non ancora allineato nell’HTML.')
+        print('SVG, ingrandimento, didascalia e testo allineati.')
     else:
-        HTML.write_text(output, encoding="utf-8")
-        print(f"Aggiornato {HTML}")
+        HTML.write_text(result)
+        print('Profilo della parete integrato nel capitolo.')
 
-if __name__ == "__main__":
+
+if __name__ == '__main__':
     main()
