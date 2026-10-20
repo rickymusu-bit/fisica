@@ -6,6 +6,7 @@ import json
 from urllib.parse import unquote, urlsplit
 from home_covers import load_covers, render_covers
 from home_italian import render_italian
+from strings_site import render_home, render_catalogue, render_quiz, enhance_article
 from credits import load_registry, validate
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -54,7 +55,7 @@ def main():
     document = read_document(index)
     if document.catalogue_links != allowed_articles:
         raise ValueError("Il catalogo non corrisponde agli articoli conformati ammessi")
-    service_pages = {"crediti.html"}
+    service_pages = {"crediti.html", "articoli.html", "quiz.html"}
     sources = {index, ROOT / "crediti.html"}
     for link in document.links:
         url = urlsplit(link)
@@ -91,10 +92,13 @@ def main():
         target = OUTPUT / source.relative_to(ROOT)
         target.parent.mkdir(parents=True, exist_ok=True)
         if source == index:
-            target.write_text(render_italian(
-                render_covers(source.read_text(encoding="utf-8"), covers), ROOT), encoding="utf-8")
+            target.write_text(render_home(source.read_text(encoding="utf-8"), covers, allowed_articles), encoding="utf-8")
+        elif source.name in allowed_articles:
+            target.write_text(enhance_article(source.read_text(encoding="utf-8-sig"), source.name), encoding="utf-8")
         else:
             shutil.copyfile(source, target)
+    (OUTPUT / "articoli.html").write_text(render_catalogue(index.read_text(encoding="utf-8"), allowed_articles), encoding="utf-8")
+    (OUTPUT / "quiz.html").write_text(render_quiz(index.read_text(encoding="utf-8")), encoding="utf-8")
     for cover in covers:
         source = ROOT / cover["src"]
         target = OUTPUT / cover["src"]
@@ -113,7 +117,7 @@ def main():
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(ROOT / name, target)
     (OUTPUT / ".nojekyll").touch()
-    print(f"Preparati {len(sources)} HTML in italiano e {len(covers)} copertine.")
+    print(f"Preparati {len(sources) + 2} HTML in italiano e {len(covers)} copertine.")
 
 
 if __name__ == "__main__":
