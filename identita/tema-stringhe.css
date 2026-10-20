@@ -224,5 +224,5 @@ a{color:inherit}button,input,select{font:inherit}button,select{color:var(--ink)}
 .home-header .top-inner{justify-content:flex-end}
 .home-header .site-nav{width:auto;justify-content:flex-end;flex-wrap:nowrap;gap:6px}
 /* Nome della funzione condiviso da mouse, tastiera e touch. */
-.function-tooltip{position:fixed;width:max-content;z-index:1000;max-width:min(280px,calc(100vw - 16px));margin:0;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--ink);color:var(--paper);box-shadow:var(--shadow);font:500 13px/1.45 Lexend,system-ui,sans-serif;overflow-wrap:anywhere}
+.function-tooltip{position:fixed;pointer-events:none;width:max-content;z-index:1000;max-width:min(280px,calc(100vw - 16px));margin:0;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--ink);color:var(--paper);box-shadow:var(--shadow);font:500 13px/1.45 Lexend,system-ui,sans-serif;overflow-wrap:anywhere}
 .function-tooltip[hidden]{display:none}
