@@ -1,6 +1,6 @@
-# Logo definitivo di Materia Oscura
+# Logo definitivo di Stringhe
 
-Versione v5 · 18 ottobre 2026. Scelta approvata dall’utente, che ha richiesto di eliminare gli altri tentativi, pubblicarla nella home e sostituire l’icona in alto a sinistra negli articoli. È una regola del tema comune **v7**, salvato in `riferimenti/TEMA_DISPENSE.html`.
+Versione v6 — 20 ottobre 2026. Scelta approvata dall’utente, che ha richiesto di eliminare gli altri tentativi, pubblicarla nella home e sostituire l’icona in alto a sinistra negli articoli. È una regola del tema comune **v7**, salvato in `riferimenti/TEMA_DISPENSE.html`.
 
 I soli file grafici correnti sono:
 
@@ -9,7 +9,7 @@ I soli file grafici correnti sono:
 
 Una sola curva nera su sfondo trasparente, senza riempimenti, scie o configurazioni sovrapposte. Onda sinusoidale **stazionaria**, quattro creste, nodi angolari fissi e ventri oscillanti, nessuna rotazione. Ampiezza definitiva **20**, raggio di riferimento 104 e tratto di 7 unità nel viewBox 320 × 320. Non ridurre l’ampiezza né riprendere le proposte progressive o a otto lobi. Il motivo a quadretti dell’anteprima serve soltanto a mostrare la trasparenza.
 
-Il logo compare accanto al titolo nella home e al posto del simbolo φ nella barra in alto a sinistra di ogni articolo conformato. Il modello autonomo conserva l’esatto componente da riusare nei capitoli futuri: SVG incorporato, pulsante per pausa/ripresa e movimento ridotto, dimensioni responsive. Il collegamento «Fisica» accanto al logo continua a riportare all’inizio dell’articolo.
+Il logo compare accanto al titolo nella home e al posto del simbolo φ nella barra in alto a sinistra di ogni articolo conformato. Il modello autonomo conserva l’esatto componente da riusare nei capitoli futuri: SVG incorporato, pulsante per pausa/ripresa e movimento ridotto, dimensioni responsive. Il collegamento «Stringhe» accanto al logo continua a riportare all’inizio dell’articolo.
 
 I controlli comuni sono in `controlli-logo.js`, incorporati identici nella home e nel tema. Si può fermare/riprendere il logo con clic, Invio o Spazio. Con movimento ridotto parte fermo; senza script lo SVG mantiene l’animazione nativa e l’alternativa ferma prevista dalla preferenza di movimento. Gli articoli restano autonomi e offline. I sette sorgenti esclusi da `pubblicazione.json` non ricevono aggiornamenti.
 
@@ -18,3 +18,9 @@ Modello geometrico: `r(θ,t)=104+20 cos(4θ) sin(2πt/T)`, `T=4 s`. Nodi a 22,5�
 La build pubblica soltanto questa coppia di file sotto `identita/`. I tentativi precedenti e i loro generatori/anteprime sono rimossi dall’albero corrente; quelli già salvati restano recuperabili in Git, senza ripristinarli come alternative attive. Il riferimento originale dell’utente resta conservato in `lavorazione/sito/risorse-originali/riferimento-stringhe.jpg`, non pubblicato.
 
 Anteprima unica: `lavorazione/sito/anteprima-logo.html`. Verifica del modello e hash dei file: `lavorazione/sito/verifica-logo.json`; controlli di integrazione e pubblicazione: `lavorazione/sito/logo-definitivo.json`.
+
+## Tema condiviso del sito
+
+Il nome storico dei file del logo resta stabile. Palette e componenti Stringhe sono in `tema-stringhe.css`, `tema-init.js`, `tema-controlli.js`; `scripts/stringhe_theme.py` li incorpora nel portale e nel modello v11, senza richieste esterne. Il logo originale e i suoi controlli non sono stati ridisegnati. Sullo scuro una superficie chiara dedicata rende leggibile il tratto nero.
+
+Per aggiornare modello e confronto usare `python3 scripts/sync_stringhe_theme.py`, quindi `--check`. I documenti scientifici sorgenti restano invariati; la build trasforma solo le nove copie ammesse. Le varianti di bordi e reticolo sono confrontabili nell’anteprima di sviluppo e attendono la scelta dell’utente.

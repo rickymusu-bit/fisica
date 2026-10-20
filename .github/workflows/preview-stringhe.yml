@@ -9,6 +9,10 @@ on:
       - 'scripts/**'
       - 'index.html'
       - 'pubblicazione.json'
+      - 'identita/**'
+      - 'riferimenti/TEMA_DISPENSE.html'
+      - 'risorse/**'
+      - 'lavorazione/sito/schermate/**'
   workflow_dispatch:
 
 permissions:
@@ -25,16 +29,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: Genera anteprima degli articoli ammessi
         run: python3 scripts/build_pages.py
-      - name: Adatta navigazione all'anteprima
-        run: |
-          python3 - <<'PY'
-          from pathlib import Path
-          root = Path('_site')
-          for path in root.glob('*.html'):
-              content = path.read_text(encoding='utf-8')
-              content = content.replace('https://rickymusu-bit.github.io/fisica/', './')
-              path.write_text(content, encoding='utf-8')
-          PY
+      - name: Aggiungi i confronti alla sola anteprima
+        run: cp -r lavorazione/sito/schermate _site/schermate
       - name: Pubblica i file generati su ramo isolato
         env:
           GH_TOKEN: ${{ github.token }}

@@ -1,5 +1,18 @@
 # Stato — Home e GitHub Pages
 
+## Lavorazione corrente — Stringhe globale, 20 ottobre 2026
+
+Richiesta esplicita: applicare `PIANO_IMPLEMENTAZIONE_STRINGHE.md` nel ramo design, identificato dal piano come `design/stringhe-portale` (PR #43, bozza). Master consultato v64; aggiornamento circoscritto a v65 per identità, tema e navigazione, senza revisione dei contenuti didattici. Questa lavorazione non eredita le autorizzazioni di pubblicazione dei blocchi storici sottostanti.
+
+Tema condiviso completo per home, catalogo, Quiz preparatorio, crediti, nove copie pubblicabili e modello autonomo v11. Ripristinati logo circolare originale e copertina casuale; quattro accessi conservati; Quiz descritto come futuro generatore di verifica. Aggiunti Automatico / Chiaro / Scuro persistenti, senza dipendenze esterne, e confronto indipendente dei bordi A/B, reticolo A/B e posizione delle curve. Il campione A visualizzato inizialmente resta provvisorio. Navigazione relativa online e fallback pubblico dalle copie scaricate.
+
+I nove sorgenti ammessi, i sette sospesi, le traduzioni, il manifest e i due file grafici del logo rimangono identici alla base Git. Le modifiche agli articoli riguardano soltanto `_site`. Il modello è realmente aggiornato e sincronizzato con le componenti canoniche. Il registro conserva le attribuzioni e aggiorna il solo inventario del logo del modello.
+
+Verificati crediti, sincronizzazione modello, build, dieci test e 150 combinazioni browser pagina/viewport/tema. Venti foto e nove destinazioni casuali provate. Nessun overflow o errore JavaScript. Chromium con mobile/touch emulato; Android fisico non disponibile. File:// bloccato dalla policy locale, documento autonomo verificato in memoria con rete bloccata; Actions esegue anche la prova diretta e ne registra l’esito. Dettagli, pro/contro e schermate in [confronto-stringhe.md](confronto-stringhe.md) e [verifica-stringhe.json](verifica-stringhe.json).
+
+Prossimo passo: consegnare PR in bozza e anteprima Android aggiornata sul ramo isolato `stringhe-preview`, attendere la scelta esplicita su bordi e reticolo. Nessun merge o deployment del sito ufficiale autorizzato da questo incarico.
+
+
 ## Pubblicazione autorizzata — centralizzazione dei crediti
 
 L’utente ha richiesto esplicitamente «Pubblica le modifiche». Autorizzate integrazione della PR #35 in main e pubblicazione tramite il workflow Pages esistente. Questa richiesta supera lo stato precedente di sola bozza; il manifest resta invariato. Si pubblicano le modifiche già verificate al commit `dce6358370806d393292aced65870f2294b357ef`, conservando pubblicamente la lista delle verifiche di licenza aperte. La pubblicazione non certifica i diritti mancanti. Pubblicazione completata e verificata: PR #35 integrata nel commit `bfe24eb80403dc6ca6cc9a1300163409d0892b8c`; [workflow Pages 39167838089](https://github.com/rickymusu-bit/fisica/actions/runs/39167838089) concluso con successo. Home, cinque articoli, pagina crediti, archivio JSON e OFL: HTTP 200 e contenuti identici byte per byte alla build verificata. Sette articoli esclusi e due indirizzi dismessi: HTTP 404. Esiti e hash nella proprietà `publication` di `crediti-verifiche.json`. Nessuna operazione di pubblicazione pendente; restano le verifiche dei diritti già segnalate.

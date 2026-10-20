@@ -8,6 +8,9 @@ on:
       - 'pubblicazione.json'
       - '*.html'
       - 'copertine/**'
+      - 'identita/**'
+      - 'riferimenti/**'
+      - 'risorse/**'
       - '.github/workflows/test-stringhe.yml'
   workflow_dispatch:
 
@@ -19,28 +22,29 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Verifica generazione portale
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verifica componenti e crediti
+        run: |
+          python3 scripts/sync_stringhe_theme.py --check
+          python3 scripts/credits.py --check
+      - name: Verifica build e isolamento dei contenuti
         run: |
           python3 scripts/build_pages.py
-          python3 - <<'PY'
-          from pathlib import Path
-          from html.parser import HTMLParser
-          import json
-          root = Path('_site')
-          for name in ('index.html', 'articoli.html', 'quiz.html'):
-              assert (root / name).is_file(), name
-              text = (root / name).read_text()
-              assert 'Stringhe' in text
-              assert 'L’essenziale della Fisica' in text
-          publication = json.loads(Path('pubblicazione.json').read_text())
-          home = (root / 'index.html').read_text()
-          for x in publication['articoli']:
-              text = (root / x).read_text()
-              assert '⌂ Home' in text, x
-              assert '↓ Scarica' in text, x
-              assert 'string-lang' in text, x
-          for x in publication['esclusi_da_pubblicazione_e_aggiornamenti']:
-              assert not (root / x).exists(), x
-          assert 'random-article' in home
-          print('Verifica Stringhe superata')
-          PY
+          python3 -m unittest discover -s scripts -p 'test_*.py'
+      - name: Prepara Chromium per i controlli desktop e mobile
+        run: |
+          python3 -m pip install playwright==1.56.0
+          python3 -m playwright install --with-deps chromium
+      - name: Verifica interazioni, temi, file offline e viewport
+        env:
+          CHROMIUM_PATH: ''
+        run: python3 scripts/verify_stringhe_browser.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: confronti-stringhe
+          path: |
+            lavorazione/sito/schermate/
+            lavorazione/sito/verifica-stringhe.json

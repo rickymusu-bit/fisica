@@ -28,11 +28,11 @@ Non pubblicare né ripristinare vecchi indirizzi o reindirizzamenti degli artico
 
 L’ordine degli articoli nell’indice e nella navigazione precedente/successivo è: **Stati della materia → Passaggi di stato → Conduzione → Convezione → Irraggiamento**, secondo la richiesta esplicita del 18 ottobre 2026.
 
-Per la home usa il titolo esatto **Materia Oscura** e il sottotitolo **Guida pratica per fare luce sulla Fisica**, anche nei metadati pertinenti: questa nuova richiesta esplicita dell’utente sostituisce il precedente nome del sito riportato in A6. La gerarchia editoriale resta **Area tematica → Articolo → Sezione**, ma nella home mostra soltanto il nome del gruppo (per esempio «Materia e calore»), senza l’etichetta «Area tematica». Applica `riferimenti/TERMINOLOGIA_SITO.md` v4 insieme alle altre etichette di A6, senza aggiornare i sorgenti esclusi.
+Per la home usa il titolo esatto **Stringhe** e il sottotitolo **L’essenziale della Fisica**, anche nei metadati pertinenti: questa nuova richiesta esplicita dell’utente sostituisce il precedente nome del sito riportato in A6. La gerarchia editoriale resta **Area tematica → Articolo → Sezione**, ma nella home mostra soltanto il nome del gruppo (per esempio «Materia e calore»), senza l’etichetta «Area tematica». Applica `riferimenti/TERMINOLOGIA_SITO.md` corrente insieme alle altre etichette di A6, senza aggiornare i sorgenti esclusi.
 
 Traduci le etichette delle infografiche e degli schemi quando richiesto; questa regola non si estende alle scritte presenti nelle fotografie, comprese le termografie. La foto delle anatre mantiene la scala originale: l’utente ha escluso la conversione.
 
-Il logo grafico definitivo di Materia Oscura è l’**onda sinusoidale stazionaria a quattro creste**, nera su trasparente, con nodi fissi e ampiezza 20, salvata in `identita/logo-materia-oscura.svg` e `.gif`. Usa solo questa coppia, senza riprendere i tentativi rimossi. Applicala accanto al titolo della home e al posto dell’icona nella barra in alto a sinistra degli articoli conformati e futuri. La scelta, il pulsante di pausa/ripresa, il movimento ridotto e le dimensioni responsive sono parte dell’esatto tema comune **v7** salvato in `riferimenti/TEMA_DISPENSE.html`; specifiche in `identita/README.md` v5. Mantieni i documenti autonomi incorporando SVG e controlli comuni, senza modificare i sette articoli esclusi.
+Il logo grafico definitivo di Stringhe è l’**onda sinusoidale stazionaria a quattro creste**, nera su trasparente, con nodi fissi e ampiezza 20, salvata in `identita/logo-materia-oscura.svg` e `.gif`. Usa solo questa coppia, senza riprendere i tentativi rimossi. Applicala accanto al titolo della home e al posto dell’icona nella barra in alto a sinistra degli articoli conformati e futuri. La scelta, il pulsante di pausa/ripresa, il movimento ridotto e le dimensioni responsive sono parte dell’esatto tema comune **v7** salvato in `riferimenti/TEMA_DISPENSE.html`; specifiche in `identita/README.md` v5. Mantieni i documenti autonomi incorporando SVG e controlli comuni, senza modificare i sette articoli esclusi.
 
 I visuali devono conservare la stessa struttura su ogni dispositivo: non cambiare disposizione, relazioni, assi o organizzazione di schemi, grafici e tabelle nella vista mobile. Ridimensiona proporzionalmente e, se scritte o dettagli risultano troppo piccoli, usa «Ingrandisci l’immagine» del tema con scorrimento interno. Le sorgenti responsive possono cambiare risoluzione, non composizione. Questa richiesta esplicita prevale sulle precedenti indicazioni di A6 e C4 che consentivano di riorganizzare i visuali su smartphone; resta possibile adattare l’impaginazione del testo. Tema autonomo v7. In Passaggi di stato lo schema resta triangolare anche su mobile.
 
@@ -54,15 +54,21 @@ Nome ufficiale del sito: **Stringhe**. Sottotitolo esatto: **L’essenziale dell
 La home è un portale con quattro accessi: Tutti gli articoli, Mi sento fortunato, Quiz e Lingua.
 Il catalogo è una pagina indipendente `articoli.html`, con ricerca e filtro per area tematica;
 la scelta casuale include soltanto gli articoli approvati in `pubblicazione.json`.
-La pagina `quiz.html` è preparatoria finché il gioco non è integrato.
+La pagina `quiz.html` presenta il futuro generatore di quiz di verifica su argomenti scelti dall’utente. Il progetto separato «Chi vuol essere rimandato» non fa parte di questa funzione.
 Ogni articolo pubblicato offre in testa: Home, Articoli, Scarica, Lingua; resta distinto l'indice interno.
 Il tema visivo richiama stringhe vibranti con onde sottili e movimento rispettoso di
 `prefers-reduced-motion`. Evitare che la metafora decorativa interferisca con schemi scientifici.
 La build applica il tema condiviso tramite `scripts/strings_site.py`, senza aggiornare
-i sorgenti degli articoli sospesi. La denominazione precedente e il logo storico
-rimangono nei file già esistenti come materiale transitorio finché non sarà approvata
-una migrazione dei sorgenti; il sito pubblicato e i nuovi materiali usano Stringhe.
+i sorgenti degli articoli sospesi. Il logo circolare originale resta obbligatorio, con percorso storico invariato. Le denominazioni storiche nei documenti di provenienza conservano il loro significato; l’interfaccia corrente usa Stringhe.
 
 ## Incarico approvato — specifica Stringhe del 20 ottobre 2026
 
 Per il prossimo sviluppo del portale e del tema leggere **prima** `lavorazione/sito/PIANO_IMPLEMENTAZIONE_STRINGHE.md` insieme al master e allo stato: è la lista operativa di Codex per logo circolare originale, copertina casuale, bordi sinusoidali A/B, dark mode opzionale e quiz di verifica futuro. Essa recepisce le correzioni esplicite più recenti dell'utente rispetto alla precedente proposta di design. Conservare la PR in bozza e non pubblicare senza una nuova approvazione.
+
+## Tema Stringhe comune — modello v11
+
+Il piano Stringhe autorizza il restyling globale: portale, servizi, nove copie pubblicabili e modello ufficiale. Token, palette, reticolo e comportamenti sono definiti una sola volta in `identita/tema-stringhe.css`, `tema-init.js`, `tema-controlli.js`, incorporati da `scripts/stringhe_theme.py`. Il modello autonomo v11 conserva le stesse componenti: dopo una modifica condivisa eseguire `python3 scripts/sync_stringhe_theme.py`, poi `--check`. Non generare il modello da un articolo né modificare i sorgenti sospesi. La sincronizzazione riguarda soltanto modello, confronto e pagina dei crediti; non usare `credits.py --sync` per una migrazione generale non autorizzata.
+
+Il selettore Automatico / Chiaro / Scuro vale anche per le nuove dispense e funziona senza storage. Logo e risorse scientifiche non si invertono; i visuali restano sulle superfici appropriate. La navigazione online è relativa; i rimandi del documento scaricato hanno il fallback pubblico.
+
+Bordi A/B e reticolo A/B sono campioni di confronto, non scelte definitive approvate. Pagina `lavorazione/sito/anteprima-bordi-stringhe.html`, generata dallo stesso tema e pubblicata solo nell’anteprima di sviluppo. Conservare la PR #43 in bozza. Non unire main né avviare Pages prima della scelta esplicita e dell’autorizzazione alla pubblicazione.

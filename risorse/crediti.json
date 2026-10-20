@@ -5161,6 +5161,21 @@
       ]
     },
     {
+      "id": "asset-76c53eeedf5132a9137e498ad5d9b7539f90e6520d0a50f89bea41d8405e470b",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "riferimenti/TEMA_DISPENSE.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "brand-logo",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        }
+      ]
+    },
+    {
       "id": "asset-76c6ed6a84bc4a95aebb5dc01c863904be0ed8d0e181d7bfb566921986d28d3a",
       "kind": "image/webp",
       "uses": [
@@ -5391,15 +5406,6 @@
       "uses": [
         {
           "document": "bilancio_termico_it.html",
-          "kind": "svg",
-          "description": "svg",
-          "locator": "brand-logo",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "riferimenti/TEMA_DISPENSE.html",
           "kind": "svg",
           "description": "svg",
           "locator": "brand-logo",
