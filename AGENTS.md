@@ -47,3 +47,18 @@ Per la richiesta esplicita corrente, migrare i crediti di tutti gli articoli HTM
 Applicare C1 del master: nessuna sezione finale visibile automatica per immagini o font. Fonte unica `risorse/crediti.json`; pagina generata `crediti.html`; accesso comune e snapshot incorporato offline del tema v10. Registrare metadati disponibili tramite gli attributi `data-credit-*` e `python3 scripts/credits.py --sync`, quindi eseguire `--check` e la build Pages. Riutilizzare le schede esistenti, conservare gli avvisi OFL di Lexend e rispettare le eccezioni delle singole licenze, anche accanto alla figura quando prescritto. Non eliminare riferimenti scientifici né inventare autorizzazioni. Le istruzioni operative e lo schema sono in `risorse/README.md`.
 
 Il tema v10 usa un solo comando «Crediti e licenze», che apre i crediti incorporati del documento anche offline. Al suo interno «Crediti di tutti gli articoli» apre la pagina generale online. Questa revisione riguarda home, articoli ammessi e modello; i documenti esclusi conservano il componente storico.
+
+## Nuova identità e navigazione — 20 ottobre 2026
+
+Nome ufficiale del sito: **Stringhe**. Sottotitolo esatto: **L’essenziale della Fisica**.
+La home è un portale con quattro accessi: Tutti gli articoli, Mi sento fortunato, Quiz e Lingua.
+Il catalogo è una pagina indipendente `articoli.html`, con ricerca e filtro per area tematica;
+la scelta casuale include soltanto gli articoli approvati in `pubblicazione.json`.
+La pagina `quiz.html` è preparatoria finché il gioco non è integrato.
+Ogni articolo pubblicato offre in testa: Home, Articoli, Scarica, Lingua; resta distinto l'indice interno.
+Il tema visivo richiama stringhe vibranti con onde sottili e movimento rispettoso di
+`prefers-reduced-motion`. Evitare che la metafora decorativa interferisca con schemi scientifici.
+La build applica il tema condiviso tramite `scripts/strings_site.py`, senza aggiornare
+i sorgenti degli articoli sospesi. La denominazione precedente e il logo storico
+rimangono nei file già esistenti come materiale transitorio finché non sarà approvata
+una migrazione dei sorgenti; il sito pubblicato e i nuovi materiali usano Stringhe.
