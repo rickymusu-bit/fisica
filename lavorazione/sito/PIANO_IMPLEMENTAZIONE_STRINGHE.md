@@ -6,6 +6,19 @@
 **Ramo di lavoro attuale:** `design/stringhe-portale` (PR #43, bozza).
 **Scopo di questo documento:** consegnare a Codex un elenco eseguibile di interventi sul portale, non richiedere la pubblicazione in `main`.
 
+## Ambito globale del restyling — precisazione esplicita dell'utente
+
+**Il nuovo stile NON riguarda soltanto la home.** Deve diventare il **tema grafico unico dell'intero sito Stringhe**: home, catalogo, pagina Quiz, pagine di servizio, **tutti gli articoli effettivamente pubblicati** e soprattutto il **modello sorgente comune per le dispense future** `riferimenti/TEMA_DISPENSE.html`. Questa richiesta sostituisce qualsiasi interpretazione del piano che limiti i cambiamenti a `index.html` o alle copie temporanee generate da `scripts/strings_site.py`.
+
+- [ ] **Uniformare la grafica end-to-end**: palette grigio/gradiente blu/giallo luce, dark mode opzionale, reticolo tenue sullo sfondo esterno, sinusoidi decorative delle cornici, tipografia, spaziature, pulsanti, navigazione, dialog, pannelli laterali, note, credits e componenti condivisi, con variazioni appropriate tra pagine di lettura e pagine di navigazione.
+- [ ] **Aggiornare il modello ufficiale `riferimenti/TEMA_DISPENSE.html`**: integrare token del tema, componenti visuali e comportamenti (incluso selettore chiaro/scuro/automatico), affinché Codex generi ogni nuovo articolo **già nello stile Stringhe**, senza doverlo trasformare successivamente durante la build.
+- [ ] **Allineare il generatore `scripts/strings_site.py` al modello ufficiale**, evitando regole CSS e componenti in conflitto. Un articolo creato dal modello e la sua copia pubblicata devono avere la stessa identità visiva; mantenere intatti i contenuti scientifici e le risorse autonome/offline.
+- [ ] **Applicare lo stile ai nove articoli attualmente ammessi** in `pubblicazione.json`, modificandone il tema nelle copie pubblicate o in modo controllato nei sorgenti ammessi, senza alterare testo, immagini, formule, simulazioni o struttura scientifica. Verificare ogni pagina su Android e desktop.
+- [ ] **Esclusioni invariabili**: il restyling generale **NON autorizza** a toccare i file degli articoli sospesi né a pubblicarli. Per essi nessuna modifica automatica; saranno aggiornati solo dopo autorizzazione specifica quando verranno ripresi.
+- [ ] **Decorazioni appropriate al contesto**: sulle pagine degli articoli usare il reticolo sullo sfondo esterno alle superfici di lettura, curve sui bordi di contenitori selezionati, senza mettere motivi sotto i paragrafi o interferire con formule/visuali. Dark mode completa anche per indice, note, ingrandimenti, navigazione tra articoli, crediti e download.
+- [ ] **Aggiornare la documentazione e le regole operative** (`AGENTS.md`, `MASTER_PROMPT.md` se pertinente, `riferimenti/TERMINOLOGIA_SITO.md`, stato sito), eliminando conflitti tra «Materia Oscura» e «Stringhe» per il lavoro futuro. Conservare cronologia e precedenti approvazioni di contenuto; non riscrivere il master per iniziativa non pertinente.
+- [ ] **Criterio di completamento**: non basta una home riuscita. Il lavoro sarà pronto per la revisione soltanto quando home, catalogo, Quiz, una rappresentanza delle pagine di servizio, **tutti i nove articoli pubblicabili** e il **modello ufficiale** saranno stilisticamente coerenti in light/dark mode, verificati su mobile/desktop e con build senza errori.
+
 ## Regole preliminari e ambito
 
 - Prima di intervenire leggere `AGENTS.md`, `MASTER_PROMPT.md`, `pubblicazione.json`, `riferimenti/TERMINOLOGIA_SITO.md`, `identita/README.md` e `lavorazione/sito/stato.md`.
@@ -109,7 +122,7 @@ Realizzare una **pagina di confronto** `lavorazione/sito/anteprima-bordi-stringh
 3. P1: prototipi affiancati A/B dei bordi sinusoidali.
 4. P2: tema chiaro/scuro/automatico applicato anche ai prototipi.
 5. P4: uniformazione navigazione e anteprima mobile/offline.
-6. P5: test, schermate comparative e presentazione all'utente.
-7. Solo dopo scelta esplicita dell'utente: adottare la variante definitiva e proporre l'integrazione in `main`.
+6. Applicare il tema scelto in `riferimenti/TEMA_DISPENSE.html` e a tutte le pagine e articoli pubblicabili; verificare che i nuovi articoli ereditino il tema.\n7. P5: test, schermate comparative e presentazione all'utente.
+8. Solo dopo scelta esplicita dell'utente: adottare la variante definitiva e proporre l'integrazione in `main`.
 
 **Definizione di completato per questa fase:** anteprima funzionante con logo originale, foto casuale e pulsanti conservati; due varianti di bordi effettivamente confrontabili in chiaro/scuro; tema opzionale persistente; Quiz presentato correttamente come futura funzione distinta; test superati. La pubblicazione in `main` non fa parte di questa fase.
