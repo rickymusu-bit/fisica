@@ -1,29 +1,33 @@
 # Terminologia del sito
 
-Versione v7 — 19 ottobre 2026. Scelte approvate dall’utente: gerarchia e identità della home. Le richieste esplicite dell’utente sostituiscono il nome «Praticamente la Fisica» e il ritorno «← Tutti gli articoli» riportati in A6 del master v59; le altre etichette di A6 restano valide.
+Versione v9 — 20 ottobre 2026. La specifica `lavorazione/sito/PIANO_IMPLEMENTAZIONE_STRINGHE.md` e la richiesta corrente sostituiscono le precedenti denominazioni dell’interfaccia. Le approvazioni di contenuto e la cronologia restano conservate in Git e negli stati.
 
-| Elemento | Nome da usare | Esempio |
-| --- | --- | --- |
-| Nome del sito e titolo della home | **Materia Oscura** | Materia Oscura |
-| Sottotitolo della home | **Guida pratica per fare luce sulla Fisica** | Testo esatto, senza varianti |
-| Raggruppamento di articoli per argomento | **Area tematica** | Materia e calore |
-| Singolo contenuto autonomo | **Articolo** | Passaggi di stato |
-| Parte interna di un articolo | **Sezione** | Applicazioni |
+| Elemento | Nome corrente |
+| --- | --- |
+| Sito | **Stringhe** |
+| Sottotitolo | **L’essenziale della Fisica** |
+| Raggruppamento | Area tematica |
+| Contenuto autonomo | Capitolo |
+| Parte di un capitolo | Sezione |
+| Catalogo separato e ricercabile | Tutti i capitoli |
+| Ritorno al catalogo dai capitoli | ← Capitoli |
+| Comando interno | Indice |
+| Titolo dell’indice aperto | Indice del capitolo |
+| Navigazione in sequenza | Capitolo precedente / Capitolo successivo |
+| Attribuzioni | Crediti e licenze |
 
-Nella home il comando che apre il catalogo rimane **Articoli**; il catalogo è organizzato per **aree tematiche**. Nella home mostrare soltanto il nome del raggruppamento, per esempio «Materia e calore», **senza scrivere esplicitamente «Area tematica»**. Il termine rimane utile per descrivere la gerarchia nei documenti editoriali. Il numero dei contenuti si esprime in articoli, per esempio «3 articoli».
+La home conserva i quattro accessi Tutti i capitoli / Mi sento fortunato / Quiz / Lingua. La scelta casuale e il catalogo comprendono esattamente i capitoli ammessi da `pubblicazione.json`; la sola lingua disponibile è Italiano. Il selettore del tema è un controllo separato: Automatico / Chiaro / Scuro.
 
-Il collegamento di ritorno alla raccolta si chiama **← Articoli**, sia all’inizio sia alla fine del documento, su mobile e desktop. Conservare la destinazione `https://rickymusu-bit.github.io/fisica/#indice`.
+La pagina Quiz presenta esclusivamente il futuro generatore di quiz di verifica sugli argomenti scelti dall’utente. Non integra né presenta come propria funzione il progetto autonomo «Chi vuol essere rimandato».
 
-La scritta sopra il titolo dell’articolo riporta **il nome esatto della sua area tematica nel catalogo della home**, per esempio «Materia e calore» per Stati della materia, Passaggi di stato e Irraggiamento. Mostrare solo il nome, senza il prefisso «Area tematica» e senza usare la dicitura generica «Fisica». Nel modello il testo «Nome dell’area tematica» è un segnaposto da sostituire, non una scritta da pubblicare. Entrambe le scelte fanno parte del tema comune v7 e valgono per gli articoli futuri e le revisioni autorizzate.
+La barra dei capitoli conserva Home / Capitoli / Scarica / Lingua, il tema e l’indice interno. Online usare collegamenti relativi a `index.html`, `articoli.html`, `crediti.html` per mantenere il ramo corrente. Nei documenti scaricati `data-site-path` e il componente comune forniscono il fallback a `https://rickymusu-bit.github.io/fisica/`. Non ripristinare gli indirizzi dismessi.
 
-Per gli altri elementi continuano a valere i nomi approvati: **Indice dell’articolo**, **Articolo precedente**, **Articolo successivo**, **Note** e **Crediti e licenze**. Evitare «biblioteca» come etichetta alternativa del catalogo e «capitolo» nei comandi pubblici che indicano un articolo.
+La scritta sopra il titolo del capitolo è il nome esatto dell’area tematica nel catalogo. Nella home mostrare soltanto il nome del raggruppamento, senza ripetere «Area tematica». Note, Ingrandisci l’immagine, Torna all’inizio e Crediti di tutti i capitoli conservano le etichette approvate.
 
-Applicare questa gerarchia alle nuove pagine e alle revisioni autorizzate; rispettare sempre le esclusioni di `pubblicazione.json`.
+Il modello canonico è `riferimenti/TEMA_DISPENSE.html` v14. Riutilizza i componenti incorporati del tema Stringhe, derivati da `identita/tema-stringhe.css`, `tema-init.js`, `tema-controlli.js` tramite `scripts/stringhe_theme.py`. Il generatore e il modello devono restare allineati (`scripts/sync_stringhe_theme.py --check`). Le onde decorative sono due curve distinte in opposizione di fase, non una risultante né un’onda stazionaria scientifica. Scelta dell’utente: reticolo regolare e sinusoidi di uguale ampiezza. Approvata la disposizione verticale ai lati delle card e dell’unico contenitore continuo del corpo dei capitoli. Le alternative restano nella pagina di confronto storico.
 
-Titolo della pagina, titolo visibile e metadati descrittivi della home devono usare «Materia Oscura» e il sottotitolo esatto. Queste scelte valgono per le successive revisioni della home; non cambiano gli argomenti degli articoli.
+Il logo mantiene la curva circolare nera originale a quattro creste, nodi fissi e ampiezza 20, affiancata ora da una seconda curva in gradiente blu, di uguale ampiezza e in opposizione di fase. Stesso periodo di quattro secondi e nessuna rotazione. Percorsi stabili `identita/logo-materia-oscura.svg` e `.gif`; entrambi aggiornati dalla richiesta esplicita dell’utente. Pausa/ripresa e movimento ridotto si applicano alle due curve. Nella home titolo, logo e copertina condividono una sola card, senza onde decorative ai lati. Fotografia sotto al titolo su mobile e affiancata su desktop; didascalia sempre allineata al bordo sinistro dell’immagine visibile. Le venti fotografie restano intere e casuali, con didascalie e alt coerenti.
 
-Il **logo del sito** è esclusivamente l’onda stazionaria approvata, nera su trasparente, a quattro creste e ampiezza 20: `identita/logo-materia-oscura.svg` e `.gif`. Compare accanto al titolo nella home e nella barra in alto a sinistra degli articoli, secondo il componente del tema autonomo v7. Il simbolo φ e i precedenti tentativi non sono alternative del tema. I controlli di pausa/ripresa e movimento ridotto fanno parte della regola grafica.
+Crediti centralizzati nel registro unico e snapshot autonomi offline; OFL incorporata. Nessuna sostituzione di avvisi di licenza o fonti scientifiche. Il punto centrato è riservato alla moltiplicazione, mai ai separatori dell’interfaccia. I capitoli esclusi e i loro sorgenti non ricevono questo aggiornamento.
 
-Le attribuzioni sono centralizzate in `crediti.html` e nel registro unico secondo C1 del master v64. Il tema v10 prevede il solo comando «Crediti e licenze», che apre i crediti incorporati; al loro interno «Crediti di tutti gli articoli» apre la pagina generale, senza sezione finale visibile. Le licenze che richiedono un avviso vicino alla risorsa prevalgono sulla regola grafica.
-
-Il punto centrato è riservato alla moltiplicazione matematica: mai usarlo come separatore, nemmeno tra versione e data. Il tema v10 usa il trattino lungo nel piè di pagina e i due punti nel titolo accessibile del logo.
+Richiesta finale: nessuna scritta sopra «Stringhe» nella home; sottotitolo blu nel tema chiaro e scuro. I percorsi storici e la chiave `articoli` del manifest restano invariati. Pubblicazione su main e Pages autorizzata esplicitamente dall’utente.

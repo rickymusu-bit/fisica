@@ -1,0 +1,45 @@
+name: Anteprima Android Stringhe
+
+on:
+  push:
+    branches:
+      - design/stringhe-portale
+    paths:
+      - '.github/workflows/preview-stringhe.yml'
+      - 'scripts/**'
+      - 'index.html'
+      - 'pubblicazione.json'
+      - 'identita/**'
+      - 'riferimenti/TEMA_DISPENSE.html'
+      - 'risorse/**'
+      - 'lavorazione/sito/schermate/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: stringhe-preview
+  cancel-in-progress: true
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Genera anteprima degli articoli ammessi
+        run: python3 scripts/build_pages.py
+      - name: Aggiungi i confronti alla sola anteprima
+        run: cp -r lavorazione/sito/schermate _site/schermate
+      - name: Pubblica i file generati su ramo isolato
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd _site
+          git init -b stringhe-preview
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Preview generated from ${GITHUB_SHA}"
+          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push --force origin HEAD:refs/heads/stringhe-preview

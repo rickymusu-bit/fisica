@@ -5397,15 +5397,6 @@
           "attribute": "inline",
           "location": null,
           "credit_id": null
-        },
-        {
-          "document": "riferimenti/TEMA_DISPENSE.html",
-          "kind": "svg",
-          "description": "svg",
-          "locator": "brand-logo",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
         }
       ]
     },
@@ -6471,6 +6462,21 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-36bdd2dca8b9169d"
+        }
+      ]
+    },
+    {
+      "id": "asset-c2af9e20b1f246d3884adaf80eef4e3cac80fde28bb97155a6b6799bfa592191",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "riferimenti/TEMA_DISPENSE.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "brand-logo",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
         }
       ]
     },

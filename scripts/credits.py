@@ -322,6 +322,8 @@ def component(registry, document):
     title = '<h2 id="crediti-autonomi-title">Crediti e licenze</h2>'
     all_credits = (f'<p><a href="{PUBLIC_URL}" data-public-credits="{PUBLIC_URL}">'
                    'Crediti di tutti gli articoli</a></p>')
+    if document == 'riferimenti/TEMA_DISPENSE.html':
+        all_credits = all_credits.replace('tutti gli articoli', 'tutti i capitoli')
     return block.replace(title, title + all_credits, 1)
 
 
@@ -335,6 +337,7 @@ def update_component(source, registry, document):
 
 
 def render_page(registry):
+    from stringhe_theme import apply_theme, theme_control
     theme = (ROOT / 'riferimenti/TEMA_DISPENSE.html').read_text(encoding='utf-8')
     styles = ''.join(re.findall(r'<style[^>]*>[\s\S]*?</style>', theme))
     publication = json.loads((ROOT / 'pubblicazione.json').read_text())
@@ -348,7 +351,7 @@ def render_page(registry):
             continue
         anchor, title = info['anchor'], escape(info['title'])
         nav.append(f'<li><a href="#{anchor}">{title}</a></li>')
-        article_link = (f'<p><a href="{escape(name)}">Apri l’articolo</a></p>' if name in public else
+        article_link = (f'<p><a href="{escape(name)}">Apri il capitolo</a></p>' if name in public else
                         '<p>Documento conservato nel repository, escluso dalla pubblicazione.</p>')
         sections.append(f'<section id="{anchor}"><h2>{title}</h2>' + article_link +
                         notice_html(registry, name) + '</section>')
@@ -363,14 +366,14 @@ def render_page(registry):
         if missing:
             review.append(f'<li><a href="#{anchor}">{title}</a>: risorse senza metadati individuali: <ul>' +
                           ''.join('<li>' + escape(description) + '</li>' for description in missing) + '</ul></li>')
-    return ('<!DOCTYPE html>\n<html lang="it"><head><meta charset="utf-8">'
+    return apply_theme('<!DOCTYPE html>\n<html lang="it"><head><meta charset="utf-8">'
             '<meta name="viewport" content="width=device-width,initial-scale=1">'
-            '<meta name="version" content="v2"><meta name="date" content="2026-10-19">'
-            '<title>Crediti e licenze — Materia Oscura</title>' + styles + '''
+            '<meta name="version" content="v3"><meta name="date" content="2026-10-20">'
+            '<title>Crediti e licenze — Stringhe</title>' + styles + '''
 <style>.credits-page{max-width:1100px;margin:auto;padding:40px;background:white}.credits-page h1{font-size:clamp(32px,6vw,60px);margin:24px 0}.credits-page h2{font-size:28px;margin:42px 0 22px}.credits-page li{margin:16px 0}.credits-page section{border-top:2px solid;padding-top:8px;margin-top:36px;scroll-margin-top:24px}.credits-page pre{white-space:pre-wrap;overflow-wrap:anywhere;font:13px/1.5 monospace}.credits-page{overflow-wrap:anywhere}.credits-page nav a{display:inline-block;min-height:44px}.credits-page .page-nav{display:flex;gap:24px;flex-wrap:wrap}@media(max-width:560px){.credits-page{padding:20px}.credits-page ul{padding-left:22px}.credits-page h2{font-size:24px}}</style>
-</head><body><main class="credits-page"><nav class="page-nav" aria-label="Navigazione"><a href="index.html">← Articoli</a><a href="#da-verificare">Licenze da verificare</a></nav><h1>Crediti e licenze</h1>
-<p>Provenienza delle immagini, delle animazioni e dei caratteri usati in Materia Oscura. Il sito è gratuito, senza pubblicità e dedicato alla divulgazione e alla didattica. Ogni risorsa conserva i propri diritti: la gratuità non sostituisce una licenza.</p>
-<p>Le attribuzioni sono conservate come documentate nei sorgenti. Dove autore, fonte, licenza o modifiche non sono indicati, l’informazione non è disponibile. Le copie autonome degli articoli includono gli stessi avvisi e la licenza del font, accessibili dal comando «Crediti e licenze», anche senza connessione. Da ogni documento, «Crediti di tutti gli articoli» apre questa pagina generale.</p>
+</head><body><main class="credits-page">''' + theme_control() + '''<nav class="page-nav" aria-label="Navigazione"><a href="articoli.html">← Capitoli</a><a href="#da-verificare">Licenze da verificare</a></nav><h1>Crediti e licenze</h1>
+<p>Provenienza delle immagini, delle animazioni e dei caratteri usati in Stringhe. Il sito è gratuito, senza pubblicità e dedicato alla divulgazione e alla didattica. Ogni risorsa conserva i propri diritti: la gratuità non sostituisce una licenza.</p>
+<p>Le attribuzioni sono conservate come documentate nei sorgenti. Dove autore, fonte, licenza o modifiche non sono indicati, l’informazione non è disponibile. Le copie autonome dei capitoli includono gli stessi avvisi e la licenza del font, accessibili dal comando «Crediti e licenze», anche senza connessione. Da ogni documento, «Crediti di tutti i capitoli» apre questa pagina generale.</p>
 <nav aria-label="Indice dei crediti"><ul>''' + ''.join(nav) + '</ul></nav>' +
             ''.join(sections) + '<section id="da-verificare"><h2>Licenze e attribuzioni da verificare</h2>'
             '<p>Questi materiali richiedono una verifica dei diritti o della documentazione prima di poter considerare conclusa la verifica delle licenze. Nessuna autorizzazione è dedotta dal solo uso didattico.</p><ul>' +

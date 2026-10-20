@@ -1,5 +1,45 @@
 # Stato — Home e GitHub Pages
 
+## Revisione corrente — capitoli e pubblicazione autorizzata
+
+Richiesta esplicita: etichette «capitoli», rimozione della scritta sopra «Stringhe», sottotitolo blu, integrazione PR verso main e pubblicazione Pages. Autorizzazione corrente valida: superati i precedenti vincoli di bozza riportati nello storico. Aggiornati portale, navigazione e servizi delle sole copie pubblicabili, modello v14 e terminologia del master v68. URL e manifest stabili; sorgenti scientifici, esclusi e traduzioni invariati. La pagina di confronto viene rimossa dall’artefatto ufficiale Pages e resta nell’anteprima. Verifiche locali superate: allineamento del modello, registro crediti, build, undici test e 150 combinazioni browser pagina/viewport/tema; venti copertine e 100 impaginazioni con proporzioni e didascalie verificate. Controllati anche assenza della scritta sopra il titolo e sottotitolo blu nei due temi. Schermate aggiornate. Completamento della PR #43 e deployment in corso.
+
+## Revisione corrente — card unica della home e logo a due curve
+
+Ultima precisazione dell’utente: titolo e copertina devono stare **nella stessa card, senza onde laterali**. Su mobile la copertina scende sotto al titolo; su desktop titolo e foto sono affiancati. Didascalia sempre allineata al bordo sinistro della fotografia effettivamente visibile: il contenitore si dimensiona in base al rapporto della foto scelta, senza letterboxing, ritagli o distorsioni. Questa precisazione sostituisce la proposta intermedia di due card con onde sulla copertina. Restano verticali i bordi delle altre card e del corpo continuo degli articoli.
+
+Il nuovo SVG conserva la sequenza nera originale (impronta verificata) e aggiunge una curva blu di uguale ampiezza e periodo, con fattore temporale opposto. GIF trasparente rigenerata dallo stesso SVG: 256 × 256 px, 80 fotogrammi, 4 s. Pausa e movimento ridotto comuni alle due curve; fallback statico con curve distinte. Modello v13 e master v67.
+
+Il logo si aggiorna nelle sole copie pubblicabili e nel modello; sorgenti scientifici, traduzioni, sospesi e manifest restano invariati. Il registro aggiorna soltanto l’inventario del logo del modello. Verifica dei crediti, build e undici test automatici superati. Verifica browser superata: 150 combinazioni pagina/viewport/tema, 100 verifiche di impaginazione delle copertine (20 foto × 5 viewport), con didascalia allineata e proporzioni conservate, due curve presenti nei loghi e pausa/ripresa sincronizzata. Anteprima aggiornata al commit `34e2c252f6e4cda98366e67d0635b87bb3c9aede` di `stringhe-preview`, generato dal sorgente `d4e2c81`: home remota identica alla build. Workflow anteprima 39400940504 e suite Actions 39400947360 conclusi con successo. Collegamento attuale nel confronto. PR #43 ancora in bozza, nessun merge o deployment Pages autorizzato.
+
+
+## Scelta corrente approvata — onde verticali
+
+L’utente ha confermato «Ok scelgo le onde verticali», dopo aver chiarito che il corpo dell’articolo è una sola superficie di lettura. Configurazione adottata: reticolo regolare, sinusoidi di uguale ampiezza e disposizione verticale sui lati. Applicata al tema condiviso di home, catalogo, Quiz, crediti, nove copie ammesse e modello v12. Il testo degli articoli rimane in un solo contenitore, con due fasce decorative continue e spazio riservato alla lettura; nessuna divisione in card di sezione.
+
+Verificati allineamento del modello, crediti, build, dieci test e 150 combinazioni pagina/viewport/tema, oltre alla geometria delle fasce laterali. Confermati i nove sorgenti scientifici invariati. Schermate aggiornate anche per il corpo continuo dell’articolo. Master aggiornato limitatamente alla scelta grafica, v66; i sorgenti scientifici, i sospesi, le traduzioni, il manifest e il logo restano invariati. Scelta grafica approvata, pubblicazione ufficiale non richiesta: PR #43 ancora in bozza, main e Pages non modificati.
+
+
+## Prova corrente — sinusoidi verticali ai lati delle card
+
+L’utente ha scelto esplicitamente reticolo regolare (A) e sinusoidi di uguale ampiezza (A), chiedendo di provare la disposizione verticale ai lati. La pagina di confronto parte ora da queste scelte e dai lati verticali, con possibilità di tornare a sopra/sotto o solo sopra. Stessa geometria, periodo e palette: SVG trasposto, senza deformazioni. Fasce laterali di 24 px, spazio riservato al testo e sfumatura alle estremità; su smartphone i pulsanti della dimostrazione sono in colonna per conservare lo spazio di lettura.
+
+La prova resta circoscritta al confronto; il sito e il modello conservano la disposizione orizzontale fino alla valutazione dell’utente. I componenti condivisi includono anche la variante laterale. Nessun sorgente scientifico, articolo sospeso, manifest o originale del logo modificato. PR #43 ancora in bozza, nessuna pubblicazione in main autorizzata.
+
+
+## Lavorazione corrente — Stringhe globale, 20 ottobre 2026
+
+Richiesta esplicita: applicare `PIANO_IMPLEMENTAZIONE_STRINGHE.md` nel ramo design, identificato dal piano come `design/stringhe-portale` (PR #43, bozza). Master consultato v64; aggiornamento circoscritto a v65 per identità, tema e navigazione, senza revisione dei contenuti didattici. Questa lavorazione non eredita le autorizzazioni di pubblicazione dei blocchi storici sottostanti.
+
+Tema condiviso completo per home, catalogo, Quiz preparatorio, crediti, nove copie pubblicabili e modello autonomo v11. Ripristinati logo circolare originale e copertina casuale; quattro accessi conservati; Quiz descritto come futuro generatore di verifica. Aggiunti Automatico / Chiaro / Scuro persistenti, senza dipendenze esterne, e confronto indipendente dei bordi A/B, reticolo A/B e posizione delle curve. Il campione A visualizzato inizialmente resta provvisorio. Navigazione relativa online e fallback pubblico dalle copie scaricate.
+
+I nove sorgenti ammessi, i sette sospesi, le traduzioni, il manifest e i due file grafici del logo rimangono identici alla base Git. Le modifiche agli articoli riguardano soltanto `_site`. Il modello è realmente aggiornato e sincronizzato con le componenti canoniche. Il registro conserva le attribuzioni e aggiorna il solo inventario del logo del modello.
+
+Verificati crediti, sincronizzazione modello, build, dieci test e 150 combinazioni browser pagina/viewport/tema. Venti foto e nove destinazioni casuali provate. Nessun overflow o errore JavaScript. Chromium con mobile/touch emulato; Android fisico non disponibile. File:// bloccato dalla policy locale, documento autonomo verificato in memoria con rete bloccata; Actions esegue anche la prova diretta e ne registra l’esito. Dettagli, pro/contro e schermate in [confronto-stringhe.md](confronto-stringhe.md) e [verifica-stringhe.json](verifica-stringhe.json).
+
+Consegna pronta: commit implementativo `3fab7a9`, Actions 39391624609 e anteprima 39391615879 riuscite. Nel rapporto CI anche file:// diretto è verificato, con 150 combinazioni e nessun errore JavaScript. Anteprima immutabile al commit `48494f222e1fef9faf3f25eb7faf7bc3e432e773` di `stringhe-preview`, collegamenti e schermate nel confronto. Provata anche la navigazione remota mobile fino a Conduzione e ritorno alla home; tema persistente. PR #43 in bozza. Prossimo passo: attendere la scelta esplicita su bordi e reticolo. Nessun merge o deployment del sito ufficiale autorizzato da questo incarico.
+
+
 ## Pubblicazione autorizzata — centralizzazione dei crediti
 
 L’utente ha richiesto esplicitamente «Pubblica le modifiche». Autorizzate integrazione della PR #35 in main e pubblicazione tramite il workflow Pages esistente. Questa richiesta supera lo stato precedente di sola bozza; il manifest resta invariato. Si pubblicano le modifiche già verificate al commit `dce6358370806d393292aced65870f2294b357ef`, conservando pubblicamente la lista delle verifiche di licenza aperte. La pubblicazione non certifica i diritti mancanti. Pubblicazione completata e verificata: PR #35 integrata nel commit `bfe24eb80403dc6ca6cc9a1300163409d0892b8c`; [workflow Pages 39167838089](https://github.com/rickymusu-bit/fisica/actions/runs/39167838089) concluso con successo. Home, cinque articoli, pagina crediti, archivio JSON e OFL: HTTP 200 e contenuti identici byte per byte alla build verificata. Sette articoli esclusi e due indirizzi dismessi: HTTP 404. Esiti e hash nella proprietà `publication` di `crediti-verifiche.json`. Nessuna operazione di pubblicazione pendente; restano le verifiche dei diritti già segnalate.
@@ -183,3 +223,9 @@ Build verificata: venti HTML (tre home e diciassette articoli: nove italiani, qu
 Controlli in [verifiche-home.json](verifiche-home.json): home a 320, 390, 768, 1024 e 1440 px senza overflow, menu persistenti, focus e tastiera; tutte e venti le scelte della copertina con didascalia e crediti coerenti; navigazione delle tre lingue con e senza JavaScript, collegamenti reali agli articoli nella lingua corretta. Irraggiamento verificato a 390 e 1440 px: immagini caricate, indice nativo, assenza di richieste esterne e di errori JavaScript, navigazione dal precedente. Contenuto confrontato integralmente con il sorgente approvato, salvo meta autore e versione. Build e controllo delle differenze superati.
 
 Fase: realizzazione conclusa e verificata, pubblicazione richiesta tramite il workflow Pages esistente dopo l’integrazione in main. Stato del deployment consultabile nelle Actions. Git conserva la cronologia delle versioni precedenti.
+
+## 20 ottobre 2026 — piano Stringhe per Codex, non ancora realizzato
+
+L'utente ha confermato la navigazione della home con quattro accessi e corretto la proposta grafica: conservare il logo circolare animato approvato vicino al titolo «Stringhe», conservare la foto di copertina casuale, testare due bordi formati da sinusoidi sovrapposte in opposizione di fase (ampiezze uguali/diverse). Richiesta la modalità scura **opzionale**. La sezione «Quiz» del sito è un futuro **generatore di quiz di verifica su argomenti scelti dall'utente**, non il progetto separato «Chi vuol essere rimandato».
+
+Specifiche complete salvate in `lavorazione/sito/PIANO_IMPLEMENTAZIONE_STRINGHE.md` sul ramo `design/stringhe-portale`, collegato alla PR #43. Stato: **pianificato, da implementare e confrontare**. Non risulta approvata nessuna delle due varianti grafiche come definitiva; il sito pubblico rimane fuori da questa fase.
