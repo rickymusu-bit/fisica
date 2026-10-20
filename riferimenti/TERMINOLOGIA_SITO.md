@@ -1,6 +1,6 @@
 # Terminologia del sito
 
-Versione v9 — 20 ottobre 2026. La specifica `lavorazione/sito/PIANO_IMPLEMENTAZIONE_STRINGHE.md` e la richiesta corrente sostituiscono le precedenti denominazioni dell’interfaccia. Le approvazioni di contenuto e la cronologia restano conservate in Git e negli stati.
+Versione v10 — 20 ottobre 2026. La specifica `lavorazione/sito/PIANO_IMPLEMENTAZIONE_STRINGHE.md` e la richiesta corrente sostituiscono le precedenti denominazioni dell’interfaccia. Le approvazioni di contenuto e la cronologia restano conservate in Git e negli stati.
 
 | Elemento | Nome corrente |
 | --- | --- |
@@ -16,7 +16,7 @@ Versione v9 — 20 ottobre 2026. La specifica `lavorazione/sito/PIANO_IMPLEMENTA
 | Navigazione in sequenza | Capitolo precedente / Capitolo successivo |
 | Attribuzioni | Crediti e licenze |
 
-La home conserva i quattro accessi Tutti i capitoli / Mi sento fortunato / Quiz / Lingua. La scelta casuale e il catalogo comprendono esattamente i capitoli ammessi da `pubblicazione.json`; la sola lingua disponibile è Italiano. Il selettore del tema è un controllo separato: Automatico / Chiaro / Scuro.
+La home conserva tre accessi: Tutti i capitoli / Mi sento fortunato / Quiz. La lingua resta soltanto nel menu superiore. Novità sostituisce Esplora e Da leggere: tre capitoli ordinati per data editoriale decrescente, a pari data prima quelli più avanti nel catalogo. Ogni card riporta titolo e data, senza numerazione. La scelta casuale e il catalogo comprendono esattamente i capitoli ammessi da `pubblicazione.json`; la sola lingua disponibile è Italiano. Il tema usa un interruttore Chiaro / Scuro, con default Scuro e preferenza esplicita persistente. Il sistema non cambia la scelta; senza storage o JavaScript resta il default scuro.
 
 La pagina Quiz presenta esclusivamente il futuro generatore di quiz di verifica sugli argomenti scelti dall’utente. Non integra né presenta come propria funzione il progetto autonomo «Chi vuol essere rimandato».
 
@@ -24,7 +24,7 @@ La barra dei capitoli conserva Home / Capitoli / Scarica / Lingua, il tema e l�
 
 La scritta sopra il titolo del capitolo è il nome esatto dell’area tematica nel catalogo. Nella home mostrare soltanto il nome del raggruppamento, senza ripetere «Area tematica». Note, Ingrandisci l’immagine, Torna all’inizio e Crediti di tutti i capitoli conservano le etichette approvate.
 
-Il modello canonico è `riferimenti/TEMA_DISPENSE.html` v14. Riutilizza i componenti incorporati del tema Stringhe, derivati da `identita/tema-stringhe.css`, `tema-init.js`, `tema-controlli.js` tramite `scripts/stringhe_theme.py`. Il generatore e il modello devono restare allineati (`scripts/sync_stringhe_theme.py --check`). Le onde decorative sono due curve distinte in opposizione di fase, non una risultante né un’onda stazionaria scientifica. Scelta dell’utente: reticolo regolare e sinusoidi di uguale ampiezza. Approvata la disposizione verticale ai lati delle card e dell’unico contenitore continuo del corpo dei capitoli. Le alternative restano nella pagina di confronto storico.
+Il modello canonico è `riferimenti/TEMA_DISPENSE.html` v15. Riutilizza i componenti incorporati del tema Stringhe, derivati da `identita/tema-stringhe.css`, `tema-init.js`, `tema-controlli.js` tramite `scripts/stringhe_theme.py`. Il generatore e il modello devono restare allineati (`scripts/sync_stringhe_theme.py --check`). Le onde decorative sono due curve distinte in opposizione di fase, non una risultante né un’onda stazionaria scientifica. Scelta dell’utente: reticolo regolare e sinusoidi di uguale ampiezza. Approvata la disposizione verticale ai lati delle card e dell’unico contenitore continuo del corpo dei capitoli. Le alternative restano nella pagina di confronto storico.
 
 Il logo mantiene la curva circolare nera originale a quattro creste, nodi fissi e ampiezza 20, affiancata ora da una seconda curva in gradiente blu, di uguale ampiezza e in opposizione di fase. Stesso periodo di quattro secondi e nessuna rotazione. Percorsi stabili `identita/logo-materia-oscura.svg` e `.gif`; entrambi aggiornati dalla richiesta esplicita dell’utente. Pausa/ripresa e movimento ridotto si applicano alle due curve. Nella home titolo, logo e copertina condividono una sola card, senza onde decorative ai lati. Fotografia sotto al titolo su mobile e affiancata su desktop; didascalia sempre allineata al bordo sinistro dell’immagine visibile. Le venti fotografie restano intere e casuali, con didascalie e alt coerenti.
 
