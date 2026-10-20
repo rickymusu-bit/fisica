@@ -63,6 +63,20 @@ Realizzare una **pagina di confronto** `lavorazione/sito/anteprima-bordi-stringh
 
 **Regola compositiva:** grigio per la struttura, nero/bianco per la leggibilità, gradiente blu per l'identità grafica e giallo luce per l'azione principale. Non sostituire il logo circolare animato originale o la copertina fotografica variabile.
 
+## P2-bis — Reticolo spazio-temporale leggero sullo sfondo (da confrontare)
+
+**Decisione dell'utente:** aggiungere al tema di Stringhe un **reticolo leggero a maglie larghe**, ispirato ai sistemi di riferimento spazio-temporali. È una decorazione astratta, **non un diagramma di Minkowski scientifico**: non etichettare assi, coni di luce o coordinate e non suggerire proprietà fisiche che il disegno non rappresenta.
+
+- [ ] **Variante A:** reticolo ortogonale semplice con linee sottili e maglie ampie (valore iniziale indicativo: 70–110 px su desktop; adeguare a mobile). Colore grigio leggermente distinto dallo sfondo, con contrasto molto basso.
+- [ ] **Variante B:** stesso reticolo ma con accenno molto lieve di prospettiva/deformazione geometrica, senza prospettive vistose, distorsioni scientificamente fuorvianti, rumore visivo o perdita di regolarità. Preferire una curvatura controllata in SVG, senza animazioni.
+- [ ] **Posizionamento:** applicare il reticolo **solo sullo sfondo generale** e nelle zone vuote intorno alle card. I pannelli di lettura, i testi lunghi, le formule, le figure, le fotografie e le schede dense devono mantenere superfici uniformi e opache; non sovrapporre linee ai contenuti.
+- [ ] **Light mode:** base grigio chiaro come da palette approvata (riferimento `#EDEDED`) e tracciato appena più scuro.
+- [ ] **Dark mode:** base grigio antracite, tracciato tenue appena più chiaro; non usare griglie bianche brillanti.
+- [ ] **Gerarchia:** il reticolo resta l'elemento meno evidente. Priorità percettiva: logo circolare/titolo, fotografia variabile, pulsante principale giallo, pulsanti secondari, sinusoidi blu + nero/bianco, infine reticolo.
+- [ ] **Implementazione:** CSS con due `linear-gradient` per la griglia ortogonale oppure SVG condiviso per la variante lievemente deformata; nessuna risorsa di rete o raster pesante, `pointer-events:none` per eventuali layer decorativi. Gestire viewport e scroll senza cuciture, moiré o overflow; in mobile attenuare l'intensità se necessario.
+- [ ] **Confronto:** aggiungere le varianti reticolo A/B all'anteprima del tema, indipendenti dalle varianti A/B delle sinusoidi. Mostrare almeno: reticolo ortogonale/reticolo lieve deformazione, light/dark, smartphone/desktop e screenshot con testi lunghi. Se la griglia compete con leggibilità o decorazioni, ridurne il contrasto anziché sovrapporla alle card.
+- [ ] **Approvazione:** non considerare selezionata una variante definitiva prima del confronto visivo con l'utente. Non cambiare `main` né pubblicare il sito durante questa fase.
+
 ## P3 — Chiarezza della funzione Quiz
 
 - [ ] **P3.1 Correggere la presentazione di `quiz.html`.** «Quiz» significa **futuro generatore di quiz di verifica** per il singolo utente, con scelta degli argomenti da verificare. Testo provvisorio consigliato: «In futuro potrai generare quiz di verifica scegliendo gli argomenti su cui esercitarti.»
