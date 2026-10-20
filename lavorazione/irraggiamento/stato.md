@@ -59,3 +59,5 @@ Confronto integrale eseguito: dopo la sola normalizzazione del meta autore e del
 Verifiche completate: registro crediti e build superati; corpo scientifico e tutte le immagini identici al main di partenza. Browser a 390 e 1440 px: didascalia visibile, fotografia caricata, nessun overflow o errore JavaScript. Schermate `copertina-390.png` e `copertina-1440.png`, rapporto `verifica-copertina.json`. Anteprima HTML autonoma disponibile nella bozza e nel file del ramo dedicato; pubblicazione in attesa di approvazione.
 
 Su richiesta «Un po’ più precisa», rivista la didascalia dell’anteprima: Sole sopra l’orizzonte terrestre fotografato dall’orbita, propagazione della radiazione elettromagnetica nel vuoto e trasferimento di energia per assorbimento alla superficie e all’atmosfera. Rimane v14 in lavorazione nella PR #54, non pubblicata.
+
+L’utente preferisce e approva la prima didascalia con «Va bene quella prima». Ripristinato esattamente il testo e le schermate della prima anteprima già verificata, conservando la v14. Approvazione riferita alla didascalia; nessuna pubblicazione avviata.
