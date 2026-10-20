@@ -121,3 +121,21 @@ Post originale, autore e possibilità di riutilizzo non documentati. Il file non
 Titolo fornito dall'utente: «This is what happens in my hometown when you don't leave the faucet trickling in the winter. Pipes bursting in Watertown, NY.». Ricerca limitata al titolo e all'identificativo dell'immagine; trovato e consultato il post Reddit https://www.reddit.com/r/WTF/comments/7p2hss/this_is_what_happens_in_my_hometown_when_you_dont/, account u/mynameisadrean, r/WTF. Il nome identifica il poster, non necessariamente il fotografo. Fonte locale contemporanea Big Frog 104 (12 gennaio 2018) documenta scena a Watertown e perdita da tubazioni e accredita Bennett Realty; attribuzione registrata come riportata, non accertamento del titolare. Visuali v16 con URL e fonti, bozza v12 con sola didascalia e crediti di servizio aggiornati.
 
 Non è più necessario chiedere il link del post originale. Restano da documentare i diritti di riutilizzo e recuperare il file binario. Nessun messaggio inviato a terzi. Non riprendere il consiglio sui rubinetti del titolo come indicazione tecnica autonoma. Testo scientifico, due tabelle, grafico e schema del lago conservati; nessun HTML o pubblicazione avviati. Verificare salvataggi remoti prima della consegna.
+
+## Via alla realizzazione ricevuto
+
+L’utente dichiara «Autorizzato» per l’utilizzo di FIG-06 e poi «Autorizzato, procedi»: autorizzazione registrata come dichiarazione dell’utente, senza attribuirgli la paternità della foto né inventare una licenza CC. Ricevuto il via all’HTML dopo la stima già presentata. Le figure proposte dalla pagina sul bimetallo sono comprese nella realizzazione autorizzata. Nessuna autorizzazione alla pubblicazione dedotta.
+
+Ramo riallineato al main corrente, master v69.1 e modello v19; fusione di main limitata al ramo dedicato, senza modificare main. Rete resa disponibile tramite il permesso di rete previsto per i comandi dell’ambiente: nessun proxy rimosso o aggirato. Originali in recupero.
+
+Correzione successiva: lo schema del lago deve perdere titolo, sottotitolo e frase sotto l’immagine e includere pesci d’acqua dolce. Generazione aggiornata tramite imagegen; controllata visivamente. Temperatura e profondità restano indicative nella didascalia esterna, non nella figura, come richiesto.
+
+## HTML completo e verificato — 20 ottobre 2026
+
+Creato `dilatazione_termica_it.html` v1 con il modello comune v19: font e fotografie incorporati, due formule, due tabelle in notazione scientifica, grafico con Lexend, sei applicazioni e 12 domande senza soluzioni. Schema del lago corretto secondo l’ultima richiesta: senza titolo, sottotitolo e testo inferiore, con quattro pesci. Testo scientifico approvato conservato; nessuna relazione α–β introdotta. Bozza documentale v13 e visuali v17 aggiornate.
+
+Crediti aggiunti al registro e alla pagina generata, senza aggiornare gli HTML esclusi. Il generatore dei crediti riconosce l’opzione documentale `chapter_labels` per la terminologia corrente anche nei nuovi capitoli ancora fuori dal manifest. Manifest e catalogo invariati.
+
+Verifiche: `credits.py --check`, build locale Pages e 12 test esistenti superati. Chromium 1440 e 390 px: nessun errore JavaScript, immagine mancante, ancora interna mancante o overflow della pagina. Controllati ingrandimento, indice, richiami delle note, dialogo dei crediti e persistenza Chiaro/Scuro. Tutti i controlli interattivi provati a rete disattivata dopo il caricamento locale; l’ambiente impedisce l’apertura diretta file:// nel browser gestito, quindi l’anteprima è stata caricata da server locale. Tutte le risorse necessarie sono incorporate. Screenshot chiari e scuri e rapporto effettivo in `anteprime/`. Peso finale inferiore a 15 MB.
+
+Preparare PR in bozza sul ramo dedicato con anteprima corrente. Per la regola vincolante iniziale di AGENTS.md non integrare main e non avviare GitHub Pages prima dell’approvazione di questa specifica anteprima.

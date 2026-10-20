@@ -322,7 +322,7 @@ def component(registry, document):
     title = '<h2 id="crediti-autonomi-title">Crediti e licenze</h2>'
     all_credits = (f'<p><a href="{PUBLIC_URL}" data-public-credits="{PUBLIC_URL}">'
                    'Crediti di tutti gli articoli</a></p>')
-    if document == 'riferimenti/TEMA_DISPENSE.html':
+    if document == 'riferimenti/TEMA_DISPENSE.html' or registry['documents'][document].get('chapter_labels'):
         all_credits = all_credits.replace('tutti gli articoli', 'tutti i capitoli')
     return block.replace(title, title + all_credits, 1)
 

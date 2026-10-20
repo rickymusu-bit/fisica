@@ -1,0 +1,34 @@
+[
+  {
+    "device": "desktop",
+    "width": 1440,
+    "scroll": 1440,
+    "theme": "dark",
+    "brokenImages": 0,
+    "questions": 12,
+    "missingAnchors": [],
+    "errors": [],
+    "offline": true,
+    "index": true,
+    "notes": true,
+    "zoom": true,
+    "credits": true,
+    "themePersistence": true
+  },
+  {
+    "device": "mobile",
+    "width": 390,
+    "scroll": 390,
+    "theme": "dark",
+    "brokenImages": 0,
+    "questions": 12,
+    "missingAnchors": [],
+    "errors": [],
+    "offline": true,
+    "index": true,
+    "notes": true,
+    "zoom": true,
+    "credits": true,
+    "themePersistence": true
+  }
+]

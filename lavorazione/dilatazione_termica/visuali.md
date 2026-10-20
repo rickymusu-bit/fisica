@@ -1,6 +1,6 @@
 # Visuali — La dilatazione termica
 
-Versione v16 — 20 ottobre 2026 (Europe/Rome).
+Versione v17 — 20 ottobre 2026 (Europe/Rome).
 
 ## Direzione concordata e proposta aggiornata
 
@@ -180,3 +180,13 @@ Il contesto del titolo è confermato dal servizio locale Big Frog 104, Dave “W
 Didascalia aggiornata in bozza v12: «Ghiaccio accumulato in una cucina di Watertown, nello Stato di New York, dopo una perdita d'acqua durante il gelo del 2018». La causa non è più ricavata dalla sola osservazione della foto: è documentata come contesto dalle fonti. Non trasferire automaticamente nella dispensa il consiglio del titolo di lasciare il rubinetto gocciolante, non richiesto per il capitolo.
 
 La provenienza del post è risolta; licenza libera o autorizzazione al riutilizzo restano non documentate. Nessun messaggio inviato al poster o a Bennett Realty. Nessuna licenza CC dedotta dalla pubblicazione su Reddit. Recupero del file binario e integrazione HTML restano pendenti.
+
+## Integrazione effettiva e revisione corrente
+
+Originali recuperati dai collegamenti scelti, decodificati e controllati visivamente. Metadati Commons, indirizzi effettivi, dimensioni, pesi e impronte sono in `risorse/originali.json`; gli originali sono conservati senza ritagli o conversioni. Le precedenti indicazioni «da recuperare» documentano i passaggi storici e sono superate da questo aggiornamento. FIG-07 corrente è il giunto di dilatazione di Hayle; la foto del giunto isolante non è incorporata. Per FIG-03 sono inserite le due figure proposte della pagina indicata dall’utente.
+
+FIG-05b corrente: rimossi titolo, sottotitolo e frase inferiore; aggiunti quattro pesci d’acqua dolce. Restano etichette fisiche e temperature. Le indicazioni di approssimazione delle temperature e di profondità non in scala sono nella didascalia esterna. Immagine generata tramite OpenAI imagegen; riferimento stock escluso dall’HTML. Dimensioni 1774 × 887 px; 1691010 byte; SHA-256 `cc2f6a26fdbf24803584ce0a24b12ce7e2833c2bd77794d212183f799eea6363`. Percorso stabile `risorse/schema-lago-ghiacciato.png`.
+
+FIG-06: autorizzazione all’uso dichiarata dall’utente («Autorizzato»); non è una licenza libera e non attesta autonomamente la titolarità. Identificato e incorporato il file effettivo dal collegamento già scelto.
+
+GRA-01: dati invariati, font canonico Lexend convertito in tracciati per l’autonomia dello SVG; avviso OFL nel documento. HTML autonomo corrente: `../../dilatazione_termica_it.html`. Crediti trasferiti nel registro unico `../../risorse/crediti.json`, con snapshot offline nel comando comune.

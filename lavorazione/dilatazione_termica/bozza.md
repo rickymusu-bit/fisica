@@ -1,9 +1,9 @@
 # La dilatazione termica
 
-Bozza v12 — 20 ottobre 2026 (Europe/Rome).
-Testo scientifico v7 approvato. Questa v12 aggiorna i materiali scelti e aggiunge il grafico statico richiesto, con provenienza in visuali.md. File binari e ulteriori materiali ancora da ricevere o recuperare.
+Bozza v13 — 20 ottobre 2026 (Europe/Rome).
+Testo scientifico v7 approvato. Questa v13 integra i file recuperati e lo schema del lago corretto su richiesta: senza titolo, sottotitolo o testo inferiore, con pesci d’acqua dolce. HTML completo e verificato sul ramo dedicato.
 
-[IMMAGINE COP-01 — SHB-Red-Dust.jpg, copertina scelta; originale binario da recuperare.]
+![Il Sydney Harbour Bridge durante una tempesta di polvere rossa.](risorse/copertina-sydney.jpg)
 Didascalia: Il Sydney Harbour Bridge durante una tempesta di polvere rossa.
 
 ## Quando cambiano le dimensioni
@@ -12,8 +12,8 @@ Un ponte resta nello stesso posto per anni, ma le sue dimensioni non rimangono e
 
 Il fenomeno si chiama **dilatazione termica**. Nei materiali che si comportano nel modo più comune, il riscaldamento aumenta la distanza media fra le particelle: non sono le particelle a diventare più grandi. Nel solido continuano a oscillare attorno alle loro posizioni, ma la loro distanza media può cambiare. Su un corpo esteso, tanti piccoli cambiamenti si sommano e diventano un allungamento o un aumento di volume.
 
-[IMMAGINE FIG-01 — Giunto del ponte Nishi-ōhashi, fotografia scelta; collegamento e crediti in visuali.md, file da recuperare.]
-Didascalia proposta: Il giunto permette alle parti della struttura di muoversi entro lo spazio previsto dal progetto.
+![Giunto del ponte Nishi-ōhashi con spazio per il movimento delle parti.](risorse/giunto-ponte.jpg)
+Didascalia: Il giunto permette alle parti della struttura di muoversi entro lo spazio previsto dal progetto.
 
 Per prevedere un allungamento servono tre informazioni: quanto è lungo inizialmente il corpo, di quanto cambia la sua temperatura e di quale materiale è fatto. La **legge della dilatazione lineare** le mette in relazione:[1]
 
@@ -71,7 +71,7 @@ Il comportamento dipende dai legami fra le molecole, che favoriscono organizzazi
 
 ### Quando si scaldano i binari
 
-[IMMAGINE FIG-07 — Expansion joint, Hayle.jpg, giunto di dilatazione ferroviario scelto; originale da recuperare.]
+![Giunto di dilatazione ferroviario a Hayle.](risorse/giunto-ferrovia.jpg)
 Didascalia: Il giunto di dilatazione di Hayle permette movimenti longitudinali delle rotaie.
 
 Le rotaie d'acciaio si riscaldano al Sole e tendono ad allungarsi. Nei binari formati da tratti collegati con giunti, gli spazi fra le estremità consentono una parte di questo movimento: quando le rotaie si allungano, gli spazi si riducono. La variazione dipende dalla lunghezza iniziale, dal materiale e dalla variazione di temperatura.
@@ -82,8 +82,8 @@ In punti particolari delle linee con rotaie saldate continue si impiegano anche 
 
 ### Trasformare un volume in una temperatura
 
-[IMMAGINE FIG-02 — Mercury Thermometer.jpg, termometro a mercurio scelto; file da recuperare.]
-Didascalia proposta: Il tubicino stretto rende visibile la variazione di volume del liquido.
+![Termometro a mercurio con capillare e scala graduata.](risorse/termometro.jpg)
+Didascalia: Il tubicino stretto rende visibile la variazione di volume del liquido.
 
 Nel termometro a liquido il bulbo contiene un liquido che si dilata più del recipiente di vetro. Quando la temperatura aumenta, il volume in eccesso occupa un tratto maggiore del capillare e il livello sale. Il tubicino sottile rende leggibile anche una piccola variazione di volume.
 
@@ -91,8 +91,12 @@ La scala associa le posizioni del livello alle temperature attraverso la taratur
 
 ### Due metalli possono comandare un interruttore
 
-[IMMAGINI FIG-03a e FIG-03b — Dalla pagina Bimetallic strip indicata dall'utente: proposti lo schema Bimetallic strip.svg e la foto WPThermostat new.jpg; scelta puntuale e originali da completare, nessun file ancora inserito.]
-Didascalia proposta: La diversa dilatazione dei due metalli incurva la lamina e può azionare un contatto.
+![Due metalli uniti che si incurvano in modo diverso al variare della temperatura.](risorse/lamina-bimetallica.svg)
+
+Didascalia: La diversa dilatazione dei due metalli incurva la lamina.
+
+![Termostato bimetallico aperto: la lamina avvolta a spirale e i contatti.](risorse/termostato.jpg)
+Didascalia: La diversa dilatazione dei due metalli incurva la lamina e può azionare un contatto.
 
 Una lamina bimetallica è formata da due strati metallici uniti. Quando la temperatura cambia, i due materiali tendono a cambiare lunghezza in misura diversa. Essendo vincolati l'uno all'altro, si incurvano: durante il riscaldamento, lo strato che tende ad allungarsi di più si dispone sul lato esterno della curva.
 
@@ -100,8 +104,8 @@ In un termostato bimetallico questo movimento può separare i contatti e interro
 
 ### Un coperchio che si allenta
 
-[IMMAGINE FIG-04 — PreservedFood1.jpg, barattoli di conserve scelti; file da recuperare e verificare direttamente.]
-Didascalia proposta: Coperchio e recipiente possono cambiare dimensioni in misura diversa.
+![Barattoli di conserve con coperchi metallici.](risorse/conserve.jpg)
+Didascalia: Coperchio e recipiente possono cambiare dimensioni in misura diversa.
 
 Il riscaldamento di un coperchio metallico può aumentarne il diametro e facilitarne l'apertura. Non basta però dire che «il metallo si dilata»: anche il collo del recipiente può riscaldarsi e cambiare dimensioni. L'effetto utile nasce dalla differenza fra i cambiamenti delle due parti.
 
@@ -109,20 +113,20 @@ Contano i materiali e quanto si riscalda ciascuna parte. Il fenomeno spiega perc
 
 ### Perché il lago gela dall'alto
 
-[IMMAGINE FIG-05 — A frozen Lake Louise - Banff - panoramio.jpg, fotografia scelta; file da recuperare.]
+![Il lago Louise con la superficie ghiacciata.](risorse/lago-louise.jpg)
 Didascalia: Il lago Louise, in Canada, con la superficie ghiacciata.
 
 Quando l'acqua superficiale di un lago si raffredda verso 4 °C diventa più densa e tende a scendere, rimescolando l'acqua. Sotto questa temperatura, però, l'ulteriore raffreddamento la rende meno densa: l'acqua più fredda può restare in superficie, dove si forma il ghiaccio.
 
 ![Sezione di un lago d'acqua dolce in inverno: ghiaccio in superficie, acqua liquida da circa 0 °C subito sotto il ghiaccio a circa 4 °C nella zona profonda. Temperature indicative e profondità non in scala.](risorse/schema-lago-ghiacciato.png)
 
-Didascalia: Sotto il ghiaccio può restare acqua liquida. In questa situazione invernale tipica, la temperatura aumenta verso la zona profonda, dove l'acqua è più densa.
+Didascalia: Sotto il ghiaccio può restare acqua liquida. In questa situazione invernale tipica, la temperatura aumenta verso la zona profonda, dove l'acqua è più densa. Temperature indicative; profondità non in scala.
 
 Il ghiaccio galleggia e lo strato superficiale rallenta la perdita di calore dell'acqua sottostante. In un lago d'acqua dolce sufficientemente profondo può quindi rimanere acqua liquida sotto la superficie gelata.[3] L'anomalia dell'acqua e la minore densità del ghiaccio contribuiscono entrambe a questa situazione.
 
 ### Quando il congelamento provoca danni
 
-[IMMAGINE FIG-06 — Foto Reddit mostrata direttamente dall'utente: cucina con ghiaccio dal controsoffitto e accumuli sul pavimento. URL di provenienza indicato: https://i.redd.it/2jq40fxtax801.jpg . Post originale rintracciato, account u/mynameisadrean; fotografo e diritti di riutilizzo ancora da accertare.]
+![Ghiaccio pendente dal controsoffitto e accumulato sul pavimento di una cucina a Watertown.](risorse/danni-gelo.jpg)
 Didascalia: Ghiaccio accumulato in una cucina di Watertown, nello Stato di New York, dopo una perdita d'acqua durante il gelo del 2018.
 
 Nel lago il ghiaccio può occupare spazio verso la superficie; dentro una tubazione o un recipiente rigido l'acqua può trovarsi invece confinata. Se non può espandersi liberamente, la formazione del ghiaccio può provocare pressioni elevate e danneggiare il contenitore.
@@ -163,10 +167,10 @@ Testo originale. Fonti consultate per controllo dei principi; trasferire i rifer
 
 - Network Rail, Buckled rail: https://www.networkrail.co.uk/rail-travel/delays-explained/buckled-rail-and-summer-heat/ . Controllo delle conseguenze del riscaldamento e della gestione delle rotaie saldate continue; nessuna immagine ripresa.
 
-Le scelte e le licenze documentate di COP-01, FIG-01, FIG-02, FIG-04, FIG-05 e FIG-07 e le proposte per FIG-03 sono conservate in [visuali.md](visuali.md), da trasferire al registro unico nell'HTML. Nessun file binario ancora scaricato o ispezionato. FIG-06 è ora visibile nell'allegato in chat e il suo contenuto è stato osservato. Autore, post originale e diritti di riutilizzo restano da documentare; il danno specifico a una tubazione non è dimostrato dalla sola fotografia. GRA-01 è ora realizzato con dati di riferimento e script salvati. Le didascalie e le descrizioni saranno allineate agli originali. GRA-01 è una curva calcolata, non una nuova misura sperimentale, dalla relazione di densità raccomandata dal NIST.
+Le fotografie scelte sono state recuperate e sono documentate in risorse/originali.json e visuali.md. La dichiarazione di autorizzazione dell’utente per FIG-06 non viene convertita in licenza libera. L’HTML incorpora le figure e il font del tema comune v19.
 
-Fonte di servizio per GRA-01: NIST, Selected Procedures for Volumetric Calibrations (2019), GLP 10 §6.1, https://doi.org/10.6028/NIST.IR.7383-2019 . Relazione di Tanaka et al. (2001) per acqua pura priva di aria disciolta alla pressione di riferimento 101325 Pa. Conversione V=m/ρ con massa fissa 1 kg; dati CSV e generatore in risorse/. Fonte fotografica per FIG-07: Rwendland, Expansion joint, Hayle, https://commons.wikimedia.org/wiki/File:Expansion_joint,_Hayle.jpg , CC BY-SA 3.0. Per FIG-06 mancano post originale, autore e autorizzazione documentata.
+GRA-01: NIST, Selected Procedures for Volumetric Calibrations (2019), GLP 10 §6.1, https://doi.org/10.6028/NIST.IR.7383-2019 . Relazione di Tanaka et al. (2001), acqua pura priva di aria disciolta a 101325 Pa. Conversione del volume di 1 kg dalla densità; dati di riferimento calcolati, non nuove misure.
 
-FIG-05b, schema del lago: illustrazione generata con OpenAI imagegen su richiesta esplicita dell'utente il 20 ottobre 2026, usando l'allegato 15003.jpg come riferimento concettuale per una nuova figura italiana. Non attribuire allo schema generato la licenza della fotografia di Lake Louise o del riferimento. Riferimento allegato conservato separatamente per la sola lavorazione, non destinato alla pubblicazione. Temperature illustrative, non misure di Lake Louise; scientificamente riferite al caso descritto nel testo e alla fonte USGS già citata nei crediti di servizio.
+FIG-05b: schema generato con OpenAI imagegen su richiesta dell’utente; revisione del 20 ottobre 2026 senza titolo, sottotitolo e scritta inferiore, con quattro pesci d’acqua dolce. Il riferimento stock resta materiale di sola lavorazione.
 
-Provenienza aggiornata FIG-06: post r/WTF di u/mynameisadrean, https://www.reddit.com/r/WTF/comments/7p2hss/this_is_what_happens_in_my_hometown_when_you_dont/ . Contesto dell'episodio di Watertown confermato dall'articolo locale di Dave “Wheels” Wheeler, Big Frog 104, 12 gennaio 2018, https://bigfrog104.com/watertown-frozen-waterfall-inside/ , che accredita l'immagine a Bennett Realty. Distinguere poster, credito riportato e titolare dei diritti: nessuna licenza libera o autorizzazione ancora documentata. Titolo integrale del post e verifiche in visuali.md.
+FIG-06: post r/WTF di u/mynameisadrean, https://www.reddit.com/r/WTF/comments/7p2hss/this_is_what_happens_in_my_hometown_when_you_dont/ . Big Frog 104, 12 gennaio 2018, https://bigfrog104.com/watertown-frozen-waterfall-inside/ , accredita la foto a Bennett Realty; titolarità non accertata autonomamente. Autorizzazione all’uso dichiarata dall’utente in chat.

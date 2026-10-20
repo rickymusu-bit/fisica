@@ -10,6 +10,9 @@ Run: python3 grafico_acqua.py [output_directory]
 from pathlib import Path
 import csv
 import sys
+import re
+import base64
+import tempfile
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
@@ -26,7 +29,7 @@ out = Path(sys.argv[1]) if len(sys.argv) > 1 else Path('.')
 out.mkdir(parents=True, exist_ok=True)
 temperatures = sorted(set([i / 20 for i in range(201)] + [3.983035]))
 with (out / 'acqua-densita-volume.csv').open('w', newline='') as stream:
-    writer = csv.writer(stream)
+    writer = csv.writer(stream, lineterminator="\n")
     writer.writerow(['T_C', 'rho_kg_m3', 'massa_kg', 'volume_mL'])
     for T in temperatures:
         writer.writerow([f'{T:.6f}', f'{density(T):.9f}', '1', f'{volume_ml(T):.9f}'])
@@ -37,8 +40,14 @@ assert all(density(T) > 999 for T in temperatures)
 assert all(volume_ml(a) > volume_ml(b) for a,b in zip(temperatures, temperatures[1:]) if b <= 3.983035)
 assert all(volume_ml(a) < volume_ml(b) for a,b in zip(temperatures, temperatures[1:]) if a >= 3.983035)
 
-plt.rcParams.update({'font.family': 'DejaVu Sans', 'font.size': 13,
-                     'svg.fonttype': 'none', 'axes.unicode_minus': False})
+from matplotlib import font_manager
+template = Path(__file__).resolve().parents[3] / 'riferimenti/TEMA_DISPENSE.html'
+font_data = re.search(r'url\(data:font/ttf;base64,([A-Za-z0-9+/=]+)\)', template.read_text())[1]
+font_path = Path(tempfile.gettempdir()) / 'Stringhe-Lexend.ttf'
+font_path.write_bytes(base64.b64decode(font_data))
+font_manager.fontManager.addfont(str(font_path))
+plt.rcParams.update({'font.family': 'Lexend', 'font.size': 13,
+                     'svg.fonttype': 'path', 'axes.unicode_minus': False})
 fig, ax = plt.subplots(figsize=(10, 6.6), layout=None)
 fig.patch.set_facecolor('white')
 fig.subplots_adjust(left=0.17, bottom=0.26, right=0.96, top=0.80)
@@ -62,6 +71,8 @@ fig.text(0.17,0.11,'Scala verticale ingrandita: non parte da zero.',fontsize=12,
 fig.text(0.17,0.065,'Il grafico riguarda solo l’acqua liquida, non il congelamento.',fontsize=12,color='#465468')
 fig.savefig(out / 'volume-acqua.svg', metadata={'Title':'Volume di 1 kg d’acqua liquida in funzione della temperatura',
     'Description':'Curva calcolata dalla densità NIST GLP 10/Tanaka, acqua pura air-free a 101325 Pa; non nuove misure sperimentali. Scala verticale 1000,00–1000,32 mL.'})
+svg_path = out / 'volume-acqua.svg'
+svg_path.write_text('\n'.join(line.rstrip() for line in svg_path.read_text().splitlines()) + '\n')
 fig.savefig(out / 'volume-acqua.png', dpi=150)
 plt.close(fig)
 print({T:{'rho_kg_m3':round(density(T),6), 'V_mL':round(volume_ml(T),6)} for T in (0,3.983035,4,10)})
