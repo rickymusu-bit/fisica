@@ -47,7 +47,7 @@ Didascalia: Il riscaldamento raggiunge le estremità delle barrette in tempi div
 
 La capacità dei metalli di trasferire rapidamente energia può produrre un effetto sorprendente. Quando una lingua tocca un palo metallico gelato, cede energia al metallo, che è più freddo. Il palo conduce quell’energia lontano dalla zona di contatto, verso le parti circostanti. Se il metallo è abbastanza freddo, la saliva può congelare: il sottile strato di ghiaccio che si forma fa aderire la lingua alla superficie.
 
-[IMMAGINE 12 — Originale scelto dall’utente: risorse/lingua-palo-tenor.gif.]
+[IMMAGINE 12 — Originale scelto dall’utente: risorse/a-christmas-story.jpg — fotogramma da A Christmas Story (1983).]
 
 Didascalia: La scena cinematografica richiama il fenomeno della lingua che aderisce al metallo gelato. È pericoloso: non va provato.
 

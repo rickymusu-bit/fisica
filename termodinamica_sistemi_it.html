@@ -14,6 +14,27 @@
 .image-zoom .zoom-collapse{display:none}.image-zoom[open] .zoom-expand{display:none}.image-zoom[open] .zoom-collapse{display:inline}
 </style><style data-component="note-pie-pagina">
 .chapter-notes{max-width:940px;margin:26px auto 0;padding:12px 20px;border:2px solid #080808;background:white;font-size:14px;line-height:1.6;overflow-wrap:anywhere}.chapter-notes>summary{min-height:44px;cursor:pointer;font-size:14px;font-weight:500;line-height:1.6;display:list-item}.chapter-notes li{margin:14px 0}.chapter-notes p{margin:0 0 10px}.note-ref{font-size:.7em;line-height:0;vertical-align:super}.chapter-notes li:target{outline:2px solid #080808;outline-offset:5px}
+</style><style data-media-ui>/* Comandi delle immagini: icone in basso a sinistra, didascalie invariate. */
+.gif-stage{display:block;position:relative;width:100%;min-width:0}
+.gif-stage picture{display:block;width:100%}
+.gif-stage img{display:block}
+.gif-stage>.media-icon-button{position:absolute;left:8px;bottom:8px;z-index:2}
+.media-icon-button{box-sizing:border-box;display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;min-width:44px;min-height:44px;padding:9px;border:1px solid #9ca7ba;border-radius:10px;background:#202637;color:#fff;box-shadow:0 1px 5px #0005;cursor:pointer;touch-action:manipulation;line-height:1;list-style:none}
+.media-icon-button:hover{background:#35425a;color:#fff}
+.media-icon-button:focus-visible{outline:3px solid var(--accent,#337cd8);outline-offset:3px}
+.media-icon-button .ui-icon{display:block;width:24px;height:24px}
+.media-icon-button:disabled{display:none}
+.media-play,[data-animation-toggle][aria-pressed=true] .media-pause{display:none}
+[data-animation-toggle][aria-pressed=true] .media-play{display:block}
+.image-frame:has(>.image-zoom){position:relative}
+.image-frame>.image-zoom{position:static;border:0;font-size:inherit}
+.image-frame>.image-zoom>summary.media-icon-button{position:absolute;left:8px;bottom:8px;z-index:2;background:#202637;color:#fff;padding:9px}
+.image-zoom>summary::-webkit-details-marker{display:none}
+.image-zoom>summary::marker{content:''}
+.image-zoom .zoom-expand,.image-zoom[open] .zoom-collapse{display:block}
+.image-zoom .zoom-collapse,.image-zoom[open] .zoom-expand{display:none}
+.particle-model.is-live .gif-stage{display:none}
+@media print{.media-icon-button{display:none!important}}
 </style></head><body><div class="page" id="inizio"><header class="topbar"><div class="brand"><button class="brand-logo-toggle" type="button" data-logo-toggle aria-label="Metti in pausa l’animazione del logo" aria-pressed="false" title="Metti in pausa l’animazione del logo" disabled><svg id="brand-logo" class="brand-logo" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320" role="img" aria-labelledby="logo-title logo-desc">
 <title id="logo-title">Materia Oscura · Onda stazionaria</title>
 <desc id="logo-desc">Onda sinusoidale stazionaria su una curva chiusa: nodi fermi e ventri oscillanti, con quattro creste. Nessuna rotazione. Tratto nero su fondo trasparente.</desc>
@@ -205,4 +226,40 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 })();
 </script>
 
-</body></html>
+<script data-media-ui>(() => {
+  document.querySelectorAll('[data-zoom-copy]').forEach(image => {
+    image.src = image.closest('figure').querySelector('.overview img').src;
+  });
+  document.querySelectorAll('.image-zoom').forEach(zoom => {
+    const button = zoom.querySelector('summary');
+    const sync = () => {
+      const label = zoom.open ? 'Rimpicciolisci l’immagine' : 'Ingrandisci l’immagine';
+      button.setAttribute('aria-label', label);
+      button.title = label;
+    };
+    zoom.addEventListener('toggle', sync);
+    sync();
+  });
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)');
+  document.querySelectorAll('.gif-stage').forEach(stage => {
+    const image = stage.querySelector('img');
+    const button = stage.querySelector('[data-animation-toggle]');
+    const animation = image.getAttribute('src'), still = image.dataset.still;
+    if (!button || !still) return;
+    // Il picture conserva il fermo per movimento ridotto anche senza JavaScript.
+    stage.querySelectorAll('source').forEach(source => { source.media = 'not all'; });
+    let playing = !reduced.matches;
+    function sync() {
+      image.src = playing ? animation : still;
+      const label = playing ? 'Metti in pausa l’animazione' : 'Riprendi l’animazione';
+      button.setAttribute('aria-label', label);
+      button.title = label;
+      button.setAttribute('aria-pressed', String(!playing));
+    }
+    button.disabled = false;
+    button.addEventListener('click', () => { playing = !playing; sync(); });
+    reduced.addEventListener('change', () => { playing = !reduced.matches; sync(); });
+    sync();
+  });
+})();
+</script></body></html>

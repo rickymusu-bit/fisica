@@ -17,7 +17,7 @@ Il test conserva l’impronta SHA-256 della sequenza nera già approvata e verif
 
 `python3 scripts/logo_materia_oscura.py` rigenera lo SVG. `python3 scripts/logo_materia_oscura.py --gif` rigenera anche la GIF; l’esportazione usa Chromium/Playwright e Pillow, senza dipendenze aggiuntive per il sito.
 
-`scripts/stringhe_theme.py` incorpora lo stesso SVG nella home, nel modello v19 e nelle sole nove copie pubblicabili. `scripts/sync_stringhe_theme.py` allinea modello, confronto e pagina crediti; il registro aggiorna l’inventario del nuovo SVG del modello. Non riscrivere i sorgenti degli articoli, sospesi compresi. Il logo precedente e il riferimento originale dell’utente restano recuperabili in Git e in `lavorazione/sito/risorse-originali/`.
+`scripts/stringhe_theme.py` incorpora lo stesso SVG nella home, nel modello v21 e nelle sole nove copie pubblicabili. `scripts/sync_stringhe_theme.py` allinea modello, confronto e pagina crediti; il registro aggiorna l’inventario del nuovo SVG del modello. Non riscrivere i sorgenti degli articoli, sospesi compresi. Il logo precedente e il riferimento originale dell’utente restano recuperabili in Git e in `lavorazione/sito/risorse-originali/`.
 
 Nella home il logo accompagna il titolo in un’unica card condivisa con la copertina fotografica, senza onde laterali. Su mobile la foto è sotto al titolo; su desktop è affiancata. Il contenitore della didascalia ha la stessa larghezza dell’immagine, così il suo bordo sinistro coincide sempre con quello della fotografia, senza ritagli né bande interne. Restano le altre scelte approvate: reticolo regolare e sinusoidi verticali di uguale ampiezza.
 
@@ -26,3 +26,5 @@ Il tema comune usa l’menu accessibile Chiaro/Scuro con luna o sole: Scuro pred
 La barra dei capitoli mostra quattro comandi di lettura su un’unica riga: casa, libri, download e indice, con icone SVG incorporate, nomi accessibili, suggerimenti e aree di tocco da 44 px. Lingua e menu del tema restano allineati agli altri comandi; la lingua mostra IT al posto del globo, anche nella home. Nel grafico di riscaldamento i radio invisibili restano ancorati al viewport, evitando il salto causato dal focus nativo; tastiera e fallback senza JavaScript restano disponibili.
 
 Titolo, copertina e testo condividono la stessa superficie e le stesse onde laterali continue. La regola corrente richiede sempre l’approvazione esplicita dell’anteprima prima di ogni merge in main o deployment Pages.
+
+I comandi media sono definiti in `media-controls.css` e `media-controls.js`, con markup condiviso in `scripts/media_controls.py`. GIF con `data-still` incorporato, fermo per movimento ridotto anche senza JavaScript e play/pausa a icona in basso a sinistra. Zoom con summary nativo e icone ingrandisci/rimpicciolisci nella stessa posizione. Le didascalie conservano gli stili precedenti.
