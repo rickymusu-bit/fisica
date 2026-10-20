@@ -3994,18 +3994,6 @@
           "notice": 0
         },
         {
-          "resource": "source-dilatazione-openstax",
-          "notice": 0
-        },
-        {
-          "resource": "source-dilatazione-usgs",
-          "notice": 0
-        },
-        {
-          "resource": "source-dilatazione-network-rail",
-          "notice": 0
-        },
-        {
           "resource": "source-dilatazione-termostato",
           "notice": 0
         },
@@ -6588,6 +6576,15 @@
       "id": "asset-aa5e120d96e7db43b65ab35b00c11e5cbb76a78cac79f42892dd88a36f6ff18b",
       "kind": "svg",
       "uses": [
+        {
+          "document": "index.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "materia",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        },
         {
           "document": "index.html",
           "kind": "svg",

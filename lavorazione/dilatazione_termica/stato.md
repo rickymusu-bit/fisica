@@ -165,3 +165,7 @@ Verifiche della revisione superate: corrispondenza delle 11 didascalie e dei sor
 ## Nome della macro categoria
 
 Recepita la richiesta generale dell’utente: etichetta dell’area «Termologia» sopra il titolo e nell’indice laterale, coerente con il catalogo corrente. Aggiornate le anteprime del titolo; contenuto scientifico e immagini invariati.
+
+## Pubblicazione autorizzata — 20 ottobre 2026
+
+L’utente approva esplicitamente l’anteprima corrente con «Okay, publica». Autorizzata l’integrazione della PR #52 e la pubblicazione del capitolo con macro categoria Termologia e credito generale a Codex e ChatGPT. Nuovo capitolo ammesso al manifest e al catalogo al quinto posto, tra Il bilancio termico e Stati della materia; aggiornati i rimandi di navigazione dei capitoli vicini. Il contenuto approvato rimane invariato. Pagina dei crediti rigenerata includendo il nuovo capitolo. Eseguire verifiche finali, merge e controllo del deployment.
