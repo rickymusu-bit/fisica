@@ -1,5 +1,9 @@
 # Irraggiamento
 
+[VISUALE visual-C1 — Il Sole e la Terra visti dall’orbita.]
+
+Didascalia: Il Sole e la Terra visti dall’orbita. La radiazione solare attraversa il vuoto dello spazio e trasporta energia fino al nostro pianeta.
+
 Bozza testuale corrente della v7; tema comune v4.
 
 ## Perché i rettili prendono il sole?

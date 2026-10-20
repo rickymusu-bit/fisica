@@ -1,5 +1,9 @@
 # Stato — Irraggiamento
 
+## Didascalia della copertina — 20 ottobre 2026
+
+Richiesta circoscritta dell’utente: sotto la copertina mancava la didascalia. Versione v14, master v69.3, tema comune v21. Aggiunto il figcaption nativo alla figura C1, con descrizione del Sole e della Terra visti dall’orbita e collegamento al trasporto di energia attraverso il vuoto. Stile comune riusato senza modifiche; fotografia, alt, crediti, comandi, corpo scientifico e struttura monografica conservati. Aggiornati versione e data editoriale e sincronizzate le bozze. Preparazione dell’anteprima desktop/mobile e della PR in bozza; nessun merge o deployment, in attesa dell’approvazione dell’anteprima corrente secondo AGENTS.md e B5.
+
 ## Centralizzazione dei crediti — 18 ottobre 2026
 
 Revisione circoscritta autorizzata dalla richiesta di migrare tutti gli articoli: `irraggiamento_it.html` usa il registro unico `risorse/crediti.json`, la pagina «Crediti e licenze» e lo snapshot autonomo offline. Sezioni finali dei crediti rimosse dopo il controllo degli avvisi; contenuto scientifico, formule, immagini e script originali preservati. Master v60, tema v8. La stessa revisione dei crediti comprende le traduzioni esistenti del capitolo, senza tradurre i contenuti. Ramo `crediti/centralizzazione`; nessuna riammissione né pubblicazione. Le licenze non documentate restano da verificare nel rapporto `../sito/crediti-verifiche.json`.
@@ -51,3 +55,9 @@ File pubblico: [irraggiamento_it.html](../../irraggiamento_it.html). Inserito co
 [Stato e approvazioni di origine](https://github.com/rickymusu-bit/fisica/blob/cc7ab4aad36c88e4fda6ee1ad59208cfd88bca36/lavorazione/irraggiamento/stato.md), [registro dei visuali](https://github.com/rickymusu-bit/fisica/blob/cc7ab4aad36c88e4fda6ee1ad59208cfd88bca36/lavorazione/irraggiamento/risorse/registro-visuali.json), [verifiche precedenti](https://github.com/rickymusu-bit/fisica/tree/cc7ab4aad36c88e4fda6ee1ad59208cfd88bca36/lavorazione/irraggiamento/verifiche). I limiti delle attribuzioni già documentati e la risposta dell’utente restano registrati nello stato di origine; nessuna attribuzione nuova inventata né sostituzione delle immagini. Le sorgenti di lavorazione rimangono conservate nel ramo di origine.
 
 Confronto integrale eseguito: dopo la sola normalizzazione del meta autore e della versione, il file è identico al sorgente approvato. Le verifiche della pubblicazione e della navigazione sono in [verifiche-home.json](../sito/verifiche-home.json). Fase: articolo pronto per la pubblicazione richiesta; nessuna modifica didattica pendente.
+
+Verifiche completate: registro crediti e build superati; corpo scientifico e tutte le immagini identici al main di partenza. Browser a 390 e 1440 px: didascalia visibile, fotografia caricata, nessun overflow o errore JavaScript. Schermate `copertina-390.png` e `copertina-1440.png`, rapporto `verifica-copertina.json`. Anteprima HTML autonoma disponibile nella bozza e nel file del ramo dedicato; pubblicazione in attesa di approvazione.
+
+Su richiesta «Un po’ più precisa», rivista la didascalia dell’anteprima: Sole sopra l’orizzonte terrestre fotografato dall’orbita, propagazione della radiazione elettromagnetica nel vuoto e trasferimento di energia per assorbimento alla superficie e all’atmosfera. Rimane v14 in lavorazione nella PR #54, non pubblicata.
+
+L’utente preferisce e approva la prima didascalia con «Va bene quella prima». Ripristinato esattamente il testo e le schermate della prima anteprima già verificata, conservando la v14. Approvazione riferita alla didascalia; nessuna pubblicazione avviata.
