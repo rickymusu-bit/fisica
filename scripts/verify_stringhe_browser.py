@@ -172,33 +172,38 @@ def main():
                                 assert arrow.evaluate('(e)=>getComputedStyle(e,":before").color') == 'rgb(32, 38, 55)'
                             if width in [390, 1440]:
                                 model.locator('.model-path').screenshot(path=str(SHOTS/f'schema-{Path(name).stem}-{width}-{theme}.png'))
-                        if page.locator('.topbar .top-links').count():
-                            controls = page.locator('.topbar .top-links').evaluate('(nav)=>[...nav.children].map(e=>e.getBoundingClientRect().toJSON())')
-                            assert len(controls) == 6, name
-                            assert max(r['top'] for r in controls)-min(r['top'] for r in controls)<1, (name,width,controls)
-                            assert all(r['width']>=44 and r['height']>=44 for r in controls), (name,width,controls)
-                            assert page.locator('.string-lang summary').inner_text()=='IT ▾'
+                        # Un solo componente per ogni pagina: identico ordine e geometria.
+                        nav = page.locator('.stringhe-header .stringhe-navigation')
+                        assert nav.count() == 1, name
+                        primary = nav.locator(':scope > .nav-primary')
+                        settings = nav.locator(':scope > .nav-settings')
+                        assert primary.count() == 1 and settings.count() == 1, name
+                        assert settings.locator(':scope > .string-lang').count() == 1
+                        assert settings.locator(':scope > [data-theme-menu]').count() == 1
+                        assert settings.locator('.string-lang>summary').inner_text() == 'IT ▾'
+                        if name == 'index.html':
+                            expected = []
+                        elif name in ['articoli.html', 'quiz.html', 'anteprima-bordi-stringhe.html']:
+                            expected = ['Home']
+                        elif name == 'crediti.html':
+                            expected = ['Home', 'Tutti i capitoli']
+                        else:
+                            expected = ['Home', 'Tutti i capitoli', 'Scarica il capitolo', 'Indice del capitolo']
+                        actual = primary.evaluate('(n)=>[...n.children].map(e=>e.getAttribute("aria-label")||e.querySelector(":scope > summary")?.getAttribute("aria-label"))')
+                        assert actual == expected, (name,actual,expected)
+                        positions = nav.evaluate('n=>[...n.querySelectorAll(":scope > .nav-primary > :is(a,details),:scope > .nav-settings > details")].map(e=>{const t=e.tagName==="DETAILS"?e.querySelector(":scope > summary"):e;return t.getBoundingClientRect().toJSON()})')
+                        assert all(r['width'] >= 44 and r['height'] >= 44 for r in positions), (name,width,positions)
+                        assert max(r['top'] for r in positions)-min(r['top'] for r in positions)<1, (name,width,positions)
+                        edges = nav.evaluate('n=>{const a=n.querySelector(".nav-primary").getBoundingClientRect(),b=n.querySelector(".nav-settings").getBoundingClientRect(),v=n.getBoundingClientRect();return {left:a.left,right:a.right,settingsLeft:b.left,settingsRight:b.right,navRight:v.right}}')
+                        assert edges['right'] <= edges['settingsLeft']+1, (name,width,edges)
+                        assert abs(edges['settingsRight']-edges['navRight']) < 2, (name,width,edges)
+                        if name in publication['articoli'] or name == 'modello-dispense.html':
                             geometry=page.locator('main:has(>.article-wrap)').evaluate('main=>{const hero=main.querySelector(":scope > .hero"),wrap=main.querySelector(":scope > .article-wrap"),article=wrap.querySelector(".article");return {hero:hero.getBoundingClientRect().toJSON(),wrap:wrap.getBoundingClientRect().toJSON(),article:article.getBoundingClientRect().toJSON(),border:getComputedStyle(wrap).borderTopWidth,heroWave:getComputedStyle(hero,":before").display,bodyWave:getComputedStyle(article,":before").display,gutterHero:getComputedStyle(hero).paddingLeft,gutterBody:getComputedStyle(article).paddingLeft}}')
                             assert geometry['border']=='0px' and geometry['heroWave']=='none' and geometry['bodyWave']=='none'
                             assert abs(geometry['hero']['left']-geometry['article']['left'])<1
                             assert abs(geometry['hero']['right']-geometry['article']['right'])<1
                             assert abs(geometry['hero']['bottom']-geometry['wrap']['top'])<1
                             assert geometry['gutterHero']==geometry['gutterBody']
-                        elif page.locator('.service-header').count():
-                            nav = page.locator('.service-header .site-nav')
-                            assert nav.locator(':scope > *').count() == 3, name
-                            assert nav.locator(':scope > .service-home[aria-label="Home"]').count() == 1
-                            assert nav.locator(':scope > .service-home .ui-icon').count() == 1
-                            assert nav.locator(':scope > .string-lang').count() == 1
-                            assert nav.locator(':scope > [data-theme-menu]').count() == 1
-                            assert nav.locator('.string-lang>summary').inner_text() == 'IT ▾'
-                            controls = nav.evaluate('n=>[...n.children].map(e=>(e.tagName==="DETAILS"?e.querySelector("summary"):e).getBoundingClientRect().toJSON())')
-                            assert all(x['width'] >= 44 and x['height'] >= 44 for x in controls), (name,width,controls)
-                            assert max(x['top'] for x in controls)-min(x['top'] for x in controls) < 1, (name,width,controls)
-                        elif page.locator('.site-header').count():
-                            tools=page.locator('.site-nav').evaluate('nav=>[nav.querySelector(".lang"),nav.querySelector(".theme-menu")].map(e=>e.getBoundingClientRect().toJSON())')
-                            assert abs(tools[0]['top']-tools[1]['top'])<1
-                            assert page.locator('.site-header .lang>summary').inner_text()=='IT ▾'
                         checks.append([name, width, theme])
             # Selezionare i tratti non deve cambiare la posizione della pagina.
             page.goto(base+'passaggi_di_stato.html')
@@ -267,11 +272,12 @@ def main():
             assert page.locator('#news-title').inner_text() == 'Novità'
             assert page.locator('.featured time').count() == 3
             assert page.locator('main h2').all_text_contents() == ['Novità']
-            # La home ha soltanto i menu Lingua e Chiaro/Scuro; i collegamenti sono nelle card.
-            assert page.locator('.home-header .site-nav > a').count() == 0
-            assert page.locator('.home-header .site-nav > details').count() == 2
-            assert page.locator('.home-header .site-nav > details.lang').count() == 1
-            assert page.locator('.home-header .site-nav > details[data-theme-menu]').count() == 1
+            # Home: nessun comando contestuale, menu nel gruppo destro.
+            home_nav = page.locator('.home-header .stringhe-navigation')
+            assert home_nav.locator('.nav-primary > *').count() == 0
+            assert home_nav.locator('.nav-settings > *').count() == 2
+            assert home_nav.locator('.nav-settings > .string-lang').count() == 1
+            assert home_nav.locator('.nav-settings > [data-theme-menu]').count() == 1
             for width in [320,390,768,1024,1440]:
                 page.set_viewport_size({'width':width,'height':900})
                 for theme in ['light','dark']:
@@ -286,24 +292,25 @@ def main():
                 page.goto(base + service_page)
                 for width in [390, 1440]:
                     page.set_viewport_size({'width':width,'height':900})
-                    nav = page.locator('.service-header .site-nav')
-                    assert nav.locator(':scope > *').count() == 3
-                    home_link = nav.locator('.service-home')
+                    nav = page.locator('.service-header .stringhe-navigation')
+                    assert nav.locator(':scope > .nav-primary > *').count() == 1
+                    assert nav.locator(':scope > .nav-settings > *').count() == 2
+                    home_link = nav.locator('.nav-primary > .string-nav')
                     assert home_link.get_attribute('href') == 'index.html'
                     assert home_link.get_attribute('aria-label') == 'Home'
                     tip = page.locator('#function-tooltip')
                     home_link.hover()
                     assert tip.is_visible(), (service_page,width,'hover')
                     assert tip.inner_text() == 'Home'
-                    language = nav.locator('.string-lang>summary')
+                    language = nav.locator('.nav-settings .string-lang>summary')
                     language.tap()
                     assert not tip.is_visible(), (service_page,width,'tap')
-                    assert nav.locator('.string-lang').get_attribute('open') is not None
-                    theme_summary = nav.locator('[data-theme-menu]>summary')
+                    assert nav.locator('.nav-settings .string-lang').get_attribute('open') is not None
+                    theme_summary = nav.locator('.nav-settings [data-theme-menu]>summary')
                     theme_summary.tap()
                     assert not tip.is_visible(), (service_page,width,'theme tap')
-                    assert nav.locator('.string-lang').get_attribute('open') is None
-                    assert nav.locator('[data-theme-menu]').get_attribute('open') is not None
+                    assert nav.locator('.nav-settings .string-lang').get_attribute('open') is None
+                    assert nav.locator('.nav-settings [data-theme-menu]').get_attribute('open') is not None
                     theme_summary.tap()
                     theme_summary.focus()
                     assert not tip.is_visible(), (service_page,width,'focus')
@@ -364,8 +371,10 @@ def main():
             # Tastiera, menu indice, note, zoom, crediti e download reale.
             page.locator('.index-toggle').click()
             assert page.locator('.reader-index').get_attribute('open') is not None
+            assert page.locator('.nav-settings > .string-lang').get_attribute('inert') is not None
             page.keyboard.press('Escape')
             assert page.locator('.reader-index').get_attribute('open') is None
+            assert page.locator('.nav-settings > .string-lang').get_attribute('inert') is None
             assert page.locator('.index-toggle').evaluate('(e)=>e===document.activeElement')
             if page.locator('[role=doc-noteref]').count():
                 page.locator('[role=doc-noteref]').first.click()

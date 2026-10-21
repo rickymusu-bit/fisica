@@ -5,6 +5,7 @@ Tema scelto: reticolo regolare e sinusoidi verticali di uguale ampiezza.
 Le alternative rimangono nella pagina di confronto.
 """
 from pathlib import Path
+from html import escape
 import re
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -54,6 +55,48 @@ def theme_control():
             f'<button type="button" data-theme-option="dark" aria-pressed="true" disabled>{icon("moon")}<span>Scuro</span></button>'
             f'<button type="button" data-theme-option="light" aria-pressed="false" disabled>{icon("sun")}<span>Chiaro</span></button>'
             '</div></details>')
+
+
+
+def navigation_header(page, filename='', index_markup=''):
+    """Unica barra Stringhe: navigazione a sinistra, Lingua e Tema a destra.
+
+    Le pagine usano lo stesso markup, le icone e i controlli. Cambia soltanto
+    l'insieme dei comandi contestuali, mai la posizione delle impostazioni.
+    """
+    if page not in {'home', 'catalogue', 'quiz', 'chapter', 'credits', 'comparison'}:
+        raise ValueError(f'Tipo di pagina sconosciuto: {page}')
+    if page == 'chapter' and not index_markup:
+        raise ValueError('Indice del capitolo mancante')
+    def link(href, label, symbol, *, download=False):
+        safe = escape(href, quote=True)
+        special = f' download="{safe}"' if download else f' data-site-path="{safe}"'
+        return (f'<a class="string-nav" href="{safe}"{special} '
+                f'aria-label="{label}" title="{label}">'
+                f'{icon(symbol)}<span class="nav-label">{label}</span></a>')
+    actions = []
+    if page != 'home':
+        actions.append(link('index.html', 'Home', 'home'))
+    if page in {'chapter', 'credits'}:
+        actions.append(link('articoli.html', 'Tutti i capitoli', 'books'))
+    if page == 'chapter':
+        actions.append(link(filename, 'Scarica il capitolo', 'download', download=True))
+        actions.append(index_markup)
+    language = ('<details class="string-lang" name="stringhe-header-menu">'
+                '<summary aria-label="Seleziona lingua" title="Lingua: Italiano">'
+                '<span class="language-code">IT ▾</span></summary>'
+                '<div class="string-languages" lang="it">✓ Italiano</div></details>')
+    nav = ('<nav class="stringhe-navigation site-nav top-links" aria-label="Navigazione principale">'
+           '<div class="nav-primary">' + ''.join(actions) + '</div>'
+           '<div class="nav-settings">' + language + theme_control() + '</div></nav>')
+    if page == 'chapter':
+        return '<header class="topbar stringhe-header">' + nav + '</header>'
+    classes = 'site-header stringhe-header'
+    if page == 'home':
+        classes += ' home-header'
+    elif page in {'catalogue', 'quiz'}:
+        classes += ' service-header'
+    return f'<header class="{classes}"><div class="top-inner">{nav}</div></header>'
 
 
 def logo():
