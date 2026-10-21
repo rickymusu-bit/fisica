@@ -4,7 +4,7 @@ from html.parser import HTMLParser
 from datetime import date
 import json
 import re
-from stringhe_theme import apply_theme, theme_control, logo, logo_script, ROOT, icon
+from stringhe_theme import apply_theme, navigation_header, logo, logo_script, ROOT, icon
 
 BASE = "./"
 
@@ -83,30 +83,6 @@ main{max-width:1160px;margin:auto;padding:36px 24px 80px}h1,h2,h3,p{margin-top:0
 
 
 
-def topbar(home=False, service=False):
-    if service:
-        # Stessa barra a icone dei capitoli, con soli tre comandi.
-        return ('<header class="site-header service-header"><div class="top-inner">'
-                '<nav class="site-nav" aria-label="Navigazione principale">'
-                '<a class="string-nav service-home" href="index.html" data-site-path="index.html" '
-                'aria-label="Home" title="Home">'
-                f'{icon("home")}<span class="nav-label">Home</span></a>'
-                '<details class="string-lang" name="stringhe-header-menu">'
-                '<summary aria-label="Seleziona lingua" title="Lingua: Italiano">'
-                '<span class="language-code">IT ▾</span></summary>'
-                '<div class="string-languages" lang="it">✓ Italiano</div></details>'
-                f'{theme_control()}</nav></div></header>')
-    identity = '' if home else ('<a class="brand" href="index.html" aria-label="Stringhe, vai alla home">'
-                                '<span>Stringhe</span></a>')
-    links = '' if home else '<a href="articoli.html">Capitoli</a><a href="quiz.html">Quiz</a>'
-    home_class = ' home-header' if home else ''
-    return (f'<header class="site-header{home_class}"><div class="top-inner">{identity}'
-            f'<nav class="site-nav" aria-label="Navigazione principale">{links}'
-            '<details class="lang" id="lingua"><summary aria-label="Seleziona la lingua">IT ▾</summary>'
-            '<div class="lang-menu"><strong>Lingue disponibili</strong><p lang="it">✓ Italiano</p></div></details>'
-            f'{theme_control()}</nav></div></header>')
-
-
 def chapter_labels(document):
     """Aggiorna solo diciture di servizio, conservando testo scientifico e URL."""
     for old, new in {
@@ -131,7 +107,7 @@ def shell(title, body, source, home=False, service=False):
             f'<meta name="theme-color" content="#f6f9fe">'
             f'<meta name="description" content="Stringhe — L’essenziale della Fisica. Capitoli e quiz di Fisica.">'
             f'<title>{e(title)} — Stringhe</title><style>{font_css(source)}{CSS}</style></head>'
-            f'<body><a class="skip" href="#main">Vai al contenuto</a>{topbar(home=home, service=service)}'
+            f'<body><a class="skip" href="#main">Vai al contenuto</a>{navigation_header('home' if home else ('catalogue' if title == 'Tutti i capitoli' else ('quiz' if title == 'Quiz' else 'comparison')))}'
             f'<main id="main">{body}</main>'
             '<footer class="site-footer"><span>Stringhe — L’essenziale della Fisica</span>'
             f'</footer>{credits}{logo_script()}</body></html>')
@@ -266,34 +242,20 @@ def render_quiz(source):
 
 
 def enhance_article(document, filename):
-    # Ripetibile anche sul modello già aggiornato: un solo gruppo di controlli.
-    document = re.sub(r'<!-- stringhe-navigation:start -->[\s\S]*?<!-- stringhe-navigation:end -->', '', document)
-    # Barra integrata nel tema esistente: l'indice interno rimane operativo.
-    # Compatibilità degli import storici: i nomi precedenti non sono l’identità corrente.
+    # Solo l'HTML pubblicabile viene modificato: sorgenti originali intatti.
     document = document.replace("Materia Oscura", "Stringhe")
     document = document.replace("Guida pratica per fare luce sulla Fisica", "L’essenziale della Fisica")
     document = document.replace("https://rickymusu-bit.github.io/fisica/#indice", "articoli.html")
-    # Il marchio non fa parte della barra dei capitoli, ma solo della home.
-    document = re.sub(
-        r'(<header\b[^>]*class="[^"]*\btopbar\b[^"]*"[^>]*>)\s*'
-        r'<div class="brand">[\s\S]*?</div>(?=\s*<nav\b)',
-        r'\1', document, count=1)
-    document = re.sub(r'(<nav[^>]*class="top-links"[^>]*>)<a[^>]*>\s*← (?:Articoli|Capitoli)\s*</a>', r'\1', document, count=1)
-    controls = ('<!-- stringhe-navigation:start -->'
-                f'<a class="string-nav" href="index.html" data-site-path="index.html" aria-label="Home" title="Home">{icon("home")}<span class="nav-label">Home</span></a>'
-                f'<a class="string-nav" href="articoli.html" data-site-path="articoli.html" aria-label="Tutti i capitoli" title="Tutti i capitoli">{icon("books")}<span class="nav-label">Capitoli</span></a>'
-                f'<a class="string-nav" href="{e(filename)}" download="{e(filename)}" aria-label="Scarica il capitolo" title="Scarica il capitolo">{icon("download")}<span class="nav-label">Scarica</span></a>'
-                f'<details class="string-lang"><summary aria-label="Seleziona lingua" title="Lingua: Italiano"><span class="language-code">IT ▾</span></summary>'
-                f'<div class="string-languages" lang="it">✓ Italiano</div></details>{theme_control()}<!-- stringhe-navigation:end -->')
-    # Gli articoli hanno piccole variazioni negli attributi del nav.
-    # Individua l'elemento dalla classe, senza dipendere dall'aria-label esatta.
-    navigation_pattern = r'<nav[^>]*class="top-links"[^>]*>'
-    document, inserted = re.subn(navigation_pattern,
-                                 lambda match: match.group(0) + controls,
-                                 document, count=1, flags=re.I)
-    if inserted != 1:
-        raise ValueError(f"Barra di navigazione top-links non trovata: {filename}")
-    # I rimandi relativi conservano il ramo di anteprima; offline hanno un fallback pubblico.
+    header_pattern = r'<header\\b[^>]*class="[^"]*\\btopbar\\b[^"]*"[^>]*>[\\s\\S]*?</header>'
+    def replace_header(match):
+        original = match.group(0)
+        index = re.search(r'<details\\b[^>]*class="[^"]*\\breader-index\\b[^"]*"[^>]*>[\\s\\S]*?</details>', original)
+        if not index:
+            raise ValueError(f'Indice del capitolo assente: {filename}')
+        return navigation_header('chapter', filename, index.group(0))
+    document, matched = re.subn(header_pattern, replace_header, document, count=1)
+    if matched != 1:
+        raise ValueError(f'Barra del capitolo assente: {filename}')
     document = document.replace('href="articoli.html">← Articoli', 'href="articoli.html" data-site-path="articoli.html">← Articoli')
     document = document.replace('href="https://rickymusu-bit.github.io/fisica/crediti.html"', 'href="crediti.html" data-site-path="crediti.html"')
     return apply_theme(chapter_labels(document))
