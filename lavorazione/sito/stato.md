@@ -323,3 +323,9 @@ Richiesta: le pagine «Tutti i capitoli» e «Quiz» devono avere soltanto Home 
 Ramo isolato: `feat/service-nav-hover-tooltips`. Aggiornati il renderer delle pagine di servizio, i componenti JS/CSS canonici e le verifiche di navigazione e di tooltip. Le copie incorporate nel modello, nella pagina confronto e nei crediti devono restare sincronizzate. Contenuto dei capitoli, manifest e materiali esclusi non modificati. Stato: implementazione e verifica automatiche in corso; presentare PR e anteprima prima dell'approvazione. Nessun merge né pubblicazione autorizzati per questa revisione.
 
 Integrazione della richiesta successiva: eliminare anche la scritta «Stringhe» e il logo dalla barra superiore dei capitoli scientifici. La barra del catalogo e dei quiz era già senza marchio. Il logo resta nella copertina della home; i capitoli mantengono i sei comandi di navigazione. Il renderer e il modello canonico sono stati aggiornati sul ramo della stessa revisione.
+
+## Barra universale — soluzione A, 21 ottobre 2026
+
+Nuova richiesta: uniformare navigazione, grafica e interazioni con **due gruppi costanti**, azioni contestuali a sinistra e Lingua/Tema a destra. Home = 0+2, catalogo e quiz = 1+2, capitoli scientifici = 4+2, crediti = 2+2. Stessa struttura, icone e dimensioni minime 44 px a 320/390/768/1024/1440 px; niente marchio in barra, tooltip solo hover mouse/penna e menu mutuamente esclusivi. Capitoli preservano indice, download e funzionamento offline. 
+
+Ramo dedicato `feat/header-universale-gruppi-a`, dal `main` dopo la PR #56. Sorgente unico del componente `navigation_header` in `scripts/stringhe_theme.py`. I renderer di portale, capitoli e crediti lo richiamano; CSS canonico condiviso e JS dell'indice aggiornati. I documenti scientifici originali, i manifest e i sorgenti esclusi restano intatti. **PR in bozza e anteprima da approvare prima di merge/Pages.** Stato: test e allineamento dei file generati in preparazione.
