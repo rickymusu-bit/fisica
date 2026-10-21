@@ -47,7 +47,7 @@
     index.querySelector('summary').setAttribute('aria-label', label);
     index.querySelector('summary').dataset.functionName = label;
     index.querySelector('summary').removeAttribute('title');
-    document.querySelectorAll('.top-links > :not(.reader-index)').forEach(item => { item.inert = index.open; });
+    document.querySelectorAll('.stringhe-navigation > .nav-primary > :not(.reader-index), .stringhe-navigation > .nav-settings > *').forEach(item => { item.inert = index.open; });
   });
   const bar = document.querySelector('.topbar');
   if (bar && typeof ResizeObserver === 'function') {
