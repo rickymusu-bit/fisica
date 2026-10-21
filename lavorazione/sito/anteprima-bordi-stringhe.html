@@ -302,23 +302,50 @@ a{color:inherit}button,input,select{font:inherit}button,select{color:var(--ink)}
 #curve-choice-5:checked ~ .curve-controls label[for="curve-choice-5"]{background:var(--phase-5);color:#fff;font-weight:600;box-shadow:0 0 0 2px var(--surface),0 0 0 4px var(--ink)}
 .heating-curve .curve-scroll circle{fill:#202637;stroke:#fff;stroke-width:1.5}
 
-/* Home: soltanto lingua e tema, allineati a destra su ogni schermo. */
-.home-header .top-inner{justify-content:flex-end}
-.home-header .site-nav{width:auto;justify-content:flex-end;flex-wrap:nowrap;gap:6px}
-/* Le barre dei capitoli mostrano soltanto i comandi, allineati a destra. */
-.topbar{justify-content:flex-end}
-/* Catalogo e Quiz: navigazione compatta allineata al tema dei capitoli. */
-.service-header .top-inner{justify-content:flex-end}
-.service-header .site-nav{width:auto;justify-content:flex-end;flex-wrap:nowrap;gap:6px}
-.service-header .site-nav>.string-nav,.service-header .site-nav>.string-lang,.service-header .site-nav>.theme-menu{flex:0 0 44px;width:44px;min-width:44px;max-width:44px}
-.service-header .site-nav>.string-nav,.service-header .site-nav>.string-lang>summary{display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;width:44px;height:44px;min-height:44px;padding:0!important;margin:0;gap:0;background:var(--surface-soft);color:var(--ink);border:1px solid var(--line);border-radius:10px}
-.service-header .site-nav>.string-nav:hover,.service-header .site-nav>.string-lang>summary:hover{border-color:var(--accent)}
-.service-header .site-nav>.string-nav>.ui-icon{width:22px;height:22px}
-.service-header .site-nav>.string-nav>.nav-label{display:none}
+/* Barra universale Stringhe: navigazione a sinistra, impostazioni a destra. */
+.stringhe-header .stringhe-navigation{
+  display:flex;flex:1 1 auto;width:100%;min-width:0;align-items:center;
+  justify-content:space-between;flex-wrap:nowrap!important;gap:8px!important;
+}
+.stringhe-header .nav-primary,.stringhe-header .nav-settings{
+  display:flex;align-items:center;flex:0 0 auto;gap:6px;min-width:0;
+}
+.stringhe-header .nav-settings{margin-left:auto}
+.stringhe-header .nav-primary>.string-nav,
+.stringhe-header .nav-primary>.reader-index,
+.stringhe-header .nav-settings>.string-lang,
+.stringhe-header .nav-settings>.theme-menu{
+  flex:0 0 44px;width:44px;min-width:44px;max-width:44px;
+}
+.stringhe-header .nav-primary>.string-nav,
+.stringhe-header .nav-primary>.reader-index>.index-toggle,
+.stringhe-header .nav-settings>.string-lang>summary,
+.stringhe-header .nav-settings>.theme-menu>summary{
+  display:inline-flex;align-items:center;justify-content:center;
+  box-sizing:border-box;width:44px;height:44px;min-height:44px;
+  margin:0;padding:0!important;gap:0;border:1px solid var(--line);
+  border-radius:10px;background:var(--surface-soft);color:var(--ink);
+  text-decoration:none;line-height:1;
+}
+.stringhe-header :is(.nav-primary,.nav-settings) :is(a,summary):hover{border-color:var(--accent)}
+.stringhe-header .nav-primary>.string-nav>.ui-icon{width:22px;height:22px}
+.stringhe-header .nav-primary .nav-label{display:none}
+.stringhe-header .nav-settings>.string-lang{position:relative}
+.stringhe-header .nav-settings>.theme-menu{position:relative;padding:0}
+.stringhe-header .nav-settings>.theme-menu>summary{gap:1px}
+.stringhe-header .top-inner{width:100%;min-width:0}
+.topbar.stringhe-header{justify-content:space-between;flex-wrap:nowrap!important}
+.topbar.stringhe-header .top-links.stringhe-navigation{flex:1 1 auto;width:100%;margin:0}
+@media(max-width:440px){
+  .stringhe-header .nav-primary,.stringhe-header .nav-settings{gap:4px}
+  .stringhe-header .stringhe-navigation{gap:4px!important}
+  .topbar.stringhe-header{padding:8px 8px!important}
+  .stringhe-header .top-inner{padding:8px 8px}
+}
 /* I suggerimenti compaiono soltanto al passaggio del puntatore, mai al tocco. */
 .function-tooltip{position:fixed;pointer-events:none;width:max-content;z-index:1000;max-width:min(280px,calc(100vw - 16px));margin:0;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--ink);color:var(--paper);box-shadow:var(--shadow);font:500 13px/1.45 Lexend,system-ui,sans-serif;overflow-wrap:anywhere}
 .function-tooltip[hidden]{display:none}
-</style></head><body><a class="skip" href="#main">Vai al contenuto</a><header class="site-header"><div class="top-inner"><a class="brand" href="index.html" aria-label="Stringhe, vai alla home"><span>Stringhe</span></a><nav class="site-nav" aria-label="Navigazione principale"><a href="articoli.html">Capitoli</a><a href="quiz.html">Quiz</a><details class="lang" id="lingua" name="stringhe-header-menu"><summary aria-label="Seleziona la lingua">IT ▾</summary><div class="lang-menu"><strong>Lingue disponibili</strong><p lang="it">✓ Italiano</p></div></details><details class="theme-control theme-menu" data-theme-menu name="stringhe-header-menu"><summary aria-label="Tema del sito: Scuro" title="Tema: Scuro"><span class="theme-current-dark"><svg class="ui-icon" data-ui-icon viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 15A9 9 0 0 1 9 4a9 9 0 1 0 11 11Z"/></svg></span><span class="theme-current-light"><svg class="ui-icon" data-ui-icon viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1 1m12 12 1 1M5 19l1-1M18 6l1-1"/></svg></span><span class="menu-chevron" aria-hidden="true">▾</span></summary><div class="theme-options" role="group" aria-label="Scegli il tema"><button type="button" data-theme-option="dark" aria-pressed="true" disabled><svg class="ui-icon" data-ui-icon viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 15A9 9 0 0 1 9 4a9 9 0 1 0 11 11Z"/></svg><span>Scuro</span></button><button type="button" data-theme-option="light" aria-pressed="false" disabled><svg class="ui-icon" data-ui-icon viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1 1m12 12 1 1M5 19l1-1M18 6l1-1"/></svg><span>Chiaro</span></button></div></details></nav></div></header><main id="main"><p class="eyebrow">Confronto del tema</p><h1 class="page-title">Bordi e reticolo</h1>
+</style></head><body><a class="skip" href="#main">Vai al contenuto</a><header class="site-header stringhe-header"><div class="top-inner"><nav class="stringhe-navigation site-nav top-links" aria-label="Navigazione principale"><div class="nav-primary"><a class="string-nav" href="index.html" data-site-path="index.html" aria-label="Home" title="Home"><svg class="ui-icon" data-ui-icon viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m3 10 9-7 9 7v10H6V10M9 20v-7h6v7"/></svg><span class="nav-label">Home</span></a></div><div class="nav-settings"><details class="string-lang" name="stringhe-header-menu"><summary aria-label="Seleziona lingua" title="Lingua: Italiano"><span class="language-code">IT ▾</span></summary><div class="string-languages" lang="it">✓ Italiano</div></details><details class="theme-control theme-menu" data-theme-menu name="stringhe-header-menu"><summary aria-label="Tema del sito: Scuro" title="Tema: Scuro"><span class="theme-current-dark"><svg class="ui-icon" data-ui-icon viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 15A9 9 0 0 1 9 4a9 9 0 1 0 11 11Z"/></svg></span><span class="theme-current-light"><svg class="ui-icon" data-ui-icon viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1 1m12 12 1 1M5 19l1-1M18 6l1-1"/></svg></span><span class="menu-chevron" aria-hidden="true">▾</span></summary><div class="theme-options" role="group" aria-label="Scegli il tema"><button type="button" data-theme-option="dark" aria-pressed="true" disabled><svg class="ui-icon" data-ui-icon viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 15A9 9 0 0 1 9 4a9 9 0 1 0 11 11Z"/></svg><span>Scuro</span></button><button type="button" data-theme-option="light" aria-pressed="false" disabled><svg class="ui-icon" data-ui-icon viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1 1m12 12 1 1M5 19l1-1M18 6l1-1"/></svg><span>Chiaro</span></button></div></details></div></nav></div></header><main id="main"><p class="eyebrow">Confronto del tema</p><h1 class="page-title">Bordi e reticolo</h1>
 <p class="lede">Confronta le stesse superfici con due curve tracciate separatamente. Configurazione scelta: reticolo regolare e sinusoidi verticali di uguale ampiezza. Le alternative restano disponibili per confronto.</p>
 <div class="comparison-toolbar">
 <label>Bordi <select id="border-variant"><option value="A">A — ampiezze uguali</option><option value="B">B — seconda ampiezza al 60%</option></select></label>
@@ -572,7 +599,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     index.querySelector('summary').setAttribute('aria-label', label);
     index.querySelector('summary').dataset.functionName = label;
     index.querySelector('summary').removeAttribute('title');
-    document.querySelectorAll('.top-links > :not(.reader-index)').forEach(item => { item.inert = index.open; });
+    document.querySelectorAll('.stringhe-navigation > .nav-primary > :not(.reader-index), .stringhe-navigation > .nav-settings > *').forEach(item => { item.inert = index.open; });
   });
   const bar = document.querySelector('.topbar');
   if (bar && typeof ResizeObserver === 'function') {
