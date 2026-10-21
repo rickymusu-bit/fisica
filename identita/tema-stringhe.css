@@ -223,6 +223,16 @@ a{color:inherit}button,input,select{font:inherit}button,select{color:var(--ink)}
 /* Home: soltanto lingua e tema, allineati a destra su ogni schermo. */
 .home-header .top-inner{justify-content:flex-end}
 .home-header .site-nav{width:auto;justify-content:flex-end;flex-wrap:nowrap;gap:6px}
-/* Nome della funzione condiviso da mouse, tastiera e touch. */
+/* Le barre dei capitoli mostrano soltanto i comandi, allineati a destra. */
+.topbar{justify-content:flex-end}
+/* Catalogo e Quiz: navigazione compatta allineata al tema dei capitoli. */
+.service-header .top-inner{justify-content:flex-end}
+.service-header .site-nav{width:auto;justify-content:flex-end;flex-wrap:nowrap;gap:6px}
+.service-header .site-nav>.string-nav,.service-header .site-nav>.string-lang,.service-header .site-nav>.theme-menu{flex:0 0 44px;width:44px;min-width:44px;max-width:44px}
+.service-header .site-nav>.string-nav,.service-header .site-nav>.string-lang>summary{display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;width:44px;height:44px;min-height:44px;padding:0!important;margin:0;gap:0;background:var(--surface-soft);color:var(--ink);border:1px solid var(--line);border-radius:10px}
+.service-header .site-nav>.string-nav:hover,.service-header .site-nav>.string-lang>summary:hover{border-color:var(--accent)}
+.service-header .site-nav>.string-nav>.ui-icon{width:22px;height:22px}
+.service-header .site-nav>.string-nav>.nav-label{display:none}
+/* I suggerimenti compaiono soltanto al passaggio del puntatore, mai al tocco. */
 .function-tooltip{position:fixed;pointer-events:none;width:max-content;z-index:1000;max-width:min(280px,calc(100vw - 16px));margin:0;padding:8px 12px;border:1px solid var(--line);border-radius:10px;background:var(--ink);color:var(--paper);box-shadow:var(--shadow);font:500 13px/1.45 Lexend,system-ui,sans-serif;overflow-wrap:anywhere}
 .function-tooltip[hidden]{display:none}

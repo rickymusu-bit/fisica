@@ -9,7 +9,8 @@
       else logo.pauseAnimations();
       const label = playing ? 'Metti in pausa l’animazione del logo' : 'Riprendi l’animazione del logo';
       button.setAttribute('aria-label', label);
-      button.setAttribute('title', label);
+      button.dataset.functionName = label;
+      button.removeAttribute('title');
       button.setAttribute('aria-pressed', String(!playing));
     }
     button.disabled = false;

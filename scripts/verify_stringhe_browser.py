@@ -150,6 +150,8 @@ def main():
                     assert page.locator('[data-logo-toggle] svg path.logo-moving').count() == 2
                 if name in publication['articoli'] or name == 'modello-dispense.html':
                     assert page.locator('.article').count() == 1
+                    assert page.locator('.topbar .brand').count() == 0, (name,'brand in topbar')
+                    assert page.locator('.topbar [data-logo-toggle]').count() == 0, (name,'logo in topbar')
                     assert page.locator('main:has(>.article-wrap)').evaluate("e=>!['none','normal'].includes(getComputedStyle(e,':before').content) && getComputedStyle(e,':before').pointerEvents==='none'")
                     assert page.locator('main:has(>.article-wrap)').evaluate("e=>getComputedStyle(e,':before').width") == '24px'
                     assert page.locator('main:has(>.article-wrap)').evaluate("e=>getComputedStyle(e,':after').right") == '0px'
@@ -182,6 +184,17 @@ def main():
                             assert abs(geometry['hero']['right']-geometry['article']['right'])<1
                             assert abs(geometry['hero']['bottom']-geometry['wrap']['top'])<1
                             assert geometry['gutterHero']==geometry['gutterBody']
+                        elif page.locator('.service-header').count():
+                            nav = page.locator('.service-header .site-nav')
+                            assert nav.locator(':scope > *').count() == 3, name
+                            assert nav.locator(':scope > .service-home[aria-label="Home"]').count() == 1
+                            assert nav.locator(':scope > .service-home .ui-icon').count() == 1
+                            assert nav.locator(':scope > .string-lang').count() == 1
+                            assert nav.locator(':scope > [data-theme-menu]').count() == 1
+                            assert nav.locator('.string-lang>summary').inner_text() == 'IT ▾'
+                            controls = nav.evaluate('n=>[...n.children].map(e=>(e.tagName==="DETAILS"?e.querySelector("summary"):e).getBoundingClientRect().toJSON())')
+                            assert all(x['width'] >= 44 and x['height'] >= 44 for x in controls), (name,width,controls)
+                            assert max(x['top'] for x in controls)-min(x['top'] for x in controls) < 1, (name,width,controls)
                         elif page.locator('.site-header').count():
                             tools=page.locator('.site-nav').evaluate('nav=>[nav.querySelector(".lang"),nav.querySelector(".theme-menu")].map(e=>e.getBoundingClientRect().toJSON())')
                             assert abs(tools[0]['top']-tools[1]['top'])<1
@@ -268,6 +281,36 @@ def main():
                         assert page.locator('.home-cover').evaluate('(e,side)=>getComputedStyle(e,":"+side).content', side) in ['none','normal']
                     assert page.locator('.home-intro .subtitle').evaluate('(e)=>getComputedStyle(e).color===(()=>{const s=document.createElement("span");s.style.color="var(--accent)";document.body.append(s);const c=getComputedStyle(s).color;s.remove();return c;})()')
                     verify_cover_layout(width)
+            # Barra servizi e tooltip: hover sì, attivazione touch e focus no.
+            for service_page in ['articoli.html', 'quiz.html']:
+                page.goto(base + service_page)
+                for width in [390, 1440]:
+                    page.set_viewport_size({'width':width,'height':900})
+                    nav = page.locator('.service-header .site-nav')
+                    assert nav.locator(':scope > *').count() == 3
+                    home_link = nav.locator('.service-home')
+                    assert home_link.get_attribute('href') == 'index.html'
+                    assert home_link.get_attribute('aria-label') == 'Home'
+                    tip = page.locator('#function-tooltip')
+                    home_link.hover()
+                    assert tip.is_visible(), (service_page,width,'hover')
+                    assert tip.inner_text() == 'Home'
+                    language = nav.locator('.string-lang>summary')
+                    language.tap()
+                    assert not tip.is_visible(), (service_page,width,'tap')
+                    assert nav.locator('.string-lang').get_attribute('open') is not None
+                    theme_summary = nav.locator('[data-theme-menu]>summary')
+                    theme_summary.tap()
+                    assert not tip.is_visible(), (service_page,width,'theme tap')
+                    assert nav.locator('.string-lang').get_attribute('open') is None
+                    assert nav.locator('[data-theme-menu]').get_attribute('open') is not None
+                    theme_summary.tap()
+                    theme_summary.focus()
+                    assert not tip.is_visible(), (service_page,width,'focus')
+            # Anche il menu del capitolo non mostra tooltip al tocco.
+            page.goto(base + publication['articoli'][0])
+            page.locator('[data-theme-menu]>summary').tap()
+            assert not page.locator('#function-tooltip').is_visible()
             # Controllo delle 20 scelte casuali e associazione immagine/alt/didascalia.
             covers = json.loads((ROOT / 'copertine/manifest.json').read_text())
             for i, cover in enumerate(covers):
@@ -299,8 +342,9 @@ def main():
             page.locator('#article-search').fill('')
             page.locator('.chip').last.click()
             assert page.locator('.chip').last.get_attribute('aria-pressed') == 'true'
-            page.goto(base + publication['articoli'][0])
-            # Tastiera, menu indice, note, zoom, crediti e download reale.
+            # Il logo animato rimane nella sola copertina della home.
+            page.goto(base+'index.html')
+            assert page.locator('.topbar [data-logo-toggle]').count() == 0
             logo = page.locator('[data-logo-toggle]').first
             logo.focus(); old = logo.get_attribute('aria-pressed'); page.keyboard.press('Space')
             assert logo.get_attribute('aria-pressed') != old
@@ -316,6 +360,8 @@ def main():
             assert logo.evaluate('(button)=>button.querySelector("svg").animationsPaused()')
             logo.click()
             assert not logo.evaluate('(button)=>button.querySelector("svg").animationsPaused()')
+            page.goto(base + publication['articoli'][0])
+            # Tastiera, menu indice, note, zoom, crediti e download reale.
             page.locator('.index-toggle').click()
             assert page.locator('.reader-index').get_attribute('open') is not None
             page.keyboard.press('Escape')
@@ -358,9 +404,10 @@ def main():
             page.wait_for_function('document.documentElement.dataset.theme === "dark"')
             other.evaluate("localStorage.removeItem('stringhe-theme')")
             other.close()
-            page.goto(base + publication['articoli'][0])
+            page.goto(base+'index.html')
             page.emulate_media(reduced_motion='reduce')
             page.wait_for_function('document.querySelector("[data-logo-toggle]").getAttribute("aria-pressed") === "true"')
+            page.goto(base + publication['articoli'][0])
             denied = browser.new_context()
             denied.add_init_script("Object.defineProperty(window,'localStorage',{get(){throw new Error('blocked')}})")
             blocked = denied.new_page(); blocked.on('pageerror', lambda error: errors.append(str(error)))
@@ -445,7 +492,6 @@ def main():
                 for theme in ['light','dark']:
                     page.goto(base+'passaggi_di_stato.html');set_theme(page,theme)
                     page.wait_for_function('document.fonts.status === "loaded"')
-                    page.locator('[data-logo-toggle] svg').evaluate('(svg)=>{svg.pauseAnimations();svg.setCurrentTime(1)}')
                     page.evaluate('scrollTo({top:0,behavior:"instant"})')
                     page.screenshot(path=str(SHOTS/f'lettura-continua-passaggi-{width}-{theme}.png'),animations='disabled')
                     page.locator('[data-theme-menu]>summary').click()
@@ -456,7 +502,7 @@ def main():
         server.shutdown()
         (SITE / 'modello-dispense.html').unlink(missing_ok=True)
     assert not errors, errors
-    report = {'barra_capitoli':{'comandi':6,'righe':1,'tema':'menu Chiaro/Scuro con luna o sole','lingua':'IT','bersaglio_minimo_px':44},'curva_riscaldamento':{'selezioni_touch':50,'prove_tastiera':10,'fallback_senza_javascript':2,'salti_di_scorrimento':False},'viewport_tema_pagina':checks,'errori_javascript':errors,'copertine_verificate':len(covers),'home':{'card':'unica per titolo, logo e copertina; senza onde laterali','mobile':'foto sotto al titolo','desktop':'foto affiancata','layout_copertine_verificati':100,'didascalia':'bordo sinistro e larghezza coincidenti con la foto; proporzioni conservate'},'logo':{'curve':2,'fase':'opposizione','periodo_secondi':4,'animazione_nera':'impronta originale conservata','pausa':'entrambe le curve sincronizzate'},'laterali':{'viewport':[320,390,768,1024,1440],'temi':['light','dark'],'curve':'stessa ampiezza; periodo invariato; 24 px per fascia; nessun overflow'},
+    report = {'barra_capitoli':{'comandi':6,'righe':1,'tema':'menu Chiaro/Scuro con luna o sole','lingua':'IT','bersaglio_minimo_px':44},'curva_riscaldamento':{'selezioni_touch':50,'prove_tastiera':10,'fallback_senza_javascript':2,'salti_di_scorrimento':False},'viewport_tema_pagina':checks,'errori_javascript':errors,'copertine_verificate':len(covers),'home':{'card':'unica per titolo, logo e copertina; senza onde laterali','mobile':'foto sotto al titolo','desktop':'foto affiancata','layout_copertine_verificati':100,'didascalia':'bordo sinistro e larghezza coincidenti con la foto; proporzioni conservate'},'logo':{'presenza':'solo nella copertina della home','curve':2,'fase':'opposizione','periodo_secondi':4,'animazione_nera':'impronta originale conservata','pausa':'entrambe le curve sincronizzate'},'laterali':{'viewport':[320,390,768,1024,1440],'temi':['light','dark'],'curve':'stessa ampiezza; periodo invariato; 24 px per fascia; nessun overflow'},
               'offline':offline_status,'browser':'Chromium; mobile e touch emulati, nessun dispositivo Android fisico',
               'controlli':['persistenza','menu tema: tastiera, Escape, default scuro e persistenza','storage bloccato','senza JavaScript','logo e movimento ridotto','ricerca e filtro','indice tastiera','note','zoom','crediti','download identico']}
     (ROOT/'lavorazione/sito/verifica-stringhe.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')

@@ -7,7 +7,8 @@
     const sync = () => {
       const label = zoom.open ? 'Rimpicciolisci l’immagine' : 'Ingrandisci l’immagine';
       button.setAttribute('aria-label', label);
-      button.title = label;
+      button.dataset.functionName = label;
+      button.removeAttribute('title');
     };
     zoom.addEventListener('toggle', sync);
     sync();
@@ -25,7 +26,8 @@
       image.src = playing ? animation : still;
       const label = playing ? 'Metti in pausa l’animazione' : 'Riprendi l’animazione';
       button.setAttribute('aria-label', label);
-      button.title = label;
+      button.dataset.functionName = label;
+      button.removeAttribute('title');
       button.setAttribute('aria-pressed', String(!playing));
     }
     button.disabled = false;

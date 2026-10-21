@@ -7108,15 +7108,6 @@
           "attribute": "inline",
           "location": null,
           "credit_id": null
-        },
-        {
-          "document": "riferimenti/TEMA_DISPENSE.html",
-          "kind": "svg",
-          "description": "svg",
-          "locator": "brand-logo",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
         }
       ]
     },
