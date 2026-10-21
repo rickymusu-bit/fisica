@@ -246,10 +246,10 @@ def enhance_article(document, filename):
     document = document.replace("Materia Oscura", "Stringhe")
     document = document.replace("Guida pratica per fare luce sulla Fisica", "L’essenziale della Fisica")
     document = document.replace("https://rickymusu-bit.github.io/fisica/#indice", "articoli.html")
-    header_pattern = r'<header\\b[^>]*class="[^"]*\\btopbar\\b[^"]*"[^>]*>[\\s\\S]*?</header>'
+    header_pattern = r'<header\b[^>]*class="[^"]*\btopbar\b[^"]*"[^>]*>[\s\S]*?</header>'
     def replace_header(match):
         original = match.group(0)
-        index = re.search(r'<details\\b[^>]*class="[^"]*\\breader-index\\b[^"]*"[^>]*>[\\s\\S]*?</details>', original)
+        index = re.search(r'<details\b[^>]*class="[^"]*\breader-index\b[^"]*"[^>]*>[\s\S]*?</details>', original)
         if not index:
             raise ValueError(f'Indice del capitolo assente: {filename}')
         return navigation_header('chapter', filename, index.group(0))
