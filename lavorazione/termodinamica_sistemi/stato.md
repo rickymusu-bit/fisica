@@ -108,3 +108,7 @@ Pubblicazione tramite la PR #36 (https://github.com/rickymusu-bit/fisica/pull/36
 ## Collegamento dell’articolo Temperatura ed equilibrio termico
 
 Pubblicazione autorizzata dall’utente con «Ok pubblica». Aggiornata esclusivamente la navigazione verso il nuovo articolo; testo didattico e immagini invariati. Versione corrente: v9 · 19 ottobre 2026. Aggiornamento incluso nella PR #37.
+
+## Navigazione per la pubblicazione del capitolo sulle grandezze — 22 ottobre 2026
+
+Richiesta esplicita dell’utente di integrare e pubblicare la PR #59 dopo l’approvazione dell’anteprima. Aggiornato soltanto il rimando adiacente per la sequenza Metodo scientifico → Grandezze fisiche e SI → Sistemi termodinamici; versione interna incrementata, data editoriale e corpo didattico conservati. Dettagli e verifiche in `../grandezze_fisiche_sistema_internazionale/stato.md`.

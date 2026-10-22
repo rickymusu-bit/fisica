@@ -1,7 +1,8 @@
 {
-  "versione": 10,
+  "versione": 11,
   "articoli": [
     "metodo_scientifico_it.html",
+    "grandezze_fisiche_sistema_internazionale_it.html",
     "termodinamica_sistemi_it.html",
     "temperatura_equilibrio_termico_it.html",
     "energia_interna_calore_specifico_it.html",

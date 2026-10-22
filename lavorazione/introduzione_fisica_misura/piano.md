@@ -44,3 +44,7 @@ Conservare la logica ciclica dello schema originale, separando esplicitamente os
 ## Avanzamento primo capitolo — 22/10/2026
 
 L'utente ha approvato lo schema interattivo con sei fasi e spiegazioni contestuali sotto il diagramma, più una spiegazione discorsiva in capitolo, e la simulazione semplice. La bozza narrativa v1 è salvata in `lavorazione/metodo_scientifico/bozza.md` sul ramo di sviluppo. Le proposte precedenti segnate «non approvate» per lo schema sono superate da questa decisione. Fase corrente: revisione della bozza, nessun HTML o deploy.
+
+## Secondo capitolo — pubblicazione autorizzata il 22 ottobre 2026
+
+**Le grandezze fisiche e il Sistema internazionale**, file autonomo `grandezze_fisiche_sistema_internazionale_it.html`: testo, tre immagini e anteprima approvati. L’utente richiede esplicitamente merge e pubblicazione nella PR #59. Inserimento al secondo posto dopo Il metodo scientifico; seguono i capitoli di Termologia già pubblicati. Il vecchio sorgente unificato `sistema_internazionale_notazione_it.html` resta escluso e invariato. [Stato e verifiche](../grandezze_fisiche_sistema_internazionale/stato.md).

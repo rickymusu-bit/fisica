@@ -3303,6 +3303,120 @@
       "fingerprints": [
         "asset-ad552f764cfd95d5c29126f70cef0198da3a5d326213cf72330582a91f4a151b"
       ]
+    },
+    {
+      "id": "credit-d15fcca5d32b52d5",
+      "description": "Prototipo internazionale del chilogrammo sotto campane di vetro",
+      "source": "https://commons.wikimedia.org/wiki/File:International_prototype_of_the_kilogram_aka_Le_Grand_K.jpg",
+      "author": "BIPM",
+      "license": "CC BY-SA 3.0 IGO",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/igo/",
+      "changes": "Nessuna modifica alla versione scelta; visualizzazione proporzionale senza ritaglio.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Prototipo internazionale del chilogrammo sotto campane di vetro — BIPM. <a href=\"https://commons.wikimedia.org/wiki/File:International_prototype_of_the_kilogram_aka_Le_Grand_K.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by-sa/3.0/igo/\">CC BY-SA 3.0 IGO</a>. Modifiche: Nessuna modifica alla versione scelta; visualizzazione proporzionale senza ritaglio."
+      ],
+      "metadata_sources": [
+        "grandezze_fisiche_sistema_internazionale_it.html"
+      ],
+      "fingerprints": [
+        "asset-d08b4db5d542d3f3e10504ec158bcb4bf124f485324226429b9e7c74d9f09d5a"
+      ]
+    },
+    {
+      "id": "credit-43f258009d0ac951",
+      "description": "Mani che tengono un metro a nastro disteso contro un pannello di legno",
+      "source": "https://commons.wikimedia.org/wiki/File:A_pair_of_hands_holding_a_construction_measuring_tape.jpg",
+      "author": "Nenad Stojkovic",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "changes": "Nessuna modifica alla versione scelta; visualizzazione proporzionale senza ritaglio.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Mani che tengono un metro a nastro disteso contro un pannello di legno — Nenad Stojkovic. <a href=\"https://commons.wikimedia.org/wiki/File:A_pair_of_hands_holding_a_construction_measuring_tape.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by/2.0/\">CC BY 2.0</a>. Modifiche: Nessuna modifica alla versione scelta; visualizzazione proporzionale senza ritaglio."
+      ],
+      "metadata_sources": [
+        "grandezze_fisiche_sistema_internazionale_it.html"
+      ],
+      "fingerprints": [
+        "asset-d34103f14e533c4f26858283ae1f8e4b7d09250c8bb322483d4b2462fe84fd46"
+      ]
+    },
+    {
+      "id": "credit-7f854b41c75b4eda",
+      "description": "Campo del Camp Nou in prospettiva: richiami al lato lungo di 105 m e al lato corto di 68 m",
+      "source": "https://commons.wikimedia.org/wiki/File:Camp_nou_before_F.C._Barcelona_-_Real_Madrid_league_match_of_2012.JPG",
+      "author": "Netol; annotazioni didattiche del progetto Stringhe",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Annotazioni dei lati e cornice superiore aggiunte alla foto integrale, senza ritaglio; schema distribuito con la stessa licenza CC BY-SA 3.0. Dimensioni dalla scheda FC Barcelona.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Campo del Camp Nou in prospettiva: richiami al lato lungo di 105 m e al lato corto di 68 m — Netol; annotazioni didattiche del progetto Stringhe. <a href=\"https://commons.wikimedia.org/wiki/File:Camp_nou_before_F.C._Barcelona_-_Real_Madrid_league_match_of_2012.JPG\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">CC BY-SA 3.0</a>. Modifiche: Annotazioni dei lati e cornice superiore aggiunte alla foto integrale, senza ritaglio; schema distribuito con la stessa licenza CC BY-SA 3.0. Dimensioni dalla scheda FC Barcelona."
+      ],
+      "metadata_sources": [
+        "grandezze_fisiche_sistema_internazionale_it.html"
+      ],
+      "fingerprints": [
+        "asset-a69f23b5587b8f7a69df08c57f825aa8ccd6803a17c81443050165bf026730cc"
+      ]
+    },
+    {
+      "id": "credit-39370fd0c35ae5fb",
+      "description": "The International System of Units, 9th edition, e sintesi aggiornata nel 2026",
+      "source": "https://www.bipm.org/en/publications/si-brochure",
+      "author": "Bureau International des Poids et Mesures",
+      "license": null,
+      "license_url": null,
+      "changes": "Fonte dei dati e delle spiegazioni; nessuna riproduzione del documento.",
+      "status": "reference",
+      "links": [],
+      "notices": [
+        "The International System of Units, 9th edition, e sintesi aggiornata nel 2026 — Bureau International des Poids et Mesures. <a href=\"https://www.bipm.org/en/publications/si-brochure\">Fonte scientifica</a>. Riferimento per dati e spiegazioni; nessuna immagine riprodotta."
+      ],
+      "metadata_sources": [
+        "grandezze_fisiche_sistema_internazionale_it.html"
+      ],
+      "fingerprints": []
+    },
+    {
+      "id": "credit-fc2d56308e6b4204",
+      "description": "Scheda del Camp Nou: terreno di gioco di 105 m per 68 m",
+      "source": "https://www.fcbarcelona.com/en/club/facilities/spotify-camp-nou",
+      "author": "FC Barcelona",
+      "license": null,
+      "license_url": null,
+      "changes": "Fonte dei dati e delle spiegazioni; nessuna riproduzione del documento.",
+      "status": "reference",
+      "links": [],
+      "notices": [
+        "Scheda del Camp Nou: terreno di gioco di 105 m per 68 m — FC Barcelona. <a href=\"https://www.fcbarcelona.com/en/club/facilities/spotify-camp-nou\">Fonte scientifica</a>. Riferimento per dati e spiegazioni; nessuna immagine riprodotta."
+      ],
+      "metadata_sources": [
+        "grandezze_fisiche_sistema_internazionale_it.html"
+      ],
+      "fingerprints": []
+    },
+    {
+      "id": "credit-019ec2277384f29c",
+      "description": "Kilogram: Introduction, storia del prototipo internazionale e credito fotografico BIPM",
+      "source": "https://www.nist.gov/si-redefinition/kilogram-introduction",
+      "author": "National Institute of Standards and Technology",
+      "license": null,
+      "license_url": null,
+      "changes": "Fonte dei dati e delle spiegazioni; nessuna riproduzione del documento.",
+      "status": "reference",
+      "links": [],
+      "notices": [
+        "Kilogram: Introduction, storia del prototipo internazionale e credito fotografico BIPM — National Institute of Standards and Technology. <a href=\"https://www.nist.gov/si-redefinition/kilogram-introduction\">Fonte scientifica</a>. Riferimento per dati e spiegazioni; nessuna immagine riprodotta."
+      ],
+      "metadata_sources": [
+        "grandezze_fisiche_sistema_internazionale_it.html"
+      ],
+      "fingerprints": []
     }
   ],
   "documents": {
@@ -4070,6 +4184,38 @@
       "lexend": true,
       "chapter_labels": true,
       "review": "Bozza nel tema canonico Stringhe; anteprima da approvare prima del merge e della pubblicazione."
+    },
+    "grandezze_fisiche_sistema_internazionale_it.html": {
+      "title": "Le grandezze fisiche e il Sistema internazionale",
+      "credits": [
+        {
+          "resource": "credit-d15fcca5d32b52d5",
+          "notice": 0
+        },
+        {
+          "resource": "credit-43f258009d0ac951",
+          "notice": 0
+        },
+        {
+          "resource": "credit-7f854b41c75b4eda",
+          "notice": 0
+        },
+        {
+          "resource": "credit-39370fd0c35ae5fb",
+          "notice": 0
+        },
+        {
+          "resource": "credit-fc2d56308e6b4204",
+          "notice": 0
+        },
+        {
+          "resource": "credit-019ec2277384f29c",
+          "notice": 0
+        }
+      ],
+      "review": "Testo, immagini e anteprima approvati; pubblicazione esplicitamente autorizzata il 22 ottobre 2026. Licenze e fonti documentate.",
+      "anchor": "grandezze-fisiche-sistema-internazionale-it",
+      "lexend": true
     }
   },
   "assets": [
@@ -4885,6 +5031,15 @@
           "credit_id": "font-lexend"
         },
         {
+          "document": "grandezze_fisiche_sistema_internazionale_it.html",
+          "kind": "font/ttf",
+          "description": "Font incorporato",
+          "locator": null,
+          "attribute": "font-face",
+          "location": null,
+          "credit_id": "font-lexend"
+        },
+        {
           "document": "irraggiamento_it.html",
           "kind": "font/ttf",
           "description": "Font incorporato",
@@ -5046,6 +5201,15 @@
       "id": "asset-4180936ac8f7ef98b7ead214c32d886175073d382ccd6c87915683088170b376",
       "kind": "svg",
       "uses": [
+        {
+          "document": "index.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "introduzione-fisica-misura",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        },
         {
           "document": "index.html",
           "kind": "svg",
@@ -6510,6 +6674,30 @@
       ]
     },
     {
+      "id": "asset-a69f23b5587b8f7a69df08c57f825aa8ccd6803a17c81443050165bf026730cc",
+      "kind": "image/svg+xml",
+      "uses": [
+        {
+          "document": "grandezze_fisiche_sistema_internazionale_it.html",
+          "kind": "image/svg+xml",
+          "description": "Campo del Camp Nou in prospettiva: richiami al lato lungo di 105 m e al lato corto di 68 m",
+          "locator": "fig-03",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-7f854b41c75b4eda"
+        },
+        {
+          "document": "grandezze_fisiche_sistema_internazionale_it.html",
+          "kind": "image/svg+xml",
+          "description": "Campo del Camp Nou in prospettiva: richiami al lato lungo di 105 m e al lato corto di 68 m",
+          "locator": "fig-03",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-7f854b41c75b4eda"
+        }
+      ]
+    },
+    {
       "id": "asset-a7a84b917a11177b64050616e39745e07610e655859b365cb326110b8ad22ace",
       "kind": "image/jpeg",
       "uses": [
@@ -7503,6 +7691,21 @@
       ]
     },
     {
+      "id": "asset-d08b4db5d542d3f3e10504ec158bcb4bf124f485324226429b9e7c74d9f09d5a",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "grandezze_fisiche_sistema_internazionale_it.html",
+          "kind": "image/jpeg",
+          "description": "Prototipo internazionale del chilogrammo sotto campane di vetro",
+          "locator": "cop-01",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-d15fcca5d32b52d5"
+        }
+      ]
+    },
+    {
       "id": "asset-d0c99cc74bd5c3a28ce0da35cb5d0de93fb615bf0f31280f1f5b754f300d4cdc",
       "kind": "image/jpeg",
       "uses": [
@@ -7553,6 +7756,21 @@
           "attribute": "href",
           "location": null,
           "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-d34103f14e533c4f26858283ae1f8e4b7d09250c8bb322483d4b2462fe84fd46",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "grandezze_fisiche_sistema_internazionale_it.html",
+          "kind": "image/jpeg",
+          "description": "Mani che tengono un metro a nastro disteso contro un pannello di legno",
+          "locator": "fig-01",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-43f258009d0ac951"
         }
       ]
     },
