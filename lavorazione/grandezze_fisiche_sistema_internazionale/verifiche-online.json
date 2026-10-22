@@ -1,0 +1,75 @@
+{
+  "release": "213ced3645d68affd3212603d2d8c2a9d4c6136f",
+  "pages": [
+    {
+      "file": "index.html",
+      "bytes": 662783,
+      "sha256": "f934c2f27f474a6b118c75b264cc5df3fb82dbd78c2c5b2ecf1547445a1b1682",
+      "build_identical": true
+    },
+    {
+      "file": "articoli.html",
+      "bytes": 350040,
+      "sha256": "2a6e1d4383accc425ed8845c3c5aaf7ac5b7df1f38ef32139cb7959596dcb228",
+      "build_identical": true
+    },
+    {
+      "file": "grandezze_fisiche_sistema_internazionale_it.html",
+      "bytes": 1667909,
+      "sha256": "ebe97f68c4d075d8788fc19009c92bb66d406d79d35e0c683f12a9ce4d39ffc9",
+      "build_identical": true
+    },
+    {
+      "file": "metodo_scientifico_it.html",
+      "bytes": 13643970,
+      "sha256": "1c67abfa16a59d012654e9a7f7dfcb371a0b487ce3f51be36dbc6f19e0525098",
+      "build_identical": true
+    },
+    {
+      "file": "termodinamica_sistemi_it.html",
+      "bytes": 12604607,
+      "sha256": "e7ee34966867e62d8350c8efb6d7ae6f7d204dbd2e9ebf5ead190de0298d36f4",
+      "build_identical": true
+    },
+    {
+      "file": "crediti.html",
+      "bytes": 395490,
+      "sha256": "8c16340b52c00e8235f2659633983e82b07c4cf4650bb12870e3c03bf5fe75b5",
+      "build_identical": true
+    }
+  ],
+  "excluded_urls": [
+    {
+      "file": "sistema_internazionale_notazione_it.html",
+      "status": 404
+    },
+    {
+      "file": "strumenti_errori_incertezza_it.html",
+      "status": 404
+    },
+    {
+      "file": "grafici_piano_cartesiano_it.html",
+      "status": 404
+    },
+    {
+      "file": "lavoro_energie_potenza_it.html",
+      "status": 404
+    },
+    {
+      "file": "bilancio_conservazione_rendimento_it.html",
+      "status": 404
+    },
+    {
+      "file": "potenza_termica_conduzione_convezione_it.html",
+      "status": 404
+    },
+    {
+      "file": "stati_della_materia_e_passaggi_di_stato.html",
+      "status": 404
+    },
+    {
+      "file": "stati_della_materia_e_passaggi_di_stato_v8_20261016.html",
+      "status": 404
+    }
+  ]
+}

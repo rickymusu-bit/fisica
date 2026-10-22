@@ -1,13 +1,13 @@
 # Stato — Le grandezze fisiche e il Sistema internazionale
 
-Versione v5 — 22 ottobre 2026 (Europe/Rome).
+Versione v6 — 22 ottobre 2026 (Europe/Rome).
 
 ## Incarico e fase corrente
 
 L’utente chiede di iniziare il secondo capitolo del piano `lavorazione/introduzione_fisica_misura/piano.md`, identificato nel ramo `lavorazione/introduzione-fisica-misura`, commit `ff82ddbbcd2f4c9799ba7174a1a090cd92a547fc`.
 Piano di riferimento: [Introduzione alla fisica e alla misura](https://github.com/rickymusu-bit/fisica/blob/ff82ddbbcd2f4c9799ba7174a1a090cd92a547fc/lavorazione/introduzione_fisica_misura/piano.md).
 
-Fase corrente: anteprima approvata e pubblicazione autorizzata esplicitamente con «Perfetto fai il merge e pubblica». Integrazione nel catalogo preparata e verificata sul ramo; merge e deployment da completare. HTML corrente v2 per i collegamenti di sequenza, con testo e visuali identici all’anteprima approvata.
+Fase corrente: capitolo HTML v2 pubblicato e verificato online. Anteprima approvata e merge/pubblicazione richiesti con «Perfetto fai il merge e pubblica». PR #59 integrata, deployment Pages riuscito, catalogo a dodici capitoli e navigazione reciproca verificati. Nessun intervento pendente per questa pubblicazione.
 Ramo dedicato: `lavorazione/grandezze-fisiche-sistema-internazionale`, derivato da main `76c66c42021fc490aebc545dd5901ff8af118a5d`.
 
 ## Riferimenti letti e checklist
@@ -108,3 +108,13 @@ Prossimo passo operativo: completare il salvataggio nel ramo, aggiornare la PR a
 ## Stabilizzazione del controllo automatico prima del merge
 
 Il workflow 39848145364 ha superato componenti, crediti, build e 14 test, poi ha rilevato una condizione di gara nel test browser dell’indice: la verifica immediata dell’attributo inert precedeva l’evento asincrono toggle. Corretto soltanto il test in scripts/verify_stringhe_browser.py usando le asserzioni Playwright con attesa dello stesso attributo, sia all’apertura sia alla chiusura. Nessuna verifica rimossa o attenuata, nessun cambiamento a tema o contenuti. Controllo mirato ripetuto su venti aperture/chiusure dell’indice con isolamento tastiera; nuovo workflow richiesto dal push correttivo.
+
+## Pubblicazione completata e verificata online
+
+PR #59 integrata in main al commit `213ced3645d68affd3212603d2d8c2a9d4c6136f`: https://github.com/rickymusu-bit/fisica/pull/59 . Controllo automatico finale riuscito: https://github.com/rickymusu-bit/fisica/actions/runs/39848856784 . Anche la suite completa locale ha verificato 180 combinazioni pagina/viewport/tema e 20 copertine senza errori JavaScript; rapporto conservato in verifiche-portale-complete.json.
+
+Deployment ufficiale **Pubblica Stringhe** riuscito, build e deploy: https://github.com/rickymusu-bit/fisica/actions/runs/39849357978 . URL del capitolo: https://rickymusu-bit.github.io/fisica/grandezze_fisiche_sistema_internazionale_it.html .
+
+Verifica HTTPS post-deployment: home, catalogo, nuovo capitolo, capitoli adiacenti e crediti rispondono correttamente e sono byte per byte identici alla build locale verificata. Pubblicato il capitolo v2 di 1667909 byte nella build (sorgente autonomo 1667892 byte, differenza del renderer comune). Catalogo con dodici capitoli, nuova area con due, sequenza reciproca Metodo scientifico → Grandezze e SI → Sistemi termodinamici. Gli otto indirizzi esclusi o dismessi controllati rispondono HTTP 404. Nessun reindirizzamento storico ripristinato.
+
+Rapporto riproducibile verifiche-online.json, generato da verifica_online.py con lo SHA del deployment; record di hash e risultati, senza dati di autenticazione. Sito pronto e pubblicazione conclusa. Il salvataggio successivo dei soli resoconti non cambia HTML o manifest e non richiede un ulteriore deployment.
