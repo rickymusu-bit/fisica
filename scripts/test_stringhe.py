@@ -31,7 +31,9 @@ class PublicationTests(unittest.TestCase):
                 self.assertEqual(published.count('data-stringhe-theme'), 1)
                 self.assertEqual(len(re.findall(r'<details\b[^>]*data-theme-menu', published)), 1)
                 self.assertNotIn('data-theme-toggle', published)
-                self.assertIn('data-logo-toggle', published)
+                self.assertEqual(published.count('aria-label="Navigazione principale"'), 1)
+                self.assertIn('class="topbar stringhe-header"', published)
+                self.assertIn('aria-label="Scarica il capitolo"', published)
                 self.assertIn('data-edge="sides"', published)
                 self.assertNotIn('href="https://rickymusu-bit.github.io/fisica/#indice"', published)
         for name in publication['esclusi_da_pubblicazione_e_aggiornamenti'] + publication['indirizzi_storici_dismessi']:
