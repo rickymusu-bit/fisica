@@ -1,6 +1,6 @@
 # Stato — Le grandezze fisiche e il Sistema internazionale
 
-Versione v7 — 22 ottobre 2026 (Europe/Rome).
+Versione v7 — 23 ottobre 2026 (Europe/Rome).
 
 ## Incarico e fase corrente
 

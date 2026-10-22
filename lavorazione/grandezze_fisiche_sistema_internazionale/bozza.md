@@ -1,6 +1,6 @@
 # Le grandezze fisiche e il Sistema internazionale
 
-Bozza v3 — 22 ottobre 2026. Area: Introduzione alla fisica e alla misura.
+Bozza v3 — 23 ottobre 2026 (Europe/Rome). Area: Introduzione alla fisica e alla misura.
 
 [Servizio editoriale, da non mostrare nel capitolo: testo v1 approvato; v2 con i soli adattamenti alle tre fotografie scelte dall’utente. Le dimensioni del campo provengono dalla scheda del club, non da una misura della fotografia.]
 
