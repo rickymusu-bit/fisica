@@ -1,5 +1,5 @@
 # Il metodo scientifico
-Bozza editoriale v3 — 22 ottobre 2026
+Bozza editoriale v4 — 22 ottobre 2026
 Area: Introduzione alla fisica e alla misura
 Stato: proposta da approvare; non è un HTML pubblicabile.
 
@@ -27,15 +27,11 @@ Se cambiassimo contemporaneamente la pallina, il materiale della pista e la sua 
 
 Poi ripetiamo le discese e misuriamo il tempo. La ripetizione è utile perché la partenza e la lettura del cronometro non sono mai perfettamente identiche. Le modalità con cui gli strumenti misurano e le incertezze dei risultati saranno affrontate negli altri capitoli: qui ci interessa soprattutto comprendere perché la procedura deve essere controllata.
 
-[SIMULAZIONE 1 — Supporto a triangolo retto su piano orizzontale. Sfera piena omogenea in rotolamento senza slittamento, tratto cronometrato rettilineo di 1,00 m, angoli 15°, 30°, 45°. Dopo la discesa attraversa un breve raccordo e prosegue sul piano orizzontale fino a uscire interamente dal bordo destro della finestra. Cronometro fermo alla fine del tratto misurato, comandi Avvia/Pausa/Riprendi/Ripeti e registrazione di un risultato per prova. Nessun grafico cinematico o attrito regolabile.]
+[SIMULAZIONE 1 — Esperimento guidato: scrivere una previsione falsificabile, svolgere almeno tre prove per ciascun angolo (15°, 30°, 45°), confrontare i tempi e scrivere le conclusioni. Pallina di raggio raddoppiato (0,05 m, 17 px), interamente oltre il bordo iniziale del supporto grazie a 0,15 m di pista prima del punto di partenza. Il tratto rettilineo percorso dal via resta 1,00 m. Cronometro avviato dal clic su Avvia e fermato al passaggio sul piano orizzontale, dopo il raccordo; registrazione automatica unica della prova in tabella sotto alla finestra. La pallina continua fino a sparire oltre il bordo destro. Ripeti conserva i dati; una prova interrotta prima dell’uscita non produce una misura. Pausa/Riprendi disponibili; nessun pulsante di salvataggio manuale.]
 
 ## Che cosa raccontano i dati?
 
-Immaginiamo di aver registrato alcuni tempi di discesa. Nella tabella del materiale originale, per esempio, le prove su una pista meno inclinata danno 2,2 s, 2,1 s e 2,3 s; con una pendenza maggiore danno 1,5 s, 1,6 s e 1,5 s. **Sono valori illustrativi**, costruiti per ragionare: non vanno presentati come misure effettuate in laboratorio.
-
-[TABELLA 1 — Riutilizzare la tabella originale: percorso di 1,0 m, tre prove per ciascuna delle due inclinazioni, con etichetta visibile «Dati illustrativi».]
-
-I tempi della seconda serie sono inferiori a quelli della prima. Per questa situazione, i dati sono coerenti con la previsione. Ma essere coerenti con una previsione non equivale a dimostrare che essa sarà vera in qualunque circostanza. Possiamo progettare altre prove, cambiare l'inclinazione in modo controllato e verificare se il comportamento continua a ripetersi.
+Osserva la tabella delle tue prove. Confronta prima i tempi ottenuti con la stessa inclinazione, poi quelli raccolti cambiando l’angolo. Se i tempi diminuiscono aumentando la pendenza, i risultati sono coerenti con la previsione. Questo confronto riguarda però il modello della simulazione: per studiare una pallina reale occorre costruire una pista e raccogliere misure sperimentali.
 
 ## Quando un risultato ci costringe a cambiare idea
 
@@ -44,7 +40,7 @@ Se il risultato non coincide con la previsione, non scartiamo subito l'intera sp
 ## Domande di verifica
 
 1. Nel confronto tra le due inclinazioni, quali condizioni bisogna mantenere uguali? Spiega perché.
-2. Osserva la tabella illustrativa: quale previsione è sostenuta dai dati? Puoi affermare che valga in ogni circostanza?
+2. Osserva la tabella delle tue prove: quale previsione è sostenuta dai dati? Puoi affermare che valga in ogni circostanza?
 3. Perché ripetere la misura del tempo è più utile che registrare un'unica prova?
 4. Nello schema, che cosa succede quando l'ipotesi non è confermata? Perché anche un risultato inatteso è utile?
 5. Indica un risultato sperimentale che metterebbe in difficoltà l'ipotesi sulla pendenza. Quali controlli faresti prima di trarre una conclusione?
@@ -54,8 +50,8 @@ Se il risultato non coincide con la previsione, non scartiamo subito l'intera sp
 
 ## Note di lavorazione — non includere nel testo pubblico
 
-- Modello aggiornato su richiesta dell’utente: sfera piena omogenea in rotolamento senza slittamento. L’attrito statico non dissipa energia, aria e perdite trascurate; accelerazione sul tratto rettilineo a = (5/7) g sin(θ). Il tratto cronometrato lungo 1,00 m precede il raccordo circolare al piano orizzontale. Rotazione visiva coerente con la distanza percorsa dal centro.
-- Sul tratto rettilineo L = 1,00 m: t = sqrt(14L/(5g sin θ)). Nel raccordo il moto è calcolato per conservazione dell’energia di traslazione e rotazione; sul piano orizzontale la velocità resta costante. La formula non è necessaria nel testo del capitolo.
-- La tabella esistente rappresenta un esperimento illustrativo e non deve essere numericamente ricavata dalla simulazione senza verificarne la compatibilità.
+- Modello aggiornato su richiesta dell’utente: sfera piena omogenea in rotolamento senza slittamento. L’attrito statico non dissipa energia, aria e perdite trascurate; accelerazione sul tratto rettilineo a = (5/7) g sin(θ). Il tratto rettilineo percorso dal via è lungo 1,00 m; la misura include anche il raccordo circolare, fino al passaggio sul piano orizzontale. Un tratto aggiuntivo di 0,15 m prima della partenza sostiene l’intero ingombro della sfera. Rotazione visiva coerente con la distanza percorsa dal centro.
+- Sul solo tratto rettilineo L = 1,00 m: t = sqrt(14L/(5g sin θ)). Il tempo registrato aggiunge il tempo di attraversamento del raccordo. Nel raccordo il moto è calcolato per conservazione dell’energia di traslazione e rotazione; sul piano orizzontale la velocità resta costante. La formula non è necessaria nel testo del capitolo.
+- La tabella si compila automaticamente con i dati delle prove completate dal lettore. La precedente tabella di dati illustrativi è rimossa; la lettura dei risultati e i quesiti si riferiscono ai dati raccolti nella simulazione. Non presentarli come misure di laboratorio.
 - Copertina e modifica dello schema (sei colori, spiegazioni sotto ciascuna fase e comando di espansione) richieste esplicitamente dall’utente. Le richieste di questa revisione non autorizzano nuove fotografie o ritratti storici.
-- Modifiche della v3 richieste esplicitamente dall’utente; la bozza rimane in PR #58, con anteprima da rivedere prima di merge e pubblicazione.
+- Modifiche della v4 richieste esplicitamente dall’utente; la bozza rimane in PR #58, con anteprima da rivedere prima di merge e pubblicazione.
