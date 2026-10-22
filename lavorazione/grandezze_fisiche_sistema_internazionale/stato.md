@@ -1,13 +1,13 @@
 # Stato — Le grandezze fisiche e il Sistema internazionale
 
-Versione v4 — 22 ottobre 2026 (Europe/Rome).
+Versione v5 — 22 ottobre 2026 (Europe/Rome).
 
 ## Incarico e fase corrente
 
 L’utente chiede di iniziare il secondo capitolo del piano `lavorazione/introduzione_fisica_misura/piano.md`, identificato nel ramo `lavorazione/introduzione-fisica-misura`, commit `ff82ddbbcd2f4c9799ba7174a1a090cd92a547fc`.
 Piano di riferimento: [Introduzione alla fisica e alla misura](https://github.com/rickymusu-bit/fisica/blob/ff82ddbbcd2f4c9799ba7174a1a090cd92a547fc/lavorazione/introduzione_fisica_misura/piano.md).
 
-Fase corrente: HTML autonomo v1 completato e verificato; testo v2 adattato alle tre fotografie scelte. Bozza v1 approvata con «Perfetto, procedi»; immagini successivamente fornite dall’utente con tre URL Wikimedia. Nessun materiale mancante. Anteprima da sottoporre a revisione prima di qualsiasi pubblicazione. Nessuna modifica a main, catalogo o manifest.
+Fase corrente: anteprima approvata e pubblicazione autorizzata esplicitamente con «Perfetto fai il merge e pubblica». Integrazione nel catalogo preparata e verificata sul ramo; merge e deployment da completare. HTML corrente v2 per i collegamenti di sequenza, con testo e visuali identici all’anteprima approvata.
 Ramo dedicato: `lavorazione/grandezze-fisiche-sistema-internazionale`, derivato da main `76c66c42021fc490aebc545dd5901ff8af118a5d`.
 
 ## Riferimenti letti e checklist
@@ -92,3 +92,15 @@ Registrate tre risorse fotografiche e tre fonti scientifiche in `risorse/crediti
 ## Prossima operazione
 
 Caricamento remoto verificato al commit di realizzazione `5daaf94eaadbccfb77eb03e77790bc4384b1615b`. PR in bozza aperta: https://github.com/rickymusu-bit/fisica/pull/59 . Anteprima interattiva: https://raw.githack.com/rickymusu-bit/fisica/5daaf94eaadbccfb77eb03e77790bc4384b1615b/grandezze_fisiche_sistema_internazionale_it.html . Risposta HTTPS 200, Content-Type text/html, 1667453 byte scaricati e confrontati byte per byte con il documento locale verificato. Consegnare anteprima e schermate per la revisione del risultato. La pubblicazione richiede l’approvazione esplicita di questa specifica anteprima secondo AGENTS.md e B5: non integrare main né avviare Pages. Catalogo, manifest, home e capitoli storici restano invariati.
+
+## Pubblicazione autorizzata — 22 ottobre 2026
+
+L’utente approva l’anteprima corrente e richiede esplicitamente «Perfetto fai il merge e pubblica»: autorizzati integrazione della PR #59, aggiornamenti necessari di catalogo, manifest, navigazione, crediti pubblici e deployment Pages. Non chiedere nuovamente l’approvazione già ricevuta.
+
+Allineato il ramo al main `047ca64f5b34942572d755f7dc241c843f8e1ab7`, che ha pubblicato Il metodo scientifico tramite PR #58. Il conflitto del registro è risolto mantenendo le schede del main e rigenerando le sole associazioni del nuovo capitolo con il suo generatore; risorse e associazioni del metodo scientifico conservate.
+
+Manifest v11, dodici capitoli pubblicabili. Nell’area Introduzione alla fisica e alla misura: Metodo scientifico al primo posto, Grandezze fisiche e SI al secondo. Termologia conserva i suoi dieci capitoli nell’ordine corrente. Navigazione reciproca Metodo scientifico → Grandezze e SI → Sistemi termodinamici. Nuovo capitolo v2; Metodo scientifico v10 e Sistemi termodinamici v11 per il solo rimando. Date editoriali conservate. Pagina dei crediti rigenerata includendo il nuovo capitolo ammesso; registro aggiornato senza modificare i sorgenti esclusi.
+
+Verifiche: credits.py --check e build Pages superati, suite di 14 test superata. Confronto byte per byte del corpo didattico del nuovo capitolo con l’anteprima approvata, e dei due capitoli adiacenti con il main: testi e visuali invariati. Tutti i sorgenti esclusi confrontati con il main e invariati. Le verifiche specifiche di catalogo, ricerca, filtro area, Novità, scelta casuale, download e sequenza sono in verifiche-pubblicazione.json; schermate del catalogo e della navigazione a 390/1440 px.
+
+Prossimo passo operativo: completare il salvataggio nel ramo, aggiornare la PR alla pubblicazione autorizzata, fare merge e seguire il workflow Pubblica Stringhe fino all’esito finale. Verificare URL ufficiale, catalogo e navigazione online; registrare SHA e workflow effettivi senza dichiarare una pubblicazione non ancora avvenuta.

@@ -3260,6 +3260,51 @@
       "fingerprints": []
     },
     {
+      "id": "credit-469d5993b422b2b9",
+      "description": "Copertina: The Sphere nella piazza del World Trade Center, New York",
+      "source": "https://commons.wikimedia.org/wiki/File:World_Trade_Center,_New_York._Exterior._Entrance_arches_with_Sphere_at_Plaza_Fountain_sculpture_-cropped.jpg",
+      "author": "Balthazar Korab",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "File già ritagliato su Commons; nessuna ulteriore modifica. Ridimensionamento solo nella visualizzazione.",
+      "links": [
+        {
+          "url": "https://hdl.loc.gov/loc.pnp/ppmsca.71339",
+          "label": "Library of Congress"
+        }
+      ],
+      "status": "documented",
+      "notices": [
+        "The Sphere nella piazza del World Trade Center, New York — fotografia di Balthazar Korab. <a href=\"https://commons.wikimedia.org/wiki/File:World_Trade_Center,_New_York._Exterior._Entrance_arches_with_Sphere_at_Plaza_Fountain_sculpture_-cropped.jpg\">Fonte originale su Wikimedia Commons</a>. <a href=\"https://hdl.loc.gov/loc.pnp/ppmsca.71339\">Provenienza: Library of Congress, Balthazar Korab collection</a>. <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>, come indicato nella scheda del file scelto. Versione già ritagliata su Commons da Tocquevillosia; nessuna ulteriore modifica, incorporamento dei byte originali e ridimensionamento solo nella visualizzazione."
+      ],
+      "metadata_sources": [
+        "lavorazione/metodo_scientifico/bozza.html"
+      ],
+      "fingerprints": [
+        "asset-796f5bf7e773bf98f0258c462201a0f8ee7da1402aa6d04cc24f99c410d63de8"
+      ]
+    },
+    {
+      "id": "credit-b10f9abf460c4498",
+      "description": "Copertina: Sfera con Sfera di Arnaldo Pomodoro al Trinity College Dublin",
+      "source": "https://commons.wikimedia.org/wiki/File:Arnaldo_Pomodoro's_'Sfera_con_Sfera'_at_The_Berkeley_Library,_Trinity_College_Dublin.JPG",
+      "author": "Smirkybec",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Nessuna modifica; ridimensionamento solo nella visualizzazione.",
+      "links": [],
+      "status": "documented",
+      "notices": [
+        "Sfera con Sfera di Arnaldo Pomodoro, Trinity College Dublin — fotografia di Smirkybec (1 luglio 2014). <a href=\"https://commons.wikimedia.org/wiki/File:Arnaldo_Pomodoro&#x27;s_&#x27;Sfera_con_Sfera&#x27;_at_The_Berkeley_Library,_Trinity_College_Dublin.JPG\">Fonte originale su Wikimedia Commons</a>. <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CC0 1.0</a>. Nessuna modifica ai byte originali; ridimensionamento solo nella visualizzazione. La scheda Commons richiama la libertà di panorama in Irlanda per la riproduzione della scultura."
+      ],
+      "metadata_sources": [
+        "lavorazione/metodo_scientifico/bozza.html"
+      ],
+      "fingerprints": [
+        "asset-ad552f764cfd95d5c29126f70cef0198da3a5d326213cf72330582a91f4a151b"
+      ]
+    },
+    {
       "id": "credit-d15fcca5d32b52d5",
       "description": "Prototipo internazionale del chilogrammo sotto campane di vetro",
       "source": "https://commons.wikimedia.org/wiki/File:International_prototype_of_the_kilogram_aka_Le_Grand_K.jpg",
@@ -3316,7 +3361,6 @@
         "grandezze_fisiche_sistema_internazionale_it.html"
       ],
       "fingerprints": [
-        "asset-7173869674f754cd91a8f5f64e22b996cf895a7b0cb85f675a794d6a3bc9130a",
         "asset-a69f23b5587b8f7a69df08c57f825aa8ccd6803a17c81443050165bf026730cc"
       ]
     },
@@ -3660,11 +3704,17 @@
       "review": "Il sorgente non documenta crediti individuali delle immagini. Verificare le risorse inventariate prima della redistribuzione."
     },
     "metodo_scientifico_it.html": {
-      "title": "Il metodo scientifico: misurare e mettere alla prova le ipotesi",
+      "title": "Il metodo scientifico",
       "anchor": "metodo-scientifico-it",
-      "credits": [],
-      "lexend": false,
-      "review": "Il sorgente non documenta crediti individuali delle immagini. Verificare le risorse inventariate prima della redistribuzione."
+      "credits": [
+        {
+          "resource": "credit-b10f9abf460c4498",
+          "notice": 0
+        }
+      ],
+      "lexend": true,
+      "chapter_labels": true,
+      "review": null
     },
     "metodo_scientifico_sq.html": {
       "title": "Metoda shkencore",
@@ -4122,6 +4172,19 @@
       "review": null,
       "chapter_labels": true
     },
+    "lavorazione/metodo_scientifico/bozza.html": {
+      "title": "Il metodo scientifico — bozza",
+      "anchor": "metodo-scientifico-bozza",
+      "credits": [
+        {
+          "resource": "credit-b10f9abf460c4498",
+          "notice": 0
+        }
+      ],
+      "lexend": true,
+      "chapter_labels": true,
+      "review": "Bozza nel tema canonico Stringhe; anteprima da approvare prima del merge e della pubblicazione."
+    },
     "grandezze_fisiche_sistema_internazionale_it.html": {
       "title": "Le grandezze fisiche e il Sistema internazionale",
       "credits": [
@@ -4150,7 +4213,7 @@
           "notice": 0
         }
       ],
-      "review": "Tre immagini scelte e licenze documentate; fonti scientifiche verificate. Capitolo in anteprima, non pubblicato.",
+      "review": "Testo, immagini e anteprima approvati; pubblicazione esplicitamente autorizzata il 22 ottobre 2026. Licenze e fonti documentate.",
       "anchor": "grandezze-fisiche-sistema-internazionale-it",
       "lexend": true
     }
@@ -4425,15 +4488,6 @@
           "credit_id": null
         },
         {
-          "document": "metodo_scientifico_it.html",
-          "kind": "image/webp",
-          "description": "Schema del metodo scientifico: osservazione, problema, ipotesi, previsione, esperimenti, risultati e conclusioni; dall’ipotesi non confermata si torna al problema, mentre quella confermata porta a ulteriori esperimenti, teoria e principio",
-          "locator": "osservare",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
           "document": "metodo_scientifico_sq.html",
           "kind": "image/webp",
           "description": "Skemë e metodës shkencore: vëzhgim, problem, hipotezë, parashikim, eksperimente, rezultate dhe përfundime, me dy rrugë të mundshme",
@@ -4555,6 +4609,21 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-6562510df82b6315"
+        }
+      ]
+    },
+    {
+      "id": "asset-21d661735e30a947207faf568efdf1906799b18e24e1a01a013d391f84fd731c",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "metodo_scientifico_it.html",
+          "kind": "svg",
+          "description": "Piano inclinato triangolare su un piano orizzontale. La pallina rotola verso destra.",
+          "locator": "track",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
         }
       ]
     },
@@ -4980,6 +5049,15 @@
           "credit_id": "font-lexend"
         },
         {
+          "document": "metodo_scientifico_it.html",
+          "kind": "font/ttf",
+          "description": "Font incorporato",
+          "locator": null,
+          "attribute": "font-face",
+          "location": null,
+          "credit_id": "font-lexend"
+        },
+        {
           "document": "passaggi_di_stato.html",
           "kind": "font/ttf",
           "description": "Font incorporato",
@@ -5123,6 +5201,24 @@
       "id": "asset-4180936ac8f7ef98b7ead214c32d886175073d382ccd6c87915683088170b376",
       "kind": "svg",
       "uses": [
+        {
+          "document": "index.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "introduzione-fisica-misura",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        },
+        {
+          "document": "index.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "introduzione-fisica-misura",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        },
         {
           "document": "index.html",
           "kind": "svg",
@@ -6773,6 +6869,30 @@
       ]
     },
     {
+      "id": "asset-ad552f764cfd95d5c29126f70cef0198da3a5d326213cf72330582a91f4a151b",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "metodo_scientifico_it.html",
+          "kind": "image/jpeg",
+          "description": "La scultura Sfera con Sfera di Arnaldo Pomodoro davanti alla biblioteca del Trinity College di Dublino.",
+          "locator": "copertina",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-b10f9abf460c4498"
+        },
+        {
+          "document": "metodo_scientifico_it.html",
+          "kind": "image/jpeg",
+          "description": "La scultura Sfera con Sfera di Arnaldo Pomodoro davanti alla biblioteca del Trinity College di Dublino.",
+          "locator": "copertina",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-b10f9abf460c4498"
+        }
+      ]
+    },
+    {
       "id": "asset-aef94d382869e7958b1e4fc0b8838256b61838174e451a3581d152b889e17e9b",
       "kind": "image/jpeg",
       "uses": [
@@ -6945,15 +7065,6 @@
           "document": "metodo_scientifico_fr.html",
           "kind": "image/jpeg",
           "description": "Photo en noir et blanc de Karl Popper assis en train de lire",
-          "locator": "falsificare",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "metodo_scientifico_it.html",
-          "kind": "image/jpeg",
-          "description": "Fotografia in bianco e nero di Karl Popper seduto e assorto nella lettura",
           "locator": "falsificare",
           "attribute": "src",
           "location": null,
@@ -7617,15 +7728,6 @@
           "document": "metodo_scientifico_fr.html",
           "kind": "image/jpeg",
           "description": "Portrait de Galilée tenant une petite lunette astronomique",
-          "locator": "osservare",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "metodo_scientifico_it.html",
-          "kind": "image/jpeg",
-          "description": "Ritratto di Galileo Galilei con un piccolo cannocchiale in mano",
           "locator": "osservare",
           "attribute": "src",
           "location": null,

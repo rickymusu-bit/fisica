@@ -23,6 +23,7 @@ from stringhe_theme import navigation_header
 NAME = 'grandezze_fisiche_sistema_internazionale_it.html'
 TITLE = 'Le grandezze fisiche e il Sistema internazionale'
 AREA = 'Introduzione alla fisica e alla misura'
+VERSION = 'v2'
 COMMONS = 'https://commons.wikimedia.org/wiki/File:'
 META = {
     'COP-01': ('chilogrammo.jpg', 'International_prototype_of_the_kilogram_aka_Le_Grand_K.jpg',
@@ -159,7 +160,7 @@ def render():
         if node.tag == 'title':
             edits.append((node.start, node.end, '<title>' + TITLE + ' — Stringhe</title>'))
         elif node.tag == 'meta' and node.attrs.get('name') in {'version', 'date', 'description'}:
-            value = {'version': 'v1', 'date': '2026-10-22', 'description': 'Grandezze fisiche, misura, sette unità di base del SI e unità derivate.'}[node.attrs['name']]
+            value = {'version': VERSION, 'date': '2026-10-22', 'description': 'Grandezze fisiche, misura, sette unità di base del SI e unità derivate.'}[node.attrs['name']]
             edits.append((node.start, node.end, f'<meta name="{node.attrs["name"]}" content="{value}">'))
         elif node.tag == 'figure' and node.has_class('cover'):
             edits.append((node.start, node.end, cover))
@@ -177,12 +178,18 @@ def render():
             index_markup = re.sub(r'<nav class="sidebar-nav"[\s\S]*?</nav>', lambda _: sidebar, index_markup)
             edits.append((node.start, node.end, navigation_header('chapter', NAME, index_markup)))
         elif node.tag == 'footer' and node.has_class('footer'):
-            edits.append((node.start, node.end, '<footer class="footer">Versione v1 — 22 ottobre 2026</footer>'))
+            edits.append((node.start, node.end, f'<footer class="footer">Versione {VERSION} — 22 ottobre 2026</footer>'))
     for start, end, replacement in sorted(edits, reverse=True):
         template = template[:start] + replacement + template[end:]
     template = template.replace('Nome dell’area tematica', AREA).replace('Titolo del capitolo', TITLE)
     template = re.sub(r'<!-- MODELLO CANONICO[\s\S]*?-->', '<!-- Capitolo autonomo dal modello canonico Stringhe v22. -->', template, count=1)
     template = template.replace('</head>', TABLE_STYLE + '</head>', 1)
+    navigation = ('<nav class="chapter-navigation" aria-label="Navigazione tra capitoli">'
+                  '<a rel="prev" href="metodo_scientifico_it.html" data-site-path="metodo_scientifico_it.html">'
+                  '<span>← Capitolo precedente</span><small>Il metodo scientifico</small></a>'
+                  '<a rel="next" href="termodinamica_sistemi_it.html" data-site-path="termodinamica_sistemi_it.html">'
+                  '<span>Capitolo successivo →</span><small>La termodinamica e i sistemi termodinamici</small></a></nav>')
+    template = template.replace('<!-- chapter-navigation:end -->', navigation + '<!-- chapter-navigation:end -->', 1)
     return apply_media_controls(template)
 
 
@@ -206,7 +213,7 @@ def main():
     registry = credits.load_registry()
     credits.sync_inventory(registry)
     registry['documents'][NAME]['title'] = TITLE
-    registry['documents'][NAME]['review'] = 'Tre immagini scelte e licenze documentate; fonti scientifiche verificate. Capitolo in anteprima, non pubblicato.'
+    registry['documents'][NAME]['review'] = 'Testo, immagini e anteprima approvati; pubblicazione esplicitamente autorizzata il 22 ottobre 2026. Licenze e fonti documentate.'
     add_reference(registry, 'https://www.bipm.org/en/publications/si-brochure',
                   'The International System of Units, 9th edition, e sintesi aggiornata nel 2026', 'Bureau International des Poids et Mesures')
     add_reference(registry, 'https://www.fcbarcelona.com/en/club/facilities/spotify-camp-nou',
@@ -219,7 +226,7 @@ def main():
     (ROOT / 'crediti.html').write_text(credits.render_page(registry), encoding='utf-8')
     (WORK / 'bozza.html').write_bytes(target.read_bytes())
     credits.validate(registry)
-    print(NAME, target.stat().st_size, 'byte; crediti verificati; manifest invariato')
+    print(NAME, target.stat().st_size, 'byte; crediti verificati; manifest gestito separatamente')
 
 
 if __name__ == '__main__':

@@ -1,0 +1,14 @@
+{
+  "errors": [],
+  "viewports": [
+    {
+      "width": 390,
+      "filter_search_navigation_news_random_download": true
+    },
+    {
+      "width": 1440,
+      "filter_search_navigation_news_random_download": true
+    }
+  ],
+  "catalogue_count": 12
+}
