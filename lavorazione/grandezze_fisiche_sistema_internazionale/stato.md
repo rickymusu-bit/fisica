@@ -1,13 +1,13 @@
 # Stato — Le grandezze fisiche e il Sistema internazionale
 
-Versione v1 — 22 ottobre 2026 (Europe/Rome).
+Versione v2 — 22 ottobre 2026 (Europe/Rome).
 
 ## Incarico e fase corrente
 
 L’utente chiede di iniziare il secondo capitolo del piano `lavorazione/introduzione_fisica_misura/piano.md`, identificato nel ramo `lavorazione/introduzione-fisica-misura`, commit `ff82ddbbcd2f4c9799ba7174a1a090cd92a547fc`.
 Piano di riferimento: [Introduzione alla fisica e alla misura](https://github.com/rickymusu-bit/fisica/blob/ff82ddbbcd2f4c9799ba7174a1a090cd92a547fc/lavorazione/introduzione_fisica_misura/piano.md).
 
-Fase: proposta di percorso e visuali, da concordare prima della bozza. Nessuna approvazione di nuove immagini o del testo dedotta dalla richiesta di avvio. Nessun HTML realizzato, nessuna simulazione prevista o autorizzata, nessuna modifica a main o al sito.
+Fase: bozza testuale v1 completata e sottoposta a revisione. L’utente ha risposto «Va bene. Procedi» alla proposta di percorso e visuali: autorizzata la preparazione della bozza, senza dedurre l’approvazione del testo non ancora letto o di file fotografici mancanti. Nessun HTML realizzato, nessuna simulazione prevista o autorizzata, nessuna modifica a main o al sito.
 Ramo dedicato: `lavorazione/grandezze-fisiche-sistema-internazionale`, derivato da main `76c66c42021fc490aebc545dd5901ff8af118a5d`.
 
 ## Riferimenti letti e checklist
@@ -29,13 +29,13 @@ Contenuti destinati al capitolo 2:
 
 Restano nei capitoli 3–5: potenze di dieci e notazioni, prefissi, cifre significative. Strumenti, risoluzione, errori e incertezza appartengono ai capitoli 6–8; qui soltanto eventuale richiamo breve, senza svilupparli.
 
-## Domanda e percorso proposti, non ancora approvati
+## Domanda e percorso approvati nell’impostazione
 
 Apertura: comunicare che un banco è lungo «due» non basta; quale riferimento serve perché un’altra persona capisca e possa confrontare la misura?
 Progressione: proprietà misurabile → confronto con un’unità → risultato espresso con numero e simbolo → unità condivise → sette grandezze di base → unità derivate.
 Le definizioni moderne basate su costanti non devono trasformare il capitolo in un elenco di formalismi: spiegazione introduttiva breve, dettagli necessari in note di servizio appropriate. Non richiedere la notazione scientifica prima del capitolo dedicato. Evitare formule di dinamica o elettricità non ancora spiegate.
 
-## Visuali proposte, da concordare
+## Visuali — proposta iniziale e stato dei materiali
 
 - **COP-01 — Copertina.** Proposta di riuso della fotografia del campione storico del chilogrammo già incorporata nel sorgente. Serve a introdurre la necessità di riferimenti condivisi; didascalia che distingua il campione storico dalla definizione attuale. Non ripeterla nel corpo. Provenienza e diritti nel sorgente non documentati: verificare la scheda nel registro unico prima di usarla nella versione finale; non attribuire automaticamente una licenza.
 - **FIG-01 — Misurare una lunghezza.** Fotografia di un banco o di un oggetto quotidiano affiancato a un metro, con estremi e scala riconoscibili. Collocazione presso l’apertura; funzione: rendere concreto il confronto con l’unità. Immagine da scegliere e fornire dall’utente, nessuna ricerca o generazione avviata.
@@ -46,6 +46,16 @@ Le definizioni moderne basate su costanti non devono trasformare il capitolo in 
 
 Nessuna nuova risorsa creata o scaricata. I controlli visivi degli originali e la verifica delle licenze sono ancora da svolgere; la sola descrizione nel sorgente non li sostituisce. Non creare inventari concorrenti a `risorse/crediti.json`.
 
+## Bozza v1 completata — 22 ottobre 2026
+
+File corrente: [bozza.md](bozza.md). L’impostazione di percorso, riuso della copertina e tabelle è stata accettata con «Va bene. Procedi». Scritto il testo completo con apertura sulla misura del banco, grandezza/unità/strumento, necessità del riferimento comune, sette unità di base, unità derivate e nove domande finali senza soluzioni. Conservati i sette abbinamenti di base, i tredici abbinamenti delle derivate, l’esempio 4 m per 3 m e i tre quesiti originali pertinenti ai numeri 1–3. Formule in blocchi separati, senza divisioni esplicite scritte con barra.
+
+La bozza alleggerisce le definizioni formali e non anticipa notazione scientifica, prefissi, cifre significative o teoria degli errori. L’esempio dell’area comprende un segnaposto per lo schema e il confronto con dodici quadrati da un metro quadrato. Sono valori ipotetici, non misure dedotte da fotografie.
+
+Visuali nella bozza: COP-01, FIG-01, TAB-01, FIG-03, TAB-02. L’apparato atomico opzionale FIG-02 non è inserito: il riferimento alle costanti è breve e collegato alla copertina. Nessuna nuova immagine cercata, generata o scaricata. Restano da fornire la fotografia con metro (FIG-01) e un’immagine adatta allo schema della superficie (FIG-03); valutare il riuso della stessa scena se scientificamente comprensibile. Non presentare un banco piccolo come superficie di 4 m per 3 m. Provenienza e licenza della copertina ancora da verificare; nessuna risorsa dichiarata pronta per pubblicazione.
+
+Verifica editoriale eseguita: correttezza degli abbinamenti di unità, calcolo 4 · 3 = 12 m², distinzione base/derivate, nove domande riferite ai contenuti, nessuna soluzione, tre quesiti pertinenti conservati, nessuna anticipazione dei capitoli 3–8, segnaposto riconoscibili. Nessuna verifica HTML/browser pertinente in questa fase; nessun test dichiarato su prodotti non realizzati.
+
 ## Prossima operazione
 
-Presentare all’utente la proposta delle visuali, chiarire la scelta della copertina e chiedere la fotografia per la misura della lunghezza. Concordare riuso e semplificazione delle tabelle. Dopo le scelte preparare `bozza.md` con segnaposto e domande finali, recuperando i tre quesiti pertinenti del sorgente. Non scrivere ancora la bozza completa né realizzare HTML prima delle approvazioni previste. Pubblicazione e riammissione restano separate e non autorizzate.
+Presentare il collegamento alla bozza per revisione e raccogliere correzioni o approvazione del testo secondo MASTER_PROMPT.md B1.1.3. Acquisire le fotografie mancanti e verificare i diritti prima di completare i visuali. Dopo la bozza approvata comunicare la stima ripartita e raccogliere il via esplicito alla realizzazione HTML, secondo B1.1.4 e B2. Non usare il «Procedi» alla preparazione della bozza come via anticipato all’HTML. Nessuna riammissione o pubblicazione autorizzata.
