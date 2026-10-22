@@ -1,5 +1,5 @@
 # Il metodo scientifico
-Bozza editoriale v5 — 22 ottobre 2026
+Bozza editoriale v6 — 22 ottobre 2026
 Area: Introduzione alla fisica e alla misura
 Stato: proposta da approvare; non è un HTML pubblicabile.
 
@@ -27,7 +27,7 @@ Se cambiassimo contemporaneamente la pallina, il materiale della pista e la sua 
 
 Poi ripetiamo le discese e misuriamo il tempo. La ripetizione è utile perché la partenza e la lettura del cronometro non sono mai perfettamente identiche. Le modalità con cui gli strumenti misurano e le incertezze dei risultati saranno affrontate negli altri capitoli: qui ci interessa soprattutto comprendere perché la procedura deve essere controllata.
 
-[SIMULAZIONE 1 — Esperimento guidato: scrivere una previsione falsificabile, svolgere almeno tre prove per ciascun angolo (15°, 30°, 45°), confrontare i tempi e scrivere le conclusioni. Pallina di raggio raddoppiato (0,05 m, 17 px), interamente oltre il bordo iniziale del supporto grazie a 0,15 m di pista prima del punto di partenza. Il tratto rettilineo percorso dal via resta 1,00 m. Cronometro avviato dal clic su Avvia e fermato al passaggio sul piano orizzontale, dopo il raccordo; registrazione automatica unica della prova in tabella sotto alla finestra. La pallina prosegue fino al bordo destro e lì la visualizzazione si arresta, con l’intero corpo visibile. L’angolo è indicato da un arco interno al triangolo, fra base e ipotenusa; rimossa la scritta «Piano orizzontale». Ripeti conserva i dati; una prova interrotta prima dell’uscita non produce una misura. Pausa/Riprendi disponibili; nessun pulsante di salvataggio manuale.]
+[SIMULAZIONE 1 — Esperimento guidato: scrivere una previsione falsificabile, svolgere almeno tre prove per ciascun angolo (15°, 30°, 45°), confrontare i tempi e scrivere le conclusioni. Pallina di raggio raddoppiato (0,05 m, 17 px), interamente oltre il bordo iniziale del supporto grazie a 0,15 m di pista prima del punto di partenza. Il tratto rettilineo percorso dal via resta 1,00 m. Cronometro avviato dal clic su Avvia e fermato al passaggio sul piano orizzontale, dopo il raccordo; registrazione automatica unica della prova in tabella sotto alla finestra. La pallina prosegue fino al bordo destro e lì la visualizzazione si arresta, con l’intero corpo visibile. L’angolo è indicato da un arco interno al triangolo, fra base e ipotenusa; il numero è accostato all’arco in base al suo ingombro effettivo, senza oltrepassare base o lato inclinato; rimossa la scritta «Piano orizzontale». Ripeti conserva i dati; una prova interrotta prima dell’uscita non produce una misura. Pausa/Riprendi disponibili; nessun pulsante di salvataggio manuale.]
 
 ## Che cosa raccontano i dati?
 
@@ -54,4 +54,4 @@ Se il risultato non coincide con la previsione, non scartiamo subito l'intera sp
 - Sul solo tratto rettilineo L = 1,00 m: t = sqrt(14L/(5g sin θ)). Il tempo registrato aggiunge il tempo di attraversamento del raccordo. Nel raccordo il moto è calcolato per conservazione dell’energia di traslazione e rotazione; sul piano orizzontale la velocità resta costante. La formula non è necessaria nel testo del capitolo.
 - La tabella si compila automaticamente con i dati delle prove completate dal lettore. La precedente tabella di dati illustrativi è rimossa; la lettura dei risultati e i quesiti si riferiscono ai dati raccolti nella simulazione. Non presentarli come misure di laboratorio.
 - Copertina e modifica dello schema (sei colori, spiegazioni sotto ciascuna fase e comando di espansione) richieste esplicitamente dall’utente. Le richieste di questa revisione non autorizzano nuove fotografie o ritratti storici.
-- Modifiche della v5 richieste esplicitamente dall’utente; la bozza rimane in PR #58, con anteprima da rivedere prima di merge e pubblicazione.
+- Modifiche della v6 richieste esplicitamente dall’utente; la bozza rimane in PR #58, con anteprima da rivedere prima di merge e pubblicazione.

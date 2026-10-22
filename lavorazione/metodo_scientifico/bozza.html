@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="document-version" content="bozza-v5"><title>Il metodo scientifico — Stringhe</title>
+<meta name="document-version" content="bozza-v6"><title>Il metodo scientifico — Stringhe</title>
 <style>
 :root{color-scheme:dark;--bg:#141c29;--surface:#202d3d;--text:#f1f5fb;--soft:#bed0e0;--accent:#8db9ff;--line:#4b6180}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:1.08rem/1.7 system-ui,sans-serif}main{max-width:850px;margin:auto;padding:28px 20px 80px}header{margin-bottom:30px}h1{font-size:clamp(2rem,5vw,3.3rem);line-height:1.12}h2{margin-top:2em;line-height:1.25}p{max-width:75ch}small,.muted,figcaption{color:var(--soft)}.panel{border:1px solid var(--line);border-radius:18px;padding:20px;margin:22px 0;background:var(--surface)}button,select{min-height:44px;font:inherit;border:1px solid var(--line);border-radius:9px;padding:9px 13px;background:#293c55;color:var(--text);cursor:pointer}button:focus-visible,select:focus-visible{outline:3px solid #ffdb7a;outline-offset:2px}button[aria-pressed=true]{border-color:#ffda7a;background:#4a4a37}button:disabled{opacity:.5;cursor:default}.steps{display:grid;gap:12px;margin:20px 0}.phase{border:1px solid var(--phase);border-radius:12px;overflow:hidden}.phase summary{background:var(--phase);color:#101a28;padding:14px 16px;cursor:pointer;min-height:52px;font-weight:700}.phase summary:focus-visible{outline:3px solid #fff;outline-offset:-5px}.phase summary span{display:block;margin-left:20px;font-weight:400;font-size:.88em}.phase-body{padding:4px 18px}.phase-body p{margin:14px 0}.phase:nth-child(1){--phase:#9fc9f8}.phase:nth-child(2){--phase:#c7b6f3}.phase:nth-child(3){--phase:#94d8bd}.phase:nth-child(4){--phase:#f0d48a}.phase:nth-child(5){--phase:#eca89d}.phase:nth-child(6){--phase:#8ed8df}.flow{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:16px 0}.flow>div{padding:12px;border:1px solid var(--line);border-radius:10px}textarea{display:block;width:100%;font:inherit;color:var(--text);background:var(--bg);border:1px solid var(--line);border-radius:9px;padding:10px;margin:8px 0 20px;resize:vertical}textarea:focus-visible{outline:3px solid #ffdb7a;outline-offset:2px}.controls{display:flex;gap:12px;flex-wrap:wrap;align-items:center}.track{display:block;overflow:hidden;width:100%;height:auto;border:1px solid var(--line);border-radius:12px;background:#1b2534}table{border-collapse:collapse;width:100%}th,td{padding:8px;border-bottom:1px solid var(--line);text-align:left}.scroll{overflow:auto}a{color:var(--accent)}.cover{max-width:720px;margin:24px auto}.cover img{display:block;width:100%;height:auto;border-radius:14px}.cover figcaption{font-size:.87em;margin-top:10px} .note{font-size:.87em;color:var(--soft)}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
@@ -35,7 +35,7 @@
 <line id="start-mark" x1="127.45048382502483" y1="247.83618792422908" x2="131.07395045646012" y2="234.3132263561821" stroke="#bed0e0" stroke-width="2"/>
 <line id="finish-mark" x1="455.86526476330806" y1="335.83466325908614" x2="459.4887313947433" y2="322.31170169103916" stroke="#ffe08a" stroke-width="3"/>
 <g id="ball" transform="translate(133.66214090748534 224.65396809329144)"><circle r="17" fill="#ffe08a" stroke="#202734" stroke-width="1.5"/><g id="ball-stripe"><path d="M -12 0 H 12" stroke="#6d470b" stroke-width="3"/></g></g>
-<path id="inclination-arc" d="M 397.13592817143706 330 A 64 64 0 0 1 399.31667528893666 313.4355811134387" fill="none" stroke="#ffe08a" stroke-width="2"/><text id="angletext" x="282.6758531241512" y="306.50528540039073" fill="#ffe08a" font-size="22" text-anchor="middle" dominant-baseline="middle">15°</text><text id="length-label" x="230" y="260" fill="#f1f5fb" font-size="18" text-anchor="middle">1,00 m</text>
+<path id="inclination-arc" d="M 397.13592817143706 330 A 64 64 0 0 1 399.31667528893666 313.4355811134387" fill="none" stroke="#ffe08a" stroke-width="2"/><text id="angletext" x="316.6637605465796" y="315.53063201904297" fill="#ffe08a" font-size="22" text-anchor="middle" dominant-baseline="middle">15°</text><text id="length-label" x="230" y="260" fill="#f1f5fb" font-size="18" text-anchor="middle">1,00 m</text>
 </g></svg>
 <p>Tempo di discesa: <strong id="clock" aria-live="off">0,00 s</strong> — <span id="status" role="status">Pronta</span></p>
 <p class="note" id="trial-status" role="status">Le prove completate compariranno qui sotto.</p>
@@ -78,7 +78,7 @@
 })();
 </script>
 <!-- resource-credits:end -->
-<footer class="note">Bozza HTML v5 — 22 ottobre 2026.</footer>
+<footer class="note">Bozza HTML v6 — 22 ottobre 2026.</footer>
 </main>
 <script>
 (() => {
@@ -157,11 +157,17 @@ function drawTrack() {
     $(id).setAttribute('x2', x + 7 * g.sin); $(id).setAttribute('y2', y - 7 * g.cos);
   }
   // Arco interno fra la base orizzontale e l’ipotenusa del supporto.
-  const arcRadius = 64, labelRadius = 180;
+  const arcRadius = 64;
   $('inclination-arc').setAttribute('d', `M ${g.cornerX - arcRadius} ${FLOOR} A ${arcRadius} ${arcRadius} 0 0 1 ${g.cornerX - arcRadius * g.cos} ${FLOOR - arcRadius * g.sin}`);
-  $('angletext').setAttribute('x', g.cornerX - labelRadius * Math.cos(g.angle / 2));
-  $('angletext').setAttribute('y', FLOOR - labelRadius * Math.sin(g.angle / 2));
-  $('angletext').textContent = sel.value + '°';
+  const angleLabel = $('angletext'), clearance = 2;
+  angleLabel.textContent = sel.value + '°';
+  angleLabel.setAttribute('x', 0); angleLabel.setAttribute('y', 0);
+  const box = angleLabel.getBBox();
+  // Avvicina l’intero numero all’arco senza oltrepassare base o ipotenusa.
+  const right = Math.min(g.cornerX - arcRadius - clearance,
+                         g.cornerX - (box.height + 2 * clearance) / Math.tan(g.angle));
+  angleLabel.setAttribute('x', right - box.x - box.width);
+  angleLabel.setAttribute('y', FLOOR - clearance - box.y - box.height);
   $('length-label').setAttribute('x', g.x0 + LENGTH * SCALE * g.cos / 2 + 28 * g.sin);
   $('length-label').setAttribute('y', g.y0 + LENGTH * SCALE * g.sin / 2 - 28 * g.cos);
   track.setAttribute('aria-label', `Piano inclinato triangolare di ${sel.value} gradi su un piano orizzontale. La pallina rotola lungo il tratto di un metro, attraversa il raccordo e si ferma al bordo destro, interamente visibile.`);
