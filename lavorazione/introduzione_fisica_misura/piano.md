@@ -40,3 +40,7 @@ Checklist: A1–A5, B1.1–B2, B4–B6, C1–C3, D1–D2, AGENTS.md. Per realizz
 ## Proposta di revisione dello schema metodologico (22/10/2026)
 
 Conservare la logica ciclica dello schema originale, separando esplicitamente osservazione e domanda, ipotesi, previsione verificabile, esperimento controllato, raccolta e confronto dei dati, valutazione e revisione. Due uscite dopo il confronto: risultati coerenti con la previsione → ipotesi sostenuta provvisoriamente e ulteriori verifiche; risultati incoerenti → controllo di procedimento e misure, revisione dell'ipotesi e nuova prova. Evitare che una sola conferma conduca automaticamente a «teoria» o «principio». Questa è una proposta non ancora approvata, non modificare lo schema prima della scelta dell'utente.
+
+## Avanzamento primo capitolo — 22/10/2026
+
+L'utente ha approvato lo schema interattivo con sei fasi e spiegazioni contestuali sotto il diagramma, più una spiegazione discorsiva in capitolo, e la simulazione semplice. La bozza narrativa v1 è salvata in `lavorazione/metodo_scientifico/bozza.md` sul ramo di sviluppo. Le proposte precedenti segnate «non approvate» per lo schema sono superate da questa decisione. Fase corrente: revisione della bozza, nessun HTML o deploy.
