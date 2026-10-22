@@ -33,3 +33,13 @@ Aggiornamento: 2026-10-16 19:30 (Europe/Rome). Richiesta diretta dell’utente: 
 ## Nomi stabili
 
 Richiesta esplicita dell’utente: rimuovere versione e data dai nomi, conservandole nei documenti. File rinominati, inclusi gli eventuali materiali francesi e albanesi, con identità verificata e contenuti identici byte per byte; versioni interne invariate. Collegamenti correnti aggiornati; per le dispense italiane i vecchi indirizzi pubblici reindirizzano direttamente ai nomi stabili. [Mappa e hash](../sito/nomi-stabili.json). Nessuna revisione scientifica, immagine o simulazione nuova.
+
+## Ripresa editoriale — 22 ottobre 2026
+
+Area approvata «Introduzione alla fisica e alla misura». Ramo dedicato `lavorazione/introduzione-fisica-misura`. Master consultato v69.6; riferimenti di stile letti; originale in `main` invariato e non pubblicato. Workflow B1.1 in fase di bozza narrativa.
+
+Approvato dall'utente: simulazione essenziale della pallina sul piano inclinato con 2–3 angoli predefiniti, lunghezza e pallina costanti, cronometro, tabella; senza attrito regolabile o grafici cinematici. Approvato schema interattivo a sei fasi con testo contestuale sotto la fase selezionata, biforcazione delle conclusioni, alternativa accessibile senza JavaScript e integrazione con teoria discorsiva.
+
+Bozza v1 salvata in `lavorazione/metodo_scientifico/bozza.md`: narrazione originale, segnaposto per copertina, schema interattivo, simulazione e tabella, sei domande finali conservate. I tempi della tabella sono illustrativi. Il modello della simulazione verrà verificato prima della programmazione; proposta idealizzazione di scivolamento senza attrito, senza rotazione visualizzata. Non sono stati creati HTML, simulazioni o immagini.
+
+Prossima operazione: ottenere revisione/approvazione della bozza da parte dell'utente; definire la fotografia di copertina e quindi procedere al via per HTML secondo workflow. Non modificare `main`, `pubblicazione.json` o Pages senza approvazione dell'anteprima.
