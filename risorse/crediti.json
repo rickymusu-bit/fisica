@@ -3258,6 +3258,31 @@
         "dilatazione_termica_it.html"
       ],
       "fingerprints": []
+    },
+    {
+      "id": "credit-469d5993b422b2b9",
+      "description": "Copertina: The Sphere nella piazza del World Trade Center, New York",
+      "source": "https://commons.wikimedia.org/wiki/File:World_Trade_Center,_New_York._Exterior._Entrance_arches_with_Sphere_at_Plaza_Fountain_sculpture_-cropped.jpg",
+      "author": "Balthazar Korab",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "File già ritagliato su Commons; nessuna ulteriore modifica. Ridimensionamento solo nella visualizzazione.",
+      "links": [
+        {
+          "url": "https://hdl.loc.gov/loc.pnp/ppmsca.71339",
+          "label": "Library of Congress"
+        }
+      ],
+      "status": "documented",
+      "notices": [
+        "The Sphere nella piazza del World Trade Center, New York — fotografia di Balthazar Korab. <a href=\"https://commons.wikimedia.org/wiki/File:World_Trade_Center,_New_York._Exterior._Entrance_arches_with_Sphere_at_Plaza_Fountain_sculpture_-cropped.jpg\">Fonte originale su Wikimedia Commons</a>. <a href=\"https://hdl.loc.gov/loc.pnp/ppmsca.71339\">Provenienza: Library of Congress, Balthazar Korab collection</a>. <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>, come indicato nella scheda del file scelto. Versione già ritagliata su Commons da Tocquevillosia; nessuna ulteriore modifica, incorporamento dei byte originali e ridimensionamento solo nella visualizzazione."
+      ],
+      "metadata_sources": [
+        "lavorazione/metodo_scientifico/bozza.html"
+      ],
+      "fingerprints": [
+        "asset-796f5bf7e773bf98f0258c462201a0f8ee7da1402aa6d04cc24f99c410d63de8"
+      ]
     }
   ],
   "documents": {
@@ -4006,6 +4031,19 @@
       ],
       "review": null,
       "chapter_labels": true
+    },
+    "lavorazione/metodo_scientifico/bozza.html": {
+      "title": "Il metodo scientifico — bozza",
+      "anchor": "metodo-scientifico-bozza",
+      "credits": [
+        {
+          "resource": "credit-469d5993b422b2b9",
+          "notice": 0
+        }
+      ],
+      "lexend": false,
+      "chapter_labels": true,
+      "review": "Bozza esclusa dalla pubblicazione; tema definitivo e altre visuali ancora da completare."
     }
   },
   "assets": [

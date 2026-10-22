@@ -1,9 +1,9 @@
 # Il metodo scientifico
-Bozza editoriale v1 — 22 ottobre 2026
+Bozza editoriale v2 — 22 ottobre 2026
 Area: Introduzione alla fisica e alla misura
 Stato: proposta da approvare; non è un HTML pubblicabile.
 
-[IMMAGINE DI COPERTINA — Fotografia reale di pallina e piano inclinato, da fornire o scegliere; non ripeterla nel corpo.]
+[IMMAGINE DI COPERTINA — The Sphere nella piazza del World Trade Center, New York. Foto scelta dall’utente: https://commons.wikimedia.org/wiki/File:World_Trade_Center,_New_York._Exterior._Entrance_arches_with_Sphere_at_Plaza_Fountain_sculpture_-cropped.jpg. Originale in risorse/copertina.jpg; nessun ulteriore ritaglio. Crediti nel registro unico risorse/crediti.json, credit-469d5993b422b2b9.]
 
 Una pallina viene lasciata libera lungo una pista inclinata. Arriva in fondo dopo un certo tempo. Se solleviamo un'estremità della pista, sembra naturale aspettarsi che raggiunga la fine più rapidamente. Ma come possiamo distinguere una previsione affidabile da una semplice impressione? E se la prima prova desse un risultato inatteso?
 
