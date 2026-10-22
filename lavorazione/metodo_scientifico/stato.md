@@ -43,3 +43,9 @@ Approvato dall'utente: simulazione essenziale della pallina sul piano inclinato 
 Bozza v1 salvata in `lavorazione/metodo_scientifico/bozza.md`: narrazione originale, segnaposto per copertina, schema interattivo, simulazione e tabella, sei domande finali conservate. I tempi della tabella sono illustrativi. Il modello della simulazione verrà verificato prima della programmazione; proposta idealizzazione di scivolamento senza attrito, senza rotazione visualizzata. Non sono stati creati HTML, simulazioni o immagini.
 
 Prossima operazione: ottenere revisione/approvazione della bozza da parte dell'utente; definire la fotografia di copertina e quindi procedere al via per HTML secondo workflow. Non modificare `main`, `pubblicazione.json` o Pages senza approvazione dell'anteprima.
+
+## Prototipo interattivo — 22 ottobre 2026
+
+Dopo il via esplicito dell'utente, creato `lavorazione/metodo_scientifico/bozza.html` in ramo isolato. Include sei fasi selezionabili, spiegazione contestuale e fallback testuale, simulazione a tre angoli (15°, 30°, 45°) di una particella su piano lungo 1 m senza attrito, cronometro, ripetizione e tabella di risultati deterministici; riprese le sei domande. Nessun commit su main e nessun deployment. La copertina resta un segnaposto, non un'immagine definitiva. Restano da integrare il tema canonico Stringhe e da svolgere verifiche nel browser desktop/mobile e accessibilità complete: non considerare la bozza conforme o pubblicabile. Il piano inclinato è disegnato con geometria SVG, ma la pallina è un semplice marcatore geometrico provvisorio e richiede la visuale concordata secondo C1. Il testo originale integrale resta in `bozza.md`.
+
+Prossimo passo: revisione dell'anteprima e definizione della copertina; implementazione definitiva con tema condiviso, controlli, verifiche e approvazione prima di qualsiasi merge.
