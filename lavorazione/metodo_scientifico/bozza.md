@@ -1,5 +1,5 @@
 # Il metodo scientifico
-Bozza editoriale v6 — 22 ottobre 2026
+Bozza editoriale v7 — 22 ottobre 2026
 Area: Introduzione alla fisica e alla misura
 Stato: proposta da approvare; non è un HTML pubblicabile.
 
@@ -54,4 +54,6 @@ Se il risultato non coincide con la previsione, non scartiamo subito l'intera sp
 - Sul solo tratto rettilineo L = 1,00 m: t = sqrt(14L/(5g sin θ)). Il tempo registrato aggiunge il tempo di attraversamento del raccordo. Nel raccordo il moto è calcolato per conservazione dell’energia di traslazione e rotazione; sul piano orizzontale la velocità resta costante. La formula non è necessaria nel testo del capitolo.
 - La tabella si compila automaticamente con i dati delle prove completate dal lettore. La precedente tabella di dati illustrativi è rimossa; la lettura dei risultati e i quesiti si riferiscono ai dati raccolti nella simulazione. Non presentarli come misure di laboratorio.
 - Copertina e modifica dello schema (sei colori, spiegazioni sotto ciascuna fase e comando di espansione) richieste esplicitamente dall’utente. Le richieste di questa revisione non autorizzano nuove fotografie o ritratti storici.
-- Modifiche della v6 richieste esplicitamente dall’utente; la bozza rimane in PR #58, con anteprima da rivedere prima di merge e pubblicazione.
+- Modifiche della v7 richieste esplicitamente dall’utente; la bozza rimane in PR #58, con anteprima da rivedere prima di merge e pubblicazione.
+
+- Impaginazione HTML v7 nel modello canonico Stringhe v22: font Lexend, superficie continua e sinusoidi laterali, barra Home/Capitoli/Scarica/Indice/Lingua/Tema, indice laterale, tema scuro/chiaro e crediti autonomi. Fotografia e simulazione ingrandibili; modello fisico nelle Note collassabili.

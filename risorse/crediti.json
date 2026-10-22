@@ -4061,9 +4061,9 @@
           "notice": 0
         }
       ],
-      "lexend": false,
+      "lexend": true,
       "chapter_labels": true,
-      "review": "Bozza esclusa dalla pubblicazione; tema definitivo e altre visuali ancora da completare."
+      "review": "Bozza nel tema canonico Stringhe; anteprima da approvare prima del merge e della pubblicazione."
     }
   },
   "assets": [
