@@ -1,6 +1,6 @@
 # Le grandezze fisiche e il Sistema internazionale
 
-Bozza v2 — 22 ottobre 2026. Area: Introduzione alla fisica e alla misura.
+Bozza v3 — 22 ottobre 2026. Area: Introduzione alla fisica e alla misura.
 
 [Servizio editoriale, da non mostrare nel capitolo: testo v1 approvato; v2 con i soli adattamenti alle tre fotografie scelte dall’utente. Le dimensioni del campo provengono dalla scheda del club, non da una misura della fotografia.]
 
@@ -64,7 +64,7 @@ Il risultato si esprime in **metri quadrati**, simbolo m². Un metro quadrato è
 
 [FIG-03 — Schema sulla fotografia scelta del Camp Nou: risorse/campo-annotato.svg, che incorpora integralmente risorse/campo.jpg. Richiami ai lati lungo e corto, rispettivamente 105 m e 68 m. Dimensioni dalla scheda ufficiale FC Barcelona, non dalla prospettiva della foto. Nessun ritaglio o reticolo fittizio; composizione identica su mobile. Fotografia Netol, CC BY-SA 3.0; schema con la stessa licenza.]
 
-*Didascalia proposta:* Il campo del Camp Nou prima di una partita nel 2012. I richiami identificano i due lati del terreno di gioco: 105 m e 68 m. Le dimensioni non sono ricavate dalla fotografia in prospettiva.
+*Didascalia proposta:* Il campo del Camp Nou prima di una partita nel 2012. I richiami identificano i due lati del terreno di gioco: 105 m e 68 m.
 
 Il terreno di gioco del Camp Nou è un esempio concreto di superficie rettangolare. Consideriamo le sue dimensioni di 105 m di lunghezza e 68 m di larghezza, indicate nella figura. Per trovare l’area moltiplichiamo le due lunghezze:
 

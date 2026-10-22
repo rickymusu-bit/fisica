@@ -23,7 +23,7 @@ from stringhe_theme import navigation_header
 NAME = 'grandezze_fisiche_sistema_internazionale_it.html'
 TITLE = 'Le grandezze fisiche e il Sistema internazionale'
 AREA = 'Introduzione alla fisica e alla misura'
-VERSION = 'v2'
+VERSION = 'v3'
 COMMONS = 'https://commons.wikimedia.org/wiki/File:'
 META = {
     'COP-01': ('chilogrammo.jpg', 'International_prototype_of_the_kilogram_aka_Le_Grand_K.jpg',
@@ -35,7 +35,7 @@ META = {
     'FIG-03': ('campo-annotato.svg', 'Camp_nou_before_F.C._Barcelona_-_Real_Madrid_league_match_of_2012.JPG',
                'Netol; annotazioni didattiche del progetto Stringhe', 'CC BY-SA 3.0',
                'https://creativecommons.org/licenses/by-sa/3.0/',
-               'Campo del Camp Nou in prospettiva: richiami al lato lungo di 105 m e al lato corto di 68 m'),
+               'Campo del Camp Nou: richiami al lato lungo di 105 m e al lato corto di 68 m'),
 }
 SECTIONS = ['misurare', 'riferimento-comune', 'grandezze-di-base', 'unita-derivate', 'domande-di-verifica']
 TABLE_STYLE = '''<style data-component="tabelle-si">
@@ -56,12 +56,11 @@ def data_uri(path):
 
 
 def field_diagram():
-    # La fotografia è conservata integralmente: semplici richiami identificano
-    # due lati, senza fingere misure o una vista ortogonale della scena.
+    # Foto integra con richiami ai due lati e dimensioni documentate.
     photo = data_uri(WORK / 'risorse/campo.jpg')
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="960" height="743" viewBox="0 0 960 743" role="img" aria-labelledby="title desc">
 <title id="title">Le dimensioni del terreno di gioco del Camp Nou</title>
-<desc id="desc">Fotografia del 2012 integra, con richiami al lato lungo di 105 metri e al lato corto di 68 metri. Dimensioni dalla scheda ufficiale del club, non misurate sulla fotografia.</desc>
+<desc id="desc">Fotografia del 2012, con richiami al lato lungo di 105 metri e al lato corto di 68 metri.</desc>
 <rect width="960" height="743" fill="white"/>
 <image href="{photo}" x="0" y="100" width="960" height="643"/>
 <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#202637"/></marker></defs>
@@ -211,6 +210,11 @@ def main():
     target = ROOT / NAME
     target.write_text(render(), encoding='utf-8')
     registry = credits.load_registry()
+    for resource in registry['resources']:
+        if resource.get('source') == COMMONS + META['FIG-03'][1]:
+            resource['description'] = META['FIG-03'][5]
+            resource['notices'] = [notice.replace('Campo del Camp Nou in prospettiva:', 'Campo del Camp Nou:')
+                                   for notice in resource['notices']]
     credits.sync_inventory(registry)
     registry['documents'][NAME]['title'] = TITLE
     registry['documents'][NAME]['review'] = 'Testo, immagini e anteprima approvati; pubblicazione esplicitamente autorizzata il 22 ottobre 2026. Licenze e fonti documentate.'
