@@ -371,10 +371,12 @@ def main():
             # Tastiera, menu indice, note, zoom, crediti e download reale.
             page.locator('.index-toggle').click()
             assert page.locator('.reader-index').get_attribute('open') is not None
-            assert page.locator('.nav-settings > .string-lang').get_attribute('inert') is not None
+            # L'evento toggle di details è asincrono: attendere il suo effetto
+            # senza indebolire il controllo di isolamento della tastiera.
+            expect(page.locator('.nav-settings > .string-lang')).to_have_attribute('inert', '')
             page.keyboard.press('Escape')
             assert page.locator('.reader-index').get_attribute('open') is None
-            assert page.locator('.nav-settings > .string-lang').get_attribute('inert') is None
+            expect(page.locator('.nav-settings > .string-lang')).not_to_have_attribute('inert', '')
             assert page.locator('.index-toggle').evaluate('(e)=>e===document.activeElement')
             if page.locator('[role=doc-noteref]').count():
                 page.locator('[role=doc-noteref]').first.click()
