@@ -4,7 +4,7 @@ Data: 21/10/2026 (Europe/Rome). Stato: progettazione; nessun HTML realizzato o p
 Fonte delle regole: MASTER_PROMPT.md v69.6, AGENTS.md, riferimenti/STILE_DISPENSE.md, riferimenti/esempio_irraggiamento.md.
 Macrocategoria approvata dall'utente: **Introduzione alla fisica e alla misura**.
 Approvati: 12 capitoli; proporzionalità inversa e quadratica nello stesso capitolo.
-Non ancora approvati: visuali nuove, bozze dei singoli capitoli, conversioni HTML, pubblicazione.
+Non ancora approvati: revisione dello schema del metodo scientifico, bozze dei singoli capitoli, conversioni HTML, pubblicazione. Simulazione semplice del piano inclinato approvata dall'utente il 22/10/2026: 2–3 inclinazioni predefinite, pallina che parte da ferma, stessa lunghezza del percorso, cronometro e tabella risultati; senza attrito regolabile o grafici del moto.
 
 ## Indice editoriale concordato
 
@@ -36,3 +36,7 @@ Domanda iniziale: una pallina percorre la stessa distanza su una pista più incl
 Visuali esistenti da valutare e riutilizzare se idonei: schema ciclico del metodo scientifico; ritratti storici di Galileo e Popper; tabella illustrativa dei tempi. Criticità: diritti delle immagini storiche e correttezza del diagramma; individuare una copertina pertinente che non sia ripetuta nel corpo. Proposta da sottoporre all'utente: fotografia reale di un piano inclinato con pallina per copertina, schema metodologico per la teoria, tabella già esistente per il confronto. Non cercare o generare visuali prima della scelta.
 Fase corrente: proposta visuali e confini pronta; attesa di scelta/approvazione prima di scrivere lavorazione/metodo_scientifico/bozza.md o convertire HTML.
 Checklist: A1–A5, B1.1–B2, B4–B6, C1–C3, D1–D2, AGENTS.md. Per realizzazione controllare lo stato sorgente già esistente e aggiornare quel file, preservandone la cronologia.
+
+## Proposta di revisione dello schema metodologico (22/10/2026)
+
+Conservare la logica ciclica dello schema originale, separando esplicitamente osservazione e domanda, ipotesi, previsione verificabile, esperimento controllato, raccolta e confronto dei dati, valutazione e revisione. Due uscite dopo il confronto: risultati coerenti con la previsione → ipotesi sostenuta provvisoriamente e ulteriori verifiche; risultati incoerenti → controllo di procedimento e misure, revisione dell'ipotesi e nuova prova. Evitare che una sola conferma conduca automaticamente a «teoria» o «principio». Questa è una proposta non ancora approvata, non modificare lo schema prima della scelta dell'utente.
