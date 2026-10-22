@@ -2,7 +2,7 @@
 
 Bozza v3 — 23 ottobre 2026 (Europe/Rome). Area: Introduzione alla fisica e alla misura.
 
-[Servizio editoriale, da non mostrare nel capitolo: testo v1 approvato; v2 con i soli adattamenti alle tre fotografie scelte dall’utente. Le dimensioni del campo provengono dalla scheda del club, non da una misura della fotografia.]
+[Servizio editoriale: testo approvato, revisione v3 su richiesta dell’utente. Foto del Camp Nou originale, senza annotazioni; didascalia abbreviata. Dimensioni e calcolo conservati.]
 
 [COP-01 — Fotografia scelta: risorse/chilogrammo.jpg, prototipo internazionale del chilogrammo. BIPM, CC BY-SA 3.0 IGO. Non ripeterla nel corpo.]
 
@@ -62,11 +62,11 @@ Per trovare l’area di un rettangolo moltiplichiamo la lunghezza di un lato per
 
 Il risultato si esprime in **metri quadrati**, simbolo m². Un metro quadrato è l’area di un quadrato con il lato lungo un metro. Per questo scrivere m al posto di m² cambierebbe il significato del risultato: indicherebbe una lunghezza anziché un’area.
 
-[FIG-03 — Schema sulla fotografia scelta del Camp Nou: risorse/campo-annotato.svg, che incorpora integralmente risorse/campo.jpg. Richiami ai lati lungo e corto, rispettivamente 105 m e 68 m. Dimensioni dalla scheda ufficiale FC Barcelona, non dalla prospettiva della foto. Nessun ritaglio o reticolo fittizio; composizione identica su mobile. Fotografia Netol, CC BY-SA 3.0; schema con la stessa licenza.]
+[FIG-03 — Fotografia originale del Camp Nou: risorse/campo.jpg, senza frecce, etichette o altre annotazioni. Fotografia Netol, CC BY-SA 3.0.]
 
-*Didascalia proposta:* Il campo del Camp Nou prima di una partita nel 2012. I richiami identificano i due lati del terreno di gioco: 105 m e 68 m.
+*Didascalia proposta:* Il campo del Camp Nou prima di una partita nel 2012.
 
-Il terreno di gioco del Camp Nou è un esempio concreto di superficie rettangolare. Consideriamo le sue dimensioni di 105 m di lunghezza e 68 m di larghezza, indicate nella figura. Per trovare l’area moltiplichiamo le due lunghezze:
+Il terreno di gioco del Camp Nou è un esempio concreto di superficie rettangolare. Consideriamo le sue dimensioni di 105 m di lunghezza e 68 m di larghezza. Per trovare l’area moltiplichiamo le due lunghezze:
 
 \[
 A=105\,\mathrm{m}\cdot68\,\mathrm{m}=7140\,\mathrm{m}^{2}
@@ -116,7 +116,7 @@ Questa parte non appartiene al contenuto didattico e non sarà una sezione visib
 
 - Provenienza: sezioni «Che cosa significa misurare», «Le sette grandezze e unità di base», «Le unità derivate: combinare le unità di base» e domande originali 1–3 di `sistema_internazionale_notazione_it.html` v11. Conservati i sette abbinamenti di base e tutti i tredici abbinamenti delle unità derivate. L’esempio 4 m per 3 m è sostituito con il campo di 105 m per 68 m per adattarlo alla fotografia scelta. Le tre domande pertinenti restano ai numeri 1–3; le altre domande del sorgente appartengono ai capitoli successivi.
 - Le definizioni formali delle sette unità e le relazioni delle unità derivate sono alleggerite nella nuova bozza per evitare prerequisiti non ancora introdotti. Il sorgente completo resta invariato e recuperabile. Nessun contenuto di potenze, prefissi o cifre significative trasferito qui.
-- Tre immagini scelte dall’utente, scaricate nella risoluzione 960 px richiesta e ispezionate: prototipo internazionale del chilogrammo (BIPM, CC BY-SA 3.0 IGO), metro a nastro (Nenad Stojkovic, CC BY 2.0), Camp Nou (Netol, CC BY-SA 3.0). Fotografie integre, senza ritaglio o alterazione. Schema del campo con semplici richiami ai lati; la prospettiva della foto non costituisce una misura. Attribuzioni, fonti e dichiarazione delle annotazioni sono nel registro unico e nei crediti incorporati.
+- Tre immagini scelte dall’utente, scaricate nella risoluzione 960 px richiesta e ispezionate: prototipo internazionale del chilogrammo (BIPM, CC BY-SA 3.0 IGO), metro a nastro (Nenad Stojkovic, CC BY 2.0), Camp Nou (Netol, CC BY-SA 3.0). Fotografie integre, senza ritaglio o alterazione. Foto del campo originale, senza frecce o etichette. Attribuzioni, fonti e dichiarazione delle annotazioni sono nel registro unico e nei crediti incorporati.
 - FIG-02, apparato atomico opzionale: non inserito in questa prima bozza; la spiegazione delle costanti resta breve ed è associata alla copertina storica. Nessuna nuova scelta di immagine necessaria per questo passaggio.
 - Fonti scientifiche consultate: BIPM, *The International System of Units (SI)* e sintesi aggiornata nel 2026, https://www.bipm.org/en/publications/si-brochure ; NIST, *Kilogram: Introduction*, https://www.nist.gov/si-redefinition/kilogram-introduction ; FC Barcelona, scheda del Camp Nou con dimensioni del terreno di gioco 105 m per 68 m, https://www.fcbarcelona.com/en/club/facilities/spotify-camp-nou . Fonti dei dati e media registrati in `risorse/crediti.json`, accessibili attraverso i crediti incorporati.
 - Nove domande senza soluzioni. Nessuna applicazione separata, video o simulazione aggiunta. Nessuna nota a piè di pagina artificiosa: le precisazioni rimaste sono brevi e necessarie al ragionamento.

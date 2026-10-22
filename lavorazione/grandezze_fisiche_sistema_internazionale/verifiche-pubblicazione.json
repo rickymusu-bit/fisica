@@ -13,14 +13,10 @@
   "catalogue_count": 12,
   "correzione_didascalia": {
     "version": "v3",
-    "only_caption_sentence_removed_from_visible_body": true,
-    "accessible_description_cleaned": true,
-    "screenshots": [
-      "anteprima-campo-dark-390.png",
-      "anteprima-campo-dark-1440.png",
-      "anteprima-campo-light-390.png",
-      "anteprima-campo-light-1440.png"
-    ],
-    "errors": []
+    "photo_original_bytes_identical": true,
+    "photo_sha256": "3af4c992c19250e58fa2988db758b012b9326963ba0b57b8573d6639fc8b753d",
+    "caption": "Il campo del Camp Nou prima di una partita nel 2012.",
+    "annotations_removed": true,
+    "dimensions_and_calculation_preserved": true
   }
 }

@@ -3346,23 +3346,25 @@
     },
     {
       "id": "credit-7f854b41c75b4eda",
-      "description": "Campo del Camp Nou: richiami al lato lungo di 105 m e al lato corto di 68 m",
+      "description": "Il campo del Camp Nou prima di una partita nel 2012",
       "source": "https://commons.wikimedia.org/wiki/File:Camp_nou_before_F.C._Barcelona_-_Real_Madrid_league_match_of_2012.JPG",
-      "author": "Netol; annotazioni didattiche del progetto Stringhe",
+      "author": "Netol",
       "license": "CC BY-SA 3.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-      "changes": "Annotazioni dei lati e cornice superiore aggiunte alla foto integrale, senza ritaglio; schema distribuito con la stessa licenza CC BY-SA 3.0. Dimensioni dalla scheda FC Barcelona.",
+      "changes": "Nessuna modifica alla versione scelta; visualizzazione proporzionale senza ritaglio.",
       "status": "documented",
       "links": [],
       "notices": [
-        "Campo del Camp Nou: richiami al lato lungo di 105 m e al lato corto di 68 m — Netol; annotazioni didattiche del progetto Stringhe. <a href=\"https://commons.wikimedia.org/wiki/File:Camp_nou_before_F.C._Barcelona_-_Real_Madrid_league_match_of_2012.JPG\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">CC BY-SA 3.0</a>. Modifiche: Annotazioni dei lati e cornice superiore aggiunte alla foto integrale, senza ritaglio; schema distribuito con la stessa licenza CC BY-SA 3.0. Dimensioni dalla scheda FC Barcelona."
+        "Campo del Camp Nou: richiami al lato lungo di 105 m e al lato corto di 68 m — Netol; annotazioni didattiche del progetto Stringhe. <a href=\"https://commons.wikimedia.org/wiki/File:Camp_nou_before_F.C._Barcelona_-_Real_Madrid_league_match_of_2012.JPG\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">CC BY-SA 3.0</a>. Modifiche: Annotazioni dei lati e cornice superiore aggiunte alla foto integrale, senza ritaglio; schema distribuito con la stessa licenza CC BY-SA 3.0. Dimensioni dalla scheda FC Barcelona.",
+        "Il campo del Camp Nou prima di una partita nel 2012 — Netol. <a href=\"https://commons.wikimedia.org/wiki/File:Camp_nou_before_F.C._Barcelona_-_Real_Madrid_league_match_of_2012.JPG\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">CC BY-SA 3.0</a>. Modifiche: Nessuna modifica alla versione scelta; visualizzazione proporzionale senza ritaglio."
       ],
       "metadata_sources": [
         "grandezze_fisiche_sistema_internazionale_it.html"
       ],
       "fingerprints": [
         "asset-a69f23b5587b8f7a69df08c57f825aa8ccd6803a17c81443050165bf026730cc",
-        "asset-d5fede6839adc19ec693c1bbf5eba969247bab8d9803a524c5099c1009407812"
+        "asset-d5fede6839adc19ec693c1bbf5eba969247bab8d9803a524c5099c1009407812",
+        "asset-3af4c992c19250e58fa2988db758b012b9326963ba0b57b8573d6639fc8b753d"
       ]
     },
     {
@@ -4199,7 +4201,7 @@
         },
         {
           "resource": "credit-7f854b41c75b4eda",
-          "notice": 0
+          "notice": 1
         },
         {
           "resource": "credit-39370fd0c35ae5fb",
@@ -5111,6 +5113,21 @@
           "attribute": "font-face",
           "location": null,
           "credit_id": "font-lexend"
+        }
+      ]
+    },
+    {
+      "id": "asset-3af4c992c19250e58fa2988db758b012b9326963ba0b57b8573d6639fc8b753d",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "grandezze_fisiche_sistema_internazionale_it.html",
+          "kind": "image/jpeg",
+          "description": "Il campo del Camp Nou prima di una partita nel 2012",
+          "locator": "fig-03",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-7f854b41c75b4eda"
         }
       ]
     },
@@ -7748,30 +7765,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-43f258009d0ac951"
-        }
-      ]
-    },
-    {
-      "id": "asset-d5fede6839adc19ec693c1bbf5eba969247bab8d9803a524c5099c1009407812",
-      "kind": "image/svg+xml",
-      "uses": [
-        {
-          "document": "grandezze_fisiche_sistema_internazionale_it.html",
-          "kind": "image/svg+xml",
-          "description": "Campo del Camp Nou: richiami al lato lungo di 105 m e al lato corto di 68 m",
-          "locator": "fig-03",
-          "attribute": "src",
-          "location": null,
-          "credit_id": "credit-7f854b41c75b4eda"
-        },
-        {
-          "document": "grandezze_fisiche_sistema_internazionale_it.html",
-          "kind": "image/svg+xml",
-          "description": "Campo del Camp Nou: richiami al lato lungo di 105 m e al lato corto di 68 m",
-          "locator": "fig-03",
-          "attribute": "src",
-          "location": null,
-          "credit_id": "credit-7f854b41c75b4eda"
         }
       ]
     },

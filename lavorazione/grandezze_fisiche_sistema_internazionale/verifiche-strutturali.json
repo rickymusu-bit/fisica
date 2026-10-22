@@ -3,7 +3,7 @@
   "unique_ids": true,
   "no_template_placeholders": true,
   "working_copy_identical": true,
-  "bytes": 1667558,
+  "bytes": 1119215,
   "photo_sha256": {
     "campo.jpg": "3af4c992c19250e58fa2988db758b012b9326963ba0b57b8573d6639fc8b753d",
     "metro.jpg": "d34103f14e533c4f26858283ae1f8e4b7d09250c8bb322483d4b2462fe84fd46",
@@ -12,5 +12,5 @@
   "approved_article_body_unchanged": false,
   "adjacent_article_bodies_unchanged": true,
   "excluded_sources_unchanged": true,
-  "approved_article_body_change": "Eliminata soltanto la frase superflua sulla prospettiva, su richiesta esplicita dell’utente."
+  "approved_article_body_change": "Eliminate le precisazioni superflue e le annotazioni del campo su richiesta esplicita; dati e calcolo conservati."
 }

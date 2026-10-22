@@ -34,10 +34,10 @@ META = {
     'FIG-01': ('metro.jpg', 'A_pair_of_hands_holding_a_construction_measuring_tape.jpg',
                'Nenad Stojkovic', 'CC BY 2.0', 'https://creativecommons.org/licenses/by/2.0/',
                'Mani che tengono un metro a nastro disteso contro un pannello di legno'),
-    'FIG-03': ('campo-annotato.svg', 'Camp_nou_before_F.C._Barcelona_-_Real_Madrid_league_match_of_2012.JPG',
-               'Netol; annotazioni didattiche del progetto Stringhe', 'CC BY-SA 3.0',
+    'FIG-03': ('campo.jpg', 'Camp_nou_before_F.C._Barcelona_-_Real_Madrid_league_match_of_2012.JPG',
+               'Netol', 'CC BY-SA 3.0',
                'https://creativecommons.org/licenses/by-sa/3.0/',
-               'Campo del Camp Nou: richiami al lato lungo di 105 m e al lato corto di 68 m'),
+               'Il campo del Camp Nou prima di una partita nel 2012'),
 }
 SECTIONS = ['misurare', 'riferimento-comune', 'grandezze-di-base', 'unita-derivate', 'domande-di-verifica']
 TABLE_STYLE = '''<style data-component="tabelle-si">
@@ -57,22 +57,6 @@ def data_uri(path):
     return 'data:' + mime + ';base64,' + base64.b64encode(path.read_bytes()).decode()
 
 
-def field_diagram():
-    # Foto integra con richiami ai due lati e dimensioni documentate.
-    photo = data_uri(WORK / 'risorse/campo.jpg')
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="960" height="743" viewBox="0 0 960 743" role="img" aria-labelledby="title desc">
-<title id="title">Le dimensioni del terreno di gioco del Camp Nou</title>
-<desc id="desc">Fotografia del 2012, con richiami al lato lungo di 105 metri e al lato corto di 68 metri.</desc>
-<rect width="960" height="743" fill="white"/>
-<image href="{photo}" x="0" y="100" width="960" height="643"/>
-<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#202637"/></marker></defs>
-<g fill="none" stroke="white" stroke-width="7"><path d="M205 67L92 118L90 475"/><path d="M665 67L695 135L420 325"/></g>
-<g fill="none" stroke="#202637" stroke-width="2.5" marker-end="url(#arrow)"><path d="M205 67L92 118L90 475"/><path d="M665 67L695 135L420 325"/></g>
-<g font-family="Arial,sans-serif" font-size="27" fill="#202637"><text x="205" y="43" text-anchor="middle">Lunghezza: 105 m</text><text x="665" y="43" text-anchor="middle">Larghezza: 68 m</text></g>
-</svg>'''
-    (WORK / 'risorse/campo-annotato.svg').write_text(svg, encoding='utf-8')
-
-
 def inline(source):
     return re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', escape(source))
 
@@ -80,7 +64,7 @@ def inline(source):
 def figure(key, caption):
     filename, source, author, license_name, license_url, alt = META[key]
     path = WORK / 'risorse' / filename
-    diagram = key == 'FIG-03'
+    diagram = path.suffix == '.svg'
     width, height = (960, 743) if diagram else Image.open(path).size
     uri = data_uri(path)
     changes = ('Annotazioni dei lati e cornice superiore aggiunte alla foto integrale, senza ritaglio; '
@@ -208,16 +192,28 @@ def add_reference(registry, source, title, author):
 
 
 def main():
-    field_diagram()
     target = ROOT / NAME
     target.write_text(render(), encoding='utf-8')
     registry = credits.load_registry()
+    field_resource = None
+    field_notice = None
     for resource in registry['resources']:
         if resource.get('source') == COMMONS + META['FIG-03'][1]:
+            field_resource = resource
             resource['description'] = META['FIG-03'][5]
-            resource['notices'] = [notice.replace('Campo del Camp Nou in prospettiva:', 'Campo del Camp Nou:')
-                                   for notice in resource['notices']]
+            resource['author'] = 'Netol'
+            resource['changes'] = 'Nessuna modifica alla versione scelta; visualizzazione proporzionale senza ritaglio.'
+            field_notice = (escape(resource['description']) + ' — Netol. '
+                            '<a href="' + escape(resource['source'], quote=True) + '">Fonte originale</a>. '
+                            '<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>. '
+                            'Modifiche: ' + resource['changes'])
+            if field_notice not in resource['notices']:
+                resource['notices'].append(field_notice)
     credits.sync_inventory(registry)
+    if field_resource:
+        for association in registry['documents'][NAME]['credits']:
+            if association['resource'] == field_resource['id']:
+                association['notice'] = field_resource['notices'].index(field_notice)
     registry['documents'][NAME]['title'] = TITLE
     registry['documents'][NAME]['review'] = 'Testo, immagini e revisione della didascalia approvati; pubblicazione esplicitamente autorizzata. Licenze e fonti documentate.'
     add_reference(registry, 'https://www.bipm.org/en/publications/si-brochure',

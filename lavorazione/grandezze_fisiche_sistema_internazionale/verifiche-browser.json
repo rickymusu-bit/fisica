@@ -115,10 +115,10 @@
   "network_requests": [],
   "controls": {
     "index_keyboard_and_jump": true,
-    "zoom": true,
+    "field_photo_original_without_annotations": true,
     "credits_and_OFL_offline": true,
     "download_HTTP_local_bytes_equal": true,
     "themes_and_persistence_file": true,
-    "no_javascript_index_zoom_credits_dark": true
+    "no_javascript_index_photo_credits_dark": true
   }
 }

@@ -130,3 +130,11 @@ Ramo `correzione/didascalia-camp-nou`, derivato dal main corrente. Didascalia co
 HTML e copia di lavorazione v3, bozza v3, generatore aggiornato. Credits.py --check e build Pages superati; confronto del testo visibile dell’articolo: unica differenza la frase eliminata. Verifica browser mirata a 390/1440 px, chiaro/scuro, nessun overflow o errore, quattro anteprime del campo aggiornate. Esiti in verifiche-pubblicazione.json, sezione correzione_didascalia.
 
 L’utente ha già autorizzato la pubblicazione di questa specifica correzione: non richiedere una nuova approvazione. Preparare PR e anteprima corrente, eseguire i controlli automatici richiesti, integrare e verificare Pages e URL ufficiale.
+
+## Ulteriore correzione richiesta: foto senza annotazioni
+
+L’utente precisa «Togli proprio le frecce. Tutti sanno che un campo da calcio ha un lato lungo e un lato corto». Ripristinata la foto originale campo.jpg, senza frecce, etichette o pannello superiore. Didascalia ridotta a «Il campo del Camp Nou prima di una partita nel 2012.» Eliminato dal testo soltanto «indicate nella figura»; conservati 105 m, 68 m e il calcolo dell’area 7140 m². La richiesta specifica prevale sull’annotazione prevista per l’esempio: non sostituirla con un altro schema o con spiegazioni dei lati.
+
+Il controllo byte per byte conferma che l’immagine incorporata è esattamente campo.jpg. Crediti correnti con autore Netol e nessuna modifica alla foto; avvisi dello schema precedente conservati soltanto come storia nel registro e in Git. Generatore e verificatore aggiornati alla foto semplice. HTML/bozza restano v3, con data editoriale 23 ottobre 2026 nel fuso Europe/Rome. Rimossa la risorsa derivata campo-annotato.svg dall’albero corrente, recuperabile nella cronologia; originali fotografici conservati.
+
+Verifiche: crediti e build superati; browser a 320/390/768/1024/1440 px, chiaro/scuro, download e funzionamento offline, nove domande e tabelle conservate; nessun errore o overflow. Anteprime correnti rigenerate. Prosegue l’autorizzazione già ricevuta a pubblicare dopo la correzione, senza nuova richiesta di conferma.

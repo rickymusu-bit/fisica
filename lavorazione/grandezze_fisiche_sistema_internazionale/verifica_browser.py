@@ -46,11 +46,11 @@ def main():
         assert not page.locator('#indice').evaluate('(e)=>e.open')
         assert page.evaluate('document.activeElement.id') == 'unita-derivate'
         report['controls']['index_keyboard_and_jump'] = True
-        page.locator('#fig-03 .image-zoom > summary').click()
-        assert page.locator('#fig-03 .image-zoom').evaluate('(e)=>e.open')
-        assert page.locator('#fig-03 .zoom-scroll').evaluate('(e)=>e.scrollWidth>e.clientWidth')
-        page.locator('#fig-03 .image-zoom > summary').click()
-        report['controls']['zoom'] = True
+        field = page.locator('#fig-03')
+        assert field.locator('img').count() == 1
+        assert field.locator('img').get_attribute('src').startswith('data:image/jpeg;base64,')
+        assert field.locator('.image-zoom').count() == 0
+        report['controls']['field_photo_original_without_annotations'] = True
         page.locator('[data-offline-credits]').click()
         assert page.locator('#crediti-autonomi').evaluate('(e)=>e.open')
         credits = page.locator('#crediti-autonomi').inner_text()
@@ -103,11 +103,10 @@ def main():
         static.locator('#indice > summary').click()
         assert static.locator('#indice').evaluate('(e)=>e.open')
         static.locator('#indice > summary').click()
-        static.locator('#fig-03 .image-zoom > summary').click()
-        assert static.locator('#fig-03 .image-zoom').evaluate('(e)=>e.open')
+        assert static.locator('#fig-03 img').evaluate('(e)=>e.complete&&e.naturalWidth>0')
         static.locator('[data-offline-credits]').click()
         assert static.locator('#crediti-autonomi').is_visible()
-        report['controls']['no_javascript_index_zoom_credits_dark'] = True
+        report['controls']['no_javascript_index_photo_credits_dark'] = True
         assert not report['errors'] and not report['network_requests'], report
         browser.close()
     (WORK / 'verifiche-browser.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
