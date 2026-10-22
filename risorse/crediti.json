@@ -3283,6 +3283,26 @@
       "fingerprints": [
         "asset-796f5bf7e773bf98f0258c462201a0f8ee7da1402aa6d04cc24f99c410d63de8"
       ]
+    },
+    {
+      "id": "credit-b10f9abf460c4498",
+      "description": "Copertina: Sfera con Sfera di Arnaldo Pomodoro al Trinity College Dublin",
+      "source": "https://commons.wikimedia.org/wiki/File:Arnaldo_Pomodoro's_'Sfera_con_Sfera'_at_The_Berkeley_Library,_Trinity_College_Dublin.JPG",
+      "author": "Smirkybec",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Nessuna modifica; ridimensionamento solo nella visualizzazione.",
+      "links": [],
+      "status": "documented",
+      "notices": [
+        "Sfera con Sfera di Arnaldo Pomodoro, Trinity College Dublin — fotografia di Smirkybec (1 luglio 2014). <a href=\"https://commons.wikimedia.org/wiki/File:Arnaldo_Pomodoro&#x27;s_&#x27;Sfera_con_Sfera&#x27;_at_The_Berkeley_Library,_Trinity_College_Dublin.JPG\">Fonte originale su Wikimedia Commons</a>. <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CC0 1.0</a>. Nessuna modifica ai byte originali; ridimensionamento solo nella visualizzazione. La scheda Commons richiama la libertà di panorama in Irlanda per la riproduzione della scultura."
+      ],
+      "metadata_sources": [
+        "lavorazione/metodo_scientifico/bozza.html"
+      ],
+      "fingerprints": [
+        "asset-ad552f764cfd95d5c29126f70cef0198da3a5d326213cf72330582a91f4a151b"
+      ]
     }
   ],
   "documents": {
@@ -4037,7 +4057,7 @@
       "anchor": "metodo-scientifico-bozza",
       "credits": [
         {
-          "resource": "credit-469d5993b422b2b9",
+          "resource": "credit-b10f9abf460c4498",
           "notice": 0
         }
       ],
