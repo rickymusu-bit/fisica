@@ -1,13 +1,13 @@
 # Stato — Le grandezze fisiche e il Sistema internazionale
 
-Versione v2 — 22 ottobre 2026 (Europe/Rome).
+Versione v3 — 22 ottobre 2026 (Europe/Rome).
 
 ## Incarico e fase corrente
 
 L’utente chiede di iniziare il secondo capitolo del piano `lavorazione/introduzione_fisica_misura/piano.md`, identificato nel ramo `lavorazione/introduzione-fisica-misura`, commit `ff82ddbbcd2f4c9799ba7174a1a090cd92a547fc`.
 Piano di riferimento: [Introduzione alla fisica e alla misura](https://github.com/rickymusu-bit/fisica/blob/ff82ddbbcd2f4c9799ba7174a1a090cd92a547fc/lavorazione/introduzione_fisica_misura/piano.md).
 
-Fase: bozza testuale v1 completata e sottoposta a revisione. L’utente ha risposto «Va bene. Procedi» alla proposta di percorso e visuali: autorizzata la preparazione della bozza, senza dedurre l’approvazione del testo non ancora letto o di file fotografici mancanti. Nessun HTML realizzato, nessuna simulazione prevista o autorizzata, nessuna modifica a main o al sito.
+Fase: bozza testuale v1 approvata dall’utente con «Perfetto, procedi», dopo la consegna del collegamento alla bozza. La precedente risposta «Va bene. Procedi» aveva approvato percorso e impostazione delle visuali. Il nuovo invito autorizza a proseguire verso la realizzazione; non richiedere nuovamente l’approvazione della bozza. Restano necessari i file fotografici mancanti e la verifica dei diritti. Nessun HTML realizzato, nessuna simulazione prevista o autorizzata, nessuna modifica a main o al sito.
 Ramo dedicato: `lavorazione/grandezze-fisiche-sistema-internazionale`, derivato da main `76c66c42021fc490aebc545dd5901ff8af118a5d`.
 
 ## Riferimenti letti e checklist
@@ -56,6 +56,16 @@ Visuali nella bozza: COP-01, FIG-01, TAB-01, FIG-03, TAB-02. L’apparato atomic
 
 Verifica editoriale eseguita: correttezza degli abbinamenti di unità, calcolo 4 · 3 = 12 m², distinzione base/derivate, nove domande riferite ai contenuti, nessuna soluzione, tre quesiti pertinenti conservati, nessuna anticipazione dei capitoli 3–8, segnaposto riconoscibili. Nessuna verifica HTML/browser pertinente in questa fase; nessun test dichiarato su prodotti non realizzati.
 
+## Approvazione della bozza e preparazione alla realizzazione
+
+L’utente ha approvato la bozza v1 con «Perfetto, procedi». Conservare integralmente il testo approvato salvo adattamenti circoscritti alle immagini effettivamente fornite. Nessuna nuova approvazione del medesimo testo da richiedere.
+
+Stima comunicata: 30–50 minuti di lavoro, esclusa l’attesa delle fotografie; materiali e crediti 5–10 minuti, impaginazione 15–25 minuti, verifiche e anteprime 10–15 minuti. Calcolo basso; nessuna simulazione. Tempi indicativi, subordinati alla disponibilità e all’idoneità delle immagini e all’esito dei controlli.
+
+Controllo preliminare della copertina nel registro unico su main: l’asset corrispondente alla descrizione «Cilindro metallico del vecchio campione internazionale del chilogrammo protetto da campane di vetro» ha un’associazione al sorgente italiano con credit_id nullo. Il registro non risolve quindi la provenienza e la licenza. Nessuna licenza dedotta e nessuna ricerca di immagini alternative avviata.
+
 ## Prossima operazione
 
-Presentare il collegamento alla bozza per revisione e raccogliere correzioni o approvazione del testo secondo MASTER_PROMPT.md B1.1.3. Acquisire le fotografie mancanti e verificare i diritti prima di completare i visuali. Dopo la bozza approvata comunicare la stima ripartita e raccogliere il via esplicito alla realizzazione HTML, secondo B1.1.4 e B2. Non usare il «Procedi» alla preparazione della bozza come via anticipato all’HTML. Nessuna riammissione o pubblicazione autorizzata.
+Acquisire dall’utente FIG-01 (oggetto o banco con metro e scala leggibile) e un’immagine adatta per FIG-03 (superficie rettangolare vista dall’alto o quasi), nonché la fonte della copertina storica, se disponibile. La fonte deve consentire di documentarne autore e licenza prima dell’uso finale; non è necessario che l’utente ricostruisca personalmente tutti i metadati. Conservare COP-01 come scelta, senza sostituirla autonomamente.
+
+Le immagini sono una dipendenza materiale: il master C1–C2 richiede di chiedere i file mancanti e non consente di sostituirli con oggetti geometrici o immagini cercate/generate autonomamente. Non realizzare e consegnare come completo un HTML con segnaposto. Proseguire quando i materiali sono disponibili, mantenendo le approvazioni già ricevute. Prima dell’impaginazione leggere il modello corrente, quindi verificare tema, crediti, autonomia, mobile e desktop. Presentare l’anteprima corrente prima di qualsiasi integrazione o pubblicazione; nessuna riammissione o pubblicazione autorizzata.
