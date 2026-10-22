@@ -1,6 +1,6 @@
 # Introduzione alla fisica e alla misura — piano editoriale
 
-Data: 21/10/2026 (Europe/Rome). Stato: progettazione; nessun HTML realizzato o pubblicato.
+Data del piano: 21/10/2026 (Europe/Rome). Stato aggiornato al 22/10/2026: primi due capitoli pubblicati; percorso in sviluppo. Le sezioni di progettazione conservano le decisioni iniziali, superate dagli avanzamenti finali dove specificato.
 Fonte delle regole: MASTER_PROMPT.md v69.6, AGENTS.md, riferimenti/STILE_DISPENSE.md, riferimenti/esempio_irraggiamento.md.
 Macrocategoria approvata dall'utente: **Introduzione alla fisica e alla misura**.
 Approvati: 12 capitoli; proporzionalità inversa e quadratica nello stesso capitolo.
@@ -45,6 +45,8 @@ Conservare la logica ciclica dello schema originale, separando esplicitamente os
 
 L'utente ha approvato lo schema interattivo con sei fasi e spiegazioni contestuali sotto il diagramma, più una spiegazione discorsiva in capitolo, e la simulazione semplice. La bozza narrativa v1 è salvata in `lavorazione/metodo_scientifico/bozza.md` sul ramo di sviluppo. Le proposte precedenti segnate «non approvate» per lo schema sono superate da questa decisione. Fase corrente: revisione della bozza, nessun HTML o deploy.
 
-## Secondo capitolo — pubblicazione autorizzata il 22 ottobre 2026
+## Secondo capitolo — pubblicato il 22 ottobre 2026
 
 **Le grandezze fisiche e il Sistema internazionale**, file autonomo `grandezze_fisiche_sistema_internazionale_it.html`: testo, tre immagini e anteprima approvati. L’utente richiede esplicitamente merge e pubblicazione nella PR #59. Inserimento al secondo posto dopo Il metodo scientifico; seguono i capitoli di Termologia già pubblicati. Il vecchio sorgente unificato `sistema_internazionale_notazione_it.html` resta escluso e invariato. [Stato e verifiche](../grandezze_fisiche_sistema_internazionale/stato.md).
+
+La PR #59 è stata integrata al commit `213ced3645d68affd3212603d2d8c2a9d4c6136f`; workflow Pages 39849357978 riuscito. [Capitolo pubblicato](https://rickymusu-bit.github.io/fisica/grandezze_fisiche_sistema_internazionale_it.html), al secondo posto dell’area dopo Il metodo scientifico. Catalogo, crediti e navigazione reciproca verificati online; i sorgenti storici esclusi restano non pubblicati.
