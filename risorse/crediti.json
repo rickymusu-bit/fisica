@@ -3590,11 +3590,17 @@
       "review": "Il sorgente non documenta crediti individuali delle immagini. Verificare le risorse inventariate prima della redistribuzione."
     },
     "metodo_scientifico_it.html": {
-      "title": "Il metodo scientifico: misurare e mettere alla prova le ipotesi",
+      "title": "Il metodo scientifico",
       "anchor": "metodo-scientifico-it",
-      "credits": [],
-      "lexend": false,
-      "review": "Il sorgente non documenta crediti individuali delle immagini. Verificare le risorse inventariate prima della redistribuzione."
+      "credits": [
+        {
+          "resource": "credit-b10f9abf460c4498",
+          "notice": 0
+        }
+      ],
+      "lexend": true,
+      "chapter_labels": true,
+      "review": null
     },
     "metodo_scientifico_sq.html": {
       "title": "Metoda shkencore",
@@ -4336,15 +4342,6 @@
           "credit_id": null
         },
         {
-          "document": "metodo_scientifico_it.html",
-          "kind": "image/webp",
-          "description": "Schema del metodo scientifico: osservazione, problema, ipotesi, previsione, esperimenti, risultati e conclusioni; dall’ipotesi non confermata si torna al problema, mentre quella confermata porta a ulteriori esperimenti, teoria e principio",
-          "locator": "osservare",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
           "document": "metodo_scientifico_sq.html",
           "kind": "image/webp",
           "description": "Skemë e metodës shkencore: vëzhgim, problem, hipotezë, parashikim, eksperimente, rezultate dhe përfundime, me dy rrugë të mundshme",
@@ -4466,6 +4463,21 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-6562510df82b6315"
+        }
+      ]
+    },
+    {
+      "id": "asset-21d661735e30a947207faf568efdf1906799b18e24e1a01a013d391f84fd731c",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "metodo_scientifico_it.html",
+          "kind": "svg",
+          "description": "Piano inclinato triangolare su un piano orizzontale. La pallina rotola verso destra.",
+          "locator": "track",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
         }
       ]
     },
@@ -4882,6 +4894,15 @@
           "credit_id": "font-lexend"
         },
         {
+          "document": "metodo_scientifico_it.html",
+          "kind": "font/ttf",
+          "description": "Font incorporato",
+          "locator": null,
+          "attribute": "font-face",
+          "location": null,
+          "credit_id": "font-lexend"
+        },
+        {
           "document": "passaggi_di_stato.html",
           "kind": "font/ttf",
           "description": "Font incorporato",
@@ -5025,6 +5046,15 @@
       "id": "asset-4180936ac8f7ef98b7ead214c32d886175073d382ccd6c87915683088170b376",
       "kind": "svg",
       "uses": [
+        {
+          "document": "index.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "introduzione-fisica-misura",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        },
         {
           "document": "index.html",
           "kind": "svg",
@@ -6651,6 +6681,30 @@
       ]
     },
     {
+      "id": "asset-ad552f764cfd95d5c29126f70cef0198da3a5d326213cf72330582a91f4a151b",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "metodo_scientifico_it.html",
+          "kind": "image/jpeg",
+          "description": "La scultura Sfera con Sfera di Arnaldo Pomodoro davanti alla biblioteca del Trinity College di Dublino.",
+          "locator": "copertina",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-b10f9abf460c4498"
+        },
+        {
+          "document": "metodo_scientifico_it.html",
+          "kind": "image/jpeg",
+          "description": "La scultura Sfera con Sfera di Arnaldo Pomodoro davanti alla biblioteca del Trinity College di Dublino.",
+          "locator": "copertina",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-b10f9abf460c4498"
+        }
+      ]
+    },
+    {
       "id": "asset-aef94d382869e7958b1e4fc0b8838256b61838174e451a3581d152b889e17e9b",
       "kind": "image/jpeg",
       "uses": [
@@ -6823,15 +6877,6 @@
           "document": "metodo_scientifico_fr.html",
           "kind": "image/jpeg",
           "description": "Photo en noir et blanc de Karl Popper assis en train de lire",
-          "locator": "falsificare",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "metodo_scientifico_it.html",
-          "kind": "image/jpeg",
-          "description": "Fotografia in bianco e nero di Karl Popper seduto e assorto nella lettura",
           "locator": "falsificare",
           "attribute": "src",
           "location": null,
@@ -7480,15 +7525,6 @@
           "document": "metodo_scientifico_fr.html",
           "kind": "image/jpeg",
           "description": "Portrait de Galilée tenant une petite lunette astronomique",
-          "locator": "osservare",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "metodo_scientifico_it.html",
-          "kind": "image/jpeg",
-          "description": "Ritratto di Galileo Galilei con un piccolo cannocchiale in mano",
           "locator": "osservare",
           "attribute": "src",
           "location": null,
