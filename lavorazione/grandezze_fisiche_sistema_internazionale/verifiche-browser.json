@@ -1,0 +1,124 @@
+{
+  "viewports": [
+    {
+      "width": 320,
+      "scroll": 320,
+      "images": true,
+      "questions": 9,
+      "rows": [
+        7,
+        13
+      ],
+      "tables": [
+        {
+          "client": 240,
+          "scroll": 550
+        },
+        {
+          "client": 240,
+          "scroll": 550
+        }
+      ],
+      "formulas": true,
+      "brokenAnchors": []
+    },
+    {
+      "width": 390,
+      "scroll": 390,
+      "images": true,
+      "questions": 9,
+      "rows": [
+        7,
+        13
+      ],
+      "tables": [
+        {
+          "client": 310,
+          "scroll": 550
+        },
+        {
+          "client": 310,
+          "scroll": 550
+        }
+      ],
+      "formulas": true,
+      "brokenAnchors": []
+    },
+    {
+      "width": 768,
+      "scroll": 768,
+      "images": true,
+      "questions": 9,
+      "rows": [
+        7,
+        13
+      ],
+      "tables": [
+        {
+          "client": 651,
+          "scroll": 651
+        },
+        {
+          "client": 651,
+          "scroll": 651
+        }
+      ],
+      "formulas": true,
+      "brokenAnchors": []
+    },
+    {
+      "width": 1024,
+      "scroll": 1024,
+      "images": true,
+      "questions": 9,
+      "rows": [
+        7,
+        13
+      ],
+      "tables": [
+        {
+          "client": 836,
+          "scroll": 836
+        },
+        {
+          "client": 836,
+          "scroll": 836
+        }
+      ],
+      "formulas": true,
+      "brokenAnchors": []
+    },
+    {
+      "width": 1440,
+      "scroll": 1440,
+      "images": true,
+      "questions": 9,
+      "rows": [
+        7,
+        13
+      ],
+      "tables": [
+        {
+          "client": 794,
+          "scroll": 794
+        },
+        {
+          "client": 794,
+          "scroll": 794
+        }
+      ],
+      "formulas": true,
+      "brokenAnchors": []
+    }
+  ],
+  "errors": [],
+  "network_requests": [],
+  "controls": {
+    "index_keyboard_and_jump": true,
+    "zoom": true,
+    "credits_and_OFL_offline": true,
+    "download_HTTP_local_bytes_equal": true,
+    "themes_and_persistence_file": true,
+    "no_javascript_index_zoom_credits_dark": true
+  }
+}

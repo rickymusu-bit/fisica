@@ -1,10 +1,10 @@
 # Le grandezze fisiche e il Sistema internazionale
 
-Bozza v1 — 22 ottobre 2026. Area: Introduzione alla fisica e alla misura.
+Bozza v2 — 22 ottobre 2026. Area: Introduzione alla fisica e alla misura.
 
-[Servizio editoriale, da non mostrare nel capitolo: bozza per revisione del testo; fotografie ancora da acquisire o verificare. I valori degli esempi sono ipotetici, non ricavati dalle immagini. Nessun HTML realizzato.]
+[Servizio editoriale, da non mostrare nel capitolo: testo v1 approvato; v2 con i soli adattamenti alle tre fotografie scelte dall’utente. Le dimensioni del campo provengono dalla scheda del club, non da una misura della fotografia.]
 
-[COP-01 — Fotografia del campione storico del chilogrammo già presente nel sorgente. Riuso concordato; provenienza e licenza da verificare prima della realizzazione. Non ripeterla nel corpo.]
+[COP-01 — Fotografia scelta: risorse/chilogrammo.jpg, prototipo internazionale del chilogrammo. BIPM, CC BY-SA 3.0 IGO. Non ripeterla nel corpo.]
 
 *Didascalia proposta:* Un campione storico del chilogrammo, protetto da campane di vetro. Oggi il chilogrammo è definito attraverso una costante fisica, senza dipendere da un unico oggetto.
 
@@ -14,9 +14,9 @@ Devi comunicare a qualcuno quanto è lungo un banco e scrivi «due». Due che co
 
 La lunghezza è una **grandezza fisica**: una proprietà che possiamo misurare. Anche la massa di un oggetto, la durata di un intervallo di tempo e la temperatura sono grandezze fisiche. Misurare significa confrontare la grandezza con un riferimento scelto come **unità di misura**, per stabilire quante volte l’unità è contenuta nella grandezza misurata.
 
-[FIG-01 — Fotografia da fornire: un banco o un oggetto quotidiano affiancato a un metro, con estremi e scala leggibili. La fotografia deve rendere riconoscibile quale lunghezza viene misurata. Non attribuirle la misura ipotetica del testo.]
+[FIG-01 — Fotografia scelta: risorse/metro.jpg, mani che tengono un metro a nastro contro un pannello di legno. Nenad Stojkovic, CC BY 2.0. Nessun valore numerico dedotto dalla fotografia.]
 
-*Didascalia proposta:* Il metro permette di confrontare la lunghezza dell’oggetto con un’unità condivisa. Per leggere la misura bisogna individuare gli estremi del tratto misurato sulla scala.
+*Didascalia proposta:* Un metro a nastro appoggiato a un pannello di legno. La scala graduata permette di confrontare una lunghezza con un’unità condivisa; per leggere il risultato occorre individuare gli estremi del tratto misurato.
 
 Se una lunghezza misurata viene espressa come **2,0 m**, la grandezza è la lunghezza, il numero è 2,0 e l’unità è il metro, indicato dal simbolo m. Il numero e l’unità lavorano insieme: il numero da solo non identifica la lunghezza. Lo strumento serve a effettuare il confronto; non va confuso con l’unità che usiamo per comunicare il risultato.
 
@@ -62,17 +62,17 @@ Per trovare l’area di un rettangolo moltiplichiamo la lunghezza di un lato per
 
 Il risultato si esprime in **metri quadrati**, simbolo m². Un metro quadrato è l’area di un quadrato con il lato lungo un metro. Per questo scrivere m al posto di m² cambierebbe il significato del risultato: indicherebbe una lunghezza anziché un’area.
 
-[FIG-03 — Schema da realizzare soltanto dopo la scelta di un’immagine adatta: superficie rettangolare con lati indicati come 4 m e 3 m e suddivisione in dodici quadrati di lato 1 m. Immagine dell’oggetto da concordare; quote e reticolo sovrapposti senza deformazioni. Dati dichiarati ipotetici, non misure ricavate dalla fotografia. Conservare disposizione e proporzioni su mobile.]
+[FIG-03 — Schema sulla fotografia scelta del Camp Nou: risorse/campo-annotato.svg, che incorpora integralmente risorse/campo.jpg. Richiami ai lati lungo e corto, rispettivamente 105 m e 68 m. Dimensioni dalla scheda ufficiale FC Barcelona, non dalla prospettiva della foto. Nessun ritaglio o reticolo fittizio; composizione identica su mobile. Fotografia Netol, CC BY-SA 3.0; schema con la stessa licenza.]
 
-*Didascalia proposta:* Una superficie rettangolare di 4 m per 3 m contiene dodici quadrati di lato 1 m. L’area è quindi 12 m².
+*Didascalia proposta:* Il campo del Camp Nou prima di una partita nel 2012. I richiami identificano i due lati del terreno di gioco: 105 m e 68 m. Le dimensioni non sono ricavate dalla fotografia in prospettiva.
 
-Consideriamo proprio una superficie rettangolare lunga 4 m e larga 3 m. Il prodotto delle due lunghezze dà:
+Il terreno di gioco del Camp Nou è un esempio concreto di superficie rettangolare. Consideriamo le sue dimensioni di 105 m di lunghezza e 68 m di larghezza, indicate nella figura. Per trovare l’area moltiplichiamo le due lunghezze:
 
 \[
-A=4\,\mathrm{m}\cdot3\,\mathrm{m}=12\,\mathrm{m}^{2}
+A=105\,\mathrm{m}\cdot68\,\mathrm{m}=7140\,\mathrm{m}^{2}
 \]
 
-Il simbolo A indica l’area. Il risultato corrisponde a dodici superfici quadrate da un metro quadrato, come mostra lo schema. Dire soltanto «12 metri» non descriverebbe la stessa grandezza.
+Il simbolo A indica l’area. Il risultato, 7140 m², corrisponde a 7140 quadrati con il lato lungo un metro. Ciascuna metà campo occupa 3570 m²: l’intero terreno di gioco ha un’area doppia. Dire soltanto «7140 metri» non descriverebbe la stessa grandezza.
 
 Il volume combina tre lunghezze e si esprime in **metri cubi**, m³. La velocità, invece, mette in relazione una distanza con il tempo impiegato a percorrerla: la sua unità SI è il **metro al secondo**, m/s. Il simbolo m/s dice che stiamo rapportando una lunghezza a un intervallo di tempo; m² dice che abbiamo moltiplicato due lunghezze. Le unità conservano quindi una traccia del ragionamento con cui costruiamo una grandezza.
 
@@ -114,10 +114,9 @@ Alcune unità derivate hanno un nome speciale. Per esempio, la forza si misura i
 
 Questa parte non appartiene al contenuto didattico e non sarà una sezione visibile dell’HTML.
 
-- Provenienza: sezioni «Che cosa significa misurare», «Le sette grandezze e unità di base», «Le unità derivate: combinare le unità di base» e domande originali 1–3 di `sistema_internazionale_notazione_it.html` v11. Conservati i sette abbinamenti di base, tutti i tredici abbinamenti delle unità derivate e l’esempio 4 m per 3 m. Le tre domande pertinenti restano ai numeri 1–3; le altre domande del sorgente appartengono ai capitoli successivi.
+- Provenienza: sezioni «Che cosa significa misurare», «Le sette grandezze e unità di base», «Le unità derivate: combinare le unità di base» e domande originali 1–3 di `sistema_internazionale_notazione_it.html` v11. Conservati i sette abbinamenti di base e tutti i tredici abbinamenti delle unità derivate. L’esempio 4 m per 3 m è sostituito con il campo di 105 m per 68 m per adattarlo alla fotografia scelta. Le tre domande pertinenti restano ai numeri 1–3; le altre domande del sorgente appartengono ai capitoli successivi.
 - Le definizioni formali delle sette unità e le relazioni delle unità derivate sono alleggerite nella nuova bozza per evitare prerequisiti non ancora introdotti. Il sorgente completo resta invariato e recuperabile. Nessun contenuto di potenze, prefissi o cifre significative trasferito qui.
-- COP-01: riuso proposto e accettato nell’impostazione; verificare l’identità dell’immagine e i metadati di provenienza nel registro unico prima dell’HTML. Non attribuirle una licenza presunta.
-- FIG-01: manca il file della fotografia della misura di lunghezza. FIG-03: manca l’immagine adatta su cui costruire lo schema dell’esempio; potrebbe provenire dalla stessa scena di FIG-01 solo se dimensioni e prospettiva consentono annotazioni comprensibili. Non usare una foto di un piccolo banco come se documentasse una superficie di 4 m per 3 m.
+- Tre immagini scelte dall’utente, scaricate nella risoluzione 960 px richiesta e ispezionate: prototipo internazionale del chilogrammo (BIPM, CC BY-SA 3.0 IGO), metro a nastro (Nenad Stojkovic, CC BY 2.0), Camp Nou (Netol, CC BY-SA 3.0). Fotografie integre, senza ritaglio o alterazione. Schema del campo con semplici richiami ai lati; la prospettiva della foto non costituisce una misura. Attribuzioni, fonti e dichiarazione delle annotazioni sono nel registro unico e nei crediti incorporati.
 - FIG-02, apparato atomico opzionale: non inserito in questa prima bozza; la spiegazione delle costanti resta breve ed è associata alla copertina storica. Nessuna nuova scelta di immagine necessaria per questo passaggio.
-- Riferimento scientifico per la verifica delle definizioni prima della realizzazione: BIPM, *The International System of Units (SI)*, https://www.bipm.org/en/publications/si-brochure . È un riferimento da consultare, non una fonte dichiarata già verificata in questa sessione. La futura gestione delle fonti e dei media passa da `risorse/crediti.json` e dai crediti incorporati.
+- Fonti scientifiche consultate: BIPM, *The International System of Units (SI)* e sintesi aggiornata nel 2026, https://www.bipm.org/en/publications/si-brochure ; NIST, *Kilogram: Introduction*, https://www.nist.gov/si-redefinition/kilogram-introduction ; FC Barcelona, scheda del Camp Nou con dimensioni del terreno di gioco 105 m per 68 m, https://www.fcbarcelona.com/en/club/facilities/spotify-camp-nou . Fonti dei dati e media registrati in `risorse/crediti.json`, accessibili attraverso i crediti incorporati.
 - Nove domande senza soluzioni. Nessuna applicazione separata, video o simulazione aggiunta. Nessuna nota a piè di pagina artificiosa: le precisazioni rimaste sono brevi e necessarie al ragionamento.

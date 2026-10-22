@@ -1,13 +1,13 @@
 # Stato — Le grandezze fisiche e il Sistema internazionale
 
-Versione v3 — 22 ottobre 2026 (Europe/Rome).
+Versione v4 — 22 ottobre 2026 (Europe/Rome).
 
 ## Incarico e fase corrente
 
 L’utente chiede di iniziare il secondo capitolo del piano `lavorazione/introduzione_fisica_misura/piano.md`, identificato nel ramo `lavorazione/introduzione-fisica-misura`, commit `ff82ddbbcd2f4c9799ba7174a1a090cd92a547fc`.
 Piano di riferimento: [Introduzione alla fisica e alla misura](https://github.com/rickymusu-bit/fisica/blob/ff82ddbbcd2f4c9799ba7174a1a090cd92a547fc/lavorazione/introduzione_fisica_misura/piano.md).
 
-Fase: bozza testuale v1 approvata dall’utente con «Perfetto, procedi», dopo la consegna del collegamento alla bozza. La precedente risposta «Va bene. Procedi» aveva approvato percorso e impostazione delle visuali. Il nuovo invito autorizza a proseguire verso la realizzazione; non richiedere nuovamente l’approvazione della bozza. Restano necessari i file fotografici mancanti e la verifica dei diritti. Nessun HTML realizzato, nessuna simulazione prevista o autorizzata, nessuna modifica a main o al sito.
+Fase corrente: HTML autonomo v1 completato e verificato; testo v2 adattato alle tre fotografie scelte. Bozza v1 approvata con «Perfetto, procedi»; immagini successivamente fornite dall’utente con tre URL Wikimedia. Nessun materiale mancante. Anteprima da sottoporre a revisione prima di qualsiasi pubblicazione. Nessuna modifica a main, catalogo o manifest.
 Ramo dedicato: `lavorazione/grandezze-fisiche-sistema-internazionale`, derivato da main `76c66c42021fc490aebc545dd5901ff8af118a5d`.
 
 ## Riferimenti letti e checklist
@@ -64,8 +64,31 @@ Stima comunicata: 30–50 minuti di lavoro, esclusa l’attesa delle fotografie;
 
 Controllo preliminare della copertina nel registro unico su main: l’asset corrispondente alla descrizione «Cilindro metallico del vecchio campione internazionale del chilogrammo protetto da campane di vetro» ha un’associazione al sorgente italiano con credit_id nullo. Il registro non risolve quindi la provenienza e la licenza. Nessuna licenza dedotta e nessuna ricerca di immagini alternative avviata.
 
+## Materiali ricevuti e realizzazione completata
+
+L’utente ha fornito tre URL Wikimedia, scegliendo metro a nastro, Camp Nou e prototipo internazionale del chilogrammo. Scelta e adattamenti circoscritti autorizzati secondo B4; nessuna nuova conferma delle immagini richiesta. Foto scaricate a 960 px, senza ritaglio né alterazione, ispezionate visivamente. Le dimensioni e gli hash delle copie scelte sono in verifiche-strutturali.json; attribuzioni e fonti nel registro unico, senza inventario concorrente.
+
+- COP-01: `risorse/chilogrammo.jpg`, 960 per 1193 px, BIPM, CC BY-SA 3.0 IGO. La pagina Commons e la pagina NIST riportano il credito BIPM; il commento storico di caricamento cita anche J. Lee/NIST, senza attribuirgli arbitrariamente questa fotografia. Fonte Commons: https://commons.wikimedia.org/wiki/File:International_prototype_of_the_kilogram_aka_Le_Grand_K.jpg .
+- FIG-01: `risorse/metro.jpg`, 960 per 641 px, Nenad Stojkovic, CC BY 2.0. Mani e metro a nastro contro un pannello di legno; nessun valore numerico dedotto dalla foto. Fonte: https://commons.wikimedia.org/wiki/File:A_pair_of_hands_holding_a_construction_measuring_tape.jpg .
+- FIG-03: `risorse/campo.jpg`, 960 per 643 px, Netol, CC BY-SA 3.0. Foto integra incorporata nello schema `risorse/campo-annotato.svg`, stessa licenza; richiami ai lati, senza ridisegnare il campo o inventare una vista ortogonale. Fonte: https://commons.wikimedia.org/wiki/File:Camp_nou_before_F.C._Barcelona_-_Real_Madrid_league_match_of_2012.JPG .
+
+Gli URL forniti usavano thumb.wikimedia.org; il download con curl della medesima variante 960 px su upload.wikimedia.org è riuscito dopo gli errori HTTP del primo client. Proxy e verifica TLS conservati. Nessuna immagine alternativa cercata o generata.
+
+Il nuovo esempio usa 105 m per 68 m, dimensioni verificate sulla scheda ufficiale FC Barcelona: https://www.fcbarcelona.com/en/club/facilities/spotify-camp-nou . Area 7140 m²; ciascuna metà campo 3570 m². Sostituito soltanto l’esempio 4 m per 3 m, divenuto incompatibile con il soggetto scelto, e le due didascalie interessate. Il resto del testo approvato e le nove domande sono conservati. Fonti SI: BIPM, sintesi della nona edizione aggiornata nel 2026; NIST per storia e credito del prototipo. Riferimenti scientifici nei crediti, non nelle didascalie.
+
+File: `grandezze_fisiche_sistema_internazionale_it.html` v1, copia identica in `bozza.html`; testo corrente `bozza.md` v2. Generatore riproducibile `realizza.py`, basato sul modello canonico Stringhe v22; CSS, font e script comuni conservati byte per byte. Unica estensione specifica: tabelle a tre colonne con scorrimento interno e palette dei token comuni. Nessun cambio di composizione su mobile. Schema del campo ingrandibile con comandi canonici. Nessuna simulazione, video, nota vuota o collegamento a capitoli ancora non pubblicati. Barra universale dal renderer condiviso; collegamenti relativi online e fallback pubblico offline.
+
+Registrate tre risorse fotografiche e tre fonti scientifiche in `risorse/crediti.json`. Snapshot del solo nuovo capitolo aggiornato usando le funzioni canoniche di credits.py: nessuna migrazione generale dei crediti o modifica degli snapshot storici. Pagina pubblica dei crediti invariata, poiché il capitolo non è ammesso nel manifest. Le schede comprendono licenze, autori, fonti e modifica dello schema; copia integrale della OFL Lexend incorporata.
+
+## Verifiche concluse
+
+- `python scripts/credits.py --check`, `python scripts/build_pages.py`, `python scripts/sync_stringhe_theme.py --check` e `git diff --check` superati. Build pubblica ancora limitata ai capitoli ammessi: questo nuovo HTML ne resta fuori.
+- Componenti CSS/script confrontati con il modello, identificativi univoci, segnaposto di modello assenti, copia di lavorazione identica; report verifiche-strutturali.json.
+- Chromium a 320, 390, 768, 1024, 1440 px: nessun overflow della pagina; immagini caricate, due formule leggibili, tabelle con sette e tredici righe e scorrimento interno su mobile.
+- Apertura diretta file offline riuscita; nessuna richiesta HTTP e nessun errore JavaScript. Indice con Escape, selezione e focus; zoom del campo con scorrimento; crediti e OFL; menu Chiaro/Scuro e persistenza dopo ricaricamento. Senza JavaScript: default scuro, indice, zoom e crediti funzionanti.
+- Download verificato tramite server HTTP locale: byte identici all’HTML corrente. Chromium non emette l’evento download per il collegamento al medesimo file locale; la prova del download riguarda quindi HTTP, mentre lettura e comandi offline sono provati direttamente in file://.
+- Screenshot chiaro/scuro, desktop e mobile: copertina, capitolo completo, foto del metro, campo e tabella. Ispezionate visivamente copertina mobile, foto del metro mobile, tabella mobile e campo desktop; foto integre e proporzioni conservate. Report verifiche-browser.json; script ripetibile verifica_browser.py.
+
 ## Prossima operazione
 
-Acquisire dall’utente FIG-01 (oggetto o banco con metro e scala leggibile) e un’immagine adatta per FIG-03 (superficie rettangolare vista dall’alto o quasi), nonché la fonte della copertina storica, se disponibile. La fonte deve consentire di documentarne autore e licenza prima dell’uso finale; non è necessario che l’utente ricostruisca personalmente tutti i metadati. Conservare COP-01 come scelta, senza sostituirla autonomamente.
-
-Le immagini sono una dipendenza materiale: il master C1–C2 richiede di chiedere i file mancanti e non consente di sostituirli con oggetti geometrici o immagini cercate/generate autonomamente. Non realizzare e consegnare come completo un HTML con segnaposto. Proseguire quando i materiali sono disponibili, mantenendo le approvazioni già ricevute. Prima dell’impaginazione leggere il modello corrente, quindi verificare tema, crediti, autonomia, mobile e desktop. Presentare l’anteprima corrente prima di qualsiasi integrazione o pubblicazione; nessuna riammissione o pubblicazione autorizzata.
+Salvare i file nel ramo dedicato e verificare il caricamento remoto. Preparare la PR in bozza e consegnare anteprima HTML interattiva e schermate. La pubblicazione richiede l’approvazione esplicita di questa specifica anteprima secondo AGENTS.md e B5: non integrare main né avviare Pages. Catalogo, manifest, home e capitoli storici restano invariati.
