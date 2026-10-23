@@ -1,0 +1,76 @@
+# Stato — I prefissi del Sistema internazionale
+
+Versione v1 — 23 ottobre 2026, ore 10:43 (Europe/Rome).
+
+## Incarico e fase corrente
+
+Richiesta: «Sviluppa il capitolo 4 del piano di lavorazione per l'introduzione alla fisica nel mio repository di fisica».
+Il [piano editoriale](../introduzione_fisica_misura/piano.md) identifica il capitolo come **I prefissi del Sistema internazionale**.
+Argomento, posizione e tema Stringhe comune sono già definiti. La richiesta avvia lo sviluppo editoriale; non documenta una scelta delle nuove visuali né approvazioni della bozza, dell'HTML o della pubblicazione.
+
+Fase corrente: proposta dei contenuti e delle visuali pronta per la scelta, secondo B1.1.2.
+[Proposta da esaminare](visuali.md). Dopo la scelta, scrivere la bozza completa con segnaposto in `bozza.md`.
+Non sono ancora prodotti HTML, simulazioni o nuove immagini.
+
+Ramo dedicato: `lavorazione/prefissi-sistema-internazionale`, derivato da main al commit `d5688f6af867cd85bcdb8f975ddb538e3f3c1130`.
+Alla verifica iniziale dell'albero completo di main e dei rami con nome contenente «prefissi» non risultano una lavorazione o un ramo preesistenti per questo capitolo.
+
+## Fonti e identità del materiale
+
+- Regole: `MASTER_PROMPT.md` **v69.7**, letto integralmente in blocchi; `AGENTS.md`; `riferimenti/STILE_DISPENSE.md` v6; `riferimenti/esempio_irraggiamento.md` v2; `docs/visual-guidelines.md` v1.0.0.
+- Sorgente: `sistema_internazionale_notazione_it.html`, sezione `#prefissi`, blob `61a32e96afce2136af8669b1544a02e9d751018d`. Metadato document-version v10 e piè di pagina v12 non allineati: per questa progettazione l'identità è fissata dal blob; non correggere il sorgente storico nell'ambito del nuovo capitolo.
+- Letti lo stato del sorgente, il manifest `pubblicazione.json` v12 e la bozza corrente del capitolo 3 per la continuità e la ripartizione dei quesiti.
+- Lo stato del capitolo 2 documenta la fotografia `../grandezze_fisiche_sistema_internazionale/risorse/metro.jpg`: Nenad Stojkovic, CC BY 2.0, già scelta dall'utente e verificata in quel lavoro. Per un eventuale riuso associare la scheda esistente del registro unico al nuovo capitolo, senza duplicarla.
+- Fonte normativa da consultare nella stesura: [BIPM, SI Brochure](https://www.bipm.org/en/publications/si-brochure), tabella dei prefissi e regole dei simboli. In questa fase non si dichiara eseguita una nuova consultazione esterna.
+
+## Confini e domanda iniziale
+
+Domanda proposta: «La stessa lunghezza può essere scritta come 1 m, 100 cm oppure 1000 mm: perché cambia il numero, mentre la lunghezza rimane la stessa?».
+Usare la fotografia del metro come contesto, senza attribuirle una misura numerica non verificata.
+
+Il capitolo spiega il prefisso come fattore decimale esatto, multipli e sottomultipli, simboli e maiuscole, conversioni anche tra due unità prefissate e scelta di una scrittura leggibile.
+Conservare i 24 prefissi del sorgente, compresi quetta, ronna, ronto e quecto; dare maggiore spazio nell'esposizione ai prefissi di uso comune.
+Spiegare il caso della massa: il kg è unità di base, ma i prefissi si applicano al grammo.
+Includere un breve passaggio sul prefisso quando l'unità è elevata a potenza, per evitare di estendere erroneamente il fattore lineare ad aree e volumi.
+
+Richiamare le potenze del capitolo 3 soltanto quanto serve alle equivalenze. Non ripetere il capitolo sul SI e non anticipare conteggio, arrotondamento o regole delle cifre significative del capitolo 5, strumenti, errori o propagazione delle incertezze. Nessuna digressione sui prefissi binari.
+
+## Corrispondenza con il sorgente
+
+| Contenuto originale | Destinazione nel capitolo 4 |
+| --- | --- |
+| Apertura di #prefissi, km e mm, M e m, prefisso unito al simbolo | Sviluppo narrativo e lettura dei simboli |
+| Scala illustrata yotta–yocto | Conservare nel sorgente; riuso nel nuovo capitolo da valutare secondo la proposta |
+| Tabella dei 24 prefissi, inclusi quelli del 2022 | Tabella completa conservata, con contenuti e simboli controllati |
+| Conversioni 2,5 km e 0,8 µm | Conservare nella spiegazione delle equivalenze |
+| Prefissi del grammo e relazione mg–g–kg | Passaggio sulla massa |
+| Quesito originale 6, Mm e mm | Conservare integralmente nelle domande del nuovo capitolo |
+| Parte sui prefissi del quesito originale 5 | Riprendere soltanto il collegamento 47 · 10⁻⁶ m = 47 µm; la trasformazione scientifica/ingegneristica è già nel capitolo 3 |
+| Quesito originale 12, fattore 100 e cifre significative | Resta assegnato al capitolo 5; qui spiegare solo l'esattezza del fattore |
+
+Le altre domande originali restano negli altri capitoli: non ricopiarle per aumentare il numero dei quesiti.
+
+## Visuali e scelte aperte
+
+Proposta dettagliata in [visuali.md](visuali.md):
+COP-01, riuso della foto del metro già scelta, soltanto in copertina;
+TAB-01, tabella completa dei prefissi;
+TAB-02, confronto di scritture equivalenti;
+SCH-01, schema numerico dei passaggi di conversione;
+TAB-03, confronto dei fattori per lunghezza, area e volume.
+
+La scala illustrata originale si ferma a yotta/yocto, mentre la tabella è aggiornata ai 24 prefissi. La provenienza della scala non è documentata nel sorgente. Proposta: affidare tabella e conversioni a elementi numerici autonomi, conservando l'originale nel sorgente senza modificarlo. Questa scelta editoriale resta da concordare; nessun ridisegno dell'immagine è stato eseguito.
+
+Nessuna nuova fotografia necessaria nell'impostazione consigliata; nessuna immagine cercata, scaricata o generata. Nessuna simulazione proposta: tabelle e schema statico sono sufficienti e non richiedono comandi aggiuntivi.
+
+## Lavoro completato e verifiche
+
+Identificati piano, sorgente e confini; verificati simboli, 24 fattori del prospetto originale e relazioni numeriche previste nella proposta.
+Controllata la continuità con il capitolo 3 e la distinzione dal capitolo 5.
+Preparati proposta visuale, stato e aggiornamento circoscritto del piano. Verificare il salvataggio remoto dei tre Markdown prima della consegna.
+
+Questa fase modifica solo documenti editoriali: nessun HTML, registro dei crediti, manifest o contenuto pubblicato viene aggiornato. Non sono necessarie build o prove nel browser; non vengono dichiarate verifiche HTML.
+
+Checklist: A1–A5 (livello, monograficità, notazione e quesiti), B1.1–B2 (visuali prima della bozza; approvazione e via prima dell'HTML), B4–B6 (riuso, stato e salvataggio), C1–C4 (immagini, fonti, tabelle e composizione stabile), D1–D2.1 e AGENTS.md (verifiche pertinenti, ramo dedicato, PR in bozza, nessun merge o deployment senza approvazione corrente).
+
+Prossimo passo: ricevere la scelta sull'impostazione visuale e redigere la bozza narrativa completa con i segnaposto concordati e otto domande finali. Prima dell'HTML leggere il modello Stringhe corrente, presentare la stima ripartita e attendere il via previsto dal master.
