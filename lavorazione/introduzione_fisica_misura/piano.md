@@ -56,3 +56,8 @@ La PR #59 è stata integrata al commit `213ced3645d68affd3212603d2d8c2a9d4c6136f
 **Le potenze di dieci e la notazione scientifica**. Verificato il sorgente unificato v11, sezione `#scale`; definiti i confini rispetto ai capitoli 2, 4 e 5 e la ripartizione dei quesiti originali. Proposta: riutilizzare la foto della Terra come copertina, le tabelle delle scale e del confronto fra notazioni, le micrografie e i due video pertinenti; aggiungere una tabella numerica per gli esponenti positivi, zero e negativi. Provenienza e licenze non documentate restano da verificare.
 
 [Stato e proposta visuali](../potenze_dieci_notazione_scientifica/stato.md), sul ramo `lavorazione/potenze-dieci-notazione-scientifica` derivato da main. Fase corrente: scelta delle visuali prima della bozza, secondo B1.1 del master. Nessuna bozza o realizzazione HTML approvata; nessuna modifica alla pubblicazione o ai sorgenti storici.
+
+### Terzo capitolo — bozza v1 pronta
+
+L’utente approva l’impostazione con «Procedi». Completata la [bozza v1](../potenze_dieci_notazione_scientifica/bozza.md), con otto domande finali, segnaposto dei materiali concordati e fonti dei dati nella sezione di servizio. Chiarito il criterio degli ordini di grandezza e corretti i valori di scala delle masse quando necessario; registrate le modifiche rispetto al sorgente. Le attribuzioni mancanti delle fotografie e i diritti delle miniature restano da verificare prima dell’integrazione.
+Fase corrente: approvazione del testo; realizzazione HTML e pubblicazione non ancora avviate. [PR #63 in bozza](https://github.com/rickymusu-bit/fisica/pull/63).
