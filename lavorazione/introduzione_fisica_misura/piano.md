@@ -61,3 +61,7 @@ La PR #59 è stata integrata al commit `213ced3645d68affd3212603d2d8c2a9d4c6136f
 
 L’utente approva l’impostazione con «Procedi». Completata la [bozza v1](../potenze_dieci_notazione_scientifica/bozza.md), con otto domande finali, segnaposto dei materiali concordati e fonti dei dati nella sezione di servizio. Chiarito il criterio degli ordini di grandezza e corretti i valori di scala delle masse quando necessario; registrate le modifiche rispetto al sorgente. Le attribuzioni mancanti delle fotografie e i diritti delle miniature restano da verificare prima dell’integrazione.
 Fase corrente: approvazione del testo; realizzazione HTML e pubblicazione non ancora avviate. [PR #63 in bozza](https://github.com/rickymusu-bit/fisica/pull/63).
+
+### Terzo capitolo — bozza v2 corretta su richiesta
+
+Rimossa la sezione finale sulla fotografia e le micrografie; conservato A Boy and His Atom nella sezione di confronto. Unica tabella degli ordini di grandezza dedicata alle lunghezze, senza cratere: aggiunti DNA disteso di una cellula umana (circa 2 m, ordine 10⁰ m) e riferimento globale delle fibre ottiche per telecomunicazioni (oltre 5 miliardi di km nella fonte, scala 10¹³ m). Etichetta e nota distinguono il conteggio delle fibre dal totale dei percorsi o di tutti i cavi anche in rame. Fonti, nota e ottavo quesito aggiornati. [Bozza v2](../potenze_dieci_notazione_scientifica/bozza.md) da approvare; HTML e pubblicazione non avviati.
