@@ -151,3 +151,11 @@ Tolto anche lo zoom dalla cassa, su richiesta. Regola salvata nel master v69.10 
 ### Quinto capitolo — pubblicazione autorizzata
 
 «Perfetto pubblica» approva l’anteprima corrente e autorizza il rilascio della PR #68. HTML v4 con solo il rimando successivo aggiunto; corpo invariato rispetto alla v3 approvata. Manifest v14 con 15 capitoli e quinto posto nell’area introduttiva; catalogo, crediti pubblici e navigazione reciproca Prefissi v4 → Cifre significative v4 → Termodinamica v15 aggiornati. Inclusa la regola dello zoom salvata in master v69.10 e AGENTS.md. Crediti, tema, build e 18 test superati; browser locale riuscito su 210 combinazioni pagina/viewport/tema e 20 copertine; CI remoto e verifica del deployment da completare. Nessuna ulteriore conferma da richiedere per questa pubblicazione autorizzata.
+
+## Quinto capitolo — rilascio completato — 23 ottobre 2026
+
+[PR #68](https://github.com/rickymusu-bit/fisica/pull/68) integrata al commit b395589e1f5f06197723171ab4dfb3d33142114c. [Deployment Pages 39992857516](https://github.com/rickymusu-bit/fisica/actions/runs/39992857516) riuscito. [Le cifre significative](https://rickymusu-bit.github.io/fisica/cifre_significative_it.html), HTML v4, è il quinto capitolo del percorso introduttivo. Catalogo, crediti e navigazione aggiornati; master v69.10 e AGENTS.md con regola dello zoom integrati in main.
+
+Verifica HTTPS dopo il deployment: 19 pagine pubbliche HTTP 200 e identiche byte per byte alla build locale; 12 indirizzi esclusi, storici o di anteprima HTTP 404. [Rapporto HTTPS](../cifre_significative/verifica-pubblicazione-online.json) e [script](../cifre_significative/verifica_pubblicazione.py). Le prove locali complete sono riuscite: 18 test, 210 combinazioni pagina/viewport/tema e 20 copertine, oltre ai controlli specifici del capitolo.
+
+Il workflow remoto 39991173540 ha superato tema, crediti, build e test; l’installazione di Chromium ha ritardato il controllo. Il merge regolare è stato accettato da GitHub sulla base della suite locale completa già riuscita. Al controllo successivo alla pubblicazione il CI remoto sta eseguendo le prove browser; il suo esito non è ancora registrato come riuscito. Il deployment e la verifica delle pagine pubbliche sono completati.

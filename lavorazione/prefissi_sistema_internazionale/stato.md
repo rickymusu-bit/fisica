@@ -194,3 +194,5 @@ Deployment Pages 39977718327 riuscito. Controllo HTTPS conclusivo: 18 pagine pub
 ## Navigazione per il rilascio del capitolo 5 — 23 ottobre 2026
 
 HTML v4: navigazione successiva aggiornata a Le cifre significative, ora quinto capitolo pubblicato su autorizzazione dell’utente. Contenuto, copertina, separatore e risorse invariati. Copia di lavorazione allineata; corpo dell’articolo verificato identico. Intervento circoscritto incluso nella pubblicazione autorizzata della PR #68.
+
+Pubblicazione completata nella PR #68 (b395589e1f5f06197723171ab4dfb3d33142114c), deployment 39992857516 riuscito. Collegamenti aggiornati verificati online, file identici alla build locale.
