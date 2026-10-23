@@ -50,3 +50,9 @@ L'utente ha approvato lo schema interattivo con sei fasi e spiegazioni contestua
 **Le grandezze fisiche e il Sistema internazionale**, file autonomo `grandezze_fisiche_sistema_internazionale_it.html`: testo, tre immagini e anteprima approvati. L’utente richiede esplicitamente merge e pubblicazione nella PR #59. Inserimento al secondo posto dopo Il metodo scientifico; seguono i capitoli di Termologia già pubblicati. Il vecchio sorgente unificato `sistema_internazionale_notazione_it.html` resta escluso e invariato. [Stato e verifiche](../grandezze_fisiche_sistema_internazionale/stato.md).
 
 La PR #59 è stata integrata al commit `213ced3645d68affd3212603d2d8c2a9d4c6136f`; workflow Pages 39849357978 riuscito. [Capitolo pubblicato](https://rickymusu-bit.github.io/fisica/grandezze_fisiche_sistema_internazionale_it.html), al secondo posto dell’area dopo Il metodo scientifico. Catalogo, crediti e navigazione reciproca verificati online; i sorgenti storici esclusi restano non pubblicati.
+
+## Terzo capitolo — progettazione avviata il 23 ottobre 2026
+
+**Le potenze di dieci e la notazione scientifica**. Verificato il sorgente unificato v11, sezione `#scale`; definiti i confini rispetto ai capitoli 2, 4 e 5 e la ripartizione dei quesiti originali. Proposta: riutilizzare la foto della Terra come copertina, le tabelle delle scale e del confronto fra notazioni, le micrografie e i due video pertinenti; aggiungere una tabella numerica per gli esponenti positivi, zero e negativi. Provenienza e licenze non documentate restano da verificare.
+
+[Stato e proposta visuali](../potenze_dieci_notazione_scientifica/stato.md), sul ramo `lavorazione/potenze-dieci-notazione-scientifica` derivato da main. Fase corrente: scelta delle visuali prima della bozza, secondo B1.1 del master. Nessuna bozza o realizzazione HTML approvata; nessuna modifica alla pubblicazione o ai sorgenti storici.
