@@ -1,6 +1,6 @@
 # Stato — I prefissi del Sistema internazionale
 
-Versione v1 — 23 ottobre 2026, ore 10:43 (Europe/Rome).
+Versione v2 — 23 ottobre 2026 (Europe/Rome).
 
 ## Incarico e fase corrente
 
@@ -8,7 +8,7 @@ Richiesta: «Sviluppa il capitolo 4 del piano di lavorazione per l'introduzione 
 Il [piano editoriale](../introduzione_fisica_misura/piano.md) identifica il capitolo come **I prefissi del Sistema internazionale**.
 Argomento, posizione e tema Stringhe comune sono già definiti. La richiesta avvia lo sviluppo editoriale; non documenta una scelta delle nuove visuali né approvazioni della bozza, dell'HTML o della pubblicazione.
 
-Fase corrente: proposta dei contenuti e delle visuali pronta per la scelta, secondo B1.1.2.
+Fase corrente: proposta v2 aggiornata alla richiesta sulle conversioni. Riuso della tabella dei prefissi esplicitamente richiesto; chiarito SCH-01, ancora opzionale e non approvato. Restano da concordare le altre scelte dell'impostazione secondo B1.1.2.
 [Proposta da esaminare](visuali.md). Dopo la scelta, scrivere la bozza completa con segnaposto in `bozza.md`.
 Non sono ancora prodotti HTML, simulazioni o nuove immagini.
 
@@ -74,3 +74,12 @@ Questa fase modifica solo documenti editoriali: nessun HTML, registro dei credit
 Checklist: A1–A5 (livello, monograficità, notazione e quesiti), B1.1–B2 (visuali prima della bozza; approvazione e via prima dell'HTML), B4–B6 (riuso, stato e salvataggio), C1–C4 (immagini, fonti, tabelle e composizione stabile), D1–D2.1 e AGENTS.md (verifiche pertinenti, ramo dedicato, PR in bozza, nessun merge o deployment senza approvazione corrente).
 
 Prossimo passo: ricevere la scelta sull'impostazione visuale e redigere la bozza narrativa completa con i segnaposto concordati e otto domande finali. Prima dell'HTML leggere il modello Stringhe corrente, presentare la stima ripartita e attendere il via previsto dal master.
+
+## Integrazione richiesta — conversioni tra prefissi
+
+L'utente scrive: «Aggiungi anche come convertire tra prefissi. Riutilizza la tabella dei prefissi. A che schema ti riferisci?».
+Registrati il riuso della tabella esistente e l'ampliamento delle conversioni tra due prefissi. Proposta v2: uso dei fattori della tabella, passaggio per l'unità di riferimento e lettura diretta della differenza degli esponenti; conversioni cm–mm e µm–mm in entrambi i versi, oltre a km–mm. Aggiornato il quesito 4 per verificare la conversione tra due prefissi e il controllo inverso.
+
+Chiarito che SCH-01 è una sequenza numerica con frecce e fattori, per esempio km → m → mm, non una nuova tabella. La richiesta di chiarimento non approva né rifiuta lo schema. Registrata l'alternativa di spiegare i medesimi passaggi nel calcolo accanto alla tabella, senza figura separata. Nessuna nuova visuale realizzata e nessuna approvazione estesa automaticamente a copertina, bozza o HTML.
+
+Verificate le equivalenze 3,2 cm = 32 mm, 750 µm = 0,750 mm e 2,5 km = 2 500 000 mm, le rispettive conversioni inverse e il segno della differenza degli esponenti. Master su main ancora v69.7, blob invariato rispetto alla lettura precedente. Aggiornati soltanto i tre Markdown della progettazione, nella stessa PR #65 in bozza.
