@@ -3691,10 +3691,6 @@
           "notice": 0
         },
         {
-          "resource": "credit-c191bf81242481c4",
-          "notice": 0
-        },
-        {
           "resource": "credit-382521146f67bd37",
           "notice": 0
         },
@@ -4425,6 +4421,10 @@
       "anchor": "potenze-dieci-notazione-scientifica-it",
       "credits": [
         {
+          "resource": "credit-603307d72ca19729",
+          "notice": 0
+        },
+        {
           "resource": "credit-72bd7f593f527a79",
           "notice": 0
         },
@@ -4463,15 +4463,11 @@
         {
           "resource": "credit-331032c7a884239b",
           "notice": 0
-        },
-        {
-          "resource": "credit-603307d72ca19729",
-          "notice": 0
         }
       ],
       "lexend": true,
       "chapter_labels": true,
-      "review": "Copertina di Giove scelta dall’utente, fonte e pubblico dominio documentati. Restano da verificare i diritti delle due miniature video ereditate."
+      "review": "Copertina di Giove documentata; video YouTube caricati dal servizio solo al clic. Nessuna miniatura o fotogramma ridistribuito."
     }
   },
   "assets": [
@@ -6870,48 +6866,6 @@
       ]
     },
     {
-      "id": "asset-a2f5fede4148ec580b73b457a203438926110a6d4e9f780c1801ff06cae88606",
-      "kind": "image/jpeg",
-      "uses": [
-        {
-          "document": "potenze_dieci_notazione_scientifica_it.html",
-          "kind": "image/jpeg",
-          "description": "Miniatura del video A Boy and His Atom di IBM",
-          "locator": "vid-02",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "sistema_internazionale_notazione_fr.html",
-          "kind": "image/jpeg",
-          "description": "Miniature de la vidéo IBM A Boy and His Atom",
-          "locator": "scale",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "sistema_internazionale_notazione_it.html",
-          "kind": "image/jpeg",
-          "description": "Miniatura del video A Boy and His Atom di IBM",
-          "locator": "scale",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "sistema_internazionale_notazione_sq.html",
-          "kind": "image/jpeg",
-          "description": "Miniaturë e videos A Boy and His Atom nga IBM",
-          "locator": "scale",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-a3b6796f140196cb9506afeb927a06860350838f867fbf97146dcc10838c2abd",
       "kind": "image/jpeg",
       "uses": [
@@ -7442,48 +7396,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-bba9dd19a4744102"
-        }
-      ]
-    },
-    {
-      "id": "asset-bdc568653b12a4ba39094b8dba5778ace3b1dda5fc89685d396ba66c59f677d5",
-      "kind": "image/jpeg",
-      "uses": [
-        {
-          "document": "potenze_dieci_notazione_scientifica_it.html",
-          "kind": "image/jpeg",
-          "description": "Miniatura del video Powers of Ten sul cambiamento di scala",
-          "locator": "vid-01",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "sistema_internazionale_notazione_fr.html",
-          "kind": "image/jpeg",
-          "description": "Miniature de la vidéo Powers of Ten sur les changements d’échelle",
-          "locator": "scale",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "sistema_internazionale_notazione_it.html",
-          "kind": "image/jpeg",
-          "description": "Miniatura del video Powers of Ten sul cambiamento di scala",
-          "locator": "scale",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "sistema_internazionale_notazione_sq.html",
-          "kind": "image/jpeg",
-          "description": "Miniaturë e videos Powers of Ten për ndryshimin e shkallës",
-          "locator": "scale",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
         }
       ]
     },
@@ -8495,30 +8407,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-cd07c5e092197d62"
-        }
-      ]
-    },
-    {
-      "id": "asset-e9abd430da755e7ac7096755c0e3da29831f809bb9f7626b42ece70756e3a776",
-      "kind": "image/jpeg",
-      "uses": [
-        {
-          "document": "conduzione_it.html",
-          "kind": "image/jpeg",
-          "description": "Sei barrette etichettate brass, Al, Cu, Ni, Fe e stainless steel, usate in un esperimento di conduzione",
-          "locator": "video-barrette",
-          "attribute": "src",
-          "location": null,
-          "credit_id": "credit-c191bf81242481c4"
-        },
-        {
-          "document": "potenza_termica_conduzione_convezione_it.html",
-          "kind": "image/jpeg",
-          "description": "Sei barrette etichettate brass, Al, Cu, Ni, Fe e stainless steel, usate in un esperimento di conduzione",
-          "locator": "conduzione",
-          "attribute": "src",
-          "location": null,
-          "credit_id": "credit-c191bf81242481c4"
         }
       ]
     },

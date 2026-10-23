@@ -1,0 +1,36 @@
+{
+  "documents": {
+    "conduzione_it.html": {
+      "bytes": 2275522,
+      "sha256": "16754acfb4d68fa52f98209ca26e031f85efa31347ff9ccfd1882ef5b76e6445",
+      "players": 1
+    },
+    "potenza_termica_conduzione_convezione_it.html": {
+      "bytes": 15245397,
+      "sha256": "ed55eb7e7885479359906356217888bfa81b7194381b07e8c3d4c3ab6a0b8144",
+      "players": 1
+    },
+    "potenze_dieci_notazione_scientifica_it.html": {
+      "bytes": 534608,
+      "sha256": "af778d2a3a4ffd4514974f207f8fb80aeed043a5e68735b9f19970fe4f885a3a",
+      "players": 2
+    },
+    "sistema_internazionale_notazione_fr.html": {
+      "bytes": 794563,
+      "sha256": "086b6c514538b02f657101d32e152749ab4ead5589e2ddb5714136b9b1815808",
+      "players": 2
+    },
+    "sistema_internazionale_notazione_it.html": {
+      "bytes": 796822,
+      "sha256": "783926ed0b281f19ecae531d4698be4b70860735e4ee838ddded1a337e8777bf",
+      "players": 2
+    },
+    "sistema_internazionale_notazione_sq.html": {
+      "bytes": 793617,
+      "sha256": "33cd347b1bc4368719af349f22d667db659e4805e8ab5c839ef19a02e9387746",
+      "players": 2
+    }
+  },
+  "rules": "MASTER_PROMPT.md v69.7, C5 e D1",
+  "model": "Stringhe v23"
+}

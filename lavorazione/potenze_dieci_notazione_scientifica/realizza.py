@@ -17,6 +17,7 @@ sys.path.insert(0, str(ROOT / 'scripts'))
 import credits
 from stringhe_theme import navigation_header
 from media_controls import apply_media_controls
+from youtube_videos import apply_youtube_videos, player
 
 NAME = 'potenze_dieci_notazione_scientifica_it.html'
 TITLE = 'Le potenze di dieci e la notazione scientifica'
@@ -81,17 +82,15 @@ def math_html(s):
     return parse(0)[0]
 
 def original_media():
-    source = credits.Document((ROOT / 'sistema_internazionale_notazione_it.html').read_text())
-    images = list(source.root.descendants('img'))
     uri = 'data:image/jpeg;base64,' + base64.b64encode((WORK/'risorse/giove.jpg').read_bytes()).decode()
     cover = credits.Document('<img src="' + uri + '" width="960" height="975" alt="Mappa dell’emisfero sud di Giove: polo sud al centro, equatore al bordo, bande nuvolose e Grande Macchia Rossa">')
     result = {'COP-01': next(cover.root.descendants('img'))}
-    for key, video_id in [('VID-01', '0fKBhvDjuy0'), ('VID-02', 'oSCX78-8-q0')]:
-        link = next(n for n in source.root.descendants('a') if video_id in n.attrs.get('href', ''))
-        result[key] = next(link.descendants('img'))
     return result
 
 def figure(key, caption, media):
+    if key != 'COP-01':
+        identity, title = ('0fKBhvDjuy0', 'Powers of Ten') if key == 'VID-01' else ('oSCX78-8-q0', 'A Boy and His Atom')
+        return '<figure class="visual video" id="' + key.lower() + '">' + player('https://www.youtube.com/watch?v='+identity,title) + '<figcaption>'+inline(caption)+'</figcaption></figure>'
     src = media[key].attrs['src']
     alt = media[key].attrs.get('alt', '')
     img = f'<img src="{src}" alt="{escape(alt, quote=True)}" decoding="async">'
@@ -175,7 +174,7 @@ def render():
         if node.tag == 'title':
             edits.append((node.start, node.end, '<title>' + TITLE + ' — Stringhe</title>'))
         elif node.tag == 'meta' and node.attrs.get('name') in {'version', 'date', 'description'}:
-            value = {'version':'v2', 'date':'2026-10-23', 'description':'Potenze di dieci, notazione scientifica, confronto fra lunghezze e operazioni con gli esponenti.'}[node.attrs['name']]
+            value = {'version':'v3', 'date':'2026-10-23', 'description':'Potenze di dieci, notazione scientifica, confronto fra lunghezze e operazioni con gli esponenti.'}[node.attrs['name']]
             edits.append((node.start, node.end, '<meta name="' + node.attrs['name'] + '" content="' + value + '">'))
         elif node.tag == 'figure' and node.has_class('cover'):
             edits.append((node.start, node.end, cover))
@@ -194,22 +193,22 @@ def render():
             index_markup = re.sub(r'<nav class="sidebar-nav"[\s\S]*?</nav>', lambda _: nav, index_markup)
             edits.append((node.start,node.end,navigation_header('chapter',NAME,index_markup)))
         elif node.tag == 'footer' and node.has_class('footer'):
-            edits.append((node.start,node.end,'<footer class="footer">Versione v2 — 23 ottobre 2026</footer>'))
+            edits.append((node.start,node.end,'<footer class="footer">Versione v3 — 23 ottobre 2026</footer>'))
     for start,end,value in sorted(edits,reverse=True):
         template = template[:start] + value + template[end:]
     template = template.replace('Nome dell’area tematica',AREA).replace('Titolo del capitolo',TITLE)
-    template = re.sub(r'<!-- MODELLO CANONICO[\s\S]*?-->', '<!-- Anteprima dal testo v2 approvato e dal modello canonico Stringhe v22. -->', template,count=1)
+    template = re.sub(r'<!-- MODELLO CANONICO[\s\S]*?-->', '<!-- Anteprima dal testo v2 approvato e dal modello canonico Stringhe v23. -->', template,count=1)
     template = template.replace('</head>',EXTRA + '</head>',1)
     prev = ('<nav class="chapter-navigation" aria-label="Navigazione tra capitoli"><a rel="prev" href="grandezze_fisiche_sistema_internazionale_it.html" data-site-path="grandezze_fisiche_sistema_internazionale_it.html">'
             '<span>← Capitolo precedente</span><small>Le grandezze fisiche e il Sistema internazionale</small></a></nav>')
     template = template.replace('<!-- chapter-navigation:end -->',prev + '<!-- chapter-navigation:end -->',1)
     # Non vi sono GIF o nuovi zoom: i comandi canonici sono già nel modello.
-    return template
+    return apply_youtube_videos(template)
 
 def register_document(registry, html):
     # Riusa inventario e schede esistenti, senza sincronizzare altri documenti.
     registry['documents'][NAME] = {'title':TITLE,'anchor':NAME[:-5].replace('_','-'),'credits':[],
-        'lexend':True,'chapter_labels':True,'review':'Copertina di Giove scelta dall’utente, fonte e pubblico dominio documentati. Restano da verificare i diritti delle due miniature video ereditate.'}
+        'lexend':True,'chapter_labels':True,'review':'Copertina di Giove documentata; video YouTube caricati dal servizio solo al clic. Nessuna miniatura o fotogramma ridistribuito.'}
     resources = {r['id']:r for r in registry['resources']}
     fingerprints = {fp:r['id'] for r in registry['resources'] for fp in r.get('fingerprints',[])}
     assets = {a['id']:a for a in registry['assets']}

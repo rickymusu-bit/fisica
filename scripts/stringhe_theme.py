@@ -155,4 +155,6 @@ def apply_theme(document):
     # La preferenza si applica prima del primo rendering.
     document = document.replace('</head>', theme_head() + '</head>', 1)
     document = document.replace('</body>', theme_script() + '</body>', 1)
+    from youtube_videos import apply_youtube_videos
+    document = apply_youtube_videos(document, include_assets='MODELLO CANONICO DEL TEMA' in document)
     return document

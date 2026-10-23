@@ -39,7 +39,7 @@ Didascalia: Nel metallo gli elettroni mobili contribuiscono al trasferimento di 
 
 Anche tra i metalli, però, la conducibilità può essere diversa. Nel video sei barrette vengono riscaldate nella stessa zona centrale: la cera posta alle estremità cambia stato in tempi differenti. L’esperimento rende visibile il diverso comportamento dei materiali; per interpretarlo contano anche le condizioni della prova.[1]
 
-[VIDEO 05 — Miniatura e collegamento esatti già presenti nell’HTML v7; apertura sulla piattaforma originale.]
+[VIDEO 05 — URL originale https://youtu.be/Sdpcjm2vmLY?is=jQY0_qg6RCA-Pd_9 conservato; riquadro senza miniatura, lettore youtube-nocookie.com al clic senza autoplay, collegamento esterno sempre disponibile e comando di chiusura, secondo C5 corrente.]
 
 Didascalia: Il riscaldamento raggiunge le estremità delle barrette in tempi diversi: osserva quando fonde la cera.
 

@@ -1,6 +1,6 @@
 # Le potenze di dieci e la notazione scientifica
 
-<!-- Bozza v3 — 23 ottobre 2026 (Europe/Rome).
+<!-- Bozza v4 — 23 ottobre 2026 (Europe/Rome).
 Area: Introduzione alla fisica e alla misura.
 Impostazione approvata con «Procedi»; testo da approvare.
 Segnaposto e sezione finale di servizio non fanno parte del testo pubblicabile. -->
@@ -113,13 +113,13 @@ Un **ordine di grandezza** è una stima espressa con una potenza di dieci. Qui s
 
 Fra 10⁷ m e 10⁻¹⁰ m ci sono diciassette passaggi di un fattore dieci. Il rapporto fra queste due scale è quindi 10¹⁷: il diametro terrestre è circa centomila milioni di milioni di volte quello atomico. Un confronto così esteso diventa leggibile grazie agli esponenti.
 
-[VID-01 — Miniatura originale e collegamento a Powers of Ten: https://www.youtube.com/watch?v=0fKBhvDjuy0 . Apertura su YouTube, senza lettore incorporato. Diritti della miniatura da verificare.]
+[VID-01 — Powers of Ten: https://www.youtube.com/watch?v=0fKBhvDjuy0 . Riquadro senza miniatura; lettore youtube-nocookie.com caricato al clic, collegamento esterno sempre disponibile.]
 
 Didascalia: In Powers of Ten ogni cambio di scala modifica di un fattore dieci la lunghezza rappresentata dall’inquadratura. Osserva come cambia ciò che diventa visibile.
 
 Nel film A Boy and His Atom, i ricercatori hanno spostato molecole di monossido di carbonio con un microscopio a effetto tunnel e registrato immagini successive. La sequenza rende visibile un lavoro svolto su scala molecolare.
 
-[VID-02 — Miniatura originale e collegamento a A Boy and His Atom: https://www.youtube.com/watch?v=oSCX78-8-q0 . Apertura su YouTube, senza lettore incorporato. Diritti della miniatura da verificare.]
+[VID-02 — A Boy and His Atom: https://www.youtube.com/watch?v=oSCX78-8-q0 . Riquadro senza miniatura; lettore youtube-nocookie.com caricato al clic, collegamento esterno sempre disponibile.]
 
 Didascalia: Le figure del film sono costruite disponendo molecole di monossido di carbonio su una superficie.
 
@@ -201,5 +201,5 @@ Questa sezione non entra nel contenuto didattico pubblicato. Le fonti dei conten
 - Rete mondiale: [Commissione europea, CORDIS, progetto ECSTATIC, grant 101189595](https://cordis.europa.eu/project/id/101189595), avviato nel 2025. Descrizione e obiettivo riportano oltre 5 miliardi di km di fibra ottica installata per comunicazioni dati: riferimento numerico oltre 5 · 10¹² m, scala 10¹³ m secondo il criterio dichiarato. La fonte non fornisce un limite superiore né un censimento di ogni cavo Internet; la riga è esplicitamente una stima della fibra ottica mondiale. Per il significato del conteggio in fibra-km: [Optics & Photonics News, marzo 2022, articolo sul vetro ottico, grafico Cumulative total of cabled fiber installed worldwide](https://opn-web-afd-d3bfbkd5bcc5asbs.z02.azurefd.net/opn/media/images/pdf/2022/0322/030-039r_opn_03_22.pdf?t=638452572281577707). Le singole fibre di un cavo si sommano: non confondere fibra-km con cavo-km o lunghezza dei tracciati. La nota 2 rende esplicito questo perimetro. Non usare al suo posto il totale dei soli cavi sottomarini.
 - COP-01: [Map of Jupiter, Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Map_of_Jupiter.jpg), autore NASA/JPL/Space Science Institute, pubblico dominio PD-USGov-NASA. [Fonte NASA, Map of Jupiter’s South](https://www.nasa.gov/image-article/map-of-jupiters-south/), immagini Cassini dell’11–12 dicembre 2000; proiezione stereografica polare, polo sud al centro ed equatore al bordo. [JPL Image Use Policy](https://www.jpl.nasa.gov/jpl-image-use-policy/): credito associato e nessuna approvazione istituzionale implicata. Versione 960 × 975 px scelta dall’utente, salvata in risorse/giove.jpg e incorporata senza modifiche. La vecchia copertina resta nel sorgente storico e in Git; nessun credito corrente per quell’immagine rimossa.
 - IMG-01 e sezione «Una fotografia non basta a misurare» rimossi su richiesta. Nessun richiamo residuo alle micrografie nel testo o nei quesiti; i materiali originali non sono stati cancellati dal repository. Le provenienze storiche restano in Git e nello stato.
-- VID-01 e VID-02 conservano URL e miniature originali proposti. Collegamenti: [Powers of Ten](https://www.youtube.com/watch?v=0fKBhvDjuy0) e [A Boy and His Atom](https://www.youtube.com/watch?v=oSCX78-8-q0). Titoli verificati, riproduzione integrale e diritti delle miniature ancora da verificare. Per VID-02: [Guinness World Records, Smallest stop-motion film](https://www.guinnessworldrecords.com/world-records/smallest-stop-motion-film), molecole di CO disposte con microscopio a effetto tunnel. Video ricollocato nella sezione sul confronto delle scale, senza ripristinare la sezione eliminata.
+- VID-01 e VID-02: URL originali conservati. Nuovo componente autorizzato dall’utente: nessuna miniatura o fotogramma incorporato; lettore YouTube dal servizio caricato soltanto dopo un clic, modalità youtube-nocookie.com, senza autoplay e con collegamento esterno sempre disponibile. Nessuna immagine dei video da redistribuire. Per la spiegazione di VID-02 resta la fonte [Guinness World Records, Smallest stop-motion film](https://www.guinnessworldrecords.com/world-records/smallest-stop-motion-film).
 - Quesiti: n. 5 deriva dal quesito originale 4; n. 4 conserva le conversioni del quesito originale 5, lasciando il prefisso al capitolo 4. Il quesito sulle micrografie (originale 7) è ritirato da questo capitolo insieme alla sezione richiesta dall’utente; la v1 ne conserva la formulazione. Il nuovo n. 8 riguarda il DNA e il significato della lunghezza totale. Otto domande complessive, senza soluzioni.

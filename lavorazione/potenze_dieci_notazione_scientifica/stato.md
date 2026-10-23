@@ -1,7 +1,7 @@
 # Stato — Le potenze di dieci e la notazione scientifica
 
 Ultimo aggiornamento: 23 ottobre 2026 (Europe/Rome).
-Fase corrente: HTML v2 con copertina di Giove scelta dall’utente; anteprima aggiornata pronta per revisione. Le sezioni di proposta iniziale sotto riportate conservano la progettazione; l’avanzamento finale registra l’approvazione ricevuta.
+Fase corrente: HTML v3 con copertina di Giove e lettori YouTube su richiesta; revisione comune in corso. Le sezioni di proposta iniziale sotto riportate conservano la progettazione; l’avanzamento finale registra l’approvazione ricevuta.
 Ramo dedicato da main: `lavorazione/potenze-dieci-notazione-scientifica`.
 Piano di riferimento: [capitolo 3 del percorso](../introduzione_fisica_misura/piano.md).
 Area tematica: **Introduzione alla fisica e alla misura**.
@@ -142,3 +142,11 @@ Restano aperti soltanto i diritti delle due miniature dei video. Alla domanda de
 PR #63 in bozza. Prossimo passaggio: consegna della nuova anteprima; nessun merge o Pages senza approvazione dell’anteprima corrente. La copertina è ora documentata, non segnalarla più tra i materiali senza attribuzione certa.
 
 Anteprima corrente della copertina caricata al commit fb43c43ff746b488408d0bbb70e91cbe3a9d7671: https://raw.githack.com/rickymusu-bit/fisica/fb43c43ff746b488408d0bbb70e91cbe3a9d7671/potenze_dieci_notazione_scientifica_it.html . Verifica HTTPS 200 e confronto byte per byte riusciti; rapporto online aggiornato. Nessun deployment ufficiale.
+
+## Lettori YouTube su richiesta — HTML v3
+
+L’utente autorizza esplicitamente il caricamento del lettore al clic, l’aggiornamento delle regole e l’allineamento degli altri capitoli. I due video hanno ora un riquadro con titolo e icona, senza miniature/fotogrammi. Prima del clic non si crea alcun iframe né connessione a YouTube; dopo il clic il servizio youtube-nocookie.com fornisce il lettore con autoplay disattivato, controlli nativi e schermo intero. «Apri su YouTube» resta sempre disponibile; «Chiudi il lettore» rimuove l’iframe, interrompe la riproduzione e restituisce il focus. URL originali e copertina di Giove invariati.
+
+Bozza testuale v4 e HTML v3 dal modello comune v23; modifiche limitate ai video, alle note di servizio e al componente condiviso. Le due miniature sono rimosse dal documento e dai crediti correnti: non restano immagini con attribuzione incerta nel capitolo. Lo stato dei diritti dei filmati non viene trasformato in una licenza per estrarre fotogrammi; il lettore usa l’incorporamento offerto dal servizio. Regole aggiornate in MASTER_PROMPT.md v69.7, C5 e D1, con richiamo in AGENTS.md.
+
+Verifiche comuni e nuova anteprima in [lavorazione/sito/video_youtube/stato.md](../sito/video_youtube/stato.md). PR #63 mantenuta in bozza, nessuna pubblicazione prima dell’approvazione dell’anteprima corrente. I resoconti delle versioni precedenti restano storici; non riferirli al nuovo hash.

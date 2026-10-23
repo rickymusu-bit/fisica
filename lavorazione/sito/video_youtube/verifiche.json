@@ -1,0 +1,225 @@
+{
+  "network_test": "Richieste al lettore intercettate per verificare il ciclo iframe; riproduzione remota non certificata.",
+  "views": [
+    {
+      "file": "conduzione_it.html",
+      "width": 390,
+      "theme": "dark",
+      "players": 1,
+      "before_click_requests": 0,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "file": "conduzione_it.html",
+      "width": 390,
+      "theme": "light",
+      "players": 1,
+      "before_click_requests": 0,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "file": "conduzione_it.html",
+      "width": 1440,
+      "theme": "dark",
+      "players": 1,
+      "before_click_requests": 0,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "file": "conduzione_it.html",
+      "width": 1440,
+      "theme": "light",
+      "players": 1,
+      "before_click_requests": 0,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "file": "potenza_termica_conduzione_convezione_it.html",
+      "width": 390,
+      "theme": "dark",
+      "players": 1,
+      "before_click_requests": 0,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "file": "potenza_termica_conduzione_convezione_it.html",
+      "width": 390,
+      "theme": "light",
+      "players": 1,
+      "before_click_requests": 0,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "file": "potenza_termica_conduzione_convezione_it.html",
+      "width": 1440,
+      "theme": "dark",
+      "players": 1,
+      "before_click_requests": 0,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "file": "potenza_termica_conduzione_convezione_it.html",
+      "width": 1440,
+      "theme": "light",
+      "players": 1,
+      "before_click_requests": 0,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "file": "potenze_dieci_notazione_scientifica_it.html",
+      "width": 390,
+      "theme": "dark",
+      "players": 2,
+      "before_click_requests": 0,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "file": "potenze_dieci_notazione_scientifica_it.html",
+      "width": 390,
+      "theme": "light",
+      "players": 2,
+      "before_click_requests": 0,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "file": "potenze_dieci_notazione_scientifica_it.html",
+      "width": 1440,
+      "theme": "dark",
+      "players": 2,
+      "before_click_requests": 0,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "file": "potenze_dieci_notazione_scientifica_it.html",
+      "width": 1440,
+      "theme": "light",
+      "players": 2,
+      "before_click_requests": 0,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "file": "sistema_internazionale_notazione_fr.html",
+      "width": 390,
+      "theme": "dark",
+      "players": 2,
+      "before_click_requests": 0,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "file": "sistema_internazionale_notazione_fr.html",
+      "width": 390,
+      "theme": "light",
+      "players": 2,
+      "before_click_requests": 0,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "file": "sistema_internazionale_notazione_fr.html",
+      "width": 1440,
+      "theme": "dark",
+      "players": 2,
+      "before_click_requests": 0,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "file": "sistema_internazionale_notazione_fr.html",
+      "width": 1440,
+      "theme": "light",
+      "players": 2,
+      "before_click_requests": 0,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "file": "sistema_internazionale_notazione_it.html",
+      "width": 390,
+      "theme": "dark",
+      "players": 2,
+      "before_click_requests": 0,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "file": "sistema_internazionale_notazione_it.html",
+      "width": 390,
+      "theme": "light",
+      "players": 2,
+      "before_click_requests": 0,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "file": "sistema_internazionale_notazione_it.html",
+      "width": 1440,
+      "theme": "dark",
+      "players": 2,
+      "before_click_requests": 0,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "file": "sistema_internazionale_notazione_it.html",
+      "width": 1440,
+      "theme": "light",
+      "players": 2,
+      "before_click_requests": 0,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "file": "sistema_internazionale_notazione_sq.html",
+      "width": 390,
+      "theme": "dark",
+      "players": 2,
+      "before_click_requests": 0,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "file": "sistema_internazionale_notazione_sq.html",
+      "width": 390,
+      "theme": "light",
+      "players": 2,
+      "before_click_requests": 0,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "file": "sistema_internazionale_notazione_sq.html",
+      "width": 1440,
+      "theme": "dark",
+      "players": 2,
+      "before_click_requests": 0,
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "file": "sistema_internazionale_notazione_sq.html",
+      "width": 1440,
+      "theme": "light",
+      "players": 2,
+      "before_click_requests": 0,
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "no_javascript": "passed: tutti i sei documenti",
+  "offline": "passed",
+  "blocked_embed_fallback": "passed",
+  "timestamp": "passed: start=90"
+}
