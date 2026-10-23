@@ -1,7 +1,7 @@
 # Stato — Le potenze di dieci e la notazione scientifica
 
 Ultimo aggiornamento: 23 ottobre 2026 (Europe/Rome).
-Fase corrente: bozza v1 completata, in attesa di approvazione del testo. Le sezioni di proposta iniziale sotto riportate conservano la progettazione; l’avanzamento finale registra l’approvazione ricevuta.
+Fase corrente: bozza v2 aggiornata alle correzioni dell’utente, in attesa di approvazione del testo. Le sezioni di proposta iniziale sotto riportate conservano la progettazione; l’avanzamento finale registra l’approvazione ricevuta.
 Ramo dedicato da main: `lavorazione/potenze-dieci-notazione-scientifica`.
 Piano di riferimento: [capitolo 3 del percorso](../introduzione_fisica_misura/piano.md).
 Area tematica: **Introduzione alla fisica e alla misura**.
@@ -87,3 +87,20 @@ Verifiche numeriche indipendenti svolte: quattro forme della lunghezza 0,000047 
 Materiali e limiti: registro e sorgente non permettono di certificare l’esatta provenienza di COP-01 e IMG-01. Nessuna ricerca o sostituzione di immagini effettuata. Restano da identificare i file e verificare i diritti prima dell’integrazione. Aperti i due URL video originali e verificati i titoli; riproduzione integrale e diritti di redistribuzione delle miniature non verificati. Controllata la descrizione molecolare di VID-02 sulla scheda del record Guinness. Questi punti sono espliciti nella sezione di servizio e non vengono presentati come risolti.
 
 Prossimo passaggio corrente: lettura e approvazione della bozza da parte dell’utente. Dopo il testo approvato, stima ripartita e via esplicito prima dell’HTML secondo B1.1. PR #63 conservata in bozza. Main, HTML storici, manifest, catalogo e pubblicazione invariati.
+
+## Revisione richiesta — bozza v2
+
+Richiesta esplicita: eliminare l’ultima sezione mantenendo A Boy and His Atom; usare soltanto la tabella delle lunghezze per gli ordini di grandezza; togliere il cratere e aggiungere DNA di una cellula e lunghezza complessiva dei cavi Internet mondiali. Modifiche circoscritte autorizzate direttamente; nessuna nuova richiesta di permesso necessaria.
+
+Completato in [bozza.md](bozza.md), v2:
+- Rimossa la sezione «Una fotografia non basta a misurare», insieme alle micrografie IMG-01. Conservato VID-02 con introduzione breve e didascalia, spostato in «Confrontare le scale».
+- Eliminati TAB-01M, il paragrafo sulle masse e le fonti di massa dalla sezione corrente di servizio. Una sola tabella degli ordini di grandezza, TAB-01L; TAB-02 e TAB-03 restano per potenze e notazioni.
+- Tolto il cratere. Aggiunto DNA nucleare disteso dei 46 cromosomi di una cellula umana: circa 2 m, ordine 10⁰ m.
+- Per la rete Internet, usato il riferimento globale della fibra ottica per telecomunicazioni, oltre 5 miliardi di km riportati da CORDIS/ECSTATIC: scala 10¹³ m. La richiesta generica di sommare tutti i cavi non ha un totale verificato nelle fonti consultate. Etichetta e nota delimitano quindi il dato alle fibre ottiche, sommando quelle interne ai cavi, senza spacciarlo per lunghezza dei soli tracciati o totale anche dei cavi in rame. Non sostituito con il solo dato sottomarino.
+- Modificata la nota sul criterio degli ordini di grandezza per eliminare l’esempio della massa terrestre.
+- Quesito 8 sulle micrografie sostituito con confronto fra DNA disteso e altezza di una persona. Questa rimozione specifica dell’utente supera la conservazione del vecchio quesito 7 per il capitolo corrente; testo storico recuperabile in Git.
+
+Fonti nuove collegate nella sezione di servizio: Genomics England e Nature Education per il DNA; scheda Commissione europea CORDIS progetto 101189595 (ECSTATIC) per la rete mondiale; grafico in Optics & Photonics News marzo 2022 per il conteggio in fibra-km. Nessuna immagine cercata, generata o sostituita.
+
+Controlli: nessuna massa, micrografia o cratere nel testo didattico; video originale VID-02 e collegamento conservati; una sola tabella di ordini fisici, otto righe di lunghezze; otto quesiti; 2 m ha ordine 10⁰ m e 5 · 10¹² m ha ordine 10¹³ m con il criterio dichiarato. Fonti e note aggiornate alle risorse correnti. Nessun HTML o registro crediti modificato; nessun merge o deployment.
+Prossimo passaggio: approvazione della bozza v2, quindi stima e via alla realizzazione secondo B1.1.
