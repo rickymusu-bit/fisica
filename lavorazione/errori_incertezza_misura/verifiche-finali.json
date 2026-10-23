@@ -23,7 +23,6 @@
   ],
   "offline_method": "HTML caricato in memoria con rete disabilitata; immagini incorporate decodificate, MathML e simulazione disponibili. Navigazione file:// bloccata dalla policy del Chromium dell’ambiente e non dichiarata eseguita.",
   "screenshots_reviewed": [
-    "simulazione-dark-1440.png",
     "grafico-dati-1440.png",
     "simulazione-light-390.png",
     "copertina-light-390.png"
