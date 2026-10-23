@@ -184,3 +184,9 @@ L’utente richiede esplicitamente la sostituzione con Algae and bacteria in Sca
 Contenuto didattico, formule, separatore dei prefissi e navigazione identici alla v2: confronto dopo rimozione delle sole copertine, crediti e versioni. Copia HTML di lavorazione identica alla nuova radice. Crediti --check, tema --check e build superati. Browser Chromium a cinque larghezze e nei due temi: nessun overflow o errore JavaScript, nuova immagine decodificata 960 per 768 px, cover senza zoom, indice, tabella scorrevole, zoom dello schema, download identico, crediti/OFL, lettura senza JavaScript e senza rete. Schermate della copertina mobile e desktop ispezionate. Rapporto verifiche-browser.json aggiornato.
 
 Ramo corrente lavorazione/cifre-significative, PR #67: stessa richiesta comprende bozza del capitolo 5 e questa sostituzione. Sito pubblico non aggiornato: nuova anteprima da presentare e approvare secondo AGENTS.md prima del merge/deployment. L’autorizzazione alla pubblicazione della precedente v2 non viene estesa alla v3.
+
+## Nuova anteprima approvata — 23 ottobre 2026
+
+L’utente risponde «Approvo tutto» alla richiesta esplicita di approvare l’anteprima HTML v3 del quarto e il testo del quinto. Autorizzato il rilascio della nuova copertina del capitolo 4. Controllo remoto 39975086752 riuscito; PR #67 resa pronta e integrata al commit b25f0af4b90f91326c1c54319e5fd8d7ae8f1d1f. Pubblicazione e verifica HTTPS da registrare appena completate. Nessuna immagine di provenienza sconosciuta aggiunta al quarto.
+
+Deployment Pages 39977718327 riuscito. Controllo HTTPS conclusivo: 18 pagine pubbliche HTTP 200 e identiche alla build locale v3, 11 indirizzi esclusi HTTP 404. Nuova copertina del quarto pubblicata, nessun rilascio pendente. Rapporto verifica-pubblicazione-online.json aggiornato.

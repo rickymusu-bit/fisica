@@ -29,7 +29,7 @@
       "file": "prefissi_sistema_internazionale_it.html",
       "status": 200,
       "expected": 200,
-      "sha256": "fd8fd8ceeb0d0a725531abaf827bad78ab770f93e3d5837a94760c3012300d63",
+      "sha256": "2d567da5656abe2df214ade4815dd65995ea203613717380bb3e111fb4a246fe",
       "identico_alla_build": true,
       "ok": true
     },
@@ -141,7 +141,7 @@
       "file": "crediti.html",
       "status": 200,
       "expected": 200,
-      "sha256": "3142453e896430db62fe1492630dc5690cb5ddac2128b743e74d236b82efe6ae",
+      "sha256": "3230066dea9e99638ad2b0fcc245bde5b456570478661ac19136eae2b53bcf7a",
       "identico_alla_build": true,
       "ok": true
     },
@@ -213,8 +213,8 @@
     }
   ],
   "ok": true,
-  "commit": "910bcc2c23c174beb9b53e247c3e03a52c8107aa",
-  "pr": 65,
-  "workflow_test": 39967227556,
-  "workflow_pages": 39967950097
+  "commit": "b25f0af4b90f91326c1c54319e5fd8d7ae8f1d1f",
+  "pr": 67,
+  "workflow_test": 39975086752,
+  "workflow_pages": 39977718327
 }

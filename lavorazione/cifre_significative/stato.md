@@ -40,3 +40,13 @@ L’utente sceglie Egyptian measuring tool.jpg e scrive «Procedi» dopo la prop
 La verifica dell’immagine PNG della cassa nel registro unico conferma fonte e licenza non documentate (asset-b17b9591b7a9cc34e9eec460fe2c2216c15619090af2f8bbdc9e44c01079b196). Il segnaposto FIG-02 rimane nella bozza; non inventata un’attribuzione e nessuna immagine sostitutiva cercata o generata. Provenienza da risolvere prima dell’integrazione della figura in un HTML da pubblicare.
 
 Prossimo passo: revisione del testo corrente. Non attribuire al «Procedi» precedente un’approvazione di questa nuova bozza né della pubblicazione. HTML del capitolo 5 non realizzato; manifest e catalogo invariati. Le correzioni al capitolo 4 richieste nello stesso messaggio sono documentate nel relativo stato.
+
+## Bozza e copertina approvate — 23 ottobre 2026
+
+L’utente scrive «Approvo tutto. Quali immagini non hanno licenza nota?» in risposta alla richiesta di approvare l’anteprima corrente del capitolo 4 e il testo del quinto. Approvati testo v1, copertina egizia e impostazione dei visuali del capitolo 5. La domanda sulle licenze non revoca l’approvazione e non viene interpretata come autorizzazione a sostituire immagini o inventarne i diritti.
+
+Punto aperto identificato con precisione: immagine PNG della cassa di legno nello schema FIG-02, senza fonte, autore o licenza documentati. I due SVG di confronto/quote sono elementi ereditati dal sorgente e non certificano i diritti del PNG che incorporano. Copertina 4 SecretDisc / CC BY-SA 3.0 e copertina 5 Uriah Welcome / CC BY 2.0 verificate. Mostrata l’immagine della cassa estratta dal sorgente per identificarla senza ambiguità.
+
+Prossimo passo: risolvere la provenienza del PNG o ricevere una sostituzione scelta dall’utente; poi stimare e realizzare l’HTML secondo il workflow, conservando il testo ora approvato. Non chiedere nuovamente l’approvazione della bozza invariata. L’HTML del quinto resta non realizzato e non pubblicato.
+
+L’utente si offre di cercare un’immagine sostitutiva e chiede quale serva. Richiesta una cassa a base rettangolare vista di tre quarti, due lati adiacenti della base ben visibili, preferibilmente fondo trasparente e senza quote; quote illustrative a = 2,34 m e b = 1,2 m da aggiungere nello schema. Richiesto anche il collegamento alla fonte per verificare la licenza. Nessuna sostituzione ancora scelta o integrata.
