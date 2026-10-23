@@ -339,3 +339,7 @@ Controlli: tema canonico, crediti e build superati. Browser Chromium a 390/1440 
 Anteprima in `lavorazione/sito/link_stringhe/index.html`, generata dalla build con base relativa alla radice del ramo. Preparare PR in bozza e consegnare il collegamento; nessun merge o deployment per questa modifica prima dell’approvazione dell’anteprima corrente, come richiesto da AGENTS.md e B5 del master v69.7.
 
 Salvata la revisione al commit b4efd2f2588f951957a9c9897ca6bfd1f8908bcd nella [PR #64 in bozza](https://github.com/rickymusu-bit/fisica/pull/64). [Anteprima corrente](https://raw.githack.com/rickymusu-bit/fisica/b4efd2f2588f951957a9c9897ca6bfd1f8908bcd/lavorazione/sito/link_stringhe/index.html): HTTPS 200 e confronto byte per byte superati. Attesa dell’approvazione dell’anteprima prima di merge/Pages.
+
+## Collegamento Stringhe pubblicato — 23 ottobre 2026
+
+L’utente approva l’anteprima della PR #64 con «Vai», autorizzando merge e pubblicazione. [Controllo GitHub 39926790745](https://github.com/rickymusu-bit/fisica/actions/runs/39926790745) riuscito; PR pronta e integrata al commit `bb7e6c517e1d4c630c116e0b3a081bac5ce20d2a`. [Pages 39927299105](https://github.com/rickymusu-bit/fisica/actions/runs/39927299105) riuscito. Home ufficiale HTTP 200, identica byte per byte alla build controllata; unico collegamento del titolo «Stringhe» a index.html, destinazione HTTP 200. Rapporto in `lavorazione/sito/link_stringhe/verifica-online.json`. Incarico concluso; le attese di approvazione riportate sopra per questa modifica sono superate.
