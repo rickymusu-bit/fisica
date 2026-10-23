@@ -1,0 +1,12 @@
+{
+  "file": "cassa-generata.png",
+  "type": "illustrazione generata",
+  "created": "2026-10-23",
+  "tool": "OpenAI image generation",
+  "authorization": "L’utente richiede esplicitamente: «Se e per un esempio, generala tu».",
+  "description": "Cassa di legno a base rettangolare, vista di tre quarti, fondo trasparente, senza scritte o quote.",
+  "sha256": "559c6008bb9bde650638d549794a570b0782d342d3af6997b76e87f07bd637c9",
+  "source_original": "/workspace/generated_images/exec-973c2a1e-a6b5-4236-a311-fac405b82c12.png",
+  "changes": "Nessuna modifica; copia dei byte generati. Quote da aggiungere separatamente nello schema.",
+  "review": "Immagine mostrata all’utente; sostituzione della cassa storica da documentare nello schema. Non è la fotografia di una cassa realmente misurata."
+}

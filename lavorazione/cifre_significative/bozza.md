@@ -1,6 +1,6 @@
 # Le cifre significative
 
-Versione v1 — 23 ottobre 2026 (Europe/Rome). Bozza per revisione; non è ancora l’HTML del capitolo.
+Versione v2 — 23 ottobre 2026 (Europe/Rome). Bozza per revisione; non è ancora l’HTML del capitolo.
 
 [COP-01 — Fotografia dello strumento di misura egizio scelta dall’utente: risorse/copertina-egizia.jpg. Immagine intera, senza zoom, non ripetuta nel corpo.]
 
@@ -102,9 +102,9 @@ Puoi applicare il metodo in quattro passi:
 
 ## Esempio svolto: le stesse misure, operazioni diverse
 
-Consideriamo la base rettangolare di una cassa. I lati hanno lunghezze assegnate **a = 2,34 m** e **b = 1,2 m**: sono dati illustrativi, non letture ricavate dalla fotografia. Con le stesse due misure calcoliamo somma, differenza, area, rapporto e perimetro, osservando quali cifre conservare.
+Consideriamo la base rettangolare di una cassa. I lati hanno lunghezze assegnate **a = 2,34 m** e **b = 1,2 m**: sono dati illustrativi, non letture ricavate dall’immagine. Con le stesse due misure calcoliamo somma, differenza, area, rapporto e perimetro, osservando quali cifre conservare.
 
-[FIG-02 — Riutilizzare lo schema originale della cassa con quote a = 2,34 m e b = 1,2 m, prima dei calcoli. Conservare composizione e immagine. Provenienza dell’immagine incorporata ancora da chiarire prima dell’integrazione HTML; nessuna immagine sostitutiva generata.]
+[FIG-02 — Schema della cassa con la nuova illustrazione generata su richiesta, risorse/cassa-generata.png. Aggiungere quote a = 2,34 m e b = 1,2 m sui due lati adiacenti della base, prima dei calcoli. Dati illustrativi; non è una fotografia di misure reali.]
 
 Didascalia: I due lati della base sono i dati usati nei calcoli. Dimensioni illustrative; disegno non in scala.
 
@@ -208,7 +208,7 @@ Sezione non destinata al contenuto didattico pubblico. Note e crediti seguiranno
 - Fonte di partenza: sistema_internazionale_notazione_it.html v12, sezione #cifre-significative, blob Git 61a32e96afce2136af8669b1544a02e9d751018d. Tre tabelle, confronto delle scritture, schema della cassa e tutti i calcoli pertinenti conservati. Quesiti originali 8–13 ripresi nelle domande 1–6; aggiunte quattro domande di ragionamento, senza soluzioni.
 - COP-01: immagine scelta dall’utente, [Egyptian measuring tool](https://commons.wikimedia.org/wiki/File:Egyptian_measuring_tool.jpg), autore Uriah Welcome, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/), provenienza originale [Flickr](https://www.flickr.com/photos/89689539@N00/3480531121). Miniatura scelta 960 per 540 px scaricata intera, senza ritaglio o alterazioni locali; risorse/copertina-fonte.json contiene URL, hash e scelta. Nessuna datazione, precisione o incertezza dedotta dalla sola fotografia. Crediti da associare al nuovo documento nel registro unico durante la realizzazione HTML.
 - FIG-01: confronto numerico SVG già presente nel sorgente; riuso della composizione, senza immagine esterna. Provenienza storica documentata dal repository.
-- FIG-02: schema originale con immagine PNG incorporata, impronta asset-b17b9591b7a9cc34e9eec460fe2c2216c15619090af2f8bbdc9e44c01079b196. Il registro unico non documenta fonte e licenza dell’immagine; non dichiarare completata questa verifica né integrarla in una versione da pubblicare senza risolverla. Nella bozza rimane il segnaposto.
+- FIG-02: nuova illustrazione della cassa generata con ChatGPT su richiesta esplicita dell’utente, con sfondo trasparente. Originale conservato in risorse/cassa-generata.png, provenienza in risorse/cassa-fonte.json; quote geometriche aggiunte in risorse/schema-cassa.svg. Sostituisce il PNG storico di provenienza non documentata, che non viene riprodotto nel nuovo capitolo. Dati illustrativi, disegno non in scala. Nessuna licenza di terzi dedotta.
 - TAB-01–03: sette righe di conteggio, quattro di arrotondamento, due criteri per operazioni; valori originali conservati. Notazione resa coerente col capitolo precedente soltanto dove utile. Le frazioni delle formule andranno renderizzate con linea orizzontale, senza barre di divisione nei calcoli.
 - Controlli editoriali: apertura concreta, simboli A/r/P definiti, formule generali esplicite, due procedure numerate, dati illustrativi dichiarati, interpretazioni dei risultati e dieci quesiti. Nessuna simulazione o video; strumenti e incertezza quantitativa rinviati ai capitoli successivi.
-- Stato: «Procedi» ricevuto sulla proposta con le due copertine scelte; autorizzata la stesura della bozza. Nessuna approvazione della bozza corrente o pubblicazione dedotta. HTML non realizzato.
+- Stato: testo v1 approvato con «Approvo tutto»; immagine della cassa generata e mostrata su richiesta, poi «Ok procedi» autorizza schema quotato e realizzazione HTML. La v2 aggiorna soltanto i segnaposto e la provenienza della cassa. Anteprima HTML corrente da approvare prima della pubblicazione.

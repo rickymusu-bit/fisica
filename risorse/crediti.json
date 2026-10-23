@@ -3698,6 +3698,66 @@
       "fingerprints": [
         "asset-f3a0f9ae3cc7a50e8c831d5f25bf0134bf42a0a51b7e9ab550a9a5caacd1a001"
       ]
+    },
+    {
+      "id": "confronto-cifre-significative",
+      "description": "Confronto numerico fra 12,4 cm e 12,40 cm",
+      "source": null,
+      "author": null,
+      "license": null,
+      "license_url": null,
+      "changes": "Confronto numerico delle scritture: schema SVG del progetto, riutilizzato dal sorgente storico. Nessuna immagine esterna riprodotta.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Confronto numerico delle scritture: schema SVG del progetto, riutilizzato dal sorgente storico. Nessuna immagine esterna riprodotta."
+      ],
+      "metadata_sources": [
+        "cifre_significative_it.html"
+      ],
+      "fingerprints": [
+        "asset-2036751ab1fe67767090721e7cda5a063b3853a38a6badfded6c74030c92b814"
+      ]
+    },
+    {
+      "id": "cassa-cifre-generata",
+      "description": "Cassa con quote dei lati della base",
+      "source": null,
+      "author": null,
+      "license": null,
+      "license_url": null,
+      "changes": "Illustrazione della cassa generata con ChatGPT su richiesta esplicita dell’utente; quote e schema SVG realizzati per Stringhe. Dati illustrativi, disegno non in scala. Nessuna fotografia di misure reali o immagine di terzi riprodotta.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Illustrazione della cassa generata con ChatGPT su richiesta esplicita dell’utente; quote e schema SVG realizzati per Stringhe. Dati illustrativi, disegno non in scala. Nessuna fotografia di misure reali o immagine di terzi riprodotta."
+      ],
+      "metadata_sources": [
+        "cifre_significative_it.html"
+      ],
+      "fingerprints": [
+        "asset-bdb6c2ae6f31acbe4d11feb085f61998019057492807f0d61c34411cea7686f3"
+      ]
+    },
+    {
+      "id": "credit-9663a7b1be096869",
+      "description": "Strumento di misura egizio con suddivisioni e iscrizioni incise lungo l’asta.",
+      "source": "https://commons.wikimedia.org/wiki/File:Egyptian_measuring_tool.jpg",
+      "author": "Uriah Welcome",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "changes": "Miniatura scelta dall’utente incorporata intera, senza ritagli o alterazioni locali.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Strumento di misura egizio con suddivisioni e iscrizioni incise lungo l’asta. — Uriah Welcome. <a href=\"https://commons.wikimedia.org/wiki/File:Egyptian_measuring_tool.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by/2.0/\">CC BY 2.0</a>. Modifiche: Miniatura scelta dall’utente incorporata intera, senza ritagli o alterazioni locali."
+      ],
+      "metadata_sources": [
+        "cifre_significative_it.html"
+      ],
+      "fingerprints": [
+        "asset-b07b883600e6fa74e2b7175012bb7edf78df3d03001fce431bea6619e5fc6b78"
+      ]
     }
   ],
   "documents": {
@@ -4571,6 +4631,27 @@
       "lexend": true,
       "chapter_labels": true,
       "review": null
+    },
+    "cifre_significative_it.html": {
+      "title": "Le cifre significative",
+      "anchor": "cifre-significative-it",
+      "credits": [
+        {
+          "resource": "credit-9663a7b1be096869",
+          "notice": 0
+        },
+        {
+          "resource": "confronto-cifre-significative",
+          "notice": 0
+        },
+        {
+          "resource": "cassa-cifre-generata",
+          "notice": 0
+        }
+      ],
+      "lexend": true,
+      "chapter_labels": true,
+      "review": null
     }
   },
   "assets": [
@@ -4949,6 +5030,30 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-a320c38428cead47"
+        }
+      ]
+    },
+    {
+      "id": "asset-2036751ab1fe67767090721e7cda5a063b3853a38a6badfded6c74030c92b814",
+      "kind": "image/svg+xml",
+      "uses": [
+        {
+          "document": "cifre_significative_it.html",
+          "kind": "image/svg+xml",
+          "description": "12,4 centimetri: tre cifre significative, fino ai decimi. 12,40 centimetri: quattro cifre significative, fino ai centesimi.",
+          "locator": "fig-01",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "confronto-cifre-significative"
+        },
+        {
+          "document": "cifre_significative_it.html",
+          "kind": "image/svg+xml",
+          "description": "12,4 centimetri: tre cifre significative, fino ai decimi. 12,40 centimetri: quattro cifre significative, fino ai centesimi.",
+          "locator": "fig-01",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "confronto-cifre-significative"
         }
       ]
     },
@@ -5342,6 +5447,15 @@
       "uses": [
         {
           "document": "bilancio_termico_it.html",
+          "kind": "font/ttf",
+          "description": "Font incorporato",
+          "locator": null,
+          "attribute": "font-face",
+          "location": null,
+          "credit_id": "font-lexend"
+        },
+        {
+          "document": "cifre_significative_it.html",
           "kind": "font/ttf",
           "description": "Font incorporato",
           "locator": null,
@@ -7278,6 +7392,21 @@
       ]
     },
     {
+      "id": "asset-b07b883600e6fa74e2b7175012bb7edf78df3d03001fce431bea6619e5fc6b78",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "cifre_significative_it.html",
+          "kind": "image/jpeg",
+          "description": "Strumento di misura egizio con suddivisioni e iscrizioni incise lungo l’asta.",
+          "locator": "cop-01",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-9663a7b1be096869"
+        }
+      ]
+    },
+    {
       "id": "asset-b135c258e065362cd35009304900d861c274ee3a8b3fca25c0a5d5220c3b4ab3",
       "kind": "image/jpeg",
       "uses": [
@@ -7517,6 +7646,30 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-bba9dd19a4744102"
+        }
+      ]
+    },
+    {
+      "id": "asset-bdb6c2ae6f31acbe4d11feb085f61998019057492807f0d61c34411cea7686f3",
+      "kind": "image/svg+xml",
+      "uses": [
+        {
+          "document": "cifre_significative_it.html",
+          "kind": "image/svg+xml",
+          "description": "Cassa a base rettangolare, con quote sui due lati adiacenti della base: a = 2,34 m; b = 1,2 m. Illustrazione generata; dati illustrativi, disegno non in scala.",
+          "locator": "fig-02",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "cassa-cifre-generata"
+        },
+        {
+          "document": "cifre_significative_it.html",
+          "kind": "image/svg+xml",
+          "description": "Cassa a base rettangolare, con quote sui due lati adiacenti della base: a = 2,34 m; b = 1,2 m. Illustrazione generata; dati illustrativi, disegno non in scala.",
+          "locator": "fig-02",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "cassa-cifre-generata"
         }
       ]
     },

@@ -1,0 +1,103 @@
+{
+  "browser": "Chromium, viewport emulati",
+  "combinazioni": [
+    {
+      "width": 320,
+      "theme": "light",
+      "overflow": false,
+      "formule": 12,
+      "tabelle": 3
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "overflow": false,
+      "formule": 12,
+      "tabelle": 3
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "formule": 12,
+      "tabelle": 3
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "formule": 12,
+      "tabelle": 3
+    },
+    {
+      "width": 768,
+      "theme": "light",
+      "overflow": false,
+      "formule": 12,
+      "tabelle": 3
+    },
+    {
+      "width": 768,
+      "theme": "dark",
+      "overflow": false,
+      "formule": 12,
+      "tabelle": 3
+    },
+    {
+      "width": 1024,
+      "theme": "light",
+      "overflow": false,
+      "formule": 12,
+      "tabelle": 3
+    },
+    {
+      "width": 1024,
+      "theme": "dark",
+      "overflow": false,
+      "formule": 12,
+      "tabelle": 3
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "overflow": false,
+      "formule": 12,
+      "tabelle": 3
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "formule": 12,
+      "tabelle": 3
+    }
+  ],
+  "errori": [],
+  "richieste_esterne": [],
+  "schermate": [
+    "copertina-light-390.png",
+    "tabella-light-390.png",
+    "schema-light-390.png",
+    "frazione-light-390.png",
+    "perimetro-light-390.png",
+    "copertina-dark-390.png",
+    "tabella-dark-390.png",
+    "schema-dark-390.png",
+    "frazione-dark-390.png",
+    "perimetro-dark-390.png",
+    "copertina-light-1440.png",
+    "tabella-light-1440.png",
+    "schema-light-1440.png",
+    "frazione-light-1440.png",
+    "perimetro-light-1440.png",
+    "copertina-dark-1440.png",
+    "tabella-dark-1440.png",
+    "schema-dark-1440.png",
+    "frazione-dark-1440.png",
+    "perimetro-dark-1440.png"
+  ],
+  "download": "identico byte per byte",
+  "offline": "HTML in memoria, rete bloccata; immagini e MathML disponibili",
+  "senza_javascript": "figure, zoom nativo e crediti disponibili; default scuro",
+  "html_sha256": "5596c2e53ddccf098462cbbe1cdce3dad715e4177a5e5b0bcf274592618654fe"
+}
