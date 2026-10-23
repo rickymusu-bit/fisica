@@ -119,3 +119,11 @@ Con «Ok genera» l'utente autorizza la realizzazione dal testo v3; sceglie poi 
 ### Quarto capitolo — pubblicazione autorizzata, HTML v2
 
 L'utente approva il capitolo, richiede il separatore prima dei sottomultipli e autorizza caricamento e pubblicazione. Separatore applicato e verificato; manifest v13 con 14 capitoli, inserimento al quarto posto, catalogo/crediti e navigazione adiacente aggiornati. Incluse le correzioni richieste a copertina del Metodo scientifico (nessuno zoom) ed esponenti di Potenze di dieci; regola nel master v69.9 e componente canonico. Crediti, build, 18 test e verifiche mirate da consolidare nel rapporto di pubblicazione. PR #65 da integrare dopo i controlli; deployment da verificare.
+
+## Quarto capitolo — rilascio completato — 23 ottobre 2026
+
+[PR #65](https://github.com/rickymusu-bit/fisica/pull/65) integrata al commit `910bcc2c23c174beb9b53e247c3e03a52c8107aa`, dopo il [controllo remoto 39967227556](https://github.com/rickymusu-bit/fisica/actions/runs/39967227556) riuscito. [Deployment Pages 39967950097](https://github.com/rickymusu-bit/fisica/actions/runs/39967950097) completato con successo. [Capitolo pubblicato](https://rickymusu-bit.github.io/fisica/prefissi_sistema_internazionale_it.html), HTML v2, quarto dell’area introduttiva, con separatore prima dei sottomultipli e copertina scelta dall’utente.
+
+Pubblicate anche le correzioni richieste: Metodo scientifico v12 senza zoom sulla copertina e Potenze di dieci v6 con esponenti nella posizione corretta. Regole registrate nel master v69.9 e in AGENTS.md. Controlli locali e remoti: tema, crediti, build, 18 test, 200 combinazioni pagina/viewport/tema e 20 copertine senza errori JavaScript. Nel browser locale file:// è bloccato dalla policy: verificato il contenuto in memoria con rete bloccata, senza dichiarare accesso locale non eseguito.
+
+Verifica HTTPS dopo il deployment: 18 pagine pubbliche HTTP 200, identiche byte per byte alla build; 11 indirizzi esclusi, storici o di anteprima HTTP 404. [Rapporto](../prefissi_sistema_internazionale/verifica-pubblicazione-online.json). Il primo controllo durante il deployment vedeva ancora la versione precedente; il controllo successivo al completamento è interamente riuscito. Nessuna attività di pubblicazione pendente.
