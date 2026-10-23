@@ -54,3 +54,7 @@ Un primo controllo ha individuato un overflow del nuovo riquadro con il minimo d
 Il nuovo standard è implementato e salvato sul ramo. Attendere l’approvazione della nuova anteprima prima di integrare main o pubblicare; non dedurla dall’autorizzazione a implementare. Il funzionamento del filmato sul servizio dipende dalle restrizioni di YouTube e dalla connessione; il link esterno resta il percorso alternativo.
 
 Documento di partenza dell’audit: commit d8f1492 del ramo della PR #63; il manifest resta identico a questo riferimento. La verifica completa del portale è stata eseguita dopo l’ultima modifica del codice del lettore, con esito positivo. Le schermate dei riquadri sono state riacquisite con scorrimento fermo e ispezionate.
+
+## Salvataggio remoto verificato
+
+Implementazione caricata al commit dbde455d67ce42427e517ecdd3486381f7c79bfc della PR #63. [Anteprima interattiva corrente](https://raw.githack.com/rickymusu-bit/fisica/dbde455d67ce42427e517ecdd3486381f7c79bfc/lavorazione/sito/video_youtube/index.html). Pagina di revisione, capitolo 3 e Conduzione rispondono HTTPS 200 e sono identici byte per byte ai file locali verificati: [rapporto](verifica-online.json). Il controllo automatico remoto del portale è stato avviato da GitHub Actions; le verifiche locali complete sono già superate. Il salvataggio successivo di questo rapporto non cambia gli HTML o le schermate. Nessun Pages o merge eseguito.

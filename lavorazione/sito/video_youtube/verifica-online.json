@@ -1,0 +1,29 @@
+[
+  {
+    "path": "lavorazione/sito/video_youtube/index.html",
+    "url": "https://raw.githack.com/rickymusu-bit/fisica/dbde455d67ce42427e517ecdd3486381f7c79bfc/lavorazione/sito/video_youtube/index.html",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 351572,
+    "identical": true,
+    "sha256": "da4d0c80e0da73fcfe653216f7502fed1c03e5d3bf5c27b60cf0c98dffece70c"
+  },
+  {
+    "path": "potenze_dieci_notazione_scientifica_it.html",
+    "url": "https://raw.githack.com/rickymusu-bit/fisica/dbde455d67ce42427e517ecdd3486381f7c79bfc/potenze_dieci_notazione_scientifica_it.html",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 534608,
+    "identical": true,
+    "sha256": "af778d2a3a4ffd4514974f207f8fb80aeed043a5e68735b9f19970fe4f885a3a"
+  },
+  {
+    "path": "conduzione_it.html",
+    "url": "https://raw.githack.com/rickymusu-bit/fisica/dbde455d67ce42427e517ecdd3486381f7c79bfc/conduzione_it.html",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 2275522,
+    "identical": true,
+    "sha256": "16754acfb4d68fa52f98209ca26e031f85efa31347ff9ccfd1882ef5b76e6445"
+  }
+]
