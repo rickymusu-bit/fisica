@@ -33,3 +33,7 @@ Aggiornamento: 2026-10-16 19:30 (Europe/Rome). Richiesta diretta dell’utente: 
 ## Nomi stabili
 
 Richiesta esplicita dell’utente: rimuovere versione e data dai nomi, conservandole nei documenti. File rinominati, inclusi gli eventuali materiali francesi e albanesi, con identità verificata e contenuti identici byte per byte; versioni interne invariate. Collegamenti correnti aggiornati; per le dispense italiane i vecchi indirizzi pubblici reindirizzano direttamente ai nomi stabili. [Mappa e hash](../sito/nomi-stabili.json). Nessuna revisione scientifica, immagine o simulazione nuova.
+
+## Video YouTube su richiesta — 23 ottobre 2026
+
+Richiesta esplicita dell’utente di adottare il lettore su richiesta e aggiornare tutti i capitoli. Migrati soltanto i riquadri dei video già presenti: titolo e icona senza immagini estratte, iframe youtube-nocookie.com creato solo al clic, niente autoplay, URL originale e collegamento esterno conservati, pulsante di chiusura, tastiera, fallback senza JavaScript e avviso Internet. Per i sorgenti storici e tradotti questa revisione circoscritta non modifica l’ammissione alla pubblicazione. Versione interna incrementata; data editoriale e contenuti estranei ai video conservati. Copia di lavorazione corrente riallineata dove presente; originali storici recuperabili in Git. Regole in MASTER_PROMPT.md v69.7, C5; componente canonico nel modello v23. Verifiche e ambito nella [revisione comune](../sito/video_youtube/stato.md). Nessun merge o deployment: anteprima corrente da approvare.

@@ -1,0 +1,358 @@
+{
+  "scope": "Tutti i capitoli HTML alla radice, compresi sorgenti esclusi e traduzioni; nessuna pubblicazione.",
+  "base_commit": "d8f14926c8fef61ba0a0435f9def49ecf90a3c6f",
+  "documents": [
+    {
+      "file": "bilancio_conservazione_rendimento_it.html",
+      "publication": "non pubblicato",
+      "video_urls": [],
+      "players": 0,
+      "changed_since_base": false,
+      "original_urls_preserved": true,
+      "before_sha256": "9fe80342094813db0d4300e52183bd8dc3cd3d0ff1a0a5113f01bf4e0913363c",
+      "after_sha256": "9fe80342094813db0d4300e52183bd8dc3cd3d0ff1a0a5113f01bf4e0913363c",
+      "html_video_tags": 0,
+      "remote_iframes": []
+    },
+    {
+      "file": "bilancio_termico_it.html",
+      "publication": "publicable",
+      "video_urls": [],
+      "players": 0,
+      "changed_since_base": false,
+      "original_urls_preserved": true,
+      "before_sha256": "051e339ac04fdf313d0539b17d6968ef0584c7dcfbee5d16b91a16d119482616",
+      "after_sha256": "051e339ac04fdf313d0539b17d6968ef0584c7dcfbee5d16b91a16d119482616",
+      "html_video_tags": 0,
+      "remote_iframes": []
+    },
+    {
+      "file": "conduzione_it.html",
+      "publication": "publicable",
+      "video_urls": [
+        "https://youtu.be/Sdpcjm2vmLY?is=jQY0_qg6RCA-Pd_9"
+      ],
+      "players": 1,
+      "changed_since_base": true,
+      "original_urls_preserved": true,
+      "before_sha256": "2cd9ab5d4d5852bd705f1350779dcc2179ce720709d47dd9419a6d0da9ae7372",
+      "after_sha256": "16754acfb4d68fa52f98209ca26e031f85efa31347ff9ccfd1882ef5b76e6445",
+      "html_video_tags": 0,
+      "remote_iframes": []
+    },
+    {
+      "file": "convezione_it.html",
+      "publication": "publicable",
+      "video_urls": [],
+      "players": 0,
+      "changed_since_base": false,
+      "original_urls_preserved": true,
+      "before_sha256": "817ead274f21a15ca79d3870091ae78cac4df5bb53184e8c6a05531bf8693ffb",
+      "after_sha256": "817ead274f21a15ca79d3870091ae78cac4df5bb53184e8c6a05531bf8693ffb",
+      "html_video_tags": 0,
+      "remote_iframes": []
+    },
+    {
+      "file": "dilatazione_termica_it.html",
+      "publication": "publicable",
+      "video_urls": [],
+      "players": 0,
+      "changed_since_base": false,
+      "original_urls_preserved": true,
+      "before_sha256": "1d4aa538a0ddc7dbd847040912b4dfc9aff643391a16fc86b5a96f30a935448d",
+      "after_sha256": "1d4aa538a0ddc7dbd847040912b4dfc9aff643391a16fc86b5a96f30a935448d",
+      "html_video_tags": 0,
+      "remote_iframes": []
+    },
+    {
+      "file": "energia_interna_calore_specifico_it.html",
+      "publication": "publicable",
+      "video_urls": [],
+      "players": 0,
+      "changed_since_base": false,
+      "original_urls_preserved": true,
+      "before_sha256": "7f553a9456652d7d188adaac3590afe3206d250c3ad1af9308583151baf54f62",
+      "after_sha256": "7f553a9456652d7d188adaac3590afe3206d250c3ad1af9308583151baf54f62",
+      "html_video_tags": 0,
+      "remote_iframes": []
+    },
+    {
+      "file": "grafici_piano_cartesiano_fr.html",
+      "publication": "non pubblicato",
+      "video_urls": [],
+      "players": 0,
+      "changed_since_base": false,
+      "original_urls_preserved": true,
+      "before_sha256": "3bbb204a676ba4424945c9c5eb311cc23b29a943c9af7dd6da941f250752ea93",
+      "after_sha256": "3bbb204a676ba4424945c9c5eb311cc23b29a943c9af7dd6da941f250752ea93",
+      "html_video_tags": 0,
+      "remote_iframes": []
+    },
+    {
+      "file": "grafici_piano_cartesiano_it.html",
+      "publication": "non pubblicato",
+      "video_urls": [],
+      "players": 0,
+      "changed_since_base": false,
+      "original_urls_preserved": true,
+      "before_sha256": "62625cb0a868423dce43d112f66f542990b22bbf78dade584d6ffcd32c6e699a",
+      "after_sha256": "62625cb0a868423dce43d112f66f542990b22bbf78dade584d6ffcd32c6e699a",
+      "html_video_tags": 0,
+      "remote_iframes": []
+    },
+    {
+      "file": "grafici_piano_cartesiano_sq.html",
+      "publication": "non pubblicato",
+      "video_urls": [],
+      "players": 0,
+      "changed_since_base": false,
+      "original_urls_preserved": true,
+      "before_sha256": "dddbdedd9d593824ca4eefa78be63b9eaf6b4c68ce71d2042891c31b7a062f6d",
+      "after_sha256": "dddbdedd9d593824ca4eefa78be63b9eaf6b4c68ce71d2042891c31b7a062f6d",
+      "html_video_tags": 0,
+      "remote_iframes": []
+    },
+    {
+      "file": "grandezze_fisiche_sistema_internazionale_it.html",
+      "publication": "publicable",
+      "video_urls": [],
+      "players": 0,
+      "changed_since_base": false,
+      "original_urls_preserved": true,
+      "before_sha256": "1df0034e6ea05d3ed157343b6600e077ac5300dffc049a7eb85d02a8084a68f1",
+      "after_sha256": "1df0034e6ea05d3ed157343b6600e077ac5300dffc049a7eb85d02a8084a68f1",
+      "html_video_tags": 0,
+      "remote_iframes": []
+    },
+    {
+      "file": "irraggiamento_it.html",
+      "publication": "publicable",
+      "video_urls": [],
+      "players": 0,
+      "changed_since_base": false,
+      "original_urls_preserved": true,
+      "before_sha256": "31f67a19baae9e3f95bed9846f49c0e0f89d86a6abd5b3811915870c8b3275c9",
+      "after_sha256": "31f67a19baae9e3f95bed9846f49c0e0f89d86a6abd5b3811915870c8b3275c9",
+      "html_video_tags": 0,
+      "remote_iframes": []
+    },
+    {
+      "file": "lavoro_energie_potenza_it.html",
+      "publication": "non pubblicato",
+      "video_urls": [],
+      "players": 0,
+      "changed_since_base": false,
+      "original_urls_preserved": true,
+      "before_sha256": "680c50401a541174456353fa7a6657a160f116c193592b21764e050a8413810b",
+      "after_sha256": "680c50401a541174456353fa7a6657a160f116c193592b21764e050a8413810b",
+      "html_video_tags": 0,
+      "remote_iframes": []
+    },
+    {
+      "file": "metodo_scientifico_fr.html",
+      "publication": "non pubblicato",
+      "video_urls": [],
+      "players": 0,
+      "changed_since_base": false,
+      "original_urls_preserved": true,
+      "before_sha256": "7effed5a910fde964310243193d68a2fd4a4c61ec9b0be02f67ad1a40bd06bb1",
+      "after_sha256": "7effed5a910fde964310243193d68a2fd4a4c61ec9b0be02f67ad1a40bd06bb1",
+      "html_video_tags": 0,
+      "remote_iframes": []
+    },
+    {
+      "file": "metodo_scientifico_it.html",
+      "publication": "publicable",
+      "video_urls": [],
+      "players": 0,
+      "changed_since_base": false,
+      "original_urls_preserved": true,
+      "before_sha256": "bb50dd296a47225bac481f7cf680cf02314bc047b177ad7fdf32b0c8663be63a",
+      "after_sha256": "bb50dd296a47225bac481f7cf680cf02314bc047b177ad7fdf32b0c8663be63a",
+      "html_video_tags": 0,
+      "remote_iframes": []
+    },
+    {
+      "file": "metodo_scientifico_sq.html",
+      "publication": "non pubblicato",
+      "video_urls": [],
+      "players": 0,
+      "changed_since_base": false,
+      "original_urls_preserved": true,
+      "before_sha256": "e9b1fbe9f4164f9c53210bab23645e9a18a87cc29412ae303eb0ce429602ba4d",
+      "after_sha256": "e9b1fbe9f4164f9c53210bab23645e9a18a87cc29412ae303eb0ce429602ba4d",
+      "html_video_tags": 0,
+      "remote_iframes": []
+    },
+    {
+      "file": "passaggi_di_stato.html",
+      "publication": "publicable",
+      "video_urls": [],
+      "players": 0,
+      "changed_since_base": false,
+      "original_urls_preserved": true,
+      "before_sha256": "e5f2b82eb241c785e2bfe3898800edbc8b20b02386502dd889f583ad345263ff",
+      "after_sha256": "e5f2b82eb241c785e2bfe3898800edbc8b20b02386502dd889f583ad345263ff",
+      "html_video_tags": 0,
+      "remote_iframes": []
+    },
+    {
+      "file": "potenza_termica_conduzione_convezione_it.html",
+      "publication": "non pubblicato",
+      "video_urls": [
+        "https://youtu.be/Sdpcjm2vmLY?is=jQY0_qg6RCA-Pd_9"
+      ],
+      "players": 1,
+      "changed_since_base": true,
+      "original_urls_preserved": true,
+      "before_sha256": "76ac158b53b86fa15d4c7826e87346f29ada4519d77727c35800a2e882083435",
+      "after_sha256": "ed55eb7e7885479359906356217888bfa81b7194381b07e8c3d4c3ab6a0b8144",
+      "html_video_tags": 0,
+      "remote_iframes": []
+    },
+    {
+      "file": "potenze_dieci_notazione_scientifica_it.html",
+      "publication": "non pubblicato",
+      "video_urls": [
+        "https://www.youtube.com/watch?v=0fKBhvDjuy0",
+        "https://www.youtube.com/watch?v=oSCX78-8-q0"
+      ],
+      "players": 2,
+      "changed_since_base": true,
+      "original_urls_preserved": true,
+      "before_sha256": "5909d08d90d12e1b5dc787c7163482b368cc6f63dc5550a5fa6c2f8f6f540d88",
+      "after_sha256": "af778d2a3a4ffd4514974f207f8fb80aeed043a5e68735b9f19970fe4f885a3a",
+      "html_video_tags": 0,
+      "remote_iframes": []
+    },
+    {
+      "file": "sistema_internazionale_notazione_fr.html",
+      "publication": "non pubblicato",
+      "video_urls": [
+        "https://www.youtube.com/watch?v=0fKBhvDjuy0",
+        "https://www.youtube.com/watch?v=oSCX78-8-q0"
+      ],
+      "players": 2,
+      "changed_since_base": true,
+      "original_urls_preserved": true,
+      "before_sha256": "e65bbf20526ee12330570696a9050bfb5cd2f42760d513ff09806b858b2d9f87",
+      "after_sha256": "086b6c514538b02f657101d32e152749ab4ead5589e2ddb5714136b9b1815808",
+      "html_video_tags": 0,
+      "remote_iframes": []
+    },
+    {
+      "file": "sistema_internazionale_notazione_it.html",
+      "publication": "non pubblicato",
+      "video_urls": [
+        "https://www.youtube.com/watch?v=0fKBhvDjuy0",
+        "https://www.youtube.com/watch?v=oSCX78-8-q0"
+      ],
+      "players": 2,
+      "changed_since_base": true,
+      "original_urls_preserved": true,
+      "before_sha256": "1647a95dec65fb9c109d750045d04cad7a5680cba997aaf7ce65d1479c40380f",
+      "after_sha256": "783926ed0b281f19ecae531d4698be4b70860735e4ee838ddded1a337e8777bf",
+      "html_video_tags": 0,
+      "remote_iframes": []
+    },
+    {
+      "file": "sistema_internazionale_notazione_sq.html",
+      "publication": "non pubblicato",
+      "video_urls": [
+        "https://www.youtube.com/watch?v=0fKBhvDjuy0",
+        "https://www.youtube.com/watch?v=oSCX78-8-q0"
+      ],
+      "players": 2,
+      "changed_since_base": true,
+      "original_urls_preserved": true,
+      "before_sha256": "a89f59b885b534ecd126c98b430245cead805698ce67407105855edd7241b012",
+      "after_sha256": "33cd347b1bc4368719af349f22d667db659e4805e8ab5c839ef19a02e9387746",
+      "html_video_tags": 0,
+      "remote_iframes": []
+    },
+    {
+      "file": "stati_della_materia.html",
+      "publication": "publicable",
+      "video_urls": [],
+      "players": 0,
+      "changed_since_base": false,
+      "original_urls_preserved": true,
+      "before_sha256": "1564e3e4067d5e59486b68ddca2c92ba50da181dc92d865995c41febc488d8bd",
+      "after_sha256": "1564e3e4067d5e59486b68ddca2c92ba50da181dc92d865995c41febc488d8bd",
+      "html_video_tags": 0,
+      "remote_iframes": []
+    },
+    {
+      "file": "stati_della_materia_e_passaggi_di_stato.html",
+      "publication": "non pubblicato",
+      "video_urls": [],
+      "players": 0,
+      "changed_since_base": false,
+      "original_urls_preserved": true,
+      "before_sha256": "dcd051a8608d2c3e37b988ce43eb189eaf1e1b208c27eb800477aba17a6f8ec2",
+      "after_sha256": "dcd051a8608d2c3e37b988ce43eb189eaf1e1b208c27eb800477aba17a6f8ec2",
+      "html_video_tags": 0,
+      "remote_iframes": []
+    },
+    {
+      "file": "strumenti_errori_incertezza_fr.html",
+      "publication": "non pubblicato",
+      "video_urls": [],
+      "players": 0,
+      "changed_since_base": false,
+      "original_urls_preserved": true,
+      "before_sha256": "69de6694ad8db027e32fe49b0f15e755c7bf3bad3371094cc15ee8d082d5950b",
+      "after_sha256": "69de6694ad8db027e32fe49b0f15e755c7bf3bad3371094cc15ee8d082d5950b",
+      "html_video_tags": 0,
+      "remote_iframes": []
+    },
+    {
+      "file": "strumenti_errori_incertezza_it.html",
+      "publication": "non pubblicato",
+      "video_urls": [],
+      "players": 0,
+      "changed_since_base": false,
+      "original_urls_preserved": true,
+      "before_sha256": "5d0eeb27dfb8101f4dc5600f0d2baa021382dd65f0e7cba7cacd86c47d4371dd",
+      "after_sha256": "5d0eeb27dfb8101f4dc5600f0d2baa021382dd65f0e7cba7cacd86c47d4371dd",
+      "html_video_tags": 0,
+      "remote_iframes": []
+    },
+    {
+      "file": "strumenti_errori_incertezza_sq.html",
+      "publication": "non pubblicato",
+      "video_urls": [],
+      "players": 0,
+      "changed_since_base": false,
+      "original_urls_preserved": true,
+      "before_sha256": "59a81af9307c3e745ad6e430633829445654618168cbea6e967f682cdce67dca",
+      "after_sha256": "59a81af9307c3e745ad6e430633829445654618168cbea6e967f682cdce67dca",
+      "html_video_tags": 0,
+      "remote_iframes": []
+    },
+    {
+      "file": "temperatura_equilibrio_termico_it.html",
+      "publication": "publicable",
+      "video_urls": [],
+      "players": 0,
+      "changed_since_base": false,
+      "original_urls_preserved": true,
+      "before_sha256": "f091d499f89d3e1d946584da44ab81e139669599884d140081201e1387154860",
+      "after_sha256": "f091d499f89d3e1d946584da44ab81e139669599884d140081201e1387154860",
+      "html_video_tags": 0,
+      "remote_iframes": []
+    },
+    {
+      "file": "termodinamica_sistemi_it.html",
+      "publication": "publicable",
+      "video_urls": [],
+      "players": 0,
+      "changed_since_base": false,
+      "original_urls_preserved": true,
+      "before_sha256": "cf4072f06c1d8abf234d102bfb0bd38b457f885b4965e69cd9757eda72d06f79",
+      "after_sha256": "cf4072f06c1d8abf234d102bfb0bd38b457f885b4965e69cd9757eda72d06f79",
+      "html_video_tags": 0,
+      "remote_iframes": []
+    }
+  ]
+}

@@ -118,3 +118,7 @@ Pubblicazione autorizzata dall’utente con «Ok pubblica». Aggiornata esclusiv
 ## Navigazione per la pubblicazione del capitolo sulle grandezze — 22 ottobre 2026
 
 Richiesta esplicita dell’utente di integrare e pubblicare la PR #59 dopo l’approvazione dell’anteprima. Aggiornato soltanto il rimando adiacente per la sequenza Metodo scientifico → Grandezze fisiche e SI → Sistemi termodinamici; versione interna incrementata, data editoriale e corpo didattico conservati. Dettagli e verifiche in `../grandezze_fisiche_sistema_internazionale/stato.md`.
+
+## Collegamenti per la pubblicazione del capitolo 3 — 23 ottobre 2026
+
+L’utente autorizza esplicitamente il merge e la pubblicazione nella PR #63. HTML v13: aggiornato soltanto il collegamento al nuovo capitolo «Le potenze di dieci e la notazione scientifica», senza modificare contenuti scientifici o data editoriale. Copia bozza.html riallineata; navigazione reciproca, tema, crediti e build verificati.

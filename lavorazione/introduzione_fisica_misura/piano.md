@@ -50,3 +50,34 @@ L'utente ha approvato lo schema interattivo con sei fasi e spiegazioni contestua
 **Le grandezze fisiche e il Sistema internazionale**, file autonomo `grandezze_fisiche_sistema_internazionale_it.html`: testo, tre immagini e anteprima approvati. L’utente richiede esplicitamente merge e pubblicazione nella PR #59. Inserimento al secondo posto dopo Il metodo scientifico; seguono i capitoli di Termologia già pubblicati. Il vecchio sorgente unificato `sistema_internazionale_notazione_it.html` resta escluso e invariato. [Stato e verifiche](../grandezze_fisiche_sistema_internazionale/stato.md).
 
 La PR #59 è stata integrata al commit `213ced3645d68affd3212603d2d8c2a9d4c6136f`; workflow Pages 39849357978 riuscito. [Capitolo pubblicato](https://rickymusu-bit.github.io/fisica/grandezze_fisiche_sistema_internazionale_it.html), al secondo posto dell’area dopo Il metodo scientifico. Catalogo, crediti e navigazione reciproca verificati online; i sorgenti storici esclusi restano non pubblicati.
+
+## Terzo capitolo — progettazione avviata il 23 ottobre 2026
+
+**Le potenze di dieci e la notazione scientifica**. Verificato il sorgente unificato v11, sezione `#scale`; definiti i confini rispetto ai capitoli 2, 4 e 5 e la ripartizione dei quesiti originali. Proposta: riutilizzare la foto della Terra come copertina, le tabelle delle scale e del confronto fra notazioni, le micrografie e i due video pertinenti; aggiungere una tabella numerica per gli esponenti positivi, zero e negativi. Provenienza e licenze non documentate restano da verificare.
+
+[Stato e proposta visuali](../potenze_dieci_notazione_scientifica/stato.md), sul ramo `lavorazione/potenze-dieci-notazione-scientifica` derivato da main. Fase corrente: scelta delle visuali prima della bozza, secondo B1.1 del master. Nessuna bozza o realizzazione HTML approvata; nessuna modifica alla pubblicazione o ai sorgenti storici.
+
+### Terzo capitolo — bozza v1 pronta
+
+L’utente approva l’impostazione con «Procedi». Completata la [bozza v1](../potenze_dieci_notazione_scientifica/bozza.md), con otto domande finali, segnaposto dei materiali concordati e fonti dei dati nella sezione di servizio. Chiarito il criterio degli ordini di grandezza e corretti i valori di scala delle masse quando necessario; registrate le modifiche rispetto al sorgente. Le attribuzioni mancanti delle fotografie e i diritti delle miniature restano da verificare prima dell’integrazione.
+Fase corrente: approvazione del testo; realizzazione HTML e pubblicazione non ancora avviate. [PR #63 in bozza](https://github.com/rickymusu-bit/fisica/pull/63).
+
+### Terzo capitolo — bozza v2 corretta su richiesta
+
+Rimossa la sezione finale sulla fotografia e le micrografie; conservato A Boy and His Atom nella sezione di confronto. Unica tabella degli ordini di grandezza dedicata alle lunghezze, senza cratere: aggiunti DNA disteso di una cellula umana (circa 2 m, ordine 10⁰ m) e riferimento globale delle fibre ottiche per telecomunicazioni (oltre 5 miliardi di km nella fonte, scala 10¹³ m). Etichetta e nota distinguono il conteggio delle fibre dal totale dei percorsi o di tutti i cavi anche in rame. Fonti, nota e ottavo quesito aggiornati. [Bozza v2](../potenze_dieci_notazione_scientifica/bozza.md) da approvare; HTML e pubblicazione non avviati.
+
+### Terzo capitolo — testo approvato e anteprima realizzata
+
+L’utente approva la bozza v2 con «Approvato, procedi». Realizzato HTML autonomo v1 dal modello Stringhe v22, con tre tabelle, due video esterni, undici formule e otto quesiti. Crediti e build verificati; browser a cinque larghezze in chiaro/scuro, note, indice, download e autonomia controllati. [HTML corrente](../potenze_dieci_notazione_scientifica/bozza.html), [stato e schermate](../potenze_dieci_notazione_scientifica/stato.md). Provenienza della copertina e diritti delle miniature ereditate ancora da risolvere prima del rilascio. PR #63 in bozza; manifest, catalogo, main e sito pubblico invariati. Attesa della revisione dell’anteprima corrente.
+
+### Terzo capitolo — copertina documentata, HTML v2
+
+Sostituita su richiesta la copertina con Map of Jupiter.jpg, scelta dall’utente e incorporata senza ritagli. Fonte NASA/JPL/Space Science Institute e pubblico dominio documentati; didascalia della mappa polare corretta. Testo didattico invariato, crediti/build e browser mobile/desktop verificati, schermate aggiornate. [Stato corrente](../potenze_dieci_notazione_scientifica/stato.md). Restano da verificare soltanto i diritti delle miniature video; PR #63 ancora in bozza.
+
+### Terzo capitolo — lettori YouTube su richiesta
+
+Su richiesta dell’utente, HTML v3 e bozza v4 sostituiscono le miniature con il componente comune del modello v23: lettore youtube-nocookie.com soltanto dopo il clic, nessun autoplay, collegamento esterno sempre disponibile e chiusura del lettore. Nessuna immagine estratta dai video rimane da attribuire. Regole in MASTER_PROMPT.md v69.7, C5; [audit di tutti i capitoli](../sito/video_youtube/stato.md). Anteprima corrente da approvare; catalogo e pubblicazione invariati.
+
+## Pubblicazione approvata — 23 ottobre 2026
+
+L’utente approva esplicitamente l’anteprima corrente con «Approvo. Fai la pr e pubblica». Autorizzati completamento e merge della PR #63 e deployment Pages; superata l’attesa di approvazione indicata nei resoconti precedenti. Nuovo capitolo HTML v4, contenuto didattico identico all’anteprima v3: aggiunto soltanto il rimando al capitolo successivo. Manifest v12 con 13 capitoli; inserimento al terzo posto dell’area introduttiva, catalogo e pagina dei crediti aggiornati. Navigazione reciproca con Sistema internazionale (v5) e Termodinamica (v13), con copie correnti riallineate e date editoriali conservate. Nessuna riammissione degli HTML storici o tradotti. Verificati contenuti identici al netto di versione/navigazione, navigazione dei 13 capitoli ed esclusioni. Tema, crediti, migrazione video --check, build e 17 test superati. Merge e verifica del deployment da completare.

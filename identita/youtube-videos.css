@@ -1,0 +1,18 @@
+/* Video remoti: nessuna immagine o connessione richiesta prima dell'attivazione. */
+.youtube-player{width:100%;max-width:100%;color:var(--ink,#202637);background:var(--surface,#fff);text-align:left}
+.youtube-player,.youtube-player *{box-sizing:border-box}
+.youtube-stage{position:relative;display:flex;align-items:center;justify-content:center;width:100%;max-width:100%;aspect-ratio:16/9;min-width:200px;min-height:200px;overflow:hidden;border:1px solid var(--line,#c7cad2);border-radius:10px;background:var(--surface-soft,#f4f4f5)}
+.youtube-load{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;width:100%;min-height:200px;align-self:stretch;margin:0;padding:20px;border:0;background:transparent;color:inherit;font:inherit;text-align:center;cursor:pointer}
+.youtube-load[hidden]{display:none}
+.youtube-load:hover{background:var(--surface,#fff)}
+.youtube-load:focus-visible,.youtube-fallback:focus-visible{outline:3px solid var(--accent,#2459a7);outline-offset:-4px}
+.youtube-play{display:flex;align-items:center;justify-content:center;flex-shrink:0;width:64px;height:48px;border-radius:12px;background:#2459a7;color:#fff;font-size:0;line-height:1}
+.youtube-play:after{content:'';border-left:16px solid #fff;border-top:10px solid transparent;border-bottom:10px solid transparent;margin-left:3px}
+.youtube-name{font-weight:600;max-width:100%;overflow-wrap:anywhere}
+.youtube-load-label{font-size:.9em}
+.youtube-stage iframe{display:block;width:100%;height:100%;min-height:200px;position:absolute;inset:0;border:0;border-radius:inherit;background:#000}
+.youtube-fallback{display:inline-flex;align-items:center;min-height:44px;padding:4px 0;gap:8px;color:var(--accent,#2459a7);text-decoration:underline;text-underline-offset:3px}
+.youtube-notice{font-size:14px;line-height:1.6;color:var(--muted,#525b6d);margin:4px 0 12px!important}
+.youtube-stop{font:inherit;color:var(--accent,#2459a7);background:var(--surface,#fff);border:1px solid var(--line,#c7cad2);border-radius:8px;min-height:44px;padding:8px 12px;cursor:pointer;margin-left:12px}
+.youtube-stop[hidden]{display:none}
+.youtube-stop:focus-visible{outline:3px solid var(--accent,#2459a7);outline-offset:2px}

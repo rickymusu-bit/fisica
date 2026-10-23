@@ -23,7 +23,7 @@ from stringhe_theme import navigation_header
 NAME = 'grandezze_fisiche_sistema_internazionale_it.html'
 TITLE = 'Le grandezze fisiche e il Sistema internazionale'
 AREA = 'Introduzione alla fisica e alla misura'
-VERSION = 'v4'
+VERSION = 'v5'
 DATE = '2026-10-23'
 DATE_LABEL = '23 ottobre 2026'
 COMMONS = 'https://commons.wikimedia.org/wiki/File:'
@@ -172,8 +172,8 @@ def render():
     navigation = ('<nav class="chapter-navigation" aria-label="Navigazione tra capitoli">'
                   '<a rel="prev" href="metodo_scientifico_it.html" data-site-path="metodo_scientifico_it.html">'
                   '<span>← Capitolo precedente</span><small>Il metodo scientifico</small></a>'
-                  '<a rel="next" href="termodinamica_sistemi_it.html" data-site-path="termodinamica_sistemi_it.html">'
-                  '<span>Capitolo successivo →</span><small>La termodinamica e i sistemi termodinamici</small></a></nav>')
+                  '<a rel="next" href="potenze_dieci_notazione_scientifica_it.html" data-site-path="potenze_dieci_notazione_scientifica_it.html">'
+                  '<span>Capitolo successivo →</span><small>Le potenze di dieci e la notazione scientifica</small></a></nav>')
     template = template.replace('<!-- chapter-navigation:end -->', navigation + '<!-- chapter-navigation:end -->', 1)
     return apply_media_controls(template)
 

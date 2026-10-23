@@ -1,0 +1,71 @@
+{
+  "html_sha256": "daef8487e47b99a196a2abdc7683727265d4ae102aa91bfc4a74a3960000d34b",
+  "bytes": 525157,
+  "views": [
+    {
+      "width": 320,
+      "theme": "dark",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "theme": "dark",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "theme": "light",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "width": 1024,
+      "theme": "dark",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "width": 1024,
+      "theme": "light",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "overflow": false,
+      "errors": []
+    }
+  ],
+  "offline_embedded_images": true,
+  "theme_menu_buttons": true,
+  "note_2_roundtrip": true,
+  "credits_check": "passed: 30 documenti, 145 schede, 223 asset",
+  "pages_build": "passed: 17 HTML e 20 copertine; capitolo nuovo escluso dal manifest"
+}
