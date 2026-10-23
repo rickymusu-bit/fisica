@@ -242,7 +242,7 @@ def render():
     for node in doc.root.descendants():
         if node.tag=='title':edits.append((node.start,node.end,'<title>' + TITLE + ' — Stringhe</title>'))
         elif node.tag=='meta' and node.attrs.get('name') in {'version','date','description'}:
-            val={'version':'v4','date':'2026-10-23','description':'Cifre significative, zeri, arrotondamento e regole nei calcoli con misure, con esempi e procedure.'}[node.attrs['name']]
+            val={'version':'v4','date':'2026-10-23T17:11:05Z','description':'Cifre significative, zeri, arrotondamento e regole nei calcoli con misure, con esempi e procedure.'}[node.attrs['name']]
             edits.append((node.start,node.end,'<meta name="' + node.attrs['name'] + '" content="' + val + '">'))
         elif node.tag=='figure' and node.has_class('cover'):edits.append((node.start,node.end,cover))
         elif node.tag=='article' and node.has_class('article'):

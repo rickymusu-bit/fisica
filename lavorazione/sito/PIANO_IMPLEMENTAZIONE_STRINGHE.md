@@ -6,7 +6,11 @@
 **Ramo di lavoro attuale:** `design/stringhe-portale` (PR #43, bozza).
 **Scopo di questo documento:** consegnare a Codex un elenco eseguibile di interventi sul portale, non richiedere la pubblicazione in `main`.
 
-## Correzione successiva — copertina e logo
+## Correzione corrente — Novità e allineamento della copertina
+
+Richiesta del 23 ottobre 2026: foto e didascalia sotto titolo e sottotitolo, sullo stesso margine sinistro anche su desktop. Questa disposizione sostituisce il precedente affiancamento desktop. Immagini intere e proporzioni conservate. Le Novità distinguono le pubblicazioni dello stesso giorno mediante orari ISO 8601 con fuso nei metadati editoriali; date visibili in Europe/Rome. Anteprima da approvare prima della pubblicazione.
+
+## Correzione precedente — copertina e logo
 
 La precisazione più recente dell’utente richiede titolo, logo e copertina fotografica in una sola card senza onde laterali; la foto scende sotto al titolo su mobile ed è affiancata su desktop. Didascalia sempre allineata al bordo sinistro dell’immagine effettivamente visibile. Questa disposizione sostituisce la proposta intermedia di card separate. Il logo aggiunge una curva con gradiente blu in opposizione di fase alla curva nera originale, senza cambiarne geometria o movimento. Questa richiesta supera il precedente vincolo del logo esclusivamente monocromatico; non estende gli aggiornamenti ai sorgenti sospesi e non autorizza la pubblicazione ufficiale. Modello comune aggiornato a v13.
 
@@ -146,3 +150,4 @@ Realizzare una **pagina di confronto** `lavorazione/sito/anteprima-bordi-stringh
 8. Solo dopo scelta esplicita dell'utente: adottare la variante definitiva e proporre l'integrazione in `main`.
 
 **Definizione di completato per questa fase:** anteprima funzionante con logo originale, foto casuale e pulsanti conservati; due varianti di bordi effettivamente confrontabili in chiaro/scuro; tema opzionale persistente; Quiz presentato correttamente come futura funzione distinta; test superati. La pubblicazione in `main` non fa parte di questa fase.
+

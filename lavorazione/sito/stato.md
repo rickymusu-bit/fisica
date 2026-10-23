@@ -1,5 +1,10 @@
 # Stato — Home e GitHub Pages
 
+## Revisione corrente — Novità e copertina allineata a sinistra
+
+23 ottobre 2026. Master v69.11. Ramo `fix/home-novita-allineamento`, derivato da main `cb81358eba8babeef0e7c170a126954b767ae242`. Richiesta: far apparire il capitolo 5 appena pubblicato nelle Novità e allineare foto/didascalia con titolo e sottotitolo. Causa: date editoriali uguali, spareggio per posizione nel catalogo. Correzione: timestamp ISO 8601 con fuso, compatibile con date storiche; capitolo 5 riallineato all’orario effettivo Pages `2026-10-23T17:11:05Z`. Nessuna modifica al contenuto didattico. Copertina sotto titolo/sottotitolo con margine sinistro comune su ogni schermo, venti foto intere e proporzionali. Tema canonico sincronizzato, modello v24. Verifiche e anteprima in preparazione; nessuna approvazione o pubblicazione ufficiale di questa revisione.
+
+
 ## Revisione corrente — profilo della parete caricato nel repository
 
 Richiesta: sostituire l’immagine del profilo della temperatura nel muro con il nuovo file caricato. Recuperato dalla PR #51 lo SVG originale `parete-temperatura-profilo-curvo.svg`, aria interna a 25 °C ed esterna a −5 °C, raccordi curvi nell’aria e retta nel muro. Incorporato senza modifiche nella vista normale e nello zoom di Conduzione v8. Didascalia e paragrafo adiacente allineati: i 30 K riguardano l’aria, non automaticamente le due facce usate dalla legge di Fourier. Esercizi e altri visuali invariati. Crediti del nuovo SVG associati; credito del PNG sostituito rimosso dagli avvisi correnti e conservato nello storico. Script d’integrazione corretto per il percorso del repository e per preservare i comandi a icona senza dipendenze aggiuntive. Ramo della PR #51 aggiornato con main dopo PR #49; nessun merge o Pages autorizzato. Tema e crediti allineati, build, controllo d’idempotenza dello script e quattordici test superati. Browser verificato a 390 e 1440 px in chiaro/scuro, con apertura e chiusura dello zoom da tastiera; SVG incorporato identico all’originale, altri media e canvas invariati, nessun overflow o errore JavaScript. Schermate `profilo-parete-*`. PR #51 in bozza: generazione dell’anteprima aggiornata e attesa dell’approvazione esplicita prima di pubblicare.
@@ -343,3 +348,4 @@ Salvata la revisione al commit b4efd2f2588f951957a9c9897ca6bfd1f8908bcd nella [P
 ## Collegamento Stringhe pubblicato — 23 ottobre 2026
 
 L’utente approva l’anteprima della PR #64 con «Vai», autorizzando merge e pubblicazione. [Controllo GitHub 39926790745](https://github.com/rickymusu-bit/fisica/actions/runs/39926790745) riuscito; PR pronta e integrata al commit `bb7e6c517e1d4c630c116e0b3a081bac5ce20d2a`. [Pages 39927299105](https://github.com/rickymusu-bit/fisica/actions/runs/39927299105) riuscito. Home ufficiale HTTP 200, identica byte per byte alla build controllata; unico collegamento del titolo «Stringhe» a index.html, destinazione HTTP 200. Rapporto in `lavorazione/sito/link_stringhe/verifica-online.json`. Incarico concluso; le attese di approvazione riportate sopra per questa modifica sono superate.
+

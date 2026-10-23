@@ -123,13 +123,13 @@ a{color:inherit}button,input,select{font:inherit}button,select{color:var(--ink)}
 
 /* Home: titolo e fotografia nella stessa card, senza decorazioni laterali. */
 :root[data-edge=sides] .home-title:before,:root[data-edge=sides] .home-title:after{content:none;display:none}
-:root[data-edge=sides] .home-intro{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;gap:32px;padding:clamp(20px,3vw,40px)}
+:root[data-edge=sides] .home-intro{display:grid;grid-template-columns:minmax(0,1fr);align-items:start;gap:28px;padding:clamp(20px,3vw,40px)}
 .home-intro .hero-copy{min-width:0}
 .home-intro .hero-title h1{font-size:clamp(36px,5vw,68px)}
-.home-intro .home-cover{--cover-height:360px;inline-size:min(100%,calc(var(--cover-ratio) * var(--cover-height)));min-width:0;max-width:100%;margin:0;justify-self:center;border:0;border-radius:0;padding:0;background:transparent;overflow:visible}
+.home-intro .home-cover{--cover-height:360px;inline-size:min(100%,calc(var(--cover-ratio) * var(--cover-height)));min-width:0;max-width:100%;margin:0;justify-self:start;border:0;border-radius:0;padding:0;background:transparent;overflow:visible}
 .home-intro .home-cover img{display:block;width:100%;max-width:100%;height:auto;object-fit:contain;background:transparent}
 .home-intro .home-cover figcaption{margin:10px 0 0;padding:0;width:100%;text-align:left;color:var(--muted);font-size:13px;line-height:1.5;background:transparent}
-@media(max-width:900px){:root[data-edge=sides] .home-intro{grid-template-columns:minmax(0,1fr);gap:28px}.home-intro .home-cover{--cover-height:320px}}
+@media(max-width:900px){.home-intro .home-cover{--cover-height:320px}}
 
 /* Sottotitolo della home nella tinta blu del tema. */
 .home-intro .subtitle{color:var(--accent)}
