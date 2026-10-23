@@ -120,3 +120,11 @@ Schermate correnti: [desktop](anteprima-1440.png), [mobile](anteprima-390.png), 
 Limite materiale ancora aperto: la copertina incorporata nel sorgente e le miniature originali non hanno attribuzioni/licenze individuali documentate. Ispezionata l’immagine e verificati i metadati disponibili; ricerca di provenienza breve non conclusiva. Non attribuita per somiglianza a uno scatto NASA. Riutilizzo approvato conservato nell’anteprima e segnalato nei crediti; la verifica dei diritti resta necessaria prima della pubblicazione. Non dichiarare il controllo tecnico dei crediti come certificazione delle licenze.
 
 PR #63 mantenuta in bozza, nessun merge né Pages. Prossima operazione: consegnare l’anteprima HTML corrente e le schermate; raccogliere le osservazioni e l’approvazione dell’anteprima secondo AGENTS.md/B5. Risolvere le provenienze mancanti prima di un rilascio ufficiale.
+
+### Salvataggio remoto e consegna dell’anteprima
+
+Realizzazione caricata e verificata sul ramo al commit `392e1bb3dbfe1e471ba7d0599463c83852c12450` nella PR #63, tuttora in bozza. [Anteprima interattiva corrente](https://raw.githack.com/rickymusu-bit/fisica/392e1bb3dbfe1e471ba7d0599463c83852c12450/potenze_dieci_notazione_scientifica_it.html): HTTPS 200, Content-Type text/html, 525157 byte identici al documento locale verificato. [Rapporto HTTPS](verifica-anteprima-online.json). Il primo client Python era rifiutato dal servizio con errore 1010; la verifica con identificativo browser ordinario è riuscita, senza cambiare proxy o policy.
+
+Superati anche i 14 test unitari esistenti (`python3 -m unittest discover -s scripts -p 'test_*.py'`) e `git diff --check`. Il precedente tentativo di discovery nella cartella inesistente tests non costituiva un test eseguito; usata poi la suite effettiva in scripts. Nessuna modifica di test esistenti, tema condiviso o capitoli pubblicati.
+
+Il solo salvataggio successivo del rapporto e di questo resoconto non cambia l’HTML dell’anteprima, le schermate o il manifest. Nessun deployment ufficiale avviato. Restano da approvare l’anteprima e da risolvere i diritti dei media ereditati prima di pubblicare.
