@@ -1,7 +1,7 @@
 # Stato — Le potenze di dieci e la notazione scientifica
 
 Ultimo aggiornamento: 23 ottobre 2026 (Europe/Rome).
-Fase: progettazione dei contenuti e proposta visuali pronta per la scelta dell’utente.
+Fase corrente: bozza v1 completata, in attesa di approvazione del testo. Le sezioni di proposta iniziale sotto riportate conservano la progettazione; l’avanzamento finale registra l’approvazione ricevuta.
 Ramo dedicato da main: `lavorazione/potenze-dieci-notazione-scientifica`.
 Piano di riferimento: [capitolo 3 del percorso](../introduzione_fisica_misura/piano.md).
 Area tematica: **Introduzione alla fisica e alla misura**.
@@ -73,3 +73,17 @@ Non sono stati eseguiti controlli browser, build o credits.py: le modifiche rigu
 
 Presentare la proposta all’utente e raccogliere la scelta delle visuali. Poi verificare i dati delle tabelle e i materiali scelti, scrivere la bozza completa soltanto in `bozza.md` sullo stesso ramo, con segnaposto identificabili, e sottoporla all’approvazione. Dopo l’approvazione del testo, fornire la stima ripartita e attendere il via alla realizzazione HTML secondo B1.1.
 Nessun HTML, ricerca o generazione di immagini, modifica al catalogo, merge o deployment è autorizzato da questa fase.
+
+## Avanzamento — impostazione approvata e bozza v1
+
+L’utente ha risposto **«Procedi»** alla proposta di riuso dei materiali e alla richiesta di procedere alla bozza. Questa risposta approva l’impostazione presentata e autorizza la stesura; non costituisce approvazione del testo ancora da leggere, via all’HTML o autorizzazione alla pubblicazione.
+
+Completata [bozza.md](bozza.md), v1, 23 ottobre 2026: apertura sul confronto Terra/atomo; esponenti positivi, zero e negativi; forma scientifica e normalizzazione; breve distinzione dalla notazione ingegneristica; confronto fra scale e numeri; prodotto, divisione e somma; lettura delle micrografie; otto domande finali senza soluzioni. Tutti i materiali concordati hanno un segnaposto e una didascalia. Nessuna simulazione o esercizio fisico aggiuntivo.
+
+Verifica dei dati: fonti OpenStax, NASA, ESA/Hubble e USGS, collegate nella sezione di servizio della bozza. Dichiarato il criterio dell’ordine di grandezza come potenza più vicina per fattori moltiplicativi, con precisazione breve in nota; non confuso con il solo esponente scientifico. Rispetto alla conversione pura del sorgente corretti gli ordini di massa di Terra (10²⁵ kg), cenere del Mount St. Helens (10¹² kg) e Via Lattea comprendente materia oscura (10⁴² kg); specificati i soggetti e conservata la provenienza dei valori precedenti. Per la Via Lattea usata una stima rappresentativa del 2019, non dichiarata misura attuale definitiva. Il diametro terrestre circa 12 700 km approssima il diametro medio 12 742 km.
+
+Verifiche numeriche indipendenti svolte: quattro forme della lunghezza 0,000047 m equivalenti; confronto di scale con differenza 17; prodotto pari a 0,12; somma pari a 2300; sette ordini della tabella delle masse verificati dai valori di riferimento. Controllati otto quesiti, otto identificativi dei segnaposto, richiamo/nota e undici coppie dei delimitatori delle formule. Nessuna build o prova browser necessaria per questa sola stesura Markdown.
+
+Materiali e limiti: registro e sorgente non permettono di certificare l’esatta provenienza di COP-01 e IMG-01. Nessuna ricerca o sostituzione di immagini effettuata. Restano da identificare i file e verificare i diritti prima dell’integrazione. Aperti i due URL video originali e verificati i titoli; riproduzione integrale e diritti di redistribuzione delle miniature non verificati. Controllata la descrizione molecolare di VID-02 sulla scheda del record Guinness. Questi punti sono espliciti nella sezione di servizio e non vengono presentati come risolti.
+
+Prossimo passaggio corrente: lettura e approvazione della bozza da parte dell’utente. Dopo il testo approvato, stima ripartita e via esplicito prima dell’HTML secondo B1.1. PR #63 conservata in bozza. Main, HTML storici, manifest, catalogo e pubblicazione invariati.
