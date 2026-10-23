@@ -1,13 +1,15 @@
 {
-  "selected_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Microscope_view_of_a_bacteria_and_fungi_colony_growing_in_fractal_pattern_structures.jpg/960px-Microscope_view_of_a_bacteria_and_fungi_colony_growing_in_fractal_pattern_structures.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "downloaded_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Microscope_view_of_a_bacteria_and_fungi_colony_growing_in_fractal_pattern_structures.jpg/960px-Microscope_view_of_a_bacteria_and_fungi_colony_growing_in_fractal_pattern_structures.jpg",
-  "source": "https://commons.wikimedia.org/wiki/File:Microscope_view_of_a_bacteria_and_fungi_colony_growing_in_fractal_pattern_structures.jpg",
-  "author": "Korinna",
-  "license": "CC BY 4.0",
-  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "source": "https://commons.wikimedia.org/wiki/File:Algae_and_bacteria_in_Scanning_Electron_Microscope%2C_magnification_5000x.JPG",
+  "requested_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Algae_and_bacteria_in_Scanning_Electron_Microscope%2C_magnification_5000x.JPG/960px-Algae_and_bacteria_in_Scanning_Electron_Microscope%2C_magnification_5000x.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Algae_and_bacteria_in_Scanning_Electron_Microscope%2C_magnification_5000x.JPG/960px-Algae_and_bacteria_in_Scanning_Electron_Microscope%2C_magnification_5000x.JPG",
+  "author": "SecretDisc",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "changes": "Miniatura scelta dall’utente incorporata intera, senza ritagli o alterazioni locali.",
+  "file": "copertina-sem.jpg",
   "width": 960,
-  "height": 957,
-  "sha256": "15d982bd40344f54fa9c77b0eea3fb67d3a41b4d851daeb5b604f18d9851b575",
-  "changes": "Miniatura Wikimedia a 960 px scelta dall’utente, incorporata intera senza ritagli o modifiche locali.",
-  "source_page_revision": 1242507613
+  "height": 768,
+  "sha256": "f3a0f9ae3cc7a50e8c831d5f25bf0134bf42a0a51b7e9ab550a9a5caacd1a001",
+  "verified": "2026-10-23",
+  "approval": "Immagine scelta esplicitamente dall’utente nella richiesta corrente."
 }

@@ -3678,6 +3678,26 @@
       "fingerprints": [
         "asset-15d982bd40344f54fa9c77b0eea3fb67d3a41b4d851daeb5b604f18d9851b575"
       ]
+    },
+    {
+      "id": "credit-3e07099047c510ea",
+      "description": "Alghe e batteri osservati al microscopio elettronico a scansione; in basso è visibile la barra di scala di 5 µm.",
+      "source": "https://commons.wikimedia.org/wiki/File:Algae_and_bacteria_in_Scanning_Electron_Microscope%2C_magnification_5000x.JPG",
+      "author": "SecretDisc",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "changes": "Miniatura scelta dall’utente incorporata intera, senza ritagli o alterazioni locali.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Alghe e batteri osservati al microscopio elettronico a scansione; in basso è visibile la barra di scala di 5 µm. — SecretDisc. <a href=\"https://commons.wikimedia.org/wiki/File:Algae_and_bacteria_in_Scanning_Electron_Microscope%2C_magnification_5000x.JPG\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">CC BY-SA 3.0</a>. Modifiche: Miniatura scelta dall’utente incorporata intera, senza ritagli o alterazioni locali."
+      ],
+      "metadata_sources": [
+        "prefissi_sistema_internazionale_it.html"
+      ],
+      "fingerprints": [
+        "asset-f3a0f9ae3cc7a50e8c831d5f25bf0134bf42a0a51b7e9ab550a9a5caacd1a001"
+      ]
     }
   ],
   "documents": {
@@ -4540,11 +4560,11 @@
           "notice": 0
         },
         {
-          "resource": "credit-54d0f8458adbe3a3",
+          "resource": "schema-conversioni-prefissi",
           "notice": 0
         },
         {
-          "resource": "schema-conversioni-prefissi",
+          "resource": "credit-3e07099047c510ea",
           "notice": 0
         }
       ],
@@ -4743,21 +4763,6 @@
           "attribute": "href",
           "location": null,
           "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-15d982bd40344f54fa9c77b0eea3fb67d3a41b4d851daeb5b604f18d9851b575",
-      "kind": "image/jpeg",
-      "uses": [
-        {
-          "document": "prefissi_sistema_internazionale_it.html",
-          "kind": "image/jpeg",
-          "description": "Colonia di batteri e funghi al microscopio, con ramificazioni nel campo circolare.",
-          "locator": "cop-01",
-          "attribute": "src",
-          "location": null,
-          "credit_id": "credit-54d0f8458adbe3a3"
         }
       ]
     },
@@ -8622,6 +8627,21 @@
           "attribute": "cover-data",
           "location": "copertine/cms-cern.webp",
           "credit_id": "credit-3e9f846de0485c3d"
+        }
+      ]
+    },
+    {
+      "id": "asset-f3a0f9ae3cc7a50e8c831d5f25bf0134bf42a0a51b7e9ab550a9a5caacd1a001",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "prefissi_sistema_internazionale_it.html",
+          "kind": "image/jpeg",
+          "description": "Alghe e batteri osservati al microscopio elettronico a scansione; in basso è visibile la barra di scala di 5 µm.",
+          "locator": "cop-01",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-3e07099047c510ea"
         }
       ]
     },
