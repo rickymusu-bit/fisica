@@ -1,0 +1,29 @@
+{
+  "html_version": "v2",
+  "text_version": "v4 (testo v3 invariato, copertina scelta)",
+  "bytes": 749510,
+  "sha256": "47b4aae9ff14a0ee94686b9cbb1a03595c1210af490045468a5e778caec00ed4",
+  "formulas": 18,
+  "tables": 8,
+  "questions": 10,
+  "procedure_steps": 4,
+  "cover_sha256": "15d982bd40344f54fa9c77b0eea3fb67d3a41b4d851daeb5b604f18d9851b575",
+  "cover": "Korinna, CC BY 4.0, 960 per 957 px, intera",
+  "theme": "modello Stringhe v23, componenti comuni identici",
+  "registry_check": "31 documenti, 151 schede, 223 risorse; --check superato",
+  "public_build": "19 HTML di build e 20 copertine; confronto escluso dal workflow Pages",
+  "baseline_hashes_verified": 72,
+  "other_documents_and_asset_uses": "identici al registro iniziale",
+  "scientific_sources": [
+    "BIPM SI prefixes",
+    "BIPM SI Brochure sezioni 3 e 5"
+  ],
+  "limitations": [
+    "Verifiche browser svolte in Chromium; nessuna prova dichiarata su altri motori."
+  ],
+  "publication": "manifest v13, 14 capitoli; merge e deployment da completare",
+  "unit_tests": "18 test",
+  "delivery": "caricamento e pubblicazione autorizzati dalla richiesta finale",
+  "shared_theme_check": "sync_stringhe_theme.py --check superato; modello, confronto e pagina crediti allineati",
+  "separator": "bordo 2 px prima della quarta colonna, 13 righe incluse intestazioni"
+}

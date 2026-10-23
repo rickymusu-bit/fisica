@@ -3620,6 +3620,64 @@
       "fingerprints": [
         "asset-87066321bea144b2cbe4aa2f273ce0f6333a0976e48b961151e1531de7661d1a"
       ]
+    },
+    {
+      "id": "schema-conversioni-prefissi",
+      "description": "Schema numerico delle conversioni tra prefissi",
+      "source": null,
+      "author": null,
+      "license": null,
+      "license_url": null,
+      "changes": "Schema SVG originale realizzato per il progetto su richiesta; nessuna immagine esterna riprodotta.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Schema numerico delle conversioni tra prefissi: elaborazione originale per Stringhe realizzata con ChatGPT; nessuna immagine esterna riprodotta."
+      ],
+      "metadata_sources": [
+        "prefissi_sistema_internazionale_it.html"
+      ],
+      "fingerprints": [
+        "asset-de107e98eb4afff236867b890019690171f77ccbe2c392380f13b027a8a91096"
+      ]
+    },
+    {
+      "id": "credit-08dc49d6b2b249cd",
+      "description": "BIPM, SI prefixes",
+      "source": "https://www.bipm.org/en/measurement-units/si-prefixes",
+      "author": "BIPM",
+      "license": null,
+      "license_url": null,
+      "changes": "Fonte delle convenzioni SI; nessuna immagine riprodotta.",
+      "status": "reference",
+      "links": [],
+      "notices": [
+        "BIPM, SI prefixes. <a href=\"https://www.bipm.org/en/measurement-units/si-prefixes\">Fonte delle convenzioni e dei prefissi</a>. Nessuna immagine riprodotta."
+      ],
+      "metadata_sources": [
+        "prefissi_sistema_internazionale_it.html"
+      ],
+      "fingerprints": []
+    },
+    {
+      "id": "credit-54d0f8458adbe3a3",
+      "description": "Colonia di batteri e funghi al microscopio, con ramificazioni nel campo circolare.",
+      "source": "https://commons.wikimedia.org/wiki/File:Microscope_view_of_a_bacteria_and_fungi_colony_growing_in_fractal_pattern_structures.jpg",
+      "author": "Korinna",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Miniatura Wikimedia a 960 px scelta dall’utente, incorporata intera senza ritagli o modifiche locali.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Colonia di batteri e funghi al microscopio, con ramificazioni nel campo circolare. — Korinna. <a href=\"https://commons.wikimedia.org/wiki/File:Microscope_view_of_a_bacteria_and_fungi_colony_growing_in_fractal_pattern_structures.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Modifiche: Miniatura Wikimedia a 960 px scelta dall’utente, incorporata intera senza ritagli o modifiche locali."
+      ],
+      "metadata_sources": [
+        "prefissi_sistema_internazionale_it.html"
+      ],
+      "fingerprints": [
+        "asset-15d982bd40344f54fa9c77b0eea3fb67d3a41b4d851daeb5b604f18d9851b575"
+      ]
     }
   ],
   "documents": {
@@ -4468,6 +4526,31 @@
       "lexend": true,
       "chapter_labels": true,
       "review": "Copertina di Giove documentata; video YouTube caricati dal servizio solo al clic. Nessuna miniatura o fotogramma ridistribuito."
+    },
+    "prefissi_sistema_internazionale_it.html": {
+      "title": "I prefissi del Sistema internazionale",
+      "anchor": "prefissi-sistema-internazionale-it",
+      "credits": [
+        {
+          "resource": "credit-08dc49d6b2b249cd",
+          "notice": 0
+        },
+        {
+          "resource": "credit-39370fd0c35ae5fb",
+          "notice": 0
+        },
+        {
+          "resource": "credit-54d0f8458adbe3a3",
+          "notice": 0
+        },
+        {
+          "resource": "schema-conversioni-prefissi",
+          "notice": 0
+        }
+      ],
+      "lexend": true,
+      "chapter_labels": true,
+      "review": null
     }
   },
   "assets": [
@@ -4660,6 +4743,21 @@
           "attribute": "href",
           "location": null,
           "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-15d982bd40344f54fa9c77b0eea3fb67d3a41b4d851daeb5b604f18d9851b575",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "prefissi_sistema_internazionale_it.html",
+          "kind": "image/jpeg",
+          "description": "Colonia di batteri e funghi al microscopio, con ramificazioni nel campo circolare.",
+          "locator": "cop-01",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-54d0f8458adbe3a3"
         }
       ]
     },
@@ -5328,6 +5426,15 @@
           "credit_id": "font-lexend"
         },
         {
+          "document": "prefissi_sistema_internazionale_it.html",
+          "kind": "font/ttf",
+          "description": "Font incorporato",
+          "locator": null,
+          "attribute": "font-face",
+          "location": null,
+          "credit_id": "font-lexend"
+        },
+        {
           "document": "stati_della_materia.html",
           "kind": "font/ttf",
           "description": "Font incorporato",
@@ -5477,6 +5584,15 @@
       "id": "asset-4180936ac8f7ef98b7ead214c32d886175073d382ccd6c87915683088170b376",
       "kind": "svg",
       "uses": [
+        {
+          "document": "index.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "introduzione-fisica-misura",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        },
         {
           "document": "index.html",
           "kind": "svg",
@@ -7123,15 +7239,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-b10f9abf460c4498"
-        },
-        {
-          "document": "metodo_scientifico_it.html",
-          "kind": "image/jpeg",
-          "description": "La scultura Sfera con Sfera di Arnaldo Pomodoro davanti alla biblioteca del Trinity College di Dublino.",
-          "locator": "copertina",
-          "attribute": "src",
-          "location": null,
-          "credit_id": "credit-b10f9abf460c4498"
         }
       ]
     },
@@ -8218,6 +8325,30 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-dilatazione-fig-03b"
+        }
+      ]
+    },
+    {
+      "id": "asset-de107e98eb4afff236867b890019690171f77ccbe2c392380f13b027a8a91096",
+      "kind": "image/svg+xml",
+      "uses": [
+        {
+          "document": "prefissi_sistema_internazionale_it.html",
+          "kind": "image/svg+xml",
+          "description": "Conversioni km–m–mm e cm–mm–µm: fattori in potenze di dieci e frecce nei due versi.",
+          "locator": "sch-01",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "schema-conversioni-prefissi"
+        },
+        {
+          "document": "prefissi_sistema_internazionale_it.html",
+          "kind": "image/svg+xml",
+          "description": "Conversioni km–m–mm e cm–mm–µm: fattori in potenze di dieci e frecce nei due versi.",
+          "locator": "sch-01",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "schema-conversioni-prefissi"
         }
       ]
     },

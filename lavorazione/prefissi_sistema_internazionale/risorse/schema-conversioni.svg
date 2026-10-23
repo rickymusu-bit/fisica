@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="740" viewBox="0 0 960 740" role="img" aria-labelledby="title desc" lang="it">
+  <title id="title">Conversioni tra prefissi in entrambi i versi</title>
+  <desc id="desc">In alto: da chilometri a metri e da metri a millimetri si moltiplica il numero per 10 alla terza a ogni passaggio; nel verso inverso per 10 alla meno terza. Esempio: 2,5 km uguale a 2,5 per 10 alla terza m uguale a 2,5 per 10 alla sesta mm. In basso: da centimetri a millimetri il fattore è 10 alla prima, da millimetri a micrometri 10 alla terza. Nel verso inverso i fattori sono 10 alla meno prima e 10 alla meno terza. Esempio: 3,2 cm uguale a 3,2 per 10 alla prima mm uguale a 3,2 per 10 alla quarta micrometri. Le frecce trasformano il valore numerico, conservando la lunghezza.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 Z" fill="#174d79"/></marker>
+    <style>
+      text {font-family:Arial,Helvetica,sans-serif;fill:#142d41;text-anchor:middle}
+      .heading {font-size:30px;font-weight:700}
+      .sub {font-size:21px}
+      .unit {font-size:38px;font-weight:700}
+      .name {font-size:20px}
+      .factor {font-size:26px;fill:#174d79;font-weight:700}
+      .example {font-size:27px}
+      .arrow {fill:none;stroke:#174d79;stroke-width:3;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="960" height="740" fill="#fff"/>
+  <text x="480" y="43" class="heading">Cambiare unità, conservare la lunghezza</text>
+  <text x="480" y="76" class="sub">I fattori sulle frecce sono potenze di 10.</text>
+  <text x="310" y="122" class="factor">· 10³</text>
+  <text x="650" y="122" class="factor">· 10³</text>
+  <path d="M 220 140 H 400" class="arrow"/>
+  <path d="M 560 140 H 740" class="arrow"/>
+  <text x="140" y="180" class="unit">km</text>
+  <text x="480" y="180" class="unit">m</text>
+  <text x="820" y="180" class="unit">mm</text>
+  <text x="140" y="207" class="name">chilometri</text>
+  <text x="480" y="207" class="name">metri</text>
+  <text x="820" y="207" class="name">millimetri</text>
+  <path d="M 400 224 H 220" class="arrow"/>
+  <path d="M 740 224 H 560" class="arrow"/>
+  <text x="310" y="257" class="factor">· 10⁻³</text>
+  <text x="650" y="257" class="factor">· 10⁻³</text>
+  <text x="480" y="307" class="example">2,5 km = 2,5 · 10³ m = 2,5 · 10⁶ mm</text>
+  <line x1="48" y1="348" x2="912" y2="348" stroke="#b7c6d2" stroke-width="2"/>
+  <text x="480" y="390" class="sub">Il fattore dipende dai due prefissi.</text>
+  <text x="310" y="436" class="factor">· 10¹</text>
+  <text x="650" y="436" class="factor">· 10³</text>
+  <path d="M 220 454 H 400" class="arrow"/>
+  <path d="M 560 454 H 740" class="arrow"/>
+  <text x="140" y="494" class="unit">cm</text>
+  <text x="480" y="494" class="unit">mm</text>
+  <text x="820" y="494" class="unit">µm</text>
+  <text x="140" y="521" class="name">centimetri</text>
+  <text x="480" y="521" class="name">millimetri</text>
+  <text x="820" y="521" class="name">micrometri</text>
+  <path d="M 400 538 H 220" class="arrow"/>
+  <path d="M 740 538 H 560" class="arrow"/>
+  <text x="310" y="571" class="factor">· 10⁻¹</text>
+  <text x="650" y="571" class="factor">· 10⁻³</text>
+  <text x="480" y="621" class="example">3,2 cm = 3,2 · 10¹ mm = 3,2 · 10⁴ µm</text>
+  <text x="480" y="685" class="sub">Unità più piccola → numero più grande.</text>
+  <text x="480" y="716" class="sub">Unità più grande → numero più piccolo.</text>
+</svg>

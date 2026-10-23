@@ -8,6 +8,22 @@ import unittest
 import tempfile
 from strings_site import enhance_article, catalogue, recent_chapters
 from stringhe_theme import ROOT
+from media_controls import apply_media_controls
+from credits import Document
+
+
+class CoverMediaTests(unittest.TestCase):
+    def test_cover_zoom_is_removed_but_body_zoom_and_main_image_remain(self):
+        zoom = '<details class="image-zoom"><summary>Ingrandisci</summary><div class="zoom-scroll"><img src="foto.jpg" alt="Foto"></div></details>'
+        source = '<html><head></head><body><figure class="visual cover"><div class="image-frame"><div class="overview"><img src="foto.jpg" alt="Foto"></div>' + zoom + '</div></figure><figure class="visual diagram" id="figura-corpo">' + zoom + '</figure></body></html>'
+        result = apply_media_controls(source)
+        doc = Document(result)
+        cover = next(n for n in doc.root.descendants('figure') if n.has_class('cover'))
+        body = next(n for n in doc.root.descendants('figure') if n.attrs.get('id') == 'figura-corpo')
+        self.assertEqual(len(list(cover.descendants('img'))), 1)
+        self.assertEqual(next(cover.descendants('img')).attrs['src'], 'foto.jpg')
+        self.assertFalse(any(n.has_class('image-zoom') for n in cover.descendants('details')))
+        self.assertTrue(any(n.has_class('image-zoom') for n in body.descendants('details')))
 
 
 class PublicationTests(unittest.TestCase):

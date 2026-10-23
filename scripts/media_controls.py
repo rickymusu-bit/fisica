@@ -4,7 +4,23 @@ from credits import Document
 from stringhe_theme import asset, icon
 
 
+def remove_cover_zoom(source):
+    """Le copertine non hanno zoom; conserva intatta l'immagine principale."""
+    document = Document(source)
+    edits = []
+    for figure in document.root.descendants('figure'):
+        if not figure.has_class('cover'):
+            continue
+        for zoom in figure.descendants('details'):
+            if zoom.has_class('image-zoom'):
+                edits.append((zoom.start, zoom.end))
+    for start, end in sorted(edits, reverse=True):
+        source = source[:start] + source[end:]
+    return source
+
+
 def apply_media_controls(source):
+    source = remove_cover_zoom(source)
     # I vecchi gestori scrivevano testo nei pulsanti: ora un solo gestore comune.
     source = re.sub(r'<script\b[^>]*data-chapter-media[^>]*>[\s\S]*?</script>', '', source)
     source = re.sub(r'<script\b[^>]*>[\s\S]*?</script>',

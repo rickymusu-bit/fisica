@@ -87,3 +87,35 @@ L’utente approva esplicitamente l’anteprima corrente con «Approvo. Fai la p
 [PR #63](https://github.com/rickymusu-bit/fisica/pull/63) pronta e integrata al commit `ffc805cd0b9b82edc40775ffadd69f402f6183d6`, dopo il controllo remoto riuscito [39919713921](https://github.com/rickymusu-bit/fisica/actions/runs/39919713921). [Deployment Pages 39920157184](https://github.com/rickymusu-bit/fisica/actions/runs/39920157184) concluso con successo. [Capitolo pubblicato](https://rickymusu-bit.github.io/fisica/potenze_dieci_notazione_scientifica_it.html), HTML v4, terzo dell’area introduttiva.
 
 Verifica HTTPS successiva al deployment: 17 URL pubblici (13 capitoli e quattro pagine di servizio) HTTP 200 e identici byte per byte alla build locale; 12 URL esclusi, storici o riservati all’anteprima rispondono HTTP 404. Navigazione reciproca dei 13 capitoli corretta; capitolo nuovo e Conduzione hanno rispettivamente due e un riquadro video, senza iframe iniziali. [Rapporto](https://github.com/rickymusu-bit/fisica/blob/main/lavorazione/sito/video_youtube/verifica-pubblicazione-online.json). Non restano attività di pubblicazione pendenti per questo incarico. La riproduzione remota dei filmati resta dipendente dal servizio YouTube; le verifiche non dichiarano un playback remoto non eseguito.
+
+## Quarto capitolo — progettazione avviata il 23 ottobre 2026
+
+**I prefissi del Sistema internazionale**. Identificata la sezione `#prefissi` del sorgente unificato e verificata la continuità con il capitolo 3. Definiti contenuti, conversioni, caso del grammo, breve passaggio sulle unità elevate a potenza e ripartizione dei quesiti originali 5, 6 e 12.
+
+Proposta: riusare in copertina la foto del metro già scelta nel capitolo 2, conservare la tabella dei 24 prefissi e affiancare prospetti numerici e uno schema statico delle conversioni. Proposta di non duplicare nel nuovo capitolo la vecchia scala illustrata yotta–yocto, conservata nel sorgente storico; scelta da concordare. Nessuna nuova immagine cercata o generata, nessuna simulazione prevista.
+
+[Stato](../prefissi_sistema_internazionale/stato.md) e [proposta dei contenuti e delle visuali](../prefissi_sistema_internazionale/visuali.md), sul ramo `lavorazione/prefissi-sistema-internazionale` derivato da main. Fase corrente: scelta dell'impostazione visuale prima della bozza secondo B1.1. Nessuna bozza o realizzazione HTML approvata; nessuna modifica a catalogo, pubblicazione o sorgenti storici.
+
+### Quarto capitolo — conversioni tra prefissi e tabella riutilizzata
+
+L'utente richiede esplicitamente di aggiungere il procedimento per convertire tra prefissi e di riutilizzare la tabella esistente. [Proposta v2](../prefissi_sistema_internazionale/visuali.md) ampliata con fattori della tabella, passaggio per l'unità di riferimento, differenza degli esponenti e conversioni cm–mm e µm–mm in entrambi i versi, oltre a km–mm. Chiarito che lo schema proposto era una sequenza numerica con frecce e fattori: rimane opzionale, con alternativa di integrare i passaggi direttamente nel calcolo. La richiesta di chiarimento non è un'approvazione dello schema. PR #65 ancora in bozza; nessuna realizzazione HTML o pubblicazione avviata.
+
+### Quarto capitolo — schema realizzato e bozza v1 pronta
+
+L'utente autorizza lo schema con «Ok fai lo schema». Realizzato [SCH-01](../prefissi_sistema_internazionale/risorse/schema-conversioni.svg): km–m–mm e cm–mm–µm, fattori espliciti e frecce nei due versi. Completata la [bozza v1](../prefissi_sistema_internazionale/bozza.md) con tabella originale dei 24 prefissi, conversioni tra prefissi tramite unità di riferimento e differenza degli esponenti, caso del grammo, aree/volumi e otto domande. Controllati la tabella sulla fonte BIPM, equivalenze e inverse; schema ispezionato desktop/mobile con ingrandimento da prevedere nell'HTML. Testo da approvare; PR #65 ancora in bozza. Nessuna realizzazione HTML, merge o pubblicazione avviati.
+
+### Quarto capitolo — bozza v2 e schema con potenze di 10
+
+Su richiesta esplicita dell'utente, usare le potenze di 10 in tutto il capitolo per mantenere la continuità con la notazione esponenziale. Aggiornati [bozza v2](../prefissi_sistema_internazionale/bozza.md), tabelle numeriche, fattori diretti e inversi, esempi, quesiti e [schema](../prefissi_sistema_internazionale/risorse/schema-conversioni.svg), compresa la descrizione accessibile. Conservata la tabella dei 24 prefissi. Esplicitate le operazioni sugli esponenti nelle conversioni e nelle unità al quadrato/cubo. Equivalenze e resa grafica verificate; testo da approvare, PR #65 in bozza. Nessun HTML o aggiornamento del sito pubblico.
+
+### Quarto capitolo — bozza v3, formula esplicita ed esempi con unità derivate
+
+L'utente precisa: introduzione senza potenze nel testo, tabella introduttiva con valori decimali e potenze affiancati, poi notazione esponenziale dove utile. [Bozza v3](../prefissi_sistema_internazionale/bozza.md) aggiornata con formula x_arrivo = x_partenza · 10^(p − q), simboli definiti, procedura in quattro passi e fattore 10^[n(p − q)] per unità elevate a potenza. Aggiunti esempi svolti MPa–kPa, cm²–m², mm³–cm³ e g/cm³–kg/m³, con impostazione, calcoli e interpretazione. Dieci quesiti finali. Copertina del metro ritirata su richiesta: attesa nuova immagine dall'utente. Tabella dei 24 prefissi e schema conservati; equivalenze e inverse verificate. Testo da approvare, PR #65 in bozza; nessun HTML o rilascio.
+
+### Quarto capitolo — HTML v1 realizzato, copertina scelta
+
+Con «Ok genera» l'utente autorizza la realizzazione dal testo v3; sceglie poi la foto Wikimedia della colonia al microscopio, Korinna / CC BY 4.0, incorporata intera. [HTML v1](../prefissi_sistema_internazionale/bozza.html) pronto per revisione: tema Stringhe v23, 18 formule native, procedura, tabella originale dei prefissi, quattro esempi con unità derivate, schema ingrandibile e dieci quesiti. [Bozza v4](../prefissi_sistema_internazionale/bozza.md) aggiornata per la sola copertina e la provenienza. Crediti, build locale e browser a cinque larghezze in entrambi i temi verificati, con download e lettura senza rete; [stato, rapporti e schermate](../prefissi_sistema_internazionale/stato.md). PR #65 in bozza, anteprima corrente da approvare. Nessun merge, modifica del manifest o deployment.
+
+### Quarto capitolo — pubblicazione autorizzata, HTML v2
+
+L'utente approva il capitolo, richiede il separatore prima dei sottomultipli e autorizza caricamento e pubblicazione. Separatore applicato e verificato; manifest v13 con 14 capitoli, inserimento al quarto posto, catalogo/crediti e navigazione adiacente aggiornati. Incluse le correzioni richieste a copertina del Metodo scientifico (nessuno zoom) ed esponenti di Potenze di dieci; regola nel master v69.9 e componente canonico. Crediti, build, 18 test e verifiche mirate da consolidare nel rapporto di pubblicazione. PR #65 da integrare dopo i controlli; deployment da verificare.
