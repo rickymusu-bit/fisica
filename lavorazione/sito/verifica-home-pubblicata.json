@@ -1,0 +1,50 @@
+{
+  "verificato_il": "2026-10-23T21:02:48.318597+02:00",
+  "url": "https://rickymusu-bit.github.io/fisica/",
+  "http": 200,
+  "identica_alla_build": true,
+  "sha256": "b3685b159809499e71aade70655fd2616934afbe89994941a5ba6490322e9800",
+  "commit_pubblicato": "f83163d43685ed3c3a411e6e5ff40875363e2ccb",
+  "pages_run": 40007922070,
+  "geometria": [
+    {
+      "viewport": 390,
+      "tema": "light",
+      "allineamento_sinistro": true,
+      "foto_sotto_titolo": true
+    },
+    {
+      "viewport": 390,
+      "tema": "dark",
+      "allineamento_sinistro": true,
+      "foto_sotto_titolo": true
+    },
+    {
+      "viewport": 1440,
+      "tema": "light",
+      "allineamento_sinistro": true,
+      "foto_sotto_titolo": true
+    },
+    {
+      "viewport": 1440,
+      "tema": "dark",
+      "allineamento_sinistro": true,
+      "foto_sotto_titolo": true
+    }
+  ],
+  "novita": [
+    {
+      "titolo": "Le cifre significative",
+      "href": "cifre_significative_it.html"
+    },
+    {
+      "titolo": "Irraggiamento",
+      "href": "irraggiamento_it.html"
+    },
+    {
+      "titolo": "Convezione",
+      "href": "convezione_it.html"
+    }
+  ],
+  "errori_javascript": []
+}
