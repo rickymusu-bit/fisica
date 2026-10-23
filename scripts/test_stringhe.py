@@ -76,6 +76,21 @@ class PublicationTests(unittest.TestCase):
 
 
 class NewsTests(unittest.TestCase):
+    def test_same_day_uses_publication_time_and_rome_date(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            items = [{'file': f'{i}.html'} for i in range(4)]
+            dates = ['2026-10-23T17:11:05Z', '2026-10-23T18:00:00+02:00',
+                     '2026-10-23', '2026-10-22T22:30:00Z']
+            for item, value in zip(items, dates):
+                (root / item['file']).write_text(f'<meta name="date" content="{value}">')
+            news = recent_chapters(items, root, limit=4)
+            self.assertEqual([x['file'] for x in news], ['0.html', '1.html', '3.html', '2.html'])
+            self.assertEqual(news[2]['date_label'], '23 ottobre 2026')
+            (root / '0.html').write_text('<meta name="date" content="2026-10-23T19:00:00">')
+            with self.assertRaises(ValueError):
+                recent_chapters(items, root)
+
     def test_news_uses_editorial_dates_and_updates_reorder_chapters(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)

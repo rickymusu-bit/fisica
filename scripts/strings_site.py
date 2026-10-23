@@ -1,7 +1,8 @@
 """Tema Stringhe e pagine del portale, generate senza cambiare gli articoli sorgente."""
 from html import escape, unescape
 from html.parser import HTMLParser
-from datetime import date
+from datetime import datetime, time
+from zoneinfo import ZoneInfo
 import json
 import re
 from stringhe_theme import apply_theme, navigation_header, logo, logo_script, ROOT, icon
@@ -140,10 +141,16 @@ def recent_chapters(items, root=ROOT, limit=3):
         value = ChapterDate((root / item['file']).read_text(encoding='utf-8-sig')).value
         if value is None:
             raise ValueError(f"Data editoriale mancante: {item['file']}")
-        changed = date.fromisoformat(value)
+        changed = datetime.fromisoformat(value)
+        rome = ZoneInfo('Europe/Rome')
+        if changed.tzinfo is None:
+            if len(value) != 10:
+                raise ValueError(f"Orario editoriale senza fuso: {item['file']}")
+            changed = datetime.combine(changed.date(), time.min, rome)
+        changed = changed.astimezone(rome)
         dated.append((changed, position, {**item, 'date': changed.isoformat(),
                       'date_label': f'{changed.day} {months[changed.month - 1]} {changed.year}'}))
-    # Pari data: prima i capitoli più avanti nell’ordine del catalogo.
+    # Orario di pubblicazione incluso; ordine del catalogo solo a pari istante.
     dated.sort(key=lambda entry: (entry[0], entry[1]), reverse=True)
     return [entry[2] for entry in dated[:limit]]
 

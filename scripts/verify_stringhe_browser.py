@@ -250,7 +250,7 @@ def main():
                 for theme in ['light','dark']:
                     page.goto(base+'passaggi_di_stato.html');set_theme(page,theme)
                     page.locator('.heating-curve').screenshot(path=str(SHOTS/f'curva-gradiente-{width}-{theme}.png'))
-            # Home: una sola card senza onde; foto sotto al titolo su mobile.
+            # Home: una sola card; foto e didascalia sotto al titolo, allineate a sinistra.
             def verify_cover_layout(width):
                 boxes = page.locator('.home-intro').evaluate("""card=>{
                     const image=card.querySelector('img#random-cover'),caption=card.querySelector('figcaption');
@@ -260,10 +260,8 @@ def main():
                 assert abs(boxes['image']['left']-boxes['caption']['left']) < 1, boxes
                 assert abs(boxes['image']['width']-boxes['caption']['width']) < 1, boxes
                 assert abs(boxes['image']['width']/boxes['image']['height']-boxes['ratio']) < .01, boxes
-                if width <= 900:
-                    assert boxes['image']['top'] >= boxes['copy']['bottom'], boxes
-                else:
-                    assert boxes['image']['left'] >= boxes['copy']['right'], boxes
+                assert boxes['image']['top'] >= boxes['copy']['bottom'], boxes
+                assert abs(boxes['image']['left']-boxes['copy']['left']) < 1, boxes
             page.goto(base+'index.html')
             assert page.locator('.home-intro #random-cover').count() == 1
             assert page.locator('.home-intro .eyebrow').count() == 0

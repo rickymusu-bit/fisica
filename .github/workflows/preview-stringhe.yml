@@ -11,6 +11,7 @@ on:
       - fix/contrasto-schemi-dark
       - fix/barra-mobile-curva
       - fix/lingua-toggle-alto-destra
+      - fix/home-novita-allineamento
     paths:
       - '.github/workflows/preview-stringhe.yml'
       - 'scripts/**'
@@ -50,3 +51,4 @@ jobs:
           git commit -m "Preview generated from ${GITHUB_SHA}"
           git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
           git push --force origin HEAD:refs/heads/stringhe-preview
+
