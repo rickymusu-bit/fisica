@@ -148,3 +148,5 @@ Verifiche: crediti e build superati; browser a 320/390/768/1024/1440 px, chiaro/
 ## Collegamenti per la pubblicazione del capitolo 3 — 23 ottobre 2026
 
 L’utente autorizza esplicitamente il merge e la pubblicazione nella PR #63. HTML v5: aggiornato soltanto il collegamento al nuovo capitolo «Le potenze di dieci e la notazione scientifica», senza modificare contenuti scientifici o data editoriale. Copia bozza.html riallineata; navigazione reciproca, tema, crediti e build verificati.
+
+Pubblicazione della navigazione completata nella PR #63 (merge ffc805cd0b9b82edc40775ffadd69f402f6183d6); Pages 39920157184 riuscito. URL pubblico identico alla build e rimandi reciproci verificati online.

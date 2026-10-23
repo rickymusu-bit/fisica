@@ -1,0 +1,193 @@
+{
+  "data_utc": "2026-10-23T07:48:39.078879+00:00",
+  "risultato": "superato",
+  "capitoli": 13,
+  "navigazione_reciproca": true,
+  "video_inizialmente_senza_iframe": true,
+  "url": [
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/metodo_scientifico_it.html",
+      "status": 200,
+      "sha256": "9db9cf390bc541190f89f93ac6012a552c35df485518f513526755ad7907d1d6",
+      "identico_build": true
+    },
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/grandezze_fisiche_sistema_internazionale_it.html",
+      "status": 200,
+      "sha256": "6d017bac4c5a88b115c19f879bc53efefbbb660ec8c961aefc74581058562303",
+      "identico_build": true
+    },
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/potenze_dieci_notazione_scientifica_it.html",
+      "status": 200,
+      "sha256": "38491f19758f7ea283cfe854af35c7d079a6bc9e46ceda9002f6296c941e0a81",
+      "identico_build": true
+    },
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/termodinamica_sistemi_it.html",
+      "status": 200,
+      "sha256": "1017b60611a48157967614b25d8216cec9450e2439893bbe771054ef473c6566",
+      "identico_build": true
+    },
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/temperatura_equilibrio_termico_it.html",
+      "status": 200,
+      "sha256": "c70fe02c153c8718c7ba65740044940ab7be639cf323ad0f86a28e2434b489e0",
+      "identico_build": true
+    },
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/energia_interna_calore_specifico_it.html",
+      "status": 200,
+      "sha256": "0de368e8766a85ed7482dd2c9b0769616d1102fc32e5e7942838aa453a0671cb",
+      "identico_build": true
+    },
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/bilancio_termico_it.html",
+      "status": 200,
+      "sha256": "7a4349f1e33863d5c5b24beadc5e11be6f7a5420a57aa933463167a393e078b0",
+      "identico_build": true
+    },
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/dilatazione_termica_it.html",
+      "status": 200,
+      "sha256": "7417b14e408f64fe481e32a8cdc433ec8f569bd7a3b6b2693b78a8b4d60b11c2",
+      "identico_build": true
+    },
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/stati_della_materia.html",
+      "status": 200,
+      "sha256": "9de768d2d646b607e49b9666cb0db585ddeb8f6570e5c79d8d2a93ceeea2e374",
+      "identico_build": true
+    },
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/passaggi_di_stato.html",
+      "status": 200,
+      "sha256": "bbbdcceee7f28f9b29560fa87334a3198238448703257c906dafb7baded8a95a",
+      "identico_build": true
+    },
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/conduzione_it.html",
+      "status": 200,
+      "sha256": "81070244ca8e8878fe4769d99ce7aa975a32664a7dd7a1378ca0385b14a8aeda",
+      "identico_build": true
+    },
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/convezione_it.html",
+      "status": 200,
+      "sha256": "a8b2bb284d7a13fc9e20800983328b9f40c1ca7455dc628b99e7ac5e3d686439",
+      "identico_build": true
+    },
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/irraggiamento_it.html",
+      "status": 200,
+      "sha256": "f71c7c93148d08d9836cf1c0287126a36458dbeab1de8bd7645e6a1779e6c715",
+      "identico_build": true
+    },
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/index.html",
+      "status": 200,
+      "sha256": "35e4c68b37dda9660fd6549407a3ab365a66f6e876f9493792ff8839bf644c65",
+      "identico_build": true
+    },
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/articoli.html",
+      "status": 200,
+      "sha256": "7dea22a87a37e090db7c4a8cf4c5cb1126756a5a0a4d0a7b445f21edc628cf8f",
+      "identico_build": true
+    },
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/quiz.html",
+      "status": 200,
+      "sha256": "5e93dc51c63bc3b24163324cd645e520624868e5980023e89aa1535633e5d2e6",
+      "identico_build": true
+    },
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/crediti.html",
+      "status": 200,
+      "sha256": "1830e38c35cbd9eabc215cc4491049c9c8060d92a19c8c35735e542ef376886f",
+      "identico_build": true
+    },
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/sistema_internazionale_notazione_it.html",
+      "status": 404,
+      "sha256": null,
+      "identico_build": false
+    },
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/strumenti_errori_incertezza_it.html",
+      "status": 404,
+      "sha256": null,
+      "identico_build": false
+    },
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/grafici_piano_cartesiano_it.html",
+      "status": 404,
+      "sha256": null,
+      "identico_build": false
+    },
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/lavoro_energie_potenza_it.html",
+      "status": 404,
+      "sha256": null,
+      "identico_build": false
+    },
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/bilancio_conservazione_rendimento_it.html",
+      "status": 404,
+      "sha256": null,
+      "identico_build": false
+    },
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/potenza_termica_conduzione_convezione_it.html",
+      "status": 404,
+      "sha256": null,
+      "identico_build": false
+    },
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/stati_della_materia_e_passaggi_di_stato.html",
+      "status": 404,
+      "sha256": null,
+      "identico_build": false
+    },
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/stati_della_materia_e_passaggi_di_stato_v8_20261016.html",
+      "status": 404,
+      "sha256": null,
+      "identico_build": false
+    },
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/sistema_internazionale_notazione_fr.html",
+      "status": 404,
+      "sha256": null,
+      "identico_build": false
+    },
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/sistema_internazionale_notazione_sq.html",
+      "status": 404,
+      "sha256": null,
+      "identico_build": false
+    },
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/lavorazione/sito/video_youtube/index.html",
+      "status": 404,
+      "sha256": null,
+      "identico_build": false
+    },
+    {
+      "url": "https://rickymusu-bit.github.io/fisica/anteprima-bordi-stringhe.html",
+      "status": 404,
+      "sha256": null,
+      "identico_build": false
+    }
+  ],
+  "pr": "https://github.com/rickymusu-bit/fisica/pull/63",
+  "merge_sha": "ffc805cd0b9b82edc40775ffadd69f402f6183d6",
+  "controllo_pr": {
+    "run_id": 39919713921,
+    "conclusione": "success"
+  },
+  "pages": {
+    "run_id": 39920157184,
+    "conclusione": "success"
+  }
+}
