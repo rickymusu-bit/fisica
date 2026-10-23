@@ -23,7 +23,7 @@ from stringhe_theme import navigation_header
 NAME = 'grandezze_fisiche_sistema_internazionale_it.html'
 TITLE = 'Le grandezze fisiche e il Sistema internazionale'
 AREA = 'Introduzione alla fisica e alla misura'
-VERSION = 'v3'
+VERSION = 'v4'
 DATE = '2026-10-23'
 DATE_LABEL = '23 ottobre 2026'
 COMMONS = 'https://commons.wikimedia.org/wiki/File:'

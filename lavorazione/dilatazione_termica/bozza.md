@@ -109,7 +109,7 @@ Didascalia: Coperchio e recipiente possono cambiare dimensioni in misura diversa
 
 Il riscaldamento di un coperchio metallico può aumentarne il diametro e facilitarne l'apertura. Non basta però dire che «il metallo si dilata»: anche il collo del recipiente può riscaldarsi e cambiare dimensioni. L'effetto utile nasce dalla differenza fra i cambiamenti delle due parti.
 
-Contano i materiali e quanto si riscalda ciascuna parte. Il fenomeno spiega perché il riscaldamento del coperchio possa aiutare, ma non garantisce l'apertura di ogni barattolo.[2]
+Contano i materiali e quanto si riscalda ciascuna parte. Il fenomeno spiega perché il riscaldamento del coperchio possa aiutare.[2]
 
 ### Perché il lago gela dall'alto
 

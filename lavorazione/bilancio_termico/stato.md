@@ -1,5 +1,11 @@
 # Stato — Il bilancio termico
 
+## Revisione corrente — tagli delle precisazioni approvati, 23 ottobre 2026
+
+L’utente ha approvato integralmente i 24 tagli proposti in chat con «Approvo, cancella tutti». Applicati a questo capitolo i punti 11; HTML corrente **v7**, data editoriale 23 ottobre 2026. Aggiornate le copie di lavorazione pertinenti, rimossi i richiami delle note eliminate e rinumerate quelle rimaste conservando le ancore. Master v69.6, riferimenti di stile v6 e campione v2 consultati; tema comune, formule, dati, immagini e simulazioni conservati.
+
+Ramo `revisione/tagli-precisazioni`, derivato dal main aggiornato. Verifiche e schermate desktop/mobile nella [revisione condivisa](../sito/revisione-precisazioni/index.html). Crediti, tema, build e 14 test superati. Nessun merge o deployment: la cancellazione dei passaggi è approvata; per pubblicare resta da approvare l’anteprima corrente secondo AGENTS.md e B5.
+
 Versione v15 — 19 ottobre 2026, ore 22:42 (Europe/Rome).
 
 ## Risultato corrente

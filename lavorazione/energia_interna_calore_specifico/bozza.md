@@ -75,7 +75,7 @@ La capacità termica riguarda il corpo intero. Per confrontare i materiali dobbi
 
 Didascalia: Il confronto riguarda masse uguali. Tra i materiali riportati, l’acqua liquida richiede più energia per aumentare la temperatura dello stesso numero di gradi.
 
-La tabella mette a confronto materiali comuni: l’acqua risalta non soltanto rispetto ai metalli e alla sabbia, ma anche rispetto agli altri liquidi e ai gas elencati. Il valore dell’acqua si riferisce ad acqua pura a 20 °C, usata come riferimento senza attribuire lo stesso valore esatto a ogni acqua marina.
+La tabella mette a confronto materiali comuni: l’acqua risalta non soltanto rispetto ai metalli e alla sabbia, ma anche rispetto agli altri liquidi e ai gas elencati. Il valore dell’acqua si riferisce ad acqua pura a 20 °C.
 
 Da dove viene questa particolarità? Le molecole d’acqua si attraggono attraverso interazioni chiamate **legami a idrogeno**. Sono legami tra molecole vicine, diversi da quelli che tengono uniti idrogeno e ossigeno dentro ciascuna molecola. Nell’acqua liquida formano una rete in continuo riassetto.
 
@@ -140,7 +140,7 @@ Ecco perché, dopo il tramonto, possiamo trovare ancora tiepido il mare mentre l
 
 [^2]: Usiamo queste relazioni per riscaldamento o raffreddamento senza cambiamento di stato, con capacità termica e calore specifico approssimativamente costanti nell’intervallo considerato e nelle condizioni per cui è definito il calore specifico usato. Nel confronto tra acqua e sabbia trascuriamo il contributo del lavoro.
 
-[^3]: Il valore della sabbia quarzosa è indicativo: non si riferisce a temperatura e contenuto d’acqua specificati, non è una misura della spiaggia fotografata né una costante di ogni sabbia. Composizione e umidità ne modificano il comportamento.
+[^3]: Il valore della sabbia quarzosa è indicativo: non si riferisce a temperatura e contenuto d’acqua specificati. Composizione e umidità ne modificano il comportamento.
 
 
 [^4]: I valori della tabella sono a pressione costante. Per i gas questa condizione è essenziale: scaldare un gas mantenendone fisso il volume richiede un diverso calore specifico. Non tutte le voci si riferiscono a una temperatura specificata; i valori servono a un confronto indicativo.

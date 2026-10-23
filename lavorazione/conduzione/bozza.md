@@ -119,7 +119,7 @@ La posizione delle grandezze nella formula permette di fare previsioni. Raddoppi
 
 Didascalia: L’aria interna è a 25 °C e quella esterna a −5 °C. Il profilo è qualitativo: la temperatura varia nell’aria vicino alle superfici e diminuisce linearmente nello spessore del muro omogeneo, in condizioni stazionarie.
 
-Tra l'aria interna e quella esterna c'è una differenza di temperatura di 30 K. Questa non è però, in generale, la differenza tra le temperature delle due facce della parete richiesta dalla legge di Fourier: gli scambi tra l'aria e le superfici producono ulteriori variazioni. Per calcolare la conduzione nel solo muro occorre conoscere la differenza di temperatura fra le due facce; la figura ne mostra il significato senza assegnarle valori numerici.
+Tra l'aria interna e quella esterna c'è una differenza di temperatura di 30 K. Questa non è però, in generale, la differenza tra le temperature delle due facce della parete richiesta dalla legge di Fourier: gli scambi tra l'aria e le superfici producono ulteriori variazioni. Per calcolare la conduzione nel solo muro occorre conoscere la differenza di temperatura fra le due facce.
 
 ## Domande di verifica
 
@@ -151,7 +151,7 @@ Tra l'aria interna e quella esterna c'è una differenza di temperatura di 30 K. 
 
 [1] I valori della tabella sono orientativi e dipendono da composizione, temperatura e condizioni del materiale. Nel video contano anche geometria e condizioni di riscaldamento: il tempo di fusione della cera non misura direttamente la sola conducibilità.
 
-[2] Il modello assume parete omogenea, conducibilità costante, regime stazionario e assenza di sorgenti interne; in queste condizioni il profilo di temperatura è lineare. Nell’illustrazione i valori indicati si riferiscono alle due facce della parete, non alla temperatura della fiamma. Le temperature delle facce possono differire da quelle dell’aria. Per pareti con più strati occorre considerare insieme il loro effetto.
+[2] Il modello assume parete omogenea, conducibilità costante, regime stazionario e assenza di sorgenti interne; in queste condizioni il profilo di temperatura è lineare. Le temperature delle facce possono differire da quelle dell’aria. Per pareti con più strati occorre considerare insieme il loro effetto.
 
 [3] Nella vetrocamera contribuiscono agli scambi anche irraggiamento ed eventuali moti del gas. La formula della parete omogenea non descrive da sola l’intera finestra.
 

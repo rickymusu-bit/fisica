@@ -98,11 +98,11 @@ P_{netta} = P_{emessa} − P_{assorbita}
 
 Il risultato è positivo quando il corpo cede più energia di quanta ne assorba per irraggiamento, negativo quando ne assorbe di più. Non basta quindi guardare quanto emette: un corpo può emettere continuamente radiazione e, nello stesso tempo, acquistare energia. La parte di radiazione incidente che viene riflessa o trasmessa non entra nella potenza assorbita.
 
-Torniamo al rettile esposto al Sole. Il suo corpo assorbe parte della radiazione solare e della radiazione proveniente dall’ambiente; nello stesso tempo emette radiazione infrarossa. Questi scambi avvengono sulla superficie esposta del corpo, non in due soli punti: testa, dorso, fianchi e coda partecipano al bilancio. Le frecce entranti rappresentano l’energia assorbita, mentre quelle uscenti rappresentano l’energia emessa. Anche mentre si riscalda, il rettile continua quindi a cedere energia per irraggiamento.
+Torniamo al rettile esposto al Sole. Il suo corpo assorbe parte della radiazione solare e della radiazione proveniente dall’ambiente; nello stesso tempo emette radiazione infrarossa. Le frecce entranti rappresentano l’energia assorbita, mentre quelle uscenti rappresentano l’energia emessa. Anche mentre si riscalda, il rettile continua quindi a cedere energia per irraggiamento.
 
 [VISUALE visual-T1-bilancio — Esempio ipotetico: lucertola a 30 °C e ambiente a 20 °C; tre onde gialle entranti staccate dal corpo, onde rosse uscenti e legenda separata.]
 
-Didascalia: Nell’esempio ipotetico assegniamo 30 °C alla lucertola e 20 °C all’ambiente: non sono temperature misurate nella fotografia. La legenda distingue le frecce entranti, per l’energia assorbita dal Sole e dall’ambiente, da quelle uscenti, per l’energia emessa soprattutto nell’infrarosso. Le frecce sono distribuite sulla superficie esposta e le loro dimensioni non indicano potenze misurate.
+Didascalia: Nell’esempio ipotetico assegniamo 30 °C alla lucertola e 20 °C all’ambiente. La legenda distingue le frecce entranti, per l’energia assorbita dal Sole e dall’ambiente, da quelle uscenti, per l’energia emessa soprattutto nell’infrarosso.
 
 Se assorbe più energia di quanta ne emetta, il contributo radiativo tende a riscaldarlo; se ne emette di più, tende a raffreddarlo. Quando le due potenze sono uguali, il bilancio radiativo è nullo.
 

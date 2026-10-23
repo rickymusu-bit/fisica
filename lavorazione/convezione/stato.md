@@ -1,5 +1,11 @@
 # Stato — Convezione
 
+## Revisione corrente — tagli delle precisazioni approvati, 23 ottobre 2026
+
+L’utente ha approvato integralmente i 24 tagli proposti in chat con «Approvo, cancella tutti». Applicati a questo capitolo i punti 20, 21; HTML corrente **v7**, data editoriale 23 ottobre 2026. Aggiornate le copie di lavorazione pertinenti, rimossi i richiami delle note eliminate e rinumerate quelle rimaste conservando le ancore. Master v69.6, riferimenti di stile v6 e campione v2 consultati; tema comune, formule, dati, immagini e simulazioni conservati.
+
+Ramo `revisione/tagli-precisazioni`, derivato dal main aggiornato. Verifiche e schermate desktop/mobile nella [revisione condivisa](../sito/revisione-precisazioni/index.html). Crediti, tema, build e 14 test superati. Nessun merge o deployment: la cancellazione dei passaggi è approvata; per pubblicare resta da approvare l’anteprima corrente secondo AGENTS.md e B5.
+
 ## Centralizzazione dei crediti — 18 ottobre 2026
 
 Revisione circoscritta autorizzata dalla richiesta di migrare tutti gli articoli: `convezione_it.html` usa il registro unico `risorse/crediti.json`, la pagina «Crediti e licenze» e lo snapshot autonomo offline. Sezioni finali dei crediti rimosse dopo il controllo degli avvisi; contenuto scientifico, formule, immagini e script originali preservati. Master v60, tema v8. La stessa revisione dei crediti comprende le traduzioni esistenti del capitolo, senza tradurre i contenuti. Ramo `crediti/centralizzazione`; nessuna riammissione né pubblicazione. Le licenze non documentate restano da verificare nel rapporto `../sito/crediti-verifiche.json`.

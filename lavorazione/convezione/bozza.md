@@ -94,7 +94,7 @@ Anche un motore a combustione deve cedere energia per evitare un riscaldamento e
 
 Didascalia: Le due ventole installate dietro il radiatore favoriscono il passaggio dell’aria e lo scambio di energia con l’ambiente.
 
-Il movimento dell’automobile favorisce il passaggio dell’aria, mentre la ventola può mantenerlo o aumentarlo quando l’auto è ferma o procede lentamente. Le alette estendono la superficie di scambio, come nel dissipatore del processore. Il termostato regola il passaggio del refrigerante in funzione della temperatura; il circuito del riscaldamento dell’abitacolo costituisce invece un ramo distinto.
+Il movimento dell’automobile favorisce il passaggio dell’aria, mentre la ventola può mantenerlo o aumentarlo quando l’auto è ferma o procede lentamente. Le alette estendono la superficie di scambio, come nel dissipatore del processore.
 
 In entrambi i dispositivi conduzione e convezione svolgono compiti collegati. Il metallo trasferisce energia attraverso le parti solide; il fluido in movimento la porta verso altre regioni. È questo percorso a rendere utili insieme materiali conduttori, superfici alettate, pompe e ventole.[4]
 
@@ -126,4 +126,4 @@ In entrambi i dispositivi conduzione e convezione svolgono compiti collegati. Il
 
 [5] La convezione descritta riguarda la zona convettiva sotto la superficie visibile, non tutti gli strati solari. Fonti scientifiche: [NASA, Photospheric Features](https://solarscience.msfc.nasa.gov/feature1.shtml) e [NASA, Heliophysics Big Idea 3.2](https://science.nasa.gov/learn/heat/big-ideas/big-idea-3-2/). La fotografia della granulazione è acquisita nel vicino infrarosso e presentata in colori rappresentativi: non mostra l’aspetto del Sole a occhio nudo.
 
-[6] In questo caso il ghiaccio di azoto rimane solido, ma può deformarsi e scorrere molto lentamente su tempi geologici. L’immagine non mostra lava o acqua liquida. Fonte: [NASA, Pluto’s Heart: Like a Cosmic ‘Lava Lamp’](https://www.nasa.gov/solar-system/plutos-heart-like-a-cosmic-lava-lamp/). Questo caso estende la descrizione introduttiva dei liquidi e gas a un materiale che scorre su tempi molto lunghi.
+[6] In questo caso il ghiaccio di azoto rimane solido, ma può deformarsi e scorrere molto lentamente su tempi geologici. Fonte: [NASA, Pluto’s Heart: Like a Cosmic ‘Lava Lamp’](https://www.nasa.gov/solar-system/plutos-heart-like-a-cosmic-lava-lamp/). Questo caso estende la descrizione introduttiva dei liquidi e gas a un materiale che scorre su tempi molto lunghi.

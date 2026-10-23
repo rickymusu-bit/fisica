@@ -1,5 +1,11 @@
 # Stato — Irraggiamento
 
+## Revisione corrente — tagli delle precisazioni approvati, 23 ottobre 2026
+
+L’utente ha approvato integralmente i 24 tagli proposti in chat con «Approvo, cancella tutti». Applicati a questo capitolo i punti 22, 23, 24; HTML corrente **v15**, data editoriale 23 ottobre 2026. Aggiornate le copie di lavorazione pertinenti, rimossi i richiami delle note eliminate e rinumerate quelle rimaste conservando le ancore. Master v69.6, riferimenti di stile v6 e campione v2 consultati; tema comune, formule, dati, immagini e simulazioni conservati.
+
+Ramo `revisione/tagli-precisazioni`, derivato dal main aggiornato. Verifiche e schermate desktop/mobile nella [revisione condivisa](../sito/revisione-precisazioni/index.html). Crediti, tema, build e 14 test superati. Nessun merge o deployment: la cancellazione dei passaggi è approvata; per pubblicare resta da approvare l’anteprima corrente secondo AGENTS.md e B5.
+
 ## Didascalia della copertina — 20 ottobre 2026
 
 Richiesta circoscritta dell’utente: sotto la copertina mancava la didascalia. Versione v14, master v69.3, tema comune v21. Aggiunto il figcaption nativo alla figura C1, con descrizione del Sole e della Terra visti dall’orbita e collegamento al trasporto di energia attraverso il vuoto. Stile comune riusato senza modifiche; fotografia, alt, crediti, comandi, corpo scientifico e struttura monografica conservati. Aggiornati versione e data editoriale e sincronizzate le bozze. Preparazione dell’anteprima desktop/mobile e della PR in bozza; nessun merge o deployment, in attesa dell’approvazione dell’anteprima corrente secondo AGENTS.md e B5.

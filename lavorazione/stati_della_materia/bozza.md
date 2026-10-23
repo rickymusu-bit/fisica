@@ -42,7 +42,7 @@ Scorrere non significa però scorrere tutti allo stesso modo. L'olio della fotog
 
 Didascalia: L'olio scorre formando un getto. La viscosità descrive la resistenza allo scorrimento, non quanto pesa un dato volume di liquido.
 
-Nell'animazione, due liquidi simulati mostrano una diversa resistenza alla deformazione e allo scorrimento. Quello a sinistra si distribuisce rapidamente e produce spruzzi; quello a destra scorre più lentamente e mantiene più a lungo una forma compatta.  Non occorre che un liquido sia fermo per essere viscoso: anche il liquido a destra continua a scorrere.[^nota-5]
+Nell'animazione, due liquidi simulati mostrano una diversa resistenza alla deformazione e allo scorrimento. Quello a sinistra si distribuisce rapidamente e produce spruzzi; quello a destra scorre più lentamente e mantiene più a lungo una forma compatta.
 
 [GIF M11 — Animazione scelta sulla viscosità: `risorse/viscosita.gif`, originale animato con 63 fotogrammi; affianca le simulazioni M6–M8 del modello particellare.]
 
@@ -98,6 +98,5 @@ Didascalia: Una scarica elettrica rende luminoso l’argon nel tubo. Il plasma c
 
 [^nota-origine-viscosita]: La viscosità è legata alle interazioni tra le particelle e al movimento relativo degli strati di liquido.
 
-[^nota-5]: L’animazione della viscosità è un’illustrazione realizzata mediante una simulazione: mostra un confronto qualitativo e non misure ottenute da un esperimento.
 
 [^nota-plasma-cariche-luce]: La scarica ionizza una parte dell’argon, liberando elettroni dagli atomi. La presenza di cariche libere permette al plasma di condurre corrente e di rispondere ai campi elettrici e magnetici in modo diverso da un gas formato prevalentemente da particelle neutre. La luce osservata è emessa dagli atomi eccitati dalla scarica.

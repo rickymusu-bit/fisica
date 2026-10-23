@@ -1,0 +1,572 @@
+{
+  "data": "2026-10-23",
+  "approvazione": "Approvo, cancella tutti",
+  "totale_tagli": 24,
+  "capitoli": [
+    {
+      "file": "metodo_scientifico_it.html",
+      "tagli": [
+        1
+      ],
+      "note": 1,
+      "richiami": 1,
+      "risorse_formule_script_stili_identici": true,
+      "targets": [
+        {
+          "selector": "p,figcaption",
+          "index": 23,
+          "testo": "Osserva la tabella delle tue prove. Confronta prima i tempi ottenuti con la stessa inclinazione, poi quelli raccolti cambiando l’angolo. Se i tempi diminuiscono aumentando la pendenza, i risultati sono coerenti con la previsione."
+        },
+        {
+          "selector": "p,figcaption",
+          "index": 25,
+          "testo": "La pallina è una sfera piena omogenea che rotola senza slittare. Non consideriamo la resistenza dell’aria o altre perdite di energia; l’attrito statico permette il rotolamento. Il tratto rettilineo fra i segni sulla pista è lungo 1,00 m. Il cronometro parte con Avvia e si ferma al termine del breve raccordo arrotondato, quando la pallina raggiunge il piano orizzontale. Sul tratto orizzontale la velocità del modello rimane costante; la visualizzazione si arresta al bordo destro della finestra."
+        },
+        {
+          "selector": "#nota-modello",
+          "testo": "La pallina è una sfera piena omogenea che rotola senza slittare. Non consideriamo la resistenza dell’aria o altre perdite di energia; l’attrito statico permette il rotolamento. Il tratto rettilineo fra i segni sulla pista è lungo 1,00 m. Il cronometro parte con Avvia e si ferma al termine del breve raccordo arrotondato, quando la pallina raggiunge il piano orizzontale. Sul tratto orizzontale la velocità del modello rimane costante; la visualizzazione si arresta al bordo destro della finestra. ↩"
+        }
+      ]
+    },
+    {
+      "file": "grandezze_fisiche_sistema_internazionale_it.html",
+      "tagli": [
+        2,
+        3,
+        4
+      ],
+      "note": 0,
+      "richiami": 0,
+      "risorse_formule_script_stili_identici": true,
+      "targets": [
+        {
+          "selector": "p,figcaption",
+          "index": 10,
+          "testo": "Le definizioni attuali del SI si basano su valori fissati di costanti fisiche. Per esempio, il metro è collegato alla velocità della luce nel vuoto e il secondo a una particolare frequenza dell’atomo di cesio. Gli strumenti consentono di mettere in pratica queste definizioni."
+        },
+        {
+          "selector": "p,figcaption",
+          "index": 19,
+          "testo": "Il simbolo A indica l’area. Il risultato, 7140 m², corrisponde a 7140 quadrati con il lato lungo un metro. Dire soltanto «7140 metri» non descriverebbe la stessa grandezza."
+        },
+        {
+          "selector": "p,figcaption",
+          "index": 21,
+          "testo": "Alcune unità derivate hanno un nome speciale. Per esempio, la forza si misura in newton e l’energia in joule. Questi nomi non aggiungono nuove unità di base: indicano combinazioni di quelle già presenti nel SI."
+        }
+      ]
+    },
+    {
+      "file": "termodinamica_sistemi_it.html",
+      "tagli": [
+        5,
+        6
+      ],
+      "note": 1,
+      "richiami": 1,
+      "risorse_formule_script_stili_identici": true,
+      "targets": [
+        {
+          "selector": "p,figcaption",
+          "index": 21,
+          "testo": "Una pila integra può essere descritta come un sistema chiuso. Quando alimenta un circuito, trasferisce energia elettrica all’esterno e può anche riscaldarsi e cedere energia all’ambiente. Le sostanze contenute nell’involucro si trasformano attraverso reazioni chimiche, ma non occorre consumarle espellendole nell’ambiente come avviene con il combustibile di un motore."
+        },
+        {
+          "selector": ".chapter-notes"
+        }
+      ]
+    },
+    {
+      "file": "temperatura_equilibrio_termico_it.html",
+      "tagli": [
+        7,
+        8
+      ],
+      "note": 1,
+      "richiami": 4,
+      "risorse_formule_script_stili_identici": true,
+      "targets": [
+        {
+          "selector": "p,figcaption",
+          "index": 8,
+          "testo": "Questo è il motivo per cui occorre attendere prima di leggere un termometro per contatto. All’inizio la sua parte sensibile sta ancora cambiando temperatura; all’equilibrio, ha raggiunto quella della zona con cui è in contatto. Lo strumento deve inoltre alterare il meno possibile ciò che misura."
+        },
+        {
+          "selector": ".chapter-notes"
+        }
+      ]
+    },
+    {
+      "file": "energia_interna_calore_specifico_it.html",
+      "tagli": [
+        9,
+        10
+      ],
+      "note": 4,
+      "richiami": 5,
+      "risorse_formule_script_stili_identici": true,
+      "targets": [
+        {
+          "selector": "p,figcaption",
+          "index": 19,
+          "testo": "La tabella mette a confronto materiali comuni: l’acqua risalta non soltanto rispetto ai metalli e alla sabbia, ma anche rispetto agli altri liquidi e ai gas elencati. Il valore dell’acqua si riferisce ad acqua pura a 20 °C."
+        },
+        {
+          "selector": "#nota-3",
+          "testo": "Il valore della sabbia quarzosa è indicativo: non si riferisce a temperatura e contenuto d’acqua specificati. Composizione e umidità ne modificano il comportamento. ↩"
+        }
+      ]
+    },
+    {
+      "file": "bilancio_termico_it.html",
+      "tagli": [
+        11
+      ],
+      "note": 3,
+      "richiami": 5,
+      "risorse_formule_script_stili_identici": true,
+      "targets": [
+        {
+          "selector": "#nota-3",
+          "testo": "Le curve sono previsioni illustrative per 100 g di caffè inizialmente a 80 °C e 50 g di latte a 20 °C, con calori specifici uguali. Si trascurano gli scambi con tazza e ambiente. ↩"
+        }
+      ]
+    },
+    {
+      "file": "dilatazione_termica_it.html",
+      "tagli": [
+        12
+      ],
+      "note": 4,
+      "richiami": 5,
+      "risorse_formule_script_stili_identici": true,
+      "targets": [
+        {
+          "selector": "p,figcaption",
+          "index": 31,
+          "testo": "Contano i materiali e quanto si riscalda ciascuna parte. Il fenomeno spiega perché il riscaldamento del coperchio possa aiutare."
+        }
+      ]
+    },
+    {
+      "file": "stati_della_materia.html",
+      "tagli": [
+        13,
+        14
+      ],
+      "note": 5,
+      "richiami": 8,
+      "risorse_formule_script_stili_identici": true,
+      "targets": [
+        {
+          "selector": "p,figcaption",
+          "index": 16,
+          "testo": "Nell'animazione, due liquidi simulati mostrano una diversa resistenza alla deformazione e allo scorrimento. Quello a sinistra si distribuisce rapidamente e produce spruzzi; quello a destra scorre più lentamente e mantiene più a lungo una forma compatta."
+        },
+        {
+          "selector": ".chapter-notes"
+        }
+      ]
+    },
+    {
+      "file": "passaggi_di_stato.html",
+      "tagli": [
+        15,
+        16,
+        17
+      ],
+      "note": 20,
+      "richiami": 21,
+      "risorse_formule_script_stili_identici": true,
+      "targets": [
+        {
+          "selector": "#nota-esempio",
+          "testo": "Il modello considera acqua pura a pressione atmosferica ordinaria; trascura dispersioni ed energia assorbita dalle attrezzature, così tutta l’energia calcolata va al materiale.  ↩1 ↩2"
+        },
+        {
+          "selector": "#nota-consumo-casa",
+          "testo": "Fonte: ARERA, Sintesi della Relazione annuale 2025, p. 36 (pagina 38 del PDF), dati 2024: consumo medio unitario delle famiglie pari a 1.930 kWh/anno, considerando l’insieme dei mercati di fornitura. Il dato è riferito alle utenze elettriche domestiche e include abitazioni principali e altre utenze domestiche: non rappresenta il consumo energetico totale dell’abitazione comprensivo di gas o altri combustibili. Per il confronto: 1 kWh = 3,60 MJ; 1,5045 GJ corrispondono a circa 418 kWh e, rispetto a 1,93 MWh/anno, a circa 2,6 mesi.  ↩"
+        },
+        {
+          "selector": ".chapter-notes"
+        }
+      ]
+    },
+    {
+      "file": "conduzione_it.html",
+      "tagli": [
+        18,
+        19
+      ],
+      "note": 5,
+      "richiami": 7,
+      "risorse_formule_script_stili_identici": true,
+      "targets": [
+        {
+          "selector": "p,figcaption",
+          "index": 31,
+          "testo": "Tra l’aria interna e quella esterna c’è una differenza di temperatura di 30 K. Questa non è però, in generale, la differenza tra le temperature delle due facce della parete richiesta dalla legge di Fourier: gli scambi tra l’aria e le superfici producono ulteriori variazioni. Per calcolare la conduzione nel solo muro occorre conoscere la differenza di temperatura fra le due facce."
+        },
+        {
+          "selector": "#nota-2",
+          "testo": "Il modello assume parete omogenea, conducibilità costante, regime stazionario e assenza di sorgenti interne; in queste condizioni il profilo di temperatura è lineare. Le temperature delle facce possono differire da quelle dell’aria. Per pareti con più strati occorre considerare insieme il loro effetto. ↩ ↩"
+        }
+      ]
+    },
+    {
+      "file": "convezione_it.html",
+      "tagli": [
+        20,
+        21
+      ],
+      "note": 6,
+      "richiami": 6,
+      "risorse_formule_script_stili_identici": true,
+      "targets": [
+        {
+          "selector": "p,figcaption",
+          "index": 27,
+          "testo": "Il movimento dell’automobile favorisce il passaggio dell’aria, mentre la ventola può mantenerlo o aumentarlo quando l’auto è ferma o procede lentamente. Le alette estendono la superficie di scambio, come nel dissipatore del processore."
+        },
+        {
+          "selector": "#nota-6",
+          "testo": "In questo caso il ghiaccio di azoto rimane solido, ma può deformarsi e scorrere molto lentamente su tempi geologici. Fonte: NASA, Pluto’s Heart: Like a Cosmic ‘Lava Lamp’. Questo caso estende la descrizione introduttiva dei liquidi e gas a un materiale che scorre su tempi molto lunghi. ↩"
+        }
+      ]
+    },
+    {
+      "file": "irraggiamento_it.html",
+      "tagli": [
+        22,
+        23,
+        24
+      ],
+      "note": 6,
+      "richiami": 6,
+      "risorse_formule_script_stili_identici": true,
+      "targets": [
+        {
+          "selector": "p,figcaption",
+          "index": 29,
+          "testo": "Torniamo al rettile esposto al Sole. Il suo corpo assorbe parte della radiazione solare e della radiazione proveniente dall’ambiente; nello stesso tempo emette radiazione infrarossa. Le frecce entranti rappresentano l’energia assorbita, mentre quelle uscenti rappresentano l’energia emessa. Anche mentre si riscalda, il rettile continua quindi a cedere energia per irraggiamento."
+        },
+        {
+          "selector": "p,figcaption",
+          "index": 30,
+          "testo": "Nell’esempio ipotetico assegniamo 30 °C alla lucertola e 20 °C all’ambiente. La legenda distingue le frecce entranti, per l’energia assorbita dal Sole e dall’ambiente, da quelle uscenti, per l’energia emessa soprattutto nell’infrarosso."
+        }
+      ]
+    }
+  ],
+  "browser": {
+    "viewport": [
+      390,
+      1440
+    ],
+    "overflow": false,
+    "errori_js": [],
+    "note_apertura_ritorno": true
+  },
+  "schermate": [
+    {
+      "file": "metodo_scientifico_it.html",
+      "width": 390,
+      "image": "metodo_scientifico_it-390-1.png",
+      "target": "p,figcaption"
+    },
+    {
+      "file": "metodo_scientifico_it.html",
+      "width": 390,
+      "image": "metodo_scientifico_it-390-2.png",
+      "target": "p,figcaption"
+    },
+    {
+      "file": "metodo_scientifico_it.html",
+      "width": 390,
+      "image": "metodo_scientifico_it-390-3.png",
+      "target": "#nota-modello"
+    },
+    {
+      "file": "grandezze_fisiche_sistema_internazionale_it.html",
+      "width": 390,
+      "image": "grandezze_fisiche_sistema_internazionale_it-390-1.png",
+      "target": "p,figcaption"
+    },
+    {
+      "file": "grandezze_fisiche_sistema_internazionale_it.html",
+      "width": 390,
+      "image": "grandezze_fisiche_sistema_internazionale_it-390-2.png",
+      "target": "p,figcaption"
+    },
+    {
+      "file": "grandezze_fisiche_sistema_internazionale_it.html",
+      "width": 390,
+      "image": "grandezze_fisiche_sistema_internazionale_it-390-3.png",
+      "target": "p,figcaption"
+    },
+    {
+      "file": "termodinamica_sistemi_it.html",
+      "width": 390,
+      "image": "termodinamica_sistemi_it-390-1.png",
+      "target": "p,figcaption"
+    },
+    {
+      "file": "termodinamica_sistemi_it.html",
+      "width": 390,
+      "image": "termodinamica_sistemi_it-390-2.png",
+      "target": ".chapter-notes"
+    },
+    {
+      "file": "temperatura_equilibrio_termico_it.html",
+      "width": 390,
+      "image": "temperatura_equilibrio_termico_it-390-1.png",
+      "target": "p,figcaption"
+    },
+    {
+      "file": "temperatura_equilibrio_termico_it.html",
+      "width": 390,
+      "image": "temperatura_equilibrio_termico_it-390-2.png",
+      "target": ".chapter-notes"
+    },
+    {
+      "file": "energia_interna_calore_specifico_it.html",
+      "width": 390,
+      "image": "energia_interna_calore_specifico_it-390-1.png",
+      "target": "p,figcaption"
+    },
+    {
+      "file": "energia_interna_calore_specifico_it.html",
+      "width": 390,
+      "image": "energia_interna_calore_specifico_it-390-2.png",
+      "target": "#nota-3"
+    },
+    {
+      "file": "bilancio_termico_it.html",
+      "width": 390,
+      "image": "bilancio_termico_it-390-1.png",
+      "target": "#nota-3"
+    },
+    {
+      "file": "dilatazione_termica_it.html",
+      "width": 390,
+      "image": "dilatazione_termica_it-390-1.png",
+      "target": "p,figcaption"
+    },
+    {
+      "file": "stati_della_materia.html",
+      "width": 390,
+      "image": "stati_della_materia-390-1.png",
+      "target": "p,figcaption"
+    },
+    {
+      "file": "stati_della_materia.html",
+      "width": 390,
+      "image": "stati_della_materia-390-2.png",
+      "target": ".chapter-notes"
+    },
+    {
+      "file": "passaggi_di_stato.html",
+      "width": 390,
+      "image": "passaggi_di_stato-390-1.png",
+      "target": "#nota-esempio"
+    },
+    {
+      "file": "passaggi_di_stato.html",
+      "width": 390,
+      "image": "passaggi_di_stato-390-2.png",
+      "target": "#nota-consumo-casa"
+    },
+    {
+      "file": "passaggi_di_stato.html",
+      "width": 390,
+      "image": "passaggi_di_stato-390-3.png",
+      "target": ".chapter-notes"
+    },
+    {
+      "file": "conduzione_it.html",
+      "width": 390,
+      "image": "conduzione_it-390-1.png",
+      "target": "p,figcaption"
+    },
+    {
+      "file": "conduzione_it.html",
+      "width": 390,
+      "image": "conduzione_it-390-2.png",
+      "target": "#nota-2"
+    },
+    {
+      "file": "convezione_it.html",
+      "width": 390,
+      "image": "convezione_it-390-1.png",
+      "target": "p,figcaption"
+    },
+    {
+      "file": "convezione_it.html",
+      "width": 390,
+      "image": "convezione_it-390-2.png",
+      "target": "#nota-6"
+    },
+    {
+      "file": "irraggiamento_it.html",
+      "width": 390,
+      "image": "irraggiamento_it-390-1.png",
+      "target": "p,figcaption"
+    },
+    {
+      "file": "irraggiamento_it.html",
+      "width": 390,
+      "image": "irraggiamento_it-390-2.png",
+      "target": "p,figcaption"
+    },
+    {
+      "file": "metodo_scientifico_it.html",
+      "width": 1440,
+      "image": "metodo_scientifico_it-1440-1.png",
+      "target": "p,figcaption"
+    },
+    {
+      "file": "metodo_scientifico_it.html",
+      "width": 1440,
+      "image": "metodo_scientifico_it-1440-2.png",
+      "target": "p,figcaption"
+    },
+    {
+      "file": "metodo_scientifico_it.html",
+      "width": 1440,
+      "image": "metodo_scientifico_it-1440-3.png",
+      "target": "#nota-modello"
+    },
+    {
+      "file": "grandezze_fisiche_sistema_internazionale_it.html",
+      "width": 1440,
+      "image": "grandezze_fisiche_sistema_internazionale_it-1440-1.png",
+      "target": "p,figcaption"
+    },
+    {
+      "file": "grandezze_fisiche_sistema_internazionale_it.html",
+      "width": 1440,
+      "image": "grandezze_fisiche_sistema_internazionale_it-1440-2.png",
+      "target": "p,figcaption"
+    },
+    {
+      "file": "grandezze_fisiche_sistema_internazionale_it.html",
+      "width": 1440,
+      "image": "grandezze_fisiche_sistema_internazionale_it-1440-3.png",
+      "target": "p,figcaption"
+    },
+    {
+      "file": "termodinamica_sistemi_it.html",
+      "width": 1440,
+      "image": "termodinamica_sistemi_it-1440-1.png",
+      "target": "p,figcaption"
+    },
+    {
+      "file": "termodinamica_sistemi_it.html",
+      "width": 1440,
+      "image": "termodinamica_sistemi_it-1440-2.png",
+      "target": ".chapter-notes"
+    },
+    {
+      "file": "temperatura_equilibrio_termico_it.html",
+      "width": 1440,
+      "image": "temperatura_equilibrio_termico_it-1440-1.png",
+      "target": "p,figcaption"
+    },
+    {
+      "file": "temperatura_equilibrio_termico_it.html",
+      "width": 1440,
+      "image": "temperatura_equilibrio_termico_it-1440-2.png",
+      "target": ".chapter-notes"
+    },
+    {
+      "file": "energia_interna_calore_specifico_it.html",
+      "width": 1440,
+      "image": "energia_interna_calore_specifico_it-1440-1.png",
+      "target": "p,figcaption"
+    },
+    {
+      "file": "energia_interna_calore_specifico_it.html",
+      "width": 1440,
+      "image": "energia_interna_calore_specifico_it-1440-2.png",
+      "target": "#nota-3"
+    },
+    {
+      "file": "bilancio_termico_it.html",
+      "width": 1440,
+      "image": "bilancio_termico_it-1440-1.png",
+      "target": "#nota-3"
+    },
+    {
+      "file": "dilatazione_termica_it.html",
+      "width": 1440,
+      "image": "dilatazione_termica_it-1440-1.png",
+      "target": "p,figcaption"
+    },
+    {
+      "file": "stati_della_materia.html",
+      "width": 1440,
+      "image": "stati_della_materia-1440-1.png",
+      "target": "p,figcaption"
+    },
+    {
+      "file": "stati_della_materia.html",
+      "width": 1440,
+      "image": "stati_della_materia-1440-2.png",
+      "target": ".chapter-notes"
+    },
+    {
+      "file": "passaggi_di_stato.html",
+      "width": 1440,
+      "image": "passaggi_di_stato-1440-1.png",
+      "target": "#nota-esempio"
+    },
+    {
+      "file": "passaggi_di_stato.html",
+      "width": 1440,
+      "image": "passaggi_di_stato-1440-2.png",
+      "target": "#nota-consumo-casa"
+    },
+    {
+      "file": "passaggi_di_stato.html",
+      "width": 1440,
+      "image": "passaggi_di_stato-1440-3.png",
+      "target": ".chapter-notes"
+    },
+    {
+      "file": "conduzione_it.html",
+      "width": 1440,
+      "image": "conduzione_it-1440-1.png",
+      "target": "p,figcaption"
+    },
+    {
+      "file": "conduzione_it.html",
+      "width": 1440,
+      "image": "conduzione_it-1440-2.png",
+      "target": "#nota-2"
+    },
+    {
+      "file": "convezione_it.html",
+      "width": 1440,
+      "image": "convezione_it-1440-1.png",
+      "target": "p,figcaption"
+    },
+    {
+      "file": "convezione_it.html",
+      "width": 1440,
+      "image": "convezione_it-1440-2.png",
+      "target": "#nota-6"
+    },
+    {
+      "file": "irraggiamento_it.html",
+      "width": 1440,
+      "image": "irraggiamento_it-1440-1.png",
+      "target": "p,figcaption"
+    },
+    {
+      "file": "irraggiamento_it.html",
+      "width": 1440,
+      "image": "irraggiamento_it-1440-2.png",
+      "target": "p,figcaption"
+    }
+  ]
+}

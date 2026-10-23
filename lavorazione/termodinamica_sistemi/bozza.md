@@ -36,7 +36,7 @@ Un **sistema isolato** non scambia né materia né energia con l’ambiente. Un 
 
 Un thermos reale non è perfettamente isolato. Se aspettiamo abbastanza a lungo, la temperatura della bevanda cambia: un po’ di energia attraversa comunque il confine. Possiamo trattarlo come isolato quando questi scambi sono abbastanza piccoli da poter essere trascurati nell’intervallo di tempo che ci interessa.
 
-L’Universo, inteso come tutto ciò che esiste, non ha invece un ambiente esterno con cui scambiare materia o energia.[^universo] È questo il collegamento con il thermos: entrambi permettono di ragionare sull’isolamento, ma per ragioni diverse. Nel primo caso consideriamo la totalità di ciò che esiste; nel secondo un oggetto progettato per limitare gli scambi con l’esterno.
+L’Universo, inteso come tutto ciò che esiste, non ha invece un ambiente esterno con cui scambiare materia o energia. È questo il collegamento con il thermos: entrambi permettono di ragionare sull’isolamento, ma per ragioni diverse. Nel primo caso consideriamo la totalità di ciò che esiste; nel secondo un oggetto progettato per limitare gli scambi con l’esterno.
 
 ## Sistemi aperti: materia ed energia attraversano il confine
 
@@ -62,7 +62,7 @@ Un **sistema chiuso** può scambiare energia con l’ambiente senza scambiare ma
 
 Didascalia: Il tratteggio individua una singola pila nella raccolta per il riciclo. Nel modello di una pila integra che alimenta un circuito, l’energia può essere trasferita come lavoro elettrico e calore, senza flussi macroscopici di materia attraverso l’involucro.
 
-Una **pila integra** può essere descritta come un sistema chiuso. Quando alimenta un circuito, trasferisce energia elettrica all’esterno e può anche riscaldarsi e cedere energia all’ambiente. Le sostanze contenute nell’involucro si trasformano attraverso reazioni chimiche, ma non occorre consumarle espellendole nell’ambiente come avviene con il combustibile di un motore.[^pile] La foto mostra pile usate raccolte per il riciclo: lo scambio elettrico descritto riguarda il loro funzionamento in un circuito.
+Una **pila integra** può essere descritta come un sistema chiuso. Quando alimenta un circuito, trasferisce energia elettrica all’esterno e può anche riscaldarsi e cedere energia all’ambiente. Le sostanze contenute nell’involucro si trasformano attraverso reazioni chimiche, ma non occorre consumarle espellendole nell’ambiente come avviene con il combustibile di un motore.[^pile]
 
 [IMMAGINE TS-7 — Mountain bike suspension rear ohlins shock.jpg, Alextredz, CC BY-SA 4.0. Ultima scelta esplicita dell’utente, sostituisce i due link Flickr. Foto completa con tratteggio attorno alla sola molla gialla; senza frecce, scritte o ingrandimento. Spiegazione nella didascalia.]
 
@@ -81,6 +81,5 @@ Anche una **molla** può essere un sistema chiuso, pur non essendo un contenitor
 7. Un thermos chiuso, lasciato per molte ore, contiene una bevanda che si è raffreddata. Quale scambio è avvenuto? Perché questo non rende automaticamente il sistema aperto?
 8. Per classificare un sistema è sufficiente sapere che possiede un tappo? Spiega quali informazioni sugli scambi servono.
 
-[^universo]: L’Universo osservabile è soltanto la regione da cui possiamo ricevere segnali: non coincide con l’intero Universo e non va automaticamente considerato un sistema isolato.
 
 [^pile]: Si considera il normale modello termodinamico macroscopico di una pila integra, senza perdite o emissioni di gas. Il trasferimento di energia attraverso i collegamenti elettrici viene descritto come lavoro elettrico.

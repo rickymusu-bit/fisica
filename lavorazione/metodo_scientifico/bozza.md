@@ -31,7 +31,7 @@ Poi ripetiamo le discese e misuriamo il tempo. La ripetizione è utile perché l
 
 ## Che cosa raccontano i dati?
 
-Osserva la tabella delle tue prove. Confronta prima i tempi ottenuti con la stessa inclinazione, poi quelli raccolti cambiando l’angolo. Se i tempi diminuiscono aumentando la pendenza, i risultati sono coerenti con la previsione. Questo confronto riguarda però il modello della simulazione: per studiare una pallina reale occorre costruire una pista e raccogliere misure sperimentali.
+Osserva la tabella delle tue prove. Confronta prima i tempi ottenuti con la stessa inclinazione, poi quelli raccolti cambiando l’angolo. Se i tempi diminuiscono aumentando la pendenza, i risultati sono coerenti con la previsione.
 
 ## Quando un risultato ci costringe a cambiare idea
 
