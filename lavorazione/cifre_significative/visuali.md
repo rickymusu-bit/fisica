@@ -43,3 +43,7 @@ Riferimenti: MASTER_PROMPT.md v69.9, AGENTS.md, STILE_DISPENSE.md v6, esempio_ir
 ## Realizzazione della cassa su richiesta
 
 Sostituita la proposta di riuso del PNG storico: l’utente ne autorizza la generazione, vede il risultato e dà il via «Ok procedi». Nuovo originale trasparente in risorse/cassa-generata.png, provenienza in risorse/cassa-fonte.json. Quote a = 2,34 m e b = 1,2 m aggiunte via SVG in risorse/schema-cassa.svg; dati illustrativi, disegno non in scala. Il punto aperto sui diritti del PNG storico non riguarda più il nuovo capitolo, che non lo riproduce. Le copertine scelte e gli altri materiali restano confermati.
+
+## Criterio dello zoom aggiornato
+
+Su richiesta esplicita dell’utente, né FIG-01 né FIG-02 hanno zoom: entrambe contengono poche etichette. L’ingrandimento è riservato ai grafici e agli schemi con numerose scritte piccole, secondo master v69.10 e AGENTS.md. La cassa resta intera e quotata, senza copia di ingrandimento.

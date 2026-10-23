@@ -1,6 +1,6 @@
 # Le cifre significative
 
-Versione v3 — 23 ottobre 2026 (Europe/Rome). Bozza per revisione; non è ancora l’HTML del capitolo.
+Versione v4 — 23 ottobre 2026 (Europe/Rome). Bozza per revisione; non è ancora l’HTML del capitolo.
 
 [COP-01 — Fotografia dello strumento di misura egizio scelta dall’utente: risorse/copertina-egizia.jpg. Immagine intera, senza zoom, non ripetuta nel corpo.]
 
@@ -104,7 +104,7 @@ Puoi applicare il metodo in quattro passi:
 
 Consideriamo la base rettangolare di una cassa. I lati hanno lunghezze assegnate **a = 2,34 m** e **b = 1,2 m**. Con le stesse due misure calcoliamo somma, differenza, area, rapporto e perimetro, osservando quali cifre conservare.
 
-[FIG-02 — Schema della cassa con la nuova illustrazione generata su richiesta, risorse/cassa-generata.png. Aggiungere quote a = 2,34 m e b = 1,2 m sui due lati adiacenti della base, prima dei calcoli. Dati illustrativi; non è una fotografia di misure reali.]
+[FIG-02 — Schema della cassa con la nuova illustrazione generata su richiesta, risorse/cassa-generata.png. Aggiungere quote a = 2,34 m e b = 1,2 m sui due lati adiacenti della base, prima dei calcoli. Nessun comando di zoom per questa figura. Dati illustrativi; non è una fotografia di misure reali.]
 
 Didascalia: Le quote indicano le lunghezze dei due lati adiacenti della base.
 

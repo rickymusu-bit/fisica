@@ -76,37 +76,32 @@
   "richieste_esterne": [],
   "schermate": [
     "copertina-light-390.png",
+    "confronto-light-390.png",
     "tabella-light-390.png",
     "schema-light-390.png",
     "frazione-light-390.png",
     "perimetro-light-390.png",
     "copertina-dark-390.png",
+    "confronto-dark-390.png",
     "tabella-dark-390.png",
     "schema-dark-390.png",
     "frazione-dark-390.png",
     "perimetro-dark-390.png",
     "copertina-light-1440.png",
+    "confronto-light-1440.png",
     "tabella-light-1440.png",
     "schema-light-1440.png",
     "frazione-light-1440.png",
     "perimetro-light-1440.png",
     "copertina-dark-1440.png",
+    "confronto-dark-1440.png",
     "tabella-dark-1440.png",
     "schema-dark-1440.png",
     "frazione-dark-1440.png",
-    "perimetro-dark-1440.png",
-    "confronto-dark-390.png",
-    "confronto-light-1440.png"
+    "perimetro-dark-1440.png"
   ],
   "download": "identico byte per byte",
   "offline": "HTML in memoria, rete bloccata; immagini e MathML disponibili",
-  "senza_javascript": "figure, zoom nativo e crediti disponibili; default scuro",
-  "html_sha256": "0f30b3fd5d11040e269ba81e320475628b012259365854eef33a340ae4a09953",
-  "revisione": {
-    "versione": "v2",
-    "prima_figura_senza_zoom": true,
-    "CS_definita_prima_dell_uso": true,
-    "frecce": "punte esterne con estremità sui delimitatori",
-    "avviso_duplicato_rimosso": true
-  }
+  "senza_javascript": "figure senza zoom e crediti disponibili; default scuro",
+  "html_sha256": "e54638b56585b7908e0f55e87fba11ff7be7d311fa796266c338dd318e1a8c01"
 }

@@ -157,7 +157,7 @@ def diagram(template, key, caption):
         'FIG-02':('schema-cassa.svg','Cassa a base rettangolare, con quote sui due lati adiacenti della base: a = 2,34 m; b = 1,2 m. Illustrazione generata con quote dei due lati adiacenti della base.',1100,'cassa-cifre-generata')
     }[key]
     uri = 'data:image/svg+xml;base64,' + base64.b64encode((WORK / 'risorse' / name).read_bytes()).decode()
-    if key == 'FIG-01':
+    if key in {'FIG-01', 'FIG-02'}:
         parsed = credits.Document(result)
         zoom = next(n for n in parsed.root.descendants('details') if n.has_class('image-zoom'))
         result = result[:zoom.start] + result[zoom.end:]
@@ -242,7 +242,7 @@ def render():
     for node in doc.root.descendants():
         if node.tag=='title':edits.append((node.start,node.end,'<title>' + TITLE + ' — Stringhe</title>'))
         elif node.tag=='meta' and node.attrs.get('name') in {'version','date','description'}:
-            val={'version':'v2','date':'2026-10-23','description':'Cifre significative, zeri, arrotondamento e regole nei calcoli con misure, con esempi e procedure.'}[node.attrs['name']]
+            val={'version':'v3','date':'2026-10-23','description':'Cifre significative, zeri, arrotondamento e regole nei calcoli con misure, con esempi e procedure.'}[node.attrs['name']]
             edits.append((node.start,node.end,'<meta name="' + node.attrs['name'] + '" content="' + val + '">'))
         elif node.tag=='figure' and node.has_class('cover'):edits.append((node.start,node.end,cover))
         elif node.tag=='article' and node.has_class('article'):
@@ -255,7 +255,7 @@ def render():
             nav='<nav class="sidebar-nav" aria-label="Sezioni del capitolo"><ol>'+''.join('<li class="level-' + str(level) + '"><a href="#' + sid + '"><span>' + escape(title) + '</span></a></li>' for sid,title,level in headings)+'</ol></nav>'
             markup=re.sub(r'<nav class="sidebar-nav"[\s\S]*?</nav>',lambda _:nav,markup)
             edits.append((node.start,node.end,navigation_header('chapter',NAME,markup)))
-        elif node.tag=='footer' and node.has_class('footer'):edits.append((node.start,node.end,'<footer class="footer">Versione v2 — 23 ottobre 2026</footer>'))
+        elif node.tag=='footer' and node.has_class('footer'):edits.append((node.start,node.end,'<footer class="footer">Versione v3 — 23 ottobre 2026</footer>'))
     for start,end,value in sorted(edits,reverse=True):template=template[:start]+value+template[end:]
     template=template.replace('Nome dell’area tematica',AREA).replace('Titolo del capitolo',TITLE)
     template=re.sub(r'<!-- MODELLO CANONICO[\s\S]*?-->','<!-- Capitolo 5, testo approvato e modello Stringhe v23; cassa generata su richiesta. -->',template,count=1)

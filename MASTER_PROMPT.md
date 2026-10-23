@@ -1,6 +1,6 @@
 # PROMPT MASTER — DISPENSE VISUALI DI FISICA PER IL BIENNIO DEGLI ISTITUTI TECNICI
 
-VERSIONE DEL PROMPT: v69.9 — 23/10/2026, ore 12:10 (Europe/Rome)
+VERSIONE DEL PROMPT: v69.10 — 23/10/2026, ore 18:47 (Europe/Rome)
 
 Questo master raccoglie le regole della dispensa e la procedura per realizzarla con il minor lavoro ripetuto possibile. Le istruzioni relative a immagini, video, traduzioni e simulazioni si applicano quando quei materiali fanno parte della richiesta. Non aggiungere contenuti o lavorazioni solo perché il master ne descrive la gestione.
 
@@ -90,7 +90,7 @@ Il risultato finale resta un HTML autonomo e completo, salvo diversa richiesta e
 
 Usa HTML5 con `<!DOCTYPE html>`, `<html lang="it">`, codifica UTF-8, meta viewport, titolo, CSS incorporato e meta versione. Incorpora le immagini e il codice necessari per il funzionamento offline quando possibile. Preferisci HTML, CSS e JavaScript standard, evitando framework e dipendenze esterne non indispensabili.
 
-Progetta fin dall’inizio per smartphone, tablet, notebook e desktop. Mantieni una larghezza di lettura confortevole su desktop e font sufficientemente grandi. Le immagini rispettano almeno max-width:100% e height:auto, senza deformazioni. Il comando di ingrandimento delle immagini è riservato alle figure nel corpo: non inserirlo nelle copertine e non duplicarne l’immagine in un pannello di zoom. Su smartphone generalmente usa una sola immagine per riga con didascalia vicina; su schermi grandi puoi affiancare immagini o confronti quando è utile.
+Progetta fin dall’inizio per smartphone, tablet, notebook e desktop. Mantieni una larghezza di lettura confortevole su desktop e font sufficientemente grandi. Le immagini rispettano almeno max-width:100% e height:auto, senza deformazioni. Il comando di zoom/ingrandimento è riservato ai grafici e agli schemi nel corpo che contengono numerose scritte piccole e richiedono l’ingrandimento per leggerle. Non inserirlo nelle fotografie, nelle copertine o nelle figure con poche etichette già leggibili; in questi casi non duplicare l’immagine in un pannello di zoom. Su smartphone generalmente usa una sola immagine per riga con didascalia vicina; su schermi grandi puoi affiancare immagini o confronti quando è utile.
 
 Tabelle, formule e grafici devono adattarsi o avere scorrimento orizzontale. Per gli elementi ricostruiti, preferisci prima una riorganizzazione leggibile: disposizione verticale, elementi impilati, legenda spostata, etichette abbreviate senza cambiare significato o maggiore altezza. Non limitarti a rimpicciolire una composizione desktop. Usa lo scorrimento quando non esiste una soluzione migliore; la leggibilità prevale sulla disposizione originale.
 
@@ -108,7 +108,7 @@ La terminologia dell’interfaccia è parte integrante del tema comune e si appl
 
 Se compare il nome dell’autore, scrivi «Riccardo Musumarra» con maiuscole normali, salvo diversa richiesta o prescrizione del documento da compilare.
 
-I comandi delle GIF e delle immagini appartengono al tema comune. Ogni GIF offre un unico pulsante play/pausa a icona nell’angolo in basso a sinistra dell’immagine, con nome accessibile e suggerimento aggiornati, uso da tastiera, bersaglio di almeno 44 px e fermo immagine per movimento ridotto. Non mostrare le diciture «Riprendi l’animazione» o «Metti in pausa l’animazione» come testo del pulsante. L’ingrandimento usa un comando a icona ingrandisci/rimpicciolisci nella medesima posizione, conserva lo stato aperto/chiuso nativo e funziona senza JavaScript. Applicare automaticamente queste componenti ai capitoli esistenti e futuri e al modello; non aggiungere una regola generale sull’allineamento delle didascalie, ritirata espressamente dall’utente.
+I comandi delle GIF e delle immagini appartengono al tema comune. Ogni GIF offre un unico pulsante play/pausa a icona nell’angolo in basso a sinistra dell’immagine, con nome accessibile e suggerimento aggiornati, uso da tastiera, bersaglio di almeno 44 px e fermo immagine per movimento ridotto. Non mostrare le diciture «Riprendi l’animazione» o «Metti in pausa l’animazione» come testo del pulsante. L’ingrandimento, soltanto nei casi previsti sopra, usa un comando a icona ingrandisci/rimpicciolisci nella medesima posizione, conserva lo stato aperto/chiuso nativo e funziona senza JavaScript. Applicare automaticamente queste componenti ai capitoli esistenti e futuri e al modello; non aggiungere una regola generale sull’allineamento delle didascalie, ritirata espressamente dall’utente.
 
 
 ## B. PROCEDURA DI LAVORO E RIDUZIONE DEGLI SPRECHI

@@ -6532,15 +6532,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": "cassa-cifre-generata"
-        },
-        {
-          "document": "cifre_significative_it.html",
-          "kind": "image/svg+xml",
-          "description": "Cassa a base rettangolare, con quote sui due lati adiacenti della base: a = 2,34 m; b = 1,2 m. Illustrazione generata con quote dei due lati adiacenti della base.",
-          "locator": "fig-02",
-          "attribute": "src",
-          "location": null,
-          "credit_id": "cassa-cifre-generata"
         }
       ]
     },

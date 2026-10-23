@@ -43,7 +43,8 @@ def main():
                 for value in ['light','dark']:
                     theme(page,value)
                     assert page.evaluate('document.documentElement.scrollWidth<=innerWidth'),(width,value)
-                    assert page.locator('#fig-01 .image-zoom, #fig-01 summary, #fig-01 button').count()==0
+                    assert page.locator('.image-zoom').count()==0
+                    assert page.locator('#fig-02 img').count()==1
                     assert page.locator('.article').inner_text().count('cifre significative')==1
                     assert 'che indicheremo con C.S.' in page.locator('.article').inner_text()
                     assert 'non in scala' not in page.locator('#fig-02').inner_text()
@@ -76,9 +77,6 @@ def main():
                 scroll=page.locator('#tab-01 .significant-scroll');scroll.scroll_into_view_if_needed();scroll.focus()
                 before=scroll.evaluate('(e)=>e.scrollLeft');page.keyboard.press('ArrowRight');page.wait_for_timeout(150)
                 if width<=390:assert scroll.evaluate('(e)=>e.scrollLeft')>before
-                zoom=page.locator('#fig-02 .image-zoom');zoom.locator('summary').click();expect(zoom).to_have_attribute('open','')
-                assert zoom.locator('img').evaluate('(i)=>i.getBoundingClientRect().width')>=1100
-                page.keyboard.press('Enter');assert zoom.get_attribute('open') is None
                 page.locator('#richiamo-1').click();expect(page.locator('.chapter-notes')).to_have_attribute('open','')
                 page.locator('#nota-1 [role="doc-backlink"]').click();assert page.url.endswith('#richiamo-1')
                 page.locator('.chapter-notes>summary').click()
@@ -95,14 +93,15 @@ def main():
             for value in ['light','dark']:
                 nojs=browser.new_context(java_script_enabled=False,color_scheme=value,viewport={'width':390,'height':900})
                 plain=nojs.new_page();plain.goto(url);assert plain.locator('html').get_attribute('data-theme')=='dark'
-                plain.locator('#fig-02 .image-zoom>summary').click();expect(plain.locator('#fig-02 .image-zoom')).to_have_attribute('open','')
+                assert plain.locator('.image-zoom').count()==0
+                assert plain.locator('#fig-02 img').count()==1
                 plain.locator('[data-offline-credits]').click();expect(plain.locator('#crediti-autonomi')).to_be_visible();nojs.close()
             offline=browser.new_context(offline=True,viewport={'width':390,'height':900});plain=offline.new_page()
             plain.set_content((ROOT/NAME).read_text());plain.locator('img').evaluate_all('async(xs)=>Promise.all(xs.map(i=>{i.loading="eager";return i.decode()}))')
             assert plain.locator('img').evaluate_all('(xs)=>xs.every(i=>i.complete&&i.naturalWidth>0)')
             assert plain.locator('mfrac').count()==2;offline.close()
             report['offline']='HTML in memoria, rete bloccata; immagini e MathML disponibili'
-            report['senza_javascript']='figure, zoom nativo e crediti disponibili; default scuro'
+            report['senza_javascript']='figure senza zoom e crediti disponibili; default scuro'
             browser.close()
     finally:server.shutdown();server.server_close()
     assert not report['errori'] and not report['richieste_esterne'],report

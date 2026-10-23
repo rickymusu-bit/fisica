@@ -143,3 +143,7 @@ Testo approvato con «Approvo tutto»; cassa generata su richiesta e successivo 
 ### Quinto capitolo — revisione dell’anteprima, HTML v2
 
 Su richiesta: prima figura senza zoom; C.S. introdotta nella definizione e usata nelle occorrenze successive; punte delle quote della cassa rivolte all’esterno fino ai delimitatori; avviso ripetuto eliminato da immagine e didascalia senza trasferirlo in nota. Bozza v3 e generatore allineati, formule numeriche conservate. Crediti/tema e browser a cinque larghezze nei due temi verificati; [stato e anteprima](../cifre_significative/stato.md) nella PR #68 in bozza. Nessun rilascio autorizzato dell’anteprima corrente.
+
+### Quinto capitolo — zoom selettivo, HTML v3
+
+Tolto anche lo zoom dalla cassa, su richiesta. Regola salvata nel master v69.10 e AGENTS.md: zoom soltanto per grafici e schemi con numerose scritte piccole, mai su fotografie e copertine. Nessun ingrandimento nelle due figure semplici del capitolo 5; file autonomo circa 4,68 MB. Crediti/tema e browser verificati; anteprima v3 nella PR #68 in bozza, sito pubblico invariato.
