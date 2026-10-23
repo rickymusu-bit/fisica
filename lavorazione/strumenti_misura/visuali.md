@@ -1,5 +1,5 @@
 # Capitolo 6 — Gli strumenti di misura: proposta
-Versione v1 — 23 ottobre 2026 (Europe/Rome). Proposta da concordare prima della bozza.
+Versione v2 — 23 ottobre 2026 (Europe/Rome). Impostazione e visuali approvate con «Ok»; bozza testuale v1 pronta.
 
 ## Domanda e confini
 Una bilancia mostra molte cifre: basta questo per fidarsi della misura? Partire dal confronto fra lettura analogica e digitale, poi distinguere le caratteristiche che permettono di scegliere e usare uno strumento.
@@ -25,9 +25,9 @@ Non sviluppare classificazione degli errori, incertezza numerica, media o semidi
 | FIG-06-3 | Foto originale del voltmetro 0–15 V | Portata e scelta dell'intervallo |
 | FIG-06-4 | Foto originale del termometro | Prontezza e risposta del sensore; collegare anche il confronto sulla sensibilità senza attribuirlo al modello fotografato |
 | FIG-06-5 | Foto originale del cronometro | Risoluzione visualizzata e limiti dell'azionamento manuale |
-| TAB-06 | Nuovo prospetto numerico, da concordare | Letture illustrative precise ma spostate rispetto a un riferimento, accanto alle bilance già presenti; nessun nuovo oggetto disegnato |
+| TAB-06 | Nuovo prospetto numerico, concordato | Letture illustrative precise ma spostate rispetto a un riferimento, accanto alle bilance già presenti; nessun nuovo oggetto disegnato |
 
-I materiali indicati sono già nel sorgente storico. Il riuso è proposto, non ancora approvato per questo capitolo. Nessuna ricerca o generazione avviata. I diritti individuali risultano non documentati nello snapshot dei crediti del sorgente: verificare le schede esistenti e le fonti prima dell'integrazione; non dedurre licenze. Se i materiali non sono utilizzabili, chiedere all'utente immagini pertinenti.
+I materiali indicati sono già nel sorgente storico. Il riuso è stato approvato con «Ok»; resta necessaria la verifica delle licenze prima dell'integrazione. Nessuna ricerca o generazione avviata. I diritti individuali risultano non documentati nello snapshot dei crediti del sorgente: verificare le schede esistenti e le fonti prima dell'integrazione; non dedurre licenze. Se i materiali non sono utilizzabili, chiedere all'utente immagini pertinenti.
 La dicitura “sensitivity” sul quadrante della bilancia analogica indica un passo di 20 g: spiegare la convenzione in nota, distinguendola dalla definizione metrologica. Non modificare le scritte nella fotografia.
 
 Nessun video, simulazione o esercizio svolto separato proposto: fotografie, scala e confronto delle letture bastano a sostenere il percorso.

@@ -167,3 +167,11 @@ Richiesta corrente: «Facciamo i capitoli 6 e 7». Verificati sorgente `strument
 Proposto riuso delle immagini esistenti: calibro in copertina del 6, sismografo in copertina del 7, cronometro nello schema dell'esempio del 7, bersagli soltanto nel suo corpo. Nuovi prospetti e schema da concordare prima della bozza; licenze storiche non documentate da verificare prima dell'integrazione. Nessuna ricerca o generazione avviata, nessuna simulazione proposta.
 
 Ramo `lavorazione/strumenti-errori-incertezza`, da main d681439986db6c824fb1c724fa8cf7023e5a38de. Fase corrente: scelta delle visuali secondo B1.1; nessuna bozza, realizzazione HTML o pubblicazione ancora approvata. Sorgenti storici, catalogo e manifest invariati.
+
+### Capitoli 6 e 7 — visuali concordate, bozze v1 pronte
+
+L'utente approva l'impostazione con «Ok». Completate [Gli strumenti di misura, bozza v1](../strumenti_misura/bozza.md) ed [Errori e incertezza di misura, bozza v1](../errori_incertezza_misura/bozza.md), ciascuna con otto quesiti, formule spiegate, segnaposto delle visuali e una nota breve. Conservati integralmente i sette quesiti originali nella ripartizione concordata, con il quesito sulle misure ripetute riservato all'8.
+
+Nel 6 esplicitata la formula della sensibilità e aggiunte serie illustrative per precisione/accuratezza. Nel 7 conservato il confronto 2,40 s / 2,50 s e chiarito che U = 0,09 s è assegnata all'esempio, senza calcoli di media o semidispersione. Incertezza distinta dall'errore effettivo; nessuna garanzia assoluta attribuita all'intervallo ±U.
+
+Fase corrente: approvazione dei due testi nella PR #72, poi stima e via esplicito alla realizzazione. Licenze dei materiali storici da verificare prima dell'integrazione. Nessun HTML o aggiornamento pubblico; sorgenti storici e manifest invariati.

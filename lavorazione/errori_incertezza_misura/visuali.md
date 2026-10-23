@@ -1,5 +1,5 @@
 # Capitolo 7 — Errori e incertezza di misura: proposta
-Versione v1 — 23 ottobre 2026 (Europe/Rome). Proposta da concordare prima della bozza.
+Versione v2 — 23 ottobre 2026 (Europe/Rome). Impostazione e visuali approvate con «Ok»; bozza testuale v1 pronta.
 
 ## Domanda e confini
 Il cronometro mostra 2,40 s: quanto sappiamo del tempo misurato, e possiamo già dire di quanto abbiamo sbagliato? Distinguere la variabilità delle letture, gli spostamenti rispetto a un riferimento e l'informazione espressa dall'incertezza.
@@ -22,10 +22,10 @@ La tabella delle cinque letture, la linea dei numeri, la media, la semidispersio
 | COP-07 | Foto originale del sismografo | Copertina intera senza zoom, non ripetuta nel corpo; introduce il problema di interpretare le variazioni |
 | FIG-07-1 | Infografica originale dei quattro bersagli | Dispersione e spostamento; centro come riferimento noto, non “valore vero” conosciuto in ogni misura |
 | FIG-07-2 | Foto originale della bilancia digitale | Zero spostato e registrazione delle letture. Nessun nuovo valore sovrapposto al display |
-| TAB-07-1 | Prospetto da concordare: lettura / incertezza / riferimento / errore | Separare informazioni disponibili e quantità calcolabili, accanto alle formule |
-| SCH-07-1 | Composizione da concordare con la foto originale del cronometro ed etichette numeriche | Situazione dell'esempio temporale prima dei calcoli; tempo attribuito 2,40 s e riferimento indipendente 2,50 s, dati illustrativi. Non rappresentare un secondo dispositivo inventato |
+| TAB-07-1 | Prospetto concordato: lettura / incertezza / riferimento / errore | Separare informazioni disponibili e quantità calcolabili, accanto alle formule |
+| SCH-07-1 | Composizione concordata con la foto originale del cronometro ed etichette numeriche | Situazione dell'esempio temporale prima dei calcoli; tempo attribuito 2,40 s e riferimento indipendente 2,50 s, dati illustrativi. Non rappresentare un secondo dispositivo inventato |
 
-La foto del sismografo resta soltanto in copertina, il cronometro soltanto nello schema del corpo. La traccia non sarà presentata come prova di rumore o errore: può contenere segnale reale. Scelta da concordare; non realizzare lo schema prima della decisione.
+La foto del sismografo resta soltanto in copertina, il cronometro soltanto nello schema del corpo. La traccia non sarà presentata come prova di rumore o errore: può contenere segnale reale. Scelta approvata; realizzazione dello schema dopo il via all'HTML.
 
 I diritti delle immagini storiche risultano non documentati nello snapshot del sorgente. Verificare provenienza, licenza e leggibilità dell'infografica, senza ridisegnarla o tradurla autonomamente. Se non utilizzabile, concordare un confronto numerico equivalente o chiedere immagini sostitutive. Non cercare né generare nuove immagini in questa fase.
 
