@@ -1,0 +1,236 @@
+{
+  "base": "https://rickymusu-bit.github.io/fisica/",
+  "risultati": [
+    {
+      "file": "metodo_scientifico_it.html",
+      "status": 200,
+      "expected": 200,
+      "sha256": "e38aa1105aa5c3430c637c3f7dc2cbb70cc6f30fe3488d01fce7db43de0f649f",
+      "identico_alla_build": true,
+      "ok": true
+    },
+    {
+      "file": "grandezze_fisiche_sistema_internazionale_it.html",
+      "status": 200,
+      "expected": 200,
+      "sha256": "6d017bac4c5a88b115c19f879bc53efefbbb660ec8c961aefc74581058562303",
+      "identico_alla_build": true,
+      "ok": true
+    },
+    {
+      "file": "potenze_dieci_notazione_scientifica_it.html",
+      "status": 200,
+      "expected": 200,
+      "sha256": "c89644cde156eaf8dafcabba43e6370f77eb8c593976e37b7c479ef8da3fdcf0",
+      "identico_alla_build": true,
+      "ok": true
+    },
+    {
+      "file": "prefissi_sistema_internazionale_it.html",
+      "status": 200,
+      "expected": 200,
+      "sha256": "0fb7f8809b174ac3850375d8fd2ecd73dac6e16f2c60e22d2742f0ced12706c7",
+      "identico_alla_build": true,
+      "ok": true
+    },
+    {
+      "file": "cifre_significative_it.html",
+      "status": 200,
+      "expected": 200,
+      "sha256": "fccbb73839208843356aa1a3e873925491d3b64a120e005c19984413a5c81e90",
+      "identico_alla_build": true,
+      "ok": true
+    },
+    {
+      "file": "termodinamica_sistemi_it.html",
+      "status": 200,
+      "expected": 200,
+      "sha256": "b43af028be02178324a35ecbeac1a9def11d951da38e893fd9639be310193458",
+      "identico_alla_build": true,
+      "ok": true
+    },
+    {
+      "file": "temperatura_equilibrio_termico_it.html",
+      "status": 200,
+      "expected": 200,
+      "sha256": "c70fe02c153c8718c7ba65740044940ab7be639cf323ad0f86a28e2434b489e0",
+      "identico_alla_build": true,
+      "ok": true
+    },
+    {
+      "file": "energia_interna_calore_specifico_it.html",
+      "status": 200,
+      "expected": 200,
+      "sha256": "0de368e8766a85ed7482dd2c9b0769616d1102fc32e5e7942838aa453a0671cb",
+      "identico_alla_build": true,
+      "ok": true
+    },
+    {
+      "file": "bilancio_termico_it.html",
+      "status": 200,
+      "expected": 200,
+      "sha256": "7a4349f1e33863d5c5b24beadc5e11be6f7a5420a57aa933463167a393e078b0",
+      "identico_alla_build": true,
+      "ok": true
+    },
+    {
+      "file": "dilatazione_termica_it.html",
+      "status": 200,
+      "expected": 200,
+      "sha256": "7417b14e408f64fe481e32a8cdc433ec8f569bd7a3b6b2693b78a8b4d60b11c2",
+      "identico_alla_build": true,
+      "ok": true
+    },
+    {
+      "file": "stati_della_materia.html",
+      "status": 200,
+      "expected": 200,
+      "sha256": "9de768d2d646b607e49b9666cb0db585ddeb8f6570e5c79d8d2a93ceeea2e374",
+      "identico_alla_build": true,
+      "ok": true
+    },
+    {
+      "file": "passaggi_di_stato.html",
+      "status": 200,
+      "expected": 200,
+      "sha256": "bbbdcceee7f28f9b29560fa87334a3198238448703257c906dafb7baded8a95a",
+      "identico_alla_build": true,
+      "ok": true
+    },
+    {
+      "file": "conduzione_it.html",
+      "status": 200,
+      "expected": 200,
+      "sha256": "81070244ca8e8878fe4769d99ce7aa975a32664a7dd7a1378ca0385b14a8aeda",
+      "identico_alla_build": true,
+      "ok": true
+    },
+    {
+      "file": "convezione_it.html",
+      "status": 200,
+      "expected": 200,
+      "sha256": "a8b2bb284d7a13fc9e20800983328b9f40c1ca7455dc628b99e7ac5e3d686439",
+      "identico_alla_build": true,
+      "ok": true
+    },
+    {
+      "file": "irraggiamento_it.html",
+      "status": 200,
+      "expected": 200,
+      "sha256": "f71c7c93148d08d9836cf1c0287126a36458dbeab1de8bd7645e6a1779e6c715",
+      "identico_alla_build": true,
+      "ok": true
+    },
+    {
+      "file": "index.html",
+      "status": 200,
+      "expected": 200,
+      "sha256": "a1617c4beacfd20540434223a1ab95ea6cc03e02317c72e36ff4c75eafbc10c7",
+      "identico_alla_build": true,
+      "ok": true
+    },
+    {
+      "file": "articoli.html",
+      "status": 200,
+      "expected": 200,
+      "sha256": "1e3956f0f7f07cee69916407b07bd6aeef3164a5c477cc633f751a4715913310",
+      "identico_alla_build": true,
+      "ok": true
+    },
+    {
+      "file": "quiz.html",
+      "status": 200,
+      "expected": 200,
+      "sha256": "b50570db412edc3a16b8a61cbe153f2d61ac68fb49210223019e37c6bb4e3458",
+      "identico_alla_build": true,
+      "ok": true
+    },
+    {
+      "file": "crediti.html",
+      "status": 200,
+      "expected": 200,
+      "sha256": "426a536da844edfb983c96f29d7a393ddae3bea6416d37b033261c3a1ca1d009",
+      "identico_alla_build": true,
+      "ok": true
+    },
+    {
+      "file": "sistema_internazionale_notazione_it.html",
+      "status": 404,
+      "expected": 404,
+      "ok": true
+    },
+    {
+      "file": "strumenti_errori_incertezza_it.html",
+      "status": 404,
+      "expected": 404,
+      "ok": true
+    },
+    {
+      "file": "grafici_piano_cartesiano_it.html",
+      "status": 404,
+      "expected": 404,
+      "ok": true
+    },
+    {
+      "file": "lavoro_energie_potenza_it.html",
+      "status": 404,
+      "expected": 404,
+      "ok": true
+    },
+    {
+      "file": "bilancio_conservazione_rendimento_it.html",
+      "status": 404,
+      "expected": 404,
+      "ok": true
+    },
+    {
+      "file": "potenza_termica_conduzione_convezione_it.html",
+      "status": 404,
+      "expected": 404,
+      "ok": true
+    },
+    {
+      "file": "stati_della_materia_e_passaggi_di_stato.html",
+      "status": 404,
+      "expected": 404,
+      "ok": true
+    },
+    {
+      "file": "stati_della_materia_e_passaggi_di_stato_v8_20261016.html",
+      "status": 404,
+      "expected": 404,
+      "ok": true
+    },
+    {
+      "file": "anteprima-bordi-stringhe.html",
+      "status": 404,
+      "expected": 404,
+      "ok": true
+    },
+    {
+      "file": "modello-dispense.html",
+      "status": 404,
+      "expected": 404,
+      "ok": true
+    },
+    {
+      "file": "lavorazione/prefissi_sistema_internazionale/bozza.html",
+      "status": 404,
+      "expected": 404,
+      "ok": true
+    },
+    {
+      "file": "lavorazione/cifre_significative/bozza.html",
+      "status": 404,
+      "expected": 404,
+      "ok": true
+    }
+  ],
+  "ok": true,
+  "commit": "b395589e1f5f06197723171ab4dfb3d33142114c",
+  "pr": 68,
+  "workflow_pages": 39992857516,
+  "workflow_test": 39991173540,
+  "ci_remoto_al_controllo": "in_progress: prove browser",
+  "verificato_il": "2026-10-23T19:12:15.580440+02:00"
+}
