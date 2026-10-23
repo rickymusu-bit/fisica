@@ -1,5 +1,5 @@
 # SIM-07 — Due campioni, misure ripetute e distribuzione dei risultati
-Versione v2 — 23 ottobre 2026. Sostituisce il precedente scenario a un solo campione e U assegnata; nessun codice realizzato.
+Versione v3 — 23 ottobre 2026. Implementata nell’HTML v1; immagini di bilancia e campioni in attesa. Sostituito lo scenario a un solo campione e U assegnata.
 
 ## Decisione dell'utente
 Bilancia con portata e sensibilità date, proprietà fisse. Due attività: misurare ripetutamente una massa nota per stimare l'errore e una massa ignota per stimare l'incertezza. Grafico sotto la bilancia per mostrare distribuzione dei punti, errore e incertezza.
@@ -35,3 +35,7 @@ Tabella numerica accessibile equivalente, descrizione del grafico aggiornata a o
 Stesse immagini pertinenti di bilancia e campioni, da fornire/scegliere e con diritti verificati; nessun dispositivo o pesetto sostituito con una sagoma astratta. Il grafico quantitativo sarà costruito via codice dai dati simulati.
 Controlli: ripetizioni indipendenti, parametri fissi, separazione delle serie, media, semidispersione, U minima q, distinzione e/U, unità, scala comune, dati coincidenti e asimmetrici, reset, feedback, offline, tastiera e smartphone. Risultato nullo per e ammesso; assenza di dispersione osservata non equivale a certezza.
 Carico basso, fino a 20 punti complessivi. Stima preliminare condivisa 2–3 ore, ripartita in SIM-06; da consolidare dopo le bozze approvate. Nessun HTML, codice, merge o deployment avviato.
+
+## Implementazione autorizzata
+
+L’utente dà il via con «Ok vai». Modello e comandi realizzati nel codice condiviso del capitolo 6, incorporati nei due HTML. Grafico del 7 con panoramica e ingrandimento del tema comune. Immagini pertinenti di bilancia, pesetti e campioni in attesa: la simulazione usa per ora controlli testuali e non inventa gli oggetti. Specifiche di progetto sopra conservate; fase corrente e verifiche in stato.md.

@@ -1,0 +1,34 @@
+{
+  "html_version": "v1",
+  "approved_draft": "v4",
+  "authorization": "Ok vai",
+  "html_bytes": 1162870,
+  "html_sha256": "9da09b2fc34cef3812562042151bcecda5852e89abb0742fc5c34a3580648811",
+  "model_tests": {
+    "passed": 7,
+    "command": "node lavorazione/strumenti_misura/test_simulazione.cjs"
+  },
+  "browser_layouts": 20,
+  "browser_errors": [],
+  "external_requests": [],
+  "credits_check": "passed",
+  "theme_check": "passed",
+  "pages_build": "passed; nuovi capitoli non ammessi alla pubblicazione",
+  "protected_sources": "invariati",
+  "preview_status": "Funzionale; figure del corpo e immagini degli oggetti della simulazione in attesa di fornitura e licenza. Non definitiva.",
+  "image_slots": [
+    "FIG-06-1a",
+    "FIG-06-1b",
+    "FIG-06-2",
+    "FIG-06-3",
+    "FIG-06-4",
+    "FIG-06-5"
+  ],
+  "offline_method": "HTML caricato in memoria con rete disabilitata; immagini incorporate decodificate, MathML e simulazione disponibili. Navigazione file:// bloccata dalla policy del Chromium dell’ambiente e non dichiarata eseguita.",
+  "screenshots_reviewed": [
+    "simulazione-dark-1440.png",
+    "grafico-dati-1440.png",
+    "simulazione-light-390.png",
+    "copertina-light-390.png"
+  ]
+}

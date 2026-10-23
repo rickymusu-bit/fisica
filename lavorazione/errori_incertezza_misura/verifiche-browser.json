@@ -1,0 +1,139 @@
+{
+  "layouts": [
+    {
+      "chapter": "strumenti_misura",
+      "width": 320,
+      "theme": "dark",
+      "status": "ok"
+    },
+    {
+      "chapter": "strumenti_misura",
+      "width": 320,
+      "theme": "light",
+      "status": "ok"
+    },
+    {
+      "chapter": "strumenti_misura",
+      "width": 390,
+      "theme": "dark",
+      "status": "ok"
+    },
+    {
+      "chapter": "strumenti_misura",
+      "width": 390,
+      "theme": "light",
+      "status": "ok"
+    },
+    {
+      "chapter": "strumenti_misura",
+      "width": 768,
+      "theme": "dark",
+      "status": "ok"
+    },
+    {
+      "chapter": "strumenti_misura",
+      "width": 768,
+      "theme": "light",
+      "status": "ok"
+    },
+    {
+      "chapter": "strumenti_misura",
+      "width": 1024,
+      "theme": "dark",
+      "status": "ok"
+    },
+    {
+      "chapter": "strumenti_misura",
+      "width": 1024,
+      "theme": "light",
+      "status": "ok"
+    },
+    {
+      "chapter": "strumenti_misura",
+      "width": 1440,
+      "theme": "dark",
+      "status": "ok"
+    },
+    {
+      "chapter": "strumenti_misura",
+      "width": 1440,
+      "theme": "light",
+      "status": "ok"
+    },
+    {
+      "chapter": "errori_incertezza_misura",
+      "width": 320,
+      "theme": "dark",
+      "status": "ok"
+    },
+    {
+      "chapter": "errori_incertezza_misura",
+      "width": 320,
+      "theme": "light",
+      "status": "ok"
+    },
+    {
+      "chapter": "errori_incertezza_misura",
+      "width": 390,
+      "theme": "dark",
+      "status": "ok"
+    },
+    {
+      "chapter": "errori_incertezza_misura",
+      "width": 390,
+      "theme": "light",
+      "status": "ok"
+    },
+    {
+      "chapter": "errori_incertezza_misura",
+      "width": 768,
+      "theme": "dark",
+      "status": "ok"
+    },
+    {
+      "chapter": "errori_incertezza_misura",
+      "width": 768,
+      "theme": "light",
+      "status": "ok"
+    },
+    {
+      "chapter": "errori_incertezza_misura",
+      "width": 1024,
+      "theme": "dark",
+      "status": "ok"
+    },
+    {
+      "chapter": "errori_incertezza_misura",
+      "width": 1024,
+      "theme": "light",
+      "status": "ok"
+    },
+    {
+      "chapter": "errori_incertezza_misura",
+      "width": 1440,
+      "theme": "dark",
+      "status": "ok"
+    },
+    {
+      "chapter": "errori_incertezza_misura",
+      "width": 1440,
+      "theme": "light",
+      "status": "ok"
+    }
+  ],
+  "checks": [
+    "Capitolo 6: lettura anticipata, stabilizzazione, sensibilità calibrata, fuori scala, zero, passo, tastiera e reset durante acquisizione.",
+    "Capitolo 7: cinque acquisizioni indipendenti per campione, limite dieci, controlli dei calcoli, campioni separati, grafico, cancellazione e ripristino; letture identiche con d=0 e U=1 g.",
+    "Download identico, copertine/MathML/simulazioni offline, teoria e crediti senza JavaScript, default scuro."
+  ],
+  "errors": [],
+  "external_requests": [],
+  "limits": [
+    "Immagini del corpo, della bilancia e dei pesetti ancora da fornire; gli spazi sono dichiarati nell’anteprima. Nessun diritto dedotto."
+  ],
+  "offline_method": "HTML caricato in memoria con rete disabilitata; immagini incorporate decodificate, MathML e simulazione disponibili. Navigazione file:// bloccata dalla policy del Chromium dell’ambiente e non dichiarata eseguita.",
+  "html_sha256": {
+    "strumenti_misura_it.html": "9da09b2fc34cef3812562042151bcecda5852e89abb0742fc5c34a3580648811",
+    "errori_incertezza_misura_it.html": "31ffc1f2daf03bc0ad3fef6982c0db22b29e134c6a165db72ddf825fd3f162a4"
+  }
+}

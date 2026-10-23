@@ -1,6 +1,6 @@
 # Gli strumenti di misura
 
-[EDITORIALE — Bozza v4, 23 ottobre 2026. Testo da approvare; visuali concordate con «Ok». I segnaposto descrivono i materiali da integrare dopo l'approvazione del testo. Area: Introduzione alla fisica e alla misura.]
+[EDITORIALE — Bozza v4, 23 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive in attesa. I segnaposto descrivono i materiali da integrare dopo l'approvazione del testo. Area: Introduzione alla fisica e alla misura.]
 
 [COP-06 — Fotografia scelta dall'utente: Ytterbium Lattice Double Clock with Photons at NIST.jpg. Intera, senza ritagli o zoom, non ripetuta nel corpo.]
 
@@ -128,3 +128,7 @@ L'utente richiede una versione per le proprietà nel capitolo 6 e una a propriet
 ### Interfaccia richiesta — bozza v4
 
 Bilancia con pesetti di masse differenti e slider sotto lo strumento, su richiesta dell'utente. Descrizione e segnaposto aggiornati; parametri numerici proposti nella specifica, non ancora realizzati. Le immagini pertinenti dei pesetti sono da acquisire con diritti verificati, senza ricerche o generazioni autonome. Media e semidispersione trasferite nel capitolo 7 per successiva indicazione esplicita; nessuna modifica al testo teorico del 6 necessaria.
+
+### Avvio autorizzato
+
+«Ok vai» approva il testo corrente e autorizza realizzazione HTML e simulazioni secondo la proposta e la stima. Le immagini mancanti saranno fornite dall’utente; non dedurre scelte o licenze. Nessun merge o pubblicazione autorizzato.

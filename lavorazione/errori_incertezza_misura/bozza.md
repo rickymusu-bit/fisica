@@ -1,6 +1,6 @@
 # Errori e incertezza di misura
 
-[EDITORIALE — Bozza v4, 23 ottobre 2026. Testo da approvare; visuali concordate con «Ok». Area: Introduzione alla fisica e alla misura.]
+[EDITORIALE — Bozza v4, 23 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive in attesa. Area: Introduzione alla fisica e alla misura.]
 
 [COP-07 — Fotografia scelta dall'utente: TV noise.jpg. Intera, senza ritagli o zoom, non ripetuta nel corpo.]
 
@@ -220,3 +220,7 @@ SIM-07 aggiornata alla richiesta di massa nota, massa ignota e grafico sotto la 
 Riferimenti terminologici da associare ai crediti: JCGM 200:2012 (VIM) e JCGM 100:2008 (GUM), https://www.bipm.org/en/committees/jc/jcgm/publications . La regola scolastica è ripresa dal sorgente storico, non attribuita a questi documenti come procedura generale.
 COP-07 scelta dall'utente: [TV noise.jpg](https://commons.wikimedia.org/wiki/File:TV_noise.jpg), Mysid, pubblico dominio per dichiarazione dell'autore (PD-self), verificato nella pagina Commons. Usare l'immagine intera, senza ritagli o zoom. URL esatto fornito conservato in visuali.md.
 Diritti delle foto del corpo e dei bersagli storici ancora da verificare; l'utente intende fornire immagini sostitutive con licenza. Copertina scelta e impostazione delle due attività autorizzate; testo aggiornato e dettagli del modello da revisionare. Nessun codice, HTML, merge o deployment avviato.
+
+### Avvio autorizzato
+
+«Ok vai» approva il testo corrente e autorizza realizzazione HTML e simulazioni secondo la proposta e la stima. Le immagini mancanti saranno fornite dall’utente; non dedurre scelte o licenze. Nessun merge o pubblicazione autorizzato.

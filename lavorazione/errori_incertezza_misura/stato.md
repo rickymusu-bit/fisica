@@ -1,6 +1,6 @@
 # Stato — Errori e incertezza di misura
 Ultimo aggiornamento: 23 ottobre 2026 (Europe/Rome). Capitolo 7.
-Fase: bozza testuale v4 e specifica simulazione v2 pronte per revisione.
+Fase: HTML v1 e simulazioni funzionanti; integrazione delle immagini autorizzate ancora aperta.
 
 ## Fonte e ambito
 Richiesta corrente: «Facciamo i capitoli 6 e 7», con collegamento al piano.
@@ -13,15 +13,15 @@ Template già approvato: Stringhe comune, modello autonomo v24.
 ## Regole e approvazioni
 Letti MASTER_PROMPT.md v69.11, AGENTS.md, STILE_DISPENSE.md v6, esempio_irraggiamento.md v2, docs/visual-guidelines.md v1.0.0 e stato storico del sorgente.
 Checklist: A1–A5 per narrazione, monograficità, formule e quesiti; A6 per il tema; B1.1–B2 per visuali → bozza → approvazione → stima e via; B4–B6 per riuso e salvataggi; C1–C4 per immagini e licenze; D1–D2.1 per verifiche e ramo isolato.
-L'utente ha approvato l'impostazione e il riuso proposto delle visuali con «Ok», dopo la consegna della PR #72. Bozza v2 ora pronta; nessuna approvazione del testo o via all'HTML ancora ricevuto. Nessuna immagine cercata o generata.
+L'utente ha approvato l'impostazione e il riuso proposto delle visuali con «Ok», dopo la consegna della PR #72. La richiesta successiva «Ok vai» approva la bozza v4 e autorizza HTML e simulazioni; nessuna nuova conferma di avvio necessaria. Nessuna immagine cercata o generata.
 Lo snapshot dei crediti storici dichiara provenienza e diritti non verificati: verificare registro e fonti prima dell'integrazione; il riuso non risolve tale limite.
-Simulazione richiesta dall'utente: [specifica](simulazione.md), con modello, comandi, limiti, carico basso e stima preliminare condivisa 2–3 ore, aggiornata per pesetti e grafico. Nessun codice ancora programmato; nessun video.
-[Bozza testuale v4](bozza.md) con segnaposto, formule, due note e nove domande finali. Stima HTML da presentare dopo il testo approvato.
+Simulazione richiesta dall'utente: [specifica](simulazione.md), con modello, comandi, limiti, carico basso e stima preliminare condivisa 2–3 ore, aggiornata per pesetti e grafico. Codice condiviso implementato; nessun video.
+[Bozza testuale v4](bozza.md) con segnaposto, formule, due note e nove domande finali. Avvio autorizzato con «Ok vai» dopo la stima preliminare di 2–3 ore.
 
 ## Completato e prossimo passaggio
-Controllati sorgente, descrizioni delle nove immagini e sette quesiti. Ripartizione univoca: 1–4 al 6; 5 e 7 al 7; 6 riservato all'8.
-Prossimo passaggio: approvazione della bozza v4; applicare eventuali correzioni, poi presentare stima e richiedere il via all'HTML secondo B1.1–B2. Non riportare il testo integrale in chat.
-Nessun HTML nuovo, modifica al manifest/catalogo, merge o deployment. Sorgenti storici e traduzioni invariati ed esclusi. Nessuna verifica browser necessaria o dichiarata per questa fase Markdown.
+Controllati sorgente, descrizioni delle nove immagini e sette quesiti. Ripartizione corrente: 1–4 al 6; 5–7 al 7, senza capitolo separato sulle ripetizioni.
+Prossimo passaggio: integrare le immagini con licenza che l’utente fornirà, aggiornare i crediti e verificare le parti visuali. Non chiedere un nuovo via alla realizzazione già autorizzata. Successivamente consegnare l’anteprima completa per revisione prima del rilascio.
+Nuovo HTML v1 e simulazione in lavorazione; nessuna modifica al manifest/catalogo, merge o deployment. Sorgenti storici e traduzioni invariati ed esclusi. Verifiche della fase HTML nel rapporto verifiche-browser.json; le note delle precedenti fasi restano cronologia.
 L'ambiente locale si è disconnesso durante il salvataggio; usati gli strumenti GitHub per conservare e verificare i file sul ramo.
 
 ## Bozza v2 completata dopo «Ok»
@@ -43,3 +43,15 @@ L'utente precisa: nel 6 pesetti di massa differente e slider sotto la bilancia; 
 Bozze v4 e specifiche v2 aggiornate. SIM-07 non assegna più U a priori: l'alunno la stima con la regola scolastica dichiarata U_did = max(d,q); media e semidispersione mostrate e calcolate, senza confonderle con l'errore o con la fascia U. Modello proposto con zero regolato e rumore sintetico; non nascondere sistematici sotto la sola dispersione. Copertine scelte invariate; immagini di bilancia, pesetti e campioni con diritti verificati ancora da acquisire. Stima preliminare 2–3 ore complessive, da consolidare prima del via alla realizzazione.
 
 Checklist aggiuntiva: calcolo e grafico su serie asimmetriche, d distinto dalla distanza media-estremi, U non nulla per letture identiche, grafico dell'ignoto senza riferimento nascosto, conservazione dei sette quesiti storici (1–4 nel 6; 5–7 nel 7). Sorgenti storici invariati. Testo e dettagli proposti da revisionare; nessun codice/HTML, merge o deployment.
+
+## Realizzazione autorizzata — HTML v1
+
+L'utente risponde «Ok vai»: bozza v4 e realizzazione dei due HTML/simulazioni autorizzate, dopo la stima preliminare 2–3 ore. Tema Stringhe v24 riusato; CSS/JS incorporati e MathML nativo. Copertine scelte acquisite dagli originali Wikimedia e incorporate intere senza zoom. Provenienze e attribuzioni nel registro unico e nei crediti autonomi. Nessuna nuova immagine cercata o generata.
+
+Codice del modello e renderer condivisi in ../strumenti_misura/simulazione.js, simulazione.css e realizza.py. Nel 6 selezione/rimozione dei pesetti, somma delle masse, slider, fuori scala, lettura anticipata e stabilizzata, zero e disturbi. Nel 7 campioni separati, acquisizioni indipendenti, media/semidispersione e U scolastica, controllo delle risposte e grafico con ingrandimento canonico e riferimento soltanto per la massa nota. Il valore interno del campione B non è esposto in interfaccia o grafico.
+
+Anteprima corrente in bozza.html e nel file autonomo alla radice; simulazione già utilizzabile con controlli testuali. In attesa delle immagini, gli spazi visuali sono dichiarati: non presentare questi HTML come anteprime grafiche complete o capitoli pronti alla pubblicazione. L'utente chiede l'elenco e intende fornire i materiali; elenco inviato in chat: bilancia digitale, pesetti 10/20/50/100/200 g, campione senza massa scritta; per il corpo bilancia analogica, parallasse, voltmetro 0–15 V, termometro, cronometro e bersagli.
+
+Verifiche: test quantitativi del modello; browser desktop/mobile e chiaro/scuro, calcoli, grafico, tastiera, note, crediti, download e HTML caricato in memoria con rete disabilitata. La navigazione file:// è bloccata dalla policy del Chromium dell'ambiente e non è dichiarata eseguita. Rapporti nelle verifiche JSON e schermate in anteprime/. Crediti, tema e build Pages controllati senza ammettere i nuovi capitoli nel manifest. Sorgenti storici e articoli pubblicati invariati.
+
+Verifica finale consolidata in verifiche-finali.json: 7 test quantitativi passati, 20 combinazioni viewport/tema, nessun errore JavaScript o richiesta esterna, crediti/tema/build superati. I due HTML restano esclusi dall’output pubblico; file alla radice e bozza.html identici. Salvataggio sul ramo della PR #72; integrazione immagini ancora aperta.

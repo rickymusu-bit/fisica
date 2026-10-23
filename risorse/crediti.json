@@ -3760,6 +3760,80 @@
       "fingerprints": [
         "asset-b07b883600e6fa74e2b7175012bb7edf78df3d03001fce431bea6619e5fc6b78"
       ]
+    },
+    {
+      "id": "metrologia-vim-gum",
+      "description": "Vocabolario metrologico e guida all’incertezza",
+      "source": "https://www.bipm.org/en/committees/jc/jcgm/publications",
+      "author": "JCGM/BIPM",
+      "license": null,
+      "license_url": null,
+      "changes": null,
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Riferimenti terminologici: JCGM 200:2012 (VIM), JCGM 100:2008 (GUM). La regola scolastica max(semidispersione, passo) è una semplificazione dichiarata, non una procedura generale attribuita a questi documenti."
+      ],
+      "metadata_sources": [],
+      "fingerprints": []
+    },
+    {
+      "id": "grafico-misure-tempi",
+      "description": "Linea dei numeri delle cinque letture illustrative",
+      "source": null,
+      "author": "Stringhe",
+      "license": null,
+      "license_url": null,
+      "changes": null,
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Grafico quantitativo del progetto Stringhe, ricostruito dagli stessi dati illustrativi del sorgente storico; nessuna fotografia esterna riprodotta."
+      ],
+      "metadata_sources": [],
+      "fingerprints": [
+        "asset-e58f8397abd03a95256407a6e1f7f9007b66f1fd39fe6bcf35a9a364c6390b72"
+      ]
+    },
+    {
+      "id": "credit-25f8443d7c82cfae",
+      "description": "Rumore sullo schermo di un televisore analogico sintonizzato su un canale senza trasmissioni: i disturbi possono produrre variazioni nell'uscita di un dispositivo.",
+      "source": "https://commons.wikimedia.org/wiki/File:TV_noise.jpg",
+      "author": "Mysid",
+      "license": "Pubblico dominio (PD-self)",
+      "license_url": "https://commons.wikimedia.org/wiki/File:TV_noise.jpg#Licensing",
+      "changes": "Immagine intera, nessuna modifica.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Rumore sullo schermo di un televisore analogico sintonizzato su un canale senza trasmissioni: i disturbi possono produrre variazioni nell&#x27;uscita di un dispositivo. — Mysid. <a href=\"https://commons.wikimedia.org/wiki/File:TV_noise.jpg\">Fonte originale</a>. <a href=\"https://commons.wikimedia.org/wiki/File:TV_noise.jpg#Licensing\">Pubblico dominio (PD-self)</a>. Modifiche: Immagine intera, nessuna modifica."
+      ],
+      "metadata_sources": [
+        "errori_incertezza_misura_it.html"
+      ],
+      "fingerprints": [
+        "asset-8ab60515cab73423ce8ce72696a5da4c35d85e8f5cc635622b2208e86326b0ad"
+      ]
+    },
+    {
+      "id": "credit-31b3875a74656ce2",
+      "description": "L'apparato di un doppio orologio atomico all'itterbio: anche la misura del tempo richiede uno strumento fisico e il controllo delle sue prestazioni.",
+      "source": "https://commons.wikimedia.org/wiki/File:Ytterbium_Lattice_Double_Clock_with_Photons_at_NIST.jpg",
+      "author": "N. Phillips/NIST",
+      "license": "Pubblico dominio (PD-USGov)",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "changes": "Immagine intera, nessuna modifica.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "L&#x27;apparato di un doppio orologio atomico all&#x27;itterbio: anche la misura del tempo richiede uno strumento fisico e il controllo delle sue prestazioni. — N. Phillips/NIST. <a href=\"https://commons.wikimedia.org/wiki/File:Ytterbium_Lattice_Double_Clock_with_Photons_at_NIST.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\">Pubblico dominio (PD-USGov)</a>. Modifiche: Immagine intera, nessuna modifica."
+      ],
+      "metadata_sources": [
+        "strumenti_misura_it.html"
+      ],
+      "fingerprints": [
+        "asset-c336c502177e05840fc22647e3d65ae9b050a7575669ad1964bdcc9a8423e2c7"
+      ]
     }
   ],
   "documents": {
@@ -4654,6 +4728,44 @@
       "lexend": true,
       "chapter_labels": true,
       "review": null
+    },
+    "strumenti_misura_it.html": {
+      "title": "Gli strumenti di misura",
+      "anchor": "strumenti-misura-it",
+      "credits": [
+        {
+          "resource": "metrologia-vim-gum",
+          "notice": 0
+        },
+        {
+          "resource": "credit-31b3875a74656ce2",
+          "notice": 0
+        }
+      ],
+      "lexend": true,
+      "chapter_labels": true,
+      "review": null
+    },
+    "errori_incertezza_misura_it.html": {
+      "title": "Errori e incertezza di misura",
+      "anchor": "errori-incertezza-misura-it",
+      "credits": [
+        {
+          "resource": "metrologia-vim-gum",
+          "notice": 0
+        },
+        {
+          "resource": "credit-25f8443d7c82cfae",
+          "notice": 0
+        },
+        {
+          "resource": "grafico-misure-tempi",
+          "notice": 0
+        }
+      ],
+      "lexend": true,
+      "chapter_labels": true,
+      "review": null
     }
   },
   "assets": [
@@ -5493,6 +5605,15 @@
           "credit_id": "font-lexend"
         },
         {
+          "document": "errori_incertezza_misura_it.html",
+          "kind": "font/ttf",
+          "description": "Font incorporato",
+          "locator": null,
+          "attribute": "font-face",
+          "location": null,
+          "credit_id": "font-lexend"
+        },
+        {
           "document": "grandezze_fisiche_sistema_internazionale_it.html",
           "kind": "font/ttf",
           "description": "Font incorporato",
@@ -5548,6 +5669,15 @@
         },
         {
           "document": "stati_della_materia.html",
+          "kind": "font/ttf",
+          "description": "Font incorporato",
+          "locator": null,
+          "attribute": "font-face",
+          "location": null,
+          "credit_id": "font-lexend"
+        },
+        {
+          "document": "strumenti_misura_it.html",
           "kind": "font/ttf",
           "description": "Font incorporato",
           "locator": null,
@@ -6734,6 +6864,21 @@
       ]
     },
     {
+      "id": "asset-8ab60515cab73423ce8ce72696a5da4c35d85e8f5cc635622b2208e86326b0ad",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "errori_incertezza_misura_it.html",
+          "kind": "image/jpeg",
+          "description": "Rumore sullo schermo di un televisore analogico sintonizzato su un canale senza trasmissioni: i disturbi possono produrre variazioni nell'uscita di un dispositivo.",
+          "locator": "inizio",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-25f8443d7c82cfae"
+        }
+      ]
+    },
+    {
       "id": "asset-8c6c5886c4b8b295061b3450decc57b76ce14a877190f31f55239e6674432b32",
       "kind": "image/jpeg",
       "uses": [
@@ -7871,6 +8016,21 @@
       ]
     },
     {
+      "id": "asset-c336c502177e05840fc22647e3d65ae9b050a7575669ad1964bdcc9a8423e2c7",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "image/jpeg",
+          "description": "L'apparato di un doppio orologio atomico all'itterbio: anche la misura del tempo richiede uno strumento fisico e il controllo delle sue prestazioni.",
+          "locator": "inizio",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-31b3875a74656ce2"
+        }
+      ]
+    },
+    {
       "id": "asset-c3c06d01a59f0e046642772ea9d30d9f63c87d41486f662c96f4e6eac25ae5c1",
       "kind": "image/jpeg",
       "uses": [
@@ -8629,6 +8789,21 @@
           "attribute": "cover-data",
           "location": "copertine/uragano-florence.webp",
           "credit_id": "credit-48da208508cf3a79"
+        }
+      ]
+    },
+    {
+      "id": "asset-e58f8397abd03a95256407a6e1f7f9007b66f1fd39fe6bcf35a9a364c6390b72",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "errori_incertezza_misura_it.html",
+          "kind": "svg",
+          "description": "Cinque tempi: 2,31; 2,37; 2,40; 2,43; 2,49 s. Media 2,40 s, semidispersione 0,09 s.",
+          "locator": "graf-07-2",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "grafico-misure-tempi"
         }
       ]
     },
