@@ -1,6 +1,6 @@
 # Stato — I prefissi del Sistema internazionale
 
-Versione v2 — 23 ottobre 2026 (Europe/Rome).
+Versione v3 — 23 ottobre 2026 (Europe/Rome).
 
 ## Incarico e fase corrente
 
@@ -8,9 +8,7 @@ Richiesta: «Sviluppa il capitolo 4 del piano di lavorazione per l'introduzione 
 Il [piano editoriale](../introduzione_fisica_misura/piano.md) identifica il capitolo come **I prefissi del Sistema internazionale**.
 Argomento, posizione e tema Stringhe comune sono già definiti. La richiesta avvia lo sviluppo editoriale; non documenta una scelta delle nuove visuali né approvazioni della bozza, dell'HTML o della pubblicazione.
 
-Fase corrente: proposta v2 aggiornata alla richiesta sulle conversioni. Riuso della tabella dei prefissi esplicitamente richiesto; chiarito SCH-01, ancora opzionale e non approvato. Restano da concordare le altre scelte dell'impostazione secondo B1.1.2.
-[Proposta da esaminare](visuali.md). Dopo la scelta, scrivere la bozza completa con segnaposto in `bozza.md`.
-Non sono ancora prodotti HTML, simulazioni o nuove immagini.
+Fase corrente: **bozza v1 completa da approvare**, con tabella riutilizzata e schema SCH-01 realizzato su richiesta esplicita. [Bozza corrente](bozza.md), [schema SVG](risorse/schema-conversioni.svg). Nessuna realizzazione HTML del capitolo o pubblicazione avviata. Le annotazioni iniziali riportate sotto conservano la storia della progettazione e sono superate dagli avanzamenti finali.
 
 Ramo dedicato: `lavorazione/prefissi-sistema-internazionale`, derivato da main al commit `d5688f6af867cd85bcdb8f975ddb538e3f3c1130`.
 Alla verifica iniziale dell'albero completo di main e dei rami con nome contenente «prefissi» non risultano una lavorazione o un ramo preesistenti per questo capitolo.
@@ -73,7 +71,7 @@ Questa fase modifica solo documenti editoriali: nessun HTML, registro dei credit
 
 Checklist: A1–A5 (livello, monograficità, notazione e quesiti), B1.1–B2 (visuali prima della bozza; approvazione e via prima dell'HTML), B4–B6 (riuso, stato e salvataggio), C1–C4 (immagini, fonti, tabelle e composizione stabile), D1–D2.1 e AGENTS.md (verifiche pertinenti, ramo dedicato, PR in bozza, nessun merge o deployment senza approvazione corrente).
 
-Prossimo passo: ricevere la scelta sull'impostazione visuale e redigere la bozza narrativa completa con i segnaposto concordati e otto domande finali. Prima dell'HTML leggere il modello Stringhe corrente, presentare la stima ripartita e attendere il via previsto dal master.
+Prossimo passo: revisione e approvazione della bozza v1. Prima dell'HTML leggere il modello Stringhe corrente, presentare la stima ripartita e attendere il via previsto dal master.
 
 ## Integrazione richiesta — conversioni tra prefissi
 
@@ -83,3 +81,15 @@ Registrati il riuso della tabella esistente e l'ampliamento delle conversioni tr
 Chiarito che SCH-01 è una sequenza numerica con frecce e fattori, per esempio km → m → mm, non una nuova tabella. La richiesta di chiarimento non approva né rifiuta lo schema. Registrata l'alternativa di spiegare i medesimi passaggi nel calcolo accanto alla tabella, senza figura separata. Nessuna nuova visuale realizzata e nessuna approvazione estesa automaticamente a copertina, bozza o HTML.
 
 Verificate le equivalenze 3,2 cm = 32 mm, 750 µm = 0,750 mm e 2,5 km = 2 500 000 mm, le rispettive conversioni inverse e il segno della differenza degli esponenti. Master su main ancora v69.7, blob invariato rispetto alla lettura precedente. Aggiornati soltanto i tre Markdown della progettazione, nella stessa PR #65 in bozza.
+
+## Schema richiesto e bozza v1 — 23 ottobre 2026
+
+L'utente autorizza espressamente lo schema con «Ok fai lo schema». Questa indicazione supera lo stato opzionale/non approvato registrato prima: SCH-01 è realizzato in `risorse/schema-conversioni.svg`. Riuso della tabella dei prefissi già richiesto nel messaggio precedente. La foto del metro resta quella già scelta e documentata per il capitolo 2; nessuna ricerca o sostituzione fotografica.
+
+Schema costruito come SVG autonomo con titolo e descrizione accessibili, fondo bianco e colori piatti. Due sequenze: km–m–mm con fattori 1000 e reciproci; cm–mm–µm con fattori 10, 1000 e reciproci. Esempi numerici distinti, frecce nei due versi, nessun fattore affidato al solo colore. Composizione stabile; nell'HTML futuro applicare l'ingrandimento del tema su mobile.
+
+Preparata [bozza v1](bozza.md): apertura sul cambio di unità, tabella originale dei 24 prefissi, simboli, conversioni per passaggio intermedio e differenza degli esponenti, grammo, aree e volumi, otto domande senza soluzioni. Conservate le conversioni del sorgente; schema collocato nella spiegazione. Non è una bozza HTML e non implica approvazione del testo o della pubblicazione.
+
+Controllo scientifico: consultata la pagina ufficiale [BIPM, SI prefixes](https://www.bipm.org/en/measurement-units/si-prefixes) e confrontati i 24 simboli/esponenti. Verificati fattori, risultati e conversioni inverse con aritmetica decimale esatta; controllate potenze di area/volume e otto quesiti. SVG valido come XML, renderizzato in Chromium a 960 e 390 px: nessuna etichetta fuori dal viewBox, nessun overflow nella prova responsive con ridimensionamento proporzionale. Ispezionate entrambe le schermate: a 390 px è necessario l'ingrandimento previsto dal tema; non dichiarare che le scritte ridotte bastino alla lettura. Nessuna prova HTML completa o build del sito dichiarata.
+
+Schema originale numerico, senza risorse esterne o licenze di immagini da dedurre. La bozza conserva le fonti nella sezione di servizio; registro unico e crediti del nuovo capitolo saranno aggiornati nella realizzazione. Salvare e rileggere sul ramo gli stessi file della PR #65, senza merge né deployment.

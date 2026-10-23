@@ -99,3 +99,7 @@ Proposta: riusare in copertina la foto del metro già scelta nel capitolo 2, con
 ### Quarto capitolo — conversioni tra prefissi e tabella riutilizzata
 
 L'utente richiede esplicitamente di aggiungere il procedimento per convertire tra prefissi e di riutilizzare la tabella esistente. [Proposta v2](../prefissi_sistema_internazionale/visuali.md) ampliata con fattori della tabella, passaggio per l'unità di riferimento, differenza degli esponenti e conversioni cm–mm e µm–mm in entrambi i versi, oltre a km–mm. Chiarito che lo schema proposto era una sequenza numerica con frecce e fattori: rimane opzionale, con alternativa di integrare i passaggi direttamente nel calcolo. La richiesta di chiarimento non è un'approvazione dello schema. PR #65 ancora in bozza; nessuna realizzazione HTML o pubblicazione avviata.
+
+### Quarto capitolo — schema realizzato e bozza v1 pronta
+
+L'utente autorizza lo schema con «Ok fai lo schema». Realizzato [SCH-01](../prefissi_sistema_internazionale/risorse/schema-conversioni.svg): km–m–mm e cm–mm–µm, fattori espliciti e frecce nei due versi. Completata la [bozza v1](../prefissi_sistema_internazionale/bozza.md) con tabella originale dei 24 prefissi, conversioni tra prefissi tramite unità di riferimento e differenza degli esponenti, caso del grammo, aree/volumi e otto domande. Controllati la tabella sulla fonte BIPM, equivalenze e inverse; schema ispezionato desktop/mobile con ingrandimento da prevedere nell'HTML. Testo da approvare; PR #65 ancora in bozza. Nessuna realizzazione HTML, merge o pubblicazione avviati.

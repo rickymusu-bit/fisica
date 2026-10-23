@@ -1,7 +1,7 @@
 # Proposta — I prefissi del Sistema internazionale
 
-Versione v2 — 23 ottobre 2026. Capitolo 4 di **Introduzione alla fisica e alla misura**.
-Progettazione da concordare prima della bozza; non è il testo definitivo del capitolo.
+Versione v3 — 23 ottobre 2026. Capitolo 4 di **Introduzione alla fisica e alla misura**.
+Schema SCH-01 richiesto e realizzato; tabella riutilizzata su richiesta. La [bozza v1](bozza.md) è pronta per la revisione. Questo file conserva le decisioni e le proposte iniziali, superate dall'avanzamento finale dove indicato.
 
 ## Filo della spiegazione
 
@@ -52,7 +52,7 @@ I fattori sono esatti e i valori servono a leggere equivalenze, non sono misure 
 
 Lo «schema» proposto è soltanto una sequenza numerica con frecce e fattori, per esempio km → m → mm, con un fattore 1000 in ciascun passaggio. Non è la tabella dei prefissi e non è una nuova immagine di un oggetto o una simulazione.
 
-La domanda dell'utente chiede di chiarirlo: non costituisce approvazione o rifiuto dello schema. Resta un'opzione da valutare; si può integrare lo stesso procedimento direttamente nei passaggi di calcolo accanto alla tabella riutilizzata, senza una figura autonoma. Non realizzare SCH-01 prima della scelta.
+La richiesta iniziale di chiarimento non approvava lo schema. La successiva indicazione «Ok fai lo schema» ne autorizza la realizzazione: SCH-01 è ora disponibile in [SVG](risorse/schema-conversioni.svg) e richiamato nella bozza. Mostra anche cm → mm → µm, con fattori 10 e 1000, e i percorsi inversi. L'alternativa senza figura autonoma è superata.
 
 ## Relazioni da sviluppare nella bozza
 
@@ -89,3 +89,7 @@ Scelta ricevuta: riutilizzare la tabella completa dei prefissi e sviluppare espl
 Dopo la scelta, preparare `bozza.md` con narrazione completa, segnaposto e otto quesiti. Per la bozza e la rilettura scientifica si stima indicativamente un lavoro di 15–25 minuti con impegno di calcolo basso, senza attese per nuovi file nell'impostazione consigliata. La stima non è una garanzia e non comprende la realizzazione HTML.
 
 Dopo l'approvazione del testo presentare la stima ripartita per materiali, impaginazione nel modello Stringhe e verifiche; attendere il via prima della realizzazione, secondo B1.1–B2. Verificare poi la fonte normativa BIPM, le schede del registro e l'anteprima corrente prima di ogni pubblicazione.
+
+## Avanzamento — schema realizzato e bozza pronta
+
+Con «Ok fai lo schema» l'utente sceglie SCH-01. Realizzato lo [schema delle conversioni](risorse/schema-conversioni.svg) con frecce nei due versi e fattori espliciti; verificati dati e resa proporzionale desktop/mobile. Predisposta la [bozza v1 completa](bozza.md) con la tabella originale, spiegazione delle conversioni e otto domande. Le precedenti indicazioni di attesa prima della bozza e di schema opzionale sono superate. Fase corrente: revisione del testo; HTML e pubblicazione non avviati.
