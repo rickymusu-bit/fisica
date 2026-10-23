@@ -39,3 +39,11 @@ Fonte: `sistema_internazionale_notazione_it.html` v12, sezione `#cifre-significa
 Conservare i quesiti originali 8 (conteggio), 9 (1200 m), 10 (arrotondamento), 11 (somma/prodotto), 13 (arrotondamento intermedio). Conservare anche il quesito 12, sul fattore esatto nelle conversioni: controllate le dieci domande del capitolo 4, che non trattano le cifre significative. Il quesito appartiene quindi a questo capitolo e non produce duplicazioni. I quesiti 1–7 appartengono ai capitoli precedenti.
 
 Riferimenti: MASTER_PROMPT.md v69.9, AGENTS.md, STILE_DISPENSE.md v6, esempio_irraggiamento.md v2, docs/visual-guidelines.md v1.0.0. Tema comune Stringhe v23 da riutilizzare nella successiva fase HTML.
+
+## Realizzazione della cassa su richiesta
+
+Sostituita la proposta di riuso del PNG storico: l’utente ne autorizza la generazione, vede il risultato e dà il via «Ok procedi». Nuovo originale trasparente in risorse/cassa-generata.png, provenienza in risorse/cassa-fonte.json. Quote a = 2,34 m e b = 1,2 m aggiunte via SVG in risorse/schema-cassa.svg; dati illustrativi, disegno non in scala. Il punto aperto sui diritti del PNG storico non riguarda più il nuovo capitolo, che non lo riproduce. Le copertine scelte e gli altri materiali restano confermati.
+
+## Criterio dello zoom aggiornato
+
+Su richiesta esplicita dell’utente, né FIG-01 né FIG-02 hanno zoom: entrambe contengono poche etichette. L’ingrandimento è riservato ai grafici e agli schemi con numerose scritte piccole, secondo master v69.10 e AGENTS.md. La cassa resta intera e quotata, senza copia di ingrandimento.

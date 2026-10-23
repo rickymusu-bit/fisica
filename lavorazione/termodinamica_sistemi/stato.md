@@ -128,3 +128,7 @@ Pubblicazione della navigazione completata nella PR #63 (merge ffc805cd0b9b82edc
 ## Navigazione verso Prefissi — v14
 
 Pubblicazione esplicitamente autorizzata del quarto capitolo introduttivo: aggiornato soltanto il rimando precedente a I prefissi del Sistema internazionale e incrementata la versione. Corpo didattico, formule e immagini invariati; copia corrente riallineata.
+
+## Navigazione per il rilascio del capitolo 5 — 23 ottobre 2026
+
+HTML v15: navigazione precedente aggiornata a Le cifre significative, inserito dopo Prefissi e prima di questo capitolo. Contenuti, immagini, formule e data editoriale invariati. Copia di lavorazione allineata; corpo dell’articolo verificato identico. Intervento circoscritto incluso nella pubblicazione autorizzata della PR #68.

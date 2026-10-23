@@ -135,3 +135,19 @@ L'utente avvia «Le cifre significative». Identificata la sezione `#cifre-signi
 ### Capitoli 4 e 5 — nuove copertine e bozza del quinto
 
 L’utente sceglie per il quarto Algae and bacteria in Scanning Electron Microscope, magnification 5000x.JPG (SecretDisc, CC BY-SA 3.0), e per il quinto Egyptian measuring tool.jpg (Uriah Welcome, CC BY 2.0), con «Procedi». Fonti originali e licenze verificate; miniature scelte conservate intere, senza zoom. Capitolo 4 HTML v3 e bozza v5: sostituzione circoscritta di copertina/crediti, contenuto e separatore invariati, browser a cinque larghezze e nei due temi superato. Nuova anteprima da approvare prima di aggiornare il sito. [Bozza v1 del capitolo 5](../cifre_significative/bozza.md) completa, con tabelle riutilizzate, formule/procedure esplicite, esempio e dieci domande; testo da approvare. Provenienza dell’immagine della cassa non documentata nel registro: segnaposto conservato, verifica da risolvere prima dell’integrazione. [Stati e lavorazione](../cifre_significative/stato.md) nella PR #67; manifest e catalogo invariati.
+
+### Quinto capitolo — HTML v1 realizzato
+
+Testo approvato con «Approvo tutto»; cassa generata su richiesta e successivo «Ok procedi» per schema quotato e realizzazione. [HTML corrente](../cifre_significative/bozza.html) autonomo dal modello Stringhe v23, copertina egizia senza zoom, 12 formule native, tre tabelle, due procedure, esempio con schema generato e dieci domande. Crediti, tema, build e browser a cinque larghezze/entrambi i temi superati; download, note, zoom, offline e senza JavaScript verificati. Il PNG storico privo di fonte non è usato; nuova provenienza documentata. [Stato e rapporti](../cifre_significative/stato.md). Capitolo non ancora ammesso nel manifest, catalogo pubblico invariato; anteprima corrente da approvare prima del rilascio.
+
+### Quinto capitolo — revisione dell’anteprima, HTML v2
+
+Su richiesta: prima figura senza zoom; C.S. introdotta nella definizione e usata nelle occorrenze successive; punte delle quote della cassa rivolte all’esterno fino ai delimitatori; avviso ripetuto eliminato da immagine e didascalia senza trasferirlo in nota. Bozza v3 e generatore allineati, formule numeriche conservate. Crediti/tema e browser a cinque larghezze nei due temi verificati; [stato e anteprima](../cifre_significative/stato.md) nella PR #68 in bozza. Nessun rilascio autorizzato dell’anteprima corrente.
+
+### Quinto capitolo — zoom selettivo, HTML v3
+
+Tolto anche lo zoom dalla cassa, su richiesta. Regola salvata nel master v69.10 e AGENTS.md: zoom soltanto per grafici e schemi con numerose scritte piccole, mai su fotografie e copertine. Nessun ingrandimento nelle due figure semplici del capitolo 5; file autonomo circa 4,68 MB. Crediti/tema e browser verificati; anteprima v3 nella PR #68 in bozza, sito pubblico invariato.
+
+### Quinto capitolo — pubblicazione autorizzata
+
+«Perfetto pubblica» approva l’anteprima corrente e autorizza il rilascio della PR #68. HTML v4 con solo il rimando successivo aggiunto; corpo invariato rispetto alla v3 approvata. Manifest v14 con 15 capitoli e quinto posto nell’area introduttiva; catalogo, crediti pubblici e navigazione reciproca Prefissi v4 → Cifre significative v4 → Termodinamica v15 aggiornati. Inclusa la regola dello zoom salvata in master v69.10 e AGENTS.md. Crediti, tema, build e 18 test superati; browser locale riuscito su 210 combinazioni pagina/viewport/tema e 20 copertine; CI remoto e verifica del deployment da completare. Nessuna ulteriore conferma da richiedere per questa pubblicazione autorizzata.

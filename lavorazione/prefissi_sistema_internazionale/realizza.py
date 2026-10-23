@@ -20,7 +20,7 @@ from stringhe_theme import navigation_header
 NAME = 'prefissi_sistema_internazionale_it.html'
 TITLE = 'I prefissi del Sistema internazionale'
 AREA = 'Introduzione alla fisica e alla misura'
-VERSION = 'v3'
+VERSION = 'v4'
 TABLES = {'TAB-01': 'Prefissi SI: multipli e sottomultipli',
           'TAB-02': 'La stessa lunghezza in due scritture',
           'TAB-03A': 'Equivalenze della massa',
@@ -264,7 +264,7 @@ def render():
     template = template.replace('Nome dell’area tematica',AREA).replace('Titolo del capitolo',TITLE)
     template = re.sub(r'<!-- MODELLO CANONICO[\s\S]*?-->', '<!-- Anteprima del capitolo 4 dal testo v3 e dal modello Stringhe v23; copertina scelta dall’utente nella bozza v4. -->',template,count=1)
     template = template.replace('</head>',EXTRA + '</head>',1)
-    prev = '<nav class="chapter-navigation" aria-label="Navigazione tra capitoli"><a rel="prev" href="potenze_dieci_notazione_scientifica_it.html" data-site-path="potenze_dieci_notazione_scientifica_it.html"><span>← Capitolo precedente</span><small>Le potenze di dieci e la notazione scientifica</small></a><a rel="next" href="termodinamica_sistemi_it.html" data-site-path="termodinamica_sistemi_it.html"><span>Capitolo successivo →</span><small>La termodinamica e i sistemi termodinamici</small></a></nav>'
+    prev = '<nav class="chapter-navigation" aria-label="Navigazione tra capitoli"><a rel="prev" href="potenze_dieci_notazione_scientifica_it.html" data-site-path="potenze_dieci_notazione_scientifica_it.html"><span>← Capitolo precedente</span><small>Le potenze di dieci e la notazione scientifica</small></a><a rel="next" href="cifre_significative_it.html" data-site-path="cifre_significative_it.html"><span>Capitolo successivo →</span><small>Le cifre significative</small></a></nav>'
     template = template.replace('<!-- chapter-navigation:end -->',prev + '<!-- chapter-navigation:end -->',1)
     return template
 
