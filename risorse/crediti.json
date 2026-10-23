@@ -3420,6 +3420,150 @@
         "grandezze_fisiche_sistema_internazionale_it.html"
       ],
       "fingerprints": []
+    },
+    {
+      "id": "credit-72bd7f593f527a79",
+      "description": "OpenStax, College Physics 2e, 1.2, tabella 1.3",
+      "source": "https://openstax.org/books/college-physics-2e/pages/1-2-physical-quantities-and-units",
+      "author": null,
+      "license": null,
+      "license_url": null,
+      "changes": "Fonte di dati e spiegazioni; nessuna immagine riprodotta.",
+      "status": "reference",
+      "links": [],
+      "notices": [
+        "OpenStax, College Physics 2e, 1.2, tabella 1.3. <a href=\"https://openstax.org/books/college-physics-2e/pages/1-2-physical-quantities-and-units\">Fonte dei dati e delle spiegazioni</a>. Nessuna immagine riprodotta."
+      ],
+      "metadata_sources": [
+        "potenze_dieci_notazione_scientifica_it.html"
+      ],
+      "fingerprints": []
+    },
+    {
+      "id": "credit-8ca110732c6715b7",
+      "description": "NASA, Earth Fact Sheet",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html",
+      "author": null,
+      "license": null,
+      "license_url": null,
+      "changes": "Fonte di dati e spiegazioni; nessuna immagine riprodotta.",
+      "status": "reference",
+      "links": [],
+      "notices": [
+        "NASA, Earth Fact Sheet. <a href=\"https://nssdc.gsfc.nasa.gov/planetary/factsheet/earthfact.html\">Fonte dei dati e delle spiegazioni</a>. Nessuna immagine riprodotta."
+      ],
+      "metadata_sources": [
+        "potenze_dieci_notazione_scientifica_it.html"
+      ],
+      "fingerprints": []
+    },
+    {
+      "id": "credit-5267f66fdb153dea",
+      "description": "NASA, Sun Fact Sheet",
+      "source": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html",
+      "author": null,
+      "license": null,
+      "license_url": null,
+      "changes": "Fonte di dati e spiegazioni; nessuna immagine riprodotta.",
+      "status": "reference",
+      "links": [],
+      "notices": [
+        "NASA, Sun Fact Sheet. <a href=\"https://nssdc.gsfc.nasa.gov/planetary/factsheet/sunfact.html\">Fonte dei dati e delle spiegazioni</a>. Nessuna immagine riprodotta."
+      ],
+      "metadata_sources": [
+        "potenze_dieci_notazione_scientifica_it.html"
+      ],
+      "fingerprints": []
+    },
+    {
+      "id": "credit-7dd05ee115c663b4",
+      "description": "Genomics England, Understanding genomics, voce DNA",
+      "source": "https://www.genomicsengland.co.uk/genomic-medicine/understanding-genomics",
+      "author": null,
+      "license": null,
+      "license_url": null,
+      "changes": "Fonte di dati e spiegazioni; nessuna immagine riprodotta.",
+      "status": "reference",
+      "links": [],
+      "notices": [
+        "Genomics England, Understanding genomics, voce DNA. <a href=\"https://www.genomicsengland.co.uk/genomic-medicine/understanding-genomics\">Fonte dei dati e delle spiegazioni</a>. Nessuna immagine riprodotta."
+      ],
+      "metadata_sources": [
+        "potenze_dieci_notazione_scientifica_it.html"
+      ],
+      "fingerprints": []
+    },
+    {
+      "id": "credit-3f4747ad2206e4d6",
+      "description": "Annunziato, DNA Packaging: Nucleosomes and Chromatin, Nature Education",
+      "source": "https://www.nature.com/scitable/topicpage/dna-packaging-nucleosomes-and-chromatin-310/",
+      "author": null,
+      "license": null,
+      "license_url": null,
+      "changes": "Fonte di dati e spiegazioni; nessuna immagine riprodotta.",
+      "status": "reference",
+      "links": [],
+      "notices": [
+        "Annunziato, DNA Packaging: Nucleosomes and Chromatin, Nature Education. <a href=\"https://www.nature.com/scitable/topicpage/dna-packaging-nucleosomes-and-chromatin-310/\">Fonte dei dati e delle spiegazioni</a>. Nessuna immagine riprodotta."
+      ],
+      "metadata_sources": [
+        "potenze_dieci_notazione_scientifica_it.html"
+      ],
+      "fingerprints": []
+    },
+    {
+      "id": "credit-1d7f0e30728109c6",
+      "description": "Commissione europea, CORDIS, progetto ECSTATIC, grant 101189595",
+      "source": "https://cordis.europa.eu/project/id/101189595",
+      "author": null,
+      "license": null,
+      "license_url": null,
+      "changes": "Fonte di dati e spiegazioni; nessuna immagine riprodotta.",
+      "status": "reference",
+      "links": [],
+      "notices": [
+        "Commissione europea, CORDIS, progetto ECSTATIC, grant 101189595. <a href=\"https://cordis.europa.eu/project/id/101189595\">Fonte dei dati e delle spiegazioni</a>. Nessuna immagine riprodotta."
+      ],
+      "metadata_sources": [
+        "potenze_dieci_notazione_scientifica_it.html"
+      ],
+      "fingerprints": []
+    },
+    {
+      "id": "credit-f2548b43309eaaf0",
+      "description": "Optics & Photonics News, marzo 2022, articolo sul vetro ottico, grafico Cumulative total of cabled fiber installed worldwide",
+      "source": "https://opn-web-afd-d3bfbkd5bcc5asbs.z02.azurefd.net/opn/media/images/pdf/2022/0322/030-039r_opn_03_22.pdf?t=638452572281577707",
+      "author": null,
+      "license": null,
+      "license_url": null,
+      "changes": "Fonte di dati e spiegazioni; nessuna immagine riprodotta.",
+      "status": "reference",
+      "links": [],
+      "notices": [
+        "Optics &amp; Photonics News, marzo 2022, articolo sul vetro ottico, grafico Cumulative total of cabled fiber installed worldwide. <a href=\"https://opn-web-afd-d3bfbkd5bcc5asbs.z02.azurefd.net/opn/media/images/pdf/2022/0322/030-039r_opn_03_22.pdf?t=638452572281577707\">Fonte dei dati e delle spiegazioni</a>. Nessuna immagine riprodotta."
+      ],
+      "metadata_sources": [
+        "potenze_dieci_notazione_scientifica_it.html"
+      ],
+      "fingerprints": []
+    },
+    {
+      "id": "credit-331032c7a884239b",
+      "description": "Guinness World Records, Smallest stop-motion film",
+      "source": "https://www.guinnessworldrecords.com/world-records/smallest-stop-motion-film",
+      "author": null,
+      "license": null,
+      "license_url": null,
+      "changes": "Fonte di dati e spiegazioni; nessuna immagine riprodotta.",
+      "status": "reference",
+      "links": [],
+      "notices": [
+        "Guinness World Records, Smallest stop-motion film. <a href=\"https://www.guinnessworldrecords.com/world-records/smallest-stop-motion-film\">Fonte dei dati e delle spiegazioni</a>. Nessuna immagine riprodotta."
+      ],
+      "metadata_sources": [
+        "potenze_dieci_notazione_scientifica_it.html"
+      ],
+      "fingerprints": []
     }
   ],
   "documents": {
@@ -4219,6 +4363,47 @@
       "review": "Testo, immagini e revisione della didascalia approvati; pubblicazione esplicitamente autorizzata. Licenze e fonti documentate.",
       "anchor": "grandezze-fisiche-sistema-internazionale-it",
       "lexend": true
+    },
+    "potenze_dieci_notazione_scientifica_it.html": {
+      "title": "Le potenze di dieci e la notazione scientifica",
+      "anchor": "potenze-dieci-notazione-scientifica-it",
+      "credits": [
+        {
+          "resource": "credit-72bd7f593f527a79",
+          "notice": 0
+        },
+        {
+          "resource": "credit-8ca110732c6715b7",
+          "notice": 0
+        },
+        {
+          "resource": "credit-5267f66fdb153dea",
+          "notice": 0
+        },
+        {
+          "resource": "credit-7dd05ee115c663b4",
+          "notice": 0
+        },
+        {
+          "resource": "credit-3f4747ad2206e4d6",
+          "notice": 0
+        },
+        {
+          "resource": "credit-1d7f0e30728109c6",
+          "notice": 0
+        },
+        {
+          "resource": "credit-f2548b43309eaaf0",
+          "notice": 0
+        },
+        {
+          "resource": "credit-331032c7a884239b",
+          "notice": 0
+        }
+      ],
+      "lexend": true,
+      "chapter_labels": true,
+      "review": "Anteprima: copertina e miniature ereditate con attribuzioni/licenze da verificare prima della pubblicazione."
     }
   },
   "assets": [
@@ -5062,6 +5247,15 @@
         },
         {
           "document": "passaggi_di_stato.html",
+          "kind": "font/ttf",
+          "description": "Font incorporato",
+          "locator": null,
+          "attribute": "font-face",
+          "location": null,
+          "credit_id": "font-lexend"
+        },
+        {
+          "document": "potenze_dieci_notazione_scientifica_it.html",
           "kind": "font/ttf",
           "description": "Font incorporato",
           "locator": null,
@@ -6597,6 +6791,15 @@
       "kind": "image/jpeg",
       "uses": [
         {
+          "document": "potenze_dieci_notazione_scientifica_it.html",
+          "kind": "image/jpeg",
+          "description": "Miniatura del video A Boy and His Atom di IBM",
+          "locator": "vid-02",
+          "attribute": "src",
+          "location": null,
+          "credit_id": null
+        },
+        {
           "document": "sistema_internazionale_notazione_fr.html",
           "kind": "image/jpeg",
           "description": "Miniature de la vidéo IBM A Boy and His Atom",
@@ -6695,6 +6898,15 @@
       "id": "asset-a7a84b917a11177b64050616e39745e07610e655859b365cb326110b8ad22ace",
       "kind": "image/jpeg",
       "uses": [
+        {
+          "document": "potenze_dieci_notazione_scientifica_it.html",
+          "kind": "image/jpeg",
+          "description": "La Terra sorge oltre l'orizzonte della Luna in una fotografia dallo spazio",
+          "locator": "cop-01",
+          "attribute": "src",
+          "location": null,
+          "credit_id": null
+        },
         {
           "document": "sistema_internazionale_notazione_fr.html",
           "kind": "image/jpeg",
@@ -7163,6 +7375,15 @@
       "id": "asset-bdc568653b12a4ba39094b8dba5778ace3b1dda5fc89685d396ba66c59f677d5",
       "kind": "image/jpeg",
       "uses": [
+        {
+          "document": "potenze_dieci_notazione_scientifica_it.html",
+          "kind": "image/jpeg",
+          "description": "Miniatura del video Powers of Ten sul cambiamento di scala",
+          "locator": "vid-01",
+          "attribute": "src",
+          "location": null,
+          "credit_id": null
+        },
         {
           "document": "sistema_internazionale_notazione_fr.html",
           "kind": "image/jpeg",

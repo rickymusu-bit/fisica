@@ -1,7 +1,7 @@
 # Stato — Le potenze di dieci e la notazione scientifica
 
 Ultimo aggiornamento: 23 ottobre 2026 (Europe/Rome).
-Fase corrente: bozza v2 aggiornata alle correzioni dell’utente, in attesa di approvazione del testo. Le sezioni di proposta iniziale sotto riportate conservano la progettazione; l’avanzamento finale registra l’approvazione ricevuta.
+Fase corrente: bozza v2 approvata, HTML v1 realizzato e verificato; anteprima pronta per revisione. Le sezioni di proposta iniziale sotto riportate conservano la progettazione; l’avanzamento finale registra l’approvazione ricevuta.
 Ramo dedicato da main: `lavorazione/potenze-dieci-notazione-scientifica`.
 Piano di riferimento: [capitolo 3 del percorso](../introduzione_fisica_misura/piano.md).
 Area tematica: **Introduzione alla fisica e alla misura**.
@@ -104,3 +104,19 @@ Fonti nuove collegate nella sezione di servizio: Genomics England e Nature Educa
 
 Controlli: nessuna massa, micrografia o cratere nel testo didattico; video originale VID-02 e collegamento conservati; una sola tabella di ordini fisici, otto righe di lunghezze; otto quesiti; 2 m ha ordine 10⁰ m e 5 · 10¹² m ha ordine 10¹³ m con il criterio dichiarato. Fonti e note aggiornate alle risorse correnti. Nessun HTML o registro crediti modificato; nessun merge o deployment.
 Prossimo passaggio: approvazione della bozza v2, quindi stima e via alla realizzazione secondo B1.1.
+
+## Realizzazione autorizzata e anteprima HTML v1 — 23 ottobre 2026
+
+Richiesta corrente **«Approvato, procedi»**: approvata la bozza v2 e autorizzata la realizzazione. Comunicato intervallo 30–60 minuti, ripartito in materiali/crediti, impaginazione e verifiche, con carico basso e senza simulazioni. Il comando esplicito dell’utente autorizza il proseguimento; non è approvazione dell’anteprima ancora da mostrare né della pubblicazione.
+
+Realizzati il file stabile `potenze_dieci_notazione_scientifica_it.html` v1 e la copia identica [bozza.html](bozza.html), 525157 byte, dal generatore riproducibile [realizza.py](realizza.py). Modello autonomo Stringhe v22: tutti i CSS e script canonici conservati byte per byte e nello stesso ordine. Estensioni circoscritte per tabelle scorrevoli, frazioni HTML e miniature video. Italiano, tema scuro predefinito, barra universale, indice a sei sezioni, tre tabelle, undici formule, otto quesiti, due note collassabili. A Boy and His Atom mantenuto. Nessun lettore incorporato o dipendenza matematica esterna.
+
+Registro unico esteso con il solo nuovo documento, fonti correnti e occorrenze; inventario aggiornato con la funzione canonica. Nessuna riscrittura degli snapshot degli altri capitoli; pagina pubblica dei crediti invariata, verificata contro il renderer. Il capitolo resta fuori dal manifest e dalla build pubblica fino all’approvazione dell’anteprima. Collegamento al capitolo precedente già pubblicato; nessun rimando a capitoli futuri inesistenti.
+
+Verifiche: `python3 scripts/credits.py --check` superato su 30 documenti, 145 schede, 223 asset; `python3 scripts/build_pages.py` superato, 17 HTML e 20 copertine. [verifica.py](verifica.py) ha controllato 320/390/768/1024/1440 px, chiaro e scuro, senza overflow della pagina o errori JavaScript; tre tabelle, otto righe delle lunghezze, immagini decodificate, indice/Escape, note e ritorni, download identico byte per byte. Menu tema e secondo richiamo controllati anche con azione sui pulsanti effettivi. Autonomia delle immagini e contenuti verificata con rete disattivata e con/senza JavaScript. Report e hash in [verifiche.json](verifiche.json).
+
+Schermate correnti: [desktop](anteprima-1440.png), [mobile](anteprima-390.png), [tabella desktop](tabella-1440.png), [tabella mobile](tabella-390.png), [copertina mobile](copertina-mobile.png). Il controllo iniziale aveva rilevato un’eccedenza delle miniature originali; corretta prima della suite finale. Composizione delle tabelle invariata, scorrimento interno su schermi stretti.
+
+Limite materiale ancora aperto: la copertina incorporata nel sorgente e le miniature originali non hanno attribuzioni/licenze individuali documentate. Ispezionata l’immagine e verificati i metadati disponibili; ricerca di provenienza breve non conclusiva. Non attribuita per somiglianza a uno scatto NASA. Riutilizzo approvato conservato nell’anteprima e segnalato nei crediti; la verifica dei diritti resta necessaria prima della pubblicazione. Non dichiarare il controllo tecnico dei crediti come certificazione delle licenze.
+
+PR #63 mantenuta in bozza, nessun merge né Pages. Prossima operazione: consegnare l’anteprima HTML corrente e le schermate; raccogliere le osservazioni e l’approvazione dell’anteprima secondo AGENTS.md/B5. Risolvere le provenienze mancanti prima di un rilascio ufficiale.
