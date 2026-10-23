@@ -69,3 +69,7 @@ Rimossa la sezione finale sulla fotografia e le micrografie; conservato A Boy an
 ### Terzo capitolo — testo approvato e anteprima realizzata
 
 L’utente approva la bozza v2 con «Approvato, procedi». Realizzato HTML autonomo v1 dal modello Stringhe v22, con tre tabelle, due video esterni, undici formule e otto quesiti. Crediti e build verificati; browser a cinque larghezze in chiaro/scuro, note, indice, download e autonomia controllati. [HTML corrente](../potenze_dieci_notazione_scientifica/bozza.html), [stato e schermate](../potenze_dieci_notazione_scientifica/stato.md). Provenienza della copertina e diritti delle miniature ereditate ancora da risolvere prima del rilascio. PR #63 in bozza; manifest, catalogo, main e sito pubblico invariati. Attesa della revisione dell’anteprima corrente.
+
+### Terzo capitolo — copertina documentata, HTML v2
+
+Sostituita su richiesta la copertina con Map of Jupiter.jpg, scelta dall’utente e incorporata senza ritagli. Fonte NASA/JPL/Space Science Institute e pubblico dominio documentati; didascalia della mappa polare corretta. Testo didattico invariato, crediti/build e browser mobile/desktop verificati, schermate aggiornate. [Stato corrente](../potenze_dieci_notazione_scientifica/stato.md). Restano da verificare soltanto i diritti delle miniature video; PR #63 ancora in bozza.

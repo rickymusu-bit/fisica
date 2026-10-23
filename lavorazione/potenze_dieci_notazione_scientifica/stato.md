@@ -1,7 +1,7 @@
 # Stato — Le potenze di dieci e la notazione scientifica
 
 Ultimo aggiornamento: 23 ottobre 2026 (Europe/Rome).
-Fase corrente: bozza v2 approvata, HTML v1 realizzato e verificato; anteprima pronta per revisione. Le sezioni di proposta iniziale sotto riportate conservano la progettazione; l’avanzamento finale registra l’approvazione ricevuta.
+Fase corrente: HTML v2 con copertina di Giove scelta dall’utente; anteprima aggiornata pronta per revisione. Le sezioni di proposta iniziale sotto riportate conservano la progettazione; l’avanzamento finale registra l’approvazione ricevuta.
 Ramo dedicato da main: `lavorazione/potenze-dieci-notazione-scientifica`.
 Piano di riferimento: [capitolo 3 del percorso](../introduzione_fisica_misura/piano.md).
 Area tematica: **Introduzione alla fisica e alla misura**.
@@ -128,3 +128,15 @@ Realizzazione caricata e verificata sul ramo al commit `392e1bb3dbfe1e471ba7d059
 Superati anche i 14 test unitari esistenti (`python3 -m unittest discover -s scripts -p 'test_*.py'`) e `git diff --check`. Il precedente tentativo di discovery nella cartella inesistente tests non costituiva un test eseguito; usata poi la suite effettiva in scripts. Nessuna modifica di test esistenti, tema condiviso o capitoli pubblicati.
 
 Il solo salvataggio successivo del rapporto e di questo resoconto non cambia l’HTML dell’anteprima, le schermate o il manifest. Nessun deployment ufficiale avviato. Restano da approvare l’anteprima e da risolvere i diritti dei media ereditati prima di pubblicare.
+
+## Copertina di Giove scelta dall’utente — HTML v2
+
+Richiesta: «Usa questa come copertina», con il collegamento alla versione Wikimedia 960 px di Map of Jupiter.jpg. Sostituzione autorizzata direttamente; nessuna nuova scelta necessaria. File scaricato dall’URL esatto, 960 × 975 px, 120432 byte, conservato in [risorse/giove.jpg](risorse/giove.jpg) e incorporato byte per byte senza ritagli. HTML v2 e bozza testuale v3: modificata soltanto la copertina, la didascalia e i relativi metadati/crediti; corpo didattico confrontato con la versione precedente e identico.
+
+Fonte verificata: [Wikimedia Commons, Map of Jupiter.jpg](https://commons.wikimedia.org/wiki/File:Map_of_Jupiter.jpg), autore NASA/JPL/Space Science Institute, pubblico dominio PD-USGov-NASA. [Fonte primaria NASA](https://www.nasa.gov/image-article/map-of-jupiters-south/): mappa stereografica dell’emisfero sud, polo sud al centro ed equatore al bordo, immagini Cassini dell’11–12 dicembre 2000. Verificata la [JPL Image Use Policy](https://www.jpl.nasa.gov/jpl-image-use-policy/); credito associato nell’accesso comune, nessuna approvazione istituzionale dichiarata. La vecchia copertina con provenienza incerta non ha più occorrenze o crediti nel capitolo corrente; resta nei materiali storici e in Git.
+
+Crediti canonici e build superati; inventario globale con 30 documenti, 148 schede, 224 asset. Nessun cambiamento alla pagina pubblica dei crediti o agli altri capitoli. Browser mirato: 390 e 1440 px, chiaro/scuro, nessun overflow o errore JavaScript; immagine decodificata, proporzioni originali conservate. Schermate rigenerate. Esiti correnti in [verifiche-copertina.json](verifiche-copertina.json); gli altri rapporti attestano i controlli della precedente revisione, conservati senza attribuirli al nuovo hash.
+
+Restano aperti soltanto i diritti delle due miniature dei video. Alla domanda dell’utente sul fotogramma: estrarre un’immagine non elimina i diritti del video. Occorrono una licenza che consenta il riuso, un permesso del titolare o un’eccezione applicabile allo specifico impiego; citazione dell’autore e finalità didattica non autorizzano automaticamente una copertina. [Guida ufficiale YouTube](https://support.google.com/youtube/answer/2797466?hl=it). Nessun fotogramma estratto o sostituzione delle miniature richiesta o eseguita.
+
+PR #63 in bozza. Prossimo passaggio: consegna della nuova anteprima; nessun merge o Pages senza approvazione dell’anteprima corrente. La copertina è ora documentata, non segnalarla più tra i materiali senza attribuzione certa.

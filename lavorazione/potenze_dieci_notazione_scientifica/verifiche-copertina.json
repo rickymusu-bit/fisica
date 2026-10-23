@@ -1,0 +1,35 @@
+{
+  "revision": "copertina Giove, HTML v2",
+  "views": [
+    {
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "errors": [],
+      "cover_ratio": 0.9846153846153847
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "errors": [],
+      "cover_ratio": 0.9846153846153847
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "errors": [],
+      "cover_ratio": 0.9846418106496918
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "overflow": false,
+      "errors": [],
+      "cover_ratio": 0.9846418106496918
+    }
+  ],
+  "sha256": "5909d08d90d12e1b5dc787c7163482b368cc6f63dc5550a5fa6c2f8f6f540d88",
+  "bytes": 571358
+}

@@ -3564,6 +3564,62 @@
         "potenze_dieci_notazione_scientifica_it.html"
       ],
       "fingerprints": []
+    },
+    {
+      "id": "credit-3fb6c85b104ba6a2",
+      "description": "Fonte NASA, Map of Jupiter’s South",
+      "source": "https://www.nasa.gov/image-article/map-of-jupiters-south/",
+      "author": null,
+      "license": null,
+      "license_url": null,
+      "changes": "Fonte di dati e spiegazioni; nessuna immagine riprodotta.",
+      "status": "reference",
+      "links": [],
+      "notices": [
+        "Fonte NASA, Map of Jupiter’s South. <a href=\"https://www.nasa.gov/image-article/map-of-jupiters-south/\">Fonte dei dati e delle spiegazioni</a>. Nessuna immagine riprodotta."
+      ],
+      "metadata_sources": [
+        "potenze_dieci_notazione_scientifica_it.html"
+      ],
+      "fingerprints": []
+    },
+    {
+      "id": "credit-9c96e6a42b7cb256",
+      "description": "JPL Image Use Policy",
+      "source": "https://www.jpl.nasa.gov/jpl-image-use-policy/",
+      "author": null,
+      "license": null,
+      "license_url": null,
+      "changes": "Fonte di dati e spiegazioni; nessuna immagine riprodotta.",
+      "status": "reference",
+      "links": [],
+      "notices": [
+        "JPL Image Use Policy. <a href=\"https://www.jpl.nasa.gov/jpl-image-use-policy/\">Fonte dei dati e delle spiegazioni</a>. Nessuna immagine riprodotta."
+      ],
+      "metadata_sources": [
+        "potenze_dieci_notazione_scientifica_it.html"
+      ],
+      "fingerprints": []
+    },
+    {
+      "id": "credit-603307d72ca19729",
+      "description": "Mappa dell’emisfero sud di Giove: polo sud al centro, equatore al bordo, bande nuvolose e Grande Macchia Rossa",
+      "source": "https://commons.wikimedia.org/wiki/File:Map_of_Jupiter.jpg",
+      "author": "NASA/JPL/Space Science Institute",
+      "license": "Public domain (PD-USGov-NASA)",
+      "license_url": "https://commons.wikimedia.org/wiki/File:Map_of_Jupiter.jpg#Licensing",
+      "changes": "Versione Wikimedia a 960 px scelta dall’utente, incorporata senza ritagli o altre modifiche; proporzioni conservate.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Mappa dell’emisfero sud di Giove: polo sud al centro, equatore al bordo, bande nuvolose e Grande Macchia Rossa — NASA/JPL/Space Science Institute. <a href=\"https://commons.wikimedia.org/wiki/File:Map_of_Jupiter.jpg\">Fonte originale</a>. <a href=\"https://commons.wikimedia.org/wiki/File:Map_of_Jupiter.jpg#Licensing\">Public domain (PD-USGov-NASA)</a>. Modifiche: Versione Wikimedia a 960 px scelta dall’utente, incorporata senza ritagli o altre modifiche; proporzioni conservate."
+      ],
+      "metadata_sources": [
+        "potenze_dieci_notazione_scientifica_it.html"
+      ],
+      "fingerprints": [
+        "asset-87066321bea144b2cbe4aa2f273ce0f6333a0976e48b961151e1531de7661d1a"
+      ]
     }
   ],
   "documents": {
@@ -4397,13 +4453,25 @@
           "notice": 0
         },
         {
+          "resource": "credit-3fb6c85b104ba6a2",
+          "notice": 0
+        },
+        {
+          "resource": "credit-9c96e6a42b7cb256",
+          "notice": 0
+        },
+        {
           "resource": "credit-331032c7a884239b",
+          "notice": 0
+        },
+        {
+          "resource": "credit-603307d72ca19729",
           "notice": 0
         }
       ],
       "lexend": true,
       "chapter_labels": true,
-      "review": "Anteprima: copertina e miniature ereditate con attribuzioni/licenze da verificare prima della pubblicazione."
+      "review": "Copertina di Giove scelta dall’utente, fonte e pubblico dominio documentati. Restano da verificare i diritti delle due miniature video ereditate."
     }
   },
   "assets": [
@@ -6364,6 +6432,21 @@
       ]
     },
     {
+      "id": "asset-87066321bea144b2cbe4aa2f273ce0f6333a0976e48b961151e1531de7661d1a",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "potenze_dieci_notazione_scientifica_it.html",
+          "kind": "image/jpeg",
+          "description": "Mappa dell’emisfero sud di Giove: polo sud al centro, equatore al bordo, bande nuvolose e Grande Macchia Rossa",
+          "locator": "cop-01",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-603307d72ca19729"
+        }
+      ]
+    },
+    {
       "id": "asset-8a35c398618642a6d65e29eb6f82ee854b61a36e84ad42faca0bcbce9507a538",
       "kind": "image/webp",
       "uses": [
@@ -6898,15 +6981,6 @@
       "id": "asset-a7a84b917a11177b64050616e39745e07610e655859b365cb326110b8ad22ace",
       "kind": "image/jpeg",
       "uses": [
-        {
-          "document": "potenze_dieci_notazione_scientifica_it.html",
-          "kind": "image/jpeg",
-          "description": "La Terra sorge oltre l'orizzonte della Luna in una fotografia dallo spazio",
-          "locator": "cop-01",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
         {
           "document": "sistema_internazionale_notazione_fr.html",
           "kind": "image/jpeg",

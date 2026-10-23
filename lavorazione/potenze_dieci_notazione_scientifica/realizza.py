@@ -5,6 +5,7 @@ e le associazioni esistenti rimangono identici. Nessuna pubblicazione.
 """
 from pathlib import Path
 from html import escape
+import base64
 import hashlib
 import json
 import re
@@ -82,7 +83,9 @@ def math_html(s):
 def original_media():
     source = credits.Document((ROOT / 'sistema_internazionale_notazione_it.html').read_text())
     images = list(source.root.descendants('img'))
-    result = {'COP-01': next(n for n in images if 'Terra sorge' in n.attrs.get('alt', ''))}
+    uri = 'data:image/jpeg;base64,' + base64.b64encode((WORK/'risorse/giove.jpg').read_bytes()).decode()
+    cover = credits.Document('<img src="' + uri + '" width="960" height="975" alt="Mappa dell’emisfero sud di Giove: polo sud al centro, equatore al bordo, bande nuvolose e Grande Macchia Rossa">')
+    result = {'COP-01': next(cover.root.descendants('img'))}
     for key, video_id in [('VID-01', '0fKBhvDjuy0'), ('VID-02', 'oSCX78-8-q0')]:
         link = next(n for n in source.root.descendants('a') if video_id in n.attrs.get('href', ''))
         result[key] = next(link.descendants('img'))
@@ -102,7 +105,15 @@ def figure(key, caption, media):
                    '" target="_blank" rel="noopener" aria-label="Apri su YouTube: ' + label + '">' + img +
                    '<span class="play" aria-hidden="true"></span></a>')
         cls = 'visual video'
-    return f'<figure class="{cls}" id="{key.lower()}">{content}<figcaption>{inline(caption)}</figcaption></figure>'
+    metadata = ''
+    if key == 'COP-01':
+        attrs = {'source':'https://commons.wikimedia.org/wiki/File:Map_of_Jupiter.jpg',
+                 'author':'NASA/JPL/Space Science Institute',
+                 'license':'Public domain (PD-USGov-NASA)',
+                 'license-url':'https://commons.wikimedia.org/wiki/File:Map_of_Jupiter.jpg#Licensing',
+                 'changes':'Versione Wikimedia a 960 px scelta dall’utente, incorporata senza ritagli o altre modifiche; proporzioni conservate.'}
+        metadata = ' ' + ' '.join('data-credit-'+k+'="'+escape(v,quote=True)+'"' for k,v in attrs.items())
+    return f'<figure class="{cls}" id="{key.lower()}"{metadata}>{content}<figcaption>{inline(caption)}</figcaption></figure>'
 
 def table(block, key, caption):
     rows = [[c.strip() for c in line.strip('|').split('|')] for line in block.splitlines()]
@@ -164,7 +175,7 @@ def render():
         if node.tag == 'title':
             edits.append((node.start, node.end, '<title>' + TITLE + ' — Stringhe</title>'))
         elif node.tag == 'meta' and node.attrs.get('name') in {'version', 'date', 'description'}:
-            value = {'version':'v1', 'date':'2026-10-23', 'description':'Potenze di dieci, notazione scientifica, confronto fra lunghezze e operazioni con gli esponenti.'}[node.attrs['name']]
+            value = {'version':'v2', 'date':'2026-10-23', 'description':'Potenze di dieci, notazione scientifica, confronto fra lunghezze e operazioni con gli esponenti.'}[node.attrs['name']]
             edits.append((node.start, node.end, '<meta name="' + node.attrs['name'] + '" content="' + value + '">'))
         elif node.tag == 'figure' and node.has_class('cover'):
             edits.append((node.start, node.end, cover))
@@ -183,7 +194,7 @@ def render():
             index_markup = re.sub(r'<nav class="sidebar-nav"[\s\S]*?</nav>', lambda _: nav, index_markup)
             edits.append((node.start,node.end,navigation_header('chapter',NAME,index_markup)))
         elif node.tag == 'footer' and node.has_class('footer'):
-            edits.append((node.start,node.end,'<footer class="footer">Versione v1 — 23 ottobre 2026</footer>'))
+            edits.append((node.start,node.end,'<footer class="footer">Versione v2 — 23 ottobre 2026</footer>'))
     for start,end,value in sorted(edits,reverse=True):
         template = template[:start] + value + template[end:]
     template = template.replace('Nome dell’area tematica',AREA).replace('Titolo del capitolo',TITLE)
@@ -198,7 +209,7 @@ def render():
 def register_document(registry, html):
     # Riusa inventario e schede esistenti, senza sincronizzare altri documenti.
     registry['documents'][NAME] = {'title':TITLE,'anchor':NAME[:-5].replace('_','-'),'credits':[],
-        'lexend':True,'chapter_labels':True,'review':'Anteprima: copertina e miniature ereditate con attribuzioni/licenze da verificare prima della pubblicazione.'}
+        'lexend':True,'chapter_labels':True,'review':'Copertina di Giove scelta dall’utente, fonte e pubblico dominio documentati. Restano da verificare i diritti delle due miniature video ereditate.'}
     resources = {r['id']:r for r in registry['resources']}
     fingerprints = {fp:r['id'] for r in registry['resources'] for fp in r.get('fingerprints',[])}
     assets = {a['id']:a for a in registry['assets']}
@@ -218,6 +229,7 @@ def register_document(registry, html):
     service=(WORK/'bozza.md').read_text().split('## Servizio editoriale',1)[1]
     for title,url in re.findall(r'\[([^\]]+)\]\((https?://[^\s)]+)\)',service):
         if 'youtube.com' in url: continue
+        if url == 'https://commons.wikimedia.org/wiki/File:Map_of_Jupiter.jpg': continue
         existing=next((r for r in registry['resources'] if r.get('source')==url and r.get('status')=='reference'),None)
         identity=existing['id'] if existing else 'credit-'+hashlib.sha256(url.encode()).hexdigest()[:16]
         if not existing:
