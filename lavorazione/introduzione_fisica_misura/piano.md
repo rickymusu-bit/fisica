@@ -159,3 +159,11 @@ Tolto anche lo zoom dalla cassa, su richiesta. Regola salvata nel master v69.10 
 Verifica HTTPS dopo il deployment: 19 pagine pubbliche HTTP 200 e identiche byte per byte alla build locale; 12 indirizzi esclusi, storici o di anteprima HTTP 404. [Rapporto HTTPS](../cifre_significative/verifica-pubblicazione-online.json) e [script](../cifre_significative/verifica_pubblicazione.py). Le prove locali complete sono riuscite: 18 test, 210 combinazioni pagina/viewport/tema e 20 copertine, oltre ai controlli specifici del capitolo.
 
 Il workflow remoto 39991173540 ha superato tema, crediti, build e test; l’installazione di Chromium ha ritardato il controllo. Il merge regolare è stato accettato da GitHub sulla base della suite locale completa già riuscita. Al controllo successivo alla pubblicazione il CI remoto sta eseguendo le prove browser; il suo esito non è ancora registrato come riuscito. Il deployment e la verifica delle pagine pubbliche sono completati.
+
+## Capitoli 6 e 7 — progettazione avviata il 23 ottobre 2026
+
+Richiesta corrente: «Facciamo i capitoli 6 e 7». Verificati sorgente `strumenti_errori_incertezza_it.html` v7 e stato storico; master v69.11. Proposte per [Gli strumenti di misura](../strumenti_misura/visuali.md) e [Errori e incertezza di misura](../errori_incertezza_misura/visuali.md), con stati separati. Quesiti originali: 1–4 al 6, 5 e 7 al 7, 6 riservato all'8. Media, semidispersione, tabella delle cinque letture e linea dei numeri restano nell'8.
+
+Proposto riuso delle immagini esistenti: calibro in copertina del 6, sismografo in copertina del 7, cronometro nello schema dell'esempio del 7, bersagli soltanto nel suo corpo. Nuovi prospetti e schema da concordare prima della bozza; licenze storiche non documentate da verificare prima dell'integrazione. Nessuna ricerca o generazione avviata, nessuna simulazione proposta.
+
+Ramo `lavorazione/strumenti-errori-incertezza`, da main d681439986db6c824fb1c724fa8cf7023e5a38de. Fase corrente: scelta delle visuali secondo B1.1; nessuna bozza, realizzazione HTML o pubblicazione ancora approvata. Sorgenti storici, catalogo e manifest invariati.
