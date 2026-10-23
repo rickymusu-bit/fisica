@@ -77,3 +77,7 @@ Sostituita su richiesta la copertina con Map of Jupiter.jpg, scelta dall’utent
 ### Terzo capitolo — lettori YouTube su richiesta
 
 Su richiesta dell’utente, HTML v3 e bozza v4 sostituiscono le miniature con il componente comune del modello v23: lettore youtube-nocookie.com soltanto dopo il clic, nessun autoplay, collegamento esterno sempre disponibile e chiusura del lettore. Nessuna immagine estratta dai video rimane da attribuire. Regole in MASTER_PROMPT.md v69.7, C5; [audit di tutti i capitoli](../sito/video_youtube/stato.md). Anteprima corrente da approvare; catalogo e pubblicazione invariati.
+
+## Pubblicazione approvata — 23 ottobre 2026
+
+L’utente approva esplicitamente l’anteprima corrente con «Approvo. Fai la pr e pubblica». Autorizzati completamento e merge della PR #63 e deployment Pages; superata l’attesa di approvazione indicata nei resoconti precedenti. Nuovo capitolo HTML v4, contenuto didattico identico all’anteprima v3: aggiunto soltanto il rimando al capitolo successivo. Manifest v12 con 13 capitoli; inserimento al terzo posto dell’area introduttiva, catalogo e pagina dei crediti aggiornati. Navigazione reciproca con Sistema internazionale (v5) e Termodinamica (v13), con copie correnti riallineate e date editoriali conservate. Nessuna riammissione degli HTML storici o tradotti. Verificati contenuti identici al netto di versione/navigazione, navigazione dei 13 capitoli ed esclusioni. Tema, crediti, migrazione video --check, build e 17 test superati. Merge e verifica del deployment da completare.

@@ -174,7 +174,7 @@ def render():
         if node.tag == 'title':
             edits.append((node.start, node.end, '<title>' + TITLE + ' — Stringhe</title>'))
         elif node.tag == 'meta' and node.attrs.get('name') in {'version', 'date', 'description'}:
-            value = {'version':'v3', 'date':'2026-10-23', 'description':'Potenze di dieci, notazione scientifica, confronto fra lunghezze e operazioni con gli esponenti.'}[node.attrs['name']]
+            value = {'version':'v4', 'date':'2026-10-23', 'description':'Potenze di dieci, notazione scientifica, confronto fra lunghezze e operazioni con gli esponenti.'}[node.attrs['name']]
             edits.append((node.start, node.end, '<meta name="' + node.attrs['name'] + '" content="' + value + '">'))
         elif node.tag == 'figure' and node.has_class('cover'):
             edits.append((node.start, node.end, cover))
@@ -193,14 +193,14 @@ def render():
             index_markup = re.sub(r'<nav class="sidebar-nav"[\s\S]*?</nav>', lambda _: nav, index_markup)
             edits.append((node.start,node.end,navigation_header('chapter',NAME,index_markup)))
         elif node.tag == 'footer' and node.has_class('footer'):
-            edits.append((node.start,node.end,'<footer class="footer">Versione v3 — 23 ottobre 2026</footer>'))
+            edits.append((node.start,node.end,'<footer class="footer">Versione v4 — 23 ottobre 2026</footer>'))
     for start,end,value in sorted(edits,reverse=True):
         template = template[:start] + value + template[end:]
     template = template.replace('Nome dell’area tematica',AREA).replace('Titolo del capitolo',TITLE)
     template = re.sub(r'<!-- MODELLO CANONICO[\s\S]*?-->', '<!-- Anteprima dal testo v2 approvato e dal modello canonico Stringhe v23. -->', template,count=1)
     template = template.replace('</head>',EXTRA + '</head>',1)
     prev = ('<nav class="chapter-navigation" aria-label="Navigazione tra capitoli"><a rel="prev" href="grandezze_fisiche_sistema_internazionale_it.html" data-site-path="grandezze_fisiche_sistema_internazionale_it.html">'
-            '<span>← Capitolo precedente</span><small>Le grandezze fisiche e il Sistema internazionale</small></a></nav>')
+            '<span>← Capitolo precedente</span><small>Le grandezze fisiche e il Sistema internazionale</small></a><a rel="next" href="termodinamica_sistemi_it.html" data-site-path="termodinamica_sistemi_it.html"><span>Capitolo successivo →</span><small>La termodinamica e i sistemi termodinamici</small></a></nav>')
     template = template.replace('<!-- chapter-navigation:end -->',prev + '<!-- chapter-navigation:end -->',1)
     # Non vi sono GIF o nuovi zoom: i comandi canonici sono già nel modello.
     return apply_youtube_videos(template)
@@ -249,8 +249,11 @@ def main():
     target.write_text(credits.update_component(html,registry,NAME))
     (WORK/'bozza.html').write_bytes(target.read_bytes())
     credits.REGISTRY.write_text(json.dumps(registry,ensure_ascii=False,indent=2)+'\n')
-    # La pagina pubblica resta identica: il capitolo non è nel manifest.
-    assert (ROOT/'crediti.html').read_text() == credits.render_page(registry)
+    # La pagina generale include il capitolo solo dopo l’ammissione approvata.
+    if NAME in json.loads((ROOT/'pubblicazione.json').read_text())['articoli']:
+        (ROOT/'crediti.html').write_text(credits.render_page(registry))
+    else:
+        assert (ROOT/'crediti.html').read_text() == credits.render_page(registry)
     assert credits.component(registry,NAME) in target.read_text()
     print(NAME,target.stat().st_size,'byte; snapshot crediti verificato')
 

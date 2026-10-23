@@ -144,3 +144,7 @@ L’utente precisa «Togli proprio le frecce. Tutti sanno che un campo da calcio
 Il controllo byte per byte conferma che l’immagine incorporata è esattamente campo.jpg. Crediti correnti con autore Netol e nessuna modifica alla foto; avvisi dello schema precedente conservati soltanto come storia nel registro e in Git. Generatore e verificatore aggiornati alla foto semplice. HTML/bozza restano v3, con data editoriale 23 ottobre 2026 nel fuso Europe/Rome. Rimossa la risorsa derivata campo-annotato.svg dall’albero corrente, recuperabile nella cronologia; originali fotografici conservati.
 
 Verifiche: crediti e build superati; browser a 320/390/768/1024/1440 px, chiaro/scuro, download e funzionamento offline, nove domande e tabelle conservate; nessun errore o overflow. Anteprime correnti rigenerate. Prosegue l’autorizzazione già ricevuta a pubblicare dopo la correzione, senza nuova richiesta di conferma.
+
+## Collegamenti per la pubblicazione del capitolo 3 — 23 ottobre 2026
+
+L’utente autorizza esplicitamente il merge e la pubblicazione nella PR #63. HTML v5: aggiornato soltanto il collegamento al nuovo capitolo «Le potenze di dieci e la notazione scientifica», senza modificare contenuti scientifici o data editoriale. Copia bozza.html riallineata; navigazione reciproca, tema, crediti e build verificati.
