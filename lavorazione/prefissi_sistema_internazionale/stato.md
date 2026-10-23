@@ -1,6 +1,6 @@
 # Stato — I prefissi del Sistema internazionale
 
-Versione v5 — 23 ottobre 2026 (Europe/Rome).
+Versione v6 — 23 ottobre 2026 (Europe/Rome).
 
 ## Incarico e fase corrente
 
@@ -117,3 +117,13 @@ Aggiunta sezione «Esempi di conversione» richiesta: MPa → kPa; cm² → m²;
 COP-01 è ora soltanto un segnaposto per l'immagine dell'utente: nessuna didascalia, licenza o soggetto inventati; nessuna ricerca autonoma. L'immagine del metro nel capitolo 2 rimane conservata e non va associata ai crediti del nuovo capitolo. Schema SCH-01 invariato e verifiche grafiche precedenti riutilizzate.
 
 Controlli svolti: introduzione senza potenze fuori dalla tabella, doppia scrittura nella tabella introduttiva, tabella di 24 prefissi conservata, dieci quesiti, assenza del percorso metro.jpg nella bozza. Verificati con aritmetica decimale esatta risultati e inverse delle conversioni, fattori quadrati/cubici e densità, più coerenza numerica dei nuovi quesiti. Formule e procedura rilette per esponenti, unità di riferimento comune e trattamento del denominatore. Nessun SVG o HTML modificato; nessuna nuova prova browser o build necessaria. Master corrente v69.7 invariato. Rileggere i quattro Markdown sul ramo dopo il salvataggio; PR #65 in bozza, nessun merge/deployment.
+
+## Registrazione delle regole — master v69.8
+
+Alla domanda «Okay, ma hai registrato le regole?» verificato che le indicazioni correnti erano già presenti nello stato e nella progettazione del capitolo, mentre il master generale era ancora v69.7.
+
+Integrate nelle sezioni pertinenti di MASTER_PROMPT.md v69.8 le regole riutilizzabili: A2 distingue la prevalenza dello stile discorsivo dall'obbligo di rendere tutto narrativo; A4 richiede formule generali riconoscibili con simboli definiti, procedure esplicite quando necessarie e scelte di notazione guidate da contesto e progressione, con fattori in potenze quando spiegano il metodo e decimali utili all'interpretazione. Evitate aggiunte in coda o regole specifiche del capitolo estese indiscriminatamente agli altri.
+
+Restano specifiche del capitolo 4, già registrate nella revisione v3: apertura senza potenze nel testo; tabella introduttiva con entrambe le scritture; formula dei prefissi e casi elevati a potenza; esempi anche con unità derivate; copertina nuova da fornire dall'utente e ritiro del metro. Bozza v3 invariata, da approvare.
+
+Master su main confrontato: ancora v69.7 con identico blob rispetto al ramo prima della modifica. Consolidata v69.8 sullo stesso ramo della PR #65; non è una modifica già integrata in main. Controllate le sole sezioni A2/A4 e l'intestazione, conservando le altre regole. Stato e master da rileggere dal commit remoto dopo il salvataggio. Nessuna modifica HTML, build o pubblicazione.
