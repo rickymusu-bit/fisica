@@ -1,6 +1,6 @@
 # Gli strumenti di misura
 
-[EDITORIALE — Bozza v3, 23 ottobre 2026. Testo da approvare; visuali concordate con «Ok». I segnaposto descrivono i materiali da integrare dopo l'approvazione del testo. Area: Introduzione alla fisica e alla misura.]
+[EDITORIALE — Bozza v4, 23 ottobre 2026. Testo da approvare; visuali concordate con «Ok». I segnaposto descrivono i materiali da integrare dopo l'approvazione del testo. Area: Introduzione alla fisica e alla misura.]
 
 [COP-06 — Fotografia scelta dall'utente: Ytterbium Lattice Double Clock with Photons at NIST.jpg. Intera, senza ritagli o zoom, non ripetuta nel corpo.]
 
@@ -80,13 +80,15 @@ L'**accuratezza** riguarda proprio questa vicinanza. Le letture della serie B so
 
 Portata adatta, risposta sufficientemente rapida e lettura fine ci aiutano quindi a misurare. Per valutare il risultato dobbiamo anche controllare la procedura e confrontare lo strumento con riferimenti attendibili. L'ultima cifra del display è solo una parte di questa informazione.
 
-## Cambiare una proprietà alla volta
+## Pesetti e proprietà dello strumento
 
-La bilancia virtuale permette di scegliere una massa campione nota e confrontare ciò che indica lo strumento con ciò che ci aspettiamo. Prima di cambiare una regolazione, prova a prevedere l'effetto: un passo più grande renderà più fine la lettura? Uno strumento più lento avrà già raggiunto l'indicazione finale quando registri il numero?
+La bilancia virtuale ha a disposizione pesetti di masse differenti. Aggiungili al piatto, uno alla volta, e confronta la massa totale caricata con l'indicazione. Prima di registrare una lettura, prova a prevedere che cosa accadrà: un carico maggiore della portata sarà misurabile? Se il passo leggibile aumenta, il display distinguerà ancora gli stessi cambiamenti?
 
-[SIM-06 — Bilancia virtuale con portata, risoluzione, prontezza e sensibilità regolabili; controlli separati per zero spostato e disturbi casuali. Massa campione nota, lettura e tabella. Pannello del segnale del sensore per la sensibilità: aumentando S aumenta il segnale per la stessa massa, non la massa stessa. Specifica in simulazione.md; nessun codice ancora realizzato.]
+[SIM-06 — Bilancia con pesetti selezionabili e rimovibili, di masse proposte 10 g, 20 g, 50 g, 100 g e 200 g; massa totale nota. Sotto la bilancia, slider per portata, risoluzione, prontezza e sensibilità del sensore; controlli distinti per zero e disturbi. Specifica in simulazione.md. Immagini pertinenti della bilancia e dei pesetti da acquisire con diritti verificati; nessun codice ancora realizzato.]
 
-Modifica una sola proprietà, registra una lettura e confrontala con la precedente. Quando cambia la configurazione, inizia una nuova serie: mescolare misure ottenute con impostazioni diverse nasconderebbe proprio l'effetto che vuoi osservare. I valori sono simulati; la fotografia identifica lo strumento, senza documentare una prova reale.
+Cambia una proprietà alla volta con gli slider sotto la bilancia e osserva la risposta. Un passo più grande produce cambiamenti più grossolani; una risposta lenta richiede di aspettare. Il pannello del segnale del sensore permette di distinguere la sensibilità dalla massa indicata: un segnale più grande per la stessa massa non significa che il pesetto sia diventato più pesante.
+
+Registra le letture e confrontale mantenendo fisse le altre condizioni. Se cambi le impostazioni, inizia una nuova serie: così puoi attribuire le differenze alla proprietà che stai esplorando. I dati sono simulati e non documentano una prova reale.
 
 ## Domande di verifica
 
@@ -122,3 +124,7 @@ COP-06: [Ytterbium Lattice Double Clock with Photons at NIST.jpg](https://common
 ### Due simulazioni richieste — bozza v3
 
 L'utente richiede una versione per le proprietà nel capitolo 6 e una a proprietà fisse per errore e incertezza nel 7. Inseriti attività narrativa, segnaposto e quesito finale coerente; i quesiti originali pertinenti restano integralmente conservati. Progettazione in [simulazione.md](simulazione.md). Nessun codice, nuovo HTML o elaborazione delle immagini. La richiesta definisce la distinzione fra le due versioni; i dettagli proposti e il testo aggiornato sono da revisionare prima della stima consolidata e del via alla realizzazione.
+
+### Interfaccia richiesta — bozza v4
+
+Bilancia con pesetti di masse differenti e slider sotto lo strumento, su richiesta dell'utente. Descrizione e segnaposto aggiornati; parametri numerici proposti nella specifica, non ancora realizzati. Le immagini pertinenti dei pesetti sono da acquisire con diritti verificati, senza ricerche o generazioni autonome. Media e semidispersione trasferite nel capitolo 7 per successiva indicazione esplicita; nessuna modifica al testo teorico del 6 necessaria.

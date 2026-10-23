@@ -1,6 +1,6 @@
 # Errori e incertezza di misura
 
-[EDITORIALE — Bozza v3, 23 ottobre 2026. Testo da approvare; visuali concordate con «Ok». Area: Introduzione alla fisica e alla misura.]
+[EDITORIALE — Bozza v4, 23 ottobre 2026. Testo da approvare; visuali concordate con «Ok». Area: Introduzione alla fisica e alla misura.]
 
 [COP-07 — Fotografia scelta dall'utente: TV noise.jpg. Intera, senza ritagli o zoom, non ripetuta nel corpo.]
 
@@ -12,7 +12,7 @@ Un cronometro mostra 2,40 s. Ripetendo la misura della durata di uno stesso even
 
 La misura coinvolge lo strumento, il modo in cui lo usiamo e le condizioni della prova. Per separare questi contributi conviene distinguere due situazioni: le letture possono disperdersi in modo imprevedibile, oppure risultare spostate in modo simile rispetto a un riferimento. Le due cose possono anche accadere insieme.
 
-[SCH-07-1 — Schema concordato con foto originale del cronometro, conservata intera e senza cambiare le cifre del display. Etichette esterne: “Evento di cui si misura la durata”; “Valore attribuito: 2,40 s”; “Incertezza assegnata: 0,09 s”; “Riferimento indipendente: 2,50 s”. Dati illustrativi. Nessun secondo dispositivo inventato. Le etichette descrivono l'esempio, non una misura documentata dalla fotografia. Collocare prima dei calcoli; richiamare lo stesso schema lungo la spiegazione.]
+[SCH-07-1 — Schema concordato con foto originale del cronometro, conservata intera e senza cambiare le cifre del display. Etichette esterne: “Evento di cui si misura la durata”; “Valore attribuito: 2,40 s”; “Incertezza didattica stimata: 0,09 s”; “Riferimento indipendente: 2,50 s”. Dati illustrativi. Nessun secondo dispositivo inventato. Le etichette descrivono l'esempio, non una misura documentata dalla fotografia. Collocare prima dei calcoli; richiamare lo stesso schema lungo la spiegazione.]
 
 *Il risultato e il riferimento descrivono la durata dello stesso evento. Lo schema raccoglie i dati illustrativi usati nel confronto.*
 
@@ -38,6 +38,54 @@ Il gruppo B mostra perché una serie precisa può essere poco accurata. Aggiunge
 
 Nel gruppo C, invece, le letture sono disperse, pur essendo distribuite attorno al riferimento. La dispersione è un'informazione utile, ma non basta per ricostruire ogni contributo alla misura. Per questo un risultato deve comunicare anche quanto è incerto.
 
+## Dalle letture alla media e alla semidispersione
+
+Ripetiamo cinque volte la misura della durata di un evento nelle stesse condizioni, avviando e fermando a mano il cronometro. I tempi della tabella sono inventati per l'esempio: permettono di ragionare su una serie di letture senza presentarli come risultati di un esperimento realmente eseguito. Il passo visualizzato dal cronometro è 0,01 s.
+
+[TAB-07-2 — Tabella originale delle cinque letture, trasferita dalla sezione #incertezza del sorgente storico.]
+
+| Prova | 1 | 2 | 3 | 4 | 5 |
+| --- | --- | --- | --- | --- | --- |
+| Tempo (s) | 2,31 | 2,37 | 2,40 | 2,43 | 2,49 |
+
+Per ricavare un valore centrale calcoliamo la **media aritmetica**: sommiamo le letture e dividiamo per il loro numero. Se le letture sono \(t_1,\ldots,t_n\) e il loro numero è \(n\), scriviamo:
+
+\[
+\bar t=\frac{t_1+\ldots+t_n}{n}
+\]
+
+Il simbolo \(\bar t\), “t medio”, indica il risultato. Il numero \(n\) conta le letture e non ha unità: la media mantiene l'unità dei tempi. Per i cinque valori della tabella:
+
+\[
+\bar t=\frac{2{,}31+2{,}37+2{,}40+2{,}43+2{,}49}{5}\,\mathrm{s}=2{,}40\,\mathrm{s}
+\]
+
+Una media non descrive però quanto sono sparse le letture. La **semidispersione massima**, che indichiamo con \(d\), è metà della differenza fra il valore più alto e quello più basso:
+
+\[
+d=\frac{t_{\max}-t_{\min}}{2}
+\]
+
+I simboli \(t_{\max}\) e \(t_{\min}\) indicano gli estremi della serie. Se la distanza fra massimo e minimo raddoppia, anche \(d\) raddoppia. Per i dati della tabella:
+
+\[
+d=\frac{2{,}49-2{,}31}{2}\,\mathrm{s}=0{,}09\,\mathrm{s}
+\]
+
+La media è quindi 2,40 s, mentre l'intervallo fra le letture estreme è largo 0,18 s: la semidispersione ne è la metà. I 0,09 s sono nove volte il passo di 0,01 s del display. In questo caso la variabilità delle prove è più evidente del limite rappresentato dall'ultima cifra.
+
+[GRAF-07-2 — Linea dei numeri originale della sezione #incertezza: cinque letture, media 2,40 s, estremi 2,31 s e 2,49 s; indicare d = 0,09 s come metà dell'ampiezza fra gli estremi. Trasferire il grafico senza il vecchio separatore puntiforme nel titolo. Distinto dal grafico interattivo della bilancia.]
+
+*I punti rappresentano le cinque letture. La fascia va dal minimo al massimo; il tratto della media, in questo esempio simmetrico, cade a metà.*
+
+Per calcolare queste due quantità:
+1. Scrivi le letture nella stessa unità e conta quante sono.
+2. Sommale e dividi per il loro numero per trovare la media.
+3. Individua massimo e minimo, sottrai il minimo dal massimo e dividi per due.
+4. Conserva i valori non arrotondati fino alla scrittura del risultato finale.
+
+La semidispersione descrive gli estremi osservati, non la distanza fra la media e ciascun estremo. Qui i dati sono simmetrici, ma non accade in ogni serie. Ripetere aiuta a vedere la dispersione; non rivela da solo uno zero spostato o un ritardo che si ripete nello stesso modo.
+
 ## Che cosa significa il segno ±?
 
 Dire soltanto “2,40 s” lascia aperta una domanda: con quale incertezza attribuiamo quel valore alla durata? L'**incertezza di misura** descrive la dispersione dei valori che possiamo attribuire alla grandezza sulla base delle informazioni disponibili. Per valutarla si considerano lo strumento, il metodo, le condizioni e, quando ci sono, le letture ripetute.
@@ -50,26 +98,32 @@ x=x_{\mathrm m}\pm U
 
 Il simbolo \(x\) indica la grandezza misurata; \(x_{\mathrm m}\) è il valore attribuito e \(U\) l'incertezza assoluta dichiarata, espressa nella stessa unità. Il segno ± indica un'estensione di ampiezza \(U\) da entrambi i lati del valore riportato. L'incertezza non dice da sola quanto siamo lontani da un riferimento.[^1]
 
-Nel nostro esempio assegniamo, a scopo illustrativo, un'incertezza di 0,09 s al valore 2,40 s:
+Nel metodo scolastico semplificato usiamo la maggiore fra la semidispersione (d) e il passo leggibile (q) come stima didattica dell'incertezza:[^2]
+
+\[
+U_{\mathrm{did}}=\max(d,q)
+\]
+
+La scrittura \(\max(d,q)\) significa “scegli il maggiore fra i due”. Se le letture coincidono e \(d=0\), il passo dello strumento continua a limitare la lettura. Per la tabella, 0,09 s è maggiore di 0,01 s: scegliamo quindi 0,09 s e scriviamo:
 
 \[
 t=(2{,}40\pm0{,}09)\,\mathrm{s}
 \]
 
-Questa scrittura associa al valore riportato un intervallo da 2,31 s a 2,49 s. Il numero 0,09 s è un dato dell'esempio: non lo stiamo ricavando dal passo del cronometro o da una serie di prove. Un display che mostra 0,01 s non autorizza ad assegnare automaticamente un'incertezza di 0,01 s, perché lascia fuori il contributo dell'operatore e le altre condizioni.
+Questa scrittura associa al valore medio un intervallo da 2,31 s a 2,49 s, che in questo esempio coincide con gli estremi osservati. In una serie asimmetrica la fascia centrata sulla media e l'intervallo minimo–massimo possono essere diversi. Il display da solo non basta a stabilire l'incertezza: dobbiamo considerare anche come sono state effettuate le misure.
 
 [TAB-07-1 — Prospetto concordato: valore attribuito, incertezza, riferimento ed errore. L'ultima riga anticipa il confronto spiegato nella sezione seguente.]
 
 | Informazione | Valore nell'esempio | Che cosa comunica |
 | --- | --- | --- |
-| Valore attribuito alla durata | 2,40 s | Il valore riportato come risultato |
-| Incertezza assoluta assegnata | 0,09 s | L'estensione dell'incertezza dichiarata |
+| Valore medio della durata | 2,40 s | Il valore centrale riportato come risultato |
+| Incertezza didattica stimata | 0,09 s | Il maggiore fra semidispersione e passo leggibile |
 | Riferimento indipendente | 2,50 s | Il valore con cui confrontare il risultato |
 | Errore con segno | −0,10 s | Quanto il risultato è sotto il riferimento |
 
 ## Quanto ci siamo spostati dal riferimento?
 
-Per calcolare un **errore di misura** serve un valore di riferimento. Supponiamo che un sistema indipendente e più affidabile attribuisca allo stesso evento la durata di 2,50 s. Possiamo allora confrontarla con i nostri 2,40 s. I due numeri riguardano la stessa grandezza e sono espressi nella stessa unità.
+Per calcolare un **errore di misura** serve un valore di riferimento. Supponiamo che un sistema indipendente e più affidabile attribuisca allo stesso evento la durata di 2,50 s. Possiamo allora confrontarla con i nostri 2,40 s. I due numeri riguardano la stessa grandezza e sono espressi nella stessa unità. Il valore che confrontiamo con il riferimento è ora la media delle cinque letture.
 
 L'errore con segno è la differenza fra il valore attribuito e quello di riferimento:
 
@@ -119,52 +173,50 @@ Per eseguire un confronto di questo tipo:
 3. Prendi il valore assoluto per esprimere l'entità dello scarto.
 4. Dividi per il valore assoluto del riferimento non nullo e, se serve, esprimi il rapporto in percento.
 
-L'errore assoluto dell'esempio, 0,10 s, è un po' maggiore dell'incertezza assegnata, 0,09 s. Il riferimento cade appena fuori dall'intervallo dichiarato: è un motivo per ricontrollare come abbiamo valutato la misura e quali contributi abbiamo considerato. Non basta da solo a identificare uno specifico errore sistematico.
+L'errore assoluto dell'esempio, 0,10 s, è un po' maggiore della stima didattica dell'incertezza, 0,09 s. Il riferimento cade appena fuori dall'intervallo dichiarato: è un motivo per ricontrollare come abbiamo valutato la misura e quali contributi abbiamo considerato. Non basta da solo a identificare uno specifico errore sistematico.
 
 Se invece mancasse il riferimento, non potremmo eseguire quella sottrazione né calcolare l'errore percentuale effettivo. Potremmo comunque stimare l'incertezza usando ciò che sappiamo dello strumento e della procedura. È questa la differenza fra le due domande: “di quanto differisce dal riferimento?” e “con quale incertezza attribuiamo questo valore alla grandezza?”.
 
-## Misurare con lo stesso strumento
+## Una massa nota e una massa da misurare
 
-Nella bilancia virtuale le caratteristiche restano fisse. Puoi effettuare fino a cinque letture dello stesso campione, attendere che ciascuna si stabilizzi e sceglierne una come risultato. Confrontare le letture permette di osservare se sono raccolte o disperse; per questa attività non ne calcoliamo la media.
+La bilancia virtuale ha proprietà fisse, riportate nella scheda dello strumento. Sono disponibili due campioni: uno ha una massa di riferimento nota, l'altro una massa da determinare. Per ciascuno puoi effettuare misure ripetute e registrare le letture in una serie separata.
 
-[SIM-07 — Versione a proprietà fisse della bilancia virtuale: portata 500 g, passo 1 g, risposta circa 1 s simulato. Campione di riferimento inizialmente nascosto; scheda dell'incertezza e successivo confronto. Specifica e parametri interni in simulazione.md; nessun codice ancora realizzato.]
+[SIM-07 — Bilancia a proprietà fisse con campione A di riferimento 100 g e campione B di massa ignota; portata 500 g, passo 1 g, sensibilità del sensore dichiarata e non regolabile. Dati del modello simulati. Sotto la bilancia, grafico a punti delle letture, media e confronto con il riferimento per A; media, semidispersione e fascia ±U per B. Dettagli in simulazione.md; nessun codice ancora realizzato.]
 
-Prima di conoscere il riferimento, apri la scheda di valutazione: per l'attività viene assegnata un'incertezza U = 3 g. Usa la lettura selezionata per scrivere il risultato con ±U e indicare l'intervallo corrispondente. I 3 g non derivano automaticamente dal passo del display o dalle cinque letture: sono un dato dichiarato di questa simulazione.
+Misura più volte la massa nota e calcola la media delle letture. Confrontandola con il riferimento puoi stimare l'errore del risultato medio; ogni singolo punto mostra invece una singola lettura. Lo scarto della media dal riferimento e la dispersione dei punti sono informazioni diverse: una serie può essere raccolta ma spostata.
 
-Solo dopo mostra la massa di riferimento e calcola l'errore con segno, il suo valore assoluto e la percentuale. Confronta errore e incertezza: quale richiedeva il riferimento? Infine osserva la spiegazione dello zero spostato prevista dal modello e chiediti se altre letture avrebbero potuto eliminarlo.
+Passa poi al campione ignoto. Calcola la media e la semidispersione, confronta quest'ultima con il passo leggibile e usa il criterio didattico appena descritto per proporre un'incertezza. Scrivi il risultato come valore medio ± incertezza, in grammi. Per questa attività la bilancia è regolata sullo zero; se il controllo con la massa nota suggerisce uno spostamento persistente, occorre controllare lo strumento prima di fidarsi della sola dispersione.
+
+Il grafico sotto la bilancia mostra come si distribuiscono le letture. Per la massa nota puoi visualizzare riferimento, media e segmento dell'errore; per quella ignota, media e fascia dell'incertezza. Gli estremi osservati servono a leggere la semidispersione, mentre la fascia ±U è centrata sul valore medio: non sono necessariamente lo stesso intervallo. La massa nascosta non compare nel grafico, perché non la conosceresti durante una misura reale.
 
 ## Domande di verifica
 
 1. Nell'infografica dei bersagli, quale gruppo di punti è preciso ma poco accurato? Spiega con le parole “dispersione” e “riferimento”.
 2. Se non conosci il valore di riferimento, puoi calcolare l'errore percentuale effettivo? Puoi comunque stimare l'incertezza? Motiva.
-3. Vero o falso? «Ripetere molte volte una misura elimina anche uno zero spostato dello strumento». Spiega usando la bilancia.
-4. Confronta una variazione imprevedibile nell'avvio del cronometro, uno zero spostato della bilancia e una trascrizione errata: a quale categoria appartiene ciascun caso e quale controllo sarebbe utile?
-5. Che cosa significano i due numeri nella scrittura \(t=(2{,}40\pm0{,}09)\,\mathrm{s}\)? Perché non possiamo leggere automaticamente 0,09 s come l'errore effettivo?
-6. Nel confronto dell'esempio, l'errore è −0,10 s. Che cosa comunica il segno meno? Quale informazione si perde passando al valore assoluto?
-7. A parità di errore assoluto, se il valore di riferimento raddoppia, come cambia l'errore relativo? Motiva usando la formula.
-8. Nella simulazione, perché puoi usare la scheda dell'incertezza prima di conoscere il riferimento, mentre per calcolare l'errore devi mostrarlo? Spiega anche perché ripetere la misura non elimina uno zero spostato.
+3. Ricava dalla tabella la media e la semidispersione; poi spiega perché un display che mostra 0,01 s non basta a dichiarare un'incertezza di 0,01 s.
+4. Vero o falso? «Ripetere molte volte una misura elimina anche uno zero spostato dello strumento». Spiega usando la bilancia.
+5. Confronta una variazione imprevedibile nell'avvio del cronometro, uno zero spostato della bilancia e una trascrizione errata: a quale categoria appartiene ciascun caso e quale controllo sarebbe utile?
+6. Che cosa significano i due numeri nella scrittura \(t=(2{,}40\pm0{,}09)\,\mathrm{s}\)? Perché non possiamo leggere automaticamente 0,09 s come l'errore effettivo?
+7. Nel confronto dell'esempio, l'errore è −0,10 s. Che cosa comunica il segno meno? Quale informazione si perde passando al valore assoluto?
+8. A parità di errore assoluto, se il valore di riferimento raddoppia, come cambia l'errore relativo? Motiva usando la formula.
+9. Nella simulazione, quale confronto puoi fare per la massa nota che non puoi fare per quella ignota? Spiega come media, semidispersione e passo leggibile entrano invece nella stima dell'incertezza della massa ignota.
 
 ## Note
 
 [^1]: Il significato preciso dell'intervallo dipende da come è stata valutata e dichiarata l'incertezza. Il simbolo ± non garantisce da solo che il valore della grandezza sia certamente compreso fra i due estremi.
+
+[^2]: La regola del maggiore fra semidispersione e passo è una stima scolastica, non un calcolo generale dell'incertezza. Può lasciare fuori taratura, ambiente e altri contributi sistematici; non attribuisce una probabilità all'intervallo e non garantisce che contenga il valore di riferimento.
 
 ---
 
 ## Servizio editoriale — provenienza e verifiche
 
 Questa sezione non appartiene al contenuto didattico visibile dell'HTML.
-Fonte: `strumenti_errori_incertezza_it.html` v7, blob `1d65637b40f2af68e1e1ff55c7d1710259b6087b`, sezioni #errori e #confronto.
-Quesiti originali 5 e 7 conservati integralmente come quesiti 1 e 2; aggiunti 3–8. Originali 1–4 al capitolo 6, originale 6 riservato all'8.
-Conservati valori del confronto originale: 2,40 s, 2,50 s, −0,10 s, 0,04, 4%. Il risultato e U = 0,09 s sono assegnati per rendere il capitolo autonomo: nessun calcolo di media, semidispersione o stima complessiva dell'incertezza. I dati sono illustrativi, non misure realmente effettuate.
-La comparazione |e| > U invita al controllo e non dimostra da sola un errore sistematico. Non viene attribuita una probabilità all'intervallo; la valutazione dell'incertezza del riferimento non è sviluppata in questo esempio introduttivo.
-Riferimenti terminologici da associare ai crediti dell'HTML: JCGM 200:2012 (VIM), voci 2.16–2.20 e 2.26; JCGM 100:2008 (GUM); https://www.bipm.org/en/committees/jc/jcgm/publications . Indicazioni bibliografiche, non nuova verifica web.
-Diritti delle foto e dei bersagli storici ancora da verificare nel registro e sulle fonti. Schema del cronometro descritto dal segnaposto, non ancora realizzato; nessuna immagine generata o alterata.
-Impostazione visuale concordata con «Ok» nella PR #72. Testo v1 da approvare; nessun HTML, simulazione, merge o deployment avviato.
-
-### Copertina scelta dall'utente — bozza v2
-
-COP-07: [TV noise.jpg](https://commons.wikimedia.org/wiki/File:TV_noise.jpg); autore Mysid. Stato dei diritti verificato nella pagina Commons: Pubblico dominio per dichiarazione dell'autore (PD-self). [URL esatto fornito](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/TV_noise.jpg/1920px-TV_noise.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail). Nessuna modifica richiesta: usare l'immagine intera, senza zoom; acquisizione e incorporamento del file nella fase HTML autorizzata. La copertina sostituisce la proposta del sismografo, che resta nel sorgente storico. Testo didattico invariato salvo la didascalia. La fotografia è descritta dalla scheda originale, senza dedurre prestazioni quantitative o cause fisiche non documentate.
-
-### Due simulazioni richieste — bozza v3
-
-L'utente richiede una versione per le proprietà nel capitolo 6 e una a proprietà fisse per errore e incertezza nel 7. Inseriti attività narrativa, segnaposto e quesito finale coerente; i quesiti originali pertinenti restano integralmente conservati. Progettazione in [simulazione.md](simulazione.md). Nessun codice, nuovo HTML o elaborazione delle immagini. La richiesta definisce la distinzione fra le due versioni; i dettagli proposti e il testo aggiornato sono da revisionare prima della stima consolidata e del via alla realizzazione.
+Bozza v4. Ultima richiesta: «No allora metti media e semi dispersione nel cap 7». Trasferiti qui i contenuti sulle misure ripetute, superando il precedente rinvio all'8: tabella e grafico originali delle cinque letture, media, semidispersione e regola scolastica del maggiore fra semidispersione e passo. Eliminato il capitolo autonomo sulle misure ripetute; piano aggiornato a undici capitoli, con i successivi rinumerati.
+Fonte: strumenti_errori_incertezza_it.html v7, blob 1d65637b40f2af68e1e1ff55c7d1710259b6087b, sezioni #errori, #incertezza e #confronto. Quesiti originali 5, 7 e 6 conservati integralmente come domande 1, 2 e 3; 1–4 al capitolo 6. Totale nove quesiti nel 7.
+Conservati i dati illustrativi originali: tempi 2,31 / 2,37 / 2,40 / 2,43 / 2,49 s; media 2,40 s; d = 0,09 s; q = 0,01 s; riferimento 2,50 s; errore −0,10 s; rapporto 0,04 e percentuale 4%. La stima dell'incertezza del cronometro è ora ricavata con il metodo scolastico descritto, non assegnata.
+Verificare che il grafico distingua min–max, semidispersione, fascia centrata sulla media ed errore rispetto al riferimento; non imporre una distribuzione simmetrica alle nuove letture simulate. La regola U_did = max(d,q) è dichiarata didattica e non universale.
+SIM-07 aggiornata alla richiesta di massa nota, massa ignota e grafico sotto la bilancia. Parametri numerici proposti nella specifica; un eventuale errore nullo della media resta valido. Bilancia regolata sullo zero nel modello corrente; nessun riferimento nascosto B visibile nei controlli o nel grafico.
+Riferimenti terminologici da associare ai crediti: JCGM 200:2012 (VIM) e JCGM 100:2008 (GUM), https://www.bipm.org/en/committees/jc/jcgm/publications . La regola scolastica è ripresa dal sorgente storico, non attribuita a questi documenti come procedura generale.
+COP-07 scelta dall'utente: [TV noise.jpg](https://commons.wikimedia.org/wiki/File:TV_noise.jpg), Mysid, pubblico dominio per dichiarazione dell'autore (PD-self), verificato nella pagina Commons. Usare l'immagine intera, senza ritagli o zoom. URL esatto fornito conservato in visuali.md.
+Diritti delle foto del corpo e dei bersagli storici ancora da verificare; l'utente intende fornire immagini sostitutive con licenza. Copertina scelta e impostazione delle due attività autorizzate; testo aggiornato e dettagli del modello da revisionare. Nessun codice, HTML, merge o deployment avviato.

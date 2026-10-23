@@ -41,3 +41,9 @@ Richiesta «Facciamo i capitoli 6 e 7»; ramo `lavorazione/strumenti-errori-ince
 Mappa: `#strumenti` e `#caratteristiche` → [Gli strumenti di misura](../strumenti_misura/stato.md); `#errori` e `#confronto` → [Errori e incertezza di misura](../errori_incertezza_misura/stato.md); `#incertezza` (media e semidispersione) riservata al capitolo 8, non sviluppato ora. Quesiti finali ripartiti 1–4 / 5 e 7 / 6. Parallasse spiegata nel 6 e richiamata nel 7; bersagli destinati al 7.
 
 Proposte visuali pronte per scelta prima delle bozze. Licenze storiche non documentate da verificare; nessuna ricerca o generazione avviata. Nessun nuovo HTML, revisione del sorgente storico, aggiornamento pubblico o pubblicazione autorizzata.
+
+## Mappa aggiornata — capitolo unico per errore, ripetizioni e incertezza
+
+Ultima decisione: l'utente riunisce media, semidispersione e incertezza nel capitolo 7, insieme alle simulazioni richieste. Superata la precedente separazione 6–8.
+Mappa corrente: #strumenti e #caratteristiche → capitolo 6; #errori, #incertezza e #confronto → capitolo 7. La sezione originale #incertezza conserva media, tabella delle cinque letture, semidispersione e grafico, ora trasferiti nella bozza del 7. Tutti i quesiti originali assegnati: 1–4 al 6, 5–7 al 7. Eliminato il capitolo autonomo delle misure ripetute; percorso a undici capitoli con i successivi rinumerati.
+Bozze correnti v4, specifiche SIM-06/SIM-07 v2, PR #72. Nessuna modifica al sorgente storico, agli HTML tradotti, al manifest o al sito pubblico.

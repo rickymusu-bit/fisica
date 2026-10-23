@@ -1,9 +1,9 @@
 # Introduzione alla fisica e alla misura — piano editoriale
 
-Data del piano: 21/10/2026 (Europe/Rome). Stato aggiornato al 22/10/2026: primi due capitoli pubblicati; percorso in sviluppo. Le sezioni di progettazione conservano le decisioni iniziali, superate dagli avanzamenti finali dove specificato.
+Data del piano: 21/10/2026 (Europe/Rome). Indice aggiornato al 23/10/2026: primi cinque capitoli pubblicati; capitoli 6 e 7 in lavorazione. Le sezioni di avanzamento conservano la cronologia, superata dalle decisioni più recenti dove specificato.
 Fonte delle regole: MASTER_PROMPT.md v69.6, AGENTS.md, riferimenti/STILE_DISPENSE.md, riferimenti/esempio_irraggiamento.md.
 Macrocategoria approvata dall'utente: **Introduzione alla fisica e alla misura**.
-Approvati: 12 capitoli; proporzionalità inversa e quadratica nello stesso capitolo.
+Piano iniziale approvato: 12 capitoli, con proporzionalità inversa e quadratica insieme. Per richiesta corrente, misure ripetute, media, semidispersione e incertezza sono riunite nel capitolo 7: il percorso aggiornato comprende **11 capitoli**.
 Non ancora approvati: revisione dello schema del metodo scientifico, bozze dei singoli capitoli, conversioni HTML, pubblicazione. Simulazione semplice del piano inclinato approvata dall'utente il 22/10/2026: 2–3 inclinazioni predefinite, pallina che parte da ferma, stessa lunghezza del percorso, cronometro e tabella risultati; senza attrito regolabile o grafici del moto.
 
 ## Indice editoriale concordato
@@ -14,12 +14,11 @@ Non ancora approvati: revisione dello schema del metodo scientifico, bozze dei s
 4. I prefissi del Sistema internazionale — sezione «I prefissi del SI» dello stesso sorgente.
 5. Le cifre significative — sezione omonima, conteggio, arrotondamento e regole di calcolo dello stesso sorgente.
 6. Gli strumenti di misura — «Analogico o digitale?» e «Che cosa chiedere a uno strumento», incluse portata, prontezza, risoluzione, sensibilità, precisione e accuratezza, di strumenti_errori_incertezza_it.html.
-7. Errori e incertezza di misura — «Perché le misure cambiano o si spostano» e «Errore e incertezza: due domande diverse» dello stesso sorgente.
-8. Le misure ripetute — «Da cinque letture a un risultato», con media e semidispersione; chiarire che questa non rappresenta automaticamente tutta l'incertezza, dello stesso sorgente.
-9. Il piano cartesiano e i grafici — «Due grandezze, una coppia di coordinate» e l'interazione «Trascina P» di grafici_piano_cartesiano_it.html.
-10. La proporzionalità diretta — «Dalle proporzioni alla retta» dello stesso sorgente.
-11. Le relazioni lineari — «Intercetta e pendenza: rette diverse» dello stesso sorgente.
-12. Le relazioni non lineari — «Proporzionalità inversa» e «Relazione quadratica» dello stesso sorgente.
+7. Errori e incertezza di misura — «Perché le misure cambiano o si spostano», «Da cinque letture a un risultato» ed «Errore e incertezza: due domande diverse» dello stesso sorgente. Percorso unico con misure ripetute, media, semidispersione e stima dell'incertezza; chiarire che la dispersione non rappresenta automaticamente tutta l'incertezza.
+8. Il piano cartesiano e i grafici — «Due grandezze, una coppia di coordinate» e l'interazione «Trascina P» di grafici_piano_cartesiano_it.html.
+9. La proporzionalità diretta — «Dalle proporzioni alla retta» dello stesso sorgente.
+10. Le relazioni lineari — «Intercetta e pendenza: rette diverse» dello stesso sorgente.
+11. Le relazioni non lineari — «Proporzionalità inversa» e «Relazione quadratica» dello stesso sorgente.
 
 ## Criteri trasversali
 
@@ -183,3 +182,13 @@ L'utente sceglie esplicitamente Ytterbium Lattice Double Clock with Photons at N
 ### Capitoli 6 e 7 — due versioni della simulazione
 
 L'utente richiede una simulazione nel capitolo 6 per sperimentare le proprietà dello strumento e una nel 7 con proprietà fisse per studiare errore e incertezza. Predisposte le specifiche [SIM-06](../strumenti_misura/simulazione.md) e [SIM-07](../errori_incertezza_misura/simulazione.md); bozze v3 con attività, segnaposto e un quesito finale aggiornato, mantenendo i quesiti originali pertinenti. Bilancia virtuale condivisa: regolazioni nel 6; misure, U assegnata e riferimento rivelato successivamente nel 7. Media e semidispersione restano all'8. Parametri numerici proposti, carico basso, stima preliminare 90–150 min per entrambe. Nessun codice o HTML avviato: testo aggiornato da revisionare prima del via. L'utente intende fornire immagini sostitutive con licenza; copertine scelte confermate.
+
+### Capitoli 6 e 7 — pesetti, grafico e contenuti dell'incertezza riuniti
+
+L'utente definisce SIM-06 come bilancia con pesetti di masse differenti e slider sotto lo strumento; SIM-07 come bilancia a proprietà fisse, serie ripetute di una massa nota per stimare l'errore e di una ignota per stimare l'incertezza, con grafico sotto la bilancia. Aggiunge «metti media e semi dispersione nel cap 7» e chiarisce «Non ha senso separare incertezza, media e dispersione».
+
+Decisione applicata: eliminato il capitolo separato sulle misure ripetute; il 7 riunisce teoria, tabella/grafico originali, media, semidispersione, incertezza ed errore. Indice aggiornato a undici capitoli; Piano cartesiano → 8, Proporzionalità diretta → 9, Relazioni lineari → 10, Non lineari → 11. I precedenti rinvii all'8 nei resoconti storici sono superati. Nessun URL pubblicato, catalogo o manifest modificato.
+
+Bozze v4 e specifiche v2: massa nota con riferimento e scarto della media; massa ignota con media, semidispersione e stima scolastica U_did = max(d,q), non un valore assegnato. Il grafico distingue min–max, media, errore e fascia ±U; non rivela la massa ignota. Superato il precedente scenario con U = 3 g assegnata. Regola dichiarata didattica e non universale; zero regolato nel modello, controllo dei possibili sistematici e serie asimmetriche previsti.
+
+Quesiti storici tutti conservati: 1–4 nel 6, 5–7 nel 7; otto quesiti nel 6, nove nel 7. Copertine scelte invariate. Servono immagini pertinenti con licenza per bilancia, pesetti e campioni; nessuna ricerca o generazione avviata. Stima preliminare aggiornata 2–3 ore per entrambe le simulazioni, da consolidare dopo la revisione dei testi. Nessuna programmazione o realizzazione HTML, merge o pubblicazione ancora avviata.

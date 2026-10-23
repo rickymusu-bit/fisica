@@ -1,24 +1,22 @@
-# SIM-06 — Esplorare le proprietà dello strumento
-Versione v1 — 23 ottobre 2026. Progettazione richiesta dall'utente; nessun codice ancora realizzato.
+# SIM-06 — Bilancia con pesetti e proprietà regolabili
+Versione v2 — 23 ottobre 2026. Progetto aggiornato alla richiesta dell'utente; nessun codice realizzato.
 
-## Decisione e obiettivo
-L'utente richiede due versioni: nel capitolo 6 una simulazione per le proprietà, nel 7 una versione a proprietà fisse per errore e incertezza. Usare la stessa bilancia virtuale per rendere confrontabili le attività. L'alunno sceglie una massa campione, effettua una lettura e modifica una proprietà alla volta.
+## Interfaccia richiesta
+Bilancia al centro; vassoio di pesetti di masse differenti, identificati in grammi e aggiungibili/rimovibili singolarmente. Proposta di dotazione: 10 g, 20 g, 50 g, 100 g e 200 g, un esemplare per tipo. Somma delle masse realmente caricate sempre visibile per confrontarla con l'indicazione.
+Interazione con clic/tocco e comandi da tastiera; trascinamento eventualmente aggiuntivo, mai obbligatorio. Nessun oggetto astratto disegnato al posto della bilancia o dei pesetti: usare immagini pertinenti fornite/scelte dall'utente, con diritti verificati. Le immagini di bilancia e pesetti sono una dipendenza aperta, non un motivo per cercarle o generarle autonomamente.
 
-## Modello proposto
-Massa campione dichiarata, in grammi. Portate selezionabili 200 g / 500 g / 1000 g; passi visualizzati 1 g / 5 g / 10 g; risposta rapida o lenta (0,5 s / 2 s). Fuori portata: segnalazione esplicita e registrazione disabilitata, senza simulare danni.
-La lettura si avvicina progressivamente al valore di equilibrio; il comando registra anche il tempo trascorso e distingue una lettura anticipata da una stabilizzata. Zero spostato e piccole variazioni casuali attivabili separatamente, inizialmente assenti. Quantizzazione al passo selezionato dopo la risposta del sensore; valori e fenomeni sono simulati, non specifiche di una bilancia reale.
+Sotto la bilancia: slider etichettati, valore e unità correnti, passo discreto dichiarato. Portata 200/500/1000 g, passo leggibile 1/5/10 g, prontezza 0,5/1/2 s simulati; sensibilità del sensore 1/2/5 mV/g. Controlli separati per spostamento dello zero e intensità dei disturbi. Inizialmente zero e disturbi assenti.
+Definizione accanto allo slider: “Passo leggibile (risoluzione)”; eventuale uso scolastico di “sensibilità” per quel passo esplicitato, senza confonderlo con la sensibilità metrologica.
 
-Per la sensibilità: pannello secondario “Segnale del sensore”, con I in mV e S selezionabile 1 oppure 2 mV/g. Modello statico I = S · m; conversione digitale coerente m = I/S. Cambiando S il segnale raddoppia, mentre la massa indicata resta la stessa. Non moltiplicare semplicemente la massa mostrata per simulare una sensibilità maggiore. Spiegare brevemente che mV indica un segnale elettrico; nessuna elettrotecnica richiesta. Il pannello usa valori numerici, senza introdurre un nuovo grafico.
-L'offset viene applicato in grammi equivalenti; anche il rumore è espresso in grammi equivalenti e trasformato coerentemente nel segnale. A parità di risoluzione e rumore equivalente, aumentare S non garantisce da solo una misura migliore.
+## Modello e attività
+Massa totale come somma dei pesetti, confronto con la portata prima della lettura; fuori scala blocca Registra. Risposta temporale progressiva dichiarata didattica; registrazione distingue lettura anticipata e stabilizzata. Quantizzazione al passo selezionato dopo la risposta.
+Sensibilità: segnale del sensore I = S · m, espresso in mV; conversione digitale coerente m = I/S. Aumentare S cambia il segnale per la stessa massa, non moltiplica la massa indicata. Pannello numerico del segnale, senza conoscenze di circuiti richieste. Offset e disturbo applicati in grammi equivalenti e convertiti coerentemente nel segnale.
 
-## Comandi e attività
-Scegli campione, Appoggia / Rimuovi, Registra lettura, Azzera tabella, Ripristina. Parametri di portata, risoluzione, risposta e sensibilità modificabili; offset e disturbi in due controlli separati.
-Quando cambia la configurazione, aprire una nuova serie identificata senza mescolare letture con proprietà diverse. Campione e configurazione restano visibili. Tabella: campione, lettura, unità, stato stabilizzato/anticipato e configurazione.
-Attività: prevedere l'effetto, cambiare un parametro, registrare e confrontare. Precisione e accuratezza emergono confrontando letture raccolte o spostate rispetto alla massa nota.
-Usare la foto della bilancia scelta per il capitolo quando i diritti saranno verificati, senza inventare un nuovo oggetto geometrico. Controlli HTML e pannelli numerici costituiscono l'interfaccia; non alterare il display della fotografia.
+Attività: aggiungere pesetti, prevedere la lettura, variare una proprietà e osservare; confrontare portata e carico, cambiamenti a gradini, attesa, segnale, dispersione e spostamento. Ogni modifica di configurazione apre una nuova serie per evitare confronti ambigui.
+Comandi: aggiungi/rimuovi pesetto, svuota piatto, registra, azzera serie, ripristina. Tabella di letture con massa caricata, indicazione, configurazione e stato; nessun obbligo di grafico nel 6. Massimo 20 letture per serie.
 
-## Fattibilità e limiti
-JavaScript standard incorporato, offline, tastiera e smartphone, niente librerie o rete. Carico di calcolo basso; poche letture e aggiornamenti, massimo 20 registrazioni per serie. Riduzione del movimento: transizione mostrata con stato e valori temporizzati, senza effetti ornamentali. Tempo simulato dichiarato, mai usato come misura delle prestazioni del dispositivo dell'alunno.
-Modello intenzionalmente semplice; rumore sintetico e risposta didattica non riproducono una specifica bilancia commerciale.
-Stima preliminare con SIM-07: 90–150 minuti complessivi di lavoro, esclusa l'attesa delle immagini e delle risposte. Indicativamente 20–35 min modello, 30–45 min interfacce, 15–25 min integrazione e 25–45 min verifiche/salvataggio. Stima da consolidare dopo le bozze approvate e prima del via alla realizzazione secondo B1.1–B2.
-Questa decisione autorizza la progettazione e l'inserimento del segnaposto nella bozza; non sostituisce l'approvazione del testo e il via all'HTML. Nessuna programmazione avviata.
+## Fattibilità e verifica
+Codice standard incorporato, offline, mobile e tastiera; nessuna libreria, rete o caricamento scientifico esterno. Rispetto del movimento ridotto e niente animazioni ornamentali. Tempo simulato distinto dalle prestazioni del dispositivo.
+Verificare somme, rimozione singola, proprietà effettive degli slider, scala, unità, combinazioni fuori portata, risposta e reset. Modello semplice, dati sintetici, nessuna specifica commerciale implicita.
+Carico di calcolo basso. Stima preliminare aggiornata per entrambe le simulazioni: 2–3 ore complessive (25–40 min modello, 35–55 min interfacce e pesetti, 25–35 min grafico/integrazione, 35–50 min verifiche e salvataggio), esclusa attesa delle immagini e delle revisioni. Stima da consolidare dopo l'approvazione delle bozze prima del via all'HTML.
+La richiesta autorizza e definisce questa progettazione; dettagli numerici proposti, testo da revisionare, programmazione non avviata.

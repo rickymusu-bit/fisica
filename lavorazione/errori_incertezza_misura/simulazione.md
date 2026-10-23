@@ -1,27 +1,37 @@
-# SIM-07 — Misurare, dichiarare l'incertezza e confrontare il riferimento
-Versione v1 — 23 ottobre 2026. Progettazione richiesta dall'utente; nessun codice ancora realizzato.
+# SIM-07 — Due campioni, misure ripetute e distribuzione dei risultati
+Versione v2 — 23 ottobre 2026. Sostituisce il precedente scenario a un solo campione e U assegnata; nessun codice realizzato.
 
-## Decisione e confini
-Seconda versione della bilancia virtuale di SIM-06, con proprietà fisse. L'alunno effettua e registra misure dello stesso campione e studia errore e incertezza. Nessun controllo per modificare portata, risoluzione, sensibilità, prontezza o disturbi.
-Non calcolare media, semidispersione, deviazione standard o riduzione dell'incertezza con il numero di letture: appartengono al capitolo 8 o a sviluppi successivi.
+## Decisione dell'utente
+Bilancia con portata e sensibilità date, proprietà fisse. Due attività: misurare ripetutamente una massa nota per stimare l'errore e una massa ignota per stimare l'incertezza. Grafico sotto la bilancia per mostrare distribuzione dei punti, errore e incertezza.
+L'utente precisa: «No allora metti media e semi dispersione nel cap 7». Media e semidispersione entrano nel testo e nell'attività del 7; i contenuti dell'ex capitolo 8 sulle misure ripetute sono trasferiti qui. Il precedente capitolo autonomo sulle misure ripetute è eliminato: il piano passa a undici capitoli e i successivi diventano 8–11. Superati il divieto precedente di media e semidispersione, e lo scenario con U = 3 g assegnata.
 
 ## Modello proposto
-Scenario fisso: massa campione 100 g, inizialmente nascosta; portata 500 g, passo 1 g, sensibilità del sensore 1 mV/g e risposta in circa 1 s simulato. Offset +2 g e contributo casuale uniforme fra −1 g e +1 g, rinnovato a ogni misura e poi mantenuto per consentire una lettura stabile. Arrotondamento finale al grammo. Questi parametri sono dati del modello, non misure sperimentali reali.
-Proprietà d'uso visibili nella scheda dello strumento; offset effettivo e massa di riferimento nascosti prima del confronto. Il rumore produce letture stabilizzate di 101 g, 102 g oppure 103 g, senza cambiare lo strumento fra le prove.
-Ripristina riparte dallo stesso scenario e conserva le proprietà; nessun cambio casuale di offset o campione.
+Configurazione visibile e non modificabile: portata 500 g, passo leggibile q = 1 g, sensibilità del sensore S = 1 mV/g e risposta circa 1 s simulato. Chiarire che “sensibilità” nel linguaggio scolastico può indicare il passo, mentre qui distinguiamo i due concetti.
+Due campioni: A con riferimento dichiarato 100 g; B con massa interna 125 g, nascosta in interfaccia, tabelle e grafici. Nessun comando per rivelare il riferimento B o calcolare il suo errore effettivo.
+La bilancia è regolata sullo zero; modello senza offset sistematico residuo, con piccoli disturbi sintetici a media nulla. Un disturbo estratto per ogni acquisizione resta fermo fino alla nuova misura; si attende la risposta e si arrotonda al grammo. Ampiezza proposta ±3 g equivalenti. Non rigenerare un rumore “fortunato” per forzare un errore non nullo. Proprietà e massa B non cambiano passando da A a B o ripristinando.
+Questo modello limita l'attività all'incertezza da ripetibilità e lettura; la verifica A non dimostra in generale l'assenza di effetti sistematici su tutti i carichi.
 
-## Attività proposta
-1. Appoggiare il campione, attendere la stabilizzazione e registrare una lettura. Ripetere fino a cinque volte per osservare la dispersione.
-2. Scegliere una lettura come valore attribuito al risultato; non calcolare automaticamente una media. Domanda guidata: il passo di 1 g basta da solo a conoscere l'incertezza?
-3. Aprire la scheda di valutazione: U = 3 g, assegnata per questa attività sulla base dei contributi del modello. L'alunno scrive m = (m_m ± 3) g e indica gli estremi dell'intervallo. Distinguere esplicitamente l'incertezza assegnata dal passo di 1 g e dalla dispersione osservata. Non presentare U come una specifica di accuratezza del costruttore o una tolleranza automaticamente convertibile in incertezza.
-4. Mostrare il riferimento 100 g su comando. Calcolare errore con segno, valore assoluto, errore relativo ed errore percentuale sulla lettura selezionata; feedback solo dopo la risposta, conservando i tentativi.
-5. Confrontare U con |e| e leggere il significato dei due numeri. Rivelare il modello dello zero spostato: altre letture non cancellano i +2 g.
+## Protocollo
+- Selezionare A o B; rimuovere/riposizionare il campione a ogni nuova misura. Leggere e registrare, massimo 10 letture per serie, almeno 5 per il confronto guidato.
+- Serie separate e conservate al cambio campione; mostrare sempre unità e numero di letture. L'alunno inserisce le stime prima del feedback; disponibile un aiuto esplicito.
+- Per A: stimare il valore centrale con la media, confrontarlo con 100 g, calcolare e = media − riferimento; distinguere errore delle singole letture ed errore del valore medio. Valore assoluto e percentuale disponibili dopo la risposta.
+- Per B: stimare il valore centrale dalla media, osservare la dispersione e confrontarla con il passo leggibile. Nessun errore effettivo mostrato; non usare il riferimento A come se fosse il riferimento B.
 
-La scheda può assegnare U prima di conoscere il riferimento, mentre e richiede il riferimento: questo ordine è parte dell'attività. U = 3 g è un parametro didattico dichiarato, non un risultato ricavato dalle cinque letture e non una procedura generale di valutazione dell'incertezza. Nessuna probabilità o garanzia universale attribuita all'intervallo.
-Non far inferire l'offset esatto da una sola misura: il pannello finale rivela un dato interno del modello. Non alterare gli errori per garantire una risposta predeterminata.
+## Regola didattica proposta per l'incertezza
+Media = somma delle letture / numero di letture. Semidispersione d = (massimo − minimo)/2. L'alunno calcola entrambe per ciascuna serie; non sostituire la semidispersione con la massima distanza dalla media.
+Per la serie A l'errore del risultato è e = media − riferimento. Per B, criterio scolastico dichiarato U_did = max(q, d): la maggiore fra passo leggibile e semidispersione. L'alunno compila media, d e U, poi confronta con il suggerimento. Scrittura m = (media ± U_did) g, con arrotondamento finale coerente e senza arrotondare i passaggi intermedi.
+U_did è una stima didattica provvisoria nel modello con zero regolato, non una valutazione metrologica completa, una probabilità assegnata o una garanzia su letture future. La semidispersione dipende dalle prove raccolte, non è una proprietà fissa dello strumento. Letture coincidenti danno d = 0 ma non U = 0.
+La fascia centrata sulla media non coincide necessariamente con l'intervallo minimo–massimo: metà del range non è in generale la distanza dalla media agli estremi. Il grafico mostra entrambi senza sovrapporli semanticamente; non allargare artificialmente d per includere tutti i punti attorno alla media.
+Non equiparare automaticamente risoluzione e incertezza né applicare la regola a strumenti con effetti sistematici non controllati. Se A mostra uno spostamento persistente rispetto al riferimento, segnalare che occorre controllare lo strumento prima di fidarsi della stima per B.
 
-## Interfaccia e verifiche previste
-Stessa fotografia e componenti della versione 6, con configurazione bloccata. Comandi Misura, Registra, Scegli lettura, Scheda dell'incertezza, Mostra riferimento e Ripristina. Prima del riferimento non mostrare errore né “valore vero”; U distinta dall'errore anche nel feedback.
-Offline, tastiera e smartphone; evitare annunci continui per i lettori di schermo durante la stabilizzazione. Registro massimo cinque letture. Carico di calcolo basso. Verificare arrotondamento, unità, intervalli, feedback, stato nascosto/rivelato e assenza di modifiche alle proprietà.
+## Grafico sotto la bilancia
+Grafico a punti sulla scala delle masse: asse orizzontale massa indicata (g); punti sovrapposti verticalmente quando le letture coincidono, un punto per misura. La sovrapposizione è dichiarata “numero di letture allo stesso valore”, non una seconda grandezza fisica. Nessuna curva gaussiana aggiunta senza giustificazione.
+Due serie selezionabili e confrontabili con identica scala e unità, etichette A/B e simboli distinti; passare da una serie all'altra non cancella dati. Proposta di scala comune 90–140 g, espandibile soltanto se necessario e sempre uguale per entrambe.
+A: linea del riferimento, linea della media e segmento con segno per e. B: linea della media, estremi delle letture e fascia simmetrica ±U, con estremi numerici; etichetta separata per d come metà dell'ampiezza minimo–massimo. Per B il vero valore interno non deve apparire neppure come linea, titolo, suggerimento accessibile o valore di default di un campo.
+Punti grezzi, media e fascia U distinti per etichette e tratto, non solo colore. La fascia non è il min–max né una campana di probabilità. Esempio di letture asimmetriche obbligatorio nel controllo del grafico.
+Tabella numerica accessibile equivalente, descrizione del grafico aggiornata a ogni registrazione, tastiera, focus visibile e vista mobile con composizione invariata. Nessun asse o punto fittizio prima delle misure.
 
-Stima condivisa con SIM-06: 90–150 minuti; dipendenze e ripartizione in ../strumenti_misura/simulazione.md. Nessun costo o tempo di calcolo misurato dichiarato. La progettazione è richiesta; testo e via alla realizzazione restano da approvare. Nessun codice o HTML realizzato.
+## Risorse e verifica
+Stesse immagini pertinenti di bilancia e campioni, da fornire/scegliere e con diritti verificati; nessun dispositivo o pesetto sostituito con una sagoma astratta. Il grafico quantitativo sarà costruito via codice dai dati simulati.
+Controlli: ripetizioni indipendenti, parametri fissi, separazione delle serie, media, semidispersione, U minima q, distinzione e/U, unità, scala comune, dati coincidenti e asimmetrici, reset, feedback, offline, tastiera e smartphone. Risultato nullo per e ammesso; assenza di dispersione osservata non equivale a certezza.
+Carico basso, fino a 20 punti complessivi. Stima preliminare condivisa 2–3 ore, ripartita in SIM-06; da consolidare dopo le bozze approvate. Nessun HTML, codice, merge o deployment avviato.
