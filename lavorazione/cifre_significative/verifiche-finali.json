@@ -1,6 +1,6 @@
 {
-  "versione": "v3",
-  "html_bytes": 4675692,
+  "versione": "v4",
+  "html_bytes": 4675887,
   "sorgente_storico_invariato": true,
   "copie_identiche": true,
   "manifest_catalogo_crediti_pubblici_invariati": true,
@@ -16,5 +16,9 @@
   "cassa_senza_zoom": true,
   "zoom_totali": 0,
   "regola_zoom": "Solo grafici e schemi con numerose scritte piccole",
-  "master": "v69.10"
+  "master": "v69.10",
+  "manifest_versione": 14,
+  "capitoli_pubblicati": 15,
+  "navigazione_verificata": true,
+  "corpo_identico_anteprima_approvata": true
 }

@@ -1,10 +1,11 @@
 {
-  "versione": 13,
+  "versione": 14,
   "articoli": [
     "metodo_scientifico_it.html",
     "grandezze_fisiche_sistema_internazionale_it.html",
     "potenze_dieci_notazione_scientifica_it.html",
     "prefissi_sistema_internazionale_it.html",
+    "cifre_significative_it.html",
     "termodinamica_sistemi_it.html",
     "temperatura_equilibrio_termico_it.html",
     "energia_interna_calore_specifico_it.html",

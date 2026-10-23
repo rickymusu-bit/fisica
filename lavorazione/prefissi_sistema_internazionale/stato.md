@@ -190,3 +190,7 @@ Ramo corrente lavorazione/cifre-significative, PR #67: stessa richiesta comprend
 L’utente risponde «Approvo tutto» alla richiesta esplicita di approvare l’anteprima HTML v3 del quarto e il testo del quinto. Autorizzato il rilascio della nuova copertina del capitolo 4. Controllo remoto 39975086752 riuscito; PR #67 resa pronta e integrata al commit b25f0af4b90f91326c1c54319e5fd8d7ae8f1d1f. Pubblicazione e verifica HTTPS da registrare appena completate. Nessuna immagine di provenienza sconosciuta aggiunta al quarto.
 
 Deployment Pages 39977718327 riuscito. Controllo HTTPS conclusivo: 18 pagine pubbliche HTTP 200 e identiche alla build locale v3, 11 indirizzi esclusi HTTP 404. Nuova copertina del quarto pubblicata, nessun rilascio pendente. Rapporto verifica-pubblicazione-online.json aggiornato.
+
+## Navigazione per il rilascio del capitolo 5 — 23 ottobre 2026
+
+HTML v4: navigazione successiva aggiornata a Le cifre significative, ora quinto capitolo pubblicato su autorizzazione dell’utente. Contenuto, copertina, separatore e risorse invariati. Copia di lavorazione allineata; corpo dell’articolo verificato identico. Intervento circoscritto incluso nella pubblicazione autorizzata della PR #68.

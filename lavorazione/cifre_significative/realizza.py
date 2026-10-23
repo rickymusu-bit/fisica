@@ -242,7 +242,7 @@ def render():
     for node in doc.root.descendants():
         if node.tag=='title':edits.append((node.start,node.end,'<title>' + TITLE + ' — Stringhe</title>'))
         elif node.tag=='meta' and node.attrs.get('name') in {'version','date','description'}:
-            val={'version':'v3','date':'2026-10-23','description':'Cifre significative, zeri, arrotondamento e regole nei calcoli con misure, con esempi e procedure.'}[node.attrs['name']]
+            val={'version':'v4','date':'2026-10-23','description':'Cifre significative, zeri, arrotondamento e regole nei calcoli con misure, con esempi e procedure.'}[node.attrs['name']]
             edits.append((node.start,node.end,'<meta name="' + node.attrs['name'] + '" content="' + val + '">'))
         elif node.tag=='figure' and node.has_class('cover'):edits.append((node.start,node.end,cover))
         elif node.tag=='article' and node.has_class('article'):
@@ -255,12 +255,12 @@ def render():
             nav='<nav class="sidebar-nav" aria-label="Sezioni del capitolo"><ol>'+''.join('<li class="level-' + str(level) + '"><a href="#' + sid + '"><span>' + escape(title) + '</span></a></li>' for sid,title,level in headings)+'</ol></nav>'
             markup=re.sub(r'<nav class="sidebar-nav"[\s\S]*?</nav>',lambda _:nav,markup)
             edits.append((node.start,node.end,navigation_header('chapter',NAME,markup)))
-        elif node.tag=='footer' and node.has_class('footer'):edits.append((node.start,node.end,'<footer class="footer">Versione v3 — 23 ottobre 2026</footer>'))
+        elif node.tag=='footer' and node.has_class('footer'):edits.append((node.start,node.end,'<footer class="footer">Versione v4 — 23 ottobre 2026</footer>'))
     for start,end,value in sorted(edits,reverse=True):template=template[:start]+value+template[end:]
     template=template.replace('Nome dell’area tematica',AREA).replace('Titolo del capitolo',TITLE)
     template=re.sub(r'<!-- MODELLO CANONICO[\s\S]*?-->','<!-- Capitolo 5, testo approvato e modello Stringhe v23; cassa generata su richiesta. -->',template,count=1)
     template=template.replace('</head>',EXTRA+'</head>',1)
-    prev='<nav class="chapter-navigation" aria-label="Navigazione tra capitoli"><a rel="prev" href="prefissi_sistema_internazionale_it.html" data-site-path="prefissi_sistema_internazionale_it.html"><span>← Capitolo precedente</span><small>I prefissi del Sistema internazionale</small></a></nav>'
+    prev='<nav class="chapter-navigation" aria-label="Navigazione tra capitoli"><a rel="prev" href="prefissi_sistema_internazionale_it.html" data-site-path="prefissi_sistema_internazionale_it.html"><span>← Capitolo precedente</span><small>I prefissi del Sistema internazionale</small></a><a rel="next" href="termodinamica_sistemi_it.html" data-site-path="termodinamica_sistemi_it.html"><span>Capitolo successivo →</span><small>La termodinamica e i sistemi termodinamici</small></a></nav>'
     template=template.replace('<!-- chapter-navigation:end -->',prev+'<!-- chapter-navigation:end -->',1)
     return template,formulas
 
@@ -283,7 +283,10 @@ def main():
     target.write_text(credits.update_component(source,registry,NAME))
     (WORK/'bozza.html').write_bytes(target.read_bytes())
     credits.REGISTRY.write_text(json.dumps(registry,ensure_ascii=False,indent=2)+'\n')
-    assert (ROOT/'crediti.html').read_text()==credits.render_page(registry), 'L’anteprima non ammessa non deve cambiare i crediti pubblici'
+    if NAME in json.loads((ROOT/'pubblicazione.json').read_text())['articoli']:
+        (ROOT/'crediti.html').write_text(credits.render_page(registry))
+    else:
+        assert (ROOT/'crediti.html').read_text()==credits.render_page(registry)
     print(NAME,target.stat().st_size,'byte;',formulas,'formule; crediti incorporati aggiornati')
 
 

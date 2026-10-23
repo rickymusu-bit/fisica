@@ -147,3 +147,7 @@ Su richiesta: prima figura senza zoom; C.S. introdotta nella definizione e usata
 ### Quinto capitolo — zoom selettivo, HTML v3
 
 Tolto anche lo zoom dalla cassa, su richiesta. Regola salvata nel master v69.10 e AGENTS.md: zoom soltanto per grafici e schemi con numerose scritte piccole, mai su fotografie e copertine. Nessun ingrandimento nelle due figure semplici del capitolo 5; file autonomo circa 4,68 MB. Crediti/tema e browser verificati; anteprima v3 nella PR #68 in bozza, sito pubblico invariato.
+
+### Quinto capitolo — pubblicazione autorizzata
+
+«Perfetto pubblica» approva l’anteprima corrente e autorizza il rilascio della PR #68. HTML v4 con solo il rimando successivo aggiunto; corpo invariato rispetto alla v3 approvata. Manifest v14 con 15 capitoli e quinto posto nell’area introduttiva; catalogo, crediti pubblici e navigazione reciproca Prefissi v4 → Cifre significative v4 → Termodinamica v15 aggiornati. Inclusa la regola dello zoom salvata in master v69.10 e AGENTS.md. Crediti, tema, build e 18 test superati; browser locale riuscito su 210 combinazioni pagina/viewport/tema e 20 copertine; CI remoto e verifica del deployment da completare. Nessuna ulteriore conferma da richiedere per questa pubblicazione autorizzata.
