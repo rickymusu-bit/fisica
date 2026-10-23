@@ -1,13 +1,13 @@
 # Stato — Le grandezze fisiche e il Sistema internazionale
 
-Versione v6 — 22 ottobre 2026 (Europe/Rome).
+Versione v7 — 23 ottobre 2026 (Europe/Rome).
 
 ## Incarico e fase corrente
 
 L’utente chiede di iniziare il secondo capitolo del piano `lavorazione/introduzione_fisica_misura/piano.md`, identificato nel ramo `lavorazione/introduzione-fisica-misura`, commit `ff82ddbbcd2f4c9799ba7174a1a090cd92a547fc`.
 Piano di riferimento: [Introduzione alla fisica e alla misura](https://github.com/rickymusu-bit/fisica/blob/ff82ddbbcd2f4c9799ba7174a1a090cd92a547fc/lavorazione/introduzione_fisica_misura/piano.md).
 
-Fase corrente: capitolo HTML v2 pubblicato e verificato online. Anteprima approvata e merge/pubblicazione richiesti con «Perfetto fai il merge e pubblica». PR #59 integrata, deployment Pages riuscito, catalogo a dodici capitoli e navigazione reciproca verificati. Nessun intervento pendente per questa pubblicazione.
+Fase corrente: revisione circoscritta v3 richiesta dall’utente, con pubblicazione esplicitamente autorizzata dopo la correzione. Eliminata la precisazione superflua sulla prospettiva del Camp Nou; verifiche mirate e build superate. Merge e deployment della revisione da completare.
 Ramo dedicato: `lavorazione/grandezze-fisiche-sistema-internazionale`, derivato da main `76c66c42021fc490aebc545dd5901ff8af118a5d`.
 
 ## Riferimenti letti e checklist
@@ -118,3 +118,23 @@ Deployment ufficiale **Pubblica Stringhe** riuscito, build e deploy: https://git
 Verifica HTTPS post-deployment: home, catalogo, nuovo capitolo, capitoli adiacenti e crediti rispondono correttamente e sono byte per byte identici alla build locale verificata. Pubblicato il capitolo v2 di 1667909 byte nella build (sorgente autonomo 1667892 byte, differenza del renderer comune). Catalogo con dodici capitoli, nuova area con due, sequenza reciproca Metodo scientifico → Grandezze e SI → Sistemi termodinamici. Gli otto indirizzi esclusi o dismessi controllati rispondono HTTP 404. Nessun reindirizzamento storico ripristinato.
 
 Rapporto riproducibile verifiche-online.json, generato da verifica_online.py con lo SHA del deployment; record di hash e risultati, senza dati di autenticazione. Sito pronto e pubblicazione conclusa. Il salvataggio successivo dei soli resoconti non cambia HTML o manifest e non richiede un ulteriore deployment.
+
+## Revisione della didascalia — richiesta e pubblicazione autorizzate
+
+Richiesta esatta: «Non serve a nulla la puntualizzazione sulla prospettiva del Camp nou. Toglila e cerca di ricordare la regola sulle considerazioni inutili. Poi quando hai corretto pubblica».
+
+Applicazione della regola A1 già presente nel master: eliminare considerazioni, cautele e puntualizzazioni che non aiutano a comprendere il fenomeno o il ragionamento. Non spostare una precisazione inutile nelle note, nelle didascalie o nelle descrizioni accessibili. La fonte dei dati resta nei crediti; non occorre giustificare al lettore perché le dimensioni non si ricavano dalla foto. Richiamo registrato per le revisioni successive, senza duplicare o cambiare il master.
+
+Ramo `correzione/didascalia-camp-nou`, derivato dal main corrente. Didascalia corrente: «Il campo del Camp Nou prima di una partita nel 2012. I richiami identificano i due lati del terreno di gioco: 105 m e 68 m.» Rimossa anche la precisazione equivalente dalla descrizione accessibile SVG e semplificata la descrizione del campo nei metadati e nei crediti. Provenienza, licenza, dimensioni, annotazioni, calcolo e domande conservati.
+
+HTML e copia di lavorazione v3, bozza v3, generatore aggiornato. Credits.py --check e build Pages superati; confronto del testo visibile dell’articolo: unica differenza la frase eliminata. Verifica browser mirata a 390/1440 px, chiaro/scuro, nessun overflow o errore, quattro anteprime del campo aggiornate. Esiti in verifiche-pubblicazione.json, sezione correzione_didascalia.
+
+L’utente ha già autorizzato la pubblicazione di questa specifica correzione: non richiedere una nuova approvazione. Preparare PR e anteprima corrente, eseguire i controlli automatici richiesti, integrare e verificare Pages e URL ufficiale.
+
+## Ulteriore correzione richiesta: foto senza annotazioni
+
+L’utente precisa «Togli proprio le frecce. Tutti sanno che un campo da calcio ha un lato lungo e un lato corto». Ripristinata la foto originale campo.jpg, senza frecce, etichette o pannello superiore. Didascalia ridotta a «Il campo del Camp Nou prima di una partita nel 2012.» Eliminato dal testo soltanto «indicate nella figura»; conservati 105 m, 68 m e il calcolo dell’area 7140 m². La richiesta specifica prevale sull’annotazione prevista per l’esempio: non sostituirla con un altro schema o con spiegazioni dei lati.
+
+Il controllo byte per byte conferma che l’immagine incorporata è esattamente campo.jpg. Crediti correnti con autore Netol e nessuna modifica alla foto; avvisi dello schema precedente conservati soltanto come storia nel registro e in Git. Generatore e verificatore aggiornati alla foto semplice. HTML/bozza restano v3, con data editoriale 23 ottobre 2026 nel fuso Europe/Rome. Rimossa la risorsa derivata campo-annotato.svg dall’albero corrente, recuperabile nella cronologia; originali fotografici conservati.
+
+Verifiche: crediti e build superati; browser a 320/390/768/1024/1440 px, chiaro/scuro, download e funzionamento offline, nove domande e tabelle conservate; nessun errore o overflow. Anteprime correnti rigenerate. Prosegue l’autorizzazione già ricevuta a pubblicare dopo la correzione, senza nuova richiesta di conferma.

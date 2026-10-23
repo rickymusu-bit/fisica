@@ -10,5 +10,13 @@
       "filter_search_navigation_news_random_download": true
     }
   ],
-  "catalogue_count": 12
+  "catalogue_count": 12,
+  "correzione_didascalia": {
+    "version": "v3",
+    "photo_original_bytes_identical": true,
+    "photo_sha256": "3af4c992c19250e58fa2988db758b012b9326963ba0b57b8573d6639fc8b753d",
+    "caption": "Il campo del Camp Nou prima di una partita nel 2012.",
+    "annotations_removed": true,
+    "dimensions_and_calculation_preserved": true
+  }
 }
