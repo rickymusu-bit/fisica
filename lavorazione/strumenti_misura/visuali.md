@@ -1,5 +1,5 @@
 # Capitolo 6 — Gli strumenti di misura: proposta
-Versione v2 — 23 ottobre 2026 (Europe/Rome). Impostazione e visuali approvate con «Ok»; bozza testuale v1 pronta.
+Versione v3 — 23 ottobre 2026 (Europe/Rome). Impostazione e visuali approvate con «Ok»; bozza testuale v2 pronta.
 
 ## Domanda e confini
 Una bilancia mostra molte cifre: basta questo per fidarsi della misura? Partire dal confronto fra lettura analogica e digitale, poi distinguere le caratteristiche che permettono di scegliere e usare uno strumento.
@@ -19,7 +19,7 @@ Non sviluppare classificazione degli errori, incertezza numerica, media o semidi
 ## Visuali proposte
 | ID | Materiale | Funzione e posizione |
 | --- | --- | --- |
-| COP-06 | Foto originale del calibro | Copertina, intera e senza zoom; non ripetuta nel corpo. Non dedurre una risoluzione numerica dalla sola foto |
+| COP-06 | Foto del doppio orologio atomico all'itterbio del NIST, scelta dall'utente | Copertina intera senza zoom, non ripetuta nel corpo; sostituisce la proposta del calibro |
 | FIG-06-1 | Foto originali delle bilance analogica e digitale | Apertura: confrontare scala e display. Conservarle intere |
 | FIG-06-2 | Disegno originale del parallasse | Lettura della scala: vista frontale e obliqua |
 | FIG-06-3 | Foto originale del voltmetro 0–15 V | Portata e scelta dell'intervallo |
@@ -36,3 +36,7 @@ Nessun video, simulazione o esercizio svolto separato proposto: fotografie, scal
 I quesiti 1, 2, 3 e 4 appartengono al capitolo 6. Il 5 sui bersagli e il 7 su errore/incertezza appartengono al 7. Il 6 su media e semidispersione resta riservato all'8. Nessun quesito originale perso o duplicato.
 
 Tema successivo: Stringhe comune, modello v24. Fonte delle regole: MASTER_PROMPT.md v69.11, AGENTS.md, STILE_DISPENSE.md v6, esempio_irraggiamento.md v2, docs/visual-guidelines.md v1.0.0.
+
+## Copertina corrente scelta esplicitamente
+
+COP-06: [Ytterbium Lattice Double Clock with Photons at NIST.jpg](https://commons.wikimedia.org/wiki/File:Ytterbium_Lattice_Double_Clock_with_Photons_at_NIST.jpg), N. Phillips/NIST. Pubblico dominio: opera del governo federale statunitense, indicata PD-USGov su Commons. La richiesta diretta dell'utente sostituisce la proposta precedente del calibro. [File indicato dall'utente](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Ytterbium_Lattice_Double_Clock_with_Photons_at_NIST.jpg/1920px-Ytterbium_Lattice_Double_Clock_with_Photons_at_NIST.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail). Conservare proporzioni e immagine intera, nessun ritaglio o zoom. Provenienza e diritti della copertina documentati; il punto aperto sui diritti riguarda ancora le immagini storiche del corpo. Nessuna immagine alternativa cercata o generata.

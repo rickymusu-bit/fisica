@@ -1,5 +1,5 @@
 # Capitolo 7 — Errori e incertezza di misura: proposta
-Versione v2 — 23 ottobre 2026 (Europe/Rome). Impostazione e visuali approvate con «Ok»; bozza testuale v1 pronta.
+Versione v3 — 23 ottobre 2026 (Europe/Rome). Impostazione e visuali approvate con «Ok»; bozza testuale v2 pronta.
 
 ## Domanda e confini
 Il cronometro mostra 2,40 s: quanto sappiamo del tempo misurato, e possiamo già dire di quanto abbiamo sbagliato? Distinguere la variabilità delle letture, gli spostamenti rispetto a un riferimento e l'informazione espressa dall'incertezza.
@@ -19,13 +19,13 @@ La tabella delle cinque letture, la linea dei numeri, la media, la semidispersio
 ## Visuali proposte
 | ID | Materiale | Funzione e posizione |
 | --- | --- | --- |
-| COP-07 | Foto originale del sismografo | Copertina intera senza zoom, non ripetuta nel corpo; introduce il problema di interpretare le variazioni |
+| COP-07 | TV noise.jpg, scelta dall'utente | Copertina intera senza zoom, non ripetuta nel corpo; introduce il rumore come disturbo |
 | FIG-07-1 | Infografica originale dei quattro bersagli | Dispersione e spostamento; centro come riferimento noto, non “valore vero” conosciuto in ogni misura |
 | FIG-07-2 | Foto originale della bilancia digitale | Zero spostato e registrazione delle letture. Nessun nuovo valore sovrapposto al display |
 | TAB-07-1 | Prospetto concordato: lettura / incertezza / riferimento / errore | Separare informazioni disponibili e quantità calcolabili, accanto alle formule |
 | SCH-07-1 | Composizione concordata con la foto originale del cronometro ed etichette numeriche | Situazione dell'esempio temporale prima dei calcoli; tempo attribuito 2,40 s e riferimento indipendente 2,50 s, dati illustrativi. Non rappresentare un secondo dispositivo inventato |
 
-La foto del sismografo resta soltanto in copertina, il cronometro soltanto nello schema del corpo. La traccia non sarà presentata come prova di rumore o errore: può contenere segnale reale. Scelta approvata; realizzazione dello schema dopo il via all'HTML.
+La foto del rumore televisivo resta soltanto in copertina, il cronometro soltanto nello schema del corpo. Il televisore non è presentato come strumento per misurare il tempo né il rumore televisivo come errore numerico della misura. Scelta approvata; realizzazione dello schema dopo il via all'HTML.
 
 I diritti delle immagini storiche risultano non documentati nello snapshot del sorgente. Verificare provenienza, licenza e leggibilità dell'infografica, senza ridisegnarla o tradurla autonomamente. Se non utilizzabile, concordare un confronto numerico equivalente o chiedere immagini sostitutive. Non cercare né generare nuove immagini in questa fase.
 
@@ -33,3 +33,7 @@ Nessun video o simulazione proposto. L'esempio temporale resta integrato nella t
 
 ## Ripartizione e regole
 Quesiti originali 5 e 7 al capitolo 7; 1–4 al 6; 6 riservato all'8. Tema comune Stringhe v24. Riferimenti: MASTER_PROMPT.md v69.11, AGENTS.md, STILE_DISPENSE.md v6, esempio_irraggiamento.md v2, docs/visual-guidelines.md v1.0.0.
+
+## Copertina corrente scelta esplicitamente
+
+COP-07: [TV noise.jpg](https://commons.wikimedia.org/wiki/File:TV_noise.jpg), Mysid. Pubblico dominio per dichiarazione dell'autore (PD-self). La richiesta diretta dell'utente sostituisce la proposta precedente del sismografo. [File indicato dall'utente](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/TV_noise.jpg/1920px-TV_noise.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail). Conservare proporzioni e immagine intera, nessun ritaglio o zoom. Provenienza e diritti della copertina documentati; il punto aperto sui diritti riguarda ancora le immagini storiche del corpo. Nessuna immagine alternativa cercata o generata.

@@ -175,3 +175,7 @@ L'utente approva l'impostazione con «Ok». Completate [Gli strumenti di misura,
 Nel 6 esplicitata la formula della sensibilità e aggiunte serie illustrative per precisione/accuratezza. Nel 7 conservato il confronto 2,40 s / 2,50 s e chiarito che U = 0,09 s è assegnata all'esempio, senza calcoli di media o semidispersione. Incertezza distinta dall'errore effettivo; nessuna garanzia assoluta attribuita all'intervallo ±U.
 
 Fase corrente: approvazione dei due testi nella PR #72, poi stima e via esplicito alla realizzazione. Licenze dei materiali storici da verificare prima dell'integrazione. Nessun HTML o aggiornamento pubblico; sorgenti storici e manifest invariati.
+
+### Capitoli 6 e 7 — copertine scelte, bozze v2
+
+L'utente sceglie esplicitamente Ytterbium Lattice Double Clock with Photons at NIST.jpg per il 6 e TV noise.jpg per il 7. Superate le proposte del calibro e del sismografo come copertine. Aggiornate bozze v2, didascalie e schede di provenienza; immagini intere senza zoom o ripetizioni nel corpo. Pagine Commons consultate: N. Phillips/NIST, pubblico dominio federale; Mysid, pubblico dominio per dichiarazione dell'autore. Restano da verificare i diritti delle immagini storiche del corpo. Testi da approvare nella PR #72; nessuna realizzazione HTML o pubblicazione avviata.

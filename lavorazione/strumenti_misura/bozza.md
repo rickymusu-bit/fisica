@@ -1,10 +1,10 @@
 # Gli strumenti di misura
 
-[EDITORIALE — Bozza v1, 23 ottobre 2026. Testo da approvare; visuali concordate con «Ok». I segnaposto descrivono i materiali da integrare dopo l'approvazione del testo. Area: Introduzione alla fisica e alla misura.]
+[EDITORIALE — Bozza v2, 23 ottobre 2026. Testo da approvare; visuali concordate con «Ok». I segnaposto descrivono i materiali da integrare dopo l'approvazione del testo. Area: Introduzione alla fisica e alla misura.]
 
-[COP-06 — Fotografia originale del calibro, intera, senza zoom e non ripetuta nel corpo.]
+[COP-06 — Fotografia scelta dall'utente: Ytterbium Lattice Double Clock with Photons at NIST.jpg. Intera, senza ritagli o zoom, non ripetuta nel corpo.]
 
-*Il calibro permette di leggere lunghezze su una scala graduata. Per interpretare la lettura bisogna conoscere le caratteristiche dello strumento.*
+*L'apparato di un doppio orologio atomico all'itterbio: anche la misura del tempo richiede uno strumento fisico e il controllo delle sue prestazioni.*
 
 ## Una lancetta o un display?
 
@@ -106,3 +106,7 @@ Aggiunti formula esplicita della sensibilità e prospetto illustrativo delle mas
 Sorgente terminologico da associare ai crediti nell'HTML: JCGM 200:2012, International Vocabulary of Metrology, voci 2.13, 2.15, 4.1, 4.12, 4.14; https://www.bipm.org/en/committees/jc/jcgm/publications . Riferimento bibliografico indicato, non nuova verifica web delle licenze.
 Licenze delle immagini storiche ancora da verificare sul registro e sulle fonti. Nessuna immagine cercata, generata o modificata. Il prospetto della sensibilità è testuale e non rappresenta nuovi dispositivi.
 Visuali concordate con «Ok» dopo la proposta della PR #72; testo v1 da approvare. HTML, elaborazione delle visuali e pubblicazione non avviati.
+
+### Copertina scelta dall'utente — bozza v2
+
+COP-06: [Ytterbium Lattice Double Clock with Photons at NIST.jpg](https://commons.wikimedia.org/wiki/File:Ytterbium_Lattice_Double_Clock_with_Photons_at_NIST.jpg); autore N. Phillips/NIST. Stato dei diritti verificato nella pagina Commons: Pubblico dominio: opera del governo federale statunitense, indicata PD-USGov su Commons. [URL esatto fornito](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Ytterbium_Lattice_Double_Clock_with_Photons_at_NIST.jpg/1920px-Ytterbium_Lattice_Double_Clock_with_Photons_at_NIST.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail). Nessuna modifica richiesta: usare l'immagine intera, senza zoom; acquisizione e incorporamento del file nella fase HTML autorizzata. La copertina sostituisce la proposta del calibro, che resta nel sorgente storico. Testo didattico invariato salvo la didascalia. La fotografia è descritta dalla scheda originale, senza dedurre prestazioni quantitative o cause fisiche non documentate.

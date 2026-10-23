@@ -1,10 +1,10 @@
 # Errori e incertezza di misura
 
-[EDITORIALE — Bozza v1, 23 ottobre 2026. Testo da approvare; visuali concordate con «Ok». Area: Introduzione alla fisica e alla misura.]
+[EDITORIALE — Bozza v2, 23 ottobre 2026. Testo da approvare; visuali concordate con «Ok». Area: Introduzione alla fisica e alla misura.]
 
-[COP-07 — Foto originale del sismografo, intera, senza zoom, non ripetuta nel corpo.]
+[COP-07 — Fotografia scelta dall'utente: TV noise.jpg. Intera, senza ritagli o zoom, non ripetuta nel corpo.]
 
-*Una traccia registra variazioni nel tempo. La sola fotografia non permette di stabilire quali siano segnale utile e quali dipendano da disturbi.*
+*Rumore sullo schermo di un televisore analogico sintonizzato su un canale senza trasmissioni: i disturbi possono produrre variazioni nell'uscita di un dispositivo.*
 
 ## Lo stesso evento, letture diverse
 
@@ -150,3 +150,7 @@ La comparazione |e| > U invita al controllo e non dimostra da sola un errore sis
 Riferimenti terminologici da associare ai crediti dell'HTML: JCGM 200:2012 (VIM), voci 2.16–2.20 e 2.26; JCGM 100:2008 (GUM); https://www.bipm.org/en/committees/jc/jcgm/publications . Indicazioni bibliografiche, non nuova verifica web.
 Diritti delle foto e dei bersagli storici ancora da verificare nel registro e sulle fonti. Schema del cronometro descritto dal segnaposto, non ancora realizzato; nessuna immagine generata o alterata.
 Impostazione visuale concordata con «Ok» nella PR #72. Testo v1 da approvare; nessun HTML, simulazione, merge o deployment avviato.
+
+### Copertina scelta dall'utente — bozza v2
+
+COP-07: [TV noise.jpg](https://commons.wikimedia.org/wiki/File:TV_noise.jpg); autore Mysid. Stato dei diritti verificato nella pagina Commons: Pubblico dominio per dichiarazione dell'autore (PD-self). [URL esatto fornito](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/TV_noise.jpg/1920px-TV_noise.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail). Nessuna modifica richiesta: usare l'immagine intera, senza zoom; acquisizione e incorporamento del file nella fase HTML autorizzata. La copertina sostituisce la proposta del sismografo, che resta nel sorgente storico. Testo didattico invariato salvo la didascalia. La fotografia è descritta dalla scheda originale, senza dedurre prestazioni quantitative o cause fisiche non documentate.
