@@ -1,0 +1,16 @@
+{
+  "data_utc": "2026-10-23T08:50:16.604417+00:00",
+  "home": "https://rickymusu-bit.github.io/fisica/",
+  "status": 200,
+  "identica_build": true,
+  "sha256": "17947e9afead6c39a997ced99c803849d9595f0c5b9cc7502ffdb8963db9b598",
+  "titolo": "Stringhe, home",
+  "destinazione": "https://rickymusu-bit.github.io/fisica/index.html",
+  "destinazione_status": 200,
+  "esito": "superato",
+  "pr": 64,
+  "merge_sha": "bb7e6c517e1d4c630c116e0b3a081bac5ce20d2a",
+  "verifica_github": 39926790745,
+  "pages": 39927299105,
+  "pages_esito": "success"
+}

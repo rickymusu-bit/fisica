@@ -1,12 +1,14 @@
 # I prefissi del Sistema internazionale
 
-<!-- Bozza v3 — 23 ottobre 2026 (Europe/Rome).
+<!-- Bozza v4 — 23 ottobre 2026 (Europe/Rome).
 Area: Introduzione alla fisica e alla misura.
 Tabella riutilizzata e schema autorizzato. Introduzione senza potenze nel testo, tabella introduttiva con entrambe le scritture; notazione esponenziale usata dove utile dal paragrafo dedicato.
-Copertina da fornire dall'utente: ritirato il riuso della foto del metro.
-Testo ed esempi da approvare; nessuna realizzazione HTML avviata. -->
+Copertina scelta dall'utente: colonia di batteri e funghi al microscopio, foto Korinna, CC BY 4.0.
+Testo v3 autorizzato per la realizzazione con «Ok genera»; copertina scelta con URL Wikimedia. Anteprima HTML da approvare prima del rilascio. -->
 
-[COP-01 — Nuova immagine di copertina da fornire dall'utente. Soggetto, didascalia e descrizione accessibile da definire dopo aver visto l'immagine. Non riutilizzare la foto del metro e non cercare o generare alternative.]
+[COP-01 — Fotografia scelta dall'utente: risorse/copertina-colonia.jpg. Immagine intera, 960 per 957 px; non ripetuta nel corpo.]
+
+Didascalia: Colonia di batteri e funghi osservata al microscopio, con strutture ramificate.
 
 ## La lunghezza resta, il numero cambia
 
@@ -298,11 +300,11 @@ In un'unità composta i fattori al denominatore restano **al denominatore**. Per
 Questa sezione non entra nel contenuto pubblico. Le fonti e le risorse correnti confluiranno nel registro unico e nei crediti incorporati durante la realizzazione.
 
 - Sorgente: sistema_internazionale_notazione_it.html, sezione #prefissi, blob 61a32e96afce2136af8669b1544a02e9d751018d. Tabella dei 24 prefissi riutilizzata, compresa la forma «etto (hecto)». Il sorgente storico resta invariato.
-- Fonte normativa della tabella: [BIPM, SI prefixes](https://www.bipm.org/en/measurement-units/si-prefixes), consultata il 23 ottobre 2026. Fonte delle convenzioni SI: [BIPM, SI Brochure](https://www.bipm.org/en/publications/si-brochure); regole del grammo e delle unità composte da verificare sulla brochure prima della realizzazione finale.
-- COP-01: la proposta della foto del metro è ritirata su richiesta. Nuova immagine attesa dall'utente, nessuna ricerca o generazione alternativa. Nessuna didascalia o attribuzione inventata. L'originale del metro nel capitolo 2 resta invariato e non è una risorsa di questo capitolo.
+- Fonte normativa della tabella: [BIPM, SI prefixes](https://www.bipm.org/en/measurement-units/si-prefixes), consultata il 23 ottobre 2026. Fonte delle convenzioni SI: [BIPM, SI Brochure](https://www.bipm.org/en/publications/si-brochure); regole del grammo, dei prefissi e delle unità composte verificate nella brochure, sezioni 3 e 5, durante la realizzazione.
+- COP-01: fotografia scelta dall'utente, [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Microscope_view_of_a_bacteria_and_fungi_colony_growing_in_fractal_pattern_structures.jpg), autore Korinna, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Miniatura 960 per 957 px incorporata intera senza ritagli o alterazioni locali. Il server thumb.wikimedia.org ha restituito HTTP 403: recuperata la stessa miniatura dal server Wikimedia upload.wikimedia.org, senza cambiare immagine o risoluzione. Fonte, licenza e autore verificati sulla pagina originale; nessuna dimensione fisica o ingrandimento dedotti dalla foto. La foto del metro del capitolo 2 rimane estranea a questo capitolo.
 - SCH-01: SVG originale già richiesto, percorso risorse/schema-conversioni.svg. Fattori in potenze di dieci, composizione invariata. Verifiche grafiche della v2 riutilizzate perché lo schema non cambia in questa revisione.
 - CONV-01–04: segnaposto di semplici schemi numerici dei dati, dell'unità di arrivo e del fattore, senza oggetti o apparecchi da illustrare. Esempi di equivalenze fra quantità assegnate, non esperimenti o misure ricavate da immagini. Dati scelti per esercitare la conversione; nessun coefficiente empirico o dato di materiale attribuito a una fonte. Non cercare o generare immagini per questi schemi.
 - Esempi svolti aggiunti su richiesta esplicita: pressione (unità derivata con nome proprio), area e volume (unità elevate a potenza), densità (unità composta con numeratore e denominatore). Ogni esempio esplicita dati, esponenti, fattore, calcolo e interpretazione quantitativa. Le frazioni rappresentano divisioni; le barre nelle unità composte sono simboli di unità.
 - Dieci domande finali senza soluzioni: conservati i nuclei dei quesiti originali sui prefissi, aggiunti controlli su formula e unità derivate. Le cifre significative restano nel capitolo 5; nessuna regola di arrotondamento introdotta.
 - Richiesta corrente: testo introduttivo senza potenze di dieci; TAB-02 con valori decimali e potenze affiancati; dalla sezione dedicata in poi potenze dove utili al ragionamento, formule e procedure esplicite, risultati decimali leggibili quando opportuni. Questa precisazione supera l'indicazione precedente di usare sempre e soltanto potenze.
-- Nessun HTML del capitolo, modifica a manifest/catalogo, merge o deployment in questa fase. Copertina e approvazione della bozza restano pendenti.
+- HTML di anteprima realizzato dal modello Stringhe v23. Nessuna modifica a manifest/catalogo, merge o deployment in questa fase. Il via «Ok genera» autorizza la realizzazione dal testo v3; la v4 aggiorna soltanto copertina e relativa provenienza. Anteprima HTML corrente da approvare prima del rilascio.

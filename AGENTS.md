@@ -98,3 +98,7 @@ Nome esatto richiesto dall’utente: **Termologia**, in sostituzione di «Materi
 ## Video YouTube su richiesta — 23 ottobre 2026
 
 Applicare C5 del master corrente: riquadro con titolo e icona, senza miniature o fotogrammi, nessuna connessione a YouTube prima del clic; iframe da youtube-nocookie.com soltanto dopo «Carica il video», senza autoplay, con comandi nativi, schermo intero e «Chiudi il lettore». Conservare URL e timestamp; «Apri su YouTube» sempre visibile, anche senza JavaScript, offline o se il lettore non funziona. Usare scripts/youtube_videos.py e identita/youtube-videos.css/js, condivisi dal modello. Dimensioni responsive con minimo del player 200 × 200 px e tastiera/focus accessibili. Non promettere privacy assoluta, assenza di pubblicità o riproduzione garantita dall’HTML locale. Questo incarico autorizza la sola revisione dei video anche nei sorgenti esclusi e tradotti; manifest e stato di pubblicazione restano invariati. Copie HTML di lavorazione correnti da riallineare; materiali storici non riscritti in massa. Le nuove regole sostituiscono il precedente divieto di lettori YouTube incorporati e l’obbligo delle miniature. Modello comune v23 con componente video su richiesta; conservare il tema grafico approvato.
+
+## Copertine senza zoom — 23 ottobre 2026
+
+Le immagini di copertina non devono mai avere pulsanti o modalità di zoom/ingrandimento. Applicare A3/A6 del master e il filtro canonico di scripts/media_controls.py, conservando intera l’immagine principale. Lo zoom resta disponibile per le figure del corpo quando pertinente.

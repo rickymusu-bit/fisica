@@ -1,6 +1,6 @@
 # Stato — I prefissi del Sistema internazionale
 
-Versione v6 — 23 ottobre 2026 (Europe/Rome).
+Versione v8 — 23 ottobre 2026 (Europe/Rome).
 
 ## Incarico e fase corrente
 
@@ -8,7 +8,8 @@ Richiesta: «Sviluppa il capitolo 4 del piano di lavorazione per l'introduzione 
 Il [piano editoriale](../introduzione_fisica_misura/piano.md) identifica il capitolo come **I prefissi del Sistema internazionale**.
 Argomento, posizione e tema Stringhe comune sono già definiti. La richiesta avvia lo sviluppo editoriale; non documenta una scelta delle nuove visuali né approvazioni della bozza, dell'HTML o della pubblicazione.
 
-Fase corrente: **bozza v3 completa da approvare**, con tabella riutilizzata e schema SCH-01 realizzato su richiesta esplicita. [Bozza corrente](bozza.md), [schema SVG](risorse/schema-conversioni.svg). Copertina: attesa una nuova immagine dall'utente; riuso della foto del metro ritirato. Nessuna realizzazione HTML del capitolo o pubblicazione avviata. Le annotazioni iniziali riportate sotto conservano la storia della progettazione e sono superate dagli avanzamenti finali.
+Fase corrente: **HTML v2 approvato con separatore, pubblicazione autorizzata e in preparazione**. Il via «Ok genera» autorizza la realizzazione dal testo v3; la bozza v4 aggiorna copertina e provenienza. [HTML corrente](bozza.html), [bozza testuale](bozza.md), [verifiche](verifiche-finali.json), [schermate desktop/mobile](anteprime/).
+Copertina scelta con URL Wikimedia: colonia di batteri e funghi al microscopio, Korinna, CC BY 4.0, incorporata intera a 960 per 957 px. Nessuna immagine mancante. Merge e deployment autorizzati dalla richiesta finale; le attese di copertina e realizzazione riportate nelle sezioni precedenti sono superate da questo avanzamento.
 
 Ramo dedicato: `lavorazione/prefissi-sistema-internazionale`, derivato da main al commit `d5688f6af867cd85bcdb8f975ddb538e3f3c1130`.
 Alla verifica iniziale dell'albero completo di main e dei rami con nome contenente «prefissi» non risultano una lavorazione o un ramo preesistenti per questo capitolo.
@@ -127,3 +128,43 @@ Integrate nelle sezioni pertinenti di MASTER_PROMPT.md v69.8 le regole riutilizz
 Restano specifiche del capitolo 4, già registrate nella revisione v3: apertura senza potenze nel testo; tabella introduttiva con entrambe le scritture; formula dei prefissi e casi elevati a potenza; esempi anche con unità derivate; copertina nuova da fornire dall'utente e ritiro del metro. Bozza v3 invariata, da approvare.
 
 Master su main confrontato: ancora v69.7 con identico blob rispetto al ramo prima della modifica. Consolidata v69.8 sullo stesso ramo della PR #65; non è una modifica già integrata in main. Controllate le sole sezioni A2/A4 e l'intestazione, conservando le altre regole. Stato e master da rileggere dal commit remoto dopo il salvataggio. Nessuna modifica HTML, build o pubblicazione.
+
+## Realizzazione autorizzata e copertina scelta — 23 ottobre 2026
+
+L'utente dà il via con «Ok genera». Comunicato l'ambito e una stima indicativa di 20–35 minuti a carico basso; avviata la realizzazione sul ramo esistente, senza ulteriori richieste di via. Durante le verifiche l'utente sceglie la copertina tramite URL Wikimedia: approvazione specifica dell'immagine, nessuna nuova conferma necessaria.
+
+Fonte: [Microscope view of a bacteria and fungi colony growing in fractal pattern structures](https://commons.wikimedia.org/wiki/File:Microscope_view_of_a_bacteria_and_fungi_colony_growing_in_fractal_pattern_structures.jpg). Autore Korinna, CC BY 4.0, verificati sulla pagina originale. Miniatura scelta 960 per 957 px, SHA-256 15d982bd40344f54fa9c77b0eea3fb67d3a41b4d851daeb5b604f18d9851b575, salvata in risorse/copertina-colonia.jpg senza ritagli o modifiche locali. Il server thumb.wikimedia.org ha risposto 403: recuperata la stessa miniatura dal server upload.wikimedia.org. URL scelto, URL effettivo e provenienza in risorse/copertina-fonte.json; attribuzione nel registro unico. Nessuna dimensione fisica o ingrandimento dedotti dalla foto.
+
+Realizzato HTML v1 autonomo prefissi_sistema_internazionale_it.html, copia corrente identica in bozza.html, modello Stringhe v23 letto e riutilizzato. Testo v3 conservato; bozza v4 aggiornata solo per copertina e registrazione della realizzazione. Diciotto formule in MathML nativo, frazioni orizzontali e catene di uguaglianze che vanno a capo; nessuna dipendenza MathJax/KaTeX. Otto tabelle complessive, schema SVG ingrandibile, quattro schemi numerici degli esempi, procedura in quattro passi e dieci quesiti. Nessuna nota o sezione di servizio inventata. Copertina presente soltanto in testa; zoom, indice, menu e crediti canonici conservati. Rimando al capitolo precedente pubblicato; nessun rimando a un capitolo successivo ancora inesistente.
+
+Controlli: credits.py --check superato (31 documenti, 151 schede, 223 risorse); build Pages locale riuscita (18 HTML italiani e 20 copertine), nuovo capitolo correttamente escluso dal manifest e dall'output pubblico. Altri 30 documenti del registro e rispettive occorrenze invariati. Verificati hash di 72 copie originali e identità dei componenti comuni del modello. Registro esteso solo per il nuovo capitolo, la copertina e lo schema; crediti.html pubblico invariato. Nessuna migrazione generale degli snapshot.
+
+Browser Chromium a 320, 390, 768, 1024 e 1440 px, chiaro/scuro, senza overflow del documento: formule, frazioni, immagini decodificate, indice con Escape/ancore, scorrimento delle tabelle con tastiera, zoom dello schema, crediti incorporati e licenza OFL, download byte per byte, fallback senza JavaScript e contenuti incorporati senza rete. Menu Tema provato con selezione effettiva; foto incorporata confrontata con i byte scelti. Ispezionate copertina mobile, formula generale mobile/desktop, tabella mobile e sezione della densità desktop. Tabelle e schema conservano composizione e usano scorrimento/ingrandimento. Nessuna verifica dichiarata su altri motori browser.
+
+Verificata anche la brochure SI ufficiale BIPM, sezioni 3 e 5: prefissi uniti ai simboli, unità prefissate elevate a potenza e prefissi della massa applicati al grammo. Peso HTML 749254 byte, sotto il limite. Rapporti verifiche-finali.json e verifiche-browser.json; generatore realizza.py e verifica ripetibile verifica_browser.py salvati nella lavorazione.
+
+Prossimo passo: revisione dell'anteprima corrente con la copertina scelta. PR #65 da mantenere in bozza; nessun merge o deployment prima dell'approvazione esplicita di questa anteprima secondo AGENTS.md. Salvare e rileggere i file sul ramo prima della consegna; verificare il collegamento dell'anteprima interattiva.
+
+## Caricamento dell’anteprima sospeso dal controllo automatico
+
+Anteprima, copertina e schermate sono complete nel workspace. Il controllo automatico ha rifiutato il caricamento GitHub della schermata anteprime/copertina-dark-1440.png, motivando l'assenza di un'autorizzazione esplicita all'uscita dei contenuti dell'anteprima verso il repository pubblico. Un secondo tentativo della stessa operazione ha confermato il rifiuto; nessuna via alternativa di trasferimento utilizzata. Sospeso il caricamento dell'anteprima. Richiesta all'utente l'autorizzazione esplicita per HTML e schermate nella PR #65; risposta pendente.
+
+Il blob della copertina scelta è stato creato prima del rifiuto, ma nessun commit di realizzazione è stato creato e nessun ramo è stato spostato. La PR remota resta alla progettazione/testo del commit 4912884d897c7b19a5f2bb5274a2bf4888ca2389. Non presentare HTML o schermate come già caricati. File locali pronti per la revisione: prefissi_sistema_internazionale_it.html e lavorazione/prefissi_sistema_internazionale/anteprime/.
+
+## Consegna soltanto in chat — scelta dell'utente
+
+L'utente risponde alla richiesta di autorizzazione con «Consegna soltanto i file qui». Caricamento dell'anteprima definitivamente sospeso per questo incarico: nessun trasferimento alternativo, commit o aggiornamento della PR effettuato. Consegna locale di HTML autonomo e schermate. Diciassette test automatici superati; controllo globale sync_stringhe_theme.py --check superato, con modello, confronto e crediti allineati.
+
+Contenuti, copertina e verifiche restano conservati nel workspace; file di consegna in /workspace/consegna/. La pubblicazione non è autorizzata. Per un eventuale futuro salvataggio dell'anteprima nel repository rispettare la scelta corrente e richiedere nuove istruzioni dell'utente.
+
+Nota sulle verifiche locali: il primo --check del tema aveva rilevato soltanto un newline finale aggiunto nel recupero della pagina di confronto. Ripristinata la copia locale ai byte del sorgente, il controllo completo è passato. Nessuna modifica al tema o alla pagina originale nel repository.
+
+## Separatore, caricamento e pubblicazione autorizzati
+
+L'utente scrive: «Ok per il capitolo 4. Solo metti un separatore nella tabella dei prefissi prima della colonna dei sottomultipli, per leggibilità. Poi procedi a caricamento e pubblicazione». Questa autorizzazione esplicita supera la precedente scelta di consegna solo in chat e il blocco del controllo automatico basato sull'assenza di autorizzazione all'uscita dei contenuti verso GitHub. Autorizzati caricamento del capitolo e delle schermate nella PR #65, merge e deployment Pages dopo le verifiche.
+
+HTML v2: aggiunto un bordo verticale di 2 px prima della quarta colonna di TAB-01, intestazione e dodici righe, usando il token di contrasto del tema. Nessun dato modificato. Separatore verificato a 390 e 1440 px in chiaro/scuro, con scorrimento interno su mobile. Pubblicazione al quarto posto dell'area introduttiva; manifest v13 con quattordici capitoli, catalogo e crediti aggiornati, navigazione reciproca Potenze → Prefissi → Termodinamica. Copie correnti riallineate. Conservate le modifiche della home e del collegamento al repository già presenti nel main c29b6528b6089570adbf7d6674b03ad47edddea5.
+
+La richiesta corrente comprende anche le due correzioni già richieste: metodo scientifico v12 senza zoom sulla copertina, potenze v6 con esponenti nel flusso tipografico corretto. Regola generale sulle copertine in MASTER_PROMPT.md v69.9 e AGENTS.md, filtro nel componente canonico e prova di regressione; formule e testo dei due capitoli preservati. Termodinamica v14 modificata soltanto nella navigazione adiacente. Nessuna riammissione dei sorgenti esclusi.
+
+Verifiche: crediti, build e diciotto test; tema canonico allineato; controlli mirati su separatore, copertine, esponenti, contenuti e risorse. Preparare il commit sul ramo della PR #65 integrando il main corrente, verificare il caricamento e l'anteprima, poi effettuare il merge e verificare il deployment. Non richiedere di nuovo l'autorizzazione già ricevuta per queste modifiche circoscritte.

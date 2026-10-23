@@ -1,7 +1,7 @@
 # Progettazione — I prefissi del Sistema internazionale
 
-Versione v5 — 23 ottobre 2026. Capitolo 4 di **Introduzione alla fisica e alla misura**.
-[Bozza v3](bozza.md) pronta per la revisione; [schema corrente](risorse/schema-conversioni.svg) invariato. Le decisioni precedenti sono conservate nello [stato](stato.md) e in Git.
+Versione v7 — 23 ottobre 2026. Capitolo 4 di **Introduzione alla fisica e alla misura**.
+[Bozza v4](bozza.md), contenuto v3 autorizzato per la realizzazione; [HTML v2](bozza.html) approvato con separatore e autorizzato alla pubblicazione; [schema corrente](risorse/schema-conversioni.svg) invariato. Le decisioni precedenti sono conservate nello [stato](stato.md) e in Git.
 
 ## Indicazioni correnti dell'utente
 
@@ -10,7 +10,7 @@ Versione v5 — 23 ottobre 2026. Capitolo 4 di **Introduzione alla fisica e alla
 - Dalla sezione «Un prefisso è una potenza di dieci» usare le potenze dove utili, senza imporle a ogni numero.
 - Presentare formula, significato dei simboli e procedura in modo esplicito, affiancandole alla spiegazione discorsiva.
 - Aggiungere esempi svolti anche con unità derivate.
-- Non riutilizzare la copertina del metro: l'utente fornirà un'immagine nuova. Non cercare o generare alternative.
+- Copertina del metro ritirata. L'utente ha scelto la foto della colonia al microscopio, incorporata intera e con attribuzione Korinna / CC BY 4.0.
 
 ## Impostazione e visuali
 
@@ -18,13 +18,13 @@ Apertura sul cambio di unità: 1 m = 100 cm = 1000 mm. Il numero cambia, la lung
 
 | ID | Materiale corrente | Funzione |
 | --- | --- | --- |
-| COP-01 | Segnaposto per nuova immagine dell'utente; soggetto, didascalia e alt da definire dopo la ricezione. | Copertina pertinente, distinta dalle figure interne |
+| COP-01 | Foto scelta della colonia al microscopio, risorse/copertina-colonia.jpg, intera a 960 per 957 px; didascalia e alt descrittivi, nessun ingrandimento fisico inventato. | Copertina pertinente, distinta dalle figure interne |
 | TAB-02 | Tre colonne: scrittura iniziale, valore in metri in forma decimale, valore in metri con potenza di dieci. | Collegare intuitivamente le due scritture |
 | TAB-01 | Tabella originale dei 24 prefissi, nomi/simboli/esponenti e disposizione invariati. | Riferimento per gli esponenti p e q |
 | SCH-01 | SVG km–m–mm e cm–mm–µm, frecce nei due versi e fattori in potenze. | Leggere conversioni dirette e inverse |
 | TAB-03A | Equivalenze mg, g e kg. | Applicare i prefissi al grammo |
 | TAB-03B | Lunghezza, area e volume, fattori 10⁻², 10⁻⁴ e 10⁻⁶. | Riconoscere l'effetto dell'esponente dell'unità |
-| CONV-01–04 | Segnaposto di schemi numerici con dato, unità di arrivo e fattore prima dei calcoli. | Esplicitare l'impostazione dei quattro esempi |
+| CONV-01–04 | Schemi numerici realizzati come tabelle con dato, fattore e unità di arrivo prima dei calcoli. | Esplicitare l'impostazione dei quattro esempi |
 
 Gli schemi CONV non rappresentano apparecchi o oggetti: sono passaggi di equivalenze fra quantità assegnate. Non richiedono nuove fotografie. Composizione dello schema SVG da conservare su ogni dispositivo, con ingrandimento del tema nella futura integrazione.
 
@@ -51,4 +51,8 @@ Ogni esempio contiene dati, esponenti, schema numerico previsto, calcolo, unità
 
 ## Prossimo passo
 
-Revisione della bozza v3 e ricezione della nuova copertina. Prima dell'HTML seguire approvazione del testo, stima e via previsti dal master. Manifest e sito pubblico invariati; PR #65 in bozza.
+Revisione dell'anteprima HTML v1 con la copertina scelta. Il via alla realizzazione è stato ricevuto con «Ok genera»; l'approvazione dell'anteprima precede ogni rilascio. Manifest e sito pubblico invariati; PR #65 in bozza.
+
+## Pubblicazione autorizzata
+
+L’utente approva il capitolo e richiede il separatore prima dei sottomultipli, quindi caricamento e pubblicazione. TAB-01 conserva tutti i dati con separazione verticale prima della quarta colonna. Il vincolo di sola consegna locale è superato dall’autorizzazione corrente.

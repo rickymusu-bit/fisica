@@ -1,0 +1,62 @@
+{
+  "esito": "superato",
+  "prove": [
+    {
+      "width": 390,
+      "theme": "light",
+      "javascript": true,
+      "destinazione": "http://127.0.0.1:36097/index.html",
+      "esito": "superato"
+    },
+    {
+      "width": 390,
+      "theme": "default scuro",
+      "javascript": false,
+      "destinazione": "http://127.0.0.1:36097/index.html",
+      "esito": "superato"
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "javascript": true,
+      "destinazione": "http://127.0.0.1:36097/index.html",
+      "esito": "superato"
+    },
+    {
+      "width": 390,
+      "theme": "default scuro",
+      "javascript": false,
+      "destinazione": "http://127.0.0.1:36097/index.html",
+      "esito": "superato"
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "javascript": true,
+      "destinazione": "http://127.0.0.1:36097/index.html",
+      "esito": "superato"
+    },
+    {
+      "width": 1440,
+      "theme": "default scuro",
+      "javascript": false,
+      "destinazione": "http://127.0.0.1:36097/index.html",
+      "esito": "superato"
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "javascript": true,
+      "destinazione": "http://127.0.0.1:36097/index.html",
+      "esito": "superato"
+    },
+    {
+      "width": 1440,
+      "theme": "default scuro",
+      "javascript": false,
+      "destinazione": "http://127.0.0.1:36097/index.html",
+      "esito": "superato"
+    }
+  ],
+  "anteprima_e_destinazione_relative": "superate"
+}

@@ -1,0 +1,59 @@
+{
+  "widths": [
+    {
+      "width": 320,
+      "overflow": false,
+      "mathml": 53
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "mathml": 53
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "mathml": 53
+    },
+    {
+      "width": 1024,
+      "overflow": false,
+      "mathml": 53
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "mathml": 53
+    }
+  ],
+  "screenshots": [
+    "copertina-dark-390.png",
+    "formula-dark-390.png",
+    "tabella-dark-390.png",
+    "esempio-dark-390.png",
+    "copertina-light-390.png",
+    "formula-light-390.png",
+    "tabella-light-390.png",
+    "esempio-light-390.png",
+    "copertina-dark-1440.png",
+    "formula-dark-1440.png",
+    "tabella-dark-1440.png",
+    "esempio-dark-1440.png",
+    "copertina-light-1440.png",
+    "formula-light-1440.png",
+    "tabella-light-1440.png",
+    "esempio-light-1440.png",
+    "formula-generale-light-390.png",
+    "formula-generale-dark-390.png",
+    "formula-generale-light-1440.png",
+    "formula-generale-dark-1440.png"
+  ],
+  "errors": [],
+  "cover": "Korinna, CC BY 4.0; fotografia scelta, intera",
+  "download": "byte identici al documento sorgente",
+  "withoutJavascript": "testo, MathML, zoom e crediti disponibili",
+  "externalAssets": [],
+  "offline": "testo, immagini incorporate, font e MathML disponibili senza rete",
+  "theme_menu": "selezione effettiva Chiaro e chiusura Escape verificate",
+  "cover_integrity": "byte incorporati identici al JPEG scelto"
+}

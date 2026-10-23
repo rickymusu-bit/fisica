@@ -141,3 +141,7 @@ Operazione autorizzata in corso: completamento dei controlli remoti, merge della
 ## Navigazione per la pubblicazione del capitolo sulle grandezze — 22 ottobre 2026
 
 Richiesta esplicita dell’utente di integrare e pubblicare la PR #59 dopo l’approvazione dell’anteprima. Aggiornato soltanto il rimando adiacente per la sequenza Metodo scientifico → Grandezze fisiche e SI → Sistemi termodinamici; versione interna incrementata, data editoriale e corpo didattico conservati. Dettagli e verifiche in `../grandezze_fisiche_sistema_internazionale/stato.md`.
+
+## Copertina senza zoom — revisione v12
+
+Richiesta dell'utente: rimuovere il tasto zoom dalla copertina e adottare la regola generale «mai mettere lo zoom su una copertina». Rimosso il pannello zoom e la duplicazione della foto; immagine principale incorporata byte per byte invariata, corpo didattico, simulazione e relativi comandi preservati. Copia di lavorazione aggiornata con il proprio snapshot dei crediti. Filtro preventivo nel componente media comune, regola in master v69.9 e AGENTS.md, test dedicato che preserva lo zoom delle figure nel corpo. La successiva richiesta di caricamento e pubblicazione autorizza il rilascio con il capitolo 4; verifiche a 390/1440 px chiaro/scuro e controlli dei contenuti completati.

@@ -1,6 +1,6 @@
 # PROMPT MASTER — DISPENSE VISUALI DI FISICA PER IL BIENNIO DEGLI ISTITUTI TECNICI
 
-VERSIONE DEL PROMPT: v69.8 — 23/10/2026, ore 11:40 (Europe/Rome)
+VERSIONE DEL PROMPT: v69.9 — 23/10/2026, ore 12:10 (Europe/Rome)
 
 Questo master raccoglie le regole della dispensa e la procedura per realizzarla con il minor lavoro ripetuto possibile. Le istruzioni relative a immagini, video, traduzioni e simulazioni si applicano quando quei materiali fanno parte della richiesta. Non aggiungere contenuti o lavorazioni solo perché il master ne descrive la gestione.
 
@@ -35,7 +35,7 @@ L’unità di pianificazione e realizzazione è il capitolo, sempre monografico:
 Ogni capitolo, esistente o futuro, rispetta questo ordine:
 
 1. **Titolo:** identifica chiaramente l'unico argomento.
-2. **Immagine di copertina:** pertinente all'argomento, non riutilizzata all'interno del testo dello stesso capitolo, neppure con un semplice ritaglio o una diversa impaginazione.
+2. **Immagine di copertina:** pertinente all'argomento, non riutilizzata all'interno del testo dello stesso capitolo, neppure con un semplice ritaglio o una diversa impaginazione. Le copertine non devono mai avere un comando o una modalità di zoom/ingrandimento; la regola vale anche quando l’immagine è ingrandibile nel corpo di altri capitoli.
 3. **Teoria:** spiegazione discorsiva secondo A1, articolabile in paragrafi, con visuali e formule integrate nei punti utili.
 4. **Applicazioni (opzionali):** situazioni concrete spiegate e illustrate, soltanto se richieste o concordate nella bozza.
 5. **Esercizi svolti (opzionali):** situazione, dati, ragionamento, passaggi e interpretazione, secondo A5, soltanto se richiesti o concordati.
@@ -90,7 +90,7 @@ Il risultato finale resta un HTML autonomo e completo, salvo diversa richiesta e
 
 Usa HTML5 con `<!DOCTYPE html>`, `<html lang="it">`, codifica UTF-8, meta viewport, titolo, CSS incorporato e meta versione. Incorpora le immagini e il codice necessari per il funzionamento offline quando possibile. Preferisci HTML, CSS e JavaScript standard, evitando framework e dipendenze esterne non indispensabili.
 
-Progetta fin dall’inizio per smartphone, tablet, notebook e desktop. Mantieni una larghezza di lettura confortevole su desktop e font sufficientemente grandi. Le immagini rispettano almeno max-width:100% e height:auto, senza deformazioni. Su smartphone generalmente usa una sola immagine per riga con didascalia vicina; su schermi grandi puoi affiancare immagini o confronti quando è utile.
+Progetta fin dall’inizio per smartphone, tablet, notebook e desktop. Mantieni una larghezza di lettura confortevole su desktop e font sufficientemente grandi. Le immagini rispettano almeno max-width:100% e height:auto, senza deformazioni. Il comando di ingrandimento delle immagini è riservato alle figure nel corpo: non inserirlo nelle copertine e non duplicarne l’immagine in un pannello di zoom. Su smartphone generalmente usa una sola immagine per riga con didascalia vicina; su schermi grandi puoi affiancare immagini o confronti quando è utile.
 
 Tabelle, formule e grafici devono adattarsi o avere scorrimento orizzontale. Per gli elementi ricostruiti, preferisci prima una riorganizzazione leggibile: disposizione verticale, elementi impilati, legenda spostata, etichette abbreviate senza cambiare significato o maggiore altezza. Non limitarti a rimpicciolire una composizione desktop. Usa lo scorrimento quando non esiste una soluzione migliore; la leggibilità prevale sulla disposizione originale.
 

@@ -38,7 +38,7 @@ EXTRA = '''<style data-component="tabelle-notazione">
 .video-thumb .play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:64px;height:48px;border-radius:12px;background:rgb(0 0 0 / .8)}
 .video-thumb .play:after{content:'';position:absolute;left:27px;top:14px;border-left:17px solid white;border-top:10px solid transparent;border-bottom:10px solid transparent}
 .video-thumb:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
-.notation-equation .math{overflow-x:auto;max-width:100%;white-space:nowrap;text-align:center;padding:8px 4px}
+.notation-equation .math{display:block;overflow-x:auto;max-width:100%;white-space:nowrap;text-align:center;padding:8px 4px}
 .notation-equation .fraction{display:inline-flex;flex-direction:column;text-align:center;vertical-align:middle;line-height:1.35;margin:0 .15em}
 .notation-equation .fraction>span:first-child{border-bottom:1px solid currentColor;padding:0 .2em}
 .notation-equation .fraction>span:last-child{padding:0 .2em}
@@ -174,7 +174,7 @@ def render():
         if node.tag == 'title':
             edits.append((node.start, node.end, '<title>' + TITLE + ' — Stringhe</title>'))
         elif node.tag == 'meta' and node.attrs.get('name') in {'version', 'date', 'description'}:
-            value = {'version':'v4', 'date':'2026-10-23', 'description':'Potenze di dieci, notazione scientifica, confronto fra lunghezze e operazioni con gli esponenti.'}[node.attrs['name']]
+            value = {'version':'v6', 'date':'2026-10-23', 'description':'Potenze di dieci, notazione scientifica, confronto fra lunghezze e operazioni con gli esponenti.'}[node.attrs['name']]
             edits.append((node.start, node.end, '<meta name="' + node.attrs['name'] + '" content="' + value + '">'))
         elif node.tag == 'figure' and node.has_class('cover'):
             edits.append((node.start, node.end, cover))
@@ -193,14 +193,14 @@ def render():
             index_markup = re.sub(r'<nav class="sidebar-nav"[\s\S]*?</nav>', lambda _: nav, index_markup)
             edits.append((node.start,node.end,navigation_header('chapter',NAME,index_markup)))
         elif node.tag == 'footer' and node.has_class('footer'):
-            edits.append((node.start,node.end,'<footer class="footer">Versione v4 — 23 ottobre 2026</footer>'))
+            edits.append((node.start,node.end,'<footer class="footer">Versione v6 — 23 ottobre 2026</footer>'))
     for start,end,value in sorted(edits,reverse=True):
         template = template[:start] + value + template[end:]
     template = template.replace('Nome dell’area tematica',AREA).replace('Titolo del capitolo',TITLE)
     template = re.sub(r'<!-- MODELLO CANONICO[\s\S]*?-->', '<!-- Anteprima dal testo v2 approvato e dal modello canonico Stringhe v23. -->', template,count=1)
     template = template.replace('</head>',EXTRA + '</head>',1)
     prev = ('<nav class="chapter-navigation" aria-label="Navigazione tra capitoli"><a rel="prev" href="grandezze_fisiche_sistema_internazionale_it.html" data-site-path="grandezze_fisiche_sistema_internazionale_it.html">'
-            '<span>← Capitolo precedente</span><small>Le grandezze fisiche e il Sistema internazionale</small></a><a rel="next" href="termodinamica_sistemi_it.html" data-site-path="termodinamica_sistemi_it.html"><span>Capitolo successivo →</span><small>La termodinamica e i sistemi termodinamici</small></a></nav>')
+            '<span>← Capitolo precedente</span><small>Le grandezze fisiche e il Sistema internazionale</small></a><a rel="next" href="prefissi_sistema_internazionale_it.html" data-site-path="prefissi_sistema_internazionale_it.html"><span>Capitolo successivo →</span><small>I prefissi del Sistema internazionale</small></a></nav>')
     template = template.replace('<!-- chapter-navigation:end -->',prev + '<!-- chapter-navigation:end -->',1)
     # Non vi sono GIF o nuovi zoom: i comandi canonici sono già nel modello.
     return apply_youtube_videos(template)

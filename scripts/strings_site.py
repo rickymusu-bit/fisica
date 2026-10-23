@@ -56,6 +56,7 @@ a{color:inherit}button,input{font:inherit}button{cursor:pointer}a:focus-visible,
 .top-inner{max-width:1160px;margin:auto;padding:12px 24px;display:flex;align-items:center;justify-content:space-between;gap:14px}
 .brand{display:inline-flex;align-items:center;gap:12px;text-decoration:none;font-weight:750;font-size:22px;letter-spacing:-.045em}
 .brand svg{width:48px;height:33px;flex-shrink:0}
+.home-title-link{display:inline-flex;align-items:center;min-height:44px;text-decoration:none}
 .site-nav{display:flex;align-items:center;gap:12px;flex-wrap:wrap}.site-nav>a,.lang>summary{padding:8px 12px;text-decoration:none;border-radius:11px;font-size:14px;font-weight:600;list-style:none;cursor:pointer}.site-nav>a:hover,.lang>summary:hover{background:var(--surface-soft)}.lang{position:relative}.lang>summary{border:1px solid var(--line);background:var(--surface)}.lang>summary::-webkit-details-marker{display:none}.lang-menu{position:absolute;right:0;top:calc(100% + 8px);min-width:170px;background:var(--surface);border:1px solid var(--line);border-radius:12px;box-shadow:var(--shadow);padding:12px;z-index:22;font-size:14px}
 main{max-width:1160px;margin:auto;padding:36px 24px 80px}h1,h2,h3,p{margin-top:0}h1{font-size:clamp(48px,8vw,96px);line-height:1.02;letter-spacing:-.065em;margin-bottom:16px}h2{font-size:clamp(25px,3vw,34px);line-height:1.18;letter-spacing:-.04em}h3{font-size:18px;line-height:1.4}.eyebrow{color:var(--blue);font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.14em}
 .subtitle{font-size:clamp(20px,3vw,29px);color:var(--accent);max-width:660px;line-height:1.45}.hero{position:relative;overflow:hidden;border-radius:26px;border:1px solid var(--line);background:var(--surface);padding:clamp(25px,5vw,60px);box-shadow:var(--shadow)}.hero-copy{position:relative;z-index:2}
@@ -158,7 +159,7 @@ def render_home(source, covers, allowed):
         for x in recent_chapters(items))
     body = (f'<section class="hero home-title home-intro">'
             '<div class="hero-copy">'
-            f'<div class="hero-title">{logo()}<h1>Stringhe</h1></div><p class="subtitle">L’essenziale della Fisica</p></div>'
+            f'<div class="hero-title">{logo()}<h1><a class="home-title-link" href="index.html" aria-label="Stringhe, home">Stringhe</a></h1></div><p class="subtitle">L’essenziale della Fisica</p></div>'
             f'<figure class="home-cover" style="--cover-ratio:{first["width"]/first["height"]:.8f}"><img id="random-cover" src="{e(first["src"])}" alt="{e(first["alt"])}" width="{first["width"]}" height="{first["height"]}" loading="eager">'
             f'<figcaption id="cover-caption">{e(first["caption"])}</figcaption></figure></section>'
             '<section class="actions" aria-label="Accessi principali">'
