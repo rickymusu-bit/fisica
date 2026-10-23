@@ -20,7 +20,7 @@ from stringhe_theme import navigation_header
 NAME = 'prefissi_sistema_internazionale_it.html'
 TITLE = 'I prefissi del Sistema internazionale'
 AREA = 'Introduzione alla fisica e alla misura'
-VERSION = 'v2'
+VERSION = 'v3'
 TABLES = {'TAB-01': 'Prefissi SI: multipli e sottomultipli',
           'TAB-02': 'La stessa lunghezza in due scritture',
           'TAB-03A': 'Equivalenze della massa',
@@ -207,7 +207,7 @@ def render():
             pending = block; continue
         if block.startswith('Didascalia: '):
             caption = block[len('Didascalia: '):]
-            if caption.startswith('Colonia di batteri e funghi'):
+            if caption.startswith(('Colonia di batteri e funghi', 'Alghe e batteri osservati')):
                 continue
             if table_key:
                 body.append(table(pending, table_key, caption)); pending = table_key = None
@@ -233,10 +233,10 @@ def render():
     assert len(headings) == 6 and pending is None and table_key is None
     assert formulas == 18, formulas
     meta = json.loads((WORK / 'risorse/copertina-fonte.json').read_text())
-    uri = 'data:image/jpeg;base64,' + base64.b64encode((WORK / 'risorse/copertina-colonia.jpg').read_bytes()).decode()
+    uri = 'data:image/jpeg;base64,' + base64.b64encode((WORK / 'risorse' / meta['file']).read_bytes()).decode()
     attrs = {'source':meta['source'],'author':meta['author'],'license':meta['license'],'license-url':meta['license_url'],'changes':meta['changes']}
     metadata = ' '.join('data-credit-' + k + '="' + escape(v,quote=True) + '"' for k,v in attrs.items())
-    cover = '<figure class="visual cover photo" id="cop-01" ' + metadata + '><div class="image-frame"><div class="overview"><img src="' + uri + '" alt="Colonia di batteri e funghi al microscopio, con ramificazioni nel campo circolare." width="960" height="957" decoding="async"></div></div><figcaption>Colonia di batteri e funghi osservata al microscopio, con strutture ramificate.</figcaption></figure>'
+    cover = '<figure class="visual cover photo" id="cop-01" ' + metadata + '><div class="image-frame"><div class="overview"><img src="' + uri + '" alt="Alghe e batteri osservati al microscopio elettronico a scansione; in basso è visibile la barra di scala di 5 µm." width="960" height="768" decoding="async"></div></div><figcaption>Alghe e batteri osservati al microscopio elettronico a scansione. La barra di scala indica 5 µm.</figcaption></figure>'
     doc = credits.Document(template)
     edits = []
     for node in doc.root.descendants():

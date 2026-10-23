@@ -42,18 +42,12 @@
     "copertina-light-1440.png",
     "formula-light-1440.png",
     "tabella-light-1440.png",
-    "esempio-light-1440.png",
-    "formula-generale-light-390.png",
-    "formula-generale-dark-390.png",
-    "formula-generale-light-1440.png",
-    "formula-generale-dark-1440.png"
+    "esempio-light-1440.png"
   ],
   "errors": [],
-  "cover": "Korinna, CC BY 4.0; fotografia scelta, intera",
+  "cover": "SecretDisc, CC BY-SA 3.0; nuova fotografia scelta, intera, 960 per 768 px",
   "download": "byte identici al documento sorgente",
   "withoutJavascript": "testo, MathML, zoom e crediti disponibili",
   "externalAssets": [],
-  "offline": "testo, immagini incorporate, font e MathML disponibili senza rete",
-  "theme_menu": "selezione effettiva Chiaro e chiusura Escape verificate",
-  "cover_integrity": "byte incorporati identici al JPEG scelto"
+  "offline": "testo, immagini incorporate, font e MathML disponibili senza rete"
 }

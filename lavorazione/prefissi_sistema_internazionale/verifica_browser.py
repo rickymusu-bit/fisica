@@ -17,7 +17,7 @@ URL = 'https://stringhe-preview.invalid/' + NAME
 def main():
     out = WORK / 'anteprime'
     out.mkdir(exist_ok=True)
-    report = {'widths':[], 'screenshots':[], 'errors':[], 'cover':'Korinna, CC BY 4.0; fotografia scelta, intera'}
+    report = {'widths':[], 'screenshots':[], 'errors':[], 'cover':'SecretDisc, CC BY-SA 3.0; nuova fotografia scelta, intera, 960 per 768 px'}
     class QuietHandler(SimpleHTTPRequestHandler):
         def log_message(self,*args): pass
     server = ThreadingHTTPServer(('127.0.0.1',0),functools.partial(QuietHandler,directory=str(ROOT)))
@@ -39,6 +39,9 @@ def main():
             page.goto(url)
             page.evaluate('document.fonts.ready')
             assert page.evaluate('document.documentElement.scrollWidth <= innerWidth'), width
+            assert page.locator('.cover .image-zoom, .cover summary, .cover button').count() == 0
+            assert page.locator('.cover img').count() == 1
+            assert page.locator('.cover img').evaluate('(e)=>e.naturalWidth === 960 && e.naturalHeight === 768')
             assert page.locator('math').count() > 30
             assert page.locator('mfrac').count() == 2
             assert page.locator('.questions > li').count() == 10

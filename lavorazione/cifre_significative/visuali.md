@@ -1,6 +1,6 @@
 # Capitolo 5 — Le cifre significative: proposta di contenuti e visuali
 
-Versione v1 — 23 ottobre 2026 (Europe/Rome). Proposta da concordare; non è la bozza del capitolo.
+Versione v2 — 23 ottobre 2026 (Europe/Rome). Impostazione accettata con «Procedi» e copertina scelta; bozza v1 in bozza.md.
 
 ## Domanda e confini
 
@@ -23,7 +23,7 @@ Trattare significato delle cifre significative, conteggio degli zeri, distinzion
 
 | ID | Materiale | Funzione e posizione | Scelta |
 | --- | --- | --- | --- |
-| COP-01 | Nuova fotografia di una bilancia digitale con un oggetto sul piatto e display leggibile | Copertina pertinente alla lettura di un risultato; nessuna deduzione dell'incertezza dal solo display | Da fornire/scegliere dall'utente. Mai zoom; immagine intera, non ripetuta nel corpo |
+| COP-01 | Fotografia dello strumento di misura egizio scelta dall’utente | Copertina pertinente alla misura e alle suddivisioni di una scala; nessuna precisione dedotta dalla foto | Scelta esplicita: Egyptian measuring tool.jpg, Uriah Welcome, CC BY 2.0; risorse/copertina-egizia.jpg. Mai zoom; immagine intera, non ripetuta nel corpo |
 | FIG-01 | Confronto numerico originale 12,4 cm / 12,40 cm | Apertura: ruolo dello zero finale | Proposto riuso dello SVG esistente, senza ridisegno |
 | TAB-01 | Tabella originale «Leggere gli zeri nella scrittura di una misura» | Conteggio: sette casi e motivazioni | Proposto riuso di righe e valori |
 | TAB-02 | Tabella originale dell'arrotondamento | Procedura: quattro casi, compreso il riporto | Proposto riuso |

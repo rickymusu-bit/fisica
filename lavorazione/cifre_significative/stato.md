@@ -30,3 +30,13 @@ Confermata corrispondenza del capitolo 5 con il piano. Controllati i calcoli ori
 Checklist pertinente: A1–A5; A6 nella fase HTML; B1.1–B2, B4–B6; C1–C4 per le visuali effettive; D1–D2.1. Consultati STILE_DISPENSE.md, esempio_irraggiamento.md e standard dei visuali.
 
 Prossimo passo: concordare proposta e materiali, ricevere la copertina scelta; quindi scrivere bozza.md con segnaposto e domande definitive. Non sono stati creati HTML né modificati manifest, catalogo, capitoli pubblicati o master. PR di progettazione da mantenere in bozza; autorizzazioni del capitolo 4 non trasferite a questo capitolo.
+
+## Copertina scelta e bozza v1 — 23 ottobre 2026
+
+L’utente sceglie Egyptian measuring tool.jpg e scrive «Procedi» dopo la proposta del capitolo: autorizzata la stesura secondo l’impostazione proposta. La foto della bilancia digitale è superata. Copertina scelta: miniatura 960 per 540 px, intera, senza zoom. Fonte Wikimedia Commons, autore Uriah Welcome, CC BY 2.0, provenienza Flickr e revisione della licenza documentate sulla pagina originale. URL, hash e metadati in risorse/copertina-fonte.json; foto in risorse/copertina-egizia.jpg. Non ricavata una precisione di misura o una datazione dalla fotografia.
+
+[Bozza v1](bozza.md) completa con confronto 12,4/12,40 cm, tre tabelle originali, due procedure numerate, formule generali e calcoli dell’esempio conservati, conversione esatta e dieci domande; quesiti originali 8–13 ripresi nelle prime sei. Calcoli controllati con Decimal; note brevi per convenzione del 5 e rapporto con l’incertezza. Nessun video o simulazione.
+
+La verifica dell’immagine PNG della cassa nel registro unico conferma fonte e licenza non documentate (asset-b17b9591b7a9cc34e9eec460fe2c2216c15619090af2f8bbdc9e44c01079b196). Il segnaposto FIG-02 rimane nella bozza; non inventata un’attribuzione e nessuna immagine sostitutiva cercata o generata. Provenienza da risolvere prima dell’integrazione della figura in un HTML da pubblicare.
+
+Prossimo passo: revisione del testo corrente. Non attribuire al «Procedi» precedente un’approvazione di questa nuova bozza né della pubblicazione. HTML del capitolo 5 non realizzato; manifest e catalogo invariati. Le correzioni al capitolo 4 richieste nello stesso messaggio sono documentate nel relativo stato.
