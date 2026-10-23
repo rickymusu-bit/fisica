@@ -28,7 +28,7 @@ Il **Sistema internazionale di unità**, abbreviato **SI**, fornisce questo ling
 
 La fotografia di copertina richiama un problema concreto nella scelta dei riferimenti. Per molto tempo la definizione del chilogrammo dipese dalla massa di un campione metallico custodito con cura. Un oggetto, però, può subire piccole variazioni. Dal 2019 il chilogrammo è definito fissando il valore della costante di Planck: il riferimento non è più la massa di un singolo manufatto.
 
-Le definizioni attuali del SI si basano su valori fissati di costanti fisiche. Per esempio, il metro è collegato alla velocità della luce nel vuoto e il secondo a una particolare frequenza dell’atomo di cesio. Gli strumenti consentono di mettere in pratica queste definizioni; per misurare con un righello non occorre riprodurre in classe l’apparato con cui si realizza il metro.
+Le definizioni attuali del SI si basano su valori fissati di costanti fisiche. Per esempio, il metro è collegato alla velocità della luce nel vuoto e il secondo a una particolare frequenza dell’atomo di cesio. Gli strumenti consentono di mettere in pratica queste definizioni.
 
 ## Le sette grandezze di base
 
@@ -72,11 +72,11 @@ Il terreno di gioco del Camp Nou è un esempio concreto di superficie rettangola
 A=105\,\mathrm{m}\cdot68\,\mathrm{m}=7140\,\mathrm{m}^{2}
 \]
 
-Il simbolo A indica l’area. Il risultato, 7140 m², corrisponde a 7140 quadrati con il lato lungo un metro. Ciascuna metà campo occupa 3570 m²: l’intero terreno di gioco ha un’area doppia. Dire soltanto «7140 metri» non descriverebbe la stessa grandezza.
+Il simbolo A indica l’area. Il risultato, 7140 m², corrisponde a 7140 quadrati con il lato lungo un metro. Dire soltanto «7140 metri» non descriverebbe la stessa grandezza.
 
 Il volume combina tre lunghezze e si esprime in **metri cubi**, m³. La velocità, invece, mette in relazione una distanza con il tempo impiegato a percorrerla: la sua unità SI è il **metro al secondo**, m/s. Il simbolo m/s dice che stiamo rapportando una lunghezza a un intervallo di tempo; m² dice che abbiamo moltiplicato due lunghezze. Le unità conservano quindi una traccia del ragionamento con cui costruiamo una grandezza.
 
-Alcune unità derivate hanno un nome speciale. Per esempio, la forza si misura in newton e l’energia in joule. Questi nomi non aggiungono nuove unità di base: indicano combinazioni di quelle già presenti nel SI. La tabella raccoglie anche grandezze che incontreremo in seguito; per ora serve a riconoscere il legame tra il nome di una grandezza e la sua unità, senza anticiparne le leggi fisiche.
+Alcune unità derivate hanno un nome speciale. Per esempio, la forza si misura in newton e l’energia in joule. Questi nomi non aggiungono nuove unità di base: indicano combinazioni di quelle già presenti nel SI.
 
 [TAB-02 — Tabella delle unità derivate del sorgente, con abbinamenti conservati. Le relazioni più articolate del sorgente non sono sviluppate in questo capitolo introduttivo.]
 

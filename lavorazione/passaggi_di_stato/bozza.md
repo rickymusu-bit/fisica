@@ -124,7 +124,7 @@ Didascalia A3: Il circuito primario trasferisce energia al secondario senza mesc
 
 Il vapore raggiunge la **turbina** e la fa ruotare. La turbina aziona il **generatore elettrico**. Dopo la turbina, il vapore passa nel **condensatore**, dove cede energia e torna liquido; una pompa rimette l’acqua in circolo.
 
-Un terzo circuito porta via energia dal condensatore usando acqua di raffreddamento. I tre circuiti svolgono quindi compiti distinti: trasportare energia dal reattore, far lavorare la turbina e cedere all'ambiente l'energia che non diventa lavoro elettrico. Il principio dei passaggi di stato rimane lo stesso: l'acqua riceve energia quando vaporizza e la cede quando condensa.[^nota-6]
+Un terzo circuito porta via energia dal condensatore usando acqua di raffreddamento. I tre circuiti svolgono quindi compiti distinti: trasportare energia dal reattore, far lavorare la turbina e cedere all'ambiente l'energia che non diventa lavoro elettrico. Il principio dei passaggi di stato rimane lo stesso: l'acqua riceve energia quando vaporizza e la cede quando condensa.
 
 ## Esempio svolto: dal ghiaccio al vapore
 
@@ -246,9 +246,8 @@ Per confrontare questa energia con un consumo familiare, 1,50 GJ corrispondono a
 [^nota-circuiti-pwr]: Lo schema mostra una centrale ad acqua pressurizzata, PWR. L’acqua del circuito primario è mantenuta a pressione elevata per restare liquida; il vapore si forma nel circuito secondario, non nel reattore. Il passaggio di energia fra i circuiti avviene attraverso uno scambiatore.
 
 
-[^nota-6]: Nella centrale PWR le temperature e le pressioni operative sono diverse da quelle della curva dell’acqua a pressione atmosferica usata nella teoria.
 
-[^nota-esempio]: La massa di 500 kg è ipotizzata per il problema, non misurata dalla fotografia. Il modello considera acqua pura a pressione atmosferica ordinaria; trascura dispersioni ed energia assorbita dalle attrezzature, così tutta l’energia calcolata va al materiale.
+[^nota-esempio]: Il modello considera acqua pura a pressione atmosferica ordinaria; trascura dispersioni ed energia assorbita dalle attrezzature, così tutta l’energia calcolata va al materiale.
 
 [^nota-confronti-intermedi]: Per dare una misura di questo contributo, 167 MJ basterebbero a riscaldare gli stessi 500 kg d’acqua liquida di circa 80 K, nel modello senza dispersioni.
 
@@ -258,4 +257,4 @@ Per confrontare questa energia con un consumo familiare, 1,50 GJ corrispondono a
 
 [^nota-rapporto-vaporizzazione-riscaldamento]: La vaporizzazione richiede circa 5,40 volte l’energia usata per riscaldare la stessa acqua da 0 a 100 °C.
 
-[^nota-consumo-casa]: Fonte: [ARERA, Sintesi della Relazione annuale 2025, p. 36 (pagina 38 del PDF), dati 2024](https://www.arera.it/fileadmin/allegati/relaz_ann/25/Sintesi_Relazione_Annuale_2025_10settembre.pdf#page=38): consumo medio unitario delle famiglie pari a 1.930 kWh/anno, considerando l’insieme dei mercati di fornitura. Il dato è riferito alle utenze elettriche domestiche e include abitazioni principali e altre utenze domestiche: non rappresenta il consumo energetico totale dell’abitazione comprensivo di gas o altri combustibili. Per il confronto: 1 kWh = 3,60 MJ; 1,5045 GJ corrispondono a circa 418 kWh e, rispetto a 1,93 MWh/anno, a circa 2,6 mesi. La ripartizione del consumo annuo in mesi è una media, non una previsione della singola casa.
+[^nota-consumo-casa]: Fonte: [ARERA, Sintesi della Relazione annuale 2025, p. 36 (pagina 38 del PDF), dati 2024](https://www.arera.it/fileadmin/allegati/relaz_ann/25/Sintesi_Relazione_Annuale_2025_10settembre.pdf#page=38): consumo medio unitario delle famiglie pari a 1.930 kWh/anno, considerando l’insieme dei mercati di fornitura. Il dato è riferito alle utenze elettriche domestiche e include abitazioni principali e altre utenze domestiche: non rappresenta il consumo energetico totale dell’abitazione comprensivo di gas o altri combustibili. Per il confronto: 1 kWh = 3,60 MJ; 1,5045 GJ corrispondono a circa 418 kWh e, rispetto a 1,93 MWh/anno, a circa 2,6 mesi.

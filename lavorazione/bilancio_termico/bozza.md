@@ -136,7 +136,7 @@ La regola resta la stessa: sommare i calori scambiati, ciascuno con il proprio s
 
 [^2]: Consideriamo trascurabili gli scambi con l’ambiente, l’evaporazione e il lavoro meccanico. Nel primo modello trascuriamo anche lo scambio con la tazza; nell’ultimo lo includiamo. La temperatura calcolata descrive l’equilibrio fra le parti considerate, prima che il raffreddamento verso l’ambiente diventi rilevante.
 
-[^3]: Le curve sono previsioni illustrative per 100 g di caffè inizialmente a 80 °C e 50 g di latte a 20 °C, con calori specifici uguali. La differenza fra le temperature si riduce di un fattore di circa 2,7 ogni 60 s: questa rapidità è un’ipotesi del modello, non un tempo misurato. Si trascurano gli scambi con tazza e ambiente.
+[^3]: Le curve sono previsioni illustrative per 100 g di caffè inizialmente a 80 °C e 50 g di latte a 20 °C, con calori specifici uguali. Si trascurano gli scambi con tazza e ambiente.
 
 ---
 

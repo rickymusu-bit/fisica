@@ -1,5 +1,11 @@
 # Stato — Passaggi di stato
 
+## Revisione corrente — tagli delle precisazioni approvati, 23 ottobre 2026
+
+L’utente ha approvato integralmente i 24 tagli proposti in chat con «Approvo, cancella tutti». Applicati a questo capitolo i punti 15, 16, 17; HTML corrente **v24**, data editoriale 23 ottobre 2026. Aggiornate le copie di lavorazione pertinenti, rimossi i richiami delle note eliminate e rinumerate quelle rimaste conservando le ancore. Master v69.6, riferimenti di stile v6 e campione v2 consultati; tema comune, formule, dati, immagini e simulazioni conservati.
+
+Ramo `revisione/tagli-precisazioni`, derivato dal main aggiornato. Verifiche e schermate desktop/mobile nella [revisione condivisa](../sito/revisione-precisazioni/index.html). Crediti, tema, build e 14 test superati. L’utente ha autorizzato esplicitamente la pubblicazione dell’anteprima corrente con «Pubblica». Autorizzati merge della PR #62 e deployment GitHub Pages; nessuna ulteriore conferma necessaria. Controllo remoto della revisione 033919d65e35302b572c4b965f815ef5b24c4759 superato (Actions 39897584436). Esito del rilascio e verifica dei 12 URL pubblici da registrare nella [PR #62](https://github.com/rickymusu-bit/fisica/pull/62).
+
 ## Revisione corrente — frecce continue nello schema
 
 Richiesta esplicita del 20 ottobre 2026: sostituire le frecce tratteggiate con frecce continue nello schema dei passaggi di stato. Rimosso il tratteggio dagli otto percorsi blu (tre frecce di trasformazione e freccia della legenda, aste e punte), nel sorgente SVG triangolare e nelle due immagini incorporate del capitolo e della bozza HTML. Geometria, direzioni, colori e testi invariati; variante verticale storica non modificata. Capitolo v23; master v69.1 e modello v20 conservati. Revisione sul ramo della PR #49, insieme ai nuovi colori della curva già mostrati e ancora da approvare. Nessun merge o Pages: Allineamento tema e crediti, build e dodici test superati. Verifica mirata del browser su mobile e desktop nei due temi: schema compatto e ingrandito corretti, nessun errore JavaScript o overflow. Confronto automatico: SVG identico all’originale salvo la rimozione dei tratteggi, medesima immagine nelle due viste. Schermate `schema-frecce-continue-*` in `lavorazione/sito/schermate`. Anteprima sul ramo isolato in preparazione; resta richiesta l’approvazione prima di pubblicare.

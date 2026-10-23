@@ -22,7 +22,7 @@ La **temperatura** è la grandezza fisica che permette di confrontare lo stato t
 
 Quando due corpi a temperature diverse vengono messi in contatto termico, tendono a raggiungere una temperatura comune. Se non intervengono altri cambiamenti, la differenza si riduce fino a scomparire. Si parla allora di **equilibrio termico**: i corpi hanno la stessa temperatura e non c’è più un trasferimento netto di energia tra loro dovuto a una differenza di temperatura.
 
-Questo è il motivo per cui occorre attendere prima di leggere un termometro per contatto. All’inizio la sua parte sensibile sta ancora cambiando temperatura; all’equilibrio, ha raggiunto quella della zona con cui è in contatto. Nel caso della misura corporea ci interessa proprio quella zona: non stiamo affermando che ogni parte del corpo abbia esattamente la stessa temperatura. Lo strumento deve inoltre alterare il meno possibile ciò che misura.
+Questo è il motivo per cui occorre attendere prima di leggere un termometro per contatto. All’inizio la sua parte sensibile sta ancora cambiando temperatura; all’equilibrio, ha raggiunto quella della zona con cui è in contatto. Lo strumento deve inoltre alterare il meno possibile ciò che misura.
 
 [IMMAGINE FIG-02 — Bicchiere di bevanda fredda con ghiaccio appoggiato su un tavolo. File scelto: risorse/bevanda-fredda.jpg. Nessuna temperatura o condizione ambientale ricavata dalla fotografia.]
 
@@ -44,7 +44,7 @@ Per trasformare questo confronto in una lettura numerica si sfrutta una propriet
 
 Il numero indicato da un termometro dipende dalla scala adottata. Nella vita quotidiana usiamo soprattutto i **gradi Celsius**, con simbolo **°C**. Nella scala Celsius, la fusione del ghiaccio avviene intorno a 0 °C e l’ebollizione dell’acqua intorno a 100 °C, alla pressione atmosferica standard.[^1]
 
-L’unità di temperatura del Sistema internazionale è invece il **kelvin**, con simbolo **K**, senza il segno di grado. La scala Kelvin parte dallo **zero assoluto**, che corrisponde a −273,15 °C. È il limite inferiore della temperatura nella trattazione che stiamo usando; non va interpretato come la condizione in cui ogni movimento microscopico scompare.[^2]
+L’unità di temperatura del Sistema internazionale è invece il **kelvin**, con simbolo **K**, senza il segno di grado. La scala Kelvin parte dallo **zero assoluto**, che corrisponde a −273,15 °C. È il limite inferiore della temperatura nella trattazione che stiamo usando; non va interpretato come la condizione in cui ogni movimento microscopico scompare.
 
 Un intervallo di un kelvin ha la stessa ampiezza di un intervallo di un grado Celsius. Cambia l’origine della scala: a 0 °C corrispondono 273,15 K. Per passare da una lettura Celsius a una lettura Kelvin basta quindi aggiungere 273,15 al valore numerico:
 
@@ -109,5 +109,3 @@ La distinzione diventa particolarmente utile quando leggiamo una **differenza di
 ## Note
 
 [^1]: I riferimenti dell’acqua sono indicati alla pressione atmosferica standard, pari a 101 325 Pa, per acqua pura. La temperatura di ebollizione cambia con la pressione.
-
-[^2]: Il limite inferiore non significa arresto completo del moto microscopico: questa immagine sarebbe incompatibile con la descrizione quantistica della materia.

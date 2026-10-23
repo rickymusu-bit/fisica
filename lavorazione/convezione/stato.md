@@ -1,5 +1,11 @@
 # Stato — Convezione
 
+## Revisione corrente — tagli delle precisazioni approvati, 23 ottobre 2026
+
+L’utente ha approvato integralmente i 24 tagli proposti in chat con «Approvo, cancella tutti». Applicati a questo capitolo i punti 20, 21; HTML corrente **v7**, data editoriale 23 ottobre 2026. Aggiornate le copie di lavorazione pertinenti, rimossi i richiami delle note eliminate e rinumerate quelle rimaste conservando le ancore. Master v69.6, riferimenti di stile v6 e campione v2 consultati; tema comune, formule, dati, immagini e simulazioni conservati.
+
+Ramo `revisione/tagli-precisazioni`, derivato dal main aggiornato. Verifiche e schermate desktop/mobile nella [revisione condivisa](../sito/revisione-precisazioni/index.html). Crediti, tema, build e 14 test superati. L’utente ha autorizzato esplicitamente la pubblicazione dell’anteprima corrente con «Pubblica». Autorizzati merge della PR #62 e deployment GitHub Pages; nessuna ulteriore conferma necessaria. Controllo remoto della revisione 033919d65e35302b572c4b965f815ef5b24c4759 superato (Actions 39897584436). Esito del rilascio e verifica dei 12 URL pubblici da registrare nella [PR #62](https://github.com/rickymusu-bit/fisica/pull/62).
+
 ## Centralizzazione dei crediti — 18 ottobre 2026
 
 Revisione circoscritta autorizzata dalla richiesta di migrare tutti gli articoli: `convezione_it.html` usa il registro unico `risorse/crediti.json`, la pagina «Crediti e licenze» e lo snapshot autonomo offline. Sezioni finali dei crediti rimosse dopo il controllo degli avvisi; contenuto scientifico, formule, immagini e script originali preservati. Master v60, tema v8. La stessa revisione dei crediti comprende le traduzioni esistenti del capitolo, senza tradurre i contenuti. Ramo `crediti/centralizzazione`; nessuna riammissione né pubblicazione. Le licenze non documentate restano da verificare nel rapporto `../sito/crediti-verifiche.json`.
