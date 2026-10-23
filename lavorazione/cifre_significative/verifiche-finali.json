@@ -1,6 +1,6 @@
 {
-  "versione": "v1",
-  "html_bytes": 8842774,
+  "versione": "v2",
+  "html_bytes": 8839107,
   "sorgente_storico_invariato": true,
   "copie_identiche": true,
   "manifest_catalogo_crediti_pubblici_invariati": true,
@@ -8,5 +8,9 @@
   "arrotondamenti_verificati": 5,
   "cassa_generata_sha256": "559c6008bb9bde650638d549794a570b0782d342d3af6997b76e87f07bd637c9",
   "formule": 12,
-  "frazioni": 2
+  "frazioni": 2,
+  "prima_figura_senza_zoom": true,
+  "abbreviazione_CS_definita_prima_dell_uso": true,
+  "frecce_esterne_refX": 8,
+  "avviso_duplicato_rimosso": true
 }

@@ -94,10 +94,19 @@
     "tabella-dark-1440.png",
     "schema-dark-1440.png",
     "frazione-dark-1440.png",
-    "perimetro-dark-1440.png"
+    "perimetro-dark-1440.png",
+    "confronto-dark-390.png",
+    "confronto-light-1440.png"
   ],
   "download": "identico byte per byte",
   "offline": "HTML in memoria, rete bloccata; immagini e MathML disponibili",
   "senza_javascript": "figure, zoom nativo e crediti disponibili; default scuro",
-  "html_sha256": "5596c2e53ddccf098462cbbe1cdce3dad715e4177a5e5b0bcf274592618654fe"
+  "html_sha256": "0f30b3fd5d11040e269ba81e320475628b012259365854eef33a340ae4a09953",
+  "revisione": {
+    "versione": "v2",
+    "prima_figura_senza_zoom": true,
+    "CS_definita_prima_dell_uso": true,
+    "frecce": "punte esterne con estremità sui delimitatori",
+    "avviso_duplicato_rimosso": true
+  }
 }

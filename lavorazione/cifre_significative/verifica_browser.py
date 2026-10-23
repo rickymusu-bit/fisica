@@ -43,6 +43,10 @@ def main():
                 for value in ['light','dark']:
                     theme(page,value)
                     assert page.evaluate('document.documentElement.scrollWidth<=innerWidth'),(width,value)
+                    assert page.locator('#fig-01 .image-zoom, #fig-01 summary, #fig-01 button').count()==0
+                    assert page.locator('.article').inner_text().count('cifre significative')==1
+                    assert 'che indicheremo con C.S.' in page.locator('.article').inner_text()
+                    assert 'non in scala' not in page.locator('#fig-02').inner_text()
                     assert page.locator('.cover img').count()==1
                     assert page.locator('.cover .image-zoom,.cover summary,.cover button').count()==0
                     assert page.locator('.cover img').evaluate('(i)=>i.naturalWidth===960&&i.naturalHeight===540')
@@ -60,7 +64,7 @@ def main():
                         assert page.locator(link.get_attribute('href')).count()==1
                     report['combinazioni'].append({'width':width,'theme':value,'overflow':False,'formule':12,'tabelle':3})
                     if width in [390,1440]:
-                        for label,selector in [('copertina',None),('tabella','#tab-01'),('schema','#fig-02'),('frazione',':nth-match(.equation:has(mfrac), 2)'),('perimetro','#esempio-3')]:
+                        for label,selector in [('copertina',None),('confronto','#fig-01'),('tabella','#tab-01'),('schema','#fig-02'),('frazione',':nth-match(.equation:has(mfrac), 2)'),('perimetro','#esempio-3')]:
                             if selector:page.locator(selector).scroll_into_view_if_needed()
                             else:page.evaluate('scrollTo(0,0)')
                             path=shots/f'{label}-{value}-{width}.png';page.screenshot(path=str(path));report['schermate'].append(path.name)

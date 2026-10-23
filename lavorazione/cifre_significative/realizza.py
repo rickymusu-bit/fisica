@@ -153,10 +153,14 @@ def diagram(template, key, caption):
     figure = next(model.descendants('figure'))
     result = doc.html(figure)
     name, alt, minimum, identity = {
-        'FIG-01':('confronto-cifre.svg','12,4 centimetri: tre cifre significative, fino ai decimi. 12,40 centimetri: quattro cifre significative, fino ai centesimi.',620,'confronto-cifre-significative'),
-        'FIG-02':('schema-cassa.svg','Cassa a base rettangolare, con quote sui due lati adiacenti della base: a = 2,34 m; b = 1,2 m. Illustrazione generata; dati illustrativi, disegno non in scala.',1100,'cassa-cifre-generata')
+        'FIG-01':('confronto-cifre.svg','12,4 centimetri: tre C.S., fino ai decimi. 12,40 centimetri: quattro C.S., fino ai centesimi.',620,'confronto-cifre-significative'),
+        'FIG-02':('schema-cassa.svg','Cassa a base rettangolare, con quote sui due lati adiacenti della base: a = 2,34 m; b = 1,2 m. Illustrazione generata con quote dei due lati adiacenti della base.',1100,'cassa-cifre-generata')
     }[key]
     uri = 'data:image/svg+xml;base64,' + base64.b64encode((WORK / 'risorse' / name).read_bytes()).decode()
+    if key == 'FIG-01':
+        parsed = credits.Document(result)
+        zoom = next(n for n in parsed.root.descendants('details') if n.has_class('image-zoom'))
+        result = result[:zoom.start] + result[zoom.end:]
     return (result.replace('<figure class="visual diagram">','<figure class="visual diagram" id="' + key.lower() + '" data-credit-id="' + identity + '">')
             .replace('src=""','src="' + uri + '"').replace('[Descrizione dell’immagine]',alt)
             .replace('[Didascalia]',inline(caption)).replace('min-width:900px','min-width:' + str(minimum) + 'px'))
@@ -175,19 +179,19 @@ def resources():
     section = source[source.index('<section id="cifre-significative"'):]
     doc = credits.Document(section)
     figure = next(n for n in doc.root.descendants('figure') if n.has_class('sig-reading'))
-    svg = doc.html(next(figure.descendants('svg'))).replace('viewbox=', 'viewBox=')
+    svg = doc.html(next(figure.descendants('svg'))).replace('viewbox=', 'viewBox=').replace('cifre significative', 'C.S.')
     (WORK / 'risorse/confronto-cifre.svg').write_text(svg)
     image = 'data:image/png;base64,' + base64.b64encode((WORK / 'risorse/cassa-generata.png').read_bytes()).decode()
-    svg = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 700" role="img" aria-labelledby="titolo descrizione">
-<title id="titolo">Cassa: lunghezze dei lati della base</title><desc id="descrizione">Quote su due spigoli adiacenti della base: a = 2,34 m e b = 1,2 m. Dati illustrativi; disegno non in scala.</desc>
-<defs><marker id="freccia" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto-start-reverse"><path d="M8 0 0 4 8 8" fill="none" stroke="#155e75" stroke-width="1.4"/></marker></defs>
-<rect width="1100" height="700" fill="#fff"/>
+    svg = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 620" role="img" aria-labelledby="titolo descrizione">
+<title id="titolo">Cassa: lunghezze dei lati della base</title><desc id="descrizione">Quote su due spigoli adiacenti della base: a = 2,34 m e b = 1,2 m.</desc>
+<defs><marker id="freccia" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto-start-reverse"><path d="M0 0 8 4 0 8" fill="none" stroke="#155e75" stroke-width="1.4"/></marker></defs>
+<rect width="1100" height="620" fill="#fff"/>
 <image x="70" y="70" width="887" height="443.5" href="''' + image + '''"/>
 <g fill="none" stroke="#155e75" stroke-width="2.5"><path d="M87 346V430M780 507V590M780 507 865 549M940 376 1023 417"/>
 <path d="M87 414 780 575" marker-start="url(#freccia)" marker-end="url(#freccia)"/>
 <path d="M850 542 1010 411" marker-start="url(#freccia)" marker-end="url(#freccia)"/></g>
 <g font-family="Arial,sans-serif" font-size="34" fill="#183047" text-anchor="middle"><text x="410" y="558">a = 2,34 m</text><text x="970" y="555">b = 1,2 m</text></g>
-<text x="550" y="650" font-family="Arial,sans-serif" font-size="25" fill="#50636d" text-anchor="middle">Base rettangolare — dati illustrativi, disegno non in scala</text></svg>'''
+</svg>'''
     (WORK / 'risorse/schema-cassa.svg').write_text(svg)
 
 
@@ -238,7 +242,7 @@ def render():
     for node in doc.root.descendants():
         if node.tag=='title':edits.append((node.start,node.end,'<title>' + TITLE + ' — Stringhe</title>'))
         elif node.tag=='meta' and node.attrs.get('name') in {'version','date','description'}:
-            val={'version':'v1','date':'2026-10-23','description':'Cifre significative, zeri, arrotondamento e regole nei calcoli con misure, con esempi e procedure.'}[node.attrs['name']]
+            val={'version':'v2','date':'2026-10-23','description':'Cifre significative, zeri, arrotondamento e regole nei calcoli con misure, con esempi e procedure.'}[node.attrs['name']]
             edits.append((node.start,node.end,'<meta name="' + node.attrs['name'] + '" content="' + val + '">'))
         elif node.tag=='figure' and node.has_class('cover'):edits.append((node.start,node.end,cover))
         elif node.tag=='article' and node.has_class('article'):
@@ -251,7 +255,7 @@ def render():
             nav='<nav class="sidebar-nav" aria-label="Sezioni del capitolo"><ol>'+''.join('<li class="level-' + str(level) + '"><a href="#' + sid + '"><span>' + escape(title) + '</span></a></li>' for sid,title,level in headings)+'</ol></nav>'
             markup=re.sub(r'<nav class="sidebar-nav"[\s\S]*?</nav>',lambda _:nav,markup)
             edits.append((node.start,node.end,navigation_header('chapter',NAME,markup)))
-        elif node.tag=='footer' and node.has_class('footer'):edits.append((node.start,node.end,'<footer class="footer">Versione v1 — 23 ottobre 2026</footer>'))
+        elif node.tag=='footer' and node.has_class('footer'):edits.append((node.start,node.end,'<footer class="footer">Versione v2 — 23 ottobre 2026</footer>'))
     for start,end,value in sorted(edits,reverse=True):template=template[:start]+value+template[end:]
     template=template.replace('Nome dell’area tematica',AREA).replace('Titolo del capitolo',TITLE)
     template=re.sub(r'<!-- MODELLO CANONICO[\s\S]*?-->','<!-- Capitolo 5, testo approvato e modello Stringhe v23; cassa generata su richiesta. -->',template,count=1)
@@ -269,9 +273,12 @@ def main():
     registry['documents'][NAME]={'title':TITLE,'anchor':NAME[:-5].replace('_','-'),'credits':[],'lexend':True,'chapter_labels':True,'review':None}
     for identity,description,notice in [
         ('confronto-cifre-significative','Confronto numerico fra 12,4 cm e 12,40 cm','Confronto numerico delle scritture: schema SVG del progetto, riutilizzato dal sorgente storico. Nessuna immagine esterna riprodotta.'),
-        ('cassa-cifre-generata','Cassa con quote dei lati della base','Illustrazione della cassa generata con ChatGPT su richiesta esplicita dell’utente; quote e schema SVG realizzati per Stringhe. Dati illustrativi, disegno non in scala. Nessuna fotografia di misure reali o immagine di terzi riprodotta.')]:
+        ('cassa-cifre-generata','Cassa con quote dei lati della base','Illustrazione della cassa generata con ChatGPT su richiesta esplicita dell’utente; quote e schema SVG realizzati per Stringhe. Nessuna fotografia di misure reali o immagine di terzi riprodotta.')]:
         if not any(r['id']==identity for r in registry['resources']):
             registry['resources'].append({'id':identity,'description':description,'source':None,'author':None,'license':None,'license_url':None,'changes':notice,'status':'documented','links':[],'notices':[notice],'metadata_sources':[NAME],'fingerprints':[]})
+    cassa = next(r for r in registry['resources'] if r['id']=='cassa-cifre-generata')
+    cassa['notices'] = [notice.replace(' Dati illustrativi, disegno non in scala.', '') for notice in cassa['notices']]
+    cassa['changes'] = cassa['changes'].replace(' Dati illustrativi, disegno non in scala.', '')
     credits.sync_inventory(registry)
     target.write_text(credits.update_component(source,registry,NAME))
     (WORK/'bozza.html').write_bytes(target.read_bytes())

@@ -3716,7 +3716,8 @@
         "cifre_significative_it.html"
       ],
       "fingerprints": [
-        "asset-2036751ab1fe67767090721e7cda5a063b3853a38a6badfded6c74030c92b814"
+        "asset-2036751ab1fe67767090721e7cda5a063b3853a38a6badfded6c74030c92b814",
+        "asset-1338f5953d1a5984871576709cb3e34708b6955e3a0a23f648c12034dc8b35d9"
       ]
     },
     {
@@ -3726,17 +3727,18 @@
       "author": null,
       "license": null,
       "license_url": null,
-      "changes": "Illustrazione della cassa generata con ChatGPT su richiesta esplicita dell’utente; quote e schema SVG realizzati per Stringhe. Dati illustrativi, disegno non in scala. Nessuna fotografia di misure reali o immagine di terzi riprodotta.",
+      "changes": "Illustrazione della cassa generata con ChatGPT su richiesta esplicita dell’utente; quote e schema SVG realizzati per Stringhe. Nessuna fotografia di misure reali o immagine di terzi riprodotta.",
       "status": "documented",
       "links": [],
       "notices": [
-        "Illustrazione della cassa generata con ChatGPT su richiesta esplicita dell’utente; quote e schema SVG realizzati per Stringhe. Dati illustrativi, disegno non in scala. Nessuna fotografia di misure reali o immagine di terzi riprodotta."
+        "Illustrazione della cassa generata con ChatGPT su richiesta esplicita dell’utente; quote e schema SVG realizzati per Stringhe. Nessuna fotografia di misure reali o immagine di terzi riprodotta."
       ],
       "metadata_sources": [
         "cifre_significative_it.html"
       ],
       "fingerprints": [
-        "asset-bdb6c2ae6f31acbe4d11feb085f61998019057492807f0d61c34411cea7686f3"
+        "asset-bdb6c2ae6f31acbe4d11feb085f61998019057492807f0d61c34411cea7686f3",
+        "asset-802c4527e23315cabaaac0c717eb14062c66237200ddcc5a11d71bcaffe6ee70"
       ]
     },
     {
@@ -4818,6 +4820,21 @@
       ]
     },
     {
+      "id": "asset-1338f5953d1a5984871576709cb3e34708b6955e3a0a23f648c12034dc8b35d9",
+      "kind": "image/svg+xml",
+      "uses": [
+        {
+          "document": "cifre_significative_it.html",
+          "kind": "image/svg+xml",
+          "description": "12,4 centimetri: tre C.S., fino ai decimi. 12,40 centimetri: quattro C.S., fino ai centesimi.",
+          "locator": "fig-01",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "confronto-cifre-significative"
+        }
+      ]
+    },
+    {
       "id": "asset-13c5f125efae233fc4716f5e0a4e98f8d7f3e79a6958de4b9eb1a5ee88442303",
       "kind": "image/png",
       "uses": [
@@ -5030,30 +5047,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-a320c38428cead47"
-        }
-      ]
-    },
-    {
-      "id": "asset-2036751ab1fe67767090721e7cda5a063b3853a38a6badfded6c74030c92b814",
-      "kind": "image/svg+xml",
-      "uses": [
-        {
-          "document": "cifre_significative_it.html",
-          "kind": "image/svg+xml",
-          "description": "12,4 centimetri: tre cifre significative, fino ai decimi. 12,40 centimetri: quattro cifre significative, fino ai centesimi.",
-          "locator": "fig-01",
-          "attribute": "src",
-          "location": null,
-          "credit_id": "confronto-cifre-significative"
-        },
-        {
-          "document": "cifre_significative_it.html",
-          "kind": "image/svg+xml",
-          "description": "12,4 centimetri: tre cifre significative, fino ai decimi. 12,40 centimetri: quattro cifre significative, fino ai centesimi.",
-          "locator": "fig-01",
-          "attribute": "src",
-          "location": null,
-          "credit_id": "confronto-cifre-significative"
         }
       ]
     },
@@ -6528,6 +6521,30 @@
       ]
     },
     {
+      "id": "asset-802c4527e23315cabaaac0c717eb14062c66237200ddcc5a11d71bcaffe6ee70",
+      "kind": "image/svg+xml",
+      "uses": [
+        {
+          "document": "cifre_significative_it.html",
+          "kind": "image/svg+xml",
+          "description": "Cassa a base rettangolare, con quote sui due lati adiacenti della base: a = 2,34 m; b = 1,2 m. Illustrazione generata con quote dei due lati adiacenti della base.",
+          "locator": "fig-02",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "cassa-cifre-generata"
+        },
+        {
+          "document": "cifre_significative_it.html",
+          "kind": "image/svg+xml",
+          "description": "Cassa a base rettangolare, con quote sui due lati adiacenti della base: a = 2,34 m; b = 1,2 m. Illustrazione generata con quote dei due lati adiacenti della base.",
+          "locator": "fig-02",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "cassa-cifre-generata"
+        }
+      ]
+    },
+    {
       "id": "asset-807407b5dc9436dde1e9473c66c78ab662cb63db497c707a00f9d0b03898fd9b",
       "kind": "svg",
       "uses": [
@@ -7646,30 +7663,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-bba9dd19a4744102"
-        }
-      ]
-    },
-    {
-      "id": "asset-bdb6c2ae6f31acbe4d11feb085f61998019057492807f0d61c34411cea7686f3",
-      "kind": "image/svg+xml",
-      "uses": [
-        {
-          "document": "cifre_significative_it.html",
-          "kind": "image/svg+xml",
-          "description": "Cassa a base rettangolare, con quote sui due lati adiacenti della base: a = 2,34 m; b = 1,2 m. Illustrazione generata; dati illustrativi, disegno non in scala.",
-          "locator": "fig-02",
-          "attribute": "src",
-          "location": null,
-          "credit_id": "cassa-cifre-generata"
-        },
-        {
-          "document": "cifre_significative_it.html",
-          "kind": "image/svg+xml",
-          "description": "Cassa a base rettangolare, con quote sui due lati adiacenti della base: a = 2,34 m; b = 1,2 m. Illustrazione generata; dati illustrativi, disegno non in scala.",
-          "locator": "fig-02",
-          "attribute": "src",
-          "location": null,
-          "credit_id": "cassa-cifre-generata"
         }
       ]
     },

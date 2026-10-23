@@ -139,3 +139,7 @@ L’utente sceglie per il quarto Algae and bacteria in Scanning Electron Microsc
 ### Quinto capitolo — HTML v1 realizzato
 
 Testo approvato con «Approvo tutto»; cassa generata su richiesta e successivo «Ok procedi» per schema quotato e realizzazione. [HTML corrente](../cifre_significative/bozza.html) autonomo dal modello Stringhe v23, copertina egizia senza zoom, 12 formule native, tre tabelle, due procedure, esempio con schema generato e dieci domande. Crediti, tema, build e browser a cinque larghezze/entrambi i temi superati; download, note, zoom, offline e senza JavaScript verificati. Il PNG storico privo di fonte non è usato; nuova provenienza documentata. [Stato e rapporti](../cifre_significative/stato.md). Capitolo non ancora ammesso nel manifest, catalogo pubblico invariato; anteprima corrente da approvare prima del rilascio.
+
+### Quinto capitolo — revisione dell’anteprima, HTML v2
+
+Su richiesta: prima figura senza zoom; C.S. introdotta nella definizione e usata nelle occorrenze successive; punte delle quote della cassa rivolte all’esterno fino ai delimitatori; avviso ripetuto eliminato da immagine e didascalia senza trasferirlo in nota. Bozza v3 e generatore allineati, formule numeriche conservate. Crediti/tema e browser a cinque larghezze nei due temi verificati; [stato e anteprima](../cifre_significative/stato.md) nella PR #68 in bozza. Nessun rilascio autorizzato dell’anteprima corrente.
