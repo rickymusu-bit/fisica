@@ -179,3 +179,7 @@ Fase corrente: approvazione dei due testi nella PR #72, poi stima e via esplicit
 ### Capitoli 6 e 7 — copertine scelte, bozze v2
 
 L'utente sceglie esplicitamente Ytterbium Lattice Double Clock with Photons at NIST.jpg per il 6 e TV noise.jpg per il 7. Superate le proposte del calibro e del sismografo come copertine. Aggiornate bozze v2, didascalie e schede di provenienza; immagini intere senza zoom o ripetizioni nel corpo. Pagine Commons consultate: N. Phillips/NIST, pubblico dominio federale; Mysid, pubblico dominio per dichiarazione dell'autore. Restano da verificare i diritti delle immagini storiche del corpo. Testi da approvare nella PR #72; nessuna realizzazione HTML o pubblicazione avviata.
+
+### Capitoli 6 e 7 — due versioni della simulazione
+
+L'utente richiede una simulazione nel capitolo 6 per sperimentare le proprietà dello strumento e una nel 7 con proprietà fisse per studiare errore e incertezza. Predisposte le specifiche [SIM-06](../strumenti_misura/simulazione.md) e [SIM-07](../errori_incertezza_misura/simulazione.md); bozze v3 con attività, segnaposto e un quesito finale aggiornato, mantenendo i quesiti originali pertinenti. Bilancia virtuale condivisa: regolazioni nel 6; misure, U assegnata e riferimento rivelato successivamente nel 7. Media e semidispersione restano all'8. Parametri numerici proposti, carico basso, stima preliminare 90–150 min per entrambe. Nessun codice o HTML avviato: testo aggiornato da revisionare prima del via. L'utente intende fornire immagini sostitutive con licenza; copertine scelte confermate.

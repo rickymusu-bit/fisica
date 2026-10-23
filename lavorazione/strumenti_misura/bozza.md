@@ -1,6 +1,6 @@
 # Gli strumenti di misura
 
-[EDITORIALE — Bozza v2, 23 ottobre 2026. Testo da approvare; visuali concordate con «Ok». I segnaposto descrivono i materiali da integrare dopo l'approvazione del testo. Area: Introduzione alla fisica e alla misura.]
+[EDITORIALE — Bozza v3, 23 ottobre 2026. Testo da approvare; visuali concordate con «Ok». I segnaposto descrivono i materiali da integrare dopo l'approvazione del testo. Area: Introduzione alla fisica e alla misura.]
 
 [COP-06 — Fotografia scelta dall'utente: Ytterbium Lattice Double Clock with Photons at NIST.jpg. Intera, senza ritagli o zoom, non ripetuta nel corpo.]
 
@@ -80,6 +80,14 @@ L'**accuratezza** riguarda proprio questa vicinanza. Le letture della serie B so
 
 Portata adatta, risposta sufficientemente rapida e lettura fine ci aiutano quindi a misurare. Per valutare il risultato dobbiamo anche controllare la procedura e confrontare lo strumento con riferimenti attendibili. L'ultima cifra del display è solo una parte di questa informazione.
 
+## Cambiare una proprietà alla volta
+
+La bilancia virtuale permette di scegliere una massa campione nota e confrontare ciò che indica lo strumento con ciò che ci aspettiamo. Prima di cambiare una regolazione, prova a prevedere l'effetto: un passo più grande renderà più fine la lettura? Uno strumento più lento avrà già raggiunto l'indicazione finale quando registri il numero?
+
+[SIM-06 — Bilancia virtuale con portata, risoluzione, prontezza e sensibilità regolabili; controlli separati per zero spostato e disturbi casuali. Massa campione nota, lettura e tabella. Pannello del segnale del sensore per la sensibilità: aumentando S aumenta il segnale per la stessa massa, non la massa stessa. Specifica in simulazione.md; nessun codice ancora realizzato.]
+
+Modifica una sola proprietà, registra una lettura e confrontala con la precedente. Quando cambia la configurazione, inizia una nuova serie: mescolare misure ottenute con impostazioni diverse nasconderebbe proprio l'effetto che vuoi osservare. I valori sono simulati; la fotografia identifica lo strumento, senza documentare una prova reale.
+
 ## Domande di verifica
 
 1. Quale vantaggio offre una lancetta quando una grandezza cambia? Quale vantaggio offre una lettura digitale? Indica un limite di ciascuna.
@@ -89,7 +97,7 @@ Portata adatta, risposta sufficientemente rapida e lettura fine ci aiutano quind
 5. Vero o falso? «Un display con più cifre garantisce sempre una misura più accurata». Motiva usando almeno due caratteristiche dello strumento.
 6. Due termometri a colonna rispondono allo stesso aumento di temperatura con allungamenti diversi. Quale è più sensibile? Quale altra informazione ti serve per confrontarne la risoluzione?
 7. Nella tabella, confronta le serie B e C: quale è più precisa? Perché questo confronto non basta a scegliere la serie più accurata?
-8. Devi seguire un cambiamento molto rapido. Quale caratteristica controlleresti per prima: portata, prontezza o numero di cifre? Spiega perché anche le altre caratteristiche devono essere adatte alla misura.
+8. Nella simulazione registra una lettura prima e una dopo la stabilizzazione. Quale proprietà spiega la differenza? Poi modifica soltanto la risoluzione: che cosa cambia e che cosa resta uguale?
 
 ## Note
 
@@ -110,3 +118,7 @@ Visuali concordate con «Ok» dopo la proposta della PR #72; testo v1 da approva
 ### Copertina scelta dall'utente — bozza v2
 
 COP-06: [Ytterbium Lattice Double Clock with Photons at NIST.jpg](https://commons.wikimedia.org/wiki/File:Ytterbium_Lattice_Double_Clock_with_Photons_at_NIST.jpg); autore N. Phillips/NIST. Stato dei diritti verificato nella pagina Commons: Pubblico dominio: opera del governo federale statunitense, indicata PD-USGov su Commons. [URL esatto fornito](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Ytterbium_Lattice_Double_Clock_with_Photons_at_NIST.jpg/1920px-Ytterbium_Lattice_Double_Clock_with_Photons_at_NIST.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail). Nessuna modifica richiesta: usare l'immagine intera, senza zoom; acquisizione e incorporamento del file nella fase HTML autorizzata. La copertina sostituisce la proposta del calibro, che resta nel sorgente storico. Testo didattico invariato salvo la didascalia. La fotografia è descritta dalla scheda originale, senza dedurre prestazioni quantitative o cause fisiche non documentate.
+
+### Due simulazioni richieste — bozza v3
+
+L'utente richiede una versione per le proprietà nel capitolo 6 e una a proprietà fisse per errore e incertezza nel 7. Inseriti attività narrativa, segnaposto e quesito finale coerente; i quesiti originali pertinenti restano integralmente conservati. Progettazione in [simulazione.md](simulazione.md). Nessun codice, nuovo HTML o elaborazione delle immagini. La richiesta definisce la distinzione fra le due versioni; i dettagli proposti e il testo aggiornato sono da revisionare prima della stima consolidata e del via alla realizzazione.

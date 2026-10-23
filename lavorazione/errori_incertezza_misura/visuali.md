@@ -1,5 +1,5 @@
 # Capitolo 7 — Errori e incertezza di misura: proposta
-Versione v3 — 23 ottobre 2026 (Europe/Rome). Impostazione e visuali approvate con «Ok»; bozza testuale v2 pronta.
+Versione v4 — 23 ottobre 2026 (Europe/Rome). Impostazione e visuali approvate con «Ok»; bozza testuale v3 con simulazione proposta.
 
 ## Domanda e confini
 Il cronometro mostra 2,40 s: quanto sappiamo del tempo misurato, e possiamo già dire di quanto abbiamo sbagliato? Distinguere la variabilità delle letture, gli spostamenti rispetto a un riferimento e l'informazione espressa dall'incertezza.
@@ -29,7 +29,7 @@ La foto del rumore televisivo resta soltanto in copertina, il cronometro soltant
 
 I diritti delle immagini storiche risultano non documentati nello snapshot del sorgente. Verificare provenienza, licenza e leggibilità dell'infografica, senza ridisegnarla o tradurla autonomamente. Se non utilizzabile, concordare un confronto numerico equivalente o chiedere immagini sostitutive. Non cercare né generare nuove immagini in questa fase.
 
-Nessun video o simulazione proposto. L'esempio temporale resta integrato nella teoria; nessuna sezione di esercizi svolti aggiunta automaticamente.
+Proposta iniziale senza simulazioni superata dalla richiesta esplicita: aggiunta SIM-07, bilancia virtuale con proprietà fisse per errore e incertezza. Nessun video. L'esempio temporale resta integrato nella teoria.
 
 ## Ripartizione e regole
 Quesiti originali 5 e 7 al capitolo 7; 1–4 al 6; 6 riservato all'8. Tema comune Stringhe v24. Riferimenti: MASTER_PROMPT.md v69.11, AGENTS.md, STILE_DISPENSE.md v6, esempio_irraggiamento.md v2, docs/visual-guidelines.md v1.0.0.
@@ -37,3 +37,7 @@ Quesiti originali 5 e 7 al capitolo 7; 1–4 al 6; 6 riservato all'8. Tema comun
 ## Copertina corrente scelta esplicitamente
 
 COP-07: [TV noise.jpg](https://commons.wikimedia.org/wiki/File:TV_noise.jpg), Mysid. Pubblico dominio per dichiarazione dell'autore (PD-self). La richiesta diretta dell'utente sostituisce la proposta precedente del sismografo. [File indicato dall'utente](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/TV_noise.jpg/1920px-TV_noise.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail). Conservare proporzioni e immagine intera, nessun ritaglio o zoom. Provenienza e diritti della copertina documentati; il punto aperto sui diritti riguarda ancora le immagini storiche del corpo. Nessuna immagine alternativa cercata o generata.
+
+## Simulazione richiesta
+
+[Specifica corrente](simulazione.md). Attività e segnaposto nella bozza v3; proprietà regolabili nel 6 e fisse nel 7. Stesso modello di base e stessa immagine pertinente della bilancia, da integrare dopo verifica dei diritti o scelta di una sostituzione fornita dall'utente. Nessuna immagine sostitutiva cercata o generata e nessuna programmazione avviata.

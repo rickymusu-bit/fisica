@@ -1,5 +1,5 @@
 # Capitolo 6 — Gli strumenti di misura: proposta
-Versione v3 — 23 ottobre 2026 (Europe/Rome). Impostazione e visuali approvate con «Ok»; bozza testuale v2 pronta.
+Versione v4 — 23 ottobre 2026 (Europe/Rome). Impostazione e visuali approvate con «Ok»; bozza testuale v3 con simulazione proposta.
 
 ## Domanda e confini
 Una bilancia mostra molte cifre: basta questo per fidarsi della misura? Partire dal confronto fra lettura analogica e digitale, poi distinguere le caratteristiche che permettono di scegliere e usare uno strumento.
@@ -30,7 +30,7 @@ Non sviluppare classificazione degli errori, incertezza numerica, media o semidi
 I materiali indicati sono già nel sorgente storico. Il riuso è stato approvato con «Ok»; resta necessaria la verifica delle licenze prima dell'integrazione. Nessuna ricerca o generazione avviata. I diritti individuali risultano non documentati nello snapshot dei crediti del sorgente: verificare le schede esistenti e le fonti prima dell'integrazione; non dedurre licenze. Se i materiali non sono utilizzabili, chiedere all'utente immagini pertinenti.
 La dicitura “sensitivity” sul quadrante della bilancia analogica indica un passo di 20 g: spiegare la convenzione in nota, distinguendola dalla definizione metrologica. Non modificare le scritte nella fotografia.
 
-Nessun video, simulazione o esercizio svolto separato proposto: fotografie, scala e confronto delle letture bastano a sostenere il percorso.
+Proposta iniziale senza simulazioni superata dalla successiva richiesta esplicita: aggiunta SIM-06, bilancia virtuale per esplorare le proprietà. Nessun video o esercizio svolto separato.
 
 ## Ripartizione dei quesiti originali
 I quesiti 1, 2, 3 e 4 appartengono al capitolo 6. Il 5 sui bersagli e il 7 su errore/incertezza appartengono al 7. Il 6 su media e semidispersione resta riservato all'8. Nessun quesito originale perso o duplicato.
@@ -40,3 +40,7 @@ Tema successivo: Stringhe comune, modello v24. Fonte delle regole: MASTER_PROMPT
 ## Copertina corrente scelta esplicitamente
 
 COP-06: [Ytterbium Lattice Double Clock with Photons at NIST.jpg](https://commons.wikimedia.org/wiki/File:Ytterbium_Lattice_Double_Clock_with_Photons_at_NIST.jpg), N. Phillips/NIST. Pubblico dominio: opera del governo federale statunitense, indicata PD-USGov su Commons. La richiesta diretta dell'utente sostituisce la proposta precedente del calibro. [File indicato dall'utente](https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Ytterbium_Lattice_Double_Clock_with_Photons_at_NIST.jpg/1920px-Ytterbium_Lattice_Double_Clock_with_Photons_at_NIST.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail). Conservare proporzioni e immagine intera, nessun ritaglio o zoom. Provenienza e diritti della copertina documentati; il punto aperto sui diritti riguarda ancora le immagini storiche del corpo. Nessuna immagine alternativa cercata o generata.
+
+## Simulazione richiesta
+
+[Specifica corrente](simulazione.md). Attività e segnaposto nella bozza v3; proprietà regolabili nel 6 e fisse nel 7. Stesso modello di base e stessa immagine pertinente della bilancia, da integrare dopo verifica dei diritti o scelta di una sostituzione fornita dall'utente. Nessuna immagine sostitutiva cercata o generata e nessuna programmazione avviata.

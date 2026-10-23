@@ -1,6 +1,6 @@
 # Errori e incertezza di misura
 
-[EDITORIALE — Bozza v2, 23 ottobre 2026. Testo da approvare; visuali concordate con «Ok». Area: Introduzione alla fisica e alla misura.]
+[EDITORIALE — Bozza v3, 23 ottobre 2026. Testo da approvare; visuali concordate con «Ok». Area: Introduzione alla fisica e alla misura.]
 
 [COP-07 — Fotografia scelta dall'utente: TV noise.jpg. Intera, senza ritagli o zoom, non ripetuta nel corpo.]
 
@@ -123,6 +123,16 @@ L'errore assoluto dell'esempio, 0,10 s, è un po' maggiore dell'incertezza asseg
 
 Se invece mancasse il riferimento, non potremmo eseguire quella sottrazione né calcolare l'errore percentuale effettivo. Potremmo comunque stimare l'incertezza usando ciò che sappiamo dello strumento e della procedura. È questa la differenza fra le due domande: “di quanto differisce dal riferimento?” e “con quale incertezza attribuiamo questo valore alla grandezza?”.
 
+## Misurare con lo stesso strumento
+
+Nella bilancia virtuale le caratteristiche restano fisse. Puoi effettuare fino a cinque letture dello stesso campione, attendere che ciascuna si stabilizzi e sceglierne una come risultato. Confrontare le letture permette di osservare se sono raccolte o disperse; per questa attività non ne calcoliamo la media.
+
+[SIM-07 — Versione a proprietà fisse della bilancia virtuale: portata 500 g, passo 1 g, risposta circa 1 s simulato. Campione di riferimento inizialmente nascosto; scheda dell'incertezza e successivo confronto. Specifica e parametri interni in simulazione.md; nessun codice ancora realizzato.]
+
+Prima di conoscere il riferimento, apri la scheda di valutazione: per l'attività viene assegnata un'incertezza U = 3 g. Usa la lettura selezionata per scrivere il risultato con ±U e indicare l'intervallo corrispondente. I 3 g non derivano automaticamente dal passo del display o dalle cinque letture: sono un dato dichiarato di questa simulazione.
+
+Solo dopo mostra la massa di riferimento e calcola l'errore con segno, il suo valore assoluto e la percentuale. Confronta errore e incertezza: quale richiedeva il riferimento? Infine osserva la spiegazione dello zero spostato prevista dal modello e chiediti se altre letture avrebbero potuto eliminarlo.
+
 ## Domande di verifica
 
 1. Nell'infografica dei bersagli, quale gruppo di punti è preciso ma poco accurato? Spiega con le parole “dispersione” e “riferimento”.
@@ -132,7 +142,7 @@ Se invece mancasse il riferimento, non potremmo eseguire quella sottrazione né 
 5. Che cosa significano i due numeri nella scrittura \(t=(2{,}40\pm0{,}09)\,\mathrm{s}\)? Perché non possiamo leggere automaticamente 0,09 s come l'errore effettivo?
 6. Nel confronto dell'esempio, l'errore è −0,10 s. Che cosa comunica il segno meno? Quale informazione si perde passando al valore assoluto?
 7. A parità di errore assoluto, se il valore di riferimento raddoppia, come cambia l'errore relativo? Motiva usando la formula.
-8. Una lettura è molto lontana dalle altre. Scegli la risposta più ragionevole e motivala: eliminarla subito; considerarla automaticamente corretta; controllare procedura e registrazione prima di decidere.
+8. Nella simulazione, perché puoi usare la scheda dell'incertezza prima di conoscere il riferimento, mentre per calcolare l'errore devi mostrarlo? Spiega anche perché ripetere la misura non elimina uno zero spostato.
 
 ## Note
 
@@ -154,3 +164,7 @@ Impostazione visuale concordata con «Ok» nella PR #72. Testo v1 da approvare; 
 ### Copertina scelta dall'utente — bozza v2
 
 COP-07: [TV noise.jpg](https://commons.wikimedia.org/wiki/File:TV_noise.jpg); autore Mysid. Stato dei diritti verificato nella pagina Commons: Pubblico dominio per dichiarazione dell'autore (PD-self). [URL esatto fornito](https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/TV_noise.jpg/1920px-TV_noise.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail). Nessuna modifica richiesta: usare l'immagine intera, senza zoom; acquisizione e incorporamento del file nella fase HTML autorizzata. La copertina sostituisce la proposta del sismografo, che resta nel sorgente storico. Testo didattico invariato salvo la didascalia. La fotografia è descritta dalla scheda originale, senza dedurre prestazioni quantitative o cause fisiche non documentate.
+
+### Due simulazioni richieste — bozza v3
+
+L'utente richiede una versione per le proprietà nel capitolo 6 e una a proprietà fisse per errore e incertezza nel 7. Inseriti attività narrativa, segnaposto e quesito finale coerente; i quesiti originali pertinenti restano integralmente conservati. Progettazione in [simulazione.md](simulazione.md). Nessun codice, nuovo HTML o elaborazione delle immagini. La richiesta definisce la distinzione fra le due versioni; i dettagli proposti e il testo aggiornato sono da revisionare prima della stima consolidata e del via alla realizzazione.
