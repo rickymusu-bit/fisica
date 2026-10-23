@@ -1,6 +1,6 @@
 # Stato — I prefissi del Sistema internazionale
 
-Versione v4 — 23 ottobre 2026 (Europe/Rome).
+Versione v5 — 23 ottobre 2026 (Europe/Rome).
 
 ## Incarico e fase corrente
 
@@ -8,7 +8,7 @@ Richiesta: «Sviluppa il capitolo 4 del piano di lavorazione per l'introduzione 
 Il [piano editoriale](../introduzione_fisica_misura/piano.md) identifica il capitolo come **I prefissi del Sistema internazionale**.
 Argomento, posizione e tema Stringhe comune sono già definiti. La richiesta avvia lo sviluppo editoriale; non documenta una scelta delle nuove visuali né approvazioni della bozza, dell'HTML o della pubblicazione.
 
-Fase corrente: **bozza v2 completa da approvare**, con tabella riutilizzata e schema SCH-01 realizzato su richiesta esplicita. [Bozza corrente](bozza.md), [schema SVG](risorse/schema-conversioni.svg). Nessuna realizzazione HTML del capitolo o pubblicazione avviata. Le annotazioni iniziali riportate sotto conservano la storia della progettazione e sono superate dagli avanzamenti finali.
+Fase corrente: **bozza v3 completa da approvare**, con tabella riutilizzata e schema SCH-01 realizzato su richiesta esplicita. [Bozza corrente](bozza.md), [schema SVG](risorse/schema-conversioni.svg). Copertina: attesa una nuova immagine dall'utente; riuso della foto del metro ritirato. Nessuna realizzazione HTML del capitolo o pubblicazione avviata. Le annotazioni iniziali riportate sotto conservano la storia della progettazione e sono superate dagli avanzamenti finali.
 
 Ramo dedicato: `lavorazione/prefissi-sistema-internazionale`, derivato da main al commit `d5688f6af867cd85bcdb8f975ddb538e3f3c1130`.
 Alla verifica iniziale dell'albero completo di main e dei rami con nome contenente «prefissi» non risultano una lavorazione o un ramo preesistenti per questo capitolo.
@@ -71,7 +71,7 @@ Questa fase modifica solo documenti editoriali: nessun HTML, registro dei credit
 
 Checklist: A1–A5 (livello, monograficità, notazione e quesiti), B1.1–B2 (visuali prima della bozza; approvazione e via prima dell'HTML), B4–B6 (riuso, stato e salvataggio), C1–C4 (immagini, fonti, tabelle e composizione stabile), D1–D2.1 e AGENTS.md (verifiche pertinenti, ramo dedicato, PR in bozza, nessun merge o deployment senza approvazione corrente).
 
-Prossimo passo: revisione e approvazione della bozza v2. Prima dell'HTML leggere il modello Stringhe corrente, presentare la stima ripartita e attendere il via previsto dal master.
+Prossimo passo: revisione e approvazione della bozza v3 e ricezione della nuova copertina dall'utente. Prima dell'HTML leggere il modello Stringhe corrente, presentare la stima ripartita e attendere il via previsto dal master.
 
 ## Integrazione richiesta — conversioni tra prefissi
 
@@ -103,3 +103,17 @@ Applicata al capitolo la notazione con potenze di 10 in tutte le conversioni, ne
 Esplicitati somma degli esponenti nelle conversioni successive, differenza degli esponenti nel rapporto dei prefissi e prodotto degli esponenti per area/volume. Schema aggiornato sullo stesso percorso, con fattori 10³ e 10⁻³, 10¹ e 10⁻¹; esempi 2,5 km = 2,5 · 10³ m = 2,5 · 10⁶ mm e 3,2 cm = 3,2 · 10¹ mm = 3,2 · 10⁴ µm. Bozza v2 sullo stesso percorso, otto quesiti conservati e adattati nella notazione.
 
 Verificati con aritmetica decimale fattori, risultati e inverse, esponenti di area/volume e assenza dei vecchi fattori decimali nel contenuto didattico. Schema XML valido, renderizzato e ispezionato a 960 e 390 px senza tagli o overflow; ingrandimento da mantenere nell'HTML futuro per la lettura mobile. Modello, foto, geometria dello schema e argomenti non interessati conservati. Non necessaria una build del sito per Markdown e SVG; nessuna verifica HTML completa dichiarata. Revisione da rileggere sul ramo prima della consegna; PR #65 in bozza, nessun merge o deployment.
+
+## Revisione v3 — notazione contestuale, formula e unità derivate
+
+L'utente precisa l'uso della notazione: niente potenze nel testo introduttivo, valori anche in potenze nella tabella introduttiva, poi potenze dove servono al contesto. Richiede formula e procedura esplicite, esempi anche con unità derivate e una nuova copertina che fornirà personalmente. Questa indicazione supera la precedente estensione delle potenze a ogni scrittura numerica e ritira il riuso della foto del metro.
+
+Bozza v3: ripristinati 1 m, 100 cm e 1000 mm nell'apertura; TAB-02 ha tre colonne con scrittura iniziale, valore decimale e potenza. Conservata la tabella originale dei 24 prefissi. Dalla sezione dedicata, fattori e passaggi usano le potenze dove chiariscono il ragionamento, con risultati decimali leggibili quando opportuni.
+
+Presentate definizioni delle due unità rispetto a U, uguaglianza della grandezza e formula generale x_arrivo = x_partenza · 10^(p − q), con p esponente di partenza e q esponente di arrivo. Procedura in quattro passi e formula per unità elevate a potenza, fattore 10^[n(p − q)]. Nessuna nuova approvazione richiesta per questa revisione esplicita del testo.
+
+Aggiunta sezione «Esempi di conversione» richiesta: MPa → kPa; cm² → m²; mm³ → cm³; g/cm³ → kg/m³. Distinto il prefisso di un'unità derivata con nome proprio dal prefisso di un'unità elevata a potenza. Per la densità sostituiti separatamente numeratore e denominatore, mostrando la frazione. Dati assegnati per esercitare equivalenze, non misure o proprietà attribuite a materiali reali. Segnaposto CONV-01–04 per schemi puramente numerici prima dei calcoli; nessun oggetto da cercare o generare. Interpretazioni quantitative dei risultati incluse. Domande finali portate a dieci per coprire formule ed esempi nuovi.
+
+COP-01 è ora soltanto un segnaposto per l'immagine dell'utente: nessuna didascalia, licenza o soggetto inventati; nessuna ricerca autonoma. L'immagine del metro nel capitolo 2 rimane conservata e non va associata ai crediti del nuovo capitolo. Schema SCH-01 invariato e verifiche grafiche precedenti riutilizzate.
+
+Controlli svolti: introduzione senza potenze fuori dalla tabella, doppia scrittura nella tabella introduttiva, tabella di 24 prefissi conservata, dieci quesiti, assenza del percorso metro.jpg nella bozza. Verificati con aritmetica decimale esatta risultati e inverse delle conversioni, fattori quadrati/cubici e densità, più coerenza numerica dei nuovi quesiti. Formule e procedura rilette per esponenti, unità di riferimento comune e trattamento del denominatore. Nessun SVG o HTML modificato; nessuna nuova prova browser o build necessaria. Master corrente v69.7 invariato. Rileggere i quattro Markdown sul ramo dopo il salvataggio; PR #65 in bozza, nessun merge/deployment.

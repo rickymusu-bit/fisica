@@ -1,44 +1,54 @@
 # Progettazione — I prefissi del Sistema internazionale
 
-Versione v4 — 23 ottobre 2026. Capitolo 4 di **Introduzione alla fisica e alla misura**.
-[Bozza v2](bozza.md) pronta per la revisione; [schema corrente](risorse/schema-conversioni.svg). La cronologia delle proposte è conservata in Git e nello [stato](stato.md).
+Versione v5 — 23 ottobre 2026. Capitolo 4 di **Introduzione alla fisica e alla misura**.
+[Bozza v3](bozza.md) pronta per la revisione; [schema corrente](risorse/schema-conversioni.svg) invariato. Le decisioni precedenti sono conservate nello [stato](stato.md) e in Git.
 
-## Scelte ricevute
+## Indicazioni correnti dell'utente
 
-L'utente ha richiesto di riutilizzare la tabella dei prefissi e di spiegare le conversioni tra prefissi. Con «Ok fai lo schema» ha autorizzato SCH-01.
-La successiva richiesta impone le **potenze di 10 dovunque**, in continuità con il capitolo sulla notazione esponenziale. Tutti i fattori, le equivalenze e i passaggi numerici sono quindi espressi con potenze di 10, inclusi tabelle, schema, descrizioni accessibili e quesiti. La preferenza generale per i decimali moderati non si applica a queste conversioni.
+- Riutilizzare la tabella originale dei 24 prefissi e lo schema SCH-01 autorizzato.
+- Testo introduttivo con numeri decimali e linguaggio concreto; nella tabella introduttiva affiancare valori decimali e potenze di dieci.
+- Dalla sezione «Un prefisso è una potenza di dieci» usare le potenze dove utili, senza imporle a ogni numero.
+- Presentare formula, significato dei simboli e procedura in modo esplicito, affiancandole alla spiegazione discorsiva.
+- Aggiungere esempi svolti anche con unità derivate.
+- Non riutilizzare la copertina del metro: l'utente fornirà un'immagine nuova. Non cercare o generare alternative.
 
-## Filo della spiegazione
+## Impostazione e visuali
 
-Aprire sul metro a nastro: 1 m = 10² cm = 10³ mm. Il numero cambia perché cambia l'unità scelta, mentre la lunghezza rimane la stessa.
-Introdurre il prefisso come fattore esatto e interpretarlo mediante le potenze già incontrate nel capitolo precedente.
+Apertura sul cambio di unità: 1 m = 100 cm = 1000 mm. Il numero cambia, la lunghezza resta la stessa. La tabella collega poi le scritture decimali alle potenze.
 
-Spiegare conversioni in entrambi i versi, sostituendo il prefisso con la sua potenza oppure usando il rapporto dei fattori. Nei prodotti si sommano gli esponenti; nel rapporto si sottrae quello del prefisso di arrivo da quello di partenza. Non trattare tutte le righe della tabella come passi dello stesso valore.
-
-Concludere con il grammo e con i prefissi nelle unità elevate a potenza. Nessuna digressione sulle cifre significative, video, simulazioni o nuova fotografia.
-
-## Visuali nella bozza
-
-| ID | Contenuto e posizione | Funzione |
+| ID | Materiale corrente | Funzione |
 | --- | --- | --- |
-| COP-01 | Riuso integrale della [foto del metro](../grandezze_fisiche_sistema_internazionale/risorse/metro.jpg), già scelta nel capitolo 2. Solo in copertina; nessuna misura numerica dedotta dalla foto. | Contesto concreto per le suddivisioni dell'unità |
-| TAB-01 | Tabella originale dei 24 prefissi, con multipli e sottomultipli affiancati, nomi, simboli ed esponenti invariati. | Collegare ogni prefisso al fattore esatto |
-| TAB-02 | Equivalenze con il metro: km → 10³ m, m → 10⁰ m, cm → 10⁻² m, mm → 10⁻³ m, µm → 10⁻⁶ m. | Leggere il fattore del prefisso |
-| SCH-01 | [SVG autonomo](risorse/schema-conversioni.svg) nella sezione delle conversioni. Sequenze km–m–mm e cm–mm–µm, con frecce nei due versi. | Riconoscere fattori diretti e reciproci come potenze di 10 |
-| TAB-03A | Massa: 1 mg = 10⁻³ g = 10⁻⁶ kg, con righe dedicate a kg, g e mg. | Applicare i prefissi al grammo |
-| TAB-03B | Lunghezza, area e volume: fattori 10⁻², (10⁻²)² = 10⁻⁴, (10⁻²)³ = 10⁻⁶. | Elevare a potenza anche il fattore del prefisso |
+| COP-01 | Segnaposto per nuova immagine dell'utente; soggetto, didascalia e alt da definire dopo la ricezione. | Copertina pertinente, distinta dalle figure interne |
+| TAB-02 | Tre colonne: scrittura iniziale, valore in metri in forma decimale, valore in metri con potenza di dieci. | Collegare intuitivamente le due scritture |
+| TAB-01 | Tabella originale dei 24 prefissi, nomi/simboli/esponenti e disposizione invariati. | Riferimento per gli esponenti p e q |
+| SCH-01 | SVG km–m–mm e cm–mm–µm, frecce nei due versi e fattori in potenze. | Leggere conversioni dirette e inverse |
+| TAB-03A | Equivalenze mg, g e kg. | Applicare i prefissi al grammo |
+| TAB-03B | Lunghezza, area e volume, fattori 10⁻², 10⁻⁴ e 10⁻⁶. | Riconoscere l'effetto dell'esponente dell'unità |
+| CONV-01–04 | Segnaposto di schemi numerici con dato, unità di arrivo e fattore prima dei calcoli. | Esplicitare l'impostazione dei quattro esempi |
 
-Nello schema i fattori sono · 10³ e · 10⁻³ per km–m–mm; · 10¹ e · 10⁻¹ per cm–mm; · 10³ e · 10⁻³ per mm–µm.
-Gli esempi sono 2,5 km = 2,5 · 10³ m = 2,5 · 10⁶ mm e 3,2 cm = 3,2 · 10¹ mm = 3,2 · 10⁴ µm. Composizione stabile su ogni dispositivo, con ridimensionamento proporzionale e ingrandimento previsto dal tema.
+Gli schemi CONV non rappresentano apparecchi o oggetti: sono passaggi di equivalenze fra quantità assegnate. Non richiedono nuove fotografie. Composizione dello schema SVG da conservare su ogni dispositivo, con ingrandimento del tema nella futura integrazione.
 
-La vecchia scala illustrata yotta–yocto resta conservata nel sorgente storico. Il nuovo schema numerico è originale e non ne ricostruisce l'immagine. Fonte normativa della tabella verificata: [BIPM, SI prefixes](https://www.bipm.org/en/measurement-units/si-prefixes).
+La vecchia scala illustrata yotta–yocto resta nel sorgente storico. La foto del metro appartiene al capitolo 2 e non è una risorsa del capitolo 4.
 
-## Conversioni e quesiti
+## Formula e procedura
 
-La bozza include la conversione da 7,5 · 10² µm a millimetri mediante il fattore 10⁻³ e il controllo inverso con 10³. I coefficienti restano distinti dai fattori dei prefissi. Per leggere 4,7 · 10⁻⁵ m come 47 µm viene mostrato il passaggio attraverso 47 · 10⁻⁶ m.
+Definire le unità di partenza e arrivo come 10ᵖ U e 10ᑫ U, con lo stesso riferimento U; poi presentare l'uguaglianza della grandezza e la formula:
 
-Otto quesiti definiti nella [bozza](bozza.md), senza soluzioni: equivalenze, Mm/mm, conversione in micrometri, conversioni dirette e inverse, scelta del fattore, simboli, massa e area. Il quesito originale 6 è conservato nel n. 2; la parte sui prefissi dell'originale 5 prosegue nel n. 3. La parte scientifica/ingegneristica resta nel capitolo 3; il quesito originale 12 sulle cifre significative resta nel capitolo 5.
+**x_arrivo = x_partenza · 10^(p − q)**.
 
-## Fase successiva
+Definire x come valore numerico, p e q come esponenti dei prefissi; per l'unità senza prefisso usare zero. Procedura in quattro passi: identificare le unità, leggere gli esponenti, calcolare p − q e applicare il fattore, controllare unità/verso e conversione inversa.
 
-Rivedere e approvare la bozza v2. Prima della realizzazione HTML leggere il modello corrente, presentare la stima ripartita e attendere il via previsto dal master. Nessun merge o deployment autorizzato da questa revisione.
+Per unità elevate a n, usare **x_arrivo = x_partenza · 10^[n(p − q)]**. Per unità composte sostituire separatamente i fattori del numeratore e del denominatore. Le formule complete, con frazioni, sono nella bozza.
+
+## Esempi richiesti
+
+1. Pressione: 2,4 MPa = 2400 kPa, fattore 10³. Il prefisso agisce sull'intero pascal, già unità derivata.
+2. Area: 250 cm² = 0,025 m², fattore 10⁻⁴.
+3. Volume: 4,5 mm³ = 0,0045 cm³, fattore 10⁻³.
+4. Densità: 1,2 g/cm³ = 1200 kg/m³, fattore ottenuto dal rapporto fra 10⁻³ e 10⁻⁶.
+
+Ogni esempio contiene dati, esponenti, schema numerico previsto, calcolo, unità e interpretazione quantitativa. Dieci quesiti finali coprono anche formula e unità derivate; nessuna soluzione anticipata.
+
+## Prossimo passo
+
+Revisione della bozza v3 e ricezione della nuova copertina. Prima dell'HTML seguire approvazione del testo, stima e via previsti dal master. Manifest e sito pubblico invariati; PR #65 in bozza.
