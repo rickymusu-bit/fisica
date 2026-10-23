@@ -103,3 +103,7 @@ L'utente richiede esplicitamente di aggiungere il procedimento per convertire tr
 ### Quarto capitolo — schema realizzato e bozza v1 pronta
 
 L'utente autorizza lo schema con «Ok fai lo schema». Realizzato [SCH-01](../prefissi_sistema_internazionale/risorse/schema-conversioni.svg): km–m–mm e cm–mm–µm, fattori espliciti e frecce nei due versi. Completata la [bozza v1](../prefissi_sistema_internazionale/bozza.md) con tabella originale dei 24 prefissi, conversioni tra prefissi tramite unità di riferimento e differenza degli esponenti, caso del grammo, aree/volumi e otto domande. Controllati la tabella sulla fonte BIPM, equivalenze e inverse; schema ispezionato desktop/mobile con ingrandimento da prevedere nell'HTML. Testo da approvare; PR #65 ancora in bozza. Nessuna realizzazione HTML, merge o pubblicazione avviati.
+
+### Quarto capitolo — bozza v2 e schema con potenze di 10
+
+Su richiesta esplicita dell'utente, usare le potenze di 10 in tutto il capitolo per mantenere la continuità con la notazione esponenziale. Aggiornati [bozza v2](../prefissi_sistema_internazionale/bozza.md), tabelle numeriche, fattori diretti e inversi, esempi, quesiti e [schema](../prefissi_sistema_internazionale/risorse/schema-conversioni.svg), compresa la descrizione accessibile. Conservata la tabella dei 24 prefissi. Esplicitate le operazioni sugli esponenti nelle conversioni e nelle unità al quadrato/cubo. Equivalenze e resa grafica verificate; testo da approvare, PR #65 in bozza. Nessun HTML o aggiornamento del sito pubblico.

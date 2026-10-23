@@ -1,6 +1,6 @@
 # Stato — I prefissi del Sistema internazionale
 
-Versione v3 — 23 ottobre 2026 (Europe/Rome).
+Versione v4 — 23 ottobre 2026 (Europe/Rome).
 
 ## Incarico e fase corrente
 
@@ -8,7 +8,7 @@ Richiesta: «Sviluppa il capitolo 4 del piano di lavorazione per l'introduzione 
 Il [piano editoriale](../introduzione_fisica_misura/piano.md) identifica il capitolo come **I prefissi del Sistema internazionale**.
 Argomento, posizione e tema Stringhe comune sono già definiti. La richiesta avvia lo sviluppo editoriale; non documenta una scelta delle nuove visuali né approvazioni della bozza, dell'HTML o della pubblicazione.
 
-Fase corrente: **bozza v1 completa da approvare**, con tabella riutilizzata e schema SCH-01 realizzato su richiesta esplicita. [Bozza corrente](bozza.md), [schema SVG](risorse/schema-conversioni.svg). Nessuna realizzazione HTML del capitolo o pubblicazione avviata. Le annotazioni iniziali riportate sotto conservano la storia della progettazione e sono superate dagli avanzamenti finali.
+Fase corrente: **bozza v2 completa da approvare**, con tabella riutilizzata e schema SCH-01 realizzato su richiesta esplicita. [Bozza corrente](bozza.md), [schema SVG](risorse/schema-conversioni.svg). Nessuna realizzazione HTML del capitolo o pubblicazione avviata. Le annotazioni iniziali riportate sotto conservano la storia della progettazione e sono superate dagli avanzamenti finali.
 
 Ramo dedicato: `lavorazione/prefissi-sistema-internazionale`, derivato da main al commit `d5688f6af867cd85bcdb8f975ddb538e3f3c1130`.
 Alla verifica iniziale dell'albero completo di main e dei rami con nome contenente «prefissi» non risultano una lavorazione o un ramo preesistenti per questo capitolo.
@@ -71,7 +71,7 @@ Questa fase modifica solo documenti editoriali: nessun HTML, registro dei credit
 
 Checklist: A1–A5 (livello, monograficità, notazione e quesiti), B1.1–B2 (visuali prima della bozza; approvazione e via prima dell'HTML), B4–B6 (riuso, stato e salvataggio), C1–C4 (immagini, fonti, tabelle e composizione stabile), D1–D2.1 e AGENTS.md (verifiche pertinenti, ramo dedicato, PR in bozza, nessun merge o deployment senza approvazione corrente).
 
-Prossimo passo: revisione e approvazione della bozza v1. Prima dell'HTML leggere il modello Stringhe corrente, presentare la stima ripartita e attendere il via previsto dal master.
+Prossimo passo: revisione e approvazione della bozza v2. Prima dell'HTML leggere il modello Stringhe corrente, presentare la stima ripartita e attendere il via previsto dal master.
 
 ## Integrazione richiesta — conversioni tra prefissi
 
@@ -93,3 +93,13 @@ Preparata [bozza v1](bozza.md): apertura sul cambio di unità, tabella originale
 Controllo scientifico: consultata la pagina ufficiale [BIPM, SI prefixes](https://www.bipm.org/en/measurement-units/si-prefixes) e confrontati i 24 simboli/esponenti. Verificati fattori, risultati e conversioni inverse con aritmetica decimale esatta; controllate potenze di area/volume e otto quesiti. SVG valido come XML, renderizzato in Chromium a 960 e 390 px: nessuna etichetta fuori dal viewBox, nessun overflow nella prova responsive con ridimensionamento proporzionale. Ispezionate entrambe le schermate: a 390 px è necessario l'ingrandimento previsto dal tema; non dichiarare che le scritte ridotte bastino alla lettura. Nessuna prova HTML completa o build del sito dichiarata.
 
 Schema originale numerico, senza risorse esterne o licenze di immagini da dedurre. La bozza conserva le fonti nella sezione di servizio; registro unico e crediti del nuovo capitolo saranno aggiornati nella realizzazione. Salvare e rileggere sul ramo gli stessi file della PR #65, senza merge né deployment.
+
+## Revisione v2 — potenze di 10 in tutto il capitolo
+
+Richiesta esplicita dell'utente: «visto che questo capitolo viene dopo quello sulla notazione esponenziale, devi assolutamente usare le potenze di 10 dovunque».
+
+Applicata al capitolo la notazione con potenze di 10 in tutte le conversioni, nei fattori diretti e inversi, nelle equivalenze numeriche, nelle tabelle (anche massa e unità elevate a potenza), nei quesiti pertinenti e nello schema, compresa la descrizione accessibile. Questa scelta specifica supera per il capitolo 4 la preferenza generale di A4 per i numeri decimali moderati; non modifica il master o gli altri capitoli. La tabella originale dei 24 prefissi resta invariata.
+
+Esplicitati somma degli esponenti nelle conversioni successive, differenza degli esponenti nel rapporto dei prefissi e prodotto degli esponenti per area/volume. Schema aggiornato sullo stesso percorso, con fattori 10³ e 10⁻³, 10¹ e 10⁻¹; esempi 2,5 km = 2,5 · 10³ m = 2,5 · 10⁶ mm e 3,2 cm = 3,2 · 10¹ mm = 3,2 · 10⁴ µm. Bozza v2 sullo stesso percorso, otto quesiti conservati e adattati nella notazione.
+
+Verificati con aritmetica decimale fattori, risultati e inverse, esponenti di area/volume e assenza dei vecchi fattori decimali nel contenuto didattico. Schema XML valido, renderizzato e ispezionato a 960 e 390 px senza tagli o overflow; ingrandimento da mantenere nell'HTML futuro per la lettura mobile. Modello, foto, geometria dello schema e argomenti non interessati conservati. Non necessaria una build del sito per Markdown e SVG; nessuna verifica HTML completa dichiarata. Revisione da rileggere sul ramo prima della consegna; PR #65 in bozza, nessun merge o deployment.

@@ -1,95 +1,44 @@
-# Proposta — I prefissi del Sistema internazionale
+# Progettazione — I prefissi del Sistema internazionale
 
-Versione v3 — 23 ottobre 2026. Capitolo 4 di **Introduzione alla fisica e alla misura**.
-Schema SCH-01 richiesto e realizzato; tabella riutilizzata su richiesta. La [bozza v1](bozza.md) è pronta per la revisione. Questo file conserva le decisioni e le proposte iniziali, superate dall'avanzamento finale dove indicato.
+Versione v4 — 23 ottobre 2026. Capitolo 4 di **Introduzione alla fisica e alla misura**.
+[Bozza v2](bozza.md) pronta per la revisione; [schema corrente](risorse/schema-conversioni.svg). La cronologia delle proposte è conservata in Git e nello [stato](stato.md).
+
+## Scelte ricevute
+
+L'utente ha richiesto di riutilizzare la tabella dei prefissi e di spiegare le conversioni tra prefissi. Con «Ok fai lo schema» ha autorizzato SCH-01.
+La successiva richiesta impone le **potenze di 10 dovunque**, in continuità con il capitolo sulla notazione esponenziale. Tutti i fattori, le equivalenze e i passaggi numerici sono quindi espressi con potenze di 10, inclusi tabelle, schema, descrizioni accessibili e quesiti. La preferenza generale per i decimali moderati non si applica a queste conversioni.
 
 ## Filo della spiegazione
 
-Aprire sul metro a nastro: la lunghezza non cambia se la esprimiamo in metri, centimetri o millimetri. Il numero indica quante unità occorrono; un'unità più piccola richiede un numero maggiore. Da qui introdurre il prefisso come fattore esatto, collegandolo alle potenze già incontrate.
+Aprire sul metro a nastro: 1 m = 10² cm = 10³ mm. Il numero cambia perché cambia l'unità scelta, mentre la lunghezza rimane la stessa.
+Introdurre il prefisso come fattore esatto e interpretarlo mediante le potenze già incontrate nel capitolo precedente.
 
-Proseguire con i simboli, la tabella dei prefissi e le conversioni. Il metodo consiste nel sostituire i prefissi con i rispettivi fattori, anziché contare indistintamente i «gradini»: tra kilo e l'unità c'è un fattore 1000, tra centi e milli un fattore 10. La tabella non è una scala con intervalli tutti uguali.
+Spiegare conversioni in entrambi i versi, sostituendo il prefisso con la sua potenza oppure usando il rapporto dei fattori. Nei prodotti si sommano gli esponenti; nel rapporto si sottrae quello del prefisso di arrivo da quello di partenza. Non trattare tutte le righe della tabella come passi dello stesso valore.
 
-Concludere la teoria con due casi che evitano errori frequenti: i prefissi della massa si costruiscono sul grammo e la potenza di un'unità coinvolge anche il prefisso. Il cambio di unità conserva la grandezza fisica; la scelta del prefisso rende il numero leggibile.
+Concludere con il grammo e con i prefissi nelle unità elevate a potenza. Nessuna digressione sulle cifre significative, video, simulazioni o nuova fotografia.
 
-Non prevedere sezioni autonome di applicazioni, esercizi svolti aggiuntivi, video o simulazioni.
+## Visuali nella bozza
 
-## Proposta delle visuali
-
-| ID e collocazione | Contenuto proposto | Domanda a cui risponde |
+| ID | Contenuto e posizione | Funzione |
 | --- | --- | --- |
-| COP-01, dopo il titolo | Riuso integrale della [foto del metro](../grandezze_fisiche_sistema_internazionale/risorse/metro.jpg), già scelta dall'utente nel capitolo 2. Nel nuovo capitolo non ripeterla nel corpo e non leggere valori non distinguibili dalla fotografia. | Come si incontrano nella pratica le suddivisioni di un'unità? |
-| TAB-01, dopo l'introduzione del prefisso | Riutilizzare la tabella del sorgente con i 24 prefissi, come richiesto esplicitamente dall'utente, da quetta a quecto, colonne nome, simbolo e fattore, con multipli e sottomultipli affiancati come nell'originale. | Quale fattore rappresenta ogni simbolo? |
-| TAB-02, vicino alla lettura dei simboli | Poche righe equivalenti: 1 m = 100 cm = 1000 mm; 1 Mm = 1 000 000 m; 1 mm = 0,001 m. Etichette esplicite per distinguere m come unità e m dentro mm come prefisso. | Perché maiuscole, minuscole e posizione delle lettere cambiano il significato? |
-| SCH-01, nella spiegazione delle conversioni | Schema numerico statico con passaggi separati e fattori scritti sulle frecce: km → m → mm; µm → m. Nessun oggetto geometrico sostitutivo, nessuna animazione. | Come si determina il fattore senza affidarsi al solo spostamento della virgola? |
-| TAB-03, vicino a massa e unità elevate a potenza | Due piccoli prospetti: mg–g–kg; fattore lineare, quadratico e cubico nel passaggio cm–m. Relazioni visibili e leggibili senza solo codice colore. | Perché 1 mg non è 0,001 kg e perché 1 cm² non è 0,01 m²? |
+| COP-01 | Riuso integrale della [foto del metro](../grandezze_fisiche_sistema_internazionale/risorse/metro.jpg), già scelta nel capitolo 2. Solo in copertina; nessuna misura numerica dedotta dalla foto. | Contesto concreto per le suddivisioni dell'unità |
+| TAB-01 | Tabella originale dei 24 prefissi, con multipli e sottomultipli affiancati, nomi, simboli ed esponenti invariati. | Collegare ogni prefisso al fattore esatto |
+| TAB-02 | Equivalenze con il metro: km → 10³ m, m → 10⁰ m, cm → 10⁻² m, mm → 10⁻³ m, µm → 10⁻⁶ m. | Leggere il fattore del prefisso |
+| SCH-01 | [SVG autonomo](risorse/schema-conversioni.svg) nella sezione delle conversioni. Sequenze km–m–mm e cm–mm–µm, con frecce nei due versi. | Riconoscere fattori diretti e reciproci come potenze di 10 |
+| TAB-03A | Massa: 1 mg = 10⁻³ g = 10⁻⁶ kg, con righe dedicate a kg, g e mg. | Applicare i prefissi al grammo |
+| TAB-03B | Lunghezza, area e volume: fattori 10⁻², (10⁻²)² = 10⁻⁴, (10⁻²)³ = 10⁻⁶. | Elevare a potenza anche il fattore del prefisso |
 
-La tabella completa è un riferimento da consultare, non un elenco da memorizzare. Il testo insisterà su kilo, centi, milli, micro, nano, mega e giga; le quattro aggiunte del 2022 resteranno nel prospetto senza excursus storico.
-Tabelle e schema manterranno contenuti, ordine e composizione su mobile, con scorrimento/ingrandimento secondo il tema comune; niente ridisposizione interna delle figure.
+Nello schema i fattori sono · 10³ e · 10⁻³ per km–m–mm; · 10¹ e · 10⁻¹ per cm–mm; · 10³ e · 10⁻³ per mm–µm.
+Gli esempi sono 2,5 km = 2,5 · 10³ m = 2,5 · 10⁶ mm e 3,2 cm = 3,2 · 10¹ mm = 3,2 · 10⁴ µm. Composizione stabile su ogni dispositivo, con ridimensionamento proporzionale e ingrandimento previsto dal tema.
 
-### Scala dei prefissi del sorgente
+La vecchia scala illustrata yotta–yocto resta conservata nel sorgente storico. Il nuovo schema numerico è originale e non ne ricostruisce l'immagine. Fonte normativa della tabella verificata: [BIPM, SI prefixes](https://www.bipm.org/en/measurement-units/si-prefixes).
 
-L'immagine originale ha estensione yotta–yocto e frecce che distinguono fattori 10 e 1000. Va conservata nel sorgente storico, ma non rappresenta da sola la lista attuale completa. La documentazione dei diritti è da verificare e il controllo visivo diretto dell'immagine resta da svolgere se si decide di riutilizzarla.
+## Conversioni e quesiti
 
-L'impostazione consigliata usa TAB-01 e SCH-01 al suo posto nel nuovo capitolo: non occorre ridisegnare l'infografica, creare immagini di oggetti o introdurre una seconda tabella completa. Se si preferisce conservare anche la scala nel nuovo capitolo, valutarne prima leggibilità, attribuzione e utilità senza ripetere gli stessi contenuti.
+La bozza include la conversione da 7,5 · 10² µm a millimetri mediante il fattore 10⁻³ e il controllo inverso con 10³. I coefficienti restano distinti dai fattori dei prefissi. Per leggere 4,7 · 10⁻⁵ m come 47 µm viene mostrato il passaggio attraverso 47 · 10⁻⁶ m.
 
-## Conversioni tra prefissi — integrazione richiesta
+Otto quesiti definiti nella [bozza](bozza.md), senza soluzioni: equivalenze, Mm/mm, conversione in micrometri, conversioni dirette e inverse, scelta del fattore, simboli, massa e area. Il quesito originale 6 è conservato nel n. 2; la parte sui prefissi dell'originale 5 prosegue nel n. 3. La parte scientifica/ingegneristica resta nel capitolo 3; il quesito originale 12 sulle cifre significative resta nel capitolo 5.
 
-L'utente richiede esplicitamente di spiegare come convertire tra prefissi e di riutilizzare la tabella esistente. Il capitolo dedicherà un passaggio riconoscibile alle conversioni tra due unità prefissate, in entrambi i versi.
+## Fase successiva
 
-Usare la tabella per individuare il fattore del prefisso di partenza e quello di arrivo. Il procedimento può passare per l'unità senza prefisso oppure usare direttamente la differenza degli esponenti: se l'unità di partenza vale 10ᵖ volte l'unità di riferimento e quella di arrivo vale 10ᑫ volte la stessa unità di riferimento, il numero di partenza va moltiplicato per 10ᵖ⁻ᑫ. Spiegare che il rapporto fra i due fattori conserva la grandezza fisica. Scrivere l'eventuale rapporto come frazione nella bozza.
-
-Prevedere questi confronti numerici nella spiegazione:
-
-- Da centimetri a millimetri: 3,2 cm = 0,032 m = 32 mm. Gli esponenti sono −2 e −3: la differenza è 1 e il numero viene moltiplicato per 10.
-- Nel verso inverso: 32 mm = 3,2 cm. L'unità di arrivo è dieci volte più grande e il numero diventa dieci volte più piccolo.
-- Da micrometri a millimetri: 750 µm = 0,000750 m = 0,750 mm. Gli esponenti sono −6 e −3: la differenza è −3 e il numero viene moltiplicato per 0,001.
-- Da millimetri a micrometri: 0,750 mm = 750 µm.
-- Tra multiplo e sottomultiplo: 2,5 km = 2500 m = 2 500 000 mm. Gli esponenti 3 e −3 differiscono di 6: il fattore complessivo è un milione.
-
-I fattori sono esatti e i valori servono a leggere equivalenze, non sono misure ricavate dalla fotografia. Prima di calcolare, controllare se l'unità scelta è più grande o più piccola e prevedere il cambiamento del numero. Non insegnare che ogni riga della tabella equivalga allo stesso fattore.
-
-### Chiarimento su SCH-01
-
-Lo «schema» proposto è soltanto una sequenza numerica con frecce e fattori, per esempio km → m → mm, con un fattore 1000 in ciascun passaggio. Non è la tabella dei prefissi e non è una nuova immagine di un oggetto o una simulazione.
-
-La richiesta iniziale di chiarimento non approvava lo schema. La successiva indicazione «Ok fai lo schema» ne autorizza la realizzazione: SCH-01 è ora disponibile in [SVG](risorse/schema-conversioni.svg) e richiamato nella bozza. Mostra anche cm → mm → µm, con fattori 10 e 1000, e i percorsi inversi. L'alternativa senza figura autonoma è superata.
-
-## Relazioni da sviluppare nella bozza
-
-- Prefissi come fattori esatti: 1 km = 1000 m; 1 cm = 0,01 m; 1 mm = 0,001 m; 1 µm = 10⁻⁶ m.
-- Conversioni del sorgente: 2,5 km = 2500 m; 0,8 µm = 0,8 · 10⁻⁶ m = 0,0000008 m.
-- Conversione tra due prefissi: 2,5 km = 2 500 000 mm, con i due fattori 1000 resi espliciti.
-- Collegamento al capitolo 3: 47 · 10⁻⁶ m = 47 µm, senza ripetere l'esercizio sulla notazione scientifica.
-- Simboli uniti e spazio dopo il numero: 5 km, non 5 k m; k minuscola, µ per micro; M e m distinti.
-- Massa: 1 mg = 0,001 g = 0,000001 kg; 1 kg = 1000 g. Nessun doppio prefisso.
-- Area e volume: 1 cm² = (0,01 m)² = 0,0001 m²; 1 cm³ = (0,01 m)³ = 0,000001 m³. Mostrare che l'esponente riguarda l'intera unità prefissata, con un breve richiamo al significato di area e volume già introdotto nel capitolo 2.
-- Cambio di unità: se l'unità diminuisce di un fattore 1000, il numero aumenta dello stesso fattore. Nessuna nuova misura o precisione inventata.
-
-Le conversioni saranno spiegate nel testo e illustrate dai prospetti numerici, senza aggiungere situazioni fisiche inventate o esercizi applicativi non concordati. Le divisioni esplicite saranno scritte come frazioni; il punto centrato resta riservato alla moltiplicazione.
-
-## Domande finali proposte
-
-Otto quesiti senza soluzioni, da formulare nella bozza completa:
-
-1. Spiegare perché 1 m, 100 cm e 1000 mm rappresentano la stessa lunghezza.
-2. Conservare il quesito originale 6: «Vero o falso? “1 Mm e 1 mm indicano la stessa lunghezza.” Spiega usando le potenze di dieci.»
-3. Completare 47 · 10⁻⁶ m con il prefisso adatto e motivare la scelta: prosegue soltanto la parte sui prefissi del quesito originale 5.
-4. Convertire 3,2 cm in millimetri e 750 µm in millimetri, spiegando prima se il numero dovrà aumentare o diminuire; verificare uno dei risultati con la conversione inversa.
-5. Scegliere e motivare la conversione corretta di 0,8 µm fra 0,8 · 10⁶ m, 0,8 · 10⁻⁶ m e 0,8 · 10⁻³ m.
-6. Correggere 5 k m e spiegare perché 5 km e 5 Km non sono scritture intercambiabili del chilometro.
-7. Valutare «1 mg = 0,001 kg» e correggerlo passando prima per il grammo.
-8. Valutare «1 cm² = 0,01 m²» e motivare il fattore corretto.
-
-Il quesito originale sull'effetto del fattore 100 sulle cifre significative resta nel capitolo 5. La trasformazione scientifica e ingegneristica del valore 0,000047 m è già trattata nel capitolo 3.
-
-## Scelta richiesta e fasi successive
-
-Scelta ricevuta: riutilizzare la tabella completa dei prefissi e sviluppare esplicitamente le conversioni tra prefissi. La foto del metro e i prospetti restano proposti; lo schema statico è stato chiarito e resta opzionale, non ancora approvato. Si può spiegare il procedimento con passaggi di calcolo accanto alla tabella. Resta proposta l'esclusione della vecchia scala illustrata dal nuovo capitolo, conservandola nel sorgente storico. Il materiale fotografico già scelto non richiede una nuova ricerca; la decisione aperta riguarda questa impostazione del capitolo.
-
-Dopo la scelta, preparare `bozza.md` con narrazione completa, segnaposto e otto quesiti. Per la bozza e la rilettura scientifica si stima indicativamente un lavoro di 15–25 minuti con impegno di calcolo basso, senza attese per nuovi file nell'impostazione consigliata. La stima non è una garanzia e non comprende la realizzazione HTML.
-
-Dopo l'approvazione del testo presentare la stima ripartita per materiali, impaginazione nel modello Stringhe e verifiche; attendere il via prima della realizzazione, secondo B1.1–B2. Verificare poi la fonte normativa BIPM, le schede del registro e l'anteprima corrente prima di ogni pubblicazione.
-
-## Avanzamento — schema realizzato e bozza pronta
-
-Con «Ok fai lo schema» l'utente sceglie SCH-01. Realizzato lo [schema delle conversioni](risorse/schema-conversioni.svg) con frecce nei due versi e fattori espliciti; verificati dati e resa proporzionale desktop/mobile. Predisposta la [bozza v1 completa](bozza.md) con la tabella originale, spiegazione delle conversioni e otto domande. Le precedenti indicazioni di attesa prima della bozza e di schema opzionale sono superate. Fase corrente: revisione del testo; HTML e pubblicazione non avviati.
+Rivedere e approvare la bozza v2. Prima della realizzazione HTML leggere il modello corrente, presentare la stima ripartita e attendere il via previsto dal master. Nessun merge o deployment autorizzato da questa revisione.
