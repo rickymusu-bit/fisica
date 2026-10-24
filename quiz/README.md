@@ -1,4 +1,4 @@
-# Quiz di Stringhe — specifiche v1.3.0
+# Quiz di Stringhe — specifiche v1.4.0
 
 **Stato:** prototipo funzionante con archivio di prova, non approvato per pubblicazione e non adatto a verifiche valutative.  
 **Data:** 24 ottobre 2026 (Europe/Rome).
@@ -8,7 +8,7 @@
 - Selezione tramite caselle di controllo di singoli capitoli, anche appartenenti a categorie differenti.
 - La casella di una categoria seleziona/deseleziona tutti i suoi capitoli; se ne sono scelti soltanto alcuni, mostra lo stato parziale.
 - Le categorie e i titoli dei capitoli derivano dal catalogo corrente del sito: nessun elenco parallelo da aggiornare.
-- L'utente seleziona da **1 a 30 domande**, con **25** inizialmente proposte. La durata massima si aggiorna prima dell'avvio e corrisponde a 2 minuti per ciascuna domanda (30 domande = 60 minuti).
+- L'utente seleziona da **1 a 30 domande**, con **25** inizialmente proposte, tramite campo numerico modificabile e pulsanti **−** e **+** ai lati. I pulsanti variano la quantità di una unità, sono disabilitati agli estremi, e la durata massima si aggiorna immediatamente prima dell'avvio: 2 minuti per domanda (30 domande = 60 minuti).
 - **Facile:** 3 alternative.
 - **Media:** 4 alternative.
 - **Difficile:** 5 alternative.
