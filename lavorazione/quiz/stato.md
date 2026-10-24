@@ -56,3 +56,12 @@ Prototipo: `quiz/domande-prova.json` contiene 45 quesiti, 1 per capitolo per dif
 ## Pubblicazione senza quesiti dimostrativi — 24 ottobre 2026
 
 **Versione 1.6.0.** Approvata la pubblicazione della sola interfaccia. Cancellato `quiz/domande-prova.json`; una build senza `quiz/domande.json` include `questions: []`, disabilita ogni capitolo e categoria, mostra un messaggio di indisponibilità e impedisce l'avvio. I test del browser simulano temporaneamente i quesiti in memoria, senza inserirli nel sito né in archivio. Alla disponibilità delle domande autentiche, il file previsto è `quiz/domande.json`. Pubblicazione su `main` autorizzata dall'utente dopo la rimozione del dataset di prova.
+
+
+## Prompt di generazione e prerequisiti — 24 ottobre 2026
+
+Creato `quiz/PROMPT_GENERAZIONE_DOMANDE.md`, v1.0.0, sul ramo `docs/prompt-domande-fisica-20261024`, con collegamento in `quiz/README.md`. Master consultato: v69.11; istruzioni correnti di AGENTS.md applicate (ramo dedicato, nomi stabili, cronologia Git, nessun merge o deploy).
+
+Indicazioni dell’utente consolidate: conoscenza/ragionamento/calcolo; tre livelli indipendenti dal tipo; situazioni nuove deducibili dai principi studiati; massimo 120 secondi comprensivi di lettura, soluzione e scelta anche per i quesiti difficili; distinzione tra quesiti specifici e trasversali con tutti i prerequisiti disciplinari.
+
+La distribuzione 30%/40%/30% resta un suggerimento configurabile. Un quesito trasversale è idoneo solo quando sono disponibili tutti i prerequisiti. Lo schema attuale con il solo campo `chapter` non gestisce questa condizione: prima dell’importazione occorrerà adeguare schema, validatore ed estrazione. Questa attività documentale non modifica il software né genera o carica domande. Prossima operazione eventuale: progettare l’adeguamento dei prerequisiti multipli su richiesta dell’utente.
