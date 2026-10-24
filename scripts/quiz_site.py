@@ -6,7 +6,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "quiz" / "domande.json"
 CATEGORIES = ROOT / "quiz" / "categorie.json"
-LEVELS = {"easy": 3, "medium": 4, "hard": 5}
+LEVELS = {"easy": 4, "medium": 4, "hard": 4}
 
 
 def load_categories(articles):
@@ -89,11 +89,11 @@ def render_quiz_page(source, allowed, catalogue, shell):
         '</div><aside class="quiz-panel"><h2>Impostazioni</h2>'
         '<fieldset class="quiz-levels"><legend>Difficoltà</legend>'
         '<label class="quiz-level"><input type="radio" name="quiz-level" value="easy" checked>'
-        '<strong>Facile</strong><small>3 alternative</small></label>'
+        '<strong>Facile</strong><small>4 alternative</small></label>'
         '<label class="quiz-level"><input type="radio" name="quiz-level" value="medium">'
         '<strong>Media</strong><small>4 alternative</small></label>'
         '<label class="quiz-level"><input type="radio" name="quiz-level" value="hard">'
-        '<strong>Difficile</strong><small>5 alternative</small></label>'
+        '<strong>Difficile</strong><small>4 alternative</small></label>'
         '</fieldset><div class="quiz-count-control">'
         '<label for="quiz-count">Numero di domande</label>'
         '<div class="quiz-count-stepper">'

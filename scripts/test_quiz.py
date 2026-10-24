@@ -40,7 +40,7 @@ class QuizCategoryTests(unittest.TestCase):
 
     def test_only_known_single_category_and_new_schema_are_accepted(self):
         q = {'id': 'q1', 'category': 'thermal', 'level': 'easy', 'prompt': 'Test?',
-             'options': ['A', 'B', 'C'], 'correct': 0, 'explanation': 'Risposta.'}
+             'options': ['A', 'B', 'C', 'D'], 'correct': 0, 'explanation': 'Risposta.'}
         self.archive.write_text(json.dumps({'questions': [q]}))
         self.assertEqual(quiz_site.load_questions({'thermal'}), [q])
         for change in ({'category': 'unknown'}, {'chapter': 'old.html'},
@@ -51,6 +51,20 @@ class QuizCategoryTests(unittest.TestCase):
                 with self.assertRaises(ValueError):
                     quiz_site.load_questions({'thermal'})
 
+    def test_four_options_are_required_for_every_level(self):
+        for level in ('easy', 'medium', 'hard'):
+            for count in (3, 4, 5):
+                with self.subTest(level=level, count=count):
+                    q = {'id': 'q1', 'category': 'thermal', 'level': level,
+                         'prompt': 'Test?', 'options': [str(i) for i in range(count)],
+                         'correct': 0, 'explanation': 'Risposta.'}
+                    self.archive.write_text(json.dumps({'questions': [q]}))
+                    if count == 4:
+                        self.assertEqual(quiz_site.load_questions({'thermal'}), [q])
+                    else:
+                        with self.assertRaises(ValueError):
+                            quiz_site.load_questions({'thermal'})
+
     def test_no_archive_and_radio_categories_without_chapters(self):
         self.assertEqual(quiz_site.load_questions({'thermal'}), [])
         html = quiz_site.render_quiz_page('', [], lambda *_: self.articles,
@@ -58,6 +72,9 @@ class QuizCategoryTests(unittest.TestCase):
         self.assertEqual(html.count('data-quiz-category'), 2)
         self.assertEqual(html.count('type="radio" name="quiz-category"'), 2)
         self.assertNotIn('data-quiz-chapter', html)
+        self.assertEqual(html.count('4 alternative'), 3)
+        self.assertNotIn('3 alternative', html)
+        self.assertNotIn('5 alternative', html)
         self.assertIn('Nessuna domanda disponibile', html)
 
 

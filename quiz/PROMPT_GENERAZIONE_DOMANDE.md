@@ -1,6 +1,6 @@
 # Prompt per generare le domande dei quiz di Stringhe
 
-**Versione:** v1.3.0  
+**Versione:** v1.4.0  
 **Data:** 24 ottobre 2026 (Europe/Rome).  
 **Ambito:** quiz del sito Stringhe, distinti dal gioco Fool.
 
@@ -83,7 +83,7 @@ Privilegia la scelta e l’applicazione del modello fisico rispetto alla lunghez
 
 Richiede un concetto fondamentale e un’applicazione diretta. Il percorso risolutivo è immediatamente riconoscibile. Nel ragionamento basta una deduzione diretta; nel calcolo basta applicare una relazione con dati espliciti e unità coerenti.
 
-Presenta **3 alternative**.
+Presenta **4 alternative**.
 
 ### Medio
 
@@ -97,9 +97,9 @@ Richiede di coordinare più idee o passaggi, valutare le condizioni di validità
 
 Nelle domande di conoscenza, la difficoltà deriva da distinzioni concettuali e condizioni di validità rilevanti. Nelle domande di ragionamento, la conclusione deve essere deducibile senza conoscenze esterne. Nei calcoli, usa più passaggi significativi ma brevi, evitando algebra inutilmente lunga.
 
-Presenta **5 alternative**.
+Presenta **4 alternative**.
 
-Non assegnare la difficoltà in base alla lunghezza del testo, al numero di alternative, a vocaboli insoliti o alla presenza di trabocchetti. Cinque alternative riducono la probabilità di indovinare, ma non rendono da sole difficile una domanda facile.
+Non assegnare la difficoltà in base alla lunghezza del testo, al numero di alternative, a vocaboli insoliti o alla presenza di trabocchetti.
 
 ## 5. Vincolo di tempo: massimo 2 minuti per ogni domanda
 
@@ -134,6 +134,8 @@ Applica il principio di economia informativa del progetto: conserva ciò che ser
 Usa notazione e matematica appropriate al livello previsto e alle regole correnti del repository. Per la temperatura usa T e ΔT; riserva t e Δt al tempo.
 
 ## 7. Alternative di risposta
+
+Ogni domanda presenta **esattamente quattro alternative**, indipendentemente dal livello: una sola corretta e tre distrattori.
 
 Costruisci distrattori plausibili basati su errori reali: confusione tra grandezze, proporzionalità invertite, conversioni errate, applicazione impropria di una legge o intuizioni fisiche scorrette.
 
@@ -241,7 +243,7 @@ Alla data di questa versione, la destinazione prevista è `quiz/domande.json` e 
 - `category`: ID stabile di una sola categoria, definito in `quiz/categorie.json`;
 - `level`: `easy`, `medium` o `hard`;
 - `prompt`: testo della domanda;
-- `options`: alternative, rispettivamente 3, 4 o 5;
+- `options`: esattamente quattro alternative per tutti i livelli;
 - `correct`: indice dell’alternativa corretta a partire da zero;
 - `explanation`: spiegazione della soluzione.
 
