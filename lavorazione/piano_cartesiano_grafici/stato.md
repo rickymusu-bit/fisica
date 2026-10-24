@@ -48,3 +48,11 @@ L’utente richiede un capitolo sul piano cartesiano e uno su tutte le relazioni
 Richiesta successiva: esclusione dell’intercetta dal capitolo 9. La ripartizione corrente dei quesiti originali è 1–2 nel capitolo 8, 3/6/7 nel 9; 4–5 esclusi dai nuovi capitoli e conservati nel sorgente storico. Questo supera la ripartizione iniziale 3–7 al 9.
 
 Verificati valori della tabella, coordinate, segni dei quadranti e corrispondenza dei segnaposto. Nessuna prova browser pertinente in questa fase testuale. Fase corrente: revisione della bozza; HTML e pubblicazione non avviati.
+
+## Bozze approvate — passaggio ai materiali, 24 ottobre 2026
+
+Dopo la consegna della bozza v3 del capitolo 9, l’utente risponde «Okay, procediamo». Approvate le bozze correnti: capitolo 8 v1 e capitolo 9 v3, con viaggio di 120 km per l’inversa ed esclusione dell’intercetta. L’indicazione autorizza il proseguimento, senza approvare implicitamente immagini nuove o pubblicazione.
+
+Ricerca interna testuale per quaderno e treno senza risultati: non è emerso un materiale pertinente con provenienza e licenza già documentate. La ricerca non dimostra l’assenza di immagini non indicizzate. Occorrono due copertine e immagini del quaderno e del treno per gli schemi; nessuna ricerca esterna o generazione avviata. La fornitura delle immagini resta il prossimo passaggio necessario ai sensi di C1–C2; non realizzare un HTML definitivo con segnaposto.
+
+Stima preliminare totale per entrambi gli HTML, una volta disponibili i materiali: 60–100 minuti, carico basso. Preparazione e verifica materiali 10–20 min; integrazione testo e figure 25–40 min; adattamento interazioni 10–20 min; verifiche e salvataggio 15–20 min. L’attesa delle immagini è esclusa; eventuali problemi di licenza o resa mobile possono ampliare il tempo. Stima da comunicare all’utente, senza garantire tempi misurati. Nessun HTML, merge o deployment eseguito.
