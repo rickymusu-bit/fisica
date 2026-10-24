@@ -4043,6 +4043,27 @@
       "fingerprints": [
         "asset-eadd59abab2616df86af2eb1538abd8160c6933d0ee9d401c3703af5ce6e6161"
       ]
+    },
+    {
+      "id": "science-arera-consumo-domestico-2024",
+      "description": "Consumo elettrico medio per utenza domestica italiana, dati 2024",
+      "source": "https://www.arera.it/fileadmin/allegati/relaz_ann/25/Sintesi_Relazione_Annuale_2025_10settembre.pdf#page=38",
+      "author": "ARERA",
+      "license": null,
+      "license_url": null,
+      "changes": null,
+      "links": [
+        {
+          "url": "https://www.arera.it/fileadmin/allegati/relaz_ann/25/Sintesi_Relazione_Annuale_2025_10settembre.pdf#page=38",
+          "label": "Relazione annuale 2025, sintesi, p. 36"
+        }
+      ],
+      "status": "documented",
+      "notices": [
+        "ARERA, Sintesi della Relazione annuale 2025, p. 36, dati 2024: consumo elettrico medio per utenza domestica italiana di 1930 kWh/anno, comprese le utenze non principali. <a href=\"https://www.arera.it/fileadmin/allegati/relaz_ann/25/Sintesi_Relazione_Annuale_2025_10settembre.pdf#page=38\">Fonte del confronto energetico nell’esempio</a>."
+      ],
+      "metadata_sources": [],
+      "fingerprints": []
     }
   ],
   "documents": {
@@ -4383,6 +4404,10 @@
         },
         {
           "resource": "credit-d309ee2371db3d9d",
+          "notice": 0
+        },
+        {
+          "resource": "science-arera-consumo-domestico-2024",
           "notice": 0
         }
       ],
@@ -5538,6 +5563,21 @@
       ]
     },
     {
+      "id": "asset-20af1875cebaaf59ecfea36e55d785bcc7fe1b22275117126fb5bd23741c795e",
+      "kind": "canvas",
+      "uses": [
+        {
+          "document": "stati_della_materia.html",
+          "kind": "canvas",
+          "description": "Le particelle del gas percorrono lo spazio disponibile muovendosi in modo disordinato. Distanze, dimensioni e velocità del modello non sono in scala.",
+          "locator": "gasMotion",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        }
+      ]
+    },
+    {
       "id": "asset-21d661735e30a947207faf568efdf1906799b18e24e1a01a013d391f84fd731c",
       "kind": "svg",
       "uses": [
@@ -5832,6 +5872,21 @@
       ]
     },
     {
+      "id": "asset-3671730b21ca0e1fc5daabdf1e2c570aaace4c0b1bf91d3326234b00c8118218",
+      "kind": "canvas",
+      "uses": [
+        {
+          "document": "stati_della_materia.html",
+          "kind": "canvas",
+          "description": "Le particelle oscillano attorno a posizioni di equilibrio senza spostarsi liberamente attraverso il solido. Il modello è qualitativo e non è in scala.",
+          "locator": "solidMotion",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        }
+      ]
+    },
+    {
       "id": "asset-36af25ffc377303cedff08cab2db39a569caec20871b20c6ebb3ff9564d85dd6",
       "kind": "image/jpeg",
       "uses": [
@@ -5873,21 +5928,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-bba9dd19a4744102"
-        }
-      ]
-    },
-    {
-      "id": "asset-39abbe570e6ed9a69b07fa7abf146ba8129732f7eb62678cca6cbf65944d45ca",
-      "kind": "canvas",
-      "uses": [
-        {
-          "document": "stati_della_materia.html",
-          "kind": "canvas",
-          "description": "Le particelle del gas percorrono lo spazio disponibile muovendosi in modo disordinato. Distanze, dimensioni e velocità del modello non sono in scala.",
-          "locator": "gasMotion",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
         }
       ]
     },
@@ -6831,6 +6871,21 @@
       ]
     },
     {
+      "id": "asset-6cedad7699315384399f53ecc8d97ad99e5bea94b149426b2940461ba4b8085a",
+      "kind": "canvas",
+      "uses": [
+        {
+          "document": "stati_della_materia.html",
+          "kind": "canvas",
+          "description": "Le particelle rimangono vicine mentre cambiano posizione: il liquido può scorrere e adattarsi al recipiente.",
+          "locator": "liquidMotion",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        }
+      ]
+    },
+    {
       "id": "asset-6cfd3992fbafc2e635e8a886c83830bcc9d8bcf62f172ee98bc99faf3df1eded",
       "kind": "image/jpeg",
       "uses": [
@@ -7202,21 +7257,6 @@
           "kind": "svg",
           "description": "Plan kartezian nga minus pesë në pesë me pikë të lëvizshme në (2; 2)",
           "locator": "plane",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-81b780b2d9104bf469252b907746844dccfc408e7797a7cdaa0a834419fc5f4d",
-      "kind": "canvas",
-      "uses": [
-        {
-          "document": "stati_della_materia.html",
-          "kind": "canvas",
-          "description": "Le particelle oscillano attorno a posizioni di equilibrio senza spostarsi liberamente attraverso il solido. Il modello è qualitativo e non è in scala.",
-          "locator": "solidMotion",
           "attribute": "inline",
           "location": null,
           "credit_id": null
@@ -8784,21 +8824,6 @@
           "description": "Igloo di neve illuminato di notte, in un ambiente innevato",
           "locator": "conduzione",
           "attribute": "src",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-cec3222f28e12961438fb23f9bdac4566a694769aad1e92712f061175494beae",
-      "kind": "canvas",
-      "uses": [
-        {
-          "document": "stati_della_materia.html",
-          "kind": "canvas",
-          "description": "Le particelle rimangono vicine mentre cambiano posizione: il liquido può scorrere e adattarsi al recipiente.",
-          "locator": "liquidMotion",
-          "attribute": "inline",
           "location": null,
           "credit_id": null
         }

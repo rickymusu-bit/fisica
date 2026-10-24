@@ -1,0 +1,627 @@
+[
+  {
+    "file": "metodo_scientifico_it.html",
+    "versione_prima": "v12",
+    "versione_dopo": "v13",
+    "interventi": [
+      {
+        "prima": "Che cosa raccontano i dati?",
+        "dopo": ""
+      },
+      {
+        "prima": "Osserva la tabella delle tue prove. Confronta prima i tempi ottenuti con la stessa inclinazione, poi quelli raccolti cambiando l’angolo. Se i tempi diminuiscono aumentando la pendenza, i risultati sono coerenti con la previsione.",
+        "dopo": ""
+      },
+      {
+        "prima": "Quando un risultato ci costringe a cambiare idea",
+        "dopo": ""
+      },
+      {
+        "prima": "Se i risultati non coincidono con la previsione, controlliamo la procedura e le misure. Se la differenza persiste, potrebbe essere necessario correggere o abbandonare l’ipotesi. Domande, modelli e nuove osservazioni continuano così a influenzarsi.",
+        "dopo": ""
+      },
+      {
+        "prima": "Confronta le righe della tabella: aumentando l’inclinazione, come cambia il tempo? I risultati sono coerenti con la tua previsione? Quale risultato ti avrebbe portato a rivederla?",
+        "dopo": "Confronta i tempi a 15°, 30° e 45°: sono coerenti con la tua previsione? Se un risultato la contraddice, controlla prima le condizioni della prova; se la differenza persiste, rivedi l’ipotesi."
+      },
+      {
+        "prima": "Quando la pallina passa dal piano inclinato a quello orizzontale, il cronometro si ferma e la prova viene aggiunta automaticamente alla tabella. La pallina prosegue e si ferma al bordo destro della finestra.",
+        "dopo": "Il cronometro si ferma all’uscita dal piano inclinato e il tempo viene registrato nella tabella."
+      },
+      {
+        "prima": "Le prove sono esperimenti nel modello, non misure di laboratorio. Ripetendo la prova con lo stesso angolo si ottiene lo stesso tempo: nella realtà, invece, le misure possono variare. Il confronto mette alla prova la previsione all’interno della simulazione.[1]",
+        "dopo": "La simulazione è deterministica: allo stesso angolo restituisce sempre lo stesso tempo. Le misure reali possono invece variare.[1]"
+      }
+    ],
+    "note_prima": 1,
+    "note_dopo": 1
+  },
+  {
+    "file": "grandezze_fisiche_sistema_internazionale_it.html",
+    "versione_prima": "v5",
+    "versione_dopo": "v6",
+    "interventi": [
+      {
+        "prima": "Un metro a nastro appoggiato a un pannello di legno. La scala graduata permette di confrontare una lunghezza con un’unità condivisa; per leggere il risultato occorre individuare gli estremi del tratto misurato.",
+        "dopo": ""
+      },
+      {
+        "prima": "Dire soltanto «7140 metri» non descriverebbe la stessa grandezza.",
+        "dopo": ""
+      },
+      {
+        "prima": "Un campione storico del chilogrammo, protetto da campane di vetro. Oggi il chilogrammo è definito attraverso una costante fisica, senza dipendere da un unico oggetto.",
+        "dopo": "Un campione storico del chilogrammo, protetto da campane di vetro."
+      }
+    ],
+    "note_prima": 0,
+    "note_dopo": 0
+  },
+  {
+    "file": "potenze_dieci_notazione_scientifica_it.html",
+    "versione_prima": "v6",
+    "versione_dopo": "v7",
+    "interventi": [
+      {
+        "prima": "Prima di usare questa scrittura per descrivere la Terra o un atomo, vediamo che cosa significa.",
+        "dopo": ""
+      },
+      {
+        "prima": "Scendendo di una riga, l’esponente diminuisce di uno e il valore viene diviso per dieci.",
+        "dopo": ""
+      },
+      {
+        "prima": "Cambiano coefficiente ed esponente, ma ciascuna riga indica la stessa lunghezza.",
+        "dopo": ""
+      },
+      {
+        "prima": "Le figure del film sono costruite disponendo molecole di monossido di carbonio su una superficie.",
+        "dopo": ""
+      }
+    ],
+    "note_prima": 2,
+    "note_dopo": 2
+  },
+  {
+    "file": "prefissi_sistema_internazionale_it.html",
+    "versione_prima": "v4",
+    "versione_dopo": "v5",
+    "interventi": [
+      {
+        "prima": "La tabella raccoglie i prefissi del Sistema internazionale. Per ciascuno riporta il nome, il simbolo e il fattore che moltiplica l'unità. Gli esponenti non cambiano sempre della stessa quantità: passare da una riga all'altra non equivale sempre allo stesso fattore.",
+        "dopo": "Gli esponenti dei prefissi non cambiano sempre della stessa quantità: passare da una riga all’altra della tabella non equivale sempre allo stesso fattore."
+      },
+      {
+        "prima": "Le ultime due colonne indicano la stessa lunghezza con due scritture diverse. Il prefisso stabilisce un fattore esatto rispetto al metro.",
+        "dopo": ""
+      },
+      {
+        "prima": "I prefissi esprimono multipli e sottomultipli decimali. Quetta, ronna, ronto e quecto estendono l'intervallo fino ai fattori 10³⁰ e 10⁻³⁰.",
+        "dopo": ""
+      },
+      {
+        "prima": "Per convertire fra mg e kg si confrontano i prefissi applicati al grammo. Il fattore non è quello del solo prefisso milli.",
+        "dopo": ""
+      },
+      {
+        "prima": "Il fattore lineare viene elevato alla seconda potenza per le aree e alla terza per i volumi.",
+        "dopo": ""
+      },
+      {
+        "prima": "Una pressione di 1 MPa corrisponde a 1000 kPa: il risultato ottenuto è 2,4 volte questo riferimento.",
+        "dopo": ""
+      }
+    ],
+    "note_prima": 0,
+    "note_dopo": 0
+  },
+  {
+    "file": "cifre_significative_it.html",
+    "versione_prima": "v5",
+    "versione_dopo": "v6",
+    "interventi": [
+      {
+        "prima": "Lo zero finale non cambia il valore numerico, ma conserva il posto dei centesimi di centimetro.",
+        "dopo": ""
+      },
+      {
+        "prima": "La posizione dello zero nella scrittura determina se porta informazione sulla misura.",
+        "dopo": ""
+      },
+      {
+        "prima": "Nelle somme conta la posizione delle cifre; nei prodotti conta quante C.S. hanno i dati misurati.",
+        "dopo": ""
+      },
+      {
+        "prima": "Le quote indicano le lunghezze dei due lati adiacenti della base.",
+        "dopo": ""
+      },
+      {
+        "prima": "L’area corrisponde a circa 2,8 superfici da 1 m²; il numero 2,808 è utile nel calcolo, ma scriverlo come risultato finale attribuirebbe ai dati un dettaglio che non hanno.",
+        "dopo": "Scrivere 2,808 m² come risultato finale attribuirebbe ai dati un dettaglio che non hanno."
+      }
+    ],
+    "note_prima": 3,
+    "note_dopo": 3
+  },
+  {
+    "file": "strumenti_misura_it.html",
+    "versione_prima": "v14",
+    "versione_dopo": "v15",
+    "interventi": [
+      {
+        "prima": "La posizione della lancetta permette di seguire le variazioni del carico.",
+        "dopo": ""
+      },
+      {
+        "prima": "La lettura corretta si ottiene guardando la punta frontalmente; le viste oblique producono lo spostamento apparente.",
+        "dopo": ""
+      },
+      {
+        "prima": "La portata va scelta in base alla pressione che si prevede di misurare.",
+        "dopo": ""
+      },
+      {
+        "prima": "Per misurare la temperatura occorre lasciare al termometro il tempo di rispondere.",
+        "dopo": ""
+      },
+      {
+        "prima": "Il display rende immediata la lettura, ma il numero di cifre non basta a garantire l’accuratezza.",
+        "dopo": ""
+      },
+      {
+        "prima": "Le serie A e B hanno letture raccolte; la serie B è spostata di 2 g rispetto al riferimento di 100 g. La serie C mostra una maggiore dispersione.",
+        "dopo": ""
+      },
+      {
+        "prima": "Cambia una proprietà alla volta con gli slider sotto la bilancia e osserva la risposta. Un passo più grande produce cambiamenti più grossolani; una risposta lenta richiede di aspettare. Nella simulazione il controllo “Risoluzione” indica il passo minimo leggibile in grammi. Aumentando la precisione, le letture si raccolgono; aumentando l’accuratezza, si avvicinano alla massa caricata.",
+        "dopo": "Nella simulazione, “Risoluzione” indica il passo minimo leggibile in grammi. Registra più letture per osservare la dispersione e lo scarto dalla massa caricata."
+      }
+    ],
+    "note_prima": 1,
+    "note_dopo": 1
+  },
+  {
+    "file": "errori_incertezza_misura_it.html",
+    "versione_prima": "v13",
+    "versione_dopo": "v14",
+    "interventi": [
+      {
+        "prima": "La pressione manuale dei tasti può cambiare da una prova all’altra e contribuire alla dispersione dei tempi.",
+        "dopo": ""
+      },
+      {
+        "prima": "Lo zero spostato verso valori negativi abbassa le letture; ripetere la misura non corregge questo spostamento.",
+        "dopo": ""
+      },
+      {
+        "prima": "La precisione riguarda quanto i punti sono raccolti; l’accuratezza riguarda la loro vicinanza al riferimento centrale.",
+        "dopo": ""
+      },
+      {
+        "prima": "Il grafico mostra una sola serie: le tue letture della massa ignota. La fascia è centrata sulla media e si estende di U da entrambi i lati. I tratti sull’asse indicano invece il minimo e il massimo osservati.",
+        "dopo": ""
+      },
+      {
+        "prima": "In questo grafico la linea tratteggiata indica il riferimento di 100 g e la linea continua la media. Il segmento rosso mostra lo scarto fra i due valori.",
+        "dopo": ""
+      },
+      {
+        "prima": ": equivale a un venticinquesimo di quella durata.",
+        "dopo": "."
+      }
+    ],
+    "note_prima": 2,
+    "note_dopo": 2
+  },
+  {
+    "file": "termodinamica_sistemi_it.html",
+    "versione_prima": "v16",
+    "versione_dopo": "v17",
+    "interventi": [
+      {
+        "prima": "Il tratteggio individua il sistema formato dalla tazza e dalla bevanda. Attraverso questo confine esce acqua per evaporazione e viene ceduta energia all’ambiente.",
+        "dopo": "Il sistema comprende la tazza e la bevanda."
+      },
+      {
+        "prima": "Il contorno tratteggiato individua il thermos chiuso e il suo contenuto. Il tappo impedisce gli scambi di materia, mentre la struttura riduce gli scambi di energia: il thermos è un’approssimazione di sistema isolato.",
+        "dopo": "Il sistema comprende il thermos chiuso e il suo contenuto."
+      },
+      {
+        "prima": "Il tratteggio individua il corpo del corridore in primo piano a sinistra. La respirazione e la sudorazione comportano scambi di materia; il corpo scambia anche energia con l’ambiente attraverso calore e lavoro.",
+        "dopo": "Il sistema è il corridore in primo piano a sinistra."
+      },
+      {
+        "prima": "Il tratteggio individua il motore nel suo insieme. Durante il funzionamento entrano aria e combustibile ed escono gas di scarico; il motore trasferisce energia attraverso il lavoro dell’albero e il calore ceduto all’ambiente.",
+        "dopo": ""
+      },
+      {
+        "prima": "Il tratteggio individua una singola pila nella raccolta per il riciclo. Nel modello di una pila integra che alimenta un circuito, l’energia può essere trasferita come lavoro elettrico e calore, senza flussi macroscopici di materia attraverso l’involucro.",
+        "dopo": "Il sistema è la singola pila delimitata dal tratteggio."
+      },
+      {
+        "prima": "Il tratteggio individua la molla gialla della sospensione posteriore di una mountain bike. Consideriamo come sistema soltanto la molla, senza l’ammortizzatore: comprimendola le trasferiamo energia tramite lavoro e, quando si distende, può restituirla. La sua forma cambia, ma la materia che la costituisce resta la stessa.",
+        "dopo": "Consideriamo soltanto la molla gialla, senza l’ammortizzatore."
+      }
+    ],
+    "note_prima": 1,
+    "note_dopo": 1
+  },
+  {
+    "file": "temperatura_equilibrio_termico_it.html",
+    "versione_prima": "v5",
+    "versione_dopo": "v6",
+    "interventi": [
+      {
+        "prima": "Nella fotografia lo strumento è collocato in bocca.",
+        "dopo": ""
+      },
+      {
+        "prima": "Il medico misura la temperatura della paziente con un termometro per contatto. La parte sensibile deve avere il tempo di raggiungere la temperatura della zona in cui si effettua la misura.",
+        "dopo": ""
+      },
+      {
+        "prima": "Il ghiaccio mantiene inizialmente fredda la bevanda. Lasciata in un ambiente più caldo, anche dopo che il ghiaccio si è sciolto, la bevanda tende alla temperatura circostante.",
+        "dopo": ""
+      },
+      {
+        "prima": "Il punto di arrivo è una temperatura comune, non una lettura stabilita in anticipo.",
+        "dopo": ""
+      },
+      {
+        "prima": "Ogni riga indica la stessa temperatura nelle tre scale. Tra fusione del ghiaccio ed ebollizione dell’acqua, l’intervallo è circa 100 °C, 100 K oppure 180 °F.",
+        "dopo": ""
+      }
+    ],
+    "note_prima": 1,
+    "note_dopo": 1
+  },
+  {
+    "file": "energia_interna_calore_specifico_it.html",
+    "versione_prima": "v8",
+    "versione_dopo": "v9",
+    "interventi": [
+      {
+        "prima": "Sabbia, rocce e mare sotto il cielo notturno di Ko Li Pe. Dopo il tramonto l’acqua può restare tiepida mentre la superficie della sabbia si raffredda.",
+        "dopo": "Spiaggia di Ko Li Pe, in Thailandia, dopo il tramonto."
+      },
+      {
+        "prima": "La tabella mette a confronto materiali comuni: l’acqua risalta non soltanto rispetto ai metalli e alla sabbia, ma anche rispetto agli altri liquidi e ai gas elencati. Il valore dell’acqua si riferisce ad acqua pura a 20 °C.",
+        "dopo": ""
+      },
+      {
+        "prima": "Non abbiamo dovuto supporre che acqua e spiaggia cedano esattamente la stessa energia: il confronto a parità di massa e calore serviva a isolare il ruolo del materiale.",
+        "dopo": ""
+      }
+    ],
+    "note_prima": 4,
+    "note_dopo": 4
+  },
+  {
+    "file": "bilancio_termico_it.html",
+    "versione_prima": "v7",
+    "versione_dopo": "v8",
+    "interventi": [
+      {
+        "prima": "Durante il mescolamento il latte entra nel caffè; se le temperature iniziali sono diverse, le due bevande scambiano energia.",
+        "dopo": ""
+      },
+      {
+        "prima": "Il caffè è la parte inizialmente più calda del sistema che stiamo considerando.",
+        "dopo": ""
+      },
+      {
+        "prima": "Il latte inizialmente più freddo assorbe energia dal caffè e si riscalda.",
+        "dopo": ""
+      },
+      {
+        "prima": "Anche la tazza può scambiare energia con la bevanda; il suo contributo dipende dalla capacità termica e dalla temperatura iniziale.",
+        "dopo": ""
+      },
+      {
+        "prima": "Nel modello il caffè si raffredda e il latte si riscalda verso 60 °C. La curva del latte cambia più rapidamente perché la sua massa è minore. I tempi illustrano un’ipotesi di scambio, non una misura sperimentale.",
+        "dopo": "Curve illustrative per 100 g di caffè a 80 °C e 50 g di latte a 20 °C. Il modello trascura tazza e ambiente e usa calori specifici uguali; i tempi non sono misure sperimentali."
+      },
+      {
+        "prima": "Il grafico mostra come cambiano le temperature durante lo scambio: quella del caffè scende, quella del latte sale e le due curve si avvicinano alla stessa temperatura di equilibrio. In questo modello il latte ha massa minore e cambia temperatura più rapidamente. Il valore finale dipende dal bilancio; il tempo necessario per avvicinarsi a quel valore dipende anche dalla rapidità dello scambio.[3]",
+        "dopo": "Nel grafico il caffè si raffredda e il latte si riscalda verso la temperatura comune. Il latte ha massa minore e cambia temperatura più rapidamente. Il bilancio determina il valore finale; la rapidità dello scambio determina il tempo necessario per avvicinarsi a quel valore."
+      },
+      {
+        "prima": "Le curve sono previsioni illustrative per 100 g di caffè inizialmente a 80 °C e 50 g di latte a 20 °C, con calori specifici uguali. Si trascurano gli scambi con tazza e ambiente. ↩",
+        "dopo": ""
+      }
+    ],
+    "note_prima": 3,
+    "note_dopo": 2
+  },
+  {
+    "file": "dilatazione_termica_it.html",
+    "versione_prima": "v4",
+    "versione_dopo": "v5",
+    "interventi": [
+      {
+        "prima": "Il tubicino stretto rende visibile la variazione di volume del liquido.",
+        "dopo": ""
+      },
+      {
+        "prima": "La diversa dilatazione dei due metalli incurva la lamina.",
+        "dopo": ""
+      },
+      {
+        "prima": "Coperchio e recipiente possono cambiare dimensioni in misura diversa.",
+        "dopo": ""
+      },
+      {
+        "prima": "Intorno a 4 °C, 1 kg d'acqua liquida occupa circa 1000,025 mL. L'equivalenza fra 1 kg d'acqua e 1 L è un'approssimazione. La scala verticale ingrandita rende visibile la piccola variazione.",
+        "dopo": "Il grafico si riferisce a 1 kg d’acqua liquida a pressione atmosferica. La scala verticale ingrandita rende visibile il minimo di volume vicino a 4 °C."
+      },
+      {
+        "prima": "Contano i materiali e quanto si riscalda ciascuna parte. Il fenomeno spiega perché il riscaldamento del coperchio possa aiutare.[2]",
+        "dopo": "L’effetto dipende dai materiali e da quanto si riscalda ciascuna parte.[2]"
+      }
+    ],
+    "note_prima": 4,
+    "note_dopo": 4
+  },
+  {
+    "file": "stati_della_materia.html",
+    "versione_prima": "v23",
+    "versione_dopo": "v24",
+    "interventi": [
+      {
+        "prima": "Le particelle oscillano attorno a posizioni di equilibrio senza spostarsi liberamente attraverso il solido.[1]",
+        "dopo": ""
+      },
+      {
+        "prima": "Le particelle rimangono vicine mentre cambiano posizione: il liquido può scorrere e adattarsi al recipiente.[1]",
+        "dopo": ""
+      },
+      {
+        "prima": "Le particelle del gas percorrono lo spazio disponibile muovendosi in modo disordinato.[1]",
+        "dopo": ""
+      },
+      {
+        "prima": "Nell'animazione illustrativa, il liquido a sinistra ha viscosità minore e quello a destra maggiore. Osserva la diversa rapidità con cui si deformano e si distribuiscono.",
+        "dopo": ""
+      },
+      {
+        "prima": "Solido non significa particelle immobili.",
+        "dopo": "Solido non significa particelle immobili.[1]"
+      },
+      {
+        "prima": "Nello schema, a sinistra la disposizione ordinata mantiene lo stesso orientamento in tutto il cristallo. Al centro compaiono più regioni cristalline, chiamate grani, con orientamenti diversi: il materiale è policristallino. A destra manca invece un ordine che si ripeta a grande distanza: è il caso amorfo. La differenza riguarda l'organizzazione delle particelle, non il fatto che il materiale sia solido. ↩",
+        "dopo": ""
+      }
+    ],
+    "note_prima": 5,
+    "note_dopo": 4
+  },
+  {
+    "file": "passaggi_di_stato.html",
+    "versione_prima": "v24",
+    "versione_dopo": "v25",
+    "interventi": [
+      {
+        "prima": "I cubetti diminuiscono mentre aumenta l'acqua liquida: la sostanza cambia stato senza cambiare identità chimica.",
+        "dopo": ""
+      },
+      {
+        "prima": "La goccia si riduce senza bollire: l'acqua passa nell'aria attraverso la superficie del liquido.",
+        "dopo": ""
+      },
+      {
+        "prima": "Le bolle di vapore si formano nel liquido e risalgono. L'ebollizione coinvolge anche l'interno del liquido, mentre l'evaporazione avviene alla superficie.",
+        "dopo": ""
+      },
+      {
+        "prima": "Sul vetro si raccolgono goccioline liquide formate dal vapore acqueo presente nell'aria.",
+        "dopo": ""
+      },
+      {
+        "prima": "I cristalli di brina si formano quando il vapore acqueo si deposita direttamente come ghiaccio sulla superficie fredda.",
+        "dopo": ""
+      },
+      {
+        "prima": "Il sudore è visibile sulla pelle di Michael Jordan. Quando evapora, assorbe energia e contribuisce al raffreddamento del corpo.",
+        "dopo": ""
+      },
+      {
+        "prima": "L'unità esterna scambia energia con l'aria. Durante il riscaldamento della casa, il refrigerante assorbe energia all'esterno evaporando; il ciclo la trasferisce all'abitazione grazie al lavoro del compressore.",
+        "dopo": ""
+      },
+      {
+        "prima": "Il circuito primario trasferisce energia al secondario senza mescolare le due acque. Il secondario produce il vapore diretto alla turbina; nel condensatore il vapore torna liquido cedendo energia al circuito di raffreddamento.",
+        "dopo": ""
+      },
+      {
+        "prima": "La scultura illustra il materiale di partenza. Nel modello i 500 kg passano attraverso due cambiamenti di stato e un riscaldamento: l'energia totale comprende tutte e tre le fasi.",
+        "dopo": ""
+      },
+      {
+        "prima": "La curva mette in fila questi comportamenti. Prima il ghiaccio si riscalda; durante la fusione compare una sosta termica, cioè un tratto a temperatura costante. Finita la fusione, la temperatura dell'acqua liquida riprende a salire. All'ebollizione compare una seconda sosta; una volta trasformata tutta l'acqua in vapore, un ulteriore apporto di energia può riscaldare il vapore.[9]",
+        "dopo": ""
+      },
+      {
+        "prima": "Il processo comprende tre fasi: prima il ghiaccio fonde a 0 °C, poi l'acqua liquida si riscalda fino a 100 °C, infine l'acqua vaporizza a 100 °C. Calcolare soltanto i due passaggi di stato lascerebbe fuori l'energia necessaria a riscaldare l'acqua. Per ottenere il totale dobbiamo quindi calcolare e sommare tutti e tre i contributi.",
+        "dopo": "Sommiamo tre contributi: fusione del ghiaccio a 0 °C, riscaldamento dell’acqua fino a 100 °C e vaporizzazione a 100 °C."
+      },
+      {
+        "prima": "Servono quindi circa 1,50 · 109 J = 1,50 GJ per trasformare interamente la scultura ipotizzata in vapore, partendo da ghiaccio a 0 °C. Il totale comprende i due passaggi di stato e il riscaldamento dell’acqua liquida.",
+        "dopo": "Servono quindi circa 1,50 GJ per trasformare i 500 kg di ghiaccio a 0 °C in vapore a 100 °C."
+      },
+      {
+        "prima": "Ora l’acqua ha raggiunto circa 100 °C, ma deve ancora trasformarsi completamente in vapore. Abbiamo aumentato la temperatura del liquido; resta da completare il passaggio allo stato gassoso.[18]",
+        "dopo": "L’acqua è ora a 100 °C: l’energia successiva serve a vaporizzarla."
+      },
+      {
+        "prima": "Durante questa fase diminuisce l’acqua liquida e aumenta il vapore, mentre la temperatura resta circa 100 °C. La sigla GJ indica i gigajoule: 1 GJ = 1 · 109 J = 1 · 103 MJ. Quando tutta la massa è diventata vapore a 100 °C, il processo richiesto è terminato.[19]",
+        "dopo": "La temperatura resta circa 100 °C fino alla vaporizzazione completa. Un gigajoule corrisponde a 1000 MJ."
+      },
+      {
+        "prima": "La sigla MJ indica i megajoule: 1 MJ = 1 · 106 J. Al termine della fusione abbiamo ancora la stessa massa d’acqua, ora liquida a 0 °C.[16]",
+        "dopo": "Un megajoule corrisponde a un milione di joule. Al termine della fusione abbiamo 500 kg d’acqua liquida a 0 °C."
+      },
+      {
+        "prima": "La sosta di fusione qui descritta riguarda acqua pura alla pressione atmosferica ordinaria, con scambi energetici attribuiti al materiale e dispersioni trascurate. ↩",
+        "dopo": "Le soste termiche si riferiscono ad acqua pura a pressione atmosferica costante. La curva è qualitativa, non in scala e non ricavata da misure; non descrive l’evaporazione superficiale a temperature diverse da quella di ebollizione. ↩"
+      },
+      {
+        "prima": "La curva è qualitativa e non è in scala; non rappresenta dati sperimentali. Si riferisce ad acqua pura a pressione atmosferica ordinaria, con le soste di fusione a circa 0 °C e di ebollizione a circa 100 °C. ↩",
+        "dopo": ""
+      },
+      {
+        "prima": "Le soste termiche della curva riguardano i passaggi di stato di una sostanza pura a pressione costante. Non descrivono l’evaporazione da una superficie a una temperatura qualunque. ↩",
+        "dopo": ""
+      },
+      {
+        "prima": "Il termine «latente» richiama proprio il fatto che quell'energia viene scambiata senza manifestarsi come un aumento di temperatura durante la trasformazione descritta. ↩",
+        "dopo": ""
+      },
+      {
+        "prima": "Nei passaggi inversi, come solidificazione e condensazione, la sostanza cede la corrispondente quantità di energia; qui Q indica la quantità scambiata, mentre il testo ne specifica il verso. ↩",
+        "dopo": ""
+      },
+      {
+        "prima": "Per dare una misura di questo contributo, 167 MJ basterebbero a riscaldare gli stessi 500 kg d’acqua liquida di circa 80 K, nel modello senza dispersioni. ↩",
+        "dopo": ""
+      },
+      {
+        "prima": "Per riscaldarla sono serviti 209 MJ, circa 1,25 volte l’energia necessaria a fondere il ghiaccio della stessa scultura. ↩",
+        "dopo": ""
+      },
+      {
+        "prima": "La vaporizzazione richiede circa 5,40 volte l’energia usata per riscaldare la stessa acqua da 0 a 100 °C. ↩",
+        "dopo": ""
+      },
+      {
+        "prima": "Il passaggio diretto del ghiaccio secco da solido a gas qui descritto avviene alla pressione atmosferica. La nube bianca della fotografia non è anidride carbonica gassosa resa visibile: è formata soprattutto da minuscole goccioline d’acqua, favorite dal forte raffreddamento dell’aria. ↩",
+        "dopo": "Il ghiaccio secco passa direttamente da solido a gas alla pressione atmosferica. ↩"
+      },
+      {
+        "prima": "Le bolle possono crescere quando la pressione del vapore al loro interno bilancia quella che le circonda. La temperatura di ebollizione dipende dalla pressione esterna: per l’acqua è circa 100 °C alla pressione atmosferica ordinaria e diminuisce se la pressione si riduce. Le bolle dell’ebollizione sono principalmente vapore d’acqua: l’acqua non si scompone in idrogeno e ossigeno durante il passaggio di stato. ↩",
+        "dopo": "La temperatura di ebollizione dipende dalla pressione esterna: diminuendo la pressione, diminuisce anche la temperatura alla quale l’acqua bolle. ↩"
+      },
+      {
+        "prima": "Un intervallo di un grado Celsius ha la stessa ampiezza di un kelvin: la differenza tra 0 °C e 100 °C è quindi 100 K. Il valore approssimato del calore specifico dell’acqua è usato costante nell’intervallo di riscaldamento considerato. ↩",
+        "dopo": "Usiamo il calore specifico dell’acqua approssimativamente costante fra 0 e 100 °C; una differenza di 100 °C corrisponde a 100 K. ↩"
+      },
+      {
+        "prima": "Fonte: ARERA, Sintesi della Relazione annuale 2025, p. 36 (pagina 38 del PDF), dati 2024: consumo medio unitario delle famiglie pari a 1.930 kWh/anno, considerando l’insieme dei mercati di fornitura. Il dato è riferito alle utenze elettriche domestiche e include abitazioni principali e altre utenze domestiche: non rappresenta il consumo energetico totale dell’abitazione comprensivo di gas o altri combustibili. Per il confronto: 1 kWh = 3,60 MJ; 1,5045 GJ corrispondono a circa 418 kWh e, rispetto a 1,93 MWh/anno, a circa 2,6 mesi. ↩",
+        "dopo": "Il riferimento è il consumo elettrico medio annuo per utenza domestica italiana nel 2024, comprese le utenze non principali. Il confronto riguarda soltanto l’elettricità: 1 kWh = 3,60 MJ. ↩"
+      }
+    ],
+    "note_prima": 20,
+    "note_dopo": 13
+  },
+  {
+    "file": "conduzione_it.html",
+    "versione_prima": "v10",
+    "versione_dopo": "v11",
+    "interventi": [
+      {
+        "prima": "Il cucchiaio metallico è a contatto con la zuppa: l’energia ricevuta dalla parte immersa può propagarsi lungo il manico.",
+        "dopo": ""
+      },
+      {
+        "prima": "Nel wok in primo piano, il recipiente metallico conduce il calore verso il cibo; il manico di legno limita il trasferimento verso la mano.",
+        "dopo": ""
+      },
+      {
+        "prima": "La sezione mostra le due lastre di vetro, l’intercapedine che le separa e il telaio. Il gas nell’intercapedine contribuisce all’isolamento termico.",
+        "dopo": ""
+      },
+      {
+        "prima": "Le pareti dell’igloo contengono aria intrappolata nella neve e rallentano la dispersione di energia verso l’esterno.",
+        "dopo": ""
+      },
+      {
+        "prima": "La scena cinematografica richiama il fenomeno della lingua che aderisce al metallo gelato. È pericoloso: non va provato.",
+        "dopo": "È pericoloso: non va provato."
+      }
+    ],
+    "note_prima": 5,
+    "note_dopo": 5
+  },
+  {
+    "file": "convezione_it.html",
+    "versione_prima": "v7",
+    "versione_dopo": "v8",
+    "interventi": [
+      {
+        "prima": "L’aria riscaldata dal termosifone sale e si sposta nella stanza; raffreddandosi, ridiscende lontano dalla sorgente e torna verso il termosifone.",
+        "dopo": ""
+      },
+      {
+        "prima": "Quando ruotano, le pale del ventilatore mettono in movimento l’aria: il moto è prodotto da un dispositivo, come avviene nella convezione forzata.",
+        "dopo": ""
+      },
+      {
+        "prima": "Sotto la ventola si distinguono le alette metalliche del dissipatore. La ventola rinnova l’aria a contatto con queste superfici.",
+        "dopo": ""
+      },
+      {
+        "prima": "Le due ventole installate dietro il radiatore favoriscono il passaggio dell’aria e lo scambio di energia con l’ambiente.",
+        "dopo": ""
+      },
+      {
+        "prima": "Una poiana codarossa sfrutta una termica. Molti uccelli veleggiatori usano l’aria ascendente per guadagnare quota.",
+        "dopo": "Una poiana codarossa in volo veleggiato."
+      },
+      {
+        "prima": "Anche in questo ambiente molto diverso da una stanza, il movimento della materia contribuisce al trasporto di energia. L’illustrazione e la fotografia raccontano due aspetti dello stesso fenomeno: dove avviene e quali strutture produce nella regione osservabile.",
+        "dopo": ""
+      },
+      {
+        "prima": "Il ventilatore e la temperatura del corpo. Durante una giornata molto calda, una persona utilizza un ventilatore, che muove l’aria ma non ne abbassa direttamente la temperatura. Perché può favorire il raffreddamento quando l’aria è più fresca della pelle? Che cosa cambia nel trasferimento per convezione se l’aria diventa più calda della pelle? Perché il ventilatore può ancora aiutare se il sudore evapora efficacemente? In quali condizioni di temperatura e umidità può invece diventare insufficiente o contribuire al surriscaldamento? Motiva le risposte.",
+        "dopo": "Il ventilatore e la temperatura del corpo. Come cambia lo scambio per convezione se l’aria passa da più fredda a più calda della pelle? Perché l’evaporazione del sudore può comunque favorire il raffreddamento?"
+      }
+    ],
+    "note_prima": 6,
+    "note_dopo": 6
+  },
+  {
+    "file": "irraggiamento_it.html",
+    "versione_prima": "v15",
+    "versione_dopo": "v16",
+    "interventi": [
+      {
+        "prima": "La distanza media tra Terra e Sole è circa 150 milioni di chilometri. L’energia solare attraversa lo spazio sotto forma di radiazione elettromagnetica.",
+        "dopo": ""
+      },
+      {
+        "prima": "Il visibile è una fascia ristretta dello spettro. L’infrarosso si trova dalla parte delle lunghezze d’onda maggiori rispetto alla luce rossa.",
+        "dopo": ""
+      },
+      {
+        "prima": "Le parti incandescenti della lava emettono anche luce visibile. La crosta più scura continua a emettere radiazione termica, pur non apparendo luminosa allo stesso modo.",
+        "dopo": ""
+      },
+      {
+        "prima": "A parità di area ed emissività, la potenza emessa cresce sempre più rapidamente con la temperatura. Raddoppiare la temperatura in kelvin moltiplica per sedici la potenza emessa.",
+        "dopo": ""
+      },
+      {
+        "prima": "Le resistenze incandescenti si trovano tra le fette. Il pane assorbe parte della radiazione emessa e si riscalda anche senza toccare le resistenze.",
+        "dopo": ""
+      },
+      {
+        "prima": "I rivestimenti isolanti della sonda contribuiscono al controllo della temperatura. Il loro aspetto lucido richiama il ruolo delle superfici riflettenti, mentre la struttura a più strati riduce gli scambi radiativi.",
+        "dopo": ""
+      },
+      {
+        "prima": "Nell’esempio ipotetico assegniamo 30 °C alla lucertola e 20 °C all’ambiente. La legenda distingue le frecce entranti, per l’energia assorbita dal Sole e dall’ambiente, da quelle uscenti, per l’energia emessa soprattutto nell’infrarosso.",
+        "dopo": "Temperature ipotetiche: lucertola a 30 °C e ambiente a 20 °C."
+      },
+      {
+        "prima": "Le frecce entranti rappresentano l’energia assorbita, mentre quelle uscenti rappresentano l’energia emessa.",
+        "dopo": ""
+      },
+      {
+        "prima": "La fotografia permette però di riconoscere il trasferimento radiativo tra corpi separati.",
+        "dopo": ""
+      }
+    ],
+    "note_prima": 6,
+    "note_dopo": 6
+  }
+]
