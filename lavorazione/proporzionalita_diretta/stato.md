@@ -1,8 +1,8 @@
-# Stato — Le relazioni tra grandezze
+# Stato — Le relazioni di proporzionalità
 
 ## Riferimenti e autorizzazioni
 
-Progettazione v2 — 24 ottobre 2026, Europe/Rome. Master consultato: v69.15; istruzioni AGENTS.md, piano dell'area, STILE_DISPENSE.md v7, esempio_irraggiamento.md e docs/visual-guidelines.md. Checklist: A1–A5 (narrazione, formule, monograficità, domande), B1.1–B2 (visuali prima della bozza e approvazioni), B4–B6 (riuso e continuità), C1–C4 (immagini, grafici, accessibilità), D1–D2.1 (verifiche e salvataggio). Applicare economia informativa a testo, figure e didascalie.
+Progettazione v3 — 24 ottobre 2026, Europe/Rome. Master consultato: v69.15; istruzioni AGENTS.md, piano dell'area, STILE_DISPENSE.md v7, esempio_irraggiamento.md e docs/visual-guidelines.md. Checklist: A1–A5 (narrazione, formule, monograficità, domande), B1.1–B2 (visuali prima della bozza e approvazioni), B4–B6 (riuso e continuità), C1–C4 (immagini, grafici, accessibilità), D1–D2.1 (verifiche e salvataggio). Applicare economia informativa a testo, figure e didascalie.
 
 Richiesta effettiva: «Iniziamo a creare i capitoli 8 e 9 del piano di lavorazione sull'introduzione alla fisica». Autorizzato l'avvio della progettazione. Le nuove scelte visuali, la bozza completa, la realizzazione HTML e la pubblicazione non sono ancora approvate. Tema comune Stringhe già approvato, da riutilizzare nella successiva fase HTML senza una nuova scelta.
 
@@ -10,7 +10,7 @@ Fonte verificata: grafici_piano_cartesiano_it.html, versione interna v8, blob 9b
 
 Ramo dedicato derivato da main: lavorazione/introduzione-capitoli-8-9. File di stato e proposta salvati; nessuna bozza integrale o HTML realizzati. Revisione preliminare svolta sul testo, sui grafici SVG e sul codice delle interazioni; non si dichiarano prove nel browser o verifiche delle licenze non eseguite.
 
-## Decisione corrente e confini — 24 ottobre 2026
+## Proposta iniziale accorpata — superata dalle decisioni in fondo
 
 Richiesta: «Allora, io farei il piano cartesiano in un capitolo e tutte le relazioni di proporzionalità in un altro». Approvato l'accorpamento: capitolo 8 sul piano cartesiano; capitolo 9 su tutte le relazioni previste dal piano. Il percorso complessivo comprende nove capitoli; non sono più previsti capitoli 10 e 11 separati.
 
@@ -18,7 +18,7 @@ Titolo proposto: «Le relazioni tra grandezze». Percorso futuro proposto: relaz
 
 Sorgente: sezioni «Dalle proporzioni alla retta», «Intercetta e pendenza: rette diverse», «Proporzionalità inversa» e «Relazione quadratica» di grafici_piano_cartesiano_it.html, con tabelle, grafici e quesiti 3–7. Il capitolo 8 fornisce i prerequisiti di lettura del piano e delle scale: non ripeterne la spiegazione.
 
-## Percorso proposto
+## Percorso iniziale — superato per la parte affine
 
 Domanda guida: quando cambia una grandezza, come possiamo prevedere il cambiamento dell’altra?
 
@@ -45,3 +45,15 @@ I grafici e i comandi esistono: riuso leggero, senza servizi esterni o nuove lib
 La precedente stima di 15–30 minuti riguardava soltanto il grafico della diretta e non copre l’intero capitolo unificato. Dopo l’approvazione della bozza occorre una nuova stima complessiva ripartita per materiali, HTML, interazioni, verifiche e salvataggio.
 
 Fase corrente: struttura accorpata definita dall’utente; visuali da concordare. Prossima operazione: definire i materiali e poi preparare bozza.md completa con segnaposto. Nessuna realizzazione HTML, modifica di main o pubblicazione autorizzata.
+
+## Stato corrente — bozza v2 senza intercetta, 24 ottobre 2026
+
+«Va bene, procediamo» autorizza la stesura. Preparata bozza v1 completa; durante il lavoro l’utente richiede «Lascia fuori la parte sull'intercetta». [Bozza v2](bozza.md) aggiornata: titolo «Le relazioni di proporzionalità» e soltanto diretta, inversa e quadratica. Superati i paragrafi precedenti che proponevano relazioni affini e confronti con altre rette.
+
+Eliminati sezione sulle rette con intercetta, esempio della consegna e quota fissa, formula della pendenza, confronto delle tre rette e relativi quesiti. Non serve più un’immagine del servizio di consegna. Restano copertina e immagine del quaderno da scegliere; tabelle, figure geometriche e grafici previsti hanno segnaposto. Nessuna nuova immagine cercata, generata o approvata implicitamente.
+
+Nove domande finali: conservati i quesiti originali 3/6/7 nelle domande 1/4/6; originali 4–5 esclusi dai nuovi capitoli per richiesta e conservati nel sorgente storico. Originali 1–2 al capitolo 8. Formule generali y = k·x, y = k/x, y = k·x² e grandezze costanti spiegate; frazioni orizzontali previste nell’HTML.
+
+Verifica editoriale: controllati prezzi 0/2/4/6/8 €, prodotti dei rettangoli pari a 12 cm², aree dei quadrati, fattori di scala e soluzione implicita dei quesiti; nessuna soluzione pubblicata. Quesito sull’inversa coerente con k = 6; rettangolo con base 8 cm alto 1,5 cm. Nessun grafico tariffario o confronto affine nei segnaposto della bozza v2. Nessuna prova nel browser dichiarata.
+
+Fase corrente: testi da revisionare. Dopo approvazione, comunicare la stima ripartita e raccogliere il via alla realizzazione HTML. Nessun merge o deployment.
