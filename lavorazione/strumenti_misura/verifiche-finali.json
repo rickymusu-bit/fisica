@@ -1,9 +1,9 @@
 {
-  "html_version": "v10",
-  "approved_draft": "v12, slider precisione/accuratezza e semplificazione delle etichette di incertezza richiesti dall’utente",
+  "html_version": "v11",
+  "approved_draft": "v12, codice condiviso aggiornato per le attività separate del capitolo 7",
   "authorization": "Ok vai; generazione di bilancia e pesetti richiesta esplicitamente",
-  "html_bytes": 12103148,
-  "html_sha256": "58d528dce2799282bc088ea469261995b683bd612b3bea1d34352477f02db636",
+  "html_bytes": 12102276,
+  "html_sha256": "d8aa0b1223130fa0c9eb95db94449cd9e0a81b8abb5c11daf50235a536eb2a2e",
   "model_tests": {
     "passed": 7,
     "command": "node lavorazione/strumenti_misura/test_simulazione.cjs"
@@ -16,14 +16,14 @@
   "pages_build": "passed; nuovi capitoli esclusi dalla pubblicazione",
   "protected_sources": "invariati",
   "image_slots": [],
-  "preview_status": "Slider di precisione e accuratezza nel 6; incertezza senza qualificazioni ripetute nel 7, deviazione standard nella nota finale.",
+  "preview_status": "Due attività autonome nel capitolo 7; pubblicazione sospesa su richiesta.",
   "offline_method": "HTML caricato in memoria con rete disabilitata; immagini incorporate decodificate, MathML e simulazione disponibili. Navigazione file:// bloccata dalla policy del Chromium dell’ambiente e non dichiarata eseguita.",
   "screenshots_reviewed": [
-    "lavorazione/strumenti_misura/anteprime/bilancia-carica-390.png",
-    "lavorazione/strumenti_misura/anteprime/bilancia-carica-1440.png"
+    "lavorazione/errori_incertezza_misura/anteprime/grafico-uncertainty-1440.png",
+    "lavorazione/errori_incertezza_misura/anteprime/grafico-error-390.png"
   ],
   "generated_assets_source": "lavorazione/strumenti_misura/risorse/bilancia-pesetti-fonte.json",
-  "model_checks_scope": "7 test quantitativi superati; 20 combinazioni viewport/tema e interazioni rieseguite. Verificate mappatura dei livelli qualitativi, reset ad Alta, risposte ai controlli, letture e download. Verificati nomi dei controlli e assenza delle qualificazioni ripetute nell’articolo. Calcoli e geometria dei pesetti invariati.",
+  "model_checks_scope": "7 test quantitativi e 20 combinazioni viewport/tema superati; cinque letture e calcoli per ciascuna attività, grafici con una sola serie, riferimento solo nell’errore e fascia U solo nell’incertezza, identificativi univoci, cancellazione/reset indipendenti anche durante una misura, limite dieci e U=1 g con letture identiche. Download/offline/no-JS verificati.",
   "image_layouts_current": null,
   "licenses": {
     "manometro": "Photo by CEphoto, Uwe Aranas, CC BY-SA 3.0",
@@ -34,5 +34,6 @@
     "voltmetro_offset": "Желуденко Павло, CC BY 4.0"
   },
   "simulation_issue": "L’utente conferma il funzionamento nell’HTML scaricato. Nessun errore nei test correnti.",
-  "image_layouts_note": "Verifiche mirate delle fotografie conservate dalla revisione precedente; immagini originali invariate. Aspetto delle simulazioni verificato nelle 20 combinazioni correnti."
+  "image_layouts_note": "Verifiche mirate delle fotografie conservate dalla revisione precedente; immagini originali invariate. Aspetto delle simulazioni verificato nelle 20 combinazioni correnti.",
+  "publication_status": "Sospesa dall’utente con Aspetta; nessun push/merge/deployment."
 }

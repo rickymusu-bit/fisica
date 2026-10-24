@@ -6166,6 +6166,15 @@
           "credit_id": "bilancia-pesetti-generati"
         },
         {
+          "document": "errori_incertezza_misura_it.html",
+          "kind": "svg",
+          "description": "Bilancia digitale da laboratorio con piatto circolare e display.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "bilancia-pesetti-generati"
+        },
+        {
           "document": "strumenti_misura_it.html",
           "kind": "svg",
           "description": "Bilancia digitale da laboratorio con piatto circolare e display.",

@@ -33,13 +33,16 @@
   global.MeasurementModel = api;
   if (typeof document === 'undefined') return;
 
-  function mount(root) {
+  function mount(root, index) {
     const mode = root.dataset.measurement;
     const lab = mode === 'lab';
+    const study=root.dataset.study;
+    const fixedSample=study==='uncertainty' ? 'B' : 'A';
+    const chartId='misure-'+index;
     const find = name => root.querySelector('[data-' + name + ']');
     const all = name => [...root.querySelectorAll('[data-' + name + ']')];
     let config = {...(lab ? labConfig : defaults)};
-    let selected = new Set(), sample = 'A', current = 0, currentSignal = 0, stable = false;
+    let selected = new Set(), sample = fixedSample, current = 0, currentSignal = 0, stable = false;
     let rows = [], series = {A: [], B: []}, configuration = 1, timer = 0, frame = 0, generation = 0, acquisition = 0, recorded = false, recordedEarly = false;
     const known = 100;
     // Il valore B appartiene al modello; non viene trasferito al DOM o al grafico.
@@ -147,10 +150,10 @@
       canRecord();
     });
     function reset() {
-      cancel(); selected.clear(); sample = 'A'; currentSignal = 0; stable = false; acquisition = 0; recorded = false; recordedEarly = false;
+      cancel(); selected.clear(); sample = fixedSample; currentSignal = 0; stable = false; acquisition = 0; recorded = false; recordedEarly = false;
       rows = []; series = {A: [], B: []}; configuration = 1; config = {...(lab ? labConfig : defaults)};
       updateReading(0, 0); status.textContent = lab ? 'Scegli il campione e avvia una misura.' : 'Aggiungi un pesetto al piatto.';
-      if (lab) { find('sample').value = 'A'; find('measure').textContent='Appoggia e misura'; clearAnswers(); renderChart(); }
+      if (lab) { find('measure').textContent='Appoggia e misura'; clearAnswers(); renderChart(); }
       else {
         all('weight').forEach(btn => btn.setAttribute('aria-pressed', 'false'));
         all('property').forEach(input => {
@@ -196,13 +199,6 @@
       });
     } else {
       find('measure').addEventListener('click', acquire);
-      find('sample').addEventListener('change', event => {
-        cancel(); sample = event.target.value; acquisition = 0; stable = false; recorded = false;
-        updateReading(0, 0); clearAnswers(); canRecord();
-        paintLoad();
-        find('measure').textContent='Appoggia e misura';
-        status.textContent = 'Campione selezionato. Avvia una nuova misura; le due serie restano separate.';
-      });
       function results() {
         const stats = statistics(series[sample], config.step, sample === 'A' ? known : null);
         if (!stats || stats.count < 5) { find('feedback').textContent = 'Registra almeno cinque letture della serie scelta.'; return null; }
@@ -217,7 +213,8 @@
       });
       function showResults(stats) {
         const out = find('results'); out.hidden = false;
-        let text = 'Media ' + format(stats.mean) + ' g; semidispersione ' + format(stats.dispersion) + ' g. ';
+        let text = 'Media ' + format(stats.mean) + ' g. ';
+        if(sample==='B') text += 'Semidispersione ' + format(stats.dispersion) + ' g. ';
         text += sample === 'A' ? 'Errore del valore medio ' + signed(stats.error) + ' g; valore assoluto ' + format(Math.abs(stats.error)) + ' g; errore percentuale ' + format(stats.relative * 100) + '%.' :
           'Risultato: m = (' + decimal(stats.mean) + ' ± ' + decimal(stats.uncertainty) + ') g. Il riferimento della massa ignota non è disponibile.';
         out.textContent = text;
@@ -226,62 +223,49 @@
     }
 
     function renderChart() {
-      const host = find('chart'); if (!host) return;
-      const ns = 'http://www.w3.org/2000/svg';
-      const svg = document.createElementNS(ns, 'svg');
-      svg.setAttribute('viewBox', '0 0 800 440'); svg.setAttribute('role', 'img');
-      svg.setAttribute('aria-labelledby', 'misure-chart-title misure-chart-desc');
-      const el = (name, attrs, text) => { const node = document.createElementNS(ns, name); for (const [k,v] of Object.entries(attrs)) node.setAttribute(k,String(v)); if (text !== undefined) node.textContent = text; svg.append(node); return node; };
-      el('title', {id:'misure-chart-title'}, 'Distribuzione delle letture di massa, serie A e B');
-      let description = 'Ogni punto è una lettura; i punti coincidenti sono impilati. Asse orizzontale in grammi. ';
-      const left = 65, right = 750, x = v => left + (v - 90) / 50 * (right-left);
-      for (let tick = 90; tick <= 140; tick += 5) {
-        el('line',{x1:x(tick),x2:x(tick),y1:58,y2:365,class:'plot-grid'});
-        el('text',{x:x(tick),y:394,'text-anchor':'middle',class:'plot-tick'},String(tick));
+      const host=find('chart');if(!host)return;
+      const ns='http://www.w3.org/2000/svg',svg=document.createElementNS(ns,'svg');
+      const unknownStudy=sample==='B',values=series[sample],stats=statistics(values,config.step,unknownStudy?null:known);
+      svg.setAttribute('viewBox','0 0 800 330');svg.setAttribute('role','img');
+      svg.setAttribute('aria-labelledby',chartId+'-title '+chartId+'-desc');
+      const el=(name,attrs,text)=>{const node=document.createElementNS(ns,name);for(const[k,v]of Object.entries(attrs))node.setAttribute(k,String(v));if(text!==undefined)node.textContent=text;svg.append(node);return node;};
+      el('title',{id:chartId+'-title'},unknownStudy?'Incertezza della massa ignota':'Errore rispetto alla massa di riferimento');
+      el('text',{x:65,y:28,class:'plot-label'},unknownStudy?'Massa ignota':'Massa nota: riferimento 100 g');
+      const left=65,right=750,y=250,x=v=>left+(v-90)/50*(right-left);
+      for(let tick=90;tick<=140;tick+=5){
+        el('line',{x1:x(tick),x2:x(tick),y1:104,y2:y,class:'plot-grid'});
+        el('text',{x:x(tick),y:280,'text-anchor':'middle',class:'plot-tick'},String(tick));
       }
-      el('text',{x:410,y:426,'text-anchor':'middle',class:'plot-label'},'Massa indicata (g)');
-      for (const [key,y] of [['A',165],['B',345]]) {
-        const values = series[key], stats = statistics(values, config.step, key === 'A' ? known : null);
-        el('text',{x:65,y:y-120,class:'plot-label'},key === 'A' ? 'A — massa nota, riferimento 100 g' : 'B — massa ignota');
-        el('line',{x1:left,x2:right,y1:y,y2:y,class:'plot-axis'});
-        if (key === 'A') {
-          el('line',{x1:x(known),x2:x(known),y1:y-92,y2:y+12,class:'plot-reference'});
-          el('text',{x:x(known)-8,y:y-83,'text-anchor':'end',class:'plot-tick'},'Riferimento');
+      el('line',{x1:left,x2:right,y1:y,y2:y,class:'plot-axis'});
+      el('text',{x:410,y:316,'text-anchor':'middle',class:'plot-label'},'Massa indicata (g)');
+      if(!unknownStudy)el('line',{x1:x(known),x2:x(known),y1:104,y2:y+12,class:'plot-reference'});
+      let description='Ogni punto è una lettura della massa '+(unknownStudy?'ignota. ':'nota. ');
+      if(!stats){el('text',{x:410,y:170,'text-anchor':'middle',class:'plot-muted'},'Nessuna lettura');description+='Nessuna lettura registrata.';}
+      else{
+        el('text',{x:65,y:58,class:'plot-tick'},'Media '+format(stats.mean)+' g');
+        if(unknownStudy){
+          el('rect',{x:x(stats.mean-stats.uncertainty),y:104,width:x(stats.mean+stats.uncertainty)-x(stats.mean-stats.uncertainty),height:y-104,class:'plot-band'});
+          for(const edge of[stats.min,stats.max])el('line',{x1:x(edge),x2:x(edge),y1:y-7,y2:y+9,class:'plot-extreme'});
+          el('text',{x:65,y:86,class:'plot-tick'},'d = '+format(stats.dispersion)+' g; U = '+format(stats.uncertainty)+' g');
+          description+='Media '+format(stats.mean)+' g; semidispersione '+format(stats.dispersion)+' g; incertezza '+format(stats.uncertainty)+' g. Fascia da '+format(stats.mean-stats.uncertainty)+' a '+format(stats.mean+stats.uncertainty)+' g.';
+        }else{
+          el('line',{x1:x(known),x2:x(stats.mean),y1:92,y2:92,class:'plot-error'});
+          for(const value of[known,stats.mean])el('line',{x1:x(value),x2:x(value),y1:87,y2:97,class:'plot-error'});
+          el('text',{x:65,y:82,class:'plot-tick'},'Errore della media '+signed(stats.error)+' g');
+          description+='Riferimento 100 g; media '+format(stats.mean)+' g; errore '+signed(stats.error)+' g.';
         }
-        if (!stats) { el('text',{x:475,y:y-55,'text-anchor':'middle',class:'plot-muted'},'Nessuna lettura'); description += key + ': nessuna lettura. '; continue; }
-        if (key === 'B') {
-          el('rect',{x:x(stats.mean-stats.uncertainty),y:y-110,width:x(stats.mean+stats.uncertainty)-x(stats.mean-stats.uncertainty),height:110,class:'plot-band'});
-          for (const edge of [stats.min, stats.max]) el('line',{x1:x(edge),x2:x(edge),y1:y-7,y2:y+9,class:'plot-extreme'});
-          el('text',{x:65,y:y-93,class:'plot-tick'},'d = ' + format(stats.dispersion) + ' g; U = ' + format(stats.uncertainty) + ' g');
-          el('text',{x:65,y:y-70,class:'plot-tick'},'Fascia ' + format(stats.mean-stats.uncertainty) + '–' + format(stats.mean+stats.uncertainty) + ' g');
-        }
-        const stacks = new Map();
-        for (const value of values) {
-          const stack = (stacks.get(value) || 0) + 1; stacks.set(value,stack);
-          const point = el('circle',{cx:x(value),cy:y-12-(stack-1)*11,r:4,class:'plot-point plot-'+key.toLowerCase()});
-          const title = document.createElementNS(ns,'title'); title.textContent = 'Serie ' + key + ': ' + format(value) + ' g'; point.append(title);
-        }
-        el('line',{x1:x(stats.mean),x2:x(stats.mean),y1:y-85,y2:y+12,class:'plot-mean'});
-        el('text',{x:key === 'A' ? 475 : 65,y:y-45,class:'plot-tick'},'Media ' + format(stats.mean) + ' g');
-        if (key === 'A') {
-          el('line',{x1:x(known),x2:x(stats.mean),y1:y-102,y2:y-102,class:'plot-error'});
-          for (const value of [known,stats.mean]) el('line',{x1:x(value),x2:x(value),y1:y-106,y2:y-98,class:'plot-error'});
-          el('text',{x:475,y:y-83,class:'plot-tick'},'Errore della media ' + signed(stats.error) + ' g');
-        }
-        description += key + ': ' + values.length + ' letture, media ' + format(stats.mean) + ' g; ' + (key === 'A' ? 'riferimento 100 g, errore ' + signed(stats.error) + ' g. ' : 'semidispersione ' + format(stats.dispersion) + ' g e incertezza ' + format(stats.uncertainty) + ' g. ');
+        const stacks=new Map();
+        for(const value of values){const stack=(stacks.get(value)||0)+1;stacks.set(value,stack);
+          const point=el('circle',{cx:x(value),cy:y-12-(stack-1)*11,r:4,class:'plot-point plot-'+sample.toLowerCase()});
+          const title=document.createElementNS(ns,'title');title.textContent=format(value)+' g';point.append(title);}
+        el('line',{x1:x(stats.mean),x2:x(stats.mean),y1:104,y2:y+12,class:'plot-mean'});
       }
-      const desc = document.createElementNS(ns,'desc'); desc.id = 'misure-chart-desc'; desc.textContent = description; svg.prepend(desc);
-      host.replaceChildren(svg); find('chart-description').textContent = description;
-      const zoom = find('chart-copy');
-      if (zoom) {
-        const copy = svg.cloneNode(true);
-        copy.querySelector('title').id = 'misure-chart-title-zoom';
-        copy.querySelector('desc').id = 'misure-chart-desc-zoom';
-        copy.setAttribute('aria-labelledby','misure-chart-title-zoom misure-chart-desc-zoom');
-        zoom.replaceChildren(copy);
-      }
+      el('desc',{id:chartId+'-desc'},description);host.replaceChildren(svg);find('chart-description').textContent=description;
+      const zoom=find('chart-copy');if(zoom){const copy=svg.cloneNode(true);
+        copy.querySelector('title').id=chartId+'-title-zoom';copy.querySelector('desc').id=chartId+'-desc-zoom';
+        copy.setAttribute('aria-labelledby',chartId+'-title-zoom '+chartId+'-desc-zoom');zoom.replaceChildren(copy);}
     }
     root.classList.add('sim-ready'); all('interactive').forEach(el => el.disabled = false); reset();
   }
-  document.querySelectorAll('[data-measurement]').forEach(mount);
+  document.querySelectorAll('[data-measurement]').forEach((root,index)=>mount(root,index));
 })(typeof globalThis !== 'undefined' ? globalThis : this);

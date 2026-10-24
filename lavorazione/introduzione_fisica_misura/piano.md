@@ -220,3 +220,7 @@ Su richiesta dell’utente generate e integrate le immagini della bilancia digit
 Integrate le ultime immagini scelte dall’utente: manometro in sostituzione del voltmetro, termometro a colonna e cronometro; ricreati su richiesta i quattro bersagli con etichette italiane. Aggiornati gli esempi coerentemente con scale e strumenti fotografati. HTML correnti: strumenti_misura_it.html v6; errori_incertezza_misura_it.html v3. Nessuna immagine pendente. PR #72 in bozza; anteprima da revisionare prima della pubblicazione.
 
 Revisione richiesta il 24 ottobre 2026: capitolo 6 v7 con nuova foto della bilancia digitale nella teoria, sensibilità semplificata e didascalie ripristinate. Etichette di massa sui pesetti; capitolo 7 v4 con didascalie e riferimento etichettato, massa ignota nascosta.
+
+## Ultima revisione del capitolo 7
+
+Pubblicazione fermata dall’utente prima di qualsiasi push/merge/deployment. Attività di incertezza e misura dell’errore separate in due sezioni autonome con bilance, registri, calcoli e grafici propri. Un solo capitolo 7, senza nuove suddivisioni del piano. Anteprima corrente da revisionare prima del rilascio.

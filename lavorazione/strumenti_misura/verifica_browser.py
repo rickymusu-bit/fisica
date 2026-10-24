@@ -44,7 +44,7 @@ def main():
               page=ctx.new_page();seed(page)
               page.on('pageerror',lambda e:report['errors'].append(str(e)))
               page.on('request',lambda r:report['external_requests'].append(r.url) if not r.url.startswith((origin,'data:','blob:')) else None)
-              page.goto(origin+'/'+name);page.locator('.sim-ready').wait_for()
+              page.goto(origin+'/'+name);page.locator('.sim-ready').first.wait_for()
               assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1'),(key,width,'overflow')
               assert page.locator('html').get_attribute('data-theme')==theme
               ids=page.locator('[id]').evaluate_all('(xs)=>xs.map(x=>x.id)');assert len(ids)==len(set(ids)),(key,'duplicate ids')
@@ -53,12 +53,12 @@ def main():
               page.locator('img').evaluate_all('async(xs)=>Promise.all(xs.map(i=>{i.loading="eager";return i.decode()}))')
               assert page.locator('img').evaluate_all('(xs)=>xs.every(i=>i.naturalWidth>0)')
               assert page.locator('mfrac').count()>0 if key=='errori_incertezza_misura' else page.locator('.measure-sensor-table').count()==0
-              assert page.locator('.sim-has-balance').count()==1
-              assert page.locator('[data-display]').bounding_box()['width']<=page.locator('.sim-balance-scene').bounding_box()['width']
+              assert page.locator('.sim-has-balance').count()==(1 if key=='strumenti_misura' else 2)
+              assert page.locator('[data-display]').first.bounding_box()['width']<=page.locator('.sim-balance-scene').first.bounding_box()['width']
               assert page.locator('image[id="sim-balance-art"]').count()==1
               assert page.locator('image[id="sim-weight-art"]').count()==1
               if key=='errori_incertezza_misura':
-                graph=page.locator('[data-chart]').bounding_box();parent=page.locator('.sim-chart-frame>.overview').bounding_box()
+                graph=page.locator('[data-chart]').first.bounding_box();parent=page.locator('.sim-chart-frame>.overview').first.bounding_box()
                 assert abs(graph['width']-parent['width'])<=2,(graph,parent)
               for selector in ['button[data-interactive]','input[type=range]','select[data-interactive]']:
                 for box in page.locator(selector).evaluate_all('(xs)=>xs.filter(x=>x.getClientRects().length).map(x=>({w:x.getBoundingClientRect().width,h:x.getBoundingClientRect().height}))'):
@@ -73,8 +73,9 @@ def main():
               page.locator('[data-close-credits]').click()
               if width in [390,1440]:
                 hide_bar=page.add_style_tag(content='.topbar{visibility:hidden!important}')
-                page.locator('.measurement-sim').scroll_into_view_if_needed()
-                page.locator('.measurement-sim').screenshot(path=str(shots/f'simulazione-{theme}-{width}.png'))
+                for sim in page.locator('.measurement-sim').all():
+                  sim.scroll_into_view_if_needed();study=sim.get_attribute('data-study')
+                  sim.screenshot(path=str(shots/(f'simulazione-{study}-{theme}-{width}.png' if study else f'simulazione-{theme}-{width}.png')))
                 hide_bar.evaluate('(e)=>e.remove()')
                 page.goto(origin+'/'+name);page.locator('.cover').screenshot(path=str(shots/f'copertina-{theme}-{width}.png'))
               report['layouts'].append({'chapter':key,'width':width,'theme':theme,'status':'ok'})
@@ -133,65 +134,47 @@ def main():
           bar.evaluate('(e)=>e.remove()')
         report['checks'].append('Capitolo 6: lettura anticipata, stabilizzazione, sensibilità in grammi, fuori scala, zero, passo, tastiera e reset durante acquisizione.')
         page.goto(origin+'/'+PAGES['errori_incertezza_misura'])
-        assert page.locator('.chapter-navigation a[rel=prev]').get_attribute('href')==PAGES['strumenti_misura']
-        assert page.locator('[data-property]').count()==0
-        page.locator('[data-check]').click();assert 'almeno cinque' in page.locator('[data-feedback]').inner_text()
-        for i in range(5):
-          page.locator('[data-measure]').click();assert page.locator('[data-record]').is_disabled()
-          page.clock.run_for(1100);page.locator('[data-record]').click();assert page.locator('[data-record]').is_disabled()
-        av=page.locator('[data-rows] tr').evaluate_all('(rs)=>rs.map(r=>Number(r.cells[2].textContent.replace(" g","").replace(",",".")))')
-        amean=sum(av)/len(av)
-        page.locator('[data-answer=mean]').fill(str(round(amean,2)).replace('.',','));page.locator('[data-answer=error]').fill(str(round(amean-100,2)).replace('.',','))
-        page.locator('[data-check]').click();assert 'corretti' in page.locator('[data-feedback]').inner_text()
-        assert 'Errore del valore medio' in page.locator('[data-results]').inner_text()
-        page.locator('[data-sample]').select_option('B')
-        assert page.locator('[data-pan] .sim-pan-weight').count()==0
-        assert page.locator('[data-record]').is_disabled();assert page.locator('[data-answer=error]').is_hidden()
-        assert page.locator('[data-results]').is_hidden()
-        for i in range(5):
-          page.locator('[data-measure]').click();page.clock.run_for(1100);page.locator('[data-record]').click()
-        assert page.locator('[data-pan] .sim-pan-weight').count()==1
-        assert page.locator('[data-pan] svg').evaluate_all('(xs)=>xs.every(e=>!e.getAttribute("aria-label").includes("125"))')
-        bv=page.locator('[data-rows] tr').evaluate_all('(rs)=>rs.filter(r=>r.cells[0].textContent.startsWith("B")).map(r=>Number(r.cells[2].textContent.replace(" g","").replace(",",".")))')
-        mean=sum(bv)/len(bv);disp=(max(bv)-min(bv))/2;u=max(1,disp)
-        for key,value in [('mean',mean),('dispersion',disp),('uncertainty',u)]:page.locator('[data-answer='+key+']').fill(str(round(value,2)).replace('.',','))
-        page.locator('[data-check]').click();assert 'corretti' in page.locator('[data-feedback]').inner_text()
-        assert 'riferimento della massa ignota non è disponibile' in page.locator('[data-results]').inner_text()
-        assert page.locator('[data-chart] .plot-point').count()==10
-        assert page.locator('[data-chart] .plot-reference').count()==1
-        assert '125 g' not in page.locator('[data-chart-description]').inner_text().split('riferimento')[-1] or 'riferimento 125' not in page.locator('[data-chart-description]').inner_text()
-        for width in [390,1440]:
-          page.set_viewport_size({'width':width,'height':1000})
-          hide_bar=page.add_style_tag(content='.topbar{visibility:hidden!important}')
-          page.locator('[data-chart]').screenshot(path=str(ROOT/'lavorazione/errori_incertezza_misura/anteprime'/f'grafico-dati-{width}.png'))
-          hide_bar.evaluate('(e)=>e.remove()')
-        page.locator('.sim-chart-frame .image-zoom>summary').click()
-        expect(page.locator('.sim-chart-frame .image-zoom')).to_have_attribute('open','')
-        assert page.locator('[data-chart-copy] .plot-point').count()==10
-        scroll=page.locator('.sim-chart-frame .zoom-scroll');scroll.focus();before=scroll.evaluate('(e)=>e.scrollLeft');page.keyboard.press('ArrowRight');page.wait_for_timeout(300)
-        assert scroll.evaluate('(e)=>e.scrollLeft')>before
-        assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
-        page.locator('.sim-chart-frame .image-zoom>summary').click()
-        page.locator('[data-sample]').select_option('A');assert len(page.locator('[data-rows] tr').all())==10
-        page.locator('[data-clear]').click();assert page.locator('[data-chart] .plot-a').count()==0;assert page.locator('[data-chart] .plot-b').count()==5
-        page.locator('[data-reset]').click();assert page.locator('[data-chart] .plot-point').count()==0
-        # Grafico su casi asimmetrici e coincidenti: browser deterministico, non sequenza forzata nell'app.
-        page.evaluate('''()=>{let a=[.5,.5,.5,.5,1],i=0;Math.random=()=>a[i++%a.length]}''')
-        for i in range(5):
-          page.locator('[data-measure]').click();page.clock.run_for(1100);page.locator('[data-record]').click()
-        assert page.locator('[data-chart] .plot-point').count()==5
-        page.locator('[data-sample]').select_option('B')
+        uncertainty=page.locator('[data-study=uncertainty]');error=page.locator('[data-study=error]')
+        assert page.locator('[data-sample]').count()==0
+        assert uncertainty.locator('[data-answer=error]').count()==0
+        assert error.locator('[data-answer=uncertainty]').count()==0
+        assert error.locator('[data-answer=dispersion]').count()==0
+        for sim in [uncertainty,error]:
+          sim.locator('[data-check]').click();assert 'almeno cinque' in sim.locator('[data-feedback]').inner_text()
+          for i in range(5):
+            sim.locator('[data-measure]').click();page.clock.run_for(1100);sim.locator('[data-record]').click()
+          values=sim.locator('[data-rows] tr').evaluate_all('(rs)=>rs.map(r=>Number(r.cells[2].textContent.replace(" g","").replace(",",".")))')
+          mean=sum(values)/len(values);disp=(max(values)-min(values))/2
+          answers=[('mean',mean),('error',mean-100)] if sim==error else [('mean',mean),('dispersion',disp),('uncertainty',max(1,disp))]
+          for k,v in answers:sim.locator('[data-answer='+k+']').fill(str(round(v,2)).replace('.',','))
+          sim.locator('[data-check]').click();assert 'corretti' in sim.locator('[data-feedback]').inner_text()
+          assert sim.locator('[data-chart] .plot-point').count()==5
+          assert sim.locator('[data-chart] .plot-reference').count()==(1 if sim==error else 0)
+          assert sim.locator('[data-chart] .plot-band').count()==(0 if sim==error else 1)
+          assert sim.locator('[data-chart] .plot-error').count()==(3 if sim==error else 0)
+          assert 'riferimento 125' not in sim.inner_text().lower()
+          if sim==uncertainty:assert sim.locator('[data-pan] .sim-mass-label').inner_text()=='B'
+          for width in [390,1440]:
+            page.set_viewport_size({'width':width,'height':1000});bar=page.add_style_tag(content='.topbar{visibility:hidden!important}')
+            sim.locator('[data-chart]').screenshot(path=str(ROOT/'lavorazione/errori_incertezza_misura/anteprime'/f'grafico-{sim.get_attribute("data-study")}-{width}.png'));bar.evaluate('(e)=>e.remove()')
+          sim.locator('.image-zoom>summary').click();assert sim.locator('[data-chart-copy] .plot-point').count()==5
+          assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1');sim.locator('.image-zoom>summary').click()
+        uncertainty.locator('[data-clear]').click()
+        assert uncertainty.locator('[data-chart] .plot-point').count()==0
+        assert error.locator('[data-chart] .plot-point').count()==5
+        error.locator('[data-measure]').click();uncertainty.locator('[data-reset]').click();page.clock.run_for(1100)
+        assert error.locator('[data-record]').is_enabled();error.locator('[data-record]').click()
+        assert error.locator('[data-chart] .plot-point').count()==6
         page.evaluate('()=>{Math.random=()=>.5}')
         for i in range(5):
-          page.locator('[data-measure]').click();page.clock.run_for(1100);page.locator('[data-record]').click()
-        page.locator('[data-solution]').click();assert '0 g' in page.locator('[data-results]').inner_text()
-        assert 'U = 1 g' in page.locator('[data-chart]').inner_text()
-        page.locator('[data-chart]').screenshot(path=str(ROOT/'lavorazione/errori_incertezza_misura/anteprime/grafico-letture-identiche.png'))
+          uncertainty.locator('[data-measure]').click();page.clock.run_for(1100);uncertainty.locator('[data-record]').click()
+        assert 'U = 1 g' in uncertainty.locator('[data-chart]').inner_text()
+        error.locator('[data-reset]').click();assert uncertainty.locator('[data-chart] .plot-point').count()==5
         for i in range(5):
-          page.locator('[data-measure]').click();page.clock.run_for(1100);page.locator('[data-record]').click()
-        assert page.locator('[data-record]').is_disabled();assert page.locator('[data-chart] .plot-b').count()==10
-        assert page.locator('[data-measure]').is_disabled();assert 'dieci letture' in page.locator('[data-status]').inner_text()
-        report['checks'].append('Capitolo 7: cinque acquisizioni indipendenti per campione, limite dieci, controlli dei calcoli, campioni separati, grafico, cancellazione e ripristino; letture identiche con d=0 e U=1 g.')
+          uncertainty.locator('[data-measure]').click();page.clock.run_for(1100);uncertainty.locator('[data-record]').click()
+        assert uncertainty.locator('[data-record]').is_disabled() and uncertainty.locator('[data-measure]').is_disabled()
+        assert error.locator('[data-measure]').is_enabled()
+        report['checks'].append('Capitolo 7: due attività indipendenti; cinque letture e calcoli per ciascuna, grafici separati, riferimenti/fasce esclusivi, reset e cancellazione isolati, limite dieci e U=1 g per letture identiche.')
         # Download esatto, nessuna dipendenza di rete e fallback senza JavaScript.
         for key,name in PAGES.items():
           page.goto(origin+'/'+name)
@@ -201,12 +184,12 @@ def main():
           off=browser.new_context(offline=True,viewport={'width':390,'height':900})
           plain=off.new_page();plain.set_content((ROOT/name).read_text())
           plain.locator('img').evaluate_all('async(xs)=>Promise.all(xs.map(i=>{i.loading="eager";return i.decode()}))')
-          assert plain.locator('.sim-ready').count()==1;assert plain.locator('img').evaluate_all('(xs)=>xs.every(i=>i.naturalWidth>0)')
+          assert plain.locator('.sim-ready').count()==(1 if key=='strumenti_misura' else 2);assert plain.locator('img').evaluate_all('(xs)=>xs.every(i=>i.naturalWidth>0)')
           assert (plain.locator('mfrac').count()>0) if key=='errori_incertezza_misura' else plain.locator('.measure-sensor-table').count()==0
           off.close()
           nojs=browser.new_context(java_script_enabled=False,viewport={'width':390,'height':900})
           plain=nojs.new_page();plain.goto(origin+'/'+name);assert plain.locator('html').get_attribute('data-theme')=='dark'
-          assert plain.locator('[data-record]').is_disabled();assert plain.locator('.questions>li').count()>0
+          assert plain.locator('[data-record]').first.is_disabled();assert plain.locator('.questions>li').count()>0
           plain.locator('[data-offline-credits]').click();expect(plain.locator('#crediti-autonomi')).to_be_visible();nojs.close()
         report['checks'].append('Download identico, copertine/MathML/simulazioni offline, teoria e crediti senza JavaScript, default scuro.')
         ctx.close();browser.close()

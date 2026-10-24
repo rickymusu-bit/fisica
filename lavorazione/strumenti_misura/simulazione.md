@@ -40,3 +40,7 @@ La richiesta più recente sostituisce l’interfaccia del guadagno elettrico: ni
 ## Interfaccia didattica corrente
 
 Capitolo 6: Accuratezza e Precisione sostituiscono i nomi tecnici dello spostamento dello zero e dei disturbi. Slider 0–5, valori più alti = prestazione migliore. Mappatura interna: offset=5−accuratezza e noise=5−precisione; reset a 5 per entrambi. Le uscite e il registro usano livelli qualitativi, senza percentuali di accuratezza prive di significato metrologico. Nel 7 etichette semplicemente «Incertezza U», nessuna qualificazione didattica/scolastica ripetuta; cenno alla deviazione standard solo nella nota finale.
+
+## Due attività autonome nel capitolo 7
+
+SIM-07-U: campione ignoto fisso, registro e calcoli di media/d/U, grafico con punti, media, estremi e fascia ±U. SIM-07-E: campione noto di 100 g fisso, registro e calcoli di media/errore, grafico con punti, media, riferimento ed errore. Ogni istanza mantiene stato e timer propri; reset e cancellazione non agiscono sull’altra. Nessun selettore di campione e nessun grafico combinato. Formule e parametri numerici immutati.

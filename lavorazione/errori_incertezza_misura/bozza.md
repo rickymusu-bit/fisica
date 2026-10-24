@@ -1,6 +1,6 @@
 # Errori e incertezza di misura
 
-[EDITORIALE — Bozza v11, 24 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive scelte dall’utente e integrate. Area: Introduzione alla fisica e alla misura.]
+[EDITORIALE — Bozza v12, 24 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive scelte dall’utente e integrate. Area: Introduzione alla fisica e alla misura.]
 
 [COP-07 — Fotografia scelta dall'utente: TV noise.jpg. Intera, senza ritagli o zoom, non ripetuta nel corpo.]
 
@@ -177,17 +177,21 @@ L'errore assoluto dell'esempio, 0,10 s, è un po' maggiore della stima dell'ince
 
 Se invece mancasse il riferimento, non potremmo eseguire quella sottrazione né calcolare l'errore percentuale effettivo. Potremmo comunque stimare l'incertezza usando ciò che sappiamo dello strumento e della procedura. È questa la differenza fra le due domande: “di quanto differisce dal riferimento?” e “con quale incertezza attribuiamo questo valore alla grandezza?”.
 
-## Una massa nota e una massa da misurare
+## Stimare l’incertezza di una massa ignota
 
-La bilancia virtuale ha proprietà fisse, riportate nella scheda dello strumento. Sono disponibili due campioni: uno ha una massa di riferimento nota, l'altro una massa da determinare. Per ciascuno puoi effettuare misure ripetute e registrare le letture in una serie separata.
+Misura più volte la massa del campione B. Calcola la media e la semidispersione delle letture, poi confronta la semidispersione con il passo leggibile della bilancia per stimare U. Scrivi il risultato come valore medio ± incertezza, in grammi.
 
-[SIM-07 — Bilancia a proprietà fisse con campione A di riferimento 100 g e campione B di massa ignota; portata 500 g, passo 1 g, sensibilità del sensore dichiarata e non regolabile. Dati del modello simulati. Sotto la bilancia, grafico a punti delle letture, media e confronto con il riferimento per A; media, semidispersione e fascia ±U per B. Dettagli in simulazione.md; nessun codice ancora realizzato.]
+[SIM-07-U — Attività autonoma sulla massa ignota: bilancia, registro, calcoli di media, semidispersione e U, grafico dedicato con punti, media, estremi e fascia ±U.]
 
-Misura più volte la massa nota e calcola la media delle letture. Confrontandola con il riferimento puoi stimare l'errore del risultato medio; ogni singolo punto mostra invece una singola lettura. Lo scarto della media dal riferimento e la dispersione dei punti sono informazioni diverse: una serie può essere raccolta ma spostata.
+Il grafico mostra una sola serie: le tue letture della massa ignota. La fascia è centrata sulla media e si estende di U da entrambi i lati. I tratti sull’asse indicano invece il minimo e il massimo osservati.
 
-Passa poi al campione ignoto. Calcola la media e la semidispersione, confronta quest'ultima con il passo leggibile e usa il criterio appena descritto per proporre un'incertezza. Scrivi il risultato come valore medio ± incertezza, in grammi. Per questa attività la bilancia è regolata sullo zero; se il controllo con la massa nota suggerisce uno spostamento persistente, occorre controllare lo strumento prima di fidarsi della sola dispersione.
+## Misurare l’errore rispetto a una massa nota
 
-Il grafico sotto la bilancia mostra come si distribuiscono le letture. Per la massa nota puoi visualizzare riferimento, media e segmento dell'errore; per quella ignota, media e fascia dell'incertezza. Gli estremi osservati servono a leggere la semidispersione, mentre la fascia ±U è centrata sul valore medio: non sono necessariamente lo stesso intervallo. La massa nascosta non compare nel grafico, perché non la conosceresti durante una misura reale.
+Il campione A ha una massa di riferimento di 100 g. Misuralo più volte, calcola la media e sottrai il riferimento per ricavare l’errore del valore medio. Osserva sia la dispersione delle letture sia lo scarto della media dal riferimento: una serie può essere raccolta ma spostata.
+
+[SIM-07-E — Attività autonoma sulla massa nota: bilancia, registro, calcoli di media ed errore, grafico dedicato con punti, media, riferimento ed errore.]
+
+In questo grafico la linea tratteggiata indica il riferimento di 100 g e la linea continua la media. Il segmento rosso mostra lo scarto fra i due valori.
 
 ## Domande di verifica
 

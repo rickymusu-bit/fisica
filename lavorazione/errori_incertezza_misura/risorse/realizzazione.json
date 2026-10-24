@@ -1,5 +1,5 @@
 {
-  "version": "v9",
+  "version": "v10",
   "date": "2026-10-24T07:37:15+00:00",
-  "approved_draft": "v11, slider precisione/accuratezza e semplificazione delle etichette di incertezza richiesti dall’utente"
+  "approved_draft": "v12, separazione delle simulazioni incertezza/errore richiesta esplicitamente dall’utente"
 }

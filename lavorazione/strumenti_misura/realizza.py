@@ -183,10 +183,10 @@ def static_graph():
     return '<figure class="visual" id="graf-07-2" data-credit-id="grafico-misure-tempi"><div class="measure-scroll measure-static-graph" tabindex="0" role="region" aria-label="Grafico delle cinque letture, scorrevole">' + svg + '</div></figure>'
 
 
-def simulation(folder, mode, image_assets):
+def simulation(folder, mode, image_assets, study=None):
     lab = mode == 'lab'
-    title = 'Massa nota e massa ignota' if lab else 'Pesetti e proprietà della bilancia'
-    result = '<section class="measurement-sim" data-measurement="' + mode + '" aria-label="' + title + '"><h3>' + title + '</h3>'
+    title = ('Massa ignota' if study=='uncertainty' else 'Massa di riferimento') if lab else 'Pesetti e proprietà della bilancia'
+    result = '<section class="measurement-sim" data-measurement="' + mode + '"' + (' data-study="' + study + '"' if study else '') + ' aria-label="' + title + '"><h3>' + title + '</h3>'
     result += '<p class="sim-intro">Valori simulati. ' + ('Le proprietà dello strumento sono fisse: portata 500 g, passo leggibile 1 g e risposta di circa 1 s.' if lab else 'Aggiungi i pesetti al piatto e varia una proprietà alla volta con gli slider sotto la bilancia.') + '</p>'
     generated=bool(image_assets.get('bilancia',{}).get('symbol'))
     if generated:
@@ -213,21 +213,22 @@ def simulation(folder, mode, image_assets):
             result += '<label class="sim-slider"><span class="sim-slider-head"><span>' + label + '</span><output data-property-output="' + key + '"></output></span><input type="range" data-interactive disabled data-property="' + key + '" min="' + str(minimum) + '" max="' + str(maximum) + '" step="1" value="' + str(initial) + '"><small>' + helptext + '</small></label>'
         result += '</div><p data-series-label>Configurazione 1</p>'
     else:
-        result += '<p><label>Campione da misurare <select data-sample data-interactive disabled><option value="A">A — massa nota: 100 g</option><option value="B">B — massa ignota</option></select></label></p><p data-sample-label>Campione A: riferimento 100 g</p>'
+        result += '<p data-sample-label>' + ('Campione B: massa ignota' if study=='uncertainty' else 'Campione A: riferimento 100 g') + '</p>'
         result += '<div class="sim-buttons">' + button('Appoggia e misura','data-measure',True) + '</div>'
     result += '<p class="sim-status" role="status" data-status>Simulazione pronta dopo il caricamento.</p><div class="sim-buttons">' + button('Registra lettura','data-record',True) + button('Cancella la serie corrente','data-clear') + button('Ripristina tutto','data-reset') + '</div>'
     result += '<noscript><p>Per usare la bilancia virtuale occorre attivare JavaScript. Teoria, tabelle e domande restano leggibili.</p></noscript>'
     if lab:
         zoom='<details class="image-zoom"><summary class="media-icon-button" aria-label="Ingrandisci l’immagine"><span class="zoom-expand">' + icon('zoom-in') + '</span><span class="zoom-collapse">' + icon('zoom-out') + '</span></summary><div class="zoom-scroll" tabindex="0" role="region" aria-label="Grafico delle letture ingrandito e scorrevole"><div class="sim-chart sim-chart-large" data-chart-copy></div></div></details>'
-        result += '<figure class="visual"><div class="image-frame sim-chart-frame"><div class="overview"><div class="sim-chart" data-chart></div></div>' + zoom + '</div><figcaption data-chart-description>Il grafico sarà popolato dalle letture registrate.</figcaption></figure><p class="sim-legend">Un punto per lettura; i punti uguali sono impilati. Linea tratteggiata: riferimento noto. Linea continua: media. Segmento rosso: errore della media. Fascia ambrata: ±U; i tratti alla base indicano gli estremi osservati. Usa il comando di ingrandimento per leggere le etichette su schermi piccoli: scala e disposizione restano le stesse.</p>'
+        result += '<figure class="visual"><div class="image-frame sim-chart-frame"><div class="overview"><div class="sim-chart" data-chart></div></div>' + zoom + '</div><figcaption data-chart-description>Il grafico sarà popolato dalle letture registrate.</figcaption></figure>' + '<p class="sim-legend">Un punto per lettura; i punti uguali sono impilati. Linea continua: media. ' + ('Fascia ambrata: ±U. I tratti alla base indicano gli estremi osservati.' if study=='uncertainty' else 'Linea tratteggiata: riferimento. Segmento rosso: errore della media.') + '</p>'
     result += '<div class="sim-scroll" tabindex="0" role="region" aria-label="Registro delle letture, tabella scorrevole"><table><caption>Letture registrate</caption><thead><tr>'
     headings = ['Campione','Prova','Lettura'] if lab else ['Configurazione','Massa caricata','Lettura','Stato','Proprietà']
     result += ''.join('<th scope="col">' + h + '</th>' for h in headings) + '</tr></thead><tbody data-rows></tbody></table></div>'
     if lab:
-        result += '<div class="sim-only-js"><p>Registra almeno cinque letture per campione. Inserisci i tuoi calcoli; puoi usare la virgola o il punto decimale e arrotondare la risposta a due decimali.</p><div class="sim-fields">'
+        result += '<div class="sim-only-js"><p>Registra almeno cinque letture. Inserisci i tuoi calcoli; puoi usare la virgola o il punto decimale e arrotondare la risposta a due decimali.</p><div class="sim-fields">'
         for key,label,which in [('mean','Media (g)',''),('error','Errore della media, con segno (g)','only-reference'),('dispersion','Semidispersione (g)','only-unknown'),('uncertainty','Incertezza U (g)','only-unknown')]:
+            if study=='uncertainty' and key=='error' or study=='error' and key in {'dispersion','uncertainty'}: continue
             result += '<label ' + ('data-' + which if which else '') + '>' + label + '<input type="text" inputmode="decimal" data-answer="' + key + '" autocomplete="off"></label>'
-        result += '</div><div class="sim-buttons">' + button('Controlla i calcoli','data-check',True) + button('Mostra il confronto','data-solution') + '</div><p class="sim-feedback" role="status" data-feedback></p><p class="sim-results" data-results hidden></p><details class="sim-help"><summary>Aiuto per i calcoli</summary><p>Media: somma delle letture divisa per il loro numero. Semidispersione: metà della differenza fra massimo e minimo. Incertezza U: la maggiore fra semidispersione e passo di 1 g. Errore del valore medio: media meno riferimento.</p></details><p class="sim-legend">La bilancia del modello è regolata sullo zero. La fascia centrata sulla media può differire dall’intervallo minimo–massimo.</p></div>'
+        result += '</div><div class="sim-buttons">' + button('Controlla i calcoli','data-check',True) + button('Mostra il confronto','data-solution') + '</div><p class="sim-feedback" role="status" data-feedback></p><p class="sim-results" data-results hidden></p>' + '<details class="sim-help"><summary>Aiuto per i calcoli</summary><p>Media: somma delle letture divisa per il loro numero. ' + ('Semidispersione: metà della differenza fra massimo e minimo. Incertezza U: la maggiore fra semidispersione e passo di 1 g.' if study=='uncertainty' else 'Errore del valore medio: media meno riferimento di 100 g.') + '</p></details></div>'
     result += '</section>'
     return result
 
@@ -269,7 +270,7 @@ def render(key, data):
             else: body.append('<p class="visual-caption">' + inline(caption) + '</p>'); pending = None
             continue
         if block.startswith('[SIM-'):
-            body.append(simulation(folder,data['mode'],image_assets)); continue
+            body.append(simulation(folder,data['mode'],image_assets,study='uncertainty' if block.startswith('[SIM-07-U') else 'error' if block.startswith('[SIM-07-E') else None)); continue
         if block.startswith('[PROSPETTO'):
             body.append('<div class="measure-scroll measure-sensor-table" tabindex="0" role="region" aria-label="Confronto della sensibilità"><table class="measure-table"><caption>Confronto illustrativo di due termometri a colonna</caption><thead><tr><th>Termometro</th><th>Allungamento per 1 °C</th></tr></thead><tbody><tr><th>A</th><td>2 mm</td></tr><tr><th>B</th><td>1 mm</td></tr></tbody></table></div>'); continue
         if block.startswith('[GRAF-'):

@@ -63,3 +63,7 @@ Ripristinate le didascalie su richiesta. FIG-06-1b usa la fotografia della bilan
 FIG-07-2 corrente: voltmetro analogico con offset negativo scelto dall’utente, Вольтметр_4.jpg, Желуденко Павло, CC BY 4.0. Fotografia intera con didascalia; sostituisce la bilancia della teoria, senza cambiare la simulazione.
 
 Scelta più recente: SCH-07-1 usa la scena U.S. Navy del cronometraggio della corsa, Chris Desmond, pubblico dominio; intera senza zoom. FIG-07-1 resta senza zoom. Soglia di valutazione delle scritte: 14 CSS px nella vista normale mobile.
+
+## Revisione: grafici separati
+
+Sostituito il grafico A/B unico con due grafici autonomi in sezioni distinte. Prima la massa ignota (incertezza), poi la massa nota (errore). Ogni grafico mostra una sola serie e solo le grandezze pertinenti alla propria attività. Le risorse originali della bilancia e del pesetto sono condivise, senza duplicare i file incorporati. Pubblicazione sospesa su richiesta dell’utente.

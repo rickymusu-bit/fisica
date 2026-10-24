@@ -135,3 +135,13 @@ Su richiesta esplicita, nel 6 gli slider presentano soltanto concetti già intro
 Nel 7 eliminata la qualificazione didattica/scolastica da testo corrente, tabella, campi, grafico, aiuti, risposte e confronto. Si usa «incertezza U». Limite del criterio spostato nella nota finale già associata alla formula: cenno breve alla deviazione standard come dispersione di tutte le letture rispetto alla media, senza formule nuove. Regola U=max(d,q), dati e risultati invariati. HTML correnti: capitolo 6 v10, capitolo 7 v9.
 
 Verifica conclusa: 7 test quantitativi e 20 combinazioni viewport/tema con interazioni, download e offline superati. Ripristino ad Alta, mappatura dei controlli, etichette e testo controllati; nessun errore JavaScript o richiesta esterna. Crediti e build superati; HTML e copie di lavorazione identici.
+
+## Pubblicazione sospesa e attività del 7 separate
+
+L’utente aveva autorizzato la pubblicazione con «Va bene publica», poi ha interrotto esplicitamente con «Aspetta» e richiesto la separazione delle simulazioni. Nessun push, merge o deployment è avvenuto; la pubblicazione resta sospesa in attesa della revisione del risultato nuovo. Il recupero di origin/main è stato eseguito, ma il tentativo di integrazione non ha modificato la working tree.
+
+Capitolo 7 ora con due sezioni: «Stimare l’incertezza di una massa ignota» e «Misurare l’errore rispetto a una massa nota». Ogni sezione ha propria bilancia, campione fisso, registro, campi di calcolo e grafico; nessun selettore comune. Incertezza: campione B, media, semidispersione e U; grafico con una sola serie, estremi e fascia. Errore: campione A di 100 g, media ed errore; grafico con una sola serie, riferimento e scarto. Calcoli, cancellazione e ripristino indipendenti. Identificativi dei grafici e delle copie zoom univoci.
+
+Modello numerico, proprietà fisse e masse conservati; nessun valore nascosto B esposto come riferimento. Grafici singoli con annotazioni separate dai punti, senza le due righe sovrapposte del confronto precedente. HTML capitolo 7 v10, bozza v12. Codice condiviso aggiornato anche nell’HTML del 6 v11, con attività del 6 invariata.
+
+Verifica conclusa: 7 test quantitativi e 20 combinazioni viewport/tema, due attività e grafici indipendenti, cinque letture/calcoli per entrambe, reset/cancellazione isolati, limiti delle acquisizioni, download/offline/no-JS superati. Nessun errore JavaScript o richiesta esterna. Crediti e build superati; manifest pubblico invariato. Anteprime specifiche delle due attività salvate; nessuna pubblicazione effettuata.
