@@ -1,6 +1,6 @@
 # Errori e incertezza di misura
 
-[EDITORIALE — Bozza v7, 24 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive scelte dall’utente e integrate. Area: Introduzione alla fisica e alla misura.]
+[EDITORIALE — Bozza v8, 24 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive scelte dall’utente e integrate. Area: Introduzione alla fisica e alla misura.]
 
 [COP-07 — Fotografia scelta dall'utente: TV noise.jpg. Intera, senza ritagli o zoom, non ripetuta nel corpo.]
 
@@ -18,11 +18,11 @@ La misura coinvolge lo strumento, il modo in cui lo usiamo e le condizioni della
 
 Quando avviamo e fermiamo il cronometro a mano, il momento in cui premiamo il tasto non è identico a ogni prova. Queste variazioni possono contribuire agli **errori casuali**, che cambiano in modo imprevedibile fra misure ripetute. Ripetere ci aiuta a osservare la dispersione e a rendere il risultato meno dipendente da una singola lettura. Non elimina però ogni possibile spostamento.
 
-Nel voltmetro della foto, con i morsetti scollegati, la lancetta si trova sotto lo zero: lo spostamento dello zero, detto **offset**, è negativo. Uno spostamento di questo tipo porta a leggere valori più bassi di quelli che si otterrebbero con lo zero corretto. Questo è un esempio di **errore sistematico**: un contributo che rimane costante o cambia in modo prevedibile. Ripetere la misura non lo cancella; occorre controllare lo zero, correggere la procedura o confrontare lo strumento con un riferimento.
+Nel voltmetro della foto, con i morsetti scollegati, la lancetta si trova sotto lo zero anziché sullo zero. Uno spostamento di questo tipo porta a leggere valori più bassi di quelli che si otterrebbero con lo zero corretto. Questo è un esempio di **errore sistematico**: un contributo che rimane costante o cambia in modo prevedibile. Ripetere la misura non lo cancella; occorre controllare lo zero, correggere la procedura o confrontare lo strumento con un riferimento.
 
-[FIG-07-2 — Voltmetro analogico scelto dall’utente, con offset negativo; fotografia intera.]
+[FIG-07-2 — Voltmetro analogico scelto dall’utente, con lo zero spostato verso valori negativi; fotografia intera.]
 
-*L’offset negativo sposta le letture verso valori più bassi; ripetere la misura non lo elimina.*
+*Lo zero spostato verso valori negativi abbassa le letture; ripetere la misura non corregge questo spostamento.*
 
 Diverso ancora è uno **sbaglio grossolano**: trascrivere 23,4 g invece di 32,4 g, confondere grammi e chilogrammi oppure usare il comando sbagliato. Qui non stiamo descrivendo una normale variazione fra letture, ma un problema nella procedura o nella registrazione. Un dato molto lontano dagli altri invita a controllare gli appunti e la prova; non si elimina automaticamente perché disturba il risultato.
 
@@ -233,4 +233,4 @@ L’utente autorizza la generazione della bilancia e dei pesetti per le simulazi
 
 Scelte direttamente dall’utente: manometro MAXIMATOR (Photo by CEphoto, Uwe Aranas, CC BY-SA 3.0), termometro clinico (Jacek Halicki, CC BY-SA 4.0), cronometro (Lesselich, CC BY-SA 3.0). Bersagli ricreati su richiesta con geometria originale e scritte italiane, dal riferimento concettuale Ossila. Tutti i materiali del corpo ora disponibili; le annotazioni precedenti conservano la cronologia. Crediti e provenienze nel registro unico e negli snapshot offline.
 
-Revisione corrente: errore sistematico illustrato dal voltmetro con offset negativo fornito dall’utente, con testo e quesiti aggiornati. Credito: Желуденко Павло, CC BY 4.0.
+Revisione corrente: errore sistematico illustrato dal voltmetro con lo zero spostato verso valori negativi fornito dall’utente, con testo e quesiti aggiornati. Credito: Желуденко Павло, CC BY 4.0.

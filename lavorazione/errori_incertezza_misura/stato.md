@@ -83,3 +83,7 @@ Pesetti sul piatto con massa visibile sovrapposta all’immagine. Nel 7 il rifer
 Su ulteriore richiesta dell’utente, FIG-07-2 sostituita con il voltmetro Вольтметр_4.jpg (Желуденко Павло, CC BY 4.0). Testo, didascalia, richiamo dopo i bersagli e quesiti coerenti con l’offset negativo; nessun valore numerico dell’offset inventato. Simulazione con bilancia generata invariata.
 
 Verifiche correnti concluse: 7 test quantitativi, 20 combinazioni di viewport e tema e 8 controlli mirati alle figure con didascalie e ai crediti. Etichette dei cinque pesetti verificate; nessun errore JavaScript o richiesta esterna. Download, offline, crediti, tema e build superati. HTML e copie di lavorazione identici, file pubblici invariati. Anteprime aggiornate pronte nella PR #72.
+
+## Terminologia del voltmetro
+
+Su richiesta esplicita, eliminata la parola inglese dal contenuto didattico e dalla didascalia: si usa «spostamento dello zero». Bozza v8, HTML v5. Nomi dei file e cronologia tecnica conservati. Salvataggio locale; nessun nuovo tentativo di push dopo il blocco della revisione automatica.
