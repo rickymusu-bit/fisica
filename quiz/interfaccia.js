@@ -5,9 +5,8 @@
   const dataset = JSON.parse(dataElement.textContent);
   const MAX_QUESTIONS = 30;
   const SECONDS_PER_QUESTION = 120;
-  const chapters = new Map(dataset.chapters.map(c => [c.file, c]));
-  const groupBoxes = [...document.querySelectorAll("[data-quiz-group]")];
-  const chapterBoxes = [...document.querySelectorAll("[data-quiz-chapter]")];
+  const categories = new Map(dataset.categories.map(c => [c.id, c]));
+  const categoryBoxes = [...document.querySelectorAll("[data-quiz-category]")];
   const levelBoxes = [...document.querySelectorAll('input[name="quiz-level"]')];
   const config = document.getElementById("quiz-config");
   const active = document.getElementById("quiz-active");
@@ -42,8 +41,8 @@
     return copy;
   }
 
-  function selectedChapters() {
-    return new Set(chapterBoxes.filter(box => box.checked && !box.disabled).map(box => box.value));
+  function selectedCategory() {
+    return categoryBoxes.find(box => box.checked && !box.disabled)?.value ?? null;
   }
 
   function getQuestionCount() {
@@ -70,54 +69,34 @@
     const level = levelBoxes.find(box => box.checked).value;
     const available = new Set(dataset.questions
       .filter(question => question.level === level)
-      .map(question => question.chapter));
-    for (const chapter of chapterBoxes) {
-      setAvailability(chapter, available.has(chapter.value), "Non disponibile");
+      .map(question => question.category));
+    for (const category of categoryBoxes) {
+      setAvailability(category, available.has(category.value), "Non disponibile");
     }
-    for (const category of groupBoxes) {
-      const children = chapterBoxes.filter(box => box.dataset.category === category.value);
-      setAvailability(category, children.some(child => !child.disabled), "Nessuna domanda");
-    }
-    synchronizeCategories();
+    updateConfiguration();
   }
 
-  function synchronizeCategories() {
-    for (const category of groupBoxes) {
-      const children = chapterBoxes.filter(box => box.dataset.category === category.value && !box.disabled);
-      const selected = children.filter(box => box.checked).length;
-      category.checked = children.length > 0 && selected === children.length;
-      category.indeterminate = selected > 0 && selected < children.length;
-    }
+  function updateConfiguration() {
     const count = getQuestionCount();
     countMinus.disabled = count === 1;
     countPlus.disabled = count === MAX_QUESTIONS;
-    startButton.disabled = selectedChapters().size === 0 || count === null;
+    startButton.disabled = selectedCategory() === null || count === null;
     durationOutput.textContent = count === null
       ? "Inserisci un numero da 1 a 30."
       : formatDuration(count * SECONDS_PER_QUESTION);
     if (!startButton.disabled) configError.hidden = true;
   }
 
-  for (const category of groupBoxes) {
-    category.addEventListener("change", () => {
-      for (const chapter of chapterBoxes) {
-        if (chapter.dataset.category === category.value && !chapter.disabled) {
-          chapter.checked = category.checked;
-        }
-      }
-      synchronizeCategories();
-    });
-  }
-  for (const chapter of chapterBoxes) chapter.addEventListener("change", synchronizeCategories);
+  for (const category of categoryBoxes) category.addEventListener("change", updateConfiguration);
   for (const level of levelBoxes) level.addEventListener("change", updateAvailability);
-  countInput.addEventListener("input", synchronizeCategories);
+  countInput.addEventListener("input", updateConfiguration);
   function changeQuestionCount(step) {
     // Anche un valore inserito a mano non valido è recuperabile tramite i pulsanti.
     const raw = countInput.valueAsNumber;
     const base = Number.isFinite(raw)
       ? Math.max(1, Math.min(MAX_QUESTIONS, Math.round(raw))) : 25;
     countInput.value = String(Math.max(1, Math.min(MAX_QUESTIONS, base + step)));
-    synchronizeCategories();
+    updateConfiguration();
   }
   countMinus.addEventListener("click", () => changeQuestionCount(-1));
   countPlus.addEventListener("click", () => changeQuestionCount(1));
@@ -196,7 +175,7 @@
   }
 
   function startQuiz() {
-    const selected = selectedChapters();
+    const selected = selectedCategory();
     const count = getQuestionCount();
     if (count === null) {
       configError.textContent = "Scegli un numero di domande tra 1 e 30.";
@@ -204,9 +183,9 @@
       return;
     }
     const level = document.querySelector('input[name="quiz-level"]:checked').value;
-    const pool = dataset.questions.filter(q => selected.has(q.chapter) && q.level === level);
+    const pool = dataset.questions.filter(q => q.category === selected && q.level === level);
     if (!pool.length) {
-      configError.textContent = "Non ci sono domande di prova per questa selezione.";
+      configError.textContent = "Non ci sono domande per questa categoria e difficoltà.";
       configError.hidden = false;
       return;
     }
@@ -235,11 +214,10 @@
     const s = session;
     if (!s) return;
     const q = s.questions[s.index];
-    const chapter = chapters.get(q.chapter);
+    const category = categories.get(q.category);
     counter.textContent = "Domanda " + (s.index + 1) + " di " + s.count;
     progressBar.style.width = (s.index / s.count * 100) + "%";
-    document.getElementById("quiz-topic").textContent = chapter
-      ? chapter.area + " — " + chapter.title : "";
+    document.getElementById("quiz-topic").textContent = category ? category.title : "";
     prompt.textContent = q.prompt;
     answerList.replaceChildren();
     q.order.forEach((option, position) => {
@@ -346,9 +324,9 @@
       li.className = "quiz-review-item" + (right ? "" : " is-wrong");
       const h3 = document.createElement("h3");
       h3.textContent = (i + 1) + ". " + q.prompt;
-      const chapter = chapters.get(q.chapter);
+      const category = categories.get(q.category);
       li.append(h3);
-      if (chapter) li.append(labeledParagraph("Capitolo:", chapter.title));
+      if (category) li.append(labeledParagraph("Categoria:", category.title));
       if (response === null) {
         li.append(labeledParagraph("Stato:", s.skipped[i] ? "Saltata" : "Non raggiunta"));
       }
@@ -382,3 +360,4 @@
   document.addEventListener("visibilitychange", onTick);
   window.addEventListener("pageshow", onTick);
 })();
+

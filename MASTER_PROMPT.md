@@ -1,6 +1,6 @@
 # PROMPT MASTER — DISPENSE VISUALI DI FISICA PER IL BIENNIO DEGLI ISTITUTI TECNICI
 
-VERSIONE DEL PROMPT: v69.12 — 24/10/2026, ore 08:22 (Europe/Rome)
+VERSIONE DEL PROMPT: v69.13 — 24/10/2026, ore 15:30 (Europe/Rome)
 
 Questo master raccoglie le regole della dispensa e la procedura per realizzarla con il minor lavoro ripetuto possibile. Le istruzioni relative a immagini, video, traduzioni e simulazioni si applicano quando quei materiali fanno parte della richiesta. Non aggiungere contenuti o lavorazioni solo perché il master ne descrive la gestione.
 
@@ -329,13 +329,23 @@ GitHub è la fonte ufficiale del progetto «Materiale Didattico»: repository ht
 
 La pubblicazione e gli aggiornamenti del sito riguardano soltanto gli articoli conformati elencati in `pubblicazione.json`. Gli articoli indicati nello stesso file come esclusi restano fuori dal catalogo, dall’output pubblico e da ogni aggiornamento automatico o generale, anche di tema, terminologia o metadati. Conservane i sorgenti invariati nel repository; riprendi una loro revisione e riammissione soltanto su richiesta esplicita dell’utente. La build verifica la corrispondenza tra catalogo e articoli ammessi. I reindirizzamenti di compatibilità elencati nel manifest restano distinti dagli articoli.
 
-Usa i nomi stabili e applica le regole sui collegamenti già pubblicati previste in D2 quando cambia un percorso. Le dispense restano HTML autonomi; le traduzioni richieste restano distinte per lingua. Conserva nella destinazione ufficiale soltanto i risultati pertinenti al compito; non trasferire automaticamente nei lavori futuri dispense storiche o materiali estranei. Il quiz e i relativi materiali sono conservati separatamente nel repository https://github.com/rickymusu-bit/quiz; non fanno parte del sito delle dispense di fisica. Non convertire automaticamente le dispense in altri formati.
+Usa i nomi stabili e applica le regole sui collegamenti già pubblicati previste in D2 quando cambia un percorso. Le dispense restano HTML autonomi; le traduzioni richieste restano distinte per lingua. Conserva nella destinazione ufficiale soltanto i risultati pertinenti al compito; non trasferire automaticamente nei lavori futuri dispense storiche o materiali estranei. Il gioco Fool e i relativi materiali sono conservati separatamente nel repository https://github.com/rickymusu-bit/quiz. I quiz di verifica di Stringhe appartengono invece alla cartella `quiz/` di questo repository, secondo D2.2. Non convertire automaticamente le dispense in altri formati.
 
 In `lavorazione/<capitolo>/stato.md` conserva un solo stato Markdown per capitolo, secondo B6. Usa nomi stabili anche per `bozza.md`, `bozza.html` e `risorse/`; gli originali e i materiali di riferimento necessari alla ripresa appartengono alla lavorazione e non vanno aggiunti automaticamente alla destinazione degli HTML ufficiali. Aggiorna gli stessi file senza proliferare copie; Git conserva la cronologia. Non eliminare materiali unici o originali dell’utente e non inventare approvazioni mancanti.
 
 Prima di una revisione verifica identità, contenuto e versione del file nel repository, perché l’utente può averlo aggiornato. Importa da fonti esterne soltanto materiali mancanti o effettivamente più recenti, confrontando contenuto, versione e provenienza; una sola data di modifica non risolve identità ambigue. Non sovrascrivere contenuti di identità incerta: conserva il file corrente e segnala il conflitto. Dopo la scrittura verifica percorso, nome, integrità e riuscita del salvataggio; registra le modifiche in Git e verifica l’eventuale caricamento remoto. La cronologia sostituisce le copie storiche di master e stati; le regole di versione interna, data, ora e approvazione restano valide.
 
 Alla consegna fornisci il collegamento al ramo, al commit o ai file GitHub effettivamente salvati e verificati. Se il caricamento remoto fallisce, dichiaralo e fornisci il lavoro pronto, senza presentarlo come caricato. Non cambiare destinazione per aggirare un errore di accesso. Le fonti Drive della migrazione sono il master https://docs.google.com/document/d/1EA-rZut3LOfWJYeTZ3DQ0uArP8NNyTUZFOY4UgQGJBg/edit, i materiali https://drive.google.com/drive/folders/1ZbpsRZnrZCda3ZC1z54WId5qcsIL1TRE e la lavorazione https://drive.google.com/drive/folders/1LWZM2idyl7U89g1PvF4xcppsTQkyuhU_. Conserva questi materiali su Drive senza eliminarli. Non attivare né modificare la pubblicazione del sito durante la migrazione.
+
+### D2.2. Quiz di Stringhe: categoria unica e identificativi stabili
+
+Ogni quiz riguarda una sola categoria del catalogo: attualmente Termologia oppure Introduzione alla fisica e alla misura. La scelta è esclusiva e comprende l’intera categoria; non selezionare singoli capitoli né combinare categorie nella stessa sessione.
+
+Ogni domanda appartiene a un solo ID stabile di categoria (`category`), definito in `quiz/categorie.json`, indipendente da titoli e nomi dei file. Le categorie vengono confrontate con il catalogo corrente; se cambia un nome visibile, aggiornare la corrispondenza nel registro conservando l’ID. Non associare le domande ai percorsi dei capitoli. Questa soluzione sostituisce la precedente proposta di tag multipli e classificazione dei contenuti di tutti i capitoli: tale classificazione non è necessaria per i quiz.
+
+Le domande possono collegare più principi o capitoli della categoria scelta, ma non richiedere conoscenze disciplinari esterne non dichiarate. Mantieni distinti tipo (conoscenza, ragionamento, calcolo), difficoltà e ampiezza dei prerequisiti; specifico/trasversale resta una descrizione didattica, senza filtro tecnico a tag. Proponi anche contesti nuovi deducibili dai principi studiati. Ogni domanda, comprese quelle difficili, deve essere plausibilmente risolvibile entro 120 secondi da uno studente preparato del livello previsto, includendo lettura, calcoli e scelta.
+
+Applica il prompt riutilizzabile `quiz/PROMPT_GENERAZIONE_DOMANDE.md` e le specifiche correnti `quiz/README.md`. Workflow: campione di 9 quesiti in ChatGPT, se tutte le combinazioni tipo/difficoltà sono pertinenti; revisione e approvazione del docente; lotti con Codex usando capitoli, prompt e campione approvato; controlli tecnici e revisione didattica prima dell’uso. La ripartizione è organizzativa, non una garanzia di superiorità scientifica di uno strumento. I controlli automatici non dimostrano adeguatezza o tempo di soluzione per gli studenti. Conserva il campione approvato nel repository quando esiste; non inventarlo. La pubblicazione segue B5.
 
 ### D3. Prevalenza e manutenzione del master
 
@@ -364,3 +374,4 @@ Ogni elemento testuale o visivo deve aggiungere informazione effettivamente util
 - **Revisione:** per ogni frase, didascalia, etichetta e annotazione chiedersi: «Se la elimino, il lettore perde un'informazione importante o rischia un fraintendimento?». Se no, eliminarla.
 
 Questo criterio vale anche per bozze, anteprime, materiali scaricabili e future revisioni, senza autorizzare modifiche ai capitoli già pubblicati o deroghe al workflow di approvazione.
+

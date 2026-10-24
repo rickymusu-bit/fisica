@@ -69,18 +69,21 @@ class PublicationTests(unittest.TestCase):
         self.assertEqual(set(random), set(allowed))
         self.assertEqual(len(random), len(allowed))
 
-    def test_quiz_selects_all_published_chapters_and_levels(self):
+    def test_quiz_selects_one_category_and_levels(self):
         quiz = (ROOT / '_site/quiz.html').read_text()
         allowed = set(json.loads((ROOT / 'pubblicazione.json').read_text())['articoli'])
         payload = json.loads(re.search(r'<script type="application/json" id="quiz-data">(.*?)</script>', quiz).group(1))
-        self.assertEqual({item['file'] for item in payload['chapters']}, allowed)
+        self.assertEqual({item['id'] for item in payload['categories']}, {'termologia', 'introduzione_fisica_misura'})
+        self.assertNotIn('chapters', payload)
         self.assertEqual(payload['questions'], [])
         self.assertFalse((ROOT / 'quiz/domande-prova.json').exists())
         self.assertFalse((ROOT / 'quiz/domande.json').exists())
         self.assertIn('Nessuna domanda disponibile al momento.', quiz)
         self.assertNotIn('Archivio dimostrativo', quiz)
-        self.assertEqual(quiz.count('data-quiz-chapter'), len(allowed))
-        self.assertEqual(quiz.count('data-quiz-group'), 2)
+        self.assertNotIn('data-quiz-chapter', quiz)
+        self.assertNotIn('data-quiz-group', quiz)
+        self.assertEqual(quiz.count('data-quiz-category'), 2)
+        self.assertEqual(quiz.count('name="quiz-category"'), 2)
         self.assertIn('id="quiz-clock"', quiz)
         self.assertIn('id="quiz-review"', quiz)
         self.assertIn('id="quiz-score"', quiz)
@@ -175,3 +178,4 @@ class LogoTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+

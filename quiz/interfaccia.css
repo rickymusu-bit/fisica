@@ -2,11 +2,10 @@
 .quiz-layout{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(260px,.8fr);gap:22px;align-items:start}
 .quiz-panel{border:1px solid var(--line);background:var(--surface);border-radius:22px;padding:clamp(20px,3vw,32px)}
 .quiz-panel h2{margin-bottom:12px}
-.quiz-category{border-top:1px solid var(--line);padding:16px 0}
-.quiz-category:last-child{padding-bottom:0}
 .quiz-category-title{font-size:17px;font-weight:750}
-.quiz-options{display:grid;gap:5px;padding:8px 0 0 22px}
-.quiz-choice{display:flex;align-items:flex-start;gap:12px;padding:9px 8px;border-radius:12px;cursor:pointer;line-height:1.4}
+.quiz-categories{border:0;padding:0;margin:0;display:grid;gap:10px}
+.quiz-sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.quiz-choice{display:flex;align-items:flex-start;gap:12px;padding:14px 12px;min-height:48px;border-radius:12px;cursor:pointer;line-height:1.4}
 .quiz-choice:not(.is-unavailable):hover{background:var(--surface-soft)}
 .quiz-choice.is-unavailable{cursor:not-allowed;color:var(--muted)}
 .quiz-choice.is-unavailable input{cursor:not-allowed}
@@ -75,6 +74,7 @@
 .quiz-review-item .quiz-label{color:var(--muted);font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.055em}
 .quiz-muted{color:var(--muted)}
 .quiz-kicker{color:var(--accent);text-transform:uppercase;font-weight:700;letter-spacing:.1em;font-size:12px}
-@media(max-width:780px){.quiz-layout{grid-template-columns:1fr}.quiz-panel{padding:20px}.quiz-options{padding-left:8px}}
+@media(max-width:780px){.quiz-layout{grid-template-columns:1fr}.quiz-panel{padding:20px}}
 @media(max-width:440px){.quiz-navigation{grid-template-columns:repeat(5,minmax(0,1fr));max-width:320px}.quiz-legend{gap:7px 11px}.quiz-main-actions{display:grid;grid-template-columns:auto minmax(0,1fr);width:100%;gap:8px}.quiz-main-actions .quiz-action{padding:11px 10px}.quiz-action-stop{margin-left:auto}}
 @media(prefers-reduced-motion:reduce){.quiz-progress span{transition:none}}
+

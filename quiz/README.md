@@ -1,14 +1,14 @@
-# Quiz di Stringhe — specifiche v1.6.0
+# Quiz di Stringhe — specifiche v2.0.0
 
 **Stato:** interfaccia pubblicabile senza archivio di quesiti; il quiz rimane disabilitato fino al caricamento di domande reali.  
 **Data:** 24 ottobre 2026 (Europe/Rome).
 
 ## Comportamento
 
-- Selezione tramite caselle di controllo di singoli capitoli, anche appartenenti a categorie differenti.
-- I capitoli senza quesiti nel dataset per la **difficoltà selezionata** sono visibili ma non selezionabili, con indicazione «Non disponibile». Le categorie prive di qualunque capitolo con quesiti sono disabilitate. Il selettore di categoria riguarda solo i capitoli disponibili e mantiene correttamente il proprio stato completo/parziale. Se cambiando difficoltà un capitolo non ha più domande, viene deselezionato automaticamente.
-- La casella di una categoria seleziona/deseleziona tutti i suoi capitoli; se ne sono scelti soltanto alcuni, mostra lo stato parziale.
-- Le categorie e i titoli dei capitoli derivano dal catalogo corrente del sito: nessun elenco parallelo da aggiornare.
+- Una sessione riguarda **una sola categoria**: attualmente **Termologia** oppure **Introduzione alla fisica e alla misura**.
+- Scelta tramite pulsanti radio: selezionare una categoria deseleziona l’altra. Nessuna selezione di capitoli e nessuna combinazione di categorie nella stessa sessione.
+- Le categorie senza domande per la difficoltà selezionata appaiono disabilitate con «Non disponibile». Se il cambio di difficoltà rende indisponibile la categoria scelta, questa viene deselezionata e l’avvio resta disabilitato fino a una nuova scelta.
+- Il registro `quiz/categorie.json` associa ID stabili ai nomi delle categorie del catalogo corrente. La build rifiuta discrepanze, ID duplicati o categorie sconosciute. Una rinomina della categoria aggiorna la corrispondenza nel registro conservando l’ID; rinominare un capitolo non modifica i quesiti.
 - L'utente seleziona da **1 a 30 domande**, con **25** inizialmente proposte, tramite campo numerico modificabile e pulsanti **−** e **+** ai lati. I pulsanti variano la quantità di una unità, sono disabilitati agli estremi, e la durata massima si aggiorna immediatamente prima dell'avvio: 2 minuti per domanda (30 domande = 60 minuti).
 - **Facile:** 3 alternative.
 - **Media:** 4 alternative.
@@ -24,29 +24,41 @@
 - Le opzioni sono mescolate, così come i quesiti estratti. La risposta non è svelata prima della schermata finale.
 - Nessun backend necessario. Non si considera prioritario impedire l'accesso al dataset lato client.
 
+## Generazione delle domande
+
+Il [prompt di generazione](PROMPT_GENERAZIONE_DOMANDE.md), v1.2.0, definisce domande di conoscenza, ragionamento e calcolo, tre difficoltà e fattibilità entro 120 secondi comprensivi di lettura e scelta. Un quesito può collegare più capitoli della stessa categoria. Non deve richiedere conoscenze di un’altra categoria, salvo prerequisiti di base dichiarati o informazioni sufficienti fornite nel testo.
+
+Il workflow parte da un campione di 9 domande in ChatGPT (una per ogni combinazione tipo/difficoltà, se pertinente), seguito dalla revisione e approvazione del docente. Codex usa prompt, capitoli e campione approvato per generare i lotti richiesti, verificarli e integrarli. I lotti richiedono revisione didattica; i controlli automatici non provano chiarezza e risolvibilità nei due minuti. La divisione è organizzativa, non una garanzia di superiorità scientifica di ChatGPT.
+
+La scelta della categoria unica sostituisce la precedente proposta di tag multipli, filtro AND e classificazione dei contenuti dei capitoli. Non è necessario adattare i singoli HTML per aggiungere tag o ID di argomento.
+
 ## Archivio di domande
 
-Quando sarà disponibile, la sorgente sarà **quiz/domande.json**, separata dall'interfaccia. Finché il file manca, la build genera una lista di domande vuota: tutte le caselle dei capitoli e categorie sono disabilitate e il quiz non è avviabile. L'archivio dimostrativo è stato cancellato dal repository. Ogni futuro record conterrà:
+Quando sarà disponibile, la sorgente sarà **quiz/domande.json**, separata dall'interfaccia. Finché il file manca, la build genera una lista di domande vuota: tutte le caselle dei capitoli e categorie sono disabilitate e il quiz non è avviabile. L'archivio dimostrativo è stato cancellato dal repository. Ogni record contiene:
 
-\`id\`, \`chapter\` (filename HTML pubblicato), \`level\` (\`easy\`, \`medium\`, \`hard\`), \`prompt\`, \`options\`, \`correct\` (indice dell'alternativa corretta a partire da zero), \`explanation\`.
+`id`, `category` (un solo ID di `quiz/categorie.json`), `level` (`easy`, `medium`, `hard`), `prompt`, `options`, `correct` (indice da zero), `explanation`.
 
-La build controlla che gli ID siano unici, che il capitolo sia pubblicato, che il numero di alternative coincida con il livello e che la risposta corretta sia valida. Il dataset è incorporato in \`_site/quiz.html\` durante la build, senza richiesta di rete, ma resta un file indipendente nei sorgenti.
+`category` sostituisce il precedente `chapter`: i quesiti non dipendono da titoli o nomi dei file dei capitoli. I record con `chapter`, `tags`, una categoria multipla o un ID sconosciuto sono rifiutati. Non esiste un archivio reale da migrare in questa revisione.
+
+La build controlla che gli ID siano unici, che la categoria sia valida, che il numero di alternative coincida con il livello e che la risposta corretta sia valida. Il dataset è incorporato in `_site/quiz.html` durante la build, senza richiesta di rete, ma resta un file indipendente nei sorgenti.
 
 **Verifica:** i test automatici generano un piccolo insieme temporaneo di domande durante l'esecuzione, senza salvarlo né pubblicarlo nel sito. Il motore oggi può ripetere domande quando il numero selezionato supera le domande realmente disponibili: questa funzionalità andrà valutata prima di usare i quiz come verifiche scolastiche.
 
 ## Struttura
 
-- \`scripts/quiz_site.py\`: costruzione della pagina con capitoli dal catalogo.
-- \`quiz/interfaccia.css\`: stile coerente con i token comuni di Stringhe.
-- \`quiz/interfaccia.js\`: sessione, estrazione, scadenze, punteggio, correzione.
-- \`scripts/strings_site.py\`: integrazione della pagina nel portale.
-- \`scripts/build_pages.py\`: copia degli asset nel sito costruito.
+- `quiz/categorie.json`: ID stabili e corrispondenza con le categorie del catalogo.
+- `scripts/quiz_site.py`: costruzione della pagina con capitoli dal catalogo.
+- `quiz/interfaccia.css`: stile coerente con i token comuni di Stringhe.
+- `quiz/interfaccia.js`: sessione, estrazione, scadenze, punteggio, correzione.
+- `scripts/strings_site.py`: integrazione della pagina nel portale.
+- `scripts/build_pages.py`: copia degli asset nel sito costruito.
 
 L'interfaccia può essere pubblicata anche senza quesiti. L'aggiunta di domande reali richiederà l'archivio quiz/domande.json e una nuova build.
 
 ## Verifica
 
-\`\`\`sh
+```sh
 python3 scripts/build_pages.py
 python3 -m unittest discover -s scripts -p 'test_*.py'
-\`\`\`
+```
+
