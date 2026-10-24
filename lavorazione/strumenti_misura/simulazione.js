@@ -81,7 +81,7 @@
       const duplicate = recorded && (lab || !stable || !recordedEarly);
       record.disabled = current === null || duplicate || count >= (lab ? 10 : 20) || (lab && (!stable || acquisition === 0));
       if (lab) find('measure').disabled = count >= 10;
-      if (count >= (lab ? 10 : 20)) status.textContent = lab ? 'Raggiunte dieci letture per questo campione. Puoi confrontare i risultati, cambiare campione o cancellare la serie.' : 'Raggiunte venti letture per questa configurazione. Cambia una proprietà o cancella la serie per continuare.';
+      if (count >= (lab ? 10 : 20)) status.textContent = lab ? 'Raggiunte dieci letture per questo campione. Puoi confrontare i risultati, cambiare campione o cancellare la serie.' : 'Raggiunte venti letture in questa serie. Cambia una proprietà o cancella la serie per continuare.';
       if (!lab && !selected.size) record.disabled = true;
     }
     function acquire() {
@@ -120,7 +120,7 @@
       const body = find('rows'); body.replaceChildren();
       if (!lab) for (const row of rows) {
         const tr = document.createElement('tr');
-        [row.configuration, format(row.mass) + ' g', format(row.value) + ' g', row.stable ? 'Stabilizzata' : 'Anticipata',
+        [format(row.mass) + ' g', format(row.value) + ' g', row.stable ? 'Stabilizzata' : 'Anticipata',
           'P ' + row.config.capacity + ' g; risoluzione ' + row.config.step + ' g; risposta ' + format(row.config.response) + ' s; accuratezza ' + quality(5-Math.abs(row.config.offset)) + '; precisione ' + quality(5-row.config.noise)]
           .forEach(v => tr.append(cell(String(v)))); body.append(tr);
       } else for (const key of ['A', 'B']) series[key].forEach((value, index) => {
@@ -128,7 +128,7 @@
         [key === 'A' ? 'A, riferimento 100 g' : 'B, massa ignota', index + 1, format(value) + ' g'].forEach(v => tr.append(cell(String(v))));
         body.append(tr);
       });
-      if (!body.children.length) { const tr = document.createElement('tr'); const td = cell('Nessuna lettura registrata.'); td.colSpan = lab ? 3 : 5; tr.append(td); body.append(tr); }
+      if (!body.children.length) { const tr = document.createElement('tr'); const td = cell('Nessuna lettura registrata.'); td.colSpan = lab ? 3 : 4; tr.append(td); body.append(tr); }
     }
     function refreshStudyLabel() {
       if(lab) find('sample-label').textContent=sample==='A'?'Campione A: riferimento 100 g':'Campione B: massa ignota';
@@ -154,7 +154,7 @@
           const key = input.dataset.property;
           input.value = options[key] ? options[key].indexOf(config[key]) : (['offset','noise'].includes(key) ? 5-config[key] : config[key]); updateSlider(input);
         });
-        find('loaded-mass').textContent = '0 g'; find('series-label').textContent = 'Configurazione 1';
+        find('loaded-mass').textContent = '0 g';
       }
       renderRows(); canRecord();
       paintLoad();
@@ -185,7 +185,6 @@
       }));
       all('property').forEach(input => input.addEventListener('input', () => {
         updateSlider(input); configuration++;
-        find('series-label').textContent = 'Configurazione ' + configuration;
         acquire();
       }));
       find('empty').addEventListener('click', () => {

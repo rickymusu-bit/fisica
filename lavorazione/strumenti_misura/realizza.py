@@ -187,7 +187,7 @@ def simulation(folder, mode, image_assets, study=None):
     lab = mode == 'lab'
     title = ('Massa ignota' if study=='uncertainty' else 'Massa di riferimento') if lab else 'Pesetti e proprietà della bilancia'
     result = '<section class="measurement-sim" data-measurement="' + mode + '"' + (' data-study="' + study + '"' if study else '') + ' aria-label="' + title + '"><h3>' + title + '</h3>'
-    result += '<p class="sim-intro">Valori simulati. ' + ('Le proprietà dello strumento sono fisse: portata 500 g, passo leggibile 1 g e risposta di circa 1 s.' if lab else 'Aggiungi i pesetti al piatto e varia una proprietà alla volta con gli slider sotto la bilancia.') + '</p>'
+    result += '<p class="sim-intro">' + ('Le proprietà dello strumento sono fisse: portata 500 g, passo leggibile 1 g e risposta di circa 1 s.' if lab else 'Aggiungi i pesetti al piatto e varia una proprietà alla volta con gli slider sotto la bilancia.') + '</p>'
     generated=bool(image_assets.get('bilancia',{}).get('symbol'))
     if generated:
         weight=image_assets['pesetto-100'];box=weight['viewbox'];aspect=box[2]/box[3]
@@ -211,7 +211,7 @@ def simulation(folder, mode, image_assets, study=None):
         for key,label,maximum,initial,helptext in properties:
             minimum = 0
             result += '<label class="sim-slider"><span class="sim-slider-head"><span>' + label + '</span><output data-property-output="' + key + '"></output></span><input type="range" data-interactive disabled data-property="' + key + '" min="' + str(minimum) + '" max="' + str(maximum) + '" step="1" value="' + str(initial) + '"><small>' + helptext + '</small></label>'
-        result += '</div></details><p data-series-label>Configurazione 1</p>'
+        result += '</div></details>'
     else:
         result += '<p data-sample-label>' + ('Campione B: massa ignota' if study=='uncertainty' else 'Campione A: riferimento 100 g') + '</p>'
         result += '<div class="sim-buttons">' + button('Appoggia e misura','data-measure',True) + '</div>'
@@ -220,7 +220,7 @@ def simulation(folder, mode, image_assets, study=None):
     if lab:
         result += '<figure class="visual"><div class="image-frame sim-chart-frame"><div class="overview"><div class="sim-chart" data-chart></div></div></div><figcaption data-chart-description>Il grafico sarà popolato dalle letture registrate.</figcaption></figure><p class="sim-legend">Un punto per lettura; i punti uguali sono impilati. Linea continua: media. ' + ('Fascia ambrata: ±U. I tratti alla base indicano gli estremi osservati.' if study=='uncertainty' else 'Linea tratteggiata: riferimento. Segmento rosso: errore della media.') + '</p>'
     result += '<div class="sim-scroll" tabindex="0" role="region" aria-label="Registro delle letture, tabella scorrevole"><table><caption>Letture registrate</caption><thead><tr>'
-    headings = ['Campione','Prova','Lettura'] if lab else ['Configurazione','Massa caricata','Lettura','Stato','Proprietà']
+    headings = ['Campione','Prova','Lettura'] if lab else ['Massa caricata','Lettura','Stato','Proprietà']
     result += ''.join('<th scope="col">' + h + '</th>' for h in headings) + '</tr></thead><tbody data-rows></tbody></table></div>'
     result += '</section>'
     return result

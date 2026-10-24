@@ -90,6 +90,8 @@ def main():
         page.on('pageerror',lambda e:report['errors'].append(str(e)))
         page.goto(origin+'/'+PAGES['strumenti_misura'])
         assert page.locator('.chapter-navigation a[rel=next]').get_attribute('href')==PAGES['errori_incertezza_misura']
+        assert 'configurazione' not in page.locator('.measurement-sim').inner_text().lower()
+        assert 'valori simulati' not in page.locator('.measurement-sim').inner_text().lower()
         settings=page.locator('.sim-settings')
         assert settings.get_attribute('open') is not None
         assert page.locator('[data-property-output=capacity]').inner_text()=='500 g'

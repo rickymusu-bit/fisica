@@ -1,9 +1,9 @@
 {
-  "html_version": "v12",
-  "approved_draft": "v13, portata massima 500 g, risoluzione e pannello richiudibile richiesti dall’utente",
+  "html_version": "v13",
+  "approved_draft": "v13, eliminati riferimenti alla configurazione e dichiarazioni sui valori simulati su richiesta",
   "authorization": "Ok vai; generazione di bilancia e pesetti richiesta esplicitamente",
-  "html_bytes": 4951401,
-  "html_sha256": "e7afa98372ffa3a41c63d4d37ea802416711e601189c1a93177ce57f8bfdc67e",
+  "html_bytes": 4951205,
+  "html_sha256": "61173c65e21114425fa0688dfcae10b1e878e32d042e79d76b0be02433e140b6",
   "model_tests": {
     "passed": 7,
     "command": "node lavorazione/strumenti_misura/test_simulazione.cjs"
@@ -16,7 +16,7 @@
   "pages_build": "passed; entrambi i capitoli presenti nella build pubblica",
   "protected_sources": "invariati",
   "image_slots": [],
-  "preview_status": "Portata massima 500 g, controllo Risoluzione e proprietà richiudibili nel 6; grafici senza zoom e senza moduli di calcolo nel 7.",
+  "preview_status": "Riferimenti alla configurazione e dichiarazioni sui valori simulati rimossi.",
   "offline_method": "HTML caricato in memoria con rete disabilitata; immagini incorporate decodificate, MathML e simulazione disponibili. Navigazione file:// bloccata dalla policy del Chromium dell’ambiente e non dichiarata eseguita.",
   "screenshots_reviewed": [
     "lavorazione/strumenti_misura/anteprime/slider-collassati-390.png",
@@ -24,7 +24,7 @@
     "lavorazione/errori_incertezza_misura/anteprime/grafico-uncertainty-390.png"
   ],
   "generated_assets_source": "lavorazione/strumenti_misura/risorse/bilancia-pesetti-fonte.json",
-  "model_checks_scope": "7 test quantitativi, 19 test del portale e 20 combinazioni viewport/tema superati. Portate 200/300/500 g, massimo carico disponibile 380 g entro la portata 500 e fuori scala a 300. Pannello chiudibile/riapribile con mouse e tastiera senza perdita di stato, pulsanti sottostanti più vicini; immagini a 390 e 1440 px verificate. Confermate indipendenza delle attività, scala ravvicinata e testo almeno 14 px nel 7, download e offline.",
+  "model_checks_scope": "Modifica di testo e registro: verificate assenza delle diciture richieste e colonna del registro rimossa; interazioni delle tre bilance, pannello richiudibile, registrazione, reset, download/offline e 19 test del portale superati. Venti layout e sette test quantitativi della revisione precedente conservati: modello e CSS invariati.",
   "image_layouts_current": null,
   "licenses": {
     "manometro": "Photo by CEphoto, Uwe Aranas, CC BY-SA 3.0",

@@ -1,6 +1,6 @@
 # Gli strumenti di misura
 
-[EDITORIALE — Bozza v13, 24 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive scelte dall’utente e integrate. I segnaposto descrivono i materiali da integrare dopo l'approvazione del testo. Area: Introduzione alla fisica e alla misura.]
+[EDITORIALE — Bozza v14, 24 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive scelte dall’utente e integrate. I segnaposto descrivono i materiali da integrare dopo l'approvazione del testo. Area: Introduzione alla fisica e alla misura.]
 
 [COP-06 — Fotografia scelta dall'utente: Ytterbium Lattice Double Clock with Photons at NIST.jpg. Intera, senza ritagli o zoom, non ripetuta nel corpo.]
 
@@ -80,7 +80,7 @@ La bilancia virtuale ha a disposizione pesetti di masse differenti. Aggiungili a
 
 Cambia una proprietà alla volta con gli slider sotto la bilancia e osserva la risposta. Un passo più grande produce cambiamenti più grossolani; una risposta lenta richiede di aspettare. Nella simulazione il controllo “Risoluzione” indica il passo minimo leggibile in grammi. Aumentando la precisione, le letture si raccolgono; aumentando l’accuratezza, si avvicinano alla massa caricata.
 
-Registra le letture e confrontale mantenendo fisse le altre condizioni. Se cambi le impostazioni, inizia una nuova serie: così puoi attribuire le differenze alla proprietà che stai esplorando. I dati sono simulati e non documentano una prova reale.
+Registra le letture e confrontale mantenendo fisse le altre condizioni. Se cambi le impostazioni, inizia una nuova serie: così puoi attribuire le differenze alla proprietà che stai esplorando.
 
 ## Domande di verifica
 
