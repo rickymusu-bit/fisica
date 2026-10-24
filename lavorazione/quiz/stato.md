@@ -1,5 +1,21 @@
 # Stato — quiz
 
+## Stato corrente — campione di Termologia
+
+Aggiornamento: 24 ottobre 2026, ore 23:58 (Europe/Rome). Master consultato integralmente: v69.15; prompt di generazione v1.4.0; specifiche quiz v2.3.0. Le sezioni successive conservano la cronologia delle richieste precedenti.
+
+Richiesta: creare il quiz di Termologia secondo le istruzioni del repository. Ramo dedicato `feature/quiz-termologia-campione`, derivato da `main` al commit `ef29a4fe630287c59d707abacd082e2fc0617691`. Verificata l’assenza di un campione didattico già approvato e dell’archivio reale `quiz/domande.json`.
+
+Fase completata: campione iniziale di 9 quesiti, uno per ogni combinazione conoscenza/ragionamento/calcolo e facile/medio/difficile. Categoria unica `termologia`, quattro alternative per tutti i quesiti, tempi stimati 35–115 secondi, calcolatrice di base consentita. Letti i dieci capitoli pubblicati della categoria al commit di partenza; nessun uso di sorgenti esclusi o delle bozze al posto dei capitoli. Nessun nuovo visuale o simulazione necessario.
+
+File correnti: [schede per la revisione](termologia/bozza.md), con prerequisiti, riferimenti, soluzioni, motivi dei livelli, analisi dei distrattori e stime dei tempi; [campione JSON](termologia/campione.json), compatibile con lo schema corrente ma conservato solo in lavorazione. Il quiz pubblico e i capitoli non vengono modificati. Questo campione non costituisce l’archivio da 300 domande.
+
+Verifiche: validatore `load_questions` corrente superato; ID, categoria, otto campi previsti, quattro alternative distinte e distribuzione controllati; corrispondenza delle nove schede e collegamenti verificata. Ricalcolati 2000 J (termo-003), 1,2 mm (termo-006) e circa 13,5 °C con fusione completa e bilancio nullo (termo-009). Superati i cinque test esistenti di `scripts/test_quiz.py` e il controllo whitespace. La build completa non è pertinente a questi soli materiali di lavorazione. I controlli non provano la calibrazione didattica o i tempi effettivi degli studenti.
+
+Conteggio Termologia: 3 proposte facili, 3 medie e 3 difficili; per ciascun livello una conoscenza, un ragionamento e un calcolo. Approvate: 0. Target invariato: 100 approvate per livello; riferimento successivo 30 conoscenza, 40 ragionamento e 30 calcolo per livello.
+
+Approvazioni ricevute: incarico di preparazione del quiz secondo le istruzioni. Non ricevute: approvazione didattica del campione, integrazione nell’archivio, merge o pubblicazione. Si presenta il campione con PR in bozza. Prossima operazione: revisione del docente secondo la sezione 10, fase 2, del prompt; dopo l’approvazione conservare gli stessi ID e concordare/produrre i lotti richiesti, indicativamente da 30. Il campione approvato potrà concorrere al totale senza duplicazioni. L’approvazione del campione non approva automaticamente lotti futuri o pubblicazione.
+
 Ultimo aggiornamento: 2026-10-16 14:15 (Europe/Rome). Master consultato: v44.
 
 Fase: materiali esistenti importati senza modifiche; nessuna nuova progettazione o revisione didattica avviata. Ambito: i file elencati sotto. Nessun documento di lavorazione era presente nella cartella Drive dedicata.
