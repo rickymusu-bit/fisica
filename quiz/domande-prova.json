@@ -1,0 +1,637 @@
+{
+  "version": "1.0.0",
+  "status": "demo",
+  "note": "Archivio dimostrativo per collaudare il motore; non adatto alla valutazione degli studenti.",
+  "questions": [
+    {
+      "id": "demo-001",
+      "chapter": "metodo_scientifico_it.html",
+      "level": "easy",
+      "prompt": "Qual è il primo passo tipico di un'indagine scientifica?",
+      "options": [
+        "Osservare un fenomeno",
+        "Scegliere il risultato desiderato",
+        "Ignorare le misure"
+      ],
+      "correct": 0,
+      "explanation": "L'indagine parte dall'osservazione e da una domanda verificabile."
+    },
+    {
+      "id": "demo-002",
+      "chapter": "metodo_scientifico_it.html",
+      "level": "medium",
+      "prompt": "In un esperimento, perché si mantiene costante una variabile?",
+      "options": [
+        "Per isolare l'effetto della variabile studiata",
+        "Per evitare di raccogliere dati",
+        "Per rendere vera qualsiasi ipotesi",
+        "Per ottenere sempre lo stesso risultato"
+      ],
+      "correct": 0,
+      "explanation": "Controllare le altre variabili permette di attribuire meglio gli effetti alla variabile modificata."
+    },
+    {
+      "id": "demo-003",
+      "chapter": "metodo_scientifico_it.html",
+      "level": "hard",
+      "prompt": "Quale caratteristica rende scientificamente controllabile un'ipotesi?",
+      "options": [
+        "Consente previsioni che possono essere smentite da osservazioni",
+        "È condivisa dalla maggioranza degli studenti",
+        "È compatibile con ogni possibile risultato",
+        "Non richiede misure",
+        "È espressa soltanto in parole"
+      ],
+      "correct": 0,
+      "explanation": "Un'ipotesi controllabile ammette evidenze che potrebbero confutarla."
+    },
+    {
+      "id": "demo-004",
+      "chapter": "grandezze_fisiche_sistema_internazionale_it.html",
+      "level": "easy",
+      "prompt": "Qual è l'unità di misura SI della lunghezza?",
+      "options": [
+        "Metro",
+        "Secondo",
+        "Chilogrammo"
+      ],
+      "correct": 0,
+      "explanation": "Il metro (m) è l'unità di base SI della lunghezza."
+    },
+    {
+      "id": "demo-005",
+      "chapter": "grandezze_fisiche_sistema_internazionale_it.html",
+      "level": "medium",
+      "prompt": "Qual è l'unità SI della forza?",
+      "options": [
+        "Newton",
+        "Joule",
+        "Watt",
+        "Pascal"
+      ],
+      "correct": 0,
+      "explanation": "Il newton (N) misura la forza ed equivale a kg·m/s²."
+    },
+    {
+      "id": "demo-006",
+      "chapter": "grandezze_fisiche_sistema_internazionale_it.html",
+      "level": "hard",
+      "prompt": "Quale espressione in unità di base SI equivale a un watt?",
+      "options": [
+        "kg·m²/s³",
+        "kg·m/s²",
+        "kg·m²/s²",
+        "kg/(m·s²)",
+        "kg·m/s³"
+      ],
+      "correct": 0,
+      "explanation": "La potenza è energia divisa per tempo: W = J/s = kg·m²/s³."
+    },
+    {
+      "id": "demo-007",
+      "chapter": "potenze_dieci_notazione_scientifica_it.html",
+      "level": "easy",
+      "prompt": "Come si scrive 5 000 in notazione scientifica?",
+      "options": [
+        "5 × 10³",
+        "5 × 10²",
+        "5 × 10⁴"
+      ],
+      "correct": 0,
+      "explanation": "5 × 1 000 = 5 000."
+    },
+    {
+      "id": "demo-008",
+      "chapter": "potenze_dieci_notazione_scientifica_it.html",
+      "level": "medium",
+      "prompt": "Qual è la notazione scientifica di 0,0042?",
+      "options": [
+        "4,2 × 10⁻³",
+        "4,2 × 10⁻²",
+        "42 × 10⁻²",
+        "0,42 × 10⁻²"
+      ],
+      "correct": 0,
+      "explanation": "Spostando la virgola di tre posti a destra si ottiene 4,2, quindi l'esponente è −3."
+    },
+    {
+      "id": "demo-009",
+      "chapter": "potenze_dieci_notazione_scientifica_it.html",
+      "level": "hard",
+      "prompt": "Quanto vale (3 × 10⁴) × (2 × 10⁻²)?",
+      "options": [
+        "6 × 10²",
+        "6 × 10⁶",
+        "5 × 10²",
+        "6 × 10⁻⁸",
+        "6 × 10⁻²"
+      ],
+      "correct": 0,
+      "explanation": "Si moltiplicano i coefficienti e si sommano gli esponenti: 3 × 2 = 6 e 4 + (−2) = 2."
+    },
+    {
+      "id": "demo-010",
+      "chapter": "prefissi_sistema_internazionale_it.html",
+      "level": "easy",
+      "prompt": "Che cosa significa il prefisso «chilo-»?",
+      "options": [
+        "Mille volte l'unità",
+        "Cento volte l'unità",
+        "Un millesimo dell'unità"
+      ],
+      "correct": 0,
+      "explanation": "Il prefisso chilo- indica 10³."
+    },
+    {
+      "id": "demo-011",
+      "chapter": "prefissi_sistema_internazionale_it.html",
+      "level": "medium",
+      "prompt": "A quale potenza di dieci corrisponde «micro-»?",
+      "options": [
+        "10⁻⁶",
+        "10⁻³",
+        "10⁶",
+        "10⁻⁹"
+      ],
+      "correct": 0,
+      "explanation": "Micro- indica un milionesimo dell'unità."
+    },
+    {
+      "id": "demo-012",
+      "chapter": "prefissi_sistema_internazionale_it.html",
+      "level": "hard",
+      "prompt": "Quanto sono 2,5 micrometri espressi in metri?",
+      "options": [
+        "2,5 × 10⁻⁶ m",
+        "2,5 × 10⁻³ m",
+        "2,5 × 10⁶ m",
+        "25 × 10⁻⁶ m",
+        "2,5 × 10⁻⁹ m"
+      ],
+      "correct": 0,
+      "explanation": "Un micrometro equivale a 10⁻⁶ m; quindi 2,5 µm = 2,5 × 10⁻⁶ m."
+    },
+    {
+      "id": "demo-013",
+      "chapter": "cifre_significative_it.html",
+      "level": "easy",
+      "prompt": "Quante cifre significative contiene la misura 3,40 m?",
+      "options": [
+        "Tre",
+        "Due",
+        "Quattro"
+      ],
+      "correct": 0,
+      "explanation": "Lo zero finale dopo la virgola indica precisione ed è significativo."
+    },
+    {
+      "id": "demo-014",
+      "chapter": "cifre_significative_it.html",
+      "level": "medium",
+      "prompt": "Quanto vale 2,35 m + 1,2 m, arrotondato correttamente?",
+      "options": [
+        "3,6 m",
+        "3,55 m",
+        "3,5 m",
+        "4 m"
+      ],
+      "correct": 0,
+      "explanation": "Nelle somme si conserva il numero di cifre decimali del dato meno preciso: un decimale."
+    },
+    {
+      "id": "demo-015",
+      "chapter": "cifre_significative_it.html",
+      "level": "hard",
+      "prompt": "Quanto vale 2,0 × 3,45, espresso con il corretto numero di cifre significative?",
+      "options": [
+        "6,9",
+        "6,90",
+        "6,900",
+        "7,0",
+        "6,8"
+      ],
+      "correct": 0,
+      "explanation": "Il prodotto esatto è 6,90; poiché 2,0 ha due cifre significative, il risultato si scrive 6,9."
+    },
+    {
+      "id": "demo-016",
+      "chapter": "termodinamica_sistemi_it.html",
+      "level": "easy",
+      "prompt": "Un sistema termodinamico aperto può scambiare con l'ambiente:",
+      "options": [
+        "Materia ed energia",
+        "Soltanto temperatura",
+        "Soltanto volume"
+      ],
+      "correct": 0,
+      "explanation": "Un sistema aperto può trasferire sia materia sia energia."
+    },
+    {
+      "id": "demo-017",
+      "chapter": "termodinamica_sistemi_it.html",
+      "level": "medium",
+      "prompt": "Un recipiente perfettamente chiuso ma non isolato termicamente è un sistema:",
+      "options": [
+        "Chiuso",
+        "Aperto",
+        "Isolato",
+        "Senza confine"
+      ],
+      "correct": 0,
+      "explanation": "Non scambia materia, ma può scambiare energia."
+    },
+    {
+      "id": "demo-018",
+      "chapter": "termodinamica_sistemi_it.html",
+      "level": "hard",
+      "prompt": "Quale affermazione descrive un sistema termodinamico isolato idealmente?",
+      "options": [
+        "Non scambia né materia né energia con l'esterno",
+        "Scambia soltanto calore",
+        "Scambia materia ma non lavoro",
+        "Mantiene sempre temperatura costante",
+        "Ha necessariamente volume nullo"
+      ],
+      "correct": 0,
+      "explanation": "L'isolamento ideale esclude ogni trasferimento di materia ed energia attraverso il confine."
+    },
+    {
+      "id": "demo-019",
+      "chapter": "temperatura_equilibrio_termico_it.html",
+      "level": "easy",
+      "prompt": "Due corpi in equilibrio termico tra loro hanno:",
+      "options": [
+        "La stessa temperatura",
+        "La stessa massa",
+        "Lo stesso volume"
+      ],
+      "correct": 0,
+      "explanation": "L'equilibrio termico richiede l'uguaglianza delle temperature."
+    },
+    {
+      "id": "demo-020",
+      "chapter": "temperatura_equilibrio_termico_it.html",
+      "level": "medium",
+      "prompt": "Qual è il valore approssimato di 20 °C in kelvin?",
+      "options": [
+        "293 K",
+        "253 K",
+        "273 K",
+        "320 K"
+      ],
+      "correct": 0,
+      "explanation": "Si somma 273,15 alla temperatura in gradi Celsius: 293,15 K."
+    },
+    {
+      "id": "demo-021",
+      "chapter": "temperatura_equilibrio_termico_it.html",
+      "level": "hard",
+      "prompt": "Una variazione di temperatura di 15 °C corrisponde a quale variazione in kelvin?",
+      "options": [
+        "15 K",
+        "258,15 K",
+        "288,15 K",
+        "−15 K",
+        "273,15 K"
+      ],
+      "correct": 0,
+      "explanation": "Gli intervalli in kelvin e in gradi Celsius hanno uguale ampiezza."
+    },
+    {
+      "id": "demo-022",
+      "chapter": "energia_interna_calore_specifico_it.html",
+      "level": "easy",
+      "prompt": "Il calore è:",
+      "options": [
+        "Energia trasferita per differenza di temperatura",
+        "La temperatura di un corpo",
+        "La massa di un corpo"
+      ],
+      "correct": 0,
+      "explanation": "In termodinamica il calore è energia in transito per una differenza di temperatura."
+    },
+    {
+      "id": "demo-023",
+      "chapter": "energia_interna_calore_specifico_it.html",
+      "level": "medium",
+      "prompt": "Quale materiale richiede più energia per aumentare di 1 °C la temperatura di 1 kg, a parità di condizioni?",
+      "options": [
+        "Quello con maggiore calore specifico",
+        "Quello con minore calore specifico",
+        "Quello di densità minore",
+        "Quello di colore più chiaro"
+      ],
+      "correct": 0,
+      "explanation": "Per una stessa massa e variazione termica, Q = mcΔT."
+    },
+    {
+      "id": "demo-024",
+      "chapter": "energia_interna_calore_specifico_it.html",
+      "level": "hard",
+      "prompt": "Per riscaldare 2 kg di acqua di 3 °C, con c = 4 200 J/(kg·K), serve un'energia di:",
+      "options": [
+        "25 200 J",
+        "8 400 J",
+        "12 600 J",
+        "2 800 J",
+        "50 400 J"
+      ],
+      "correct": 0,
+      "explanation": "Q = mcΔT = 2 × 4 200 × 3 = 25 200 J."
+    },
+    {
+      "id": "demo-025",
+      "chapter": "bilancio_termico_it.html",
+      "level": "easy",
+      "prompt": "Due corpi a temperatura diversa vengono messi a contatto e isolati dall'esterno. In generale:",
+      "options": [
+        "Scambiano energia finché raggiungono la stessa temperatura",
+        "Restano sempre alle temperature iniziali",
+        "Raggiungono entrambi 0 °C"
+      ],
+      "correct": 0,
+      "explanation": "Il calore fluisce spontaneamente dal corpo più caldo a quello più freddo fino all'equilibrio."
+    },
+    {
+      "id": "demo-026",
+      "chapter": "bilancio_termico_it.html",
+      "level": "medium",
+      "prompt": "Due uguali masse della stessa sostanza sono a 20 °C e 40 °C. Senza perdite, la temperatura finale è:",
+      "options": [
+        "30 °C",
+        "20 °C",
+        "40 °C",
+        "60 °C"
+      ],
+      "correct": 0,
+      "explanation": "Con masse e capacità termiche uguali la temperatura finale è la media aritmetica."
+    },
+    {
+      "id": "demo-027",
+      "chapter": "bilancio_termico_it.html",
+      "level": "hard",
+      "prompt": "Mescoli 1 kg d'acqua a 20 °C con 2 kg d'acqua a 50 °C, senza perdite. Qual è la temperatura finale?",
+      "options": [
+        "40 °C",
+        "35 °C",
+        "30 °C",
+        "45 °C",
+        "50 °C"
+      ],
+      "correct": 0,
+      "explanation": "Con lo stesso calore specifico la media pesata è (1 × 20 + 2 × 50)/3 = 40 °C."
+    },
+    {
+      "id": "demo-028",
+      "chapter": "dilatazione_termica_it.html",
+      "level": "easy",
+      "prompt": "Cosa accade in genere alla lunghezza di una barra metallica quando si riscalda?",
+      "options": [
+        "Aumenta",
+        "Diminuisce sempre",
+        "Diventa nulla"
+      ],
+      "correct": 0,
+      "explanation": "I metalli normalmente si dilatano quando aumenta la temperatura."
+    },
+    {
+      "id": "demo-029",
+      "chapter": "dilatazione_termica_it.html",
+      "level": "medium",
+      "prompt": "La dilatazione lineare ΔL di una barra, per piccole variazioni termiche, è proporzionale a:",
+      "options": [
+        "Lunghezza iniziale e variazione di temperatura",
+        "Solo massa della barra",
+        "Solo temperatura iniziale",
+        "Solo densità dell'aria"
+      ],
+      "correct": 0,
+      "explanation": "Per la dilatazione lineare vale ΔL = αL₀ΔT."
+    },
+    {
+      "id": "demo-030",
+      "chapter": "dilatazione_termica_it.html",
+      "level": "hard",
+      "prompt": "Una barra lunga 2 m ha α = 1 × 10⁻⁵ K⁻¹. Per ΔT = 50 K, quanto si allunga?",
+      "options": [
+        "1 mm",
+        "0,1 mm",
+        "5 mm",
+        "10 mm",
+        "0,01 mm"
+      ],
+      "correct": 0,
+      "explanation": "ΔL = αL₀ΔT = 10⁻⁵ × 2 × 50 m = 0,001 m = 1 mm."
+    },
+    {
+      "id": "demo-031",
+      "chapter": "stati_della_materia.html",
+      "level": "easy",
+      "prompt": "Quale stato della materia ha forma e volume propri, in condizioni ordinarie?",
+      "options": [
+        "Solido",
+        "Liquido",
+        "Gas"
+      ],
+      "correct": 0,
+      "explanation": "Un solido conserva normalmente forma e volume."
+    },
+    {
+      "id": "demo-032",
+      "chapter": "stati_della_materia.html",
+      "level": "medium",
+      "prompt": "Perché un gas riempie tutto il recipiente disponibile?",
+      "options": [
+        "Le particelle sono libere di muoversi e disperdersi",
+        "Le particelle sono immobili",
+        "Un gas ha sempre densità infinita",
+        "Un gas non esercita pressione"
+      ],
+      "correct": 0,
+      "explanation": "Le particelle di un gas si muovono in tutto il volume accessibile."
+    },
+    {
+      "id": "demo-033",
+      "chapter": "stati_della_materia.html",
+      "level": "hard",
+      "prompt": "In un modello microscopico, quale descrizione distingue meglio un liquido da un solido cristallino?",
+      "options": [
+        "Le particelle del liquido possono cambiare vicini e scorrere le une rispetto alle altre",
+        "Le particelle del liquido sono prive di massa",
+        "Le particelle del liquido non interagiscono mai",
+        "Nel solido le particelle restano perfettamente immobili",
+        "Il liquido non occupa volume"
+      ],
+      "correct": 0,
+      "explanation": "In un liquido le particelle restano vicine ma possono riorganizzarsi e scorrere."
+    },
+    {
+      "id": "demo-034",
+      "chapter": "passaggi_di_stato.html",
+      "level": "easy",
+      "prompt": "Come si chiama il passaggio da vapore a liquido?",
+      "options": [
+        "Condensazione",
+        "Fusione",
+        "Sublimazione"
+      ],
+      "correct": 0,
+      "explanation": "La condensazione trasforma il vapore in liquido."
+    },
+    {
+      "id": "demo-035",
+      "chapter": "passaggi_di_stato.html",
+      "level": "medium",
+      "prompt": "Durante la fusione di una sostanza pura a pressione costante, mentre coesistono solido e liquido, la temperatura in genere:",
+      "options": [
+        "Rimane costante",
+        "Aumenta senza interruzione",
+        "Scende necessariamente a 0 K",
+        "Raddoppia"
+      ],
+      "correct": 0,
+      "explanation": "L'energia fornita serve al cambiamento di stato finché dura la coesistenza."
+    },
+    {
+      "id": "demo-036",
+      "chapter": "passaggi_di_stato.html",
+      "level": "hard",
+      "prompt": "Se il calore latente di fusione è 200 kJ/kg, quanta energia serve a fondere 0,5 kg della sostanza alla temperatura di fusione?",
+      "options": [
+        "100 kJ",
+        "400 kJ",
+        "200 kJ",
+        "50 kJ",
+        "0,1 kJ"
+      ],
+      "correct": 0,
+      "explanation": "Q = mL = 0,5 × 200 kJ = 100 kJ."
+    },
+    {
+      "id": "demo-037",
+      "chapter": "conduzione_it.html",
+      "level": "easy",
+      "prompt": "In quale materiale, tra questi, il calore si trasmette generalmente meglio per conduzione?",
+      "options": [
+        "Rame",
+        "Legno secco",
+        "Aria ferma"
+      ],
+      "correct": 0,
+      "explanation": "Il rame è un buon conduttore termico rispetto agli altri due materiali."
+    },
+    {
+      "id": "demo-038",
+      "chapter": "conduzione_it.html",
+      "level": "medium",
+      "prompt": "Perché, alla stessa temperatura ambiente, una barra metallica sembra spesso più fredda di una di legno?",
+      "options": [
+        "Allontana calore dalla mano più rapidamente",
+        "Ha necessariamente temperatura inferiore",
+        "Produce spontaneamente freddo",
+        "Contiene meno energia per ogni grammo in ogni situazione"
+      ],
+      "correct": 0,
+      "explanation": "Il metallo ha una conduttività termica maggiore e accelera il trasferimento di energia dalla pelle."
+    },
+    {
+      "id": "demo-039",
+      "chapter": "conduzione_it.html",
+      "level": "hard",
+      "prompt": "A parità di materiale, superficie e differenza di temperatura, raddoppiare lo spessore di una parete omogenea dimezza approssimativamente:",
+      "options": [
+        "La potenza termica condotta in regime stazionario",
+        "La massa totale della parete",
+        "La sua conduttività termica",
+        "La temperatura dell'aria interna",
+        "La superficie della parete"
+      ],
+      "correct": 0,
+      "explanation": "La potenza condotta soddisfa P = kAΔT/L, quindi è inversamente proporzionale allo spessore."
+    },
+    {
+      "id": "demo-040",
+      "chapter": "convezione_it.html",
+      "level": "easy",
+      "prompt": "La convezione termica avviene grazie al movimento di:",
+      "options": [
+        "Un fluido",
+        "Una parete metallica ferma",
+        "La radiazione elettromagnetica"
+      ],
+      "correct": 0,
+      "explanation": "La convezione trasferisce energia insieme al moto di liquidi o gas."
+    },
+    {
+      "id": "demo-041",
+      "chapter": "convezione_it.html",
+      "level": "medium",
+      "prompt": "Quale esempio rappresenta convezione forzata?",
+      "options": [
+        "Aria spinta da un ventilatore",
+        "Aria calda che sale spontaneamente",
+        "Acqua ferma in un contenitore",
+        "Calore che attraversa un mattone"
+      ],
+      "correct": 0,
+      "explanation": "Una ventola impone il moto del fluido dall'esterno."
+    },
+    {
+      "id": "demo-042",
+      "chapter": "convezione_it.html",
+      "level": "hard",
+      "prompt": "Perché l'aria riscaldata vicino a un termosifone tende a salire?",
+      "options": [
+        "Perché, a pressione circa uguale, diventa meno densa dell'aria circostante",
+        "Perché aumenta automaticamente la propria massa",
+        "Perché il suo peso diventa sempre zero",
+        "Perché smette di subire gravità",
+        "Perché la sua temperatura si annulla"
+      ],
+      "correct": 0,
+      "explanation": "L'aria più calda è in genere meno densa e la spinta di galleggiamento la porta verso l'alto."
+    },
+    {
+      "id": "demo-043",
+      "chapter": "irraggiamento_it.html",
+      "level": "easy",
+      "prompt": "Il Sole trasferisce energia alla Terra principalmente tramite:",
+      "options": [
+        "Radiazione elettromagnetica",
+        "Conduzione attraverso il vuoto",
+        "Convezione nello spazio vuoto"
+      ],
+      "correct": 0,
+      "explanation": "La radiazione elettromagnetica si propaga anche nel vuoto."
+    },
+    {
+      "id": "demo-044",
+      "chapter": "irraggiamento_it.html",
+      "level": "medium",
+      "prompt": "Quale caratteristica rende diverso l'irraggiamento rispetto a conduzione e convezione?",
+      "options": [
+        "Non richiede materia tra sorgente e destinatario",
+        "Richiede sempre un liquido",
+        "Trasporta soltanto massa",
+        "Avviene solo alla temperatura di 0 °C"
+      ],
+      "correct": 0,
+      "explanation": "L'irraggiamento può trasferire energia anche attraverso il vuoto."
+    },
+    {
+      "id": "demo-045",
+      "chapter": "irraggiamento_it.html",
+      "level": "hard",
+      "prompt": "Secondo la legge di Stefan-Boltzmann, a emissività e superficie costanti, se la temperatura assoluta raddoppia la potenza emessa diventa:",
+      "options": [
+        "16 volte maggiore",
+        "2 volte maggiore",
+        "4 volte maggiore",
+        "8 volte maggiore",
+        "32 volte maggiore"
+      ],
+      "correct": 0,
+      "explanation": "La potenza emessa è proporzionale alla quarta potenza della temperatura assoluta: 2⁴ = 16."
+    }
+  ]
+}
