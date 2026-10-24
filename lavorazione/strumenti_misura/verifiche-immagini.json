@@ -129,17 +129,47 @@
         235,
         750
       ],
-      "vertical_length_cm": 5
+      "vertical_length_cm": 5,
+      "kind": "matita"
     },
     "zero_alignment_check": "La base e lo zero della scala hanno la stessa coordinata y = 750; estremità a 5 cm.",
-    "svg_sha256": "2e1dcb83158b3abef6c982b3074a59116846b650778542b0edfb7667a3145717",
+    "svg_sha256": "a508edd65fee4a60c3fe51ce3f624d412368892d53ada853f1c6b374f3e351c9",
     "viewbox": [
       90,
       90,
-      1250,
+      1370,
       700
-    ]
+    ],
+    "pencil": {
+      "source_file": "matita-generata.png",
+      "alpha_threshold": 128,
+      "source_tip": [
+        513.0,
+        27
+      ],
+      "source_base": [
+        510.0,
+        1507
+      ],
+      "svg_matrix": [
+        0.20270186983344207,
+        -0.00041088216858130197,
+        0.00041088216858130197,
+        0.20270186983344207,
+        296.00284695689254,
+        444.73783206697925
+      ],
+      "target_tip": [
+        400,
+        450
+      ],
+      "target_base": [
+        400,
+        750
+      ],
+      "transform_check": "Rotazione e scala uniforme; punta e base allineate alle coordinate senza deformare l’immagine."
+    }
   },
   "license_check": "Bilancia Batholith PD-self verificata sulla pagina Commons; riferimento Vecteezy Pro non incorporato. Schema originale con geometria SVG ed elemento occhio generato su richiesta.",
-  "html_sha256": "caa7b12d047062380f3a7bdaff6ed7ab723657ae57324b6e40425e1c7a6f0d5c"
+  "html_sha256": "3480a62a45d65c4890a684836b168d94aedda4de82e57fc56beeaca489e4a641"
 }

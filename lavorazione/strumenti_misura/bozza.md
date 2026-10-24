@@ -1,6 +1,6 @@
 # Gli strumenti di misura
 
-[EDITORIALE — Bozza v6, 24 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive in attesa. I segnaposto descrivono i materiali da integrare dopo l'approvazione del testo. Area: Introduzione alla fisica e alla misura.]
+[EDITORIALE — Bozza v7, 24 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive in attesa. I segnaposto descrivono i materiali da integrare dopo l'approvazione del testo. Area: Introduzione alla fisica e alla misura.]
 
 [COP-06 — Fotografia scelta dall'utente: Ytterbium Lattice Double Clock with Photons at NIST.jpg. Intera, senza ritagli o zoom, non ripetuta nel corpo.]
 
@@ -142,3 +142,7 @@ Rimosse su richiesta le scritte accessorie “vista laterale schematica” e il 
 ### Essenzialità delle figure — richiesta del 24 ottobre 2026
 
 Rimosse dallo schema le scritte che ripetono ciò che si vede, il titolo/sottotitolo interno e la quota commentata della separazione; conservati scala, linee e valori di lettura. Omesse le didascalie tautologiche delle due immagini integrate. Regola recepita in MASTER_PROMPT.md C3 e STILE_DISPENSE.md: non dichiarare ciò che è evidente dall’immagine o dal contesto.
+
+### Matita e indicazioni di vista
+
+Su richiesta, la sagoma è sostituita da una matita riconoscibile generata come elemento illustrativo. Punta e base riallineate con trasformazione uniforme alle coordinate precedenti; reinserite le etichette “Vista dall’alto”, “Vista frontale” e “Vista dal basso”. Nessuna nuova didascalia esplicativa.

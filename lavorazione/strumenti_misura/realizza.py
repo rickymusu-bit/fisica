@@ -322,8 +322,10 @@ def main():
     for identity,description,source,notice in [
         ('metrologia-vim-gum','Vocabolario metrologico e guida all’incertezza','https://www.bipm.org/en/committees/jc/jcgm/publications','Riferimenti terminologici: JCGM 200:2012 (VIM), JCGM 100:2008 (GUM). La regola scolastica max(semidispersione, passo) è una semplificazione dichiarata, non una procedura generale attribuita a questi documenti.'),
         ('grafico-misure-tempi','Linea dei numeri delle cinque letture illustrative',None,'Grafico quantitativo del progetto Stringhe, ricostruito dagli stessi dati illustrativi del sorgente storico; nessuna fotografia esterna riprodotta.'),
-        ('parallasse-schema-originale','Schema originale del parallasse',None,'Schema originale realizzato su richiesta: scala, indice, linee di vista e scritte costruiti in SVG con geometria verificata; elemento dell’occhio generato con ChatGPT. L’immagine commerciale Vecteezy non è riprodotta o incorporata.')]:
+        ('parallasse-schema-originale','Schema originale del parallasse',None,'Schema originale realizzato su richiesta: scala, linee di vista e scritte costruiti in SVG con geometria verificata; elementi dell’occhio e della matita generati con ChatGPT. L’immagine commerciale Vecteezy non è riprodotta o incorporata.')]:
         if not any(r['id']==identity for r in registry['resources']): registry['resources'].append({'id':identity,'description':description,'source':source,'author':'Stringhe' if source is None else 'JCGM/BIPM','license':None,'license_url':None,'changes':None,'status':'documented','links':[],'notices':[notice],'metadata_sources':[],'fingerprints':[]})
+        elif identity=='parallasse-schema-originale':
+            next(r for r in registry['resources'] if r['id']==identity)['notices']=[notice]
     for key,data in CHAPTERS.items():
         source,report=render(key,data); reports[key]=report
         (ROOT/data['name']).write_text(source)

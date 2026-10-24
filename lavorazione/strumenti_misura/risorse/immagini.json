@@ -16,10 +16,10 @@
   "FIG-06-2": {
     "path": "risorse/parallasse.svg",
     "id": "parallasse-schema-originale",
-    "alt": "Scala verticale in centimetri e oggetto con base allineata allo zero ed estremità superiore a 5 cm. Le viste oblique allineano l’estremità alle tacche 4 e 6 cm; quella frontale alla tacca 5 cm.",
+    "alt": "Scala verticale in centimetri e matita. Le tre linee di vista collegano la punta della matita, posta a 5 cm, alle letture apparenti 4, 5 e 6 cm; la base coincide con lo zero.",
     "diagram": true,
     "zoom": true,
-    "changes": "Schema originale con geometria SVG verificata ed elemento dell’occhio generato su richiesta. Nessuna immagine Vecteezy incorporata.",
+    "changes": "Schema originale con geometria SVG verificata; elementi dell’occhio e della matita generati su richiesta. Nessuna immagine Vecteezy incorporata.",
     "approval": "Ricreazione autorizzata dall’utente qualora il riferimento commerciale non sia utilizzabile senza licenza.",
     "hide-caption": true
   }

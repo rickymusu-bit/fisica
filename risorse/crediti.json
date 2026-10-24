@@ -3846,8 +3846,8 @@
       "status": "documented",
       "links": [],
       "notices": [
-        "Schema originale realizzato su richiesta: scala, indice, linee di vista e scritte costruiti in SVG con geometria verificata; elemento dell’occhio generato con ChatGPT. L’immagine commerciale Vecteezy non è riprodotta o incorporata.",
-        "Schema originale realizzato su richiesta: scala, indice, linee di vista e scritte costruiti in SVG con geometria verificata; elemento dell’occhio generato con ChatGPT. L’immagine commerciale Vecteezy non è riprodotta o incorporata.<br>Modifiche per questo utilizzo: Schema originale con geometria SVG verificata ed elemento dell’occhio generato su richiesta. Nessuna immagine Vecteezy incorporata."
+        "Schema originale realizzato su richiesta: scala, linee di vista e scritte costruiti in SVG con geometria verificata; elementi dell’occhio e della matita generati con ChatGPT. L’immagine commerciale Vecteezy non è riprodotta o incorporata.",
+        "Schema originale realizzato su richiesta: scala, linee di vista e scritte costruiti in SVG con geometria verificata; elementi dell’occhio e della matita generati con ChatGPT. L’immagine commerciale Vecteezy non è riprodotta o incorporata.<br>Modifiche per questo utilizzo: Schema originale con geometria SVG verificata; elementi dell’occhio e della matita generati su richiesta. Nessuna immagine Vecteezy incorporata."
       ],
       "metadata_sources": [],
       "fingerprints": [
@@ -3855,7 +3855,8 @@
         "asset-63987141d743253627c19f163d61877236bc00b029023a7b1c5e67ccbfe9f241",
         "asset-291135edd0f44a9737ce88b2de4aa2797ca5cd9851306bbc368188276f8b8663",
         "asset-318fca0c79ba2fa1cbe77e28d7edbe1ce651ba203aab63aaea49d4c74bb8ac79",
-        "asset-2e1dcb83158b3abef6c982b3074a59116846b650778542b0edfb7667a3145717"
+        "asset-2e1dcb83158b3abef6c982b3074a59116846b650778542b0edfb7667a3145717",
+        "asset-a508edd65fee4a60c3fe51ce3f624d412368892d53ada853f1c6b374f3e351c9"
       ]
     },
     {
@@ -5465,30 +5466,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-2e1dcb83158b3abef6c982b3074a59116846b650778542b0edfb7667a3145717",
-      "kind": "image/svg+xml",
-      "uses": [
-        {
-          "document": "strumenti_misura_it.html",
-          "kind": "image/svg+xml",
-          "description": "Scala verticale in centimetri e oggetto con base allineata allo zero ed estremità superiore a 5 cm. Le viste oblique allineano l’estremità alle tacche 4 e 6 cm; quella frontale alla tacca 5 cm.",
-          "locator": "fig-06-2",
-          "attribute": "src",
-          "location": null,
-          "credit_id": "parallasse-schema-originale"
-        },
-        {
-          "document": "strumenti_misura_it.html",
-          "kind": "image/svg+xml",
-          "description": "Scala verticale in centimetri e oggetto con base allineata allo zero ed estremità superiore a 5 cm. Le viste oblique allineano l’estremità alle tacche 4 e 6 cm; quella frontale alla tacca 5 cm.",
-          "locator": "fig-06-2",
-          "attribute": "src",
-          "location": null,
-          "credit_id": "parallasse-schema-originale"
         }
       ]
     },
@@ -7391,6 +7368,30 @@
           "attribute": "src",
           "location": null,
           "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-a508edd65fee4a60c3fe51ce3f624d412368892d53ada853f1c6b374f3e351c9",
+      "kind": "image/svg+xml",
+      "uses": [
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "image/svg+xml",
+          "description": "Scala verticale in centimetri e matita. Le tre linee di vista collegano la punta della matita, posta a 5 cm, alle letture apparenti 4, 5 e 6 cm; la base coincide con lo zero.",
+          "locator": "fig-06-2",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "parallasse-schema-originale"
+        },
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "image/svg+xml",
+          "description": "Scala verticale in centimetri e matita. Le tre linee di vista collegano la punta della matita, posta a 5 cm, alle letture apparenti 4, 5 e 6 cm; la base coincide con lo zero.",
+          "locator": "fig-06-2",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "parallasse-schema-originale"
         }
       ]
     },

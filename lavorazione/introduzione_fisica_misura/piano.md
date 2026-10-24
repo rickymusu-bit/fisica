@@ -206,3 +206,7 @@ Integrata la fotografia Kitchen scale 20101110.jpg scelta dall’utente, Batholi
 ### Capitolo 6 — HTML v3, essenzialità delle figure
 
 Su richiesta dell’utente rimossi testi visibili e didascalie che ripetono informazioni già evidenti dall’immagine o dal contesto. Regola consolidata nel master v69.12 e nel riferimento di stile v7. Geometria e simulazioni invariate; altre immagini ancora in attesa.
+
+### Capitolo 6 — HTML v4, matita nel parallasse
+
+Su richiesta, la sagoma è sostituita con una matita riconoscibile e sono ripristinate le tre indicazioni di vista. Posizione, scala e linee di vista conservate; nessuna nuova didascalia. Originale generato preservato, crediti e verifiche mirate aggiornati. Capitolo 7 e simulazioni invariati.

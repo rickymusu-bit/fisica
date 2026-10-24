@@ -1,6 +1,6 @@
 # Stato — Gli strumenti di misura
 Ultimo aggiornamento: 23 ottobre 2026 (Europe/Rome). Capitolo 6.
-Fase: HTML v3, figure ripulite dalle ripetizioni; altre immagini ancora aperte.
+Fase: HTML v4 con matita e indicazioni di vista richieste; altre immagini ancora aperte.
 
 ## Fonte e ambito
 Richiesta corrente: «Facciamo i capitoli 6 e 7», con collegamento al piano.
@@ -75,3 +75,7 @@ Base dell’oggetto portata allo zero (y = 750, stessa quota dello zero della sc
 ## Essenzialità richiesta — HTML v3
 
 Recepita la richiesta di non dichiarare ciò che è già evidente dalle immagini o dal contesto. Schema ripulito da titoli interni, descrizioni delle posizioni e precisazioni ridondanti; omesse le didascalie tautologiche delle due figure integrate. Geometria invariata. Master aggiornato a v69.12, C3/A6; riferimento di stile v7. HTML v3 e bozza v6; verifiche mirate e anteprime aggiornate. Nessun rilascio.
+
+## Matita e indicazioni di vista — HTML v4
+
+L’utente richiede un oggetto riconoscibile, una matita, e il ripristino di “Vista dall’alto”, “Vista frontale”, “Vista dal basso”, ritenute utili. Matita generata come elemento isolato, originale preservato e copia in risorse/matita-generata.png; sostituita la sagoma. Posizione ottenuta con sola rotazione e scala uniforme: punta e base nelle coordinate precedenti, senza deformazione. Geometria, linee di vista e zero invariati. Ripristinate esattamente le tre indicazioni richieste; non eliminarle come ridondanti nelle prossime revisioni. Nessuna nuova didascalia. Bozza v7, HTML v4; crediti e verifiche mirate aggiornati.

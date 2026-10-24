@@ -18,7 +18,12 @@ def main():
     svg=(WORK/'risorse/parallasse.svg').read_text()
     geometry=json.loads((WORK/'risorse/parallasse-geometria.json').read_text())
     assert geometry['object']['base'][1]==geometry['object']['zero_on_scale'][1]==750
-    assert 'M394 750V472L400 450 406 472V750Z' in svg
+    assert 'id="matita"' in svg and geometry['object']['kind']=='matita'
+    a,b,c,d,e,f=geometry['pencil']['svg_matrix']
+    for source,target in [(geometry['pencil']['source_tip'],[400,450]),(geometry['pencil']['source_base'],[400,750])]:
+        actual=[a*source[0]+c*source[1]+e,b*source[0]+d*source[1]+f]
+        assert max(abs(actual[i]-target[i]) for i in [0,1])<1e-8
+    assert all(label in svg for label in ['Vista dall’alto','Vista frontale','Vista dal basso'])
     assert 'Vista laterale schematica' not in svg and 'Indice fermo' not in svg
     assert '>Base allineata allo zero<' not in svg and '>La base è sullo zero' not in svg
     assert 'Separazione dalla scala</text>' not in svg

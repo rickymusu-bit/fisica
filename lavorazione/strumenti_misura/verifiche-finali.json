@@ -1,9 +1,9 @@
 {
-  "html_version": "v3",
-  "approved_draft": "v6, revisione di essenzialità richiesta dall’utente",
+  "html_version": "v4",
+  "approved_draft": "v7, matita e tre indicazioni di vista richieste dall’utente",
   "authorization": "Ok vai",
-  "html_bytes": 8417436,
-  "html_sha256": "caa7b12d047062380f3a7bdaff6ed7ab723657ae57324b6e40425e1c7a6f0d5c",
+  "html_bytes": 12929847,
+  "html_sha256": "3480a62a45d65c4890a684836b168d94aedda4de82e57fc56beeaca489e4a641",
   "model_tests": {
     "passed": 7,
     "command": "node lavorazione/strumenti_misura/test_simulazione.cjs"
@@ -29,9 +29,9 @@
   "image_layouts_current": 10,
   "model_checks_scope": "Test quantitativi e interazioni della versione precedente conservati: codice della simulazione invariato. Immagini e impaginazione modificate verificate nella v2 da verifica_immagini.py.",
   "corrections_verified": [
-    "geometria e allineamento allo zero invariati",
-    "annotazioni e didascalie ridondanti rimosse",
-    "tutte le scritte rimaste rientrano nel riquadro visibile",
-    "master v69.12 e stile v7 aggiornati"
+    "sagoma sostituita da matita riconoscibile",
+    "rotazione e scala uniforme, senza deformazione",
+    "punta e base nelle coordinate originali",
+    "ripristinate le tre indicazioni di vista richieste"
   ]
 }
