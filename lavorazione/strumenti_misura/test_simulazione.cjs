@@ -5,6 +5,8 @@ const m = require('./simulazione.js');
 test('i pesetti hanno somma esatta e il fuori scala dipende dal carico', () => {
   const sum = m.masses.reduce((a,b)=>a+b,0);
   assert.equal(sum,380);
+  assert.equal(Math.max(...m.options.capacity),500);
+  assert.equal(m.reading(sum,{...m.defaults,capacity:500}),380);
   assert.equal(m.reading(sum,{...m.defaults,capacity:200}),null);
   assert.equal(m.reading(200,{...m.defaults,capacity:200}),200);
 });

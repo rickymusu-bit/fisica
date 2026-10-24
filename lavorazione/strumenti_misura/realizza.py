@@ -187,7 +187,7 @@ def simulation(folder, mode, image_assets, study=None):
     lab = mode == 'lab'
     title = ('Massa ignota' if study=='uncertainty' else 'Massa di riferimento') if lab else 'Pesetti e proprietà della bilancia'
     result = '<section class="measurement-sim" data-measurement="' + mode + '"' + (' data-study="' + study + '"' if study else '') + ' aria-label="' + title + '"><h3>' + title + '</h3>'
-    result += '<p class="sim-intro">Valori simulati. ' + ('Le proprietà dello strumento sono fisse: portata 500 g, passo leggibile 1 g e risposta di circa 1 s.' if lab else 'Aggiungi i pesetti al piatto e varia una proprietà alla volta con gli slider sotto la bilancia.') + '</p>'
+    result += '<p class="sim-intro">' + ('Le proprietà dello strumento sono fisse: portata 500 g, passo leggibile 1 g e risposta di circa 1 s.' if lab else 'Aggiungi i pesetti al piatto e varia una proprietà alla volta con gli slider sotto la bilancia.') + '</p>'
     generated=bool(image_assets.get('bilancia',{}).get('symbol'))
     if generated:
         weight=image_assets['pesetto-100'];box=weight['viewbox'];aspect=box[2]/box[3]
@@ -206,29 +206,22 @@ def simulation(folder, mode, image_assets, study=None):
                 img = photo(folder,'pesetto-' + str(m),'',image_assets,sim=True)
             scale=(m/200)**(1/3)
             result += button('<span class="sim-weight-thumb" style="--weight-size:' + str(scale) + '">' + img + '</span>' + str(m) + ' g', 'data-weight="' + str(m) + '" aria-pressed="false" aria-label="Aggiungi o rimuovi il pesetto da ' + str(m) + ' g"')
-        result += button('Svuota il piatto','data-empty') + '</div><div class="sim-sliders">'
-        properties = [('capacity','Portata',2,1,'Il massimo carico misurabile.'),('step','Sensibilità (passo leggibile)',2,0,'La più piccola variazione di massa distinguibile sul display.'),('response','Tempo di risposta',2,1,'Un tempo più breve corrisponde a maggiore prontezza.'),('offset','Accuratezza',5,5,'Più alta: letture più vicine alla massa caricata.'),('noise','Precisione',5,5,'Più alta: letture ripetute più vicine fra loro.')]
+        result += button('Svuota il piatto','data-empty') + '</div><details class="sim-settings" open><summary>Proprietà della bilancia</summary><div class="sim-sliders">'
+        properties = [('capacity','Portata',2,2,'Il massimo carico misurabile.'),('step','Risoluzione',2,0,'La più piccola variazione di massa distinguibile sul display.'),('response','Tempo di risposta',2,1,'Un tempo più breve corrisponde a maggiore prontezza.'),('offset','Accuratezza',5,5,'Più alta: letture più vicine alla massa caricata.'),('noise','Precisione',5,5,'Più alta: letture ripetute più vicine fra loro.')]
         for key,label,maximum,initial,helptext in properties:
             minimum = 0
             result += '<label class="sim-slider"><span class="sim-slider-head"><span>' + label + '</span><output data-property-output="' + key + '"></output></span><input type="range" data-interactive disabled data-property="' + key + '" min="' + str(minimum) + '" max="' + str(maximum) + '" step="1" value="' + str(initial) + '"><small>' + helptext + '</small></label>'
-        result += '</div><p data-series-label>Configurazione 1</p>'
+        result += '</div></details>'
     else:
         result += '<p data-sample-label>' + ('Campione B: massa ignota' if study=='uncertainty' else 'Campione A: riferimento 100 g') + '</p>'
         result += '<div class="sim-buttons">' + button('Appoggia e misura','data-measure',True) + '</div>'
     result += '<p class="sim-status" role="status" data-status>Simulazione pronta dopo il caricamento.</p><div class="sim-buttons">' + button('Registra lettura','data-record',True) + button('Cancella la serie corrente','data-clear') + button('Ripristina tutto','data-reset') + '</div>'
     result += '<noscript><p>Per usare la bilancia virtuale occorre attivare JavaScript. Teoria, tabelle e domande restano leggibili.</p></noscript>'
     if lab:
-        zoom='<details class="image-zoom"><summary class="media-icon-button" aria-label="Ingrandisci l’immagine"><span class="zoom-expand">' + icon('zoom-in') + '</span><span class="zoom-collapse">' + icon('zoom-out') + '</span></summary><div class="zoom-scroll" tabindex="0" role="region" aria-label="Grafico delle letture ingrandito e scorrevole"><div class="sim-chart sim-chart-large" data-chart-copy></div></div></details>'
-        result += '<figure class="visual"><div class="image-frame sim-chart-frame"><div class="overview"><div class="sim-chart" data-chart></div></div>' + zoom + '</div><figcaption data-chart-description>Il grafico sarà popolato dalle letture registrate.</figcaption></figure>' + '<p class="sim-legend">Un punto per lettura; i punti uguali sono impilati. Linea continua: media. ' + ('Fascia ambrata: ±U. I tratti alla base indicano gli estremi osservati.' if study=='uncertainty' else 'Linea tratteggiata: riferimento. Segmento rosso: errore della media.') + '</p>'
+        result += '<figure class="visual"><div class="image-frame sim-chart-frame"><div class="overview"><div class="sim-chart" data-chart></div></div></div><figcaption data-chart-description>Il grafico sarà popolato dalle letture registrate.</figcaption></figure><p class="sim-legend">Un punto per lettura; i punti uguali sono impilati. Linea continua: media. ' + ('Fascia ambrata: ±U. I tratti alla base indicano gli estremi osservati.' if study=='uncertainty' else 'Linea tratteggiata: riferimento. Segmento rosso: errore della media.') + '</p>'
     result += '<div class="sim-scroll" tabindex="0" role="region" aria-label="Registro delle letture, tabella scorrevole"><table><caption>Letture registrate</caption><thead><tr>'
-    headings = ['Campione','Prova','Lettura'] if lab else ['Configurazione','Massa caricata','Lettura','Stato','Proprietà']
+    headings = ['Campione','Prova','Lettura'] if lab else ['Massa caricata','Lettura','Stato','Proprietà']
     result += ''.join('<th scope="col">' + h + '</th>' for h in headings) + '</tr></thead><tbody data-rows></tbody></table></div>'
-    if lab:
-        result += '<div class="sim-only-js"><p>Registra almeno cinque letture. Inserisci i tuoi calcoli; puoi usare la virgola o il punto decimale e arrotondare la risposta a due decimali.</p><div class="sim-fields">'
-        for key,label,which in [('mean','Media (g)',''),('error','Errore della media, con segno (g)','only-reference'),('dispersion','Semidispersione (g)','only-unknown'),('uncertainty','Incertezza U (g)','only-unknown')]:
-            if study=='uncertainty' and key=='error' or study=='error' and key in {'dispersion','uncertainty'}: continue
-            result += '<label ' + ('data-' + which if which else '') + '>' + label + '<input type="text" inputmode="decimal" data-answer="' + key + '" autocomplete="off"></label>'
-        result += '</div><div class="sim-buttons">' + button('Controlla i calcoli','data-check',True) + button('Mostra il confronto','data-solution') + '</div><p class="sim-feedback" role="status" data-feedback></p><p class="sim-results" data-results hidden></p>' + '<details class="sim-help"><summary>Aiuto per i calcoli</summary><p>Media: somma delle letture divisa per il loro numero. ' + ('Semidispersione: metà della differenza fra massimo e minimo. Incertezza U: la maggiore fra semidispersione e passo di 1 g.' if study=='uncertainty' else 'Errore del valore medio: media meno riferimento di 100 g.') + '</p></details></div>'
     result += '</section>'
     return result
 

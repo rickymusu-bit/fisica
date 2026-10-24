@@ -49,7 +49,7 @@ def main():
               assert page.locator('html').get_attribute('data-theme')==theme
               ids=page.locator('[id]').evaluate_all('(xs)=>xs.map(x=>x.id)');assert len(ids)==len(set(ids)),(key,'duplicate ids')
               assert page.locator('.cover .image-zoom').count()==0
-              assert page.locator('.questions>li').count()==(8 if key=='strumenti_misura' else 9)
+              assert page.locator('.questions>li').count()==(8 if key=='strumenti_misura' else 10)
               page.locator('img').evaluate_all('async(xs)=>Promise.all(xs.map(i=>{i.loading="eager";return i.decode()}))')
               assert page.locator('img').evaluate_all('(xs)=>xs.every(i=>i.naturalWidth>0)')
               assert page.locator('mfrac').count()>0 if key=='errori_incertezza_misura' else page.locator('.measure-sensor-table').count()==0
@@ -58,6 +58,10 @@ def main():
               assert page.locator('image[id="sim-balance-art"]').count()==1
               assert page.locator('image[id="sim-weight-art"]').count()==1
               if key=='errori_incertezza_misura':
+                page.wait_for_timeout(80)
+                for chart in page.locator('[data-chart]').all():
+                  sizes=chart.locator('text').evaluate_all('(xs)=>xs.map(e=>parseFloat(getComputedStyle(e).fontSize)*e.getScreenCTM().a)')
+                  assert min(sizes)>=13.9,(width,sizes)
                 graph=page.locator('[data-chart]').first.bounding_box();parent=page.locator('.sim-chart-frame>.overview').first.bounding_box()
                 assert abs(graph['width']-parent['width'])<=2,(graph,parent)
               for selector in ['button[data-interactive]','input[type=range]','select[data-interactive]']:
@@ -86,6 +90,21 @@ def main():
         page.on('pageerror',lambda e:report['errors'].append(str(e)))
         page.goto(origin+'/'+PAGES['strumenti_misura'])
         assert page.locator('.chapter-navigation a[rel=next]').get_attribute('href')==PAGES['errori_incertezza_misura']
+        assert 'configurazione' not in page.locator('.measurement-sim').inner_text().lower()
+        assert 'valori simulati' not in page.locator('.measurement-sim').inner_text().lower()
+        settings=page.locator('.sim-settings')
+        assert settings.get_attribute('open') is not None
+        assert page.locator('[data-property-output=capacity]').inner_text()=='500 g'
+        assert 'Risoluzione' in settings.inner_text() and 'Sensibilità' not in settings.inner_text()
+        before=page.locator('[data-record]').bounding_box()['y']+page.evaluate('scrollY')
+        settings.locator('summary').click()
+        assert settings.get_attribute('open') is None
+        assert page.locator('[data-property=step]').is_hidden()
+        assert page.locator('[data-record]').bounding_box()['y']+page.evaluate('scrollY') < before-100
+        settings.locator('summary').focus();page.keyboard.press('Enter')
+        assert settings.get_attribute('open') is not None
+        assert page.locator('[data-property-output=capacity]').inner_text()=='500 g'
+
         page.locator('[data-weight="100"]').click();assert page.locator('[data-record]').is_enabled()
         assert page.locator('[data-pan] .sim-pan-weight').count()==1
         page.clock.run_for(250);page.locator('[data-record]').click()
@@ -123,6 +142,10 @@ def main():
         assert page.locator('[data-pan] .sim-pan-weight').count()==5
         assert page.locator('[data-pan] .sim-mass-label').all_text_contents()==['10 g','20 g','50 g','100 g','200 g']
         assert page.locator('[data-display]').inner_text()=='380 g'
+        set_range(page,'capacity',1);assert page.locator('[data-display]').inner_text()=='OL'
+        set_range(page,'capacity',2);page.clock.run_for(1100)
+        assert page.locator('[data-display]').inner_text()=='380 g'
+
         for width in [390,1440]:
           page.set_viewport_size({'width':width,'height':1000})
           scene=page.locator('.sim-balance-scene').bounding_box()
@@ -131,23 +154,29 @@ def main():
             assert box['y']>=scene['y'] and box['y']+box['h']<=scene['y']+scene['height']+1
           bar=page.add_style_tag(content='.topbar{visibility:hidden!important}')
           page.locator('.sim-stage').screenshot(path=str(WORK/'anteprime'/f'bilancia-carica-{width}.png'))
+          settings.locator('summary').click()
+          page.locator('.measurement-sim').screenshot(path=str(WORK/'anteprime'/f'slider-collassati-{width}.png'))
+          assert page.locator('[data-display]').inner_text()=='380 g'
+          settings.locator('summary').click()
           bar.evaluate('(e)=>e.remove()')
-        report['checks'].append('Capitolo 6: lettura anticipata, stabilizzazione, sensibilità in grammi, fuori scala, zero, passo, tastiera e reset durante acquisizione.')
+        report['checks'].append('Capitolo 6: lettura anticipata, stabilizzazione, risoluzione in grammi, portata massima 500 g e pannello richiudibile, fuori scala, zero, passo, tastiera e reset durante acquisizione.')
         page.goto(origin+'/'+PAGES['errori_incertezza_misura'])
         uncertainty=page.locator('[data-study=uncertainty]');error=page.locator('[data-study=error]')
         assert page.locator('[data-sample]').count()==0
+        assert page.locator('[data-answer],[data-check],[data-solution],.sim-help,.sim-fields').count()==0
+        assert page.locator('.measurement-sim .image-zoom').count()==0
         assert uncertainty.locator('[data-answer=error]').count()==0
         assert error.locator('[data-answer=uncertainty]').count()==0
         assert error.locator('[data-answer=dispersion]').count()==0
         for sim in [uncertainty,error]:
-          sim.locator('[data-check]').click();assert 'almeno cinque' in sim.locator('[data-feedback]').inner_text()
           for i in range(5):
             sim.locator('[data-measure]').click();page.clock.run_for(1100);sim.locator('[data-record]').click()
           values=sim.locator('[data-rows] tr').evaluate_all('(rs)=>rs.map(r=>Number(r.cells[2].textContent.replace(" g","").replace(",",".")))')
           mean=sum(values)/len(values);disp=(max(values)-min(values))/2
-          answers=[('mean',mean),('error',mean-100)] if sim==error else [('mean',mean),('dispersion',disp),('uncertainty',max(1,disp))]
-          for k,v in answers:sim.locator('[data-answer='+k+']').fill(str(round(v,2)).replace('.',','))
-          sim.locator('[data-check]').click();assert 'corretti' in sim.locator('[data-feedback]').inner_text()
+          assert 'Media ' in sim.locator('[data-chart]').inner_text()
+          bounds=sim.locator('[data-chart] svg').evaluate('(e)=>[Number(e.dataset.axisMin),Number(e.dataset.axisMax)]')
+          assert bounds[1]-bounds[0]<=14
+          assert min(values)>=bounds[0] and max(values)<=bounds[1]
           assert sim.locator('[data-chart] .plot-point').count()==5
           assert sim.locator('[data-chart] .plot-reference').count()==(1 if sim==error else 0)
           assert sim.locator('[data-chart] .plot-band').count()==(0 if sim==error else 1)
@@ -157,8 +186,7 @@ def main():
           for width in [390,1440]:
             page.set_viewport_size({'width':width,'height':1000});bar=page.add_style_tag(content='.topbar{visibility:hidden!important}')
             sim.locator('[data-chart]').screenshot(path=str(ROOT/'lavorazione/errori_incertezza_misura/anteprime'/f'grafico-{sim.get_attribute("data-study")}-{width}.png'));bar.evaluate('(e)=>e.remove()')
-          sim.locator('.image-zoom>summary').click();assert sim.locator('[data-chart-copy] .plot-point').count()==5
-          assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1');sim.locator('.image-zoom>summary').click()
+          assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
         uncertainty.locator('[data-clear]').click()
         assert uncertainty.locator('[data-chart] .plot-point').count()==0
         assert error.locator('[data-chart] .plot-point').count()==5
@@ -174,7 +202,7 @@ def main():
           uncertainty.locator('[data-measure]').click();page.clock.run_for(1100);uncertainty.locator('[data-record]').click()
         assert uncertainty.locator('[data-record]').is_disabled() and uncertainty.locator('[data-measure]').is_disabled()
         assert error.locator('[data-measure]').is_enabled()
-        report['checks'].append('Capitolo 7: due attività indipendenti; cinque letture e calcoli per ciascuna, grafici separati, riferimenti/fasce esclusivi, reset e cancellazione isolati, limite dieci e U=1 g per letture identiche.')
+        report['checks'].append('Capitolo 7: due attività indipendenti; cinque letture e riepiloghi automatici per ciascuna, scala stretta e testo leggibile senza zoom, riferimenti/fasce esclusivi, reset e cancellazione isolati, limite dieci e U=1 g per letture identiche.')
         # Download esatto, nessuna dipendenza di rete e fallback senza JavaScript.
         for key,name in PAGES.items():
           page.goto(origin+'/'+name)

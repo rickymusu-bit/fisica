@@ -122,8 +122,8 @@
     }
   ],
   "checks": [
-    "Capitolo 6: lettura anticipata, stabilizzazione, sensibilità in grammi, fuori scala, zero, passo, tastiera e reset durante acquisizione.",
-    "Capitolo 7: due attività indipendenti; cinque letture e calcoli per ciascuna, grafici separati, riferimenti/fasce esclusivi, reset e cancellazione isolati, limite dieci e U=1 g per letture identiche.",
+    "Capitolo 6: lettura anticipata, stabilizzazione, risoluzione in grammi, portata massima 500 g e pannello richiudibile, fuori scala, zero, passo, tastiera e reset durante acquisizione.",
+    "Capitolo 7: due attività indipendenti; cinque letture e riepiloghi automatici per ciascuna, scala stretta e testo leggibile senza zoom, riferimenti/fasce esclusivi, reset e cancellazione isolati, limite dieci e U=1 g per letture identiche.",
     "Download identico, copertine/MathML/simulazioni offline, teoria e crediti senza JavaScript, default scuro."
   ],
   "errors": [],
@@ -131,7 +131,7 @@
   "limits": [],
   "offline_method": "HTML caricato in memoria con rete disabilitata; immagini incorporate decodificate, MathML e simulazione disponibili. Navigazione file:// bloccata dalla policy del Chromium dell’ambiente e non dichiarata eseguita.",
   "html_sha256": {
-    "strumenti_misura_it.html": "37484cb1f1bd19665f29bfc16da08589351f0663ffc9b46d88f2ff6b08e6f41c",
-    "errori_incertezza_misura_it.html": "55138de7a40ffcfd294104f22577f4e980d7423f6db73da610b31a61e1f73d2e"
+    "strumenti_misura_it.html": "b002fe55771efd79ac32f1f7ce264d59e5888fb723cfcd0b8fbb73217ee9fa2d",
+    "errori_incertezza_misura_it.html": "61173c65e21114425fa0688dfcae10b1e878e32d042e79d76b0be02433e140b6"
   }
 }
