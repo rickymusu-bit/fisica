@@ -117,6 +117,55 @@ def verify_media_controls(page, base, publication):
         fallback.close()
 
 
+
+def verify_quiz(page, base):
+    """Esercita selettori, tri-stato, tre livelli e correzione finale."""
+    page.goto(base + 'quiz.html')
+    chapters = page.locator('[data-quiz-chapter]')
+    groups = page.locator('[data-quiz-group]')
+    assert chapters.count() == 15 and groups.count() == 2
+    assert page.locator('#quiz-start').is_disabled()
+    chapters.first.check()
+    assert groups.first.evaluate('(e)=>e.indeterminate')
+    groups.first.check()
+    assert groups.first.is_checked()
+    assert page.locator('[data-quiz-chapter]:checked').count() == 5
+    groups.first.uncheck()
+    assert page.locator('[data-quiz-chapter]:checked').count() == 0
+    groups.last.check()
+    assert page.locator('[data-quiz-chapter]:checked').count() == 10
+    for width in (390, 1440):
+        page.set_viewport_size({'width': width, 'height': 900})
+        for theme in ('dark', 'light'):
+            set_theme(page, theme)
+            assert page.evaluate('document.documentElement.scrollWidth <= innerWidth')
+            page.screenshot(path=str(SHOTS / f'quiz-config-{width}-{theme}.png'), full_page=True)
+    for level, alternatives in (('easy', 3), ('medium', 4), ('hard', 5)):
+        page.goto(base + 'quiz.html')
+        page.locator('[data-quiz-chapter]').first.check()
+        page.locator('[data-quiz-chapter]').nth(5).check()  # Due categorie differenti.
+        page.locator(f'input[name="quiz-level"][value="{level}"]').check()
+        page.locator('#quiz-start').click()
+        assert page.locator('#quiz-active').is_visible()
+        assert page.locator('.quiz-answer').count() == alternatives
+        assert page.locator('#quiz-counter').inner_text() == 'Domanda 1 di 25'
+        assert page.locator('#quiz-clock').inner_text().count(':') == 1
+        if level == 'easy':
+            page.screenshot(path=str(SHOTS / 'quiz-domanda-390.png'), full_page=True)
+        page.locator('.quiz-answer input').first.check()
+        page.locator('#quiz-next').click()
+        assert page.locator('#quiz-counter').inner_text() == 'Domanda 2 di 25'
+        page.locator('#quiz-skip').click()
+        assert page.locator('#quiz-counter').inner_text() == 'Domanda 3 di 25'
+        page.once('dialog', lambda dialog: dialog.accept())
+        page.locator('#quiz-stop').click()
+        assert page.locator('#quiz-results').is_visible()
+        assert page.locator('.quiz-review-item').count() == 25
+        assert page.locator('#quiz-grade').inner_text().endswith('/ 10')
+        if level == 'easy':
+            page.screenshot(path=str(SHOTS / 'quiz-risultato-390.png'), full_page=True)
+
+
 def main():
     SHOTS.mkdir(parents=True, exist_ok=True)
     # Il modello è verificato ma non diventa un articolo pubblicato.
@@ -312,6 +361,7 @@ def main():
                     theme_summary.tap()
                     theme_summary.focus()
                     assert not tip.is_visible(), (service_page,width,'focus')
+            verify_quiz(page, base)
             # Anche il menu del capitolo non mostra tooltip al tocco.
             page.goto(base + publication['articoli'][0])
             page.locator('[data-theme-menu]>summary').tap()
