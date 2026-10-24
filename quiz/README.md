@@ -24,6 +24,10 @@
 - Le opzioni sono mescolate, così come i quesiti estratti. La risposta non è svelata prima della schermata finale.
 - Nessun backend necessario. Non si considera prioritario impedire l'accesso al dataset lato client.
 
+## Generazione delle domande
+
+Il [prompt di generazione](PROMPT_GENERAZIONE_DOMANDE.md), versione v1.0.0, definisce quesiti di conoscenza, ragionamento e calcolo, tre difficoltà e fattibilità entro 120 secondi. Distingue quesiti specifici e trasversali e richiede l’elenco completo dei prerequisiti. Lo schema attuale con un solo campo `chapter` richiederà un adeguamento prima di importare quesiti trasversali e selezionarli in base a tutti i capitoli necessari.
+
 ## Archivio di domande
 
 Quando sarà disponibile, la sorgente sarà **quiz/domande.json**, separata dall'interfaccia. Finché il file manca, la build genera una lista di domande vuota: tutte le caselle dei capitoli e categorie sono disabilitate e il quiz non è avviabile. L'archivio dimostrativo è stato cancellato dal repository. Ogni futuro record conterrà:
