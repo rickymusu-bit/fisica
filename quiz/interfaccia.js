@@ -3,7 +3,7 @@
   const dataElement = document.getElementById("quiz-data");
   if (!dataElement) return;
   const dataset = JSON.parse(dataElement.textContent);
-  const MAX_QUESTIONS = 25;
+  const MAX_QUESTIONS = 30;
   const SECONDS_PER_QUESTION = 120;
   const chapters = new Map(dataset.chapters.map(c => [c.file, c]));
   const groupBoxes = [...document.querySelectorAll("[data-quiz-group]")];
@@ -58,7 +58,7 @@
     const count = getQuestionCount();
     startButton.disabled = selectedChapters().size === 0 || count === null;
     durationOutput.textContent = count === null
-      ? "Inserisci un numero da 1 a 25."
+      ? "Inserisci un numero da 1 a 30."
       : formatDuration(count * SECONDS_PER_QUESTION);
     if (!startButton.disabled) configError.hidden = true;
   }
@@ -151,7 +151,7 @@
     const selected = selectedChapters();
     const count = getQuestionCount();
     if (count === null) {
-      configError.textContent = "Scegli un numero di domande tra 1 e 25.";
+      configError.textContent = "Scegli un numero di domande tra 1 e 30.";
       configError.hidden = false;
       return;
     }
