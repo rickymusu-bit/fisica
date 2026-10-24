@@ -1,0 +1,37 @@
+name: Anteprima Quiz Stringhe
+
+on:
+  push:
+    branches:
+      - feature/quiz-verifiche-20261024
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: quiz-stringhe-preview
+  cancel-in-progress: true
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Genera quiz e pagine di anteprima
+        run: python3 scripts/build_pages.py
+      - name: Carica il risultato esclusivamente sul ramo di anteprima
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd _site
+          git init -b quiz-verifiche-preview
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Anteprima Quiz generata da ${GITHUB_SHA}"
+          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push --force origin HEAD:refs/heads/quiz-verifiche-preview

@@ -15,7 +15,7 @@ Riferimento approvato dall'utente per tutte le dispense esistenti e future. Deri
 - Usare pochi titoli interni significativi; lasciare che siano i collegamenti tra i paragrafi a guidare la lettura.
 - Affrontare intuizioni sbagliate e obiezioni nel punto in cui possono sorgere. Usare le note collassabili, inizialmente chiuse, soprattutto per alleggerire la spiegazione: mantenere soltanto precisazioni brevi e utili al biennio, senza duplicare testo o didascalie. Eliminare le puntualizzazioni superflue e gli approfondimenti troppo tecnici, invece di trasferirli automaticamente in nota, secondo A1 e A6 del master.
 - Non aggiungere automaticamente un riepilogo separato.
-- Non dichiarare nel testo visibile, nelle etichette o nelle didascalie ciò che è già evidente dall’immagine o dal contesto. Aggiungere soltanto informazioni necessarie; omettere le didascalie che non aggiungono nulla, secondo C3 del master.
+- Usare didascalie soltanto per informazioni interpretative non già evidenti dall'immagine e dal contesto; non descrivere banalmente ciò che il lettore vede.
 
 Riprendere queste caratteristiche generali con formulazioni originali. Non trasferire automaticamente dal campione giornalistico espressioni sprezzanti, ironia, citazioni, riferimenti ad autorità o cautele storiche. La leggibilità sul telefono e la correttezza scientifica restano prioritarie.
 
@@ -39,3 +39,16 @@ Non applicare la sequenza come una batteria di sottotitoli identici né imporre 
 Verificare il filo tra i paragrafi, la domanda concreta, i termini introdotti quando servono, le formule pertinenti spiegate e interpretate, le precisazioni proporzionate e le didascalie collegate al testo. Confrontare apertura e spiegazione matematica con il campione, senza copiarne frasi o fenomeni in argomenti diversi.
 
 L'adozione dello stile riguarda nuove stesure e revisioni; non implica che tutti gli HTML esistenti siano già riscritti.
+
+
+## Principio di economia informativa — 24 ottobre 2026
+
+Ogni elemento testuale o visivo deve aggiungere informazione effettivamente utile. Assumere che il lettore sappia interpretare il contesto, osservare le immagini e ricavare inferenze elementari; non verbalizzare ciò che è già chiaramente visibile o appena spiegato. Non confondere completezza, rigore o accessibilità con ripetizione e puntualizzazione sistematica.
+
+- **Testo:** eliminare frasi introduttive vuote, precisazioni ovvie, ripetizioni e digressioni che non cambiano la comprensione. Approfondire invece passaggi nuovi, difficili o controintuitivi.
+- **Immagini, schemi e grafici:** usare solo etichette, frecce, legende, titoli interni e annotazioni necessari a riconoscere grandezze, leggere dati o evitare ambiguità. Non replicare nel visuale le spiegazioni del paragrafo.
+- **Didascalie:** non descrivere banalmente ciò che è già riconoscibile. Aggiungere solo identificazioni non ovvie, relazioni significative, dati, condizioni o contesto interpretativo non ricavabili altrimenti. Omettere la didascalia descrittiva quando non serve; mantenere attribuzioni, informazioni obbligatorie e supporti di accessibilità nelle sedi appropriate.
+- **Rigore e inclusione:** conservare unità, scale, simboli, ipotesi, condizioni di validità e avvertenze quando la loro omissione potrebbe produrre un errore o fraintendimento rilevante. Testi alternativi accessibili non vanno svuotati solo perché l'immagine è comprensibile a chi la vede.
+- **Revisione:** per ogni frase, didascalia, etichetta e annotazione chiedersi: «Se la elimino, il lettore perde un'informazione importante o rischia un fraintendimento?». Se no, eliminarla.
+
+Questo criterio vale anche per bozze, anteprime, materiali scaricabili e future revisioni, senza autorizzare modifiche ai capitoli già pubblicati o deroghe al workflow di approvazione.
