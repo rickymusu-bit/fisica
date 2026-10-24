@@ -29,7 +29,7 @@ class CoverMediaTests(unittest.TestCase):
 class QuadraticGraphRegressionTests(unittest.TestCase):
     def test_chapter_nine_quadratic_points_exist(self):
         source = (ROOT / 'relazioni_proporzionalita_it.html').read_text(encoding='utf-8')
-        chart = re.search(r'<svg\\b[^>]*data-plot="quadratic"[^>]*>[\\s\\S]*?</svg>', source)
+        chart = re.search(r'<svg\b[^>]*data-plot="quadratic"[^>]*>[\s\S]*?</svg>', source)
         self.assertIsNotNone(chart)
         coords = re.findall(r'data-point-x="([^"]+)" cx="([^"]+)" cy="([^"]+)"', chart.group(0))
         self.assertEqual([float(x) for x, _, _ in coords], [0, 1, 2, 3, 4])
@@ -42,7 +42,7 @@ class QuadraticGraphRegressionTests(unittest.TestCase):
 
     def test_canonical_zoom_and_table_alignment(self):
         css = (ROOT / 'identita/media-controls.css').read_text(encoding='utf-8')
-        self.assertRegex(css, r'\\.image-zoom>summary\\.media-icon-button\\{position:static')
+        self.assertRegex(css, r'\.image-zoom>summary\.media-icon-button\{position:static')
         theme = (ROOT / 'riferimenti/TEMA_DISPENSE.html').read_text(encoding='utf-8')
         self.assertIn('.article table th,.article table td{text-align:center}', theme)
 
