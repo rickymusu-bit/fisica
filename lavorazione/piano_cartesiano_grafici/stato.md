@@ -1,6 +1,6 @@
 # Stato — Il piano cartesiano
 
-**Stato corrente — revisione richiesta il 24 ottobre 2026:** HTML v2 verificato; bozza testuale v3. Le nuove istruzioni dell’utente superano le precedenti scelte di riuso delle fotografie, prezzo a 2 € e zoom interattivo. Pubblicazione subordinata all’approvazione della nuova anteprima.
+**Stato corrente — revisione richiesta il 24 ottobre 2026:** HTML v3 verificato; bozza testuale v4. Le nuove istruzioni dell’utente superano le precedenti scelte di riuso delle fotografie, prezzo a 2 € e zoom interattivo. Pubblicazione subordinata all’approvazione della nuova anteprima.
 
 ## Riferimenti e autorizzazioni
 
@@ -106,3 +106,14 @@ Revisione verificata: superati 12 layout (320/390/1440 px, chiaro/scuro), 54 con
 
 
 Nuova anteprima HTML v2 salvata al commit `9dc4df85575ad3ce0b2c5af64ad7dcfc44180f8b` e verificata online: [apri il capitolo](https://raw.githack.com/rickymusu-bit/fisica/9dc4df85575ad3ce0b2c5af64ad7dcfc44180f8b/piano_cartesiano_grafici_it.html), HTTPS 200, text/html e byte identici al file locale corrente. Questa anteprima sostituisce i precedenti collegamenti alla v1. Nessun merge o deployment ufficiale.
+
+
+## Correzioni locali del capitolo 8 — 25 ottobre 2026 (Europe/Rome)
+
+Richiesta: sostituire il rubinetto disegnato con la clip art specifica https://openclipart.org/detail/202080/robinet, orientare gli assi dei grafici con frecce e separare le punte del diagramma delle variabili. Integrato l’SVG originale «Robinet» di spadassin, CC0 1.0 verificata nella scheda Openclipart. Originale, pagina sorgente e metadati conservati in risorse/; nuova scheda centrale clipart-robinet-spadassin. La clip art è incorporata senza ritaglio o modifiche, ridimensionata proporzionalmente e presente nella sola situazione del rubinetto aperto; lo stato chiuso è esplicitato senza una goccia che suggerisca ingresso d’acqua.
+
+Frecce verso destra e verso l’alto nel grafico tempo–volume, nel piano interattivo e in entrambi i confronti delle scale, comprese le copie ingrandite. Coordinate, dati e comandi invariati. Le tre punte del diagramma tempi–volume terminano a quote 95/125/155 dello schema, distinte di 30 unità, rivolte allo stesso valore 9 L.
+
+HTML del capitolo 8 aggiornato a v3, bozza testuale v4. Il generatore ora supporta --chapter-8 per aggiornare solo il capitolo richiesto; versione e data del capitolo 9 restano indipendenti. Confermata identità byte per byte del capitolo 9 rispetto a HEAD. Nessun aggiornamento al tema comune, ai capitoli pubblicati o al manifest.
+
+Verifiche superate: sei layout Chromium del solo capitolo 8 (320/390/1440 px, chiaro/scuro), frecce su tutti gli assi, punte distinte, clip art incorporata, leggibilità, trascinamento/tastiera di P, zoom statico e fallback senza JavaScript. Nessun errore, overflow o richiesta esterna. Ispezionate direttamente le nuove schermate del rubinetto, della corrispondenza e degli assi. credits.py --check, build_pages.py e git diff --check superati. Rapporti e schermate aggiornati; le verifiche del capitolo 9 sono conservate. PR in bozza, nessun merge o deployment ufficiale.

@@ -1,6 +1,6 @@
 # Il piano cartesiano
 
-Versione della bozza: v3 — 24 ottobre 2026.
+Versione della bozza: v4 — 24 ottobre 2026.
 Area: Introduzione alla fisica e alla misura.
 
 [C8-COP — Grafico storico di William Playfair, immagine intera con didascalia identificativa; nessuno zoom.]
@@ -11,13 +11,13 @@ Apriamo un rubinetto sopra un serbatoio inizialmente vuoto. L’acqua entra e il
 
 Immaginiamo che entrino 3 litri ogni minuto fino alla chiusura. Dopo due minuti nel serbatoio ci sono 6 litri. Questi dati sono un esempio costruito, non il resoconto di una misura: ci serviranno per capire come si passa da una situazione a un grafico.
 
-[C8-SIT — Schema originale del serbatoio, rubinetto e livello dopo due minuti: t = 2 min, V = 6 L. Secondo stato dopo la chiusura: da t = 3 min il volume resta 9 L. Didascalia sulle condizioni del riempimento.]
+[C8-SIT — Schema del serbatoio con clip art Robinet di spadassin (Openclipart, CC0), livello dopo due minuti: t = 2 min, V = 6 L. Secondo stato dopo la chiusura: da t = 3 min il volume resta 9 L. Didascalia sulle condizioni del riempimento.]
 
 Il **piano cartesiano** è formato da due rette perpendicolari, gli **assi cartesiani**. L’asse orizzontale x è l’**asse delle ascisse**; quello verticale y è l’**asse delle ordinate**. Si incontrano nell’**origine O**, il punto al quale entrambe le coordinate valgono zero. Il verso positivo è a destra sull’asse x e verso l’alto sull’asse y.
 
 Mettiamo il tempo in minuti sull’asse orizzontale e il volume in litri su quello verticale. La coppia **P = (2; 6)** significa allora «dopo 2 minuti ci sono 6 litri». La prima coordinata, l’**ascissa**, indica quanto spostarsi lungo l’asse orizzontale; la seconda, l’**ordinata**, indica a quale altezza arrivare. Partiamo dall’origine, raggiungiamo 2 sull’asse x e saliamo fino a 6 sull’asse y.
 
-[C8-P — Grafico dei sei dati del serbatoio con P = (2; 6) e proiezioni tratteggiate. Assi tempo t (min) e volume V (L), senza retta o legge di proporzionalità. Didascalia di lettura del punto.]
+[C8-P — Grafico dei sei dati del serbatoio con P = (2; 6) e proiezioni tratteggiate. Assi orientati con frecce verso destra e verso l’alto: tempo t (min) e volume V (L), senza retta o legge di proporzionalità. Didascalia di lettura del punto.]
 
 L’ordine delle coordinate conta: **(2; 6) e (6; 2) sono punti diversi**. Con questi assi il secondo significherebbe 2 litri dopo 6 minuti, una situazione diversa da quella descritta. I numeri da soli non bastano: i nomi delle grandezze, le unità e le scale danno significato alla posizione.
 
@@ -29,7 +29,7 @@ In un esperimento l’indipendente è spesso la grandezza che facciamo variare e
 
 Per descrivere il volume **in funzione del tempo**, a ogni valore del tempo deve corrispondere **un solo valore del volume**, nelle condizioni considerate. Il contrario non è garantito: dopo la chiusura, 9 litri corrispondono sia a 3 minuti sia a 4 o a 5 minuti. Conoscere soltanto il volume non permette quindi di ricostruire un unico istante.
 
-[C8-DIP — Diagramma originale della corrispondenza: 3 min → 9 L, 4 min → 9 L, 5 min → 9 L. Una sola freccia in uscita da ciascun tempo; convergenza sullo stesso volume. Didascalia sul perché il legame inverso non individua un solo tempo.]
+[C8-DIP — Diagramma originale della corrispondenza: 3 min → 9 L, 4 min → 9 L, 5 min → 9 L. Una sola freccia in uscita da ciascun tempo; punte delle tre frecce separate verticalmente davanti allo stesso volume. Didascalia sul perché il legame inverso non individua un solo tempo.]
 
 Non basta perciò scambiare le etichette per scambiare i ruoli delle variabili: bisogna controllare il significato della nuova domanda e l’unicità della risposta. Si possono comunque rappresentare due grandezze sugli assi per confrontarle; la sola disposizione del grafico non dimostra una relazione di causa ed effetto.
 
@@ -39,7 +39,7 @@ Il grafico del serbatoio usa soltanto tempi e volumi non negativi. Il piano cart
 
 Nel primo quadrante entrambe le coordinate sono positive. Nel secondo l’ascissa è negativa e l’ordinata positiva; nel terzo sono entrambe negative; nel quarto l’ascissa è positiva e l’ordinata negativa. Non è necessario memorizzare una coppia di segni isolata: parti dalla posizione del punto rispetto ai due assi e ricava il segno di ciascuna coordinata.
 
-[C8-INT — Piano interattivo originale da −5 a 5, P trascinabile, tastiera e proiezioni; nessuno zoom. Numerazione essenziale e leggibile su smartphone. Didascalia con la funzione delle proiezioni.]
+[C8-INT — Piano interattivo originale da −5 a 5, P trascinabile, tastiera, proiezioni e frecce sui versi positivi degli assi; nessuno zoom. Numerazione essenziale e leggibile su smartphone. Didascalia con la funzione delle proiezioni.]
 
 Sposta P in alto a sinistra, poi in basso a sinistra: cambia il segno dell’ordinata, mentre l’ascissa resta negativa. Portalo poi sull’asse verticale. In qualsiasi punto di quell’asse l’ascissa è zero, perché non ti sei spostato né a destra né a sinistra dell’origine. Sull’asse orizzontale, invece, è l’ordinata a essere zero.
 
@@ -91,3 +91,5 @@ Se allarghiamo l’intervallo verticale da 0–12 L a 0–24 L, i punti occupano
 - Copertina Playfair conservata; schemi originali autorizzati dalla richiesta corrente. Punto P e grafici ridisegnati con etichette leggibili; nessuno zoom interattivo.
 - Distinti ruolo sperimentale, dipendenza funzionale, unicità della risposta e convenzione degli assi; non si impone un nesso causale alla sola correlazione.
 - Quesiti 1 e 3/5/6/8 adattati al nuovo contesto; funzione del quesito originale 2 conservata. Bozza di revisione realizzata nella stessa PR, da verificare in anteprima prima della pubblicazione.
+
+- Correzione locale successiva: clip art del rubinetto indicata dall’utente, originale SVG conservato e incorporato; frecce dei versi positivi su tutti i grafici del capitolo 8, punte distinte nella corrispondenza tempi–volume.

@@ -24,6 +24,8 @@ def render(folder,title,name,cover):
  source=(ROOT/'lavorazione'/folder/'bozza.md').read_text().split('\n---\n')[0]
  notes=''
  if '\n## Note\n' in source:source,notes=source.split('\n## Note\n')
+ version='v3' if folder==CHAPTERS[0][0] else 'v2'
+ date='2026-10-25T00:21:14+02:00' if version=='v3' else '2026-10-25T00:00:13+02:00'
  body=[];headings=[]
  for block in source.strip().split('\n\n'):
   if block.startswith(('# ','Versione della bozza:')):continue
@@ -47,7 +49,7 @@ def render(folder,title,name,cover):
  for node in doc.root.descendants():
   if node.tag=='title':edits.append((node.start,node.end,'<title>'+title+' — Stringhe</title>'))
   elif node.tag=='meta' and node.attrs.get('name') in ['version','date','description']:
-   k=node.attrs['name'];v={'version':'v2','date':'2026-10-25T00:00:13+02:00','description':title+': esempi, grafici e domande di verifica.'}[k];edits.append((node.start,node.end,f'<meta name="{k}" content="{v}">'))
+   k=node.attrs['name'];v={'version':version,'date':date,'description':title+': esempi, grafici e domande di verifica.'}[k];edits.append((node.start,node.end,f'<meta name="{k}" content="{v}">'))
   elif node.tag=='figure' and node.has_class('cover'):
    alt='Grafico storico di William Playfair, con serie di dati nel tempo.' if folder==CHAPTERS[0][0] else 'Struttura geometrica iperbolica a celle dodecaedriche.'
    edits.append((node.start,node.end,photo(cover,alt,True)))
@@ -60,7 +62,7 @@ def render(folder,title,name,cover):
    nav='<nav class="sidebar-nav" aria-label="Sezioni del capitolo"><ol>'+''.join(f'<li class="level-2"><a href="#{sid}"><span>{escape(h)}</span></a></li>' for sid,h in headings)+'</ol></nav>'
    markup=re.sub(r'<nav class="sidebar-nav"[\s\S]*?</nav>',lambda _:nav,markup)
    edits.append((node.start,node.end,navigation_header('chapter',name,markup)))
-  elif node.tag=='footer' and node.has_class('footer'):edits.append((node.start,node.end,'<footer class="footer">Versione v2 — 25 ottobre 2026</footer>'))
+  elif node.tag=='footer' and node.has_class('footer'):edits.append((node.start,node.end,'<footer class="footer">Versione '+version+' — 25 ottobre 2026</footer>'))
  for start,end,value in sorted(edits,reverse=True):template=template[:start]+value+template[end:]
  template=template.replace('Nome dell’area tematica',AREA).replace('Titolo del capitolo',title).replace('</head>',STYLE+'</head>',1)
  # I collegamenti tra i due capitoli sono pronti soltanto nei nuovi documenti.
@@ -75,16 +77,19 @@ def render(folder,title,name,cover):
 
 def main():
  registry=credits.load_registry()
+ selected=[CHAPTERS[0]] if '--chapter-8' in sys.argv else CHAPTERS
+ if not any(r['id']=='clipart-robinet-spadassin' for r in registry['resources']):
+  registry['resources'].append({'id':'clipart-robinet-spadassin','description':'Robinet, clip art del rubinetto','author':'spadassin','source':'https://openclipart.org/detail/202080/robinet','license':'CC0 1.0','license_url':'https://creativecommons.org/publicdomain/zero/1.0/','changes':'SVG originale incorporato, ridimensionato proporzionalmente nello schema; nessun ritaglio o modifica della clip art.','status':'documented','links':[],'notices':['Robinet — spadassin. <a href="https://openclipart.org/detail/202080/robinet">Fonte originale</a>. <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>. SVG originale ridimensionato proporzionalmente nello schema, senza ritagli o modifiche.'],'metadata_sources':['lavorazione/piano_cartesiano_grafici/risorse/robinet-source.json'],'fingerprints':[]})
  for identity,description,notice in [
   (CREDIT8,'Serbatoio, corrispondenze e grafici del piano cartesiano','Schemi e grafici originali realizzati su richiesta per il capitolo 8. Riempimento ideale: 3 L/min fino a 3 min, poi ingresso nullo. Dati costruiti, non misure. Nessuna fotografia dei libri incorporata.'),
   (CREDIT9,'Schemi di libri e treno e grafici con parametro k','Schemi originali realizzati su richiesta per il capitolo 9 al posto delle fotografie. Prezzo iniziale 15 €/libro; viaggio iniziale 120 km; area del quadrato con k = 1. Confronto matematico y = k·x² separato dal modello del quadrato. Dati costruiti dalle formule, non misure o tariffe reali.')]:
   resource=next((r for r in registry['resources'] if r['id']==identity),None)
   if not resource:registry['resources'].append({'id':identity,'description':description,'author':'Stringhe','source':None,'license':None,'license_url':None,'changes':None,'status':'documented','links':[],'notices':[notice],'metadata_sources':[],'fingerprints':[]})
- for folder,title,name,cover in CHAPTERS:
+ for folder,title,name,cover in selected:
   (ROOT/name).write_text(render(folder,title,name,cover))
   registry['documents'][name]={'title':title,'anchor':name[:-5].replace('_','-'),'credits':[],'lexend':True,'chapter_labels':True,'review':None}
  credits.sync_inventory(registry)
- for folder,title,name,cover in CHAPTERS:
+ for folder,title,name,cover in selected:
   p=ROOT/name;p.write_text(credits.update_component(p.read_text(),registry,name))
   # Solo correzione dei percorsi, nessuna risorsa esterna aggiunta all'HTML autonomo.
   work=p.read_text()
@@ -92,5 +97,5 @@ def main():
   (ROOT/'lavorazione'/folder/'bozza.html').write_text(work)
  credits.REGISTRY.write_text(json.dumps(registry,ensure_ascii=False,indent=2)+'\n')
  assert (ROOT/'crediti.html').read_text()==credits.render_page(registry),'La pagina pubblica dei crediti deve restare invariata'
- print(json.dumps({name:(ROOT/name).stat().st_size for _,_,name,_ in CHAPTERS},indent=2))
+ print(json.dumps({name:(ROOT/name).stat().st_size for _,_,name,_ in selected},indent=2))
 if __name__=='__main__':main()

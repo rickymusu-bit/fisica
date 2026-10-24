@@ -2,10 +2,11 @@
 from pathlib import Path
 from functools import partial
 from http.server import ThreadingHTTPServer,SimpleHTTPRequestHandler
-import threading,json
+import threading,json,sys
 from playwright.sync_api import sync_playwright,expect
 ROOT=Path(__file__).resolve().parents[2]
 PAGES=[('piano_cartesiano_grafici','piano_cartesiano_grafici_it.html',8),('proporzionalita_diretta','relazioni_proporzionalita_it.html',9)]
+if '--chapter-8' in sys.argv:PAGES=PAGES[:1]
 class Quiet(SimpleHTTPRequestHandler):
  def log_message(self,*args):pass
 server=ThreadingHTTPServer(('127.0.0.1',0),partial(Quiet,directory=str(ROOT)))
@@ -50,6 +51,10 @@ with sync_playwright() as p:
     if count==8:
      assert 'libri' not in page.locator('.article').inner_text().lower()
      assert page.locator('.image-zoom').count()==1
+     for plot in page.locator('.graph svg[data-plot], #plane').all():
+      assert plot.locator('[data-axis-tip="x"]').count()==1 and plot.locator('[data-axis-tip="y"]').count()==1
+     ends=page.locator('[marker-end="url(#arrow-dependence)"]').evaluate_all('(xs)=>xs.map(p=>{const q=p.getPointAtLength(p.getTotalLength());return [q.x,q.y]})');assert len(ends)==3 and len({y for x,y in ends})==3
+     assert page.locator('image[data-credit-id="clipart-robinet-spadassin"]').count()==1
      point=page.locator('#point');point.focus();page.keyboard.press('ArrowLeft');expect(page.locator('#coordinate-readout')).to_have_text('P = (1,5; 2); I quadrante')
      for _ in range(3):page.keyboard.press('ArrowLeft')
      expect(page.locator('#coordinate-readout')).to_have_text('P = (0; 2); asse y')
@@ -101,7 +106,7 @@ with sync_playwright() as p:
    page.locator('.image-zoom summary').click();assert page.locator('.zoom-scroll>svg').is_visible()
   ctx.close()
  browser.close()
-report['checks']=['Figure con didascalie, schemi distinti, fotografie rimosse dai contenuti e dai crediti correnti','Tutti i grafici interattivi senza zoom; etichette >=14 CSS px a 320 px','Un solo zoom sul confronto statico delle scale, fuori dai dati','P: tastiera, assi, quadranti, limiti e trascinamento','k: 54 confronti numerici, scale fisse, tabelle e punti coerenti, riferimento iniziale e tastiera slider','Indice, note, crediti OFL, fallback senza JavaScript e nessuna risorsa esterna']
+report['checks']=['Figure con didascalie, schemi distinti, fotografie rimosse dai contenuti e dai crediti correnti','Tutti i grafici interattivi senza zoom; etichette >=14 CSS px a 320 px','Un solo zoom sul confronto statico delle scale, fuori dai dati; assi orientati e punte separate; SVG Robinet incorporato','P: tastiera, assi, quadranti, limiti e trascinamento',f'k: {len(report["parameter_cases"])} confronti numerici nella selezione corrente; verifiche del capitolo 9 conservate se escluso','Indice, note, crediti OFL, fallback senza JavaScript e nessuna risorsa esterna']
 assert not report['errors'],report['errors'];assert not report['external_requests'],report['external_requests']
 for key,_,_ in PAGES:(ROOT/'lavorazione'/key/'verifiche-browser.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps({'layouts':len(report['layouts']),'parameter_cases':len(report['parameter_cases']),'errors':report['errors'],'checks':report['checks']},ensure_ascii=False,indent=2))

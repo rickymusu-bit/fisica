@@ -10,7 +10,8 @@ STYLE='''<style data-component="grafici-proporzioni">
 </style>'''
 
 def uri(path):
- return 'data:image/'+('jpeg' if path.suffix=='.jpg' else 'png')+';base64,'+base64.b64encode(path.read_bytes()).decode()
+ mime={'.jpg':'image/jpeg','.png':'image/png','.svg':'image/svg+xml'}[path.suffix]
+ return 'data:'+mime+';base64,'+base64.b64encode(path.read_bytes()).decode()
 
 def photo(name,alt,cover=False):
  folder='piano_cartesiano_grafici' if name.startswith('Playfair') else 'proporzionalita_diretta'
@@ -39,6 +40,8 @@ def plot_svg(points,xmax,ymax,identity,xticks,yticks,curve=None,highlight=None,r
  for x in xticks:s+=f'<path class="grid" d="M{X(x)} 30V245"/>'+text(X(x),280,fmt(x))
  for y in yticks:s+=f'<path class="grid" d="M50 {Y(y)}H375"/>'+text(41,Y(y)+8,fmt(y),'end')
  s+='<path class="axis" d="M50 25V245H380"/>'
+ if identity=='tank' or identity.startswith('scale-'):
+  s+='<path data-axis-tip="x" d="M380 239L392 245L380 251Z" fill="#182c3b"/><path data-axis-tip="y" d="M44 27L50 15L56 27Z" fill="#182c3b"/>'
  def path(fn):
   xs=[xmax*i/400 for i in range(401) if i or identity!='inverse']
   return ' '.join(f'{X(x):.3f},{Y(fn(x)):.3f}' for x in xs)
@@ -66,9 +69,9 @@ def plane():
  X=lambda x:160+24*x;Y=lambda y:160-24*y
  s=svg_open(320,320,'Piano cartesiano da meno cinque a cinque, con punto P inizialmente in due, due.','id="plane"')
  for i in range(-5,6):s+=f'<path class="grid" d="M{X(i)} 40V280M40 {Y(i)}H280"/>'
- s+='<path class="axis" d="M35 160H290M160 285V30"/>'
+ s+='<path class="axis" d="M35 160H285M160 285V40"/><path data-axis-tip="x" d="M282 154L294 160L282 166Z" fill="#182c3b"/><path data-axis-tip="y" d="M154 42L160 30L166 42Z" fill="#182c3b"/>'
  for i in [-4,-2,2,4]:s+=text(X(i),181,i,size=20)+text(151,Y(i)+7,i,'end',20)
- s+=text(303,168,'x',size=22)+text(174,28,'y',size=22)+text(147,181,'O',size=20)
+ s+=text(308,168,'x',size=22)+text(174,28,'y',size=22)+text(147,181,'O',size=20)
  for x,y,n in [(235,65,'I'),(65,65,'II'),(65,275,'III'),(235,275,'IV')]:s+=text(x,y,n)
  s+='<path id="x-guide" class="guide" d="M208 112V160"/><path id="y-guide" class="guide" d="M160 112H208"/><circle id="point" class="move-point" cx="208" cy="112" r="9" tabindex="0" role="button" aria-label="Punto P; usa le frecce per spostarlo"/><circle id="hit-point" class="drag-target" cx="208" cy="112" r="30" aria-hidden="true"/>'
  s+='</svg><div id="coordinate-readout" class="coordinate-readout" aria-live="polite">P = (2; 2); I quadrante</div><p class="graph-hint">Trascina P oppure selezionalo e usa le frecce: passo 0,5; con Maiusc, passo 0,1.</p>'
@@ -76,16 +79,18 @@ def plane():
 
 def tank():
  s=svg_open(400,320,'Serbatoio: rubinetto aperto, dopo due minuti ci sono sei litri; chiuso al terzo minuto, il volume resta nove litri.')
- for x,level,opened in [(35,170,True),(235,125,False)]:
-  s+=f'<rect x="{x}" y="{level}" width="130" height="{260-level}" class="water"/><path class="stroke" d="M{x} 90V260H{x+130}V90M{x+15} 70V40H{x+85}V75H{x+65}V60H{x+35}V70M{x+15} 30H{x+55}M{x+35} 20V40"/>'
-  if opened:s+=f'<path d="M{x+75} 75V150" stroke="#0065a8" stroke-width="4" stroke-dasharray="7 5"/>'
+ for x,level in [(35,170),(235,125)]:
+  s+=f'<rect x="{x}" y="{level}" width="130" height="{260-level}" class="water"/><path class="stroke" d="M{x} 110V260H{x+130}V110"/>'
+ tap=uri(ROOT/'lavorazione/piano_cartesiano_grafici/risorse/robinet.svg')
+ s+=f'<image data-credit-id="clipart-robinet-spadassin" href="{tap}" x="29" y="0" width="113" height="130" preserveAspectRatio="xMidYMid meet" aria-label="Rubinetto, illustrazione di spadassin"/>'
+ s+='<path d="M120 116V165" stroke="#0065a8" stroke-width="4" stroke-dasharray="7 5"/>'+text(300,65,'Chiuso')
  s+=text(100,295,'2 min; 6 L')+text(300,295,'3–5 min; 9 L')
  return figure(s+'</svg>','L’ingresso è di 3 litri al minuto fino alla chiusura a 3 minuti. Dopo la chiusura non entra né esce acqua.')
 
 def dependence():
  s=svg_open(400,245,'I tempi 3, 4 e 5 minuti corrispondono tutti al volume di nove litri.')+'<defs><marker id="arrow-dependence" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0L6 3L0 6Z" fill="#182c3b"/></marker></defs>'
- for y,t in [(50,3),(125,4),(200,5)]:
-  s+=text(75,y+8,f'{t} min')+f'<path class="stroke" d="M125 {y}L267 125" marker-end="url(#arrow-dependence)"/>'
+ for y,t,end_y in [(50,3,95),(125,4,125),(200,5,155)]:
+  s+=text(75,y+8,f'{t} min')+f'<path class="stroke" d="M125 {y}L267 {end_y}" marker-end="url(#arrow-dependence)"/>'
  s+=text(315,133,'9 L')
  return figure(s+'</svg>','A ogni tempo corrisponde un solo volume. Lo stesso volume di 9 L, però, corrisponde a più tempi: invertire la corrispondenza non dà un’unica risposta.')
 
