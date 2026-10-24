@@ -130,20 +130,14 @@
       });
       if (!body.children.length) { const tr = document.createElement('tr'); const td = cell('Nessuna lettura registrata.'); td.colSpan = lab ? 3 : 5; tr.append(td); body.append(tr); }
     }
-    function clearAnswers() {
-      all('answer').forEach(input => input.value = '');
-      if (lab) {
-        find('feedback').textContent = ''; find('results').hidden = true;
-        all('only-reference').forEach(el => el.hidden = sample !== 'A');
-        all('only-unknown').forEach(el => el.hidden = sample !== 'B');
-        find('sample-label').textContent = sample === 'A' ? 'Campione A: riferimento 100 g' : 'Campione B: massa ignota';
-      }
+    function refreshStudyLabel() {
+      if(lab) find('sample-label').textContent=sample==='A'?'Campione A: riferimento 100 g':'Campione B: massa ignota';
     }
     record.addEventListener('click', () => {
       if (record.disabled) return;
       recorded = true;
       recordedEarly = !stable;
-      if (lab) { series[sample].push(current); clearAnswers(); renderChart(); }
+      if (lab) { series[sample].push(current); refreshStudyLabel(); renderChart(); }
       else rows.push({configuration, mass: mass(), value: current, stable, config: {...config}});
       renderRows();
       status.textContent = 'Lettura registrata: ' + format(current) + ' g. ' + (lab ? 'Rimuovi e ripeti per una nuova misura.' : 'Puoi modificare il carico o una proprietà.');
@@ -152,8 +146,8 @@
     function reset() {
       cancel(); selected.clear(); sample = fixedSample; currentSignal = 0; stable = false; acquisition = 0; recorded = false; recordedEarly = false;
       rows = []; series = {A: [], B: []}; configuration = 1; config = {...(lab ? labConfig : defaults)};
-      updateReading(0, 0); status.textContent = lab ? 'Scegli il campione e avvia una misura.' : 'Aggiungi un pesetto al piatto.';
-      if (lab) { find('measure').textContent='Appoggia e misura'; clearAnswers(); renderChart(); }
+      updateReading(0, 0); status.textContent = lab ? 'Appoggia il campione e avvia una misura.' : 'Aggiungi un pesetto al piatto.';
+      if (lab) { find('measure').textContent='Appoggia e misura'; refreshStudyLabel(); renderChart(); }
       else {
         all('weight').forEach(btn => btn.setAttribute('aria-pressed', 'false'));
         all('property').forEach(input => {
@@ -167,7 +161,7 @@
     }
     find('reset').addEventListener('click', reset);
     find('clear').addEventListener('click', () => {
-      if (lab) { series[sample] = []; clearAnswers(); renderChart(); }
+      if (lab) { series[sample] = []; refreshStudyLabel(); renderChart(); }
       else rows = rows.filter(row => row.configuration !== configuration);
       renderRows(); canRecord(); status.textContent = 'Letture della serie corrente cancellate.';
     });
@@ -199,73 +193,65 @@
       });
     } else {
       find('measure').addEventListener('click', acquire);
-      function results() {
-        const stats = statistics(series[sample], config.step, sample === 'A' ? known : null);
-        if (!stats || stats.count < 5) { find('feedback').textContent = 'Registra almeno cinque letture della serie scelta.'; return null; }
-        return stats;
-      }
-      find('check').addEventListener('click', () => {
-        const stats = results(); if (!stats) return;
-        const required = sample === 'A' ? ['mean', 'error'] : ['mean', 'dispersion', 'uncertainty'];
-        const wrong = required.filter(key => !closeTo(parseNumber(root.querySelector('[data-answer="' + key + '"]').value), stats[key]));
-        find('feedback').textContent = wrong.length ? 'Ricontrolla: ' + wrong.map(k => ({mean:'media',error:'errore con segno',dispersion:'semidispersione',uncertainty:'incertezza'})[k]).join(', ') + '. Usa tutti i dati senza arrotondamenti intermedi; nella risposta sono ammessi due decimali.' : 'Calcoli corretti. Confronta ora i risultati con i punti nel grafico.';
-        if (!wrong.length) showResults(stats);
-      });
-      function showResults(stats) {
-        const out = find('results'); out.hidden = false;
-        let text = 'Media ' + format(stats.mean) + ' g. ';
-        if(sample==='B') text += 'Semidispersione ' + format(stats.dispersion) + ' g. ';
-        text += sample === 'A' ? 'Errore del valore medio ' + signed(stats.error) + ' g; valore assoluto ' + format(Math.abs(stats.error)) + ' g; errore percentuale ' + format(stats.relative * 100) + '%.' :
-          'Risultato: m = (' + decimal(stats.mean) + ' ± ' + decimal(stats.uncertainty) + ') g. Il riferimento della massa ignota non è disponibile.';
-        out.textContent = text;
-      }
-      find('solution').addEventListener('click', () => { const stats = results(); if (stats) { showResults(stats); find('feedback').textContent = 'Confronto mostrato nel grafico e nei risultati.'; } });
     }
 
     function renderChart() {
       const host=find('chart');if(!host)return;
       const ns='http://www.w3.org/2000/svg',svg=document.createElementNS(ns,'svg');
       const unknownStudy=sample==='B',values=series[sample],stats=statistics(values,config.step,unknownStudy?null:known);
-      svg.setAttribute('viewBox','0 0 800 330');svg.setAttribute('role','img');
+      const chartWidth=Math.max(180,host.getBoundingClientRect().width);
+      svg.setAttribute('viewBox','0 0 '+chartWidth+' 282');svg.setAttribute('role','img');
       svg.setAttribute('aria-labelledby',chartId+'-title '+chartId+'-desc');
       const el=(name,attrs,text)=>{const node=document.createElementNS(ns,name);for(const[k,v]of Object.entries(attrs))node.setAttribute(k,String(v));if(text!==undefined)node.textContent=text;svg.append(node);return node;};
       el('title',{id:chartId+'-title'},unknownStudy?'Incertezza della massa ignota':'Errore rispetto alla massa di riferimento');
-      el('text',{x:65,y:28,class:'plot-label'},unknownStudy?'Massa ignota':'Massa nota: riferimento 100 g');
-      const left=65,right=750,y=250,x=v=>left+(v-90)/50*(right-left);
-      for(let tick=90;tick<=140;tick+=5){
-        el('line',{x1:x(tick),x2:x(tick),y1:104,y2:y,class:'plot-grid'});
-        el('text',{x:x(tick),y:280,'text-anchor':'middle',class:'plot-tick'},String(tick));
+      el('text',{x:16,y:24,class:'plot-label'},unknownStudy?'Massa ignota':'Riferimento 100 g');
+      const bounds=stats?[stats.min,stats.max,...(unknownStudy?[stats.mean-stats.uncertainty,stats.mean+stats.uncertainty]:[known])]:[96,104];
+      let low=stats?2*Math.floor((Math.min(...bounds)-1)/2):96;
+      let high=stats?2*Math.ceil((Math.max(...bounds)+1)/2):104;
+      while(high-low<8){low-=2;high+=2;}
+      svg.dataset.axisMin=String(low);svg.dataset.axisMax=String(high);
+      const left=36,right=chartWidth-16,y=220,x=v=>left+(v-low)/(high-low)*(right-left);
+      for(let tick=low;tick<=high;tick+=2){
+        if(unknownStudy&&!stats)break;
+        el('line',{x1:x(tick),x2:x(tick),y1:96,y2:y,class:'plot-grid'});
+      }
+      if(stats||!unknownStudy){
+        const labels=chartWidth<360?[low,(low+high)/2,high]:Array.from({length:(high-low)/2+1},(_,i)=>low+2*i);
+        for(const tick of labels){el('line',{x1:x(tick),x2:x(tick),y1:y,y2:y+5,class:'plot-axis'});el('text',{x:x(tick),y:246,'text-anchor':'middle',class:'plot-tick'},String(tick));}
       }
       el('line',{x1:left,x2:right,y1:y,y2:y,class:'plot-axis'});
-      el('text',{x:410,y:316,'text-anchor':'middle',class:'plot-label'},'Massa indicata (g)');
-      if(!unknownStudy)el('line',{x1:x(known),x2:x(known),y1:104,y2:y+12,class:'plot-reference'});
+      el('text',{x:chartWidth/2,y:274,'text-anchor':'middle',class:'plot-label'},'Massa indicata (g)');
+      if(!unknownStudy)el('line',{x1:x(known),x2:x(known),y1:96,y2:y+12,class:'plot-reference'});
       let description='Ogni punto è una lettura della massa '+(unknownStudy?'ignota. ':'nota. ');
-      if(!stats){el('text',{x:410,y:170,'text-anchor':'middle',class:'plot-muted'},'Nessuna lettura');description+='Nessuna lettura registrata.';}
+      if(!stats){el('text',{x:chartWidth/2,y:170,'text-anchor':'middle',class:'plot-muted'},'Nessuna lettura');description+='Nessuna lettura registrata.';}
       else{
-        el('text',{x:65,y:58,class:'plot-tick'},'Media '+format(stats.mean)+' g');
+        el('text',{x:16,y:48,class:'plot-tick'},'Media '+format(stats.mean)+' g');
         if(unknownStudy){
-          el('rect',{x:x(stats.mean-stats.uncertainty),y:104,width:x(stats.mean+stats.uncertainty)-x(stats.mean-stats.uncertainty),height:y-104,class:'plot-band'});
+          el('rect',{x:x(stats.mean-stats.uncertainty),y:96,width:x(stats.mean+stats.uncertainty)-x(stats.mean-stats.uncertainty),height:y-96,class:'plot-band'});
           for(const edge of[stats.min,stats.max])el('line',{x1:x(edge),x2:x(edge),y1:y-7,y2:y+9,class:'plot-extreme'});
-          el('text',{x:65,y:86,class:'plot-tick'},'d = '+format(stats.dispersion)+' g; U = '+format(stats.uncertainty)+' g');
+          el('text',{x:16,y:72,class:'plot-tick'},'d = '+format(stats.dispersion)+' g; U = '+format(stats.uncertainty)+' g');
           description+='Media '+format(stats.mean)+' g; semidispersione '+format(stats.dispersion)+' g; incertezza '+format(stats.uncertainty)+' g. Fascia da '+format(stats.mean-stats.uncertainty)+' a '+format(stats.mean+stats.uncertainty)+' g.';
         }else{
           el('line',{x1:x(known),x2:x(stats.mean),y1:92,y2:92,class:'plot-error'});
           for(const value of[known,stats.mean])el('line',{x1:x(value),x2:x(value),y1:87,y2:97,class:'plot-error'});
-          el('text',{x:65,y:82,class:'plot-tick'},'Errore della media '+signed(stats.error)+' g');
+          el('text',{x:16,y:72,class:'plot-tick'},'Errore della media '+signed(stats.error)+' g');
           description+='Riferimento 100 g; media '+format(stats.mean)+' g; errore '+signed(stats.error)+' g.';
         }
         const stacks=new Map();
         for(const value of values){const stack=(stacks.get(value)||0)+1;stacks.set(value,stack);
           const point=el('circle',{cx:x(value),cy:y-12-(stack-1)*11,r:4,class:'plot-point plot-'+sample.toLowerCase()});
           const title=document.createElementNS(ns,'title');title.textContent=format(value)+' g';point.append(title);}
-        el('line',{x1:x(stats.mean),x2:x(stats.mean),y1:104,y2:y+12,class:'plot-mean'});
+        el('line',{x1:x(stats.mean),x2:x(stats.mean),y1:96,y2:y+12,class:'plot-mean'});
       }
       el('desc',{id:chartId+'-desc'},description);host.replaceChildren(svg);find('chart-description').textContent=description;
-      const zoom=find('chart-copy');if(zoom){const copy=svg.cloneNode(true);
-        copy.querySelector('title').id=chartId+'-title-zoom';copy.querySelector('desc').id=chartId+'-desc-zoom';
-        copy.setAttribute('aria-labelledby',chartId+'-title-zoom '+chartId+'-desc-zoom');zoom.replaceChildren(copy);}
     }
     root.classList.add('sim-ready'); all('interactive').forEach(el => el.disabled = false); reset();
+    if(lab){
+      let lastWidth=0;
+      const updateSize=()=>{const width=find('chart').getBoundingClientRect().width;if(Math.abs(width-lastWidth)>1){lastWidth=width;renderChart();}};
+      if(typeof ResizeObserver!=='undefined')new ResizeObserver(updateSize).observe(find('chart'));
+      else global.addEventListener('resize',updateSize);
+    }
   }
   document.querySelectorAll('[data-measurement]').forEach((root,index)=>mount(root,index));
 })(typeof globalThis !== 'undefined' ? globalThis : this);

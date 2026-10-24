@@ -1,6 +1,6 @@
 # Errori e incertezza di misura
 
-[EDITORIALE — Bozza v12, 24 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive scelte dall’utente e integrate. Area: Introduzione alla fisica e alla misura.]
+[EDITORIALE — Bozza v13, 24 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive scelte dall’utente e integrate. Area: Introduzione alla fisica e alla misura.]
 
 [COP-07 — Fotografia scelta dall'utente: TV noise.jpg. Intera, senza ritagli o zoom, non ripetuta nel corpo.]
 
@@ -179,17 +179,17 @@ Se invece mancasse il riferimento, non potremmo eseguire quella sottrazione né 
 
 ## Stimare l’incertezza di una massa ignota
 
-Misura più volte la massa del campione B. Calcola la media e la semidispersione delle letture, poi confronta la semidispersione con il passo leggibile della bilancia per stimare U. Scrivi il risultato come valore medio ± incertezza, in grammi.
+Misura più volte la massa del campione B e osserva come cambiano la media, la semidispersione e l’incertezza mostrate nel grafico.
 
-[SIM-07-U — Attività autonoma sulla massa ignota: bilancia, registro, calcoli di media, semidispersione e U, grafico dedicato con punti, media, estremi e fascia ±U.]
+[SIM-07-U — Attività autonoma sulla massa ignota: bilancia, registro e riepilogo automatico di media, semidispersione e U, grafico dedicato con punti, media, estremi e fascia ±U.]
 
 Il grafico mostra una sola serie: le tue letture della massa ignota. La fascia è centrata sulla media e si estende di U da entrambi i lati. I tratti sull’asse indicano invece il minimo e il massimo osservati.
 
 ## Misurare l’errore rispetto a una massa nota
 
-Il campione A ha una massa di riferimento di 100 g. Misuralo più volte, calcola la media e sottrai il riferimento per ricavare l’errore del valore medio. Osserva sia la dispersione delle letture sia lo scarto della media dal riferimento: una serie può essere raccolta ma spostata.
+Il campione A ha una massa di riferimento di 100 g. Misuralo più volte e osserva la media delle letture e il suo scarto dal riferimento. Osserva sia la dispersione delle letture sia lo scarto della media dal riferimento: una serie può essere raccolta ma spostata.
 
-[SIM-07-E — Attività autonoma sulla massa nota: bilancia, registro, calcoli di media ed errore, grafico dedicato con punti, media, riferimento ed errore.]
+[SIM-07-E — Attività autonoma sulla massa nota: bilancia, registro e riepilogo automatico di media ed errore, grafico dedicato con punti, media, riferimento ed errore.]
 
 In questo grafico la linea tratteggiata indica il riferimento di 100 g e la linea continua la media. Il segmento rosso mostra lo scarto fra i due valori.
 
@@ -203,7 +203,8 @@ In questo grafico la linea tratteggiata indica il riferimento di 100 g e la line
 6. Che cosa significano i due numeri nella scrittura \(t=(2{,}40\pm0{,}09)\,\mathrm{s}\)? Perché non possiamo leggere automaticamente 0,09 s come l'errore effettivo?
 7. Nel confronto dell'esempio, l'errore è −0,10 s. Che cosa comunica il segno meno? Quale informazione si perde passando al valore assoluto?
 8. A parità di errore assoluto, se il valore di riferimento raddoppia, come cambia l'errore relativo? Motiva usando la formula.
-9. Nella simulazione, quale confronto puoi fare per la massa nota che non puoi fare per quella ignota? Spiega come media, semidispersione e passo leggibile entrano invece nella stima dell'incertezza della massa ignota.
+9. Registra cinque letture della massa ignota. Usando il registro, calcola la media, la semidispersione e l’incertezza U; scrivi il risultato come valore medio ± incertezza. Confronta i tuoi risultati con il grafico.
+10. Registra cinque letture della massa nota di 100 g. Calcola la media e l’errore con segno rispetto al riferimento. Che cosa indica il segno? Confronta il risultato con il segmento rosso nel grafico.
 
 ## Note
 

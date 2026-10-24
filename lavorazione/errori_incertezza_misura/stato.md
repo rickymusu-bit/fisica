@@ -1,10 +1,10 @@
 # Stato — Errori e incertezza di misura
 Ultimo aggiornamento: 24 ottobre 2026 (Europe/Rome). Capitolo 7.
-Fase: ultima anteprima approvata; pubblicazione dei capitoli 6 e 7 autorizzata e in corso.
+Fase: revisione dei grafici e delle attività in bozza; anteprima aggiornata da revisionare.
 
 ## Fonte e ambito
 Richiesta corrente: «Facciamo i capitoli 6 e 7», con collegamento al piano.
-Ramo: `lavorazione/strumenti-errori-incertezza`, da main `d681439986db6c824fb1c724fa8cf7023e5a38de`.
+Ramo corrente: `lavorazione/grafici-misure-leggibili`, da main `3832204ecb1ce05b8d25a135a0709e7228efe94e`.
 Sorgente verificato: `strumenti_errori_incertezza_it.html` v7, blob `1d65637b40f2af68e1e1ff55c7d1710259b6087b`, sezioni #errori e #confronto.
 Confini, visuali identificate e collocazione: [proposta corrente](visuali.md). Misure ripetute, media, semidispersione e incertezza sono riunite nel capitolo 7 per richiesta esplicita; eliminato il capitolo separato sulle ripetizioni.
 Domanda iniziale proposta: Il cronometro mostra 2,40 s: quanto sappiamo del tempo misurato, e possiamo già dire di quanto abbiamo sbagliato?
@@ -131,3 +131,13 @@ Verifica conclusa: 7 test quantitativi e 20 combinazioni viewport/tema, due atti
 L’utente approva la versione con le due attività separate con «Okay, pubblica». Questa autorizzazione supera la sospensione precedente e riguarda l’anteprima corrente. Integrato main, inclusa l’implementazione Quiz già pubblicata e il principio di economia informativa; conflitti solo documentali risolti conservando le istruzioni correnti.
 
 Aggiunti i due capitoli al manifest e al catalogo italiano, aggiornati i collegamenti 5 → 6 → 7 e il passaggio alla Termologia, con ritorno dalla Termodinamica al 7. Crediti pubblici generati dal registro unico; date editoriali dei nuovi capitoli aggiornate. Nessun contenuto scientifico degli altri capitoli modificato. Contenuto del corpo dei due capitoli identico nella build pubblica; comandi di zoom resi idempotenti rispetto alla componente canonica.
+
+## Grafici ravvicinati e simulazioni senza campi di calcolo
+
+Richiesta esplicita successiva alla pubblicazione: ridurre l’intervallo di entrambi i grafici per leggerli senza zoom; rimuovere le parti in cui lo studente inserisce i calcoli e lasciare esercizi nelle domande. Nuovo ramo isolato dalla versione pubblicata; nessun aggiornamento del sito autorizzato per questa nuova anteprima.
+
+Assi adattati alle letture raccolte, includendo riferimento o fascia U e un margine; ampiezza minima 8 g, anziché i precedenti 50 g. Dominio uguale sui dispositivi, meno etichette sull’asse negli schermi piccoli, caratteri effettivi di almeno 14 CSS px. Dimensioni del grafico aggiornate quando cambia la larghezza. Nessuno zoom e nessuno scorrimento orizzontale per i grafici delle due bilance. Riepiloghi automatici di media/d/U o media/errore conservati.
+
+Rimossi campi di risposta, pulsanti di controllo/confronto e aiuto ai calcoli. Istruzioni delle attività orientate all’osservazione; due esercizi di calcolo nelle domande finali (9 e 10), mantenendo i primi otto quesiti. Controlli di acquisizione, limiti delle letture e indipendenza delle bilance invariati. HTML 7 v11 (bozza v13); HTML 6 v12 per il codice condiviso, attività del 6 invariata.
+
+Verifica completata: 7 test quantitativi, 19 test del portale e 20 combinazioni viewport/tema. Testo dei grafici almeno 14 px effettivi, scale ravvicinate, nessuno zoom e nessun modulo di calcolo; dieci domande finali. Misure, registri, indipendenza, download e offline superati. Crediti, tema e build superati. Immagini delle due scale mobile/desktop ispezionate. Nessuna modifica al sito ufficiale.

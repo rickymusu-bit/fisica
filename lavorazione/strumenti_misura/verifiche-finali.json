@@ -1,9 +1,9 @@
 {
-  "html_version": "v11",
-  "approved_draft": "v12, codice condiviso aggiornato per le attività separate del capitolo 7",
+  "html_version": "v12",
+  "approved_draft": "v12, grafici leggibili senza zoom e calcoli spostati nelle domande richiesti dall’utente",
   "authorization": "Ok vai; generazione di bilancia e pesetti richiesta esplicitamente",
-  "html_bytes": 12102260,
-  "html_sha256": "37484cb1f1bd19665f29bfc16da08589351f0663ffc9b46d88f2ff6b08e6f41c",
+  "html_bytes": 12100962,
+  "html_sha256": "e19a8f1c6f8a91e703a8f1451a4a1ba71b1e6ff0bd109ecbb2b6a525bb73d2a3",
   "model_tests": {
     "passed": 7,
     "command": "node lavorazione/strumenti_misura/test_simulazione.cjs"
@@ -16,14 +16,15 @@
   "pages_build": "passed; entrambi i capitoli presenti nella build pubblica",
   "protected_sources": "invariati",
   "image_slots": [],
-  "preview_status": "Versione approvata per la pubblicazione.",
+  "preview_status": "Grafici ravvicinati leggibili senza zoom; moduli di calcolo rimossi ed esercizi nelle domande finali.",
   "offline_method": "HTML caricato in memoria con rete disabilitata; immagini incorporate decodificate, MathML e simulazione disponibili. Navigazione file:// bloccata dalla policy del Chromium dell’ambiente e non dichiarata eseguita.",
   "screenshots_reviewed": [
-    "lavorazione/errori_incertezza_misura/anteprime/grafico-uncertainty-1440.png",
-    "lavorazione/errori_incertezza_misura/anteprime/grafico-error-390.png"
+    "lavorazione/errori_incertezza_misura/anteprime/grafico-error-390.png",
+    "lavorazione/errori_incertezza_misura/anteprime/grafico-uncertainty-390.png",
+    "lavorazione/errori_incertezza_misura/anteprime/grafico-uncertainty-1440.png"
   ],
   "generated_assets_source": "lavorazione/strumenti_misura/risorse/bilancia-pesetti-fonte.json",
-  "model_checks_scope": "7 test quantitativi e 20 combinazioni viewport/tema superati; cinque letture e calcoli per ciascuna attività, grafici con una sola serie, riferimento solo nell’errore e fascia U solo nell’incertezza, identificativi univoci, cancellazione/reset indipendenti anche durante una misura, limite dieci e U=1 g con letture identiche. Download/offline/no-JS verificati.",
+  "model_checks_scope": "7 test quantitativi, 19 test del portale e 20 combinazioni viewport/tema superati. Verificate dimensioni effettive del testo almeno 14 px, intervallo al massimo 14 g nei casi provati, inclusione delle letture e indipendenza delle attività. Verificata assenza di zoom, campi e pulsanti per controllare i calcoli. Acquisizioni, reset, download e offline superati.",
   "image_layouts_current": null,
   "licenses": {
     "manometro": "Photo by CEphoto, Uwe Aranas, CC BY-SA 3.0",
@@ -35,6 +36,6 @@
   },
   "simulation_issue": "L’utente conferma il funzionamento nell’HTML scaricato. Nessun errore nei test correnti.",
   "image_layouts_note": "Verifiche mirate delle fotografie conservate dalla revisione precedente; immagini originali invariate. Aspetto delle simulazioni verificato nelle 20 combinazioni correnti.",
-  "publication_status": "Autorizzata esplicitamente con Okay, pubblica dopo la separazione delle attività; manifest e catalogo aggiornati, PR #72 in preparazione al merge.",
+  "publication_status": "Nuova revisione in bozza: nessuna pubblicazione autorizzata per questa anteprima. Il sito mantiene le versioni precedenti.",
   "portal_unit_tests": 19
 }

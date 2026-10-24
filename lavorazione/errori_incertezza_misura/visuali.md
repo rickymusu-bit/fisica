@@ -67,3 +67,7 @@ Scelta più recente: SCH-07-1 usa la scena U.S. Navy del cronometraggio della co
 ## Revisione: grafici separati
 
 Sostituito il grafico A/B unico con due grafici autonomi in sezioni distinte. Prima la massa ignota (incertezza), poi la massa nota (errore). Ogni grafico mostra una sola serie e solo le grandezze pertinenti alla propria attività. Le risorse originali della bilancia e del pesetto sono condivise, senza duplicare i file incorporati. Pubblicazione sospesa su richiesta dell’utente.
+
+## Grafici senza zoom, revisione corrente
+
+Entrambi i grafici delle bilance mostrano un intervallo ravvicinato e adattato alle letture; i testi restano almeno 14 px su smartphone. Nessun comando di zoom. Riepiloghi automatici, senza modulo per inserire i calcoli. Anteprime dedicate a 390 e 1440 px aggiornate.
