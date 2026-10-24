@@ -133,3 +133,6 @@ Ulteriore richiesta sul serbatoio: eliminata la linea tratteggiata a sinistra, m
 Verifiche superate: 12 layout Chromium (320/390/1440 px, chiaro/scuro), allineamento computato di ogni intestazione/cella, presenza delle clip art richieste e assenza del tratteggio, 54 casi numerici su k e coerenza dei punti/tabelle, tastiera, assi/quadranti/limiti e trascinamento. Nessuno zoom interattivo; un solo zoom statico fuori dai dati. Nessun errore JavaScript, overflow o richiesta esterna. Ispezionate le schermate mobile di rubinetti, libri, autobus e tabelle; aggiunte le schermate delle quattro tabelle nei due temi, desktop/mobile. Crediti aggiornati e associati; credits.py --check, build_pages.py, node --check e git diff --check superati.
 
 Versioni correnti: capitolo 8 HTML v4, bozza v5; capitolo 9 HTML v3, bozza v6. Manifest, catalogo e altri capitoli invariati. Le nuove anteprime sostituiscono quelle precedenti; PR mantenuta in bozza, nessun merge o deployment ufficiale.
+
+
+Anteprima corrente v4, con tutte le ultime correzioni, verificata online al commit `8ce87daf1e96be30acdc231240442f9d40607a5f`: [apri il capitolo](https://raw.githack.com/rickymusu-bit/fisica/8ce87daf1e96be30acdc231240442f9d40607a5f/piano_cartesiano_grafici_it.html), HTTPS 200, text/html e byte identici al file locale. Supera le precedenti anteprime del capitolo.
