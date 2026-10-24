@@ -57,3 +57,11 @@ Nove domande finali: conservati i quesiti originali 3/6/7 nelle domande 1/4/6; o
 Verifica editoriale: controllati prezzi 0/2/4/6/8 €, prodotti dei rettangoli pari a 12 cm², aree dei quadrati, fattori di scala e soluzione implicita dei quesiti; nessuna soluzione pubblicata. Quesito sull’inversa coerente con k = 6; rettangolo con base 8 cm alto 1,5 cm. Nessun grafico tariffario o confronto affine nei segnaposto della bozza v2. Nessuna prova nel browser dichiarata.
 
 Fase corrente: testi da revisionare. Dopo approvazione, comunicare la stima ripartita e raccogliere il via alla realizzazione HTML. Nessun merge o deployment.
+
+## Bozza v3 — viaggio al posto dei rettangoli
+
+24 ottobre 2026. L’utente sceglie esplicitamente il viaggio per la proporzionalità inversa: «fai col viaggio». Sostituita la sezione dei rettangoli con un viaggio in treno su distanza fissa di 120 km, senza fermate e con velocità costante. Formule v·t = d, t = d/v e collegamento al modello generale x·y = k, y = k/x. La costante è una distanza in km, non più un’area.
+
+Tabella: velocità 30/40/60/80/120 km/h e tempi 4/3/2/1,5/1 h. Segnaposto C9-RET sostituito da C9-VIA, con immagine del treno da scegliere e schema dello stesso percorso. Specifica C9-GRA-I aggiornata con nuovi dati, assi, unità e descrizione accessibile. Nessun grafico realizzato e nessuna immagine cercata o generata. Domande 4–5 adattate: triplicare la velocità e calcolare il tempo a 100 km/h.
+
+Verifica numerica: ogni prodotto v·t vale 120 km; 60→120 km/h dimezza 2→1 h; 40→120 km/h riduce 3→1 h; 120/100 = 1,2 h = 1 h 12 min. Il vecchio quesito sui rettangoli conserva la propria funzione nel quesito del viaggio; il sorgente storico resta invariato. Le precedenti specifiche su rettangoli e area costante sono superate. [Bozza corrente v3](bozza.md) da revisionare; capitolo 8 e altre sezioni invariati. HTML, merge e pubblicazione non avviati.
