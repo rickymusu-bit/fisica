@@ -165,6 +165,7 @@ def verify_quiz(page, base):
     page.locator('#quiz-next').click()
     assert page.locator('#quiz-results').is_visible()
     assert page.locator('.quiz-review-item').count() == 1
+    assert page.locator('#quiz-score').inner_text() in ('0 / 1', '1 / 1')
 
     # A 30 domande la griglia e il tempo iniziale restano coerenti.
     page.goto(base + 'quiz.html')
@@ -174,6 +175,11 @@ def verify_quiz(page, base):
     assert page.locator('#quiz-counter').inner_text() == 'Domanda 1 di 30'
     assert page.locator('#quiz-navigation .quiz-nav-item').count() == 30
     assert page.locator('#quiz-clock').inner_text() in ('60:00', '59:59')
+    assert page.locator('.quiz-main-actions #quiz-skip').count() == 1
+    assert page.locator('.quiz-main-actions #quiz-next').count() == 1
+    assert page.locator('.quiz-main-actions #quiz-stop').count() == 0
+    assert page.locator('#quiz-stop').evaluate(
+        '(e) => getComputedStyle(e).backgroundColor') == 'rgb(148, 47, 74)'
     assert page.locator('#quiz-navigation .is-current').first.evaluate(
         '(e) => getComputedStyle(e).borderTopWidth') == '4px'
     page.locator('#quiz-skip').click()
@@ -183,6 +189,7 @@ def verify_quiz(page, base):
     page.locator('#quiz-stop').click()
     assert page.locator('.quiz-review-item').count() == 30
     assert page.locator('#quiz-result-navigation .quiz-nav-item').count() == 30
+    assert page.locator('#quiz-score').inner_text() == '0 / 30'
 
     for level, alternatives in (('easy', 3), ('medium', 4), ('hard', 5)):
         page.goto(base + 'quiz.html')
@@ -199,6 +206,13 @@ def verify_quiz(page, base):
         assert page.locator('#quiz-navigation .is-answered').count() == 0
         assert page.locator('#quiz-navigation .is-skipped').count() == 0
         if level == 'easy':
+            page.set_viewport_size({'width': 390, 'height': 900})
+            assert page.evaluate('document.documentElement.scrollWidth <= innerWidth')
+            skip_box = page.locator('#quiz-skip').bounding_box()
+            next_box = page.locator('#quiz-next').bounding_box()
+            stop_box = page.locator('#quiz-stop').bounding_box()
+            assert abs(skip_box['y'] - next_box['y']) < 3
+            assert stop_box['y'] > next_box['y']
             page.screenshot(path=str(SHOTS / 'quiz-domanda-390.png'), full_page=True)
         page.locator('.quiz-answer input').first.check()
         page.locator('#quiz-next').click()
@@ -218,7 +232,7 @@ def verify_quiz(page, base):
         assert page.locator('#quiz-result-navigation .is-answered').count() == 1
         assert page.locator('#quiz-result-navigation .is-skipped').count() == 2
         assert page.locator('#quiz-result-navigation .is-pending').count() == 22
-        assert page.locator('#quiz-grade').inner_text().endswith('/ 10')
+        assert page.locator('#quiz-score').inner_text().endswith(' / 25')
         if level == 'easy':
             page.screenshot(path=str(SHOTS / 'quiz-risultato-390.png'), full_page=True)
 
