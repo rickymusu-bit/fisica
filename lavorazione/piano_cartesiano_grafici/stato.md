@@ -1,6 +1,6 @@
 # Stato — Il piano cartesiano
 
-**Stato corrente — revisione richiesta il 24 ottobre 2026:** HTML v5 verificato; bozza testuale v6. Le nuove istruzioni dell’utente superano le precedenti scelte di riuso delle fotografie, prezzo a 2 € e zoom interattivo. Pubblicazione subordinata all’approvazione della nuova anteprima.
+**Stato corrente — pubblicazione autorizzata il 25 ottobre 2026 (Europe/Rome):** l’utente approva le anteprime finali e richiede «Perfetto. Pubblica». Capitoli 8 e 9 ammessi al manifest; rilascio della PR #79 in corso.
 
 ## Riferimenti e autorizzazioni
 
@@ -150,3 +150,15 @@ Versioni correnti: capitolo 8 HTML v5 e bozza v6; capitolo 9 HTML v4 e bozza v7.
 
 
 Anteprima corrente v5 verificata online al commit `37933d25e673009b5eeac1d6d8b50637bce5bebe`: [apri il capitolo](https://raw.githack.com/rickymusu-bit/fisica/37933d25e673009b5eeac1d6d8b50637bce5bebe/piano_cartesiano_grafici_it.html), HTTPS 200 e byte identici al file locale. Comprende il tracciato continuo e i gruppi di libri separati; sostituisce i precedenti collegamenti del capitolo.
+
+
+## Approvazione esplicita e preparazione della pubblicazione
+
+Dopo le anteprime del commit 37933d25e673009b5eeac1d6d8b50637bce5bebe (capitolo 8 v5, capitolo 9 v4), l’utente scrive «Perfetto. Pubblica». È l’approvazione della versione corrente e l’autorizzazione a integrare la PR #79 e avviare Pages; le precedenti attese di approvazione sono superate per queste versioni. Testo e figure della sezione article risultano identici byte per byte alla versione approvata.
+
+Manifest v16: ammessi i due capitoli dopo Errori e incertezza di misura; catalogo dell’area introduttiva portato a nove capitoli (19 complessivi). Aggiornata soltanto la navigazione delle pagine adiacenti: 7 → 8 → 9 → Termodinamica. Date editoriali dei due nuovi capitoli aggiornate per la prima pubblicazione; nessuna nuova revisione scientifica o grafica. Crediti generali e snapshot sincronizzati per i capitoli ammessi, mantenendo gli originali e gli avvisi storici.
+
+Superati i 24 test automatici, sync_stringhe_theme.py --check, credits.py --check e build_pages.py; controllo dei collegamenti precedente/successivo sui 19 capitoli riuscito. Il controllo browser comune ora verifica anche che il comando esterno del confronto delle scale rimanga fuori dai dati e mantenga il bersaglio di 44 px, preservando i controlli canonici dei vecchi visuali. Verifica finale del portale in corso; nessun ulteriore consenso richiesto per il rilascio già autorizzato.
+
+
+Controllo finale del portale superato: 250 combinazioni pagina/viewport/tema, 20 copertine, nessun errore JavaScript. Rapporti in lavorazione/sito/verifica-stringhe.json e lavorazione/introduzione_fisica_misura/verifica-pubblicazione.json; schermate aggiornate di home e catalogo. Configurazione pronta per merge e Pages autorizzati.

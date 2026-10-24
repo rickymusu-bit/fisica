@@ -25,7 +25,7 @@ def render(folder,title,name,cover):
  notes=''
  if '\n## Note\n' in source:source,notes=source.split('\n## Note\n')
  version='v5' if folder==CHAPTERS[0][0] else 'v4'
- date='2026-10-25T00:36:42+02:00'
+ date='2026-10-25T00:48:48+02:00'
  body=[];headings=[]
  for block in source.strip().split('\n\n'):
   if block.startswith(('# ','Versione della bozza:')):continue
@@ -69,6 +69,7 @@ def render(folder,title,name,cover):
  previous=('errori_incertezza_misura_it.html','Errori e incertezza di misura') if folder==CHAPTERS[0][0] else (CHAPTERS[0][2],CHAPTERS[0][1])
  links=f'<a rel="prev" href="{previous[0]}" data-site-path="{previous[0]}"><span>← Capitolo precedente</span><small>{previous[1]}</small></a>'
  if folder==CHAPTERS[0][0]:links+=f'<a rel="next" href="{CHAPTERS[1][2]}" data-site-path="{CHAPTERS[1][2]}"><span>Capitolo successivo →</span><small>{CHAPTERS[1][1]}</small></a>'
+ else:links+='<a rel="next" href="termodinamica_sistemi_it.html" data-site-path="termodinamica_sistemi_it.html"><span>Capitolo successivo →</span><small>La termodinamica e i sistemi termodinamici</small></a>'
  template=template.replace('<!-- chapter-navigation:end -->','<nav class="chapter-navigation" aria-label="Navigazione tra capitoli">'+links+'</nav><!-- chapter-navigation:end -->',1)
  script=(WORK/'interazioni.js').read_text()
  template=template.replace('</body>','<script data-grafici-interactions>'+script+'</script></body>')
@@ -109,6 +110,8 @@ def main():
   work=re.sub(r'(href=")(?![a-z]+:|#)([^"/]+\.html)(")',lambda m:m[1]+'../../'+m[2]+m[3],work)
   (ROOT/'lavorazione'/folder/'bozza.html').write_text(work)
  credits.REGISTRY.write_text(json.dumps(registry,ensure_ascii=False,indent=2)+'\n')
- assert (ROOT/'crediti.html').read_text()==credits.render_page(registry),'La pagina pubblica dei crediti deve restare invariata'
+ published=set(json.loads((ROOT/'pubblicazione.json').read_text())['articoli'])
+ if all(name in published for _,_,name,_ in selected):(ROOT/'crediti.html').write_text(credits.render_page(registry))
+ else:assert (ROOT/'crediti.html').read_text()==credits.render_page(registry),'La pagina pubblica dei crediti deve restare invariata'
  print(json.dumps({name:(ROOT/name).stat().st_size for _,_,name,_ in selected},indent=2))
 if __name__=='__main__':main()

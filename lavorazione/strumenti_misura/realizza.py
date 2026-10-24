@@ -325,7 +325,7 @@ def render(key, data):
     previous=('cifre_significative_it.html','Le cifre significative') if data['mode']=='explore' else ('strumenti_misura_it.html','Gli strumenti di misura')
     links='<a rel="prev" href="' + previous[0] + '" data-site-path="' + previous[0] + '"><span>← Capitolo precedente</span><small>' + previous[1] + '</small></a>'
     if data['mode']=='explore': links+='<a rel="next" href="errori_incertezza_misura_it.html" data-site-path="errori_incertezza_misura_it.html"><span>Capitolo successivo →</span><small>Errori e incertezza di misura</small></a>'
-    if data['mode']=='lab': links+='<a rel="next" href="termodinamica_sistemi_it.html" data-site-path="termodinamica_sistemi_it.html"><span>Capitolo successivo →</span><small>La termodinamica e i sistemi termodinamici</small></a>'
+    if data['mode']=='lab': links+='<a rel="next" href="piano_cartesiano_grafici_it.html" data-site-path="piano_cartesiano_grafici_it.html"><span>Capitolo successivo →</span><small>Il piano cartesiano</small></a>'
     template=template.replace('<!-- chapter-navigation:end -->','<nav class="chapter-navigation" aria-label="Navigazione tra capitoli">' + links + '</nav><!-- chapter-navigation:end -->',1)
     template=template.replace('</body>','<script data-measurement-script>' + (WORK/'simulazione.js').read_text() + '</script></body>',1)
     from media_controls import apply_media_controls

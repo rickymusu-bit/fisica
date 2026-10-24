@@ -1,5 +1,5 @@
 {
-  "versione": 15,
+  "versione": 16,
   "articoli": [
     "metodo_scientifico_it.html",
     "grandezze_fisiche_sistema_internazionale_it.html",
@@ -8,6 +8,8 @@
     "cifre_significative_it.html",
     "strumenti_misura_it.html",
     "errori_incertezza_misura_it.html",
+    "piano_cartesiano_grafici_it.html",
+    "relazioni_proporzionalita_it.html",
     "termodinamica_sistemi_it.html",
     "temperatura_equilibrio_termico_it.html",
     "energia_interna_calore_specifico_it.html",

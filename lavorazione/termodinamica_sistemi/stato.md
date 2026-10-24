@@ -142,3 +142,8 @@ Pubblicazione esplicitamente autorizzata del quarto capitolo introduttivo: aggio
 HTML v15: navigazione precedente aggiornata a Le cifre significative, inserito dopo Prefissi e prima di questo capitolo. Contenuti, immagini, formule e data editoriale invariati. Copia di lavorazione allineata; corpo dell’articolo verificato identico. Intervento circoscritto incluso nella pubblicazione autorizzata della PR #68.
 
 Pubblicazione completata nella PR #68 (b395589e1f5f06197723171ab4dfb3d33142114c), deployment 39992857516 riuscito. Collegamenti aggiornati verificati online, file identici alla build locale.
+
+
+## Navigazione per la pubblicazione dei capitoli 8–9
+
+L’utente approva le anteprime della PR #79 con «Perfetto. Pubblica». Aggiornato il solo collegamento adiacente nella sequenza 7 → 8 → 9 → Termodinamica; testo, figure, modello, versione e data editoriale di questo capitolo invariati.

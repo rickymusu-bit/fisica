@@ -1,6 +1,6 @@
 # Introduzione alla fisica e alla misura — piano editoriale
 
-Data del piano: 21/10/2026 (Europe/Rome). Indice aggiornato al 24/10/2026: primi sette capitoli ammessi alla pubblicazione; capitoli 8 e 9 realizzati in anteprima nella PR #79. Le sezioni di avanzamento conservano la cronologia, superata dalle decisioni più recenti dove specificato.
+Data del piano: 21/10/2026 (Europe/Rome). Indice aggiornato al 24/10/2026: nove capitoli ammessi alla pubblicazione; rilascio dei capitoli 8 e 9 autorizzato nella PR #79. Le sezioni di avanzamento conservano la cronologia, superata dalle decisioni più recenti dove specificato.
 Fonte delle regole: MASTER_PROMPT.md v69.6, AGENTS.md, riferimenti/STILE_DISPENSE.md, riferimenti/esempio_irraggiamento.md.
 Macrocategoria approvata dall'utente: **Introduzione alla fisica e alla misura**.
 Piano iniziale approvato: 12 capitoli, con proporzionalità inversa e quadratica insieme. Misure ripetute, media, semidispersione e incertezza sono riunite nel capitolo 7. Il 24/10/2026 l’utente richiede un capitolo sul piano cartesiano e uno su tutte le relazioni di proporzionalità: il percorso aggiornato comprende **9 capitoli**, con proporzionalità diretta, inversa e quadratica nel capitolo 9.
@@ -262,3 +262,8 @@ Tutte le tabelle dei due capitoli hanno ora intestazioni e dati centrati. Nel 9,
 
 
 Aggiornamento delle anteprime: nel capitolo 8 il riempimento continuo è mostrato da una linea crescente fino alla chiusura a 3 min e orizzontale dopo, con i punti della tabella evidenziati. Nel 9, tre situazioni dei libri nettamente separate, quantità esplicite e sovrapposizione interna ai gruppi. Versioni HTML correnti 8 v5 / 9 v4, prove e schermate aggiornate; pubblicazione ancora subordinata all’approvazione dell’anteprima corrente.
+
+
+## Pubblicazione dei capitoli 8 e 9 autorizzata
+
+L’utente approva le anteprime finali con «Perfetto. Pubblica». Le attese precedenti sono superate per il capitolo 8 v5 e il capitolo 9 v4. Manifest portato a nove capitoli dell’area e 19 complessivi, catalogo e navigazione collegati; contenuti scientifici identici alle anteprime approvate. Crediti sincronizzati e test automatici superati. Rilascio nella PR #79 in corso.
