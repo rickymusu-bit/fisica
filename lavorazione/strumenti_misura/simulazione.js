@@ -26,6 +26,7 @@
   function closeTo(value, expected) { return Number.isFinite(value) && Math.abs(value - expected) <= 0.00501; }
   const format = (number, digits = 2) => Number(number).toLocaleString('it-IT', {maximumFractionDigits: digits});
   const decimal = number => Number(number).toLocaleString('it-IT', {minimumFractionDigits: 1, maximumFractionDigits: 1});
+  const quality = value => ['Molto bassa','Bassa','Medio-bassa','Media','Medio-alta','Alta'][value];
   const signed = number => (number > 0 ? '+' : '') + format(number);
   const api = {masses, options, defaults, labConfig, quantize, signal, reading, statistics, randomDisturbance, parseNumber, closeTo};
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
@@ -117,7 +118,7 @@
       if (!lab) for (const row of rows) {
         const tr = document.createElement('tr');
         [row.configuration, format(row.mass) + ' g', format(row.value) + ' g', row.stable ? 'Stabilizzata' : 'Anticipata',
-          'P ' + row.config.capacity + ' g; sensibilità ' + row.config.step + ' g; risposta ' + format(row.config.response) + ' s; zero ' + signed(row.config.offset) + ' g; disturbo ±' + row.config.noise + ' g']
+          'P ' + row.config.capacity + ' g; sensibilità ' + row.config.step + ' g; risposta ' + format(row.config.response) + ' s; accuratezza ' + quality(5-Math.abs(row.config.offset)) + '; precisione ' + quality(5-row.config.noise)]
           .forEach(v => tr.append(cell(String(v)))); body.append(tr);
       } else for (const key of ['A', 'B']) series[key].forEach((value, index) => {
         const tr = document.createElement('tr');
@@ -154,7 +155,7 @@
         all('weight').forEach(btn => btn.setAttribute('aria-pressed', 'false'));
         all('property').forEach(input => {
           const key = input.dataset.property;
-          input.value = options[key] ? options[key].indexOf(config[key]) : config[key]; updateSlider(input);
+          input.value = options[key] ? options[key].indexOf(config[key]) : (['offset','noise'].includes(key) ? 5-config[key] : config[key]); updateSlider(input);
         });
         find('loaded-mass').textContent = '0 g'; find('series-label').textContent = 'Configurazione 1';
       }
@@ -169,6 +170,11 @@
     });
     function updateSlider(input) {
       const key = input.dataset.property, value = options[key] ? options[key][Number(input.value)] : Number(input.value);
+      if (['offset','noise'].includes(key)) {
+        config[key] = 5-value;
+        root.querySelector('[data-property-output="' + key + '"]').textContent = quality(value);
+        input.setAttribute('aria-valuetext',quality(value));return;
+      }
       config[key] = value;
       const unit = {capacity:'g', step:'g', response:'s', offset:'g', noise:'g'}[key];
       root.querySelector('[data-property-output="' + key + '"]').textContent = format(value) + ' ' + unit;
@@ -206,17 +212,17 @@
         const stats = results(); if (!stats) return;
         const required = sample === 'A' ? ['mean', 'error'] : ['mean', 'dispersion', 'uncertainty'];
         const wrong = required.filter(key => !closeTo(parseNumber(root.querySelector('[data-answer="' + key + '"]').value), stats[key]));
-        find('feedback').textContent = wrong.length ? 'Ricontrolla: ' + wrong.map(k => ({mean:'media',error:'errore con segno',dispersion:'semidispersione',uncertainty:'incertezza didattica'})[k]).join(', ') + '. Usa tutti i dati senza arrotondamenti intermedi; nella risposta sono ammessi due decimali.' : 'Calcoli corretti. Confronta ora i risultati con i punti nel grafico.';
+        find('feedback').textContent = wrong.length ? 'Ricontrolla: ' + wrong.map(k => ({mean:'media',error:'errore con segno',dispersion:'semidispersione',uncertainty:'incertezza'})[k]).join(', ') + '. Usa tutti i dati senza arrotondamenti intermedi; nella risposta sono ammessi due decimali.' : 'Calcoli corretti. Confronta ora i risultati con i punti nel grafico.';
         if (!wrong.length) showResults(stats);
       });
       function showResults(stats) {
         const out = find('results'); out.hidden = false;
         let text = 'Media ' + format(stats.mean) + ' g; semidispersione ' + format(stats.dispersion) + ' g. ';
         text += sample === 'A' ? 'Errore del valore medio ' + signed(stats.error) + ' g; valore assoluto ' + format(Math.abs(stats.error)) + ' g; errore percentuale ' + format(stats.relative * 100) + '%.' :
-          'Stima didattica: m = (' + decimal(stats.mean) + ' ± ' + decimal(stats.uncertainty) + ') g. Il riferimento della massa ignota non è disponibile.';
+          'Risultato: m = (' + decimal(stats.mean) + ' ± ' + decimal(stats.uncertainty) + ') g. Il riferimento della massa ignota non è disponibile.';
         out.textContent = text;
       }
-      find('solution').addEventListener('click', () => { const stats = results(); if (stats) { showResults(stats); find('feedback').textContent = 'Confronto mostrato su richiesta. La fascia rappresenta la stima scolastica, non una garanzia sul valore della massa.'; } });
+      find('solution').addEventListener('click', () => { const stats = results(); if (stats) { showResults(stats); find('feedback').textContent = 'Confronto mostrato nel grafico e nei risultati.'; } });
     }
 
     function renderChart() {
@@ -262,7 +268,7 @@
           for (const value of [known,stats.mean]) el('line',{x1:x(value),x2:x(value),y1:y-106,y2:y-98,class:'plot-error'});
           el('text',{x:475,y:y-83,class:'plot-tick'},'Errore della media ' + signed(stats.error) + ' g');
         }
-        description += key + ': ' + values.length + ' letture, media ' + format(stats.mean) + ' g; ' + (key === 'A' ? 'riferimento 100 g, errore ' + signed(stats.error) + ' g. ' : 'semidispersione ' + format(stats.dispersion) + ' g e incertezza didattica ' + format(stats.uncertainty) + ' g. ');
+        description += key + ': ' + values.length + ' letture, media ' + format(stats.mean) + ' g; ' + (key === 'A' ? 'riferimento 100 g, errore ' + signed(stats.error) + ' g. ' : 'semidispersione ' + format(stats.dispersion) + ' g e incertezza ' + format(stats.uncertainty) + ' g. ');
       }
       const desc = document.createElementNS(ns,'desc'); desc.id = 'misure-chart-desc'; desc.textContent = description; svg.prepend(desc);
       host.replaceChildren(svg); find('chart-description').textContent = description;

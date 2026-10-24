@@ -131,7 +131,7 @@
   "limits": [],
   "offline_method": "HTML caricato in memoria con rete disabilitata; immagini incorporate decodificate, MathML e simulazione disponibili. Navigazione file:// bloccata dalla policy del Chromium dell’ambiente e non dichiarata eseguita.",
   "html_sha256": {
-    "strumenti_misura_it.html": "dd9f0753c8f954615622a50e7e3a22ad581af23435f520fd4016cb1c6cc48f23",
-    "errori_incertezza_misura_it.html": "713c9c888db851010337db0c492c8da4fceb8213d25122ac2d490be6f2ab03fd"
+    "strumenti_misura_it.html": "58d528dce2799282bc088ea469261995b683bd612b3bea1d34352477f02db636",
+    "errori_incertezza_misura_it.html": "dc9f9dd9d2c6f0fb1e1290bbf95844c5960fed308b8f58c9c59a3d3021a46baa"
   }
 }

@@ -127,3 +127,11 @@ Rimosso il pannello del segnale e lo slider del guadagno elettrico. Il controllo
 Pesetti sul piatto ingranditi da 16 a 28 unità relative alla larghezza della bilancia, altezza minima 36 px; più spazio sopra il piatto, con display riallineato alla finestra originale. Etichette senza fondo o cartellino, colore e rilievo leggero per simulare incisione; campione B senza massa esposta. Originali raster preservati, nessuna alterazione delle masse reali del modello. HTML: capitolo 6 v9, capitolo 7 v8.
 
 Verifiche concluse sulla revisione corrente: 7 test quantitativi, 20 combinazioni di viewport/tema, tutte le interazioni, download, offline e no-JS; nessun errore o richiesta esterna. Masse visibili e pesetti interamente nel riquadro a 390 e 1440 px. Crediti, tema e build superati; HTML e copie di lavorazione identici. Sorgenti pubblici e manifest invariati.
+
+## Precisione, accuratezza e incertezza senza qualificazioni ripetute
+
+Su richiesta esplicita, nel 6 gli slider presentano soltanto concetti già introdotti: «Accuratezza» e «Precisione», con scala qualitativa da Molto bassa ad Alta. Aumentare il controllo riduce rispettivamente lo spostamento costante e l’ampiezza della variabilità; valori iniziali Alta per entrambi, modello interno 0 g. Registro aggiornato con gli stessi nomi qualitativi. Parametri tecnici conservati soltanto nel codice.
+
+Nel 7 eliminata la qualificazione didattica/scolastica da testo corrente, tabella, campi, grafico, aiuti, risposte e confronto. Si usa «incertezza U». Limite del criterio spostato nella nota finale già associata alla formula: cenno breve alla deviazione standard come dispersione di tutte le letture rispetto alla media, senza formule nuove. Regola U=max(d,q), dati e risultati invariati. HTML correnti: capitolo 6 v10, capitolo 7 v9.
+
+Verifica conclusa: 7 test quantitativi e 20 combinazioni viewport/tema con interazioni, download e offline superati. Ripristino ad Alta, mappatura dei controlli, etichette e testo controllati; nessun errore JavaScript o richiesta esterna. Crediti e build superati; HTML e copie di lavorazione identici.

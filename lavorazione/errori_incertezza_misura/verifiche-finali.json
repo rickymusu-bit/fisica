@@ -1,9 +1,9 @@
 {
-  "html_version": "v8",
-  "approved_draft": "v10, sensibilità in grammi e pesetti ingranditi con massa incisa richiesti dall’utente",
+  "html_version": "v9",
+  "approved_draft": "v11, slider precisione/accuratezza e semplificazione delle etichette di incertezza richiesti dall’utente",
   "authorization": "Ok vai; generazione di bilancia e pesetti richiesta esplicitamente",
-  "html_bytes": 4953539,
-  "html_sha256": "713c9c888db851010337db0c492c8da4fceb8213d25122ac2d490be6f2ab03fd",
+  "html_bytes": 4953649,
+  "html_sha256": "dc9f9dd9d2c6f0fb1e1290bbf95844c5960fed308b8f58c9c59a3d3021a46baa",
   "model_tests": {
     "passed": 7,
     "command": "node lavorazione/strumenti_misura/test_simulazione.cjs"
@@ -16,14 +16,14 @@
   "pages_build": "passed; nuovi capitoli esclusi dalla pubblicazione",
   "protected_sources": "invariati",
   "image_slots": [],
-  "preview_status": "Sensibilità in grammi, senza pannello elettrico; pesetti più grandi con etichette dall’aspetto inciso.",
+  "preview_status": "Slider di precisione e accuratezza nel 6; incertezza senza qualificazioni ripetute nel 7, deviazione standard nella nota finale.",
   "offline_method": "HTML caricato in memoria con rete disabilitata; immagini incorporate decodificate, MathML e simulazione disponibili. Navigazione file:// bloccata dalla policy del Chromium dell’ambiente e non dichiarata eseguita.",
   "screenshots_reviewed": [
     "lavorazione/strumenti_misura/anteprime/bilancia-carica-390.png",
     "lavorazione/strumenti_misura/anteprime/bilancia-carica-1440.png"
   ],
   "generated_assets_source": "lavorazione/strumenti_misura/risorse/bilancia-pesetti-fonte.json",
-  "model_checks_scope": "7 test quantitativi superati; 20 combinazioni viewport/tema e interazioni rieseguite: sensibilità in grammi, zero, quantizzazione, fuori scala, campioni separati, calcoli, registrazione e ripristino. Download, offline e no-JS verificati. Etichette e pesetti ingranditi verificati a 390 e 1440 px.",
+  "model_checks_scope": "7 test quantitativi superati; 20 combinazioni viewport/tema e interazioni rieseguite. Verificate mappatura dei livelli qualitativi, reset ad Alta, risposte ai controlli, letture e download. Verificati nomi dei controlli e assenza delle qualificazioni ripetute nell’articolo. Calcoli e geometria dei pesetti invariati.",
   "image_layouts_current": null,
   "licenses": {
     "manometro": "Photo by CEphoto, Uwe Aranas, CC BY-SA 3.0",

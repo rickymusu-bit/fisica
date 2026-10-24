@@ -1,6 +1,6 @@
 # Errori e incertezza di misura
 
-[EDITORIALE — Bozza v10, 24 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive scelte dall’utente e integrate. Area: Introduzione alla fisica e alla misura.]
+[EDITORIALE — Bozza v11, 24 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive scelte dall’utente e integrate. Area: Introduzione alla fisica e alla misura.]
 
 [COP-07 — Fotografia scelta dall'utente: TV noise.jpg. Intera, senza ritagli o zoom, non ripetuta nel corpo.]
 
@@ -98,7 +98,7 @@ x=\bar x\pm U
 
 Il simbolo \(x\) indica la grandezza misurata; \(\bar x\) è il valore medio delle letture e \(U\) l'incertezza assoluta dichiarata, espressa nella stessa unità. Il segno ± indica un'estensione di ampiezza \(U\) da entrambi i lati del valore riportato. L'incertezza non dice da sola quanto siamo lontani da un riferimento.[^1]
 
-Nel metodo scolastico semplificato usiamo la maggiore fra la semidispersione (d) e il passo leggibile (q) come stima didattica dell'incertezza:[^2]
+Per stimare l’incertezza usiamo il maggiore fra la semidispersione (d) e il passo leggibile (q):[^2]
 
 \[
 U=\max(d,q)
@@ -117,7 +117,7 @@ Questa scrittura associa al valore medio un intervallo da 2,31 s a 2,49 s, che i
 | Informazione | Valore nell'esempio | Che cosa comunica |
 | --- | --- | --- |
 | Valore medio della durata | 2,40 s | Il valore centrale riportato come risultato |
-| Incertezza didattica stimata | 0,09 s | Il maggiore fra semidispersione e passo leggibile |
+| Incertezza stimata | 0,09 s | Il maggiore fra semidispersione e passo leggibile |
 | Riferimento indipendente | 2,50 s | Il valore con cui confrontare il risultato |
 | Errore con segno | −0,10 s | Quanto il risultato è sotto il riferimento |
 
@@ -173,7 +173,7 @@ Per eseguire un confronto di questo tipo:
 3. Prendi il valore assoluto per esprimere l'entità dello scarto.
 4. Dividi per il valore assoluto del riferimento non nullo e, se serve, esprimi il rapporto in percento.
 
-L'errore assoluto dell'esempio, 0,10 s, è un po' maggiore della stima didattica dell'incertezza, 0,09 s. Il riferimento cade appena fuori dall'intervallo dichiarato: è un motivo per ricontrollare come abbiamo valutato la misura e quali contributi abbiamo considerato. Non basta da solo a identificare uno specifico errore sistematico.
+L'errore assoluto dell'esempio, 0,10 s, è un po' maggiore della stima dell'incertezza, 0,09 s. Il riferimento cade appena fuori dall'intervallo dichiarato: è un motivo per ricontrollare come abbiamo valutato la misura e quali contributi abbiamo considerato. Non basta da solo a identificare uno specifico errore sistematico.
 
 Se invece mancasse il riferimento, non potremmo eseguire quella sottrazione né calcolare l'errore percentuale effettivo. Potremmo comunque stimare l'incertezza usando ciò che sappiamo dello strumento e della procedura. È questa la differenza fra le due domande: “di quanto differisce dal riferimento?” e “con quale incertezza attribuiamo questo valore alla grandezza?”.
 
@@ -185,7 +185,7 @@ La bilancia virtuale ha proprietà fisse, riportate nella scheda dello strumento
 
 Misura più volte la massa nota e calcola la media delle letture. Confrontandola con il riferimento puoi stimare l'errore del risultato medio; ogni singolo punto mostra invece una singola lettura. Lo scarto della media dal riferimento e la dispersione dei punti sono informazioni diverse: una serie può essere raccolta ma spostata.
 
-Passa poi al campione ignoto. Calcola la media e la semidispersione, confronta quest'ultima con il passo leggibile e usa il criterio didattico appena descritto per proporre un'incertezza. Scrivi il risultato come valore medio ± incertezza, in grammi. Per questa attività la bilancia è regolata sullo zero; se il controllo con la massa nota suggerisce uno spostamento persistente, occorre controllare lo strumento prima di fidarsi della sola dispersione.
+Passa poi al campione ignoto. Calcola la media e la semidispersione, confronta quest'ultima con il passo leggibile e usa il criterio appena descritto per proporre un'incertezza. Scrivi il risultato come valore medio ± incertezza, in grammi. Per questa attività la bilancia è regolata sullo zero; se il controllo con la massa nota suggerisce uno spostamento persistente, occorre controllare lo strumento prima di fidarsi della sola dispersione.
 
 Il grafico sotto la bilancia mostra come si distribuiscono le letture. Per la massa nota puoi visualizzare riferimento, media e segmento dell'errore; per quella ignota, media e fascia dell'incertezza. Gli estremi osservati servono a leggere la semidispersione, mentre la fascia ±U è centrata sul valore medio: non sono necessariamente lo stesso intervallo. La massa nascosta non compare nel grafico, perché non la conosceresti durante una misura reale.
 
@@ -205,7 +205,7 @@ Il grafico sotto la bilancia mostra come si distribuiscono le letture. Per la ma
 
 [^1]: Il significato preciso dell'intervallo dipende da come è stata valutata e dichiarata l'incertezza. Il simbolo ± non garantisce da solo che il valore della grandezza sia certamente compreso fra i due estremi.
 
-[^2]: La regola del maggiore fra semidispersione e passo è una stima scolastica, non un calcolo generale dell'incertezza. Può lasciare fuori taratura, ambiente e altri contributi sistematici; non attribuisce una probabilità all'intervallo e non garantisce che contenga il valore di riferimento.
+[^2]: Il criterio basato su semidispersione e passo leggibile è semplificato. Nelle analisi statistiche si usa anche la deviazione standard, che considera quanto tutte le letture si discostano dalla media. La valutazione dell’incertezza comprende inoltre lo strumento e il metodo di misura.
 
 ---
 

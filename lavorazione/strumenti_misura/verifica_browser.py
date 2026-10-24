@@ -100,13 +100,17 @@ def main():
         set_range(page,'step',0);set_range(page,'capacity',0);page.locator('[data-weight="200"]').click()
         assert page.locator('[data-display]').get_attribute('data-value')=='overload';assert page.locator('[data-display]').inner_text()=='OL';assert page.locator('[data-record]').is_disabled()
         page.locator('[data-weight="200"]').click();page.clock.run_for(1100)
-        set_range(page,'offset',2);page.clock.run_for(1100);assert page.locator('[data-display]').inner_text()=='102 g'
+        set_range(page,'offset',3);page.clock.run_for(1100);assert page.locator('[data-display]').inner_text()=='102 g'
         set_range(page,'step',2);page.clock.run_for(1100);assert page.locator('[data-display]').inner_text()=='100 g'
         slider=page.locator('[data-property="step"]');slider.focus();page.keyboard.press('ArrowLeft');assert slider.input_value()=='1'
         page.locator('[data-reset]').click();page.clock.run_for(2500)
         assert page.locator('[data-display]').inner_text()=='0 g';assert page.locator('[data-record]').is_disabled()
         assert page.locator('[data-pan] .sim-pan-weight').count()==0
         assert page.locator('[data-property="step"]').input_value()=='0'
+        assert page.locator('[data-property-output=offset]').inner_text()=='Alta'
+        assert page.locator('[data-property-output=noise]').inner_text()=='Alta'
+        set_range(page,'noise',0);assert page.locator('[data-property-output=noise]').inner_text()=='Molto bassa'
+        set_range(page,'noise',5)
         page.locator('[data-weight="10"]').click();set_range(page,'step',1);page.clock.run_for(1100)
         assert page.locator('[data-display]').inner_text()=='20 g'
         set_range(page,'step',2);page.clock.run_for(1100)

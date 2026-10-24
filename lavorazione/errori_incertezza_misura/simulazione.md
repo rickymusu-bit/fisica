@@ -47,3 +47,7 @@ Bilancia digitale e pesetto generati su richiesta dell’utente; originali nella
 ## Specifica corrente: sensibilità in grammi e pesetti ingranditi
 
 La richiesta più recente sostituisce l’interfaccia del guadagno elettrico: niente millivolt, nessun controllo separato del segnale. Nel 6 «Sensibilità (passo leggibile)» agisce sul parametro step, in grammi (1, 20, 50); il guadagno interno resta fisso a 1. Nel 7 proprietà fisse con passo di 1 g. Confronto teorico fra sensibilità e risoluzione conservato; nota sul diverso uso scolastico del termine. Pesi più grandi sul piatto e nei selettori, scritte dall’aspetto inciso sul carico, riferimento 100 g etichettato e campione B senza massa nota. Funzionamento nell’HTML scaricato confermato dall’utente.
+
+## Interfaccia didattica corrente
+
+Capitolo 6: Accuratezza e Precisione sostituiscono i nomi tecnici dello spostamento dello zero e dei disturbi. Slider 0–5, valori più alti = prestazione migliore. Mappatura interna: offset=5−accuratezza e noise=5−precisione; reset a 5 per entrambi. Le uscite e il registro usano livelli qualitativi, senza percentuali di accuratezza prive di significato metrologico. Nel 7 etichette semplicemente «Incertezza U», nessuna qualificazione didattica/scolastica ripetuta; cenno alla deviazione standard solo nella nota finale.

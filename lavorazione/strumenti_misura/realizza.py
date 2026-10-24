@@ -207,9 +207,9 @@ def simulation(folder, mode, image_assets):
             scale=(m/200)**(1/3)
             result += button('<span class="sim-weight-thumb" style="--weight-size:' + str(scale) + '">' + img + '</span>' + str(m) + ' g', 'data-weight="' + str(m) + '" aria-pressed="false" aria-label="Aggiungi o rimuovi il pesetto da ' + str(m) + ' g"')
         result += button('Svuota il piatto','data-empty') + '</div><div class="sim-sliders">'
-        properties = [('capacity','Portata',2,1,'Il massimo carico misurabile.'),('step','Sensibilità (passo leggibile)',2,0,'La più piccola variazione di massa distinguibile sul display.'),('response','Tempo di risposta',2,1,'Un tempo più breve corrisponde a maggiore prontezza.'),('offset','Spostamento dello zero',5,0,'Uno spostamento costante non scompare ripetendo.'),('noise','Disturbi casuali',5,0,'Ampiezza massima del disturbo sintetico, in grammi equivalenti.')]
+        properties = [('capacity','Portata',2,1,'Il massimo carico misurabile.'),('step','Sensibilità (passo leggibile)',2,0,'La più piccola variazione di massa distinguibile sul display.'),('response','Tempo di risposta',2,1,'Un tempo più breve corrisponde a maggiore prontezza.'),('offset','Accuratezza',5,5,'Più alta: letture più vicine alla massa caricata.'),('noise','Precisione',5,5,'Più alta: letture ripetute più vicine fra loro.')]
         for key,label,maximum,initial,helptext in properties:
-            minimum = -5 if key == 'offset' else 0
+            minimum = 0
             result += '<label class="sim-slider"><span class="sim-slider-head"><span>' + label + '</span><output data-property-output="' + key + '"></output></span><input type="range" data-interactive disabled data-property="' + key + '" min="' + str(minimum) + '" max="' + str(maximum) + '" step="1" value="' + str(initial) + '"><small>' + helptext + '</small></label>'
         result += '</div><p data-series-label>Configurazione 1</p>'
     else:
@@ -225,9 +225,9 @@ def simulation(folder, mode, image_assets):
     result += ''.join('<th scope="col">' + h + '</th>' for h in headings) + '</tr></thead><tbody data-rows></tbody></table></div>'
     if lab:
         result += '<div class="sim-only-js"><p>Registra almeno cinque letture per campione. Inserisci i tuoi calcoli; puoi usare la virgola o il punto decimale e arrotondare la risposta a due decimali.</p><div class="sim-fields">'
-        for key,label,which in [('mean','Media (g)',''),('error','Errore della media, con segno (g)','only-reference'),('dispersion','Semidispersione (g)','only-unknown'),('uncertainty','Incertezza didattica U (g)','only-unknown')]:
+        for key,label,which in [('mean','Media (g)',''),('error','Errore della media, con segno (g)','only-reference'),('dispersion','Semidispersione (g)','only-unknown'),('uncertainty','Incertezza U (g)','only-unknown')]:
             result += '<label ' + ('data-' + which if which else '') + '>' + label + '<input type="text" inputmode="decimal" data-answer="' + key + '" autocomplete="off"></label>'
-        result += '</div><div class="sim-buttons">' + button('Controlla i calcoli','data-check',True) + button('Mostra il confronto','data-solution') + '</div><p class="sim-feedback" role="status" data-feedback></p><p class="sim-results" data-results hidden></p><details class="sim-help"><summary>Aiuto per i calcoli</summary><p>Media: somma delle letture divisa per il loro numero. Semidispersione: metà della differenza fra massimo e minimo. Stima scolastica U: la maggiore fra semidispersione e passo di 1 g. Errore del valore medio: media meno riferimento.</p></details><p class="sim-legend">La bilancia del modello è regolata sullo zero. La regola per U è una stima scolastica: la sola dispersione non comprende ogni possibile effetto sistematico. La fascia centrata sulla media può differire dall’intervallo minimo–massimo.</p></div>'
+        result += '</div><div class="sim-buttons">' + button('Controlla i calcoli','data-check',True) + button('Mostra il confronto','data-solution') + '</div><p class="sim-feedback" role="status" data-feedback></p><p class="sim-results" data-results hidden></p><details class="sim-help"><summary>Aiuto per i calcoli</summary><p>Media: somma delle letture divisa per il loro numero. Semidispersione: metà della differenza fra massimo e minimo. Incertezza U: la maggiore fra semidispersione e passo di 1 g. Errore del valore medio: media meno riferimento.</p></details><p class="sim-legend">La bilancia del modello è regolata sullo zero. La fascia centrata sulla media può differire dall’intervallo minimo–massimo.</p></div>'
     result += '</section>'
     return result
 
