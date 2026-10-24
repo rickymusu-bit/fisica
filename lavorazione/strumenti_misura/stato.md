@@ -97,3 +97,13 @@ Esempio della portata e domanda finale adattati alla scala nera 0–2500 bar, co
 Bersagli ricreati con SVG originale deterministico ed etichette italiane: colonne precisione alta/bassa, righe accuratezza alta/bassa; A e C in alto, B e D in basso. Nessun elemento grafico del file Ossila incorporato. Geometria verificata dal generatore; file e provenienza in lavorazione/errori_incertezza_misura/risorse/. Omesse didascalie che ripetevano testo o immagine; conservate le tre viste del parallasse. Nessuna immagine ancora da fornire. Versioni HTML correnti: capitolo 6 v6, capitolo 7 v3.
 
 Verifiche finali completate sulla versione corrente: 20 combinazioni di viewport e tema con tutte le interazioni, download e offline; altre 8 combinazioni per le nuove fotografie, crediti e zoom dei bersagli. Nessun errore JavaScript o richiesta esterna. Tutti gli slot immagini risolti; HTML e copie di lavorazione identici. Crediti, tema e build superati. Simulazioni e modello fisico invariati.
+
+## Correzioni richieste: fotografia, sensibilità, didascalie e pesetti — 24 ottobre 2026
+
+Nel capitolo 6 FIG-06-1b ora usa la fotografia 2023_Elektroniczna_waga_kuchenna.jpg scelta dall’utente, Jacek Halicki, CC BY-SA 4.0; scheda Commons conservata in risorse/bilancia-digitale-fonte.json e attribuzione nel registro unico. La bilancia generata resta nella simulazione. Sensibilità spiegata con il solo confronto discorsivo con la risoluzione, senza formula, definizione con simboli o tabella degli allungamenti. Ripristinate didascalie brevi e pertinenti per tutte le figure del corpo dei due capitoli; conservate le scritte delle tre viste del parallasse.
+
+Pesetti sul piatto con massa visibile sovrapposta all’immagine. Nel 7 il riferimento porta 100 g; il campione ignoto porta B, senza rivelare la massa. Modello quantitativo invariato. HTML correnti: capitolo 6 v7 (bozza v10); capitolo 7 v4 (bozza v7). Richieste esplicite dell’utente autorizzano queste modifiche.
+
+Su ulteriore richiesta dell’utente, FIG-07-2 sostituita con il voltmetro Вольтметр_4.jpg (Желуденко Павло, CC BY 4.0). Testo, didascalia, richiamo dopo i bersagli e quesiti coerenti con l’offset negativo; nessun valore numerico dell’offset inventato. Simulazione con bilancia generata invariata.
+
+Verifiche correnti concluse: 7 test quantitativi, 20 combinazioni di viewport e tema e 8 controlli mirati alle figure con didascalie e ai crediti. Etichette dei cinque pesetti verificate; nessun errore JavaScript o richiesta esterna. Download, offline, crediti, tema e build superati. HTML e copie di lavorazione identici, file pubblici invariati. Anteprime aggiornate pronte nella PR #72.

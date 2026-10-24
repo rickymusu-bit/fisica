@@ -1,6 +1,6 @@
 # Gli strumenti di misura
 
-[EDITORIALE — Bozza v9, 24 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive scelte dall’utente e integrate. I segnaposto descrivono i materiali da integrare dopo l'approvazione del testo. Area: Introduzione alla fisica e alla misura.]
+[EDITORIALE — Bozza v10, 24 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive scelte dall’utente e integrate. I segnaposto descrivono i materiali da integrare dopo l'approvazione del testo. Area: Introduzione alla fisica e alla misura.]
 
 [COP-06 — Fotografia scelta dall'utente: Ytterbium Lattice Double Clock with Photons at NIST.jpg. Intera, senza ritagli o zoom, non ripetuta nel corpo.]
 
@@ -14,9 +14,13 @@ Nella bilancia **analogica**, il valore si ricava dalla posizione della lancetta
 
 [FIG-06-1a — Foto originale della bilancia analogica. Conservare intera; la foto della bilancia digitale accompagna TAB-06 più avanti.]
 
+*La posizione della lancetta permette di seguire le variazioni del carico.*
+
 Per leggere una lancetta bisogna anche scegliere il punto di osservazione. Se indice e scala sono su piani diversi, guardare di lato cambia il loro allineamento apparente: è il **parallasse**. La lancetta non si è mossa, ma sembra corrispondere a un'altra tacca. Portare l'occhio davanti all'indice evita questo spostamento apparente. Se guardiamo sempre dallo stesso lato, anche lo spostamento tende a ripetersi nello stesso modo: è in questo senso sistematico.
 
 [FIG-06-2 — Nuovo schema originale del parallasse, ricreato su richiesta: scala, indice fermo e tre linee di vista geometricamente verificate. Occhi generati come elementi illustrativi; scritte italiane. Nessuna immagine Vecteezy incorporata.]
+
+*La lettura corretta si ottiene guardando la punta frontalmente; le viste oblique producono lo spostamento apparente.*
 
 ## Quanto può misurare, e quanto rapidamente?
 
@@ -24,11 +28,15 @@ Prima della lettura viene una scelta: lo strumento è adatto alla grandezza che 
 
 [FIG-06-3 — Manometro MAXIMATOR scelto dall’utente; fotografia intera, scala nera 0–2500 bar.]
 
+*La portata va scelta in base alla pressione che si prevede di misurare.*
+
 Una portata molto grande non risolve ogni problema. Se l'intervallo rappresentato sulla stessa scala aumenta senza aumentare le suddivisioni, ogni divisione corrisponde a una variazione maggiore della grandezza. Per seguire variazioni piccole serve quindi controllare anche la finezza della lettura.
 
 Un'altra caratteristica riguarda il tempo. Un termometro a colonna può avere tacche ogni decimo di grado e richiedere comunque tempo perché il liquido raggiunga la posizione corrispondente alla temperatura misurata. La **prontezza** descrive quanto rapidamente lo strumento risponde a un cambiamento della grandezza. La finezza della scala e la rapidità della risposta sono dunque due proprietà diverse.
 
 [FIG-06-4 — Termometro clinico a colonna scelto dall’utente; fotografia intera.]
+
+*Per misurare la temperatura occorre lasciare al termometro il tempo di rispondere.*
 
 ## Distinguere una variazione
 
@@ -36,23 +44,17 @@ Il cronometro della foto mostra i centesimi di secondo: l'ultima posizione visua
 
 [FIG-06-5 — Foto originale del cronometro, senza modificare le cifre mostrate.]
 
-La **sensibilità** risponde a una domanda diversa: quanto cambia l'indicazione quando cambia la grandezza misurata? Per descriverla confrontiamo le due variazioni:
+*I centesimi visualizzati non eliminano le variazioni dovute all’avvio e all’arresto manuali.*
 
-\[
-S=\frac{\Delta I}{\Delta x}
-\]
-
-Qui \(I\) è l'indicazione dello strumento e \(x\) la grandezza misurata; il simbolo \(\Delta\) indica una variazione. La sensibilità \(S\) esprime quindi la variazione dell'indicazione per ogni unità di variazione della grandezza. Le sue unità dipendono da ciò che confrontiamo.
-
-In un termometro a colonna, per esempio, possiamo confrontare l'allungamento della colonna con la variazione di temperatura. A parità di aumento di temperatura, una colonna che si allunga di 2 mm per ogni grado Celsius risponde con uno spostamento doppio rispetto a una che si allunga di 1 mm. È più sensibile, ma per sapere quale piccola variazione riusciamo a leggere dobbiamo considerare anche scala e leggibilità. La sensibilità non coincide dunque con la risoluzione.[^1]
-
-[PROSPETTO collegato a FIG-06-4 — Confronto concettuale del sorgente: termometro a colonna A, 2 mm per 1 °C; B, 1 mm per 1 °C. Dati illustrativi, non specifiche del termometro fotografato. Nessuna nuova immagine di dispositivo; i valori affiancati esplicitano il confronto senza un esercizio separato.]
+La **sensibilità** descrive quanto cambia l’indicazione quando cambia la grandezza misurata. Se, per lo stesso aumento di temperatura, la colonna di un termometro si allunga di più, quel termometro è più sensibile. La **risoluzione**, invece, dice quanto piccola è la variazione che riusciamo a distinguere: dipende anche dalla finezza della scala e dalla leggibilità. Una risposta più ampia non garantisce da sola una lettura più fine.[^1]
 
 ## Letture vicine, ma vicine a che cosa?
 
 Torniamo alla bilancia digitale. Supponiamo di controllarla con un oggetto al quale un riferimento attendibile attribuisce una massa di 100 g. La tabella riporta tre possibili serie di letture: sono dati inventati per confrontare due proprietà, non risultati di un esperimento eseguito.
 
-[FIG-06-1b — Bilancia digitale generata per le simulazioni, riutilizzata accanto al confronto delle letture.]
+[FIG-06-1b — Fotografia della bilancia digitale scelta dall’utente; bilancia generata conservata soltanto nella simulazione del capitolo 6.]
+
+*Il display rende immediata la lettura, ma il numero di cifre non basta a garantire l’accuratezza.*
 
 [TAB-06 — Prospetto concordato. Condizione comune: stessa massa di riferimento, 100 g; tre letture per serie.]
 
@@ -93,7 +95,7 @@ Registra le letture e confrontale mantenendo fisse le altre condizioni. Se cambi
 
 ## Note
 
-[^1]: Nel linguaggio scolastico e su alcuni strumenti, “sensibilità” indica il più piccolo passo leggibile. Qui usiamo il significato metrologico di rapporto fra variazione dell'indicazione e variazione della grandezza.
+[^1]: Alcuni testi scolastici usano “sensibilità” per indicare il più piccolo passo leggibile, che qui chiamiamo risoluzione.
 
 ---
 
@@ -148,3 +150,5 @@ L’utente autorizza la generazione della bilancia e dei pesetti per le simulazi
 ## Immagini teoriche correnti
 
 Scelte direttamente dall’utente: manometro MAXIMATOR (Photo by CEphoto, Uwe Aranas, CC BY-SA 3.0), termometro clinico (Jacek Halicki, CC BY-SA 4.0), cronometro (Lesselich, CC BY-SA 3.0). Bersagli ricreati su richiesta con geometria originale e scritte italiane, dal riferimento concettuale Ossila. Tutti i materiali del corpo ora disponibili; le annotazioni precedenti conservano la cronologia. Crediti e provenienze nel registro unico e negli snapshot offline.
+
+Revisione corrente su richiesta: fotografia 2023_Elektroniczna_waga_kuchenna.jpg di Jacek Halicki, CC BY-SA 4.0, per la bilancia digitale della teoria. Rimossi formula e prospetto tecnico della sensibilità; mantenuto il confronto discorsivo con la risoluzione. Didascalie ripristinate e masse visibili sui pesetti caricati.

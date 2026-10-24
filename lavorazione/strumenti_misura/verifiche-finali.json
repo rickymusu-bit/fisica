@@ -1,9 +1,9 @@
 {
-  "html_version": "v6",
-  "approved_draft": "v9, immagini e ricreazione dei bersagli richieste dall’utente",
+  "html_version": "v7",
+  "approved_draft": "v10, correzioni esplicite: fotografia, sensibilità, didascalie e masse sui pesetti",
   "authorization": "Ok vai; generazione di bilancia e pesetti richiesta esplicitamente",
-  "html_bytes": 17422105,
-  "html_sha256": "659d75e70403f02efe89dabb4addf9293cb6976a7e225c75202db00e54a4b128",
+  "html_bytes": 17804506,
+  "html_sha256": "6f0115776f82fd0db83c6f3e43ca5f6667fa9c424588cad930740119e1c4587f",
   "model_tests": {
     "passed": 7,
     "command": "node lavorazione/strumenti_misura/test_simulazione.cjs"
@@ -16,20 +16,22 @@
   "pages_build": "passed; nuovi capitoli esclusi dalla pubblicazione",
   "protected_sources": "invariati",
   "image_slots": [],
-  "preview_status": "Tutte le immagini concordate integrate; anteprima corrente pronta per revisione.",
+  "preview_status": "Nuove fotografie, didascalie ripristinate, sensibilità semplificata e masse sui pesetti.",
   "offline_method": "HTML caricato in memoria con rete disabilitata; immagini incorporate decodificate, MathML e simulazione disponibili. Navigazione file:// bloccata dalla policy del Chromium dell’ambiente e non dichiarata eseguita.",
   "screenshots_reviewed": [
-    "lavorazione/errori_incertezza_misura/risorse/bersagli-anteprima.png",
-    "lavorazione/strumenti_misura/anteprime/fig-06-4-dark-390.png",
-    "lavorazione/strumenti_misura/anteprime/fig-06-3-light-390.png"
+    "lavorazione/strumenti_misura/anteprime/bilancia-carica-390.png",
+    "lavorazione/strumenti_misura/anteprime/fig-06-1b-dark-390.png",
+    "lavorazione/errori_incertezza_misura/anteprime/fig-07-2-dark-390.png"
   ],
   "generated_assets_source": "lavorazione/strumenti_misura/risorse/bilancia-pesetti-fonte.json",
-  "model_checks_scope": "Modello matematico e simulazione invariati. Test quantitativi precedenti conservati; 20 layout e tutte le interazioni ripetuti sulla versione corrente. Otto combinazioni aggiuntive per fotografie, crediti e zoom dei bersagli.",
+  "model_checks_scope": "7 test quantitativi superati; modello invariato. Interazioni, download e offline rieseguiti; 20 layout e 8 combinazioni mirate per figure, didascalie e crediti.",
   "image_layouts_current": 8,
   "licenses": {
     "manometro": "Photo by CEphoto, Uwe Aranas, CC BY-SA 3.0",
     "termometro": "Jacek Halicki, CC BY-SA 4.0",
     "cronometro": "Lesselich, CC BY-SA 3.0",
-    "bersagli": "SVG originale ricreato su richiesta; riferimento concettuale Ossila documentato, nessun elemento del file originale incorporato."
+    "bersagli": "SVG originale ricreato su richiesta; riferimento concettuale Ossila documentato, nessun elemento del file originale incorporato.",
+    "bilancia_digitale": "Jacek Halicki, CC BY-SA 4.0",
+    "voltmetro_offset": "Желуденко Павло, CC BY 4.0"
   }
 }

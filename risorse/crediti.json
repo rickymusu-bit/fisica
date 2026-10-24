@@ -3983,6 +3983,46 @@
       "fingerprints": [
         "asset-13be5f4986488ac0705d5bae8db2629084f9f35aa055e0c286c31dcd9c6ef7e1"
       ]
+    },
+    {
+      "id": "credit-6aa2ff444b4ba9ca",
+      "description": "Bilancia digitale da cucina con un pomodoro sul piatto e lettura di 314 g.",
+      "source": "https://commons.wikimedia.org/wiki/File:2023_Elektroniczna_waga_kuchenna.jpg",
+      "author": "Jacek Halicki",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Fotografia intera nella versione Wikimedia scelta dall’utente, senza modifiche.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Bilancia digitale da cucina con un pomodoro sul piatto e lettura di 314 g. — Jacek Halicki. <a href=\"https://commons.wikimedia.org/wiki/File:2023_Elektroniczna_waga_kuchenna.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>. Modifiche: Fotografia intera nella versione Wikimedia scelta dall’utente, senza modifiche."
+      ],
+      "metadata_sources": [
+        "strumenti_misura_it.html"
+      ],
+      "fingerprints": [
+        "asset-1187382f965438ec4eb8212684797886004b0a1786f9bfa6999d9a1872ad9dd3"
+      ]
+    },
+    {
+      "id": "credit-d7ad6df666a9b7fe",
+      "description": "Voltmetro analogico con morsetti scollegati e lancetta sotto lo zero della scala da 0 a 6 V.",
+      "source": "https://commons.wikimedia.org/wiki/File:Вольтметр_4.jpg",
+      "author": "Желуденко Павло",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Fotografia intera nella versione Wikimedia scelta dall’utente, senza modifiche.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Voltmetro analogico con morsetti scollegati e lancetta sotto lo zero della scala da 0 a 6 V. — Желуденко Павло. <a href=\"https://commons.wikimedia.org/wiki/File:Вольтметр_4.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Modifiche: Fotografia intera nella versione Wikimedia scelta dall’utente, senza modifiche."
+      ],
+      "metadata_sources": [
+        "errori_incertezza_misura_it.html"
+      ],
+      "fingerprints": [
+        "asset-d9d5b08b3e28103a2fe1037243fe7342d58758b8573d6f38e99a17b1219300be"
+      ]
     }
   ],
   "documents": {
@@ -4915,6 +4955,10 @@
           "notice": 0
         },
         {
+          "resource": "credit-6aa2ff444b4ba9ca",
+          "notice": 0
+        },
+        {
           "resource": "bilancia-pesetti-generati",
           "notice": 1
         }
@@ -4944,8 +4988,8 @@
           "notice": 0
         },
         {
-          "resource": "bilancia-pesetti-generati",
-          "notice": 1
+          "resource": "credit-d7ad6df666a9b7fe",
+          "notice": 0
         },
         {
           "resource": "bersagli-precisione-accuratezza",
@@ -4954,6 +4998,10 @@
         {
           "resource": "grafico-misure-tempi",
           "notice": 0
+        },
+        {
+          "resource": "bilancia-pesetti-generati",
+          "notice": 1
         }
       ],
       "lexend": true,
@@ -5136,6 +5184,21 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-dilatazione-fig-01"
+        }
+      ]
+    },
+    {
+      "id": "asset-1187382f965438ec4eb8212684797886004b0a1786f9bfa6999d9a1872ad9dd3",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "image/jpeg",
+          "description": "Bilancia digitale da cucina con un pomodoro sul piatto e lettura di 314 g.",
+          "locator": "fig-06-1b",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-6aa2ff444b4ba9ca"
         }
       ]
     },
@@ -6077,25 +6140,7 @@
           "document": "errori_incertezza_misura_it.html",
           "kind": "svg",
           "description": "Bilancia digitale da laboratorio con piatto circolare e display.",
-          "locator": "fig-07-2",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": "bilancia-pesetti-generati"
-        },
-        {
-          "document": "errori_incertezza_misura_it.html",
-          "kind": "svg",
-          "description": "Bilancia digitale da laboratorio con piatto circolare e display.",
           "locator": "inizio",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": "bilancia-pesetti-generati"
-        },
-        {
-          "document": "strumenti_misura_it.html",
-          "kind": "svg",
-          "description": "Bilancia digitale da laboratorio con piatto circolare e display.",
-          "locator": "fig-06-1b",
           "attribute": "inline",
           "location": null,
           "credit_id": "bilancia-pesetti-generati"
@@ -8967,6 +9012,21 @@
           "attribute": "inline",
           "location": null,
           "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-d9d5b08b3e28103a2fe1037243fe7342d58758b8573d6f38e99a17b1219300be",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "errori_incertezza_misura_it.html",
+          "kind": "image/jpeg",
+          "description": "Voltmetro analogico con morsetti scollegati e lancetta sotto lo zero della scala da 0 a 6 V.",
+          "locator": "fig-07-2",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-d7ad6df666a9b7fe"
         }
       ]
     },

@@ -52,7 +52,7 @@ def main():
               assert page.locator('.questions>li').count()==(8 if key=='strumenti_misura' else 9)
               page.locator('img').evaluate_all('async(xs)=>Promise.all(xs.map(i=>{i.loading="eager";return i.decode()}))')
               assert page.locator('img').evaluate_all('(xs)=>xs.every(i=>i.naturalWidth>0)')
-              assert page.locator('mfrac').count()>0
+              assert page.locator('mfrac').count()>0 if key=='errori_incertezza_misura' else page.locator('.measure-sensor-table').count()==0
               assert page.locator('.sim-has-balance').count()==1
               assert page.locator('[data-display]').bounding_box()['width']<=page.locator('.sim-balance-scene').bounding_box()['width']
               assert page.locator('image[id="sim-balance-art"]').count()==1
@@ -115,6 +115,7 @@ def main():
         for mass in [20,50,100,200]:page.locator('[data-weight="'+str(mass)+'"]').click()
         page.clock.run_for(1100)
         assert page.locator('[data-pan] .sim-pan-weight').count()==5
+        assert page.locator('[data-pan] .sim-mass-label').all_text_contents()==['10 g','20 g','50 g','100 g','200 g']
         assert page.locator('[data-display]').inner_text()=='380 g'
         for width in [390,1440]:
           page.set_viewport_size({'width':width,'height':1000})
@@ -196,7 +197,8 @@ def main():
           plain=off.new_page();plain.set_content((ROOT/name).read_text())
           plain.locator('img').evaluate_all('async(xs)=>Promise.all(xs.map(i=>{i.loading="eager";return i.decode()}))')
           assert plain.locator('.sim-ready').count()==1;assert plain.locator('img').evaluate_all('(xs)=>xs.every(i=>i.naturalWidth>0)')
-          assert plain.locator('mfrac').count()>0;off.close()
+          assert (plain.locator('mfrac').count()>0) if key=='errori_incertezza_misura' else plain.locator('.measure-sensor-table').count()==0
+          off.close()
           nojs=browser.new_context(java_script_enabled=False,viewport={'width':390,'height':900})
           plain=nojs.new_page();plain.goto(origin+'/'+name);assert plain.locator('html').get_attribute('data-theme')=='dark'
           assert plain.locator('[data-record]').is_disabled();assert plain.locator('.questions>li').count()>0

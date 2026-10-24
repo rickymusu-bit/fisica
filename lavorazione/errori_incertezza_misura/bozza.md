@@ -1,6 +1,6 @@
 # Errori e incertezza di misura
 
-[EDITORIALE — Bozza v6, 24 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive scelte dall’utente e integrate. Area: Introduzione alla fisica e alla misura.]
+[EDITORIALE — Bozza v7, 24 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive scelte dall’utente e integrate. Area: Introduzione alla fisica e alla misura.]
 
 [COP-07 — Fotografia scelta dall'utente: TV noise.jpg. Intera, senza ritagli o zoom, non ripetuta nel corpo.]
 
@@ -14,11 +14,15 @@ La misura coinvolge lo strumento, il modo in cui lo usiamo e le condizioni della
 
 [SCH-07-1 — Cronometro digitale scelto dall’utente; fotografia intera, display azzerato conservato. I valori dell’esempio sono sviluppati nel testo, nella tabella e nel grafico.]
 
+*La pressione manuale dei tasti può cambiare da una prova all’altra e contribuire alla dispersione dei tempi.*
+
 Quando avviamo e fermiamo il cronometro a mano, il momento in cui premiamo il tasto non è identico a ogni prova. Queste variazioni possono contribuire agli **errori casuali**, che cambiano in modo imprevedibile fra misure ripetute. Ripetere ci aiuta a osservare la dispersione e a rendere il risultato meno dipendente da una singola lettura. Non elimina però ogni possibile spostamento.
 
-Pensiamo ora a una bilancia il cui zero sia spostato: anche senza carico indica 2 g. Nelle condizioni considerate, le letture risultano maggiori di circa 2 g rispetto a quelle che otterremmo con lo zero corretto. Questo è un esempio di **errore sistematico**: un contributo che rimane costante o cambia in modo prevedibile. Ripetere la misura non lo cancella; occorre controllare lo zero, correggere la procedura o confrontare lo strumento con un riferimento.
+Nel voltmetro della foto, con i morsetti scollegati, la lancetta si trova sotto lo zero: lo spostamento dello zero, detto **offset**, è negativo. Uno spostamento di questo tipo porta a leggere valori più bassi di quelli che si otterrebbero con lo zero corretto. Questo è un esempio di **errore sistematico**: un contributo che rimane costante o cambia in modo prevedibile. Ripetere la misura non lo cancella; occorre controllare lo zero, correggere la procedura o confrontare lo strumento con un riferimento.
 
-[FIG-07-2 — Bilancia digitale generata per le simulazioni, riutilizzata nel confronto sulle letture. Lo zero spostato è un caso ipotetico.]
+[FIG-07-2 — Voltmetro analogico scelto dall’utente, con offset negativo; fotografia intera.]
+
+*L’offset negativo sposta le letture verso valori più bassi; ripetere la misura non lo elimina.*
 
 Diverso ancora è uno **sbaglio grossolano**: trascrivere 23,4 g invece di 32,4 g, confondere grammi e chilogrammi oppure usare il comando sbagliato. Qui non stiamo descrivendo una normale variazione fra letture, ma un problema nella procedura o nella registrazione. Un dato molto lontano dagli altri invita a controllare gli appunti e la prova; non si elimina automaticamente perché disturba il risultato.
 
@@ -28,7 +32,9 @@ I bersagli permettono di vedere la differenza fra dispersione e spostamento. Imm
 
 [FIG-07-1 — Schema dei quattro bersagli ricreato su richiesta a partire dal riferimento Ossila, con etichette in italiano. A e C in alto, B e D in basso.]
 
-Il gruppo B mostra perché una serie precisa può essere poco accurata. Aggiungere altri punti nello stesso gruppo renderebbe ancora più evidente la loro concentrazione, ma non li riporterebbe al centro. Analogamente, molte letture simili della bilancia con lo zero spostato non risolvono il problema dello zero.
+*La precisione riguarda quanto i punti sono raccolti; l’accuratezza riguarda la loro vicinanza al riferimento centrale.*
+
+Il gruppo B mostra perché una serie precisa può essere poco accurata. Aggiungere altri punti nello stesso gruppo renderebbe ancora più evidente la loro concentrazione, ma non li riporterebbe al centro. Analogamente, molte letture simili del voltmetro con lo zero spostato non risolvono il problema dello zero.
 
 Nel gruppo C, invece, le letture sono disperse, pur essendo distribuite attorno al riferimento. La dispersione è un'informazione utile, ma non basta per ricostruire ogni contributo alla misura. Per questo un risultato deve comunicare anche quanto è incerto.
 
@@ -188,8 +194,8 @@ Il grafico sotto la bilancia mostra come si distribuiscono le letture. Per la ma
 1. Nell'infografica dei bersagli, quale gruppo di punti è preciso ma poco accurato? Spiega con le parole “dispersione” e “riferimento”.
 2. Se non conosci il valore di riferimento, puoi calcolare l'errore percentuale effettivo? Puoi comunque stimare l'incertezza? Motiva.
 3. Ricava dalla tabella la media e la semidispersione; poi spiega perché un display che mostra 0,01 s non basta a dichiarare un'incertezza di 0,01 s.
-4. Vero o falso? «Ripetere molte volte una misura elimina anche uno zero spostato dello strumento». Spiega usando la bilancia.
-5. Confronta una variazione imprevedibile nell'avvio del cronometro, uno zero spostato della bilancia e una trascrizione errata: a quale categoria appartiene ciascun caso e quale controllo sarebbe utile?
+4. Vero o falso? «Ripetere molte volte una misura elimina anche uno zero spostato dello strumento». Spiega usando il voltmetro.
+5. Confronta una variazione imprevedibile nell'avvio del cronometro, uno zero spostato del voltmetro e una trascrizione errata: a quale categoria appartiene ciascun caso e quale controllo sarebbe utile?
 6. Che cosa significano i due numeri nella scrittura \(t=(2{,}40\pm0{,}09)\,\mathrm{s}\)? Perché non possiamo leggere automaticamente 0,09 s come l'errore effettivo?
 7. Nel confronto dell'esempio, l'errore è −0,10 s. Che cosa comunica il segno meno? Quale informazione si perde passando al valore assoluto?
 8. A parità di errore assoluto, se il valore di riferimento raddoppia, come cambia l'errore relativo? Motiva usando la formula.
@@ -226,3 +232,5 @@ L’utente autorizza la generazione della bilancia e dei pesetti per le simulazi
 ## Immagini teoriche correnti
 
 Scelte direttamente dall’utente: manometro MAXIMATOR (Photo by CEphoto, Uwe Aranas, CC BY-SA 3.0), termometro clinico (Jacek Halicki, CC BY-SA 4.0), cronometro (Lesselich, CC BY-SA 3.0). Bersagli ricreati su richiesta con geometria originale e scritte italiane, dal riferimento concettuale Ossila. Tutti i materiali del corpo ora disponibili; le annotazioni precedenti conservano la cronologia. Crediti e provenienze nel registro unico e negli snapshot offline.
+
+Revisione corrente: errore sistematico illustrato dal voltmetro con offset negativo fornito dall’utente, con testo e quesiti aggiornati. Credito: Желуденко Павло, CC BY 4.0.

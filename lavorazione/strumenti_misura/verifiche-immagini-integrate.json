@@ -53,17 +53,21 @@
   "external_requests": [],
   "image_slots": {
     "strumenti_misura": [
+      "FIG-06-1a",
+      "FIG-06-1b",
+      "FIG-06-2",
       "FIG-06-3",
       "FIG-06-4",
       "FIG-06-5"
     ],
     "errori_incertezza_misura": [
       "SCH-07-1",
-      "FIG-07-1"
+      "FIG-07-1",
+      "FIG-07-2"
     ]
   },
   "html_sha256": {
-    "strumenti_misura_it.html": "659d75e70403f02efe89dabb4addf9293cb6976a7e225c75202db00e54a4b128",
-    "errori_incertezza_misura_it.html": "9388db4894294393ca2dceb11fb95c4b0a652f6019ca605b59e4274d62c9a265"
+    "strumenti_misura_it.html": "6f0115776f82fd0db83c6f3e43ca5f6667fa9c424588cad930740119e1c4587f",
+    "errori_incertezza_misura_it.html": "b4507af80a465d544c46b7cce2a24433c61239de46201dcf5ff5febc092fae82"
   }
 }

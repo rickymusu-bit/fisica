@@ -218,3 +218,5 @@ Su richiesta dell’utente generate e integrate le immagini della bilancia digit
 ## Capitoli 6 e 7: immagini complete — 24 ottobre 2026
 
 Integrate le ultime immagini scelte dall’utente: manometro in sostituzione del voltmetro, termometro a colonna e cronometro; ricreati su richiesta i quattro bersagli con etichette italiane. Aggiornati gli esempi coerentemente con scale e strumenti fotografati. HTML correnti: strumenti_misura_it.html v6; errori_incertezza_misura_it.html v3. Nessuna immagine pendente. PR #72 in bozza; anteprima da revisionare prima della pubblicazione.
+
+Revisione richiesta il 24 ottobre 2026: capitolo 6 v7 con nuova foto della bilancia digitale nella teoria, sensibilità semplificata e didascalie ripristinate. Etichette di massa sui pesetti; capitolo 7 v4 con didascalie e riferimento etichettato, massa ignota nascosta.

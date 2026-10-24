@@ -79,3 +79,7 @@ Bilancia digitale e pesetti generati su richiesta, incorporati e riutilizzati ne
 ## Visuali correnti complete — 24 ottobre 2026
 
 La scelta esplicita dell’utente sostituisce le proposte storiche sopra: FIG-06-3 manometro MAXIMATOR 0–2500 bar; FIG-06-4 termometro clinico a colonna; FIG-06-5 e SCH-07-1 cronometro digitale azzerato. Fotografie intere, non modificate, senza zoom o didascalie ridondanti. FIG-07-1: ricreazione autorizzata del confronto Ossila mediante SVG originale, etichette italiane e stesso ordine concettuale delle righe e colonne. Nessuna figura pendente. Metadati nel registro centrale e schede nelle risorse; autorizzazione e controlli nel file di stato.
+
+## Revisione corrente delle didascalie e del carico
+
+Ripristinate le didascalie su richiesta. FIG-06-1b usa la fotografia della bilancia con pomodoro scelta dall’utente; l’illustrazione generata resta nelle simulazioni. I pesetti caricati riportano le masse in sovrapposizione leggibile; il campione ignoto resta identificato solo da B. Sensibilità trattata nel testo con un confronto qualitativo con la risoluzione.

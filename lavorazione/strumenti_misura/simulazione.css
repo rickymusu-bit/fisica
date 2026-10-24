@@ -18,3 +18,5 @@
 @media(max-width:560px){.measurement-sim{padding:14px}.sim-stage{gap:12px;padding:12px}.sim-sliders,.sim-fields{grid-template-columns:1fr}.sim-display{font-size:28px}.sim-photo-pending{padding:20px 8px;font-size:13px}.sim-slider-head{flex-wrap:wrap}.measurement-sim button{font-size:15px}.sim-readout p{font-size:14px}}
 @media(max-width:560px){.sim-balance-scene .sim-device-display{font-size:clamp(14px,9cqw,32px)}.sim-weights button[data-weight]{min-width:66px}.sim-weight-thumb{width:52px;height:75px}.sim-weight-thumb>div{height:calc(70px * var(--weight-size))}}
 @media(prefers-reduced-motion:reduce){.measurement-sim *{scroll-behavior:auto!important;transition:none!important}}
+
+.sim-pan-item{position:relative;display:flex;justify-content:center;align-items:flex-end;flex:0 0 auto;min-width:28px;height:calc(16cqw * var(--weight-size))}.sim-pan-item .sim-pan-weight{flex:none}.sim-mass-label{position:absolute;bottom:8%;left:50%;transform:translateX(-50%);white-space:nowrap;font:600 clamp(10px,2.6cqw,14px)/1.1 Arial,sans-serif;color:#18212a;background:#f3f4f2;border-radius:2px;padding:1px 2px}

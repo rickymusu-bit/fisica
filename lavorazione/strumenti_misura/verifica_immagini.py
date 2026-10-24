@@ -55,7 +55,7 @@ def main():
             ids=page.locator('[id]').evaluate_all('(xs)=>xs.map(e=>e.id)');assert len(ids)==len(set(ids))
             photo=page.locator('#fig-06-1a');diagram=page.locator('#fig-06-2')
             assert photo.locator('.image-zoom').count()==0
-            assert photo.locator('figcaption').count()==0 and diagram.locator('figcaption').count()==0
+            assert photo.locator('figcaption').count()==1 and diagram.locator('figcaption').count()==1
             assert photo.locator('img').get_attribute('src').split(',',1)[0]=='data:image/jpeg;base64'
             assert base64.b64decode(photo.locator('img').get_attribute('src').split(',',1)[1])==(WORK/'risorse/bilancia-analogica.jpg').read_bytes()
             assert base64.b64decode(diagram.locator('.overview img').get_attribute('src').split(',',1)[1])==(WORK/'risorse/parallasse.svg').read_bytes()

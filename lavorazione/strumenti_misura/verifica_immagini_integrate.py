@@ -9,7 +9,7 @@ ROOT=Path(__file__).resolve().parents[2];W=ROOT/'lavorazione'
 class Quiet(SimpleHTTPRequestHandler):
  def log_message(self,*args):pass
 server=ThreadingHTTPServer(('127.0.0.1',0),partial(Quiet,directory=str(ROOT)));Thread(target=server.serve_forever,daemon=True).start();origin='http://127.0.0.1:'+str(server.server_port)
-report={'layouts':[],'errors':[],'external_requests':[],'image_slots':{'strumenti_misura':['FIG-06-3','FIG-06-4','FIG-06-5'],'errori_incertezza_misura':['SCH-07-1','FIG-07-1']}}
+report={'layouts':[],'errors':[],'external_requests':[],'image_slots':{'strumenti_misura':['FIG-06-1a','FIG-06-1b','FIG-06-2','FIG-06-3','FIG-06-4','FIG-06-5'],'errori_incertezza_misura':['SCH-07-1','FIG-07-1','FIG-07-2']}}
 try:
  with sync_playwright() as p:
   browser=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox','--disable-dev-shm-usage'])
@@ -25,12 +25,12 @@ try:
      page.add_style_tag(content='.topbar{visibility:hidden!important}')
      for slot in report['image_slots'][chapter]:
       figure=page.locator('#'+slot.lower());asset=assets[slot]
-      assert figure.locator('figcaption').count()==0
+      assert figure.locator('figcaption').count()==1
       img=figure.locator('.overview img');assert base64.b64decode(img.get_attribute('src').split(',',1)[1])==(W/chapter/asset['path']).read_bytes()
       assert figure.locator('.image-zoom').count()==(1 if asset.get('zoom') else 0)
       figure.screenshot(path=str(W/chapter/'anteprime'/f'{slot.lower()}-{theme}-{width}.png'))
       if asset.get('zoom'):
-       figure.locator('summary').click();expect(figure.locator('details')).to_have_attribute('open','');assert 'Bersagli' in figure.locator('.zoom-scroll').get_attribute('aria-label');assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1');figure.locator('summary').click()
+       figure.locator('summary').click();expect(figure.locator('details')).to_have_attribute('open','');assert ('Bersagli' if slot=='FIG-07-1' else 'parallasse') in figure.locator('.zoom-scroll').get_attribute('aria-label');assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1');figure.locator('summary').click()
      page.locator('[data-offline-credits]').click();credit=page.locator('#crediti-autonomi').inner_text()
      assert 'Lesselich' in credit and 'CC BY-SA 3.0' in credit
      if chapter=='strumenti_misura':assert 'Photo by CEphoto, Uwe Aranas' in credit and 'Jacek Halicki' in credit and 'CC BY-SA 4.0' in credit

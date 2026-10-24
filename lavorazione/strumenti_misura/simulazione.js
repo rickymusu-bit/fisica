@@ -58,7 +58,12 @@
         svg.setAttribute('viewBox',scene.dataset.weightViewbox);svg.setAttribute('role','img');
         svg.setAttribute('aria-label',lab ? (sample==='A' ? 'Campione A, riferimento 100 g sul piatto' : 'Campione B sul piatto') : 'Pesetto da '+m+' g sul piatto');
         svg.classList.add('sim-pan-weight');svg.style.setProperty('--weight-size',String(Math.cbrt(m/200)));
-        use.setAttribute('href','#'+scene.dataset.weightSymbol);svg.append(use);pan.append(svg);
+        use.setAttribute('href','#'+scene.dataset.weightSymbol);svg.append(use);
+        const item=document.createElement('span'),label=document.createElement('span');
+        item.className='sim-pan-item';item.style.setProperty('--weight-size',String(Math.cbrt(m/200)));
+        label.className='sim-mass-label';label.setAttribute('aria-hidden','true');
+        label.textContent=lab && sample==='B' ? 'B' : m+' g';
+        item.append(svg,label);pan.append(item);
       }
     }
     function updateReading(value, rawSignal) {
