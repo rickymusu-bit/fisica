@@ -1,3 +1,11 @@
+## Revisione corrente — economia informativa, 24 ottobre 2026
+
+Richiesta esplicita dell’utente: «Okay, riscrivi e taglia in modo opportuno», dopo la ricognizione dei 17 capitoli pubblicati. Master v69.15, AGENTS.md, stile v7 e standard dei visuali consultati. Revisione editoriale autorizzata nel ramo `revisione/economia-informativa`; nessuna autorizzazione al merge o alla pubblicazione.
+
+HTML corrente **v8**, derivato da v7. Ridotte ripetizioni fra testo, didascalie e istruzioni; note selezionate e rinumerate con ritorni aggiornati. Tema, fotografie, formule principali e codice delle simulazioni conservati. La copia HTML di lavorazione, dove presente, è riallineata; l’HTML revisionato prevale sulle bozze testuali e sui generatori storici che descrivono stesure precedenti.
+
+Interventi e controlli nella [revisione comune](../sito/economia-informativa/README.md). Prossimo passo: valutazione dell’anteprima corrente e approvazione esplicita prima di integrare main o aggiornare Pages. Le autorizzazioni storiche sottostanti non si estendono a questa revisione.
+
 # Stato — Convezione
 
 ## Revisione corrente — tagli delle precisazioni approvati, 23 ottobre 2026

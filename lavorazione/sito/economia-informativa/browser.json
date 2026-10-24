@@ -1,0 +1,499 @@
+{
+  "checks": [
+    {
+      "file": "metodo_scientifico_it.html",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "metodo_scientifico_it.html",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "metodo_scientifico_it.html",
+      "width": 1440,
+      "theme": "light",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "metodo_scientifico_it.html",
+      "width": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "immagini": true,
+      "richiami_note_verificati": 1
+    },
+    {
+      "file": "grandezze_fisiche_sistema_internazionale_it.html",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "grandezze_fisiche_sistema_internazionale_it.html",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "grandezze_fisiche_sistema_internazionale_it.html",
+      "width": 1440,
+      "theme": "light",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "grandezze_fisiche_sistema_internazionale_it.html",
+      "width": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "immagini": true,
+      "richiami_note_verificati": 0
+    },
+    {
+      "file": "potenze_dieci_notazione_scientifica_it.html",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "potenze_dieci_notazione_scientifica_it.html",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "potenze_dieci_notazione_scientifica_it.html",
+      "width": 1440,
+      "theme": "light",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "potenze_dieci_notazione_scientifica_it.html",
+      "width": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "immagini": true,
+      "richiami_note_verificati": 2
+    },
+    {
+      "file": "prefissi_sistema_internazionale_it.html",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "prefissi_sistema_internazionale_it.html",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "prefissi_sistema_internazionale_it.html",
+      "width": 1440,
+      "theme": "light",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "prefissi_sistema_internazionale_it.html",
+      "width": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "immagini": true,
+      "richiami_note_verificati": 0
+    },
+    {
+      "file": "cifre_significative_it.html",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "cifre_significative_it.html",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "cifre_significative_it.html",
+      "width": 1440,
+      "theme": "light",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "cifre_significative_it.html",
+      "width": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "immagini": true,
+      "richiami_note_verificati": 3
+    },
+    {
+      "file": "strumenti_misura_it.html",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "strumenti_misura_it.html",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "strumenti_misura_it.html",
+      "width": 1440,
+      "theme": "light",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "strumenti_misura_it.html",
+      "width": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "immagini": true,
+      "richiami_note_verificati": 1
+    },
+    {
+      "file": "errori_incertezza_misura_it.html",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "errori_incertezza_misura_it.html",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "errori_incertezza_misura_it.html",
+      "width": 1440,
+      "theme": "light",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "errori_incertezza_misura_it.html",
+      "width": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "immagini": true,
+      "richiami_note_verificati": 2
+    },
+    {
+      "file": "termodinamica_sistemi_it.html",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "termodinamica_sistemi_it.html",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "termodinamica_sistemi_it.html",
+      "width": 1440,
+      "theme": "light",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "termodinamica_sistemi_it.html",
+      "width": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "immagini": true,
+      "richiami_note_verificati": 1
+    },
+    {
+      "file": "temperatura_equilibrio_termico_it.html",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "temperatura_equilibrio_termico_it.html",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "temperatura_equilibrio_termico_it.html",
+      "width": 1440,
+      "theme": "light",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "temperatura_equilibrio_termico_it.html",
+      "width": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "immagini": true,
+      "richiami_note_verificati": 4
+    },
+    {
+      "file": "energia_interna_calore_specifico_it.html",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "energia_interna_calore_specifico_it.html",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "energia_interna_calore_specifico_it.html",
+      "width": 1440,
+      "theme": "light",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "energia_interna_calore_specifico_it.html",
+      "width": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "immagini": true,
+      "richiami_note_verificati": 5
+    },
+    {
+      "file": "bilancio_termico_it.html",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "bilancio_termico_it.html",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "bilancio_termico_it.html",
+      "width": 1440,
+      "theme": "light",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "bilancio_termico_it.html",
+      "width": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "immagini": true,
+      "richiami_note_verificati": 4
+    },
+    {
+      "file": "dilatazione_termica_it.html",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "dilatazione_termica_it.html",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "dilatazione_termica_it.html",
+      "width": 1440,
+      "theme": "light",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "dilatazione_termica_it.html",
+      "width": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "immagini": true,
+      "richiami_note_verificati": 5
+    },
+    {
+      "file": "stati_della_materia.html",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "stati_della_materia.html",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "stati_della_materia.html",
+      "width": 1440,
+      "theme": "light",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "stati_della_materia.html",
+      "width": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "immagini": true,
+      "richiami_note_verificati": 5
+    },
+    {
+      "file": "passaggi_di_stato.html",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "passaggi_di_stato.html",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "passaggi_di_stato.html",
+      "width": 1440,
+      "theme": "light",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "passaggi_di_stato.html",
+      "width": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "immagini": true,
+      "richiami_note_verificati": 15
+    },
+    {
+      "file": "conduzione_it.html",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "conduzione_it.html",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "conduzione_it.html",
+      "width": 1440,
+      "theme": "light",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "conduzione_it.html",
+      "width": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "immagini": true,
+      "richiami_note_verificati": 7
+    },
+    {
+      "file": "convezione_it.html",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "convezione_it.html",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "convezione_it.html",
+      "width": 1440,
+      "theme": "light",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "convezione_it.html",
+      "width": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "immagini": true,
+      "richiami_note_verificati": 6
+    },
+    {
+      "file": "irraggiamento_it.html",
+      "width": 390,
+      "theme": "light",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "irraggiamento_it.html",
+      "width": 390,
+      "theme": "dark",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "irraggiamento_it.html",
+      "width": 1440,
+      "theme": "light",
+      "overflow": false,
+      "immagini": true
+    },
+    {
+      "file": "irraggiamento_it.html",
+      "width": 1440,
+      "theme": "dark",
+      "overflow": false,
+      "immagini": true,
+      "richiami_note_verificati": 6
+    }
+  ],
+  "errori_javascript": [],
+  "offline_senza_js": true
+}
