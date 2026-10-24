@@ -187,7 +187,7 @@ def simulation(folder, mode, image_assets):
     lab = mode == 'lab'
     title = 'Massa nota e massa ignota' if lab else 'Pesetti e proprietà della bilancia'
     result = '<section class="measurement-sim" data-measurement="' + mode + '" aria-label="' + title + '"><h3>' + title + '</h3>'
-    result += '<p class="sim-intro">Valori simulati. ' + ('Le proprietà dello strumento sono fisse: portata 500 g, passo leggibile 1 g, sensibilità del sensore 1 mV/g e risposta di circa 1 s.' if lab else 'Aggiungi i pesetti al piatto e varia una proprietà alla volta con gli slider sotto la bilancia.') + '</p>'
+    result += '<p class="sim-intro">Valori simulati. ' + ('Le proprietà dello strumento sono fisse: portata 500 g, passo leggibile 1 g e risposta di circa 1 s.' if lab else 'Aggiungi i pesetti al piatto e varia una proprietà alla volta con gli slider sotto la bilancia.') + '</p>'
     generated=bool(image_assets.get('bilancia',{}).get('symbol'))
     if generated:
         weight=image_assets['pesetto-100'];box=weight['viewbox'];aspect=box[2]/box[3]
@@ -195,7 +195,7 @@ def simulation(folder, mode, image_assets):
         result += '<div class="sim-stage sim-stage-generated"><div class="sim-balance-scene" data-weight-symbol="' + weight['symbol'] + '" data-weight-viewbox="' + ' '.join(str(v) for v in box) + '" style="--weight-aspect:' + str(aspect) + '">' + photo(folder,'bilancia','',image_assets,sim=True) + '<div class="sim-pan" data-pan></div><output class="sim-display sim-device-display" data-display aria-label="Indicazione della bilancia" aria-live="off">0 g</output></div><div class="sim-readout">'
     else:
         result += '<div class="sim-stage"><div>' + photo(folder,'bilancia','',image_assets,sim=True) + '</div><div class="sim-readout"><span class="sim-display-label">Indicazione della bilancia</span><output class="sim-display" data-display aria-live="off">0 g</output>'
-    if not lab: result += '<p>Massa caricata: <strong data-loaded-mass>0 g</strong></p><p>Segnale del sensore: <output data-signal>0 mV</output></p>'
+    if not lab: result += '<p>Massa caricata: <strong data-loaded-mass>0 g</strong></p>'
     result += '</div></div>'
     button = lambda label, attr, primary=False: '<button type="button" data-interactive disabled ' + attr + (' class="sim-primary"' if primary else '') + '>' + label + '</button>'
     if not lab:
@@ -207,7 +207,7 @@ def simulation(folder, mode, image_assets):
             scale=(m/200)**(1/3)
             result += button('<span class="sim-weight-thumb" style="--weight-size:' + str(scale) + '">' + img + '</span>' + str(m) + ' g', 'data-weight="' + str(m) + '" aria-pressed="false" aria-label="Aggiungi o rimuovi il pesetto da ' + str(m) + ' g"')
         result += button('Svuota il piatto','data-empty') + '</div><div class="sim-sliders">'
-        properties = [('capacity','Portata',2,1,'Il massimo carico misurabile.'),('step','Passo leggibile (risoluzione)',2,0,'La lettura cambia a multipli di questo passo.'),('response','Tempo di risposta',2,1,'Un tempo più breve corrisponde a maggiore prontezza.'),('sensitivity','Sensibilità del sensore',2,0,'Segnale elettrico in millivolt per grammo. La massa non cambia.'),('offset','Spostamento dello zero',5,0,'Uno spostamento costante non scompare ripetendo.'),('noise','Disturbi casuali',5,0,'Ampiezza massima del disturbo sintetico, in grammi equivalenti.')]
+        properties = [('capacity','Portata',2,1,'Il massimo carico misurabile.'),('step','Sensibilità (passo leggibile)',2,0,'La più piccola variazione di massa distinguibile sul display.'),('response','Tempo di risposta',2,1,'Un tempo più breve corrisponde a maggiore prontezza.'),('offset','Spostamento dello zero',5,0,'Uno spostamento costante non scompare ripetendo.'),('noise','Disturbi casuali',5,0,'Ampiezza massima del disturbo sintetico, in grammi equivalenti.')]
         for key,label,maximum,initial,helptext in properties:
             minimum = -5 if key == 'offset' else 0
             result += '<label class="sim-slider"><span class="sim-slider-head"><span>' + label + '</span><output data-property-output="' + key + '"></output></span><input type="range" data-interactive disabled data-property="' + key + '" min="' + str(minimum) + '" max="' + str(maximum) + '" step="1" value="' + str(initial) + '"><small>' + helptext + '</small></label>'

@@ -71,7 +71,6 @@
       display.textContent = value === null ? (root.classList.contains('sim-has-balance') ? 'OL' : 'Fuori scala') : format(value) + ' g';
       display.setAttribute('aria-label',value===null ? 'Fuori scala' : 'Indicazione della bilancia: '+format(value)+' g');
       display.dataset.value = value === null ? 'overload' : String(value);
-      if (!lab) find('signal').textContent = format(rawSignal) + ' mV';
     }
     function canRecord() {
       const count = lab ? series[sample].length : rows.filter(r => r.configuration === configuration).length;
@@ -118,7 +117,7 @@
       if (!lab) for (const row of rows) {
         const tr = document.createElement('tr');
         [row.configuration, format(row.mass) + ' g', format(row.value) + ' g', row.stable ? 'Stabilizzata' : 'Anticipata',
-          'P ' + row.config.capacity + ' g; q ' + row.config.step + ' g; risposta ' + format(row.config.response) + ' s; S ' + row.config.sensitivity + ' mV/g; zero ' + signed(row.config.offset) + ' g; disturbo ±' + row.config.noise + ' g']
+          'P ' + row.config.capacity + ' g; sensibilità ' + row.config.step + ' g; risposta ' + format(row.config.response) + ' s; zero ' + signed(row.config.offset) + ' g; disturbo ±' + row.config.noise + ' g']
           .forEach(v => tr.append(cell(String(v)))); body.append(tr);
       } else for (const key of ['A', 'B']) series[key].forEach((value, index) => {
         const tr = document.createElement('tr');
@@ -171,7 +170,7 @@
     function updateSlider(input) {
       const key = input.dataset.property, value = options[key] ? options[key][Number(input.value)] : Number(input.value);
       config[key] = value;
-      const unit = {capacity:'g', step:'g', response:'s', sensitivity:'mV/g', offset:'g', noise:'g'}[key];
+      const unit = {capacity:'g', step:'g', response:'s', offset:'g', noise:'g'}[key];
       root.querySelector('[data-property-output="' + key + '"]').textContent = format(value) + ' ' + unit;
       input.setAttribute('aria-valuetext', format(value) + ' ' + unit);
     }

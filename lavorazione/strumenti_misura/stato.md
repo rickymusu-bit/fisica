@@ -117,3 +117,13 @@ Segnalazione dell’utente: tutte le simulazioni non funzionano. Richiesto in qu
 ## Parallasse senza zoom
 
 Su richiesta esplicita dell’utente, rimosso lo zoom da FIG-06-2. Immagine, didascalia e tre indicazioni di vista conservate. HTML v8. Resta aperta la diagnosi delle simulazioni: attesa la modalità di apertura dall’utente.
+
+## Bilancia da cucina: grammi e pesetti più grandi
+
+L’utente conferma che le simulazioni funzionano nell’HTML scaricato: la precedente segnalazione non descrive un malfunzionamento del file autonomo. Richiede di eliminare i millivolt, usare grammi per la sensibilità, ingrandire i pesetti e mostrare le masse con aspetto inciso.
+
+Rimosso il pannello del segnale e lo slider del guadagno elettrico. Il controllo unico «Sensibilità (passo leggibile)» usa 1, 20, 50 g e regola la quantizzazione; la convenzione scolastica è chiarita nella nota già presente, senza cambiare il confronto qualitativo della teoria. Proprietà della bilancia del 7 riportate senza millivolt. Registro in grammi; nessun guadagno elettrico esposto.
+
+Pesetti sul piatto ingranditi da 16 a 28 unità relative alla larghezza della bilancia, altezza minima 36 px; più spazio sopra il piatto, con display riallineato alla finestra originale. Etichette senza fondo o cartellino, colore e rilievo leggero per simulare incisione; campione B senza massa esposta. Originali raster preservati, nessuna alterazione delle masse reali del modello. HTML: capitolo 6 v9, capitolo 7 v8.
+
+Verifiche concluse sulla revisione corrente: 7 test quantitativi, 20 combinazioni di viewport/tema, tutte le interazioni, download, offline e no-JS; nessun errore o richiesta esterna. Masse visibili e pesetti interamente nel riquadro a 390 e 1440 px. Crediti, tema e build superati; HTML e copie di lavorazione identici. Sorgenti pubblici e manifest invariati.

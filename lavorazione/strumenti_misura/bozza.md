@@ -1,6 +1,6 @@
 # Gli strumenti di misura
 
-[EDITORIALE — Bozza v10, 24 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive scelte dall’utente e integrate. I segnaposto descrivono i materiali da integrare dopo l'approvazione del testo. Area: Introduzione alla fisica e alla misura.]
+[EDITORIALE — Bozza v11, 24 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive scelte dall’utente e integrate. I segnaposto descrivono i materiali da integrare dopo l'approvazione del testo. Area: Introduzione alla fisica e alla misura.]
 
 [COP-06 — Fotografia scelta dall'utente: Ytterbium Lattice Double Clock with Photons at NIST.jpg. Intera, senza ritagli o zoom, non ripetuta nel corpo.]
 
@@ -78,7 +78,7 @@ La bilancia virtuale ha a disposizione pesetti di masse differenti. Aggiungili a
 
 [SIM-06 — Bilancia con pesetti selezionabili e rimovibili, di masse proposte 10 g, 20 g, 50 g, 100 g e 200 g; massa totale nota. Sotto la bilancia, slider per portata, risoluzione, prontezza e sensibilità del sensore; controlli distinti per zero e disturbi. Specifica in simulazione.md. Immagini pertinenti della bilancia e dei pesetti da acquisire con diritti verificati; nessun codice ancora realizzato.]
 
-Cambia una proprietà alla volta con gli slider sotto la bilancia e osserva la risposta. Un passo più grande produce cambiamenti più grossolani; una risposta lenta richiede di aspettare. Il pannello del segnale del sensore permette di distinguere la sensibilità dalla massa indicata: un segnale più grande per la stessa massa non significa che il pesetto sia diventato più pesante.
+Cambia una proprietà alla volta con gli slider sotto la bilancia e osserva la risposta. Un passo più grande produce cambiamenti più grossolani; una risposta lenta richiede di aspettare. Nella simulazione il controllo “Sensibilità” indica il passo minimo leggibile in grammi.
 
 Registra le letture e confrontale mantenendo fisse le altre condizioni. Se cambi le impostazioni, inizia una nuova serie: così puoi attribuire le differenze alla proprietà che stai esplorando. I dati sono simulati e non documentano una prova reale.
 
@@ -95,7 +95,7 @@ Registra le letture e confrontale mantenendo fisse le altre condizioni. Se cambi
 
 ## Note
 
-[^1]: Alcuni testi scolastici usano “sensibilità” per indicare il più piccolo passo leggibile, che qui chiamiamo risoluzione.
+[^1]: Alcuni testi scolastici usano “sensibilità” per indicare il più piccolo passo leggibile, che qui chiamiamo risoluzione. È questo l’uso adottato per il controllo della bilancia virtuale.
 
 ---
 

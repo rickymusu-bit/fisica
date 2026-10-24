@@ -122,7 +122,7 @@
     }
   ],
   "checks": [
-    "Capitolo 6: lettura anticipata, stabilizzazione, sensibilità calibrata, fuori scala, zero, passo, tastiera e reset durante acquisizione.",
+    "Capitolo 6: lettura anticipata, stabilizzazione, sensibilità in grammi, fuori scala, zero, passo, tastiera e reset durante acquisizione.",
     "Capitolo 7: cinque acquisizioni indipendenti per campione, limite dieci, controlli dei calcoli, campioni separati, grafico, cancellazione e ripristino; letture identiche con d=0 e U=1 g.",
     "Download identico, copertine/MathML/simulazioni offline, teoria e crediti senza JavaScript, default scuro."
   ],
@@ -131,7 +131,7 @@
   "limits": [],
   "offline_method": "HTML caricato in memoria con rete disabilitata; immagini incorporate decodificate, MathML e simulazione disponibili. Navigazione file:// bloccata dalla policy del Chromium dell’ambiente e non dichiarata eseguita.",
   "html_sha256": {
-    "strumenti_misura_it.html": "6f0115776f82fd0db83c6f3e43ca5f6667fa9c424588cad930740119e1c4587f",
-    "errori_incertezza_misura_it.html": "b4507af80a465d544c46b7cce2a24433c61239de46201dcf5ff5febc092fae82"
+    "strumenti_misura_it.html": "dd9f0753c8f954615622a50e7e3a22ad581af23435f520fd4016cb1c6cc48f23",
+    "errori_incertezza_misura_it.html": "713c9c888db851010337db0c492c8da4fceb8213d25122ac2d490be6f2ab03fd"
   }
 }

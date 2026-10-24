@@ -32,3 +32,7 @@ Nella realizzazione i passi sono 1, 20 e 50 g: con i pesetti tutti multipli di 1
 ## Immagini generate e display attivo
 
 Bilancia digitale e pesetto generati su richiesta dell’utente; originali nella lavorazione del capitolo 6 e relative schede di provenienza. Varianti dei pesetti riutilizzano l’originale con dimensioni proporzionate alla radice cubica della massa; etichette HTML separate. Display numerico nella finestra della bilancia e carichi visualizzati sul piatto. Il campione B è privo di etichetta di massa. Immagini incorporate una sola volta tramite definizioni SVG condivise, con riferimenti interni per le istanze; nessuna dipendenza esterna.
+
+## Specifica corrente: sensibilità in grammi e pesetti ingranditi
+
+La richiesta più recente sostituisce l’interfaccia del guadagno elettrico: niente millivolt, nessun controllo separato del segnale. Nel 6 «Sensibilità (passo leggibile)» agisce sul parametro step, in grammi (1, 20, 50); il guadagno interno resta fisso a 1. Nel 7 proprietà fisse con passo di 1 g. Confronto teorico fra sensibilità e risoluzione conservato; nota sul diverso uso scolastico del termine. Pesi più grandi sul piatto e nei selettori, scritte dall’aspetto inciso sul carico, riferimento 100 g etichettato e campione B senza massa nota. Funzionamento nell’HTML scaricato confermato dall’utente.

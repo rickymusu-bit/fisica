@@ -1,9 +1,9 @@
 {
-  "html_version": "v7",
-  "approved_draft": "v10, nuova fotografia U.S. Navy e bersagli senza zoom richiesti dall’utente",
+  "html_version": "v8",
+  "approved_draft": "v10, sensibilità in grammi e pesetti ingranditi con massa incisa richiesti dall’utente",
   "authorization": "Ok vai; generazione di bilancia e pesetti richiesta esplicitamente",
-  "html_bytes": 4953201,
-  "html_sha256": "b9ee13c62e464efe7dc430f56930843ea701a855f0d53859bb47676e8744bc59",
+  "html_bytes": 4953539,
+  "html_sha256": "713c9c888db851010337db0c492c8da4fceb8213d25122ac2d490be6f2ab03fd",
   "model_tests": {
     "passed": 7,
     "command": "node lavorazione/strumenti_misura/test_simulazione.cjs"
@@ -16,15 +16,15 @@
   "pages_build": "passed; nuovi capitoli esclusi dalla pubblicazione",
   "protected_sources": "invariati",
   "image_slots": [],
-  "preview_status": "Nuova foto del cronometraggio, bersagli senza zoom. Segnalazione sulle simulazioni non riprodotta; contesto di apertura richiesto all’utente.",
+  "preview_status": "Sensibilità in grammi, senza pannello elettrico; pesetti più grandi con etichette dall’aspetto inciso.",
   "offline_method": "HTML caricato in memoria con rete disabilitata; immagini incorporate decodificate, MathML e simulazione disponibili. Navigazione file:// bloccata dalla policy del Chromium dell’ambiente e non dichiarata eseguita.",
   "screenshots_reviewed": [
-    "lavorazione/errori_incertezza_misura/anteprime/sch-07-1-dark-390.png",
-    "lavorazione/errori_incertezza_misura/anteprime/fig-07-1-dark-390.png"
+    "lavorazione/strumenti_misura/anteprime/bilancia-carica-390.png",
+    "lavorazione/strumenti_misura/anteprime/bilancia-carica-1440.png"
   ],
   "generated_assets_source": "lavorazione/strumenti_misura/risorse/bilancia-pesetti-fonte.json",
-  "model_checks_scope": "Otto verifiche delle figure in chiaro/scuro a 390/1440 px; nuova foto e bersagli senza zoom. Prova delle due simulazioni con timer reali e movimento normale: due letture ciascuna, nessun errore. Modello e codice invariati; non dichiarata risolta la segnalazione in assenza del contesto dell’utente.",
-  "image_layouts_current": 8,
+  "model_checks_scope": "7 test quantitativi superati; 20 combinazioni viewport/tema e interazioni rieseguite: sensibilità in grammi, zero, quantizzazione, fuori scala, campioni separati, calcoli, registrazione e ripristino. Download, offline e no-JS verificati. Etichette e pesetti ingranditi verificati a 390 e 1440 px.",
+  "image_layouts_current": null,
   "licenses": {
     "manometro": "Photo by CEphoto, Uwe Aranas, CC BY-SA 3.0",
     "termometro": "Jacek Halicki, CC BY-SA 4.0",
@@ -33,5 +33,6 @@
     "voltmetro_offset": "Желуденко Павло, CC BY 4.0",
     "cronometraggio": "Chris Desmond / U.S. Navy, pubblico dominio PD-USGov-Military-Navy"
   },
-  "simulation_issue": "Non riprodotto nel browser di prova; richiesta all’utente la modalità di apertura."
+  "simulation_issue": "L’utente conferma il funzionamento nell’HTML scaricato. Nessun errore nei test correnti.",
+  "image_layouts_note": "Verifiche mirate delle fotografie conservate dalla revisione precedente; immagini originali invariate. Aspetto delle simulazioni verificato nelle 20 combinazioni correnti."
 }

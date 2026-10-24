@@ -92,11 +92,12 @@ def main():
         page.clock.run_for(850);assert page.locator('[data-display]').inner_text()=='100 g'
         assert page.locator('[data-record]').is_enabled();page.locator('[data-record]').click()
         assert 'Stabilizzata' in page.locator('[data-rows]').inner_text()
-        set_range(page,'sensitivity',2);page.clock.run_for(1100)
+        set_range(page,'step',2);page.clock.run_for(1100)
         assert page.locator('[data-display]').inner_text()=='100 g'
-        assert page.locator('[data-signal]').inner_text()=='500 mV'
+        assert page.locator('[data-property-output=step]').inner_text()=='50 g'
+        assert 'mV' not in page.locator('.measurement-sim').inner_text()
         page.locator('[data-record]').click();assert page.locator('[data-record]').is_disabled()
-        set_range(page,'capacity',0);page.locator('[data-weight="200"]').click()
+        set_range(page,'step',0);set_range(page,'capacity',0);page.locator('[data-weight="200"]').click()
         assert page.locator('[data-display]').get_attribute('data-value')=='overload';assert page.locator('[data-display]').inner_text()=='OL';assert page.locator('[data-record]').is_disabled()
         page.locator('[data-weight="200"]').click();page.clock.run_for(1100)
         set_range(page,'offset',2);page.clock.run_for(1100);assert page.locator('[data-display]').inner_text()=='102 g'
@@ -105,7 +106,7 @@ def main():
         page.locator('[data-reset]').click();page.clock.run_for(2500)
         assert page.locator('[data-display]').inner_text()=='0 g';assert page.locator('[data-record]').is_disabled()
         assert page.locator('[data-pan] .sim-pan-weight').count()==0
-        assert page.locator('[data-property="sensitivity"]').input_value()=='0'
+        assert page.locator('[data-property="step"]').input_value()=='0'
         page.locator('[data-weight="10"]').click();set_range(page,'step',1);page.clock.run_for(1100)
         assert page.locator('[data-display]').inner_text()=='20 g'
         set_range(page,'step',2);page.clock.run_for(1100)
@@ -126,7 +127,7 @@ def main():
           bar=page.add_style_tag(content='.topbar{visibility:hidden!important}')
           page.locator('.sim-stage').screenshot(path=str(WORK/'anteprime'/f'bilancia-carica-{width}.png'))
           bar.evaluate('(e)=>e.remove()')
-        report['checks'].append('Capitolo 6: lettura anticipata, stabilizzazione, sensibilità calibrata, fuori scala, zero, passo, tastiera e reset durante acquisizione.')
+        report['checks'].append('Capitolo 6: lettura anticipata, stabilizzazione, sensibilità in grammi, fuori scala, zero, passo, tastiera e reset durante acquisizione.')
         page.goto(origin+'/'+PAGES['errori_incertezza_misura'])
         assert page.locator('.chapter-navigation a[rel=prev]').get_attribute('href')==PAGES['strumenti_misura']
         assert page.locator('[data-property]').count()==0
