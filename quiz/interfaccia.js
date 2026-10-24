@@ -5,9 +5,8 @@
   const dataset = JSON.parse(dataElement.textContent);
   const MAX_QUESTIONS = 30;
   const SECONDS_PER_QUESTION = 120;
-  const chapters = new Map(dataset.chapters.map(c => [c.file, c]));
-  const groupBoxes = [...document.querySelectorAll("[data-quiz-group]")];
-  const chapterBoxes = [...document.querySelectorAll("[data-quiz-chapter]")];
+  const categories = new Map(dataset.categories.map(c => [c.id, c]));
+  const categoryBoxes = [...document.querySelectorAll("[data-quiz-category]")];
   const levelBoxes = [...document.querySelectorAll('input[name="quiz-level"]')];
   const config = document.getElementById("quiz-config");
   const active = document.getElementById("quiz-active");
@@ -33,6 +32,138 @@
   let session = null;
   let intervalId = null;
 
+  const STORAGE_KEY = "stringhe.quiz.session.v1:" + location.pathname;
+  const saveWarning = document.getElementById("quiz-save-warning");
+  let storageAvailable = true;
+
+  function warnBeforeExit(event) {
+    if (session && !storageAvailable) {
+      event.preventDefault();
+      event.returnValue = "";
+    }
+  }
+
+  function storageFailed() {
+    storageAvailable = false;
+    saveWarning.textContent = "Salvataggio automatico non disponibile. Non chiudere o ricaricare la pagina durante il quiz.";
+    saveWarning.hidden = false;
+    if (session) window.addEventListener("beforeunload", warnBeforeExit);
+  }
+
+  function writeSnapshot(snapshot) {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(snapshot));
+      storageAvailable = true;
+      saveWarning.hidden = true;
+      window.removeEventListener("beforeunload", warnBeforeExit);
+    } catch (_) {
+      storageFailed();
+    }
+  }
+
+  function saveActiveSession() {
+    if (session) writeSnapshot({version: 1, status: "active", session});
+  }
+
+  function clearSavedSession() {
+    try {
+      localStorage.removeItem(STORAGE_KEY);
+    } catch (_) {
+      storageFailed();
+    }
+    window.removeEventListener("beforeunload", warnBeforeExit);
+  }
+
+  function validSnapshot(snapshot) {
+    if (!snapshot || snapshot.version !== 1 ||
+        !["active", "completed"].includes(snapshot.status)) return false;
+    if (snapshot.status === "completed" &&
+        !["completed", "timeout", "early"].includes(snapshot.reason)) return false;
+    const s = snapshot.session;
+    if (!s || !Number.isInteger(s.count) || s.count < 1 || s.count > MAX_QUESTIONS ||
+        !Number.isInteger(s.index) || s.index < 0 || s.index >= s.count ||
+        s.seconds !== SECONDS_PER_QUESTION ||
+        !["easy", "medium", "hard"].includes(s.level) ||
+        typeof s.category !== "string" || !s.category ||
+        typeof s.categoryTitle !== "string" ||
+        !Number.isSafeInteger(s.startedAt) || s.startedAt < 0 ||
+        !Number.isSafeInteger(s.deadline) || !Number.isSafeInteger(s.perDeadline) ||
+        s.deadline !== s.startedAt + s.count * s.seconds * 1000 ||
+        s.perDeadline < s.startedAt || s.perDeadline > s.deadline ||
+        !Array.isArray(s.questions) || s.questions.length !== s.count ||
+        !Array.isArray(s.responses) || s.responses.length !== s.count ||
+        !Array.isArray(s.skipped) || s.skipped.length !== s.count) return false;
+    for (let i = 0; i < s.count; i++) {
+      const q = s.questions[i];
+      const n = {easy: 3, medium: 4, hard: 5}[s.level];
+      if (!q || typeof q.id !== "string" || !q.id ||
+          q.category !== s.category || q.level !== s.level ||
+          typeof q.prompt !== "string" || !q.prompt.trim() ||
+          typeof q.explanation !== "string" ||
+          !Array.isArray(q.options) || q.options.length !== n ||
+          q.options.some(x => typeof x !== "string" || !x.trim()) ||
+          !Number.isInteger(q.correct) || q.correct < 0 || q.correct >= n ||
+          !Array.isArray(q.order) || q.order.length !== n) return false;
+      const order = new Set();
+      for (const option of q.order) {
+        if (!option || !Number.isInteger(option.originalIndex) ||
+            option.originalIndex < 0 || option.originalIndex >= n ||
+            option.label !== q.options[option.originalIndex]) return false;
+        order.add(option.originalIndex);
+      }
+      if (order.size !== n || typeof s.skipped[i] !== "boolean" ||
+          (s.responses[i] !== null && (!Number.isInteger(s.responses[i]) ||
+           s.responses[i] < 0 || s.responses[i] >= n))) return false;
+    }
+    return s.pendingResponse === null || (Number.isInteger(s.pendingResponse) &&
+      s.pendingResponse >= 0 && s.pendingResponse < s.questions[s.index].options.length);
+  }
+
+  function restoreSavedSession() {
+    let raw;
+    try {
+      raw = localStorage.getItem(STORAGE_KEY);
+    } catch (_) {
+      storageFailed();
+      onTick();
+      return;
+    }
+    let snapshot = null;
+    if (raw !== null) {
+      try {
+        snapshot = JSON.parse(raw);
+        if (!validSnapshot(snapshot)) throw new Error("Sessione non valida");
+      } catch (_) {
+        clearSavedSession();
+        saveWarning.textContent = "Il quiz salvato non è recuperabile. Puoi iniziarne uno nuovo.";
+        saveWarning.hidden = false;
+        snapshot = null;
+      }
+    }
+    clearInterval(intervalId);
+    intervalId = null;
+    session = null;
+    if (!snapshot) {
+      show("config");
+      return;
+    }
+    const saved = snapshot.session;
+    countInput.value = String(saved.count);
+    for (const box of levelBoxes) box.checked = box.value === saved.level;
+    for (const box of categoryBoxes) box.checked = box.value === saved.category;
+    updateAvailability();
+    if (snapshot.status === "completed") {
+      renderResults(saved, snapshot.reason);
+      return;
+    }
+    session = saved;
+    show("active");
+    renderQuestion();
+    onTick();
+    if (session) intervalId = setInterval(onTick, 250);
+  }
+
+
   function shuffle(items) {
     const copy = items.slice();
     for (let i = copy.length - 1; i > 0; i--) {
@@ -42,8 +173,8 @@
     return copy;
   }
 
-  function selectedChapters() {
-    return new Set(chapterBoxes.filter(box => box.checked && !box.disabled).map(box => box.value));
+  function selectedCategory() {
+    return categoryBoxes.find(box => box.checked && !box.disabled)?.value ?? null;
   }
 
   function getQuestionCount() {
@@ -70,54 +201,34 @@
     const level = levelBoxes.find(box => box.checked).value;
     const available = new Set(dataset.questions
       .filter(question => question.level === level)
-      .map(question => question.chapter));
-    for (const chapter of chapterBoxes) {
-      setAvailability(chapter, available.has(chapter.value), "Non disponibile");
+      .map(question => question.category));
+    for (const category of categoryBoxes) {
+      setAvailability(category, available.has(category.value), "Non disponibile");
     }
-    for (const category of groupBoxes) {
-      const children = chapterBoxes.filter(box => box.dataset.category === category.value);
-      setAvailability(category, children.some(child => !child.disabled), "Nessuna domanda");
-    }
-    synchronizeCategories();
+    updateConfiguration();
   }
 
-  function synchronizeCategories() {
-    for (const category of groupBoxes) {
-      const children = chapterBoxes.filter(box => box.dataset.category === category.value && !box.disabled);
-      const selected = children.filter(box => box.checked).length;
-      category.checked = children.length > 0 && selected === children.length;
-      category.indeterminate = selected > 0 && selected < children.length;
-    }
+  function updateConfiguration() {
     const count = getQuestionCount();
     countMinus.disabled = count === 1;
     countPlus.disabled = count === MAX_QUESTIONS;
-    startButton.disabled = selectedChapters().size === 0 || count === null;
+    startButton.disabled = selectedCategory() === null || count === null;
     durationOutput.textContent = count === null
       ? "Inserisci un numero da 1 a 30."
       : formatDuration(count * SECONDS_PER_QUESTION);
     if (!startButton.disabled) configError.hidden = true;
   }
 
-  for (const category of groupBoxes) {
-    category.addEventListener("change", () => {
-      for (const chapter of chapterBoxes) {
-        if (chapter.dataset.category === category.value && !chapter.disabled) {
-          chapter.checked = category.checked;
-        }
-      }
-      synchronizeCategories();
-    });
-  }
-  for (const chapter of chapterBoxes) chapter.addEventListener("change", synchronizeCategories);
+  for (const category of categoryBoxes) category.addEventListener("change", updateConfiguration);
   for (const level of levelBoxes) level.addEventListener("change", updateAvailability);
-  countInput.addEventListener("input", synchronizeCategories);
+  countInput.addEventListener("input", updateConfiguration);
   function changeQuestionCount(step) {
     // Anche un valore inserito a mano non valido è recuperabile tramite i pulsanti.
     const raw = countInput.valueAsNumber;
     const base = Number.isFinite(raw)
       ? Math.max(1, Math.min(MAX_QUESTIONS, Math.round(raw))) : 25;
     countInput.value = String(Math.max(1, Math.min(MAX_QUESTIONS, base + step)));
-    synchronizeCategories();
+    updateConfiguration();
   }
   countMinus.addEventListener("click", () => changeQuestionCount(-1));
   countPlus.addEventListener("click", () => changeQuestionCount(1));
@@ -196,7 +307,7 @@
   }
 
   function startQuiz() {
-    const selected = selectedChapters();
+    const selected = selectedCategory();
     const count = getQuestionCount();
     if (count === null) {
       configError.textContent = "Scegli un numero di domande tra 1 e 30.";
@@ -204,9 +315,9 @@
       return;
     }
     const level = document.querySelector('input[name="quiz-level"]:checked').value;
-    const pool = dataset.questions.filter(q => selected.has(q.chapter) && q.level === level);
+    const pool = dataset.questions.filter(q => q.category === selected && q.level === level);
     if (!pool.length) {
-      configError.textContent = "Non ci sono domande di prova per questa selezione.";
+      configError.textContent = "Non ci sono domande per questa categoria e difficoltà.";
       configError.hidden = false;
       return;
     }
@@ -219,10 +330,15 @@
       count,
       index: 0,
       level,
+      category: selected,
+      categoryTitle: categories.get(selected).title,
+      pendingResponse: null,
+      startedAt: now,
       seconds,
       deadline: now + count * seconds * 1000,
       perDeadline: now + seconds * 1000
     };
+    saveActiveSession();
     show("active");
     renderQuestion();
     clearInterval(intervalId);
@@ -235,11 +351,11 @@
     const s = session;
     if (!s) return;
     const q = s.questions[s.index];
-    const chapter = chapters.get(q.chapter);
+    const questionIndex = s.index;
+    const category = categories.get(q.category);
     counter.textContent = "Domanda " + (s.index + 1) + " di " + s.count;
     progressBar.style.width = (s.index / s.count * 100) + "%";
-    document.getElementById("quiz-topic").textContent = chapter
-      ? chapter.area + " — " + chapter.title : "";
+    document.getElementById("quiz-topic").textContent = category ? category.title : s.categoryTitle;
     prompt.textContent = q.prompt;
     answerList.replaceChildren();
     q.order.forEach((option, position) => {
@@ -250,13 +366,20 @@
       input.name = "quiz-answer";
       input.value = String(option.originalIndex);
       input.setAttribute("aria-label", "Alternativa " + (position + 1));
-      input.addEventListener("change", () => { nextButton.disabled = false; });
+      input.checked = s.pendingResponse === option.originalIndex;
+      input.addEventListener("change", () => {
+        onTick();
+        if (session !== s || s.index !== questionIndex) return;
+        s.pendingResponse = option.originalIndex;
+        nextButton.disabled = false;
+        saveActiveSession();
+      });
       const text = document.createElement("span");
       text.textContent = option.label;
       label.append(input, text);
       answerList.append(label);
     });
-    nextButton.disabled = true;
+    nextButton.disabled = s.pendingResponse === null;
     nextButton.textContent = s.index === s.count - 1
       ? "Termina il quiz" : "Conferma e prosegui";
     renderStatuses(navigation, s);
@@ -276,7 +399,9 @@
       return;
     }
     session.index += 1;
+    session.pendingResponse = null;
     session.perDeadline = (expired ? oldDeadline : Date.now()) + session.seconds * 1000;
+    saveActiveSession();
     renderQuestion();
   }
 
@@ -334,6 +459,12 @@
     intervalId = null;
     const s = session;
     session = null;
+    writeSnapshot({version: 1, status: "completed", reason, session: s});
+    window.removeEventListener("beforeunload", warnBeforeExit);
+    renderResults(s, reason);
+  }
+
+  function renderResults(s, reason) {
     let correct = 0;
     const review = document.getElementById("quiz-review");
     review.replaceChildren();
@@ -346,9 +477,9 @@
       li.className = "quiz-review-item" + (right ? "" : " is-wrong");
       const h3 = document.createElement("h3");
       h3.textContent = (i + 1) + ". " + q.prompt;
-      const chapter = chapters.get(q.chapter);
+      const category = categories.get(q.category);
       li.append(h3);
-      if (chapter) li.append(labeledParagraph("Capitolo:", chapter.title));
+      li.append(labeledParagraph("Categoria:", category ? category.title : s.categoryTitle));
       if (response === null) {
         li.append(labeledParagraph("Stato:", s.skipped[i] ? "Saltata" : "Non raggiunta"));
       }
@@ -373,12 +504,29 @@
   }
 
   document.getElementById("quiz-again").addEventListener("click", () => {
+    clearSavedSession();
     show("config");
     window.scrollTo({top: 0, behavior: "instant"});
     document.getElementById("quiz-config-title").focus({preventScroll: true});
   });
 
   // Il conteggio si basa su Date.now(): il cambio scheda non sospende il tempo.
-  document.addEventListener("visibilitychange", onTick);
-  window.addEventListener("pageshow", onTick);
+  document.addEventListener("visibilitychange", () => {
+    onTick();
+    if (document.hidden) saveActiveSession();
+  });
+  window.addEventListener("pagehide", () => {
+    onTick();
+    saveActiveSession();
+  });
+  window.addEventListener("pageshow", event => {
+    if (event.persisted) restoreSavedSession();
+    else onTick();
+  });
+  // Le schede dello stesso browser condividono il medesimo quiz salvato.
+  window.addEventListener("storage", event => {
+    if (event.key === STORAGE_KEY || event.key === null) restoreSavedSession();
+  });
+  restoreSavedSession();
 })();
+

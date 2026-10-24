@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "categories": [
+    {
+      "id": "introduzione_fisica_misura",
+      "area": "Introduzione alla fisica e alla misura"
+    },
+    {
+      "id": "termologia",
+      "area": "Termologia"
+    }
+  ]
+}

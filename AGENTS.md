@@ -64,7 +64,7 @@ Nome ufficiale del sito: **Stringhe**. Sottotitolo esatto: **L’essenziale dell
 La home è un portale con tre accessi: Tutti i capitoli, Mi sento fortunato e Quiz. **Barra universale Stringhe, disposizione A**: lo stesso componente HTML/CSS/JS in ogni pagina, con gruppo contestuale a sinistra e menu Lingua/Tema sempre a destra, pulsanti con icone da almeno 44 px e ordine stabile su desktop/mobile. Home: nessun comando a sinistra; Catalogo e Quiz: Home; Capitolo: Home, Capitoli, Scarica, Indice; Crediti: Home, Capitoli. La pagina corrente non appare come collegamento a sé stessa. Le barre non mostrano il marchio o il logo, che resta nella copertina della home. I due menu sono mutuamente esclusivi, con Escape/clic esterno e tastiera; il nome della funzione appare solo a hover mouse/penna, mai al tocco o focus, con etichette accessibili permanenti. Fonte unica `navigation_header` in `scripts/stringhe_theme.py`, richiamata dai renderer; evitare barre duplicate nei file di servizio o capitoli. La lingua resta soltanto nel menu superiore. Novità sostituisce Esplora e Da leggere, con tre capitoli ordinati per data editoriale decrescente, senza numeri. Per distinguere le pubblicazioni dello stesso giorno, registrare anche l’orario ISO 8601 con fuso in `<meta name="date">`; le vecchie date senza orario valgono come inizio giornata Europe/Rome. Soltanto a parità di istante precede il capitolo più avanti nel catalogo. Aggiornare `<meta name="date">` nelle nuove pubblicazioni o revisioni editoriali; le modifiche al tema non aggiornano le date dei capitoli.
 Il catalogo è una pagina indipendente `articoli.html`, con ricerca e filtro per area tematica;
 la scelta casuale include soltanto gli articoli approvati in `pubblicazione.json`.
-La pagina `quiz.html` presenta il futuro generatore di quiz di verifica su argomenti scelti dall’utente. Il progetto separato «Chi vuol essere rimandato» non fa parte di questa funzione.
+La pagina `quiz.html` offre quiz su una sola categoria per sessione, secondo D2.2 del master e `quiz/README.md`. Il progetto separato «Chi vuol essere rimandato» non fa parte di questa funzione.
 Ogni articolo pubblicato offre in testa: Home, Articoli, Scarica, Lingua; resta distinto l'indice interno.
 Il tema visivo richiama stringhe vibranti con onde sottili e movimento rispettoso di
 `prefers-reduced-motion`. Evitare che la metafora decorativa interferisca con schemi scientifici.
@@ -115,3 +115,16 @@ Ogni elemento testuale o visivo deve aggiungere informazione effettivamente util
 - **Revisione:** per ogni frase, didascalia, etichetta e annotazione chiedersi: «Se la elimino, il lettore perde un'informazione importante o rischia un fraintendimento?». Se no, eliminarla.
 
 Questo criterio vale anche per bozze, anteprime, materiali scaricabili e future revisioni, senza autorizzare modifiche ai capitoli già pubblicati o deroghe al workflow di approvazione.
+
+
+
+## Quiz su una sola categoria — 24 ottobre 2026
+
+Applicare D2.2 del master e `quiz/PROMPT_GENERAZIONE_DOMANDE.md`: una sessione riguarda una sola categoria, per esempio Termologia oppure Introduzione alla fisica e alla misura. Il selettore è esclusivo, senza scelta dei singoli capitoli né combinazioni di categorie. Le domande possono richiedere più principi o capitoli della stessa categoria; non devono richiedere conoscenze disciplinari di altre categorie, salvo prerequisiti di base dichiarati o informazioni fornite nel testo.
+
+Associare ogni domanda al solo ID stabile `category`, definito in `quiz/categorie.json`; non usare titoli o nomi di file come chiavi. Questa scelta sostituisce per i quiz la proposta di tag multipli e classificazione dei capitoli per argomenti. Non avviare tale classificazione. Conservare le categorie coerenti con il catalogo e gli ID invariati nelle rinomine. Limite: 120 secondi per tutte le domande, anche difficili. Il workflow ChatGPT/docente/Codex è nel prompt corrente. Merge e pubblicazione seguono l’approvazione dell’anteprima corrente.
+
+
+## Ripresa del quiz — 24 ottobre 2026
+
+Applicare il salvataggio e recupero locale previsti da D2.2 del master e `quiz/README.md`: conservare quesiti, ordine delle opzioni, risposte e scadenze; il tempo continua a scorrere a pagina chiusa. Una selezione non confermata non conta come risposta. Recuperare anche il risultato fino a «Nuovo quiz»; segnalare il salvataggio indisponibile e gestire dati corrotti. Non promettere recupero dopo cancellazione dei dati o su un altro browser/dispositivo.
