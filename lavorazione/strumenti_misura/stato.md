@@ -107,3 +107,9 @@ Pesetti sul piatto con massa visibile sovrapposta all’immagine. Nel 7 il rifer
 Su ulteriore richiesta dell’utente, FIG-07-2 sostituita con il voltmetro Вольтметр_4.jpg (Желуденко Павло, CC BY 4.0). Testo, didascalia, richiamo dopo i bersagli e quesiti coerenti con l’offset negativo; nessun valore numerico dell’offset inventato. Simulazione con bilancia generata invariata.
 
 Verifiche correnti concluse: 7 test quantitativi, 20 combinazioni di viewport e tema e 8 controlli mirati alle figure con didascalie e ai crediti. Etichette dei cinque pesetti verificate; nessun errore JavaScript o richiesta esterna. Download, offline, crediti, tema e build superati. HTML e copie di lavorazione identici, file pubblici invariati. Anteprime aggiornate pronte nella PR #72.
+
+## Fotografia della misura del tempo, zoom e verifica delle simulazioni
+
+Nel capitolo 7, foto del cronometro sostituita su richiesta con la scena U.S. Navy di un istruttore che cronometra la corsa delle reclute: Chris Desmond / U.S. Navy, pubblico dominio PD-USGov-Military-Navy, fonte Commons conservata. Bersagli senza zoom per richiesta esplicita; soglia operativa per future scelte documentata in docs/visual-guidelines.md: scritte necessarie sotto 14 CSS px nella vista normale su schermo da 320 px o dettagli indispensabili illeggibili. La soglia è condizione necessaria, non obbligo automatico di zoom; fotografie e figure con poche scritte restano escluse.
+
+Segnalazione dell’utente: tutte le simulazioni non funzionano. Richiesto in quale contesto (anteprima della chat, HTML scaricato o sito); risposta ancora attesa. Prova attuale in Chromium, 390 px, movimento normale e timer reali: entrambe le bilance inizializzate, due letture registrate ciascuna, nessun errore JavaScript. Il difetto non è riprodotto nel browser di prova; nessuna correzione dichiarata senza causa verificata. Nessuna modifica al modello o al codice delle simulazioni.

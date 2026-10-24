@@ -91,3 +91,9 @@ Su richiesta esplicita, eliminata la parola inglese dal contenuto didattico e da
 ## Notazione coerente di media e incertezza
 
 Su richiesta esplicita, usato x con barra sopra nella formula generale del risultato e nella definizione dell’errore rispetto al riferimento, coerentemente con t medio. Definizione aggiornata: valore medio delle letture. Incertezza indicata soltanto con U, senza pedice did. Calcoli e dati invariati. Bozza v9, HTML v6; nessun tentativo di aggiornamento remoto dopo il blocco precedente.
+
+## Fotografia della misura del tempo, zoom e verifica delle simulazioni
+
+Nel capitolo 7, foto del cronometro sostituita su richiesta con la scena U.S. Navy di un istruttore che cronometra la corsa delle reclute: Chris Desmond / U.S. Navy, pubblico dominio PD-USGov-Military-Navy, fonte Commons conservata. Bersagli senza zoom per richiesta esplicita; soglia operativa per future scelte documentata in docs/visual-guidelines.md: scritte necessarie sotto 14 CSS px nella vista normale su schermo da 320 px o dettagli indispensabili illeggibili. La soglia è condizione necessaria, non obbligo automatico di zoom; fotografie e figure con poche scritte restano escluse.
+
+Segnalazione dell’utente: tutte le simulazioni non funzionano. Richiesto in quale contesto (anteprima della chat, HTML scaricato o sito); risposta ancora attesa. Prova attuale in Chromium, 390 px, movimento normale e timer reali: entrambe le bilance inizializzate, due letture registrate ciascuna, nessun errore JavaScript. Il difetto non è riprodotto nel browser di prova; nessuna correzione dichiarata senza causa verificata. Nessuna modifica al modello o al codice delle simulazioni.

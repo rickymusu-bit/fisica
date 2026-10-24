@@ -83,3 +83,7 @@ Come già stabilito in `AGENTS.md`, **non riorganizzare la struttura interna di 
 Rifare o scartare il visuale quando presenta: inesattezze fisiche, vettori/assi errati, unità sbagliate, oggetti impossibili, prospettiva incoerente, testo inventato, grafici non ricavati da dati/funzioni, elementi decorativi che sembrano avere significato fisico, contrasto insufficiente o somiglianza con immagine pubblicitaria artificiosa.
 
 **Regola finale:** la qualità visiva non compensa mai un errore scientifico. L'aspetto deve essere il risultato della funzione didattica, non il suo sostituto.
+
+### Soglia operativa per lo zoom — richiesta del 24 ottobre 2026
+
+Valutare la figura alla larghezza effettiva su uno schermo da 320 px. Aggiungere lo zoom soltanto a grafici e schemi con scritte necessarie inferiori a 14 CSS px o dettagli indispensabili non distinguibili a quella dimensione; non basta che la figura sia un diagramma. Se contiene poche etichette, preferire una composizione leggibile senza zoom. Fotografie e copertine restano senza zoom. Per richiesta esplicita, i quattro bersagli del capitolo 7 non hanno zoom. Registrare il controllo nelle verifiche delle figure.

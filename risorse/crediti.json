@@ -4023,6 +4023,26 @@
       "fingerprints": [
         "asset-d9d5b08b3e28103a2fe1037243fe7342d58758b8573d6f38e99a17b1219300be"
       ]
+    },
+    {
+      "id": "credit-6f22eea11fb693a8",
+      "description": "Un istruttore aziona un cronometro mentre alcune reclute corrono su una pista al coperto.",
+      "source": "https://commons.wikimedia.org/wiki/File:US_Navy_030506-N-5862D-128_An_instructor_in_the_Freedom_Hall_athletic_complex_uses_a_stopwatch_while_recruits_run_a_1.5-mile_track_during_a_Physical_Fitness_Test_(PFT).jpg",
+      "author": "Chris Desmond / U.S. Navy",
+      "license": "Pubblico dominio (PD-USGov-Military-Navy)",
+      "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Navy",
+      "changes": "Fotografia intera nella versione Wikimedia scelta dall’utente, senza modifiche.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Un istruttore aziona un cronometro mentre alcune reclute corrono su una pista al coperto. — Chris Desmond / U.S. Navy. <a href=\"https://commons.wikimedia.org/wiki/File:US_Navy_030506-N-5862D-128_An_instructor_in_the_Freedom_Hall_athletic_complex_uses_a_stopwatch_while_recruits_run_a_1.5-mile_track_during_a_Physical_Fitness_Test_(PFT).jpg\">Fonte originale</a>. <a href=\"https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Navy\">Pubblico dominio (PD-USGov-Military-Navy)</a>. Modifiche: Fotografia intera nella versione Wikimedia scelta dall’utente, senza modifiche."
+      ],
+      "metadata_sources": [
+        "errori_incertezza_misura_it.html"
+      ],
+      "fingerprints": [
+        "asset-eadd59abab2616df86af2eb1538abd8160c6933d0ee9d401c3703af5ce6e6161"
+      ]
     }
   ],
   "documents": {
@@ -4984,7 +5004,7 @@
           "notice": 0
         },
         {
-          "resource": "credit-a3feeb0611a8f3f0",
+          "resource": "credit-6f22eea11fb693a8",
           "notice": 0
         },
         {
@@ -6886,15 +6906,6 @@
       "id": "asset-733423a08f7c12ae4ab09344cc7621f5af2122a354c1b622ca4b5b90ac769c7b",
       "kind": "image/jpeg",
       "uses": [
-        {
-          "document": "errori_incertezza_misura_it.html",
-          "kind": "image/jpeg",
-          "description": "Cronometro digitale azzerato, con due cifre per i centesimi di secondo.",
-          "locator": "sch-07-1",
-          "attribute": "src",
-          "location": null,
-          "credit_id": "credit-a3feeb0611a8f3f0"
-        },
         {
           "document": "strumenti_misura_it.html",
           "kind": "image/jpeg",
@@ -9397,6 +9408,21 @@
       ]
     },
     {
+      "id": "asset-eadd59abab2616df86af2eb1538abd8160c6933d0ee9d401c3703af5ce6e6161",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "errori_incertezza_misura_it.html",
+          "kind": "image/jpeg",
+          "description": "Un istruttore aziona un cronometro mentre alcune reclute corrono su una pista al coperto.",
+          "locator": "sch-07-1",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-6f22eea11fb693a8"
+        }
+      ]
+    },
+    {
       "id": "asset-eb493be83efc746f05b2ca77af5242fe00193016e434d6131bf34ce47ab8a42e",
       "kind": "svg",
       "uses": [
@@ -9430,15 +9456,6 @@
       "id": "asset-ecf0eb4e1f3276010d8f014bd4a54c9766dd40055b68204838373f55a026e8b0",
       "kind": "image/svg+xml",
       "uses": [
-        {
-          "document": "errori_incertezza_misura_it.html",
-          "kind": "image/svg+xml",
-          "description": "Quattro bersagli: A raccolto e centrato, B raccolto e spostato, C disperso attorno al centro, D disperso e spostato. Colonne: precisione alta e bassa; righe: accuratezza alta e bassa.",
-          "locator": "fig-07-1",
-          "attribute": "src",
-          "location": null,
-          "credit_id": "bersagli-precisione-accuratezza"
-        },
         {
           "document": "errori_incertezza_misura_it.html",
           "kind": "image/svg+xml",

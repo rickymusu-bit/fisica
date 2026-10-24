@@ -32,7 +32,7 @@ try:
       if asset.get('zoom'):
        figure.locator('summary').click();expect(figure.locator('details')).to_have_attribute('open','');assert ('Bersagli' if slot=='FIG-07-1' else 'parallasse') in figure.locator('.zoom-scroll').get_attribute('aria-label');assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1');figure.locator('summary').click()
      page.locator('[data-offline-credits]').click();credit=page.locator('#crediti-autonomi').inner_text()
-     assert 'Lesselich' in credit and 'CC BY-SA 3.0' in credit
+     assert ('Lesselich' in credit and 'CC BY-SA 3.0' in credit) if chapter=='strumenti_misura' else ('Chris Desmond' in credit and 'PD-USGov' in credit)
      if chapter=='strumenti_misura':assert 'Photo by CEphoto, Uwe Aranas' in credit and 'Jacek Halicki' in credit and 'CC BY-SA 4.0' in credit
      else:assert 'Ossila' in credit
      ctx.close();report['layouts'].append({'chapter':chapter,'width':width,'theme':theme,'status':'ok'})

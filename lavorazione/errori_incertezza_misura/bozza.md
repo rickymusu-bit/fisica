@@ -1,6 +1,6 @@
 # Errori e incertezza di misura
 
-[EDITORIALE — Bozza v9, 24 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive scelte dall’utente e integrate. Area: Introduzione alla fisica e alla misura.]
+[EDITORIALE — Bozza v10, 24 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive scelte dall’utente e integrate. Area: Introduzione alla fisica e alla misura.]
 
 [COP-07 — Fotografia scelta dall'utente: TV noise.jpg. Intera, senza ritagli o zoom, non ripetuta nel corpo.]
 
@@ -12,7 +12,7 @@ Supponiamo di misurare con un cronometro la durata di un evento e di leggere 2,4
 
 La misura coinvolge lo strumento, il modo in cui lo usiamo e le condizioni della prova. Per separare questi contributi conviene distinguere due situazioni: le letture possono disperdersi in modo imprevedibile, oppure risultare spostate in modo simile rispetto a un riferimento. Le due cose possono anche accadere insieme.
 
-[SCH-07-1 — Cronometro digitale scelto dall’utente; fotografia intera, display azzerato conservato. I valori dell’esempio sono sviluppati nel testo, nella tabella e nel grafico.]
+[SCH-07-1 — Fotografia U.S. Navy scelta dall’utente: istruttore con cronometro e reclute sulla pista, immagine intera.]
 
 *La pressione manuale dei tasti può cambiare da una prova all’altra e contribuire alla dispersione dei tempi.*
 
