@@ -2,7 +2,7 @@
 
 ## Riferimenti e autorizzazioni
 
-Progettazione v2 — 24 ottobre 2026, Europe/Rome. Master consultato: v69.15; istruzioni AGENTS.md, piano dell'area, STILE_DISPENSE.md v7, esempio_irraggiamento.md e docs/visual-guidelines.md. Checklist: A1–A5 (narrazione, formule, monograficità, domande), B1.1–B2 (visuali prima della bozza e approvazioni), B4–B6 (riuso e continuità), C1–C4 (immagini, grafici, accessibilità), D1–D2.1 (verifiche e salvataggio). Applicare economia informativa a testo, figure e didascalie.
+Progettazione v3 — 24 ottobre 2026, Europe/Rome. Master consultato: v69.15; istruzioni AGENTS.md, piano dell'area, STILE_DISPENSE.md v7, esempio_irraggiamento.md e docs/visual-guidelines.md. Checklist: A1–A5 (narrazione, formule, monograficità, domande), B1.1–B2 (visuali prima della bozza e approvazioni), B4–B6 (riuso e continuità), C1–C4 (immagini, grafici, accessibilità), D1–D2.1 (verifiche e salvataggio). Applicare economia informativa a testo, figure e didascalie.
 
 Richiesta effettiva: «Iniziamo a creare i capitoli 8 e 9 del piano di lavorazione sull'introduzione alla fisica». Autorizzato l'avvio della progettazione. Le nuove scelte visuali, la bozza completa, la realizzazione HTML e la pubblicazione non sono ancora approvate. Tema comune Stringhe già approvato, da riutilizzare nella successiva fase HTML senza una nuova scelta.
 
@@ -40,3 +40,11 @@ Fase corrente: proposta di contenuti e visuali. Prossimo passaggio: concordare r
 ## Decisione corrente — 24 ottobre 2026
 
 L’utente richiede un capitolo sul piano cartesiano e uno su tutte le relazioni di proporzionalità. Titolo corrente del capitolo 8: «Il piano cartesiano». Il piano complessivo passa a nove capitoli; tutti i precedenti rinvii a capitoli 10–11 sono superati. Le visuali sopra restano proposte, non approvate per effetto dell’accorpamento. Prossimo passaggio: scelta delle visuali e poi bozza.
+
+## Bozza v1 pronta — 24 ottobre 2026
+
+«Va bene, procediamo» autorizza la stesura sulla struttura concordata. [Bozza v1](bozza.md) completa: coordinate e quadranti, interazione esistente, tabella–punti, lettura delle scale e confronto delle stesse coppie con scale diverse; otto domande finali. Copertina e immagine del quaderno restano segnaposto da scegliere, non immagini approvate. Quesito originale 2 conservato; originale 1 adattato dal petrolio ai quaderni per evitare il prerequisito sui dollari del 2022.
+
+Richiesta successiva: esclusione dell’intercetta dal capitolo 9. La ripartizione corrente dei quesiti originali è 1–2 nel capitolo 8, 3/6/7 nel 9; 4–5 esclusi dai nuovi capitoli e conservati nel sorgente storico. Questo supera la ripartizione iniziale 3–7 al 9.
+
+Verificati valori della tabella, coordinate, segni dei quadranti e corrispondenza dei segnaposto. Nessuna prova browser pertinente in questa fase testuale. Fase corrente: revisione della bozza; HTML e pubblicazione non avviati.
