@@ -80,3 +80,6 @@ Prossima operazione: approvazione dell’anteprima corrente da parte dell’uten
 
 
 Salvataggio remoto verificato: commit `949647f5643410b84b22f14c55ae974781137f7c` sul ramo della PR #79. [Anteprima interattiva corrente](https://raw.githack.com/rickymusu-bit/fisica/949647f5643410b84b22f14c55ae974781137f7c/piano_cartesiano_grafici_it.html), HTTPS 200, tipo text/html e byte identici all’HTML locale. Rapporto [verifica-anteprima-online.json](verifica-anteprima-online.json). Nessuna pubblicazione ufficiale eseguita.
+
+
+Allineamento con main ef29a4f (revisione già pubblicata nella PR #80): risolto il solo conflitto in risorse/crediti.json partendo dal registro aggiornato di main e reinserendo le associazioni dei nuovi capitoli. Conservate integralmente le modifiche degli altri capitoli presenti in main. Rigenerazione, controllo dei crediti e build superati; i due nuovi HTML rimangono identici byte per byte alle anteprime verificate sopra.
