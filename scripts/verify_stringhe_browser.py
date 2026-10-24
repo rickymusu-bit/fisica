@@ -150,17 +150,30 @@ def verify_quiz(page, base):
         assert page.locator('.quiz-answer').count() == alternatives
         assert page.locator('#quiz-counter').inner_text() == 'Domanda 1 di 25'
         assert page.locator('#quiz-clock').inner_text().count(':') == 1
+        assert page.locator('#quiz-navigation .quiz-nav-item').count() == 25
+        assert page.locator('#quiz-navigation .is-current').count() == 1
+        assert page.locator('#quiz-navigation .is-answered').count() == 0
+        assert page.locator('#quiz-navigation .is-skipped').count() == 0
         if level == 'easy':
             page.screenshot(path=str(SHOTS / 'quiz-domanda-390.png'), full_page=True)
         page.locator('.quiz-answer input').first.check()
         page.locator('#quiz-next').click()
         assert page.locator('#quiz-counter').inner_text() == 'Domanda 2 di 25'
+        assert page.locator('#quiz-navigation .is-answered').count() == 1
+        assert 'risposta data' in page.locator('#quiz-navigation .quiz-nav-item').nth(0).get_attribute('aria-label')
         page.locator('#quiz-skip').click()
         assert page.locator('#quiz-counter').inner_text() == 'Domanda 3 di 25'
+        assert page.locator('#quiz-navigation .is-skipped').count() == 1
+        assert 'saltata' in page.locator('#quiz-navigation .quiz-nav-item').nth(1).get_attribute('aria-label')
+        assert 'Risposte date: 1 · Saltate: 1' == page.locator('#quiz-status-summary').inner_text()
         page.once('dialog', lambda dialog: dialog.accept())
         page.locator('#quiz-stop').click()
         assert page.locator('#quiz-results').is_visible()
         assert page.locator('.quiz-review-item').count() == 25
+        assert page.locator('#quiz-result-navigation .quiz-nav-item').count() == 25
+        assert page.locator('#quiz-result-navigation .is-answered').count() == 1
+        assert page.locator('#quiz-result-navigation .is-skipped').count() == 2
+        assert page.locator('#quiz-result-navigation .is-pending').count() == 22
         assert page.locator('#quiz-grade').inner_text().endswith('/ 10')
         if level == 'easy':
             page.screenshot(path=str(SHOTS / 'quiz-risultato-390.png'), full_page=True)
