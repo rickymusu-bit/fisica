@@ -62,7 +62,7 @@ Non invertire indiscriminatamente fotografie e risorse scientifiche in dark mode
 
 ## 8. Testi, accessibilità e responsive
 
-Usare poche etichette, brevi e chiare, con notazione corretta. Evitare sovrapposizioni. Predisporre testi alternativi che descrivano il contenuto fisico e didascalie che spieghino ciò che bisogna osservare, senza ridondanze. Considerare leggibilità su smartphone e in bianco e nero.
+Usare poche etichette, brevi e chiare, con notazione corretta. Evitare sovrapposizioni. Predisporre testi alternativi che descrivano il contenuto fisico e didascalie solo quando aggiungono informazioni interpretative necessarie, senza descrivere l'ovvio. Considerare leggibilità su smartphone e in bianco e nero.
 
 Come già stabilito in `AGENTS.md`, **non riorganizzare la struttura interna di schemi, grafici e tabelle in mobile**: conservare assi, disposizione e relazioni; usare ridimensionamento proporzionale e ingrandimento/scorrimento quando i dettagli diventano piccoli.
 
@@ -83,3 +83,16 @@ Come già stabilito in `AGENTS.md`, **non riorganizzare la struttura interna di 
 Rifare o scartare il visuale quando presenta: inesattezze fisiche, vettori/assi errati, unità sbagliate, oggetti impossibili, prospettiva incoerente, testo inventato, grafici non ricavati da dati/funzioni, elementi decorativi che sembrano avere significato fisico, contrasto insufficiente o somiglianza con immagine pubblicitaria artificiosa.
 
 **Regola finale:** la qualità visiva non compensa mai un errore scientifico. L'aspetto deve essere il risultato della funzione didattica, non il suo sostituto.
+
+
+## Principio di economia informativa — 24 ottobre 2026
+
+Ogni elemento testuale o visivo deve aggiungere informazione effettivamente utile. Assumere che il lettore sappia interpretare il contesto, osservare le immagini e ricavare inferenze elementari; non verbalizzare ciò che è già chiaramente visibile o appena spiegato. Non confondere completezza, rigore o accessibilità con ripetizione e puntualizzazione sistematica.
+
+- **Testo:** eliminare frasi introduttive vuote, precisazioni ovvie, ripetizioni e digressioni che non cambiano la comprensione. Approfondire invece passaggi nuovi, difficili o controintuitivi.
+- **Immagini, schemi e grafici:** usare solo etichette, frecce, legende, titoli interni e annotazioni necessari a riconoscere grandezze, leggere dati o evitare ambiguità. Non replicare nel visuale le spiegazioni del paragrafo.
+- **Didascalie:** non descrivere banalmente ciò che è già riconoscibile. Aggiungere solo identificazioni non ovvie, relazioni significative, dati, condizioni o contesto interpretativo non ricavabili altrimenti. Omettere la didascalia descrittiva quando non serve; mantenere attribuzioni, informazioni obbligatorie e supporti di accessibilità nelle sedi appropriate.
+- **Rigore e inclusione:** conservare unità, scale, simboli, ipotesi, condizioni di validità e avvertenze quando la loro omissione potrebbe produrre un errore o fraintendimento rilevante. Testi alternativi accessibili non vanno svuotati solo perché l'immagine è comprensibile a chi la vede.
+- **Revisione:** per ogni frase, didascalia, etichetta e annotazione chiedersi: «Se la elimino, il lettore perde un'informazione importante o rischia un fraintendimento?». Se no, eliminarla.
+
+Questo criterio vale anche per bozze, anteprime, materiali scaricabili e future revisioni, senza autorizzare modifiche ai capitoli già pubblicati o deroghe al workflow di approvazione.
