@@ -1,8 +1,9 @@
 {
-  "url": "https://raw.githack.com/rickymusu-bit/fisica/949647f5643410b84b22f14c55ae974781137f7c/relazioni_proporzionalita_it.html",
+  "url": "https://raw.githack.com/rickymusu-bit/fisica/9dc4df85575ad3ce0b2c5af64ad7dcfc44180f8b/relazioni_proporzionalita_it.html",
+  "version": "v2",
   "status": 200,
   "content_type": "text/html; charset=utf-8",
-  "bytes": 14489123,
+  "bytes": 11283554,
   "identical": true,
-  "sha256": "4b549d3aff83ac27ea3dd81cfae59b042655422fc63a2f75f5bca829ee8923de"
+  "sha256": "1745a5b47f7a591d19e068a79d8750f677cb2e1a9bc653ae35ee42964ca32b6f"
 }
