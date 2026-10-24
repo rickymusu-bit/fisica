@@ -1,8 +1,8 @@
-# Stato — La proporzionalità diretta
+# Stato — Le relazioni tra grandezze
 
 ## Riferimenti e autorizzazioni
 
-Progettazione v1 — 24 ottobre 2026, Europe/Rome. Master consultato: v69.15; istruzioni AGENTS.md, piano dell'area, STILE_DISPENSE.md v7, esempio_irraggiamento.md e docs/visual-guidelines.md. Checklist: A1–A5 (narrazione, formule, monograficità, domande), B1.1–B2 (visuali prima della bozza e approvazioni), B4–B6 (riuso e continuità), C1–C4 (immagini, grafici, accessibilità), D1–D2.1 (verifiche e salvataggio). Applicare economia informativa a testo, figure e didascalie.
+Progettazione v2 — 24 ottobre 2026, Europe/Rome. Master consultato: v69.15; istruzioni AGENTS.md, piano dell'area, STILE_DISPENSE.md v7, esempio_irraggiamento.md e docs/visual-guidelines.md. Checklist: A1–A5 (narrazione, formule, monograficità, domande), B1.1–B2 (visuali prima della bozza e approvazioni), B4–B6 (riuso e continuità), C1–C4 (immagini, grafici, accessibilità), D1–D2.1 (verifiche e salvataggio). Applicare economia informativa a testo, figure e didascalie.
 
 Richiesta effettiva: «Iniziamo a creare i capitoli 8 e 9 del piano di lavorazione sull'introduzione alla fisica». Autorizzato l'avvio della progettazione. Le nuove scelte visuali, la bozza completa, la realizzazione HTML e la pubblicazione non sono ancora approvate. Tema comune Stringhe già approvato, da riutilizzare nella successiva fase HTML senza una nuova scelta.
 
@@ -10,32 +10,38 @@ Fonte verificata: grafici_piano_cartesiano_it.html, versione interna v8, blob 9b
 
 Ramo dedicato derivato da main: lavorazione/introduzione-capitoli-8-9. File di stato e proposta salvati; nessuna bozza integrale o HTML realizzati. Revisione preliminare svolta sul testo, sui grafici SVG e sul codice delle interazioni; non si dichiarano prove nel browser o verifiche delle licenze non eseguite.
 
-## Argomento e confini
+## Decisione corrente e confini — 24 ottobre 2026
 
-Capitolo 9 di Introduzione alla fisica e alla misura. Sorgente: sezione «Dalle proporzioni alla retta», tabella dei quaderni e grafico SVG chart-direct. Titolo futuro proposto: proporzionalita_diretta_it.html.
+Richiesta: «Allora, io farei il piano cartesiano in un capitolo e tutte le relazioni di proporzionalità in un altro». Approvato l'accorpamento: capitolo 8 sul piano cartesiano; capitolo 9 su tutte le relazioni previste dal piano. Il percorso complessivo comprende nove capitoli; non sono più previsti capitoli 10 e 11 separati.
 
-Domanda iniziale proposta: se raddoppiamo il numero di quaderni acquistati, raddoppia anche il prezzo? Situazione centrale: prezzo unitario fisso di 2 €/quaderno, senza quota fissa o sconti; dati costruiti dal modello, non misure.
+Titolo proposto: «Le relazioni tra grandezze». Percorso futuro proposto: relazioni_grandezze_it.html. Questo file di stato conserva il percorso storico per mantenere continuità e collegamenti, ma riguarda ora l’intero capitolo 9.
 
-Percorso: rapporto costante per x diverso da zero, costante di proporzionalità e sue unità, formule generali y = k·x e k = y/x (in HTML frazione orizzontale), previsioni raddoppiando/triplicando/dimezzando x nei limiti del dominio; tabella e grafico con origine; riconoscimento numerico della relazione. Spiegare k come prezzo unitario, non come semplice numero privo di unità. Il rapporto non è definito in x = 0, ma il modello assegna y = 0: precisazione breve nel punto necessario o in nota.
+Sorgente: sezioni «Dalle proporzioni alla retta», «Intercetta e pendenza: rette diverse», «Proporzionalità inversa» e «Relazione quadratica» di grafici_piano_cartesiano_it.html, con tabelle, grafici e quesiti 3–7. Il capitolo 8 fornisce i prerequisiti di lettura del piano e delle scale: non ripeterne la spiegazione.
 
-Lasciare al capitolo 10 il trattamento di intercetta, rette con quota fissa e calcolo della pendenza. Qui basta il collegamento intuitivo fra k e aumento di y per unità di x, senza una seconda trattazione. Inversa e quadratica restano al capitolo 11. Non presentare «entrambe crescono» come criterio sufficiente. Il modello generale ammette anche k negativo per grandezze con segno: non definire la proporzionalità esclusivamente come crescita, pur mantenendo il caso concreto positivo.
+## Percorso proposto
 
-## Visuali proposte, da concordare
+Domanda guida: quando cambia una grandezza, come possiamo prevedere il cambiamento dell’altra?
 
-- C9-COP: foto reale di quaderni in cartoleria, per la copertina, senza zoom; file da scegliere e fornire dall'utente. Non riutilizzarla nello schema interno.
-- C9-SIT: un'altra immagine di un quaderno, preferibilmente con sfondo trasparente o rimovibile, per lo schema essenziale dell'acquisto e del prezzo unitario 2 €/quaderno. Non disegnare un oggetto sostitutivo con sagome astratte. File da scegliere e fornire; nessuna ricerca o generazione effettuata.
-- C9-TAB: riutilizzare tabella originale: numero di quaderni 0, 1, 2, 3, 4; prezzo 0, 2, 4, 6, 8 €. Aggiungere il rapporto solo se serve alla lettura, senza ripeterne i valori in più apparati.
-- C9-GRA: riutilizzare grafico originale e comando «Mostra la retta». Punti e modello distinti, assi con grandezze/unità. Per l'acquisto i numeri di quaderni sono interi: la retta visualizza il modello matematico, non la possibilità di acquistare frazioni di quaderno. Conservare questa distinzione in una breve nota se la linea continua viene mostrata.
-- Nessuna simulazione nuova o cursore di k proposto: il comando esistente basta al passaggio tabella–modello. Un confronto tra pendenze diverse sarà valutato nel capitolo 10.
+1. Proporzionalità diretta: y = k·x, rapporto costante per x diverso da zero, significato e unità di k, raddoppio e dimezzamento, retta passante per l’origine. Conservare l’esempio dei quaderni a prezzo unitario fisso.
+2. Confronto con le altre rette: y = m·x + q, significato di pendenza e intercetta, quota fissa della consegna e retta decrescente. Per q diverso da zero la relazione è affine e non una proporzionalità diretta; una retta decrescente non è automaticamente una proporzionalità inversa. Il confronto serve a riconoscere i modelli, senza diventare un capitolo separato.
+3. Proporzionalità inversa: y = k/x, prodotto x·y costante, esempio dei rettangoli di area 12 cm², raddoppio della base e dimezzamento dell’altezza, curva nel dominio positivo.
+4. Proporzionalità quadratica: y = k·x², rapporto y/x² costante per x diverso da zero, lato e area del quadrato, raddoppio del lato e area quadrupla. Non chiamare proporzionalità quadratica una generica funzione di secondo grado con altri termini.
+5. Domande finali su riconoscimento delle relazioni da dati, formule e grafici, senza riepiloghi ripetitivi o soluzioni automatiche.
 
-Rimuovere dal materiale adattato separatori puntiformi usati fuori dalle moltiplicazioni e spiegazioni ripetute come «Punti = tabella; linea = regola» quando il contesto e il pulsante rendono già chiara la funzione. Le informazioni non ovvie su dati e dominio restano. Il paragrafo sulla linea interpolante nei dati sperimentali non è necessario nel modello esatto dei prezzi: non trasferirlo automaticamente nel capitolo 9, conservarlo nella fonte storica e valutarne la collocazione nei futuri contenuti sui grafici sperimentali.
+Le divisioni saranno frazioni orizzontali nell’HTML. Definire grandezze, unità, domini e costanti nel punto necessario; non ripetere a ogni grafico avvertenze già chiare. Il caso concreto positivo non deve diventare una definizione generale che escluda k negativo nella proporzionalità diretta.
 
-## Domande e continuità
+## Visuali proposte e materiali aperti
 
-Conservare il quesito originale 3: ricavare il prezzo unitario dalla tabella e spiegare il passaggio per l'origine. Progettare nella bozza ulteriori domande su previsione di prezzi, unità di k e riconoscimento del rapporto costante, con pochi calcoli e senza soluzioni automatiche. Ripartizione completa dei sette quesiti originali documentata nello stato del capitolo 8.
+Riutilizzare tabelle e grafici del sorgente: quaderni, confronto delle tre rette, rettangoli ad area costante e area del quadrato. Conservare i comandi esistenti «Mostra la retta» / «Mostra la curva» se concordati; nessuna nuova simulazione programmata. Assi con grandezze e unità coerenti con ciascun contesto; non fondere in uno stesso grafico dati con unità diverse.
 
-## Fattibilità e prossima operazione
+Copertina: da scegliere per il capitolo unificato; la precedente proposta dei quaderni non è più una scelta corrente automatica. Non riutilizzarla nel corpo. Per gli esempi concreti servono gli schemi delle situazioni: immagine del quaderno e del servizio di consegna da concordare e fornire; rettangoli e quadrati sono oggetti geometrici rappresentabili direttamente in SVG. Non cercare o generare nuove immagini senza richiesta. Niente didascalie che ripetano assi, regole o comandi.
 
-Interazione esistente binaria, costo sul dispositivo basso: nessuna integrazione temporale, libreria o dipendenza esterna. Verificare che il codice non dipenda dal piano trascinabile eliminato da questo capitolo: lo script unificato accede a plane/point e va separato. Conservare pulsante, stato aria-pressed e funzionamento da tastiera; prevedere una lettura statica utile senza JavaScript. Stima preliminare per isolamento e prove del solo grafico: 15–30 minuti, carico basso; non è un tempo misurato. Alternativa statica con punti e retta sempre visibili: minore lavoro tecnico, nessuna rivelazione progressiva; il riuso del comando resta preferibile.
+I quesiti originali 3–7 sono assegnati tutti a questo capitolo; 1–2 al capitolo 8. Preservare contenuto e funzione dei quesiti nella bozza. Il paragrafo storico sulla linea interpolante nei dati misurati non va trasferito automaticamente al modello esatto dei prezzi.
 
-Fase corrente: proposta di contenuti e visuali. Prossimo passaggio: concordare i materiali, poi scrivere bozza.md completa con segnaposto. Dopo approvazione della bozza, comunicare stima totale ripartita e raccogliere il via alla realizzazione secondo B1.1. Nessun HTML prima di quel passaggio.
+## Fattibilità, fase e prossimo passaggio
+
+I grafici e i comandi esistono: riuso leggero, senza servizi esterni o nuove librerie. Separare lo script dei grafici dal codice del punto P, che appartiene al capitolo 8, ed evitare accessi a elementi assenti. Verificare comandi, tastiera, aria-pressed, fallback statico, scale, domini e resa mobile nei due temi. Non sono ancora state svolte prove nel browser sul capitolo unificato.
+
+La precedente stima di 15–30 minuti riguardava soltanto il grafico della diretta e non copre l’intero capitolo unificato. Dopo l’approvazione della bozza occorre una nuova stima complessiva ripartita per materiali, HTML, interazioni, verifiche e salvataggio.
+
+Fase corrente: struttura accorpata definita dall’utente; visuali da concordare. Prossima operazione: definire i materiali e poi preparare bozza.md completa con segnaposto. Nessuna realizzazione HTML, modifica di main o pubblicazione autorizzata.
