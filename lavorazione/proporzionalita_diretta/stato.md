@@ -150,3 +150,6 @@ Nel capitolo 9, tre colonne distinte con margini e divisori, etichette «1 libro
 Verifiche superate: 12 layout e 54 casi di k nei rapporti aggiornati, linea continua visibile con e senza JavaScript, valori 0 L a 0 min, 4,5 L a 1,5 min e 9 L da 3 a 5 min, due tracciati nel confronto delle scale, gruppi di 1/2/3 immagini. Ispezionate direttamente le schermate mobile del tracciato e dei libri; quattro schermate del grafico principale rifinite per l’etichetta P. Crediti, build e assenza di overflow/errori/richieste esterne confermati. Tabelle, assi orientati, punte separate, rubinetto senza goccia a destra e autobus preservati.
 
 Versioni correnti: capitolo 8 HTML v5 e bozza v6; capitolo 9 HTML v4 e bozza v7. Nuova anteprima da consegnare e approvare; PR sempre in bozza, nessun merge o deployment.
+
+
+Anteprima corrente v4 verificata online al commit `37933d25e673009b5eeac1d6d8b50637bce5bebe`: [apri il capitolo](https://raw.githack.com/rickymusu-bit/fisica/37933d25e673009b5eeac1d6d8b50637bce5bebe/relazioni_proporzionalita_it.html), HTTPS 200 e byte identici al file locale. Comprende il tracciato continuo e i gruppi di libri separati; sostituisce i precedenti collegamenti del capitolo.
