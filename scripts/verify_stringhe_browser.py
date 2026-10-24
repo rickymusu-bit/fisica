@@ -144,9 +144,19 @@ def verify_quiz(page, base):
     page.goto(base + 'quiz.html')
     page.locator('[data-quiz-chapter]').first.check()
     count_input = page.locator('#quiz-count')
+    minus = page.locator('#quiz-count-minus')
+    plus = page.locator('#quiz-count-plus')
     assert count_input.input_value() == '25'
     assert page.locator('#quiz-duration').inner_text() == '50:00'
+    assert minus.is_enabled() and plus.is_enabled()
+    plus.click()
+    assert count_input.input_value() == '26'
+    assert page.locator('#quiz-duration').inner_text() == '52:00'
+    minus.click()
+    assert count_input.input_value() == '25'
     count_input.fill('30')
+    assert plus.is_disabled()
+    assert minus.is_enabled()
     assert page.locator('#quiz-duration').inner_text() == '60:00'
     count_input.fill('31')
     assert page.locator('#quiz-start').is_disabled()
@@ -154,6 +164,14 @@ def verify_quiz(page, base):
     count_input.fill('0')
     assert page.locator('#quiz-start').is_disabled()
     count_input.fill('1')
+    assert minus.is_disabled()
+    assert plus.is_enabled()
+    assert page.locator('#quiz-duration').inner_text() == '2:00'
+    plus.click()
+    assert count_input.input_value() == '2'
+    assert page.locator('#quiz-duration').inner_text() == '4:00'
+    minus.click()
+    assert count_input.input_value() == '1'
     assert page.locator('#quiz-duration').inner_text() == '2:00'
 
     # Il quiz a domanda singola termina e corregge una sola risposta.
