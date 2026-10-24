@@ -77,3 +77,6 @@ Controlli scientifici: i prezzi 0/2/4/6/8 € seguono il costo unitario di 2 €
 `python scripts/credits.py --check` e `python scripts/build_pages.py` superati. Nessuna associazione grafica priva di credito nei due nuovi documenti. Registro aggiornato per i nuovi capitoli, pagina pubblica dei crediti e componenti degli altri capitoli invariati. Manifest, catalogo, capitoli pubblicati e sorgenti esclusi invariati; i due nuovi capitoli restano fuori dall’output ufficiale della build.
 
 Prossima operazione: approvazione dell’anteprima corrente da parte dell’utente. AGENTS.md richiede di «presentare prima l’anteprima corrente e attendere sempre l’approvazione esplicita dell’utente prima di integrare main o avviare GitHub Pages». PR mantenuta in bozza; nessun merge o deployment ufficiale eseguito.
+
+
+Salvataggio remoto verificato: commit `949647f5643410b84b22f14c55ae974781137f7c` sul ramo della PR #79. [Anteprima interattiva corrente](https://raw.githack.com/rickymusu-bit/fisica/949647f5643410b84b22f14c55ae974781137f7c/piano_cartesiano_grafici_it.html), HTTPS 200, tipo text/html e byte identici all’HTML locale. Rapporto [verifica-anteprima-online.json](verifica-anteprima-online.json). Nessuna pubblicazione ufficiale eseguita.
