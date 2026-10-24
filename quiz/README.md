@@ -1,4 +1,4 @@
-# Quiz di Stringhe — specifiche v1.1.0
+# Quiz di Stringhe — specifiche v1.2.0
 
 **Stato:** prototipo funzionante con archivio di prova, non approvato per pubblicazione e non adatto a verifiche valutative.  
 **Data:** 24 ottobre 2026 (Europe/Rome).
@@ -8,10 +8,11 @@
 - Selezione tramite caselle di controllo di singoli capitoli, anche appartenenti a categorie differenti.
 - La casella di una categoria seleziona/deseleziona tutti i suoi capitoli; se ne sono scelti soltanto alcuni, mostra lo stato parziale.
 - Le categorie e i titoli dei capitoli derivano dal catalogo corrente del sito: nessun elenco parallelo da aggiornare.
-- Tutti i quiz contengono **25 domande a risposta multipla**, senza possibilità di modificare la quantità.
-- **Facile:** 3 alternative e 150 secondi per domanda; massimo 62:30.
-- **Media:** 4 alternative e 120 secondi per domanda; massimo 50:00.
-- **Difficile:** 5 alternative e 90 secondi per domanda; massimo 37:30.
+- L'utente seleziona da **1 a 30 domande**, con **25** inizialmente proposte. La durata massima si aggiorna prima dell'avvio e corrisponde a 2 minuti per ciascuna domanda (30 domande = 60 minuti).
+- **Facile:** 3 alternative.
+- **Media:** 4 alternative.
+- **Difficile:** 5 alternative.
+- Il limite di **120 secondi per domanda** è uguale a tutti i livelli. Cambiano difficoltà e numero delle opzioni, non il tempo. Il timer della singola domanda rimane nascosto.
 - Il browser gestisce internamente una scadenza per ciascuna domanda. Lo studente vede soltanto il tempo totale rimanente. Quando scade il tempo della domanda, questa viene lasciata senza risposta e si passa alla successiva.
 - Durante il quiz compare una griglia numerata da 1 a 25: indica **risposta data** (confermata), **saltata** (pulsante o scadenza), **corrente** e **da affrontare**, con colori, simboli e nomi accessibili. Le scelte ancora non confermate non contano come risposte date.
 - Il riepilogo finale ripropone la griglia: distingue le domande saltate da quelle non raggiunte, ad esempio per chiusura anticipata. Le risposte, le soluzioni e le spiegazioni sono riportate per ogni domanda.
@@ -29,7 +30,7 @@ La sorgente è **quiz/domande-prova.json**, separata dall'interfaccia. Ogni reco
 
 La build controlla che gli ID siano unici, che il capitolo sia pubblicato, che il numero di alternative coincida con il livello e che la risposta corretta sia valida. Il dataset è incorporato in \`_site/quiz.html\` durante la build, senza richiesta di rete, ma resta un file indipendente nei sorgenti.
 
-**Limite del prototipo:** 45 domande, una per ciascuno dei 15 capitoli attuali e per livello; se le domande disponibili non arrivano a 25, il motore le riutilizza fino al numero richiesto, mescolando l'ordine. Questa soluzione serve **solo per provare il flusso** e andrà rimossa quando l'archivio definitivo garantirà almeno 25 domande distinte per ciascuna selezione ammessa. Per verifiche scolastiche servono più quesiti indipendenti, correttezza scientifica verificata e varianti autenticamente equivalenti, non semplici sostituzioni numeriche.
+**Limite del prototipo:** 45 domande, una per ciascuno dei 15 capitoli attuali e per livello; se le domande disponibili non arrivano al numero selezionato, il motore le riutilizza fino al numero richiesto, mescolando l'ordine. Questa soluzione serve **solo per provare il flusso** e andrà rimossa quando l'archivio definitivo garantirà una quantità sufficiente di domande distinte per ciascuna selezione ammessa. Per verifiche scolastiche servono più quesiti indipendenti, correttezza scientifica verificata e varianti autenticamente equivalenti, non semplici sostituzioni numeriche.
 
 ## Struttura
 
