@@ -3,7 +3,7 @@
 Data del piano: 21/10/2026 (Europe/Rome). Indice aggiornato al 24/10/2026: primi sette capitoli ammessi alla pubblicazione; capitoli 8 e 9 in progettazione. Le sezioni di avanzamento conservano la cronologia, superata dalle decisioni più recenti dove specificato.
 Fonte delle regole: MASTER_PROMPT.md v69.6, AGENTS.md, riferimenti/STILE_DISPENSE.md, riferimenti/esempio_irraggiamento.md.
 Macrocategoria approvata dall'utente: **Introduzione alla fisica e alla misura**.
-Piano iniziale approvato: 12 capitoli, con proporzionalità inversa e quadratica insieme. Misure ripetute, media, semidispersione e incertezza sono riunite nel capitolo 7. Il 24/10/2026 l’utente richiede un capitolo sul piano cartesiano e uno su tutte le relazioni di proporzionalità: il percorso aggiornato comprende **9 capitoli**, con il confronto delle relazioni lineari nello stesso capitolo 9.
+Piano iniziale approvato: 12 capitoli, con proporzionalità inversa e quadratica insieme. Misure ripetute, media, semidispersione e incertezza sono riunite nel capitolo 7. Il 24/10/2026 l’utente richiede un capitolo sul piano cartesiano e uno su tutte le relazioni di proporzionalità: il percorso aggiornato comprende **9 capitoli**, con proporzionalità diretta, inversa e quadratica nel capitolo 9.
 Non ancora approvati: revisione dello schema del metodo scientifico, bozze dei singoli capitoli, conversioni HTML, pubblicazione. Simulazione semplice del piano inclinato approvata dall'utente il 22/10/2026: 2–3 inclinazioni predefinite, pallina che parte da ferma, stessa lunghezza del percorso, cronometro e tabella risultati; senza attrito regolabile o grafici del moto.
 
 ## Indice editoriale concordato
@@ -16,7 +16,7 @@ Non ancora approvati: revisione dello schema del metodo scientifico, bozze dei s
 6. Gli strumenti di misura — «Analogico o digitale?» e «Che cosa chiedere a uno strumento», incluse portata, prontezza, risoluzione, sensibilità, precisione e accuratezza, di strumenti_errori_incertezza_it.html.
 7. Errori e incertezza di misura — «Perché le misure cambiano o si spostano», «Da cinque letture a un risultato» ed «Errore e incertezza: due domande diverse» dello stesso sorgente. Percorso unico con misure ripetute, media, semidispersione e stima dell'incertezza; chiarire che la dispersione non rappresenta automaticamente tutta l'incertezza.
 8. Il piano cartesiano — «Due grandezze, una coppia di coordinate» e interazione «Trascina P» di grafici_piano_cartesiano_it.html; assi, coordinate, quadranti, unità, scale e passaggio tabella–grafico.
-9. Le relazioni tra grandezze — proporzionalità diretta, inversa e quadratica, con confronto delle rette con intercetta per distinguere una relazione affine da una proporzionalità diretta. Riunisce «Dalle proporzioni alla retta», «Intercetta e pendenza: rette diverse», «Proporzionalità inversa» e «Relazione quadratica» dello stesso sorgente. Non sono più previsti capitoli 10 e 11 separati.
+9. Le relazioni di proporzionalità — proporzionalità diretta, inversa e quadratica, dalle sezioni «Dalle proporzioni alla retta», «Proporzionalità inversa» e «Relazione quadratica» di grafici_piano_cartesiano_it.html. Intercetta, rette affini e confronto delle pendenze esclusi su richiesta dell’utente; nessun capitolo 10 o 11 separato.
 
 ## Criteri trasversali
 
@@ -232,3 +232,9 @@ Dopo la separazione delle attività del 7, l’utente approva nuovamente con «O
 Richiesta: «Allora, io farei il piano cartesiano in un capitolo e tutte le relazioni di proporzionalità in un altro». Decisione applicata nell’indice corrente: capitolo 8 «Il piano cartesiano»; capitolo 9 «Le relazioni tra grandezze». Il titolo del 9 comprende anche il confronto con y = m·x + q: per q diverso da zero questa non è una proporzionalità diretta. La proporzionalità quadratica si esprime y = k·x²; non ogni relazione quadratica è una proporzionalità quadratica.
 
 Il precedente indice a undici capitoli è superato; i resoconti storici ne conservano la cronologia. Quesiti originali del sorgente dei grafici: 1–2 al capitolo 8, 3–7 al capitolo 9. Stati nella PR #79; il percorso storico lavorazione/proporzionalita_diretta/stato.md conserva ora lo stato dell’intero capitolo 9, senza creare un secondo stato. La scelta dell’accorpamento è approvata dalla richiesta; visuali e bozze restano da concordare. Nessuna modifica a main, manifest o sito pubblico.
+
+## Capitoli 8 e 9 — bozze e perimetro definitivo, 24 ottobre 2026
+
+«Va bene, procediamo» autorizza la stesura delle bozze sulla struttura concordata. Preparati [Il piano cartesiano, bozza v1](../piano_cartesiano_grafici/bozza.md), con otto domande, e [Le relazioni di proporzionalità, bozza v2](../proporzionalita_diretta/bozza.md), con nove domande. La successiva richiesta «Lascia fuori la parte sull'intercetta» supera la proposta precedente: eliminati dal 9 sezione affine, quota fissa della consegna, formula della pendenza, confronto delle tre rette e domande associate. Titolo del 9 aggiornato per rispecchiare il perimetro.
+
+Quesiti del sorgente dei grafici: 1–2 nel capitolo 8 (il primo adattato al grafico dei quaderni); 3, 6 e 7 nel capitolo 9; 4–5 esclusi dai nuovi capitoli su richiesta, conservati nel sorgente storico. Restano segnaposto per le immagini da scegliere. Testi da revisionare; nessun HTML o deployment avviato.
