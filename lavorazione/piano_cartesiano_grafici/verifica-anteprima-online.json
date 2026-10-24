@@ -1,9 +1,9 @@
 {
-  "url": "https://raw.githack.com/rickymusu-bit/fisica/9dc4df85575ad3ce0b2c5af64ad7dcfc44180f8b/piano_cartesiano_grafici_it.html",
-  "version": "v2",
+  "url": "https://raw.githack.com/rickymusu-bit/fisica/c8a89b5bf8195eae5adb6e2022b6f16a491f2eda/piano_cartesiano_grafici_it.html",
+  "version": "v3",
   "status": 200,
   "content_type": "text/html; charset=utf-8",
-  "bytes": 2176275,
+  "bytes": 2207972,
   "identical": true,
-  "sha256": "b965abd10fe9fb9b991e5b88457e6b8e41a43436b188b0c7a76b3b9de389c6d4"
+  "sha256": "ab8a86204fa7a8b80f6ed62c730bc173d8e0ae2ea14e83b42936045b31833944"
 }

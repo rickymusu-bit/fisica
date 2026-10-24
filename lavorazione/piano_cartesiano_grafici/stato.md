@@ -117,3 +117,6 @@ Frecce verso destra e verso l’alto nel grafico tempo–volume, nel piano inter
 HTML del capitolo 8 aggiornato a v3, bozza testuale v4. Il generatore ora supporta --chapter-8 per aggiornare solo il capitolo richiesto; versione e data del capitolo 9 restano indipendenti. Confermata identità byte per byte del capitolo 9 rispetto a HEAD. Nessun aggiornamento al tema comune, ai capitoli pubblicati o al manifest.
 
 Verifiche superate: sei layout Chromium del solo capitolo 8 (320/390/1440 px, chiaro/scuro), frecce su tutti gli assi, punte distinte, clip art incorporata, leggibilità, trascinamento/tastiera di P, zoom statico e fallback senza JavaScript. Nessun errore, overflow o richiesta esterna. Ispezionate direttamente le nuove schermate del rubinetto, della corrispondenza e degli assi. credits.py --check, build_pages.py e git diff --check superati. Rapporti e schermate aggiornati; le verifiche del capitolo 9 sono conservate. PR in bozza, nessun merge o deployment ufficiale.
+
+
+Anteprima corrente v3 verificata online al commit `c8a89b5bf8195eae5adb6e2022b6f16a491f2eda`: [apri il capitolo](https://raw.githack.com/rickymusu-bit/fisica/c8a89b5bf8195eae5adb6e2022b6f16a491f2eda/piano_cartesiano_grafici_it.html), HTTPS 200, text/html, byte identici al file locale. Questo collegamento supera le precedenti anteprime del capitolo 8.
