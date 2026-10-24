@@ -1,5 +1,5 @@
 # Capitolo 6 — Gli strumenti di misura: proposta
-Versione v6 — 23 ottobre 2026 (Europe/Rome). Impostazione e visuali approvate con «Ok»; bozza testuale v5 con simulazione proposta.
+Versione v7 — 24 ottobre 2026 (Europe/Rome). Impostazione e visuali approvate con «Ok»; bozza testuale v5 con simulazione proposta.
 
 ## Domanda e confini
 Una bilancia mostra molte cifre: basta questo per fidarsi della misura? Partire dal confronto fra lettura analogica e digitale, poi distinguere le caratteristiche che permettono di scegliere e usare uno strumento.
@@ -63,3 +63,7 @@ HTML v2 e bozza v5; crediti nel registro unico. Restano da fornire le altre imma
 ### Correzioni dello schema richieste dall’utente
 
 Base dell’oggetto portata allo zero (y = 750, stessa quota dello zero della scala); estremità superiore mantenuta a 5 cm. Aggiunto il collegamento visivo base–zero. Rimosse “vista laterale schematica” e la descrizione accanto all’oggetto che sostituiva “indice fermo davanti alla scala”, insieme alla relativa linea di richiamo. Linee di vista invariate e geometricamente corrette. Schema, PNG di anteprima, HTML e schermate riallineati nella stessa revisione v2.
+
+## Essenzialità richiesta — HTML v3
+
+Recepita la richiesta di non dichiarare ciò che è già evidente dalle immagini o dal contesto. Schema ripulito da titoli interni, descrizioni delle posizioni e precisazioni ridondanti; omesse le didascalie tautologiche delle due figure integrate. Geometria invariata. Master aggiornato a v69.12, C3/A6; riferimento di stile v7. HTML v3 e bozza v6; verifiche mirate e anteprime aggiornate. Nessun rilascio.

@@ -73,5 +73,11 @@
     "vertical_length_cm": 5
   },
   "zero_alignment_check": "La base e lo zero della scala hanno la stessa coordinata y = 750; estremità a 5 cm.",
-  "svg_sha256": "291135edd0f44a9737ce88b2de4aa2797ca5cd9851306bbc368188276f8b8663"
+  "svg_sha256": "2e1dcb83158b3abef6c982b3074a59116846b650778542b0edfb7667a3145717",
+  "viewbox": [
+    90,
+    90,
+    1250,
+    700
+  ]
 }

@@ -1,6 +1,6 @@
 # Stile delle dispense di fisica
 
-Versione v6 · 18 ottobre 2026, ore 02:11 (Europe/Rome).
+Versione v7 — 24/10/2026, ore 08:22 (Europe/Rome).
 
 Riferimento approvato dall'utente per tutte le dispense esistenti e future. Deriva dalle caratteristiche generali del testo giornalistico fornito sui telefoni e dalla prova sull'irraggiamento con l'integrazione delle formule, approvata in chat. Il testo sui telefoni è un riferimento esclusivamente linguistico: non ne trasferire fatti, giudizi o conclusioni nelle dispense. Il campione operativo è [esempio_irraggiamento.md](esempio_irraggiamento.md). Il master resta la fonte delle regole di progetto. Il tema grafico comune è salvato separatamente nel modello autonomo [TEMA_DISPENSE.html](TEMA_DISPENSE.html), da applicare ai capitoli futuri secondo A6 del master.
 
@@ -15,7 +15,7 @@ Riferimento approvato dall'utente per tutte le dispense esistenti e future. Deri
 - Usare pochi titoli interni significativi; lasciare che siano i collegamenti tra i paragrafi a guidare la lettura.
 - Affrontare intuizioni sbagliate e obiezioni nel punto in cui possono sorgere. Usare le note collassabili, inizialmente chiuse, soprattutto per alleggerire la spiegazione: mantenere soltanto precisazioni brevi e utili al biennio, senza duplicare testo o didascalie. Eliminare le puntualizzazioni superflue e gli approfondimenti troppo tecnici, invece di trasferirli automaticamente in nota, secondo A1 e A6 del master.
 - Non aggiungere automaticamente un riepilogo separato.
-- Descrivere nelle didascalie ciò che si vede e il collegamento con il ragionamento, senza ripetere il testo.
+- Non dichiarare nel testo visibile, nelle etichette o nelle didascalie ciò che è già evidente dall’immagine o dal contesto. Aggiungere soltanto informazioni necessarie; omettere le didascalie che non aggiungono nulla, secondo C3 del master.
 
 Riprendere queste caratteristiche generali con formulazioni originali. Non trasferire automaticamente dal campione giornalistico espressioni sprezzanti, ironia, citazioni, riferimenti ad autorità o cautele storiche. La leggibilità sul telefono e la correttezza scientifica restano prioritarie.
 

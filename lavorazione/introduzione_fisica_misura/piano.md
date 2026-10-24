@@ -202,3 +202,7 @@ Restano da integrare le immagini sostitutive con licenza, che l’utente intende
 ### Capitolo 6 — bilancia analogica e schema originale, 24 ottobre 2026
 
 Integrata la fotografia Kitchen scale 20101110.jpg scelta dall’utente, Batholith / pubblico dominio PD-self, intera e con didascalia corretta a 2 kg e divisioni 10 g. Per il riferimento Vecteezy Pro eseguita la richiesta condizionale di ricreazione: nuovo schema originale del parallasse con elemento dell’occhio generato e geometria/scritte SVG verificate, senza incorporare il materiale commerciale. Bozza v5, HTML v2, crediti e verifiche mirate aggiornati nella PR #72. Capitolo 7 v1 e simulazioni invariati; altre immagini ancora in attesa. Nessuna modifica al sito pubblico.
+
+### Capitolo 6 — HTML v3, essenzialità delle figure
+
+Su richiesta dell’utente rimossi testi visibili e didascalie che ripetono informazioni già evidenti dall’immagine o dal contesto. Regola consolidata nel master v69.12 e nel riferimento di stile v7. Geometria e simulazioni invariate; altre immagini ancora in attesa.

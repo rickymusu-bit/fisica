@@ -20,6 +20,8 @@ def main():
     assert geometry['object']['base'][1]==geometry['object']['zero_on_scale'][1]==750
     assert 'M394 750V472L400 450 406 472V750Z' in svg
     assert 'Vista laterale schematica' not in svg and 'Indice fermo' not in svg
+    assert '>Base allineata allo zero<' not in svg and '>La base è sullo zero' not in svg
+    assert 'Separazione dalla scala</text>' not in svg
     assert 'M440 581 408 548' not in svg
     server=ThreadingHTTPServer(('127.0.0.1',0),partial(Quiet,directory=str(ROOT)))
     Thread(target=server.serve_forever,daemon=True).start()
@@ -28,10 +30,13 @@ def main():
     try:
       with sync_playwright() as p:
         browser=p.chromium.launch(executable_path='/usr/bin/chromium',args=['--no-sandbox','--disable-dev-shm-usage'])
-        preview=browser.new_page(viewport={'width':1500,'height':900})
+        viewbox=geometry['viewbox']
+        preview=browser.new_page(viewport={'width':viewbox[2],'height':viewbox[3]})
         svg_uri='data:image/svg+xml;base64,'+base64.b64encode(svg.encode()).decode()
-        preview.set_content('<style>body{margin:0}img{display:block;width:1500px;height:900px}</style><img src="'+svg_uri+'">')
-        preview.locator('img').evaluate('(i)=>i.decode()')
+        preview.set_content('<style>body{margin:0}svg{display:block;width:100vw;height:100vh}</style>'+svg)
+        preview.wait_for_load_state('load')
+        boxes=preview.locator('svg text').evaluate_all('(xs)=>xs.map(e=>{const b=e.getBBox();return {x:b.x,y:b.y,w:b.width,h:b.height}})')
+        assert all(b['x']>=viewbox[0] and b['y']>=viewbox[1] and b['x']+b['w']<=viewbox[0]+viewbox[2] and b['y']+b['h']<=viewbox[1]+viewbox[3] for b in boxes)
         preview.screenshot(path=str(WORK/'risorse/parallasse-anteprima.png'))
         preview.close()
         for width in [320,390,768,1024,1440]:
@@ -45,7 +50,7 @@ def main():
             ids=page.locator('[id]').evaluate_all('(xs)=>xs.map(e=>e.id)');assert len(ids)==len(set(ids))
             photo=page.locator('#fig-06-1a');diagram=page.locator('#fig-06-2')
             assert photo.locator('.image-zoom').count()==0
-            assert '2 kg' in photo.locator('figcaption').inner_text() and '10 g' in photo.locator('figcaption').inner_text()
+            assert photo.locator('figcaption').count()==0 and diagram.locator('figcaption').count()==0
             assert photo.locator('img').get_attribute('src').split(',',1)[0]=='data:image/jpeg;base64'
             assert base64.b64decode(photo.locator('img').get_attribute('src').split(',',1)[1])==(WORK/'risorse/bilancia-analogica.jpg').read_bytes()
             assert base64.b64decode(diagram.locator('.overview img').get_attribute('src').split(',',1)[1])==(WORK/'risorse/parallasse.svg').read_bytes()

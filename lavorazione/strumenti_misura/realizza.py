@@ -144,7 +144,8 @@ def photo(folder, key, caption, image_assets, *, sim=False):
     zoom=''
     if data.get('zoom'):
         zoom='<details class="image-zoom"><summary class="media-icon-button" aria-label="Ingrandisci l’immagine"><span class="zoom-expand">' + icon('zoom-in') + '</span><span class="zoom-collapse">' + icon('zoom-out') + '</span></summary><div class="zoom-scroll" tabindex="0" role="region" aria-label="Schema del parallasse ingrandito e scorrevole">' + image.replace('<img ','<img style="min-width:1500px" ',1) + '</div></details>'
-    return '<figure class="' + classes + '" id="' + key.lower() + '" ' + attrs + '><div class="image-frame"><div class="overview">' + image + '</div>' + zoom + '</div><figcaption>' + inline(caption) + '</figcaption></figure>'
+    caption_html='' if data.get('hide-caption') else '<figcaption>' + inline(caption) + '</figcaption>'
+    return '<figure class="' + classes + '" id="' + key.lower() + '" ' + attrs + '><div class="image-frame"><div class="overview">' + image + '</div>' + zoom + '</div>' + caption_html + '</figure>'
 
 
 def table(block, key):
@@ -258,7 +259,10 @@ def render(key, data):
             if pending and pending.startswith(('FIG-','SCH-')):
                 body.append(photo(folder,pending,'Bilancia digitale: strumento del confronto illustrativo.',image_assets));
                 if pending not in image_assets: missing.append(pending)
-            pending = re.match(r'\[((?:FIG|SCH)-[A-Za-z\d-]+)',block)[1]; continue
+            pending = re.match(r'\[((?:FIG|SCH)-[A-Za-z\d-]+)',block)[1]
+            if image_assets.get(pending,{}).get('hide-caption'):
+                body.append(photo(folder,pending,'',image_assets)); pending=None
+            continue
         if block.startswith('|'):
             # FIG-06-1b precede la tabella: aggiungerla vicino al confronto.
             if pending == 'TAB-06':

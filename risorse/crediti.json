@@ -3853,7 +3853,9 @@
       "fingerprints": [
         "asset-c8fca20a8dc52b2f89aa1e786c9e0c42f357acff4574ce18069545b982e2387b",
         "asset-63987141d743253627c19f163d61877236bc00b029023a7b1c5e67ccbfe9f241",
-        "asset-291135edd0f44a9737ce88b2de4aa2797ca5cd9851306bbc368188276f8b8663"
+        "asset-291135edd0f44a9737ce88b2de4aa2797ca5cd9851306bbc368188276f8b8663",
+        "asset-318fca0c79ba2fa1cbe77e28d7edbe1ce651ba203aab63aaea49d4c74bb8ac79",
+        "asset-2e1dcb83158b3abef6c982b3074a59116846b650778542b0edfb7667a3145717"
       ]
     },
     {
@@ -5422,30 +5424,6 @@
       ]
     },
     {
-      "id": "asset-291135edd0f44a9737ce88b2de4aa2797ca5cd9851306bbc368188276f8b8663",
-      "kind": "image/svg+xml",
-      "uses": [
-        {
-          "document": "strumenti_misura_it.html",
-          "kind": "image/svg+xml",
-          "description": "Scala verticale in centimetri e oggetto con base allineata allo zero ed estremità superiore a 5 cm. Le viste oblique allineano l’estremità alle tacche 4 e 6 cm; quella frontale alla tacca 5 cm. La base è sullo zero.",
-          "locator": "fig-06-2",
-          "attribute": "src",
-          "location": null,
-          "credit_id": "parallasse-schema-originale"
-        },
-        {
-          "document": "strumenti_misura_it.html",
-          "kind": "image/svg+xml",
-          "description": "Scala verticale in centimetri e oggetto con base allineata allo zero ed estremità superiore a 5 cm. Le viste oblique allineano l’estremità alle tacche 4 e 6 cm; quella frontale alla tacca 5 cm. La base è sullo zero.",
-          "locator": "fig-06-2",
-          "attribute": "src",
-          "location": null,
-          "credit_id": "parallasse-schema-originale"
-        }
-      ]
-    },
-    {
       "id": "asset-2a36bbffd2db7c8970cd855ea653221e95ac0a6c743887b3528a7090f8882ca1",
       "kind": "image/webp",
       "uses": [
@@ -5487,6 +5465,30 @@
           "attribute": "src",
           "location": null,
           "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-2e1dcb83158b3abef6c982b3074a59116846b650778542b0edfb7667a3145717",
+      "kind": "image/svg+xml",
+      "uses": [
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "image/svg+xml",
+          "description": "Scala verticale in centimetri e oggetto con base allineata allo zero ed estremità superiore a 5 cm. Le viste oblique allineano l’estremità alle tacche 4 e 6 cm; quella frontale alla tacca 5 cm.",
+          "locator": "fig-06-2",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "parallasse-schema-originale"
+        },
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "image/svg+xml",
+          "description": "Scala verticale in centimetri e oggetto con base allineata allo zero ed estremità superiore a 5 cm. Le viste oblique allineano l’estremità alle tacche 4 e 6 cm; quella frontale alla tacca 5 cm.",
+          "locator": "fig-06-2",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "parallasse-schema-originale"
         }
       ]
     },

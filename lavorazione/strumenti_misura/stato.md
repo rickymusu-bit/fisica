@@ -1,6 +1,6 @@
 # Stato — Gli strumenti di misura
 Ultimo aggiornamento: 23 ottobre 2026 (Europe/Rome). Capitolo 6.
-Fase: HTML v2 con bilancia analogica e schema originale del parallasse integrati; altre immagini ancora aperte.
+Fase: HTML v3, figure ripulite dalle ripetizioni; altre immagini ancora aperte.
 
 ## Fonte e ambito
 Richiesta corrente: «Facciamo i capitoli 6 e 7», con collegamento al piano.
@@ -71,3 +71,7 @@ Restano FIG-06-1b, FIG-06-3/4/5 e immagini della bilancia digitale/pesetti/campi
 ### Correzioni dello schema richieste dall’utente
 
 Base dell’oggetto portata allo zero (y = 750, stessa quota dello zero della scala); estremità superiore mantenuta a 5 cm. Aggiunto il collegamento visivo base–zero. Rimosse “vista laterale schematica” e la descrizione accanto all’oggetto che sostituiva “indice fermo davanti alla scala”, insieme alla relativa linea di richiamo. Linee di vista invariate e geometricamente corrette. Schema, PNG di anteprima, HTML e schermate riallineati nella stessa revisione v2.
+
+## Essenzialità richiesta — HTML v3
+
+Recepita la richiesta di non dichiarare ciò che è già evidente dalle immagini o dal contesto. Schema ripulito da titoli interni, descrizioni delle posizioni e precisazioni ridondanti; omesse le didascalie tautologiche delle due figure integrate. Geometria invariata. Master aggiornato a v69.12, C3/A6; riferimento di stile v7. HTML v3 e bozza v6; verifiche mirate e anteprime aggiornate. Nessun rilascio.

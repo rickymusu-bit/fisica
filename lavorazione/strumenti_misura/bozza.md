@@ -1,6 +1,6 @@
 # Gli strumenti di misura
 
-[EDITORIALE — Bozza v5, 23 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive in attesa. I segnaposto descrivono i materiali da integrare dopo l'approvazione del testo. Area: Introduzione alla fisica e alla misura.]
+[EDITORIALE — Bozza v6, 24 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive in attesa. I segnaposto descrivono i materiali da integrare dopo l'approvazione del testo. Area: Introduzione alla fisica e alla misura.]
 
 [COP-06 — Fotografia scelta dall'utente: Ytterbium Lattice Double Clock with Photons at NIST.jpg. Intera, senza ritagli o zoom, non ripetuta nel corpo.]
 
@@ -14,13 +14,9 @@ Nella bilancia **analogica**, il valore si ricava dalla posizione della lancetta
 
 [FIG-06-1a — Foto originale della bilancia analogica. Conservare intera; la foto della bilancia digitale accompagna TAB-06 più avanti.]
 
-*La lancetta indica il valore sulla scala. Il quadrante riporta una portata di 2 kg e divisioni da 10 g.*
-
 Per leggere una lancetta bisogna anche scegliere il punto di osservazione. Se indice e scala sono su piani diversi, guardare di lato cambia il loro allineamento apparente: è il **parallasse**. La lancetta non si è mossa, ma sembra corrispondere a un'altra tacca. Portare l'occhio davanti all'indice evita questo spostamento apparente. Se guardiamo sempre dallo stesso lato, anche lo spostamento tende a ripetersi nello stesso modo: è in questo senso sistematico.
 
 [FIG-06-2 — Nuovo schema originale del parallasse, ricreato su richiesta: scala, indice fermo e tre linee di vista geometricamente verificate. Occhi generati come elementi illustrativi; scritte italiane. Nessuna immagine Vecteezy incorporata.]
-
-*La base dell’oggetto è allineata allo zero e l’estremità superiore è a 5 cm. Le viste oblique la allineano alle tacche 4 e 6 cm; la vista frontale permette di leggere 5 cm.*
 
 ## Quanto può misurare, e quanto rapidamente?
 
@@ -142,3 +138,7 @@ Ricreato FIG-06-2 come schema originale: il riferimento Vecteezy è Pro e non vi
 Correzione esplicita dell’utente recepita: base dell’oggetto allineata allo zero della scala, estremità superiore mantenuta a 5 cm, linea di allineamento allo zero resa visibile. Prova geometrica in parallasse-geometria.json.
 
 Rimosse su richiesta le scritte accessorie “vista laterale schematica” e il richiamo descrittivo accanto all’oggetto (in precedenza “indice fermo davanti alla scala”), insieme alla relativa linea di richiamo. Conservato l’allineamento della base allo zero.
+
+### Essenzialità delle figure — richiesta del 24 ottobre 2026
+
+Rimosse dallo schema le scritte che ripetono ciò che si vede, il titolo/sottotitolo interno e la quota commentata della separazione; conservati scala, linee e valori di lettura. Omesse le didascalie tautologiche delle due immagini integrate. Regola recepita in MASTER_PROMPT.md C3 e STILE_DISPENSE.md: non dichiarare ciò che è evidente dall’immagine o dal contesto.

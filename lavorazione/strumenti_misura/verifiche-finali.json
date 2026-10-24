@@ -1,9 +1,9 @@
 {
-  "html_version": "v2",
-  "approved_draft": "v4 + aggiornamento immagini v5 richiesto dall’utente",
+  "html_version": "v3",
+  "approved_draft": "v6, revisione di essenzialità richiesta dall’utente",
   "authorization": "Ok vai",
-  "html_bytes": 8420102,
-  "html_sha256": "9e4d058e0066f13c5293b95576208bc362ebde4f5780daad11e027e519e3580d",
+  "html_bytes": 8417436,
+  "html_sha256": "caa7b12d047062380f3a7bdaff6ed7ab723657ae57324b6e40425e1c7a6f0d5c",
   "model_tests": {
     "passed": 7,
     "command": "node lavorazione/strumenti_misura/test_simulazione.cjs"
@@ -15,7 +15,7 @@
   "theme_check": "passed",
   "pages_build": "passed; nuovi capitoli non ammessi alla pubblicazione",
   "protected_sources": "invariati",
-  "preview_status": "HTML v2 con fotografia analogica e schema originale del parallasse; altre figure e oggetti delle simulazioni in attesa.",
+  "preview_status": "Schema e due figure ripuliti dalle ripetizioni; altre immagini ancora in attesa.",
   "image_slots": [
     "FIG-06-1b",
     "FIG-06-3",
@@ -29,9 +29,9 @@
   "image_layouts_current": 10,
   "model_checks_scope": "Test quantitativi e interazioni della versione precedente conservati: codice della simulazione invariato. Immagini e impaginazione modificate verificate nella v2 da verifica_immagini.py.",
   "corrections_verified": [
-    "base dell’oggetto coincidente con lo zero della scala",
-    "estremità superiore a 5 cm",
-    "linee di vista 4/5/6 cm",
-    "eliminate le due scritte richieste e la linea di richiamo"
+    "geometria e allineamento allo zero invariati",
+    "annotazioni e didascalie ridondanti rimosse",
+    "tutte le scritte rimaste rientrano nel riquadro visibile",
+    "master v69.12 e stile v7 aggiornati"
   ]
 }
