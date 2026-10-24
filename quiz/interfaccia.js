@@ -13,6 +13,8 @@
   const results = document.getElementById("quiz-results");
   const startButton = document.getElementById("quiz-start");
   const countInput = document.getElementById("quiz-count");
+  const countMinus = document.getElementById("quiz-count-minus");
+  const countPlus = document.getElementById("quiz-count-plus");
   const durationOutput = document.getElementById("quiz-duration");
   const configError = document.getElementById("quiz-config-error");
   const nextButton = document.getElementById("quiz-next");
@@ -56,6 +58,8 @@
       category.indeterminate = selected > 0 && selected < children.length;
     }
     const count = getQuestionCount();
+    countMinus.disabled = count === 1;
+    countPlus.disabled = count === MAX_QUESTIONS;
     startButton.disabled = selectedChapters().size === 0 || count === null;
     durationOutput.textContent = count === null
       ? "Inserisci un numero da 1 a 30."
@@ -73,6 +77,16 @@
   }
   for (const chapter of chapterBoxes) chapter.addEventListener("change", synchronizeCategories);
   countInput.addEventListener("input", synchronizeCategories);
+  function changeQuestionCount(step) {
+    // Anche un valore inserito a mano non valido è recuperabile tramite i pulsanti.
+    const raw = countInput.valueAsNumber;
+    const base = Number.isFinite(raw)
+      ? Math.max(1, Math.min(MAX_QUESTIONS, Math.round(raw))) : 25;
+    countInput.value = String(Math.max(1, Math.min(MAX_QUESTIONS, base + step)));
+    synchronizeCategories();
+  }
+  countMinus.addEventListener("click", () => changeQuestionCount(-1));
+  countPlus.addEventListener("click", () => changeQuestionCount(1));
   synchronizeCategories();
 
   function formatDuration(seconds) {
