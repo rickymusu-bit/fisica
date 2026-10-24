@@ -1,0 +1,28 @@
+{
+  "html": "relazioni_proporzionalita_it.html",
+  "version": "v4",
+  "bozza": "v7",
+  "date": "2026-10-25T00:40:27+02:00",
+  "bytes": 11382792,
+  "sha256": "c271b5d75dbc1c99e9916fd49ece5d8e87173bdfa13e1b814749ed4fc3eb5148",
+  "questions": 9,
+  "layouts": 12,
+  "parameter_cases": 54,
+  "tables_alignment": "center (headers and data)",
+  "interactive_zoom": false,
+  "all_figures_captioned": true,
+  "checks": [
+    "verifica_browser.py",
+    "credits.py --check",
+    "build_pages.py",
+    "node --check",
+    "git diff --check"
+  ],
+  "published": false,
+  "continuous_tank_graph": true,
+  "distinct_book_groups": [
+    1,
+    2,
+    3
+  ]
+}

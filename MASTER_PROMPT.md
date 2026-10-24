@@ -1,6 +1,6 @@
 # PROMPT MASTER — DISPENSE VISUALI DI FISICA PER IL BIENNIO DEGLI ISTITUTI TECNICI
 
-VERSIONE DEL PROMPT: v69.15 — 24/10/2026, ore 16:28 (Europe/Rome)
+VERSIONE DEL PROMPT: v69.16 — 25/10/2026, ore 00:00 (Europe/Rome)
 
 Questo master raccoglie le regole della dispensa e la procedura per realizzarla con il minor lavoro ripetuto possibile. Le istruzioni relative a immagini, video, traduzioni e simulazioni si applicano quando quei materiali fanno parte della richiesta. Non aggiungere contenuti o lavorazioni solo perché il master ne descrive la gestione.
 
@@ -47,7 +47,7 @@ Le dispense esistenti che contengono più argomenti autonomi devono essere suddi
 
 Alterna naturalmente testo ed elementi visuali utili: immagini, schemi, grafici, tabelle, domande, esempi e riquadri video. Accompagna di norma ogni paragrafo didattico sostanzioso con almeno un elemento visuale pertinente, collocato vicino alla spiegazione; più paragrafi strettamente collegati possono condividere un'unica figura quando questa li illustra efficacemente. Ogni esempio concreto di applicazione citato nel testo della dispensa deve avere un'immagine pertinente associata, chiaramente riconoscibile e collocata accanto alla relativa spiegazione; non basta un'immagine generica di capitolo. Ogni applicazione concreta deve essere spiegata con un breve sviluppo discorsivo, non liquidata in una frase isolata: descrivi che cosa accade, quali parti o grandezze fisiche intervengono, perché il principio studiato produce quell'effetto e il collegamento con il fenomeno quotidiano, calibrando il dettaglio sulla difficoltà dell'esempio ed evitando ripetizioni. Se manca l'immagine necessaria, richiedila all'utente prima di completare quell'applicazione, secondo C2, senza cercarla, sostituirla o generarla autonomamente. Evita lunghi blocchi di testo e numerosi schermi di solo testo su smartphone. Non inserire immagini decorative per raggiungere una quota: pertinenza, correttezza, leggibilità e procedure di scelta e approvazione delle immagini restano obbligatorie.
 
-Distribuisci i materiali dove contribuiscono alla comprensione, richiamandoli nel testo quando necessario; non raccoglierli tutti alla fine. Evita l’eccesso di titoletti, microsezioni, didascalie lunghe e riquadri. Usa eventualmente un solo stile discreto di riquadro; non costruire una pagina composta da schede colorate.
+Distribuisci i materiali dove contribuiscono alla comprensione, richiamandoli nel testo quando necessario; non raccoglierli tutti alla fine. Non riciclare immagini o esempi tra capitoli: progettare situazioni e visuali distinti, secondo B4. Evita l’eccesso di titoletti, microsezioni, didascalie lunghe e riquadri. Usa eventualmente un solo stile discreto di riquadro; non costruire una pagina composta da schede colorate.
 
 ### A4. Matematica, formule e notazione
 
@@ -161,7 +161,7 @@ Una fase completata e approvata diventa la base delle successive. Non riaprirla 
 
 La ricerca deve avere un limite breve e proporzionato al compito, nel tempo o nel numero di tentativi. Se può incidere sensibilmente sulla durata, dichiaralo nella stima e concordalo. Punta inizialmente a poche immagini pertinenti, indicativamente due o tre, evitando raccolte estese inutili. Quando il limite è raggiunto, presenta ciò che hai trovato o spiega che cosa manca; concorda come continuare invece di prolungare autonomamente una ricerca onerosa. Se non esiste un’immagine adatta utilizzabile, applica la richiesta di fornitura prevista in C1.
 
-Prima di cercare, ridisegnare, tradurre o programmare, verifica se esiste un materiale già approvato riutilizzabile. Riusa immagini, grafica, schemi, formule, traduzioni e simulazioni quando sono coerenti con la richiesta e scientificamente corretti, rispettando il divieto di ripetere la copertina nel testo dello stesso capitolo previsto in A3. Non rigenerare immagini, ripetere traduzioni o riscrivere componenti soltanto per uniformarli a un nuovo metodo di lavoro.
+Prima di cercare, ridisegnare, tradurre o programmare, verifica i materiali già approvati. Non riciclare immagini o esempi tra capitoli: ogni capitolo deve avere situazioni e visuali propri, senza riutilizzare quelli di un altro per continuità o comodità. Nel singolo capitolo resta possibile sviluppare lo stesso esempio e confrontarne i dati quando serve a comprendere un concetto; la copertina non si ripete nel corpo. Riusa invece tema, componenti tecniche, formule e codice scientificamente corretti, senza imporre il riuso delle immagini o degli esempi. Non ripetere traduzioni o riscrivere componenti soltanto per uniformarli a un nuovo metodo di lavoro.
 
 Conserva nel registro unico `risorse/crediti.json` i metadati delle risorse e nei file di lavoro le approvazioni effettive: identificativo, soggetto, originale, eventuale versione modificata, fonte, autore, licenza, modifica eseguita, lingua e stato dell’approvazione. Aggiorna lo stesso registro senza produrre inventari paralleli; i registri storici di lavorazione restano fonti di provenienza. La dispensa finale deve comunque incorporare i materiali necessari e restare autonoma.
 

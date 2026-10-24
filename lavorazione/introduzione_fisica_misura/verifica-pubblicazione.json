@@ -1,0 +1,23 @@
+{
+  "chapters": 19,
+  "navigation_links": "correct across all 19 chapters",
+  "approved_contents": {
+    "piano_cartesiano_grafici_it.html": {
+      "approved_content_identical": true,
+      "bytes": 2791967,
+      "published_build_exists": true
+    },
+    "relazioni_proporzionalita_it.html": {
+      "approved_content_identical": true,
+      "bytes": 11382987,
+      "published_build_exists": true
+    }
+  },
+  "unit_tests": 24,
+  "portal_browser_layouts": 250,
+  "portal_browser_errors": [],
+  "theme_check": true,
+  "credits_check": true,
+  "build_check": true,
+  "published": false
+}
