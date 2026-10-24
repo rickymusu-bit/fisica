@@ -1,4 +1,4 @@
-# Quiz di Stringhe — specifiche v1.6.0
+# Quiz di Stringhe — specifiche v1.6.1
 
 **Stato:** interfaccia pubblicabile senza archivio di quesiti; il quiz rimane disabilitato fino al caricamento di domande reali.  
 **Data:** 24 ottobre 2026 (Europe/Rome).
@@ -26,7 +26,17 @@
 
 ## Generazione delle domande
 
-Il [prompt di generazione](PROMPT_GENERAZIONE_DOMANDE.md), versione v1.0.0, definisce quesiti di conoscenza, ragionamento e calcolo, tre difficoltà e fattibilità entro 120 secondi. Distingue quesiti specifici e trasversali e richiede l’elenco completo dei prerequisiti. Lo schema attuale con un solo campo `chapter` richiederà un adeguamento prima di importare quesiti trasversali e selezionarli in base a tutti i capitoli necessari.
+Il [prompt di generazione](PROMPT_GENERAZIONE_DOMANDE.md), versione v1.1.0, definisce quesiti di conoscenza, ragionamento e calcolo, tre difficoltà e fattibilità entro 120 secondi, compresa la lettura. Distingue quesiti specifici e trasversali, indipendentemente dalla difficoltà.
+
+**Workflow concordato:** ChatGPT prepara un campione iniziale di 9 quesiti (tre tipologie per tre difficoltà, se pertinenti); il docente lo rivede e approva; Codex usa prompt, capitoli e campione approvato per i lotti successivi, i controlli e l’integrazione. I lotti restano soggetti a revisione didattica. Questa divisione è organizzativa: non presume che ChatGPT sia scientificamente superiore a Codex. I controlli automatici non dimostrano chiarezza, adeguatezza o rispetto dei due minuti per gli studenti.
+
+### Tag e selezione: requisito da implementare
+
+Ogni quesito ha uno o più tag che rappresentano tutti gli argomenti necessari alla soluzione. Il filtro usa la condizione **AND**: include una domanda soltanto se **tutti** i suoi tag sono selezionati. Per esempio, una domanda con i tag “energia cinetica” e “calore specifico” è esclusa quando viene selezionato uno solo dei due; è inclusa quando sono selezionati entrambi, anche insieme ad altri argomenti.
+
+I tag non descrivono semplici ambientazioni o oggetti. La selezione dei capitoli può rimanere invariata nell’interfaccia ed essere tradotta nell’insieme dei tag corrispondenti.
+
+Lo schema attuale con un solo campo `chapter` richiederà un adeguamento prima di importare quesiti trasversali. Occorrerà allineare schema, validatore, estrazione e disponibilità dei quesiti alla condizione su tutti i tag. Queste sono specifiche documentali: il filtro multiplo e il nuovo schema non sono implementati da questa revisione.
 
 ## Archivio di domande
 
