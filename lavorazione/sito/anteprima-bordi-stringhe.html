@@ -30,7 +30,7 @@ main{max-width:1160px;margin:auto;padding:36px 24px 80px}h1,h2,h3,p{margin-top:0
 [hidden]{display:none!important}
 @media(max-width:800px){.actions{grid-template-columns:repeat(3,minmax(0,1fr))}.covers{grid-template-columns:1fr}.hero-strings{width:70%;right:-28%}}
 @media(max-width:540px){.actions{grid-template-columns:1fr}.top-inner{padding:9px 14px;flex-wrap:wrap}.brand{font-size:19px}.site-nav{width:100%;gap:6px}.site-nav>a,.lang>summary{font-size:12px;padding:6px 9px}.site-nav>a:first-child{margin-left:-9px}main{padding:22px 15px 60px}.hero{padding:30px 23px}.hero-strings{opacity:.17}.action{padding:15px;min-height:112px}.action strong{font-size:14px}.section-heading{align-items:start}.featured{grid-template-columns:1fr}.mini{min-height:90px}.article-card{align-items:start;flex-direction:column}.download{align-self:flex-start}.cover img{height:200px}}
-</style><style data-media-ui>/* Comandi delle immagini: icone in basso a sinistra, didascalie invariate. */
+</style><style data-media-ui>/* GIF: comando sull'immagine. Zoom: comando sotto l'immagine; didascalie invariate. */
 .gif-stage{display:block;position:relative;width:100%;min-width:0}
 .gif-stage picture{display:block;width:100%}
 .gif-stage img{display:block}
@@ -42,9 +42,8 @@ main{max-width:1160px;margin:auto;padding:36px 24px 80px}h1,h2,h3,p{margin-top:0
 .media-icon-button:disabled{display:none}
 .media-play,[data-animation-toggle][aria-pressed=true] .media-pause{display:none}
 [data-animation-toggle][aria-pressed=true] .media-play{display:block}
-.image-frame:has(>.image-zoom){position:relative}
 .image-frame>.image-zoom{position:static;border:0;font-size:inherit}
-.image-frame>.image-zoom>summary.media-icon-button{position:absolute;left:8px;bottom:8px;z-index:2;background:#202637;color:#fff;padding:9px}
+.image-zoom>summary.media-icon-button{position:static;display:inline-flex;left:auto;bottom:auto;z-index:auto;margin:8px 0 8px 8px;background:#202637;color:#fff;padding:9px}
 .image-zoom>summary::-webkit-details-marker{display:none}
 .image-zoom>summary::marker{content:''}
 .image-zoom .zoom-expand,.image-zoom[open] .zoom-collapse{display:block}
@@ -180,6 +179,8 @@ a{color:inherit}button,input,select{font:inherit}button,select{color:var(--ink)}
 :root .comparison-table{background:var(--surface);color:var(--ink)}
 :root .comparison-table th{background:var(--surface-soft);color:var(--ink)}
 :root .comparison-table td{color:var(--ink);border-color:var(--line)}
+/* Tabelle dei capitoli: allineamento uniforme dei dati in tutte le colonne. */
+.article table th,.article table td{text-align:center}
 :root .resource-credits-dialog .credits-close{color:var(--accent)}
 :root .site-footer{background:var(--surface);border-radius:12px}
 

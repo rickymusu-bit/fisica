@@ -41,7 +41,7 @@
 .resource-credits-dialog h2{font-size:26px;margin:24px 0 16px}.resource-credits-dialog li{margin-bottom:16px}.resource-credits-dialog pre{white-space:pre-wrap;overflow-wrap:anywhere;font:12px/1.5 monospace}.resource-credits-dialog .credits-close{display:inline-block;min-height:44px}
 </style>
 <style>.credits-page{max-width:1100px;margin:auto;padding:40px;background:white}.credits-page h1{font-size:clamp(32px,6vw,60px);margin:24px 0}.credits-page h2{font-size:28px;margin:42px 0 22px}.credits-page li{margin:16px 0}.credits-page section{border-top:2px solid;padding-top:8px;margin-top:36px;scroll-margin-top:24px}.credits-page pre{white-space:pre-wrap;overflow-wrap:anywhere;font:13px/1.5 monospace}.credits-page{overflow-wrap:anywhere}.credits-page nav a{display:inline-block;min-height:44px}.credits-page .page-nav{display:flex;gap:24px;flex-wrap:wrap}@media(max-width:560px){.credits-page{padding:20px}.credits-page ul{padding-left:22px}.credits-page h2{font-size:24px}}</style>
-<style data-media-ui>/* Comandi delle immagini: icone in basso a sinistra, didascalie invariate. */
+<style data-media-ui>/* GIF: comando sull'immagine. Zoom: comando sotto l'immagine; didascalie invariate. */
 .gif-stage{display:block;position:relative;width:100%;min-width:0}
 .gif-stage picture{display:block;width:100%}
 .gif-stage img{display:block}
@@ -53,9 +53,8 @@
 .media-icon-button:disabled{display:none}
 .media-play,[data-animation-toggle][aria-pressed=true] .media-pause{display:none}
 [data-animation-toggle][aria-pressed=true] .media-play{display:block}
-.image-frame:has(>.image-zoom){position:relative}
 .image-frame>.image-zoom{position:static;border:0;font-size:inherit}
-.image-frame>.image-zoom>summary.media-icon-button{position:absolute;left:8px;bottom:8px;z-index:2;background:#202637;color:#fff;padding:9px}
+.image-zoom>summary.media-icon-button{position:static;display:inline-flex;left:auto;bottom:auto;z-index:auto;margin:8px 0 8px 8px;background:#202637;color:#fff;padding:9px}
 .image-zoom>summary::-webkit-details-marker{display:none}
 .image-zoom>summary::marker{content:''}
 .image-zoom .zoom-expand,.image-zoom[open] .zoom-collapse{display:block}
@@ -191,6 +190,8 @@ a{color:inherit}button,input,select{font:inherit}button,select{color:var(--ink)}
 :root .comparison-table{background:var(--surface);color:var(--ink)}
 :root .comparison-table th{background:var(--surface-soft);color:var(--ink)}
 :root .comparison-table td{color:var(--ink);border-color:var(--line)}
+/* Tabelle dei capitoli: allineamento uniforme dei dati in tutte le colonne. */
+.article table th,.article table td{text-align:center}
 :root .resource-credits-dialog .credits-close{color:var(--accent)}
 :root .site-footer{background:var(--surface);border-radius:12px}
 
