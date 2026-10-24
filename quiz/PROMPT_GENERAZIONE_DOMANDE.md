@@ -1,6 +1,6 @@
 # Prompt per generare le domande dei quiz di Stringhe
 
-**Versione:** v1.0.0  
+**Versione:** v1.1.0  
 **Data:** 24 ottobre 2026 (Europe/Rome).  
 **Ambito:** quiz del sito Stringhe, distinti dal gioco Fool.
 
@@ -55,7 +55,24 @@ Un quesito è idoneo soltanto quando tutti i suoi prerequisiti disciplinari obbl
 
 Per esempio, una domanda che combina energia cinetica e riscaldamento di un corpo deve dichiarare entrambi gli argomenti e le relative conoscenze necessarie. Se viene selezionato soltanto il capitolo sul calore specifico, non deve essere proposta richiedendo implicitamente anche la conoscenza dell’energia cinetica.
 
-Questa è una regola didattica e un requisito per la futura selezione dei quesiti; non affermare che il motore attuale la implementi senza verificarlo.
+### Tag degli argomenti e filtro con tutti i prerequisiti
+
+Ogni domanda deve avere uno o più tag disciplinari: un tag per ciascun argomento necessario alla soluzione. Un quesito specifico ha un solo tag; un quesito trasversale ha più tag. Usa identificativi coerenti con il catalogo degli argomenti, evitando sinonimi duplicati.
+
+I tag descrivono conoscenze necessarie, non oggetti o ambientazioni citati nel testo: “automobile” o “montagna” non sono tag disciplinari utili al filtro. Le competenze matematiche di base già dichiarate restano prerequisiti comuni e non rendono da sole trasversale un quesito.
+
+La condizione di inclusione è **AND**: tutti i tag richiesti dalla domanda devono appartenere all’insieme degli argomenti selezionati. In termini di insiemi: tag della domanda ⊆ tag selezionati. Una semplice intersezione non basta.
+
+| Tag della domanda | Argomenti selezionati | Inclusione |
+|---|---|---|
+| Energia cinetica + calore specifico | Solo energia cinetica | No |
+| Energia cinetica + calore specifico | Solo calore specifico | No |
+| Energia cinetica + calore specifico | Entrambi | Sì |
+| Energia cinetica + calore specifico | Entrambi e altri argomenti | Sì |
+
+L’interfaccia può continuare a mostrare capitoli e categorie: la selezione viene tradotta nell’unione dei tag corrispondenti. Non occorre aggiungere un selettore di tag allo studente per applicare questa logica.
+
+Queste sono specifiche per la futura implementazione. Il caricamento della documentazione non implementa il filtro né modifica lo schema attuale.
 
 ## 3. Tipo di domanda e difficoltà sono dimensioni distinte
 
@@ -176,7 +193,7 @@ Per ogni domanda fornisci:
 
 - identificativo;
 - classificazione dei prerequisiti: specifico o trasversale;
-- tutti gli argomenti e capitoli necessari, con eventuale capitolo principale;
+- tutti i tag disciplinari necessari e i capitoli corrispondenti, con eventuale capitolo principale;
 - tipo prevalente: conoscenza, ragionamento o calcolo;
 - difficoltà;
 - testo e alternative;
@@ -188,7 +205,43 @@ Per ogni domanda fornisci:
 
 Le spiegazioni e le informazioni di classificazione sono destinate alla revisione e al feedback finale. Non devono svelare la risposta durante lo svolgimento.
 
-## 10. Compatibilità con l’archivio del sito
+## 10. Workflow ChatGPT, docente e Codex
+
+### Fase 1 — Progettazione e campione in ChatGPT
+
+Usa ChatGPT per discutere formulazioni, difficoltà, situazioni nuove, distrattori e valore didattico. Parti da un campione di **9 domande**, una per ciascuna combinazione tra le tre tipologie (conoscenza, ragionamento, calcolo) e le tre difficoltà (facile, medio, difficile), purché l’argomento permetta tutte le combinazioni. Segnala eventuali combinazioni non pertinenti senza forzarle.
+
+Per ogni domanda presenta la scheda di revisione prevista nella sezione 9, con tag e prerequisiti. Questo campione serve a calibrare lo stile e i livelli, non impone la stessa distribuzione ai lotti successivi.
+
+### Fase 2 — Revisione del docente
+
+Il docente valuta correttezza, chiarezza, distrattori, livello e plausibilità dei due minuti per i propri studenti. Applica le correzioni e conserva il campione approvato come riferimento insieme al prompt corrente. Non attribuire approvazioni non ricevute.
+
+La revisione del campione calibra la generazione successiva; non approva automaticamente le domande ancora da produrre.
+
+### Fase 3 — Generazione dei lotti con Codex
+
+Codex legge i capitoli correnti nel repository, questo prompt e il campione effettivamente approvato. Genera i lotti richiesti rispettando ambito, distribuzioni e tag disciplinari. Predispone l’archivio nel formato compatibile con il sito, tenendo separati i dati per la revisione quando lo schema non li supporta.
+
+Prima dell’importazione dei quesiti trasversali, verifica che schema, validatore e filtro supportino tutti i tag necessari. Se manca tale supporto, conserva i quesiti come materiale da revisionare senza presentarli come già compatibili.
+
+### Fase 4 — Controlli e revisione dei lotti
+
+Codex verifica formato, ID univoci, tag riconosciuti, numero di alternative, indice corretto, duplicati rilevabili e calcoli automatizzabili. Quando viene implementato il filtro, verifica almeno i quattro casi della tabella della sezione 2: un solo tag, l’altro tag, tutti i tag, tutti i tag più altri.
+
+Il docente rivede il contenuto didattico prima dell’uso. Un controllo automatico può verificare un calcolo o un tag, ma non dimostra che una domanda sia chiara, ben calibrata o risolvibile dai propri studenti entro 120 secondi. La conferma dei tempi richiede l’uso effettivo.
+
+### Fase 5 — Integrazione e verifica del sito
+
+Codex prepara l’integrazione, controlla estrazione, opzioni, soluzioni e spiegazioni, e segue il workflow corrente del repository per ramo, PR, anteprima e pubblicazione. L’approvazione didattica non sostituisce le autorizzazioni previste per merge e deployment.
+
+### Criterio di scelta dello strumento
+
+La divisione tra ChatGPT per il confronto didattico e Codex per i lotti e l’integrazione è una scelta pratica di workflow. Non implica una superiorità scientifica o didattica automatica di ChatGPT. Anche Codex può generare domande: la qualità dipende dal modello utilizzato, dai materiali disponibili, dalle istruzioni e dalla revisione.
+
+Non presumere che i due strumenti condividano automaticamente tutto il contesto. Salva nel repository prompt, campione approvato e decisioni necessarie alla ripresa, con percorsi stabili e cronologia Git.
+
+## 11. Compatibilità con l’archivio del sito
 
 Prima di produrre un archivio da importare, rileggi lo schema corrente in [README.md](README.md) e il validatore del progetto. Non inventare un formato incompatibile.
 
