@@ -87,3 +87,7 @@ Verifiche correnti concluse: 7 test quantitativi, 20 combinazioni di viewport e 
 ## Terminologia del voltmetro
 
 Su richiesta esplicita, eliminata la parola inglese dal contenuto didattico e dalla didascalia: si usa «spostamento dello zero». Bozza v8, HTML v5. Nomi dei file e cronologia tecnica conservati. Salvataggio locale; nessun nuovo tentativo di push dopo il blocco della revisione automatica.
+
+## Notazione coerente di media e incertezza
+
+Su richiesta esplicita, usato x con barra sopra nella formula generale del risultato e nella definizione dell’errore rispetto al riferimento, coerentemente con t medio. Definizione aggiornata: valore medio delle letture. Incertezza indicata soltanto con U, senza pedice did. Calcoli e dati invariati. Bozza v9, HTML v6; nessun tentativo di aggiornamento remoto dopo il blocco precedente.

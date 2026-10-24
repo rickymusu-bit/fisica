@@ -1,6 +1,6 @@
 # Errori e incertezza di misura
 
-[EDITORIALE — Bozza v8, 24 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive scelte dall’utente e integrate. Area: Introduzione alla fisica e alla misura.]
+[EDITORIALE — Bozza v9, 24 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive scelte dall’utente e integrate. Area: Introduzione alla fisica e alla misura.]
 
 [COP-07 — Fotografia scelta dall'utente: TV noise.jpg. Intera, senza ritagli o zoom, non ripetuta nel corpo.]
 
@@ -90,18 +90,18 @@ La semidispersione descrive gli estremi osservati, non la distanza fra la media 
 
 Dire soltanto “2,40 s” lascia aperta una domanda: con quale incertezza attribuiamo quel valore alla durata? L'**incertezza di misura** descrive la dispersione dei valori che possiamo attribuire alla grandezza sulla base delle informazioni disponibili. Per valutarla si considerano lo strumento, il metodo, le condizioni e, quando ci sono, le letture ripetute.
 
-Una scrittura comune del risultato è:
+Quando usiamo la media delle letture, scriviamo il risultato nella forma:
 
 \[
-x=x_{\mathrm m}\pm U
+x=\bar x\pm U
 \]
 
-Il simbolo \(x\) indica la grandezza misurata; \(x_{\mathrm m}\) è il valore attribuito e \(U\) l'incertezza assoluta dichiarata, espressa nella stessa unità. Il segno ± indica un'estensione di ampiezza \(U\) da entrambi i lati del valore riportato. L'incertezza non dice da sola quanto siamo lontani da un riferimento.[^1]
+Il simbolo \(x\) indica la grandezza misurata; \(\bar x\) è il valore medio delle letture e \(U\) l'incertezza assoluta dichiarata, espressa nella stessa unità. Il segno ± indica un'estensione di ampiezza \(U\) da entrambi i lati del valore riportato. L'incertezza non dice da sola quanto siamo lontani da un riferimento.[^1]
 
 Nel metodo scolastico semplificato usiamo la maggiore fra la semidispersione (d) e il passo leggibile (q) come stima didattica dell'incertezza:[^2]
 
 \[
-U_{\mathrm{did}}=\max(d,q)
+U=\max(d,q)
 \]
 
 La scrittura \(\max(d,q)\) significa “scegli il maggiore fra i due”. Se le letture coincidono e \(d=0\), il passo dello strumento continua a limitare la lettura. Per la tabella, 0,09 s è maggiore di 0,01 s: scegliamo quindi 0,09 s e scriviamo:
@@ -125,10 +125,10 @@ Questa scrittura associa al valore medio un intervallo da 2,31 s a 2,49 s, che i
 
 Per calcolare un **errore di misura** serve un valore di riferimento. Supponiamo che un sistema indipendente e più affidabile attribuisca allo stesso evento la durata di 2,50 s. Possiamo allora confrontarla con i nostri 2,40 s. I due numeri riguardano la stessa grandezza e sono espressi nella stessa unità. Il valore che confrontiamo con il riferimento è ora la media delle cinque letture.
 
-L'errore con segno è la differenza fra il valore attribuito e quello di riferimento:
+L'errore con segno è la differenza fra il valore medio e quello di riferimento:
 
 \[
-e=x_{\mathrm m}-x_{\mathrm{rif}}
+e=\bar x-x_{\mathrm{rif}}
 \]
 
 Qui \(e\) è l'errore, mentre \(x_{\mathrm{rif}}\) è il riferimento. Un errore positivo indica un risultato maggiore del riferimento; uno negativo indica un risultato minore. Nel nostro confronto:
@@ -215,7 +215,7 @@ Questa sezione non appartiene al contenuto didattico visibile dell'HTML.
 Bozza v4. Ultima richiesta: «No allora metti media e semi dispersione nel cap 7». Trasferiti qui i contenuti sulle misure ripetute, superando il precedente rinvio all'8: tabella e grafico originali delle cinque letture, media, semidispersione e regola scolastica del maggiore fra semidispersione e passo. Eliminato il capitolo autonomo sulle misure ripetute; piano aggiornato a undici capitoli, con i successivi rinumerati.
 Fonte: strumenti_errori_incertezza_it.html v7, blob 1d65637b40f2af68e1e1ff55c7d1710259b6087b, sezioni #errori, #incertezza e #confronto. Quesiti originali 5, 7 e 6 conservati integralmente come domande 1, 2 e 3; 1–4 al capitolo 6. Totale nove quesiti nel 7.
 Conservati i dati illustrativi originali: tempi 2,31 / 2,37 / 2,40 / 2,43 / 2,49 s; media 2,40 s; d = 0,09 s; q = 0,01 s; riferimento 2,50 s; errore −0,10 s; rapporto 0,04 e percentuale 4%. La stima dell'incertezza del cronometro è ora ricavata con il metodo scolastico descritto, non assegnata.
-Verificare che il grafico distingua min–max, semidispersione, fascia centrata sulla media ed errore rispetto al riferimento; non imporre una distribuzione simmetrica alle nuove letture simulate. La regola U_did = max(d,q) è dichiarata didattica e non universale.
+Verificare che il grafico distingua min–max, semidispersione, fascia centrata sulla media ed errore rispetto al riferimento; non imporre una distribuzione simmetrica alle nuove letture simulate. La regola U = max(d,q) è dichiarata didattica e non universale.
 SIM-07 aggiornata alla richiesta di massa nota, massa ignota e grafico sotto la bilancia. Parametri numerici proposti nella specifica; un eventuale errore nullo della media resta valido. Bilancia regolata sullo zero nel modello corrente; nessun riferimento nascosto B visibile nei controlli o nel grafico.
 Riferimenti terminologici da associare ai crediti: JCGM 200:2012 (VIM) e JCGM 100:2008 (GUM), https://www.bipm.org/en/committees/jc/jcgm/publications . La regola scolastica è ripresa dal sorgente storico, non attribuita a questi documenti come procedura generale.
 COP-07 scelta dall'utente: [TV noise.jpg](https://commons.wikimedia.org/wiki/File:TV_noise.jpg), Mysid, pubblico dominio per dichiarazione dell'autore (PD-self), verificato nella pagina Commons. Usare l'immagine intera, senza ritagli o zoom. URL esatto fornito conservato in visuali.md.
