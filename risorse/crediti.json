@@ -7793,15 +7793,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": "parallasse-schema-originale"
-        },
-        {
-          "document": "strumenti_misura_it.html",
-          "kind": "image/svg+xml",
-          "description": "Scala verticale in centimetri e matita. Le tre linee di vista collegano la punta della matita, posta a 5 cm, alle letture apparenti 4, 5 e 6 cm; la base coincide con lo zero.",
-          "locator": "fig-06-2",
-          "attribute": "src",
-          "location": null,
-          "credit_id": "parallasse-schema-originale"
         }
       ]
     },

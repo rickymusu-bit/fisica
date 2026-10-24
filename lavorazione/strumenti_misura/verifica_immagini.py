@@ -59,20 +59,14 @@ def main():
             assert photo.locator('img').get_attribute('src').split(',',1)[0]=='data:image/jpeg;base64'
             assert base64.b64decode(photo.locator('img').get_attribute('src').split(',',1)[1])==(WORK/'risorse/bilancia-analogica.jpg').read_bytes()
             assert base64.b64decode(diagram.locator('.overview img').get_attribute('src').split(',',1)[1])==(WORK/'risorse/parallasse.svg').read_bytes()
-            assert diagram.locator('img').count()==2
+            assert diagram.locator('img').count()==1
+            assert diagram.locator('.image-zoom').count()==0
             page.locator('img').evaluate_all('async(xs)=>Promise.all(xs.map(i=>{i.loading="eager";return i.decode()}))')
             if width in [390,1440]:
               bar=page.add_style_tag(content='.topbar{visibility:hidden!important}')
               for fig,filename in [(photo,'bilancia-analogica'),(diagram,'parallasse')]:
                 fig.screenshot(path=str(WORK/'anteprime'/f'{filename}-{theme}-{width}.png'))
               bar.evaluate('(e)=>e.remove()')
-            diagram.locator('summary').click();expect(diagram.locator('details')).to_have_attribute('open','')
-            expect(diagram.locator('.overview')).to_be_hidden()
-            assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1')
-            scroll=diagram.locator('.zoom-scroll');scroll.focus();before=scroll.evaluate('(e)=>e.scrollLeft')
-            page.keyboard.press('ArrowRight');page.wait_for_timeout(200)
-            assert scroll.evaluate('(e)=>e.scrollLeft')>before
-            diagram.locator('summary').click();expect(diagram.locator('.overview')).to_be_visible()
             page.locator('#richiamo-1').click();expect(page.locator('.chapter-notes')).to_have_attribute('open','')
             page.locator('[data-offline-credits]').click();text=page.locator('#crediti-autonomi').inner_text()
             assert 'Batholith' in text and 'PD-self' in text and 'Schema originale' in text

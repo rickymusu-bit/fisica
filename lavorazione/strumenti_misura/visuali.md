@@ -83,3 +83,5 @@ La scelta esplicita dell’utente sostituisce le proposte storiche sopra: FIG-06
 ## Revisione corrente delle didascalie e del carico
 
 Ripristinate le didascalie su richiesta. FIG-06-1b usa la fotografia della bilancia con pomodoro scelta dall’utente; l’illustrazione generata resta nelle simulazioni. I pesetti caricati riportano le masse in sovrapposizione leggibile; il campione ignoto resta identificato solo da B. Sensibilità trattata nel testo con un confronto qualitativo con la risoluzione.
+
+FIG-06-2 corrente senza zoom, per richiesta esplicita dell’utente.

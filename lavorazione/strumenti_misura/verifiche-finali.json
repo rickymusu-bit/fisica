@@ -1,9 +1,9 @@
 {
-  "html_version": "v7",
+  "html_version": "v8",
   "approved_draft": "v10, correzioni esplicite: fotografia, sensibilità, didascalie e masse sui pesetti",
   "authorization": "Ok vai; generazione di bilancia e pesetti richiesta esplicitamente",
-  "html_bytes": 17804506,
-  "html_sha256": "6f0115776f82fd0db83c6f3e43ca5f6667fa9c424588cad930740119e1c4587f",
+  "html_bytes": 12102783,
+  "html_sha256": "84327222ec8ff22bf0a344cbd4f3d8814ebc39f99a346e8296b93000a2fa29c3",
   "model_tests": {
     "passed": 7,
     "command": "node lavorazione/strumenti_misura/test_simulazione.cjs"
@@ -16,14 +16,14 @@
   "pages_build": "passed; nuovi capitoli esclusi dalla pubblicazione",
   "protected_sources": "invariati",
   "image_slots": [],
-  "preview_status": "Nuova foto del cronometraggio, bersagli senza zoom. Segnalazione sulle simulazioni non riprodotta; contesto di apertura richiesto all’utente.",
+  "preview_status": "Parallasse senza zoom, come richiesto.",
   "offline_method": "HTML caricato in memoria con rete disabilitata; immagini incorporate decodificate, MathML e simulazione disponibili. Navigazione file:// bloccata dalla policy del Chromium dell’ambiente e non dichiarata eseguita.",
   "screenshots_reviewed": [
     "lavorazione/errori_incertezza_misura/anteprime/sch-07-1-dark-390.png",
     "lavorazione/errori_incertezza_misura/anteprime/fig-07-1-dark-390.png"
   ],
   "generated_assets_source": "lavorazione/strumenti_misura/risorse/bilancia-pesetti-fonte.json",
-  "model_checks_scope": "Otto verifiche delle figure in chiaro/scuro a 390/1440 px; nuova foto e bersagli senza zoom. Prova delle due simulazioni con timer reali e movimento normale: due letture ciascuna, nessun errore. Modello e codice invariati; non dichiarata risolta la segnalazione in assenza del contesto dell’utente.",
+  "model_checks_scope": "Verificato HTML: figura della parallasse con una sola immagine e nessun comando o pannello di zoom. Immagine e didascalia conservate; simulazioni invariate, diagnosi precedente ancora aperta.",
   "image_layouts_current": 8,
   "licenses": {
     "manometro": "Photo by CEphoto, Uwe Aranas, CC BY-SA 3.0",

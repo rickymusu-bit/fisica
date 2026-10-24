@@ -113,3 +113,7 @@ Verifiche correnti concluse: 7 test quantitativi, 20 combinazioni di viewport e 
 Nel capitolo 7, foto del cronometro sostituita su richiesta con la scena U.S. Navy di un istruttore che cronometra la corsa delle reclute: Chris Desmond / U.S. Navy, pubblico dominio PD-USGov-Military-Navy, fonte Commons conservata. Bersagli senza zoom per richiesta esplicita; soglia operativa per future scelte documentata in docs/visual-guidelines.md: scritte necessarie sotto 14 CSS px nella vista normale su schermo da 320 px o dettagli indispensabili illeggibili. La soglia è condizione necessaria, non obbligo automatico di zoom; fotografie e figure con poche scritte restano escluse.
 
 Segnalazione dell’utente: tutte le simulazioni non funzionano. Richiesto in quale contesto (anteprima della chat, HTML scaricato o sito); risposta ancora attesa. Prova attuale in Chromium, 390 px, movimento normale e timer reali: entrambe le bilance inizializzate, due letture registrate ciascuna, nessun errore JavaScript. Il difetto non è riprodotto nel browser di prova; nessuna correzione dichiarata senza causa verificata. Nessuna modifica al modello o al codice delle simulazioni.
+
+## Parallasse senza zoom
+
+Su richiesta esplicita dell’utente, rimosso lo zoom da FIG-06-2. Immagine, didascalia e tre indicazioni di vista conservate. HTML v8. Resta aperta la diagnosi delle simulazioni: attesa la modalità di apertura dall’utente.

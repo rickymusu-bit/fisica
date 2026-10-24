@@ -1,5 +1,5 @@
 {
-  "version": "v7",
+  "version": "v8",
   "date": "2026-10-24T07:37:15+00:00",
-  "approved_draft": "v10, correzioni esplicite: fotografia, sensibilità, didascalie e masse sui pesetti"
+  "approved_draft": "v10, rimozione dello zoom dalla parallasse richiesta esplicitamente dall’utente"
 }
