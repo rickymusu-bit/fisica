@@ -188,7 +188,7 @@ def verify_quiz(page, base):
                 page.locator('#quiz-start').click()
                 for i in range(3):
                     assert page.locator('#quiz-counter').inner_text() == f'Domanda {i+1} di 3'
-                    assert page.locator('#quiz-topic').inner_text() == category['title']
+                    assert page.locator('#quiz-topic').text_content() == category['title']
                     assert page.locator('#quiz-prompt').inner_text().startswith(f"{category['title']} ({level})")
                     assert page.locator('.quiz-answer input').count() == option_count
                     page.locator('.quiz-answer input').first.check()
@@ -211,6 +211,7 @@ def verify_quiz(page, base):
         assert page.locator('#quiz-result-navigation .is-answered').count() == 1
         assert page.locator('#quiz-result-navigation .is-skipped').count() == 2
         assert page.locator('#quiz-result-navigation .is-pending').count() == 22
+        page.set_viewport_size({'width': 390, 'height': 900})
         page.screenshot(path=str(SHOTS / 'quiz-risultato-390.png'), full_page=True)
 
         # La categoria scelta diventa indisponibile cambiando livello.
