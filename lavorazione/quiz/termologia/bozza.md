@@ -1,6 +1,6 @@
 # Quiz di Termologia — campione per la revisione
 
-Versione v1 — 24 ottobre 2026. **Proposto, in attesa di revisione e approvazione del docente.**
+Versione v2 — 24 ottobre 2026. **Proposto, in attesa di revisione e approvazione del docente.**
 
 Categoria unica: `termologia`. Destinatari di progetto: biennio degli istituti tecnici, 14–16 anni. Strumento consentito: calcolatrice di base. Nessun prerequisito disciplinare esterno ai capitoli consultati; si usano le operazioni e le conversioni di base previste dal master.
 
@@ -162,14 +162,14 @@ Un oggetto di metallo e uno di legno sono entrambi a 40 °C. La pelle è inizial
 
 **Informazioni fornite:** Lunghezza iniziale, temperature, coefficiente costante e dilatazione libera.
 
-Una barra lunga 2,0 m a 20 °C viene portata a 70 °C ed è libera di dilatarsi. Assumi α = 0,000012 K⁻¹ costante. Di quanto aumenta la lunghezza?
+Una barra lunga 2,0 m a 20 °C viene portata a 70 °C ed è libera di dilatarsi. Assumi α = 1,2 · 10⁻⁵ K⁻¹ costante. Di quanto aumenta la lunghezza?
 
 - **A.** 0,12 mm
 - **B.** 1,2 mm
 - **C.** 12 mm
 - **D.** 120 mm
 
-**Risposta corretta: B.** ΔT = 70 °C − 20 °C = 50 K. ΔL = 0,000012 · 2,0 · 50 m = 0,0012 m = 1,2 mm.
+**Risposta corretta: B.** ΔT = 70 °C − 20 °C = 50 K. ΔL = 1,2 · 10⁻⁵ · 2,0 · 50 m = 1,2 · 10⁻³ m = 1,2 mm.
 
 **Distrattori:** A, C e D rappresentano errori di un fattore 10 o 100 nella conversione o nella posizione della virgola.
 

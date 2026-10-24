@@ -2,6 +2,8 @@
 
 ## Stato corrente — campione di Termologia
 
+Correzione richiesta dall’utente: esprimere i numeri molto piccoli in notazione scientifica, in particolare i coefficienti di dilatazione lineare. Campione v2: nel quesito termo-006 e nella soluzione, α = 1,2 · 10⁻⁵ K⁻¹; risultato intermedio 1,2 · 10⁻³ m = 1,2 mm. Aggiornati insieme scheda e JSON; calcolo e risposta invariati. Regola da applicare anche ai lotti successivi, coerentemente con A4 del master. Il campione resta in attesa di approvazione didattica.
+
 Aggiornamento: 24 ottobre 2026, ore 23:58 (Europe/Rome). Master consultato integralmente: v69.15; prompt di generazione v1.4.0; specifiche quiz v2.3.0. Le sezioni successive conservano la cronologia delle richieste precedenti.
 
 Richiesta: creare il quiz di Termologia secondo le istruzioni del repository. Ramo dedicato `feature/quiz-termologia-campione`, derivato da `main` al commit `ef29a4fe630287c59d707abacd082e2fc0617691`. Verificata l’assenza di un campione didattico già approvato e dell’archivio reale `quiz/domande.json`.

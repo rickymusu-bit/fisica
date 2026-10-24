@@ -74,7 +74,7 @@
       "id": "termo-006",
       "category": "termologia",
       "level": "medium",
-      "prompt": "Una barra lunga 2,0 m a 20 °C viene portata a 70 °C ed è libera di dilatarsi. Assumi α = 0,000012 K⁻¹ costante. Di quanto aumenta la lunghezza?",
+      "prompt": "Una barra lunga 2,0 m a 20 °C viene portata a 70 °C ed è libera di dilatarsi. Assumi α = 1,2 · 10⁻⁵ K⁻¹ costante. Di quanto aumenta la lunghezza?",
       "options": [
         "0,12 mm",
         "1,2 mm",
@@ -82,7 +82,7 @@
         "120 mm"
       ],
       "correct": 1,
-      "explanation": "ΔT = 70 °C − 20 °C = 50 K. ΔL = 0,000012 · 2,0 · 50 m = 0,0012 m = 1,2 mm."
+      "explanation": "ΔT = 70 °C − 20 °C = 50 K. ΔL = 1,2 · 10⁻⁵ · 2,0 · 50 m = 1,2 · 10⁻³ m = 1,2 mm."
     },
     {
       "id": "termo-007",
