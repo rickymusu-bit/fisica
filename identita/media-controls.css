@@ -1,4 +1,4 @@
-/* Comandi delle immagini: icone in basso a sinistra, didascalie invariate. */
+/* GIF: comando sull'immagine. Zoom: comando sotto l'immagine; didascalie invariate. */
 .gif-stage{display:block;position:relative;width:100%;min-width:0}
 .gif-stage picture{display:block;width:100%}
 .gif-stage img{display:block}
@@ -10,9 +10,8 @@
 .media-icon-button:disabled{display:none}
 .media-play,[data-animation-toggle][aria-pressed=true] .media-pause{display:none}
 [data-animation-toggle][aria-pressed=true] .media-play{display:block}
-.image-frame:has(>.image-zoom){position:relative}
 .image-frame>.image-zoom{position:static;border:0;font-size:inherit}
-.image-frame>.image-zoom>summary.media-icon-button{position:absolute;left:8px;bottom:8px;z-index:2;background:#202637;color:#fff;padding:9px}
+.image-zoom>summary.media-icon-button{position:static;display:inline-flex;left:auto;bottom:auto;z-index:auto;margin:8px 0 8px 8px;background:#202637;color:#fff;padding:9px}
 .image-zoom>summary::-webkit-details-marker{display:none}
 .image-zoom>summary::marker{content:''}
 .image-zoom .zoom-expand,.image-zoom[open] .zoom-collapse{display:block}
