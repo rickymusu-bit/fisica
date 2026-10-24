@@ -1,8 +1,8 @@
-# Stato — Il piano cartesiano e i grafici
+# Stato — Il piano cartesiano
 
 ## Riferimenti e autorizzazioni
 
-Progettazione v1 — 24 ottobre 2026, Europe/Rome. Master consultato: v69.15; istruzioni AGENTS.md, piano dell'area, STILE_DISPENSE.md v7, esempio_irraggiamento.md e docs/visual-guidelines.md. Checklist: A1–A5 (narrazione, formule, monograficità, domande), B1.1–B2 (visuali prima della bozza e approvazioni), B4–B6 (riuso e continuità), C1–C4 (immagini, grafici, accessibilità), D1–D2.1 (verifiche e salvataggio). Applicare economia informativa a testo, figure e didascalie.
+Progettazione v2 — 24 ottobre 2026, Europe/Rome. Master consultato: v69.15; istruzioni AGENTS.md, piano dell'area, STILE_DISPENSE.md v7, esempio_irraggiamento.md e docs/visual-guidelines.md. Checklist: A1–A5 (narrazione, formule, monograficità, domande), B1.1–B2 (visuali prima della bozza e approvazioni), B4–B6 (riuso e continuità), C1–C4 (immagini, grafici, accessibilità), D1–D2.1 (verifiche e salvataggio). Applicare economia informativa a testo, figure e didascalie.
 
 Richiesta effettiva: «Iniziamo a creare i capitoli 8 e 9 del piano di lavorazione sull'introduzione alla fisica». Autorizzato l'avvio della progettazione. Le nuove scelte visuali, la bozza completa, la realizzazione HTML e la pubblicazione non sono ancora approvate. Tema comune Stringhe già approvato, da riutilizzare nella successiva fase HTML senza una nuova scelta.
 
@@ -14,7 +14,7 @@ Ramo dedicato derivato da main: lavorazione/introduzione-capitoli-8-9. File di s
 
 Capitolo 8 di Introduzione alla fisica e alla misura. Sorgente: sezione «Due grandezze, una coppia di coordinate» e interazione «Trascina P». Titolo futuro proposto: piano_cartesiano_grafici_it.html.
 
-Percorso proposto: una coppia di dati diventa un punto; assi, origine e ordine (x; y); ascissa e ordinata; valori negativi e quadranti; grandezze e unità sugli assi; scelta e lettura delle scale; passaggio tabella–grafico e lettura di un andamento. Distinguere la lettura delle coordinate dalla ricerca della legge che lega le grandezze. Nessuna pendenza, intercetta o classificazione di proporzionalità: capitoli 9–11.
+Percorso proposto: una coppia di dati diventa un punto; assi, origine e ordine (x; y); ascissa e ordinata; valori negativi e quadranti; grandezze e unità sugli assi; scelta e lettura delle scale; passaggio tabella–grafico e lettura di un andamento. Distinguere la lettura delle coordinate dalla ricerca della legge che lega le grandezze. Pendenza, intercetta e classificazione delle relazioni appartengono al solo capitolo 9.
 
 Domanda iniziale proposta: come possiamo rappresentare due informazioni riferite alla stessa osservazione e leggere dal grafico come cambia una grandezza?
 
@@ -29,10 +29,14 @@ Il materiale copertina e lo schema della situazione sono da scegliere; non sono 
 
 ## Domande e continuità
 
-Conservare il quesito originale 2 (spostare P nei quadranti e su un asse). Il quesito originale 1 riguarda il petrolio: se quel grafico viene mantenuto, conservarlo; se viene sostituito, conservarne la funzione di lettura di assi/dati adattandolo alla nuova immagine e registrando la sostituzione nella bozza. Il quesito originale 3 appartiene al capitolo 9; 4–5 al capitolo 10; 6–7 al capitolo 11. Non duplicare né perdere i quesiti nella suddivisione. In bozza definire le ulteriori domande su coordinate invertite, scale e lettura di una tabella, senza soluzioni automatiche.
+Conservare il quesito originale 2 (spostare P nei quadranti e su un asse). Il quesito originale 1 riguarda il petrolio: se quel grafico viene mantenuto, conservarlo; se viene sostituito, conservarne la funzione di lettura di assi/dati adattandolo alla nuova immagine e registrando la sostituzione nella bozza. I quesiti originali 3–7 appartengono al capitolo 9 unificato. Non duplicare né perdere i quesiti nella suddivisione. In bozza definire le ulteriori domande su coordinate invertite, scale e lettura di una tabella, senza soluzioni automatiche.
 
 ## Fattibilità e prossima operazione
 
 Riuso tecnico leggero, senza librerie o servizi esterni. Prima del riuso verificare isolamento degli identificativi, inizializzazione della lettura, estremi, passaggio sugli assi, tocco e tastiera, fallback e contrasto. Stima preliminare per adattamento e prove della sola interazione: 20–40 minuti, carico basso; non è un tempo misurato. Alternativa più semplice: piano statico con punti già assegnati, meno esplorazione autonoma; non preferita perché l'interazione esiste.
 
 Fase corrente: proposta di contenuti e visuali. Prossimo passaggio: concordare riuso, confronto delle scale e immagini; poi scrivere bozza.md completa con segnaposto. Dopo approvazione della bozza, comunicare stima totale ripartita e raccogliere il via alla realizzazione secondo B1.1. Nessun HTML prima di quel passaggio.
+
+## Decisione corrente — 24 ottobre 2026
+
+L’utente richiede un capitolo sul piano cartesiano e uno su tutte le relazioni di proporzionalità. Titolo corrente del capitolo 8: «Il piano cartesiano». Il piano complessivo passa a nove capitoli; tutti i precedenti rinvii a capitoli 10–11 sono superati. Le visuali sopra restano proposte, non approvate per effetto dell’accorpamento. Prossimo passaggio: scelta delle visuali e poi bozza.
