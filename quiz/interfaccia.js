@@ -22,6 +22,10 @@
   const progressBar = document.getElementById("quiz-progress-fill");
   const prompt = document.getElementById("quiz-prompt");
   const answerList = document.getElementById("quiz-answers");
+  const navigation = document.getElementById("quiz-navigation");
+  const resultNavigation = document.getElementById("quiz-result-navigation");
+  const statusSummary = document.getElementById("quiz-status-summary");
+  const resultSummary = document.getElementById("quiz-result-summary");
   let session = null;
   let intervalId = null;
 
@@ -76,6 +80,36 @@
     return Math.min(s.deadline - now, quota) / 1000;
   }
 
+  function questionStatus(s, index, finished = false) {
+    if (s.responses[index] !== null) return "answered";
+    if (s.skipped[index]) return "skipped";
+    if (!finished && index === s.index) return "current";
+    return "pending";
+  }
+
+  function renderStatuses(target, s, finished = false) {
+    const labels = {
+      answered: "risposta data",
+      skipped: "saltata",
+      current: "in corso",
+      pending: finished ? "non raggiunta" : "da affrontare"
+    };
+    const fragment = document.createDocumentFragment();
+    for (let i = 0; i < QUESTION_COUNT; i++) {
+      const status = questionStatus(s, i, finished);
+      const item = document.createElement("li");
+      item.className = "quiz-nav-item is-" + status;
+      item.setAttribute("aria-label", "Domanda " + (i + 1) + ": " + labels[status]);
+      item.textContent = String(i + 1);
+      fragment.append(item);
+    }
+    target.replaceChildren(fragment);
+    const answered = s.responses.filter(response => response !== null).length;
+    const skipped = s.skipped.filter(Boolean).length;
+    const summary = "Risposte date: " + answered + " · Saltate: " + skipped;
+    (finished ? resultSummary : statusSummary).textContent = summary;
+  }
+
   function drawQuestions(pool) {
     const selected = shuffle(pool).slice(0, QUESTION_COUNT);
     while (selected.length < QUESTION_COUNT) {
@@ -116,6 +150,7 @@
     session = {
       questions: drawQuestions(pool),
       responses: Array(QUESTION_COUNT).fill(null),
+      skipped: Array(QUESTION_COUNT).fill(false),
       index: 0,
       level,
       seconds,
@@ -158,6 +193,7 @@
     nextButton.disabled = true;
     nextButton.textContent = s.index === QUESTION_COUNT - 1
       ? "Termina il quiz" : "Conferma e prosegui";
+    renderStatuses(navigation, s);
     prompt.tabIndex = -1;
     prompt.focus({preventScroll: true});
     clock.textContent = formatDuration(totalTimeRemaining(Date.now()));
@@ -165,6 +201,9 @@
 
   function goForward(expired) {
     if (!session) return;
+    if (session.responses[session.index] === null) {
+      session.skipped[session.index] = true;
+    }
     const oldDeadline = session.perDeadline;
     if (session.index === QUESTION_COUNT - 1) {
       finish("completed");
@@ -179,6 +218,9 @@
     if (!session) return;
     const now = Date.now();
     if (now >= session.deadline) {
+      for (let i = session.index; i < QUESTION_COUNT; i++) {
+        if (session.responses[i] === null) session.skipped[i] = true;
+      }
       finish("timeout");
       return;
     }
@@ -205,6 +247,7 @@
   });
   stopButton.addEventListener("click", () => {
     if (session && window.confirm("Concludere ora? Le domande non completate saranno considerate errate.")) {
+      if (session.responses[session.index] === null) session.skipped[session.index] = true;
       finish("early");
     }
   });
@@ -228,6 +271,7 @@
     let correct = 0;
     const review = document.getElementById("quiz-review");
     review.replaceChildren();
+    renderStatuses(resultNavigation, s, true);
     s.questions.forEach((q, i) => {
       const response = s.responses[i];
       const right = response === q.correct;
@@ -239,6 +283,9 @@
       const chapter = chapters.get(q.chapter);
       li.append(h3);
       if (chapter) li.append(labeledParagraph("Capitolo:", chapter.title));
+      if (response === null) {
+        li.append(labeledParagraph("Stato:", s.skipped[i] ? "Saltata" : "Non raggiunta"));
+      }
       li.append(labeledParagraph("La tua risposta:", response === null ? "Non data" : q.options[response]));
       li.append(labeledParagraph("Soluzione:", q.options[q.correct]));
       li.append(labeledParagraph("Spiegazione:", q.explanation));
