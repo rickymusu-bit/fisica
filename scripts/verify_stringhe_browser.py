@@ -7,6 +7,7 @@ import functools
 import http.server
 import json
 import os
+import re
 from pathlib import Path
 import shutil
 import threading
@@ -115,6 +116,220 @@ def verify_media_controls(page, base, publication):
             assert not zoom.evaluate('e=>e.open')
     finally:
         fallback.close()
+
+
+
+def verify_quiz(page, base):
+    """Esercita selettori, tri-stato, tre livelli e correzione finale."""
+    page.goto(base + 'quiz.html')
+    chapters = page.locator('[data-quiz-chapter]')
+    groups = page.locator('[data-quiz-group]')
+    assert chapters.count() == 15 and groups.count() == 2
+    assert page.locator('#quiz-start').is_disabled()
+    assert all(box.is_disabled() for box in chapters.all())
+    assert all(box.is_disabled() for box in groups.all())
+    assert page.locator('.quiz-empty-notice').is_visible()
+    # I test funzionali usano domande effimere, non caricate nel sito o nel repository.
+    original_html = (SITE / 'quiz.html').read_text(encoding='utf-8')
+    match = re.search(r'(<script type="application/json" id="quiz-data">)(.*?)(</script>)',
+                      original_html, re.S)
+    assert match
+    archive = json.loads(match.group(2))
+    assert archive['questions'] == []
+    fixture_archive = json.loads(json.dumps(archive))
+    fixture_archive['questions'] = [
+        {
+            'id': f"test-{chapter['file']}-{level}",
+            'chapter': chapter['file'],
+            'level': level,
+            'prompt': f"Domanda simulata: {chapter['title']} ({level})?",
+            'options': [f"Alternativa {i+1}" for i in range(option_count)],
+            'correct': 0,
+            'explanation': "Spiegazione usata soltanto dai test."
+        }
+        for chapter in archive['chapters']
+        for level, option_count in [('easy', 3), ('medium', 4), ('hard', 5)]
+    ]
+    fixture_json = json.dumps(fixture_archive, ensure_ascii=False).replace('<', '\\u003c')
+    fixture_html = original_html[:match.start(2)] + fixture_json + original_html[match.end(2):]
+    route_pattern = '**/quiz.html'
+    page.route(route_pattern, lambda route: route.fulfill(
+        status=200, content_type='text/html; charset=utf-8', body=fixture_html))
+    page.goto(base + 'quiz.html')
+    chapters = page.locator('[data-quiz-chapter]')
+    groups = page.locator('[data-quiz-group]')
+    chapters.first.check()
+    assert groups.first.evaluate('(e)=>e.indeterminate')
+    groups.first.check()
+    assert groups.first.is_checked()
+    assert page.locator('[data-quiz-chapter]:checked').count() == 5
+    groups.first.uncheck()
+    assert page.locator('[data-quiz-chapter]:checked').count() == 0
+    groups.last.check()
+    assert page.locator('[data-quiz-chapter]:checked').count() == 10
+    for width in (390, 1440):
+        page.set_viewport_size({'width': width, 'height': 900})
+        for theme in ('dark', 'light'):
+            set_theme(page, theme)
+            assert page.evaluate('document.documentElement.scrollWidth <= innerWidth')
+            page.screenshot(path=str(SHOTS / f'quiz-config-{width}-{theme}.png'), full_page=True)
+    # Quantità personalizzabile: limiti 1–30 e durata massima aggiornata.
+    page.goto(base + 'quiz.html')
+    page.locator('[data-quiz-chapter]').first.check()
+    count_input = page.locator('#quiz-count')
+    minus = page.locator('#quiz-count-minus')
+    plus = page.locator('#quiz-count-plus')
+    assert count_input.input_value() == '25'
+    assert page.locator('#quiz-duration').inner_text() == '50:00'
+    assert minus.is_enabled() and plus.is_enabled()
+    plus.click()
+    assert count_input.input_value() == '26'
+    assert page.locator('#quiz-duration').inner_text() == '52:00'
+    minus.click()
+    assert count_input.input_value() == '25'
+    count_input.fill('30')
+    assert plus.is_disabled()
+    assert minus.is_enabled()
+    assert page.locator('#quiz-duration').inner_text() == '60:00'
+    count_input.fill('31')
+    assert page.locator('#quiz-start').is_disabled()
+    assert '1 a 30' in page.locator('#quiz-duration').inner_text()
+    count_input.fill('0')
+    assert page.locator('#quiz-start').is_disabled()
+    count_input.fill('1')
+    assert minus.is_disabled()
+    assert plus.is_enabled()
+    assert page.locator('#quiz-duration').inner_text() == '2:00'
+    plus.click()
+    assert count_input.input_value() == '2'
+    assert page.locator('#quiz-duration').inner_text() == '4:00'
+    minus.click()
+    assert count_input.input_value() == '1'
+    assert page.locator('#quiz-duration').inner_text() == '2:00'
+
+    # Il quiz a domanda singola termina e corregge una sola risposta.
+    assert page.locator('#quiz-start').is_enabled()
+    page.locator('#quiz-start').click()
+    assert page.locator('#quiz-counter').inner_text() == 'Domanda 1 di 1'
+    assert page.locator('#quiz-navigation .quiz-nav-item').count() == 1
+    page.locator('.quiz-answer input').first.check()
+    page.locator('#quiz-next').click()
+    assert page.locator('#quiz-results').is_visible()
+    assert page.locator('.quiz-review-item').count() == 1
+    assert page.locator('#quiz-score').inner_text() in ('0 / 1', '1 / 1')
+
+    # A 30 domande la griglia e il tempo iniziale restano coerenti.
+    page.goto(base + 'quiz.html')
+    page.locator('#quiz-count').fill('30')
+    page.locator('[data-quiz-chapter]').first.check()
+    page.locator('#quiz-start').click()
+    assert page.locator('#quiz-counter').inner_text() == 'Domanda 1 di 30'
+    assert page.locator('#quiz-navigation .quiz-nav-item').count() == 30
+    assert page.locator('#quiz-clock').inner_text() in ('60:00', '59:59')
+    assert page.locator('.quiz-main-actions #quiz-skip').count() == 1
+    assert page.locator('.quiz-main-actions #quiz-next').count() == 1
+    assert page.locator('.quiz-main-actions #quiz-stop').count() == 0
+    assert page.locator('#quiz-stop').evaluate(
+        '(e) => getComputedStyle(e).backgroundColor') == 'rgb(148, 47, 74)'
+    assert page.locator('#quiz-navigation .is-current').first.evaluate(
+        '(e) => getComputedStyle(e).borderTopWidth') == '4px'
+    page.locator('#quiz-skip').click()
+    assert page.locator('#quiz-navigation .is-skipped').first.evaluate(
+        '(e) => getComputedStyle(e).backgroundColor') == 'rgb(249, 216, 74)'
+    page.once('dialog', lambda dialog: dialog.accept())
+    page.locator('#quiz-stop').click()
+    assert page.locator('.quiz-review-item').count() == 30
+    assert page.locator('#quiz-result-navigation .quiz-nav-item').count() == 30
+    assert page.locator('#quiz-score').inner_text() == '0 / 30'
+
+    for level, alternatives in (('easy', 3), ('medium', 4), ('hard', 5)):
+        page.goto(base + 'quiz.html')
+        page.locator('[data-quiz-chapter]').first.check()
+        page.locator('[data-quiz-chapter]').nth(5).check()  # Due categorie differenti.
+        page.locator(f'input[name="quiz-level"][value="{level}"]').check()
+        page.locator('#quiz-start').click()
+        assert page.locator('#quiz-active').is_visible()
+        assert page.locator('.quiz-answer').count() == alternatives
+        assert page.locator('#quiz-counter').inner_text() == 'Domanda 1 di 25'
+        assert page.locator('#quiz-clock').inner_text().count(':') == 1
+        assert page.locator('#quiz-navigation .quiz-nav-item').count() == 25
+        assert page.locator('#quiz-navigation .is-current').count() == 1
+        assert page.locator('#quiz-navigation .is-answered').count() == 0
+        assert page.locator('#quiz-navigation .is-skipped').count() == 0
+        if level == 'easy':
+            page.set_viewport_size({'width': 390, 'height': 900})
+            assert page.evaluate('document.documentElement.scrollWidth <= innerWidth')
+            skip_box = page.locator('#quiz-skip').bounding_box()
+            next_box = page.locator('#quiz-next').bounding_box()
+            stop_box = page.locator('#quiz-stop').bounding_box()
+            assert abs(skip_box['y'] - next_box['y']) < 3
+            assert stop_box['y'] > next_box['y']
+            page.screenshot(path=str(SHOTS / 'quiz-domanda-390.png'), full_page=True)
+        page.locator('.quiz-answer input').first.check()
+        page.locator('#quiz-next').click()
+        assert page.locator('#quiz-counter').inner_text() == 'Domanda 2 di 25'
+        assert page.locator('#quiz-navigation .is-answered').count() == 1
+        assert 'risposta data' in page.locator('#quiz-navigation .quiz-nav-item').nth(0).get_attribute('aria-label')
+        page.locator('#quiz-skip').click()
+        assert page.locator('#quiz-counter').inner_text() == 'Domanda 3 di 25'
+        assert page.locator('#quiz-navigation .is-skipped').count() == 1
+        assert 'saltata' in page.locator('#quiz-navigation .quiz-nav-item').nth(1).get_attribute('aria-label')
+        assert 'Risposte date: 1 · Saltate: 1' == page.locator('#quiz-status-summary').inner_text()
+        page.once('dialog', lambda dialog: dialog.accept())
+        page.locator('#quiz-stop').click()
+        assert page.locator('#quiz-results').is_visible()
+        assert page.locator('.quiz-review-item').count() == 25
+        assert page.locator('#quiz-result-navigation .quiz-nav-item').count() == 25
+        assert page.locator('#quiz-result-navigation .is-answered').count() == 1
+        assert page.locator('#quiz-result-navigation .is-skipped').count() == 2
+        assert page.locator('#quiz-result-navigation .is-pending').count() == 22
+        assert page.locator('#quiz-score').inner_text().endswith(' / 25')
+        if level == 'easy':
+            page.screenshot(path=str(SHOTS / 'quiz-risultato-390.png'), full_page=True)
+
+    # Simula un archivio parziale: intera categoria senza quesiti e
+    # un capitolo con domande facili/medie ma non difficili.
+    archive = json.loads(json.dumps(fixture_archive))
+    unavailable_area = archive['chapters'][0]['area']
+    level_limited = next(chapter for chapter in archive['chapters']
+                         if chapter['area'] != unavailable_area)
+    archive['questions'] = [
+        question for question in archive['questions']
+        if next(chapter['area'] for chapter in archive['chapters']
+                if chapter['file'] == question['chapter']) != unavailable_area
+        and not (question['chapter'] == level_limited['file'] and question['level'] == 'hard')
+    ]
+    data = json.dumps(archive, ensure_ascii=False).replace('<', '\\u003c')
+    modified_html = original_html[:match.start(2)] + data + original_html[match.end(2):]
+    page.unroute(route_pattern)
+    page.route(route_pattern, lambda route: route.fulfill(
+        status=200, content_type='text/html; charset=utf-8', body=modified_html))
+    try:
+        page.goto(base + 'quiz.html')
+        chapters = page.locator('[data-quiz-chapter]')
+        groups = page.locator('[data-quiz-group]')
+        assert groups.first.is_disabled()
+        assert all(box.is_disabled() for box in chapters.all()[:5])
+        assert 'Nessuna domanda' in groups.first.locator('xpath=..').inner_text()
+        assert 'Non disponibile' in chapters.first.locator('xpath=..').inner_text()
+        assert page.locator('#quiz-start').is_disabled()
+        groups.last.check()
+        assert page.locator('[data-quiz-chapter]:checked').count() == 10
+        page.locator('input[name="quiz-level"][value="hard"]').check()
+        limited_box = chapters.nth(next(
+            i for i, chapter in enumerate(archive['chapters'])
+            if chapter['file'] == level_limited['file']))
+        assert limited_box.is_disabled() and not limited_box.is_checked()
+        assert page.locator('[data-quiz-chapter]:checked').count() == 9
+        assert groups.last.is_checked()  # Categoria = tutti i capitoli disponibili.
+        page.locator('input[name="quiz-level"][value="easy"]').check()
+        assert limited_box.is_enabled() and not limited_box.is_checked()
+        assert groups.last.evaluate('(element) => element.indeterminate')
+        limited_box.check()
+        assert groups.last.is_checked()
+        assert page.locator('#quiz-start').is_enabled()
+    finally:
+        page.unroute(route_pattern)
 
 
 def main():
@@ -312,6 +527,7 @@ def main():
                     theme_summary.tap()
                     theme_summary.focus()
                     assert not tip.is_visible(), (service_page,width,'focus')
+            verify_quiz(page, base)
             # Anche il menu del capitolo non mostra tooltip al tocco.
             page.goto(base + publication['articoli'][0])
             page.locator('[data-theme-menu]>summary').tap()

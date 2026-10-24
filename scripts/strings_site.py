@@ -172,7 +172,7 @@ def render_home(source, covers, allowed):
             '<section class="actions" aria-label="Accessi principali">'
             '<a class="action" href="articoli.html"><span class="action-symbol">≡</span><strong>Tutti i capitoli</strong><small>Scegli un argomento</small></a>'
             '<button class="action" id="random-article" type="button"><span class="action-symbol">↝</span><strong>Mi sento fortunato</strong><small>Leggi un capitolo casuale</small></button>'
-            '<a class="action" href="quiz.html"><span class="action-symbol">?</span><strong>Quiz</strong><small>Prossimamente</small></a>'
+            '<a class="action" href="quiz.html"><span class="action-symbol">?</span><strong>Quiz</strong><small>25 domande, tre livelli</small></a>'
             '</section>'
             '<section aria-labelledby="news-title"><div class="section-heading"><h2 id="news-title">Novità</h2>'
             '<a href="articoli.html">Tutti i capitoli →</a></div>'
@@ -238,15 +238,9 @@ def render_catalogue(source, allowed):
     return shell("Tutti i capitoli", body, source, service=True)
 
 
-def render_quiz(source):
-    body = ('<p class="eyebrow">In preparazione</p><h1 class="page-title">Quiz</h1>'
-            '<p class="lede">In futuro potrai generare quiz di verifica scegliendo gli argomenti su cui esercitarti.</p>'
-            '<section class="placeholder"><h2>Quiz di verifica</h2>'
-            '<p>Il generatore è in preparazione. '
-            'Nel frattempo puoi continuare a consultare i capitoli.</p>'
-            '<a class="download" href="articoli.html">Vai ai capitoli →</a></section>')
-    return shell("Quiz", body, source, service=True)
-
+def render_quiz(source, allowed):
+    from quiz_site import render_quiz_page
+    return render_quiz_page(source, allowed, catalogue, shell)
 
 
 def enhance_article(document, filename):

@@ -9,6 +9,8 @@ on:
       - '*.html'
       - 'scripts/build_pages.py'
       - 'scripts/strings_site.py'
+      - 'scripts/quiz_site.py'
+      - 'quiz/**'
       - 'scripts/credits.py'
       - 'risorse/**'
       - 'licenze/**'

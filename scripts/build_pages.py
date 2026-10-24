@@ -98,8 +98,13 @@ def main():
         else:
             shutil.copyfile(source, target)
     (OUTPUT / "articoli.html").write_text(render_catalogue(index.read_text(encoding="utf-8"), allowed_articles), encoding="utf-8")
-    (OUTPUT / "quiz.html").write_text(render_quiz(index.read_text(encoding="utf-8")), encoding="utf-8")
+    (OUTPUT / "quiz.html").write_text(render_quiz(index.read_text(encoding="utf-8"), allowed_articles), encoding="utf-8")
     (OUTPUT / "anteprima-bordi-stringhe.html").write_text(render_comparison(index.read_text(encoding="utf-8")), encoding="utf-8")
+    # Motore del quiz: il dataset resta separato nei sorgenti e viene incluso nell'HTML in fase di build.
+    for name in ("interfaccia.js", "interfaccia.css"):
+        target = OUTPUT / "quiz" / name
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(ROOT / "quiz" / name, target)
     for cover in covers:
         source = ROOT / cover["src"]
         target = OUTPUT / cover["src"]
