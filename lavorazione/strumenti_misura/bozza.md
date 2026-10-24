@@ -1,6 +1,6 @@
 # Gli strumenti di misura
 
-[EDITORIALE — Bozza v12, 24 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive scelte dall’utente e integrate. I segnaposto descrivono i materiali da integrare dopo l'approvazione del testo. Area: Introduzione alla fisica e alla misura.]
+[EDITORIALE — Bozza v13, 24 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive scelte dall’utente e integrate. I segnaposto descrivono i materiali da integrare dopo l'approvazione del testo. Area: Introduzione alla fisica e alla misura.]
 
 [COP-06 — Fotografia scelta dall'utente: Ytterbium Lattice Double Clock with Photons at NIST.jpg. Intera, senza ritagli o zoom, non ripetuta nel corpo.]
 
@@ -76,9 +76,9 @@ Portata adatta, risposta sufficientemente rapida e lettura fine ci aiutano quind
 
 La bilancia virtuale ha a disposizione pesetti di masse differenti. Aggiungili al piatto, uno alla volta, e confronta la massa totale caricata con l'indicazione. Prima di registrare una lettura, prova a prevedere che cosa accadrà: un carico maggiore della portata sarà misurabile? Se il passo leggibile aumenta, il display distinguerà ancora gli stessi cambiamenti?
 
-[SIM-06 — Bilancia con pesetti selezionabili e rimovibili, di masse proposte 10 g, 20 g, 50 g, 100 g e 200 g; massa totale nota. Sotto la bilancia, slider per portata, sensibilità in grammi, prontezza, precisione e accuratezza. Specifica in simulazione.md. Immagini pertinenti della bilancia e dei pesetti da acquisire con diritti verificati; nessun codice ancora realizzato.]
+[SIM-06 — Bilancia con pesetti selezionabili e rimovibili, di masse proposte 10 g, 20 g, 50 g, 100 g e 200 g; massa totale nota. Sotto la bilancia, slider per portata, risoluzione in grammi, prontezza, precisione e accuratezza. Specifica in simulazione.md. Immagini pertinenti della bilancia e dei pesetti da acquisire con diritti verificati; nessun codice ancora realizzato.]
 
-Cambia una proprietà alla volta con gli slider sotto la bilancia e osserva la risposta. Un passo più grande produce cambiamenti più grossolani; una risposta lenta richiede di aspettare. Nella simulazione il controllo “Sensibilità” indica il passo minimo leggibile in grammi. Aumentando la precisione, le letture si raccolgono; aumentando l’accuratezza, si avvicinano alla massa caricata.
+Cambia una proprietà alla volta con gli slider sotto la bilancia e osserva la risposta. Un passo più grande produce cambiamenti più grossolani; una risposta lenta richiede di aspettare. Nella simulazione il controllo “Risoluzione” indica il passo minimo leggibile in grammi. Aumentando la precisione, le letture si raccolgono; aumentando l’accuratezza, si avvicinano alla massa caricata.
 
 Registra le letture e confrontale mantenendo fisse le altre condizioni. Se cambi le impostazioni, inizia una nuova serie: così puoi attribuire le differenze alla proprietà che stai esplorando. I dati sono simulati e non documentano una prova reale.
 
@@ -95,7 +95,7 @@ Registra le letture e confrontale mantenendo fisse le altre condizioni. Se cambi
 
 ## Note
 
-[^1]: Alcuni testi scolastici usano “sensibilità” per indicare il più piccolo passo leggibile, che qui chiamiamo risoluzione. È questo l’uso adottato per il controllo della bilancia virtuale.
+[^1]: Alcuni testi scolastici usano “sensibilità” per indicare il più piccolo passo leggibile, che qui chiamiamo risoluzione.
 
 ---
 

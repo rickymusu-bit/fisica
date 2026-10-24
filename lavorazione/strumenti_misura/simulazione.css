@@ -25,3 +25,5 @@
 @media(max-width:560px){.sim-weight-thumb{width:66px;height:94px}.sim-weight-thumb>div{height:max(58px,calc(90px * var(--weight-size)))}}
 
 .sim-chart .plot-tick{font-size:14px}.sim-chart .plot-label{font-size:15px}
+
+.sim-settings{margin:14px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.sim-settings>summary{cursor:pointer;min-height:44px;padding:10px 0;box-sizing:border-box;line-height:1.5;font-weight:500}.sim-settings .sim-sliders{margin:10px 0 20px}

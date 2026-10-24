@@ -2,7 +2,7 @@
 (function (global) {
   'use strict';
   const masses = [10, 20, 50, 100, 200];
-  const options = {capacity: [200, 500, 1000], step: [1, 20, 50], response: [0.5, 1, 2], sensitivity: [1, 2, 5]};
+  const options = {capacity: [200, 300, 500], step: [1, 20, 50], response: [0.5, 1, 2], sensitivity: [1, 2, 5]};
   const defaults = {capacity: 500, step: 1, response: 1, sensitivity: 1, offset: 0, noise: 0};
   const labConfig = {...defaults, noise: 3};
   function quantize(value, step) { return Number((Math.round(value / step) * step).toFixed(8)) || 0; }
@@ -121,7 +121,7 @@
       if (!lab) for (const row of rows) {
         const tr = document.createElement('tr');
         [row.configuration, format(row.mass) + ' g', format(row.value) + ' g', row.stable ? 'Stabilizzata' : 'Anticipata',
-          'P ' + row.config.capacity + ' g; sensibilità ' + row.config.step + ' g; risposta ' + format(row.config.response) + ' s; accuratezza ' + quality(5-Math.abs(row.config.offset)) + '; precisione ' + quality(5-row.config.noise)]
+          'P ' + row.config.capacity + ' g; risoluzione ' + row.config.step + ' g; risposta ' + format(row.config.response) + ' s; accuratezza ' + quality(5-Math.abs(row.config.offset)) + '; precisione ' + quality(5-row.config.noise)]
           .forEach(v => tr.append(cell(String(v)))); body.append(tr);
       } else for (const key of ['A', 'B']) series[key].forEach((value, index) => {
         const tr = document.createElement('tr');

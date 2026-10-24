@@ -161,3 +161,11 @@ Assi adattati alle letture raccolte, includendo riferimento o fascia U e un marg
 Rimossi campi di risposta, pulsanti di controllo/confronto e aiuto ai calcoli. Istruzioni delle attività orientate all’osservazione; due esercizi di calcolo nelle domande finali (9 e 10), mantenendo i primi otto quesiti. Controlli di acquisizione, limiti delle letture e indipendenza delle bilance invariati. HTML 7 v11 (bozza v13); HTML 6 v12 per il codice condiviso, attività del 6 invariata.
 
 Verifica completata: 7 test quantitativi, 19 test del portale e 20 combinazioni viewport/tema. Testo dei grafici almeno 14 px effettivi, scale ravvicinate, nessuno zoom e nessun modulo di calcolo; dieci domande finali. Misure, registri, indipendenza, download e offline superati. Crediti, tema e build superati. Immagini delle due scale mobile/desktop ispezionate. Nessuna modifica al sito ufficiale.
+
+## Portata, risoluzione e pannello richiudibile
+
+Successiva richiesta dell’utente: portata massima 500 g, nome corretto Risoluzione per il passo minimo leggibile e comando per collassare gli slider del capitolo 6. Implementate portate 200/300/500 g, valore iniziale 500 g. Corretto il nome nel controllo, nel registro e nelle istruzioni; eliminata dalla nota la precedente attribuzione alla sensibilità del controllo della bilancia. Confronto teorico tra sensibilità e risoluzione conservato.
+
+Proprietà raccolte in details nativo inizialmente aperto, con summary «Proprietà della bilancia», area di almeno 44 px e tastiera. Chiudere/riaprire non modifica letture o impostazioni; i pulsanti di registrazione e ripristino si avvicinano alla bilancia. Versioni aggiornate: capitolo 6 v13 (bozza v13), capitolo 7 v12 (bozza v13), quest’ultimo per il codice condiviso. Restano i grafici ravvicinati senza zoom e i calcoli nelle domande del 7. PR #76 in bozza; nessuna pubblicazione nuova autorizzata.
+
+Controlli completati: portata massima 500 g, fuori scala a 300 g con 380 g caricati, riapertura del pannello senza perdita delle impostazioni e tastiera; schermate del pannello chiuso a 390 e 1440 px. Superati 7 test quantitativi, 19 test del portale e 20 combinazioni viewport/tema, più interazioni aggiornate, download e offline. Nessun errore JavaScript o richiesta esterna.

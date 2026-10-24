@@ -48,3 +48,7 @@ SIM-07-U: campione ignoto fisso, registro e calcoli di media/d/U, grafico con pu
 ## Revisione grafici e calcoli
 
 Scala automatica vicina ai dati, con margine per riferimento o estremi della fascia U e intervallo minimo 8 g. Grafici SVG con larghezza corrispondente alla larghezza effettiva, altezza 282 px e testi almeno 14 px; ResizeObserver mantiene leggibilità sui cambi di viewport. Dominio uguale per gli stessi dati; tre etichette numeriche principali su mobile. Rimossi zoom, campi per le risposte, validazione, confronto su richiesta e aiuto. Statistiche calcolate e mostrate nel grafico dopo ogni lettura; esercizi nelle domande finali del capitolo 7.
+
+## Controlli del capitolo 6: revisione corrente
+
+Portata 200/300/500 g, iniziale 500 g. Il passo leggibile si chiama Risoluzione, senza associare il nome sensibilità a quel controllo. Pannello nativo «Proprietà della bilancia» aperto inizialmente e richiudibile; la chiusura non cambia i parametri né lo stato dell’acquisizione. Il ripristino ripristina le impostazioni ma conserva la scelta di apertura del pannello.

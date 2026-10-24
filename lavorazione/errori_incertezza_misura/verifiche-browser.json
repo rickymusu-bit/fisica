@@ -122,7 +122,7 @@
     }
   ],
   "checks": [
-    "Capitolo 6: lettura anticipata, stabilizzazione, sensibilità in grammi, fuori scala, zero, passo, tastiera e reset durante acquisizione.",
+    "Capitolo 6: lettura anticipata, stabilizzazione, risoluzione in grammi, portata massima 500 g e pannello richiudibile, fuori scala, zero, passo, tastiera e reset durante acquisizione.",
     "Capitolo 7: due attività indipendenti; cinque letture e riepiloghi automatici per ciascuna, scala stretta e testo leggibile senza zoom, riferimenti/fasce esclusivi, reset e cancellazione isolati, limite dieci e U=1 g per letture identiche.",
     "Download identico, copertine/MathML/simulazioni offline, teoria e crediti senza JavaScript, default scuro."
   ],
@@ -131,7 +131,7 @@
   "limits": [],
   "offline_method": "HTML caricato in memoria con rete disabilitata; immagini incorporate decodificate, MathML e simulazione disponibili. Navigazione file:// bloccata dalla policy del Chromium dell’ambiente e non dichiarata eseguita.",
   "html_sha256": {
-    "strumenti_misura_it.html": "e19a8f1c6f8a91e703a8f1451a4a1ba71b1e6ff0bd109ecbb2b6a525bb73d2a3",
-    "errori_incertezza_misura_it.html": "74edce032396622031bfcecca2f4190f6f6aee08cdd0d6040a4ffd55740cb1b2"
+    "strumenti_misura_it.html": "b8b1b9c6cf7d7a8c1e9156312984c8d11858044cc79d189533d45b7a4f09cd64",
+    "errori_incertezza_misura_it.html": "e7afa98372ffa3a41c63d4d37ea802416711e601189c1a93177ce57f8bfdc67e"
   }
 }

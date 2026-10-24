@@ -90,6 +90,19 @@ def main():
         page.on('pageerror',lambda e:report['errors'].append(str(e)))
         page.goto(origin+'/'+PAGES['strumenti_misura'])
         assert page.locator('.chapter-navigation a[rel=next]').get_attribute('href')==PAGES['errori_incertezza_misura']
+        settings=page.locator('.sim-settings')
+        assert settings.get_attribute('open') is not None
+        assert page.locator('[data-property-output=capacity]').inner_text()=='500 g'
+        assert 'Risoluzione' in settings.inner_text() and 'Sensibilità' not in settings.inner_text()
+        before=page.locator('[data-record]').bounding_box()['y']+page.evaluate('scrollY')
+        settings.locator('summary').click()
+        assert settings.get_attribute('open') is None
+        assert page.locator('[data-property=step]').is_hidden()
+        assert page.locator('[data-record]').bounding_box()['y']+page.evaluate('scrollY') < before-100
+        settings.locator('summary').focus();page.keyboard.press('Enter')
+        assert settings.get_attribute('open') is not None
+        assert page.locator('[data-property-output=capacity]').inner_text()=='500 g'
+
         page.locator('[data-weight="100"]').click();assert page.locator('[data-record]').is_enabled()
         assert page.locator('[data-pan] .sim-pan-weight').count()==1
         page.clock.run_for(250);page.locator('[data-record]').click()
@@ -127,6 +140,10 @@ def main():
         assert page.locator('[data-pan] .sim-pan-weight').count()==5
         assert page.locator('[data-pan] .sim-mass-label').all_text_contents()==['10 g','20 g','50 g','100 g','200 g']
         assert page.locator('[data-display]').inner_text()=='380 g'
+        set_range(page,'capacity',1);assert page.locator('[data-display]').inner_text()=='OL'
+        set_range(page,'capacity',2);page.clock.run_for(1100)
+        assert page.locator('[data-display]').inner_text()=='380 g'
+
         for width in [390,1440]:
           page.set_viewport_size({'width':width,'height':1000})
           scene=page.locator('.sim-balance-scene').bounding_box()
@@ -135,8 +152,12 @@ def main():
             assert box['y']>=scene['y'] and box['y']+box['h']<=scene['y']+scene['height']+1
           bar=page.add_style_tag(content='.topbar{visibility:hidden!important}')
           page.locator('.sim-stage').screenshot(path=str(WORK/'anteprime'/f'bilancia-carica-{width}.png'))
+          settings.locator('summary').click()
+          page.locator('.measurement-sim').screenshot(path=str(WORK/'anteprime'/f'slider-collassati-{width}.png'))
+          assert page.locator('[data-display]').inner_text()=='380 g'
+          settings.locator('summary').click()
           bar.evaluate('(e)=>e.remove()')
-        report['checks'].append('Capitolo 6: lettura anticipata, stabilizzazione, sensibilità in grammi, fuori scala, zero, passo, tastiera e reset durante acquisizione.')
+        report['checks'].append('Capitolo 6: lettura anticipata, stabilizzazione, risoluzione in grammi, portata massima 500 g e pannello richiudibile, fuori scala, zero, passo, tastiera e reset durante acquisizione.')
         page.goto(origin+'/'+PAGES['errori_incertezza_misura'])
         uncertainty=page.locator('[data-study=uncertainty]');error=page.locator('[data-study=error]')
         assert page.locator('[data-sample]').count()==0
