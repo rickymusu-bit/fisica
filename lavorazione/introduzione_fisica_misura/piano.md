@@ -238,3 +238,7 @@ Il precedente indice a undici capitoli è superato; i resoconti storici ne conse
 «Va bene, procediamo» autorizza la stesura delle bozze sulla struttura concordata. Preparati [Il piano cartesiano, bozza v1](../piano_cartesiano_grafici/bozza.md), con otto domande, e [Le relazioni di proporzionalità, bozza v2](../proporzionalita_diretta/bozza.md), con nove domande. La successiva richiesta «Lascia fuori la parte sull'intercetta» supera la proposta precedente: eliminati dal 9 sezione affine, quota fissa della consegna, formula della pendenza, confronto delle tre rette e domande associate. Titolo del 9 aggiornato per rispecchiare il perimetro.
 
 Quesiti del sorgente dei grafici: 1–2 nel capitolo 8 (il primo adattato al grafico dei quaderni); 3, 6 e 7 nel capitolo 9; 4–5 esclusi dai nuovi capitoli su richiesta, conservati nel sorgente storico. Restano segnaposto per le immagini da scegliere. Testi da revisionare; nessun HTML o deployment avviato.
+
+### Capitolo 9 — proporzionalità inversa attraverso il viaggio
+
+Su richiesta «fai col viaggio», [bozza v3](../proporzionalita_diretta/bozza.md) sostituisce i rettangoli ad area costante con velocità e tempo per un viaggio ideale in treno di 120 km, senza fermate e a velocità costante. Aggiornati tabella, formule, specifica del grafico e domande 4–5; immagine del treno da scegliere. Diretta, quadratica e capitolo 8 invariati. Testo da revisionare, nessuna realizzazione HTML o pubblicazione.
