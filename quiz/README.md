@@ -1,4 +1,4 @@
-# Quiz di Stringhe — specifiche v1.2.0
+# Quiz di Stringhe — specifiche v1.3.0
 
 **Stato:** prototipo funzionante con archivio di prova, non approvato per pubblicazione e non adatto a verifiche valutative.  
 **Data:** 24 ottobre 2026 (Europe/Rome).
@@ -14,11 +14,12 @@
 - **Difficile:** 5 alternative.
 - Il limite di **120 secondi per domanda** è uguale a tutti i livelli. Cambiano difficoltà e numero delle opzioni, non il tempo. Il timer della singola domanda rimane nascosto.
 - Il browser gestisce internamente una scadenza per ciascuna domanda. Lo studente vede soltanto il tempo totale rimanente. Quando scade il tempo della domanda, questa viene lasciata senza risposta e si passa alla successiva.
-- Durante il quiz compare una griglia numerata da 1 a 25: indica **risposta data** (confermata), **saltata** (pulsante o scadenza), **corrente** e **da affrontare**, con colori, simboli e nomi accessibili. Le scelte ancora non confermate non contano come risposte date.
+- Durante il quiz compare una griglia numerata da 1 al numero selezionato: indica **risposta data** (confermata), **saltata** (pulsante o scadenza), **corrente** e **da affrontare**, con colori, simboli e nomi accessibili. Le scelte ancora non confermate non contano come risposte date.
 - Il riepilogo finale ripropone la griglia: distingue le domande saltate da quelle non raggiunte, ad esempio per chiusura anticipata. Le risposte, le soluzioni e le spiegazioni sono riportate per ogni domanda.
-- La griglia è un indicatore, non permette di riaprire domande: ciascun quesito mantiene la propria scadenza.
+- La griglia è un indicatore, non permette di riaprire domande: ciascun quesito mantiene la propria scadenza. Le saltate sono segnalate in giallo, senza marrone; la domanda corrente ha un bordo di 4 px.
+- **Salta** e **Conferma e prosegui** sono affiancati; **Concludi** è sul lato opposto (su mobile in una riga distinta, allineato a destra), in rosso lampone scuro. La conclusione anticipata richiede conferma.
 - Il conteggio procede anche cambiando scheda o mettendo l'app in background: al ritorno vengono applicate le scadenze trascorse. Il tempo non è garantito contro manipolazioni intenzionali dell'orologio o del JavaScript locale.
-- Dopo la venticinquesima domanda, alla scadenza totale o alla conclusione anticipata si mostrano voto in decimi (corrette × 10 / 25), risposte corrette, errate o omesse e revisione completa con spiegazione. La scala è provvisoria e da validare prima dell'uso valutativo.
+- Dopo l'ultima domanda, alla scadenza totale o alla conclusione anticipata si mostra il risultato come **risposte corrette / domande totali**, oltre agli errori, alle omissioni e alla revisione completa con spiegazioni.
 - Le opzioni sono mescolate, così come i quesiti estratti. La risposta non è svelata prima della schermata finale.
 - Nessun backend necessario. Non si considera prioritario impedire l'accesso al dataset lato client.
 
