@@ -58,10 +58,14 @@ Prototipo: `quiz/domande-prova.json` contiene 45 quesiti, 1 per capitolo per dif
 **Versione 1.6.0.** Approvata la pubblicazione della sola interfaccia. Cancellato `quiz/domande-prova.json`; una build senza `quiz/domande.json` include `questions: []`, disabilita ogni capitolo e categoria, mostra un messaggio di indisponibilità e impedisce l'avvio. I test del browser simulano temporaneamente i quesiti in memoria, senza inserirli nel sito né in archivio. Alla disponibilità delle domande autentiche, il file previsto è `quiz/domande.json`. Pubblicazione su `main` autorizzata dall'utente dopo la rimozione del dataset di prova.
 
 
-## Prompt di generazione e prerequisiti — 24 ottobre 2026
+## Prompt di generazione, tag e workflow — 24 ottobre 2026
 
-Creato `quiz/PROMPT_GENERAZIONE_DOMANDE.md`, v1.0.0, sul ramo `docs/prompt-domande-fisica-20261024`, con collegamento in `quiz/README.md`. Master consultato: v69.11; istruzioni correnti di AGENTS.md applicate (ramo dedicato, nomi stabili, cronologia Git, nessun merge o deploy).
+Documento corrente: `quiz/PROMPT_GENERAZIONE_DOMANDE.md`, v1.1.0; collegamento e sintesi in `quiz/README.md`, specifiche v1.6.1. Ramo `docs/prompt-domande-fisica-20261024`, PR #75 in bozza. Master consultato: v69.11; AGENTS.md applicato per nomi stabili, cronologia Git e ramo dedicato.
 
-Indicazioni dell’utente consolidate: conoscenza/ragionamento/calcolo; tre livelli indipendenti dal tipo; situazioni nuove deducibili dai principi studiati; massimo 120 secondi comprensivi di lettura, soluzione e scelta anche per i quesiti difficili; distinzione tra quesiti specifici e trasversali con tutti i prerequisiti disciplinari.
+Indicazioni dell’utente consolidate: conoscenza/ragionamento/calcolo; tre difficoltà indipendenti dal tipo; situazioni nuove deducibili dai principi studiati; massimo 120 secondi comprensivi di lettura, soluzione e scelta anche per i quesiti difficili; distinzione tra quesiti specifici e trasversali. La distribuzione 30%/40%/30% resta un suggerimento configurabile.
 
-La distribuzione 30%/40%/30% resta un suggerimento configurabile. Un quesito trasversale è idoneo solo quando sono disponibili tutti i prerequisiti. Lo schema attuale con il solo campo `chapter` non gestisce questa condizione: prima dell’importazione occorrerà adeguare schema, validatore ed estrazione. Questa attività documentale non modifica il software né genera o carica domande. Prossima operazione eventuale: progettare l’adeguamento dei prerequisiti multipli su richiesta dell’utente.
+Tag: un tag per ogni argomento necessario; filtro AND (tutti i tag richiesti compresi nella selezione). La selezione dei capitoli può essere tradotta nell’unione dei tag corrispondenti. Non usare tag di semplice contesto. Lo schema attuale con il solo campo `chapter` va adeguato insieme a validatore, estrazione e disponibilità prima dell’importazione dei quesiti trasversali. Specifica documentata, non implementata.
+
+Workflow concordato: campione iniziale in ChatGPT di 9 domande, una per combinazione tipo/difficoltà se pertinente; revisione e approvazione del docente; generazione dei lotti con Codex usando capitoli, prompt e campione salvato; controlli tecnici e nuova revisione didattica; integrazione secondo le autorizzazioni del repository. Nessuna superiorità didattica automatica di uno strumento; i controlli tecnici non provano chiarezza e risolvibilità nei due minuti.
+
+Approvazione ricevuta: registrare il workflow e le osservazioni sui tag nei documenti e caricarli su GitHub. Non sono ancora stati generati né approvati campioni o lotti. Modifiche solo documentali; nessun merge o deployment eseguito. Prossima operazione, se richiesta: definire l’ambito del primo campione o implementare il supporto ai tag multipli.
