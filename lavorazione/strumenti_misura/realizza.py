@@ -327,14 +327,16 @@ def render(key, data):
         elif node.tag=='footer' and node.has_class('footer'): edits.append((node.start,node.end,'<footer class="footer">Versione ' + edition['version'] + ' — ' + footer_date + '</footer>'))
     for start,end,value in sorted(edits,reverse=True): template=template[:start]+value+template[end:]
     template=template.replace('Nome dell’area tematica',AREA).replace('Titolo del capitolo',data['title'])
-    template=re.sub(r'<!-- MODELLO CANONICO[\s\S]*?-->','<!-- Anteprima di lavorazione: modello Stringhe v24. -->',template,count=1)
+    template=re.sub(r'<!-- MODELLO CANONICO[\s\S]*?-->','<!-- Capitolo Stringhe: modello v24. -->',template,count=1)
     template=template.replace('</head>',EXTRA + '<style data-measurement-style>' + (WORK/'simulazione.css').read_text() + '</style></head>',1)
     previous=('cifre_significative_it.html','Le cifre significative') if data['mode']=='explore' else ('strumenti_misura_it.html','Gli strumenti di misura')
     links='<a rel="prev" href="' + previous[0] + '" data-site-path="' + previous[0] + '"><span>← Capitolo precedente</span><small>' + previous[1] + '</small></a>'
     if data['mode']=='explore': links+='<a rel="next" href="errori_incertezza_misura_it.html" data-site-path="errori_incertezza_misura_it.html"><span>Capitolo successivo →</span><small>Errori e incertezza di misura</small></a>'
+    if data['mode']=='lab': links+='<a rel="next" href="termodinamica_sistemi_it.html" data-site-path="termodinamica_sistemi_it.html"><span>Capitolo successivo →</span><small>La termodinamica e i sistemi termodinamici</small></a>'
     template=template.replace('<!-- chapter-navigation:end -->','<nav class="chapter-navigation" aria-label="Navigazione tra capitoli">' + links + '</nav><!-- chapter-navigation:end -->',1)
     template=template.replace('</body>','<script data-measurement-script>' + (WORK/'simulazione.js').read_text() + '</script></body>',1)
-    return template, {'formulas':formulas,'headings':len(headings),'missing_images':sorted(set(missing)), 'version':edition['version']}
+    from media_controls import apply_media_controls
+    return apply_media_controls(template), {'formulas':formulas,'headings':len(headings),'missing_images':sorted(set(missing)), 'version':edition['version']}
 
 
 def main():
@@ -360,7 +362,11 @@ def main():
         reports[key]['bytes']=target.stat().st_size
         (ROOT/'lavorazione'/key/'verifiche-strutturali.json').write_text(json.dumps(reports[key],ensure_ascii=False,indent=2)+'\n')
     credits.REGISTRY.write_text(json.dumps(registry,ensure_ascii=False,indent=2)+'\n')
-    assert (ROOT/'crediti.html').read_text()==credits.render_page(registry), 'La pagina pubblica dei crediti deve restare invariata'
+    published=set(json.loads((ROOT/'pubblicazione.json').read_text())['articoli'])
+    if all(data['name'] in published for data in CHAPTERS.values()):
+        (ROOT/'crediti.html').write_text(credits.render_page(registry))
+    else:
+        assert (ROOT/'crediti.html').read_text()==credits.render_page(registry), 'La pagina pubblica dei crediti deve restare invariata'
     print(json.dumps(reports,ensure_ascii=False,indent=2))
 
 

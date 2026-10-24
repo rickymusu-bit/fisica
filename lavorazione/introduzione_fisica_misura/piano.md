@@ -224,3 +224,7 @@ Revisione richiesta il 24 ottobre 2026: capitolo 6 v7 con nuova foto della bilan
 ## Ultima revisione del capitolo 7
 
 Pubblicazione fermata dall’utente prima di qualsiasi push/merge/deployment. Attività di incertezza e misura dell’errore separate in due sezioni autonome con bilance, registri, calcoli e grafici propri. Un solo capitolo 7, senza nuove suddivisioni del piano. Anteprima corrente da revisionare prima del rilascio.
+
+## Pubblicazione dei capitoli 6 e 7 autorizzata
+
+Dopo la separazione delle attività del 7, l’utente approva nuovamente con «Okay, pubblica». Capitoli aggiunti al manifest, catalogo aggiornato a sette capitoli dell’area e navigazione collegata. Rilascio in corso nella PR #72.

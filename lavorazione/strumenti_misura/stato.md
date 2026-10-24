@@ -1,6 +1,6 @@
 # Stato — Gli strumenti di misura
 Ultimo aggiornamento: 24 ottobre 2026 (Europe/Rome). Capitolo 6.
-Fase: tutte le immagini concordate integrate; verifiche finali e anteprima corrente.
+Fase: ultima anteprima approvata; pubblicazione dei capitoli 6 e 7 autorizzata e in corso.
 
 ## Fonte e ambito
 Richiesta corrente: «Facciamo i capitoli 6 e 7», con collegamento al piano.
@@ -145,3 +145,9 @@ Capitolo 7 ora con due sezioni: «Stimare l’incertezza di una massa ignota» e
 Modello numerico, proprietà fisse e masse conservati; nessun valore nascosto B esposto come riferimento. Grafici singoli con annotazioni separate dai punti, senza le due righe sovrapposte del confronto precedente. HTML capitolo 7 v10, bozza v12. Codice condiviso aggiornato anche nell’HTML del 6 v11, con attività del 6 invariata.
 
 Verifica conclusa: 7 test quantitativi e 20 combinazioni viewport/tema, due attività e grafici indipendenti, cinque letture/calcoli per entrambe, reset/cancellazione isolati, limiti delle acquisizioni, download/offline/no-JS superati. Nessun errore JavaScript o richiesta esterna. Crediti e build superati; manifest pubblico invariato. Anteprime specifiche delle due attività salvate; nessuna pubblicazione effettuata.
+
+## Pubblicazione nuovamente autorizzata
+
+L’utente approva la versione con le due attività separate con «Okay, pubblica». Questa autorizzazione supera la sospensione precedente e riguarda l’anteprima corrente. Integrato main, inclusa l’implementazione Quiz già pubblicata e il principio di economia informativa; conflitti solo documentali risolti conservando le istruzioni correnti.
+
+Aggiunti i due capitoli al manifest e al catalogo italiano, aggiornati i collegamenti 5 → 6 → 7 e il passaggio alla Termologia, con ritorno dalla Termodinamica al 7. Crediti pubblici generati dal registro unico; date editoriali dei nuovi capitoli aggiornate. Nessun contenuto scientifico degli altri capitoli modificato. Contenuto del corpo dei due capitoli identico nella build pubblica; comandi di zoom resi idempotenti rispetto alla componente canonica.

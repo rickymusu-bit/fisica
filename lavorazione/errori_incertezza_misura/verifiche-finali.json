@@ -2,8 +2,8 @@
   "html_version": "v10",
   "approved_draft": "v12, separazione delle simulazioni incertezza/errore richiesta esplicitamente dall’utente",
   "authorization": "Ok vai; generazione di bilancia e pesetti richiesta esplicitamente",
-  "html_bytes": 4956106,
-  "html_sha256": "0aec81bc7c4b0acc7a835cfd02fa3b16b6ba6998c5f3dafce269252d4d07478c",
+  "html_bytes": 4956419,
+  "html_sha256": "55138de7a40ffcfd294104f22577f4e980d7423f6db73da610b31a61e1f73d2e",
   "model_tests": {
     "passed": 7,
     "command": "node lavorazione/strumenti_misura/test_simulazione.cjs"
@@ -13,10 +13,10 @@
   "external_requests": [],
   "credits_check": "passed",
   "theme_check": "passed",
-  "pages_build": "passed; nuovi capitoli esclusi dalla pubblicazione",
+  "pages_build": "passed; entrambi i capitoli presenti nella build pubblica",
   "protected_sources": "invariati",
   "image_slots": [],
-  "preview_status": "Due attività autonome nel capitolo 7; pubblicazione sospesa su richiesta.",
+  "preview_status": "Versione approvata per la pubblicazione.",
   "offline_method": "HTML caricato in memoria con rete disabilitata; immagini incorporate decodificate, MathML e simulazione disponibili. Navigazione file:// bloccata dalla policy del Chromium dell’ambiente e non dichiarata eseguita.",
   "screenshots_reviewed": [
     "lavorazione/errori_incertezza_misura/anteprime/grafico-uncertainty-1440.png",
@@ -35,5 +35,6 @@
   },
   "simulation_issue": "L’utente conferma il funzionamento nell’HTML scaricato. Nessun errore nei test correnti.",
   "image_layouts_note": "Verifiche mirate delle fotografie conservate dalla revisione precedente; immagini originali invariate. Aspetto delle simulazioni verificato nelle 20 combinazioni correnti.",
-  "publication_status": "Sospesa dall’utente con Aspetta; nessun push/merge/deployment."
+  "publication_status": "Autorizzata esplicitamente con Okay, pubblica dopo la separazione delle attività; manifest e catalogo aggiornati, PR #72 in preparazione al merge.",
+  "portal_unit_tests": 19
 }
