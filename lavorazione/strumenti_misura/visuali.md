@@ -75,3 +75,7 @@ L’utente richiede un oggetto riconoscibile, una matita, e il ripristino di “
 ## Bilancia e pesetti disponibili
 
 Bilancia digitale e pesetti generati su richiesta, incorporati e riutilizzati nelle figure della stessa bilancia. Schede in risorse/immagini.json; originali e provenienze condivisi nella lavorazione del 6. Le simulazioni non richiedono altre fotografie. Restano soltanto le figure di teoria del voltmetro, termometro, cronometro e bersagli.
+
+## Visuali correnti complete — 24 ottobre 2026
+
+La scelta esplicita dell’utente sostituisce le proposte storiche sopra: FIG-06-3 manometro MAXIMATOR 0–2500 bar; FIG-06-4 termometro clinico a colonna; FIG-06-5 e SCH-07-1 cronometro digitale azzerato. Fotografie intere, non modificate, senza zoom o didascalie ridondanti. FIG-07-1: ricreazione autorizzata del confronto Ossila mediante SVG originale, etichette italiane e stesso ordine concettuale delle righe e colonne. Nessuna figura pendente. Metadati nel registro centrale e schede nelle risorse; autorizzazione e controlli nel file di stato.

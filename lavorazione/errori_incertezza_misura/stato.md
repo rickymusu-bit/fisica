@@ -1,6 +1,6 @@
 # Stato — Errori e incertezza di misura
-Ultimo aggiornamento: 23 ottobre 2026 (Europe/Rome). Capitolo 7.
-Fase: immagini di bilancia e pesetti integrate; altre quattro figure del testo ancora aperte.
+Ultimo aggiornamento: 24 ottobre 2026 (Europe/Rome). Capitolo 7.
+Fase: tutte le immagini concordate integrate; verifiche finali e anteprima corrente.
 
 ## Fonte e ambito
 Richiesta corrente: «Facciamo i capitoli 6 e 7», con collegamento al piano.
@@ -20,7 +20,7 @@ Simulazione richiesta dall'utente: [specifica](simulazione.md), con modello, com
 
 ## Completato e prossimo passaggio
 Controllati sorgente, descrizioni delle nove immagini e sette quesiti. Ripartizione corrente: 1–4 al 6; 5–7 al 7, senza capitolo separato sulle ripetizioni.
-Prossimo passaggio: integrare le immagini con licenza che l’utente fornirà, aggiornare i crediti e verificare le parti visuali. Non chiedere un nuovo via alla realizzazione già autorizzata. Successivamente consegnare l’anteprima completa per revisione prima del rilascio.
+Prossimo passaggio: consegnare l’anteprima completa per revisione prima del rilascio. Tutte le immagini richieste sono disponibili; non chiedere nuovamente materiali o via alla realizzazione.
 Nuovo HTML v1 e simulazione in lavorazione; nessuna modifica al manifest/catalogo, merge o deployment. Sorgenti storici e traduzioni invariati ed esclusi. Verifiche della fase HTML nel rapporto verifiche-browser.json; le note delle precedenti fasi restano cronologia.
 L'ambiente locale si è disconnesso durante il salvataggio; usati gli strumenti GitHub per conservare e verificare i file sul ramo.
 
@@ -63,3 +63,13 @@ Autorizzazione esplicita dell’utente: «Per la simulazione, genera tu la bilan
 Implementate definizioni SVG condivise per incorporare una sola volta ciascun originale e limitare il peso dei file senza comprimere o alterare le immagini. Lettura fuori scala OL con messaggio esplicito; selezione, rimozione e ripristino riallineano immagini e letture. Provenienza in ../strumenti_misura/risorse/bilancia-pesetti-fonte.json e registro unico; nessun materiale esterno introdotto. Restano quattro immagini per la teoria: voltmetro 0–15 V, termometro digitale, cronometro e bersagli. Nessuna immagine aggiuntiva necessaria per le simulazioni.
 
 Verifiche concluse: 7 test quantitativi, 20 combinazioni di viewport e tema, interazioni aggiornate e carico dei cinque pesetti; nessun errore JavaScript o richiesta esterna. Crediti, tema e build superati. HTML e copie di lavorazione identici; capitoli esclusi dalla pubblicazione.
+
+## Immagini teoriche completate — 24 ottobre 2026
+
+L’utente ha fornito il manometro MAXIMATOR in sostituzione del voltmetro, il termometro clinico a colonna e il cronometro digitale e ha chiesto di ricreare i bersagli Ossila. Fotografie scelte incorporate intere, senza cambiare scale o display; metadati Commons verificati e conservati. Manometro: Photo by CEphoto, Uwe Aranas, CC BY-SA 3.0. Termometro: Jacek Halicki, CC BY-SA 4.0. Cronometro: Lesselich, CC BY-SA 3.0. Schede e associazioni nel registro unico, crediti offline aggiornati.
+
+Esempio della portata e domanda finale adattati alla scala nera 0–2500 bar, con pressione attesa di 3000 bar. Prontezza descritta attraverso il termometro a colonna. Il cronometro azzerato illustra lo strumento; l’apertura del capitolo 7 presenta esplicitamente i tempi come ipotesi, conservando tutti i dati e calcoli dell’esempio.
+
+Bersagli ricreati con SVG originale deterministico ed etichette italiane: colonne precisione alta/bassa, righe accuratezza alta/bassa; A e C in alto, B e D in basso. Nessun elemento grafico del file Ossila incorporato. Geometria verificata dal generatore; file e provenienza in lavorazione/errori_incertezza_misura/risorse/. Omesse didascalie che ripetevano testo o immagine; conservate le tre viste del parallasse. Nessuna immagine ancora da fornire. Versioni HTML correnti: capitolo 6 v6, capitolo 7 v3.
+
+Verifiche finali completate sulla versione corrente: 20 combinazioni di viewport e tema con tutte le interazioni, download e offline; altre 8 combinazioni per le nuove fotografie, crediti e zoom dei bersagli. Nessun errore JavaScript o richiesta esterna. Tutti gli slot immagini risolti; HTML e copie di lavorazione identici. Crediti, tema e build superati. Simulazioni e modello fisico invariati.

@@ -1,6 +1,6 @@
 # Errori e incertezza di misura
 
-[EDITORIALE — Bozza v5, 24 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive in attesa. Area: Introduzione alla fisica e alla misura.]
+[EDITORIALE — Bozza v6, 24 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive scelte dall’utente e integrate. Area: Introduzione alla fisica e alla misura.]
 
 [COP-07 — Fotografia scelta dall'utente: TV noise.jpg. Intera, senza ritagli o zoom, non ripetuta nel corpo.]
 
@@ -8,13 +8,11 @@
 
 ## Lo stesso evento, letture diverse
 
-Un cronometro mostra 2,40 s. Ripetendo la misura della durata di uno stesso evento potremmo ottenere letture un po' diverse, anche se il display continua a mostrare i centesimi di secondo. Da dove arrivano queste differenze? E, se il numero resta sempre uguale, possiamo essere sicuri di aver misurato bene?
+Supponiamo di misurare con un cronometro la durata di un evento e di leggere 2,40 s. Ripetendo la misura della durata di uno stesso evento potremmo ottenere letture un po' diverse, anche se il display continua a mostrare i centesimi di secondo. Da dove arrivano queste differenze? E, se il numero resta sempre uguale, possiamo essere sicuri di aver misurato bene?
 
 La misura coinvolge lo strumento, il modo in cui lo usiamo e le condizioni della prova. Per separare questi contributi conviene distinguere due situazioni: le letture possono disperdersi in modo imprevedibile, oppure risultare spostate in modo simile rispetto a un riferimento. Le due cose possono anche accadere insieme.
 
-[SCH-07-1 — Schema concordato con foto originale del cronometro, conservata intera e senza cambiare le cifre del display. Etichette esterne: “Evento di cui si misura la durata”; “Valore attribuito: 2,40 s”; “Incertezza didattica stimata: 0,09 s”; “Riferimento indipendente: 2,50 s”. Dati illustrativi. Nessun secondo dispositivo inventato. Le etichette descrivono l'esempio, non una misura documentata dalla fotografia. Collocare prima dei calcoli; richiamare lo stesso schema lungo la spiegazione.]
-
-*Il risultato e il riferimento descrivono la durata dello stesso evento. Lo schema raccoglie i dati illustrativi usati nel confronto.*
+[SCH-07-1 — Cronometro digitale scelto dall’utente; fotografia intera, display azzerato conservato. I valori dell’esempio sono sviluppati nel testo, nella tabella e nel grafico.]
 
 Quando avviamo e fermiamo il cronometro a mano, il momento in cui premiamo il tasto non è identico a ogni prova. Queste variazioni possono contribuire agli **errori casuali**, che cambiano in modo imprevedibile fra misure ripetute. Ripetere ci aiuta a osservare la dispersione e a rendere il risultato meno dipendente da una singola lettura. Non elimina però ogni possibile spostamento.
 
@@ -28,9 +26,7 @@ Diverso ancora è uno **sbaglio grossolano**: trascrivere 23,4 g invece di 32,4 
 
 I bersagli permettono di vedere la differenza fra dispersione e spostamento. Immaginiamo che ogni punto rappresenti una lettura e che il centro indichi un riferimento noto. Punti molto vicini fra loro corrispondono a letture precise; per l'accuratezza conta anche la loro vicinanza al riferimento.
 
-[FIG-07-1 — Infografica originale dei quattro bersagli A, B, C e D, senza ridisegno o modifica delle etichette. Verificare prima dell'HTML la leggibilità e i diritti.]
-
-*In A i punti sono raccolti e centrati; in B raccolti ma spostati; in C dispersi attorno al centro; in D dispersi e spostati.*
+[FIG-07-1 — Schema dei quattro bersagli ricreato su richiesta a partire dal riferimento Ossila, con etichette in italiano. A e C in alto, B e D in basso.]
 
 Il gruppo B mostra perché una serie precisa può essere poco accurata. Aggiungere altri punti nello stesso gruppo renderebbe ancora più evidente la loro concentrazione, ma non li riporterebbe al centro. Analogamente, molte letture simili della bilancia con lo zero spostato non risolvono il problema dello zero.
 
@@ -226,3 +222,7 @@ Diritti delle foto del corpo e dei bersagli storici ancora da verificare; l'uten
 ### Bilancia e pesetti generati su richiesta
 
 L’utente autorizza la generazione della bilancia e dei pesetti per le simulazioni. Nuovi originali preservati; immagini riutilizzate per lo stesso strumento nei due capitoli. I pesetti sono rappresentati anche sul piatto e la lettura è sovrapposta al display dallo script; per il campione ignoto il pesetto non ha massa scritta. Nessuna nuova didascalia.
+
+## Immagini teoriche correnti
+
+Scelte direttamente dall’utente: manometro MAXIMATOR (Photo by CEphoto, Uwe Aranas, CC BY-SA 3.0), termometro clinico (Jacek Halicki, CC BY-SA 4.0), cronometro (Lesselich, CC BY-SA 3.0). Bersagli ricreati su richiesta con geometria originale e scritte italiane, dal riferimento concettuale Ossila. Tutti i materiali del corpo ora disponibili; le annotazioni precedenti conservano la cronologia. Crediti e provenienze nel registro unico e negli snapshot offline.

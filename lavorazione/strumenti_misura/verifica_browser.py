@@ -26,7 +26,7 @@ def main():
     server=ThreadingHTTPServer(('127.0.0.1',0),partial(Quiet,directory=str(ROOT)))
     threading.Thread(target=server.serve_forever,daemon=True).start()
     origin='http://127.0.0.1:'+str(server.server_port)
-    report={'layouts':[],'checks':[],'errors':[],'external_requests':[], 'limits':['Restano da scegliere le immagini teoriche: voltmetro, termometro, cronometro e bersagli.']}
+    report={'layouts':[],'checks':[],'errors':[],'external_requests':[], 'limits':[]}
     lab_only='--lab-layouts-only' in sys.argv
     interactions_only='--interactions-only' in sys.argv
     if lab_only or interactions_only:

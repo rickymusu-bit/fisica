@@ -3905,6 +3905,84 @@
         "asset-1d547c1081dc7d68a522b8559a853df02c4c017e7f7064bfa5d4817333755d69",
         "asset-daece3cb01d589d476764e2f68d925c7c6b993f52201dabfafcbc90d61c15366"
       ]
+    },
+    {
+      "id": "bersagli-precisione-accuratezza",
+      "description": "Confronto di precisione e accuratezza",
+      "source": null,
+      "author": "Stringhe",
+      "license": null,
+      "license_url": null,
+      "changes": null,
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Schema originale SVG ricreato su richiesta a partire dal confronto concettuale indicato dall’utente: https://www.ossila.com/cdn/shop/files/Syringe_Pump_Accuracy_and_Precision_Potentiostat_Specifications.svg. Geometria e punti costruiti nel progetto Stringhe; nessun elemento del file Ossila incorporato. Etichette italiane."
+      ],
+      "metadata_sources": [],
+      "fingerprints": [
+        "asset-ecf0eb4e1f3276010d8f014bd4a54c9766dd40055b68204838373f55a026e8b0"
+      ]
+    },
+    {
+      "id": "credit-a3feeb0611a8f3f0",
+      "description": "Cronometro digitale azzerato, con due cifre per i centesimi di secondo.",
+      "source": "https://commons.wikimedia.org/wiki/File:Stoppuhr_digital_noBG.jpg",
+      "author": "Lesselich",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "changes": "Fotografia intera, nessuna modifica. Versione Wikimedia fornita dall’utente.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Cronometro digitale azzerato, con due cifre per i centesimi di secondo. — Lesselich. <a href=\"https://commons.wikimedia.org/wiki/File:Stoppuhr_digital_noBG.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>. Modifiche: Fotografia intera, nessuna modifica. Versione Wikimedia fornita dall’utente."
+      ],
+      "metadata_sources": [
+        "errori_incertezza_misura_it.html"
+      ],
+      "fingerprints": [
+        "asset-733423a08f7c12ae4ab09344cc7621f5af2122a354c1b622ca4b5b90ac769c7b"
+      ]
+    },
+    {
+      "id": "credit-9650ab7de4a0e2f0",
+      "description": "Manometro con scala nera da 0 a 2500 bar e scala rossa in psi.",
+      "source": "https://commons.wikimedia.org/wiki/File:MAXIMATOR-High-Pressure-Manometer-01a.jpg",
+      "author": "Photo by CEphoto, Uwe Aranas",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "changes": "Fotografia intera, nessuna modifica. Versione Wikimedia fornita dall’utente.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Manometro con scala nera da 0 a 2500 bar e scala rossa in psi. — Photo by CEphoto, Uwe Aranas. <a href=\"https://commons.wikimedia.org/wiki/File:MAXIMATOR-High-Pressure-Manometer-01a.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>. Modifiche: Fotografia intera, nessuna modifica. Versione Wikimedia fornita dall’utente."
+      ],
+      "metadata_sources": [
+        "strumenti_misura_it.html"
+      ],
+      "fingerprints": [
+        "asset-197b035c6c319e20cee2c72dadc6f91f4b3c874855506d5acfb6b1b976068d61"
+      ]
+    },
+    {
+      "id": "credit-d6ae855bd56fef23",
+      "description": "Termometro clinico a colonna, con scala graduata da 35 a 42 °C.",
+      "source": "https://commons.wikimedia.org/wiki/File:2023_Rt%C4%99ciowy_termometr_lekarski.jpg",
+      "author": "Jacek Halicki",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "changes": "Fotografia intera, nessuna modifica. Versione Wikimedia fornita dall’utente.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Termometro clinico a colonna, con scala graduata da 35 a 42 °C. — Jacek Halicki. <a href=\"https://commons.wikimedia.org/wiki/File:2023_Rt%C4%99ciowy_termometr_lekarski.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>. Modifiche: Fotografia intera, nessuna modifica. Versione Wikimedia fornita dall’utente."
+      ],
+      "metadata_sources": [
+        "strumenti_misura_it.html"
+      ],
+      "fingerprints": [
+        "asset-13be5f4986488ac0705d5bae8db2629084f9f35aa055e0c286c31dcd9c6ef7e1"
+      ]
     }
   ],
   "documents": {
@@ -4825,6 +4903,18 @@
           "notice": 1
         },
         {
+          "resource": "credit-9650ab7de4a0e2f0",
+          "notice": 0
+        },
+        {
+          "resource": "credit-d6ae855bd56fef23",
+          "notice": 0
+        },
+        {
+          "resource": "credit-a3feeb0611a8f3f0",
+          "notice": 0
+        },
+        {
           "resource": "bilancia-pesetti-generati",
           "notice": 1
         }
@@ -4850,8 +4940,16 @@
           "notice": 0
         },
         {
+          "resource": "credit-a3feeb0611a8f3f0",
+          "notice": 0
+        },
+        {
           "resource": "bilancia-pesetti-generati",
           "notice": 1
+        },
+        {
+          "resource": "bersagli-precisione-accuratezza",
+          "notice": 0
         },
         {
           "resource": "grafico-misure-tempi",
@@ -5057,6 +5155,21 @@
       ]
     },
     {
+      "id": "asset-13be5f4986488ac0705d5bae8db2629084f9f35aa055e0c286c31dcd9c6ef7e1",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "image/jpeg",
+          "description": "Termometro clinico a colonna, con scala graduata da 35 a 42 °C.",
+          "locator": "fig-06-4",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-d6ae855bd56fef23"
+        }
+      ]
+    },
+    {
       "id": "asset-13c5f125efae233fc4716f5e0a4e98f8d7f3e79a6958de4b9eb1a5ee88442303",
       "kind": "image/png",
       "uses": [
@@ -5146,6 +5259,21 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-5a931f7538e8b566"
+        }
+      ]
+    },
+    {
+      "id": "asset-197b035c6c319e20cee2c72dadc6f91f4b3c874855506d5acfb6b1b976068d61",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "image/jpeg",
+          "description": "Manometro con scala nera da 0 a 2500 bar e scala rossa in psi.",
+          "locator": "fig-06-3",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-9650ab7de4a0e2f0"
         }
       ]
     },
@@ -6706,6 +6834,30 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-625a3e2f0732ebf2"
+        }
+      ]
+    },
+    {
+      "id": "asset-733423a08f7c12ae4ab09344cc7621f5af2122a354c1b622ca4b5b90ac769c7b",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "errori_incertezza_misura_it.html",
+          "kind": "image/jpeg",
+          "description": "Cronometro digitale azzerato, con due cifre per i centesimi di secondo.",
+          "locator": "sch-07-1",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-a3feeb0611a8f3f0"
+        },
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "image/jpeg",
+          "description": "Cronometro digitale azzerato, con due cifre per i centesimi di secondo.",
+          "locator": "fig-06-5",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-a3feeb0611a8f3f0"
         }
       ]
     },
@@ -9211,6 +9363,30 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-382521146f67bd37"
+        }
+      ]
+    },
+    {
+      "id": "asset-ecf0eb4e1f3276010d8f014bd4a54c9766dd40055b68204838373f55a026e8b0",
+      "kind": "image/svg+xml",
+      "uses": [
+        {
+          "document": "errori_incertezza_misura_it.html",
+          "kind": "image/svg+xml",
+          "description": "Quattro bersagli: A raccolto e centrato, B raccolto e spostato, C disperso attorno al centro, D disperso e spostato. Colonne: precisione alta e bassa; righe: accuratezza alta e bassa.",
+          "locator": "fig-07-1",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "bersagli-precisione-accuratezza"
+        },
+        {
+          "document": "errori_incertezza_misura_it.html",
+          "kind": "image/svg+xml",
+          "description": "Quattro bersagli: A raccolto e centrato, B raccolto e spostato, C disperso attorno al centro, D disperso e spostato. Colonne: precisione alta e bassa; righe: accuratezza alta e bassa.",
+          "locator": "fig-07-1",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "bersagli-precisione-accuratezza"
         }
       ]
     },

@@ -1,10 +1,7 @@
 {
   "formulas": 14,
   "headings": 7,
-  "missing_images": [
-    "FIG-07-1",
-    "SCH-07-1"
-  ],
-  "version": "v2",
-  "bytes": 4230048
+  "missing_images": [],
+  "version": "v3",
+  "bytes": 4510845
 }

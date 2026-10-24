@@ -129,5 +129,36 @@
     ],
     "alt": "Bilancia digitale da laboratorio con piatto circolare e display.",
     "hide-caption": true
+  },
+  "FIG-06-3": {
+    "path": "risorse/manometro.jpg",
+    "alt": "Manometro con scala nera da 0 a 2500 bar e scala rossa in psi.",
+    "author": "Photo by CEphoto, Uwe Aranas",
+    "source": "https://commons.wikimedia.org/wiki/File:MAXIMATOR-High-Pressure-Manometer-01a.jpg",
+    "license": "CC BY-SA 3.0",
+    "license-url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "changes": "Fotografia intera, nessuna modifica. Versione Wikimedia fornita dall’utente.",
+    "hide-caption": true
+  },
+  "FIG-06-4": {
+    "path": "risorse/termometro.jpg",
+    "alt": "Termometro clinico a colonna, con scala graduata da 35 a 42 °C.",
+    "author": "Jacek Halicki",
+    "source": "https://commons.wikimedia.org/wiki/File:2023_Rt%C4%99ciowy_termometr_lekarski.jpg",
+    "license": "CC BY-SA 4.0",
+    "license-url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Fotografia intera, nessuna modifica. Versione Wikimedia fornita dall’utente.",
+    "hide-caption": true
+  },
+  "FIG-06-5": {
+    "path": "risorse/cronometro.jpg",
+    "alt": "Cronometro digitale azzerato, con due cifre per i centesimi di secondo.",
+    "author": "Lesselich",
+    "source": "https://commons.wikimedia.org/wiki/File:Stoppuhr_digital_noBG.jpg",
+    "license": "CC BY-SA 3.0",
+    "license-url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "changes": "Fotografia intera, nessuna modifica. Versione Wikimedia fornita dall’utente.",
+    "hide-caption": true,
+    "portrait": true
   }
 }

@@ -1,0 +1,69 @@
+{
+  "layouts": [
+    {
+      "chapter": "strumenti_misura",
+      "width": 390,
+      "theme": "dark",
+      "status": "ok"
+    },
+    {
+      "chapter": "strumenti_misura",
+      "width": 390,
+      "theme": "light",
+      "status": "ok"
+    },
+    {
+      "chapter": "strumenti_misura",
+      "width": 1440,
+      "theme": "dark",
+      "status": "ok"
+    },
+    {
+      "chapter": "strumenti_misura",
+      "width": 1440,
+      "theme": "light",
+      "status": "ok"
+    },
+    {
+      "chapter": "errori_incertezza_misura",
+      "width": 390,
+      "theme": "dark",
+      "status": "ok"
+    },
+    {
+      "chapter": "errori_incertezza_misura",
+      "width": 390,
+      "theme": "light",
+      "status": "ok"
+    },
+    {
+      "chapter": "errori_incertezza_misura",
+      "width": 1440,
+      "theme": "dark",
+      "status": "ok"
+    },
+    {
+      "chapter": "errori_incertezza_misura",
+      "width": 1440,
+      "theme": "light",
+      "status": "ok"
+    }
+  ],
+  "errors": [],
+  "external_requests": [],
+  "image_slots": {
+    "strumenti_misura": [
+      "FIG-06-3",
+      "FIG-06-4",
+      "FIG-06-5"
+    ],
+    "errori_incertezza_misura": [
+      "SCH-07-1",
+      "FIG-07-1"
+    ]
+  },
+  "html_sha256": {
+    "strumenti_misura_it.html": "659d75e70403f02efe89dabb4addf9293cb6976a7e225c75202db00e54a4b128",
+    "errori_incertezza_misura_it.html": "9388db4894294393ca2dceb11fb95c4b0a652f6019ca605b59e4274d62c9a265"
+  }
+}

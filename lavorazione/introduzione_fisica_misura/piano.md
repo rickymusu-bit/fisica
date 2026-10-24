@@ -214,3 +214,7 @@ Su richiesta, la sagoma è sostituita con una matita riconoscibile e sono ripris
 ### Bilancia digitale e pesetti generati
 
 Su richiesta dell’utente generate e integrate le immagini della bilancia digitale e dei pesetti nelle due simulazioni. Letture sulla finestra dello strumento e carichi visibili sul piatto; campione ignoto senza etichetta di massa. Immagini riutilizzate nelle figure della stessa bilancia nei due testi. Originali preservati, incorporamento deduplicato tramite definizioni SVG e crediti aggiornati. Restano le quattro figure teoriche di voltmetro, termometro, cronometro e bersagli. Nessuna pubblicazione.
+
+## Capitoli 6 e 7: immagini complete — 24 ottobre 2026
+
+Integrate le ultime immagini scelte dall’utente: manometro in sostituzione del voltmetro, termometro a colonna e cronometro; ricreati su richiesta i quattro bersagli con etichette italiane. Aggiornati gli esempi coerentemente con scale e strumenti fotografati. HTML correnti: strumenti_misura_it.html v6; errori_incertezza_misura_it.html v3. Nessuna immagine pendente. PR #72 in bozza; anteprima da revisionare prima della pubblicazione.

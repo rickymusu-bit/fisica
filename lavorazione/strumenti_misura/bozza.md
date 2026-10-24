@@ -1,6 +1,6 @@
 # Gli strumenti di misura
 
-[EDITORIALE — Bozza v8, 24 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive in attesa. I segnaposto descrivono i materiali da integrare dopo l'approvazione del testo. Area: Introduzione alla fisica e alla misura.]
+[EDITORIALE — Bozza v9, 24 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive scelte dall’utente e integrate. I segnaposto descrivono i materiali da integrare dopo l'approvazione del testo. Area: Introduzione alla fisica e alla misura.]
 
 [COP-06 — Fotografia scelta dall'utente: Ytterbium Lattice Double Clock with Photons at NIST.jpg. Intera, senza ritagli o zoom, non ripetuta nel corpo.]
 
@@ -20,27 +20,21 @@ Per leggere una lancetta bisogna anche scegliere il punto di osservazione. Se in
 
 ## Quanto può misurare, e quanto rapidamente?
 
-Prima della lettura viene una scelta: lo strumento è adatto alla grandezza che ci aspettiamo? La **portata** è il limite superiore dell'intervallo previsto per la misura. Una scala da 0 a 15 V non è adatta a una tensione attesa di 40 V: il valore sarebbe fuori scala. Occorre scegliere uno strumento o una portata compatibile con la tensione attesa, rispettando le indicazioni d'uso.
+Prima della lettura viene una scelta: lo strumento è adatto alla grandezza che ci aspettiamo? La **portata** è il limite superiore dell'intervallo previsto per la misura. Il manometro della foto misura la pressione e la sua scala nera arriva a 2500 bar. Non sarebbe adatto a una pressione attesa di 3000 bar: il valore sarebbe fuori scala. Occorre scegliere uno strumento con una portata compatibile con la pressione attesa.
 
-[FIG-06-3 — Foto originale del voltmetro con scala 0–15 V.]
-
-*La scala arriva a 15 V. Eventuali selettori e specifiche determinano come va interpretata sullo strumento completo.*
+[FIG-06-3 — Manometro MAXIMATOR scelto dall’utente; fotografia intera, scala nera 0–2500 bar.]
 
 Una portata molto grande non risolve ogni problema. Se l'intervallo rappresentato sulla stessa scala aumenta senza aumentare le suddivisioni, ogni divisione corrisponde a una variazione maggiore della grandezza. Per seguire variazioni piccole serve quindi controllare anche la finezza della lettura.
 
-Un'altra caratteristica riguarda il tempo. Un termometro può mostrare i decimi di grado e impiegare comunque diversi istanti prima che l'indicazione si stabilizzi dopo il contatto con ciò che misura. La **prontezza** descrive quanto rapidamente lo strumento risponde a un cambiamento della grandezza. Leggere in fretta un display non significa che il sensore abbia già risposto.
+Un'altra caratteristica riguarda il tempo. Un termometro a colonna può avere tacche ogni decimo di grado e richiedere comunque tempo perché il liquido raggiunga la posizione corrispondente alla temperatura misurata. La **prontezza** descrive quanto rapidamente lo strumento risponde a un cambiamento della grandezza. La finezza della scala e la rapidità della risposta sono dunque due proprietà diverse.
 
-[FIG-06-4 — Foto originale del termometro digitale; conservare il display originale.]
-
-*Il sensore deve rispondere al cambiamento di temperatura. Il tempo necessario non si ricava dal numero di cifre del display.*
+[FIG-06-4 — Termometro clinico a colonna scelto dall’utente; fotografia intera.]
 
 ## Distinguere una variazione
 
 Il cronometro della foto mostra i centesimi di secondo: l'ultima posizione visualizzata corrisponde a 0,01 s. Questo passo ci dice come cambia il numero sul display. La **risoluzione** è la più piccola variazione della grandezza misurata che produce un cambiamento distinguibile nell'indicazione; un display molto dettagliato, se instabile, può non consentire di distinguere variazioni altrettanto piccole.
 
 [FIG-06-5 — Foto originale del cronometro, senza modificare le cifre mostrate.]
-
-*Il display riporta i centesimi di secondo. Avviare e fermare il cronometro a mano introduce anche il contributo dell'operatore.*
 
 La **sensibilità** risponde a una domanda diversa: quanto cambia l'indicazione quando cambia la grandezza misurata? Per descriverla confrontiamo le due variazioni:
 
@@ -52,7 +46,7 @@ Qui \(I\) è l'indicazione dello strumento e \(x\) la grandezza misurata; il sim
 
 In un termometro a colonna, per esempio, possiamo confrontare l'allungamento della colonna con la variazione di temperatura. A parità di aumento di temperatura, una colonna che si allunga di 2 mm per ogni grado Celsius risponde con uno spostamento doppio rispetto a una che si allunga di 1 mm. È più sensibile, ma per sapere quale piccola variazione riusciamo a leggere dobbiamo considerare anche scala e leggibilità. La sensibilità non coincide dunque con la risoluzione.[^1]
 
-[PROSPETTO collegato a FIG-06-4 — Confronto concettuale del sorgente: termometro a colonna A, 2 mm per 1 °C; B, 1 mm per 1 °C. Dati illustrativi, non specifiche del termometro digitale fotografato. Nessuna nuova immagine di dispositivo; i valori affiancati esplicitano il confronto senza un esercizio separato.]
+[PROSPETTO collegato a FIG-06-4 — Confronto concettuale del sorgente: termometro a colonna A, 2 mm per 1 °C; B, 1 mm per 1 °C. Dati illustrativi, non specifiche del termometro fotografato. Nessuna nuova immagine di dispositivo; i valori affiancati esplicitano il confronto senza un esercizio separato.]
 
 ## Letture vicine, ma vicine a che cosa?
 
@@ -90,7 +84,7 @@ Registra le letture e confrontale mantenendo fisse le altre condizioni. Se cambi
 
 1. Quale vantaggio offre una lancetta quando una grandezza cambia? Quale vantaggio offre una lettura digitale? Indica un limite di ciascuna.
 2. Osserva il disegno del parallasse: come devi posizionare l'occhio e perché una lettura sempre obliqua può produrre uno spostamento sistematico?
-3. Il voltmetro della foto ha una scala da 0 a 15 V. Perché non sceglieresti quella scala per una tensione attesa di 40 V?
+3. Il manometro della foto ha una scala nera da 0 a 2500 bar. Perché non lo sceglieresti per una pressione attesa di 3000 bar?
 4. Un termometro indica i decimi di grado ma impiega tempo a stabilizzarsi. Quale caratteristica riguarda i decimi e quale riguarda il tempo di risposta?
 5. Vero o falso? «Un display con più cifre garantisce sempre una misura più accurata». Motiva usando almeno due caratteristiche dello strumento.
 6. Due termometri a colonna rispondono allo stesso aumento di temperatura con allungamenti diversi. Quale è più sensibile? Quale altra informazione ti serve per confrontarne la risoluzione?
@@ -150,3 +144,7 @@ Su richiesta, la sagoma è sostituita da una matita riconoscibile generata come 
 ### Bilancia e pesetti generati su richiesta
 
 L’utente autorizza la generazione della bilancia e dei pesetti per le simulazioni. Nuovi originali preservati; immagini riutilizzate per lo stesso strumento nei due capitoli. I pesetti sono rappresentati anche sul piatto e la lettura è sovrapposta al display dallo script; per il campione ignoto il pesetto non ha massa scritta. Nessuna nuova didascalia.
+
+## Immagini teoriche correnti
+
+Scelte direttamente dall’utente: manometro MAXIMATOR (Photo by CEphoto, Uwe Aranas, CC BY-SA 3.0), termometro clinico (Jacek Halicki, CC BY-SA 4.0), cronometro (Lesselich, CC BY-SA 3.0). Bersagli ricreati su richiesta con geometria originale e scritte italiane, dal riferimento concettuale Ossila. Tutti i materiali del corpo ora disponibili; le annotazioni precedenti conservano la cronologia. Crediti e provenienze nel registro unico e negli snapshot offline.
