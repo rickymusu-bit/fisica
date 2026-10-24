@@ -1,0 +1,18 @@
+{
+  "strumenti_misura": {
+    "errors": [],
+    "rows": 2,
+    "reading": "100 g",
+    "status": "Lettura registrata: 100 g. Puoi modificare il carico o una proprietà."
+  },
+  "errori_incertezza_misura": {
+    "errors": [],
+    "rows": 2,
+    "reading": "100 g",
+    "status": "Lettura registrata: 100 g. Rimuovi e ripeti per una nuova misura."
+  },
+  "html_sha256": {
+    "strumenti_misura_it.html": "6f0115776f82fd0db83c6f3e43ca5f6667fa9c424588cad930740119e1c4587f",
+    "errori_incertezza_misura_it.html": "b9ee13c62e464efe7dc430f56930843ea701a855f0d53859bb47676e8744bc59"
+  }
+}

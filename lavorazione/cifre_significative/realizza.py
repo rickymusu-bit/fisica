@@ -260,7 +260,7 @@ def render():
     template=template.replace('Nome dell’area tematica',AREA).replace('Titolo del capitolo',TITLE)
     template=re.sub(r'<!-- MODELLO CANONICO[\s\S]*?-->','<!-- Capitolo 5, testo approvato e modello Stringhe v23; cassa generata su richiesta. -->',template,count=1)
     template=template.replace('</head>',EXTRA+'</head>',1)
-    prev='<nav class="chapter-navigation" aria-label="Navigazione tra capitoli"><a rel="prev" href="prefissi_sistema_internazionale_it.html" data-site-path="prefissi_sistema_internazionale_it.html"><span>← Capitolo precedente</span><small>I prefissi del Sistema internazionale</small></a><a rel="next" href="termodinamica_sistemi_it.html" data-site-path="termodinamica_sistemi_it.html"><span>Capitolo successivo →</span><small>La termodinamica e i sistemi termodinamici</small></a></nav>'
+    prev='<nav class="chapter-navigation" aria-label="Navigazione tra capitoli"><a rel="prev" href="prefissi_sistema_internazionale_it.html" data-site-path="prefissi_sistema_internazionale_it.html"><span>← Capitolo precedente</span><small>I prefissi del Sistema internazionale</small></a><a rel="next" href="strumenti_misura_it.html" data-site-path="strumenti_misura_it.html"><span>Capitolo successivo →</span><small>Gli strumenti di misura</small></a></nav>'
     template=template.replace('<!-- chapter-navigation:end -->',prev+'<!-- chapter-navigation:end -->',1)
     return template,formulas
 

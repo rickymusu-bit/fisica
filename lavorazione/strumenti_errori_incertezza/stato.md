@@ -33,3 +33,17 @@ Aggiornamento: 2026-10-16 19:30 (Europe/Rome). Richiesta diretta dell’utente: 
 ## Nomi stabili
 
 Richiesta esplicita dell’utente: rimuovere versione e data dai nomi, conservandole nei documenti. File rinominati, inclusi gli eventuali materiali francesi e albanesi, con identità verificata e contenuti identici byte per byte; versioni interne invariate. Collegamenti correnti aggiornati; per le dispense italiane i vecchi indirizzi pubblici reindirizzano direttamente ai nomi stabili. [Mappa e hash](../sito/nomi-stabili.json). Nessuna revisione scientifica, immagine o simulazione nuova.
+
+## Suddivisione nei capitoli 6–8 — 23 ottobre 2026
+
+Richiesta «Facciamo i capitoli 6 e 7»; ramo `lavorazione/strumenti-errori-incertezza`, da main d681439986db6c824fb1c724fa8cf7023e5a38de. Master v69.11; sorgente corrente v7, blob 1d65637b40f2af68e1e1ff55c7d1710259b6087b. Le indicazioni storiche di pubblicazione sopra non descrivono l'ammissione corrente: il sorgente unificato resta escluso.
+
+Mappa: `#strumenti` e `#caratteristiche` → [Gli strumenti di misura](../strumenti_misura/stato.md); `#errori` e `#confronto` → [Errori e incertezza di misura](../errori_incertezza_misura/stato.md); `#incertezza` (media e semidispersione) riservata al capitolo 8, non sviluppato ora. Quesiti finali ripartiti 1–4 / 5 e 7 / 6. Parallasse spiegata nel 6 e richiamata nel 7; bersagli destinati al 7.
+
+Proposte visuali pronte per scelta prima delle bozze. Licenze storiche non documentate da verificare; nessuna ricerca o generazione avviata. Nessun nuovo HTML, revisione del sorgente storico, aggiornamento pubblico o pubblicazione autorizzata.
+
+## Mappa aggiornata — capitolo unico per errore, ripetizioni e incertezza
+
+Ultima decisione: l'utente riunisce media, semidispersione e incertezza nel capitolo 7, insieme alle simulazioni richieste. Superata la precedente separazione 6–8.
+Mappa corrente: #strumenti e #caratteristiche → capitolo 6; #errori, #incertezza e #confronto → capitolo 7. La sezione originale #incertezza conserva media, tabella delle cinque letture, semidispersione e grafico, ora trasferiti nella bozza del 7. Tutti i quesiti originali assegnati: 1–4 al 6, 5–7 al 7. Eliminato il capitolo autonomo delle misure ripetute; percorso a undici capitoli con i successivi rinumerati.
+Bozze correnti v4, specifiche SIM-06/SIM-07 v2, PR #72. Nessuna modifica al sorgente storico, agli HTML tradotti, al manifest o al sito pubblico.

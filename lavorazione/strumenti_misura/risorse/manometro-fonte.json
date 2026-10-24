@@ -1,0 +1,125 @@
+{
+  "continue": {
+    "iistart": "2016-12-31T13:40:00Z",
+    "continue": "||"
+  },
+  "query": {
+    "pages": {
+      "45114964": {
+        "pageid": 45114964,
+        "ns": 6,
+        "title": "File:MAXIMATOR-High-Pressure-Manometer-01a.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 2920463,
+            "width": 3685,
+            "height": 3685,
+            "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/MAXIMATOR-High-Pressure-Manometer-01a.jpg/1920px-MAXIMATOR-High-Pressure-Manometer-01a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+            "thumbwidth": 1920,
+            "thumbheight": 1920,
+            "responsiveUrls": {
+              "2": "https://upload.wikimedia.org/wikipedia/commons/7/74/MAXIMATOR-High-Pressure-Manometer-01a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+            },
+            "thumbattribs": {
+              "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/MAXIMATOR-High-Pressure-Manometer-01a.jpg/1920px-MAXIMATOR-High-Pressure-Manometer-01a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1920,
+              "height": 1920,
+              "srcset": "https://upload.wikimedia.org/wikipedia/commons/7/74/MAXIMATOR-High-Pressure-Manometer-01a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/MAXIMATOR-High-Pressure-Manometer-01a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:MAXIMATOR-High-Pressure-Manometer-01a.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=45114964",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2016-12-31 14:32:38",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "MAXIMATOR-High-Pressure-Manometer-01a",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Taken with Canon EOS 5D Mark III|Taken with Canon EF 100mm F2.8L Macro IS USM|High pressure|Self-published work|Information field template with formatting|Tools on white background|Images by Cccefalon|Dual scale pressure gauges|Focus stacking images of components and devices|Images of objects by User:Cccefalon|Focus stacks by User:Cccefalon",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "A MAXIMATOR high-pressure manometer. The pressure gauge is suitable for pressures up to 2500 bar with an accuracy class of 1,0.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2015-11-16",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Cccefalon\" title=\"User:Cccefalon\">CEphoto, Uwe Aranas</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "<div style=\"border:1px solid green; background-color:#eaeeed;\">\n<table cellpadding=\"3px\">\n<tbody><tr>\n<td align=\"center\">\n<p><span class=\"mw-default-size\" typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:LOGO-CEphotoUweAranas.png\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/4/4b/LOGO-CEphotoUweAranas.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail_unscaled\" decoding=\"async\" loading=\"lazy\" width=\"80\" height=\"80\" class=\"mw-file-element\" data-file-width=\"80\" data-file-height=\"80\"></a></span>\n</p>\n</td>\n<td valign=\"top\" colspan=\"2\">\n<p>This photo was created by <a href=\"//commons.wikimedia.org/wiki/User:Cccefalon/Profile\" title=\"User:Cccefalon/Profile\">Uwe Aranas</a>. It is protected by law and is <u>not</u> in the <a href=\"https://en.wikipedia.org/wiki/Public_Domain\" class=\"extiw\" title=\"w:Public Domain\">Public Domain</a>. However, it can be used free of charge by everyone under the terms of the license stated below. \n</p>\n<ul><li><b>The requirements to comply with the terms of licence are:</b></li></ul>\n<dl><dd>- The image is credited with <b>\"Photo by CEphoto, Uwe Aranas\"</b> or alternatively with <b>\"© CEphoto, Uwe Aranas\"</b> in close relation to the image. If this is not possible due to shortage of space, please contact me <u>first</u>.</dd>\n<dd>- You are required to release the image under the same license.</dd></dl>\n<ul><li><b>Not required by the license but highly appreciated:</b></li></ul>\n<dl><dd>- Set up a weblink to the original image when you use the image in online media: <a class=\"external free\" href=\"https://commons.wikimedia.org/wiki/File:MAXIMATOR-High-Pressure-Manometer-01a.jpg\">https://commons.wikimedia.org/wiki/File:MAXIMATOR-High-Pressure-Manometer-01a.jpg</a></dd>\n<dd>- Send me a specimen copy or a pdf when used in print media or the URL of the website where the image is used.</dd></dl>\n<p>Please write an email to spam@aranas.de <small>(where you substitute the word <i>spam</i> by <i>cephoto2020</i>)</small>, if you\n</p>\n<ul><li>need the image in a higher resolution</li>\n<li>need my postal address for sending a specimen copy</li>\n<li>have further questions to the terms of licence</li></ul>\n</td>\n</tr>\n</tbody></table>\n</div>",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Attribution": {
+                "value": "Photo by CEphoto, Uwe Aranas <b>or alternatively</b> © CEphoto, Uwe Aranas",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

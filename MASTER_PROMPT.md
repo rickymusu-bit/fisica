@@ -1,6 +1,6 @@
 # PROMPT MASTER — DISPENSE VISUALI DI FISICA PER IL BIENNIO DEGLI ISTITUTI TECNICI
 
-VERSIONE DEL PROMPT: v69.11 — 23/10/2026, ore 19:19 (Europe/Rome)
+VERSIONE DEL PROMPT: v69.12 — 24/10/2026, ore 08:22 (Europe/Rome)
 
 Questo master raccoglie le regole della dispensa e la procedura per realizzarla con il minor lavoro ripetuto possibile. Le istruzioni relative a immagini, video, traduzioni e simulazioni si applicano quando quei materiali fanno parte della richiesta. Non aggiungere contenuti o lavorazioni solo perché il master ne descrive la gestione.
 
@@ -98,7 +98,7 @@ Ogni capitolo futuro, e ogni revisione per cui è richiesto il tema comune, usa 
 
 Il modello autonomo v24 integra il componente YouTube su richiesta descritto in C5, conservando il tema visivo già approvato.
 
-Usa HTML semantico, figure con didascalia, gerarchia corretta dei titoli, descrizioni accessibili pertinenti, contrasto sufficiente, navigazione da tastiera e focus visibile. Non affidare un’informazione al solo colore. L’alt descrive ciò che è utile capire, senza limitarsi al nome del file. L’indice è semplice, cliccabile e posto all’inizio del contenuto; ogni capitolo o sottoparte ha un id. Puoi inserire collegamenti discreti per tornare all’indice interno.
+Usa HTML semantico, figure con didascalie soltanto quando utili secondo C3, gerarchia corretta dei titoli, descrizioni accessibili pertinenti, contrasto sufficiente, navigazione da tastiera e focus visibile. Non affidare un’informazione al solo colore. L’alt descrive ciò che è utile capire, senza limitarsi al nome del file. L’indice è semplice, cliccabile e posto all’inizio del contenuto; ogni capitolo o sottoparte ha un id. Puoi inserire collegamenti discreti per tornare all’indice interno.
 
 Ogni nuovo capitolo deve includere due tasti «← Articoli»: uno all’inizio del documento e uno alla fine del contenuto, prima del piè di pagina. Realizzali come collegamenti HTML al catalogo `articoli.html` con URL relativi durante la navigazione online; il componente comune usa `data-site-path` per il fallback pubblico dalle copie HTML scaricate quando è disponibile Internet. Mantieni lo stile approvato, un’area cliccabile alta almeno 44 px, il focus visibile e l’uso da tastiera.
 
@@ -224,13 +224,13 @@ Se prepari un ritaglio o la rimozione dello sfondo da proporre, mostra la versio
 
 ### C3. Didascalie e trattamento dei materiali forniti
 
-Le didascalie sono brevi, generalmente una–quattro frasi: descrivono ciò che si vede e chiariscono il collegamento con il testo e il concetto fisico trattato. Indicano gli elementi da osservare senza ripetere interi passaggi della teoria né accumulare puntualizzazioni superflue, secondo A1. Non trasformarle in paragrafi paralleli troppo lunghi. Non scrivere la fonte, il sito, i crediti o collegamenti di attribuzione nelle didascalie di immagini, fotografie, GIF, miniature e altri contenuti multimediali. Non reintrodurli con una riga sotto la figura. Non usare «immagine fornita», «foto fornita», «immagine allegata dall’utente» o equivalenti, in nessuna lingua.
+Testi visibili, etichette e didascalie aggiungono soltanto informazioni necessarie che non siano già evidenti dall’immagine o dal contesto. Non verbalizzare ciò che il lettore vede già: per esempio, non scrivere che la base è sullo zero quando l’allineamento è visibile. Evita titoli interni, richiami e precisazioni ridondanti; non sostituire una scritta superflua con una parafrasi. Le didascalie, quando servono, sono brevi e chiariscono un collegamento fisico non già espresso; omettile se non aggiungono nulla. Non trasformarle in paragrafi paralleli, secondo A1. Non scrivere la fonte, il sito, i crediti o collegamenti di attribuzione nelle didascalie di immagini, fotografie, GIF, miniature e altri contenuti multimediali. Non reintrodurli con una riga sotto la figura. Non usare «immagine fornita», «foto fornita», «immagine allegata dall’utente» o equivalenti, in nessuna lingua.
 
 Le fonti dei dati numerici e delle informazioni scientifiche specifiche vanno nei crediti secondo C1, non nel corpo della spiegazione, nelle didascalie o nelle note. L’autore o il canale di un video può essere indicato nel breve testo introduttivo se utile, senza trasformare la didascalia in un elenco di crediti.
 
 Classifica il materiale prima di intervenire:
 
-- Fotografie e illustrazioni: inseriscile direttamente, nel punto utile, con proporzioni corrette, alt, didascalia e riferimento nel testo quando serve.
+- Fotografie e illustrazioni: inseriscile direttamente, nel punto utile, con proporzioni corrette, alt e, soltanto quando aggiungono informazioni utili, didascalia e riferimento nel testo.
 - Tabelle, grafici e flowchart forniti come immagini: ricostruiscili come descritto in C4, senza inserire lo screenshot come risultato finale.
 - Infografiche, mappe concettuali, schemi illustrati, linee temporali e altri diagrammi complessi diversi dai flowchart: inseriscili direttamente come immagini. Non ricostruirli o reinterpretarne la struttura senza una richiesta esplicita. Se sono troppo densi o poco leggibili su smartphone, segnalalo invece di ridisegnarli autonomamente.
 

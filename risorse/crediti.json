@@ -3760,6 +3760,289 @@
       "fingerprints": [
         "asset-b07b883600e6fa74e2b7175012bb7edf78df3d03001fce431bea6619e5fc6b78"
       ]
+    },
+    {
+      "id": "metrologia-vim-gum",
+      "description": "Vocabolario metrologico e guida all’incertezza",
+      "source": "https://www.bipm.org/en/committees/jc/jcgm/publications",
+      "author": "JCGM/BIPM",
+      "license": null,
+      "license_url": null,
+      "changes": null,
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Riferimenti terminologici: JCGM 200:2012 (VIM), JCGM 100:2008 (GUM). La regola scolastica max(semidispersione, passo) è una semplificazione dichiarata, non una procedura generale attribuita a questi documenti."
+      ],
+      "metadata_sources": [],
+      "fingerprints": []
+    },
+    {
+      "id": "grafico-misure-tempi",
+      "description": "Linea dei numeri delle cinque letture illustrative",
+      "source": null,
+      "author": "Stringhe",
+      "license": null,
+      "license_url": null,
+      "changes": null,
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Grafico quantitativo del progetto Stringhe, ricostruito dagli stessi dati illustrativi del sorgente storico; nessuna fotografia esterna riprodotta."
+      ],
+      "metadata_sources": [],
+      "fingerprints": [
+        "asset-e58f8397abd03a95256407a6e1f7f9007b66f1fd39fe6bcf35a9a364c6390b72"
+      ]
+    },
+    {
+      "id": "credit-25f8443d7c82cfae",
+      "description": "Rumore sullo schermo di un televisore analogico sintonizzato su un canale senza trasmissioni: i disturbi possono produrre variazioni nell'uscita di un dispositivo.",
+      "source": "https://commons.wikimedia.org/wiki/File:TV_noise.jpg",
+      "author": "Mysid",
+      "license": "Pubblico dominio (PD-self)",
+      "license_url": "https://commons.wikimedia.org/wiki/File:TV_noise.jpg#Licensing",
+      "changes": "Immagine intera, nessuna modifica.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Rumore sullo schermo di un televisore analogico sintonizzato su un canale senza trasmissioni: i disturbi possono produrre variazioni nell&#x27;uscita di un dispositivo. — Mysid. <a href=\"https://commons.wikimedia.org/wiki/File:TV_noise.jpg\">Fonte originale</a>. <a href=\"https://commons.wikimedia.org/wiki/File:TV_noise.jpg#Licensing\">Pubblico dominio (PD-self)</a>. Modifiche: Immagine intera, nessuna modifica."
+      ],
+      "metadata_sources": [
+        "errori_incertezza_misura_it.html"
+      ],
+      "fingerprints": [
+        "asset-8ab60515cab73423ce8ce72696a5da4c35d85e8f5cc635622b2208e86326b0ad"
+      ]
+    },
+    {
+      "id": "credit-31b3875a74656ce2",
+      "description": "L'apparato di un doppio orologio atomico all'itterbio: anche la misura del tempo richiede uno strumento fisico e il controllo delle sue prestazioni.",
+      "source": "https://commons.wikimedia.org/wiki/File:Ytterbium_Lattice_Double_Clock_with_Photons_at_NIST.jpg",
+      "author": "N. Phillips/NIST",
+      "license": "Pubblico dominio (PD-USGov)",
+      "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "changes": "Immagine intera, nessuna modifica.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "L&#x27;apparato di un doppio orologio atomico all&#x27;itterbio: anche la misura del tempo richiede uno strumento fisico e il controllo delle sue prestazioni. — N. Phillips/NIST. <a href=\"https://commons.wikimedia.org/wiki/File:Ytterbium_Lattice_Double_Clock_with_Photons_at_NIST.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/publicdomain/mark/1.0/\">Pubblico dominio (PD-USGov)</a>. Modifiche: Immagine intera, nessuna modifica."
+      ],
+      "metadata_sources": [
+        "strumenti_misura_it.html"
+      ],
+      "fingerprints": [
+        "asset-c336c502177e05840fc22647e3d65ae9b050a7575669ad1964bdcc9a8423e2c7"
+      ]
+    },
+    {
+      "id": "parallasse-schema-originale",
+      "description": "Schema originale del parallasse",
+      "source": null,
+      "author": "Stringhe",
+      "license": null,
+      "license_url": null,
+      "changes": null,
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Schema originale realizzato su richiesta: scala, linee di vista e scritte costruiti in SVG con geometria verificata; elementi dell’occhio e della matita generati con ChatGPT. L’immagine commerciale Vecteezy non è riprodotta o incorporata.",
+        "Schema originale realizzato su richiesta: scala, linee di vista e scritte costruiti in SVG con geometria verificata; elementi dell’occhio e della matita generati con ChatGPT. L’immagine commerciale Vecteezy non è riprodotta o incorporata.<br>Modifiche per questo utilizzo: Schema originale con geometria SVG verificata; elementi dell’occhio e della matita generati su richiesta. Nessuna immagine Vecteezy incorporata."
+      ],
+      "metadata_sources": [],
+      "fingerprints": [
+        "asset-c8fca20a8dc52b2f89aa1e786c9e0c42f357acff4574ce18069545b982e2387b",
+        "asset-63987141d743253627c19f163d61877236bc00b029023a7b1c5e67ccbfe9f241",
+        "asset-291135edd0f44a9737ce88b2de4aa2797ca5cd9851306bbc368188276f8b8663",
+        "asset-318fca0c79ba2fa1cbe77e28d7edbe1ce651ba203aab63aaea49d4c74bb8ac79",
+        "asset-2e1dcb83158b3abef6c982b3074a59116846b650778542b0edfb7667a3145717",
+        "asset-a508edd65fee4a60c3fe51ce3f624d412368892d53ada853f1c6b374f3e351c9"
+      ]
+    },
+    {
+      "id": "credit-758421614a45290d",
+      "description": "Bilancia da cucina analogica bianca con piatto, lancetta rossa e quadrante fino a 2 kg, con divisioni da 10 g.",
+      "source": "https://commons.wikimedia.org/wiki/File:Kitchen_scale_20101110.jpg",
+      "author": "Batholith",
+      "license": "Pubblico dominio (PD-self)",
+      "license_url": "https://commons.wikimedia.org/wiki/Template:PD-self",
+      "changes": "Nessuna modifica; fotografia intera.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Bilancia da cucina analogica bianca con piatto, lancetta rossa e quadrante fino a 2 kg, con divisioni da 10 g. — Batholith. <a href=\"https://commons.wikimedia.org/wiki/File:Kitchen_scale_20101110.jpg\">Fonte originale</a>. <a href=\"https://commons.wikimedia.org/wiki/Template:PD-self\">Pubblico dominio (PD-self)</a>. Modifiche: Nessuna modifica; fotografia intera."
+      ],
+      "metadata_sources": [
+        "strumenti_misura_it.html"
+      ],
+      "fingerprints": [
+        "asset-75f3a5cf7bbfd40c5bd64a15d4c22254b2477952737d9aa81a5ca0e18ecb1398"
+      ]
+    },
+    {
+      "id": "bilancia-pesetti-generati",
+      "description": "Bilancia digitale e pesetti delle simulazioni",
+      "source": null,
+      "author": "Stringhe",
+      "license": null,
+      "license_url": null,
+      "changes": null,
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Immagini della bilancia e del pesetto generate con ChatGPT su richiesta dell’utente. Originali preservati. Il pesetto è riutilizzato con dimensioni di presentazione differenti; masse e letture sono assegnate dal modello interattivo, senza simulare fotografie di esperimenti effettuati.",
+        "Immagini della bilancia e del pesetto generate con ChatGPT su richiesta dell’utente. Originali preservati. Il pesetto è riutilizzato con dimensioni di presentazione differenti; masse e letture sono assegnate dal modello interattivo, senza simulare fotografie di esperimenti effettuati.<br>Modifiche per questo utilizzo: Immagini generate su richiesta; letture e masse sono elementi del modello interattivo."
+      ],
+      "metadata_sources": [],
+      "fingerprints": [
+        "asset-1a996d19b0072b8d533f9631c058f200e05f186644e3e27597e9e6c5cbab508e",
+        "asset-9651eceda575ed1e53b8204ba0f3f405ccd04c11275c4a3220db1904300ea1cb",
+        "asset-40074d603c99bff91a7d58a68072582447916e846a7ddef1ac8257fbbdee9be9",
+        "asset-3f0023aea5734054bc5ce2e017c2e5d9c1d65f29e1ca0c178ef37efaf66cc079",
+        "asset-01c7f8c8e53bd1268df54c752793a52da63ce217338f3fa2a033edb491f64997",
+        "asset-79c60bb85c5d317df67118cbc1822607fbe899c8c9fc5620ae711af70ff67341",
+        "asset-eff27dff1e5891aadfcd12c9fe97ae6831070cca0949af74ce043873830a10e1",
+        "asset-1d547c1081dc7d68a522b8559a853df02c4c017e7f7064bfa5d4817333755d69",
+        "asset-daece3cb01d589d476764e2f68d925c7c6b993f52201dabfafcbc90d61c15366"
+      ]
+    },
+    {
+      "id": "bersagli-precisione-accuratezza",
+      "description": "Confronto di precisione e accuratezza",
+      "source": null,
+      "author": "Stringhe",
+      "license": null,
+      "license_url": null,
+      "changes": null,
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Schema originale SVG ricreato su richiesta a partire dal confronto concettuale indicato dall’utente: https://www.ossila.com/cdn/shop/files/Syringe_Pump_Accuracy_and_Precision_Potentiostat_Specifications.svg. Geometria e punti costruiti nel progetto Stringhe; nessun elemento del file Ossila incorporato. Etichette italiane."
+      ],
+      "metadata_sources": [],
+      "fingerprints": [
+        "asset-ecf0eb4e1f3276010d8f014bd4a54c9766dd40055b68204838373f55a026e8b0"
+      ]
+    },
+    {
+      "id": "credit-a3feeb0611a8f3f0",
+      "description": "Cronometro digitale azzerato, con due cifre per i centesimi di secondo.",
+      "source": "https://commons.wikimedia.org/wiki/File:Stoppuhr_digital_noBG.jpg",
+      "author": "Lesselich",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "changes": "Fotografia intera, nessuna modifica. Versione Wikimedia fornita dall’utente.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Cronometro digitale azzerato, con due cifre per i centesimi di secondo. — Lesselich. <a href=\"https://commons.wikimedia.org/wiki/File:Stoppuhr_digital_noBG.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>. Modifiche: Fotografia intera, nessuna modifica. Versione Wikimedia fornita dall’utente."
+      ],
+      "metadata_sources": [
+        "errori_incertezza_misura_it.html"
+      ],
+      "fingerprints": [
+        "asset-733423a08f7c12ae4ab09344cc7621f5af2122a354c1b622ca4b5b90ac769c7b"
+      ]
+    },
+    {
+      "id": "credit-9650ab7de4a0e2f0",
+      "description": "Manometro con scala nera da 0 a 2500 bar e scala rossa in psi.",
+      "source": "https://commons.wikimedia.org/wiki/File:MAXIMATOR-High-Pressure-Manometer-01a.jpg",
+      "author": "Photo by CEphoto, Uwe Aranas",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "changes": "Fotografia intera, nessuna modifica. Versione Wikimedia fornita dall’utente.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Manometro con scala nera da 0 a 2500 bar e scala rossa in psi. — Photo by CEphoto, Uwe Aranas. <a href=\"https://commons.wikimedia.org/wiki/File:MAXIMATOR-High-Pressure-Manometer-01a.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>. Modifiche: Fotografia intera, nessuna modifica. Versione Wikimedia fornita dall’utente."
+      ],
+      "metadata_sources": [
+        "strumenti_misura_it.html"
+      ],
+      "fingerprints": [
+        "asset-197b035c6c319e20cee2c72dadc6f91f4b3c874855506d5acfb6b1b976068d61"
+      ]
+    },
+    {
+      "id": "credit-d6ae855bd56fef23",
+      "description": "Termometro clinico a colonna, con scala graduata da 35 a 42 °C.",
+      "source": "https://commons.wikimedia.org/wiki/File:2023_Rt%C4%99ciowy_termometr_lekarski.jpg",
+      "author": "Jacek Halicki",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "changes": "Fotografia intera, nessuna modifica. Versione Wikimedia fornita dall’utente.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Termometro clinico a colonna, con scala graduata da 35 a 42 °C. — Jacek Halicki. <a href=\"https://commons.wikimedia.org/wiki/File:2023_Rt%C4%99ciowy_termometr_lekarski.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>. Modifiche: Fotografia intera, nessuna modifica. Versione Wikimedia fornita dall’utente."
+      ],
+      "metadata_sources": [
+        "strumenti_misura_it.html"
+      ],
+      "fingerprints": [
+        "asset-13be5f4986488ac0705d5bae8db2629084f9f35aa055e0c286c31dcd9c6ef7e1"
+      ]
+    },
+    {
+      "id": "credit-6aa2ff444b4ba9ca",
+      "description": "Bilancia digitale da cucina con un pomodoro sul piatto e lettura di 314 g.",
+      "source": "https://commons.wikimedia.org/wiki/File:2023_Elektroniczna_waga_kuchenna.jpg",
+      "author": "Jacek Halicki",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "changes": "Fotografia intera nella versione Wikimedia scelta dall’utente, senza modifiche.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Bilancia digitale da cucina con un pomodoro sul piatto e lettura di 314 g. — Jacek Halicki. <a href=\"https://commons.wikimedia.org/wiki/File:2023_Elektroniczna_waga_kuchenna.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>. Modifiche: Fotografia intera nella versione Wikimedia scelta dall’utente, senza modifiche."
+      ],
+      "metadata_sources": [
+        "strumenti_misura_it.html"
+      ],
+      "fingerprints": [
+        "asset-1187382f965438ec4eb8212684797886004b0a1786f9bfa6999d9a1872ad9dd3"
+      ]
+    },
+    {
+      "id": "credit-d7ad6df666a9b7fe",
+      "description": "Voltmetro analogico con morsetti scollegati e lancetta sotto lo zero della scala da 0 a 6 V.",
+      "source": "https://commons.wikimedia.org/wiki/File:Вольтметр_4.jpg",
+      "author": "Желуденко Павло",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Fotografia intera nella versione Wikimedia scelta dall’utente, senza modifiche.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Voltmetro analogico con morsetti scollegati e lancetta sotto lo zero della scala da 0 a 6 V. — Желуденко Павло. <a href=\"https://commons.wikimedia.org/wiki/File:Вольтметр_4.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Modifiche: Fotografia intera nella versione Wikimedia scelta dall’utente, senza modifiche."
+      ],
+      "metadata_sources": [
+        "errori_incertezza_misura_it.html"
+      ],
+      "fingerprints": [
+        "asset-d9d5b08b3e28103a2fe1037243fe7342d58758b8573d6f38e99a17b1219300be"
+      ]
+    },
+    {
+      "id": "credit-6f22eea11fb693a8",
+      "description": "Un istruttore aziona un cronometro mentre alcune reclute corrono su una pista al coperto.",
+      "source": "https://commons.wikimedia.org/wiki/File:US_Navy_030506-N-5862D-128_An_instructor_in_the_Freedom_Hall_athletic_complex_uses_a_stopwatch_while_recruits_run_a_1.5-mile_track_during_a_Physical_Fitness_Test_(PFT).jpg",
+      "author": "Chris Desmond / U.S. Navy",
+      "license": "Pubblico dominio (PD-USGov-Military-Navy)",
+      "license_url": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Navy",
+      "changes": "Fotografia intera nella versione Wikimedia scelta dall’utente, senza modifiche.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Un istruttore aziona un cronometro mentre alcune reclute corrono su una pista al coperto. — Chris Desmond / U.S. Navy. <a href=\"https://commons.wikimedia.org/wiki/File:US_Navy_030506-N-5862D-128_An_instructor_in_the_Freedom_Hall_athletic_complex_uses_a_stopwatch_while_recruits_run_a_1.5-mile_track_during_a_Physical_Fitness_Test_(PFT).jpg\">Fonte originale</a>. <a href=\"https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Navy\">Pubblico dominio (PD-USGov-Military-Navy)</a>. Modifiche: Fotografia intera nella versione Wikimedia scelta dall’utente, senza modifiche."
+      ],
+      "metadata_sources": [
+        "errori_incertezza_misura_it.html"
+      ],
+      "fingerprints": [
+        "asset-eadd59abab2616df86af2eb1538abd8160c6933d0ee9d401c3703af5ce6e6161"
+      ]
     }
   ],
   "documents": {
@@ -4654,6 +4937,96 @@
       "lexend": true,
       "chapter_labels": true,
       "review": null
+    },
+    "strumenti_misura_it.html": {
+      "title": "Gli strumenti di misura",
+      "anchor": "strumenti-misura-it",
+      "credits": [
+        {
+          "resource": "metrologia-vim-gum",
+          "notice": 0
+        },
+        {
+          "resource": "credit-31b3875a74656ce2",
+          "notice": 0
+        },
+        {
+          "resource": "bilancia-pesetti-generati",
+          "notice": 0
+        },
+        {
+          "resource": "credit-758421614a45290d",
+          "notice": 0
+        },
+        {
+          "resource": "parallasse-schema-originale",
+          "notice": 1
+        },
+        {
+          "resource": "credit-9650ab7de4a0e2f0",
+          "notice": 0
+        },
+        {
+          "resource": "credit-d6ae855bd56fef23",
+          "notice": 0
+        },
+        {
+          "resource": "credit-a3feeb0611a8f3f0",
+          "notice": 0
+        },
+        {
+          "resource": "credit-6aa2ff444b4ba9ca",
+          "notice": 0
+        },
+        {
+          "resource": "bilancia-pesetti-generati",
+          "notice": 1
+        }
+      ],
+      "lexend": true,
+      "chapter_labels": true,
+      "review": null
+    },
+    "errori_incertezza_misura_it.html": {
+      "title": "Errori e incertezza di misura",
+      "anchor": "errori-incertezza-misura-it",
+      "credits": [
+        {
+          "resource": "metrologia-vim-gum",
+          "notice": 0
+        },
+        {
+          "resource": "credit-25f8443d7c82cfae",
+          "notice": 0
+        },
+        {
+          "resource": "bilancia-pesetti-generati",
+          "notice": 0
+        },
+        {
+          "resource": "credit-6f22eea11fb693a8",
+          "notice": 0
+        },
+        {
+          "resource": "credit-d7ad6df666a9b7fe",
+          "notice": 0
+        },
+        {
+          "resource": "bersagli-precisione-accuratezza",
+          "notice": 0
+        },
+        {
+          "resource": "grafico-misure-tempi",
+          "notice": 0
+        },
+        {
+          "resource": "bilancia-pesetti-generati",
+          "notice": 1
+        }
+      ],
+      "lexend": true,
+      "chapter_labels": true,
+      "review": null
     }
   },
   "assets": [
@@ -4669,6 +5042,21 @@
           "attribute": "cover-data",
           "location": "copertine/canocchia-pavone.webp",
           "credit_id": "credit-d44568883380600b"
+        }
+      ]
+    },
+    {
+      "id": "asset-01c7f8c8e53bd1268df54c752793a52da63ce217338f3fa2a033edb491f64997",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "svg",
+          "description": "Pesetto da 10 g.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "bilancia-pesetti-generati"
         }
       ]
     },
@@ -4820,6 +5208,21 @@
       ]
     },
     {
+      "id": "asset-1187382f965438ec4eb8212684797886004b0a1786f9bfa6999d9a1872ad9dd3",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "image/jpeg",
+          "description": "Bilancia digitale da cucina con un pomodoro sul piatto e lettura di 314 g.",
+          "locator": "fig-06-1b",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-6aa2ff444b4ba9ca"
+        }
+      ]
+    },
+    {
       "id": "asset-1338f5953d1a5984871576709cb3e34708b6955e3a0a23f648c12034dc8b35d9",
       "kind": "image/svg+xml",
       "uses": [
@@ -4831,6 +5234,21 @@
           "attribute": "src",
           "location": null,
           "credit_id": "confronto-cifre-significative"
+        }
+      ]
+    },
+    {
+      "id": "asset-13be5f4986488ac0705d5bae8db2629084f9f35aa055e0c286c31dcd9c6ef7e1",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "image/jpeg",
+          "description": "Termometro clinico a colonna, con scala graduata da 35 a 42 °C.",
+          "locator": "fig-06-4",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-d6ae855bd56fef23"
         }
       ]
     },
@@ -4928,6 +5346,21 @@
       ]
     },
     {
+      "id": "asset-197b035c6c319e20cee2c72dadc6f91f4b3c874855506d5acfb6b1b976068d61",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "image/jpeg",
+          "description": "Manometro con scala nera da 0 a 2500 bar e scala rossa in psi.",
+          "locator": "fig-06-3",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-9650ab7de4a0e2f0"
+        }
+      ]
+    },
+    {
       "id": "asset-19e0fc36a920d15860fa3a7a14ba81a3f5c1ff1b2a972899ee11e04e498a5909",
       "kind": "image/webp",
       "uses": [
@@ -4967,6 +5400,30 @@
       ]
     },
     {
+      "id": "asset-1a996d19b0072b8d533f9631c058f200e05f186644e3e27597e9e6c5cbab508e",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "errori_incertezza_misura_it.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "bilancia-pesetti-generati"
+        },
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "bilancia-pesetti-generati"
+        }
+      ]
+    },
+    {
       "id": "asset-1bdf6536dad454fdfe0d67b33a052deb6ac833e63016b907ca714e0c912b96a5",
       "kind": "image/webp",
       "uses": [
@@ -4978,6 +5435,21 @@
           "attribute": "cover-data",
           "location": "copertine/computer-quantistico.webp",
           "credit_id": "credit-c563b110d74cf49f"
+        }
+      ]
+    },
+    {
+      "id": "asset-1d547c1081dc7d68a522b8559a853df02c4c017e7f7064bfa5d4817333755d69",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "svg",
+          "description": "Pesetto da 100 g.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "bilancia-pesetti-generati"
         }
       ]
     },
@@ -5493,6 +5965,15 @@
           "credit_id": "font-lexend"
         },
         {
+          "document": "errori_incertezza_misura_it.html",
+          "kind": "font/ttf",
+          "description": "Font incorporato",
+          "locator": null,
+          "attribute": "font-face",
+          "location": null,
+          "credit_id": "font-lexend"
+        },
+        {
           "document": "grandezze_fisiche_sistema_internazionale_it.html",
           "kind": "font/ttf",
           "description": "Font incorporato",
@@ -5548,6 +6029,15 @@
         },
         {
           "document": "stati_della_materia.html",
+          "kind": "font/ttf",
+          "description": "Font incorporato",
+          "locator": null,
+          "attribute": "font-face",
+          "location": null,
+          "credit_id": "font-lexend"
+        },
+        {
+          "document": "strumenti_misura_it.html",
           "kind": "font/ttf",
           "description": "Font incorporato",
           "locator": null,
@@ -5663,6 +6153,39 @@
       ]
     },
     {
+      "id": "asset-3f0023aea5734054bc5ce2e017c2e5d9c1d65f29e1ca0c178ef37efaf66cc079",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "errori_incertezza_misura_it.html",
+          "kind": "svg",
+          "description": "Bilancia digitale da laboratorio con piatto circolare e display.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "bilancia-pesetti-generati"
+        },
+        {
+          "document": "errori_incertezza_misura_it.html",
+          "kind": "svg",
+          "description": "Bilancia digitale da laboratorio con piatto circolare e display.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "bilancia-pesetti-generati"
+        },
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "svg",
+          "description": "Bilancia digitale da laboratorio con piatto circolare e display.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "bilancia-pesetti-generati"
+        }
+      ]
+    },
+    {
       "id": "asset-3fc8670655f6bc10200de6b21255b3d920956e338ae285fa43807c9cd58da0c4",
       "kind": "svg",
       "uses": [
@@ -5693,9 +6216,51 @@
       ]
     },
     {
+      "id": "asset-40074d603c99bff91a7d58a68072582447916e846a7ddef1ac8257fbbdee9be9",
+      "kind": "image/png",
+      "uses": [
+        {
+          "document": "errori_incertezza_misura_it.html",
+          "kind": "image/png",
+          "description": "image",
+          "locator": "sim-weight-art",
+          "attribute": "href",
+          "location": null,
+          "credit_id": "bilancia-pesetti-generati"
+        },
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "image/png",
+          "description": "image",
+          "locator": "sim-weight-art",
+          "attribute": "href",
+          "location": null,
+          "credit_id": "bilancia-pesetti-generati"
+        }
+      ]
+    },
+    {
       "id": "asset-4180936ac8f7ef98b7ead214c32d886175073d382ccd6c87915683088170b376",
       "kind": "svg",
       "uses": [
+        {
+          "document": "index.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "introduzione-fisica-misura",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        },
+        {
+          "document": "index.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "introduzione-fisica-misura",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        },
         {
           "document": "index.html",
           "kind": "svg",
@@ -6365,6 +6930,21 @@
       ]
     },
     {
+      "id": "asset-733423a08f7c12ae4ab09344cc7621f5af2122a354c1b622ca4b5b90ac769c7b",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "image/jpeg",
+          "description": "Cronometro digitale azzerato, con due cifre per i centesimi di secondo.",
+          "locator": "fig-06-5",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-a3feeb0611a8f3f0"
+        }
+      ]
+    },
+    {
       "id": "asset-73dd39dcd24915bfac01460fa80ed65a43f003f8f90c2e56f17388ff37110776",
       "kind": "image/webp",
       "uses": [
@@ -6419,6 +6999,21 @@
       ]
     },
     {
+      "id": "asset-75f3a5cf7bbfd40c5bd64a15d4c22254b2477952737d9aa81a5ca0e18ecb1398",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "image/jpeg",
+          "description": "Bilancia da cucina analogica bianca con piatto, lancetta rossa e quadrante fino a 2 kg, con divisioni da 10 g.",
+          "locator": "fig-06-1a",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-758421614a45290d"
+        }
+      ]
+    },
+    {
       "id": "asset-76c6ed6a84bc4a95aebb5dc01c863904be0ed8d0e181d7bfb566921986d28d3a",
       "kind": "image/webp",
       "uses": [
@@ -6463,6 +7058,21 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-1760283e9c5c1cb5"
+        }
+      ]
+    },
+    {
+      "id": "asset-79c60bb85c5d317df67118cbc1822607fbe899c8c9fc5620ae711af70ff67341",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "svg",
+          "description": "Pesetto da 20 g.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "bilancia-pesetti-generati"
         }
       ]
     },
@@ -6734,6 +7344,21 @@
       ]
     },
     {
+      "id": "asset-8ab60515cab73423ce8ce72696a5da4c35d85e8f5cc635622b2208e86326b0ad",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "errori_incertezza_misura_it.html",
+          "kind": "image/jpeg",
+          "description": "Rumore sullo schermo di un televisore analogico sintonizzato su un canale senza trasmissioni: i disturbi possono produrre variazioni nell'uscita di un dispositivo.",
+          "locator": "inizio",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-25f8443d7c82cfae"
+        }
+      ]
+    },
+    {
       "id": "asset-8c6c5886c4b8b295061b3450decc57b76ce14a877190f31f55239e6674432b32",
       "kind": "image/jpeg",
       "uses": [
@@ -6986,6 +7611,30 @@
       ]
     },
     {
+      "id": "asset-9651eceda575ed1e53b8204ba0f3f405ccd04c11275c4a3220db1904300ea1cb",
+      "kind": "image/png",
+      "uses": [
+        {
+          "document": "errori_incertezza_misura_it.html",
+          "kind": "image/png",
+          "description": "image",
+          "locator": "sim-balance-art",
+          "attribute": "href",
+          "location": null,
+          "credit_id": "bilancia-pesetti-generati"
+        },
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "image/png",
+          "description": "image",
+          "locator": "sim-balance-art",
+          "attribute": "href",
+          "location": null,
+          "credit_id": "bilancia-pesetti-generati"
+        }
+      ]
+    },
+    {
       "id": "asset-96eadb4e47c74ebcebda608fddb8f178a6782ea8d8ebd86faefec232344a6b30",
       "kind": "image/jpeg",
       "uses": [
@@ -7156,6 +7805,21 @@
           "attribute": "src",
           "location": null,
           "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-a508edd65fee4a60c3fe51ce3f624d412368892d53ada853f1c6b374f3e351c9",
+      "kind": "image/svg+xml",
+      "uses": [
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "image/svg+xml",
+          "description": "Scala verticale in centimetri e matita. Le tre linee di vista collegano la punta della matita, posta a 5 cm, alle letture apparenti 4, 5 e 6 cm; la base coincide con lo zero.",
+          "locator": "fig-06-2",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "parallasse-schema-originale"
         }
       ]
     },
@@ -7871,6 +8535,21 @@
       ]
     },
     {
+      "id": "asset-c336c502177e05840fc22647e3d65ae9b050a7575669ad1964bdcc9a8423e2c7",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "image/jpeg",
+          "description": "L'apparato di un doppio orologio atomico all'itterbio: anche la misura del tempo richiede uno strumento fisico e il controllo delle sue prestazioni.",
+          "locator": "inizio",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-31b3875a74656ce2"
+        }
+      ]
+    },
+    {
       "id": "asset-c3c06d01a59f0e046642772ea9d30d9f63c87d41486f662c96f4e6eac25ae5c1",
       "kind": "image/jpeg",
       "uses": [
@@ -8366,6 +9045,21 @@
       ]
     },
     {
+      "id": "asset-d9d5b08b3e28103a2fe1037243fe7342d58758b8573d6f38e99a17b1219300be",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "errori_incertezza_misura_it.html",
+          "kind": "image/jpeg",
+          "description": "Voltmetro analogico con morsetti scollegati e lancetta sotto lo zero della scala da 0 a 6 V.",
+          "locator": "fig-07-2",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-d7ad6df666a9b7fe"
+        }
+      ]
+    },
+    {
       "id": "asset-dada03df3ddb84f324965085f968f69e13160c6c535838b35696c378d3751cc5",
       "kind": "svg",
       "uses": [
@@ -8377,6 +9071,21 @@
           "attribute": "inline",
           "location": null,
           "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-daece3cb01d589d476764e2f68d925c7c6b993f52201dabfafcbc90d61c15366",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "svg",
+          "description": "Pesetto da 200 g.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "bilancia-pesetti-generati"
         }
       ]
     },
@@ -8633,6 +9342,21 @@
       ]
     },
     {
+      "id": "asset-e58f8397abd03a95256407a6e1f7f9007b66f1fd39fe6bcf35a9a364c6390b72",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "errori_incertezza_misura_it.html",
+          "kind": "svg",
+          "description": "Cinque tempi: 2,31; 2,37; 2,40; 2,43; 2,49 s. Media 2,40 s, semidispersione 0,09 s.",
+          "locator": "graf-07-2",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "grafico-misure-tempi"
+        }
+      ]
+    },
+    {
       "id": "asset-e5fa0b7f8b73eb9a97d41f20f68d51f423a2a3fcc74f5dae3708d24917905c43",
       "kind": "image/webp",
       "uses": [
@@ -8702,6 +9426,21 @@
       ]
     },
     {
+      "id": "asset-eadd59abab2616df86af2eb1538abd8160c6933d0ee9d401c3703af5ce6e6161",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "errori_incertezza_misura_it.html",
+          "kind": "image/jpeg",
+          "description": "Un istruttore aziona un cronometro mentre alcune reclute corrono su una pista al coperto.",
+          "locator": "sch-07-1",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-6f22eea11fb693a8"
+        }
+      ]
+    },
+    {
       "id": "asset-eb493be83efc746f05b2ca77af5242fe00193016e434d6131bf34ce47ab8a42e",
       "kind": "svg",
       "uses": [
@@ -8732,6 +9471,21 @@
       ]
     },
     {
+      "id": "asset-ecf0eb4e1f3276010d8f014bd4a54c9766dd40055b68204838373f55a026e8b0",
+      "kind": "image/svg+xml",
+      "uses": [
+        {
+          "document": "errori_incertezza_misura_it.html",
+          "kind": "image/svg+xml",
+          "description": "Quattro bersagli: A raccolto e centrato, B raccolto e spostato, C disperso attorno al centro, D disperso e spostato. Colonne: precisione alta e bassa; righe: accuratezza alta e bassa.",
+          "locator": "fig-07-1",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "bersagli-precisione-accuratezza"
+        }
+      ]
+    },
+    {
       "id": "asset-edfa55ccdcff6b71ccfbeaac38d42156ca954f400ad150a1f08df4613c01f091",
       "kind": "image/jpeg",
       "uses": [
@@ -8743,6 +9497,21 @@
           "attribute": "href",
           "location": null,
           "credit_id": "credit-fca175ce9a7f4dab"
+        }
+      ]
+    },
+    {
+      "id": "asset-eff27dff1e5891aadfcd12c9fe97ae6831070cca0949af74ce043873830a10e1",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "svg",
+          "description": "Pesetto da 50 g.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "bilancia-pesetti-generati"
         }
       ]
     },

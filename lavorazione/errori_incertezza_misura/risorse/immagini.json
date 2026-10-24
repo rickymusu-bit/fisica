@@ -1,0 +1,119 @@
+{
+  "bilancia": {
+    "id": "bilancia-pesetti-generati",
+    "changes": "Immagini generate su richiesta; letture e masse sono elementi del modello interattivo.",
+    "path": "../strumenti_misura/risorse/bilancia-generata.png",
+    "symbol": "sim-balance-art",
+    "width": 1536,
+    "height": 1024,
+    "viewbox": [
+      0,
+      0,
+      1536,
+      1024
+    ],
+    "alt": "Bilancia digitale da laboratorio con piatto circolare e display.",
+    "hide-caption": true
+  },
+  "pesetto-10": {
+    "id": "bilancia-pesetti-generati",
+    "changes": "Immagini generate su richiesta; letture e masse sono elementi del modello interattivo.",
+    "path": "../strumenti_misura/risorse/pesetto-generato.png",
+    "symbol": "sim-weight-art",
+    "width": 1287,
+    "height": 1222,
+    "viewbox": [
+      356,
+      105,
+      589,
+      994
+    ],
+    "alt": "Pesetto da 10 g."
+  },
+  "pesetto-20": {
+    "id": "bilancia-pesetti-generati",
+    "changes": "Immagini generate su richiesta; letture e masse sono elementi del modello interattivo.",
+    "path": "../strumenti_misura/risorse/pesetto-generato.png",
+    "symbol": "sim-weight-art",
+    "width": 1287,
+    "height": 1222,
+    "viewbox": [
+      356,
+      105,
+      589,
+      994
+    ],
+    "alt": "Pesetto da 20 g."
+  },
+  "pesetto-50": {
+    "id": "bilancia-pesetti-generati",
+    "changes": "Immagini generate su richiesta; letture e masse sono elementi del modello interattivo.",
+    "path": "../strumenti_misura/risorse/pesetto-generato.png",
+    "symbol": "sim-weight-art",
+    "width": 1287,
+    "height": 1222,
+    "viewbox": [
+      356,
+      105,
+      589,
+      994
+    ],
+    "alt": "Pesetto da 50 g."
+  },
+  "pesetto-100": {
+    "id": "bilancia-pesetti-generati",
+    "changes": "Immagini generate su richiesta; letture e masse sono elementi del modello interattivo.",
+    "path": "../strumenti_misura/risorse/pesetto-generato.png",
+    "symbol": "sim-weight-art",
+    "width": 1287,
+    "height": 1222,
+    "viewbox": [
+      356,
+      105,
+      589,
+      994
+    ],
+    "alt": "Pesetto da 100 g."
+  },
+  "pesetto-200": {
+    "id": "bilancia-pesetti-generati",
+    "changes": "Immagini generate su richiesta; letture e masse sono elementi del modello interattivo.",
+    "path": "../strumenti_misura/risorse/pesetto-generato.png",
+    "symbol": "sim-weight-art",
+    "width": 1287,
+    "height": 1222,
+    "viewbox": [
+      356,
+      105,
+      589,
+      994
+    ],
+    "alt": "Pesetto da 200 g."
+  },
+  "FIG-07-2": {
+    "path": "risorse/voltmetro-offset.jpg",
+    "alt": "Voltmetro analogico con morsetti scollegati e lancetta sotto lo zero della scala da 0 a 6 V.",
+    "author": "Желуденко Павло",
+    "source": "https://commons.wikimedia.org/wiki/File:Вольтметр_4.jpg",
+    "license": "CC BY 4.0",
+    "license-url": "https://creativecommons.org/licenses/by/4.0/",
+    "changes": "Fotografia intera nella versione Wikimedia scelta dall’utente, senza modifiche."
+  },
+  "SCH-07-1": {
+    "path": "risorse/cronometrista.jpg",
+    "alt": "Un istruttore aziona un cronometro mentre alcune reclute corrono su una pista al coperto.",
+    "author": "Chris Desmond / U.S. Navy",
+    "source": "https://commons.wikimedia.org/wiki/File:US_Navy_030506-N-5862D-128_An_instructor_in_the_Freedom_Hall_athletic_complex_uses_a_stopwatch_while_recruits_run_a_1.5-mile_track_during_a_Physical_Fitness_Test_(PFT).jpg",
+    "license": "Pubblico dominio (PD-USGov-Military-Navy)",
+    "license-url": "https://commons.wikimedia.org/wiki/Template:PD-USGov-Military-Navy",
+    "changes": "Fotografia intera nella versione Wikimedia scelta dall’utente, senza modifiche."
+  },
+  "FIG-07-1": {
+    "id": "bersagli-precisione-accuratezza",
+    "path": "risorse/bersagli.svg",
+    "diagram": true,
+    "zoom": false,
+    "zoom-label": "Bersagli di precisione e accuratezza ingranditi",
+    "alt": "Quattro bersagli: A raccolto e centrato, B raccolto e spostato, C disperso attorno al centro, D disperso e spostato. Colonne: precisione alta e bassa; righe: accuratezza alta e bassa."
+  }
+}

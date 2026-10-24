@@ -1,0 +1,117 @@
+{
+  "continue": {
+    "iistart": "2020-10-26T08:48:49Z",
+    "continue": "||"
+  },
+  "query": {
+    "normalized": [
+      {
+        "from": "File:Stoppuhr_digital_noBG.jpg",
+        "to": "File:Stoppuhr digital noBG.jpg"
+      }
+    ],
+    "pages": {
+      "95481842": {
+        "pageid": 95481842,
+        "ns": 6,
+        "title": "File:Stoppuhr digital noBG.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "size": 197068,
+            "width": 560,
+            "height": 740,
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Stoppuhr_digital_noBG.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1920,
+            "thumbheight": 2537,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Stoppuhr_digital_noBG.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1920,
+              "height": 2537
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Stoppuhr_digital_noBG.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Stoppuhr_digital_noBG.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=95481842",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2020-10-26 09:08:18",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Stoppuhr digital noBG",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Retouched pictures|Stopwatches|Time 00:00|Objects with white background|Electronic timers|Time 00 second",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Einfache digitale Stoppuhr/ Simple digital Stopwatch",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2008-02-02 12:14:05",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/File:Stoppuhr_digital.jpg\" title=\"File:Stoppuhr digital.jpg\">File:Stoppuhr_digital.jpg</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a class=\"external free\" href=\"https://commons.wikimedia.org/wiki/User:Lesselich\">https://commons.wikimedia.org/wiki/User:Lesselich</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

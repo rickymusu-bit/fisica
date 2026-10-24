@@ -1,6 +1,6 @@
 # Stile delle dispense di fisica
 
-Versione v6 · 18 ottobre 2026, ore 02:11 (Europe/Rome).
+Versione v7 — 24/10/2026, ore 08:22 (Europe/Rome).
 
 Riferimento approvato dall'utente per tutte le dispense esistenti e future. Deriva dalle caratteristiche generali del testo giornalistico fornito sui telefoni e dalla prova sull'irraggiamento con l'integrazione delle formule, approvata in chat. Il testo sui telefoni è un riferimento esclusivamente linguistico: non ne trasferire fatti, giudizi o conclusioni nelle dispense. Il campione operativo è [esempio_irraggiamento.md](esempio_irraggiamento.md). Il master resta la fonte delle regole di progetto. Il tema grafico comune è salvato separatamente nel modello autonomo [TEMA_DISPENSE.html](TEMA_DISPENSE.html), da applicare ai capitoli futuri secondo A6 del master.
 

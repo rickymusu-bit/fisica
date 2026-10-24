@@ -1,9 +1,9 @@
 # Introduzione alla fisica e alla misura — piano editoriale
 
-Data del piano: 21/10/2026 (Europe/Rome). Stato aggiornato al 22/10/2026: primi due capitoli pubblicati; percorso in sviluppo. Le sezioni di progettazione conservano le decisioni iniziali, superate dagli avanzamenti finali dove specificato.
+Data del piano: 21/10/2026 (Europe/Rome). Indice aggiornato al 23/10/2026: primi cinque capitoli pubblicati; capitoli 6 e 7 in lavorazione. Le sezioni di avanzamento conservano la cronologia, superata dalle decisioni più recenti dove specificato.
 Fonte delle regole: MASTER_PROMPT.md v69.6, AGENTS.md, riferimenti/STILE_DISPENSE.md, riferimenti/esempio_irraggiamento.md.
 Macrocategoria approvata dall'utente: **Introduzione alla fisica e alla misura**.
-Approvati: 12 capitoli; proporzionalità inversa e quadratica nello stesso capitolo.
+Piano iniziale approvato: 12 capitoli, con proporzionalità inversa e quadratica insieme. Per richiesta corrente, misure ripetute, media, semidispersione e incertezza sono riunite nel capitolo 7: il percorso aggiornato comprende **11 capitoli**.
 Non ancora approvati: revisione dello schema del metodo scientifico, bozze dei singoli capitoli, conversioni HTML, pubblicazione. Simulazione semplice del piano inclinato approvata dall'utente il 22/10/2026: 2–3 inclinazioni predefinite, pallina che parte da ferma, stessa lunghezza del percorso, cronometro e tabella risultati; senza attrito regolabile o grafici del moto.
 
 ## Indice editoriale concordato
@@ -14,12 +14,11 @@ Non ancora approvati: revisione dello schema del metodo scientifico, bozze dei s
 4. I prefissi del Sistema internazionale — sezione «I prefissi del SI» dello stesso sorgente.
 5. Le cifre significative — sezione omonima, conteggio, arrotondamento e regole di calcolo dello stesso sorgente.
 6. Gli strumenti di misura — «Analogico o digitale?» e «Che cosa chiedere a uno strumento», incluse portata, prontezza, risoluzione, sensibilità, precisione e accuratezza, di strumenti_errori_incertezza_it.html.
-7. Errori e incertezza di misura — «Perché le misure cambiano o si spostano» e «Errore e incertezza: due domande diverse» dello stesso sorgente.
-8. Le misure ripetute — «Da cinque letture a un risultato», con media e semidispersione; chiarire che questa non rappresenta automaticamente tutta l'incertezza, dello stesso sorgente.
-9. Il piano cartesiano e i grafici — «Due grandezze, una coppia di coordinate» e l'interazione «Trascina P» di grafici_piano_cartesiano_it.html.
-10. La proporzionalità diretta — «Dalle proporzioni alla retta» dello stesso sorgente.
-11. Le relazioni lineari — «Intercetta e pendenza: rette diverse» dello stesso sorgente.
-12. Le relazioni non lineari — «Proporzionalità inversa» e «Relazione quadratica» dello stesso sorgente.
+7. Errori e incertezza di misura — «Perché le misure cambiano o si spostano», «Da cinque letture a un risultato» ed «Errore e incertezza: due domande diverse» dello stesso sorgente. Percorso unico con misure ripetute, media, semidispersione e stima dell'incertezza; chiarire che la dispersione non rappresenta automaticamente tutta l'incertezza.
+8. Il piano cartesiano e i grafici — «Due grandezze, una coppia di coordinate» e l'interazione «Trascina P» di grafici_piano_cartesiano_it.html.
+9. La proporzionalità diretta — «Dalle proporzioni alla retta» dello stesso sorgente.
+10. Le relazioni lineari — «Intercetta e pendenza: rette diverse» dello stesso sorgente.
+11. Le relazioni non lineari — «Proporzionalità inversa» e «Relazione quadratica» dello stesso sorgente.
 
 ## Criteri trasversali
 
@@ -159,3 +158,73 @@ Tolto anche lo zoom dalla cassa, su richiesta. Regola salvata nel master v69.10 
 Verifica HTTPS dopo il deployment: 19 pagine pubbliche HTTP 200 e identiche byte per byte alla build locale; 12 indirizzi esclusi, storici o di anteprima HTTP 404. [Rapporto HTTPS](../cifre_significative/verifica-pubblicazione-online.json) e [script](../cifre_significative/verifica_pubblicazione.py). Le prove locali complete sono riuscite: 18 test, 210 combinazioni pagina/viewport/tema e 20 copertine, oltre ai controlli specifici del capitolo.
 
 Il workflow remoto 39991173540 ha superato tema, crediti, build e test; l’installazione di Chromium ha ritardato il controllo. Il merge regolare è stato accettato da GitHub sulla base della suite locale completa già riuscita. Al controllo successivo alla pubblicazione il CI remoto sta eseguendo le prove browser; il suo esito non è ancora registrato come riuscito. Il deployment e la verifica delle pagine pubbliche sono completati.
+
+## Capitoli 6 e 7 — progettazione avviata il 23 ottobre 2026
+
+Richiesta corrente: «Facciamo i capitoli 6 e 7». Verificati sorgente `strumenti_errori_incertezza_it.html` v7 e stato storico; master v69.11. Proposte per [Gli strumenti di misura](../strumenti_misura/visuali.md) e [Errori e incertezza di misura](../errori_incertezza_misura/visuali.md), con stati separati. Quesiti originali: 1–4 al 6, 5 e 7 al 7, 6 riservato all'8. Media, semidispersione, tabella delle cinque letture e linea dei numeri restano nell'8.
+
+Proposto riuso delle immagini esistenti: calibro in copertina del 6, sismografo in copertina del 7, cronometro nello schema dell'esempio del 7, bersagli soltanto nel suo corpo. Nuovi prospetti e schema da concordare prima della bozza; licenze storiche non documentate da verificare prima dell'integrazione. Nessuna ricerca o generazione avviata, nessuna simulazione proposta.
+
+Ramo `lavorazione/strumenti-errori-incertezza`, da main d681439986db6c824fb1c724fa8cf7023e5a38de. Fase corrente: scelta delle visuali secondo B1.1; nessuna bozza, realizzazione HTML o pubblicazione ancora approvata. Sorgenti storici, catalogo e manifest invariati.
+
+### Capitoli 6 e 7 — visuali concordate, bozze v1 pronte
+
+L'utente approva l'impostazione con «Ok». Completate [Gli strumenti di misura, bozza v1](../strumenti_misura/bozza.md) ed [Errori e incertezza di misura, bozza v1](../errori_incertezza_misura/bozza.md), ciascuna con otto quesiti, formule spiegate, segnaposto delle visuali e una nota breve. Conservati integralmente i sette quesiti originali nella ripartizione concordata, con il quesito sulle misure ripetute riservato all'8.
+
+Nel 6 esplicitata la formula della sensibilità e aggiunte serie illustrative per precisione/accuratezza. Nel 7 conservato il confronto 2,40 s / 2,50 s e chiarito che U = 0,09 s è assegnata all'esempio, senza calcoli di media o semidispersione. Incertezza distinta dall'errore effettivo; nessuna garanzia assoluta attribuita all'intervallo ±U.
+
+Fase corrente: approvazione dei due testi nella PR #72, poi stima e via esplicito alla realizzazione. Licenze dei materiali storici da verificare prima dell'integrazione. Nessun HTML o aggiornamento pubblico; sorgenti storici e manifest invariati.
+
+### Capitoli 6 e 7 — copertine scelte, bozze v2
+
+L'utente sceglie esplicitamente Ytterbium Lattice Double Clock with Photons at NIST.jpg per il 6 e TV noise.jpg per il 7. Superate le proposte del calibro e del sismografo come copertine. Aggiornate bozze v2, didascalie e schede di provenienza; immagini intere senza zoom o ripetizioni nel corpo. Pagine Commons consultate: N. Phillips/NIST, pubblico dominio federale; Mysid, pubblico dominio per dichiarazione dell'autore. Restano da verificare i diritti delle immagini storiche del corpo. Testi da approvare nella PR #72; nessuna realizzazione HTML o pubblicazione avviata.
+
+### Capitoli 6 e 7 — due versioni della simulazione
+
+L'utente richiede una simulazione nel capitolo 6 per sperimentare le proprietà dello strumento e una nel 7 con proprietà fisse per studiare errore e incertezza. Predisposte le specifiche [SIM-06](../strumenti_misura/simulazione.md) e [SIM-07](../errori_incertezza_misura/simulazione.md); bozze v3 con attività, segnaposto e un quesito finale aggiornato, mantenendo i quesiti originali pertinenti. Bilancia virtuale condivisa: regolazioni nel 6; misure, U assegnata e riferimento rivelato successivamente nel 7. Media e semidispersione restano all'8. Parametri numerici proposti, carico basso, stima preliminare 90–150 min per entrambe. Nessun codice o HTML avviato: testo aggiornato da revisionare prima del via. L'utente intende fornire immagini sostitutive con licenza; copertine scelte confermate.
+
+### Capitoli 6 e 7 — pesetti, grafico e contenuti dell'incertezza riuniti
+
+L'utente definisce SIM-06 come bilancia con pesetti di masse differenti e slider sotto lo strumento; SIM-07 come bilancia a proprietà fisse, serie ripetute di una massa nota per stimare l'errore e di una ignota per stimare l'incertezza, con grafico sotto la bilancia. Aggiunge «metti media e semi dispersione nel cap 7» e chiarisce «Non ha senso separare incertezza, media e dispersione».
+
+Decisione applicata: eliminato il capitolo separato sulle misure ripetute; il 7 riunisce teoria, tabella/grafico originali, media, semidispersione, incertezza ed errore. Indice aggiornato a undici capitoli; Piano cartesiano → 8, Proporzionalità diretta → 9, Relazioni lineari → 10, Non lineari → 11. I precedenti rinvii all'8 nei resoconti storici sono superati. Nessun URL pubblicato, catalogo o manifest modificato.
+
+Bozze v4 e specifiche v2: massa nota con riferimento e scarto della media; massa ignota con media, semidispersione e stima scolastica U_did = max(d,q), non un valore assegnato. Il grafico distingue min–max, media, errore e fascia ±U; non rivela la massa ignota. Superato il precedente scenario con U = 3 g assegnata. Regola dichiarata didattica e non universale; zero regolato nel modello, controllo dei possibili sistematici e serie asimmetriche previsti.
+
+Quesiti storici tutti conservati: 1–4 nel 6, 5–7 nel 7; otto quesiti nel 6, nove nel 7. Copertine scelte invariate. Servono immagini pertinenti con licenza per bilancia, pesetti e campioni; nessuna ricerca o generazione avviata. Stima preliminare aggiornata 2–3 ore per entrambe le simulazioni, da consolidare dopo la revisione dei testi. Nessuna programmazione o realizzazione HTML, merge o pubblicazione ancora avviata.
+
+### Capitoli 6 e 7 — avvio autorizzato, HTML e simulazioni realizzati
+
+«Ok vai» approva le bozze v4 e autorizza la realizzazione dopo la stima preliminare. HTML autonomi v1 dal modello Stringhe v24, con copertine scelte incorporate, formule native e due versioni del modello condiviso della bilancia. Il 6 esplora le proprietà con pesetti e slider; il 7 raccoglie due serie e visualizza media, semidispersione, errore e fascia U con ingrandimento canonico. Codice e anteprime salvati sul ramo della PR #72.
+
+Restano da integrare le immagini sostitutive con licenza, che l’utente intende fornire: bilancia e pesetti/campione per le simulazioni e figure del corpo. Gli spazi sono dichiarati nelle anteprime di lavorazione; nessuna immagine non autorizzata aggiunta. Verifiche numeriche/browser, crediti/tema e build nei rapporti dei capitoli. Nessun aggiornamento al manifest, al catalogo o agli articoli pubblicati, nessun merge o deployment. Prossimo passaggio: completamento dei materiali e consegna dell’anteprima completa per revisione.
+
+### Capitolo 6 — bilancia analogica e schema originale, 24 ottobre 2026
+
+Integrata la fotografia Kitchen scale 20101110.jpg scelta dall’utente, Batholith / pubblico dominio PD-self, intera e con didascalia corretta a 2 kg e divisioni 10 g. Per il riferimento Vecteezy Pro eseguita la richiesta condizionale di ricreazione: nuovo schema originale del parallasse con elemento dell’occhio generato e geometria/scritte SVG verificate, senza incorporare il materiale commerciale. Bozza v5, HTML v2, crediti e verifiche mirate aggiornati nella PR #72. Capitolo 7 v1 e simulazioni invariati; altre immagini ancora in attesa. Nessuna modifica al sito pubblico.
+
+### Capitolo 6 — HTML v3, essenzialità delle figure
+
+Su richiesta dell’utente rimossi testi visibili e didascalie che ripetono informazioni già evidenti dall’immagine o dal contesto. Regola consolidata nel master v69.12 e nel riferimento di stile v7. Geometria e simulazioni invariate; altre immagini ancora in attesa.
+
+### Capitolo 6 — HTML v4, matita nel parallasse
+
+Su richiesta, la sagoma è sostituita con una matita riconoscibile e sono ripristinate le tre indicazioni di vista. Posizione, scala e linee di vista conservate; nessuna nuova didascalia. Originale generato preservato, crediti e verifiche mirate aggiornati. Capitolo 7 e simulazioni invariati.
+
+### Bilancia digitale e pesetti generati
+
+Su richiesta dell’utente generate e integrate le immagini della bilancia digitale e dei pesetti nelle due simulazioni. Letture sulla finestra dello strumento e carichi visibili sul piatto; campione ignoto senza etichetta di massa. Immagini riutilizzate nelle figure della stessa bilancia nei due testi. Originali preservati, incorporamento deduplicato tramite definizioni SVG e crediti aggiornati. Restano le quattro figure teoriche di voltmetro, termometro, cronometro e bersagli. Nessuna pubblicazione.
+
+## Capitoli 6 e 7: immagini complete — 24 ottobre 2026
+
+Integrate le ultime immagini scelte dall’utente: manometro in sostituzione del voltmetro, termometro a colonna e cronometro; ricreati su richiesta i quattro bersagli con etichette italiane. Aggiornati gli esempi coerentemente con scale e strumenti fotografati. HTML correnti: strumenti_misura_it.html v6; errori_incertezza_misura_it.html v3. Nessuna immagine pendente. PR #72 in bozza; anteprima da revisionare prima della pubblicazione.
+
+Revisione richiesta il 24 ottobre 2026: capitolo 6 v7 con nuova foto della bilancia digitale nella teoria, sensibilità semplificata e didascalie ripristinate. Etichette di massa sui pesetti; capitolo 7 v4 con didascalie e riferimento etichettato, massa ignota nascosta.
+
+## Ultima revisione del capitolo 7
+
+Pubblicazione fermata dall’utente prima di qualsiasi push/merge/deployment. Attività di incertezza e misura dell’errore separate in due sezioni autonome con bilance, registri, calcoli e grafici propri. Un solo capitolo 7, senza nuove suddivisioni del piano. Anteprima corrente da revisionare prima del rilascio.
+
+## Pubblicazione dei capitoli 6 e 7 autorizzata
+
+Dopo la separazione delle attività del 7, l’utente approva nuovamente con «Okay, pubblica». Capitoli aggiunti al manifest, catalogo aggiornato a sette capitoli dell’area e navigazione collegata. Rilascio in corso nella PR #72.

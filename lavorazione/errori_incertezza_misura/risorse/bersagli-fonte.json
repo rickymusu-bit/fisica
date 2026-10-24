@@ -1,0 +1,207 @@
+{
+  "reference": "https://www.ossila.com/cdn/shop/files/Syringe_Pump_Accuracy_and_Precision_Potentiostat_Specifications.svg",
+  "authorization": "Ricrea questa immagine, richiesta esplicita dell’utente",
+  "method": "Nuovo SVG deterministico: nessun percorso, logo o elemento grafico del file Ossila incorporato. Disposizione concettuale conservata; scritte italiane.",
+  "checks": [
+    {
+      "group": "A",
+      "center": [
+        280,
+        295
+      ],
+      "points_relative": [
+        [
+          -10,
+          -9
+        ],
+        [
+          10,
+          9
+        ],
+        [
+          -10,
+          9
+        ],
+        [
+          10,
+          -9
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          -18,
+          0
+        ],
+        [
+          18,
+          0
+        ],
+        [
+          0,
+          -18
+        ],
+        [
+          0,
+          18
+        ]
+      ],
+      "centroid_relative": [
+        0.0,
+        0.0
+      ],
+      "rms_spread": 14.981470036162822
+    },
+    {
+      "group": "B",
+      "center": [
+        280,
+        665
+      ],
+      "points_relative": [
+        [
+          -95,
+          -9
+        ],
+        [
+          -75,
+          9
+        ],
+        [
+          -95,
+          9
+        ],
+        [
+          -75,
+          -9
+        ],
+        [
+          -85,
+          0
+        ],
+        [
+          -103,
+          0
+        ],
+        [
+          -67,
+          0
+        ],
+        [
+          -85,
+          -18
+        ],
+        [
+          -85,
+          18
+        ]
+      ],
+      "centroid_relative": [
+        -85.0,
+        0.0
+      ],
+      "rms_spread": 14.981470036162822
+    },
+    {
+      "group": "C",
+      "center": [
+        650,
+        295
+      ],
+      "points_relative": [
+        [
+          -42,
+          -36
+        ],
+        [
+          42,
+          36
+        ],
+        [
+          -60,
+          25
+        ],
+        [
+          60,
+          -25
+        ],
+        [
+          -10,
+          72
+        ],
+        [
+          10,
+          -72
+        ],
+        [
+          -74,
+          -25
+        ],
+        [
+          74,
+          25
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "centroid_relative": [
+        0.0,
+        0.0
+      ],
+      "rms_spread": 64.41186916158301
+    },
+    {
+      "group": "D",
+      "center": [
+        650,
+        665
+      ],
+      "points_relative": [
+        [
+          -92,
+          -76
+        ],
+        [
+          -8,
+          -4
+        ],
+        [
+          -110,
+          -15
+        ],
+        [
+          10,
+          -65
+        ],
+        [
+          -60,
+          32
+        ],
+        [
+          -40,
+          -112
+        ],
+        [
+          -124,
+          -65
+        ],
+        [
+          24,
+          -15
+        ],
+        [
+          -50,
+          -40
+        ]
+      ],
+      "centroid_relative": [
+        -50.0,
+        -40.0
+      ],
+      "rms_spread": 64.41186916158301
+    }
+  ]
+}

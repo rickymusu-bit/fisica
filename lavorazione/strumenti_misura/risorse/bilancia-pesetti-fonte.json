@@ -1,0 +1,17 @@
+{
+  "requested": "Generazione di bilancia e pesetti per le simulazioni.",
+  "balance_original": "/workspace/generated_images/exec-8b5ac8ff-e2fc-450a-b1bd-a340ba4b53fc.png",
+  "weight_original": "/workspace/generated_images/exec-92bb3a16-e76d-4489-8524-aed8bab41b01.png",
+  "balance_copy": "bilancia-generata.png",
+  "weight_copy": "pesetto-generato.png",
+  "balance_sha256": "9651eceda575ed1e53b8204ba0f3f405ccd04c11275c4a3220db1904300ea1cb",
+  "weight_sha256": "40074d603c99bff91a7d58a68072582447916e846a7ddef1ac8257fbbdee9be9",
+  "use": "Immagini di oggetti generate ex novo, non fotografie di prove sperimentali; masse, display e proprietà sono assegnati nel modello. Un solo originale del pesetto riutilizzato con dimensioni di presentazione diverse e numeri HTML separati. Campione ignoto privo di massa scritta.",
+  "mass_labels_g": [
+    10,
+    20,
+    50,
+    100,
+    200
+  ]
+}

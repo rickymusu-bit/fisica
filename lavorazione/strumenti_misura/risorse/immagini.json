@@ -1,0 +1,152 @@
+{
+  "FIG-06-1a": {
+    "path": "risorse/bilancia-analogica.jpg",
+    "alt": "Bilancia da cucina analogica bianca con piatto, lancetta rossa e quadrante fino a 2 kg, con divisioni da 10 g.",
+    "portrait": true,
+    "author": "Batholith",
+    "source": "https://commons.wikimedia.org/wiki/File:Kitchen_scale_20101110.jpg",
+    "license": "Pubblico dominio (PD-self)",
+    "license-url": "https://commons.wikimedia.org/wiki/Template:PD-self",
+    "changes": "Nessuna modifica; fotografia intera.",
+    "user_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Kitchen_scale_20101110.jpg/250px-Kitchen_scale_20101110.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Kitchen_scale_20101110.jpg",
+    "approval": "Immagine scelta direttamente dall’utente il 24 ottobre 2026."
+  },
+  "FIG-06-2": {
+    "path": "risorse/parallasse.svg",
+    "id": "parallasse-schema-originale",
+    "alt": "Scala verticale in centimetri e matita. Le tre linee di vista collegano la punta della matita, posta a 5 cm, alle letture apparenti 4, 5 e 6 cm; la base coincide con lo zero.",
+    "diagram": true,
+    "zoom": false,
+    "changes": "Schema originale con geometria SVG verificata; elementi dell’occhio e della matita generati su richiesta. Nessuna immagine Vecteezy incorporata.",
+    "approval": "Ricreazione autorizzata dall’utente qualora il riferimento commerciale non sia utilizzabile senza licenza."
+  },
+  "bilancia": {
+    "id": "bilancia-pesetti-generati",
+    "changes": "Immagini generate su richiesta; letture e masse sono elementi del modello interattivo.",
+    "path": "risorse/bilancia-generata.png",
+    "symbol": "sim-balance-art",
+    "width": 1536,
+    "height": 1024,
+    "viewbox": [
+      0,
+      0,
+      1536,
+      1024
+    ],
+    "alt": "Bilancia digitale da laboratorio con piatto circolare e display.",
+    "hide-caption": true
+  },
+  "pesetto-10": {
+    "id": "bilancia-pesetti-generati",
+    "changes": "Immagini generate su richiesta; letture e masse sono elementi del modello interattivo.",
+    "path": "risorse/pesetto-generato.png",
+    "symbol": "sim-weight-art",
+    "width": 1287,
+    "height": 1222,
+    "viewbox": [
+      356,
+      105,
+      589,
+      994
+    ],
+    "alt": "Pesetto da 10 g."
+  },
+  "pesetto-20": {
+    "id": "bilancia-pesetti-generati",
+    "changes": "Immagini generate su richiesta; letture e masse sono elementi del modello interattivo.",
+    "path": "risorse/pesetto-generato.png",
+    "symbol": "sim-weight-art",
+    "width": 1287,
+    "height": 1222,
+    "viewbox": [
+      356,
+      105,
+      589,
+      994
+    ],
+    "alt": "Pesetto da 20 g."
+  },
+  "pesetto-50": {
+    "id": "bilancia-pesetti-generati",
+    "changes": "Immagini generate su richiesta; letture e masse sono elementi del modello interattivo.",
+    "path": "risorse/pesetto-generato.png",
+    "symbol": "sim-weight-art",
+    "width": 1287,
+    "height": 1222,
+    "viewbox": [
+      356,
+      105,
+      589,
+      994
+    ],
+    "alt": "Pesetto da 50 g."
+  },
+  "pesetto-100": {
+    "id": "bilancia-pesetti-generati",
+    "changes": "Immagini generate su richiesta; letture e masse sono elementi del modello interattivo.",
+    "path": "risorse/pesetto-generato.png",
+    "symbol": "sim-weight-art",
+    "width": 1287,
+    "height": 1222,
+    "viewbox": [
+      356,
+      105,
+      589,
+      994
+    ],
+    "alt": "Pesetto da 100 g."
+  },
+  "pesetto-200": {
+    "id": "bilancia-pesetti-generati",
+    "changes": "Immagini generate su richiesta; letture e masse sono elementi del modello interattivo.",
+    "path": "risorse/pesetto-generato.png",
+    "symbol": "sim-weight-art",
+    "width": 1287,
+    "height": 1222,
+    "viewbox": [
+      356,
+      105,
+      589,
+      994
+    ],
+    "alt": "Pesetto da 200 g."
+  },
+  "FIG-06-1b": {
+    "path": "risorse/bilancia-digitale.jpg",
+    "alt": "Bilancia digitale da cucina con un pomodoro sul piatto e lettura di 314 g.",
+    "author": "Jacek Halicki",
+    "source": "https://commons.wikimedia.org/wiki/File:2023_Elektroniczna_waga_kuchenna.jpg",
+    "license": "CC BY-SA 4.0",
+    "license-url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "changes": "Fotografia intera nella versione Wikimedia scelta dall’utente, senza modifiche."
+  },
+  "FIG-06-3": {
+    "path": "risorse/manometro.jpg",
+    "alt": "Manometro con scala nera da 0 a 2500 bar e scala rossa in psi.",
+    "author": "Photo by CEphoto, Uwe Aranas",
+    "source": "https://commons.wikimedia.org/wiki/File:MAXIMATOR-High-Pressure-Manometer-01a.jpg",
+    "license": "CC BY-SA 3.0",
+    "license-url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "changes": "Fotografia intera, nessuna modifica. Versione Wikimedia fornita dall’utente."
+  },
+  "FIG-06-4": {
+    "path": "risorse/termometro.jpg",
+    "alt": "Termometro clinico a colonna, con scala graduata da 35 a 42 °C.",
+    "author": "Jacek Halicki",
+    "source": "https://commons.wikimedia.org/wiki/File:2023_Rt%C4%99ciowy_termometr_lekarski.jpg",
+    "license": "CC BY-SA 4.0",
+    "license-url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Fotografia intera, nessuna modifica. Versione Wikimedia fornita dall’utente."
+  },
+  "FIG-06-5": {
+    "path": "risorse/cronometro.jpg",
+    "alt": "Cronometro digitale azzerato, con due cifre per i centesimi di secondo.",
+    "author": "Lesselich",
+    "source": "https://commons.wikimedia.org/wiki/File:Stoppuhr_digital_noBG.jpg",
+    "license": "CC BY-SA 3.0",
+    "license-url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "changes": "Fotografia intera, nessuna modifica. Versione Wikimedia fornita dall’utente.",
+    "portrait": true
+  }
+}

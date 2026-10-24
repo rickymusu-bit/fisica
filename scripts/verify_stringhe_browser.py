@@ -124,7 +124,7 @@ def verify_quiz(page, base):
     page.goto(base + 'quiz.html')
     chapters = page.locator('[data-quiz-chapter]')
     groups = page.locator('[data-quiz-group]')
-    assert chapters.count() == 15 and groups.count() == 2
+    assert chapters.count() == len(json.loads((ROOT/'pubblicazione.json').read_text())['articoli']) and groups.count() == 2
     assert page.locator('#quiz-start').is_disabled()
     assert all(box.is_disabled() for box in chapters.all())
     assert all(box.is_disabled() for box in groups.all())
@@ -135,6 +135,8 @@ def verify_quiz(page, base):
                       original_html, re.S)
     assert match
     archive = json.loads(match.group(2))
+    first_count=sum(chapter['area']==archive['chapters'][0]['area'] for chapter in archive['chapters'])
+    last_count=len(archive['chapters'])-first_count
     assert archive['questions'] == []
     fixture_archive = json.loads(json.dumps(archive))
     fixture_archive['questions'] = [
@@ -162,11 +164,11 @@ def verify_quiz(page, base):
     assert groups.first.evaluate('(e)=>e.indeterminate')
     groups.first.check()
     assert groups.first.is_checked()
-    assert page.locator('[data-quiz-chapter]:checked').count() == 5
+    assert page.locator('[data-quiz-chapter]:checked').count() == first_count
     groups.first.uncheck()
     assert page.locator('[data-quiz-chapter]:checked').count() == 0
     groups.last.check()
-    assert page.locator('[data-quiz-chapter]:checked').count() == 10
+    assert page.locator('[data-quiz-chapter]:checked').count() == last_count
     for width in (390, 1440):
         page.set_viewport_size({'width': width, 'height': 900})
         for theme in ('dark', 'light'):
@@ -245,7 +247,7 @@ def verify_quiz(page, base):
     for level, alternatives in (('easy', 3), ('medium', 4), ('hard', 5)):
         page.goto(base + 'quiz.html')
         page.locator('[data-quiz-chapter]').first.check()
-        page.locator('[data-quiz-chapter]').nth(5).check()  # Due categorie differenti.
+        page.locator('[data-quiz-chapter]').nth(first_count).check()  # Due categorie differenti.
         page.locator(f'input[name="quiz-level"][value="{level}"]').check()
         page.locator('#quiz-start').click()
         assert page.locator('#quiz-active').is_visible()
@@ -309,18 +311,18 @@ def verify_quiz(page, base):
         chapters = page.locator('[data-quiz-chapter]')
         groups = page.locator('[data-quiz-group]')
         assert groups.first.is_disabled()
-        assert all(box.is_disabled() for box in chapters.all()[:5])
+        assert all(box.is_disabled() for box in chapters.all()[:first_count])
         assert 'Nessuna domanda' in groups.first.locator('xpath=..').inner_text()
         assert 'Non disponibile' in chapters.first.locator('xpath=..').inner_text()
         assert page.locator('#quiz-start').is_disabled()
         groups.last.check()
-        assert page.locator('[data-quiz-chapter]:checked').count() == 10
+        assert page.locator('[data-quiz-chapter]:checked').count() == last_count
         page.locator('input[name="quiz-level"][value="hard"]').check()
         limited_box = chapters.nth(next(
             i for i, chapter in enumerate(archive['chapters'])
             if chapter['file'] == level_limited['file']))
         assert limited_box.is_disabled() and not limited_box.is_checked()
-        assert page.locator('[data-quiz-chapter]:checked').count() == 9
+        assert page.locator('[data-quiz-chapter]:checked').count() == last_count-1
         assert groups.last.is_checked()  # Categoria = tutti i capitoli disponibili.
         page.locator('input[name="quiz-level"][value="easy"]').check()
         assert limited_box.is_enabled() and not limited_box.is_checked()
