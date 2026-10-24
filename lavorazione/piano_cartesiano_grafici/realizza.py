@@ -24,8 +24,8 @@ def render(folder,title,name,cover):
  source=(ROOT/'lavorazione'/folder/'bozza.md').read_text().split('\n---\n')[0]
  notes=''
  if '\n## Note\n' in source:source,notes=source.split('\n## Note\n')
- version='v5' if folder==CHAPTERS[0][0] else 'v4'
- date='2026-10-25T00:48:48+02:00'
+ version='v5'
+ date='2026-10-25T00:48:48+02:00' if folder==CHAPTERS[0][0] else '2026-10-25T01:23:00+02:00'
  body=[];headings=[]
  for block in source.strip().split('\n\n'):
   if block.startswith(('# ','Versione della bozza:')):continue
