@@ -1,6 +1,6 @@
 # Gli strumenti di misura
 
-[EDITORIALE — Bozza v4, 23 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive in attesa. I segnaposto descrivono i materiali da integrare dopo l'approvazione del testo. Area: Introduzione alla fisica e alla misura.]
+[EDITORIALE — Bozza v5, 23 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive in attesa. I segnaposto descrivono i materiali da integrare dopo l'approvazione del testo. Area: Introduzione alla fisica e alla misura.]
 
 [COP-06 — Fotografia scelta dall'utente: Ytterbium Lattice Double Clock with Photons at NIST.jpg. Intera, senza ritagli o zoom, non ripetuta nel corpo.]
 
@@ -14,13 +14,13 @@ Nella bilancia **analogica**, il valore si ricava dalla posizione della lancetta
 
 [FIG-06-1a — Foto originale della bilancia analogica. Conservare intera; la foto della bilancia digitale accompagna TAB-06 più avanti.]
 
-*La lancetta indica il valore sulla scala. Il quadrante riporta una portata di 5 kg e un passo indicato di 20 g.[^1]*
+*La lancetta indica il valore sulla scala. Il quadrante riporta una portata di 2 kg e divisioni da 10 g.*
 
 Per leggere una lancetta bisogna anche scegliere il punto di osservazione. Se indice e scala sono su piani diversi, guardare di lato cambia il loro allineamento apparente: è il **parallasse**. La lancetta non si è mossa, ma sembra corrispondere a un'altra tacca. Portare l'occhio davanti all'indice evita questo spostamento apparente. Se guardiamo sempre dallo stesso lato, anche lo spostamento tende a ripetersi nello stesso modo: è in questo senso sistematico.
 
-[FIG-06-2 — Disegno originale del parallasse, senza ridisegno o modifica delle etichette.]
+[FIG-06-2 — Nuovo schema originale del parallasse, ricreato su richiesta: scala, indice fermo e tre linee di vista geometricamente verificate. Occhi generati come elementi illustrativi; scritte italiane. Nessuna immagine Vecteezy incorporata.]
 
-*La vista frontale permette di allineare correttamente indice e scala; le viste oblique suggeriscono letture diverse.*
+*La base dell’oggetto è allineata allo zero e l’estremità superiore è a 5 cm. Le viste oblique la allineano alle tacche 4 e 6 cm; la vista frontale permette di leggere 5 cm.*
 
 ## Quanto può misurare, e quanto rapidamente?
 
@@ -103,7 +103,7 @@ Registra le letture e confrontale mantenendo fisse le altre condizioni. Se cambi
 
 ## Note
 
-[^1]: Nel linguaggio scolastico e su alcuni strumenti, “sensibilità” indica il più piccolo passo leggibile. Qui usiamo il significato metrologico di rapporto fra variazione dell'indicazione e variazione della grandezza. Sul quadrante della bilancia fotografata, “sensitivity” indica invece un passo di 20 g.
+[^1]: Nel linguaggio scolastico e su alcuni strumenti, “sensibilità” indica il più piccolo passo leggibile. Qui usiamo il significato metrologico di rapporto fra variazione dell'indicazione e variazione della grandezza.
 
 ---
 
@@ -132,3 +132,13 @@ Bilancia con pesetti di masse differenti e slider sotto lo strumento, su richies
 ### Avvio autorizzato
 
 «Ok vai» approva il testo corrente e autorizza realizzazione HTML e simulazioni secondo la proposta e la stima. Le immagini mancanti saranno fornite dall’utente; non dedurre scelte o licenze. Nessun merge o pubblicazione autorizzato.
+
+### Bilancia analogica scelta — bozza v5
+
+Il 24 ottobre l’utente fornisce Kitchen scale 20101110.jpg: autore Batholith, pubblico dominio per dichiarazione dell’autore (PD-self), verificata sulla pagina Commons. Inserita intera in FIG-06-1a; didascalia aggiornata ai valori leggibili CAP. 2 kg e GRAD. 10 g. Rimossa dalla nota la frase sul vecchio quadrante con “sensitivity 20 g”, non presente nella nuova immagine. La bilancia è analogica e non sostituisce la fotografia digitale ancora richiesta per le simulazioni. Provenienza in risorse/immagini.json e registro unico dei crediti.
+
+Ricreato FIG-06-2 come schema originale: il riferimento Vecteezy è Pro e non viene incorporato. Scala e linee di vista tracciate con codice, con letture coerenti 4/5/6 cm; elemento dell’occhio generato su richiesta, senza copiare la grafica commerciale. Provenienza in risorse/parallasse-fonte.json. Ricreazione e inserimento autorizzati dalla richiesta corrente; non attendere un’ulteriore conferma per la stessa modifica.
+
+Correzione esplicita dell’utente recepita: base dell’oggetto allineata allo zero della scala, estremità superiore mantenuta a 5 cm, linea di allineamento allo zero resa visibile. Prova geometrica in parallasse-geometria.json.
+
+Rimosse su richiesta le scritte accessorie “vista laterale schematica” e il richiamo descrittivo accanto all’oggetto (in precedenza “indice fermo davanti alla scala”), insieme alla relativa linea di richiamo. Conservato l’allineamento della base allo zero.

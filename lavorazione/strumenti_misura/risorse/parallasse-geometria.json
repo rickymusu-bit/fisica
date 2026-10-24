@@ -1,0 +1,77 @@
+{
+  "scale": {
+    "x": 235,
+    "zero_y": 750,
+    "pixels_per_cm": 60
+  },
+  "rays": [
+    {
+      "pupil": [
+        1060,
+        210
+      ],
+      "index": [
+        400,
+        450
+      ],
+      "scale_intersection": [
+        235,
+        510.0
+      ],
+      "reading_cm": 4,
+      "rotation_degrees": -19.98310652189997
+    },
+    {
+      "pupil": [
+        1060,
+        450
+      ],
+      "index": [
+        400,
+        450
+      ],
+      "scale_intersection": [
+        235,
+        450.0
+      ],
+      "reading_cm": 5,
+      "rotation_degrees": 0.0
+    },
+    {
+      "pupil": [
+        1060,
+        690
+      ],
+      "index": [
+        400,
+        450
+      ],
+      "scale_intersection": [
+        235,
+        390.0
+      ],
+      "reading_cm": 6,
+      "rotation_degrees": 19.98310652189997
+    }
+  ],
+  "geometry_check": "Ogni linea di vista passa per la stessa estremità superiore e interseca esattamente la tacca etichettata.",
+  "eye_asset": "occhio-parallasse-generato.png",
+  "eye_sha256": "72b5e5124c12fb803232d3ee3e2ef3cd785992fd648cd9fc26c5f492e9ba83d4",
+  "object": {
+    "base": [
+      400,
+      750
+    ],
+    "upper_end": [
+      400,
+      450
+    ],
+    "zero_on_scale": [
+      235,
+      750
+    ],
+    "vertical_length_cm": 5
+  },
+  "zero_alignment_check": "La base e lo zero della scala hanno la stessa coordinata y = 750; estremità a 5 cm.",
+  "svg_sha256": "291135edd0f44a9737ce88b2de4aa2797ca5cd9851306bbc368188276f8b8663"
+}

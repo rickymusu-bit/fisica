@@ -1,0 +1,24 @@
+{
+  "FIG-06-1a": {
+    "path": "risorse/bilancia-analogica.jpg",
+    "alt": "Bilancia da cucina analogica bianca con piatto, lancetta rossa e quadrante fino a 2 kg, con divisioni da 10 g.",
+    "portrait": true,
+    "author": "Batholith",
+    "source": "https://commons.wikimedia.org/wiki/File:Kitchen_scale_20101110.jpg",
+    "license": "Pubblico dominio (PD-self)",
+    "license-url": "https://commons.wikimedia.org/wiki/Template:PD-self",
+    "changes": "Nessuna modifica; fotografia intera.",
+    "user_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Kitchen_scale_20101110.jpg/250px-Kitchen_scale_20101110.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Kitchen_scale_20101110.jpg",
+    "approval": "Immagine scelta direttamente dall’utente il 24 ottobre 2026."
+  },
+  "FIG-06-2": {
+    "path": "risorse/parallasse.svg",
+    "id": "parallasse-schema-originale",
+    "alt": "Scala verticale in centimetri e oggetto con base allineata allo zero ed estremità superiore a 5 cm. Le viste oblique allineano l’estremità alle tacche 4 e 6 cm; quella frontale alla tacca 5 cm. La base è sullo zero.",
+    "diagram": true,
+    "zoom": true,
+    "changes": "Schema originale con geometria SVG verificata ed elemento dell’occhio generato su richiesta. Nessuna immagine Vecteezy incorporata.",
+    "approval": "Ricreazione autorizzata dall’utente qualora il riferimento commerciale non sia utilizzabile senza licenza."
+  }
+}

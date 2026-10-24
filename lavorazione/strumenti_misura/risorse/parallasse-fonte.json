@@ -1,0 +1,16 @@
+{
+  "user_reference": "https://static.vecteezy.com/system/resources/previews/056/780/724/non_2x/illustration-of-parallax-error-diagram-showing-a-scale-human-eye-and-lines-vector.jpg",
+  "licensing_page": "https://www.vecteezy.com/vector-art/56780724-illustration-of-parallax-error-diagram-showing-a-scale-human-eye-and-lines",
+  "licensing_observed": "Pro Vector, Pro Download, Pro Standard License. Non documentata una licenza Pro dell’utente; anteprima commerciale non incorporata nel capitolo o nel repository.",
+  "action": "Creazione di schema originale autorizzata dalla richiesta condizionale dell’utente. Non copiata la grafica commerciale.",
+  "construction": "Scala e proiezioni SVG deterministiche; letture 4/5/6 cm verificate dalle intersezioni. Elemento occhi generato con ChatGPT senza usare il riferimento commerciale come immagine di input.",
+  "eye_original": "/workspace/generated_images/exec-869f93b0-16ec-4f5e-9e1b-2d4a5120f788.png",
+  "eye_copy": "occhio-parallasse-generato.png",
+  "diagram": "parallasse.svg",
+  "geometry": "parallasse-geometria.json",
+  "date": "2026-10-24",
+  "corrections_by_user": [
+    "Oggetto allineato allo zero della scala, estremità superiore a 5 cm.",
+    "Eliminate le scritte accessorie “vista laterale schematica” e “indice fermo davanti alla scala”, con relativa linea di richiamo."
+  ]
+}

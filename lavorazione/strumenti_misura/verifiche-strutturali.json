@@ -2,13 +2,11 @@
   "formulas": 1,
   "headings": 6,
   "missing_images": [
-    "FIG-06-1a",
     "FIG-06-1b",
-    "FIG-06-2",
     "FIG-06-3",
     "FIG-06-4",
     "FIG-06-5"
   ],
-  "version": "v1",
-  "bytes": 1162870
+  "version": "v2",
+  "bytes": 8420102
 }

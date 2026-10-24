@@ -3834,6 +3834,47 @@
       "fingerprints": [
         "asset-c336c502177e05840fc22647e3d65ae9b050a7575669ad1964bdcc9a8423e2c7"
       ]
+    },
+    {
+      "id": "parallasse-schema-originale",
+      "description": "Schema originale del parallasse",
+      "source": null,
+      "author": "Stringhe",
+      "license": null,
+      "license_url": null,
+      "changes": null,
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Schema originale realizzato su richiesta: scala, indice, linee di vista e scritte costruiti in SVG con geometria verificata; elemento dell’occhio generato con ChatGPT. L’immagine commerciale Vecteezy non è riprodotta o incorporata.",
+        "Schema originale realizzato su richiesta: scala, indice, linee di vista e scritte costruiti in SVG con geometria verificata; elemento dell’occhio generato con ChatGPT. L’immagine commerciale Vecteezy non è riprodotta o incorporata.<br>Modifiche per questo utilizzo: Schema originale con geometria SVG verificata ed elemento dell’occhio generato su richiesta. Nessuna immagine Vecteezy incorporata."
+      ],
+      "metadata_sources": [],
+      "fingerprints": [
+        "asset-c8fca20a8dc52b2f89aa1e786c9e0c42f357acff4574ce18069545b982e2387b",
+        "asset-63987141d743253627c19f163d61877236bc00b029023a7b1c5e67ccbfe9f241",
+        "asset-291135edd0f44a9737ce88b2de4aa2797ca5cd9851306bbc368188276f8b8663"
+      ]
+    },
+    {
+      "id": "credit-758421614a45290d",
+      "description": "Bilancia da cucina analogica bianca con piatto, lancetta rossa e quadrante fino a 2 kg, con divisioni da 10 g.",
+      "source": "https://commons.wikimedia.org/wiki/File:Kitchen_scale_20101110.jpg",
+      "author": "Batholith",
+      "license": "Pubblico dominio (PD-self)",
+      "license_url": "https://commons.wikimedia.org/wiki/Template:PD-self",
+      "changes": "Nessuna modifica; fotografia intera.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Bilancia da cucina analogica bianca con piatto, lancetta rossa e quadrante fino a 2 kg, con divisioni da 10 g. — Batholith. <a href=\"https://commons.wikimedia.org/wiki/File:Kitchen_scale_20101110.jpg\">Fonte originale</a>. <a href=\"https://commons.wikimedia.org/wiki/Template:PD-self\">Pubblico dominio (PD-self)</a>. Modifiche: Nessuna modifica; fotografia intera."
+      ],
+      "metadata_sources": [
+        "strumenti_misura_it.html"
+      ],
+      "fingerprints": [
+        "asset-75f3a5cf7bbfd40c5bd64a15d4c22254b2477952737d9aa81a5ca0e18ecb1398"
+      ]
     }
   ],
   "documents": {
@@ -4740,6 +4781,14 @@
         {
           "resource": "credit-31b3875a74656ce2",
           "notice": 0
+        },
+        {
+          "resource": "credit-758421614a45290d",
+          "notice": 0
+        },
+        {
+          "resource": "parallasse-schema-originale",
+          "notice": 1
         }
       ],
       "lexend": true,
@@ -5369,6 +5418,30 @@
           "attribute": "src",
           "location": null,
           "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-291135edd0f44a9737ce88b2de4aa2797ca5cd9851306bbc368188276f8b8663",
+      "kind": "image/svg+xml",
+      "uses": [
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "image/svg+xml",
+          "description": "Scala verticale in centimetri e oggetto con base allineata allo zero ed estremità superiore a 5 cm. Le viste oblique allineano l’estremità alle tacche 4 e 6 cm; quella frontale alla tacca 5 cm. La base è sullo zero.",
+          "locator": "fig-06-2",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "parallasse-schema-originale"
+        },
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "image/svg+xml",
+          "description": "Scala verticale in centimetri e oggetto con base allineata allo zero ed estremità superiore a 5 cm. Le viste oblique allineano l’estremità alle tacche 4 e 6 cm; quella frontale alla tacca 5 cm. La base è sullo zero.",
+          "locator": "fig-06-2",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "parallasse-schema-originale"
         }
       ]
     },
@@ -6545,6 +6618,21 @@
           "attribute": "inline",
           "location": null,
           "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-75f3a5cf7bbfd40c5bd64a15d4c22254b2477952737d9aa81a5ca0e18ecb1398",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "image/jpeg",
+          "description": "Bilancia da cucina analogica bianca con piatto, lancetta rossa e quadrante fino a 2 kg, con divisioni da 10 g.",
+          "locator": "fig-06-1a",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-758421614a45290d"
         }
       ]
     },

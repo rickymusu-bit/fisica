@@ -1,6 +1,6 @@
 # Stato — Gli strumenti di misura
 Ultimo aggiornamento: 23 ottobre 2026 (Europe/Rome). Capitolo 6.
-Fase: HTML v1 e simulazioni funzionanti; integrazione delle immagini autorizzate ancora aperta.
+Fase: HTML v2 con bilancia analogica e schema originale del parallasse integrati; altre immagini ancora aperte.
 
 ## Fonte e ambito
 Richiesta corrente: «Facciamo i capitoli 6 e 7», con collegamento al piano.
@@ -57,3 +57,17 @@ Verifiche: test quantitativi del modello; browser desktop/mobile e chiaro/scuro,
 Passi della versione esplorativa rivisti a 1/20/50 g per distinguere l’effetto della risoluzione con i pesetti disponibili, tutti multipli di 10 g. Verificato che 10 g siano indicati come 20 g con passo 20 g e come 0 g con passo 50 g; riferimento fisso 1 g nel capitolo 7. Nessuna nuova immagine richiesta per questa scelta.
 
 Verifica finale consolidata in verifiche-finali.json: 7 test quantitativi passati, 20 combinazioni viewport/tema, nessun errore JavaScript o richiesta esterna, crediti/tema/build superati. I due HTML restano esclusi dall’output pubblico; file alla radice e bozza.html identici. Salvataggio sul ramo della PR #72; integrazione immagini ancora aperta.
+
+## Bilancia analogica e parallasse — HTML v2, 24 ottobre 2026
+
+Richiesta dell’utente: Kitchen scale 20101110.jpg e ricreazione del riferimento Vecteezy se non riutilizzabile. Bilancia Batholith PD-self documentata, originale acquisito e incorporato intero in FIG-06-1a. Didascalia aggiornata a 2 kg / divisioni 10 g; eliminato dalla nota il vecchio inciso “sensitivity 20 g”.
+
+Fonte Vecteezy classificata Pro Vector / Pro Standard License; nessuna licenza Pro documentata. L’anteprima commerciale è usata solo come riferimento e non salvata nel repository o incorporata nel capitolo. Creato schema originale con elemento dell’occhio generato su richiesta, linee e scala SVG deterministiche. Intersezioni verificate 4/5/6 cm, stesso indice; scritte italiane. Nessuna generazione dei numeri o delle proiezioni geometriche. Originale generato preservato; composizione e provenienza nella cartella risorse.
+
+Bozza v5 e HTML v2 al percorso stabile; renderer esteso per fotografie verticali e schemi ingrandibili con il componente canonico. Nessuna modifica al modello comune o alla simulazione. Verifiche mirate alle due immagini su cinque larghezze e due temi (10 combinazioni), byte incorporati, note, ingrandimento, tastiera, offline, crediti e build. Rapporti in verifiche-immagini.json e verifiche-finali.json; schermate aggiornate delle due figure in anteprime/. Le verifiche del modello numerico e dei comandi precedenti restano valide: relativo codice invariato.
+
+Restano FIG-06-1b, FIG-06-3/4/5 e immagini della bilancia digitale/pesetti/campioni della simulazione. Capitolo 7 v1 invariato; nessun articolo pubblico, manifest o catalogo modificato. Prossimo passaggio: continuare l’integrazione degli altri materiali forniti. La ricreazione e l’inserimento richiesti non necessitano di una nuova conferma; pubblicazione ancora non autorizzata.
+
+### Correzioni dello schema richieste dall’utente
+
+Base dell’oggetto portata allo zero (y = 750, stessa quota dello zero della scala); estremità superiore mantenuta a 5 cm. Aggiunto il collegamento visivo base–zero. Rimosse “vista laterale schematica” e la descrizione accanto all’oggetto che sostituiva “indice fermo davanti alla scala”, insieme alla relativa linea di richiamo. Linee di vista invariate e geometricamente corrette. Schema, PNG di anteprima, HTML e schermate riallineati nella stessa revisione v2.

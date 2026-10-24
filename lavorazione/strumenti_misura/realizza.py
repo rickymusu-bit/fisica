@@ -11,6 +11,7 @@ import re
 import sys
 import unicodedata
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[2]
 WORK = Path(__file__).resolve().parent
@@ -136,10 +137,14 @@ def photo(folder, key, caption, image_assets, *, sim=False):
         return '<figure class="visual" id="' + key.lower() + '"><div class="measure-pending">Figura ' + escape(key) + ': immagine con licenza in attesa.</div><figcaption>' + inline(caption) + '</figcaption></figure>'
     path = folder / data['path']
     if not path.is_file(): raise FileNotFoundError(path)
-    attrs = metadata({k:data.get(k) for k in ('source','author','license','license-url','changes')})
+    attrs = metadata({k:data.get(k) for k in ('source','author','license','license-url','changes','id')})
     image = '<img src="' + uri(path) + '" alt="' + escape(data['alt'],quote=True) + '" loading="lazy" decoding="async">'
     if sim: return '<div ' + attrs + '>' + image + '</div>'
-    return '<figure class="visual photo" id="' + key.lower() + '" ' + attrs + '><div class="image-frame"><div class="overview">' + image + '</div></div><figcaption>' + inline(caption) + '</figcaption></figure>'
+    classes='visual ' + ('diagram' if data.get('diagram') else 'photo') + (' portrait' if data.get('portrait') else '')
+    zoom=''
+    if data.get('zoom'):
+        zoom='<details class="image-zoom"><summary class="media-icon-button" aria-label="Ingrandisci l’immagine"><span class="zoom-expand">' + icon('zoom-in') + '</span><span class="zoom-collapse">' + icon('zoom-out') + '</span></summary><div class="zoom-scroll" tabindex="0" role="region" aria-label="Schema del parallasse ingrandito e scorrevole">' + image.replace('<img ','<img style="min-width:1500px" ',1) + '</div></details>'
+    return '<figure class="' + classes + '" id="' + key.lower() + '" ' + attrs + '><div class="image-frame"><div class="overview">' + image + '</div>' + zoom + '</div><figcaption>' + inline(caption) + '</figcaption></figure>'
 
 
 def table(block, key):
@@ -219,6 +224,9 @@ def render(key, data):
     if not metadata_path.exists():
         metadata_path.write_text(json.dumps({'version':'v1','date':datetime.now(timezone.utc).isoformat(timespec='seconds'),'approved_draft':'v4'},ensure_ascii=False,indent=2)+'\n')
     edition=json.loads(metadata_path.read_text())
+    date=datetime.fromisoformat(edition['date']).astimezone(ZoneInfo('Europe/Rome'))
+    month=['gennaio','febbraio','marzo','aprile','maggio','giugno','luglio','agosto','settembre','ottobre','novembre','dicembre'][date.month-1]
+    footer_date=f'{date.day} {month} {date.year}'
     text = (folder/'bozza.md').read_text().split('\n---\n',1)[0]
     main, notes = text.split('\n## Note\n',1)
     blocks = [b.strip() for b in main.split('\n\n') if b.strip()]
@@ -291,7 +299,7 @@ def render(key, data):
             nav='<nav class="sidebar-nav" aria-label="Sezioni del capitolo"><ol>' + ''.join('<li class="level-2"><a href="#' + sid + '"><span>' + escape(title) + '</span></a></li>' for sid,title in headings) + '</ol></nav>'
             markup=re.sub(r'<nav class="sidebar-nav"[\s\S]*?</nav>',lambda _:nav,markup)
             edits.append((node.start,node.end,navigation_header('chapter',data['name'],markup)))
-        elif node.tag=='footer' and node.has_class('footer'): edits.append((node.start,node.end,'<footer class="footer">Versione ' + edition['version'] + ' — 23 ottobre 2026</footer>'))
+        elif node.tag=='footer' and node.has_class('footer'): edits.append((node.start,node.end,'<footer class="footer">Versione ' + edition['version'] + ' — ' + footer_date + '</footer>'))
     for start,end,value in sorted(edits,reverse=True): template=template[:start]+value+template[end:]
     template=template.replace('Nome dell’area tematica',AREA).replace('Titolo del capitolo',data['title'])
     template=re.sub(r'<!-- MODELLO CANONICO[\s\S]*?-->','<!-- Anteprima di lavorazione: modello Stringhe v24. -->',template,count=1)
@@ -309,7 +317,8 @@ def main():
     # Fonti scientifiche ancora pertinenti, accessibili dal componente crediti.
     for identity,description,source,notice in [
         ('metrologia-vim-gum','Vocabolario metrologico e guida all’incertezza','https://www.bipm.org/en/committees/jc/jcgm/publications','Riferimenti terminologici: JCGM 200:2012 (VIM), JCGM 100:2008 (GUM). La regola scolastica max(semidispersione, passo) è una semplificazione dichiarata, non una procedura generale attribuita a questi documenti.'),
-        ('grafico-misure-tempi','Linea dei numeri delle cinque letture illustrative',None,'Grafico quantitativo del progetto Stringhe, ricostruito dagli stessi dati illustrativi del sorgente storico; nessuna fotografia esterna riprodotta.')]:
+        ('grafico-misure-tempi','Linea dei numeri delle cinque letture illustrative',None,'Grafico quantitativo del progetto Stringhe, ricostruito dagli stessi dati illustrativi del sorgente storico; nessuna fotografia esterna riprodotta.'),
+        ('parallasse-schema-originale','Schema originale del parallasse',None,'Schema originale realizzato su richiesta: scala, indice, linee di vista e scritte costruiti in SVG con geometria verificata; elemento dell’occhio generato con ChatGPT. L’immagine commerciale Vecteezy non è riprodotta o incorporata.')]:
         if not any(r['id']==identity for r in registry['resources']): registry['resources'].append({'id':identity,'description':description,'source':source,'author':'Stringhe' if source is None else 'JCGM/BIPM','license':None,'license_url':None,'changes':None,'status':'documented','links':[],'notices':[notice],'metadata_sources':[],'fingerprints':[]})
     for key,data in CHAPTERS.items():
         source,report=render(key,data); reports[key]=report
