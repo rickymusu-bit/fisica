@@ -161,7 +161,9 @@
     $('quiz-unanswered').textContent=String(unanswered);
     $('quiz-result-note').textContent=reason==='completato'
       ? 'Quiz completato.'
-      : 'Tempo scaduto: le domande non completate risultano senza risposta.';
+      : reason==='interrotto'
+        ? 'Quiz concluso in anticipo: le domande rimanenti risultano senza risposta.'
+        : 'Tempo scaduto: le domande non completate risultano senza risposta.';
     const review=$('quiz-review-list');review.replaceChildren();
     state.questions.forEach((q,i)=>{
       const answer=state.answers[i];
