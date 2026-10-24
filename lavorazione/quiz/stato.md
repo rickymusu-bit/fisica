@@ -1,22 +1,36 @@
 # Stato — quiz
 
-## Stato corrente — campione di Termologia
+## Stato corrente — produzione del quiz di Termologia
 
-Correzione richiesta dall’utente: esprimere i numeri molto piccoli in notazione scientifica, in particolare i coefficienti di dilatazione lineare. Campione v2: nel quesito termo-006 e nella soluzione, α = 1,2 · 10⁻⁵ K⁻¹; risultato intermedio 1,2 · 10⁻³ m = 1,2 mm. Aggiornati insieme scheda e JSON; calcolo e risposta invariati. Regola da applicare anche ai lotti successivi, coerentemente con A4 del master. Il campione resta in attesa di approvazione didattica.
+Aggiornamento: 25 ottobre 2026 (Europe/Rome). Master consultato integralmente: v69.15; prompt di generazione v1.4.1; specifiche quiz v2.3.0. Le sezioni successive conservano la cronologia delle richieste precedenti.
 
-Aggiornamento: 24 ottobre 2026, ore 23:58 (Europe/Rome). Master consultato integralmente: v69.15; prompt di generazione v1.4.0; specifiche quiz v2.3.0. Le sezioni successive conservano la cronologia delle richieste precedenti.
+Richiesta corrente: procedere dopo la revisione del campione. L’utente ha richiesto notazione scientifica per i numeri molto piccoli e anche per quelli molto grandi quando non è utile usare i prefissi SI, poi ha confermato «PROCEDI». Regola esplicitata nel prompt corrente per dati, opzioni e soluzioni; il master A4 già la comprende. Nessuna revisione dei capitoli richiesta.
 
-Richiesta: creare il quiz di Termologia secondo le istruzioni del repository. Ramo dedicato `feature/quiz-termologia-campione`, derivato da `main` al commit `ef29a4fe630287c59d707abacd082e2fc0617691`. Verificata l’assenza di un campione didattico già approvato e dell’archivio reale `quiz/domande.json`.
+**Approvazione didattica ricevuta:** campione v2 di 9 domande (termo-001–termo-009), con α = 1,2 · 10⁻⁵ K⁻¹ nel quesito termo-006 e risultato intermedio 1,2 · 10⁻³ m = 1,2 mm. I contenuti approvati corrispondono al commit `db41942ebd320a5284baa8cbf0973f7e065513d9`; aggiornati soltanto stato editoriale e conteggi della scheda. Questa approvazione consente di procedere alla produzione, senza approvare domande future o pubblicazione.
 
-Fase completata: campione iniziale di 9 quesiti, uno per ogni combinazione conoscenza/ragionamento/calcolo e facile/medio/difficile. Categoria unica `termologia`, quattro alternative per tutti i quesiti, tempi stimati 35–115 secondi, calcolatrice di base consentita. Letti i dieci capitoli pubblicati della categoria al commit di partenza; nessun uso di sorgenti esclusi o delle bozze al posto dei capitoli. Nessun nuovo visuale o simulazione necessario.
+Ramo `feature/quiz-termologia-campione`, derivato da main `ef29a4fe630287c59d707abacd082e2fc0617691`. PR #81 mantenuta in bozza e aggiornata per includere il primo lotto di produzione. Verificato main ancora invariato all’avvio. Letti i dieci capitoli pubblicati della categoria nel lavoro iniziale: riferimenti fissati nella base documentale del campione. Nessun uso di capitoli esclusi o bozze come sostituti dei sorgenti pubblicati.
 
-File correnti: [schede per la revisione](termologia/bozza.md), con prerequisiti, riferimenti, soluzioni, motivi dei livelli, analisi dei distrattori e stime dei tempi; [campione JSON](termologia/campione.json), compatibile con lo schema corrente ma conservato solo in lavorazione. Il quiz pubblico e i capitoli non vengono modificati. Questo campione non costituisce l’archivio da 300 domande.
+**Primo lotto completato:** 30 nuove proposte, termo-010–termo-039. Dieci per livello; in ciascun livello 3 conoscenza, 4 ragionamento, 3 calcolo. Tutte con categoria unica `termologia`, quattro alternative e tempi stimati 35–110 secondi; calcolatrice di base consentita. Posizioni delle risposte corrette variate, senza ciclo fisso. Il formato separa i soli otto campi del dataset dai metadati di revisione.
 
-Verifiche: validatore `load_questions` corrente superato; ID, categoria, otto campi previsti, quattro alternative distinte e distribuzione controllati; corrispondenza delle nove schede e collegamenti verificata. Ricalcolati 2000 J (termo-003), 1,2 mm (termo-006) e circa 13,5 °C con fusione completa e bilancio nullo (termo-009). Superati i cinque test esistenti di `scripts/test_quiz.py` e il controllo whitespace. La build completa non è pertinente a questi soli materiali di lavorazione. I controlli non provano la calibrazione didattica o i tempi effettivi degli studenti.
+File correnti:
 
-Conteggio Termologia: 3 proposte facili, 3 medie e 3 difficili; per ciascun livello una conoscenza, un ragionamento e un calcolo. Approvate: 0. Target invariato: 100 approvate per livello; riferimento successivo 30 conoscenza, 40 ragionamento e 30 calcolo per livello.
+- [Campione approvato](termologia/bozza.md) e [JSON del campione](termologia/campione.json).
+- [Schede del primo lotto](termologia/lotto.md) e [JSON del primo lotto](termologia/lotto.json).
 
-Approvazioni ricevute: incarico di preparazione del quiz secondo le istruzioni. Non ricevute: approvazione didattica del campione, integrazione nell’archivio, merge o pubblicazione. Si presenta il campione con PR in bozza. Prossima operazione: revisione del docente secondo la sezione 10, fase 2, del prompt; dopo l’approvazione conservare gli stessi ID e concordare/produrre i lotti richiesti, indicativamente da 30. Il campione approvato potrà concorrere al totale senza duplicazioni. L’approvazione del campione non approva automaticamente lotti futuri o pubblicazione.
+Le schede contengono prerequisiti effettivi, riferimenti, soluzioni, motivi dei livelli, analisi dei distrattori e stime dei tempi. Nessun nuovo visuale o simulazione necessario. Nessun quesito del lotto è ancora approvato dal docente. Nessuna integrazione nell’archivio pubblico, modifica all’interfaccia, ai capitoli o al manifest: `quiz/domande.json` resta assente e il sito pubblico invariato.
+
+**Verifiche concluse:** validatore corrente `load_questions` sui due file e assenza di archivio pubblico; 39 ID e testi distinti; otto campi previsti e quattro alternative distinte; ripartizione del lotto per tipo/livello, coerenza puntuale JSON/schede/opzioni/soluzioni, collegamenti locali e tempi entro 120 secondi. Ricalcolati indipendentemente tutti i nove quesiti numerici del lotto: 298,15 K; 16,7 kJ; 144 kJ; 30 W; 35 °C; 40 °C; circa 18 g; 43,9 kJ; 35 °C. Verificato anche il bilancio nullo dei tre corpi in termo-039. Superati i cinque test esistenti di `scripts/test_quiz.py` e `git diff --check`. Revisione manuale di chiarezza, unicità della risposta e prerequisiti effettuata, senza attribuirle valore di approvazione del docente o di sperimentazione in classe. Nessuna build o prova browser necessaria per questi soli materiali di lavorazione.
+
+| Livello | Campione approvato | Lotto da revisionare | Totale preparato | Target approvato |
+|---|---:|---:|---:|---:|
+| Facile | 3 | 10 | 13 | 100 |
+| Medio | 3 | 10 | 13 | 100 |
+| Difficile | 3 | 10 | 13 | 100 |
+| Totale | 9 | 30 | 39 | 300 |
+
+Per ciascun livello il totale preparato è 4 conoscenza, 5 ragionamento e 4 calcolo; il totale approvato resta uno per tipo. Target invariato, con riferimento 30/40/30 per tipo a regime. Il campione approvato potrà entrare nel totale senza duplicare gli ID.
+
+**Prossima operazione:** revisione didattica del nuovo lotto secondo la sezione 10, fase 4, del prompt; applicare eventuali correzioni e aggiornare i conteggi di approvazione. Restano da produrre ulteriori lotti fino al target, senza attribuire approvazioni preventive. L’integrazione dell’archivio e la verifica della pagina effettiva seguono la fase 5, con anteprima prima di merge o deployment. Nessuna autorizzazione di pubblicazione dedotta da «PROCEDI».
 
 Ultimo aggiornamento: 2026-10-16 14:15 (Europe/Rome). Master consultato: v44.
 

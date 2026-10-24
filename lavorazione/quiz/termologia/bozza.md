@@ -1,6 +1,6 @@
 # Quiz di Termologia — campione per la revisione
 
-Versione v2 — 24 ottobre 2026. **Proposto, in attesa di revisione e approvazione del docente.**
+Versione v2 — 24 ottobre 2026. **Campione approvato dal docente dopo la correzione della notazione scientifica.**
 
 Categoria unica: `termologia`. Destinatari di progetto: biennio degli istituti tecnici, 14–16 anni. Strumento consentito: calcolatrice di base. Nessun prerequisito disciplinare esterno ai capitoli consultati; si usano le operazioni e le conversioni di base previste dal master.
 
@@ -10,14 +10,16 @@ Si applicano MASTER_PROMPT.md v69.15 (D2.2), il prompt di generazione v1.4.0 e l
 
 | Livello | Conoscenza | Ragionamento | Calcolo | Proposte | Approvate |
 |---|---:|---:|---:|---:|---:|
-| Facile | 1 | 1 | 1 | 3 | 0 |
-| Medio | 1 | 1 | 1 | 3 | 0 |
-| Difficile | 1 | 1 | 1 | 3 | 0 |
-| Totale | 3 | 3 | 3 | 9 | 0 |
+| Facile | 1 | 1 | 1 | 3 | 3 |
+| Medio | 1 | 1 | 1 | 3 | 3 |
+| Difficile | 1 | 1 | 1 | 3 | 3 |
+| Totale | 3 | 3 | 3 | 9 | 9 |
 
-La distribuzione del campione è intenzionalmente di 3 domande per tipo e 3 per livello. Per i lotti successivi il riferimento resta 30 conoscenza, 40 ragionamento e 30 calcolo per livello, adattabile ai contenuti. Il campione potrà concorrere al totale solo dopo l’approvazione, mantenendo gli ID senza duplicazioni.
+La distribuzione del campione è intenzionalmente di 3 domande per tipo e 3 per livello. Per i lotti successivi il riferimento resta 30 conoscenza, 40 ragionamento e 30 calcolo per livello, adattabile ai contenuti. Il campione approvato concorre al totale di domande approvate, mantenendo gli ID senza duplicazioni.
 
-I tempi sotto indicati comprendono lettura, soluzione e scelta: sono stime prudenti, non misure osservate. Difficoltà e tempi richiedono calibrazione con gli studenti; nessuna domanda è presentata come già approvata o sperimentata.
+Approvazione: l’utente ha confermato «PROCEDI» dopo la correzione di α in notazione scientifica, richiedendo la stessa notazione anche per numeri molto grandi quando non sono utili i prefissi SI. Il campione approvato resta costituito dai nove quesiti con gli stessi ID e contenuti del commit `db41942ebd320a5284baa8cbf0973f7e065513d9`; questa annotazione aggiorna lo stato editoriale.
+
+I tempi sotto indicati comprendono lettura, soluzione e scelta: sono stime prudenti, non misure osservate. Difficoltà e tempi richiedono calibrazione con gli studenti; il campione è ora approvato dal docente, senza dati osservati in classe.
 
 ## Schede di revisione
 
@@ -275,5 +277,5 @@ Controllo scientifico svolto su tutte le domande: soluzione, unicità della risp
 
 Controlli tecnici superati: validatore corrente dell’archivio, tre quesiti per livello e uno per combinazione tipo/livello, quattro opzioni distinte per quesito, ID univoci, categoria registrata, collegamenti locali e ricalcolo dei tre quesiti numerici. Superati anche i cinque test esistenti di `scripts/test_quiz.py` e `git diff --check`. Non è stata eseguita la build del sito: sono cambiati soltanto materiali di lavorazione, senza modificare l’interfaccia o l’archivio pubblico.
 
-Il docente deve rivedere formulazioni, distrattori, difficoltà e plausibilità dei tempi, in particolare i quesiti difficili. La richiesta di approvazione prima dei lotti deriva dalla sezione 10, fase 2, di [PROMPT_GENERAZIONE_DOMANDE.md](../../../quiz/PROMPT_GENERAZIONE_DOMANDE.md): «Il docente valuta correttezza, chiarezza, distrattori, livello e plausibilità dei due minuti per i propri studenti» e «conserva il campione approvato». L’approvazione didattica del campione non autorizza automaticamente altri lotti, merge o pubblicazione.
+La revisione del docente del campione è stata conclusa con il via alla produzione; la calibrazione dei tempi con gli studenti rimane da svolgere. La richiesta di approvazione prima dei lotti deriva dalla sezione 10, fase 2, di [PROMPT_GENERAZIONE_DOMANDE.md](../../../quiz/PROMPT_GENERAZIONE_DOMANDE.md): «Il docente valuta correttezza, chiarezza, distrattori, livello e plausibilità dei due minuti per i propri studenti» e «conserva il campione approvato». L’approvazione didattica del campione non autorizza automaticamente altri lotti, merge o pubblicazione.
 
