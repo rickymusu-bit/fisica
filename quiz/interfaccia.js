@@ -67,6 +67,15 @@
     return minutes + ":" + remainder;
   }
 
+  function totalTimeRemaining(now) {
+    const s = session;
+    if (!s) return 0;
+    // Il tempo residuo delle domande saltate/confermate non si accumula.
+    const quota = Math.max(0, s.perDeadline - now) +
+      (QUESTION_COUNT - s.index - 1) * s.seconds * 1000;
+    return Math.min(s.deadline - now, quota) / 1000;
+  }
+
   function drawQuestions(pool) {
     const selected = shuffle(pool).slice(0, QUESTION_COUNT);
     while (selected.length < QUESTION_COUNT) {
@@ -151,7 +160,7 @@
       ? "Termina il quiz" : "Conferma e prosegui";
     prompt.tabIndex = -1;
     prompt.focus({preventScroll: true});
-    clock.textContent = formatDuration((s.deadline - Date.now()) / 1000);
+    clock.textContent = formatDuration(totalTimeRemaining(Date.now()));
   }
 
   function goForward(expired) {
@@ -178,7 +187,7 @@
       goForward(true);
       count++;
     }
-    if (session) clock.textContent = formatDuration((session.deadline - now) / 1000);
+    if (session) clock.textContent = formatDuration(totalTimeRemaining(now));
   }
 
   nextButton.addEventListener("click", () => {
