@@ -1,4 +1,4 @@
-# Quiz di Stringhe — specifiche v2.0.0
+# Quiz di Stringhe — specifiche v2.1.0
 
 **Stato:** interfaccia pubblicabile senza archivio di quesiti; il quiz rimane disabilitato fino al caricamento di domande reali.  
 **Data:** 24 ottobre 2026 (Europe/Rome).
@@ -26,11 +26,17 @@
 
 ## Generazione delle domande
 
-Il [prompt di generazione](PROMPT_GENERAZIONE_DOMANDE.md), v1.2.0, definisce domande di conoscenza, ragionamento e calcolo, tre difficoltà e fattibilità entro 120 secondi comprensivi di lettura e scelta. Un quesito può collegare più capitoli della stessa categoria. Non deve richiedere conoscenze di un’altra categoria, salvo prerequisiti di base dichiarati o informazioni sufficienti fornite nel testo.
+Il [prompt di generazione](PROMPT_GENERAZIONE_DOMANDE.md), v1.3.0, definisce domande di conoscenza, ragionamento e calcolo, tre difficoltà e fattibilità entro 120 secondi comprensivi di lettura e scelta. Un quesito può collegare più capitoli della stessa categoria. Non deve richiedere conoscenze di un’altra categoria, salvo prerequisiti di base dichiarati o informazioni sufficienti fornite nel testo.
 
 Il workflow parte da un campione di 9 domande in ChatGPT (una per ogni combinazione tipo/difficoltà, se pertinente), seguito dalla revisione e approvazione del docente. Codex usa prompt, capitoli e campione approvato per generare i lotti richiesti, verificarli e integrarli. I lotti richiedono revisione didattica; i controlli automatici non provano chiarezza e risolvibilità nei due minuti. La divisione è organizzativa, non una garanzia di superiorità scientifica di ChatGPT.
 
 La scelta della categoria unica sostituisce la precedente proposta di tag multipli, filtro AND e classificazione dei contenuti dei capitoli. Non è necessario adattare i singoli HTML per aggiungere tag o ID di argomento.
+
+### Target di produzione
+
+**100 domande facili, 100 medie e 100 difficili per ogni categoria**: 300 per categoria, quindi **600 complessive** per le due categorie attuali. Distribuzione indicativa per ciascun livello: 30 conoscenza, 40 ragionamento, 30 calcolo, adattabile ai contenuti.
+
+Produzione: campione iniziale di 9 domande, revisione del docente e lotti indicativamente da 30 fino al raggiungimento del target con quesiti approvati. Il campione approvato può essere incluso nel totale senza duplicazioni. Restano il limite di 120 secondi, la varietà dei contenuti e il divieto di riempire la quota con domande ripetitive o artificiose. Il target riguarda l’archivio; le sessioni rimangono da 1 a 30 domande.
 
 ## Archivio di domande
 

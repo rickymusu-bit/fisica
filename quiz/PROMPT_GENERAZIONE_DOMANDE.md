@@ -1,6 +1,6 @@
 # Prompt per generare le domande dei quiz di Stringhe
 
-**Versione:** v1.2.0  
+**Versione:** v1.3.0  
 **Data:** 24 ottobre 2026 (Europe/Rome).  
 **Ambito:** quiz del sito Stringhe, distinti dal gioco Fool.
 
@@ -11,7 +11,7 @@ Questo documento è il prompt riutilizzabile per generare quesiti per un quiz su
 - Categoria unica: [ID definito in `quiz/categorie.json`].
 - Materiale di riferimento: [link o file].
 - Destinatari: [livello scolastico; normalmente biennio della scuola secondaria di secondo grado].
-- Numero di domande: [numero].
+- Numero di domande del lotto: [numero; target complessivo nella sezione 10].
 - Distribuzione per tipo: [conoscenza %, ragionamento %, calcolo %].
 - Distribuzione per difficoltà: [facili %, medie %, difficili %].
 - Ampiezza didattica: [quesiti su un solo argomento / quesiti che collegano più argomenti della stessa categoria / entrambi].
@@ -180,6 +180,22 @@ Per ogni domanda fornisci:
 Le spiegazioni e le informazioni di classificazione sono destinate alla revisione e al feedback finale. Non devono svelare la risposta durante lo svolgimento.
 
 ## 10. Workflow ChatGPT, docente e Codex
+
+### Target dell’archivio
+
+Obiettivo concordato: **100 domande per ciascun livello di difficoltà e per ciascuna categoria**, quindi **300 domande per categoria**.
+
+| Categoria | Facili | Medie | Difficili | Totale |
+|---|---:|---:|---:|---:|
+| Termologia | 100 | 100 | 100 | 300 |
+| Introduzione alla fisica e alla misura | 100 | 100 | 100 | 300 |
+| Totale attuale | 200 | 200 | 200 | 600 |
+
+Come riferimento iniziale, ciascun livello comprende 30 domande di conoscenza, 40 di ragionamento e 30 di calcolo. Le proporzioni per tipo restano adattabili ai contenuti; il target di 100 per livello non giustifica duplicati, quesiti artificiosi o domande fuori ambito. Se non è raggiungibile con qualità adeguata, segnala lo scostamento senza riempire artificialmente la quota.
+
+Dopo il campione iniziale di 9 domande e la revisione del docente, procedi in lotti indicativamente da 30 domande, con eventuale ultimo lotto ridotto. Le domande del campione possono concorrere al target se approvate e mantenute nell’archivio definitivo, senza duplicarle. Tieni il conteggio per categoria, livello e tipo distinguendo proposte, revisionate e approvate: il target è raggiunto con domande approvate.
+
+Il target riguarda la dimensione dell’archivio, non la lunghezza di una sessione del quiz (che resta da 1 a 30 domande). Non avviare automaticamente la generazione di tutte le 600 domande: rispetta il lotto e la fase richiesti dall’utente.
 
 ### Fase 1 — Progettazione e campione in ChatGPT
 
