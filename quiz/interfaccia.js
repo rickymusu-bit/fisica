@@ -6,7 +6,7 @@
   if (!root) return;
   const $ = id => root.querySelector('#' + id);
   const catalogue = JSON.parse($('quiz-catalogue-data').textContent);
-  const bank = JSON.parse($('quiz-demo-data').textContent);
+  const bank = JSON.parse($('quiz-demo-data').textContent).domande;
   const selection = $('quiz-selection');
   const game = $('quiz-game');
   const results = $('quiz-results-screen');
