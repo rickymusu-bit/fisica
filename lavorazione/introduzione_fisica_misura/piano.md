@@ -1,6 +1,6 @@
 # Introduzione alla fisica e alla misura — piano editoriale
 
-Data del piano: 21/10/2026 (Europe/Rome). Indice aggiornato al 24/10/2026: primi sette capitoli ammessi alla pubblicazione; capitoli 8 e 9 in progettazione. Le sezioni di avanzamento conservano la cronologia, superata dalle decisioni più recenti dove specificato.
+Data del piano: 21/10/2026 (Europe/Rome). Indice aggiornato al 24/10/2026: primi sette capitoli ammessi alla pubblicazione; capitoli 8 e 9 realizzati in anteprima nella PR #79. Le sezioni di avanzamento conservano la cronologia, superata dalle decisioni più recenti dove specificato.
 Fonte delle regole: MASTER_PROMPT.md v69.6, AGENTS.md, riferimenti/STILE_DISPENSE.md, riferimenti/esempio_irraggiamento.md.
 Macrocategoria approvata dall'utente: **Introduzione alla fisica e alla misura**.
 Piano iniziale approvato: 12 capitoli, con proporzionalità inversa e quadratica insieme. Misure ripetute, media, semidispersione e incertezza sono riunite nel capitolo 7. Il 24/10/2026 l’utente richiede un capitolo sul piano cartesiano e uno su tutte le relazioni di proporzionalità: il percorso aggiornato comprende **9 capitoli**, con proporzionalità diretta, inversa e quadratica nel capitolo 9.
@@ -242,3 +242,10 @@ Quesiti del sorgente dei grafici: 1–2 nel capitolo 8 (il primo adattato al gra
 ### Capitolo 9 — proporzionalità inversa attraverso il viaggio
 
 Su richiesta «fai col viaggio», [bozza v3](../proporzionalita_diretta/bozza.md) sostituisce i rettangoli ad area costante con velocità e tempo per un viaggio ideale in treno di 120 km, senza fermate e a velocità costante. Aggiornati tabella, formule, specifica del grafico e domande 4–5; immagine del treno da scegliere. Diretta, quadratica e capitolo 8 invariati. Testo da revisionare, nessuna realizzazione HTML o pubblicazione.
+
+
+## Capitoli 8 e 9 — HTML e materiali completati, 24 ottobre 2026
+
+La richiesta di finire la PR #79 e i quattro URL forniti autorizzano la realizzazione delle bozze già approvate. Pronti gli HTML autonomi v1 [Il piano cartesiano](../../piano_cartesiano_grafici_it.html) e [Le relazioni di proporzionalità](../../relazioni_proporzionalita_it.html). Esempio dei libri a 2 €/libro nei due capitoli per continuità; viaggio ideale di 120 km per l’inversa; nessuna intercetta. Copertine Playfair e struttura iperbolica, biblioteca per i libri e monorotaia per il viaggio, con licenze verificate e crediti incorporati. Interazioni, scale, grafici, formule e domande realizzati; prove desktop/mobile, temi, fallback, crediti e build superati. Dettagli e schermate negli stati dei capitoli.
+
+L’anteprima corrente resta da approvare prima di integrare main e pubblicare. PR #79 in bozza, manifest e catalogo ufficiali invariati; nessun merge o deployment.

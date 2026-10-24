@@ -1,0 +1,110 @@
+{
+  "layouts": [
+    {
+      "chapter": "piano_cartesiano_grafici",
+      "width": 320,
+      "theme": "dark",
+      "images": true,
+      "overflow": false,
+      "interactions": true
+    },
+    {
+      "chapter": "piano_cartesiano_grafici",
+      "width": 320,
+      "theme": "light",
+      "images": true,
+      "overflow": false,
+      "interactions": true
+    },
+    {
+      "chapter": "piano_cartesiano_grafici",
+      "width": 390,
+      "theme": "dark",
+      "images": true,
+      "overflow": false,
+      "interactions": true
+    },
+    {
+      "chapter": "piano_cartesiano_grafici",
+      "width": 390,
+      "theme": "light",
+      "images": true,
+      "overflow": false,
+      "interactions": true
+    },
+    {
+      "chapter": "piano_cartesiano_grafici",
+      "width": 1440,
+      "theme": "dark",
+      "images": true,
+      "overflow": false,
+      "interactions": true
+    },
+    {
+      "chapter": "piano_cartesiano_grafici",
+      "width": 1440,
+      "theme": "light",
+      "images": true,
+      "overflow": false,
+      "interactions": true
+    },
+    {
+      "chapter": "proporzionalita_diretta",
+      "width": 320,
+      "theme": "dark",
+      "images": true,
+      "overflow": false,
+      "interactions": true
+    },
+    {
+      "chapter": "proporzionalita_diretta",
+      "width": 320,
+      "theme": "light",
+      "images": true,
+      "overflow": false,
+      "interactions": true
+    },
+    {
+      "chapter": "proporzionalita_diretta",
+      "width": 390,
+      "theme": "dark",
+      "images": true,
+      "overflow": false,
+      "interactions": true
+    },
+    {
+      "chapter": "proporzionalita_diretta",
+      "width": 390,
+      "theme": "light",
+      "images": true,
+      "overflow": false,
+      "interactions": true
+    },
+    {
+      "chapter": "proporzionalita_diretta",
+      "width": 1440,
+      "theme": "dark",
+      "images": true,
+      "overflow": false,
+      "interactions": true
+    },
+    {
+      "chapter": "proporzionalita_diretta",
+      "width": 1440,
+      "theme": "light",
+      "images": true,
+      "overflow": false,
+      "interactions": true
+    }
+  ],
+  "checks": [
+    "12 layout senza overflow; immagini decodificate",
+    "Tastiera, limiti, quadranti, assi e trascinamento di P",
+    "Zoom nativo dei grafici e mantenimento del punto interattivo",
+    "Tre comandi mostra/nascondi e stato aria-pressed",
+    "Indice, note, crediti incorporati e licenza Lexend",
+    "Offline e fallback senza JavaScript; nessuna richiesta esterna"
+  ],
+  "errors": [],
+  "external_requests": []
+}

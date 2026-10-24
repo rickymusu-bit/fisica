@@ -4043,6 +4043,114 @@
       "fingerprints": [
         "asset-eadd59abab2616df86af2eb1538abd8160c6933d0ee9d401c3703af5ce6e6161"
       ]
+    },
+    {
+      "id": "grafici-capitoli-8-9",
+      "description": "Grafici di coordinate e proporzionalità, confronto delle scale e quadrati",
+      "author": "Stringhe",
+      "source": null,
+      "license": null,
+      "license_url": null,
+      "changes": null,
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Grafici e schemi matematici del progetto Stringhe, costruiti dai modelli dichiarati. Dati illustrativi: libri usati a 2 €/libro, viaggio ideale di 120 km, area del quadrato. Interazione del punto P adattata dal sorgente grafici_piano_cartesiano_it.html. Non sono misure sperimentali o tariffe del luogo fotografato."
+      ],
+      "metadata_sources": [],
+      "fingerprints": [
+        "asset-d93a1bd96280c792c5f80db0a824e5ce8eac87c0758c1972bb4ed2be2cc946f9",
+        "asset-5c511816a2b7a7a38814683e34d6317451c1d0df9e77497d7a6f969e7d83ab9a",
+        "asset-f00e032d005d778652416252364df92d257ead790a181678c29bf6b02a7bdaab",
+        "asset-162c30835e781e76912c520370bf306ec2dea964f2230ab16942b79d71da1b49",
+        "asset-ed1744fe6caae6103b026235bdf158c4e69c7acffba48cb26d1b20f6998de8c5",
+        "asset-a9dd351cb8f8abc2e96503814b6b7bc38cda11e2fe8f327b44c9901ed7eff762",
+        "asset-e2faac3ffb975c9efd832b92a5f525a7558fc950dbb56e65f8d034a3aa42abce",
+        "asset-25deb2af7eedcb43e8eb27ac3a9dfc59cf0668b8d7e393a3d2bc2b5392f2b46a",
+        "asset-b8f63eb07ddca12ae1dee2fd638d8f9f74a629e2661815d29f23d7920761f20a",
+        "asset-7b6f493dbeccc42e6b00c0c0452a24721f0db2c1fbcc890b991bab5d98bcb75e",
+        "asset-332afd57fe15d02f6938a2e3987708953541a1cc15f251f08033be6bbdee1823"
+      ]
+    },
+    {
+      "id": "credit-7e8ab80a639eafc8",
+      "description": "Grafico storico di William Playfair, con serie di dati nel tempo.",
+      "source": "https://commons.wikimedia.org/wiki/File:Playfair_TimeSeries-1.png",
+      "author": "William Playfair (1759-1823)",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/File:Playfair_TimeSeries-1.png#Licensing",
+      "changes": "Immagine intera, nessun ritaglio o alterazione.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Grafico storico di William Playfair, con serie di dati nel tempo. — William Playfair (1759-1823). <a href=\"https://commons.wikimedia.org/wiki/File:Playfair_TimeSeries-1.png\">Fonte originale</a>. <a href=\"https://commons.wikimedia.org/wiki/File:Playfair_TimeSeries-1.png#Licensing\">Public domain</a>. Modifiche: Immagine intera, nessun ritaglio o alterazione."
+      ],
+      "metadata_sources": [
+        "piano_cartesiano_grafici_it.html"
+      ],
+      "fingerprints": [
+        "asset-66f4334e26ea047120e877852a8c8b4e904f0c3a82d109e5f67c7a844aa33730"
+      ]
+    },
+    {
+      "id": "credit-5e5ca4b5b265dc6b",
+      "description": "Scaffali di libri nella biblioteca della tenuta Biltmore.",
+      "source": "https://commons.wikimedia.org/wiki/File:Library_at_the_biltmore_estate.jpg",
+      "author": "JoyD Smiths PTMr8",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "changes": "Immagine intera, nessun ritaglio o alterazione.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Scaffali di libri nella biblioteca della tenuta Biltmore. — JoyD Smiths PTMr8. <a href=\"https://commons.wikimedia.org/wiki/File:Library_at_the_biltmore_estate.jpg\">Fonte originale</a>. <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\">CC0</a>. Modifiche: Immagine intera, nessun ritaglio o alterazione."
+      ],
+      "metadata_sources": [
+        "piano_cartesiano_grafici_it.html"
+      ],
+      "fingerprints": [
+        "asset-91f5cdddfeb5830e2e27320d91e4e71f3c9ae25ba232e6903d7f18bf5f23ac9d"
+      ]
+    },
+    {
+      "id": "credit-2be4f9b97fb3006c",
+      "description": "Struttura geometrica iperbolica a celle dodecaedriche.",
+      "source": "https://commons.wikimedia.org/wiki/File:Hyperbolic_orthogonal_dodecahedral_honeycomb.png",
+      "author": "Tomruen; immagine realizzata con Curved Spaces di Jeff Weeks",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/File:Hyperbolic_orthogonal_dodecahedral_honeycomb.png#Licensing",
+      "changes": "Immagine intera, nessun ritaglio o alterazione.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Struttura geometrica iperbolica a celle dodecaedriche. — Tomruen; immagine realizzata con Curved Spaces di Jeff Weeks. <a href=\"https://commons.wikimedia.org/wiki/File:Hyperbolic_orthogonal_dodecahedral_honeycomb.png\">Fonte originale</a>. <a href=\"https://commons.wikimedia.org/wiki/File:Hyperbolic_orthogonal_dodecahedral_honeycomb.png#Licensing\">Public domain</a>. Modifiche: Immagine intera, nessun ritaglio o alterazione."
+      ],
+      "metadata_sources": [
+        "relazioni_proporzionalita_it.html"
+      ],
+      "fingerprints": [
+        "asset-65f88f2e548c25f03e3a54c0fed8761de266d99a1cd2e0cfa4253d0de6a06e14"
+      ]
+    },
+    {
+      "id": "credit-3fb36270d27222c4",
+      "description": "Treno della monorotaia presso l’Excalibur a Las Vegas.",
+      "source": "https://commons.wikimedia.org/wiki/File:Las_Vegas_monorail_Excalibur.jpg",
+      "author": "ArticCynda",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "changes": "Immagine intera, nessun ritaglio o alterazione.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Treno della monorotaia presso l’Excalibur a Las Vegas. — ArticCynda. <a href=\"https://commons.wikimedia.org/wiki/File:Las_Vegas_monorail_Excalibur.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>. Modifiche: Immagine intera, nessun ritaglio o alterazione."
+      ],
+      "metadata_sources": [
+        "relazioni_proporzionalita_it.html"
+      ],
+      "fingerprints": [
+        "asset-66d9410a8d83b6ce050ce69b197c9b0aafe698a7a5bec9fafbd222f41e7605ed"
+      ]
     }
   ],
   "documents": {
@@ -5027,6 +5135,52 @@
       "lexend": true,
       "chapter_labels": true,
       "review": null
+    },
+    "piano_cartesiano_grafici_it.html": {
+      "title": "Il piano cartesiano",
+      "anchor": "piano-cartesiano-grafici-it",
+      "credits": [
+        {
+          "resource": "credit-7e8ab80a639eafc8",
+          "notice": 0
+        },
+        {
+          "resource": "credit-5e5ca4b5b265dc6b",
+          "notice": 0
+        },
+        {
+          "resource": "grafici-capitoli-8-9",
+          "notice": 0
+        }
+      ],
+      "lexend": true,
+      "chapter_labels": true,
+      "review": null
+    },
+    "relazioni_proporzionalita_it.html": {
+      "title": "Le relazioni di proporzionalità",
+      "anchor": "relazioni-proporzionalita-it",
+      "credits": [
+        {
+          "resource": "credit-2be4f9b97fb3006c",
+          "notice": 0
+        },
+        {
+          "resource": "credit-5e5ca4b5b265dc6b",
+          "notice": 0
+        },
+        {
+          "resource": "grafici-capitoli-8-9",
+          "notice": 0
+        },
+        {
+          "resource": "credit-3fb36270d27222c4",
+          "notice": 0
+        }
+      ],
+      "lexend": true,
+      "chapter_labels": true,
+      "review": null
     }
   },
   "assets": [
@@ -5279,6 +5433,30 @@
           "attribute": "href",
           "location": null,
           "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-162c30835e781e76912c520370bf306ec2dea964f2230ab16942b79d71da1b49",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "svg",
+          "description": "Numero di libri; Prezzo (€). Punti: (0; 0), (1; 2), (2; 4), (3; 6), (4; 8).",
+          "locator": "chart-scale-10",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "grafici-capitoli-8-9"
+        },
+        {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "svg",
+          "description": "Numero di libri; Prezzo (€). Punti: (0; 0), (1; 2), (2; 4), (3; 6), (4; 8).",
+          "locator": "chart-scale-10",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "grafici-capitoli-8-9"
         }
       ]
     },
@@ -5817,6 +5995,21 @@
       ]
     },
     {
+      "id": "asset-332afd57fe15d02f6938a2e3987708953541a1cc15f251f08033be6bbdee1823",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "svg",
+          "description": "Quadrati in scala: lato 1 cm e area 1 cm²; lato 2 cm e area 4 cm². Il secondo è diviso in quattro quadrati unitari.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "grafici-capitoli-8-9"
+        }
+      ]
+    },
+    {
       "id": "asset-3557155878051ae87547e92f9d92f0759d003f137c46eedd245fc0a8cc6aadb4",
       "kind": "image/jpeg",
       "uses": [
@@ -6010,6 +6203,15 @@
           "credit_id": "font-lexend"
         },
         {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "font/ttf",
+          "description": "Font incorporato",
+          "locator": null,
+          "attribute": "font-face",
+          "location": null,
+          "credit_id": "font-lexend"
+        },
+        {
           "document": "potenze_dieci_notazione_scientifica_it.html",
           "kind": "font/ttf",
           "description": "Font incorporato",
@@ -6020,6 +6222,15 @@
         },
         {
           "document": "prefissi_sistema_internazionale_it.html",
+          "kind": "font/ttf",
+          "description": "Font incorporato",
+          "locator": null,
+          "attribute": "font-face",
+          "location": null,
+          "credit_id": "font-lexend"
+        },
+        {
+          "document": "relazioni_proporzionalita_it.html",
           "kind": "font/ttf",
           "description": "Font incorporato",
           "locator": null,
@@ -6669,6 +6880,21 @@
       ]
     },
     {
+      "id": "asset-5c511816a2b7a7a38814683e34d6317451c1d0df9e77497d7a6f969e7d83ab9a",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "svg",
+          "description": "Piano cartesiano da meno cinque a cinque. Punto trascinabile inizialmente in due, due.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "grafici-capitoli-8-9"
+        }
+      ]
+    },
+    {
       "id": "asset-5df85b0e6373ff75d5eb0aa4b80981f0b0a6d8385c10b905680235ce1088111a",
       "kind": "svg",
       "uses": [
@@ -6767,6 +6993,51 @@
           "attribute": "inline",
           "location": null,
           "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-65f88f2e548c25f03e3a54c0fed8761de266d99a1cd2e0cfa4253d0de6a06e14",
+      "kind": "image/png",
+      "uses": [
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "image/png",
+          "description": "Struttura geometrica iperbolica a celle dodecaedriche.",
+          "locator": "inizio",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-2be4f9b97fb3006c"
+        }
+      ]
+    },
+    {
+      "id": "asset-66d9410a8d83b6ce050ce69b197c9b0aafe698a7a5bec9fafbd222f41e7605ed",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "image/jpeg",
+          "description": "Treno della monorotaia presso l’Excalibur a Las Vegas.",
+          "locator": "inizio",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-3fb36270d27222c4"
+        }
+      ]
+    },
+    {
+      "id": "asset-66f4334e26ea047120e877852a8c8b4e904f0c3a82d109e5f67c7a844aa33730",
+      "kind": "image/png",
+      "uses": [
+        {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "image/png",
+          "description": "Grafico storico di William Playfair, con serie di dati nel tempo.",
+          "locator": "inizio",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-7e8ab80a639eafc8"
         }
       ]
     },
@@ -7073,6 +7344,21 @@
           "attribute": "inline",
           "location": null,
           "credit_id": "bilancia-pesetti-generati"
+        }
+      ]
+    },
+    {
+      "id": "asset-7b6f493dbeccc42e6b00c0c0452a24721f0db2c1fbcc890b991bab5d98bcb75e",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "svg",
+          "description": "Viaggio ideale di 120 km, senza fermate: a 60 km/h occorrono 2 h; a 120 km/h occorre 1 h.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "grafici-capitoli-8-9"
         }
       ]
     },
@@ -7499,6 +7785,30 @@
           "attribute": "cover-data",
           "location": "copertine/marco-polo-crepuscolo.webp",
           "credit_id": "credit-c87a579c49c4f781"
+        }
+      ]
+    },
+    {
+      "id": "asset-91f5cdddfeb5830e2e27320d91e4e71f3c9ae25ba232e6903d7f18bf5f23ac9d",
+      "kind": "image/jpeg",
+      "uses": [
+        {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "image/jpeg",
+          "description": "Scaffali di libri nella biblioteca della tenuta Biltmore.",
+          "locator": "inizio",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-5e5ca4b5b265dc6b"
+        },
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "image/jpeg",
+          "description": "Scaffali di libri nella biblioteca della tenuta Biltmore.",
+          "locator": "inizio",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-5e5ca4b5b265dc6b"
         }
       ]
     },
@@ -7935,6 +8245,30 @@
       ]
     },
     {
+      "id": "asset-a9dd351cb8f8abc2e96503814b6b7bc38cda11e2fe8f327b44c9901ed7eff762",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "svg",
+          "description": "Numero di libri; Prezzo (€). Punti: (0; 0), (1; 2), (2; 4), (3; 6), (4; 8).",
+          "locator": "chart-direct",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "grafici-capitoli-8-9"
+        },
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "svg",
+          "description": "Numero di libri; Prezzo (€). Punti: (0; 0), (1; 2), (2; 4), (3; 6), (4; 8).",
+          "locator": "chart-direct",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "grafici-capitoli-8-9"
+        }
+      ]
+    },
+    {
       "id": "asset-aa5e120d96e7db43b65ab35b00c11e5cbb76a78cac79f42892dd88a36f6ff18b",
       "kind": "svg",
       "uses": [
@@ -8273,6 +8607,30 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-e6fc7a4073a95f9e"
+        }
+      ]
+    },
+    {
+      "id": "asset-b8f63eb07ddca12ae1dee2fd638d8f9f74a629e2661815d29f23d7920761f20a",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "svg",
+          "description": "Lato x (cm); Area y (cm²). Punti: (0; 0), (1; 1), (2; 4), (3; 9), (4; 16).",
+          "locator": "chart-quadratic",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "grafici-capitoli-8-9"
+        },
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "svg",
+          "description": "Lato x (cm); Area y (cm²). Punti: (0; 0), (1; 1), (2; 4), (3; 9), (4; 16).",
+          "locator": "chart-quadratic",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "grafici-capitoli-8-9"
         }
       ]
     },
@@ -9030,6 +9388,21 @@
       ]
     },
     {
+      "id": "asset-d93a1bd96280c792c5f80db0a824e5ce8eac87c0758c1972bb4ed2be2cc946f9",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "svg",
+          "description": "Piano cartesiano da meno cinque a cinque. Punto trascinabile inizialmente in due, due.",
+          "locator": "plane",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "grafici-capitoli-8-9"
+        }
+      ]
+    },
+    {
       "id": "asset-d9b8682faaeac2ab15cbb59ff6d0a0ea3fd07ccb203c0c7d803bf44753a5173d",
       "kind": "svg",
       "uses": [
@@ -9297,6 +9670,30 @@
       ]
     },
     {
+      "id": "asset-e2faac3ffb975c9efd832b92a5f525a7558fc950dbb56e65f8d034a3aa42abce",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "svg",
+          "description": "Velocità v (km/h); Tempo t (h). Punti: (30; 4), (40; 3), (60; 2), (80; 1,5), (120; 1).",
+          "locator": "chart-inverse",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "grafici-capitoli-8-9"
+        },
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "svg",
+          "description": "Velocità v (km/h); Tempo t (h). Punti: (30; 4), (40; 3), (60; 2), (80; 1,5), (120; 1).",
+          "locator": "chart-inverse",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "grafici-capitoli-8-9"
+        }
+      ]
+    },
+    {
       "id": "asset-e307d78ef8011a824a9cece21e30183498b796ca5a1e1ac8715a2635484e9790",
       "kind": "image/webp",
       "uses": [
@@ -9486,6 +9883,30 @@
       ]
     },
     {
+      "id": "asset-ed1744fe6caae6103b026235bdf158c4e69c7acffba48cb26d1b20f6998de8c5",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "svg",
+          "description": "Numero di libri; Prezzo (€). Punti: (0; 0), (1; 2), (2; 4), (3; 6), (4; 8).",
+          "locator": "chart-scale-20",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "grafici-capitoli-8-9"
+        },
+        {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "svg",
+          "description": "Numero di libri; Prezzo (€). Punti: (0; 0), (1; 2), (2; 4), (3; 6), (4; 8).",
+          "locator": "chart-scale-20",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "grafici-capitoli-8-9"
+        }
+      ]
+    },
+    {
       "id": "asset-edfa55ccdcff6b71ccfbeaac38d42156ca954f400ad150a1f08df4613c01f091",
       "kind": "image/jpeg",
       "uses": [
@@ -9512,6 +9933,30 @@
           "attribute": "inline",
           "location": null,
           "credit_id": "bilancia-pesetti-generati"
+        }
+      ]
+    },
+    {
+      "id": "asset-f00e032d005d778652416252364df92d257ead790a181678c29bf6b02a7bdaab",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "svg",
+          "description": "Numero di libri; Prezzo (€). Punti: (0; 0), (1; 2), (2; 4), (3; 6), (4; 8).",
+          "locator": "chart-books",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "grafici-capitoli-8-9"
+        },
+        {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "svg",
+          "description": "Numero di libri; Prezzo (€). Punti: (0; 0), (1; 2), (2; 4), (3; 6), (4; 8).",
+          "locator": "chart-books",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "grafici-capitoli-8-9"
         }
       ]
     },

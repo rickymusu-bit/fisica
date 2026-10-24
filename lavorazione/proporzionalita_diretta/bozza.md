@@ -1,19 +1,19 @@
 # Le relazioni di proporzionalità
 
-Versione della bozza: v3 — 24 ottobre 2026.  
+Versione della bozza: v4 — 24 ottobre 2026.
 Area: Introduzione alla fisica e alla misura.
 
-[C9-COP — Copertina da scegliere per il capitolo unificato; non riutilizzata nel corpo.]
+[C9-COP — Hyperbolic_orthogonal_dodecahedral_honeycomb.png scelta dall’utente; copertina intera, senza zoom.]
 
 ## Raddoppiare una quantità
 
-Un quaderno costa 2 €. Se ne compriamo due spendiamo 4 €, se ne compriamo tre spendiamo 6 €. Il prezzo cresce insieme al numero di quaderni: possiamo prevederlo prima di arrivare alla cassa. Ma due grandezze che aumentano insieme seguono sempre questa stessa regola?
+Immaginiamo una vendita di libri usati a prezzo fisso: ogni libro costa 2 €. Se ne compriamo due spendiamo 4 €, se ne compriamo tre spendiamo 6 €. Il prezzo cresce insieme al numero di libri: possiamo prevederlo prima di arrivare alla cassa. Ma due grandezze che aumentano insieme seguono sempre questa stessa regola?
 
-[C9-SIT — Immagine di un quaderno da scegliere e schema dell’acquisto: prezzo unitario 2 €/quaderno, quantità e prezzo totale. Nessun riuso della copertina.]
+[C9-SIT — Fotografia della biblioteca Library_at_the_biltmore_estate.jpg e schema della vendita ipotetica: 2 €/libro; 1 libro → 2 €, 2 libri → 4 €, 3 libri → 6 €.]
 
-In questo caso il prezzo unitario rimane fisso: non ci sono sconti o quote aggiuntive. Ogni quaderno aggiunge 2 € alla spesa.
+In questo caso il prezzo unitario rimane fisso: non ci sono sconti o quote aggiuntive. Ogni libro aggiunge 2 € alla spesa.
 
-| Numero di quaderni x | Prezzo y (€) |
+| Numero di libri x | Prezzo y (€) |
 |---:|---:|
 | 0 | 0 |
 | 1 | 2 |
@@ -21,7 +21,7 @@ In questo caso il prezzo unitario rimane fisso: non ci sono sconti o quote aggiu
 | 3 | 6 |
 | 4 | 8 |
 
-Se dividiamo il prezzo per il numero di quaderni, otteniamo sempre 2 €/quaderno. È questo **rapporto costante** a caratterizzare la **proporzionalità diretta**:
+Se dividiamo il prezzo per il numero di libri, otteniamo sempre 2 €/libro. È questo **rapporto costante** a caratterizzare la **proporzionalità diretta**:
 
 \[
 \frac{y}{x}=k
@@ -33,19 +33,19 @@ La stessa relazione si scrive:
 y=k\cdot x
 \]
 
-La **costante di proporzionalità k** esprime quanto y corrisponde a un’unità di x. Nell’acquisto è il prezzo unitario: 2 €/quaderno. Le sue unità dipendono dalle grandezze confrontate: non è necessariamente un numero senza unità.
+La **costante di proporzionalità k** esprime quanto y corrisponde a un’unità di x. Nell’acquisto è il prezzo unitario: 2 €/libro. Le sue unità dipendono dalle grandezze confrontate: non è necessariamente un numero senza unità.
 
-Raddoppiando x, anche y raddoppia; triplicando x, y triplica. Cinque quaderni costano quindi 10 €, cinque volte il prezzo di uno e 2 € più di quattro quaderni.
+Raddoppiando x, anche y raddoppia; triplicando x, y triplica. Cinque libri costano quindi 10 €, cinque volte il prezzo di uno e 2 € più di quattro libri.
 
-[C9-GRA-D — Riutilizzare punti e comando «Mostra la retta» del grafico dei quaderni. Assi: numero di quaderni e prezzo (€). Modello passante per l’origine; valori numerici coerenti con la tabella.]
+[C9-GRA-D — Riutilizzare punti e comando «Mostra la retta» del grafico dei libri. Assi: numero di libri e prezzo (€). Modello passante per l’origine; valori numerici coerenti con la tabella.]
 
-Il grafico della proporzionalità diretta è una retta che passa per l’origine: se non compriamo quaderni, la spesa è zero. Il rapporto si calcola per x diverso da zero; il valore nello zero si ricava invece da y = k·x. Nell’esempio gli acquisti possibili corrispondono ai punti con quantità intere.[^1]
+Il grafico della proporzionalità diretta è una retta che passa per l’origine: se non compriamo libri, la spesa è zero. Il rapporto si calcola per x diverso da zero; il valore nello zero si ricava invece da y = k·x. Nell’esempio gli acquisti possibili corrispondono ai punti con quantità intere.[^1]
 
 ## Stessa distanza, tempi diversi
 
 Un viaggio in treno copre 120 km. Immaginiamo di percorrerli senza fermate, mantenendo una velocità costante: quanto tempo occorre a 60 km/h? E a 120 km/h?
 
-[C9-VIA — Schema del viaggio con un’immagine di treno da scegliere, partenza e arrivo distanti 120 km. Confrontare due percorrenze dello stesso tragitto: 60 km/h per 2 h e 120 km/h per 1 h. Immagine distinta dalla copertina; non sostituire il treno con una sagoma astratta.]
+[C9-VIA — Las_Vegas_monorail_Excalibur.jpg e schema del percorso ideale di 120 km; 60 km/h → 2 h, 120 km/h → 1 h. La foto identifica il mezzo, non la tratta o un orario reale.]
 
 A 60 km/h il treno percorre 60 km ogni ora: per coprirne 120 servono 2 ore. A 120 km/h basta un’ora. Raddoppiando la velocità, il tempo si dimezza: il percorso è rimasto lo stesso.
 
@@ -133,9 +133,9 @@ Il grafico appartiene a una **parabola**; per il lato consideriamo solo x non ne
 
 ## Domande di verifica
 
-1. Dalla tabella dei quaderni ricava il costo di un singolo quaderno. Perché la retta del prezzo attraversa l’origine?
-2. Quali unità ha k nell’esempio dei quaderni? Che cosa rappresenta?
-3. Quattro quaderni costano 8 €. Quanto costano sei quaderni allo stesso prezzo unitario? Spiega il ragionamento.
+1. Dalla tabella dei libri ricava il costo di un singolo libro. Perché la retta del prezzo attraversa l’origine?
+2. Quali unità ha k nell’esempio dei libri? Che cosa rappresenta?
+3. Quattro libri costano 8 €. Quanto costano sei libri allo stesso prezzo unitario? Spiega il ragionamento.
 4. Nel viaggio di 120 km, se la velocità triplica da 40 a 120 km/h, come cambia il tempo di percorrenza? Quale quantità resta uguale?
 5. Quanto tempo richiede lo stesso viaggio di 120 km a una velocità costante di 100 km/h? Esprimi il risultato in ore e poi in ore e minuti.
 6. Se il lato di un quadrato passa da 3 cm a 6 cm, prevedi l’area prima di disegnare il punto. Di quanto aumenta rispetto all’area iniziale?
@@ -145,7 +145,7 @@ Il grafico appartiene a una **parabola**; per il lato consideriamo solo x non ne
 
 ## Note
 
-[^1]: La retta mostra il modello matematico continuo; nell’acquisto di quaderni interi si usano soltanto le quantità intere. La proporzionalità diretta può anche avere k negativo quando le grandezze ammettono valori con segno: il suo criterio generale resta il rapporto costante.
+[^1]: La retta mostra il modello matematico continuo; nell’acquisto di libri interi si usano soltanto le quantità intere. La proporzionalità diretta può anche avere k negativo quando le grandezze ammettono valori con segno: il suo criterio generale resta il rapporto costante.
 
 ---
 
@@ -157,6 +157,6 @@ Da non trasferire nel contenuto didattico visibile.
 - Quesiti originali 3 e 7 conservati nelle domande 1 e 6. Il quesito originale 6, sul triplicare la base del rettangolo, è adattato nella domanda 4 al triplicare della velocità a distanza fissa, conservando il ragionamento sulla proporzionalità inversa. Quesiti originali 1–2 assegnati al capitolo 8. I quesiti originali 4–5 sulle rette con intercetta e sulla retta decrescente sono esclusi dal nuovo capitolo per richiesta dell’utente; restano conservati nel sorgente storico.
 - Tabelle costruite dai modelli dichiarati; nessuna misura sperimentale o tariffa commerciale attuale.
 - Formule generali e unità delle costanti esplicitate rispetto al sorgente. Nessuna generica funzione quadratica è chiamata automaticamente proporzionalità quadratica. Rimosse su richiesta la sezione sulle rette con intercetta, la formula della pendenza, la consegna con quota fissa, il confronto delle tre rette e i relativi quesiti.
-- Copertina, immagine del quaderno e immagine di un treno per lo schema del viaggio ancora da scegliere. Grafici e figure geometriche indicati dai segnaposto non sono ancora realizzati nel nuovo capitolo.
+- Immagini scelte dall’utente il 24 ottobre 2026; metadati originali conservati in risorse/, crediti nel registro centrale. Fotografia della biblioteca condivisa fra i due capitoli per continuità.
 - Su richiesta «fai col viaggio», sostituiti rettangoli e area costante con un viaggio ferroviario ideale di 120 km, senza fermate e a velocità costante. Tabella e grafico previsti aggiornati; dati costruiti dal modello, non orari di un servizio reale. Nessuna necessità di fonti su tratte o orari.
-- Testo da revisionare; nessun HTML o pubblicazione avviati.
+- Bozza approvata, aggiornata ai libri per la richiesta corrente. HTML in realizzazione; pubblicazione subordinata all’anteprima.

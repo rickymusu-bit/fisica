@@ -1,0 +1,18 @@
+{
+  "html": "relazioni_proporzionalita_it.html",
+  "version": "v1",
+  "bytes": 14489123,
+  "sha256": "4b549d3aff83ac27ea3dd81cfae59b042655422fc63a2f75f5bca829ee8923de",
+  "bozza": "v4",
+  "questions": 9,
+  "manifest_changed": false,
+  "published": false,
+  "checks": [
+    "credits.py --check",
+    "build_pages.py",
+    "verifica_browser.py"
+  ],
+  "limitations": [
+    "Prove browser tramite HTTP locale: file:// bloccato dal browser gestito."
+  ]
+}

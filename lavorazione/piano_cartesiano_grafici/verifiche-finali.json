@@ -1,0 +1,18 @@
+{
+  "html": "piano_cartesiano_grafici_it.html",
+  "version": "v1",
+  "bytes": 4403649,
+  "sha256": "d50520ffdd3c442795fef432cead2db7333d669d6a16171c60739b676afcc587",
+  "bozza": "v2",
+  "questions": 8,
+  "manifest_changed": false,
+  "published": false,
+  "checks": [
+    "credits.py --check",
+    "build_pages.py",
+    "verifica_browser.py"
+  ],
+  "limitations": [
+    "Prove browser tramite HTTP locale: file:// bloccato dal browser gestito."
+  ]
+}
