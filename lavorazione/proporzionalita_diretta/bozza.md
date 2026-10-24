@@ -1,6 +1,6 @@
 # Le relazioni di proporzionalità
 
-Versione della bozza: v6 — 24 ottobre 2026.
+Versione della bozza: v7 — 24 ottobre 2026.
 Area: Introduzione alla fisica e alla misura.
 
 [C9-COP — Hyperbolic_orthogonal_dodecahedral_honeycomb.png scelta dall’utente; copertina intera, senza zoom.]
@@ -9,7 +9,7 @@ Area: Introduzione alla fisica e alla misura.
 
 Immaginiamo di acquistare libri della stessa collana, tutti a 15 € l’uno. Se ne compriamo due spendiamo 30 €, se ne compriamo tre spendiamo 45 €. Il prezzo cresce insieme al numero di libri: possiamo prevederlo prima di arrivare alla cassa. Ma due grandezze che aumentano insieme seguono sempre questa stessa regola?
 
-[C9-SIT — Schema con la clip art Red book partly open di nerdy, con uno, due e tre libri riconoscibili, prezzo unitario 15 €/libro e totali 15/30/45 €. Nessuna fotografia della biblioteca; didascalia sulle condizioni del prezzo.]
+[C9-SIT — Schema con la clip art Red book partly open di nerdy, con tre situazioni separate da margini e divisori: 1 libro, 2 libri, 3 libri, con volumi parzialmente sovrapposti ma distinti; prezzo unitario 15 €/libro e totali 15/30/45 €. Nessuna fotografia della biblioteca; didascalia sulle condizioni del prezzo.]
 
 In questo caso il prezzo unitario rimane fisso: non ci sono sconti o quote aggiuntive. Ogni libro aggiunge 15 € alla spesa. I valori seguenti si riferiscono a questo prezzo iniziale; cambiando k nel grafico aggiorneremo anche tabella e punti.
 
@@ -169,3 +169,5 @@ A x = 2, y vale 2 con k = 0,5, vale 4 con k = 1 e vale 8 con k = 2. Aumentando k
 - Gli otto/nove quesiti dei due capitoli mantengono la ripartizione; quelli del 9 sono aggiornati al prezzo e alla variazione della costante. Nessuna intercetta o relazione affine introdotta.
 
 - Ultima richiesta: tutte le colonne delle tabelle hanno allineamento centrale, intestazioni comprese. Negli schemi sono incorporate le due clip art specifiche indicate dall’utente (j4p4n e nerdy, CC0 1.0); i valori del modello restano invariati.
+
+- Situazioni dei libri raggruppate in tre colonne distinte, con quantità esplicite e sovrapposizione parziale dei volumi all’interno del solo gruppo.

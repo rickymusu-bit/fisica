@@ -1,6 +1,6 @@
 # Stato — Il piano cartesiano
 
-**Stato corrente — revisione richiesta il 24 ottobre 2026:** HTML v4 verificato; bozza testuale v5. Le nuove istruzioni dell’utente superano le precedenti scelte di riuso delle fotografie, prezzo a 2 € e zoom interattivo. Pubblicazione subordinata all’approvazione della nuova anteprima.
+**Stato corrente — revisione richiesta il 24 ottobre 2026:** HTML v5 verificato; bozza testuale v6. Le nuove istruzioni dell’utente superano le precedenti scelte di riuso delle fotografie, prezzo a 2 € e zoom interattivo. Pubblicazione subordinata all’approvazione della nuova anteprima.
 
 ## Riferimenti e autorizzazioni
 
@@ -136,3 +136,14 @@ Versioni correnti: capitolo 8 HTML v4, bozza v5; capitolo 9 HTML v3, bozza v6. M
 
 
 Anteprima corrente v4, con tutte le ultime correzioni, verificata online al commit `8ce87daf1e96be30acdc231240442f9d40607a5f`: [apri il capitolo](https://raw.githack.com/rickymusu-bit/fisica/8ce87daf1e96be30acdc231240442f9d40607a5f/piano_cartesiano_grafici_it.html), HTTPS 200, text/html e byte identici al file locale. Supera le precedenti anteprime del capitolo.
+
+
+## Andamento continuo del volume e gruppi di libri distinti
+
+L’utente richiede che il volume del serbatoio sia rappresentato come grandezza che varia continuamente, non soltanto dai punti della tabella, e che le situazioni dei libri siano chiaramente separate, consentendo la sovrapposizione all’interno di ogni gruppo. Realizzata una linea sempre visibile nel grafico principale e in entrambi i confronti delle scale: V cresce con ingresso costante da (0;0) a (3;9), poi resta orizzontale fino a (5;9). I punti restano visibili e indicano gli istanti tabulati. Nessuna interpolazione curva arbitraria: due tratti rettilinei continui, coerenti con apertura e chiusura istantanea del rubinetto nel modello ideale. Aggiunta la spiegazione dei valori intermedi, aggiornata la didascalia e separata l’etichetta P dal tracciato. Nessun nuovo comando, zoom o libreria.
+
+Nel capitolo 9, tre colonne distinte con margini e divisori, etichette «1 libro», «2 libri», «3 libri» e rispettivi prezzi 15/30/45 €. I volumi si sovrappongono solo all’interno del gruppo; i tre gruppi restano separati. Usata la stessa clip art espressamente richiesta, senza modificarla o ritagliarla. L’allineamento centrale di tutte le tabelle, le altre clip art e lo schema dei rubinetti sono preservati.
+
+Verifiche superate: 12 layout e 54 casi di k nei rapporti aggiornati, linea continua visibile con e senza JavaScript, valori 0 L a 0 min, 4,5 L a 1,5 min e 9 L da 3 a 5 min, due tracciati nel confronto delle scale, gruppi di 1/2/3 immagini. Ispezionate direttamente le schermate mobile del tracciato e dei libri; quattro schermate del grafico principale rifinite per l’etichetta P. Crediti, build e assenza di overflow/errori/richieste esterne confermati. Tabelle, assi orientati, punte separate, rubinetto senza goccia a destra e autobus preservati.
+
+Versioni correnti: capitolo 8 HTML v5 e bozza v6; capitolo 9 HTML v4 e bozza v7. Nuova anteprima da consegnare e approvare; PR sempre in bozza, nessun merge o deployment.

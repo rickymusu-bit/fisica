@@ -1,10 +1,10 @@
 {
   "html": "piano_cartesiano_grafici_it.html",
-  "version": "v4",
-  "bozza": "v5",
-  "date": "2026-10-25T00:33:50+02:00",
-  "bytes": 2759920,
-  "sha256": "44f0bce4b620a1f71922e44f78c622b7b6d83658bfd0c7294e045ead5370acc5",
+  "version": "v5",
+  "bozza": "v6",
+  "date": "2026-10-25T00:40:27+02:00",
+  "bytes": 2791967,
+  "sha256": "1e634ea5186146ae0185cef3f2f9fab6613871c2cee50ba4af2a844a9e899678",
   "questions": 8,
   "layouts": 12,
   "parameter_cases": 54,
@@ -18,5 +18,11 @@
     "node --check",
     "git diff --check"
   ],
-  "published": false
+  "published": false,
+  "continuous_tank_graph": true,
+  "distinct_book_groups": [
+    1,
+    2,
+    3
+  ]
 }

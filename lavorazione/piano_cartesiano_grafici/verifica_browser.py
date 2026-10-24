@@ -53,6 +53,11 @@ with sync_playwright() as p:
     if count==8:
      assert 'libri' not in page.locator('.article').inner_text().lower()
      assert page.locator('.image-zoom').count()==1
+     continuous=page.locator('#chart-tank .continuous');assert continuous.is_visible()
+     samples=continuous.evaluate('(e)=>[...e.points].map(p=>[p.x,p.y])')
+     for index,expected in [(0,0),(120,4.5),(240,9),(400,9)]:
+      actual=(245-samples[index][1])*12/215;assert abs(actual-expected)<1e-5,(index,actual,expected)
+     assert page.locator('.scale-comparison .overview .continuous').count()==2
      for plot in page.locator('.graph svg[data-plot], #plane').all():
       assert plot.locator('[data-axis-tip="x"]').count()==1 and plot.locator('[data-axis-tip="y"]').count()==1
      ends=page.locator('[marker-end="url(#arrow-dependence)"]').evaluate_all('(xs)=>xs.map(p=>{const q=p.getPointAtLength(p.getTotalLength());return [q.x,q.y]})');assert len(ends)==3 and len({y for x,y in ends})==3
@@ -73,6 +78,7 @@ with sync_playwright() as p:
     else:
      assert page.locator('.image-zoom').count()==0
      assert page.locator('image[data-credit-id="clipart-red-book-nerdy"]').count()==6
+     for quantity in [1,2,3]:assert page.locator('[data-book-group="'+str(quantity)+'"] image').count()==quantity
      assert page.locator('image[data-credit-id="clipart-double-decker-bus-j4p4n"]').count()==1
      assert 'in autobus' in page.locator('.article').inner_text()
      for button in page.locator('[data-toggle]').all():button.click();expect(button).to_have_attribute('aria-pressed','true')
@@ -113,7 +119,7 @@ with sync_playwright() as p:
    page.locator('.image-zoom summary').click();assert page.locator('.zoom-scroll>svg').is_visible()
   ctx.close()
  browser.close()
-report['checks']=['Intestazioni e dati delle tabelle tutti centrati; clip art specifiche incorporate; schema del rubinetto senza tratteggio, originale a sinistra e senza goccia a destra','Tutti i grafici interattivi senza zoom; etichette >=14 CSS px a 320 px','Un solo zoom sul confronto statico delle scale, fuori dai dati; assi orientati e punte separate; SVG Robinet incorporato','P: tastiera, assi, quadranti, limiti e trascinamento',f'k: {len(report["parameter_cases"])} confronti numerici nella selezione corrente; verifiche del capitolo 9 conservate se escluso','Indice, note, crediti OFL, fallback senza JavaScript e nessuna risorsa esterna']
+report['checks']=['Tabelle tutte centrate; clip art richieste; rubinetti nei due stati; tre gruppi di libri con quantità 1/2/3; andamento continuo del volume, crescente e poi costante','Tutti i grafici interattivi senza zoom; etichette >=14 CSS px a 320 px','Un solo zoom sul confronto statico delle scale, fuori dai dati; assi orientati e punte separate; SVG Robinet incorporato','P: tastiera, assi, quadranti, limiti e trascinamento',f'k: {len(report["parameter_cases"])} confronti numerici nella selezione corrente; verifiche del capitolo 9 conservate se escluso','Indice, note, crediti OFL, fallback senza JavaScript e nessuna risorsa esterna']
 assert not report['errors'],report['errors'];assert not report['external_requests'],report['external_requests']
 for key,_,_ in PAGES:(ROOT/'lavorazione'/key/'verifiche-browser.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps({'layouts':len(report['layouts']),'parameter_cases':len(report['parameter_cases']),'errors':report['errors'],'checks':report['checks']},ensure_ascii=False,indent=2))

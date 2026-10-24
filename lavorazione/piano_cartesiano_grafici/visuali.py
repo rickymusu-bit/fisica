@@ -6,7 +6,7 @@ ROOT=Path(__file__).resolve().parents[2]
 CREDIT8='visuali-piano-serbatoio'
 CREDIT9='visuali-proporzioni-parametro'
 STYLE='''<style data-component="grafici-proporzioni">
-.graph svg,.scene svg{display:block;width:100%;height:auto;background:#fff;color:#182c3b;border-radius:8px}.graph svg text,.scene svg text{font-family:Lexend,Arial,sans-serif;fill:#182c3b}.graph .grid{stroke:#d5dfe5;stroke-width:1}.graph .axis{fill:none;stroke:#182c3b;stroke-width:2}.graph .guide{fill:none;stroke:#8c3840;stroke-width:2;stroke-dasharray:5 4}.graph .dot{fill:#0065a8;stroke:#fff;stroke-width:1.5}.graph .fit{fill:none;stroke:#005e9c;stroke-width:3}.graph .reference{stroke:#626b75;stroke-width:2;stroke-dasharray:6 5}.graph .reference[hidden]{display:none!important}.plot-y,.plot-x{font-size:16px;line-height:1.5;color:var(--ink);margin:5px 0}.plot-x{text-align:center}.graph button{min-height:44px;cursor:pointer;margin:12px 0;font:inherit}.graph [tabindex]:focus-visible,.parameter-controls input:focus-visible{outline:3px solid #db8b00;outline-offset:3px}.coordinate-readout{font-variant-numeric:tabular-nums;margin:12px 0;text-align:center}.graph-hint,.graph-reading{font-size:16px;line-height:1.6}.graph .move-point{fill:#b5273b;stroke:#fff;stroke-width:2;cursor:grab;touch-action:none}.graph .drag-target{fill:transparent;cursor:grab;touch-action:none}.data-scroll{overflow-x:auto;max-width:100%}.data-table{border-collapse:collapse;width:100%;font-size:1em}.data-table th,.data-table td{padding:10px 12px;text-align:center;border-bottom:1px solid var(--line)}.parameter-controls{display:none;gap:10px;align-items:center;flex-wrap:wrap;margin:18px 0}.parameter-controls label{width:100%;font-size:17px}.parameter-controls input{width:100%;min-width:0;height:44px;accent-color:var(--accent)}.js-enabled .parameter-controls{display:flex}.fit-toggle{display:none}.js-enabled .fit-toggle{display:inline-flex}.js-enabled .fit{display:none}.js-enabled .show-fit .fit{display:block}.scale-comparison .zoom-scroll svg{min-width:820px;max-width:none}.scale-comparison:has(>.image-zoom[open]) .overview{display:none}.scale-comparison>.image-zoom>summary{margin:10px 0}.graph .probe{fill:#fff;stroke:#b5273b;stroke-width:3}.scene .stroke{stroke:#182c3b;stroke-width:2;fill:none}.scene .water{fill:#b8dff3}.scene text{font-size:24px}
+.graph svg,.scene svg{display:block;width:100%;height:auto;background:#fff;color:#182c3b;border-radius:8px}.graph svg text,.scene svg text{font-family:Lexend,Arial,sans-serif;fill:#182c3b}.graph .grid{stroke:#d5dfe5;stroke-width:1}.graph .axis{fill:none;stroke:#182c3b;stroke-width:2}.graph .guide{fill:none;stroke:#8c3840;stroke-width:2;stroke-dasharray:5 4}.graph .dot{fill:#0065a8;stroke:#fff;stroke-width:1.5}.graph .fit,.graph .continuous{fill:none;stroke:#005e9c;stroke-width:3}.graph .reference{stroke:#626b75;stroke-width:2;stroke-dasharray:6 5}.graph .reference[hidden]{display:none!important}.plot-y,.plot-x{font-size:16px;line-height:1.5;color:var(--ink);margin:5px 0}.plot-x{text-align:center}.graph button{min-height:44px;cursor:pointer;margin:12px 0;font:inherit}.graph [tabindex]:focus-visible,.parameter-controls input:focus-visible{outline:3px solid #db8b00;outline-offset:3px}.coordinate-readout{font-variant-numeric:tabular-nums;margin:12px 0;text-align:center}.graph-hint,.graph-reading{font-size:16px;line-height:1.6}.graph .move-point{fill:#b5273b;stroke:#fff;stroke-width:2;cursor:grab;touch-action:none}.graph .drag-target{fill:transparent;cursor:grab;touch-action:none}.data-scroll{overflow-x:auto;max-width:100%}.data-table{border-collapse:collapse;width:100%;font-size:1em}.data-table th,.data-table td{padding:10px 12px;text-align:center;border-bottom:1px solid var(--line)}.parameter-controls{display:none;gap:10px;align-items:center;flex-wrap:wrap;margin:18px 0}.parameter-controls label{width:100%;font-size:17px}.parameter-controls input{width:100%;min-width:0;height:44px;accent-color:var(--accent)}.js-enabled .parameter-controls{display:flex}.fit-toggle{display:none}.js-enabled .fit-toggle{display:inline-flex}.js-enabled .fit{display:none}.js-enabled .show-fit .fit{display:block}.scale-comparison .zoom-scroll svg{min-width:820px;max-width:none}.scale-comparison:has(>.image-zoom[open]) .overview{display:none}.scale-comparison>.image-zoom>summary{margin:10px 0}.graph .probe{fill:#fff;stroke:#b5273b;stroke-width:3}.scene .stroke{stroke:#182c3b;stroke-width:2;fill:none}.scene .water{fill:#b8dff3}.scene text{font-size:24px}
 </style>'''
 
 def uri(path):
@@ -32,7 +32,7 @@ def text(x,y,s,anchor='middle',size=24):return f'<text x="{x}" y="{y}" text-anch
 def figure(svg,caption,identity=CREDIT8,cls='scene'):
  return f'<figure class="visual {cls}" data-credit-id="{identity}">{svg}<figcaption>{caption}</figcaption></figure>'
 
-def plot_svg(points,xmax,ymax,identity,xticks,yticks,curve=None,highlight=None,reference=None):
+def plot_svg(points,xmax,ymax,identity,xticks,yticks,curve=None,highlight=None,reference=None,continuous=False):
  X=lambda x:50+325*x/xmax;Y=lambda y:245-215*y/ymax
  attrs=f'data-xmax="{xmax}" data-ymax="{ymax}" data-plot="{identity}"'
  s=svg_open(400,295,'Coppie rappresentate: '+', '.join(f'({fmt(x)}; {fmt(y)})' for x,y in points)+'.',attrs)
@@ -46,16 +46,16 @@ def plot_svg(points,xmax,ymax,identity,xticks,yticks,curve=None,highlight=None,r
   xs=[xmax*i/400 for i in range(401) if i or identity!='inverse']
   return ' '.join(f'{X(x):.3f},{Y(fn(x)):.3f}' for x in xs)
  if reference:s+=f'<polyline class="fit reference" data-reference hidden clip-path="url(#clip-{identity})" points="{path(reference)}"/>'
- if curve:s+=f'<polyline class="fit" data-curve clip-path="url(#clip-{identity})" points="{path(curve)}"/>'
+ if curve:s+=f'<polyline class="{"continuous" if continuous else "fit"}" data-curve clip-path="url(#clip-{identity})" points="{path(curve)}"/>'
  if highlight:
-  x,y=highlight;s+=f'<path class="guide" d="M{X(x)} 245V{Y(y)}H50"/>'+text(X(x)+14,Y(y)-12,'P','start')
+  x,y=highlight;s+=f'<path class="guide" d="M{X(x)} 245V{Y(y)}H50"/>'+text(X(x)-14,Y(y)-12,'P','end')
  for x,y in points:s+=f'<circle class="dot" data-point-x="{x}" cx="{X(x)}" cy="{Y(y)}" r="5"/>'
  return s+'</svg>'
 
-def graph(points,xmax,ymax,xlabel,ylabel,identity,caption,curve=None,xticks=None,yticks=None,highlight=None,parameter=None,credit=CREDIT9):
- svg=plot_svg(points,xmax,ymax,identity,xticks or list(range(int(xmax)+1)),yticks or list(range(0,int(ymax)+1,2)),curve,highlight,curve if parameter else None)
+def graph(points,xmax,ymax,xlabel,ylabel,identity,caption,curve=None,xticks=None,yticks=None,highlight=None,parameter=None,credit=CREDIT9,always_curve=False):
+ svg=plot_svg(points,xmax,ymax,identity,xticks or list(range(int(xmax)+1)),yticks or list(range(0,int(ymax)+1,2)),curve,highlight,curve if parameter else None,continuous=always_curve)
  controls=''
- if curve:
+ if curve and not always_curve:
   kind='retta' if identity=='direct' else 'curva'
   controls=f'<button class="button fit-toggle" type="button" aria-pressed="false" aria-controls="chart-{identity}" data-toggle="chart-{identity}" data-kind="{kind}">Mostra la {kind}</button>'
  if parameter:
@@ -99,13 +99,15 @@ def book(x,y):
  return f'<g transform="translate({x} {y})"><path d="M0 0H28L36 9V65H0Z" fill="#b8dff3" stroke="#182c3b" stroke-width="2"/><path d="M6 0V65M28 0V9H36M10 19H28M10 26H28" class="stroke"/></g>'
 
 def books():
- s=svg_open(400,205,'Uno, due e tre libri a quindici euro ciascuno: totali quindici, trenta e quarantacinque euro.')
+ s=svg_open(400,205,'Tre situazioni separate: un libro a quindici euro, due libri a trenta euro, tre libri a quarantacinque euro.')
  art=uri(ROOT/'lavorazione/proporzionalita_diretta/risorse/libro.svg')
- for center,count in [(40,1),(160,2),(315,3)]:
-  left=center-(count*50+(count-1)*5)/2
+ s+='<path d="M130 8V190M270 8V190" stroke="#c2cbd3" stroke-width="2"/>'
+ for center,count in [(60,1),(200,2),(340,3)]:
+  s+=f'<g data-book-group="{count}">'+text(center,27,'1 libro' if count==1 else f'{count} libri')
+  left=center-(55+(count-1)*22)/2
   for i in range(count):
-   s+=f'<image data-credit-id="clipart-red-book-nerdy" href="{art}" x="{left+i*55}" y="25" width="50" height="80" preserveAspectRatio="xMidYMid meet" aria-label="Libro rosso parzialmente aperto"/>'
-  s+=text(center,147,f'{count*15} €')
+   s+=f'<image data-credit-id="clipart-red-book-nerdy" href="{art}" x="{left+i*22}" y="45" width="55" height="80" preserveAspectRatio="xMidYMid meet" aria-label="Libro rosso parzialmente aperto"/>'
+  s+=text(center,170,f'{count*15} €')+'</g>'
  return figure(s+'</svg>','Libri della stessa collana a 15 € ciascuno, senza sconti o costi aggiuntivi. La quantità è un conteggio di libri interi.',CREDIT9)
 
 def journey():
@@ -126,18 +128,18 @@ def scales():
  pts=[(0,0),(1,3),(2,6),(3,9),(4,9),(5,9)]
  s=svg_open(820,365,'Stessi dati del serbatoio con scale verticali da zero a dodici litri e da zero a ventiquattro litri.')
  for offset,m in [(0,12),(420,24)]:
-  inner=plot_svg(pts,5,m,'scale-'+str(m),[0,1,2,3,4,5],list(range(0,m+1,m//4)))
+  inner=plot_svg(pts,5,m,'scale-'+str(m),[0,1,2,3,4,5],list(range(0,m+1,m//4)),curve=lambda t:min(3*t,9),continuous=True)
   inner=inner.replace('<svg ',f'<svg x="{offset}" y="30" width="400" height="295" ',1)
   s+=inner+text(offset+210,25,f'Volume (L), da 0 a {m}',size=24)+text(offset+215,356,'Tempo (min)',size=24)
  s+='</svg>'
  from stringhe_theme import icon
  zoom='<details class="image-zoom"><summary class="media-icon-button" aria-label="Ingrandisci il confronto delle scale"><span class="zoom-expand">'+icon('zoom-in')+'</span><span class="zoom-collapse">'+icon('zoom-out')+'</span></summary><div class="zoom-scroll" tabindex="0" role="region" aria-label="Confronto delle scale ingrandito">'+s.replace('clip-scale-','zoom-clip-scale-')+'</div></details>'
- return f'<figure class="visual graph scale-comparison" data-credit-id="{CREDIT8}"><div class="image-frame"><div class="overview">{s}</div></div>{zoom}<figcaption>Stessi dati, stessa scala del tempo, diversa scala del volume: a destra i punti occupano metà dell’altezza.</figcaption></figure>'
+ return f'<figure class="visual graph scale-comparison" data-credit-id="{CREDIT8}"><div class="image-frame"><div class="overview">{s}</div></div>{zoom}<figcaption>Stessi dati e stesso riempimento continuo, con diversa scala del volume: a destra il tracciato occupa metà dell’altezza.</figcaption></figure>'
 
 def visual(key):
  if key=='C8-SIT':return tank()
  if key=='C8-DIP':return dependence()
- if key=='C8-P':return graph([(0,0),(1,3),(2,6),(3,9),(4,9),(5,9)],5,12,'Tempo t (min)','Volume V (L)','tank','P = (2; 6) associa 2 minuti a 6 litri. I punti a 3, 4 e 5 minuti si trovano alla stessa altezza.',xticks=[0,1,2,3,4,5],yticks=[0,3,6,9,12],highlight=(2,6),credit=CREDIT8)
+ if key=='C8-P':return graph([(0,0),(1,3),(2,6),(3,9),(4,9),(5,9)],5,12,'Tempo t (min)','Volume V (L)','tank','La linea descrive il riempimento continuo; i punti evidenziano gli istanti della tabella. Da 3 minuti il volume rimane costante.',curve=lambda t:min(3*t,9),always_curve=True,xticks=[0,1,2,3,4,5],yticks=[0,3,6,9,12],highlight=(2,6),credit=CREDIT8)
  if key=='C8-INT':return plane()
  if key=='C8-SCA':return scales()
  if key=='C9-SIT':return books()

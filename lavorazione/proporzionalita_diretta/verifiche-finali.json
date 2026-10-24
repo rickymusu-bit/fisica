@@ -1,10 +1,10 @@
 {
   "html": "relazioni_proporzionalita_it.html",
-  "version": "v3",
-  "bozza": "v6",
-  "date": "2026-10-25T00:33:50+02:00",
-  "bytes": 11382399,
-  "sha256": "34f758dcf7d4e5b9544f8db83710c78a9c7ea958e0f1df761b891ef738a8c062",
+  "version": "v4",
+  "bozza": "v7",
+  "date": "2026-10-25T00:40:27+02:00",
+  "bytes": 11382792,
+  "sha256": "c271b5d75dbc1c99e9916fd49ece5d8e87173bdfa13e1b814749ed4fc3eb5148",
   "questions": 9,
   "layouts": 12,
   "parameter_cases": 54,
@@ -18,5 +18,11 @@
     "node --check",
     "git diff --check"
   ],
-  "published": false
+  "published": false,
+  "continuous_tank_graph": true,
+  "distinct_book_groups": [
+    1,
+    2,
+    3
+  ]
 }

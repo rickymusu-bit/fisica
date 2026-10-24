@@ -1,6 +1,6 @@
 # Il piano cartesiano
 
-Versione della bozza: v5 — 24 ottobre 2026.
+Versione della bozza: v6 — 24 ottobre 2026.
 Area: Introduzione alla fisica e alla misura.
 
 [C8-COP — Grafico storico di William Playfair, immagine intera con didascalia identificativa; nessuno zoom.]
@@ -17,7 +17,9 @@ Il **piano cartesiano** è formato da due rette perpendicolari, gli **assi carte
 
 Mettiamo il tempo in minuti sull’asse orizzontale e il volume in litri su quello verticale. La coppia **P = (2; 6)** significa allora «dopo 2 minuti ci sono 6 litri». La prima coordinata, l’**ascissa**, indica quanto spostarsi lungo l’asse orizzontale; la seconda, l’**ordinata**, indica a quale altezza arrivare. Partiamo dall’origine, raggiungiamo 2 sull’asse x e saliamo fino a 6 sull’asse y.
 
-[C8-P — Grafico dei sei dati del serbatoio con P = (2; 6) e proiezioni tratteggiate. Assi orientati con frecce verso destra e verso l’alto: tempo t (min) e volume V (L), senza retta o legge di proporzionalità. Didascalia di lettura del punto.]
+[C8-P — Grafico dei sei dati del serbatoio con P = (2; 6) e proiezioni tratteggiate. Assi orientati con frecce verso destra e verso l’alto: tempo t (min) e volume V (L), linea continua crescente fino a 3 min e orizzontale dopo la chiusura, sempre visibile. Didascalia di lettura del tracciato e dei punti.]
+
+Il volume non salta da 3 a 6 litri: passa continuamente anche per i valori intermedi. Per questo il grafico mostra una linea continua, oltre ai punti che evidenziano gli istanti della tabella. Fino a 3 minuti la linea sale perché entra acqua; dopo la chiusura diventa orizzontale, perché il volume rimane a 9 litri.
 
 L’ordine delle coordinate conta: **(2; 6) e (6; 2) sono punti diversi**. Con questi assi il secondo significherebbe 2 litri dopo 6 minuti, una situazione diversa da quella descritta. I numeri da soli non bastano: i nomi delle grandezze, le unità e le scale danno significato alla posizione.
 
@@ -68,7 +70,7 @@ Una tacca non vale necessariamente un’unità. Se le tacche del volume riportan
 
 Una **scala uniforme** associa a intervalli uguali sullo stesso asse differenze uguali della grandezza. La riconosci confrontando le etichette consecutive. Per costruire un grafico, scegli intervalli che contengano tutti i dati e sfruttino bene lo spazio disponibile; scrivi sempre la grandezza e l’unità di ciascun asse.
 
-[C8-SCA — Confronto statico affiancato dei sei dati: stessa scala orizzontale 0–5 min; scale verticali 0–12 L e 0–24 L, stesse dimensioni esterne. Zoom soltanto per questo confronto con scritte piccole, senza comandi sovrapposti alla zona dei dati. Didascalia sul confronto a dati invariati.]
+[C8-SCA — Confronto statico affiancato dei sei dati: stessa scala orizzontale 0–5 min; scale verticali 0–12 L e 0–24 L, stesse dimensioni esterne e stessa linea continua di riempimento. Zoom soltanto per questo confronto con scritte piccole, senza comandi sovrapposti alla zona dei dati. Didascalia sul confronto a dati invariati.]
 
 Se allarghiamo l’intervallo verticale da 0–12 L a 0–24 L, i punti occupano metà dell’altezza precedente. Il riempimento non è diventato più lento: sono cambiate le dimensioni con cui lo rappresentiamo. Per confrontare due grafici dobbiamo quindi leggere le scale, senza giudicare il fenomeno soltanto dall’inclinazione apparente.
 
@@ -81,7 +83,7 @@ Se allarghiamo l’intervallo verticale da 0–12 L a 0–24 L, i punti occupano
 5. Le tacche consecutive del volume riportano 0, 3, 6 e 9 L. Quale valore si trova a metà fra 3 e 6 L?
 6. Perché nel riempimento descritto il volume è una funzione del tempo, mentre il volume di 9 L non individua un solo istante? Quali variabili mettiamo sugli assi per rispondere alla domanda iniziale?
 7. Due grafici delle stesse coppie sembrano avere altezze diverse perché cambia la scala verticale. È cambiata anche la tabella? Motiva.
-8. Rappresenta i sei dati del serbatoio scegliendo scale uniformi. Quali punti hanno la stessa ordinata? Che cosa è accaduto al rubinetto?
+8. Rappresenta i sei dati del serbatoio e il suo andamento continuo, scegliendo scale uniformi. Quali punti hanno la stessa ordinata? Che cosa è accaduto al rubinetto?
 
 ---
 
@@ -95,3 +97,5 @@ Se allarghiamo l’intervallo verticale da 0–12 L a 0–24 L, i punti occupano
 - Correzione locale successiva: clip art del rubinetto indicata dall’utente, originale SVG conservato e incorporato; frecce dei versi positivi su tutti i grafici del capitolo 8, punte distinte nella corrispondenza tempi–volume.
 
 - Allineamento centrale uniforme di intestazioni e dati in tutte le colonne, come richiesto insieme alla revisione delle tabelle del capitolo 9.
+
+- Ultima correzione: rappresentazione continua V = min(3t, 9) per 0 ≤ t ≤ 5 min, sempre visibile nel grafico principale e nel confronto delle scale. Il piano P resta un’esplorazione delle coordinate.

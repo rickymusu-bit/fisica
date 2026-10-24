@@ -98,7 +98,7 @@
     }
   ],
   "checks": [
-    "Intestazioni e dati delle tabelle tutti centrati; clip art specifiche incorporate; schema del rubinetto senza tratteggio, originale a sinistra e senza goccia a destra",
+    "Tabelle tutte centrate; clip art richieste; rubinetti nei due stati; tre gruppi di libri con quantità 1/2/3; andamento continuo del volume, crescente e poi costante",
     "Tutti i grafici interattivi senza zoom; etichette >=14 CSS px a 320 px",
     "Un solo zoom sul confronto statico delle scale, fuori dai dati; assi orientati e punte separate; SVG Robinet incorporato",
     "P: tastiera, assi, quadranti, limiti e trascinamento",

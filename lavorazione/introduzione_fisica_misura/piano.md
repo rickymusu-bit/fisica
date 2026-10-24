@@ -259,3 +259,6 @@ La nuova richiesta supera il riuso dei libri e della biblioteca nell’8: esempi
 ## Aggiornamento locale delle anteprime 8–9
 
 Tutte le tabelle dei due capitoli hanno ora intestazioni e dati centrati. Nel 9, clip art Openclipart specifiche di libri e autobus (CC0) inserite su richiesta: racconto del viaggio adeguato ad autobus, valori e modello invariati. Nell’8, rubinetto originale a sinistra senza tratteggio e versione senza goccia a destra; preservati assi orientati e punte separate. Capitolo 8 v4 e capitolo 9 v3, prove e schermate aggiornate. Pubblicazione ancora subordinata alla revisione delle nuove anteprime.
+
+
+Aggiornamento delle anteprime: nel capitolo 8 il riempimento continuo è mostrato da una linea crescente fino alla chiusura a 3 min e orizzontale dopo, con i punti della tabella evidenziati. Nel 9, tre situazioni dei libri nettamente separate, quantità esplicite e sovrapposizione interna ai gruppi. Versioni HTML correnti 8 v5 / 9 v4, prove e schermate aggiornate; pubblicazione ancora subordinata all’approvazione dell’anteprima corrente.
