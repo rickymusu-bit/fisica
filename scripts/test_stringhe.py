@@ -69,10 +69,21 @@ class PublicationTests(unittest.TestCase):
         self.assertEqual(set(random), set(allowed))
         self.assertEqual(len(random), len(allowed))
 
-    def test_quiz_has_only_the_future_generator(self):
+    def test_quiz_selects_all_published_chapters_and_levels(self):
         quiz = (ROOT / '_site/quiz.html').read_text()
-        self.assertIn('generare quiz di verifica scegliendo gli argomenti', quiz)
+        allowed = set(json.loads((ROOT / 'pubblicazione.json').read_text())['articoli'])
+        payload = json.loads(re.search(r'<script type="application/json" id="quiz-data">(.*?)</script>', quiz).group(1))
+        self.assertEqual({item['file'] for item in payload['chapters']}, allowed)
+        self.assertEqual({item['chapter'] for item in payload['questions']}, allowed)
+        self.assertEqual({item['level'] for item in payload['questions']}, {'easy', 'medium', 'hard'})
+        self.assertEqual(quiz.count('data-quiz-chapter'), len(allowed))
+        self.assertEqual(quiz.count('data-quiz-group'), 2)
+        self.assertIn('id="quiz-clock"', quiz)
+        self.assertIn('id="quiz-review"', quiz)
+        self.assertIn('25 domande', quiz)
         self.assertNotIn('Chi vuol essere rimandato', quiz)
+        self.assertTrue((ROOT / '_site/quiz/interfaccia.js').is_file())
+        self.assertTrue((ROOT / '_site/quiz/interfaccia.css').is_file())
 
 
 class NewsTests(unittest.TestCase):
