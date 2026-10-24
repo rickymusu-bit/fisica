@@ -3,9 +3,8 @@
   const dataElement = document.getElementById("quiz-data");
   if (!dataElement) return;
   const dataset = JSON.parse(dataElement.textContent);
-  const QUESTION_COUNT = 25;
-  const SECONDS = {easy: 150, medium: 120, hard: 90};
-  const LEVEL_LABELS = {easy: "Facile", medium: "Media", hard: "Difficile"};
+  const MAX_QUESTIONS = 25;
+  const SECONDS_PER_QUESTION = 120;
   const chapters = new Map(dataset.chapters.map(c => [c.file, c]));
   const groupBoxes = [...document.querySelectorAll("[data-quiz-group]")];
   const chapterBoxes = [...document.querySelectorAll("[data-quiz-chapter]")];
@@ -13,6 +12,8 @@
   const active = document.getElementById("quiz-active");
   const results = document.getElementById("quiz-results");
   const startButton = document.getElementById("quiz-start");
+  const countInput = document.getElementById("quiz-count");
+  const durationOutput = document.getElementById("quiz-duration");
   const configError = document.getElementById("quiz-config-error");
   const nextButton = document.getElementById("quiz-next");
   const skipButton = document.getElementById("quiz-skip");
@@ -42,6 +43,11 @@
     return new Set(chapterBoxes.filter(box => box.checked).map(box => box.value));
   }
 
+  function getQuestionCount() {
+    const count = Number(countInput.value);
+    return Number.isInteger(count) && count >= 1 && count <= MAX_QUESTIONS ? count : null;
+  }
+
   function synchronizeCategories() {
     for (const category of groupBoxes) {
       const children = chapterBoxes.filter(box => box.dataset.category === category.value);
@@ -49,8 +55,12 @@
       category.checked = children.length > 0 && selected === children.length;
       category.indeterminate = selected > 0 && selected < children.length;
     }
-    startButton.disabled = selectedChapters().size === 0;
-    if (selectedChapters().size) configError.hidden = true;
+    const count = getQuestionCount();
+    startButton.disabled = selectedChapters().size === 0 || count === null;
+    durationOutput.textContent = count === null
+      ? "Inserisci un numero da 1 a 25."
+      : formatDuration(count * SECONDS_PER_QUESTION);
+    if (!startButton.disabled) configError.hidden = true;
   }
 
   for (const category of groupBoxes) {
@@ -62,6 +72,7 @@
     });
   }
   for (const chapter of chapterBoxes) chapter.addEventListener("change", synchronizeCategories);
+  countInput.addEventListener("input", synchronizeCategories);
   synchronizeCategories();
 
   function formatDuration(seconds) {
@@ -76,7 +87,7 @@
     if (!s) return 0;
     // Il tempo residuo delle domande saltate/confermate non si accumula.
     const quota = Math.max(0, s.perDeadline - now) +
-      (QUESTION_COUNT - s.index - 1) * s.seconds * 1000;
+      (s.count - s.index - 1) * s.seconds * 1000;
     return Math.min(s.deadline - now, quota) / 1000;
   }
 
@@ -95,7 +106,7 @@
       pending: finished ? "non raggiunta" : "da affrontare"
     };
     const fragment = document.createDocumentFragment();
-    for (let i = 0; i < QUESTION_COUNT; i++) {
+    for (let i = 0; i < s.count; i++) {
       const status = questionStatus(s, i, finished);
       const item = document.createElement("li");
       item.className = "quiz-nav-item is-" + status;
@@ -110,9 +121,9 @@
     (finished ? resultSummary : statusSummary).textContent = summary;
   }
 
-  function drawQuestions(pool) {
-    const selected = shuffle(pool).slice(0, QUESTION_COUNT);
-    while (selected.length < QUESTION_COUNT) {
+  function drawQuestions(pool, count) {
+    const selected = shuffle(pool).slice(0, count);
+    while (selected.length < count) {
       const candidateOrder = shuffle(pool);
       // Il dataset di prova è ridotto: evita ripetizioni consecutive quando possibile.
       if (candidateOrder.length > 1 && selected.length &&
@@ -120,7 +131,7 @@
         candidateOrder.push(candidateOrder.shift());
       }
       for (const q of candidateOrder) {
-        if (selected.length === QUESTION_COUNT) break;
+        if (selected.length === count) break;
         selected.push(q);
       }
     }
@@ -138,6 +149,12 @@
 
   function startQuiz() {
     const selected = selectedChapters();
+    const count = getQuestionCount();
+    if (count === null) {
+      configError.textContent = "Scegli un numero di domande tra 1 e 25.";
+      configError.hidden = false;
+      return;
+    }
     const level = document.querySelector('input[name="quiz-level"]:checked').value;
     const pool = dataset.questions.filter(q => selected.has(q.chapter) && q.level === level);
     if (!pool.length) {
@@ -145,16 +162,17 @@
       configError.hidden = false;
       return;
     }
-    const seconds = SECONDS[level];
+    const seconds = SECONDS_PER_QUESTION;
     const now = Date.now();
     session = {
-      questions: drawQuestions(pool),
-      responses: Array(QUESTION_COUNT).fill(null),
-      skipped: Array(QUESTION_COUNT).fill(false),
+      questions: drawQuestions(pool, count),
+      responses: Array(count).fill(null),
+      skipped: Array(count).fill(false),
+      count,
       index: 0,
       level,
       seconds,
-      deadline: now + QUESTION_COUNT * seconds * 1000,
+      deadline: now + count * seconds * 1000,
       perDeadline: now + seconds * 1000
     };
     show("active");
@@ -170,8 +188,8 @@
     if (!s) return;
     const q = s.questions[s.index];
     const chapter = chapters.get(q.chapter);
-    counter.textContent = "Domanda " + (s.index + 1) + " di " + QUESTION_COUNT;
-    progressBar.style.width = (s.index / QUESTION_COUNT * 100) + "%";
+    counter.textContent = "Domanda " + (s.index + 1) + " di " + s.count;
+    progressBar.style.width = (s.index / s.count * 100) + "%";
     document.getElementById("quiz-topic").textContent = chapter
       ? chapter.area + " — " + chapter.title : "";
     prompt.textContent = q.prompt;
@@ -191,7 +209,7 @@
       answerList.append(label);
     });
     nextButton.disabled = true;
-    nextButton.textContent = s.index === QUESTION_COUNT - 1
+    nextButton.textContent = s.index === s.count - 1
       ? "Termina il quiz" : "Conferma e prosegui";
     renderStatuses(navigation, s);
     prompt.tabIndex = -1;
@@ -205,7 +223,7 @@
       session.skipped[session.index] = true;
     }
     const oldDeadline = session.perDeadline;
-    if (session.index === QUESTION_COUNT - 1) {
+    if (session.index === session.count - 1) {
       finish("completed");
       return;
     }
@@ -218,14 +236,14 @@
     if (!session) return;
     const now = Date.now();
     if (now >= session.deadline) {
-      for (let i = session.index; i < QUESTION_COUNT; i++) {
+      for (let i = session.index; i < session.count; i++) {
         if (session.responses[i] === null) session.skipped[i] = true;
       }
       finish("timeout");
       return;
     }
     let count = 0;
-    while (session && now >= session.perDeadline && count < QUESTION_COUNT) {
+    while (session && now >= session.perDeadline && count < session.count) {
       goForward(true);
       count++;
     }
@@ -291,8 +309,8 @@
       li.append(labeledParagraph("Spiegazione:", q.explanation));
       review.append(li);
     });
-    const wrong = QUESTION_COUNT - correct;
-    const mark = (correct * 10 / QUESTION_COUNT).toFixed(1).replace(".", ",");
+    const wrong = s.count - correct;
+    const mark = (correct * 10 / s.count).toFixed(1).replace(".", ",");
     document.getElementById("quiz-grade").textContent = mark + " / 10";
     document.getElementById("quiz-correct").textContent = String(correct);
     document.getElementById("quiz-wrong").textContent = String(wrong);
