@@ -142,6 +142,7 @@ def verify_quiz(page, base):
             page.screenshot(path=str(SHOTS / f'quiz-config-{width}-{theme}.png'), full_page=True)
     # Quantità personalizzabile: limiti 1–30 e durata massima aggiornata.
     page.goto(base + 'quiz.html')
+    page.locator('[data-quiz-chapter]').first.check()
     count_input = page.locator('#quiz-count')
     assert count_input.input_value() == '25'
     assert page.locator('#quiz-duration').inner_text() == '50:00'
@@ -156,7 +157,7 @@ def verify_quiz(page, base):
     assert page.locator('#quiz-duration').inner_text() == '2:00'
 
     # Il quiz a domanda singola termina e corregge una sola risposta.
-    page.locator('[data-quiz-chapter]').first.check()
+    assert page.locator('#quiz-start').is_enabled()
     page.locator('#quiz-start').click()
     assert page.locator('#quiz-counter').inner_text() == 'Domanda 1 di 1'
     assert page.locator('#quiz-navigation .quiz-nav-item').count() == 1
@@ -173,6 +174,11 @@ def verify_quiz(page, base):
     assert page.locator('#quiz-counter').inner_text() == 'Domanda 1 di 30'
     assert page.locator('#quiz-navigation .quiz-nav-item').count() == 30
     assert page.locator('#quiz-clock').inner_text() in ('60:00', '59:59')
+    assert page.locator('#quiz-navigation .is-current').first.evaluate(
+        '(e) => getComputedStyle(e).borderTopWidth') == '4px'
+    page.locator('#quiz-skip').click()
+    assert page.locator('#quiz-navigation .is-skipped').first.evaluate(
+        '(e) => getComputedStyle(e).backgroundColor') == 'rgb(249, 216, 74)'
     page.once('dialog', lambda dialog: dialog.accept())
     page.locator('#quiz-stop').click()
     assert page.locator('.quiz-review-item').count() == 30
