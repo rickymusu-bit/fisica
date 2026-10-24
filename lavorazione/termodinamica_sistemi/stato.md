@@ -147,3 +147,6 @@ Pubblicazione completata nella PR #68 (b395589e1f5f06197723171ab4dfb3d33142114c)
 ## Navigazione per la pubblicazione dei capitoli 8–9
 
 L’utente approva le anteprime della PR #79 con «Perfetto. Pubblica». Aggiornato il solo collegamento adiacente nella sequenza 7 → 8 → 9 → Termodinamica; testo, figure, modello, versione e data editoriale di questo capitolo invariati.
+
+
+Navigazione aggiornata pubblicata con la PR #79 al commit `da6c9bde5f15816a5fe060d9dbe36cedbfe636d9`; pagina pubblica verificata HTTP 200 e identica alla build. Contenuto scientifico, versione e data editoriale di questo capitolo invariati.

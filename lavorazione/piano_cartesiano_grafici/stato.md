@@ -1,6 +1,6 @@
 # Stato — Il piano cartesiano
 
-**Stato corrente — pubblicazione autorizzata il 25 ottobre 2026 (Europe/Rome):** l’utente approva le anteprime finali e richiede «Perfetto. Pubblica». Capitoli 8 e 9 ammessi al manifest; rilascio della PR #79 in corso.
+**Stato corrente — pubblicato:** capitolo HTML v5 online su Stringhe, PR #79 integrata e GitHub Pages completato. Approvazione esplicita: «Perfetto. Pubblica». URL: https://rickymusu-bit.github.io/fisica/piano_cartesiano_grafici_it.html
 
 ## Riferimenti e autorizzazioni
 
@@ -162,3 +162,10 @@ Superati i 24 test automatici, sync_stringhe_theme.py --check, credits.py --chec
 
 
 Controllo finale del portale superato: 250 combinazioni pagina/viewport/tema, 20 copertine, nessun errore JavaScript. Rapporti in lavorazione/sito/verifica-stringhe.json e lavorazione/introduzione_fisica_misura/verifica-pubblicazione.json; schermate aggiornate di home e catalogo. Configurazione pronta per merge e Pages autorizzati.
+
+
+## Pubblicazione completata e verificata
+
+PR #79 integrata in main al commit `da6c9bde5f15816a5fe060d9dbe36cedbfe636d9` dopo il superamento della [verifica GitHub](https://github.com/rickymusu-bit/fisica/actions/runs/40140622208). [Rilascio Pages](https://github.com/rickymusu-bit/fisica/actions/runs/40140944812) completato con successo. Capitolo corrente: [v5, apri sul sito](https://rickymusu-bit.github.io/fisica/piano_cartesiano_grafici_it.html).
+
+Verifica HTTPS finale: dieci file pubblici aggiornati, compresi i due nuovi capitoli, catalogo, home, crediti, quiz e pagine adiacenti, HTTP 200 e identici byte per byte alla build locale; undici indirizzi esclusi, storici o di anteprima HTTP 404. Tutti i 21 controlli superati. Rapporto unico in lavorazione/introduzione_fisica_misura/verifica-pubblicazione-online.json. Nessun contenuto scientifico modificato rispetto alle anteprime approvate. Il presente aggiornamento registra soltanto l’esito del rilascio.

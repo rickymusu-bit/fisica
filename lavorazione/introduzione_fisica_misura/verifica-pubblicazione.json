@@ -19,5 +19,10 @@
   "theme_check": true,
   "credits_check": true,
   "build_check": true,
-  "published": false
+  "published": true,
+  "release_commit": "da6c9bde5f15816a5fe060d9dbe36cedbfe636d9",
+  "online_checks": 21,
+  "online_ok": true,
+  "ci_run": 40140622208,
+  "pages_run": 40140944812
 }

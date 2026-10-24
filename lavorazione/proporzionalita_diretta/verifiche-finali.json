@@ -3,8 +3,8 @@
   "version": "v4",
   "bozza": "v7",
   "date": "2026-10-25T00:40:27+02:00",
-  "bytes": 11382792,
-  "sha256": "c271b5d75dbc1c99e9916fd49ece5d8e87173bdfa13e1b814749ed4fc3eb5148",
+  "bytes": 11382987,
+  "sha256": "791eab033fae1e36a60d15f8d34a715a0ace4f22d98b9d23398eaeed7cf5c7d8",
   "questions": 9,
   "layouts": 12,
   "parameter_cases": 54,
@@ -18,11 +18,19 @@
     "node --check",
     "git diff --check"
   ],
-  "published": false,
+  "published": true,
   "continuous_tank_graph": true,
   "distinct_book_groups": [
     1,
     2,
     3
-  ]
+  ],
+  "publication_authorized": true,
+  "release_commit": "da6c9bde5f15816a5fe060d9dbe36cedbfe636d9",
+  "public_url": "https://rickymusu-bit.github.io/fisica/relazioni_proporzionalita_it.html",
+  "published_sha256": "f12c99695df569644a76f5f48e98dfca560996844f08b53022a09e8257ed014b",
+  "online_checks": 21,
+  "online_ok": true,
+  "publication_unit_tests": 24,
+  "publication_browser_layouts": 250
 }

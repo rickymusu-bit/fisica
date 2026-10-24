@@ -1,6 +1,6 @@
 # Introduzione alla fisica e alla misura — piano editoriale
 
-Data del piano: 21/10/2026 (Europe/Rome). Indice aggiornato al 24/10/2026: nove capitoli ammessi alla pubblicazione; rilascio dei capitoli 8 e 9 autorizzato nella PR #79. Le sezioni di avanzamento conservano la cronologia, superata dalle decisioni più recenti dove specificato.
+Data del piano: 21/10/2026 (Europe/Rome). Indice aggiornato al 24/10/2026: nove capitoli pubblicati; rilascio dei capitoli 8 e 9 completato nella PR #79. Le sezioni di avanzamento conservano la cronologia, superata dalle decisioni più recenti dove specificato.
 Fonte delle regole: MASTER_PROMPT.md v69.6, AGENTS.md, riferimenti/STILE_DISPENSE.md, riferimenti/esempio_irraggiamento.md.
 Macrocategoria approvata dall'utente: **Introduzione alla fisica e alla misura**.
 Piano iniziale approvato: 12 capitoli, con proporzionalità inversa e quadratica insieme. Misure ripetute, media, semidispersione e incertezza sono riunite nel capitolo 7. Il 24/10/2026 l’utente richiede un capitolo sul piano cartesiano e uno su tutte le relazioni di proporzionalità: il percorso aggiornato comprende **9 capitoli**, con proporzionalità diretta, inversa e quadratica nel capitolo 9.
@@ -267,3 +267,8 @@ Aggiornamento delle anteprime: nel capitolo 8 il riempimento continuo è mostrat
 ## Pubblicazione dei capitoli 8 e 9 autorizzata
 
 L’utente approva le anteprime finali con «Perfetto. Pubblica». Le attese precedenti sono superate per il capitolo 8 v5 e il capitolo 9 v4. Manifest portato a nove capitoli dell’area e 19 complessivi, catalogo e navigazione collegati; contenuti scientifici identici alle anteprime approvate. Crediti sincronizzati e test automatici superati. Rilascio nella PR #79 in corso.
+
+
+## Capitoli 8 e 9 pubblicati
+
+PR #79 integrata in main (`da6c9bde5f15816a5fe060d9dbe36cedbfe636d9`), verifica GitHub e Pages completati con successo. Online [Il piano cartesiano](https://rickymusu-bit.github.io/fisica/piano_cartesiano_grafici_it.html), v5, e [Le relazioni di proporzionalità](https://rickymusu-bit.github.io/fisica/relazioni_proporzionalita_it.html), v4. Catalogo dell’area con nove capitoli, 19 complessivi; navigazione e crediti aggiornati. Verifica pubblica: dieci file HTTP 200 identici alla build e undici indirizzi esclusi HTTP 404, nessun problema. Rapporto verifica-pubblicazione-online.json. Le attese di approvazione precedenti sono superate per questo rilascio.

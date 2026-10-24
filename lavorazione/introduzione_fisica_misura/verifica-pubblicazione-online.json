@@ -1,0 +1,162 @@
+{
+  "commit": "da6c9bde5f15816a5fe060d9dbe36cedbfe636d9",
+  "ok": true,
+  "checks": [
+    {
+      "path": "index.html",
+      "url": "https://rickymusu-bit.github.io/fisica/index.html",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 663144,
+      "identical": true,
+      "sha256": "d09edf5b8997c82bb25aaa954c5aaaab7b01ac6bac8be72283bf9069701614d2"
+    },
+    {
+      "path": "articoli.html",
+      "url": "https://rickymusu-bit.github.io/fisica/articoli.html",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 354354,
+      "identical": true,
+      "sha256": "892e85e335dfe0f43826c0a443dc57e084004f010f925bc288981be600ababc5"
+    },
+    {
+      "path": "crediti.html",
+      "url": "https://rickymusu-bit.github.io/fisica/crediti.html",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 414939,
+      "identical": true,
+      "sha256": "5310704707f5b37d4d51e0bab53fe818337ccb21945fa40b59dc28e6daff8a50"
+    },
+    {
+      "path": "quiz.html",
+      "url": "https://rickymusu-bit.github.io/fisica/quiz.html",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 346587,
+      "identical": true,
+      "sha256": "7319957548e1f737f5aadc84a360d3e1731bf11cce6d37e593c0d8666c131642"
+    },
+    {
+      "path": "piano_cartesiano_grafici_it.html",
+      "url": "https://rickymusu-bit.github.io/fisica/piano_cartesiano_grafici_it.html",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 2791986,
+      "identical": true,
+      "sha256": "2adb93a5e22d0b3c3797d7f4cf4f94e1afae70eb518683ac711d985bb39a44ae"
+    },
+    {
+      "path": "relazioni_proporzionalita_it.html",
+      "url": "https://rickymusu-bit.github.io/fisica/relazioni_proporzionalita_it.html",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 11383006,
+      "identical": true,
+      "sha256": "f12c99695df569644a76f5f48e98dfca560996844f08b53022a09e8257ed014b"
+    },
+    {
+      "path": "errori_incertezza_misura_it.html",
+      "url": "https://rickymusu-bit.github.io/fisica/errori_incertezza_misura_it.html",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 4950365,
+      "identical": true,
+      "sha256": "f99113faeec8a87bb4257af78ec70d806a51ed5a819488654f9b335c97cc6e37"
+    },
+    {
+      "path": "termodinamica_sistemi_it.html",
+      "url": "https://rickymusu-bit.github.io/fisica/termodinamica_sistemi_it.html",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 12602773,
+      "identical": true,
+      "sha256": "5041eebe809a7321ad92bcac0355c7c01aa9f0f0b62a3164d5eeb120127da3da"
+    },
+    {
+      "path": "risorse/crediti.json",
+      "url": "https://rickymusu-bit.github.io/fisica/risorse/crediti.json",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 430465,
+      "identical": true,
+      "sha256": "fd8e404f63edfd3401231e956e9629201e5c86552868db894dd994a6e7191ae7"
+    },
+    {
+      "path": "licenze/Lexend-OFL.txt",
+      "url": "https://rickymusu-bit.github.io/fisica/licenze/Lexend-OFL.txt",
+      "status": 200,
+      "expected_status": 200,
+      "bytes": 4435,
+      "identical": true,
+      "sha256": "da67588af7e0987521d7dffc60ca92e8abee37f30535d94b503ec7bc52d73023"
+    },
+    {
+      "path": "sistema_internazionale_notazione_it.html",
+      "url": "https://rickymusu-bit.github.io/fisica/sistema_internazionale_notazione_it.html",
+      "status": 404,
+      "expected_status": 404
+    },
+    {
+      "path": "strumenti_errori_incertezza_it.html",
+      "url": "https://rickymusu-bit.github.io/fisica/strumenti_errori_incertezza_it.html",
+      "status": 404,
+      "expected_status": 404
+    },
+    {
+      "path": "grafici_piano_cartesiano_it.html",
+      "url": "https://rickymusu-bit.github.io/fisica/grafici_piano_cartesiano_it.html",
+      "status": 404,
+      "expected_status": 404
+    },
+    {
+      "path": "lavoro_energie_potenza_it.html",
+      "url": "https://rickymusu-bit.github.io/fisica/lavoro_energie_potenza_it.html",
+      "status": 404,
+      "expected_status": 404
+    },
+    {
+      "path": "bilancio_conservazione_rendimento_it.html",
+      "url": "https://rickymusu-bit.github.io/fisica/bilancio_conservazione_rendimento_it.html",
+      "status": 404,
+      "expected_status": 404
+    },
+    {
+      "path": "potenza_termica_conduzione_convezione_it.html",
+      "url": "https://rickymusu-bit.github.io/fisica/potenza_termica_conduzione_convezione_it.html",
+      "status": 404,
+      "expected_status": 404
+    },
+    {
+      "path": "stati_della_materia_e_passaggi_di_stato.html",
+      "url": "https://rickymusu-bit.github.io/fisica/stati_della_materia_e_passaggi_di_stato.html",
+      "status": 404,
+      "expected_status": 404
+    },
+    {
+      "path": "stati_della_materia_e_passaggi_di_stato_v8_20261016.html",
+      "url": "https://rickymusu-bit.github.io/fisica/stati_della_materia_e_passaggi_di_stato_v8_20261016.html",
+      "status": 404,
+      "expected_status": 404
+    },
+    {
+      "path": "anteprima-bordi-stringhe.html",
+      "url": "https://rickymusu-bit.github.io/fisica/anteprima-bordi-stringhe.html",
+      "status": 404,
+      "expected_status": 404
+    },
+    {
+      "path": "lavorazione/piano_cartesiano_grafici/bozza.html",
+      "url": "https://rickymusu-bit.github.io/fisica/lavorazione/piano_cartesiano_grafici/bozza.html",
+      "status": 404,
+      "expected_status": 404
+    },
+    {
+      "path": "lavorazione/proporzionalita_diretta/bozza.html",
+      "url": "https://rickymusu-bit.github.io/fisica/lavorazione/proporzionalita_diretta/bozza.html",
+      "status": 404,
+      "expected_status": 404
+    }
+  ]
+}

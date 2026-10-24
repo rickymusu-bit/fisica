@@ -4,7 +4,7 @@
   "bozza": "v6",
   "date": "2026-10-25T00:40:27+02:00",
   "bytes": 2791967,
-  "sha256": "1e634ea5186146ae0185cef3f2f9fab6613871c2cee50ba4af2a844a9e899678",
+  "sha256": "342372800edeef5328f334d7c00fbc8d7d872d025879a9789576079c866e50a8",
   "questions": 8,
   "layouts": 12,
   "parameter_cases": 54,
@@ -18,11 +18,19 @@
     "node --check",
     "git diff --check"
   ],
-  "published": false,
+  "published": true,
   "continuous_tank_graph": true,
   "distinct_book_groups": [
     1,
     2,
     3
-  ]
+  ],
+  "publication_authorized": true,
+  "release_commit": "da6c9bde5f15816a5fe060d9dbe36cedbfe636d9",
+  "public_url": "https://rickymusu-bit.github.io/fisica/piano_cartesiano_grafici_it.html",
+  "published_sha256": "2adb93a5e22d0b3c3797d7f4cf4f94e1afae70eb518683ac711d985bb39a44ae",
+  "online_checks": 21,
+  "online_ok": true,
+  "publication_unit_tests": 24,
+  "publication_browser_layouts": 250
 }
