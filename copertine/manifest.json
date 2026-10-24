@@ -1,0 +1,202 @@
+[
+  {
+    "id": "computer-quantistico",
+    "src": "copertine/computer-quantistico.webp",
+    "width": 1067,
+    "height": 1600,
+    "title": "Computer quantistico",
+    "caption": "Un computer quantistico IQM a Espoo, in Finlandia.",
+    "alt": "Struttura dorata e cablaggi del sistema di raffreddamento di un computer quantistico IQM.",
+    "credit_id": "credit-c563b110d74cf49f"
+  },
+  {
+    "id": "cms-cern",
+    "src": "copertine/cms-cern.webp",
+    "width": 1600,
+    "height": 1067,
+    "title": "Dentro il CERN",
+    "caption": "Il rivelatore CMS del Large Hadron Collider, al CERN.",
+    "alt": "Strati concentrici e componenti del grande rivelatore CMS al CERN.",
+    "credit_id": "credit-3e9f846de0485c3d"
+  },
+  {
+    "id": "motore-f100",
+    "src": "copertine/motore-f100.webp",
+    "width": 1600,
+    "height": 971,
+    "title": "Motore a reazione",
+    "caption": "Un motore aeronautico Pratt & Whitney F100.",
+    "alt": "Un motore a reazione F100 esposto fuori dall’aeroplano.",
+    "credit_id": "credit-bfbb32de2ea446ec"
+  },
+  {
+    "id": "uragano-florence",
+    "src": "copertine/uragano-florence.webp",
+    "width": 1600,
+    "height": 1095,
+    "title": "Un uragano visto dallo spazio",
+    "caption": "L’uragano Florence fotografato dalla Stazione Spaziale Internazionale.",
+    "alt": "L’occhio dell’uragano Florence circondato da spirali di nubi, visto dall’orbita.",
+    "credit_id": "credit-48da208508cf3a79"
+  },
+  {
+    "id": "stazione-spaziale",
+    "src": "copertine/stazione-spaziale.webp",
+    "width": 960,
+    "height": 639,
+    "title": "In orbita intorno alla Terra",
+    "caption": "La Stazione Spaziale Internazionale vista dallo Space Shuttle.",
+    "alt": "La Stazione Spaziale Internazionale con i suoi grandi pannelli solari sopra la Terra.",
+    "credit_id": "credit-2c311355b9649750"
+  },
+  {
+    "id": "bobina-tesla",
+    "src": "copertine/bobina-tesla.webp",
+    "width": 960,
+    "height": 856,
+    "title": "Scariche elettriche",
+    "caption": "Una bobina di Tesla durante il funzionamento.",
+    "alt": "Scariche elettriche luminose prodotte da una bobina di Tesla.",
+    "credit_id": "credit-fe500d68e9c73973"
+  },
+  {
+    "id": "cambio-porsche",
+    "src": "copertine/cambio-porsche.webp",
+    "width": 960,
+    "height": 638,
+    "title": "Dentro un cambio",
+    "caption": "Un cambio Porsche in sezione, al museo di Stoccarda.",
+    "alt": "Ingranaggi, alberi e parti interne di un cambio Porsche mostrati in sezione.",
+    "credit_id": "credit-2fac65c82d130109"
+  },
+  {
+    "id": "marco-polo-crepuscolo",
+    "src": "copertine/marco-polo-crepuscolo.webp",
+    "width": 1600,
+    "height": 1200,
+    "title": "Una piattaforma al crepuscolo",
+    "caption": "La piattaforma petrolifera offshore Marco Polo al crepuscolo.",
+    "alt": "La piattaforma petrolifera offshore Marco Polo illuminata al crepuscolo.",
+    "credit_id": "credit-c87a579c49c4f781"
+  },
+  {
+    "id": "wafer-silicio",
+    "src": "copertine/wafer-silicio.webp",
+    "width": 1280,
+    "height": 853,
+    "title": "Circuiti sul silicio",
+    "caption": "La superficie di un wafer di silicio.",
+    "alt": "Circuiti ripetuti sulla superficie di un wafer di silicio, con riflessi multicolori.",
+    "credit_id": "credit-8b6ee9a439a1211c"
+  },
+  {
+    "id": "fondo-cosmico",
+    "src": "copertine/fondo-cosmico.webp",
+    "width": 1280,
+    "height": 640,
+    "title": "La luce dell’universo primordiale",
+    "caption": "Una mappa del fondo cosmico a microonde, osservato dalla missione Planck.",
+    "alt": "Mappa ovale dell’intero cielo con piccole variazioni del fondo cosmico rappresentate in blu e arancione.",
+    "credit_id": "credit-3676840affdd0277"
+  },
+  {
+    "id": "smorzatore-taipei",
+    "src": "copertine/smorzatore-taipei.webp",
+    "width": 1280,
+    "height": 850,
+    "title": "Un pendolo dentro un grattacielo",
+    "caption": "Lo smorzatore a massa accordata del grattacielo Taipei 101.",
+    "alt": "Una grande massa sferica dorata sospesa all’interno del grattacielo Taipei 101.",
+    "credit_id": "credit-facf460466803e38"
+  },
+  {
+    "id": "scudo-camera",
+    "src": "copertine/scudo-camera.webp",
+    "width": 1280,
+    "height": 676,
+    "title": "Scavare sotto la Manica",
+    "caption": "Una macchina per lo scavo del tunnel sotto la Manica.",
+    "alt": "Una grande talpa meccanica in una camera sotterranea durante la costruzione del tunnel della Manica.",
+    "credit_id": "credit-c7d6d6acffb1ea95"
+  },
+  {
+    "id": "daya-bay",
+    "src": "copertine/daya-bay.webp",
+    "width": 1280,
+    "height": 776,
+    "title": "A caccia di antineutrini",
+    "caption": "L’interno di un rivelatore di antineutrini dell’esperimento Daya Bay.",
+    "alt": "Sensori riflettenti rivestono le pareti interne di un rivelatore di antineutrini di Daya Bay.",
+    "credit_id": "credit-f019a0f5a54325e4"
+  },
+  {
+    "id": "organo-augsburg",
+    "src": "copertine/organo-augsburg.webp",
+    "width": 1280,
+    "height": 853,
+    "title": "La fisica del suono",
+    "caption": "Le canne dell’organo della Herz-Jesu-Kirche di Augsburg.",
+    "alt": "Canne metalliche di diverse lunghezze all’interno di un organo a canne.",
+    "credit_id": "credit-11dfaf1d231b0f71"
+  },
+  {
+    "id": "altoforno",
+    "src": "copertine/altoforno.webp",
+    "width": 1280,
+    "height": 655,
+    "title": "Metallo e calore",
+    "caption": "L’altoforno numero 2 di Dąbrowa Górnicza, in Polonia.",
+    "alt": "Interno di un impianto siderurgico con un altoforno e metallo incandescente.",
+    "credit_id": "credit-7afac354280d2d74"
+  },
+  {
+    "id": "libellula-imperatore",
+    "src": "copertine/libellula-imperatore.webp",
+    "width": 1280,
+    "height": 960,
+    "title": "Il volo e la vita",
+    "caption": "Una libellula imperatore fotografata in Irlanda.",
+    "alt": "Una libellula imperatore verde con ali trasparenti appoggiata su una foglia sull’acqua.",
+    "credit_id": "credit-f3f101c3ffb482b7"
+  },
+  {
+    "id": "canocchia-pavone",
+    "src": "copertine/canocchia-pavone.webp",
+    "width": 1280,
+    "height": 853,
+    "title": "Colori sotto il mare",
+    "caption": "Una canocchia pavone, Odontodactylus scyllarus, a Réunion.",
+    "alt": "Una canocchia pavone con occhi sporgenti e corpo dai colori vivaci sul fondale marino.",
+    "credit_id": "credit-d44568883380600b"
+  },
+  {
+    "id": "stambecchi-cingino",
+    "src": "copertine/stambecchi-cingino.webp",
+    "width": 1200,
+    "height": 1600,
+    "title": "In equilibrio sulla diga",
+    "caption": "Stambecchi sulla parete della diga del Cingino, in Italia.",
+    "alt": "Stambecchi si muovono sulla ripida parete in pietra della diga del Cingino.",
+    "credit_id": "credit-b72e0a7afdb40e60"
+  },
+  {
+    "id": "marte-zhurong",
+    "src": "copertine/marte-zhurong.webp",
+    "width": 1280,
+    "height": 727,
+    "title": "Sulla superficie di Marte",
+    "caption": "Il paesaggio marziano ripreso dal rover Zhurong.",
+    "alt": "Terreno rosso e dune su Marte, con una parte del rover Zhurong in primo piano.",
+    "credit_id": "credit-363f6b0edc24a3dd"
+  },
+  {
+    "id": "reattore-atr",
+    "src": "copertine/reattore-atr.webp",
+    "width": 1218,
+    "height": 1600,
+    "title": "Un bagliore blu",
+    "caption": "L’Advanced Test Reactor, all’Idaho National Laboratory.",
+    "alt": "Strutture immerse nell’acqua del reattore Advanced Test Reactor, illuminate da un bagliore blu.",
+    "credit_id": "credit-617183edee5143fb"
+  }
+]
