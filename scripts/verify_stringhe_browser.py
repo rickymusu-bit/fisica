@@ -357,8 +357,11 @@ def verify_quiz(page, base):
             for q in previous['session']['questions']:
                 q['options'] = [f'Alternativa precedente {i+1}' for i in range(legacy_count)]
                 q['order'] = [{'label': label, 'originalIndex': i} for i, label in enumerate(q['options'])]
+            # Uscire prima di sostituire lo snapshot: pagehide salva il quiz attivo.
+            page.goto(base + 'index.html')
             page.evaluate('args => localStorage.setItem(args[0], JSON.stringify(args[1]))', [key, previous])
-            page.reload()
+            page.goto(base + 'quiz.html')
+            assert page.locator('#quiz-active').is_visible()
             assert page.locator('.quiz-answer input').count() == legacy_count
             page.locator(f'.quiz-answer input[value="{legacy_count-1}"]').check()
             page.locator('#quiz-next').click()
