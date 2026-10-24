@@ -69,10 +69,24 @@ class PublicationTests(unittest.TestCase):
         self.assertEqual(set(random), set(allowed))
         self.assertEqual(len(random), len(allowed))
 
-    def test_quiz_has_only_the_future_generator(self):
+    def test_quiz_uses_public_catalogue_and_demo_dataset(self):
         quiz = (ROOT / '_site/quiz.html').read_text()
-        self.assertIn('generare quiz di verifica scegliendo gli argomenti', quiz)
+        self.assertIn('data-quiz-app', quiz)
+        self.assertIn('id="quiz-results-screen"', quiz)
+        self.assertIn('id="quiz-clock"', quiz)
         self.assertNotIn('Chi vuol essere rimandato', quiz)
+        allowed = json.loads((ROOT / 'pubblicazione.json').read_text())['articoli']
+        dataset = json.loads((ROOT / 'quiz/domande-prova.json').read_text())['domande']
+        self.assertEqual(len(dataset), len(allowed) * 25 * 3)
+        for chapter in allowed:
+            for difficulty in ('facile', 'medio', 'difficile'):
+                questions = [q for q in dataset if q['capitolo'] == chapter and q['livello'] == difficulty]
+                self.assertEqual(len(questions), 25)
+                self.assertEqual(len({q['id'] for q in questions}), 25)
+                for q in questions:
+                    self.assertEqual(len(q['opzioni']), 5)
+                    self.assertEqual(len(set(q['opzioni'])), 5)
+                    self.assertIn(q['corretta'], range(5))
 
 
 class NewsTests(unittest.TestCase):
