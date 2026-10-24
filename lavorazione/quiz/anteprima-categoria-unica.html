@@ -429,7 +429,7 @@ a{color:inherit}button,input,select{font:inherit}button,select{color:var(--ink)}
 @media(max-width:440px){.quiz-navigation{grid-template-columns:repeat(5,minmax(0,1fr));max-width:320px}.quiz-legend{gap:7px 11px}.quiz-main-actions{display:grid;grid-template-columns:auto minmax(0,1fr);width:100%;gap:8px}.quiz-main-actions .quiz-action{padding:11px 10px}.quiz-action-stop{margin-left:auto}}
 @media(prefers-reduced-motion:reduce){.quiz-progress span{transition:none}}
 
-</style></head><body><a class="skip" href="#main">Vai al contenuto</a><header class="site-header stringhe-header service-header"><div class="top-inner"><nav class="stringhe-navigation site-nav top-links" aria-label="Navigazione principale"><div class="nav-primary"><a class="string-nav" href="index.html" data-site-path="index.html" aria-label="Home" title="Home"><svg class="ui-icon" data-ui-icon viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m3 10 9-7 9 7v10H6V10M9 20v-7h6v7"/></svg><span class="nav-label">Home</span></a></div><div class="nav-settings"><details class="string-lang" name="stringhe-header-menu"><summary aria-label="Seleziona lingua" title="Lingua: Italiano"><span class="language-code">IT ▾</span></summary><div class="string-languages" lang="it">✓ Italiano</div></details><details class="theme-control theme-menu" data-theme-menu name="stringhe-header-menu"><summary aria-label="Tema del sito: Scuro" title="Tema: Scuro"><span class="theme-current-dark"><svg class="ui-icon" data-ui-icon viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 15A9 9 0 0 1 9 4a9 9 0 1 0 11 11Z"/></svg></span><span class="theme-current-light"><svg class="ui-icon" data-ui-icon viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1 1m12 12 1 1M5 19l1-1M18 6l1-1"/></svg></span><span class="menu-chevron" aria-hidden="true">▾</span></summary><div class="theme-options" role="group" aria-label="Scegli il tema"><button type="button" data-theme-option="dark" aria-pressed="true" disabled><svg class="ui-icon" data-ui-icon viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 15A9 9 0 0 1 9 4a9 9 0 1 0 11 11Z"/></svg><span>Scuro</span></button><button type="button" data-theme-option="light" aria-pressed="false" disabled><svg class="ui-icon" data-ui-icon viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1 1m12 12 1 1M5 19l1-1M18 6l1-1"/></svg><span>Chiaro</span></button></div></details></div></nav></div></header><main id="main"><p class="eyebrow">Mettiti alla prova</p><h1 class="page-title">Quiz</h1><p class="lede">Scegli una categoria e il livello di difficoltà.</p><section id="quiz-config" aria-labelledby="quiz-config-title"><div class="quiz-layout"><div class="quiz-panel"><h2 id="quiz-config-title" tabindex="-1">Categoria</h2><p class="quiz-empty-notice" role="status">Nessuna domanda disponibile al momento.</p><fieldset class="quiz-categories"><legend class="quiz-sr-only">Scegli una categoria</legend><label class="quiz-choice quiz-category-title"><input type="radio" name="quiz-category" data-quiz-category value="introduzione_fisica_misura"><span>Introduzione alla fisica e alla misura</span></label><label class="quiz-choice quiz-category-title"><input type="radio" name="quiz-category" data-quiz-category value="termologia"><span>Termologia</span></label></fieldset></div><aside class="quiz-panel"><h2>Impostazioni</h2><fieldset class="quiz-levels"><legend>Difficoltà</legend><label class="quiz-level"><input type="radio" name="quiz-level" value="easy" checked><strong>Facile</strong><small>3 alternative</small></label><label class="quiz-level"><input type="radio" name="quiz-level" value="medium"><strong>Media</strong><small>4 alternative</small></label><label class="quiz-level"><input type="radio" name="quiz-level" value="hard"><strong>Difficile</strong><small>5 alternative</small></label></fieldset><div class="quiz-count-control"><label for="quiz-count">Numero di domande</label><div class="quiz-count-stepper"><button type="button" id="quiz-count-minus" aria-label="Diminuisci numero di domande">−</button><input type="number" id="quiz-count" min="1" max="30" step="1" value="25" inputmode="numeric"><button type="button" id="quiz-count-plus" aria-label="Aumenta numero di domande">+</button></div></div><p class="quiz-duration-note">2 minuti per domanda — Tempo massimo: <output id="quiz-duration" for="quiz-count">50:00</output></p><button type="button" class="quiz-action quiz-action-primary" id="quiz-start" disabled>Inizia il quiz →</button><p class="quiz-error" id="quiz-config-error" role="alert" hidden></p><p class="quiz-help">Le domande saranno disponibili quando verrà caricato il relativo archivio.</p></aside></div></section><section id="quiz-active" hidden aria-label="Quiz in corso"><div class="quiz-panel"><div class="quiz-status"><strong id="quiz-counter">Domanda 1 di 25</strong><div>Tempo rimanente <span class="quiz-clock" id="quiz-clock" role="timer">00:00</span></div></div><div class="quiz-progress" aria-hidden="true"><span id="quiz-progress-fill"></span></div><p class="quiz-status-summary" id="quiz-status-summary" aria-live="polite"></p><ol id="quiz-navigation" class="quiz-navigation" aria-label="Stato delle domande"></ol><div class="quiz-legend" aria-label="Legenda"><span><i class="quiz-legend-marker is-answered" aria-hidden="true"></i>Risposta data</span><span><i class="quiz-legend-marker is-skipped" aria-hidden="true"></i>Saltata</span><span><i class="quiz-legend-marker is-current" aria-hidden="true"></i>Corrente</span><span><i class="quiz-legend-marker" aria-hidden="true"></i>Da affrontare</span></div><p class="quiz-kicker" id="quiz-topic"></p><h2 id="quiz-prompt" class="quiz-question" tabindex="-1"></h2><fieldset class="quiz-answers" id="quiz-answers" aria-label="Scegli una risposta"></fieldset><div class="quiz-actions-row"><div class="quiz-main-actions"><button class="quiz-action" type="button" id="quiz-skip">Salta</button><button class="quiz-action quiz-action-primary" type="button" id="quiz-next" disabled>Conferma e prosegui</button></div><button class="quiz-action quiz-action-stop" type="button" id="quiz-stop">Concludi</button></div></div></section><section id="quiz-results" hidden aria-labelledby="quiz-results-title"><div class="quiz-panel"><p class="eyebrow">Risultato</p><h2 id="quiz-results-title" tabindex="-1">Il tuo quiz</h2><div class="quiz-score" id="quiz-score">0 / 25</div><p id="quiz-finished-reason"></p><div class="quiz-metrics"><div><strong id="quiz-correct">0</strong>Corrette</div><div><strong id="quiz-wrong">0</strong>Errate o non risposte</div></div><button type="button" id="quiz-again" class="quiz-action quiz-action-primary">Nuovo quiz</button><h2 style="margin-top:36px">Revisione delle risposte</h2><p class="quiz-status-summary" id="quiz-result-summary"></p><ol id="quiz-result-navigation" class="quiz-navigation" aria-label="Stato finale delle domande"></ol><div class="quiz-legend" aria-label="Legenda"><span><i class="quiz-legend-marker is-answered" aria-hidden="true"></i>Risposta data</span><span><i class="quiz-legend-marker is-skipped" aria-hidden="true"></i>Saltata</span><span><i class="quiz-legend-marker" aria-hidden="true"></i>Non raggiunta</span></div><ol id="quiz-review" class="quiz-review"></ol></div></section><noscript><p>Per svolgere il quiz serve JavaScript.</p></noscript><script type="application/json" id="quiz-data">{"categories": [{"id": "introduzione_fisica_misura", "title": "Introduzione alla fisica e alla misura"}, {"id": "termologia", "title": "Termologia"}], "questions": []}</script><script>(() => {
+</style></head><body><a class="skip" href="#main">Vai al contenuto</a><header class="site-header stringhe-header service-header"><div class="top-inner"><nav class="stringhe-navigation site-nav top-links" aria-label="Navigazione principale"><div class="nav-primary"><a class="string-nav" href="index.html" data-site-path="index.html" aria-label="Home" title="Home"><svg class="ui-icon" data-ui-icon viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="m3 10 9-7 9 7v10H6V10M9 20v-7h6v7"/></svg><span class="nav-label">Home</span></a></div><div class="nav-settings"><details class="string-lang" name="stringhe-header-menu"><summary aria-label="Seleziona lingua" title="Lingua: Italiano"><span class="language-code">IT ▾</span></summary><div class="string-languages" lang="it">✓ Italiano</div></details><details class="theme-control theme-menu" data-theme-menu name="stringhe-header-menu"><summary aria-label="Tema del sito: Scuro" title="Tema: Scuro"><span class="theme-current-dark"><svg class="ui-icon" data-ui-icon viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 15A9 9 0 0 1 9 4a9 9 0 1 0 11 11Z"/></svg></span><span class="theme-current-light"><svg class="ui-icon" data-ui-icon viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1 1m12 12 1 1M5 19l1-1M18 6l1-1"/></svg></span><span class="menu-chevron" aria-hidden="true">▾</span></summary><div class="theme-options" role="group" aria-label="Scegli il tema"><button type="button" data-theme-option="dark" aria-pressed="true" disabled><svg class="ui-icon" data-ui-icon viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 15A9 9 0 0 1 9 4a9 9 0 1 0 11 11Z"/></svg><span>Scuro</span></button><button type="button" data-theme-option="light" aria-pressed="false" disabled><svg class="ui-icon" data-ui-icon viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1 1m12 12 1 1M5 19l1-1M18 6l1-1"/></svg><span>Chiaro</span></button></div></details></div></nav></div></header><main id="main"><p class="eyebrow">Mettiti alla prova</p><h1 class="page-title">Quiz</h1><p class="lede">Scegli una categoria e il livello di difficoltà.</p><p id="quiz-save-warning" class="quiz-error" role="alert" hidden></p><section id="quiz-config" aria-labelledby="quiz-config-title"><div class="quiz-layout"><div class="quiz-panel"><h2 id="quiz-config-title" tabindex="-1">Categoria</h2><p class="quiz-empty-notice" role="status">Nessuna domanda disponibile al momento.</p><fieldset class="quiz-categories"><legend class="quiz-sr-only">Scegli una categoria</legend><label class="quiz-choice quiz-category-title"><input type="radio" name="quiz-category" data-quiz-category value="introduzione_fisica_misura"><span>Introduzione alla fisica e alla misura</span></label><label class="quiz-choice quiz-category-title"><input type="radio" name="quiz-category" data-quiz-category value="termologia"><span>Termologia</span></label></fieldset></div><aside class="quiz-panel"><h2>Impostazioni</h2><fieldset class="quiz-levels"><legend>Difficoltà</legend><label class="quiz-level"><input type="radio" name="quiz-level" value="easy" checked><strong>Facile</strong><small>3 alternative</small></label><label class="quiz-level"><input type="radio" name="quiz-level" value="medium"><strong>Media</strong><small>4 alternative</small></label><label class="quiz-level"><input type="radio" name="quiz-level" value="hard"><strong>Difficile</strong><small>5 alternative</small></label></fieldset><div class="quiz-count-control"><label for="quiz-count">Numero di domande</label><div class="quiz-count-stepper"><button type="button" id="quiz-count-minus" aria-label="Diminuisci numero di domande">−</button><input type="number" id="quiz-count" min="1" max="30" step="1" value="25" inputmode="numeric"><button type="button" id="quiz-count-plus" aria-label="Aumenta numero di domande">+</button></div></div><p class="quiz-duration-note">2 minuti per domanda — Tempo massimo: <output id="quiz-duration" for="quiz-count">50:00</output></p><button type="button" class="quiz-action quiz-action-primary" id="quiz-start" disabled>Inizia il quiz →</button><p class="quiz-error" id="quiz-config-error" role="alert" hidden></p><p class="quiz-help">Le domande saranno disponibili quando verrà caricato il relativo archivio.</p></aside></div></section><section id="quiz-active" hidden aria-label="Quiz in corso"><div class="quiz-panel"><div class="quiz-status"><strong id="quiz-counter">Domanda 1 di 25</strong><div>Tempo rimanente <span class="quiz-clock" id="quiz-clock" role="timer">00:00</span></div></div><div class="quiz-progress" aria-hidden="true"><span id="quiz-progress-fill"></span></div><p class="quiz-status-summary" id="quiz-status-summary" aria-live="polite"></p><ol id="quiz-navigation" class="quiz-navigation" aria-label="Stato delle domande"></ol><div class="quiz-legend" aria-label="Legenda"><span><i class="quiz-legend-marker is-answered" aria-hidden="true"></i>Risposta data</span><span><i class="quiz-legend-marker is-skipped" aria-hidden="true"></i>Saltata</span><span><i class="quiz-legend-marker is-current" aria-hidden="true"></i>Corrente</span><span><i class="quiz-legend-marker" aria-hidden="true"></i>Da affrontare</span></div><p class="quiz-kicker" id="quiz-topic"></p><h2 id="quiz-prompt" class="quiz-question" tabindex="-1"></h2><fieldset class="quiz-answers" id="quiz-answers" aria-label="Scegli una risposta"></fieldset><div class="quiz-actions-row"><div class="quiz-main-actions"><button class="quiz-action" type="button" id="quiz-skip">Salta</button><button class="quiz-action quiz-action-primary" type="button" id="quiz-next" disabled>Conferma e prosegui</button></div><button class="quiz-action quiz-action-stop" type="button" id="quiz-stop">Concludi</button></div></div></section><section id="quiz-results" hidden aria-labelledby="quiz-results-title"><div class="quiz-panel"><p class="eyebrow">Risultato</p><h2 id="quiz-results-title" tabindex="-1">Il tuo quiz</h2><div class="quiz-score" id="quiz-score">0 / 25</div><p id="quiz-finished-reason"></p><div class="quiz-metrics"><div><strong id="quiz-correct">0</strong>Corrette</div><div><strong id="quiz-wrong">0</strong>Errate o non risposte</div></div><button type="button" id="quiz-again" class="quiz-action quiz-action-primary">Nuovo quiz</button><h2 style="margin-top:36px">Revisione delle risposte</h2><p class="quiz-status-summary" id="quiz-result-summary"></p><ol id="quiz-result-navigation" class="quiz-navigation" aria-label="Stato finale delle domande"></ol><div class="quiz-legend" aria-label="Legenda"><span><i class="quiz-legend-marker is-answered" aria-hidden="true"></i>Risposta data</span><span><i class="quiz-legend-marker is-skipped" aria-hidden="true"></i>Saltata</span><span><i class="quiz-legend-marker" aria-hidden="true"></i>Non raggiunta</span></div><ol id="quiz-review" class="quiz-review"></ol></div></section><noscript><p>Per svolgere il quiz serve JavaScript.</p></noscript><script type="application/json" id="quiz-data">{"categories": [{"id": "introduzione_fisica_misura", "title": "Introduzione alla fisica e alla misura"}, {"id": "termologia", "title": "Termologia"}], "questions": []}</script><script>(() => {
   "use strict";
   const dataElement = document.getElementById("quiz-data");
   if (!dataElement) return;
@@ -462,6 +462,138 @@ a{color:inherit}button,input,select{font:inherit}button,select{color:var(--ink)}
   const resultSummary = document.getElementById("quiz-result-summary");
   let session = null;
   let intervalId = null;
+
+  const STORAGE_KEY = "stringhe.quiz.session.v1:" + location.pathname;
+  const saveWarning = document.getElementById("quiz-save-warning");
+  let storageAvailable = true;
+
+  function warnBeforeExit(event) {
+    if (session && !storageAvailable) {
+      event.preventDefault();
+      event.returnValue = "";
+    }
+  }
+
+  function storageFailed() {
+    storageAvailable = false;
+    saveWarning.textContent = "Salvataggio automatico non disponibile. Non chiudere o ricaricare la pagina durante il quiz.";
+    saveWarning.hidden = false;
+    if (session) window.addEventListener("beforeunload", warnBeforeExit);
+  }
+
+  function writeSnapshot(snapshot) {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(snapshot));
+      storageAvailable = true;
+      saveWarning.hidden = true;
+      window.removeEventListener("beforeunload", warnBeforeExit);
+    } catch (_) {
+      storageFailed();
+    }
+  }
+
+  function saveActiveSession() {
+    if (session) writeSnapshot({version: 1, status: "active", session});
+  }
+
+  function clearSavedSession() {
+    try {
+      localStorage.removeItem(STORAGE_KEY);
+    } catch (_) {
+      storageFailed();
+    }
+    window.removeEventListener("beforeunload", warnBeforeExit);
+  }
+
+  function validSnapshot(snapshot) {
+    if (!snapshot || snapshot.version !== 1 ||
+        !["active", "completed"].includes(snapshot.status)) return false;
+    if (snapshot.status === "completed" &&
+        !["completed", "timeout", "early"].includes(snapshot.reason)) return false;
+    const s = snapshot.session;
+    if (!s || !Number.isInteger(s.count) || s.count < 1 || s.count > MAX_QUESTIONS ||
+        !Number.isInteger(s.index) || s.index < 0 || s.index >= s.count ||
+        s.seconds !== SECONDS_PER_QUESTION ||
+        !["easy", "medium", "hard"].includes(s.level) ||
+        typeof s.category !== "string" || !s.category ||
+        typeof s.categoryTitle !== "string" ||
+        !Number.isSafeInteger(s.startedAt) || s.startedAt < 0 ||
+        !Number.isSafeInteger(s.deadline) || !Number.isSafeInteger(s.perDeadline) ||
+        s.deadline !== s.startedAt + s.count * s.seconds * 1000 ||
+        s.perDeadline < s.startedAt || s.perDeadline > s.deadline ||
+        !Array.isArray(s.questions) || s.questions.length !== s.count ||
+        !Array.isArray(s.responses) || s.responses.length !== s.count ||
+        !Array.isArray(s.skipped) || s.skipped.length !== s.count) return false;
+    for (let i = 0; i < s.count; i++) {
+      const q = s.questions[i];
+      const n = {easy: 3, medium: 4, hard: 5}[s.level];
+      if (!q || typeof q.id !== "string" || !q.id ||
+          q.category !== s.category || q.level !== s.level ||
+          typeof q.prompt !== "string" || !q.prompt.trim() ||
+          typeof q.explanation !== "string" ||
+          !Array.isArray(q.options) || q.options.length !== n ||
+          q.options.some(x => typeof x !== "string" || !x.trim()) ||
+          !Number.isInteger(q.correct) || q.correct < 0 || q.correct >= n ||
+          !Array.isArray(q.order) || q.order.length !== n) return false;
+      const order = new Set();
+      for (const option of q.order) {
+        if (!option || !Number.isInteger(option.originalIndex) ||
+            option.originalIndex < 0 || option.originalIndex >= n ||
+            option.label !== q.options[option.originalIndex]) return false;
+        order.add(option.originalIndex);
+      }
+      if (order.size !== n || typeof s.skipped[i] !== "boolean" ||
+          (s.responses[i] !== null && (!Number.isInteger(s.responses[i]) ||
+           s.responses[i] < 0 || s.responses[i] >= n))) return false;
+    }
+    return s.pendingResponse === null || (Number.isInteger(s.pendingResponse) &&
+      s.pendingResponse >= 0 && s.pendingResponse < s.questions[s.index].options.length);
+  }
+
+  function restoreSavedSession() {
+    let raw;
+    try {
+      raw = localStorage.getItem(STORAGE_KEY);
+    } catch (_) {
+      storageFailed();
+      onTick();
+      return;
+    }
+    let snapshot = null;
+    if (raw !== null) {
+      try {
+        snapshot = JSON.parse(raw);
+        if (!validSnapshot(snapshot)) throw new Error("Sessione non valida");
+      } catch (_) {
+        clearSavedSession();
+        saveWarning.textContent = "Il quiz salvato non è recuperabile. Puoi iniziarne uno nuovo.";
+        saveWarning.hidden = false;
+        snapshot = null;
+      }
+    }
+    clearInterval(intervalId);
+    intervalId = null;
+    session = null;
+    if (!snapshot) {
+      show("config");
+      return;
+    }
+    const saved = snapshot.session;
+    countInput.value = String(saved.count);
+    for (const box of levelBoxes) box.checked = box.value === saved.level;
+    for (const box of categoryBoxes) box.checked = box.value === saved.category;
+    updateAvailability();
+    if (snapshot.status === "completed") {
+      renderResults(saved, snapshot.reason);
+      return;
+    }
+    session = saved;
+    show("active");
+    renderQuestion();
+    onTick();
+    if (session) intervalId = setInterval(onTick, 250);
+  }
+
 
   function shuffle(items) {
     const copy = items.slice();
@@ -629,10 +761,15 @@ a{color:inherit}button,input,select{font:inherit}button,select{color:var(--ink)}
       count,
       index: 0,
       level,
+      category: selected,
+      categoryTitle: categories.get(selected).title,
+      pendingResponse: null,
+      startedAt: now,
       seconds,
       deadline: now + count * seconds * 1000,
       perDeadline: now + seconds * 1000
     };
+    saveActiveSession();
     show("active");
     renderQuestion();
     clearInterval(intervalId);
@@ -645,10 +782,11 @@ a{color:inherit}button,input,select{font:inherit}button,select{color:var(--ink)}
     const s = session;
     if (!s) return;
     const q = s.questions[s.index];
+    const questionIndex = s.index;
     const category = categories.get(q.category);
     counter.textContent = "Domanda " + (s.index + 1) + " di " + s.count;
     progressBar.style.width = (s.index / s.count * 100) + "%";
-    document.getElementById("quiz-topic").textContent = category ? category.title : "";
+    document.getElementById("quiz-topic").textContent = category ? category.title : s.categoryTitle;
     prompt.textContent = q.prompt;
     answerList.replaceChildren();
     q.order.forEach((option, position) => {
@@ -659,13 +797,20 @@ a{color:inherit}button,input,select{font:inherit}button,select{color:var(--ink)}
       input.name = "quiz-answer";
       input.value = String(option.originalIndex);
       input.setAttribute("aria-label", "Alternativa " + (position + 1));
-      input.addEventListener("change", () => { nextButton.disabled = false; });
+      input.checked = s.pendingResponse === option.originalIndex;
+      input.addEventListener("change", () => {
+        onTick();
+        if (session !== s || s.index !== questionIndex) return;
+        s.pendingResponse = option.originalIndex;
+        nextButton.disabled = false;
+        saveActiveSession();
+      });
       const text = document.createElement("span");
       text.textContent = option.label;
       label.append(input, text);
       answerList.append(label);
     });
-    nextButton.disabled = true;
+    nextButton.disabled = s.pendingResponse === null;
     nextButton.textContent = s.index === s.count - 1
       ? "Termina il quiz" : "Conferma e prosegui";
     renderStatuses(navigation, s);
@@ -685,7 +830,9 @@ a{color:inherit}button,input,select{font:inherit}button,select{color:var(--ink)}
       return;
     }
     session.index += 1;
+    session.pendingResponse = null;
     session.perDeadline = (expired ? oldDeadline : Date.now()) + session.seconds * 1000;
+    saveActiveSession();
     renderQuestion();
   }
 
@@ -743,6 +890,12 @@ a{color:inherit}button,input,select{font:inherit}button,select{color:var(--ink)}
     intervalId = null;
     const s = session;
     session = null;
+    writeSnapshot({version: 1, status: "completed", reason, session: s});
+    window.removeEventListener("beforeunload", warnBeforeExit);
+    renderResults(s, reason);
+  }
+
+  function renderResults(s, reason) {
     let correct = 0;
     const review = document.getElementById("quiz-review");
     review.replaceChildren();
@@ -757,7 +910,7 @@ a{color:inherit}button,input,select{font:inherit}button,select{color:var(--ink)}
       h3.textContent = (i + 1) + ". " + q.prompt;
       const category = categories.get(q.category);
       li.append(h3);
-      if (category) li.append(labeledParagraph("Categoria:", category.title));
+      li.append(labeledParagraph("Categoria:", category ? category.title : s.categoryTitle));
       if (response === null) {
         li.append(labeledParagraph("Stato:", s.skipped[i] ? "Saltata" : "Non raggiunta"));
       }
@@ -782,14 +935,30 @@ a{color:inherit}button,input,select{font:inherit}button,select{color:var(--ink)}
   }
 
   document.getElementById("quiz-again").addEventListener("click", () => {
+    clearSavedSession();
     show("config");
     window.scrollTo({top: 0, behavior: "instant"});
     document.getElementById("quiz-config-title").focus({preventScroll: true});
   });
 
   // Il conteggio si basa su Date.now(): il cambio scheda non sospende il tempo.
-  document.addEventListener("visibilitychange", onTick);
-  window.addEventListener("pageshow", onTick);
+  document.addEventListener("visibilitychange", () => {
+    onTick();
+    if (document.hidden) saveActiveSession();
+  });
+  window.addEventListener("pagehide", () => {
+    onTick();
+    saveActiveSession();
+  });
+  window.addEventListener("pageshow", event => {
+    if (event.persisted) restoreSavedSession();
+    else onTick();
+  });
+  // Le schede dello stesso browser condividono il medesimo quiz salvato.
+  window.addEventListener("storage", event => {
+    if (event.key === STORAGE_KEY || event.key === null) restoreSavedSession();
+  });
+  restoreSavedSession();
 })();
 
 </script></main><footer class="site-footer"><span>Stringhe — L’essenziale della Fisica</span></footer><!-- resource-credits:start -->

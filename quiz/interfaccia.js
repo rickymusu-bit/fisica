@@ -32,6 +32,138 @@
   let session = null;
   let intervalId = null;
 
+  const STORAGE_KEY = "stringhe.quiz.session.v1:" + location.pathname;
+  const saveWarning = document.getElementById("quiz-save-warning");
+  let storageAvailable = true;
+
+  function warnBeforeExit(event) {
+    if (session && !storageAvailable) {
+      event.preventDefault();
+      event.returnValue = "";
+    }
+  }
+
+  function storageFailed() {
+    storageAvailable = false;
+    saveWarning.textContent = "Salvataggio automatico non disponibile. Non chiudere o ricaricare la pagina durante il quiz.";
+    saveWarning.hidden = false;
+    if (session) window.addEventListener("beforeunload", warnBeforeExit);
+  }
+
+  function writeSnapshot(snapshot) {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(snapshot));
+      storageAvailable = true;
+      saveWarning.hidden = true;
+      window.removeEventListener("beforeunload", warnBeforeExit);
+    } catch (_) {
+      storageFailed();
+    }
+  }
+
+  function saveActiveSession() {
+    if (session) writeSnapshot({version: 1, status: "active", session});
+  }
+
+  function clearSavedSession() {
+    try {
+      localStorage.removeItem(STORAGE_KEY);
+    } catch (_) {
+      storageFailed();
+    }
+    window.removeEventListener("beforeunload", warnBeforeExit);
+  }
+
+  function validSnapshot(snapshot) {
+    if (!snapshot || snapshot.version !== 1 ||
+        !["active", "completed"].includes(snapshot.status)) return false;
+    if (snapshot.status === "completed" &&
+        !["completed", "timeout", "early"].includes(snapshot.reason)) return false;
+    const s = snapshot.session;
+    if (!s || !Number.isInteger(s.count) || s.count < 1 || s.count > MAX_QUESTIONS ||
+        !Number.isInteger(s.index) || s.index < 0 || s.index >= s.count ||
+        s.seconds !== SECONDS_PER_QUESTION ||
+        !["easy", "medium", "hard"].includes(s.level) ||
+        typeof s.category !== "string" || !s.category ||
+        typeof s.categoryTitle !== "string" ||
+        !Number.isSafeInteger(s.startedAt) || s.startedAt < 0 ||
+        !Number.isSafeInteger(s.deadline) || !Number.isSafeInteger(s.perDeadline) ||
+        s.deadline !== s.startedAt + s.count * s.seconds * 1000 ||
+        s.perDeadline < s.startedAt || s.perDeadline > s.deadline ||
+        !Array.isArray(s.questions) || s.questions.length !== s.count ||
+        !Array.isArray(s.responses) || s.responses.length !== s.count ||
+        !Array.isArray(s.skipped) || s.skipped.length !== s.count) return false;
+    for (let i = 0; i < s.count; i++) {
+      const q = s.questions[i];
+      const n = {easy: 3, medium: 4, hard: 5}[s.level];
+      if (!q || typeof q.id !== "string" || !q.id ||
+          q.category !== s.category || q.level !== s.level ||
+          typeof q.prompt !== "string" || !q.prompt.trim() ||
+          typeof q.explanation !== "string" ||
+          !Array.isArray(q.options) || q.options.length !== n ||
+          q.options.some(x => typeof x !== "string" || !x.trim()) ||
+          !Number.isInteger(q.correct) || q.correct < 0 || q.correct >= n ||
+          !Array.isArray(q.order) || q.order.length !== n) return false;
+      const order = new Set();
+      for (const option of q.order) {
+        if (!option || !Number.isInteger(option.originalIndex) ||
+            option.originalIndex < 0 || option.originalIndex >= n ||
+            option.label !== q.options[option.originalIndex]) return false;
+        order.add(option.originalIndex);
+      }
+      if (order.size !== n || typeof s.skipped[i] !== "boolean" ||
+          (s.responses[i] !== null && (!Number.isInteger(s.responses[i]) ||
+           s.responses[i] < 0 || s.responses[i] >= n))) return false;
+    }
+    return s.pendingResponse === null || (Number.isInteger(s.pendingResponse) &&
+      s.pendingResponse >= 0 && s.pendingResponse < s.questions[s.index].options.length);
+  }
+
+  function restoreSavedSession() {
+    let raw;
+    try {
+      raw = localStorage.getItem(STORAGE_KEY);
+    } catch (_) {
+      storageFailed();
+      onTick();
+      return;
+    }
+    let snapshot = null;
+    if (raw !== null) {
+      try {
+        snapshot = JSON.parse(raw);
+        if (!validSnapshot(snapshot)) throw new Error("Sessione non valida");
+      } catch (_) {
+        clearSavedSession();
+        saveWarning.textContent = "Il quiz salvato non è recuperabile. Puoi iniziarne uno nuovo.";
+        saveWarning.hidden = false;
+        snapshot = null;
+      }
+    }
+    clearInterval(intervalId);
+    intervalId = null;
+    session = null;
+    if (!snapshot) {
+      show("config");
+      return;
+    }
+    const saved = snapshot.session;
+    countInput.value = String(saved.count);
+    for (const box of levelBoxes) box.checked = box.value === saved.level;
+    for (const box of categoryBoxes) box.checked = box.value === saved.category;
+    updateAvailability();
+    if (snapshot.status === "completed") {
+      renderResults(saved, snapshot.reason);
+      return;
+    }
+    session = saved;
+    show("active");
+    renderQuestion();
+    onTick();
+    if (session) intervalId = setInterval(onTick, 250);
+  }
+
+
   function shuffle(items) {
     const copy = items.slice();
     for (let i = copy.length - 1; i > 0; i--) {
@@ -198,10 +330,15 @@
       count,
       index: 0,
       level,
+      category: selected,
+      categoryTitle: categories.get(selected).title,
+      pendingResponse: null,
+      startedAt: now,
       seconds,
       deadline: now + count * seconds * 1000,
       perDeadline: now + seconds * 1000
     };
+    saveActiveSession();
     show("active");
     renderQuestion();
     clearInterval(intervalId);
@@ -214,10 +351,11 @@
     const s = session;
     if (!s) return;
     const q = s.questions[s.index];
+    const questionIndex = s.index;
     const category = categories.get(q.category);
     counter.textContent = "Domanda " + (s.index + 1) + " di " + s.count;
     progressBar.style.width = (s.index / s.count * 100) + "%";
-    document.getElementById("quiz-topic").textContent = category ? category.title : "";
+    document.getElementById("quiz-topic").textContent = category ? category.title : s.categoryTitle;
     prompt.textContent = q.prompt;
     answerList.replaceChildren();
     q.order.forEach((option, position) => {
@@ -228,13 +366,20 @@
       input.name = "quiz-answer";
       input.value = String(option.originalIndex);
       input.setAttribute("aria-label", "Alternativa " + (position + 1));
-      input.addEventListener("change", () => { nextButton.disabled = false; });
+      input.checked = s.pendingResponse === option.originalIndex;
+      input.addEventListener("change", () => {
+        onTick();
+        if (session !== s || s.index !== questionIndex) return;
+        s.pendingResponse = option.originalIndex;
+        nextButton.disabled = false;
+        saveActiveSession();
+      });
       const text = document.createElement("span");
       text.textContent = option.label;
       label.append(input, text);
       answerList.append(label);
     });
-    nextButton.disabled = true;
+    nextButton.disabled = s.pendingResponse === null;
     nextButton.textContent = s.index === s.count - 1
       ? "Termina il quiz" : "Conferma e prosegui";
     renderStatuses(navigation, s);
@@ -254,7 +399,9 @@
       return;
     }
     session.index += 1;
+    session.pendingResponse = null;
     session.perDeadline = (expired ? oldDeadline : Date.now()) + session.seconds * 1000;
+    saveActiveSession();
     renderQuestion();
   }
 
@@ -312,6 +459,12 @@
     intervalId = null;
     const s = session;
     session = null;
+    writeSnapshot({version: 1, status: "completed", reason, session: s});
+    window.removeEventListener("beforeunload", warnBeforeExit);
+    renderResults(s, reason);
+  }
+
+  function renderResults(s, reason) {
     let correct = 0;
     const review = document.getElementById("quiz-review");
     review.replaceChildren();
@@ -326,7 +479,7 @@
       h3.textContent = (i + 1) + ". " + q.prompt;
       const category = categories.get(q.category);
       li.append(h3);
-      if (category) li.append(labeledParagraph("Categoria:", category.title));
+      li.append(labeledParagraph("Categoria:", category ? category.title : s.categoryTitle));
       if (response === null) {
         li.append(labeledParagraph("Stato:", s.skipped[i] ? "Saltata" : "Non raggiunta"));
       }
@@ -351,13 +504,29 @@
   }
 
   document.getElementById("quiz-again").addEventListener("click", () => {
+    clearSavedSession();
     show("config");
     window.scrollTo({top: 0, behavior: "instant"});
     document.getElementById("quiz-config-title").focus({preventScroll: true});
   });
 
   // Il conteggio si basa su Date.now(): il cambio scheda non sospende il tempo.
-  document.addEventListener("visibilitychange", onTick);
-  window.addEventListener("pageshow", onTick);
+  document.addEventListener("visibilitychange", () => {
+    onTick();
+    if (document.hidden) saveActiveSession();
+  });
+  window.addEventListener("pagehide", () => {
+    onTick();
+    saveActiveSession();
+  });
+  window.addEventListener("pageshow", event => {
+    if (event.persisted) restoreSavedSession();
+    else onTick();
+  });
+  // Le schede dello stesso browser condividono il medesimo quiz salvato.
+  window.addEventListener("storage", event => {
+    if (event.key === STORAGE_KEY || event.key === null) restoreSavedSession();
+  });
+  restoreSavedSession();
 })();
 

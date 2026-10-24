@@ -79,6 +79,7 @@ def render_quiz_page(source, allowed, catalogue, shell):
         '<p class="eyebrow">Mettiti alla prova</p>'
         '<h1 class="page-title">Quiz</h1>'
         '<p class="lede">Scegli una categoria e il livello di difficoltà.</p>'
+        '<p id="quiz-save-warning" class="quiz-error" role="alert" hidden></p>'
         '<section id="quiz-config" aria-labelledby="quiz-config-title">'
         '<div class="quiz-layout"><div class="quiz-panel">'
         '<h2 id="quiz-config-title" tabindex="-1">Categoria</h2>'

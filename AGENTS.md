@@ -123,3 +123,8 @@ Questo criterio vale anche per bozze, anteprime, materiali scaricabili e future 
 Applicare D2.2 del master e `quiz/PROMPT_GENERAZIONE_DOMANDE.md`: una sessione riguarda una sola categoria, per esempio Termologia oppure Introduzione alla fisica e alla misura. Il selettore è esclusivo, senza scelta dei singoli capitoli né combinazioni di categorie. Le domande possono richiedere più principi o capitoli della stessa categoria; non devono richiedere conoscenze disciplinari di altre categorie, salvo prerequisiti di base dichiarati o informazioni fornite nel testo.
 
 Associare ogni domanda al solo ID stabile `category`, definito in `quiz/categorie.json`; non usare titoli o nomi di file come chiavi. Questa scelta sostituisce per i quiz la proposta di tag multipli e classificazione dei capitoli per argomenti. Non avviare tale classificazione. Conservare le categorie coerenti con il catalogo e gli ID invariati nelle rinomine. Limite: 120 secondi per tutte le domande, anche difficili. Il workflow ChatGPT/docente/Codex è nel prompt corrente. Merge e pubblicazione seguono l’approvazione dell’anteprima corrente.
+
+
+## Ripresa del quiz — 24 ottobre 2026
+
+Applicare il salvataggio e recupero locale previsti da D2.2 del master e `quiz/README.md`: conservare quesiti, ordine delle opzioni, risposte e scadenze; il tempo continua a scorrere a pagina chiusa. Una selezione non confermata non conta come risposta. Recuperare anche il risultato fino a «Nuovo quiz»; segnalare il salvataggio indisponibile e gestire dati corrotti. Non promettere recupero dopo cancellazione dei dati o su un altro browser/dispositivo.

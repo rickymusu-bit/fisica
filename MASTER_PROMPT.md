@@ -1,6 +1,6 @@
 # PROMPT MASTER — DISPENSE VISUALI DI FISICA PER IL BIENNIO DEGLI ISTITUTI TECNICI
 
-VERSIONE DEL PROMPT: v69.13 — 24/10/2026, ore 15:30 (Europe/Rome)
+VERSIONE DEL PROMPT: v69.14 — 24/10/2026, ore 16:14 (Europe/Rome)
 
 Questo master raccoglie le regole della dispensa e la procedura per realizzarla con il minor lavoro ripetuto possibile. Le istruzioni relative a immagini, video, traduzioni e simulazioni si applicano quando quei materiali fanno parte della richiesta. Non aggiungere contenuti o lavorazioni solo perché il master ne descrive la gestione.
 
@@ -344,6 +344,8 @@ Ogni quiz riguarda una sola categoria del catalogo: attualmente Termologia oppur
 Ogni domanda appartiene a un solo ID stabile di categoria (`category`), definito in `quiz/categorie.json`, indipendente da titoli e nomi dei file. Le categorie vengono confrontate con il catalogo corrente; se cambia un nome visibile, aggiornare la corrispondenza nel registro conservando l’ID. Non associare le domande ai percorsi dei capitoli. Questa soluzione sostituisce la precedente proposta di tag multipli e classificazione dei contenuti di tutti i capitoli: tale classificazione non è necessaria per i quiz.
 
 Le domande possono collegare più principi o capitoli della categoria scelta, ma non richiedere conoscenze disciplinari esterne non dichiarate. Mantieni distinti tipo (conoscenza, ragionamento, calcolo), difficoltà e ampiezza dei prerequisiti; specifico/trasversale resta una descrizione didattica, senza filtro tecnico a tag. Proponi anche contesti nuovi deducibili dai principi studiati. Ogni domanda, comprese quelle difficili, deve essere plausibilmente risolvibile entro 120 secondi da uno studente preparato del livello previsto, includendo lettura, calcoli e scelta.
+
+Salva automaticamente il quiz nel browser e recuperalo dopo ricarica, uscita o riapertura sullo stesso dispositivo/profilo: conserva quesiti estratti, ordine delle alternative, risposte confermate, scelta provvisoria e scadenze originali. Il tempo fuori dalla pagina continua a scorrere; al ritorno applica tutte le scadenze trascorse e mostra il risultato quando dovuto. Conserva anche il risultato fino a «Nuovo quiz». Non rigenerare quesiti o timer al recupero. Se il salvataggio è bloccato, avvisa e mantieni il funzionamento in memoria; gestisci salvataggi corrotti o incompatibili senza bloccare l’interfaccia. Dettagli e limiti in `quiz/README.md`.
 
 Applica il prompt riutilizzabile `quiz/PROMPT_GENERAZIONE_DOMANDE.md` e le specifiche correnti `quiz/README.md`. Workflow: campione di 9 quesiti in ChatGPT, se tutte le combinazioni tipo/difficoltà sono pertinenti; revisione e approvazione del docente; lotti con Codex usando capitoli, prompt e campione approvato; controlli tecnici e revisione didattica prima dell’uso. La ripartizione è organizzativa, non una garanzia di superiorità scientifica di uno strumento. I controlli automatici non dimostrano adeguatezza o tempo di soluzione per gli studenti. Conserva il campione approvato nel repository quando esiste; non inventarlo. La pubblicazione segue B5.
 

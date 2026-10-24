@@ -75,3 +75,10 @@ Approvazione ricevuta: implementare la semplificazione a categoria unica nell’
 Richiesta esplicita dell’utente: inserire nel piano l’obiettivo di **100 domande per livello per categoria**. Per Termologia e Introduzione alla fisica e alla misura: 300 domande ciascuna, 600 totali. Ripartizione iniziale per ogni livello: 30 conoscenza, 40 ragionamento e 30 calcolo, adattabile ai contenuti.
 
 Aggiornati il piano di produzione nella sezione 10 del prompt (v1.3.0) e le specifiche quiz (v2.1.0). Procedura: campione di 9, revisione docente, lotti indicativamente da 30 e conteggio delle domande approvate per categoria/livello/tipo. Il campione approvato può concorrere al target senza duplicazioni. Il target riguarda l’archivio e non cambia il numero di domande della sessione. Nessuna domanda generata da questo aggiornamento documentale; nessun merge o deployment autorizzato. Prossima fase di produzione, su richiesta: scegliere la categoria del campione.
+
+
+## Salvataggio automatico e ripresa — 24 ottobre 2026
+
+Richiesta esplicita dell’utente: implementare il recupero del quiz dopo ricarica o uscita accidentale. In lavorazione sulla PR #77: snapshot locale con versione, quesiti e ordine delle opzioni, risposte, scelta provvisoria, stato corrente e scadenze originali. Il rientro applica il tempo trascorso; risultato persistente fino a «Nuovo quiz». Dati incoerenti/incompatibili gestiti con avviso e rimozione; storage indisponibile con funzionamento in memoria e richiesta condizionale di avviso prima dell’uscita.
+
+Specifiche v2.2.0, master v69.14 e AGENTS.md aggiornati. Nessuna modifica ai target dell’archivio o ai capitoli. Verifiche di recupero aggiunte alla suite browser; esito corrente nel rapporto `verifica-salvataggio.md`. Nessun merge o deployment autorizzato.
