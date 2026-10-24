@@ -1,36 +1,35 @@
 # Stato — quiz
 
-## Stato corrente — produzione del quiz di Termologia
+## Stato corrente — archivio completo di Termologia
 
-Aggiornamento: 25 ottobre 2026 (Europe/Rome). Master consultato integralmente: v69.15; prompt di generazione v1.4.1; specifiche quiz v2.3.0. Le sezioni successive conservano la cronologia delle richieste precedenti.
+Aggiornamento: 25 ottobre 2026 (Europe/Rome). Master consultato: v69.15; prompt v1.4.1; specifiche quiz v2.3.0. Le sezioni successive conservano la cronologia precedente.
 
-Richiesta corrente: procedere dopo la revisione del campione. L’utente ha richiesto notazione scientifica per i numeri molto piccoli e anche per quelli molto grandi quando non è utile usare i prefissi SI, poi ha confermato «PROCEDI». Regola esplicitata nel prompt corrente per dati, opzioni e soluzioni; il master A4 già la comprende. Nessuna revisione dei capitoli richiesta.
+**Richiesta corrente:** «sta bene, crea tutte quelle rimanenti». L’utente approva il primo lotto e autorizza la produzione di tutte le 261 domande residue, senza ulteriori pause fra i lotti. Restano la notazione scientifica per numeri molto piccoli o grandi quando non è utile usare prefissi SI e le altre istruzioni correnti. Nessuna autorizzazione di pubblicazione è stata dedotta.
 
-**Approvazione didattica ricevuta:** campione v2 di 9 domande (termo-001–termo-009), con α = 1,2 · 10⁻⁵ K⁻¹ nel quesito termo-006 e risultato intermedio 1,2 · 10⁻³ m = 1,2 mm. I contenuti approvati corrispondono al commit `db41942ebd320a5284baa8cbf0973f7e065513d9`; aggiornati soltanto stato editoriale e conteggi della scheda. Questa approvazione consente di procedere alla produzione, senza approvare domande future o pubblicazione.
+**Produzione completata:** 300 quesiti di Termologia, 100 facili, 100 medi e 100 difficili. In ciascun livello 30 conoscenza, 40 ragionamento e 30 calcolo. I 39 già approvati sono conservati senza modificare i record; sono state create 261 nuove proposte, termo-040–termo-300, con quattro alternative e tempi stimati di 40–110 secondi. Calcolatrice di base consentita; nessun nuovo prerequisito disciplinare esterno.
 
-Ramo `feature/quiz-termologia-campione`, derivato da main `ef29a4fe630287c59d707abacd082e2fc0617691`. PR #81 mantenuta in bozza e aggiornata per includere il primo lotto di produzione. Verificato main ancora invariato all’avvio. Letti i dieci capitoli pubblicati della categoria nel lavoro iniziale: riferimenti fissati nella base documentale del campione. Nessun uso di capitoli esclusi o bozze come sostituti dei sorgenti pubblicati.
-
-**Primo lotto completato:** 30 nuove proposte, termo-010–termo-039. Dieci per livello; in ciascun livello 3 conoscenza, 4 ragionamento, 3 calcolo. Tutte con categoria unica `termologia`, quattro alternative e tempi stimati 35–110 secondi; calcolatrice di base consentita. Posizioni delle risposte corrette variate, senza ciclo fisso. Il formato separa i soli otto campi del dataset dai metadati di revisione.
+Ramo `feature/quiz-termologia-campione`, PR #81 in bozza. Base scientifica: i dieci capitoli pubblicati di Termologia al commit `ef29a4fe630287c59d707abacd082e2fc0617691`; main verificato invariato all’avvio. Campione approvato al commit `db41942ebd320a5284baa8cbf0973f7e065513d9`; primo lotto approvato al commit `03ab66243a60bdd93decdb4227e1c9dd435616b5`.
 
 File correnti:
 
-- [Campione approvato](termologia/bozza.md) e [JSON del campione](termologia/campione.json).
-- [Schede del primo lotto](termologia/lotto.md) e [JSON del primo lotto](termologia/lotto.json).
+- [Indice della revisione completa](termologia/indice.md), con nove lotti nuovi da 29 quesiti ciascuno.
+- [Archivio completo candidato](termologia/archivio.json): i soli sette campi previsti, pronto per l’importazione successiva.
+- [Metadati didattici e ricalcoli](termologia/revisione.json), separati dal dataset di importazione.
+- [Rapporto delle verifiche](termologia/verifica-archivio.md) e controllo ripetibile `termologia/verifica_archivio.py`.
+- [Campione approvato](termologia/bozza.md) e [primo lotto approvato](termologia/lotto.md), con i JSON originali invariati.
 
-Le schede contengono prerequisiti effettivi, riferimenti, soluzioni, motivi dei livelli, analisi dei distrattori e stime dei tempi. Nessun nuovo visuale o simulazione necessario. Nessun quesito del lotto è ancora approvato dal docente. Nessuna integrazione nell’archivio pubblico, modifica all’interfaccia, ai capitoli o al manifest: `quiz/domande.json` resta assente e il sito pubblico invariato.
+| Livello | Approvate | Nuove proposte da revisionare | Totale preparato |
+|---|---:|---:|---:|
+| Facile | 13 | 87 | 100 |
+| Medio | 13 | 87 | 100 |
+| Difficile | 13 | 87 | 100 |
+| Totale | 39 | 261 | 300 |
 
-**Verifiche concluse:** validatore corrente `load_questions` sui due file e assenza di archivio pubblico; 39 ID e testi distinti; otto campi previsti e quattro alternative distinte; ripartizione del lotto per tipo/livello, coerenza puntuale JSON/schede/opzioni/soluzioni, collegamenti locali e tempi entro 120 secondi. Ricalcolati indipendentemente tutti i nove quesiti numerici del lotto: 298,15 K; 16,7 kJ; 144 kJ; 30 W; 35 °C; 40 °C; circa 18 g; 43,9 kJ; 35 °C. Verificato anche il bilancio nullo dei tre corpi in termo-039. Superati i cinque test esistenti di `scripts/test_quiz.py` e `git diff --check`. Revisione manuale di chiarezza, unicità della risposta e prerequisiti effettuata, senza attribuirle valore di approvazione del docente o di sperimentazione in classe. Nessuna build o prova browser necessaria per questi soli materiali di lavorazione.
+**Verifiche concluse:** validatore corrente sull’archivio completo; conteggi e ripartizione; 300 ID continui e testi distinti anche dopo normalizzazione numerica; preservazione dei 39 record approvati; quattro alternative e soluzione valida; coerenza completa dei nove lotti con il JSON; riferimenti locali, metadati e tempi entro 120 secondi. Ricalcolati tutti i 78 nuovi quesiti quantitativi, verificando anche il numero presentato nell’alternativa corretta e gli arrotondamenti. Le risposte sono distribuite in 75 posizioni A, 75 B, 75 C e 75 D, in ordine variato. Superati i cinque test esistenti del quiz e il controllo whitespace dei file preparati per il commit. Revisione interna di ipotesi, segni, unità, distrattori e sovrapposizioni completata; dettagli e limiti nel rapporto. Nessun nuovo visuale, modifica ai capitoli, al manifest, al motore o alla pubblicazione. Non necessaria una build del sito per soli materiali di lavorazione.
 
-| Livello | Campione approvato | Lotto da revisionare | Totale preparato | Target approvato |
-|---|---:|---:|---:|---:|
-| Facile | 3 | 10 | 13 | 100 |
-| Medio | 3 | 10 | 13 | 100 |
-| Difficile | 3 | 10 | 13 | 100 |
-| Totale | 9 | 30 | 39 | 300 |
+**Approvazioni effettive:** campione e primo lotto, per un totale di 39 domande. Le 261 nuove sono prodotte e controllate ma non ancora approvate dal docente. Il target quantitativo di produzione è raggiunto; quello di 300 domande approvate richiede la revisione residua. Le stime dei tempi non sono prove osservate sugli studenti.
 
-Per ciascun livello il totale preparato è 4 conoscenza, 5 ragionamento e 4 calcolo; il totale approvato resta uno per tipo. Target invariato, con riferimento 30/40/30 per tipo a regime. Il campione approvato potrà entrare nel totale senza duplicare gli ID.
-
-**Prossima operazione:** revisione didattica del nuovo lotto secondo la sezione 10, fase 4, del prompt; applicare eventuali correzioni e aggiornare i conteggi di approvazione. Restano da produrre ulteriori lotti fino al target, senza attribuire approvazioni preventive. L’integrazione dell’archivio e la verifica della pagina effettiva seguono la fase 5, con anteprima prima di merge o deployment. Nessuna autorizzazione di pubblicazione dedotta da «PROCEDI».
+**Prossima operazione:** revisione didattica delle 261 nuove, applicazione delle eventuali correzioni e aggiornamento dei conteggi di approvazione. La produzione richiesta è conclusa. Dopo la revisione, integrazione in `quiz/domande.json`, verifica di estrazione/sessione e anteprima corrente; merge e pubblicazione soltanto dopo la relativa approvazione esplicita. L’archivio pubblico resta assente e il sito non è stato cambiato.
 
 Ultimo aggiornamento: 2026-10-16 14:15 (Europe/Rome). Master consultato: v44.
 

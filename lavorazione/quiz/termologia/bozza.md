@@ -4,7 +4,7 @@ Versione v2 — 24 ottobre 2026. **Campione approvato dal docente dopo la correz
 
 Categoria unica: `termologia`. Destinatari di progetto: biennio degli istituti tecnici, 14–16 anni. Strumento consentito: calcolatrice di base. Nessun prerequisito disciplinare esterno ai capitoli consultati; si usano le operazioni e le conversioni di base previste dal master.
 
-Si applicano MASTER_PROMPT.md v69.15 (D2.2), il prompt di generazione v1.4.0 e le specifiche quiz v2.3.0. Questo è il campione iniziale della fase 1: non sostituisce il target di 300 domande approvate per Termologia. Il file [campione.json](campione.json) contiene soltanto gli otto campi previsti dal validatore, in un oggetto `questions`; non è caricato nell’archivio pubblico `quiz/domande.json`.
+Si applicano MASTER_PROMPT.md v69.15 (D2.2), il prompt di generazione v1.4.0 e le specifiche quiz v2.3.0. Questo è il campione iniziale della fase 1: non sostituisce il target di 300 domande approvate per Termologia. Il file [campione.json](campione.json) contiene soltanto i sette campi previsti dal validatore, in un oggetto `questions`; non è caricato nell’archivio pubblico `quiz/domande.json`.
 
 ## Distribuzione e avanzamento
 

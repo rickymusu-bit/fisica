@@ -1,10 +1,10 @@
 # Quiz di Termologia — primo lotto
 
-Versione v1 — 25 ottobre 2026 (Europe/Rome). **30 nuove proposte, da revisionare; nessuna approvazione didattica ancora ricevuta per questo lotto.**
+Versione v1 — 25 ottobre 2026 (Europe/Rome). **30 quesiti approvati dall’utente con «sta bene, crea tutte quelle rimanenti».**
 
 Campione di riferimento: [campione approvato](bozza.md), commit `db41942ebd320a5284baa8cbf0973f7e065513d9`, con conferma dell’utente «PROCEDI» e integrazione sulla notazione dei numeri molto grandi. Si applicano il master v69.15 e il prompt v1.4.1. Fonti: i dieci capitoli pubblicati consultati e fissati nel [campione](bozza.md#base-documentale), commit `ef29a4fe630287c59d707abacd082e2fc0617691`; nessuna variazione di main rilevata all’avvio.
 
-Categoria unica `termologia`. Destinatari: biennio, 14–16 anni. Calcolatrice di base consentita. Prerequisiti esterni: soltanto operazioni, proporzioni e conversioni di base. [lotto.json](lotto.json) usa lo schema corrente con i soli otto campi dei quesiti; i metadati didattici restano in questo documento.
+Categoria unica `termologia`. Destinatari: biennio, 14–16 anni. Calcolatrice di base consentita. Prerequisiti esterni: soltanto operazioni, proporzioni e conversioni di base. [lotto.json](lotto.json) usa lo schema corrente con i soli sette campi dei quesiti; i metadati didattici restano in questo documento.
 
 | Livello | Conoscenza | Ragionamento | Calcolo | Totale |
 |---|---:|---:|---:|---:|
@@ -735,4 +735,4 @@ Un blocco di massa 0,20 kg e calore specifico 900 J/(kg · K), a 80 °C, viene i
 
 Ogni quesito è stato risolto e confrontato con il campione per evitare duplicati e semplici sostituzioni numeriche. Alcuni principi ricorrono con operazioni diverse: termo-018 applica direttamente il calore latente, mentre termo-037 lo collega alla conduzione e termo-038 distingue tre fasi termiche. Le fonti riguardano soltanto Termologia; le proprietà particolari e i dati necessari sono dichiarati nei quesiti.
 
-La proposta non è inserita nel sito pubblico. Prima dell’uso occorre la revisione del docente su correttezza, chiarezza, distrattori, difficoltà e tempi, secondo la sezione 10, fase 4, del prompt. In particolare vanno calibrati i quesiti difficili e i tempi stimati. I risultati automatici e i conteggi sono registrati nel file [di stato](../stato.md). L’approvazione del campione non approva questo lotto; merge e pubblicazione restano subordinati all’anteprima corrente.
+Il lotto è stato approvato dal docente, che ha autorizzato la produzione di tutte le domande rimanenti. I 30 record restano invariati rispetto al commit `03ab66243a60bdd93decdb4227e1c9dd435616b5`; la conferma non approva preventivamente i quesiti nuovi. Resta da verificare con gli studenti la calibrazione dei livelli e dei tempi stimati. I risultati automatici e i conteggi sono registrati nel file [di stato](../stato.md). Merge e pubblicazione restano subordinati all’anteprima corrente.
