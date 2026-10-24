@@ -140,6 +140,44 @@ def verify_quiz(page, base):
             set_theme(page, theme)
             assert page.evaluate('document.documentElement.scrollWidth <= innerWidth')
             page.screenshot(path=str(SHOTS / f'quiz-config-{width}-{theme}.png'), full_page=True)
+    # Quantità personalizzabile: limiti 1–30 e durata massima aggiornata.
+    page.goto(base + 'quiz.html')
+    count_input = page.locator('#quiz-count')
+    assert count_input.input_value() == '25'
+    assert page.locator('#quiz-duration').inner_text() == '50:00'
+    count_input.fill('30')
+    assert page.locator('#quiz-duration').inner_text() == '60:00'
+    count_input.fill('31')
+    assert page.locator('#quiz-start').is_disabled()
+    assert '1 a 30' in page.locator('#quiz-duration').inner_text()
+    count_input.fill('0')
+    assert page.locator('#quiz-start').is_disabled()
+    count_input.fill('1')
+    assert page.locator('#quiz-duration').inner_text() == '2:00'
+
+    # Il quiz a domanda singola termina e corregge una sola risposta.
+    page.locator('[data-quiz-chapter]').first.check()
+    page.locator('#quiz-start').click()
+    assert page.locator('#quiz-counter').inner_text() == 'Domanda 1 di 1'
+    assert page.locator('#quiz-navigation .quiz-nav-item').count() == 1
+    page.locator('.quiz-answer input').first.check()
+    page.locator('#quiz-next').click()
+    assert page.locator('#quiz-results').is_visible()
+    assert page.locator('.quiz-review-item').count() == 1
+
+    # A 30 domande la griglia e il tempo iniziale restano coerenti.
+    page.goto(base + 'quiz.html')
+    page.locator('#quiz-count').fill('30')
+    page.locator('[data-quiz-chapter]').first.check()
+    page.locator('#quiz-start').click()
+    assert page.locator('#quiz-counter').inner_text() == 'Domanda 1 di 30'
+    assert page.locator('#quiz-navigation .quiz-nav-item').count() == 30
+    assert page.locator('#quiz-clock').inner_text() in ('60:00', '59:59')
+    page.once('dialog', lambda dialog: dialog.accept())
+    page.locator('#quiz-stop').click()
+    assert page.locator('.quiz-review-item').count() == 30
+    assert page.locator('#quiz-result-navigation .quiz-nav-item').count() == 30
+
     for level, alternatives in (('easy', 3), ('medium', 4), ('hard', 5)):
         page.goto(base + 'quiz.html')
         page.locator('[data-quiz-chapter]').first.check()
