@@ -310,8 +310,7 @@
       review.append(li);
     });
     const wrong = s.count - correct;
-    const mark = (correct * 10 / s.count).toFixed(1).replace(".", ",");
-    document.getElementById("quiz-grade").textContent = mark + " / 10";
+    document.getElementById("quiz-score").textContent = correct + " / " + s.count;
     document.getElementById("quiz-correct").textContent = String(correct);
     document.getElementById("quiz-wrong").textContent = String(wrong);
     const note = document.getElementById("quiz-finished-reason");
