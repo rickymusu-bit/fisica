@@ -1,0 +1,62 @@
+name: Prepara anteprima economia informativa
+on:
+  push:
+    branches: [revisione/economia-informativa]
+    paths: [.github/workflows/economia-bootstrap.yml]
+permissions:
+  contents: write
+jobs:
+  prepara:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Applica la revisione verificata
+        run: python lavorazione/sito/economia-bootstrap.py
+      - name: Verifica tema, crediti, build e test
+        run: |
+          python scripts/sync_stringhe_theme.py --check
+          python scripts/credits.py --check
+          python scripts/build_pages.py
+          python -m unittest discover -s scripts -p 'test_*.py'
+      - name: Prepara le schermate desktop e telefono
+        run: |
+          python -m pip install playwright==1.56.0
+          python -m playwright install --with-deps chromium
+          python lavorazione/sito/economia-schermate.py
+      - name: Salva i capitoli nel solo ramo di revisione
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm .github/workflows/economia-bootstrap.yml lavorazione/sito/economia-bootstrap.py lavorazione/sito/economia-schermate.py
+          git add -A
+          git commit -m "Applica la revisione editoriale verificata dei 17 capitoli"
+          git push origin HEAD:revisione/economia-informativa
+      - name: Prepara il catalogo dell'anteprima isolata
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import shutil
+          source=Path('lavorazione/sito/economia-informativa')
+          target=Path('_site')
+          page=(source/'index.html').read_text().replace('../../../','').replace('schermate/','revisione-schermate/')
+          (target/'revisione.html').write_text(page)
+          shutil.copytree(source/'schermate',target/'revisione-schermate',dirs_exist_ok=True)
+          (target/'anteprima-bordi-stringhe.html').unlink(missing_ok=True)
+          PY
+      - name: Salva la sola anteprima, senza Pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cd _site
+          git init -b anteprima/economia-informativa
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Anteprima isolata della revisione editoriale"
+          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push origin HEAD:refs/heads/anteprima/economia-informativa
