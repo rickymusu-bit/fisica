@@ -5,14 +5,17 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT / "quiz" / "domande-prova.json"
+DATA = ROOT / "quiz" / "domande.json"
 LEVELS = {"easy": 3, "medium": 4, "hard": 5}
 
 
 def load_questions(allowed):
+    # Nessun archivio: l'interfaccia rimane visibile, ma non avviabile.
+    if not DATA.is_file():
+        return []
     archive = json.loads(DATA.read_text(encoding="utf-8"))
-    if archive.get("status") != "demo" or not isinstance(archive.get("questions"), list):
-        raise ValueError("Archivio di prova non valido")
+    if not isinstance(archive, dict) or not isinstance(archive.get("questions"), list):
+        raise ValueError("Archivio delle domande non valido")
     questions = archive["questions"]
     if len({q["id"] for q in questions}) != len(questions):
         raise ValueError("Identificativi duplicati nelle domande")
@@ -65,7 +68,9 @@ def render_quiz_page(source, allowed, catalogue, shell):
         '<div class="quiz-layout"><div class="quiz-panel">'
         '<h2 id="quiz-config-title" tabindex="-1">Capitoli</h2>'
         '<p class="quiz-muted">Seleziona uno o più capitoli, oppure un’intera categoria.</p>'
-        + "".join(category_html) +
+        + ('<p class="quiz-empty-notice" role="status">Nessuna domanda disponibile al momento.</p>'
+           if not questions else '') +
+        "".join(category_html) +
         '</div><aside class="quiz-panel"><h2>Impostazioni</h2>'
         '<fieldset class="quiz-levels"><legend>Difficoltà</legend>'
         '<label class="quiz-level"><input type="radio" name="quiz-level" value="easy" checked>'
@@ -85,8 +90,7 @@ def render_quiz_page(source, allowed, catalogue, shell):
         '<output id="quiz-duration" for="quiz-count">50:00</output></p>'
         '<button type="button" class="quiz-action quiz-action-primary" id="quiz-start" disabled>Inizia il quiz →</button>'
         '<p class="quiz-error" id="quiz-config-error" role="alert" hidden></p>'
-        '<p class="quiz-help">Archivio dimostrativo: alcune domande possono ripetersi. '
-        'Il punteggio è indicativo, non adatto a verifiche valutative.</p>'
+        '<p class="quiz-help">Le domande saranno disponibili quando verrà caricato il relativo archivio.</p>'
         '</aside></div></section>'
         '<section id="quiz-active" hidden aria-label="Quiz in corso"><div class="quiz-panel">'
         '<div class="quiz-status"><strong id="quiz-counter">Domanda 1 di 25</strong>'

@@ -1,6 +1,6 @@
-# Quiz di Stringhe — specifiche v1.5.0
+# Quiz di Stringhe — specifiche v1.6.0
 
-**Stato:** prototipo funzionante con archivio di prova, non approvato per pubblicazione e non adatto a verifiche valutative.  
+**Stato:** interfaccia pubblicabile senza archivio di quesiti; il quiz rimane disabilitato fino al caricamento di domande reali.  
 **Data:** 24 ottobre 2026 (Europe/Rome).
 
 ## Comportamento
@@ -26,13 +26,13 @@
 
 ## Archivio di domande
 
-La sorgente è **quiz/domande-prova.json**, separata dall'interfaccia. Ogni record contiene:
+Quando sarà disponibile, la sorgente sarà **quiz/domande.json**, separata dall'interfaccia. Finché il file manca, la build genera una lista di domande vuota: tutte le caselle dei capitoli e categorie sono disabilitate e il quiz non è avviabile. L'archivio dimostrativo è stato cancellato dal repository. Ogni futuro record conterrà:
 
 \`id\`, \`chapter\` (filename HTML pubblicato), \`level\` (\`easy\`, \`medium\`, \`hard\`), \`prompt\`, \`options\`, \`correct\` (indice dell'alternativa corretta a partire da zero), \`explanation\`.
 
 La build controlla che gli ID siano unici, che il capitolo sia pubblicato, che il numero di alternative coincida con il livello e che la risposta corretta sia valida. Il dataset è incorporato in \`_site/quiz.html\` durante la build, senza richiesta di rete, ma resta un file indipendente nei sorgenti.
 
-**Limite del prototipo:** 45 domande, una per ciascuno dei 15 capitoli attuali e per livello; se le domande disponibili non arrivano al numero selezionato, il motore le riutilizza fino al numero richiesto, mescolando l'ordine. Questa soluzione serve **solo per provare il flusso** e andrà rimossa quando l'archivio definitivo garantirà una quantità sufficiente di domande distinte per ciascuna selezione ammessa. Per verifiche scolastiche servono più quesiti indipendenti, correttezza scientifica verificata e varianti autenticamente equivalenti, non semplici sostituzioni numeriche.
+**Verifica:** i test automatici generano un piccolo insieme temporaneo di domande durante l'esecuzione, senza salvarlo né pubblicarlo nel sito. Il motore oggi può ripetere domande quando il numero selezionato supera le domande realmente disponibili: questa funzionalità andrà valutata prima di usare i quiz come verifiche scolastiche.
 
 ## Struttura
 
@@ -42,7 +42,7 @@ La build controlla che gli ID siano unici, che il capitolo sia pubblicato, che i
 - \`scripts/strings_site.py\`: integrazione della pagina nel portale.
 - \`scripts/build_pages.py\`: copia degli asset nel sito costruito.
 
-La pagina è generata e provabile su un ramo dedicato; **non integrare in main e non pubblicare su GitHub Pages senza approvazione dell'anteprima corrente**.
+L'interfaccia può essere pubblicata anche senza quesiti. L'aggiunta di domande reali richiederà l'archivio quiz/domande.json e una nuova build.
 
 ## Verifica
 

@@ -126,6 +126,38 @@ def verify_quiz(page, base):
     groups = page.locator('[data-quiz-group]')
     assert chapters.count() == 15 and groups.count() == 2
     assert page.locator('#quiz-start').is_disabled()
+    assert all(box.is_disabled() for box in chapters.all())
+    assert all(box.is_disabled() for box in groups.all())
+    assert page.locator('.quiz-empty-notice').is_visible()
+    # I test funzionali usano domande effimere, non caricate nel sito o nel repository.
+    original_html = (SITE / 'quiz.html').read_text(encoding='utf-8')
+    match = re.search(r'(<script type="application/json" id="quiz-data">)(.*?)(</script>)',
+                      original_html, re.S)
+    assert match
+    archive = json.loads(match.group(2))
+    assert archive['questions'] == []
+    fixture_archive = json.loads(json.dumps(archive))
+    fixture_archive['questions'] = [
+        {
+            'id': f"test-{chapter['file']}-{level}",
+            'chapter': chapter['file'],
+            'level': level,
+            'prompt': f"Domanda simulata: {chapter['title']} ({level})?",
+            'options': [f"Alternativa {i+1}" for i in range(option_count)],
+            'correct': 0,
+            'explanation': "Spiegazione usata soltanto dai test."
+        }
+        for chapter in archive['chapters']
+        for level, option_count in [('easy', 3), ('medium', 4), ('hard', 5)]
+    ]
+    fixture_json = json.dumps(fixture_archive, ensure_ascii=False).replace('<', '\\u003c')
+    fixture_html = original_html[:match.start(2)] + fixture_json + original_html[match.end(2):]
+    route_pattern = '**/quiz.html'
+    page.route(route_pattern, lambda route: route.fulfill(
+        status=200, content_type='text/html; charset=utf-8', body=fixture_html))
+    page.goto(base + 'quiz.html')
+    chapters = page.locator('[data-quiz-chapter]')
+    groups = page.locator('[data-quiz-group]')
     chapters.first.check()
     assert groups.first.evaluate('(e)=>e.indeterminate')
     groups.first.check()
@@ -257,11 +289,7 @@ def verify_quiz(page, base):
 
     # Simula un archivio parziale: intera categoria senza quesiti e
     # un capitolo con domande facili/medie ma non difficili.
-    original_html = (SITE / 'quiz.html').read_text(encoding='utf-8')
-    match = re.search(r'(<script type="application/json" id="quiz-data">)(.*?)(</script>)',
-                      original_html, re.S)
-    assert match
-    archive = json.loads(match.group(2))
+    archive = json.loads(json.dumps(fixture_archive))
     unavailable_area = archive['chapters'][0]['area']
     level_limited = next(chapter for chapter in archive['chapters']
                          if chapter['area'] != unavailable_area)
@@ -273,7 +301,7 @@ def verify_quiz(page, base):
     ]
     data = json.dumps(archive, ensure_ascii=False).replace('<', '\\u003c')
     modified_html = original_html[:match.start(2)] + data + original_html[match.end(2):]
-    route_pattern = '**/quiz.html'
+    page.unroute(route_pattern)
     page.route(route_pattern, lambda route: route.fulfill(
         status=200, content_type='text/html; charset=utf-8', body=modified_html))
     try:
