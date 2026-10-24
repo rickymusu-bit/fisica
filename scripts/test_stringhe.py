@@ -100,6 +100,8 @@ class PublicationTests(unittest.TestCase):
         self.assertNotIn('1 min 30 s per domanda', quiz)
         self.assertNotIn('Chi vuol essere rimandato', quiz)
         self.assertTrue((ROOT / '_site/quiz/interfaccia.js').is_file())
+        self.assertIn('updateAvailability()', (ROOT / '_site/quiz/interfaccia.js').read_text())
+        self.assertIn('Non disponibile', (ROOT / '_site/quiz/interfaccia.js').read_text())
         self.assertTrue((ROOT / '_site/quiz/interfaccia.css').is_file())
 
 

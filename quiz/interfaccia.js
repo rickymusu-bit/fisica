@@ -8,6 +8,7 @@
   const chapters = new Map(dataset.chapters.map(c => [c.file, c]));
   const groupBoxes = [...document.querySelectorAll("[data-quiz-group]")];
   const chapterBoxes = [...document.querySelectorAll("[data-quiz-chapter]")];
+  const levelBoxes = [...document.querySelectorAll('input[name="quiz-level"]')];
   const config = document.getElementById("quiz-config");
   const active = document.getElementById("quiz-active");
   const results = document.getElementById("quiz-results");
@@ -42,7 +43,7 @@
   }
 
   function selectedChapters() {
-    return new Set(chapterBoxes.filter(box => box.checked).map(box => box.value));
+    return new Set(chapterBoxes.filter(box => box.checked && !box.disabled).map(box => box.value));
   }
 
   function getQuestionCount() {
@@ -50,9 +51,39 @@
     return Number.isInteger(count) && count >= 1 && count <= MAX_QUESTIONS ? count : null;
   }
 
-  function synchronizeCategories() {
+  function setAvailability(box, available, message) {
+    box.disabled = !available;
+    if (!available) box.checked = false;
+    const label = box.closest("label");
+    label.classList.toggle("is-unavailable", !available);
+    let note = label.querySelector(".quiz-unavailable-note");
+    if (!available && !note) {
+      note = document.createElement("small");
+      note.className = "quiz-unavailable-note";
+      note.textContent = message;
+      label.append(note);
+    }
+    if (note) note.hidden = available;
+  }
+
+  function updateAvailability() {
+    const level = levelBoxes.find(box => box.checked).value;
+    const available = new Set(dataset.questions
+      .filter(question => question.level === level)
+      .map(question => question.chapter));
+    for (const chapter of chapterBoxes) {
+      setAvailability(chapter, available.has(chapter.value), "Non disponibile");
+    }
     for (const category of groupBoxes) {
       const children = chapterBoxes.filter(box => box.dataset.category === category.value);
+      setAvailability(category, children.some(child => !child.disabled), "Nessuna domanda");
+    }
+    synchronizeCategories();
+  }
+
+  function synchronizeCategories() {
+    for (const category of groupBoxes) {
+      const children = chapterBoxes.filter(box => box.dataset.category === category.value && !box.disabled);
       const selected = children.filter(box => box.checked).length;
       category.checked = children.length > 0 && selected === children.length;
       category.indeterminate = selected > 0 && selected < children.length;
@@ -70,12 +101,15 @@
   for (const category of groupBoxes) {
     category.addEventListener("change", () => {
       for (const chapter of chapterBoxes) {
-        if (chapter.dataset.category === category.value) chapter.checked = category.checked;
+        if (chapter.dataset.category === category.value && !chapter.disabled) {
+          chapter.checked = category.checked;
+        }
       }
       synchronizeCategories();
     });
   }
   for (const chapter of chapterBoxes) chapter.addEventListener("change", synchronizeCategories);
+  for (const level of levelBoxes) level.addEventListener("change", updateAvailability);
   countInput.addEventListener("input", synchronizeCategories);
   function changeQuestionCount(step) {
     // Anche un valore inserito a mano non valido è recuperabile tramite i pulsanti.
@@ -87,7 +121,7 @@
   }
   countMinus.addEventListener("click", () => changeQuestionCount(-1));
   countPlus.addEventListener("click", () => changeQuestionCount(1));
-  synchronizeCategories();
+  updateAvailability();
 
   function formatDuration(seconds) {
     const total = Math.max(0, Math.ceil(seconds));

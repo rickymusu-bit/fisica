@@ -1,4 +1,4 @@
-# Quiz di Stringhe — specifiche v1.4.0
+# Quiz di Stringhe — specifiche v1.5.0
 
 **Stato:** prototipo funzionante con archivio di prova, non approvato per pubblicazione e non adatto a verifiche valutative.  
 **Data:** 24 ottobre 2026 (Europe/Rome).
@@ -6,6 +6,7 @@
 ## Comportamento
 
 - Selezione tramite caselle di controllo di singoli capitoli, anche appartenenti a categorie differenti.
+- I capitoli senza quesiti nel dataset per la **difficoltà selezionata** sono visibili ma non selezionabili, con indicazione «Non disponibile». Le categorie prive di qualunque capitolo con quesiti sono disabilitate. Il selettore di categoria riguarda solo i capitoli disponibili e mantiene correttamente il proprio stato completo/parziale. Se cambiando difficoltà un capitolo non ha più domande, viene deselezionato automaticamente.
 - La casella di una categoria seleziona/deseleziona tutti i suoi capitoli; se ne sono scelti soltanto alcuni, mostra lo stato parziale.
 - Le categorie e i titoli dei capitoli derivano dal catalogo corrente del sito: nessun elenco parallelo da aggiornare.
 - L'utente seleziona da **1 a 30 domande**, con **25** inizialmente proposte, tramite campo numerico modificabile e pulsanti **−** e **+** ai lati. I pulsanti variano la quantità di una unità, sono disabilitati agli estremi, e la durata massima si aggiorna immediatamente prima dell'avvio: 2 minuti per domanda (30 domande = 60 minuti).

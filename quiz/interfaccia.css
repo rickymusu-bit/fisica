@@ -7,7 +7,10 @@
 .quiz-category-title{font-size:17px;font-weight:750}
 .quiz-options{display:grid;gap:5px;padding:8px 0 0 22px}
 .quiz-choice{display:flex;align-items:flex-start;gap:12px;padding:9px 8px;border-radius:12px;cursor:pointer;line-height:1.4}
-.quiz-choice:hover{background:var(--surface-soft)}
+.quiz-choice:not(.is-unavailable):hover{background:var(--surface-soft)}
+.quiz-choice.is-unavailable{cursor:not-allowed;color:var(--muted)}
+.quiz-choice.is-unavailable input{cursor:not-allowed}
+.quiz-unavailable-note{font-size:12px;color:var(--muted);font-weight:500;margin-left:auto;text-align:right}
 .quiz-choice:has(input:checked){background:var(--surface-soft)}
 .quiz-choice input{width:19px;height:19px;flex:0 0 auto;accent-color:var(--accent);margin-top:3px}
 .quiz-levels{border:0;padding:0;margin:16px 0 12px}

@@ -7,6 +7,7 @@ import functools
 import http.server
 import json
 import os
+import re
 from pathlib import Path
 import shutil
 import threading
@@ -253,6 +254,54 @@ def verify_quiz(page, base):
         assert page.locator('#quiz-score').inner_text().endswith(' / 25')
         if level == 'easy':
             page.screenshot(path=str(SHOTS / 'quiz-risultato-390.png'), full_page=True)
+
+    # Simula un archivio parziale: intera categoria senza quesiti e
+    # un capitolo con domande facili/medie ma non difficili.
+    original_html = (SITE / 'quiz.html').read_text(encoding='utf-8')
+    match = re.search(r'(<script type="application/json" id="quiz-data">)(.*?)(</script>)',
+                      original_html, re.S)
+    assert match
+    archive = json.loads(match.group(2))
+    unavailable_area = archive['chapters'][0]['area']
+    level_limited = next(chapter for chapter in archive['chapters']
+                         if chapter['area'] != unavailable_area)
+    archive['questions'] = [
+        question for question in archive['questions']
+        if next(chapter['area'] for chapter in archive['chapters']
+                if chapter['file'] == question['chapter']) != unavailable_area
+        and not (question['chapter'] == level_limited['file'] and question['level'] == 'hard')
+    ]
+    data = json.dumps(archive, ensure_ascii=False).replace('<', '\\u003c')
+    modified_html = original_html[:match.start(2)] + data + original_html[match.end(2):]
+    route_pattern = '**/quiz.html'
+    page.route(route_pattern, lambda route: route.fulfill(
+        status=200, content_type='text/html; charset=utf-8', body=modified_html))
+    try:
+        page.goto(base + 'quiz.html')
+        chapters = page.locator('[data-quiz-chapter]')
+        groups = page.locator('[data-quiz-group]')
+        assert groups.first.is_disabled()
+        assert all(box.is_disabled() for box in chapters.all()[:5])
+        assert 'Nessuna domanda' in groups.first.locator('xpath=..').inner_text()
+        assert 'Non disponibile' in chapters.first.locator('xpath=..').inner_text()
+        assert page.locator('#quiz-start').is_disabled()
+        groups.last.check()
+        assert page.locator('[data-quiz-chapter]:checked').count() == 10
+        page.locator('input[name="quiz-level"][value="hard"]').check()
+        limited_box = chapters.nth(next(
+            i for i, chapter in enumerate(archive['chapters'])
+            if chapter['file'] == level_limited['file']))
+        assert limited_box.is_disabled() and not limited_box.is_checked()
+        assert page.locator('[data-quiz-chapter]:checked').count() == 9
+        assert groups.last.is_checked()  # Categoria = tutti i capitoli disponibili.
+        page.locator('input[name="quiz-level"][value="easy"]').check()
+        assert limited_box.is_enabled() and not limited_box.is_checked()
+        assert groups.last.evaluate('(element) => element.indeterminate')
+        limited_box.check()
+        assert groups.last.is_checked()
+        assert page.locator('#quiz-start').is_enabled()
+    finally:
+        page.unroute(route_pattern)
 
 
 def main():
