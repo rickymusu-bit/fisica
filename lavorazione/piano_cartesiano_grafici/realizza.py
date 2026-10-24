@@ -24,8 +24,8 @@ def render(folder,title,name,cover):
  source=(ROOT/'lavorazione'/folder/'bozza.md').read_text().split('\n---\n')[0]
  notes=''
  if '\n## Note\n' in source:source,notes=source.split('\n## Note\n')
- version='v3' if folder==CHAPTERS[0][0] else 'v2'
- date='2026-10-25T00:21:14+02:00' if version=='v3' else '2026-10-25T00:00:13+02:00'
+ version='v4' if folder==CHAPTERS[0][0] else 'v3'
+ date='2026-10-25T00:26:31+02:00'
  body=[];headings=[]
  for block in source.strip().split('\n\n'):
   if block.startswith(('# ','Versione della bozza:')):continue
@@ -80,15 +80,28 @@ def main():
  selected=[CHAPTERS[0]] if '--chapter-8' in sys.argv else CHAPTERS
  if not any(r['id']=='clipart-robinet-spadassin' for r in registry['resources']):
   registry['resources'].append({'id':'clipart-robinet-spadassin','description':'Robinet, clip art del rubinetto','author':'spadassin','source':'https://openclipart.org/detail/202080/robinet','license':'CC0 1.0','license_url':'https://creativecommons.org/publicdomain/zero/1.0/','changes':'SVG originale incorporato, ridimensionato proporzionalmente nello schema; nessun ritaglio o modifica della clip art.','status':'documented','links':[],'notices':['Robinet — spadassin. <a href="https://openclipart.org/detail/202080/robinet">Fonte originale</a>. <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>. SVG originale ridimensionato proporzionalmente nello schema, senza ritagli o modifiche.'],'metadata_sources':['lavorazione/piano_cartesiano_grafici/risorse/robinet-source.json'],'fingerprints':[]})
+ if not any(r['id']=='clipart-robinet-senza-goccia' for r in registry['resources']):
+  registry['resources'].append({'id':'clipart-robinet-senza-goccia','description':'Robinet, versione senza goccia','author':'spadassin; modifica con ChatGPT su richiesta','source':'https://openclipart.org/detail/202080/robinet','license':'CC0 1.0 (originale)','license_url':'https://creativecommons.org/publicdomain/zero/1.0/','changes':'Rimozione della goccia con ChatGPT su richiesta dell’utente; PNG con trasparenza. Originale SVG conservato.','status':'documented','links':[],'notices':['Robinet — spadassin. <a href="https://openclipart.org/detail/202080/robinet">Originale Openclipart</a>, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>. Versione con goccia rimossa tramite ChatGPT su richiesta, incorporata come PNG trasparente; originale SVG conservato.'],'metadata_sources':['lavorazione/piano_cartesiano_grafici/risorse/robinet-source.json'],'fingerprints':[]})
+ for key,identity,source in [('autobus','clipart-double-decker-bus-j4p4n','https://openclipart.org/detail/286938/double-decker-bus'),('libro','clipart-red-book-nerdy','https://openclipart.org/detail/355394/red-book-partly-open')]:
+  info=json.loads((ROOT/'lavorazione/proporzionalita_diretta/risorse'/f'{key}-source.json').read_text())
+  if not any(r['id']==identity for r in registry['resources']):
+   author=info['artist']['name'];license_url=info['license'];title=info['name']
+   registry['resources'].append({'id':identity,'description':title,'author':author,'source':source,'license':'CC0 1.0','license_url':license_url,'changes':'SVG originale incorporato, ridimensionato proporzionalmente nello schema; nessun ritaglio o modifica della clip art.','status':'documented','links':[],'notices':[title+' — '+author+'. <a href="'+source+'">Fonte originale</a>. <a href="'+license_url+'">CC0 1.0</a>. Originale incorporato e ridimensionato proporzionalmente, senza ritagli o modifiche.'],'metadata_sources':['lavorazione/proporzionalita_diretta/risorse/'+key+'-source.json'],'fingerprints':[]})
  for identity,description,notice in [
   (CREDIT8,'Serbatoio, corrispondenze e grafici del piano cartesiano','Schemi e grafici originali realizzati su richiesta per il capitolo 8. Riempimento ideale: 3 L/min fino a 3 min, poi ingresso nullo. Dati costruiti, non misure. Nessuna fotografia dei libri incorporata.'),
-  (CREDIT9,'Schemi di libri e treno e grafici con parametro k','Schemi originali realizzati su richiesta per il capitolo 9 al posto delle fotografie. Prezzo iniziale 15 €/libro; viaggio iniziale 120 km; area del quadrato con k = 1. Confronto matematico y = k·x² separato dal modello del quadrato. Dati costruiti dalle formule, non misure o tariffe reali.')]:
+  (CREDIT9,'Schemi di libri e autobus e grafici con parametro k','Composizioni degli schemi e grafici del capitolo 9 realizzati nel progetto Stringhe; clip art originali Openclipart dei libri e dell’autobus accreditate separatamente. Prezzo iniziale 15 €/libro; viaggio iniziale 120 km; area del quadrato con k = 1. Confronto matematico y = k·x² separato dal modello del quadrato. Dati costruiti dalle formule, non misure o tariffe reali.')]:
   resource=next((r for r in registry['resources'] if r['id']==identity),None)
   if not resource:registry['resources'].append({'id':identity,'description':description,'author':'Stringhe','source':None,'license':None,'license_url':None,'changes':None,'status':'documented','links':[],'notices':[notice],'metadata_sources':[],'fingerprints':[]})
+  elif identity==CREDIT9:
+   resource['description']=description
+   if notice not in resource['notices']:resource['notices'].append(notice)
  for folder,title,name,cover in selected:
   (ROOT/name).write_text(render(folder,title,name,cover))
   registry['documents'][name]={'title':title,'anchor':name[:-5].replace('_','-'),'credits':[],'lexend':True,'chapter_labels':True,'review':None}
  credits.sync_inventory(registry)
+ current_notice=len(next(r for r in registry['resources'] if r['id']==CREDIT9)['notices'])-1
+ for association in registry['documents'][CHAPTERS[1][2]]['credits']:
+  if association['resource']==CREDIT9:association['notice']=current_notice
  for folder,title,name,cover in selected:
   p=ROOT/name;p.write_text(credits.update_component(p.read_text(),registry,name))
   # Solo correzione dei percorsi, nessuna risorsa esterna aggiunta all'HTML autonomo.

@@ -4207,12 +4207,13 @@
         "asset-9d98fa63f8f095789535d2c2746054af156580c0589c1b112624828d6ad7e5de",
         "asset-75e755d6924092fe9e8527af9ce9f095b541d5f7a245c7f774e5e60619cb5185",
         "asset-1d5e36e09c635e634960155ccd62c45b74586e161aa41cb6bcd1ef015d28ab09",
-        "asset-d0b5f2bf05a2143635a48e80910ce4eeb71e79db461da0c593c73b311d8d9b6d"
+        "asset-d0b5f2bf05a2143635a48e80910ce4eeb71e79db461da0c593c73b311d8d9b6d",
+        "asset-bf853dda9ab60b0c7ffd21355422c34ba369e52b5ea4fefda18714079a89f113"
       ]
     },
     {
       "id": "visuali-proporzioni-parametro",
-      "description": "Schemi di libri e treno e grafici con parametro k",
+      "description": "Schemi di libri e autobus e grafici con parametro k",
       "author": "Stringhe",
       "source": null,
       "license": null,
@@ -4221,7 +4222,8 @@
       "status": "documented",
       "links": [],
       "notices": [
-        "Schemi originali realizzati su richiesta per il capitolo 9 al posto delle fotografie. Prezzo iniziale 15 €/libro; viaggio iniziale 120 km; area del quadrato con k = 1. Confronto matematico y = k·x² separato dal modello del quadrato. Dati costruiti dalle formule, non misure o tariffe reali."
+        "Schemi originali realizzati su richiesta per il capitolo 9 al posto delle fotografie. Prezzo iniziale 15 €/libro; viaggio iniziale 120 km; area del quadrato con k = 1. Confronto matematico y = k·x² separato dal modello del quadrato. Dati costruiti dalle formule, non misure o tariffe reali.",
+        "Composizioni degli schemi e grafici del capitolo 9 realizzati nel progetto Stringhe; clip art originali Openclipart dei libri e dell’autobus accreditate separatamente. Prezzo iniziale 15 €/libro; viaggio iniziale 120 km; area del quadrato con k = 1. Confronto matematico y = k·x² separato dal modello del quadrato. Dati costruiti dalle formule, non misure o tariffe reali."
       ],
       "metadata_sources": [],
       "fingerprints": [
@@ -4232,7 +4234,10 @@
         "asset-95661836ee94f22f98bddb29f0674fc06eda03feb8ae7e89480de8a9b2091879",
         "asset-6924e2e5b00019c1d6d5854204c791126e4122310d1506c61427d27842c78006",
         "asset-b1ed2fbf7f073faff5a64661faca67c73a99a4f16d9fc3439df2dc80bdbe5c96",
-        "asset-6cadef27a3deff356b51be9fef62f0ecf444e01c91e4215145416053c2bcf7c1"
+        "asset-6cadef27a3deff356b51be9fef62f0ecf444e01c91e4215145416053c2bcf7c1",
+        "asset-9689445393f3c3a3e11c8d5ecfc08c605dc98a3744e8451c2c2dda8f9853313f",
+        "asset-2db21a655ef53ced0a953923e1673ebc98e8e41a8de8f3ca1887075632c51104",
+        "asset-364fb31da857eacf3c750d55c42d4669f80ef09e9a76a05c0557321ce38dd915"
       ]
     },
     {
@@ -4253,6 +4258,66 @@
       ],
       "fingerprints": [
         "asset-be99672d7a7afb7df6f3b9c73240abbe612a0172f795cfb2666dd480d99ac9db"
+      ]
+    },
+    {
+      "id": "clipart-double-decker-bus-j4p4n",
+      "description": "Double Decker Bus",
+      "author": "j4p4n",
+      "source": "https://openclipart.org/detail/286938/double-decker-bus",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "SVG originale incorporato, ridimensionato proporzionalmente nello schema; nessun ritaglio o modifica della clip art.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Double Decker Bus — j4p4n. <a href=\"https://openclipart.org/detail/286938/double-decker-bus\">Fonte originale</a>. <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CC0 1.0</a>. Originale incorporato e ridimensionato proporzionalmente, senza ritagli o modifiche."
+      ],
+      "metadata_sources": [
+        "lavorazione/proporzionalita_diretta/risorse/autobus-source.json"
+      ],
+      "fingerprints": [
+        "asset-7d79e4ae1acbcf8524950d8b244cf13df723ab6abd597e94c41bf5d713233ee7"
+      ]
+    },
+    {
+      "id": "clipart-red-book-nerdy",
+      "description": "Red book partly open",
+      "author": "nerdy",
+      "source": "https://openclipart.org/detail/355394/red-book-partly-open",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "SVG originale incorporato, ridimensionato proporzionalmente nello schema; nessun ritaglio o modifica della clip art.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Red book partly open — nerdy. <a href=\"https://openclipart.org/detail/355394/red-book-partly-open\">Fonte originale</a>. <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CC0 1.0</a>. Originale incorporato e ridimensionato proporzionalmente, senza ritagli o modifiche."
+      ],
+      "metadata_sources": [
+        "lavorazione/proporzionalita_diretta/risorse/libro-source.json"
+      ],
+      "fingerprints": [
+        "asset-6b5dd15fe25de60029b44fd1d8761d6d9b4ad5a5f83d867ec33d82a8b4e5f5fe"
+      ]
+    },
+    {
+      "id": "clipart-robinet-senza-goccia",
+      "description": "Robinet, versione senza goccia",
+      "author": "spadassin; modifica con ChatGPT su richiesta",
+      "source": "https://openclipart.org/detail/202080/robinet",
+      "license": "CC0 1.0 (originale)",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Rimozione della goccia con ChatGPT su richiesta dell’utente; PNG con trasparenza. Originale SVG conservato.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Robinet — spadassin. <a href=\"https://openclipart.org/detail/202080/robinet\">Originale Openclipart</a>, <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CC0 1.0</a>. Versione con goccia rimossa tramite ChatGPT su richiesta, incorporata come PNG trasparente; originale SVG conservato."
+      ],
+      "metadata_sources": [
+        "lavorazione/piano_cartesiano_grafici/risorse/robinet-source.json"
+      ],
+      "fingerprints": [
+        "asset-cf7a78ee10a1b4b5b3700ef3780603413d5487f787704e758d15df38a51101a3"
       ]
     }
   ],
@@ -5258,6 +5323,10 @@
         {
           "resource": "clipart-robinet-spadassin",
           "notice": 0
+        },
+        {
+          "resource": "clipart-robinet-senza-goccia",
+          "notice": 0
         }
       ],
       "lexend": true,
@@ -5274,6 +5343,14 @@
         },
         {
           "resource": "visuali-proporzioni-parametro",
+          "notice": 1
+        },
+        {
+          "resource": "clipart-red-book-nerdy",
+          "notice": 0
+        },
+        {
+          "resource": "clipart-double-decker-bus-j4p4n",
           "notice": 0
         }
       ],
@@ -6061,6 +6138,21 @@
       ]
     },
     {
+      "id": "asset-2db21a655ef53ced0a953923e1673ebc98e8e41a8de8f3ca1887075632c51104",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "svg",
+          "description": "Viaggio ideale in autobus su un percorso di centoventi chilometri, senza fermate e a velocità costante.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-proporzioni-parametro"
+        }
+      ]
+    },
+    {
       "id": "asset-3151fd5569293758a7774d34c082c272a9cae384ef2dba5cc4558a9ce732d631",
       "kind": "image/png",
       "uses": [
@@ -6111,6 +6203,21 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-761d943507615fcf"
+        }
+      ]
+    },
+    {
+      "id": "asset-364fb31da857eacf3c750d55c42d4669f80ef09e9a76a05c0557321ce38dd915",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "svg",
+          "description": "Uno, due e tre libri a quindici euro ciascuno: totali quindici, trenta e quarantacinque euro.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-proporzioni-parametro"
         }
       ]
     },
@@ -6895,21 +7002,6 @@
       ]
     },
     {
-      "id": "asset-51c7bbf30c9f429eaceae96cba2e09f723a6a0a8efcdbe3b13445327a0060df8",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "relazioni_proporzionalita_it.html",
-          "kind": "svg",
-          "description": "Uno, due e tre libri a quindici euro ciascuno: totali quindici, trenta e quarantacinque euro.",
-          "locator": "inizio",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": "visuali-proporzioni-parametro"
-        }
-      ]
-    },
-    {
       "id": "asset-52266e11c92dd1f5e38325df41a47cfb868af05beaf946d24ad060817359a1d1",
       "kind": "image/jpeg",
       "uses": [
@@ -7237,17 +7329,62 @@
       ]
     },
     {
-      "id": "asset-6cadef27a3deff356b51be9fef62f0ecf444e01c91e4215145416053c2bcf7c1",
-      "kind": "svg",
+      "id": "asset-6b5dd15fe25de60029b44fd1d8761d6d9b4ad5a5f83d867ec33d82a8b4e5f5fe",
+      "kind": "image/svg+xml",
       "uses": [
         {
           "document": "relazioni_proporzionalita_it.html",
-          "kind": "svg",
-          "description": "Viaggio ideale in treno su un percorso di centoventi chilometri, senza fermate e a velocità costante.",
+          "kind": "image/svg+xml",
+          "description": "Libro rosso parzialmente aperto",
           "locator": "inizio",
-          "attribute": "inline",
+          "attribute": "href",
           "location": null,
-          "credit_id": "visuali-proporzioni-parametro"
+          "credit_id": "clipart-red-book-nerdy"
+        },
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "image/svg+xml",
+          "description": "Libro rosso parzialmente aperto",
+          "locator": "inizio",
+          "attribute": "href",
+          "location": null,
+          "credit_id": "clipart-red-book-nerdy"
+        },
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "image/svg+xml",
+          "description": "Libro rosso parzialmente aperto",
+          "locator": "inizio",
+          "attribute": "href",
+          "location": null,
+          "credit_id": "clipart-red-book-nerdy"
+        },
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "image/svg+xml",
+          "description": "Libro rosso parzialmente aperto",
+          "locator": "inizio",
+          "attribute": "href",
+          "location": null,
+          "credit_id": "clipart-red-book-nerdy"
+        },
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "image/svg+xml",
+          "description": "Libro rosso parzialmente aperto",
+          "locator": "inizio",
+          "attribute": "href",
+          "location": null,
+          "credit_id": "clipart-red-book-nerdy"
+        },
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "image/svg+xml",
+          "description": "Libro rosso parzialmente aperto",
+          "locator": "inizio",
+          "attribute": "href",
+          "location": null,
+          "credit_id": "clipart-red-book-nerdy"
         }
       ]
     },
@@ -7539,6 +7676,21 @@
           "attribute": "inline",
           "location": null,
           "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-7d79e4ae1acbcf8524950d8b244cf13df723ab6abd597e94c41bf5d713233ee7",
+      "kind": "image/svg+xml",
+      "uses": [
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "image/svg+xml",
+          "description": "Autobus rosso a due piani",
+          "locator": "inizio",
+          "attribute": "href",
+          "location": null,
+          "credit_id": "clipart-double-decker-bus-j4p4n"
         }
       ]
     },
@@ -8872,6 +9024,21 @@
       ]
     },
     {
+      "id": "asset-bf853dda9ab60b0c7ffd21355422c34ba369e52b5ea4fefda18714079a89f113",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "svg",
+          "description": "Serbatoio: rubinetto aperto, dopo due minuti ci sono sei litri; chiuso al terzo minuto, il volume resta nove litri.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-piano-serbatoio"
+        }
+      ]
+    },
+    {
       "id": "asset-bfa5bb5a24036e7e8b004a9039aff5bcdaa89417b6e74857adfb632e1fca39e2",
       "kind": "image/webp",
       "uses": [
@@ -9312,6 +9479,21 @@
           "attribute": "src",
           "location": null,
           "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-cf7a78ee10a1b4b5b3700ef3780603413d5487f787704e758d15df38a51101a3",
+      "kind": "image/png",
+      "uses": [
+        {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "image/png",
+          "description": "Rubinetto chiuso, senza goccia",
+          "locator": "inizio",
+          "attribute": "href",
+          "location": null,
+          "credit_id": "clipart-robinet-senza-goccia"
         }
       ]
     },
@@ -9978,21 +10160,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-6f22eea11fb693a8"
-        }
-      ]
-    },
-    {
-      "id": "asset-eaf5cc998147e910286a3d4dff8f34dc1c3504157b2bb7e2baa8a02d0b05d016",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "piano_cartesiano_grafici_it.html",
-          "kind": "svg",
-          "description": "Serbatoio: rubinetto aperto, dopo due minuti ci sono sei litri; chiuso al terzo minuto, il volume resta nove litri.",
-          "locator": "inizio",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": "visuali-piano-serbatoio"
         }
       ]
     },

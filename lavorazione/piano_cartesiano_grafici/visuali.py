@@ -6,7 +6,7 @@ ROOT=Path(__file__).resolve().parents[2]
 CREDIT8='visuali-piano-serbatoio'
 CREDIT9='visuali-proporzioni-parametro'
 STYLE='''<style data-component="grafici-proporzioni">
-.graph svg,.scene svg{display:block;width:100%;height:auto;background:#fff;color:#182c3b;border-radius:8px}.graph svg text,.scene svg text{font-family:Lexend,Arial,sans-serif;fill:#182c3b}.graph .grid{stroke:#d5dfe5;stroke-width:1}.graph .axis{fill:none;stroke:#182c3b;stroke-width:2}.graph .guide{fill:none;stroke:#8c3840;stroke-width:2;stroke-dasharray:5 4}.graph .dot{fill:#0065a8;stroke:#fff;stroke-width:1.5}.graph .fit{fill:none;stroke:#005e9c;stroke-width:3}.graph .reference{stroke:#626b75;stroke-width:2;stroke-dasharray:6 5}.graph .reference[hidden]{display:none!important}.plot-y,.plot-x{font-size:16px;line-height:1.5;color:var(--ink);margin:5px 0}.plot-x{text-align:center}.graph button{min-height:44px;cursor:pointer;margin:12px 0;font:inherit}.graph [tabindex]:focus-visible,.parameter-controls input:focus-visible{outline:3px solid #db8b00;outline-offset:3px}.coordinate-readout{font-variant-numeric:tabular-nums;margin:12px 0;text-align:center}.graph-hint,.graph-reading{font-size:16px;line-height:1.6}.graph .move-point{fill:#b5273b;stroke:#fff;stroke-width:2;cursor:grab;touch-action:none}.graph .drag-target{fill:transparent;cursor:grab;touch-action:none}.data-scroll{overflow-x:auto;max-width:100%}.data-table{border-collapse:collapse;width:100%;font-size:1em}.data-table th,.data-table td{padding:10px 12px;text-align:right;border-bottom:1px solid var(--line)}.data-table th:first-child,.data-table td:first-child{text-align:left}.parameter-controls{display:none;gap:10px;align-items:center;flex-wrap:wrap;margin:18px 0}.parameter-controls label{width:100%;font-size:17px}.parameter-controls input{width:100%;min-width:0;height:44px;accent-color:var(--accent)}.js-enabled .parameter-controls{display:flex}.fit-toggle{display:none}.js-enabled .fit-toggle{display:inline-flex}.js-enabled .fit{display:none}.js-enabled .show-fit .fit{display:block}.scale-comparison .zoom-scroll svg{min-width:820px;max-width:none}.scale-comparison:has(>.image-zoom[open]) .overview{display:none}.scale-comparison>.image-zoom>summary{margin:10px 0}.graph .probe{fill:#fff;stroke:#b5273b;stroke-width:3}.scene .stroke{stroke:#182c3b;stroke-width:2;fill:none}.scene .water{fill:#b8dff3}.scene text{font-size:24px}
+.graph svg,.scene svg{display:block;width:100%;height:auto;background:#fff;color:#182c3b;border-radius:8px}.graph svg text,.scene svg text{font-family:Lexend,Arial,sans-serif;fill:#182c3b}.graph .grid{stroke:#d5dfe5;stroke-width:1}.graph .axis{fill:none;stroke:#182c3b;stroke-width:2}.graph .guide{fill:none;stroke:#8c3840;stroke-width:2;stroke-dasharray:5 4}.graph .dot{fill:#0065a8;stroke:#fff;stroke-width:1.5}.graph .fit{fill:none;stroke:#005e9c;stroke-width:3}.graph .reference{stroke:#626b75;stroke-width:2;stroke-dasharray:6 5}.graph .reference[hidden]{display:none!important}.plot-y,.plot-x{font-size:16px;line-height:1.5;color:var(--ink);margin:5px 0}.plot-x{text-align:center}.graph button{min-height:44px;cursor:pointer;margin:12px 0;font:inherit}.graph [tabindex]:focus-visible,.parameter-controls input:focus-visible{outline:3px solid #db8b00;outline-offset:3px}.coordinate-readout{font-variant-numeric:tabular-nums;margin:12px 0;text-align:center}.graph-hint,.graph-reading{font-size:16px;line-height:1.6}.graph .move-point{fill:#b5273b;stroke:#fff;stroke-width:2;cursor:grab;touch-action:none}.graph .drag-target{fill:transparent;cursor:grab;touch-action:none}.data-scroll{overflow-x:auto;max-width:100%}.data-table{border-collapse:collapse;width:100%;font-size:1em}.data-table th,.data-table td{padding:10px 12px;text-align:center;border-bottom:1px solid var(--line)}.parameter-controls{display:none;gap:10px;align-items:center;flex-wrap:wrap;margin:18px 0}.parameter-controls label{width:100%;font-size:17px}.parameter-controls input{width:100%;min-width:0;height:44px;accent-color:var(--accent)}.js-enabled .parameter-controls{display:flex}.fit-toggle{display:none}.js-enabled .fit-toggle{display:inline-flex}.js-enabled .fit{display:none}.js-enabled .show-fit .fit{display:block}.scale-comparison .zoom-scroll svg{min-width:820px;max-width:none}.scale-comparison:has(>.image-zoom[open]) .overview{display:none}.scale-comparison>.image-zoom>summary{margin:10px 0}.graph .probe{fill:#fff;stroke:#b5273b;stroke-width:3}.scene .stroke{stroke:#182c3b;stroke-width:2;fill:none}.scene .water{fill:#b8dff3}.scene text{font-size:24px}
 </style>'''
 
 def uri(path):
@@ -83,7 +83,8 @@ def tank():
   s+=f'<rect x="{x}" y="{level}" width="130" height="{260-level}" class="water"/><path class="stroke" d="M{x} 110V260H{x+130}V110"/>'
  tap=uri(ROOT/'lavorazione/piano_cartesiano_grafici/risorse/robinet.svg')
  s+=f'<image data-credit-id="clipart-robinet-spadassin" href="{tap}" x="29" y="0" width="113" height="130" preserveAspectRatio="xMidYMid meet" aria-label="Rubinetto, illustrazione di spadassin"/>'
- s+='<path d="M120 116V165" stroke="#0065a8" stroke-width="4" stroke-dasharray="7 5"/>'+text(300,65,'Chiuso')
+ closed=uri(ROOT/'lavorazione/piano_cartesiano_grafici/risorse/robinet-senza-goccia.png')
+ s+=f'<image data-credit-id="clipart-robinet-senza-goccia" href="{closed}" x="229" y="0" width="113" height="130" preserveAspectRatio="xMidYMid meet" aria-label="Rubinetto chiuso, senza goccia"/>'
  s+=text(100,295,'2 min; 6 L')+text(300,295,'3–5 min; 9 L')
  return figure(s+'</svg>','L’ingresso è di 3 litri al minuto fino alla chiusura a 3 minuti. Dopo la chiusura non entra né esce acqua.')
 
@@ -99,16 +100,21 @@ def book(x,y):
 
 def books():
  s=svg_open(400,205,'Uno, due e tre libri a quindici euro ciascuno: totali quindici, trenta e quarantacinque euro.')
- for center,count in [(55,1),(180,2),(325,3)]:
-  for i in range(count):s+=book(center-count*20+i*40,35)
+ art=uri(ROOT/'lavorazione/proporzionalita_diretta/risorse/libro.svg')
+ for center,count in [(40,1),(160,2),(315,3)]:
+  left=center-(count*50+(count-1)*5)/2
+  for i in range(count):
+   s+=f'<image data-credit-id="clipart-red-book-nerdy" href="{art}" x="{left+i*55}" y="25" width="50" height="80" preserveAspectRatio="xMidYMid meet" aria-label="Libro rosso parzialmente aperto"/>'
   s+=text(center,147,f'{count*15} €')
  return figure(s+'</svg>','Libri della stessa collana a 15 € ciascuno, senza sconti o costi aggiuntivi. La quantità è un conteggio di libri interi.',CREDIT9)
 
-def train():
- s=svg_open(400,300,'Viaggio ideale in treno su un percorso di centoventi chilometri, senza fermate e a velocità costante.')
- s+='<g stroke="#182c3b" stroke-width="2"><path d="M90 90V40H240L270 60L290 90Z" fill="#b8dff3"/><path d="M108 50H139V70H108ZM153 50H184V70H153ZM200 50H230V70H200Z" fill="#fff"/><circle cx="125" cy="94" r="10" fill="#666"/><circle cx="245" cy="94" r="10" fill="#666"/><path d="M65 110H325M65 119H325M80 106V123M110 106V123M140 106V123M170 106V123M200 106V123M230 106V123M260 106V123M290 106V123M320 106V123M155 40L175 15L195 40M165 26H185M35 150H365M35 140V160M365 140V160" fill="none"/></g>'
+def journey():
+ s=svg_open(400,300,'Viaggio ideale in autobus su un percorso di centoventi chilometri, senza fermate e a velocità costante.')
+ art=uri(ROOT/'lavorazione/proporzionalita_diretta/risorse/autobus.svg')
+ s+=f'<image data-credit-id="clipart-double-decker-bus-j4p4n" href="{art}" x="100" y="0" width="200" height="110" preserveAspectRatio="xMidYMid meet" aria-label="Autobus rosso a due piani"/>'
+ s+='<g class="stroke"><path d="M80 111H320M35 150H365M35 140V160M365 140V160"/></g>'
  s+=text(200,140,'120 km')+text(70,193,'Partenza')+text(335,193,'Arrivo')+text(200,240,'60 km/h → 2 h')+text(200,280,'120 km/h → 1 h')
- return figure(s+'</svg>','Due percorrenze dello stesso tragitto ideale. Il confronto cambia la velocità e mantiene fissa la distanza.',CREDIT9)
+ return figure(s+'</svg>','Due percorrenze dello stesso tragitto ideale in autobus. Il confronto cambia la velocità e mantiene fissa la distanza.',CREDIT9)
 
 def squares():
  s=svg_open(400,260,'Quadrati in scala: lato uno centimetro e area uno centimetro quadrato; lato due centimetri e area quattro centimetri quadrati.')
@@ -135,7 +141,7 @@ def visual(key):
  if key=='C8-INT':return plane()
  if key=='C8-SCA':return scales()
  if key=='C9-SIT':return books()
- if key=='C9-VIA':return train()
+ if key=='C9-VIA':return journey()
  if key=='C9-QUA':return squares()
  if key=='C9-GRA-D':return graph([(i,15*i) for i in range(5)],4,80,'Numero di libri x','Prezzo y (€)','direct','I punti rappresentano quantità intere; la retta rappresenta il modello continuo. Cambiando k, tabella e punti si aggiornano; il tratteggio conserva k = 15 €/libro.',lambda x:15*x,yticks=[0,20,40,60,80],parameter=(10,20,5,15,'€/libro',2))
  if key=='C9-GRA-I':return graph([(v,120/v) for v in [30,40,60,80,120]],120,6,'Velocità v (km/h)','Tempo t (h)','inverse','L’iperbole passa per le coppie della tabella. Il tratteggio conserva il viaggio di 120 km; cambiare k significa confrontare una distanza diversa.',lambda x:120/x,[0,30,60,90,120],[0,2,4,6],parameter=(60,180,60,120,'km',60))

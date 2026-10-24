@@ -31,6 +31,7 @@ with sync_playwright() as p:
     assert page.evaluate('document.documentElement.scrollWidth<=innerWidth+1'),(name,width,'overflow')
     ids=page.locator('[id]').evaluate_all('(xs)=>xs.map(x=>x.id)');assert len(ids)==len(set(ids)),(name,'duplicate ids')
     assert page.locator('.questions>li').count()==count
+    alignments=page.locator('.data-table th,.data-table td').evaluate_all('(xs)=>xs.map(x=>getComputedStyle(x).textAlign)');assert set(alignments)=={'center'},alignments
     assert page.locator('html').get_attribute('data-theme')==theme
     assert page.locator('.article img').count()==0,'Fotografie degli esempi ancora incorporate'
     assert page.locator('.cover .image-zoom, [data-model] .image-zoom, #plane .image-zoom').count()==0
@@ -43,6 +44,7 @@ with sync_playwright() as p:
      assert page.locator('[id="'+href[1:]+'"]').count(),href
     if width in [390,1440]:
      page.screenshot(path=str(shots/f'copertina-{theme}-{width}.png'))
+     for n,table in enumerate(page.locator('.data-scroll').all()):table.screenshot(path=str(shots/f'tabella-{n+1}-{theme}-{width}.png'))
      for n,figure in enumerate(page.locator('.article>figure').all()):figure.screenshot(path=str(shots/f'figura-{n+1}-{theme}-{width}.png'))
     page.locator('#indice>summary').click();expect(page.locator('#indice')).to_have_attribute('open','');page.keyboard.press('Escape')
     page.locator('[data-offline-credits]').click();expect(page.locator('#crediti-autonomi')).to_be_visible()
@@ -55,6 +57,8 @@ with sync_playwright() as p:
       assert plot.locator('[data-axis-tip="x"]').count()==1 and plot.locator('[data-axis-tip="y"]').count()==1
      ends=page.locator('[marker-end="url(#arrow-dependence)"]').evaluate_all('(xs)=>xs.map(p=>{const q=p.getPointAtLength(p.getTotalLength());return [q.x,q.y]})');assert len(ends)==3 and len({y for x,y in ends})==3
      assert page.locator('image[data-credit-id="clipart-robinet-spadassin"]').count()==1
+     assert page.locator('image[data-credit-id="clipart-robinet-senza-goccia"]').count()==1
+     assert page.locator('.scene').first.locator('[stroke-dasharray]').count()==0
      point=page.locator('#point');point.focus();page.keyboard.press('ArrowLeft');expect(page.locator('#coordinate-readout')).to_have_text('P = (1,5; 2); I quadrante')
      for _ in range(3):page.keyboard.press('ArrowLeft')
      expect(page.locator('#coordinate-readout')).to_have_text('P = (0; 2); asse y')
@@ -68,6 +72,9 @@ with sync_playwright() as p:
      zoom=page.locator('.scale-comparison .image-zoom');zoom.locator('summary').click();expect(zoom).to_have_attribute('open','');assert zoom.locator('.zoom-scroll>svg').is_visible();zoom.locator('summary').click()
     else:
      assert page.locator('.image-zoom').count()==0
+     assert page.locator('image[data-credit-id="clipart-red-book-nerdy"]').count()==6
+     assert page.locator('image[data-credit-id="clipart-double-decker-bus-j4p4n"]').count()==1
+     assert 'in autobus' in page.locator('.article').inner_text()
      for button in page.locator('[data-toggle]').all():button.click();expect(button).to_have_attribute('aria-pressed','true')
      for model,cases in CASES.items():
       figure=page.locator('[data-model="'+model+'"]');svg=figure.locator('svg');initialbox=svg.bounding_box();xmax=float(svg.get_attribute('data-xmax'));ymax=float(svg.get_attribute('data-ymax'))
@@ -106,7 +113,7 @@ with sync_playwright() as p:
    page.locator('.image-zoom summary').click();assert page.locator('.zoom-scroll>svg').is_visible()
   ctx.close()
  browser.close()
-report['checks']=['Figure con didascalie, schemi distinti, fotografie rimosse dai contenuti e dai crediti correnti','Tutti i grafici interattivi senza zoom; etichette >=14 CSS px a 320 px','Un solo zoom sul confronto statico delle scale, fuori dai dati; assi orientati e punte separate; SVG Robinet incorporato','P: tastiera, assi, quadranti, limiti e trascinamento',f'k: {len(report["parameter_cases"])} confronti numerici nella selezione corrente; verifiche del capitolo 9 conservate se escluso','Indice, note, crediti OFL, fallback senza JavaScript e nessuna risorsa esterna']
+report['checks']=['Intestazioni e dati delle tabelle tutti centrati; clip art specifiche incorporate; schema del rubinetto senza tratteggio, originale a sinistra e senza goccia a destra','Tutti i grafici interattivi senza zoom; etichette >=14 CSS px a 320 px','Un solo zoom sul confronto statico delle scale, fuori dai dati; assi orientati e punte separate; SVG Robinet incorporato','P: tastiera, assi, quadranti, limiti e trascinamento',f'k: {len(report["parameter_cases"])} confronti numerici nella selezione corrente; verifiche del capitolo 9 conservate se escluso','Indice, note, crediti OFL, fallback senza JavaScript e nessuna risorsa esterna']
 assert not report['errors'],report['errors'];assert not report['external_requests'],report['external_requests']
 for key,_,_ in PAGES:(ROOT/'lavorazione'/key/'verifiche-browser.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 print(json.dumps({'layouts':len(report['layouts']),'parameter_cases':len(report['parameter_cases']),'errors':report['errors'],'checks':report['checks']},ensure_ascii=False,indent=2))

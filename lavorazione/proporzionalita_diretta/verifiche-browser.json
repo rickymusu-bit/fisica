@@ -98,11 +98,11 @@
     }
   ],
   "checks": [
-    "Figure con didascalie, schemi distinti, fotografie rimosse dai contenuti e dai crediti correnti",
+    "Intestazioni e dati delle tabelle tutti centrati; clip art specifiche incorporate; schema del rubinetto senza tratteggio, originale a sinistra e senza goccia a destra",
     "Tutti i grafici interattivi senza zoom; etichette >=14 CSS px a 320 px",
-    "Un solo zoom sul confronto statico delle scale, fuori dai dati",
+    "Un solo zoom sul confronto statico delle scale, fuori dai dati; assi orientati e punte separate; SVG Robinet incorporato",
     "P: tastiera, assi, quadranti, limiti e trascinamento",
-    "k: 54 confronti numerici, scale fisse, tabelle e punti coerenti, riferimento iniziale e tastiera slider",
+    "k: 54 confronti numerici nella selezione corrente; verifiche del capitolo 9 conservate se escluso",
     "Indice, note, crediti OFL, fallback senza JavaScript e nessuna risorsa esterna"
   ],
   "errors": [],

@@ -1,0 +1,33 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VisualArtwork",
+  "email": null,
+  "artist": {
+    "@type": "Person",
+    "name": "j4p4n"
+  },
+  "name": "Double Decker Bus",
+  "description": "I thought an isolated Double Decker Bus would be nice (looks like the bus in harry potter!)",
+  "artMedium": "digital",
+  "image": {
+    "@context": "https://schema.org",
+    "@type": "ImageObject",
+    "url": "https://openclipart.org/download/286938/Double-Decker-Bus.svg",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "acquireLicensePage": "https://openclipart.org/share",
+    "description": "I thought an isolated Double Decker Bus would be nice (looks like the bus in harry potter!)",
+    "author": {
+      "@type": "Person",
+      "name": "j4p4n"
+    },
+    "name": "Double Decker Bus",
+    "dateCreated": "2017-09-16 08:45:21+00",
+    "dateModified": null
+  },
+  "dateCreated": "2017-09-16 08:45:21+00",
+  "dateModified": null,
+  "url": "https://openclipart.org/286938/double-decker-bus",
+  "logo": null,
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "acquireLicensePage": "https://openclipart.org/share"
+}

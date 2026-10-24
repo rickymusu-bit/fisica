@@ -1,6 +1,6 @@
 # Le relazioni di proporzionalità
 
-Versione della bozza: v5 — 24 ottobre 2026.
+Versione della bozza: v6 — 24 ottobre 2026.
 Area: Introduzione alla fisica e alla misura.
 
 [C9-COP — Hyperbolic_orthogonal_dodecahedral_honeycomb.png scelta dall’utente; copertina intera, senza zoom.]
@@ -9,7 +9,7 @@ Area: Introduzione alla fisica e alla misura.
 
 Immaginiamo di acquistare libri della stessa collana, tutti a 15 € l’uno. Se ne compriamo due spendiamo 30 €, se ne compriamo tre spendiamo 45 €. Il prezzo cresce insieme al numero di libri: possiamo prevederlo prima di arrivare alla cassa. Ma due grandezze che aumentano insieme seguono sempre questa stessa regola?
 
-[C9-SIT — Schema originale con uno, due e tre libri riconoscibili, prezzo unitario 15 €/libro e totali 15/30/45 €. Nessuna fotografia della biblioteca; didascalia sulle condizioni del prezzo.]
+[C9-SIT — Schema con la clip art Red book partly open di nerdy, con uno, due e tre libri riconoscibili, prezzo unitario 15 €/libro e totali 15/30/45 €. Nessuna fotografia della biblioteca; didascalia sulle condizioni del prezzo.]
 
 In questo caso il prezzo unitario rimane fisso: non ci sono sconti o quote aggiuntive. Ogni libro aggiunge 15 € alla spesa. I valori seguenti si riferiscono a questo prezzo iniziale; cambiando k nel grafico aggiorneremo anche tabella e punti.
 
@@ -47,11 +47,11 @@ Porta k da 15 a 20 €/libro. A parità di quantità, il prezzo totale aumenta: 
 
 ## Stessa distanza, tempi diversi
 
-Un viaggio in treno copre 120 km. Immaginiamo di percorrerli senza fermate, mantenendo una velocità costante: quanto tempo occorre a 60 km/h? E a 120 km/h?
+Un viaggio in autobus copre 120 km. Immaginiamo di percorrerli senza fermate, mantenendo una velocità costante: quanto tempo occorre a 60 km/h? E a 120 km/h?
 
-[C9-VIA — Schema ferroviario originale con treno, percorso e due percorrenze: 120 km; 60 km/h → 2 h; 120 km/h → 1 h. Nessuna fotografia della monorotaia. Didascalia: distanza identica, velocità costante e assenza di fermate.]
+[C9-VIA — Schema con clip art Double Decker Bus di j4p4n, percorso e due percorrenze: 120 km; 60 km/h → 2 h; 120 km/h → 1 h. Nessuna fotografia della monorotaia. Didascalia: distanza identica, velocità costante e assenza di fermate.]
 
-A 60 km/h il treno percorre 60 km ogni ora: per coprirne 120 servono 2 ore. A 120 km/h basta un’ora. Raddoppiando la velocità, il tempo si dimezza: il percorso è rimasto lo stesso.
+A 60 km/h l’autobus percorre 60 km ogni ora: per coprirne 120 servono 2 ore. A 120 km/h basta un’ora. Raddoppiando la velocità, il tempo si dimezza: il percorso è rimasto lo stesso.
 
 | Velocità v (km/h) | Tempo t (h) |
 |---:|---:|
@@ -163,7 +163,9 @@ A x = 2, y vale 2 con k = 0,5, vale 4 con k = 1 e vale 8 con k = 2. Aumentando k
 
 ## Materiali e provenienza — sezione di servizio della bozza
 
-- Revisione richiesta: prezzo illustrativo 15 €/libro, schemi originali di libri e treno al posto delle fotografie. Originali fotografici conservati nella lavorazione, senza associazioni nei crediti correnti.
+- Revisione richiesta: prezzo illustrativo 15 €/libro, schemi con le clip art dei libri e dell’autobus al posto delle fotografie. Originali fotografici conservati nella lavorazione, senza associazioni nei crediti correnti.
 - Copertina geometrica conservata con didascalia identificativa. Schema del quadrato in scala. Tutti i grafici interattivi senza zoom, con etichette leggibili e comandi esterni all’area dei dati.
 - Dati e curve derivano da formule esatte, non da misure. Variazione di k autorizzata dalla richiesta: prezzi 10/15/20 €/libro; distanze 60/120/180 km; confronto quadratico astratto k = 0,5/1/2. Scale fisse, riferimento tratteggiato e lettura a x fissato. La variazione cambia modello; ogni curva ha un k costante.
 - Gli otto/nove quesiti dei due capitoli mantengono la ripartizione; quelli del 9 sono aggiornati al prezzo e alla variazione della costante. Nessuna intercetta o relazione affine introdotta.
+
+- Ultima richiesta: tutte le colonne delle tabelle hanno allineamento centrale, intestazioni comprese. Negli schemi sono incorporate le due clip art specifiche indicate dall’utente (j4p4n e nerdy, CC0 1.0); i valori del modello restano invariati.

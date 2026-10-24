@@ -254,3 +254,8 @@ L’anteprima corrente resta da approvare prima di integrare main e pubblicare. 
 ## Revisione delle anteprime 8–9 su richiesta dell’utente
 
 La nuova richiesta supera il riuso dei libri e della biblioteca nell’8: esempio distinto del serbatoio, dipendenza funzionale e ruolo delle variabili approfonditi, più lettura di coordinate e scale. Nel 9 i libri costano inizialmente 15 €/libro; schemi originali di libri e treno sostituiscono le foto superflue. Le curve passano per i punti dei modelli costruiti; la variazione di k confronta prezzi, distanze e proporzionalità quadratiche a scale fisse, senza alterare la formula dell’area del quadrato. HTML v2, tutte le figure con didascalie, nessuno zoom interattivo. Nuova regola permanente in master v69.16 e AGENTS.md: non riciclare immagini o esempi tra capitoli. Verifiche aggiornate superate, nuova anteprima da approvare; nessuna pubblicazione autorizzata.
+
+
+## Aggiornamento locale delle anteprime 8–9
+
+Tutte le tabelle dei due capitoli hanno ora intestazioni e dati centrati. Nel 9, clip art Openclipart specifiche di libri e autobus (CC0) inserite su richiesta: racconto del viaggio adeguato ad autobus, valori e modello invariati. Nell’8, rubinetto originale a sinistra senza tratteggio e versione senza goccia a destra; preservati assi orientati e punte separate. Capitolo 8 v4 e capitolo 9 v3, prove e schermate aggiornate. Pubblicazione ancora subordinata alla revisione delle nuove anteprime.

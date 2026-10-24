@@ -1,6 +1,6 @@
 # Stato — Le relazioni di proporzionalità
 
-**Stato corrente — revisione richiesta il 24 ottobre 2026:** HTML v2 verificato; bozza testuale v5. Le nuove istruzioni dell’utente superano le precedenti scelte di riuso delle fotografie, prezzo a 2 € e zoom interattivo. Pubblicazione subordinata all’approvazione della nuova anteprima.
+**Stato corrente — revisione richiesta il 24 ottobre 2026:** HTML v3 verificato; bozza testuale v6. Le nuove istruzioni dell’utente superano le precedenti scelte di riuso delle fotografie, prezzo a 2 € e zoom interattivo. Pubblicazione subordinata all’approvazione della nuova anteprima.
 
 ## Riferimenti e autorizzazioni
 
@@ -123,3 +123,16 @@ Revisione verificata: superati 12 layout (320/390/1440 px, chiaro/scuro), 54 con
 
 
 Nuova anteprima HTML v2 salvata al commit `9dc4df85575ad3ce0b2c5af64ad7dcfc44180f8b` e verificata online: [apri il capitolo](https://raw.githack.com/rickymusu-bit/fisica/9dc4df85575ad3ce0b2c5af64ad7dcfc44180f8b/relazioni_proporzionalita_it.html), HTTPS 200, text/html e byte identici al file locale corrente. Questa anteprima sostituisce i precedenti collegamenti alla v1. Nessun merge o deployment ufficiale.
+
+
+## Allineamento delle tabelle e clip art richieste — 25 ottobre 2026 (Europe/Rome)
+
+Richiesta dell’utente durante il completamento della PR #79: stesso allineamento delle colonne in tutte le tabelle dei capitoli 8 e 9, e uso delle clip art specifiche Double Decker Bus e Red book partly open negli schemi del capitolo 9. Uniformati al centro intestazioni e dati, senza cambiare ordine, valori o unità. La regola è nel componente locale data-table dei due capitoli, non nel tema comune.
+
+Schemi del capitolo 9: incorporati gli originali SVG di Double Decker Bus di j4p4n (https://openclipart.org/detail/286938/double-decker-bus) e Red book partly open di nerdy (https://openclipart.org/detail/355394/red-book-partly-open). Licenze CC0 1.0 verificate nelle rispettive schede. Originali e metadati JSON-LD conservati in risorse/; nessun ritaglio, deformazione o modifica delle due clip art. Il racconto del viaggio ora dice autobus per corrispondere all’immagine; distanza di 120 km, ipotesi, formule e dati restano invariati. La costante iniziale dei libri resta 15 €/libro e tutti i comandi di k sono preservati. Composizioni e figure geometriche distinte dalle clip art nei crediti; avviso corrente aggiornato senza eliminare quello storico.
+
+Ulteriore richiesta sul serbatoio: eliminata la linea tratteggiata a sinistra, mantenendo il rubinetto originale con goccia; aggiunto a destra il rubinetto con goccia rimossa tramite ChatGPT, in PNG trasparente. Originale SVG conservato. Versione modificata registrata separatamente nei crediti; immagine e posizionamento verificati nell’HTML corrente. Conservate le frecce sugli assi e le tre punte distinte del diagramma delle variabili.
+
+Verifiche superate: 12 layout Chromium (320/390/1440 px, chiaro/scuro), allineamento computato di ogni intestazione/cella, presenza delle clip art richieste e assenza del tratteggio, 54 casi numerici su k e coerenza dei punti/tabelle, tastiera, assi/quadranti/limiti e trascinamento. Nessuno zoom interattivo; un solo zoom statico fuori dai dati. Nessun errore JavaScript, overflow o richiesta esterna. Ispezionate le schermate mobile di rubinetti, libri, autobus e tabelle; aggiunte le schermate delle quattro tabelle nei due temi, desktop/mobile. Crediti aggiornati e associati; credits.py --check, build_pages.py, node --check e git diff --check superati.
+
+Versioni correnti: capitolo 8 HTML v4, bozza v5; capitolo 9 HTML v3, bozza v6. Manifest, catalogo e altri capitoli invariati. Le nuove anteprime sostituiscono quelle precedenti; PR mantenuta in bozza, nessun merge o deployment ufficiale.

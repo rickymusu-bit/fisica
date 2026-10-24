@@ -1,6 +1,6 @@
 # Il piano cartesiano
 
-Versione della bozza: v4 — 24 ottobre 2026.
+Versione della bozza: v5 — 24 ottobre 2026.
 Area: Introduzione alla fisica e alla misura.
 
 [C8-COP — Grafico storico di William Playfair, immagine intera con didascalia identificativa; nessuno zoom.]
@@ -11,7 +11,7 @@ Apriamo un rubinetto sopra un serbatoio inizialmente vuoto. L’acqua entra e il
 
 Immaginiamo che entrino 3 litri ogni minuto fino alla chiusura. Dopo due minuti nel serbatoio ci sono 6 litri. Questi dati sono un esempio costruito, non il resoconto di una misura: ci serviranno per capire come si passa da una situazione a un grafico.
 
-[C8-SIT — Schema del serbatoio con clip art Robinet di spadassin (Openclipart, CC0), livello dopo due minuti: t = 2 min, V = 6 L. Secondo stato dopo la chiusura: da t = 3 min il volume resta 9 L. Didascalia sulle condizioni del riempimento.]
+[C8-SIT — Schema del serbatoio con clip art Robinet di spadassin (Openclipart, CC0), rubinetto originale a sinistra senza linea tratteggiata e rubinetto senza goccia a destra, livello dopo due minuti: t = 2 min, V = 6 L. Secondo stato dopo la chiusura: da t = 3 min il volume resta 9 L. Didascalia sulle condizioni del riempimento.]
 
 Il **piano cartesiano** è formato da due rette perpendicolari, gli **assi cartesiani**. L’asse orizzontale x è l’**asse delle ascisse**; quello verticale y è l’**asse delle ordinate**. Si incontrano nell’**origine O**, il punto al quale entrambe le coordinate valgono zero. Il verso positivo è a destra sull’asse x e verso l’alto sull’asse y.
 
@@ -93,3 +93,5 @@ Se allarghiamo l’intervallo verticale da 0–12 L a 0–24 L, i punti occupano
 - Quesiti 1 e 3/5/6/8 adattati al nuovo contesto; funzione del quesito originale 2 conservata. Bozza di revisione realizzata nella stessa PR, da verificare in anteprima prima della pubblicazione.
 
 - Correzione locale successiva: clip art del rubinetto indicata dall’utente, originale SVG conservato e incorporato; frecce dei versi positivi su tutti i grafici del capitolo 8, punte distinte nella corrispondenza tempi–volume.
+
+- Allineamento centrale uniforme di intestazioni e dati in tutte le colonne, come richiesto insieme alla revisione delle tabelle del capitolo 9.

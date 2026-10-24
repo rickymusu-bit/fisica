@@ -47,17 +47,444 @@
       "labels_at_least_14px": true,
       "no_overflow": true,
       "no_interactive_zoom": true
+    },
+    {
+      "chapter": "proporzionalita_diretta",
+      "width": 320,
+      "theme": "dark",
+      "labels_at_least_14px": true,
+      "no_overflow": true,
+      "no_interactive_zoom": true
+    },
+    {
+      "chapter": "proporzionalita_diretta",
+      "width": 320,
+      "theme": "light",
+      "labels_at_least_14px": true,
+      "no_overflow": true,
+      "no_interactive_zoom": true
+    },
+    {
+      "chapter": "proporzionalita_diretta",
+      "width": 390,
+      "theme": "dark",
+      "labels_at_least_14px": true,
+      "no_overflow": true,
+      "no_interactive_zoom": true
+    },
+    {
+      "chapter": "proporzionalita_diretta",
+      "width": 390,
+      "theme": "light",
+      "labels_at_least_14px": true,
+      "no_overflow": true,
+      "no_interactive_zoom": true
+    },
+    {
+      "chapter": "proporzionalita_diretta",
+      "width": 1440,
+      "theme": "dark",
+      "labels_at_least_14px": true,
+      "no_overflow": true,
+      "no_interactive_zoom": true
+    },
+    {
+      "chapter": "proporzionalita_diretta",
+      "width": 1440,
+      "theme": "light",
+      "labels_at_least_14px": true,
+      "no_overflow": true,
+      "no_interactive_zoom": true
     }
   ],
   "checks": [
-    "Figure con didascalie, schemi distinti, fotografie rimosse dai contenuti e dai crediti correnti",
+    "Intestazioni e dati delle tabelle tutti centrati; clip art specifiche incorporate; schema del rubinetto senza tratteggio, originale a sinistra e senza goccia a destra",
     "Tutti i grafici interattivi senza zoom; etichette >=14 CSS px a 320 px",
     "Un solo zoom sul confronto statico delle scale, fuori dai dati; assi orientati e punte separate; SVG Robinet incorporato",
     "P: tastiera, assi, quadranti, limiti e trascinamento",
-    "k: 0 confronti numerici nella selezione corrente; verifiche del capitolo 9 conservate se escluso",
+    "k: 54 confronti numerici nella selezione corrente; verifiche del capitolo 9 conservate se escluso",
     "Indice, note, crediti OFL, fallback senza JavaScript e nessuna risorsa esterna"
   ],
   "errors": [],
   "external_requests": [],
-  "parameter_cases": []
+  "parameter_cases": [
+    {
+      "model": "direct",
+      "k": 10,
+      "value": 20,
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "model": "direct",
+      "k": 15,
+      "value": 30,
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "model": "direct",
+      "k": 20,
+      "value": 40,
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "model": "inverse",
+      "k": 60,
+      "value": 1,
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "model": "inverse",
+      "k": 120,
+      "value": 2,
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "model": "inverse",
+      "k": 180,
+      "value": 3,
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "model": "quadratic",
+      "k": 0.5,
+      "value": 2,
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "model": "quadratic",
+      "k": 1,
+      "value": 4,
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "model": "quadratic",
+      "k": 2,
+      "value": 8,
+      "width": 320,
+      "theme": "dark"
+    },
+    {
+      "model": "direct",
+      "k": 10,
+      "value": 20,
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "model": "direct",
+      "k": 15,
+      "value": 30,
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "model": "direct",
+      "k": 20,
+      "value": 40,
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "model": "inverse",
+      "k": 60,
+      "value": 1,
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "model": "inverse",
+      "k": 120,
+      "value": 2,
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "model": "inverse",
+      "k": 180,
+      "value": 3,
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "model": "quadratic",
+      "k": 0.5,
+      "value": 2,
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "model": "quadratic",
+      "k": 1,
+      "value": 4,
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "model": "quadratic",
+      "k": 2,
+      "value": 8,
+      "width": 320,
+      "theme": "light"
+    },
+    {
+      "model": "direct",
+      "k": 10,
+      "value": 20,
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "model": "direct",
+      "k": 15,
+      "value": 30,
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "model": "direct",
+      "k": 20,
+      "value": 40,
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "model": "inverse",
+      "k": 60,
+      "value": 1,
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "model": "inverse",
+      "k": 120,
+      "value": 2,
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "model": "inverse",
+      "k": 180,
+      "value": 3,
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "model": "quadratic",
+      "k": 0.5,
+      "value": 2,
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "model": "quadratic",
+      "k": 1,
+      "value": 4,
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "model": "quadratic",
+      "k": 2,
+      "value": 8,
+      "width": 390,
+      "theme": "dark"
+    },
+    {
+      "model": "direct",
+      "k": 10,
+      "value": 20,
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "model": "direct",
+      "k": 15,
+      "value": 30,
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "model": "direct",
+      "k": 20,
+      "value": 40,
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "model": "inverse",
+      "k": 60,
+      "value": 1,
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "model": "inverse",
+      "k": 120,
+      "value": 2,
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "model": "inverse",
+      "k": 180,
+      "value": 3,
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "model": "quadratic",
+      "k": 0.5,
+      "value": 2,
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "model": "quadratic",
+      "k": 1,
+      "value": 4,
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "model": "quadratic",
+      "k": 2,
+      "value": 8,
+      "width": 390,
+      "theme": "light"
+    },
+    {
+      "model": "direct",
+      "k": 10,
+      "value": 20,
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "model": "direct",
+      "k": 15,
+      "value": 30,
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "model": "direct",
+      "k": 20,
+      "value": 40,
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "model": "inverse",
+      "k": 60,
+      "value": 1,
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "model": "inverse",
+      "k": 120,
+      "value": 2,
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "model": "inverse",
+      "k": 180,
+      "value": 3,
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "model": "quadratic",
+      "k": 0.5,
+      "value": 2,
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "model": "quadratic",
+      "k": 1,
+      "value": 4,
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "model": "quadratic",
+      "k": 2,
+      "value": 8,
+      "width": 1440,
+      "theme": "dark"
+    },
+    {
+      "model": "direct",
+      "k": 10,
+      "value": 20,
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "model": "direct",
+      "k": 15,
+      "value": 30,
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "model": "direct",
+      "k": 20,
+      "value": 40,
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "model": "inverse",
+      "k": 60,
+      "value": 1,
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "model": "inverse",
+      "k": 120,
+      "value": 2,
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "model": "inverse",
+      "k": 180,
+      "value": 3,
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "model": "quadratic",
+      "k": 0.5,
+      "value": 2,
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "model": "quadratic",
+      "k": 1,
+      "value": 4,
+      "width": 1440,
+      "theme": "light"
+    },
+    {
+      "model": "quadratic",
+      "k": 2,
+      "value": 8,
+      "width": 1440,
+      "theme": "light"
+    }
+  ]
 }

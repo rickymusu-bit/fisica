@@ -1,0 +1,33 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VisualArtwork",
+  "email": null,
+  "artist": {
+    "@type": "Person",
+    "name": "nerdy"
+  },
+  "name": "Red book partly open",
+  "description": "Red book partly open, by <a href='https://openclipart.org/artist/midkiffaries'>@midkiffaries</a> but with grey/neutral color pages inside.",
+  "artMedium": "digital",
+  "image": {
+    "@context": "https://schema.org",
+    "@type": "ImageObject",
+    "url": "https://openclipart.org/download/355394/book-partly-open-345612.svg",
+    "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "acquireLicensePage": "https://openclipart.org/share",
+    "description": "Red book partly open, by <a href='https://openclipart.org/artist/midkiffaries'>@midkiffaries</a> but with grey/neutral color pages inside.",
+    "author": {
+      "@type": "Person",
+      "name": "nerdy"
+    },
+    "name": "Red book partly open",
+    "dateCreated": "2026-04-12 22:32:44+00",
+    "dateModified": "2026-04-12 22:32:44+00"
+  },
+  "dateCreated": "2026-04-12 22:32:44+00",
+  "dateModified": "2026-04-12 22:32:44+00",
+  "url": "https://openclipart.org/355394/red-book-partly-open",
+  "logo": null,
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "acquireLicensePage": "https://openclipart.org/share"
+}
