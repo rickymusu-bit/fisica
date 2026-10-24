@@ -1,6 +1,6 @@
-# Le relazioni tra grandezze
+# Le relazioni di proporzionalità
 
-Versione della bozza: v1 — 24 ottobre 2026.  
+Versione della bozza: v2 — 24 ottobre 2026.  
 Area: Introduzione alla fisica e alla misura.
 
 [C9-COP — Copertina da scegliere per il capitolo unificato; non riutilizzata nel corpo.]
@@ -40,51 +40,6 @@ Raddoppiando x, anche y raddoppia; triplicando x, y triplica. Cinque quaderni co
 [C9-GRA-D — Riutilizzare punti e comando «Mostra la retta» del grafico dei quaderni. Assi: numero di quaderni e prezzo (€). Modello passante per l’origine; valori numerici coerenti con la tabella.]
 
 Il grafico della proporzionalità diretta è una retta che passa per l’origine: se non compriamo quaderni, la spesa è zero. Il rapporto si calcola per x diverso da zero; il valore nello zero si ricava invece da y = k·x. Nell’esempio gli acquisti possibili corrispondono ai punti con quantità intere.[^1]
-
-## Una retta può partire da un altro valore
-
-Un servizio di consegna chiede 3 € fissi più 2 € per ogni chilometro. Anche qui ogni chilometro aggiunge la stessa cifra, ma il costo comprende una quota iniziale.
-
-[C9-SIT-C — Immagine pertinente a una consegna, da scegliere; schema con percorso, quota fissa 3 € e costo per chilometro 2 €/km. Non disegnare mezzi sostitutivi con sagome astratte.]
-
-Indicando con x il percorso e con y il costo:
-
-\[
-y=(2\,\mathrm{€/km})\cdot x+3\,\mathrm{€}
-\]
-
-| Percorso x (km) | Costo y (€) |
-|---:|---:|
-| 0 | 3 |
-| 1 | 5 |
-| 2 | 7 |
-| 3 | 9 |
-
-A un percorso di 2 km corrispondono 7 €: 4 € per il tragitto e 3 € di quota fissa. Con 4 km il costo è 11 €, non 14 €. Raddoppiare il percorso non raddoppia la quota iniziale, quindi non raddoppia il costo totale.
-
-La forma generale di una relazione di questo tipo è:
-
-\[
-y=m\cdot x+q
-\]
-
-Il coefficiente **m** è la **pendenza**: indica quanto varia y per ogni unità aggiunta a x. La **intercetta q** è il valore di y quando x vale zero e si legge nel punto in cui la retta incontra l’asse verticale. Nel servizio di consegna m vale 2 €/km e q vale 3 €.
-
-Possiamo ricavare la pendenza da due punti distinti della retta:
-
-\[
-m=\frac{y_2-y_1}{x_2-x_1}
-\]
-
-I pedici 1 e 2 indicano i valori del primo e del secondo punto. Per la consegna, passando da 1 a 3 km il costo aumenta da 5 a 9 €: l’aumento di 4 € diviso per 2 km restituisce 2 €/km.
-
-[C9-GRA-C — Grafico del costo della consegna, con dati della tabella, asse x in km e asse y in euro. Evidenziare intercetta e incremento tra i due punti usati nel calcolo, senza ripetere l’intera spiegazione.]
-
-Con q diverso da zero la relazione si chiama **affine** e non è una proporzionalità diretta. Ponendo q = 0 ritroviamo y = m·x.
-
-La pendenza può anche essere negativa. La retta matematica y = 8 − x, per esempio, diminuisce di un’unità ogni volta che x aumenta di uno. Non descrive però una proporzionalità inversa: a diminuire è una retta, mentre la relazione inversa segue una regola diversa.
-
-[C9-GRA-R — Riutilizzare il confronto delle tre rette y = 2·x, y = 3 + 2·x e y = 8 − x, con x e y numeri astratti. Le due crescenti hanno la stessa pendenza e intercette diverse; la terza scende. Non attribuire a questo confronto unico le unità dei differenti contesti concreti.]
 
 ## Quando resta costante il prodotto
 
@@ -163,15 +118,13 @@ Il grafico appartiene a una **parabola**; per il lato consideriamo solo x non ne
 
 1. Dalla tabella dei quaderni ricava il costo di un singolo quaderno. Perché la retta del prezzo attraversa l’origine?
 2. Quali unità ha k nell’esempio dei quaderni? Che cosa rappresenta?
-3. Qual è l’intercetta della consegna da 3 € più 2 € per chilometro? Perché quella relazione non è una proporzionalità diretta?
-4. Nella consegna, da 2 a 5 km il costo passa da 7 a 13 €. Calcola la pendenza e spiegane il significato.
-5. La retta y = 8 − x scende. Perché non la chiamiamo proporzionalità inversa?
-6. Nella tabella dei rettangoli, se la base triplica da 2 cm a 6 cm, come cambia l’altezza? Quale quantità resta uguale?
-7. Un rettangolo della stessa serie ha base 8 cm. Quale altezza deve avere?
-8. Se il lato di un quadrato passa da 3 cm a 6 cm, prevedi l’area prima di disegnare il punto. Di quanto aumenta rispetto all’area iniziale?
-9. Vero o falso? «Se un grafico passa per l’origine, rappresenta una proporzionalità diretta». Motiva con un esempio del capitolo.
-10. Per x uguale a 1, 2, 4 si osservano rispettivamente y uguale a 6, 3, 1,5. Quale delle relazioni studiate è compatibile con i dati? Mostra il controllo numerico.
-11. Una grandezza segue y = k·x². Se x si dimezza, y diventa la metà, un quarto o il doppio? Motiva.
+3. Quattro quaderni costano 8 €. Quanto costano sei quaderni allo stesso prezzo unitario? Spiega il ragionamento.
+4. Nella tabella dei rettangoli, se la base triplica da 2 cm a 6 cm, come cambia l’altezza? Quale quantità resta uguale?
+5. Un rettangolo della stessa serie ha base 8 cm. Quale altezza deve avere?
+6. Se il lato di un quadrato passa da 3 cm a 6 cm, prevedi l’area prima di disegnare il punto. Di quanto aumenta rispetto all’area iniziale?
+7. Vero o falso? «Se un grafico passa per l’origine, rappresenta una proporzionalità diretta». Motiva con un esempio del capitolo.
+8. Per x uguale a 1, 2, 4 si osservano rispettivamente y uguale a 6, 3, 1,5. Quale delle relazioni studiate è compatibile con i dati? Mostra il controllo numerico.
+9. Una grandezza segue y = k·x². Se x si dimezza, y diventa la metà, un quarto o il doppio? Motiva.
 
 ## Note
 
@@ -183,10 +136,9 @@ Il grafico appartiene a una **parabola**; per il lato consideriamo solo x non ne
 
 Da non trasferire nel contenuto didattico visibile.
 
-- Fonte editoriale: grafici_piano_cartesiano_it.html v8, sezioni diretta, intercetta, inversa e quadratica.
-- Conservati i cinque quesiti originali 3–7 nelle domande 1, 3, 5, 6 e 8. Quesiti originali 1–2 assegnati al capitolo 8.
+- Fonte editoriale: grafici_piano_cartesiano_it.html v8, sezioni diretta, inversa e quadratica.
+- Quesiti originali 3, 6 e 7 conservati nelle domande 1, 4 e 6. Quesiti originali 1–2 assegnati al capitolo 8. I quesiti originali 4–5 sulle rette con intercetta e sulla retta decrescente sono esclusi dal nuovo capitolo per richiesta dell’utente; restano conservati nel sorgente storico.
 - Tabelle costruite dai modelli dichiarati; nessuna misura sperimentale o tariffa commerciale attuale.
-- Formule generali, unità delle costanti e formula della pendenza esplicitate rispetto al sorgente. Il termine affine distingue correttamente la retta con intercetta non nulla; nessuna generica funzione quadratica è chiamata automaticamente proporzionalità quadratica.
-- Copertina, immagine del quaderno e immagine della consegna ancora da scegliere. Grafici e figure geometriche indicati dai segnaposto non sono ancora realizzati nel nuovo capitolo.
-- Il vecchio grafico comparativo conserva numeri astratti; grafico tariffario con unità separato.
+- Formule generali e unità delle costanti esplicitate rispetto al sorgente. Nessuna generica funzione quadratica è chiamata automaticamente proporzionalità quadratica. Rimosse su richiesta la sezione sulle rette con intercetta, la formula della pendenza, la consegna con quota fissa, il confronto delle tre rette e i relativi quesiti.
+- Copertina e immagine del quaderno ancora da scegliere. Grafici e figure geometriche indicati dai segnaposto non sono ancora realizzati nel nuovo capitolo.
 - Testo da revisionare; nessun HTML o pubblicazione avviati.
