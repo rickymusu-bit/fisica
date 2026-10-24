@@ -98,7 +98,7 @@ def main():
         else:
             shutil.copyfile(source, target)
     (OUTPUT / "articoli.html").write_text(render_catalogue(index.read_text(encoding="utf-8"), allowed_articles), encoding="utf-8")
-    (OUTPUT / "quiz.html").write_text(render_quiz(index.read_text(encoding="utf-8")), encoding="utf-8")
+    (OUTPUT / "quiz.html").write_text(render_quiz(index.read_text(encoding="utf-8"), allowed_articles), encoding="utf-8")
     (OUTPUT / "anteprima-bordi-stringhe.html").write_text(render_comparison(index.read_text(encoding="utf-8")), encoding="utf-8")
     for cover in covers:
         source = ROOT / cover["src"]
