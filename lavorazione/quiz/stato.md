@@ -82,3 +82,12 @@ Aggiornati il piano di produzione nella sezione 10 del prompt (v1.3.0) e le spec
 Richiesta esplicita dell’utente: implementare il recupero del quiz dopo ricarica o uscita accidentale. Implementazione completata sulla PR #77: snapshot locale con versione, quesiti e ordine delle opzioni, risposte, scelta provvisoria, stato corrente e scadenze originali. Il rientro applica il tempo trascorso; risultato persistente fino a «Nuovo quiz». Dati incoerenti/incompatibili gestiti con avviso e rimozione; storage indisponibile con funzionamento in memoria e richiesta condizionale di avviso prima dell’uscita.
 
 Specifiche v2.2.0, master v69.14 e AGENTS.md aggiornati. Nessuna modifica ai target dell’archivio o ai capitoli. Verifiche concluse: build completa, 23 test e suite browser desktop/mobile superati nel workflow https://github.com/rickymusu-bit/fisica/actions/runs/40101691256 sul commit 26fc64f33512df91a0fceff1c4a5c9f22d153e52. Schermate di ripresa e salvataggio bloccato salvate; dettagli nel rapporto `verifica-salvataggio.md`. Prossimo passo: revisione dell’anteprima e approvazione prima dell’integrazione in main. Nessun merge o deployment autorizzato.
+
+
+## Quattro alternative per tutti i livelli — 24 ottobre 2026
+
+Richiesta corrente dell’utente: quattro alternative uguali in numero per facile, medio e difficile. Modifica preparata sul ramo `feature/quiz-quattro-alternative-20261024`, derivato da main dopo il merge della PR #77. Aggiornati renderer, validatore, istruzioni di generazione (v1.4.0), specifiche (v2.3.0), master (v69.15) e AGENTS. La difficoltà resta definita dal contenuto cognitivo e non dal numero delle opzioni.
+
+Nuovi salvataggi di sessione in versione 2, con quattro alternative. I salvataggi di sessioni precedenti in versione 1 restano recuperabili con le opzioni originali fino alla conclusione, senza perdere risposte o scadenze; Nuovo quiz usa sempre quattro opzioni. Nessun archivio reale da migrare. Tempo, categorie e target di 100 quesiti per livello restano invariati.
+
+Test aggiunti: accettazione di quattro opzioni e rifiuto di tre/cinque per ciascun livello; recupero delle sessioni precedenti e creazione di nuove sessioni a quattro opzioni. Verifiche e anteprima nel rapporto `verifica-quattro-alternative.md`. Nessun merge o deployment autorizzato per questa nuova revisione.

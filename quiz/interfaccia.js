@@ -5,6 +5,8 @@
   const dataset = JSON.parse(dataElement.textContent);
   const MAX_QUESTIONS = 30;
   const SECONDS_PER_QUESTION = 120;
+  const OPTIONS_PER_QUESTION = 4;
+  const SESSION_VERSION = 2;
   const categories = new Map(dataset.categories.map(c => [c.id, c]));
   const categoryBoxes = [...document.querySelectorAll("[data-quiz-category]")];
   const levelBoxes = [...document.querySelectorAll('input[name="quiz-level"]')];
@@ -31,6 +33,7 @@
   const resultSummary = document.getElementById("quiz-result-summary");
   let session = null;
   let intervalId = null;
+  let sessionVersion = SESSION_VERSION;
 
   const STORAGE_KEY = "stringhe.quiz.session.v1:" + location.pathname;
   const saveWarning = document.getElementById("quiz-save-warning");
@@ -62,7 +65,7 @@
   }
 
   function saveActiveSession() {
-    if (session) writeSnapshot({version: 1, status: "active", session});
+    if (session) writeSnapshot({version: sessionVersion, status: "active", session});
   }
 
   function clearSavedSession() {
@@ -75,7 +78,7 @@
   }
 
   function validSnapshot(snapshot) {
-    if (!snapshot || snapshot.version !== 1 ||
+    if (!snapshot || ![1, SESSION_VERSION].includes(snapshot.version) ||
         !["active", "completed"].includes(snapshot.status)) return false;
     if (snapshot.status === "completed" &&
         !["completed", "timeout", "early"].includes(snapshot.reason)) return false;
@@ -95,7 +98,9 @@
         !Array.isArray(s.skipped) || s.skipped.length !== s.count) return false;
     for (let i = 0; i < s.count; i++) {
       const q = s.questions[i];
-      const n = {easy: 3, medium: 4, hard: 5}[s.level];
+      // Le sessioni avviate prima del cambio conservano le opzioni originali.
+      const n = snapshot.version === 1
+        ? {easy: 3, medium: 4, hard: 5}[s.level] : OPTIONS_PER_QUESTION;
       if (!q || typeof q.id !== "string" || !q.id ||
           q.category !== s.category || q.level !== s.level ||
           typeof q.prompt !== "string" || !q.prompt.trim() ||
@@ -148,6 +153,7 @@
       return;
     }
     const saved = snapshot.session;
+    sessionVersion = snapshot.version;
     countInput.value = String(saved.count);
     for (const box of levelBoxes) box.checked = box.value === saved.level;
     for (const box of categoryBoxes) box.checked = box.value === saved.category;
@@ -323,6 +329,7 @@
     }
     const seconds = SECONDS_PER_QUESTION;
     const now = Date.now();
+    sessionVersion = SESSION_VERSION;
     session = {
       questions: drawQuestions(pool, count),
       responses: Array(count).fill(null),
@@ -459,7 +466,7 @@
     intervalId = null;
     const s = session;
     session = null;
-    writeSnapshot({version: 1, status: "completed", reason, session: s});
+    writeSnapshot({version: sessionVersion, status: "completed", reason, session: s});
     window.removeEventListener("beforeunload", warnBeforeExit);
     renderResults(s, reason);
   }

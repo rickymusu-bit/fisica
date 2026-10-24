@@ -142,7 +142,7 @@ def verify_quiz(page, base):
          'options': [f"Alternativa {n+1}" for n in range(count)],
          'correct': 0, 'explanation': 'Spiegazione effimera di collaudo.'}
         for category in fixture['categories']
-        for level, count in [('easy', 3), ('medium', 4), ('hard', 5)]
+        for level, count in [('easy', 4), ('medium', 4), ('hard', 4)]
         for i in range(30)
     ]
     def fixture_html(data):
@@ -183,7 +183,7 @@ def verify_quiz(page, base):
         assert minus.is_disabled() and page.locator('#quiz-duration').inner_text() == '2:00'
 
         for category in fixture['categories']:
-            for level, option_count in [('easy', 3), ('medium', 4), ('hard', 5)]:
+            for level, option_count in [('easy', 4), ('medium', 4), ('hard', 4)]:
                 fresh_quiz()
                 page.locator(f'[data-quiz-category][value="{category["id"]}"]').check()
                 page.locator(f'input[name="quiz-level"][value="{level}"]').check()
@@ -343,6 +343,40 @@ def verify_quiz(page, base):
         assert page.locator('#quiz-results').is_visible()
         assert page.locator('#quiz-score').inner_text() == '0 / 3'  # scelta non confermata
         page.locator('#quiz-again').click()
+
+        # Le sessioni precedenti non perdono risposte al cambio 3/4/5 -> 4.
+        for legacy_level, legacy_count in [('easy', 3), ('hard', 5)]:
+            fresh_quiz()
+            choices.last.check()
+            page.locator(f'input[name="quiz-level"][value="{legacy_level}"]').check()
+            count_input.fill('3')
+            page.locator('#quiz-start').click()
+            previous = page.evaluate('key => JSON.parse(localStorage.getItem(key))', key)
+            assert previous['version'] == 2
+            previous['version'] = 1
+            for q in previous['session']['questions']:
+                q['options'] = [f'Alternativa precedente {i+1}' for i in range(legacy_count)]
+                q['order'] = [{'label': label, 'originalIndex': i} for i, label in enumerate(q['options'])]
+            page.evaluate('args => localStorage.setItem(args[0], JSON.stringify(args[1]))', [key, previous])
+            page.reload()
+            assert page.locator('.quiz-answer input').count() == legacy_count
+            page.locator(f'.quiz-answer input[value="{legacy_count-1}"]').check()
+            page.locator('#quiz-next').click()
+            page.reload()
+            assert page.locator('#quiz-counter').inner_text() == 'Domanda 2 di 3'
+            current = page.evaluate('key => JSON.parse(localStorage.getItem(key))', key)
+            assert current['version'] == 1
+            assert current['session']['responses'][0] == legacy_count - 1
+            assert current['session']['deadline'] == previous['session']['deadline']
+            page.once('dialog', lambda dialog: dialog.accept())
+            page.locator('#quiz-stop').click()
+            page.locator('#quiz-again').click()
+            page.locator('#quiz-start').click()
+            assert page.locator('.quiz-answer input').count() == 4
+            assert page.evaluate('key => JSON.parse(localStorage.getItem(key)).version', key) == 2
+            page.once('dialog', lambda dialog: dialog.accept())
+            page.locator('#quiz-stop').click()
+            page.locator('#quiz-again').click()
 
         # Salvataggio bloccato: avviso visibile, quiz utilizzabile in memoria.
         blocked = page.context.new_page()
