@@ -1,18 +1,25 @@
 {
   "html": "relazioni_proporzionalita_it.html",
-  "version": "v1",
-  "bytes": 14489123,
-  "sha256": "4b549d3aff83ac27ea3dd81cfae59b042655422fc63a2f75f5bca829ee8923de",
-  "bozza": "v4",
+  "version": "v2",
+  "bozza": "v5",
+  "date": "2026-10-25T00:00:58+02:00",
+  "bytes": 11283554,
+  "sha256": "1745a5b47f7a591d19e068a79d8750f677cb2e1a9bc653ae35ee42964ca32b6f",
   "questions": 9,
-  "manifest_changed": false,
+  "layouts": 12,
+  "parameter_cases": 54,
+  "interactive_zoom": false,
+  "body_photos": false,
+  "all_figures_captioned": true,
   "published": false,
   "checks": [
     "credits.py --check",
     "build_pages.py",
-    "verifica_browser.py"
+    "verifica_browser.py",
+    "node --check",
+    "git diff --check"
   ],
   "limitations": [
-    "Prove browser tramite HTTP locale: file:// bloccato dal browser gestito."
+    "Browser tramite HTTP locale, file:// bloccato dal browser gestito."
   ]
 }

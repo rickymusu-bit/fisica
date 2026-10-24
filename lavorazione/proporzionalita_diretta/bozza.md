@@ -1,27 +1,27 @@
 # Le relazioni di proporzionalità
 
-Versione della bozza: v4 — 24 ottobre 2026.
+Versione della bozza: v5 — 24 ottobre 2026.
 Area: Introduzione alla fisica e alla misura.
 
 [C9-COP — Hyperbolic_orthogonal_dodecahedral_honeycomb.png scelta dall’utente; copertina intera, senza zoom.]
 
 ## Raddoppiare una quantità
 
-Immaginiamo una vendita di libri usati a prezzo fisso: ogni libro costa 2 €. Se ne compriamo due spendiamo 4 €, se ne compriamo tre spendiamo 6 €. Il prezzo cresce insieme al numero di libri: possiamo prevederlo prima di arrivare alla cassa. Ma due grandezze che aumentano insieme seguono sempre questa stessa regola?
+Immaginiamo di acquistare libri della stessa collana, tutti a 15 € l’uno. Se ne compriamo due spendiamo 30 €, se ne compriamo tre spendiamo 45 €. Il prezzo cresce insieme al numero di libri: possiamo prevederlo prima di arrivare alla cassa. Ma due grandezze che aumentano insieme seguono sempre questa stessa regola?
 
-[C9-SIT — Fotografia della biblioteca Library_at_the_biltmore_estate.jpg e schema della vendita ipotetica: 2 €/libro; 1 libro → 2 €, 2 libri → 4 €, 3 libri → 6 €.]
+[C9-SIT — Schema originale con uno, due e tre libri riconoscibili, prezzo unitario 15 €/libro e totali 15/30/45 €. Nessuna fotografia della biblioteca; didascalia sulle condizioni del prezzo.]
 
-In questo caso il prezzo unitario rimane fisso: non ci sono sconti o quote aggiuntive. Ogni libro aggiunge 2 € alla spesa.
+In questo caso il prezzo unitario rimane fisso: non ci sono sconti o quote aggiuntive. Ogni libro aggiunge 15 € alla spesa. I valori seguenti si riferiscono a questo prezzo iniziale; cambiando k nel grafico aggiorneremo anche tabella e punti.
 
 | Numero di libri x | Prezzo y (€) |
 |---:|---:|
 | 0 | 0 |
-| 1 | 2 |
-| 2 | 4 |
-| 3 | 6 |
-| 4 | 8 |
+| 1 | 15 |
+| 2 | 30 |
+| 3 | 45 |
+| 4 | 60 |
 
-Se dividiamo il prezzo per il numero di libri, otteniamo sempre 2 €/libro. È questo **rapporto costante** a caratterizzare la **proporzionalità diretta**:
+Nella tabella iniziale, dividendo il prezzo per il numero di libri otteniamo sempre 15 €/libro. È questo **rapporto costante** a caratterizzare la **proporzionalità diretta**:
 
 \[
 \frac{y}{x}=k
@@ -33,19 +33,23 @@ La stessa relazione si scrive:
 y=k\cdot x
 \]
 
-La **costante di proporzionalità k** esprime quanto y corrisponde a un’unità di x. Nell’acquisto è il prezzo unitario: 2 €/libro. Le sue unità dipendono dalle grandezze confrontate: non è necessariamente un numero senza unità.
+La **costante di proporzionalità k** esprime quanto y corrisponde a un’unità di x. Nell’acquisto è il prezzo unitario: 15 €/libro. Le sue unità dipendono dalle grandezze confrontate: non è necessariamente un numero senza unità.
 
-Raddoppiando x, anche y raddoppia; triplicando x, y triplica. Cinque libri costano quindi 10 €, cinque volte il prezzo di uno e 2 € più di quattro libri.
+Raddoppiando x, anche y raddoppia; triplicando x, y triplica. Cinque libri costano quindi 75 €, cinque volte il prezzo di uno e 15 € più di quattro libri.
 
-[C9-GRA-D — Riutilizzare punti e comando «Mostra la retta» del grafico dei libri. Assi: numero di libri e prezzo (€). Modello passante per l’origine; valori numerici coerenti con la tabella.]
+[C9-GRA-D — Punti, retta y = k·x e selettore k = 10/15/20 €/libro, valore iniziale 15. Scale fisse 0–4 libri e 0–80 €. Tabella e punti aggiornati; retta iniziale tratteggiata di confronto. Nessuno zoom. Didascalia su campioni interi e modello continuo.]
 
-Il grafico della proporzionalità diretta è una retta che passa per l’origine: se non compriamo libri, la spesa è zero. Il rapporto si calcola per x diverso da zero; il valore nello zero si ricava invece da y = k·x. Nell’esempio gli acquisti possibili corrispondono ai punti con quantità intere.[^1]
+Ogni coppia della tabella determina un punto; la retta del modello **passa per tutti quei punti**, perché ciascuna coppia soddisfa la stessa formula. La retta passa anche per l’origine: senza libri la spesa è zero. Non stiamo unendo i punti in un ordine arbitrario: rappresentiamo tutte le coppie che rispettano y = k·x.[^1]
+
+Il rapporto si calcola per x diverso da zero; il valore nello zero si ricava da y = k·x. In un singolo acquisto il prezzo unitario k resta costante. Cambiare k significa confrontare un’altra situazione, con un altro prezzo unitario: non far cambiare il prezzo da un punto all’altro della stessa retta.
+
+Porta k da 15 a 20 €/libro. A parità di quantità, il prezzo totale aumenta: per due libri passa da 30 a 40 €. La retta diventa **più inclinata verso l’alto**, mantenendo fissi assi e scale, e continua a passare per l’origine. Se k scende a 10 €/libro, due libri costano 20 € e la retta si avvicina all’asse orizzontale. La retta tratteggiata conserva il confronto con il prezzo iniziale: qui l’inclinazione cambia perché cambia il modello, non perché abbiamo modificato la scala.
 
 ## Stessa distanza, tempi diversi
 
 Un viaggio in treno copre 120 km. Immaginiamo di percorrerli senza fermate, mantenendo una velocità costante: quanto tempo occorre a 60 km/h? E a 120 km/h?
 
-[C9-VIA — Las_Vegas_monorail_Excalibur.jpg e schema del percorso ideale di 120 km; 60 km/h → 2 h, 120 km/h → 1 h. La foto identifica il mezzo, non la tratta o un orario reale.]
+[C9-VIA — Schema ferroviario originale con treno, percorso e due percorrenze: 120 km; 60 km/h → 2 h; 120 km/h → 1 h. Nessuna fotografia della monorotaia. Didascalia: distanza identica, velocità costante e assenza di fermate.]
 
 A 60 km/h il treno percorre 60 km ogni ora: per coprirne 120 servono 2 ore. A 120 km/h basta un’ora. Raddoppiando la velocità, il tempo si dimezza: il percorso è rimasto lo stesso.
 
@@ -57,7 +61,7 @@ A 60 km/h il treno percorre 60 km ogni ora: per coprirne 120 servono 2 ore. A 12
 | 80 | 1,5 |
 | 120 | 1 |
 
-In tutte le righe il prodotto della velocità per il tempo vale 120 km. Indicando con d la distanza:
+Nella tabella iniziale, in tutte le righe il prodotto della velocità per il tempo vale 120 km. Indicando con d la distanza:
 
 \[
 v\cdot t=d
@@ -87,9 +91,11 @@ y=\frac{k}{x}
 
 La caratteristica è il **prodotto costante**. Nel viaggio x corrisponde alla velocità, y al tempo e k alla distanza di 120 km.
 
-[C9-GRA-I — Adattare il grafico interattivo dell’inversa alla nuova tabella: asse orizzontale velocità v (km/h), asse verticale tempo t (h), curva t = (120 km)/v nel dominio positivo, comando «Mostra la curva». Aggiornare dati, scale, unità e descrizione accessibile; non conservare coordinate o riferimenti ai rettangoli.]
+[C9-GRA-I — Punti e iperbole t = k/v, selettore k = 60/120/180 km, iniziale 120. Scale fisse 0–120 km/h e 0–6 h; tabella e punti aggiornati. Iperbole iniziale tratteggiata, nessuno zoom. Didascalia sul significato della costante-distanza.]
 
-Il grafico è un ramo di **iperbole**. La curva scende: una velocità maggiore richiede meno tempo per coprire la stessa distanza. A velocità zero il viaggio non può essere completato, perciò non esiste un tempo di arrivo finito da rappresentare sull’asse verticale.
+I punti non sono allineati su una retta: appartengono a un ramo di **iperbole**. Ogni punto della curva, anche tra due valori della tabella, rappresenta una coppia velocità–tempo con lo stesso prodotto. La curva scende: una velocità maggiore richiede meno tempo per coprire la stessa distanza. A velocità zero il viaggio non può essere completato, perciò non esiste un tempo di arrivo finito da rappresentare sull’asse verticale.
+
+Nel grafico puoi anche cambiare k, cioè la distanza del viaggio. Con k = 180 km, alla stessa velocità di 60 km/h occorrono 3 h anziché 2 h: la nuova iperbole si trova **più in alto**, a parità di ascissa positiva. Con k = 60 km basta 1 h e la curva si trova più in basso. Per ciascuna distanza resta valida la proporzionalità inversa: raddoppiare la velocità dimezza il tempo. Stiamo confrontando viaggi diversi; non cambiando la distanza durante uno stesso viaggio.
 
 ## Quando il lato raddoppia e l’area quadruplica
 
@@ -129,34 +135,35 @@ Raddoppiare x moltiplica y per quattro; triplicarlo moltiplica y per nove. Se il
 
 [C9-GRA-Q — Riutilizzare tabella, punti e comando «Mostra la curva» della relazione quadratica. Assi lato (cm) e area (cm²). Lo zero rappresenta il limite di lato e area nulli.]
 
-Il grafico appartiene a una **parabola**; per il lato consideriamo solo x non negativo. La curva passa per l’origine, ma non è una retta. Il passaggio per l’origine, da solo, non basta quindi a riconoscere una proporzionalità diretta.
+Ogni coppia lato–area della tabella è un punto di una **parabola**. Il modello descrive anche i lati intermedi: per esempio, a 1,5 cm corrispondono 2,25 cm². Poiché un lato non è negativo, qui rappresentiamo soltanto la parte della parabola con x non negativo. La curva passa per l’origine, ma non è una retta: il passaggio per l’origine, da solo, non basta a riconoscere una proporzionalità diretta.
+
+Per osservare il ruolo di k anche in questa famiglia, passiamo al modello generale y = k·x²: nel confronto seguente x e y sono numeri senza unità. Non stiamo cambiando la formula dell’area di un quadrato, per la quale k resta 1.
+
+[C9-K-Q — Confronto matematico y = k·x², k = 0,5/1/2, iniziale 1; assi x e y senza unità, scale fisse 0–4 e 0–32. Parabola iniziale tratteggiata; lettura a x = 2; nessuno zoom. Didascalia che distingue il confronto generale dal quadrato.]
+
+A x = 2, y vale 2 con k = 0,5, vale 4 con k = 1 e vale 8 con k = 2. Aumentando k positivo, la parabola sale più rapidamente e appare più stretta attorno all’asse verticale; diminuendolo si allarga. Tutte queste curve passano per l’origine e mantengono la stessa regola di scala: se x raddoppia, y quadruplica. Il valore di k cambia i valori di y, mentre la dipendenza da x² rimane la stessa.
 
 ## Domande di verifica
 
 1. Dalla tabella dei libri ricava il costo di un singolo libro. Perché la retta del prezzo attraversa l’origine?
-2. Quali unità ha k nell’esempio dei libri? Che cosa rappresenta?
-3. Quattro libri costano 8 €. Quanto costano sei libri allo stesso prezzo unitario? Spiega il ragionamento.
+2. Quali unità ha k nell’esempio dei libri? Come cambia la retta se il prezzo passa da 15 a 20 €/libro? Confronta i prezzi di due libri.
+3. Quattro libri costano 60 €. Quanto costano sei libri allo stesso prezzo unitario? Spiega il ragionamento.
 4. Nel viaggio di 120 km, se la velocità triplica da 40 a 120 km/h, come cambia il tempo di percorrenza? Quale quantità resta uguale?
-5. Quanto tempo richiede lo stesso viaggio di 120 km a una velocità costante di 100 km/h? Esprimi il risultato in ore e poi in ore e minuti.
+5. Quanto tempo richiede il viaggio di 120 km a 100 km/h? Esprimi il risultato in ore e minuti. Se k passa a 180 km mantenendo la velocità, l’iperbole si trova più in alto o più in basso? Perché?
 6. Se il lato di un quadrato passa da 3 cm a 6 cm, prevedi l’area prima di disegnare il punto. Di quanto aumenta rispetto all’area iniziale?
 7. Vero o falso? «Se un grafico passa per l’origine, rappresenta una proporzionalità diretta». Motiva con un esempio del capitolo.
 8. Per x uguale a 1, 2, 4 si osservano rispettivamente y uguale a 6, 3, 1,5. Quale delle relazioni studiate è compatibile con i dati? Mostra il controllo numerico.
-9. Una grandezza segue y = k·x². Se x si dimezza, y diventa la metà, un quarto o il doppio? Motiva.
+9. Una grandezza segue y = k·x². Se x si dimezza mantenendo k, come cambia y? Se invece raddoppi k mantenendo x, come cambia y e come cambia il grafico?
 
 ## Note
 
-[^1]: La retta mostra il modello matematico continuo; nell’acquisto di libri interi si usano soltanto le quantità intere. La proporzionalità diretta può anche avere k negativo quando le grandezze ammettono valori con segno: il suo criterio generale resta il rapporto costante.
+[^1]: La retta mostra il modello matematico continuo; nell’acquisto di libri interi si usano soltanto le quantità intere. Le tabelle di questo capitolo sono costruite dalle formule dichiarate: con dati sperimentali una curva è invece un modello da verificare e non deve necessariamente attraversare ogni punto esattamente. La proporzionalità diretta può anche avere k negativo quando le grandezze ammettono valori con segno: il suo criterio generale resta il rapporto costante.
 
 ---
 
 ## Materiali e provenienza — sezione di servizio della bozza
 
-Da non trasferire nel contenuto didattico visibile.
-
-- Fonte editoriale: grafici_piano_cartesiano_it.html v8, sezioni diretta, inversa e quadratica.
-- Quesiti originali 3 e 7 conservati nelle domande 1 e 6. Il quesito originale 6, sul triplicare la base del rettangolo, è adattato nella domanda 4 al triplicare della velocità a distanza fissa, conservando il ragionamento sulla proporzionalità inversa. Quesiti originali 1–2 assegnati al capitolo 8. I quesiti originali 4–5 sulle rette con intercetta e sulla retta decrescente sono esclusi dal nuovo capitolo per richiesta dell’utente; restano conservati nel sorgente storico.
-- Tabelle costruite dai modelli dichiarati; nessuna misura sperimentale o tariffa commerciale attuale.
-- Formule generali e unità delle costanti esplicitate rispetto al sorgente. Nessuna generica funzione quadratica è chiamata automaticamente proporzionalità quadratica. Rimosse su richiesta la sezione sulle rette con intercetta, la formula della pendenza, la consegna con quota fissa, il confronto delle tre rette e i relativi quesiti.
-- Immagini scelte dall’utente il 24 ottobre 2026; metadati originali conservati in risorse/, crediti nel registro centrale. Fotografia della biblioteca condivisa fra i due capitoli per continuità.
-- Su richiesta «fai col viaggio», sostituiti rettangoli e area costante con un viaggio ferroviario ideale di 120 km, senza fermate e a velocità costante. Tabella e grafico previsti aggiornati; dati costruiti dal modello, non orari di un servizio reale. Nessuna necessità di fonti su tratte o orari.
-- Bozza approvata, aggiornata ai libri per la richiesta corrente. HTML in realizzazione; pubblicazione subordinata all’anteprima.
+- Revisione richiesta: prezzo illustrativo 15 €/libro, schemi originali di libri e treno al posto delle fotografie. Originali fotografici conservati nella lavorazione, senza associazioni nei crediti correnti.
+- Copertina geometrica conservata con didascalia identificativa. Schema del quadrato in scala. Tutti i grafici interattivi senza zoom, con etichette leggibili e comandi esterni all’area dei dati.
+- Dati e curve derivano da formule esatte, non da misure. Variazione di k autorizzata dalla richiesta: prezzi 10/15/20 €/libro; distanze 60/120/180 km; confronto quadratico astratto k = 0,5/1/2. Scale fisse, riferimento tratteggiato e lettura a x fissato. La variazione cambia modello; ogni curva ha un k costante.
+- Gli otto/nove quesiti dei due capitoli mantengono la ripartizione; quelli del 9 sono aggiornati al prezzo e alla variazione della costante. Nessuna intercetta o relazione affine introdotta.

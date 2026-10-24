@@ -1,6 +1,6 @@
 # Stato — Le relazioni di proporzionalità
 
-**Stato corrente — 24 ottobre 2026:** HTML v1 completo e verificato sulla PR #79; bozza testuale v4. Immagini scelte dall’utente e incorporate. Anteprima da approvare prima della pubblicazione. I paragrafi precedenti conservati sotto documentano la cronologia.
+**Stato corrente — revisione richiesta il 24 ottobre 2026:** HTML v2 verificato; bozza testuale v5. Le nuove istruzioni dell’utente superano le precedenti scelte di riuso delle fotografie, prezzo a 2 € e zoom interattivo. Pubblicazione subordinata all’approvazione della nuova anteprima.
 
 ## Riferimenti e autorizzazioni
 
@@ -100,3 +100,23 @@ Salvataggio remoto verificato: commit `949647f5643410b84b22f14c55ae974781137f7c`
 
 
 Allineamento con main ef29a4f (revisione già pubblicata nella PR #80): risolto il solo conflitto in risorse/crediti.json partendo dal registro aggiornato di main e reinserendo le associazioni dei nuovi capitoli. Conservate integralmente le modifiche degli altri capitoli presenti in main. Rigenerazione, controllo dei crediti e build superati; i due nuovi HTML rimangono identici byte per byte alle anteprime verificate sopra.
+
+
+## Revisione richiesta dall’utente — 24 ottobre 2026
+
+Autorizzate correzioni sostanziali sulle anteprime della PR #79: spiegazione più sviluppata di variabili e assi; nessun esempio dei libri nel capitolo 8; divieto permanente di riciclare immagini ed esempi tra capitoli; zoom solo dove le scritte sono troppo piccole e nessuno zoom sui grafici interattivi correnti; legame tra punti e curve, significato grafico di k, didascalie; schemi originali al posto delle fotografie degli esempi e prezzo dei libri più realistico. La richiesta è già il via alla revisione, senza un nuovo passaggio di conferma. Non autorizza la pubblicazione.
+
+Master aggiornato a v69.16 integrando la regola in A3/B4, senza introdurre contraddizioni con il riuso delle componenti tecniche. AGENTS.md registra la regola, le didascalie e il perimetro dei grafici senza zoom. Schemi originali degli oggetti autorizzati espressamente dalla richiesta, che prevale sul divieto generale di disegnare autonomamente soggetti al posto di fotografie. Nessuna ricerca esterna o generazione di immagini necessaria: geometrie scientifiche e schemi costruiti in SVG deterministico.
+
+Capitolo 8: nuovo esempio esclusivo del serbatoio (nessun riuso rilevato nei 17 capitoli ammessi), con ingresso ideale di 3 L/min fino a 3 min e successiva chiusura. Dati (0;0), (1;3), (2;6), (3;9), (4;9), (5;9). Approfonditi coordinate, scale, quadranti, ruoli sperimentali e unicità della corrispondenza funzionale. Il volume è funzione del tempo a condizioni date; 9 L corrispondono a più istanti, quindi l’inversione non individua un unico tempo. La convenzione degli assi resta distinta dalla causalità. Schema del serbatoio, diagramma delle corrispondenze, piano P e grafici originali; libri e biblioteca esclusi dal contenuto dell’8.
+
+Capitolo 9: libri della stessa collana a 15 €/libro, schemi originali di libri e treno al posto delle due fotografie. Slider k per prezzi 10/15/20 €/libro e distanze 60/120/180 km, con tabella/punti aggiornati, scale fisse e modello iniziale tratteggiato. Quadrato con k = 1 mantenuto; aggiunto confronto puramente matematico y = k·x², senza unità, per k da 0,5 a 2: non si cambia artificiosamente la formula dell’area del quadrato. Spiegato che ogni curva ha un k costante e che variarlo confronta modelli diversi. Distinti punti costruiti da formule e dati sperimentali; quesiti aggiornati senza soluzioni.
+
+Copertine originali conservate e didascalie aggiunte a tutte le figure. Foto della biblioteca e del treno conservate solo come materiali storici; rimosse dalle associazioni dei crediti correnti. Schede separate per i visuali originali dei due capitoli. Ogni grafico interattivo è senza zoom; etichette disegnate per almeno 14 CSS px a 320 px. L’unico zoom rimasto riguarda il confronto statico affiancato delle scale e ha il comando esterno ai dati. Il tema condiviso resta invariato.
+
+Rigenerazione: realizza.py e nuovo modulo visuali.py; interazioni.js gestisce il punto P, le curve e gli slider. Verifiche della revisione in corso; i precedenti rapporti non attestano automaticamente le nuove versioni.
+
+
+Revisione verificata: superati 12 layout (320/390/1440 px, chiaro/scuro), 54 confronti numerici sui valori di k, tastiera degli slider, coerenza tabella/punti/curve, riferimento tratteggiato e scale fisse. Tutte le etichette dei visuali senza zoom sono almeno 14 CSS px a 320 px; P passa correttamente per assi/quadranti, rispetta gli estremi e risponde al trascinamento. Nessuno zoom sui grafici interattivi; zoom del solo confronto statico delle scale con comando fuori dai dati. Tutte le figure hanno una didascalia. Crediti correnti privi di riferimenti alle due fotografie rimosse; originali storici conservati. Fallback senza JavaScript, indice, note e OFL verificati; nessun errore JavaScript, overflow o richiesta esterna. Prove tramite HTTP locale, non file://. Ispezionate direttamente le schermate dei nuovi schemi, del punto P e dei confronti di k.
+
+`credits.py --check`, `build_pages.py`, `node --check` e `git diff --check` superati. I nuovi HTML v2 pesano circa 2,2 MB e 11,3 MB e restano esclusi dalla pubblicazione ufficiale. Manifest, catalogo, pagina pubblica dei crediti e altri capitoli invariati. I precedenti collegamenti online puntano alla v1 e sono superati dalla nuova anteprima v2 da consegnare con il salvataggio corrente. PR sempre in bozza: nessun merge o deployment.

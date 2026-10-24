@@ -4171,6 +4171,59 @@
       "fingerprints": [
         "asset-66d9410a8d83b6ce050ce69b197c9b0aafe698a7a5bec9fafbd222f41e7605ed"
       ]
+    },
+    {
+      "id": "visuali-piano-serbatoio",
+      "description": "Serbatoio, corrispondenze e grafici del piano cartesiano",
+      "author": "Stringhe",
+      "source": null,
+      "license": null,
+      "license_url": null,
+      "changes": null,
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Schemi e grafici originali realizzati su richiesta per il capitolo 8. Riempimento ideale: 3 L/min fino a 3 min, poi ingresso nullo. Dati costruiti, non misure. Nessuna fotografia dei libri incorporata."
+      ],
+      "metadata_sources": [],
+      "fingerprints": [
+        "asset-9869aea91557d6066a890b8366758de80497e2edb75c8790e4fb40a8c90f7877",
+        "asset-1d72ace07a3c0ae9b9ecf029f238d69dbc281dcebae68ee5b56cf3305a5209f7",
+        "asset-c4aa87e2bf6dbdded0312b84197c4d7b1eb510391b4b79bdfc951f48e2dbb36d",
+        "asset-490b33839111bdab0c2ae852e8198196c4763bc73b67b0b9568fb369ca5e9559",
+        "asset-3b144987d2f7e538a9dac801099770012ca31a74620614cea67167edc6d81f8b",
+        "asset-5483c5095c3131f37f925d32478f98fe4bdf3b5411511ec4fd4339497b2a6eee",
+        "asset-6cf34ee558cf64eab46fbc3c9758e9c9f83b4b21badfa81b1a60cd2f1f70ba8e",
+        "asset-7aa20ed041d7e3add849ec87360170a0f4008e23025fdce69bfaa7e4d2e46c95",
+        "asset-57693d1015031095f4beb2ac23357e2d910162586fd1641c02d28d77bd7a7b4f",
+        "asset-645453f36fcc371c25932d18116342678808c9ee4d90a0d7bcf6b2d35910aaf4",
+        "asset-9ddcdd0efe16a41143c94b89ff332138b30545f2e533f06755966811960a0f9b"
+      ]
+    },
+    {
+      "id": "visuali-proporzioni-parametro",
+      "description": "Schemi di libri e treno e grafici con parametro k",
+      "author": "Stringhe",
+      "source": null,
+      "license": null,
+      "license_url": null,
+      "changes": null,
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Schemi originali realizzati su richiesta per il capitolo 9 al posto delle fotografie. Prezzo iniziale 15 €/libro; viaggio iniziale 120 km; area del quadrato con k = 1. Confronto matematico y = k·x² separato dal modello del quadrato. Dati costruiti dalle formule, non misure o tariffe reali."
+      ],
+      "metadata_sources": [],
+      "fingerprints": [
+        "asset-51c7bbf30c9f429eaceae96cba2e09f723a6a0a8efcdbe3b13445327a0060df8",
+        "asset-df6fa98366421bea2dc91bfc828ceca895f2ed1d884f5da03c389ad5463edec8",
+        "asset-d02de1ca6cf3c27b38e0ac3162ba1e452288dea3640ac741394734a6ee345de5",
+        "asset-504832abae5e82b03d17ac4e044d2d3641d18cb704bf6279f16065c7d4667317",
+        "asset-95661836ee94f22f98bddb29f0674fc06eda03feb8ae7e89480de8a9b2091879",
+        "asset-6924e2e5b00019c1d6d5854204c791126e4122310d1506c61427d27842c78006",
+        "asset-b1ed2fbf7f073faff5a64661faca67c73a99a4f16d9fc3439df2dc80bdbe5c96",
+        "asset-6cadef27a3deff356b51be9fef62f0ecf444e01c91e4215145416053c2bcf7c1"
+      ]
     }
   ],
   "documents": {
@@ -5169,11 +5222,7 @@
           "notice": 0
         },
         {
-          "resource": "credit-5e5ca4b5b265dc6b",
-          "notice": 0
-        },
-        {
-          "resource": "grafici-capitoli-8-9",
+          "resource": "visuali-piano-serbatoio",
           "notice": 0
         }
       ],
@@ -5190,15 +5239,7 @@
           "notice": 0
         },
         {
-          "resource": "credit-5e5ca4b5b265dc6b",
-          "notice": 0
-        },
-        {
-          "resource": "grafici-capitoli-8-9",
-          "notice": 0
-        },
-        {
-          "resource": "credit-3fb36270d27222c4",
+          "resource": "visuali-proporzioni-parametro",
           "notice": 0
         }
       ],
@@ -5461,30 +5502,6 @@
       ]
     },
     {
-      "id": "asset-162c30835e781e76912c520370bf306ec2dea964f2230ab16942b79d71da1b49",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "piano_cartesiano_grafici_it.html",
-          "kind": "svg",
-          "description": "Numero di libri; Prezzo (€). Punti: (0; 0), (1; 2), (2; 4), (3; 6), (4; 8).",
-          "locator": "chart-scale-10",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": "grafici-capitoli-8-9"
-        },
-        {
-          "document": "piano_cartesiano_grafici_it.html",
-          "kind": "svg",
-          "description": "Numero di libri; Prezzo (€). Punti: (0; 0), (1; 2), (2; 4), (3; 6), (4; 8).",
-          "locator": "chart-scale-10",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": "grafici-capitoli-8-9"
-        }
-      ]
-    },
-    {
       "id": "asset-17805696381bd76e69bb171f0a901b8935409246484400d173c0204d05bc447e",
       "kind": "svg",
       "uses": [
@@ -5652,6 +5669,21 @@
           "attribute": "inline",
           "location": null,
           "credit_id": "bilancia-pesetti-generati"
+        }
+      ]
+    },
+    {
+      "id": "asset-1d72ace07a3c0ae9b9ecf029f238d69dbc281dcebae68ee5b56cf3305a5209f7",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "svg",
+          "description": "Coppie rappresentate: (0; 0), (1; 3), (2; 6), (3; 9), (4; 9), (5; 9).",
+          "locator": "chart-tank",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-piano-serbatoio"
         }
       ]
     },
@@ -6034,21 +6066,6 @@
       ]
     },
     {
-      "id": "asset-332afd57fe15d02f6938a2e3987708953541a1cc15f251f08033be6bbdee1823",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "relazioni_proporzionalita_it.html",
-          "kind": "svg",
-          "description": "Quadrati in scala: lato 1 cm e area 1 cm²; lato 2 cm e area 4 cm². Il secondo è diviso in quattro quadrati unitari.",
-          "locator": "inizio",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": "grafici-capitoli-8-9"
-        }
-      ]
-    },
-    {
       "id": "asset-3557155878051ae87547e92f9d92f0759d003f137c46eedd245fc0a8cc6aadb4",
       "kind": "image/jpeg",
       "uses": [
@@ -6345,6 +6362,21 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-7f854b41c75b4eda"
+        }
+      ]
+    },
+    {
+      "id": "asset-3b144987d2f7e538a9dac801099770012ca31a74620614cea67167edc6d81f8b",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "svg",
+          "description": "Stessi dati del serbatoio con scale verticali da zero a dodici litri e da zero a ventiquattro litri.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-piano-serbatoio"
         }
       ]
     },
@@ -6706,6 +6738,21 @@
       ]
     },
     {
+      "id": "asset-490b33839111bdab0c2ae852e8198196c4763bc73b67b0b9568fb369ca5e9559",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "svg",
+          "description": "Piano cartesiano da meno cinque a cinque, con punto P inizialmente in due, due.",
+          "locator": "plane",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-piano-serbatoio"
+        }
+      ]
+    },
+    {
       "id": "asset-4d80bb99890bc2afc90dab806f590d69838d90972b96bdb594d95c52d214c077",
       "kind": "image/svg+xml",
       "uses": [
@@ -6741,6 +6788,21 @@
           "attribute": "href",
           "location": null,
           "credit_id": "credit-75bc560c9b8d9052"
+        }
+      ]
+    },
+    {
+      "id": "asset-504832abae5e82b03d17ac4e044d2d3641d18cb704bf6279f16065c7d4667317",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "svg",
+          "description": "Coppie rappresentate: (30; 4), (40; 3), (60; 2), (80; 1,5), (120; 1).",
+          "locator": "chart-inverse",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-proporzioni-parametro"
         }
       ]
     },
@@ -6799,6 +6861,21 @@
       ]
     },
     {
+      "id": "asset-51c7bbf30c9f429eaceae96cba2e09f723a6a0a8efcdbe3b13445327a0060df8",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "svg",
+          "description": "Uno, due e tre libri a quindici euro ciascuno: totali quindici, trenta e quarantacinque euro.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-proporzioni-parametro"
+        }
+      ]
+    },
+    {
       "id": "asset-52266e11c92dd1f5e38325df41a47cfb868af05beaf946d24ad060817359a1d1",
       "kind": "image/jpeg",
       "uses": [
@@ -6844,6 +6921,21 @@
       ]
     },
     {
+      "id": "asset-5483c5095c3131f37f925d32478f98fe4bdf3b5411511ec4fd4339497b2a6eee",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "svg",
+          "description": "Coppie rappresentate: (0; 0), (1; 3), (2; 6), (3; 9), (4; 9), (5; 9).",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-piano-serbatoio"
+        }
+      ]
+    },
+    {
       "id": "asset-54a6c51c009337b9f69ad282aec44e22f3efd66be84b18d65b16b088066ec27e",
       "kind": "image/jpeg",
       "uses": [
@@ -6870,6 +6962,21 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-48220f391bae6883"
+        }
+      ]
+    },
+    {
+      "id": "asset-57693d1015031095f4beb2ac23357e2d910162586fd1641c02d28d77bd7a7b4f",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "svg",
+          "description": "Coppie rappresentate: (0; 0), (1; 3), (2; 6), (3; 9), (4; 9), (5; 9).",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-piano-serbatoio"
         }
       ]
     },
@@ -6915,21 +7022,6 @@
           "attribute": "inline",
           "location": null,
           "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-5c511816a2b7a7a38814683e34d6317451c1d0df9e77497d7a6f969e7d83ab9a",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "piano_cartesiano_grafici_it.html",
-          "kind": "svg",
-          "description": "Piano cartesiano da meno cinque a cinque. Punto trascinabile inizialmente in due, due.",
-          "locator": "inizio",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": "grafici-capitoli-8-9"
         }
       ]
     },
@@ -7036,6 +7128,21 @@
       ]
     },
     {
+      "id": "asset-645453f36fcc371c25932d18116342678808c9ee4d90a0d7bcf6b2d35910aaf4",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "svg",
+          "description": "Coppie rappresentate: (0; 0), (1; 3), (2; 6), (3; 9), (4; 9), (5; 9).",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-piano-serbatoio"
+        }
+      ]
+    },
+    {
       "id": "asset-65f88f2e548c25f03e3a54c0fed8761de266d99a1cd2e0cfa4253d0de6a06e14",
       "kind": "image/png",
       "uses": [
@@ -7051,21 +7158,6 @@
       ]
     },
     {
-      "id": "asset-66d9410a8d83b6ce050ce69b197c9b0aafe698a7a5bec9fafbd222f41e7605ed",
-      "kind": "image/jpeg",
-      "uses": [
-        {
-          "document": "relazioni_proporzionalita_it.html",
-          "kind": "image/jpeg",
-          "description": "Treno della monorotaia presso l’Excalibur a Las Vegas.",
-          "locator": "inizio",
-          "attribute": "src",
-          "location": null,
-          "credit_id": "credit-3fb36270d27222c4"
-        }
-      ]
-    },
-    {
       "id": "asset-66f4334e26ea047120e877852a8c8b4e904f0c3a82d109e5f67c7a844aa33730",
       "kind": "image/png",
       "uses": [
@@ -7077,6 +7169,21 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-7e8ab80a639eafc8"
+        }
+      ]
+    },
+    {
+      "id": "asset-6924e2e5b00019c1d6d5854204c791126e4122310d1506c61427d27842c78006",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "svg",
+          "description": "Coppie rappresentate: (0; 0), (1; 1), (2; 4), (3; 9), (4; 16).",
+          "locator": "chart-square",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-proporzioni-parametro"
         }
       ]
     },
@@ -7141,6 +7248,21 @@
       ]
     },
     {
+      "id": "asset-6cadef27a3deff356b51be9fef62f0ecf444e01c91e4215145416053c2bcf7c1",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "svg",
+          "description": "Viaggio ideale in treno su un percorso di centoventi chilometri, senza fermate e a velocità costante.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-proporzioni-parametro"
+        }
+      ]
+    },
+    {
       "id": "asset-6cedad7699315384399f53ecc8d97ad99e5bea94b149426b2940461ba4b8085a",
       "kind": "canvas",
       "uses": [
@@ -7152,6 +7274,21 @@
           "attribute": "inline",
           "location": null,
           "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-6cf34ee558cf64eab46fbc3c9758e9c9f83b4b21badfa81b1a60cd2f1f70ba8e",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "svg",
+          "description": "Coppie rappresentate: (0; 0), (1; 3), (2; 6), (3; 9), (4; 9), (5; 9).",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-piano-serbatoio"
         }
       ]
     },
@@ -7402,17 +7539,17 @@
       ]
     },
     {
-      "id": "asset-7b6f493dbeccc42e6b00c0c0452a24721f0db2c1fbcc890b991bab5d98bcb75e",
+      "id": "asset-7aa20ed041d7e3add849ec87360170a0f4008e23025fdce69bfaa7e4d2e46c95",
       "kind": "svg",
       "uses": [
         {
-          "document": "relazioni_proporzionalita_it.html",
+          "document": "piano_cartesiano_grafici_it.html",
           "kind": "svg",
-          "description": "Viaggio ideale di 120 km, senza fermate: a 60 km/h occorrono 2 h; a 120 km/h occorre 1 h.",
+          "description": "Stessi dati del serbatoio con scale verticali da zero a dodici litri e da zero a ventiquattro litri.",
           "locator": "inizio",
           "attribute": "inline",
           "location": null,
-          "credit_id": "grafici-capitoli-8-9"
+          "credit_id": "visuali-piano-serbatoio"
         }
       ]
     },
@@ -7828,30 +7965,6 @@
       ]
     },
     {
-      "id": "asset-91f5cdddfeb5830e2e27320d91e4e71f3c9ae25ba232e6903d7f18bf5f23ac9d",
-      "kind": "image/jpeg",
-      "uses": [
-        {
-          "document": "piano_cartesiano_grafici_it.html",
-          "kind": "image/jpeg",
-          "description": "Scaffali di libri nella biblioteca della tenuta Biltmore.",
-          "locator": "inizio",
-          "attribute": "src",
-          "location": null,
-          "credit_id": "credit-5e5ca4b5b265dc6b"
-        },
-        {
-          "document": "relazioni_proporzionalita_it.html",
-          "kind": "image/jpeg",
-          "description": "Scaffali di libri nella biblioteca della tenuta Biltmore.",
-          "locator": "inizio",
-          "attribute": "src",
-          "location": null,
-          "credit_id": "credit-5e5ca4b5b265dc6b"
-        }
-      ]
-    },
-    {
       "id": "asset-928b020f72cab3b09d000a48945dc653ae862fe795e080c06f9da036a0fc9bf4",
       "kind": "svg",
       "uses": [
@@ -7936,6 +8049,21 @@
       ]
     },
     {
+      "id": "asset-95661836ee94f22f98bddb29f0674fc06eda03feb8ae7e89480de8a9b2091879",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "svg",
+          "description": "Quadrati in scala: lato uno centimetro e area uno centimetro quadrato; lato due centimetri e area quattro centimetri quadrati.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-proporzioni-parametro"
+        }
+      ]
+    },
+    {
       "id": "asset-96176b7ed92604c233b922d46f735d8e2d64efb4a058eb4f786c4a954d91906c",
       "kind": "image/png",
       "uses": [
@@ -8013,6 +8141,21 @@
           "attribute": "src",
           "location": null,
           "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-9869aea91557d6066a890b8366758de80497e2edb75c8790e4fb40a8c90f7877",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "svg",
+          "description": "Serbatoio: rubinetto aperto, dopo due minuti ci sono sei litri; chiuso al terzo minuto, il volume resta nove litri.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-piano-serbatoio"
         }
       ]
     },
@@ -8106,6 +8249,21 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-dilatazione-fig-04"
+        }
+      ]
+    },
+    {
+      "id": "asset-9ddcdd0efe16a41143c94b89ff332138b30545f2e533f06755966811960a0f9b",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "svg",
+          "description": "I tempi 3, 4 e 5 minuti corrispondono tutti al volume di nove litri.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-piano-serbatoio"
         }
       ]
     },
@@ -8280,30 +8438,6 @@
           "attribute": "cover-data",
           "location": "copertine/bobina-tesla.webp",
           "credit_id": "credit-fe500d68e9c73973"
-        }
-      ]
-    },
-    {
-      "id": "asset-a9dd351cb8f8abc2e96503814b6b7bc38cda11e2fe8f327b44c9901ed7eff762",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "relazioni_proporzionalita_it.html",
-          "kind": "svg",
-          "description": "Numero di libri; Prezzo (€). Punti: (0; 0), (1; 2), (2; 4), (3; 6), (4; 8).",
-          "locator": "chart-direct",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": "grafici-capitoli-8-9"
-        },
-        {
-          "document": "relazioni_proporzionalita_it.html",
-          "kind": "svg",
-          "description": "Numero di libri; Prezzo (€). Punti: (0; 0), (1; 2), (2; 4), (3; 6), (4; 8).",
-          "locator": "chart-direct",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": "grafici-capitoli-8-9"
         }
       ]
     },
@@ -8551,6 +8685,21 @@
       ]
     },
     {
+      "id": "asset-b1ed2fbf7f073faff5a64661faca67c73a99a4f16d9fc3439df2dc80bdbe5c96",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "svg",
+          "description": "Coppie rappresentate: .",
+          "locator": "chart-quadratic",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-proporzioni-parametro"
+        }
+      ]
+    },
+    {
       "id": "asset-b401cdb07eea77f39808105f6b74232a347c0fe5d98a6fd520af2b92ddff01e5",
       "kind": "image/webp",
       "uses": [
@@ -8646,30 +8795,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-e6fc7a4073a95f9e"
-        }
-      ]
-    },
-    {
-      "id": "asset-b8f63eb07ddca12ae1dee2fd638d8f9f74a629e2661815d29f23d7920761f20a",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "relazioni_proporzionalita_it.html",
-          "kind": "svg",
-          "description": "Lato x (cm); Area y (cm²). Punti: (0; 0), (1; 1), (2; 4), (3; 9), (4; 16).",
-          "locator": "chart-quadratic",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": "grafici-capitoli-8-9"
-        },
-        {
-          "document": "relazioni_proporzionalita_it.html",
-          "kind": "svg",
-          "description": "Lato x (cm); Area y (cm²). Punti: (0; 0), (1; 1), (2; 4), (3; 9), (4; 16).",
-          "locator": "chart-quadratic",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": "grafici-capitoli-8-9"
         }
       ]
     },
@@ -9412,21 +9537,6 @@
       ]
     },
     {
-      "id": "asset-d93a1bd96280c792c5f80db0a824e5ce8eac87c0758c1972bb4ed2be2cc946f9",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "piano_cartesiano_grafici_it.html",
-          "kind": "svg",
-          "description": "Piano cartesiano da meno cinque a cinque. Punto trascinabile inizialmente in due, due.",
-          "locator": "plane",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": "grafici-capitoli-8-9"
-        }
-      ]
-    },
-    {
       "id": "asset-d9b8682faaeac2ab15cbb59ff6d0a0ea3fd07ccb203c0c7d803bf44753a5173d",
       "kind": "svg",
       "uses": [
@@ -9625,6 +9735,21 @@
       ]
     },
     {
+      "id": "asset-df6fa98366421bea2dc91bfc828ceca895f2ed1d884f5da03c389ad5463edec8",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "svg",
+          "description": "Coppie rappresentate: (0; 0), (1; 15), (2; 30), (3; 45), (4; 60).",
+          "locator": "chart-direct",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-proporzioni-parametro"
+        }
+      ]
+    },
+    {
       "id": "asset-e1327bdd80a87d2753b46455f1664e76801133cbf17834157f899586ead713f9",
       "kind": "svg",
       "uses": [
@@ -9690,30 +9815,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-050eea1e618fbe65"
-        }
-      ]
-    },
-    {
-      "id": "asset-e2faac3ffb975c9efd832b92a5f525a7558fc950dbb56e65f8d034a3aa42abce",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "relazioni_proporzionalita_it.html",
-          "kind": "svg",
-          "description": "Velocità v (km/h); Tempo t (h). Punti: (30; 4), (40; 3), (60; 2), (80; 1,5), (120; 1).",
-          "locator": "chart-inverse",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": "grafici-capitoli-8-9"
-        },
-        {
-          "document": "relazioni_proporzionalita_it.html",
-          "kind": "svg",
-          "description": "Velocità v (km/h); Tempo t (h). Punti: (30; 4), (40; 3), (60; 2), (80; 1,5), (120; 1).",
-          "locator": "chart-inverse",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": "grafici-capitoli-8-9"
         }
       ]
     },
@@ -9907,30 +10008,6 @@
       ]
     },
     {
-      "id": "asset-ed1744fe6caae6103b026235bdf158c4e69c7acffba48cb26d1b20f6998de8c5",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "piano_cartesiano_grafici_it.html",
-          "kind": "svg",
-          "description": "Numero di libri; Prezzo (€). Punti: (0; 0), (1; 2), (2; 4), (3; 6), (4; 8).",
-          "locator": "chart-scale-20",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": "grafici-capitoli-8-9"
-        },
-        {
-          "document": "piano_cartesiano_grafici_it.html",
-          "kind": "svg",
-          "description": "Numero di libri; Prezzo (€). Punti: (0; 0), (1; 2), (2; 4), (3; 6), (4; 8).",
-          "locator": "chart-scale-20",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": "grafici-capitoli-8-9"
-        }
-      ]
-    },
-    {
       "id": "asset-edfa55ccdcff6b71ccfbeaac38d42156ca954f400ad150a1f08df4613c01f091",
       "kind": "image/jpeg",
       "uses": [
@@ -9957,30 +10034,6 @@
           "attribute": "inline",
           "location": null,
           "credit_id": "bilancia-pesetti-generati"
-        }
-      ]
-    },
-    {
-      "id": "asset-f00e032d005d778652416252364df92d257ead790a181678c29bf6b02a7bdaab",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "piano_cartesiano_grafici_it.html",
-          "kind": "svg",
-          "description": "Numero di libri; Prezzo (€). Punti: (0; 0), (1; 2), (2; 4), (3; 6), (4; 8).",
-          "locator": "chart-books",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": "grafici-capitoli-8-9"
-        },
-        {
-          "document": "piano_cartesiano_grafici_it.html",
-          "kind": "svg",
-          "description": "Numero di libri; Prezzo (€). Punti: (0; 0), (1; 2), (2; 4), (3; 6), (4; 8).",
-          "locator": "chart-books",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": "grafici-capitoli-8-9"
         }
       ]
     },

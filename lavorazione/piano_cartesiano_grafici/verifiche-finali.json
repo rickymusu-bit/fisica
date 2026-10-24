@@ -1,18 +1,25 @@
 {
   "html": "piano_cartesiano_grafici_it.html",
-  "version": "v1",
-  "bytes": 4403649,
-  "sha256": "d50520ffdd3c442795fef432cead2db7333d669d6a16171c60739b676afcc587",
-  "bozza": "v2",
+  "version": "v2",
+  "bozza": "v3",
+  "date": "2026-10-25T00:00:58+02:00",
+  "bytes": 2176275,
+  "sha256": "b965abd10fe9fb9b991e5b88457e6b8e41a43436b188b0c7a76b3b9de389c6d4",
   "questions": 8,
-  "manifest_changed": false,
+  "layouts": 12,
+  "parameter_cases": 54,
+  "interactive_zoom": false,
+  "body_photos": false,
+  "all_figures_captioned": true,
   "published": false,
   "checks": [
     "credits.py --check",
     "build_pages.py",
-    "verifica_browser.py"
+    "verifica_browser.py",
+    "node --check",
+    "git diff --check"
   ],
   "limitations": [
-    "Prove browser tramite HTTP locale: file:// bloccato dal browser gestito."
+    "Browser tramite HTTP locale, file:// bloccato dal browser gestito."
   ]
 }
