@@ -1,0 +1,109 @@
+{
+  "bilancia": {
+    "id": "bilancia-pesetti-generati",
+    "changes": "Immagini generate su richiesta; letture e masse sono elementi del modello interattivo.",
+    "path": "../strumenti_misura/risorse/bilancia-generata.png",
+    "symbol": "sim-balance-art",
+    "width": 1536,
+    "height": 1024,
+    "viewbox": [
+      0,
+      0,
+      1536,
+      1024
+    ],
+    "alt": "Bilancia digitale da laboratorio con piatto circolare e display.",
+    "hide-caption": true
+  },
+  "pesetto-10": {
+    "id": "bilancia-pesetti-generati",
+    "changes": "Immagini generate su richiesta; letture e masse sono elementi del modello interattivo.",
+    "path": "../strumenti_misura/risorse/pesetto-generato.png",
+    "symbol": "sim-weight-art",
+    "width": 1287,
+    "height": 1222,
+    "viewbox": [
+      356,
+      105,
+      589,
+      994
+    ],
+    "alt": "Pesetto da 10 g."
+  },
+  "pesetto-20": {
+    "id": "bilancia-pesetti-generati",
+    "changes": "Immagini generate su richiesta; letture e masse sono elementi del modello interattivo.",
+    "path": "../strumenti_misura/risorse/pesetto-generato.png",
+    "symbol": "sim-weight-art",
+    "width": 1287,
+    "height": 1222,
+    "viewbox": [
+      356,
+      105,
+      589,
+      994
+    ],
+    "alt": "Pesetto da 20 g."
+  },
+  "pesetto-50": {
+    "id": "bilancia-pesetti-generati",
+    "changes": "Immagini generate su richiesta; letture e masse sono elementi del modello interattivo.",
+    "path": "../strumenti_misura/risorse/pesetto-generato.png",
+    "symbol": "sim-weight-art",
+    "width": 1287,
+    "height": 1222,
+    "viewbox": [
+      356,
+      105,
+      589,
+      994
+    ],
+    "alt": "Pesetto da 50 g."
+  },
+  "pesetto-100": {
+    "id": "bilancia-pesetti-generati",
+    "changes": "Immagini generate su richiesta; letture e masse sono elementi del modello interattivo.",
+    "path": "../strumenti_misura/risorse/pesetto-generato.png",
+    "symbol": "sim-weight-art",
+    "width": 1287,
+    "height": 1222,
+    "viewbox": [
+      356,
+      105,
+      589,
+      994
+    ],
+    "alt": "Pesetto da 100 g."
+  },
+  "pesetto-200": {
+    "id": "bilancia-pesetti-generati",
+    "changes": "Immagini generate su richiesta; letture e masse sono elementi del modello interattivo.",
+    "path": "../strumenti_misura/risorse/pesetto-generato.png",
+    "symbol": "sim-weight-art",
+    "width": 1287,
+    "height": 1222,
+    "viewbox": [
+      356,
+      105,
+      589,
+      994
+    ],
+    "alt": "Pesetto da 200 g."
+  },
+  "FIG-07-2": {
+    "id": "bilancia-pesetti-generati",
+    "changes": "Immagini generate su richiesta; letture e masse sono elementi del modello interattivo.",
+    "path": "../strumenti_misura/risorse/bilancia-generata.png",
+    "symbol": "sim-balance-art",
+    "width": 1536,
+    "height": 1024,
+    "viewbox": [
+      0,
+      0,
+      1536,
+      1024
+    ],
+    "alt": "Bilancia digitale da laboratorio con piatto circolare e display.",
+    "hide-caption": true
+  }
+}

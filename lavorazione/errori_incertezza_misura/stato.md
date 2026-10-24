@@ -1,6 +1,6 @@
 # Stato — Errori e incertezza di misura
 Ultimo aggiornamento: 23 ottobre 2026 (Europe/Rome). Capitolo 7.
-Fase: HTML v1 e simulazioni funzionanti; integrazione delle immagini autorizzate ancora aperta.
+Fase: immagini di bilancia e pesetti integrate; altre quattro figure del testo ancora aperte.
 
 ## Fonte e ambito
 Richiesta corrente: «Facciamo i capitoli 6 e 7», con collegamento al piano.
@@ -55,3 +55,11 @@ Anteprima corrente in bozza.html e nel file autonomo alla radice; simulazione gi
 Verifiche: test quantitativi del modello; browser desktop/mobile e chiaro/scuro, calcoli, grafico, tastiera, note, crediti, download e HTML caricato in memoria con rete disabilitata. La navigazione file:// è bloccata dalla policy del Chromium dell'ambiente e non è dichiarata eseguita. Rapporti nelle verifiche JSON e schermate in anteprime/. Crediti, tema e build Pages controllati senza ammettere i nuovi capitoli nel manifest. Sorgenti storici e articoli pubblicati invariati.
 
 Verifica finale consolidata in verifiche-finali.json: 7 test quantitativi passati, 20 combinazioni viewport/tema, nessun errore JavaScript o richiesta esterna, crediti/tema/build superati. I due HTML restano esclusi dall’output pubblico; file alla radice e bozza.html identici. Salvataggio sul ramo della PR #72; integrazione immagini ancora aperta.
+
+## Bilancia e pesetti generati — 24 ottobre 2026
+
+Autorizzazione esplicita dell’utente: «Per la simulazione, genera tu la bilancia e i pesetti». Generati gli originali, lasciati intatti nella cartella generated_images e copiati nella lavorazione. Bilancia e set di pesetti integrati nelle due simulazioni; display attivo sulla finestra dello strumento, immagini dei carichi sul piatto e controlli testuali/accessibili. Campione ignoto rappresentato da pesetto senza massa scritta. Immagini riutilizzate nelle figure della stessa bilancia nel testo. Dati e proprietà del modello invariati.
+
+Implementate definizioni SVG condivise per incorporare una sola volta ciascun originale e limitare il peso dei file senza comprimere o alterare le immagini. Lettura fuori scala OL con messaggio esplicito; selezione, rimozione e ripristino riallineano immagini e letture. Provenienza in ../strumenti_misura/risorse/bilancia-pesetti-fonte.json e registro unico; nessun materiale esterno introdotto. Restano quattro immagini per la teoria: voltmetro 0–15 V, termometro digitale, cronometro e bersagli. Nessuna immagine aggiuntiva necessaria per le simulazioni.
+
+Verifiche concluse: 7 test quantitativi, 20 combinazioni di viewport e tema, interazioni aggiornate e carico dei cinque pesetti; nessun errore JavaScript o richiesta esterna. Crediti, tema e build superati. HTML e copie di lavorazione identici; capitoli esclusi dalla pubblicazione.

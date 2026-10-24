@@ -1,9 +1,9 @@
 {
-  "html_version": "v1",
-  "approved_draft": "v4",
-  "authorization": "Ok vai",
-  "html_bytes": 683577,
-  "html_sha256": "31ffc1f2daf03bc0ad3fef6982c0db22b29e134c6a165db72ddf825fd3f162a4",
+  "html_version": "v2",
+  "approved_draft": "v5, generazione della bilancia e dei pesetti richiesta dall’utente",
+  "authorization": "Ok vai; generazione di bilancia e pesetti richiesta esplicitamente",
+  "html_bytes": 4230048,
+  "html_sha256": "210e525e9762a33d73d2bf3de9658300965cca62f780fc9bf07c029a485b43fc",
   "model_tests": {
     "passed": 7,
     "command": "node lavorazione/strumenti_misura/test_simulazione.cjs"
@@ -13,18 +13,17 @@
   "external_requests": [],
   "credits_check": "passed",
   "theme_check": "passed",
-  "pages_build": "passed; nuovi capitoli non ammessi alla pubblicazione",
+  "pages_build": "passed; nuovi capitoli esclusi dalla pubblicazione",
   "protected_sources": "invariati",
-  "preview_status": "Funzionale; figure del corpo e immagini degli oggetti della simulazione in attesa di fornitura e licenza. Non definitiva.",
   "image_slots": [
     "FIG-07-1",
-    "FIG-07-2",
     "SCH-07-1"
   ],
+  "preview_status": "Bilancia e pesetti generati e integrati; restano quattro immagini teoriche.",
   "offline_method": "HTML caricato in memoria con rete disabilitata; immagini incorporate decodificate, MathML e simulazione disponibili. Navigazione file:// bloccata dalla policy del Chromium dell’ambiente e non dichiarata eseguita.",
   "screenshots_reviewed": [
-    "grafico-dati-1440.png",
-    "simulazione-light-390.png",
-    "copertina-light-390.png"
-  ]
+    "lavorazione/strumenti_misura/anteprime/bilancia-carica-390.png"
+  ],
+  "generated_assets_source": "lavorazione/strumenti_misura/risorse/bilancia-pesetti-fonte.json",
+  "model_checks_scope": "7 test quantitativi; 20 combinazioni di viewport e tema; interazioni, carichi sul piatto, campione ignoto, download e offline verificati con hash HTML corrente."
 }

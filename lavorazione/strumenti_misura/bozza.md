@@ -1,6 +1,6 @@
 # Gli strumenti di misura
 
-[EDITORIALE — Bozza v7, 24 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive in attesa. I segnaposto descrivono i materiali da integrare dopo l'approvazione del testo. Area: Introduzione alla fisica e alla misura.]
+[EDITORIALE — Bozza v8, 24 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive in attesa. I segnaposto descrivono i materiali da integrare dopo l'approvazione del testo. Area: Introduzione alla fisica e alla misura.]
 
 [COP-06 — Fotografia scelta dall'utente: Ytterbium Lattice Double Clock with Photons at NIST.jpg. Intera, senza ritagli o zoom, non ripetuta nel corpo.]
 
@@ -58,7 +58,7 @@ In un termometro a colonna, per esempio, possiamo confrontare l'allungamento del
 
 Torniamo alla bilancia digitale. Supponiamo di controllarla con un oggetto al quale un riferimento attendibile attribuisce una massa di 100 g. La tabella riporta tre possibili serie di letture: sono dati inventati per confrontare due proprietà, non risultati di un esperimento eseguito.
 
-[FIG-06-1b — Foto originale della bilancia digitale accanto a TAB-06; nessun valore nuovo sovrapposto al display. La foto identifica lo strumento del confronto.]
+[FIG-06-1b — Bilancia digitale generata per le simulazioni, riutilizzata accanto al confronto delle letture.]
 
 [TAB-06 — Prospetto concordato. Condizione comune: stessa massa di riferimento, 100 g; tre letture per serie.]
 
@@ -146,3 +146,7 @@ Rimosse dallo schema le scritte che ripetono ciò che si vede, il titolo/sottoti
 ### Matita e indicazioni di vista
 
 Su richiesta, la sagoma è sostituita da una matita riconoscibile generata come elemento illustrativo. Punta e base riallineate con trasformazione uniforme alle coordinate precedenti; reinserite le etichette “Vista dall’alto”, “Vista frontale” e “Vista dal basso”. Nessuna nuova didascalia esplicativa.
+
+### Bilancia e pesetti generati su richiesta
+
+L’utente autorizza la generazione della bilancia e dei pesetti per le simulazioni. Nuovi originali preservati; immagini riutilizzate per lo stesso strumento nei due capitoli. I pesetti sono rappresentati anche sul piatto e la lettura è sovrapposta al display dallo script; per il campione ignoto il pesetto non ha massa scritta. Nessuna nuova didascalia.

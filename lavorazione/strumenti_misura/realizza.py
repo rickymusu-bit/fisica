@@ -129,6 +129,18 @@ def assets(folder):
     return json.loads(path.read_text()) if path.exists() else {}
 
 
+def object_svg(data, label=None):
+    box=data.get('viewbox',[0,0,data['width'],data['height']])
+    return '<svg class="generated-object" viewBox="' + ' '.join(str(v) for v in box) + '" role="img" aria-label="' + escape(label or data['alt'],quote=True) + '"><use href="#' + data['symbol'] + '"/></svg>'
+
+
+def object_definitions(folder, image_assets):
+    unique={data['symbol']:data for data in image_assets.values() if data.get('symbol')}
+    if not unique: return ''
+    content=''.join('<image id="' + symbol + '" width="' + str(data['width']) + '" height="' + str(data['height']) + '" href="' + uri(folder/data['path']) + '"/>' for symbol,data in unique.items())
+    return '<svg class="sim-art-definitions" width="0" height="0" aria-hidden="true" focusable="false" data-credit-id="bilancia-pesetti-generati"><defs>' + content + '</defs></svg>'
+
+
 def photo(folder, key, caption, image_assets, *, sim=False):
     data = image_assets.get(key)
     if not data:
@@ -138,7 +150,7 @@ def photo(folder, key, caption, image_assets, *, sim=False):
     path = folder / data['path']
     if not path.is_file(): raise FileNotFoundError(path)
     attrs = metadata({k:data.get(k) for k in ('source','author','license','license-url','changes','id')})
-    image = '<img src="' + uri(path) + '" alt="' + escape(data['alt'],quote=True) + '" loading="lazy" decoding="async">'
+    image = object_svg(data) if data.get('symbol') else '<img src="' + uri(path) + '" alt="' + escape(data['alt'],quote=True) + '" loading="lazy" decoding="async">'
     if sim: return '<div ' + attrs + '>' + image + '</div>'
     classes='visual ' + ('diagram' if data.get('diagram') else 'photo') + (' portrait' if data.get('portrait') else '')
     zoom=''
@@ -176,7 +188,13 @@ def simulation(folder, mode, image_assets):
     title = 'Massa nota e massa ignota' if lab else 'Pesetti e proprietà della bilancia'
     result = '<section class="measurement-sim" data-measurement="' + mode + '" aria-label="' + title + '"><h3>' + title + '</h3>'
     result += '<p class="sim-intro">Valori simulati. ' + ('Le proprietà dello strumento sono fisse: portata 500 g, passo leggibile 1 g, sensibilità del sensore 1 mV/g e risposta di circa 1 s.' if lab else 'Aggiungi i pesetti al piatto e varia una proprietà alla volta con gli slider sotto la bilancia.') + '</p>'
-    result += '<div class="sim-stage"><div>' + photo(folder,'bilancia','',image_assets,sim=True) + '</div><div class="sim-readout"><span class="sim-display-label">Indicazione della bilancia</span><output class="sim-display" data-display aria-live="off">0 g</output>'
+    generated=bool(image_assets.get('bilancia',{}).get('symbol'))
+    if generated:
+        weight=image_assets['pesetto-100'];box=weight['viewbox'];aspect=box[2]/box[3]
+        result=result.replace('class="measurement-sim"','class="measurement-sim sim-has-balance"',1)
+        result += '<div class="sim-stage sim-stage-generated"><div class="sim-balance-scene" data-weight-symbol="' + weight['symbol'] + '" data-weight-viewbox="' + ' '.join(str(v) for v in box) + '" style="--weight-aspect:' + str(aspect) + '">' + photo(folder,'bilancia','',image_assets,sim=True) + '<div class="sim-pan" data-pan></div><output class="sim-display sim-device-display" data-display aria-label="Indicazione della bilancia" aria-live="off">0 g</output></div><div class="sim-readout">'
+    else:
+        result += '<div class="sim-stage"><div>' + photo(folder,'bilancia','',image_assets,sim=True) + '</div><div class="sim-readout"><span class="sim-display-label">Indicazione della bilancia</span><output class="sim-display" data-display aria-live="off">0 g</output>'
     if not lab: result += '<p>Massa caricata: <strong data-loaded-mass>0 g</strong></p><p>Segnale del sensore: <output data-signal>0 mV</output></p>'
     result += '</div></div>'
     button = lambda label, attr, primary=False: '<button type="button" data-interactive disabled ' + attr + (' class="sim-primary"' if primary else '') + '>' + label + '</button>'
@@ -186,7 +204,8 @@ def simulation(folder, mode, image_assets):
             img = ''
             if 'pesetto-' + str(m) in image_assets:
                 img = photo(folder,'pesetto-' + str(m),'',image_assets,sim=True)
-            result += button(img + str(m) + ' g', 'data-weight="' + str(m) + '" aria-pressed="false" aria-label="Aggiungi o rimuovi il pesetto da ' + str(m) + ' g"')
+            scale=(m/200)**(1/3)
+            result += button('<span class="sim-weight-thumb" style="--weight-size:' + str(scale) + '">' + img + '</span>' + str(m) + ' g', 'data-weight="' + str(m) + '" aria-pressed="false" aria-label="Aggiungi o rimuovi il pesetto da ' + str(m) + ' g"')
         result += button('Svuota il piatto','data-empty') + '</div><div class="sim-sliders">'
         properties = [('capacity','Portata',2,1,'Il massimo carico misurabile.'),('step','Passo leggibile (risoluzione)',2,0,'La lettura cambia a multipli di questo passo.'),('response','Tempo di risposta',2,1,'Un tempo più breve corrisponde a maggiore prontezza.'),('sensitivity','Sensibilità del sensore',2,0,'Segnale elettrico in millivolt per grammo. La massa non cambia.'),('offset','Spostamento dello zero',5,0,'Uno spostamento costante non scompare ripetendo.'),('noise','Disturbi casuali',5,0,'Ampiezza massima del disturbo sintetico, in grammi equivalenti.')]
         for key,label,maximum,initial,helptext in properties:
@@ -232,7 +251,9 @@ def render(key, data):
     main, notes = text.split('\n## Note\n',1)
     blocks = [b.strip() for b in main.split('\n\n') if b.strip()]
     image_assets = assets(folder)
-    body = []; headings = []; pending = None; cover_caption = ''; formulas = 0; missing = []
+    definitions=object_definitions(folder,image_assets)
+    body = [definitions] if definitions else []
+    headings = []; pending = None; cover_caption = ''; formulas = 0; missing = []
     for block in blocks:
         if block.startswith(('# ', '[EDITORIALE')): continue
         if block.startswith('[COP-'): pending = 'COVER'; continue
@@ -254,6 +275,9 @@ def render(key, data):
         if block.startswith('[GRAF-'):
             body.append(static_graph()); pending = 'GRAPH'; continue
         if block.startswith('[TAB-'):
+            if pending and pending.startswith(('FIG-','SCH-')):
+                body.append(photo(folder,pending,'',image_assets))
+                if pending not in image_assets: missing.append(pending)
             pending = re.match(r'\[(TAB-[\d-]+)',block)[1]; continue
         if block.startswith(('[FIG-','[SCH-')):
             if pending and pending.startswith(('FIG-','SCH-')):
@@ -264,10 +288,6 @@ def render(key, data):
                 body.append(photo(folder,pending,'',image_assets)); pending=None
             continue
         if block.startswith('|'):
-            # FIG-06-1b precede la tabella: aggiungerla vicino al confronto.
-            if pending == 'TAB-06':
-                body.append(photo(folder,'FIG-06-1b','Bilancia digitale: strumento del confronto illustrativo.',image_assets))
-                if 'FIG-06-1b' not in image_assets: missing.append('FIG-06-1b')
             body.append(table(block,pending)); pending = None; continue
         if block.startswith('## '):
             title=block[3:]; sid=slug(title); number=len(headings)+1; headings.append((sid,title))
@@ -322,7 +342,8 @@ def main():
     for identity,description,source,notice in [
         ('metrologia-vim-gum','Vocabolario metrologico e guida all’incertezza','https://www.bipm.org/en/committees/jc/jcgm/publications','Riferimenti terminologici: JCGM 200:2012 (VIM), JCGM 100:2008 (GUM). La regola scolastica max(semidispersione, passo) è una semplificazione dichiarata, non una procedura generale attribuita a questi documenti.'),
         ('grafico-misure-tempi','Linea dei numeri delle cinque letture illustrative',None,'Grafico quantitativo del progetto Stringhe, ricostruito dagli stessi dati illustrativi del sorgente storico; nessuna fotografia esterna riprodotta.'),
-        ('parallasse-schema-originale','Schema originale del parallasse',None,'Schema originale realizzato su richiesta: scala, linee di vista e scritte costruiti in SVG con geometria verificata; elementi dell’occhio e della matita generati con ChatGPT. L’immagine commerciale Vecteezy non è riprodotta o incorporata.')]:
+        ('parallasse-schema-originale','Schema originale del parallasse',None,'Schema originale realizzato su richiesta: scala, linee di vista e scritte costruiti in SVG con geometria verificata; elementi dell’occhio e della matita generati con ChatGPT. L’immagine commerciale Vecteezy non è riprodotta o incorporata.'),
+        ('bilancia-pesetti-generati','Bilancia digitale e pesetti delle simulazioni',None,'Immagini della bilancia e del pesetto generate con ChatGPT su richiesta dell’utente. Originali preservati. Il pesetto è riutilizzato con dimensioni di presentazione differenti; masse e letture sono assegnate dal modello interattivo, senza simulare fotografie di esperimenti effettuati.')]:
         if not any(r['id']==identity for r in registry['resources']): registry['resources'].append({'id':identity,'description':description,'source':source,'author':'Stringhe' if source is None else 'JCGM/BIPM','license':None,'license_url':None,'changes':None,'status':'documented','links':[],'notices':[notice],'metadata_sources':[],'fingerprints':[]})
         elif identity=='parallasse-schema-originale':
             next(r for r in registry['resources'] if r['id']==identity)['notices']=[notice]

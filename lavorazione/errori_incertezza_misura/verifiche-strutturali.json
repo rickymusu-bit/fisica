@@ -3,9 +3,8 @@
   "headings": 7,
   "missing_images": [
     "FIG-07-1",
-    "FIG-07-2",
     "SCH-07-1"
   ],
-  "version": "v1",
-  "bytes": 683577
+  "version": "v2",
+  "bytes": 4230048
 }

@@ -47,9 +47,24 @@
     const reduceMotion = global.matchMedia && global.matchMedia('(prefers-reduced-motion: reduce)').matches;
     function cancel() { generation++; clearTimeout(timer); cancelAnimationFrame(frame); }
     function mass() { return lab ? (sample === 'A' ? known : unknown) : [...selected].reduce((a, b) => a + b, 0); }
+    function paintLoad() {
+      const pan=find('pan'),scene=root.querySelector('.sim-balance-scene');
+      if (!pan || !scene) return;
+      pan.replaceChildren();
+      const items=lab ? (acquisition>0 ? [sample==='A' ? known : unknown] : []) : [...selected].sort((a,b)=>a-b);
+      const ns='http://www.w3.org/2000/svg';
+      for (const m of items) {
+        const svg=document.createElementNS(ns,'svg'),use=document.createElementNS(ns,'use');
+        svg.setAttribute('viewBox',scene.dataset.weightViewbox);svg.setAttribute('role','img');
+        svg.setAttribute('aria-label',lab ? (sample==='A' ? 'Campione A, riferimento 100 g sul piatto' : 'Campione B sul piatto') : 'Pesetto da '+m+' g sul piatto');
+        svg.classList.add('sim-pan-weight');svg.style.setProperty('--weight-size',String(Math.cbrt(m/200)));
+        use.setAttribute('href','#'+scene.dataset.weightSymbol);svg.append(use);pan.append(svg);
+      }
+    }
     function updateReading(value, rawSignal) {
       current = value; currentSignal = rawSignal;
-      display.textContent = value === null ? 'Fuori scala' : format(value) + ' g';
+      display.textContent = value === null ? (root.classList.contains('sim-has-balance') ? 'OL' : 'Fuori scala') : format(value) + ' g';
+      display.setAttribute('aria-label',value===null ? 'Fuori scala' : 'Indicazione della bilancia: '+format(value)+' g');
       display.dataset.value = value === null ? 'overload' : String(value);
       if (!lab) find('signal').textContent = format(rawSignal) + ' mV';
     }
@@ -64,6 +79,8 @@
     function acquire() {
       cancel(); const token = generation; acquisition++; recorded = false; recordedEarly = false; stable = false;
       const m = mass();
+      paintLoad();
+      if (lab) find('measure').textContent='Rimuovi e ripeti';
       if (!lab) find('loaded-mass').textContent = format(m) + ' g';
       if (m > config.capacity) {
         updateReading(null, signal(m, config)); status.textContent = 'Il carico supera la portata di ' + format(config.capacity) + ' g.';
@@ -128,7 +145,7 @@
       cancel(); selected.clear(); sample = 'A'; currentSignal = 0; stable = false; acquisition = 0; recorded = false; recordedEarly = false;
       rows = []; series = {A: [], B: []}; configuration = 1; config = {...(lab ? labConfig : defaults)};
       updateReading(0, 0); status.textContent = lab ? 'Scegli il campione e avvia una misura.' : 'Aggiungi un pesetto al piatto.';
-      if (lab) { find('sample').value = 'A'; clearAnswers(); renderChart(); }
+      if (lab) { find('sample').value = 'A'; find('measure').textContent='Appoggia e misura'; clearAnswers(); renderChart(); }
       else {
         all('weight').forEach(btn => btn.setAttribute('aria-pressed', 'false'));
         all('property').forEach(input => {
@@ -138,6 +155,7 @@
         find('loaded-mass').textContent = '0 g'; find('series-label').textContent = 'Configurazione 1';
       }
       renderRows(); canRecord();
+      paintLoad();
     }
     find('reset').addEventListener('click', reset);
     find('clear').addEventListener('click', () => {
@@ -171,6 +189,8 @@
       find('sample').addEventListener('change', event => {
         cancel(); sample = event.target.value; acquisition = 0; stable = false; recorded = false;
         updateReading(0, 0); clearAnswers(); canRecord();
+        paintLoad();
+        find('measure').textContent='Appoggia e misura';
         status.textContent = 'Campione selezionato. Avvia una nuova misura; le due serie restano separate.';
       });
       function results() {

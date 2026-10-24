@@ -39,3 +39,7 @@ Carico basso, fino a 20 punti complessivi. Stima preliminare condivisa 2–3 ore
 ## Implementazione autorizzata
 
 L’utente dà il via con «Ok vai». Modello e comandi realizzati nel codice condiviso del capitolo 6, incorporati nei due HTML. Grafico del 7 con panoramica e ingrandimento del tema comune. Immagini pertinenti di bilancia, pesetti e campioni in attesa: la simulazione usa per ora controlli testuali e non inventa gli oggetti. Specifiche di progetto sopra conservate; fase corrente e verifiche in stato.md.
+
+## Immagini generate e display attivo
+
+Bilancia digitale e pesetto generati su richiesta dell’utente; originali nella lavorazione del capitolo 6 e relative schede di provenienza. Varianti dei pesetti riutilizzano l’originale con dimensioni proporzionate alla radice cubica della massa; etichette HTML separate. Display numerico nella finestra della bilancia e carichi visualizzati sul piatto. Il campione B è privo di etichetta di massa. Immagini incorporate una sola volta tramite definizioni SVG condivise, con riferimenti interni per le istanze; nessuna dipendenza esterna.

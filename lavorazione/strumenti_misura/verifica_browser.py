@@ -26,7 +26,7 @@ def main():
     server=ThreadingHTTPServer(('127.0.0.1',0),partial(Quiet,directory=str(ROOT)))
     threading.Thread(target=server.serve_forever,daemon=True).start()
     origin='http://127.0.0.1:'+str(server.server_port)
-    report={'layouts':[],'checks':[],'errors':[],'external_requests':[], 'limits':['Immagini del corpo, della bilancia e dei pesetti ancora da fornire; gli spazi sono dichiarati nell’anteprima. Nessun diritto dedotto.']}
+    report={'layouts':[],'checks':[],'errors':[],'external_requests':[], 'limits':['Restano da scegliere le immagini teoriche: voltmetro, termometro, cronometro e bersagli.']}
     lab_only='--lab-layouts-only' in sys.argv
     interactions_only='--interactions-only' in sys.argv
     if lab_only or interactions_only:
@@ -53,6 +53,10 @@ def main():
               page.locator('img').evaluate_all('async(xs)=>Promise.all(xs.map(i=>{i.loading="eager";return i.decode()}))')
               assert page.locator('img').evaluate_all('(xs)=>xs.every(i=>i.naturalWidth>0)')
               assert page.locator('mfrac').count()>0
+              assert page.locator('.sim-has-balance').count()==1
+              assert page.locator('[data-display]').bounding_box()['width']<=page.locator('.sim-balance-scene').bounding_box()['width']
+              assert page.locator('image[id="sim-balance-art"]').count()==1
+              assert page.locator('image[id="sim-weight-art"]').count()==1
               if key=='errori_incertezza_misura':
                 graph=page.locator('[data-chart]').bounding_box();parent=page.locator('.sim-chart-frame>.overview').bounding_box()
                 assert abs(graph['width']-parent['width'])<=2,(graph,parent)
@@ -82,6 +86,7 @@ def main():
         page.goto(origin+'/'+PAGES['strumenti_misura'])
         assert page.locator('.chapter-navigation a[rel=next]').get_attribute('href')==PAGES['errori_incertezza_misura']
         page.locator('[data-weight="100"]').click();assert page.locator('[data-record]').is_enabled()
+        assert page.locator('[data-pan] .sim-pan-weight').count()==1
         page.clock.run_for(250);page.locator('[data-record]').click()
         assert 'Anticipata' in page.locator('[data-rows]').inner_text()
         page.clock.run_for(850);assert page.locator('[data-display]').inner_text()=='100 g'
@@ -92,19 +97,34 @@ def main():
         assert page.locator('[data-signal]').inner_text()=='500 mV'
         page.locator('[data-record]').click();assert page.locator('[data-record]').is_disabled()
         set_range(page,'capacity',0);page.locator('[data-weight="200"]').click()
-        assert page.locator('[data-display]').inner_text()=='Fuori scala';assert page.locator('[data-record]').is_disabled()
+        assert page.locator('[data-display]').get_attribute('data-value')=='overload';assert page.locator('[data-display]').inner_text()=='OL';assert page.locator('[data-record]').is_disabled()
         page.locator('[data-weight="200"]').click();page.clock.run_for(1100)
         set_range(page,'offset',2);page.clock.run_for(1100);assert page.locator('[data-display]').inner_text()=='102 g'
         set_range(page,'step',2);page.clock.run_for(1100);assert page.locator('[data-display]').inner_text()=='100 g'
         slider=page.locator('[data-property="step"]');slider.focus();page.keyboard.press('ArrowLeft');assert slider.input_value()=='1'
         page.locator('[data-reset]').click();page.clock.run_for(2500)
         assert page.locator('[data-display]').inner_text()=='0 g';assert page.locator('[data-record]').is_disabled()
+        assert page.locator('[data-pan] .sim-pan-weight').count()==0
         assert page.locator('[data-property="sensitivity"]').input_value()=='0'
         page.locator('[data-weight="10"]').click();set_range(page,'step',1);page.clock.run_for(1100)
         assert page.locator('[data-display]').inner_text()=='20 g'
         set_range(page,'step',2);page.clock.run_for(1100)
         assert page.locator('[data-display]').inner_text()=='0 g'
         assert page.locator('[data-loaded-mass]').inner_text()=='10 g'
+        set_range(page,'step',0)
+        for mass in [20,50,100,200]:page.locator('[data-weight="'+str(mass)+'"]').click()
+        page.clock.run_for(1100)
+        assert page.locator('[data-pan] .sim-pan-weight').count()==5
+        assert page.locator('[data-display]').inner_text()=='380 g'
+        for width in [390,1440]:
+          page.set_viewport_size({'width':width,'height':1000})
+          scene=page.locator('.sim-balance-scene').bounding_box()
+          for box in page.locator('[data-pan] svg').evaluate_all('(xs)=>xs.map(e=>{const b=e.getBoundingClientRect();return {x:b.x,y:b.y,w:b.width,h:b.height}})'):
+            assert box['x']>=scene['x'] and box['x']+box['w']<=scene['x']+scene['width']+1
+            assert box['y']>=scene['y'] and box['y']+box['h']<=scene['y']+scene['height']+1
+          bar=page.add_style_tag(content='.topbar{visibility:hidden!important}')
+          page.locator('.sim-stage').screenshot(path=str(WORK/'anteprime'/f'bilancia-carica-{width}.png'))
+          bar.evaluate('(e)=>e.remove()')
         report['checks'].append('Capitolo 6: lettura anticipata, stabilizzazione, sensibilità calibrata, fuori scala, zero, passo, tastiera e reset durante acquisizione.')
         page.goto(origin+'/'+PAGES['errori_incertezza_misura'])
         assert page.locator('.chapter-navigation a[rel=prev]').get_attribute('href')==PAGES['strumenti_misura']
@@ -119,10 +139,13 @@ def main():
         page.locator('[data-check]').click();assert 'corretti' in page.locator('[data-feedback]').inner_text()
         assert 'Errore del valore medio' in page.locator('[data-results]').inner_text()
         page.locator('[data-sample]').select_option('B')
+        assert page.locator('[data-pan] .sim-pan-weight').count()==0
         assert page.locator('[data-record]').is_disabled();assert page.locator('[data-answer=error]').is_hidden()
         assert page.locator('[data-results]').is_hidden()
         for i in range(5):
           page.locator('[data-measure]').click();page.clock.run_for(1100);page.locator('[data-record]').click()
+        assert page.locator('[data-pan] .sim-pan-weight').count()==1
+        assert page.locator('[data-pan] svg').evaluate_all('(xs)=>xs.every(e=>!e.getAttribute("aria-label").includes("125"))')
         bv=page.locator('[data-rows] tr').evaluate_all('(rs)=>rs.filter(r=>r.cells[0].textContent.startsWith("B")).map(r=>Number(r.cells[2].textContent.replace(" g","").replace(",",".")))')
         mean=sum(bv)/len(bv);disp=(max(bv)-min(bv))/2;u=max(1,disp)
         for key,value in [('mean',mean),('dispersion',disp),('uncertainty',u)]:page.locator('[data-answer='+key+']').fill(str(round(value,2)).replace('.',','))

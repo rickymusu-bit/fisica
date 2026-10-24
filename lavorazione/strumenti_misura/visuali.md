@@ -1,5 +1,5 @@
 # Capitolo 6 — Gli strumenti di misura: proposta
-Versione v8 — 24 ottobre 2026 (Europe/Rome). Impostazione e visuali approvate con «Ok»; bozza testuale v5 con simulazione proposta.
+Versione v9 — 24 ottobre 2026 (Europe/Rome). Impostazione e visuali approvate con «Ok»; bozza testuale v5 con simulazione proposta.
 
 ## Domanda e confini
 Una bilancia mostra molte cifre: basta questo per fidarsi della misura? Partire dal confronto fra lettura analogica e digitale, poi distinguere le caratteristiche che permettono di scegliere e usare uno strumento.
@@ -71,3 +71,7 @@ Recepita la richiesta di non dichiarare ciò che è già evidente dalle immagini
 ## Matita e indicazioni di vista — HTML v4
 
 L’utente richiede un oggetto riconoscibile, una matita, e il ripristino di “Vista dall’alto”, “Vista frontale”, “Vista dal basso”, ritenute utili. Matita generata come elemento isolato, originale preservato e copia in risorse/matita-generata.png; sostituita la sagoma. Posizione ottenuta con sola rotazione e scala uniforme: punta e base nelle coordinate precedenti, senza deformazione. Geometria, linee di vista e zero invariati. Ripristinate esattamente le tre indicazioni richieste; non eliminarle come ridondanti nelle prossime revisioni. Nessuna nuova didascalia. Bozza v7, HTML v4; crediti e verifiche mirate aggiornati.
+
+## Bilancia e pesetti disponibili
+
+Bilancia digitale e pesetti generati su richiesta, incorporati e riutilizzati nelle figure della stessa bilancia. Schede in risorse/immagini.json; originali e provenienze condivisi nella lavorazione del 6. Le simulazioni non richiedono altre fotografie. Restano soltanto le figure di teoria del voltmetro, termometro, cronometro e bersagli.

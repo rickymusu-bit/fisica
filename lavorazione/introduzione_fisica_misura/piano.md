@@ -210,3 +210,7 @@ Su richiesta dell’utente rimossi testi visibili e didascalie che ripetono info
 ### Capitolo 6 — HTML v4, matita nel parallasse
 
 Su richiesta, la sagoma è sostituita con una matita riconoscibile e sono ripristinate le tre indicazioni di vista. Posizione, scala e linee di vista conservate; nessuna nuova didascalia. Originale generato preservato, crediti e verifiche mirate aggiornati. Capitolo 7 e simulazioni invariati.
+
+### Bilancia digitale e pesetti generati
+
+Su richiesta dell’utente generate e integrate le immagini della bilancia digitale e dei pesetti nelle due simulazioni. Letture sulla finestra dello strumento e carichi visibili sul piatto; campione ignoto senza etichetta di massa. Immagini riutilizzate nelle figure della stessa bilancia nei due testi. Originali preservati, incorporamento deduplicato tramite definizioni SVG e crediti aggiornati. Restano le quattro figure teoriche di voltmetro, termometro, cronometro e bersagli. Nessuna pubblicazione.

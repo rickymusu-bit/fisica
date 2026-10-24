@@ -1,5 +1,5 @@
 # Capitolo 7 — Errori e incertezza di misura: proposta
-Versione v5 — 23 ottobre 2026 (Europe/Rome). Impostazione e visuali approvate con «Ok»; bozza testuale v4 con simulazione proposta.
+Versione v6 — 23 ottobre 2026 (Europe/Rome). Impostazione e visuali approvate con «Ok»; bozza testuale v4 con simulazione proposta.
 
 ## Domanda e confini
 Il cronometro mostra 2,40 s: quanto sappiamo del tempo misurato, e possiamo già dire di quanto abbiamo sbagliato? Distinguere la variabilità delle letture, gli spostamenti rispetto a un riferimento e l'informazione espressa dall'incertezza.
@@ -47,3 +47,7 @@ COP-07: [TV noise.jpg](https://commons.wikimedia.org/wiki/File:TV_noise.jpg), My
 SIM-06: bilancia con pesetti di masse differenti; slider sotto la bilancia per le proprietà. SIM-07: bilancia a proprietà fisse, massa di riferimento nota e massa ignota, misure ripetute e grafico a punti sotto la bilancia. [Specifica corrente](simulazione.md). Nel 7 media, semidispersione, incertezza ed errore sono sviluppati in un unico capitolo; eliminata la precedente separazione con l'8. Il grafico distingue punti, media, riferimento, errore, estremi e fascia U; nessun valore di riferimento nascosto esposto per il campione ignoto.
 
 Aggiunti nel 7 TAB-07-2 e GRAF-07-2 dal sorgente originale delle cinque letture. Nuove immagini necessarie per i pesetti da concordare/fornire, senza ricerca o generazione autonoma. Modelli numerici proposti e stima complessiva 2–3 ore da consolidare dopo la revisione dei testi. Nessun codice ancora realizzato.
+
+## Bilancia e pesetti disponibili
+
+Bilancia digitale e pesetti generati su richiesta, incorporati e riutilizzati nelle figure della stessa bilancia. Schede in risorse/immagini.json; originali e provenienze condivisi nella lavorazione del 6. Le simulazioni non richiedono altre fotografie. Restano soltanto le figure di teoria del voltmetro, termometro, cronometro e bersagli.

@@ -28,3 +28,7 @@ L’utente dà il via con «Ok vai». Modello e comandi realizzati nel codice co
 ### Passi di lettura scelti per l’attività
 
 Nella realizzazione i passi sono 1, 20 e 50 g: con i pesetti tutti multipli di 10 g, i passi 1/5/10 g davano la stessa indicazione in assenza di disturbi. I nuovi passi rendono osservabile la quantizzazione senza richiedere altri pesetti o immagini. Esempio di controllo: carico 10 g, lettura 20 g al passo 20 g oppure 0 g al passo 50 g. Nel 7 il passo resta 1 g.
+
+## Immagini generate e display attivo
+
+Bilancia digitale e pesetto generati su richiesta dell’utente; originali nella lavorazione del capitolo 6 e relative schede di provenienza. Varianti dei pesetti riutilizzano l’originale con dimensioni proporzionate alla radice cubica della massa; etichette HTML separate. Display numerico nella finestra della bilancia e carichi visualizzati sul piatto. Il campione B è privo di etichetta di massa. Immagini incorporate una sola volta tramite definizioni SVG condivise, con riferimenti interni per le istanze; nessuna dipendenza esterna.

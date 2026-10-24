@@ -129,11 +129,11 @@
   "errors": [],
   "external_requests": [],
   "limits": [
-    "Immagini del corpo, della bilancia e dei pesetti ancora da fornire; gli spazi sono dichiarati nell’anteprima. Nessun diritto dedotto."
+    "Restano da scegliere le immagini teoriche: voltmetro, termometro, cronometro e bersagli."
   ],
   "offline_method": "HTML caricato in memoria con rete disabilitata; immagini incorporate decodificate, MathML e simulazione disponibili. Navigazione file:// bloccata dalla policy del Chromium dell’ambiente e non dichiarata eseguita.",
   "html_sha256": {
-    "strumenti_misura_it.html": "9da09b2fc34cef3812562042151bcecda5852e89abb0742fc5c34a3580648811",
-    "errori_incertezza_misura_it.html": "31ffc1f2daf03bc0ad3fef6982c0db22b29e134c6a165db72ddf825fd3f162a4"
+    "strumenti_misura_it.html": "670298b76a4dfb793e2a8ed6fbef7613509b1435a6bfec1bef52fae8ad2b4b58",
+    "errori_incertezza_misura_it.html": "210e525e9762a33d73d2bf3de9658300965cca62f780fc9bf07c029a485b43fc"
   }
 }

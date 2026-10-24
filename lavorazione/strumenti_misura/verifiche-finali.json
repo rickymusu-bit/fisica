@@ -1,9 +1,9 @@
 {
-  "html_version": "v4",
-  "approved_draft": "v7, matita e tre indicazioni di vista richieste dall’utente",
-  "authorization": "Ok vai",
-  "html_bytes": 12929847,
-  "html_sha256": "3480a62a45d65c4890a684836b168d94aedda4de82e57fc56beeaca489e4a641",
+  "html_version": "v5",
+  "approved_draft": "v8, generazione della bilancia e dei pesetti richiesta dall’utente",
+  "authorization": "Ok vai; generazione di bilancia e pesetti richiesta esplicitamente",
+  "html_bytes": 16478206,
+  "html_sha256": "670298b76a4dfb793e2a8ed6fbef7613509b1435a6bfec1bef52fae8ad2b4b58",
   "model_tests": {
     "passed": 7,
     "command": "node lavorazione/strumenti_misura/test_simulazione.cjs"
@@ -13,25 +13,18 @@
   "external_requests": [],
   "credits_check": "passed",
   "theme_check": "passed",
-  "pages_build": "passed; nuovi capitoli non ammessi alla pubblicazione",
+  "pages_build": "passed; nuovi capitoli esclusi dalla pubblicazione",
   "protected_sources": "invariati",
-  "preview_status": "Schema e due figure ripuliti dalle ripetizioni; altre immagini ancora in attesa.",
   "image_slots": [
-    "FIG-06-1b",
     "FIG-06-3",
     "FIG-06-4",
     "FIG-06-5"
   ],
+  "preview_status": "Bilancia e pesetti generati e integrati; restano quattro immagini teoriche.",
   "offline_method": "HTML caricato in memoria con rete disabilitata; immagini incorporate decodificate, MathML e simulazione disponibili. Navigazione file:// bloccata dalla policy del Chromium dell’ambiente e non dichiarata eseguita.",
   "screenshots_reviewed": [
-    "parallasse-anteprima.png (risorse/)"
+    "lavorazione/strumenti_misura/anteprime/bilancia-carica-390.png"
   ],
-  "image_layouts_current": 10,
-  "model_checks_scope": "Test quantitativi e interazioni della versione precedente conservati: codice della simulazione invariato. Immagini e impaginazione modificate verificate nella v2 da verifica_immagini.py.",
-  "corrections_verified": [
-    "sagoma sostituita da matita riconoscibile",
-    "rotazione e scala uniforme, senza deformazione",
-    "punta e base nelle coordinate originali",
-    "ripristinate le tre indicazioni di vista richieste"
-  ]
+  "generated_assets_source": "lavorazione/strumenti_misura/risorse/bilancia-pesetti-fonte.json",
+  "model_checks_scope": "7 test quantitativi; 20 combinazioni di viewport e tema; interazioni, carichi sul piatto, campione ignoto, download e offline verificati con hash HTML corrente."
 }

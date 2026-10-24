@@ -3878,6 +3878,33 @@
       "fingerprints": [
         "asset-75f3a5cf7bbfd40c5bd64a15d4c22254b2477952737d9aa81a5ca0e18ecb1398"
       ]
+    },
+    {
+      "id": "bilancia-pesetti-generati",
+      "description": "Bilancia digitale e pesetti delle simulazioni",
+      "source": null,
+      "author": "Stringhe",
+      "license": null,
+      "license_url": null,
+      "changes": null,
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Immagini della bilancia e del pesetto generate con ChatGPT su richiesta dell’utente. Originali preservati. Il pesetto è riutilizzato con dimensioni di presentazione differenti; masse e letture sono assegnate dal modello interattivo, senza simulare fotografie di esperimenti effettuati.",
+        "Immagini della bilancia e del pesetto generate con ChatGPT su richiesta dell’utente. Originali preservati. Il pesetto è riutilizzato con dimensioni di presentazione differenti; masse e letture sono assegnate dal modello interattivo, senza simulare fotografie di esperimenti effettuati.<br>Modifiche per questo utilizzo: Immagini generate su richiesta; letture e masse sono elementi del modello interattivo."
+      ],
+      "metadata_sources": [],
+      "fingerprints": [
+        "asset-1a996d19b0072b8d533f9631c058f200e05f186644e3e27597e9e6c5cbab508e",
+        "asset-9651eceda575ed1e53b8204ba0f3f405ccd04c11275c4a3220db1904300ea1cb",
+        "asset-40074d603c99bff91a7d58a68072582447916e846a7ddef1ac8257fbbdee9be9",
+        "asset-3f0023aea5734054bc5ce2e017c2e5d9c1d65f29e1ca0c178ef37efaf66cc079",
+        "asset-01c7f8c8e53bd1268df54c752793a52da63ce217338f3fa2a033edb491f64997",
+        "asset-79c60bb85c5d317df67118cbc1822607fbe899c8c9fc5620ae711af70ff67341",
+        "asset-eff27dff1e5891aadfcd12c9fe97ae6831070cca0949af74ce043873830a10e1",
+        "asset-1d547c1081dc7d68a522b8559a853df02c4c017e7f7064bfa5d4817333755d69",
+        "asset-daece3cb01d589d476764e2f68d925c7c6b993f52201dabfafcbc90d61c15366"
+      ]
     }
   ],
   "documents": {
@@ -4786,11 +4813,19 @@
           "notice": 0
         },
         {
+          "resource": "bilancia-pesetti-generati",
+          "notice": 0
+        },
+        {
           "resource": "credit-758421614a45290d",
           "notice": 0
         },
         {
           "resource": "parallasse-schema-originale",
+          "notice": 1
+        },
+        {
+          "resource": "bilancia-pesetti-generati",
           "notice": 1
         }
       ],
@@ -4809,6 +4844,14 @@
         {
           "resource": "credit-25f8443d7c82cfae",
           "notice": 0
+        },
+        {
+          "resource": "bilancia-pesetti-generati",
+          "notice": 0
+        },
+        {
+          "resource": "bilancia-pesetti-generati",
+          "notice": 1
         },
         {
           "resource": "grafico-misure-tempi",
@@ -4833,6 +4876,21 @@
           "attribute": "cover-data",
           "location": "copertine/canocchia-pavone.webp",
           "credit_id": "credit-d44568883380600b"
+        }
+      ]
+    },
+    {
+      "id": "asset-01c7f8c8e53bd1268df54c752793a52da63ce217338f3fa2a033edb491f64997",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "svg",
+          "description": "Pesetto da 10 g.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "bilancia-pesetti-generati"
         }
       ]
     },
@@ -5131,6 +5189,30 @@
       ]
     },
     {
+      "id": "asset-1a996d19b0072b8d533f9631c058f200e05f186644e3e27597e9e6c5cbab508e",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "errori_incertezza_misura_it.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "bilancia-pesetti-generati"
+        },
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "bilancia-pesetti-generati"
+        }
+      ]
+    },
+    {
       "id": "asset-1bdf6536dad454fdfe0d67b33a052deb6ac833e63016b907ca714e0c912b96a5",
       "kind": "image/webp",
       "uses": [
@@ -5142,6 +5224,21 @@
           "attribute": "cover-data",
           "location": "copertine/computer-quantistico.webp",
           "credit_id": "credit-c563b110d74cf49f"
+        }
+      ]
+    },
+    {
+      "id": "asset-1d547c1081dc7d68a522b8559a853df02c4c017e7f7064bfa5d4817333755d69",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "svg",
+          "description": "Pesetto da 100 g.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "bilancia-pesetti-generati"
         }
       ]
     },
@@ -5845,6 +5942,48 @@
       ]
     },
     {
+      "id": "asset-3f0023aea5734054bc5ce2e017c2e5d9c1d65f29e1ca0c178ef37efaf66cc079",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "errori_incertezza_misura_it.html",
+          "kind": "svg",
+          "description": "Bilancia digitale da laboratorio con piatto circolare e display.",
+          "locator": "fig-07-2",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "bilancia-pesetti-generati"
+        },
+        {
+          "document": "errori_incertezza_misura_it.html",
+          "kind": "svg",
+          "description": "Bilancia digitale da laboratorio con piatto circolare e display.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "bilancia-pesetti-generati"
+        },
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "svg",
+          "description": "Bilancia digitale da laboratorio con piatto circolare e display.",
+          "locator": "fig-06-1b",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "bilancia-pesetti-generati"
+        },
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "svg",
+          "description": "Bilancia digitale da laboratorio con piatto circolare e display.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "bilancia-pesetti-generati"
+        }
+      ]
+    },
+    {
       "id": "asset-3fc8670655f6bc10200de6b21255b3d920956e338ae285fa43807c9cd58da0c4",
       "kind": "svg",
       "uses": [
@@ -5871,6 +6010,30 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-5e3b44e6128bc4cb"
+        }
+      ]
+    },
+    {
+      "id": "asset-40074d603c99bff91a7d58a68072582447916e846a7ddef1ac8257fbbdee9be9",
+      "kind": "image/png",
+      "uses": [
+        {
+          "document": "errori_incertezza_misura_it.html",
+          "kind": "image/png",
+          "description": "image",
+          "locator": "sim-weight-art",
+          "attribute": "href",
+          "location": null,
+          "credit_id": "bilancia-pesetti-generati"
+        },
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "image/png",
+          "description": "image",
+          "locator": "sim-weight-art",
+          "attribute": "href",
+          "location": null,
+          "credit_id": "bilancia-pesetti-generati"
         }
       ]
     },
@@ -6664,6 +6827,21 @@
       ]
     },
     {
+      "id": "asset-79c60bb85c5d317df67118cbc1822607fbe899c8c9fc5620ae711af70ff67341",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "svg",
+          "description": "Pesetto da 20 g.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "bilancia-pesetti-generati"
+        }
+      ]
+    },
+    {
       "id": "asset-7d60a41aece2ff4df2942ce20676349afe406f7dcb7f3aa722ca4e69ee3bd76c",
       "kind": "svg",
       "uses": [
@@ -7194,6 +7372,30 @@
           "attribute": "data-still",
           "location": null,
           "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-9651eceda575ed1e53b8204ba0f3f405ccd04c11275c4a3220db1904300ea1cb",
+      "kind": "image/png",
+      "uses": [
+        {
+          "document": "errori_incertezza_misura_it.html",
+          "kind": "image/png",
+          "description": "image",
+          "locator": "sim-balance-art",
+          "attribute": "href",
+          "location": null,
+          "credit_id": "bilancia-pesetti-generati"
+        },
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "image/png",
+          "description": "image",
+          "locator": "sim-balance-art",
+          "attribute": "href",
+          "location": null,
+          "credit_id": "bilancia-pesetti-generati"
         }
       ]
     },
@@ -8632,6 +8834,21 @@
       ]
     },
     {
+      "id": "asset-daece3cb01d589d476764e2f68d925c7c6b993f52201dabfafcbc90d61c15366",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "svg",
+          "description": "Pesetto da 200 g.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "bilancia-pesetti-generati"
+        }
+      ]
+    },
+    {
       "id": "asset-dbab3fdd6a6d32444655f49a679328d0da14e9bd4b8e15416ac909aa6f808019",
       "kind": "image/gif",
       "uses": [
@@ -9009,6 +9226,21 @@
           "attribute": "href",
           "location": null,
           "credit_id": "credit-fca175ce9a7f4dab"
+        }
+      ]
+    },
+    {
+      "id": "asset-eff27dff1e5891aadfcd12c9fe97ae6831070cca0949af74ce043873830a10e1",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "strumenti_misura_it.html",
+          "kind": "svg",
+          "description": "Pesetto da 50 g.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "bilancia-pesetti-generati"
         }
       ]
     },

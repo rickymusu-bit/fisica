@@ -1,6 +1,6 @@
 # Stato — Gli strumenti di misura
 Ultimo aggiornamento: 23 ottobre 2026 (Europe/Rome). Capitolo 6.
-Fase: HTML v4 con matita e indicazioni di vista richieste; altre immagini ancora aperte.
+Fase: immagini di bilancia e pesetti integrate; altre quattro figure del testo ancora aperte.
 
 ## Fonte e ambito
 Richiesta corrente: «Facciamo i capitoli 6 e 7», con collegamento al piano.
@@ -79,3 +79,11 @@ Recepita la richiesta di non dichiarare ciò che è già evidente dalle immagini
 ## Matita e indicazioni di vista — HTML v4
 
 L’utente richiede un oggetto riconoscibile, una matita, e il ripristino di “Vista dall’alto”, “Vista frontale”, “Vista dal basso”, ritenute utili. Matita generata come elemento isolato, originale preservato e copia in risorse/matita-generata.png; sostituita la sagoma. Posizione ottenuta con sola rotazione e scala uniforme: punta e base nelle coordinate precedenti, senza deformazione. Geometria, linee di vista e zero invariati. Ripristinate esattamente le tre indicazioni richieste; non eliminarle come ridondanti nelle prossime revisioni. Nessuna nuova didascalia. Bozza v7, HTML v4; crediti e verifiche mirate aggiornati.
+
+## Bilancia e pesetti generati — 24 ottobre 2026
+
+Autorizzazione esplicita dell’utente: «Per la simulazione, genera tu la bilancia e i pesetti». Generati gli originali, lasciati intatti nella cartella generated_images e copiati nella lavorazione. Bilancia e set di pesetti integrati nelle due simulazioni; display attivo sulla finestra dello strumento, immagini dei carichi sul piatto e controlli testuali/accessibili. Campione ignoto rappresentato da pesetto senza massa scritta. Immagini riutilizzate nelle figure della stessa bilancia nel testo. Dati e proprietà del modello invariati.
+
+Implementate definizioni SVG condivise per incorporare una sola volta ciascun originale e limitare il peso dei file senza comprimere o alterare le immagini. Lettura fuori scala OL con messaggio esplicito; selezione, rimozione e ripristino riallineano immagini e letture. Provenienza in ../strumenti_misura/risorse/bilancia-pesetti-fonte.json e registro unico; nessun materiale esterno introdotto. Restano quattro immagini per la teoria: voltmetro 0–15 V, termometro digitale, cronometro e bersagli. Nessuna immagine aggiuntiva necessaria per le simulazioni.
+
+Verifiche concluse: 7 test quantitativi, 20 combinazioni di viewport e tema, interazioni aggiornate e carico dei cinque pesetti; nessun errore JavaScript o richiesta esterna. Crediti, tema e build superati. HTML e copie di lavorazione identici; capitoli esclusi dalla pubblicazione.

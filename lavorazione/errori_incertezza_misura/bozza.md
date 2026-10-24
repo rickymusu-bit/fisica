@@ -1,6 +1,6 @@
 # Errori e incertezza di misura
 
-[EDITORIALE — Bozza v4, 23 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive in attesa. Area: Introduzione alla fisica e alla misura.]
+[EDITORIALE — Bozza v5, 24 ottobre 2026. Testo v4 approvato e realizzazione autorizzata con «Ok vai»; immagini sostitutive in attesa. Area: Introduzione alla fisica e alla misura.]
 
 [COP-07 — Fotografia scelta dall'utente: TV noise.jpg. Intera, senza ritagli o zoom, non ripetuta nel corpo.]
 
@@ -20,9 +20,7 @@ Quando avviamo e fermiamo il cronometro a mano, il momento in cui premiamo il ta
 
 Pensiamo ora a una bilancia il cui zero sia spostato: anche senza carico indica 2 g. Nelle condizioni considerate, le letture risultano maggiori di circa 2 g rispetto a quelle che otterremmo con lo zero corretto. Questo è un esempio di **errore sistematico**: un contributo che rimane costante o cambia in modo prevedibile. Ripetere la misura non lo cancella; occorre controllare lo zero, correggere la procedura o confrontare lo strumento con un riferimento.
 
-[FIG-07-2 — Foto originale della bilancia digitale, intera e senza alterare il display. Lo zero spostato è una situazione ipotetica spiegata nel testo, non un difetto accertato dello strumento fotografato.]
-
-*Il controllo dell'indicazione senza carico aiuta a individuare uno zero spostato prima di misurare.*
+[FIG-07-2 — Bilancia digitale generata per le simulazioni, riutilizzata nel confronto sulle letture. Lo zero spostato è un caso ipotetico.]
 
 Diverso ancora è uno **sbaglio grossolano**: trascrivere 23,4 g invece di 32,4 g, confondere grammi e chilogrammi oppure usare il comando sbagliato. Qui non stiamo descrivendo una normale variazione fra letture, ma un problema nella procedura o nella registrazione. Un dato molto lontano dagli altri invita a controllare gli appunti e la prova; non si elimina automaticamente perché disturba il risultato.
 
@@ -224,3 +222,7 @@ Diritti delle foto del corpo e dei bersagli storici ancora da verificare; l'uten
 ### Avvio autorizzato
 
 «Ok vai» approva il testo corrente e autorizza realizzazione HTML e simulazioni secondo la proposta e la stima. Le immagini mancanti saranno fornite dall’utente; non dedurre scelte o licenze. Nessun merge o pubblicazione autorizzato.
+
+### Bilancia e pesetti generati su richiesta
+
+L’utente autorizza la generazione della bilancia e dei pesetti per le simulazioni. Nuovi originali preservati; immagini riutilizzate per lo stesso strumento nei due capitoli. I pesetti sono rappresentati anche sul piatto e la lettura è sovrapposta al display dallo script; per il campione ignoto il pesetto non ha massa scritta. Nessuna nuova didascalia.
