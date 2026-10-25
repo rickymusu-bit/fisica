@@ -1,8 +1,8 @@
 # Campione quiz — Introduzione alla fisica e alla misura
 
-**Versione:** v1.0.0  
+**Versione:** v2.0.0  
 **Data:** 25 ottobre 2026 (Europe/Rome)  
-**Stato:** proposta non approvata; non incorporare in `quiz/domande.json`.
+**Stato:** il campione iniziale di 9 domande è stato approvato dal docente il 25/10/2026. Ulteriori 291 domande generate in lotti sono in attesa di revisione didattica. La PR in bozza contiene l'integrazione candidata in `quiz/domande.json`, non pubblicata.
 
 ## Fonti e ambito
 
@@ -26,4 +26,15 @@ Le nove proposte di `campione.json` hanno una sola risposta corretta, quattro al
 
 Controllare: correttezza fisica e matematica, livello reale degli studenti, distrattori, coerenza con le dispense pubblicate, notazione, chiarezza delle condizioni e fattibilità in due minuti. Le spiegazioni sono destinate alla correzione finale. I livelli sono proposte da calibrare.
 
-**Nessuna approvazione è implicita.** Non pubblicare né integrare nell'archivio ufficiale finché il docente non approva il campione.
+**Il campione è approvato.** L'approvazione non si estende automaticamente alle 291 domande successive. Non effettuare merge o pubblicazione prima dell'autorizzazione finale e della verifica dei test.
+
+## Archivio completo v2.0.0
+
+- Campione: `campione.json` — 9 domande approvate.
+- Lotti: `lotti/*.json` — 291 domande generate.
+- Archivio introduttivo: `archivio.json` — 300 domande (100 facili, 100 medie, 100 difficili).
+- Integrazione proposta: `quiz/domande.json` — 600 domande, di cui 300 Termologia invariata.
+- Revisione: `revisione.json` — tipi, fonti, prerequisiti e tempi stimati preliminari.
+- Controlli tecnici: `scripts/test_quiz_introduzione.py`; test di integrazione e browser aggiornati.
+
+Controllo delle dimensioni e dello schema eseguito sui dati GitHub; i test Python/browser e la revisione dei contenuti attendono un'esecuzione effettiva. I nuovi quesiti di calcolo sono più numerosi della ripartizione indicativa 30/40/30: la distribuzione va valutata rispetto ai nove capitoli e alla varietà didattica, senza forzare etichette o inventare quesiti per raggiungere una quota.
