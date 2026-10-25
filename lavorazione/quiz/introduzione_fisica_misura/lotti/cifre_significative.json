@@ -438,7 +438,7 @@
       "id": "intro-170",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "prompt": "Una misura è L = (8,76 ± 0,03) cm. Quale scrittura conserva coerentemente la posizione decimale dell'incertezza?",
+      "prompt": "Una lunghezza ha valore medio 8,764 cm e incertezza assoluta U = 0,03 cm. Quale risultato è scritto correttamente alla stessa posizione decimale dell'incertezza?",
       "options": [
         "(8,8 ± 0,03) cm",
         "(8,7600 ± 0,03) cm",
@@ -446,7 +446,7 @@
         "(8,76 ± 0,03) cm"
       ],
       "correct": 3,
-      "explanation": "Valore centrale e incertezza sono riportati ai centesimi di centimetro."
+      "explanation": "Con incertezza al centesimo, il valore medio si arrotonda ai centesimi: (8,76 ± 0,03) cm."
     },
     {
       "id": "intro-171",
