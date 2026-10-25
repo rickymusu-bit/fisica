@@ -1,0 +1,167 @@
+name: Applica allineamento tabelle (temporaneo)
+on:
+  push:
+    branches: [fix/audit-allineamento-tabelle-capitoli-20261025]
+    paths: [.github/workflows/correzione-tabelle-temporaneo.yml]
+permissions:
+  contents: write
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: fix/audit-allineamento-tabelle-capitoli-20261025
+      - name: Correggi 31 tabelle
+        run: |
+          python3 - <<'PY'
+          import json,re
+          from pathlib import Path
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          P=Path(".")
+          pub=json.loads((P/"pubblicazione.json").read_text())["articoli"]
+          S={
+          "metodo_scientifico_it.html":(1,"metodo_scientifico",".method-section table th{text-align:center}.method-section table td[colspan]{text-align:left}"),
+          "grandezze_fisiche_sistema_internazionale_it.html":(2,"grandezze_fisiche_sistema_internazionale",".si-table th,.si-table td{text-align:center}"),
+          "potenze_dieci_notazione_scientifica_it.html":(3,"potenze_dieci_notazione_scientifica",".notation-table th,.notation-table td{text-align:center}.notation-table[data-align-prose='row-labels'] th[scope='row']{text-align:left}"),
+          "prefissi_sistema_internazionale_it.html":(8,"prefissi_sistema_internazionale",".conversion-table th,.conversion-table td{text-align:center}"),
+          "cifre_significative_it.html":(3,"cifre_significative",".significant-table th,.significant-table td{text-align:center}.significant-table[data-align-prose='reason'] td:last-child,.significant-table[data-align-prose='after-first'] td:not(:first-child){text-align:left}"),
+          "strumenti_misura_it.html":(2,"strumenti_misura",".measure-table th,.measure-table td,.measurement-sim table th,.measurement-sim table td{text-align:center}.measurement-sim table td[colspan]{text-align:left}"),
+          "errori_incertezza_misura_it.html":(4,"errori_incertezza_misura",".measure-table th,.measure-table td,.measurement-sim table th,.measurement-sim table td{text-align:center}.measure-table[data-align-prose='reason'] td:last-child,.measurement-sim table td[colspan]{text-align:left}"),
+          "temperatura_equilibrio_termico_it.html":(1,"temperatura_equilibrio_termico",".thermal-scales th,.thermal-scales td{text-align:center}"),
+          "energia_interna_calore_specifico_it.html":(1,"energia_interna_calore_specifico",".heat-table th,.heat-table td{text-align:center}"),
+          "dilatazione_termica_it.html":(2,"dilatazione_termica",".comparison-table th,.comparison-table td,.comparison-table th:last-child,.comparison-table td:last-child{text-align:center}"),
+          "stati_della_materia.html":(1,"stati_della_materia",".comparison-table th,.comparison-table td:first-child,.comparison-table td:nth-child(3){text-align:center}"),
+          "passaggi_di_stato.html":(2,"passaggi_di_stato",".comparison-table th,.comparison-table td:first-child{text-align:center}.comparison-table table[data-align-kind='latent'] td:nth-child(2){text-align:center}"),
+          "conduzione_it.html":(1,"conduzione",".table-scroll th,.table-scroll td{text-align:center}")
+          }
+          assert set(S).issubset(pub) and len(pub)==19 and len(S)==13 and sum(x[0] for x in S.values())==31
+          TABLE=re.compile(r"<table\b[^>]*>[\s\S]*?</table>",re.I)
+          def style_tables(source,name):
+            expected,folder,css=S[name]
+            tables=list(TABLE.finditer(source))
+            assert len(tables)==expected,(name,len(tables),expected)
+            if "data-table-alignment=\"2026-10\"" in source:raise ValueError("Duplicated stylesheet in "+name)
+            end=0;new=[]
+            for i,match in enumerate(tables):
+              t=match.group()
+              if name=="cifre_significative_it.html" and i in (0,2):
+                role="reason" if i==0 else "after-first"
+                opening='<table class="significant-table">'
+                assert t.startswith(opening)
+                t=t.replace(opening,'<table class="significant-table" data-align-prose="'+role+'">',1)
+              if name=="potenze_dieci_notazione_scientifica_it.html" and i==2:
+                opening='<table class="notation-table">'
+                assert t.startswith(opening)
+                t=t.replace(opening,'<table class="notation-table" data-align-prose="row-labels">',1)
+              if name=="errori_incertezza_misura_it.html" and i==1:
+                opening='<table class="measure-table">'
+                assert t.startswith(opening)
+                t=t.replace(opening,'<table class="measure-table" data-align-prose="reason">',1)
+              if name=="passaggi_di_stato.html" and i==1:
+                assert t.startswith("<table>")
+                t=t.replace("<table>",'<table data-align-kind="latent">',1)
+              if name=="dilatazione_termica_it.html":
+                assert 'style="text-align: right;"' in t
+                t=t.replace(' style="text-align: right;"','')
+              new.extend([source[end:match.start()],t]);end=match.end()
+            new.append(source[end:])
+            source="".join(new)
+            assert len(re.findall("</head>",source,re.I))==1
+            rule='<style data-table-alignment="2026-10">'+css+'</style>'
+            source=re.sub(r"</head>",lambda m:rule+m.group(),source,count=1,flags=re.I)
+            assert len(list(TABLE.finditer(source)))==expected
+            return source
+          def bump(source,required=None):
+            meta=re.search(r'<meta\s+name=["\x27]version["\x27]\s+content=["\x27]v(\d+)["\x27]',source,re.I)
+            foot=re.search(r'<footer\b[^>]*>[\s\S]*?</footer>',source,re.I)
+            if foot is None:raise ValueError("Footer not found")
+            mm=re.search(r"Versione\s+v(\d+)",foot.group(),re.I)
+            if mm is None:raise ValueError("Footer version missing")
+            old=int(mm.group(1));new=old+1
+            if meta and int(meta.group(1))!=old:raise ValueError("Metadata/footer version mismatch")
+            if required is not None and old!=required:raise ValueError("Draft version mismatch")
+            if meta:
+              source=source[:meta.start(1)]+str(new)+source[meta.end(1):]
+            else:
+              source=re.sub(r"<head\b[^>]*>",lambda m:m.group()+'<meta name="version" content="v'+str(new)+'">',source,count=1,flags=re.I)
+            foot=re.search(r"<footer\b[^>]*>[\s\S]*?</footer>",source,re.I)
+            repl=re.sub(r"Versione(\s+)v"+str(old)+r"\b",lambda m:"Versione"+m.group(1)+"v"+str(new),foot.group(),count=1)
+            if repl==foot.group():raise ValueError("Version wasn't changed")
+            source=source[:foot.start()]+repl+source[foot.end():]
+            return source,old,new
+          rows=[]
+          for name in pub:
+            if name not in S:continue
+            count,folder,css=S[name]
+            f=P/name;before=f.read_text(encoding="utf-8")
+            after,old,new=bump(style_tables(before,name))
+            f.write_text(after,encoding="utf-8")
+            draft=P/"lavorazione"/folder/"bozza.html"
+            draft_report="assente"
+            if draft.exists():
+              source=draft.read_text(encoding="utf-8")
+              new_draft=style_tables(source,name)
+              draft_report="solo stile (sorgenti diversi)"
+              if source==before:
+                new_draft,_,_=bump(new_draft,required=old)
+                assert new_draft==after,"Copia HTML divergente: "+name
+                draft_report="allineata e versionata"
+              draft.write_text(new_draft,encoding="utf-8")
+            state=P/"lavorazione"/folder/"stato.md"
+            if not state.is_file():raise ValueError("Stato mancante "+name)
+            past=state.read_text(encoding="utf-8")
+            assert not past.startswith("## Revisione delle tabelle — 25 ottobre 2026"),"Revisione ripetuta"
+            intro=("## Revisione delle tabelle — 25 ottobre 2026\n\n"
+              "Ricognizione su tutti i 19 capitoli pubblicati, verifica CSS su desktop e mobile. "
+              "Corrette "+str(count)+" tabelle di questo capitolo secondo le regole correnti: "
+              "intestazioni e dati centrati, mantenendo a sinistra solo colonne di testo discorsivo esteso. "
+              "HTML ufficiale v"+str(old)+" → v"+str(new)+". "
+              "Testi scientifici, dati, formule, ordine di righe e colonne, animazioni e media invariati. "
+              "Data editoriale conservata: modifica soltanto grafica. Bozza: "+draft_report+". "
+              "Rapporto in lavorazione/sito/allineamento-tabelle.md. "
+              "Ramo in lavorazione; merge e pubblicazione richiedono approvazione esplicita.\n\n")
+            state.write_text(intro+past,encoding="utf-8")
+            rows.append((name,count,old,new,draft_report))
+            print("MODIFIED",name,"tables",count,"versions",old,new,"draft",draft_report)
+          report=[
+          "# Revisione dell'allineamento delle tabelle di Stringhe","",
+          "**25 ottobre 2026.** Audit dei **19 capitoli pubblicati** (pubblicazione.json).","",
+          "**35 tabelle HTML** in 15 capitoli: **31** disallineate in **13** capitoli; **4** già centrate nei capitoli 8 e 9. "
+          "I restanti 4 capitoli non contengono tabelle.","",
+          "## Scelte grafiche","",
+          "Tutte le intestazioni e le celle numeriche o con categorie brevi sono centrate. "
+          "Le celle descrittive conservano l'allineamento a sinistra quando migliora la lettura: "
+          "colonna «Perché» e regole operative nelle Cifre significative, "
+          "«Che cosa comunica» in Errori e incertezza, descrizioni di forma e disposizione delle particelle negli Stati della materia, "
+          "testi comparativi di Evaporazione/Ebollizione e condizioni della tabella dei calori latenti, "
+          "etichette lunghe degli ordini di grandezza. I messaggi delle simulazioni su celle multiple restano a sinistra. "
+          "Le didascalie non sono celle e mantengono il proprio stile.","",
+          "Righe, colonne, valori, unità, formule e contenuti didattici non sono cambiati. "
+          "Le date editoriali dei capitoli non vengono aggiornate da una modifica CSS. "
+          "Le dispense escluse da pubblicazione.json non sono state modificate.","",
+          "## File modificati","",
+          "| HTML del capitolo | Tabelle | Versione | Bozza |",
+          "|---|---:|---|---|"]
+          for n,count,old,new,draft in rows:
+            report.append("| "+n+" | "+str(count)+" | v"+str(old)+" → v"+str(new)+" | "+draft+" |")
+          report+=["","## Verifiche","",
+          "- Audit degli stili calcolati con Chromium a 390 e 1280 px prima delle correzioni.",
+          "- Riesame in Chromium con le modifiche: da completare prima del merge.",
+          "- Controlli ordinari di sincronizzazione, crediti, build e browser: workflow della PR.",
+          "",
+          "**Nessuna integrazione in main né pubblicazione senza approvazione.**"]
+          (P/"lavorazione/sito/allineamento-tabelle.md").write_text("\n".join(report)+"\n",encoding="utf-8")
+          print("SUMMARY",json.dumps({"chapters":len(pub),"withCorrections":len(rows),"tables":35,"correctedTables":sum(x[1] for x in rows)},ensure_ascii=False))
+          
+          PY
+      - name: Salva le sole modifiche attese
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- '*.html' 'lavorazione/*/bozza.html' 'lavorazione/*/stato.md' 'lavorazione/sito/allineamento-tabelle.md'
+          git diff --cached --stat
+          git diff --cached --quiet && exit 1
+          git commit -m "fix: correggi allineamento di 31 tabelle in 13 capitoli"
+          git push origin HEAD:fix/audit-allineamento-tabelle-capitoli-20261025
