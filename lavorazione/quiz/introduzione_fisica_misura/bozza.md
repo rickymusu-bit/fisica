@@ -1,8 +1,8 @@
 # Campione quiz — Introduzione alla fisica e alla misura
 
-**Versione:** v2.0.0  
+**Versione:** v2.1.0  
 **Data:** 25 ottobre 2026 (Europe/Rome)  
-**Stato:** il campione iniziale di 9 domande è stato approvato dal docente il 25/10/2026. Ulteriori 291 domande generate in lotti sono in attesa di revisione didattica. La PR in bozza contiene l'integrazione candidata in `quiz/domande.json`, non pubblicata.
+**Stato:** il campione iniziale di 9 domande è stato approvato dal docente il 25/10/2026. Ulteriori 291 domande generate in lotti sono in attesa di revisione didattica. La PR in bozza contiene il file ufficiale proposto `quiz/domande/introduzione_fisica_misura.json`, non pubblicato.
 
 ## Fonti e ambito
 
@@ -33,7 +33,7 @@ Controllare: correttezza fisica e matematica, livello reale degli studenti, dist
 - Campione: `campione.json` — 9 domande approvate.
 - Lotti: `lotti/*.json` — 291 domande generate.
 - Archivio introduttivo: `archivio.json` — 300 domande (100 facili, 100 medie, 100 difficili).
-- Integrazione proposta: `quiz/domande.json` — 600 domande, di cui 300 Termologia invariata.
+- Integrazione proposta: due JSON distinti in `quiz/domande/`, uno per categoria da 300 domande. Il file monolitico è stato ritirato; il quiz usa un manifest compatto e carica il file richiesto solo all'avvio.
 - Revisione: `revisione.json` — tipi, fonti, prerequisiti e tempi stimati preliminari.
 - Controlli tecnici: `scripts/test_quiz_introduzione.py`; test di integrazione e browser aggiornati.
 
