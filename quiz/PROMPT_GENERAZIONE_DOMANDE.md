@@ -1,6 +1,6 @@
 # Prompt per generare le domande dei quiz di Stringhe
 
-**Versione:** v1.4.4
+**Versione:** v1.5.0
 **Data:** 25 ottobre 2026 (Europe/Rome).
 **Ambito:** quiz del sito Stringhe, distinti dal gioco Fool.
 
@@ -31,7 +31,7 @@ Distribuisci i quesiti tra i contenuti della categoria evitando concentrazioni i
 
 ## 2. Una sola categoria per ogni quiz
 
-La categoria è l’intero ambito del quiz: per esempio Termologia oppure Introduzione alla fisica e alla misura. Non è possibile selezionare singoli capitoli o combinare categorie nella stessa sessione.
+La categoria è l’intero ambito del quiz: per esempio Termologia oppure Introduzione alla fisica e alla misura. Ogni categoria ha un proprio archivio JSON da caricare solo quando viene avviato un quiz su quella categoria. Non è possibile selezionare singoli capitoli o combinare categorie nella stessa sessione.
 
 Ogni domanda è associata a un solo ID stabile di categoria, definito in `quiz/categorie.json`. L’ID resta invariato se cambiano il nome visibile della categoria o titoli e percorsi dei capitoli. Il registro collega gli ID alle categorie del catalogo corrente.
 
@@ -237,7 +237,7 @@ Non presumere che i due strumenti condividano automaticamente tutto il contesto.
 
 Prima di produrre un archivio da importare, rileggi lo schema corrente in [README.md](README.md) e il validatore del progetto. Non inventare un formato incompatibile.
 
-Alla data di questa versione, la destinazione prevista è `quiz/domande.json` e i campi del record sono:
+La destinazione di ciascun archivio è `quiz/domande/<id-categoria>.json` (per esempio `quiz/domande/termologia.json`). Ogni file contiene soltanto la categoria indicata nel nome; il file unico `quiz/domande.json` non si usa più. I campi del record sono:
 
 - `id`: identificativo univoco;
 - `category`: ID stabile di una sola categoria, definito in `quiz/categorie.json`;
