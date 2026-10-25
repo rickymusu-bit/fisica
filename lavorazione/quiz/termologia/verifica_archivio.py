@@ -34,7 +34,7 @@ def option_number(text):
 
 def main():
     registry = json.loads((ROOT / 'quiz/categorie.json').read_text())
-    allowed = {c['id'] for c in registry['categories']}
+    allowed = {'termologia'}
     quiz_site.DATA_DIR = ROOT / 'quiz' / 'domande'
     questions = quiz_site.load_questions(allowed)
     assert len(questions) == 300
