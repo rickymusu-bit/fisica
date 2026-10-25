@@ -24,4 +24,11 @@ Il riepilogo usa un trattino al posto del punto centrato come separatore, confor
 
 ## Stato della distribuzione
 
-Preparazione e verifiche locali concluse. L’anteprima è consegnata insieme agli screenshot; l’incarico corrente autorizza la pubblicazione di questo archivio approvato. Si attende l’esito della CI del commit finale prima di integrare la PR #81 e controllare il workflow Pages. L’esito remoto e l’indirizzo pubblico saranno registrati dopo la distribuzione.
+**Pubblicazione completata e verificata il 25 ottobre 2026.**
+
+- CI del commit `2d54343d7db89e843ab6970ff6aa855cd9d03647`: [workflow 40169622838](https://github.com/rickymusu-bit/fisica/actions/runs/40169622838), concluso con successo, compresi la suite generale e il browser sull’archivio reale.
+- [PR #81](https://github.com/rickymusu-bit/fisica/pull/81) integrata in main con commit `136cb6e200c8133e61b00690a22894cfa1f25030`, conservando gli aggiornamenti concorrenti di main.
+- GitHub Pages: [workflow 40169937887](https://github.com/rickymusu-bit/fisica/actions/runs/40169937887), build e deployment conclusi con successo sullo stesso commit di merge.
+- [Quiz pubblico](https://rickymusu-bit.github.io/fisica/quiz.html): HTTP 200; archivio servito identico ai 300 record approvati, con 100 facili, 100 medi e 100 difficili. JavaScript e CSS pubblici identici ai file verificati. Dettagli in [verifica-online.json](verifica-online.json).
+
+L’anteprima autonoma è stata avviata anche senza richieste di rete mediante contenuto incorporato. Il browser gestito impedisce la navigazione diretta `file://`; questa limitazione dell’ambiente non riguarda la pagina pubblica, verificata via HTTPS. I controlli sui tempi restano stime progettuali, non prove osservate in classe.
