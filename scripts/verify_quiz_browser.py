@@ -54,7 +54,9 @@ def verify_real(page, base, width):
         assert all(q['category'] == 'termologia' and q['level'] == level for q in session['questions'])
         assert all(q['prompt'] == by_id[q['id']]['prompt'] for q in session['questions'])
         for i, question in enumerate(session['questions']):
-            assert page.locator('#quiz-prompt').inner_text() == visible_math_text(question['prompt'])
+            actual = page.locator('#quiz-prompt').inner_text()
+            expected = visible_math_text(question['prompt'])
+            assert actual == expected, (question['id'], actual, expected)
             assert page.locator('.quiz-answer input').count() == 4
             assert not page.locator('#quiz-results').is_visible()
             if i == 0:

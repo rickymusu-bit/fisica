@@ -1,21 +1,27 @@
-# Pedici e apici nel quiz — anteprima
+# Grandezze fisiche e notazione nel quiz — anteprima
 
-25 ottobre 2026. Correzione della visualizzazione richiesta dall’utente sul quesito con `c_acqua`; nessuna nuova pubblicazione.
+25 ottobre 2026. Revisione richiesta dal docente; nessuna nuova pubblicazione.
 
 - [Quiz HTML interattivo autonomo con tutte le 300 domande](quiz.html).
-- Stesso quesito dello screenshot: [desktop scuro](pedici-1440-dark.png), [mobile scuro](pedici-390-dark.png), [320 px](pedici-320-dark.png).
+- Quesito dello screenshot aggiornato: [desktop scuro](pedici-1440-dark.png), [mobile scuro](pedici-390-dark.png), [320 px](pedici-320-dark.png).
 - Tema chiaro: [desktop](pedici-1440-light.png), [mobile](pedici-390-light.png).
 - [Soluzione finale sul mobile](soluzione-390.png).
-- [Rapporto browser](verifica.json).
+- [Esiti dei controlli browser sulla notazione](verifica.json).
 
-Le immagini mostrano la domanda termo-285 riscritta in modo discorsivo: «Il calore latente di fusione è 334 kJ/kg e il calore specifico dell’acqua è 4200 J/(kg · K)». In questo contesto non viene introdotto un simbolo con pedice; le altre variabili nelle formule mantengono pedici e apici tipografici. Le sessioni brevi dello screenshot servono a confrontare la tipografia; l’HTML completo conserva le sessioni configurabili da 1 a 30 e tutto l’archivio approvato.
+Le immagini mostrano una sessione di un solo quesito per rendere confrontabile il caso segnalato. L’HTML completo conserva tutte le 300 domande e le sessioni configurabili da 1 a 30.
 
-I capitoli di energia interna e irraggiamento e il modello comune usano elementi HTML `sub` e `sup` con CSS, senza librerie matematiche esterne. Il quiz adotta gli stessi elementi e le proporzioni 0,65 per i pedici e 0,68 per gli apici. La correzione riguarda domanda, alternative, intestazione del quesito nel risultato, risposta data, soluzione e spiegazione. Le potenze e gli indici già scritti in Unicode vengono uniformati alla stessa resa.
+## Regola editoriale applicata
 
-L’archivio rimane testo semplice. Cambia soltanto la formulazione di termo-285, sincronizzata con scheda e metadati: non cambiano valori, ipotesi fisiche, alternative, soluzione o classificazione. Il formatter crea nodi di testo e pedici/apici, senza eseguire markup presente nel dataset o nei salvataggi. I nomi con underscore vengono trasformati solo per la visualizzazione, anche se provengono da uno snapshot precedente. Non cambiano le opzioni estratte, gli indici corretti, le risposte, il numero di versione dei salvataggi o le scadenze.
+Ogni dato segue l’ordine **nome della grandezza a parole → simbolo → valore con unità**. Il simbolo va sempre fornito insieme al nome. Quando compaiono più grandezze dello stesso tipo, i pedici sono brevi e chiariti dal contesto, per esempio le masse di acqua e ghiaccio m<sub>a</sub> e m<sub>g</sub>. Una grandezza unica usa la sola lettera, per esempio «il calore specifico dell’acqua è c = 4200 J/(kg · K)».
 
-Controlli superati: build, allineamento del tema, registro crediti, 26 test, sintassi JavaScript, suite browser dell’archivio reale e suite generale di timer/storage/categorie. Il nuovo controllo `scripts/verify_quiz_notation.py` copre i 25 nomi con pedice presenti nei dati, Unicode e sintassi con graffe, variabili con potenza dopo il pedice, correzione finale, ricarica e snapshot versione 1. Confermati markup non attendibile reso come testo e assenza di errori JavaScript. Nessuna fuoriuscita orizzontale rilevata nei viewport 1440, 390 e 320 px; temi scuro e chiaro verificati. Il mobile è emulato in Chromium.
+La regola sostituisce quella precedente che permetteva di omettere il simbolo nei dati descritti a parole. Registrata in A4 del master v69.20 e nel prompt dei quiz v1.4.3; specifiche quiz v2.5.1. Rinvii e istruzioni interessate controllati per coerenza.
 
-Il criterio editoriale è presentare i dati in frasi chiare e introdurre pedici solo nelle relazioni in cui distinguono grandezze necessarie. La regola generale è aggiunta ad A4 del master v69.19 e al prompt dei quiz v1.4.2; specifiche quiz v2.5.0. Revisione incrementale dei rinvii effettuata, senza modificare altre regole o introdurre nuove dipendenze.
+Sono adeguati **158 testi**: tutte le 90 domande di calcolo, 57 di ragionamento e 11 di conoscenza. Nei quesiti concettuali che chiedono il significato di un simbolo non si anticipa la risposta. Riviste anche 10 spiegazioni per mantenere la notazione coerente. Solo le alternative di termo-137 cambiano nella grafia dei simboli: Q_b e Q_t sostituiscono Q_bevanda e Q_tazza. Restano invariati i dati fisici, i risultati, gli indici corretti, le classificazioni, le 78 espressioni di ricalcolo e le altre alternative. Sono sincronizzati archivio attivo, copie di lavorazione, campione, primo lotto, nove lotti successivi e metadati di revisione. Le approvazioni storiche riguardano i contenuti originari; la presente revisione non è ancora pubblicata.
 
-Il lavoro resta sul ramo `fix/quiz-notazione-matematica`. AGENTS §1 richiede «anteprima verificabile della versione corrente» e approvazione esplicita prima di main o Pages: la precedente autorizzazione di pubblicazione non viene riutilizzata. La modifica è pronta per la revisione dell’anteprima, con PR in bozza.
+## Resa e verifiche
+
+Il quiz usa gli stessi elementi HTML nativi `sub` e `sup` dei capitoli, senza librerie esterne. Il formatter sicuro riconosce anche i simboli preceduti da coefficienti numerici, per esempio `2m_B`. Pedici e apici sono applicati a domanda, alternative e revisione finale; il testo non viene interpretato come HTML. Le vecchie sessioni conservano contenuti e scadenze originali e ricevono soltanto la formattazione tipografica.
+
+Verifiche: archivio, ricalcolo delle soluzioni, build, 26 test unitari, sintassi JavaScript, tema e crediti. Browser Chromium: quiz reale a tutte le difficoltà; caso termo-285 nei temi chiaro/scuro a 1440, 390 e 320 px; tutti i simboli indicizzati dell’archivio, coefficienti prima dei simboli, Unicode e graffe, correzione finale, sessione precedente versione 1 e markup non attendibile. I dettagli degli esiti sono nel rapporto JSON. Mobile emulato; nessuna calibrazione dei tempi osservata in classe.
+
+Il lavoro resta sul ramo `fix/quiz-notazione-matematica`, nella [PR #89 in bozza](https://github.com/rickymusu-bit/fisica/pull/89). AGENTS §1 richiede «anteprima verificabile della versione corrente» e approvazione esplicita prima di main o Pages. La precedente autorizzazione di pubblicazione non viene riutilizzata.

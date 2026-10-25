@@ -121,7 +121,7 @@ Due masse diverse di ghiaccio puro stanno fondendo a pressione atmosferica costa
 
 **Informazioni fornite:** Pannelli opachi, stessa radiazione incidente.
 
-Due pannelli opachi ricevono la stessa energia radiante. Il primo ne riflette una frazione maggiore. Quale confronto riguarda l’energia assorbita?
+Due pannelli opachi ricevono la stessa energia radiante E. Le frazioni riflesse soddisfano r₁ > r₂. Quale confronto riguarda le energie assorbite Q₁ e Q₂?
 
 - **A.** Entrambi ne assorbono la stessa quantità.
 - **B.** Il primo non ne assorbe mai.
@@ -171,7 +171,7 @@ Una bottiglia fredda viene avvolta in un materiale isolante e lasciata in una st
 
 **Informazioni fornite:** Acqua nello stesso stato e alla stessa temperatura.
 
-Una quantità d’acqua viene divisa in due porzioni uguali, alla stessa temperatura iniziale. Rispetto all’acqua prima della divisione, come cambiano le proprietà di ciascuna porzione?
+Una quantità d’acqua di massa m e temperatura iniziale T viene divisa in due porzioni di masse uguali m₁ = m₂, ciascuna pari a metà di m, alla stessa temperatura T. Rispetto all’acqua prima della divisione, come cambiano le proprietà di ciascuna porzione?
 
 - **A.** La capacità termica si dimezza e il calore specifico resta uguale.
 - **B.** Capacità termica e calore specifico si dimezzano.
@@ -196,7 +196,7 @@ Una quantità d’acqua viene divisa in due porzioni uguali, alla stessa tempera
 
 **Informazioni fornite:** Temperatura di 25 °C.
 
-Una sonda indica 25 °C. Qual è la stessa temperatura in kelvin?
+Una sonda indica una temperatura Celsius T_°C = 25 °C. Qual è la stessa temperatura in kelvin T_K?
 
 - **A.** 298,15 K
 - **B.** 248,15 K
@@ -219,7 +219,7 @@ Una sonda indica 25 °C. Qual è la stessa temperatura in kelvin?
 
 **Informazioni fornite:** Massa e calore latente; ghiaccio già a 0 °C.
 
-Quanta energia serve per fondere completamente 0,050 kg di ghiaccio puro già a 0 °C? Usa L = 334 kJ/kg e pressione atmosferica costante.
+Quanta energia Q serve per fondere completamente ghiaccio puro di massa m = 0,050 kg, già alla temperatura T = 0 °C? Il calore latente specifico di fusione è L = 334 kJ/kg e la pressione atmosferica è costante.
 
 - **A.** 167 kJ
 - **B.** 0 kJ
@@ -242,7 +242,7 @@ Quanta energia serve per fondere completamente 0,050 kg di ghiaccio puro già a 
 
 **Informazioni fornite:** Potenza termica costante e durata in secondi.
 
-Un dispositivo trasferisce energia termica con potenza costante di 800 W per 180 s. Quanta energia trasferisce?
+Un dispositivo trasferisce energia termica con potenza costante P = 800 W per un intervallo di tempo Δt = 180 s. Quanta energia Q trasferisce?
 
 - **A.** 4,44 kJ
 - **B.** 980 kJ
@@ -334,7 +334,7 @@ A e B sono ciascuno in equilibrio termico con C. Quale conclusione esprime il pr
 
 **Informazioni fornite:** Acqua dolce, pressione atmosferica; strato superficiale riscaldato da 2 a 4 °C su acqua a 2 °C.
 
-In un recipiente l’acqua dolce è inizialmente a 2 °C. Si riscalda lentamente solo lo strato superiore fino a 4 °C. A pressione atmosferica, quale tendenza ha quello strato rispetto all’acqua rimasta a 2 °C?
+In un recipiente l’acqua dolce ha temperatura iniziale T_i = 2 °C. Si riscalda lentamente solo lo strato superiore fino alla temperatura finale T_s = 4 °C, mentre l’acqua sottostante resta alla temperatura T_b = 2 °C. A pressione atmosferica, quale tendenza ha lo strato superiore rispetto all’acqua sottostante?
 
 - **A.** Resta alla stessa densità perché è ancora liquido.
 - **B.** Diventa più denso e tende a scendere.
@@ -384,7 +384,7 @@ In un recipiente sigillato una parte del vapore condensa sulle pareti interne. I
 
 **Informazioni fornite:** Acqua pura, pressione minore costante con ebollizione a 90 °C, riscaldamento uniforme.
 
-In una prova a pressione costante l’acqua pura bolle a 90 °C. Si continua a fornire energia mentre rimangono sia liquido sia vapore in ebollizione. Che cosa si prevede?
+In una prova a pressione costante l’acqua pura ha temperatura di ebollizione T_eb = 90 °C. Si continua a fornire energia mentre rimangono sia liquido sia vapore in ebollizione. Che cosa si prevede?
 
 - **A.** La temperatura scende perché ogni vaporizzazione raffredda sempre il liquido.
 - **B.** La temperatura resta circa 90 °C perché non viene più assorbita energia.
@@ -409,7 +409,7 @@ In una prova a pressione costante l’acqua pura bolle a 90 °C. Si continua a f
 
 **Informazioni fornite:** Sonda asciutta a 20 °C, aria a 35 °C; si isola il contributo convettivo.
 
-Una sonda asciutta a 20 °C si trova in aria a 35 °C. Una ventola rinnova più rapidamente l’aria sulla sonda. Considerando soltanto la convezione, quale effetto è coerente?
+Una sonda asciutta ha temperatura iniziale T_s = 20 °C e si trova in aria alla temperatura T_a = 35 °C. Una ventola rinnova più rapidamente l’aria sulla sonda. Considerando soltanto la convezione, quale effetto è coerente?
 
 - **A.** La sonda deve raggiungere una temperatura inferiore a 20 °C.
 - **B.** La sonda non scambia energia, perché manca evaporazione.
@@ -434,7 +434,7 @@ Una sonda asciutta a 20 °C si trova in aria a 35 °C. Una ventola rinnova più 
 
 **Informazioni fornite:** λ, area, spessore, temperature delle facce; regime stazionario senza sorgenti.
 
-Una lastra piana omogenea ha λ = 0,030 W/(m · K), area 2,0 m² e spessore 4,0 cm. Le facce sono a 30 °C e 10 °C. In regime stazionario e senza sorgenti interne, quale potenza attraversa la lastra?
+Una lastra piana omogenea ha conducibilità termica λ = 0,030 W/(m · K), area A = 2,0 m² e spessore s = 4,0 cm. Le temperature delle facce sono T₁ = 30 °C e T₂ = 10 °C. In regime stazionario e senza sorgenti interne, quale potenza termica P attraversa la lastra?
 
 - **A.** 0,30 W
 - **B.** 30 W
@@ -457,7 +457,7 @@ Una lastra piana omogenea ha λ = 0,030 W/(m · K), area 2,0 m² e spessore 4,0 
 
 **Informazioni fornite:** Masse, temperature; niente dispersioni o cambiamenti di stato.
 
-Si mescolano 0,15 kg d’acqua a 80 °C e 0,45 kg d’acqua a 20 °C. Trascurando recipiente e dispersioni e assumendo uguale calore specifico costante, qual è la temperatura finale?
+Si mescolano una porzione d’acqua di massa m₁ = 0,15 kg e temperatura iniziale T₁ = 80 °C e una di massa m₂ = 0,45 kg e temperatura iniziale T₂ = 20 °C. Trascurando recipiente e dispersioni e assumendo uguale calore specifico c costante, qual è la temperatura finale T_f?
 
 - **A.** 65 °C
 - **B.** 50 °C
@@ -480,7 +480,7 @@ Si mescolano 0,15 kg d’acqua a 80 °C e 0,45 kg d’acqua a 20 °C. Trascurand
 
 **Informazioni fornite:** C costante, calore assorbito, temperatura iniziale e assenza di cambiamenti di stato.
 
-Un corpo inizialmente a 15 °C assorbe 3,0 kJ senza cambiare stato. La sua capacità termica costante è 120 J/K. Quale temperatura finale raggiunge?
+Un corpo ha temperatura iniziale T_i = 15 °C e assorbe calore Q = 3,0 kJ senza cambiare stato. La sua capacità termica costante è C = 120 J/K. Quale temperatura finale T_f raggiunge?
 
 - **A.** −10 °C
 - **B.** 375 °C
@@ -526,7 +526,7 @@ Una tabella riporta il calore specifico di un gas a pressione costante. Quale us
 
 **Informazioni fornite:** Un corpo esposto anche a radiazione solare diretta.
 
-Nella formula dello scambio radiativo netto con un ambiente a temperatura uniforme compare la differenza fra T⁴ e T_amb⁴. Se sul corpo arriva anche radiazione solare diretta, come va trattata?
+Nel modello di scambio radiativo netto, le temperature del corpo e dell’ambiente uniforme sono T e T_a; nella formula compare T⁴ − T_a⁴. Se sul corpo arriva anche radiazione solare diretta, come va trattata?
 
 - **A.** Va sostituita alla potenza emessa, che diventa nulla alla luce del Sole.
 - **B.** Va considerata separatamente, contando soltanto la frazione effettivamente assorbita.
@@ -572,7 +572,7 @@ Perché non si può applicare automaticamente al vetro il modello della fusione 
 
 **Informazioni fornite:** Capacità termiche costanti C, C e 2C; sistema isolato senza cambiamenti di stato.
 
-Tre corpi hanno temperature iniziali di 10 °C, 40 °C e 70 °C e capacità termiche rispettivamente C, C e 2C. Sono posti in contatto in un sistema isolato, senza cambiamenti di stato. Quello inizialmente a 40 °C si riscalda o si raffredda all’equilibrio finale?
+Tre corpi hanno temperature iniziali T₁ = 10 °C, T₂ = 40 °C e T₃ = 70 °C. Le capacità termiche sono C₁ = C, C₂ = C e C₃ = 2C, costanti. Sono posti in contatto in un sistema isolato, senza cambiamenti di stato. Il secondo corpo si riscalda o si raffredda all’equilibrio finale?
 
 - **A.** Non si può stabilire senza conoscere le conducibilità dei tre corpi.
 - **B.** Resta a 40 °C, perché questa è la media delle temperature estreme.
@@ -597,7 +597,7 @@ Tre corpi hanno temperature iniziali di 10 °C, 40 °C e 70 °C e capacità term
 
 **Informazioni fornite:** Liquido e volume interno del recipiente hanno lo stesso coefficiente volumico, costante nello stesso intervallo.
 
-Si costruisce un termometro a liquido. Nell’intervallo considerato il liquido e il volume interno del recipiente hanno lo stesso coefficiente di dilatazione volumica. Riscaldandoli uniformemente, che cosa accade al livello rispetto alle tacche solidali al recipiente?
+Si costruisce un termometro a liquido. Nell’intervallo considerato il liquido e il volume interno del recipiente hanno coefficienti di dilatazione volumica uguali, β_l = β_r. Riscaldandoli uniformemente, che cosa accade al livello rispetto alle tacche solidali al recipiente?
 
 - **A.** Scende, perché il recipiente si dilata mentre il liquido resta invariato.
 - **B.** Sale come in ogni termometro, perché il liquido si dilata.
@@ -672,7 +672,7 @@ In un lago d’acqua dolce sufficientemente profondo si forma uno strato di ghia
 
 **Informazioni fornite:** Strato omogeneo in regime stazionario; tutta l’energia condotta fonde ghiaccio già a 0 °C; dati espliciti.
 
-Uno strato piano ha λ = 0,050 W/(m · K), area 0,20 m², spessore 0,020 m e facce mantenute a 40 °C e 0 °C. In regime stazionario tutta l’energia condotta fonde ghiaccio già a 0 °C. Quanta massa fonde in 300 s? Usa L = 334 kJ/kg.
+Uno strato piano ha conducibilità termica λ = 0,050 W/(m · K), area A = 0,20 m² e spessore s = 0,020 m. Le temperature delle facce sono mantenute a T₁ = 40 °C e T₂ = 0 °C. In regime stazionario tutta l’energia condotta fonde ghiaccio già alla temperatura T_g = 0 °C. Quanta massa m fonde nell’intervallo di tempo Δt = 300 s? Il calore latente specifico di fusione è L = 334 kJ/kg.
 
 - **A.** Circa 6,0 g
 - **B.** Circa 18 g
@@ -695,7 +695,7 @@ Uno strato piano ha λ = 0,050 W/(m · K), area 0,20 m², spessore 0,020 m e fac
 
 **Informazioni fornite:** Acqua pura a pressione atmosferica; c costanti forniti; niente dispersioni.
 
-Quanta energia serve per portare 0,10 kg di ghiaccio da −10 °C ad acqua liquida a 20 °C, a pressione atmosferica e senza dispersioni? Usa c_ghiaccio = 2100 J/(kg · K), c_acqua = 4200 J/(kg · K) e L = 334 kJ/kg.
+Quanta energia Q serve per portare ghiaccio di massa m = 0,10 kg dalla temperatura iniziale T_i = −10 °C ad acqua liquida alla temperatura finale T_f = 20 °C, a pressione atmosferica e senza dispersioni? I calori specifici di ghiaccio e acqua sono c_g = 2100 J/(kg · K) e c_a = 4200 J/(kg · K); il calore latente specifico di fusione è L = 334 kJ/kg.
 
 - **A.** 12,6 kJ
 - **B.** 43,9 kJ
@@ -718,14 +718,14 @@ Quanta energia serve per portare 0,10 kg di ghiaccio da −10 °C ad acqua liqui
 
 **Informazioni fornite:** Masse, calori specifici costanti, capacità termica della tazza e temperature; sistema isolato senza cambiamenti di stato.
 
-Un blocco di massa 0,20 kg e calore specifico 900 J/(kg · K), a 80 °C, viene immerso in 0,10 kg d’acqua a 20 °C dentro una tazza a 20 °C con capacità termica 120 J/K. Usa c_acqua = 4200 J/(kg · K). Senza dispersioni o cambiamenti di stato, qual è la temperatura finale?
+Un blocco ha massa m_b = 0,20 kg, calore specifico c_b = 900 J/(kg · K) e temperatura iniziale T_b = 80 °C. Viene immerso in acqua di massa m_a = 0,10 kg e temperatura iniziale T_a = 20 °C, dentro una tazza di temperatura iniziale T_t = 20 °C e capacità termica C = 120 J/K. Il calore specifico dell’acqua è c_a = 4200 J/(kg · K). Senza dispersioni o cambiamenti di stato, qual è la temperatura finale T_f?
 
 - **A.** 35 °C
 - **B.** 38 °C
 - **C.** 60 °C
 - **D.** 50 °C
 
-**Risposta corretta: A.** Le capacità termiche sono 180 J/K per il blocco, 420 J/K per l’acqua e 120 J/K per la tazza. Il blocco cede 180 · (80 − T_finale) J; acqua e tazza assorbono insieme 540 · (T_finale − 20) J. Il bilancio dà 720 · T_finale = 25 200, quindi T_finale = 35 °C.
+**Risposta corretta: A.** Le capacità termiche sono 180 J/K per il blocco, 420 J/K per l’acqua e 120 J/K per la tazza. Il blocco cede 180 · (80 − T_f) J; acqua e tazza assorbono insieme 540 · (T_f − 20) J. Il bilancio dà 720 · T_f = 25 200, quindi T_f = 35 °C.
 
 **Distrattori:** B trascura la tazza; D fa la media non pesata delle due temperature; C pesa con le sole masse ignorando materiali e tazza.
 

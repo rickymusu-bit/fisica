@@ -52,7 +52,7 @@
     let cursor = 0;
     for (const match of text.matchAll(notation)) {
       const [, variable, bracedSubscript, subscript, unicodePower, unicodeIndex, bracedPower, power] = match;
-      if (variable && match.index > 0 && /[\p{L}\p{N}_]/u.test(text[match.index - 1])) continue;
+      if (variable && match.index > 0 && /[\p{L}_]/u.test(text[match.index - 1])) continue;
       fragment.append(document.createTextNode(text.slice(cursor, match.index)));
       if (variable) {
         const span = document.createElement("span");

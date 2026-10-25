@@ -14,7 +14,7 @@ Categoria unica `termologia`. Calcolatrice di base consentita. Riferimenti e con
 
 **Dati, condizioni fornite e quesito:**
 
-Usa T_°F = 1,8 · T_°C + 32. A quanti gradi Fahrenheit corrispondono 10 °C?
+Una temperatura Celsius vale T_°C = 10 °C. Usa T_°F = 1,8 · T_°C + 32. Quanto vale la corrispondente temperatura Fahrenheit T_°F?
 
 - **A.** −12,2 °F
 - **B.** 18 °F
@@ -35,7 +35,7 @@ Usa T_°F = 1,8 · T_°C + 32. A quanti gradi Fahrenheit corrispondono 10 °C?
 
 **Dati, condizioni fornite e quesito:**
 
-Una lastra piana di area 2,0 m² e spessore 0,10 m conduce 120 W con ΔT fra le facce di 20 K. In regime stazionario senza sorgenti, qual è λ?
+Una lastra piana ha area A = 2,0 m² e spessore s = 0,10 m. Conduce una potenza termica P = 120 W con differenza di temperatura fra le facce ΔT = 20 K. In regime stazionario senza sorgenti, qual è la conducibilità termica λ?
 
 - **A.** 0,30 W/(m · K)
 - **B.** 3,0 W/(m · K)
@@ -98,7 +98,7 @@ Quali scambi con l’ambiente sono assenti in un sistema isolato?
 
 **Dati, condizioni fornite e quesito:**
 
-L’aumento di volume dell’acqua liquida fra 4 °C e 0 °C coincide con l’espansione durante il congelamento?
+L’acqua liquida si raffredda dalla temperatura iniziale T_i = 4 °C alla temperatura finale T_f = 0 °C. L’aumento di volume in questo intervallo coincide con l’espansione durante il congelamento?
 
 - **A.** No: il ghiaccio ha sempre lo stesso volume del liquido di partenza.
 - **B.** Sì: da 4 °C a 0 °C tutta l’acqua è già ghiaccio.
@@ -140,7 +140,7 @@ Quale informazione distingue il brinamento dalla solidificazione di goccioline s
 
 **Dati, condizioni fornite e quesito:**
 
-Un sistema trasferisce 900 J in 30 s. Qual è la potenza termica media?
+Un sistema trasferisce calore Q = 900 J in un intervallo di tempo Δt = 30 s. Qual è la potenza termica media P?
 
 - **A.** 930 W
 - **B.** 30 W
@@ -161,7 +161,7 @@ Un sistema trasferisce 900 J in 30 s. Qual è la potenza termica media?
 
 **Dati, condizioni fornite e quesito:**
 
-Una barra di 2,0 m si allunga di 0,60 mm per un aumento di 30 K, liberamente. Quale α costante si ricava?
+Una barra ha lunghezza iniziale L₀ = 2,0 m e subisce liberamente un allungamento ΔL = 0,60 mm per un aumento di temperatura ΔT = 30 K. Quale coefficiente di dilatazione lineare α costante si ricava?
 
 - **A.** 1,0 · 10⁻² K⁻¹
 - **B.** 1,0 · 10⁻⁵ K⁻¹
@@ -203,7 +203,7 @@ Quale formulazione è valida per una ventola che rinnova l’aria su una superfi
 
 **Dati, condizioni fornite e quesito:**
 
-Un corpo emette 5 W a 300 K. Area ed emissività restano uguali: quale potenza emette a 600 K?
+Un corpo ha potenza emessa iniziale P_i = 5 W alla temperatura iniziale T_i = 300 K. Area A ed emissività ε restano uguali: quale potenza finale P_f emette alla temperatura finale T_f = 600 K?
 
 - **A.** 5 W
 - **B.** 10 W
@@ -224,7 +224,7 @@ Un corpo emette 5 W a 300 K. Area ed emissività restano uguali: quale potenza e
 
 **Dati, condizioni fornite e quesito:**
 
-Una temperatura di 20 °C aumenta di 18 °F. Sapendo che gli intervalli Fahrenheit sono 1,8 volte quelli Celsius, qual è la temperatura finale?
+Un corpo ha temperatura iniziale T_i = 20 °C e subisce un aumento di temperatura Fahrenheit ΔT_°F = 18 °F. Sapendo che gli intervalli Fahrenheit sono 1,8 volte quelli Celsius, qual è la temperatura finale T_f?
 
 - **A.** 38 °C
 - **B.** 30 °C
@@ -245,7 +245,7 @@ Una temperatura di 20 °C aumenta di 18 °F. Sapendo che gli intervalli Fahrenhe
 
 **Dati, condizioni fornite e quesito:**
 
-Il valore L_v dell’acqua dato a circa 100 °C può essere usato senza verifica per evaporazione del sudore a temperatura della pelle?
+Il calore latente specifico di vaporizzazione dell’acqua L, dato alla temperatura di riferimento T_r ≈ 100 °C, può essere usato senza verifica per l’evaporazione del sudore alla temperatura della pelle?
 
 - **A.** No: perché l’evaporazione non richiede mai energia.
 - **B.** Sì: ogni valore tabulato è invariabile a qualunque temperatura.
@@ -266,7 +266,7 @@ Il valore L_v dell’acqua dato a circa 100 °C può essere usato senza verifica
 
 **Dati, condizioni fornite e quesito:**
 
-Due porzioni d’acqua sono nello stesso stato e alla stessa temperatura. Una ha massa doppia. Con lo stesso riferimento energetico, quale ha energia interna maggiore?
+Due porzioni d’acqua sono nello stesso stato e alla stessa temperatura T. Le masse soddisfano m₂ = 2m₁. Con lo stesso riferimento energetico, quale ha energia interna maggiore?
 
 - **A.** Quella di massa minore.
 - **B.** Nessuna, perché non si stanno riscaldando.
@@ -287,7 +287,7 @@ Due porzioni d’acqua sono nello stesso stato e alla stessa temperatura. Una ha
 
 **Dati, condizioni fornite e quesito:**
 
-Un campione puro assorbe energia mentre fonde a temperatura costante. La costanza di T implica costanza della sua energia interna?
+Un campione puro assorbe energia mentre fonde a temperatura T costante. La costanza di T implica costanza della sua energia interna?
 
 - **A.** No: l’energia può modificare l’organizzazione e le interazioni fra particelle.
 - **B.** No: perché si stanno creando nuove molecole di un’altra sostanza.
@@ -308,7 +308,7 @@ Un campione puro assorbe energia mentre fonde a temperatura costante. La costanz
 
 **Dati, condizioni fornite e quesito:**
 
-Si disegna Q contro l’aumento di temperatura di uno stesso corpo, prima in K e poi in °F. Il modello senza cambiamenti di stato resta lineare. La pendenza numerica sarà la stessa?
+Si disegna il calore Q contro l’aumento di temperatura di uno stesso corpo, prima espresso in kelvin ΔT_K e poi in gradi Fahrenheit ΔT_°F. Il modello senza cambiamenti di stato resta lineare. La pendenza numerica sarà la stessa?
 
 - **A.** Sì: perché la capacità termica fisica deve diventare nulla.
 - **B.** No: un grado Fahrenheit è un intervallo minore, quindi richiede meno energia di un kelvin.
@@ -329,7 +329,7 @@ Si disegna Q contro l’aumento di temperatura di uno stesso corpo, prima in K e
 
 **Dati, condizioni fornite e quesito:**
 
-Due corpi si scambiano energia senza dispersioni: il primo ha Q₁ = −250 J. Dal bilancio Q₁ + Q₂ = 0, qual è Q₂?
+Due corpi si scambiano energia senza dispersioni. Il calore riferito al primo è Q₁ = −250 J. Dal bilancio Q₁ + Q₂ = 0, qual è il calore Q₂ riferito al secondo?
 
 - **A.** 500 J
 - **B.** −250 J
@@ -350,7 +350,7 @@ Due corpi si scambiano energia senza dispersioni: il primo ha Q₁ = −250 J. D
 
 **Dati, condizioni fornite e quesito:**
 
-Un campione di 0,20 kg di ghiaccio puro è a 0 °C. Assorbe 16,7 kJ senza dispersioni. Con L = 334 kJ/kg, quale percentuale della massa fonde?
+Un campione di ghiaccio puro ha massa m = 0,20 kg e temperatura T = 0 °C. Assorbe calore Q = 16,7 kJ senza dispersioni. Il calore latente specifico di fusione è L = 334 kJ/kg. Quale percentuale della massa fonde?
 
 - **A.** 5%
 - **B.** 100%
@@ -371,7 +371,7 @@ Un campione di 0,20 kg di ghiaccio puro è a 0 °C. Assorbe 16,7 kJ senza disper
 
 **Dati, condizioni fornite e quesito:**
 
-Due aste lunghe 0,50 m ciascuna hanno estremità esterne fisse e punte interne separate da 1,20 mm. Sono libere di dilatarsi verso il gioco: α₁ = 1,2 · 10⁻⁵ K⁻¹ e α₂ = 2,4 · 10⁻⁵ K⁻¹. Dopo un aumento uniforme di 50 K, quanto gioco resta?
+Due aste hanno lunghezze iniziali L₁ = L₂ = 0,50 m, estremità esterne fisse e punte interne separate da un gioco iniziale d_i = 1,20 mm. Sono libere di dilatarsi verso il gioco. I coefficienti di dilatazione lineare sono α₁ = 1,2 · 10⁻⁵ K⁻¹ e α₂ = 2,4 · 10⁻⁵ K⁻¹. Dopo un aumento uniforme di temperatura ΔT = 50 K, quanto vale il gioco finale d_f?
 
 - **A.** 2,10 mm
 - **B.** 1,50 mm
@@ -434,7 +434,7 @@ Quando è ragionevole trattare un recipiente reale come isolato in un esperiment
 
 **Dati, condizioni fornite e quesito:**
 
-Una lamina metallica lucida collega direttamente un oggetto caldo a un supporto freddo. Il suo basso ε prova che il collegamento conduca poco?
+Una lamina metallica lucida collega direttamente un oggetto caldo a un supporto freddo. La sua bassa emissività ε prova che il collegamento conduca poco?
 
 - **A.** No: bassa emissività e bassa conducibilità sono proprietà diverse.
 - **B.** No: perché il metallo lucido non emette nessuna radiazione.
@@ -497,7 +497,7 @@ Nella legge per una parete piana, quale area A si deve usare?
 
 **Dati, condizioni fornite e quesito:**
 
-Due liquidi A e B hanno lo stesso volume. A ha densità doppia e calore specifico dimezzato rispetto a B; è anche più viscoso. A parità di calore assorbito e senza cambiamenti di stato, quale confronto fra gli aumenti di temperatura è corretto?
+Due liquidi A e B hanno volumi uguali V_A = V_B. Le densità soddisfano ρ_A = 2ρ_B e i calori specifici sono c_A e c_B, con c_A pari a metà di c_B; A è anche più viscoso. A parità di calore assorbito Q e senza cambiamenti di stato, quale confronto fra gli aumenti di temperatura è corretto?
 
 - **A.** B si scalda del doppio perché la sua densità è minore.
 - **B.** A si scalda di meno perché è più viscoso.
@@ -518,7 +518,7 @@ Due liquidi A e B hanno lo stesso volume. A ha densità doppia e calore specific
 
 **Dati, condizioni fornite e quesito:**
 
-Si trasferiscono 66,8 kJ a ghiaccio già in fusione a 0 °C. Usa m = Q diviso L con L = 334 kJ/kg. Quanta massa fonde?
+Si trasferisce calore Q = 66,8 kJ a ghiaccio già in fusione alla temperatura T = 0 °C. Il calore latente specifico di fusione è L = 334 kJ/kg. Usa m = Q diviso L. Quanta massa m fonde?
 
 - **A.** 0,20 kg
 - **B.** 5,0 kg
@@ -539,14 +539,14 @@ Si trasferiscono 66,8 kJ a ghiaccio già in fusione a 0 °C. Usa m = Q diviso L 
 
 **Dati, condizioni fornite e quesito:**
 
-Una lastra più fredda delle pareti circostanti assorbe radiazione e si riscalda. Quale confronto è coerente nel modello di ambiente uniforme?
+Una lastra ha temperatura T_l minore della temperatura delle pareti circostanti T_p. Assorbe radiazione e si riscalda. Quale confronto è coerente nel modello di ambiente uniforme?
 
 - **A.** La lastra riflette necessariamente tutta la radiazione.
 - **B.** La lastra non può emettere perché è più fredda.
 - **C.** La potenza assorbita supera quella emessa.
 - **D.** La lastra emette più di quanto assorbe.
 
-**Risposta corretta: C.** Con T minore di T_amb il bilancio netto ceduto è negativo, ma l’emissione della lastra continua.
+**Risposta corretta: C.** Con T_l minore di T_p il bilancio netto ceduto è negativo, ma l’emissione della lastra continua.
 
 **Motivo del livello:** Confronto di due aspetti del fenomeno o controllo di una deduzione intuitiva. Operazione decisiva: applicare emissione termica a un corpo freddo rispetto alla stanza.
 
@@ -581,7 +581,7 @@ In uno scambiatore un vapore condensa e cede energia a un liquido che una pompa 
 
 **Dati, condizioni fornite e quesito:**
 
-Un campione si scalda di 5 K. Sapendo che ΔT_°F = 1,8 · ΔT_K, qual è l’aumento in gradi Fahrenheit?
+Un campione subisce un aumento di temperatura in kelvin ΔT_K = 5 K. Sapendo che ΔT_°F = 1,8 · ΔT_K, quanto vale l’aumento in gradi Fahrenheit ΔT_°F?
 
 - **A.** 5 °F
 - **B.** 37 °F

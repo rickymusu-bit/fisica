@@ -14,7 +14,7 @@ Categoria unica `termologia`. Calcolatrice di base consentita. Riferimenti e con
 
 **Dati, condizioni fornite e quesito:**
 
-Un campione è inizialmente a 310 K e si raffredda di 15 °C. Qual è la temperatura finale in kelvin?
+Un campione ha temperatura iniziale T_i = 310 K e subisce una variazione di temperatura ΔT = −15 °C. Qual è la temperatura finale T_f in kelvin?
 
 - **A.** 22 K
 - **B.** 568,15 K
@@ -35,7 +35,7 @@ Un campione è inizialmente a 310 K e si raffredda di 15 °C. Qual è la tempera
 
 **Dati, condizioni fornite e quesito:**
 
-Un liquido evapora sotto la temperatura di ebollizione mentre un altro bolle. È corretto assegnare al primo Q = 0 perché non mostra una sosta a 100 °C?
+Un liquido evapora sotto la temperatura di ebollizione mentre un altro bolle. È corretto assegnare al primo un calore scambiato Q = 0 perché non mostra una sosta alla temperatura T = 100 °C?
 
 - **A.** Sì: soltanto le bolle consumano energia.
 - **B.** No: anche l’evaporazione richiede energia, e 100 °C non è un criterio universale.
@@ -56,7 +56,7 @@ Un liquido evapora sotto la temperatura di ebollizione mentre un altro bolle. È
 
 **Dati, condizioni fornite e quesito:**
 
-Il calore specifico riferisce l’energia necessaria per un aumento di 1 K a quale quantità di materiale?
+Il calore specifico riferisce l’energia necessaria per un aumento di temperatura ΔT = 1 K a quale quantità di materiale?
 
 - **A.** Un corpo di qualsiasi massa.
 - **B.** 1 kg.
@@ -119,7 +119,7 @@ Una pompa fa circolare un liquido in un ambiente con gravità trascurabile. Il v
 
 **Dati, condizioni fornite e quesito:**
 
-Un campione si raffredda cedendo energia come calore. Quale segno ha Q riferito al campione?
+Un campione si raffredda cedendo energia come calore Q. Quale segno ha Q riferito al campione?
 
 - **A.** Dipende soltanto dalla sua massa.
 - **B.** Negativo.
@@ -140,7 +140,7 @@ Un campione si raffredda cedendo energia come calore. Quale segno ha Q riferito 
 
 **Dati, condizioni fornite e quesito:**
 
-Un corpo con capacità termica costante di 80 J/K assorbe 1,2 kJ e raggiunge 35 °C senza cambiare stato. Da quale temperatura partiva?
+Un corpo ha capacità termica costante C = 80 J/K, assorbe calore Q = 1,2 kJ e raggiunge la temperatura finale T_f = 35 °C senza cambiare stato. Qual era la temperatura iniziale T_i?
 
 - **A.** 20 °C
 - **B.** 50 °C
@@ -161,7 +161,7 @@ Un corpo con capacità termica costante di 80 J/K assorbe 1,2 kJ e raggiunge 35 
 
 **Dati, condizioni fornite e quesito:**
 
-Un riscaldatore fornisce una potenza termica costante di 40 W a 0,20 kg di ghiaccio a 0 °C per 2000 s, senza dispersioni. Il calore latente di fusione è 334 kJ/kg e il calore specifico dell’acqua è 4200 J/(kg · K). Qual è la temperatura finale?
+Un riscaldatore fornisce una potenza termica costante P = 40 W a ghiaccio di massa m = 0,20 kg e temperatura iniziale T_i = 0 °C, per un intervallo di tempo Δt = 2000 s, senza dispersioni. Il calore latente specifico di fusione è L = 334 kJ/kg e il calore specifico dell’acqua è c = 4200 J/(kg · K). Qual è la temperatura finale T_f?
 
 - **A.** Circa 15,7 °C
 - **B.** 0 °C
@@ -182,7 +182,7 @@ Un riscaldatore fornisce una potenza termica costante di 40 W a 0,20 kg di ghiac
 
 **Dati, condizioni fornite e quesito:**
 
-Una lastra piana ha λ = 0,20 W/(m · K), area 1,0 m² e spessore 0,10 m. Le facce differiscono di 5 K. In regime stazionario senza sorgenti, P = λ · A · ΔT diviso s vale:
+Una lastra piana ha conducibilità termica λ = 0,20 W/(m · K), area A = 1,0 m² e spessore s = 0,10 m. La differenza di temperatura fra le facce è ΔT = 5 K. In regime stazionario senza sorgenti, la potenza termica P = λ · A · ΔT diviso s vale:
 
 - **A.** 10 W
 - **B.** 25 W
@@ -203,7 +203,7 @@ Una lastra piana ha λ = 0,20 W/(m · K), area 1,0 m² e spessore 0,10 m. Le fac
 
 **Dati, condizioni fornite e quesito:**
 
-Due dispositivi trasferiscono la stessa energia, ma uno impiega meno tempo. Quale ha potenza media maggiore?
+Due dispositivi trasferiscono lo stesso calore Q. Gli intervalli di tempo soddisfano Δt₁ < Δt₂. Quale dispositivo ha potenza media maggiore?
 
 - **A.** Quello che impiega meno tempo.
 - **B.** Quello che impiega più tempo.
@@ -224,7 +224,7 @@ Due dispositivi trasferiscono la stessa energia, ma uno impiega meno tempo. Qual
 
 **Dati, condizioni fornite e quesito:**
 
-Due liquidi hanno masse uguali e c diversi. Uno studente ottiene come T_eq la media aritmetica e conclude che il calcolo è corretto perché il risultato è fra le T iniziali. Il controllo è sufficiente?
+Due liquidi hanno masse uguali m₁ = m₂ e calori specifici diversi c₁ e c₂. Uno studente ottiene come temperatura di equilibrio T_eq la media aritmetica delle temperature iniziali T₁ e T₂ e conclude che il calcolo è corretto perché il risultato è compreso fra esse. Il controllo è sufficiente?
 
 - **A.** Sì: ogni valore fra le T iniziali soddisfa il bilancio.
 - **B.** Sì: le masse uguali eliminano qualsiasi differenza di c.
@@ -266,7 +266,7 @@ Quale descrizione riguarda un liquido?
 
 **Dati, condizioni fornite e quesito:**
 
-Due aste dello stesso materiale sono riscaldate dello stesso ΔT. Una è più lunga. Nel modello lineare, quale confronto è corretto?
+Due aste dello stesso materiale subiscono lo stesso aumento di temperatura ΔT. Le lunghezze iniziali soddisfano L₁ > L₂. Nel modello lineare, quale confronto è corretto?
 
 - **A.** Stesso allungamento relativo, allungamento assoluto maggiore per l’asta lunga.
 - **B.** Allungamento relativo maggiore per l’asta lunga.
@@ -350,7 +350,7 @@ In un ambiente con gravità trascurabile si crea una zona d’aria più calda se
 
 **Dati, condizioni fornite e quesito:**
 
-Si mescolano 0,20 kg d’acqua a 60 °C e 0,20 kg a 20 °C. Il recipiente è trascurabile, ma si perde calore all’esterno e la T finale è 35 °C. Con c = 4200 J/(kg · K), quanta energia è uscita dal sistema acqua?
+Si mescolano due porzioni d’acqua: la prima ha massa m₁ = 0,20 kg e temperatura iniziale T₁ = 60 °C; la seconda ha massa m₂ = 0,20 kg e temperatura iniziale T₂ = 20 °C. Il recipiente è trascurabile, ma si perde calore all’esterno e la temperatura finale è T_f = 35 °C. Il calore specifico dell’acqua è c = 4200 J/(kg · K). Quanta energia Q è uscita dal sistema acqua?
 
 - **A.** 16,8 kJ
 - **B.** 0 kJ
@@ -371,7 +371,7 @@ Si mescolano 0,20 kg d’acqua a 60 °C e 0,20 kg a 20 °C. Il recipiente è tra
 
 **Dati, condizioni fornite e quesito:**
 
-Quanto calore serve per vaporizzare 0,020 kg d’acqua già a 100 °C, a pressione atmosferica? Usa L_v = 2257 kJ/kg.
+Quanto calore Q serve per vaporizzare acqua di massa m = 0,020 kg, già alla temperatura T = 100 °C, a pressione atmosferica? Il calore latente specifico di vaporizzazione è L = 2257 kJ/kg.
 
 - **A.** 2,257 kJ
 - **B.** 45,14 kJ
@@ -413,7 +413,7 @@ Riscaldando uniformemente coperchio e collo di un barattolo, i due diametri aume
 
 **Dati, condizioni fornite e quesito:**
 
-Attraverso uno strato omogeneo di area 5,0 m² e λ = 0,050 W/(m · K) si vogliono trasferire al massimo 300 kJ in un’ora. ΔT fra le facce è mantenuta a 20 K in regime stazionario. Qual è lo spessore minimo nel modello?
+Uno strato omogeneo ha area A = 5,0 m² e conducibilità termica λ = 0,050 W/(m · K). Si vuole trasferire al massimo un’energia Q = 300 kJ nell’intervallo di tempo Δt = 1 h. La differenza di temperatura fra le facce è mantenuta a ΔT = 20 K, in regime stazionario. Qual è lo spessore minimo s nel modello?
 
 - **A.** 1,7 cm
 - **B.** 60 cm
@@ -455,7 +455,7 @@ Un contenitore aperto viene pesato prima e dopo che parte dell’acqua è evapor
 
 **Dati, condizioni fornite e quesito:**
 
-Una tazza con capacità termica costante di 90 J/K passa da 18 °C a 38 °C. Quanto calore assorbe?
+Una tazza ha capacità termica costante C = 90 J/K e passa dalla temperatura iniziale T_i = 18 °C alla temperatura finale T_f = 38 °C. Quanto calore Q assorbe?
 
 - **A.** 0,45 kJ
 - **B.** 3,42 kJ
@@ -497,7 +497,7 @@ Una ventola dentro una scatola termicamente isolata ridistribuisce energia da un
 
 **Dati, condizioni fornite e quesito:**
 
-Un bagno è a 280 K. Usando T_°C = T_K − 273,15, quanto indica un termometro Celsius?
+Un bagno ha temperatura in kelvin T_K = 280 K. Usando T_°C = T_K − 273,15, quanto vale la temperatura Celsius T_°C indicata dal termometro?
 
 - **A.** 280 °C
 - **B.** −6,85 °C
@@ -518,7 +518,7 @@ Un bagno è a 280 K. Usando T_°C = T_K − 273,15, quanto indica un termometro 
 
 **Dati, condizioni fornite e quesito:**
 
-Un termometro indica 86 °F. Usa T_°C = (T_°F − 32) diviso 1,8. A quanti gradi Celsius corrisponde?
+Un termometro indica una temperatura Fahrenheit T_°F = 86 °F. Usa T_°C = (T_°F − 32) diviso 1,8. Quanto vale la temperatura Celsius T_°C?
 
 - **A.** 47,8 °C
 - **B.** 54 °C
@@ -539,7 +539,7 @@ Un termometro indica 86 °F. Usa T_°C = (T_°F − 32) diviso 1,8. A quanti gra
 
 **Dati, condizioni fornite e quesito:**
 
-Uno studente mescola acqua calda e ghiaccio a 0 °C e tratta il ghiaccio come acqua liquida già a 0 °C nella media pesata. Quale contributo manca?
+Uno studente mescola acqua calda e ghiaccio alla temperatura T_g = 0 °C. Nella media pesata tratta il ghiaccio come acqua liquida già alla temperatura T_a = 0 °C. Quale contributo manca?
 
 - **A.** L’energia necessaria per la fusione prima dell’eventuale riscaldamento del liquido ottenuto.
 - **B.** Soltanto il volume esterno del recipiente.

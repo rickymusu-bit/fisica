@@ -32,7 +32,7 @@
       "id": "termo-003",
       "category": "termologia",
       "level": "easy",
-      "prompt": "Un blocco di massa 0,50 kg ha calore specifico costante c = 400 J/(kg · K). Assorbe calore e la sua temperatura aumenta di 10 K, senza cambiamenti di stato. Quanto calore assorbe?",
+      "prompt": "Un blocco ha massa m = 0,50 kg e calore specifico costante c = 400 J/(kg · K). Assorbe calore e subisce un aumento di temperatura ΔT = 10 K, senza cambiamenti di stato. Quanto calore Q assorbe?",
       "options": [
         "2000 J",
         "200 J",
@@ -60,7 +60,7 @@
       "id": "termo-005",
       "category": "termologia",
       "level": "medium",
-      "prompt": "Un oggetto di metallo e uno di legno sono entrambi a 40 °C. La pelle è inizialmente a 32 °C. Nei primi istanti di contatto il metallo trasferisce energia alla pelle più rapidamente del legno. Quale previsione è corretta?",
+      "prompt": "Un oggetto di metallo e uno di legno hanno temperature iniziali T_m = T_l = 40 °C. La pelle ha temperatura iniziale T_p = 32 °C. Nei primi istanti di contatto il metallo trasferisce energia alla pelle più rapidamente del legno. Quale previsione è corretta?",
       "options": [
         "Il metallo può sembrare più caldo, pur avendo la stessa temperatura del legno.",
         "Il metallo deve avere una temperatura maggiore, perché trasferisce energia più rapidamente.",
@@ -74,7 +74,7 @@
       "id": "termo-006",
       "category": "termologia",
       "level": "medium",
-      "prompt": "Una barra lunga 2,0 m a 20 °C viene portata a 70 °C ed è libera di dilatarsi. Assumi α = 1,2 · 10⁻⁵ K⁻¹ costante. Di quanto aumenta la lunghezza?",
+      "prompt": "Una barra ha lunghezza iniziale L₀ = 2,0 m alla temperatura iniziale T_i = 20 °C. Viene portata alla temperatura finale T_f = 70 °C ed è libera di dilatarsi. Il coefficiente di dilatazione lineare è α = 1,2 · 10⁻⁵ K⁻¹, costante. Qual è l’allungamento ΔL?",
       "options": [
         "0,12 mm",
         "1,2 mm",
@@ -116,7 +116,7 @@
       "id": "termo-009",
       "category": "termologia",
       "level": "hard",
-      "prompt": "In un recipiente si mescolano 0,20 kg d’acqua a 60 °C e 0,10 kg di ghiaccio a 0 °C. Trascurando recipiente e scambi con l’ambiente, quale temperatura di equilibrio si raggiunge? Considera acqua pura a pressione atmosferica, c = 4200 J/(kg · K) costante e calore latente di fusione L = 334 kJ/kg.",
+      "prompt": "Si mescolano acqua di massa m_a = 0,20 kg e temperatura iniziale T_a = 60 °C e ghiaccio di massa m_g = 0,10 kg e temperatura iniziale T_g = 0 °C. Trascurando recipiente e scambi con l’ambiente, quale temperatura di equilibrio T_eq si raggiunge? Considera acqua pura a pressione atmosferica, con calore specifico dell’acqua c = 4200 J/(kg · K) costante e calore latente specifico di fusione L = 334 kJ/kg.",
       "options": [
         "Circa 13,5 °C",
         "Circa 20,2 °C",

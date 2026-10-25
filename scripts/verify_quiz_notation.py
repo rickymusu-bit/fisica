@@ -26,7 +26,7 @@ def main():
                              for token in re.findall(r'((?:Δ)?[A-Za-zΑ-Ωα-ω]_[A-Za-zΑ-Ωα-ω0-9°]+)', text)})
     probe = {
         'id': 'notation-test', 'category': 'termologia', 'level': 'medium',
-        'prompt': '; '.join(all_subscripts) + '; c_{ghiaccio}; Q₁; L₀; 10⁻⁵; T^4; x^{−2}; <img src=x onerror="window.quizUnsafe=true">',
+        'prompt': '; '.join(all_subscripts) + '; 2A_i; 2s_i; 2T_i; 0,5ε_i; c_{ghiaccio}; Q₁; L₀; 10⁻⁵; T^4; x^{−2}; <img src=x onerror="window.quizUnsafe=true">',
         'options': ['c_acqua', 'T_amb⁴', '10⁻⁵', '<svg onload="window.quizUnsafe=true">'],
         'correct': 0,
         'explanation': 'Q = m_calda · c_acqua · ΔT; T_amb⁴; 10⁻⁵; <script>window.quizUnsafe=true</script>'}
@@ -54,15 +54,19 @@ def main():
                 page.locator('[data-quiz-category][value="termologia"]').check()
                 page.locator('#quiz-count').fill('1')
                 page.locator('#quiz-start').click()
-                assert page.locator('#quiz-prompt sub').count() == 0
-                assert 'il calore specifico dell’acqua è' in page.locator('#quiz-prompt').inner_text()
+                assert page.locator('#quiz-prompt sub').all_text_contents() == ['i', 'f']
+                assert 'il calore specifico dell’acqua è c = 4200 J/(kg · K)' in page.locator('#quiz-prompt').inner_text()
+                for datum in ('potenza termica costante P = 40 W', 'massa m = 0,20 kg',
+                              'temperatura iniziale Ti = 0 °C', 'intervallo di tempo Δt = 2000 s',
+                              'calore latente specifico di fusione è L = 334 kJ/kg'):
+                    assert datum in page.locator('#quiz-prompt').inner_text()
                 assert '_' not in page.locator('#quiz-prompt').inner_text()
                 assert page.locator('#quiz-prompt').inner_text() == visible_math_text(example['prompt'])
                 assert page.locator('#quiz-prompt sup').count() == 0
                 for theme in ('dark', 'light'):
                     set_theme(page, theme)
                     assert page.evaluate('document.documentElement.scrollWidth <= innerWidth')
-                    assert 'Qual è la temperatura finale?' in page.locator('#quiz-prompt').inner_text()
+                    assert 'Qual è la temperatura finale Tf?' in page.locator('#quiz-prompt').inner_text()
                     page.screenshot(path=str(DEST / f'pedici-{width}-{theme}.png'), full_page=True)
                 page.locator(f'.quiz-answer input[value="{example["correct"]}"]').check()
                 page.locator('#quiz-next').click()
@@ -78,7 +82,8 @@ def main():
                 page.locator('[data-quiz-category][value="termologia"]').check()
                 page.locator('#quiz-count').fill('1')
                 page.locator('#quiz-start').click()
-                assert page.locator('#quiz-prompt sub').count() == len(all_subscripts) + 3
+                assert page.locator('#quiz-prompt sub').count() == len(all_subscripts) + 7
+                assert '_' not in page.locator('#quiz-prompt').inner_text()
                 assert page.locator('.quiz-answer:has(input[value="0"]) sub').inner_text() == 'acqua'
                 assert page.locator('.quiz-answer:has(input[value="0"]) sub').evaluate('el => parseFloat(getComputedStyle(el).fontSize) < parseFloat(getComputedStyle(el.parentElement).fontSize)')
                 assert page.locator('.quiz-answer:has(input[value="1"]) sub').inner_text() == 'amb'
@@ -99,7 +104,7 @@ def main():
                 recovered = page.evaluate('key => JSON.parse(localStorage.getItem(key))', key)
                 assert recovered == stored
                 assert page.locator('.quiz-answer input[value="0"]').is_checked()
-                assert page.locator('#quiz-prompt sub').count() == len(all_subscripts) + 3
+                assert page.locator('#quiz-prompt sub').count() == len(all_subscripts) + 7
                 page.locator('#quiz-next').click()
                 assert page.locator('#quiz-score').inner_text() == '1 / 1'
                 assert page.locator('#quiz-review sub').count() > 0
@@ -113,9 +118,10 @@ def main():
     finally:
         server.shutdown()
     assert not errors, errors
-    report = {'source_record': example['id'], 'data_given_in_plain_language': True, 'viewports': [1440, 390, 320],
+    report = {'source_record': example['id'], 'data_given_as_name_symbol_value': True, 'viewports': [1440, 390, 320],
               'themes': ['dark', 'light'], 'subscript_tokens': all_subscripts,
               'question_options_and_feedback': 'passed', 'unicode_and_braces': 'passed',
+              'subscripts_after_numeric_coefficients': 'passed',
               'legacy_snapshot_preserved': True, 'untrusted_html_stays_text': True,
               'javascript_errors': errors}
     (DEST / 'verifica.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')

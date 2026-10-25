@@ -1,6 +1,6 @@
 # Prompt per generare le domande dei quiz di Stringhe
 
-**Versione:** v1.4.2
+**Versione:** v1.4.3
 **Data:** 25 ottobre 2026 (Europe/Rome).
 **Ambito:** quiz del sito Stringhe, distinti dal gioco Fool.
 
@@ -127,11 +127,11 @@ Ogni domanda deve:
 - essere autonoma rispetto alle altre;
 - verificare una competenza riconoscibile.
 
-Presenta i dati in frasi esplicite: per esempio «il calore specifico dell’acqua è 4200 J/(kg · K)». Non introdurre un simbolo indicizzato soltanto per assegnare un valore che può essere nominato chiaramente; usa i pedici nelle relazioni quando distinguono grandezze effettivamente necessarie. Dichiara le ipotesi quando la loro assenza permetterebbe risposte diverse. Non appesantire il testo con ipotesi irrilevanti.
+Presenta ogni dato nell’ordine **nome della grandezza a parole → simbolo → valore con unità**. Per esempio: «la massa del blocco è m = 0,20 kg» e «il calore specifico dell’acqua è c = 4200 J/(kg · K)». La sola descrizione a parole non sostituisce il simbolo: lo studente deve poterlo usare direttamente nell’impostazione. Se ci sono più grandezze dello stesso tipo, usa pedici opportuni e brevi, collegati esplicitamente al corpo, al materiale o allo stato: per esempio «le masse di acqua e ghiaccio sono m_a = … e m_g = …» oppure «le temperature iniziale e finale sono T_i = … e T_f = …». Quando la grandezza è unica, usa la sola lettera. Mantieni i simboli coerenti in domanda, alternative e spiegazione. Applica il criterio anche ai dati forniti come confronti o relazioni; non anticipare la risposta nei quesiti che chiedono proprio il significato di un simbolo. Dichiara le ipotesi quando la loro assenza permetterebbe risposte diverse. Non appesantire il testo con ipotesi irrilevanti.
 
 Applica il principio di economia informativa del progetto: conserva ciò che serve a comprendere e risolvere il quesito; elimina ciò che ripete informazioni o non modifica la comprensione. Non eliminare dati, unità e condizioni necessari.
 
-Usa notazione e matematica appropriate al livello previsto e alle regole correnti del repository. Per la temperatura usa T e ΔT; riserva t e Δt al tempo. Per i numeri molto piccoli o molto grandi usa la notazione scientifica a · 10ⁿ, con 1 ≤ |a| < 10, quando non è utile ricorrere ai prefissi SI. Usa i prefissi quando rendono i valori più leggibili, per esempio 144 kJ; conserva la notazione scientifica per coefficienti come α = 1,2 · 10⁻⁵ K⁻¹. Applica la stessa scelta a dati, opzioni e soluzioni. Pedici e apici devono essere resi tipograficamente in tutti i campi visualizzati, comprese alternative e spiegazioni: non lasciare underscore visibili. Nei sorgenti testuali il motore riconosce `c_acqua`, `c_{acqua}`, `T_amb⁴` e le cifre Unicode in pedice/apice; conserva le stringhe del dataset e delega la resa a `sub` e `sup` nativi, come nei capitoli. Non inserire HTML eseguibile nei record.
+Usa notazione e matematica appropriate al livello previsto e alle regole correnti del repository. Per la temperatura usa T e ΔT; riserva t e Δt al tempo. Per i numeri molto piccoli o molto grandi usa la notazione scientifica a · 10ⁿ, con 1 ≤ |a| < 10, quando non è utile ricorrere ai prefissi SI. Usa i prefissi quando rendono i valori più leggibili, per esempio 144 kJ; conserva la notazione scientifica per coefficienti come α = 1,2 · 10⁻⁵ K⁻¹. Applica la stessa scelta a dati, opzioni e soluzioni. Pedici e apici devono essere resi tipograficamente in tutti i campi visualizzati, comprese alternative e spiegazioni: non lasciare underscore visibili. Nei sorgenti testuali il motore riconosce `c_a`, `c_{a}`, `T_a⁴` e le cifre Unicode in pedice/apice; conserva le stringhe del dataset e delega la resa a `sub` e `sup` nativi, come nei capitoli. Non inserire HTML eseguibile nei record.
 
 ## 7. Alternative di risposta
 
