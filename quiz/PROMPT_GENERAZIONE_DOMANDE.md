@@ -253,3 +253,15 @@ La scheda di revisione comprende metadati didattici ulteriori rispetto a questo 
 
 Questo prompt non autorizza a generare lotti non richiesti, inventare approvazioni o pubblicare il sito.
 
+
+## 12. Manutenzione, versionamento e refactoring del prompt
+
+**Versionamento autonomo.** A ogni modifica consolidata di questo prompt, incrementa la versione secondo la numerazione già adottata e registra la data di aggiornamento (fuso Europe/Rome). Le modifiche agli altri documenti non incrementano automaticamente la versione di questo file; Git conserva la cronologia, senza creare copie numerate del prompt.
+
+**Controllo incrementale obbligatorio a ogni aggiornamento.** Prima di proporre ogni modifica, rileggi le sezioni interessate e i rimandi a `README.md`, `AGENTS.md`, `MASTER_PROMPT.md`, allo schema e al validatore attuali. Controlla collocazione delle nuove regole, duplicazioni, incoerenze, riferimenti obsoleti, prolissità e terminologia. Integra le istruzioni nella sezione pertinente invece di accumulare appendici cronologiche. Correggi localmente solo ciò che preserva significato, vincoli didattici, eccezioni e autorizzazioni; in presenza di conflitti sostanziali, illustra le alternative e richiedi una decisione. Non riscrivere tutto il documento per una modifica circoscritta. Questo controllo non sostituisce il refactoring periodico.
+
+**Refactoring strutturale automatico ogni dieci versioni principali.** Quando una modifica raggiunge una versione con componente principale multipla di dieci (v10, v20, v30 e successive), esamina l'intero prompt: elimina ridondanze, riordina le istruzioni per funzione, semplifica il flusso operativo, verifica coerenza interna e collegamenti con i documenti canonici. Confronta esplicitamente requisiti precedenti e proposti per impedire omissioni, alterazioni involontarie delle regole e autorizzazioni implicite. Presenta un riepilogo delle criticità e del refactoring proposto, chiedendo approvazione prima del consolidamento; se emergono contraddizioni sostanziali, non scegliere autonomamente. In assenza di approvazione, conserva la PR in bozza e non fare merge. L'aggiornamento di soglia comporta **una sola nuova versione**, senza incremento aggiuntivo per il refactoring. Fuori dalle soglie, esegui un refactoring integrale solo su richiesta esplicita o in caso di problemi strutturali importanti.
+
+Per la numerazione corrente `v1.4.x`, gli aggiornamenti correttivi continuano la serie esistente; la soglia strutturale riguarda la componente principale intera, non il numero di patch o di modifiche effettuate. Un cambio intenzionale della convenzione di versionamento richiede una decisione esplicita.
+
+Queste procedure riguardano soltanto la manutenzione del prompt: non autorizzano la generazione di nuovi lotti, la modifica dell'archivio, il merge o la pubblicazione del sito.
