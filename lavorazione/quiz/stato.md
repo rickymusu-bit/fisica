@@ -1,5 +1,21 @@
 # Stato — quiz
 
+## Stato corrente — integrazione e pubblicazione del quiz di Termologia
+
+Aggiornamento: 25 ottobre 2026 (Europe/Rome). Master corrente v69.16: lette le differenze rispetto a v69.15; riguardano visuali e capitoli e non modificano le specifiche del quiz. Prompt v1.4.1, specifiche quiz v2.4.0.
+
+**Autorizzazione corrente:** dopo aver ricevuto l’archivio completo, l’utente ha scritto «Va bene, pubblica», poi «Riprendi». Sono quindi approvate tutte le 300 domande di Termologia e autorizzata la loro pubblicazione nell’ambito corrente. L’approvazione precedente del primo lotto resta registrata; nessun record delle domande è stato modificato durante l’integrazione.
+
+**Archivio integrato:** `quiz/domande.json`, identico a [archivio.json](termologia/archivio.json). Per ogni livello: 100 domande, di cui 30 conoscenza, 40 ragionamento e 30 calcolo; totale 300 approvate e nessuna in attesa di revisione. Termologia è disponibile a tutte le difficoltà. Introduzione alla fisica e alla misura resta disabilitata perché non ha quesiti. Le sessioni da 1 a 30 pescano in un insieme da 100 per livello, senza ripetizioni. Le sessioni già salvate continuano a recuperare i propri quesiti e scadenze.
+
+Ramo `feature/quiz-termologia-campione`, PR #81. Integrato sul ramo di lavoro main `3d8afa2`, che conserva i due nuovi capitoli già pubblicati nell’altra categoria. Manifest, capitoli e crediti non modificati da questo incarico. Aggiornati i test che presumevano un archivio vuoto e il messaggio della pagina prima dell’avvio; il punto centrato del riepilogo è sostituito da un trattino secondo la regola grafica corrente.
+
+**Verifiche concluse:** tema condiviso allineato; registro crediti verificato; build di 24 HTML e 20 copertine; 24 test superati; validazione di tutti i 300 record e 78 ricalcoli dei nuovi quesiti. Browser Chromium desktop 1440 px e mobile emulato 390 px: archivio reale, tutti i livelli, categorie disponibili/non disponibili, estrazione di domande uniche, correzione completa 30/30 e 3/3, ordine delle opzioni, recupero della sessione e del risultato. Superata anche la suite esistente su categorie, timer, scadenze fuori pagina, storage bloccato, salvataggi corrotti e sessioni precedenti. Nessun errore JavaScript rilevato.
+
+**Anteprima corrente e documentazione:** [rapporto di integrazione](termologia/pubblicazione.md), HTML autonomo e immagini in `termologia/anteprima/`. Gli screenshot usano domande reali e sono stati controllati visivamente. I tempi rimangono stime progettuali, non osservazioni in classe.
+
+**Passaggio corrente:** salvataggio remoto, verifica CI del commit finale, quindi integrazione della PR e controllo del deployment Pages autorizzato dall’utente. Il rapporto di pubblicazione registra l’esito e il collegamento al workflow una volta disponibili. Le autorizzazioni non si estendono a revisioni future.
+
 Ultimo aggiornamento: 2026-10-16 14:15 (Europe/Rome). Master consultato: v44.
 
 Fase: materiali esistenti importati senza modifiche; nessuna nuova progettazione o revisione didattica avviata. Ambito: i file elencati sotto. Nessun documento di lavorazione era presente nella cartella Drive dedicata.

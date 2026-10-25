@@ -1,0 +1,130 @@
+{
+  "questions": [
+    {
+      "id": "termo-001",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Quale descrizione identifica un sistema termodinamico chiuso?",
+      "options": [
+        "Può scambiare materia, ma non energia, con l’ambiente.",
+        "Può scambiare energia, ma non materia, con l’ambiente.",
+        "Non può scambiare né materia né energia con l’ambiente.",
+        "Può scambiare sia materia sia energia con l’ambiente."
+      ],
+      "correct": 1,
+      "explanation": "Un sistema chiuso conserva la materia entro il confine, ma può scambiare energia. L’assenza di entrambi gli scambi identifica invece un sistema isolato."
+    },
+    {
+      "id": "termo-002",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Due camere rigide sono collegate da una valvola: una contiene un gas, l’altra è vuota. Si apre la valvola senza perdite e mantenendo costante la temperatura. Dopo che il gas si è distribuito, che cosa è cambiato?",
+      "options": [
+        "Le particelle sono diventate più grandi e occupano entrambe le camere.",
+        "Sono comparse nuove particelle che riempiono la seconda camera.",
+        "Le particelle sono rimaste nella prima camera, alla stessa distanza media.",
+        "Le stesse particelle occupano entrambe le camere, con distanza media maggiore."
+      ],
+      "correct": 3,
+      "explanation": "Il gas si distribuisce nel volume disponibile. Il numero di particelle resta uguale, ma il volume occupato aumenta: cresce la loro distanza media, non la loro dimensione."
+    },
+    {
+      "id": "termo-003",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Un blocco di massa 0,50 kg ha calore specifico costante c = 400 J/(kg · K). Assorbe calore e la sua temperatura aumenta di 10 K, senza cambiamenti di stato. Quanto calore assorbe?",
+      "options": [
+        "2000 J",
+        "200 J",
+        "20 000 J",
+        "4000 J"
+      ],
+      "correct": 0,
+      "explanation": "Q = m · c · ΔT = 0,50 · 400 · 10 J = 2000 J, cioè 2,0 kJ."
+    },
+    {
+      "id": "termo-004",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Quale confronto tra evaporazione ed ebollizione è corretto?",
+      "options": [
+        "L’evaporazione forma bolle anche all’interno; l’ebollizione avviene alla superficie anche sotto la temperatura di ebollizione.",
+        "L’evaporazione e l’ebollizione avvengono entrambe a qualsiasi temperatura, indipendentemente dalla pressione esterna.",
+        "L’evaporazione avviene alla superficie anche sotto la temperatura di ebollizione; l’ebollizione forma bolle anche all’interno.",
+        "L’evaporazione avviene solo alla temperatura di ebollizione; l’ebollizione avviene alla superficie senza formare bolle interne."
+      ],
+      "correct": 2,
+      "explanation": "L’evaporazione può avvenire dalla superficie anche sotto la temperatura di ebollizione. Nell’ebollizione si formano bolle di vapore anche all’interno; la temperatura a cui avviene dipende dalla pressione."
+    },
+    {
+      "id": "termo-005",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Un oggetto di metallo e uno di legno sono entrambi a 40 °C. La pelle è inizialmente a 32 °C. Nei primi istanti di contatto il metallo trasferisce energia alla pelle più rapidamente del legno. Quale previsione è corretta?",
+      "options": [
+        "Il metallo può sembrare più caldo, pur avendo la stessa temperatura del legno.",
+        "Il metallo deve avere una temperatura maggiore, perché trasferisce energia più rapidamente.",
+        "Il metallo può sembrare più freddo, perché un buon conduttore sottrae sempre energia alla pelle.",
+        "I due oggetti devono dare la stessa sensazione, perché hanno la stessa temperatura."
+      ],
+      "correct": 0,
+      "explanation": "Entrambi cedono energia alla pelle, inizialmente più fredda. Il trasferimento più rapido dal metallo può farlo sembrare più caldo: la sensazione non misura direttamente la temperatura."
+    },
+    {
+      "id": "termo-006",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Una barra lunga 2,0 m a 20 °C viene portata a 70 °C ed è libera di dilatarsi. Assumi α = 1,2 · 10⁻⁵ K⁻¹ costante. Di quanto aumenta la lunghezza?",
+      "options": [
+        "0,12 mm",
+        "1,2 mm",
+        "12 mm",
+        "120 mm"
+      ],
+      "correct": 1,
+      "explanation": "ΔT = 70 °C − 20 °C = 50 K. ΔL = 1,2 · 10⁻⁵ · 2,0 · 50 m = 1,2 · 10⁻³ m = 1,2 mm."
+    },
+    {
+      "id": "termo-007",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Per una parete piana omogenea, con conducibilità costante e trasferimento perpendicolare alle facce, quale scelta permette di applicare il modello di Fourier con profilo lineare della temperatura nello spessore?",
+      "options": [
+        "Assumere regime stazionario e assenza di sorgenti interne; usare sempre le temperature dell’aria ai due lati.",
+        "Trascurare le sorgenti interne; usare le temperature delle facce anche mentre la parete accumula energia.",
+        "Assumere regime stazionario; usare le temperature delle facce anche con produzione di energia dentro la parete.",
+        "Assumere regime stazionario e assenza di sorgenti interne; usare le temperature delle due facce."
+      ],
+      "correct": 3,
+      "explanation": "Il modello lineare richiede regime stazionario e assenza di sorgenti interne, oltre alle condizioni già date. ΔT riguarda le due facce della parete: gli scambi fra aria e superfici possono rendere diverse le temperature dell’aria."
+    },
+    {
+      "id": "termo-008",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Un sensore caldo è sospeso con supporti solidi dentro una custodia più fredda. Nell’intercapedine c’è il vuoto. Si rivestono soltanto le superfici affacciate con uno strato a bassa emissività infrarossa, lasciando invariati i supporti. Confrontando le due configurazioni alle stesse temperature, che cosa ci si aspetta?",
+      "options": [
+        "La conduzione nei supporti diminuisce; lo scambio radiativo resta uguale; la convezione è assente.",
+        "La convezione nell’intercapedine diminuisce; lo scambio radiativo e la conduzione nei supporti restano uguali.",
+        "Lo scambio radiativo diminuisce; la conduzione nei supporti resta uguale; la convezione è assente.",
+        "Lo scambio radiativo si annulla; la conduzione nei supporti diminuisce; la convezione resta presente."
+      ],
+      "correct": 2,
+      "explanation": "La bassa emissività riduce lo scambio radiativo fra le superfici. Nel vuoto non c’è fluido che trasporti energia per convezione. I supporti solidi restano una via di conduzione: il loro contributo non cambia nel confronto alle stesse temperature."
+    },
+    {
+      "id": "termo-009",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "In un recipiente si mescolano 0,20 kg d’acqua a 60 °C e 0,10 kg di ghiaccio a 0 °C. Trascurando recipiente e scambi con l’ambiente, quale temperatura di equilibrio si raggiunge? Considera acqua pura a pressione atmosferica, c = 4200 J/(kg · K) costante e calore latente di fusione L = 334 kJ/kg.",
+      "options": [
+        "Circa 13,5 °C",
+        "Circa 20,2 °C",
+        "Circa 40 °C",
+        "0 °C"
+      ],
+      "correct": 0,
+      "explanation": "Raffreddandosi fino a 0 °C, l’acqua può cedere 0,20 · 4200 · 60 J = 50,4 kJ. Per fondere il ghiaccio servono 0,10 · 334 kJ = 33,4 kJ: fonde tutto. Restano 17,0 kJ per riscaldare 0,30 kg d’acqua. Ogni kelvin richiede 0,30 · 4200 J = 1260 J: l’aumento è circa 13,5 K e T finale è circa 13,5 °C."
+    }
+  ]
+}

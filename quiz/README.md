@@ -1,7 +1,7 @@
-# Quiz di Stringhe — specifiche v2.3.0
+# Quiz di Stringhe — specifiche v2.4.0
 
-**Stato:** interfaccia pubblicabile senza archivio di quesiti; il quiz rimane disabilitato fino al caricamento di domande reali.  
-**Data:** 24 ottobre 2026 (Europe/Rome).
+**Stato:** archivio approvato di 300 quesiti di Termologia, 100 per livello. Introduzione alla fisica e alla misura resta non disponibile perché priva di domande.
+**Data:** 25 ottobre 2026 (Europe/Rome).
 
 ## Comportamento
 
@@ -36,7 +36,7 @@ Se il salvataggio non è disponibile o lo spazio è esaurito, un avviso visibile
 
 ## Generazione delle domande
 
-Il [prompt di generazione](PROMPT_GENERAZIONE_DOMANDE.md), v1.4.0, definisce domande di conoscenza, ragionamento e calcolo, tre difficoltà e fattibilità entro 120 secondi comprensivi di lettura e scelta. Un quesito può collegare più capitoli della stessa categoria. Non deve richiedere conoscenze di un’altra categoria, salvo prerequisiti di base dichiarati o informazioni sufficienti fornite nel testo.
+Il [prompt di generazione](PROMPT_GENERAZIONE_DOMANDE.md), v1.4.1, definisce domande di conoscenza, ragionamento e calcolo, tre difficoltà e fattibilità entro 120 secondi comprensivi di lettura e scelta. Un quesito può collegare più capitoli della stessa categoria. Non deve richiedere conoscenze di un’altra categoria, salvo prerequisiti di base dichiarati o informazioni sufficienti fornite nel testo.
 
 Il workflow parte da un campione di 9 domande in ChatGPT (una per ogni combinazione tipo/difficoltà, se pertinente), seguito dalla revisione e approvazione del docente. Codex usa prompt, capitoli e campione approvato per generare i lotti richiesti, verificarli e integrarli. I lotti richiedono revisione didattica; i controlli automatici non provano chiarezza e risolvibilità nei due minuti. La divisione è organizzativa, non una garanzia di superiorità scientifica di ChatGPT.
 
@@ -50,15 +50,15 @@ Produzione: campione iniziale di 9 domande, revisione del docente e lotti indica
 
 ## Archivio di domande
 
-Quando sarà disponibile, la sorgente sarà **quiz/domande.json**, separata dall'interfaccia. Finché il file manca, la build genera una lista di domande vuota: tutte le categorie sono disabilitate e il quiz non è avviabile. L'archivio dimostrativo è stato cancellato dal repository. Ogni record contiene:
+La sorgente corrente è **quiz/domande.json**, separata dall’interfaccia: contiene 300 quesiti approvati di Termologia (100 per livello, con ripartizione 30 conoscenza, 40 ragionamento e 30 calcolo in ciascun livello). Finché il file manca, la build genera una lista di domande vuota: tutte le categorie sono disabilitate e il quiz non è avviabile. L'archivio dimostrativo è stato cancellato dal repository. Ogni record contiene:
 
 `id`, `category` (un solo ID di `quiz/categorie.json`), `level` (`easy`, `medium`, `hard`), `prompt`, `options`, `correct` (indice da zero), `explanation`.
 
-`category` sostituisce il precedente `chapter`: i quesiti non dipendono da titoli o nomi dei file dei capitoli. I record con `chapter`, `tags`, una categoria multipla o un ID sconosciuto sono rifiutati. Non esiste un archivio reale da migrare in questa revisione.
+`category` sostituisce il precedente `chapter`: i quesiti non dipendono da titoli o nomi dei file dei capitoli. I record con `chapter`, `tags`, una categoria multipla o un ID sconosciuto sono rifiutati. L’archivio corrente usa già il formato per categoria unica.
 
 La build controlla che gli ID siano unici, che la categoria sia valida, che ogni domanda abbia esattamente quattro alternative e che la risposta corretta sia valida. Il dataset è incorporato in `_site/quiz.html` durante la build, senza richiesta di rete, ma resta un file indipendente nei sorgenti.
 
-**Verifica:** i test automatici generano un piccolo insieme temporaneo di domande durante l'esecuzione, senza salvarlo né pubblicarlo nel sito. Il motore oggi può ripetere domande quando il numero selezionato supera le domande realmente disponibili: questa funzionalità andrà valutata prima di usare i quiz come verifiche scolastiche.
+**Verifica:** i test automatici generano un piccolo insieme temporaneo di domande durante l'esecuzione, senza salvarlo né pubblicarlo nel sito. Il motore può ripetere domande se la quantità richiesta supera quella disponibile; con 100 quesiti per livello e sessioni da 1 a 30, i quiz correnti di Termologia estraggono domande distinte. La categoria senza quesiti resta disabilitata.
 
 ## Struttura
 
@@ -69,12 +69,13 @@ La build controlla che gli ID siano unici, che la categoria sia valida, che ogni
 - `scripts/strings_site.py`: integrazione della pagina nel portale.
 - `scripts/build_pages.py`: copia degli asset nel sito costruito.
 
-L'interfaccia può essere pubblicata anche senza quesiti. L'aggiunta di domande reali richiederà l'archivio quiz/domande.json e una nuova build.
+La build incorpora l’archivio corrente senza richieste di rete durante il quiz. Le modifiche future richiedono revisione didattica e il workflow di anteprima e pubblicazione previsto dal progetto.
 
 ## Verifica
 
 ```sh
 python3 scripts/build_pages.py
 python3 -m unittest discover -s scripts -p 'test_*.py'
+python3 scripts/verify_quiz_browser.py
 ```
 

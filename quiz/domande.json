@@ -1,0 +1,4204 @@
+{
+  "questions": [
+    {
+      "id": "termo-001",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Quale descrizione identifica un sistema termodinamico chiuso?",
+      "options": [
+        "Può scambiare materia, ma non energia, con l’ambiente.",
+        "Può scambiare energia, ma non materia, con l’ambiente.",
+        "Non può scambiare né materia né energia con l’ambiente.",
+        "Può scambiare sia materia sia energia con l’ambiente."
+      ],
+      "correct": 1,
+      "explanation": "Un sistema chiuso conserva la materia entro il confine, ma può scambiare energia. L’assenza di entrambi gli scambi identifica invece un sistema isolato."
+    },
+    {
+      "id": "termo-002",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Due camere rigide sono collegate da una valvola: una contiene un gas, l’altra è vuota. Si apre la valvola senza perdite e mantenendo costante la temperatura. Dopo che il gas si è distribuito, che cosa è cambiato?",
+      "options": [
+        "Le particelle sono diventate più grandi e occupano entrambe le camere.",
+        "Sono comparse nuove particelle che riempiono la seconda camera.",
+        "Le particelle sono rimaste nella prima camera, alla stessa distanza media.",
+        "Le stesse particelle occupano entrambe le camere, con distanza media maggiore."
+      ],
+      "correct": 3,
+      "explanation": "Il gas si distribuisce nel volume disponibile. Il numero di particelle resta uguale, ma il volume occupato aumenta: cresce la loro distanza media, non la loro dimensione."
+    },
+    {
+      "id": "termo-003",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Un blocco di massa 0,50 kg ha calore specifico costante c = 400 J/(kg · K). Assorbe calore e la sua temperatura aumenta di 10 K, senza cambiamenti di stato. Quanto calore assorbe?",
+      "options": [
+        "2000 J",
+        "200 J",
+        "20 000 J",
+        "4000 J"
+      ],
+      "correct": 0,
+      "explanation": "Q = m · c · ΔT = 0,50 · 400 · 10 J = 2000 J, cioè 2,0 kJ."
+    },
+    {
+      "id": "termo-004",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Quale confronto tra evaporazione ed ebollizione è corretto?",
+      "options": [
+        "L’evaporazione forma bolle anche all’interno; l’ebollizione avviene alla superficie anche sotto la temperatura di ebollizione.",
+        "L’evaporazione e l’ebollizione avvengono entrambe a qualsiasi temperatura, indipendentemente dalla pressione esterna.",
+        "L’evaporazione avviene alla superficie anche sotto la temperatura di ebollizione; l’ebollizione forma bolle anche all’interno.",
+        "L’evaporazione avviene solo alla temperatura di ebollizione; l’ebollizione avviene alla superficie senza formare bolle interne."
+      ],
+      "correct": 2,
+      "explanation": "L’evaporazione può avvenire dalla superficie anche sotto la temperatura di ebollizione. Nell’ebollizione si formano bolle di vapore anche all’interno; la temperatura a cui avviene dipende dalla pressione."
+    },
+    {
+      "id": "termo-005",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Un oggetto di metallo e uno di legno sono entrambi a 40 °C. La pelle è inizialmente a 32 °C. Nei primi istanti di contatto il metallo trasferisce energia alla pelle più rapidamente del legno. Quale previsione è corretta?",
+      "options": [
+        "Il metallo può sembrare più caldo, pur avendo la stessa temperatura del legno.",
+        "Il metallo deve avere una temperatura maggiore, perché trasferisce energia più rapidamente.",
+        "Il metallo può sembrare più freddo, perché un buon conduttore sottrae sempre energia alla pelle.",
+        "I due oggetti devono dare la stessa sensazione, perché hanno la stessa temperatura."
+      ],
+      "correct": 0,
+      "explanation": "Entrambi cedono energia alla pelle, inizialmente più fredda. Il trasferimento più rapido dal metallo può farlo sembrare più caldo: la sensazione non misura direttamente la temperatura."
+    },
+    {
+      "id": "termo-006",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Una barra lunga 2,0 m a 20 °C viene portata a 70 °C ed è libera di dilatarsi. Assumi α = 1,2 · 10⁻⁵ K⁻¹ costante. Di quanto aumenta la lunghezza?",
+      "options": [
+        "0,12 mm",
+        "1,2 mm",
+        "12 mm",
+        "120 mm"
+      ],
+      "correct": 1,
+      "explanation": "ΔT = 70 °C − 20 °C = 50 K. ΔL = 1,2 · 10⁻⁵ · 2,0 · 50 m = 1,2 · 10⁻³ m = 1,2 mm."
+    },
+    {
+      "id": "termo-007",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Per una parete piana omogenea, con conducibilità costante e trasferimento perpendicolare alle facce, quale scelta permette di applicare il modello di Fourier con profilo lineare della temperatura nello spessore?",
+      "options": [
+        "Assumere regime stazionario e assenza di sorgenti interne; usare sempre le temperature dell’aria ai due lati.",
+        "Trascurare le sorgenti interne; usare le temperature delle facce anche mentre la parete accumula energia.",
+        "Assumere regime stazionario; usare le temperature delle facce anche con produzione di energia dentro la parete.",
+        "Assumere regime stazionario e assenza di sorgenti interne; usare le temperature delle due facce."
+      ],
+      "correct": 3,
+      "explanation": "Il modello lineare richiede regime stazionario e assenza di sorgenti interne, oltre alle condizioni già date. ΔT riguarda le due facce della parete: gli scambi fra aria e superfici possono rendere diverse le temperature dell’aria."
+    },
+    {
+      "id": "termo-008",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Un sensore caldo è sospeso con supporti solidi dentro una custodia più fredda. Nell’intercapedine c’è il vuoto. Si rivestono soltanto le superfici affacciate con uno strato a bassa emissività infrarossa, lasciando invariati i supporti. Confrontando le due configurazioni alle stesse temperature, che cosa ci si aspetta?",
+      "options": [
+        "La conduzione nei supporti diminuisce; lo scambio radiativo resta uguale; la convezione è assente.",
+        "La convezione nell’intercapedine diminuisce; lo scambio radiativo e la conduzione nei supporti restano uguali.",
+        "Lo scambio radiativo diminuisce; la conduzione nei supporti resta uguale; la convezione è assente.",
+        "Lo scambio radiativo si annulla; la conduzione nei supporti diminuisce; la convezione resta presente."
+      ],
+      "correct": 2,
+      "explanation": "La bassa emissività riduce lo scambio radiativo fra le superfici. Nel vuoto non c’è fluido che trasporti energia per convezione. I supporti solidi restano una via di conduzione: il loro contributo non cambia nel confronto alle stesse temperature."
+    },
+    {
+      "id": "termo-009",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "In un recipiente si mescolano 0,20 kg d’acqua a 60 °C e 0,10 kg di ghiaccio a 0 °C. Trascurando recipiente e scambi con l’ambiente, quale temperatura di equilibrio si raggiunge? Considera acqua pura a pressione atmosferica, c = 4200 J/(kg · K) costante e calore latente di fusione L = 334 kJ/kg.",
+      "options": [
+        "Circa 13,5 °C",
+        "Circa 20,2 °C",
+        "Circa 40 °C",
+        "0 °C"
+      ],
+      "correct": 0,
+      "explanation": "Raffreddandosi fino a 0 °C, l’acqua può cedere 0,20 · 4200 · 60 J = 50,4 kJ. Per fondere il ghiaccio servono 0,10 · 334 kJ = 33,4 kJ: fonde tutto. Restano 17,0 kJ per riscaldare 0,30 kg d’acqua. Ogni kelvin richiede 0,30 · 4200 J = 1260 J: l’aumento è circa 13,5 K e T finale è circa 13,5 °C."
+    },
+    {
+      "id": "termo-010",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "La capacità termica di un corpo esprime l’energia da trasferire come calore per aumentare di un kelvin la temperatura. Qual è la sua unità?",
+      "options": [
+        "W/K",
+        "J/kg",
+        "J/(kg · K)",
+        "J/K"
+      ],
+      "correct": 3,
+      "explanation": "La capacità termica C riguarda il corpo intero e si misura in J/K. J/(kg · K) è invece l’unità del calore specifico."
+    },
+    {
+      "id": "termo-011",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Come si chiama il passaggio diretto da gas a solido?",
+      "options": [
+        "Brinamento",
+        "Sublimazione",
+        "Condensazione",
+        "Solidificazione"
+      ],
+      "correct": 0,
+      "explanation": "Il brinamento porta direttamente dal gas al solido. La sublimazione è il passaggio inverso; condensazione e solidificazione coinvolgono lo stato liquido."
+    },
+    {
+      "id": "termo-012",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Una pompa fa circolare un liquido che trasporta energia fra due zone. Come si classifica questo trasporto?",
+      "options": [
+        "Convezione forzata, perché il moto è prodotto dalla pompa.",
+        "Conduzione, perché si muove un liquido.",
+        "Convezione naturale, perché il liquido trasporta energia.",
+        "Irraggiamento, perché l’energia cambia zona."
+      ],
+      "correct": 0,
+      "explanation": "La materia in movimento trasporta energia: è convezione. Poiché il movimento è imposto da una pompa, si parla di convezione forzata."
+    },
+    {
+      "id": "termo-013",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Due masse diverse di ghiaccio puro stanno fondendo a pressione atmosferica costante. Quella maggiore deve raggiungere una temperatura di fusione più alta?",
+      "options": [
+        "No: per fondere la massa maggiore serve meno energia.",
+        "No: cambia l’energia necessaria, non la temperatura di fusione.",
+        "Sì: una massa maggiore ha sempre temperatura maggiore.",
+        "Sì: la temperatura di fusione cresce con la massa."
+      ],
+      "correct": 1,
+      "explanation": "Nelle stesse condizioni la temperatura di fusione è la stessa. Una massa maggiore richiede invece più energia per completare il passaggio di stato."
+    },
+    {
+      "id": "termo-014",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Due pannelli opachi ricevono la stessa energia radiante. Il primo ne riflette una frazione maggiore. Quale confronto riguarda l’energia assorbita?",
+      "options": [
+        "Entrambi ne assorbono la stessa quantità.",
+        "Il primo non ne assorbe mai.",
+        "Il primo ne assorbe di meno.",
+        "Il primo ne assorbe di più."
+      ],
+      "correct": 2,
+      "explanation": "Un pannello opaco non trasmette la radiazione considerata: l’energia incidente si divide fra riflessa e assorbita. Aumentando la quota riflessa, diminuisce quella assorbita."
+    },
+    {
+      "id": "termo-015",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Una bottiglia fredda viene avvolta in un materiale isolante e lasciata in una stanza più calda. Qual è l’effetto dell’involucro?",
+      "options": [
+        "Impedisce alla bottiglia di possedere energia interna.",
+        "Fa uscire più rapidamente energia dalla bevanda.",
+        "Rallenta l’ingresso di energia dall’ambiente.",
+        "Produce energia che raffredda la bevanda."
+      ],
+      "correct": 2,
+      "explanation": "L’energia tende a passare dall’ambiente più caldo alla bottiglia. L’isolante rallenta questo trasferimento e quindi il riscaldamento."
+    },
+    {
+      "id": "termo-016",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Una quantità d’acqua viene divisa in due porzioni uguali, alla stessa temperatura iniziale. Rispetto all’acqua prima della divisione, come cambiano le proprietà di ciascuna porzione?",
+      "options": [
+        "La capacità termica si dimezza e il calore specifico resta uguale.",
+        "Capacità termica e calore specifico si dimezzano.",
+        "La capacità termica resta uguale e il calore specifico si dimezza.",
+        "Capacità termica e calore specifico restano uguali."
+      ],
+      "correct": 0,
+      "explanation": "C = m · c: dimezzare la massa dimezza C. Il calore specifico c riguarda il materiale e resta lo stesso nelle condizioni date."
+    },
+    {
+      "id": "termo-017",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Una sonda indica 25 °C. Qual è la stessa temperatura in kelvin?",
+      "options": [
+        "298,15 K",
+        "248,15 K",
+        "25 K",
+        "273,15 K"
+      ],
+      "correct": 0,
+      "explanation": "Per la temperatura assoluta si aggiunge 273,15 al valore Celsius: 25 + 273,15 = 298,15 K."
+    },
+    {
+      "id": "termo-018",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Quanta energia serve per fondere completamente 0,050 kg di ghiaccio puro già a 0 °C? Usa L = 334 kJ/kg e pressione atmosferica costante.",
+      "options": [
+        "167 kJ",
+        "0 kJ",
+        "6,68 kJ",
+        "16,7 kJ"
+      ],
+      "correct": 3,
+      "explanation": "Q = m · L = 0,050 · 334 kJ = 16,7 kJ. La temperatura iniziale è già quella di fusione: serve il solo contributo latente."
+    },
+    {
+      "id": "termo-019",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Un dispositivo trasferisce energia termica con potenza costante di 800 W per 180 s. Quanta energia trasferisce?",
+      "options": [
+        "4,44 kJ",
+        "980 kJ",
+        "0,144 kJ",
+        "144 kJ"
+      ],
+      "correct": 3,
+      "explanation": "Q = P · Δt = 800 · 180 J = 144 000 J = 144 kJ."
+    },
+    {
+      "id": "termo-020",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Quale affermazione distingue correttamente densità e viscosità di un liquido?",
+      "options": [
+        "La densità è massa per volume; la viscosità descrive la resistenza allo scorrimento.",
+        "Una densità maggiore implica sempre una viscosità maggiore.",
+        "La densità misura la resistenza allo scorrimento; la viscosità la massa per volume.",
+        "La viscosità è la massa totale del liquido; la densità dipende solo dal recipiente."
+      ],
+      "correct": 0,
+      "explanation": "La densità collega massa e volume. La viscosità riguarda la resistenza allo scorrimento: una proprietà non determina automaticamente l’altra."
+    },
+    {
+      "id": "termo-021",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Due superfici alla stessa temperatura hanno finiture diverse e appaiono differenti in una termografia. Quale affermazione è corretta?",
+      "options": [
+        "La superficie meno luminosa ha smesso di emettere radiazione.",
+        "La termocamera rileva soltanto luce visibile riflessa.",
+        "Emissione e riflessione possono produrre segnali diversi anche alla stessa temperatura.",
+        "La superficie più luminosa è necessariamente più calda."
+      ],
+      "correct": 2,
+      "explanation": "Una termocamera rileva radiazione infrarossa. Finiture diverse modificano emissione e riflessione: segnali differenti non dimostrano da soli temperature reali differenti."
+    },
+    {
+      "id": "termo-022",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "A e B sono ciascuno in equilibrio termico con C. Quale conclusione esprime il principio zero?",
+      "options": [
+        "A e B possiedono la stessa energia interna.",
+        "A e B hanno la stessa temperatura.",
+        "Fra A e C non può mai essere stata trasferita energia.",
+        "A e B hanno necessariamente la stessa massa."
+      ],
+      "correct": 1,
+      "explanation": "Il principio zero permette di concludere che A e B sono in equilibrio termico fra loro e quindi hanno la stessa temperatura. Non impone uguaglianza di massa o energia interna."
+    },
+    {
+      "id": "termo-023",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "In un recipiente l’acqua dolce è inizialmente a 2 °C. Si riscalda lentamente solo lo strato superiore fino a 4 °C. A pressione atmosferica, quale tendenza ha quello strato rispetto all’acqua rimasta a 2 °C?",
+      "options": [
+        "Resta alla stessa densità perché è ancora liquido.",
+        "Diventa più denso e tende a scendere.",
+        "Diventa meno denso e tende a salire.",
+        "Si solidifica perché la densità aumenta."
+      ],
+      "correct": 1,
+      "explanation": "Tra 2 e 4 °C l’acqua si contrae e diventa più densa. Lo strato superiore tende quindi a scendere: in questo intervallo non vale la previsione generica che il riscaldamento renda sempre meno denso un fluido."
+    },
+    {
+      "id": "termo-024",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "In un recipiente sigillato una parte del vapore condensa sulle pareti interne. Il sistema comprende recipiente e tutto il contenuto. La condensazione rende il sistema aperto?",
+      "options": [
+        "Sì, perché il vapore scompare dal gas.",
+        "No, perché il cambiamento avviene all’interno senza materia che attraversi il confine.",
+        "Sì, perché le gocce trasportano energia alle pareti.",
+        "No, perché un sistema con pareti non può mai essere aperto."
+      ],
+      "correct": 1,
+      "explanation": "La materia passa dal gas al liquido restando all’interno. La classificazione dipende dagli scambi attraverso il confine scelto, non dai cambiamenti interni."
+    },
+    {
+      "id": "termo-025",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "In una prova a pressione costante l’acqua pura bolle a 90 °C. Si continua a fornire energia mentre rimangono sia liquido sia vapore in ebollizione. Che cosa si prevede?",
+      "options": [
+        "La temperatura scende perché ogni vaporizzazione raffredda sempre il liquido.",
+        "La temperatura resta circa 90 °C perché non viene più assorbita energia.",
+        "La temperatura resta circa 90 °C e aumenta la massa trasformata in vapore.",
+        "La temperatura deve salire fino a 100 °C prima di produrre altro vapore."
+      ],
+      "correct": 2,
+      "explanation": "Alla pressione della prova, 90 °C è la temperatura di ebollizione. L’energia aggiunta sostiene la vaporizzazione finché rimane liquido, senza imporre un aumento fino a 100 °C."
+    },
+    {
+      "id": "termo-026",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Una sonda asciutta a 20 °C si trova in aria a 35 °C. Una ventola rinnova più rapidamente l’aria sulla sonda. Considerando soltanto la convezione, quale effetto è coerente?",
+      "options": [
+        "La sonda deve raggiungere una temperatura inferiore a 20 °C.",
+        "La sonda non scambia energia, perché manca evaporazione.",
+        "La sonda può riscaldarsi più rapidamente verso la temperatura dell’aria.",
+        "La sonda viene raffreddata, perché ogni ventola produce aria fredda."
+      ],
+      "correct": 2,
+      "explanation": "L’aria è più calda della sonda e le cede energia. Il ricambio può rendere più rapido lo scambio: la ventola non ne inverte il verso."
+    },
+    {
+      "id": "termo-027",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Una lastra piana omogenea ha λ = 0,030 W/(m · K), area 2,0 m² e spessore 4,0 cm. Le facce sono a 30 °C e 10 °C. In regime stazionario e senza sorgenti interne, quale potenza attraversa la lastra?",
+      "options": [
+        "0,30 W",
+        "30 W",
+        "300 W",
+        "3,0 W"
+      ],
+      "correct": 1,
+      "explanation": "Lo spessore è 0,040 m e ΔT = 20 K. Il prodotto λ · A · ΔT vale 1,2 W · m. Ripartito sullo spessore di 0,040 m dà una potenza di 30 W."
+    },
+    {
+      "id": "termo-028",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Si mescolano 0,15 kg d’acqua a 80 °C e 0,45 kg d’acqua a 20 °C. Trascurando recipiente e dispersioni e assumendo uguale calore specifico costante, qual è la temperatura finale?",
+      "options": [
+        "65 °C",
+        "50 °C",
+        "35 °C",
+        "40 °C"
+      ],
+      "correct": 2,
+      "explanation": "Il bilancio pesa le temperature con le masse: i contributi numerici sono 0,15 · 80 = 12 e 0,45 · 20 = 9. La loro somma 21, distribuita sulla massa totale 0,60 kg, dà 35 °C."
+    },
+    {
+      "id": "termo-029",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Un corpo inizialmente a 15 °C assorbe 3,0 kJ senza cambiare stato. La sua capacità termica costante è 120 J/K. Quale temperatura finale raggiunge?",
+      "options": [
+        "−10 °C",
+        "375 °C",
+        "25 °C",
+        "40 °C"
+      ],
+      "correct": 3,
+      "explanation": "3,0 kJ corrispondono a 3000 J. Ogni kelvin richiede 120 J, quindi l’aumento è 25 K. La temperatura finale è 15 °C + 25 °C = 40 °C."
+    },
+    {
+      "id": "termo-030",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Una tabella riporta il calore specifico di un gas a pressione costante. Quale uso del dato è giustificato?",
+      "options": [
+        "Usarlo per una vaporizzazione a temperatura costante al posto del calore latente.",
+        "Usarlo per qualsiasi trasformazione del gas purché la massa sia nota.",
+        "Usarlo per un riscaldamento a pressione costante nell’intervallo di validità indicato.",
+        "Usarlo a volume costante perché il calore specifico dipende solo dalla sostanza."
+      ],
+      "correct": 2,
+      "explanation": "Per i gas il calore specifico dipende dalle condizioni della trasformazione. Il valore a pressione costante non si trasferisce automaticamente al caso a volume costante e non sostituisce un calore latente."
+    },
+    {
+      "id": "termo-031",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Nella formula dello scambio radiativo netto con un ambiente a temperatura uniforme compare la differenza fra T⁴ e T_amb⁴. Se sul corpo arriva anche radiazione solare diretta, come va trattata?",
+      "options": [
+        "Va sostituita alla potenza emessa, che diventa nulla alla luce del Sole.",
+        "Va considerata separatamente, contando soltanto la frazione effettivamente assorbita.",
+        "È già inclusa automaticamente nella temperatura dell’aria circostante.",
+        "Va aggiunta tutta, compresa la frazione riflessa, alla potenza assorbita."
+      ],
+      "correct": 1,
+      "explanation": "La formula descrive lo scambio con le superfici circostanti a temperatura uniforme. Il contributo solare diretto va trattato a parte e solo la frazione assorbita entra nell’energia acquistata dal corpo."
+    },
+    {
+      "id": "termo-032",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Perché non si può applicare automaticamente al vetro il modello della fusione a temperatura costante di un cristallo puro?",
+      "options": [
+        "Il vetro non assorbe energia mentre viene riscaldato.",
+        "Il vetro è già liquido perché non possiede ordine periodico a grande distanza.",
+        "Ogni solido cristallino fonde senza ricevere energia.",
+        "Il vetro è amorfo e si ammorbidisce gradualmente, pur essendo un solido."
+      ],
+      "correct": 3,
+      "explanation": "La struttura amorfa non rende il vetro un liquido. Il suo ammorbidimento graduale non corrisponde alla fusione netta descritta per un cristallo puro nelle condizioni date."
+    },
+    {
+      "id": "termo-033",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Tre corpi hanno temperature iniziali di 10 °C, 40 °C e 70 °C e capacità termiche rispettivamente C, C e 2C. Sono posti in contatto in un sistema isolato, senza cambiamenti di stato. Quello inizialmente a 40 °C si riscalda o si raffredda all’equilibrio finale?",
+      "options": [
+        "Non si può stabilire senza conoscere le conducibilità dei tre corpi.",
+        "Resta a 40 °C, perché questa è la media delle temperature estreme.",
+        "Si riscalda, perché la temperatura finale è pesata maggiormente dal corpo caldo.",
+        "Si raffredda, perché il corpo a 10 °C ha il maggiore salto termico."
+      ],
+      "correct": 2,
+      "explanation": "A 40 °C il corpo freddo richiederebbe C · 30 K, mentre quello caldo cederebbe 2C · 30 K. Resta energia per portare l’equilibrio sopra 40 °C: il corpo intermedio si riscalda. Le conducibilità influenzano i tempi, non il bilancio finale nelle ipotesi date."
+    },
+    {
+      "id": "termo-034",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Si costruisce un termometro a liquido. Nell’intervallo considerato il liquido e il volume interno del recipiente hanno lo stesso coefficiente di dilatazione volumica. Riscaldandoli uniformemente, che cosa accade al livello rispetto alle tacche solidali al recipiente?",
+      "options": [
+        "Scende, perché il recipiente si dilata mentre il liquido resta invariato.",
+        "Sale come in ogni termometro, perché il liquido si dilata.",
+        "Sale il doppio, perché si sommano le dilatazioni del liquido e del recipiente.",
+        "Resta circa sulla stessa tacca, perché manca la dilatazione relativa."
+      ],
+      "correct": 3,
+      "explanation": "Il liquido e lo spazio che lo contiene crescono della stessa frazione. Nel modello non compare volume in eccesso rispetto alle tacche: la sola dilatazione del liquido non basta a produrre una lettura variabile."
+    },
+    {
+      "id": "termo-035",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "L’aria è più calda della pelle bagnata. Accendendo una ventola aumentano sia lo scambio convettivo sia l’evaporazione. Senza conoscere l’entità dei due contributi, che cosa si può concludere?",
+      "options": [
+        "La pelle si riscalda certamente, perché l’aria è più calda.",
+        "La convezione apporta energia e l’evaporazione la sottrae; il risultato complessivo resta da valutare.",
+        "Nessun trasferimento avviene, perché i due effetti sono opposti.",
+        "La pelle si raffredda certamente, perché aumenta l’evaporazione."
+      ],
+      "correct": 1,
+      "explanation": "L’aria più calda cede energia alla pelle per convezione. L’evaporazione sottrae energia. Sapere che entrambi gli effetti aumentano non permette di stabilire quale prevalga."
+    },
+    {
+      "id": "termo-036",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "In un lago d’acqua dolce sufficientemente profondo si forma uno strato di ghiaccio superficiale. Quale spiegazione distingue correttamente il galleggiamento del ghiaccio dal suo effetto sull’acqua sottostante?",
+      "options": [
+        "Il ghiaccio è meno denso dell’acqua liquida e galleggia; lo strato superficiale rallenta gli scambi termici.",
+        "Il ghiaccio è più denso e galleggia; produce energia che mantiene liquida l’acqua sottostante.",
+        "Il ghiaccio galleggia perché è un isolante; la densità non influisce sulla sua posizione.",
+        "Il ghiaccio galleggia perché cede calore; poi impedisce completamente ogni dispersione."
+      ],
+      "correct": 0,
+      "explanation": "La minore densità del ghiaccio spiega il galleggiamento. Il rallentamento degli scambi aiuta a conservare acqua liquida sotto lo strato, senza annullare le perdite o produrre calore."
+    },
+    {
+      "id": "termo-037",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Uno strato piano ha λ = 0,050 W/(m · K), area 0,20 m², spessore 0,020 m e facce mantenute a 40 °C e 0 °C. In regime stazionario tutta l’energia condotta fonde ghiaccio già a 0 °C. Quanta massa fonde in 300 s? Usa L = 334 kJ/kg.",
+      "options": [
+        "Circa 6,0 g",
+        "Circa 18 g",
+        "Circa 60 g",
+        "Circa 180 g"
+      ],
+      "correct": 1,
+      "explanation": "Il prodotto λ · A · ΔT vale 0,40 W · m: sullo spessore di 0,020 m corrisponde a P = 20 W. In 300 s passano 6000 J = 6,0 kJ. Ogni grammo richiede 0,334 kJ per fondere: si ottengono circa 18 g."
+    },
+    {
+      "id": "termo-038",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Quanta energia serve per portare 0,10 kg di ghiaccio da −10 °C ad acqua liquida a 20 °C, a pressione atmosferica e senza dispersioni? Usa c_ghiaccio = 2100 J/(kg · K), c_acqua = 4200 J/(kg · K) e L = 334 kJ/kg.",
+      "options": [
+        "12,6 kJ",
+        "43,9 kJ",
+        "41,8 kJ",
+        "33,4 kJ"
+      ],
+      "correct": 1,
+      "explanation": "Per scaldare il ghiaccio fino a 0 °C servono 0,10 · 2100 · 10 J = 2,1 kJ. La fusione richiede 33,4 kJ. Scaldare l’acqua fino a 20 °C richiede 0,10 · 4200 · 20 J = 8,4 kJ. Totale: 43,9 kJ."
+    },
+    {
+      "id": "termo-039",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Un blocco di massa 0,20 kg e calore specifico 900 J/(kg · K), a 80 °C, viene immerso in 0,10 kg d’acqua a 20 °C dentro una tazza a 20 °C con capacità termica 120 J/K. Usa c_acqua = 4200 J/(kg · K). Senza dispersioni o cambiamenti di stato, qual è la temperatura finale?",
+      "options": [
+        "35 °C",
+        "38 °C",
+        "60 °C",
+        "50 °C"
+      ],
+      "correct": 0,
+      "explanation": "Le capacità termiche sono 180 J/K per il blocco, 420 J/K per l’acqua e 120 J/K per la tazza. Il blocco cede 180 · (80 − T_finale) J; acqua e tazza assorbono insieme 540 · (T_finale − 20) J. Il bilancio dà 720 · T_finale = 25 200, quindi T_finale = 35 °C."
+    },
+    {
+      "id": "termo-040",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Scelto come sistema il solo liquido in un bicchiere, che cosa appartiene all’ambiente?",
+      "options": [
+        "Il bicchiere e tutto ciò che è esterno al liquido.",
+        "Soltanto l’aria della stanza.",
+        "Anche le molecole che costituiscono il liquido.",
+        "Soltanto gli oggetti più freddi del liquido."
+      ],
+      "correct": 0,
+      "explanation": "L’ambiente comprende tutto ciò che è esterno al sistema scelto, incluso il recipiente."
+    },
+    {
+      "id": "termo-041",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Il confine di un sistema termodinamico deve essere una parete materiale?",
+      "options": [
+        "No: può essere una superficie immaginaria.",
+        "Sì: deve essere sempre una parete rigida.",
+        "No: un sistema non ha alcun confine.",
+        "Sì: deve impedire ogni scambio di energia."
+      ],
+      "correct": 0,
+      "explanation": "Il confine delimita la parte studiata e può essere materiale o immaginario."
+    },
+    {
+      "id": "termo-042",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Quali scambi con l’ambiente sono assenti in un sistema isolato?",
+      "options": [
+        "Solo gli scambi di energia.",
+        "Solo gli scambi di materia.",
+        "Solo gli scambi con corpi più freddi.",
+        "Sia gli scambi di materia sia quelli di energia."
+      ],
+      "correct": 3,
+      "explanation": "Isolato significa che né materia né energia attraversano il confine."
+    },
+    {
+      "id": "termo-043",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Quale simbolo si usa nel progetto per la temperatura?",
+      "options": [
+        "T",
+        "c",
+        "Q",
+        "t"
+      ],
+      "correct": 0,
+      "explanation": "T indica la temperatura; t il tempo, Q il calore e c il calore specifico."
+    },
+    {
+      "id": "termo-044",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Quale temperatura corrisponde allo zero assoluto?",
+      "options": [
+        "0 °C",
+        "0 K",
+        "273,15 K",
+        "100 °C"
+      ],
+      "correct": 1,
+      "explanation": "Lo zero assoluto è 0 K, equivalente a −273,15 °C."
+    },
+    {
+      "id": "termo-045",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Due corpi sono in equilibrio termico quando hanno la stessa:",
+      "options": [
+        "Capacità termica.",
+        "Massa.",
+        "Energia interna totale.",
+        "Temperatura."
+      ],
+      "correct": 3,
+      "explanation": "L’equilibrio termico richiede uguaglianza di temperatura, non delle quantità di materia o di energia."
+    },
+    {
+      "id": "termo-046",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Nel linguaggio della fisica, che cosa indica il calore?",
+      "options": [
+        "La temperatura di un corpo espressa in joule.",
+        "Energia trasferita a causa di una differenza di temperatura.",
+        "Tutta l’energia contenuta in un corpo caldo.",
+        "La quantità di materia che si riscalda."
+      ],
+      "correct": 1,
+      "explanation": "Il calore Q descrive un trasferimento di energia, non una sostanza contenuta nei corpi."
+    },
+    {
+      "id": "termo-047",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Quale energia contribuisce all’energia interna di un corpo?",
+      "options": [
+        "Solo l’energia dovuta all’altezza del corpo sul terreno.",
+        "L’energia del moto microscopico delle sue particelle.",
+        "Solo l’energia della luce visibile che riflette.",
+        "Solo l’energia del moto del corpo nel suo insieme."
+      ],
+      "correct": 1,
+      "explanation": "L’energia interna comprende energie microscopiche cinetiche e di interazione."
+    },
+    {
+      "id": "termo-048",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Il calore specifico riferisce l’energia necessaria per un aumento di 1 K a quale quantità di materiale?",
+      "options": [
+        "Un corpo di qualsiasi massa.",
+        "1 kg.",
+        "Una singola molecola.",
+        "1 m³."
+      ],
+      "correct": 1,
+      "explanation": "Il riferimento di massa nella definizione di c è un chilogrammo."
+    },
+    {
+      "id": "termo-049",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Il coefficiente α di dilatazione lineare descrive la variazione relativa di quale grandezza?",
+      "options": [
+        "Massa.",
+        "Lunghezza.",
+        "Energia interna.",
+        "Calore assorbito."
+      ],
+      "correct": 1,
+      "explanation": "α collega la variazione di lunghezza alla lunghezza iniziale e alla variazione di temperatura."
+    },
+    {
+      "id": "termo-050",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "A pressione atmosferica, vicino a quale temperatura l’acqua liquida ha volume minimo a parità di massa?",
+      "options": [
+        "4 °C",
+        "0 °C",
+        "20 °C",
+        "100 °C"
+      ],
+      "correct": 0,
+      "explanation": "Il minimo di volume, e quindi il massimo di densità, si trova intorno a 4 °C."
+    },
+    {
+      "id": "termo-051",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Un solido ordinario conserva generalmente:",
+      "options": [
+        "Il volume ma non la forma.",
+        "Né forma né volume propri.",
+        "La forma ma non il volume.",
+        "Forma e volume propri."
+      ],
+      "correct": 3,
+      "explanation": "Nel modello introduttivo un solido conserva entrambi, pur potendo deformarsi o dilatarsi."
+    },
+    {
+      "id": "termo-052",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Quale descrizione riguarda un liquido?",
+      "options": [
+        "Conserva una forma propria anche quando viene versato.",
+        "Occupa sempre tutto il recipiente, qualunque sia il volume.",
+        "Ha volume proprio e prende la forma della parte di recipiente occupata.",
+        "È formato da particelle immobili."
+      ],
+      "correct": 2,
+      "explanation": "Le particelle vicine possono scorrere: il liquido cambia forma conservando circa il volume."
+    },
+    {
+      "id": "termo-053",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Che cosa caratterizza un solido cristallino?",
+      "options": [
+        "L’assenza di ogni movimento delle particelle.",
+        "La presenza esclusiva di particelle lontane fra loro.",
+        "Un ordine delle particelle che si ripete nello spazio.",
+        "La capacità di occupare tutto il recipiente."
+      ],
+      "correct": 2,
+      "explanation": "L’ordine periodico distingue la struttura cristallina; le particelle possono comunque vibrare."
+    },
+    {
+      "id": "termo-054",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Quale caratteristica distingue un plasma da un gas formato prevalentemente da particelle neutre?",
+      "options": [
+        "L’assenza di qualunque particella.",
+        "La conservazione di una forma propria rigida.",
+        "La presenza di elettroni liberi e ioni.",
+        "La presenza di particelle completamente immobili."
+      ],
+      "correct": 2,
+      "explanation": "Nel plasma una parte della materia è ionizzata, con cariche libere."
+    },
+    {
+      "id": "termo-055",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Durante la solidificazione, una sostanza:",
+      "options": [
+        "Non scambia mai energia.",
+        "Cede energia all’ambiente.",
+        "Assorbe necessariamente energia dall’ambiente.",
+        "Si trasforma in una sostanza chimica diversa."
+      ],
+      "correct": 1,
+      "explanation": "Nel passaggio da liquido a solido viene ceduta energia."
+    },
+    {
+      "id": "termo-056",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Quale trasformazione si chiama condensazione?",
+      "options": [
+        "Da liquido a gas.",
+        "Da gas direttamente a solido.",
+        "Da solido a liquido.",
+        "Da gas a liquido."
+      ],
+      "correct": 3,
+      "explanation": "La condensazione forma liquido a partire dal gas; il passaggio diretto a solido è brinamento."
+    },
+    {
+      "id": "termo-057",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "In quali unità si misura il calore latente specifico L?",
+      "options": [
+        "J/K",
+        "W",
+        "J/kg",
+        "K⁻¹"
+      ],
+      "correct": 2,
+      "explanation": "L è l’energia per unità di massa necessaria al cambiamento di stato nelle condizioni considerate."
+    },
+    {
+      "id": "termo-058",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Nella conduzione attraverso una barra solida, il trasferimento richiede che la barra si sposti complessivamente?",
+      "options": [
+        "Sì: gli atomi devono fluire come un liquido.",
+        "No: l’energia passa attraverso interazioni microscopiche.",
+        "No: avviene soltanto se manca materia.",
+        "Sì: la barra deve muoversi dalla zona calda a quella fredda."
+      ],
+      "correct": 1,
+      "explanation": "La conduzione trasferisce energia senza trasporto complessivo della barra."
+    },
+    {
+      "id": "termo-059",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "A parità di geometria e differenza di temperatura, un materiale con conducibilità maggiore:",
+      "options": [
+        "Trasferisce una potenza termica maggiore.",
+        "Blocca del tutto il trasferimento.",
+        "Trasferisce sempre la stessa potenza.",
+        "Trasferisce una potenza minore."
+      ],
+      "correct": 0,
+      "explanation": "Nella legge di Fourier la potenza è direttamente proporzionale alla conducibilità λ."
+    },
+    {
+      "id": "termo-060",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Una potenza termica di 1 W corrisponde a:",
+      "options": [
+        "1 K di aumento ogni secondo per ogni corpo.",
+        "1 J trasferito ogni secondo.",
+        "1 kg riscaldato ogni secondo.",
+        "1 J trasferito ogni minuto."
+      ],
+      "correct": 1,
+      "explanation": "Il watt misura la rapidità di trasferimento dell’energia: 1 W = 1 J/s."
+    },
+    {
+      "id": "termo-061",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Nella convezione, che cosa trasporta energia da una zona all’altra?",
+      "options": [
+        "Materia in movimento.",
+        "Il vuoto privo di materia.",
+        "Un solido che resta necessariamente indeformabile.",
+        "Solo radiazione visibile."
+      ],
+      "correct": 0,
+      "explanation": "Un fluido in movimento porta con sé energia interna."
+    },
+    {
+      "id": "termo-062",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Nella convezione naturale ordinaria in una stanza, il movimento nasce soprattutto da:",
+      "options": [
+        "Una pompa che spinge l’aria.",
+        "La sola riflessione della luce.",
+        "Differenze di densità in presenza della gravità.",
+        "L’assenza completa di gravità."
+      ],
+      "correct": 2,
+      "explanation": "Le differenze di densità e la gravità producono i moti naturali; una pompa o ventola produce moto forzato."
+    },
+    {
+      "id": "termo-063",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Quale meccanismo può trasportare energia attraverso il vuoto?",
+      "options": [
+        "Conduzione attraverso l’aria.",
+        "Convezione naturale dell’aria.",
+        "Irraggiamento.",
+        "Convezione forzata dell’acqua."
+      ],
+      "correct": 2,
+      "explanation": "La radiazione elettromagnetica può propagarsi anche in assenza di materia."
+    },
+    {
+      "id": "termo-064",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Rispetto al rosso visibile, l’infrarosso ha lunghezza d’onda:",
+      "options": [
+        "Maggiore.",
+        "Nulla.",
+        "Minore.",
+        "Sempre uguale."
+      ],
+      "correct": 0,
+      "explanation": "L’infrarosso si trova oltre il rosso, verso lunghezze d’onda maggiori."
+    },
+    {
+      "id": "termo-065",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Quale intervallo comprende i valori dell’emissività ε?",
+      "options": [
+        "Da 0 a 1.",
+        "Da 0 K alla temperatura del corpo.",
+        "Da 1 a 100 in watt.",
+        "Da −1 a 0."
+      ],
+      "correct": 0,
+      "explanation": "L’emissività è un numero senza unità compreso fra 0 e 1."
+    },
+    {
+      "id": "termo-066",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Un contenitore aperto viene pesato prima e dopo che parte dell’acqua è evaporata. Non viene versato nulla. Il solo contenitore con il suo contenuto ha scambiato materia?",
+      "options": [
+        "No, perché l’acqua è rimasta la stessa sostanza.",
+        "Sì, perché qualunque calore è materia.",
+        "No, perché non è stato inclinato.",
+        "Sì, perché vapore ha attraversato il confine."
+      ],
+      "correct": 3,
+      "explanation": "L’evaporazione trasferisce acqua all’esterno anche senza versamento."
+    },
+    {
+      "id": "termo-067",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Una piccola bottiglia viene aperta dentro una scatola sigillata. Considerando come sistema scatola e intero contenuto, l’apertura interna implica perdita di materia dal sistema?",
+      "options": [
+        "Sì, anche se il confine esterno non è attraversato.",
+        "No, perché i gas non sono materia.",
+        "Sì, perché ogni apertura rende aperto qualsiasi sistema.",
+        "No, se la materia resta entro la scatola."
+      ],
+      "correct": 3,
+      "explanation": "La classificazione si riferisce al confine esterno scelto, non a ogni separazione interna."
+    },
+    {
+      "id": "termo-068",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Si comprime una molla senza aggiungere o rimuovere materiale. Può ricevere energia pur restando un sistema chiuso?",
+      "options": [
+        "Sì, ma solo se perde massa.",
+        "Sì, attraverso il lavoro compiuto su di essa.",
+        "No, perché chiuso significa energia costante.",
+        "No, perché soltanto un recipiente può essere chiuso."
+      ],
+      "correct": 1,
+      "explanation": "Il lavoro è uno scambio energetico compatibile con un sistema chiuso."
+    },
+    {
+      "id": "termo-069",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Un termometro a 30 °C viene immerso in un grande bagno mantenuto a 10 °C. Come cambia inizialmente la temperatura del sensore?",
+      "options": [
+        "Aumenta perché sta misurando.",
+        "Scende sotto 10 °C per raggiungere l’equilibrio.",
+        "Diminuisce verso 10 °C.",
+        "Resta necessariamente a 30 °C."
+      ],
+      "correct": 2,
+      "explanation": "Il sensore cede energia al bagno più freddo e si avvicina alla sua temperatura."
+    },
+    {
+      "id": "termo-070",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Un piccolo campione è più caldo di una grande lastra. Messili in contatto, la lastra può inizialmente ricevere calore dal campione nonostante la massa molto maggiore?",
+      "options": [
+        "Sì: perché le masse devono diventare uguali.",
+        "No: il campione caldo non può contenere energia.",
+        "No: il corpo più grande cede sempre energia al più piccolo.",
+        "Sì: il verso dipende dalle temperature, non dal confronto delle masse."
+      ],
+      "correct": 3,
+      "explanation": "Il trasferimento spontaneo va dal campione più caldo alla lastra più fredda; la massa influisce sulla risposta termica, non su questo verso."
+    },
+    {
+      "id": "termo-071",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Un display passa da 20 °C a 293,15 K senza modificare il sensore. Il corpo si è riscaldato?",
+      "options": [
+        "Sì: il kelvin indica sempre un corpo più caldo.",
+        "No: perché 293,15 K equivale allo zero assoluto.",
+        "Sì: la temperatura è aumentata di 273,15 gradi Celsius.",
+        "No: è cambiata soltanto la scala."
+      ],
+      "correct": 3,
+      "explanation": "Le due letture rappresentano lo stesso stato termico."
+    },
+    {
+      "id": "termo-072",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Un campione si raffredda cedendo energia come calore. Quale segno ha Q riferito al campione?",
+      "options": [
+        "Dipende soltanto dalla sua massa.",
+        "Negativo.",
+        "Positivo.",
+        "Necessariamente nullo."
+      ],
+      "correct": 1,
+      "explanation": "Per il corpo considerato, il calore ceduto ha segno negativo."
+    },
+    {
+      "id": "termo-073",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Due campioni di massa uguale assorbono lo stesso calore, senza cambiare stato. Quello con c maggiore presenta:",
+      "options": [
+        "Lo stesso aumento indipendentemente da c.",
+        "Una diminuzione di temperatura.",
+        "Un aumento di temperatura minore.",
+        "Un aumento di temperatura maggiore."
+      ],
+      "correct": 2,
+      "explanation": "A parità di Q e m, un calore specifico maggiore richiede più energia per ogni kelvin."
+    },
+    {
+      "id": "termo-074",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Due porzioni d’acqua sono nello stesso stato e alla stessa temperatura. Una ha massa doppia. Con lo stesso riferimento energetico, quale ha energia interna maggiore?",
+      "options": [
+        "Quella di massa minore.",
+        "Nessuna, perché non si stanno riscaldando.",
+        "Hanno necessariamente la stessa energia interna.",
+        "Quella di massa doppia."
+      ],
+      "correct": 3,
+      "explanation": "La porzione maggiore contiene più materia nello stesso stato termico."
+    },
+    {
+      "id": "termo-075",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Si mescolano due porzioni dello stesso liquido a 15 °C e 45 °C. Prima dell’equilibrio, in quale verso passa spontaneamente calore fra esse?",
+      "options": [
+        "Non passa calore se è la stessa sostanza.",
+        "Dalla porzione a 45 °C a quella a 15 °C.",
+        "Sempre dalla massa minore alla maggiore.",
+        "Dalla porzione a 15 °C a quella a 45 °C."
+      ],
+      "correct": 1,
+      "explanation": "È la differenza di temperatura a fissare il verso spontaneo."
+    },
+    {
+      "id": "termo-076",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Una bevanda calda viene versata in una tazza inizialmente più fredda. Trascurando l’ambiente, includere la tazza nel bilancio tende a:",
+      "options": [
+        "Ridurre la temperatura finale rispetto al modello che la trascura.",
+        "Far sparire l’energia ceduta dalla bevanda.",
+        "Aumentare sempre la temperatura finale.",
+        "Lasciare invariata la temperatura perché la tazza non è liquida."
+      ],
+      "correct": 0,
+      "explanation": "La tazza assorbe una parte dell’energia ceduta dalla bevanda."
+    },
+    {
+      "id": "termo-077",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Due corpi isolati dall’esterno si scambiano calore. La somma dei loro Q è zero. Significa che ciascun Q è zero?",
+      "options": [
+        "Sì: una somma nulla richiede termini nulli.",
+        "Sì: in un sistema isolato nessun corpo cambia mai temperatura.",
+        "No: perché l’energia totale deve crescere.",
+        "No: possono essere diversi da zero e opposti."
+      ],
+      "correct": 3,
+      "explanation": "Il bilancio nullo riguarda il totale e ammette trasferimenti interni."
+    },
+    {
+      "id": "termo-078",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Una barra libera ha coefficiente α positivo e pressoché costante. Raffreddandola senza cambiamenti di stato, la lunghezza tende a:",
+      "options": [
+        "Restare sempre invariata.",
+        "Aumentare.",
+        "Raddoppiare qualunque sia il raffreddamento.",
+        "Diminuire."
+      ],
+      "correct": 3,
+      "explanation": "ΔT negativa e α positivo danno ΔL negativa."
+    },
+    {
+      "id": "termo-079",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Due fili dello stesso materiale subiscono lo stesso aumento di temperatura. Il primo è tre volte più lungo. Nel modello lineare, il suo allungamento è:",
+      "options": [
+        "Uguale a quello del secondo.",
+        "Un terzo di quello del secondo.",
+        "Tre volte quello del secondo.",
+        "Nove volte quello del secondo."
+      ],
+      "correct": 2,
+      "explanation": "ΔL è direttamente proporzionale alla lunghezza iniziale."
+    },
+    {
+      "id": "termo-080",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Un oggetto si dilata riscaldandosi. Nel modello microscopico comune, che cosa aumenta principalmente?",
+      "options": [
+        "La massa di ogni particella.",
+        "Il numero di particelle create dal calore.",
+        "La distanza media fra le particelle.",
+        "La dimensione di ogni atomo nella stessa proporzione dell’oggetto."
+      ],
+      "correct": 2,
+      "explanation": "La dilatazione è collegata alla variazione delle distanze medie, non alla creazione di materia."
+    },
+    {
+      "id": "termo-081",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Due rotaie con estremità inizialmente distanziate possono dilatarsi verso il giunto. Quando si riscaldano, lo spazio libero tende a:",
+      "options": [
+        "Aumentare.",
+        "Riempirsi di nuovo acciaio prodotto dal calore.",
+        "Restare invariato per qualunque materiale.",
+        "Ridursi."
+      ],
+      "correct": 3,
+      "explanation": "L’allungamento delle rotaie occupa parte dello spazio disponibile."
+    },
+    {
+      "id": "termo-082",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Un materiale conserva forma propria ma non ha ordine periodico a grande distanza. È possibile che sia solido?",
+      "options": [
+        "No, ogni solido deve essere un singolo cristallo.",
+        "No, deve essere un gas molto denso.",
+        "Sì, ma soltanto se le particelle sono immobili.",
+        "Sì, può essere un solido amorfo."
+      ],
+      "correct": 3,
+      "explanation": "La forma propria non richiede un ordine cristallino a grande distanza."
+    },
+    {
+      "id": "termo-083",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "La stessa acqua viene trasferita in un recipiente più largo, mantenendo la temperatura. Se non ci sono perdite, il suo volume:",
+      "options": [
+        "Aumenta come la larghezza del recipiente.",
+        "Resta circa uguale.",
+        "Diventa uguale al volume totale del recipiente.",
+        "Diminuisce perché l’altezza del liquido è minore."
+      ],
+      "correct": 1,
+      "explanation": "Cambia la forma occupata, non il volume della stessa quantità di liquido nelle stesse condizioni."
+    },
+    {
+      "id": "termo-084",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Si comprime aria in un contenitore sigillato. Quale cambiamento spiega soprattutto la riduzione di volume?",
+      "options": [
+        "Ogni molecola si restringe fino a sparire.",
+        "Si riducono le distanze medie fra particelle.",
+        "Si eliminano particelle attraverso il confine sigillato.",
+        "L’aria perde la propria massa."
+      ],
+      "correct": 1,
+      "explanation": "La comprimibilità del gas deriva soprattutto dallo spazio fra particelle."
+    },
+    {
+      "id": "termo-085",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Dopo la fusione di ghiaccio puro, le molecole presenti nell’acqua liquida:",
+      "options": [
+        "Non esistono più perché il solido è scomparso.",
+        "Sono tutte ferme.",
+        "Sono ancora molecole d’acqua.",
+        "Sono diventate molecole di una sostanza diversa."
+      ],
+      "correct": 2,
+      "explanation": "Il cambiamento è fisico: varia l’organizzazione delle molecole, non l’identità della sostanza."
+    },
+    {
+      "id": "termo-086",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Una finestra si appanna formando goccioline. La parte visibile è:",
+      "options": [
+        "Solo vapore acqueo allo stato gassoso.",
+        "Acqua trasformata in aria.",
+        "Acqua liquida condensata.",
+        "Soltanto ghiaccio, anche se la superficie è sopra 0 °C."
+      ],
+      "correct": 2,
+      "explanation": "Le goccioline sono liquido; il vapore acqueo come gas è invisibile."
+    },
+    {
+      "id": "termo-087",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "A parità delle altre condizioni, l’aria molto umida ostacola l’evaporazione del sudore. Il raffreddamento dovuto a questo processo tende a:",
+      "options": [
+        "Diminuire.",
+        "Restare necessariamente identico.",
+        "Trasformarsi sempre in riscaldamento da condensazione.",
+        "Aumentare."
+      ],
+      "correct": 0,
+      "explanation": "Se evapora meno sudore, viene sottratta meno energia attraverso quel processo."
+    },
+    {
+      "id": "termo-088",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Si vuole vaporizzare una massa doppia della stessa sostanza nelle stesse condizioni. L’energia del solo cambiamento di stato è:",
+      "options": [
+        "Dimezzata.",
+        "Doppia.",
+        "Uguale.",
+        "Quattro volte maggiore."
+      ],
+      "correct": 1,
+      "explanation": "Q = m · L è proporzionale alla massa a L fissato."
+    },
+    {
+      "id": "termo-089",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Un involucro poco conduttore circonda un oggetto caldo. L’involucro mantiene caldo l’oggetto soprattutto perché:",
+      "options": [
+        "Produce continuamente nuovo calore.",
+        "Azzera la temperatura dell’ambiente.",
+        "Rallenta il trasferimento di energia verso l’esterno.",
+        "Fa aumentare la massa dell’oggetto."
+      ],
+      "correct": 2,
+      "explanation": "L’isolante ostacola il trasferimento, senza essere una sorgente di energia."
+    },
+    {
+      "id": "termo-090",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Due lastre identiche per materiale e spessore hanno la stessa ΔT fra le facce. Se una ha area doppia, conduce una potenza:",
+      "options": [
+        "Dimezzata.",
+        "Uguale.",
+        "Quattro volte maggiore.",
+        "Doppia."
+      ],
+      "correct": 3,
+      "explanation": "Nella legge di Fourier P è proporzionale all’area attraversata."
+    },
+    {
+      "id": "termo-091",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Si raddoppia lo spessore di uno strato omogeneo mantenendo uguali materiale, area e temperature delle facce. La potenza condotta diventa:",
+      "options": [
+        "Un quarto.",
+        "Il doppio.",
+        "La metà.",
+        "La stessa."
+      ],
+      "correct": 2,
+      "explanation": "La potenza è inversamente proporzionale allo spessore."
+    },
+    {
+      "id": "termo-092",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Un materiale contiene molte piccole cavità d’aria ferma. Quale proprietà dell’aria contribuisce all’isolamento?",
+      "options": [
+        "La capacità di produrre calore senza sorgenti.",
+        "Una conducibilità maggiore di quella del rame.",
+        "L’assenza di particelle nell’aria.",
+        "La bassa conducibilità termica."
+      ],
+      "correct": 3,
+      "explanation": "L’aria ferma conduce poco e le piccole cavità ne limitano la circolazione."
+    },
+    {
+      "id": "termo-093",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Un liquido viene pompato attraverso una zona calda e poi raggiunge una zona più fredda. Come può trasportare energia?",
+      "options": [
+        "Eliminando la propria massa nel tratto caldo.",
+        "Spostando soltanto il proprio colore.",
+        "Trasformandosi necessariamente in luce visibile.",
+        "Portando con sé energia interna mentre si sposta."
+      ],
+      "correct": 3,
+      "explanation": "Il trasporto di materia mette in comunicazione regioni con diversa energia termica."
+    },
+    {
+      "id": "termo-094",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Una ventola muove aria anche quando tutta l’aria ha inizialmente la stessa temperatura. È possibile?",
+      "options": [
+        "Sì, ma soltanto nel vuoto.",
+        "No, perché la convezione forzata richiede ebollizione.",
+        "Sì, perché il dispositivo può imporre il movimento.",
+        "No, il moto dell’aria richiede sempre differenze termiche."
+      ],
+      "correct": 2,
+      "explanation": "Il movimento forzato non nasce necessariamente da differenze di densità."
+    },
+    {
+      "id": "termo-095",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Aggiungere alette a un dissipatore aumenta la superficie a contatto con l’aria. A parità delle altre condizioni, quale effetto si cerca?",
+      "options": [
+        "Favorire lo scambio termico con l’aria.",
+        "Impedire qualunque emissione di radiazione.",
+        "Far diminuire sempre la temperatura dell’aria sotto quella ambiente.",
+        "Bloccare il movimento dell’energia nel metallo."
+      ],
+      "correct": 0,
+      "explanation": "Più superficie rende possibile uno scambio più intenso con il fluido."
+    },
+    {
+      "id": "termo-096",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Un oggetto a temperatura ambiente non appare luminoso. Può emettere radiazione termica?",
+      "options": [
+        "Sì, ma soltanto quando riflette una lampada.",
+        "No, se non lo vediamo brillare non emette.",
+        "Sì, soprattutto nell’infrarosso.",
+        "No, emettono soltanto i corpi sopra 100 °C."
+      ],
+      "correct": 2,
+      "explanation": "L’emissione termica esiste anche alle temperature ordinarie ed è in gran parte invisibile."
+    },
+    {
+      "id": "termo-097",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Una lava incandescente resta luminosa anche al buio. Quale interpretazione è coerente?",
+      "options": [
+        "Riflette soltanto luce solare rimasta dentro di essa.",
+        "Produce luce soltanto se tocca l’occhio.",
+        "La lava calda emette radiazione propria anche nel visibile.",
+        "La sua luce dimostra che non emette infrarosso."
+      ],
+      "correct": 2,
+      "explanation": "A temperatura elevata diventa significativa anche la parte visibile dell’emissione termica."
+    },
+    {
+      "id": "termo-098",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Due superfici hanno uguali area e temperatura, ma ε diversa. Quale emette più potenza?",
+      "options": [
+        "Quella con ε minore.",
+        "Nessuna: ε non influisce sulla potenza.",
+        "Sempre quella più liscia, indipendentemente da ε.",
+        "Quella con ε maggiore."
+      ],
+      "correct": 3,
+      "explanation": "La potenza emessa è direttamente proporzionale all’emissività."
+    },
+    {
+      "id": "termo-099",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "La potenza netta ceduta per irraggiamento da un corpo è negativa. Che cosa significa?",
+      "options": [
+        "Assorbe più potenza radiante di quanta ne emetta.",
+        "Ha temperatura assoluta negativa.",
+        "Non emette alcuna radiazione.",
+        "Emette più potenza di quanta ne assorba."
+      ],
+      "correct": 0,
+      "explanation": "Il segno negativo di P_emessa − P_assorbita indica un acquisto netto di energia."
+    },
+    {
+      "id": "termo-100",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Una lastra trasparente lascia passare parte della radiazione incidente. La quota trasmessa riscalda necessariamente la lastra?",
+      "options": [
+        "No: contribuisce direttamente al riscaldamento la quota assorbita.",
+        "No: una lastra trasparente non può mai assorbire nulla.",
+        "Sì: tutta la radiazione incidente viene assorbita.",
+        "Sì: trasmissione e assorbimento sono lo stesso processo."
+      ],
+      "correct": 0,
+      "explanation": "Le quote assorbita, riflessa e trasmessa sono distinte; essere trasparente non impone assorbimento nullo."
+    },
+    {
+      "id": "termo-101",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Un bagno è a 280 K. Usando T_°C = T_K − 273,15, quanto indica un termometro Celsius?",
+      "options": [
+        "280 °C",
+        "−6,85 °C",
+        "6,85 °C",
+        "553,15 °C"
+      ],
+      "correct": 2,
+      "explanation": "280 − 273,15 = 6,85: il cambio di origine non modifica lo stato termico."
+    },
+    {
+      "id": "termo-102",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "La temperatura cresce da 12 °C a 19 °C. Qual è ΔT in kelvin?",
+      "options": [
+        "7 K",
+        "280,15 K",
+        "31 K",
+        "−7 K"
+      ],
+      "correct": 0,
+      "explanation": "La differenza è 19 − 12 = 7 °C, pari a 7 K; non si aggiunge 273,15 a un intervallo."
+    },
+    {
+      "id": "termo-103",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Usa T_°F = 1,8 · T_°C + 32. A quanti gradi Fahrenheit corrispondono 10 °C?",
+      "options": [
+        "−12,2 °F",
+        "18 °F",
+        "42 °F",
+        "50 °F"
+      ],
+      "correct": 3,
+      "explanation": "1,8 · 10 + 32 = 50. Il fattore cambia l’ampiezza del grado, il termine 32 l’origine."
+    },
+    {
+      "id": "termo-104",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Un campione si scalda di 5 K. Sapendo che ΔT_°F = 1,8 · ΔT_K, qual è l’aumento in gradi Fahrenheit?",
+      "options": [
+        "5 °F",
+        "37 °F",
+        "2,78 °F",
+        "9 °F"
+      ],
+      "correct": 3,
+      "explanation": "Un intervallo di 5 K equivale a 5 °C e a 1,8 · 5 = 9 °F."
+    },
+    {
+      "id": "termo-105",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Un campione ha massa 0,20 kg e c = 900 J/(kg · K). Calcola la capacità termica con C = m · c.",
+      "options": [
+        "180 J/K",
+        "4500 J/K",
+        "2,2 · 10⁻⁴ J/K",
+        "900 J/K"
+      ],
+      "correct": 0,
+      "explanation": "C = 0,20 · 900 J/K = 180 J/K: la capacità riguarda il campione intero."
+    },
+    {
+      "id": "termo-106",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Un oggetto con capacità termica costante C = 150 J/K si riscalda di 4 K, senza cambiare stato. Quanto calore assorbe?",
+      "options": [
+        "600 J",
+        "150 J",
+        "37,5 J",
+        "154 J"
+      ],
+      "correct": 0,
+      "explanation": "Q = 150 · 4 J = 600 J."
+    },
+    {
+      "id": "termo-107",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Un corpo assorbe 800 J e ha capacità termica costante 200 J/K, senza cambiamenti di stato. Usa ΔT = Q diviso C. Quanto aumenta la temperatura?",
+      "options": [
+        "4 K",
+        "0,25 K",
+        "200 K",
+        "1,6 · 10⁵ K"
+      ],
+      "correct": 0,
+      "explanation": "Ogni kelvin richiede 200 J: con 800 J si ottengono 4 K."
+    },
+    {
+      "id": "termo-108",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Un campione di massa 0,10 kg e c = 500 J/(kg · K) passa da 30 °C a 20 °C, senza cambiare stato. Qual è Q riferito al campione?",
+      "options": [
+        "−500 J",
+        "−50 J",
+        "−1500 J",
+        "500 J"
+      ],
+      "correct": 0,
+      "explanation": "ΔT = −10 K e Q = 0,10 · 500 · (−10) J = −500 J: il campione cede energia."
+    },
+    {
+      "id": "termo-109",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Due corpi si scambiano energia senza dispersioni: il primo ha Q₁ = −250 J. Dal bilancio Q₁ + Q₂ = 0, qual è Q₂?",
+      "options": [
+        "500 J",
+        "−250 J",
+        "0 J",
+        "250 J"
+      ],
+      "correct": 3,
+      "explanation": "Il calore assorbito dal secondo è opposto a quello ceduto dal primo: +250 J."
+    },
+    {
+      "id": "termo-110",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Due corpi con uguale capacità termica costante sono a 10 °C e 30 °C. Senza dispersioni né cambiamenti di stato, T_eq è la media delle due temperature. Quanto vale?",
+      "options": [
+        "40 °C",
+        "10 °C",
+        "20 °C",
+        "30 °C"
+      ],
+      "correct": 2,
+      "explanation": "Con uguali pesi termici, la media è 20 °C: entrambi cambiano temperatura di 10 K."
+    },
+    {
+      "id": "termo-111",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Una barra lunga 1,0 m ha α = 2,0 · 10⁻⁵ K⁻¹ costante e si scalda di 10 K liberamente. Con ΔL = α · L₀ · ΔT, quanto si allunga?",
+      "options": [
+        "2,0 · 10⁻⁴ m",
+        "2,0 · 10⁻³ m",
+        "0,20 m",
+        "2,0 · 10⁻⁵ m"
+      ],
+      "correct": 0,
+      "explanation": "ΔL = 2,0 · 10⁻⁵ · 1,0 · 10 m = 2,0 · 10⁻⁴ m, cioè 0,20 mm."
+    },
+    {
+      "id": "termo-112",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Un liquido occupa 2,0 L e ha β = 5,0 · 10⁻⁴ K⁻¹ costante. Per un aumento di 10 K, usa ΔV = β · V₀ · ΔT. Qual è ΔV?",
+      "options": [
+        "2,010 L",
+        "0,010 L",
+        "0,10 L",
+        "0,0010 L"
+      ],
+      "correct": 1,
+      "explanation": "ΔV = 5,0 · 10⁻⁴ · 2,0 · 10 L = 0,010 L, pari a 10 mL."
+    },
+    {
+      "id": "termo-113",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Una barra passa da una lunghezza iniziale di 1000 mm a un allungamento ΔL = 2 mm. Quanto vale la lunghezza finale?",
+      "options": [
+        "2 mm",
+        "1002 mm",
+        "998 mm",
+        "2000 mm"
+      ],
+      "correct": 1,
+      "explanation": "L_finale = L₀ + ΔL = 1000 mm + 2 mm = 1002 mm."
+    },
+    {
+      "id": "termo-114",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Quanto calore serve per vaporizzare 0,020 kg d’acqua già a 100 °C, a pressione atmosferica? Usa L_v = 2257 kJ/kg.",
+      "options": [
+        "2,257 kJ",
+        "45,14 kJ",
+        "112,85 kJ",
+        "0 kJ"
+      ],
+      "correct": 1,
+      "explanation": "Q = 0,020 · 2257 kJ = 45,14 kJ. Non occorre un riscaldamento preliminare."
+    },
+    {
+      "id": "termo-115",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Si trasferiscono 66,8 kJ a ghiaccio già in fusione a 0 °C. Usa m = Q diviso L con L = 334 kJ/kg. Quanta massa fonde?",
+      "options": [
+        "0,20 kg",
+        "5,0 kg",
+        "22,3 kg",
+        "0,020 kg"
+      ],
+      "correct": 0,
+      "explanation": "Ogni kilogrammo richiede 334 kJ: 66,8 kJ permettono di fondere 0,20 kg."
+    },
+    {
+      "id": "termo-116",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Solidificano 0,030 kg d’acqua a 0 °C. Usa Q = −m · L, con L = 334 kJ/kg. Quanto vale Q per l’acqua?",
+      "options": [
+        "10,02 kJ",
+        "0 kJ",
+        "−10,02 kJ",
+        "−111,3 kJ"
+      ],
+      "correct": 2,
+      "explanation": "Q = −0,030 · 334 kJ = −10,02 kJ: la solidificazione cede energia."
+    },
+    {
+      "id": "termo-117",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Un sistema trasferisce 900 J in 30 s. Qual è la potenza termica media?",
+      "options": [
+        "930 W",
+        "30 W",
+        "0,033 W",
+        "27 000 W"
+      ],
+      "correct": 1,
+      "explanation": "La potenza media è l’energia per unità di tempo: 900 J in 30 s danno 30 W."
+    },
+    {
+      "id": "termo-118",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Un riscaldatore cede 6000 J con potenza termica costante di 200 W. Usa Δt = Q diviso P. Quanto dura il trasferimento?",
+      "options": [
+        "0,033 s",
+        "1200 s",
+        "6200 s",
+        "30 s"
+      ],
+      "correct": 3,
+      "explanation": "A 200 J ogni secondo, 6000 J richiedono 30 s."
+    },
+    {
+      "id": "termo-119",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Una lastra piana ha λ = 0,20 W/(m · K), area 1,0 m² e spessore 0,10 m. Le facce differiscono di 5 K. In regime stazionario senza sorgenti, P = λ · A · ΔT diviso s vale:",
+      "options": [
+        "10 W",
+        "25 W",
+        "0,10 W",
+        "1,0 W"
+      ],
+      "correct": 0,
+      "explanation": "Il numeratore vale 1,0 W · m; sullo spessore di 0,10 m corrisponde a 10 W."
+    },
+    {
+      "id": "termo-120",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Due strati hanno la stessa geometria e ΔT. Il primo conduce 40 W. Il secondo ha conducibilità pari alla metà della prima. Quanto conduce il secondo?",
+      "options": [
+        "20 W",
+        "40 W",
+        "80 W",
+        "10 W"
+      ],
+      "correct": 0,
+      "explanation": "A geometria e ΔT fisse, P è proporzionale a λ: dimezzare λ dà 20 W."
+    },
+    {
+      "id": "termo-121",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Una superficie di area 0,20 m² emette uniformemente 60 W. Qual è la potenza emessa per metro quadrato, ottenuta dividendo la potenza totale per l’area?",
+      "options": [
+        "0,0033 W/m²",
+        "60 W/m²",
+        "12 W/m²",
+        "300 W/m²"
+      ],
+      "correct": 3,
+      "explanation": "La potenza per area è 60 W distribuiti su 0,20 m², cioè 300 W/m²."
+    },
+    {
+      "id": "termo-122",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Una superficie emette 80 W e assorbe 30 W di radiazione. Qual è la potenza netta ceduta?",
+      "options": [
+        "80 W",
+        "−50 W",
+        "50 W",
+        "110 W"
+      ],
+      "correct": 2,
+      "explanation": "P_netta = P_emessa − P_assorbita = 80 W − 30 W = 50 W."
+    },
+    {
+      "id": "termo-123",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Un corpo assorbe il 25% dei 200 J di radiazione che riceve. Quanta energia assorbe?",
+      "options": [
+        "50 J",
+        "200 J",
+        "175 J",
+        "800 J"
+      ],
+      "correct": 0,
+      "explanation": "Un quarto di 200 J equivale a 50 J; il resto non è assorbito."
+    },
+    {
+      "id": "termo-124",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Una superficie emette 12 W. Una seconda superficie ha la stessa temperatura ed emissività e area tripla. Qual è la potenza emessa dalla seconda?",
+      "options": [
+        "12 W",
+        "4 W",
+        "36 W",
+        "108 W"
+      ],
+      "correct": 2,
+      "explanation": "A temperatura ed emissività fisse, triplicare A triplica P_emessa: 36 W."
+    },
+    {
+      "id": "termo-125",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Una superficie con ε = 0,80 emette 100 W. Senza cambiare area o temperatura, ε passa a 0,40. Quanto emette?",
+      "options": [
+        "100 W",
+        "25 W",
+        "200 W",
+        "50 W"
+      ],
+      "correct": 3,
+      "explanation": "L’emissività si dimezza e così la potenza emessa, che diventa 50 W."
+    },
+    {
+      "id": "termo-126",
+      "category": "termologia",
+      "level": "easy",
+      "prompt": "Un corpo emette 5 W a 300 K. Area ed emissività restano uguali: quale potenza emette a 600 K?",
+      "options": [
+        "5 W",
+        "10 W",
+        "80 W",
+        "20 W"
+      ],
+      "correct": 2,
+      "explanation": "La temperatura assoluta raddoppia: la potenza diventa 2⁴ = 16 volte maggiore, cioè 80 W."
+    },
+    {
+      "id": "termo-127",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Un thermos sigillato contiene una bevanda che lentamente si raffredda, senza perdite di materia. Quale classificazione descrive gli scambi effettivi?",
+      "options": [
+        "Sistema aperto perché l’energia è materia.",
+        "Sistema aperto perché la temperatura diminuisce.",
+        "Sistema chiuso, non perfettamente isolato.",
+        "Sistema isolato perfetto perché ha un tappo."
+      ],
+      "correct": 2,
+      "explanation": "Il raffreddamento mostra uno scambio di energia; senza passaggio di materia il sistema resta chiuso."
+    },
+    {
+      "id": "termo-128",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Una pila integra alimenta un circuito senza perdite di sostanze. Le reazioni interne rendono necessariamente aperto il sistema pila?",
+      "options": [
+        "No: contano i passaggi di materia attraverso il confine.",
+        "Sì: l’energia elettrica è flusso di combustibile.",
+        "Sì: ogni reazione chimica è uno scambio di materia con l’esterno.",
+        "No: una pila non può scambiare energia."
+      ],
+      "correct": 0,
+      "explanation": "Le trasformazioni interne e lo scambio di energia non equivalgono a flussi macroscopici di materia attraverso il confine."
+    },
+    {
+      "id": "termo-129",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Quando è ragionevole trattare un recipiente reale come isolato in un esperimento?",
+      "options": [
+        "Ogni volta che manca una parete metallica.",
+        "Quando il contenuto ha temperatura diversa dall’ambiente.",
+        "Solo quando il recipiente è trasparente.",
+        "Quando gli scambi esterni sono trascurabili nell’intervallo studiato."
+      ],
+      "correct": 3,
+      "explanation": "L’approssimazione va legata a entità degli scambi e durata dell’osservazione, non al solo nome dell’oggetto."
+    },
+    {
+      "id": "termo-130",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Quale proprietà accomuna le scale Celsius e Kelvin?",
+      "options": [
+        "Hanno la stessa origine ma gradi di ampiezza diversa.",
+        "Hanno sia la stessa origine sia gli stessi valori numerici.",
+        "Intervalli di un grado hanno la stessa ampiezza, ma cambia l’origine.",
+        "Non permettono di confrontare la stessa temperatura."
+      ],
+      "correct": 2,
+      "explanation": "1 K e 1 °C hanno uguale ampiezza come intervalli; le letture assolute differiscono di 273,15."
+    },
+    {
+      "id": "termo-131",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Che cosa stabilisce la taratura di un termometro?",
+      "options": [
+        "La corrispondenza fra una proprietà misurabile del sensore e i valori di temperatura.",
+        "Che il sensore non scambierà mai energia con il corpo.",
+        "Che il sensore renda uguali tutte le temperature dei corpi.",
+        "Che ogni lettura debba essere espressa in Celsius."
+      ],
+      "correct": 0,
+      "explanation": "La proprietà termometrica viene collegata a valori della scala, senza annullare la necessità dell’equilibrio nel sensore a contatto."
+    },
+    {
+      "id": "termo-132",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Per interpretare 100 °C come temperatura ordinaria di ebollizione dell’acqua pura, quale condizione deve accompagnare il dato?",
+      "options": [
+        "Qualunque pressione, purché il recipiente sia grande.",
+        "Pressione atmosferica standard.",
+        "Assenza di qualunque vapore.",
+        "Massa esattamente uguale a 1 kg."
+      ],
+      "correct": 1,
+      "explanation": "La temperatura di ebollizione dipende dalla pressione: 100 °C è il riferimento alla pressione atmosferica standard."
+    },
+    {
+      "id": "termo-133",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Due corpi dello stesso materiale possono avere capacità termiche diverse nelle stesse condizioni?",
+      "options": [
+        "No, C coincide sempre con c.",
+        "Sì, se hanno masse diverse.",
+        "Sì, ma solo se uno dei due è in movimento.",
+        "No, tutte le proprietà termiche dipendono soltanto dalla sostanza."
+      ],
+      "correct": 1,
+      "explanation": "C = m · c riguarda il corpo intero; c riguarda il materiale nelle condizioni considerate."
+    },
+    {
+      "id": "termo-134",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Quando è appropriato usare Q = m · c · ΔT con un unico valore costante di c?",
+      "options": [
+        "Per qualsiasi passaggio da ghiaccio a vapore usando c dell’acqua.",
+        "Solo per corpi della stessa massa.",
+        "Soltanto quando ΔT è zero.",
+        "Per riscaldamento o raffreddamento senza passaggi di stato e con c circa costante."
+      ],
+      "correct": 3,
+      "explanation": "Il cambiamento di stato richiede il contributo latente; un unico c va usato nel proprio intervallo di validità."
+    },
+    {
+      "id": "termo-135",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Un recipiente d’acqua si muove come un blocco unico senza cambiare il suo stato interno. La sua energia cinetica complessiva coincide con U?",
+      "options": [
+        "No: U riguarda energie microscopiche interne.",
+        "Sì: U è soltanto il moto dell’intero recipiente.",
+        "No: perché l’acqua ferma non possiede energia.",
+        "Sì: ogni energia è necessariamente energia interna."
+      ],
+      "correct": 0,
+      "explanation": "Il modello distingue il movimento dell’insieme da quello microscopico delle particelle."
+    },
+    {
+      "id": "termo-136",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Nel bilancio fra due materiali diversi senza passaggi di stato, che cosa pesa le rispettive temperature iniziali?",
+      "options": [
+        "Le capacità termiche m · c dei due corpi.",
+        "Soltanto le temperature iniziali.",
+        "Sempre le sole masse, anche se c è diverso.",
+        "Sempre le sole superfici esposte."
+      ],
+      "correct": 0,
+      "explanation": "Il calore scambiato da ogni corpo è m · c · ΔT: i coefficienti di ΔT sono le capacità termiche."
+    },
+    {
+      "id": "termo-137",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "In un sistema isolato composto da una bevanda e dalla sua tazza, quale relazione rappresenta il bilancio termico?",
+      "options": [
+        "Q_bevanda e Q_tazza sono entrambi positivi.",
+        "Q_bevanda + Q_tazza = 0.",
+        "Q_bevanda = 0 e Q_tazza = 0 in ogni istante.",
+        "Q_bevanda + Q_tazza è sempre maggiore di zero."
+      ],
+      "correct": 1,
+      "explanation": "Senza scambi esterni, quanto una parte cede viene assorbito dall’altra, con segni opposti."
+    },
+    {
+      "id": "termo-138",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Quale associazione fra coefficiente e grandezza è corretta?",
+      "options": [
+        "α riguarda il volume e β la lunghezza.",
+        "α e β esprimono sempre la stessa variazione assoluta.",
+        "α riguarda la lunghezza e β il volume.",
+        "α riguarda la massa e β la temperatura."
+      ],
+      "correct": 2,
+      "explanation": "I due coefficienti hanno unità K⁻¹ ma si riferiscono a variazioni relative di grandezze diverse."
+    },
+    {
+      "id": "termo-139",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "L’aumento di volume dell’acqua liquida fra 4 °C e 0 °C coincide con l’espansione durante il congelamento?",
+      "options": [
+        "No: il ghiaccio ha sempre lo stesso volume del liquido di partenza.",
+        "Sì: da 4 °C a 0 °C tutta l’acqua è già ghiaccio.",
+        "Sì: una variazione di volume implica sempre un passaggio di stato.",
+        "No: il primo avviene mentre l’acqua è ancora liquida."
+      ],
+      "correct": 3,
+      "explanation": "Il minimo di volume del liquido e la formazione della struttura del ghiaccio sono fenomeni distinti."
+    },
+    {
+      "id": "termo-140",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Con α positivo e costante, quale combinazione di segni descrive il raffreddamento libero di una barra?",
+      "options": [
+        "ΔT nullo e ΔL sempre negativo.",
+        "ΔT negativo e ΔL negativo.",
+        "ΔT positivo e ΔL negativo.",
+        "ΔT negativo e ΔL positivo."
+      ],
+      "correct": 1,
+      "explanation": "Nella legge ΔL = α · L₀ · ΔT, con α e L₀ positivi, ΔL ha il segno di ΔT."
+    },
+    {
+      "id": "termo-141",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Un liquido molto viscoso è necessariamente molto comprimibile?",
+      "options": [
+        "Sì: un liquido viscoso ha particelle distanti come un gas.",
+        "Sì: viscosità e comprimibilità sono la stessa grandezza.",
+        "No: scorrimento e comprimibilità sono proprietà distinte.",
+        "No: perché nessun liquido può scorrere."
+      ],
+      "correct": 2,
+      "explanation": "La viscosità descrive resistenza allo scorrimento, non facilità di ridurre il volume."
+    },
+    {
+      "id": "termo-142",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Che cosa caratterizza un solido policristallino?",
+      "options": [
+        "Più regioni cristalline con orientamenti diversi.",
+        "Particelle immobili e isolate fra loro.",
+        "Una sola regione senza confini fra cristalli.",
+        "Assenza di ordine anche all’interno di ogni regione."
+      ],
+      "correct": 0,
+      "explanation": "Ogni grano ha ordine cristallino; l’orientamento può variare fra grani."
+    },
+    {
+      "id": "termo-143",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Quale descrizione riguarda L anziché c?",
+      "options": [
+        "Potenza trasferita da ogni kilogrammo.",
+        "Energia totale di qualunque corpo alla stessa temperatura.",
+        "Energia per unità di massa necessaria a un passaggio di stato.",
+        "Energia per unità di massa e per kelvin di riscaldamento."
+      ],
+      "correct": 2,
+      "explanation": "L ha unità J/kg; c ha unità J/(kg · K) e descrive una variazione termica senza cambiamento di stato."
+    },
+    {
+      "id": "termo-144",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "La nube bianca vicino al ghiaccio secco è costituita soprattutto da:",
+      "options": [
+        "Minuscole gocce d’acqua nell’aria raffreddata.",
+        "Fumo prodotto da una combustione obbligatoria.",
+        "Solo anidride carbonica gassosa diventata visibile.",
+        "Aria priva di qualsiasi particella."
+      ],
+      "correct": 0,
+      "explanation": "La CO₂ sublima; il raffreddamento dell’aria può far condensare l’acqua in goccioline visibili."
+    },
+    {
+      "id": "termo-145",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Per passare dal liquido al gas mediante evaporazione, la sostanza:",
+      "options": [
+        "Non coinvolge alcuno scambio energetico.",
+        "Cede sempre energia come nella condensazione.",
+        "Deve prima diventare una sostanza chimica diversa.",
+        "Richiede energia per separare le molecole dal liquido."
+      ],
+      "correct": 3,
+      "explanation": "La vaporizzazione richiede energia, che può essere fornita dal liquido residuo e dall’ambiente."
+    },
+    {
+      "id": "termo-146",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Perché molti metalli conducono bene il calore?",
+      "options": [
+        "Il metallo trasferisce calore solo se fonde.",
+        "Tutti gli atomi lasciano il metallo e raggiungono la sorgente.",
+        "Gli elettroni mobili rendono impossibile ogni gradiente di temperatura.",
+        "Agli scambi fra vibrazioni atomiche si aggiunge il contributo degli elettroni mobili."
+      ],
+      "correct": 3,
+      "explanation": "Gli elettroni di conduzione trasportano energia insieme al contributo del reticolo."
+    },
+    {
+      "id": "termo-147",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Nella legge per una parete piana, quale area A si deve usare?",
+      "options": [
+        "L’area occupata dal locale sul pavimento.",
+        "La somma obbligatoria di tutte le facce laterali.",
+        "La superficie attraversata perpendicolarmente dal flusso termico.",
+        "Qualunque area espressa in metri quadrati."
+      ],
+      "correct": 2,
+      "explanation": "A rappresenta la sezione attraverso cui viene condotta l’energia, non una superficie arbitraria."
+    },
+    {
+      "id": "termo-148",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Si conosce la potenza elettrica assorbita da un apparecchio. Coincide sempre con la potenza termica ricevuta dall’oggetto che si vuole scaldare?",
+      "options": [
+        "Sì: watt elettrici e termici non possono mai essere distinti in un bilancio.",
+        "No: perché l’energia elettrica non può diventare energia interna.",
+        "Sì: tutte le dispersioni sono necessariamente nulle.",
+        "No: dipende anche da dove viene trasferita l’energia."
+      ],
+      "correct": 3,
+      "explanation": "Parte dell’energia può raggiungere altri corpi o l’ambiente; occorre specificare il trasferimento studiato."
+    },
+    {
+      "id": "termo-149",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "In un dissipatore metallico con ventola, qual è l’associazione corretta?",
+      "options": [
+        "Solo irraggiamento, perché la ventola gira.",
+        "Solo conduzione, perché il sistema contiene un metallo.",
+        "Convezione nel metallo rigido e conduzione nel vuoto.",
+        "Conduzione nel metallo e convezione nell’aria in movimento."
+      ],
+      "correct": 3,
+      "explanation": "Il percorso combina meccanismi diversi in materiali e zone differenti."
+    },
+    {
+      "id": "termo-150",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "I granuli luminosi e i bordi scuri della fotosfera sono associati soprattutto a:",
+      "options": [
+        "Moti di risalita e discesa del plasma.",
+        "Moto convettivo uniforme in tutti gli strati solari.",
+        "Bolle di ebollizione di acqua liquida.",
+        "Cristalli solidi immobili che riflettono il Sole."
+      ],
+      "correct": 0,
+      "explanation": "La granulazione è legata alla convezione negli strati pertinenti; non descrive ebollizione di acqua o tutto l’interno solare."
+    },
+    {
+      "id": "termo-151",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Quale confronto distingue correttamente radiazione termica emessa e riflessa?",
+      "options": [
+        "Sono sempre due nomi della stessa energia assorbita.",
+        "L’emessa dipende dalla temperatura del corpo; la riflessa proviene da radiazione incidente.",
+        "L’emessa esiste solo se il corpo è illuminato; la riflessa nasce dalla sua temperatura.",
+        "Entrambe esistono solo nella luce visibile."
+      ],
+      "correct": 1,
+      "explanation": "Un corpo emette per la propria temperatura e può anche riflettere radiazione proveniente da altre sorgenti."
+    },
+    {
+      "id": "termo-152",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Nella legge P_emessa = ε · σ · A · T⁴, quale temperatura si usa?",
+      "options": [
+        "La temperatura in Fahrenheit senza conversione.",
+        "La temperatura assoluta in kelvin.",
+        "La sola differenza in Celsius fra corpo e aria.",
+        "La temperatura in Celsius senza conversione."
+      ],
+      "correct": 1,
+      "explanation": "La quarta potenza si applica a T assoluta; le differenze fra corpi intervengono nel bilancio netto, non al posto di T nell’emissione."
+    },
+    {
+      "id": "termo-153",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Un contenitore sigillato ha una zona calda e una fredda. L’assenza di equilibrio interno impedisce di descriverlo come chiuso?",
+      "options": [
+        "No: perché ogni sistema chiuso è perfettamente isolato.",
+        "Sì: due temperature implicano sempre una perdita di materia.",
+        "No: chiuso riguarda gli scambi di materia con l’esterno.",
+        "Sì: un sistema chiuso deve essere tutto alla stessa temperatura."
+      ],
+      "correct": 2,
+      "explanation": "Uniformità termica interna e classificazione degli scambi esterni sono questioni diverse."
+    },
+    {
+      "id": "termo-154",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "In una pentola sigillata acqua evapora nello spazio sopra il liquido. Quale sistema scambia materia con il proprio esterno?",
+      "options": [
+        "L’intera pentola e contenuto, anche senza perdite.",
+        "Il solo liquido, perché molecole passano nella zona di vapore.",
+        "Entrambi, perché ogni cambiamento di stato attraversa la parete esterna.",
+        "Né il liquido né alcuna sua parte, perché c’è un coperchio."
+      ],
+      "correct": 1,
+      "explanation": "Lo stesso evento può essere scambio rispetto al confine del liquido e trasferimento interno rispetto al sistema complessivo."
+    },
+    {
+      "id": "termo-155",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Si misura dall’esterno un recipiente sigillato mediante un sensore a contatto con la parete. Lo scambio di energia con il sensore implica apertura del sistema recipiente?",
+      "options": [
+        "Sì, perché ogni misura apre il sistema.",
+        "No, perché il sensore non può mai scambiare energia.",
+        "Sì, perché il calore è acqua che esce.",
+        "No, se non passa materia attraverso il confine."
+      ],
+      "correct": 3,
+      "explanation": "Una misura per contatto può coinvolgere energia conservando il sistema chiuso."
+    },
+    {
+      "id": "termo-156",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Per misurare una piccola goccia calda si usa una sonda inizialmente fredda con capacità termica non trascurabile. Quale effetto può verificarsi?",
+      "options": [
+        "La goccia scalda soltanto se stessa.",
+        "La sonda raffredda la goccia durante la misura.",
+        "La sonda legge necessariamente la temperatura iniziale della goccia senza modificarla.",
+        "La sonda impedisce sempre di raggiungere una temperatura comune."
+      ],
+      "correct": 1,
+      "explanation": "L’energia che scalda la sonda viene anche dalla goccia, modificandone la temperatura iniziale."
+    },
+    {
+      "id": "termo-157",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Un allarme scatta a 0 °C. Si cambia soltanto il display in kelvin. Quale soglia conserva lo stesso intervento fisico?",
+      "options": [
+        "−273,15 K.",
+        "100 K.",
+        "273,15 K.",
+        "0 K."
+      ],
+      "correct": 2,
+      "explanation": "Il punto fisico di intervento resta lo stesso; cambia il valore numerico della scala."
+    },
+    {
+      "id": "termo-158",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Due sensori registrano lo stesso raffreddamento: uno mostra −6 °C come variazione, l’altro −6 K. Sono compatibili?",
+      "options": [
+        "Sì, i due intervalli hanno la stessa ampiezza e lo stesso segno.",
+        "Sì, soltanto se la temperatura finale è lo zero assoluto.",
+        "No, i kelvin non possono descrivere un raffreddamento.",
+        "No, bisogna aggiungere 273,15 alla variazione in kelvin."
+      ],
+      "correct": 0,
+      "explanation": "Una variazione negativa in kelvin è ammessa anche con temperature assolute positive."
+    },
+    {
+      "id": "termo-159",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Due campioni dello stesso materiale hanno masse diverse. Assorbono energia sufficiente a produrre lo stesso ΔT. Il maggiore richiede più calore perché:",
+      "options": [
+        "Il suo c deve essere maggiore solo per la massa.",
+        "Ogni campione grande parte necessariamente da temperatura maggiore.",
+        "Il suo c deve diminuire al crescere della massa.",
+        "Contiene più materia da riscaldare, mentre c resta uguale."
+      ],
+      "correct": 3,
+      "explanation": "Cresce C = m · c, non il calore specifico del materiale."
+    },
+    {
+      "id": "termo-160",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Due rette rappresentano Q in funzione di ΔT per due corpi senza cambiamenti di stato. La retta più inclinata corrisponde a:",
+      "options": [
+        "Capacità termica minore.",
+        "Temperatura iniziale necessariamente maggiore.",
+        "Calore specifico sempre uguale a zero.",
+        "Capacità termica maggiore."
+      ],
+      "correct": 3,
+      "explanation": "In Q = C · ΔT, la pendenza è la capacità termica C; la massa non è ricavabile senza altri dati."
+    },
+    {
+      "id": "termo-161",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Un oggetto ha Q negativo durante un processo. Quale conclusione si può trarre senza altri dati?",
+      "options": [
+        "Sta cedendo energia come calore, ma non si può attribuire a U un valore negativo per questo.",
+        "La sua massa sta necessariamente diminuendo.",
+        "La sua energia interna è necessariamente negativa.",
+        "La sua temperatura assoluta è necessariamente negativa."
+      ],
+      "correct": 0,
+      "explanation": "Il segno di Q indica il verso del trasferimento, non lo zero di riferimento dell’energia interna."
+    },
+    {
+      "id": "termo-162",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "In un sistema isolato due corpi si scambiano la stessa energia in valore assoluto. Quello con capacità termica minore cambia temperatura:",
+      "options": [
+        "Di più in valore assoluto.",
+        "Di meno in valore assoluto.",
+        "Sempre dello stesso numero di gradi.",
+        "Solo se ha massa maggiore."
+      ],
+      "correct": 0,
+      "explanation": "Dalla relazione |Q| = C · |ΔT|, minore C significa maggiore variazione a pari energia scambiata."
+    },
+    {
+      "id": "termo-163",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Si mescolano due liquidi senza reazioni o passaggi di stato, isolati dall’esterno e senza lavoro. Può la temperatura finale superare entrambe le temperature iniziali?",
+      "options": [
+        "Sì, basta che le masse siano diverse.",
+        "No, il bilancio non dispone di una sorgente aggiuntiva di energia.",
+        "No, perché la temperatura finale è sempre la media aritmetica.",
+        "Sì, ogni mescolamento raddoppia la temperatura."
+      ],
+      "correct": 1,
+      "explanation": "La media pesata con capacità positive resta fra i valori iniziali; non è necessariamente la media aritmetica."
+    },
+    {
+      "id": "termo-164",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Un liquido viene versato in un recipiente più caldo di esso. Trascurare la capacità termica del recipiente porta a ignorare:",
+      "options": [
+        "Una perdita obbligatoria di massa dal liquido.",
+        "La produzione di un nuovo liquido per fusione.",
+        "L’energia che il recipiente può cedere al liquido.",
+        "Il fatto che il recipiente non possa raffreddarsi."
+      ],
+      "correct": 2,
+      "explanation": "Anche un recipiente caldo partecipa al bilancio cedendo energia, con effetto opposto a quello di una tazza fredda."
+    },
+    {
+      "id": "termo-165",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Due recipienti isolati contengono coppie di corpi con stesse masse, c e temperature iniziali. Cambia solo la conducibilità del collegamento fra i corpi. All’equilibrio finale, si prevedono:",
+      "options": [
+        "Tempi uguali e temperature inversamente proporzionali alla conducibilità.",
+        "Temperature finali necessariamente diverse.",
+        "Uguali temperature finali, ma tempi di avvicinamento diversi.",
+        "Temperature finali uguali alle iniziali in entrambi."
+      ],
+      "correct": 2,
+      "explanation": "Il bilancio fissa l’equilibrio; la facilità del trasferimento influisce sul tempo per raggiungerlo."
+    },
+    {
+      "id": "termo-166",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Due aste dello stesso materiale sono riscaldate dello stesso ΔT. Una è più lunga. Nel modello lineare, quale confronto è corretto?",
+      "options": [
+        "Stesso allungamento relativo, allungamento assoluto maggiore per l’asta lunga.",
+        "Allungamento relativo maggiore per l’asta lunga.",
+        "Allungamento assoluto minore per l’asta lunga.",
+        "Stesso allungamento assoluto per entrambe."
+      ],
+      "correct": 0,
+      "explanation": "Il rapporto ΔL a L₀ è α · ΔT, uguale per entrambe; ΔL cresce con L₀."
+    },
+    {
+      "id": "termo-167",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Una barra è riscaldata ma i fissaggi le impediscono di allungarsi liberamente. Perché la sola legge dell’allungamento libero non descrive tutto il problema?",
+      "options": [
+        "α diventa sempre nullo per definizione.",
+        "Il vincolo annulla qualunque effetto della temperatura sul materiale.",
+        "La barra deve per forza perdere massa.",
+        "Il vincolo può generare forze interne anche se l’allungamento è impedito."
+      ],
+      "correct": 3,
+      "explanation": "La tendenza a dilatarsi può tradursi in sollecitazioni invece che nel solo cambiamento di lunghezza libero."
+    },
+    {
+      "id": "termo-168",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Due strati metallici solidali hanno α diversi. Riscaldandoli, lo strato con α maggiore tende a disporsi:",
+      "options": [
+        "Sul lato interno della curva.",
+        "Sempre al centro senza deformarsi.",
+        "Separato dall’altro anche se il vincolo resta integro.",
+        "Sul lato esterno della curva."
+      ],
+      "correct": 3,
+      "explanation": "Lo strato che tende ad allungarsi di più occupa il percorso più lungo, sul lato esterno."
+    },
+    {
+      "id": "termo-169",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Riscaldando uniformemente coperchio e collo di un barattolo, i due diametri aumentano della stessa frazione. La sola dilatazione garantisce più gioco fra le parti?",
+      "options": [
+        "Sì: il collo non può mai dilatarsi.",
+        "No: manca un’espansione relativa favorevole del coperchio.",
+        "Sì: ogni espansione rende sempre più facile l’apertura.",
+        "No: perché nessun solido si dilata."
+      ],
+      "correct": 1,
+      "explanation": "Per modificare l’accoppiamento conta come cambiano le due parti l’una rispetto all’altra."
+    },
+    {
+      "id": "termo-170",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Si scalda acqua liquida da 1 °C a 8 °C a pressione atmosferica. Quale andamento del volume è coerente?",
+      "options": [
+        "Diminuisce senza interruzione.",
+        "Resta costante fino all’ebollizione.",
+        "Aumenta senza interruzione.",
+        "Prima diminuisce verso 4 °C, poi aumenta."
+      ],
+      "correct": 3,
+      "explanation": "Il minimo di volume vicino a 4 °C separa due andamenti diversi del liquido."
+    },
+    {
+      "id": "termo-171",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Un materiale prende la forma della parte di recipiente occupata, ma una stessa quantità mantiene circa lo stesso volume quando il recipiente cambia, a temperatura costante. Quale interpretazione è coerente?",
+      "options": [
+        "È necessariamente plasma perché cambia forma.",
+        "È un liquido, con particelle vicine che possono scorrere.",
+        "È un gas che deve occupare tutto il volume disponibile.",
+        "È un solido amorfo che mantiene forma propria."
+      ],
+      "correct": 1,
+      "explanation": "La forma adattabile da sola non basta: la conservazione del volume distingue qui il liquido dal gas."
+    },
+    {
+      "id": "termo-172",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Due liquidi alla stessa temperatura scorrono in dispositivi uguali, con le altre condizioni di prova controllate. Quello più viscoso si deforma più lentamente. Questo dimostra che ha massa per volume maggiore?",
+      "options": [
+        "Sì: scorrere lentamente richiede più massa.",
+        "Sì: viscosità e densità sono sempre proporzionali.",
+        "No: perché il liquido meno viscoso non possiede massa.",
+        "No: la prova confronta la resistenza allo scorrimento, non determina la densità."
+      ],
+      "correct": 3,
+      "explanation": "Sono proprietà distinte; per la densità occorrono dati di massa e volume."
+    },
+    {
+      "id": "termo-173",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Un campione puro assorbe energia mentre fonde a temperatura costante. La costanza di T implica costanza della sua energia interna?",
+      "options": [
+        "No: l’energia può modificare l’organizzazione e le interazioni fra particelle.",
+        "No: perché si stanno creando nuove molecole di un’altra sostanza.",
+        "Sì: tutta l’energia interna dipende soltanto da T in ogni processo.",
+        "Sì: il calore ricevuto deve essere nullo."
+      ],
+      "correct": 0,
+      "explanation": "Il cambiamento di stato coinvolge energia anche senza aumento della temperatura."
+    },
+    {
+      "id": "termo-174",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "La stessa massa di una sostanza condensa e poi rivaporizza alle stesse condizioni di riferimento. Come si confrontano i contributi latenti?",
+      "options": [
+        "Uguali in valore assoluto e di segno opposto per la sostanza.",
+        "Quello di condensazione è sempre doppio.",
+        "Entrambi nulli perché la temperatura è costante.",
+        "Entrambi positivi per la sostanza."
+      ],
+      "correct": 0,
+      "explanation": "Le trasformazioni inverse richiedono o cedono lo stesso contributo latente nelle stesse condizioni."
+    },
+    {
+      "id": "termo-175",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Una goccia evapora ma riceve dall’ambiente energia che compensa quella sottratta. Deve necessariamente raffreddarsi?",
+      "options": [
+        "No: perché l’evaporazione non richiede energia.",
+        "Sì: il gas ha sempre temperatura minore del liquido.",
+        "No: il raffreddamento dipende dal bilancio, non dalla sola presenza di evaporazione.",
+        "Sì: evaporare impone sempre una diminuzione di T."
+      ],
+      "correct": 2,
+      "explanation": "L’evaporazione sottrae energia, ma il rifornimento dall’esterno può compensare il processo."
+    },
+    {
+      "id": "termo-176",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Si riscalda ghiaccio da −5 °C fino ad acqua liquida a 5 °C. Perché non basta un solo termine m · c_acqua · 10 K?",
+      "options": [
+        "Il ghiaccio non contiene acqua.",
+        "La massa finale è necessariamente doppia.",
+        "Sono coinvolti riscaldamento del solido, fusione e riscaldamento del liquido.",
+        "Il calore specifico dell’acqua è sempre nullo a 0 °C."
+      ],
+      "correct": 2,
+      "explanation": "Il modello richiede contributi di fase diversi e c appropriati alle fasi."
+    },
+    {
+      "id": "termo-177",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Un muro è fra aria interna a 22 °C e aria esterna a 2 °C. Senza dati sugli scambi fra aria e facce, possiamo imporre ΔT_muro = 20 K?",
+      "options": [
+        "Sì: facce e aria hanno sempre la stessa temperatura in ogni istante.",
+        "No: la differenza fra temperature non può essere espressa in kelvin.",
+        "No: le temperature delle facce possono differire da quelle dell’aria.",
+        "Sì: qualunque muro ha conducibilità nulla."
+      ],
+      "correct": 2,
+      "explanation": "La legge della parete usa le temperature delle facce; gli scambi superficiali possono produrre ulteriori salti termici."
+    },
+    {
+      "id": "termo-178",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Si raddoppiano sia area sia spessore di una lastra, senza cambiare λ o ΔT fra le facce. La potenza condotta:",
+      "options": [
+        "Raddoppia.",
+        "Quadruplica.",
+        "Si dimezza.",
+        "Resta uguale."
+      ],
+      "correct": 3,
+      "explanation": "L’aumento dell’area e quello dello spessore si compensano nel rapporto A a s."
+    },
+    {
+      "id": "termo-179",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Due dispositivi trasferiscono la stessa energia, ma uno impiega meno tempo. Quale ha potenza media maggiore?",
+      "options": [
+        "Quello che impiega meno tempo.",
+        "Quello che impiega più tempo.",
+        "Hanno necessariamente uguale potenza.",
+        "Non si può confrontare senza conoscere le masse."
+      ],
+      "correct": 0,
+      "explanation": "A energia totale uguale, una durata minore dà una potenza media maggiore."
+    },
+    {
+      "id": "termo-180",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "In una finestra l’intercapedine d’aria viene allargata tanto da permettere una circolazione più intensa del gas. Perché la sola bassa conducibilità dell’aria non basta a garantire isolamento migliore?",
+      "options": [
+        "Può aumentare il trasporto convettivo.",
+        "L’aria si trasforma necessariamente in metallo.",
+        "Ogni movimento impedisce il trasferimento di energia.",
+        "La conducibilità del vetro diventa zero."
+      ],
+      "correct": 0,
+      "explanation": "L’aria ferma conduce poco, ma i suoi movimenti possono trasportare ulteriore energia."
+    },
+    {
+      "id": "termo-181",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "In un ambiente con gravità trascurabile si crea una zona d’aria più calda senza ventilazione. Ci si aspetta la normale risalita osservata in una stanza sulla Terra?",
+      "options": [
+        "Sì: il calore ha sempre una forza diretta verso l’alto.",
+        "No: viene meno il normale meccanismo di spinta gravitazionale.",
+        "Sì: la gravità non influisce mai sui moti convettivi.",
+        "No: perché la radiazione non può propagarsi."
+      ],
+      "correct": 1,
+      "explanation": "La convezione naturale ordinaria dipende dal confronto di densità in presenza della gravità."
+    },
+    {
+      "id": "termo-182",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "La ventola di un processore è efficiente, ma il dissipatore è quasi staccato dal processore. Perché aumentare la velocità della ventola può non risolvere il problema?",
+      "options": [
+        "Il cattivo contatto limita il trasferimento verso le alette.",
+        "La convezione annulla automaticamente ogni conduzione.",
+        "La ventola può raffreddare solo il metallo a cui è incollata.",
+        "Il processore non produce più energia appena la ventola gira."
+      ],
+      "correct": 0,
+      "explanation": "Il percorso comprende prima il trasferimento fra processore e dissipatore, poi quello all’aria: migliorare solo il secondo tratto può non bastare."
+    },
+    {
+      "id": "termo-183",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Un rapace sale in una corrente ascendente sopra un terreno soleggiato. La corrente è costituita da luce che solleva direttamente l’animale?",
+      "options": [
+        "No: il terreno scalda l’aria e il moto ascendente può sostenerne il volo.",
+        "Sì: l’aria deve restare immobile.",
+        "Sì: la convezione è una corrente di fotoni.",
+        "No: perché il Sole può scaldare solo il vuoto."
+      ],
+      "correct": 0,
+      "explanation": "Il Sole trasferisce energia per radiazione; il terreno e l’aria partecipano alla formazione del moto convettivo."
+    },
+    {
+      "id": "termo-184",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Un corpo si riscalda perché assorbe più radiazione di quanta ne emette. Ha smesso di emettere?",
+      "options": [
+        "No: emissione e assorbimento avvengono contemporaneamente.",
+        "No: perché l’assorbimento è sempre nullo.",
+        "Sì: emette soltanto se si raffredda.",
+        "Sì: un corpo che acquista energia non può emettere."
+      ],
+      "correct": 0,
+      "explanation": "Conta il saldo fra i due contributi, non l’assenza di uno di essi."
+    },
+    {
+      "id": "termo-185",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Una lastra più fredda delle pareti circostanti assorbe radiazione e si riscalda. Quale confronto è coerente nel modello di ambiente uniforme?",
+      "options": [
+        "La lastra riflette necessariamente tutta la radiazione.",
+        "La lastra non può emettere perché è più fredda.",
+        "La potenza assorbita supera quella emessa.",
+        "La lastra emette più di quanto assorbe."
+      ],
+      "correct": 2,
+      "explanation": "Con T minore di T_amb il bilancio netto ceduto è negativo, ma l’emissione della lastra continua."
+    },
+    {
+      "id": "termo-186",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Nel bilancio dell’intero sistema Terra-atmosfera, la radiazione scambiata fra superficie e atmosfera è nuova energia proveniente dall’esterno?",
+      "options": [
+        "No: perché l’atmosfera non può emettere radiazione.",
+        "Sì: va aggiunta più volte all’energia solare incidente.",
+        "Sì: ogni riemissione crea energia nuova.",
+        "No: è uno scambio interno al sistema scelto."
+      ],
+      "correct": 3,
+      "explanation": "Per il bilancio complessivo si contano gli scambi attraverso il confine esterno; quelli interni redistribuiscono energia."
+    },
+    {
+      "id": "termo-187",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Un pianeta assorbe mediamente più potenza di quanta ne perda verso lo spazio. Senza altri trasferimenti, che cosa si prevede?",
+      "options": [
+        "Non può emettere radiazione durante il processo.",
+        "Perde energia e tende a raffreddarsi.",
+        "Accumula energia e tende a riscaldarsi.",
+        "Ha necessariamente temperatura costante."
+      ],
+      "correct": 2,
+      "explanation": "Il saldo energetico positivo aumenta l’energia del sistema; il riscaldamento può far crescere l’emissione."
+    },
+    {
+      "id": "termo-188",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Un termometro indica 86 °F. Usa T_°C = (T_°F − 32) diviso 1,8. A quanti gradi Celsius corrisponde?",
+      "options": [
+        "47,8 °C",
+        "54 °C",
+        "122,8 °C",
+        "30 °C"
+      ],
+      "correct": 3,
+      "explanation": "Prima si sottrae 32: resta 54. Ogni grado Celsius vale 1,8 gradi Fahrenheit, quindi si ottengono 30 °C."
+    },
+    {
+      "id": "termo-189",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Un campione è inizialmente a 310 K e si raffredda di 15 °C. Qual è la temperatura finale in kelvin?",
+      "options": [
+        "22 K",
+        "568,15 K",
+        "325 K",
+        "295 K"
+      ],
+      "correct": 3,
+      "explanation": "Un raffreddamento di 15 °C è una variazione di −15 K; 310 K − 15 K = 295 K."
+    },
+    {
+      "id": "termo-190",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Una temperatura di 20 °C aumenta di 18 °F. Sapendo che gli intervalli Fahrenheit sono 1,8 volte quelli Celsius, qual è la temperatura finale?",
+      "options": [
+        "38 °C",
+        "30 °C",
+        "52,4 °C",
+        "12,2 °C"
+      ],
+      "correct": 1,
+      "explanation": "L’aumento equivale a 10 °C; sommato ai 20 °C iniziali dà 30 °C."
+    },
+    {
+      "id": "termo-191",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Un campione di 200 g assorbe 1,8 kJ e si riscalda di 10 K, senza cambiamenti di stato. Quale c si ricava?",
+      "options": [
+        "90 J/(kg · K)",
+        "0,90 J/(kg · K)",
+        "900 J/(kg · K)",
+        "9000 J/(kg · K)"
+      ],
+      "correct": 2,
+      "explanation": "La massa è 0,200 kg e il calore 1800 J. Il prodotto m · ΔT vale 2,0 kg · K: c = 900 J/(kg · K)."
+    },
+    {
+      "id": "termo-192",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Un materiale con c = 500 J/(kg · K) assorbe 4,0 kJ aumentando la temperatura di 20 K, senza cambiare stato. Qual è la massa?",
+      "options": [
+        "4,0 kg",
+        "10 kg",
+        "0,40 kg",
+        "0,040 kg"
+      ],
+      "correct": 2,
+      "explanation": "Ogni kilogrammo richiede 500 · 20 J = 10 kJ per il riscaldamento indicato; 4,0 kJ corrispondono a 0,40 kg."
+    },
+    {
+      "id": "termo-193",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Un corpo con capacità termica costante di 80 J/K assorbe 1,2 kJ e raggiunge 35 °C senza cambiare stato. Da quale temperatura partiva?",
+      "options": [
+        "20 °C",
+        "50 °C",
+        "15 °C",
+        "34,985 °C"
+      ],
+      "correct": 0,
+      "explanation": "Il calore produce un aumento di 1200 J divisi per 80 J/K, cioè 15 K. La temperatura iniziale era 35 °C − 15 °C = 20 °C."
+    },
+    {
+      "id": "termo-194",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Due campioni di massa uguale assorbono lo stesso calore. A aumenta di 8 K, B di 20 K. Quanto vale il rapporto c_A a c_B?",
+      "options": [
+        "12",
+        "1,0",
+        "0,40",
+        "2,5"
+      ],
+      "correct": 3,
+      "explanation": "A pari m e Q, c è inversamente proporzionale a ΔT: il rapporto è 20 a 8, cioè 2,5."
+    },
+    {
+      "id": "termo-195",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Due corpi isolati raggiungono 30 °C. A parte da 50 °C e B da 20 °C, senza cambiamenti di stato. Quanto vale C_A diviso C_B?",
+      "options": [
+        "3,0",
+        "0,50",
+        "1,0",
+        "2,0"
+      ],
+      "correct": 1,
+      "explanation": "A si raffredda di 20 K, B si scalda di 10 K: il bilancio C_A · 20 = C_B · 10 dà il rapporto 0,50."
+    },
+    {
+      "id": "termo-196",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Una tazza con capacità termica costante di 90 J/K passa da 18 °C a 38 °C. Quanto calore assorbe?",
+      "options": [
+        "0,45 kJ",
+        "3,42 kJ",
+        "1,8 kJ",
+        "180 kJ"
+      ],
+      "correct": 2,
+      "explanation": "La variazione è 20 K: Q = 90 · 20 J = 1800 J = 1,8 kJ."
+    },
+    {
+      "id": "termo-197",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Si mescola acqua a 80 °C con 0,30 kg d’acqua a 20 °C per ottenere 40 °C. Stesso c costante, recipiente e dispersioni trascurabili: quanta acqua calda serve?",
+      "options": [
+        "0,075 kg",
+        "0,15 kg",
+        "0,60 kg",
+        "0,30 kg"
+      ],
+      "correct": 1,
+      "explanation": "Ogni kg caldo perde 40 · c; l’acqua fredda assorbe 0,30 · 20 · c. Il bilancio dà m_calda = 0,15 kg."
+    },
+    {
+      "id": "termo-198",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Una barra di 2,0 m si allunga di 0,60 mm per un aumento di 30 K, liberamente. Quale α costante si ricava?",
+      "options": [
+        "1,0 · 10⁻² K⁻¹",
+        "1,0 · 10⁻⁵ K⁻¹",
+        "1,0 · 10⁻⁴ K⁻¹",
+        "3,6 · 10⁻² K⁻¹"
+      ],
+      "correct": 1,
+      "explanation": "0,60 mm = 6,0 · 10⁻⁴ m. Il prodotto L₀ · ΔT vale 60 m · K: α = 1,0 · 10⁻⁵ K⁻¹."
+    },
+    {
+      "id": "termo-199",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Una barra libera lunga 5,0 m ha α = 2,0 · 10⁻⁵ K⁻¹. Quale aumento di temperatura produce un allungamento di 2,0 mm?",
+      "options": [
+        "20 K",
+        "2 K",
+        "50 K",
+        "200 K"
+      ],
+      "correct": 0,
+      "explanation": "Per ogni kelvin la barra si allunga di 0,10 mm. Per ottenere 2,0 mm occorrono 20 K."
+    },
+    {
+      "id": "termo-200",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Un liquido occupa 500 mL e ha β = 1,0 · 10⁻³ K⁻¹ costante. Si scalda di 20 K. Quanto vale il volume finale, trascurando perdite?",
+      "options": [
+        "520 mL",
+        "10 mL",
+        "510 mL",
+        "490 mL"
+      ],
+      "correct": 2,
+      "explanation": "La variazione è 1,0 · 10⁻³ · 500 · 20 mL = 10 mL. Il volume finale è 500 + 10 = 510 mL."
+    },
+    {
+      "id": "termo-201",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Una barra libera di 3,0 m con α = 1,0 · 10⁻⁵ K⁻¹ passa da 80 °C a 20 °C. Qual è ΔL in millimetri?",
+      "options": [
+        "−1,8 mm",
+        "1,8 mm",
+        "−18 mm",
+        "−0,18 mm"
+      ],
+      "correct": 0,
+      "explanation": "ΔT = −60 K; ΔL = 1,0 · 10⁻⁵ · 3,0 · (−60) m = −1,8 mm."
+    },
+    {
+      "id": "termo-202",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Per fondere 80 g di una sostanza già alla sua temperatura di fusione servono 12 kJ. Quanto vale L?",
+      "options": [
+        "150 kJ/kg",
+        "0,15 kJ/kg",
+        "960 kJ/kg",
+        "6,67 kJ/kg"
+      ],
+      "correct": 0,
+      "explanation": "La massa è 0,080 kg. L è l’energia per kg: 12 kJ per 0,080 kg danno 150 kJ/kg."
+    },
+    {
+      "id": "termo-203",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Condensano 15 g di vapore acqueo a 100 °C, a pressione atmosferica. Usa L_v = 2257 kJ/kg. Quanta energia viene ceduta, in valore assoluto?",
+      "options": [
+        "3,3855 kJ",
+        "3,3855 · 10⁴ kJ",
+        "150,47 kJ",
+        "33,855 kJ"
+      ],
+      "correct": 3,
+      "explanation": "15 g sono 0,015 kg. L’energia ceduta in valore assoluto è 0,015 · 2257 kJ = 33,855 kJ."
+    },
+    {
+      "id": "termo-204",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Un riscaldatore trasferisce al ghiaccio 167 W costanti. Quanto tempo serve a fondere 0,10 kg di ghiaccio già a 0 °C, con L = 334 kJ/kg e nessuna dispersione?",
+      "options": [
+        "2 s",
+        "500 s",
+        "200 s",
+        "20 s"
+      ],
+      "correct": 2,
+      "explanation": "La fusione richiede 33,4 kJ = 33400 J. A 167 J al secondo occorrono 200 s."
+    },
+    {
+      "id": "termo-205",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Un campione di 0,20 kg di ghiaccio puro è a 0 °C. Assorbe 16,7 kJ senza dispersioni. Con L = 334 kJ/kg, quale percentuale della massa fonde?",
+      "options": [
+        "5%",
+        "100%",
+        "50%",
+        "25%"
+      ],
+      "correct": 3,
+      "explanation": "Fonde una massa di 0,050 kg, che è un quarto di 0,20 kg: 25%."
+    },
+    {
+      "id": "termo-206",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Una lastra piana di area 2,0 m² e spessore 0,10 m conduce 120 W con ΔT fra le facce di 20 K. In regime stazionario senza sorgenti, qual è λ?",
+      "options": [
+        "0,30 W/(m · K)",
+        "3,0 W/(m · K)",
+        "0,030 W/(m · K)",
+        "30 W/(m · K)"
+      ],
+      "correct": 0,
+      "explanation": "Il prodotto P · s è 12 W · m e A · ΔT è 40 m² · K: λ = 0,30 W/(m · K)."
+    },
+    {
+      "id": "termo-207",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Uno strato omogeneo ha λ = 0,040 W/(m · K), area 5,0 m² e ΔT fra le facce di 20 K. Quale spessore limita la potenza stazionaria a 50 W?",
+      "options": [
+        "4,0 cm",
+        "0,80 cm",
+        "80 cm",
+        "8,0 cm"
+      ],
+      "correct": 3,
+      "explanation": "λ · A · ΔT = 4,0 W · m. Lo spessore richiesto è 0,080 m, cioè 8,0 cm."
+    },
+    {
+      "id": "termo-208",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Un locale perde energia con potenza termica costante di 1,5 kW per 4 minuti. Quanta energia perde?",
+      "options": [
+        "90 kJ",
+        "6,0 kJ",
+        "360 MJ",
+        "360 kJ"
+      ],
+      "correct": 3,
+      "explanation": "1,5 kW = 1,5 kJ/s e 4 minuti = 240 s: l’energia è 360 kJ."
+    },
+    {
+      "id": "termo-209",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Un piccolo corpo ha ε = 1, area 0,010 m² e temperatura 26,85 °C. Usa σ = 5,67 · 10⁻⁸ W/(m² · K⁴). Quanto vale circa la potenza emessa?",
+      "options": [
+        "2,95 · 10⁻⁴ W",
+        "4,59 W",
+        "45,9 W",
+        "459 W"
+      ],
+      "correct": 1,
+      "explanation": "La temperatura assoluta è 300 K. P = 1 · 5,67 · 10⁻⁸ · 0,010 · 300⁴ W ≈ 4,59 W; non si usa la quarta potenza dei Celsius."
+    },
+    {
+      "id": "termo-210",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Una superficie emette 80 W. A stessa temperatura, si raddoppia l’area e si dimezza ε. Qual è la nuova potenza emessa?",
+      "options": [
+        "40 W",
+        "160 W",
+        "80 W",
+        "320 W"
+      ],
+      "correct": 2,
+      "explanation": "I fattori 2 e 0,5 si compensano: la potenza resta 80 W."
+    },
+    {
+      "id": "termo-211",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Un pannello opaco riceve 600 W e ne riflette il 40%. Quanto assorbe?",
+      "options": [
+        "240 W",
+        "360 W",
+        "600 W",
+        "1000 W"
+      ],
+      "correct": 1,
+      "explanation": "Non c’è quota trasmessa: viene assorbito il 60% della potenza incidente, cioè 360 W."
+    },
+    {
+      "id": "termo-212",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Un corpo emette 120 W e assorbe 150 W costanti per 2 minuti. Quanto varia la sua energia per il solo irraggiamento?",
+      "options": [
+        "Aumenta di 32,4 kJ.",
+        "Aumenta di 60 J.",
+        "Aumenta di 3,6 kJ.",
+        "Diminuisce di 3,6 kJ."
+      ],
+      "correct": 2,
+      "explanation": "Il guadagno netto è 30 W per 120 s, cioè 3600 J = 3,6 kJ."
+    },
+    {
+      "id": "termo-213",
+      "category": "termologia",
+      "level": "medium",
+      "prompt": "Un pianeta riceve mediamente 400 W/m² di radiazione e ne riflette il 30%. Se il bilancio con lo spazio è stazionario, quanta potenza per area deve emettere?",
+      "options": [
+        "120 W/m²",
+        "400 W/m²",
+        "520 W/m²",
+        "280 W/m²"
+      ],
+      "correct": 3,
+      "explanation": "Il sistema assorbe il 70% di 400 W/m², cioè 280 W/m². All’equilibrio deve emettere la stessa potenza verso lo spazio."
+    },
+    {
+      "id": "termo-214",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Quale affermazione resta corretta per un sistema chiuso il cui confine si deforma?",
+      "options": [
+        "La deformazione lo rende necessariamente aperto.",
+        "Il suo volume deve restare costante per definizione.",
+        "Può scambiare lavoro senza scambiare materia.",
+        "Non può scambiare energia perché non ha pareti rigide."
+      ],
+      "correct": 2,
+      "explanation": "La chiusura riguarda la materia che attraversa il confine; la deformazione può essere associata a lavoro."
+    },
+    {
+      "id": "termo-215",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Si è verificato soltanto che nessuna materia attraversa un confine. Quale informazione manca per affermare che il sistema è isolato?",
+      "options": [
+        "Il nome del materiale delle pareti.",
+        "L’assenza anche di scambi di energia, compreso il lavoro.",
+        "L’uguaglianza fra massa e capacità termica.",
+        "L’assenza di movimenti microscopici interni."
+      ],
+      "correct": 1,
+      "explanation": "Non basta controllare la materia: un sistema chiuso può scambiare calore o lavoro."
+    },
+    {
+      "id": "termo-216",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Un sistema mantiene temperatura costante mentre riceve e cede continuamente energia. Quale affermazione è giustificata?",
+      "options": [
+        "La temperatura costante non prova l’isolamento.",
+        "I due flussi di energia devono essere entrambi nulli.",
+        "È isolato perché la temperatura non varia.",
+        "Non può essere un sistema termodinamico."
+      ],
+      "correct": 0,
+      "explanation": "Flussi entranti e uscenti possono compensarsi; la costanza di una grandezza non annulla i singoli scambi."
+    },
+    {
+      "id": "termo-217",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Quale formulazione dello zero assoluto è coerente con il capitolo?",
+      "options": [
+        "È il limite inferiore della scala trattata, senza implicare che ogni movimento microscopico scompaia.",
+        "È la temperatura alla quale non esiste più materia.",
+        "È sempre uguale a 0 °C per qualunque scala.",
+        "È il punto in cui tutte le energie possibili valgono necessariamente zero."
+      ],
+      "correct": 0,
+      "explanation": "0 K è il riferimento inferiore della trattazione; non equivale alla scomparsa di materia o di ogni forma di energia."
+    },
+    {
+      "id": "termo-218",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Due corpi, confrontati separatamente con un riferimento C, sono in equilibrio con C alla stessa temperatura mantenuta durante le prove. Che cosa è essenziale per applicare il principio zero?",
+      "options": [
+        "Che il riferimento non contenga alcuna energia interna.",
+        "Che i due corpi abbiano la stessa massa.",
+        "Che i due confronti avvengano sempre simultaneamente.",
+        "Che il riferimento rappresenti la stessa condizione termica nei due confronti."
+      ],
+      "correct": 3,
+      "explanation": "Il confronto deve riferirsi alla stessa temperatura di C; la simultaneità non è obbligatoria se il riferimento è mantenuto nelle stesse condizioni."
+    },
+    {
+      "id": "termo-219",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Quale conclusione non segue dall’uguaglianza di temperatura fra due materiali diversi?",
+      "options": [
+        "Che non vi sia un flusso netto spontaneo dovuto a una differenza di temperatura fra essi.",
+        "Che la loro temperatura possa essere espressa nella stessa scala.",
+        "Che abbiano la stessa energia interna totale.",
+        "Che possano essere in equilibrio termico fra loro."
+      ],
+      "correct": 2,
+      "explanation": "L’energia interna dipende anche da quantità, materiale, stato e riferimento: T uguale non determina U totale uguale."
+    },
+    {
+      "id": "termo-220",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Quale affermazione descrive correttamente un aumento di energia interna?",
+      "options": [
+        "Implica necessariamente passaggio di materia dall’esterno.",
+        "Deve derivare esclusivamente da calore ricevuto.",
+        "Implica sempre un cambiamento chimico.",
+        "Può derivare da calore ricevuto o da lavoro compiuto sul sistema."
+      ],
+      "correct": 3,
+      "explanation": "Calore e lavoro sono modi diversi di trasferire energia e possono entrambi modificare U."
+    },
+    {
+      "id": "termo-221",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Due valori tabulati di c per materiali diversi sono confrontabili per prevedere Q a masse e ΔT uguali solo se:",
+      "options": [
+        "I materiali sono entrambi metalli.",
+        "I due corpi hanno necessariamente lo stesso volume.",
+        "Le masse sono espresse in grammi invece che in kg.",
+        "Le condizioni e gli intervalli delle trasformazioni sono compatibili con quei valori."
+      ],
+      "correct": 3,
+      "explanation": "Un c tabulato non è un valore universale indipendente da fase, temperatura e condizioni della trasformazione."
+    },
+    {
+      "id": "termo-222",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "In quale caso il semplice bilancio ΣQ = 0 fra i corpi non è sufficiente da solo a descrivere l’esperimento?",
+      "options": [
+        "Quando viene compiuto lavoro esterno non trascurabile sul sistema.",
+        "Quando i corpi hanno calori specifici diversi.",
+        "Quando le temperature iniziali sono diverse.",
+        "Quando la capacità termica di una tazza è nota."
+      ],
+      "correct": 0,
+      "explanation": "Un apporto di lavoro esterno modifica il bilancio energetico complessivo; c diversi e tazza si possono già includere nei termini termici."
+    },
+    {
+      "id": "termo-223",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Con due materiali senza cambiamenti di stato, quando le sole masse sono pesi sufficienti per T_eq?",
+      "options": [
+        "Mai, neppure per due quantità dello stesso liquido nelle stesse condizioni.",
+        "Quando il calore specifico è lo stesso e costante nelle condizioni considerate.",
+        "Solo quando la temperatura finale è 0 °C.",
+        "Sempre, anche con c molto diversi."
+      ],
+      "correct": 1,
+      "explanation": "Il fattore comune c si semplifica; se c differisce, i pesi corretti sono m · c."
+    },
+    {
+      "id": "termo-224",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Nel modello che trascura l’ambiente ma include recipiente e contenuto, T_eq descrive:",
+      "options": [
+        "La sola temperatura iniziale del recipiente.",
+        "La temperatura dell’aria esterna anche se non è inclusa nel modello.",
+        "L’equilibrio fra le parti considerate prima che gli scambi trascurati diventino rilevanti.",
+        "La temperatura garantita per sempre in ogni ambiente reale."
+      ],
+      "correct": 2,
+      "explanation": "Il risultato ha il significato e i limiti della scelta di sistema e delle approssimazioni dichiarate."
+    },
+    {
+      "id": "termo-225",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Quale condizione limita l’uso di ΔL = α · L₀ · ΔT con un unico α?",
+      "options": [
+        "La temperatura iniziale deve essere sempre 0 K.",
+        "Il coefficiente deve variare poco nell’intervallo e il corpo deve potersi dilatare liberamente.",
+        "Il corpo deve avere necessariamente massa di 1 kg.",
+        "L’asta deve essere un isolante termico perfetto."
+      ],
+      "correct": 1,
+      "explanation": "Un valore costante e l’allungamento libero sono ipotesi del modello, non proprietà universali di qualunque riscaldamento."
+    },
+    {
+      "id": "termo-226",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "α e β hanno entrambi unità K⁻¹. Questo permette di sostituire sempre α a β nella legge del volume?",
+      "options": [
+        "Sì: lunghezza e volume sono la stessa grandezza.",
+        "No: β si misura in joule e non in K⁻¹.",
+        "No: uguale unità non implica uguale proprietà o uguale valore.",
+        "Sì: ogni grandezza con la stessa unità è identica."
+      ],
+      "correct": 2,
+      "explanation": "I coefficienti si riferiscono a variazioni relative di grandezze diverse: la compatibilità dimensionale non ne prova l’identità."
+    },
+    {
+      "id": "termo-227",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Un valore positivo costante di β dell’acqua è dato vicino a 20 °C. Quale uso non è giustificato?",
+      "options": [
+        "Esprimerlo in K⁻¹.",
+        "Estenderlo automaticamente a tutto il tratto da 0 °C a 8 °C.",
+        "Associarlo alla variazione di volume anziché alla massa.",
+        "Usarlo per un piccolo aumento vicino a 20 °C se le condizioni restano compatibili."
+      ],
+      "correct": 1,
+      "explanation": "Attraverso il minimo di volume intorno a 4 °C cambia il comportamento: un unico β positivo non descrive tutto il tratto."
+    },
+    {
+      "id": "termo-228",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Il ghiaccio di azoto di Plutone può deformarsi e scorrere molto lentamente su tempi geologici. Quale generalizzazione va evitata?",
+      "options": [
+        "Che una deformazione possa avvenire senza fusione completa.",
+        "Che ogni materiale classificato solido sia incapace di qualunque lento trasporto di materia.",
+        "Che il ghiaccio sia costituito da particelle.",
+        "Che una grande scala temporale possa contare nell’osservazione."
+      ],
+      "correct": 1,
+      "explanation": "Il caso del capitolo mostra il limite temporale del modello introduttivo di un solido rigido; non impone che il materiale sia liquido."
+    },
+    {
+      "id": "termo-229",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Quale descrizione evita di confondere un solido macroscopicamente fermo con particelle immobili?",
+      "options": [
+        "Ogni solido è composto da particelle lontane che non interagiscono.",
+        "Le particelle possono oscillare attorno a posizioni di equilibrio senza flusso complessivo del solido.",
+        "Ogni oscillazione richiede lo scorrimento del solido come un gas.",
+        "L’assenza di flusso dimostra che tutte le particelle sono ferme."
+      ],
+      "correct": 1,
+      "explanation": "Moto microscopico e trasporto macroscopico non coincidono: la rigidità non prova immobilità delle particelle."
+    },
+    {
+      "id": "termo-230",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Il tratto orizzontale della curva di fusione dell’acqua del capitolo è riferito a:",
+      "options": [
+        "Unicamente ghiaccio che si riscalda da −20 °C a −10 °C.",
+        "Qualunque miscela, a qualunque pressione variabile.",
+        "Acqua pura a pressione atmosferica costante durante il passaggio.",
+        "Un liquido che evapora necessariamente soltanto dalla superficie a ogni temperatura."
+      ],
+      "correct": 2,
+      "explanation": "Purezza, pressione e trasformazione specificata sono necessarie per attribuire al plateau il significato usato nel modello."
+    },
+    {
+      "id": "termo-231",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Quale informazione distingue il brinamento dalla solidificazione di goccioline su una superficie?",
+      "options": [
+        "L’assenza di ogni cessione di energia nel brinamento.",
+        "La massa della superficie, indipendentemente dall’acqua.",
+        "La presenza obbligatoria di una diversa sostanza finale.",
+        "Lo stato iniziale dell’acqua: gas nel primo caso, liquido nel secondo."
+      ],
+      "correct": 3,
+      "explanation": "Entrambi possono formare ghiaccio, ma partono da stati diversi e seguono trasformazioni diverse."
+    },
+    {
+      "id": "termo-232",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Il valore L_v dell’acqua dato a circa 100 °C può essere usato senza verifica per evaporazione del sudore a temperatura della pelle?",
+      "options": [
+        "No: perché l’evaporazione non richiede mai energia.",
+        "Sì: ogni valore tabulato è invariabile a qualunque temperatura.",
+        "No: il calore latente dipende anche dalle condizioni e dalla temperatura.",
+        "Sì: perché sudore e acqua non possono scambiare energia con la pelle."
+      ],
+      "correct": 2,
+      "explanation": "Il capitolo distingue i valori di riferimento da quelli richiesti in altre condizioni; il principio energetico resta lo stesso."
+    },
+    {
+      "id": "termo-233",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Nel video di barrette riscaldate, il tempo necessario a fondere cera misura da solo la conducibilità?",
+      "options": [
+        "No: incidono anche geometria e condizioni di riscaldamento.",
+        "Sì: basta che tutte le barrette abbiano lo stesso colore.",
+        "Sì: è una misura diretta di λ indipendente da ogni altro fattore.",
+        "No: perché i metalli non conducono energia."
+      ],
+      "correct": 0,
+      "explanation": "Il tempo di una prova transitoria non isola automaticamente un’unica proprietà del materiale."
+    },
+    {
+      "id": "termo-234",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "In una parete in regime termico stazionario, con facce a temperature diverse, quale affermazione è corretta?",
+      "options": [
+        "La parete non può avere un gradiente di temperatura.",
+        "Può passare energia continuamente senza accumulo locale.",
+        "Le temperature delle facce devono essere uguali.",
+        "Il flusso è necessariamente nullo perché T non cambia nel tempo."
+      ],
+      "correct": 1,
+      "explanation": "Stazionario significa che il profilo non cambia nel tempo, non che la potenza condotta sia zero."
+    },
+    {
+      "id": "termo-235",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Una finestra ha due vetri e un’intercapedine in cui possono avvenire più scambi. La formula per un’unica parete omogenea descrive da sola tutto il sistema?",
+      "options": [
+        "No: occorre considerare l’insieme degli strati e gli altri meccanismi pertinenti.",
+        "Sì: l’aria fra i vetri non conta mai.",
+        "No: perché l’energia non può attraversare una finestra.",
+        "Sì: basta usare lo spessore totale e il λ del vetro."
+      ],
+      "correct": 0,
+      "explanation": "La struttura stratificata e gli scambi nell’intercapedine non equivalgono automaticamente a una sola lastra omogenea."
+    },
+    {
+      "id": "termo-236",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Quale formulazione è valida per una ventola che rinnova l’aria su una superficie?",
+      "options": [
+        "Il ricambio sottrae energia anche se l’aria è più calda e non c’è evaporazione.",
+        "La convezione forzata non può trasferire energia verso un corpo freddo.",
+        "Aumentare il ricambio non stabilisce da solo se la superficie si scalda o si raffredda.",
+        "L’aria in movimento è sempre più fredda della superficie."
+      ],
+      "correct": 2,
+      "explanation": "Il verso termico dipende dalle temperature relative; il moto può intensificare sia raffreddamento sia riscaldamento."
+    },
+    {
+      "id": "termo-237",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Nella formula P_netta = ε · σ · A · (T⁴ − T_amb⁴), T_amb rappresenta:",
+      "options": [
+        "Qualunque media aritmetica fra temperature di aria e Sole.",
+        "Sempre e soltanto la temperatura dell’aria misurata lontano.",
+        "La temperatura del corpo meno 273,15.",
+        "La temperatura delle superfici circostanti nel modello uniforme."
+      ],
+      "correct": 3,
+      "explanation": "La radiazione è scambiata con le superfici circostanti; la temperatura dell’aria non le sostituisce automaticamente."
+    },
+    {
+      "id": "termo-238",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Una superficie riflette molto bene la luce visibile. Da questo solo dato si può quantificare la sua emissività infrarossa?",
+      "options": [
+        "Sì: riflessione visibile ed emissività infrarossa sono sempre lo stesso numero.",
+        "No: perché nessuna superficie emette infrarosso.",
+        "Sì: ogni superficie chiara ha necessariamente ε = 0 in ogni banda.",
+        "No: l’interazione dipende anche dalla lunghezza d’onda."
+      ],
+      "correct": 3,
+      "explanation": "Il comportamento nella banda visibile non determina da solo quello nell’infrarosso."
+    },
+    {
+      "id": "termo-239",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Quale formulazione dell’equilibrio radiativo è corretta per corpi a temperatura positiva?",
+      "options": [
+        "Ogni corpo deve trovarsi a 0 K.",
+        "Le potenze assorbita ed emessa si compensano, pur potendo essere entrambe non nulle.",
+        "La potenza emessa deve annullarsi separatamente.",
+        "La radiazione incidente deve essere tutta riflessa."
+      ],
+      "correct": 1,
+      "explanation": "Un saldo nullo non richiede che cessino i singoli scambi radiativi."
+    },
+    {
+      "id": "termo-240",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Una scatola sigillata contiene due blocchi a temperature diverse. Dall’esterno non cambia la temperatura media osservata, ma non si sono controllati gli scambi energetici. Si può concludere che è isolata e che non avviene alcun trasferimento interno?",
+      "options": [
+        "Si può provare soltanto che non possiedono energia interna.",
+        "No: né l’isolamento né l’assenza di scambi interni seguono da quei soli dati.",
+        "Si può provare soltanto che i blocchi sono alla stessa temperatura.",
+        "Sì: la media costante prova entrambe le cose."
+      ],
+      "correct": 1,
+      "explanation": "La chiusura impedisce passaggi di materia; una media costante può coesistere con scambi esterni compensati e con scambi fra i blocchi."
+    },
+    {
+      "id": "termo-241",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Una capsula calda è dentro un recipiente sigillato più freddo. Si sceglie prima come sistema la capsula, poi l’insieme capsula-recipiente. Lo stesso trasferimento capsula-recipiente è:",
+      "options": [
+        "Uno scambio esterno in entrambi i casi anche se non esce energia dall’insieme.",
+        "Un flusso di materia qualunque sia il confine.",
+        "Assente nel primo caso e creato soltanto nel secondo.",
+        "Uno scambio attraverso il primo confine e uno scambio interno al secondo."
+      ],
+      "correct": 3,
+      "explanation": "La scelta di sistema cambia dove contabilizzare il trasferimento, non il fenomeno fisico."
+    },
+    {
+      "id": "termo-242",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Un recipiente sigillato è termicamente isolato. Un dispositivo esterno compie lavoro su un agitatore interno, senza passaggi di materia. Il contenuto si scalda. Quale interpretazione è coerente?",
+      "options": [
+        "È aperto perché il contenuto si scalda.",
+        "È isolato perfetto perché non passa calore attraverso le pareti.",
+        "È chiuso ma non isolato rispetto a tutti gli scambi di energia.",
+        "La conservazione dell’energia è necessariamente violata."
+      ],
+      "correct": 2,
+      "explanation": "L’isolamento termico non impedisce automaticamente il lavoro: l’energia fornita dall’agitatore può aumentare U."
+    },
+    {
+      "id": "termo-243",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Due piccoli campioni vengono misurati in successione con una sonda di grande capacità termica, senza ripristinare o controllare la temperatura della sonda. Le letture finali sono uguali. Provano che i campioni avevano la stessa temperatura iniziale?",
+      "options": [
+        "Sì: il principio zero prova qualunque uguaglianza di temperature iniziali.",
+        "No: la sonda può aver modificato i campioni e non costituiva un riferimento controllato.",
+        "No: perché il principio zero non vale per materiali diversi.",
+        "Sì: una sonda grande non scambia energia."
+      ],
+      "correct": 1,
+      "explanation": "Le letture descrivono gli equilibri raggiunti con la sonda; la perturbazione e il riferimento cambiato impediscono la deduzione sugli stati iniziali."
+    },
+    {
+      "id": "termo-244",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Si disegna Q contro l’aumento di temperatura di uno stesso corpo, prima in K e poi in °F. Il modello senza cambiamenti di stato resta lineare. La pendenza numerica sarà la stessa?",
+      "options": [
+        "Sì: perché la capacità termica fisica deve diventare nulla.",
+        "No: un grado Fahrenheit è un intervallo minore, quindi richiede meno energia di un kelvin.",
+        "Sì: basta cambiare il nome dell’unità senza cambiare il numero.",
+        "No: il grafico diventa necessariamente curvo."
+      ],
+      "correct": 1,
+      "explanation": "La proprietà del corpo non cambia, ma cambia il valore numerico espresso per unità di intervallo; 1 K equivale a 1,8 °F."
+    },
+    {
+      "id": "termo-245",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Due blocchi con capacità termiche diverse ricevono lo stesso calore partendo dalla stessa T. Poi sono messi in contatto in isolamento. Quale descrizione è coerente?",
+      "options": [
+        "Non possono raggiungere equilibrio senza perdere materia.",
+        "I due restano necessariamente alla stessa T perché hanno ricevuto uguale Q.",
+        "Quello con capacità maggiore diventa sempre il più caldo.",
+        "Quello con capacità minore parte più caldo dopo il riscaldamento e cede energia all’altro."
+      ],
+      "correct": 3,
+      "explanation": "Uguale Q non produce uguale ΔT se C differisce. Il successivo contatto ridistribuisce l’energia fino a T comune."
+    },
+    {
+      "id": "termo-246",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Due porzioni dello stesso liquido sono isolate dall’esterno. Si fornisce un’energia nota prima tutta a una porzione oppure distribuita fra entrambe; poi si raggiunge equilibrio. A stessi stati iniziali e senza cambiamenti di stato, la T finale dipende dalla ripartizione iniziale dell’energia fornita?",
+      "options": [
+        "No, se l’energia totale fornita è la stessa e non ci sono altri scambi.",
+        "Sì, perché il calore resta per sempre nella porzione che lo riceve.",
+        "Sì, soltanto la porzione piccola determina l’equilibrio.",
+        "No, perché la temperatura non può aumentare."
+      ],
+      "correct": 0,
+      "explanation": "Il bilancio dell’insieme fissa la T finale; la distribuzione iniziale può cambiare i transitori, non il totale energetico."
+    },
+    {
+      "id": "termo-247",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "A e B assorbono lo stesso Q. A ha massa doppia e c dimezzato rispetto a B, senza cambiamenti di stato. Se partono dalla stessa T, quale confronto è corretto?",
+      "options": [
+        "A cambia temperatura di un quarto.",
+        "Raggiungono la stessa T, perché le capacità termiche sono uguali.",
+        "B cambia temperatura del doppio perché è più leggero.",
+        "A raggiunge necessariamente T doppia."
+      ],
+      "correct": 1,
+      "explanation": "I fattori 2 e 0,5 si compensano in C = m · c; a uguale Q corrisponde uguale ΔT."
+    },
+    {
+      "id": "termo-248",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Due liquidi hanno masse uguali e c diversi. Uno studente ottiene come T_eq la media aritmetica e conclude che il calcolo è corretto perché il risultato è fra le T iniziali. Il controllo è sufficiente?",
+      "options": [
+        "Sì: ogni valore fra le T iniziali soddisfa il bilancio.",
+        "Sì: le masse uguali eliminano qualsiasi differenza di c.",
+        "No: stare nell’intervallo è necessario, ma non verifica i pesi m · c.",
+        "No: l’equilibrio deve sempre cadere fuori dall’intervallo."
+      ],
+      "correct": 2,
+      "explanation": "Il controllo di plausibilità non sostituisce il bilancio: i pesi sono le capacità termiche, non soltanto le masse."
+    },
+    {
+      "id": "termo-249",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Un modello trova T_eq dalla conservazione dell’energia ma non specifica contatti e geometrie. Può stabilire anche quanto tempo impiegano i corpi a raggiungerla?",
+      "options": [
+        "Sì: la T finale fissa un tempo universale.",
+        "No: il bilancio finale non determina da solo la rapidità degli scambi.",
+        "No: perché nessun modello può prevedere l’equilibrio.",
+        "Sì: basta conoscere la somma delle masse."
+      ],
+      "correct": 1,
+      "explanation": "Per la dinamica servono informazioni sui trasferimenti, oltre a quelle che determinano lo stato finale."
+    },
+    {
+      "id": "termo-250",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Si vuole usare come indicatore termico un liquido dentro un recipiente quasi indeformabile. Se il liquido ha β positivo, perché un capillare sottile migliora la lettura rispetto a una cavità larga?",
+      "options": [
+        "La sezione piccola annulla β.",
+        "Lo stesso volume in eccesso occupa un tratto più lungo in una sezione piccola.",
+        "Il capillare moltiplica l’energia interna del liquido.",
+        "Un capillare sottile impedisce al liquido di raggiungere equilibrio."
+      ],
+      "correct": 1,
+      "explanation": "La dilatazione produce un volume aggiuntivo; distribuirlo su una sezione piccola rende maggiore lo spostamento del livello, senza creare energia."
+    },
+    {
+      "id": "termo-251",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Un liquido si dilata più del vetro del termometro. Sostituendo il vetro con un recipiente che si espande ancora più del liquido, si può assumere la stessa salita del livello?",
+      "options": [
+        "Sì: la dilatazione del recipiente si somma sempre alla salita.",
+        "No: il liquido deve necessariamente congelare.",
+        "No: conta il volume del liquido rispetto alla capacità del recipiente.",
+        "Sì: conta soltanto che il liquido abbia β positivo."
+      ],
+      "correct": 2,
+      "explanation": "Il segnale può ridursi o invertirsi se cambia la dilatazione relativa: non basta il segno di β del liquido."
+    },
+    {
+      "id": "termo-252",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Una barra corta con α grande e una lunga con α piccolo subiscono lo stesso ΔT. Senza conoscere il prodotto α · L₀, si può ordinare l’allungamento assoluto?",
+      "options": [
+        "No: perché ΔL non dipende da nessuno dei due.",
+        "Sì: vince sempre α maggiore.",
+        "Sì: vince sempre la barra più lunga.",
+        "No: i due fattori possono compensarsi in modi diversi."
+      ],
+      "correct": 3,
+      "explanation": "La variazione assoluta dipende dal prodotto α · L₀; un confronto di un solo fattore non basta."
+    },
+    {
+      "id": "termo-253",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Due recipienti identici contengono la stessa acqua: uno lascia spazio per l’espansione, l’altro la confina rigidamente. Entrambi congelano. Perché il rischio di rottura può essere diverso?",
+      "options": [
+        "L’aumento di volume ha conseguenze diverse se l’espansione è ostacolata.",
+        "La stessa acqua ha necessariamente L diverso perché cambia il tappo.",
+        "Nel recipiente rigido non può essere ceduta energia.",
+        "Nel recipiente con spazio il ghiaccio diventa più denso del liquido."
+      ],
+      "correct": 0,
+      "explanation": "Il passaggio di stato e i vincoli geometrici vanno distinti: il confinamento può produrre pressioni elevate."
+    },
+    {
+      "id": "termo-254",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "In una vasca l’acqua profonda è a 4 °C e quella superiore a 1 °C. Si scalda solo lo strato superiore fino a 3 °C. Raggiungerà necessariamente una densità maggiore dello strato a 4 °C e lo attraverserà per questo?",
+      "options": [
+        "No: perché l’acqua fra 1 e 3 °C si dilata sempre.",
+        "No: si avvicina alla densità massima ma resta meno denso dell’acqua a circa 4 °C.",
+        "Sì: perché 3 °C è maggiore di 1 °C.",
+        "Sì: ogni aumento di T rende l’acqua più densa di qualunque strato."
+      ],
+      "correct": 1,
+      "explanation": "La densità cresce verso il massimo, ma il confronto va fatto con lo strato circostante, non con lo stato precedente del solo strato riscaldato."
+    },
+    {
+      "id": "termo-255",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Due liquidi A e B hanno lo stesso volume. A ha densità doppia e calore specifico dimezzato rispetto a B; è anche più viscoso. A parità di calore assorbito e senza cambiamenti di stato, quale confronto fra gli aumenti di temperatura è corretto?",
+      "options": [
+        "B si scalda del doppio perché la sua densità è minore.",
+        "A si scalda di meno perché è più viscoso.",
+        "Sono uguali: massa e calore specifico si compensano nella capacità termica.",
+        "A si scalda del doppio perché il suo c è dimezzato."
+      ],
+      "correct": 2,
+      "explanation": "A volume uguale, densità doppia significa massa doppia. Il prodotto m · c è uguale per i due liquidi; la diversa viscosità non modifica il bilancio del calore già assorbito."
+    },
+    {
+      "id": "termo-256",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Un metallo conduce energia lungo un supporto fermo. Gli elettroni mobili implicano che l’intera barra trasporti materia da un’estremità all’altra come una corrente d’aria?",
+      "options": [
+        "No: possono contribuire alla conduzione senza quel flusso complessivo della barra.",
+        "Sì: ogni elettrone trascina necessariamente un pezzo di barra.",
+        "No: perché gli elettroni non possono trasferire energia.",
+        "Sì: si tratta soltanto di convezione macroscopica del metallo."
+      ],
+      "correct": 0,
+      "explanation": "La descrizione microscopica della conduzione non coincide con trasporto complessivo della struttura solida."
+    },
+    {
+      "id": "termo-257",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Si fornisce energia a un materiale puro durante la fusione a pressione costante. Un modello assume che ogni joule debba aumentare la temperatura. Quale conseguenza segnala l’errore?",
+      "options": [
+        "Non rappresenta l’energia associata al cambiamento di organizzazione durante la sosta termica.",
+        "Distingue correttamente ogni forma di energia microscopica.",
+        "Predice necessariamente il giusto calore latente.",
+        "Dimostra che durante la fusione non può essere assorbita energia."
+      ],
+      "correct": 0,
+      "explanation": "Usare solo l’aumento di temperatura trascura il contributo di fase e non descrive il plateau."
+    },
+    {
+      "id": "termo-258",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "In isolamento si mescolano acqua calda e ghiaccio a 0 °C. L’energia che l’acqua può cedere raffreddandosi fino a 0 °C è minore di quella necessaria a fondere tutto il ghiaccio. Quale previsione è coerente?",
+      "options": [
+        "Fonde comunque tutto e l’equilibrio è sopra 0 °C.",
+        "Resta ghiaccio e l’equilibrio può essere a 0 °C.",
+        "La massa totale scompare in parte.",
+        "L’acqua finale deve avere temperatura inferiore a 0 °C nel modello ordinario."
+      ],
+      "correct": 1,
+      "explanation": "L’energia disponibile non completa la fusione: coesistono ghiaccio e liquido alla temperatura del passaggio."
+    },
+    {
+      "id": "termo-259",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Uno studente mescola acqua calda e ghiaccio a 0 °C e tratta il ghiaccio come acqua liquida già a 0 °C nella media pesata. Quale contributo manca?",
+      "options": [
+        "L’energia necessaria per la fusione prima dell’eventuale riscaldamento del liquido ottenuto.",
+        "Soltanto il volume esterno del recipiente.",
+        "Soltanto una conversione fra Celsius e kelvin.",
+        "Nessuno: ghiaccio e acqua hanno sempre uguale energia nello stesso stato."
+      ],
+      "correct": 0,
+      "explanation": "La temperatura comune non elimina la differenza fra stati: il passaggio da ghiaccio a liquido richiede energia latente."
+    },
+    {
+      "id": "termo-260",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "In uno scambiatore un vapore condensa e cede energia a un liquido che una pompa porta altrove. Quale descrizione separa i due compiti?",
+      "options": [
+        "La condensazione trasporta tutta la materia fino alla pompa esterna senza contatto.",
+        "La condensazione libera energia; il liquido in moto la trasporta verso altre zone.",
+        "Il cambiamento di stato rende inutile ogni movimento del liquido.",
+        "La pompa produce necessariamente tutto il calore latente del vapore."
+      ],
+      "correct": 1,
+      "explanation": "Il trasferimento energetico di fase e il trasporto con un fluido sono meccanismi collegati ma distinti."
+    },
+    {
+      "id": "termo-261",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Un liquido evapora sotto la temperatura di ebollizione mentre un altro bolle. È corretto assegnare al primo Q = 0 perché non mostra una sosta a 100 °C?",
+      "options": [
+        "Sì: soltanto le bolle consumano energia.",
+        "No: anche l’evaporazione richiede energia, e 100 °C non è un criterio universale.",
+        "No: perché l’evaporazione è sempre combustione.",
+        "Sì: ogni processo sotto 100 °C è puramente meccanico."
+      ],
+      "correct": 1,
+      "explanation": "Bolle e temperatura di riferimento non decidono da sole se è coinvolto calore latente."
+    },
+    {
+      "id": "termo-262",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Un sistema di raffreddamento ha tubi metallici poco conduttori e fluido già in moto rapido. Migliorare solo la portata garantisce lo stesso risultato di migliorare anche la conduzione nelle pareti?",
+      "options": [
+        "Sì: una portata elevata annulla ogni resistenza dei solidi.",
+        "No: il percorso termico comprende passaggi distinti che possono limitarsi a vicenda.",
+        "Sì: la conduzione non conta se c’è un liquido.",
+        "No: perché un fluido in moto non porta energia interna."
+      ],
+      "correct": 1,
+      "explanation": "La convezione non sostituisce il trasferimento attraverso le parti solide; un tratto poco efficace può limitare l’insieme."
+    },
+    {
+      "id": "termo-263",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Una lamina metallica lucida collega direttamente un oggetto caldo a un supporto freddo. Il suo basso ε prova che il collegamento conduca poco?",
+      "options": [
+        "No: bassa emissività e bassa conducibilità sono proprietà diverse.",
+        "No: perché il metallo lucido non emette nessuna radiazione.",
+        "Sì: la lamina deve essere termicamente isolante.",
+        "Sì: un basso ε annulla ogni trasferimento per contatto."
+      ],
+      "correct": 0,
+      "explanation": "Il rivestimento può limitare lo scambio radiativo ma la continuità metallica resta una via conduttiva."
+    },
+    {
+      "id": "termo-264",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Due pareti hanno stessi λ, area, spessore e temperature delle facce in regime stazionario. L’aria esterna è diversa nei due esperimenti. Può cambiare la potenza nel muro mantenendo davvero fissati tutti quei dati?",
+      "options": [
+        "No, nel modello di Fourier la potenza del muro è già determinata dai dati fissati.",
+        "Sì: la temperatura dell’aria sostituisce sempre quella della faccia.",
+        "Sì: l’aria annulla la conduzione in ogni caso.",
+        "No: perché qualunque potenza stazionaria è zero."
+      ],
+      "correct": 0,
+      "explanation": "A parità dei dati del muro, il modello dà uguale P; condizioni esterne diverse possono richiedere azioni diverse per mantenere quelle facce."
+    },
+    {
+      "id": "termo-265",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Un isolante sfrutta cavità con gas quasi fermo. Una modifica unisce le cavità in un grande spazio in cui il gas circola. Perché non si può dedurre il nuovo isolamento dal solo λ del gas?",
+      "options": [
+        "La modifica rende possibile un trasporto di energia legato al moto del gas.",
+        "Ogni cavità grande elimina l’irraggiamento.",
+        "Il volume maggiore rende λ per definizione infinito.",
+        "Il gas diventa un solido cristallino."
+      ],
+      "correct": 0,
+      "explanation": "Il modello di conduzione del gas fermo non comprende automaticamente i moti convettivi introdotti dalla nuova geometria."
+    },
+    {
+      "id": "termo-266",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Una ventola dentro una scatola termicamente isolata ridistribuisce energia da un oggetto caldo all’aria più fredda. Trascurando il lavoro del motore, il solo rimescolamento deve abbassare l’energia totale dell’insieme?",
+      "options": [
+        "Sì: il raffreddamento dell’oggetto prova una perdita esterna.",
+        "No: perché l’aria non può ricevere energia.",
+        "No: può uniformare le temperature senza sottrarre energia al sistema complessivo.",
+        "Sì: la ventola distrugge l’energia in eccesso."
+      ],
+      "correct": 2,
+      "explanation": "Raffreddamento di una parte e perdita dell’insieme non coincidono: l’energia passa all’aria dentro il confine."
+    },
+    {
+      "id": "termo-267",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Una pompa fa circolare un liquido in un ambiente con gravità trascurabile. Il venir meno della normale convezione naturale elimina anche questo trasporto?",
+      "options": [
+        "Sì: nessun fluido può muoversi senza gravità.",
+        "No: perché il liquido deve evaporare completamente.",
+        "No: il moto può essere imposto dalla pompa anche senza la normale spinta di galleggiamento.",
+        "Sì: naturale e forzata richiedono entrambe la stessa causa."
+      ],
+      "correct": 2,
+      "explanation": "L’origine del movimento è diversa: il trasporto forzato non richiede il meccanismo gravitazionale della convezione naturale."
+    },
+    {
+      "id": "termo-268",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Un dispositivo caldo è esposto al vuoto, sostenuto da un collegamento solido. Quali vie di perdita restano possibili?",
+      "options": [
+        "Irraggiamento e conduzione attraverso il supporto.",
+        "Solo convezione naturale nel vuoto.",
+        "Nessuna, perché senza aria ogni scambio è impossibile.",
+        "Solo evaporazione, anche senza materiale evaporante."
+      ],
+      "correct": 0,
+      "explanation": "Il vuoto elimina il normale trasporto convettivo del gas, non la radiazione né i contatti solidi."
+    },
+    {
+      "id": "termo-269",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Si confronta l’emissione di una superficie a 20 °C e a 40 °C. È corretto moltiplicare la prima potenza per 16?",
+      "options": [
+        "Sì: il rapporto 40 a 20 determina sempre il rapporto delle T assolute.",
+        "Sì: le origini delle scale si cancellano in una quarta potenza.",
+        "No: perché l’emissione non dipende dalla temperatura.",
+        "No: il fattore 16 richiede il raddoppio dei kelvin, non dei Celsius."
+      ],
+      "correct": 3,
+      "explanation": "Convertendo si ottengono circa 293 K e 313 K: non si tratta di temperature assolute in rapporto 2."
+    },
+    {
+      "id": "termo-270",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Due rivestimenti hanno la stessa emissività infrarossa, area e temperatura, ma uno assorbe meno radiazione solare. A uguale illuminazione, che cosa si può dire del solo bilancio radiativo istantaneo?",
+      "options": [
+        "Devono avere sempre lo stesso bilancio perché ε è uguale.",
+        "Quello che assorbe meno Sole emette necessariamente zero infrarosso.",
+        "Quello che assorbe meno Sole ha un apporto radiativo netto minore, a emissione infrarossa uguale.",
+        "Non si può confrontare perché l’energia solare non conta come radiazione."
+      ],
+      "correct": 2,
+      "explanation": "Il contributo solare e l’emissione termica vanno separati; a T e ε uguali l’emissione è uguale, ma l’assorbimento solare differisce."
+    },
+    {
+      "id": "termo-271",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Un sensore misura che un corpo emette più potenza di prima. Senza informazioni sulla potenza assorbita, si può concludere che si stia raffreddando?",
+      "options": [
+        "Sì: più emissione implica sempre perdita netta.",
+        "No: potrebbe assorbire una potenza ancora maggiore.",
+        "No: perché una misura di emissione è sempre priva di significato.",
+        "Sì: assorbire ed emettere non possono coesistere."
+      ],
+      "correct": 1,
+      "explanation": "Il segno del bilancio dipende dalla differenza fra contributi, non dal solo aumento di uno."
+    },
+    {
+      "id": "termo-272",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Una lamina a bassa emissività mostra in termografia una zona simile alla sagoma di una mano vicina, senza contatto. Questo dimostra che quella zona della lamina ha la stessa T della mano?",
+      "options": [
+        "No: perché una mano non emette radiazione termica.",
+        "Sì: ogni segnale infrarosso proviene solo dalla temperatura locale.",
+        "No: può trattarsi soprattutto di radiazione della mano riflessa.",
+        "Sì: la mano riscalda necessariamente ogni zona fino alla propria T."
+      ],
+      "correct": 2,
+      "explanation": "Su superfici riflettenti la radiazione da altre direzioni può contribuire molto al segnale rilevato."
+    },
+    {
+      "id": "termo-273",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Un pianeta aumenta l’assorbimento dell’infrarosso atmosferico senza aumentare l’energia solare assorbita dall’intero sistema. Può la superficie emettere più radiazione nello stato finale?",
+      "options": [
+        "Sì: gli scambi interni e la temperatura possono cambiare pur con lo stesso apporto solare complessivo.",
+        "No: la superficie deve sempre emettere soltanto una volta l’energia solare che la colpisce.",
+        "No: perché l’infrarosso non trasporta energia.",
+        "Sì: perché l’atmosfera crea energia nuova dal nulla."
+      ],
+      "correct": 0,
+      "explanation": "L’energia può essere scambiata più volte internamente; il bilancio con lo spazio non identifica ciascun flusso interno con l’ingresso solare."
+    },
+    {
+      "id": "termo-274",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Due corpi uguali tranne che per l’emissività sono inizialmente più caldi delle stesse pareti uniformi. Scambiano energia solo per irraggiamento, con ε positivo costante e capacità termiche uguali. Ridurre ε cambia la temperatura di equilibrio finale o la rapidità del raffreddamento?",
+      "options": [
+        "Rende la temperatura finale necessariamente più alta delle pareti.",
+        "Non cambia nulla, perché ε si può sempre eliminare anche dal confronto dei flussi.",
+        "Rallenta l’avvicinamento, ma la temperatura finale resta quella delle pareti.",
+        "Rende la temperatura finale necessariamente più bassa delle pareti."
+      ],
+      "correct": 2,
+      "explanation": "ε riduce la potenza netta a ogni coppia di temperature, ma il saldo nullo resta a T = T_amb. A capacità uguale, un flusso minore implica una variazione termica più lenta."
+    },
+    {
+      "id": "termo-275",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Si mescolano 0,10 kg d’acqua a 80 °C e 0,10 kg a 20 °C in una tazza inizialmente a 20 °C. L’equilibrio isolato è a 40 °C. Con c_acqua = 4200 J/(kg · K), quale capacità termica ha la tazza?",
+      "options": [
+        "840 J/K",
+        "210 J/K",
+        "420 J/K",
+        "0 J/K"
+      ],
+      "correct": 2,
+      "explanation": "L’acqua calda cede 16,8 kJ, quella fredda ne assorbe 8,4. La tazza assorbe i restanti 8,4 kJ per un aumento di 20 K: C = 420 J/K."
+    },
+    {
+      "id": "termo-276",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Un blocco di 0,10 kg a 100 °C viene immerso in 0,20 kg d’acqua a 20 °C in una tazza a 20 °C con C = 100 J/K. L’equilibrio è a 25 °C. Senza dispersioni o cambiamenti di stato e con c_acqua = 4200 J/(kg · K), quanto vale c del blocco?",
+      "options": [
+        "Circa 940 J/(kg · K)",
+        "Circa 627 J/(kg · K)",
+        "Circa 560 J/(kg · K)",
+        "Circa 470 J/(kg · K)"
+      ],
+      "correct": 1,
+      "explanation": "Acqua e tazza assorbono 4200 J + 500 J = 4700 J. Il blocco si raffredda di 75 K: 0,10 · c · 75 = 4700, quindi c ≈ 627 J/(kg · K)."
+    },
+    {
+      "id": "termo-277",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Si mescolano 0,20 kg d’acqua a 60 °C e 0,20 kg a 20 °C. Il recipiente è trascurabile, ma si perde calore all’esterno e la T finale è 35 °C. Con c = 4200 J/(kg · K), quanta energia è uscita dal sistema acqua?",
+      "options": [
+        "16,8 kJ",
+        "0 kJ",
+        "4,2 kJ",
+        "8,4 kJ"
+      ],
+      "correct": 3,
+      "explanation": "Senza perdite l’equilibrio sarebbe a 40 °C. L’acqua totale ha C = 1680 J/K: la differenza di 5 K corrisponde a 8,4 kJ ceduti all’esterno."
+    },
+    {
+      "id": "termo-278",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Un riscaldatore trasferisce 500 W termici costanti a 0,50 kg d’acqua e alla sua tazza con C = 100 J/K. Entrambe passano da 20 °C a 40 °C senza dispersioni. Usa c_acqua = 4200 J/(kg · K). Quanto dura il riscaldamento?",
+      "options": [
+        "88 s",
+        "4 s",
+        "176 s",
+        "84 s"
+      ],
+      "correct": 0,
+      "explanation": "La capacità totale è 2100 + 100 = 2200 J/K. Servono 2200 · 20 J = 44 kJ; a 500 W occorrono 88 s."
+    },
+    {
+      "id": "termo-279",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "In isolamento si uniscono 0,10 kg d’acqua a 50 °C e 0,10 kg di ghiaccio a 0 °C. Recipiente trascurabile, c_acqua = 4200 J/(kg · K), L = 334 kJ/kg. Quanto ghiaccio resta all’equilibrio?",
+      "options": [
+        "0 g",
+        "Circa 63 g",
+        "Circa 37 g",
+        "100 g"
+      ],
+      "correct": 2,
+      "explanation": "L’acqua può cedere 21 kJ fino a 0 °C. Non bastano a fondere 0,10 kg: fondono circa 63 g e ne restano circa 37 g, con equilibrio a 0 °C."
+    },
+    {
+      "id": "termo-280",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "In isolamento si mescolano 0,20 kg d’acqua a 20 °C e 0,10 kg di ghiaccio a −20 °C. Usa c_acqua = 4200 J/(kg · K), c_ghiaccio = 2100 J/(kg · K), L = 334 kJ/kg. Recipiente trascurabile: quanto ghiaccio rimane?",
+      "options": [
+        "0 g",
+        "Circa 38 g",
+        "Circa 62 g",
+        "Circa 50 g"
+      ],
+      "correct": 2,
+      "explanation": "L’acqua può cedere 16,8 kJ fino a 0 °C. Scaldare il ghiaccio fino a 0 °C ne richiede 4,2; i 12,6 kJ residui fondono circa 38 g. Restano circa 62 g."
+    },
+    {
+      "id": "termo-281",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Un campione di 0,10 kg di ghiaccio a 0 °C riceve 50 kJ a pressione atmosferica, senza dispersioni. Con L = 334 kJ/kg e c_acqua = 4200 J/(kg · K), quale T finale raggiunge?",
+      "options": [
+        "0 °C",
+        "Circa 39,5 °C",
+        "Circa 16,6 °C",
+        "Circa 119 °C"
+      ],
+      "correct": 1,
+      "explanation": "La fusione richiede 33,4 kJ. I 16,6 kJ residui riscaldano 0,10 kg d’acqua con capacità 420 J/K: ΔT ≈ 39,5 K."
+    },
+    {
+      "id": "termo-282",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Un riscaldatore porta 0,050 kg di ghiaccio da −10 °C ad acqua a 0 °C in 355 s, senza dispersioni. Usa c_ghiaccio = 2100 J/(kg · K) e L = 334 kJ/kg. Qual è la potenza termica media?",
+      "options": [
+        "47 W",
+        "50 W",
+        "2,96 W",
+        "500 W"
+      ],
+      "correct": 1,
+      "explanation": "Servono 1,05 kJ per scaldare il ghiaccio e 16,7 kJ per fonderlo: totale 17,75 kJ. In 355 s la potenza media è 50 W."
+    },
+    {
+      "id": "termo-283",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Condensano 0,010 kg di vapore acqueo a 100 °C e l’acqua ottenuta si raffredda fino a 20 °C. A pressione atmosferica, con L_v = 2257 kJ/kg e c_acqua = 4200 J/(kg · K), quanta energia viene ceduta in tutto?",
+      "options": [
+        "22,57 kJ",
+        "25,93 kJ",
+        "19,21 kJ",
+        "3,36 kJ"
+      ],
+      "correct": 1,
+      "explanation": "La condensazione cede 22,57 kJ; il raffreddamento del liquido cede altri 3,36 kJ. Il totale ceduto è 25,93 kJ."
+    },
+    {
+      "id": "termo-284",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Un solido puro di 0,10 kg con c = 2000 J/(kg · K) si scalda di 10 K e poi fonde completamente a T costante. L’energia totale assorbita è 10 kJ. Quanto vale il suo calore latente specifico?",
+      "options": [
+        "80 kJ/kg",
+        "20 kJ/kg",
+        "100 kJ/kg",
+        "8 kJ/kg"
+      ],
+      "correct": 0,
+      "explanation": "Il riscaldamento richiede 2 kJ. Alla fusione restano 8 kJ per 0,10 kg: L = 80 kJ/kg."
+    },
+    {
+      "id": "termo-285",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Un riscaldatore cede 40 W a 0,20 kg di ghiaccio già a 0 °C per 2000 s. Nessuna dispersione, L = 334 kJ/kg e c_acqua = 4200 J/(kg · K). Quale T finale si raggiunge?",
+      "options": [
+        "Circa 15,7 °C",
+        "0 °C",
+        "Circa 31,4 °C",
+        "Circa 95,2 °C"
+      ],
+      "correct": 0,
+      "explanation": "L’energia fornita è 80 kJ. La fusione completa richiede 66,8 kJ; i 13,2 residui scaldano 0,20 kg d’acqua di circa 15,7 K."
+    },
+    {
+      "id": "termo-286",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Un pezzo di ghiaccio di 0,30 kg a −15 °C riceve 150 W costanti senza dispersioni. Con c_ghiaccio = 2100 J/(kg · K), dopo quanto tempo comincia a fondere a 0 °C?",
+      "options": [
+        "731 s",
+        "668 s",
+        "42 s",
+        "63 s"
+      ],
+      "correct": 3,
+      "explanation": "Prima della fusione serve solo il riscaldamento del solido: 0,30 · 2100 · 15 J = 9450 J. A 150 W occorrono 63 s; il calore latente riguarda la fase successiva."
+    },
+    {
+      "id": "termo-287",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Due aste lunghe 0,50 m ciascuna hanno estremità esterne fisse e punte interne separate da 1,20 mm. Sono libere di dilatarsi verso il gioco: α₁ = 1,2 · 10⁻⁵ K⁻¹ e α₂ = 2,4 · 10⁻⁵ K⁻¹. Dopo un aumento uniforme di 50 K, quanto gioco resta?",
+      "options": [
+        "2,10 mm",
+        "1,50 mm",
+        "0,30 mm",
+        "0,90 mm"
+      ],
+      "correct": 2,
+      "explanation": "Le aste si allungano di 0,30 e 0,60 mm, entrambe verso il gioco. Il totale di 0,90 mm lascia 1,20 − 0,90 = 0,30 mm; non si toccano."
+    },
+    {
+      "id": "termo-288",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Un termometro contiene 100 cm³ di liquido con β = 1,0 · 10⁻³ K⁻¹. La capacità interna fino alla tacca iniziale cresce con β_rec = 3,0 · 10⁻⁵ K⁻¹. Per ΔT = 40 K, quanto sale il livello in un capillare di sezione circa costante 0,20 cm²? Usa altezza = volume in eccesso diviso sezione.",
+      "options": [
+        "20,0 cm",
+        "0,60 cm",
+        "38,8 cm",
+        "19,4 cm"
+      ],
+      "correct": 3,
+      "explanation": "Il liquido aumenta di 4,0 cm³; la capacità fino alla tacca cresce di 0,12 cm³. L’eccesso di 3,88 cm³, distribuito su 0,20 cm², dà una salita di 19,4 cm nel modello approssimato."
+    },
+    {
+      "id": "termo-289",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Una barra libera di massa 0,20 kg, lunghezza 2,0 m, c = 400 J/(kg · K) e α = 1,0 · 10⁻⁵ K⁻¹ riceve 4,8 kJ senza dispersioni o cambiamenti di stato. Quanto si allunga?",
+      "options": [
+        "0,12 mm",
+        "12 mm",
+        "0,60 mm",
+        "1,2 mm"
+      ],
+      "correct": 3,
+      "explanation": "La capacità termica è 80 J/K, quindi ΔT = 60 K. L’allungamento è 1,0 · 10⁻⁵ · 2,0 · 60 m = 1,2 mm."
+    },
+    {
+      "id": "termo-290",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Due lastre di uguale area sono in serie, senza sorgenti, con contatto ideale. Le facce esterne sono a 30 °C e 0 °C. Per la prima λ₁ = 0,10 W/(m · K), s₁ = 0,010 m; per la seconda λ₂ = 0,20 W/(m · K), s₂ = 0,040 m. In regime stazionario, quale T ha l’interfaccia?",
+      "options": [
+        "15 °C",
+        "10 °C",
+        "25 °C",
+        "20 °C"
+      ],
+      "correct": 3,
+      "explanation": "La stessa potenza attraversa entrambi gli strati. Dividendo per l’area: 10 · (30 − T) = 5 · T. Quindi 300 = 15 · T e T = 20 °C."
+    },
+    {
+      "id": "termo-291",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Un locale ha capacità termica complessiva 1,0 MJ/K. Un muro omogeneo ha λ = 0,10 W/(m · K), area 10 m² e spessore 0,20 m. In un’ora la differenza media fra le facce è 20 K. Trascurando ogni altro scambio, di quanto cala la T del locale?",
+      "options": [
+        "0,10 K",
+        "0,36 K",
+        "36 K",
+        "3,6 K"
+      ],
+      "correct": 1,
+      "explanation": "La potenza media è 100 W. In 3600 s si perdono 0,36 MJ; con capacità 1,0 MJ/K la diminuzione è 0,36 K."
+    },
+    {
+      "id": "termo-292",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Due pannelli separati hanno facce mantenute con ΔT = 20 K e spessore 0,020 m. Il primo ha λ = 0,10 W/(m · K), area 1,0 m²; il secondo λ = 0,050 W/(m · K), area 2,0 m². In regime stazionario, quanta energia passa complessivamente in 600 s?",
+      "options": [
+        "240 kJ",
+        "120 kJ",
+        "60 kJ",
+        "0 kJ"
+      ],
+      "correct": 1,
+      "explanation": "Ciascun pannello conduce 100 W. Le potenze si sommano a 200 W e in 600 s trasferiscono 120 kJ."
+    },
+    {
+      "id": "termo-293",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Attraverso uno strato omogeneo di area 5,0 m² e λ = 0,050 W/(m · K) si vogliono trasferire al massimo 300 kJ in un’ora. ΔT fra le facce è mantenuta a 20 K in regime stazionario. Qual è lo spessore minimo nel modello?",
+      "options": [
+        "1,7 cm",
+        "60 cm",
+        "0,60 cm",
+        "6,0 cm"
+      ],
+      "correct": 3,
+      "explanation": "La potenza massima è 300000 J in 3600 s, circa 83,3 W. Il prodotto λ · A · ΔT vale 5,0 W · m: servono 0,060 m, cioè 6,0 cm."
+    },
+    {
+      "id": "termo-294",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Un corpo a 600 K scambia radiazione con pareti uniformi a 300 K. Ha ε = 0,50 e area 0,10 m². Con σ = 5,67 · 10⁻⁸ W/(m² · K⁴), qual è circa la potenza netta ceduta?",
+      "options": [
+        "689 W",
+        "23 W",
+        "367 W",
+        "344 W"
+      ],
+      "correct": 3,
+      "explanation": "Si usa la differenza fra le quarte potenze: P_netta = 0,50 · 5,67 · 10⁻⁸ · 0,10 · (600⁴ − 300⁴) W ≈ 344 W. La sola emissione sarebbe circa 367 W."
+    },
+    {
+      "id": "termo-295",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Un corpo con C = 1000 J/K riceve 1000 W di radiazione e ne assorbe il 60%. In un intervallo di 60 s la sua potenza media emessa è 400 W. Trascurando gli altri scambi e i cambiamenti di stato, quanto aumenta la temperatura?",
+      "options": [
+        "12 K",
+        "36 K",
+        "84 K",
+        "24 K"
+      ],
+      "correct": 0,
+      "explanation": "La potenza assorbita è 600 W. Il guadagno medio netto è 200 W, pari a 12 kJ in 60 s: con C = 1000 J/K si ottengono 12 K."
+    },
+    {
+      "id": "termo-296",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Una superficie emette 10 W. Una seconda ha area doppia, emissività dimezzata e temperatura assoluta doppia. Quanto emette la seconda?",
+      "options": [
+        "80 W",
+        "320 W",
+        "40 W",
+        "160 W"
+      ],
+      "correct": 3,
+      "explanation": "Il rapporto delle potenze è 2 · 0,5 · 2⁴ = 16: la seconda emette 160 W."
+    },
+    {
+      "id": "termo-297",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Un campione riceve 400 J di radiazione: ne riflette il 25% e ne trasmette il 15%. Nello stesso intervallo emette 300 J. Con C = 20 J/K e nessun altro scambio o passaggio di stato, qual è ΔT?",
+      "options": [
+        "5 K",
+        "−3 K",
+        "3 K",
+        "−15 K"
+      ],
+      "correct": 1,
+      "explanation": "Viene assorbito il 60%, cioè 240 J. Il saldo è 240 − 300 = −60 J: con 20 J/K la temperatura diminuisce di 3 K."
+    },
+    {
+      "id": "termo-298",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Un pianeta ipotetico riceve 340 W/m² e ne riflette il 30%. Emette 250 W/m² verso lo spazio. Assumi valori costanti per un giorno di 86400 s. Quanta energia per area perde in eccesso rispetto a quella assorbita?",
+      "options": [
+        "Circa 8,81 MJ/m²",
+        "Circa 1,04 MJ/m²",
+        "Circa 21,6 MJ/m²",
+        "Circa 0,012 MJ/m²"
+      ],
+      "correct": 1,
+      "explanation": "Assorbe 238 W/m² ed emette 250: la perdita netta è 12 W/m². In 86400 s corrisponde a 1,0368 MJ/m², circa 1,04 MJ/m²."
+    },
+    {
+      "id": "termo-299",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "Una superficie di area 0,20 m² a 400 K cede per irraggiamento 99,2 W netti a un ambiente uniforme a 300 K. Con σ = 5,67 · 10⁻⁸ W/(m² · K⁴), qual è circa ε?",
+      "options": [
+        "5,0",
+        "0,05",
+        "0,75",
+        "0,50"
+      ],
+      "correct": 3,
+      "explanation": "Per ε = 1 il modello darebbe circa 198,45 W. Il rapporto fra 99,2 W e questo valore è circa 0,50, compatibile con l’intervallo fisico da 0 a 1."
+    },
+    {
+      "id": "termo-300",
+      "category": "termologia",
+      "level": "hard",
+      "prompt": "A pressione atmosferica, un modello considera solo lo scambio radiativo fra ghiaccio a circa 0 °C e pareti uniformi a 300 K, trascurando conduzione e convezione. Usa T_ghiaccio ≈ 273 K, ε = 1, area esposta costante 0,10 m², σ = 5,67 · 10⁻⁸ W/(m² · K⁴) e L = 334 kJ/kg. Tutta l’energia netta assorbita fonde ghiaccio per 600 s. Quanta massa fonde?",
+      "options": [
+        "Circa 260 g",
+        "Circa 8,6 g",
+        "Circa 83 g",
+        "Circa 26 g"
+      ],
+      "correct": 3,
+      "explanation": "La potenza netta assorbita è σ · A · (300⁴ − 273⁴), circa 14,4 W. In 600 s entrano circa 8,66 kJ: con 0,334 kJ per grammo fondono circa 26 g."
+    }
+  ]
+}

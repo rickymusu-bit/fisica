@@ -1,7 +1,7 @@
 # Prompt per generare le domande dei quiz di Stringhe
 
-**Versione:** v1.4.0  
-**Data:** 24 ottobre 2026 (Europe/Rome).  
+**Versione:** v1.4.1
+**Data:** 25 ottobre 2026 (Europe/Rome).
 **Ambito:** quiz del sito Stringhe, distinti dal gioco Fool.
 
 Questo documento è il prompt riutilizzabile per generare quesiti per un quiz su una sola categoria del sito. Compilare i parametri e applicare tutte le istruzioni seguenti. Le specifiche dell’interfaccia e dell’archivio sono in [README.md](README.md).
@@ -131,7 +131,7 @@ Dichiara le ipotesi quando la loro assenza permetterebbe risposte diverse. Non a
 
 Applica il principio di economia informativa del progetto: conserva ciò che serve a comprendere e risolvere il quesito; elimina ciò che ripete informazioni o non modifica la comprensione. Non eliminare dati, unità e condizioni necessari.
 
-Usa notazione e matematica appropriate al livello previsto e alle regole correnti del repository. Per la temperatura usa T e ΔT; riserva t e Δt al tempo.
+Usa notazione e matematica appropriate al livello previsto e alle regole correnti del repository. Per la temperatura usa T e ΔT; riserva t e Δt al tempo. Per i numeri molto piccoli o molto grandi usa la notazione scientifica a · 10ⁿ, con 1 ≤ |a| < 10, quando non è utile ricorrere ai prefissi SI. Usa i prefissi quando rendono i valori più leggibili, per esempio 144 kJ; conserva la notazione scientifica per coefficienti come α = 1,2 · 10⁻⁵ K⁻¹. Applica la stessa scelta a dati, opzioni e soluzioni.
 
 ## 7. Alternative di risposta
 

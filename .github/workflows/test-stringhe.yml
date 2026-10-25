@@ -42,6 +42,8 @@ jobs:
         env:
           CHROMIUM_PATH: ''
         run: python3 scripts/verify_stringhe_browser.py
+      - name: Verifica l'archivio reale di Termologia su desktop e mobile
+        run: python3 scripts/verify_quiz_browser.py --real-only
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -49,3 +51,5 @@ jobs:
           path: |
             lavorazione/sito/schermate/
             lavorazione/sito/verifica-stringhe.json
+            lavorazione/quiz/termologia/anteprima/
+            lavorazione/quiz/termologia/verifica-integrazione.json

@@ -132,12 +132,15 @@ def verify_quiz(page, base):
     assert choices.count() == 2
     assert page.locator('[data-quiz-chapter]').count() == 0
     assert page.locator('#quiz-start').is_disabled()
-    assert all(box.is_disabled() for box in choices.all())
-    assert page.locator('.quiz-empty-notice').is_visible()
     original_html = (SITE / 'quiz.html').read_text(encoding='utf-8')
     match = re.search(r'(<script type="application/json" id="quiz-data">)(.*?)(</script>)', original_html, re.S)
     archive = json.loads(match.group(2))
-    assert archive['questions'] == [] and len(archive['categories']) == 2
+    assert len(archive['categories']) == 2
+    for box in choices.all():
+        available = any(q['category'] == box.get_attribute('value') and q['level'] == 'easy'
+                        for q in archive['questions'])
+        assert box.is_disabled() == (not available)
+    assert page.locator('.quiz-empty-notice').is_visible() == (not archive['questions'])
     fixture = json.loads(json.dumps(archive))
     fixture['questions'] = [
         {'id': f"test-{category['id']}-{level}-{i}", 'category': category['id'],

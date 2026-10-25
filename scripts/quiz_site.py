@@ -105,7 +105,8 @@ def render_quiz_page(source, allowed, catalogue, shell):
         '<output id="quiz-duration" for="quiz-count">50:00</output></p>'
         '<button type="button" class="quiz-action quiz-action-primary" id="quiz-start" disabled>Inizia il quiz →</button>'
         '<p class="quiz-error" id="quiz-config-error" role="alert" hidden></p>'
-        '<p class="quiz-help">Le domande saranno disponibili quando verrà caricato il relativo archivio.</p>'
+        + ('<p class="quiz-help">Le soluzioni e le spiegazioni saranno mostrate al termine.</p>'
+           if questions else '<p class="quiz-help">Le domande saranno disponibili quando verrà caricato il relativo archivio.</p>') +
         '</aside></div></section>'
         '<section id="quiz-active" hidden aria-label="Quiz in corso"><div class="quiz-panel">'
         '<div class="quiz-status"><strong id="quiz-counter">Domanda 1 di 25</strong>'
