@@ -31,7 +31,9 @@ Righe, colonne, valori, unità, formule e contenuti didattici non sono cambiati.
 ## Verifiche
 
 - Audit degli stili calcolati con Chromium a 390 e 1280 px prima delle correzioni.
-- Riesame in Chromium con le modifiche: da completare prima del merge.
-- Controlli ordinari di sincronizzazione, crediti, build e browser: workflow della PR.
+- **Riesame Chromium superato** dopo le correzioni, a 390 e 1280 px: 35 tabelle, con allineamenti centrati e sole eccezioni discorsive previste.
+- Confronto integrale con main superato: dopo aver normalizzato soltanto CSS, metadati di versione e attributi grafici, tutti i 13 capitoli corretti sono identici ai precedenti; gli altri 6 non sono stati modificati.
+- Aggiunto il controllo permanente `verify_table_alignments` in `scripts/verify_stringhe_browser.py`: verifica tutti i 19 capitoli a 390 e 1440 px e rifiuta gli allineamenti non giustificati.
+- Suite ordinaria (componenti, crediti, build e browser): da eseguire sulla PR.
 
 **Nessuna integrazione in main né pubblicazione senza approvazione.**
