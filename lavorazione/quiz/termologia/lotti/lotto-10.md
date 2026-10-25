@@ -161,7 +161,7 @@ Un corpo con capacità termica costante di 80 J/K assorbe 1,2 kJ e raggiunge 35 
 
 **Dati, condizioni fornite e quesito:**
 
-Un riscaldatore cede 40 W a 0,20 kg di ghiaccio già a 0 °C per 2000 s. Nessuna dispersione, L = 334 kJ/kg e c_acqua = 4200 J/(kg · K). Quale T finale si raggiunge?
+Un riscaldatore fornisce una potenza termica costante di 40 W a 0,20 kg di ghiaccio a 0 °C per 2000 s, senza dispersioni. Il calore latente di fusione è 334 kJ/kg e il calore specifico dell’acqua è 4200 J/(kg · K). Qual è la temperatura finale?
 
 - **A.** Circa 15,7 °C
 - **B.** 0 °C

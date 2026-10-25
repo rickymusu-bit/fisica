@@ -54,14 +54,15 @@ def main():
                 page.locator('[data-quiz-category][value="termologia"]').check()
                 page.locator('#quiz-count').fill('1')
                 page.locator('#quiz-start').click()
-                assert page.locator('#quiz-prompt sub').all_text_contents() == ['acqua']
+                assert page.locator('#quiz-prompt sub').count() == 0
+                assert 'il calore specifico dell’acqua è' in page.locator('#quiz-prompt').inner_text()
                 assert '_' not in page.locator('#quiz-prompt').inner_text()
                 assert page.locator('#quiz-prompt').inner_text() == visible_math_text(example['prompt'])
                 assert page.locator('#quiz-prompt sup').count() == 0
                 for theme in ('dark', 'light'):
                     set_theme(page, theme)
                     assert page.evaluate('document.documentElement.scrollWidth <= innerWidth')
-                    assert page.locator('#quiz-prompt sub').evaluate('el => parseFloat(getComputedStyle(el).fontSize) < parseFloat(getComputedStyle(el.parentElement).fontSize)')
+                    assert 'Qual è la temperatura finale?' in page.locator('#quiz-prompt').inner_text()
                     page.screenshot(path=str(DEST / f'pedici-{width}-{theme}.png'), full_page=True)
                 page.locator(f'.quiz-answer input[value="{example["correct"]}"]').check()
                 page.locator('#quiz-next').click()
@@ -79,6 +80,7 @@ def main():
                 page.locator('#quiz-start').click()
                 assert page.locator('#quiz-prompt sub').count() == len(all_subscripts) + 3
                 assert page.locator('.quiz-answer:has(input[value="0"]) sub').inner_text() == 'acqua'
+                assert page.locator('.quiz-answer:has(input[value="0"]) sub').evaluate('el => parseFloat(getComputedStyle(el).fontSize) < parseFloat(getComputedStyle(el.parentElement).fontSize)')
                 assert page.locator('.quiz-answer:has(input[value="1"]) sub').inner_text() == 'amb'
                 assert page.locator('.quiz-answer:has(input[value="1"]) sup').inner_text() == '4'
                 assert page.locator('.quiz-answer:has(input[value="2"]) sup').inner_text() == '−5'
@@ -111,7 +113,7 @@ def main():
     finally:
         server.shutdown()
     assert not errors, errors
-    report = {'source_record': example['id'], 'viewports': [1440, 390, 320],
+    report = {'source_record': example['id'], 'data_given_in_plain_language': True, 'viewports': [1440, 390, 320],
               'themes': ['dark', 'light'], 'subscript_tokens': all_subscripts,
               'question_options_and_feedback': 'passed', 'unicode_and_braces': 'passed',
               'legacy_snapshot_preserved': True, 'untrusted_html_stays_text': True,

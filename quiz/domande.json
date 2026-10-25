@@ -3980,7 +3980,7 @@
       "id": "termo-285",
       "category": "termologia",
       "level": "hard",
-      "prompt": "Un riscaldatore cede 40 W a 0,20 kg di ghiaccio già a 0 °C per 2000 s. Nessuna dispersione, L = 334 kJ/kg e c_acqua = 4200 J/(kg · K). Quale T finale si raggiunge?",
+      "prompt": "Un riscaldatore fornisce una potenza termica costante di 40 W a 0,20 kg di ghiaccio a 0 °C per 2000 s, senza dispersioni. Il calore latente di fusione è 334 kJ/kg e il calore specifico dell’acqua è 4200 J/(kg · K). Qual è la temperatura finale?",
       "options": [
         "Circa 15,7 °C",
         "0 °C",

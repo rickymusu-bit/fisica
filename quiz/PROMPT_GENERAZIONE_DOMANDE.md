@@ -127,7 +127,7 @@ Ogni domanda deve:
 - essere autonoma rispetto alle altre;
 - verificare una competenza riconoscibile.
 
-Dichiara le ipotesi quando la loro assenza permetterebbe risposte diverse. Non appesantire il testo con ipotesi irrilevanti.
+Presenta i dati in frasi esplicite: per esempio «il calore specifico dell’acqua è 4200 J/(kg · K)». Non introdurre un simbolo indicizzato soltanto per assegnare un valore che può essere nominato chiaramente; usa i pedici nelle relazioni quando distinguono grandezze effettivamente necessarie. Dichiara le ipotesi quando la loro assenza permetterebbe risposte diverse. Non appesantire il testo con ipotesi irrilevanti.
 
 Applica il principio di economia informativa del progetto: conserva ciò che serve a comprendere e risolvere il quesito; elimina ciò che ripete informazioni o non modifica la comprensione. Non eliminare dati, unità e condizioni necessari.
 

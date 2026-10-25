@@ -4470,7 +4470,7 @@
       "scope": "trasversale",
       "skill": "Stabilire se la durata supera la sola fusione",
       "required": "Stabilire se la durata supera la sola fusione. Si usano soltanto i principi dei riferimenti indicati e operazioni, proporzioni e conversioni di base.",
-      "provided": "Un riscaldatore cede 40 W a 0,20 kg di ghiaccio già a 0 °C per 2000 s. Nessuna dispersione, L = 334 kJ/kg e c_acqua = 4200 J/(kg · K). Quale T finale si raggiunge?",
+      "provided": "Un riscaldatore fornisce una potenza termica costante di 40 W a 0,20 kg di ghiaccio a 0 °C per 2000 s, senza dispersioni. Il calore latente di fusione è 334 kJ/kg e il calore specifico dell’acqua è 4200 J/(kg · K). Qual è la temperatura finale?",
       "references": [
         "passaggi_di_stato.html",
         "energia_interna_calore_specifico_it.html",
