@@ -1,0 +1,438 @@
+{
+  "questions": [
+    {
+      "id": "intro-108",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale potenza di dieci indica il prefisso kilo-?",
+      "options": [
+        "10³",
+        "10⁻³",
+        "10⁶",
+        "10²"
+      ],
+      "correct": 0,
+      "explanation": "Kilo- corrisponde a un fattore 10³."
+    },
+    {
+      "id": "intro-109",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale prefisso SI significa un millesimo dell'unità?",
+      "options": [
+        "Micro-",
+        "Milli-",
+        "Centi-",
+        "Nano-"
+      ],
+      "correct": 1,
+      "explanation": "Milli- equivale a 10⁻³."
+    },
+    {
+      "id": "intro-110",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale prefisso corrisponde al fattore 10⁶?",
+      "options": [
+        "Kilo-",
+        "Giga-",
+        "Mega-",
+        "Micro-"
+      ],
+      "correct": 2,
+      "explanation": "Mega- è il prefisso per un milione, ossia 10⁶."
+    },
+    {
+      "id": "intro-111",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale simbolo indica il prefisso micro-?",
+      "options": [
+        "m",
+        "M",
+        "n",
+        "µ"
+      ],
+      "correct": 3,
+      "explanation": "Il simbolo di micro- è µ, che indica 10⁻⁶."
+    },
+    {
+      "id": "intro-112",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quanto vale 2 km in metri?",
+      "options": [
+        "2000 m",
+        "200 m",
+        "20 m",
+        "0,002 m"
+      ],
+      "correct": 0,
+      "explanation": "Un chilometro è mille metri; 2 km = 2000 m."
+    },
+    {
+      "id": "intro-113",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quanto vale 5 ms in secondi?",
+      "options": [
+        "5 s",
+        "0,005 s",
+        "0,05 s",
+        "5000 s"
+      ],
+      "correct": 1,
+      "explanation": "Milli- divide l'unità per 1000: 5 ms = 5·10⁻³ s."
+    },
+    {
+      "id": "intro-114",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Qual è il simbolo del prefisso nano-?",
+      "options": [
+        "µ",
+        "m",
+        "n",
+        "k"
+      ],
+      "correct": 2,
+      "explanation": "Il simbolo n rappresenta 10⁻⁹."
+    },
+    {
+      "id": "intro-115",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale relazione è corretta?",
+      "options": [
+        "1 cm = 10 m",
+        "1 cm = 0,1 m",
+        "1 cm = 100 m",
+        "1 cm = 0,01 m"
+      ],
+      "correct": 3,
+      "explanation": "Il prefisso centi- vale 10⁻²."
+    },
+    {
+      "id": "intro-116",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Una massa è 3 kg. Quanti grammi sono?",
+      "options": [
+        "3000 g",
+        "300 g",
+        "30 g",
+        "0,003 g"
+      ],
+      "correct": 0,
+      "explanation": "Un chilogrammo contiene mille grammi."
+    },
+    {
+      "id": "intro-117",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale prefisso SI rappresenta 10⁹?",
+      "options": [
+        "Mega-",
+        "Giga-",
+        "Tera-",
+        "Micro-"
+      ],
+      "correct": 1,
+      "explanation": "Giga- indica 10⁹."
+    },
+    {
+      "id": "intro-118",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale conversione è corretta per una pressione p = 3 MPa?",
+      "options": [
+        "3 kPa",
+        "30 kPa",
+        "3000 kPa",
+        "0,003 kPa"
+      ],
+      "correct": 2,
+      "explanation": "Mega- vale 10⁶ e kilo- 10³: 3 MPa = 3·10³ kPa."
+    },
+    {
+      "id": "intro-119",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quanto vale 2500 mm espressi in metri?",
+      "options": [
+        "0,25 m",
+        "25 m",
+        "250 m",
+        "2,5 m"
+      ],
+      "correct": 3,
+      "explanation": "2500 mm = 2500·10⁻³ m = 2,5 m."
+    },
+    {
+      "id": "intro-120",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quanto vale un'area A = 6 cm² in mm²?",
+      "options": [
+        "600 mm²",
+        "60 mm²",
+        "6 mm²",
+        "0,6 mm²"
+      ],
+      "correct": 0,
+      "explanation": "1 cm = 10 mm, quindi 1 cm² = 100 mm²."
+    },
+    {
+      "id": "intro-121",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale massa equivale a 0,75 kg?",
+      "options": [
+        "75 g",
+        "750 g",
+        "7500 g",
+        "0,75 g"
+      ],
+      "correct": 1,
+      "explanation": "0,75 kg = 750 g."
+    },
+    {
+      "id": "intro-122",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Una distanza è L = 4 · 10⁻⁶ m. Come si esprime con un prefisso SI?",
+      "options": [
+        "4 mm",
+        "4 nm",
+        "4 µm",
+        "4 km"
+      ],
+      "correct": 2,
+      "explanation": "Micro- indica 10⁻⁶, dunque il valore è 4 µm."
+    },
+    {
+      "id": "intro-123",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale volume equivale a 2 cm³?",
+      "options": [
+        "2 mm³",
+        "20 mm³",
+        "200 mm³",
+        "2000 mm³"
+      ],
+      "correct": 3,
+      "explanation": "1 cm³ = (10 mm)³ = 1000 mm³."
+    },
+    {
+      "id": "intro-124",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quanto vale una forza F = 0,045 kN espressa in newton?",
+      "options": [
+        "45 N",
+        "4,5 N",
+        "450 N",
+        "4500 N"
+      ],
+      "correct": 0,
+      "explanation": "0,045·1000 N = 45 N."
+    },
+    {
+      "id": "intro-125",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale lunghezza equivale a 8,5 · 10⁻⁴ m?",
+      "options": [
+        "8,5 mm",
+        "0,85 mm",
+        "85 mm",
+        "0,085 mm"
+      ],
+      "correct": 1,
+      "explanation": "1 mm = 10⁻³ m; 8,5·10⁻⁴ m = 0,85 mm."
+    },
+    {
+      "id": "intro-126",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un tempo è t = 0,002 s. Qual è lo stesso tempo in millisecondi?",
+      "options": [
+        "0,02 ms",
+        "0,2 ms",
+        "2 ms",
+        "20 ms"
+      ],
+      "correct": 2,
+      "explanation": "0,002 s · 1000 ms/s = 2 ms."
+    },
+    {
+      "id": "intro-127",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale prefisso permette di scrivere 7,2 · 10⁹ W senza potenza di dieci?",
+      "options": [
+        "Milli-",
+        "Mega-",
+        "Tera-",
+        "Giga-"
+      ],
+      "correct": 3,
+      "explanation": "Giga- vale 10⁹: 7,2 GW."
+    },
+    {
+      "id": "intro-128",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una densità è ρ = 1,2 g/cm³. Qual è il valore in kg/m³?",
+      "options": [
+        "1200 kg/m³",
+        "120 kg/m³",
+        "12 kg/m³",
+        "12 000 kg/m³"
+      ],
+      "correct": 0,
+      "explanation": "1 g/cm³ = (10⁻³ kg)/(10⁻⁶ m³) = 10³ kg/m³."
+    },
+    {
+      "id": "intro-129",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Qual è l'equivalenza corretta per un'area A = 0,004 m²?",
+      "options": [
+        "4 cm²",
+        "40 cm²",
+        "400 cm²",
+        "4000 cm²"
+      ],
+      "correct": 1,
+      "explanation": "1 m² = 10⁴ cm²: 0,004·10⁴ = 40 cm²."
+    },
+    {
+      "id": "intro-130",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un cubo ha spigolo L = 20 mm. Qual è il volume V in cm³?",
+      "options": [
+        "0,8 cm³",
+        "80 cm³",
+        "8 cm³",
+        "800 cm³"
+      ],
+      "correct": 2,
+      "explanation": "20 mm = 2 cm; V = (2 cm)³ = 8 cm³."
+    },
+    {
+      "id": "intro-131",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una velocità è v = 0,5 km/s. Qual è il valore in m/ms?",
+      "options": [
+        "500 m/ms",
+        "5 m/ms",
+        "50 m/ms",
+        "0,5 m/ms"
+      ],
+      "correct": 3,
+      "explanation": "0,5 km/s = 500 m/s; in un millisecondo percorre 0,5 m."
+    },
+    {
+      "id": "intro-132",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Quale equivalenza fra pressioni è corretta?",
+      "options": [
+        "0,3 MPa = 300 kPa",
+        "0,3 MPa = 3 kPa",
+        "0,3 MPa = 30 kPa",
+        "0,3 MPa = 3000 kPa"
+      ],
+      "correct": 0,
+      "explanation": "Poiché 1 MPa = 1000 kPa, 0,3 MPa = 300 kPa."
+    },
+    {
+      "id": "intro-133",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un volume è V = 9 mm³. Quanto vale in m³?",
+      "options": [
+        "9 · 10⁻⁶ m³",
+        "9 · 10⁻⁹ m³",
+        "9 · 10⁻³ m³",
+        "9 · 10⁹ m³"
+      ],
+      "correct": 1,
+      "explanation": "1 mm³ = (10⁻³ m)³ = 10⁻⁹ m³."
+    },
+    {
+      "id": "intro-134",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una superficie è A = 4,5 · 10⁻⁸ m². Qual è il valore in µm²?",
+      "options": [
+        "4,5 · 10⁻² µm²",
+        "4,5 · 10² µm²",
+        "4,5 · 10⁴ µm²",
+        "4,5 · 10⁸ µm²"
+      ],
+      "correct": 2,
+      "explanation": "1 µm² = 10⁻¹² m²; 4,5·10⁻⁸/10⁻¹² = 4,5·10⁴ µm²."
+    },
+    {
+      "id": "intro-135",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una massa volumica è ρ = 850 kg/m³. Qual è il valore in g/cm³?",
+      "options": [
+        "85 g/cm³",
+        "8,5 g/cm³",
+        "0,085 g/cm³",
+        "0,85 g/cm³"
+      ],
+      "correct": 3,
+      "explanation": "Poiché 1 g/cm³ = 1000 kg/m³, 850 kg/m³ = 0,85 g/cm³."
+    },
+    {
+      "id": "intro-136",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Quale conversione di un'area A = 3 km² è corretta?",
+      "options": [
+        "3 · 10⁶ m²",
+        "3 · 10³ m²",
+        "3 · 10⁹ m²",
+        "3 · 10⁻⁶ m²"
+      ],
+      "correct": 0,
+      "explanation": "1 km² = (10³ m)² = 10⁶ m²."
+    },
+    {
+      "id": "intro-137",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un volume è V = 0,008 m³. Qual è il valore in cm³?",
+      "options": [
+        "80 cm³",
+        "8000 cm³",
+        "800 cm³",
+        "80 000 cm³"
+      ],
+      "correct": 1,
+      "explanation": "1 m³ = 10⁶ cm³; 0,008·10⁶ = 8000 cm³."
+    },
+    {
+      "id": "intro-138",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una frequenza è f = 2,5 GHz. Quanti megahertz sono?",
+      "options": [
+        "25 MHz",
+        "250 MHz",
+        "2500 MHz",
+        "25 000 MHz"
+      ],
+      "correct": 2,
+      "explanation": "Giga- è 10³ volte mega-, quindi 2,5 GHz = 2500 MHz."
+    }
+  ]
+}
