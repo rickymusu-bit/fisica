@@ -1,6 +1,6 @@
-# Quiz di Stringhe — specifiche v2.5.1
+# Quiz di Stringhe — specifiche v2.6.0
 
-**Stato:** archivio approvato di 300 quesiti di Termologia, 100 per livello. Introduzione alla fisica e alla misura resta non disponibile perché priva di domande.
+**Stato della PR in bozza:** archivio integrato di 600 quesiti, 300 per categoria e 100 per livello. I 300 quesiti di Termologia sono già approvati; per Introduzione alla fisica e alla misura il campione di 9 è stato approvato e i restanti 291 sono stati generati, in attesa di revisione didattica. Il sito pubblico resta invariato fino al merge autorizzato.
 **Data:** 25 ottobre 2026 (Europe/Rome).
 
 ## Comportamento
@@ -46,7 +46,7 @@ Se il salvataggio non è disponibile o lo spazio è esaurito, un avviso visibile
 
 ## Generazione delle domande
 
-Il [prompt di generazione](PROMPT_GENERAZIONE_DOMANDE.md), v1.4.3, definisce domande di conoscenza, ragionamento e calcolo, tre difficoltà e fattibilità entro 120 secondi comprensivi di lettura e scelta. Un quesito può collegare più capitoli della stessa categoria. Non deve richiedere conoscenze di un’altra categoria, salvo prerequisiti di base dichiarati o informazioni sufficienti fornite nel testo.
+Il [prompt di generazione](PROMPT_GENERAZIONE_DOMANDE.md), v1.4.4, definisce domande di conoscenza, ragionamento e calcolo, tre difficoltà e fattibilità entro 120 secondi comprensivi di lettura e scelta. Un quesito può collegare più capitoli della stessa categoria. Non deve richiedere conoscenze di un’altra categoria, salvo prerequisiti di base dichiarati o informazioni sufficienti fornite nel testo.
 
 Il workflow parte da un campione di 9 domande in ChatGPT (una per ogni combinazione tipo/difficoltà, se pertinente), seguito dalla revisione e approvazione del docente. Codex usa prompt, capitoli e campione approvato per generare i lotti richiesti, verificarli e integrarli. I lotti richiedono revisione didattica; i controlli automatici non provano chiarezza e risolvibilità nei due minuti. La divisione è organizzativa, non una garanzia di superiorità scientifica di ChatGPT.
 
@@ -60,7 +60,7 @@ Produzione: campione iniziale di 9 domande, revisione del docente e lotti indica
 
 ## Archivio di domande
 
-La sorgente corrente è **quiz/domande.json**, separata dall’interfaccia: contiene 300 quesiti approvati di Termologia (100 per livello, con ripartizione 30 conoscenza, 40 ragionamento e 30 calcolo in ciascun livello). Finché il file manca, la build genera una lista di domande vuota: tutte le categorie sono disabilitate e il quiz non è avviabile. L'archivio dimostrativo è stato cancellato dal repository. Ogni record contiene:
+La sorgente di questo ramo è **quiz/domande.json**, separata dall’interfaccia: conserva 300 quesiti approvati di Termologia e aggiunge 300 quesiti di Introduzione alla fisica e alla misura (9 campione approvato e 291 proposte da sottoporre a revisione didattica). Ogni categoria dispone di 100 quesiti per livello. I lotti e l'archivio separato sono in `lavorazione/quiz/introduzione_fisica_misura/`. Finché il file manca, la build genera una lista di domande vuota: tutte le categorie sono disabilitate e il quiz non è avviabile. L'archivio dimostrativo è stato cancellato dal repository. Ogni record contiene:
 
 `id`, `category` (un solo ID di `quiz/categorie.json`), `level` (`easy`, `medium`, `hard`), `prompt`, `options`, `correct` (indice da zero), `explanation`.
 
