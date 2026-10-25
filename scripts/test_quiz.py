@@ -72,7 +72,9 @@ class QuizCategoryTests(unittest.TestCase):
         self.assertEqual(html.count('data-quiz-category'), 2)
         self.assertEqual(html.count('type="radio" name="quiz-category"'), 2)
         self.assertNotIn('data-quiz-chapter', html)
-        self.assertEqual(html.count('4 alternative'), 3)
+        self.assertNotIn('4 alternative', html)
+        for level in ('easy', 'medium', 'hard'):
+            self.assertIn(f'name="quiz-level" value="{level}"', html)
         self.assertNotIn('3 alternative', html)
         self.assertNotIn('5 alternative', html)
         self.assertIn('Nessuna domanda disponibile', html)
