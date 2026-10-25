@@ -1,0 +1,61 @@
+name: Sync PR82 inventory safely
+on:
+  push:
+    branches: [fix/cap9-punti-zoom-tabelle-20261025]
+    paths: [.github/workflows/pr82-sync-inventory.yml]
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: fix/cap9-punti-zoom-tabelle-20261025
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Allinea solo inventario e associazioni consentite
+        run: |
+          python3 - <<'PY'
+          import sys, json
+          from pathlib import Path
+          sys.path.insert(0, 'scripts')
+          from credits import load_registry, sync_inventory, REGISTRY, ROOT, render_page, update_component, validate
+          old = load_registry()
+          fresh = sync_inventory(json.loads(json.dumps(old)))
+          allowed = {'relazioni_proporzionalita_it.html', 'riferimenti/TEMA_DISPENSE.html'}
+          changed_docs = [name for name in fresh['documents']
+                          if fresh['documents'][name].get('credits') != old['documents'].get(name,{}).get('credits')]
+          disallowed = [name for name in changed_docs if name not in allowed]
+          print('Documenti con crediti modificati:',changed_docs)
+          print('Elementi inventario: prima',len(old['assets']),'dopo',len(fresh['assets']))
+          if disallowed:
+              raise SystemExit('Aborto: altri documenti da modificare: '+str(disallowed))
+          REGISTRY.write_text(json.dumps(fresh,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          for name in allowed:
+              file = ROOT / name
+              current = file.read_text(encoding='utf-8')
+              updated = update_component(current,fresh,name)
+              if updated != current:
+                  print('Allineamento componente in:',name)
+                  file.write_text(updated,encoding='utf-8')
+          (ROOT/'crediti.html').write_text(render_page(fresh),encoding='utf-8')
+          validate(fresh)
+          print('Crediti validati')
+          PY
+      - name: Verifica sincronizzazione del tema
+        run: |
+          python3 scripts/sync_stringhe_theme.py --check
+          python3 scripts/credits.py --check
+      - name: Salva solo file autorizzati sul ramo PR82
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add risorse/crediti.json crediti.html relazioni_proporzionalita_it.html riferimenti/TEMA_DISPENSE.html
+          git diff --cached --stat
+          if ! git diff --cached --quiet; then
+            git commit -m 'fix: sincronizza inventario crediti dopo aggiornamento del grafico'
+            git push origin HEAD:fix/cap9-punti-zoom-tabelle-20261025
+          fi
