@@ -75,14 +75,12 @@ def verify_media_controls(page, base, publication):
                     assert button.locator('.zoom-collapse').is_visible()
                     button.press('Enter')
                     assert not zoom.evaluate('e=>e.open')
-                    boxes = zoom.evaluate('zoom=>{const a=zoom.parentElement.getBoundingClientRect(),b=zoom.querySelector("summary").getBoundingClientRect();return {left:b.left-a.left,bottom:a.bottom-b.bottom,width:b.width,height:b.height}}')
-                    if zoom.evaluate('e=>e.parentElement.classList.contains("scale-comparison")'):
-                        # Il confronto delle scale tiene il comando fuori dai dati, come richiesto.
-                        placement = zoom.evaluate('e=>{const a=e.parentElement.querySelector(".image-frame").getBoundingClientRect(),b=e.querySelector("summary").getBoundingClientRect();return {dataBottom:a.bottom,buttonTop:b.top}}')
-                        assert placement['buttonTop'] >= placement['dataBottom'] - 1, (name, placement)
-                    else:
-                        assert 7 <= boxes['left'] <= 12 and 7 <= boxes['bottom'] <= 12, (name, boxes)
-                    assert boxes['width'] >= 44 and boxes['height'] >= 44
+                    # Lo zoom e' sempre sotto l'immagine, mentre il play/pausa delle GIF rimane sovrapposto.
+                    placement = zoom.evaluate('zoom=>{const figure=zoom.closest("figure"),image=zoom.parentElement.classList.contains("image-frame")?zoom.parentElement.querySelector(":scope > .overview"):figure.querySelector(".image-frame");const b=zoom.querySelector("summary").getBoundingClientRect(),a=image&&image.getBoundingClientRect(),parent=zoom.parentElement.getBoundingClientRect();return {imageBottom:a?a.bottom:null,buttonTop:b.top,left:b.left-parent.left,width:b.width,height:b.height}}')
+                    if placement['imageBottom'] is not None:
+                        assert placement['buttonTop'] >= placement['imageBottom'] - 1, (name, placement)
+                    assert placement['left'] >= 0, (name, placement)
+                    assert placement['width'] >= 44 and placement['height'] >= 44
                 if name == 'conduzione_it.html':
                     photo = page.locator('#visuale-immagine-12')
                     assert photo.locator('img').get_attribute('src').startswith('data:image/jpeg')

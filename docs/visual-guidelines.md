@@ -1,6 +1,6 @@
 # Standard per i visuali scientifici — Fisica
 
-**Versione:** 1.0.0  
+**Versione:** 1.1.0  
 **Data:** 20 ottobre 2026  
 **Ambito:** fotografie, illustrazioni, schemi, grafici e figure del sito didattico di fisica.
 
@@ -66,6 +66,8 @@ Usare poche etichette, brevi e chiare, con notazione corretta. Evitare sovrappos
 
 Come già stabilito in `AGENTS.md`, **non riorganizzare la struttura interna di schemi, grafici e tabelle in mobile**: conservare assi, disposizione e relazioni; usare ridimensionamento proporzionale e ingrandimento/scorrimento quando i dettagli diventano piccoli.
 
+Nelle tabelle didattiche usare per impostazione predefinita l’allineamento centrato in tutte le colonne, comprese le intestazioni. Sono ammesse eccezioni coerenti per celle che contengono testi lunghi, quando la lettura a sinistra è chiaramente migliore; non alternare allineamenti senza motivo.
+
 ## 9. Workflow operativo Codex
 
 1. Stabilire quale concetto fisico il visuale deve chiarire, la sua posizione nel capitolo e il motivo per cui serve.
@@ -86,7 +88,7 @@ Rifare o scartare il visuale quando presenta: inesattezze fisiche, vettori/assi 
 
 ### Soglia operativa per lo zoom — richiesta del 24 ottobre 2026
 
-Valutare la figura alla larghezza effettiva su uno schermo da 320 px. Aggiungere lo zoom soltanto a grafici e schemi con scritte necessarie inferiori a 14 CSS px o dettagli indispensabili non distinguibili a quella dimensione; non basta che la figura sia un diagramma. Se contiene poche etichette, preferire una composizione leggibile senza zoom. Fotografie e copertine restano senza zoom. Per richiesta esplicita, i quattro bersagli del capitolo 7 e lo schema della parallasse del capitolo 6 non hanno zoom. Registrare il controllo nelle verifiche delle figure.
+Valutare la figura alla larghezza effettiva su uno schermo da 320 px. Aggiungere lo zoom soltanto a grafici e schemi con scritte necessarie inferiori a 14 CSS px o dettagli indispensabili non distinguibili a quella dimensione; non basta che la figura sia un diagramma. Se contiene poche etichette, preferire una composizione leggibile senza zoom. Fotografie e copertine restano senza zoom. Per richiesta esplicita, i quattro bersagli del capitolo 7 e lo schema della parallasse del capitolo 6 non hanno zoom. Quando previsto, posizionare l’unico pulsante di zoom fuori dall’immagine, immediatamente sotto a sinistra, senza oscurare disegni o dati; mantenere l’accessibilità da tastiera e il funzionamento senza JavaScript. Registrare il controllo nelle verifiche delle figure.
 
 
 ## Principio di economia informativa — 24 ottobre 2026

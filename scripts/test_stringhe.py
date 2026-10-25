@@ -26,6 +26,27 @@ class CoverMediaTests(unittest.TestCase):
         self.assertTrue(any(n.has_class('image-zoom') for n in body.descendants('details')))
 
 
+class QuadraticGraphRegressionTests(unittest.TestCase):
+    def test_chapter_nine_quadratic_points_exist(self):
+        source = (ROOT / 'relazioni_proporzionalita_it.html').read_text(encoding='utf-8')
+        chart = re.search(r'<svg\b[^>]*data-plot="quadratic"[^>]*>[\s\S]*?</svg>', source)
+        self.assertIsNotNone(chart)
+        coords = re.findall(r'data-point-x="([^"]+)" cx="([^"]+)" cy="([^"]+)"', chart.group(0))
+        self.assertEqual([float(x) for x, _, _ in coords], [0, 1, 2, 3, 4])
+        for x, cx, cy in coords:
+            x = float(x)
+            self.assertAlmostEqual(float(cx), 50 + 325 * x / 4)
+            self.assertAlmostEqual(float(cy), 245 - 215 * x * x / 32)
+        self.assertIn('data-model="quadratic"', source)
+        self.assertIn("querySelectorAll('[data-point-x]')", source)
+
+    def test_canonical_zoom_and_table_alignment(self):
+        css = (ROOT / 'identita/media-controls.css').read_text(encoding='utf-8')
+        self.assertRegex(css, r'\.image-zoom>summary\.media-icon-button\{position:static')
+        theme = (ROOT / 'riferimenti/TEMA_DISPENSE.html').read_text(encoding='utf-8')
+        self.assertIn('.article table th,.article table td{text-align:center}', theme)
+
+
 class PublicationTests(unittest.TestCase):
     def test_publication_preserves_science_and_embedded_assets(self):
         publication = json.loads((ROOT / 'pubblicazione.json').read_text())

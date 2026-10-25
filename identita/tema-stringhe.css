@@ -97,6 +97,8 @@ a{color:inherit}button,input,select{font:inherit}button,select{color:var(--ink)}
 :root .comparison-table{background:var(--surface);color:var(--ink)}
 :root .comparison-table th{background:var(--surface-soft);color:var(--ink)}
 :root .comparison-table td{color:var(--ink);border-color:var(--line)}
+/* Tabelle dei capitoli: allineamento uniforme dei dati in tutte le colonne. */
+.article table th,.article table td{text-align:center}
 :root .resource-credits-dialog .credits-close{color:var(--accent)}
 :root .site-footer{background:var(--surface);border-radius:12px}
 
