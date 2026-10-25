@@ -96,15 +96,22 @@ class PublicationTests(unittest.TestCase):
         payload = json.loads(re.search(r'<script type="application/json" id="quiz-data">(.*?)</script>', quiz).group(1))
         self.assertEqual({item['id'] for item in payload['categories']}, {'termologia', 'introduzione_fisica_misura'})
         self.assertNotIn('chapters', payload)
-        archive = json.loads((ROOT / 'quiz/domande.json').read_text())
-        self.assertEqual(payload['questions'], archive['questions'])
-        self.assertEqual(len(payload['questions']), 600)
-        self.assertEqual({q['category'] for q in payload['questions']},
-                         {'termologia', 'introduzione_fisica_misura'})
-        for category in ('termologia', 'introduzione_fisica_misura'):
+        self.assertNotIn('questions', payload)
+        self.assertEqual(len(payload['categories']), 2)
+        self.assertLess(len(quiz), 100_000, 'La pagina quiz non deve incorporare l’archivio')
+        self.assertFalse((ROOT / '_site/quiz/domande.json').exists())
+        self.assertFalse((ROOT / 'quiz/domande.json').exists())
+        for category in payload['categories']:
+            source = ROOT / category['file']
+            published = ROOT / '_site' / category['file']
+            self.assertTrue(source.is_file(), category['file'])
+            self.assertEqual(source.read_bytes(), published.read_bytes())
+            questions = json.loads(source.read_text())['questions']
+            self.assertEqual(len(questions), 300)
+            self.assertEqual({q['category'] for q in questions}, {category['id']})
             for level in ('easy', 'medium', 'hard'):
-                self.assertEqual(sum(q['level'] == level and q['category'] == category
-                                     for q in payload['questions']), 100)
+                self.assertEqual(category['levels'][level], 100)
+                self.assertEqual(sum(q['level'] == level for q in questions), 100)
         self.assertFalse((ROOT / 'quiz/domande-prova.json').exists())
         self.assertNotIn('Nessuna domanda disponibile al momento.', quiz)
         self.assertNotIn('Le domande saranno disponibili quando', quiz)
