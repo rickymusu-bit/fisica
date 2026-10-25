@@ -107,7 +107,8 @@ def main():
                 assert (path.parent / target.split('#')[0]).is_file(), target
     assert len(seen) == len(set(seen)) == 261
     assert set(seen) == {m['id'] for m in metadata}
-    assert json.loads((ROOT / 'quiz/domande.json').read_text())['questions'] == questions
+    assert [q for q in json.loads((ROOT / 'quiz/domande.json').read_text())['questions']
+            if q['category'] == 'termologia'] == questions
     report = dict(total=300, approved=300, pending=0,
                   levels=dict(Counter(q['level'] for q in questions)),
                   new_types_by_level={level: dict(Counter(m['type'] for m in metadata if m['level'] == level)) for level in ('easy', 'medium', 'hard')},
