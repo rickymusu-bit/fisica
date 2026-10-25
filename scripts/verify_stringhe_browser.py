@@ -76,7 +76,12 @@ def verify_media_controls(page, base, publication):
                     button.press('Enter')
                     assert not zoom.evaluate('e=>e.open')
                     boxes = zoom.evaluate('zoom=>{const a=zoom.parentElement.getBoundingClientRect(),b=zoom.querySelector("summary").getBoundingClientRect();return {left:b.left-a.left,bottom:a.bottom-b.bottom,width:b.width,height:b.height}}')
-                    assert 7 <= boxes['left'] <= 12 and 7 <= boxes['bottom'] <= 12, (name, boxes)
+                    if zoom.evaluate('e=>e.parentElement.classList.contains("scale-comparison")'):
+                        # Il confronto delle scale tiene il comando fuori dai dati, come richiesto.
+                        placement = zoom.evaluate('e=>{const a=e.parentElement.querySelector(".image-frame").getBoundingClientRect(),b=e.querySelector("summary").getBoundingClientRect();return {dataBottom:a.bottom,buttonTop:b.top}}')
+                        assert placement['buttonTop'] >= placement['dataBottom'] - 1, (name, placement)
+                    else:
+                        assert 7 <= boxes['left'] <= 12 and 7 <= boxes['bottom'] <= 12, (name, boxes)
                     assert boxes['width'] >= 44 and boxes['height'] >= 44
                 if name == 'conduzione_it.html':
                     photo = page.locator('#visuale-immagine-12')

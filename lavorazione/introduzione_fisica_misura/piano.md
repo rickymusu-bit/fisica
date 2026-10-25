@@ -1,9 +1,9 @@
 # Introduzione alla fisica e alla misura — piano editoriale
 
-Data del piano: 21/10/2026 (Europe/Rome). Indice aggiornato al 23/10/2026: primi cinque capitoli pubblicati; capitoli 6 e 7 in lavorazione. Le sezioni di avanzamento conservano la cronologia, superata dalle decisioni più recenti dove specificato.
+Data del piano: 21/10/2026 (Europe/Rome). Indice aggiornato al 24/10/2026: nove capitoli pubblicati; rilascio dei capitoli 8 e 9 completato nella PR #79. Le sezioni di avanzamento conservano la cronologia, superata dalle decisioni più recenti dove specificato.
 Fonte delle regole: MASTER_PROMPT.md v69.6, AGENTS.md, riferimenti/STILE_DISPENSE.md, riferimenti/esempio_irraggiamento.md.
 Macrocategoria approvata dall'utente: **Introduzione alla fisica e alla misura**.
-Piano iniziale approvato: 12 capitoli, con proporzionalità inversa e quadratica insieme. Per richiesta corrente, misure ripetute, media, semidispersione e incertezza sono riunite nel capitolo 7: il percorso aggiornato comprende **11 capitoli**.
+Piano iniziale approvato: 12 capitoli, con proporzionalità inversa e quadratica insieme. Misure ripetute, media, semidispersione e incertezza sono riunite nel capitolo 7. Il 24/10/2026 l’utente richiede un capitolo sul piano cartesiano e uno su tutte le relazioni di proporzionalità: il percorso aggiornato comprende **9 capitoli**, con proporzionalità diretta, inversa e quadratica nel capitolo 9.
 Non ancora approvati: revisione dello schema del metodo scientifico, bozze dei singoli capitoli, conversioni HTML, pubblicazione. Simulazione semplice del piano inclinato approvata dall'utente il 22/10/2026: 2–3 inclinazioni predefinite, pallina che parte da ferma, stessa lunghezza del percorso, cronometro e tabella risultati; senza attrito regolabile o grafici del moto.
 
 ## Indice editoriale concordato
@@ -15,10 +15,8 @@ Non ancora approvati: revisione dello schema del metodo scientifico, bozze dei s
 5. Le cifre significative — sezione omonima, conteggio, arrotondamento e regole di calcolo dello stesso sorgente.
 6. Gli strumenti di misura — «Analogico o digitale?» e «Che cosa chiedere a uno strumento», incluse portata, prontezza, risoluzione, sensibilità, precisione e accuratezza, di strumenti_errori_incertezza_it.html.
 7. Errori e incertezza di misura — «Perché le misure cambiano o si spostano», «Da cinque letture a un risultato» ed «Errore e incertezza: due domande diverse» dello stesso sorgente. Percorso unico con misure ripetute, media, semidispersione e stima dell'incertezza; chiarire che la dispersione non rappresenta automaticamente tutta l'incertezza.
-8. Il piano cartesiano e i grafici — «Due grandezze, una coppia di coordinate» e l'interazione «Trascina P» di grafici_piano_cartesiano_it.html.
-9. La proporzionalità diretta — «Dalle proporzioni alla retta» dello stesso sorgente.
-10. Le relazioni lineari — «Intercetta e pendenza: rette diverse» dello stesso sorgente.
-11. Le relazioni non lineari — «Proporzionalità inversa» e «Relazione quadratica» dello stesso sorgente.
+8. Il piano cartesiano — «Due grandezze, una coppia di coordinate» e interazione «Trascina P» di grafici_piano_cartesiano_it.html; assi, coordinate, quadranti, unità, scale e passaggio tabella–grafico.
+9. Le relazioni di proporzionalità — proporzionalità diretta, inversa e quadratica, dalle sezioni «Dalle proporzioni alla retta», «Proporzionalità inversa» e «Relazione quadratica» di grafici_piano_cartesiano_it.html. Intercetta, rette affini e confronto delle pendenze esclusi su richiesta dell’utente; nessun capitolo 10 o 11 separato.
 
 ## Criteri trasversali
 
@@ -228,3 +226,49 @@ Pubblicazione fermata dall’utente prima di qualsiasi push/merge/deployment. At
 ## Pubblicazione dei capitoli 6 e 7 autorizzata
 
 Dopo la separazione delle attività del 7, l’utente approva nuovamente con «Okay, pubblica». Capitoli aggiunti al manifest, catalogo aggiornato a sette capitoli dell’area e navigazione collegata. Rilascio in corso nella PR #72.
+
+## Capitoli 8 e 9 — accorpamento richiesto il 24 ottobre 2026
+
+Richiesta: «Allora, io farei il piano cartesiano in un capitolo e tutte le relazioni di proporzionalità in un altro». Decisione applicata nell’indice corrente: capitolo 8 «Il piano cartesiano»; capitolo 9 «Le relazioni tra grandezze». Il titolo del 9 comprende anche il confronto con y = m·x + q: per q diverso da zero questa non è una proporzionalità diretta. La proporzionalità quadratica si esprime y = k·x²; non ogni relazione quadratica è una proporzionalità quadratica.
+
+Il precedente indice a undici capitoli è superato; i resoconti storici ne conservano la cronologia. Quesiti originali del sorgente dei grafici: 1–2 al capitolo 8, 3–7 al capitolo 9. Stati nella PR #79; il percorso storico lavorazione/proporzionalita_diretta/stato.md conserva ora lo stato dell’intero capitolo 9, senza creare un secondo stato. La scelta dell’accorpamento è approvata dalla richiesta; visuali e bozze restano da concordare. Nessuna modifica a main, manifest o sito pubblico.
+
+## Capitoli 8 e 9 — bozze e perimetro definitivo, 24 ottobre 2026
+
+«Va bene, procediamo» autorizza la stesura delle bozze sulla struttura concordata. Preparati [Il piano cartesiano, bozza v1](../piano_cartesiano_grafici/bozza.md), con otto domande, e [Le relazioni di proporzionalità, bozza v2](../proporzionalita_diretta/bozza.md), con nove domande. La successiva richiesta «Lascia fuori la parte sull'intercetta» supera la proposta precedente: eliminati dal 9 sezione affine, quota fissa della consegna, formula della pendenza, confronto delle tre rette e domande associate. Titolo del 9 aggiornato per rispecchiare il perimetro.
+
+Quesiti del sorgente dei grafici: 1–2 nel capitolo 8 (il primo adattato al grafico dei quaderni); 3, 6 e 7 nel capitolo 9; 4–5 esclusi dai nuovi capitoli su richiesta, conservati nel sorgente storico. Restano segnaposto per le immagini da scegliere. Testi da revisionare; nessun HTML o deployment avviato.
+
+### Capitolo 9 — proporzionalità inversa attraverso il viaggio
+
+Su richiesta «fai col viaggio», [bozza v3](../proporzionalita_diretta/bozza.md) sostituisce i rettangoli ad area costante con velocità e tempo per un viaggio ideale in treno di 120 km, senza fermate e a velocità costante. Aggiornati tabella, formule, specifica del grafico e domande 4–5; immagine del treno da scegliere. Diretta, quadratica e capitolo 8 invariati. Testo da revisionare, nessuna realizzazione HTML o pubblicazione.
+
+
+## Capitoli 8 e 9 — HTML e materiali completati, 24 ottobre 2026
+
+La richiesta di finire la PR #79 e i quattro URL forniti autorizzano la realizzazione delle bozze già approvate. Pronti gli HTML autonomi v1 [Il piano cartesiano](../../piano_cartesiano_grafici_it.html) e [Le relazioni di proporzionalità](../../relazioni_proporzionalita_it.html). Esempio dei libri a 2 €/libro nei due capitoli per continuità; viaggio ideale di 120 km per l’inversa; nessuna intercetta. Copertine Playfair e struttura iperbolica, biblioteca per i libri e monorotaia per il viaggio, con licenze verificate e crediti incorporati. Interazioni, scale, grafici, formule e domande realizzati; prove desktop/mobile, temi, fallback, crediti e build superati. Dettagli e schermate negli stati dei capitoli.
+
+L’anteprima corrente resta da approvare prima di integrare main e pubblicare. PR #79 in bozza, manifest e catalogo ufficiali invariati; nessun merge o deployment.
+
+
+## Revisione delle anteprime 8–9 su richiesta dell’utente
+
+La nuova richiesta supera il riuso dei libri e della biblioteca nell’8: esempio distinto del serbatoio, dipendenza funzionale e ruolo delle variabili approfonditi, più lettura di coordinate e scale. Nel 9 i libri costano inizialmente 15 €/libro; schemi originali di libri e treno sostituiscono le foto superflue. Le curve passano per i punti dei modelli costruiti; la variazione di k confronta prezzi, distanze e proporzionalità quadratiche a scale fisse, senza alterare la formula dell’area del quadrato. HTML v2, tutte le figure con didascalie, nessuno zoom interattivo. Nuova regola permanente in master v69.16 e AGENTS.md: non riciclare immagini o esempi tra capitoli. Verifiche aggiornate superate, nuova anteprima da approvare; nessuna pubblicazione autorizzata.
+
+
+## Aggiornamento locale delle anteprime 8–9
+
+Tutte le tabelle dei due capitoli hanno ora intestazioni e dati centrati. Nel 9, clip art Openclipart specifiche di libri e autobus (CC0) inserite su richiesta: racconto del viaggio adeguato ad autobus, valori e modello invariati. Nell’8, rubinetto originale a sinistra senza tratteggio e versione senza goccia a destra; preservati assi orientati e punte separate. Capitolo 8 v4 e capitolo 9 v3, prove e schermate aggiornate. Pubblicazione ancora subordinata alla revisione delle nuove anteprime.
+
+
+Aggiornamento delle anteprime: nel capitolo 8 il riempimento continuo è mostrato da una linea crescente fino alla chiusura a 3 min e orizzontale dopo, con i punti della tabella evidenziati. Nel 9, tre situazioni dei libri nettamente separate, quantità esplicite e sovrapposizione interna ai gruppi. Versioni HTML correnti 8 v5 / 9 v4, prove e schermate aggiornate; pubblicazione ancora subordinata all’approvazione dell’anteprima corrente.
+
+
+## Pubblicazione dei capitoli 8 e 9 autorizzata
+
+L’utente approva le anteprime finali con «Perfetto. Pubblica». Le attese precedenti sono superate per il capitolo 8 v5 e il capitolo 9 v4. Manifest portato a nove capitoli dell’area e 19 complessivi, catalogo e navigazione collegati; contenuti scientifici identici alle anteprime approvate. Crediti sincronizzati e test automatici superati. Rilascio nella PR #79 in corso.
+
+
+## Capitoli 8 e 9 pubblicati
+
+PR #79 integrata in main (`da6c9bde5f15816a5fe060d9dbe36cedbfe636d9`), verifica GitHub e Pages completati con successo. Online [Il piano cartesiano](https://rickymusu-bit.github.io/fisica/piano_cartesiano_grafici_it.html), v5, e [Le relazioni di proporzionalità](https://rickymusu-bit.github.io/fisica/relazioni_proporzionalita_it.html), v4. Catalogo dell’area con nove capitoli, 19 complessivi; navigazione e crediti aggiornati. Verifica pubblica: dieci file HTTP 200 identici alla build e undici indirizzi esclusi HTTP 404, nessun problema. Rapporto verifica-pubblicazione-online.json. Le attese di approvazione precedenti sono superate per questo rilascio.

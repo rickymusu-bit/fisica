@@ -1,0 +1,94 @@
+{
+  "continue": {
+    "iistart": "2023-04-13T06:11:11Z",
+    "continue": "||"
+  },
+  "query": {
+    "normalized": [
+      {
+        "from": "File:Hyperbolic_orthogonal_dodecahedral_honeycomb.png",
+        "to": "File:Hyperbolic orthogonal dodecahedral honeycomb.png"
+      }
+    ],
+    "pages": {
+      "642235": {
+        "pageid": 642235,
+        "ns": 6,
+        "title": "File:Hyperbolic orthogonal dodecahedral honeycomb.png",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "thumburl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Hyperbolic_orthogonal_dodecahedral_honeycomb.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+            "thumbwidth": 1920,
+            "thumbheight": 1920,
+            "thumbattribs": {
+              "src": "https://upload.wikimedia.org/wikipedia/commons/1/11/Hyperbolic_orthogonal_dodecahedral_honeycomb.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+              "decoding": "async",
+              "loading": "lazy",
+              "width": 1920,
+              "height": 1920
+            },
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Hyperbolic_orthogonal_dodecahedral_honeycomb.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Hyperbolic_orthogonal_dodecahedral_honeycomb.png",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=642235",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2023-05-24 08:40:44",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Hyperbolic orthogonal dodecahedral honeycomb",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Files with no machine-readable author|Files with no machine-readable source|Uniform tilings of hyperbolic 3-space|Media missing infobox template|Self-published work|PD-self",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "Public domain",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Public domain",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "false",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Copyrighted": {
+                "value": "False",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "pd",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

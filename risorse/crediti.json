@@ -4064,6 +4064,271 @@
       ],
       "metadata_sources": [],
       "fingerprints": []
+    },
+    {
+      "id": "grafici-capitoli-8-9",
+      "description": "Grafici di coordinate e proporzionalità, confronto delle scale e quadrati",
+      "author": "Stringhe",
+      "source": null,
+      "license": null,
+      "license_url": null,
+      "changes": null,
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Grafici e schemi matematici del progetto Stringhe, costruiti dai modelli dichiarati. Dati illustrativi: libri usati a 2 €/libro, viaggio ideale di 120 km, area del quadrato. Interazione del punto P adattata dal sorgente grafici_piano_cartesiano_it.html. Non sono misure sperimentali o tariffe del luogo fotografato."
+      ],
+      "metadata_sources": [],
+      "fingerprints": [
+        "asset-d93a1bd96280c792c5f80db0a824e5ce8eac87c0758c1972bb4ed2be2cc946f9",
+        "asset-5c511816a2b7a7a38814683e34d6317451c1d0df9e77497d7a6f969e7d83ab9a",
+        "asset-f00e032d005d778652416252364df92d257ead790a181678c29bf6b02a7bdaab",
+        "asset-162c30835e781e76912c520370bf306ec2dea964f2230ab16942b79d71da1b49",
+        "asset-ed1744fe6caae6103b026235bdf158c4e69c7acffba48cb26d1b20f6998de8c5",
+        "asset-a9dd351cb8f8abc2e96503814b6b7bc38cda11e2fe8f327b44c9901ed7eff762",
+        "asset-7b6f493dbeccc42e6b00c0c0452a24721f0db2c1fbcc890b991bab5d98bcb75e",
+        "asset-e2faac3ffb975c9efd832b92a5f525a7558fc950dbb56e65f8d034a3aa42abce",
+        "asset-332afd57fe15d02f6938a2e3987708953541a1cc15f251f08033be6bbdee1823",
+        "asset-b8f63eb07ddca12ae1dee2fd638d8f9f74a629e2661815d29f23d7920761f20a"
+      ]
+    },
+    {
+      "id": "credit-7e8ab80a639eafc8",
+      "description": "Grafico storico di William Playfair, con serie di dati nel tempo.",
+      "source": "https://commons.wikimedia.org/wiki/File:Playfair_TimeSeries-1.png",
+      "author": "William Playfair (1759-1823)",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/File:Playfair_TimeSeries-1.png#Licensing",
+      "changes": "Immagine intera, nessun ritaglio o alterazione.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Grafico storico di William Playfair, con serie di dati nel tempo. — William Playfair (1759-1823). <a href=\"https://commons.wikimedia.org/wiki/File:Playfair_TimeSeries-1.png\">Fonte originale</a>. <a href=\"https://commons.wikimedia.org/wiki/File:Playfair_TimeSeries-1.png#Licensing\">Public domain</a>. Modifiche: Immagine intera, nessun ritaglio o alterazione."
+      ],
+      "metadata_sources": [
+        "piano_cartesiano_grafici_it.html"
+      ],
+      "fingerprints": [
+        "asset-66f4334e26ea047120e877852a8c8b4e904f0c3a82d109e5f67c7a844aa33730"
+      ]
+    },
+    {
+      "id": "credit-5e5ca4b5b265dc6b",
+      "description": "Scaffali di libri nella biblioteca della tenuta Biltmore.",
+      "source": "https://commons.wikimedia.org/wiki/File:Library_at_the_biltmore_estate.jpg",
+      "author": "JoyD Smiths PTMr8",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "changes": "Immagine intera, nessun ritaglio o alterazione.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Scaffali di libri nella biblioteca della tenuta Biltmore. — JoyD Smiths PTMr8. <a href=\"https://commons.wikimedia.org/wiki/File:Library_at_the_biltmore_estate.jpg\">Fonte originale</a>. <a href=\"http://creativecommons.org/publicdomain/zero/1.0/deed.en\">CC0</a>. Modifiche: Immagine intera, nessun ritaglio o alterazione."
+      ],
+      "metadata_sources": [
+        "piano_cartesiano_grafici_it.html"
+      ],
+      "fingerprints": [
+        "asset-91f5cdddfeb5830e2e27320d91e4e71f3c9ae25ba232e6903d7f18bf5f23ac9d"
+      ]
+    },
+    {
+      "id": "credit-2be4f9b97fb3006c",
+      "description": "Struttura geometrica iperbolica a celle dodecaedriche.",
+      "source": "https://commons.wikimedia.org/wiki/File:Hyperbolic_orthogonal_dodecahedral_honeycomb.png",
+      "author": "Tomruen; immagine realizzata con Curved Spaces di Jeff Weeks",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/File:Hyperbolic_orthogonal_dodecahedral_honeycomb.png#Licensing",
+      "changes": "Immagine intera, nessun ritaglio o alterazione.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Struttura geometrica iperbolica a celle dodecaedriche. — Tomruen; immagine realizzata con Curved Spaces di Jeff Weeks. <a href=\"https://commons.wikimedia.org/wiki/File:Hyperbolic_orthogonal_dodecahedral_honeycomb.png\">Fonte originale</a>. <a href=\"https://commons.wikimedia.org/wiki/File:Hyperbolic_orthogonal_dodecahedral_honeycomb.png#Licensing\">Public domain</a>. Modifiche: Immagine intera, nessun ritaglio o alterazione."
+      ],
+      "metadata_sources": [
+        "relazioni_proporzionalita_it.html"
+      ],
+      "fingerprints": [
+        "asset-65f88f2e548c25f03e3a54c0fed8761de266d99a1cd2e0cfa4253d0de6a06e14"
+      ]
+    },
+    {
+      "id": "credit-3fb36270d27222c4",
+      "description": "Treno della monorotaia presso l’Excalibur a Las Vegas.",
+      "source": "https://commons.wikimedia.org/wiki/File:Las_Vegas_monorail_Excalibur.jpg",
+      "author": "ArticCynda",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "changes": "Immagine intera, nessun ritaglio o alterazione.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Treno della monorotaia presso l’Excalibur a Las Vegas. — ArticCynda. <a href=\"https://commons.wikimedia.org/wiki/File:Las_Vegas_monorail_Excalibur.jpg\">Fonte originale</a>. <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>. Modifiche: Immagine intera, nessun ritaglio o alterazione."
+      ],
+      "metadata_sources": [
+        "relazioni_proporzionalita_it.html"
+      ],
+      "fingerprints": [
+        "asset-66d9410a8d83b6ce050ce69b197c9b0aafe698a7a5bec9fafbd222f41e7605ed"
+      ]
+    },
+    {
+      "id": "visuali-piano-serbatoio",
+      "description": "Serbatoio, corrispondenze e grafici del piano cartesiano",
+      "author": "Stringhe",
+      "source": null,
+      "license": null,
+      "license_url": null,
+      "changes": null,
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Schemi e grafici originali realizzati su richiesta per il capitolo 8. Riempimento ideale: 3 L/min fino a 3 min, poi ingresso nullo. Dati costruiti, non misure. Nessuna fotografia dei libri incorporata."
+      ],
+      "metadata_sources": [],
+      "fingerprints": [
+        "asset-9869aea91557d6066a890b8366758de80497e2edb75c8790e4fb40a8c90f7877",
+        "asset-1d72ace07a3c0ae9b9ecf029f238d69dbc281dcebae68ee5b56cf3305a5209f7",
+        "asset-c4aa87e2bf6dbdded0312b84197c4d7b1eb510391b4b79bdfc951f48e2dbb36d",
+        "asset-490b33839111bdab0c2ae852e8198196c4763bc73b67b0b9568fb369ca5e9559",
+        "asset-3b144987d2f7e538a9dac801099770012ca31a74620614cea67167edc6d81f8b",
+        "asset-5483c5095c3131f37f925d32478f98fe4bdf3b5411511ec4fd4339497b2a6eee",
+        "asset-6cf34ee558cf64eab46fbc3c9758e9c9f83b4b21badfa81b1a60cd2f1f70ba8e",
+        "asset-7aa20ed041d7e3add849ec87360170a0f4008e23025fdce69bfaa7e4d2e46c95",
+        "asset-57693d1015031095f4beb2ac23357e2d910162586fd1641c02d28d77bd7a7b4f",
+        "asset-645453f36fcc371c25932d18116342678808c9ee4d90a0d7bcf6b2d35910aaf4",
+        "asset-9ddcdd0efe16a41143c94b89ff332138b30545f2e533f06755966811960a0f9b",
+        "asset-eaf5cc998147e910286a3d4dff8f34dc1c3504157b2bb7e2baa8a02d0b05d016",
+        "asset-8fd61b7a5e4ec0a4a5d3fe9a2d2e37f07c4a293086d82204d57aa7cc106be36c",
+        "asset-3df42e98e3ce8b303d2c60b84c1432c0eb5549f8fcb52cb641fb42d230aae763",
+        "asset-f6e4d69f9bf29938aa3b377fff8fedad7d033670065ff331653c1b67fda9c5dd",
+        "asset-490b4b6637cffee03ec935626dec3268a2d8ab021c76d221737cfdc8aabc7c12",
+        "asset-a077e3be6475f7aaaee1b60bc56bcefa9ad425619a8cee4761ce2642bd231d05",
+        "asset-9d98fa63f8f095789535d2c2746054af156580c0589c1b112624828d6ad7e5de",
+        "asset-75e755d6924092fe9e8527af9ce9f095b541d5f7a245c7f774e5e60619cb5185",
+        "asset-1d5e36e09c635e634960155ccd62c45b74586e161aa41cb6bcd1ef015d28ab09",
+        "asset-d0b5f2bf05a2143635a48e80910ce4eeb71e79db461da0c593c73b311d8d9b6d",
+        "asset-bf853dda9ab60b0c7ffd21355422c34ba369e52b5ea4fefda18714079a89f113",
+        "asset-cf591f00235f6acda05c033ee00fb3a3d3deca834ad9124df307241ca80325d4",
+        "asset-dd66b01a9f604fdbcd9ace2f738a98e26d310cb3c19214eeb4792ae4cf13b780",
+        "asset-91f357921af32551ff04d8bf4925277c6e9af986398cf54353e166cf62803ee1",
+        "asset-bcab9dbf281864dca73253d6b8f0bf01c3f768e6af9106ba2dd8dcccd5d5e0ff",
+        "asset-df1519a6ed514953c9968fba8fde8d2afcc2fd7b77c27584acfa543fe4de2f1c",
+        "asset-77b2ff7edb1e2f26812e68238639374e021d1a853578c98c89f7c54cfa9ed6a4",
+        "asset-1c32f84d185a91654908544cab8977cd5f21fbf64def90d0361e8c2c25e3dc63",
+        "asset-1dceb66b217508ce8e18370d726fd53c6669eb5410036fe0688e096d8d113e65"
+      ]
+    },
+    {
+      "id": "visuali-proporzioni-parametro",
+      "description": "Schemi di libri e autobus e grafici con parametro k",
+      "author": "Stringhe",
+      "source": null,
+      "license": null,
+      "license_url": null,
+      "changes": null,
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Schemi originali realizzati su richiesta per il capitolo 9 al posto delle fotografie. Prezzo iniziale 15 €/libro; viaggio iniziale 120 km; area del quadrato con k = 1. Confronto matematico y = k·x² separato dal modello del quadrato. Dati costruiti dalle formule, non misure o tariffe reali.",
+        "Composizioni degli schemi e grafici del capitolo 9 realizzati nel progetto Stringhe; clip art originali Openclipart dei libri e dell’autobus accreditate separatamente. Prezzo iniziale 15 €/libro; viaggio iniziale 120 km; area del quadrato con k = 1. Confronto matematico y = k·x² separato dal modello del quadrato. Dati costruiti dalle formule, non misure o tariffe reali."
+      ],
+      "metadata_sources": [],
+      "fingerprints": [
+        "asset-51c7bbf30c9f429eaceae96cba2e09f723a6a0a8efcdbe3b13445327a0060df8",
+        "asset-df6fa98366421bea2dc91bfc828ceca895f2ed1d884f5da03c389ad5463edec8",
+        "asset-d02de1ca6cf3c27b38e0ac3162ba1e452288dea3640ac741394734a6ee345de5",
+        "asset-504832abae5e82b03d17ac4e044d2d3641d18cb704bf6279f16065c7d4667317",
+        "asset-95661836ee94f22f98bddb29f0674fc06eda03feb8ae7e89480de8a9b2091879",
+        "asset-6924e2e5b00019c1d6d5854204c791126e4122310d1506c61427d27842c78006",
+        "asset-b1ed2fbf7f073faff5a64661faca67c73a99a4f16d9fc3439df2dc80bdbe5c96",
+        "asset-6cadef27a3deff356b51be9fef62f0ecf444e01c91e4215145416053c2bcf7c1",
+        "asset-9689445393f3c3a3e11c8d5ecfc08c605dc98a3744e8451c2c2dda8f9853313f",
+        "asset-2db21a655ef53ced0a953923e1673ebc98e8e41a8de8f3ca1887075632c51104",
+        "asset-364fb31da857eacf3c750d55c42d4669f80ef09e9a76a05c0557321ce38dd915",
+        "asset-d106815f13a01dda2ea91da399af20b9350cbe0b0a797edd44d46f3b8ebc9d11",
+        "asset-4ee3b4c20b79b7ade42fd379d6d1ed8e10dda566d37422111ee1559bb4e1c3ae"
+      ]
+    },
+    {
+      "id": "clipart-robinet-spadassin",
+      "description": "Robinet, clip art del rubinetto",
+      "author": "spadassin",
+      "source": "https://openclipart.org/detail/202080/robinet",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "SVG originale incorporato, ridimensionato proporzionalmente nello schema; nessun ritaglio o modifica della clip art.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Robinet — spadassin. <a href=\"https://openclipart.org/detail/202080/robinet\">Fonte originale</a>. <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CC0 1.0</a>. SVG originale ridimensionato proporzionalmente nello schema, senza ritagli o modifiche."
+      ],
+      "metadata_sources": [
+        "lavorazione/piano_cartesiano_grafici/risorse/robinet-source.json"
+      ],
+      "fingerprints": [
+        "asset-be99672d7a7afb7df6f3b9c73240abbe612a0172f795cfb2666dd480d99ac9db"
+      ]
+    },
+    {
+      "id": "clipart-double-decker-bus-j4p4n",
+      "description": "Double Decker Bus",
+      "author": "j4p4n",
+      "source": "https://openclipart.org/detail/286938/double-decker-bus",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "SVG originale incorporato, ridimensionato proporzionalmente nello schema; nessun ritaglio o modifica della clip art.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Double Decker Bus — j4p4n. <a href=\"https://openclipart.org/detail/286938/double-decker-bus\">Fonte originale</a>. <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CC0 1.0</a>. Originale incorporato e ridimensionato proporzionalmente, senza ritagli o modifiche."
+      ],
+      "metadata_sources": [
+        "lavorazione/proporzionalita_diretta/risorse/autobus-source.json"
+      ],
+      "fingerprints": [
+        "asset-7d79e4ae1acbcf8524950d8b244cf13df723ab6abd597e94c41bf5d713233ee7"
+      ]
+    },
+    {
+      "id": "clipart-red-book-nerdy",
+      "description": "Red book partly open",
+      "author": "nerdy",
+      "source": "https://openclipart.org/detail/355394/red-book-partly-open",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "SVG originale incorporato, ridimensionato proporzionalmente nello schema; nessun ritaglio o modifica della clip art.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Red book partly open — nerdy. <a href=\"https://openclipart.org/detail/355394/red-book-partly-open\">Fonte originale</a>. <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CC0 1.0</a>. Originale incorporato e ridimensionato proporzionalmente, senza ritagli o modifiche."
+      ],
+      "metadata_sources": [
+        "lavorazione/proporzionalita_diretta/risorse/libro-source.json"
+      ],
+      "fingerprints": [
+        "asset-6b5dd15fe25de60029b44fd1d8761d6d9b4ad5a5f83d867ec33d82a8b4e5f5fe"
+      ]
+    },
+    {
+      "id": "clipart-robinet-senza-goccia",
+      "description": "Robinet, versione senza goccia",
+      "author": "spadassin; modifica con ChatGPT su richiesta",
+      "source": "https://openclipart.org/detail/202080/robinet",
+      "license": "CC0 1.0 (originale)",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "changes": "Rimozione della goccia con ChatGPT su richiesta dell’utente; PNG con trasparenza. Originale SVG conservato.",
+      "status": "documented",
+      "links": [],
+      "notices": [
+        "Robinet — spadassin. <a href=\"https://openclipart.org/detail/202080/robinet\">Originale Openclipart</a>, <a href=\"https://creativecommons.org/publicdomain/zero/1.0/\">CC0 1.0</a>. Versione con goccia rimossa tramite ChatGPT su richiesta, incorporata come PNG trasparente; originale SVG conservato."
+      ],
+      "metadata_sources": [
+        "lavorazione/piano_cartesiano_grafici/risorse/robinet-source.json"
+      ],
+      "fingerprints": [
+        "asset-cf7a78ee10a1b4b5b3700ef3780603413d5487f787704e758d15df38a51101a3"
+      ]
     }
   ],
   "documents": {
@@ -5052,6 +5317,56 @@
       "lexend": true,
       "chapter_labels": true,
       "review": null
+    },
+    "piano_cartesiano_grafici_it.html": {
+      "title": "Il piano cartesiano",
+      "anchor": "piano-cartesiano-grafici-it",
+      "credits": [
+        {
+          "resource": "credit-7e8ab80a639eafc8",
+          "notice": 0
+        },
+        {
+          "resource": "visuali-piano-serbatoio",
+          "notice": 0
+        },
+        {
+          "resource": "clipart-robinet-spadassin",
+          "notice": 0
+        },
+        {
+          "resource": "clipart-robinet-senza-goccia",
+          "notice": 0
+        }
+      ],
+      "lexend": true,
+      "chapter_labels": true,
+      "review": null
+    },
+    "relazioni_proporzionalita_it.html": {
+      "title": "Le relazioni di proporzionalità",
+      "anchor": "relazioni-proporzionalita-it",
+      "credits": [
+        {
+          "resource": "credit-2be4f9b97fb3006c",
+          "notice": 0
+        },
+        {
+          "resource": "visuali-proporzioni-parametro",
+          "notice": 1
+        },
+        {
+          "resource": "clipart-red-book-nerdy",
+          "notice": 0
+        },
+        {
+          "resource": "clipart-double-decker-bus-j4p4n",
+          "notice": 0
+        }
+      ],
+      "lexend": true,
+      "chapter_labels": true,
+      "review": null
     }
   },
   "assets": [
@@ -5464,6 +5779,21 @@
       ]
     },
     {
+      "id": "asset-1c32f84d185a91654908544cab8977cd5f21fbf64def90d0361e8c2c25e3dc63",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "svg",
+          "description": "Coppie rappresentate: (0; 0), (1; 3), (2; 6), (3; 9), (4; 9), (5; 9).",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-piano-serbatoio"
+        }
+      ]
+    },
+    {
       "id": "asset-1d547c1081dc7d68a522b8559a853df02c4c017e7f7064bfa5d4817333755d69",
       "kind": "svg",
       "uses": [
@@ -5475,6 +5805,21 @@
           "attribute": "inline",
           "location": null,
           "credit_id": "bilancia-pesetti-generati"
+        }
+      ]
+    },
+    {
+      "id": "asset-1dceb66b217508ce8e18370d726fd53c6669eb5410036fe0688e096d8d113e65",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "svg",
+          "description": "Coppie rappresentate: (0; 0), (1; 3), (2; 6), (3; 9), (4; 9), (5; 9).",
+          "locator": "chart-tank",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-piano-serbatoio"
         }
       ]
     },
@@ -5818,6 +6163,21 @@
       ]
     },
     {
+      "id": "asset-2db21a655ef53ced0a953923e1673ebc98e8e41a8de8f3ca1887075632c51104",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "svg",
+          "description": "Viaggio ideale in autobus su un percorso di centoventi chilometri, senza fermate e a velocità costante.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-proporzioni-parametro"
+        }
+      ]
+    },
+    {
       "id": "asset-3151fd5569293758a7774d34c082c272a9cae384ef2dba5cc4558a9ce732d631",
       "kind": "image/png",
       "uses": [
@@ -6050,6 +6410,15 @@
           "credit_id": "font-lexend"
         },
         {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "font/ttf",
+          "description": "Font incorporato",
+          "locator": null,
+          "attribute": "font-face",
+          "location": null,
+          "credit_id": "font-lexend"
+        },
+        {
           "document": "potenze_dieci_notazione_scientifica_it.html",
           "kind": "font/ttf",
           "description": "Font incorporato",
@@ -6060,6 +6429,15 @@
         },
         {
           "document": "prefissi_sistema_internazionale_it.html",
+          "kind": "font/ttf",
+          "description": "Font incorporato",
+          "locator": null,
+          "attribute": "font-face",
+          "location": null,
+          "credit_id": "font-lexend"
+        },
+        {
+          "document": "relazioni_proporzionalita_it.html",
           "kind": "font/ttf",
           "description": "Font incorporato",
           "locator": null,
@@ -6165,6 +6543,21 @@
           "attribute": "cover-data",
           "location": "copertine/scudo-camera.webp",
           "credit_id": "credit-c7d6d6acffb1ea95"
+        }
+      ]
+    },
+    {
+      "id": "asset-3df42e98e3ce8b303d2c60b84c1432c0eb5549f8fcb52cb641fb42d230aae763",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "svg",
+          "description": "I tempi 3, 4 e 5 minuti corrispondono tutti al volume di nove litri.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-piano-serbatoio"
         }
       ]
     },
@@ -6283,6 +6676,24 @@
       "id": "asset-4180936ac8f7ef98b7ead214c32d886175073d382ccd6c87915683088170b376",
       "kind": "svg",
       "uses": [
+        {
+          "document": "index.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "introduzione-fisica-misura",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        },
+        {
+          "document": "index.html",
+          "kind": "svg",
+          "description": "svg",
+          "locator": "introduzione-fisica-misura",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": null
+        },
         {
           "document": "index.html",
           "kind": "svg",
@@ -6531,6 +6942,36 @@
           "attribute": "href",
           "location": null,
           "credit_id": "credit-75bc560c9b8d9052"
+        }
+      ]
+    },
+    {
+      "id": "asset-4ee3b4c20b79b7ade42fd379d6d1ed8e10dda566d37422111ee1559bb4e1c3ae",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "svg",
+          "description": "Tre situazioni separate: un libro a quindici euro, due libri a trenta euro, tre libri a quarantacinque euro.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-proporzioni-parametro"
+        }
+      ]
+    },
+    {
+      "id": "asset-504832abae5e82b03d17ac4e044d2d3641d18cb704bf6279f16065c7d4667317",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "svg",
+          "description": "Coppie rappresentate: (30; 4), (40; 3), (60; 2), (80; 1,5), (120; 1).",
+          "locator": "chart-inverse",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-proporzioni-parametro"
         }
       ]
     },
@@ -6811,6 +7252,51 @@
       ]
     },
     {
+      "id": "asset-65f88f2e548c25f03e3a54c0fed8761de266d99a1cd2e0cfa4253d0de6a06e14",
+      "kind": "image/png",
+      "uses": [
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "image/png",
+          "description": "Struttura geometrica iperbolica a celle dodecaedriche.",
+          "locator": "inizio",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-2be4f9b97fb3006c"
+        }
+      ]
+    },
+    {
+      "id": "asset-66f4334e26ea047120e877852a8c8b4e904f0c3a82d109e5f67c7a844aa33730",
+      "kind": "image/png",
+      "uses": [
+        {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "image/png",
+          "description": "Grafico storico di William Playfair, con serie di dati nel tempo.",
+          "locator": "inizio",
+          "attribute": "src",
+          "location": null,
+          "credit_id": "credit-7e8ab80a639eafc8"
+        }
+      ]
+    },
+    {
+      "id": "asset-6924e2e5b00019c1d6d5854204c791126e4122310d1506c61427d27842c78006",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "svg",
+          "description": "Coppie rappresentate: (0; 0), (1; 1), (2; 4), (3; 9), (4; 16).",
+          "locator": "chart-square",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-proporzioni-parametro"
+        }
+      ]
+    },
+    {
       "id": "asset-693613714f401dff948e7162eb256f395d79316d69cdefc9780f2602ed1ef953",
       "kind": "image/png",
       "uses": [
@@ -6867,6 +7353,66 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-51f66dc06501d9f4"
+        }
+      ]
+    },
+    {
+      "id": "asset-6b5dd15fe25de60029b44fd1d8761d6d9b4ad5a5f83d867ec33d82a8b4e5f5fe",
+      "kind": "image/svg+xml",
+      "uses": [
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "image/svg+xml",
+          "description": "Libro rosso parzialmente aperto",
+          "locator": "inizio",
+          "attribute": "href",
+          "location": null,
+          "credit_id": "clipart-red-book-nerdy"
+        },
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "image/svg+xml",
+          "description": "Libro rosso parzialmente aperto",
+          "locator": "inizio",
+          "attribute": "href",
+          "location": null,
+          "credit_id": "clipart-red-book-nerdy"
+        },
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "image/svg+xml",
+          "description": "Libro rosso parzialmente aperto",
+          "locator": "inizio",
+          "attribute": "href",
+          "location": null,
+          "credit_id": "clipart-red-book-nerdy"
+        },
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "image/svg+xml",
+          "description": "Libro rosso parzialmente aperto",
+          "locator": "inizio",
+          "attribute": "href",
+          "location": null,
+          "credit_id": "clipart-red-book-nerdy"
+        },
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "image/svg+xml",
+          "description": "Libro rosso parzialmente aperto",
+          "locator": "inizio",
+          "attribute": "href",
+          "location": null,
+          "credit_id": "clipart-red-book-nerdy"
+        },
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "image/svg+xml",
+          "description": "Libro rosso parzialmente aperto",
+          "locator": "inizio",
+          "attribute": "href",
+          "location": null,
+          "credit_id": "clipart-red-book-nerdy"
         }
       ]
     },
@@ -7102,6 +7648,21 @@
       ]
     },
     {
+      "id": "asset-77b2ff7edb1e2f26812e68238639374e021d1a853578c98c89f7c54cfa9ed6a4",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "svg",
+          "description": "Coppie rappresentate: (0; 0), (1; 3), (2; 6), (3; 9), (4; 9), (5; 9).",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-piano-serbatoio"
+        }
+      ]
+    },
+    {
       "id": "asset-78aca4c9a3194aa2b79810a409a48c5ba72330abde05b6f454bc3eea54356e9e",
       "kind": "image/jpeg",
       "uses": [
@@ -7143,6 +7704,21 @@
           "attribute": "inline",
           "location": null,
           "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-7d79e4ae1acbcf8524950d8b244cf13df723ab6abd597e94c41bf5d713233ee7",
+      "kind": "image/svg+xml",
+      "uses": [
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "image/svg+xml",
+          "description": "Autobus rosso a due piani",
+          "locator": "inizio",
+          "attribute": "href",
+          "location": null,
+          "credit_id": "clipart-double-decker-bus-j4p4n"
         }
       ]
     },
@@ -7543,6 +8119,21 @@
       ]
     },
     {
+      "id": "asset-91f357921af32551ff04d8bf4925277c6e9af986398cf54353e166cf62803ee1",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "svg",
+          "description": "Coppie rappresentate: (0; 0), (1; 3), (2; 6), (3; 9), (4; 9), (5; 9).",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-piano-serbatoio"
+        }
+      ]
+    },
+    {
       "id": "asset-928b020f72cab3b09d000a48945dc653ae862fe795e080c06f9da036a0fc9bf4",
       "kind": "svg",
       "uses": [
@@ -7623,6 +8214,21 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-d8b1c4d30a23fa4e"
+        }
+      ]
+    },
+    {
+      "id": "asset-95661836ee94f22f98bddb29f0674fc06eda03feb8ae7e89480de8a9b2091879",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "svg",
+          "description": "Quadrati in scala: lato uno centimetro e area uno centimetro quadrato; lato due centimetri e area quattro centimetri quadrati.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-proporzioni-parametro"
         }
       ]
     },
@@ -8218,6 +8824,21 @@
       ]
     },
     {
+      "id": "asset-b1ed2fbf7f073faff5a64661faca67c73a99a4f16d9fc3439df2dc80bdbe5c96",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "svg",
+          "description": "Coppie rappresentate: .",
+          "locator": "chart-quadratic",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-proporzioni-parametro"
+        }
+      ]
+    },
+    {
       "id": "asset-b401cdb07eea77f39808105f6b74232a347c0fe5d98a6fd520af2b92ddff01e5",
       "kind": "image/webp",
       "uses": [
@@ -8356,6 +8977,21 @@
       ]
     },
     {
+      "id": "asset-bcab9dbf281864dca73253d6b8f0bf01c3f768e6af9106ba2dd8dcccd5d5e0ff",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "svg",
+          "description": "Coppie rappresentate: (0; 0), (1; 3), (2; 6), (3; 9), (4; 9), (5; 9).",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-piano-serbatoio"
+        }
+      ]
+    },
+    {
       "id": "asset-bd08c5f020ad57aeedc5536fd92030ac7823725189847df3623f925af07d61d7",
       "kind": "image/webp",
       "uses": [
@@ -8371,6 +9007,21 @@
       ]
     },
     {
+      "id": "asset-be99672d7a7afb7df6f3b9c73240abbe612a0172f795cfb2666dd480d99ac9db",
+      "kind": "image/svg+xml",
+      "uses": [
+        {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "image/svg+xml",
+          "description": "Rubinetto, illustrazione di spadassin",
+          "locator": "inizio",
+          "attribute": "href",
+          "location": null,
+          "credit_id": "clipart-robinet-spadassin"
+        }
+      ]
+    },
+    {
       "id": "asset-bec7095f0717c4c6fcd0f7b68f9940f4d75315d31953da43156ca6786193dda4",
       "kind": "svg",
       "uses": [
@@ -8382,6 +9033,21 @@
           "attribute": "inline",
           "location": null,
           "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-bf853dda9ab60b0c7ffd21355422c34ba369e52b5ea4fefda18714079a89f113",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "svg",
+          "description": "Serbatoio: rubinetto aperto, dopo due minuti ci sono sei litri; chiuso al terzo minuto, il volume resta nove litri.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-piano-serbatoio"
         }
       ]
     },
@@ -8830,6 +9496,21 @@
       ]
     },
     {
+      "id": "asset-cf7a78ee10a1b4b5b3700ef3780603413d5487f787704e758d15df38a51101a3",
+      "kind": "image/png",
+      "uses": [
+        {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "image/png",
+          "description": "Rubinetto chiuso, senza goccia",
+          "locator": "inizio",
+          "attribute": "href",
+          "location": null,
+          "credit_id": "clipart-robinet-senza-goccia"
+        }
+      ]
+    },
+    {
       "id": "asset-cfc9a413b53c65afffe52bd0c771a30e44412c8a228a35ede7856643211661fa",
       "kind": "image/jpeg",
       "uses": [
@@ -9190,6 +9871,21 @@
       ]
     },
     {
+      "id": "asset-dd66b01a9f604fdbcd9ace2f738a98e26d310cb3c19214eeb4792ae4cf13b780",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "svg",
+          "description": "Stessi dati del serbatoio con scale verticali da zero a dodici litri e da zero a ventiquattro litri.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-piano-serbatoio"
+        }
+      ]
+    },
+    {
       "id": "asset-ddc7753abe48153b5fcf56b72c95def9987b659a39e3eea62f2b26ab6cd02532",
       "kind": "image/svg+xml",
       "uses": [
@@ -9238,6 +9934,21 @@
       ]
     },
     {
+      "id": "asset-df1519a6ed514953c9968fba8fde8d2afcc2fd7b77c27584acfa543fe4de2f1c",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "svg",
+          "description": "Stessi dati del serbatoio con scale verticali da zero a dodici litri e da zero a ventiquattro litri.",
+          "locator": "inizio",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-piano-serbatoio"
+        }
+      ]
+    },
+    {
       "id": "asset-df302171ce66d199bc422a5c7ab6fcfd303892ab5da836378e3ad6d4bbe8b21b",
       "kind": "svg",
       "uses": [
@@ -9249,6 +9960,21 @@
           "attribute": "inline",
           "location": null,
           "credit_id": null
+        }
+      ]
+    },
+    {
+      "id": "asset-df6fa98366421bea2dc91bfc828ceca895f2ed1d884f5da03c389ad5463edec8",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "svg",
+          "description": "Coppie rappresentate: (0; 0), (1; 15), (2; 30), (3; 45), (4; 60).",
+          "locator": "chart-direct",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-proporzioni-parametro"
         }
       ]
     },
@@ -9699,6 +10425,21 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-1552a88b686ede5c"
+        }
+      ]
+    },
+    {
+      "id": "asset-f6e4d69f9bf29938aa3b377fff8fedad7d033670065ff331653c1b67fda9c5dd",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "piano_cartesiano_grafici_it.html",
+          "kind": "svg",
+          "description": "Piano cartesiano da meno cinque a cinque, con punto P inizialmente in due, due.",
+          "locator": "plane",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-piano-serbatoio"
         }
       ]
     },

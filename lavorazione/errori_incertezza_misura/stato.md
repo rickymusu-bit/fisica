@@ -161,3 +161,11 @@ Controlli completati: portata massima 500 g, fuori scala a 300 g con 380 g caric
 ## Pulizia dei riferimenti alla configurazione e alla natura dei valori
 
 Su richiesta esplicita, rimossi «Configurazione N», la relativa colonna del registro e il termine configurazione dai messaggi del capitolo 6. Conteggio e separazione interni delle serie conservati per il funzionamento dei comandi, senza esporli nel testo. Rimossa la dicitura «Valori simulati» dalle tre attività e la frase equivalente nelle istruzioni del 6. Dati del modello, formule, controlli e registri restano funzionanti. HTML correnti: capitolo 6 v14 (bozza v14), capitolo 7 v13 (bozza v13). Revisione aggiunta alla PR #76 in bozza, senza pubblicazione.
+
+
+## Navigazione per la pubblicazione dei capitoli 8–9
+
+L’utente approva le anteprime della PR #79 con «Perfetto. Pubblica». Aggiornato il solo collegamento adiacente nella sequenza 7 → 8 → 9 → Termodinamica; testo, figure, modello, versione e data editoriale di questo capitolo invariati.
+
+
+Navigazione aggiornata pubblicata con la PR #79 al commit `da6c9bde5f15816a5fe060d9dbe36cedbfe636d9`; pagina pubblica verificata HTTP 200 e identica alla build. Contenuto scientifico, versione e data editoriale di questo capitolo invariati.
