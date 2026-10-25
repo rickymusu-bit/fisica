@@ -1,0 +1,4204 @@
+{
+  "questions": [
+    {
+      "id": "intro-001",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale caratteristica rende controllabile sperimentalmente un'ipotesi scientifica?",
+      "options": [
+        "La possibilità di confrontare una previsione con osservazioni o misure.",
+        "L'approvazione dell'ipotesi da parte di molti ricercatori.",
+        "La certezza che ogni esperimento confermerà l'ipotesi.",
+        "La presenza di un'applicazione tecnologica immediata."
+      ],
+      "correct": 0,
+      "explanation": "Un'ipotesi scientifica deve produrre previsioni verificabili: i risultati possono sostenerla provvisoriamente oppure metterla in discussione."
+    },
+    {
+      "id": "intro-002",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Due gruppi misurano la stessa lunghezza. Il primo usa un righello graduato in centimetri, il secondo uno graduato in millimetri. Quale vantaggio può avere il secondo righello?",
+      "options": [
+        "Elimina tutti gli errori sistematici.",
+        "Permette di distinguere variazioni di lunghezza più piccole.",
+        "Garantisce che la misura coincida con il valore vero.",
+        "Non richiede di indicare l'unità di misura."
+      ],
+      "correct": 1,
+      "explanation": "Una suddivisione più fine permette di leggere differenze più piccole, ma non elimina gli errori né garantisce l'accuratezza."
+    },
+    {
+      "id": "intro-003",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Una lunghezza è L = 3,5 m. Qual è la stessa lunghezza espressa in centimetri?",
+      "options": [
+        "0,035 cm",
+        "35 cm",
+        "350 cm",
+        "3500 cm"
+      ],
+      "correct": 2,
+      "explanation": "Poiché 1 m = 100 cm, 3,5 m = 350 cm."
+    },
+    {
+      "id": "intro-004",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale affermazione distingue correttamente precisione e accuratezza di una serie di misure?",
+      "options": [
+        "Misure ravvicinate sono necessariamente anche vicine al valore di riferimento.",
+        "Misure molto disperse sono sempre più accurate di misure ravvicinate.",
+        "La precisione riguarda solo gli strumenti digitali.",
+        "Misure ravvicinate possono essere tutte lontane dal valore di riferimento."
+      ],
+      "correct": 3,
+      "explanation": "Le misure possono essere poco disperse, quindi precise, ma risentire di uno scostamento sistematico e risultare poco accurate."
+    },
+    {
+      "id": "intro-005",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un esperimento confronta il tempo di discesa di una pallina lungo piste di inclinazione diversa. Quale cambiamento renderebbe difficile attribuire la differenza nei tempi alla sola inclinazione?",
+      "options": [
+        "Cambiare anche la lunghezza del percorso tra le prove.",
+        "Ripetere ogni prova con la stessa inclinazione.",
+        "Registrare i tempi in una tabella.",
+        "Usare sempre la stessa pallina."
+      ],
+      "correct": 0,
+      "explanation": "Se variano insieme inclinazione e lunghezza del percorso, non si può isolare l'effetto dell'inclinazione sul tempo."
+    },
+    {
+      "id": "intro-006",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un quadrato ha lato L = 30 cm. Qual è la sua area A espressa in metri quadrati?",
+      "options": [
+        "0,9 m²",
+        "0,09 m²",
+        "0,009 m²",
+        "9 m²"
+      ],
+      "correct": 1,
+      "explanation": "30 cm = 0,30 m; dunque A = L² = (0,30 m)² = 0,09 m²."
+    },
+    {
+      "id": "intro-007",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Si misurano più volte le dimensioni di un oggetto con uno strumento che, senza che l'operatore lo sappia, aggiunge sempre 2 mm a ogni lettura. Quale conclusione è corretta?",
+      "options": [
+        "Ripetendo le misure, lo scostamento sistematico si annulla necessariamente.",
+        "La media delle letture individua sempre il valore vero.",
+        "La dispersione delle letture può essere piccola anche se tutte sono spostate rispetto al valore corretto.",
+        "La semidispersione misura esattamente lo scostamento introdotto dallo strumento."
+      ],
+      "correct": 2,
+      "explanation": "Uno scostamento sistematico comune a tutte le letture può lasciare una dispersione piccola. Media e semidispersione da sole non lo eliminano né lo misurano."
+    },
+    {
+      "id": "intro-008",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Due grandezze positive x e y sono inversamente proporzionali. Un esperimento passa da x = 2 a x = 6 mantenendo invariata la costante di proporzionalità. Come cambia y?",
+      "options": [
+        "Diventa nove volte più grande.",
+        "Diventa tre volte più grande.",
+        "Diventa sei volte più piccola.",
+        "Diventa tre volte più piccola."
+      ],
+      "correct": 3,
+      "explanation": "Nella proporzionalità inversa il prodotto x·y è costante. Triplicare x da 2 a 6 divide y per 3."
+    },
+    {
+      "id": "intro-009",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Cinque misure di una lunghezza L, in centimetri, sono 12,1; 12,3; 12,2; 12,4; 12,0. Usando la media e la semidispersione come stima dell'incertezza, quale risultato si ottiene?",
+      "options": [
+        "(12,2 ± 0,2) cm",
+        "(12,2 ± 0,4) cm",
+        "(12,0 ± 0,2) cm",
+        "(12,4 ± 0,1) cm"
+      ],
+      "correct": 0,
+      "explanation": "La media è (12,1 + 12,3 + 12,2 + 12,4 + 12,0)/5 = 12,2 cm. La semidispersione è (12,4 − 12,0)/2 = 0,2 cm."
+    },
+    {
+      "id": "intro-010",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Qual è il primo compito di chi osserva un fenomeno sconosciuto?",
+      "options": [
+        "Descriverlo e formulare domande verificabili",
+        "Accettare la prima spiegazione disponibile",
+        "Eliminare le osservazioni inattese",
+        "Stabilire subito una legge definitiva"
+      ],
+      "correct": 0,
+      "explanation": "L'osservazione permette di individuare il problema, prima di formulare un'ipotesi."
+    },
+    {
+      "id": "intro-011",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "In un esperimento, a che cosa serve registrare i risultati in una tabella?",
+      "options": [
+        "A impedire qualunque errore di misura",
+        "A sostituire le misure mancanti",
+        "A organizzare dati da confrontare",
+        "A confermare automaticamente l'ipotesi"
+      ],
+      "correct": 2,
+      "explanation": "La tabella rende leggibili e confrontabili le misure."
+    },
+    {
+      "id": "intro-012",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Una previsione ricavata da un'ipotesi dovrebbe essere:",
+      "options": [
+        "Impossibile da smentire",
+        "Confrontabile con un risultato osservabile",
+        "Valida soltanto per un singolo ricercatore",
+        "Priva di condizioni sperimentali"
+      ],
+      "correct": 1,
+      "explanation": "Una previsione verificabile consente di mettere alla prova l'ipotesi."
+    },
+    {
+      "id": "intro-013",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Si prova la stessa pallina su due piste con diversa inclinazione. Per confrontare i tempi, che cosa conviene mantenere uguale?",
+      "options": [
+        "Il colore delle pareti",
+        "Il nome attribuito alla prova",
+        "Il numero scritto sulla pista",
+        "La lunghezza del percorso"
+      ],
+      "correct": 3,
+      "explanation": "Conservare la lunghezza del percorso consente di isolare meglio l'effetto dell'inclinazione."
+    },
+    {
+      "id": "intro-014",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Durante un'esperienza il risultato non coincide con la previsione. Qual è una reazione scientificamente corretta?",
+      "options": [
+        "Controllare misure, procedura e ipotesi",
+        "Eliminare i dati discordanti",
+        "Dichiarare che la scienza non funziona",
+        "Ripetere solo i risultati favorevoli"
+      ],
+      "correct": 0,
+      "explanation": "Un disaccordo invita a esaminare il procedimento e a rivedere eventualmente l'ipotesi."
+    },
+    {
+      "id": "intro-015",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Che cosa indica una variabile in un esperimento?",
+      "options": [
+        "Una conclusione già dimostrata",
+        "Una quantità o condizione che può assumere valori diversi",
+        "Una misura necessariamente sbagliata",
+        "Un oggetto usato solo per registrare dati"
+      ],
+      "correct": 1,
+      "explanation": "La variabile rappresenta una caratteristica modificabile o misurabile."
+    },
+    {
+      "id": "intro-016",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Che ruolo ha la ripetizione di una misura?",
+      "options": [
+        "Rende sempre corretto lo strumento",
+        "Trasforma un'ipotesi in legge",
+        "Permette di valutare quanto cambiano i risultati",
+        "Sostituisce l'indicazione dell'unità"
+      ],
+      "correct": 2,
+      "explanation": "Misure ripetute aiutano a riconoscere le variazioni nelle letture."
+    },
+    {
+      "id": "intro-017",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale attività costituisce un esperimento?",
+      "options": [
+        "Guardare casualmente un fenomeno senza annotarlo",
+        "Chiedere a un amico quale risposta preferisce",
+        "Memorizzare una definizione",
+        "Modificare una condizione e misurare l'effetto"
+      ],
+      "correct": 3,
+      "explanation": "In una prova controllata si osserva l'esito al variare di condizioni stabilite."
+    },
+    {
+      "id": "intro-018",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale affermazione rappresenta un'ipotesi scientifica verificabile?",
+      "options": [
+        "Aumentare la pendenza della pista riduce il tempo di discesa, a parità di percorso",
+        "Questa pista è la più bella",
+        "Il moto dipende da una forza che non può mai essere osservata",
+        "Il risultato giusto è quello che desideriamo"
+      ],
+      "correct": 0,
+      "explanation": "La prima affermazione produce una previsione quantitativa confrontabile con i tempi misurati."
+    },
+    {
+      "id": "intro-019",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Perché nel quaderno di laboratorio si riportano anche le condizioni della prova?",
+      "options": [
+        "Per rendere più lungo il resoconto",
+        "Per permettere di interpretare e ripetere l'esperimento",
+        "Per dimostrare che tutte le misure sono esatte",
+        "Per evitare di formulare ipotesi"
+      ],
+      "correct": 1,
+      "explanation": "Le condizioni sperimentali servono a capire che cosa si è confrontato."
+    },
+    {
+      "id": "intro-020",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale risultato offre un solo esperimento favorevole a un'ipotesi?",
+      "options": [
+        "Una dimostrazione definitiva e universale",
+        "La certezza che tutte le prove future concordino",
+        "Un sostegno provvisorio da sottoporre ad altre verifiche",
+        "La prova che nessun errore è possibile"
+      ],
+      "correct": 2,
+      "explanation": "Una conferma sperimentale non rende un'ipotesi inattaccabile."
+    },
+    {
+      "id": "intro-021",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un gruppo confronta due tipi di superficie per capire come cambia il tempo di rotolamento. Quale piano è più controllato?",
+      "options": [
+        "Cambiare superficie, pallina e lunghezza insieme",
+        "Usare palline diverse e ripetere molte volte",
+        "Misurare una superficie una volta e l'altra dieci",
+        "Tenere fissi pallina, inclinazione e percorso, cambiando solo la superficie"
+      ],
+      "correct": 3,
+      "explanation": "Cambiare soltanto la superficie aiuta ad attribuire a essa eventuali differenze."
+    },
+    {
+      "id": "intro-022",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Due serie misurate nelle stesse condizioni danno tempi leggermente diversi. Che cosa è più opportuno?",
+      "options": [
+        "Valutare la variabilità prima di confrontare le serie",
+        "Scegliere sempre il tempo minore",
+        "Scartare ogni misura non identica",
+        "Concludere che l'ipotesi è falsa senza altri controlli"
+      ],
+      "correct": 0,
+      "explanation": "La variabilità delle letture va considerata nel confronto sperimentale."
+    },
+    {
+      "id": "intro-023",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Una previsione parla del tempo necessario a sciogliere una sostanza. Quale dato manca per confrontare correttamente due prove?",
+      "options": [
+        "Il numero della pagina degli appunti",
+        "La quantità di sostanza e le condizioni di prova",
+        "La marca della penna usata",
+        "L'ordine alfabetico dei partecipanti"
+      ],
+      "correct": 1,
+      "explanation": "Quantità e condizioni incidono sul confronto; il resto non definisce la prova."
+    },
+    {
+      "id": "intro-024",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un ricercatore ottiene un risultato inatteso ripetendo correttamente la prova. Qual è il passo successivo ragionevole?",
+      "options": [
+        "Modificare il dato nel registro",
+        "Interrompere per sempre lo studio",
+        "Esaminare se l'ipotesi prevede davvero quel comportamento",
+        "Definire il risultato impossibile"
+      ],
+      "correct": 2,
+      "explanation": "Un risultato ripetuto e inatteso può richiedere la revisione della spiegazione."
+    },
+    {
+      "id": "intro-025",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "In una prova si misura la distanza percorsa al variare del tempo. Quale coppia distingue la grandezza modificata da quella osservata?",
+      "options": [
+        "Colore e massa",
+        "Temperatura e colore",
+        "Materiale e forma",
+        "Tempo e distanza"
+      ],
+      "correct": 3,
+      "explanation": "Il tempo è la variabile indipendente del confronto, la distanza quella misurata in funzione del tempo."
+    },
+    {
+      "id": "intro-026",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Per verificare se il tempo di discesa dipende dall'inclinazione, quale insieme di dati è più utile?",
+      "options": [
+        "Tempi ripetuti per ciascuna inclinazione con percorso uguale",
+        "Tempi di palline diverse su piste di lunghezze diverse",
+        "Sole inclinazioni senza tempi",
+        "Una sola misura senza indicare la pendenza"
+      ],
+      "correct": 0,
+      "explanation": "Ripetizioni e controllo del percorso rendono confrontabile l'effetto dell'inclinazione."
+    },
+    {
+      "id": "intro-027",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "In una serie sperimentale una lettura appare molto diversa dalle altre. Come ci si dovrebbe comportare?",
+      "options": [
+        "Cancellarla perché disturba la media",
+        "Verificare annotazioni, condizioni e possibili cause prima di escluderla",
+        "Sostituirla con il valore previsto",
+        "Considerarla necessariamente più precisa"
+      ],
+      "correct": 1,
+      "explanation": "Un dato anomalo non va eliminato senza motivazione verificabile."
+    },
+    {
+      "id": "intro-028",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale coppia è un esempio corretto di ipotesi e previsione?",
+      "options": [
+        "Ipotesi: misurare; previsione: usare un cronometro",
+        "Ipotesi: tabella; previsione: unità di misura",
+        "Ipotesi: il tempo diminuisce con la pendenza; previsione: con pista più inclinata si misura un tempo minore",
+        "Ipotesi: media; previsione: valore centrale"
+      ],
+      "correct": 2,
+      "explanation": "L'ipotesi è una spiegazione o relazione da testare, la previsione indica che cosa ci si attende nella prova."
+    },
+    {
+      "id": "intro-029",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "La stessa prova viene svolta da due laboratori con procedure diverse non documentate. Qual è il problema principale?",
+      "options": [
+        "Non possono scrivere tabelle",
+        "Devono usare lo stesso edificio",
+        "Le misure sono certamente false",
+        "Il confronto non separa gli effetti delle procedure dalle differenze osservate"
+      ],
+      "correct": 3,
+      "explanation": "Procedure differenti e ignote introducono fattori non controllati."
+    },
+    {
+      "id": "intro-030",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Una previsione è confermata solo quando si eliminano le letture sfavorevoli. Qual è il difetto del procedimento?",
+      "options": [
+        "La selezione dei dati altera la verifica dell'ipotesi",
+        "Le misure rimaste diventano più numerose",
+        "Le unità cambiano automaticamente",
+        "Il campione diventa per definizione più accurato"
+      ],
+      "correct": 0,
+      "explanation": "La selezione opportunistica dei dati impedisce un controllo imparziale."
+    },
+    {
+      "id": "intro-031",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una pallina percorre due piste di pari lunghezza ma con diversa inclinazione; cambiano anche le superfici. I tempi risultano diversi. Quale conclusione è giustificata?",
+      "options": [
+        "La differenza dipende certamente solo dall'inclinazione",
+        "Non si può isolare l'effetto dell'inclinazione senza controllare anche la superficie",
+        "La differenza dipende certamente solo dalla superficie",
+        "Le due piste devono avere identica velocità media"
+      ],
+      "correct": 1,
+      "explanation": "Poiché variano due condizioni insieme, la causa della differenza non è identificabile dal solo confronto."
+    },
+    {
+      "id": "intro-032",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Tre prove forniscono un risultato coerente con una previsione, una quarta no. Quale indagine è metodologicamente più utile?",
+      "options": [
+        "Sopprimere la quarta prova",
+        "Ignorare le prime tre",
+        "Ripetere la quarta nelle stesse condizioni e controllare eventuali differenze",
+        "Dichiarare impossibile qualunque conclusione futura"
+      ],
+      "correct": 2,
+      "explanation": "Una misura discordante richiede ripetizione e analisi, non esclusione automatica."
+    },
+    {
+      "id": "intro-033",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un'ipotesi prevede che raddoppiando una variabile x aumenti y. I dati mostrano che y talvolta aumenta e talvolta no. Quale elemento può rendere la previsione più verificabile?",
+      "options": [
+        "Usare una frase più persuasiva",
+        "Confrontare solo due casi favorevoli",
+        "Non misurare y",
+        "Specificare le condizioni e l'entità dell'aumento previsto"
+      ],
+      "correct": 3,
+      "explanation": "Condizioni e previsione quantitativa permettono confronti non ambigui."
+    },
+    {
+      "id": "intro-034",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una pista viene provata con inclinazioni A e B. I tempi medi sono 2,1 s e 2,0 s, ma ogni serie varia di circa 0,3 s. Che cosa si può sostenere dai soli dati riportati?",
+      "options": [
+        "La piccola differenza tra medie non basta a stabilire con sicurezza un effetto dell'inclinazione",
+        "La pista B è sempre più veloce in ogni prova",
+        "La pista A è certamente meno inclinata",
+        "Le misure sono necessariamente inventate"
+      ],
+      "correct": 0,
+      "explanation": "La differenza fra medie è minore della variabilità indicata: serve un'analisi più accurata."
+    },
+    {
+      "id": "intro-035",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un esperimento ripete dieci volte una procedura ma usa sempre lo stesso strumento non tarato. Quale limite rimane?",
+      "options": [
+        "La media è sempre priva di unità",
+        "Ripetere non elimina necessariamente uno scostamento sistematico dello strumento",
+        "Ogni misura deve risultare diversa",
+        "La dispersione coincide con l'errore dello strumento"
+      ],
+      "correct": 1,
+      "explanation": "La ripetizione stima la variabilità, non annulla automaticamente una distorsione comune a tutte le letture."
+    },
+    {
+      "id": "intro-036",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Si vuole verificare se la lunghezza di una molla varia al crescere del carico. In ogni prova varia anche la temperatura. Quale progetto migliora l'indagine?",
+      "options": [
+        "Aumentare entrambi senza misurarli",
+        "Scegliere solo i risultati regolari",
+        "Tenere costante o registrare la temperatura e variare sistematicamente il carico",
+        "Usare sempre carichi diversi ma non misurare la lunghezza"
+      ],
+      "correct": 2,
+      "explanation": "Separare i fattori consente di studiare la relazione fra carico e lunghezza."
+    },
+    {
+      "id": "intro-037",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Due esperimenti eseguiti in condizioni diverse producono lo stesso valore medio. Qual è la deduzione più solida?",
+      "options": [
+        "Le condizioni sono sicuramente equivalenti",
+        "I singoli valori sono necessariamente identici",
+        "Tutte le incertezze sono nulle",
+        "L'uguaglianza delle medie non prova che le distribuzioni dei risultati coincidano"
+      ],
+      "correct": 3,
+      "explanation": "Per confrontare due serie servono anche dispersione, numero di prove e condizioni."
+    },
+    {
+      "id": "intro-038",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una previsione dà esito favorevole per 4 prove su 4, ma nessun altro gruppo riesce a riprodurre la procedura perché mancano le condizioni iniziali. Quale debolezza è decisiva?",
+      "options": [
+        "La riproducibilità non può essere valutata senza una procedura sufficientemente descritta",
+        "Quattro prove significano sempre zero incertezza",
+        "La previsione è certamente falsa",
+        "La mancanza di colori nei grafici"
+      ],
+      "correct": 0,
+      "explanation": "La documentazione del metodo è essenziale per riprodurre e controllare i risultati."
+    },
+    {
+      "id": "intro-039",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Si cambia contemporaneamente il tipo di pallina e l'angolo della pista, poi si registra un tempo minore. Quale prova aggiuntiva separa meglio gli effetti?",
+      "options": [
+        "Ripetere soltanto la combinazione nuova",
+        "Confrontare angoli diversi usando una sola pallina e poi palline diverse a angolo fisso",
+        "Sostituire tutti i tempi con la media totale",
+        "Aumentare insieme entrambe le variabili"
+      ],
+      "correct": 1,
+      "explanation": "Variazioni indipendenti permettono di valutare separatamente i contributi delle due condizioni."
+    },
+    {
+      "id": "intro-040",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un modello prevede una relazione valida solo per piccole inclinazioni, ma un esperimento la mette alla prova a inclinazioni molto grandi. Quale cautela è corretta?",
+      "options": [
+        "Una previsione vale necessariamente in qualunque intervallo",
+        "Qualunque discordanza prova l'assenza di moto",
+        "La discordanza fuori dall'intervallo non smentisce da sola il modello nel suo campo di validità",
+        "La misura non deve essere ripetuta"
+      ],
+      "correct": 2,
+      "explanation": "Occorre rispettare le condizioni in cui il modello è dichiarato applicabile."
+    },
+    {
+      "id": "intro-041",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Si studia il tempo di riempimento di un recipiente al variare della portata. Le prove cambiano anche il volume finale da raggiungere. Qual è il confronto più adatto?",
+      "options": [
+        "Confrontare solo i tempi senza volume",
+        "Ignorare la portata",
+        "Usare un recipiente differente a ogni prova",
+        "Fissare il volume finale e variare la portata, misurando il tempo"
+      ],
+      "correct": 3,
+      "explanation": "Fissare il volume rende confrontabile l'effetto della portata sul tempo."
+    },
+    {
+      "id": "intro-042",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale unità di base del SI misura la lunghezza?",
+      "options": [
+        "Metro",
+        "Secondo",
+        "Chilogrammo",
+        "Kelvin"
+      ],
+      "correct": 0,
+      "explanation": "La lunghezza è una grandezza di base del SI e si misura in metri (m)."
+    },
+    {
+      "id": "intro-043",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale unità SI misura il tempo?",
+      "options": [
+        "Metro",
+        "Secondo",
+        "Ampere",
+        "Mole"
+      ],
+      "correct": 1,
+      "explanation": "Il secondo, simbolo s, è l'unità di base del tempo."
+    },
+    {
+      "id": "intro-044",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Qual è l'unità di base SI della massa?",
+      "options": [
+        "Newton",
+        "Grammo",
+        "Chilogrammo",
+        "Joule"
+      ],
+      "correct": 2,
+      "explanation": "L'unità di base della massa è il chilogrammo, simbolo kg."
+    },
+    {
+      "id": "intro-045",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale tra queste è una grandezza fisica?",
+      "options": [
+        "La bellezza di una stanza",
+        "La comodità di una sedia",
+        "La simpatia di una persona",
+        "La temperatura di una stanza"
+      ],
+      "correct": 3,
+      "explanation": "La temperatura è una proprietà misurabile con un'unità riconosciuta."
+    },
+    {
+      "id": "intro-046",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale simbolo indica l'unità di corrente elettrica nel SI?",
+      "options": [
+        "A",
+        "K",
+        "mol",
+        "cd"
+      ],
+      "correct": 0,
+      "explanation": "L'ampere, simbolo A, è l'unità della corrente elettrica."
+    },
+    {
+      "id": "intro-047",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale grandezza di base è misurata in kelvin?",
+      "options": [
+        "La massa",
+        "La temperatura termodinamica",
+        "L'intensità luminosa",
+        "La quantità di sostanza"
+      ],
+      "correct": 1,
+      "explanation": "Il kelvin (K) è l'unità di base per la temperatura termodinamica."
+    },
+    {
+      "id": "intro-048",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Qual è l'unità SI dell'area?",
+      "options": [
+        "m",
+        "m³",
+        "m²",
+        "m/s"
+      ],
+      "correct": 2,
+      "explanation": "L'area ha dimensioni di lunghezza al quadrato e si misura in m²."
+    },
+    {
+      "id": "intro-049",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale coppia contiene valore numerico e unità della stessa misura?",
+      "options": [
+        "7 e lungo",
+        "7 e grande",
+        "7 e pesante",
+        "7 e m"
+      ],
+      "correct": 3,
+      "explanation": "Una misura fisica comprende un valore numerico e un'unità, per esempio 7 m."
+    },
+    {
+      "id": "intro-050",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Nel SI, l'intensità luminosa si misura in:",
+      "options": [
+        "Candela",
+        "Kelvin",
+        "Mole",
+        "Ampere"
+      ],
+      "correct": 0,
+      "explanation": "La candela, cd, è l'unità di base dell'intensità luminosa."
+    },
+    {
+      "id": "intro-051",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale unità di base riguarda la quantità di sostanza?",
+      "options": [
+        "Chilogrammo",
+        "Mole",
+        "Secondo",
+        "Metro"
+      ],
+      "correct": 1,
+      "explanation": "La mole (mol) è l'unità di base della quantità di sostanza."
+    },
+    {
+      "id": "intro-052",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Perché si usano unità di misura condivise?",
+      "options": [
+        "Per eliminare ogni incertezza",
+        "Per evitare tutti i calcoli",
+        "Per rendere comunicabili e confrontabili le misure",
+        "Per misurare solo oggetti molto grandi"
+      ],
+      "correct": 2,
+      "explanation": "Le unità standard permettono di confrontare misure svolte in luoghi diversi."
+    },
+    {
+      "id": "intro-053",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale tra queste è un'unità derivata del SI?",
+      "options": [
+        "Secondo",
+        "Kelvin",
+        "Ampere",
+        "Metro quadrato"
+      ],
+      "correct": 3,
+      "explanation": "Il metro quadrato (m²) deriva dal metro, unità di base."
+    },
+    {
+      "id": "intro-054",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Una stanza ha lunghezza L = 4 m e larghezza W = 3 m. Quale unità deve avere il prodotto L·W?",
+      "options": [
+        "m²",
+        "m",
+        "m³",
+        "m/s"
+      ],
+      "correct": 0,
+      "explanation": "Il prodotto di due lunghezze ha dimensioni di area, m·m = m²."
+    },
+    {
+      "id": "intro-055",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale grandezza ha unità m/s?",
+      "options": [
+        "Area",
+        "Velocità",
+        "Volume",
+        "Tempo"
+      ],
+      "correct": 1,
+      "explanation": "La velocità è una distanza divisa per un intervallo di tempo."
+    },
+    {
+      "id": "intro-056",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un liquido occupa un volume V = 2 m³. Qual è l'unità SI della grandezza indicata?",
+      "options": [
+        "m²",
+        "m/s",
+        "m³",
+        "kg"
+      ],
+      "correct": 2,
+      "explanation": "Il volume deriva dal prodotto di tre lunghezze."
+    },
+    {
+      "id": "intro-057",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Una massa è m = 2 kg e il volume è V = 1 m³. Quale unità si ottiene dal rapporto m/V?",
+      "options": [
+        "kg·m³",
+        "m³/kg",
+        "kg·m",
+        "kg/m³"
+      ],
+      "correct": 3,
+      "explanation": "La massa volumica è il rapporto fra massa e volume."
+    },
+    {
+      "id": "intro-058",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale classificazione distingue correttamente unità di base e derivate?",
+      "options": [
+        "Metro di base, metro quadrato derivata",
+        "Metro derivata, secondo di base",
+        "Kilogrammo derivata, newton di base",
+        "Kelvin derivata, mole di base"
+      ],
+      "correct": 0,
+      "explanation": "Il metro è unità di base, mentre il metro quadrato si ottiene elevandolo al quadrato."
+    },
+    {
+      "id": "intro-059",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale unità è appropriata per l'accelerazione, ossia variazione di velocità nell'unità di tempo?",
+      "options": [
+        "m/s",
+        "m/s²",
+        "m²/s",
+        "s/m"
+      ],
+      "correct": 1,
+      "explanation": "Dividendo m/s per s si ottiene m/s²."
+    },
+    {
+      "id": "intro-060",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Una persona misura la temperatura in gradi Celsius e vuole comunicarla nel SI. Quale unità di base deve usare?",
+      "options": [
+        "Joule",
+        "Candela",
+        "Kelvin",
+        "Mole"
+      ],
+      "correct": 2,
+      "explanation": "Per la temperatura termodinamica l'unità base SI è il kelvin."
+    },
+    {
+      "id": "intro-061",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale grandezza di base compare nell'unità SI di velocità m/s?",
+      "options": [
+        "Solo la massa",
+        "Solo la corrente elettrica",
+        "Solo la temperatura",
+        "Lunghezza e tempo"
+      ],
+      "correct": 3,
+      "explanation": "Metri e secondi sono le unità di base da cui deriva m/s."
+    },
+    {
+      "id": "intro-062",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale rapporto produce un'unità di misura con dimensioni 1/s?",
+      "options": [
+        "Numero di eventi diviso intervallo di tempo",
+        "Lunghezza divisa area",
+        "Massa moltiplicata tempo",
+        "Volume diviso lunghezza"
+      ],
+      "correct": 0,
+      "explanation": "Una frequenza si esprime come conteggio di eventi per secondo."
+    },
+    {
+      "id": "intro-063",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un laboratorio indica la superficie di un oggetto come 5 kg. Qual è l'errore?",
+      "options": [
+        "Il numero deve essere sempre decimale",
+        "Il chilogrammo è unità di massa, non di superficie",
+        "L'unità va sempre scritta prima del numero",
+        "Le superfici sono grandezze senza unità"
+      ],
+      "correct": 1,
+      "explanation": "La superficie è un'area e richiede unità al quadrato, come m²."
+    },
+    {
+      "id": "intro-064",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "La forza ha unità kg·m/s². Quale affermazione è corretta?",
+      "options": [
+        "È una delle sette unità di base",
+        "Dipende soltanto dalla massa",
+        "È derivata da massa, lunghezza e tempo",
+        "Si può esprimere solo in metri"
+      ],
+      "correct": 2,
+      "explanation": "Il newton è unità derivata ottenuta da kg, m e s."
+    },
+    {
+      "id": "intro-065",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una grandezza X è definita come volume diviso area. Qual è la sua unità SI semplificata?",
+      "options": [
+        "m⁵",
+        "1/m",
+        "m²",
+        "m"
+      ],
+      "correct": 3,
+      "explanation": "m³/m² = m; il rapporto ha le dimensioni di una lunghezza."
+    },
+    {
+      "id": "intro-066",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "L'energia ha unità kg·m²/s². Quale combinazione di grandezze di base compare?",
+      "options": [
+        "Massa, lunghezza e tempo",
+        "Massa e corrente elettrica",
+        "Temperatura e intensità luminosa",
+        "Tempo e quantità di sostanza"
+      ],
+      "correct": 0,
+      "explanation": "L'unità dell'energia si esprime con kilogrammo, metro e secondo."
+    },
+    {
+      "id": "intro-067",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un indice è definito come rapporto tra due lunghezze espresse entrambe in metri. Qual è la sua unità SI?",
+      "options": [
+        "Metro quadrato",
+        "Nessuna: è adimensionale",
+        "Metro al secondo",
+        "Metro cubo"
+      ],
+      "correct": 1,
+      "explanation": "Il rapporto m/m elimina l'unità."
+    },
+    {
+      "id": "intro-068",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Si divide una superficie A espressa in m² per un tempo t espresso in s. Quale unità ha A/t?",
+      "options": [
+        "m·s",
+        "m/s²",
+        "m²/s",
+        "s/m²"
+      ],
+      "correct": 2,
+      "explanation": "Il rapporto conserva m² al numeratore e s al denominatore."
+    },
+    {
+      "id": "intro-069",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Il prodotto tra massa volumica ρ, in kg/m³, e volume V, in m³, ha unità:",
+      "options": [
+        "m³/kg",
+        "kg/m⁶",
+        "kg·m³",
+        "kg"
+      ],
+      "correct": 3,
+      "explanation": "(kg/m³)·m³ = kg, unità di massa."
+    },
+    {
+      "id": "intro-070",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una frequenza f è misurata in s⁻¹. Qual è l'unità del suo inverso 1/f?",
+      "options": [
+        "s",
+        "s⁻²",
+        "m/s",
+        "1/s"
+      ],
+      "correct": 0,
+      "explanation": "Invertire un valore con unità 1/s produce secondi, unità di tempo."
+    },
+    {
+      "id": "intro-071",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "La pressione è una forza divisa per un'area. Se la forza ha unità kg·m/s², quale unità si ottiene?",
+      "options": [
+        "kg·m³/s²",
+        "kg/(m·s²)",
+        "kg·m/s",
+        "m²/(kg·s)"
+      ],
+      "correct": 1,
+      "explanation": "(kg·m/s²)/m² = kg/(m·s²)."
+    },
+    {
+      "id": "intro-072",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una grandezza si calcola come velocità per tempo. Se la velocità ha unità m/s, il risultato ha unità:",
+      "options": [
+        "m/s²",
+        "s/m",
+        "m",
+        "m²/s"
+      ],
+      "correct": 2,
+      "explanation": "(m/s)·s = m, cioè lunghezza."
+    },
+    {
+      "id": "intro-073",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una grandezza è massa per accelerazione, poi divisa per una lunghezza. Qual è l'unità finale?",
+      "options": [
+        "kg·m²/s²",
+        "kg·m/s",
+        "m/s²",
+        "kg/s²"
+      ],
+      "correct": 3,
+      "explanation": "(kg·m/s²)/m = kg/s²."
+    },
+    {
+      "id": "intro-074",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un laboratorio scrive una densità con unità kg/m². Quale controllo dimensionale dimostra che è inadatta alla massa per unità di volume?",
+      "options": [
+        "La massa per volume ha unità kg/m³, non kg/m²",
+        "Il kilogrammo non è un'unità SI",
+        "L'area si misura in kg",
+        "Tutte le densità sono adimensionali"
+      ],
+      "correct": 0,
+      "explanation": "Per una massa volumica si divide kg per m³."
+    },
+    {
+      "id": "intro-075",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quanto vale 10³?",
+      "options": [
+        "1000",
+        "100",
+        "10",
+        "0,001"
+      ],
+      "correct": 0,
+      "explanation": "10³ = 10·10·10 = 1000."
+    },
+    {
+      "id": "intro-076",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quanto vale 10⁻²?",
+      "options": [
+        "100",
+        "0,01",
+        "0,1",
+        "0,001"
+      ],
+      "correct": 1,
+      "explanation": "Un esponente −2 significa dividere 1 per 10², ottenendo 0,01."
+    },
+    {
+      "id": "intro-077",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale scrittura è una notazione scientifica normalizzata?",
+      "options": [
+        "25 · 10³",
+        "0,5 · 10⁴",
+        "2,5 · 10⁴",
+        "250 · 10²"
+      ],
+      "correct": 2,
+      "explanation": "Nella notazione scientifica il coefficiente non nullo ha modulo almeno 1 e minore di 10."
+    },
+    {
+      "id": "intro-078",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale numero corrisponde a 4 · 10²?",
+      "options": [
+        "0,04",
+        "0,4",
+        "40",
+        "400"
+      ],
+      "correct": 3,
+      "explanation": "Moltiplicare per 10² sposta di due posizioni la virgola verso destra."
+    },
+    {
+      "id": "intro-079",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Qual è il valore di 10⁰?",
+      "options": [
+        "1",
+        "0",
+        "10",
+        "−1"
+      ],
+      "correct": 0,
+      "explanation": "Ogni potenza di dieci con esponente zero vale 1."
+    },
+    {
+      "id": "intro-080",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale potenza di dieci equivale a un centesimo?",
+      "options": [
+        "10²",
+        "10⁻²",
+        "10⁻¹",
+        "10³"
+      ],
+      "correct": 1,
+      "explanation": "Un centesimo è 1/100 = 10⁻²."
+    },
+    {
+      "id": "intro-081",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Un numero è scritto come 6 · 10⁻³. Qual è la forma decimale?",
+      "options": [
+        "6000",
+        "0,06",
+        "0,006",
+        "0,0006"
+      ],
+      "correct": 2,
+      "explanation": "6 · 10⁻³ = 6/1000 = 0,006."
+    },
+    {
+      "id": "intro-082",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Tra 2 · 10² e 2 · 10³, quale è più grande?",
+      "options": [
+        "Sono uguali",
+        "2 · 10²",
+        "Nessuno dei due è confrontabile",
+        "2 · 10³"
+      ],
+      "correct": 3,
+      "explanation": "A coefficiente uguale, 10³ è dieci volte 10²."
+    },
+    {
+      "id": "intro-083",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quanto vale 10⁴/10³?",
+      "options": [
+        "10",
+        "100",
+        "1000",
+        "1"
+      ],
+      "correct": 0,
+      "explanation": "Dividendo potenze della stessa base si sottraggono gli esponenti: 10⁴/10³ = 10¹."
+    },
+    {
+      "id": "intro-084",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale potenza di dieci rappresenta un milionesimo?",
+      "options": [
+        "10⁶",
+        "10⁻⁶",
+        "10⁻⁵",
+        "10⁻³"
+      ],
+      "correct": 1,
+      "explanation": "Un milionesimo è 1/10⁶, cioè 10⁻⁶."
+    },
+    {
+      "id": "intro-085",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale numero è dieci volte 3 · 10⁻⁴?",
+      "options": [
+        "3 · 10⁻⁵",
+        "3 · 10⁻⁶",
+        "3 · 10⁻³",
+        "3 · 10⁴"
+      ],
+      "correct": 2,
+      "explanation": "Moltiplicare per 10 aumenta di una unità l'esponente: −4 + 1 = −3."
+    },
+    {
+      "id": "intro-086",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale scrittura normalizzata rappresenta 0,00072?",
+      "options": [
+        "72 · 10⁻⁵",
+        "7,2 · 10⁻³",
+        "0,72 · 10⁻³",
+        "7,2 · 10⁻⁴"
+      ],
+      "correct": 3,
+      "explanation": "Spostando la virgola quattro posti a destra si ottiene 7,2, compensando con 10⁻⁴."
+    },
+    {
+      "id": "intro-087",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quanto vale (2 · 10³)·(3 · 10²)?",
+      "options": [
+        "6 · 10⁵",
+        "6 · 10⁶",
+        "5 · 10⁵",
+        "6 · 10¹"
+      ],
+      "correct": 0,
+      "explanation": "Si moltiplicano i coefficienti e si sommano gli esponenti: 2·3·10⁵."
+    },
+    {
+      "id": "intro-088",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un valore aumenta da 4 · 10⁻³ a 4 · 10⁻¹. Di quale fattore aumenta?",
+      "options": [
+        "10",
+        "100",
+        "1000",
+        "0,01"
+      ],
+      "correct": 1,
+      "explanation": "Il rapporto delle potenze è 10⁻¹/10⁻³ = 10²."
+    },
+    {
+      "id": "intro-089",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quanto vale (9 · 10⁶)/(3 · 10²)?",
+      "options": [
+        "3 · 10⁸",
+        "3 · 10³",
+        "3 · 10⁴",
+        "3 · 10²"
+      ],
+      "correct": 2,
+      "explanation": "9/3 = 3 e 6 − 2 = 4."
+    },
+    {
+      "id": "intro-090",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale scrittura normalizzata coincide con 36 · 10⁻⁵?",
+      "options": [
+        "3,6 · 10⁻⁶",
+        "3,6 · 10⁻⁵",
+        "3,6 · 10⁻³",
+        "3,6 · 10⁻⁴"
+      ],
+      "correct": 3,
+      "explanation": "36 = 3,6 · 10; dunque 36 · 10⁻⁵ = 3,6 · 10⁻⁴."
+    },
+    {
+      "id": "intro-091",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Una grandezza passa da 8 · 10² a 8 · 10⁻¹. Il valore finale è:",
+      "options": [
+        "1000 volte più piccolo",
+        "100 volte più piccolo",
+        "10 volte più piccolo",
+        "1000 volte più grande"
+      ],
+      "correct": 0,
+      "explanation": "Il rapporto iniziale/finale è 10³."
+    },
+    {
+      "id": "intro-092",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quanto vale (5 · 10⁻²)+(2 · 10⁻²)?",
+      "options": [
+        "7 · 10⁻⁴",
+        "7 · 10⁻²",
+        "10 · 10⁻²",
+        "3 · 10⁻²"
+      ],
+      "correct": 1,
+      "explanation": "Si sommano i coefficienti quando l'esponente è comune: (5+2)·10⁻²."
+    },
+    {
+      "id": "intro-093",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale valore è il maggiore?",
+      "options": [
+        "9 · 10⁻⁴",
+        "1 · 10⁻³",
+        "2 · 10⁻³",
+        "8 · 10⁻⁴"
+      ],
+      "correct": 2,
+      "explanation": "2 · 10⁻³ = 0,002 supera 0,001, 0,0009 e 0,0008."
+    },
+    {
+      "id": "intro-094",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Qual è la potenza risultante da (10⁻³)²?",
+      "options": [
+        "10⁻¹",
+        "10⁶",
+        "10⁻⁵",
+        "10⁻⁶"
+      ],
+      "correct": 3,
+      "explanation": "In una potenza di potenza si moltiplicano gli esponenti: (−3)·2 = −6."
+    },
+    {
+      "id": "intro-095",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Due lunghezze sono L₁ = 3 · 10³ m e L₂ = 6 · 10² m. Qual è il rapporto L₁/L₂?",
+      "options": [
+        "5",
+        "0,5",
+        "50",
+        "500"
+      ],
+      "correct": 0,
+      "explanation": "(3/6)·10^(3−2) = 0,5·10 = 5."
+    },
+    {
+      "id": "intro-096",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Qual è la scrittura normalizzata di (4 · 10²)·(5 · 10³)?",
+      "options": [
+        "20 · 10⁵",
+        "2 · 10⁶",
+        "2 · 10⁵",
+        "9 · 10⁵"
+      ],
+      "correct": 1,
+      "explanation": "Il prodotto è 20 · 10⁵, che normalizzato diventa 2 · 10⁶."
+    },
+    {
+      "id": "intro-097",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Il rapporto fra A = 1,5 · 10⁻⁶ e B = 3 · 10⁻⁹ vale:",
+      "options": [
+        "5 · 10⁻⁴",
+        "5 · 10⁻³",
+        "5 · 10²",
+        "5 · 10³"
+      ],
+      "correct": 2,
+      "explanation": "A/B = (1,5/3)·10³ = 0,5·10³ = 5·10²."
+    },
+    {
+      "id": "intro-098",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Qual è la scrittura scientifica del risultato (8 · 10⁻⁴)/(2 · 10³)?",
+      "options": [
+        "4 · 10⁻¹",
+        "4 · 10⁻⁶",
+        "4 · 10⁷",
+        "4 · 10⁻⁷"
+      ],
+      "correct": 3,
+      "explanation": "Il coefficiente è 4 e l'esponente è −4−3 = −7."
+    },
+    {
+      "id": "intro-099",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Se una lunghezza raddoppia e un'altra si riduce di un fattore 10³, quale fattore moltiplica il loro rapporto?",
+      "options": [
+        "2 · 10³",
+        "2 · 10⁻³",
+        "5 · 10²",
+        "5 · 10⁻⁴"
+      ],
+      "correct": 0,
+      "explanation": "Il numeratore raddoppia e il denominatore si divide per 1000: il rapporto cresce di 2000."
+    },
+    {
+      "id": "intro-100",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Quanto vale [(3 · 10⁴)·(2 · 10⁻⁶)]/(6 · 10⁻³)?",
+      "options": [
+        "1 · 10⁻³",
+        "1 · 10¹",
+        "1 · 10⁰",
+        "1 · 10³"
+      ],
+      "correct": 1,
+      "explanation": "(3·2/6)·10^(4−6+3) = 10¹."
+    },
+    {
+      "id": "intro-101",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un'area è A = (2 · 10⁻³ m)². Qual è il valore in m²?",
+      "options": [
+        "4 · 10⁻³",
+        "2 · 10⁻⁶",
+        "4 · 10⁻⁶",
+        "4 · 10⁶"
+      ],
+      "correct": 2,
+      "explanation": "Si elevano al quadrato coefficiente e potenza: 2²·10⁻⁶ = 4·10⁻⁶ m²."
+    },
+    {
+      "id": "intro-102",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Quale somma è corretta in notazione scientifica? (6 · 10⁴) + (4 · 10³)",
+      "options": [
+        "1 · 10⁵",
+        "1 · 10⁴",
+        "6,4 · 10³",
+        "6,4 · 10⁴"
+      ],
+      "correct": 3,
+      "explanation": "4·10³ = 0,4·10⁴; la somma è 6,4·10⁴."
+    },
+    {
+      "id": "intro-103",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Qual è il rapporto fra 3,6 · 10⁻² e 1,2 · 10⁻⁴?",
+      "options": [
+        "3 · 10²",
+        "3 · 10⁻²",
+        "3 · 10⁶",
+        "3 · 10⁻⁶"
+      ],
+      "correct": 0,
+      "explanation": "3,6/1,2 = 3 e −2−(−4)=2."
+    },
+    {
+      "id": "intro-104",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una misura è x = 4 · 10⁻⁵ m e viene aumentata di Δx = 6 · 10⁻⁶ m. Qual è il valore finale?",
+      "options": [
+        "1 · 10⁻⁴ m",
+        "4,6 · 10⁻⁵ m",
+        "1 · 10⁻⁵ m",
+        "4,6 · 10⁻⁶ m"
+      ],
+      "correct": 1,
+      "explanation": "6·10⁻⁶ = 0,6·10⁻⁵; dunque 4,6·10⁻⁵ m."
+    },
+    {
+      "id": "intro-105",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un volume è V = (3 · 10² cm)³. Qual è il volume espresso in cm³?",
+      "options": [
+        "9 · 10⁶ cm³",
+        "3 · 10⁶ cm³",
+        "2,7 · 10⁷ cm³",
+        "2,7 · 10⁶ cm³"
+      ],
+      "correct": 2,
+      "explanation": "3³·(10²)³ = 27·10⁶ = 2,7·10⁷ cm³."
+    },
+    {
+      "id": "intro-106",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Qual è il valore di (2,5 · 10⁷)/(5 · 10⁻²), espresso in notazione scientifica?",
+      "options": [
+        "5 · 10⁵",
+        "5 · 10⁻⁹",
+        "5 · 10⁹",
+        "5 · 10⁸"
+      ],
+      "correct": 3,
+      "explanation": "(2,5/5)·10^(7+2) = 0,5·10⁹ = 5·10⁸."
+    },
+    {
+      "id": "intro-107",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una grandezza si riduce di un fattore 100 e poi aumenta di un fattore 10³. Qual è il fattore complessivo?",
+      "options": [
+        "10",
+        "0,1",
+        "100",
+        "1000"
+      ],
+      "correct": 0,
+      "explanation": "Il fattore totale è 10⁻²·10³ = 10."
+    },
+    {
+      "id": "intro-108",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale potenza di dieci indica il prefisso kilo-?",
+      "options": [
+        "10³",
+        "10⁻³",
+        "10⁶",
+        "10²"
+      ],
+      "correct": 0,
+      "explanation": "Kilo- corrisponde a un fattore 10³."
+    },
+    {
+      "id": "intro-109",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale prefisso SI significa un millesimo dell'unità?",
+      "options": [
+        "Micro-",
+        "Milli-",
+        "Centi-",
+        "Nano-"
+      ],
+      "correct": 1,
+      "explanation": "Milli- equivale a 10⁻³."
+    },
+    {
+      "id": "intro-110",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale prefisso corrisponde al fattore 10⁶?",
+      "options": [
+        "Kilo-",
+        "Giga-",
+        "Mega-",
+        "Micro-"
+      ],
+      "correct": 2,
+      "explanation": "Mega- è il prefisso per un milione, ossia 10⁶."
+    },
+    {
+      "id": "intro-111",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale simbolo indica il prefisso micro-?",
+      "options": [
+        "m",
+        "M",
+        "n",
+        "µ"
+      ],
+      "correct": 3,
+      "explanation": "Il simbolo di micro- è µ, che indica 10⁻⁶."
+    },
+    {
+      "id": "intro-112",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quanto vale 2 km in metri?",
+      "options": [
+        "2000 m",
+        "200 m",
+        "20 m",
+        "0,002 m"
+      ],
+      "correct": 0,
+      "explanation": "Un chilometro è mille metri; 2 km = 2000 m."
+    },
+    {
+      "id": "intro-113",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quanto vale 5 ms in secondi?",
+      "options": [
+        "5 s",
+        "0,005 s",
+        "0,05 s",
+        "5000 s"
+      ],
+      "correct": 1,
+      "explanation": "Milli- divide l'unità per 1000: 5 ms = 5·10⁻³ s."
+    },
+    {
+      "id": "intro-114",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Qual è il simbolo del prefisso nano-?",
+      "options": [
+        "µ",
+        "m",
+        "n",
+        "k"
+      ],
+      "correct": 2,
+      "explanation": "Il simbolo n rappresenta 10⁻⁹."
+    },
+    {
+      "id": "intro-115",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale relazione è corretta?",
+      "options": [
+        "1 cm = 10 m",
+        "1 cm = 0,1 m",
+        "1 cm = 100 m",
+        "1 cm = 0,01 m"
+      ],
+      "correct": 3,
+      "explanation": "Il prefisso centi- vale 10⁻²."
+    },
+    {
+      "id": "intro-116",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Una massa è 3 kg. Quanti grammi sono?",
+      "options": [
+        "3000 g",
+        "300 g",
+        "30 g",
+        "0,003 g"
+      ],
+      "correct": 0,
+      "explanation": "Un chilogrammo contiene mille grammi."
+    },
+    {
+      "id": "intro-117",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale prefisso SI rappresenta 10⁹?",
+      "options": [
+        "Mega-",
+        "Giga-",
+        "Tera-",
+        "Micro-"
+      ],
+      "correct": 1,
+      "explanation": "Giga- indica 10⁹."
+    },
+    {
+      "id": "intro-118",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale conversione è corretta per una pressione p = 3 MPa?",
+      "options": [
+        "3 kPa",
+        "30 kPa",
+        "3000 kPa",
+        "0,003 kPa"
+      ],
+      "correct": 2,
+      "explanation": "Mega- vale 10⁶ e kilo- 10³: 3 MPa = 3·10³ kPa."
+    },
+    {
+      "id": "intro-119",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quanto vale 2500 mm espressi in metri?",
+      "options": [
+        "0,25 m",
+        "25 m",
+        "250 m",
+        "2,5 m"
+      ],
+      "correct": 3,
+      "explanation": "2500 mm = 2500·10⁻³ m = 2,5 m."
+    },
+    {
+      "id": "intro-120",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quanto vale un'area A = 6 cm² in mm²?",
+      "options": [
+        "600 mm²",
+        "60 mm²",
+        "6 mm²",
+        "0,6 mm²"
+      ],
+      "correct": 0,
+      "explanation": "1 cm = 10 mm, quindi 1 cm² = 100 mm²."
+    },
+    {
+      "id": "intro-121",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale massa equivale a 0,75 kg?",
+      "options": [
+        "75 g",
+        "750 g",
+        "7500 g",
+        "0,75 g"
+      ],
+      "correct": 1,
+      "explanation": "0,75 kg = 750 g."
+    },
+    {
+      "id": "intro-122",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Una distanza è L = 4 · 10⁻⁶ m. Come si esprime con un prefisso SI?",
+      "options": [
+        "4 mm",
+        "4 nm",
+        "4 µm",
+        "4 km"
+      ],
+      "correct": 2,
+      "explanation": "Micro- indica 10⁻⁶, dunque il valore è 4 µm."
+    },
+    {
+      "id": "intro-123",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale volume equivale a 2 cm³?",
+      "options": [
+        "2 mm³",
+        "20 mm³",
+        "200 mm³",
+        "2000 mm³"
+      ],
+      "correct": 3,
+      "explanation": "1 cm³ = (10 mm)³ = 1000 mm³."
+    },
+    {
+      "id": "intro-124",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quanto vale una forza F = 0,045 kN espressa in newton?",
+      "options": [
+        "45 N",
+        "4,5 N",
+        "450 N",
+        "4500 N"
+      ],
+      "correct": 0,
+      "explanation": "0,045·1000 N = 45 N."
+    },
+    {
+      "id": "intro-125",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale lunghezza equivale a 8,5 · 10⁻⁴ m?",
+      "options": [
+        "8,5 mm",
+        "0,85 mm",
+        "85 mm",
+        "0,085 mm"
+      ],
+      "correct": 1,
+      "explanation": "1 mm = 10⁻³ m; 8,5·10⁻⁴ m = 0,85 mm."
+    },
+    {
+      "id": "intro-126",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un tempo è t = 0,002 s. Qual è lo stesso tempo in millisecondi?",
+      "options": [
+        "0,02 ms",
+        "0,2 ms",
+        "2 ms",
+        "20 ms"
+      ],
+      "correct": 2,
+      "explanation": "0,002 s · 1000 ms/s = 2 ms."
+    },
+    {
+      "id": "intro-127",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale prefisso permette di scrivere 7,2 · 10⁹ W senza potenza di dieci?",
+      "options": [
+        "Milli-",
+        "Mega-",
+        "Tera-",
+        "Giga-"
+      ],
+      "correct": 3,
+      "explanation": "Giga- vale 10⁹: 7,2 GW."
+    },
+    {
+      "id": "intro-128",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una densità è ρ = 1,2 g/cm³. Qual è il valore in kg/m³?",
+      "options": [
+        "1200 kg/m³",
+        "120 kg/m³",
+        "12 kg/m³",
+        "12 000 kg/m³"
+      ],
+      "correct": 0,
+      "explanation": "1 g/cm³ = (10⁻³ kg)/(10⁻⁶ m³) = 10³ kg/m³."
+    },
+    {
+      "id": "intro-129",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Qual è l'equivalenza corretta per un'area A = 0,004 m²?",
+      "options": [
+        "4 cm²",
+        "40 cm²",
+        "400 cm²",
+        "4000 cm²"
+      ],
+      "correct": 1,
+      "explanation": "1 m² = 10⁴ cm²: 0,004·10⁴ = 40 cm²."
+    },
+    {
+      "id": "intro-130",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un cubo ha spigolo L = 20 mm. Qual è il volume V in cm³?",
+      "options": [
+        "0,8 cm³",
+        "80 cm³",
+        "8 cm³",
+        "800 cm³"
+      ],
+      "correct": 2,
+      "explanation": "20 mm = 2 cm; V = (2 cm)³ = 8 cm³."
+    },
+    {
+      "id": "intro-131",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una velocità è v = 0,5 km/s. Qual è il valore in m/ms?",
+      "options": [
+        "500 m/ms",
+        "5 m/ms",
+        "50 m/ms",
+        "0,5 m/ms"
+      ],
+      "correct": 3,
+      "explanation": "0,5 km/s = 500 m/s; in un millisecondo percorre 0,5 m."
+    },
+    {
+      "id": "intro-132",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Quale equivalenza fra pressioni è corretta?",
+      "options": [
+        "0,3 MPa = 300 kPa",
+        "0,3 MPa = 3 kPa",
+        "0,3 MPa = 30 kPa",
+        "0,3 MPa = 3000 kPa"
+      ],
+      "correct": 0,
+      "explanation": "Poiché 1 MPa = 1000 kPa, 0,3 MPa = 300 kPa."
+    },
+    {
+      "id": "intro-133",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un volume è V = 9 mm³. Quanto vale in m³?",
+      "options": [
+        "9 · 10⁻⁶ m³",
+        "9 · 10⁻⁹ m³",
+        "9 · 10⁻³ m³",
+        "9 · 10⁹ m³"
+      ],
+      "correct": 1,
+      "explanation": "1 mm³ = (10⁻³ m)³ = 10⁻⁹ m³."
+    },
+    {
+      "id": "intro-134",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una superficie è A = 4,5 · 10⁻⁸ m². Qual è il valore in µm²?",
+      "options": [
+        "4,5 · 10⁻² µm²",
+        "4,5 · 10² µm²",
+        "4,5 · 10⁴ µm²",
+        "4,5 · 10⁸ µm²"
+      ],
+      "correct": 2,
+      "explanation": "1 µm² = 10⁻¹² m²; 4,5·10⁻⁸/10⁻¹² = 4,5·10⁴ µm²."
+    },
+    {
+      "id": "intro-135",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una massa volumica è ρ = 850 kg/m³. Qual è il valore in g/cm³?",
+      "options": [
+        "85 g/cm³",
+        "8,5 g/cm³",
+        "0,085 g/cm³",
+        "0,85 g/cm³"
+      ],
+      "correct": 3,
+      "explanation": "Poiché 1 g/cm³ = 1000 kg/m³, 850 kg/m³ = 0,85 g/cm³."
+    },
+    {
+      "id": "intro-136",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Quale conversione di un'area A = 3 km² è corretta?",
+      "options": [
+        "3 · 10⁶ m²",
+        "3 · 10³ m²",
+        "3 · 10⁹ m²",
+        "3 · 10⁻⁶ m²"
+      ],
+      "correct": 0,
+      "explanation": "1 km² = (10³ m)² = 10⁶ m²."
+    },
+    {
+      "id": "intro-137",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un volume è V = 0,008 m³. Qual è il valore in cm³?",
+      "options": [
+        "80 cm³",
+        "8000 cm³",
+        "800 cm³",
+        "80 000 cm³"
+      ],
+      "correct": 1,
+      "explanation": "1 m³ = 10⁶ cm³; 0,008·10⁶ = 8000 cm³."
+    },
+    {
+      "id": "intro-138",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una frequenza è f = 2,5 GHz. Quanti megahertz sono?",
+      "options": [
+        "25 MHz",
+        "250 MHz",
+        "2500 MHz",
+        "25 000 MHz"
+      ],
+      "correct": 2,
+      "explanation": "Giga- è 10³ volte mega-, quindi 2,5 GHz = 2500 MHz."
+    },
+    {
+      "id": "intro-139",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quante cifre significative ha 3,42 m?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "1"
+      ],
+      "correct": 0,
+      "explanation": "Le tre cifre del numero sono significative."
+    },
+    {
+      "id": "intro-140",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quante cifre significative ha 0,0052 s?",
+      "options": [
+        "4",
+        "2",
+        "3",
+        "1"
+      ],
+      "correct": 1,
+      "explanation": "Gli zeri iniziali non sono significativi; contano 5 e 2."
+    },
+    {
+      "id": "intro-141",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Nella misura 12,40 cm, che cosa comunica lo zero finale?",
+      "options": [
+        "Il numero è diverso da 12,4",
+        "L'unità deve essere cambiata",
+        "È una cifra significativa",
+        "È una misura esatta"
+      ],
+      "correct": 2,
+      "explanation": "Lo zero finale dopo la virgola esprime una cifra significativa aggiuntiva."
+    },
+    {
+      "id": "intro-142",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quante cifre significative ha 5,007 kg?",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "4"
+      ],
+      "correct": 3,
+      "explanation": "Gli zeri tra cifre non nulle sono significativi: le cifre sono quattro."
+    },
+    {
+      "id": "intro-143",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Come si arrotonda 4,678 a due decimali?",
+      "options": [
+        "4,68",
+        "4,67",
+        "4,7",
+        "4,60"
+      ],
+      "correct": 0,
+      "explanation": "La terza cifra decimale è 8 e fa aumentare la seconda."
+    },
+    {
+      "id": "intro-144",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale misura ha tre cifre significative?",
+      "options": [
+        "2,5 m",
+        "2,50 m",
+        "2,500 m",
+        "0,025 m"
+      ],
+      "correct": 1,
+      "explanation": "2,50 ha tre cifre significative, incluso lo zero finale."
+    },
+    {
+      "id": "intro-145",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quanto vale 1,24 + 2,3, con i decimali appropriati?",
+      "options": [
+        "3,54",
+        "3,540",
+        "3,5",
+        "3,6"
+      ],
+      "correct": 2,
+      "explanation": "La somma è 3,54, arrotondata a un decimale perché 2,3 ha un decimale."
+    },
+    {
+      "id": "intro-146",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quanto fa 2,0 m · 3,00 m rispettando le cifre significative?",
+      "options": [
+        "6,000 m²",
+        "6 m²",
+        "6,00 m²",
+        "6,0 m²"
+      ],
+      "correct": 3,
+      "explanation": "Il dato 2,0 impone due cifre significative nel prodotto."
+    },
+    {
+      "id": "intro-147",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "In 0,0734, qual è la prima cifra significativa?",
+      "options": [
+        "7",
+        "0",
+        "3",
+        "4"
+      ],
+      "correct": 0,
+      "explanation": "Gli zeri iniziali non contano; la prima cifra significativa è 7."
+    },
+    {
+      "id": "intro-148",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale scrittura contiene quattro cifre significative?",
+      "options": [
+        "8,5",
+        "8,500",
+        "8,50",
+        "0,85"
+      ],
+      "correct": 1,
+      "explanation": "8,500 contiene quattro cifre significative."
+    },
+    {
+      "id": "intro-149",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Come si arrotonda 7,843 a tre cifre significative?",
+      "options": [
+        "7,8",
+        "7,85",
+        "7,84",
+        "7,843"
+      ],
+      "correct": 2,
+      "explanation": "La cifra successiva alle prime tre è 3: si conserva 7,84."
+    },
+    {
+      "id": "intro-150",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Due misure sono 2,30 cm e 2,3 cm. Qual è la differenza informativa?",
+      "options": [
+        "Hanno valori diversi",
+        "La seconda è più accurata",
+        "La prima è necessariamente esatta",
+        "La prima dichiara una cifra significativa in più"
+      ],
+      "correct": 3,
+      "explanation": "Il valore matematico coincide, ma lo zero finale della prima è significativo."
+    },
+    {
+      "id": "intro-151",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quanto vale 13,27 − 2,1 con i decimali appropriati?",
+      "options": [
+        "11,2",
+        "11,17",
+        "11,170",
+        "11,1"
+      ],
+      "correct": 0,
+      "explanation": "La differenza 11,17 si arrotonda a un decimale: 11,2."
+    },
+    {
+      "id": "intro-152",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quanto vale 4,25·2,0 con le cifre significative corrette?",
+      "options": [
+        "8,50",
+        "8,5",
+        "8,500",
+        "9"
+      ],
+      "correct": 1,
+      "explanation": "Il prodotto è 8,50, scritto con due cifre significative per il fattore 2,0."
+    },
+    {
+      "id": "intro-153",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale conversione conserva le tre cifre significative di 3,50 cm?",
+      "options": [
+        "0,035 m",
+        "35 m",
+        "0,0350 m",
+        "0,35 m"
+      ],
+      "correct": 2,
+      "explanation": "3,50 cm equivale a 0,0350 m, con tre cifre significative."
+    },
+    {
+      "id": "intro-154",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quante cifre significative ha 0,00670 kg?",
+      "options": [
+        "5",
+        "4",
+        "2",
+        "3"
+      ],
+      "correct": 3,
+      "explanation": "Contano 6, 7 e lo zero finale."
+    },
+    {
+      "id": "intro-155",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Come si arrotonda 0,04678 a tre cifre significative?",
+      "options": [
+        "0,0468",
+        "0,0467",
+        "0,047",
+        "0,04678"
+      ],
+      "correct": 0,
+      "explanation": "Il valore arrotondato è 0,0468."
+    },
+    {
+      "id": "intro-156",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quanto vale 6,4 + 0,37 + 1,225 con la corretta precisione decimale?",
+      "options": [
+        "7,995",
+        "8,0",
+        "7,99",
+        "8,00"
+      ],
+      "correct": 1,
+      "explanation": "La somma è 7,995, da scrivere con un decimale."
+    },
+    {
+      "id": "intro-157",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un rettangolo ha lati 2,5 cm e 3,42 cm. Quanto vale l'area rispettando le cifre significative?",
+      "options": [
+        "8,550 cm²",
+        "8,55 cm²",
+        "8,6 cm²",
+        "8,50 cm²"
+      ],
+      "correct": 2,
+      "explanation": "L'area 8,55 cm² è arrotondata a due cifre significative: 8,6 cm²."
+    },
+    {
+      "id": "intro-158",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale misura contiene esattamente due cifre significative?",
+      "options": [
+        "0,00600",
+        "0,0600",
+        "0,60",
+        "0,0060"
+      ],
+      "correct": 3,
+      "explanation": "In 0,0060 contano il 6 e lo zero finale."
+    },
+    {
+      "id": "intro-159",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale forma in centimetri conserva le tre cifre significative di 2,40 m?",
+      "options": [
+        "2,40 · 10² cm",
+        "2,4 · 10² cm",
+        "2,400 · 10² cm",
+        "2,40 · 10³ cm"
+      ],
+      "correct": 0,
+      "explanation": "La conversione è esatta e conserva le tre cifre significative."
+    },
+    {
+      "id": "intro-160",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quante cifre significative ha 0,05060 kg?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "correct": 1,
+      "explanation": "Contano 5, 0, 6 e 0: quattro cifre."
+    },
+    {
+      "id": "intro-161",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una piastra ha lati 12,4 cm e 3,50 cm. Quale area va riportata?",
+      "options": [
+        "43 cm²",
+        "43,40 cm²",
+        "43,4 cm²",
+        "43,400 cm²"
+      ],
+      "correct": 2,
+      "explanation": "Il prodotto è 43,4 cm², con tre cifre significative."
+    },
+    {
+      "id": "intro-162",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Quanto vale 28,34 cm − 3,2 cm con la corretta precisione?",
+      "options": [
+        "25,14 cm",
+        "25 cm",
+        "25,140 cm",
+        "25,1 cm"
+      ],
+      "correct": 3,
+      "explanation": "La differenza 25,14 va arrotondata a un decimale."
+    },
+    {
+      "id": "intro-163",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un parallelepipedo ha lati 2,4 cm, 3,10 cm, 4,0 cm. Quale volume va riportato?",
+      "options": [
+        "3,0 · 10¹ cm³",
+        "29,76 cm³",
+        "29,8 cm³",
+        "2,976 · 10¹ cm³"
+      ],
+      "correct": 0,
+      "explanation": "Il prodotto è 29,76 cm³: con due cifre significative diventa 3,0·10¹ cm³."
+    },
+    {
+      "id": "intro-164",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Qual è la somma appropriata di 1,25 m, 0,7 m e 2,035 m?",
+      "options": [
+        "3,985 m",
+        "4,0 m",
+        "3,99 m",
+        "3,9850 m"
+      ],
+      "correct": 1,
+      "explanation": "La somma è 3,985 m; il valore 0,7 limita a un decimale."
+    },
+    {
+      "id": "intro-165",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Come si esprime 0,002540 m in millimetri conservandone la precisione?",
+      "options": [
+        "2,5 mm",
+        "2,54 mm",
+        "2,540 mm",
+        "2,5400 mm"
+      ],
+      "correct": 2,
+      "explanation": "Il numero di partenza ha quattro cifre significative: 2,540 mm."
+    },
+    {
+      "id": "intro-166",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Quale confronto sugli zeri è corretto?",
+      "options": [
+        "0,003 ha tre cifre e 4,0 una",
+        "0,003 ha zero cifre e 4,0 una",
+        "Entrambi ne hanno due",
+        "0,003 ne ha una e 4,0 ne ha due"
+      ],
+      "correct": 3,
+      "explanation": "In 0,003 conta solo 3; in 4,0 contano 4 e 0."
+    },
+    {
+      "id": "intro-167",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Il perimetro di un rettangolo è P = 2·(3,45 cm + 2,1 cm), con 2 esatto. Quale risultato va riportato?",
+      "options": [
+        "11,1 cm",
+        "11,10 cm",
+        "11 cm",
+        "11,100 cm"
+      ],
+      "correct": 0,
+      "explanation": "La somma è limitata ai decimi; senza arrotondare prematuramente si ottiene P = 11,1 cm."
+    },
+    {
+      "id": "intro-168",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un rettangolo ha lati 4,60 cm e 2,5 cm. Qual è l'area da riportare?",
+      "options": [
+        "11,50 cm²",
+        "12 cm²",
+        "11,5 cm²",
+        "11,500 cm²"
+      ],
+      "correct": 1,
+      "explanation": "4,60·2,5 = 11,5 cm², arrotondato a due cifre significative: 12 cm²."
+    },
+    {
+      "id": "intro-169",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una misura di 2,34 cm viene convertita in metri mediante un fattore esatto. Quante cifre significative ha il risultato?",
+      "options": [
+        "Una",
+        "Due",
+        "Tre",
+        "Cinque"
+      ],
+      "correct": 2,
+      "explanation": "La conversione esatta non modifica le cifre significative della misura."
+    },
+    {
+      "id": "intro-170",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una lunghezza ha valore medio 8,764 cm e incertezza assoluta U = 0,03 cm. Quale risultato è scritto correttamente alla stessa posizione decimale dell'incertezza?",
+      "options": [
+        "(8,8 ± 0,03) cm",
+        "(8,7600 ± 0,03) cm",
+        "(8,76 ± 0,3) cm",
+        "(8,76 ± 0,03) cm"
+      ],
+      "correct": 3,
+      "explanation": "Con incertezza al centesimo, il valore medio si arrotonda ai centesimi: (8,76 ± 0,03) cm."
+    },
+    {
+      "id": "intro-171",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Due misure 4,20 cm e 3,1 cm vengono moltiplicate. Con quale criterio si scrive il risultato?",
+      "options": [
+        "Due cifre significative, come nel dato 3,1",
+        "Due cifre decimali, come in 4,20",
+        "Tre cifre significative, come in 4,20",
+        "Un decimale, perché entrambi sono lunghezze"
+      ],
+      "correct": 0,
+      "explanation": "In un prodotto, il numero di cifre significative del risultato segue il dato che ne contiene meno."
+    },
+    {
+      "id": "intro-172",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Che cosa indica la portata di uno strumento?",
+      "options": [
+        "Il valore massimo misurabile",
+        "Il numero di prove ripetute",
+        "La sua massa",
+        "Il tempo di lettura"
+      ],
+      "correct": 0,
+      "explanation": "La portata è il limite superiore dell'intervallo di misura."
+    },
+    {
+      "id": "intro-173",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Un termometro mostra numeri su uno schermo. La sua lettura è:",
+      "options": [
+        "Analogica a lancetta",
+        "Digitale",
+        "Priva di unità",
+        "Continuamente graduata"
+      ],
+      "correct": 1,
+      "explanation": "Un display numerico fornisce una lettura digitale."
+    },
+    {
+      "id": "intro-174",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale caratteristica indica il minimo cambiamento distinguibile?",
+      "options": [
+        "Portata",
+        "Prontezza",
+        "Risoluzione",
+        "Massa"
+      ],
+      "correct": 2,
+      "explanation": "La risoluzione definisce il più piccolo passo distinguibile."
+    },
+    {
+      "id": "intro-175",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "A cosa serve una scala graduata analogica?",
+      "options": [
+        "A correggere qualunque errore",
+        "A salvare la memoria delle letture",
+        "A misurare solo tempi",
+        "A convertire la posizione dell'indicatore in un valore"
+      ],
+      "correct": 3,
+      "explanation": "La posizione della lancetta si legge sulla scala."
+    },
+    {
+      "id": "intro-176",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Una bilancia misura fino a 5 kg. Qual è la portata?",
+      "options": [
+        "5 kg",
+        "2,5 kg",
+        "0,5 kg",
+        "10 kg"
+      ],
+      "correct": 0,
+      "explanation": "La portata coincide col massimo valore misurabile."
+    },
+    {
+      "id": "intro-177",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "La prontezza di uno strumento riguarda:",
+      "options": [
+        "Il colore della scala",
+        "La rapidità di risposta alle variazioni",
+        "L'unità scelta",
+        "La massa del sensore"
+      ],
+      "correct": 1,
+      "explanation": "La prontezza esprime quanto velocemente lo strumento segue il fenomeno."
+    },
+    {
+      "id": "intro-178",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Una bilancia digitale cambia lettura a passi di 0,1 g. Qual è la risoluzione?",
+      "options": [
+        "1 g",
+        "10 g",
+        "0,1 g",
+        "0,01 g"
+      ],
+      "correct": 2,
+      "explanation": "Il passo minimo indicato è 0,1 g."
+    },
+    {
+      "id": "intro-179",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Se si supera la portata, la lettura:",
+      "options": [
+        "Diventa sempre più accurata",
+        "Acquista una cifra significativa",
+        "Si converte in altra unità",
+        "Potrebbe non essere valida"
+      ],
+      "correct": 3,
+      "explanation": "Fuori campo non è garantita una misura attendibile."
+    },
+    {
+      "id": "intro-180",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Con una lancetta posta tra due tacche è ragionevole:",
+      "options": [
+        "Stimare la lettura secondo la graduazione",
+        "Inventare un numero esatto",
+        "Ignorare la scala",
+        "Cambiare grandezza fisica"
+      ],
+      "correct": 0,
+      "explanation": "Uno strumento analogico può richiedere una stima tra tacche."
+    },
+    {
+      "id": "intro-181",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "A cosa serve la taratura?",
+      "options": [
+        "A rendere più grande l'oggetto",
+        "A confrontare lo strumento con riferimenti noti",
+        "A eliminare tutti i decimali",
+        "A velocizzare sempre il sensore"
+      ],
+      "correct": 1,
+      "explanation": "La taratura verifica la relazione fra indicazione e riferimento."
+    },
+    {
+      "id": "intro-182",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un voltmetro ha portata 20 V e risoluzione 0,01 V. Quale affermazione è corretta?",
+      "options": [
+        "20 V è il minimo passo",
+        "0,01 V è il massimo misurabile",
+        "La portata è 20 V e il passo è 0,01 V",
+        "Entrambi sono tempi di risposta"
+      ],
+      "correct": 2,
+      "explanation": "Portata e risoluzione indicano caratteristiche distinte."
+    },
+    {
+      "id": "intro-183",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un sensore segue lentamente una variazione rapida. Quale caratteristica è limitante?",
+      "options": [
+        "Portata",
+        "Unità del SI",
+        "Colore della sonda",
+        "Prontezza"
+      ],
+      "correct": 3,
+      "explanation": "La risposta lenta può non seguire il fenomeno."
+    },
+    {
+      "id": "intro-184",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Si misura una massa di 4 kg. Quale bilancia ha portata idonea?",
+      "options": [
+        "5 kg",
+        "2 kg",
+        "500 g",
+        "0,5 kg"
+      ],
+      "correct": 0,
+      "explanation": "La portata deve includere 4 kg."
+    },
+    {
+      "id": "intro-185",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Due bilance hanno la stessa portata e passi di 1 g e 0,1 g. Che cosa sappiamo?",
+      "options": [
+        "La seconda è sicuramente più accurata",
+        "La seconda risolve variazioni più piccole",
+        "La prima è necessariamente difettosa",
+        "La prima risponde più in fretta"
+      ],
+      "correct": 1,
+      "explanation": "Il passo più piccolo migliora la risoluzione, non necessariamente l'accuratezza."
+    },
+    {
+      "id": "intro-186",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un termometro è accurato a temperatura costante ma impiega molto a stabilizzarsi. Quale distinzione è corretta?",
+      "options": [
+        "Alta prontezza e bassa portata",
+        "Alta risoluzione e alta prontezza",
+        "Buona accuratezza in equilibrio ma risposta lenta",
+        "Termometro non utilizzabile per definizione"
+      ],
+      "correct": 2,
+      "explanation": "Accuratezza e prontezza possono differire."
+    },
+    {
+      "id": "intro-187",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Una bilancia indica sempre 0,4 g in più del riferimento. Quale proprietà è direttamente compromessa?",
+      "options": [
+        "Portata",
+        "Prontezza",
+        "Dimensione dello schermo",
+        "Accuratezza"
+      ],
+      "correct": 3,
+      "explanation": "Uno scostamento sistematico compromette l'accuratezza."
+    },
+    {
+      "id": "intro-188",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale bilancia legge variazioni al centesimo di grammo?",
+      "options": [
+        "Una con passo 0,01 g",
+        "Una con passo 1 kg",
+        "Un termometro da 0,01 °C",
+        "Un cronometro da 0,01 s"
+      ],
+      "correct": 0,
+      "explanation": "Il passo richiesto per la massa è 0,01 g."
+    },
+    {
+      "id": "intro-189",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un campione noto da 50,0 g viene letto come 50,2 g. Qual è lo scostamento?",
+      "options": [
+        "+2 g",
+        "+0,2 g",
+        "−0,2 g",
+        "+20 g"
+      ],
+      "correct": 1,
+      "explanation": "La lettura meno il riferimento è 50,2 − 50,0 = +0,2 g."
+    },
+    {
+      "id": "intro-190",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Una scala analogica ha tacche distanziate di 0,5 g. Quale differenza di valore separa due tacche consecutive?",
+      "options": [
+        "0,05 g",
+        "5 g",
+        "0,5 g",
+        "50 g"
+      ],
+      "correct": 2,
+      "explanation": "L'intervallo tra due tacche è 0,5 g."
+    },
+    {
+      "id": "intro-191",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Si confrontano strumenti: uno ha portata maggiore, l'altro risoluzione migliore. Quale scelta è corretta?",
+      "options": [
+        "Il primo è sempre preferibile",
+        "Il secondo è sempre preferibile",
+        "Sono necessariamente equivalenti",
+        "Dipende dall'intervallo e dalla variazione da misurare"
+      ],
+      "correct": 3,
+      "explanation": "La scelta dipende sia dal campo sia dal dettaglio richiesto."
+    },
+    {
+      "id": "intro-192",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Cinque letture di massa sono tutte 20,0 g ma il riferimento è 20,8 g. Che cosa mostrano?",
+      "options": [
+        "Buona ripetibilità ma scarsa vicinanza al riferimento",
+        "Accuratezza perfetta",
+        "Portata di 20,0 g",
+        "Incertezza complessiva nulla"
+      ],
+      "correct": 0,
+      "explanation": "Le letture coincidono fra loro, ma sono spostate dal riferimento."
+    },
+    {
+      "id": "intro-193",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Le variazioni di temperatura durano 0,2 s, il sensore impiega 4 s a rispondere. Qual è il limite più importante?",
+      "options": [
+        "La portata è certamente zero",
+        "La prontezza non basta a seguire le variazioni",
+        "I kelvin non sono unità SI",
+        "La risoluzione è di 4 °C"
+      ],
+      "correct": 1,
+      "explanation": "Il tempo di risposta supera la durata delle variazioni."
+    },
+    {
+      "id": "intro-194",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Due strumenti hanno passi di 0,01 mm e 0,1 mm, ma il primo è mal tarato. Quale conclusione è corretta?",
+      "options": [
+        "Il primo è sicuramente più accurato",
+        "Il secondo è sempre più preciso",
+        "Il primo ha risoluzione migliore ma può essere meno accurato",
+        "Hanno risoluzione identica"
+      ],
+      "correct": 2,
+      "explanation": "Risoluzione e accuratezza sono proprietà distinte."
+    },
+    {
+      "id": "intro-195",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un termometro lavora da −10 °C a 50 °C con passo 0,5 °C. Quale valore è fuori portata?",
+      "options": [
+        "−5 °C",
+        "0 °C",
+        "49,5 °C",
+        "51 °C"
+      ],
+      "correct": 3,
+      "explanation": "51 °C supera il limite dichiarato."
+    },
+    {
+      "id": "intro-196",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un sensore legge sempre 12,00 unità quando il riferimento è 12,30. Quale azione è più utile?",
+      "options": [
+        "Verificare taratura e scostamento",
+        "Ripetere senza controlli all'infinito",
+        "Arrotondare tutto a interi",
+        "Cambiare il colore del display"
+      ],
+      "correct": 0,
+      "explanation": "Lo scostamento costante va confrontato con riferimenti e corretto, quando possibile."
+    },
+    {
+      "id": "intro-197",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Si vuole misurare 0,002 kg con una bilancia che ha passo 0,01 kg e portata 10 kg. Quale problema emerge?",
+      "options": [
+        "Il valore supera la portata",
+        "La massa è inferiore al passo minimo indicato",
+        "L'unità kg è vietata",
+        "La portata è troppo piccola"
+      ],
+      "correct": 1,
+      "explanation": "0,002 kg è più piccolo di 0,01 kg e non è distinguibile adeguatamente."
+    },
+    {
+      "id": "intro-198",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una bilancia da 0,1 g di risoluzione mostra lo stesso valore per masse diverse di 0,02 g. Qual è una spiegazione coerente?",
+      "options": [
+        "I numeri sono falsi",
+        "Le masse sono uguali per definizione",
+        "La differenza è minore della risoluzione",
+        "La bilancia ha portata nulla"
+      ],
+      "correct": 2,
+      "explanation": "0,02 g è minore del passo di 0,1 g."
+    },
+    {
+      "id": "intro-199",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "La bilancia A ha portata 100 g e passo 0,01 g; B ha portata 5 kg e passo 1 g. Per misurare 2 kg quale scegliere?",
+      "options": [
+        "A per il passo più fine",
+        "A perché usa grammi",
+        "Nessuna perché 2 kg è enorme",
+        "B perché A non comprende la massa da misurare"
+      ],
+      "correct": 3,
+      "explanation": "2 kg supera 100 g ma rientra nei 5 kg della seconda bilancia."
+    },
+    {
+      "id": "intro-200",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una scala copre 10 unità con 20 intervalli uguali. Quanto vale un intervallo?",
+      "options": [
+        "0,5 unità",
+        "2 unità",
+        "10 unità",
+        "20 unità"
+      ],
+      "correct": 0,
+      "explanation": "10/20 = 0,5 unità per intervallo."
+    },
+    {
+      "id": "intro-201",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un sensore misura fino a 200 kPa, risoluzione 0,5 kPa, ma risponde lentamente. Si studiano picchi brevi di 150 kPa. Che cosa può impedire la misura corretta?",
+      "options": [
+        "Portata insufficiente",
+        "Prontezza insufficiente",
+        "Unità non SI",
+        "Risoluzione maggiore della portata"
+      ],
+      "correct": 1,
+      "explanation": "La risposta lenta può non registrare correttamente picchi rapidi."
+    },
+    {
+      "id": "intro-202",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un campione noto di 500 g viene letto 503 g in tutte le prove. Qual è lo scostamento osservato?",
+      "options": [
+        "−3 g",
+        "+0,3 g",
+        "+3 g",
+        "+30 g"
+      ],
+      "correct": 2,
+      "explanation": "La differenza lettura meno riferimento è +3 g."
+    },
+    {
+      "id": "intro-203",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Uno strumento con portata 100 N e passo 0,2 N deve distinguere differenze di 0,05 N attorno a 40 N. Quale valutazione è corretta?",
+      "options": [
+        "Entrambe le caratteristiche sono insufficienti",
+        "Solo la portata è insufficiente",
+        "Entrambe sono adeguate",
+        "La portata è adeguata, la risoluzione no"
+      ],
+      "correct": 3,
+      "explanation": "40 N è nel campo, ma 0,05 N è inferiore al passo 0,2 N."
+    },
+    {
+      "id": "intro-204",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Che cosa descrive l'incertezza associata a una misura?",
+      "options": [
+        "Il margine attribuito al valore misurato",
+        "Il numero di strumenti",
+        "Il valore vero esatto",
+        "Il tempo totale delle prove"
+      ],
+      "correct": 0,
+      "explanation": "L'incertezza descrive il margine con cui un valore è attribuito alla grandezza."
+    },
+    {
+      "id": "intro-205",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale situazione può causare un errore casuale?",
+      "options": [
+        "Uno zero sempre spostato",
+        "Una variazione del tempo di reazione tra prove",
+        "Una scala stampata in modo costantemente errato",
+        "Un riferimento sbagliato fisso"
+      ],
+      "correct": 1,
+      "explanation": "La variabilità del tempo di reazione può far oscillare le letture."
+    },
+    {
+      "id": "intro-206",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Che cosa caratterizza un errore sistematico?",
+      "options": [
+        "Cambia sempre segno a ogni prova",
+        "È sempre inferiore al passo",
+        "Sposta le letture in modo regolare o prevedibile",
+        "Scompare necessariamente facendo una media"
+      ],
+      "correct": 2,
+      "explanation": "Uno scostamento sistematico permane anche in molte misure."
+    },
+    {
+      "id": "intro-207",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Che cosa rappresenta la media aritmetica di più letture?",
+      "options": [
+        "Il valore massimo",
+        "L'incertezza assoluta",
+        "Il numero di prove",
+        "La somma delle letture divisa per il loro numero"
+      ],
+      "correct": 3,
+      "explanation": "La media si ottiene dividendo la somma per il numero dei valori."
+    },
+    {
+      "id": "intro-208",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Tre misure sono 2,0 s, 3,0 s e 4,0 s. Qual è la media?",
+      "options": [
+        "3,0 s",
+        "4,0 s",
+        "2,0 s",
+        "9,0 s"
+      ],
+      "correct": 0,
+      "explanation": "(2,0+3,0+4,0)/3 = 3,0 s."
+    },
+    {
+      "id": "intro-209",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Qual è la semidispersione di letture comprese tra 6 cm e 10 cm?",
+      "options": [
+        "4 cm",
+        "2 cm",
+        "8 cm",
+        "16 cm"
+      ],
+      "correct": 1,
+      "explanation": "La semidispersione è (10−6)/2 = 2 cm."
+    },
+    {
+      "id": "intro-210",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Che cosa indica il segno ± in x = (5,0 ± 0,2) cm?",
+      "options": [
+        "Che il valore è esattamente 5,2 cm",
+        "Che la misura è errata",
+        "Che si dichiara un margine di 0,2 cm attorno a 5,0 cm",
+        "Che la scala non ha unità"
+      ],
+      "correct": 2,
+      "explanation": "L'incertezza assoluta è 0,2 cm, espressa nella stessa unità."
+    },
+    {
+      "id": "intro-211",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale condizione serve per calcolare l'errore rispetto a un riferimento?",
+      "options": [
+        "Avere almeno cento misure",
+        "Disporre di un grafico cartesiano",
+        "Conoscere solo la risoluzione",
+        "Conoscere un valore di riferimento per la stessa grandezza"
+      ],
+      "correct": 3,
+      "explanation": "L'errore è la differenza tra misura e riferimento."
+    },
+    {
+      "id": "intro-212",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "La lettura è 9,5 g e il riferimento è 10,0 g. Quanto vale l'errore con segno?",
+      "options": [
+        "−0,5 g",
+        "+0,5 g",
+        "−1,5 g",
+        "+1,5 g"
+      ],
+      "correct": 0,
+      "explanation": "9,5−10,0 = −0,5 g."
+    },
+    {
+      "id": "intro-213",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Se tutte le letture sono identiche, che cosa possiamo affermare sulla dispersione osservata?",
+      "options": [
+        "È massima",
+        "È nulla per quelle letture",
+        "È uguale al valore medio",
+        "Prova che l'errore è nullo"
+      ],
+      "correct": 1,
+      "explanation": "La dispersione osservata è nulla, ma possono restare incertezze e errori sistematici."
+    },
+    {
+      "id": "intro-214",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Qual è l'unità di un'incertezza assoluta su una massa espressa in grammi?",
+      "options": [
+        "Secondi",
+        "Nessuna unità",
+        "Grammi",
+        "Grammi per secondo"
+      ],
+      "correct": 2,
+      "explanation": "L'incertezza assoluta ha la stessa unità della grandezza misurata."
+    },
+    {
+      "id": "intro-215",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Cinque letture di una massa sono 10, 12, 11, 10 e 12 g. Qual è la media?",
+      "options": [
+        "10 g",
+        "10,5 g",
+        "12 g",
+        "11 g"
+      ],
+      "correct": 3,
+      "explanation": "La somma è 55 g; divisa per 5 dà 11 g."
+    },
+    {
+      "id": "intro-216",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Letture da 4,2 a 4,8 cm hanno semidispersione:",
+      "options": [
+        "0,3 cm",
+        "0,6 cm",
+        "4,5 cm",
+        "0,1 cm"
+      ],
+      "correct": 0,
+      "explanation": "(4,8−4,2)/2 = 0,3 cm."
+    },
+    {
+      "id": "intro-217",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "La media di una serie è 6,5 g e il riferimento è 6,0 g. Qual è l'errore con segno?",
+      "options": [
+        "−0,5 g",
+        "+0,5 g",
+        "+6,5 g",
+        "+12,5 g"
+      ],
+      "correct": 1,
+      "explanation": "e = 6,5−6,0 = +0,5 g."
+    },
+    {
+      "id": "intro-218",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un risultato è x = (8,0 ± 0,4) cm. Quali estremi delimitano l'intervallo indicato?",
+      "options": [
+        "8,0 e 8,4 cm",
+        "7,2 e 8,8 cm",
+        "7,6 e 8,4 cm",
+        "7,6 e 8,0 cm"
+      ],
+      "correct": 2,
+      "explanation": "8,0−0,4 = 7,6 cm; 8,0+0,4 = 8,4 cm."
+    },
+    {
+      "id": "intro-219",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Una misura dà 48 g e il riferimento è 50 g. Quanto vale l'errore relativo, definito come scarto assoluto diviso riferimento?",
+      "options": [
+        "4",
+        "0,04",
+        "0,4",
+        "2"
+      ],
+      "correct": 1,
+      "explanation": "Lo scarto è 2 g; 2/50 = 0,04."
+    },
+    {
+      "id": "intro-220",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Una misura differisce dal riferimento di 3 unità su un riferimento di 60 unità. Qual è l'errore percentuale?",
+      "options": [
+        "0,5%",
+        "3%",
+        "5%",
+        "20%"
+      ],
+      "correct": 2,
+      "explanation": "3/60·100% = 5%."
+    },
+    {
+      "id": "intro-221",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un cronometro ha passo q = 0,01 s. Le letture vanno da 2,10 s a 2,18 s. Con U = max(semidispersione, passo), quanto vale U?",
+      "options": [
+        "0,01 s",
+        "0,02 s",
+        "0,08 s",
+        "0,04 s"
+      ],
+      "correct": 3,
+      "explanation": "La semidispersione è (2,18−2,10)/2 = 0,04 s, maggiore del passo."
+    },
+    {
+      "id": "intro-222",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Due serie hanno la stessa media; una ha letture da 4 a 6 e l'altra da 2 a 8. Quale ha semidispersione minore?",
+      "options": [
+        "La prima",
+        "La seconda",
+        "Le due hanno la stessa",
+        "Non è possibile calcolarle senza unità"
+      ],
+      "correct": 0,
+      "explanation": "La prima ha semidispersione 1, la seconda 3, nelle stesse unità."
+    },
+    {
+      "id": "intro-223",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Una bilancia dà letture identiche a 100,0 g, con passo q = 0,1 g. Usando U = max(d,q), quale incertezza stimata si indica?",
+      "options": [
+        "0 g",
+        "0,1 g",
+        "1 g",
+        "100 g"
+      ],
+      "correct": 1,
+      "explanation": "d = 0 per letture identiche, ma resta il passo 0,1 g."
+    },
+    {
+      "id": "intro-224",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Se una misura è inferiore al riferimento, il suo errore e = misura − riferimento è:",
+      "options": [
+        "Sempre nullo",
+        "Positivo",
+        "Negativo",
+        "Privo di segno"
+      ],
+      "correct": 2,
+      "explanation": "Sottraendo un riferimento maggiore si ottiene un valore negativo."
+    },
+    {
+      "id": "intro-225",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Quattro letture, in grammi, sono 8,2; 8,4; 8,1; 8,3. Il passo è q = 0,1 g. Con U = max(d,q), quale valore si ottiene?",
+      "options": [
+        "0,05 g",
+        "0,1 g",
+        "0,3 g",
+        "0,15 g"
+      ],
+      "correct": 3,
+      "explanation": "d = (8,4−8,1)/2 = 0,15 g, maggiore di q = 0,1 g."
+    },
+    {
+      "id": "intro-226",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Tre letture di una massa sono 10,2; 10,4; 10,6 g. Il passo è q = 0,05 g. Quale risultato media ± U, con U = max(d,q), è corretto?",
+      "options": [
+        "(10,4 ± 0,2) g",
+        "(10,4 ± 0,4) g",
+        "(10,2 ± 0,2) g",
+        "(10,6 ± 0,05) g"
+      ],
+      "correct": 0,
+      "explanation": "La media è 10,4 g e la semidispersione è 0,2 g, maggiore del passo."
+    },
+    {
+      "id": "intro-227",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un riferimento è 2,5 s e la misura è 2,4 s. Quale coppia errore con segno / errore percentuale è corretta?",
+      "options": [
+        "(+0,1 s; 4%)",
+        "(−0,1 s; 4%)",
+        "(−0,1 s; 0,4%)",
+        "(−0,1 s; 40%)"
+      ],
+      "correct": 1,
+      "explanation": "L'errore è −0,1 s; quello percentuale usa il modulo: 0,1/2,5·100%=4%."
+    },
+    {
+      "id": "intro-228",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un risultato è 15,0 g con riferimento 15,5 g. Un altro è 150,0 g con riferimento 150,5 g. Quale ha errore relativo maggiore?",
+      "options": [
+        "Il secondo perché è più grande",
+        "Sono uguali perché lo scarto assoluto è uguale",
+        "Il primo perché lo stesso scarto pesa di più su un riferimento piccolo",
+        "Non si può stabilire senza un cronometro"
+      ],
+      "correct": 2,
+      "explanation": "Entrambi gli scarti assoluti sono 0,5 g; 0,5/15,5 è maggiore di 0,5/150,5."
+    },
+    {
+      "id": "intro-229",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Cinque letture simmetriche hanno media 20,0 mm e massimo 20,4 mm. Il passo è 0,1 mm e il minimo è 19,6 mm. Quale U si ottiene?",
+      "options": [
+        "0,1 mm",
+        "0,2 mm",
+        "0,8 mm",
+        "0,4 mm"
+      ],
+      "correct": 3,
+      "explanation": "d = (20,4−19,6)/2 = 0,4 mm, maggiore del passo."
+    },
+    {
+      "id": "intro-230",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Uno strumento ha passo 0,2 g e ripete letture fra 30,0 e 30,2 g. Applicando U = max(d,q), quale risultato sulla sola incertezza è corretto?",
+      "options": [
+        "U = 0,2 g",
+        "U = 0,1 g",
+        "U = 0 g",
+        "U = 0,4 g"
+      ],
+      "correct": 0,
+      "explanation": "La semidispersione vale 0,1 g, ma il passo 0,2 g è maggiore."
+    },
+    {
+      "id": "intro-231",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Il valore misurato è 240 g, il riferimento 250 g. Quale coppia errore con segno e percentuale è corretta?",
+      "options": [
+        "(+10 g; 4%)",
+        "(−10 g; 4%)",
+        "(−10 g; 10%)",
+        "(−4 g; 10%)"
+      ],
+      "correct": 1,
+      "explanation": "L'errore è 240−250 = −10 g; la percentuale è 10/250·100% = 4%."
+    },
+    {
+      "id": "intro-232",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Due serie hanno rispettivamente media 5,0 e 5,1 s e incertezza dichiarata U = 0,2 s per entrambe. Quale conclusione è giustificata?",
+      "options": [
+        "La differenza di 0,1 s prova due durate diverse",
+        "Le misure sono sicuramente identiche",
+        "La differenza delle medie da sola non basta per concludere che i valori siano distinti",
+        "L'incertezza è necessariamente zero"
+      ],
+      "correct": 2,
+      "explanation": "Gli intervalli si sovrappongono; un piccolo scarto fra medie non decide da solo."
+    },
+    {
+      "id": "intro-233",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Si riporta x = (7,5 ± 0,3) cm, mentre un riferimento indipendente è 7,9 cm. Qual è l'errore con segno rispetto al riferimento?",
+      "options": [
+        "+0,4 cm",
+        "−0,3 cm",
+        "+0,3 cm",
+        "−0,4 cm"
+      ],
+      "correct": 3,
+      "explanation": "L'errore con segno è 7,5−7,9 = −0,4 cm; non coincide necessariamente con U."
+    },
+    {
+      "id": "intro-234",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "In un piano cartesiano, quale asse si usa normalmente per la coordinata x?",
+      "options": [
+        "Asse orizzontale",
+        "Asse verticale",
+        "Entrambi gli assi insieme",
+        "Nessun asse"
+      ],
+      "correct": 0,
+      "explanation": "Per convenzione x si legge lungo l'asse orizzontale."
+    },
+    {
+      "id": "intro-235",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Un punto ha coordinate (3; 5). Qual è la sua ordinata?",
+      "options": [
+        "3",
+        "5",
+        "8",
+        "2"
+      ],
+      "correct": 1,
+      "explanation": "L'ordinata è la seconda coordinata, cioè y = 5."
+    },
+    {
+      "id": "intro-236",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Un punto ha coordinate (4; 2). Qual è la sua ascissa?",
+      "options": [
+        "2",
+        "6",
+        "4",
+        "8"
+      ],
+      "correct": 2,
+      "explanation": "L'ascissa è la prima coordinata."
+    },
+    {
+      "id": "intro-237",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quali sono le coordinate dell'origine del piano?",
+      "options": [
+        "(1; 1)",
+        "(+1; 0)",
+        "(0; +1)",
+        "(0; 0)"
+      ],
+      "correct": 3,
+      "explanation": "L'origine è l'intersezione degli assi, con entrambe le coordinate nulle."
+    },
+    {
+      "id": "intro-238",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Nel primo quadrante, le coordinate x e y sono:",
+      "options": [
+        "Entrambe positive",
+        "Entrambe negative",
+        "x negativa e y positiva",
+        "x positiva e y negativa"
+      ],
+      "correct": 0,
+      "explanation": "Il primo quadrante è quello con x > 0 e y > 0."
+    },
+    {
+      "id": "intro-239",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Il punto (−2; 3) si trova nel:",
+      "options": [
+        "Primo quadrante",
+        "Secondo quadrante",
+        "Terzo quadrante",
+        "Quarto quadrante"
+      ],
+      "correct": 1,
+      "explanation": "La x negativa e la y positiva individuano il secondo quadrante."
+    },
+    {
+      "id": "intro-240",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale punto non appartiene a nessuno dei quattro quadranti?",
+      "options": [
+        "(2; 3)",
+        "(−2; 3)",
+        "(0; 3)",
+        "(−2; −3)"
+      ],
+      "correct": 2,
+      "explanation": "Il punto (0; 3) appartiene all'asse verticale e non a un quadrante."
+    },
+    {
+      "id": "intro-241",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quali segni hanno le coordinate di un punto nel quarto quadrante?",
+      "options": [
+        "(+; +)",
+        "(−; +)",
+        "(−; −)",
+        "(+; −)"
+      ],
+      "correct": 3,
+      "explanation": "Nel quarto quadrante l'ascissa è positiva e l'ordinata negativa."
+    },
+    {
+      "id": "intro-242",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Nel grafico di volume in funzione del tempo, quale grandezza va normalmente sull'asse orizzontale?",
+      "options": [
+        "Il tempo",
+        "Il volume",
+        "La massa",
+        "La temperatura"
+      ],
+      "correct": 0,
+      "explanation": "La grandezza indipendente tempo viene posta sull'asse delle ascisse."
+    },
+    {
+      "id": "intro-243",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Un punto è sull'asse verticale. Qual è il valore della sua ascissa?",
+      "options": [
+        "Dipende dal quadrante",
+        "0",
+        "Sempre 1",
+        "Sempre negativo"
+      ],
+      "correct": 1,
+      "explanation": "Ogni punto dell'asse y ha x = 0."
+    },
+    {
+      "id": "intro-244",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Un punto è sull'asse orizzontale. Qual è il valore della sua ordinata?",
+      "options": [
+        "Sempre positivo",
+        "Sempre negativo",
+        "0",
+        "1"
+      ],
+      "correct": 2,
+      "explanation": "L'asse x è l'insieme dei punti con y = 0."
+    },
+    {
+      "id": "intro-245",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Una tabella associa t = 2 min a V = 6 L. Quale punto va segnato nel grafico V in funzione di t?",
+      "options": [
+        "(6; 2)",
+        "(+2; −6)",
+        "(6; 6)",
+        "(2; 6)"
+      ],
+      "correct": 3,
+      "explanation": "Il tempo occupa l'ascissa e il volume l'ordinata."
+    },
+    {
+      "id": "intro-246",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "La scala orizzontale è 1 quadretto = 2 s. Un punto a 4 quadretti a destra dall'origine indica:",
+      "options": [
+        "8 s",
+        "4 s",
+        "2 s",
+        "6 s"
+      ],
+      "correct": 0,
+      "explanation": "4·2 s = 8 s."
+    },
+    {
+      "id": "intro-247",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "L'asse verticale usa 1 quadretto = 5 L. Un punto è a 3 quadretti sopra l'origine. Qual è la sua ordinata?",
+      "options": [
+        "8 L",
+        "15 L",
+        "3 L",
+        "5 L"
+      ],
+      "correct": 1,
+      "explanation": "3·5 L = 15 L."
+    },
+    {
+      "id": "intro-248",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale punto appartiene al secondo quadrante?",
+      "options": [
+        "(2; 5)",
+        "(−2; −5)",
+        "(−2; 5)",
+        "(2; −5)"
+      ],
+      "correct": 2,
+      "explanation": "Nel secondo quadrante la prima coordinata è negativa e la seconda positiva."
+    },
+    {
+      "id": "intro-249",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale punto si trova sull'asse x, a sinistra dell'origine?",
+      "options": [
+        "(0; −3)",
+        "(3; 0)",
+        "(0; 3)",
+        "(−3; 0)"
+      ],
+      "correct": 3,
+      "explanation": "L'asse x impone y=0 e a sinistra dell'origine x<0."
+    },
+    {
+      "id": "intro-250",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "L'asse orizzontale rappresenta il tempo in secondi e quello verticale il volume in litri. Quale unità ha l'ordinata?",
+      "options": [
+        "Litri",
+        "Secondi",
+        "Litri per secondo",
+        "Metri"
+      ],
+      "correct": 0,
+      "explanation": "L'ordinata si riferisce alla grandezza posta sull'asse verticale, cioè al volume."
+    },
+    {
+      "id": "intro-251",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "In un grafico, gli assi hanno scale diverse: 1 quadretto orizzontale = 2 s, 1 verticale = 3 m. Un punto a (3 quadretti; 2 quadretti) rappresenta:",
+      "options": [
+        "(3 s; 2 m)",
+        "(6 s; 6 m)",
+        "(9 s; 4 m)",
+        "(6 s; 3 m)"
+      ],
+      "correct": 1,
+      "explanation": "Le coordinate fisiche sono 3·2=6 s e 2·3=6 m."
+    },
+    {
+      "id": "intro-252",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale coppia descrive un punto appartenente all'asse delle ordinate sopra l'origine?",
+      "options": [
+        "(2; 0)",
+        "(−2; 2)",
+        "(0; 2)",
+        "(0; −2)"
+      ],
+      "correct": 2,
+      "explanation": "Sull'asse delle ordinate x=0 e sopra l'origine y>0."
+    },
+    {
+      "id": "intro-253",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "La tabella indica che a t = 3 s un contenitore ha V = 12 L. Quale grafico rispetta questa informazione?",
+      "options": [
+        "Quello che contiene il punto (12; 3), con t orizzontale",
+        "Quello che contiene il punto (3; 0)",
+        "Quello che contiene il punto (0; 12)",
+        "Quello che contiene il punto (3; 12), con t orizzontale"
+      ],
+      "correct": 3,
+      "explanation": "Il punto ha ascissa tempo 3 s e ordinata volume 12 L."
+    },
+    {
+      "id": "intro-254",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Nel grafico di un volume in funzione del tempo, una porzione orizzontale indica:",
+      "options": [
+        "Volume costante nell'intervallo",
+        "Volume sempre crescente",
+        "Tempo che scorre all'indietro",
+        "Volume negativo"
+      ],
+      "correct": 0,
+      "explanation": "Con y invariata mentre x aumenta, il volume rimane costante."
+    },
+    {
+      "id": "intro-255",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un punto P si trova in (−4; 2). Per portarlo sull'asse verticale mantenendo l'ordinata, quale ascissa assegnare?",
+      "options": [
+        "−2",
+        "0",
+        "2",
+        "4"
+      ],
+      "correct": 1,
+      "explanation": "Un punto è sull'asse y quando la sua ascissa è zero."
+    },
+    {
+      "id": "intro-256",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "L'asse x usa 1 quadretto = 0,5 s, quello y 1 quadretto = 2 m. Un punto è 6 quadretti a destra e 4 in alto. Quali coordinate fisiche ha?",
+      "options": [
+        "(6 s; 4 m)",
+        "(12 s; 2 m)",
+        "(3 s; 8 m)",
+        "(3 s; 4 m)"
+      ],
+      "correct": 2,
+      "explanation": "x=6·0,5=3 s e y=4·2=8 m."
+    },
+    {
+      "id": "intro-257",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Il grafico di una grandezza y rispetto a x include i punti A=(−2; 3) e B=(4; 3). Che cosa resta invariato nel passaggio da A a B?",
+      "options": [
+        "L'ascissa",
+        "Il quadrante",
+        "La distanza dall'asse verticale",
+        "L'ordinata"
+      ],
+      "correct": 3,
+      "explanation": "Entrambi i punti hanno la stessa coordinata y=3."
+    },
+    {
+      "id": "intro-258",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un grafico V(t) passa per (0 s; 0 L), (2 s; 6 L) e (4 s; 6 L). Quale descrizione è coerente?",
+      "options": [
+        "Nei dati il volume aumenta fra 0 e 2 s e ha lo stesso valore a 2 e 4 s.",
+        "Il volume cresce in tutte le letture.",
+        "Il volume risulta minore a 4 s che a 2 s.",
+        "Il volume è sempre nullo."
+      ],
+      "correct": 0,
+      "explanation": "Le ordinate riportate sono 0 L, 6 L e 6 L: l'ultima coppia di letture ha lo stesso volume, senza informazioni sui valori intermedi."
+    },
+    {
+      "id": "intro-259",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "L'asse verticale riporta temperatura in °C: da −10 a +10 con una tacca ogni 5 °C. Quante tacche distano 0 °C da +10 °C?",
+      "options": [
+        "Una",
+        "Due",
+        "Tre",
+        "Quattro"
+      ],
+      "correct": 1,
+      "explanation": "Tra 0 e +10 ci sono due intervalli da 5 °C."
+    },
+    {
+      "id": "intro-260",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Il punto A ha coordinate (−3; −4) e il punto B (−3; 2). Che cosa è uguale nei due punti?",
+      "options": [
+        "L'ordinata",
+        "Il quadrante",
+        "L'ascissa",
+        "La distanza dall'asse x"
+      ],
+      "correct": 2,
+      "explanation": "Entrambi hanno x=−3."
+    },
+    {
+      "id": "intro-261",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un punto è nel quarto quadrante. Si cambia soltanto il segno della sua ordinata. In quale quadrante si trova il nuovo punto?",
+      "options": [
+        "Quarto",
+        "Secondo",
+        "Terzo",
+        "Primo"
+      ],
+      "correct": 3,
+      "explanation": "Nel quarto quadrante x>0, y<0; invertendo y si ottengono entrambe positive."
+    },
+    {
+      "id": "intro-262",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una tabella dà: t=0 s, V=5 L; t=2 s, V=5 L; t=4 s, V=8 L. Quale andamento rappresenta i dati?",
+      "options": [
+        "Prima un tratto costante, poi una crescita",
+        "Prima una crescita, poi una diminuzione",
+        "Una diminuzione continua",
+        "Un volume sempre proporzionale al tempo dall'origine"
+      ],
+      "correct": 0,
+      "explanation": "Il volume inizialmente resta 5 L e poi sale a 8 L."
+    },
+    {
+      "id": "intro-263",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un punto è a 3 quadretti a sinistra e 2 in basso. Le scale sono 2 unità per quadretto su x e 5 unità su y. Quali coordinate ha?",
+      "options": [
+        "(−3; −2)",
+        "(−6; −10)",
+        "(6; 10)",
+        "(−10; −6)"
+      ],
+      "correct": 1,
+      "explanation": "Il segno è negativo per entrambi gli assi: x=−3·2=−6 e y=−2·5=−10."
+    },
+    {
+      "id": "intro-264",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una serie temporale contiene i punti (1 s; 3 m), (2 s; 3 m), (3 s; 5 m). Quale affermazione segue dai dati?",
+      "options": [
+        "Il valore misurato è sempre 3 m.",
+        "A t = 3 s il valore è minore che a t = 2 s.",
+        "Il valore misurato a t = 1 s coincide con quello a t = 2 s.",
+        "Il tempo è stato misurato in metri."
+      ],
+      "correct": 2,
+      "explanation": "Le due letture per t = 1 s e t = 2 s danno entrambe 3 m; non si deduce dai soli punti l'andamento fra le letture."
+    },
+    {
+      "id": "intro-265",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un punto P=(5; −2) viene riflesso rispetto all'asse orizzontale, cambiando solo segno a y. Qual è il punto ottenuto?",
+      "options": [
+        "(−5; −2)",
+        "(−5; 2)",
+        "(5; −2)",
+        "(5; 2)"
+      ],
+      "correct": 3,
+      "explanation": "La riflessione rispetto all'asse x conserva x e inverte y."
+    },
+    {
+      "id": "intro-266",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "In un grafico l'asse x va da 0 a 12 s in 6 intervalli uguali. Un dato a 5 intervalli dall'origine ha ascissa:",
+      "options": [
+        "10 s",
+        "5 s",
+        "12 s",
+        "8 s"
+      ],
+      "correct": 0,
+      "explanation": "Ogni intervallo rappresenta 12/6=2 s; dopo cinque intervalli sono 10 s."
+    },
+    {
+      "id": "intro-267",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un punto ha coordinate (−2; 0) e un altro (0; −2). Quale affermazione è corretta?",
+      "options": [
+        "Sono entrambi nel terzo quadrante",
+        "Il primo è sull'asse x, il secondo sull'asse y",
+        "Hanno la stessa ascissa",
+        "Sono entrambi sull'asse x"
+      ],
+      "correct": 1,
+      "explanation": "Un'ordinata nulla colloca il primo sull'asse x; l'ascissa nulla colloca il secondo sull'asse y."
+    },
+    {
+      "id": "intro-268",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Se due grandezze sono direttamente proporzionali, raddoppiando x la grandezza y:",
+      "options": [
+        "Raddoppia",
+        "Si dimezza",
+        "Quadruplica",
+        "Resta costante"
+      ],
+      "correct": 0,
+      "explanation": "Il rapporto y/x resta costante."
+    },
+    {
+      "id": "intro-269",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Se x e y sono inversamente proporzionali e x raddoppia, y:",
+      "options": [
+        "Raddoppia",
+        "Si dimezza",
+        "Quadruplica",
+        "Resta costante"
+      ],
+      "correct": 1,
+      "explanation": "Il prodotto xy deve restare costante."
+    },
+    {
+      "id": "intro-270",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "L'area di un quadrato dipende dal quadrato del lato. Raddoppiando il lato, l'area:",
+      "options": [
+        "Raddoppia",
+        "Triplica",
+        "Quadruplica",
+        "Rimane uguale"
+      ],
+      "correct": 2,
+      "explanation": "(2L)² = 4L²."
+    },
+    {
+      "id": "intro-271",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale formula rappresenta una proporzionalità diretta?",
+      "options": [
+        "y = k/x",
+        "y = kx²",
+        "y = x + k",
+        "y = kx"
+      ],
+      "correct": 3,
+      "explanation": "Nella proporzionalità diretta y/x = k."
+    },
+    {
+      "id": "intro-272",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale formula rappresenta una proporzionalità inversa?",
+      "options": [
+        "y = k/x",
+        "y = kx",
+        "y = kx²",
+        "y = x + k"
+      ],
+      "correct": 0,
+      "explanation": "Il prodotto xy vale k."
+    },
+    {
+      "id": "intro-273",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale formula rappresenta una proporzionalità quadratica?",
+      "options": [
+        "y = k/x",
+        "y = kx²",
+        "y = kx",
+        "y = k + x"
+      ],
+      "correct": 1,
+      "explanation": "In una dipendenza quadratica y è proporzionale a x²."
+    },
+    {
+      "id": "intro-274",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Tre libri identici costano in tutto 45 €. Quanto costa un libro?",
+      "options": [
+        "10 €",
+        "12 €",
+        "15 €",
+        "20 €"
+      ],
+      "correct": 2,
+      "explanation": "45/3 = 15 €."
+    },
+    {
+      "id": "intro-275",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Un veicolo viaggia a velocità costante: percorre 60 km in 1 h. Quanti km percorre in 2 h?",
+      "options": [
+        "30 km",
+        "60 km",
+        "90 km",
+        "120 km"
+      ],
+      "correct": 3,
+      "explanation": "A velocità costante, distanza e tempo sono direttamente proporzionali."
+    },
+    {
+      "id": "intro-276",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Se y = 3x e x = 4, quanto vale y?",
+      "options": [
+        "12",
+        "7",
+        "1,33",
+        "3"
+      ],
+      "correct": 0,
+      "explanation": "3·4 = 12."
+    },
+    {
+      "id": "intro-277",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Su una distanza fissa, tempo di viaggio e velocità media sono:",
+      "options": [
+        "Direttamente proporzionali",
+        "Inversamente proporzionali",
+        "Quadraticamente proporzionali",
+        "Sempre indipendenti"
+      ],
+      "correct": 1,
+      "explanation": "Con distanza fissa, t = d/v."
+    },
+    {
+      "id": "intro-278",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Se y = kx² con k costante e positiva, passando da x=1 a x=3, y diventa:",
+      "options": [
+        "3 volte",
+        "6 volte",
+        "9 volte",
+        "12 volte"
+      ],
+      "correct": 2,
+      "explanation": "Il fattore è 3²/1² = 9."
+    },
+    {
+      "id": "intro-279",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Se y = 5x, quale coppia soddisfa l'equazione?",
+      "options": [
+        "(2;5)",
+        "(5;2)",
+        "(2;7)",
+        "(2;10)"
+      ],
+      "correct": 3,
+      "explanation": "Con x=2 si ha y=10."
+    },
+    {
+      "id": "intro-280",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale tabella mostra proporzionalità diretta?",
+      "options": [
+        "x 1,2,3; y 4,8,12",
+        "x 1,2,3; y 4,4,4",
+        "x 1,2,3; y 4,2,1",
+        "x 1,2,3; y 4,6,8"
+      ],
+      "correct": 0,
+      "explanation": "Il rapporto y/x vale 4 in tutti i casi."
+    },
+    {
+      "id": "intro-281",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale tabella mostra proporzionalità inversa?",
+      "options": [
+        "x 1,2,4; y 8,16,32",
+        "x 1,2,4; y 8,4,2",
+        "x 1,2,4; y 8,8,8",
+        "x 1,2,4; y 8,2,1"
+      ],
+      "correct": 1,
+      "explanation": "Il prodotto xy resta 8."
+    },
+    {
+      "id": "intro-282",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale tabella mostra y = kx²?",
+      "options": [
+        "x 1,2,3; y 2,4,6",
+        "x 1,2,3; y 2,4,9",
+        "x 1,2,3; y 2,8,18",
+        "x 1,2,3; y 2,6,12"
+      ],
+      "correct": 2,
+      "explanation": "Il rapporto y/x² è sempre 2."
+    },
+    {
+      "id": "intro-283",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Se y=12 quando x=2 e x e y sono inversamente proporzionali, quanto vale y quando x=6?",
+      "options": [
+        "36",
+        "24",
+        "6",
+        "4"
+      ],
+      "correct": 3,
+      "explanation": "xy=24; y=24/6=4."
+    },
+    {
+      "id": "intro-284",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Se il lato di un quadrato triplica, come cambia l'area?",
+      "options": [
+        "Diventa 9 volte maggiore",
+        "Diventa 3 volte maggiore",
+        "Diventa 6 volte maggiore",
+        "Resta costante"
+      ],
+      "correct": 0,
+      "explanation": "La dipendenza quadratica dà 3² = 9."
+    },
+    {
+      "id": "intro-285",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quattro libri uguali costano 52 €. Quanto costano sette libri dello stesso tipo?",
+      "options": [
+        "78 €",
+        "91 €",
+        "104 €",
+        "364 €"
+      ],
+      "correct": 1,
+      "explanation": "Un libro costa 13 €; sette costano 91 €."
+    },
+    {
+      "id": "intro-286",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un tragitto è lungo 180 km. Quanto dura a velocità media costante di 90 km/h?",
+      "options": [
+        "1 h",
+        "2 h",
+        "3 h",
+        "4 h"
+      ],
+      "correct": 1,
+      "explanation": "Il tempo è distanza/velocità: 180/90 = 2 h."
+    },
+    {
+      "id": "intro-287",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Una quantità y è direttamente proporzionale a x. Se per x=3 si ha y=21, quanto vale y per x=5?",
+      "options": [
+        "25",
+        "30",
+        "35",
+        "40"
+      ],
+      "correct": 2,
+      "explanation": "La costante è 21/3=7, quindi y=7·5=35."
+    },
+    {
+      "id": "intro-288",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "In una relazione y=kx², se x si dimezza, che cosa accade a y?",
+      "options": [
+        "Si dimezza",
+        "Raddoppia",
+        "Si riduce a un ottavo",
+        "Si riduce a un quarto"
+      ],
+      "correct": 3,
+      "explanation": "(x/2)² = x²/4."
+    },
+    {
+      "id": "intro-289",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale insieme di dati non è direttamente proporzionale?",
+      "options": [
+        "x: 1,2,3; y: 3,6,10",
+        "x: 1,2,3; y: 3,6,9",
+        "x: 1,2,3; y: 4,8,12",
+        "x: 1,2,3; y: 5,10,15"
+      ],
+      "correct": 0,
+      "explanation": "Nel primo gruppo y/x cambia: 3, 3, circa 3,33."
+    },
+    {
+      "id": "intro-290",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un oggetto percorre 40 m in 5 s a velocità costante. Quanto percorre in 8 s?",
+      "options": [
+        "56 m",
+        "64 m",
+        "72 m",
+        "80 m"
+      ],
+      "correct": 1,
+      "explanation": "La velocità è 40/5 = 8 m/s; in 8 s percorre 64 m."
+    },
+    {
+      "id": "intro-291",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una grandezza y è direttamente proporzionale a x e si ha y=18 per x=3. Quale valore di x corrisponde a y=42?",
+      "options": [
+        "6",
+        "8",
+        "7",
+        "9"
+      ],
+      "correct": 2,
+      "explanation": "La costante è 18/3=6; x=42/6=7."
+    },
+    {
+      "id": "intro-292",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "A velocità costante un treno impiega 3 h per coprire 240 km. Quanto tempo serve per 400 km alla stessa velocità?",
+      "options": [
+        "4 h",
+        "6 h",
+        "8 h",
+        "5 h"
+      ],
+      "correct": 3,
+      "explanation": "La velocità è 80 km/h; 400/80=5 h."
+    },
+    {
+      "id": "intro-293",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una grandezza y è inversamente proporzionale a x. Se y=15 per x=4, quale x dà y=12?",
+      "options": [
+        "5",
+        "3",
+        "6",
+        "8"
+      ],
+      "correct": 0,
+      "explanation": "xy=60; per y=12, x=60/12=5."
+    },
+    {
+      "id": "intro-294",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Per una relazione y=kx², con y=12 quando x=2, quanto vale y per x=5?",
+      "options": [
+        "48",
+        "75",
+        "60",
+        "30"
+      ],
+      "correct": 1,
+      "explanation": "La costante è 12/4=3; y=3·25=75."
+    },
+    {
+      "id": "intro-295",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una relazione diretta associa a x=2 il valore y=8. Un'altra quadratica associa agli stessi valori x=2, y=8. Per x=4 quali risultati si ottengono rispettivamente?",
+      "options": [
+        "(32;16)",
+        "(16;16)",
+        "(16;32)",
+        "(32;32)"
+      ],
+      "correct": 2,
+      "explanation": "Diretta: k=4, quindi 16; quadratica: k=2, quindi 32."
+    },
+    {
+      "id": "intro-296",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un'area quadrata è A=36 cm². Se il lato aumenta di un fattore 1,5, qual è la nuova area?",
+      "options": [
+        "48 cm²",
+        "54 cm²",
+        "72 cm²",
+        "81 cm²"
+      ],
+      "correct": 3,
+      "explanation": "L'area varia di 1,5²=2,25; 36·2,25=81 cm²."
+    },
+    {
+      "id": "intro-297",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Per una stessa distanza, un viaggio dura 6 h a 50 km/h. Quanto dura a 75 km/h?",
+      "options": [
+        "4 h",
+        "5 h",
+        "7 h",
+        "9 h"
+      ],
+      "correct": 0,
+      "explanation": "La distanza è 300 km; il nuovo tempo è 300/75 = 4 h."
+    },
+    {
+      "id": "intro-298",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una grandezza y=k/x passa per (x=3,y=8). Quale coppia appartiene alla stessa relazione?",
+      "options": [
+        "(x=4,y=8)",
+        "(x=6,y=4)",
+        "(x=8,y=6)",
+        "(x=12,y=4)"
+      ],
+      "correct": 1,
+      "explanation": "Il prodotto xy=24; con x=6, y=4."
+    },
+    {
+      "id": "intro-299",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una grandezza y è direttamente proporzionale a x, un'altra è quadratica. Se entrambe valgono 5 per x=1, quali valori assumono per x=3?",
+      "options": [
+        "(15;15)",
+        "(45;15)",
+        "(15;45)",
+        "(45;45)"
+      ],
+      "correct": 2,
+      "explanation": "Diretta: 5·3=15; quadratica: 5·3²=45."
+    },
+    {
+      "id": "intro-300",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una grandezza y aumenta di un fattore 16 quando x quadruplica, con coefficiente k costante e positivo. Quale modello è coerente?",
+      "options": [
+        "Proporzionalità inversa",
+        "Proporzionalità diretta",
+        "Valore costante",
+        "Proporzionalità quadratica"
+      ],
+      "correct": 3,
+      "explanation": "In y=kx², quadruplicare x moltiplica y per 4²=16."
+    }
+  ]
+}
