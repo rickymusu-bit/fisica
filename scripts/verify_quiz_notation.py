@@ -19,9 +19,10 @@ def main():
     html = (ROOT / '_site/quiz.html').read_text()
     match = re.search(r'(<script type="application/json" id="quiz-data">)(.*?)(</script>)', html, re.S)
     original = json.loads(match.group(2))
-    example = next(q for q in original['questions'] if q['id'] == 'termo-285')
+    questions = json.loads((ROOT / 'quiz/domande/termologia.json').read_text())['questions']
+    example = next(q for q in questions if q['id'] == 'termo-285')
     fixture = {**original, 'questions': [example]}
-    all_subscripts = sorted({token for q in original['questions']
+    all_subscripts = sorted({token for q in questions
                              for text in [q['prompt'], q['explanation']] + q['options']
                              for token in re.findall(r'((?:Δ)?[A-Za-zΑ-Ωα-ω]_[A-Za-zΑ-Ωα-ω0-9°]+)', text)})
     probe = {
