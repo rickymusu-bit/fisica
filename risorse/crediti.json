@@ -4247,7 +4247,8 @@
         "asset-2db21a655ef53ced0a953923e1673ebc98e8e41a8de8f3ca1887075632c51104",
         "asset-364fb31da857eacf3c750d55c42d4669f80ef09e9a76a05c0557321ce38dd915",
         "asset-d106815f13a01dda2ea91da399af20b9350cbe0b0a797edd44d46f3b8ebc9d11",
-        "asset-4ee3b4c20b79b7ade42fd379d6d1ed8e10dda566d37422111ee1559bb4e1c3ae"
+        "asset-4ee3b4c20b79b7ade42fd379d6d1ed8e10dda566d37422111ee1559bb4e1c3ae",
+        "asset-f67e5474e687204a46dfe2c0c72babc7fc850d1c4cb76fab8f78902f80874b7e"
       ]
     },
     {
@@ -8824,21 +8825,6 @@
       ]
     },
     {
-      "id": "asset-b1ed2fbf7f073faff5a64661faca67c73a99a4f16d9fc3439df2dc80bdbe5c96",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "relazioni_proporzionalita_it.html",
-          "kind": "svg",
-          "description": "Coppie rappresentate: .",
-          "locator": "chart-quadratic",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": "visuali-proporzioni-parametro"
-        }
-      ]
-    },
-    {
       "id": "asset-b401cdb07eea77f39808105f6b74232a347c0fe5d98a6fd520af2b92ddff01e5",
       "kind": "image/webp",
       "uses": [
@@ -10425,6 +10411,21 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-1552a88b686ede5c"
+        }
+      ]
+    },
+    {
+      "id": "asset-f67e5474e687204a46dfe2c0c72babc7fc850d1c4cb76fab8f78902f80874b7e",
+      "kind": "svg",
+      "uses": [
+        {
+          "document": "relazioni_proporzionalita_it.html",
+          "kind": "svg",
+          "description": "Coppie rappresentate: (0; 0), (1; 1), (2; 4), (3; 9), (4; 16).",
+          "locator": "chart-quadratic",
+          "attribute": "inline",
+          "location": null,
+          "credit_id": "visuali-proporzioni-parametro"
         }
       ]
     },
