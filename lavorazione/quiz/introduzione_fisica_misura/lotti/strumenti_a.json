@@ -1,0 +1,228 @@
+{
+  "questions": [
+    {
+      "id": "intro-172",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Che cosa indica la portata di uno strumento?",
+      "options": [
+        "Il valore massimo misurabile",
+        "Il numero di prove ripetute",
+        "La sua massa",
+        "Il tempo di lettura"
+      ],
+      "correct": 0,
+      "explanation": "La portata è il limite superiore dell'intervallo di misura."
+    },
+    {
+      "id": "intro-173",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Un termometro mostra numeri su uno schermo. La sua lettura è:",
+      "options": [
+        "Analogica a lancetta",
+        "Digitale",
+        "Priva di unità",
+        "Continuamente graduata"
+      ],
+      "correct": 1,
+      "explanation": "Un display numerico fornisce una lettura digitale."
+    },
+    {
+      "id": "intro-174",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale caratteristica indica il minimo cambiamento distinguibile?",
+      "options": [
+        "Portata",
+        "Prontezza",
+        "Risoluzione",
+        "Massa"
+      ],
+      "correct": 2,
+      "explanation": "La risoluzione definisce il più piccolo passo distinguibile."
+    },
+    {
+      "id": "intro-175",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "A cosa serve una scala graduata analogica?",
+      "options": [
+        "A correggere qualunque errore",
+        "A salvare la memoria delle letture",
+        "A misurare solo tempi",
+        "A convertire la posizione dell'indicatore in un valore"
+      ],
+      "correct": 3,
+      "explanation": "La posizione della lancetta si legge sulla scala."
+    },
+    {
+      "id": "intro-176",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Una bilancia misura fino a 5 kg. Qual è la portata?",
+      "options": [
+        "5 kg",
+        "2,5 kg",
+        "0,5 kg",
+        "10 kg"
+      ],
+      "correct": 0,
+      "explanation": "La portata coincide col massimo valore misurabile."
+    },
+    {
+      "id": "intro-177",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "La prontezza di uno strumento riguarda:",
+      "options": [
+        "Il colore della scala",
+        "La rapidità di risposta alle variazioni",
+        "L'unità scelta",
+        "La massa del sensore"
+      ],
+      "correct": 1,
+      "explanation": "La prontezza esprime quanto velocemente lo strumento segue il fenomeno."
+    },
+    {
+      "id": "intro-178",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Una bilancia digitale cambia lettura a passi di 0,1 g. Qual è la risoluzione?",
+      "options": [
+        "1 g",
+        "10 g",
+        "0,1 g",
+        "0,01 g"
+      ],
+      "correct": 2,
+      "explanation": "Il passo minimo indicato è 0,1 g."
+    },
+    {
+      "id": "intro-179",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Se si supera la portata, la lettura:",
+      "options": [
+        "Diventa sempre più accurata",
+        "Acquista una cifra significativa",
+        "Si converte in altra unità",
+        "Potrebbe non essere valida"
+      ],
+      "correct": 3,
+      "explanation": "Fuori campo non è garantita una misura attendibile."
+    },
+    {
+      "id": "intro-180",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Con una lancetta posta tra due tacche è ragionevole:",
+      "options": [
+        "Stimare la lettura secondo la graduazione",
+        "Inventare un numero esatto",
+        "Ignorare la scala",
+        "Cambiare grandezza fisica"
+      ],
+      "correct": 0,
+      "explanation": "Uno strumento analogico può richiedere una stima tra tacche."
+    },
+    {
+      "id": "intro-181",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "A cosa serve la taratura?",
+      "options": [
+        "A rendere più grande l'oggetto",
+        "A confrontare lo strumento con riferimenti noti",
+        "A eliminare tutti i decimali",
+        "A velocizzare sempre il sensore"
+      ],
+      "correct": 1,
+      "explanation": "La taratura verifica la relazione fra indicazione e riferimento."
+    },
+    {
+      "id": "intro-182",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un voltmetro ha portata 20 V e risoluzione 0,01 V. Quale affermazione è corretta?",
+      "options": [
+        "20 V è il minimo passo",
+        "0,01 V è il massimo misurabile",
+        "La portata è 20 V e il passo è 0,01 V",
+        "Entrambi sono tempi di risposta"
+      ],
+      "correct": 2,
+      "explanation": "Portata e risoluzione indicano caratteristiche distinte."
+    },
+    {
+      "id": "intro-183",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un sensore segue lentamente una variazione rapida. Quale caratteristica è limitante?",
+      "options": [
+        "Portata",
+        "Unità del SI",
+        "Colore della sonda",
+        "Prontezza"
+      ],
+      "correct": 3,
+      "explanation": "La risposta lenta può non seguire il fenomeno."
+    },
+    {
+      "id": "intro-184",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Si misura una massa di 4 kg. Quale bilancia ha portata idonea?",
+      "options": [
+        "5 kg",
+        "2 kg",
+        "500 g",
+        "0,5 kg"
+      ],
+      "correct": 0,
+      "explanation": "La portata deve includere 4 kg."
+    },
+    {
+      "id": "intro-185",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Due bilance hanno la stessa portata e passi di 1 g e 0,1 g. Che cosa sappiamo?",
+      "options": [
+        "La seconda è sicuramente più accurata",
+        "La seconda risolve variazioni più piccole",
+        "La prima è necessariamente difettosa",
+        "La prima risponde più in fretta"
+      ],
+      "correct": 1,
+      "explanation": "Il passo più piccolo migliora la risoluzione, non necessariamente l'accuratezza."
+    },
+    {
+      "id": "intro-186",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un termometro è accurato a temperatura costante ma impiega molto a stabilizzarsi. Quale distinzione è corretta?",
+      "options": [
+        "Alta prontezza e bassa portata",
+        "Alta risoluzione e alta prontezza",
+        "Buona accuratezza in equilibrio ma risposta lenta",
+        "Termometro non utilizzabile per definizione"
+      ],
+      "correct": 2,
+      "explanation": "Accuratezza e prontezza possono differire."
+    },
+    {
+      "id": "intro-187",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Una bilancia indica sempre 0,4 g in più del riferimento. Quale proprietà è direttamente compromessa?",
+      "options": [
+        "Portata",
+        "Prontezza",
+        "Dimensione dello schermo",
+        "Accuratezza"
+      ],
+      "correct": 3,
+      "explanation": "Uno scostamento sistematico compromette l'accuratezza."
+    }
+  ]
+}
