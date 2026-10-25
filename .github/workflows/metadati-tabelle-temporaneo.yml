@@ -60,3 +60,42 @@ jobs:
                       texts=[' '.join(html.unescape(re.sub(r'<[^>]*>',' ',item)).split())[:145] for item in cells]
                       print('  ',r,texts)
           PY
+
+      - name: Confronta integralmente i contenuti con main
+        run: |
+          git fetch --depth=1 origin main
+          python3 - <<'PY'
+          import re, subprocess,json
+          from pathlib import Path
+          pub=json.loads(Path("pubblicazione.json").read_text())["articoli"]
+          affected=[
+          "metodo_scientifico_it.html","grandezze_fisiche_sistema_internazionale_it.html",
+          "potenze_dieci_notazione_scientifica_it.html","prefissi_sistema_internazionale_it.html",
+          "cifre_significative_it.html","strumenti_misura_it.html","errori_incertezza_misura_it.html",
+          "temperatura_equilibrio_termico_it.html","energia_interna_calore_specifico_it.html",
+          "dilatazione_termica_it.html","stati_della_materia.html","passaggi_di_stato.html",
+          "conduzione_it.html"]
+          assert len(pub)==19 and len(affected)==13
+          def normal(s):
+              s=re.sub(r'<style data-table-alignment="2026-10">[\s\S]*?</style>','',s)
+              s=re.sub(r'<meta\s+name="version"\s+content="v\d+">','',s)
+              s=re.sub(r'Versione\s+v\d+\b','Versione <numero versione>',s)
+              s=re.sub(r' data-align-prose="(?:reason|after-first|row-labels)"','',s)
+              s=re.sub(r' data-align-kind="latent"','',s)
+              s=s.replace(' style="text-align: right;"','')
+              return s
+          for path in pub:
+              before=subprocess.check_output(["git","show","origin/main:"+path]).decode("utf-8")
+              after=Path(path).read_text(encoding="utf-8")
+              if path not in affected:
+                  assert before==after,"Capitolo senza correzioni toccato: "+path
+              else:
+                  if normal(before)!=normal(after):
+                      i=next((i for i,(x,y) in enumerate(zip(normal(before),normal(after))) if x!=y),min(len(normal(before)),len(normal(after))))
+                      raise AssertionError("Contenuto inatteso in "+path+" alla posizione "+str(i)+
+                                           " "+repr(normal(before)[i-100:i+100])+" | "+repr(normal(after)[i-100:i+100]))
+                  assert 'data-table-alignment="2026-10"' in after
+                  print("UNCHANGED CONTENT:",path)
+          print("CHECK PASSED: 13 capitoli solo CSS/metadati; 6 capitoli non modificati")
+          
+          PY
