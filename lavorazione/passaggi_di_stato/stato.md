@@ -8,7 +8,7 @@ Eliminata l’impilatura mobile delle tabelle e le intestazioni ripetute; strutt
 
 Verifiche: `credits.py --check`, `sync_stringhe_theme.py --check`, build Pages locale e 26 test superati. Browser Chromium a 320/390/1280 px, chiaro/scuro, offline, JavaScript attivo/disattivato: struttura tabellare e scorrimento corretti, nessun overflow di pagina o errore JavaScript. Risorse incorporate identiche all’originale. Rapporto e schermate in [anteprima/](anteprima/); anteprima interattiva nel file HTML corrente sul ramo. Dimensione HTML: circa 16,27 MB.
 
-**Stato:** correzioni completate e verificate, PR in bozza. Nessun merge né avvio di GitHub Pages; resta richiesta l’approvazione esplicita dell’anteprima corrente prima della pubblicazione, secondo AGENTS §1 e master B5.
+**Stato:** anteprima v27 approvata esplicitamente dall’utente con «Okay, approvo.» nella conversazione corrente. Autorizzati merge della [PR #94](https://github.com/rickymusu-bit/fisica/pull/94) e pubblicazione GitHub Pages dei contenuti approvati al commit `5947be68321a63baa42069531e2659605c2c6af7`. Verifiche CI di quel commit superate: [Actions 40179942479](https://github.com/rickymusu-bit/fisica/actions/runs/40179942479). HTML e anteprima restano identici alla versione approvata. Prossimo passaggio: merge, controllo del deployment Pages e verifica HTTPS della pagina pubblica.
 
 ## Revisione delle tabelle — 25 ottobre 2026
 
