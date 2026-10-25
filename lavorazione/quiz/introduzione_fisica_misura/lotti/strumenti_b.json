@@ -1,0 +1,228 @@
+{
+  "questions": [
+    {
+      "id": "intro-188",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale bilancia legge variazioni al centesimo di grammo?",
+      "options": [
+        "Una con passo 0,01 g",
+        "Una con passo 1 kg",
+        "Un termometro da 0,01 °C",
+        "Un cronometro da 0,01 s"
+      ],
+      "correct": 0,
+      "explanation": "Il passo richiesto per la massa è 0,01 g."
+    },
+    {
+      "id": "intro-189",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un campione noto da 50,0 g viene letto come 50,2 g. Qual è lo scostamento?",
+      "options": [
+        "+2 g",
+        "+0,2 g",
+        "−0,2 g",
+        "+20 g"
+      ],
+      "correct": 1,
+      "explanation": "La lettura meno il riferimento è 50,2 − 50,0 = +0,2 g."
+    },
+    {
+      "id": "intro-190",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Una scala analogica ha tacche distanziate di 0,5 g. Quale differenza di valore separa due tacche consecutive?",
+      "options": [
+        "0,05 g",
+        "5 g",
+        "0,5 g",
+        "50 g"
+      ],
+      "correct": 2,
+      "explanation": "L'intervallo tra due tacche è 0,5 g."
+    },
+    {
+      "id": "intro-191",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Si confrontano strumenti: uno ha portata maggiore, l'altro risoluzione migliore. Quale scelta è corretta?",
+      "options": [
+        "Il primo è sempre preferibile",
+        "Il secondo è sempre preferibile",
+        "Sono necessariamente equivalenti",
+        "Dipende dall'intervallo e dalla variazione da misurare"
+      ],
+      "correct": 3,
+      "explanation": "La scelta dipende sia dal campo sia dal dettaglio richiesto."
+    },
+    {
+      "id": "intro-192",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Cinque letture di massa sono tutte 20,0 g ma il riferimento è 20,8 g. Che cosa mostrano?",
+      "options": [
+        "Buona ripetibilità ma scarsa vicinanza al riferimento",
+        "Accuratezza perfetta",
+        "Portata di 20,0 g",
+        "Incertezza complessiva nulla"
+      ],
+      "correct": 0,
+      "explanation": "Le letture coincidono fra loro, ma sono spostate dal riferimento."
+    },
+    {
+      "id": "intro-193",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Le variazioni di temperatura durano 0,2 s, il sensore impiega 4 s a rispondere. Qual è il limite più importante?",
+      "options": [
+        "La portata è certamente zero",
+        "La prontezza non basta a seguire le variazioni",
+        "I kelvin non sono unità SI",
+        "La risoluzione è di 4 °C"
+      ],
+      "correct": 1,
+      "explanation": "Il tempo di risposta supera la durata delle variazioni."
+    },
+    {
+      "id": "intro-194",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Due strumenti hanno passi di 0,01 mm e 0,1 mm, ma il primo è mal tarato. Quale conclusione è corretta?",
+      "options": [
+        "Il primo è sicuramente più accurato",
+        "Il secondo è sempre più preciso",
+        "Il primo ha risoluzione migliore ma può essere meno accurato",
+        "Hanno risoluzione identica"
+      ],
+      "correct": 2,
+      "explanation": "Risoluzione e accuratezza sono proprietà distinte."
+    },
+    {
+      "id": "intro-195",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un termometro lavora da −10 °C a 50 °C con passo 0,5 °C. Quale valore è fuori portata?",
+      "options": [
+        "−5 °C",
+        "0 °C",
+        "49,5 °C",
+        "51 °C"
+      ],
+      "correct": 3,
+      "explanation": "51 °C supera il limite dichiarato."
+    },
+    {
+      "id": "intro-196",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un sensore legge sempre 12,00 unità quando il riferimento è 12,30. Quale azione è più utile?",
+      "options": [
+        "Verificare taratura e scostamento",
+        "Ripetere senza controlli all'infinito",
+        "Arrotondare tutto a interi",
+        "Cambiare il colore del display"
+      ],
+      "correct": 0,
+      "explanation": "Lo scostamento costante va confrontato con riferimenti e corretto, quando possibile."
+    },
+    {
+      "id": "intro-197",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Si vuole misurare 0,002 kg con una bilancia che ha passo 0,01 kg e portata 10 kg. Quale problema emerge?",
+      "options": [
+        "Il valore supera la portata",
+        "La massa è inferiore al passo minimo indicato",
+        "L'unità kg è vietata",
+        "La portata è troppo piccola"
+      ],
+      "correct": 1,
+      "explanation": "0,002 kg è più piccolo di 0,01 kg e non è distinguibile adeguatamente."
+    },
+    {
+      "id": "intro-198",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una bilancia da 0,1 g di risoluzione mostra lo stesso valore per masse diverse di 0,02 g. Qual è una spiegazione coerente?",
+      "options": [
+        "I numeri sono falsi",
+        "Le masse sono uguali per definizione",
+        "La differenza è minore della risoluzione",
+        "La bilancia ha portata nulla"
+      ],
+      "correct": 2,
+      "explanation": "0,02 g è minore del passo di 0,1 g."
+    },
+    {
+      "id": "intro-199",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "La bilancia A ha portata 100 g e passo 0,01 g; B ha portata 5 kg e passo 1 g. Per misurare 2 kg quale scegliere?",
+      "options": [
+        "A per il passo più fine",
+        "A perché usa grammi",
+        "Nessuna perché 2 kg è enorme",
+        "B perché A non comprende la massa da misurare"
+      ],
+      "correct": 3,
+      "explanation": "2 kg supera 100 g ma rientra nei 5 kg della seconda bilancia."
+    },
+    {
+      "id": "intro-200",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una scala copre 10 unità con 20 intervalli uguali. Quanto vale un intervallo?",
+      "options": [
+        "0,5 unità",
+        "2 unità",
+        "10 unità",
+        "20 unità"
+      ],
+      "correct": 0,
+      "explanation": "10/20 = 0,5 unità per intervallo."
+    },
+    {
+      "id": "intro-201",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un sensore misura fino a 200 kPa, risoluzione 0,5 kPa, ma risponde lentamente. Si studiano picchi brevi di 150 kPa. Che cosa può impedire la misura corretta?",
+      "options": [
+        "Portata insufficiente",
+        "Prontezza insufficiente",
+        "Unità non SI",
+        "Risoluzione maggiore della portata"
+      ],
+      "correct": 1,
+      "explanation": "La risposta lenta può non registrare correttamente picchi rapidi."
+    },
+    {
+      "id": "intro-202",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un campione noto di 500 g viene letto 503 g in tutte le prove. Qual è lo scostamento osservato?",
+      "options": [
+        "−3 g",
+        "+0,3 g",
+        "+3 g",
+        "+30 g"
+      ],
+      "correct": 2,
+      "explanation": "La differenza lettura meno riferimento è +3 g."
+    },
+    {
+      "id": "intro-203",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Uno strumento con portata 100 N e passo 0,2 N deve distinguere differenze di 0,05 N attorno a 40 N. Quale valutazione è corretta?",
+      "options": [
+        "Entrambe le caratteristiche sono insufficienti",
+        "Solo la portata è insufficiente",
+        "Entrambe sono adeguate",
+        "La portata è adeguata, la risoluzione no"
+      ],
+      "correct": 3,
+      "explanation": "40 N è nel campo, ma 0,05 N è inferiore al passo 0,2 N."
+    }
+  ]
+}
