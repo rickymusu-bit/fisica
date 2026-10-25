@@ -1,4 +1,4 @@
-# Quiz di Stringhe — specifiche v2.6.0
+# Quiz di Stringhe — specifiche v2.7.0
 
 **Stato della PR in bozza:** archivio integrato di 600 quesiti, 300 per categoria e 100 per livello. I 300 quesiti di Termologia sono già approvati; per Introduzione alla fisica e alla misura il campione di 9 è stato approvato e i restanti 291 sono stati generati, in attesa di revisione didattica. Il sito pubblico resta invariato fino al merge autorizzato.
 **Data:** 25 ottobre 2026 (Europe/Rome).
@@ -7,7 +7,7 @@
 
 - Una sessione riguarda **una sola categoria**: attualmente **Termologia** oppure **Introduzione alla fisica e alla misura**.
 - Scelta tramite pulsanti radio: selezionare una categoria deseleziona l’altra. Nessuna selezione di capitoli e nessuna combinazione di categorie nella stessa sessione.
-- Le categorie senza domande per la difficoltà selezionata appaiono disabilitate con «Non disponibile». Se il cambio di difficoltà rende indisponibile la categoria scelta, questa viene deselezionata e l’avvio resta disabilitato fino a una nuova scelta.
+- I conteggi del manifest permettono di conoscere la disponibilità senza scaricare le domande. Le categorie senza domande per la difficoltà selezionata appaiono disabilitate con «Non disponibile». Se il cambio di difficoltà rende indisponibile la categoria scelta, questa viene deselezionata e l’avvio resta disabilitato fino a una nuova scelta.
 - Il registro `quiz/categorie.json` associa ID stabili ai nomi delle categorie del catalogo corrente. La build rifiuta discrepanze, ID duplicati o categorie sconosciute. Una rinomina della categoria aggiorna la corrispondenza nel registro conservando l’ID; rinominare un capitolo non modifica i quesiti.
 - L'utente seleziona da **1 a 30 domande**, con **25** inizialmente proposte, tramite campo numerico modificabile e pulsanti **−** e **+** ai lati. I pulsanti variano la quantità di una unità, sono disabilitati agli estremi, e la durata massima si aggiorna immediatamente prima dell'avvio: 2 minuti per domanda (30 domande = 60 minuti).
 - **Quattro alternative per ogni domanda**, a tutti i livelli: facile, medio e difficile.
@@ -58,9 +58,9 @@ La scelta della categoria unica sostituisce la precedente proposta di tag multip
 
 Produzione: campione iniziale di 9 domande, revisione del docente e lotti indicativamente da 30 fino al raggiungimento del target con quesiti approvati. Il campione approvato può essere incluso nel totale senza duplicazioni. Restano il limite di 120 secondi, la varietà dei contenuti e il divieto di riempire la quota con domande ripetitive o artificiose. Il target riguarda l’archivio; le sessioni rimangono da 1 a 30 domande.
 
-## Archivio di domande
+## Archivio di domande per categoria
 
-La sorgente di questo ramo è **quiz/domande.json**, separata dall’interfaccia: conserva 300 quesiti approvati di Termologia e aggiunge 300 quesiti di Introduzione alla fisica e alla misura (9 campione approvato e 291 proposte da sottoporre a revisione didattica). Ogni categoria dispone di 100 quesiti per livello. I lotti e l'archivio separato sono in `lavorazione/quiz/introduzione_fisica_misura/`. Finché il file manca, la build genera una lista di domande vuota: tutte le categorie sono disabilitate e il quiz non è avviabile. L'archivio dimostrativo è stato cancellato dal repository. Ogni record contiene:
+Le sorgenti ufficiali sono **`quiz/domande/termologia.json`** e **`quiz/domande/introduzione_fisica_misura.json`**: 300 quesiti per categoria, 100 per difficoltà. Il file aggregato `quiz/domande.json` è stato ritirato. Le 300 domande di Termologia restano approvate; per Introduzione alla fisica e alla misura il campione di 9 è approvato e le altre 291 sono proposte da revisionare. I lotti e l'archivio di lavorazione sono in `lavorazione/quiz/introduzione_fisica_misura/`. Finché il file manca, la build genera una lista di domande vuota: tutte le categorie sono disabilitate e il quiz non è avviabile. L'archivio dimostrativo è stato cancellato dal repository. Ogni record contiene:
 
 `id`, `category` (un solo ID di `quiz/categorie.json`), `level` (`easy`, `medium`, `hard`), `prompt`, `options`, `correct` (indice da zero), `explanation`.
 
@@ -77,7 +77,7 @@ La build controlla che gli ID siano unici, che la categoria sia valida, che ogni
 - `quiz/interfaccia.css`: stile coerente con i token comuni di Stringhe.
 - `quiz/interfaccia.js`: sessione, estrazione, scadenze, punteggio, correzione.
 - `scripts/strings_site.py`: integrazione della pagina nel portale.
-- `scripts/build_pages.py`: copia degli asset nel sito costruito.
+- `scripts/build_pages.py`: copia degli asset e dei soli archivi di categoria presenti nel registro nel sito costruito.
 
 La build incorpora l’archivio corrente senza richieste di rete durante il quiz. Le modifiche future richiedono revisione didattica e il workflow di anteprima e pubblicazione previsto dal progetto.
 
