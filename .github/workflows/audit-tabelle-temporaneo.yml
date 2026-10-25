@@ -89,3 +89,5 @@ jobs:
           print(json.dumps(results,ensure_ascii=False))
           print('BROWSER_AUDIT_END')
           PY
+
+# Audit post-correzione: verifica stili calcolati e confronto con i risultati iniziali.
