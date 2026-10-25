@@ -1,0 +1,256 @@
+{
+  "questions": [
+    {
+      "id": "intro-268",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Se due grandezze sono direttamente proporzionali, raddoppiando x la grandezza y:",
+      "options": [
+        "Raddoppia",
+        "Si dimezza",
+        "Quadruplica",
+        "Resta costante"
+      ],
+      "correct": 0,
+      "explanation": "Il rapporto y/x resta costante."
+    },
+    {
+      "id": "intro-269",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Se x e y sono inversamente proporzionali e x raddoppia, y:",
+      "options": [
+        "Raddoppia",
+        "Si dimezza",
+        "Quadruplica",
+        "Resta costante"
+      ],
+      "correct": 1,
+      "explanation": "Il prodotto xy deve restare costante."
+    },
+    {
+      "id": "intro-270",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "L'area di un quadrato dipende dal quadrato del lato. Raddoppiando il lato, l'area:",
+      "options": [
+        "Raddoppia",
+        "Triplica",
+        "Quadruplica",
+        "Rimane uguale"
+      ],
+      "correct": 2,
+      "explanation": "(2L)² = 4L²."
+    },
+    {
+      "id": "intro-271",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale formula rappresenta una proporzionalità diretta?",
+      "options": [
+        "y = k/x",
+        "y = kx²",
+        "y = x + k",
+        "y = kx"
+      ],
+      "correct": 3,
+      "explanation": "Nella proporzionalità diretta y/x = k."
+    },
+    {
+      "id": "intro-272",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale formula rappresenta una proporzionalità inversa?",
+      "options": [
+        "y = k/x",
+        "y = kx",
+        "y = kx²",
+        "y = x + k"
+      ],
+      "correct": 0,
+      "explanation": "Il prodotto xy vale k."
+    },
+    {
+      "id": "intro-273",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale formula rappresenta una proporzionalità quadratica?",
+      "options": [
+        "y = k/x",
+        "y = kx²",
+        "y = kx",
+        "y = k + x"
+      ],
+      "correct": 1,
+      "explanation": "In una dipendenza quadratica y è proporzionale a x²."
+    },
+    {
+      "id": "intro-274",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Tre libri identici costano in tutto 45 €. Quanto costa un libro?",
+      "options": [
+        "10 €",
+        "12 €",
+        "15 €",
+        "20 €"
+      ],
+      "correct": 2,
+      "explanation": "45/3 = 15 €."
+    },
+    {
+      "id": "intro-275",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Un veicolo viaggia a velocità costante: percorre 60 km in 1 h. Quanti km percorre in 2 h?",
+      "options": [
+        "30 km",
+        "60 km",
+        "90 km",
+        "120 km"
+      ],
+      "correct": 3,
+      "explanation": "A velocità costante, distanza e tempo sono direttamente proporzionali."
+    },
+    {
+      "id": "intro-276",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Se y = 3x e x = 4, quanto vale y?",
+      "options": [
+        "12",
+        "7",
+        "1,33",
+        "3"
+      ],
+      "correct": 0,
+      "explanation": "3·4 = 12."
+    },
+    {
+      "id": "intro-277",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Su una distanza fissa, tempo di viaggio e velocità media sono:",
+      "options": [
+        "Direttamente proporzionali",
+        "Inversamente proporzionali",
+        "Quadraticamente proporzionali",
+        "Sempre indipendenti"
+      ],
+      "correct": 1,
+      "explanation": "Con distanza fissa, t = d/v."
+    },
+    {
+      "id": "intro-278",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Se y = kx² con k costante e positiva, passando da x=1 a x=3, y diventa:",
+      "options": [
+        "3 volte",
+        "6 volte",
+        "9 volte",
+        "12 volte"
+      ],
+      "correct": 2,
+      "explanation": "Il fattore è 3²/1² = 9."
+    },
+    {
+      "id": "intro-279",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Se y = 5x, quale coppia soddisfa l'equazione?",
+      "options": [
+        "(2;5)",
+        "(5;2)",
+        "(2;7)",
+        "(2;10)"
+      ],
+      "correct": 3,
+      "explanation": "Con x=2 si ha y=10."
+    },
+    {
+      "id": "intro-280",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale tabella mostra proporzionalità diretta?",
+      "options": [
+        "x 1,2,3; y 4,8,12",
+        "x 1,2,3; y 4,4,4",
+        "x 1,2,3; y 4,2,1",
+        "x 1,2,3; y 4,6,8"
+      ],
+      "correct": 0,
+      "explanation": "Il rapporto y/x vale 4 in tutti i casi."
+    },
+    {
+      "id": "intro-281",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale tabella mostra proporzionalità inversa?",
+      "options": [
+        "x 1,2,4; y 8,16,32",
+        "x 1,2,4; y 8,4,2",
+        "x 1,2,4; y 8,8,8",
+        "x 1,2,4; y 8,2,1"
+      ],
+      "correct": 1,
+      "explanation": "Il prodotto xy resta 8."
+    },
+    {
+      "id": "intro-282",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale tabella mostra y = kx²?",
+      "options": [
+        "x 1,2,3; y 2,4,6",
+        "x 1,2,3; y 2,4,9",
+        "x 1,2,3; y 2,8,18",
+        "x 1,2,3; y 2,6,12"
+      ],
+      "correct": 2,
+      "explanation": "Il rapporto y/x² è sempre 2."
+    },
+    {
+      "id": "intro-283",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Se y=12 quando x=2 e x e y sono inversamente proporzionali, quanto vale y quando x=6?",
+      "options": [
+        "36",
+        "24",
+        "6",
+        "4"
+      ],
+      "correct": 3,
+      "explanation": "xy=24; y=24/6=4."
+    },
+    {
+      "id": "intro-284",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Se il lato di un quadrato triplica, come cambia l'area?",
+      "options": [
+        "Diventa 9 volte maggiore",
+        "Diventa 3 volte maggiore",
+        "Diventa 6 volte maggiore",
+        "Resta costante"
+      ],
+      "correct": 0,
+      "explanation": "La dipendenza quadratica dà 3² = 9."
+    },
+    {
+      "id": "intro-285",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quattro libri uguali costano 52 €. Quanto costano sette libri dello stesso tipo?",
+      "options": [
+        "78 €",
+        "91 €",
+        "104 €",
+        "364 €"
+      ],
+      "correct": 1,
+      "explanation": "Un libro costa 13 €; sette costano 91 €."
+    }
+  ]
+}
