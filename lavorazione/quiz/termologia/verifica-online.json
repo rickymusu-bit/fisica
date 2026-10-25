@@ -1,0 +1,28 @@
+{
+  "url": "https://rickymusu-bit.github.io/fisica/quiz.html",
+  "http": 200,
+  "questions": 300,
+  "levels": {
+    "easy": 100,
+    "medium": 100,
+    "hard": 100
+  },
+  "category_ids": [
+    "termologia"
+  ],
+  "dataset_matches_source": true,
+  "assets": {
+    "interfaccia.js": {
+      "http": 200,
+      "sha256": "3d0bcf14a6c5ea80574904aeb66dc9588dda6fb2155d856cd61d952e94ffba7b"
+    },
+    "interfaccia.css": {
+      "http": 200,
+      "sha256": "6775f10ffc4029f88a7adee94c3bc99df537940e47e80a356cb232ff4c15aa56"
+    }
+  },
+  "verified_at_utc": "2026-10-25T06:44:34.909129+00:00",
+  "merge_commit": "136cb6e200c8133e61b00690a22894cfa1f25030",
+  "pages_run": "https://github.com/rickymusu-bit/fisica/actions/runs/40169937887",
+  "pages_conclusion": "success"
+}

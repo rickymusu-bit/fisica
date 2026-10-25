@@ -18,7 +18,7 @@
 
 ## Pubblicazione del quiz di Termologia — fase precedente
 
-Aggiornamento: 25 ottobre 2026 (Europe/Rome). Master corrente v69.16: lette le differenze rispetto a v69.15; riguardano visuali e capitoli e non modificano le specifiche del quiz. Prompt v1.4.1, specifiche quiz v2.4.0.
+Aggiornamento: 25 ottobre 2026 (Europe/Rome). Master corrente v69.18 e AGENTS v3: lette le modifiche intervenute su main; riguardano visuali, tabelle e manutenzione delle istruzioni e non modificano le specifiche del quiz. Prompt v1.4.1, specifiche quiz v2.4.0.
 
 **Autorizzazione corrente:** dopo aver ricevuto l’archivio completo, l’utente ha scritto «Va bene, pubblica», poi «Riprendi». Sono quindi approvate tutte le 300 domande di Termologia e autorizzata la loro pubblicazione nell’ambito corrente. L’approvazione precedente del primo lotto resta registrata; nessun record delle domande è stato modificato durante l’integrazione.
 
@@ -30,7 +30,7 @@ Ramo `feature/quiz-termologia-campione`, PR #81. Integrato sul ramo di lavoro ma
 
 **Anteprima corrente e documentazione:** [rapporto di integrazione](termologia/pubblicazione.md), HTML autonomo e immagini in `termologia/anteprima/`. Gli screenshot usano domande reali e sono stati controllati visivamente. I tempi rimangono stime progettuali, non osservazioni in classe.
 
-**Passaggio corrente:** salvataggio remoto, verifica CI del commit finale, quindi integrazione della PR e controllo del deployment Pages autorizzato dall’utente. Il rapporto di pubblicazione registra l’esito e il collegamento al workflow una volta disponibili. Le autorizzazioni non si estendono a revisioni future.
+**Pubblicazione conclusa:** CI 40169622838 superata; PR #81 integrata con commit `136cb6e200c8133e61b00690a22894cfa1f25030`; workflow Pages 40169937887 concluso con successo. Verifica HTTPS del quiz pubblico: 300 record identici alla sorgente approvata, 100 per livello, e JavaScript/CSS pubblici corrispondenti. Esiti e link in [pubblicazione.md](termologia/pubblicazione.md) e [verifica-online.json](termologia/verifica-online.json). Nessun passaggio di pubblicazione rimasto aperto. Il solo rapporto finale è salvato sul ramo `docs/quiz-termologia-pubblicato` con PR in bozza: il controllo automatico ha rifiutato il push diretto su main perché richiede il workflow PR. Le autorizzazioni non si estendono a revisioni future.
 
 Ultimo aggiornamento: 2026-10-16 14:15 (Europe/Rome). Master consultato: v44.
 
