@@ -1,0 +1,466 @@
+{
+  "questions": [
+    {
+      "id": "intro-042",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale unità di base del SI misura la lunghezza?",
+      "options": [
+        "Metro",
+        "Secondo",
+        "Chilogrammo",
+        "Kelvin"
+      ],
+      "correct": 0,
+      "explanation": "La lunghezza è una grandezza di base del SI e si misura in metri (m)."
+    },
+    {
+      "id": "intro-043",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale unità SI misura il tempo?",
+      "options": [
+        "Metro",
+        "Secondo",
+        "Ampere",
+        "Mole"
+      ],
+      "correct": 1,
+      "explanation": "Il secondo, simbolo s, è l'unità di base del tempo."
+    },
+    {
+      "id": "intro-044",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Qual è l'unità di base SI della massa?",
+      "options": [
+        "Newton",
+        "Grammo",
+        "Chilogrammo",
+        "Joule"
+      ],
+      "correct": 2,
+      "explanation": "L'unità di base della massa è il chilogrammo, simbolo kg."
+    },
+    {
+      "id": "intro-045",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale tra queste è una grandezza fisica?",
+      "options": [
+        "La bellezza di una stanza",
+        "La comodità di una sedia",
+        "La simpatia di una persona",
+        "La temperatura di una stanza"
+      ],
+      "correct": 3,
+      "explanation": "La temperatura è una proprietà misurabile con un'unità riconosciuta."
+    },
+    {
+      "id": "intro-046",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale simbolo indica l'unità di corrente elettrica nel SI?",
+      "options": [
+        "A",
+        "K",
+        "mol",
+        "cd"
+      ],
+      "correct": 0,
+      "explanation": "L'ampere, simbolo A, è l'unità della corrente elettrica."
+    },
+    {
+      "id": "intro-047",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale grandezza di base è misurata in kelvin?",
+      "options": [
+        "La massa",
+        "La temperatura termodinamica",
+        "L'intensità luminosa",
+        "La quantità di sostanza"
+      ],
+      "correct": 1,
+      "explanation": "Il kelvin (K) è l'unità di base per la temperatura termodinamica."
+    },
+    {
+      "id": "intro-048",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Qual è l'unità SI dell'area?",
+      "options": [
+        "m",
+        "m³",
+        "m²",
+        "m/s"
+      ],
+      "correct": 2,
+      "explanation": "L'area ha dimensioni di lunghezza al quadrato e si misura in m²."
+    },
+    {
+      "id": "intro-049",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale coppia contiene valore numerico e unità della stessa misura?",
+      "options": [
+        "7 e lungo",
+        "7 e grande",
+        "7 e pesante",
+        "7 e m"
+      ],
+      "correct": 3,
+      "explanation": "Una misura fisica comprende un valore numerico e un'unità, per esempio 7 m."
+    },
+    {
+      "id": "intro-050",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Nel SI, l'intensità luminosa si misura in:",
+      "options": [
+        "Candela",
+        "Kelvin",
+        "Mole",
+        "Ampere"
+      ],
+      "correct": 0,
+      "explanation": "La candela, cd, è l'unità di base dell'intensità luminosa."
+    },
+    {
+      "id": "intro-051",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale unità di base riguarda la quantità di sostanza?",
+      "options": [
+        "Chilogrammo",
+        "Mole",
+        "Secondo",
+        "Metro"
+      ],
+      "correct": 1,
+      "explanation": "La mole (mol) è l'unità di base della quantità di sostanza."
+    },
+    {
+      "id": "intro-052",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Perché si usano unità di misura condivise?",
+      "options": [
+        "Per eliminare ogni incertezza",
+        "Per evitare tutti i calcoli",
+        "Per rendere comunicabili e confrontabili le misure",
+        "Per misurare solo oggetti molto grandi"
+      ],
+      "correct": 2,
+      "explanation": "Le unità standard permettono di confrontare misure svolte in luoghi diversi."
+    },
+    {
+      "id": "intro-053",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale tra queste è un'unità derivata del SI?",
+      "options": [
+        "Secondo",
+        "Kelvin",
+        "Ampere",
+        "Metro quadrato"
+      ],
+      "correct": 3,
+      "explanation": "Il metro quadrato (m²) deriva dal metro, unità di base."
+    },
+    {
+      "id": "intro-054",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Una stanza ha lunghezza L = 4 m e larghezza W = 3 m. Quale unità deve avere il prodotto L·W?",
+      "options": [
+        "m²",
+        "m",
+        "m³",
+        "m/s"
+      ],
+      "correct": 0,
+      "explanation": "Il prodotto di due lunghezze ha dimensioni di area, m·m = m²."
+    },
+    {
+      "id": "intro-055",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale grandezza ha unità m/s?",
+      "options": [
+        "Area",
+        "Velocità",
+        "Volume",
+        "Tempo"
+      ],
+      "correct": 1,
+      "explanation": "La velocità è una distanza divisa per un intervallo di tempo."
+    },
+    {
+      "id": "intro-056",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un liquido occupa un volume V = 2 m³. Qual è l'unità SI della grandezza indicata?",
+      "options": [
+        "m²",
+        "m/s",
+        "m³",
+        "kg"
+      ],
+      "correct": 2,
+      "explanation": "Il volume deriva dal prodotto di tre lunghezze."
+    },
+    {
+      "id": "intro-057",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Una massa è m = 2 kg e il volume è V = 1 m³. Quale unità si ottiene dal rapporto m/V?",
+      "options": [
+        "kg·m³",
+        "m³/kg",
+        "kg·m",
+        "kg/m³"
+      ],
+      "correct": 3,
+      "explanation": "La massa volumica è il rapporto fra massa e volume."
+    },
+    {
+      "id": "intro-058",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale classificazione distingue correttamente unità di base e derivate?",
+      "options": [
+        "Metro di base, metro quadrato derivata",
+        "Metro derivata, secondo di base",
+        "Kilogrammo derivata, newton di base",
+        "Kelvin derivata, mole di base"
+      ],
+      "correct": 0,
+      "explanation": "Il metro è unità di base, mentre il metro quadrato si ottiene elevandolo al quadrato."
+    },
+    {
+      "id": "intro-059",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale unità è appropriata per l'accelerazione, ossia variazione di velocità nell'unità di tempo?",
+      "options": [
+        "m/s",
+        "m/s²",
+        "m²/s",
+        "s/m"
+      ],
+      "correct": 1,
+      "explanation": "Dividendo m/s per s si ottiene m/s²."
+    },
+    {
+      "id": "intro-060",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Una persona misura la temperatura in gradi Celsius e vuole comunicarla nel SI. Quale unità di base deve usare?",
+      "options": [
+        "Joule",
+        "Candela",
+        "Kelvin",
+        "Mole"
+      ],
+      "correct": 2,
+      "explanation": "Per la temperatura termodinamica l'unità base SI è il kelvin."
+    },
+    {
+      "id": "intro-061",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale grandezza di base compare nell'unità SI di velocità m/s?",
+      "options": [
+        "Solo la massa",
+        "Solo la corrente elettrica",
+        "Solo la temperatura",
+        "Lunghezza e tempo"
+      ],
+      "correct": 3,
+      "explanation": "Metri e secondi sono le unità di base da cui deriva m/s."
+    },
+    {
+      "id": "intro-062",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale rapporto produce un'unità di misura con dimensioni 1/s?",
+      "options": [
+        "Numero di eventi diviso intervallo di tempo",
+        "Lunghezza divisa area",
+        "Massa moltiplicata tempo",
+        "Volume diviso lunghezza"
+      ],
+      "correct": 0,
+      "explanation": "Una frequenza si esprime come conteggio di eventi per secondo."
+    },
+    {
+      "id": "intro-063",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un laboratorio indica la superficie di un oggetto come 5 kg. Qual è l'errore?",
+      "options": [
+        "Il numero deve essere sempre decimale",
+        "Il chilogrammo è unità di massa, non di superficie",
+        "L'unità va sempre scritta prima del numero",
+        "Le superfici sono grandezze senza unità"
+      ],
+      "correct": 1,
+      "explanation": "La superficie è un'area e richiede unità al quadrato, come m²."
+    },
+    {
+      "id": "intro-064",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "La forza ha unità kg·m/s². Quale affermazione è corretta?",
+      "options": [
+        "È una delle sette unità di base",
+        "Dipende soltanto dalla massa",
+        "È derivata da massa, lunghezza e tempo",
+        "Si può esprimere solo in metri"
+      ],
+      "correct": 2,
+      "explanation": "Il newton è unità derivata ottenuta da kg, m e s."
+    },
+    {
+      "id": "intro-065",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una grandezza X è definita come volume diviso area. Qual è la sua unità SI semplificata?",
+      "options": [
+        "m⁵",
+        "1/m",
+        "m²",
+        "m"
+      ],
+      "correct": 3,
+      "explanation": "m³/m² = m; il rapporto ha le dimensioni di una lunghezza."
+    },
+    {
+      "id": "intro-066",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "L'energia ha unità kg·m²/s². Quale combinazione di grandezze di base compare?",
+      "options": [
+        "Massa, lunghezza e tempo",
+        "Massa e corrente elettrica",
+        "Temperatura e intensità luminosa",
+        "Tempo e quantità di sostanza"
+      ],
+      "correct": 0,
+      "explanation": "L'unità dell'energia si esprime con kilogrammo, metro e secondo."
+    },
+    {
+      "id": "intro-067",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un indice è definito come rapporto tra due lunghezze espresse entrambe in metri. Qual è la sua unità SI?",
+      "options": [
+        "Metro quadrato",
+        "Nessuna: è adimensionale",
+        "Metro al secondo",
+        "Metro cubo"
+      ],
+      "correct": 1,
+      "explanation": "Il rapporto m/m elimina l'unità."
+    },
+    {
+      "id": "intro-068",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Si divide una superficie A espressa in m² per un tempo t espresso in s. Quale unità ha A/t?",
+      "options": [
+        "m·s",
+        "m/s²",
+        "m²/s",
+        "s/m²"
+      ],
+      "correct": 2,
+      "explanation": "Il rapporto conserva m² al numeratore e s al denominatore."
+    },
+    {
+      "id": "intro-069",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Il prodotto tra massa volumica ρ, in kg/m³, e volume V, in m³, ha unità:",
+      "options": [
+        "m³/kg",
+        "kg/m⁶",
+        "kg·m³",
+        "kg"
+      ],
+      "correct": 3,
+      "explanation": "(kg/m³)·m³ = kg, unità di massa."
+    },
+    {
+      "id": "intro-070",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una frequenza f è misurata in s⁻¹. Qual è l'unità del suo inverso 1/f?",
+      "options": [
+        "s",
+        "s⁻²",
+        "m/s",
+        "1/s"
+      ],
+      "correct": 0,
+      "explanation": "Invertire un valore con unità 1/s produce secondi, unità di tempo."
+    },
+    {
+      "id": "intro-071",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "La pressione è una forza divisa per un'area. Se la forza ha unità kg·m/s², quale unità si ottiene?",
+      "options": [
+        "kg·m³/s²",
+        "kg/(m·s²)",
+        "kg·m/s",
+        "m²/(kg·s)"
+      ],
+      "correct": 1,
+      "explanation": "(kg·m/s²)/m² = kg/(m·s²)."
+    },
+    {
+      "id": "intro-072",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una grandezza si calcola come velocità per tempo. Se la velocità ha unità m/s, il risultato ha unità:",
+      "options": [
+        "m/s²",
+        "s/m",
+        "m",
+        "m²/s"
+      ],
+      "correct": 2,
+      "explanation": "(m/s)·s = m, cioè lunghezza."
+    },
+    {
+      "id": "intro-073",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una grandezza è massa per accelerazione, poi divisa per una lunghezza. Qual è l'unità finale?",
+      "options": [
+        "kg·m²/s²",
+        "kg·m/s",
+        "m/s²",
+        "kg/s²"
+      ],
+      "correct": 3,
+      "explanation": "(kg·m/s²)/m = kg/s²."
+    },
+    {
+      "id": "intro-074",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un laboratorio scrive una densità con unità kg/m². Quale controllo dimensionale dimostra che è inadatta alla massa per unità di volume?",
+      "options": [
+        "La massa per volume ha unità kg/m³, non kg/m²",
+        "Il kilogrammo non è un'unità SI",
+        "L'area si misura in kg",
+        "Tutte le densità sono adimensionali"
+      ],
+      "correct": 0,
+      "explanation": "Per una massa volumica si divide kg per m³."
+    }
+  ]
+}
