@@ -1,6 +1,6 @@
 # PROMPT MASTER — DISPENSE VISUALI DI FISICA PER IL BIENNIO DEGLI ISTITUTI TECNICI
 
-VERSIONE DEL PROMPT: v69.18 — 25/10/2026, ore 02:54 (Europe/Rome)
+VERSIONE DEL PROMPT: v69.20 — 25/10/2026, ore 08:33 (Europe/Rome)
 
 Questo master raccoglie le regole della dispensa e la procedura per realizzarla con il minor lavoro ripetuto possibile. Le istruzioni relative a immagini, video, traduzioni e simulazioni si applicano quando quei materiali fanno parte della richiesta. Non aggiungere contenuti o lavorazioni solo perché il master ne descrive la gestione.
 
@@ -59,6 +59,8 @@ Quando il contenuto richiede una procedura, affianca alla spiegazione una sequen
 
 Notazione obbligatoria, uniforme in testo, formule, esempi, tabelle, grafici e didascalie:
 
+- Nei quiz presenta ogni dato nell’ordine **nome della grandezza a parole → simbolo → valore con unità**: per esempio «il calore specifico dell’acqua è c = 4200 J/(kg · K)». Non omettere il simbolo anche quando la descrizione a parole è sufficiente a identificare la grandezza. Se intervengono più grandezze dello stesso tipo, distingui i simboli con pedici opportuni e brevi, definiti dal contesto: per esempio «i calori specifici di acqua e ghiaccio sono c_a = … e c_g = …». Evita pedici superflui quando la grandezza è unica. Mantieni la stessa notazione nel testo, nelle alternative e nella soluzione.
+- Visualizza sempre pedici e apici con notazione tipografica leggibile, in tutte le variabili e formule, anche nelle domande, alternative e soluzioni dei quiz. Non mostrare al lettore underscore o altre sintassi di codice al posto di pedici. Per la coerenza con i capitoli usa gli elementi HTML `sub` e `sup` con gli stili comuni; una codifica testuale nei dati va trasformata al momento della visualizzazione, senza alterare il significato o eseguire markup non attendibile.
 - Scrivi in forma decimale i numeri di grandezza moderata quando risultano leggibili, anche in tabelle, dati, sostituzioni, passaggi e risultati. Usa i prefissi del Sistema internazionale appropriati per mantenere numeri semplici e unità coerenti, per esempio 1500 J = 1,50 kJ. Riserva la notazione scientifica, nella forma a · 10ⁿ con 1 ≤ |a| < 10 per i valori non nulli, ai numeri molto grandi o molto piccoli o ai casi in cui chiarisce il calcolo; non imporla a ogni valore. Scegli tra forma decimale, esponenziale e prefissi in funzione del contesto e della progressione del capitolo. Nei capitoli dedicati alle potenze o alle conversioni, rendi espliciti i fattori come potenze di dieci e le operazioni sugli esponenti quando spiegano il metodo; conserva risultati decimali leggibili quando aiutano a interpretarli. In un'introduzione concreta non anticipare formalismi che saranno spiegati dopo; una tabella può affiancare scrittura decimale e potenza di dieci per collegarle. Esplicita le conversioni necessarie ed evita lunghe sequenze di cifre. Mantieni una precisione coerente con i dati e le approssimazioni.
 
 - Il punto centrato (· e le varianti • e ⋅) è riservato alla moltiplicazione matematica, anche nei prodotti di unità. Non usarlo mai come separatore in testi, titoli, sottotitoli, didascalie, legende, grafici, elenchi, comandi, metadati descrittivi, testi accessibili o piè di pagina, neppure fra versione e data. Per separare informazioni usa frasi, virgole, punti e virgola o trattini lunghi, secondo il contesto.

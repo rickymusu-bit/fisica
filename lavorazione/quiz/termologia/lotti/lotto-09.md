@@ -14,7 +14,7 @@ Categoria unica `termologia`. Calcolatrice di base consentita. Riferimenti e con
 
 **Dati, condizioni fornite e quesito:**
 
-A pressione atmosferica, un modello considera solo lo scambio radiativo fra ghiaccio a circa 0 °C e pareti uniformi a 300 K, trascurando conduzione e convezione. Usa T_ghiaccio ≈ 273 K, ε = 1, area esposta costante 0,10 m², σ = 5,67 · 10⁻⁸ W/(m² · K⁴) e L = 334 kJ/kg. Tutta l’energia netta assorbita fonde ghiaccio per 600 s. Quanta massa fonde?
+A pressione atmosferica, un modello considera solo lo scambio radiativo fra ghiaccio di temperatura T_g ≈ 0 °C, approssimata in kelvin con T_g ≈ 273 K, e pareti uniformi di temperatura T_p = 300 K. Si trascurano conduzione e convezione. L’emissività è ε = 1, l’area esposta costante è A = 0,10 m², la costante di Stefan-Boltzmann è σ = 5,67 · 10⁻⁸ W/(m² · K⁴) e il calore latente specifico di fusione è L = 334 kJ/kg. Tutta l’energia netta assorbita fonde ghiaccio nell’intervallo di tempo Δt = 600 s. Quanta massa m fonde?
 
 - **A.** Circa 260 g
 - **B.** Circa 8,6 g
@@ -98,7 +98,7 @@ Una superficie riflette molto bene la luce visibile. Da questo solo dato si può
 
 **Dati, condizioni fornite e quesito:**
 
-Due lastre identiche per materiale e spessore hanno la stessa ΔT fra le facce. Se una ha area doppia, conduce una potenza:
+Due lastre identiche per materiale e spessore hanno la stessa differenza di temperatura ΔT fra le facce. Le aree soddisfano A₂ = 2A₁. Rispetto alla prima, la seconda conduce una potenza:
 
 - **A.** Dimezzata.
 - **B.** Uguale.
@@ -119,7 +119,7 @@ Due lastre identiche per materiale e spessore hanno la stessa ΔT fra le facce. 
 
 **Dati, condizioni fornite e quesito:**
 
-Un pianeta riceve mediamente 400 W/m² di radiazione e ne riflette il 30%. Se il bilancio con lo spazio è stazionario, quanta potenza per area deve emettere?
+Un pianeta riceve una potenza radiante media per unità di area j_i = 400 W/m² e ne riflette una frazione r = 30%. Se il bilancio con lo spazio è stazionario, quale potenza per unità di area j_e deve emettere?
 
 - **A.** 120 W/m²
 - **B.** 400 W/m²
@@ -140,7 +140,7 @@ Un pianeta riceve mediamente 400 W/m² di radiazione e ne riflette il 30%. Se il
 
 **Dati, condizioni fornite e quesito:**
 
-Un campione riceve 400 J di radiazione: ne riflette il 25% e ne trasmette il 15%. Nello stesso intervallo emette 300 J. Con C = 20 J/K e nessun altro scambio o passaggio di stato, qual è ΔT?
+Un campione riceve energia radiante incidente E_i = 400 J: ne riflette una frazione r = 25% e ne trasmette una frazione τ = 15%. Nello stesso intervallo l’energia emessa è E_e = 300 J. La capacità termica è C = 20 J/K. Senza altri scambi o passaggi di stato, qual è la variazione di temperatura ΔT?
 
 - **A.** 5 K
 - **B.** −3 K
@@ -224,7 +224,7 @@ Si fornisce energia a un materiale puro durante la fusione a pressione costante.
 
 **Dati, condizioni fornite e quesito:**
 
-Una superficie con ε = 0,80 emette 100 W. Senza cambiare area o temperatura, ε passa a 0,40. Quanto emette?
+Una superficie ha emissività iniziale ε_i = 0,80 e potenza emessa iniziale P_i = 100 W. Senza cambiare area A o temperatura T, l’emissività finale diventa ε_f = 0,40. Qual è la potenza emessa finale P_f?
 
 - **A.** 100 W
 - **B.** 25 W
@@ -245,7 +245,7 @@ Una superficie con ε = 0,80 emette 100 W. Senza cambiare area o temperatura, ε
 
 **Dati, condizioni fornite e quesito:**
 
-Si riscalda ghiaccio da −5 °C fino ad acqua liquida a 5 °C. Perché non basta un solo termine m · c_acqua · 10 K?
+Si riscalda ghiaccio di massa m dalla temperatura iniziale T_i = −5 °C fino ad acqua liquida alla temperatura finale T_f = 5 °C. Il calore specifico dell’acqua è c_a e l’aumento complessivo di temperatura è ΔT = 10 K. Perché non basta il solo termine m · c_a · ΔT?
 
 - **A.** Il ghiaccio non contiene acqua.
 - **B.** La massa finale è necessariamente doppia.
@@ -266,7 +266,7 @@ Si riscalda ghiaccio da −5 °C fino ad acqua liquida a 5 °C. Perché non bast
 
 **Dati, condizioni fornite e quesito:**
 
-Si vuole usare come indicatore termico un liquido dentro un recipiente quasi indeformabile. Se il liquido ha β positivo, perché un capillare sottile migliora la lettura rispetto a una cavità larga?
+Si vuole usare come indicatore termico un liquido dentro un recipiente quasi indeformabile. Il liquido ha coefficiente di dilatazione volumica β positivo. Perché un capillare sottile migliora la lettura rispetto a una cavità larga?
 
 - **A.** La sezione piccola annulla β.
 - **B.** Lo stesso volume in eccesso occupa un tratto più lungo in una sezione piccola.
@@ -287,7 +287,7 @@ Si vuole usare come indicatore termico un liquido dentro un recipiente quasi ind
 
 **Dati, condizioni fornite e quesito:**
 
-Un display passa da 20 °C a 293,15 K senza modificare il sensore. Il corpo si è riscaldato?
+Un display cambia la rappresentazione della temperatura da Celsius, T_°C = 20 °C, a kelvin, T_K = 293,15 K, senza modificare il sensore. Il corpo si è riscaldato?
 
 - **A.** Sì: il kelvin indica sempre un corpo più caldo.
 - **B.** No: perché 293,15 K equivale allo zero assoluto.
@@ -329,7 +329,7 @@ Un recipiente d’acqua si muove come un blocco unico senza cambiare il suo stat
 
 **Dati, condizioni fornite e quesito:**
 
-Due blocchi con capacità termiche diverse ricevono lo stesso calore partendo dalla stessa T. Poi sono messi in contatto in isolamento. Quale descrizione è coerente?
+Due blocchi hanno capacità termiche diverse C₁ e C₂. Ricevono lo stesso calore Q partendo dalla stessa temperatura iniziale T_i. Poi sono messi in contatto in isolamento. Quale descrizione è coerente?
 
 - **A.** Non possono raggiungere equilibrio senza perdere materia.
 - **B.** I due restano necessariamente alla stessa T perché hanno ricevuto uguale Q.
@@ -392,7 +392,7 @@ Quale proprietà accomuna le scale Celsius e Kelvin?
 
 **Dati, condizioni fornite e quesito:**
 
-In isolamento si uniscono 0,10 kg d’acqua a 50 °C e 0,10 kg di ghiaccio a 0 °C. Recipiente trascurabile, c_acqua = 4200 J/(kg · K), L = 334 kJ/kg. Quanto ghiaccio resta all’equilibrio?
+In isolamento si uniscono acqua di massa m_a = 0,10 kg e temperatura iniziale T_a = 50 °C e ghiaccio di massa m_g = 0,10 kg e temperatura iniziale T_g = 0 °C. Il recipiente è trascurabile. Il calore specifico dell’acqua è c = 4200 J/(kg · K) e il calore latente specifico di fusione è L = 334 kJ/kg. Quale massa di ghiaccio m_r resta all’equilibrio?
 
 - **A.** 0 g
 - **B.** Circa 63 g
@@ -413,7 +413,7 @@ In isolamento si uniscono 0,10 kg d’acqua a 50 °C e 0,10 kg di ghiaccio a 0 �
 
 **Dati, condizioni fornite e quesito:**
 
-Un corpo assorbe il 25% dei 200 J di radiazione che riceve. Quanta energia assorbe?
+Un corpo riceve energia radiante E = 200 J e ne assorbe una frazione a = 25%. Quanta energia Q assorbe?
 
 - **A.** 50 J
 - **B.** 200 J
@@ -434,7 +434,7 @@ Un corpo assorbe il 25% dei 200 J di radiazione che riceve. Quanta energia assor
 
 **Dati, condizioni fornite e quesito:**
 
-Un oggetto ha Q negativo durante un processo. Quale conclusione si può trarre senza altri dati?
+Un oggetto scambia un calore Q negativo durante un processo. Quale conclusione si può trarre senza altri dati?
 
 - **A.** Sta cedendo energia come calore, ma non si può attribuire a U un valore negativo per questo.
 - **B.** La sua massa sta necessariamente diminuendo.
@@ -455,14 +455,14 @@ Un oggetto ha Q negativo durante un processo. Quale conclusione si può trarre s
 
 **Dati, condizioni fornite e quesito:**
 
-Due lastre di uguale area sono in serie, senza sorgenti, con contatto ideale. Le facce esterne sono a 30 °C e 0 °C. Per la prima λ₁ = 0,10 W/(m · K), s₁ = 0,010 m; per la seconda λ₂ = 0,20 W/(m · K), s₂ = 0,040 m. In regime stazionario, quale T ha l’interfaccia?
+Due lastre di uguale area A sono in serie, senza sorgenti, con contatto ideale. Le temperature delle facce esterne sono T₁ = 30 °C e T₂ = 0 °C. La prima lastra ha conducibilità termica λ₁ = 0,10 W/(m · K) e spessore s₁ = 0,010 m; la seconda ha conducibilità termica λ₂ = 0,20 W/(m · K) e spessore s₂ = 0,040 m. In regime stazionario, quale temperatura T_m ha l’interfaccia?
 
 - **A.** 15 °C
 - **B.** 10 °C
 - **C.** 25 °C
 - **D.** 20 °C
 
-**Risposta corretta: D.** La stessa potenza attraversa entrambi gli strati. Dividendo per l’area: 10 · (30 − T) = 5 · T. Quindi 300 = 15 · T e T = 20 °C.
+**Risposta corretta: D.** La stessa potenza attraversa entrambi gli strati. Dividendo per l’area: 10 · (30 − T_m) = 5 · T_m. Quindi 300 = 15 · T_m e T_m = 20 °C.
 
 **Motivo del livello:** Impostazione autonoma con più passaggi brevi collegati, senza algebra avanzata. Operazione decisiva: ricavare la temperatura all’interfaccia di due strati.
 
@@ -497,7 +497,7 @@ Un materiale contiene molte piccole cavità d’aria ferma. Quale proprietà del
 
 **Dati, condizioni fornite e quesito:**
 
-Condensano 15 g di vapore acqueo a 100 °C, a pressione atmosferica. Usa L_v = 2257 kJ/kg. Quanta energia viene ceduta, in valore assoluto?
+Condensa vapore acqueo di massa m = 15 g alla temperatura T = 100 °C, a pressione atmosferica. Il calore latente specifico di vaporizzazione è L = 2257 kJ/kg. Quanta energia Q viene ceduta, in valore assoluto?
 
 - **A.** 3,3855 kJ
 - **B.** 3,3855 · 10⁴ kJ
@@ -518,7 +518,7 @@ Condensano 15 g di vapore acqueo a 100 °C, a pressione atmosferica. Usa L_v = 2
 
 **Dati, condizioni fornite e quesito:**
 
-Un isolante sfrutta cavità con gas quasi fermo. Una modifica unisce le cavità in un grande spazio in cui il gas circola. Perché non si può dedurre il nuovo isolamento dal solo λ del gas?
+Un isolante sfrutta cavità con gas quasi fermo. Una modifica unisce le cavità in un grande spazio in cui il gas circola. Perché non si può dedurre il nuovo isolamento dalla sola conducibilità termica del gas λ?
 
 - **A.** La modifica rende possibile un trasporto di energia legato al moto del gas.
 - **B.** Ogni cavità grande elimina l’irraggiamento.
@@ -560,7 +560,7 @@ Scelto come sistema il solo liquido in un bicchiere, che cosa appartiene all’a
 
 **Dati, condizioni fornite e quesito:**
 
-Una barra libera lunga 5,0 m ha α = 2,0 · 10⁻⁵ K⁻¹. Quale aumento di temperatura produce un allungamento di 2,0 mm?
+Una barra libera ha lunghezza iniziale L₀ = 5,0 m e coefficiente di dilatazione lineare α = 2,0 · 10⁻⁵ K⁻¹. Quale aumento di temperatura ΔT produce un allungamento ΔL = 2,0 mm?
 
 - **A.** 20 K
 - **B.** 2 K
@@ -581,7 +581,7 @@ Una barra libera lunga 5,0 m ha α = 2,0 · 10⁻⁵ K⁻¹. Quale aumento di te
 
 **Dati, condizioni fornite e quesito:**
 
-Un pianeta ipotetico riceve 340 W/m² e ne riflette il 30%. Emette 250 W/m² verso lo spazio. Assumi valori costanti per un giorno di 86400 s. Quanta energia per area perde in eccesso rispetto a quella assorbita?
+Un pianeta ipotetico riceve una potenza radiante per unità di area j_i = 340 W/m² e ne riflette una frazione r = 30%. La potenza emessa per unità di area è j_e = 250 W/m². Assumi valori costanti per un intervallo di tempo Δt = 86400 s, pari a un giorno. Quanta energia per unità di area E_s perde in eccesso rispetto a quella assorbita?
 
 - **A.** Circa 8,81 MJ/m²
 - **B.** Circa 1,04 MJ/m²
@@ -602,7 +602,7 @@ Un pianeta ipotetico riceve 340 W/m² e ne riflette il 30%. Emette 250 W/m² ver
 
 **Dati, condizioni fornite e quesito:**
 
-Una barra lunga 1,0 m ha α = 2,0 · 10⁻⁵ K⁻¹ costante e si scalda di 10 K liberamente. Con ΔL = α · L₀ · ΔT, quanto si allunga?
+Una barra ha lunghezza iniziale L₀ = 1,0 m e coefficiente di dilatazione lineare α = 2,0 · 10⁻⁵ K⁻¹, costante. Si dilata liberamente per un aumento di temperatura ΔT = 10 K. Con ΔL = α · L₀ · ΔT, quanto vale l’allungamento ΔL?
 
 - **A.** 2,0 · 10⁻⁴ m
 - **B.** 2,0 · 10⁻³ m

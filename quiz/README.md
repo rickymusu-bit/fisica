@@ -1,4 +1,4 @@
-# Quiz di Stringhe — specifiche v2.4.0
+# Quiz di Stringhe — specifiche v2.5.1
 
 **Stato:** archivio approvato di 300 quesiti di Termologia, 100 per livello. Introduzione alla fisica e alla misura resta non disponibile perché priva di domande.
 **Data:** 25 ottobre 2026 (Europe/Rome).
@@ -22,6 +22,16 @@
 - Le opzioni sono mescolate, così come i quesiti estratti. La risposta non è svelata prima della schermata finale.
 - Nessun backend necessario. Non si considera prioritario impedire l'accesso al dataset lato client.
 
+## Notazione di variabili e formule
+
+Ogni dato del testo segue la regola **nome della grandezza → simbolo → valore con unità**, definita nel [prompt di generazione, §6](PROMPT_GENERAZIONE_DOMANDE.md#6-qualità-delle-domande). Le grandezze dello stesso tipo sono distinte con pedici brevi e spiegati nel contesto; una grandezza unica usa la sola lettera. La notazione resta coerente nelle soluzioni.
+
+Domande, alternative e correzione finale usano pedici e apici HTML nativi, come i capitoli: per esempio c<sub>a</sub>, T<sub>a</sub><sup>4</sup> e 10<sup>−5</sup>. La resa conserva font e proporzioni del tema, senza librerie o dipendenze di rete.
+
+I record restano stringhe di testo: `c_acqua` o `c_{acqua}` indicano il pedice, mentre apici e pedici numerici Unicode e potenze come `T^4` sono trasformati solo nella visualizzazione. Il motore costruisce nodi di testo, `sub` e `sup`, senza interpretare HTML nel dataset o nei salvataggi. Gli underscore non compaiono nei contenuti scientifici mostrati.
+
+La stessa formattazione si applica alle sessioni e ai risultati recuperati dai salvataggi precedenti: non cambia versione, contenuto, ordine delle opzioni, indici corretti, risposte o scadenze.
+
 ## Salvataggio e ripresa della sessione
 
 Il browser salva automaticamente il quiz sul dispositivo all’avvio e a ogni scelta, conferma, salto o cambio di domanda, oltre che all’uscita dalla pagina. Non scrive il timer ogni secondo: conserva gli istanti di scadenza originali.
@@ -36,7 +46,7 @@ Se il salvataggio non è disponibile o lo spazio è esaurito, un avviso visibile
 
 ## Generazione delle domande
 
-Il [prompt di generazione](PROMPT_GENERAZIONE_DOMANDE.md), v1.4.1, definisce domande di conoscenza, ragionamento e calcolo, tre difficoltà e fattibilità entro 120 secondi comprensivi di lettura e scelta. Un quesito può collegare più capitoli della stessa categoria. Non deve richiedere conoscenze di un’altra categoria, salvo prerequisiti di base dichiarati o informazioni sufficienti fornite nel testo.
+Il [prompt di generazione](PROMPT_GENERAZIONE_DOMANDE.md), v1.4.3, definisce domande di conoscenza, ragionamento e calcolo, tre difficoltà e fattibilità entro 120 secondi comprensivi di lettura e scelta. Un quesito può collegare più capitoli della stessa categoria. Non deve richiedere conoscenze di un’altra categoria, salvo prerequisiti di base dichiarati o informazioni sufficienti fornite nel testo.
 
 Il workflow parte da un campione di 9 domande in ChatGPT (una per ogni combinazione tipo/difficoltà, se pertinente), seguito dalla revisione e approvazione del docente. Codex usa prompt, capitoli e campione approvato per generare i lotti richiesti, verificarli e integrarli. I lotti richiedono revisione didattica; i controlli automatici non provano chiarezza e risolvibilità nei due minuti. La divisione è organizzativa, non una garanzia di superiorità scientifica di ChatGPT.
 

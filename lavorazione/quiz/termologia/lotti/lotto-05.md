@@ -77,7 +77,7 @@ Due piccoli campioni vengono misurati in successione con una sonda di grande cap
 
 **Dati, condizioni fornite e quesito:**
 
-Un liquido occupa 2,0 L e ha β = 5,0 · 10⁻⁴ K⁻¹ costante. Per un aumento di 10 K, usa ΔV = β · V₀ · ΔT. Qual è ΔV?
+Un liquido ha volume iniziale V₀ = 2,0 L e coefficiente di dilatazione volumica β = 5,0 · 10⁻⁴ K⁻¹, costante. Per un aumento di temperatura ΔT = 10 K, usa ΔV = β · V₀ · ΔT. Qual è la variazione di volume ΔV?
 
 - **A.** 2,010 L
 - **B.** 0,010 L
@@ -161,7 +161,7 @@ Si comprime una molla senza aggiungere o rimuovere materiale. Può ricevere ener
 
 **Dati, condizioni fornite e quesito:**
 
-Un muro è fra aria interna a 22 °C e aria esterna a 2 °C. Senza dati sugli scambi fra aria e facce, possiamo imporre ΔT_muro = 20 K?
+Un muro è fra aria interna alla temperatura T_i = 22 °C e aria esterna alla temperatura T_e = 2 °C. Senza dati sugli scambi fra aria e facce, possiamo imporre una differenza di temperatura fra le facce del muro ΔT_m = 20 K?
 
 - **A.** Sì: facce e aria hanno sempre la stessa temperatura in ogni istante.
 - **B.** No: la differenza fra temperature non può essere espressa in kelvin.
@@ -182,7 +182,7 @@ Un muro è fra aria interna a 22 °C e aria esterna a 2 °C. Senza dati sugli sc
 
 **Dati, condizioni fornite e quesito:**
 
-Una lamina a bassa emissività mostra in termografia una zona simile alla sagoma di una mano vicina, senza contatto. Questo dimostra che quella zona della lamina ha la stessa T della mano?
+Una lamina a bassa emissività mostra in termografia una zona simile alla sagoma di una mano vicina, senza contatto. Questo dimostra che la temperatura di quella zona T_l sia uguale alla temperatura della mano T_m?
 
 - **A.** No: perché una mano non emette radiazione termica.
 - **B.** Sì: ogni segnale infrarosso proviene solo dalla temperatura locale.
@@ -266,14 +266,14 @@ Un dispositivo caldo è esposto al vuoto, sostenuto da un collegamento solido. Q
 
 **Dati, condizioni fornite e quesito:**
 
-Una barra passa da una lunghezza iniziale di 1000 mm a un allungamento ΔL = 2 mm. Quanto vale la lunghezza finale?
+Una barra ha lunghezza iniziale L₀ = 1000 mm e subisce un allungamento ΔL = 2 mm. Quanto vale la lunghezza finale L_f?
 
 - **A.** 2 mm
 - **B.** 1002 mm
 - **C.** 998 mm
 - **D.** 2000 mm
 
-**Risposta corretta: B.** L_finale = L₀ + ΔL = 1000 mm + 2 mm = 1002 mm.
+**Risposta corretta: B.** L_f = L₀ + ΔL = 1000 mm + 2 mm = 1002 mm.
 
 **Motivo del livello:** Applicazione diretta della relazione indicata, con dati già coerenti o conversione di base. Operazione decisiva: ricavare una lunghezza finale da un allungamento.
 
@@ -287,7 +287,7 @@ Una barra passa da una lunghezza iniziale di 1000 mm a un allungamento ΔL = 2 m
 
 **Dati, condizioni fornite e quesito:**
 
-Per interpretare 100 °C come temperatura ordinaria di ebollizione dell’acqua pura, quale condizione deve accompagnare il dato?
+L’acqua pura ha temperatura di ebollizione T_eb = 100 °C. Quale condizione deve accompagnare il dato per interpretarlo come temperatura ordinaria di ebollizione?
 
 - **A.** Qualunque pressione, purché il recipiente sia grande.
 - **B.** Pressione atmosferica standard.
@@ -308,7 +308,7 @@ Per interpretare 100 °C come temperatura ordinaria di ebollizione dell’acqua 
 
 **Dati, condizioni fornite e quesito:**
 
-Un valore positivo costante di β dell’acqua è dato vicino a 20 °C. Quale uso non è giustificato?
+Un coefficiente di dilatazione volumica dell’acqua β positivo e costante è dato vicino alla temperatura di riferimento T_r = 20 °C. Quale uso non è giustificato?
 
 - **A.** Esprimerlo in K⁻¹.
 - **B.** Estenderlo automaticamente a tutto il tratto da 0 °C a 8 °C.
@@ -350,7 +350,7 @@ Quale trasformazione si chiama condensazione?
 
 **Dati, condizioni fornite e quesito:**
 
-Un piccolo corpo ha ε = 1, area 0,010 m² e temperatura 26,85 °C. Usa σ = 5,67 · 10⁻⁸ W/(m² · K⁴). Quanto vale circa la potenza emessa?
+Un piccolo corpo ha emissività ε = 1, area A = 0,010 m² e temperatura T = 26,85 °C. La costante di Stefan-Boltzmann è σ = 5,67 · 10⁻⁸ W/(m² · K⁴). Quanto vale circa la potenza emessa P?
 
 - **A.** 2,95 · 10⁻⁴ W
 - **B.** 4,59 W
@@ -371,7 +371,7 @@ Un piccolo corpo ha ε = 1, area 0,010 m² e temperatura 26,85 °C. Usa σ = 5,6
 
 **Dati, condizioni fornite e quesito:**
 
-Una barra libera di massa 0,20 kg, lunghezza 2,0 m, c = 400 J/(kg · K) e α = 1,0 · 10⁻⁵ K⁻¹ riceve 4,8 kJ senza dispersioni o cambiamenti di stato. Quanto si allunga?
+Una barra libera ha massa m = 0,20 kg, lunghezza iniziale L₀ = 2,0 m, calore specifico c = 400 J/(kg · K) e coefficiente di dilatazione lineare α = 1,0 · 10⁻⁵ K⁻¹. Riceve calore Q = 4,8 kJ senza dispersioni o cambiamenti di stato. Quanto vale l’allungamento ΔL?
 
 - **A.** 0,12 mm
 - **B.** 12 mm
@@ -392,7 +392,7 @@ Una barra libera di massa 0,20 kg, lunghezza 2,0 m, c = 400 J/(kg · K) e α = 1
 
 **Dati, condizioni fornite e quesito:**
 
-Un termometro a 30 °C viene immerso in un grande bagno mantenuto a 10 °C. Come cambia inizialmente la temperatura del sensore?
+Un termometro ha temperatura iniziale T_t = 30 °C e viene immerso in un grande bagno mantenuto alla temperatura T_b = 10 °C. Come cambia inizialmente la temperatura del sensore?
 
 - **A.** Aumenta perché sta misurando.
 - **B.** Scende sotto 10 °C per raggiungere l’equilibrio.
@@ -434,7 +434,7 @@ Una barra è riscaldata ma i fissaggi le impediscono di allungarsi liberamente. 
 
 **Dati, condizioni fornite e quesito:**
 
-Un campione di 0,10 kg di ghiaccio a 0 °C riceve 50 kJ a pressione atmosferica, senza dispersioni. Con L = 334 kJ/kg e c_acqua = 4200 J/(kg · K), quale T finale raggiunge?
+Un campione di ghiaccio ha massa m = 0,10 kg e temperatura iniziale T_i = 0 °C. Riceve calore Q = 50 kJ a pressione atmosferica, senza dispersioni. Il calore latente specifico di fusione è L = 334 kJ/kg e il calore specifico dell’acqua è c = 4200 J/(kg · K). Quale temperatura finale T_f raggiunge?
 
 - **A.** 0 °C
 - **B.** Circa 39,5 °C
@@ -455,7 +455,7 @@ Un campione di 0,10 kg di ghiaccio a 0 °C riceve 50 kJ a pressione atmosferica,
 
 **Dati, condizioni fornite e quesito:**
 
-Una potenza termica di 1 W corrisponde a:
+Una potenza termica P = 1 W corrisponde a:
 
 - **A.** 1 K di aumento ogni secondo per ogni corpo.
 - **B.** 1 J trasferito ogni secondo.
@@ -476,7 +476,7 @@ Una potenza termica di 1 W corrisponde a:
 
 **Dati, condizioni fornite e quesito:**
 
-Un materiale con c = 500 J/(kg · K) assorbe 4,0 kJ aumentando la temperatura di 20 K, senza cambiare stato. Qual è la massa?
+Un materiale ha calore specifico c = 500 J/(kg · K), assorbe calore Q = 4,0 kJ e subisce un aumento di temperatura ΔT = 20 K, senza cambiare stato. Qual è la massa m?
 
 - **A.** 4,0 kg
 - **B.** 10 kg
@@ -518,7 +518,7 @@ Con due materiali senza cambiamenti di stato, quando le sole masse sono pesi suf
 
 **Dati, condizioni fornite e quesito:**
 
-Due superfici hanno uguali area e temperatura, ma ε diversa. Quale emette più potenza?
+Due superfici hanno uguali area A e temperatura T, ma emissività diverse ε₁ ed ε₂. Quale emette più potenza?
 
 - **A.** Quella con ε minore.
 - **B.** Nessuna: ε non influisce sulla potenza.
@@ -581,7 +581,7 @@ Un sensore misura che un corpo emette più potenza di prima. Senza informazioni 
 
 **Dati, condizioni fornite e quesito:**
 
-Si mescolano due porzioni dello stesso liquido a 15 °C e 45 °C. Prima dell’equilibrio, in quale verso passa spontaneamente calore fra esse?
+Si mescolano due porzioni dello stesso liquido con temperature iniziali T₁ = 15 °C e T₂ = 45 °C. Prima dell’equilibrio, in quale verso passa spontaneamente calore fra esse?
 
 - **A.** Non passa calore se è la stessa sostanza.
 - **B.** Dalla porzione a 45 °C a quella a 15 °C.

@@ -14,7 +14,7 @@ Categoria unica `termologia`. Calcolatrice di base consentita. Riferimenti e con
 
 **Dati, condizioni fornite e quesito:**
 
-Due pannelli separati hanno facce mantenute con ΔT = 20 K e spessore 0,020 m. Il primo ha λ = 0,10 W/(m · K), area 1,0 m²; il secondo λ = 0,050 W/(m · K), area 2,0 m². In regime stazionario, quanta energia passa complessivamente in 600 s?
+Due pannelli separati hanno differenza di temperatura fra le facce ΔT = 20 K e spessori uguali s₁ = s₂ = 0,020 m. Il primo ha conducibilità termica λ₁ = 0,10 W/(m · K) e area A₁ = 1,0 m²; il secondo ha conducibilità termica λ₂ = 0,050 W/(m · K) e area A₂ = 2,0 m². In regime stazionario, quanta energia Q passa complessivamente nell’intervallo di tempo Δt = 600 s?
 
 - **A.** 240 kJ
 - **B.** 120 kJ
@@ -77,7 +77,7 @@ Un pianeta assorbe mediamente più potenza di quanta ne perda verso lo spazio. S
 
 **Dati, condizioni fornite e quesito:**
 
-Una barra corta con α grande e una lunga con α piccolo subiscono lo stesso ΔT. Senza conoscere il prodotto α · L₀, si può ordinare l’allungamento assoluto?
+Due barre hanno lunghezze iniziali L₁ < L₂ e coefficienti di dilatazione lineare α₁ > α₂. Subiscono lo stesso aumento di temperatura ΔT. Senza conoscere i prodotti α₁ · L₁ e α₂ · L₂, si possono ordinare gli allungamenti assoluti?
 
 - **A.** No: perché ΔL non dipende da nessuno dei due.
 - **B.** Sì: vince sempre α maggiore.
@@ -98,7 +98,7 @@ Una barra corta con α grande e una lunga con α piccolo subiscono lo stesso ΔT
 
 **Dati, condizioni fornite e quesito:**
 
-Due corpi isolati dall’esterno si scambiano calore. La somma dei loro Q è zero. Significa che ciascun Q è zero?
+Due corpi isolati dall’esterno si scambiano calore. I calori riferiti ai due corpi sono Q₁ e Q₂ e la loro somma è zero. Significa che ciascun calore è zero?
 
 - **A.** Sì: una somma nulla richiede termini nulli.
 - **B.** Sì: in un sistema isolato nessun corpo cambia mai temperatura.
@@ -308,7 +308,7 @@ A parità di geometria e differenza di temperatura, un materiale con conducibili
 
 **Dati, condizioni fornite e quesito:**
 
-Un pannello opaco riceve 600 W e ne riflette il 40%. Quanto assorbe?
+Un pannello opaco riceve una potenza radiante incidente P_i = 600 W e ne riflette una frazione r = 40%. Qual è la potenza assorbita P_a?
 
 - **A.** 240 W
 - **B.** 360 W
@@ -329,7 +329,7 @@ Un pannello opaco riceve 600 W e ne riflette il 40%. Quanto assorbe?
 
 **Dati, condizioni fornite e quesito:**
 
-Si mescolano 0,10 kg d’acqua a 80 °C e 0,10 kg a 20 °C in una tazza inizialmente a 20 °C. L’equilibrio isolato è a 40 °C. Con c_acqua = 4200 J/(kg · K), quale capacità termica ha la tazza?
+Si mescolano due porzioni d’acqua: la prima ha massa m₁ = 0,10 kg e temperatura iniziale T₁ = 80 °C; la seconda ha massa m₂ = 0,10 kg e temperatura iniziale T₂ = 20 °C. La tazza ha temperatura iniziale T_t = 20 °C. La temperatura di equilibrio del sistema isolato è T_eq = 40 °C. Il calore specifico dell’acqua è c = 4200 J/(kg · K). Quale capacità termica C ha la tazza?
 
 - **A.** 840 J/K
 - **B.** 210 J/K
@@ -392,7 +392,7 @@ La stessa massa di una sostanza condensa e poi rivaporizza alle stesse condizion
 
 **Dati, condizioni fornite e quesito:**
 
-Due valori tabulati di c per materiali diversi sono confrontabili per prevedere Q a masse e ΔT uguali solo se:
+Due valori tabulati di calore specifico c₁ e c₂ per materiali diversi sono confrontabili per prevedere i calori Q₁ e Q₂, a masse uguali m₁ = m₂ e aumenti di temperatura uguali ΔT₁ = ΔT₂, solo se:
 
 - **A.** I materiali sono entrambi metalli.
 - **B.** I due corpi hanno necessariamente lo stesso volume.
@@ -455,7 +455,7 @@ Nel bilancio fra due materiali diversi senza passaggi di stato, che cosa pesa le
 
 **Dati, condizioni fornite e quesito:**
 
-Un locale ha capacità termica complessiva 1,0 MJ/K. Un muro omogeneo ha λ = 0,10 W/(m · K), area 10 m² e spessore 0,20 m. In un’ora la differenza media fra le facce è 20 K. Trascurando ogni altro scambio, di quanto cala la T del locale?
+Un locale ha capacità termica complessiva C = 1,0 MJ/K. Un muro omogeneo ha conducibilità termica λ = 0,10 W/(m · K), area A = 10 m² e spessore s = 0,20 m. Nell’intervallo di tempo Δt = 1 h la differenza media di temperatura fra le facce è ΔT_m = 20 K. Trascurando ogni altro scambio, qual è la diminuzione di temperatura del locale |ΔT_l|?
 
 - **A.** 0,10 K
 - **B.** 0,36 K
@@ -476,7 +476,7 @@ Un locale ha capacità termica complessiva 1,0 MJ/K. Un muro omogeneo ha λ = 0,
 
 **Dati, condizioni fornite e quesito:**
 
-La temperatura cresce da 12 °C a 19 °C. Qual è ΔT in kelvin?
+Un corpo passa dalla temperatura iniziale T_i = 12 °C alla temperatura finale T_f = 19 °C. Qual è la variazione di temperatura ΔT in kelvin?
 
 - **A.** 7 K
 - **B.** 280,15 K
@@ -497,7 +497,7 @@ La temperatura cresce da 12 °C a 19 °C. Qual è ΔT in kelvin?
 
 **Dati, condizioni fornite e quesito:**
 
-Un riscaldatore trasferisce al ghiaccio 167 W costanti. Quanto tempo serve a fondere 0,10 kg di ghiaccio già a 0 °C, con L = 334 kJ/kg e nessuna dispersione?
+Un riscaldatore trasferisce al ghiaccio una potenza termica costante P = 167 W. Quale intervallo di tempo Δt serve a fondere ghiaccio di massa m = 0,10 kg, già alla temperatura T = 0 °C? Il calore latente specifico di fusione è L = 334 kJ/kg e non ci sono dispersioni.
 
 - **A.** 2 s
 - **B.** 500 s
@@ -518,7 +518,7 @@ Un riscaldatore trasferisce al ghiaccio 167 W costanti. Quanto tempo serve a fon
 
 **Dati, condizioni fornite e quesito:**
 
-Due rivestimenti hanno la stessa emissività infrarossa, area e temperatura, ma uno assorbe meno radiazione solare. A uguale illuminazione, che cosa si può dire del solo bilancio radiativo istantaneo?
+Due rivestimenti hanno la stessa emissività infrarossa ε, area A e temperatura T, ma uno assorbe meno radiazione solare. A uguale illuminazione, che cosa si può dire del solo bilancio radiativo istantaneo?
 
 - **A.** Devono avere sempre lo stesso bilancio perché ε è uguale.
 - **B.** Quello che assorbe meno Sole emette necessariamente zero infrarosso.
@@ -560,14 +560,14 @@ Il confine di un sistema termodinamico deve essere una parete materiale?
 
 **Dati, condizioni fornite e quesito:**
 
-Si mescola acqua a 80 °C con 0,30 kg d’acqua a 20 °C per ottenere 40 °C. Stesso c costante, recipiente e dispersioni trascurabili: quanta acqua calda serve?
+Si mescola acqua calda di temperatura iniziale T_c = 80 °C con acqua fredda di massa m_f = 0,30 kg e temperatura iniziale T_f = 20 °C per ottenere la temperatura di equilibrio T_eq = 40 °C. Il calore specifico c è uguale e costante; recipiente e dispersioni sono trascurabili. Quale massa di acqua calda m_c serve?
 
 - **A.** 0,075 kg
 - **B.** 0,15 kg
 - **C.** 0,60 kg
 - **D.** 0,30 kg
 
-**Risposta corretta: B.** Ogni kg caldo perde 40 · c; l’acqua fredda assorbe 0,30 · 20 · c. Il bilancio dà m_calda = 0,15 kg.
+**Risposta corretta: B.** Ogni kg caldo perde 40 · c; l’acqua fredda assorbe 0,30 · 20 · c. Il bilancio dà m_c = 0,15 kg.
 
 **Motivo del livello:** Scelta o inversione della relazione, con conversione o passaggio intermedio. Operazione decisiva: calcolare una massa aggiunta per ottenere una miscela.
 
@@ -602,7 +602,7 @@ Un liquido si dilata più del vetro del termometro. Sostituendo il vetro con un 
 
 **Dati, condizioni fornite e quesito:**
 
-Una superficie di area 0,20 m² emette uniformemente 60 W. Qual è la potenza emessa per metro quadrato, ottenuta dividendo la potenza totale per l’area?
+Una superficie ha area A = 0,20 m² ed emette uniformemente una potenza P = 60 W. Qual è la potenza emessa per unità di area j, ottenuta dividendo la potenza totale per l’area?
 
 - **A.** 0,0033 W/m²
 - **B.** 60 W/m²

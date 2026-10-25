@@ -77,7 +77,7 @@ Un pianeta aumenta l’assorbimento dell’infrarosso atmosferico senza aumentar
 
 **Dati, condizioni fornite e quesito:**
 
-Una barra libera ha coefficiente α positivo e pressoché costante. Raffreddandola senza cambiamenti di stato, la lunghezza tende a:
+Una barra libera ha coefficiente di dilatazione lineare α positivo e pressoché costante. Raffreddandola senza cambiamenti di stato, la lunghezza tende a:
 
 - **A.** Restare sempre invariata.
 - **B.** Aumentare.
@@ -98,7 +98,7 @@ Una barra libera ha coefficiente α positivo e pressoché costante. Raffreddando
 
 **Dati, condizioni fornite e quesito:**
 
-Si scalda acqua liquida da 1 °C a 8 °C a pressione atmosferica. Quale andamento del volume è coerente?
+Si scalda acqua liquida dalla temperatura iniziale T_i = 1 °C alla temperatura finale T_f = 8 °C, a pressione atmosferica. Quale andamento del volume è coerente?
 
 - **A.** Diminuisce senza interruzione.
 - **B.** Resta costante fino all’ebollizione.
@@ -119,7 +119,7 @@ Si scalda acqua liquida da 1 °C a 8 °C a pressione atmosferica. Quale andament
 
 **Dati, condizioni fornite e quesito:**
 
-Un riscaldatore trasferisce 500 W termici costanti a 0,50 kg d’acqua e alla sua tazza con C = 100 J/K. Entrambe passano da 20 °C a 40 °C senza dispersioni. Usa c_acqua = 4200 J/(kg · K). Quanto dura il riscaldamento?
+Un riscaldatore trasferisce una potenza termica costante P = 500 W ad acqua di massa m = 0,50 kg e alla sua tazza, di capacità termica C = 100 J/K. Entrambe passano dalla temperatura iniziale T_i = 20 °C alla temperatura finale T_f = 40 °C, senza dispersioni. Il calore specifico dell’acqua è c = 4200 J/(kg · K). Qual è la durata del riscaldamento Δt?
 
 - **A.** 88 s
 - **B.** 4 s
@@ -140,7 +140,7 @@ Un riscaldatore trasferisce 500 W termici costanti a 0,50 kg d’acqua e alla su
 
 **Dati, condizioni fornite e quesito:**
 
-Un campione di massa 0,10 kg e c = 500 J/(kg · K) passa da 30 °C a 20 °C, senza cambiare stato. Qual è Q riferito al campione?
+Un campione ha massa m = 0,10 kg e calore specifico c = 500 J/(kg · K). Passa dalla temperatura iniziale T_i = 30 °C alla temperatura finale T_f = 20 °C, senza cambiare stato. Qual è il calore Q riferito al campione?
 
 - **A.** −500 J
 - **B.** −50 J
@@ -161,7 +161,7 @@ Un campione di massa 0,10 kg e c = 500 J/(kg · K) passa da 30 °C a 20 °C, sen
 
 **Dati, condizioni fornite e quesito:**
 
-Due corpi isolati raggiungono 30 °C. A parte da 50 °C e B da 20 °C, senza cambiamenti di stato. Quanto vale C_A diviso C_B?
+Due corpi A e B raggiungono in isolamento la temperatura di equilibrio T_eq = 30 °C. Le temperature iniziali sono T_A = 50 °C e T_B = 20 °C, senza cambiamenti di stato. Quanto vale il rapporto fra le capacità termiche C_A e C_B?
 
 - **A.** 3,0
 - **B.** 0,50
@@ -224,7 +224,7 @@ Nella convezione, che cosa trasporta energia da una zona all’altra?
 
 **Dati, condizioni fornite e quesito:**
 
-In un sistema isolato due corpi si scambiano la stessa energia in valore assoluto. Quello con capacità termica minore cambia temperatura:
+Due corpi isolati dall’esterno si scambiano la stessa energia in valore assoluto. Le capacità termiche soddisfano C₁ < C₂. Il primo corpo cambia temperatura:
 
 - **A.** Di più in valore assoluto.
 - **B.** Di meno in valore assoluto.
@@ -245,7 +245,7 @@ In un sistema isolato due corpi si scambiano la stessa energia in valore assolut
 
 **Dati, condizioni fornite e quesito:**
 
-In isolamento si mescolano acqua calda e ghiaccio a 0 °C. L’energia che l’acqua può cedere raffreddandosi fino a 0 °C è minore di quella necessaria a fondere tutto il ghiaccio. Quale previsione è coerente?
+In isolamento si mescolano acqua calda e ghiaccio alla temperatura T_g = 0 °C. L’energia Q_a che l’acqua può cedere raffreddandosi fino alla temperatura T_a = 0 °C è minore dell’energia Q_f necessaria a fondere tutto il ghiaccio: Q_a < Q_f. Quale previsione è coerente?
 
 - **A.** Fonde comunque tutto e l’equilibrio è sopra 0 °C.
 - **B.** Resta ghiaccio e l’equilibrio può essere a 0 °C.
@@ -266,14 +266,14 @@ In isolamento si mescolano acqua calda e ghiaccio a 0 °C. L’energia che l’a
 
 **Dati, condizioni fornite e quesito:**
 
-Una superficie emette 12 W. Una seconda superficie ha la stessa temperatura ed emissività e area tripla. Qual è la potenza emessa dalla seconda?
+Una superficie emette una potenza P₁ = 12 W. Una seconda ha la stessa temperatura T ed emissività ε della prima; le aree soddisfano A₂ = 3A₁. Qual è la potenza emessa P₂ dalla seconda?
 
 - **A.** 12 W
 - **B.** 4 W
 - **C.** 36 W
 - **D.** 108 W
 
-**Risposta corretta: C.** A temperatura ed emissività fisse, triplicare A triplica P_emessa: 36 W.
+**Risposta corretta: C.** A temperatura ed emissività fisse, triplicare A triplica P_e: 36 W.
 
 **Motivo del livello:** Applicazione diretta della relazione indicata, con dati già coerenti o conversione di base. Operazione decisiva: applicare la proporzionalità con l’area emittente.
 
@@ -371,7 +371,7 @@ Nel bilancio dell’intero sistema Terra-atmosfera, la radiazione scambiata fra 
 
 **Dati, condizioni fornite e quesito:**
 
-Due porzioni dello stesso liquido sono isolate dall’esterno. Si fornisce un’energia nota prima tutta a una porzione oppure distribuita fra entrambe; poi si raggiunge equilibrio. A stessi stati iniziali e senza cambiamenti di stato, la T finale dipende dalla ripartizione iniziale dell’energia fornita?
+Due porzioni dello stesso liquido sono isolate dall’esterno. Si fornisce un’energia nota Q prima tutta a una porzione oppure distribuita fra entrambe; poi si raggiunge equilibrio. A stessi stati iniziali e senza cambiamenti di stato, la temperatura finale T_f dipende dalla ripartizione iniziale dell’energia fornita?
 
 - **A.** No, se l’energia totale fornita è la stessa e non ci sono altri scambi.
 - **B.** Sì, perché il calore resta per sempre nella porzione che lo riceve.
@@ -413,7 +413,7 @@ Due rotaie con estremità inizialmente distanziate possono dilatarsi verso il gi
 
 **Dati, condizioni fornite e quesito:**
 
-Un campione di 200 g assorbe 1,8 kJ e si riscalda di 10 K, senza cambiamenti di stato. Quale c si ricava?
+Un campione ha massa m = 200 g, assorbe calore Q = 1,8 kJ e subisce un aumento di temperatura ΔT = 10 K, senza cambiamenti di stato. Quale calore specifico c si ricava?
 
 - **A.** 90 J/(kg · K)
 - **B.** 0,90 J/(kg · K)
@@ -476,12 +476,12 @@ Una ventola muove aria anche quando tutta l’aria ha inizialmente la stessa tem
 
 **Dati, condizioni fornite e quesito:**
 
-In un sistema isolato composto da una bevanda e dalla sua tazza, quale relazione rappresenta il bilancio termico?
+In un sistema isolato composto da una bevanda e dalla sua tazza, il calore riferito alla bevanda è Q_b e quello riferito alla tazza è Q_t. Quale relazione rappresenta il bilancio termico?
 
-- **A.** Q_bevanda e Q_tazza sono entrambi positivi.
-- **B.** Q_bevanda + Q_tazza = 0.
-- **C.** Q_bevanda = 0 e Q_tazza = 0 in ogni istante.
-- **D.** Q_bevanda + Q_tazza è sempre maggiore di zero.
+- **A.** Q_b e Q_t sono entrambi positivi.
+- **B.** Q_b + Q_t = 0.
+- **C.** Q_b = 0 e Q_t = 0 in ogni istante.
+- **D.** Q_b + Q_t è sempre maggiore di zero.
 
 **Risposta corretta: B.** Senza scambi esterni, quanto una parte cede viene assorbito dall’altra, con segni opposti.
 
@@ -497,7 +497,7 @@ In un sistema isolato composto da una bevanda e dalla sua tazza, quale relazione
 
 **Dati, condizioni fornite e quesito:**
 
-A e B assorbono lo stesso Q. A ha massa doppia e c dimezzato rispetto a B, senza cambiamenti di stato. Se partono dalla stessa T, quale confronto è corretto?
+Due campioni A e B assorbono lo stesso calore Q. Le masse soddisfano m_A = 2m_B e i calori specifici sono c_A e c_B, con c_A pari a metà di c_B, senza cambiamenti di stato. Se partono dalla stessa temperatura T_i, quale confronto è corretto?
 
 - **A.** A cambia temperatura di un quarto.
 - **B.** Raggiungono la stessa T, perché le capacità termiche sono uguali.
@@ -602,7 +602,7 @@ Un involucro poco conduttore circonda un oggetto caldo. L’involucro mantiene c
 
 **Dati, condizioni fornite e quesito:**
 
-Due campioni di massa uguale assorbono lo stesso calore. A aumenta di 8 K, B di 20 K. Quanto vale il rapporto c_A a c_B?
+Due campioni A e B hanno masse uguali m_A = m_B e assorbono lo stesso calore Q_A = Q_B. Gli aumenti di temperatura sono ΔT_A = 8 K e ΔT_B = 20 K. Quanto vale il rapporto fra i calori specifici c_A e c_B?
 
 - **A.** 12
 - **B.** 1,0

@@ -39,6 +39,43 @@
   const saveWarning = document.getElementById("quiz-save-warning");
   let storageAvailable = true;
 
+  // Stessa notazione nativa dei capitoli: mai interpretare HTML dall'archivio
+  // o dai salvataggi. Dati e indici delle risposte restano testo invariato.
+  function mathText(value) {
+    const text = String(value);
+    const fragment = document.createDocumentFragment();
+    const superscripts = "⁰¹²³⁴⁵⁶⁷⁸⁹⁻⁺";
+    const subscripts = "₀₁₂₃₄₅₆₇₈₉";
+    const normalSuperscripts = "0123456789−+";
+    const normalSubscripts = "0123456789";
+    const notation = /((?:Δ)?[A-Za-zΑ-Ωα-ω])_(?:\{([A-Za-zÀ-ÖØ-öø-ÿΑ-Ωα-ω0-9°]+)\}|([A-Za-zÀ-ÖØ-öø-ÿΑ-Ωα-ω0-9°]+))|([⁰¹²³⁴⁵⁶⁷⁸⁹⁻⁺]+)|([₀₁₂₃₄₅₆₇₈₉]+)|\^(?:\{([−+\-]?\d+)\}|([−+\-]?\d+))/gu;
+    let cursor = 0;
+    for (const match of text.matchAll(notation)) {
+      const [, variable, bracedSubscript, subscript, unicodePower, unicodeIndex, bracedPower, power] = match;
+      if (variable && match.index > 0 && /[\p{L}_]/u.test(text[match.index - 1])) continue;
+      fragment.append(document.createTextNode(text.slice(cursor, match.index)));
+      if (variable) {
+        const span = document.createElement("span");
+        span.className = "quiz-inline-math";
+        const index = document.createElement("sub");
+        index.textContent = bracedSubscript || subscript;
+        span.append(document.createTextNode(variable), index);
+        fragment.append(span);
+      } else {
+        const index = document.createElement(unicodeIndex ? "sub" : "sup");
+        index.textContent = unicodePower
+          ? [...unicodePower].map(char => normalSuperscripts[superscripts.indexOf(char)]).join("")
+          : unicodeIndex
+            ? [...unicodeIndex].map(char => normalSubscripts[subscripts.indexOf(char)]).join("")
+            : (bracedPower || power).replace(/-/g, "−");
+        fragment.append(index);
+      }
+      cursor = match.index + match[0].length;
+    }
+    fragment.append(document.createTextNode(text.slice(cursor)));
+    return fragment;
+  }
+
   function warnBeforeExit(event) {
     if (session && !storageAvailable) {
       event.preventDefault();
@@ -363,7 +400,7 @@
     counter.textContent = "Domanda " + (s.index + 1) + " di " + s.count;
     progressBar.style.width = (s.index / s.count * 100) + "%";
     document.getElementById("quiz-topic").textContent = category ? category.title : s.categoryTitle;
-    prompt.textContent = q.prompt;
+    prompt.replaceChildren(mathText(q.prompt));
     answerList.replaceChildren();
     q.order.forEach((option, position) => {
       const label = document.createElement("label");
@@ -382,7 +419,7 @@
         saveActiveSession();
       });
       const text = document.createElement("span");
-      text.textContent = option.label;
+      text.append(mathText(option.label));
       label.append(input, text);
       answerList.append(label);
     });
@@ -456,7 +493,7 @@
     const heading = document.createElement("span");
     heading.className = "quiz-label";
     heading.textContent = label + " ";
-    p.append(heading, document.createTextNode(value));
+    p.append(heading, mathText(value));
     return p;
   }
 
@@ -483,7 +520,7 @@
       const li = document.createElement("li");
       li.className = "quiz-review-item" + (right ? "" : " is-wrong");
       const h3 = document.createElement("h3");
-      h3.textContent = (i + 1) + ". " + q.prompt;
+      h3.append(mathText((i + 1) + ". " + q.prompt));
       const category = categories.get(q.category);
       li.append(h3);
       li.append(labeledParagraph("Categoria:", category ? category.title : s.categoryTitle));

@@ -35,7 +35,7 @@ Per passare dal liquido al gas mediante evaporazione, la sostanza:
 
 **Dati, condizioni fornite e quesito:**
 
-Un riscaldatore porta 0,050 kg di ghiaccio da −10 °C ad acqua a 0 °C in 355 s, senza dispersioni. Usa c_ghiaccio = 2100 J/(kg · K) e L = 334 kJ/kg. Qual è la potenza termica media?
+Un riscaldatore porta ghiaccio di massa m = 0,050 kg dalla temperatura iniziale T_i = −10 °C ad acqua alla temperatura finale T_f = 0 °C in un intervallo di tempo Δt = 355 s, senza dispersioni. Il calore specifico del ghiaccio è c = 2100 J/(kg · K) e il calore latente specifico di fusione è L = 334 kJ/kg. Qual è la potenza termica media P?
 
 - **A.** 47 W
 - **B.** 50 W
@@ -77,7 +77,7 @@ A parità delle altre condizioni, l’aria molto umida ostacola l’evaporazione
 
 **Dati, condizioni fornite e quesito:**
 
-Un corpo emette 120 W e assorbe 150 W costanti per 2 minuti. Quanto varia la sua energia per il solo irraggiamento?
+Un corpo ha potenza radiante emessa P_e = 120 W e potenza radiante assorbita P_a = 150 W, costanti per un intervallo di tempo Δt = 2 min. Quanto varia la sua energia interna ΔU per il solo irraggiamento?
 
 - **A.** Aumenta di 32,4 kJ.
 - **B.** Aumenta di 60 J.
@@ -98,7 +98,7 @@ Un corpo emette 120 W e assorbe 150 W costanti per 2 minuti. Quanto varia la sua
 
 **Dati, condizioni fornite e quesito:**
 
-Nella formula P_netta = ε · σ · A · (T⁴ − T_amb⁴), T_amb rappresenta:
+Nella formula della potenza netta ceduta P_n = ε · σ · A · (T⁴ − T_a⁴), il simbolo T_a rappresenta:
 
 - **A.** Qualunque media aritmetica fra temperature di aria e Sole.
 - **B.** Sempre e soltanto la temperatura dell’aria misurata lontano.
@@ -140,7 +140,7 @@ Due corpi sono in equilibrio termico quando hanno la stessa:
 
 **Dati, condizioni fornite e quesito:**
 
-Due campioni dello stesso materiale hanno masse diverse. Assorbono energia sufficiente a produrre lo stesso ΔT. Il maggiore richiede più calore perché:
+Due campioni dello stesso materiale hanno masse m₁ < m₂. Assorbono energia sufficiente a produrre lo stesso aumento di temperatura ΔT. Il campione di massa m₂ richiede più calore perché:
 
 - **A.** Il suo c deve essere maggiore solo per la massa.
 - **B.** Ogni campione grande parte necessariamente da temperatura maggiore.
@@ -203,7 +203,7 @@ In quali unità si misura il calore latente specifico L?
 
 **Dati, condizioni fornite e quesito:**
 
-Due sensori registrano lo stesso raffreddamento: uno mostra −6 °C come variazione, l’altro −6 K. Sono compatibili?
+Due sensori registrano lo stesso raffreddamento: uno mostra una variazione di temperatura Celsius ΔT_°C = −6 °C, l’altro una variazione in kelvin ΔT_K = −6 K. Sono compatibili?
 
 - **A.** Sì, i due intervalli hanno la stessa ampiezza e lo stesso segno.
 - **B.** Sì, soltanto se la temperatura finale è lo zero assoluto.
@@ -224,7 +224,7 @@ Due sensori registrano lo stesso raffreddamento: uno mostra −6 °C come variaz
 
 **Dati, condizioni fornite e quesito:**
 
-Un blocco di 0,10 kg a 100 °C viene immerso in 0,20 kg d’acqua a 20 °C in una tazza a 20 °C con C = 100 J/K. L’equilibrio è a 25 °C. Senza dispersioni o cambiamenti di stato e con c_acqua = 4200 J/(kg · K), quanto vale c del blocco?
+Un blocco ha massa m_b = 0,10 kg e temperatura iniziale T_b = 100 °C. Viene immerso in acqua di massa m_a = 0,20 kg e temperatura iniziale T_a = 20 °C, dentro una tazza di temperatura iniziale T_t = 20 °C e capacità termica C = 100 J/K. La temperatura di equilibrio è T_eq = 25 °C. Senza dispersioni o cambiamenti di stato e con calore specifico dell’acqua c_a = 4200 J/(kg · K), quanto vale il calore specifico del blocco c_b?
 
 - **A.** Circa 940 J/(kg · K)
 - **B.** Circa 627 J/(kg · K)
@@ -245,7 +245,7 @@ Un blocco di 0,10 kg a 100 °C viene immerso in 0,20 kg d’acqua a 20 °C in un
 
 **Dati, condizioni fornite e quesito:**
 
-Un corpo assorbe 800 J e ha capacità termica costante 200 J/K, senza cambiamenti di stato. Usa ΔT = Q diviso C. Quanto aumenta la temperatura?
+Un corpo assorbe calore Q = 800 J e ha capacità termica costante C = 200 J/K, senza cambiamenti di stato. Usa ΔT = Q diviso C. Qual è l’aumento di temperatura ΔT?
 
 - **A.** 4 K
 - **B.** 0,25 K
@@ -287,7 +287,7 @@ La nube bianca vicino al ghiaccio secco è costituita soprattutto da:
 
 **Dati, condizioni fornite e quesito:**
 
-In isolamento si mescolano 0,20 kg d’acqua a 20 °C e 0,10 kg di ghiaccio a −20 °C. Usa c_acqua = 4200 J/(kg · K), c_ghiaccio = 2100 J/(kg · K), L = 334 kJ/kg. Recipiente trascurabile: quanto ghiaccio rimane?
+In isolamento si mescolano acqua di massa m_a = 0,20 kg e temperatura iniziale T_a = 20 °C e ghiaccio di massa m_g = 0,10 kg e temperatura iniziale T_g = −20 °C. I calori specifici di acqua e ghiaccio sono c_a = 4200 J/(kg · K) e c_g = 2100 J/(kg · K); il calore latente specifico di fusione è L = 334 kJ/kg. Il recipiente è trascurabile: quale massa di ghiaccio m_r rimane?
 
 - **A.** 0 g
 - **B.** Circa 38 g
@@ -329,7 +329,7 @@ Durante la solidificazione, una sostanza:
 
 **Dati, condizioni fornite e quesito:**
 
-Un locale perde energia con potenza termica costante di 1,5 kW per 4 minuti. Quanta energia perde?
+Un locale perde energia con potenza termica costante P = 1,5 kW per un intervallo di tempo Δt = 4 min. Quanta energia Q perde?
 
 - **A.** 90 kJ
 - **B.** 6,0 kJ
@@ -392,7 +392,7 @@ Il coefficiente α di dilatazione lineare descrive la variazione relativa di qua
 
 **Dati, condizioni fornite e quesito:**
 
-Una superficie emette 80 W. A stessa temperatura, si raddoppia l’area e si dimezza ε. Qual è la nuova potenza emessa?
+Una superficie ha potenza emessa iniziale P_i = 80 W. A temperatura T costante, l’area finale diventa A_f = 2A_i e l’emissività finale ε_f è pari a metà di ε_i, dove A_i ed ε_i sono i rispettivi valori iniziali. Qual è la potenza emessa finale P_f?
 
 - **A.** 40 W
 - **B.** 160 W
@@ -434,7 +434,7 @@ Il tratto orizzontale della curva di fusione dell’acqua del capitolo è riferi
 
 **Dati, condizioni fornite e quesito:**
 
-Un oggetto con capacità termica costante C = 150 J/K si riscalda di 4 K, senza cambiare stato. Quanto calore assorbe?
+Un oggetto ha capacità termica costante C = 150 J/K e subisce un aumento di temperatura ΔT = 4 K, senza cambiare stato. Quanto calore Q assorbe?
 
 - **A.** 600 J
 - **B.** 150 J
@@ -476,7 +476,7 @@ Due liquidi alla stessa temperatura scorrono in dispositivi uguali, con le altre
 
 **Dati, condizioni fornite e quesito:**
 
-Un termometro contiene 100 cm³ di liquido con β = 1,0 · 10⁻³ K⁻¹. La capacità interna fino alla tacca iniziale cresce con β_rec = 3,0 · 10⁻⁵ K⁻¹. Per ΔT = 40 K, quanto sale il livello in un capillare di sezione circa costante 0,20 cm²? Usa altezza = volume in eccesso diviso sezione.
+Un termometro contiene liquido di volume iniziale V₀ = 100 cm³ e coefficiente di dilatazione volumica β_l = 1,0 · 10⁻³ K⁻¹. Il volume interno fino alla tacca iniziale ha coefficiente di dilatazione volumica β_r = 3,0 · 10⁻⁵ K⁻¹. Per un aumento di temperatura ΔT = 40 K, qual è la salita del livello h in un capillare di area della sezione A = 0,20 cm², circa costante? Usa altezza = volume in eccesso diviso area della sezione.
 
 - **A.** 20,0 cm
 - **B.** 0,60 cm
@@ -539,7 +539,7 @@ Un corpo si riscalda perché assorbe più radiazione di quanta ne emette. Ha sme
 
 **Dati, condizioni fornite e quesito:**
 
-Una superficie di area 0,20 m² a 400 K cede per irraggiamento 99,2 W netti a un ambiente uniforme a 300 K. Con σ = 5,67 · 10⁻⁸ W/(m² · K⁴), qual è circa ε?
+Una superficie ha area A = 0,20 m² e temperatura T_c = 400 K. Cede una potenza netta per irraggiamento P_n = 99,2 W a un ambiente uniforme di temperatura T_a = 300 K. La costante di Stefan-Boltzmann è σ = 5,67 · 10⁻⁸ W/(m² · K⁴). Qual è circa l’emissività ε?
 
 - **A.** 5,0
 - **B.** 0,05
@@ -581,7 +581,7 @@ Una finestra si appanna formando goccioline. La parte visibile è:
 
 **Dati, condizioni fornite e quesito:**
 
-Una barra libera di 3,0 m con α = 1,0 · 10⁻⁵ K⁻¹ passa da 80 °C a 20 °C. Qual è ΔL in millimetri?
+Una barra libera ha lunghezza iniziale L₀ = 3,0 m e coefficiente di dilatazione lineare α = 1,0 · 10⁻⁵ K⁻¹. Passa dalla temperatura iniziale T_i = 80 °C alla temperatura finale T_f = 20 °C. Qual è la variazione di lunghezza ΔL in millimetri?
 
 - **A.** −1,8 mm
 - **B.** 1,8 mm
@@ -602,7 +602,7 @@ Una barra libera di 3,0 m con α = 1,0 · 10⁻⁵ K⁻¹ passa da 80 °C a 20 �
 
 **Dati, condizioni fornite e quesito:**
 
-Un corpo con C = 1000 J/K riceve 1000 W di radiazione e ne assorbe il 60%. In un intervallo di 60 s la sua potenza media emessa è 400 W. Trascurando gli altri scambi e i cambiamenti di stato, quanto aumenta la temperatura?
+Un corpo ha capacità termica C = 1000 J/K. Riceve una potenza radiante incidente P_i = 1000 W e ne assorbe una frazione a = 60%. Nell’intervallo di tempo Δt = 60 s la potenza media emessa è P_e = 400 W. Trascurando gli altri scambi e i cambiamenti di stato, qual è l’aumento di temperatura ΔT?
 
 - **A.** 12 K
 - **B.** 36 K

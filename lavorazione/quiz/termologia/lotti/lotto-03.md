@@ -14,14 +14,14 @@ Categoria unica `termologia`. Calcolatrice di base consentita. Riferimenti e con
 
 **Dati, condizioni fornite e quesito:**
 
-Un corpo a 600 K scambia radiazione con pareti uniformi a 300 K. Ha ε = 0,50 e area 0,10 m². Con σ = 5,67 · 10⁻⁸ W/(m² · K⁴), qual è circa la potenza netta ceduta?
+Un corpo di temperatura T_c = 600 K scambia radiazione con pareti uniformi di temperatura T_p = 300 K. Ha emissività ε = 0,50 e area A = 0,10 m². La costante di Stefan-Boltzmann è σ = 5,67 · 10⁻⁸ W/(m² · K⁴). Qual è circa la potenza netta ceduta P_n?
 
 - **A.** 689 W
 - **B.** 23 W
 - **C.** 367 W
 - **D.** 344 W
 
-**Risposta corretta: D.** Si usa la differenza fra le quarte potenze: P_netta = 0,50 · 5,67 · 10⁻⁸ · 0,10 · (600⁴ − 300⁴) W ≈ 344 W. La sola emissione sarebbe circa 367 W.
+**Risposta corretta: D.** Si usa la differenza fra le quarte potenze: P_n = 0,50 · 5,67 · 10⁻⁸ · 0,10 · (600⁴ − 300⁴) W ≈ 344 W. La sola emissione sarebbe circa 367 W.
 
 **Motivo del livello:** Impostazione autonoma con più passaggi brevi collegati, senza algebra avanzata. Operazione decisiva: calcolare lo scambio netto con ambiente uniforme.
 
@@ -56,7 +56,7 @@ Quale temperatura corrisponde allo zero assoluto?
 
 **Dati, condizioni fornite e quesito:**
 
-Si raddoppiano sia area sia spessore di una lastra, senza cambiare λ o ΔT fra le facce. La potenza condotta:
+Per una lastra, l’area e lo spessore passano dai valori iniziali A_i e s_i ai valori finali A_f = 2A_i e s_f = 2s_i. La conducibilità termica λ e la differenza di temperatura fra le facce ΔT non cambiano. La potenza condotta:
 
 - **A.** Raddoppia.
 - **B.** Quadruplica.
@@ -161,14 +161,14 @@ Una finestra ha due vetri e un’intercapedine in cui possono avvenire più scam
 
 **Dati, condizioni fornite e quesito:**
 
-Una superficie emette 80 W e assorbe 30 W di radiazione. Qual è la potenza netta ceduta?
+Una superficie ha potenza radiante emessa P_e = 80 W e potenza radiante assorbita P_a = 30 W. Qual è la potenza netta ceduta P_n?
 
 - **A.** 80 W
 - **B.** −50 W
 - **C.** 50 W
 - **D.** 110 W
 
-**Risposta corretta: C.** P_netta = P_emessa − P_assorbita = 80 W − 30 W = 50 W.
+**Risposta corretta: C.** P_n = P_e − P_a = 80 W − 30 W = 50 W.
 
 **Motivo del livello:** Applicazione diretta della relazione indicata, con dati già coerenti o conversione di base. Operazione decisiva: calcolare il bilancio radiativo da due potenze.
 
@@ -182,7 +182,7 @@ Una superficie emette 80 W e assorbe 30 W di radiazione. Qual è la potenza nett
 
 **Dati, condizioni fornite e quesito:**
 
-Un liquido occupa 500 mL e ha β = 1,0 · 10⁻³ K⁻¹ costante. Si scalda di 20 K. Quanto vale il volume finale, trascurando perdite?
+Un liquido ha volume iniziale V₀ = 500 mL e coefficiente di dilatazione volumica β = 1,0 · 10⁻³ K⁻¹, costante. Subisce un aumento di temperatura ΔT = 20 K. Quanto vale il volume finale V_f, trascurando perdite?
 
 - **A.** 520 mL
 - **B.** 10 mL
@@ -203,14 +203,14 @@ Un liquido occupa 500 mL e ha β = 1,0 · 10⁻³ K⁻¹ costante. Si scalda di 
 
 **Dati, condizioni fornite e quesito:**
 
-Due corpi uguali tranne che per l’emissività sono inizialmente più caldi delle stesse pareti uniformi. Scambiano energia solo per irraggiamento, con ε positivo costante e capacità termiche uguali. Ridurre ε cambia la temperatura di equilibrio finale o la rapidità del raffreddamento?
+Due corpi hanno uguali capacità termiche C e sono uguali tranne che per l’emissività ε. Le temperature iniziali sono entrambe T_i, maggiore della temperatura delle pareti uniformi T_p. Scambiano energia solo per irraggiamento, con emissività positiva e costante. Ridurre ε cambia la temperatura di equilibrio finale o la rapidità del raffreddamento?
 
 - **A.** Rende la temperatura finale necessariamente più alta delle pareti.
 - **B.** Non cambia nulla, perché ε si può sempre eliminare anche dal confronto dei flussi.
 - **C.** Rallenta l’avvicinamento, ma la temperatura finale resta quella delle pareti.
 - **D.** Rende la temperatura finale necessariamente più bassa delle pareti.
 
-**Risposta corretta: C.** ε riduce la potenza netta a ogni coppia di temperature, ma il saldo nullo resta a T = T_amb. A capacità uguale, un flusso minore implica una variazione termica più lenta.
+**Risposta corretta: C.** ε riduce la potenza netta a ogni coppia di temperature, ma il saldo nullo resta a T = T_p (temperatura delle pareti). A capacità uguale, un flusso minore implica una variazione termica più lenta.
 
 **Motivo del livello:** Coordinamento di più aspetti, ipotesi o contributi concorrenti prima di concludere. Operazione decisiva: separare equilibrio radiativo e rapidità variando emissività.
 
@@ -245,7 +245,7 @@ Nel linguaggio della fisica, che cosa indica il calore?
 
 **Dati, condizioni fornite e quesito:**
 
-Due strati metallici solidali hanno α diversi. Riscaldandoli, lo strato con α maggiore tende a disporsi:
+Due strati metallici solidali hanno coefficienti di dilatazione lineare α₁ > α₂. Riscaldandoli, il primo strato tende a disporsi:
 
 - **A.** Sul lato interno della curva.
 - **B.** Sempre al centro senza deformarsi.
@@ -287,7 +287,7 @@ Un sistema mantiene temperatura costante mentre riceve e cede continuamente ener
 
 **Dati, condizioni fornite e quesito:**
 
-Si vuole vaporizzare una massa doppia della stessa sostanza nelle stesse condizioni. L’energia del solo cambiamento di stato è:
+Si vuole vaporizzare la stessa sostanza nelle stesse condizioni, confrontando due masse m₁ e m₂ = 2m₁. Rispetto alla prima, l’energia del solo cambiamento di stato della seconda è:
 
 - **A.** Dimezzata.
 - **B.** Doppia.
@@ -329,7 +329,7 @@ Si mescolano due liquidi senza reazioni o passaggi di stato, isolati dall’este
 
 **Dati, condizioni fornite e quesito:**
 
-Condensano 0,010 kg di vapore acqueo a 100 °C e l’acqua ottenuta si raffredda fino a 20 °C. A pressione atmosferica, con L_v = 2257 kJ/kg e c_acqua = 4200 J/(kg · K), quanta energia viene ceduta in tutto?
+Condensa vapore acqueo di massa m = 0,010 kg alla temperatura iniziale T_i = 100 °C e l’acqua ottenuta si raffredda fino alla temperatura finale T_f = 20 °C. A pressione atmosferica, con calore latente specifico di vaporizzazione L = 2257 kJ/kg e calore specifico dell’acqua c = 4200 J/(kg · K), quanta energia Q viene ceduta in tutto?
 
 - **A.** 22,57 kJ
 - **B.** 25,93 kJ
@@ -413,7 +413,7 @@ Nel video di barrette riscaldate, il tempo necessario a fondere cera misura da s
 
 **Dati, condizioni fornite e quesito:**
 
-Due fili dello stesso materiale subiscono lo stesso aumento di temperatura. Il primo è tre volte più lungo. Nel modello lineare, il suo allungamento è:
+Due fili dello stesso materiale subiscono lo stesso aumento di temperatura ΔT. Le lunghezze iniziali soddisfano L₁ = 3L₂. Nel modello lineare, l’allungamento del primo è:
 
 - **A.** Uguale a quello del secondo.
 - **B.** Un terzo di quello del secondo.
@@ -497,7 +497,7 @@ Una lava incandescente resta luminosa anche al buio. Quale interpretazione è co
 
 **Dati, condizioni fornite e quesito:**
 
-Due rette rappresentano Q in funzione di ΔT per due corpi senza cambiamenti di stato. La retta più inclinata corrisponde a:
+Due rette rappresentano il calore Q in funzione dell’aumento di temperatura ΔT per due corpi senza cambiamenti di stato. La retta più inclinata corrisponde a:
 
 - **A.** Capacità termica minore.
 - **B.** Temperatura iniziale necessariamente maggiore.
@@ -581,7 +581,7 @@ In una pentola sigillata acqua evapora nello spazio sopra il liquido. Quale sist
 
 **Dati, condizioni fornite e quesito:**
 
-Due pareti hanno stessi λ, area, spessore e temperature delle facce in regime stazionario. L’aria esterna è diversa nei due esperimenti. Può cambiare la potenza nel muro mantenendo davvero fissati tutti quei dati?
+Due pareti hanno la stessa conducibilità termica λ, area A, spessore s e temperature delle facce T₁ e T₂, in regime stazionario. L’aria esterna è diversa nei due esperimenti. Può cambiare la potenza nel muro mantenendo davvero fissati tutti quei dati?
 
 - **A.** No, nel modello di Fourier la potenza del muro è già determinata dai dati fissati.
 - **B.** Sì: la temperatura dell’aria sostituisce sempre quella della faccia.
@@ -602,7 +602,7 @@ Due pareti hanno stessi λ, area, spessore e temperature delle facce in regime s
 
 **Dati, condizioni fornite e quesito:**
 
-Solidificano 0,030 kg d’acqua a 0 °C. Usa Q = −m · L, con L = 334 kJ/kg. Quanto vale Q per l’acqua?
+Solidifica acqua di massa m = 0,030 kg alla temperatura T = 0 °C. Il calore latente specifico di fusione è L = 334 kJ/kg. Usa Q = −m · L. Quanto vale il calore Q riferito all’acqua?
 
 - **A.** 10,02 kJ
 - **B.** 0 kJ

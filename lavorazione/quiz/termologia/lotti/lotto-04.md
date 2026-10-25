@@ -56,7 +56,7 @@ Quale affermazione descrive correttamente un aumento di energia interna?
 
 **Dati, condizioni fornite e quesito:**
 
-Si raddoppia lo spessore di uno strato omogeneo mantenendo uguali materiale, area e temperature delle facce. La potenza condotta diventa:
+Uno strato omogeneo ha spessore iniziale s_i e viene portato allo spessore finale s_f = 2s_i, senza cambiare materiale, area A e temperature delle facce T₁ e T₂. La potenza condotta diventa:
 
 - **A.** Un quarto.
 - **B.** Il doppio.
@@ -140,7 +140,7 @@ A pressione atmosferica, vicino a quale temperatura l’acqua liquida ha volume 
 
 **Dati, condizioni fornite e quesito:**
 
-Uno strato omogeneo ha λ = 0,040 W/(m · K), area 5,0 m² e ΔT fra le facce di 20 K. Quale spessore limita la potenza stazionaria a 50 W?
+Uno strato omogeneo ha conducibilità termica λ = 0,040 W/(m · K), area A = 5,0 m² e differenza di temperatura fra le facce ΔT = 20 K. Quale spessore s limita la potenza termica stazionaria a P = 50 W?
 
 - **A.** 4,0 cm
 - **B.** 0,80 cm
@@ -182,7 +182,7 @@ Un modello trova T_eq dalla conservazione dell’energia ma non specifica contat
 
 **Dati, condizioni fornite e quesito:**
 
-Un riscaldatore cede 6000 J con potenza termica costante di 200 W. Usa Δt = Q diviso P. Quanto dura il trasferimento?
+Un riscaldatore cede calore Q = 6000 J con potenza termica costante P = 200 W. Usa Δt = Q diviso P. Qual è la durata del trasferimento Δt?
 
 - **A.** 0,033 s
 - **B.** 1200 s
@@ -203,7 +203,7 @@ Un riscaldatore cede 6000 J con potenza termica costante di 200 W. Usa Δt = Q d
 
 **Dati, condizioni fornite e quesito:**
 
-Due recipienti isolati contengono coppie di corpi con stesse masse, c e temperature iniziali. Cambia solo la conducibilità del collegamento fra i corpi. All’equilibrio finale, si prevedono:
+Due recipienti isolati contengono coppie di corpi con le stesse masse m₁ e m₂, gli stessi calori specifici c₁ e c₂ e le stesse temperature iniziali T₁ e T₂. Cambia solo la conducibilità termica λ del collegamento fra i corpi. All’equilibrio finale, si prevedono:
 
 - **A.** Tempi uguali e temperature inversamente proporzionali alla conducibilità.
 - **B.** Temperature finali necessariamente diverse.
@@ -245,7 +245,7 @@ Una capsula calda è dentro un recipiente sigillato più freddo. Si sceglie prim
 
 **Dati, condizioni fornite e quesito:**
 
-Un campione ha massa 0,20 kg e c = 900 J/(kg · K). Calcola la capacità termica con C = m · c.
+Un campione ha massa m = 0,20 kg e calore specifico c = 900 J/(kg · K). Calcola la capacità termica C con C = m · c.
 
 - **A.** 180 J/K
 - **B.** 4500 J/K
@@ -266,7 +266,7 @@ Un campione ha massa 0,20 kg e c = 900 J/(kg · K). Calcola la capacità termica
 
 **Dati, condizioni fornite e quesito:**
 
-Per fondere 80 g di una sostanza già alla sua temperatura di fusione servono 12 kJ. Quanto vale L?
+Per fondere una sostanza di massa m = 80 g, già alla sua temperatura di fusione, serve calore Q = 12 kJ. Quanto vale il calore latente specifico di fusione L?
 
 - **A.** 150 kJ/kg
 - **B.** 0,15 kJ/kg
@@ -287,7 +287,7 @@ Per fondere 80 g di una sostanza già alla sua temperatura di fusione servono 12
 
 **Dati, condizioni fornite e quesito:**
 
-Un solido puro di 0,10 kg con c = 2000 J/(kg · K) si scalda di 10 K e poi fonde completamente a T costante. L’energia totale assorbita è 10 kJ. Quanto vale il suo calore latente specifico?
+Un solido puro ha massa m = 0,10 kg e calore specifico c = 2000 J/(kg · K). Subisce un aumento di temperatura ΔT = 10 K e poi fonde completamente a temperatura T costante. L’energia totale assorbita è Q = 10 kJ. Quanto vale il calore latente specifico di fusione L?
 
 - **A.** 80 kJ/kg
 - **B.** 20 kJ/kg
@@ -308,7 +308,7 @@ Un solido puro di 0,10 kg con c = 2000 J/(kg · K) si scalda di 10 K e poi fonde
 
 **Dati, condizioni fornite e quesito:**
 
-Due strati hanno la stessa geometria e ΔT. Il primo conduce 40 W. Il secondo ha conducibilità pari alla metà della prima. Quanto conduce il secondo?
+Due strati hanno la stessa geometria e differenza di temperatura ΔT. Il primo conduce una potenza termica P₁ = 40 W. Le conducibilità termiche sono λ₁ e λ₂, con λ₂ pari a metà di λ₁. Quale potenza termica P₂ conduce il secondo?
 
 - **A.** 20 W
 - **B.** 40 W
@@ -350,7 +350,7 @@ Un liquido viene versato in un recipiente più caldo di esso. Trascurare la capa
 
 **Dati, condizioni fornite e quesito:**
 
-In una vasca l’acqua profonda è a 4 °C e quella superiore a 1 °C. Si scalda solo lo strato superiore fino a 3 °C. Raggiungerà necessariamente una densità maggiore dello strato a 4 °C e lo attraverserà per questo?
+In una vasca l’acqua profonda ha temperatura T_p = 4 °C e quella superiore ha temperatura iniziale T_i = 1 °C. Si scalda solo lo strato superiore fino alla temperatura finale T_f = 3 °C. Raggiungerà necessariamente una densità maggiore dell’acqua profonda e la attraverserà per questo?
 
 - **A.** No: perché l’acqua fra 1 e 3 °C si dilata sempre.
 - **B.** No: si avvicina alla densità massima ma resta meno denso dell’acqua a circa 4 °C.
@@ -371,7 +371,7 @@ In una vasca l’acqua profonda è a 4 °C e quella superiore a 1 °C. Si scalda
 
 **Dati, condizioni fornite e quesito:**
 
-Due campioni di massa uguale assorbono lo stesso calore, senza cambiare stato. Quello con c maggiore presenta:
+Due campioni hanno masse uguali m₁ = m₂ e assorbono lo stesso calore Q₁ = Q₂, senza cambiare stato. I calori specifici soddisfano c₁ > c₂. Il primo campione presenta:
 
 - **A.** Lo stesso aumento indipendentemente da c.
 - **B.** Una diminuzione di temperatura.
@@ -413,7 +413,7 @@ Si misura dall’esterno un recipiente sigillato mediante un sensore a contatto 
 
 **Dati, condizioni fornite e quesito:**
 
-Un pezzo di ghiaccio di 0,30 kg a −15 °C riceve 150 W costanti senza dispersioni. Con c_ghiaccio = 2100 J/(kg · K), dopo quanto tempo comincia a fondere a 0 °C?
+Un pezzo di ghiaccio ha massa m = 0,30 kg e temperatura iniziale T_i = −15 °C. Riceve una potenza termica costante P = 150 W senza dispersioni. Il calore specifico del ghiaccio è c = 2100 J/(kg · K). Dopo quale intervallo di tempo Δt comincia a fondere alla temperatura finale T_f = 0 °C?
 
 - **A.** 731 s
 - **B.** 668 s
@@ -434,14 +434,14 @@ Un pezzo di ghiaccio di 0,30 kg a −15 °C riceve 150 W costanti senza dispersi
 
 **Dati, condizioni fornite e quesito:**
 
-La potenza netta ceduta per irraggiamento da un corpo è negativa. Che cosa significa?
+La potenza netta ceduta per irraggiamento da un corpo P_n è negativa. Che cosa significa?
 
 - **A.** Assorbe più potenza radiante di quanta ne emetta.
 - **B.** Ha temperatura assoluta negativa.
 - **C.** Non emette alcuna radiazione.
 - **D.** Emette più potenza di quanta ne assorba.
 
-**Risposta corretta: A.** Il segno negativo di P_emessa − P_assorbita indica un acquisto netto di energia.
+**Risposta corretta: A.** La potenza netta ceduta è la differenza fra potenza emessa e assorbita: P_n = P_e − P_a. Un valore negativo indica un acquisto netto di energia.
 
 **Motivo del livello:** Una conseguenza diretta del principio, nelle condizioni indicate. Operazione decisiva: interpretare potenza netta negativa.
 
@@ -455,7 +455,7 @@ La potenza netta ceduta per irraggiamento da un corpo è negativa. Che cosa sign
 
 **Dati, condizioni fornite e quesito:**
 
-Un allarme scatta a 0 °C. Si cambia soltanto il display in kelvin. Quale soglia conserva lo stesso intervento fisico?
+Un allarme scatta alla temperatura Celsius T_°C = 0 °C. Si cambia soltanto il display in kelvin. Quale soglia T_K conserva lo stesso intervento fisico?
 
 - **A.** −273,15 K.
 - **B.** 100 K.
@@ -476,7 +476,7 @@ Un allarme scatta a 0 °C. Si cambia soltanto il display in kelvin. Quale soglia
 
 **Dati, condizioni fornite e quesito:**
 
-Si confronta l’emissione di una superficie a 20 °C e a 40 °C. È corretto moltiplicare la prima potenza per 16?
+Si confronta l’emissione di una superficie alle temperature T₁ = 20 °C e T₂ = 40 °C. È corretto moltiplicare la prima potenza per 16?
 
 - **A.** Sì: il rapporto 40 a 20 determina sempre il rapporto delle T assolute.
 - **B.** Sì: le origini delle scale si cancellano in una quarta potenza.
@@ -497,7 +497,7 @@ Si confronta l’emissione di una superficie a 20 °C e a 40 °C. È corretto mo
 
 **Dati, condizioni fornite e quesito:**
 
-Due corpi con uguale capacità termica costante sono a 10 °C e 30 °C. Senza dispersioni né cambiamenti di stato, T_eq è la media delle due temperature. Quanto vale?
+Due corpi hanno capacità termiche uguali e costanti C₁ = C₂ e temperature iniziali T₁ = 10 °C e T₂ = 30 °C. Senza dispersioni né cambiamenti di stato, la temperatura di equilibrio T_eq è la media delle due temperature. Quanto vale?
 
 - **A.** 40 °C
 - **B.** 10 °C
@@ -581,7 +581,7 @@ Aggiungere alette a un dissipatore aumenta la superficie a contatto con l’aria
 
 **Dati, condizioni fornite e quesito:**
 
-Nella legge P_emessa = ε · σ · A · T⁴, quale temperatura si usa?
+Nella legge della potenza radiante emessa P_e = ε · σ · A · T⁴, quale temperatura T si usa?
 
 - **A.** La temperatura in Fahrenheit senza conversione.
 - **B.** La temperatura assoluta in kelvin.
@@ -602,7 +602,7 @@ Nella legge P_emessa = ε · σ · A · T⁴, quale temperatura si usa?
 
 **Dati, condizioni fornite e quesito:**
 
-Una superficie emette 10 W. Una seconda ha area doppia, emissività dimezzata e temperatura assoluta doppia. Quanto emette la seconda?
+Una superficie emette una potenza P₁ = 10 W. La seconda ha area A₂ = 2A₁, emissività ε₂ pari a metà di ε₁ e temperatura assoluta T₂ = 2T₁, dove A₁, ε₁ e T₁ sono i rispettivi valori della prima. Quale potenza P₂ emette la seconda?
 
 - **A.** 80 W
 - **B.** 320 W

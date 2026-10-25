@@ -1,6 +1,22 @@
 # Stato — quiz
 
-## Stato corrente — integrazione e pubblicazione del quiz di Termologia
+## Stato corrente — dati con nome, simbolo e valore
+
+25 ottobre 2026 (Europe/Rome). Master v69.20, prompt di generazione v1.4.3, specifiche quiz v2.5.1. Ramo `fix/quiz-notazione-matematica`, derivato da main `136cb6e200c8133e61b00690a22894cfa1f25030`; [PR #89](https://github.com/rickymusu-bit/fisica/pull/89).
+
+**Richiesta corrente:** registrare e applicare ai quiz l’ordine nome della grandezza a parole, simbolo, valore con unità. Simbolo sempre presente; pedici opportuni e brevi per grandezze dello stesso tipo. Questa richiesta sostituisce la precedente preferenza per soli nomi nei dati del quesito mostrato. Aggiornate le sezioni pertinenti del master e del prompt, senza aggiunte contraddittorie. Conservate le regole su notazione scientifica, SI e pedici/apici tipografici.
+
+**Implementazione:** 158 testi adeguati (90 calcolo, 57 ragionamento, 11 conoscenza); 10 spiegazioni riallineate nella notazione. Tutti i dati fisici, i risultati, gli indici corretti, le difficoltà e le 78 espressioni di ricalcolo restano invariati. Le alternative cambiano solo nella grafia di Q_b/Q_t in termo-137. Sincronizzate le copie dell’archivio, campione e lotti con schede e metadati. Le domande che chiedono il significato di un simbolo non ne anticipano la definizione.
+
+**Resa:** formatter testuale sicuro con `sub`/`sup`, come i capitoli, senza librerie matematiche esterne. Un controllo sul nuovo archivio ha evidenziato un underscore residuo quando un numero precede il simbolo (esempio `2m_B`); corretto il riconoscimento e ampliato il controllo di regressione. La formattazione resta valida anche per sessioni e risultati già salvati, senza sostituire contenuti, scadenze o scelte.
+
+**Verifiche:** archivio di 300 quesiti, 100 per livello, metadati e schede allineati; ricalcolo delle 78 soluzioni aggiuntive; confronto degli indici corretti e delle alternative con il commit precedente. Build, 26 test, JavaScript, tema e crediti. Suite browser dell’archivio reale e controlli della notazione con sessioni precedenti, tutti i pedici correnti e coefficienti numerici, Unicode, graffe, markup non attendibile; viewport 1440, 390 e 320, temi chiaro/scuro. Mobile emulato; i test non provano calibrazione didattica o tempi osservati in classe.
+
+**Anteprima:** [quiz interattivo](termologia/notazione/quiz.html), [rapporto e immagini](termologia/notazione/README.md), [esiti sulla notazione](termologia/notazione/verifica.json). Le immagini storiche della pubblicazione precedente restano invariate.
+
+**Autorizzazione alla pubblicazione:** il 25 ottobre 2026, dopo l’anteprima corrente, l’utente ha scritto «Perfetto, pubblica.». Sono approvati l’adeguamento e la pubblicazione della PR #89: merge in main e deploy GitHub Pages autorizzati, senza ulteriori conferme. La versione funzionale approvata è il commit `3fd79682d846e6c11e62dd7bb78e20b0088fe8ee`; [CI completa superata](https://github.com/rickymusu-bit/fisica/actions/runs/40173676319). Questo aggiornamento registra soltanto l’autorizzazione, senza cambiare quiz o anteprima. Il workflow [Pubblica Stringhe](https://github.com/rickymusu-bit/fisica/actions/workflows/pages.yml) espone l’esito del deploy; destinazione [quiz online](https://rickymusu-bit.github.io/fisica/quiz.html). La PR #88 sul rapporto della precedente pubblicazione resta separata e invariata.
+
+## Pubblicazione del quiz di Termologia — fase precedente
 
 Aggiornamento: 25 ottobre 2026 (Europe/Rome). Master corrente v69.16: lette le differenze rispetto a v69.15; riguardano visuali e capitoli e non modificano le specifiche del quiz. Prompt v1.4.1, specifiche quiz v2.4.0.
 

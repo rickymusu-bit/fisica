@@ -17,7 +17,7 @@ Si applicano MASTER_PROMPT.md v69.15 (D2.2), il prompt di generazione v1.4.0 e l
 
 La distribuzione del campione è intenzionalmente di 3 domande per tipo e 3 per livello. Per i lotti successivi il riferimento resta 30 conoscenza, 40 ragionamento e 30 calcolo per livello, adattabile ai contenuti. Il campione approvato concorre al totale di domande approvate, mantenendo gli ID senza duplicazioni.
 
-Approvazione: l’utente ha confermato «PROCEDI» dopo la correzione di α in notazione scientifica, richiedendo la stessa notazione anche per numeri molto grandi quando non sono utili i prefissi SI. Il campione approvato resta costituito dai nove quesiti con gli stessi ID e contenuti del commit `db41942ebd320a5284baa8cbf0973f7e065513d9`; questa annotazione aggiorna lo stato editoriale.
+Approvazione: l’utente ha confermato «PROCEDI» dopo la correzione di α in notazione scientifica, richiedendo la stessa notazione anche per numeri molto grandi quando non sono utili i prefissi SI. Il campione originario approvato è documentato nel commit `db41942ebd320a5284baa8cbf0973f7e065513d9`. La versione corrente applica la successiva regola richiesta dal docente: nome della grandezza, simbolo e valore; restano gli stessi ID, dati fisici e risultati. La revisione redazionale non costituisce una nuova pubblicazione.
 
 I tempi sotto indicati comprendono lettura, soluzione e scelta: sono stime prudenti, non misure osservate. Difficoltà e tempi richiedono calibrazione con gli studenti; il campione è ora approvato dal docente, senza dati osservati in classe.
 
@@ -87,7 +87,7 @@ Due camere rigide sono collegate da una valvola: una contiene un gas, l’altra 
 
 **Informazioni fornite:** Massa, calore specifico costante e aumento di temperatura; nessun cambiamento di stato.
 
-Un blocco di massa 0,50 kg ha calore specifico costante c = 400 J/(kg · K). Assorbe calore e la sua temperatura aumenta di 10 K, senza cambiamenti di stato. Quanto calore assorbe?
+Un blocco ha massa m = 0,50 kg e calore specifico costante c = 400 J/(kg · K). Assorbe calore e subisce un aumento di temperatura ΔT = 10 K, senza cambiamenti di stato. Quanto calore Q assorbe?
 
 - **A.** 2000 J
 - **B.** 200 J
@@ -137,7 +137,7 @@ Quale confronto tra evaporazione ed ebollizione è corretto?
 
 **Informazioni fornite:** Oggetti entrambi a 40 °C, pelle inizialmente a 32 °C; a parità di contatto il metallo trasferisce energia più rapidamente.
 
-Un oggetto di metallo e uno di legno sono entrambi a 40 °C. La pelle è inizialmente a 32 °C. Nei primi istanti di contatto il metallo trasferisce energia alla pelle più rapidamente del legno. Quale previsione è corretta?
+Un oggetto di metallo e uno di legno hanno temperature iniziali T_m = T_l = 40 °C. La pelle ha temperatura iniziale T_p = 32 °C. Nei primi istanti di contatto il metallo trasferisce energia alla pelle più rapidamente del legno. Quale previsione è corretta?
 
 - **A.** Il metallo può sembrare più caldo, pur avendo la stessa temperatura del legno.
 - **B.** Il metallo deve avere una temperatura maggiore, perché trasferisce energia più rapidamente.
@@ -164,7 +164,7 @@ Un oggetto di metallo e uno di legno sono entrambi a 40 °C. La pelle è inizial
 
 **Informazioni fornite:** Lunghezza iniziale, temperature, coefficiente costante e dilatazione libera.
 
-Una barra lunga 2,0 m a 20 °C viene portata a 70 °C ed è libera di dilatarsi. Assumi α = 1,2 · 10⁻⁵ K⁻¹ costante. Di quanto aumenta la lunghezza?
+Una barra ha lunghezza iniziale L₀ = 2,0 m alla temperatura iniziale T_i = 20 °C. Viene portata alla temperatura finale T_f = 70 °C ed è libera di dilatarsi. Il coefficiente di dilatazione lineare è α = 1,2 · 10⁻⁵ K⁻¹, costante. Qual è l’allungamento ΔL?
 
 - **A.** 0,12 mm
 - **B.** 1,2 mm
@@ -241,7 +241,7 @@ Un sensore caldo è sospeso con supporti solidi dentro una custodia più fredda.
 
 **Informazioni fornite:** Masse e temperature iniziali, acqua pura a pressione atmosferica, c e L; scambi esterni e contributo del recipiente trascurabili.
 
-In un recipiente si mescolano 0,20 kg d’acqua a 60 °C e 0,10 kg di ghiaccio a 0 °C. Trascurando recipiente e scambi con l’ambiente, quale temperatura di equilibrio si raggiunge? Considera acqua pura a pressione atmosferica, c = 4200 J/(kg · K) costante e calore latente di fusione L = 334 kJ/kg.
+Si mescolano acqua di massa m_a = 0,20 kg e temperatura iniziale T_a = 60 °C e ghiaccio di massa m_g = 0,10 kg e temperatura iniziale T_g = 0 °C. Trascurando recipiente e scambi con l’ambiente, quale temperatura di equilibrio T_eq si raggiunge? Considera acqua pura a pressione atmosferica, con calore specifico dell’acqua c = 4200 J/(kg · K) costante e calore latente specifico di fusione L = 334 kJ/kg.
 
 - **A.** Circa 13,5 °C
 - **B.** Circa 20,2 °C

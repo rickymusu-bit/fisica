@@ -50,7 +50,7 @@ def main():
     original = []
     for name in ('campione', 'lotto'):
         original.extend(json.loads((HERE / (name + '.json')).read_text())['questions'])
-    assert questions[:39] == original, 'Un quesito approvato è cambiato'
+    assert questions[:39] == original, 'Campione o primo lotto non allineati con l’archivio corrente'
     data = json.loads((HERE / 'revisione.json').read_text())
     assert data['baseline_ids'] == [q['id'] for q in original]
     assert set(data['approved_ids']) == set(lookup_id['id'] for lookup_id in questions)
@@ -111,7 +111,7 @@ def main():
     report = dict(total=300, approved=300, pending=0,
                   levels=dict(Counter(q['level'] for q in questions)),
                   new_types_by_level={level: dict(Counter(m['type'] for m in metadata if m['level'] == level)) for level in ('easy', 'medium', 'hard')},
-                  new_calculations_checked=audited, approved_records_unchanged=True,
+                  new_calculations_checked=audited, baseline_sources_match=True,
                   review_batches=9, questions_per_batch=29,
                   answer_positions=dict(Counter(q['correct'] for q in questions)),
                   public_archive_matches=True,
