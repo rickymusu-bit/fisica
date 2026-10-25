@@ -104,13 +104,13 @@
       "level": "hard",
       "prompt": "Un grafico V(t) passa per (0 s; 0 L), (2 s; 6 L) e (4 s; 6 L). Quale descrizione è coerente?",
       "options": [
-        "Il volume aumenta nei primi 2 s e poi rimane costante",
-        "Il volume continua ad aumentare fino a 4 s",
-        "Il volume diminuisce dopo 2 s",
-        "Il volume è sempre nullo"
+        "Nei dati il volume aumenta fra 0 e 2 s e ha lo stesso valore a 2 e 4 s.",
+        "Il volume cresce in tutte le letture.",
+        "Il volume risulta minore a 4 s che a 2 s.",
+        "Il volume è sempre nullo."
       ],
       "correct": 0,
-      "explanation": "L'ordinata passa da 0 a 6 L e poi resta 6 L."
+      "explanation": "Le ordinate riportate sono 0 L, 6 L e 6 L: l'ultima coppia di letture ha lo stesso volume, senza informazioni sui valori intermedi."
     },
     {
       "id": "intro-259",
@@ -188,13 +188,13 @@
       "level": "hard",
       "prompt": "Una serie temporale contiene i punti (1 s; 3 m), (2 s; 3 m), (3 s; 5 m). Quale affermazione segue dai dati?",
       "options": [
-        "La grandezza vale sempre 3 m",
-        "La grandezza diminuisce sempre",
-        "Fra 1 e 2 s il valore non cambia",
-        "Il tempo viene misurato in metri"
+        "Il valore misurato è sempre 3 m.",
+        "A t = 3 s il valore è minore che a t = 2 s.",
+        "Il valore misurato a t = 1 s coincide con quello a t = 2 s.",
+        "Il tempo è stato misurato in metri."
       ],
       "correct": 2,
-      "explanation": "La stessa ordinata 3 m a 1 e 2 s indica nessuna variazione fra quelle due letture."
+      "explanation": "Le due letture per t = 1 s e t = 2 s danno entrambe 3 m; non si deduce dai soli punti l'andamento fra le letture."
     },
     {
       "id": "intro-265",
