@@ -1,0 +1,44 @@
+{
+  "source_record": "termo-285",
+  "viewports": [
+    1440,
+    390,
+    320
+  ],
+  "themes": [
+    "dark",
+    "light"
+  ],
+  "subscript_tokens": [
+    "C_A",
+    "C_B",
+    "L_finale",
+    "L_v",
+    "P_assorbita",
+    "P_emessa",
+    "P_netta",
+    "Q_bevanda",
+    "Q_tazza",
+    "T_K",
+    "T_amb",
+    "T_eq",
+    "T_finale",
+    "T_ghiaccio",
+    "T_°C",
+    "T_°F",
+    "c_A",
+    "c_B",
+    "c_acqua",
+    "c_ghiaccio",
+    "m_calda",
+    "ΔT_K",
+    "ΔT_muro",
+    "ΔT_°F",
+    "β_rec"
+  ],
+  "question_options_and_feedback": "passed",
+  "unicode_and_braces": "passed",
+  "legacy_snapshot_preserved": true,
+  "untrusted_html_stays_text": true,
+  "javascript_errors": []
+}

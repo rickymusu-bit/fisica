@@ -3,6 +3,7 @@ import functools
 import http.server
 import json
 import argparse
+import re
 import shutil
 import tempfile
 import threading
@@ -12,6 +13,15 @@ import verify_stringhe_browser as shared
 
 ROOT = Path(__file__).resolve().parents[1]
 SHOTS = ROOT / 'lavorazione/quiz/termologia/anteprima'
+
+
+def visible_math_text(value):
+    """Testo leggibile del dataset una volta applicati pedici e apici HTML."""
+    value = re.sub(r'_\{([^}]+)\}|_([A-Za-zÀ-ÖØ-öø-ÿΑ-Ωα-ω0-9°]+)',
+                   lambda match: match.group(1) or match.group(2), value)
+    value = re.sub(r'\^\{([^}]+)\}|\^([−+\-]?\d+)',
+                   lambda match: match.group(1) or match.group(2), value)
+    return value.translate(str.maketrans('⁰¹²³⁴⁵⁶⁷⁸⁹⁻⁺₀₁₂₃₄₅₆₇₈₉', '0123456789−+0123456789'))
 
 
 def verify_real(page, base, width):
@@ -44,7 +54,7 @@ def verify_real(page, base, width):
         assert all(q['category'] == 'termologia' and q['level'] == level for q in session['questions'])
         assert all(q['prompt'] == by_id[q['id']]['prompt'] for q in session['questions'])
         for i, question in enumerate(session['questions']):
-            assert page.locator('#quiz-prompt').inner_text() == question['prompt']
+            assert page.locator('#quiz-prompt').inner_text() == visible_math_text(question['prompt'])
             assert page.locator('.quiz-answer input').count() == 4
             assert not page.locator('#quiz-results').is_visible()
             if i == 0:
@@ -63,8 +73,8 @@ def verify_real(page, base, width):
         assert page.locator('.quiz-review-item').count() == count
         for i, question in enumerate(session['questions']):
             item = page.locator('.quiz-review-item').nth(i)
-            assert question['explanation'] in item.inner_text()
-            assert question['options'][question['correct']] in item.inner_text()
+            assert visible_math_text(question['explanation']) in item.inner_text()
+            assert visible_math_text(question['options'][question['correct']]) in item.inner_text()
         if width == 390:
             page.screenshot(path=str(SHOTS / f'risultato-{level}-{width}.png'), full_page=True)
         page.reload()

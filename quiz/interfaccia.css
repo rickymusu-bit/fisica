@@ -74,6 +74,10 @@
 .quiz-review-item .quiz-label{color:var(--muted);font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.055em}
 .quiz-muted{color:var(--muted)}
 .quiz-kicker{color:var(--accent);text-transform:uppercase;font-weight:700;letter-spacing:.1em;font-size:12px}
+/* Pedici e apici nativi, come .inline-math e .math dei capitoli. */
+.quiz-inline-math{white-space:nowrap;letter-spacing:0}
+:is(.quiz-question,.quiz-answer,.quiz-review-item) sub{font-size:.65em;line-height:0;vertical-align:sub}
+:is(.quiz-question,.quiz-answer,.quiz-review-item) sup{font-size:.68em;line-height:0;vertical-align:super}
 @media(max-width:780px){.quiz-layout{grid-template-columns:1fr}.quiz-panel{padding:20px}}
 @media(max-width:440px){.quiz-navigation{grid-template-columns:repeat(5,minmax(0,1fr));max-width:320px}.quiz-legend{gap:7px 11px}.quiz-main-actions{display:grid;grid-template-columns:auto minmax(0,1fr);width:100%;gap:8px}.quiz-main-actions .quiz-action{padding:11px 10px}.quiz-action-stop{margin-left:auto}}
 @media(prefers-reduced-motion:reduce){.quiz-progress span{transition:none}}

@@ -1,6 +1,6 @@
 # Prompt per generare le domande dei quiz di Stringhe
 
-**Versione:** v1.4.1
+**Versione:** v1.4.2
 **Data:** 25 ottobre 2026 (Europe/Rome).
 **Ambito:** quiz del sito Stringhe, distinti dal gioco Fool.
 
@@ -131,7 +131,7 @@ Dichiara le ipotesi quando la loro assenza permetterebbe risposte diverse. Non a
 
 Applica il principio di economia informativa del progetto: conserva ciò che serve a comprendere e risolvere il quesito; elimina ciò che ripete informazioni o non modifica la comprensione. Non eliminare dati, unità e condizioni necessari.
 
-Usa notazione e matematica appropriate al livello previsto e alle regole correnti del repository. Per la temperatura usa T e ΔT; riserva t e Δt al tempo. Per i numeri molto piccoli o molto grandi usa la notazione scientifica a · 10ⁿ, con 1 ≤ |a| < 10, quando non è utile ricorrere ai prefissi SI. Usa i prefissi quando rendono i valori più leggibili, per esempio 144 kJ; conserva la notazione scientifica per coefficienti come α = 1,2 · 10⁻⁵ K⁻¹. Applica la stessa scelta a dati, opzioni e soluzioni.
+Usa notazione e matematica appropriate al livello previsto e alle regole correnti del repository. Per la temperatura usa T e ΔT; riserva t e Δt al tempo. Per i numeri molto piccoli o molto grandi usa la notazione scientifica a · 10ⁿ, con 1 ≤ |a| < 10, quando non è utile ricorrere ai prefissi SI. Usa i prefissi quando rendono i valori più leggibili, per esempio 144 kJ; conserva la notazione scientifica per coefficienti come α = 1,2 · 10⁻⁵ K⁻¹. Applica la stessa scelta a dati, opzioni e soluzioni. Pedici e apici devono essere resi tipograficamente in tutti i campi visualizzati, comprese alternative e spiegazioni: non lasciare underscore visibili. Nei sorgenti testuali il motore riconosce `c_acqua`, `c_{acqua}`, `T_amb⁴` e le cifre Unicode in pedice/apice; conserva le stringhe del dataset e delega la resa a `sub` e `sup` nativi, come nei capitoli. Non inserire HTML eseguibile nei record.
 
 ## 7. Alternative di risposta
 

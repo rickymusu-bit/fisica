@@ -44,6 +44,8 @@ jobs:
         run: python3 scripts/verify_stringhe_browser.py
       - name: Verifica l'archivio reale di Termologia su desktop e mobile
         run: python3 scripts/verify_quiz_browser.py --real-only
+      - name: Verifica pedici e apici, salvataggi precedenti e testo sicuro
+        run: python3 scripts/verify_quiz_notation.py
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -53,3 +55,4 @@ jobs:
             lavorazione/sito/verifica-stringhe.json
             lavorazione/quiz/termologia/anteprima/
             lavorazione/quiz/termologia/verifica-integrazione.json
+            lavorazione/quiz/termologia/notazione/
