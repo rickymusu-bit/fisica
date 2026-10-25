@@ -1,3 +1,7 @@
+## Revisione delle tabelle — 25 ottobre 2026
+
+Ricognizione su tutti i 19 capitoli pubblicati, verifica CSS su desktop e mobile. Corrette 1 tabelle di questo capitolo secondo le regole correnti: intestazioni e dati centrati, mantenendo a sinistra solo colonne di testo discorsivo esteso. HTML ufficiale v9 → v10. Testi scientifici, dati, formule, ordine di righe e colonne, animazioni e media invariati. Data editoriale conservata: modifica soltanto grafica. Bozza: allineata e versionata. Rapporto in lavorazione/sito/allineamento-tabelle.md. Ramo in lavorazione; merge e pubblicazione richiedono approvazione esplicita.
+
 ## Revisione corrente — economia informativa, 24 ottobre 2026
 
 Richiesta esplicita dell’utente: «Okay, riscrivi e taglia in modo opportuno», dopo la ricognizione dei 17 capitoli pubblicati. Master v69.15, AGENTS.md, stile v7 e standard dei visuali consultati. Revisione editoriale autorizzata nel ramo `revisione/economia-informativa`; nessuna autorizzazione al merge o alla pubblicazione.

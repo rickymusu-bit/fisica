@@ -408,6 +408,58 @@ def verify_quiz(page, base):
         page.unroute(route_pattern)
 
 
+
+def verify_table_alignments(page, base, publication):
+    """Controlla tutte le tabelle dei capitoli in Chromium, comprese le eccezioni discorsive."""
+    exceptions = {
+        'metodo_scientifico_it.html': ['.method-section td[colspan]'],
+        'potenze_dieci_notazione_scientifica_it.html': [
+            '.notation-table[data-align-prose="row-labels"] th[scope="row"]'
+        ],
+        'cifre_significative_it.html': [
+            '.significant-table[data-align-prose="reason"] td:last-child',
+            '.significant-table[data-align-prose="after-first"] td:not(:first-child)'
+        ],
+        'strumenti_misura_it.html': ['.measurement-sim table td[colspan]'],
+        'errori_incertezza_misura_it.html': [
+            '.measure-table[data-align-prose="reason"] td:last-child',
+            '.measurement-sim table td[colspan]'
+        ],
+        'stati_della_materia.html': [
+            '.comparison-table td:nth-child(2)',
+            '.comparison-table td:nth-child(4)'
+        ],
+        'passaggi_di_stato.html': [
+            '.comparison-table table:not([data-align-kind]) td:nth-child(n+2)',
+            '.comparison-table table[data-align-kind="latent"] td:nth-child(3)'
+        ]
+    }
+    script = """(allowed) => {
+      const tables=[...document.querySelectorAll('.article table')];
+      const failures=[];
+      tables.forEach((table,index)=>{
+        [...table.querySelectorAll('th,td')].forEach(cell=>{
+          const align=getComputedStyle(cell).textAlign;
+          if(align==='center')return;
+          if(align==='left' && allowed.some(s=>cell.matches(s)))return;
+          failures.push({table:index+1,tag:cell.tagName,align,
+            text:cell.textContent.trim().replace(/\\s+/g,' ').slice(0,90)});
+        });
+      });
+      return {tables:tables.length,failures};
+    }"""
+    for width in (390, 1440):
+        page.set_viewport_size({'width': width, 'height': 900})
+        count = 0
+        for name in publication['articoli']:
+            page.goto(base + name)
+            state = page.evaluate(script, exceptions.get(name, []))
+            count += state['tables']
+            assert not state['failures'], (name, width, state['failures'])
+        assert count == 35, ('Numero di tabelle inatteso', width, count)
+    print('Allineamento verificato: 35 tabelle, 19 capitoli, viewport 390/1440; eccezioni discorsive motivate')
+
+
 def main():
     SHOTS.mkdir(parents=True, exist_ok=True)
     # Il modello è verificato ma non diventa un articolo pubblicato.
@@ -535,6 +587,7 @@ def main():
                         page.locator('.curve-controls').screenshot(path=str(SHOTS/f'curva-comandi-{width}-{theme}.png'))
                         page.locator('.topbar').screenshot(path=str(SHOTS/f'barra-capitolo-{width}-{theme}.png'))
             verify_media_controls(page, base, publication)
+            verify_table_alignments(page, base, publication)
             # Anteprima del grafico completo, nei due temi e nelle due impaginazioni.
             for width in [390,1440]:
                 page.set_viewport_size({'width':width,'height':1500})
