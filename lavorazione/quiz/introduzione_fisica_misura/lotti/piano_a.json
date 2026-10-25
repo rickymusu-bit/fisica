@@ -88,29 +88,29 @@
       "id": "intro-240",
       "category": "introduzione_fisica_misura",
       "level": "easy",
-      "prompt": "Il punto (−2; −3) si trova nel:",
+      "prompt": "Quale punto non appartiene a nessuno dei quattro quadranti?",
       "options": [
-        "Primo quadrante",
-        "Secondo quadrante",
-        "Terzo quadrante",
-        "Quarto quadrante"
+        "(2; 3)",
+        "(−2; 3)",
+        "(0; 3)",
+        "(−2; −3)"
       ],
       "correct": 2,
-      "explanation": "Entrambe le coordinate sono negative nel terzo quadrante."
+      "explanation": "Il punto (0; 3) appartiene all'asse verticale e non a un quadrante."
     },
     {
       "id": "intro-241",
       "category": "introduzione_fisica_misura",
       "level": "easy",
-      "prompt": "Il punto (2; −3) si trova nel:",
+      "prompt": "Quali segni hanno le coordinate di un punto nel quarto quadrante?",
       "options": [
-        "Primo quadrante",
-        "Secondo quadrante",
-        "Terzo quadrante",
-        "Quarto quadrante"
+        "(+; +)",
+        "(−; +)",
+        "(−; −)",
+        "(+; −)"
       ],
       "correct": 3,
-      "explanation": "Nel quarto quadrante x è positiva e y negativa."
+      "explanation": "Nel quarto quadrante l'ascissa è positiva e l'ordinata negativa."
     },
     {
       "id": "intro-242",
