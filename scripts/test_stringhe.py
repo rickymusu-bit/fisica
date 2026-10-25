@@ -98,10 +98,13 @@ class PublicationTests(unittest.TestCase):
         self.assertNotIn('chapters', payload)
         archive = json.loads((ROOT / 'quiz/domande.json').read_text())
         self.assertEqual(payload['questions'], archive['questions'])
-        self.assertEqual(len(payload['questions']), 300)
-        self.assertEqual({q['category'] for q in payload['questions']}, {'termologia'})
-        for level in ('easy', 'medium', 'hard'):
-            self.assertEqual(sum(q['level'] == level for q in payload['questions']), 100)
+        self.assertEqual(len(payload['questions']), 600)
+        self.assertEqual({q['category'] for q in payload['questions']},
+                         {'termologia', 'introduzione_fisica_misura'})
+        for category in ('termologia', 'introduzione_fisica_misura'):
+            for level in ('easy', 'medium', 'hard'):
+                self.assertEqual(sum(q['level'] == level and q['category'] == category
+                                     for q in payload['questions']), 100)
         self.assertFalse((ROOT / 'quiz/domande-prova.json').exists())
         self.assertNotIn('Nessuna domanda disponibile al momento.', quiz)
         self.assertNotIn('Le domande saranno disponibili quando', quiz)
