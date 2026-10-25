@@ -13,7 +13,8 @@ class IntroQuizArchiveTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.intro = json.loads((WORK / "archivio.json").read_text(encoding="utf-8"))["questions"]
-        cls.public = json.loads((ROOT / "quiz/domande.json").read_text(encoding="utf-8"))["questions"]
+        cls.public = [q for category in ("termologia", "introduzione_fisica_misura")
+                      for q in json.loads((ROOT / "quiz/domande" / (category + ".json")).read_text(encoding="utf-8"))["questions"]]
         cls.review = json.loads((WORK / "revisione.json").read_text(encoding="utf-8"))["questions"]
 
     def test_count_categories_and_preservation(self):
