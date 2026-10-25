@@ -1,0 +1,242 @@
+{
+  "questions": [
+    {
+      "id": "intro-251",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "In un grafico, gli assi hanno scale diverse: 1 quadretto orizzontale = 2 s, 1 verticale = 3 m. Un punto a (3 quadretti; 2 quadretti) rappresenta:",
+      "options": [
+        "(3 s; 2 m)",
+        "(6 s; 6 m)",
+        "(9 s; 4 m)",
+        "(6 s; 3 m)"
+      ],
+      "correct": 1,
+      "explanation": "Le coordinate fisiche sono 3·2=6 s e 2·3=6 m."
+    },
+    {
+      "id": "intro-252",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale coppia descrive un punto appartenente all'asse delle ordinate sopra l'origine?",
+      "options": [
+        "(2; 0)",
+        "(−2; 2)",
+        "(0; 2)",
+        "(0; −2)"
+      ],
+      "correct": 2,
+      "explanation": "Sull'asse delle ordinate x=0 e sopra l'origine y>0."
+    },
+    {
+      "id": "intro-253",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "La tabella indica che a t = 3 s un contenitore ha V = 12 L. Quale grafico rispetta questa informazione?",
+      "options": [
+        "Quello che contiene il punto (12; 3), con t orizzontale",
+        "Quello che contiene il punto (3; 0)",
+        "Quello che contiene il punto (0; 12)",
+        "Quello che contiene il punto (3; 12), con t orizzontale"
+      ],
+      "correct": 3,
+      "explanation": "Il punto ha ascissa tempo 3 s e ordinata volume 12 L."
+    },
+    {
+      "id": "intro-254",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Nel grafico di un volume in funzione del tempo, una porzione orizzontale indica:",
+      "options": [
+        "Volume costante nell'intervallo",
+        "Volume sempre crescente",
+        "Tempo che scorre all'indietro",
+        "Volume negativo"
+      ],
+      "correct": 0,
+      "explanation": "Con y invariata mentre x aumenta, il volume rimane costante."
+    },
+    {
+      "id": "intro-255",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un punto P si trova in (−4; 2). Per portarlo sull'asse verticale mantenendo l'ordinata, quale ascissa assegnare?",
+      "options": [
+        "−2",
+        "0",
+        "2",
+        "4"
+      ],
+      "correct": 1,
+      "explanation": "Un punto è sull'asse y quando la sua ascissa è zero."
+    },
+    {
+      "id": "intro-256",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "L'asse x usa 1 quadretto = 0,5 s, quello y 1 quadretto = 2 m. Un punto è 6 quadretti a destra e 4 in alto. Quali coordinate fisiche ha?",
+      "options": [
+        "(6 s; 4 m)",
+        "(12 s; 2 m)",
+        "(3 s; 8 m)",
+        "(3 s; 4 m)"
+      ],
+      "correct": 2,
+      "explanation": "x=6·0,5=3 s e y=4·2=8 m."
+    },
+    {
+      "id": "intro-257",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Il grafico di una grandezza y rispetto a x include i punti A=(−2; 3) e B=(4; 3). Che cosa resta invariato nel passaggio da A a B?",
+      "options": [
+        "L'ascissa",
+        "Il quadrante",
+        "La distanza dall'asse verticale",
+        "L'ordinata"
+      ],
+      "correct": 3,
+      "explanation": "Entrambi i punti hanno la stessa coordinata y=3."
+    },
+    {
+      "id": "intro-258",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un grafico V(t) passa per (0 s; 0 L), (2 s; 6 L) e (4 s; 6 L). Quale descrizione è coerente?",
+      "options": [
+        "Il volume aumenta nei primi 2 s e poi rimane costante",
+        "Il volume continua ad aumentare fino a 4 s",
+        "Il volume diminuisce dopo 2 s",
+        "Il volume è sempre nullo"
+      ],
+      "correct": 0,
+      "explanation": "L'ordinata passa da 0 a 6 L e poi resta 6 L."
+    },
+    {
+      "id": "intro-259",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "L'asse verticale riporta temperatura in °C: da −10 a +10 con una tacca ogni 5 °C. Quante tacche distano 0 °C da +10 °C?",
+      "options": [
+        "Una",
+        "Due",
+        "Tre",
+        "Quattro"
+      ],
+      "correct": 1,
+      "explanation": "Tra 0 e +10 ci sono due intervalli da 5 °C."
+    },
+    {
+      "id": "intro-260",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Il punto A ha coordinate (−3; −4) e il punto B (−3; 2). Che cosa è uguale nei due punti?",
+      "options": [
+        "L'ordinata",
+        "Il quadrante",
+        "L'ascissa",
+        "La distanza dall'asse x"
+      ],
+      "correct": 2,
+      "explanation": "Entrambi hanno x=−3."
+    },
+    {
+      "id": "intro-261",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un punto è nel quarto quadrante. Si cambia soltanto il segno della sua ordinata. In quale quadrante si trova il nuovo punto?",
+      "options": [
+        "Quarto",
+        "Secondo",
+        "Terzo",
+        "Primo"
+      ],
+      "correct": 3,
+      "explanation": "Nel quarto quadrante x>0, y<0; invertendo y si ottengono entrambe positive."
+    },
+    {
+      "id": "intro-262",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una tabella dà: t=0 s, V=5 L; t=2 s, V=5 L; t=4 s, V=8 L. Quale andamento rappresenta i dati?",
+      "options": [
+        "Prima un tratto costante, poi una crescita",
+        "Prima una crescita, poi una diminuzione",
+        "Una diminuzione continua",
+        "Un volume sempre proporzionale al tempo dall'origine"
+      ],
+      "correct": 0,
+      "explanation": "Il volume inizialmente resta 5 L e poi sale a 8 L."
+    },
+    {
+      "id": "intro-263",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un punto è a 3 quadretti a sinistra e 2 in basso. Le scale sono 2 unità per quadretto su x e 5 unità su y. Quali coordinate ha?",
+      "options": [
+        "(−3; −2)",
+        "(−6; −10)",
+        "(6; 10)",
+        "(−10; −6)"
+      ],
+      "correct": 1,
+      "explanation": "Il segno è negativo per entrambi gli assi: x=−3·2=−6 e y=−2·5=−10."
+    },
+    {
+      "id": "intro-264",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una serie temporale contiene i punti (1 s; 3 m), (2 s; 3 m), (3 s; 5 m). Quale affermazione segue dai dati?",
+      "options": [
+        "La grandezza vale sempre 3 m",
+        "La grandezza diminuisce sempre",
+        "Fra 1 e 2 s il valore non cambia",
+        "Il tempo viene misurato in metri"
+      ],
+      "correct": 2,
+      "explanation": "La stessa ordinata 3 m a 1 e 2 s indica nessuna variazione fra quelle due letture."
+    },
+    {
+      "id": "intro-265",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un punto P=(5; −2) viene riflesso rispetto all'asse orizzontale, cambiando solo segno a y. Qual è il punto ottenuto?",
+      "options": [
+        "(−5; −2)",
+        "(−5; 2)",
+        "(5; −2)",
+        "(5; 2)"
+      ],
+      "correct": 3,
+      "explanation": "La riflessione rispetto all'asse x conserva x e inverte y."
+    },
+    {
+      "id": "intro-266",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "In un grafico l'asse x va da 0 a 12 s in 6 intervalli uguali. Un dato a 5 intervalli dall'origine ha ascissa:",
+      "options": [
+        "10 s",
+        "5 s",
+        "12 s",
+        "8 s"
+      ],
+      "correct": 0,
+      "explanation": "Ogni intervallo rappresenta 12/6=2 s; dopo cinque intervalli sono 10 s."
+    },
+    {
+      "id": "intro-267",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un punto ha coordinate (−2; 0) e un altro (0; −2). Quale affermazione è corretta?",
+      "options": [
+        "Sono entrambi nel terzo quadrante",
+        "Il primo è sull'asse x, il secondo sull'asse y",
+        "Hanno la stessa ascissa",
+        "Sono entrambi sull'asse x"
+      ],
+      "correct": 1,
+      "explanation": "Un'ordinata nulla colloca il primo sull'asse x; l'ascissa nulla colloca il secondo sull'asse y."
+    }
+  ]
+}
