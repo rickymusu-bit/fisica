@@ -8,7 +8,7 @@ I cubetti lasciati in un bicchiere diventano più piccoli e, al loro posto, comp
 
 [IMMAGINE P2 — GIF esistente dei cubetti che si sciolgono nel bicchiere.]
 
-Didascalia: I cubetti diminuiscono mentre aumenta l'acqua liquida: la sostanza cambia stato senza cambiare identità chimica.
+Didascalia: Durante la fusione il ghiaccio assorbe energia dall’ambiente: l’acqua resta la stessa sostanza.
 
 ## Cambiare stato, restare la stessa sostanza
 
@@ -28,7 +28,7 @@ La goccia sulla foglia può ridursi senza che al suo interno compaiano bolle. Da
 
 [IMMAGINE P3 — GIF esistente della goccia sulla foglia.]
 
-Didascalia: La goccia si riduce senza bollire: l'acqua passa nell'aria attraverso la superficie del liquido.
+Didascalia: La goccia perde acqua per evaporazione dalla superficie, senza raggiungere l’ebollizione.
 
 Se il liquido non riceve abbastanza energia dall'ambiente per compensare quella persa, l'evaporazione tende a raffreddarlo. Le molecole che sfuggono portano via energia e l'energia media di quelle rimaste diminuisce. L'evaporazione non richiede quindi un liquido già caldo, ma uno scambio energetico che permetta alle molecole di separarsi. La rapidità con cui procede dipende anche dalle condizioni dell'aria sopra la superficie.
 
@@ -36,13 +36,13 @@ Nel recipiente con acqua in **ebollizione**, invece, si formano bolle di vapore 
 
 [IMMAGINE P4 — GIF esistente dell'acqua in ebollizione.]
 
-Didascalia: Le bolle di vapore si formano nel liquido e risalgono. L'ebollizione coinvolge anche l'interno del liquido, mentre l'evaporazione avviene alla superficie.
+Didascalia: Le bolle di vapore distinguono l’ebollizione dall’evaporazione superficiale.
 
 | Caratteristica | Evaporazione | Ebollizione |
 | --- | --- | --- |
 | Dove avviene | Alla superficie | Anche all'interno del liquido |
-| Temperatura | Può avvenire anche sotto la temperatura di ebollizione | Alla temperatura di ebollizione corrispondente alla pressione considerata |
-| Bolle di vapore nel liquido | Non sono necessarie | Si formano e crescono |
+| Temperatura | Anche sotto la temperatura di ebollizione | Alla temperatura di ebollizione, che dipende dalla pressione |
+| Bolle di vapore nel liquido | Non si formano per evaporazione | Si formano e crescono |
 | Scambio energetico | Assorbe energia; può raffreddare il liquido rimasto | Richiede energia per trasformare il liquido in vapore |
 
 ## Dal gas alle gocce o al ghiaccio
@@ -51,7 +51,7 @@ Sul vetro freddo si possono formare gocce anche se nessuno lo ha bagnato. Nell'a
 
 [IMMAGINE P5 — Fotografia esistente della condensa sul vetro.]
 
-Didascalia: Sul vetro si raccolgono goccioline liquide formate dal vapore acqueo presente nell'aria.
+Didascalia: Le gocce sul vetro provengono dal vapore acqueo dell’aria, che condensa sulla superficie fredda.
 
 Anche nelle nuvole la parte visibile non è il vapore acqueo. Una nuvola contiene minuscole gocce d’acqua e, secondo le condizioni, cristalli di ghiaccio sospesi nell’aria. Le goccioline si formano per condensazione.[^nota-cristalli-nuvole]
 
@@ -69,7 +69,7 @@ Il passaggio diretto inverso, da gas a solido, si chiama **brinamento**. Sulle f
 
 [IMMAGINE P8 — Fotografia esistente delle foglie ricoperte di brina.]
 
-Didascalia: I cristalli di brina si formano quando il vapore acqueo si deposita direttamente come ghiaccio sulla superficie fredda.
+Didascalia: La brina si forma per passaggio diretto del vapore acqueo a ghiaccio, senza una fase liquida intermedia.
 
 ## Energia senza aumento di temperatura
 
@@ -91,14 +91,20 @@ Qui **Q** è la quantità di energia assorbita durante la trasformazione e si mi
 
 La formula esprime una proporzionalità diretta: a parità di sostanza e di trasformazione, una massa doppia richiede energia doppia. Non è necessario raggiungere una temperatura più alta per fondere più ghiaccio; serve trasferire più energia alla stessa temperatura di fusione. Anche L conta: se il suo valore è maggiore, occorre più energia per trasformare la stessa massa.[^nota-convenzione-energia]
 
-[TABELLA P12 — Valori per l'acqua, associati alle condizioni del grafico.]
+[TABELLA P12 — Calori latenti specifici di sei sostanze, a pressione atmosferica ordinaria.]
 
-| Trasformazione dell'acqua | Calore latente specifico approssimato | Condizioni |
-| --- | --- | --- |
-| Fusione | Lf = 3,34 · 10⁵ J/kg = 334 kJ/kg | Circa 0 °C, pressione atmosferica ordinaria |
-| Vaporizzazione | Lv = 2,257 · 10⁶ J/kg = 2,257 MJ/kg | Circa 100 °C, pressione atmosferica ordinaria |
+I valori seguenti sono approssimati e riferiti alla pressione atmosferica ordinaria (circa 101 kPa): il calore latente di fusione è valutato alla temperatura di fusione, quello di vaporizzazione alla temperatura di ebollizione di ciascuna sostanza. 1 kJ/kg = 1000 J/kg.
 
-Il valore per la vaporizzazione è molto maggiore di quello per la fusione: separare le molecole fino allo stato gassoso richiede più energia che renderle libere di scorrere nel liquido.[^nota-5]
+| Sostanza | Temperatura di fusione (°C) | Fusione Lf (kJ/kg) | Temperatura di ebollizione (°C) | Vaporizzazione Lv (kJ/kg) |
+| --- | --- | --- | --- | --- |
+| Acqua | 0 | 334 | 100 | 2257 |
+| Etanolo | −114 | 104 | 78,3 | 854 |
+| Azoto | −210,0 | 25,5 | −195,8 | 201 |
+| Ossigeno | −218,8 | 13,8 | −183,0 | 213 |
+| Mercurio | −38,9 | 11,8 | 357 | 272 |
+| Piombo | 327 | 24,5 | 1750 | 871 |
+
+Per ogni sostanza della tabella, il calore latente di vaporizzazione supera quello di fusione. Per l’acqua è circa 6,8 volte maggiore: separare le molecole fino allo stato gassoso richiede più energia che renderle libere di scorrere nel liquido.[^nota-5]
 
 ## Applicazioni
 
@@ -106,7 +112,7 @@ Quando il sudore **evapora dalla pelle**, l'acqua riceve energia dalla pelle e d
 
 [IMMAGINE A1 — Foto scelta di Michael Jordan con sudore visibile: `risorse/sudore.jpg`; originale conservato in `risorse/originali/sudore.jpg`. Usare integralmente senza modifiche; credito richiesto «Lipofsky Basketballphoto.com» nei crediti, non nella didascalia.]
 
-Didascalia: Il sudore è visibile sulla pelle di Michael Jordan. Quando evapora, assorbe energia e contribuisce al raffreddamento del corpo.
+Didascalia: Il sudore sulla pelle di Michael Jordan può sottrarre energia al corpo quando evapora; le gocce ancora liquide non hanno ancora completato il passaggio di stato.
 
 Una **pompa di calore**, quando riscalda l’abitazione, trasferisce energia dall’ambiente esterno agli ambienti interni. Può farlo anche quando l’aria fuori è fredda: il fluido refrigerante può essere ancora più freddo dell’aria e assorbirne energia. Ricevendo energia, il refrigerante evapora. Il compressore, alimentato elettricamente, permette di proseguire il trasferimento verso la casa.[^nota-ciclo-refrigerante]
 
@@ -114,13 +120,13 @@ Nello scambiatore che cede calore alla casa, il refrigerante condensa e trasferi
 
 [IMMAGINE A2 — Foto scelta dell’unità esterna di una pompa di calore: `risorse/pompa-di-calore.webp`; originale conservato in `risorse/originali/pompa-di-calore.webp`. Nessuno schema del frigorifero. Foto integrale, senza modifiche.]
 
-Didascalia A2: L'unità esterna scambia energia con l'aria. Durante il riscaldamento della casa, il refrigerante assorbe energia all'esterno evaporando; il ciclo la trasferisce all'abitazione grazie al lavoro del compressore.
+Didascalia: In modalità riscaldamento il refrigerante evapora nell’unità esterna e condensa nello scambiatore interno, trasferendo energia verso la casa.
 
 Anche una **centrale nucleare** utilizza cambiamenti di stato dell’acqua per produrre energia elettrica. Il reattore riscalda l’acqua di un primo circuito, che trasferisce energia all’acqua di un secondo circuito senza mescolarsi con essa. È nel secondo circuito che l’acqua vaporizza e produce il vapore da inviare alla turbina.[^nota-circuiti-pwr]
 
 [IMMAGINE A3 — Schema originale TVA in SVG con tutte le etichette tradotte in italiano: `risorse/centrale-nucleare-it.svg`. Originale conservato in `risorse/originali/centrale-nucleare.svg`; circuiti, colori, frecce e proporzioni invariati. Apertura ingrandita disponibile.]
 
-Didascalia A3: Il circuito primario trasferisce energia al secondario senza mescolare le due acque. Il secondario produce il vapore diretto alla turbina; nel condensatore il vapore torna liquido cedendo energia al circuito di raffreddamento.
+Didascalia: Nel reattore PWR l’acqua del circuito primario resta liquida grazie alla pressione elevata; il vapore che aziona la turbina si forma nel circuito secondario.
 
 Il vapore raggiunge la **turbina** e la fa ruotare. La turbina aziona il **generatore elettrico**. Dopo la turbina, il vapore passa nel **condensatore**, dove cede energia e torna liquido; una pompa rimette l’acqua in circolo.
 
@@ -258,3 +264,6 @@ Per confrontare questa energia con un consumo familiare, 1,50 GJ corrispondono a
 [^nota-rapporto-vaporizzazione-riscaldamento]: La vaporizzazione richiede circa 5,40 volte l’energia usata per riscaldare la stessa acqua da 0 a 100 °C.
 
 [^nota-consumo-casa]: Fonte: [ARERA, Sintesi della Relazione annuale 2025, p. 36 (pagina 38 del PDF), dati 2024](https://www.arera.it/fileadmin/allegati/relaz_ann/25/Sintesi_Relazione_Annuale_2025_10settembre.pdf#page=38): consumo medio unitario delle famiglie pari a 1.930 kWh/anno, considerando l’insieme dei mercati di fornitura. Il dato è riferito alle utenze elettriche domestiche e include abitazioni principali e altre utenze domestiche: non rappresenta il consumo energetico totale dell’abitazione comprensivo di gas o altri combustibili. Per il confronto: 1 kWh = 3,60 MJ; 1,5045 GJ corrispondono a circa 418 kWh e, rispetto a 1,93 MWh/anno, a circa 2,6 mesi.
+
+
+<!-- Fonti della tabella P12: risorse/crediti.json, science-calori-latenti-openstax. L’HTML v27 corrente prevale sui riferimenti storici della bozza non coinvolti nella revisione. -->

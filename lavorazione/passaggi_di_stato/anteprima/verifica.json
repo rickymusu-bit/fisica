@@ -1,0 +1,202 @@
+{
+  "views": [
+    {
+      "width": 320,
+      "theme": "light",
+      "javascript": true,
+      "table": "confronto-evaporazione-ebollizione",
+      "client": 238,
+      "scroll": 420
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "javascript": true,
+      "table": "calori-latenti",
+      "client": 238,
+      "scroll": 683
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "javascript": true,
+      "table": "confronto-evaporazione-ebollizione",
+      "client": 238,
+      "scroll": 420
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "javascript": true,
+      "table": "calori-latenti",
+      "client": 238,
+      "scroll": 683
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "javascript": true,
+      "table": "confronto-evaporazione-ebollizione",
+      "client": 308,
+      "scroll": 420
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "javascript": true,
+      "table": "calori-latenti",
+      "client": 308,
+      "scroll": 683
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "javascript": true,
+      "table": "confronto-evaporazione-ebollizione",
+      "client": 308,
+      "scroll": 420
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "javascript": true,
+      "table": "calori-latenti",
+      "client": 308,
+      "scroll": 683
+    },
+    {
+      "width": 1280,
+      "theme": "light",
+      "javascript": true,
+      "table": "confronto-evaporazione-ebollizione",
+      "client": 808,
+      "scroll": 808
+    },
+    {
+      "width": 1280,
+      "theme": "light",
+      "javascript": true,
+      "table": "calori-latenti",
+      "client": 808,
+      "scroll": 808
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "javascript": true,
+      "table": "confronto-evaporazione-ebollizione",
+      "client": 808,
+      "scroll": 808
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "javascript": true,
+      "table": "calori-latenti",
+      "client": 808,
+      "scroll": 808
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "javascript": false,
+      "table": "confronto-evaporazione-ebollizione",
+      "client": 238,
+      "scroll": 420
+    },
+    {
+      "width": 320,
+      "theme": "light",
+      "javascript": false,
+      "table": "calori-latenti",
+      "client": 238,
+      "scroll": 683
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "javascript": false,
+      "table": "confronto-evaporazione-ebollizione",
+      "client": 238,
+      "scroll": 420
+    },
+    {
+      "width": 320,
+      "theme": "dark",
+      "javascript": false,
+      "table": "calori-latenti",
+      "client": 238,
+      "scroll": 683
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "javascript": false,
+      "table": "confronto-evaporazione-ebollizione",
+      "client": 308,
+      "scroll": 420
+    },
+    {
+      "width": 390,
+      "theme": "light",
+      "javascript": false,
+      "table": "calori-latenti",
+      "client": 308,
+      "scroll": 683
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "javascript": false,
+      "table": "confronto-evaporazione-ebollizione",
+      "client": 308,
+      "scroll": 420
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "javascript": false,
+      "table": "calori-latenti",
+      "client": 308,
+      "scroll": 683
+    },
+    {
+      "width": 1280,
+      "theme": "light",
+      "javascript": false,
+      "table": "confronto-evaporazione-ebollizione",
+      "client": 808,
+      "scroll": 808
+    },
+    {
+      "width": 1280,
+      "theme": "light",
+      "javascript": false,
+      "table": "calori-latenti",
+      "client": 808,
+      "scroll": 808
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "javascript": false,
+      "table": "confronto-evaporazione-ebollizione",
+      "client": 808,
+      "scroll": 808
+    },
+    {
+      "width": 1280,
+      "theme": "dark",
+      "javascript": false,
+      "table": "calori-latenti",
+      "client": 808,
+      "scroll": 808
+    }
+  ],
+  "captions": 13,
+  "added_captions": 8,
+  "substances": 6,
+  "media_unchanged": true,
+  "offline": true,
+  "js_errors": []
+}
