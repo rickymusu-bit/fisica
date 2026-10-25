@@ -52,3 +52,40 @@ jobs:
           print('AUDIT_END')
           print('SUMMARY',json.dumps({'chapters':len(pub),'tables':sum(x['tableCount'] for x in report),'chaptersWithTables':[x['chapter'] for x in report if x['tableCount']]},ensure_ascii=False))
           PY
+
+      - name: Installa Playwright e Chromium
+        run: |
+          python3 -m pip install playwright==1.56.0
+          python3 -m playwright install --with-deps chromium
+      - name: Misura allineamenti reali desktop e mobile
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import json
+          from collections import Counter
+          from playwright.sync_api import sync_playwright
+          pub=json.loads(Path('pubblicazione.json').read_text())['articoli']
+          results=[]
+          js='''() => [...document.querySelectorAll('table')].map((table,i)=>{
+              const cells=[...table.querySelectorAll('th,td')];
+              const data=cells.map((c,j)=>({i:j,tag:c.tagName,align:getComputedStyle(c).textAlign,txt:c.textContent.trim().replace(/\\s+/g,' ').slice(0,65),classes:c.className}));
+              const count={};data.forEach(c=>count[c.align]=(count[c.align]||0)+1);
+              return {i:i+1,classes:table.className,counts:count,cells:data.filter(c=>c.align!=='center').slice(0,12),total:data.length}
+          })'''
+          with sync_playwright() as pw:
+              browser=pw.chromium.launch(headless=True,args=['--no-sandbox'])
+              for name in pub:
+                  for width in (390,1280):
+                      page=browser.new_page(viewport={'width':width,'height':780})
+                      try:
+                          page.goto((Path.cwd()/name).as_uri(),wait_until='domcontentloaded',timeout=25000)
+                          a=page.evaluate(js)
+                          results.append({'file':name,'width':width,'tables':a})
+                      except Exception as exc:
+                          results.append({'file':name,'width':width,'error':str(exc)[:260]})
+                      finally: page.close()
+              browser.close()
+          print('BROWSER_AUDIT_START')
+          print(json.dumps(results,ensure_ascii=False))
+          print('BROWSER_AUDIT_END')
+          PY
