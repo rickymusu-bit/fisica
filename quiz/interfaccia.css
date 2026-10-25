@@ -17,7 +17,6 @@
 .quiz-level{display:block;border:1px solid var(--line);border-radius:13px;margin:8px 0;padding:12px 13px;cursor:pointer}
 .quiz-level:has(input:checked){border-color:var(--accent);background:var(--surface-soft)}
 .quiz-level input{accent-color:var(--accent);margin-right:9px}
-.quiz-level small{display:block;color:var(--muted);margin-left:27px}
 .quiz-count-control{display:grid;gap:7px;margin:18px 0 7px;font-weight:750}
 .quiz-count-stepper{display:flex;align-items:center;gap:8px}
 .quiz-count-stepper input{width:78px;max-width:100%;min-height:46px;padding:8px 6px;text-align:center;border:1px solid var(--line);border-radius:11px;background:var(--surface);color:var(--ink);font:inherit;font-variant-numeric:tabular-nums;appearance:textfield;-moz-appearance:textfield}
