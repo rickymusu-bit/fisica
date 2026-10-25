@@ -1,6 +1,6 @@
 # Termologia — lotto 5
 
-Versione v1 — 25 ottobre 2026. **29 proposte da revisionare.**
+Versione v1 — 25 ottobre 2026. **29 quesiti approvati con la richiesta «Va bene, pubblica».**
 
 Categoria unica `termologia`. Calcolatrice di base consentita. Riferimenti e condizioni di produzione sono nell’[indice](../indice.md). I tempi sono stime non osservate e includono lettura e scelta.
 

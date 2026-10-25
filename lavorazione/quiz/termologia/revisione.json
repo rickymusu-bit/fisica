@@ -39,9 +39,7 @@
     "termo-036",
     "termo-037",
     "termo-038",
-    "termo-039"
-  ],
-  "pending_ids": [
+    "termo-039",
     "termo-040",
     "termo-041",
     "termo-042",
@@ -304,6 +302,7 @@
     "termo-299",
     "termo-300"
   ],
+  "pending_ids": [],
   "review": [
     {
       "id": "termo-040",
@@ -4776,5 +4775,47 @@
         "expected": 25.926786218317368
       }
     }
-  ]
+  ],
+  "baseline_ids": [
+    "termo-001",
+    "termo-002",
+    "termo-003",
+    "termo-004",
+    "termo-005",
+    "termo-006",
+    "termo-007",
+    "termo-008",
+    "termo-009",
+    "termo-010",
+    "termo-011",
+    "termo-012",
+    "termo-013",
+    "termo-014",
+    "termo-015",
+    "termo-016",
+    "termo-017",
+    "termo-018",
+    "termo-019",
+    "termo-020",
+    "termo-021",
+    "termo-022",
+    "termo-023",
+    "termo-024",
+    "termo-025",
+    "termo-026",
+    "termo-027",
+    "termo-028",
+    "termo-029",
+    "termo-030",
+    "termo-031",
+    "termo-032",
+    "termo-033",
+    "termo-034",
+    "termo-035",
+    "termo-036",
+    "termo-037",
+    "termo-038",
+    "termo-039"
+  ],
+  "approval": "L’utente ha approvato i 261 nuovi quesiti e richiesto la pubblicazione: «Va bene, pubblica», poi «Riprendi»."
 }

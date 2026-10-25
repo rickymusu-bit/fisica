@@ -282,7 +282,7 @@
     target.replaceChildren(fragment);
     const answered = s.responses.filter(response => response !== null).length;
     const skipped = s.skipped.filter(Boolean).length;
-    const summary = "Risposte date: " + answered + " · Saltate: " + skipped;
+    const summary = "Risposte date: " + answered + " — Saltate: " + skipped;
     (finished ? resultSummary : statusSummary).textContent = summary;
   }
 

@@ -6,7 +6,7 @@
 
 Stringhe raccoglie capitoli visuali di fisica in italiano. I capitoli attuali appartengono alla macro categoria **Termologia**; elenco e ordine sono definiti in [`pubblicazione.json`](pubblicazione.json) e nel catalogo sorgente di [`index.html`](index.html).
 
-La home offre **Tutti i capitoli**, **Mi sento fortunato** e **Quiz** nelle card; la barra superiore contiene soltanto lingua e tema chiaro/scuro. Il catalogo ha ricerca e filtro per area tematica; la scelta casuale comprende soltanto i capitoli pubblicati. Quiz presenta il futuro generatore di verifiche per argomento, distinto dal progetto nel repository [rickymusu-bit/quiz](https://github.com/rickymusu-bit/quiz).
+La home offre **Tutti i capitoli**, **Mi sento fortunato** e **Quiz** nelle card; la barra superiore contiene soltanto lingua e tema chiaro/scuro. Il catalogo ha ricerca e filtro per area tematica; la scelta casuale comprende soltanto i capitoli pubblicati. Quiz offre sessioni da 1 a 30 domande con un archivio di 300 quesiti di Termologia, 100 per livello, distinto dal progetto nel repository [rickymusu-bit/quiz](https://github.com/rickymusu-bit/quiz).
 
 ## Capitoli e tema comune
 

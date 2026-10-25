@@ -1,35 +1,20 @@
 # Stato — quiz
 
-## Stato corrente — archivio completo di Termologia
+## Stato corrente — integrazione e pubblicazione del quiz di Termologia
 
-Aggiornamento: 25 ottobre 2026 (Europe/Rome). Master consultato: v69.15; prompt v1.4.1; specifiche quiz v2.3.0. Le sezioni successive conservano la cronologia precedente.
+Aggiornamento: 25 ottobre 2026 (Europe/Rome). Master corrente v69.16: lette le differenze rispetto a v69.15; riguardano visuali e capitoli e non modificano le specifiche del quiz. Prompt v1.4.1, specifiche quiz v2.4.0.
 
-**Richiesta corrente:** «sta bene, crea tutte quelle rimanenti». L’utente approva il primo lotto e autorizza la produzione di tutte le 261 domande residue, senza ulteriori pause fra i lotti. Restano la notazione scientifica per numeri molto piccoli o grandi quando non è utile usare prefissi SI e le altre istruzioni correnti. Nessuna autorizzazione di pubblicazione è stata dedotta.
+**Autorizzazione corrente:** dopo aver ricevuto l’archivio completo, l’utente ha scritto «Va bene, pubblica», poi «Riprendi». Sono quindi approvate tutte le 300 domande di Termologia e autorizzata la loro pubblicazione nell’ambito corrente. L’approvazione precedente del primo lotto resta registrata; nessun record delle domande è stato modificato durante l’integrazione.
 
-**Produzione completata:** 300 quesiti di Termologia, 100 facili, 100 medi e 100 difficili. In ciascun livello 30 conoscenza, 40 ragionamento e 30 calcolo. I 39 già approvati sono conservati senza modificare i record; sono state create 261 nuove proposte, termo-040–termo-300, con quattro alternative e tempi stimati di 40–110 secondi. Calcolatrice di base consentita; nessun nuovo prerequisito disciplinare esterno.
+**Archivio integrato:** `quiz/domande.json`, identico a [archivio.json](termologia/archivio.json). Per ogni livello: 100 domande, di cui 30 conoscenza, 40 ragionamento e 30 calcolo; totale 300 approvate e nessuna in attesa di revisione. Termologia è disponibile a tutte le difficoltà. Introduzione alla fisica e alla misura resta disabilitata perché non ha quesiti. Le sessioni da 1 a 30 pescano in un insieme da 100 per livello, senza ripetizioni. Le sessioni già salvate continuano a recuperare i propri quesiti e scadenze.
 
-Ramo `feature/quiz-termologia-campione`, PR #81 in bozza. Base scientifica: i dieci capitoli pubblicati di Termologia al commit `ef29a4fe630287c59d707abacd082e2fc0617691`; main verificato invariato all’avvio. Campione approvato al commit `db41942ebd320a5284baa8cbf0973f7e065513d9`; primo lotto approvato al commit `03ab66243a60bdd93decdb4227e1c9dd435616b5`.
+Ramo `feature/quiz-termologia-campione`, PR #81. Integrato sul ramo di lavoro main `3d8afa2`, che conserva i due nuovi capitoli già pubblicati nell’altra categoria. Manifest, capitoli e crediti non modificati da questo incarico. Aggiornati i test che presumevano un archivio vuoto e il messaggio della pagina prima dell’avvio; il punto centrato del riepilogo è sostituito da un trattino secondo la regola grafica corrente.
 
-File correnti:
+**Verifiche concluse:** tema condiviso allineato; registro crediti verificato; build di 24 HTML e 20 copertine; 24 test superati; validazione di tutti i 300 record e 78 ricalcoli dei nuovi quesiti. Browser Chromium desktop 1440 px e mobile emulato 390 px: archivio reale, tutti i livelli, categorie disponibili/non disponibili, estrazione di domande uniche, correzione completa 30/30 e 3/3, ordine delle opzioni, recupero della sessione e del risultato. Superata anche la suite esistente su categorie, timer, scadenze fuori pagina, storage bloccato, salvataggi corrotti e sessioni precedenti. Nessun errore JavaScript rilevato.
 
-- [Indice della revisione completa](termologia/indice.md), con nove lotti nuovi da 29 quesiti ciascuno.
-- [Archivio completo candidato](termologia/archivio.json): i soli sette campi previsti, pronto per l’importazione successiva.
-- [Metadati didattici e ricalcoli](termologia/revisione.json), separati dal dataset di importazione.
-- [Rapporto delle verifiche](termologia/verifica-archivio.md) e controllo ripetibile `termologia/verifica_archivio.py`.
-- [Campione approvato](termologia/bozza.md) e [primo lotto approvato](termologia/lotto.md), con i JSON originali invariati.
+**Anteprima corrente e documentazione:** [rapporto di integrazione](termologia/pubblicazione.md), HTML autonomo e immagini in `termologia/anteprima/`. Gli screenshot usano domande reali e sono stati controllati visivamente. I tempi rimangono stime progettuali, non osservazioni in classe.
 
-| Livello | Approvate | Nuove proposte da revisionare | Totale preparato |
-|---|---:|---:|---:|
-| Facile | 13 | 87 | 100 |
-| Medio | 13 | 87 | 100 |
-| Difficile | 13 | 87 | 100 |
-| Totale | 39 | 261 | 300 |
-
-**Verifiche concluse:** validatore corrente sull’archivio completo; conteggi e ripartizione; 300 ID continui e testi distinti anche dopo normalizzazione numerica; preservazione dei 39 record approvati; quattro alternative e soluzione valida; coerenza completa dei nove lotti con il JSON; riferimenti locali, metadati e tempi entro 120 secondi. Ricalcolati tutti i 78 nuovi quesiti quantitativi, verificando anche il numero presentato nell’alternativa corretta e gli arrotondamenti. Le risposte sono distribuite in 75 posizioni A, 75 B, 75 C e 75 D, in ordine variato. Superati i cinque test esistenti del quiz e il controllo whitespace dei file preparati per il commit. Revisione interna di ipotesi, segni, unità, distrattori e sovrapposizioni completata; dettagli e limiti nel rapporto. Nessun nuovo visuale, modifica ai capitoli, al manifest, al motore o alla pubblicazione. Non necessaria una build del sito per soli materiali di lavorazione.
-
-**Approvazioni effettive:** campione e primo lotto, per un totale di 39 domande. Le 261 nuove sono prodotte e controllate ma non ancora approvate dal docente. Il target quantitativo di produzione è raggiunto; quello di 300 domande approvate richiede la revisione residua. Le stime dei tempi non sono prove osservate sugli studenti.
-
-**Prossima operazione:** revisione didattica delle 261 nuove, applicazione delle eventuali correzioni e aggiornamento dei conteggi di approvazione. La produzione richiesta è conclusa. Dopo la revisione, integrazione in `quiz/domande.json`, verifica di estrazione/sessione e anteprima corrente; merge e pubblicazione soltanto dopo la relativa approvazione esplicita. L’archivio pubblico resta assente e il sito non è stato cambiato.
+**Passaggio corrente:** salvataggio remoto, verifica CI del commit finale, quindi integrazione della PR e controllo del deployment Pages autorizzato dall’utente. Il rapporto di pubblicazione registra l’esito e il collegamento al workflow una volta disponibili. Le autorizzazioni non si estendono a revisioni future.
 
 Ultimo aggiornamento: 2026-10-16 14:15 (Europe/Rome). Master consultato: v44.
 

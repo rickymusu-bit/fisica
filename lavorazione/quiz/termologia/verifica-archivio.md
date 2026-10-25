@@ -1,6 +1,6 @@
 # Verifica dell’archivio di Termologia
 
-25 ottobre 2026 (Europe/Rome). Archivio candidato completo, senza pubblicazione.
+25 ottobre 2026 (Europe/Rome). Rapporto della fase di produzione, precedente all’approvazione finale. L’utente ha successivamente approvato l’archivio completo e richiesto la pubblicazione; i controlli di integrazione sono in [pubblicazione.md](pubblicazione.md).
 
 ## Esito
 

@@ -52,7 +52,9 @@ def main():
         original.extend(json.loads((HERE / (name + '.json')).read_text())['questions'])
     assert questions[:39] == original, 'Un quesito approvato è cambiato'
     data = json.loads((HERE / 'revisione.json').read_text())
-    assert data['approved_ids'] == [q['id'] for q in original]
+    assert data['baseline_ids'] == [q['id'] for q in original]
+    assert set(data['approved_ids']) == set(lookup_id['id'] for lookup_id in questions)
+    assert data['pending_ids'] == []
     metadata = data['review']
     assert len(metadata) == 261
     lookup = {q['id']: q for q in questions}
@@ -65,7 +67,7 @@ def main():
         matches = re.findall(r'^### (termo-\d{3}) — (Facile|Media|Difficile), (conoscenza|ragionamento|calcolo)$', (HERE / name).read_text(), re.M)
         original_meta.extend(dict(id=i, level=labels[level], type=kind) for i, level, kind in matches)
     assert len(original_meta) == 39
-    assert {m['id'] for m in original_meta} == set(data['approved_ids'])
+    assert {m['id'] for m in original_meta} == set(data['baseline_ids'])
     for level in ('easy', 'medium', 'hard'):
         assert Counter(m['type'] for m in original_meta + metadata if m['level'] == level) == {'conoscenza': 30, 'ragionamento': 40, 'calcolo': 30}
     audited = 0
@@ -104,15 +106,15 @@ def main():
             if not target.startswith('https:'):
                 assert (path.parent / target.split('#')[0]).is_file(), target
     assert len(seen) == len(set(seen)) == 261
-    assert set(seen) == set(data['pending_ids'])
-    assert not (ROOT / 'quiz/domande.json').exists(), 'Archivio pubblico modificato'
-    report = dict(total=300, approved=39, pending=261,
+    assert set(seen) == {m['id'] for m in metadata}
+    assert json.loads((ROOT / 'quiz/domande.json').read_text())['questions'] == questions
+    report = dict(total=300, approved=300, pending=0,
                   levels=dict(Counter(q['level'] for q in questions)),
                   new_types_by_level={level: dict(Counter(m['type'] for m in metadata if m['level'] == level)) for level in ('easy', 'medium', 'hard')},
                   new_calculations_checked=audited, approved_records_unchanged=True,
                   review_batches=9, questions_per_batch=29,
                   answer_positions=dict(Counter(q['correct'] for q in questions)),
-                  public_archive_unchanged=True,
+                  public_archive_matches=True,
                   limitations='Non prova calibrazione didattica o tempi osservati in classe.')
     print(json.dumps(report, ensure_ascii=False, indent=2))
 

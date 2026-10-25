@@ -1,0 +1,32 @@
+{
+  "archive": 300,
+  "checks": [
+    {
+      "width": 1440,
+      "levels": [
+        "easy",
+        "medium",
+        "hard"
+      ],
+      "questions_per_session": 30,
+      "score": "30 / 30",
+      "unique_questions": true,
+      "resume_and_results": true
+    },
+    {
+      "width": 390,
+      "levels": [
+        "easy",
+        "medium",
+        "hard"
+      ],
+      "questions_per_session": 3,
+      "score": "3 / 3",
+      "unique_questions": true,
+      "resume_and_results": true
+    }
+  ],
+  "existing_quiz_browser_suite": "passed",
+  "javascript_errors": [],
+  "mobile": "Chromium emulato, non dispositivo fisico"
+}

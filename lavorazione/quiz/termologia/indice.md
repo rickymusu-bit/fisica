@@ -2,18 +2,18 @@
 
 Versione v1 — 25 ottobre 2026 (Europe/Rome).
 
-**Produzione completa: 300 domande, 100 per livello.** Sono approvate le 39 domande del campione e del primo lotto; le 261 nuove sono proposte per la revisione del docente. Il via «sta bene, crea tutte quelle rimanenti» autorizza l’intera produzione residua, senza pause fra i lotti; non attribuisce approvazioni preventive ai quesiti nuovi.
+**Produzione completa: 300 domande, 100 per livello.** Tutte le 300 domande sono approvate dall’utente, che ha richiesto «Va bene, pubblica» e poi «Riprendi». Il precedente via alla produzione è stato seguito dall’approvazione dell’archivio completo e dall’incarico di pubblicazione.
 
 [Archivio completo compatibile con il sito](archivio.json). [Metadati di revisione e controlli numerici](revisione.json). [Rapporto delle verifiche](verifica-archivio.md).
 
-Il file di importazione ha i soli sette campi previsti dal validatore. Non viene caricato dal sito pubblico: la collocazione è in lavorazione. Le domande già approvate conservano esattamente ID, contenuti, alternative e soluzioni.
+Il file di importazione ha i soli sette campi previsti dal validatore. La copia sorgente attiva è `quiz/domande.json`, identica a questo archivio. Le domande già approvate conservano esattamente ID, contenuti, alternative e soluzioni.
 
 | Livello | Conoscenza | Ragionamento | Calcolo | Totale | Approvate | Nuove proposte |
 |---|---:|---:|---:|---:|---:|---:|
-| Facile | 30 | 40 | 30 | 100 | 13 | 87 |
-| Medio | 30 | 40 | 30 | 100 | 13 | 87 |
-| Difficile | 30 | 40 | 30 | 100 | 13 | 87 |
-| Totale | 90 | 120 | 90 | 300 | 39 | 261 |
+| Facile | 30 | 40 | 30 | 100 | 100 | 0 |
+| Medio | 30 | 40 | 30 | 100 | 100 | 0 |
+| Difficile | 30 | 40 | 30 | 100 | 100 | 0 |
+| Totale | 90 | 120 | 90 | 300 | 300 | 0 |
 
 Ogni domanda ha quattro alternative e una sola soluzione. I tempi stimati comprendono lettura, ragionamento, eventuale calcolo e scelta, con limite di 120 secondi. Sono stime progettuali, senza misure osservate in classe. Calcolatrice di base consentita; nessun prerequisito disciplinare esterno a Termologia, oltre a operazioni, proporzioni e conversioni di base.
 
@@ -40,4 +40,4 @@ Si applicano il master v69.15, il prompt v1.4.1 e il campione effettivamente app
 
 I riferimenti servono alla revisione; nell’archivio tutti i quesiti hanno soltanto l’ID stabile `category: termologia`, senza classificazione dei capitoli o tag tecnici. Le riprese di uno stesso principio hanno operazioni o condizioni differenti; la verifica di similarità testuale è documentata nel rapporto, senza presentarla come prova automatica di varietà didattica.
 
-La sezione 10, fase 4, del [prompt](../../../quiz/PROMPT_GENERAZIONE_DOMANDE.md) richiede la revisione del docente prima dell’uso. La produzione è completata; non viene dichiarato raggiunto il target di 300 domande approvate finché non sono approvate anche le 261 nuove. Merge e pubblicazione richiedono l’anteprima corrente nella successiva fase di integrazione.
+La revisione richiesta dalla sezione 10, fase 4, del [prompt](../../../quiz/PROMPT_GENERAZIONE_DOMANDE.md) è conclusa con l’approvazione dell’utente dell’archivio completo. Il target di 300 domande approvate di Termologia è raggiunto. Verifiche di integrazione e anteprima corrente sono documentate in [pubblicazione.md](pubblicazione.md).
