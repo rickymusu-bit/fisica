@@ -1,0 +1,214 @@
+{
+  "questions": [
+    {
+      "id": "intro-286",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un tragitto è lungo 180 km. Quanto dura a velocità media costante di 90 km/h?",
+      "options": [
+        "1 h",
+        "2 h",
+        "3 h",
+        "4 h"
+      ],
+      "correct": 1,
+      "explanation": "Il tempo è distanza/velocità: 180/90 = 2 h."
+    },
+    {
+      "id": "intro-287",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Una quantità y è direttamente proporzionale a x. Se per x=3 si ha y=21, quanto vale y per x=5?",
+      "options": [
+        "25",
+        "30",
+        "35",
+        "40"
+      ],
+      "correct": 2,
+      "explanation": "La costante è 21/3=7, quindi y=7·5=35."
+    },
+    {
+      "id": "intro-288",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "In una relazione y=kx², se x si dimezza, che cosa accade a y?",
+      "options": [
+        "Si dimezza",
+        "Raddoppia",
+        "Si riduce a un ottavo",
+        "Si riduce a un quarto"
+      ],
+      "correct": 3,
+      "explanation": "(x/2)² = x²/4."
+    },
+    {
+      "id": "intro-289",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale insieme di dati non è direttamente proporzionale?",
+      "options": [
+        "x: 1,2,3; y: 3,6,10",
+        "x: 1,2,3; y: 3,6,9",
+        "x: 1,2,3; y: 4,8,12",
+        "x: 1,2,3; y: 5,10,15"
+      ],
+      "correct": 0,
+      "explanation": "Nel primo gruppo y/x cambia: 3, 3, circa 3,33."
+    },
+    {
+      "id": "intro-290",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un oggetto percorre 40 m in 5 s a velocità costante. Quanto percorre in 8 s?",
+      "options": [
+        "56 m",
+        "64 m",
+        "72 m",
+        "80 m"
+      ],
+      "correct": 1,
+      "explanation": "La velocità è 40/5 = 8 m/s; in 8 s percorre 64 m."
+    },
+    {
+      "id": "intro-291",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una grandezza y è direttamente proporzionale a x e si ha y=18 per x=3. Quale valore di x corrisponde a y=42?",
+      "options": [
+        "6",
+        "8",
+        "7",
+        "9"
+      ],
+      "correct": 2,
+      "explanation": "La costante è 18/3=6; x=42/6=7."
+    },
+    {
+      "id": "intro-292",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "A velocità costante un treno impiega 3 h per coprire 240 km. Quanto tempo serve per 400 km alla stessa velocità?",
+      "options": [
+        "4 h",
+        "6 h",
+        "8 h",
+        "5 h"
+      ],
+      "correct": 3,
+      "explanation": "La velocità è 80 km/h; 400/80=5 h."
+    },
+    {
+      "id": "intro-293",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una grandezza y è inversamente proporzionale a x. Se y=15 per x=4, quale x dà y=12?",
+      "options": [
+        "5",
+        "3",
+        "6",
+        "8"
+      ],
+      "correct": 0,
+      "explanation": "xy=60; per y=12, x=60/12=5."
+    },
+    {
+      "id": "intro-294",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Per una relazione y=kx², con y=12 quando x=2, quanto vale y per x=5?",
+      "options": [
+        "48",
+        "75",
+        "60",
+        "30"
+      ],
+      "correct": 1,
+      "explanation": "La costante è 12/4=3; y=3·25=75."
+    },
+    {
+      "id": "intro-295",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una relazione diretta associa a x=2 il valore y=8. Un'altra quadratica associa agli stessi valori x=2, y=8. Per x=4 quali risultati si ottengono rispettivamente?",
+      "options": [
+        "(32;16)",
+        "(16;16)",
+        "(16;32)",
+        "(32;32)"
+      ],
+      "correct": 2,
+      "explanation": "Diretta: k=4, quindi 16; quadratica: k=2, quindi 32."
+    },
+    {
+      "id": "intro-296",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un'area quadrata è A=36 cm². Se il lato aumenta di un fattore 1,5, qual è la nuova area?",
+      "options": [
+        "48 cm²",
+        "54 cm²",
+        "72 cm²",
+        "81 cm²"
+      ],
+      "correct": 3,
+      "explanation": "L'area varia di 1,5²=2,25; 36·2,25=81 cm²."
+    },
+    {
+      "id": "intro-297",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Per una stessa distanza, un viaggio dura 6 h a 50 km/h. Quanto dura a 75 km/h?",
+      "options": [
+        "4 h",
+        "5 h",
+        "7 h",
+        "9 h"
+      ],
+      "correct": 0,
+      "explanation": "La distanza è 300 km; il nuovo tempo è 300/75 = 4 h."
+    },
+    {
+      "id": "intro-298",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una grandezza y=k/x passa per (x=3,y=8). Quale coppia appartiene alla stessa relazione?",
+      "options": [
+        "(x=4,y=8)",
+        "(x=6,y=4)",
+        "(x=8,y=6)",
+        "(x=12,y=4)"
+      ],
+      "correct": 1,
+      "explanation": "Il prodotto xy=24; con x=6, y=4."
+    },
+    {
+      "id": "intro-299",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una grandezza y è direttamente proporzionale a x, un'altra è quadratica. Se entrambe valgono 5 per x=1, quali valori assumono per x=3?",
+      "options": [
+        "(15;15)",
+        "(45;15)",
+        "(15;45)",
+        "(45;45)"
+      ],
+      "correct": 2,
+      "explanation": "Diretta: 5·3=15; quadratica: 5·3²=45."
+    },
+    {
+      "id": "intro-300",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una grandezza y aumenta di un fattore 16 quando x quadruplica, con coefficiente k costante e positivo. Quale modello è coerente?",
+      "options": [
+        "Proporzionalità inversa",
+        "Proporzionalità diretta",
+        "Valore costante",
+        "Proporzionalità quadratica"
+      ],
+      "correct": 3,
+      "explanation": "In y=kx², quadruplicare x moltiplica y per 4²=16."
+    }
+  ]
+}
