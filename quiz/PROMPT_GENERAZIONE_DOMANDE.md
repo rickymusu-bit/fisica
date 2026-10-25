@@ -1,6 +1,6 @@
 # Prompt per generare le domande dei quiz di Stringhe
 
-**Versione:** v1.4.3
+**Versione:** v1.4.4
 **Data:** 25 ottobre 2026 (Europe/Rome).
 **Ambito:** quiz del sito Stringhe, distinti dal gioco Fool.
 
@@ -253,3 +253,8 @@ La scheda di revisione comprende metadati didattici ulteriori rispetto a questo 
 
 Questo prompt non autorizza a generare lotti non richiesti, inventare approvazioni o pubblicare il sito.
 
+## 12. Manutenzione del prompt delle domande
+
+**Politica di manutenzione e versionamento (MAJOR.MINOR.PATCH).** Per tutti i prompt canonici, a ogni modifica esegui una revisione incrementale delle sezioni coinvolte e dei loro rimandi: elimina duplicazioni, riferimenti obsoleti e prolissità senza modificare vincoli, comportamenti o autorizzazioni. PATCH indica correzioni compatibili, MINOR aggiunte compatibili, MAJOR modifiche incompatibili o riorganizzazioni sostanziali delle istruzioni. Prima di ogni aggiornamento MAJOR effettua un refactoring strutturale completo, ricontrollando organizzazione, sovrapposizioni, coerenza e dipendenze. Eseguilo anche su richiesta esplicita o quando problemi strutturali importanti lo richiedono, indipendentemente dalla versione. Il refactoring che preserva le regole non comporta di per sé un incremento MAJOR: scegli il livello in funzione dei cambiamenti effettivi. Presenta criticità e proposte prima del refactoring completo e richiedi approvazione per cambiamenti sostanziali; non risolvere autonomamente contraddizioni né fare merge o pubblicare senza autorizzazione. Non aumentare la versione una seconda volta per il solo refactoring. Le versioni sono indipendenti per documento e la cronologia Git conserva il passato. La nuova politica sostituisce le precedenti soglie numeriche fisse (ogni dieci versioni).
+
+La manutenzione del prompt non autorizza nuovi lotti, modifiche all'archivio, merge o pubblicazione del sito.
