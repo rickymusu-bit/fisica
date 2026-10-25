@@ -1,0 +1,54 @@
+name: Ricognizione tabelle Stringhe (temporanea)
+on:
+  push:
+    branches: [fix/audit-allineamento-tabelle-capitoli-20261025]
+    paths: [.github/workflows/audit-tabelle-temporaneo.yml]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: fix/audit-allineamento-tabelle-capitoli-20261025
+      - name: Analizza tabelle di tutti i capitoli pubblicati
+        run: |
+          python3 - <<'PY'
+          import re, json
+          from pathlib import Path
+          from html import unescape
+          root=Path('.')
+          pub=json.loads((root/'pubblicazione.json').read_text())['articoli']
+          report=[]
+          for name in pub:
+              source=(root/name).read_text(encoding='utf-8')
+              tables=re.findall(r'<table\b[^>]*>[\s\S]*?</table>',source,re.I)
+              all_styles='\n'.join(re.findall(r'<style\b[^>]*>([\s\S]*?)</style>',source,re.I))
+              cssrules=[]
+              for selector,rule in re.findall(r'([^{}]+)\{([^{}]+)\}',all_styles):
+                  if re.search(r'text-align\s*:',rule,re.I) and re.search(r'(?:table|\bth\b|\btd\b|\.data-|\.measure-|\.si-|\.comparison-)',selector,re.I):
+                      cssrules.append(' '.join((selector.strip()+' {'+rule.strip()+'}').split())[:360])
+              details=[]
+              for j,t in enumerate(tables):
+                  tag=re.match(r'<table\b[^>]*>',t,re.I).group(0)
+                  cells=re.findall(r'<(th|td)\b([^>]*)>([\s\S]*?)</\1>',t,re.I)
+                  rows=re.findall(r'<tr\b[^>]*>',t,re.I)
+                  counts={}
+                  examples=[]
+                  for typ,attrs,inner in cells:
+                      att=' '.join(attrs.split())[:220]
+                      key=(typ.lower(), re.search(r'\b(?:style|align)\s*=\s*(?:"[^"]*"|\x27[^\x27]*\x27)',att,re.I).group(0) if re.search(r'\b(?:style|align)\s*=\s*(?:"[^"]*"|\x27[^\x27]*\x27)',att,re.I) else 'default')
+                      counts[str(key)]=counts.get(str(key),0)+1
+                      if len(examples)<6:
+                          text=unescape(re.sub(r'<[^>]+>',' ',inner))
+                          text=' '.join(text.split())[:80]
+                          examples.append(dict(type=typ,txt=text,attr=att))
+                  details.append(dict(index=j+1,tableTag=tag[:280],cells=len(cells),rows=len(rows),cellStyles=counts,examples=examples))
+              report.append(dict(chapter=name,tableCount=len(tables),tables=details,cssRules=cssrules[:22]))
+          print('AUDIT_START')
+          print(json.dumps(report,ensure_ascii=False,indent=2))
+          print('AUDIT_END')
+          print('SUMMARY',json.dumps({'chapters':len(pub),'tables':sum(x['tableCount'] for x in report),'chaptersWithTables':[x['chapter'] for x in report if x['tableCount']]},ensure_ascii=False))
+          PY
