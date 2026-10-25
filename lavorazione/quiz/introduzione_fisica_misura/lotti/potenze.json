@@ -130,7 +130,7 @@
       "id": "intro-084",
       "category": "introduzione_fisica_misura",
       "level": "easy",
-      "prompt": "Quale simbolo rappresenta 10⁻⁶?",
+      "prompt": "Quale potenza di dieci rappresenta un milionesimo?",
       "options": [
         "10⁶",
         "10⁻⁶",
@@ -138,7 +138,7 @@
         "10⁻³"
       ],
       "correct": 1,
-      "explanation": "L'esponente negativo esprime il reciproco della corrispondente potenza positiva."
+      "explanation": "Un milionesimo è 1/10⁶, cioè 10⁻⁶."
     },
     {
       "id": "intro-085",
