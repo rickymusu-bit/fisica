@@ -98,7 +98,8 @@ class PublicationTests(unittest.TestCase):
         self.assertNotIn('chapters', payload)
         self.assertNotIn('questions', payload)
         self.assertEqual(len(payload['categories']), 2)
-        self.assertLess(len(quiz), 100_000, 'La pagina quiz non deve incorporare l’archivio')
+        self.assertLess(len(re.search(r'<script type="application/json" id="quiz-data">(.*?)</script>', quiz).group(1)), 5000,
+                        'Il manifest non deve incorporare le domande')
         self.assertFalse((ROOT / '_site/quiz/domande.json').exists())
         self.assertFalse((ROOT / 'quiz/domande.json').exists())
         for category in payload['categories']:
