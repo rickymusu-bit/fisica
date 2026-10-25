@@ -1,5 +1,7 @@
 # Istruzioni per il progetto
 
+**Versione AGENTS: v1 — 25/10/2026, ore 01:52 (Europe/Rome).**
+
 ## Regola vincolante — approvazione dell’anteprima prima di pubblicare
 
 Per ogni modifica al sito, presentare prima l’anteprima corrente e attendere sempre l’approvazione esplicita dell’utente prima di integrare main o avviare GitHub Pages. Non riutilizzare un’autorizzazione di pubblicazione precedente per modifiche successive. Preparare il lavoro completo e verificato, una PR in bozza e l’anteprima sul ramo isolato di sviluppo; non fare merge né deployment ufficiale finché l’utente non approva quella specifica anteprima. Richiesta esplicita del 20 ottobre 2026, che prevale sulle autorizzazioni storiche riportate sotto.
@@ -132,3 +134,13 @@ Associare ogni domanda al solo ID stabile `category`, definito in `quiz/categori
 ## Ripresa del quiz — 24 ottobre 2026
 
 Applicare il salvataggio e recupero locale previsti da D2.2 del master e `quiz/README.md`: conservare quesiti, ordine delle opzioni, risposte e scadenze; il tempo continua a scorrere a pagina chiusa. Una selezione non confermata non conta come risposta. Recuperare anche il risultato fino a «Nuovo quiz»; segnalare il salvataggio indisponibile e gestire dati corrotti. Non promettere recupero dopo cancellazione dei dati o su un altro browser/dispositivo.
+
+## Manutenzione, versione e refactoring di AGENTS.md
+
+A ogni aggiornamento consolidato di `AGENTS.md` incrementa la sua versione intera indipendente da quella di `MASTER_PROMPT.md`, e aggiorna nell'intestazione data e ora Europe/Rome. La versione iniziale è v1; la cronologia Git conserva quelle precedenti, senza creare copie numerate.
+
+**Controllo incrementale obbligatorio a ogni modifica:** verifica automaticamente le istruzioni toccate e i relativi rinvii, eliminando duplicazioni, incongruenze, regole divenute obsolete e formulazioni prolisse. Integra la nuova regola nella sezione tematica pertinente anziché accodare istruzioni cronologiche; conserva significato, priorità, approvazioni, eccezioni e limiti operativi. Correggi localmente solo quanto non altera il comportamento: eventuali cambiamenti sostanziali o conflitti irrisolti vanno segnalati e sottoposti all'utente. Non riscrivere l'intero documento a ogni piccola modifica.
+
+**Refactoring strutturale automatico ogni dieci versioni:** quando l'aggiornamento raggiunge v10, v20, v30 e così via, esamina l'intero documento, riordina le regole per funzione, unifica i duplicati, elimina i riferimenti non più operativi e preferisci rinvii ai documenti canonici. Segui il controllo di equivalenza e il requisito di approvazione descritti in D3.1 del master: presenta sintesi delle criticità e piano, non risolvere autonomamente conflitti sostanziali, non effettuare merge senza approvazione. Consolida una sola versione alla scadenza, senza un ulteriore incremento per il refactoring. Al di fuori delle scadenze svolgi un refactoring completo su richiesta esplicita o quando emergono problemi strutturali rilevanti.
+
+Il controllo a ogni modifica e quello decennale sono complementari: il primo mantiene ordine locale, il secondo verifica la coerenza dell'insieme. La nuova regola non autorizza modifiche indiscriminate agli HTML né deroghe al processo di approvazione del sito.

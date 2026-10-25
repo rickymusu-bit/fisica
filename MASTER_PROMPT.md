@@ -1,6 +1,6 @@
 # PROMPT MASTER — DISPENSE VISUALI DI FISICA PER IL BIENNIO DEGLI ISTITUTI TECNICI
 
-VERSIONE DEL PROMPT: v69.16 — 25/10/2026, ore 00:00 (Europe/Rome)
+VERSIONE DEL PROMPT: v69.17 — 25/10/2026, ore 01:52 (Europe/Rome)
 
 Questo master raccoglie le regole della dispensa e la procedura per realizzarla con il minor lavoro ripetuto possibile. Le istruzioni relative a immagini, video, traduzioni e simulazioni si applicano quando quei materiali fanno parte della richiesta. Non aggiungere contenuti o lavorazioni solo perché il master ne descrive la gestione.
 
@@ -354,6 +354,8 @@ Applica il prompt riutilizzabile `quiz/PROMPT_GENERAZIONE_DOMANDE.md` e le speci
 In caso di conflitto con memorie, preferenze ricordate o convenzioni di conversazioni precedenti, prevale la versione corrente di questo master. Usa il contesto precedente solo quando è compatibile: non deve modificarne o contraddirne implicitamente le regole. Le richieste esplicite dell’utente per il compito corrente precisano lo scopo e le eccezioni autorizzate; non estenderle automaticamente ad altri compiti.
 
 Quando aggiungi una regola al master, integrala nella sezione pertinente invece di ripeterla in più punti. Se cambia una regola esistente, aggiorna quella regola e i rinvii interessati; evita aggiunte contraddittorie in fondo al documento. Conserva i vincoli precedenti non modificati dall’utente e assegna una nuova versione.
+
+A ogni aggiornamento del master, esegui automaticamente una revisione incrementale delle sezioni modificate e dei relativi rinvii: controlla posizione delle nuove regole, duplicazioni, incoerenze, obsolescenza e prolissità; correggi localmente ciò che non cambia il significato dei vincoli. Non riscrivere l'intero documento per una piccola modifica e non introdurre cambiamenti semantici, deroghe o nuove autorizzazioni senza approvazione esplicita. Questo controllo ordinario non sostituisce il refactoring strutturale periodico di D3.1.
 
 ### D3.1. Refactoring periodico del master
 
