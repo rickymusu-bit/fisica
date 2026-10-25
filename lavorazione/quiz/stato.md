@@ -2,7 +2,7 @@
 
 ## Stato corrente — dati con nome, simbolo e valore
 
-25 ottobre 2026 (Europe/Rome). Master v69.20, prompt di generazione v1.4.3, specifiche quiz v2.5.1. Ramo `fix/quiz-notazione-matematica`, derivato da main `136cb6e200c8133e61b00690a22894cfa1f25030`; [PR #89 in bozza](https://github.com/rickymusu-bit/fisica/pull/89).
+25 ottobre 2026 (Europe/Rome). Master v69.20, prompt di generazione v1.4.3, specifiche quiz v2.5.1. Ramo `fix/quiz-notazione-matematica`, derivato da main `136cb6e200c8133e61b00690a22894cfa1f25030`; [PR #89](https://github.com/rickymusu-bit/fisica/pull/89).
 
 **Richiesta corrente:** registrare e applicare ai quiz l’ordine nome della grandezza a parole, simbolo, valore con unità. Simbolo sempre presente; pedici opportuni e brevi per grandezze dello stesso tipo. Questa richiesta sostituisce la precedente preferenza per soli nomi nei dati del quesito mostrato. Aggiornate le sezioni pertinenti del master e del prompt, senza aggiunte contraddittorie. Conservate le regole su notazione scientifica, SI e pedici/apici tipografici.
 
@@ -14,7 +14,7 @@
 
 **Anteprima:** [quiz interattivo](termologia/notazione/quiz.html), [rapporto e immagini](termologia/notazione/README.md), [esiti sulla notazione](termologia/notazione/verifica.json). Le immagini storiche della pubblicazione precedente restano invariate.
 
-**Autorizzazioni e prossimo passo:** la richiesta corrente autorizza regola, adeguamento e anteprima. La pubblicazione richiede l’approvazione esplicita dell’anteprima corrente secondo AGENTS §1; non riutilizzare l’autorizzazione storica. La PR #88 sul rapporto della precedente pubblicazione è separata e non va modificata. Controlli completati con esito positivo; anteprima e PR #89 aggiornate. Prossimo passo: revisione dell’anteprima e autorizzazione esplicita prima di merge/Pages.
+**Autorizzazione alla pubblicazione:** il 25 ottobre 2026, dopo l’anteprima corrente, l’utente ha scritto «Perfetto, pubblica.». Sono approvati l’adeguamento e la pubblicazione della PR #89: merge in main e deploy GitHub Pages autorizzati, senza ulteriori conferme. La versione funzionale approvata è il commit `3fd79682d846e6c11e62dd7bb78e20b0088fe8ee`; [CI completa superata](https://github.com/rickymusu-bit/fisica/actions/runs/40173676319). Questo aggiornamento registra soltanto l’autorizzazione, senza cambiare quiz o anteprima. Il workflow [Pubblica Stringhe](https://github.com/rickymusu-bit/fisica/actions/workflows/pages.yml) espone l’esito del deploy; destinazione [quiz online](https://rickymusu-bit.github.io/fisica/quiz.html). La PR #88 sul rapporto della precedente pubblicazione resta separata e invariata.
 
 ## Pubblicazione del quiz di Termologia — fase precedente
 

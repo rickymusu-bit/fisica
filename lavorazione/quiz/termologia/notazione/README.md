@@ -1,6 +1,6 @@
 # Grandezze fisiche e notazione nel quiz — anteprima
 
-25 ottobre 2026. Revisione richiesta dal docente; nessuna nuova pubblicazione.
+25 ottobre 2026. Revisione richiesta dal docente e approvata per la pubblicazione con «Perfetto, pubblica.».
 
 - [Quiz HTML interattivo autonomo con tutte le 300 domande](quiz.html).
 - Quesito dello screenshot aggiornato: [desktop scuro](pedici-1440-dark.png), [mobile scuro](pedici-390-dark.png), [320 px](pedici-320-dark.png).
@@ -16,7 +16,7 @@ Ogni dato segue l’ordine **nome della grandezza a parole → simbolo → valor
 
 La regola sostituisce quella precedente che permetteva di omettere il simbolo nei dati descritti a parole. Registrata in A4 del master v69.20 e nel prompt dei quiz v1.4.3; specifiche quiz v2.5.1. Rinvii e istruzioni interessate controllati per coerenza.
 
-Sono adeguati **158 testi**: tutte le 90 domande di calcolo, 57 di ragionamento e 11 di conoscenza. Nei quesiti concettuali che chiedono il significato di un simbolo non si anticipa la risposta. Riviste anche 10 spiegazioni per mantenere la notazione coerente. Solo le alternative di termo-137 cambiano nella grafia dei simboli: Q_b e Q_t sostituiscono Q_bevanda e Q_tazza. Restano invariati i dati fisici, i risultati, gli indici corretti, le classificazioni, le 78 espressioni di ricalcolo e le altre alternative. Sono sincronizzati archivio attivo, copie di lavorazione, campione, primo lotto, nove lotti successivi e metadati di revisione. Le approvazioni storiche riguardano i contenuti originari; la presente revisione non è ancora pubblicata.
+Sono adeguati **158 testi**: tutte le 90 domande di calcolo, 57 di ragionamento e 11 di conoscenza. Nei quesiti concettuali che chiedono il significato di un simbolo non si anticipa la risposta. Riviste anche 10 spiegazioni per mantenere la notazione coerente. Solo le alternative di termo-137 cambiano nella grafia dei simboli: Q_b e Q_t sostituiscono Q_bevanda e Q_tazza. Restano invariati i dati fisici, i risultati, gli indici corretti, le classificazioni, le 78 espressioni di ricalcolo e le altre alternative. Sono sincronizzati archivio attivo, copie di lavorazione, campione, primo lotto, nove lotti successivi e metadati di revisione. Le approvazioni storiche riguardano i contenuti originari; la presente revisione ha ricevuto una propria approvazione esplicita alla pubblicazione.
 
 ## Resa e verifiche
 
@@ -24,4 +24,4 @@ Il quiz usa gli stessi elementi HTML nativi `sub` e `sup` dei capitoli, senza li
 
 Verifiche: archivio, ricalcolo delle soluzioni, build, 26 test unitari, sintassi JavaScript, tema e crediti. Browser Chromium: quiz reale a tutte le difficoltà; caso termo-285 nei temi chiaro/scuro a 1440, 390 e 320 px; tutti i simboli indicizzati dell’archivio, coefficienti prima dei simboli, Unicode e graffe, correzione finale, sessione precedente versione 1 e markup non attendibile. I dettagli degli esiti sono nel rapporto JSON. Mobile emulato; nessuna calibrazione dei tempi osservata in classe.
 
-Il lavoro resta sul ramo `fix/quiz-notazione-matematica`, nella [PR #89 in bozza](https://github.com/rickymusu-bit/fisica/pull/89). AGENTS §1 richiede «anteprima verificabile della versione corrente» e approvazione esplicita prima di main o Pages. La precedente autorizzazione di pubblicazione non viene riutilizzata.
+La [PR #89](https://github.com/rickymusu-bit/fisica/pull/89) contiene la revisione approvata con «Perfetto, pubblica.» il 25 ottobre 2026. La [CI della versione funzionale](https://github.com/rickymusu-bit/fisica/actions/runs/40173676319) è superata. L’autorizzazione comprende merge e GitHub Pages; esito del deploy nel workflow [Pubblica Stringhe](https://github.com/rickymusu-bit/fisica/actions/workflows/pages.yml), destinazione [quiz online](https://rickymusu-bit.github.io/fisica/quiz.html).
