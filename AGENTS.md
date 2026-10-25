@@ -1,6 +1,6 @@
 # Istruzioni operative — Stringhe
 
-**Versione AGENTS: v3 — 25/10/2026, ore 02:54 (Europe/Rome).**
+**Versione AGENTS: v4 — 25/10/2026, ore 03:09 (Europe/Rome).**
 
 Questo file orienta Codex nel repository `rickymusu-bit/fisica`. Le regole didattiche generali risiedono nel `MASTER_PROMPT.md`, quelle specialistiche nei documenti canonici richiamati qui: non duplicarli integralmente. Applica le richieste esplicite per il compito corrente; segnala conflitti non risolti senza inventare priorità. Autorizzazioni storiche di PR completate non consentono modifiche o pubblicazioni successive.
 
@@ -18,7 +18,7 @@ GitHub è la fonte ufficiale e Git ne conserva la cronologia. Usa nomi e percors
 
 Applica A1–A5 e C3 del master: capitoli monografici, spiegazione narrativa e accessibile, formule interpretate, domande finali, schemi per gli esempi svolti quando previsti. Per il tono usa i due riferimenti stilistici; verifica i collegamenti e la suddivisione quando adegui capitoli preesistenti. Un rinomino non certifica l'adeguamento.
 
-Preferisci numeri decimali leggibili, prefissi SI e notazione scientifica nei casi utili; interpreta i risultati tramite confronti concreti secondo A4–A5. Riserva `·`, `•` e `⋅` alla moltiplicazione matematica, compresi i prodotti di unità: mai come separatori di testo, legende, grafici, dati accessibili o metadati. Usa **T** maiuscola e **ΔT** per temperatura e differenza di temperatura; riserva **t** e **Δt** al tempo, anche con pedici.
+Applica le soglie numeriche di A4: per quantità di modulo maggiore di 9999 oppure non nulle con modulo minore di 0,001 usa notazione scientifica o un prefisso SI adatto; conserva cifre significative e chiarezza didattica. Per gli altri valori preferisci decimali leggibili; interpreta i risultati tramite confronti concreti secondo A4–A5. Riserva `·`, `•` e `⋅` alla moltiplicazione matematica, compresi i prodotti di unità: mai come separatori di testo, legende, grafici, dati accessibili o metadati. Usa **T** maiuscola e **ΔT** per temperatura e differenza di temperatura; riserva **t** e **Δt** al tempo, anche con pedici.
 
 Le note servono per precisazioni brevi che alleggeriscono il testo, non per ripetizioni o approfondimenti sproporzionati. Usale collassabili, inizialmente chiuse, con richiami e ritorni accessibili. Nel piè di pagina solo versione e data, secondo A6/D2.
 
