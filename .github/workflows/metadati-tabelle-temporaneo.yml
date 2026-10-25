@@ -43,3 +43,20 @@ jobs:
           print(json.dumps(rows,ensure_ascii=False))
           print('META_END')
           PY
+
+      - name: Valuta celle discorsive e numeriche per colonna
+        run: |
+          python3 - <<'PY'
+          import re, html, json
+          from pathlib import Path
+          subset=['cifre_significative_it.html','errori_incertezza_misura_it.html','stati_della_materia.html','passaggi_di_stato.html','strumenti_misura_it.html','potenze_dieci_notazione_scientifica_it.html']
+          for file in subset:
+              s=Path(file).read_text()
+              print('FILE',file)
+              for idx,table in enumerate(re.findall(r'<table\b[^>]*>[\s\S]*?</table>',s,re.I),1):
+                  print(' TABLE',idx)
+                  for r,row in enumerate(re.findall(r'<tr\b[^>]*>[\s\S]*?</tr>',table,re.I)[:9]):
+                      cells=re.findall(r'<(?:th|td)\b[^>]*>([\s\S]*?)</(?:th|td)>',row,re.I)
+                      texts=[' '.join(html.unescape(re.sub(r'<[^>]*>',' ',item)).split())[:145] for item in cells]
+                      print('  ',r,texts)
+          PY
