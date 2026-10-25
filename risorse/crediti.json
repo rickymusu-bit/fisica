@@ -4330,6 +4330,34 @@
       "fingerprints": [
         "asset-cf7a78ee10a1b4b5b3700ef3780603413d5487f787704e758d15df38a51101a3"
       ]
+    },
+    {
+      "id": "science-calori-latenti-openstax",
+      "description": "Calori latenti specifici e temperature dei passaggi di stato: sei sostanze",
+      "source": "https://openstax.org/books/college-physics-2e/pages/14-3-phase-change-and-latent-heat",
+      "author": "OpenStax",
+      "license": null,
+      "license_url": null,
+      "changes": "Dati selezionati e tabella riorganizzata in italiano. Per l’acqua conservato il valore approssimato di vaporizzazione già impiegato nel capitolo: 2257 kJ/kg, verificato anche nella seconda fonte.",
+      "type": "scientific-source",
+      "status": "documented",
+      "links": [
+        {
+          "url": "https://openstax.org/books/college-physics-2e/pages/14-3-phase-change-and-latent-heat",
+          "label": "Tabella 14.2"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Enthalpy_of_vaporization",
+          "label": "Verifica del valore per l’acqua"
+        }
+      ],
+      "notices": [
+        "Calori latenti e temperature di fusione ed ebollizione di acqua, etanolo, azoto, ossigeno, mercurio e piombo: <a href=\"https://openstax.org/books/college-physics-2e/pages/14-3-phase-change-and-latent-heat\">OpenStax, College Physics 2e, §14.3, tabella 14.2</a>. Valori approssimati a pressione atmosferica. Per l’acqua mantenuto il valore di vaporizzazione del capitolo, 2257 kJ/kg a 100 °C, verificato in <a href=\"https://en.wikipedia.org/wiki/Enthalpy_of_vaporization\">Enthalpy of vaporization, tabella delle sostanze</a>; OpenStax riporta 2256 kJ/kg. Nessun testo o immagine riprodotti."
+      ],
+      "metadata_sources": [
+        "passaggi_di_stato.html"
+      ],
+      "fingerprints": []
     }
   ],
   "documents": {
@@ -4674,6 +4702,10 @@
         },
         {
           "resource": "science-arera-consumo-domestico-2024",
+          "notice": 0
+        },
+        {
+          "resource": "science-calori-latenti-openstax",
           "notice": 0
         }
       ],
