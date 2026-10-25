@@ -1,0 +1,42 @@
+name: Sincronizza crediti PR82 (temporaneo)
+on:
+  push:
+    branches:
+      - fix/cap9-punti-zoom-tabelle-20261025
+    paths:
+      - '.github/workflows/pr82-sync-credits.yml'
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Sincronizza e verifica inventario
+        run: |
+          python3 scripts/credits.py --sync
+          python3 scripts/credits.py --check
+          git diff --stat
+      - name: Controlla che la sincronizzazione non tocchi altri capitoli
+        run: |
+          python3 - <<'PY'
+          import subprocess
+          allowed = {'risorse/crediti.json', 'crediti.html', 'relazioni_proporzionalita_it.html',
+                     'index.html', 'riferimenti/TEMA_DISPENSE.html', 'licenze/Lexend-OFL.txt'}
+          paths = set(subprocess.check_output(['git', 'diff', '--name-only'], text=True).splitlines())
+          extra = paths - allowed
+          print('File rigenerati:', sorted(paths))
+          if extra: raise SystemExit('Modifiche inattese, nessun commit: '+str(sorted(extra)))
+          PY
+      - name: Salva inventario aggiornato
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -u
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore(credits): sincronizza inventario dopo aggiornamento del capitolo 9'
+            git push origin HEAD:fix/cap9-punti-zoom-tabelle-20261025
+          fi
