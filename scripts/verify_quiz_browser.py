@@ -25,15 +25,26 @@ def visible_math_text(value):
 
 
 def verify_real(page, base, width):
+    requested = []
+    page.on('request', lambda request: requested.append(request.url)
+            if '/quiz/domande/' in request.url else None)
     page.goto(base + 'quiz.html')
     payload = page.locator('#quiz-data').text_content()
     data = json.loads(payload)
-    assert len(data['questions']) == 300
-    by_id = {q['id']: q for q in data['questions']}
+    assert 'questions' not in data  # Nessun download iniziale di tutte le domande.
+    assert not requested, requested
+    archives = {}
+    for category in data['categories']:
+        path = ROOT / '_site' / category['file']
+        archives[category['id']] = json.loads(path.read_text())['questions']
+        assert len(archives[category['id']]) == 300
+    by_id = {q['id']: q for questions in archives.values() for q in questions}
     thermal = page.locator('[data-quiz-category][value="termologia"]')
     other = page.locator('[data-quiz-category][value="introduzione_fisica_misura"]')
-    assert thermal.is_enabled() and other.is_disabled()
+    assert thermal.is_enabled() and other.is_enabled()
     assert page.locator('.quiz-empty-notice').count() == 0
+    assert all(category['levels'] == {'easy': 100, 'medium': 100, 'hard': 100}
+               for category in data['categories'])
     count = 30 if width == 1440 else 3
     for theme in ('dark', 'light'):
         shared.set_theme(page, theme)
@@ -44,9 +55,10 @@ def verify_real(page, base, width):
     shared.set_theme(page, 'dark')
     for level in ('easy', 'medium', 'hard'):
         page.locator(f'input[name="quiz-level"][value="{level}"]').check()
-        assert thermal.is_enabled() and other.is_disabled()
+        assert thermal.is_enabled() and other.is_enabled()
         page.locator('#quiz-count').fill(str(count))
         page.locator('#quiz-start').click()
+        page.locator('#quiz-active').wait_for(state='visible')
         key = page.evaluate("'stringhe.quiz.session.v1:' + location.pathname")
         saved = page.evaluate('key => JSON.parse(localStorage.getItem(key))', key)
         session = saved['session']
@@ -83,8 +95,55 @@ def verify_real(page, base, width):
         assert page.locator('#quiz-score').inner_text() == f'{count} / {count}'
         page.locator('#quiz-again').click()
         assert page.evaluate('key => localStorage.getItem(key)', key) is None
+    # Verifica reale della seconda categoria, senza mescolare gli archivi.
+    for level in ('easy', 'medium', 'hard'):
+        page.locator(f'input[name="quiz-level"][value="{level}"]').check()
+        assert thermal.is_enabled() and other.is_enabled()
+        other.check()
+        page.locator('#quiz-count').fill(str(count))
+        page.locator('#quiz-start').click()
+        page.locator('#quiz-active').wait_for(state='visible')
+        key = page.evaluate("'stringhe.quiz.session.v1:' + location.pathname")
+        saved = page.evaluate('key => JSON.parse(localStorage.getItem(key))', key)
+        session = saved['session']
+        assert len({q['id'] for q in session['questions']}) == count
+        assert all(q['category'] == 'introduzione_fisica_misura' and q['level'] == level for q in session['questions'])
+        assert all(q['prompt'] == by_id[q['id']]['prompt'] for q in session['questions'])
+        for i, question in enumerate(session['questions']):
+            actual = page.locator('#quiz-prompt').inner_text()
+            expected = visible_math_text(question['prompt'])
+            assert actual == expected, (question['id'], actual, expected)
+            assert page.locator('.quiz-answer input').count() == 4
+            assert not page.locator('#quiz-results').is_visible()
+            if i == 0:
+                assert page.evaluate('document.documentElement.scrollWidth <= innerWidth')
+                page.screenshot(path=str(SHOTS / f'intro-domanda-{level}-{width}.png'), full_page=True)
+            page.locator(f'.quiz-answer input[value="{question["correct"]}"]').check()
+            if i == 1:
+                before = page.evaluate('key => JSON.parse(localStorage.getItem(key))', key)
+                page.reload()
+                after = page.evaluate('key => JSON.parse(localStorage.getItem(key))', key)
+                assert before == after
+                assert page.locator(f'.quiz-answer input[value="{question["correct"]}"]').is_checked()
+            page.locator('#quiz-next').click()
+        assert page.locator('#quiz-results').is_visible()
+        assert page.locator('#quiz-score').inner_text() == f'{count} / {count}'
+        assert page.locator('.quiz-review-item').count() == count
+        for i, question in enumerate(session['questions']):
+            item = page.locator('.quiz-review-item').nth(i)
+            assert visible_math_text(question['explanation']) in item.inner_text()
+            assert visible_math_text(question['options'][question['correct']]) in item.inner_text()
+        if width == 390:
+            page.screenshot(path=str(SHOTS / f'intro-risultato-{level}-{width}.png'), full_page=True)
+        page.reload()
+        assert page.locator('#quiz-score').inner_text() == f'{count} / {count}'
+        page.locator('#quiz-again').click()
+        assert page.evaluate('key => localStorage.getItem(key)', key) is None
+    assert requested and all('/quiz/domande/termologia.json' in url or
+                                 '/quiz/domande/introduzione_fisica_misura.json' in url
+                                 for url in requested)
     return {'width': width, 'levels': ['easy', 'medium', 'hard'],
-            'questions_per_session': count, 'score': f'{count} / {count}',
+            'categories': ['termologia', 'introduzione_fisica_misura'], 'questions_per_session': count, 'score': f'{count} / {count}',
             'unique_questions': True, 'resume_and_results': True}
 
 
@@ -123,7 +182,7 @@ def main():
     finally:
         server.shutdown()
     assert not errors, errors
-    report = {'archive': 300, 'checks': checks, 'existing_quiz_browser_suite': 'not_run' if args.real_only else 'passed',
+    report = {'archive': 600, 'checks': checks, 'existing_quiz_browser_suite': 'not_run' if args.real_only else 'passed',
               'javascript_errors': errors, 'mobile': 'Chromium emulato, non dispositivo fisico'}
     (ROOT / 'lavorazione/quiz/termologia/verifica-integrazione.json').write_text(
         json.dumps(report, ensure_ascii=False, indent=2) + '\n')

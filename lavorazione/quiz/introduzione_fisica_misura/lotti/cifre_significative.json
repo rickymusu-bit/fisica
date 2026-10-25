@@ -1,0 +1,466 @@
+{
+  "questions": [
+    {
+      "id": "intro-139",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quante cifre significative ha 3,42 m?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "1"
+      ],
+      "correct": 0,
+      "explanation": "Le tre cifre del numero sono significative."
+    },
+    {
+      "id": "intro-140",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quante cifre significative ha 0,0052 s?",
+      "options": [
+        "4",
+        "2",
+        "3",
+        "1"
+      ],
+      "correct": 1,
+      "explanation": "Gli zeri iniziali non sono significativi; contano 5 e 2."
+    },
+    {
+      "id": "intro-141",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Nella misura 12,40 cm, che cosa comunica lo zero finale?",
+      "options": [
+        "Il numero è diverso da 12,4",
+        "L'unità deve essere cambiata",
+        "È una cifra significativa",
+        "È una misura esatta"
+      ],
+      "correct": 2,
+      "explanation": "Lo zero finale dopo la virgola esprime una cifra significativa aggiuntiva."
+    },
+    {
+      "id": "intro-142",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quante cifre significative ha 5,007 kg?",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "4"
+      ],
+      "correct": 3,
+      "explanation": "Gli zeri tra cifre non nulle sono significativi: le cifre sono quattro."
+    },
+    {
+      "id": "intro-143",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Come si arrotonda 4,678 a due decimali?",
+      "options": [
+        "4,68",
+        "4,67",
+        "4,7",
+        "4,60"
+      ],
+      "correct": 0,
+      "explanation": "La terza cifra decimale è 8 e fa aumentare la seconda."
+    },
+    {
+      "id": "intro-144",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale misura ha tre cifre significative?",
+      "options": [
+        "2,5 m",
+        "2,50 m",
+        "2,500 m",
+        "0,025 m"
+      ],
+      "correct": 1,
+      "explanation": "2,50 ha tre cifre significative, incluso lo zero finale."
+    },
+    {
+      "id": "intro-145",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quanto vale 1,24 + 2,3, con i decimali appropriati?",
+      "options": [
+        "3,54",
+        "3,540",
+        "3,5",
+        "3,6"
+      ],
+      "correct": 2,
+      "explanation": "La somma è 3,54, arrotondata a un decimale perché 2,3 ha un decimale."
+    },
+    {
+      "id": "intro-146",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quanto fa 2,0 m · 3,00 m rispettando le cifre significative?",
+      "options": [
+        "6,000 m²",
+        "6 m²",
+        "6,00 m²",
+        "6,0 m²"
+      ],
+      "correct": 3,
+      "explanation": "Il dato 2,0 impone due cifre significative nel prodotto."
+    },
+    {
+      "id": "intro-147",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "In 0,0734, qual è la prima cifra significativa?",
+      "options": [
+        "7",
+        "0",
+        "3",
+        "4"
+      ],
+      "correct": 0,
+      "explanation": "Gli zeri iniziali non contano; la prima cifra significativa è 7."
+    },
+    {
+      "id": "intro-148",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale scrittura contiene quattro cifre significative?",
+      "options": [
+        "8,5",
+        "8,500",
+        "8,50",
+        "0,85"
+      ],
+      "correct": 1,
+      "explanation": "8,500 contiene quattro cifre significative."
+    },
+    {
+      "id": "intro-149",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Come si arrotonda 7,843 a tre cifre significative?",
+      "options": [
+        "7,8",
+        "7,85",
+        "7,84",
+        "7,843"
+      ],
+      "correct": 2,
+      "explanation": "La cifra successiva alle prime tre è 3: si conserva 7,84."
+    },
+    {
+      "id": "intro-150",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Due misure sono 2,30 cm e 2,3 cm. Qual è la differenza informativa?",
+      "options": [
+        "Hanno valori diversi",
+        "La seconda è più accurata",
+        "La prima è necessariamente esatta",
+        "La prima dichiara una cifra significativa in più"
+      ],
+      "correct": 3,
+      "explanation": "Il valore matematico coincide, ma lo zero finale della prima è significativo."
+    },
+    {
+      "id": "intro-151",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quanto vale 13,27 − 2,1 con i decimali appropriati?",
+      "options": [
+        "11,2",
+        "11,17",
+        "11,170",
+        "11,1"
+      ],
+      "correct": 0,
+      "explanation": "La differenza 11,17 si arrotonda a un decimale: 11,2."
+    },
+    {
+      "id": "intro-152",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quanto vale 4,25·2,0 con le cifre significative corrette?",
+      "options": [
+        "8,50",
+        "8,5",
+        "8,500",
+        "9"
+      ],
+      "correct": 1,
+      "explanation": "Il prodotto è 8,50, scritto con due cifre significative per il fattore 2,0."
+    },
+    {
+      "id": "intro-153",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale conversione conserva le tre cifre significative di 3,50 cm?",
+      "options": [
+        "0,035 m",
+        "35 m",
+        "0,0350 m",
+        "0,35 m"
+      ],
+      "correct": 2,
+      "explanation": "3,50 cm equivale a 0,0350 m, con tre cifre significative."
+    },
+    {
+      "id": "intro-154",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quante cifre significative ha 0,00670 kg?",
+      "options": [
+        "5",
+        "4",
+        "2",
+        "3"
+      ],
+      "correct": 3,
+      "explanation": "Contano 6, 7 e lo zero finale."
+    },
+    {
+      "id": "intro-155",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Come si arrotonda 0,04678 a tre cifre significative?",
+      "options": [
+        "0,0468",
+        "0,0467",
+        "0,047",
+        "0,04678"
+      ],
+      "correct": 0,
+      "explanation": "Il valore arrotondato è 0,0468."
+    },
+    {
+      "id": "intro-156",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quanto vale 6,4 + 0,37 + 1,225 con la corretta precisione decimale?",
+      "options": [
+        "7,995",
+        "8,0",
+        "7,99",
+        "8,00"
+      ],
+      "correct": 1,
+      "explanation": "La somma è 7,995, da scrivere con un decimale."
+    },
+    {
+      "id": "intro-157",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un rettangolo ha lati 2,5 cm e 3,42 cm. Quanto vale l'area rispettando le cifre significative?",
+      "options": [
+        "8,550 cm²",
+        "8,55 cm²",
+        "8,6 cm²",
+        "8,50 cm²"
+      ],
+      "correct": 2,
+      "explanation": "L'area 8,55 cm² è arrotondata a due cifre significative: 8,6 cm²."
+    },
+    {
+      "id": "intro-158",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale misura contiene esattamente due cifre significative?",
+      "options": [
+        "0,00600",
+        "0,0600",
+        "0,60",
+        "0,0060"
+      ],
+      "correct": 3,
+      "explanation": "In 0,0060 contano il 6 e lo zero finale."
+    },
+    {
+      "id": "intro-159",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale forma in centimetri conserva le tre cifre significative di 2,40 m?",
+      "options": [
+        "2,40 · 10² cm",
+        "2,4 · 10² cm",
+        "2,400 · 10² cm",
+        "2,40 · 10³ cm"
+      ],
+      "correct": 0,
+      "explanation": "La conversione è esatta e conserva le tre cifre significative."
+    },
+    {
+      "id": "intro-160",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quante cifre significative ha 0,05060 kg?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "2"
+      ],
+      "correct": 1,
+      "explanation": "Contano 5, 0, 6 e 0: quattro cifre."
+    },
+    {
+      "id": "intro-161",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una piastra ha lati 12,4 cm e 3,50 cm. Quale area va riportata?",
+      "options": [
+        "43 cm²",
+        "43,40 cm²",
+        "43,4 cm²",
+        "43,400 cm²"
+      ],
+      "correct": 2,
+      "explanation": "Il prodotto è 43,4 cm², con tre cifre significative."
+    },
+    {
+      "id": "intro-162",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Quanto vale 28,34 cm − 3,2 cm con la corretta precisione?",
+      "options": [
+        "25,14 cm",
+        "25 cm",
+        "25,140 cm",
+        "25,1 cm"
+      ],
+      "correct": 3,
+      "explanation": "La differenza 25,14 va arrotondata a un decimale."
+    },
+    {
+      "id": "intro-163",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un parallelepipedo ha lati 2,4 cm, 3,10 cm, 4,0 cm. Quale volume va riportato?",
+      "options": [
+        "3,0 · 10¹ cm³",
+        "29,76 cm³",
+        "29,8 cm³",
+        "2,976 · 10¹ cm³"
+      ],
+      "correct": 0,
+      "explanation": "Il prodotto è 29,76 cm³: con due cifre significative diventa 3,0·10¹ cm³."
+    },
+    {
+      "id": "intro-164",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Qual è la somma appropriata di 1,25 m, 0,7 m e 2,035 m?",
+      "options": [
+        "3,985 m",
+        "4,0 m",
+        "3,99 m",
+        "3,9850 m"
+      ],
+      "correct": 1,
+      "explanation": "La somma è 3,985 m; il valore 0,7 limita a un decimale."
+    },
+    {
+      "id": "intro-165",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Come si esprime 0,002540 m in millimetri conservandone la precisione?",
+      "options": [
+        "2,5 mm",
+        "2,54 mm",
+        "2,540 mm",
+        "2,5400 mm"
+      ],
+      "correct": 2,
+      "explanation": "Il numero di partenza ha quattro cifre significative: 2,540 mm."
+    },
+    {
+      "id": "intro-166",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Quale confronto sugli zeri è corretto?",
+      "options": [
+        "0,003 ha tre cifre e 4,0 una",
+        "0,003 ha zero cifre e 4,0 una",
+        "Entrambi ne hanno due",
+        "0,003 ne ha una e 4,0 ne ha due"
+      ],
+      "correct": 3,
+      "explanation": "In 0,003 conta solo 3; in 4,0 contano 4 e 0."
+    },
+    {
+      "id": "intro-167",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Il perimetro di un rettangolo è P = 2·(3,45 cm + 2,1 cm), con 2 esatto. Quale risultato va riportato?",
+      "options": [
+        "11,1 cm",
+        "11,10 cm",
+        "11 cm",
+        "11,100 cm"
+      ],
+      "correct": 0,
+      "explanation": "La somma è limitata ai decimi; senza arrotondare prematuramente si ottiene P = 11,1 cm."
+    },
+    {
+      "id": "intro-168",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un rettangolo ha lati 4,60 cm e 2,5 cm. Qual è l'area da riportare?",
+      "options": [
+        "11,50 cm²",
+        "12 cm²",
+        "11,5 cm²",
+        "11,500 cm²"
+      ],
+      "correct": 1,
+      "explanation": "4,60·2,5 = 11,5 cm², arrotondato a due cifre significative: 12 cm²."
+    },
+    {
+      "id": "intro-169",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una misura di 2,34 cm viene convertita in metri mediante un fattore esatto. Quante cifre significative ha il risultato?",
+      "options": [
+        "Una",
+        "Due",
+        "Tre",
+        "Cinque"
+      ],
+      "correct": 2,
+      "explanation": "La conversione esatta non modifica le cifre significative della misura."
+    },
+    {
+      "id": "intro-170",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una lunghezza ha valore medio 8,764 cm e incertezza assoluta U = 0,03 cm. Quale risultato è scritto correttamente alla stessa posizione decimale dell'incertezza?",
+      "options": [
+        "(8,8 ± 0,03) cm",
+        "(8,7600 ± 0,03) cm",
+        "(8,76 ± 0,3) cm",
+        "(8,76 ± 0,03) cm"
+      ],
+      "correct": 3,
+      "explanation": "Con incertezza al centesimo, il valore medio si arrotonda ai centesimi: (8,76 ± 0,03) cm."
+    },
+    {
+      "id": "intro-171",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Due misure 4,20 cm e 3,1 cm vengono moltiplicate. Con quale criterio si scrive il risultato?",
+      "options": [
+        "Due cifre significative, come nel dato 3,1",
+        "Due cifre decimali, come in 4,20",
+        "Tre cifre significative, come in 4,20",
+        "Un decimale, perché entrambi sono lunghezze"
+      ],
+      "correct": 0,
+      "explanation": "In un prodotto, il numero di cifre significative del risultato segue il dato che ne contiene meno."
+    }
+  ]
+}

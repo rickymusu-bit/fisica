@@ -1,0 +1,214 @@
+{
+  "questions": [
+    {
+      "id": "intro-204",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Che cosa descrive l'incertezza associata a una misura?",
+      "options": [
+        "Il margine attribuito al valore misurato",
+        "Il numero di strumenti",
+        "Il valore vero esatto",
+        "Il tempo totale delle prove"
+      ],
+      "correct": 0,
+      "explanation": "L'incertezza descrive il margine con cui un valore è attribuito alla grandezza."
+    },
+    {
+      "id": "intro-205",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale situazione può causare un errore casuale?",
+      "options": [
+        "Uno zero sempre spostato",
+        "Una variazione del tempo di reazione tra prove",
+        "Una scala stampata in modo costantemente errato",
+        "Un riferimento sbagliato fisso"
+      ],
+      "correct": 1,
+      "explanation": "La variabilità del tempo di reazione può far oscillare le letture."
+    },
+    {
+      "id": "intro-206",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Che cosa caratterizza un errore sistematico?",
+      "options": [
+        "Cambia sempre segno a ogni prova",
+        "È sempre inferiore al passo",
+        "Sposta le letture in modo regolare o prevedibile",
+        "Scompare necessariamente facendo una media"
+      ],
+      "correct": 2,
+      "explanation": "Uno scostamento sistematico permane anche in molte misure."
+    },
+    {
+      "id": "intro-207",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Che cosa rappresenta la media aritmetica di più letture?",
+      "options": [
+        "Il valore massimo",
+        "L'incertezza assoluta",
+        "Il numero di prove",
+        "La somma delle letture divisa per il loro numero"
+      ],
+      "correct": 3,
+      "explanation": "La media si ottiene dividendo la somma per il numero dei valori."
+    },
+    {
+      "id": "intro-208",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Tre misure sono 2,0 s, 3,0 s e 4,0 s. Qual è la media?",
+      "options": [
+        "3,0 s",
+        "4,0 s",
+        "2,0 s",
+        "9,0 s"
+      ],
+      "correct": 0,
+      "explanation": "(2,0+3,0+4,0)/3 = 3,0 s."
+    },
+    {
+      "id": "intro-209",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Qual è la semidispersione di letture comprese tra 6 cm e 10 cm?",
+      "options": [
+        "4 cm",
+        "2 cm",
+        "8 cm",
+        "16 cm"
+      ],
+      "correct": 1,
+      "explanation": "La semidispersione è (10−6)/2 = 2 cm."
+    },
+    {
+      "id": "intro-210",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Che cosa indica il segno ± in x = (5,0 ± 0,2) cm?",
+      "options": [
+        "Che il valore è esattamente 5,2 cm",
+        "Che la misura è errata",
+        "Che si dichiara un margine di 0,2 cm attorno a 5,0 cm",
+        "Che la scala non ha unità"
+      ],
+      "correct": 2,
+      "explanation": "L'incertezza assoluta è 0,2 cm, espressa nella stessa unità."
+    },
+    {
+      "id": "intro-211",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale condizione serve per calcolare l'errore rispetto a un riferimento?",
+      "options": [
+        "Avere almeno cento misure",
+        "Disporre di un grafico cartesiano",
+        "Conoscere solo la risoluzione",
+        "Conoscere un valore di riferimento per la stessa grandezza"
+      ],
+      "correct": 3,
+      "explanation": "L'errore è la differenza tra misura e riferimento."
+    },
+    {
+      "id": "intro-212",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "La lettura è 9,5 g e il riferimento è 10,0 g. Quanto vale l'errore con segno?",
+      "options": [
+        "−0,5 g",
+        "+0,5 g",
+        "−1,5 g",
+        "+1,5 g"
+      ],
+      "correct": 0,
+      "explanation": "9,5−10,0 = −0,5 g."
+    },
+    {
+      "id": "intro-213",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Se tutte le letture sono identiche, che cosa possiamo affermare sulla dispersione osservata?",
+      "options": [
+        "È massima",
+        "È nulla per quelle letture",
+        "È uguale al valore medio",
+        "Prova che l'errore è nullo"
+      ],
+      "correct": 1,
+      "explanation": "La dispersione osservata è nulla, ma possono restare incertezze e errori sistematici."
+    },
+    {
+      "id": "intro-214",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Qual è l'unità di un'incertezza assoluta su una massa espressa in grammi?",
+      "options": [
+        "Secondi",
+        "Nessuna unità",
+        "Grammi",
+        "Grammi per secondo"
+      ],
+      "correct": 2,
+      "explanation": "L'incertezza assoluta ha la stessa unità della grandezza misurata."
+    },
+    {
+      "id": "intro-215",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Cinque letture di una massa sono 10, 12, 11, 10 e 12 g. Qual è la media?",
+      "options": [
+        "10 g",
+        "10,5 g",
+        "12 g",
+        "11 g"
+      ],
+      "correct": 3,
+      "explanation": "La somma è 55 g; divisa per 5 dà 11 g."
+    },
+    {
+      "id": "intro-216",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Letture da 4,2 a 4,8 cm hanno semidispersione:",
+      "options": [
+        "0,3 cm",
+        "0,6 cm",
+        "4,5 cm",
+        "0,1 cm"
+      ],
+      "correct": 0,
+      "explanation": "(4,8−4,2)/2 = 0,3 cm."
+    },
+    {
+      "id": "intro-217",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "La media di una serie è 6,5 g e il riferimento è 6,0 g. Qual è l'errore con segno?",
+      "options": [
+        "−0,5 g",
+        "+0,5 g",
+        "+6,5 g",
+        "+12,5 g"
+      ],
+      "correct": 1,
+      "explanation": "e = 6,5−6,0 = +0,5 g."
+    },
+    {
+      "id": "intro-218",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un risultato è x = (8,0 ± 0,4) cm. Quali estremi delimitano l'intervallo indicato?",
+      "options": [
+        "8,0 e 8,4 cm",
+        "7,2 e 8,8 cm",
+        "7,6 e 8,4 cm",
+        "7,6 e 8,0 cm"
+      ],
+      "correct": 2,
+      "explanation": "8,0−0,4 = 7,6 cm; 8,0+0,4 = 8,4 cm."
+    }
+  ]
+}

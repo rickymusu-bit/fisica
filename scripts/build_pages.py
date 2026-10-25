@@ -100,11 +100,21 @@ def main():
     (OUTPUT / "articoli.html").write_text(render_catalogue(index.read_text(encoding="utf-8"), allowed_articles), encoding="utf-8")
     (OUTPUT / "quiz.html").write_text(render_quiz(index.read_text(encoding="utf-8"), allowed_articles), encoding="utf-8")
     (OUTPUT / "anteprima-bordi-stringhe.html").write_text(render_comparison(index.read_text(encoding="utf-8")), encoding="utf-8")
-    # Motore del quiz: il dataset resta separato nei sorgenti e viene incluso nell'HTML in fase di build.
+    # La pagina contiene solo il manifest; ogni JSON di categoria si carica a richiesta.
     for name in ("interfaccia.js", "interfaccia.css"):
         target = OUTPUT / "quiz" / name
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(ROOT / "quiz" / name, target)
+    from quiz_site import load_categories, load_questions
+    from strings_site import catalogue
+    quiz_categories = load_categories(catalogue(index.read_text(encoding="utf-8"), allowed_articles))
+    load_questions({category["id"] for category in quiz_categories})  # Valida gli archivi.
+    for category in quiz_categories:
+        source = ROOT / "quiz" / "domande" / (category["id"] + ".json")
+        if source.is_file():
+            target = OUTPUT / "quiz" / "domande" / source.name
+            target.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copyfile(source, target)
     for cover in covers:
         source = ROOT / cover["src"]
         target = OUTPUT / cover["src"]

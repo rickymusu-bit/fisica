@@ -137,10 +137,9 @@ def verify_quiz(page, base):
     archive = json.loads(match.group(2))
     assert len(archive['categories']) == 2
     for box in choices.all():
-        available = any(q['category'] == box.get_attribute('value') and q['level'] == 'easy'
-                        for q in archive['questions'])
+        available = next(c for c in archive['categories'] if c['id'] == box.get_attribute('value'))['levels']['easy'] > 0
         assert box.is_disabled() == (not available)
-    assert page.locator('.quiz-empty-notice').is_visible() == (not archive['questions'])
+    assert page.locator('.quiz-empty-notice').is_visible() == (not any(sum(c['levels'].values()) for c in archive['categories']))
     fixture = json.loads(json.dumps(archive))
     fixture['questions'] = [
         {'id': f"test-{category['id']}-{level}-{i}", 'category': category['id'],

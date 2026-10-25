@@ -1,0 +1,242 @@
+{
+  "questions": [
+    {
+      "id": "intro-234",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "In un piano cartesiano, quale asse si usa normalmente per la coordinata x?",
+      "options": [
+        "Asse orizzontale",
+        "Asse verticale",
+        "Entrambi gli assi insieme",
+        "Nessun asse"
+      ],
+      "correct": 0,
+      "explanation": "Per convenzione x si legge lungo l'asse orizzontale."
+    },
+    {
+      "id": "intro-235",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Un punto ha coordinate (3; 5). Qual è la sua ordinata?",
+      "options": [
+        "3",
+        "5",
+        "8",
+        "2"
+      ],
+      "correct": 1,
+      "explanation": "L'ordinata è la seconda coordinata, cioè y = 5."
+    },
+    {
+      "id": "intro-236",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Un punto ha coordinate (4; 2). Qual è la sua ascissa?",
+      "options": [
+        "2",
+        "6",
+        "4",
+        "8"
+      ],
+      "correct": 2,
+      "explanation": "L'ascissa è la prima coordinata."
+    },
+    {
+      "id": "intro-237",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quali sono le coordinate dell'origine del piano?",
+      "options": [
+        "(1; 1)",
+        "(+1; 0)",
+        "(0; +1)",
+        "(0; 0)"
+      ],
+      "correct": 3,
+      "explanation": "L'origine è l'intersezione degli assi, con entrambe le coordinate nulle."
+    },
+    {
+      "id": "intro-238",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Nel primo quadrante, le coordinate x e y sono:",
+      "options": [
+        "Entrambe positive",
+        "Entrambe negative",
+        "x negativa e y positiva",
+        "x positiva e y negativa"
+      ],
+      "correct": 0,
+      "explanation": "Il primo quadrante è quello con x > 0 e y > 0."
+    },
+    {
+      "id": "intro-239",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Il punto (−2; 3) si trova nel:",
+      "options": [
+        "Primo quadrante",
+        "Secondo quadrante",
+        "Terzo quadrante",
+        "Quarto quadrante"
+      ],
+      "correct": 1,
+      "explanation": "La x negativa e la y positiva individuano il secondo quadrante."
+    },
+    {
+      "id": "intro-240",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale punto non appartiene a nessuno dei quattro quadranti?",
+      "options": [
+        "(2; 3)",
+        "(−2; 3)",
+        "(0; 3)",
+        "(−2; −3)"
+      ],
+      "correct": 2,
+      "explanation": "Il punto (0; 3) appartiene all'asse verticale e non a un quadrante."
+    },
+    {
+      "id": "intro-241",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quali segni hanno le coordinate di un punto nel quarto quadrante?",
+      "options": [
+        "(+; +)",
+        "(−; +)",
+        "(−; −)",
+        "(+; −)"
+      ],
+      "correct": 3,
+      "explanation": "Nel quarto quadrante l'ascissa è positiva e l'ordinata negativa."
+    },
+    {
+      "id": "intro-242",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Nel grafico di volume in funzione del tempo, quale grandezza va normalmente sull'asse orizzontale?",
+      "options": [
+        "Il tempo",
+        "Il volume",
+        "La massa",
+        "La temperatura"
+      ],
+      "correct": 0,
+      "explanation": "La grandezza indipendente tempo viene posta sull'asse delle ascisse."
+    },
+    {
+      "id": "intro-243",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Un punto è sull'asse verticale. Qual è il valore della sua ascissa?",
+      "options": [
+        "Dipende dal quadrante",
+        "0",
+        "Sempre 1",
+        "Sempre negativo"
+      ],
+      "correct": 1,
+      "explanation": "Ogni punto dell'asse y ha x = 0."
+    },
+    {
+      "id": "intro-244",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Un punto è sull'asse orizzontale. Qual è il valore della sua ordinata?",
+      "options": [
+        "Sempre positivo",
+        "Sempre negativo",
+        "0",
+        "1"
+      ],
+      "correct": 2,
+      "explanation": "L'asse x è l'insieme dei punti con y = 0."
+    },
+    {
+      "id": "intro-245",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Una tabella associa t = 2 min a V = 6 L. Quale punto va segnato nel grafico V in funzione di t?",
+      "options": [
+        "(6; 2)",
+        "(+2; −6)",
+        "(6; 6)",
+        "(2; 6)"
+      ],
+      "correct": 3,
+      "explanation": "Il tempo occupa l'ascissa e il volume l'ordinata."
+    },
+    {
+      "id": "intro-246",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "La scala orizzontale è 1 quadretto = 2 s. Un punto a 4 quadretti a destra dall'origine indica:",
+      "options": [
+        "8 s",
+        "4 s",
+        "2 s",
+        "6 s"
+      ],
+      "correct": 0,
+      "explanation": "4·2 s = 8 s."
+    },
+    {
+      "id": "intro-247",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "L'asse verticale usa 1 quadretto = 5 L. Un punto è a 3 quadretti sopra l'origine. Qual è la sua ordinata?",
+      "options": [
+        "8 L",
+        "15 L",
+        "3 L",
+        "5 L"
+      ],
+      "correct": 1,
+      "explanation": "3·5 L = 15 L."
+    },
+    {
+      "id": "intro-248",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale punto appartiene al secondo quadrante?",
+      "options": [
+        "(2; 5)",
+        "(−2; −5)",
+        "(−2; 5)",
+        "(2; −5)"
+      ],
+      "correct": 2,
+      "explanation": "Nel secondo quadrante la prima coordinata è negativa e la seconda positiva."
+    },
+    {
+      "id": "intro-249",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale punto si trova sull'asse x, a sinistra dell'origine?",
+      "options": [
+        "(0; −3)",
+        "(3; 0)",
+        "(0; 3)",
+        "(−3; 0)"
+      ],
+      "correct": 3,
+      "explanation": "L'asse x impone y=0 e a sinistra dell'origine x<0."
+    },
+    {
+      "id": "intro-250",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "L'asse orizzontale rappresenta il tempo in secondi e quello verticale il volume in litri. Quale unità ha l'ordinata?",
+      "options": [
+        "Litri",
+        "Secondi",
+        "Litri per secondo",
+        "Metri"
+      ],
+      "correct": 0,
+      "explanation": "L'ordinata si riferisce alla grandezza posta sull'asse verticale, cioè al volume."
+    }
+  ]
+}

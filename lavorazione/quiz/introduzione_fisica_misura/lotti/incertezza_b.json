@@ -1,0 +1,214 @@
+{
+  "questions": [
+    {
+      "id": "intro-219",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Una misura dà 48 g e il riferimento è 50 g. Quanto vale l'errore relativo, definito come scarto assoluto diviso riferimento?",
+      "options": [
+        "4",
+        "0,04",
+        "0,4",
+        "2"
+      ],
+      "correct": 1,
+      "explanation": "Lo scarto è 2 g; 2/50 = 0,04."
+    },
+    {
+      "id": "intro-220",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Una misura differisce dal riferimento di 3 unità su un riferimento di 60 unità. Qual è l'errore percentuale?",
+      "options": [
+        "0,5%",
+        "3%",
+        "5%",
+        "20%"
+      ],
+      "correct": 2,
+      "explanation": "3/60·100% = 5%."
+    },
+    {
+      "id": "intro-221",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un cronometro ha passo q = 0,01 s. Le letture vanno da 2,10 s a 2,18 s. Con U = max(semidispersione, passo), quanto vale U?",
+      "options": [
+        "0,01 s",
+        "0,02 s",
+        "0,08 s",
+        "0,04 s"
+      ],
+      "correct": 3,
+      "explanation": "La semidispersione è (2,18−2,10)/2 = 0,04 s, maggiore del passo."
+    },
+    {
+      "id": "intro-222",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Due serie hanno la stessa media; una ha letture da 4 a 6 e l'altra da 2 a 8. Quale ha semidispersione minore?",
+      "options": [
+        "La prima",
+        "La seconda",
+        "Le due hanno la stessa",
+        "Non è possibile calcolarle senza unità"
+      ],
+      "correct": 0,
+      "explanation": "La prima ha semidispersione 1, la seconda 3, nelle stesse unità."
+    },
+    {
+      "id": "intro-223",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Una bilancia dà letture identiche a 100,0 g, con passo q = 0,1 g. Usando U = max(d,q), quale incertezza stimata si indica?",
+      "options": [
+        "0 g",
+        "0,1 g",
+        "1 g",
+        "100 g"
+      ],
+      "correct": 1,
+      "explanation": "d = 0 per letture identiche, ma resta il passo 0,1 g."
+    },
+    {
+      "id": "intro-224",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Se una misura è inferiore al riferimento, il suo errore e = misura − riferimento è:",
+      "options": [
+        "Sempre nullo",
+        "Positivo",
+        "Negativo",
+        "Privo di segno"
+      ],
+      "correct": 2,
+      "explanation": "Sottraendo un riferimento maggiore si ottiene un valore negativo."
+    },
+    {
+      "id": "intro-225",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Quattro letture, in grammi, sono 8,2; 8,4; 8,1; 8,3. Il passo è q = 0,1 g. Con U = max(d,q), quale valore si ottiene?",
+      "options": [
+        "0,05 g",
+        "0,1 g",
+        "0,3 g",
+        "0,15 g"
+      ],
+      "correct": 3,
+      "explanation": "d = (8,4−8,1)/2 = 0,15 g, maggiore di q = 0,1 g."
+    },
+    {
+      "id": "intro-226",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Tre letture di una massa sono 10,2; 10,4; 10,6 g. Il passo è q = 0,05 g. Quale risultato media ± U, con U = max(d,q), è corretto?",
+      "options": [
+        "(10,4 ± 0,2) g",
+        "(10,4 ± 0,4) g",
+        "(10,2 ± 0,2) g",
+        "(10,6 ± 0,05) g"
+      ],
+      "correct": 0,
+      "explanation": "La media è 10,4 g e la semidispersione è 0,2 g, maggiore del passo."
+    },
+    {
+      "id": "intro-227",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un riferimento è 2,5 s e la misura è 2,4 s. Quale coppia errore con segno / errore percentuale è corretta?",
+      "options": [
+        "(+0,1 s; 4%)",
+        "(−0,1 s; 4%)",
+        "(−0,1 s; 0,4%)",
+        "(−0,1 s; 40%)"
+      ],
+      "correct": 1,
+      "explanation": "L'errore è −0,1 s; quello percentuale usa il modulo: 0,1/2,5·100%=4%."
+    },
+    {
+      "id": "intro-228",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un risultato è 15,0 g con riferimento 15,5 g. Un altro è 150,0 g con riferimento 150,5 g. Quale ha errore relativo maggiore?",
+      "options": [
+        "Il secondo perché è più grande",
+        "Sono uguali perché lo scarto assoluto è uguale",
+        "Il primo perché lo stesso scarto pesa di più su un riferimento piccolo",
+        "Non si può stabilire senza un cronometro"
+      ],
+      "correct": 2,
+      "explanation": "Entrambi gli scarti assoluti sono 0,5 g; 0,5/15,5 è maggiore di 0,5/150,5."
+    },
+    {
+      "id": "intro-229",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Cinque letture simmetriche hanno media 20,0 mm e massimo 20,4 mm. Il passo è 0,1 mm e il minimo è 19,6 mm. Quale U si ottiene?",
+      "options": [
+        "0,1 mm",
+        "0,2 mm",
+        "0,8 mm",
+        "0,4 mm"
+      ],
+      "correct": 3,
+      "explanation": "d = (20,4−19,6)/2 = 0,4 mm, maggiore del passo."
+    },
+    {
+      "id": "intro-230",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Uno strumento ha passo 0,2 g e ripete letture fra 30,0 e 30,2 g. Applicando U = max(d,q), quale risultato sulla sola incertezza è corretto?",
+      "options": [
+        "U = 0,2 g",
+        "U = 0,1 g",
+        "U = 0 g",
+        "U = 0,4 g"
+      ],
+      "correct": 0,
+      "explanation": "La semidispersione vale 0,1 g, ma il passo 0,2 g è maggiore."
+    },
+    {
+      "id": "intro-231",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Il valore misurato è 240 g, il riferimento 250 g. Quale coppia errore con segno e percentuale è corretta?",
+      "options": [
+        "(+10 g; 4%)",
+        "(−10 g; 4%)",
+        "(−10 g; 10%)",
+        "(−4 g; 10%)"
+      ],
+      "correct": 1,
+      "explanation": "L'errore è 240−250 = −10 g; la percentuale è 10/250·100% = 4%."
+    },
+    {
+      "id": "intro-232",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Due serie hanno rispettivamente media 5,0 e 5,1 s e incertezza dichiarata U = 0,2 s per entrambe. Quale conclusione è giustificata?",
+      "options": [
+        "La differenza di 0,1 s prova due durate diverse",
+        "Le misure sono sicuramente identiche",
+        "La differenza delle medie da sola non basta per concludere che i valori siano distinti",
+        "L'incertezza è necessariamente zero"
+      ],
+      "correct": 2,
+      "explanation": "Gli intervalli si sovrappongono; un piccolo scarto fra medie non decide da solo."
+    },
+    {
+      "id": "intro-233",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Si riporta x = (7,5 ± 0,3) cm, mentre un riferimento indipendente è 7,9 cm. Qual è l'errore con segno rispetto al riferimento?",
+      "options": [
+        "+0,4 cm",
+        "−0,3 cm",
+        "+0,3 cm",
+        "−0,4 cm"
+      ],
+      "correct": 3,
+      "explanation": "L'errore con segno è 7,5−7,9 = −0,4 cm; non coincide necessariamente con U."
+    }
+  ]
+}

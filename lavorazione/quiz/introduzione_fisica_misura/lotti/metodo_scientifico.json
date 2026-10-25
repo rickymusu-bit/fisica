@@ -1,0 +1,452 @@
+{
+  "questions": [
+    {
+      "id": "intro-010",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Qual è il primo compito di chi osserva un fenomeno sconosciuto?",
+      "options": [
+        "Descriverlo e formulare domande verificabili",
+        "Accettare la prima spiegazione disponibile",
+        "Eliminare le osservazioni inattese",
+        "Stabilire subito una legge definitiva"
+      ],
+      "correct": 0,
+      "explanation": "L'osservazione permette di individuare il problema, prima di formulare un'ipotesi."
+    },
+    {
+      "id": "intro-011",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "In un esperimento, a che cosa serve registrare i risultati in una tabella?",
+      "options": [
+        "A impedire qualunque errore di misura",
+        "A sostituire le misure mancanti",
+        "A organizzare dati da confrontare",
+        "A confermare automaticamente l'ipotesi"
+      ],
+      "correct": 2,
+      "explanation": "La tabella rende leggibili e confrontabili le misure."
+    },
+    {
+      "id": "intro-012",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Una previsione ricavata da un'ipotesi dovrebbe essere:",
+      "options": [
+        "Impossibile da smentire",
+        "Confrontabile con un risultato osservabile",
+        "Valida soltanto per un singolo ricercatore",
+        "Priva di condizioni sperimentali"
+      ],
+      "correct": 1,
+      "explanation": "Una previsione verificabile consente di mettere alla prova l'ipotesi."
+    },
+    {
+      "id": "intro-013",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Si prova la stessa pallina su due piste con diversa inclinazione. Per confrontare i tempi, che cosa conviene mantenere uguale?",
+      "options": [
+        "Il colore delle pareti",
+        "Il nome attribuito alla prova",
+        "Il numero scritto sulla pista",
+        "La lunghezza del percorso"
+      ],
+      "correct": 3,
+      "explanation": "Conservare la lunghezza del percorso consente di isolare meglio l'effetto dell'inclinazione."
+    },
+    {
+      "id": "intro-014",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Durante un'esperienza il risultato non coincide con la previsione. Qual è una reazione scientificamente corretta?",
+      "options": [
+        "Controllare misure, procedura e ipotesi",
+        "Eliminare i dati discordanti",
+        "Dichiarare che la scienza non funziona",
+        "Ripetere solo i risultati favorevoli"
+      ],
+      "correct": 0,
+      "explanation": "Un disaccordo invita a esaminare il procedimento e a rivedere eventualmente l'ipotesi."
+    },
+    {
+      "id": "intro-015",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Che cosa indica una variabile in un esperimento?",
+      "options": [
+        "Una conclusione già dimostrata",
+        "Una quantità o condizione che può assumere valori diversi",
+        "Una misura necessariamente sbagliata",
+        "Un oggetto usato solo per registrare dati"
+      ],
+      "correct": 1,
+      "explanation": "La variabile rappresenta una caratteristica modificabile o misurabile."
+    },
+    {
+      "id": "intro-016",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Che ruolo ha la ripetizione di una misura?",
+      "options": [
+        "Rende sempre corretto lo strumento",
+        "Trasforma un'ipotesi in legge",
+        "Permette di valutare quanto cambiano i risultati",
+        "Sostituisce l'indicazione dell'unità"
+      ],
+      "correct": 2,
+      "explanation": "Misure ripetute aiutano a riconoscere le variazioni nelle letture."
+    },
+    {
+      "id": "intro-017",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale attività costituisce un esperimento?",
+      "options": [
+        "Guardare casualmente un fenomeno senza annotarlo",
+        "Chiedere a un amico quale risposta preferisce",
+        "Memorizzare una definizione",
+        "Modificare una condizione e misurare l'effetto"
+      ],
+      "correct": 3,
+      "explanation": "In una prova controllata si osserva l'esito al variare di condizioni stabilite."
+    },
+    {
+      "id": "intro-018",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale affermazione rappresenta un'ipotesi scientifica verificabile?",
+      "options": [
+        "Aumentare la pendenza della pista riduce il tempo di discesa, a parità di percorso",
+        "Questa pista è la più bella",
+        "Il moto dipende da una forza che non può mai essere osservata",
+        "Il risultato giusto è quello che desideriamo"
+      ],
+      "correct": 0,
+      "explanation": "La prima affermazione produce una previsione quantitativa confrontabile con i tempi misurati."
+    },
+    {
+      "id": "intro-019",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Perché nel quaderno di laboratorio si riportano anche le condizioni della prova?",
+      "options": [
+        "Per rendere più lungo il resoconto",
+        "Per permettere di interpretare e ripetere l'esperimento",
+        "Per dimostrare che tutte le misure sono esatte",
+        "Per evitare di formulare ipotesi"
+      ],
+      "correct": 1,
+      "explanation": "Le condizioni sperimentali servono a capire che cosa si è confrontato."
+    },
+    {
+      "id": "intro-020",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale risultato offre un solo esperimento favorevole a un'ipotesi?",
+      "options": [
+        "Una dimostrazione definitiva e universale",
+        "La certezza che tutte le prove future concordino",
+        "Un sostegno provvisorio da sottoporre ad altre verifiche",
+        "La prova che nessun errore è possibile"
+      ],
+      "correct": 2,
+      "explanation": "Una conferma sperimentale non rende un'ipotesi inattaccabile."
+    },
+    {
+      "id": "intro-021",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un gruppo confronta due tipi di superficie per capire come cambia il tempo di rotolamento. Quale piano è più controllato?",
+      "options": [
+        "Cambiare superficie, pallina e lunghezza insieme",
+        "Usare palline diverse e ripetere molte volte",
+        "Misurare una superficie una volta e l'altra dieci",
+        "Tenere fissi pallina, inclinazione e percorso, cambiando solo la superficie"
+      ],
+      "correct": 3,
+      "explanation": "Cambiare soltanto la superficie aiuta ad attribuire a essa eventuali differenze."
+    },
+    {
+      "id": "intro-022",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Due serie misurate nelle stesse condizioni danno tempi leggermente diversi. Che cosa è più opportuno?",
+      "options": [
+        "Valutare la variabilità prima di confrontare le serie",
+        "Scegliere sempre il tempo minore",
+        "Scartare ogni misura non identica",
+        "Concludere che l'ipotesi è falsa senza altri controlli"
+      ],
+      "correct": 0,
+      "explanation": "La variabilità delle letture va considerata nel confronto sperimentale."
+    },
+    {
+      "id": "intro-023",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Una previsione parla del tempo necessario a sciogliere una sostanza. Quale dato manca per confrontare correttamente due prove?",
+      "options": [
+        "Il numero della pagina degli appunti",
+        "La quantità di sostanza e le condizioni di prova",
+        "La marca della penna usata",
+        "L'ordine alfabetico dei partecipanti"
+      ],
+      "correct": 1,
+      "explanation": "Quantità e condizioni incidono sul confronto; il resto non definisce la prova."
+    },
+    {
+      "id": "intro-024",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un ricercatore ottiene un risultato inatteso ripetendo correttamente la prova. Qual è il passo successivo ragionevole?",
+      "options": [
+        "Modificare il dato nel registro",
+        "Interrompere per sempre lo studio",
+        "Esaminare se l'ipotesi prevede davvero quel comportamento",
+        "Definire il risultato impossibile"
+      ],
+      "correct": 2,
+      "explanation": "Un risultato ripetuto e inatteso può richiedere la revisione della spiegazione."
+    },
+    {
+      "id": "intro-025",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "In una prova si misura la distanza percorsa al variare del tempo. Quale coppia distingue la grandezza modificata da quella osservata?",
+      "options": [
+        "Colore e massa",
+        "Temperatura e colore",
+        "Materiale e forma",
+        "Tempo e distanza"
+      ],
+      "correct": 3,
+      "explanation": "Il tempo è la variabile indipendente del confronto, la distanza quella misurata in funzione del tempo."
+    },
+    {
+      "id": "intro-026",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Per verificare se il tempo di discesa dipende dall'inclinazione, quale insieme di dati è più utile?",
+      "options": [
+        "Tempi ripetuti per ciascuna inclinazione con percorso uguale",
+        "Tempi di palline diverse su piste di lunghezze diverse",
+        "Sole inclinazioni senza tempi",
+        "Una sola misura senza indicare la pendenza"
+      ],
+      "correct": 0,
+      "explanation": "Ripetizioni e controllo del percorso rendono confrontabile l'effetto dell'inclinazione."
+    },
+    {
+      "id": "intro-027",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "In una serie sperimentale una lettura appare molto diversa dalle altre. Come ci si dovrebbe comportare?",
+      "options": [
+        "Cancellarla perché disturba la media",
+        "Verificare annotazioni, condizioni e possibili cause prima di escluderla",
+        "Sostituirla con il valore previsto",
+        "Considerarla necessariamente più precisa"
+      ],
+      "correct": 1,
+      "explanation": "Un dato anomalo non va eliminato senza motivazione verificabile."
+    },
+    {
+      "id": "intro-028",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale coppia è un esempio corretto di ipotesi e previsione?",
+      "options": [
+        "Ipotesi: misurare; previsione: usare un cronometro",
+        "Ipotesi: tabella; previsione: unità di misura",
+        "Ipotesi: il tempo diminuisce con la pendenza; previsione: con pista più inclinata si misura un tempo minore",
+        "Ipotesi: media; previsione: valore centrale"
+      ],
+      "correct": 2,
+      "explanation": "L'ipotesi è una spiegazione o relazione da testare, la previsione indica che cosa ci si attende nella prova."
+    },
+    {
+      "id": "intro-029",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "La stessa prova viene svolta da due laboratori con procedure diverse non documentate. Qual è il problema principale?",
+      "options": [
+        "Non possono scrivere tabelle",
+        "Devono usare lo stesso edificio",
+        "Le misure sono certamente false",
+        "Il confronto non separa gli effetti delle procedure dalle differenze osservate"
+      ],
+      "correct": 3,
+      "explanation": "Procedure differenti e ignote introducono fattori non controllati."
+    },
+    {
+      "id": "intro-030",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Una previsione è confermata solo quando si eliminano le letture sfavorevoli. Qual è il difetto del procedimento?",
+      "options": [
+        "La selezione dei dati altera la verifica dell'ipotesi",
+        "Le misure rimaste diventano più numerose",
+        "Le unità cambiano automaticamente",
+        "Il campione diventa per definizione più accurato"
+      ],
+      "correct": 0,
+      "explanation": "La selezione opportunistica dei dati impedisce un controllo imparziale."
+    },
+    {
+      "id": "intro-031",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una pallina percorre due piste di pari lunghezza ma con diversa inclinazione; cambiano anche le superfici. I tempi risultano diversi. Quale conclusione è giustificata?",
+      "options": [
+        "La differenza dipende certamente solo dall'inclinazione",
+        "Non si può isolare l'effetto dell'inclinazione senza controllare anche la superficie",
+        "La differenza dipende certamente solo dalla superficie",
+        "Le due piste devono avere identica velocità media"
+      ],
+      "correct": 1,
+      "explanation": "Poiché variano due condizioni insieme, la causa della differenza non è identificabile dal solo confronto."
+    },
+    {
+      "id": "intro-032",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Tre prove forniscono un risultato coerente con una previsione, una quarta no. Quale indagine è metodologicamente più utile?",
+      "options": [
+        "Sopprimere la quarta prova",
+        "Ignorare le prime tre",
+        "Ripetere la quarta nelle stesse condizioni e controllare eventuali differenze",
+        "Dichiarare impossibile qualunque conclusione futura"
+      ],
+      "correct": 2,
+      "explanation": "Una misura discordante richiede ripetizione e analisi, non esclusione automatica."
+    },
+    {
+      "id": "intro-033",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un'ipotesi prevede che raddoppiando una variabile x aumenti y. I dati mostrano che y talvolta aumenta e talvolta no. Quale elemento può rendere la previsione più verificabile?",
+      "options": [
+        "Usare una frase più persuasiva",
+        "Confrontare solo due casi favorevoli",
+        "Non misurare y",
+        "Specificare le condizioni e l'entità dell'aumento previsto"
+      ],
+      "correct": 3,
+      "explanation": "Condizioni e previsione quantitativa permettono confronti non ambigui."
+    },
+    {
+      "id": "intro-034",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una pista viene provata con inclinazioni A e B. I tempi medi sono 2,1 s e 2,0 s, ma ogni serie varia di circa 0,3 s. Che cosa si può sostenere dai soli dati riportati?",
+      "options": [
+        "La piccola differenza tra medie non basta a stabilire con sicurezza un effetto dell'inclinazione",
+        "La pista B è sempre più veloce in ogni prova",
+        "La pista A è certamente meno inclinata",
+        "Le misure sono necessariamente inventate"
+      ],
+      "correct": 0,
+      "explanation": "La differenza fra medie è minore della variabilità indicata: serve un'analisi più accurata."
+    },
+    {
+      "id": "intro-035",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un esperimento ripete dieci volte una procedura ma usa sempre lo stesso strumento non tarato. Quale limite rimane?",
+      "options": [
+        "La media è sempre priva di unità",
+        "Ripetere non elimina necessariamente uno scostamento sistematico dello strumento",
+        "Ogni misura deve risultare diversa",
+        "La dispersione coincide con l'errore dello strumento"
+      ],
+      "correct": 1,
+      "explanation": "La ripetizione stima la variabilità, non annulla automaticamente una distorsione comune a tutte le letture."
+    },
+    {
+      "id": "intro-036",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Si vuole verificare se la lunghezza di una molla varia al crescere del carico. In ogni prova varia anche la temperatura. Quale progetto migliora l'indagine?",
+      "options": [
+        "Aumentare entrambi senza misurarli",
+        "Scegliere solo i risultati regolari",
+        "Tenere costante o registrare la temperatura e variare sistematicamente il carico",
+        "Usare sempre carichi diversi ma non misurare la lunghezza"
+      ],
+      "correct": 2,
+      "explanation": "Separare i fattori consente di studiare la relazione fra carico e lunghezza."
+    },
+    {
+      "id": "intro-037",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Due esperimenti eseguiti in condizioni diverse producono lo stesso valore medio. Qual è la deduzione più solida?",
+      "options": [
+        "Le condizioni sono sicuramente equivalenti",
+        "I singoli valori sono necessariamente identici",
+        "Tutte le incertezze sono nulle",
+        "L'uguaglianza delle medie non prova che le distribuzioni dei risultati coincidano"
+      ],
+      "correct": 3,
+      "explanation": "Per confrontare due serie servono anche dispersione, numero di prove e condizioni."
+    },
+    {
+      "id": "intro-038",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Una previsione dà esito favorevole per 4 prove su 4, ma nessun altro gruppo riesce a riprodurre la procedura perché mancano le condizioni iniziali. Quale debolezza è decisiva?",
+      "options": [
+        "La riproducibilità non può essere valutata senza una procedura sufficientemente descritta",
+        "Quattro prove significano sempre zero incertezza",
+        "La previsione è certamente falsa",
+        "La mancanza di colori nei grafici"
+      ],
+      "correct": 0,
+      "explanation": "La documentazione del metodo è essenziale per riprodurre e controllare i risultati."
+    },
+    {
+      "id": "intro-039",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Si cambia contemporaneamente il tipo di pallina e l'angolo della pista, poi si registra un tempo minore. Quale prova aggiuntiva separa meglio gli effetti?",
+      "options": [
+        "Ripetere soltanto la combinazione nuova",
+        "Confrontare angoli diversi usando una sola pallina e poi palline diverse a angolo fisso",
+        "Sostituire tutti i tempi con la media totale",
+        "Aumentare insieme entrambe le variabili"
+      ],
+      "correct": 1,
+      "explanation": "Variazioni indipendenti permettono di valutare separatamente i contributi delle due condizioni."
+    },
+    {
+      "id": "intro-040",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Un modello prevede una relazione valida solo per piccole inclinazioni, ma un esperimento la mette alla prova a inclinazioni molto grandi. Quale cautela è corretta?",
+      "options": [
+        "Una previsione vale necessariamente in qualunque intervallo",
+        "Qualunque discordanza prova l'assenza di moto",
+        "La discordanza fuori dall'intervallo non smentisce da sola il modello nel suo campo di validità",
+        "La misura non deve essere ripetuta"
+      ],
+      "correct": 2,
+      "explanation": "Occorre rispettare le condizioni in cui il modello è dichiarato applicabile."
+    },
+    {
+      "id": "intro-041",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Si studia il tempo di riempimento di un recipiente al variare della portata. Le prove cambiano anche il volume finale da raggiungere. Qual è il confronto più adatto?",
+      "options": [
+        "Confrontare solo i tempi senza volume",
+        "Ignorare la portata",
+        "Usare un recipiente differente a ogni prova",
+        "Fissare il volume finale e variare la portata, misurando il tempo"
+      ],
+      "correct": 3,
+      "explanation": "Fissare il volume rende confrontabile l'effetto della portata sul tempo."
+    }
+  ]
+}

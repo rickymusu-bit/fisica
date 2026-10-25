@@ -13,13 +13,14 @@ class QuizCategoryTests(unittest.TestCase):
         self.addCleanup(self.temp.cleanup)
         self.root = Path(self.temp.name)
         self.registry = self.root / 'categorie.json'
-        self.archive = self.root / 'domande.json'
+        self.archive = self.root / 'domande' / 'thermal.json'
+        self.archive.parent.mkdir()
         self.registry.write_text(json.dumps({'schema_version': 1, 'categories': [
             {'id': 'thermal', 'area': 'Termologia'},
             {'id': 'measure', 'area': 'Misure'}]}))
         self.articles = [{'file': 'old.html', 'title': 'Vecchio titolo', 'area': 'Termologia'},
                          {'file': 'misure.html', 'title': 'Misure', 'area': 'Misure'}]
-        self.patcher = patch.multiple(quiz_site, CATEGORIES=self.registry, DATA=self.archive)
+        self.patcher = patch.multiple(quiz_site, CATEGORIES=self.registry, DATA_DIR=self.archive.parent)
         self.patcher.start()
         self.addCleanup(self.patcher.stop)
 

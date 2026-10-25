@@ -1,0 +1,130 @@
+{
+  "questions": [
+    {
+      "id": "intro-001",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Quale caratteristica rende controllabile sperimentalmente un'ipotesi scientifica?",
+      "options": [
+        "La possibilità di confrontare una previsione con osservazioni o misure.",
+        "L'approvazione dell'ipotesi da parte di molti ricercatori.",
+        "La certezza che ogni esperimento confermerà l'ipotesi.",
+        "La presenza di un'applicazione tecnologica immediata."
+      ],
+      "correct": 0,
+      "explanation": "Un'ipotesi scientifica deve produrre previsioni verificabili: i risultati possono sostenerla provvisoriamente oppure metterla in discussione."
+    },
+    {
+      "id": "intro-002",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Due gruppi misurano la stessa lunghezza. Il primo usa un righello graduato in centimetri, il secondo uno graduato in millimetri. Quale vantaggio può avere il secondo righello?",
+      "options": [
+        "Elimina tutti gli errori sistematici.",
+        "Permette di distinguere variazioni di lunghezza più piccole.",
+        "Garantisce che la misura coincida con il valore vero.",
+        "Non richiede di indicare l'unità di misura."
+      ],
+      "correct": 1,
+      "explanation": "Una suddivisione più fine permette di leggere differenze più piccole, ma non elimina gli errori né garantisce l'accuratezza."
+    },
+    {
+      "id": "intro-003",
+      "category": "introduzione_fisica_misura",
+      "level": "easy",
+      "prompt": "Una lunghezza è L = 3,5 m. Qual è la stessa lunghezza espressa in centimetri?",
+      "options": [
+        "0,035 cm",
+        "35 cm",
+        "350 cm",
+        "3500 cm"
+      ],
+      "correct": 2,
+      "explanation": "Poiché 1 m = 100 cm, 3,5 m = 350 cm."
+    },
+    {
+      "id": "intro-004",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Quale affermazione distingue correttamente precisione e accuratezza di una serie di misure?",
+      "options": [
+        "Misure ravvicinate sono necessariamente anche vicine al valore di riferimento.",
+        "Misure molto disperse sono sempre più accurate di misure ravvicinate.",
+        "La precisione riguarda solo gli strumenti digitali.",
+        "Misure ravvicinate possono essere tutte lontane dal valore di riferimento."
+      ],
+      "correct": 3,
+      "explanation": "Le misure possono essere poco disperse, quindi precise, ma risentire di uno scostamento sistematico e risultare poco accurate."
+    },
+    {
+      "id": "intro-005",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un esperimento confronta il tempo di discesa di una pallina lungo piste di inclinazione diversa. Quale cambiamento renderebbe difficile attribuire la differenza nei tempi alla sola inclinazione?",
+      "options": [
+        "Cambiare anche la lunghezza del percorso tra le prove.",
+        "Ripetere ogni prova con la stessa inclinazione.",
+        "Registrare i tempi in una tabella.",
+        "Usare sempre la stessa pallina."
+      ],
+      "correct": 0,
+      "explanation": "Se variano insieme inclinazione e lunghezza del percorso, non si può isolare l'effetto dell'inclinazione sul tempo."
+    },
+    {
+      "id": "intro-006",
+      "category": "introduzione_fisica_misura",
+      "level": "medium",
+      "prompt": "Un quadrato ha lato L = 30 cm. Qual è la sua area A espressa in metri quadrati?",
+      "options": [
+        "0,9 m²",
+        "0,09 m²",
+        "0,009 m²",
+        "9 m²"
+      ],
+      "correct": 1,
+      "explanation": "30 cm = 0,30 m; dunque A = L² = (0,30 m)² = 0,09 m²."
+    },
+    {
+      "id": "intro-007",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Si misurano più volte le dimensioni di un oggetto con uno strumento che, senza che l'operatore lo sappia, aggiunge sempre 2 mm a ogni lettura. Quale conclusione è corretta?",
+      "options": [
+        "Ripetendo le misure, lo scostamento sistematico si annulla necessariamente.",
+        "La media delle letture individua sempre il valore vero.",
+        "La dispersione delle letture può essere piccola anche se tutte sono spostate rispetto al valore corretto.",
+        "La semidispersione misura esattamente lo scostamento introdotto dallo strumento."
+      ],
+      "correct": 2,
+      "explanation": "Uno scostamento sistematico comune a tutte le letture può lasciare una dispersione piccola. Media e semidispersione da sole non lo eliminano né lo misurano."
+    },
+    {
+      "id": "intro-008",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Due grandezze positive x e y sono inversamente proporzionali. Un esperimento passa da x = 2 a x = 6 mantenendo invariata la costante di proporzionalità. Come cambia y?",
+      "options": [
+        "Diventa nove volte più grande.",
+        "Diventa tre volte più grande.",
+        "Diventa sei volte più piccola.",
+        "Diventa tre volte più piccola."
+      ],
+      "correct": 3,
+      "explanation": "Nella proporzionalità inversa il prodotto x·y è costante. Triplicare x da 2 a 6 divide y per 3."
+    },
+    {
+      "id": "intro-009",
+      "category": "introduzione_fisica_misura",
+      "level": "hard",
+      "prompt": "Cinque misure di una lunghezza L, in centimetri, sono 12,1; 12,3; 12,2; 12,4; 12,0. Usando la media e la semidispersione come stima dell'incertezza, quale risultato si ottiene?",
+      "options": [
+        "(12,2 ± 0,2) cm",
+        "(12,2 ± 0,4) cm",
+        "(12,0 ± 0,2) cm",
+        "(12,4 ± 0,1) cm"
+      ],
+      "correct": 0,
+      "explanation": "La media è (12,1 + 12,3 + 12,2 + 12,4 + 12,0)/5 = 12,2 cm. La semidispersione è (12,4 − 12,0)/2 = 0,2 cm."
+    }
+  ]
+}

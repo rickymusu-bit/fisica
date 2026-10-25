@@ -1,10 +1,11 @@
 """Pagina Quiz di Stringhe: catalogo e dataset esterni, grafica condivisa."""
 from html import escape
 import json
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT / "quiz" / "domande.json"
+DATA_DIR = ROOT / "quiz" / "domande"
 CATEGORIES = ROOT / "quiz" / "categorie.json"
 LEVELS = {"easy": 4, "medium": 4, "hard": 4}
 
@@ -22,7 +23,7 @@ def load_categories(articles):
         if not isinstance(category, dict):
             raise ValueError("Categoria non valida")
         identifier, area = category.get("id"), category.get("area")
-        if not isinstance(identifier, str) or not identifier.strip() or identifier in ids:
+        if not isinstance(identifier, str) or not re.fullmatch(r"[a-z0-9_]+", identifier) or identifier in ids:
             raise ValueError("Identificativo categoria assente o duplicato")
         if not isinstance(area, str) or not area.strip() or area in areas:
             raise ValueError("Area categoria assente o duplicata")
@@ -34,38 +35,51 @@ def load_categories(articles):
 
 
 def load_questions(allowed):
-    # Nessun archivio: l'interfaccia rimane visibile, ma non avviabile.
-    if not DATA.is_file():
-        return []
-    archive = json.loads(DATA.read_text(encoding="utf-8"))
-    if not isinstance(archive, dict) or not isinstance(archive.get("questions"), list):
-        raise ValueError("Archivio delle domande non valido")
-    questions = archive["questions"]
-    if len({q["id"] for q in questions}) != len(questions):
-        raise ValueError("Identificativi duplicati nelle domande")
-    for q in questions:
-        if "chapter" in q or "tags" in q:
-            raise ValueError(f"Schema per capitoli/tag superato: {q['id']}")
-        if not isinstance(q.get("category"), str) or q["category"] not in allowed:
-            raise ValueError(f"Categoria della domanda non valida: {q['id']}")
-        if q["level"] not in LEVELS or len(q["options"]) != LEVELS[q["level"]]:
-            raise ValueError(f"Numero alternative errato: {q['id']}")
-        if not isinstance(q["correct"], int) or not 0 <= q["correct"] < len(q["options"]):
-            raise ValueError(f"Soluzione non valida: {q['id']}")
-        if any(not isinstance(q[field], str) or not q[field].strip()
-               for field in ("prompt", "explanation")):
-            raise ValueError(f"Testo incompleto: {q['id']}")
-        if any(not isinstance(x, str) or not x.strip() for x in q["options"]):
-            raise ValueError(f"Alternativa vuota: {q['id']}")
-        if len(set(q["options"])) != len(q["options"]):
-            raise ValueError(f"Alternative duplicate: {q['id']}")
+    """Legge e valida i JSON separati. Una categoria senza file non è disponibile."""
+    questions = []
+    identifiers = set()
+    for category_id in sorted(allowed):
+        source = DATA_DIR / (category_id + ".json")
+        if not source.is_file():
+            continue
+        archive = json.loads(source.read_text(encoding="utf-8"))
+        if not isinstance(archive, dict) or not isinstance(archive.get("questions"), list):
+            raise ValueError(f"Archivio non valido: {source.name}")
+        for q in archive["questions"]:
+            if not isinstance(q, dict):
+                raise ValueError(f"Record non valido in {source.name}")
+            if set(q) != {"id", "category", "level", "prompt", "options", "correct", "explanation"}:
+                raise ValueError(f"Campi non validi in {source.name}")
+            if not isinstance(q["id"], str) or not q["id"] or q["id"] in identifiers:
+                raise ValueError(f"ID domanda assente o duplicato: {q['id']}")
+            identifiers.add(q["id"])
+            if q["category"] != category_id:
+                raise ValueError(f"Categoria errata in {source.name}: {q['id']}")
+            if q["level"] not in LEVELS or not isinstance(q["options"], list) or len(q["options"]) != LEVELS[q["level"]]:
+                raise ValueError(f"Numero alternative errato: {q['id']}")
+            if type(q["correct"]) is not int or not 0 <= q["correct"] < len(q["options"]):
+                raise ValueError(f"Soluzione non valida: {q['id']}")
+            if any(not isinstance(q[field], str) or not q[field].strip()
+                   for field in ("prompt", "explanation")):
+                raise ValueError(f"Testo incompleto: {q['id']}")
+            if any(not isinstance(x, str) or not x.strip() for x in q["options"]):
+                raise ValueError(f"Alternativa vuota: {q['id']}")
+            if len(set(q["options"])) != len(q["options"]):
+                raise ValueError(f"Alternative duplicate: {q['id']}")
+            questions.append(q)
     return questions
-
 
 def render_quiz_page(source, allowed, catalogue, shell):
     articles = catalogue(source, allowed)
     categories = load_categories(articles)
     questions = load_questions({category["id"] for category in categories})
+    for category in categories:
+        category["file"] = "quiz/domande/" + category["id"] + ".json"
+        category["levels"] = {
+            level: sum(q["category"] == category["id"] and q["level"] == level
+                       for q in questions)
+            for level in LEVELS
+        }
     category_html = "".join(
         '<label class="quiz-choice quiz-category-title">'
         '<input type="radio" name="quiz-category" data-quiz-category '
@@ -73,7 +87,7 @@ def render_quiz_page(source, allowed, catalogue, shell):
         f'<span>{escape(category["title"])}</span></label>'
         for category in categories
     )
-    payload = json.dumps({"categories": categories, "questions": questions},
+    payload = json.dumps({"categories": categories},
                          ensure_ascii=False).replace("<", "\\u003c")
     body = (
         '<p class="eyebrow">Mettiti alla prova</p>'
