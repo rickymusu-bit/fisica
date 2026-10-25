@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "date": "2026-10-25",
-  "note": "Classificazioni, prerequisiti e tempi dei 291 nuovi quesiti sono stime preliminari da verificare nella revisione didattica, non risultati osservati.",
+  "note": "Classificazione per tipo ricontrollata sulle operazioni prevalenti. Difficoltà e tempi restano stime didattiche preliminari: 9 quesiti campione approvati, 291 proposte da revisionare.",
   "questions": [
     {
       "id": "intro-001",
@@ -187,7 +187,7 @@
       "id": "intro-013",
       "category": "introduzione_fisica_misura",
       "level": "easy",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "metodo_scientifico_it.html"
@@ -202,7 +202,7 @@
       "id": "intro-014",
       "category": "introduzione_fisica_misura",
       "level": "easy",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "metodo_scientifico_it.html"
@@ -292,7 +292,7 @@
       "id": "intro-020",
       "category": "introduzione_fisica_misura",
       "level": "easy",
-      "type": "calcolo",
+      "type": "conoscenza",
       "scope": "specifico",
       "references": [
         "metodo_scientifico_it.html"
@@ -322,7 +322,7 @@
       "id": "intro-022",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "metodo_scientifico_it.html"
@@ -337,7 +337,7 @@
       "id": "intro-023",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "metodo_scientifico_it.html"
@@ -352,7 +352,7 @@
       "id": "intro-024",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "metodo_scientifico_it.html"
@@ -367,7 +367,7 @@
       "id": "intro-025",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "metodo_scientifico_it.html"
@@ -382,7 +382,7 @@
       "id": "intro-026",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "metodo_scientifico_it.html"
@@ -397,7 +397,7 @@
       "id": "intro-027",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "metodo_scientifico_it.html"
@@ -412,7 +412,7 @@
       "id": "intro-028",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "metodo_scientifico_it.html"
@@ -427,7 +427,7 @@
       "id": "intro-029",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "metodo_scientifico_it.html"
@@ -442,7 +442,7 @@
       "id": "intro-030",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "metodo_scientifico_it.html"
@@ -502,7 +502,7 @@
       "id": "intro-034",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "metodo_scientifico_it.html"
@@ -547,7 +547,7 @@
       "id": "intro-037",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "metodo_scientifico_it.html"
@@ -562,7 +562,7 @@
       "id": "intro-038",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "metodo_scientifico_it.html"
@@ -607,7 +607,7 @@
       "id": "intro-041",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "metodo_scientifico_it.html"
@@ -802,8 +802,8 @@
       "id": "intro-054",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
-      "scope": "specifico",
+      "type": "ragionamento",
+      "scope": "trasversale",
       "references": [
         "grandezze_fisiche_sistema_internazionale_it.html"
       ],
@@ -847,8 +847,8 @@
       "id": "intro-057",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
-      "scope": "specifico",
+      "type": "ragionamento",
+      "scope": "trasversale",
       "references": [
         "grandezze_fisiche_sistema_internazionale_it.html"
       ],
@@ -877,8 +877,8 @@
       "id": "intro-059",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
-      "scope": "specifico",
+      "type": "ragionamento",
+      "scope": "trasversale",
       "references": [
         "grandezze_fisiche_sistema_internazionale_it.html"
       ],
@@ -922,8 +922,8 @@
       "id": "intro-062",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "calcolo",
-      "scope": "specifico",
+      "type": "ragionamento",
+      "scope": "trasversale",
       "references": [
         "grandezze_fisiche_sistema_internazionale_it.html"
       ],
@@ -937,7 +937,7 @@
       "id": "intro-063",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "calcolo",
+      "type": "conoscenza",
       "scope": "specifico",
       "references": [
         "grandezze_fisiche_sistema_internazionale_it.html"
@@ -953,7 +953,7 @@
       "category": "introduzione_fisica_misura",
       "level": "hard",
       "type": "ragionamento",
-      "scope": "specifico",
+      "scope": "trasversale",
       "references": [
         "grandezze_fisiche_sistema_internazionale_it.html"
       ],
@@ -967,7 +967,7 @@
       "id": "intro-065",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "grandezze_fisiche_sistema_internazionale_it.html"
@@ -982,8 +982,8 @@
       "id": "intro-066",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
-      "scope": "specifico",
+      "type": "ragionamento",
+      "scope": "trasversale",
       "references": [
         "grandezze_fisiche_sistema_internazionale_it.html"
       ],
@@ -997,8 +997,8 @@
       "id": "intro-067",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
-      "scope": "specifico",
+      "type": "ragionamento",
+      "scope": "trasversale",
       "references": [
         "grandezze_fisiche_sistema_internazionale_it.html"
       ],
@@ -1012,8 +1012,8 @@
       "id": "intro-068",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
-      "scope": "specifico",
+      "type": "ragionamento",
+      "scope": "trasversale",
       "references": [
         "grandezze_fisiche_sistema_internazionale_it.html"
       ],
@@ -1027,7 +1027,7 @@
       "id": "intro-069",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "grandezze_fisiche_sistema_internazionale_it.html"
@@ -1042,8 +1042,8 @@
       "id": "intro-070",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
-      "scope": "specifico",
+      "type": "ragionamento",
+      "scope": "trasversale",
       "references": [
         "grandezze_fisiche_sistema_internazionale_it.html"
       ],
@@ -1057,7 +1057,7 @@
       "id": "intro-071",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "grandezze_fisiche_sistema_internazionale_it.html"
@@ -1072,8 +1072,8 @@
       "id": "intro-072",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "calcolo",
-      "scope": "specifico",
+      "type": "ragionamento",
+      "scope": "trasversale",
       "references": [
         "grandezze_fisiche_sistema_internazionale_it.html"
       ],
@@ -1087,7 +1087,7 @@
       "id": "intro-073",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "grandezze_fisiche_sistema_internazionale_it.html"
@@ -1102,8 +1102,8 @@
       "id": "intro-074",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
-      "scope": "specifico",
+      "type": "ragionamento",
+      "scope": "trasversale",
       "references": [
         "grandezze_fisiche_sistema_internazionale_it.html"
       ],
@@ -1162,7 +1162,7 @@
       "id": "intro-078",
       "category": "introduzione_fisica_misura",
       "level": "easy",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "potenze_dieci_notazione_scientifica_it.html"
@@ -1207,7 +1207,7 @@
       "id": "intro-081",
       "category": "introduzione_fisica_misura",
       "level": "easy",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "potenze_dieci_notazione_scientifica_it.html"
@@ -1222,7 +1222,7 @@
       "id": "intro-082",
       "category": "introduzione_fisica_misura",
       "level": "easy",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "potenze_dieci_notazione_scientifica_it.html"
@@ -1238,7 +1238,7 @@
       "category": "introduzione_fisica_misura",
       "level": "easy",
       "type": "calcolo",
-      "scope": "specifico",
+      "scope": "trasversale",
       "references": [
         "potenze_dieci_notazione_scientifica_it.html"
       ],
@@ -1267,8 +1267,8 @@
       "id": "intro-085",
       "category": "introduzione_fisica_misura",
       "level": "easy",
-      "type": "conoscenza",
-      "scope": "specifico",
+      "type": "calcolo",
+      "scope": "trasversale",
       "references": [
         "potenze_dieci_notazione_scientifica_it.html"
       ],
@@ -1282,7 +1282,7 @@
       "id": "intro-086",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "potenze_dieci_notazione_scientifica_it.html"
@@ -1312,7 +1312,7 @@
       "id": "intro-088",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "potenze_dieci_notazione_scientifica_it.html"
@@ -1342,7 +1342,7 @@
       "id": "intro-090",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "potenze_dieci_notazione_scientifica_it.html"
@@ -1357,7 +1357,7 @@
       "id": "intro-091",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "potenze_dieci_notazione_scientifica_it.html"
@@ -1402,7 +1402,7 @@
       "id": "intro-094",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "potenze_dieci_notazione_scientifica_it.html"
@@ -1417,7 +1417,7 @@
       "id": "intro-095",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "potenze_dieci_notazione_scientifica_it.html"
@@ -1432,7 +1432,7 @@
       "id": "intro-096",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "potenze_dieci_notazione_scientifica_it.html"
@@ -1447,7 +1447,7 @@
       "id": "intro-097",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "potenze_dieci_notazione_scientifica_it.html"
@@ -1462,8 +1462,8 @@
       "id": "intro-098",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
-      "scope": "specifico",
+      "type": "calcolo",
+      "scope": "trasversale",
       "references": [
         "potenze_dieci_notazione_scientifica_it.html"
       ],
@@ -1477,7 +1477,7 @@
       "id": "intro-099",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "potenze_dieci_notazione_scientifica_it.html"
@@ -1493,7 +1493,7 @@
       "category": "introduzione_fisica_misura",
       "level": "hard",
       "type": "calcolo",
-      "scope": "specifico",
+      "scope": "trasversale",
       "references": [
         "potenze_dieci_notazione_scientifica_it.html"
       ],
@@ -1507,8 +1507,8 @@
       "id": "intro-101",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
-      "scope": "specifico",
+      "type": "calcolo",
+      "scope": "trasversale",
       "references": [
         "potenze_dieci_notazione_scientifica_it.html"
       ],
@@ -1522,7 +1522,7 @@
       "id": "intro-102",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "potenze_dieci_notazione_scientifica_it.html"
@@ -1537,8 +1537,8 @@
       "id": "intro-103",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
-      "scope": "specifico",
+      "type": "calcolo",
+      "scope": "trasversale",
       "references": [
         "potenze_dieci_notazione_scientifica_it.html"
       ],
@@ -1552,7 +1552,7 @@
       "id": "intro-104",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "potenze_dieci_notazione_scientifica_it.html"
@@ -1567,7 +1567,7 @@
       "id": "intro-105",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "potenze_dieci_notazione_scientifica_it.html"
@@ -1582,8 +1582,8 @@
       "id": "intro-106",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
-      "scope": "specifico",
+      "type": "calcolo",
+      "scope": "trasversale",
       "references": [
         "potenze_dieci_notazione_scientifica_it.html"
       ],
@@ -1597,7 +1597,7 @@
       "id": "intro-107",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "potenze_dieci_notazione_scientifica_it.html"
@@ -1717,7 +1717,7 @@
       "id": "intro-115",
       "category": "introduzione_fisica_misura",
       "level": "easy",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "prefissi_sistema_internazionale_it.html"
@@ -1807,7 +1807,7 @@
       "id": "intro-121",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "prefissi_sistema_internazionale_it.html"
@@ -1867,7 +1867,7 @@
       "id": "intro-125",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "prefissi_sistema_internazionale_it.html"
@@ -1882,7 +1882,7 @@
       "id": "intro-126",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "prefissi_sistema_internazionale_it.html"
@@ -1897,8 +1897,8 @@
       "id": "intro-127",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
-      "scope": "specifico",
+      "type": "calcolo",
+      "scope": "trasversale",
       "references": [
         "prefissi_sistema_internazionale_it.html"
       ],
@@ -1912,8 +1912,8 @@
       "id": "intro-128",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
-      "scope": "specifico",
+      "type": "calcolo",
+      "scope": "trasversale",
       "references": [
         "prefissi_sistema_internazionale_it.html"
       ],
@@ -1927,7 +1927,7 @@
       "id": "intro-129",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "prefissi_sistema_internazionale_it.html"
@@ -1942,7 +1942,7 @@
       "id": "intro-130",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "prefissi_sistema_internazionale_it.html"
@@ -1957,7 +1957,7 @@
       "id": "intro-131",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "prefissi_sistema_internazionale_it.html"
@@ -2002,8 +2002,8 @@
       "id": "intro-134",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
-      "scope": "specifico",
+      "type": "calcolo",
+      "scope": "trasversale",
       "references": [
         "prefissi_sistema_internazionale_it.html"
       ],
@@ -2017,8 +2017,8 @@
       "id": "intro-135",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
-      "scope": "specifico",
+      "type": "calcolo",
+      "scope": "trasversale",
       "references": [
         "prefissi_sistema_internazionale_it.html"
       ],
@@ -2047,7 +2047,7 @@
       "id": "intro-137",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "prefissi_sistema_internazionale_it.html"
@@ -2077,7 +2077,7 @@
       "id": "intro-139",
       "category": "introduzione_fisica_misura",
       "level": "easy",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "cifre_significative_it.html"
@@ -2092,7 +2092,7 @@
       "id": "intro-140",
       "category": "introduzione_fisica_misura",
       "level": "easy",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "cifre_significative_it.html"
@@ -2122,7 +2122,7 @@
       "id": "intro-142",
       "category": "introduzione_fisica_misura",
       "level": "easy",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "cifre_significative_it.html"
@@ -2152,7 +2152,7 @@
       "id": "intro-144",
       "category": "introduzione_fisica_misura",
       "level": "easy",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "cifre_significative_it.html"
@@ -2212,7 +2212,7 @@
       "id": "intro-148",
       "category": "introduzione_fisica_misura",
       "level": "easy",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "cifre_significative_it.html"
@@ -2242,7 +2242,7 @@
       "id": "intro-150",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "cifre_significative_it.html"
@@ -2302,7 +2302,7 @@
       "id": "intro-154",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "cifre_significative_it.html"
@@ -2362,7 +2362,7 @@
       "id": "intro-158",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "cifre_significative_it.html"
@@ -2377,7 +2377,7 @@
       "id": "intro-159",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "cifre_significative_it.html"
@@ -2392,7 +2392,7 @@
       "id": "intro-160",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "cifre_significative_it.html"
@@ -2452,7 +2452,7 @@
       "id": "intro-164",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "cifre_significative_it.html"
@@ -2512,7 +2512,7 @@
       "id": "intro-168",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "cifre_significative_it.html"
@@ -2677,7 +2677,7 @@
       "id": "intro-179",
       "category": "introduzione_fisica_misura",
       "level": "easy",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "strumenti_misura_it.html"
@@ -2722,7 +2722,7 @@
       "id": "intro-182",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "ragionamento",
+      "type": "conoscenza",
       "scope": "specifico",
       "references": [
         "strumenti_misura_it.html"
@@ -2737,7 +2737,7 @@
       "id": "intro-183",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "strumenti_misura_it.html"
@@ -2752,7 +2752,7 @@
       "id": "intro-184",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "strumenti_misura_it.html"
@@ -2767,7 +2767,7 @@
       "id": "intro-185",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "strumenti_misura_it.html"
@@ -2782,7 +2782,7 @@
       "id": "intro-186",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "strumenti_misura_it.html"
@@ -2797,7 +2797,7 @@
       "id": "intro-187",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "strumenti_misura_it.html"
@@ -2812,7 +2812,7 @@
       "id": "intro-188",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "strumenti_misura_it.html"
@@ -2827,7 +2827,7 @@
       "id": "intro-189",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "strumenti_misura_it.html"
@@ -2872,7 +2872,7 @@
       "id": "intro-192",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "strumenti_misura_it.html"
@@ -2887,7 +2887,7 @@
       "id": "intro-193",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "strumenti_misura_it.html"
@@ -2917,7 +2917,7 @@
       "id": "intro-195",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "calcolo",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "strumenti_misura_it.html"
@@ -2932,7 +2932,7 @@
       "id": "intro-196",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "strumenti_misura_it.html"
@@ -2947,7 +2947,7 @@
       "id": "intro-197",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "strumenti_misura_it.html"
@@ -2962,7 +2962,7 @@
       "id": "intro-198",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "strumenti_misura_it.html"
@@ -2977,7 +2977,7 @@
       "id": "intro-199",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "strumenti_misura_it.html"
@@ -3007,7 +3007,7 @@
       "id": "intro-201",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "strumenti_misura_it.html"
@@ -3022,7 +3022,7 @@
       "id": "intro-202",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "strumenti_misura_it.html"
@@ -3067,7 +3067,7 @@
       "id": "intro-205",
       "category": "introduzione_fisica_misura",
       "level": "easy",
-      "type": "ragionamento",
+      "type": "conoscenza",
       "scope": "specifico",
       "references": [
         "errori_incertezza_misura_it.html"
@@ -3232,7 +3232,7 @@
       "id": "intro-216",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "errori_incertezza_misura_it.html"
@@ -3262,7 +3262,7 @@
       "id": "intro-218",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "errori_incertezza_misura_it.html"
@@ -3322,7 +3322,7 @@
       "id": "intro-222",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "errori_incertezza_misura_it.html"
@@ -3337,7 +3337,7 @@
       "id": "intro-223",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "errori_incertezza_misura_it.html"
@@ -3352,7 +3352,7 @@
       "id": "intro-224",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "errori_incertezza_misura_it.html"
@@ -3397,7 +3397,7 @@
       "id": "intro-227",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "errori_incertezza_misura_it.html"
@@ -3412,7 +3412,7 @@
       "id": "intro-228",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "errori_incertezza_misura_it.html"
@@ -3427,7 +3427,7 @@
       "id": "intro-229",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "errori_incertezza_misura_it.html"
@@ -3457,7 +3457,7 @@
       "id": "intro-231",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "errori_incertezza_misura_it.html"
@@ -3592,7 +3592,7 @@
       "id": "intro-240",
       "category": "introduzione_fisica_misura",
       "level": "easy",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "piano_cartesiano_grafici_it.html"
@@ -3667,7 +3667,7 @@
       "id": "intro-245",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "piano_cartesiano_grafici_it.html"
@@ -3682,7 +3682,7 @@
       "id": "intro-246",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "piano_cartesiano_grafici_it.html"
@@ -3697,7 +3697,7 @@
       "id": "intro-247",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "piano_cartesiano_grafici_it.html"
@@ -3712,7 +3712,7 @@
       "id": "intro-248",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "piano_cartesiano_grafici_it.html"
@@ -3727,7 +3727,7 @@
       "id": "intro-249",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "piano_cartesiano_grafici_it.html"
@@ -3757,7 +3757,7 @@
       "id": "intro-251",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "piano_cartesiano_grafici_it.html"
@@ -3772,7 +3772,7 @@
       "id": "intro-252",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "piano_cartesiano_grafici_it.html"
@@ -3787,7 +3787,7 @@
       "id": "intro-253",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "piano_cartesiano_grafici_it.html"
@@ -3802,7 +3802,7 @@
       "id": "intro-254",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "piano_cartesiano_grafici_it.html"
@@ -3817,7 +3817,7 @@
       "id": "intro-255",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "piano_cartesiano_grafici_it.html"
@@ -3832,7 +3832,7 @@
       "id": "intro-256",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "piano_cartesiano_grafici_it.html"
@@ -3847,7 +3847,7 @@
       "id": "intro-257",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "piano_cartesiano_grafici_it.html"
@@ -3862,7 +3862,7 @@
       "id": "intro-258",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "piano_cartesiano_grafici_it.html"
@@ -3877,7 +3877,7 @@
       "id": "intro-259",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "piano_cartesiano_grafici_it.html"
@@ -3892,7 +3892,7 @@
       "id": "intro-260",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "piano_cartesiano_grafici_it.html"
@@ -3907,7 +3907,7 @@
       "id": "intro-261",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "piano_cartesiano_grafici_it.html"
@@ -3922,7 +3922,7 @@
       "id": "intro-262",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "piano_cartesiano_grafici_it.html"
@@ -3937,7 +3937,7 @@
       "id": "intro-263",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "piano_cartesiano_grafici_it.html"
@@ -3967,7 +3967,7 @@
       "id": "intro-265",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "piano_cartesiano_grafici_it.html"
@@ -3982,7 +3982,7 @@
       "id": "intro-266",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "piano_cartesiano_grafici_it.html"
@@ -4162,7 +4162,7 @@
       "id": "intro-278",
       "category": "introduzione_fisica_misura",
       "level": "easy",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "relazioni_proporzionalita_it.html"
@@ -4177,7 +4177,7 @@
       "id": "intro-279",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "relazioni_proporzionalita_it.html"
@@ -4192,7 +4192,7 @@
       "id": "intro-280",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "relazioni_proporzionalita_it.html"
@@ -4207,7 +4207,7 @@
       "id": "intro-281",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "relazioni_proporzionalita_it.html"
@@ -4222,7 +4222,7 @@
       "id": "intro-282",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "relazioni_proporzionalita_it.html"
@@ -4252,7 +4252,7 @@
       "id": "intro-284",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "ragionamento",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "relazioni_proporzionalita_it.html"
@@ -4312,7 +4312,7 @@
       "id": "intro-288",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "ragionamento",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "relazioni_proporzionalita_it.html"
@@ -4327,7 +4327,7 @@
       "id": "intro-289",
       "category": "introduzione_fisica_misura",
       "level": "medium",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "relazioni_proporzionalita_it.html"
@@ -4387,7 +4387,7 @@
       "id": "intro-293",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "relazioni_proporzionalita_it.html"
@@ -4417,7 +4417,7 @@
       "id": "intro-295",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "relazioni_proporzionalita_it.html"
@@ -4432,7 +4432,7 @@
       "id": "intro-296",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "relazioni_proporzionalita_it.html"
@@ -4462,7 +4462,7 @@
       "id": "intro-298",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "relazioni_proporzionalita_it.html"
@@ -4477,7 +4477,7 @@
       "id": "intro-299",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "calcolo",
       "scope": "specifico",
       "references": [
         "relazioni_proporzionalita_it.html"
@@ -4492,7 +4492,7 @@
       "id": "intro-300",
       "category": "introduzione_fisica_misura",
       "level": "hard",
-      "type": "conoscenza",
+      "type": "ragionamento",
       "scope": "specifico",
       "references": [
         "relazioni_proporzionalita_it.html"
