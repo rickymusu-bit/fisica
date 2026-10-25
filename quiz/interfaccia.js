@@ -8,6 +8,10 @@
   const OPTIONS_PER_QUESTION = 4;
   const SESSION_VERSION = 2;
   const categories = new Map(dataset.categories.map(c => [c.id, c]));
+  // Le domande non sono incorporate nella pagina pubblica. Il fallback serve
+  // esclusivamente alle simulazioni con un archivio effimero nel documento.
+  const inlineQuestions = Array.isArray(dataset.questions) ? dataset.questions : null;
+  let loadingQuestions = false;
   const categoryBoxes = [...document.querySelectorAll("[data-quiz-category]")];
   const levelBoxes = [...document.querySelectorAll('input[name="quiz-level"]')];
   const config = document.getElementById("quiz-config");
@@ -242,9 +246,10 @@
 
   function updateAvailability() {
     const level = levelBoxes.find(box => box.checked).value;
-    const available = new Set(dataset.questions
-      .filter(question => question.level === level)
-      .map(question => question.category));
+    // Il manifest consente di scegliere prima di scaricare un intero archivio.
+    const available = new Set(inlineQuestions
+      ? inlineQuestions.filter(q => q.level === level).map(q => q.category)
+      : dataset.categories.filter(c => Number(c.levels?.[level]) > 0).map(c => c.id));
     for (const category of categoryBoxes) {
       setAvailability(category, available.has(category.value), "Non disponibile");
     }
@@ -255,7 +260,7 @@
     const count = getQuestionCount();
     countMinus.disabled = count === 1;
     countPlus.disabled = count === MAX_QUESTIONS;
-    startButton.disabled = selectedCategory() === null || count === null;
+    startButton.disabled = loadingQuestions || selectedCategory() === null || count === null;
     durationOutput.textContent = count === null
       ? "Inserisci un numero da 1 a 30."
       : formatDuration(count * SECONDS_PER_QUESTION);
@@ -349,16 +354,67 @@
     results.hidden = phase !== "results";
   }
 
-  function startQuiz() {
+  async function startQuiz() {
+    if (loadingQuestions) return;
     const selected = selectedCategory();
     const count = getQuestionCount();
-    if (count === null) {
-      configError.textContent = "Scegli un numero di domande tra 1 e 30.";
+    if (count === null || selected === null) {
+      configError.textContent = "Scegli una categoria e un numero di domande tra 1 e 30.";
       configError.hidden = false;
       return;
     }
     const level = document.querySelector('input[name="quiz-level"]:checked').value;
-    const pool = dataset.questions.filter(q => q.category === selected && q.level === level);
+    const category = categories.get(selected);
+    let questions;
+    if (inlineQuestions) {
+      questions = inlineQuestions; // Fixture locale dei test, mai nell'HTML pubblicato.
+    } else {
+      loadingQuestions = true;
+      startButton.textContent = "Caricamento…";
+      updateConfiguration();
+      let message = null;
+      try {
+        const response = await fetch(category.file);
+        if (!response.ok) throw new Error("HTTP " + response.status);
+        const body = await response.json();
+        if (!body || !Array.isArray(body.questions)) throw new Error("Formato non valido");
+        questions = body.questions;
+        const ids = new Set();
+        const valid = questions.every(q => {
+          if (!q || typeof q.id !== "string" || !q.id || ids.has(q.id) ||
+              q.category !== selected || !["easy", "medium", "hard"].includes(q.level) ||
+              typeof q.prompt !== "string" || !q.prompt.trim() ||
+              typeof q.explanation !== "string" || !q.explanation.trim() ||
+              !Array.isArray(q.options) || q.options.length !== OPTIONS_PER_QUESTION ||
+              q.options.some(option => typeof option !== "string" || !option.trim()) ||
+              new Set(q.options).size !== OPTIONS_PER_QUESTION ||
+              !Number.isInteger(q.correct) || q.correct < 0 || q.correct >= OPTIONS_PER_QUESTION) return false;
+          ids.add(q.id);
+          return true;
+        });
+        if (!valid || questions.length !== Object.values(category.levels).reduce((a, n) => a + n, 0) ||
+            ["easy", "medium", "hard"].some(k =>
+              questions.filter(q => q.level === k).length !== category.levels[k])) {
+          throw new Error("Archivio incoerente con il catalogo");
+        }
+      } catch (error) {
+        message = "Non è stato possibile caricare le domande. Controlla la connessione e riprova.";
+        console.warn("Archivio quiz non disponibile:", error);
+      } finally {
+        loadingQuestions = false;
+        startButton.textContent = "Inizia il quiz →";
+        updateConfiguration();
+      }
+      if (message) {
+        configError.textContent = message;
+        configError.hidden = false;
+        return;
+      }
+      // Non avviare un quiz diverso se durante il caricamento è cambiata la scelta.
+      if (selectedCategory() !== selected ||
+          document.querySelector('input[name="quiz-level"]:checked').value !== level) return;
+    }
+    const pool = questions.filter(q => q.category === selected && q.level === level);
     if (!pool.length) {
       configError.textContent = "Non ci sono domande per questa categoria e difficoltà.";
       configError.hidden = false;
