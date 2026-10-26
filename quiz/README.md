@@ -1,7 +1,7 @@
-# Quiz di Stringhe — specifiche v2.7.0
+# Quiz di Stringhe — specifiche v2.7.1
 
 **Stato della PR in bozza:** archivio integrato di 600 quesiti, 300 per categoria e 100 per livello. I 300 quesiti di Termologia sono già approvati; per Introduzione alla fisica e alla misura il campione di 9 è stato approvato e i restanti 291 sono stati generati, in attesa di revisione didattica. Il sito pubblico resta invariato fino al merge autorizzato.
-**Data:** 25 ottobre 2026 (Europe/Rome).
+**Data:** 26 ottobre 2026 (Europe/Rome).
 
 ## Comportamento
 
@@ -14,9 +14,9 @@
 - Il limite di **120 secondi per domanda** è uguale a tutti i livelli. La difficoltà cambia le operazioni richieste, non il tempo o il numero delle opzioni. Il timer della singola domanda rimane nascosto.
 - Il browser gestisce internamente una scadenza per ciascuna domanda. Lo studente vede soltanto il tempo totale rimanente. Quando scade il tempo della domanda, questa viene lasciata senza risposta e si passa alla successiva.
 - Durante il quiz compare una griglia numerata da 1 al numero selezionato: indica **risposta data** (confermata), **saltata** (pulsante o scadenza), **corrente** e **da affrontare**, con colori, simboli e nomi accessibili. Le scelte ancora non confermate non contano come risposte date.
-- Il riepilogo finale ripropone la griglia: distingue le domande saltate da quelle non raggiunte, ad esempio per chiusura anticipata. Le risposte, le soluzioni e le spiegazioni sono riportate per ogni domanda.
-- La griglia è un indicatore, non permette di riaprire domande: ciascun quesito mantiene la propria scadenza. Le saltate sono segnalate in giallo, senza marrone; la domanda corrente ha un bordo di 4 px.
-- **Salta** e **Conferma e prosegui** sono affiancati; **Concludi** è sul lato opposto (su mobile in una riga distinta, allineato a destra), in rosso lampone scuro. La conclusione anticipata richiede conferma.
+- Il riepilogo finale e le schede delle soluzioni usano verde per le risposte corrette, giallo per le saltate o non raggiunte, rosso per le errate. Il testo distingue le omissioni; restano conteggiate come errate nel punteggio.
+- La griglia è un indicatore, non permette di riaprire domande: ciascun quesito mantiene la propria scadenza. Le risposte confermate sono blu, le saltate gialle; la domanda corrente ha un bordo di 4 px in gradiente blu.
+- **Salta** e **Conferma e prosegui** sono affiancati; **Concludi** è sul lato opposto (su mobile in una riga distinta, allineato a destra), in rosso lampone scuro. Sull’ultima domanda il pulsante diventa **Conferma**. La conclusione anticipata apre una finestra modale: **Continua il quiz** (focus iniziale) o Escape annullano; **Concludi il quiz** conferma. Il timer continua a scorrere e la finestra si chiude se il quiz termina per scadenza.
 - Il conteggio procede anche cambiando scheda o mettendo l'app in background: al ritorno vengono applicate le scadenze trascorse. Il tempo non è garantito contro manipolazioni intenzionali dell'orologio o del JavaScript locale.
 - Dopo l'ultima domanda, alla scadenza totale o alla conclusione anticipata si mostra il risultato come **risposte corrette / domande totali**, oltre agli errori, alle omissioni e alla revisione completa con spiegazioni.
 - Le opzioni sono mescolate, così come i quesiti estratti. La risposta non è svelata prima della schermata finale.
@@ -88,4 +88,5 @@ python3 scripts/build_pages.py
 python3 -m unittest discover -s scripts -p 'test_*.py'
 python3 scripts/verify_quiz_browser.py
 ```
+
 

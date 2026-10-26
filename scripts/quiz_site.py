@@ -143,6 +143,13 @@ def render_quiz_page(source, allowed, catalogue, shell):
         '</div>'
         '<button class="quiz-action quiz-action-stop" type="button" id="quiz-stop">Concludi</button>'
         '</div></div></section>'
+        '<dialog id="quiz-stop-dialog" class="quiz-stop-dialog" aria-labelledby="quiz-stop-title" aria-describedby="quiz-stop-description">'
+        '<h2 id="quiz-stop-title">Concludere il quiz?</h2>'
+        '<p id="quiz-stop-description">Le risposte non confermate e le domande non completate saranno conteggiate come errate.</p>'
+        '<div class="quiz-actions-row">'
+        '<button type="button" id="quiz-stop-cancel" class="quiz-action" autofocus>Continua il quiz</button>'
+        '<button type="button" id="quiz-stop-confirm" class="quiz-action quiz-action-stop">Concludi il quiz</button>'
+        '</div></dialog>'
         '<section id="quiz-results" hidden aria-labelledby="quiz-results-title">'
         '<div class="quiz-panel"><p class="eyebrow">Risultato</p>'
         '<h2 id="quiz-results-title" tabindex="-1">Il tuo quiz</h2>'
@@ -155,9 +162,9 @@ def render_quiz_page(source, allowed, catalogue, shell):
         '<p class="quiz-status-summary" id="quiz-result-summary"></p>'
         '<ol id="quiz-result-navigation" class="quiz-navigation" aria-label="Stato finale delle domande"></ol>'
         '<div class="quiz-legend" aria-label="Legenda">'
-        '<span><i class="quiz-legend-marker is-answered" aria-hidden="true"></i>Risposta data</span>'
+        '<span><i class="quiz-legend-marker is-correct" aria-hidden="true"></i>Corretta</span>'
         '<span><i class="quiz-legend-marker is-skipped" aria-hidden="true"></i>Saltata</span>'
-        '<span><i class="quiz-legend-marker" aria-hidden="true"></i>Non raggiunta</span></div>'
+        '<span><i class="quiz-legend-marker is-wrong" aria-hidden="true"></i>Errata</span></div>'
         '<ol id="quiz-review" class="quiz-review"></ol></div></section>'
         '<noscript><p>Per svolgere il quiz serve JavaScript.</p></noscript>'
         f'<script type="application/json" id="quiz-data">{payload}</script>'
@@ -165,4 +172,5 @@ def render_quiz_page(source, allowed, catalogue, shell):
     )
     page = shell("Quiz", body, source, service=True)
     return page.replace("</head>", '<link rel="stylesheet" href="quiz/interfaccia.css"></head>', 1)
+
 

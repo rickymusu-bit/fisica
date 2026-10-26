@@ -199,6 +199,7 @@ def verify_quiz(page, base):
                     assert page.locator('#quiz-topic').text_content() == category['title']
                     assert page.locator('#quiz-prompt').inner_text().startswith(f"{category['title']} ({level})")
                     assert page.locator('.quiz-answer input').count() == option_count
+                    assert page.locator('#quiz-next').inner_text() == ('Conferma' if i == 2 else 'Conferma e prosegui')
                     page.locator('.quiz-answer input').first.check()
                     page.locator('#quiz-next').click()
                 assert page.locator('#quiz-results').is_visible()
@@ -214,11 +215,15 @@ def verify_quiz(page, base):
         page.locator('#quiz-skip').click()
         assert page.locator('#quiz-navigation .is-answered').count() == 1
         assert page.locator('#quiz-navigation .is-skipped').count() == 1
-        page.once('dialog', lambda dialog: dialog.accept())
         page.locator('#quiz-stop').click()
-        assert page.locator('#quiz-result-navigation .is-answered').count() == 1
-        assert page.locator('#quiz-result-navigation .is-skipped').count() == 2
-        assert page.locator('#quiz-result-navigation .is-pending').count() == 22
+        assert page.locator('#quiz-stop-dialog').is_visible()
+        page.locator('#quiz-stop-cancel').click()
+        assert page.locator('#quiz-active').is_visible()
+        page.locator('#quiz-stop').click()
+        page.locator('#quiz-stop-confirm').click()
+        assert page.locator('#quiz-result-navigation .is-correct, #quiz-result-navigation .is-wrong').count() == 1
+        assert page.locator('#quiz-result-navigation .is-skipped').count() == 24
+        assert page.locator('#quiz-result-navigation .is-pending').count() == 0
         page.set_viewport_size({'width': 390, 'height': 900})
         page.screenshot(path=str(SHOTS / 'quiz-risultato-390.png'), full_page=True)
 
@@ -342,8 +347,8 @@ def verify_quiz(page, base):
         assert page.locator('#quiz-prompt').inner_text() == stored_prompt
         fixture['questions'] = available_questions
         page.locator('.quiz-answer input[value="0"]').check()
-        page.once('dialog', lambda dialog: dialog.accept())
         page.locator('#quiz-stop').click()
+        page.locator('#quiz-stop-confirm').click()
         page.reload()
         assert page.locator('#quiz-results').is_visible()
         assert page.locator('#quiz-score').inner_text() == '0 / 3'  # scelta non confermata
@@ -376,14 +381,14 @@ def verify_quiz(page, base):
             assert current['version'] == 1
             assert current['session']['responses'][0] == legacy_count - 1
             assert current['session']['deadline'] == previous['session']['deadline']
-            page.once('dialog', lambda dialog: dialog.accept())
             page.locator('#quiz-stop').click()
+            page.locator('#quiz-stop-confirm').click()
             page.locator('#quiz-again').click()
             page.locator('#quiz-start').click()
             assert page.locator('.quiz-answer input').count() == 4
             assert page.evaluate('key => JSON.parse(localStorage.getItem(key)).version', key) == 2
-            page.once('dialog', lambda dialog: dialog.accept())
             page.locator('#quiz-stop').click()
+            page.locator('#quiz-stop-confirm').click()
             page.locator('#quiz-again').click()
 
         # Salvataggio bloccato: avviso visibile, quiz utilizzabile in memoria.
@@ -401,8 +406,8 @@ def verify_quiz(page, base):
         blocked.locator('.quiz-answer input').first.check()
         blocked.locator('#quiz-next').click()
         assert blocked.locator('#quiz-counter').inner_text() == 'Domanda 2 di 25'
-        blocked.once('dialog', lambda dialog: dialog.accept())
         blocked.locator('#quiz-stop').click()
+        blocked.locator('#quiz-stop-confirm').click()
         assert blocked.locator('#quiz-results').is_visible()
         blocked.close()
         fresh_quiz()
