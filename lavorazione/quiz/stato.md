@@ -123,3 +123,12 @@ Richiesta corrente dell’utente: quattro alternative uguali in numero per facil
 Nuovi salvataggi di sessione in versione 2, con quattro alternative. I salvataggi di sessioni precedenti in versione 1 restano recuperabili con le opzioni originali fino alla conclusione, senza perdere risposte o scadenze; Nuovo quiz usa sempre quattro opzioni. Nessun archivio reale da migrare. Tempo, categorie e target di 100 quesiti per livello restano invariati.
 
 Test aggiunti: accettazione di quattro opzioni e rifiuto di tre/cinque per ciascun livello; recupero delle sessioni precedenti e creazione di nuove sessioni a quattro opzioni. PR #78 in bozza. Verifiche concluse: build completa, 24 test e suite browser desktop/mobile superati nel workflow https://github.com/rickymusu-bit/fisica/actions/runs/40103061944 sul commit 14366820a781cd27cebffecfdec31f1f228c51cf. Rapporto e schermate aggiornati in `verifica-quattro-alternative.md`. Prossimo passo: approvazione della nuova anteprima prima del merge. Nessun merge o deployment autorizzato per questa nuova revisione.
+
+
+## Colori matrice e conferma conclusione — 26 ottobre 2026
+
+Ramo `fix/quiz-colori-conferma`, derivato da main d2b9d6d. Durante il quiz: risposte confermate blu, saltate gialle, corrente con bordo di 4 px in gradiente blu. Sull’ultima domanda il comando è «Conferma». Concludi apre un dialog nativo HTML con focus iniziale su «Continua il quiz»; Escape annulla e il timer resta attivo. La scadenza chiude il dialog quando termina il quiz. Correzione: matrice e schede soluzione verdi/corrette, gialle/omesse (anche non raggiunte), rosse/errate; punteggio invariato.
+
+Verifiche eseguite: `node --check quiz/interfaccia.js`; compilazione Python del renderer; 5 test `test_quiz.py` superati. Prova interattiva Chromium desktop su anteprima generata dal renderer canonico: sessione con due corrette, una saltata e una errata (2/4), classi e colori calcolati corrispondenti; bordo gradiente 4 px; etichetta ultima domanda; annullamento con pulsante e Escape, conferma anticipata e ripristino risultato dopo ricarica. Verificato timer in movimento durante il dialog. Anteprima usa una cornice minima con il CSS condiviso; non modifica la navigazione pubblica. Non eseguite build completa, verifica su Android fisico o prova scadenza automatica del dialog.
+
+Anteprima verificata: `lavorazione/quiz/colori/quiz.html`. Screenshot in `lavorazione/quiz/colori/`. PR in bozza; merge e pubblicazione in attesa di approvazione dell’anteprima corrente secondo AGENTS.md §1.
