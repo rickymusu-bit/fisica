@@ -6,7 +6,7 @@
   const MAX_QUESTIONS = 30;
   const SECONDS_PER_QUESTION = 120;
   const OPTIONS_PER_QUESTION = 4;
-  const SESSION_VERSION = 2;
+  const SESSION_VERSION = 3;
   const categories = new Map(dataset.categories.map(c => [c.id, c]));
   // Le domande non sono incorporate nella pagina pubblica. Il fallback serve
   // esclusivamente alle simulazioni con un archivio effimero nel documento.
@@ -24,7 +24,7 @@
   const durationOutput = document.getElementById("quiz-duration");
   const configError = document.getElementById("quiz-config-error");
   const nextButton = document.getElementById("quiz-next");
-  const skipButton = document.getElementById("quiz-skip");
+  const previousButton = document.getElementById("quiz-previous");
   const stopButton = document.getElementById("quiz-stop");
   const stopDialog = document.getElementById("quiz-stop-dialog");
   const clock = document.getElementById("quiz-clock");
@@ -120,7 +120,7 @@
   }
 
   function validSnapshot(snapshot) {
-    if (!snapshot || ![1, SESSION_VERSION].includes(snapshot.version) ||
+    if (!snapshot || ![1, 2, SESSION_VERSION].includes(snapshot.version) ||
         !["active", "completed"].includes(snapshot.status)) return false;
     if (snapshot.status === "completed" &&
         !["completed", "timeout", "early"].includes(snapshot.reason)) return false;
@@ -205,6 +205,13 @@
       return;
     }
     session = saved;
+    // Le vecchie scelte provvisorie diventano risposte nel flusso senza conferma.
+    if (saved.pendingResponse !== null) {
+      saved.responses[saved.index] = saved.pendingResponse;
+      saved.skipped[saved.index] = false;
+      saved.pendingResponse = null;
+    }
+    saveActiveSession();
     show("active");
     renderQuestion();
     onTick();
@@ -293,10 +300,7 @@
   function totalTimeRemaining(now) {
     const s = session;
     if (!s) return 0;
-    // Il tempo residuo delle domande saltate/confermate non si accumula.
-    const quota = Math.max(0, s.perDeadline - now) +
-      (s.count - s.index - 1) * s.seconds * 1000;
-    return Math.min(s.deadline - now, quota) / 1000;
+    return Math.max(0, s.deadline - now) / 1000;
   }
 
   function questionStatus(s, index, finished = false) {
@@ -325,7 +329,19 @@
       const item = document.createElement("li");
       item.className = "quiz-nav-item is-" + status;
       item.setAttribute("aria-label", "Domanda " + (i + 1) + ": " + labels[status]);
-      item.textContent = String(i + 1);
+      if (!finished && i === s.index) item.classList.add("is-current");
+      if (finished) {
+        item.textContent = String(i + 1);
+      } else {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "quiz-nav-link";
+        button.textContent = String(i + 1);
+        button.setAttribute("aria-label", "Vai alla domanda " + (i + 1) + ": " + labels[status]);
+        if (i === s.index) button.setAttribute("aria-current", "step");
+        button.addEventListener("click", () => navigateTo(i));
+        item.append(button);
+      }
       fragment.append(item);
     }
     target.replaceChildren(fragment);
@@ -476,41 +492,36 @@
       input.name = "quiz-answer";
       input.value = String(option.originalIndex);
       input.setAttribute("aria-label", "Alternativa " + (position + 1));
-      input.checked = s.pendingResponse === option.originalIndex;
+      input.checked = s.responses[questionIndex] === option.originalIndex;
       input.addEventListener("change", () => {
         onTick();
         if (session !== s || s.index !== questionIndex) return;
-        s.pendingResponse = option.originalIndex;
-        nextButton.disabled = false;
+        s.responses[questionIndex] = option.originalIndex;
+        s.pendingResponse = null;
+        s.skipped[questionIndex] = false;
         saveActiveSession();
+        renderStatuses(navigation, s);
       });
       const text = document.createElement("span");
       text.append(mathText(option.label));
       label.append(input, text);
       answerList.append(label);
     });
-    nextButton.disabled = s.pendingResponse === null;
-    nextButton.textContent = s.index === s.count - 1
-      ? "Conferma" : "Conferma e prosegui";
+    previousButton.disabled = s.index === 0;
+    nextButton.disabled = s.index === s.count - 1;
     renderStatuses(navigation, s);
     prompt.tabIndex = -1;
     prompt.focus({preventScroll: true});
     clock.textContent = formatDuration(totalTimeRemaining(Date.now()));
   }
 
-  function goForward(expired) {
-    if (!session) return;
-    if (session.responses[session.index] === null) {
-      session.skipped[session.index] = true;
-    }
-    const oldDeadline = session.perDeadline;
-    if (session.index === session.count - 1) {
-      finish("completed");
-      return;
-    }
-    session.index += 1;
-    session.pendingResponse = null;
-    session.perDeadline = (expired ? oldDeadline : Date.now()) + session.seconds * 1000;
+  function navigateTo(index) {
+    onTick();
+    if (!session || index < 0 || index >= session.count || index === session.index) return;
+    const s = session;
+    if (s.responses[s.index] === null) s.skipped[s.index] = true;
+    s.index = index;
+    s.pendingResponse = null;
     saveActiveSession();
     renderQuestion();
   }
@@ -519,32 +530,17 @@
     if (!session) return;
     const now = Date.now();
     if (now >= session.deadline) {
-      for (let i = session.index; i < session.count; i++) {
-        if (session.responses[i] === null) session.skipped[i] = true;
-      }
       finish("timeout");
       return;
     }
-    let count = 0;
-    while (session && now >= session.perDeadline && count < session.count) {
-      goForward(true);
-      count++;
-    }
-    if (session) clock.textContent = formatDuration(totalTimeRemaining(now));
+    clock.textContent = formatDuration(totalTimeRemaining(now));
   }
 
   nextButton.addEventListener("click", () => {
-    if (!session) return;
-    onTick();
-    if (!session) return;
-    const checked = answerList.querySelector('input[name="quiz-answer"]:checked');
-    if (!checked) return;
-    session.responses[session.index] = Number(checked.value);
-    goForward(false);
+    if (session) navigateTo(session.index + 1);
   });
-  skipButton.addEventListener("click", () => {
-    onTick();
-    if (session) goForward(false);
+  previousButton.addEventListener("click", () => {
+    if (session) navigateTo(session.index - 1);
   });
   stopButton.addEventListener("click", () => {
     onTick();
@@ -556,7 +552,7 @@
     onTick();
     if (session) {
       if (session.responses[session.index] === null) session.skipped[session.index] = true;
-      finish("early");
+      finish(session.responses.every(response => response !== null) ? "completed" : "early");
     }
   });
   startButton.addEventListener("click", startQuiz);

@@ -1,4 +1,4 @@
-# Quiz di Stringhe — specifiche v2.7.1
+# Quiz di Stringhe — specifiche v2.8.0
 
 **Stato della PR in bozza:** archivio integrato di 600 quesiti, 300 per categoria e 100 per livello. I 300 quesiti di Termologia sono già approvati; per Introduzione alla fisica e alla misura il campione di 9 è stato approvato e i restanti 291 sono stati generati, in attesa di revisione didattica. Il sito pubblico resta invariato fino al merge autorizzato.
 **Data:** 26 ottobre 2026 (Europe/Rome).
@@ -11,14 +11,13 @@
 - Il registro `quiz/categorie.json` associa ID stabili ai nomi delle categorie del catalogo corrente. La build rifiuta discrepanze, ID duplicati o categorie sconosciute. Una rinomina della categoria aggiorna la corrispondenza nel registro conservando l’ID; rinominare un capitolo non modifica i quesiti.
 - L'utente seleziona da **1 a 30 domande**, con **25** inizialmente proposte, tramite campo numerico modificabile e pulsanti **−** e **+** ai lati. I pulsanti variano la quantità di una unità, sono disabilitati agli estremi, e la durata massima si aggiorna immediatamente prima dell'avvio: 2 minuti per domanda (30 domande = 60 minuti).
 - **Quattro alternative per ogni domanda**, a tutti i livelli: facile, medio e difficile.
-- Il limite di **120 secondi per domanda** è uguale a tutti i livelli. La difficoltà cambia le operazioni richieste, non il tempo o il numero delle opzioni. Il timer della singola domanda rimane nascosto.
-- Il browser gestisce internamente una scadenza per ciascuna domanda. Lo studente vede soltanto il tempo totale rimanente. Quando scade il tempo della domanda, questa viene lasciata senza risposta e si passa alla successiva.
-- Durante il quiz compare una griglia numerata da 1 al numero selezionato: indica **risposta data** (confermata), **saltata** (pulsante o scadenza), **corrente** e **da affrontare**, con colori, simboli e nomi accessibili. Le scelte ancora non confermate non contano come risposte date.
+- Il tempo totale è **120 secondi × numero di domande**, uguale per tutti i livelli. Non ci sono scadenze o avanzamenti automatici per la singola domanda; la difficoltà cambia il contenuto, non la durata.
+- Le alternative salvano subito la risposta. **Indietro** e **Avanti** consentono di consultare e modificare le risposte liberamente; il primo è disabilitato sulla prima domanda e il secondo sull’ultima. Lasciare una domanda senza risposta la segna come saltata.
+- La matrice numerata è navigabile con pulsanti: blu per le risposte date, giallo per le saltate, neutro per le domande da affrontare. La domanda visualizzata ha sempre un bordo di 4 px in gradiente blu, anche se già risposta o saltata. Non vengono svelate soluzioni durante il quiz.
 - Il riepilogo finale e le schede delle soluzioni usano verde per le risposte corrette, giallo per le saltate o non raggiunte, rosso per le errate. Il testo distingue le omissioni; restano conteggiate come errate nel punteggio.
-- La griglia è un indicatore, non permette di riaprire domande: ciascun quesito mantiene la propria scadenza. Le risposte confermate sono blu, le saltate gialle; la domanda corrente ha un bordo di 4 px in gradiente blu.
-- **Salta** e **Conferma e prosegui** sono affiancati; **Concludi** è sul lato opposto (su mobile in una riga distinta, allineato a destra), in rosso lampone scuro. Sull’ultima domanda il pulsante diventa **Conferma**. La conclusione anticipata apre una finestra modale: **Continua il quiz** (focus iniziale) o Escape annullano; **Concludi il quiz** conferma. Il timer continua a scorrere e la finestra si chiude se il quiz termina per scadenza.
+- **Indietro** e **Avanti** sono affiancati; **Concludi** resta sul lato opposto e richiede conferma. **Continua il quiz** (focus iniziale) o Escape annullano; **Concludi il quiz** consegna. Il timer continua a scorrere anche con il dialog aperto.
 - Il conteggio procede anche cambiando scheda o mettendo l'app in background: al ritorno vengono applicate le scadenze trascorse. Il tempo non è garantito contro manipolazioni intenzionali dell'orologio o del JavaScript locale.
-- Dopo l'ultima domanda, alla scadenza totale o alla conclusione anticipata si mostra il risultato come **risposte corrette / domande totali**, oltre agli errori, alle omissioni e alla revisione completa con spiegazioni.
+- Raggiungere o rispondere all’ultima domanda non conclude il quiz. Solo la consegna esplicita o la scadenza totale mostrano punteggio e soluzioni.
 - Le opzioni sono mescolate, così come i quesiti estratti. La risposta non è svelata prima della schermata finale.
 - Nessun backend necessario. Non si considera prioritario impedire l'accesso al dataset lato client.
 
@@ -34,19 +33,19 @@ La stessa formattazione si applica alle sessioni e ai risultati recuperati dai s
 
 ## Salvataggio e ripresa della sessione
 
-Il browser salva automaticamente il quiz sul dispositivo all’avvio e a ogni scelta, conferma, salto o cambio di domanda, oltre che all’uscita dalla pagina. Non scrive il timer ogni secondo: conserva gli istanti di scadenza originali.
+Il browser salva automaticamente il quiz a ogni scelta e cambio di domanda, oltre che all’uscita dalla pagina. Conserva la scadenza totale originale senza scrivere il timer ogni secondo.
 
-Ricaricando la pagina, tornando indietro o riaprendola nello stesso browser/profilo, il quiz riprende automaticamente con gli stessi quesiti, ordine delle alternative, risposte confermate, domanda corrente e scelta non ancora confermata. Una scelta provvisoria resta distinta da una risposta data.
+Ricaricando la pagina o riaprendola nello stesso browser/profilo, il quiz riprende con gli stessi quesiti, ordine delle alternative, risposte salvate, domanda visualizzata e scadenza totale originale. Le scelte sono risposte immediate, modificabili fino alla consegna.
 
-Il tempo trascorso fuori dalla pagina viene conteggiato: le domande scadute vengono saltate; se è scaduto l’intero quiz, compare il risultato. Anche il risultato viene salvato e recuperato, fino al comando **Nuovo quiz**, che cancella la sessione conservata. Non avviene un nuovo sorteggio durante il recupero, neppure se l’archivio del sito è cambiato: il salvataggio contiene i quesiti effettivamente estratti.
+Il tempo trascorso fuori dalla pagina viene conteggiato sulla scadenza totale. Se è scaduto l’intero quiz, compare il risultato, conservato fino a **Nuovo quiz**. Non viene ripetuto il sorteggio durante il recupero.
 
 Viene conservato un solo quiz per indirizzo della pagina e profilo del browser. Le schede aperte sullo stesso indirizzo condividono la sessione. Il salvataggio è locale (`localStorage`), senza backend; non segue lo studente su altri dispositivi o browser. La cancellazione dei dati del sito o la chiusura di una sessione privata può eliminarlo. Non costituisce protezione contro modifiche intenzionali dei dati locali.
 
-Se il salvataggio non è disponibile o lo spazio è esaurito, un avviso visibile spiega di non chiudere o ricaricare la pagina; il quiz continua in memoria. In questo caso viene richiesto al browser un avviso di uscita durante il quiz, senza garantirne la comparsa su ogni dispositivo. Le sessioni precedenti già avviate mantengono le proprie alternative e scadenze fino alla conclusione; ogni nuovo quiz usa quattro alternative. Un salvataggio corrotto o di versione incompatibile viene rimosso con un messaggio, senza bloccare la pagina.
+Se il salvataggio non è disponibile o lo spazio è esaurito, un avviso visibile spiega di non chiudere o ricaricare la pagina; il quiz continua in memoria. In questo caso viene richiesto al browser un avviso di uscita durante il quiz, senza garantirne la comparsa su ogni dispositivo. Le sessioni precedenti mantengono quesiti, alternative e scadenza totale; la scelta provvisoria eventualmente presente diventa subito una risposta. I risultati già conclusi restano invariati. Ogni nuovo quiz usa quattro alternative. Un salvataggio corrotto o di versione incompatibile viene rimosso con un messaggio, senza bloccare la pagina.
 
 ## Generazione delle domande
 
-Il [prompt di generazione](PROMPT_GENERAZIONE_DOMANDE.md), v1.4.4, definisce domande di conoscenza, ragionamento e calcolo, tre difficoltà e fattibilità entro 120 secondi comprensivi di lettura e scelta. Un quesito può collegare più capitoli della stessa categoria. Non deve richiedere conoscenze di un’altra categoria, salvo prerequisiti di base dichiarati o informazioni sufficienti fornite nel testo.
+Il [prompt di generazione](PROMPT_GENERAZIONE_DOMANDE.md), v1.5.1, definisce domande di conoscenza, ragionamento e calcolo, tre difficoltà e fattibilità entro 120 secondi comprensivi di lettura e scelta. Un quesito può collegare più capitoli della stessa categoria. Non deve richiedere conoscenze di un’altra categoria, salvo prerequisiti di base dichiarati o informazioni sufficienti fornite nel testo.
 
 Il workflow parte da un campione di 9 domande in ChatGPT (una per ogni combinazione tipo/difficoltà, se pertinente), seguito dalla revisione e approvazione del docente. Codex usa prompt, capitoli e campione approvato per generare i lotti richiesti, verificarli e integrarli. I lotti richiedono revisione didattica; i controlli automatici non provano chiarezza e risolvibilità nei due minuti. La divisione è organizzativa, non una garanzia di superiorità scientifica di ChatGPT.
 

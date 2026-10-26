@@ -70,7 +70,8 @@ def main():
                     assert 'Qual è la temperatura finale Tf?' in page.locator('#quiz-prompt').inner_text()
                     page.screenshot(path=str(DEST / f'pedici-{width}-{theme}.png'), full_page=True)
                 page.locator(f'.quiz-answer input[value="{example["correct"]}"]').check()
-                page.locator('#quiz-next').click()
+                page.locator('#quiz-stop').click()
+                page.locator('#quiz-stop-confirm').click()
                 assert page.locator('#quiz-score').inner_text() == '1 / 1'
                 assert '_' not in page.locator('#quiz-review').inner_text()
                 page.screenshot(path=str(DEST / f'soluzione-{width}.png'), full_page=True)
@@ -97,7 +98,7 @@ def main():
                 key = page.evaluate("'stringhe.quiz.session.v1:' + location.pathname")
                 stored = page.evaluate('key => JSON.parse(localStorage.getItem(key))', key)
                 assert stored['session']['questions'][0]['prompt'] == probe['prompt']
-                assert stored['session']['pendingResponse'] == 0
+                assert stored['session']['responses'] == [0]
                 page.goto(base + 'index.html')
                 stored['version'] = 1
                 page.evaluate('args => localStorage.setItem(args[0], JSON.stringify(args[1]))', [key, stored])
@@ -106,7 +107,8 @@ def main():
                 assert recovered == stored
                 assert page.locator('.quiz-answer input[value="0"]').is_checked()
                 assert page.locator('#quiz-prompt sub').count() == len(all_subscripts) + 7
-                page.locator('#quiz-next').click()
+                page.locator('#quiz-stop').click()
+                page.locator('#quiz-stop-confirm').click()
                 assert page.locator('#quiz-score').inner_text() == '1 / 1'
                 assert page.locator('#quiz-review sub').count() > 0
                 assert page.locator('#quiz-review sup').count() > 0

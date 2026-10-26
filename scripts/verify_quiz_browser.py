@@ -81,7 +81,12 @@ def verify_real(page, base, width):
                 after = page.evaluate('key => JSON.parse(localStorage.getItem(key))', key)
                 assert before == after
                 assert page.locator(f'.quiz-answer input[value="{question["correct"]}"]').is_checked()
-            page.locator('#quiz-next').click()
+            if i < count - 1:
+                page.locator('#quiz-next').click()
+        assert page.locator('#quiz-active').is_visible()
+        assert page.locator('#quiz-next').is_disabled()
+        page.locator('#quiz-stop').click()
+        page.locator('#quiz-stop-confirm').click()
         assert page.locator('#quiz-results').is_visible()
         assert page.locator('#quiz-score').inner_text() == f'{count} / {count}'
         assert page.locator('.quiz-review-item').count() == count
@@ -125,7 +130,12 @@ def verify_real(page, base, width):
                 after = page.evaluate('key => JSON.parse(localStorage.getItem(key))', key)
                 assert before == after
                 assert page.locator(f'.quiz-answer input[value="{question["correct"]}"]').is_checked()
-            page.locator('#quiz-next').click()
+            if i < count - 1:
+                page.locator('#quiz-next').click()
+        assert page.locator('#quiz-active').is_visible()
+        assert page.locator('#quiz-next').is_disabled()
+        page.locator('#quiz-stop').click()
+        page.locator('#quiz-stop-confirm').click()
         assert page.locator('#quiz-results').is_visible()
         assert page.locator('#quiz-score').inner_text() == f'{count} / {count}'
         assert page.locator('.quiz-review-item').count() == count
