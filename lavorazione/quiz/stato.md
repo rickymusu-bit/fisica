@@ -141,3 +141,10 @@ Richiesta corrente: sostituire Salta/Conferma con Indietro/Avanti, salvataggio i
 Sintassi JS/Python controllata; test browser aggiornati per navigazione, modifica, matrice, ultimo quesito, recupero, timer totale e chiusura del dialog alla scadenza. Verifica completa in CI da eseguire prima del merge. Anteprima in lavorazione/quiz/navigazione/quiz.html, con cornice minima e asset del ramo. Nessun merge/Pages prima dell’approvazione corrente secondo AGENTS.md §1.
 
 Prova interattiva Chromium desktop su anteprima dc096dc: ultima domanda ancora attiva, Indietro/Avanti e salto dalla matrice, cambio di risposta e recupero dopo ricarica verificati; annullamento e conferma della consegna verificati. Risultato misto 1/3 con verde, giallo e rosso coerenti. Screenshot ultima domanda in navigazione/ultima-domanda.jpg. La cornice dell’anteprima è minima; Android fisico non verificato.
+
+
+## Avanzamento per risposte date e testi del dialog — 26 ottobre 2026
+
+Ramo fix/quiz-progresso-risposte dal main 0000816. Barra calcolata come numero di risposte non nulle / totale; aggiornamento nel renderer degli stati, richiamato anche alla selezione e al recupero. Navigazione e salti non incrementano il progresso; cambiare alternativa non conta due volte. Pulsanti del dialog: Ritorna al quiz e Concludi.
+
+Test browser esteso per 0%, salto senza risposta, selezione immediata, ritorno, modifica, ricarica e 100% su una domanda. Etichette controllate tramite gli ID, evitando ambiguità con il Concludi sottostante. Anteprima in lavorazione/quiz/progresso/quiz.html. PR in bozza; nessun merge/Pages prima dell’approvazione corrente secondo AGENTS.md §1.

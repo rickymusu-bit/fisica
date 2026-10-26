@@ -158,6 +158,10 @@ def verify_quiz(page, base):
     page.route(route_pattern, lambda route: route.fulfill(
         status=200, content_type='text/html; charset=utf-8', body=fixture_html(fixture)))
     try:
+        def assert_progress(answered, count):
+            width = page.locator('#quiz-progress-fill').evaluate("el => parseFloat(el.style.width)")
+            assert abs(width - answered / count * 100) < 0.001, width
+
         # Navigazione libera e salvataggio immediato, in entrambi i temi/viewport.
         for width in (390, 1440):
             page.set_viewport_size({'width': width, 'height': 900})
@@ -172,29 +176,39 @@ def verify_quiz(page, base):
                 assert page.locator('#quiz-previous').is_disabled()
                 assert page.locator('#quiz-next').is_enabled()
                 assert page.locator('#quiz-next').inner_text() == 'Avanti'
+                assert_progress(0, 3)
                 page.locator('#quiz-next').click()  # salta implicitamente la prima
                 assert page.locator('#quiz-navigation .is-skipped').count() == 1
+                assert_progress(0, 3)
                 page.locator('.quiz-answer input[value="1"]').check()
+                assert_progress(1, 3)
                 stored = page.evaluate('key => JSON.parse(localStorage.getItem(key))', key)
                 assert stored['session']['responses'] == [None, 1, None]
                 assert page.locator('#quiz-navigation .is-answered.is-current').count() == 1
                 assert page.locator('#quiz-navigation .is-current').evaluate('e => getComputedStyle(e).borderTopWidth') == '4px'
                 page.reload()
+                assert_progress(1, 3)
                 assert page.locator('.quiz-answer input[value="1"]').is_checked()
                 assert page.evaluate('key => JSON.parse(localStorage.getItem(key)).session.deadline', key) == stored['session']['deadline']
                 page.locator('#quiz-next').click()
                 assert page.locator('#quiz-next').is_disabled()
+                assert_progress(1, 3)
                 assert page.locator('#quiz-active').is_visible()
                 assert not page.locator('#quiz-results').is_visible()
                 page.locator('#quiz-previous').click()
                 page.locator('.quiz-answer input[value="0"]').check()  # cambia risposta
+                assert_progress(1, 3)
                 page.get_by_role('button', name='Vai alla domanda 1: saltata', exact=True).click()
+                assert_progress(1, 3)
                 page.locator('.quiz-answer input[value="0"]').check()
+                assert_progress(2, 3)
                 page.locator('#quiz-next').click()
                 assert page.locator('.quiz-answer input[value="0"]').is_checked()
                 assert page.locator('#quiz-navigation .is-skipped').count() == 1
                 page.locator('#quiz-stop').click()
                 assert page.locator('#quiz-stop-dialog').is_visible()
+                assert page.locator('#quiz-stop-cancel').inner_text() == 'Ritorna al quiz'
+                assert page.locator('#quiz-stop-confirm').inner_text() == 'Concludi'
                 page.locator('#quiz-stop-cancel').click()
                 assert page.locator('#quiz-active').is_visible()
                 page.locator('#quiz-stop').click()
@@ -216,6 +230,7 @@ def verify_quiz(page, base):
         page.locator('#quiz-count').fill('1')
         page.locator('#quiz-start').click()
         page.locator('.quiz-answer input[value="1"]').check()
+        assert_progress(1, 1)
         assert page.locator('#quiz-previous').is_disabled()
         assert page.locator('#quiz-next').is_disabled()
         assert page.locator('#quiz-active').is_visible()

@@ -346,6 +346,7 @@
     }
     target.replaceChildren(fragment);
     const answered = s.responses.filter(response => response !== null).length;
+    if (!finished) progressBar.style.width = (answered / s.count * 100) + "%";
     const skipped = s.skipped.filter(Boolean).length;
     const correct = finished ? s.responses.filter((response, i) => response === s.questions[i].correct).length : 0;
     const summary = finished
@@ -480,7 +481,6 @@
     const questionIndex = s.index;
     const category = categories.get(q.category);
     counter.textContent = "Domanda " + (s.index + 1) + " di " + s.count;
-    progressBar.style.width = (s.index / s.count * 100) + "%";
     document.getElementById("quiz-topic").textContent = category ? category.title : s.categoryTitle;
     prompt.replaceChildren(mathText(q.prompt));
     answerList.replaceChildren();
