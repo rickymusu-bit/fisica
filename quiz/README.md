@@ -1,4 +1,4 @@
-# Quiz di Stringhe — specifiche v2.8.0
+# Quiz di Stringhe — specifiche v2.8.1
 
 **Stato della PR in bozza:** archivio integrato di 600 quesiti, 300 per categoria e 100 per livello. I 300 quesiti di Termologia sono già approvati; per Introduzione alla fisica e alla misura il campione di 9 è stato approvato e i restanti 291 sono stati generati, in attesa di revisione didattica. Il sito pubblico resta invariato fino al merge autorizzato.
 **Data:** 26 ottobre 2026 (Europe/Rome).
@@ -13,9 +13,10 @@
 - **Quattro alternative per ogni domanda**, a tutti i livelli: facile, medio e difficile.
 - Il tempo totale è **120 secondi × numero di domande**, uguale per tutti i livelli. Non ci sono scadenze o avanzamenti automatici per la singola domanda; la difficoltà cambia il contenuto, non la durata.
 - Le alternative salvano subito la risposta. **Indietro** e **Avanti** consentono di consultare e modificare le risposte liberamente; il primo è disabilitato sulla prima domanda e il secondo sull’ultima. Lasciare una domanda senza risposta la segna come saltata.
+- La barra di avanzamento misura le risposte date rispetto al totale: si aggiorna subito alla selezione, non aumenta saltando o consultando domande, non diminuisce tornando indietro e arriva al 100% quando tutte hanno una risposta.
 - La matrice numerata è navigabile con pulsanti: blu per le risposte date, giallo per le saltate, neutro per le domande da affrontare. La domanda visualizzata ha sempre un bordo di 4 px in gradiente blu, anche se già risposta o saltata. Non vengono svelate soluzioni durante il quiz.
 - Il riepilogo finale e le schede delle soluzioni usano verde per le risposte corrette, giallo per le saltate o non raggiunte, rosso per le errate. Il testo distingue le omissioni; restano conteggiate come errate nel punteggio.
-- **Indietro** e **Avanti** sono affiancati; **Concludi** resta sul lato opposto e richiede conferma. **Continua il quiz** (focus iniziale) o Escape annullano; **Concludi il quiz** consegna. Il timer continua a scorrere anche con il dialog aperto.
+- **Indietro** e **Avanti** sono affiancati; **Concludi** resta sul lato opposto e richiede conferma. **Ritorna al quiz** (focus iniziale) o Escape annullano; **Concludi** consegna. Il timer continua a scorrere anche con il dialog aperto.
 - Il conteggio procede anche cambiando scheda o mettendo l'app in background: al ritorno vengono applicate le scadenze trascorse. Il tempo non è garantito contro manipolazioni intenzionali dell'orologio o del JavaScript locale.
 - Raggiungere o rispondere all’ultima domanda non conclude il quiz. Solo la consegna esplicita o la scadenza totale mostrano punteggio e soluzioni.
 - Le opzioni sono mescolate, così come i quesiti estratti. La risposta non è svelata prima della schermata finale.
