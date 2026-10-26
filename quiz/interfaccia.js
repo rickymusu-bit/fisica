@@ -26,6 +26,7 @@
   const nextButton = document.getElementById("quiz-next");
   const skipButton = document.getElementById("quiz-skip");
   const stopButton = document.getElementById("quiz-stop");
+  const stopDialog = document.getElementById("quiz-stop-dialog");
   const clock = document.getElementById("quiz-clock");
   const counter = document.getElementById("quiz-counter");
   const progressBar = document.getElementById("quiz-progress-fill");
@@ -299,6 +300,10 @@
   }
 
   function questionStatus(s, index, finished = false) {
+    if (finished) {
+      if (s.responses[index] === null) return "skipped";
+      return s.responses[index] === s.questions[index].correct ? "correct" : "wrong";
+    }
     if (s.responses[index] !== null) return "answered";
     if (s.skipped[index]) return "skipped";
     if (!finished && index === s.index) return "current";
@@ -308,6 +313,8 @@
   function renderStatuses(target, s, finished = false) {
     const labels = {
       answered: "risposta data",
+      correct: "corretta",
+      wrong: "errata",
       skipped: "saltata",
       current: "in corso",
       pending: finished ? "non raggiunta" : "da affrontare"
@@ -324,7 +331,10 @@
     target.replaceChildren(fragment);
     const answered = s.responses.filter(response => response !== null).length;
     const skipped = s.skipped.filter(Boolean).length;
-    const summary = "Risposte date: " + answered + " — Saltate: " + skipped;
+    const correct = finished ? s.responses.filter((response, i) => response === s.questions[i].correct).length : 0;
+    const summary = finished
+      ? "Corrette: " + correct + " — Saltate: " + (s.count - answered) + " — Errate: " + (answered - correct)
+      : "Risposte date: " + answered + " — Saltate: " + skipped;
     (finished ? resultSummary : statusSummary).textContent = summary;
   }
 
@@ -481,7 +491,7 @@
     });
     nextButton.disabled = s.pendingResponse === null;
     nextButton.textContent = s.index === s.count - 1
-      ? "Termina il quiz" : "Conferma e prosegui";
+      ? "Conferma" : "Conferma e prosegui";
     renderStatuses(navigation, s);
     prompt.tabIndex = -1;
     prompt.focus({preventScroll: true});
@@ -537,7 +547,14 @@
     if (session) goForward(false);
   });
   stopButton.addEventListener("click", () => {
-    if (session && window.confirm("Concludere ora? Le domande non completate saranno considerate errate.")) {
+    onTick();
+    if (session && !stopDialog.open) stopDialog.showModal();
+  });
+  document.getElementById("quiz-stop-cancel").addEventListener("click", () => stopDialog.close());
+  document.getElementById("quiz-stop-confirm").addEventListener("click", () => {
+    stopDialog.close();
+    onTick();
+    if (session) {
       if (session.responses[session.index] === null) session.skipped[session.index] = true;
       finish("early");
     }
@@ -555,6 +572,7 @@
 
   function finish(reason) {
     if (!session) return;
+    if (stopDialog.open) stopDialog.close();
     clearInterval(intervalId);
     intervalId = null;
     const s = session;
@@ -574,7 +592,7 @@
       const right = response === q.correct;
       if (right) correct++;
       const li = document.createElement("li");
-      li.className = "quiz-review-item" + (right ? "" : " is-wrong");
+      li.className = "quiz-review-item is-" + questionStatus(s, i, true);
       const h3 = document.createElement("h3");
       h3.append(mathText((i + 1) + ". " + q.prompt));
       const category = categories.get(q.category);
@@ -629,4 +647,5 @@
   });
   restoreSavedSession();
 })();
+
 
