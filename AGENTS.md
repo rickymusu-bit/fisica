@@ -1,6 +1,6 @@
 # Istruzioni operative — Stringhe
 
-**Versione AGENTS: v3.1.2 — 26/10/2026, ore 15:00 (Europe/Rome).**
+**Versione AGENTS: v3.1.2 — 26/10/2026, ore 14:44 (Europe/Rome).**
 
 Questo file orienta Codex nel repository `rickymusu-bit/fisica`. Le regole didattiche generali risiedono nel `MASTER_PROMPT.md`, quelle specialistiche nei documenti canonici richiamati qui: non duplicarli integralmente. Applica le richieste esplicite per il compito corrente; segnala conflitti non risolti senza inventare priorità. Autorizzazioni storiche di PR completate non consentono modifiche o pubblicazioni successive.
 
