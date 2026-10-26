@@ -1,6 +1,6 @@
 # Istruzioni operative — Stringhe
 
-**Versione AGENTS: v3.1.1 — 25/10/2026, ore 13:38 (Europe/Rome).**
+**Versione AGENTS: v3.1.2 — 26/10/2026, ore 15:00 (Europe/Rome).**
 
 Questo file orienta Codex nel repository `rickymusu-bit/fisica`. Le regole didattiche generali risiedono nel `MASTER_PROMPT.md`, quelle specialistiche nei documenti canonici richiamati qui: non duplicarli integralmente. Applica le richieste esplicite per il compito corrente; segnala conflitti non risolti senza inventare priorità. Autorizzazioni storiche di PR completate non consentono modifiche o pubblicazioni successive.
 
@@ -66,7 +66,7 @@ Il quiz di `quiz.html` è distinto dal progetto di gioco esterno «Chi vuol esse
 
 Esattamente **quattro alternative** a tutti i livelli, una corretta; ogni quesito anche difficile dev'essere plausibilmente risolvibile **entro 120 secondi** da uno studente preparato. Workflow: campione ChatGPT/docente, approvazione, lotti Codex basati sulle fonti approvate, controlli tecnici e valutazione didattica; non inventare campioni approvati o usare test automatici come prova di adeguatezza scolastica.
 
-Salva e recupera nel browser i quesiti, l'ordine delle alternative, le risposte confermate, la scelta provvisoria e le scadenze originali; il tempo scorre anche fuori pagina. Le scelte non confermate non valgono come risposta. Recupera il risultato fino a «Nuovo quiz», senza rigenerare domande/timer; avvisa se manca storage e gestisci dati corrotti o incompatibili. Nessuna promessa di recupero dopo cancellazione dei dati o su un altro dispositivo/profilo. La pubblicazione richiede sempre una nuova approvazione.
+Salva e recupera nel browser i quesiti, l'ordine delle alternative, le risposte scelte, la domanda visualizzata e la scadenza totale originale; il tempo scorre anche fuori pagina. La selezione salva subito la risposta; Indietro, Avanti e matrice consentono di cambiarla fino alla consegna. L’ultima domanda non conclude il quiz: servono Concludi con conferma o la scadenza totale. La durata è di 120 secondi per numero di domande, senza avanzamento automatico per quesito. Recupera il risultato fino a «Nuovo quiz», senza rigenerare domande/timer; avvisa se manca storage e gestisci dati corrotti o incompatibili. Nessuna promessa di recupero dopo cancellazione dei dati o su un altro dispositivo/profilo. La pubblicazione richiede sempre una nuova approvazione.
 
 ## 7. Manutenzione e refactoring delle istruzioni
 

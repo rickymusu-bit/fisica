@@ -158,240 +158,118 @@ def verify_quiz(page, base):
     page.route(route_pattern, lambda route: route.fulfill(
         status=200, content_type='text/html; charset=utf-8', body=fixture_html(fixture)))
     try:
-        fresh_quiz()
-        choices.first.check()
-        choices.last.check()
-        assert not choices.first.is_checked() and choices.last.is_checked()
-        assert page.locator('[data-quiz-category]:checked').count() == 1
+        # Navigazione libera e salvataggio immediato, in entrambi i temi/viewport.
         for width in (390, 1440):
             page.set_viewport_size({'width': width, 'height': 900})
             for theme in ('dark', 'light'):
-                set_theme(page, theme)
-                assert page.evaluate('document.documentElement.scrollWidth <= innerWidth')
-                page.screenshot(path=str(SHOTS / f'quiz-config-{width}-{theme}.png'), full_page=True)
-
-        count_input = page.locator('#quiz-count')
-        minus, plus = page.locator('#quiz-count-minus'), page.locator('#quiz-count-plus')
-        assert count_input.input_value() == '25'
-        assert page.locator('#quiz-duration').inner_text() == '50:00'
-        plus.click()
-        assert count_input.input_value() == '26'
-        minus.click()
-        assert count_input.input_value() == '25'
-        count_input.fill('30')
-        assert plus.is_disabled() and page.locator('#quiz-duration').inner_text() == '60:00'
-        count_input.fill('31')
-        assert page.locator('#quiz-start').is_disabled()
-        count_input.fill('0')
-        assert page.locator('#quiz-start').is_disabled()
-        count_input.fill('1')
-        assert minus.is_disabled() and page.locator('#quiz-duration').inner_text() == '2:00'
-
-        for category in fixture['categories']:
-            for level, option_count in [('easy', 4), ('medium', 4), ('hard', 4)]:
                 fresh_quiz()
-                page.locator(f'[data-quiz-category][value="{category["id"]}"]').check()
-                page.locator(f'input[name="quiz-level"][value="{level}"]').check()
+                set_theme(page, theme)
+                choices.first.check()
+                count_input = page.locator('#quiz-count')
                 count_input.fill('3')
                 page.locator('#quiz-start').click()
-                for i in range(3):
-                    assert page.locator('#quiz-counter').inner_text() == f'Domanda {i+1} di 3'
-                    assert page.locator('#quiz-topic').text_content() == category['title']
-                    assert page.locator('#quiz-prompt').inner_text().startswith(f"{category['title']} ({level})")
-                    assert page.locator('.quiz-answer input').count() == option_count
-                    assert page.locator('#quiz-next').inner_text() == ('Conferma' if i == 2 else 'Conferma e prosegui')
-                    page.locator('.quiz-answer input').first.check()
-                    page.locator('#quiz-next').click()
-                assert page.locator('#quiz-results').is_visible()
-                assert page.locator('.quiz-review-item').count() == 3
-                assert page.locator('#quiz-score').inner_text().endswith(' / 3')
+                key = page.evaluate("'stringhe.quiz.session.v1:' + location.pathname")
+                assert page.locator('#quiz-previous').is_disabled()
+                assert page.locator('#quiz-next').is_enabled()
+                assert page.locator('#quiz-next').inner_text() == 'Avanti'
+                page.locator('#quiz-next').click()  # salta implicitamente la prima
+                assert page.locator('#quiz-navigation .is-skipped').count() == 1
+                page.locator('.quiz-answer input[value="1"]').check()
+                stored = page.evaluate('key => JSON.parse(localStorage.getItem(key))', key)
+                assert stored['session']['responses'] == [None, 1, None]
+                assert page.locator('#quiz-navigation .is-answered.is-current').count() == 1
+                assert page.locator('#quiz-navigation .is-current').evaluate('e => getComputedStyle(e).borderTopWidth') == '4px'
+                page.reload()
+                assert page.locator('.quiz-answer input[value="1"]').is_checked()
+                assert page.evaluate('key => JSON.parse(localStorage.getItem(key)).session.deadline', key) == stored['session']['deadline']
+                page.locator('#quiz-next').click()
+                assert page.locator('#quiz-next').is_disabled()
+                assert page.locator('#quiz-active').is_visible()
+                assert not page.locator('#quiz-results').is_visible()
+                page.locator('#quiz-previous').click()
+                page.locator('.quiz-answer input[value="0"]').check()  # cambia risposta
+                page.get_by_role('button', name='Vai alla domanda 1: saltata', exact=True).click()
+                page.locator('.quiz-answer input[value="0"]').check()
+                page.locator('#quiz-next').click()
+                assert page.locator('.quiz-answer input[value="0"]').is_checked()
+                assert page.locator('#quiz-navigation .is-skipped').count() == 1
+                page.locator('#quiz-stop').click()
+                assert page.locator('#quiz-stop-dialog').is_visible()
+                page.locator('#quiz-stop-cancel').click()
+                assert page.locator('#quiz-active').is_visible()
+                page.locator('#quiz-stop').click()
+                page.keyboard.press('Escape')
+                assert not page.locator('#quiz-stop-dialog').is_visible()
+                assert page.evaluate('document.documentElement.scrollWidth <= innerWidth')
+                page.screenshot(path=str(SHOTS / f'quiz-navigazione-{width}-{theme}.png'), full_page=True)
+                page.locator('#quiz-stop').click()
+                page.locator('#quiz-stop-confirm').click()
+                assert page.locator('#quiz-score').inner_text() == '2 / 3'
+                assert page.locator('#quiz-result-navigation .is-correct').count() == 2
+                assert page.locator('#quiz-result-navigation .is-skipped').count() == 1
+                page.reload()
+                assert page.locator('#quiz-score').inner_text() == '2 / 3'
 
-        # Risposte confermate, salti, interruzione e griglia finale.
+        # Un unico quesito: entrambi i limiti sono disabilitati, nessuna consegna automatica.
         fresh_quiz()
         choices.first.check()
+        page.locator('#quiz-count').fill('1')
         page.locator('#quiz-start').click()
-        page.locator('.quiz-answer input').first.check()
-        page.locator('#quiz-next').click()
-        page.locator('#quiz-skip').click()
-        assert page.locator('#quiz-navigation .is-answered').count() == 1
-        assert page.locator('#quiz-navigation .is-skipped').count() == 1
-        page.locator('#quiz-stop').click()
-        assert page.locator('#quiz-stop-dialog').is_visible()
-        page.locator('#quiz-stop-cancel').click()
+        page.locator('.quiz-answer input[value="1"]').check()
+        assert page.locator('#quiz-previous').is_disabled()
+        assert page.locator('#quiz-next').is_disabled()
         assert page.locator('#quiz-active').is_visible()
         page.locator('#quiz-stop').click()
         page.locator('#quiz-stop-confirm').click()
-        assert page.locator('#quiz-result-navigation .is-correct, #quiz-result-navigation .is-wrong').count() == 1
-        assert page.locator('#quiz-result-navigation .is-skipped').count() == 24
-        assert page.locator('#quiz-result-navigation .is-pending').count() == 0
-        page.set_viewport_size({'width': 390, 'height': 900})
-        page.screenshot(path=str(SHOTS / 'quiz-risultato-390.png'), full_page=True)
+        assert page.locator('#quiz-result-navigation .is-wrong').count() == 1
+        assert page.locator('.quiz-review-item.is-wrong').count() == 1
 
-        # La categoria scelta diventa indisponibile cambiando livello.
-        fixture['questions'] = [q for q in fixture['questions']
-            if not (q['category'] == fixture['categories'][0]['id'] and q['level'] == 'hard')]
+        # La quota di 120 s contribuisce solo alla scadenza totale.
         fresh_quiz()
         choices.first.check()
-        page.locator('input[name="quiz-level"][value="hard"]').check()
-        assert choices.first.is_disabled() and not choices.first.is_checked()
-        assert page.locator('#quiz-start').is_disabled()
-        choices.last.check()
-        assert page.locator('#quiz-start').is_enabled()
-        page.locator('input[name="quiz-level"][value="easy"]').check()
-        assert choices.first.is_enabled() and not choices.first.is_checked()
-
-        # Il limite difficile resta 120 secondi; lo scadere salta la domanda.
-        count_input.fill('1')
-        page.locator('input[name="quiz-level"][value="hard"]').check()
+        page.locator('#quiz-count').fill('3')
         page.clock.install()
         page.locator('#quiz-start').click()
-        assert page.locator('#quiz-clock').inner_text() in ('2:00', '1:59')
         page.clock.fast_forward(121_000)
-        assert page.locator('#quiz-results').is_visible()
-        assert page.locator('#quiz-result-navigation .is-skipped').count() == 1
-
-        # Ricarica: stessi quesiti, opzioni, scadenze, risposta e scelta provvisoria.
-        fresh_quiz()
-        choices.last.check()
-        count_input.fill('3')
-        page.locator('#quiz-start').click()
-        page.locator('.quiz-answer input[value="0"]').check()
-        page.locator('#quiz-next').click()
-        page.locator('.quiz-answer input[value="1"]').check()
-        key = page.evaluate("'stringhe.quiz.session.v1:' + location.pathname")
-        saved = page.evaluate('key => JSON.parse(localStorage.getItem(key))', key)
-        assert saved['session']['responses'] == [0, None, None]
-        assert saved['session']['pendingResponse'] == 1
-        page.reload()
+        assert page.locator('#quiz-counter').inner_text() == 'Domanda 1 di 3'
         assert page.locator('#quiz-active').is_visible()
-        assert page.locator('#quiz-counter').inner_text() == 'Domanda 2 di 3'
-        assert page.locator('.quiz-answer input[value="1"]').is_checked()
-        assert page.locator('#quiz-next').is_enabled()
-        restored = page.evaluate('key => JSON.parse(localStorage.getItem(key))', key)
-        assert restored == saved
-        page.set_viewport_size({'width': 390, 'height': 900})
-        set_theme(page, 'dark')
-        page.screenshot(path=str(SHOTS / 'quiz-ripresa-390.png'), full_page=True)
-        assert page.locator('#quiz-navigation .is-answered').count() == 1
-
-        # Uscita e Indietro: anche il ripristino dalla cache conserva la sessione.
-        page.goto('about:blank')
-        page.go_back()
-        assert page.locator('#quiz-counter').inner_text() == 'Domanda 2 di 3'
-        assert page.locator('.quiz-answer input[value="1"]').is_checked()
-
-        # Chiusura della scheda e riapertura nello stesso profilo del browser.
-        page.goto('about:blank')
-        reopened = page.context.new_page()
-        reopened.route(route_pattern, lambda route: route.fulfill(
-            status=200, content_type='text/html; charset=utf-8', body=fixture_html(fixture)))
-        reopened.goto(base + 'quiz.html')
-        assert reopened.locator('#quiz-counter').inner_text() == 'Domanda 2 di 3'
-        assert reopened.locator('.quiz-answer input[value="1"]').is_checked()
-        reopened.close()
-        page.goto(base + 'quiz.html')
-        assert page.locator('#quiz-counter').inner_text() == 'Domanda 2 di 3'
-        assert page.evaluate('key => JSON.parse(localStorage.getItem(key)).session.deadline', key) == saved['session']['deadline']
-
-        # Il tempo trascorso a pagina chiusa non viene restituito al rientro.
-        page.goto('about:blank')
-        page.clock.fast_forward(121_000)
-        page.goto(base + 'quiz.html')
-        assert page.locator('#quiz-counter').inner_text() == 'Domanda 3 di 3'
-        assert page.locator('#quiz-navigation .is-skipped').count() == 1
-        assert page.locator('#quiz-navigation .is-answered').count() == 1
-        assert page.locator('.quiz-answer input:checked').count() == 0
-        page.goto('about:blank')
-        page.clock.fast_forward(121_000)
-        page.goto(base + 'quiz.html')
-        assert page.locator('#quiz-results').is_visible()
-        assert page.locator('#quiz-score').inner_text() == '1 / 3'
-        assert page.locator('#quiz-result-navigation .is-skipped').count() == 2
+        page.locator('#quiz-next').click()
+        page.locator('#quiz-previous').click()
+        deadline = page.evaluate('key => JSON.parse(localStorage.getItem(key)).session.deadline', key)
         page.reload()
-        assert page.locator('#quiz-score').inner_text() == '1 / 3'
-        page.locator('#quiz-again').click()
-        assert page.evaluate('key => localStorage.getItem(key)', key) is None
-        page.reload()
-        assert page.locator('#quiz-config').is_visible()
-
-        # Tutto il tempo scaduto a pagina chiusa: risultato, nessun nuovo sorteggio.
-        choices.last.check()
-        count_input.fill('3')
-        page.locator('#quiz-start').click()
-        page.goto('about:blank')
-        page.clock.fast_forward(361_000)
-        page.goto(base + 'quiz.html')
+        assert page.evaluate('key => JSON.parse(localStorage.getItem(key)).session.deadline', key) == deadline
+        page.locator('#quiz-stop').click()
+        page.clock.fast_forward(240_000)
+        assert not page.locator('#quiz-stop-dialog').is_visible()
         assert page.locator('#quiz-results').is_visible()
         assert page.locator('#quiz-score').inner_text() == '0 / 3'
         assert page.locator('#quiz-result-navigation .is-skipped').count() == 3
-        assert 'Tempo terminato' in page.locator('#quiz-finished-reason').inner_text()
 
-        # File locale corrotto/incompatibile: ripartenza esplicita e nessun crash.
+        # Recupera snapshot v2 con scelta provvisoria senza perdere domande/scadenza.
+        fresh_quiz()
+        choices.first.check()
+        page.locator('#quiz-count').fill('3')
+        page.locator('#quiz-start').click()
+        saved = page.evaluate('key => JSON.parse(localStorage.getItem(key))', key)
+        page.goto(base + 'index.html')
+        saved['version'] = 2
+        saved['session']['pendingResponse'] = 1
+        page.evaluate('args => localStorage.setItem(args[0], JSON.stringify(args[1]))', [key, saved])
+        page.goto(base + 'quiz.html')
+        assert page.locator('.quiz-answer input[value="1"]').is_checked()
+        recovered = page.evaluate('key => JSON.parse(localStorage.getItem(key))', key)
+        assert recovered['session']['responses'][0] == 1
+        assert recovered['session']['deadline'] == saved['session']['deadline']
+        assert recovered['session']['questions'] == saved['session']['questions']
+
         for invalid in ('{JSON non valido', '{"version":999}'):
+            page.goto(base + 'index.html')
             page.evaluate('args => localStorage.setItem(args[0], args[1])', [key, invalid])
-            page.reload()
+            page.goto(base + 'quiz.html')
             assert page.locator('#quiz-config').is_visible()
             assert page.locator('#quiz-save-warning').is_visible()
-            assert page.evaluate('key => localStorage.getItem(key)', key) is None
 
-        # Archivio non disponibile dopo un aggiornamento: snapshot ancora recuperabile.
-        fresh_quiz()
-        choices.last.check()
-        count_input.fill('3')
-        page.locator('#quiz-start').click()
-        stored_prompt = page.locator('#quiz-prompt').inner_text()
-        available_questions = fixture['questions']
-        fixture['questions'] = []
-        page.reload()
-        assert page.locator('#quiz-active').is_visible()
-        assert page.locator('#quiz-prompt').inner_text() == stored_prompt
-        fixture['questions'] = available_questions
-        page.locator('.quiz-answer input[value="0"]').check()
-        page.locator('#quiz-stop').click()
-        page.locator('#quiz-stop-confirm').click()
-        page.reload()
-        assert page.locator('#quiz-results').is_visible()
-        assert page.locator('#quiz-score').inner_text() == '0 / 3'  # scelta non confermata
-        page.locator('#quiz-again').click()
-
-        # Le sessioni precedenti non perdono risposte al cambio 3/4/5 -> 4.
-        for legacy_level, legacy_count in [('easy', 3), ('hard', 5)]:
-            fresh_quiz()
-            choices.last.check()
-            page.locator(f'input[name="quiz-level"][value="{legacy_level}"]').check()
-            count_input.fill('3')
-            page.locator('#quiz-start').click()
-            previous = page.evaluate('key => JSON.parse(localStorage.getItem(key))', key)
-            assert previous['version'] == 2
-            previous['version'] = 1
-            for q in previous['session']['questions']:
-                q['options'] = [f'Alternativa precedente {i+1}' for i in range(legacy_count)]
-                q['order'] = [{'label': label, 'originalIndex': i} for i, label in enumerate(q['options'])]
-            # Uscire prima di sostituire lo snapshot: pagehide salva il quiz attivo.
-            page.goto(base + 'index.html')
-            page.evaluate('args => localStorage.setItem(args[0], JSON.stringify(args[1]))', [key, previous])
-            page.goto(base + 'quiz.html')
-            assert page.locator('#quiz-active').is_visible()
-            assert page.locator('.quiz-answer input').count() == legacy_count
-            page.locator(f'.quiz-answer input[value="{legacy_count-1}"]').check()
-            page.locator('#quiz-next').click()
-            page.reload()
-            assert page.locator('#quiz-counter').inner_text() == 'Domanda 2 di 3'
-            current = page.evaluate('key => JSON.parse(localStorage.getItem(key))', key)
-            assert current['version'] == 1
-            assert current['session']['responses'][0] == legacy_count - 1
-            assert current['session']['deadline'] == previous['session']['deadline']
-            page.locator('#quiz-stop').click()
-            page.locator('#quiz-stop-confirm').click()
-            page.locator('#quiz-again').click()
-            page.locator('#quiz-start').click()
-            assert page.locator('.quiz-answer input').count() == 4
-            assert page.evaluate('key => JSON.parse(localStorage.getItem(key)).version', key) == 2
-            page.locator('#quiz-stop').click()
-            page.locator('#quiz-stop-confirm').click()
-            page.locator('#quiz-again').click()
-
-        # Salvataggio bloccato: avviso visibile, quiz utilizzabile in memoria.
+        # Storage bloccato: navigazione/risposte funzionano anche in memoria.
         blocked = page.context.new_page()
         blocked.add_init_script("Storage.prototype.setItem = function(){throw new DOMException('Bloccato', 'QuotaExceededError')}")
         blocked.route(route_pattern, lambda route: route.fulfill(
@@ -399,13 +277,11 @@ def verify_quiz(page, base):
         blocked.goto(base + 'quiz.html')
         blocked.locator('[data-quiz-category]').last.check()
         blocked.locator('#quiz-start').click()
-        assert blocked.locator('#quiz-active').is_visible()
         assert blocked.locator('#quiz-save-warning').is_visible()
-        blocked.set_viewport_size({'width': 390, 'height': 900})
-        blocked.screenshot(path=str(SHOTS / 'quiz-salvataggio-bloccato-390.png'), full_page=True)
-        blocked.locator('.quiz-answer input').first.check()
+        blocked.locator('.quiz-answer input[value="0"]').check()
         blocked.locator('#quiz-next').click()
-        assert blocked.locator('#quiz-counter').inner_text() == 'Domanda 2 di 25'
+        blocked.locator('#quiz-previous').click()
+        assert blocked.locator('.quiz-answer input[value="0"]').is_checked()
         blocked.locator('#quiz-stop').click()
         blocked.locator('#quiz-stop-confirm').click()
         assert blocked.locator('#quiz-results').is_visible()

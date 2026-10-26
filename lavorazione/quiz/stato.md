@@ -132,3 +132,10 @@ Ramo `fix/quiz-colori-conferma`, derivato da main d2b9d6d. Durante il quiz: risp
 Verifiche eseguite: `node --check quiz/interfaccia.js`; compilazione Python del renderer; 5 test `test_quiz.py` superati. Prova interattiva Chromium desktop su anteprima generata dal renderer canonico: sessione con due corrette, una saltata e una errata (2/4), classi e colori calcolati corrispondenti; bordo gradiente 4 px; etichetta ultima domanda; annullamento con pulsante e Escape, conferma anticipata e ripristino risultato dopo ricarica. Verificato timer in movimento durante il dialog. Anteprima usa una cornice minima con il CSS condiviso; non modifica la navigazione pubblica. Non eseguite build completa, verifica su Android fisico o prova scadenza automatica del dialog.
 
 Anteprima verificata: `lavorazione/quiz/colori/quiz.html`. Screenshot in `lavorazione/quiz/colori/`. PR in bozza; merge e pubblicazione in attesa di approvazione dell’anteprima corrente secondo AGENTS.md §1.
+
+
+## Navigazione libera — 26 ottobre 2026
+
+Richiesta corrente: sostituire Salta/Conferma con Indietro/Avanti, salvataggio immediato delle alternative e possibilità di tornare sulle domande fino alla consegna. Ramo fix/quiz-navigazione-libera. Ultima domanda senza conclusione automatica; matrice cliccabile, risposta modificabile e colore coerente con bordo corrente. Solo Concludi con conferma o scadenza totale consegnano. Tempo totale 120 s per numero di domande, senza salti automatici per quesito. Snapshot v3; le versioni 1/2 restano leggibili e la scelta provvisoria attiva è recuperata come risposta, senza estendere la scadenza totale.
+
+Sintassi JS/Python controllata; test browser aggiornati per navigazione, modifica, matrice, ultimo quesito, recupero, timer totale e chiusura del dialog alla scadenza. Verifica completa in CI da eseguire prima del merge. Anteprima in lavorazione/quiz/navigazione/quiz.html, con cornice minima e asset del ramo. Nessun merge/Pages prima dell’approvazione corrente secondo AGENTS.md §1.
