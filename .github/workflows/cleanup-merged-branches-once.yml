@@ -20,3 +20,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: python3 scripts/cleanup_merged_branches.py
+# Esecuzione corretta: verifica la punta mediante GET branch prima della DELETE.

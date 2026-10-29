@@ -61,8 +61,6 @@ def safe_to_delete(entry, active_pr_heads):
     # La sola assenza di differenze nei file non basta (squash merge).
     if comparison.get("ahead_by") != 0 or comparison.get("status") != "behind":
         return False, f"commit esclusivi / confronto {comparison.get('status')}"
-    if comparison.get("head_commit", {}).get("sha") != entry["commit"]["sha"]:
-        return False, "branch cambiato durante il controllo"
     current = api("GET", f"/branches/{encoded}")
     if current["commit"]["sha"] != entry["commit"]["sha"] or current.get("protected"):
         return False, "branch modificato o protetto nel frattempo"
