@@ -20,6 +20,8 @@ La copertina della home cambia casualmente tra le venti immagini scelte, con fot
 
 Prima di lavorare leggere [`AGENTS.md`](AGENTS.md), [`MASTER_PROMPT.md`](MASTER_PROMPT.md) e lo stato pertinente in `lavorazione/`. Lavorare su un ramo dedicato e presentare l’anteprima corrente prima dell’integrazione e della pubblicazione.
 
+**Chiusura dei rami:** dopo il completamento, la verifica e l'approvazione del capitolo, integrare la PR in `main` e lasciare che GitHub elimini automaticamente il ramo temporaneo, se l'opzione è abilitata. Per i vecchi rami, confrontare prima modifiche e PR: conservare quelli con lavoro utile non integrato o usati dai workflow di anteprima. I dettagli e le eccezioni sono in `AGENTS.md`.
+
 ```sh
 python3 scripts/sync_stringhe_theme.py --check
 python3 scripts/credits.py --check
