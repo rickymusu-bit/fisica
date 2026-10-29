@@ -419,9 +419,8 @@ def main():
                         primary = nav.locator(':scope > .nav-primary')
                         settings = nav.locator(':scope > .nav-settings')
                         assert primary.count() == 1 and settings.count() == 1, name
-                        assert settings.locator(':scope > .string-lang').count() == 1
+                        assert settings.locator(':scope > .string-lang').count() == 0
                         assert settings.locator(':scope > [data-theme-menu]').count() == 1
-                        assert settings.locator('.string-lang>summary').inner_text() == 'IT ▾'
                         if name == 'index.html':
                             expected = []
                         elif name in ['articoli.html', 'quiz.html', 'anteprima-bordi-stringhe.html']:
@@ -515,8 +514,8 @@ def main():
             # Home: nessun comando contestuale, menu nel gruppo destro.
             home_nav = page.locator('.home-header .stringhe-navigation')
             assert home_nav.locator('.nav-primary > *').count() == 0
-            assert home_nav.locator('.nav-settings > *').count() == 2
-            assert home_nav.locator('.nav-settings > .string-lang').count() == 1
+            assert home_nav.locator('.nav-settings > *').count() == 1
+            assert home_nav.locator('.nav-settings > .string-lang').count() == 0
             assert home_nav.locator('.nav-settings > [data-theme-menu]').count() == 1
             for width in [320,390,768,1024,1440]:
                 page.set_viewport_size({'width':width,'height':900})
@@ -534,7 +533,7 @@ def main():
                     page.set_viewport_size({'width':width,'height':900})
                     nav = page.locator('.service-header .stringhe-navigation')
                     assert nav.locator(':scope > .nav-primary > *').count() == 1
-                    assert nav.locator(':scope > .nav-settings > *').count() == 2
+                    assert nav.locator(':scope > .nav-settings > *').count() == 1
                     home_link = nav.locator('.nav-primary > .string-nav')
                     assert home_link.get_attribute('href') == 'index.html'
                     assert home_link.get_attribute('aria-label') == 'Home'
@@ -542,14 +541,9 @@ def main():
                     home_link.hover()
                     assert tip.is_visible(), (service_page,width,'hover')
                     assert tip.inner_text() == 'Home'
-                    language = nav.locator('.nav-settings .string-lang>summary')
-                    language.tap()
-                    assert not tip.is_visible(), (service_page,width,'tap')
-                    assert nav.locator('.nav-settings .string-lang').get_attribute('open') is not None
                     theme_summary = nav.locator('.nav-settings [data-theme-menu]>summary')
                     theme_summary.tap()
                     assert not tip.is_visible(), (service_page,width,'theme tap')
-                    assert nav.locator('.nav-settings .string-lang').get_attribute('open') is None
                     assert nav.locator('.nav-settings [data-theme-menu]').get_attribute('open') is not None
                     theme_summary.tap()
                     theme_summary.focus()
@@ -614,10 +608,10 @@ def main():
             assert page.locator('.reader-index').get_attribute('open') is not None
             # L'evento toggle di details è asincrono: attendere il suo effetto
             # senza indebolire il controllo di isolamento della tastiera.
-            expect(page.locator('.nav-settings > .string-lang')).to_have_attribute('inert', '')
+            expect(page.locator('.nav-settings > [data-theme-menu]')).to_have_attribute('inert', '')
             page.keyboard.press('Escape')
             assert page.locator('.reader-index').get_attribute('open') is None
-            expect(page.locator('.nav-settings > .string-lang')).not_to_have_attribute('inert', '')
+            expect(page.locator('.nav-settings > [data-theme-menu]')).not_to_have_attribute('inert', '')
             assert page.locator('.index-toggle').evaluate('(e)=>e===document.activeElement')
             if page.locator('[role=doc-noteref]').count():
                 page.locator('[role=doc-noteref]').first.click()
@@ -754,7 +748,7 @@ def main():
         server.shutdown()
         (SITE / 'modello-dispense.html').unlink(missing_ok=True)
     assert not errors, errors
-    report = {'barra_capitoli':{'comandi':6,'righe':1,'tema':'menu Chiaro/Scuro con luna o sole','lingua':'IT','bersaglio_minimo_px':44},'curva_riscaldamento':{'selezioni_touch':50,'prove_tastiera':10,'fallback_senza_javascript':2,'salti_di_scorrimento':False},'viewport_tema_pagina':checks,'errori_javascript':errors,'copertine_verificate':len(covers),'home':{'card':'unica per titolo, logo e copertina; senza onde laterali','mobile':'foto sotto al titolo','desktop':'foto affiancata','layout_copertine_verificati':100,'didascalia':'bordo sinistro e larghezza coincidenti con la foto; proporzioni conservate'},'logo':{'presenza':'solo nella copertina della home','curve':2,'fase':'opposizione','periodo_secondi':4,'animazione_nera':'impronta originale conservata','pausa':'entrambe le curve sincronizzate'},'laterali':{'viewport':[320,390,768,1024,1440],'temi':['light','dark'],'curve':'stessa ampiezza; periodo invariato; 24 px per fascia; nessun overflow'},
+    report = {'barra_capitoli':{'comandi':5,'righe':1,'tema':'menu Chiaro/Scuro con luna o sole','traduzione':'gestita dal browser','bersaglio_minimo_px':44},'curva_riscaldamento':{'selezioni_touch':50,'prove_tastiera':10,'fallback_senza_javascript':2,'salti_di_scorrimento':False},'viewport_tema_pagina':checks,'errori_javascript':errors,'copertine_verificate':len(covers),'home':{'card':'unica per titolo, logo e copertina; senza onde laterali','mobile':'foto sotto al titolo','desktop':'foto affiancata','layout_copertine_verificati':100,'didascalia':'bordo sinistro e larghezza coincidenti con la foto; proporzioni conservate'},'logo':{'presenza':'solo nella copertina della home','curve':2,'fase':'opposizione','periodo_secondi':4,'animazione_nera':'impronta originale conservata','pausa':'entrambe le curve sincronizzate'},'laterali':{'viewport':[320,390,768,1024,1440],'temi':['light','dark'],'curve':'stessa ampiezza; periodo invariato; 24 px per fascia; nessun overflow'},
               'offline':offline_status,'browser':'Chromium; mobile e touch emulati, nessun dispositivo Android fisico',
               'controlli':['persistenza','menu tema: tastiera, Escape, default scuro e persistenza','storage bloccato','senza JavaScript','logo e movimento ridotto','ricerca e filtro','indice tastiera','note','zoom','crediti','download identico']}
     (ROOT/'lavorazione/sito/verifica-stringhe.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
