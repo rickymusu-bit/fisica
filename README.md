@@ -34,3 +34,9 @@ Le componenti condivise sono in `identita/`; `scripts/sync_stringhe_theme.py` si
 ## Pubblicazione
 
 GitHub Pages pubblica da `main` attraverso [`.github/workflows/pages.yml`](.github/workflows/pages.yml), dopo l’approvazione esplicita dell’anteprima. L’integrazione delle modifiche pertinenti avvia il workflow **Pubblica Stringhe**; è disponibile anche da **Actions → Pubblica Stringhe → Run workflow**. Il sito pubblica soltanto i capitoli ammessi e i servizi previsti dalla build; le bozze di lavorazione restano nel repository.
+
+## Gestione dei file temporanei
+
+Le schermate di controllo prodotte durante lo sviluppo sono risultati di verifica, non risorse didattiche. Le nuove anteprime devono essere consegnate tramite gli artifact delle Actions o come allegati alla PR, senza aggiungere nuove copie storiche al repository. Gli screenshot già rimossi rimangono recuperabili nella cronologia Git; `risorse/`, le immagini originali, i crediti, gli HTML e le bozze non sono interessati dalla pulizia.
+
+Per compatibilità con l'attuale workflow di anteprima, `lavorazione/sito/schermate/` e `lavorazione/quiz/termologia/anteprima/` restano temporaneamente tracciate. La loro migrazione verso artifact generati direttamente dalla CI richiede una modifica successiva e verificata del workflow. Non eliminare altri file di lavorazione senza analizzarne dipendenze e provenienza.

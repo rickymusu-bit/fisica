@@ -9,3 +9,10 @@ node_modules/
 .DS_Store
 Thumbs.db
 *.log
+
+# Screenshot storici di verifica: output rigenerabili, non risorse didattiche.
+lavorazione/*/anteprime/*.png
+lavorazione/*/anteprime/*.jpg
+lavorazione/*/anteprime/*.webp
+lavorazione/sito/economia-informativa/schermate/*.png
+lavorazione/sito/revisione-precisazioni/*.png
