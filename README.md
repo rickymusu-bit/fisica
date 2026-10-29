@@ -10,7 +10,7 @@ La home offre **Tutti i capitoli**, **Mi sento fortunato** e **Quiz** nelle card
 
 ## Capitoli e tema comune
 
-I capitoli sono HTML autonomi, con immagini, font e crediti incorporati. La barra comprende Home, Capitoli, Scarica, Indice, Lingua e il menu Chiaro/Scuro. Il tema predefinito è Scuro e la scelta dell’utente viene conservata quando lo storage è disponibile. I comandi mostrano il nome della funzione al passaggio del puntatore, al focus da tastiera e al tocco. Le figure ingrandibili usano un comando a icona in basso a sinistra, utilizzabile anche da tastiera e senza JavaScript.
+I capitoli sono HTML autonomi, con immagini, font e crediti incorporati. La barra comprende Home, Capitoli, Scarica, Indice e il menu Chiaro/Scuro. Le pagine restano in italiano (`lang="it"`): eventuali traduzioni sono gestite dal traduttore integrato nel browser. Il tema predefinito è Scuro e la scelta dell’utente viene conservata quando lo storage è disponibile. I comandi mostrano il nome della funzione al passaggio del puntatore, al focus da tastiera e al tocco. Le figure ingrandibili usano un comando a icona in basso a sinistra, utilizzabile anche da tastiera e senza JavaScript.
 
 Il riferimento grafico è [`riferimenti/TEMA_DISPENSE.html`](riferimenti/TEMA_DISPENSE.html); la terminologia corrente è in [`riferimenti/TERMINOLOGIA_SITO.md`](riferimenti/TERMINOLOGIA_SITO.md). Il logo circolare ha due curve in opposizione di fase, nera e blu, con pausa/ripresa e rispetto del movimento ridotto. I percorsi storici dei file del logo rimangono stabili; i dettagli sono in [`identita/README.md`](identita/README.md).
 

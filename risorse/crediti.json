@@ -4361,61 +4361,6 @@
     }
   ],
   "documents": {
-    "bilancio_conservazione_rendimento_it.html": {
-      "title": "Bilancio energetico, conservazione e rendimento",
-      "anchor": "bilancio-conservazione-rendimento-it",
-      "credits": [
-        {
-          "resource": "credit-eb5a0dcae1314354",
-          "notice": 0
-        },
-        {
-          "resource": "credit-b76dad6255b6e023",
-          "notice": 0
-        },
-        {
-          "resource": "credit-e98aa2f512230b1e",
-          "notice": 0
-        },
-        {
-          "resource": "credit-00cf592917f55c3c",
-          "notice": 0
-        },
-        {
-          "resource": "credit-895926d3e748a515",
-          "notice": 0
-        },
-        {
-          "resource": "credit-5d19329a3956316f",
-          "notice": 0
-        },
-        {
-          "resource": "credit-0bb7f9d39cc22555",
-          "notice": 0
-        },
-        {
-          "resource": "credit-6e805e73020fdb9f",
-          "notice": 0
-        },
-        {
-          "resource": "credit-88d0bcbc88ae84e1",
-          "notice": 0
-        },
-        {
-          "resource": "credit-927164c5c116b1e6",
-          "notice": 0
-        },
-        {
-          "resource": "credit-e835cfc4c9cf24c6",
-          "notice": 0
-        },
-        {
-          "resource": "credit-dcec31a413d8205e",
-          "notice": 0
-        }
-      ],
-      "lexend": false
-    },
     "conduzione_it.html": {
       "title": "Conduzione — Stringhe",
       "anchor": "conduzione-it",
@@ -4498,27 +4443,6 @@
       ],
       "lexend": true
     },
-    "grafici_piano_cartesiano_fr.html": {
-      "title": "Graphiques et plan cartésien",
-      "anchor": "grafici-piano-cartesiano-fr",
-      "credits": [],
-      "lexend": false,
-      "review": "Il sorgente non documenta crediti individuali delle immagini. Verificare le risorse inventariate prima della redistribuzione."
-    },
-    "grafici_piano_cartesiano_it.html": {
-      "title": "Grafici e relazioni tra grandezze · Fisica biennio",
-      "anchor": "grafici-piano-cartesiano-it",
-      "credits": [],
-      "lexend": false,
-      "review": "Il sorgente non documenta crediti individuali delle immagini. Verificare le risorse inventariate prima della redistribuzione."
-    },
-    "grafici_piano_cartesiano_sq.html": {
-      "title": "Grafikët dhe plani kartezian",
-      "anchor": "grafici-piano-cartesiano-sq",
-      "credits": [],
-      "lexend": false,
-      "review": "Il sorgente non documenta crediti individuali delle immagini. Verificare le risorse inventariate prima della redistribuzione."
-    },
     "irraggiamento_it.html": {
       "title": "Irraggiamento",
       "anchor": "irraggiamento-it",
@@ -4586,60 +4510,6 @@
       ],
       "lexend": true
     },
-    "lavoro_energie_potenza_it.html": {
-      "title": "Lavoro, energie e potenza",
-      "anchor": "lavoro-energie-potenza-it",
-      "credits": [
-        {
-          "resource": "credit-5d7359a7eb6980f8",
-          "notice": 0
-        },
-        {
-          "resource": "credit-b76dad6255b6e023",
-          "notice": 0
-        },
-        {
-          "resource": "credit-c00a9d41941dcedf",
-          "notice": 0
-        },
-        {
-          "resource": "credit-00cf592917f55c3c",
-          "notice": 0
-        },
-        {
-          "resource": "credit-895926d3e748a515",
-          "notice": 0
-        },
-        {
-          "resource": "credit-5d19329a3956316f",
-          "notice": 0
-        },
-        {
-          "resource": "credit-0bb7f9d39cc22555",
-          "notice": 0
-        },
-        {
-          "resource": "credit-6e805e73020fdb9f",
-          "notice": 0
-        },
-        {
-          "resource": "credit-88d0bcbc88ae84e1",
-          "notice": 0
-        },
-        {
-          "resource": "credit-5ed94f2f3a87342a",
-          "notice": 0
-        }
-      ],
-      "lexend": false
-    },
-    "metodo_scientifico_fr.html": {
-      "title": "La méthode scientifique",
-      "anchor": "metodo-scientifico-fr",
-      "credits": [],
-      "lexend": false,
-      "review": "Il sorgente non documenta crediti individuali delle immagini. Verificare le risorse inventariate prima della redistribuzione."
-    },
     "metodo_scientifico_it.html": {
       "title": "Il metodo scientifico",
       "anchor": "metodo-scientifico-it",
@@ -4652,13 +4522,6 @@
       "lexend": true,
       "chapter_labels": true,
       "review": null
-    },
-    "metodo_scientifico_sq.html": {
-      "title": "Metoda shkencore",
-      "anchor": "metodo-scientifico-sq",
-      "credits": [],
-      "lexend": false,
-      "review": "Il sorgente non documenta crediti individuali delle immagini. Verificare le risorse inventariate prima della redistribuzione."
     },
     "passaggi_di_stato.html": {
       "title": "Passaggi di stato",
@@ -4711,46 +4574,6 @@
       ],
       "lexend": true
     },
-    "potenza_termica_conduzione_convezione_it.html": {
-      "title": "Potenza termica e trasmissione del calore",
-      "anchor": "potenza-termica-conduzione-convezione-it",
-      "credits": [
-        {
-          "resource": "credit-4b34a69e441b8816",
-          "notice": 0
-        },
-        {
-          "resource": "credit-01e3d044372be718",
-          "notice": 0
-        },
-        {
-          "resource": "credit-c191bf81242481c4",
-          "notice": 0
-        }
-      ],
-      "lexend": false
-    },
-    "sistema_internazionale_notazione_fr.html": {
-      "title": "Le SI et les puissances de dix",
-      "anchor": "sistema-internazionale-notazione-fr",
-      "credits": [],
-      "lexend": false,
-      "review": "Il sorgente non documenta crediti individuali delle immagini. Verificare le risorse inventariate prima della redistribuzione."
-    },
-    "sistema_internazionale_notazione_it.html": {
-      "title": "Misurare il mondo: SI e potenze di dieci",
-      "anchor": "sistema-internazionale-notazione-it",
-      "credits": [],
-      "lexend": false,
-      "review": "Il sorgente non documenta crediti individuali delle immagini. Verificare le risorse inventariate prima della redistribuzione."
-    },
-    "sistema_internazionale_notazione_sq.html": {
-      "title": "SI dhe fuqitë e dhjetës",
-      "anchor": "sistema-internazionale-notazione-sq",
-      "credits": [],
-      "lexend": false,
-      "review": "Il sorgente non documenta crediti individuali delle immagini. Verificare le risorse inventariate prima della redistribuzione."
-    },
     "stati_della_materia.html": {
       "title": "Stati della materia",
       "anchor": "stati-della-materia",
@@ -4789,27 +4612,6 @@
         }
       ],
       "lexend": true
-    },
-    "strumenti_errori_incertezza_fr.html": {
-      "title": "Instruments et erreurs de mesure",
-      "anchor": "strumenti-errori-incertezza-fr",
-      "credits": [],
-      "lexend": false,
-      "review": "Il sorgente non documenta crediti individuali delle immagini. Verificare le risorse inventariate prima della redistribuzione."
-    },
-    "strumenti_errori_incertezza_it.html": {
-      "title": "Strumenti di misura, errori e incertezza",
-      "anchor": "strumenti-errori-incertezza-it",
-      "credits": [],
-      "lexend": false,
-      "review": "Il sorgente non documenta crediti individuali delle immagini. Verificare le risorse inventariate prima della redistribuzione."
-    },
-    "strumenti_errori_incertezza_sq.html": {
-      "title": "Pajisjet dhe gabimet e matjes",
-      "anchor": "strumenti-errori-incertezza-sq",
-      "credits": [],
-      "lexend": false,
-      "review": "Il sorgente non documenta crediti individuali delle immagini. Verificare le risorse inventariate prima della redistribuzione."
     },
     "index.html": {
       "title": "Stringhe",
@@ -5479,36 +5281,6 @@
       ]
     },
     {
-      "id": "asset-077555655d7e4711a6d5cb0c559b1d8b5193f0edc998c2689af2ca2dd4c9d922",
-      "kind": "image/png",
-      "uses": [
-        {
-          "document": "lavoro_energie_potenza_it.html",
-          "kind": "image/png",
-          "description": "image",
-          "locator": "potenza-it",
-          "attribute": "href",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-09dce0135c83a0dbd4f1755e9c1700e9e13d2f5f6b85878a4f6430edde9e8743",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "potenza_termica_conduzione_convezione_it.html",
-          "kind": "svg",
-          "description": "svg",
-          "locator": "profilo-parete",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-0addc013ab06e968dce1a3c7e762c42792e5b58176ac5512fbfa7e8605a741ec",
       "kind": "image/svg+xml",
       "uses": [
@@ -5529,39 +5301,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-189ccc5f97d5591d"
-        }
-      ]
-    },
-    {
-      "id": "asset-0d9df86e827ff6b9031d11818b564eaf8db41780cc8b22fc40a72c6611df1e2d",
-      "kind": "image/gif",
-      "uses": [
-        {
-          "document": "sistema_internazionale_notazione_fr.html",
-          "kind": "image/gif",
-          "description": "Deux micrographies A et B de structures très petites",
-          "locator": "scale",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "sistema_internazionale_notazione_it.html",
-          "kind": "image/gif",
-          "description": "Due immagini in scala microscopica, A con molte strutture regolari e B con un ingrandimento di strutture tondeggianti",
-          "locator": "scale",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "sistema_internazionale_notazione_sq.html",
-          "kind": "image/gif",
-          "description": "Dy mikrografi A dhe B të strukturave shumë të vogla",
-          "locator": "scale",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
         }
       ]
     },
@@ -5626,36 +5365,6 @@
       ]
     },
     {
-      "id": "asset-13c5f125efae233fc4716f5e0a4e98f8d7f3e79a6958de4b9eb1a5ee88442303",
-      "kind": "image/png",
-      "uses": [
-        {
-          "document": "potenza_termica_conduzione_convezione_it.html",
-          "kind": "image/png",
-          "description": "Sezione di una parete attraversata da un flusso di calore dall’interno caldo verso l’esterno freddo; indicati spessore s e superficie A.",
-          "locator": "conduzione",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-14a6242101cdb1472d83643ae5748b88c2c9c4ac4940e2626516058081aa8d2d",
-      "kind": "image/svg+xml",
-      "uses": [
-        {
-          "document": "bilancio_conservazione_rendimento_it.html",
-          "kind": "image/svg+xml",
-          "description": "image",
-          "locator": "rendimento-it",
-          "attribute": "href",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-17805696381bd76e69bb171f0a901b8935409246484400d173c0204d05bc447e",
       "kind": "svg",
       "uses": [
@@ -5667,39 +5376,6 @@
           "attribute": "inline",
           "location": null,
           "credit_id": "credit-75bc560c9b8d9052"
-        }
-      ]
-    },
-    {
-      "id": "asset-17d3b5a205cb9fb9532a7368c2d0be5ac00d929deb442da1d5a61d1d5e821650",
-      "kind": "image/jpeg",
-      "uses": [
-        {
-          "document": "sistema_internazionale_notazione_fr.html",
-          "kind": "image/jpeg",
-          "description": "Ancien étalon international du kilogramme, cylindre métallique sous des cloches en verre",
-          "locator": "misurare",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "sistema_internazionale_notazione_it.html",
-          "kind": "image/jpeg",
-          "description": "Cilindro metallico del vecchio campione internazionale del chilogrammo protetto da campane di vetro",
-          "locator": "misurare",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "sistema_internazionale_notazione_sq.html",
-          "kind": "image/jpeg",
-          "description": "Modeli i vjetër ndërkombëtar i kilogramit, cilindër metalik nën mbulesa qelqi",
-          "locator": "misurare",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
         }
       ]
     },
@@ -5730,30 +5406,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-9650ab7de4a0e2f0"
-        }
-      ]
-    },
-    {
-      "id": "asset-19e0fc36a920d15860fa3a7a14ba81a3f5c1ff1b2a972899ee11e04e498a5909",
-      "kind": "image/webp",
-      "uses": [
-        {
-          "document": "metodo_scientifico_fr.html",
-          "kind": "image/webp",
-          "description": "Schéma de la méthode scientifique : observation, problème, hypothèse, prédiction, expériences, résultats et conclusions, avec deux issues possibles",
-          "locator": "osservare",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "metodo_scientifico_sq.html",
-          "kind": "image/webp",
-          "description": "Skemë e metodës shkencore: vëzhgim, problem, hipotezë, parashikim, eksperimente, rezultate dhe përfundime, me dy rrugë të mundshme",
-          "locator": "osservare",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
         }
       ]
     },
@@ -5853,36 +5505,6 @@
           "attribute": "inline",
           "location": null,
           "credit_id": "visuali-piano-serbatoio"
-        }
-      ]
-    },
-    {
-      "id": "asset-1ef5f5e5741585ed72f6664289d47f203dfda8add584e83464b7a9456c09daf5",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "grafici_piano_cartesiano_sq.html",
-          "kind": "svg",
-          "description": "Drejtkëndësha me sipërfaqe 12 cm²: baza 1, 2, 3, 4, 6 dhe 12 cm; lartësi 12, 6, 4, 3, 2 dhe 1 cm; kurbë e zhdrejtë",
-          "locator": "chart-inverse",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-1f3c5ef8adae416254c0d0ce15a9619ff784462343a2ae594180fa7ad134993e",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "grafici_piano_cartesiano_it.html",
-          "kind": "svg",
-          "description": "Quadrati con lati da zero a quattro centimetri: aree zero, uno, quattro, nove e sedici centimetri quadrati. Curva y uguale x al quadrato nel primo quadrante.",
-          "locator": "chart-quadratic",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
         }
       ]
     },
@@ -6025,54 +5647,6 @@
       ]
     },
     {
-      "id": "asset-2449563da30375c9d079831c421cc376cd8ea7004465d449c5661612cf76be57",
-      "kind": "image/webp",
-      "uses": [
-        {
-          "document": "strumenti_errori_incertezza_fr.html",
-          "kind": "image/webp",
-          "description": "Pied à coulisse avec échelle principale et vernier",
-          "locator": "caratteristiche",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "strumenti_errori_incertezza_it.html",
-          "kind": "image/webp",
-          "description": "Calibro a corsoio con scala principale e nonio, adatto a leggere piccole differenze di lunghezza",
-          "locator": "caratteristiche",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "strumenti_errori_incertezza_sq.html",
-          "kind": "image/webp",
-          "description": "Kalibër me shkallë kryesore dhe nonio",
-          "locator": "caratteristiche",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-258631c5bf86e28d4ff8309ac7c5164d38952068ee97e10905d176fa68018ab9",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "sistema_internazionale_notazione_it.html",
-          "kind": "svg",
-          "description": "12,4 centimetri: tre cifre significative, fino ai decimi. 12,40 centimetri: quattro cifre significative, fino ai centesimi.",
-          "locator": "cifre-significative",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-25919979e95066be00b737558c8baa300d7d3676f1b1869c0bea3274a6a1bba8",
       "kind": "image/svg+xml",
       "uses": [
@@ -6117,36 +5691,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-f2033b07ba7d6e9e"
-        }
-      ]
-    },
-    {
-      "id": "asset-2613ca514ebdbf1fa5543854fce73a65c6ce49bd2321908fe85d6cdd9be4e7b5",
-      "kind": "image/jpeg",
-      "uses": [
-        {
-          "document": "potenza_termica_conduzione_convezione_it.html",
-          "kind": "image/jpeg",
-          "description": "Fotografia annotata di dissipatore CPU con ventola, alette di raffreddamento, posizione del processore e scheda madre",
-          "locator": "convezione",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-27081f5a9f9a5e55c927a77701c49b8bfd20eebbef5721c95ee145abb8983fdd",
-      "kind": "image/png",
-      "uses": [
-        {
-          "document": "potenza_termica_conduzione_convezione_it.html",
-          "kind": "image/png",
-          "description": "Sezione della crosta e del mantello: dorsale medio-oceanica, oceano, fossa oceanica e moti convettivi con etichette italiane.",
-          "locator": "convezione",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
         }
       ]
     },
@@ -6291,21 +5835,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-7300b7b5f641c5cd"
-        }
-      ]
-    },
-    {
-      "id": "asset-38858099c1f81e03602f7094f9fa4ca89cded9556fd893089814aeb5ced131bf",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "sistema_internazionale_notazione_it.html",
-          "kind": "svg",
-          "description": "Base rettangolare di una cassa: lato a uguale a 2,34 metri, lato b uguale a 1,2 metri. Dati illustrativi, disegno non in scala.",
-          "locator": "cifre-significative",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
         }
       ]
     },
@@ -6652,21 +6181,6 @@
       ]
     },
     {
-      "id": "asset-3fc8670655f6bc10200de6b21255b3d920956e338ae285fa43807c9cd58da0c4",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "bilancio_conservazione_rendimento_it.html",
-          "kind": "svg",
-          "description": "Un paranco elettrico solleva un carico. Nel bilancio dell’esempio riceve 1000 J: 800 J aumentano l’energia potenziale del carico e 200 J diventano soprattutto energia interna. I valori illustrano il modello, non le prestazioni misurate del dispositivo fotografato.",
-          "locator": "rendimento-it",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-3fd0187a7b7cfec2582482718653f72fc46c023f999471c8df2b0632564c0824",
       "kind": "image/jpeg",
       "uses": [
@@ -6826,21 +6340,6 @@
       ]
     },
     {
-      "id": "asset-43a0b3e2a07088e94e3944a3e0bdc17493832227713e99fcd3424810de78a656",
-      "kind": "image/gif",
-      "uses": [
-        {
-          "document": "potenza_termica_conduzione_convezione_it.html",
-          "kind": "image/gif",
-          "description": "Animazione di una persona che avvicina la lingua a un palo metallico in ambiente freddo",
-          "locator": "conduzione",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-443642bda0be94ab57e7fb769511605a23ac90d0ab02870f5db0d753cae40f71",
       "kind": "svg",
       "uses": [
@@ -6850,21 +6349,6 @@
           "description": "Curva di riscaldamento dell'acqua",
           "locator": "curveSvg",
           "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-4544b6c4b3034526df6d51dc49e30865d67e93a624d42cef082ff08dc3d53fa8",
-      "kind": "image/png",
-      "uses": [
-        {
-          "document": "potenza_termica_conduzione_convezione_it.html",
-          "kind": "image/png",
-          "description": "Circuito di raffreddamento dell’automobile: pompa, termostato, radiatori, ventole, vaso di espansione e collegamenti del liquido refrigerante, con etichette italiane.",
-          "locator": "convezione",
-          "attribute": "src",
           "location": null,
           "credit_id": null
         }
@@ -7048,21 +6532,6 @@
       ]
     },
     {
-      "id": "asset-519f1db0f0f4b03206387cd38e747e4eff53e9df9da4edaae3dd2806012d4a3d",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "grafici_piano_cartesiano_fr.html",
-          "kind": "svg",
-          "description": "Cinq points : zéro à quatre cahiers coûtent zéro à huit euros ; la droite y = 2x passe par l’origine",
-          "locator": "chart-direct",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-52266e11c92dd1f5e38325df41a47cfb868af05beaf946d24ad060817359a1d1",
       "kind": "image/jpeg",
       "uses": [
@@ -7168,21 +6637,6 @@
       ]
     },
     {
-      "id": "asset-5b7c356ffd1c3d34b9253e97f18c25c5118bfac4f20964aec149f54c22611ca4",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "grafici_piano_cartesiano_fr.html",
-          "kind": "svg",
-          "description": "Plan cartésien de moins cinq à cinq avec un point mobile en (2 ; 2)",
-          "locator": "plane",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-5df85b0e6373ff75d5eb0aa4b80981f0b0a6d8385c10b905680235ce1088111a",
       "kind": "svg",
       "uses": [
@@ -7194,93 +6648,6 @@
           "attribute": "inline",
           "location": null,
           "credit_id": "credit-1c7b8083505f3e94"
-        }
-      ]
-    },
-    {
-      "id": "asset-5ee22e1d856e58c5adcc4bdd59f13514b78e89dad913885c094f02bb20f9e1df",
-      "kind": "image/jpeg",
-      "uses": [
-        {
-          "document": "strumenti_errori_incertezza_fr.html",
-          "kind": "image/jpeg",
-          "description": "Schéma de trois points de vue de la même aiguille montrant l’erreur de parallaxe",
-          "locator": "strumenti",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "strumenti_errori_incertezza_it.html",
-          "kind": "image/jpeg",
-          "description": "Schema con tre punti di osservazione della stessa lancetta: la vista obliqua sottostima o sovrastima il valore rispetto alla vista frontale",
-          "locator": "strumenti",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "strumenti_errori_incertezza_sq.html",
-          "kind": "image/jpeg",
-          "description": "Skemë me tre kënde shikimi të të njëjtit tregues që tregon gabimin e paralaksit",
-          "locator": "strumenti",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-5f94e5df645713d8a52c82a225356686ecc14329332540788de46b1fb93e90bb",
-      "kind": "image/png",
-      "uses": [
-        {
-          "document": "lavoro_energie_potenza_it.html",
-          "kind": "image/png",
-          "description": "image",
-          "locator": "cinetica-it",
-          "attribute": "href",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "lavoro_energie_potenza_it.html",
-          "kind": "image/png",
-          "description": "image",
-          "locator": "cinetica-it",
-          "attribute": "href",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-62c1cbf35fac1ef22a6ad989b06449555c13f0715db8cc4d292f803f8db18759",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "grafici_piano_cartesiano_sq.html",
-          "kind": "svg",
-          "description": "Pesë pika: zero deri katër fletore kushtojnë zero deri tetë euro; vija y = 2x kalon nga origjina",
-          "locator": "chart-direct",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-62e3f12289578a5ec52293078d3381b1fa833ed0bc9541cdcf9a2a76795cc17a",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "sistema_internazionale_notazione_sq.html",
-          "kind": "svg",
-          "description": "12,4 centimetra: tre shifra domethënëse, deri në të dhjetat. 12,40 centimetra: katër shifra domethënëse, deri në të qindtat.",
-          "locator": "cifre-significative",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
         }
       ]
     },
@@ -7341,36 +6708,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-7214864dc8ca47cc"
-        }
-      ]
-    },
-    {
-      "id": "asset-69b13d52ac4362670523e211d56ab08dfa7fd5347bc5e1c176b9a5ee8b521ab1",
-      "kind": "image/png",
-      "uses": [
-        {
-          "document": "bilancio_conservazione_rendimento_it.html",
-          "kind": "image/png",
-          "description": "image",
-          "locator": "rendimento-it",
-          "attribute": "href",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-6a7415a831118aa5c3947803547c3e18dec57588c6aa5f99153dd02f5a4fc8e6",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "grafici_piano_cartesiano_sq.html",
-          "kind": "svg",
-          "description": "Tri vija: y = 2x kalon nga origjina, y = 3 + 2x pret boshtin te 3, y = 8 − x zbret",
-          "locator": "intercetta",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
         }
       ]
     },
@@ -7519,36 +6856,6 @@
       ]
     },
     {
-      "id": "asset-6fb7d2e3ceda717e6160ce5b8489e66102474378bceb16ad1d41457e91b8f459",
-      "kind": "image/png",
-      "uses": [
-        {
-          "document": "potenza_termica_conduzione_convezione_it.html",
-          "kind": "image/png",
-          "description": "Sezione di una vetrocamera con etichette italiane: vetro, intercapedine di gas, distanziatore, essiccante e telaio.",
-          "locator": "conduzione",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-71f5c7fb2b9f42d9a0e8099e14509bb9c2b2d94b0620c4cd025c81d7c2d17e4b",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "grafici_piano_cartesiano_fr.html",
-          "kind": "svg",
-          "description": "Rectangles d’aire 12 cm² : bases 1, 2, 3, 4, 6 et 12 cm ; hauteurs 12, 6, 4, 3, 2 et 1 cm ; courbe inverse",
-          "locator": "chart-inverse",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-72a531572f6ec0a535fe0f92b0392dbe14ef9fc07f4617e4e215cc3a2d2f2845",
       "kind": "image/jpeg",
       "uses": [
@@ -7618,21 +6925,6 @@
       ]
     },
     {
-      "id": "asset-7515fe55792c7096caf2457f3b045ca9edad591ff8f6ddf75362bd814c0f394e",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "lavoro_energie_potenza_it.html",
-          "kind": "svg",
-          "description": "Due situazioni per la stessa bicicletta e lo stesso ciclista: massa totale 80 kg, velocità di 5 m/s oppure 10 m/s. Durante la frenata la forza risultante è opposta al moto.",
-          "locator": "cinetica-it",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-75f3a5cf7bbfd40c5bd64a15d4c22254b2477952737d9aa81a5ca0e18ecb1398",
       "kind": "image/jpeg",
       "uses": [
@@ -7644,39 +6936,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-758421614a45290d"
-        }
-      ]
-    },
-    {
-      "id": "asset-76c6ed6a84bc4a95aebb5dc01c863904be0ed8d0e181d7bfb566921986d28d3a",
-      "kind": "image/webp",
-      "uses": [
-        {
-          "document": "sistema_internazionale_notazione_fr.html",
-          "kind": "image/webp",
-          "description": "Appareil de laboratoire avec optiques, câbles et laser pour des mesures de fréquence atomique",
-          "locator": "basi",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "sistema_internazionale_notazione_it.html",
-          "kind": "image/webp",
-          "description": "Apparato di laboratorio con ottiche, cavi e laser impiegato per misure di frequenza atomica",
-          "locator": "basi",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "sistema_internazionale_notazione_sq.html",
-          "kind": "image/webp",
-          "description": "Pajisje laboratorike me optikë, kabllo dhe lazer për matje të frekuencës atomike",
-          "locator": "basi",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
         }
       ]
     },
@@ -7726,21 +6985,6 @@
       ]
     },
     {
-      "id": "asset-7d60a41aece2ff4df2942ce20676349afe406f7dcb7f3aa722ca4e69ee3bd76c",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "bilancio_conservazione_rendimento_it.html",
-          "kind": "svg",
-          "description": "Energia potenziale 58,86 J; cinetica e aumento dell’energia interna zero; totale 58,86 J.",
-          "locator": "energy-chart",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-7d79e4ae1acbcf8524950d8b244cf13df723ab6abd597e94c41bf5d713233ee7",
       "kind": "image/svg+xml",
       "uses": [
@@ -7771,39 +7015,6 @@
       ]
     },
     {
-      "id": "asset-7f9ee09ecba62e0e2edb950691bc5251b8807971033e2bd74c8b3d11d5cb3616",
-      "kind": "image/jpeg",
-      "uses": [
-        {
-          "document": "strumenti_errori_incertezza_fr.html",
-          "kind": "image/jpeg",
-          "description": "Cadran d’un voltmètre analogique gradué de 0 à 15 volts",
-          "locator": "caratteristiche",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "strumenti_errori_incertezza_it.html",
-          "kind": "image/jpeg",
-          "description": "Quadrante di un voltmetro analogico con scala graduata da 0 a 15 volt",
-          "locator": "caratteristiche",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "strumenti_errori_incertezza_sq.html",
-          "kind": "image/jpeg",
-          "description": "Shkallë e voltmetrit analog nga 0 deri në 15 volt",
-          "locator": "caratteristiche",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-802c4527e23315cabaaac0c717eb14062c66237200ddcc5a11d71bcaffe6ee70",
       "kind": "image/svg+xml",
       "uses": [
@@ -7815,60 +7026,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": "cassa-cifre-generata"
-        }
-      ]
-    },
-    {
-      "id": "asset-807407b5dc9436dde1e9473c66c78ab662cb63db497c707a00f9d0b03898fd9b",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "bilancio_conservazione_rendimento_it.html",
-          "kind": "svg",
-          "description": "Energia potenziale 49,05 J; cinetica e aumento dell’energia interna zero; totale 49,05 J.",
-          "locator": "energy-chart",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "bilancio_conservazione_rendimento_it.html",
-          "kind": "svg",
-          "description": "Energia potenziale 49,05 J; cinetica e aumento dell’energia interna zero; totale 49,05 J.",
-          "locator": "energy-chart",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-80f8eab02929b414c9b683654dd357a38751be08e94050a3fc90c9102144fe59",
-      "kind": "image/jpeg",
-      "uses": [
-        {
-          "document": "potenza_termica_conduzione_convezione_it.html",
-          "kind": "image/jpeg",
-          "description": "Stufetta elettrica radiante nera",
-          "locator": "potenza",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-819b927b5ed79f637e09df2ffe2e9b6618b3e335bdbf4636da5581644c6a38ae",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "grafici_piano_cartesiano_sq.html",
-          "kind": "svg",
-          "description": "Plan kartezian nga minus pesë në pesë me pikë të lëvizshme në (2; 2)",
-          "locator": "plane",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
         }
       ]
     },
@@ -8008,21 +7165,6 @@
       ]
     },
     {
-      "id": "asset-8c6c5886c4b8b295061b3450decc57b76ce14a877190f31f55239e6674432b32",
-      "kind": "image/jpeg",
-      "uses": [
-        {
-          "document": "potenza_termica_conduzione_convezione_it.html",
-          "kind": "image/jpeg",
-          "description": "Circolazione atmosferica con celle di Hadley, Ferrel e polari, alisei, venti occidentali e orientali polari, con etichette italiane.",
-          "locator": "convezione",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-8c6d2f84e97e400b7b53ec214b97260bd82ab496ab803640bba1698917a73086",
       "kind": "image/jpeg",
       "uses": [
@@ -8062,45 +7204,6 @@
           "description": "I cristalli di brina si formano quando il vapore acqueo si deposita direttamente come ghiaccio sulla superficie fredda.",
           "locator": "inizio",
           "attribute": "src",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-8d442ca3478ba2dea9f90f90ba082c4f6d8f1a10d7c2fdd8311e13679cc08a93",
-      "kind": "image/png",
-      "uses": [
-        {
-          "document": "lavoro_energie_potenza_it.html",
-          "kind": "image/png",
-          "description": "image",
-          "locator": "lavoro-it",
-          "attribute": "href",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-8ef0c07280792da7bfa39db0cb89202c0d808aacfe885899c12bafe3372fccca",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "bilancio_conservazione_rendimento_it.html",
-          "kind": "svg",
-          "description": "Pallina appoggiata alla pista parabolica, inizialmente a 5,0 m.",
-          "locator": "track",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "bilancio_conservazione_rendimento_it.html",
-          "kind": "svg",
-          "description": "Pallina appoggiata alla pista parabolica, inizialmente a 5,0 m.",
-          "locator": "track",
-          "attribute": "inline",
           "location": null,
           "credit_id": null
         }
@@ -8167,21 +7270,6 @@
       ]
     },
     {
-      "id": "asset-928b020f72cab3b09d000a48945dc653ae862fe795e080c06f9da036a0fc9bf4",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "sistema_internazionale_notazione_sq.html",
-          "kind": "svg",
-          "description": "Baza drejtkëndore e një arke: brinja a është 2,34 metra, brinja b është 1,2 metra. Të dhëna ilustruese, vizatimi nuk është në shkallë.",
-          "locator": "cifre-significative",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-92a58a3731323eaa1142cd493e81a6058981c04253de10ba2225f78005d4790c",
       "kind": "image/svg+xml",
       "uses": [
@@ -8217,21 +7305,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": "a-christmas-story-1983"
-        }
-      ]
-    },
-    {
-      "id": "asset-934ac9de8b5d3d4b4937caddde6366e38b5d7d181bfe7392225da6b3bcc76370",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "grafici_piano_cartesiano_it.html",
-          "kind": "svg",
-          "description": "Tre rette per x da zero a quattro: y uguale due x, retta blu che passa per l’origine; y uguale tre più due x, retta gialla con intercetta tre; y uguale otto meno x, retta rossa decrescente con intercetta otto.",
-          "locator": "intercetta",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
         }
       ]
     },
@@ -8314,39 +7387,6 @@
       ]
     },
     {
-      "id": "asset-96eadb4e47c74ebcebda608fddb8f178a6782ea8d8ebd86faefec232344a6b30",
-      "kind": "image/jpeg",
-      "uses": [
-        {
-          "document": "strumenti_errori_incertezza_fr.html",
-          "kind": "image/jpeg",
-          "description": "Balance de cuisine analogique avec plateau et aiguille sur cadran gradué",
-          "locator": "strumenti",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "strumenti_errori_incertezza_it.html",
-          "kind": "image/jpeg",
-          "description": "Bilancia da cucina analogica con piatto e lancetta su quadrante graduato",
-          "locator": "strumenti",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "strumenti_errori_incertezza_sq.html",
-          "kind": "image/jpeg",
-          "description": "Peshore analoge kuzhine me pjatë dhe tregues mbi shkallë",
-          "locator": "strumenti",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-99a5fc328dee11b165199cb50da531f3939f8842ae8ab242625d104e8d8b68b7",
       "kind": "image/svg+xml",
       "uses": [
@@ -8371,21 +7411,6 @@
       ]
     },
     {
-      "id": "asset-99e8237bd6eec3b582a872a8e166b0e60347fbd14e7633d5bee3626a939dd9fc",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "grafici_piano_cartesiano_it.html",
-          "kind": "svg",
-          "description": "Cinque punti: zero, uno, due, tre e quattro quaderni costano rispettivamente zero, due, quattro, sei e otto euro. La retta del modello y uguale due x passa per l’origine.",
-          "locator": "chart-direct",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-9a7d515a9fe4a079fc77b781fa2e23104014e7565091c13c9e7ad5e8610f3cd4",
       "kind": "image/png",
       "uses": [
@@ -8406,21 +7431,6 @@
           "attribute": "data-still",
           "location": null,
           "credit_id": "credit-5d1d35c0d78f5ed9"
-        }
-      ]
-    },
-    {
-      "id": "asset-9baf9b5b115e468c0991980aa0f31876670f1d5a3910b8e1cf194f95635c6a13",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "potenza_termica_conduzione_convezione_it.html",
-          "kind": "svg",
-          "description": "Modello di un reticolo solido: atomi caldi a sinistra oscillano molto più energicamente di quelli freddi a destra, senza trasporto di materia da un lato all’altro",
-          "locator": "reticolo",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
         }
       ]
     },
@@ -8455,39 +7465,6 @@
       ]
     },
     {
-      "id": "asset-a3b6796f140196cb9506afeb927a06860350838f867fbf97146dcc10838c2abd",
-      "kind": "image/jpeg",
-      "uses": [
-        {
-          "document": "strumenti_errori_incertezza_fr.html",
-          "kind": "image/jpeg",
-          "description": "Stylet de sismographe au-dessus d’une trace ondulée sur papier gradué",
-          "locator": "errori",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "strumenti_errori_incertezza_it.html",
-          "kind": "image/jpeg",
-          "description": "Pennino di un sismografo sopra una traccia ondulata su carta graduata",
-          "locator": "errori",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "strumenti_errori_incertezza_sq.html",
-          "kind": "image/jpeg",
-          "description": "Majë shkrimi e sizmografit mbi gjurmë të valëzuar në letër me ndarje",
-          "locator": "errori",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-a508edd65fee4a60c3fe51ce3f624d412368892d53ada853f1c6b374f3e351c9",
       "kind": "image/svg+xml",
       "uses": [
@@ -8503,72 +7480,6 @@
       ]
     },
     {
-      "id": "asset-a570f14c243e2493b7fa99e41212fd1be3a2e4a0c60f2c603447d78910dd7721",
-      "kind": "image/png",
-      "uses": [
-        {
-          "document": "sistema_internazionale_notazione_fr.html",
-          "kind": "image/png",
-          "description": "Échelle originale des préfixes SI de yotta à yocto, avec flèches pour les facteurs 10 et 10³",
-          "locator": "prefissi",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "sistema_internazionale_notazione_it.html",
-          "kind": "image/png",
-          "description": "Scala originale dei prefissi dal multiplo yotta al sottomultiplo yocto, con frecce e legenda per gli spostamenti di una o tre potenze di dieci",
-          "locator": "prefissi",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "sistema_internazionale_notazione_sq.html",
-          "kind": "image/png",
-          "description": "Shkalla origjinale e parashtesave SI nga jota te jokto, me shigjeta për faktorët 10 dhe 10³",
-          "locator": "prefissi",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-a7a84b917a11177b64050616e39745e07610e655859b365cb326110b8ad22ace",
-      "kind": "image/jpeg",
-      "uses": [
-        {
-          "document": "sistema_internazionale_notazione_fr.html",
-          "kind": "image/jpeg",
-          "description": "La Terre apparaît au-delà de l’horizon de la Lune, vue de l’espace",
-          "locator": "scale",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "sistema_internazionale_notazione_it.html",
-          "kind": "image/jpeg",
-          "description": "La Terra sorge oltre l'orizzonte della Luna in una fotografia dallo spazio",
-          "locator": "scale",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "sistema_internazionale_notazione_sq.html",
-          "kind": "image/jpeg",
-          "description": "Toka shfaqet përtej horizontit të Hënës në një fotografi nga hapësira",
-          "locator": "scale",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-a7c9848301eba550f66e5070341f3e0401e504e4c48aa93c50f78abdd39d5a83",
       "kind": "image/jpeg",
       "uses": [
@@ -8580,21 +7491,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-d55ba5f7cec2dfd8"
-        }
-      ]
-    },
-    {
-      "id": "asset-a8b83bc969d813e9ee873fe75d58798e05423a4ecc30876a3eec6cfd3bfaff60",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "grafici_piano_cartesiano_fr.html",
-          "kind": "svg",
-          "description": "Carrés de côtés 0 à 4 cm et d’aires 0, 1, 4, 9 et 16 cm² ; courbe y = x²",
-          "locator": "chart-quadratic",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
         }
       ]
     },
@@ -8782,81 +7678,6 @@
       ]
     },
     {
-      "id": "asset-b141136ff3689c47a82cc3f89a8c1b565538d2c5415a51217b53761dfd8c6633",
-      "kind": "image/png",
-      "uses": [
-        {
-          "document": "grafici_piano_cartesiano_fr.html",
-          "kind": "image/png",
-          "description": "Graphique du prix du pétrole de 1864 à 2022 : années sur l’axe horizontal, dollars de 2022 par baril sur l’axe vertical ; minima sélectionnés en bleu",
-          "locator": null,
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "grafici_piano_cartesiano_it.html",
-          "kind": "image/png",
-          "description": "Grafico del prezzo del petrolio dal 1864 al 2022: anni sull’asse orizzontale e dollari del 2022 per barile sull’asse verticale; alcuni minimi evidenziati in azzurro",
-          "locator": null,
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "grafici_piano_cartesiano_sq.html",
-          "kind": "image/png",
-          "description": "Grafik i çmimit të naftës nga 1864 deri në 2022: vitet në boshtin horizontal, dollarë të vitit 2022 për fuçi në atë vertikal; disa minimume në blu",
-          "locator": null,
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-b17b9591b7a9cc34e9eec460fe2c2216c15619090af2f8bbdc9e44c01079b196",
-      "kind": "image/png",
-      "uses": [
-        {
-          "document": "bilancio_conservazione_rendimento_it.html",
-          "kind": "image/png",
-          "description": "image",
-          "locator": "rendimento-it",
-          "attribute": "href",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "sistema_internazionale_notazione_fr.html",
-          "kind": "image/png",
-          "description": "image",
-          "locator": "cifre-significative",
-          "attribute": "href",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "sistema_internazionale_notazione_it.html",
-          "kind": "image/png",
-          "description": "image",
-          "locator": "cifre-significative",
-          "attribute": "href",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "sistema_internazionale_notazione_sq.html",
-          "kind": "image/png",
-          "description": "image",
-          "locator": "cifre-significative",
-          "attribute": "href",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-b401cdb07eea77f39808105f6b74232a347c0fe5d98a6fd520af2b92ddff01e5",
       "kind": "image/webp",
       "uses": [
@@ -8887,60 +7708,6 @@
       ]
     },
     {
-      "id": "asset-b8095eb15ffe7f87eb0f126c390f54402c70875cd5f6ea42df90983bdcde267e",
-      "kind": "image/jpeg",
-      "uses": [
-        {
-          "document": "potenza_termica_conduzione_convezione_it.html",
-          "kind": "image/jpeg",
-          "description": "Termoventilatore elettrico bianco",
-          "locator": "potenza",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-b840f9d18fb2c1f1d6c601c489fd3fa2f242bd7e4efe8c6b0dbc8f7a6f8bbf4a",
-      "kind": "image/jpeg",
-      "uses": [
-        {
-          "document": "metodo_scientifico_fr.html",
-          "kind": "image/jpeg",
-          "description": "Photo en noir et blanc de Karl Popper assis en train de lire",
-          "locator": "falsificare",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "metodo_scientifico_sq.html",
-          "kind": "image/jpeg",
-          "description": "Foto bardh e zi e Karl Popper-it ulur duke lexuar",
-          "locator": "falsificare",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-b878e10facbda9f6fd07136abcd352251bc5a3fe16bb8f838f780221bdceb6e1",
-      "kind": "image/png",
-      "uses": [
-        {
-          "document": "potenza_termica_conduzione_convezione_it.html",
-          "kind": "image/png",
-          "description": "Circolazione naturale dell’aria nella stanza: sale sopra il termosifone, si raffredda e scende vicino alla finestra; etichette italiane sullo sfondo originale.",
-          "locator": "convezione",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-b88fed40fdd553ff8e9e968fcc0b6cc60669e6b4fe44f0e64067c1966b9e36e5",
       "kind": "image/jpeg",
       "uses": [
@@ -8952,45 +7719,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-e6fc7a4073a95f9e"
-        }
-      ]
-    },
-    {
-      "id": "asset-ba8e24afcef86836a191f0ee4f50255619bca079c373416f98a1e958382a8588",
-      "kind": "image/png",
-      "uses": [
-        {
-          "document": "lavoro_energie_potenza_it.html",
-          "kind": "image/png",
-          "description": "image",
-          "locator": "potenziale-it",
-          "attribute": "href",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "lavoro_energie_potenza_it.html",
-          "kind": "image/png",
-          "description": "image",
-          "locator": "potenziale-it",
-          "attribute": "href",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-bb2da35408d47fb54bc819987248df61a4d004c57992dddad3ac4a734cee26f0",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "grafici_piano_cartesiano_it.html",
-          "kind": "svg",
-          "description": "Piano cartesiano da meno cinque a cinque. Punto trascinabile inizialmente in due, due.",
-          "locator": "plane",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
         }
       ]
     },
@@ -9040,21 +7768,6 @@
       ]
     },
     {
-      "id": "asset-bec7095f0717c4c6fcd0f7b68f9940f4d75315d31953da43156ca6786193dda4",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "lavoro_energie_potenza_it.html",
-          "kind": "svg",
-          "description": "Per m = 2 kg, passando da 2 a 4 m/s l’energia passa da 4 a 16 J: il grafico è una parabola.",
-          "locator": "cinetica-it",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-bf853dda9ab60b0c7ffd21355422c34ba369e52b5ea4fefda18714079a89f113",
       "kind": "svg",
       "uses": [
@@ -9081,21 +7794,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-37e9e609d6300c81"
-        }
-      ]
-    },
-    {
-      "id": "asset-bfe36b5efa6176536d40d117bf04e0d24670ae7cfd05de7f903106aea8a53235",
-      "kind": "image/jpeg",
-      "uses": [
-        {
-          "document": "potenza_termica_conduzione_convezione_it.html",
-          "kind": "image/jpeg",
-          "description": "Dissipatore metallico alettato su scheda madre, sormontato da una ventola nera AMD",
-          "locator": "conduzione",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
         }
       ]
     },
@@ -9274,39 +7972,6 @@
       ]
     },
     {
-      "id": "asset-c3c06d01a59f0e046642772ea9d30d9f63c87d41486f662c96f4e6eac25ae5c1",
-      "kind": "image/jpeg",
-      "uses": [
-        {
-          "document": "strumenti_errori_incertezza_fr.html",
-          "kind": "image/jpeg",
-          "description": "Chronomètre numérique tenu en main affichant des centièmes de seconde",
-          "locator": "caratteristiche",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "strumenti_errori_incertezza_it.html",
-          "kind": "image/jpeg",
-          "description": "Cronometro digitale tenuto in mano con cifre per i centesimi di secondo",
-          "locator": "caratteristiche",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "strumenti_errori_incertezza_sq.html",
-          "kind": "image/jpeg",
-          "description": "Kronometër digjital në dorë që tregon të qindtat e sekondës",
-          "locator": "caratteristiche",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-c409e296ed0598f245dc1184878ce3fa16d254d983ba8f6b88ecb6a965c201d8",
       "kind": "image/jpeg",
       "uses": [
@@ -9367,21 +8032,6 @@
       ]
     },
     {
-      "id": "asset-c86810ad922a44d5651554b1fb51c3d6a2fa133f4aded62bbe7ce18d72a40a41",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "sistema_internazionale_notazione_fr.html",
-          "kind": "svg",
-          "description": "Base rectangulaire d’une caisse : côté a égal à 2,34 mètres, côté b égal à 1,2 mètre. Données illustratives, dessin non à l’échelle.",
-          "locator": "cifre-significative",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-c97382c4a25fd5fb15338fccdeddceece47e579c8540d45c17a4fc82af5d8bf0",
       "kind": "svg",
       "uses": [
@@ -9393,39 +8043,6 @@
           "attribute": "inline",
           "location": null,
           "credit_id": "credit-ea41924218d7081b"
-        }
-      ]
-    },
-    {
-      "id": "asset-ca0b4007b2bfeadf6b1e4510044236d256accf3aa1ab0cc43053af9068292b60",
-      "kind": "image/png",
-      "uses": [
-        {
-          "document": "strumenti_errori_incertezza_fr.html",
-          "kind": "image/png",
-          "description": "Quatre cibles A, B, C, D montrant différents degrés de dispersion et de décalage",
-          "locator": "errori",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "strumenti_errori_incertezza_it.html",
-          "kind": "image/png",
-          "description": "Quattro bersagli A, B, C e D: punti rispettivamente raccolti e centrati, raccolti ma decentrati, dispersi attorno al centro, dispersi e decentrati",
-          "locator": "errori",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "strumenti_errori_incertezza_sq.html",
-          "kind": "image/png",
-          "description": "Katër shënjestra A, B, C, D që tregojnë shpërndarje dhe zhvendosje të ndryshme",
-          "locator": "errori",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
         }
       ]
     },
@@ -9499,21 +8116,6 @@
       ]
     },
     {
-      "id": "asset-ce8a35fcab66e8713c66860213c4d9768e87990a21dcf8ae0d2807f8f48dab10",
-      "kind": "image/jpeg",
-      "uses": [
-        {
-          "document": "potenza_termica_conduzione_convezione_it.html",
-          "kind": "image/jpeg",
-          "description": "Igloo di neve illuminato di notte, in un ambiente innevato",
-          "locator": "conduzione",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-cf7a78ee10a1b4b5b3700ef3780603413d5487f787704e758d15df38a51101a3",
       "kind": "image/png",
       "uses": [
@@ -9525,39 +8127,6 @@
           "attribute": "href",
           "location": null,
           "credit_id": "clipart-robinet-senza-goccia"
-        }
-      ]
-    },
-    {
-      "id": "asset-cfc9a413b53c65afffe52bd0c771a30e44412c8a228a35ede7856643211661fa",
-      "kind": "image/jpeg",
-      "uses": [
-        {
-          "document": "strumenti_errori_incertezza_fr.html",
-          "kind": "image/jpeg",
-          "description": "Thermomètre numérique avec écran et capteur à la pointe",
-          "locator": "caratteristiche",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "strumenti_errori_incertezza_it.html",
-          "kind": "image/jpeg",
-          "description": "Termometro digitale con display e sensore sulla punta",
-          "locator": "caratteristiche",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "strumenti_errori_incertezza_sq.html",
-          "kind": "image/jpeg",
-          "description": "Termometër digjital me ekran dhe sensor në majë",
-          "locator": "caratteristiche",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
         }
       ]
     },
@@ -9588,45 +8157,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-910dc8f254841dc9"
-        }
-      ]
-    },
-    {
-      "id": "asset-d0cea3107d739717d7d97add08cb8a03d5f8765b0638c7afc3ebddbbe0ecb947",
-      "kind": "image/jpeg",
-      "uses": [
-        {
-          "document": "metodo_scientifico_fr.html",
-          "kind": "image/jpeg",
-          "description": "Portrait de Galilée tenant une petite lunette astronomique",
-          "locator": "osservare",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "metodo_scientifico_sq.html",
-          "kind": "image/jpeg",
-          "description": "Portret i Galileo Galileit me një teleskop të vogël në dorë",
-          "locator": "osservare",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-d25d6b6c5086058ac2ad798b0318f26e7ebbd15c882b7f0129c43d5f0e1955e8",
-      "kind": "image/png",
-      "uses": [
-        {
-          "document": "lavoro_energie_potenza_it.html",
-          "kind": "image/png",
-          "description": "image",
-          "locator": "potenza-it",
-          "attribute": "href",
-          "location": null,
-          "credit_id": null
         }
       ]
     },
@@ -9724,21 +8254,6 @@
       ]
     },
     {
-      "id": "asset-d8aedb08936b3a775f10d090a00f570a502ae750a3925be3015b6dc64d75ed00",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "lavoro_energie_potenza_it.html",
-          "kind": "svg",
-          "description": "Il phon da 2000 W funziona per 6 min; la lampada da 20 W per 10 h. Entrambi ricevono energia elettrica dalla rete: potenza e durata sono diverse.",
-          "locator": "potenza-it",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-d9366fc6b3e97e96df8ed83f14d2626e0b6712864eac20f17c4faca3d3ac165b",
       "kind": "image/gif",
       "uses": [
@@ -9748,21 +8263,6 @@
           "description": "Le bolle di vapore si formano nel liquido e risalgono. L'ebollizione coinvolge anche l'interno del liquido, mentre l'evaporazione avviene alla superficie.",
           "locator": "inizio",
           "attribute": "src",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-d9b8682faaeac2ab15cbb59ff6d0a0ea3fd07ccb203c0c7d803bf44753a5173d",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "grafici_piano_cartesiano_it.html",
-          "kind": "svg",
-          "description": "Rettangoli di area dodici centimetri quadrati: basi 1, 2, 3, 4, 6 e 12 centimetri, altezze 12, 6, 4, 3, 2 e 1 centimetri. Curva inversa nel primo quadrante, senza valore per base zero.",
-          "locator": "chart-inverse",
-          "attribute": "inline",
           "location": null,
           "credit_id": null
         }
@@ -9780,21 +8280,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-d7ad6df666a9b7fe"
-        }
-      ]
-    },
-    {
-      "id": "asset-dada03df3ddb84f324965085f968f69e13160c6c535838b35696c378d3751cc5",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "lavoro_energie_potenza_it.html",
-          "kind": "svg",
-          "description": "La valigia di 10 kg passa dalla quota iniziale alla quota finale, 2 m più in alto. A velocità costante la forza della mano bilancia il peso.",
-          "locator": "potenziale-it",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
         }
       ]
     },
@@ -9823,36 +8308,6 @@
           "description": "Modello animato delle particelle: solido.",
           "locator": "inizio",
           "attribute": "src",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-dbc306c96dd0a6be08ec5362725396888b5a6f071507b8a49f02457008f8cc93",
-      "kind": "image/jpeg",
-      "uses": [
-        {
-          "document": "potenza_termica_conduzione_convezione_it.html",
-          "kind": "image/jpeg",
-          "description": "Caffettiera moka metallica con manico nero su un fornello a gas acceso",
-          "locator": "conduzione",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-dccaee1978a16b969d8a2182f92e5251d35888b799190f6fba5ade31d371cb23",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "bilancio_conservazione_rendimento_it.html",
-          "kind": "svg",
-          "description": "Pallina appoggiata alla pista parabolica, inizialmente a 3,0 m.",
-          "locator": "track",
-          "attribute": "inline",
           "location": null,
           "credit_id": null
         }
@@ -9967,21 +8422,6 @@
       ]
     },
     {
-      "id": "asset-df302171ce66d199bc422a5c7ab6fcfd303892ab5da836378e3ad6d4bbe8b21b",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "lavoro_energie_potenza_it.html",
-          "kind": "svg",
-          "description": "Modello del sollevamento del bilanciere: massa 595 kg, salita di 0,50 m in 2,0 s. Lo schema mostra soltanto il bilanciere; altezza e tempo sono ipotesi di calcolo.",
-          "locator": "potenza-it",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-df6fa98366421bea2dc91bfc828ceca895f2ed1d884f5da03c389ad5463edec8",
       "kind": "svg",
       "uses": [
@@ -9993,45 +8433,6 @@
           "attribute": "inline",
           "location": null,
           "credit_id": "visuali-proporzioni-parametro"
-        }
-      ]
-    },
-    {
-      "id": "asset-e1327bdd80a87d2753b46455f1664e76801133cbf17834157f899586ead713f9",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "grafici_piano_cartesiano_fr.html",
-          "kind": "svg",
-          "description": "Trois droites : y = 2x par l’origine, y = 3 + 2x avec ordonnée à l’origine 3, et y = 8 − x décroissante",
-          "locator": "intercetta",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-e16691cbe6dd9214185d1abbf82877a4c353418ec46cdc27f20842d30fc8c98e",
-      "kind": "image/png",
-      "uses": [
-        {
-          "document": "lavoro_energie_potenza_it.html",
-          "kind": "image/png",
-          "description": "image",
-          "locator": "potenza-it",
-          "attribute": "href",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "lavoro_energie_potenza_it.html",
-          "kind": "image/png",
-          "description": "image",
-          "locator": "potenza-it",
-          "attribute": "href",
-          "location": null,
-          "credit_id": null
         }
       ]
     },
@@ -10141,21 +8542,6 @@
       ]
     },
     {
-      "id": "asset-e839746d8aa839353882971b545aac5a2af2e31ecf5513c99976b470fc4883a9",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "sistema_internazionale_notazione_fr.html",
-          "kind": "svg",
-          "description": "12,4 centimètres : trois chiffres significatifs, jusqu’aux dixièmes. 12,40 centimètres : quatre chiffres significatifs, jusqu’aux centièmes.",
-          "locator": "cifre-significative",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-e87c227b007957c8e5b14eebbf28479d7d2f5abce50704a1a2735741f4abc2ac",
       "kind": "image/svg+xml",
       "uses": [
@@ -10206,21 +8592,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-6f22eea11fb693a8"
-        }
-      ]
-    },
-    {
-      "id": "asset-eb493be83efc746f05b2ca77af5242fe00193016e434d6131bf34ce47ab8a42e",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "bilancio_conservazione_rendimento_it.html",
-          "kind": "svg",
-          "description": "Durante la produzione l’acqua scende dal bacino superiore, aziona la turbina collegata all’alternatore e raggiunge il bacino inferiore. Nell’esempio, 1000 kg d’acqua scendono di 50 m dal bacino alla turbina e il rendimento complessivo è 80%. I dati sono illustrativi e il disegno non è in scala.",
-          "locator": "rendimento-it",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
         }
       ]
     },
@@ -10285,21 +8656,6 @@
       ]
     },
     {
-      "id": "asset-f0efceffb9a5bfab312b31746f5ecfa9dfcfc1d960e3a61dcae3a2ab4817bdf2",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "grafici_piano_cartesiano_sq.html",
-          "kind": "svg",
-          "description": "Katrorë me brinjë nga 0 deri 4 cm dhe sipërfaqe 0, 1, 4, 9 dhe 16 cm²; kurba y = x²",
-          "locator": "chart-quadratic",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-f153467db5979278aa44d2fb14c0ce4872ebcd50428b62d7501760c7e9cb71d4",
       "kind": "image/webp",
       "uses": [
@@ -10354,54 +8710,6 @@
       ]
     },
     {
-      "id": "asset-f43d17b1c7dd7c5eb6b238a40c7230d80eff266c65d6c31255fbde0fb576e566",
-      "kind": "svg",
-      "uses": [
-        {
-          "document": "lavoro_energie_potenza_it.html",
-          "kind": "svg",
-          "description": "Carrello trainato: F = 50 N a 60° rispetto allo spostamento s = 4 m. L’attrito di 10 N è opposto al moto; peso e normale sono verticali.",
-          "locator": "lavoro-it",
-          "attribute": "inline",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-f55b96be869855f9a4609e4e25591c73d7437bef8ebf68e9b8a0c2c9cdded97a",
-      "kind": "image/jpeg",
-      "uses": [
-        {
-          "document": "strumenti_errori_incertezza_fr.html",
-          "kind": "image/jpeg",
-          "description": "Balance de cuisine numérique affichant une masse en grammes",
-          "locator": "strumenti",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "strumenti_errori_incertezza_it.html",
-          "kind": "image/jpeg",
-          "description": "Bilancia digitale da cucina con recipiente e lettura numerica in grammi",
-          "locator": "strumenti",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        },
-        {
-          "document": "strumenti_errori_incertezza_sq.html",
-          "kind": "image/jpeg",
-          "description": "Peshore digjitale kuzhine që tregon masën në gramë",
-          "locator": "strumenti",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
-        }
-      ]
-    },
-    {
       "id": "asset-f5fd0a005e40ed555ebce44229038eeba7e4752639a7474328c33b19b1ea9de7",
       "kind": "image/webp",
       "uses": [
@@ -10413,21 +8721,6 @@
           "attribute": "cover-data",
           "location": "copertine/reattore-atr.webp",
           "credit_id": "credit-617183edee5143fb"
-        }
-      ]
-    },
-    {
-      "id": "asset-f601283205a5e25198a2750494346dda9844baecde3a15ad57a78b4654f82e33",
-      "kind": "image/jpeg",
-      "uses": [
-        {
-          "document": "potenza_termica_conduzione_convezione_it.html",
-          "kind": "image/jpeg",
-          "description": "Ciotola di zuppa calda con un cucchiaio metallico che attraversa il liquido",
-          "locator": "conduzione",
-          "attribute": "src",
-          "location": null,
-          "credit_id": null
         }
       ]
     },

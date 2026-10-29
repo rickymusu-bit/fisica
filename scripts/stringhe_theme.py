@@ -59,7 +59,7 @@ def theme_control():
 
 
 def navigation_header(page, filename='', index_markup=''):
-    """Unica barra Stringhe: navigazione a sinistra, Lingua e Tema a destra.
+    """Unica barra Stringhe: navigazione a sinistra e Tema a destra.
 
     Le pagine usano lo stesso markup, le icone e i controlli. Cambia soltanto
     l'insieme dei comandi contestuali, mai la posizione delle impostazioni.
@@ -82,13 +82,9 @@ def navigation_header(page, filename='', index_markup=''):
     if page == 'chapter':
         actions.append(link(filename, 'Scarica il capitolo', 'download', download=True))
         actions.append(index_markup)
-    language = ('<details class="string-lang" name="stringhe-header-menu">'
-                '<summary aria-label="Seleziona lingua" title="Lingua: Italiano">'
-                '<span class="language-code">IT ▾</span></summary>'
-                '<div class="string-languages" lang="it">✓ Italiano</div></details>')
     nav = ('<nav class="stringhe-navigation site-nav top-links" aria-label="Navigazione principale">'
            '<div class="nav-primary">' + ''.join(actions) + '</div>'
-           '<div class="nav-settings">' + language + theme_control() + '</div></nav>')
+           '<div class="nav-settings">' + theme_control() + '</div></nav>')
     if page == 'chapter':
         return '<header class="topbar stringhe-header">' + nav + '</header>'
     classes = 'site-header stringhe-header'
@@ -134,12 +130,11 @@ def apply_theme(document):
     document = re.sub(r'<summary\b[^>]*class="index-toggle"[^>]*>[\s\S]*?</summary>',
                       lambda _: '<summary class="index-toggle" aria-label="Indice del capitolo" title="Indice del capitolo">' +
                       icon('index') + '<span class="nav-label">Indice</span><span class="index-close">' + icon('close') + '</span></summary>', document)
-    # Un solo menu Lingua/Tema aperto, anche senza JavaScript nei browser moderni.
+    # Il menu Tema resta accessibile anche senza JavaScript.
     def group_header_menu(match):
         tag = match.group(0)
         classes = re.search(r'class="([^"]*)"', tag)
-        is_language = classes and {'lang', 'string-lang'} & set(classes.group(1).split())
-        if ('data-theme-menu' in tag or is_language) and not re.search(r'\bname=', tag):
+        if 'data-theme-menu' in tag and not re.search(r'\bname=', tag):
             return tag[:-1] + ' name="stringhe-header-menu">'
         return tag
     document = re.sub(r'<details\b[^>]*>', group_header_menu, document)
