@@ -1,6 +1,6 @@
 # Istruzioni operative — Stringhe
 
-**Versione AGENTS: v3.1.2 — 26/10/2026, ore 14:44 (Europe/Rome).**
+**Versione AGENTS: v3.2.0 — 29/10/2026 (Europe/Rome).**
 
 Questo file orienta Codex nel repository `rickymusu-bit/fisica`. Le regole didattiche generali risiedono nel `MASTER_PROMPT.md`, quelle specialistiche nei documenti canonici richiamati qui: non duplicarli integralmente. Applica le richieste esplicite per il compito corrente; segnala conflitti non risolti senza inventare priorità. Autorizzazioni storiche di PR completate non consentono modifiche o pubblicazioni successive.
 
@@ -11,6 +11,10 @@ Prima del lavoro, leggi il `MASTER_PROMPT.md` corrente e lo stato in `lavorazion
 **Pubblicazione:** lavora su un ramo dedicato derivato da `main`. Per ogni modifica al sito, prepara PR in bozza e anteprima verificabile della versione corrente; richiedi l'approvazione esplicita prima di unire in `main` o avviare GitHub Pages. Non riutilizzare approvazioni precedenti. Mantieni distinte le autorizzazioni per immagini, bozza didattica, HTML e pubblicazione, quando previste dal master. Anche le modifiche documentali restano sul ramo fino all'approvazione.
 
 GitHub è la fonte ufficiale e Git ne conserva la cronologia. Usa nomi e percorsi stabili, senza versioni o date nel nome; controlla identità, contenuto e versione prima di sostituire file e non sovrascrivere quelli incerti. Aggiorna lo stato ai passaggi decisivi e prima di interrompere; non moltiplicare copie storiche. Non eliminare materiali originari su Drive né alterare la pubblicazione come effetto collaterale di un'altra richiesta.
+
+**Chiusura dei branch di lavorazione:** usa un ramo dedicato per ogni capitolo o modifica, senza riutilizzare rami di attività concluse. Un capitolo è concluso ai fini della pulizia solo dopo approvazione richiesta, verifiche pertinenti superate, integrazione della PR in `main` e, se previsto, pubblicazione controllata tramite `pubblicazione.json`. Dopo il merge, elimina il ramo temporaneo tramite l'impostazione GitHub «Automatically delete head branches», quando applicabile; non serve conservare i rami delle PR già concluse, perché la cronologia dei commit e la PR restano consultabili. La cancellazione del ramo non cancella né modifica i file in `main` e non sostituisce le verifiche sulla pubblicazione.
+
+**Pulizia dei branch preesistenti:** prima di eliminare un ramo, verifica che la PR sia conclusa, che il lavoro utile sia effettivamente presente in `main` e che non vi siano modifiche esclusive ancora necessarie. Il solo stato «diverged» o la presenza di commit non condivisi non prova che manchi il contenuto: verifica i file e le PR, specialmente dopo squash merge o cherry-pick. Conserva invece rami di lavoro incompleti, con PR aperte, e rami tecnici usati da workflow, anteprime o distribuzione (per esempio `stringhe-preview` e `quiz-verifiche-preview`). Non cancellare `main`, rami protetti o rami di altri repository; per i casi incerti registra la valutazione e richiedi conferma. Evita la riscrittura della cronologia Git come operazione di normale pulizia.
 
 **Bozze:** non riportare in chat i testi integrali dei capitoli. Salva testo e HTML nella cartella `lavorazione/<capitolo>/` sul ramo di sviluppo (`bozza.md` e `bozza.html` quando pertinenti); presenta soltanto sintesi, punti da approvare e link ai file realmente salvati. La revisione di una bozza non costituisce approvazione dell'HTML o del merge.
 
