@@ -6,7 +6,7 @@
 
 Stringhe raccoglie capitoli visuali di fisica in italiano. I capitoli attuali appartengono alla macro categoria **Termologia**; elenco e ordine sono definiti in [`pubblicazione.json`](pubblicazione.json) e nel catalogo sorgente di [`index.html`](index.html).
 
-La home offre **Tutti i capitoli**, **Mi sento fortunato** e **Quiz** nelle card; la barra superiore contiene soltanto lingua e tema chiaro/scuro. Il catalogo ha ricerca e filtro per area tematica; la scelta casuale comprende soltanto i capitoli pubblicati. Quiz offre sessioni da 1 a 30 domande con un archivio di 300 quesiti di Termologia, 100 per livello, distinto dal progetto nel repository [rickymusu-bit/quiz](https://github.com/rickymusu-bit/quiz).
+La home offre **Tutti i capitoli**, **Mi sento fortunato** e **Quiz** nelle card; la barra superiore contiene soltanto il menu del tema chiaro/scuro. Il catalogo ha ricerca e filtro per area tematica; la scelta casuale comprende soltanto i capitoli pubblicati. Quiz offre sessioni da 1 a 30 domande con un archivio di 300 quesiti di Termologia, 100 per livello, distinto dal progetto nel repository [rickymusu-bit/quiz](https://github.com/rickymusu-bit/quiz).
 
 ## Capitoli e tema comune
 
@@ -20,7 +20,7 @@ La copertina della home cambia casualmente tra le venti immagini scelte, con fot
 
 Prima di lavorare leggere [`AGENTS.md`](AGENTS.md), [`MASTER_PROMPT.md`](MASTER_PROMPT.md) e lo stato pertinente in `lavorazione/`. Lavorare su un ramo dedicato e presentare l’anteprima corrente prima dell’integrazione e della pubblicazione.
 
-**Chiusura dei rami:** dopo il completamento, la verifica e l'approvazione del capitolo, integrare la PR in `main` e lasciare che GitHub elimini automaticamente il ramo temporaneo, se l'opzione è abilitata. Per i vecchi rami, confrontare prima modifiche e PR: conservare quelli con lavoro utile non integrato o usati dai workflow di anteprima. I dettagli e le eccezioni sono in `AGENTS.md`.
+**Unico branch permanente:** mantenere soltanto `main`. Per ogni intervento creare un branch temporaneo, verificare e far approvare la PR, integrarla e cancellare subito il branch; chiudere anche i branch di PR abbandonate dopo la verifica del lavoro utile. Anteprime e screenshot si distribuiscono tramite artifact GitHub Actions, senza branch permanenti dedicati. La procedura e le eccezioni di sicurezza sono in `AGENTS.md`.
 
 ```sh
 python3 scripts/sync_stringhe_theme.py --check
@@ -41,4 +41,4 @@ GitHub Pages pubblica da `main` attraverso [`.github/workflows/pages.yml`](.gith
 
 Le schermate di controllo prodotte durante lo sviluppo sono risultati di verifica, non risorse didattiche. Le nuove anteprime devono essere consegnate tramite gli artifact delle Actions o come allegati alla PR, senza aggiungere nuove copie storiche al repository. Gli screenshot già rimossi rimangono recuperabili nella cronologia Git; `risorse/`, le immagini originali, i crediti, gli HTML e le bozze non sono interessati dalla pulizia.
 
-Per compatibilità con l'attuale workflow di anteprima, `lavorazione/sito/schermate/` e `lavorazione/quiz/termologia/anteprima/` restano temporaneamente tracciate. La loro migrazione verso artifact generati direttamente dalla CI richiede una modifica successiva e verificata del workflow. Non eliminare altri file di lavorazione senza analizzarne dipendenze e provenienza.
+`lavorazione/sito/schermate/` e `lavorazione/quiz/termologia/anteprima/` possono contenere file storici ancora tracciati: la rimozione dei branch di anteprima non cancella i file in `main`. Non eliminare altri file di lavorazione senza analizzarne dipendenze e provenienza.

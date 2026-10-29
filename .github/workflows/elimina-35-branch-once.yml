@@ -1,0 +1,72 @@
+name: Elimina 35 branch storici autorizzati (una tantum)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/elimina-35-branch-once.yml'
+
+permissions:
+  contents: write
+  pull-requests: read
+
+jobs:
+  pulizia:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verifica e cancella solo i 35 ref autorizzati
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          from urllib.parse import quote
+          from urllib.request import Request, urlopen
+          
+          EXPECTED = json.loads(r'''{"anteprima/economia-informativa":"8807f35cbfc799b4b7fdffc2f98525055923aebe","chore/pulizia-file-superflui-20261025":"04aa9dc191d6d7680e7715255fed3047e9c8aa95","codex/conduzione-profilo-temperatura-curvo":"f22143351bb69c76154fd9eadd11407f6edf5bb3","codex/standard-visuali-v1":"bc0ea813dba662eaf90cebb83699fac189730339","design/curva-gradiente-colori":"42034c5ffc51ab113577e1e34059d9a01854d2cf","docs/agents-refactor-v1-20261025":"69c7686531239da7f81a80a65aff348e96d6439a","docs/agents-refactoring-completo-v2-20261025":"df40d7b03310a9e15af35a8f44ae2f174d95257a","docs/identita-stringhe":"0189d47b8ba841135dd8b820c390e5a89e3f7811","docs/prompt-domande-fisica-20261024":"d11dcf35e9b3d1296675a8d9fb6ee37c606b487c","docs/prompt-semver-refactoring-20261025":"44aaa3a67274210b148b2ff0a53b47b09920fe65","docs/quiz-prompt-manutenzione-20261025":"eb41b0bb388dc9f3a931d3beed5eaae981aa2449","docs/quiz-termologia-pubblicato":"b2cf63a21e08cb96888308032786701bfc7e9531","docs/soglie-notazione-scientifica-si-20261025":"3bd76368c59f8751cc36856f99ac88353d3d5844","docs/soglie-si-allineate-main-20261025":"480ae670482f208711c002cc89a3d0fb20e927f4","editoriale/economia-informativa-20261024":"9ef9dcb91ce90d656adc872ebd0004d2f4fe3b81","feature/quiz-stringhe-prototipo":"106d1868c3145d53bdf6cda16bdbc58363a76812","feature/quiz-verifiche-20261024":"5dceeff533b6cf2dbdf1ff109cca18615b2a2336","fix/audit-allineamento-tabelle-capitoli-20261025":"dd1cd0f8f1a7d1260c6126a9f10aef0e949acc52","fix/cap9-punti-zoom-tabelle-20261025":"34728bf425e9370a6813b77840e623abed54eaaf","fix/didascalia-irraggiamento":"61de80c145f629d31f1090b9dae3942c0bf76167","fix/home-radiazione-cosmica-fondo-20261025":"a8458c5c3f0724114b9d4076ab36e19c43ef7459","fix/pr82-risoluzione-conflitti-20261025":"e9c564790ee5cc52b5f252828d33341222d2a689","fix/quiz-colori-conferma":"94e76e633f0770d206d692f011da70f67b666e9e","fix/quiz-difficolta-etichette-20261025":"0d400d16e58b49552746a1fb82e1d7981fbb8673","fix/quiz-navigazione-libera":"3747ab0e7e1bc436e4a92457ac0eb94458de8e79","fix/quiz-notazione-matematica":"0a53d12abc7e0def9584fdc39d3445ae782bc355","fix/quiz-progresso-risposte":"44c58fdc422e26be33a058e801c6d371e8e92382","home/copertina-marco-polo":"ad798482c5fbaa65e4e7b5112f5ad7ce45693235","home/esplora-download":"f12772e669f1165904a2bc96257efe2626a69891","lavorazione/grafici-misure-leggibili":"f3d7cc0bb51060a4a4e5a6a25e435c59908b24d3","lavorazione/quiz-introduzione-campione":"c1d47c8e7e822c0cca491c62de6d2c824c050683","lavorazione/strumenti-errori-incertezza":"e05408bd32e478a24f32689f155ed4cd048c6202","quiz-verifiche-preview":"428c3693d3331ab28dcf54d5e1360e3bdbed703a","stringhe-preview":"b37935468aba94fc6ae3bbe31046c273f1f30626","termodinamica/dilatazione-termica":"5440fa39ce5a8d41366f745584a9df5210b708c0"}''')
+          REPO = os.environ["GITHUB_REPOSITORY"]
+          TOKEN = os.environ["GITHUB_TOKEN"]
+          BASE = f"https://api.github.com/repos/{REPO}"
+          HEADERS = {
+              "Authorization": f"Bearer {TOKEN}",
+              "Accept": "application/vnd.github+json",
+              "X-GitHub-Api-Version": "2022-11-28",
+              "User-Agent": "Stringhe-one-time-branch-purge",
+          }
+          
+          def api(method, route):
+              with urlopen(Request(BASE + route, method=method, headers=HEADERS), timeout=30) as resp:
+                  data = resp.read()
+                  return json.loads(data) if data else None
+          
+          assert "main" not in EXPECTED and len(EXPECTED) == 35, "Allowlist non valida"
+          branches = {b["name"]: b for b in api("GET", "/branches?per_page=100")}
+          open_prs = api("GET", "/pulls?state=open&per_page=100")
+          open_heads = {p["head"]["ref"] for p in open_prs if p["head"]["repo"] and p["head"]["repo"]["full_name"] == REPO}
+          assert "main" in branches, "Manca main"
+          pending = []
+          for name, sha in EXPECTED.items():
+              b = branches.get(name)
+              if b is None:
+                  print(f"Gia assente: {name}")
+                  continue
+              assert b["commit"]["sha"] == sha, f"Commit inatteso: {name}"
+              assert not b.get("protected") and name not in open_heads, f"Branch protetto o PR aperta: {name}"
+              pending.append((name, sha))
+          
+          removed = []
+          for name, sha in pending:
+              encoded = quote(name, safe="")
+              current = api("GET", f"/branches/{encoded}")
+              assert current["commit"]["sha"] == sha and not current.get("protected"), f"Branch variato prima della DELETE: {name}"
+              assert name not in {p["head"]["ref"] for p in api("GET", "/pulls?state=open&per_page=100")}, f"PR aperta sopraggiunta: {name}"
+              api("DELETE", f"/git/refs/heads/{encoded}")
+              removed.append(name)
+              print(f"ELIMINATO {name}")
+          
+          remaining = {b["name"] for b in api("GET", "/branches?per_page=100")}
+          assert not (set(EXPECTED) & remaining), f"Branch non eliminati: {set(EXPECTED) & remaining}"
+          print(f"ELIMINATI {len(removed)}/{len(EXPECTED)} branch autorizzati. Restano: {sorted(remaining)}")
+          PY
