@@ -126,6 +126,10 @@ a{color:inherit}button,input,select{font:inherit}button,select{color:var(--ink)}
 .skip{background:var(--surface);color:var(--ink)}
 /* Lettura: reticolo soltanto nelle fasce esterne, superfici opache sotto il testo. */
 .page{border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:16px}
+/* v1.0.1: il bordo arrotondato deve restare visibile sopra la testata e sotto il footer.
+   Non tagliare .page con overflow:hidden: il menu Tema e la sidebar devono restare liberi. */
+.page>.topbar{border-radius:15px 15px 0 0}
+.page>.footer{border-radius:0 0 15px 15px}
 .page>.hero,.page main>.hero{background:var(--surface);border-radius:0;box-shadow:none}
 .article-wrap{background:transparent;border-color:var(--line)}
 .article{background:var(--surface);color:var(--ink);border:0;border-radius:12px}
