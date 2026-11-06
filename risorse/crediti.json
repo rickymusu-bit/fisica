@@ -4618,10 +4618,6 @@
       "anchor": "index",
       "credits": [
         {
-          "resource": "credit-c563b110d74cf49f",
-          "notice": 0
-        },
-        {
           "resource": "credit-3e9f846de0485c3d",
           "notice": 0
         },
@@ -4686,15 +4682,7 @@
           "notice": 0
         },
         {
-          "resource": "credit-b72e0a7afdb40e60",
-          "notice": 0
-        },
-        {
           "resource": "credit-363f6b0edc24a3dd",
-          "notice": 0
-        },
-        {
-          "resource": "credit-617183edee5143fb",
           "notice": 0
         }
       ],
@@ -5445,21 +5433,6 @@
           "attribute": "inline",
           "location": null,
           "credit_id": "bilancia-pesetti-generati"
-        }
-      ]
-    },
-    {
-      "id": "asset-1bdf6536dad454fdfe0d67b33a052deb6ac833e63016b907ca714e0c912b96a5",
-      "kind": "image/webp",
-      "uses": [
-        {
-          "document": "index.html",
-          "kind": "image/webp",
-          "description": "Struttura dorata e cablaggi del sistema di raffreddamento di un computer quantistico IQM.",
-          "locator": "cover-image",
-          "attribute": "cover-data",
-          "location": "copertine/computer-quantistico.webp",
-          "credit_id": "credit-c563b110d74cf49f"
         }
       ]
     },
@@ -6513,21 +6486,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-grafico-calore-temperatura"
-        }
-      ]
-    },
-    {
-      "id": "asset-517339d272efab6e594f8140397f2e0204c43794102c2f7462f0531c73a926e6",
-      "kind": "image/webp",
-      "uses": [
-        {
-          "document": "index.html",
-          "kind": "image/webp",
-          "description": "Stambecchi si muovono sulla ripida parete in pietra della diga del Cingino.",
-          "locator": "cover-image",
-          "attribute": "cover-data",
-          "location": "copertine/stambecchi-cingino.webp",
-          "credit_id": "credit-b72e0a7afdb40e60"
         }
       ]
     },
@@ -8161,6 +8119,21 @@
       ]
     },
     {
+      "id": "asset-d2d6d84897a983570e74fe6a4580793b97a6ce1b93af7d8958033f5405193038",
+      "kind": "img",
+      "uses": [
+        {
+          "document": "index.html",
+          "kind": "img",
+          "description": "Strati concentrici e componenti del grande rivelatore CMS al CERN.",
+          "locator": null,
+          "attribute": "src",
+          "location": "copertine/cms-cern.webp",
+          "credit_id": null
+        }
+      ]
+    },
+    {
       "id": "asset-d34103f14e533c4f26858283ae1f8e4b7d09250c8bb322483d4b2462fe84fd46",
       "kind": "image/jpeg",
       "uses": [
@@ -8211,21 +8184,6 @@
           "attribute": "src",
           "location": null,
           "credit_id": "credit-2be023265bdc8d43"
-        }
-      ]
-    },
-    {
-      "id": "asset-d684aa9291f3703a54cecbb858dea34e5732ad25ddae14cdbe2a3274f52fcc7a",
-      "kind": "img",
-      "uses": [
-        {
-          "document": "index.html",
-          "kind": "img",
-          "description": "Struttura dorata e cablaggi del sistema di raffreddamento di un computer quantistico IQM.",
-          "locator": null,
-          "attribute": "src",
-          "location": "copertine/computer-quantistico.webp",
-          "credit_id": null
         }
       ]
     },
@@ -8706,21 +8664,6 @@
           "attribute": "data-still",
           "location": null,
           "credit_id": null
-        }
-      ]
-    },
-    {
-      "id": "asset-f5fd0a005e40ed555ebce44229038eeba7e4752639a7474328c33b19b1ea9de7",
-      "kind": "image/webp",
-      "uses": [
-        {
-          "document": "index.html",
-          "kind": "image/webp",
-          "description": "Strutture immerse nell’acqua del reattore Advanced Test Reactor, illuminate da un bagliore blu.",
-          "locator": "cover-image",
-          "attribute": "cover-data",
-          "location": "copertine/reattore-atr.webp",
-          "credit_id": "credit-617183edee5143fb"
         }
       ]
     },

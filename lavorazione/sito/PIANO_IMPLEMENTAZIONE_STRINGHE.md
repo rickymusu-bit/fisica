@@ -6,6 +6,10 @@
 **Ramo di lavoro attuale:** `design/stringhe-portale` (PR #43, bozza).
 **Scopo di questo documento:** consegnare a Codex un elenco eseguibile di interventi sul portale, non richiedere la pubblicazione in `main`.
 
+## Aggiornamento del progetto (PR #111) — 2026-11-06
+
+Nuovo sottotitolo «Le basi della Fisica», brand con logo a sinistra e sottotitolo allineato sotto al titolo. Copertine orizzontali soltanto: 17 voci nel manifest attivo, in riquadro 3:2 con object-fit:contain. Le tre fotografie verticali restano nel repository e nei registri di licenza, ma non nella rotazione della home. La scelta del formato e la pubblicazione attendono la valutazione dell'anteprima reale da parte del docente.
+
 ## Correzione corrente — Novità e allineamento della copertina
 
 Richiesta del 23 ottobre 2026: foto e didascalia sotto titolo e sottotitolo, sullo stesso margine sinistro anche su desktop. Questa disposizione sostituisce il precedente affiancamento desktop. Immagini intere e proporzioni conservate. Le Novità distinguono le pubblicazioni dello stesso giorno mediante orari ISO 8601 con fuso nei metadati editoriali; date visibili in Europe/Rome. Anteprima da approvare prima della pubblicazione.
@@ -45,7 +49,7 @@ Implementazione nel ramo design con modello v11 e tema comune. Esiti e limiti in
 ## Regole preliminari e ambito
 
 - Prima di intervenire leggere `AGENTS.md`, `MASTER_PROMPT.md`, `pubblicazione.json`, `riferimenti/TERMINOLOGIA_SITO.md`, `identita/README.md` e `lavorazione/sito/stato.md`.
-- Il nome ufficiale **Stringhe** e il sottotitolo esatto **L’essenziale della Fisica** sostituiscono le precedenti denominazioni del sito, nei soli elementi pertinenti all'identità e alla navigazione. Non riscrivere i contenuti didattici.
+- Il nome ufficiale **Stringhe** e il sottotitolo esatto **Le basi della Fisica** sostituiscono le precedenti denominazioni del sito, nei soli elementi pertinenti all'identità e alla navigazione. Non riscrivere i contenuti didattici.
 - La richiesta attuale dell'utente corregge la proposta iniziale del portale: **conservare il logo circolare animato originale e la copertina fotografica casuale**. Non sostituire il logo con onde lineari. I quattro pulsanti della nuova home sono già approvati.
 - Gli articoli sospesi in `pubblicazione.json` non devono essere modificati, generati, linkati, reintrodotti o pubblicati. Non alterare i reindirizzamenti dismessi, l'ordine didattico e le licenze.
 - Usare nomi di file stabili; Git conserva la cronologia. Conservare le dispense come HTML autonomi, con risorse incorporate e funzionamento offline dove previsto. Le modifiche di navigazione/tema possono essere applicate **alle sole copie di pubblicazione** mediante il generatore, evitando di riscrivere automaticamente gli HTML sorgenti.

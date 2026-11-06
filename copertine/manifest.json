@@ -1,15 +1,5 @@
 [
   {
-    "id": "computer-quantistico",
-    "src": "copertine/computer-quantistico.webp",
-    "width": 1067,
-    "height": 1600,
-    "title": "Computer quantistico",
-    "caption": "Un computer quantistico IQM a Espoo, in Finlandia.",
-    "alt": "Struttura dorata e cablaggi del sistema di raffreddamento di un computer quantistico IQM.",
-    "credit_id": "credit-c563b110d74cf49f"
-  },
-  {
     "id": "cms-cern",
     "src": "copertine/cms-cern.webp",
     "width": 1600,
@@ -170,16 +160,6 @@
     "credit_id": "credit-d44568883380600b"
   },
   {
-    "id": "stambecchi-cingino",
-    "src": "copertine/stambecchi-cingino.webp",
-    "width": 1200,
-    "height": 1600,
-    "title": "In equilibrio sulla diga",
-    "caption": "Stambecchi sulla parete della diga del Cingino, in Italia.",
-    "alt": "Stambecchi si muovono sulla ripida parete in pietra della diga del Cingino.",
-    "credit_id": "credit-b72e0a7afdb40e60"
-  },
-  {
     "id": "marte-zhurong",
     "src": "copertine/marte-zhurong.webp",
     "width": 1280,
@@ -188,15 +168,5 @@
     "caption": "Il paesaggio marziano ripreso dal rover Zhurong.",
     "alt": "Terreno rosso e dune su Marte, con una parte del rover Zhurong in primo piano.",
     "credit_id": "credit-363f6b0edc24a3dd"
-  },
-  {
-    "id": "reattore-atr",
-    "src": "copertine/reattore-atr.webp",
-    "width": 1218,
-    "height": 1600,
-    "title": "Un bagliore blu",
-    "caption": "L’Advanced Test Reactor, all’Idaho National Laboratory.",
-    "alt": "Strutture immerse nell’acqua del reattore Advanced Test Reactor, illuminate da un bagliore blu.",
-    "credit_id": "credit-617183edee5143fb"
   }
 ]

@@ -107,11 +107,11 @@ def shell(title, body, source, home=False, service=False):
     return apply_theme(f'<!doctype html><html lang="it"><head><meta charset="utf-8">'
             f'<meta name="viewport" content="width=device-width,initial-scale=1">'
             f'<meta name="theme-color" content="#f6f9fe">'
-            f'<meta name="description" content="Stringhe — L’essenziale della Fisica. Capitoli e quiz di Fisica.">'
+            f'<meta name="description" content="Stringhe — Le basi della Fisica. Capitoli e quiz di Fisica.">'
             f'<title>{e(title)} — Stringhe</title><style>{font_css(source)}{CSS}</style></head>'
             f'<body><a class="skip" href="#main">Vai al contenuto</a>{navigation_header('home' if home else ('catalogue' if title == 'Tutti i capitoli' else ('quiz' if title == 'Quiz' else 'comparison')))}'
             f'<main id="main">{body}</main>'
-            '<footer class="site-footer"><span>Stringhe — L’essenziale della Fisica</span>'
+            '<footer class="site-footer"><span>Stringhe — Le basi della Fisica</span>'
             f'</footer>{credits}{logo_script()}</body></html>')
 
 
@@ -166,8 +166,8 @@ def render_home(source, covers, allowed):
         for x in recent_chapters(items))
     body = (f'<section class="hero home-title home-intro">'
             '<div class="hero-copy">'
-            f'<div class="hero-title">{logo()}<h1><a class="home-title-link" href="index.html" aria-label="Stringhe, home">Stringhe</a></h1></div><p class="subtitle">L’essenziale della Fisica</p></div>'
-            f'<figure class="home-cover" style="--cover-ratio:{first["width"]/first["height"]:.8f}"><img id="random-cover" src="{e(first["src"])}" alt="{e(first["alt"])}" width="{first["width"]}" height="{first["height"]}" loading="eager">'
+            f'<div class="hero-title">{logo()}<div class="home-brand-text"><h1><a class="home-title-link" href="index.html" aria-label="Stringhe, home">Stringhe</a></h1><p class="subtitle">Le basi della Fisica</p></div></div></div>'
+            f'<figure class="home-cover"><div class="home-cover-frame"><img id="random-cover" src="{e(first["src"])}" alt="{e(first["alt"])}" width="{first["width"]}" height="{first["height"]}" loading="eager"></div>'
             f'<figcaption id="cover-caption">{e(first["caption"])}</figcaption></figure></section>'
             '<section class="actions" aria-label="Accessi principali">'
             '<a class="action" href="articoli.html"><span class="action-symbol">≡</span><strong>Tutti i capitoli</strong><small>Scegli un argomento</small></a>'
@@ -185,7 +185,7 @@ def render_home(source, covers, allowed):
             'const covers=JSON.parse(document.getElementById("cover-data").textContent);'
             'if(covers.length){const c=covers[Math.floor(Math.random()*covers.length)];'
             'const img=document.getElementById("random-cover");img.width=c.width;img.height=c.height;'
-            'img.closest("figure").style.setProperty("--cover-ratio",c.width/c.height);img.src=c.src;img.alt=c.alt;'
+            'img.src=c.src;img.alt=c.alt;'
             'document.getElementById("cover-caption").textContent=c.caption;}})();</script>'
             '<noscript><p>Per la scelta casuale serve JavaScript; puoi consultare il catalogo dei capitoli.</p></noscript>')
     return shell("Home", body, source, home=True)
@@ -246,7 +246,7 @@ def render_quiz(source, allowed):
 def enhance_article(document, filename):
     # Solo l'HTML pubblicabile viene modificato: sorgenti originali intatti.
     document = document.replace("Materia Oscura", "Stringhe")
-    document = document.replace("Guida pratica per fare luce sulla Fisica", "L’essenziale della Fisica")
+    document = document.replace("Guida pratica per fare luce sulla Fisica", "Le basi della Fisica")
     document = document.replace("https://rickymusu-bit.github.io/fisica/#indice", "articoli.html")
     header_pattern = r'<header\b[^>]*class="[^"]*\btopbar\b[^"]*"[^>]*>[\s\S]*?</header>'
     def replace_header(match):
@@ -271,7 +271,7 @@ def render_comparison(source):
 <label>Reticolo <select id="grid-variant"><option value="A">A — ortogonale</option><option value="B">B — lieve curvatura</option></select></label>
 <label>Posizione <select id="edge-variant"><option value="sides">Ai lati, in verticale</option><option value="both">Sopra e sotto</option><option value="top">Solo sopra</option></select></label>
 </div>
-<section class="hero"><div class="hero-copy"><p class="eyebrow">Stringhe</p><h2>L’essenziale della Fisica</h2><p>Un tema leggero intorno ai contenuti.</p></div></section>
+<section class="hero"><div class="hero-copy"><p class="eyebrow">Stringhe</p><h2>Le basi della Fisica</h2><p>Un tema leggero intorno ai contenuti.</p></div></section>
 <div class="actions"><a class="action" href="articoli.html"><strong>Tutti i capitoli</strong><small>Scegli un argomento</small></a><button class="action" type="button" data-demo-dialog><strong>Mi sento fortunato</strong><small>Apri la finestra di esempio</small></button><a class="action" href="quiz.html"><strong>Quiz</strong><small>Prossimamente</small></a></div>
 <div class="comparison-grid"><article class="comparison-card"><h2>Una card del catalogo</h2><p>Termologia</p><p>Una descrizione breve: le curve rimangono sul bordo e non attraversano il testo.</p><a href="articoli.html">Esplora i capitoli →</a></article>
 <section class="comparison-card"><h2>Una lettura più lunga</h2><p>La superficie di lettura è uniforme e opaca. Il reticolo resta visibile soltanto negli spazi esterni alle card, mentre gli accenti blu accompagnano i comandi.</p><p>Le due curve hanno lo stesso periodo e sono in opposizione di fase: qui sono disegni distinti, non la loro somma. In A hanno la stessa ampiezza; in B la seconda ha un’ampiezza pari al 60% della prima.</p><button class="download" type="button" data-demo-dialog>Apri la finestra</button></section></div>

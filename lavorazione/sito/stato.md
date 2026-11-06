@@ -1,5 +1,27 @@
 # Stato — Home e GitHub Pages
 
+## Allineamento inventario crediti 1.2.3 (2026-11-06)
+
+La riduzione da 20 a 17 copertine comporta la sincronizzazione dell'inventario statico della home e delle due viste dei crediti. Rimossi soltanto gli utilizzi delle tre immagini verticali nella home e il vecchio fallback verticale; registrato il nuovo fallback orizzontale (CMS CERN). Le risorse originali `credit-c563b110d74cf49f`, `credit-b72e0a7afdb40e60` e `credit-617183edee5143fb` restano registrate con le rispettive impronte e licenze. Non sono stati eliminati file immagine né schede di provenienza.
+
+## Revisione copertine 1.2.2 — esclusione fotografie verticali (2026-11-06)
+
+Confermata la scelta editoriale: le fotografie verticali non compaiono più nella rotazione della home. Dal manifest attivo rimosse le voci `computer-quantistico` (1067×1600), `stambecchi-cingino` (1200×1600) e `reattore-atr` (1218×1600); restano 17 fotografie orizzontali. I WebP originali e la loro documentazione di provenienza/licenza sono conservati nel repository e nel registro dei crediti, senza cancellazioni. Anche il fallback e i dati incorporati nel sorgente della home sono stati riallineati. Il contenitore grafico rimane 3:2 con immagine integra, e il sottotitolo resta «Le basi della Fisica».
+
+La PR #111 rimane in bozza: richiede screenshot effettivi presentati all'utente, test superati e approvazione esplicita prima del merge. Versione della revisione: 1.2.2, timestamp 2026-11-06T20:38:00+01:00.
+
+## Anteprima PR #111: cornice copertina fissa e nuovo sottotitolo (versione 1.2.0, 2026-11-06)
+
+Richiesta: sostituire il sottotitolo in ogni elemento attuale con «Le basi della Fisica». Le 20 copertine includono tre fotografie verticali e diciassette orizzontali: proposta una cornice 3:2 a tutta larghezza per ogni fotografia nella home. `object-fit:contain` conserva il contenuto fotografico senza tagliarlo; le fotografie verticali hanno superfici libere laterali nel colore uniforme del tema. Aggiornati testo HTML, metadati, footer, confronto, documentazione corrente, CSS e verifiche browser. Le fotografie originali, il relativo alt, le didascalie e la rotazione restano invariati.
+
+Questa implementazione sul ramo della PR #111 è **solo anteprima**. Per il merge occorrono test superati, screenshot Chromium forniti direttamente all'utente e approvazione esplicita.
+
+## Revisione home 1.1.0 — logo, titolo e sottotitolo allineati
+
+Richiesta approvata tramite confronto di mockup: variante A senza barra divisoria. Nella card della home il logo animato compare a sinistra; titolo «Stringhe» e sottotitolo blu «L’essenziale della Fisica» formano un unico blocco a destra, allineato a sinistra. La struttura è la stessa su smartphone e desktop, con dimensioni fluide per evitare overflow; non aggiungere decorazioni o linee di separazione. Il logo rimane un pulsante indipendente per pausa/ripresa; il titolo mantiene il link alla home. La fotografia casuale, i rapporti d’aspetto, le didascalie e i controlli del sito restano invariati.
+
+Codice aggiornato nel renderer `scripts/strings_site.py` e CSS comune `identita/tema-stringhe.css`; copie incorporate sincronizzate in modello, confronto e crediti. Regressioni per markup, parità del tema e geometria mobile/desktop. Branch temporaneo `feat/home-brand-aligned-1.1.0`: PR in bozza e screenshot di verifica da approvare prima del merge, secondo `AGENTS.md`. Nessuna pubblicazione automatica da questo ramo.
+
 ## Correzione proposta 2026-11-06 — titolo tagliato nella copertina desktop (CSS 1.0.2)
 
 Segnalazione visiva sulla pagina «Le relazioni di proporzionalità»: con griglia a due colonne, il titolo contiene una parola più larga della colonna riservata al testo e invade la copertina. Correzione nel tema condiviso, limitata al titolo h1 della testata dei capitoli: larghezza interna vincolata, sillabazione italiana quando disponibile e interruzione di emergenza negli altri browser; sui desktop la dimensione massima del carattere scende da 76 a 64 px. La figura conserva proporzioni, testo alternativo e posizione. Le regole per i titoli di home e sezioni non sono modificate.
