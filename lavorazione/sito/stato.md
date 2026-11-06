@@ -1,5 +1,9 @@
 # Stato — Home e GitHub Pages
 
+## Allineamento inventario crediti 1.2.3 (2026-11-06)
+
+La riduzione da 20 a 17 copertine comporta la sincronizzazione dell'inventario statico della home e delle due viste dei crediti. Rimossi soltanto gli utilizzi delle tre immagini verticali nella home e il vecchio fallback verticale; registrato il nuovo fallback orizzontale (CMS CERN). Le risorse originali `credit-c563b110d74cf49f`, `credit-b72e0a7afdb40e60` e `credit-617183edee5143fb` restano registrate con le rispettive impronte e licenze. Non sono stati eliminati file immagine né schede di provenienza.
+
 ## Revisione copertine 1.2.2 — esclusione fotografie verticali (2026-11-06)
 
 Confermata la scelta editoriale: le fotografie verticali non compaiono più nella rotazione della home. Dal manifest attivo rimosse le voci `computer-quantistico` (1067×1600), `stambecchi-cingino` (1200×1600) e `reattore-atr` (1218×1600); restano 17 fotografie orizzontali. I WebP originali e la loro documentazione di provenienza/licenza sono conservati nel repository e nel registro dei crediti, senza cancellazioni. Anche il fallback e i dati incorporati nel sorgente della home sono stati riallineati. Il contenitore grafico rimane 3:2 con immagine integra, e il sottotitolo resta «Le basi della Fisica».
