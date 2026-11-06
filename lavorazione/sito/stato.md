@@ -1,5 +1,11 @@
 # Stato — Home e GitHub Pages
 
+## Correzione proposta 2026-11-06 — titolo tagliato nella copertina desktop (CSS 1.0.2)
+
+Segnalazione visiva sulla pagina «Le relazioni di proporzionalità»: con griglia a due colonne, il titolo contiene una parola più larga della colonna riservata al testo e invade la copertina. Correzione nel tema condiviso, limitata al titolo h1 della testata dei capitoli: larghezza interna vincolata, sillabazione italiana quando disponibile e interruzione di emergenza negli altri browser; sui desktop la dimensione massima del carattere scende da 76 a 64 px. La figura conserva proporzioni, testo alternativo e posizione. Le regole per i titoli di home e sezioni non sono modificate.
+
+Copie del CSS incorporato allineate nel modello canonico, nel confronto e nei crediti. Test di regressione `scripts/test_hero_title_wrap_v1_0_0.py` dedicato a regole e parità degli stili incorporati. Ramo temporaneo `fix/chapter-hero-title-wrap-1.0.2`; PR in bozza e verifica visiva/CI da completare prima di approvazione, merge e pubblicazione. Nessuna autorizzazione alla pubblicazione ancora ricevuta.
+
 ## Correzione 2026-11-03 — angoli delle pagine dei capitoli (CSS 1.0.1)
 
 Segnalazione con due schermate Android, ingrandite intenzionalmente per mostrare gli spigoli: non è un difetto dello zoom. La cornice `.page` ha un raggio di 16 px, ma le superfici rettangolari interne `.topbar` e `.footer` possono coprirne gli angoli. Correzione comune: raggio interno di 15 px ai due angoli superiori della testata e ai due inferiori del footer. Evitato `overflow:hidden` sulla pagina, che potrebbe tagliare il menu Tema e la sidebar dell'indice. Nessuna modifica a testo, immagini, misure o grafici didattici.

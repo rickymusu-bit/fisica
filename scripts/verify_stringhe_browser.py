@@ -444,6 +444,24 @@ def main():
                             assert abs(geometry['hero']['right']-geometry['article']['right'])<1
                             assert abs(geometry['hero']['bottom']-geometry['wrap']['top'])<1
                             assert geometry['gutterHero']==geometry['gutterBody']
+                        if name == 'relazioni_proporzionalita_it.html':
+                            # Il testo reale, non soltanto il contenitore, deve restare nella colonna.
+                            title_geometry = page.locator('.hero-grid').evaluate("""grid=>{
+                                const heading=grid.querySelector('h1');
+                                const figure=grid.querySelector('figure.cover');
+                                const t=heading.getBoundingClientRect(), f=figure.getBoundingClientRect();
+                                return {textWidth:heading.scrollWidth, availableWidth:heading.clientWidth,
+                                        titleRight:t.right, imageLeft:f.left, titleBottom:t.bottom, imageTop:f.top};
+                            }""")
+                            assert title_geometry['textWidth'] <= title_geometry['availableWidth'] + 1, (width, theme, title_geometry)
+                            if width > 1000:
+                                assert title_geometry['titleRight'] <= title_geometry['imageLeft'] + 1, (width, theme, title_geometry)
+                            else:
+                                assert title_geometry['titleBottom'] <= title_geometry['imageTop'] + 1, (width, theme, title_geometry)
+                            if width in (390, 1024, 1440):
+                                page.locator('.hero').screenshot(
+                                    path=str(SHOTS / f'titolo-proporzionalita-{width}-{theme}.png'),
+                                    animations='disabled')
                         checks.append([name, width, theme])
             # Selezionare i tratti non deve cambiare la posizione della pagina.
             page.goto(base+'passaggi_di_stato.html')
