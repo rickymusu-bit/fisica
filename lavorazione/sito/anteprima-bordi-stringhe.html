@@ -216,8 +216,8 @@ a{color:inherit}button,input,select{font:inherit}button,select{color:var(--ink)}
 .home-intro .hero-title h1{font-size:clamp(36px,5vw,68px)}
 /* Home 1.2.0: cornice fissa 3:2 senza tagliare le fotografie originali. */
 .home-intro .home-cover{inline-size:100%;width:100%;max-width:100%;min-width:0;margin:0;justify-self:stretch;border:0;border-radius:0;padding:0;background:transparent;overflow:visible}
-.home-intro .home-cover-frame{display:grid;place-items:center;width:100%;aspect-ratio:3/2;overflow:hidden;border-radius:12px;background:var(--surface-soft)}
-.home-intro .home-cover img{display:block;width:100%;height:100%;max-width:100%;object-fit:contain;background:transparent}
+.home-intro .home-cover-frame{position:relative;width:100%;aspect-ratio:3/2;overflow:hidden;border-radius:12px;background:var(--surface-soft)}
+.home-intro .home-cover img{position:absolute;inset:0;display:block;width:100%;height:100%;max-width:100%;object-fit:contain;background:transparent}
 .home-intro .home-cover figcaption{margin:10px 0 0;padding:0;width:100%;text-align:left;color:var(--muted);font-size:13px;line-height:1.5;background:transparent}
 
 /* Sottotitolo della home nella tinta blu del tema. */

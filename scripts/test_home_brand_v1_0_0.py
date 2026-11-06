@@ -31,6 +31,7 @@ class HomeBrandLayoutTests(unittest.TestCase):
         self.assertIn('.home-intro .home-cover-frame{', css)
         self.assertIn('aspect-ratio:3/2', css)
         self.assertIn('object-fit:contain', css)
+        self.assertIn('position:absolute;inset:0', css)
         for filename in ("riferimenti/TEMA_DISPENSE.html",
                          "lavorazione/sito/anteprima-bordi-stringhe.html",
                          "crediti.html"):
