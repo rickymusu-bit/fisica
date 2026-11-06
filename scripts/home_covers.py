@@ -30,6 +30,8 @@ def load_covers(root):
             raise ValueError("Copertina duplicata")
         if any(not isinstance(cover.get(k), int) or cover[k] <= 0 for k in ("width", "height")):
             raise ValueError("Dimensioni della copertina non valide")
+        if cover["height"] > cover["width"]:
+            raise ValueError(f"Copertina verticale non ammessa nella home: {cover['src']}")
         if not all(cover[k].startswith("https://") for k in ("source", "licenseUrl")):
             raise ValueError("Fonte o licenza non valida")
         ids.add(cover["id"])

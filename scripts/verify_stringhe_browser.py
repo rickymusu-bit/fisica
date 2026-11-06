@@ -598,7 +598,7 @@ def main():
             page.goto(base + publication['articoli'][0])
             page.locator('[data-theme-menu]>summary').tap()
             assert not page.locator('#function-tooltip').is_visible()
-            # Controllo delle 20 scelte casuali e associazione immagine/alt/didascalia.
+            # Controllo di tutte le copertine orizzontali e associazione immagine/alt/didascalia.
             covers = json.loads((ROOT / 'copertine/manifest.json').read_text())
             for i, cover in enumerate(covers):
                 page.evaluate('(value)=>sessionStorage.setItem("test-random",String(value))', (i + .1) / len(covers))

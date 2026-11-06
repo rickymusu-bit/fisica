@@ -1,5 +1,11 @@
 # Stato — Home e GitHub Pages
 
+## Revisione copertine 1.2.2 — esclusione fotografie verticali (2026-11-06)
+
+Confermata la scelta editoriale: le fotografie verticali non compaiono più nella rotazione della home. Dal manifest attivo rimosse le voci `computer-quantistico` (1067×1600), `stambecchi-cingino` (1200×1600) e `reattore-atr` (1218×1600); restano 17 fotografie orizzontali. I WebP originali e la loro documentazione di provenienza/licenza sono conservati nel repository e nel registro dei crediti, senza cancellazioni. Anche il fallback e i dati incorporati nel sorgente della home sono stati riallineati. Il contenitore grafico rimane 3:2 con immagine integra, e il sottotitolo resta «Le basi della Fisica».
+
+La PR #111 rimane in bozza: richiede screenshot effettivi presentati all'utente, test superati e approvazione esplicita prima del merge. Versione della revisione: 1.2.2, timestamp 2026-11-06T20:38:00+01:00.
+
 ## Anteprima PR #111: cornice copertina fissa e nuovo sottotitolo (versione 1.2.0, 2026-11-06)
 
 Richiesta: sostituire il sottotitolo in ogni elemento attuale con «Le basi della Fisica». Le 20 copertine includono tre fotografie verticali e diciassette orizzontali: proposta una cornice 3:2 a tutta larghezza per ogni fotografia nella home. `object-fit:contain` conserva il contenuto fotografico senza tagliarlo; le fotografie verticali hanno superfici libere laterali nel colore uniforme del tema. Aggiornati testo HTML, metadati, footer, confronto, documentazione corrente, CSS e verifiche browser. Le fotografie originali, il relativo alt, le didascalie e la rotazione restano invariati.

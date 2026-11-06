@@ -8,7 +8,7 @@
 
 ## Aggiornamento del progetto (PR #111) — 2026-11-06
 
-Nuovo sottotitolo «Le basi della Fisica», brand con logo a sinistra e sottotitolo allineato sotto al titolo. Copertine visualizzate in riquadro 3:2 tramite object-fit:contain, senza ritaglio. La scelta del formato e la pubblicazione attendono la valutazione dell'anteprima reale da parte del docente.
+Nuovo sottotitolo «Le basi della Fisica», brand con logo a sinistra e sottotitolo allineato sotto al titolo. Copertine orizzontali soltanto: 17 voci nel manifest attivo, in riquadro 3:2 con object-fit:contain. Le tre fotografie verticali restano nel repository e nei registri di licenza, ma non nella rotazione della home. La scelta del formato e la pubblicazione attendono la valutazione dell'anteprima reale da parte del docente.
 
 ## Correzione corrente — Novità e allineamento della copertina
 

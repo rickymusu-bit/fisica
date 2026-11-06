@@ -1,4 +1,5 @@
 """Regressione home Stringhe 1.0.0: marchio su due colonne senza divisorio."""
+import json
 import re
 import unittest
 
@@ -22,6 +23,19 @@ class HomeBrandLayoutTests(unittest.TestCase):
         self.assertNotIn('--cover-ratio:', html)
         self.assertIn('id="random-cover"', html)
         self.assertIn('id="cover-caption"', html)
+
+    def test_cover_selection_contains_only_horizontal_photos(self):
+        covers = json.loads((ROOT / "copertine/manifest.json").read_text(encoding="utf-8"))
+        self.assertEqual(len(covers), 17)
+        ids = {cover["id"] for cover in covers}
+        self.assertTrue(all(cover["width"] >= cover["height"] for cover in covers))
+        self.assertTrue({"computer-quantistico", "stambecchi-cingino", "reattore-atr"}.isdisjoint(ids))
+        published = (ROOT / "_site/index.html").read_text(encoding="utf-8")
+        match = re.search(r'<script type="application/json" id="cover-data">(.*?)</script>', published)
+        self.assertIsNotNone(match)
+        self.assertEqual([cover["id"] for cover in json.loads(match.group(1))],
+                         [cover["id"] for cover in covers])
+        self.assertEqual(published.count('id="random-cover"'), 1)
 
     def test_theme_copies_match_and_no_separator_exists(self):
         css = (ROOT / "identita/tema-stringhe.css").read_text(encoding="utf-8")
