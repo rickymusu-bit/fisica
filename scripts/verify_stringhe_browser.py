@@ -521,6 +521,23 @@ def main():
                 assert abs(boxes['image']['width']/boxes['image']['height']-boxes['ratio']) < .01, boxes
                 assert boxes['image']['top'] >= boxes['copy']['bottom'], boxes
                 assert abs(boxes['image']['left']-boxes['copy']['left']) < 1, boxes
+                # Il logo è a sinistra del blocco, mentre titolo e sottotitolo
+                # condividono la stessa colonna anche su viewport molto stretti.
+                brand = page.locator('.home-intro .hero-title').evaluate("""row=>{
+                    const logo=row.querySelector('[data-logo-toggle]').getBoundingClientRect();
+                    const title=row.querySelector('h1').getBoundingClientRect();
+                    const subtitle=row.querySelector('.subtitle').getBoundingClientRect();
+                    const text=row.querySelector('.home-brand-text');
+                    return {logo:logo.toJSON(),title:title.toJSON(),
+                            subtitle:subtitle.toJSON(),
+                            copy:text.getBoundingClientRect().toJSON(),
+                            divider:getComputedStyle(text).borderLeftWidth};
+                }""")
+                assert brand['logo']['right'] + 3 <= brand['title']['left'], (width, brand)
+                assert abs(brand['title']['left'] - brand['subtitle']['left']) < 1, (width, brand)
+                assert brand['title']['right'] <= brand['copy']['right'] + 1, (width, brand)
+                assert brand['subtitle']['right'] <= brand['copy']['right'] + 1, (width, brand)
+                assert brand['divider'] == '0px', (width, brand)
             page.goto(base+'index.html')
             assert page.locator('.home-intro #random-cover').count() == 1
             assert page.locator('.home-intro .eyebrow').count() == 0
@@ -544,6 +561,10 @@ def main():
                         assert page.locator('.home-cover').evaluate('(e,side)=>getComputedStyle(e,":"+side).content', side) in ['none','normal']
                     assert page.locator('.home-intro .subtitle').evaluate('(e)=>getComputedStyle(e).color===(()=>{const s=document.createElement("span");s.style.color="var(--accent)";document.body.append(s);const c=getComputedStyle(s).color;s.remove();return c;})()')
                     verify_cover_layout(width)
+                    if width in (390, 1440):
+                        page.locator('.home-intro').screenshot(
+                            path=str(SHOTS / f'home-brand-1.1.0-{width}-{theme}.png'),
+                            animations='disabled')
             # Barra servizi e tooltip: hover sì, attivazione touch e focus no.
             for service_page in ['articoli.html', 'quiz.html']:
                 page.goto(base + service_page)

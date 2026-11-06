@@ -1,5 +1,11 @@
 # Stato — Home e GitHub Pages
 
+## Revisione home 1.1.0 — logo, titolo e sottotitolo allineati
+
+Richiesta approvata tramite confronto di mockup: variante A senza barra divisoria. Nella card della home il logo animato compare a sinistra; titolo «Stringhe» e sottotitolo blu «L’essenziale della Fisica» formano un unico blocco a destra, allineato a sinistra. La struttura è la stessa su smartphone e desktop, con dimensioni fluide per evitare overflow; non aggiungere decorazioni o linee di separazione. Il logo rimane un pulsante indipendente per pausa/ripresa; il titolo mantiene il link alla home. La fotografia casuale, i rapporti d’aspetto, le didascalie e i controlli del sito restano invariati.
+
+Codice aggiornato nel renderer `scripts/strings_site.py` e CSS comune `identita/tema-stringhe.css`; copie incorporate sincronizzate in modello, confronto e crediti. Regressioni per markup, parità del tema e geometria mobile/desktop. Branch temporaneo `feat/home-brand-aligned-1.1.0`: PR in bozza e screenshot di verifica da approvare prima del merge, secondo `AGENTS.md`. Nessuna pubblicazione automatica da questo ramo.
+
 ## Correzione proposta 2026-11-06 — titolo tagliato nella copertina desktop (CSS 1.0.2)
 
 Segnalazione visiva sulla pagina «Le relazioni di proporzionalità»: con griglia a due colonne, il titolo contiene una parola più larga della colonna riservata al testo e invade la copertina. Correzione nel tema condiviso, limitata al titolo h1 della testata dei capitoli: larghezza interna vincolata, sillabazione italiana quando disponibile e interruzione di emergenza negli altri browser; sui desktop la dimensione massima del carattere scende da 76 a 64 px. La figura conserva proporzioni, testo alternativo e posizione. Le regole per i titoli di home e sezioni non sono modificate.

@@ -166,7 +166,7 @@ def render_home(source, covers, allowed):
         for x in recent_chapters(items))
     body = (f'<section class="hero home-title home-intro">'
             '<div class="hero-copy">'
-            f'<div class="hero-title">{logo()}<h1><a class="home-title-link" href="index.html" aria-label="Stringhe, home">Stringhe</a></h1></div><p class="subtitle">L’essenziale della Fisica</p></div>'
+            f'<div class="hero-title">{logo()}<div class="home-brand-text"><h1><a class="home-title-link" href="index.html" aria-label="Stringhe, home">Stringhe</a></h1><p class="subtitle">L’essenziale della Fisica</p></div></div></div>'
             f'<figure class="home-cover" style="--cover-ratio:{first["width"]/first["height"]:.8f}"><img id="random-cover" src="{e(first["src"])}" alt="{e(first["alt"])}" width="{first["width"]}" height="{first["height"]}" loading="eager">'
             f'<figcaption id="cover-caption">{e(first["caption"])}</figcaption></figure></section>'
             '<section class="actions" aria-label="Accessi principali">'
