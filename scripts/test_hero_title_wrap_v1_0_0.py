@@ -15,8 +15,8 @@ EMBEDDED_PATHS = (
 class ChapterHeroTitleWrapTests(unittest.TestCase):
     def test_long_chapter_title_is_constrained_and_wrappable(self):
         css = THEME_PATH.read_text(encoding="utf-8")
-        selector = r"\\.page main>\\.hero \\.hero-grid>h1"
-        rules = re.findall(selector + r"\\s*\\{([^}]+)\\}", css)
+        selector = r"\.page main>\.hero \.hero-grid>h1"
+        rules = re.findall(selector + r"\s*\{([^}]+)\}", css)
         self.assertTrue(rules, "Manca la regola per i titoli dei capitoli")
         self.assertTrue(any(
             all(property_ in rule for property_ in (
@@ -32,7 +32,7 @@ class ChapterHeroTitleWrapTests(unittest.TestCase):
             with self.subTest(path=path.name):
                 html = path.read_text(encoding="utf-8")
                 styles = re.findall(
-                    r"<style data-stringhe-theme>([\\s\\S]*?)</style>", html)
+                    r"<style data-stringhe-theme>([\s\S]*?)</style>", html)
                 self.assertEqual(styles, [css])
         model = EMBEDDED_PATHS[0].read_text(encoding="utf-8")
         self.assertIn('<html lang="it"', model)
