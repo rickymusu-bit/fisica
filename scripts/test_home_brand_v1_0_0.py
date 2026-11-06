@@ -33,8 +33,8 @@ class HomeBrandLayoutTests(unittest.TestCase):
         published = (ROOT / "_site/index.html").read_text(encoding="utf-8")
         match = re.search(r'<script type="application/json" id="cover-data">(.*?)</script>', published)
         self.assertIsNotNone(match)
-        self.assertEqual([cover["id"] for cover in json.loads(match.group(1))],
-                         [cover["id"] for cover in covers])
+        self.assertEqual([cover["src"] for cover in json.loads(match.group(1))],
+                         [cover["src"] for cover in covers])
         self.assertEqual(published.count('id="random-cover"'), 1)
 
     def test_theme_copies_match_and_no_separator_exists(self):
