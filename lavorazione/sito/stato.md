@@ -1,5 +1,11 @@
 # Stato — Home e GitHub Pages
 
+## Anteprima PR #111: cornice copertina fissa e nuovo sottotitolo (versione 1.2.0, 2026-11-06)
+
+Richiesta: sostituire il sottotitolo in ogni elemento attuale con «Le basi della Fisica». Le 20 copertine includono tre fotografie verticali e diciassette orizzontali: proposta una cornice 3:2 a tutta larghezza per ogni fotografia nella home. `object-fit:contain` conserva il contenuto fotografico senza tagliarlo; le fotografie verticali hanno superfici libere laterali nel colore uniforme del tema. Aggiornati testo HTML, metadati, footer, confronto, documentazione corrente, CSS e verifiche browser. Le fotografie originali, il relativo alt, le didascalie e la rotazione restano invariati.
+
+Questa implementazione sul ramo della PR #111 è **solo anteprima**. Per il merge occorrono test superati, screenshot Chromium forniti direttamente all'utente e approvazione esplicita.
+
 ## Revisione home 1.1.0 — logo, titolo e sottotitolo allineati
 
 Richiesta approvata tramite confronto di mockup: variante A senza barra divisoria. Nella card della home il logo animato compare a sinistra; titolo «Stringhe» e sottotitolo blu «L’essenziale della Fisica» formano un unico blocco a destra, allineato a sinistra. La struttura è la stessa su smartphone e desktop, con dimensioni fluide per evitare overflow; non aggiungere decorazioni o linee di separazione. Il logo rimane un pulsante indipendente per pausa/ripresa; il titolo mantiene il link alla home. La fotografia casuale, i rapporti d’aspetto, le didascalie e i controlli del sito restano invariati.

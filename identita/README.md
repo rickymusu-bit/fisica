@@ -7,7 +7,7 @@ Percorsi stabili:
 - `logo-materia-oscura.svg`: vettoriale animato autonomo, con due curve separate.
 - `logo-materia-oscura.gif`: esportazione trasparente dello stesso disegno, 256 × 256 px, 80 fotogrammi a 20 fps, periodo 4 secondi.
 
-I nomi dei file del logo sono percorsi storici stabili, conservati per i collegamenti già distribuiti. Il nome corrente del sito è **Stringhe** e il sottotitolo è **L’essenziale della Fisica**.
+I nomi dei file del logo sono percorsi storici stabili, conservati per i collegamenti già distribuiti. Il nome corrente del sito è **Stringhe** e il sottotitolo è **Le basi della Fisica**.
 
 ## Geometria e movimento
 

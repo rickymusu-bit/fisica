@@ -5,7 +5,7 @@ Versione v11 — 20 ottobre 2026. La specifica `lavorazione/sito/PIANO_IMPLEMENT
 | Elemento | Nome corrente |
 | --- | --- |
 | Sito | **Stringhe** |
-| Sottotitolo | **L’essenziale della Fisica** |
+| Sottotitolo | **Le basi della Fisica** |
 | Raggruppamento | Area tematica |
 | Macro categoria dei capitoli su fenomeni termici | **Termologia** |
 | Contenuto autonomo | Capitolo |

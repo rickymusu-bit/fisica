@@ -14,10 +14,12 @@ class HomeBrandLayoutTests(unittest.TestCase):
         self.assertIn('data-logo-toggle', markup)
         self.assertIn('class="home-brand-text"', markup)
         self.assertIn('class="home-title-link" href="index.html"', markup)
-        self.assertIn('<p class="subtitle">L’essenziale della Fisica</p>', markup)
+        self.assertIn('<p class="subtitle">Le basi della Fisica</p>', markup)
         self.assertLess(markup.index('data-logo-toggle'), markup.index('class="home-brand-text"'))
         self.assertLess(markup.index('<h1>'), markup.index('class="subtitle"'))
         self.assertEqual(html.count('class="home-brand-text"'), 1)
+        self.assertIn('class="home-cover-frame"', html)
+        self.assertNotIn('--cover-ratio:', html)
         self.assertIn('id="random-cover"', html)
         self.assertIn('id="cover-caption"', html)
 
@@ -26,6 +28,9 @@ class HomeBrandLayoutTests(unittest.TestCase):
         self.assertIn('.home-intro .home-brand-text .subtitle{', css)
         self.assertIn('.home-intro .hero-title .brand-logo-toggle{', css)
         self.assertNotIn('home-brand-divider', css)
+        self.assertIn('.home-intro .home-cover-frame{', css)
+        self.assertIn('aspect-ratio:3/2', css)
+        self.assertIn('object-fit:contain', css)
         for filename in ("riferimenti/TEMA_DISPENSE.html",
                          "lavorazione/sito/anteprima-bordi-stringhe.html",
                          "crediti.html"):

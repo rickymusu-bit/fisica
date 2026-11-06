@@ -1,6 +1,6 @@
 # Stringhe
 
-**L’essenziale della Fisica**
+**Le basi della Fisica**
 
 [Sito](https://rickymusu-bit.github.io/fisica/) — [Catalogo dei capitoli](https://rickymusu-bit.github.io/fisica/articoli.html) — [Crediti e licenze](https://rickymusu-bit.github.io/fisica/crediti.html)
 

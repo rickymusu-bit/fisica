@@ -39,4 +39,4 @@ I crediti correnti devono riferirsi soltanto alle immagini e agli altri material
 
 ## Identità corrente e provenienza storica
 
-Il sito si chiama **Stringhe**, con sottotitolo **L’essenziale della Fisica**. I titoli dei documenti correnti e i riconoscimenti del progetto usano questo nome. Gli avvisi originali restano conservati come varianti storiche del registro; le associazioni correnti selezionano la variante aggiornata. La revisione dell’identità non modifica autori esterni, licenze, fonti scientifiche o documenti esclusi.
+Il sito si chiama **Stringhe**, con sottotitolo **Le basi della Fisica**. I titoli dei documenti correnti e i riconoscimenti del progetto usano questo nome. Gli avvisi originali restano conservati come varianti storiche del registro; le associazioni correnti selezionano la variante aggiornata. La revisione dell’identità non modifica autori esterni, licenze, fonti scientifiche o documenti esclusi.
